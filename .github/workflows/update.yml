@@ -170,9 +170,11 @@ jobs:
       - name: Build the folder and its history
         if: needs.plan.outputs.build == 'true'
         run: |
+          # the folder as it was: when the same tools built its history, only what changes is redone
+          cp -r "$CHANNEL" "$RUNNER_TEMP/previous"
           node tools/restore-extraction.ts "$CHANNEL" latest "$RUNNER_TEMP/latest"
           node tools/build-channel.ts "$CHANNEL" "$RUNNER_TEMP/latest"
-          node tools/build-history.ts "$CHANNEL"
+          node tools/build-history.ts "$CHANNEL" "$RUNNER_TEMP/previous"
           node tools/set-version.ts "$CHANNEL" "$GAME" "${{ needs.plan.outputs.revision }}"
 
       - name: Commit and push

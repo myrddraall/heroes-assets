@@ -63,8 +63,11 @@ Every build is kept, without storing what didn't change.
 - **In the repository,** `sources/` keeps what every build was made from: `sources/<channel>/latest/`
   the newest extraction (HDP's JSON, file names with `{build}` for the build), its older builds in
   `sources/<channel>/history/` as patches of the build after each, and every picture and texture
-  once, by content, in `sources/blobs/`. Each update rebuilds every past build from these with the
-  current tools (`tools/build-history.ts`), so a tool change reaches history too.
+  once, by content, in `sources/blobs/`. When the tools change, every past build is built again
+  from these (`tools/build-history.ts`, `history/tools.json` names the tools that built it), so a
+  tool change reaches history too. Otherwise an update only adds the build it replaces and
+  re-points the newest past build's pictures; older patches name only what differs from the build
+  after them, so they stay as they are.
 - **Builds before ours** (2.55.16.97039 to 2.57.0.98304 live, 2.55.17.97407 to 2.57.0.98182 PTR)
   are imported from HeroesToolChest's [heroes-data2](https://github.com/HeroesToolChest/heroes-data2)
   and [heroes-images](https://github.com/HeroesToolChest/heroes-images) (MIT) with
