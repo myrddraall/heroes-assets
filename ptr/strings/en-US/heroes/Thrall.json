@@ -1,0 +1,208 @@
+{
+  "abilities": {
+    "ThrallChainLightning|ThrallChainLightning|Q": {
+      "cooldownText": "Cooldown: 7 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 40</s>",
+      "fullText": "Shock an enemy with lightning, dealing <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">170</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage. The lightning then bounces <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> times to nearby enemies, dealing <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">85</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage to each enemy hit.",
+      "name": "Chain Lightning",
+      "shortText": "Shock enemies with bouncing lightning"
+    },
+    "ThrallFeralSpirit|ThrallFeralSpirit|W": {
+      "cooldownText": "Cooldown: 10 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 40</s>",
+      "fullText": "Unleash a Feral Spirit that deals <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">153</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage to enemies in its path and Roots Heroes hit for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> second. Each Hero hit increases the distance traveled by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>.",
+      "name": "Feral Spirit",
+      "shortText": "Unleash a wolf spirit to burn enemies and Root Heroes"
+    },
+    "ThrallWindfury|Windfury|E": {
+      "cooldownText": "Cooldown: 12 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Increase Thrall's Movement Speed by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c> for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> seconds. His next <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3 </c>Basic Attacks occur <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> faster and generate stacks of Frostwolf Resilience.",
+      "name": "Windfury",
+      "shortText": "Increases Attack and Movement Speed"
+    },
+    "ThrallSundering|Sundering|Heroic": {
+      "cooldownText": "Cooldown: 70 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 75</s>",
+      "fullText": "After <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c> seconds, sunder the earth in a long line, dealing <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">290</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage and shoving enemies to the side, Stunning them for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> second.",
+      "name": "Sundering",
+      "shortText": "Damages, pushes, and Stuns enemies in a line"
+    },
+    "ThrallEarthquake|ThrallEarthquake|Heroic": {
+      "cooldownText": "Cooldown: 100 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 90</s>",
+      "fullText": "After <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c> seconds, summon a massive Earthquake that pulses every <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> seconds. Each pulse lasts <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> seconds, Slowing all enemies in the area by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>, and deals <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage to enemy Heroes. Does <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3 </c>pulses.",
+      "name": "Earthquake",
+      "shortText": "Slows enemies in a massive area"
+    },
+    ":PASSIVE:|ThrallFrostwolfResilience|Trait": {
+      "fullText": "Dealing damage with Abilities grants <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> stack of Frostwolf Resilience. At <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> stacks, Thrall is instantly healed for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">240</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Health.",
+      "name": "Frostwolf Resilience",
+      "shortText": "Casting Abilities on enemies grants charges that restore health"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Cooldown: 4 seconds",
+      "fullText": "After Channeling for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> second, gain <s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s> Movement Speed.",
+      "name": "Summon Mount"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "After Channeling for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> seconds, teleport back to the Hall of Storms, instantly restoring <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c> Health and <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c> Mana.",
+      "name": "Hearthstone"
+    },
+    "ThrallCancelSundering|ThrallSunderingCancel|Heroic": {
+      "fullText": "Cancel Sundering",
+      "name": "Sundering"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Dismounts you.",
+      "name": "Unsummon Mount"
+    },
+    "ThrallSpiritShield|ThrallSpiritShieldDisabled|Active": {
+      "fullText": "Spirit Shield is disabled and will not trigger.<n/><n/>Click this button to enable Spirit Shield.",
+      "name": "Spirit Shield",
+      "shortText": "Activate to reduce incoming Ability Damage"
+    },
+    "ThrallAncestralWrath|ThrallAncestralWrath|Active": {
+      "fullText": "Activate to consume <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c> stacks of Ancestral Wrath, damaging a target enemy Hero for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c> of their maximum Health over <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> seconds, and healing Thrall for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150%</c> of the damage dealt.<n/><n/>Gain <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> stack of Ancestral Wrath every time Frostwolf Resilience activates.",
+      "name": "Ancestral Wrath",
+      "shortText": "Activate to damage and steal Health from a Hero"
+    },
+    "ThrallFrostwolfsGrace|ThrallFrostwolfResilience|Trait": {
+      "cooldownText": "Cooldown: 15 seconds",
+      "fullText": "Dealing damage with Abilities grants <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> stack of Frostwolf Resilience. At <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> stacks, Thrall is instantly healed for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">240</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Health.",
+      "name": "Frostwolf Resilience",
+      "shortText": "Casting Abilities on enemies grants charges that restore health"
+    },
+    "ThrallSpiritShield|ThrallSpiritShieldEnabled|Active": {
+      "cooldownText": "Cooldown: 45 seconds",
+      "fullText": "Every <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">45</c> seconds, gain <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">70</c> Spell Armor against the next enemy Ability and subsequent Abilities for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> seconds. Frostwolf Resilience reduces this cooldown by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> seconds.<n/><n/>Can be toggled to allow or prevent this talent from triggering automatically.",
+      "name": "Spirit Shield"
+    },
+    "ThrallWindRush|ThrallWindRush|Active": {
+      "cooldownText": "Cooldown: 90 seconds",
+      "fullText": "Activate to immediately teleport to a target location and gain Windfury.",
+      "name": "Wind Rush",
+      "shortText": "Activate to teleport and gain Windfury"
+    }
+  },
+  "talents": {
+    "ThrallEchooftheElements|ThrallEchooftheElements|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Quest:</c> Kill Minions or Heroes within <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> seconds of hitting them with Chain Lightning.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Reward:</c> After killing <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c> enemies, reduce the Mana cost of Chain Lightning from <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40</c> to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Reward:</c> After killing <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50</c> enemies, Chain Lightning gains an extra charge.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Mythic Reward:</c> After killing <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">125</c> enemies, Chain Lightning can now strike the same target multiple times, and also strikes <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> additional target per bounce.",
+      "name": "Echo of the Elements",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Quest:</c> Killing enemies grant chain lightning charges, forks"
+    },
+    "ThrallCrashLightning|ThrallCrashLightning|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Quest:</c> Hit at least <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> Heroes with a single use of Chain Lightning. Upon dying, lose <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> stacks. Gained rewards cannot be lost.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Reward:</c> After hitting multiple Heroes <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> times, Chain Lightning deals <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">270</c> additional damage on its bounces after the initial strike.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Mythic Reward:</c> After hitting multiple Heroes <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30</c> times, Chain Lightning deals <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">325</c> additional damage on its bounces, and prioritizes bouncing to enemy Heroes.",
+      "name": "Crash Lightning",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Quest:</c> Multiple Hero hits empower Chain Lightning"
+    },
+    "ThrallMaelstromWeapon|ThrallMaelstromWeapon|E|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Quest:</c> Basic Attack Heroes while Windfury's Movement Speed bonus is active.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Reward:</c> After hitting <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c> Heroes, increase the Movement Speed bonus of Windfury to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> and Thrall's Basic Attacks deal <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40</c> additional damage.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Reward:</c> After hitting <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">55</c> Heroes, Thrall permanently gains <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c> increased Movement Speed and his Basic Attacks gain an additional <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75</c> damage.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Mythic Reward:</c> After hitting <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100</c> Heroes, Frostwolf Resilience healing restores <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">200%</c> more Health.",
+      "name": "Maelstrom Weapon",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Quest: </c> Windfury attacks increase Move Speed"
+    },
+    "ThrallFeralResilience|ThrallFeralResilience|W|Level4": {
+      "fullText": "Heroes damaged by Feral Spirit grant <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> stacks of Frostwolf Resilience and <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> stacks of Feral Resilience, granting <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75</c> Physical Armor against the next incoming Hero Basic Attack.<n/><n/>Stacks are consumed on the next cast of Feral Spirit.",
+      "name": "Feral Resilience",
+      "shortText": "Feral Spirit grants Physical Armor, Frostwolf Resilience"
+    },
+    "ThrallFrostwolfPack|ThrallFrostwolfPack|W|Level4": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Quest:</c> Hit <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> Heroes with Feral Spirit. Progress is lost on death and when Thrall fails to hit a Hero.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Reward:</c> Reduce the cooldown and Mana cost of Feral Spirit by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>.",
+      "name": "Frostwolf Pack",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Quest:</c> Reduce Feral Spirit cooldown, cost"
+    },
+    "ThrallMasteryManaTide|ThrallManaTideTalent|Trait|Level4": {
+      "fullText": "Frostwolf Resilience restores <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> Mana and reduces Basic Ability cooldowns by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c> seconds.",
+      "name": "Mana Tide",
+      "shortText": "Frostwolf Resilience restores Mana, lowers cooldowns"
+    },
+    "ThrallMasteryRollingThunder|ThrallRollingThunderTalent|Q|Level7": {
+      "fullText": "<c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Passive</c>: Chain Lightning bounces an additional time.<n/><n/>For <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c> seconds after hitting an enemy with Chain Lightning, Thrall's next Basic Attack against them grants a stack of Frostwolf Resilience. If the target is an enemy Hero, then he also deals damage to them equal to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3%</c> of their maximum Health and healing for the same amount.<n/>",
+      "name": "Rolling Thunder",
+      "shortText": "Chain Lightning empowers Basic Attacks, extra bounce"
+    },
+    "ThrallAncestralWrath|ThrallAncestralWrath|Active|Level7": {
+      "fullText": "Activate to consume <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c> stacks of Ancestral Wrath, damaging a target enemy Hero for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c> of their maximum Health over <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> seconds, and healing Thrall for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150%</c> of the damage dealt.<n/><n/>Gain <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> stack of Ancestral Wrath every time Frostwolf Resilience activates.",
+      "name": "Ancestral Wrath",
+      "shortText": "Activate to damage and steal Health from a Hero"
+    },
+    "ThrallElementalAssault|ThrallElementalAssault|Passive|Level7": {
+      "fullText": "After using an Ability, Thrall's next Basic Attack within <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> seconds deals <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">45%</c> more damage.",
+      "name": "Elemental Assault",
+      "shortText": "Abilities increase Basic Attack damage"
+    },
+    "ThrallHeroicAbilitySundering|Sundering|Heroic|Level10": {
+      "cooldownText": "Cooldown: 70 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 75</s>",
+      "fullText": "After <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c> seconds, sunder the earth in a long line, dealing <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">290</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage and shoving enemies to the side, Stunning them for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> second.",
+      "name": "Sundering",
+      "shortText": "Damages, pushes, and Stuns enemies in a line"
+    },
+    "ThrallHeroicAbilityEarthquake|ThrallEarthquake|Heroic|Level10": {
+      "cooldownText": "Cooldown: 100 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 90</s>",
+      "fullText": "After <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c> seconds, summon a massive Earthquake that pulses every <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> seconds. Each pulse lasts <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> seconds, Slowing all enemies in the area by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>, and deals <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage to enemy Heroes. Does <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3 </c>pulses.",
+      "name": "Earthquake",
+      "shortText": "Slows enemies in a massive area"
+    },
+    "ThrallMasteryGraceOfAir|ThrallGraceOfAirTalent|E|Level13": {
+      "fullText": "Windfury attacks grant twice as many stacks of Frostwolf Resilience.",
+      "name": "Grace Of Air",
+      "shortText": "Windfury grants double Frostwolf Resilience"
+    },
+    "ThrallMasteryFrostwolfsGrace|ThrallFrostwolfResilienceSurgeOfHealing|Trait|Level13": {
+      "cooldownText": "Cooldown: 15 seconds",
+      "fullText": "Frostwolf Resilience can be activated to instantly heal. This healing is increased by up to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> based on Thrall's missing health.",
+      "name": "Frostwolf's Grace",
+      "shortText": "Activate Frostwolf Resilience to instantly heal"
+    },
+    "ThrallSpiritShield|ThrallSpiritShield|Active|Level13": {
+      "cooldownText": "Cooldown: 45 seconds",
+      "fullText": "Every <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">45</c> seconds, gain <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">70</c> Spell Armor against the next enemy Ability and subsequent Abilities for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> seconds. Frostwolf Resilience reduces this cooldown by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> seconds.<n/><n/>Can be toggled to allow or prevent this talent from triggering automatically.",
+      "name": "Spirit Shield",
+      "shortText": "Periodically gain temporary Spell Armor"
+    },
+    "ThrallMasteryTempestFury|ThrallTempestFuryTalent|E|Level16": {
+      "fullText": "The final strike of Windfury hits <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> times for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75% </c>normal damage. These hits do not provide quest progress.",
+      "name": "Tempest Fury",
+      "shortText": "Windfury's final strike hits 3 times"
+    },
+    "ThrallThunderstorm|ThrallThunderstorm|Q|Level16": {
+      "fullText": "Chain Lightning Slows the primary target by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8%</c> for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> seconds when used on Heroes.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Quest:</c> Targeting a Hero directly with Chain Lightning increases this Slow by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8%</c>, up to an additional <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Reward:</c> While at a <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> bonus, Chain Lightning's damage is increased by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c>.<n/><n/>Bonuses are reset if Chain Lightning is used on the same Hero it was last used on, or if Thrall dies.",
+      "name": "Thunderstorm",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Quest:</c> Hit Heroes to make Chain Lightning Slow"
+    },
+    "ThrallAlphaWolf|ThrallAlphaWolf|W|Level16": {
+      "fullText": "For <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> seconds after a Hero is hit by Feral Spirit, Thrall's Basic Attacks against them deal an additional <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3%</c> of the target's maximum Health as damage.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Passive:</c> Increase the duration of Feral Spirit's Root to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> seconds.",
+      "name": "Alpha Wolf",
+      "shortText": "Feral Spirit has longer Root, empowers Attacks"
+    },
+    "ThrallMasteryWorldbreaker|ThrallWorldbreakerTalent|Heroic|Level20": {
+      "fullText": "Lower the cooldown of Sundering by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40</c> seconds. After Sundering impacts, it leaves behind an impassable rift, blocking unit movement for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> seconds.",
+      "name": "Worldbreaker",
+      "shortText": "Sundering creates impassable terrain"
+    },
+    "ThrallMasteryEarthenShields|ThrallEarthenShieldsTalent|Heroic|Level20": {
+      "fullText": "Allies within the Earthquake area gain a Shield equal to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c> of their maximum Health each pulse. This shield lasts <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> seconds.",
+      "name": "Earthen Shields",
+      "shortText": "Grants allies Shields in area"
+    },
+    "ThrallElementalMomentum|ThrallElementalMomentum|Passive|Level20": {
+      "fullText": "Basic Attacks reduce Thrall's Basic and Heroic Ability cooldowns by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.25</c> seconds, tripled against Heroes.",
+      "name": "Elemental Momentum",
+      "shortText": "Basic Attacks reduce Ability cooldowns"
+    },
+    "GenericTalentNexusBlades|NexusBladesTalent|Passive|Level20": {
+      "fullText": "Basic Attacks deal <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> more damage and Slow enemy Movement Speed by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> second.",
+      "name": "Nexus Blades",
+      "shortText": "Basic Attacks deal more damage and Slow"
+    },
+    "ThrallWindRush|ThrallWindRush|Active|Level20": {
+      "cooldownText": "Cooldown: 90 seconds",
+      "fullText": "Activate to immediately teleport to a target location and gain Windfury.",
+      "name": "Wind Rush",
+      "shortText": "Activate to teleport and gain Windfury"
+    }
+  },
+  "units": {}
+}

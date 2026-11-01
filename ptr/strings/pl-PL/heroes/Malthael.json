@@ -1,0 +1,209 @@
+{
+  "abilities": {
+    "MalthaelSoulRip|MalthaelSoulRip|Q": {
+      "cooldownText": "Czas odnowienia: 2 sek.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 25</s>",
+      "fullText": "Maltael pozbawia dusz pobliskich przeciwników objętych działaniem <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Piętna Żniwiarza</c> i zadaje im <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń, jednocześnie odzyskując <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> pkt. zdrowia za każdy trafiony cel. Trafianie bohaterów przywraca Maltaelowi dodatkowo równowartość <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4%</c> ich maksymalnego zdrowia.",
+      "name": "Wydarcie Duszy",
+      "shortText": "Zadaje obrażenia napiętnowanym wrogom i leczy Maltaela"
+    },
+    "MalthaelWraithStrike|MalthaelWraithStrike|W": {
+      "cooldownText": "Czas odnowienia: 5 sek.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 30</s>",
+      "fullText": "Maltael natychmiast teleportuje się, przenikając wroga objętego działaniem <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Piętna Żniwiarza</c>, i zadaje mu <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">59</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń oraz odświeża efekt <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Piętna Żniwiarza</c>.",
+      "name": "Upiorne Uderzenie",
+      "shortText": "Teleportuje się do napiętnowanego celu"
+    },
+    "MalthaelDeathShroud|MalthaelDeathShroud|E": {
+      "cooldownText": "Czas odnowienia: 8 sek.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Po upływie <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.25</c> sek. Maltael wyzwala falę czarnej mgły, która nakłada na trafionych przeciwników efekty <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Piętna Żniwiarza</c>.",
+      "name": "Całun Śmierci",
+      "shortText": "Wyzwala falę, która nakłada efekt <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Piętna Żniwiarza</c>"
+    },
+    "MalthaelTormentedSouls|MalthaelTormentedSouls|Heroic": {
+      "cooldownText": "Czas odnowienia: 60 sek.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 20</s>",
+      "fullText": "Maltael wyzwala nawałnicę dusz, która w sposób ciągły obejmuje pobliskich przeciwników działaniem <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Piętna Żniwiarza</c> przez <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> sek.<n/><n/>Po aktywacji Udręczone Dusze resetują czas odnowienia Upiornego Uderzenia, a póki są aktywne, Upiorne Uderzenie nie kosztuje many, a jego czas odnowienia jest skrócony do <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> sek.",
+      "name": "Udręczone Dusze",
+      "shortText": "Nakłada na pobliskich przeciwników <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Piętno Żniwiarza</c>"
+    },
+    "MalthaelLastRites|MalthaelLastRites|Heroic": {
+      "cooldownText": "Czas odnowienia: 70 sek.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 100</s>",
+      "fullText": "Maltael wydaje wyrok śmierci na wrogiego bohatera i po upływie <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> sek. zadaje mu obrażenia równe <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> brakującego zdrowia.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Zadanie:</c> Wrogowie zabici po nałożeniu efektów Ostatniego Namaszczenia i w ciągu <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> sek. po zadaniu przez nie obrażeń skracają na stałe jego czas odnowienia o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> sek., do minimalnie <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c> sek.",
+      "name": "Ostatnie Namaszczenie",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Zadanie:</c> Zrań bohatera w oparciu o jego brakujące zdrowie"
+    },
+    ":PASSIVE:|MalthaelReapersMark|Trait": {
+      "fullText": "Ataki podstawowe powodują rozpłatanie na obszarze przed Maltaelem i obejmują cele niebędące budowlami działaniem <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Piętna Żniwiarza</c> na <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> sek. Napiętnowani przeciwnicy zostają ujawnieni i otrzymują obrażenia równe <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2%</c> ich maksymalnego zdrowia co <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> sek.",
+      "name": "Piętno Żniwiarza",
+      "shortText": "Ataki podstawowe powodują rozpłatanie i nakładają Piętno Żniwiarza"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Czas odnowienia: 4 sek.",
+      "fullText": "Po podtrzymywaniu przez <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> sek. zyskujesz premię <s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s> do szybkości ruchu.",
+      "name": "Przyzwanie Wierzchowca"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Po podtrzymywaniu przez <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> sek. teleportuje bohatera z powrotem do Dworu Burz i przywraca mu natychmiast <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c> pkt. zdrowia oraz <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c> pkt. many.",
+      "name": "Kamień Powrotu"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Opuszczasz wierzchowca.",
+      "name": "Odesłanie Wierzchowca"
+    },
+    "MalthaelFearTheReaper|MalthaelFearTheReaper|Active": {
+      "cooldownText": "Czas odnowienia: 25 sek.",
+      "fullText": "Aktywuj, aby zwiększyć szybkość ruchu Maltaela o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> oraz przenikać przez jednostki przez <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> sek.",
+      "name": "Ponury Żniwiarz",
+      "shortText": "Aktywuj, aby zwiększyć szybkość ruchu"
+    },
+    "MalthaelTouchOfDeath|MalthaelTouchOfDeath|Active": {
+      "cooldownText": "Czas odnowienia: 20 sek.",
+      "fullText": "Aktywuj, aby zmniejszyć skuteczność leczenia otrzymywanego przez bohaterów dotkniętych działaniem <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Piętna Żniwiarza</c> o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> na <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> sek.",
+      "name": "Dotyk Śmierci",
+      "shortText": "Zmniejsza skuteczność leczenia otrzymywanego przez wrogów"
+    },
+    "MalthaelInevitableEnd|MalthaelInevitableEnd|Active": {
+      "cooldownText": "Czas odnowienia: 20 sek.",
+      "fullText": "Aktywuj, aby Maltael zyskał nieustępliwość na <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> sek., ale stracił wszystkie aktywne <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Piętna Żniwiarza</c>.",
+      "name": "Nieubłagany Koniec",
+      "shortText": "Maltael zyskuje nieustępliwość, ale traci <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Piętna Żniwiarza</c>"
+    },
+    "MalthaelShroudOfWisdom|MalthaelShroudOfWisdom|Active": {
+      "cooldownText": "Czas odnowienia: 20 sek.",
+      "fullText": "Po upływie <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> sek. Maltael zyskuje <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50</c> pkt. pancerza magicznego na <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> sek.",
+      "name": "Całun Mądrości",
+      "shortText": "Aktywuj, aby zapewnić Maltaelowi pancerz magiczny"
+    },
+    "MalthaelNoOneCanStopDeath|MalthaelNoOneCanStopDeath|Active": {
+      "cooldownText": "Czas odnowienia: 180 sek.",
+      "fullText": "Aktywuj, aby natychmiast ożywić Maltaela przy Dworze Burz. Czas jego oczekiwania na kolejne odrodzenie wzrasta o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>.",
+      "name": "Nikt Nie Powstrzyma Śmierci",
+      "shortText": "Aktywuj, aby przywrócić Maltaela do życia"
+    }
+  },
+  "talents": {
+    "MalthaelDeathsReach|MalthaelDeathsReach|W|Level1": {
+      "fullText": "Zwiększa zasięg Upiornego Uderzenia o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35%</c>.",
+      "name": "Długie Ramię Śmierci",
+      "shortText": "Zwiększa zasięg Upiornego Uderzenia"
+    },
+    "MalthaelOnAPaleHorse|MalthaelOnAPaleHorse|Passive|Level1": {
+      "fullText": "Maltael zyskuje dodatkowo premię <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> do szybkości ruchu podczas dosiadania wierzchowca.",
+      "name": "Trupio Blady Koń",
+      "shortText": "Zwiększa szybkość ruchu podczas jazdy na wierzchowcu"
+    },
+    "MalthaelFearTheReaper|MalthaelFearTheReaper|Active|Level1": {
+      "cooldownText": "Czas odnowienia: 25 sek.",
+      "fullText": "Aktywuj, aby zwiększyć szybkość ruchu Maltaela o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> oraz przenikać przez jednostki przez <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> sek.",
+      "name": "Ponury Żniwiarz",
+      "shortText": "Aktywuj, aby zwiększyć szybkość ruchu"
+    },
+    "MalthaelDieAlone|MalthaelDieAlone|Q|Level4": {
+      "fullText": "Wydarcie Duszy zadaje bohaterom obrażenia zwiększone o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> w przypadku trafienia pojedynczego bohatera.",
+      "name": "Samotna Śmierć",
+      "shortText": "Zwiększa obrażenia Wydarcia Duszy, jeśli trafi ono jeden cel"
+    },
+    "MalthaelThrowingShade|MalthaelThrowingShade|E|Level4": {
+      "fullText": "Zasięg Całunu Śmierci wzrasta o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">33%</c>, jego czas odnowienia zostaje skrócony o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> sek., a koszt many zmniejszony z <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50</c> do <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30</c> pkt.<n/><n/>Pierwsze trafienie Całunem Śmierci zadaje przeciwnikom niebędącym budowlami obrażenia równe <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2%</c> ich maksymalnego zdrowia.",
+      "name": "Nadciągający Cień",
+      "shortText": "Zwiększa zasięg Całunu Śmierci i skraca jego czas odnowienia"
+    },
+    "MalthaelBlackHarvest|MalthaelBlackHarvest|Trait|Level4": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Zadanie:</c> Napiętnuj bohaterów <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Piętnem Żniwiarza</c> na łącznie <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c> sek.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Nagroda:</c> Czas działania <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Piętna Żniwiarza</c> wzrasta na stałe o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> sek.",
+      "name": "Mroczne Żniwo",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Zadanie:</c> Wydłuż czas działania <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Piętna Żniwiarza</c>"
+    },
+    "MalthaelColdHand|MalthaelColdHand|Q|Level7": {
+      "fullText": "Wydarcie Duszy spowalnia przeciwników o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> na <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c> sek.",
+      "name": "Zimny Uścisk",
+      "shortText": "Wydarcie Duszy spowalnia"
+    },
+    "MalthaelMassacre|MalthaelMassacre|W|Level7": {
+      "fullText": "Upiorne Uderzenie obejmuje wrogów wokół celu działaniem <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Piętna Żniwiarza</c> oraz zadaje im obrażenia.",
+      "name": "Masakra",
+      "shortText": "Upiorne Uderzenie trafia w obszar"
+    },
+    "MalthaelTouchOfDeath|MalthaelTouchOfDeath|Active|Level7": {
+      "cooldownText": "Czas odnowienia: 20 sek.",
+      "fullText": "Aktywuj, aby zmniejszyć skuteczność leczenia otrzymywanego przez bohaterów dotkniętych działaniem <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Piętna Żniwiarza</c> o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> na <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> sek.",
+      "name": "Dotyk Śmierci",
+      "shortText": "Zmniejsza skuteczność leczenia otrzymywanego przez wrogów"
+    },
+    "MalthaelTormentedSouls|MalthaelTormentedSouls|Heroic|Level10": {
+      "cooldownText": "Czas odnowienia: 60 sek.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 20</s>",
+      "fullText": "Maltael wyzwala nawałnicę dusz, która w sposób ciągły obejmuje pobliskich przeciwników działaniem <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Piętna Żniwiarza</c> przez <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> sek.<n/><n/>Po aktywacji Udręczone Dusze resetują czas odnowienia Upiornego Uderzenia, a póki są aktywne, Upiorne Uderzenie nie kosztuje many, a jego czas odnowienia jest skrócony do <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> sek.",
+      "name": "Udręczone Dusze",
+      "shortText": "Nakłada na pobliskich przeciwników <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Piętno Żniwiarza</c>"
+    },
+    "MalthaelLastRites|MalthaelLastRites|Heroic|Level10": {
+      "cooldownText": "Czas odnowienia: 70 sek.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 100</s>",
+      "fullText": "Maltael wydaje wyrok śmierci na wrogiego bohatera i po upływie <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> sek. zadaje mu obrażenia równe <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> brakującego zdrowia.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Zadanie:</c> Wrogowie zabici po nałożeniu efektów Ostatniego Namaszczenia i w ciągu <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> sek. po zadaniu przez nie obrażeń skracają na stałe jego czas odnowienia o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> sek., do minimalnie <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c> sek.",
+      "name": "Ostatnie Namaszczenie",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Zadanie:</c> Zrań bohatera w oparciu o jego brakujące zdrowie"
+    },
+    "MalthaelSoulSiphon|MalthaelSoulSiphon|Q|Level13": {
+      "fullText": "Zwiększa premię do leczenia zapewnianą przez użycie Wydarcia Duszy na bohaterach do <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4.75%</c> maksymalnego zdrowia celu.",
+      "name": "Pożeracz Dusz",
+      "shortText": "Zwiększa skuteczność leczenia Wydarciem Duszy"
+    },
+    "MalthaelEtherealExistence|MalthaelEtherealExistence|Trait|Level13": {
+      "fullText": "Maltael zyskuje <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> pkt. pancerza fizycznego za każdego wrogiego bohatera objętego działaniem <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Piętna Żniwiarza</c>, maksymalnie do <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30</c> pkt.",
+      "name": "Eteryczny Byt",
+      "shortText": "Napiętnowane cele zapewniają pancerz fizyczny"
+    },
+    "MalthaelInevitableEnd|MalthaelInevitableEnd|Active|Level13": {
+      "cooldownText": "Czas odnowienia: 20 sek.",
+      "fullText": "Aktywuj, aby Maltael zyskał nieustępliwość na <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> sek., ale stracił wszystkie aktywne <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Piętna Żniwiarza</c>.",
+      "name": "Nieubłagany Koniec",
+      "shortText": "Maltael zyskuje nieustępliwość, ale traci <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Piętna Żniwiarza</c>"
+    },
+    "MalthaelShroudOfWisdom|MalthaelShroudOfWisdom|Active|Level13": {
+      "cooldownText": "Czas odnowienia: 20 sek.",
+      "fullText": "Po upływie <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> sek. Maltael zyskuje <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50</c> pkt. pancerza magicznego na <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> sek.",
+      "name": "Całun Mądrości",
+      "shortText": "Aktywuj, aby zapewnić Maltaelowi pancerz magiczny"
+    },
+    "MalthaelSoulCollector|MalthaelSoulCollector|Q|Level16": {
+      "fullText": "Skraca czas odnowienia Wydarcia Duszy o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c><w> sek. i zwiększa jego zasięg o </w><c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c><w>.</w>",
+      "name": "Kolekcjoner Dusz",
+      "shortText": "Zwiększa zasięg Wydarcia Duszy i skraca jego czas odnowienia"
+    },
+    "MalthaelMortality|MalthaelMortality|W|Level16": {
+      "fullText": "Kiedy Upiorne Uderzenie rani bohatera, zadaje dodatkowe obrażenia równe <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8%</c> jego maksymalnego zdrowia.",
+      "name": "Śmiertelność",
+      "shortText": "Upiorne Uderzenie zadaje dodatkowe obrażenia bohaterom"
+    },
+    "MalthaelMementoMori|MalthaelMementoMori|Trait|Level16": {
+      "fullText": "<c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Piętno Żniwiarza</c> zadaje obrażenia zwiększone o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60%</c> po tym, jak przeciwnik zostanie nim objęty na dłużej niż <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> sek.",
+      "name": "Memento Mori",
+      "shortText": "Zwiększa obrażenia z upływem czasu od <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Piętna Żniwiarza</c>"
+    },
+    "MalthaelReaperOfSouls|MalthaelReaperOfSouls|Heroic|Level20": {
+      "fullText": "Wydłuża czas działania Udręczonych Dusz do <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> sek., a póki Udręczone Dusze są aktywne, udział w zabiciu wrogiego bohatera wydłuża ich czas trwania.<n/><n/>Jeżeli <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> lub więcej wrogich bohaterów znajduje się w zasięgu Udręczonych Dusz, ich działanie nie wygasa.",
+      "name": "Żniwiarz Dusz",
+      "shortText": "Wydłuża czas działania Udręczonych Dusz"
+    },
+    "MalthaelAngelOfDeath|MalthaelAngelOfDeath|Heroic|Level20": {
+      "fullText": "Ostatnie Namaszczenie leczy, przywracając Maltaelowi równowartość <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> zadanych obrażeń w postaci zdrowia, a premie do redukcji czasu odnowienia tej zdolności (bieżąca i późniejsze) zostają podwojone.",
+      "name": "Anioł Śmierci",
+      "shortText": "Ostatnie Namaszczenie leczy"
+    },
+    "MalthaelFinalCurtain|MalthaelFinalCurtain|E|Level20": {
+      "fullText": "Całun Śmierci pozostawia na swojej drodze ślad na <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> sek. Ślad obejmuje wrogów znajdujących się na jego obszarze działaniem <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Piętna Żniwiarza</c>.",
+      "name": "Ostatnia Odsłona",
+      "shortText": "Całun Śmierci pozostawia ślad"
+    },
+    "MalthaelNoOneCanStopDeath|MalthaelNoOneCanStopDeath|Active|Level20": {
+      "cooldownText": "Czas odnowienia: 180 sek.",
+      "fullText": "Aktywuj, aby natychmiast ożywić Maltaela przy Dworze Burz. Czas jego oczekiwania na kolejne odrodzenie wzrasta o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>.",
+      "name": "Nikt Nie Powstrzyma Śmierci",
+      "shortText": "Aktywuj, aby przywrócić Maltaela do życia"
+    }
+  },
+  "units": {}
+}

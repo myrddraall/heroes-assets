@@ -1,0 +1,171 @@
+{
+  "abilities": {
+    "TracerBlink|TracerBlink|Q": {
+      "cooldownText": "Время восстановления заряда: 9 сек.",
+      "fullText": "Трейсер быстро перемещается в указанное место.<n/><n/>Максимум зарядов – <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>.",
+      "name": "Скачок",
+      "shortText": "Мгновенно перемещается в выбранном направлении."
+    },
+    "TracerMelee|TracerMelee|W": {
+      "cooldownText": "Время восстановления: 8 сек.",
+      "fullText": "Наносит <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">220</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона находящемуся поблизости противнику, в первую очередь поражая вражеских героев. Попадания по героям заряжают «Импульсную бомбу» на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c>, а по другим целям – на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5%</c>.",
+      "name": "Удар рукой",
+      "shortText": "Атакует противников в ближнем бою."
+    },
+    "TracerRecall|TracerRecall|E": {
+      "cooldownText": "Время восстановления: 20 сек.",
+      "fullText": "После паузы в <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.25</c> сек. Трейсер возвращается на то место, где она была <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> сек. назад. Ее оружие перезаряжается, и с нее снимаются негативные эффекты.",
+      "name": "Возврат",
+      "shortText": "Возвращается во времени, освобождаясь от негативных эффектов."
+    },
+    "TracerPulseBomb|TracerPulseBomb|Heroic": {
+      "fullText": "Бросает на небольшое расстояние бомбу, которая цепляется к первому противнику при контакте. После паузы в <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> сек. бомба взрывается, нанося <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">298</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.06~~</c> ед. урона основной цели и <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">149</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.06~~</c> ед. урона другим находящимся рядом противникам.<n/><n/>Постепенно заряжается при нанесении урона автоатаками и «Ударом рукой».",
+      "name": "Импульсная бомба",
+      "shortText": "Прицепляет к противнику бомбу, наносящую существенный урон."
+    },
+    "TracerReload|TracerReload|Trait": {
+      "cooldownText": "Время восстановления: 1 сек.",
+      "fullText": "Трейсер может атаковать на ходу. После <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> автоатак ее оружию требуется перезарядка, занимающая <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.75</c> сек. «Перезарядка» позволяет перезарядить оружие в любой момент.<n/><n/>Автоатаки восполняют здоровье в объеме <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c> нанесенного урона.",
+      "name": "Перезарядка",
+      "shortText": "Трейсер может стрелять на ходу. Каждая автоатака тратит боезапас."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Время восстановления: 4 сек.",
+      "fullText": "После подготовки длительностью <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> сек. повышает скорость передвижения на <s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Вызов транспорта"
+    },
+    "Hearthstone|HearthstoneNoMana|B": {
+      "fullText": "После поддержания в течение <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> сек. телепортирует героя в Зал Штормов, моментально восполняя <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c> ед. здоровья.",
+      "name": "Возвращение"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Покинуть транспорт.",
+      "name": "Отмена транспорта"
+    },
+    "TracerLockedandLoadedFailReload|TracerLockedandLoadedAbility|Trait": {
+      "cooldownText": "Время восстановления: 1 сек.",
+      "fullText": "При повторном использовании «Перезарядки» во время заключительных <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> уже идущей перезарядки урон от автоатак Трейсер увеличивается на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c>, пока она не расстреляет весь магазин.",
+      "name": "К бою готова",
+      "shortText": "Усиливает автоатаки при удачной перезарядке."
+    },
+    "TracerLockedandLoaded|TracerLockedandLoadedAbility|Trait": {
+      "cooldownText": "Время восстановления: 1 сек.",
+      "fullText": "При повторном использовании «Перезарядки» во время заключительных <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> уже идущей перезарядки урон от автоатак Трейсер увеличивается на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c>, пока она не расстреляет весь магазин.",
+      "name": "К бою готова",
+      "shortText": "Усиливает автоатаки при удачной перезарядке."
+    }
+  },
+  "talents": {
+    "TracerOneTwoPunch|TracerOneTwoPunch|W|Level1": {
+      "fullText": "Уменьшает время восстановления «Удара рукой» на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> сек. и дает еще один заряд.",
+      "name": "Двойной удар",
+      "shortText": "«Удар рукой» получает еще один заряд и восстанавливается быстрее."
+    },
+    "TracerPartingGift|TracerPartingGift|E|Level1": {
+      "fullText": "После применения «Возврата» в месте, где была Трейсер, остается <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> бомб, наносящих по <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">240</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона разным целям и замедляющих пораженных героев на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.75</c> сек. За каждого пораженного бомбами героя Трейсер получает <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">7%</c> заряда «Импульсной бомбы».",
+      "name": "Прощальный подарок",
+      "shortText": "Оставляет бомбы при «Возврате»."
+    },
+    "TracerTracerRounds|TracerTracerRounds|Trait|Level1": {
+      "fullText": "Увеличивает дальность автоатак на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c>. Поражая героев, автоатаки открывают обзор в небольшой области вокруг них на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> сек.",
+      "name": "Трассеры",
+      "shortText": "Увеличивает дальность действия автоатак. Автоатаки раскрывают местоположение цели."
+    },
+    "TracerLeechingRounds|TracerLeechingRounds|Trait|Level4": {
+      "fullText": "Усиливает исцеление от автоатак пропорционально объему недостающего здоровья. Максимальный бонус – <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">200%</c>.",
+      "name": "Подлатали и погнали",
+      "shortText": "Усиливает исцеление от автоатак."
+    },
+    "TracerPulseGenerator|TracerPulseGenerator|Heroic|Level4": {
+      "fullText": "Прицепив к герою «Импульсную бомбу», Трейсер восполняет <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">12%</c> максимального запаса здоровья за <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> сек. и получает заряд «Скачка».",
+      "name": "Импульсный генератор",
+      "shortText": "«Импульсная бомба» исцеляет Трейсер и возвращает заряд «Скачка»."
+    },
+    "TracerIsThataHealthPack|TracerIsthataHealthPack|Passive|Level4": {
+      "fullText": "Подбор сферы регенерации мгновенно восполняет <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c> максимального запаса здоровья и сокращает время восстановления исцеляющего фонтана на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> сек.<n/><n/>Исцеляющий фонтан мгновенно восполняет <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> максимального запаса здоровья.",
+      "name": "Это медкомплект?",
+      "shortText": "Усиливает сферы регенерации и исцеляющие фонтаны."
+    },
+    "TracerSleightofHand|TracerSleightofHand|Trait|Level7": {
+      "fullText": "Уменьшает время перезарядки на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>, что при непрерывном огне повышает объем урона в секунду на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c>.",
+      "name": "Ловкость рук",
+      "shortText": "Перезарядка проходит вдвое быстрее."
+    },
+    "TracerFocusFire|TracerFocusFire|Trait|Level7": {
+      "fullText": "Если Трейсер разряжает в одного противника весь магазин за <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> сек., последняя пуля дополнительно наносит <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">80</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона (<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35%</c> урона, нанесенного за использование магазина).",
+      "name": "Прицельный огонь",
+      "shortText": "Разрядив в цель весь магазин, Трейсер нанесет дополнительный урон."
+    },
+    "TracerLockedandLoaded|TracerLockedandLoaded|Trait|Level7": {
+      "fullText": "При повторном использовании «Перезарядки» во время заключительных <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> уже идущей перезарядки урон от автоатак Трейсер увеличивается на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c>, пока она не расстреляет весь магазин.",
+      "name": "К бою готова",
+      "shortText": "Усиливает автоатаки при удачной перезарядке."
+    },
+    "TracerStickyBomb|TracerStickyBomb|Heroic|Level10": {
+      "fullText": "Увеличивает радиус поражения «Импульсной бомбы» на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>. Взрыв бомбы замедляет пораженных противников на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">70%</c> на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> сек.",
+      "name": "Бомба-липучка",
+      "shortText": "Увеличивает область поражения «Импульсной бомбы» и позволяет ей замедлять противников."
+    },
+    "TracerQuantumSpike|TracerQuantumSpike|Heroic|Level10": {
+      "fullText": "«Импульсная бомба» наносит героям дополнительный урон в объеме <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6%</c> их максимального запаса здоровья.",
+      "name": "Квантовая вспышка",
+      "shortText": "«Импульсная бомба» наносит процентный урон."
+    },
+    "TracerPulseRounds|TracerPulseRounds|Heroic|Level10": {
+      "fullText": "Увеличивает дальность применения «Импульсной бомбы» и эффективность ее зарядки от автоатак Трейсер, направленных против вражеских героев, на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c>.",
+      "name": "Импульсные патроны",
+      "shortText": "«Импульсная бомба» летит дальше и быстрее заряжается."
+    },
+    "TracerUntouchable|TracerUntouchable|Q|Level13": {
+      "fullText": "<c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Пассивный эффект: </c>после «Скачка» повышает скорость передвижения на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.25</c> сек.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Задача:</c> каждое убийство героя увеличивает урон от автоатак на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5%</c> вплоть до <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>. Бонус теряется после смерти.",
+      "name": "Мясорубка",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Задача:</c> убивайте героев, чтобы усилить автоатаки."
+    },
+    "TracerJumper|TracerJumper|Q|Level13": {
+      "fullText": "<c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Пассивный эффект:</c> когда у «Скачка» не остается зарядов, время его восстановления сокращается на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c>.<n/><n/>При использовании «Скачка» Трейсер получает щит с прочностью <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6%</c> максимального запаса здоровья на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> сек. Эффект щита суммируется до <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> раз.",
+      "name": "Прыгунья",
+      "shortText": "«Скачок» дает щит и восстанавливается быстрее."
+    },
+    "TracerTelefrag|TracerTelefrag|E|Level13": {
+      "fullText": "<c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Пассивный эффект:</c> каждая автоатака по герою сокращает время восстановления «Возврата» на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.1875</c> сек.<n/><n/>Когда Трейсер возвращается в исходную точку, она становится бессмертной на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> сек., наносит находящимся рядом противникам <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">175</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона и отбрасывает их.",
+      "name": "Убийственная телепортация",
+      "shortText": "«Возврат» наносит урон и отбрасывает противников."
+    },
+    "TracerBulletSprayMelee|TracerBulletSprayMelee|W|Level16": {
+      "fullText": "Увеличивает радиус действия «Удара рукой» на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c>. «Удар рукой» поражает всех противников в радиусе действия.",
+      "name": "Круговой удар",
+      "shortText": "«Удар рукой» поражает всех противников поблизости."
+    },
+    "TracerHeavyHanded|TracerHeavyHanded|W|Level16": {
+      "fullText": "Ослабляет броню пораженных «Ударом рукой» героев на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> ед. на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> сек.",
+      "name": "Тяжелая рука",
+      "shortText": "«Удар рукой» ослабляет броню."
+    },
+    "TracerRicochetHeroWeapon|TracerRicochetHeroWeapon|Trait|Level16": {
+      "fullText": "Автоатаки с вероятностью <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60%</c> рикошетят в находящегося рядом с целью противника, в первую очередь поражая героев.",
+      "name": "Рикошеты",
+      "shortText": "Автоатаки могут рикошетить в соседние цели."
+    },
+    "TracerChronoTriggers|TracerChronoTriggers|Q|Level20": {
+      "fullText": "Применив «Скачок», Трейсер может атаковать, не расходуя боезапас, в течение <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> сек.",
+      "name": "Хронобаллистика",
+      "shortText": "«Скачок» дает бесконечный боезапас."
+    },
+    "TracerGetStuffedMelee|TracerGetStuffedMelee|W|Level20": {
+      "fullText": "Повышает эффективность зарядки «Импульсной бомбы» за счет «Удара рукой» по героям с <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c> до <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c>. При попадании «Ударом рукой» по противнику, к которому прикреплена «Импульсная бомба», вызывает мгновенную детонацию и отбрасывает цель.",
+      "name": "Отвяжись!",
+      "shortText": "Усиливает «Удар рукой»."
+    },
+    "TracerTotalRecallRecall|TracerTotalRecallRecall|E|Level20": {
+      "fullText": "«Возврат» восполняет все здоровье, потерянное за охватываемый им промежуток времени.",
+      "name": "Полный возврат",
+      "shortText": "«Возврат» исцеляет Трейсер."
+    },
+    "TracerCompositionBPulseBomb|TracerCompositionBPulseBomb|Heroic|Level20": {
+      "fullText": "Если Трейсер удается прицепить к герою импульсную бомбу, она немедленно бросает ему под ноги вторую, которая наносит <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> базового урона и взрывается немного раньше.",
+      "name": "Состав В",
+      "shortText": "Если удалось прицепить одну «Импульсную бомбу», Трейсер сразу бросает вторую."
+    }
+  },
+  "units": {}
+}

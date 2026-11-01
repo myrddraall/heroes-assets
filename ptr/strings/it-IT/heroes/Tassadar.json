@@ -1,0 +1,213 @@
+{
+  "abilities": {
+    "TassadarShockRay|TassadarShockRay|Q": {
+      "cooldownText": "Recupero: 7 s",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 55</s>",
+      "fullText": "Incanala un raggio di energia psionica, infliggendo <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">280</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> danni e rallentando i nemici in una linea retta del <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c> per <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> s.",
+      "name": "Raggio Folgorante",
+      "shortText": "Danneggia e rallenta i nemici in una linea retta."
+    },
+    "TassadarPsionicStorm|TassadarPsionicStorm|W": {
+      "cooldownText": "Recupero: 8 s",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Crea una Tempesta Psionica nella posizione selezionata per <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> s. I nemici all'interno subiscono <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">38</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> danni ogni <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c> s, che aumentano del <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> per ogni istanza di danni consecutiva, fino a un massimo del <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c>.",
+      "name": "Tempesta Psionica",
+      "shortText": "Infligge danni ai nemici in un'area."
+    },
+    "TassadarForceWall|TassadarForceWall|E": {
+      "cooldownText": "Recupero: 18 s",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 65</s>",
+      "fullText": "Dopo <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c> s, crea un muro che impedisce il passaggio di tutte le unità per <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> s.",
+      "name": "Muro di Forza",
+      "shortText": "Crea un muro impenetrabile."
+    },
+    "TassadarArchon|TassadarArchon|Heroic": {
+      "cooldownText": "Recupero: 90 s",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 100</s>",
+      "fullText": "Tassadar si trasforma in un Arconte, ottenendo scudi pari al <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> della sua Salute massima e potenziando Raggio Risonante. Dura <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">12</c> s.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Raggio Risonante: </c>Infligge <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">140</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> danni al bersaglio e <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">70</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> danni radiali ai bersagli vicini. Riduce la Resistenza magica degli eroi colpiti di <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c> per <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> s. Raggio Risonante è completamente carico quando Arconte è attivo.",
+      "name": "Arconte",
+      "shortText": "Si trasforma in Arconte."
+    },
+    "TassadarBlackHole|TassadarBlackHole|Heroic": {
+      "cooldownText": "Recupero: 60 s",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Dopo un ritardo di <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c> s, crea un Buco Nero che viaggia in una linea retta. Gli eroi nemici all'interno dell'area del Buco Nero vengono rapidamente trascinati verso il centro. Toccare il centro infligge <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">310</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> danni e stordisce il bersaglio per <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.25</c> s.",
+      "name": "Buco Nero",
+      "shortText": "Danneggia e stordisce i nemici in una linea retta."
+    },
+    ":PASSIVE:|TassadarResonanceBeam|Trait": {
+      "fullText": "L'attacco base di Tassadar è un raggio incanalato che rallenta i bersagli del <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c>. Durante l'incanalamento, aumenta i danni degli attacchi base e la rigenerazione di Mana del <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> ogni secondo, fino a un massimo del <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c>. Mentre è completamente carico, rigenera <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> Mana aggiuntivo ogni secondo.<n/><n/>Il bonus è perso dopo <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> s dalla fine dell'incanalamento.",
+      "name": "Raggio Risonante",
+      "shortText": "Gli attacchi base sono incanalati e rigenerano Mana."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Recupero: 4 s",
+      "fullText": "Dopo un incanalamento di <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> s, aumenta del <s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s> la velocità di movimento.",
+      "name": "Cavalcatura"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Dopo un incanalamento di <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> s, teletrasporta l'eroe nella Sala delle Tempeste, rigenerando all'istante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c> Salute e <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c> Mana.",
+      "name": "Pietra del Ritorno"
+    },
+    "TassadarForceWallCancel|TassadarForceWallCancel|E": {
+      "cooldownText": "Recupero: 1 s",
+      "fullText": "Distrugge il Muro di Forza attivo.",
+      "name": "Annulla Muro di Forza"
+    },
+    ":PASSIVE:|TassadarArchon|Heroic": {
+      "fullText": "Tassadar si trasforma in un Arconte, ottenendo scudi pari al <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> della sua Salute massima e potenziando Raggio Risonante. Dura <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">12</c> s.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Raggio Risonante: </c>Infligge <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">140</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> danni al bersaglio e <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">70</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> danni radiali ai bersagli vicini. Riduce la Resistenza magica degli eroi colpiti di <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c> per <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> s. Raggio Risonante è completamente carico quando Arconte è attivo.",
+      "name": "Arconte",
+      "shortText": "Si trasforma in Arconte."
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Congeda la cavalcatura.",
+      "name": "Congeda cavalcatura"
+    },
+    "TassadarCancelOracle|TassadarCancelOracle|Active": {
+      "fullText": "Annulla Oracolo",
+      "name": "Annulla Oracolo"
+    },
+    "TassadarCancelShadowWalk|TassadarCancelShadowWalk|Active": {
+      "fullText": "Annulla Cammino d'Ombra",
+      "name": "Annulla Cammino d'Ombra"
+    },
+    "TassadarResonanceBeamArcDischargeDummy|TassadarResonanceBeam|Trait": {
+      "fullText": "L'attacco base di Tassadar è un raggio incanalato che rallenta i bersagli del <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c>. Durante l'incanalamento, aumenta i danni degli attacchi base e la rigenerazione di Mana del <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> ogni secondo, fino a un massimo del <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c>. Mentre è completamente carico, rigenera <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> Mana aggiuntivo ogni secondo.<n/><n/>Il bonus è perso dopo <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> s dalla fine dell'incanalamento.",
+      "name": "Raggio Risonante",
+      "shortText": "Gli attacchi base sono incanalati e rigenerano Mana."
+    },
+    "TassadarOracleTargeted|TassadarOracleTargeted|Active": {
+      "cooldownText": "Recupero: 45 s",
+      "fullText": "<c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Passiva:</c> Rimanere fermi fornisce <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30</c> Resistenza magica per <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.75</c> s e rigenera <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">12</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Salute al secondo.<n/><n/>All'attivazione incanala l'abilità fino a <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> s, rivelando un'area qualsiasi della mappa progressivamente più grande.",
+      "name": "Oracolo",
+      "shortText": "Fornisce Resistenza magica e l'incanalamento rivela un'area."
+    },
+    "TassadarShadowWalk|TassadarShadowWalk|Active": {
+      "cooldownText": "Recupero: 60 s",
+      "fullText": "Tassadar si occulta e non può essere rivelato, ma non può attaccare o usare abilità per <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> s. Finché questo effetto è attivo, fornisce un aumento del <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> alla velocità di movimento e <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35</c> Resistenza.<n/><n/>Può essere lanciato mentre si incanala Raggio Folgorante.",
+      "name": "Cammino d'Ombra",
+      "shortText": "Fornisce Resistenza e fornisce temporaneamente occultamento."
+    },
+    "TassadarExecutorsWill|TassadarExecutorsWill|Active": {
+      "cooldownText": "Recupero: 40 s",
+      "fullText": "All'attivazione Raggio Risonante diventa completamente carico, aumenta del <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> la Potenza magica e il tempo di recupero delle abilità base ed eroiche scorre il <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> più rapidamente. Questo effetto dura finché Raggio Risonante è completamente carico.",
+      "name": "Volontà dell'Esecutore",
+      "shortText": "All'attivazione potenzia Raggio Risonante."
+    }
+  },
+  "talents": {
+    "TassadarStaticCharge|TassadarStaticCharge|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Missione:</c> Gli eroi colpiti da Raggio Folgorante ne aumentano permanentemente i danni di <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> e forniscono il <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">33%</c> di carica a Raggio Risonante. <n/><n/>Massimo <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">200</c> danni bonus.",
+      "name": "Carica Statica",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Missione:</c> Colpire eroi aumenta i danni."
+    },
+    "TassadarPsionicStormPsiInfusion|TassadarPsionicStormPsiInfusionTalent|W|Level1": {
+      "fullText": "Ogni nemico diverso da una struttura colpito da Tempesta Psionica rigenera <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c> Mana. L'effetto aumenta a <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> contro gli eroi.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Passiva:</c> Estende del <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">33%</c> la portata di Tempesta Psionica.",
+      "name": "Infusione Psionica",
+      "shortText": "Estende la portata e rigenera Mana all'impatto."
+    },
+    "TassadarKhaydarinAmulet|TassadarKhaydarinAmulet|Trait|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Missione:</c> Il tempo di recupero di Raggio Risonante scorre il <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> più rapidamente.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Ricompensa:</c> Dopo che Raggio Risonante è completamente carico per <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">80</c> s, rimbalza su <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> bersaglio aggiuntivo, infliggendo il <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75%</c> dei danni e dando priorità agli eroi.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Ricompensa:</c> Dopo che Raggio Risonante è completamente carico per <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">160</c> s, rimbalza su <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> bersagli aggiuntivi, infliggendo il <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75%</c> dei danni e dando priorità agli eroi.",
+      "name": "Amuleto Khaydarin",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Missione: </c>Potenzia Raggio Risonante."
+    },
+    "TassadarInduction|TassadarInduction|Q|Level4": {
+      "fullText": "Tassadar ottiene un aumento del <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c> alla velocità di movimento. Lanciare Raggio Folgorante aumenta questo bonus al <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c> per <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> s.",
+      "name": "Induzione",
+      "shortText": "Raggio Folgorante aumenta la velocità di movimento."
+    },
+    "TassadarElectricFence|TassadarElectricFence|E|Level4": {
+      "fullText": "Muro di Forza infligge <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">92</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> danni al secondo ai nemici vicini e li rallenta del <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35%</c>.",
+      "name": "Palizzata Elettrica",
+      "shortText": "Muro di Forza danneggia e rallenta i nemici."
+    },
+    "TassadarPlasmaShield|TassadarPlasmaShieldTalent|Trait|Level4": {
+      "fullText": "Mentre Raggio Risonante è completamente carico, fornisce scudi pari al <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3%</c> della Salute massima ogni secondo, accumulandosi fino al <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">12%</c>.",
+      "name": "Scudo al Plasma",
+      "shortText": "Raggio Risonante fornisce scudi mentre è completamente carico."
+    },
+    "TassadarBeamAlignment|TassadarBeamAlignment|Q|Level7": {
+      "fullText": "Mentre Raggio Risonante è completamente carico, il tempo di recupero di Raggio Folgorante scorre il <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> più rapidamente e la durata dell'effetto di rallentamento viene aumentata a <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> s.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Passiva: </c>Riduce il costo in Mana di Raggio Folgorante da <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">55</c> a <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40</c>. ",
+      "name": "Flussi Incrociati",
+      "shortText": "Raggio Risonante riduce il tempo di recupero di Raggio Folgorante."
+    },
+    "TassadarPsionicEcho|TassadarPsionicEcho|W|Level7": {
+      "fullText": "Lanciare Tempesta Psionica riduce il costo del successivo Raggio Folgorante entro <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> s a <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30</c> Mana e crea una Tempesta Psionica sul primo eroe nemico colpito.",
+      "name": "Eco Psionica",
+      "shortText": "Raggio Folgorante crea una Tempesta Psionica se colpisce un eroe."
+    },
+    "TassadarArcDischarge|TassadarArcDischarge|Trait|Level7": {
+      "fullText": "Quando Raggio Risonante diventa completamente carico, la portata degli attacchi base di Tassadar viene aumentata di <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> e la sua istanza di danni successiva crea una Tempesta Psionica sul bersaglio.<n/><n/>Questo effetto ha un tempo di recupero di <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c> s che si esaurisce al doppio della velocità mentre Raggio Risonante è completamente carico.",
+      "name": "Scarica Elettrificata",
+      "shortText": "Raggio Risonante crea delle Tempeste Psioniche."
+    },
+    "TassadarHeroicAbilityArchon|TassadarArchon|Heroic|Level10": {
+      "cooldownText": "Recupero: 90 s",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 100</s>",
+      "fullText": "Tassadar si trasforma in un Arconte, ottenendo scudi pari al <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> della sua Salute massima e potenziando Raggio Risonante. Dura <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">12</c> s.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Raggio Risonante: </c>Infligge <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">140</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> danni al bersaglio e <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">70</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> danni radiali ai bersagli vicini. Riduce la Resistenza magica degli eroi colpiti di <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c> per <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> s. Raggio Risonante è completamente carico quando Arconte è attivo.",
+      "name": "Arconte",
+      "shortText": "Si trasforma in Arconte."
+    },
+    "TassadarHeroicAbilityBlackHole|TassadarBlackHole|Heroic|Level10": {
+      "cooldownText": "Recupero: 60 s",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Dopo un ritardo di <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c> s, crea un Buco Nero che viaggia in una linea retta. Gli eroi nemici all'interno dell'area del Buco Nero vengono rapidamente trascinati verso il centro. Toccare il centro infligge <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">310</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> danni e stordisce il bersaglio per <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.25</c> s.",
+      "name": "Buco Nero",
+      "shortText": "Danneggia e stordisce i nemici in una linea retta."
+    },
+    "TassadarFeedback|TassadarFeedback|W|Level13": {
+      "fullText": "Quando un eroe nemico viene colpito da Tempesta Psionica, aumenta l'effetto di rallentamento di Raggio Risonante del <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> e riduce la Resistenza fisica del bersaglio di <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c>.",
+      "name": "Contrappasso",
+      "shortText": "Tempesta Psionica potenzia Raggio Risonante."
+    },
+    "TassadarShadowWalk|TassadarShadowWalk|Active|Level13": {
+      "cooldownText": "Recupero: 60 s",
+      "fullText": "Tassadar si occulta e non può essere rivelato, ma non può attaccare o usare abilità per <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> s. Finché questo effetto è attivo, fornisce un aumento del <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> alla velocità di movimento e <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35</c> Resistenza.<n/><n/>Può essere lanciato mentre si incanala Raggio Folgorante.",
+      "name": "Cammino d'Ombra",
+      "shortText": "Fornisce Resistenza e fornisce temporaneamente occultamento."
+    },
+    "TassadarOracle|TassadarOracleTargeted|Active|Level13": {
+      "cooldownText": "Recupero: 45 s",
+      "fullText": "<c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Passiva:</c> Rimanere fermi fornisce <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30</c> Resistenza magica per <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.75</c> s e rigenera <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">12</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Salute al secondo.<n/><n/>All'attivazione incanala l'abilità fino a <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> s, rivelando un'area qualsiasi della mappa progressivamente più grande.",
+      "name": "Oracolo",
+      "shortText": "Fornisce Resistenza magica e l'incanalamento rivela un'area."
+    },
+    "TassadarThermalLance|TassadarThermalLance|Q|Level16": {
+      "fullText": "Raggio Folgorante infligge danni aggiuntivi al primo eroe colpito pari al <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8%</c> della sua Salute massima.",
+      "name": "Lancia Termica",
+      "shortText": "Raggio Folgorante infligge danni aggiuntivi al primo eroe colpito."
+    },
+    "TassadarPsychicShock|TassadarPsychicShock|W|Level16": {
+      "fullText": "Tempesta Psionica infligge danni il <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> più rapidamente.",
+      "name": "Collasso Psichico",
+      "shortText": "Tempesta Psionica danneggia più rapidamente."
+    },
+    "TassadarExecutorsWill|TassadarExecutorsWill|Active|Level16": {
+      "cooldownText": "Recupero: 40 s",
+      "fullText": "All'attivazione Raggio Risonante diventa completamente carico, aumenta del <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> la Potenza magica e il tempo di recupero delle abilità base ed eroiche scorre il <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> più rapidamente. Questo effetto dura finché Raggio Risonante è completamente carico.",
+      "name": "Volontà dell'Esecutore",
+      "shortText": "All'attivazione potenzia Raggio Risonante."
+    },
+    "TassadarMasteryTwilightArchon|TassadarArchonTwilightArchonTalent|Heroic|Level20": {
+      "fullText": "Gli attacchi base in forma di Arconte ne aumentano la durata di <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> s.",
+      "name": "Arconte del Crepuscolo",
+      "shortText": "Gli attacchi base aumentano la durata di Arconte."
+    },
+    "TassadarKugelblitz|TassadarKugelblitz|Heroic|Level20": {
+      "fullText": "Riduce la Resistenza degli eroi nemici colpiti dal centro di Buco Nero di <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c> per <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> s e crea una Tempesta Psionica sul punto d'impatto.",
+      "name": "Kugelblitz",
+      "shortText": "Buco Nero riduce la Resistenza e crea delle Tempeste Psioniche."
+    },
+    "TassadarMasteryForceBarrier|TassadarForceBarrier|E|Level20": {
+      "fullText": "Aumenta la durata di Muro di Forza di <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c> s, estende la sua portata del <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> e riduce il suo tempo di recupero di <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> s.",
+      "name": "Barriera di Forza",
+      "shortText": "Il Muro di Forza estende la portata e riduce il tempo di recupero."
+    },
+    "TassadarKhalasGift|TassadarKhalasGift|Passive|Level20": {
+      "fullText": "Aumenta del <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4%</c> la Potenza magica per Tassadar e ogni eroe alleato vicino, fino a un massimo del <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> di Potenza magica. Il bonus alla Potenza magica totale è condiviso con tutti gli alleati che contribuiscono.",
+      "name": "Dono del Khala",
+      "shortText": "Gli alleati vicini ottengono e forniscono Potenza magica."
+    }
+  },
+  "units": {}
+}

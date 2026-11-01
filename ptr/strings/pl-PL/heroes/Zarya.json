@@ -1,0 +1,191 @@
+{
+  "abilities": {
+    "ZaryaParticleGrenade|ZaryaParticleGrenade|Q": {
+      "cooldownText": "Czas odnowienia ładunku: 8 sek.",
+      "fullText": "Wystrzeliwuje granat cząsteczkowy, który zadaje <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">80</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń wszystkim wrogom na danym obszarze. Zadaje budowlom obrażenia zmniejszone o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>.<n/><n/>Maksymalna liczba ładunków: <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>.",
+      "name": "Granat Cząsteczkowy",
+      "shortText": "Zadaje obrażenia wrogom na niewielkim obszarze"
+    },
+    "ZaryaPersonalBarrier|ZaryaPersonalBarrier|W": {
+      "cooldownText": "Czas odnowienia: 10 sek.",
+      "fullText": "Zaria zyskuje na <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> sek. osłonę, która pochłania <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">560</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c><w> pkt. obrażeń.",
+      "name": "Bariera Osobista",
+      "shortText": "Zyskuje osłonę, która pochłania obrażenia"
+    },
+    "ZaryaShieldAlly|ZaryaShieldAlly|E": {
+      "cooldownText": "Czas odnowienia: 12 sek.",
+      "fullText": "Na <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> sek. zapewnia bohaterowi sojuszniczemu osłonę, która pochłania <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">420</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń.",
+      "name": "Osłona Sojusznika",
+      "shortText": "Zapewnia sojusznikowi osłonę, która pochłania obrażenia"
+    },
+    "ZaryaGravitonSurge|ZaryaGravitonSurge|Heroic": {
+      "cooldownText": "Czas odnowienia: 60 sek.",
+      "fullText": "Zaria wystrzeliwuje bombę grawitacyjną, która wybucha po upływie <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> sek. i przyciąga wrogich bohaterów w kierunku źródła eksplozji <w>przez </w><c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2,5</c><w> sek. Bohaterowie objęci działaniem tej zdolności otrzymują </w><c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c><w> pkt. obrażeń na sekundę.</w>",
+      "name": "Uderzenie Grawitonowe",
+      "shortText": "Wystrzeliwuje bombę, która przyciąga przeciwników"
+    },
+    "ZaryaExpulsionZone|ZaryaExpulsionZone|Heroic": {
+      "cooldownText": "Czas odnowienia: 45 sek.",
+      "fullText": "Zaria wystrzeliwuje bombę grawitacyjną, która zadaje <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">124</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń i tworzy strefę wykluczenia na <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3.5</c> sek. Wrogowie objęci działaniem strefy zostają odrzuceni w tył, a ich szybkość ruchu zostaje zmniejszona o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> na <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c><w> sek.",
+      "name": "Strefa Wykluczenia",
+      "shortText": "Wystrzeliwuje bombę, która odpycha wrogów"
+    },
+    ":PASSIVE:|ZaryaEnergy|Trait": {
+      "fullText": "Zaria zyskuje <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> pkt. energii za każde <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">9</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń, które pochłonęła Bariera Osobista albo Osłona Sojusznika. Każdy punkt energii zwiększa twoje obrażenia o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2%</c>. Po upływie <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c> sek. energia zaczyna zanikać w tempie <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> pkt. na sekundę.",
+      "name": "Energia",
+      "shortText": "Zaria zyskuje premię do obrażeń dzięki pochłanianiu obrażeń osłonami"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Czas odnowienia: 4 sek.",
+      "fullText": "Po podtrzymywaniu przez <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> sek. zyskujesz premię <s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s> do szybkości ruchu.",
+      "name": "Przyzwanie Wierzchowca"
+    },
+    "Hearthstone|HearthstoneNoMana|B": {
+      "fullText": "Po podtrzymywaniu przez <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> sek. teleportuje bohatera z powrotem do Dworu Burz i przywraca mu natychmiast <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c> pkt. zdrowia.",
+      "name": "Kamień Powrotu"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Opuszczasz wierzchowca.",
+      "name": "Odesłanie Wierzchowca"
+    },
+    "ZaryaPainIsTemporary|ZaryaPainIsTemporaryTalent|Active": {
+      "cooldownText": "Czas odnowienia: 30 sek.",
+      "fullText": "Aktywuj, aby zużyć całą energię i zyskać osłonę, która pochłania obrażenia równe <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0,8%</c> maksymalnego zdrowia Zarii za każdy zużyty punkt energii. Działa przez <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> sek. Zaria może mieć w danej chwili aktywną tylko jedną osłonę.",
+      "name": "Przełamanie Bólu",
+      "shortText": "Zużywa energię i zapewnia Zarii osłonę"
+    },
+    "ZaryaUnyieldingDefender|ZaryaUnyieldingDefenderTalent|Active": {
+      "cooldownText": "Czas odnowienia: 60 sek.",
+      "fullText": "Aktywuj, aby zresetować czas odnowienia Bariery Osobistej oraz Osłony Sojusznika.",
+      "name": "Niezłomna Obrończyni",
+      "shortText": "Aktywuj, aby zresetować czasy odnowienia osłon"
+    }
+  },
+  "talents": {
+    "ZaryaParticleGrenadeDemolitionsExpertQuest|ZaryaParticleGrenadeDemolitionsExpertTalent|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Zadanie:</c> Za każdych <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> wrogich bohaterów trafionych Granatem Cząsteczkowym czas odnowienia tej zdolności zostaje skrócony <w>o </w><c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.4375</c><w> sek., maksymalnie do </w><c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3.5</c><w> sek.</w><n/><n/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Nagroda:</c><w> Kiedy Granat Cząsteczkowy trafi </w><c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40</c><w> wrogich bohaterów, jego pole rażenia wzrośnie </w><w>o </w><c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c><w>.",
+      "name": "Burzycielka",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Zadanie:</c> Skraca czas odnowienia Granatu Cząsteczkowego i zwiększa jego pole rażenia"
+    },
+    "ZaryaShieldAllyTogetherWeAreStrong|ZaryaShieldAllyTogetherWeAreStrongTalent|E|Level1": {
+      "fullText": "Przez <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> sek. po objęciu sojusznika działaniem Osłony Sojusznika obrażenia (każde <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5.35</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> pkt.) zadane przez tę postać zapewniają Zarii <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> pkt. energii, maksymalnie do <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40</c> pkt. energii za każdą osłonę.",
+      "name": "W Jedności Siła",
+      "shortText": "Ataki sojuszników z Osłoną Sojusznika zapewniają Zarii energię"
+    },
+    "ZaryaWeaponFeelTheHeat|ZaryaWeaponFeelTheHeatTalent|Trait|Level1": {
+      "fullText": "Ataki podstawowe Zarii zadają dodatkowo <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> obrażeń wrogom znajdującym się <w>w zasięgu walki w zwarciu. Kiedy Zaria ma więcej niż </w><c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40</c><w> pkt. energii, wiązka jej ataku podstawowego poszerza się o </w><c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35%</c><w>.</w>",
+      "name": "Żar",
+      "shortText": "Ataki podstawowe zadają zwiększone obrażenia pobliskim wrogom i mają zwiększony rozmiar"
+    },
+    "ZaryaEnergyMaximumChargeQuest|ZaryaEnergyMaximumChargeTalent|Trait|Level1": {
+      "fullText": "Kule Regeneracji zapewniają teraz natychmiastowy przyrost <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c><w> pkt. energii.</w><n/><n/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Zadanie:</c><w> Przez </w><c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c><w> sek. utrzymaj zapas przynajmniej </w><c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50</c><w> pkt. energii.</w><n/><n/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Nagroda:</c><w> Zaria zyskuje dodatkowo </w><c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c><w> pkt. </w><w>do maksimum energii.",
+      "name": "Maksymalne Naładowanie",
+      "shortText": "Kule Regeneracji zapewniają energię<n/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Zadanie:</c> Zwiększa maksymalną energię"
+    },
+    "ZaryaPersonalBarrierIAmTheStrongest|ZaryaPersonalBarrierIAmTheStrongestTalent|W|Level4": {
+      "fullText": "Bariera Osobista pochłania dodatkowo <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">140</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c><w> pkt. obrażeń.</w><n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Działanie pasywne:</c><w> Obrażenia pochłonięte przez osłony Zarii zapewniają jej o </w><c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c><w> więcej energii.</w>",
+      "name": "Jestem Najsilniejsza",
+      "shortText": "Zwiększa moc osłon Bariery Osobistej i wartość otrzymywanej energii"
+    },
+    "ZaryaShieldAllyGiveMeTwentyQuest|ZaryaShieldAllyGiveMeTwentyTalent|E|Level4": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Zadanie:</c> Kule Regeneracji na stałe zwiększają moc Osłony Sojusznika o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> pkt., maksymalnie do <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">300</c> pkt. <n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Nagroda:</c> Po zebraniu <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c> Kul Regeneracji czas odnowienia Osłony Sojusznika zostanie na stałe skrócony o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> sek.",
+      "name": "Dwadzieścia Pompek",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Zadanie:</c> Zwiększa moc Osłony Sojusznika i skraca jej czas odnowienia"
+    },
+    "ZaryaShieldAllySpeedBarrier|ZaryaShieldAllySpeedBarrierTalent|E|Level4": {
+      "fullText": "Osłona Sojusznika zwiększa szybkość ruchu bohatera sojuszniczego o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> przez cały czas działania.",
+      "name": "Bariera Dźwięku",
+      "shortText": "Osłona Sojusznika zwiększa szybkość ruchu"
+    },
+    "ZaryaDefensiveShielding|ZaryaDefensiveShieldingTalent|Passive|Level4": {
+      "fullText": "Po wygaśnięciu lub zniszczeniu Bariera Osobista i Osłona Sojusznika zapewniają pancerz fizyczny o mocy <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75</c> pkt., który zmniejsza obrażenia od kolejnych <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> ataków podstawowych wrogich bohaterów o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75%</c> przez <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> sek.",
+      "name": "Osłona Defensywna",
+      "shortText": "Bariera Osobista i Osłona Sojusznika zapewniają pancerz fizyczny"
+    },
+    "ZaryaParticleGrenadePinpointAccuracy|ZaryaParticleGrenadePinpointAccuracyTalent|Q|Level7": {
+      "fullText": "Granat Cząsteczkowy zadaje dodatkowo <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń wrogom trafionym w pobliżu źródła eksplozji i zmniejsza ich szybkość ruchu o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> na <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> sek.",
+      "name": "Perfekcyjna Celność",
+      "shortText": "Granat Cząsteczkowy zadaje większe obrażenia w centrum wybuchu i spowalnia"
+    },
+    "ZaryaDeepBurn|ZaryaDeepBurn|Q|Level7": {
+      "fullText": "Trafienie bohatera Granatem Cząsteczkowym sprawia, że wymierzone w niego ataki podstawowe generują <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> pkt. energii. Czas działania: <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> sek.",
+      "name": "Głębokie Poparzenie",
+      "shortText": "Granat Cząsteczkowy może generować energię"
+    },
+    "ZaryaPersonalBarrierExplosiveBarrier|ZaryaPersonalBarrierExplosiveBarrierTalent|W|Level7": {
+      "fullText": "Po wygaśnięciu lub zniszczeniu Bariera Osobista wybucha, zadając pobliskim wrogom <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">110</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń.",
+      "name": "Wybuchowa Bariera",
+      "shortText": "Bariera Osobista zadaje obrażenia obszarowe"
+    },
+    "ZaryaHeroicAbilityGravitonSurge|ZaryaGravitonSurge|Heroic|Level10": {
+      "cooldownText": "Czas odnowienia: 60 sek.",
+      "fullText": "Zaria wystrzeliwuje bombę grawitacyjną, która wybucha po upływie <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> sek. i przyciąga wrogich bohaterów w kierunku źródła eksplozji <w>przez </w><c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2,5</c><w> sek. Bohaterowie objęci działaniem tej zdolności otrzymują </w><c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c><w> pkt. obrażeń na sekundę.</w>",
+      "name": "Uderzenie Grawitonowe",
+      "shortText": "Wystrzeliwuje bombę, która przyciąga przeciwników"
+    },
+    "ZaryaHeroicAbilityExpulsionZone|ZaryaExpulsionZone|Heroic|Level10": {
+      "cooldownText": "Czas odnowienia: 45 sek.",
+      "fullText": "Zaria wystrzeliwuje bombę grawitacyjną, która zadaje <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">124</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń i tworzy strefę wykluczenia na <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3.5</c> sek. Wrogowie objęci działaniem strefy zostają odrzuceni w tył, a ich szybkość ruchu zostaje zmniejszona o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> na <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c><w> sek.",
+      "name": "Strefa Wykluczenia",
+      "shortText": "Wystrzeliwuje bombę, która odpycha wrogów"
+    },
+    "ZaryaPersonalBarrierUnstoppableCompetitor|ZaryaPersonalBarrierUnstoppableCompetitorTalent|W|Level13": {
+      "fullText": "Bariera Osobista zapewnia Zarii nieustępliwość na maksymalnie <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c><w> sek.",
+      "name": "Niepowstrzymana Rywalka",
+      "shortText": "Bariera Osobista zapewnia nieustępliwość"
+    },
+    "ZaryaPersonalBarrierSpellBarrier|ZaryaPersonalBarrierSpellBarrierTalent|W|Level13": {
+      "fullText": "Po wygaśnięciu lub zniszczeniu Bariery Osobistej Zaria otrzymuje pancerz magiczny o mocy <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75</c> pkt. na <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> sek., co zmniejsza odnoszone obrażenia od zdolności o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75%</c>.",
+      "name": "Bariera Zaklęć",
+      "shortText": "Bariera Osobista zapewnia pancerz magiczny"
+    },
+    "ZaryaEnergyEnduranceTraining|ZaryaEnergyEnduranceTrainingTalent|Trait|Level13": {
+      "fullText": "Kiedy Zaria ma przynajmniej <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75</c> pkt. energii, zyskuje <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c> pkt. pancerza, który zmniejsza wszystkie otrzymywane przez nią obrażenia o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c>.",
+      "name": "Trening Wydolnościowy",
+      "shortText": "Wysoki poziom energii zapewnia pancerz"
+    },
+    "ZaryaPainIsTemporary|ZaryaPainIsTemporaryTalent|Active|Level13": {
+      "cooldownText": "Czas odnowienia: 30 sek.",
+      "fullText": "Aktywuj, aby zużyć całą energię i zyskać osłonę, która pochłania obrażenia równe <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0,8%</c> maksymalnego zdrowia Zarii za każdy zużyty punkt energii. Działa przez <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> sek. Zaria może mieć w danej chwili aktywną tylko jedną osłonę.",
+      "name": "Przełamanie Bólu",
+      "shortText": "Zużywa energię i zapewnia Zarii osłonę"
+    },
+    "ZaryaShieldAllyCleansingShield|ZaryaShieldAllyCleansingShieldTalent|E|Level16": {
+      "fullText": "Sprawia, że Osłona Sojusznika usuwa wszystkie efekty ograniczające kontrolę, oraz skraca jej czas odnowienia o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> sek.",
+      "name": "Oczyszczająca Osłona",
+      "shortText": "Osłona Sojusznika usuwa efekty ograniczające kontrolę"
+    },
+    "ZaryaShieldAllyGainTrain|ZaryaShieldAllyGainTrainTalent|E|Level16": {
+      "fullText": "Osłona Sojusznika zapewnia pobliskiemu sojusznikowi przy trafieniu osłonę <w>w wersji podstawowej.",
+      "name": "Wytrenowanie",
+      "shortText": "Osłona Sojusznika działa teraz również na drugiego sojusznika"
+    },
+    "ZaryaEnergyBornInBattle|ZaryaEnergyBornInBattleTalent|Trait|Level16": {
+      "fullText": "Kiedy Zaria ma przynajmniej <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75</c> pkt. energii, jej zdolności odnawiają się o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> szybciej.",
+      "name": "Zrodzona w Walce",
+      "shortText": "Skraca czasy odnowienia przy wysokim poziomie energii"
+    },
+    "ZaryaGravitonSurgeGravityKills|ZaryaGravitonSurgeGravityKillsTalent|Heroic|Level20": {
+      "fullText": "Uderzenie Grawitonowe działa dłużej o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> sek. i wycisza przeciwników, którzy znajdują się na jego obszarze działania.",
+      "name": "Grawitacja Zabija",
+      "shortText": "Uderzenie Grawitonowe trwa dłużej i wycisza"
+    },
+    "ZaryaExpulsionZoneClearOut|ZaryaExpulsionZoneClearOutTalent|Heroic|Level20": {
+      "fullText": "Czas odnowienia Strefy Wykluczenia zostaje skrócony o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c> sek., a jej czas działania zostaje wydłużony o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> sek.",
+      "name": "Kryć Się",
+      "shortText": "Skraca czas odnowienia i wydłuża czas działania Strefy Wykluczenia"
+    },
+    "ZaryaParticleGrenadeGrenadier|ZaryaParticleGrenadeGrenadierTalent|Q|Level20": {
+      "fullText": "Natychmiast odzyskuje wszystkie ładunki Granatu Cząsteczkowego.",
+      "name": "Grenadier",
+      "shortText": "Natychmiast odzyskuje ładunki Granatu Cząsteczkowego"
+    },
+    "ZaryaUnyieldingDefender|ZaryaUnyieldingDefenderTalent|Active|Level20": {
+      "cooldownText": "Czas odnowienia: 60 sek.",
+      "fullText": "Aktywuj, aby zresetować czas odnowienia Bariery Osobistej oraz Osłony Sojusznika.",
+      "name": "Niezłomna Obrończyni",
+      "shortText": "Aktywuj, aby zresetować czasy odnowienia osłon"
+    }
+  },
+  "units": {}
+}

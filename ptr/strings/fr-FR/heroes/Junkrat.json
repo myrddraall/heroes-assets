@@ -1,0 +1,220 @@
+{
+  "abilities": {
+    "JunkratFragLauncher|JunkratFragLauncher|Q": {
+      "cooldownText": "Temps de recharge : 12 secondes",
+      "fullText": "Tire une grenade qui explose en bout de course ou dès qu’elle touche un ennemi et inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">124</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> points de dégâts aux ennemis proches. Les grenades peuvent rebondir sur le sol ou les obstacles. Elles infligent des dégâts réduits de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> aux bâtiments.<n/><n/>Cumule jusqu’à <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> charges. Le lance-grenade récupère toutes ses charges en une fois à la fin du temps de recharge.",
+      "name": "Lance-grenades",
+      "shortText": "Tire une grenade rebondissante."
+    },
+    "JunkratConcussionMine|JunkratConcussionMine|W": {
+      "cooldownText": "Temps de recharge : 16 secondes",
+      "fullText": "Pose une mine sur le sol. En activant son trait, Chacal la fait exploser pour qu’elle inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">180</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> points de dégâts aux ennemis proches et les repousse. Chacal peut aussi être repoussé, mais il ne subit pas de dégâts.<n/><n/>Limite de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> mine active à la fois.",
+      "name": "Mine incapacitante",
+      "shortText": "Place une mine dont l’explosion peut être déclenchée."
+    },
+    "JunkratSteelTrap|JunkratSteelTrap|E": {
+      "cooldownText": "Temps de recharge : 15 secondes",
+      "fullText": "Place un piège sur le sol. Celui-ci s’arme au bout de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> secondes et inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">130</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> points de dégâts au premier ennemi qui marche dessus en plus de l’immobiliser pendant <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> secondes.<n/><n/>Maximum de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> piège actif à la fois.",
+      "name": "Piège d’acier",
+      "shortText": "Pose un piège qui immobilise les ennemis."
+    },
+    "JunkratRIPTire|JunkratRIPTire|Heroic": {
+      "cooldownText": "Temps de recharge : 75 secondes",
+      "fullText": "Crée un pneu motorisé explosif disposant de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">530</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> points de vie et qui dure <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> secondes. Quand Pneumastic est actif, Chacal est immobilisé mais il peut contrôler la course du pneu.<n/><n/>Réactiver fait exploser instantanément Pneumastic, qui repousse les ennemis proches et inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">720</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> points de dégâts à ceux qui se trouvent proches du centre de l’explosion, ce montant diminuant graduellement jusqu’à <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">445</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> points pour les ennemis plus éloignés du centre.",
+      "name": "Pneumastic",
+      "shortText": "Crée un pneu explosif motorisé."
+    },
+    "JunkratRocketRide|JunkratRocketRide|Heroic": {
+      "cooldownText": "Temps de recharge :<sp/>75 secondes",
+      "fullText": "Après <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.25</c> seconde, Chacal se propulse dans les airs, d’où il peut choisir sa zone d’atterrissage.<n/><n/>Après <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3.75</c> secondes, il s’écrase au sol et inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">935</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> points de dégâts aux ennemis proches en plus d’activer Mauvais perdant. <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> secondes après avoir atterri, il réapparaît au Hall des tempêtes et la vitesse de sa « monture » est augmentée de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150%</c> jusqu’à ce qu’il en descende.",
+      "name": "Virée explosive",
+      "shortText": "Chacal s’élève dans les airs et inflige des dégâts à l’atterrissage."
+    },
+    ":PASSIVE:|JunkratTotalMayhem|Trait": {
+      "fullText": "Quand Chacal meurt, il lâche <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> grenades qui explosent après <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.75</c> seconde en infligeant chacune <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">250</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> points de dégâts aux ennemis proches. Inflige des dégâts réduits de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75%</c> aux bâtiments.<n/><n/><s val=\"cbe8ff-ffffff\" hlt-name=\"StandardTooltipHeader\">Explosion de mine</s><n/><n/>Déclenche la Mine incapacitante.",
+      "name": "Mauvais perdant",
+      "shortText": "Chacal laisse tomber des grenades quand il meurt."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Temps de recharge : 4 secondes",
+      "fullText": "Après <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> seconde de canalisation, augmente la vitesse de déplacement de <s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Appeler une monture"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Après <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> secondes de canalisation, téléporte au hall des Tempêtes et rend instantanément <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c> points de vie et <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c> points de mana.",
+      "name": "Pierre de foyer"
+    },
+    "JunkratDetonateMine|JunkratDetonateMine|Trait": {
+      "fullText": "Déclenche l’explosion de la mine, qui inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">180</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> points de dégâts aux ennemis proches et les repousse. chacal peut aussi être repoussé, mais il ne subit pas les dégâts.",
+      "name": "Explosion de mine",
+      "shortText": "Déclenche la mine incapacitante."
+    },
+    "JunkratRIPTireJump|JunkratRIPTireJump|Q": {
+      "cooldownText": "Temps de recharge : 2 secondes",
+      "fullText": "Activer fait sauter Pneumastic pour qu’il passe par-dessus les bâtiments et autres obstacles.",
+      "name": "Et hop !",
+      "shortText": "Et hop !"
+    },
+    "JunkratDetonateRIPTire|JunkratDetonateRIPTire|Heroic": {
+      "fullText": "Fait exploser instantanément Pneumastic, qui repousse les ennemis proches et inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">720</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> points de dégâts à ceux qui se trouvent proches du centre de l’explosion, ce montant diminuant graduellement jusqu’à <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">445</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> points pour les ennemis plus éloignés du centre.",
+      "name": "Déclenchement de Pneumastic",
+      "shortText": "Fait exploser instantanément Pneumastic."
+    },
+    "JunkratRocketRideDismount|JunkratRocketRideUnsummonMount|Z": {
+      "fullText": "Permet de descendre de la monture.",
+      "name": "Renvoyer la monture"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Permet de descendre de la monture.",
+      "name": "Renvoyer la monture"
+    },
+    "JunkratTotalMayhemDirtyTrickster|JunkratDirtyTrickster|Trait": {
+      "cooldownText": "Temps de recharge : 20 secondes",
+      "fullText": "Augmente le rayon d’explosion de Mauvais perdant de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20 %</c>. Quand un héros adverse étourdit, immobilise ou inflige des dégâts à Chacal alors que celui-ci a moins de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50 %</c> de points de vie, il déclenche Mauvais perdant et lâche <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> grenades qui explosent à ses pieds.<n/><n/>Cet effet a un temps de recharge de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c> secondes.",
+      "name": "Roi du coup bas",
+      "shortText": "Mauvais perdant s’active plus fréquemment."
+    },
+    "JunkratSpreadVolley|JunkratSpreadVolleyActive|Active": {
+      "cooldownText": "Temps de recharge :<sp/>30 secondes",
+      "fullText": "Activer permet à Lance-grenades de projeter <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> grenades supplémentaires à un angle différent. Perdure tant que Lance-grenades dispose de charges, ou jusqu’à un maximum de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> charges tirées.",
+      "name": "Volée explosive"
+    },
+    "JunkratIHateWaitingSummonMount|JunkratRocketRideSummonMount|Z": {
+      "cooldownText": "Temps de recharge : 8 secondes",
+      "fullText": "Après avoir canalisé pendant <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> seconde, la vitesse de déplacement augmente de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150%</c>.",
+      "name": "Invocation d’une monture"
+    }
+  },
+  "talents": {
+    "JunkratFragLauncherTrickyShuffles|JunkratTrickyShufflesFragLauncherTalent|Q|Level1": {
+      "fullText": "Tant que Lance-grenades n’a plus aucune charge, la vitesse de déplacement de Chacal augmente de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c> et ses attaques de base infligent <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c> de dégâts supplémentaires.",
+      "name": "Léger sur les appuis",
+      "shortText": "La vitesse de déplacement augmente quand le lance-grenades se recharge."
+    },
+    "JunkratFragLauncherExtraWoundTimers|JunkratExtraWoundTimersFragLauncherTalent|Q|Level1": {
+      "fullText": "Les grenades de Lance-grenades mettent <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> secondes de plus avant d’exploser automatiquement, et la dernière grenade tirée inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> de dégâts supplémentaires.",
+      "name": "Ça va péter… plus tard !",
+      "shortText": "Les grenades de Lance-grenades infligent des dégâts supplémentaires."
+    },
+    "JunkratConcussionMineBlowEmUp|JunkratBlowEmUpConcussionMineTalent|Passive|Level1": {
+      "fullText": "Toucher un héros adverse avec Mine incapacitante ou Piège d’acier augmente les dégâts des attaques et capacités de base de Chacal de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> pendant <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> secondes.",
+      "name": "Et que ça saute !",
+      "shortText": "Mine incapacitante et Piège d’acier augmentent les dégâts."
+    },
+    "JunkratFragLauncherTasteForExplosions|JunkratTasteForExplosionsFragLauncherTalent|Q|Level4": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Quête :</c> toucher un héros avec Lance-grenades augmente ses dégâts de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.2%</c>, jusqu’à un maximum de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c>.",
+      "name": "Chacal, passion explosions",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Quête :</c> augmente les dégâts de Lance-grenades."
+    },
+    "JunkratConcussionMineBOOMPOW|JunkratBOOMPOWConcussionMineTalent|W|Level4": {
+      "fullText": "Toucher un héros adverse avec Mine incapacitante réduit son temps de recharge de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> secondes.",
+      "name": "BOUM WHIZZZ",
+      "shortText": "Toucher des héros réduit le temps de recharge de Mine incapacitante."
+    },
+    "JunkratSteelTrapChatteringTeeth|JunkratChatteringTeethSteelTrapTalent|E|Level4": {
+      "fullText": "Les pièges d’acier poursuivent les héros adverses.",
+      "name": "Les dents de la mort",
+      "shortText": "Le piège pourchasse les héros."
+    },
+    "JunkratConcussionMineBoggedDown|JunkratBoggedDownConcussionMineTalent|W|Level7": {
+      "fullText": "Les ennemis projetés par Mine incapacitante sont ralentis de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> pendant <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c> secondes quand ils retombent.",
+      "name": "Mauvaise chute",
+      "shortText": "Mine incapacitante ralentit."
+    },
+    "JunkratSteelTrapStickyWicket|JunkratStickyWicketSteelTrapTalent|E|Level7": {
+      "fullText": "Les héros adverses touchés par Piège d’acier sont réduits au silence pendant <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> secondes.",
+      "name": "Piège gluant",
+      "shortText": "Piège d’acier réduit les héros au silence."
+    },
+    "JunkratTotalMayhemDirtyTricksterTalent|JunkratDirtyTrickster|Trait|Level7": {
+      "fullText": "Augmente le rayon d’explosion de Mauvais perdant de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20 %</c>. Quand un héros adverse étourdit, immobilise ou inflige des dégâts à Chacal alors que celui-ci a moins de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50 %</c> de points de vie, il déclenche Mauvais perdant et lâche <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> grenades qui explosent à ses pieds.<n/><n/>Cet effet a un temps de recharge de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c> secondes.",
+      "name": "Roi du coup bas",
+      "shortText": "Mauvais perdant s’active plus fréquemment."
+    },
+    "JunkratRIPTire|JunkratRIPTire|Heroic|Level10": {
+      "cooldownText": "Temps de recharge : 75 secondes",
+      "fullText": "Crée un pneu motorisé explosif disposant de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">530</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> points de vie et qui dure <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> secondes. Quand Pneumastic est actif, Chacal est immobilisé mais il peut contrôler la course du pneu.<n/><n/>Réactiver fait exploser instantanément Pneumastic, qui repousse les ennemis proches et inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">720</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> points de dégâts à ceux qui se trouvent proches du centre de l’explosion, ce montant diminuant graduellement jusqu’à <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">445</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> points pour les ennemis plus éloignés du centre.",
+      "name": "Pneumastic",
+      "shortText": "Crée un pneu explosif motorisé."
+    },
+    "JunkratRocketRide|JunkratRocketRide|Heroic|Level10": {
+      "cooldownText": "Temps de recharge :<sp/>75 secondes",
+      "fullText": "Après <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.25</c> seconde, Chacal se propulse dans les airs, d’où il peut choisir sa zone d’atterrissage.<n/><n/>Après <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3.75</c> secondes, il s’écrase au sol et inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">935</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> points de dégâts aux ennemis proches en plus d’activer Mauvais perdant. <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> secondes après avoir atterri, il réapparaît au Hall des tempêtes et la vitesse de sa « monture » est augmentée de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150%</c> jusqu’à ce qu’il en descende.",
+      "name": "Virée explosive",
+      "shortText": "Chacal s’élève dans les airs et inflige des dégâts à l’atterrissage."
+    },
+    "JunkratFragLauncherBombsAwayTalent|JunkratBombsAwayFragLauncherTalent|Q|Level13": {
+      "fullText": "Augmente la portée des attaques de base de Chacal de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>. Les grenades du Lance-grenades tirées dans les <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c> secondes qui suivent l’utilisation d’une attaque de base infligent <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30 %</c> de dégâts supplémentaires.",
+      "name": "Larguez les bombes",
+      "shortText": "Augmente la portée et les dégâts des attaques de base."
+    },
+    "JunkratConcussionMineRipperAir|JunkratRipperAirConcussionMineTalent|W|Level13": {
+      "fullText": "Mine incapacitante repousse Chacal <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> plus loin. En outre, son temps de recharge diminue de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">12</c> secondes si la mine n’affecte que Chacal.",
+      "name": "Air Chacal",
+      "shortText": "Mine incapacitante projette Chacal plus loin."
+    },
+    "JunkratSteelTrapGottaTrapEmAll|JunkratGottaTrapEmAllSteelTrapTalent|E|Level13": {
+      "fullText": "Réduit le temps de recharge de Piège d’acier de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> secondes et porte le maximum de pièges actifs à <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>.",
+      "name": "Piégez-les tous !",
+      "shortText": "Augmente le nombre de pièges d’acier."
+    },
+    "JunkratSteelTrapBigAs|JunkratBigAsSteelTrapTalent|E|Level13": {
+      "fullText": "Piège d’acier ne touche plus que les héros et réduit l’armure des héros touchés de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> points pendant <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> secondes. Augmente le rayon et les dégâts de Piège d’acier de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>. ",
+      "name": "Mâchoires d’acier",
+      "shortText": "Piège d’acier cible les héros."
+    },
+    "JunkratFragLauncherBurstFire|JunkratBurstFireFragLauncherTalent|Q|Level16": {
+      "fullText": "Lance-grenades dépense toutes ses charges en une salve continue. Son temps de recharge est réduit de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> secondes, mais son maximum de charges diminue de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>.",
+      "name": "Salve",
+      "shortText": "Le lance-grenades tire en salves."
+    },
+    "JunkratFragLauncherEndlessNades|JunkratEndlessNadesFragLauncherTalent|Q|Level16": {
+      "fullText": "Toucher un héros adverse avec Lance-grenades réduit son temps de recharge de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> seconde.",
+      "name": "Grenades à foison",
+      "shortText": "Toucher des héros réduit le temps de recharge de Lance-grenades."
+    },
+    "JunkratFragLauncherSpreadVolley|JunkratSpreadVolleyFragLauncherTalent|Active|Level16": {
+      "cooldownText": "Temps de recharge :<sp/>30 secondes",
+      "fullText": "Activer permet à Lance-grenades de projeter <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> grenades supplémentaires à un angle différent. Perdure tant que Lance-grenades dispose de charges, ou jusqu’à un maximum de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> charges tirées.",
+      "name": "Volée explosive",
+      "shortText": "Tire plusieurs grenades à divers angles de tir."
+    },
+    "JunkratRIPTireExtraOomph|JunkratExtraOomphRIPTireTalent|Heroic|Level20": {
+      "fullText": "Augmente la distance de recul de Pneumastic de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">80 %</c> et réduit son temps de recharge de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c> secondes pour chaque héros adverse touché.",
+      "name": "Double charge",
+      "shortText": "Augmente l’effet de recul de Pneumastic et réduit son temps de recharge."
+    },
+    "JunkratRocketRidePuckishScamp|JunkratPuckishScampRocketRideTalent|Heroic|Level20": {
+      "fullText": "Chacal obtient aussi la capacité Pneumastic. Il utilise alors ses capacités héroïques à tour de rôle.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Effet passif :</c> réduit les temps de recharge des deux capacités héroïques de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c> secondes.",
+      "name": "Le plein de super",
+      "shortText": "Confère aussi Pneumastic."
+    },
+    "JunkratFragLauncherCannonball|JunkratCannonballFragLauncherTalent|Q|Level20": {
+      "fullText": "Augmente de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> la portée et le rayon d’explosion des grenades lancées par les attaques de base ou par Lance-grenades.",
+      "name": "Lance-boulets",
+      "shortText": "Les grenades des attaques de base et de Lance-grenades déclenchent de plus grosses explosions."
+    },
+    "JunkratIHateWaitingTalent|JunkratIHateWaiting|Z|Level20": {
+      "fullText": "Chacal chevauche en permanence sa fusée de Virée explosive, ce qui augmente sa vitesse de déplacement de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150%</c>, mais le temps de recharge de sa monture normale est porté à <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c> secondes.",
+      "name": "Je déteste attendre !",
+      "shortText": "Invoque la fusée de Chacal !"
+    }
+  },
+  "units": {
+    "JunkratConcussionMine": {
+      "description": "Pose une mine sur le sol. En activant son trait, Chacal la fait exploser pour qu’elle inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">180</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> points de dégâts aux ennemis proches et les repousse. Chacal peut aussi être repoussé, mais il ne subit pas de dégâts.<n/><n/>Limite de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> mine active à la fois.",
+      "name": "Mine incapacitante"
+    },
+    "JunkratRIPTire": {
+      "description": "Crée un pneu motorisé explosif disposant de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">530</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> points de vie et qui dure <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> secondes. Quand Pneumastic est actif, Chacal est immobilisé mais il peut contrôler la course du pneu.<n/><n/>Réactiver fait exploser instantanément Pneumastic, qui repousse les ennemis proches et inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">720</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> points de dégâts à ceux qui se trouvent proches du centre de l’explosion, ce montant diminuant graduellement jusqu’à <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">445</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> points pour les ennemis plus éloignés du centre.",
+      "name": "Pneumastic"
+    },
+    "JunkratRocketRideTrackerUnit": {
+      "name": "Virée explosive (traqueur d’unité)"
+    },
+    "JunkratSteelTrap": {
+      "description": "Place un piège sur le sol. Celui-ci s’arme au bout de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> secondes et inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">130</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> points de dégâts au premier ennemi qui marche dessus en plus de l’immobiliser pendant <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> secondes.<n/><n/>Maximum de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> piège actif à la fois.",
+      "name": "Piège d’acier"
+    }
+  }
+}

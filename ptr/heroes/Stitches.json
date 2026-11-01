@@ -1,0 +1,778 @@
+{
+  "id": "Stitches",
+  "unitId": "HeroStitches",
+  "hyperlinkId": "Stitches",
+  "attributeId": "Stit",
+  "franchise": "Warcraft",
+  "rarity": "Epic",
+  "releaseDate": "2014-03-13",
+  "isMelee": true,
+  "gender": "Male",
+  "radius": 1.0625,
+  "innerRadius": 0.9375,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "BattleBeast",
+  "ratings": {
+    "complexity": 4,
+    "damage": 6,
+    "survivability": 8,
+    "utility": 10
+  },
+  "life": {
+    "amount": 3020,
+    "scale": 0.04,
+    "regenRate": 6.293,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "BodyBlocker",
+    "EnergyImportant",
+    "Ganker",
+    "Overconfident",
+    "RoleTank"
+  ],
+  "weapons": [
+    {
+      "nameId": "HeroStitches",
+      "isDisabled": false,
+      "range": 1.5,
+      "minimumRange": 0,
+      "period": 1.1,
+      "damage": 71,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "StitchesBeachParty",
+    "StitchesChef",
+    "StitchesOWC20",
+    "StitchesPsycho",
+    "StitchesToys18",
+    "StitchesUltimate",
+    "StitchesWinter"
+  ],
+  "variationSkinIds": [
+    "StitchesDecay",
+    "StitchesFlesh"
+  ],
+  "voiceLineIds": [
+    "StitchesBase_VoiceLine01",
+    "StitchesBase_VoiceLine02",
+    "StitchesBase_VoiceLine03",
+    "StitchesBase_VoiceLine04",
+    "StitchesBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "StitchesHook|StitchesHook|Q",
+        "abilityId": "StitchesHook",
+        "buttonId": "StitchesHook",
+        "icon": "storm_ui_icon_stitches_hook.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "StitchesSlam|StitchesSlam|W",
+        "abilityId": "StitchesSlam",
+        "buttonId": "StitchesSlam",
+        "icon": "storm_ui_icon_stitches_slam.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "StitchesDevour|StitchesDevour|E",
+        "abilityId": "StitchesDevour",
+        "buttonId": "StitchesDevour",
+        "icon": "storm_ui_icon_stitches_devour.png",
+        "charges": {
+          "countMax": 1,
+          "countStart": 1,
+          "countUse": 1,
+          "recastCooldown": 6,
+          "isCountHidden": true
+        },
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "StitchesPutridBile|StitchesPutridBile|Heroic",
+        "abilityId": "StitchesPutridBile",
+        "buttonId": "StitchesPutridBile",
+        "icon": "storm_ui_icon_stitches_putridbile.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "StitchesGorge|StitchesGorge|Heroic",
+        "abilityId": "StitchesGorge",
+        "buttonId": "StitchesGorge",
+        "icon": "storm_ui_icon_stitches_cannibalize.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": "StitchesShamblingHorror|StitchesShamblingHorror|Trait",
+        "abilityId": "StitchesShamblingHorror",
+        "buttonId": "StitchesShamblingHorror",
+        "icon": "storm_ui_icon_stitches_acidcloud.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Activable": [
+      {
+        "linkId": "StitchesHookHelpingHand|StitchesHelpingHand|Active",
+        "abilityId": "StitchesHookHelpingHand",
+        "buttonId": "StitchesHelpingHand",
+        "icon": "storm_ui_icon_stitches_hook_var1.png",
+        "abilityType": "Active"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "StitchesPatchworkCreation|StitchesPatchworkCreation|W|Level1",
+        "talentId": "StitchesPatchworkCreation",
+        "buttonId": "StitchesPatchworkCreation",
+        "abilityId": "StitchesSlam",
+        "icon": "storm_ui_icon_stitches_patchwork.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "StitchesSavortheFlavorDevour|StitchesDevourSavorTheFlavorTalent|E|Level1",
+        "talentId": "StitchesSavortheFlavorDevour",
+        "buttonId": "StitchesDevourSavorTheFlavorTalent",
+        "abilityId": "StitchesDevour",
+        "icon": "storm_ui_icon_stitches_devour.png",
+        "abilityType": "E",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "StitchesDevour|StitchesDevour|E"
+        ]
+      },
+      {
+        "linkId": "StitchesHungryforMore|StitchesHungryforMore|Passive|Level1",
+        "talentId": "StitchesHungryforMore",
+        "buttonId": "StitchesHungryforMore",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_stitches_hungry.png",
+        "abilityType": "Passive",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "StitchesPlaytime|StitchesPlaytime|W|Level4",
+        "talentId": "StitchesPlaytime",
+        "buttonId": "StitchesPlaytime",
+        "abilityId": "StitchesSlam",
+        "icon": "storm_ui_icon_stitches_slam.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "StitchesSlam|StitchesSlam|W"
+        ]
+      },
+      {
+        "linkId": "StitchesVileCleaver|StitchesVileCleaver|Trait|Level4",
+        "talentId": "StitchesVileCleaver",
+        "buttonId": "StitchesVileCleaver",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_stitches_acidcloud.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "StitchesShamblingHorror|StitchesShamblingHorror|Trait"
+        ]
+      },
+      {
+        "linkId": "StitchesTenderizer|StitchesVileGasTenderizerTalent|Passive|Level4",
+        "talentId": "StitchesTenderizer",
+        "buttonId": "StitchesVileGasTenderizerTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_slow.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "StitchesSerratedEdge|StitchesSerratedEdge|Q|Level7",
+        "talentId": "StitchesSerratedEdge",
+        "buttonId": "StitchesSerratedEdge",
+        "abilityId": "StitchesHook",
+        "icon": "storm_ui_icon_stitches_hook.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "StitchesHook|StitchesHook|Q"
+        ]
+      },
+      {
+        "linkId": "StitchesSecondHelping|StitchesSecondHelping|E|Level7",
+        "talentId": "StitchesSecondHelping",
+        "buttonId": "StitchesSecondHelping",
+        "abilityId": "StitchesDevour",
+        "icon": "storm_ui_icon_stitches_devour.png",
+        "abilityType": "E",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "StitchesDevour|StitchesDevour|E"
+        ]
+      },
+      {
+        "linkId": "StitchesPutrefaction|StitchesPutrefaction|Trait|Level7",
+        "talentId": "StitchesPutrefaction",
+        "buttonId": "StitchesPutrefaction",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_stitches_acidcloud.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "StitchesShamblingHorror|StitchesShamblingHorror|Trait"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "StitchesHeroicAbilityPutridBile|StitchesPutridBile|Heroic|Level10",
+        "talentId": "StitchesHeroicAbilityPutridBile",
+        "buttonId": "StitchesPutridBile",
+        "abilityId": "StitchesPutridBile",
+        "icon": "storm_ui_icon_stitches_putridbile.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "StitchesHeroicAbilityGorge|StitchesGorge|Heroic|Level10",
+        "talentId": "StitchesHeroicAbilityGorge",
+        "buttonId": "StitchesGorge",
+        "abilityId": "StitchesGorge",
+        "icon": "storm_ui_icon_stitches_cannibalize.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "StitchesMeatHook|StitchesMeatHook|Q|Level13",
+        "talentId": "StitchesMeatHook",
+        "buttonId": "StitchesMeatHook",
+        "abilityId": "StitchesHook",
+        "icon": "storm_ui_icon_stitches_hook.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "StitchesHook|StitchesHook|Q"
+        ]
+      },
+      {
+        "linkId": "StitchesUnderPressure|StitchesUnderPressure|W|Level13",
+        "talentId": "StitchesUnderPressure",
+        "buttonId": "StitchesUnderPressure",
+        "abilityId": "StitchesSlam",
+        "icon": "storm_ui_icon_stitches_underpressure.png",
+        "abilityType": "W",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "StitchesSlam|StitchesSlam|W"
+        ]
+      },
+      {
+        "linkId": "StitchesChopChop|StitchesChopChop|Trait|Level13",
+        "talentId": "StitchesChopChop",
+        "buttonId": "StitchesChopChop",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_stitches_chopchop.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "StitchesShamblingHorror|StitchesShamblingHorror|Trait"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "StitchesPulverizeSlam|StitchesSlamPulverizeTalent|W|Level16",
+        "talentId": "StitchesPulverizeSlam",
+        "buttonId": "StitchesSlamPulverizeTalent",
+        "abilityId": "StitchesSlam",
+        "icon": "storm_ui_icon_stitches_slam.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "StitchesSlam|StitchesSlam|W"
+        ]
+      },
+      {
+        "linkId": "StitchesDigestiveJuices|StitchesDigestiveJuices|E|Level16",
+        "talentId": "StitchesDigestiveJuices",
+        "buttonId": "StitchesDigestiveJuices",
+        "abilityId": "StitchesDevour",
+        "icon": "storm_ui_icon_stitches_devour.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "StitchesDevour|StitchesDevour|E"
+        ]
+      },
+      {
+        "linkId": "StitchesFlareUp|StitchesFlareUp|Trait|Level16",
+        "talentId": "StitchesFlareUp",
+        "buttonId": "StitchesFlareUp",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_burningrage.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "StitchesGiftFromTheEmbalmer|StitchesGiftFromTheEmbalmer|Heroic|Level20",
+        "talentId": "StitchesGiftFromTheEmbalmer",
+        "buttonId": "StitchesGiftFromTheEmbalmer",
+        "abilityId": "StitchesPutridBile",
+        "icon": "storm_ui_icon_stitches_putridbile.png",
+        "abilityType": "Heroic",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "StitchesPutridBile|StitchesPutridBile|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "StitchesHeroicAbilityPutridBile"
+        ]
+      },
+      {
+        "linkId": "StitchesHungryHungryStitchesGorge|StitchesGorgeHungryHungryStitchesTalent|Heroic|Level20",
+        "talentId": "StitchesHungryHungryStitchesGorge",
+        "buttonId": "StitchesGorgeHungryHungryStitchesTalent",
+        "abilityId": "StitchesGorge",
+        "icon": "storm_ui_icon_stitches_cannibalize.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "StitchesGorge|StitchesGorge|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "StitchesHeroicAbilityGorge"
+        ]
+      },
+      {
+        "linkId": "StitchesHookMasterHooker|StitchesHookMasterHooker|Q|Level20",
+        "talentId": "StitchesHookMasterHooker",
+        "buttonId": "StitchesHookMasterHooker",
+        "abilityId": "StitchesHook",
+        "icon": "storm_ui_icon_stitches_hook.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "StitchesHook|StitchesHook|Q",
+          "StitchesHookHelpingHand|StitchesHelpingHand|Active"
+        ]
+      },
+      {
+        "linkId": "StitchesGasBag|StitchesGasBag|Trait|Level20",
+        "talentId": "StitchesGasBag",
+        "buttonId": "StitchesGasBag",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_stitches_acidcloud.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          "StitchesShamblingHorror|StitchesShamblingHorror|Trait"
+        ]
+      }
+    ]
+  },
+  "sheets": {
+    "abilities": {
+      "sheet": "sheets/Stitches/abilities.webp",
+      "icons": {
+        "storm_ui_icon_stitches_hook.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_stitches_slam.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_stitches_devour.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_stitches_putridbile.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_stitches_cannibalize.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_stitches_acidcloud.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          0,
+          520,
+          76,
+          48
+        ],
+        "storm_ui_icon_stitches_hook_var1.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          130,
+          390,
+          111,
+          71
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          243,
+          390,
+          76,
+          48
+        ]
+      }
+    },
+    "talents": {
+      "sheet": "sheets/Stitches/talents.webp",
+      "icons": {
+        "storm_ui_icon_stitches_patchwork.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_stitches_devour.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_stitches_hungry.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_stitches_slam.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_stitches_acidcloud.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_slow.png": [
+          130,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_stitches_hook.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_stitches_putridbile.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_stitches_cannibalize.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_stitches_underpressure.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_stitches_chopchop.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_burningrage.png": [
+          260,
+          390,
+          128,
+          128
+        ]
+      }
+    },
+    "hero": {
+      "sheet": "sheets/Stitches/hero.webp",
+      "icons": {
+        "storm_ui_icon_stitches_hook.png": [
+          390,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_stitches_slam.png": [
+          390,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_stitches_devour.png": [
+          130,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_stitches_putridbile.png": [
+          260,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_stitches_cannibalize.png": [
+          312,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_stitches_acidcloud.png": [
+          182,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          0,
+          677,
+          76,
+          48
+        ],
+        "storm_ui_icon_stitches_hook_var1.png": [
+          260,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          0,
+          604,
+          111,
+          71
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          423,
+          604,
+          76,
+          48
+        ],
+        "storm_ui_icon_stitches_patchwork.png": [
+          130,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_stitches_hungry.png": [
+          0,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_slow.png": [
+          130,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_stitches_underpressure.png": [
+          0,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_stitches_chopchop.png": [
+          0,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_burningrage.png": [
+          260,
+          474,
+          128,
+          128
+        ]
+      },
+      "portraits": {
+        "draftScreen": [
+          0,
+          0,
+          180,
+          212
+        ],
+        "minimap": [
+          78,
+          677,
+          32,
+          32
+        ],
+        "partyPanel": [
+          243,
+          604,
+          178,
+          56
+        ],
+        "target": [
+          390,
+          474,
+          92,
+          93
+        ],
+        "targetInfo": [
+          113,
+          604,
+          128,
+          56
+        ]
+      }
+    }
+  }
+}

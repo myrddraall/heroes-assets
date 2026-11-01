@@ -1,0 +1,949 @@
+{
+  "id": "Varian",
+  "unitId": "HeroVarian",
+  "hyperlinkId": "Varian",
+  "attributeId": "Vari",
+  "franchise": "Warcraft",
+  "rarity": "Legendary",
+  "releaseDate": "2016-11-15",
+  "isMelee": true,
+  "gender": "Male",
+  "radius": 0.75,
+  "innerRadius": 0.75,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 6,
+    "damage": 6,
+    "survivability": 6,
+    "utility": 7
+  },
+  "life": {
+    "amount": 2220,
+    "scale": 0.04,
+    "regenRate": 4.625,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "EnergyImportant",
+    "Ganker",
+    "Overconfident",
+    "RoleAutoAttacker",
+    "RoleTank"
+  ],
+  "weapons": [
+    {
+      "nameId": "VarianHeroWeaponBase",
+      "isDisabled": false,
+      "range": 1.25,
+      "minimumRange": 0,
+      "period": 0.8,
+      "damage": 74,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "VarianCommandant",
+    "VarianLogosh",
+    "VarianToys19",
+    "VarianUltimate",
+    "VarianWCAVFoot",
+    "VarianWCAVGrand"
+  ],
+  "variationSkinIds": [
+    "VarianBaseVar1",
+    "VarianBaseVar2",
+    "VarianBaseVar3",
+    "VarianBaseVar4"
+  ],
+  "voiceLineIds": [
+    "VarianBase_VoiceLine01",
+    "VarianBase_VoiceLine02",
+    "VarianBase_VoiceLine03",
+    "VarianBase_VoiceLine04",
+    "VarianBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "VarianLionsFang|VarianLionsFang|Q",
+        "abilityId": "VarianLionsFang",
+        "buttonId": "VarianLionsFang",
+        "icon": "storm_ui_icon_varian_lionsfang.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "VarianParry|VarianParry|W",
+        "abilityId": "VarianParry",
+        "buttonId": "VarianParry",
+        "icon": "storm_ui_icon_varian_parry.png",
+        "charges": {
+          "countMax": 2,
+          "countStart": 2,
+          "countUse": 1,
+          "isCountHidden": false
+        },
+        "abilityType": "W"
+      },
+      {
+        "linkId": "VarianCharge|VarianCharge|E",
+        "abilityId": "VarianCharge",
+        "buttonId": "VarianCharge",
+        "icon": "storm_ui_icon_varian_charge.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "VarianTaunt|VarianTaunt|Heroic",
+        "abilityId": "VarianTaunt",
+        "buttonId": "VarianTaunt",
+        "icon": "storm_ui_icon_varian_taunt.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "VarianColossusSmash|VarianColossusSmash|Heroic",
+        "abilityId": "VarianColossusSmash",
+        "buttonId": "VarianColossusSmash",
+        "icon": "storm_ui_icon_varian_colossus_smash.png",
+        "toggleCooldown": 0.0625,
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": ":PASSIVE:|VarianTwinBladesOfFury|Heroic",
+        "abilityId": ":PASSIVE:",
+        "buttonId": "VarianTwinBladesOfFury",
+        "icon": "storm_ui_icon_varian_twinbladesoffury.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": "VarianHeroicStrike|VarianHeroicStrike|Trait",
+        "abilityId": "VarianHeroicStrike",
+        "buttonId": "VarianHeroicStrike",
+        "icon": "storm_ui_icon_varian_heroicstrike.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "VarianHeroicStrike|VarianHeroicStrike|Trait": {
+      "Trait": [
+        {
+          "linkId": ":PASSIVE:|VarianHeroicStrikeActive|Trait",
+          "abilityId": ":PASSIVE:",
+          "buttonId": "VarianHeroicStrikeActive",
+          "icon": "storm_ui_icon_varian_heroicstrike.png",
+          "abilityType": "Trait"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "VarianVictoryRush|VarianVictoryRush|Passive|Level7": {
+      "Activable": [
+        {
+          "linkId": "VarianVictoryRush|VarianVictoryRush|Passive",
+          "abilityId": "VarianVictoryRush",
+          "buttonId": "VarianVictoryRush",
+          "icon": "storm_ui_icon_varian_victoryrush.png",
+          "abilityType": "Passive"
+        }
+      ]
+    },
+    "VarianShatteringThrow|VarianShatteringThrow|Active|Level13": {
+      "Activable": [
+        {
+          "linkId": "VarianShatteringThrow|VarianShatteringThrow|Active",
+          "abilityId": "VarianShatteringThrow",
+          "buttonId": "VarianShatteringThrow",
+          "icon": "storm_ui_icon_varian_shatteringthrow.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "VarianBannerOfDalaran|VarianBannerOfDalaran|Active|Level16": {
+      "Activable": [
+        {
+          "linkId": "VarianBannerOfDalaran|VarianBannerOfDalaran|Active",
+          "abilityId": "VarianBannerOfDalaran",
+          "buttonId": "VarianBannerOfDalaran",
+          "icon": "storm_ui_icon_varian_bannerofdalaran.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "VarianBannerOfIronforge|VarianBannerOfIronforge|Active|Level16": {
+      "Activable": [
+        {
+          "linkId": "VarianBannerOfIronforge|VarianBannerOfIronforge|Active",
+          "abilityId": "VarianBannerOfIronforge",
+          "buttonId": "VarianBannerOfIronforge",
+          "icon": "storm_ui_icon_varian_bannerofironforge.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "VarianBannerOfStormwind|VarianBannerOfStormwind|Active|Level16": {
+      "Activable": [
+        {
+          "linkId": "VarianBannerOfStormwind|VarianBannerOfStormwind|Active",
+          "abilityId": "VarianBannerOfStormwind",
+          "buttonId": "VarianBannerOfStormwind",
+          "icon": "storm_ui_icon_varian_bannerofstormwind.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "VarianDemoralizingShout|VarianDemoralizingShout|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "VarianDemoralizingShout|VarianDemoralizingShout|Active",
+          "abilityId": "VarianDemoralizingShout",
+          "buttonId": "VarianDemoralizingShout",
+          "icon": "storm_ui_icon_varian_demoralizingshout.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "VarianLionsFangLionsMawQuest|VarianLionsFangLionsMawQuest|Q|Level1",
+        "talentId": "VarianLionsFangLionsMawQuest",
+        "buttonId": "VarianLionsFangLionsMawQuest",
+        "abilityId": "VarianLionsFang",
+        "icon": "storm_ui_icon_varian_lionsfang.png",
+        "abilityType": "Q",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "VarianLionsFang|VarianLionsFang|Q"
+        ]
+      },
+      {
+        "linkId": "VarianParryOverpower|VarianParryOverpower|W|Level1",
+        "talentId": "VarianParryOverpower",
+        "buttonId": "VarianParryOverpower",
+        "abilityId": "VarianParry",
+        "icon": "storm_ui_icon_varian_parry.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "VarianParry|VarianParry|W"
+        ]
+      },
+      {
+        "linkId": "VarianHighKingsQuestQuest|VarianHighKingsQuestQuest|Passive|Level1",
+        "talentId": "VarianHighKingsQuestQuest",
+        "buttonId": "VarianHighKingsQuestQuest",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_varian_highkingsquest.png",
+        "abilityType": "Passive",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|VarianHeroicStrikeActive|Trait",
+          "VarianHeroicStrike|VarianHeroicStrike|Trait"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "VarianTaunt|VarianTaunt|Heroic|Level4",
+        "talentId": "VarianTaunt",
+        "buttonId": "VarianTaunt",
+        "abilityId": "VarianTaunt",
+        "icon": "storm_ui_icon_varian_taunt.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "VarianColossusSmash|VarianColossusSmash|Heroic|Level4",
+        "talentId": "VarianColossusSmash",
+        "buttonId": "VarianColossusSmash",
+        "abilityId": "VarianColossusSmash",
+        "icon": "storm_ui_icon_varian_colossus_smash.png",
+        "toggleCooldown": 0.0625,
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      },
+      {
+        "linkId": "VarianTwinBladesOfFury|VarianTwinBladesOfFury|Heroic|Level4",
+        "talentId": "VarianTwinBladesOfFury",
+        "buttonId": "VarianTwinBladesOfFury",
+        "abilityId": "VarianTwinBladesofFury",
+        "icon": "storm_ui_icon_varian_twinbladesoffury.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "VarianLionsFangLionheart|VarianLionsFangLionheart|Q|Level7",
+        "talentId": "VarianLionsFangLionheart",
+        "buttonId": "VarianLionsFangLionheart",
+        "abilityId": "VarianLionsFang",
+        "icon": "storm_ui_icon_varian_lionsfang.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "VarianLionsFang|VarianLionsFang|Q",
+          "VarianParry|VarianParry|W"
+        ]
+      },
+      {
+        "linkId": "VarianSecondWind|VarianSecondWind|Passive|Level7",
+        "talentId": "VarianSecondWind",
+        "buttonId": "VarianSecondWind",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_varian_secondwind.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2
+      },
+      {
+        "linkId": "VarianVictoryRush|VarianVictoryRush|Passive|Level7",
+        "talentId": "VarianVictoryRush",
+        "buttonId": "VarianVictoryRush",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_varian_victoryrush.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "VarianParryShieldWall|VarianParryShieldWall|W|Level10",
+        "talentId": "VarianParryShieldWall",
+        "buttonId": "VarianParryShieldWall",
+        "abilityId": "VarianParry",
+        "icon": "storm_ui_icon_varian_parry.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "VarianParry|VarianParry|W"
+        ]
+      },
+      {
+        "linkId": "VarianChargeWarbringer|VarianChargeWarbringer|E|Level10",
+        "talentId": "VarianChargeWarbringer",
+        "buttonId": "VarianChargeWarbringer",
+        "abilityId": "VarianCharge",
+        "icon": "storm_ui_icon_varian_charge.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "VarianCharge|VarianCharge|E"
+        ]
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "VarianChargeJuggernaut|VarianChargeJuggernaut|E|Level13",
+        "talentId": "VarianChargeJuggernaut",
+        "buttonId": "VarianChargeJuggernaut",
+        "abilityId": "VarianCharge",
+        "icon": "storm_ui_icon_varian_charge.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "VarianCharge|VarianCharge|E"
+        ]
+      },
+      {
+        "linkId": "VarianMortalStrike|VarianMortalStrike|Trait|Level13",
+        "talentId": "VarianMortalStrike",
+        "buttonId": "VarianMortalStrike",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_varian_mortalstrike.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|VarianHeroicStrikeActive|Trait",
+          "VarianHeroicStrike|VarianHeroicStrike|Trait"
+        ]
+      },
+      {
+        "linkId": "VarianShatteringThrow|VarianShatteringThrow|Active|Level13",
+        "talentId": "VarianShatteringThrow",
+        "buttonId": "VarianShatteringThrow",
+        "abilityId": "VarianShatteringThrow",
+        "icon": "storm_ui_icon_varian_shatteringthrow.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "VarianBannerOfStormwind|VarianBannerOfStormwind|Active|Level16",
+        "talentId": "VarianBannerOfStormwind",
+        "buttonId": "VarianBannerOfStormwind",
+        "abilityId": "VarianBannerOfStormwind",
+        "icon": "storm_ui_icon_varian_bannerofstormwind.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 1
+      },
+      {
+        "linkId": "VarianBannerOfIronforge|VarianBannerOfIronforge|Active|Level16",
+        "talentId": "VarianBannerOfIronforge",
+        "buttonId": "VarianBannerOfIronforge",
+        "abilityId": "VarianBannerOfIronforge",
+        "icon": "storm_ui_icon_varian_bannerofironforge.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2
+      },
+      {
+        "linkId": "VarianBannerOfDalaran|VarianBannerOfDalaran|Active|Level16",
+        "talentId": "VarianBannerOfDalaran",
+        "buttonId": "VarianBannerOfDalaran",
+        "abilityId": "VarianBannerOfDalaran",
+        "icon": "storm_ui_icon_varian_bannerofdalaran.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "VarianTauntVigilance|VarianTauntVigilance|Heroic|Level20",
+        "talentId": "VarianTauntVigilance",
+        "buttonId": "VarianTauntVigilance",
+        "abilityId": "VarianTaunt",
+        "icon": "storm_ui_icon_varian_taunt.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "VarianTaunt|VarianTaunt|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "VarianTaunt"
+        ]
+      },
+      {
+        "linkId": "VarianColossusSmashMasterAtArms|VarianColossusSmashMasterAtArms|Heroic|Level20",
+        "talentId": "VarianColossusSmashMasterAtArms",
+        "buttonId": "VarianColossusSmashMasterAtArms",
+        "abilityId": "VarianColossusSmash",
+        "icon": "storm_ui_icon_varian_colossus_smash.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "VarianColossusSmash|VarianColossusSmash|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "VarianColossusSmash"
+        ]
+      },
+      {
+        "linkId": "VarianTwinBladesOfFuryFrenzy|VarianTwinBladesOfFuryFrenzy|Passive|Level20",
+        "talentId": "VarianTwinBladesOfFuryFrenzy",
+        "buttonId": "VarianTwinBladesOfFuryFrenzy",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_varian_twinbladesoffury.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|VarianTwinBladesOfFury|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "VarianTwinBladesOfFury"
+        ]
+      },
+      {
+        "linkId": "VarianBannersGloryToTheAlliance|VarianBannersGloryToTheAlliance|Passive|Level20",
+        "talentId": "VarianBannersGloryToTheAlliance",
+        "buttonId": "VarianBannersGloryToTheAlliance",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_varian_glorytothealliance.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          "VarianBannerOfDalaran|VarianBannerOfDalaran|Active",
+          "VarianBannerOfIronforge|VarianBannerOfIronforge|Active",
+          "VarianBannerOfStormwind|VarianBannerOfStormwind|Active"
+        ]
+      },
+      {
+        "linkId": "VarianDemoralizingShout|VarianDemoralizingShout|Active|Level20",
+        "talentId": "VarianDemoralizingShout",
+        "buttonId": "VarianDemoralizingShout",
+        "abilityId": "VarianDemoralizingShout",
+        "icon": "storm_ui_icon_varian_demoralizingshout.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 5
+      }
+    ]
+  },
+  "sheets": {
+    "abilities": {
+      "sheet": "sheets/Varian/abilities.webp",
+      "icons": {
+        "storm_ui_icon_varian_lionsfang.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_varian_parry.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_varian_charge.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_varian_taunt.png": [
+          130,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_varian_colossus_smash.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_varian_twinbladesoffury.png": [
+          260,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_varian_heroicstrike.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          321,
+          520,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          130,
+          520,
+          111,
+          71
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          243,
+          520,
+          76,
+          48
+        ],
+        "storm_ui_icon_varian_victoryrush.png": [
+          0,
+          520,
+          128,
+          128
+        ],
+        "storm_ui_icon_varian_shatteringthrow.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_varian_bannerofdalaran.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_varian_bannerofironforge.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_varian_bannerofstormwind.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_varian_demoralizingshout.png": [
+          260,
+          130,
+          128,
+          128
+        ]
+      }
+    },
+    "talents": {
+      "sheet": "sheets/Varian/talents.webp",
+      "icons": {
+        "storm_ui_icon_varian_lionsfang.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_varian_parry.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_varian_highkingsquest.png": [
+          390,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_varian_taunt.png": [
+          130,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_varian_colossus_smash.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_varian_twinbladesoffury.png": [
+          260,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_varian_secondwind.png": [
+          390,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_varian_victoryrush.png": [
+          390,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_varian_charge.png": [
+          390,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_varian_mortalstrike.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_varian_shatteringthrow.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_varian_bannerofstormwind.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_varian_bannerofironforge.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_varian_bannerofdalaran.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_varian_glorytothealliance.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_varian_demoralizingshout.png": [
+          130,
+          130,
+          128,
+          128
+        ]
+      }
+    },
+    "hero": {
+      "sheet": "sheets/Varian/hero.webp",
+      "icons": {
+        "storm_ui_icon_varian_lionsfang.png": [
+          260,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_varian_parry.png": [
+          0,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_varian_charge.png": [
+          0,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_varian_taunt.png": [
+          390,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_varian_colossus_smash.png": [
+          130,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_varian_twinbladesoffury.png": [
+          0,
+          604,
+          128,
+          128
+        ],
+        "storm_ui_icon_varian_heroicstrike.png": [
+          0,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          258,
+          734,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          354,
+          604,
+          111,
+          71
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          180,
+          734,
+          76,
+          48
+        ],
+        "storm_ui_icon_varian_victoryrush.png": [
+          130,
+          604,
+          128,
+          128
+        ],
+        "storm_ui_icon_varian_shatteringthrow.png": [
+          260,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_varian_bannerofdalaran.png": [
+          182,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_varian_bannerofironforge.png": [
+          312,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_varian_bannerofstormwind.png": [
+          442,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_varian_demoralizingshout.png": [
+          260,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_varian_highkingsquest.png": [
+          130,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_varian_secondwind.png": [
+          130,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_varian_mortalstrike.png": [
+          390,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_varian_glorytothealliance.png": [
+          390,
+          214,
+          128,
+          128
+        ]
+      },
+      "portraits": {
+        "draftScreen": [
+          0,
+          0,
+          180,
+          212
+        ],
+        "minimap": [
+          336,
+          734,
+          32,
+          32
+        ],
+        "partyPanel": [
+          0,
+          734,
+          178,
+          56
+        ],
+        "target": [
+          260,
+          604,
+          92,
+          93
+        ],
+        "targetInfo": [
+          467,
+          604,
+          128,
+          56
+        ]
+      }
+    }
+  }
+}

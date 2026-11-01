@@ -1,0 +1,220 @@
+{
+  "abilities": {
+    "JunkratFragLauncher|JunkratFragLauncher|Q": {
+      "cooldownText": "Ladungsabklingzeit: 12 Sek.",
+      "fullText": "Feuert eine Granate ab, die explodiert, wenn sie die volle Strecke zurückgelegt hat oder einen Gegner trifft, und <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">124</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Schaden verursacht. Granaten können vom Terrain abprallen. Fügt Gebäuden <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> weniger Schaden zu.<n/><n/>Maximal <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> Aufladungen. Bei Ablauf der Abklingzeit werden alle Aufladungen gleichzeitig wiederhergestellt.",
+      "name": "Granatwerfer",
+      "shortText": "Feuert eine springende Granate ab."
+    },
+    "JunkratConcussionMine|JunkratConcussionMine|W": {
+      "cooldownText": "Abklingzeit: 16 Sek.",
+      "fullText": "Platziert eine Mine auf dem Boden. Die Eigenschaft kann aktiviert werden, um die Mine manuell zu zünden. Fügt Gegnern in der Nähe <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">180</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Schaden zu und stößt sie zurück. Kann sich mit der Ferngezündeten Mine auch selbst wegstoßen, ohne dabei Schaden zu erleiden.<n/><n/>Maximal <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> aktive Mine.",
+      "name": "Ferngezündete Mine",
+      "shortText": "Legt eine Mine, die manuell gezündet werden kann."
+    },
+    "JunkratSteelTrap|JunkratSteelTrap|E": {
+      "cooldownText": "Abklingzeit: 15 Sek.",
+      "fullText": "Platziert eine Falle auf dem Boden, die nach <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> Sek. aktiv wird. Der erste Gegner, der in die Falle geht, erleidet <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">130</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Schaden und wird <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> Sek. lang bewegungsunfähig gemacht.<n/><n/>Maximal <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> aktive Falle.",
+      "name": "Stahlfalle",
+      "shortText": "Platziert eine Falle, die Gegner bewegungsunfähig macht."
+    },
+    "JunkratRIPTire|JunkratRIPTire|Heroic": {
+      "cooldownText": "Abklingzeit: 75 Sek.",
+      "fullText": "Erschafft eine motorisierte Bombe mit <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">530</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Lebenspunkten, die bis zu <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> Sek. lang bestehen bleibt. Junkrat kann sich währenddessen nicht bewegen und übernimmt stattdessen die Steuerung des Kamikazereifens.<n/><n/>Erneut aktivieren, um die Bombe sofort zu zünden. Stößt nahe Gegner zurück und fügt Gegnern im Zentrum der Explosion <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">720</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Schaden zu. Dieser Schaden nimmt zum äußeren Bereich hin schrittweise ab und beträgt dort noch <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">445</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Schaden.",
+      "name": "Kamikazereifen",
+      "shortText": "Erschafft eine motorisierte Bombe."
+    },
+    "JunkratRocketRide|JunkratRocketRide|Heroic": {
+      "cooldownText": "Abklingzeit: 75 Sek.",
+      "fullText": "Schießt nach <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.25</c> Sek. hoch in die Luft. Kann in der Luft noch lenken und den Aufschlagort durch Bewegung beeinflussen.<n/><n/>Landet nach <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3.75</c> Sek., fügt nahen Gegnern <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">935</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Schaden zu und aktiviert Sprengteufel. <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> Sek. später erscheint Junkrat wieder am Altar der Stürme, wo seine Bewegungsgeschwindigkeit bis zum Absitzen zusätzlich um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150%</c> erhöht wird.",
+      "name": "Ritt auf der Rakete",
+      "shortText": "Schießt hoch in die Luft und fügt Gegnern bei der Landung Schaden zu."
+    },
+    ":PASSIVE:|JunkratTotalMayhem|Trait": {
+      "fullText": "Hinterlässt beim Tod <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> Granaten, die nach <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.75</c> Sek. explodieren und Gegnern in der Nähe jeweils <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">250</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Schaden zufügen. Die Granaten fügen Gebäuden <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75%</c> weniger Schaden zu.<n/><n/><s val=\"cbe8ff-ffffff\" hlt-name=\"StandardTooltipHeader\">Mine zünden</s><n/><n/>Zündet eine aktive Ferngezündete Mine.",
+      "name": "Sprengteufel",
+      "shortText": "Hinterlässt beim Tod Granaten."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Abklingzeit: 4 Sek.",
+      "fullText": "Erhöht die Bewegungsgeschwindigkeit nach <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> Sek. Kanalisierung um <s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Aufsitzen"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Kanalisiert <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> Sek. lang und teleportiert sich dann zurück zum Altar der Stürme. Dabei werden sofort <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c> Lebenspunkte und <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c> Mana wiederhergestellt.",
+      "name": "Ruhestein"
+    },
+    "JunkratDetonateMine|JunkratDetonateMine|Trait": {
+      "fullText": "Zündet die platzierte Ferngezündete Mine. Fügt nahen Gegnern <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">180</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Schaden zu und stößt sie zurück. Auch Junkrat kann von der Mine weggestoßen werden, erleidet dabei jedoch keinen Schaden.",
+      "name": "Mine zünden",
+      "shortText": "Zündet die Ferngezündete Mine."
+    },
+    "JunkratRIPTireJump|JunkratRIPTireJump|Q": {
+      "cooldownText": "Abklingzeit: 2 Sek.",
+      "fullText": "Aktivieren, um den Kamikazereifen springen zu lassen. Kann so Terrain und Gebäude überwinden.",
+      "name": "Abheben!",
+      "shortText": "Der Kamikazereifen überspringt Hindernisse."
+    },
+    "JunkratDetonateRIPTire|JunkratDetonateRIPTire|Heroic": {
+      "fullText": "Lässt den Kamikazereifen sofort explodieren. Stößt nahe Gegner zurück und fügt Gegnern im Zentrum der Explosion <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">720</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Schaden zu. Dieser Schaden nimmt zum äußeren Bereich hin schrittweise ab und beträgt dort noch <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">445</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Schaden.",
+      "name": "Kamikazereifen zünden",
+      "shortText": "Lässt den Kamikazereifen sofort explodieren."
+    },
+    "JunkratRocketRideDismount|JunkratRocketRideUnsummonMount|Z": {
+      "fullText": "Sitzt ab.",
+      "name": "Absitzen"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Sitzt ab.",
+      "name": "Absitzen"
+    },
+    "JunkratTotalMayhemDirtyTrickster|JunkratDirtyTrickster|Trait": {
+      "cooldownText": "Abklingzeit: 20 Sek.",
+      "fullText": "Erhöht den Explosionsradius von Sprengteufel um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c>. Löst Sprengteufel aus und lässt <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> Granaten fallen, wenn Junkrat weniger als <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> Lebenspunkte hat und durch gegnerische Helden Schaden erleidet, betäubt oder bewegungsunfähig gemacht wird.<n/><n/>Dieser Effekt hat eine Abklingzeit von <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c> Sek.",
+      "name": "Granaten im Ärmel",
+      "shortText": "Sprengteufel wird häufiger ausgelöst."
+    },
+    "JunkratSpreadVolley|JunkratSpreadVolleyActive|Active": {
+      "cooldownText": "Abklingzeit: 30 Sek.",
+      "fullText": "Aktivieren, um mit dem Granatwerfer <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> zusätzliche Granaten in einem Fächer abzufeuern. Hält an, bis insgesamt <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> Aufladungen abgefeuert wurden oder bis der Granatwerfer keine Aufladungen mehr hat.",
+      "name": "Granatfächer"
+    },
+    "JunkratIHateWaitingSummonMount|JunkratRocketRideSummonMount|Z": {
+      "cooldownText": "Abklingzeit: 8 Sek.",
+      "fullText": "Erhöht die Bewegungsgeschwindigkeit nach <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> Sek. Kanalisierung um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150%</c>.",
+      "name": "Aufsitzen"
+    }
+  },
+  "talents": {
+    "JunkratFragLauncherTrickyShuffles|JunkratTrickyShufflesFragLauncherTalent|Q|Level1": {
+      "fullText": "Erhöht die Bewegungsgeschwindigkeit um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c> und den Schaden automatischer Angriffe um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c>, wenn der Granatwerfer keine Aufladungen hat.",
+      "name": "Ballastfrei",
+      "shortText": "Erhöht die Bewegungsgeschwindigkeit während der Abklingzeit des Granatwerfers."
+    },
+    "JunkratFragLauncherExtraWoundTimers|JunkratExtraWoundTimersFragLauncherTalent|Q|Level1": {
+      "fullText": "Die letzte Granate des Granatwerfers verursacht <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> Bonusschaden. Granaten aus dem Granatwerfer bleiben <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> Sek. länger bestehen, bevor sie automatisch detonieren.",
+      "name": "Extraumdrehung",
+      "shortText": "Granaten aus dem Granatwerfer verursachen Bonusschaden."
+    },
+    "JunkratConcussionMineBlowEmUp|JunkratBlowEmUpConcussionMineTalent|Passive|Level1": {
+      "fullText": "Erhöht den Schaden automatischer Angriffe <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> Sek. lang um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> , wenn die Ferngezündete Mine oder die Stahlfalle einen gegnerischen Helden treffen.",
+      "name": "Bombenstimmung",
+      "shortText": "Die Ferngezündete Mine und die Stahlfalle erhöhen den Schaden automatischer Angriffe."
+    },
+    "JunkratFragLauncherTasteForExplosions|JunkratTasteForExplosionsFragLauncherTalent|Q|Level4": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Quest:</c> Erhöht den Schaden pro getroffenem Helden dauerhaft um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.2%</c>, bis maximal <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c>.",
+      "name": "Explosionsgeil",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Quest:</c> Erhöht den Schaden des Granatwerfers."
+    },
+    "JunkratConcussionMineBOOMPOW|JunkratBOOMPOWConcussionMineTalent|W|Level4": {
+      "fullText": "Verringert die Abklingzeit um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> Sek., wenn ein gegnerischer Held getroffen wird.",
+      "name": "KABUMM-BUMM",
+      "shortText": "Heldentreffer verringern die Abklingzeit."
+    },
+    "JunkratSteelTrapChatteringTeeth|JunkratChatteringTeethSteelTrapTalent|E|Level4": {
+      "fullText": "Stahlfallen bewegen sich langsam auf gegnerische Helden in der Nähe zu.",
+      "name": "Klappernde Zähne",
+      "shortText": "Fallen verfolgen gegnerische Helden."
+    },
+    "JunkratConcussionMineBoggedDown|JunkratBoggedDownConcussionMineTalent|W|Level7": {
+      "fullText": "Verlangsamt die von der Ferngezündeten Mine zurückgestoßenen Gegner nach der Landung <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c> Sek. lang um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c>. ",
+      "name": "Bleibende Schäden",
+      "shortText": "Die Ferngezündete Mine verlangsamt Gegner."
+    },
+    "JunkratSteelTrapStickyWicket|JunkratStickyWicketSteelTrapTalent|E|Level7": {
+      "fullText": "Die Stahlfalle bringt gegnerische Helden <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> Sek. lang zum Schweigen.",
+      "name": "Aus der Klemme in die Patsche",
+      "shortText": "Die Stahlfalle bringt Helden zum Schweigen."
+    },
+    "JunkratTotalMayhemDirtyTricksterTalent|JunkratDirtyTrickster|Trait|Level7": {
+      "fullText": "Erhöht den Explosionsradius von Sprengteufel um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c>. Löst Sprengteufel aus und lässt <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> Granaten fallen, wenn Junkrat weniger als <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> Lebenspunkte hat und durch gegnerische Helden Schaden erleidet, betäubt oder bewegungsunfähig gemacht wird.<n/><n/>Dieser Effekt hat eine Abklingzeit von <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c> Sek.",
+      "name": "Granaten im Ärmel",
+      "shortText": "Sprengteufel wird häufiger ausgelöst."
+    },
+    "JunkratRIPTire|JunkratRIPTire|Heroic|Level10": {
+      "cooldownText": "Abklingzeit: 75 Sek.",
+      "fullText": "Erschafft eine motorisierte Bombe mit <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">530</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Lebenspunkten, die bis zu <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> Sek. lang bestehen bleibt. Junkrat kann sich währenddessen nicht bewegen und übernimmt stattdessen die Steuerung des Kamikazereifens.<n/><n/>Erneut aktivieren, um die Bombe sofort zu zünden. Stößt nahe Gegner zurück und fügt Gegnern im Zentrum der Explosion <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">720</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Schaden zu. Dieser Schaden nimmt zum äußeren Bereich hin schrittweise ab und beträgt dort noch <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">445</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Schaden.",
+      "name": "Kamikazereifen",
+      "shortText": "Erschafft eine motorisierte Bombe."
+    },
+    "JunkratRocketRide|JunkratRocketRide|Heroic|Level10": {
+      "cooldownText": "Abklingzeit: 75 Sek.",
+      "fullText": "Schießt nach <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.25</c> Sek. hoch in die Luft. Kann in der Luft noch lenken und den Aufschlagort durch Bewegung beeinflussen.<n/><n/>Landet nach <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3.75</c> Sek., fügt nahen Gegnern <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">935</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Schaden zu und aktiviert Sprengteufel. <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> Sek. später erscheint Junkrat wieder am Altar der Stürme, wo seine Bewegungsgeschwindigkeit bis zum Absitzen zusätzlich um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150%</c> erhöht wird.",
+      "name": "Ritt auf der Rakete",
+      "shortText": "Schießt hoch in die Luft und fügt Gegnern bei der Landung Schaden zu."
+    },
+    "JunkratFragLauncherBombsAwayTalent|JunkratBombsAwayFragLauncherTalent|Q|Level13": {
+      "fullText": "Erhöht die Reichweite automatischer Angriffe um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>. Granaten aus dem Granatwerfer, die innerhalb von <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c> Sek. nach automatischen Angriffen abgefeuert wurden, verursachen <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c> Bonusschaden.",
+      "name": "Bombenhagel",
+      "shortText": "Erhöht den Schaden und die Reichweite automatischer Angriffe."
+    },
+    "JunkratConcussionMineRipperAir|JunkratRipperAirConcussionMineTalent|W|Level13": {
+      "fullText": "Erhöht Junkrats Rückstoßentfernung um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> und verringert die Abklingzeit um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">12</c> Sek., wenn nur er selbst getroffen wird.",
+      "name": "Gewusst wie",
+      "shortText": "Ferngezündete Minen stoßen Junkrat weiter weg."
+    },
+    "JunkratSteelTrapGottaTrapEmAll|JunkratGottaTrapEmAllSteelTrapTalent|E|Level13": {
+      "fullText": "Verringert die Abklingzeit der Stahlfalle um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> Sek. und erhöht die maximale Anzahl Fallen auf <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>.",
+      "name": "Schnapp sie dir, Falle!",
+      "shortText": "Erhöht die Anzahl der Stahlfallen."
+    },
+    "JunkratSteelTrapBigAs|JunkratBigAsSteelTrapTalent|E|Level13": {
+      "fullText": "Die Stahlfalle trifft nur noch Helden und verringert ihre Panzerung <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> Sek. lang um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c>. Erhöht den Radius und den Schaden um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>.",
+      "name": "Mutter aller Fallen",
+      "shortText": "Stahlfallen treffen nur Helden."
+    },
+    "JunkratFragLauncherBurstFire|JunkratBurstFireFragLauncherTalent|Q|Level16": {
+      "fullText": "Feuert alle Aufladungen in einem einzigen Feuerstoß ab. Verringert die Abklingzeit um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> Sek., aber verringert auch die maximale Anzahl Aufladungen um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>. ",
+      "name": "Feuerstoß",
+      "shortText": "Der Granatwerfer feuert alle Aufladungen in einem einzigen Feuerstoß ab."
+    },
+    "JunkratFragLauncherEndlessNades|JunkratEndlessNadesFragLauncherTalent|Q|Level16": {
+      "fullText": "Verringert die Abklingzeit des Granatwerfers um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> Sek., wenn ein gegnerischer Held getroffen wird.",
+      "name": "Endloser Vorrat",
+      "shortText": "Heldentreffer verringern die Abklingzeit."
+    },
+    "JunkratFragLauncherSpreadVolley|JunkratSpreadVolleyFragLauncherTalent|Active|Level16": {
+      "cooldownText": "Abklingzeit: 30 Sek.",
+      "fullText": "Aktivieren, um mit dem Granatwerfer <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> zusätzliche Granaten in einem Fächer abzufeuern. Hält an, bis insgesamt <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> Aufladungen abgefeuert wurden oder bis der Granatwerfer keine Aufladungen mehr hat.",
+      "name": "Granatfächer",
+      "shortText": "Aktivieren, damit der Granatwerfer seine Geschosse fächert."
+    },
+    "JunkratRIPTireExtraOomph|JunkratExtraOomphRIPTireTalent|Heroic|Level20": {
+      "fullText": "Erhöht die Rückstoßentfernung um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">80%</c>. Verringert die Abklingzeit für jeden getroffenen gegnerischen Helden um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c> Sek.",
+      "name": "Extraportion Wumms",
+      "shortText": "Erhöht die Rückstoßentfernung. Getroffene Helden verringern die Abklingzeit."
+    },
+    "JunkratRocketRidePuckishScamp|JunkratPuckishScampRocketRideTalent|Heroic|Level20": {
+      "fullText": "Junkrat erhält zusätzlich die Fähigkeit Kamikazereifen. Jedes Mal, wenn er seine heroische Fähigkeit einsetzt, wird die jeweils andere Fähigkeit verfügbar.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Passiv:</c> Verringert die Abklingzeit beider heroischen Fähigkeiten um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c> Sek.",
+      "name": "Zusammenschustern",
+      "shortText": "Gewährt zusätzlich Kamikazereifen."
+    },
+    "JunkratFragLauncherCannonball|JunkratCannonballFragLauncherTalent|Q|Level20": {
+      "fullText": "Vergrößert den Radius von Granaten und Granatexplosionen bei automatischen Angriffen und beim Granatwerfer um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>.",
+      "name": "Brisanz",
+      "shortText": "Vergrößert die Explosionen des Granatwerfers und automatischer Angriffe."
+    },
+    "JunkratIHateWaitingTalent|JunkratIHateWaiting|Z|Level20": {
+      "fullText": "Gewährt dauerhaft das Reittier von Ritt auf der Rakete, was die Bewegungsgeschwindigkeit beim Reiten auf <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150%</c> erhöht. Erhöht die Abklingzeit von Aufsitzen auf <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c> Sek.",
+      "name": "Ich hasse Warten!",
+      "shortText": "Reitet Junkrats Rakete!"
+    }
+  },
+  "units": {
+    "JunkratConcussionMine": {
+      "description": "Platziert eine Mine auf dem Boden. Die Eigenschaft kann aktiviert werden, um die Mine manuell zu zünden. Fügt Gegnern in der Nähe <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">180</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Schaden zu und stößt sie zurück. Kann sich mit der Ferngezündeten Mine auch selbst wegstoßen, ohne dabei Schaden zu erleiden.<n/><n/>Maximal <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> aktive Mine.",
+      "name": "Ferngezündete Mine"
+    },
+    "JunkratRIPTire": {
+      "description": "Erschafft eine motorisierte Bombe mit <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">530</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Lebenspunkten, die bis zu <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> Sek. lang bestehen bleibt. Junkrat kann sich währenddessen nicht bewegen und übernimmt stattdessen die Steuerung des Kamikazereifens.<n/><n/>Erneut aktivieren, um die Bombe sofort zu zünden. Stößt nahe Gegner zurück und fügt Gegnern im Zentrum der Explosion <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">720</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Schaden zu. Dieser Schaden nimmt zum äußeren Bereich hin schrittweise ab und beträgt dort noch <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">445</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Schaden.",
+      "name": "Kamikazereifen"
+    },
+    "JunkratRocketRideTrackerUnit": {
+      "name": "Ritt auf der Rakete (Verfolger-Einheit)"
+    },
+    "JunkratSteelTrap": {
+      "description": "Platziert eine Falle auf dem Boden, die nach <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> Sek. aktiv wird. Der erste Gegner, der in die Falle geht, erleidet <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">130</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Schaden und wird <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> Sek. lang bewegungsunfähig gemacht.<n/><n/>Maximal <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> aktive Falle.",
+      "name": "Stahlfalle"
+    }
+  }
+}

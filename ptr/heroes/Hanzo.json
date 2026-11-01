@@ -1,0 +1,806 @@
+{
+  "id": "Hanzo",
+  "unitId": "HeroHanzo",
+  "hyperlinkId": "Hanzo",
+  "attributeId": "Hanz",
+  "franchise": "Overwatch",
+  "rarity": "Legendary",
+  "releaseDate": "2017-12-12",
+  "isMelee": false,
+  "gender": "Male",
+  "radius": 0.6875,
+  "innerRadius": 0.6875,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 6,
+    "damage": 8,
+    "survivability": 4,
+    "utility": 5
+  },
+  "life": {
+    "amount": 1375,
+    "scale": 0.04,
+    "regenRate": 2.8632,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "EnergyImportant",
+    "Escaper",
+    "RoleAutoAttacker",
+    "RoleCaster"
+  ],
+  "summonedUnitIds": [
+    "HanzoDragonstrikeController",
+    "HanzoDragonstrikeSoundUnit"
+  ],
+  "weapons": [
+    {
+      "nameId": "HanzoHeroWeapon",
+      "isDisabled": false,
+      "range": 6.5,
+      "minimumRange": 0,
+      "period": 1.5,
+      "damage": 198,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "HanzoArmy19",
+    "HanzoBloodElf"
+  ],
+  "variationSkinIds": [
+    "HanzoBaseVar1",
+    "HanzoBaseVar2",
+    "HanzoBaseVar3",
+    "HanzoBaseVar4",
+    "HanzoBaseVar5"
+  ],
+  "voiceLineIds": [
+    "HanzoBase_VoiceLine01",
+    "HanzoBase_VoiceLine02",
+    "HanzoBase_VoiceLine03",
+    "HanzoBase_VoiceLine04",
+    "HanzoBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "HanzoStormBowFireTargetPoint|HanzoStormBow|Q",
+        "abilityId": "HanzoStormBowFireTargetPoint",
+        "buttonId": "HanzoStormBow",
+        "icon": "storm_ui_icon_hanzo_stormbow.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "HanzoScatterArrow|HanzoScatterArrow|W",
+        "abilityId": "HanzoScatterArrow",
+        "buttonId": "HanzoScatterArrow",
+        "icon": "storm_ui_icon_hanzo_scatterarrow.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "HanzoSonicArrow|HanzoSonicArrow|E",
+        "abilityId": "HanzoSonicArrow",
+        "buttonId": "HanzoSonicArrow",
+        "icon": "storm_ui_icon_hanzo_sonicarrow.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "HanzoDragonstrike|HanzoDragonstrike|Heroic",
+        "abilityId": "HanzoDragonstrike",
+        "buttonId": "HanzoDragonstrike",
+        "icon": "storm_ui_icon_hanzo_dragonstrike.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "HanzoDragonsArrow|HanzoDragonsArrow|Heroic",
+        "abilityId": "HanzoDragonsArrow",
+        "buttonId": "HanzoDragonsArrow",
+        "icon": "storm_ui_icon_hanzo_thedragonsarrow.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": "HanzoNaturalAgilityButton|HanzoNaturalAgility|Trait",
+        "abilityId": "HanzoNaturalAgilityButton",
+        "buttonId": "HanzoNaturalAgility",
+        "icon": "storm_ui_icon_hanzo_wallvault.png",
+        "charges": {
+          "countMax": 1,
+          "countStart": 1,
+          "countUse": 1,
+          "recastCooldown": 0.25,
+          "isCountHidden": true
+        },
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "HanzoPOTG|HanzoPOTG|Heroic|Level20": {
+      "Heroic": [
+        {
+          "linkId": "HanzoPOTG|HanzoPOTGActivate|Heroic",
+          "abilityId": "HanzoPOTG",
+          "buttonId": "HanzoPOTGActivate",
+          "icon": "storm_ui_icon_hanzo_playofthegame.png",
+          "toggleCooldown": 0.0625,
+          "abilityType": "Heroic"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "HanzoTargetPractice|HanzoTargetPractice|Q|Level1",
+        "talentId": "HanzoTargetPractice",
+        "buttonId": "HanzoTargetPractice",
+        "abilityId": "HanzoStormBowFireTargetPoint",
+        "icon": "storm_ui_icon_hanzo_stormbow.png",
+        "abilityType": "Q",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "HanzoStormBowFireTargetPoint|HanzoStormBow|Q"
+        ]
+      },
+      {
+        "linkId": "HanzoSimpleGeometry|HanzoSimpleGeometry|W|Level1",
+        "talentId": "HanzoSimpleGeometry",
+        "buttonId": "HanzoSimpleGeometry",
+        "abilityId": "HanzoScatterArrow",
+        "icon": "storm_ui_icon_hanzo_scatterarrow.png",
+        "abilityType": "W",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "HanzoScatterArrow|HanzoScatterArrow|W"
+        ]
+      },
+      {
+        "linkId": "HanzoRedemption|HanzoRedemption|Passive|Level1",
+        "talentId": "HanzoRedemption",
+        "buttonId": "HanzoRedemption",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_hanzo_redemption.png",
+        "abilityType": "Passive",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "HanzoNaturalAgilityButton|HanzoNaturalAgility|Trait"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "HanzoExplosiveArrows|HanzoExplosiveArrows|Q|Level4",
+        "talentId": "HanzoExplosiveArrows",
+        "buttonId": "HanzoExplosiveArrows",
+        "abilityId": "HanzoStormBowFireTargetPoint",
+        "icon": "storm_ui_icon_hanzo_stormbow.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "HanzoStormBowFireTargetPoint|HanzoStormBow|Q"
+        ]
+      },
+      {
+        "linkId": "HanzoSerratedArrows|HanzoSerratedArrows|W|Level4",
+        "talentId": "HanzoSerratedArrows",
+        "buttonId": "HanzoSerratedArrows",
+        "abilityId": "HanzoScatterArrow",
+        "icon": "storm_ui_icon_hanzo_scatterarrow.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "HanzoScatterArrow|HanzoScatterArrow|W"
+        ]
+      },
+      {
+        "linkId": "HanzoIgnoreAllDistractions|HanzoIgnoreAllDistractions|Passive|Level4",
+        "talentId": "HanzoIgnoreAllDistractions",
+        "buttonId": "HanzoIgnoreAllDistractions",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_hanzo_fromonething.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "HanzoNaturalAgilityButton|HanzoNaturalAgility|Trait"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "HanzoTheDragonHungers|HanzoTheDragonHungers|Q|Level7",
+        "talentId": "HanzoTheDragonHungers",
+        "buttonId": "HanzoTheDragonHungers",
+        "abilityId": "HanzoStormBowFireTargetPoint",
+        "icon": "storm_ui_icon_hanzo_draconicadvantage.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "HanzoStormBowFireTargetPoint|HanzoStormBow|Q"
+        ]
+      },
+      {
+        "linkId": "HanzoNeverOutmatched|HanzoNeverOutmatched|W|Level7",
+        "talentId": "HanzoNeverOutmatched",
+        "buttonId": "HanzoNeverOutmatched",
+        "abilityId": "HanzoScatterArrow",
+        "icon": "storm_ui_icon_hanzo_scatterarrow.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "HanzoScatterArrow|HanzoScatterArrow|W"
+        ]
+      },
+      {
+        "linkId": "HanzoSharpenedArrowheads|HanzoSharpenedArrowheads|Passive|Level7",
+        "talentId": "HanzoSharpenedArrowheads",
+        "buttonId": "HanzoSharpenedArrowheads",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_hanzo_shieldbreaker.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "HanzoStormBowFireTargetPoint|HanzoStormBow|Q"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "HanzoDragonstrike|HanzoDragonstrike|Heroic|Level10",
+        "talentId": "HanzoDragonstrike",
+        "buttonId": "HanzoDragonstrike",
+        "abilityId": "HanzoDragonstrike",
+        "icon": "storm_ui_icon_hanzo_dragonstrike.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "HanzoDragonsArrow|HanzoDragonsArrow|Heroic|Level10",
+        "talentId": "HanzoDragonsArrow",
+        "buttonId": "HanzoDragonsArrow",
+        "abilityId": "HanzoDragonsArrow",
+        "icon": "storm_ui_icon_hanzo_thedragonsarrow.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "HanzoFleetofFoot|HanzoFleetofFoot|Q|Level13",
+        "talentId": "HanzoFleetofFoot",
+        "buttonId": "HanzoFleetofFoot",
+        "abilityId": "HanzoStormBowFireTargetPoint",
+        "icon": "storm_ui_icon_hanzo_stormbow.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "HanzoStormBowFireTargetPoint|HanzoStormBow|Q"
+        ]
+      },
+      {
+        "linkId": "HanzoNinjaAssassin|HanzoNinjaAssassin|Trait|Level13",
+        "talentId": "HanzoNinjaAssassin",
+        "buttonId": "HanzoNinjaAssassin",
+        "abilityId": "HanzoNaturalAgilityButton",
+        "icon": "storm_ui_icon_hanzo_wallvault.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "HanzoNaturalAgilityButton|HanzoNaturalAgility|Trait"
+        ]
+      },
+      {
+        "linkId": "HanzoMountedArchery|HanzoMountedArchery|Passive|Level13",
+        "talentId": "HanzoMountedArchery",
+        "buttonId": "HanzoMountedArchery",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_hanzo_grabthereins.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "HanzoNaturalAgilityButton|HanzoNaturalAgility|Trait"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "HanzoFlawlessTechnique|HanzoFlawlessTechnique|Passive|Level16",
+        "talentId": "HanzoFlawlessTechnique",
+        "buttonId": "HanzoFlawlessTechnique",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_hanzo_fromonething.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "HanzoStormBowFireTargetPoint|HanzoStormBow|Q"
+        ]
+      },
+      {
+        "linkId": "HanzoPiercingArrows|HanzoPiercingArrows|Passive|Level16",
+        "talentId": "HanzoPiercingArrows",
+        "buttonId": "HanzoPiercingArrows",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_hanzo_piercingarrows.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "HanzoStormBowFireTargetPoint|HanzoStormBow|Q",
+          "HanzoScatterArrow|HanzoScatterArrow|W"
+        ]
+      },
+      {
+        "linkId": "HanzoGiantSlayer|HanzoGiantSlayer|Passive|Level16",
+        "talentId": "HanzoGiantSlayer",
+        "buttonId": "HanzoGiantSlayer",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_hanzo_kaijuhunter.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "HanzoScatterArrow|HanzoScatterArrow|W"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "HanzoTheDragonAwakens|HanzoTheDragonAwakens|Heroic|Level20",
+        "talentId": "HanzoTheDragonAwakens",
+        "buttonId": "HanzoTheDragonAwakens",
+        "abilityId": "HanzoDragonstrike",
+        "icon": "storm_ui_icon_hanzo_dragonstrike.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "HanzoDragonstrike|HanzoDragonstrike|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "HanzoDragonstrike"
+        ]
+      },
+      {
+        "linkId": "HanzoPOTG|HanzoPOTG|Heroic|Level20",
+        "talentId": "HanzoPOTG",
+        "buttonId": "HanzoPOTG",
+        "abilityId": "HanzoDragonsArrow",
+        "icon": "storm_ui_icon_hanzo_thedragonsarrow.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "HanzoDragonsArrow|HanzoDragonsArrow|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "HanzoDragonsArrow"
+        ]
+      },
+      {
+        "linkId": "HanzoBullseye|HanzoBullseye|E|Level20",
+        "talentId": "HanzoBullseye",
+        "buttonId": "HanzoBullseye",
+        "abilityId": "HanzoSonicArrow",
+        "icon": "storm_ui_icon_hanzo_sonicarrow.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "HanzoSonicArrow|HanzoSonicArrow|E"
+        ]
+      },
+      {
+        "linkId": "HanzoPerfectAgility|HanzoPerfectAgility|Trait|Level20",
+        "talentId": "HanzoPerfectAgility",
+        "buttonId": "HanzoPerfectAgility",
+        "abilityId": "HanzoNaturalAgilityButton",
+        "icon": "storm_ui_icon_hanzo_wallvault.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          "HanzoNaturalAgilityButton|HanzoNaturalAgility|Trait"
+        ]
+      }
+    ]
+  },
+  "sheets": {
+    "abilities": {
+      "sheet": "sheets/Hanzo/abilities.webp",
+      "icons": {
+        "storm_ui_icon_hanzo_stormbow.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_hanzo_scatterarrow.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_hanzo_sonicarrow.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_hanzo_dragonstrike.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_hanzo_thedragonsarrow.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_hanzo_wallvault.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          0,
+          520,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          130,
+          390,
+          111,
+          71
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          243,
+          390,
+          76,
+          48
+        ],
+        "storm_ui_icon_hanzo_playofthegame.png": [
+          130,
+          0,
+          128,
+          128
+        ]
+      }
+    },
+    "talents": {
+      "sheet": "sheets/Hanzo/talents.webp",
+      "icons": {
+        "storm_ui_icon_hanzo_stormbow.png": [
+          130,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_hanzo_scatterarrow.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_hanzo_redemption.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_hanzo_fromonething.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_hanzo_draconicadvantage.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_hanzo_shieldbreaker.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_hanzo_dragonstrike.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_hanzo_thedragonsarrow.png": [
+          260,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_hanzo_wallvault.png": [
+          0,
+          520,
+          128,
+          128
+        ],
+        "storm_ui_icon_hanzo_grabthereins.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_hanzo_piercingarrows.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_hanzo_kaijuhunter.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_hanzo_sonicarrow.png": [
+          0,
+          390,
+          128,
+          128
+        ]
+      }
+    },
+    "hero": {
+      "sheet": "sheets/Hanzo/hero.webp",
+      "icons": {
+        "storm_ui_icon_hanzo_stormbow.png": [
+          130,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_hanzo_scatterarrow.png": [
+          260,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_hanzo_sonicarrow.png": [
+          0,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_hanzo_dragonstrike.png": [
+          312,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_hanzo_thedragonsarrow.png": [
+          260,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_hanzo_wallvault.png": [
+          390,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          78,
+          698,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          94,
+          604,
+          111,
+          71
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          0,
+          698,
+          76,
+          48
+        ],
+        "storm_ui_icon_hanzo_playofthegame.png": [
+          0,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_hanzo_redemption.png": [
+          130,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_hanzo_fromonething.png": [
+          0,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_hanzo_draconicadvantage.png": [
+          182,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_hanzo_shieldbreaker.png": [
+          390,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_hanzo_grabthereins.png": [
+          130,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_hanzo_piercingarrows.png": [
+          390,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_hanzo_kaijuhunter.png": [
+          260,
+          214,
+          128,
+          128
+        ]
+      },
+      "portraits": {
+        "draftScreen": [
+          0,
+          0,
+          180,
+          212
+        ],
+        "minimap": [
+          156,
+          698,
+          32,
+          32
+        ],
+        "partyPanel": [
+          337,
+          604,
+          178,
+          56
+        ],
+        "target": [
+          0,
+          604,
+          92,
+          92
+        ],
+        "targetInfo": [
+          207,
+          604,
+          128,
+          56
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,834 @@
+{
+  "id": "Tinker",
+  "unitId": "HeroTinker",
+  "hyperlinkId": "Gazlowe",
+  "attributeId": "Tink",
+  "franchise": "Warcraft",
+  "rarity": "Rare",
+  "releaseDate": "2014-03-13",
+  "isMelee": true,
+  "gender": "Male",
+  "radius": 0.75,
+  "innerRadius": 0.75,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 6,
+    "damage": 5,
+    "survivability": 5,
+    "utility": 6
+  },
+  "life": {
+    "amount": 2275,
+    "scale": 0.04,
+    "regenRate": 4.74,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 10,
+    "regenRate": 0
+  },
+  "playstyles": [
+    "EnergyImportant",
+    "MercKiller",
+    "RoleSpecialist",
+    "SoloLaner",
+    "TowerPusher",
+    "WaveClearer"
+  ],
+  "summonedUnitIds": [
+    "TinkerRockItTurret"
+  ],
+  "weapons": [
+    {
+      "nameId": "HeroTinker",
+      "isDisabled": false,
+      "range": 1.25,
+      "minimumRange": 0,
+      "period": 0.8,
+      "damage": 100,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "GazloweBag",
+    "GazloweBigTop",
+    "GazloweCraft20",
+    "GazloweScifi",
+    "GazloweUltimate"
+  ],
+  "variationSkinIds": [
+    "TinkerAzure",
+    "TinkerBaseVar3",
+    "TinkerCamo"
+  ],
+  "voiceLineIds": [
+    "TinkerBase_VoiceLine01",
+    "TinkerBase_VoiceLine02",
+    "TinkerBase_VoiceLine03",
+    "TinkerBase_VoiceLine04",
+    "TinkerBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "TinkerRockItTurret|TinkerRockItTurret|Q",
+        "abilityId": "TinkerRockItTurret",
+        "buttonId": "TinkerRockItTurret",
+        "icon": "storm_ui_icon_gazlowe_rockitturret.png",
+        "toggleCooldown": 0.5,
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "GazloweDethLazor|GazloweDethLazor|W",
+        "abilityId": "GazloweDethLazor",
+        "buttonId": "GazloweDethLazor",
+        "icon": "storm_ui_icon_gazlowe_dethlazor.png",
+        "charges": {
+          "countMax": 1,
+          "countStart": 1,
+          "countUse": 1,
+          "recastCooldown": 1,
+          "isCountHidden": true
+        },
+        "abilityType": "W"
+      },
+      {
+        "linkId": "TinkerXplodiumBomb|TinkerXplodiumCharge|E",
+        "abilityId": "TinkerXplodiumBomb",
+        "buttonId": "TinkerXplodiumCharge",
+        "icon": "storm_ui_icon_gazlowe_explodiumcharge.png",
+        "charges": {
+          "countMax": 1,
+          "countStart": 1,
+          "countUse": 1,
+          "recastCooldown": 3,
+          "isCountHidden": true
+        },
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "TinkerRoboGoblin|TinkerRoboGoblinPassive|Heroic",
+        "abilityId": "TinkerRoboGoblin",
+        "buttonId": "TinkerRoboGoblinPassive",
+        "icon": "storm_ui_icon_gazlowe_robogoblin.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "TinkerGravOBomb3000|TinkerGravOBomb3000|Heroic",
+        "abilityId": "TinkerGravOBomb3000",
+        "buttonId": "TinkerGravOBomb3000",
+        "icon": "storm_ui_icon_gazlowe_gravobomb.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": "GazloweSalvagerSalvageTurretAbility|GazloweReduceReuseRecycleTrait|Trait",
+        "abilityId": "GazloweSalvagerSalvageTurretAbility",
+        "buttonId": "GazloweReduceReuseRecycleTrait",
+        "icon": "storm_ui_icon_gazlowe_salvager.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Activable": [
+      {
+        "linkId": "TinkerFocusTurrets|TinkerFocusTurrets|Active",
+        "abilityId": "TinkerFocusTurrets",
+        "buttonId": "TinkerFocusTurrets",
+        "icon": "storm_ui_icon_gazlowe_rockitturret_var1.png",
+        "abilityType": "Active"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "TinkerMasteryEZPZDimensionalRipper|TinkerDethLazorEZPZDimensionalRipperTalent|Active|Level4": {
+      "Activable": [
+        {
+          "linkId": "GazloweDethLazorEZPZDimensionalRipperAbility|TinkerDethLazorEZPZDimensionalRipperTalent|Active",
+          "abilityId": "GazloweDethLazorEZPZDimensionalRipperAbility",
+          "buttonId": "TinkerDethLazorEZPZDimensionalRipperTalent",
+          "icon": "storm_ui_icon_talent_imposingpresence.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "GazloweXplodiumChargeRocketBoots|GazloweXplodiumChargeRocketBoots|E|Level1",
+        "talentId": "GazloweXplodiumChargeRocketBoots",
+        "buttonId": "GazloweXplodiumChargeRocketBoots",
+        "abilityId": "TinkerXplodiumBomb",
+        "icon": "storm_ui_icon_gazlowe_explodiumcharge.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "TinkerXplodiumBomb|TinkerXplodiumCharge|E"
+        ]
+      },
+      {
+        "linkId": "GazloweBigGameHunter|GazloweBigGameHunter|Trait|Level1",
+        "talentId": "GazloweBigGameHunter",
+        "buttonId": "GazloweBigGameHunter",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_gazlowe_salvager.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "GazloweSalvagerSalvageTurretAbility|GazloweReduceReuseRecycleTrait|Trait"
+        ]
+      },
+      {
+        "linkId": "GazloweOneManWreckingCrew|GazloweOneManWreckingCrew|Passive|Level1",
+        "talentId": "GazloweOneManWreckingCrew",
+        "buttonId": "GazloweOneManWreckingCrew",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_damage.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "GazloweSalvagerSalvageTurretAbility|GazloweReduceReuseRecycleTrait|Trait"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "GazloweRockItSockIt|GazloweRockItSockIt|Q|Level4",
+        "talentId": "GazloweRockItSockIt",
+        "buttonId": "GazloweRockItSockIt",
+        "abilityId": "TinkerRockItTurret",
+        "icon": "storm_ui_icon_gazlowe_rockitturret.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "TinkerRockItTurret|TinkerRockItTurret|Q"
+        ]
+      },
+      {
+        "linkId": "GazloweHyperfocusCoils|GazloweHyperfocusCoils|Passive|Level4",
+        "talentId": "GazloweHyperfocusCoils",
+        "buttonId": "GazloweHyperfocusCoils",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_gazlowe_combo_w_e.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "GazloweDethLazor|GazloweDethLazor|W",
+          "TinkerXplodiumBomb|TinkerXplodiumCharge|E"
+        ]
+      },
+      {
+        "linkId": "TinkerMasteryEZPZDimensionalRipper|TinkerDethLazorEZPZDimensionalRipperTalent|Active|Level4",
+        "talentId": "TinkerMasteryEZPZDimensionalRipper",
+        "buttonId": "TinkerDethLazorEZPZDimensionalRipperTalent",
+        "abilityId": "GazloweDethLazorEZPZDimensionalRipperAbility",
+        "icon": "storm_ui_icon_talent_imposingpresence.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "TinkerMasteryGoblinFusion|GazloweDethLazorGoblinFusionTalent|Q|Level7",
+        "talentId": "TinkerMasteryGoblinFusion",
+        "buttonId": "GazloweDethLazorGoblinFusionTalent",
+        "abilityId": "TinkerRockItTurret",
+        "icon": "storm_ui_icon_gazlowe_combo_q_w.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "TinkerRockItTurret|TinkerRockItTurret|Q",
+          "GazloweDethLazor|GazloweDethLazor|W"
+        ]
+      },
+      {
+        "linkId": "GazloweOverload|GazloweOverload|W|Level7",
+        "talentId": "GazloweOverload",
+        "buttonId": "GazloweOverload",
+        "abilityId": "GazloweDethLazor",
+        "icon": "storm_ui_icon_gazlowe_dethlazor_a.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "GazloweDethLazor|GazloweDethLazor|W"
+        ]
+      },
+      {
+        "linkId": "GazloweMasterBlaster|GazloweMasterBlaster|Passive|Level7",
+        "talentId": "GazloweMasterBlaster",
+        "buttonId": "GazloweMasterBlaster",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_gazlowe_combo_w_e.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "GazloweDethLazor|GazloweDethLazor|W",
+          "TinkerXplodiumBomb|TinkerXplodiumCharge|E"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "TinkerHeroicAbilityRoboGoblin|TinkerRoboGoblinPassive|Heroic|Level10",
+        "talentId": "TinkerHeroicAbilityRoboGoblin",
+        "buttonId": "TinkerRoboGoblinPassive",
+        "abilityId": "TinkerRoboGoblin",
+        "icon": "storm_ui_icon_gazlowe_robogoblin.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "TinkerHeroicAbilityGravOBomb3000|TinkerGravOBomb3000|Heroic|Level10",
+        "talentId": "TinkerHeroicAbilityGravOBomb3000",
+        "buttonId": "TinkerGravOBomb3000",
+        "abilityId": "TinkerGravOBomb3000",
+        "icon": "storm_ui_icon_gazlowe_gravobomb.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "GazloweRockItTurretPositiveReinforcement|GazloweRockItTurretPositiveReinforcement|Q|Level13",
+        "talentId": "GazloweRockItTurretPositiveReinforcement",
+        "buttonId": "GazloweRockItTurretPositiveReinforcement",
+        "abilityId": "TinkerRockItTurret",
+        "icon": "storm_ui_icon_gazlowe_rockitturret.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "TinkerRockItTurret|TinkerRockItTurret|Q"
+        ]
+      },
+      {
+        "linkId": "GazloweRockItTurretSuperiorSchematics|GazloweRockItTurretSuperiorSchematics|Q|Level13",
+        "talentId": "GazloweRockItTurretSuperiorSchematics",
+        "buttonId": "GazloweRockItTurretSuperiorSchematics",
+        "abilityId": "TinkerRockItTurret",
+        "icon": "storm_ui_icon_gazlowe_rockitturret_var1.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "TinkerRockItTurret|TinkerRockItTurret|Q"
+        ]
+      },
+      {
+        "linkId": "GazloweRockItTurretOverchargedCapacitors|GazloweRockItTurretOverchargedCapacitors|Q|Level13",
+        "talentId": "GazloweRockItTurretOverchargedCapacitors",
+        "buttonId": "GazloweRockItTurretOverchargedCapacitors",
+        "abilityId": "TinkerRockItTurret",
+        "icon": "storm_ui_icon_gazlowe_rockitturret_var2.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "TinkerRockItTurret|TinkerRockItTurret|Q"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "GazloweDethLazorFirinMahLazorz|GazloweDethLazorFirinMahLazorz|W|Level16",
+        "talentId": "GazloweDethLazorFirinMahLazorz",
+        "buttonId": "GazloweDethLazorFirinMahLazorz",
+        "abilityId": "GazloweDethLazor",
+        "icon": "storm_ui_icon_gazlowe_dethlazor.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "GazloweDethLazor|GazloweDethLazor|W"
+        ]
+      },
+      {
+        "linkId": "GazloweXplodiumChargeArkReaktor|GazloweXplodiumChargeArkReaktor|E|Level16",
+        "talentId": "GazloweXplodiumChargeArkReaktor",
+        "buttonId": "GazloweXplodiumChargeArkReaktor",
+        "abilityId": "TinkerXplodiumBomb",
+        "icon": "storm_ui_icon_gazlowe_explodiumcharge.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "TinkerXplodiumBomb|TinkerXplodiumCharge|E"
+        ]
+      },
+      {
+        "linkId": "GazloweOverklock|GazloweOverklock|Passive|Level16",
+        "talentId": "GazloweOverklock",
+        "buttonId": "GazloweOverklock",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_searing.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "GazloweSalvagerSalvageTurretAbility|GazloweReduceReuseRecycleTrait|Trait"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "TinkerMasteryMechaLord|TinkerRoboGoblinMechaLordTalent|Heroic|Level20",
+        "talentId": "TinkerMasteryMechaLord",
+        "buttonId": "TinkerRoboGoblinMechaLordTalent",
+        "abilityId": "TinkerRoboGoblin",
+        "icon": "storm_ui_icon_gazlowe_robogoblin.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "TinkerRoboGoblin|TinkerRoboGoblinPassive|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "TinkerHeroicAbilityRoboGoblin"
+        ]
+      },
+      {
+        "linkId": "TinkerMasteryMiniatureBlackHole|TinkerGravOBombMiniatureBlackHoleTalent|Heroic|Level20",
+        "talentId": "TinkerMasteryMiniatureBlackHole",
+        "buttonId": "TinkerGravOBombMiniatureBlackHoleTalent",
+        "abilityId": "TinkerGravOBomb3000",
+        "icon": "storm_ui_icon_gazlowe_gravobomb.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "TinkerGravOBomb3000|TinkerGravOBomb3000|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "TinkerHeroicAbilityGravOBomb3000"
+        ]
+      },
+      {
+        "linkId": "TinkerItsRainingScrap|TinkerItsRainingScrap|Q|Level20",
+        "talentId": "TinkerItsRainingScrap",
+        "buttonId": "TinkerItsRainingScrap",
+        "abilityId": "TinkerRockItTurret",
+        "icon": "storm_ui_icon_gazlowe_rockitturret.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "TinkerRockItTurret|TinkerRockItTurret|Q"
+        ]
+      },
+      {
+        "linkId": "GazloweXplodiumChargeBombToss|GazloweXplodiumChargeBombToss|E|Level20",
+        "talentId": "GazloweXplodiumChargeBombToss",
+        "buttonId": "GazloweXplodiumChargeBombToss",
+        "abilityId": "TinkerXplodiumBomb",
+        "icon": "storm_ui_icon_gazlowe_explodiumcharge.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          "TinkerXplodiumBomb|TinkerXplodiumCharge|E"
+        ]
+      }
+    ]
+  },
+  "sheets": {
+    "abilities": {
+      "sheet": "sheets/Tinker/abilities.webp",
+      "icons": {
+        "storm_ui_icon_gazlowe_rockitturret.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_gazlowe_dethlazor.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_gazlowe_explodiumcharge.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_gazlowe_robogoblin.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_gazlowe_gravobomb.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_gazlowe_salvager.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          78,
+          390,
+          76,
+          48
+        ],
+        "storm_ui_icon_gazlowe_rockitturret_var1.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          260,
+          260,
+          111,
+          71
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          0,
+          390,
+          76,
+          48
+        ],
+        "storm_ui_icon_talent_imposingpresence.png": [
+          130,
+          260,
+          128,
+          128
+        ]
+      }
+    },
+    "talents": {
+      "sheet": "sheets/Tinker/talents.webp",
+      "icons": {
+        "storm_ui_icon_gazlowe_explodiumcharge.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_gazlowe_salvager.png": [
+          130,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_damage.png": [
+          260,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_gazlowe_rockitturret.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_gazlowe_combo_w_e.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_imposingpresence.png": [
+          130,
+          520,
+          128,
+          128
+        ],
+        "storm_ui_icon_gazlowe_combo_q_w.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_gazlowe_dethlazor_a.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_gazlowe_robogoblin.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_gazlowe_gravobomb.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_gazlowe_rockitturret_var1.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_gazlowe_rockitturret_var2.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_gazlowe_dethlazor.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_searing.png": [
+          0,
+          520,
+          128,
+          128
+        ]
+      }
+    },
+    "hero": {
+      "sheet": "sheets/Tinker/hero.webp",
+      "icons": {
+        "storm_ui_icon_gazlowe_rockitturret.png": [
+          390,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_gazlowe_dethlazor.png": [
+          130,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_gazlowe_explodiumcharge.png": [
+          260,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_gazlowe_robogoblin.png": [
+          0,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_gazlowe_gravobomb.png": [
+          390,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_gazlowe_salvager.png": [
+          0,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          78,
+          699,
+          76,
+          48
+        ],
+        "storm_ui_icon_gazlowe_rockitturret_var1.png": [
+          130,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          94,
+          604,
+          111,
+          71
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          0,
+          699,
+          76,
+          48
+        ],
+        "storm_ui_icon_talent_imposingpresence.png": [
+          390,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_damage.png": [
+          130,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_gazlowe_combo_w_e.png": [
+          312,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_gazlowe_combo_q_w.png": [
+          182,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_gazlowe_dethlazor_a.png": [
+          0,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_gazlowe_rockitturret_var2.png": [
+          260,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_searing.png": [
+          260,
+          474,
+          128,
+          128
+        ]
+      },
+      "portraits": {
+        "draftScreen": [
+          0,
+          0,
+          180,
+          212
+        ],
+        "minimap": [
+          156,
+          699,
+          32,
+          32
+        ],
+        "partyPanel": [
+          337,
+          604,
+          178,
+          56
+        ],
+        "target": [
+          0,
+          604,
+          92,
+          93
+        ],
+        "targetInfo": [
+          207,
+          604,
+          128,
+          56
+        ]
+      }
+    }
+  }
+}

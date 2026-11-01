@@ -1,0 +1,853 @@
+{
+  "id": "Necromancer",
+  "unitId": "HeroNecromancer",
+  "hyperlinkId": "Xul",
+  "attributeId": "Necr",
+  "franchise": "Diablo",
+  "rarity": "Legendary",
+  "releaseDate": "2016-03-01",
+  "isMelee": true,
+  "gender": "Male",
+  "radius": 0.6875,
+  "innerRadius": 0.6875,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 4,
+    "damage": 5,
+    "survivability": 7,
+    "utility": 9
+  },
+  "life": {
+    "amount": 2080,
+    "scale": 0.04,
+    "regenRate": 4.332,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "EnergyImportant",
+    "Ganker",
+    "Overconfident",
+    "RoleSpecialist",
+    "SoloLaner",
+    "TowerPusher",
+    "WaveClearer"
+  ],
+  "summonedUnitIds": [
+    "NecromancerRaiseSkeleton",
+    "NecromancerRaiseSkeletonBonePrisonTalentJailor",
+    "NecromancerSkeletalMage"
+  ],
+  "weapons": [
+    {
+      "nameId": "NecromancerCursedStrikesWeapon",
+      "isDisabled": true,
+      "range": 1.5,
+      "minimumRange": 0,
+      "period": 0.8332,
+      "damage": 95,
+      "damageScale": 0.04
+    },
+    {
+      "nameId": "NecromancerHeroWeapon",
+      "isDisabled": false,
+      "range": 1.5,
+      "minimumRange": 0,
+      "period": 0.8332,
+      "damage": 95,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "NecromancerClassic",
+    "NecromancerScare",
+    "NecromancerSnake",
+    "NecromancerUltimate"
+  ],
+  "variationSkinIds": [
+    "NecromancerBaseVar1",
+    "NecromancerBaseVar2",
+    "NecromancerBaseVar3"
+  ],
+  "voiceLineIds": [
+    "NecromancerBase_VoiceLine01",
+    "NecromancerBase_VoiceLine02",
+    "NecromancerBase_VoiceLine03",
+    "NecromancerBase_VoiceLine04",
+    "NecromancerBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "NecromancerSpectralScythe|NecromancerSpectralScythe|Q",
+        "abilityId": "NecromancerSpectralScythe",
+        "buttonId": "NecromancerSpectralScythe",
+        "icon": "storm_ui_icon_necromancer_reap.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "NecromancerCursedStrikes|NecromancerCursedStrikes|W",
+        "abilityId": "NecromancerCursedStrikes",
+        "buttonId": "NecromancerCursedStrikes",
+        "icon": "storm_ui_icon_necromancer_cursedstrikes_off.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "NecromancerBonePrison|NecromancerBonePrison|E",
+        "abilityId": "NecromancerBonePrison",
+        "buttonId": "NecromancerBonePrison",
+        "icon": "storm_ui_icon_necromancer_boneprison.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "NecromancerSkeletalMages|NecromancerSkeletalMages|Heroic",
+        "abilityId": "NecromancerSkeletalMages",
+        "buttonId": "NecromancerSkeletalMages",
+        "icon": "storm_ui_icon_necromancer_skeletalmages.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "NecromancerPoisonNovaInstant|NecromancerPoisonNova|Heroic",
+        "abilityId": "NecromancerPoisonNovaInstant",
+        "buttonId": "NecromancerPoisonNova",
+        "icon": "storm_ui_icon_necromancer_poisonnova.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": "NecromancerRaiseSkeletonDisplayAbility|NecromancerRaiseSkeleton|Trait",
+        "abilityId": "NecromancerRaiseSkeletonDisplayAbility",
+        "buttonId": "NecromancerRaiseSkeleton",
+        "icon": "storm_ui_icon_necromancer_raiseskeleton.png",
+        "charges": {
+          "countMax": 3,
+          "isCountHidden": false
+        },
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Activable": [
+      {
+        "linkId": "NecromancerBoneArmor|NecromancerBoneArmor|Active",
+        "abilityId": "NecromancerBoneArmor",
+        "buttonId": "NecromancerBoneArmor",
+        "icon": "storm_ui_icon_necromancer_bonearmor.png",
+        "abilityType": "Active"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "NecromancerCursedStrikes|NecromancerCursedStrikes|W": {
+      "Basic": [
+        {
+          "linkId": ":PASSIVE:|NecromancerCursedStrikesPassive|W",
+          "abilityId": ":PASSIVE:",
+          "buttonId": "NecromancerCursedStrikesPassive",
+          "icon": "storm_ui_icon_necromancer_cursedstrikes_on.png",
+          "abilityType": "W"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "NecromancerTalentBoneArmorBacklash|NecromancerBoneArmorBacklash|Passive|Level1": {
+      "Activable": [
+        {
+          "linkId": "NecromancerBoneArmor|NecromancerBoneArmorAbilBacklash|Active",
+          "abilityId": "NecromancerBoneArmor",
+          "buttonId": "NecromancerBoneArmorAbilBacklash",
+          "icon": "storm_ui_icon_necromancer_bonearmor_b.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "NecromancerTalentBoneArmorShackler|NecromancerBoneArmorShackler|Passive|Level1": {
+      "Activable": [
+        {
+          "linkId": "NecromancerBoneArmor|NecromancerBoneArmorAbilShackler|Active",
+          "abilityId": "NecromancerBoneArmor",
+          "buttonId": "NecromancerBoneArmorAbilShackler",
+          "icon": "storm_ui_icon_necromancer_bonearmor_c.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "NecromancerTalentBoneSpear|NecromancerBoneSpear|Active|Level16": {
+      "Activable": [
+        {
+          "linkId": "NecromancerBoneSpear|NecromancerBoneSpear|Active",
+          "abilityId": "NecromancerBoneSpear",
+          "buttonId": "NecromancerBoneSpear",
+          "icon": "storm_ui_icon_necromancer_bonespear.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "NecromancerTalentBoneArmorBacklash|NecromancerBoneArmorBacklash|Passive|Level1",
+        "talentId": "NecromancerTalentBoneArmorBacklash",
+        "buttonId": "NecromancerBoneArmorBacklash",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_necromancer_bonearmor_b.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "NecromancerBoneArmor|NecromancerBoneArmor|Active",
+          "NecromancerBoneArmor|NecromancerBoneArmorAbilBacklash|Active",
+          "NecromancerBoneArmor|NecromancerBoneArmorAbilShackler|Active"
+        ]
+      },
+      {
+        "linkId": "NecromancerTalentBoneArmorShackler|NecromancerBoneArmorShackler|Passive|Level1",
+        "talentId": "NecromancerTalentBoneArmorShackler",
+        "buttonId": "NecromancerBoneArmorShackler",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_necromancer_bonearmor_c.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "NecromancerBoneArmor|NecromancerBoneArmor|Active",
+          "NecromancerBoneArmor|NecromancerBoneArmorAbilBacklash|Active",
+          "NecromancerBoneArmor|NecromancerBoneArmorAbilShackler|Active"
+        ]
+      },
+      {
+        "linkId": "NecromancerTalentBoneArmorShade|NecromancerBoneArmorShade|Passive|Level1",
+        "talentId": "NecromancerTalentBoneArmorShade",
+        "buttonId": "NecromancerBoneArmorShade",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_necromancer_bonearmor.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "NecromancerBoneArmor|NecromancerBoneArmor|Active",
+          "NecromancerBoneArmor|NecromancerBoneArmorAbilBacklash|Active",
+          "NecromancerBoneArmor|NecromancerBoneArmorAbilShackler|Active"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "NecromancerTalentReapersToll|NecromancerReapersTollTalent|Q|Level4",
+        "talentId": "NecromancerTalentReapersToll",
+        "buttonId": "NecromancerReapersTollTalent",
+        "abilityId": "NecromancerSpectralScythe",
+        "icon": "storm_ui_icon_necromancer_reap.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "NecromancerSpectralScythe|NecromancerSpectralScythe|Q"
+        ]
+      },
+      {
+        "linkId": "NecromancerTalentGrimScythe|NecromancerCursedStrikesGrimScythe|W|Level4",
+        "talentId": "NecromancerTalentGrimScythe",
+        "buttonId": "NecromancerCursedStrikesGrimScythe",
+        "abilityId": "NecromancerCursedStrikes",
+        "icon": "storm_ui_icon_necromancer_cursedstrikes_off.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|NecromancerCursedStrikesPassive|W",
+          "NecromancerCursedStrikes|NecromancerCursedStrikes|W"
+        ]
+      },
+      {
+        "linkId": "NecromancerTalentJailors|NecromancerJailors|Trait|Level4",
+        "talentId": "NecromancerTalentJailors",
+        "buttonId": "NecromancerJailors",
+        "abilityId": "NecromancerRaiseSkeletonDisplayAbility",
+        "icon": "storm_ui_icon_necromancer_raiseskeleton.png",
+        "abilityType": "Trait",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "NecromancerRaiseSkeletonDisplayAbility|NecromancerRaiseSkeleton|Trait"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "NecromancerTalentHarvestVitality|NecromancerHarvestVitality|W|Level7",
+        "talentId": "NecromancerTalentHarvestVitality",
+        "buttonId": "NecromancerHarvestVitality",
+        "abilityId": "NecromancerCursedStrikes",
+        "icon": "storm_ui_icon_necromancer_cursedstrikes_off.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|NecromancerCursedStrikesPassive|W",
+          "NecromancerCursedStrikes|NecromancerCursedStrikes|W"
+        ]
+      },
+      {
+        "linkId": "NecromancerTalentTragOulsEssence|NecromancerTragOulsEssence|Trait|Level7",
+        "talentId": "NecromancerTalentTragOulsEssence",
+        "buttonId": "NecromancerTragOulsEssence",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_necromancer_raiseskeleton.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "NecromancerRaiseSkeletonDisplayAbility|NecromancerRaiseSkeleton|Trait"
+        ]
+      },
+      {
+        "linkId": "NecromancerBoneArmorWallOfBonesTalent|NecromancerWallOfBonesBoneArmorTalent|Passive|Level7",
+        "talentId": "NecromancerBoneArmorWallOfBonesTalent",
+        "buttonId": "NecromancerWallOfBonesBoneArmorTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_necromancer_bonearmor.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "NecromancerBoneArmor|NecromancerBoneArmor|Active",
+          "NecromancerBoneArmor|NecromancerBoneArmorAbilBacklash|Active",
+          "NecromancerBoneArmor|NecromancerBoneArmorAbilShackler|Active"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "NecromancerHeroicAbilityPoisonNova|NecromancerPoisonNovaTalent|Heroic|Level10",
+        "talentId": "NecromancerHeroicAbilityPoisonNova",
+        "buttonId": "NecromancerPoisonNovaTalent",
+        "abilityId": "NecromancerPoisonNovaInstant",
+        "icon": "storm_ui_icon_necromancer_poisonnova.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "NecromancerHeroicAbilitySkeletalMages|NecromancerSkeletalMages|Heroic|Level10",
+        "talentId": "NecromancerHeroicAbilitySkeletalMages",
+        "buttonId": "NecromancerSkeletalMages",
+        "abilityId": "NecromancerSkeletalMages",
+        "icon": "storm_ui_icon_necromancer_skeletalmages.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "NecromancerTalentEchoesOfDeath|NecromancerEchoesOfDeathTalent|Q|Level13",
+        "talentId": "NecromancerTalentEchoesOfDeath",
+        "buttonId": "NecromancerEchoesOfDeathTalent",
+        "abilityId": "NecromancerSpectralScythe",
+        "icon": "storm_ui_icon_necromancer_reap.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "NecromancerSpectralScythe|NecromancerSpectralScythe|Q"
+        ]
+      },
+      {
+        "linkId": "NecromancerTalentRapidHarvest|NecromancerCursedStrikesRapidHarvest|W|Level13",
+        "talentId": "NecromancerTalentRapidHarvest",
+        "buttonId": "NecromancerCursedStrikesRapidHarvest",
+        "abilityId": "NecromancerCursedStrikes",
+        "icon": "storm_ui_icon_necromancer_cursedstrikes_off.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|NecromancerCursedStrikesPassive|W",
+          "NecromancerCursedStrikes|NecromancerCursedStrikes|W"
+        ]
+      },
+      {
+        "linkId": "NecromancerTalentAmplifyDamage|NecromancerAmplifyDamage|E|Level13",
+        "talentId": "NecromancerTalentAmplifyDamage",
+        "buttonId": "NecromancerAmplifyDamage",
+        "abilityId": "NecromancerBonePrison",
+        "icon": "storm_ui_icon_necromancer_boneprison.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "NecromancerBonePrison|NecromancerBonePrison|E"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "NecromancerTalentDecrepify|NecromancerDecrepifyTalent|Q|Level16",
+        "talentId": "NecromancerTalentDecrepify",
+        "buttonId": "NecromancerDecrepifyTalent",
+        "abilityId": "NecromancerSpectralScythe",
+        "icon": "storm_ui_icon_necromancer_reap.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "NecromancerRaiseSkeletonDisplayAbility|NecromancerRaiseSkeleton|Trait"
+        ]
+      },
+      {
+        "linkId": "NecromancerTalentWeaken|NecromancerWeaken|W|Level16",
+        "talentId": "NecromancerTalentWeaken",
+        "buttonId": "NecromancerWeaken",
+        "abilityId": "NecromancerCursedStrikes",
+        "icon": "storm_ui_icon_necromancer_cursedstrikes_off.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|NecromancerCursedStrikesPassive|W",
+          "NecromancerCursedStrikes|NecromancerCursedStrikes|W"
+        ]
+      },
+      {
+        "linkId": "NecromancerTalentBoneSpear|NecromancerBoneSpear|Active|Level16",
+        "talentId": "NecromancerTalentBoneSpear",
+        "buttonId": "NecromancerBoneSpear",
+        "abilityId": "NecromancerBoneSpear",
+        "icon": "storm_ui_icon_necromancer_bonespear.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "NecromancerTalentAndarielsVisage|NecromancerAndarielsVisage|Heroic|Level20",
+        "talentId": "NecromancerTalentAndarielsVisage",
+        "buttonId": "NecromancerAndarielsVisage",
+        "abilityId": "NecromancerPoisonNovaInstant",
+        "icon": "storm_ui_icon_necromancer_poisonnova.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "NecromancerPoisonNovaInstant|NecromancerPoisonNova|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "NecromancerHeroicAbilityPoisonNova"
+        ]
+      },
+      {
+        "linkId": "NecromancerTalentColdHandOfDeath|NecromancerColdHandOfDeath|Heroic|Level20",
+        "talentId": "NecromancerTalentColdHandOfDeath",
+        "buttonId": "NecromancerColdHandOfDeath",
+        "abilityId": "NecromancerSkeletalMages",
+        "icon": "storm_ui_icon_necromancer_skeletalmages.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "NecromancerSkeletalMages|NecromancerSkeletalMages|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "NecromancerHeroicAbilitySkeletalMages"
+        ]
+      },
+      {
+        "linkId": "NecromancerTalentMortalWound|NecromancerMortalWound|Q|Level20",
+        "talentId": "NecromancerTalentMortalWound",
+        "buttonId": "NecromancerMortalWound",
+        "abilityId": "NecromancerSpectralScythe",
+        "icon": "storm_ui_icon_necromancer_reap.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "NecromancerSpectralScythe|NecromancerSpectralScythe|Q"
+        ]
+      },
+      {
+        "linkId": "NecromancerTalentKalansEdict|NecromancerTalentKalansEdict|Trait|Level20",
+        "talentId": "NecromancerTalentKalansEdict",
+        "buttonId": "NecromancerTalentKalansEdict",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_necromancer_raiseskeleton.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          "NecromancerRaiseSkeletonDisplayAbility|NecromancerRaiseSkeleton|Trait"
+        ]
+      }
+    ]
+  },
+  "sheets": {
+    "abilities": {
+      "sheet": "sheets/Necromancer/abilities.webp",
+      "icons": {
+        "storm_ui_icon_necromancer_reap.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_necromancer_cursedstrikes_off.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_necromancer_boneprison.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_necromancer_skeletalmages.png": [
+          130,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_necromancer_poisonnova.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_necromancer_raiseskeleton.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          0,
+          520,
+          76,
+          48
+        ],
+        "storm_ui_icon_necromancer_bonearmor.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          260,
+          390,
+          111,
+          71
+        ],
+        "storm_ui_icon_necromancer_cursedstrikes_on.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          373,
+          390,
+          76,
+          48
+        ],
+        "storm_ui_icon_necromancer_bonearmor_b.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_necromancer_bonearmor_c.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_necromancer_bonespear.png": [
+          130,
+          130,
+          128,
+          128
+        ]
+      }
+    },
+    "talents": {
+      "sheet": "sheets/Necromancer/talents.webp",
+      "icons": {
+        "storm_ui_icon_necromancer_bonearmor_b.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_necromancer_bonearmor_c.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_necromancer_bonearmor.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_necromancer_reap.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_necromancer_cursedstrikes_off.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_necromancer_raiseskeleton.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_necromancer_poisonnova.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_necromancer_skeletalmages.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_necromancer_boneprison.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_necromancer_bonespear.png": [
+          130,
+          130,
+          128,
+          128
+        ]
+      }
+    },
+    "hero": {
+      "sheet": "sheets/Necromancer/hero.webp",
+      "icons": {
+        "storm_ui_icon_necromancer_reap.png": [
+          390,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_necromancer_cursedstrikes_off.png": [
+          390,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_necromancer_boneprison.png": [
+          130,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_necromancer_skeletalmages.png": [
+          0,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_necromancer_poisonnova.png": [
+          130,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_necromancer_raiseskeleton.png": [
+          260,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          258,
+          604,
+          76,
+          48
+        ],
+        "storm_ui_icon_necromancer_bonearmor.png": [
+          0,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          224,
+          474,
+          111,
+          71
+        ],
+        "storm_ui_icon_necromancer_cursedstrikes_on.png": [
+          0,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          180,
+          604,
+          76,
+          48
+        ],
+        "storm_ui_icon_necromancer_bonearmor_b.png": [
+          182,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_necromancer_bonearmor_c.png": [
+          312,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_necromancer_bonespear.png": [
+          260,
+          214,
+          128,
+          128
+        ]
+      },
+      "portraits": {
+        "draftScreen": [
+          0,
+          0,
+          180,
+          212
+        ],
+        "minimap": [
+          336,
+          604,
+          32,
+          32
+        ],
+        "partyPanel": [
+          0,
+          604,
+          178,
+          56
+        ],
+        "target": [
+          130,
+          474,
+          92,
+          93
+        ],
+        "targetInfo": [
+          337,
+          474,
+          128,
+          56
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,814 @@
+{
+  "id": "Garrosh",
+  "unitId": "HeroGarrosh",
+  "hyperlinkId": "Garrosh",
+  "attributeId": "Garr",
+  "franchise": "Warcraft",
+  "rarity": "Legendary",
+  "releaseDate": "2017-08-08",
+  "isMelee": true,
+  "gender": "Male",
+  "radius": 0.875,
+  "innerRadius": 0.875,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 6,
+    "damage": 3,
+    "survivability": 9,
+    "utility": 7
+  },
+  "life": {
+    "amount": 2060,
+    "scale": 0.04,
+    "regenRate": 4.293,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "BodyBlocker",
+    "EnergyImportant",
+    "Ganker",
+    "Overconfident",
+    "RoleTank"
+  ],
+  "weapons": [
+    {
+      "nameId": "HeroGarrosh",
+      "isDisabled": false,
+      "range": 1.25,
+      "minimumRange": 0,
+      "period": 1.2,
+      "damage": 137,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "GarroshRoad",
+    "GarroshSummer18",
+    "GarroshWCAV"
+  ],
+  "variationSkinIds": [
+    "GarroshBaseVar1",
+    "GarroshBaseVar2",
+    "GarroshBaseVar3",
+    "GarroshBaseVar4"
+  ],
+  "voiceLineIds": [
+    "GarroshBase_VoiceLine01",
+    "GarroshBase_VoiceLine02",
+    "GarroshBase_VoiceLine03",
+    "GarroshBase_VoiceLine04",
+    "GarroshBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "GarroshGroundbreaker|GarroshGroundbreaker|Q",
+        "abilityId": "GarroshGroundbreaker",
+        "buttonId": "GarroshGroundbreaker",
+        "icon": "storm_ui_icon_garrosh_groundbreaker.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "GarroshBloodthirst|GarroshBloodthirst|W",
+        "abilityId": "GarroshBloodthirst",
+        "buttonId": "GarroshBloodthirst",
+        "icon": "storm_ui_icon_garrosh_bloodthirst.png",
+        "charges": {
+          "countMax": 1,
+          "countStart": 1,
+          "countUse": 1,
+          "recastCooldown": 1,
+          "isCountHidden": true
+        },
+        "abilityType": "W"
+      },
+      {
+        "linkId": "GarroshWreckingBall|GarroshWreckingBall|E",
+        "abilityId": "GarroshWreckingBall",
+        "buttonId": "GarroshWreckingBall",
+        "icon": "storm_ui_icon_garrosh_wrecking_ball.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "GarroshWarlordsChallenge|GarroshWarlordsChallenge|Heroic",
+        "abilityId": "GarroshWarlordsChallenge",
+        "buttonId": "GarroshWarlordsChallenge",
+        "icon": "storm_ui_icon_garrosh_warlords_challenge.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "GarroshDecimate|GarroshDecimate|Heroic",
+        "abilityId": "GarroshDecimate",
+        "buttonId": "GarroshDecimate",
+        "icon": "storm_ui_icon_garrosh_decimate.png",
+        "charges": {
+          "countMax": 3,
+          "countStart": 3,
+          "countUse": 1,
+          "recastCooldown": 1,
+          "isCountHidden": false
+        },
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": ":PASSIVE:|GarroshArmorUp|Trait",
+        "abilityId": ":PASSIVE:",
+        "buttonId": "GarroshArmorUp",
+        "icon": "storm_ui_icon_garrosh_armor_up.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Activable": [
+      {
+        "linkId": "GarroshWreckingBallIntotheFray|GarroshWreckingBallIntotheFray|Active",
+        "abilityId": "GarroshWreckingBallIntotheFray",
+        "buttonId": "GarroshWreckingBallIntotheFray",
+        "icon": "storm_ui_icon_garrosh_intothefray.png",
+        "abilityType": "Active"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "GarroshArmorUpBodyCheck|GarroshArmorUpBodyCheck|Active|Level1": {
+      "Activable": [
+        {
+          "linkId": "GarroshArmorUpBodyCheck|GarroshArmorUpBodyCheck|Active",
+          "abilityId": "GarroshArmorUpBodyCheck",
+          "buttonId": "GarroshArmorUpBodyCheck",
+          "icon": "storm_ui_icon_garrosh_slam.png",
+          "charges": {
+            "countMax": 1,
+            "countStart": 1,
+            "countUse": 1,
+            "recastCooldown": 1,
+            "isCountHidden": true
+          },
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "GarroshIndomitable|GarroshIndomitable|Active|Level4": {
+      "Activable": [
+        {
+          "linkId": "GarroshIndomitable|GarroshIndomitable|Active",
+          "abilityId": "GarroshIndomitable",
+          "buttonId": "GarroshIndomitable",
+          "icon": "storm_ui_icon_garrosh_indomitablel.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "GarroshArmorUpDoubleUp|GarroshArmorUpDoubleUp|Trait|Level13": {
+      "Trait": [
+        {
+          "linkId": "GarroshArmorUpDoubleUp|GarroshArmorUpDoubleUp|Trait",
+          "abilityId": "GarroshArmorUpDoubleUp",
+          "buttonId": "GarroshArmorUpDoubleUp",
+          "icon": "storm_ui_icon_garrosh_armor_up.png",
+          "abilityType": "Trait"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "GarroshGroundbreakerWarbreaker|GarroshGroundbreakerWarbreaker|Q|Level1",
+        "talentId": "GarroshGroundbreakerWarbreaker",
+        "buttonId": "GarroshGroundbreakerWarbreaker",
+        "abilityId": "GarroshGroundbreaker",
+        "icon": "storm_ui_icon_garrosh_groundbreaker.png",
+        "abilityType": "Q",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "GarroshGroundbreaker|GarroshGroundbreaker|Q"
+        ]
+      },
+      {
+        "linkId": "GarroshWreckingBallUnrivaledStrength|GarroshWreckingBallUnrivaledStrength|E|Level1",
+        "talentId": "GarroshWreckingBallUnrivaledStrength",
+        "buttonId": "GarroshWreckingBallUnrivaledStrength",
+        "abilityId": "GarroshWreckingBall",
+        "icon": "storm_ui_icon_garrosh_wrecking_ball.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "GarroshWreckingBall|GarroshWreckingBall|E"
+        ]
+      },
+      {
+        "linkId": "GarroshArmorUpBodyCheck|GarroshArmorUpBodyCheck|Active|Level1",
+        "talentId": "GarroshArmorUpBodyCheck",
+        "buttonId": "GarroshArmorUpBodyCheck",
+        "abilityId": "GarroshArmorUpBodyCheck",
+        "icon": "storm_ui_icon_garrosh_slam.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "GarroshBloodthirstInFortheKill|GarroshBloodthirstInFortheKill|W|Level4",
+        "talentId": "GarroshBloodthirstInFortheKill",
+        "buttonId": "GarroshBloodthirstInFortheKill",
+        "abilityId": "GarroshBloodthirst",
+        "icon": "storm_ui_icon_garrosh_bloodthirst.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "GarroshBloodthirst|GarroshBloodthirst|W"
+        ]
+      },
+      {
+        "linkId": "GarroshBloodthirstThirstforBattle|GarroshBloodthirstThirstforBattle|W|Level4",
+        "talentId": "GarroshBloodthirstThirstforBattle",
+        "buttonId": "GarroshBloodthirstThirstforBattle",
+        "abilityId": "GarroshBloodthirst",
+        "icon": "storm_ui_icon_garrosh_bloodthirst_var1.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "GarroshBloodthirst|GarroshBloodthirst|W"
+        ]
+      },
+      {
+        "linkId": "GarroshIndomitable|GarroshIndomitable|Active|Level4",
+        "talentId": "GarroshIndomitable",
+        "buttonId": "GarroshIndomitable",
+        "abilityId": "GarroshIndomitable",
+        "icon": "storm_ui_icon_garrosh_indomitablel.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "GarroshGroundbreakerIntimidation|GarroshGroundbreakerIntimidation|Q|Level7",
+        "talentId": "GarroshGroundbreakerIntimidation",
+        "buttonId": "GarroshGroundbreakerIntimidation",
+        "abilityId": "GarroshGroundbreaker",
+        "icon": "storm_ui_icon_garrosh_groundbreaker.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "GarroshGroundbreaker|GarroshGroundbreaker|Q"
+        ]
+      },
+      {
+        "linkId": "GarroshOppressor|GarroshOppressor|W|Level7",
+        "talentId": "GarroshOppressor",
+        "buttonId": "GarroshOppressor",
+        "abilityId": "GarroshBloodthirst",
+        "icon": "storm_ui_icon_garrosh_bloodthirst.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "GarroshBloodthirst|GarroshBloodthirst|W"
+        ]
+      },
+      {
+        "linkId": "GarroshIntotheFrayLoktarOgar|GarroshIntoTheFrayLoktarOgar|Active|Level7",
+        "talentId": "GarroshIntotheFrayLoktarOgar",
+        "buttonId": "GarroshIntoTheFrayLoktarOgar",
+        "abilityId": "GarroshWreckingBallIntotheFray",
+        "icon": "storm_ui_icon_garrosh_intothefray.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "GarroshWreckingBallIntotheFray|GarroshWreckingBallIntotheFray|Active"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "GarroshHeroicAbilityWarlordsChallenge|GarroshWarlordsChallenge|Heroic|Level10",
+        "talentId": "GarroshHeroicAbilityWarlordsChallenge",
+        "buttonId": "GarroshWarlordsChallenge",
+        "abilityId": "GarroshWarlordsChallenge",
+        "icon": "storm_ui_icon_garrosh_warlords_challenge.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "GarroshHeroicAbilityDecimate|GarroshDecimate|Heroic|Level10",
+        "talentId": "GarroshHeroicAbilityDecimate",
+        "buttonId": "GarroshDecimate",
+        "abilityId": "GarroshDecimate",
+        "icon": "storm_ui_icon_garrosh_decimate.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "GarroshGroundbreakerDefensiveMeasures|GarroshGroundbreakerDefensiveMeasures|Q|Level13",
+        "talentId": "GarroshGroundbreakerDefensiveMeasures",
+        "buttonId": "GarroshGroundbreakerDefensiveMeasures",
+        "abilityId": "GarroshGroundbreaker",
+        "icon": "storm_ui_icon_garrosh_groundbreaker.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "GarroshGroundbreaker|GarroshGroundbreaker|Q"
+        ]
+      },
+      {
+        "linkId": "GarroshBloodthirstBloodcraze|GarroshBloodthirstBloodcraze|W|Level13",
+        "talentId": "GarroshBloodthirstBloodcraze",
+        "buttonId": "GarroshBloodthirstBloodcraze",
+        "abilityId": "GarroshBloodthirst",
+        "icon": "storm_ui_icon_garrosh_bloodthirst.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "GarroshBloodthirst|GarroshBloodthirst|W"
+        ]
+      },
+      {
+        "linkId": "GarroshArmorUpDoubleUp|GarroshArmorUpDoubleUp|Trait|Level13",
+        "talentId": "GarroshArmorUpDoubleUp",
+        "buttonId": "GarroshArmorUpDoubleUp",
+        "abilityId": "GarroshArmorUpDoubleUp",
+        "icon": "storm_ui_icon_garrosh_armor_up.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|GarroshArmorUp|Trait"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "GarroshGroundbreakerMortalCombo|GarroshGroundbreakerMortalCombo|E|Level16",
+        "talentId": "GarroshGroundbreakerMortalCombo",
+        "buttonId": "GarroshGroundbreakerMortalCombo",
+        "abilityId": "GarroshWreckingBall",
+        "icon": "storm_ui_icon_garrosh_groundbreaker.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "GarroshWreckingBall|GarroshWreckingBall|E"
+        ]
+      },
+      {
+        "linkId": "GarroshWreckingBallEarthshaker|GarroshWreckingBallEarthshaker|E|Level16",
+        "talentId": "GarroshWreckingBallEarthshaker",
+        "buttonId": "GarroshWreckingBallEarthshaker",
+        "abilityId": "GarroshWreckingBall",
+        "icon": "storm_ui_icon_garrosh_wrecking_ball.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "GarroshWreckingBall|GarroshWreckingBall|E"
+        ]
+      },
+      {
+        "linkId": "GarroshArmorUpSeasonedSoldier|GarroshArmorUpSeasonedSoldier|Passive|Level16",
+        "talentId": "GarroshArmorUpSeasonedSoldier",
+        "buttonId": "GarroshArmorUpSeasonedSoldier",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_garrosh_bloodthirst.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|GarroshArmorUp|Trait",
+          "GarroshArmorUpDoubleUp|GarroshArmorUpDoubleUp|Trait"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "GarroshWarlordsChallengeDeathWish|GarroshWarlordsChallengeDeathWish|Heroic|Level20",
+        "talentId": "GarroshWarlordsChallengeDeathWish",
+        "buttonId": "GarroshWarlordsChallengeDeathWish",
+        "abilityId": "GarroshWarlordsChallenge",
+        "icon": "storm_ui_icon_garrosh_warlords_challenge.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "GarroshWarlordsChallenge|GarroshWarlordsChallenge|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "GarroshHeroicAbilityWarlordsChallenge"
+        ]
+      },
+      {
+        "linkId": "GarroshDecimateDeadlyCalm|GarroshDecimateDeadlyCalm|Heroic|Level20",
+        "talentId": "GarroshDecimateDeadlyCalm",
+        "buttonId": "GarroshDecimateDeadlyCalm",
+        "abilityId": "GarroshDecimate",
+        "icon": "storm_ui_icon_garrosh_decimate.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "GarroshDecimate|GarroshDecimate|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "GarroshHeroicAbilityDecimate"
+        ]
+      },
+      {
+        "linkId": "GarroshWreckingBallTitanicMight|GarroshWreckingBallTitanicMight|E|Level20",
+        "talentId": "GarroshWreckingBallTitanicMight",
+        "buttonId": "GarroshWreckingBallTitanicMight",
+        "abilityId": "GarroshWreckingBall",
+        "icon": "storm_ui_icon_garrosh_wrecking_ball.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "GarroshWreckingBall|GarroshWreckingBall|E"
+        ]
+      },
+      {
+        "linkId": "GarroshArmorUpInnerRage|GarroshArmorUpInnerRage|Active|Level20",
+        "talentId": "GarroshArmorUpInnerRage",
+        "buttonId": "GarroshArmorUpInnerRage",
+        "abilityId": "GarroshArmorUpBodyCheck",
+        "icon": "storm_ui_icon_garrosh_slam.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          "GarroshArmorUpBodyCheck|GarroshArmorUpBodyCheck|Active"
+        ],
+        "prerequisiteTalentIds": [
+          "GarroshArmorUpBodyCheck"
+        ]
+      }
+    ]
+  },
+  "sheets": {
+    "abilities": {
+      "sheet": "sheets/Garrosh/abilities.webp",
+      "icons": {
+        "storm_ui_icon_garrosh_groundbreaker.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_garrosh_bloodthirst.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_garrosh_wrecking_ball.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_garrosh_warlords_challenge.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_garrosh_decimate.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_garrosh_armor_up.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          191,
+          390,
+          76,
+          48
+        ],
+        "storm_ui_icon_garrosh_intothefray.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          0,
+          390,
+          111,
+          71
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          113,
+          390,
+          76,
+          48
+        ],
+        "storm_ui_icon_garrosh_slam.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_garrosh_indomitablel.png": [
+          130,
+          130,
+          128,
+          128
+        ]
+      }
+    },
+    "talents": {
+      "sheet": "sheets/Garrosh/talents.webp",
+      "icons": {
+        "storm_ui_icon_garrosh_groundbreaker.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_garrosh_wrecking_ball.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_garrosh_slam.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_garrosh_bloodthirst.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_garrosh_bloodthirst_var1.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_garrosh_indomitablel.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_garrosh_intothefray.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_garrosh_warlords_challenge.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_garrosh_decimate.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_garrosh_armor_up.png": [
+          0,
+          0,
+          128,
+          128
+        ]
+      }
+    },
+    "hero": {
+      "sheet": "sheets/Garrosh/hero.webp",
+      "icons": {
+        "storm_ui_icon_garrosh_groundbreaker.png": [
+          260,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_garrosh_bloodthirst.png": [
+          0,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_garrosh_wrecking_ball.png": [
+          130,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_garrosh_warlords_challenge.png": [
+          0,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_garrosh_decimate.png": [
+          130,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_garrosh_armor_up.png": [
+          182,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          388,
+          604,
+          76,
+          48
+        ],
+        "storm_ui_icon_garrosh_intothefray.png": [
+          130,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          354,
+          474,
+          111,
+          71
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          310,
+          604,
+          76,
+          48
+        ],
+        "storm_ui_icon_garrosh_slam.png": [
+          260,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_garrosh_indomitablel.png": [
+          0,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_garrosh_bloodthirst_var1.png": [
+          312,
+          0,
+          128,
+          128
+        ]
+      },
+      "portraits": {
+        "draftScreen": [
+          0,
+          0,
+          180,
+          212
+        ],
+        "minimap": [
+          466,
+          604,
+          32,
+          32
+        ],
+        "partyPanel": [
+          130,
+          604,
+          178,
+          56
+        ],
+        "target": [
+          260,
+          474,
+          92,
+          93
+        ],
+        "targetInfo": [
+          0,
+          604,
+          128,
+          56
+        ]
+      }
+    }
+  }
+}

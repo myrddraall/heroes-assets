@@ -1,0 +1,174 @@
+{
+  "abilities": {
+    "ProbiusDisruptionPulse|ProbiusDisruptionPulse|Q": {
+      "cooldownText": "Temps de recharge : 3 secondes",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana : 75</s>",
+      "fullText": "Projette une impulsion d’énergie en ligne droite. Elle inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">142</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.05~~</c> points de dégâts à tous les ennemis qu’elle traverse.<n/><n/>Si elle touche le centre d’une faille instable, celle-ci explose en infligeant des dégâts supplémentaires.",
+      "name": "Impulsion disruptive",
+      "shortText": "Envoie un projectile qui inflige des dégâts aux ennemis et fait détoner les failles instables."
+    },
+    "ProbiusWarpRift|ProbiusWarpRift|W": {
+      "cooldownText": "Temps de recharge : 6 secondes",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana : 150</s>",
+      "fullText": "Crée une faille instable à l’emplacement ciblé. Elle met <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.25</c> seconde à s’armer, puis dure <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> secondes et ralentit les ennemis proches de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>.<n/><n/>Si une faille instable armée expire ou est touchée par une impulsion disruptive, elle explose en infligeant <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">261</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.05~~</c> points de dégâts aux ennemis proches.",
+      "name": "Faille instable",
+      "shortText": "Crée une faille qui ralentit les ennemis et qui peut exploser si touchée par Impulsion disruptive."
+    },
+    "ProbiusPhotonCannon|ProbiusPhotonCannon|E": {
+      "cooldownText": "Temps de recharge : 15 secondes",
+      "fullText": "Transfère un canon à photons qui inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">105</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> points de dégâts et qui dure <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">13</c> secondes.<n/><n/>Dans le champ d’énergie d’un pylône, la vitesse d’attaque du canon augmente de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> en <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> secondes et révèle les ennemis proches.",
+      "name": "Canon à photons",
+      "shortText": "Transfère un canon qui attaque les ennemis proches."
+    },
+    "ProbiusPylonOvercharge|ProbiusPylonOvercharge|Heroic": {
+      "cooldownText": "Temps de recharge : 80 secondes",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana : 100</s>",
+      "fullText": "Pendant <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c> secondes, augmente l’étendue des champs d’énergie et permet aux pylônes d’attaquer les héros adverses en leur infligeant <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">96</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> points de dégâts par seconde. Les pylônes deviennent invulnérables pour toute leur durée.",
+      "name": "Surcharge de pylône",
+      "shortText": "Arme les pylônes."
+    },
+    "ProbiusNullGate|ProbiusNullGate|Heroic": {
+      "cooldownText": "Temps de recharge : 25 secondes",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana : 100</s>",
+      "fullText": "<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">Ciblage vectoriel</c><n/>Projette un champ d’énergie négative dans la direction ciblée. Il dure <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> secondes et les ennemis qui le touchent subissent <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">76</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> points de dégâts par seconde en plus d’être ralentis de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">80%</c> tant qu’ils restent en contact avec le flux d'énergie.",
+      "name": "Barrière ionique",
+      "shortText": "Crée une barrière qui ralentit."
+    },
+    "ProbiusWarpInPylon|ProbiusWarpInPylon|Trait": {
+      "cooldownText": "Temps de recharge : 14 secondes",
+      "fullText": "Transfère un pylône qui génère un champ d’énergie et qui révèle la zone alentour. EDN-OS ne récupère du mana que sur les champs d’énergie. Les héros et serviteurs adverses produisent du minerai quand ils sont tués. Le récolter permet de réduire le temps de recharge de Transfert de pylône de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.75</c> secondes.<n/><n/>Un maximum de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> pylônes peut être actif à la fois.",
+      "name": "Transfert de pylône",
+      "shortText": "Invoque un pylône qui énergise EDN-OS et permet la construction d’autres dispositifs."
+    },
+    "ProbiusWorkerRush|ProbiusWorkerRush|Z": {
+      "cooldownText": "Temps de recharge : 30 secondes",
+      "fullText": "Augmente la vitesse de déplacement de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60 %</c> supplémentaires pendant <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> secondes. Les dégâts subis interrompent l’effet. Hâte ouvrière est toujours active au hall des Tempêtes.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Effet passif :</c> EDN-OS, qui flotte au-dessus du sol, se déplace <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10 %</c> plus rapidement.",
+      "name": "Hâte ouvrière",
+      "shortText": "Se déplace plus vite de manière passive, et encore plus vite à l’activation."
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Après <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> secondes de canalisation, téléporte au hall des Tempêtes et rend instantanément <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c> points de vie et <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c> points de mana.",
+      "name": "Pierre de foyer"
+    }
+  },
+  "talents": {
+    "ProbiusEchoPulseDisruptionPulse|ProbiusEchoPulseDisruptionPulseTalent|Q|Level1": {
+      "fullText": "L’impulsion disruptive reste <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.25</c> seconde en bout de course, puis revient à EDN-OS en infligeant <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> de dégâts sur son passage.",
+      "name": "Polarisation",
+      "shortText": "L’impulsion disruptive revient à EDN-OS."
+    },
+    "ProbiusWarpResonanceWarpRiftQuest|ProbiusWarpRiftWarpResonanceQuestTalent|W|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Quête : </c>toucher des héros avec l’explosion de failles instables.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Récompense : </c>une fois <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c> héros touchés par l’explosion de failles instables, augmente les dégâts d’explosion de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">120</c> points.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Récompense : </c>une fois <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">16</c> héros touchés par l’explosion de failles instables, la capacité obtient <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> charge supplémentaire.",
+      "name": "Résonance",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Quête :</c> toucher des héros en faisant détonner des failles instables."
+    },
+    "ProbiusGatherMineralsPhotonCannonQuest|ProbiusGatherMineralsPhotonCannonQuestTalent|E|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Quête :</c> récolter du minerai augmente la vie des canons à photons de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c> points, jusqu’à un maximum de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">560</c>. <n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Récompense :</c> une fois <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">70</c> unités de minerai récoltées, les canons à photons infligent <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35 %</c> de dégâts supplémentaires.",
+      "name": "Récolte de minerai",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Quête :</c> récolter du minerai renforce les canons à photons."
+    },
+    "ProbiusPhotonBarrierPhotonCannon|ProbiusPhotonBarrierPhotonCannonTalent|E|Level4": {
+      "fullText": "Tant qu’un canon à photons est présent et alimenté, EDN-OS obtient <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40</c> points d’armure anti-sort.",
+      "name": "Protection photonique",
+      "shortText": "Confère de l’armure anti-sort tant qu’un canon à photons est actif."
+    },
+    "ProbiusTurboChargedWorkerRush|ProbiusTurboChargedWorkerRushTalent|Z|Level4": {
+      "fullText": "Hâte ouvrière accélère la vitesse de déplacement de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c> supplémentaires de manière passive sur les champs d’énergie, et son temps de recharge est réduit de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">14</c> secondes.",
+      "name": "Surrégime",
+      "shortText": "EDN-OS se déplace plus rapidement et le temps de recharge de Hâte ouvrière est réduit."
+    },
+    "ProbiusShieldCapacitor|ProbiusShieldCapacitorTalent|Trait|Level4": {
+      "fullText": "EDN-OS obtient un bouclier permanent équivalent à <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c> de son maximum de points de vie. Ce bouclier se régénère rapidement si EDN-OS ne subit pas de dégâts.",
+      "name": "Condensateur de bouclier",
+      "shortText": "Confère un bouclier permanent."
+    },
+    "ProbiusParticleAcceleratorDisruptionPulse|ProbiusParticleAcceleratorDisruptionPulseTalent|Q|Level7": {
+      "fullText": "Une fois <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> héros touchés avec Impulsion disruptive, la prochaine faille instable déclenchée par une impulsion disruptive tire <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> impulsions supplémentaires qui infligent <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">78</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.05~~</c> points de dégâts en partant dans différentes directions depuis le point d’impact.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Effet passif :</c> réduit le temps de recharge d’Impulsion disruptive de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c> seconde.",
+      "name": "Accélérateur de particules",
+      "shortText": "Impulsion disruptive peut tirer des impulsions supplémentaires"
+    },
+    "ProbiusRiftShockWarpRift|ProbiusRiftShockWarpRiftTalent|W|Level7": {
+      "fullText": "Toucher une faille instable avec Impulsion disruptive moins de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> seconde avant son armement inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">105</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.05~~</c> points de dégâts en <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> secondes.",
+      "name": "Choc quantique",
+      "shortText": "Fait exploser des failles instables rapidement pour plus de dégâts"
+    },
+    "ProbiusTowerDefensePhotonCannon|ProbiusTowerDefensePhotonCannonTalent|E|Level7": {
+      "fullText": "Réduit le temps de recharge de Canon à photons de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3.5</c> secondes quand Impulsion disruptive ou Faille instable blessent un héros adverse.",
+      "name": "Tourelle défensive",
+      "shortText": "Réduit le temps de recharge de Canon à photons."
+    },
+    "ProbiusPylonOverchargeHeroic|ProbiusPylonOvercharge|Heroic|Level10": {
+      "cooldownText": "Temps de recharge : 80 secondes",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana : 100</s>",
+      "fullText": "Pendant <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c> secondes, augmente l’étendue des champs d’énergie et permet aux pylônes d’attaquer les héros adverses en leur infligeant <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">96</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> points de dégâts par seconde. Les pylônes deviennent invulnérables pour toute leur durée.",
+      "name": "Surcharge de pylône",
+      "shortText": "Arme les pylônes."
+    },
+    "ProbiusNullGateHeroic|ProbiusNullGate|Heroic|Level10": {
+      "cooldownText": "Temps de recharge : 25 secondes",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana : 100</s>",
+      "fullText": "<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">Ciblage vectoriel</c><n/>Projette un champ d’énergie négative dans la direction ciblée. Il dure <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> secondes et les ennemis qui le touchent subissent <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">76</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> points de dégâts par seconde en plus d’être ralentis de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">80%</c> tant qu’ils restent en contact avec le flux d'énergie.",
+      "name": "Barrière ionique",
+      "shortText": "Crée une barrière qui ralentit."
+    },
+    "ProbiusAggressiveMatrixWarpInPylon|ProbiusPylonAggressiveMatrixWarpInPylonTalent|Trait|Level13": {
+      "fullText": "Le champ d’énergie des pylônes augmente les dégâts d’attaque des héros alliés de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35%</c>.",
+      "name": "Matrice offensive",
+      "shortText": "Les champs d’énergie augmentent les dégâts d’attaque."
+    },
+    "ProbiusPowerOverflowingWarpInPylon|ProbiusPowerOverflowingWarpInPylonTalent|Trait|Level13": {
+      "fullText": "Le champ d’énergie des pylônes augmente la puissance de capacité des héros alliés de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c> et leur rend <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> points de mana par seconde.",
+      "name": "Excès de puissance",
+      "shortText": "Les champs d’énergie confèrent de la puissance de capacité et du mana."
+    },
+    "ProbiusShieldBatteryWarpInPylon|ProbiusShieldBatteryWarpInPylonTalent|Trait|Level13": {
+      "fullText": "Le champ d’énergie des pylônes confère <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">28</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> points de bouclier par seconde aux héros alliés, jusqu’à un maximum de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">112</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>. Ce bouclier persiste <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> secondes une fois le champ d’énergie quitté.",
+      "name": "Batterie de boucliers",
+      "shortText": "Les champs d’énergie confèrent un bouclier."
+    },
+    "ProbiusQuantumEntanglementWarpRift|ProbiusQuantumEntanglementWarpRiftTalent|W|Level16": {
+      "fullText": "Les ennemis restent ralentis <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> secondes après leur dernier contact avec une faille instable.",
+      "name": "Entrave quantique",
+      "shortText": "Le ralentissement des failles instables perdure."
+    },
+    "ProbiusGravityWellWarpRift|ProbiusGravityWellWarpRiftTalent|W|Level16": {
+      "fullText": "Plus les ennemis sont proches du centre de la faille instable, plus ils sont ralentis, jusqu’à un maximum de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60 %</c>.",
+      "name": "Puits gravitationnel",
+      "shortText": "Augmente le ralentissement au centre des faille instables."
+    },
+    "ProbiusInterferenceWarpRift|ProbiusInterferenceWarpRiftTalent|W|Level16": {
+      "fullText": "La puissance de capacité des héros adverses touchés par l’explosion d’une faille instable est réduite de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35 %</c> pendant <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> secondes. De plus, les ennemis touchés par l’explosion de Faille instable sont repoussés du centre.",
+      "name": "Interférence",
+      "shortText": "L’explosion des failles instables réduit la puissance de capacité des ennemis et les renverse."
+    },
+    "ProbiusConstructAdditionalPylonsPylonOvercharge|ProbiusConstructAdditionalPylonsPylonOverchargeTalent|Heroic|Level20": {
+      "fullText": "Porte le maximum de pylônes actifs à <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> et augmente les dégâts de Surcharge de pylône de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>.",
+      "name": "Pylônes supplémentaires",
+      "shortText": "Augmente le nombre maximal de pylônes et les dégâts de Surcharge de pylône."
+    },
+    "ProbiusGateKeeperNullGate|ProbiusGateKeeperNullGateTalent|Heroic|Level20": {
+      "fullText": "Barrière ionique dure indéfiniment tant qu’une de ses extrémités se trouve sur un champ d’énergie.",
+      "name": "Champ ionisant",
+      "shortText": "Durée indéfinie tant que la barrière est alimentée par un pylône."
+    },
+    "ProbiusShootEmUptoRiftsDisruptionPulse|ProbiusShootEmUpDisruptionPulseTalent|Q|Level20": {
+      "fullText": "Les héros adverses touchés par Impulsion disruptive subissent un montant de dégâts supplémentaire équivalent à <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5 %</c> de leur maximum de points de vie.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Effet passif :</c> réduit le temps de recharge d’Impulsion disruptive de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c> secondes.",
+      "name": "Fractionnement",
+      "shortText": "Augmente les dégâts d’impulsion disruptive contre les héros"
+    },
+    "ProbiusProbiusLoopWarpRift|ProbiusProbiusLoopWarpRiftTalent|W|Level20": {
+      "fullText": "Chaque fois qu’une faille instable touche <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> héros adverses ou plus, il s’en crée une nouvelle au même endroit.",
+      "name": "Instabilité perpétuelle",
+      "shortText": "Toucher des héros en faisant exploser les failles instables en crée de nouvelles."
+    }
+  },
+  "units": {
+    "ProbiusPhotonCannon": {
+      "description": "Transfère un canon à photons qui inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">105</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> points de dégâts et qui dure <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">13</c> secondes.<n/><n/>Dans le champ d’énergie d’un pylône, la vitesse d’attaque du canon augmente de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> en <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> secondes et révèle les ennemis proches.",
+      "name": "Canon à photons"
+    },
+    "ProbiusPylon": {
+      "name": "Pylône"
+    }
+  }
+}

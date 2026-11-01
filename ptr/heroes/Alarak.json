@@ -1,0 +1,886 @@
+{
+  "id": "Alarak",
+  "unitId": "HeroAlarak",
+  "hyperlinkId": "Alarak",
+  "attributeId": "Alar",
+  "franchise": "Starcraft",
+  "rarity": "Epic",
+  "releaseDate": "2016-09-13",
+  "isMelee": true,
+  "gender": "Male",
+  "radius": 0.8125,
+  "innerRadius": 0.8125,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "AlarakTaldarimMarch",
+  "ratings": {
+    "complexity": 8,
+    "damage": 7,
+    "survivability": 6,
+    "utility": 7
+  },
+  "life": {
+    "amount": 1950,
+    "scale": 0.04,
+    "regenRate": 4.0585,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "EnergyImportant",
+    "Escaper",
+    "Ganker",
+    "RoleCaster",
+    "SoloLaner"
+  ],
+  "weapons": [
+    {
+      "nameId": "HeroWeaponAlarak",
+      "isDisabled": false,
+      "range": 1.5,
+      "minimumRange": 0,
+      "period": 0.8332,
+      "damage": 160,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "AlarakDark18",
+    "AlarakHunter",
+    "AlarakUltimate"
+  ],
+  "variationSkinIds": [
+    "AlarakBaseVar1",
+    "AlarakBaseVar2",
+    "AlarakBaseVar3"
+  ],
+  "voiceLineIds": [
+    "AlarakBase_VoiceLine01",
+    "AlarakBase_VoiceLine02",
+    "AlarakBase_VoiceLine03",
+    "AlarakBase_VoiceLine04",
+    "AlarakBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "AlarakTaldarimMarch",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "AlarakDiscordStrike|AlarakDiscordStrike|Q",
+        "abilityId": "AlarakDiscordStrike",
+        "buttonId": "AlarakDiscordStrike",
+        "icon": "storm_ui_icon_alarak_discordstrike.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "AlarakTelekinesis|AlarakTelekinesis|W",
+        "abilityId": "AlarakTelekinesis",
+        "buttonId": "AlarakTelekinesis",
+        "icon": "storm_ui_icon_alarak_telekinesis.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "AlarakLightningSurge|AlarakLightningSurge|E",
+        "abilityId": "AlarakLightningSurge",
+        "buttonId": "AlarakLightningSurge",
+        "icon": "storm_ui_icon_alarak_lightningsurge.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "AlarakDeadlyChargeActivate|AlarakDeadlyCharge|Heroic",
+        "abilityId": "AlarakDeadlyChargeActivate",
+        "buttonId": "AlarakDeadlyCharge",
+        "icon": "storm_ui_icon_alarak_recklesscharge.png",
+        "toggleCooldown": 0.5,
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "AlarakCounterStrikeTargeted|AlarakCounterStrikeTargeted|Heroic",
+        "abilityId": "AlarakCounterStrikeTargeted",
+        "buttonId": "AlarakCounterStrikeTargeted",
+        "icon": "storm_ui_icon_alarak_counterstrike.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": ":PASSIVE:|AlarakSadism|Trait",
+        "abilityId": ":PASSIVE:",
+        "buttonId": "AlarakSadism",
+        "icon": "storm_ui_icon_alarak_sadism.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "AlarakCounterStrikeTargeted|AlarakCounterStrikeTargeted|Heroic": {
+      "Trait": [
+        {
+          "linkId": "AlarakCounterStrikeTargeted2ndHeroic|AlarakCounterStrike2ndHeroicSadism|Trait",
+          "abilityId": "AlarakCounterStrikeTargeted2ndHeroic",
+          "buttonId": "AlarakCounterStrike2ndHeroicSadism",
+          "icon": "storm_ui_icon_alarak_counterstrike.png",
+          "abilityType": "Trait"
+        }
+      ]
+    },
+    "AlarakDeadlyChargeActivate|AlarakDeadlyCharge|Heroic": {
+      "Heroic": [
+        {
+          "linkId": "AlarakDeadlyChargeExecute|AlarakUnleashDeadlyCharge|Heroic",
+          "abilityId": "AlarakDeadlyChargeExecute",
+          "buttonId": "AlarakUnleashDeadlyCharge",
+          "icon": "storm_ui_icon_alarak_recklesscharge.png",
+          "toggleCooldown": 0.25,
+          "abilityType": "Heroic"
+        }
+      ],
+      "Trait": [
+        {
+          "linkId": "AlarakDeadlyChargeActivate2ndHeroic|AlarakDeadlyCharge2ndHeroicSadism|Trait",
+          "abilityId": "AlarakDeadlyChargeActivate2ndHeroic",
+          "buttonId": "AlarakDeadlyCharge2ndHeroicSadism",
+          "icon": "storm_ui_icon_alarak_recklesscharge.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Trait"
+        }
+      ]
+    },
+    "AlarakDeadlyChargeActivate2ndHeroic|AlarakDeadlyCharge2ndHeroicSadism|Trait": {
+      "Trait": [
+        {
+          "linkId": "AlarakDeadlyChargeExecute2ndHeroic|AlarakUnleashDeadlyCharge|Trait",
+          "abilityId": "AlarakDeadlyChargeExecute2ndHeroic",
+          "buttonId": "AlarakUnleashDeadlyCharge",
+          "icon": "storm_ui_icon_alarak_recklesscharge.png",
+          "toggleCooldown": 0.25,
+          "abilityType": "Trait"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "AlarakRiteofRakShir|AlarakRiteofRakShir|Trait|Level13": {
+      "Activable": [
+        {
+          "linkId": "AlarakRiteofRakShir|AlarakRiteofRakShir|Trait",
+          "abilityId": "AlarakRiteofRakShir",
+          "buttonId": "AlarakRiteofRakShir",
+          "icon": "storm_ui_icon_alarak_sadism_b.png",
+          "abilityType": "Trait"
+        }
+      ]
+    },
+    "AlarakLightningBarrage|AlarakLightningBarrage|E|Level16": {
+      "Basic": [
+        {
+          "linkId": "AlarakLightningSurgeLightningBarrage|AlarakLightningSurgeLightningBarrage|E",
+          "abilityId": "AlarakLightningSurgeLightningBarrage",
+          "buttonId": "AlarakLightningSurgeLightningBarrage",
+          "icon": "storm_ui_icon_alarak_lightningsurge.png",
+          "toggleCooldown": 0.125,
+          "abilityType": "E"
+        }
+      ]
+    },
+    "AlarakHastyBargain|AlarakHastyBargain|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "AlarakHastyBargain|AlarakHastyBargain|Active",
+          "abilityId": "AlarakHastyBargain",
+          "buttonId": "AlarakHastyBargain",
+          "icon": "storm_ui_icon_alarak_hastybargain.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "AlarakLastLaugh|AlarakLastLaugh|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "AlarakLastLaugh|AlarakLastLaugh|Active",
+          "abilityId": "AlarakLastLaugh",
+          "buttonId": "AlarakLastLaugh",
+          "icon": "storm_ui_icon_alarak_lasttrick.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "AlarakMightOfTheHighlord|AlarakMightOfTheHighlord|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "AlarakMightOfTheHighlordSetDeadlyChargeAsHeroic|AlarakMightOfTheHighlord|Active",
+          "abilityId": "AlarakMightOfTheHighlordSetDeadlyChargeAsHeroic",
+          "buttonId": "AlarakMightOfTheHighlord",
+          "icon": "storm_ui_icon_alarak_sadism_a.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Active"
+        },
+        {
+          "linkId": "AlarakMightOfTheHighlordSetCounterStrikeAsHeroic|AlarakMightOfTheHighlord|Active",
+          "abilityId": "AlarakMightOfTheHighlordSetCounterStrikeAsHeroic",
+          "buttonId": "AlarakMightOfTheHighlord",
+          "icon": "storm_ui_icon_alarak_sadism_a.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "AlarakOverwhelmingPowerDiscordStrike|AlarakOverwhelmingPower|Q|Level1",
+        "talentId": "AlarakOverwhelmingPowerDiscordStrike",
+        "buttonId": "AlarakOverwhelmingPower",
+        "abilityId": "AlarakDiscordStrike",
+        "icon": "storm_ui_icon_alarak_discordstrike.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AlarakDiscordStrike|AlarakDiscordStrike|Q"
+        ]
+      },
+      {
+        "linkId": "AlarakRuthlessMomentum|AlarakRuthlessMomentum|W|Level1",
+        "talentId": "AlarakRuthlessMomentum",
+        "buttonId": "AlarakRuthlessMomentum",
+        "abilityId": "AlarakTelekinesis",
+        "icon": "storm_ui_icon_alarak_telekinesis.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "AlarakTelekinesis|AlarakTelekinesis|W",
+          ":PASSIVE:|AlarakSadism|Trait",
+          "AlarakCounterStrikeTargeted2ndHeroic|AlarakCounterStrike2ndHeroicSadism|Trait",
+          "AlarakDeadlyChargeActivate2ndHeroic|AlarakDeadlyCharge2ndHeroicSadism|Trait"
+        ]
+      },
+      {
+        "linkId": "AlarakExtendedLightning|AlarakExtendedLightning|E|Level1",
+        "talentId": "AlarakExtendedLightning",
+        "buttonId": "AlarakExtendedLightning",
+        "abilityId": "AlarakLightningSurge",
+        "icon": "storm_ui_icon_alarak_lightningsurge.png",
+        "abilityType": "E",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "AlarakLightningSurge|AlarakLightningSurge|E",
+          "AlarakLightningSurgeLightningBarrage|AlarakLightningSurgeLightningBarrage|E"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "AlarakChaosReigns|AlarakChaosReigns|Q|Level4",
+        "talentId": "AlarakChaosReigns",
+        "buttonId": "AlarakChaosReigns",
+        "abilityId": "AlarakDiscordStrike",
+        "icon": "storm_ui_icon_alarak_discordstrike.png",
+        "abilityType": "Q",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AlarakDiscordStrike|AlarakDiscordStrike|Q"
+        ]
+      },
+      {
+        "linkId": "AlarakNegativelyCharged|AlarakNegativelyCharged|E|Level4",
+        "talentId": "AlarakNegativelyCharged",
+        "buttonId": "AlarakNegativelyCharged",
+        "abilityId": "AlarakLightningSurge",
+        "icon": "storm_ui_icon_alarak_lightningsurge.png",
+        "abilityType": "E",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "AlarakLightningSurge|AlarakLightningSurge|E",
+          "AlarakLightningSurgeLightningBarrage|AlarakLightningSurgeLightningBarrage|E"
+        ]
+      },
+      {
+        "linkId": "AlarakShowofForce|AlarakShowofForce|Trait|Level4",
+        "talentId": "AlarakShowofForce",
+        "buttonId": "AlarakShowofForce",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_alarak_sadism.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|AlarakSadism|Trait",
+          "AlarakCounterStrikeTargeted2ndHeroic|AlarakCounterStrike2ndHeroicSadism|Trait",
+          "AlarakDeadlyChargeActivate2ndHeroic|AlarakDeadlyCharge2ndHeroicSadism|Trait"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "AlarakDissonance|AlarakDissonance|Q|Level7",
+        "talentId": "AlarakDissonance",
+        "buttonId": "AlarakDissonance",
+        "abilityId": "AlarakDiscordStrike",
+        "icon": "storm_ui_icon_alarak_discordstrike.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AlarakDiscordStrike|AlarakDiscordStrike|Q"
+        ]
+      },
+      {
+        "linkId": "AlarakHinderedMotion|AlarakHinderedMotion|W|Level7",
+        "talentId": "AlarakHinderedMotion",
+        "buttonId": "AlarakHinderedMotion",
+        "abilityId": "AlarakTelekinesis",
+        "icon": "storm_ui_icon_alarak_telekinesis_a.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "AlarakTelekinesis|AlarakTelekinesis|W"
+        ]
+      },
+      {
+        "linkId": "AlarakAppliedForce|AlarakAppliedForce|W|Level7",
+        "talentId": "AlarakAppliedForce",
+        "buttonId": "AlarakAppliedForce",
+        "abilityId": "AlarakTelekinesis",
+        "icon": "storm_ui_icon_alarak_telekinesis.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "AlarakTelekinesis|AlarakTelekinesis|W"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "AlarakDeadlyChargeFirstHeroic|AlarakDeadlyCharge|Heroic|Level10",
+        "talentId": "AlarakDeadlyChargeFirstHeroic",
+        "buttonId": "AlarakDeadlyCharge",
+        "abilityId": "AlarakDeadlyChargeActivate",
+        "icon": "storm_ui_icon_alarak_recklesscharge.png",
+        "toggleCooldown": 0.5,
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "AlarakHeroicAbilityCounterStrike|AlarakCounterStrikeTargeted|Heroic|Level10",
+        "talentId": "AlarakHeroicAbilityCounterStrike",
+        "buttonId": "AlarakCounterStrikeTargeted",
+        "abilityId": "AlarakCounterStrikeTargeted",
+        "icon": "storm_ui_icon_alarak_counterstrike.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "AlarakBladeoftheHighlord|AlarakBladeoftheHighlord|Trait|Level13",
+        "talentId": "AlarakBladeoftheHighlord",
+        "buttonId": "AlarakBladeoftheHighlord",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_alarak_sadism.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|AlarakSadism|Trait",
+          "AlarakCounterStrikeTargeted2ndHeroic|AlarakCounterStrike2ndHeroicSadism|Trait",
+          "AlarakDeadlyChargeActivate2ndHeroic|AlarakDeadlyCharge2ndHeroicSadism|Trait"
+        ]
+      },
+      {
+        "linkId": "AlarakPureMalice|AlarakPureMalice|Trait|Level13",
+        "talentId": "AlarakPureMalice",
+        "buttonId": "AlarakPureMalice",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_alarak_sadism_a.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|AlarakSadism|Trait",
+          "AlarakCounterStrikeTargeted2ndHeroic|AlarakCounterStrike2ndHeroicSadism|Trait",
+          "AlarakDeadlyChargeActivate2ndHeroic|AlarakDeadlyCharge2ndHeroicSadism|Trait"
+        ]
+      },
+      {
+        "linkId": "AlarakRiteofRakShir|AlarakRiteofRakShir|Trait|Level13",
+        "talentId": "AlarakRiteofRakShir",
+        "buttonId": "AlarakRiteofRakShir",
+        "abilityId": "AlarakRiteofRakShir",
+        "icon": "storm_ui_icon_alarak_sadism_b.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "AlarakLethalOnslaughtDiscordStrike|AlarakLethalOnslaught|Q|Level16",
+        "talentId": "AlarakLethalOnslaughtDiscordStrike",
+        "buttonId": "AlarakLethalOnslaught",
+        "abilityId": "AlarakDiscordStrike",
+        "icon": "storm_ui_icon_alarak_discordstrike.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AlarakDiscordStrike|AlarakDiscordStrike|Q"
+        ]
+      },
+      {
+        "linkId": "AlarakLightningBarrage|AlarakLightningBarrage|E|Level16",
+        "talentId": "AlarakLightningBarrage",
+        "buttonId": "AlarakLightningBarrage",
+        "abilityId": "AlarakLightningSurge",
+        "icon": "storm_ui_icon_alarak_lightningsurge.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "AlarakLightningSurge|AlarakLightningSurge|E",
+          "AlarakLightningSurgeLightningBarrage|AlarakLightningSurgeLightningBarrage|E"
+        ]
+      },
+      {
+        "linkId": "AlarakMockingStrikes|AlarakMockingStrikes|Passive|Level16",
+        "talentId": "AlarakMockingStrikes",
+        "buttonId": "AlarakMockingStrikes",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_cooldown.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|AlarakSadism|Trait",
+          "AlarakCounterStrikeTargeted2ndHeroic|AlarakCounterStrike2ndHeroicSadism|Trait",
+          "AlarakDeadlyChargeActivate2ndHeroic|AlarakDeadlyCharge2ndHeroicSadism|Trait"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "AlarakWrathOfTheHighlord|AlarakWrathOfTheHighlord|Heroic|Level20",
+        "talentId": "AlarakWrathOfTheHighlord",
+        "buttonId": "AlarakWrathOfTheHighlord",
+        "abilityId": "AlarakCounterStrikeTargeted",
+        "icon": "storm_ui_icon_alarak_sadism.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "AlarakMightOfTheHighlord|AlarakMightOfTheHighlord|Active|Level20",
+        "talentId": "AlarakMightOfTheHighlord",
+        "buttonId": "AlarakMightOfTheHighlord",
+        "abilityId": "AlarakMightOfTheHighlordSetDeadlyChargeAsHeroic",
+        "icon": "storm_ui_icon_alarak_sadism_a.png",
+        "toggleCooldown": 0.5,
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2
+      },
+      {
+        "linkId": "AlarakLastLaugh|AlarakLastLaugh|Active|Level20",
+        "talentId": "AlarakLastLaugh",
+        "buttonId": "AlarakLastLaugh",
+        "abilityId": "AlarakLastLaugh",
+        "icon": "storm_ui_icon_alarak_lasttrick.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      },
+      {
+        "linkId": "AlarakHastyBargain|AlarakHastyBargain|Active|Level20",
+        "talentId": "AlarakHastyBargain",
+        "buttonId": "AlarakHastyBargain",
+        "abilityId": "AlarakHastyBargain",
+        "icon": "storm_ui_icon_alarak_hastybargain.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      }
+    ]
+  },
+  "sheets": {
+    "abilities": {
+      "sheet": "sheets/Alarak/abilities.webp",
+      "icons": {
+        "storm_ui_icon_alarak_discordstrike.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_alarak_telekinesis.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_alarak_lightningsurge.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_alarak_recklesscharge.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_alarak_counterstrike.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_alarak_sadism.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          321,
+          390,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          130,
+          390,
+          111,
+          71
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          243,
+          390,
+          76,
+          48
+        ],
+        "storm_ui_icon_alarak_sadism_b.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_alarak_hastybargain.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_alarak_lasttrick.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_alarak_sadism_a.png": [
+          0,
+          260,
+          128,
+          128
+        ]
+      }
+    },
+    "talents": {
+      "sheet": "sheets/Alarak/talents.webp",
+      "icons": {
+        "storm_ui_icon_alarak_discordstrike.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_alarak_telekinesis.png": [
+          130,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_alarak_lightningsurge.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_alarak_sadism.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_alarak_telekinesis_a.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_alarak_recklesscharge.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_alarak_counterstrike.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_alarak_sadism_a.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_alarak_sadism_b.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_cooldown.png": [
+          260,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_alarak_lasttrick.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_alarak_hastybargain.png": [
+          260,
+          0,
+          128,
+          128
+        ]
+      }
+    },
+    "hero": {
+      "sheet": "sheets/Alarak/hero.webp",
+      "icons": {
+        "storm_ui_icon_alarak_discordstrike.png": [
+          312,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_alarak_telekinesis.png": [
+          0,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_alarak_lightningsurge.png": [
+          260,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_alarak_recklesscharge.png": [
+          390,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_alarak_counterstrike.png": [
+          182,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_alarak_sadism.png": [
+          260,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          388,
+          604,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          354,
+          474,
+          111,
+          71
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          310,
+          604,
+          76,
+          48
+        ],
+        "storm_ui_icon_alarak_sadism_b.png": [
+          130,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_alarak_hastybargain.png": [
+          0,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_alarak_lasttrick.png": [
+          130,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_alarak_sadism_a.png": [
+          0,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_alarak_telekinesis_a.png": [
+          390,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_cooldown.png": [
+          130,
+          474,
+          128,
+          128
+        ]
+      },
+      "portraits": {
+        "draftScreen": [
+          0,
+          0,
+          180,
+          212
+        ],
+        "minimap": [
+          466,
+          604,
+          32,
+          32
+        ],
+        "partyPanel": [
+          130,
+          604,
+          178,
+          56
+        ],
+        "target": [
+          260,
+          474,
+          92,
+          93
+        ],
+        "targetInfo": [
+          0,
+          604,
+          128,
+          56
+        ]
+      }
+    }
+  }
+}

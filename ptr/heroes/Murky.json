@@ -1,0 +1,803 @@
+{
+  "id": "Murky",
+  "unitId": "HeroMurky",
+  "hyperlinkId": "Murky",
+  "attributeId": "Murk",
+  "franchise": "Warcraft",
+  "rarity": "Epic",
+  "releaseDate": "2014-05-22",
+  "isMelee": true,
+  "gender": "Male",
+  "radius": 0.625,
+  "innerRadius": 0.625,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "BattleBeast",
+  "ratings": {
+    "complexity": 8,
+    "damage": 5,
+    "survivability": 1,
+    "utility": 5
+  },
+  "life": {
+    "amount": 730,
+    "scale": 0.04,
+    "regenRate": 29.1992,
+    "regenScale": 0.04
+  },
+  "playstyles": [
+    "BodyBlocker",
+    "Escaper",
+    "Ganker",
+    "MercKiller",
+    "Overconfident",
+    "RoleSpecialist",
+    "SoloLaner",
+    "TowerPusher",
+    "WaveClearer"
+  ],
+  "summonedUnitIds": [
+    "MurkyPufferfish"
+  ],
+  "weapons": [
+    {
+      "nameId": "HeroMurky",
+      "isDisabled": false,
+      "range": 1.25,
+      "minimumRange": 0,
+      "period": 0.8,
+      "damage": 60,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "MurkyCrusader",
+    "MurkyEyeMask",
+    "MurkyFunnyBunny",
+    "MurkyGrunty",
+    "MurkyUltimate"
+  ],
+  "variationSkinIds": [
+    "MurkyBlue",
+    "MurkyOrange",
+    "MurkyVar3"
+  ],
+  "voiceLineIds": [
+    "MurkyBase_VoiceLine01",
+    "MurkyBase_VoiceLine02",
+    "MurkyBase_VoiceLine03",
+    "MurkyBase_VoiceLine04",
+    "MurkyBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "MurkySlime|MurkySlime|Q",
+        "abilityId": "MurkySlime",
+        "buttonId": "MurkySlime",
+        "icon": "storm_ui_icon_murky_slime.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "MurkyPufferfish|MurkyPufferfish|W",
+        "abilityId": "MurkyPufferfish",
+        "buttonId": "MurkyPufferfish",
+        "icon": "storm_ui_icon_murky_pufferfish.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "MurkySafetyBubble|MurkySafetyBubble|E",
+        "abilityId": "MurkySafetyBubble",
+        "buttonId": "MurkySafetyBubble",
+        "icon": "storm_ui_icon_murky_safetybubble.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "MurkyMarchoftheMurlocs|MurkyMarchOfTheMurlocs|Heroic",
+        "abilityId": "MurkyMarchoftheMurlocs",
+        "buttonId": "MurkyMarchOfTheMurlocs",
+        "icon": "storm_ui_icon_murky_marchofthemurlocs.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "MurkyOctoGrab|MurkyOctoGrab|Heroic",
+        "abilityId": "MurkyOctoGrab",
+        "buttonId": "MurkyOctoGrab",
+        "icon": "storm_ui_icon_murky_octograb.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": "MurkyRespawnEgg|MurkySpawnEgg|Trait",
+        "abilityId": "MurkyRespawnEgg",
+        "buttonId": "MurkySpawnEgg",
+        "icon": "storm_ui_icon_murky_trait_spawnegg.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|HearthstoneNoMana|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "HearthstoneNoMana",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "MurkyMarchoftheMurlocs|MurkyMarchOfTheMurlocs|Heroic": {
+      "Heroic": [
+        {
+          "linkId": "MurkyCancelMarchoftheMurlocs|MurkyCancelMarchoftheMurlocs|Heroic",
+          "abilityId": "MurkyCancelMarchoftheMurlocs",
+          "buttonId": "MurkyCancelMarchoftheMurlocs",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Heroic"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "MurkyAFishyDeal|MurkyAFishyDeal|Active|Level1": {
+      "Activable": [
+        {
+          "linkId": "MurkyAFishyDeal|MurkyAFishyDeal|Active",
+          "abilityId": "MurkyAFishyDeal",
+          "buttonId": "MurkyAFishyDeal",
+          "icon": "storm_ui_icon_talent_bribe.png",
+          "charges": {
+            "countMax": 4,
+            "countUse": 1,
+            "recastCooldown": 0.25,
+            "isCountHidden": false
+          },
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "MurkyFishEye|MurkyFishEye|Trait|Level1",
+        "talentId": "MurkyFishEye",
+        "buttonId": "MurkyFishEye",
+        "abilityId": "MurkyRespawnEgg",
+        "icon": "storm_ui_icon_murky_trait_spawnegg.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MurkyRespawnEgg|MurkySpawnEgg|Trait"
+        ]
+      },
+      {
+        "linkId": "MurkyShellGame|MurkyEggHuntTalent|Trait|Level1",
+        "talentId": "MurkyShellGame",
+        "buttonId": "MurkyEggHuntTalent",
+        "abilityId": "MurkyRespawnEgg",
+        "icon": "storm_ui_icon_murky_egghunt.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "MurkyRespawnEgg|MurkySpawnEgg|Trait"
+        ]
+      },
+      {
+        "linkId": "MurkyAFishyDeal|MurkyAFishyDeal|Active|Level1",
+        "talentId": "MurkyAFishyDeal",
+        "buttonId": "MurkyAFishyDeal",
+        "abilityId": "MurkyAFishyDeal",
+        "icon": "storm_ui_icon_talent_bribe.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "MurkySlimeTime|MurkySlimeTime|Q|Level4",
+        "talentId": "MurkySlimeTime",
+        "buttonId": "MurkySlimeTime",
+        "abilityId": "MurkySlime",
+        "icon": "storm_ui_icon_murky_slime.png",
+        "abilityType": "Q",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MurkySlime|MurkySlime|Q"
+        ]
+      },
+      {
+        "linkId": "MurkyMasteryTufferfish|MurkyPufferfishTufferfishTalent|W|Level4",
+        "talentId": "MurkyMasteryTufferfish",
+        "buttonId": "MurkyPufferfishTufferfishTalent",
+        "abilityId": "MurkyPufferfish",
+        "icon": "storm_ui_icon_murky_pufferfish.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "MurkyPufferfish|MurkyPufferfish|W"
+        ]
+      },
+      {
+        "linkId": "MurkyLivingtheDream|MurkyLivingTheDreamTalent|Passive|Level4",
+        "talentId": "MurkyLivingtheDream",
+        "buttonId": "MurkyLivingTheDreamTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_murky_trait_spawnegg_var1.png",
+        "abilityType": "Passive",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "MurkyRespawnEgg|MurkySpawnEgg|Trait"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "MurkyBlackLagoon|MurkySlimeBlackLagoonTalent|Q|Level7",
+        "talentId": "MurkyBlackLagoon",
+        "buttonId": "MurkySlimeBlackLagoonTalent",
+        "abilityId": "MurkySlime",
+        "icon": "storm_ui_icon_murky_slime.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MurkySlime|MurkySlime|Q"
+        ]
+      },
+      {
+        "linkId": "MurkySlipperyWhenWet|MurkySafetyBubbleSlipperyWhenWetTalent|E|Level7",
+        "talentId": "MurkySlipperyWhenWet",
+        "buttonId": "MurkySafetyBubbleSlipperyWhenWetTalent",
+        "abilityId": "MurkySafetyBubble",
+        "icon": "storm_ui_icon_murky_safetybubble.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "MurkySafetyBubble|MurkySafetyBubble|E"
+        ]
+      },
+      {
+        "linkId": "MurkyTimetoKrill|MurkyTimetoKrill|Passive|Level7",
+        "talentId": "MurkyTimetoKrill",
+        "buttonId": "MurkyTimetoKrill",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_slow.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "MurkyHeroicAbilityMarchoftheMurlocs|MurkyMarchOfTheMurlocs|Heroic|Level10",
+        "talentId": "MurkyHeroicAbilityMarchoftheMurlocs",
+        "buttonId": "MurkyMarchOfTheMurlocs",
+        "abilityId": "MurkyMarchoftheMurlocs",
+        "icon": "storm_ui_icon_murky_marchofthemurlocs.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "MurkyHeroicAbilityOctoGrab|MurkyOctoGrab|Heroic|Level10",
+        "talentId": "MurkyHeroicAbilityOctoGrab",
+        "buttonId": "MurkyOctoGrab",
+        "abilityId": "MurkyOctoGrab",
+        "icon": "storm_ui_icon_murky_octograb.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "MurkyMasteryRejuvenatingBubble|MurkyRejuvenatingBubbleTalent|E|Level13",
+        "talentId": "MurkyMasteryRejuvenatingBubble",
+        "buttonId": "MurkyRejuvenatingBubbleTalent",
+        "abilityId": "MurkySafetyBubble",
+        "icon": "storm_ui_icon_murky_safetybubble.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MurkySafetyBubble|MurkySafetyBubble|E"
+        ]
+      },
+      {
+        "linkId": "MurkyEggShell|MurkyEggShell|Trait|Level13",
+        "talentId": "MurkyEggShell",
+        "buttonId": "MurkyEggShell",
+        "abilityId": "MurkyRespawnEgg",
+        "icon": "storm_ui_icon_murky_trait_spawnegg.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "MurkyRespawnEgg|MurkySpawnEgg|Trait"
+        ]
+      },
+      {
+        "linkId": "MurkyFishTank|MurkyFishTank|Passive|Level13",
+        "talentId": "MurkyFishTank",
+        "buttonId": "MurkyFishTank",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_murky_fishtank.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "MurkyRespawnEgg|MurkySpawnEgg|Trait"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "MurkyToxicBuildup|MurkyToxicBuildup|Q|Level16",
+        "talentId": "MurkyToxicBuildup",
+        "buttonId": "MurkyToxicBuildup",
+        "abilityId": "MurkySlime",
+        "icon": "storm_ui_icon_murky_slime.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MurkySlime|MurkySlime|Q"
+        ]
+      },
+      {
+        "linkId": "MurkyFishOil|MurkyFishOil|W|Level16",
+        "talentId": "MurkyFishOil",
+        "buttonId": "MurkyFishOil",
+        "abilityId": "MurkyPufferfish",
+        "icon": "storm_ui_icon_murky_pufferfish.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "MurkyPufferfish|MurkyPufferfish|W"
+        ]
+      },
+      {
+        "linkId": "MurkyMasteryWrathOfCod|MurkyPufferfishWrathOfCodTalent|W|Level16",
+        "talentId": "MurkyMasteryWrathOfCod",
+        "buttonId": "MurkyPufferfishWrathOfCodTalent",
+        "abilityId": "MurkyPufferfish",
+        "icon": "storm_ui_icon_murky_pufferfish_b.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "MurkyPufferfish|MurkyPufferfish|W"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "MurkyMasteryNeverEndingMurlocs|MurkyMarchOfTheMurlocsNeverEndingMurlocsTalent|Heroic|Level20",
+        "talentId": "MurkyMasteryNeverEndingMurlocs",
+        "buttonId": "MurkyMarchOfTheMurlocsNeverEndingMurlocsTalent",
+        "abilityId": "MurkyMarchoftheMurlocs",
+        "icon": "storm_ui_icon_murky_marchofthemurlocs.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MurkyMarchoftheMurlocs|MurkyMarchOfTheMurlocs|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "MurkyHeroicAbilityMarchoftheMurlocs"
+        ]
+      },
+      {
+        "linkId": "MurkyMasteryAndASharkToo|MurkyOctoGrabAndASharkTooTalent|Heroic|Level20",
+        "talentId": "MurkyMasteryAndASharkToo",
+        "buttonId": "MurkyOctoGrabAndASharkTooTalent",
+        "abilityId": "MurkyOctoGrab",
+        "icon": "storm_ui_icon_murky_octograb.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "MurkyOctoGrab|MurkyOctoGrab|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "MurkyHeroicAbilityOctoGrab"
+        ]
+      },
+      {
+        "linkId": "MurkyMakingInky|MurkyMakingInky|Q|Level20",
+        "talentId": "MurkyMakingInky",
+        "buttonId": "MurkyMakingInky",
+        "abilityId": "MurkySlime",
+        "icon": "storm_ui_icon_murky_slime.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "MurkySlime|MurkySlime|Q"
+        ]
+      },
+      {
+        "linkId": "MurkyFasterFish|MurkyBigTunaKahuna|W|Level20",
+        "talentId": "MurkyFasterFish",
+        "buttonId": "MurkyBigTunaKahuna",
+        "abilityId": "MurkyPufferfish",
+        "icon": "storm_ui_icon_murky_pufferfish.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          "MurkyRespawnEgg|MurkySpawnEgg|Trait"
+        ]
+      }
+    ]
+  },
+  "sheets": {
+    "abilities": {
+      "sheet": "sheets/Murky/abilities.webp",
+      "icons": {
+        "storm_ui_icon_murky_slime.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_murky_pufferfish.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_murky_safetybubble.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_murky_marchofthemurlocs.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_murky_octograb.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_murky_trait_spawnegg.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          78,
+          520,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          229,
+          390,
+          111,
+          71
+        ],
+        "hud_btn_bg_ability_cancel.png": [
+          130,
+          390,
+          97,
+          111
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          0,
+          520,
+          76,
+          48
+        ],
+        "storm_ui_icon_talent_bribe.png": [
+          0,
+          390,
+          128,
+          128
+        ]
+      }
+    },
+    "talents": {
+      "sheet": "sheets/Murky/talents.webp",
+      "icons": {
+        "storm_ui_icon_murky_trait_spawnegg.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_murky_egghunt.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_bribe.png": [
+          260,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_murky_slime.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_murky_pufferfish.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_murky_trait_spawnegg_var1.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_murky_safetybubble.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_slow.png": [
+          130,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_murky_marchofthemurlocs.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_murky_octograb.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_murky_fishtank.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_murky_pufferfish_b.png": [
+          130,
+          130,
+          128,
+          128
+        ]
+      }
+    },
+    "hero": {
+      "sheet": "sheets/Murky/hero.webp",
+      "icons": {
+        "storm_ui_icon_murky_slime.png": [
+          130,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_murky_pufferfish.png": [
+          390,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_murky_safetybubble.png": [
+          0,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_murky_marchofthemurlocs.png": [
+          0,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_murky_octograb.png": [
+          130,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_murky_trait_spawnegg.png": [
+          390,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          0,
+          677,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          0,
+          604,
+          111,
+          71
+        ],
+        "hud_btn_bg_ability_cancel.png": [
+          260,
+          474,
+          97,
+          111
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          423,
+          604,
+          76,
+          48
+        ],
+        "storm_ui_icon_talent_bribe.png": [
+          130,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_murky_egghunt.png": [
+          182,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_murky_trait_spawnegg_var1.png": [
+          260,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_slow.png": [
+          0,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_murky_fishtank.png": [
+          312,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_murky_pufferfish_b.png": [
+          260,
+          214,
+          128,
+          128
+        ]
+      },
+      "portraits": {
+        "draftScreen": [
+          0,
+          0,
+          180,
+          212
+        ],
+        "minimap": [
+          78,
+          677,
+          32,
+          32
+        ],
+        "partyPanel": [
+          243,
+          604,
+          178,
+          56
+        ],
+        "target": [
+          359,
+          474,
+          92,
+          93
+        ],
+        "targetInfo": [
+          113,
+          604,
+          128,
+          56
+        ]
+      }
+    }
+  }
+}

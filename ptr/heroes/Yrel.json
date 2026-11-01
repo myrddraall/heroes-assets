@@ -1,0 +1,921 @@
+{
+  "id": "Yrel",
+  "unitId": "HeroYrel",
+  "hyperlinkId": "Yrel",
+  "attributeId": "YREL",
+  "franchise": "Warcraft",
+  "rarity": "Legendary",
+  "releaseDate": "2018-06-12",
+  "isMelee": true,
+  "gender": "Female",
+  "radius": 0.75,
+  "innerRadius": 0.75,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 5,
+    "damage": 5,
+    "survivability": 10,
+    "utility": 4
+  },
+  "life": {
+    "amount": 2678,
+    "scale": 0.04,
+    "regenRate": 5.418,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "BodyBlocker",
+    "Escaper",
+    "Ganker",
+    "Overconfident",
+    "RoleTank",
+    "SelfHealer",
+    "SoloLaner"
+  ],
+  "summonedUnitIds": [
+    "YrelSacredGround"
+  ],
+  "weapons": [
+    {
+      "nameId": "YrelHeroWeapon",
+      "isDisabled": false,
+      "range": 1.5,
+      "minimumRange": 0,
+      "period": 1.3,
+      "damage": 155,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "YrelJester",
+    "YrelMecha19"
+  ],
+  "variationSkinIds": [
+    "YrelBaseVar1",
+    "YrelBaseVar2",
+    "YrelBaseVar3",
+    "YrelBaseVar4"
+  ],
+  "voiceLineIds": [
+    "YrelBase_VoiceLine01",
+    "YrelBase_VoiceLine02",
+    "YrelBase_VoiceLine03",
+    "YrelBase_VoiceLine04",
+    "YrelBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "YrelVindication|YrelVindication|Q",
+        "abilityId": "YrelVindication",
+        "buttonId": "YrelVindication",
+        "icon": "storm_ui_icon_yrel_vindication.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "YrelRighteousHammerChannel|YrelRighteousHammer|W",
+        "abilityId": "YrelRighteousHammerChannel",
+        "buttonId": "YrelRighteousHammer",
+        "icon": "storm_ui_icon_yrel_righteous_hammer.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "YrelAvengingWrathChannel|YrelAvengingWrath|E",
+        "abilityId": "YrelAvengingWrathChannel",
+        "buttonId": "YrelAvengingWrath",
+        "icon": "storm_ui_icon_yrel_avenging_wrath.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "YrelArdentDefender|YrelArdentDefender|Heroic",
+        "abilityId": "YrelArdentDefender",
+        "buttonId": "YrelArdentDefender",
+        "icon": "storm_ui_icon_yrel_ardent_defender.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "YrelSacredGround|YrelSacredGround|Heroic",
+        "abilityId": "YrelSacredGround",
+        "buttonId": "YrelSacredGround",
+        "icon": "storm_ui_icon_yrel_sacred_ground.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": "YrelDivinePurpose|YrelDivinePurpose|Trait",
+        "abilityId": "YrelDivinePurpose",
+        "buttonId": "YrelDivinePurpose",
+        "icon": "storm_ui_icon_yrel_divine_purpose.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "YrelVindication|YrelVindication|Q": {
+      "Basic": [
+        {
+          "linkId": "YrelVindicationCast|YrelVindication|Q",
+          "abilityId": "YrelVindicationCast",
+          "buttonId": "YrelVindication",
+          "icon": "storm_ui_icon_yrel_vindication.png",
+          "abilityType": "Q"
+        }
+      ]
+    },
+    "YrelRighteousHammerChannel|YrelRighteousHammer|W": {
+      "Basic": [
+        {
+          "linkId": "YrelRighteousHammer|YrelRighteousHammer|W",
+          "abilityId": "YrelRighteousHammer",
+          "buttonId": "YrelRighteousHammer",
+          "icon": "storm_ui_icon_yrel_righteous_hammer.png",
+          "abilityType": "W"
+        }
+      ]
+    },
+    "YrelAvengingWrathChannel|YrelAvengingWrath|E": {
+      "Basic": [
+        {
+          "linkId": "YrelAvengingWrath|YrelAvengingWrath|E",
+          "abilityId": "YrelAvengingWrath",
+          "buttonId": "YrelAvengingWrath",
+          "icon": "storm_ui_icon_yrel_avenging_wrath.png",
+          "abilityType": "E"
+        }
+      ]
+    },
+    "YrelDivinePurpose|YrelDivinePurpose|Trait": {
+      "Basic": [
+        {
+          "linkId": "YrelVindicationCast|YrelVindication|Q",
+          "abilityId": "YrelVindicationCast",
+          "buttonId": "YrelVindication",
+          "icon": "storm_ui_icon_yrel_vindication.png",
+          "abilityType": "Q"
+        },
+        {
+          "linkId": "YrelRighteousHammerDivinePurpose|YrelRighteousHammer|W",
+          "abilityId": "YrelRighteousHammerDivinePurpose",
+          "buttonId": "YrelRighteousHammer",
+          "icon": "storm_ui_icon_yrel_righteous_hammer.png",
+          "abilityType": "W"
+        },
+        {
+          "linkId": "YrelAvengingWrathDivinePurpose|YrelAvengingWrath|E",
+          "abilityId": "YrelAvengingWrathDivinePurpose",
+          "buttonId": "YrelAvengingWrath",
+          "icon": "storm_ui_icon_yrel_avenging_wrath.png",
+          "abilityType": "E"
+        }
+      ],
+      "Trait": [
+        {
+          "linkId": ":PASSIVE:|YrelDivinePurposeActive|Trait",
+          "abilityId": ":PASSIVE:",
+          "buttonId": "YrelDivinePurposeActive",
+          "icon": "storm_ui_icon_yrel_divine_purpose_active.png",
+          "abilityType": "Trait"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "YrelHandOfFreedom|YrelHandOfFreedom|Active|Level4": {
+      "Activable": [
+        {
+          "linkId": "YrelHandOfFreedom|YrelHandOfFreedom|Active",
+          "abilityId": "YrelHandOfFreedom",
+          "buttonId": "YrelHandOfFreedom",
+          "icon": "storm_ui_icon_yrel_hand_of_freedom.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "YrelDivineSteed|YrelDivineSteed|Z|Level7": {
+      "Mount": [
+        {
+          "linkId": "YrelDivineSteedSummonMount|YrelDivineSteedSummonMount|Z",
+          "abilityId": "YrelDivineSteedSummonMount",
+          "buttonId": "YrelDivineSteedSummonMount",
+          "icon": "storm_ui_icon_generic_mount.png",
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "YrelBubbleHearth|YrelBubbleHearth|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "YrelBubbleHearth|YrelBubbleHearth|Active",
+          "abilityId": "YrelBubbleHearth",
+          "buttonId": "YrelBubbleHearth",
+          "icon": "storm_ui_icon_yrel_bubble_hearth.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "YrelSeraphim|YrelSeraphim|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "YrelSeraphim|YrelSeraphim|Active",
+          "abilityId": "YrelSeraphim",
+          "buttonId": "YrelSeraphim",
+          "icon": "storm_ui_icon_yrel_seraphim.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "YrelVindicationLightOfKarabor|YrelVindicationLightOfKarabor|Q|Level1",
+        "talentId": "YrelVindicationLightOfKarabor",
+        "buttonId": "YrelVindicationLightOfKarabor",
+        "abilityId": "YrelVindication",
+        "icon": "storm_ui_icon_yrel_vindication.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "YrelVindication|YrelVindication|Q",
+          "YrelVindicationCast|YrelVindication|Q"
+        ]
+      },
+      {
+        "linkId": "YrelDauntless|YrelDauntless|Passive|Level1",
+        "talentId": "YrelDauntless",
+        "buttonId": "YrelDauntless",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_abilitytalent_armor.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2
+      },
+      {
+        "linkId": "YrelMaraadsInsight|YrelMaraadsInsight|Passive|Level1",
+        "talentId": "YrelMaraadsInsight",
+        "buttonId": "YrelMaraadsInsight",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_heal.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "YrelAvengingWrathAegisOfLight|YrelAvengingWrathAegisOfLight|E|Level4",
+        "talentId": "YrelAvengingWrathAegisOfLight",
+        "buttonId": "YrelAvengingWrathAegisOfLight",
+        "abilityId": "YrelAvengingWrath",
+        "icon": "storm_ui_icon_yrel_avenging_wrath.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "YrelAvengingWrath|YrelAvengingWrath|E",
+          "YrelAvengingWrathChannel|YrelAvengingWrath|E",
+          "YrelAvengingWrathDivinePurpose|YrelAvengingWrath|E"
+        ]
+      },
+      {
+        "linkId": "YrelDivinePurposeGiftOfTheNaaru|YrelDivinePurposeGiftOfTheNaaru|Trait|Level4",
+        "talentId": "YrelDivinePurposeGiftOfTheNaaru",
+        "buttonId": "YrelDivinePurposeGiftOfTheNaaru",
+        "abilityId": "YrelDivinePurpose",
+        "icon": "storm_ui_icon_yrel_divine_purpose.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|YrelDivinePurposeActive|Trait",
+          "YrelDivinePurpose|YrelDivinePurpose|Trait"
+        ]
+      },
+      {
+        "linkId": "YrelHandOfFreedom|YrelHandOfFreedom|Active|Level4",
+        "talentId": "YrelHandOfFreedom",
+        "buttonId": "YrelHandOfFreedom",
+        "abilityId": "YrelHandOfFreedom",
+        "icon": "storm_ui_icon_yrel_hand_of_freedom.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "YrelRighteousHammerRighteousMomentum|YrelRighteousHammerRighteousMomentum|W|Level7",
+        "talentId": "YrelRighteousHammerRighteousMomentum",
+        "buttonId": "YrelRighteousHammerRighteousMomentum",
+        "abilityId": "YrelRighteousHammer",
+        "icon": "storm_ui_icon_yrel_righteous_hammer.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "YrelRighteousHammer|YrelRighteousHammer|W",
+          "YrelRighteousHammerChannel|YrelRighteousHammer|W",
+          "YrelRighteousHammerDivinePurpose|YrelRighteousHammer|W"
+        ]
+      },
+      {
+        "linkId": "YrelAvengingWrathHolyAvenger|YrelAvengingWrathHolyAvenger|E|Level7",
+        "talentId": "YrelAvengingWrathHolyAvenger",
+        "buttonId": "YrelAvengingWrathHolyAvenger",
+        "abilityId": "YrelAvengingWrath",
+        "icon": "storm_ui_icon_yrel_avenging_wrath.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "YrelAvengingWrath|YrelAvengingWrath|E",
+          "YrelAvengingWrathChannel|YrelAvengingWrath|E",
+          "YrelAvengingWrathDivinePurpose|YrelAvengingWrath|E"
+        ]
+      },
+      {
+        "linkId": "YrelDivineSteed|YrelDivineSteed|Z|Level7",
+        "talentId": "YrelDivineSteed",
+        "buttonId": "YrelDivineSteed",
+        "abilityId": "Mount",
+        "icon": "storm_ui_icon_yrel_divine_steed.png",
+        "abilityType": "Z",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "YrelDivineSteedSummonMount|YrelDivineSteedSummonMount|Z"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "YrelArdentDefender|YrelArdentDefender|Heroic|Level10",
+        "talentId": "YrelArdentDefender",
+        "buttonId": "YrelArdentDefender",
+        "abilityId": "YrelArdentDefender",
+        "icon": "storm_ui_icon_yrel_ardent_defender.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "YrelSacredGround|YrelSacredGround|Heroic|Level10",
+        "talentId": "YrelSacredGround",
+        "buttonId": "YrelSacredGround",
+        "abilityId": "YrelSacredGround",
+        "icon": "storm_ui_icon_yrel_sacred_ground.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "YrelVindicationAldorPeacekeeper|YrelVindicationAldorPeacekeeper|Q|Level13",
+        "talentId": "YrelVindicationAldorPeacekeeper",
+        "buttonId": "YrelVindicationAldorPeacekeeper",
+        "abilityId": "YrelVindication",
+        "icon": "storm_ui_icon_yrel_vindication.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "YrelVindication|YrelVindication|Q",
+          "YrelVindicationCast|YrelVindication|Q"
+        ]
+      },
+      {
+        "linkId": "YrelAvengingWrathRepentance|YrelAvengingWrathRepentance|E|Level13",
+        "talentId": "YrelAvengingWrathRepentance",
+        "buttonId": "YrelAvengingWrathRepentance",
+        "abilityId": "YrelAvengingWrath",
+        "icon": "storm_ui_icon_yrel_avenging_wrath.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "YrelAvengingWrath|YrelAvengingWrath|E",
+          "YrelAvengingWrathChannel|YrelAvengingWrath|E",
+          "YrelAvengingWrathDivinePurpose|YrelAvengingWrath|E"
+        ]
+      },
+      {
+        "linkId": "YrelVelensChosen|YrelVelensChosen|Passive|Level13",
+        "talentId": "YrelVelensChosen",
+        "buttonId": "YrelVelensChosen",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_yrel_velens_chosen.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "YrelRighteousHammerTemplarsVerdict|YrelRighteousHammerTemplarsVerdict|W|Level16",
+        "talentId": "YrelRighteousHammerTemplarsVerdict",
+        "buttonId": "YrelRighteousHammerTemplarsVerdict",
+        "abilityId": "YrelRighteousHammer",
+        "icon": "storm_ui_icon_yrel_righteous_hammer.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "YrelRighteousHammer|YrelRighteousHammer|W",
+          "YrelRighteousHammerChannel|YrelRighteousHammer|W",
+          "YrelRighteousHammerDivinePurpose|YrelRighteousHammer|W"
+        ]
+      },
+      {
+        "linkId": "YrelDivinePurposeDivineFavor|YrelDivinePurposeDivineFavor|Trait|Level16",
+        "talentId": "YrelDivinePurposeDivineFavor",
+        "buttonId": "YrelDivinePurposeDivineFavor",
+        "abilityId": "YrelDivinePurpose",
+        "icon": "storm_ui_icon_yrel_divine_purpose.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|YrelDivinePurposeActive|Trait",
+          "YrelDivinePurpose|YrelDivinePurpose|Trait"
+        ]
+      },
+      {
+        "linkId": "YrelHolyWrath|YrelHolyWrath|Passive|Level16",
+        "talentId": "YrelHolyWrath",
+        "buttonId": "YrelHolyWrath",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_aoe.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "YrelArdentDefenderWordOfGlory|YrelArdentDefenderWordOfGlory|Heroic|Level20",
+        "talentId": "YrelArdentDefenderWordOfGlory",
+        "buttonId": "YrelArdentDefenderWordOfGlory",
+        "abilityId": "YrelArdentDefender",
+        "icon": "storm_ui_icon_yrel_ardent_defender.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "YrelArdentDefender|YrelArdentDefender|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "YrelArdentDefender"
+        ]
+      },
+      {
+        "linkId": "YrelSacredGroundHallowedGround|YrelSacredGroundHallowedGround|Heroic|Level20",
+        "talentId": "YrelSacredGroundHallowedGround",
+        "buttonId": "YrelSacredGroundHallowedGround",
+        "abilityId": "YrelSacredGround",
+        "icon": "storm_ui_icon_yrel_sacred_ground.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "YrelSacredGround|YrelSacredGround|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "YrelSacredGround"
+        ]
+      },
+      {
+        "linkId": "YrelBubbleHearth|YrelBubbleHearth|Active|Level20",
+        "talentId": "YrelBubbleHearth",
+        "buttonId": "YrelBubbleHearth",
+        "abilityId": "YrelBubbleHearth",
+        "icon": "storm_ui_icon_yrel_bubble_hearth.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      },
+      {
+        "linkId": "YrelSeraphim|YrelSeraphim|Active|Level20",
+        "talentId": "YrelSeraphim",
+        "buttonId": "YrelSeraphim",
+        "abilityId": "YrelSeraphim",
+        "icon": "storm_ui_icon_yrel_seraphim.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      }
+    ]
+  },
+  "sheets": {
+    "abilities": {
+      "sheet": "sheets/Yrel/abilities.webp",
+      "icons": {
+        "storm_ui_icon_yrel_vindication.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_yrel_righteous_hammer.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_yrel_avenging_wrath.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_yrel_ardent_defender.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_yrel_sacred_ground.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_yrel_divine_purpose.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          321,
+          390,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          130,
+          390,
+          111,
+          71
+        ],
+        "storm_ui_icon_yrel_divine_purpose_active.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          243,
+          390,
+          76,
+          48
+        ],
+        "storm_ui_icon_yrel_hand_of_freedom.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_yrel_bubble_hearth.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_yrel_seraphim.png": [
+          260,
+          260,
+          128,
+          128
+        ]
+      }
+    },
+    "talents": {
+      "sheet": "sheets/Yrel/talents.webp",
+      "icons": {
+        "storm_ui_icon_yrel_vindication.png": [
+          130,
+          520,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_abilitytalent_armor.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_heal.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_yrel_avenging_wrath.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_yrel_divine_purpose.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_yrel_hand_of_freedom.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_yrel_righteous_hammer.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_yrel_divine_steed.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_yrel_ardent_defender.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_yrel_sacred_ground.png": [
+          130,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_yrel_velens_chosen.png": [
+          0,
+          520,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_aoe.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_yrel_bubble_hearth.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_yrel_seraphim.png": [
+          260,
+          390,
+          128,
+          128
+        ]
+      }
+    },
+    "hero": {
+      "sheet": "sheets/Yrel/hero.webp",
+      "icons": {
+        "storm_ui_icon_yrel_vindication.png": [
+          390,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_yrel_righteous_hammer.png": [
+          390,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_yrel_avenging_wrath.png": [
+          130,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_yrel_ardent_defender.png": [
+          0,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_yrel_sacred_ground.png": [
+          0,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_yrel_divine_purpose.png": [
+          0,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          78,
+          699,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          94,
+          604,
+          111,
+          71
+        ],
+        "storm_ui_icon_yrel_divine_purpose_active.png": [
+          390,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          0,
+          699,
+          76,
+          48
+        ],
+        "storm_ui_icon_yrel_hand_of_freedom.png": [
+          260,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_yrel_bubble_hearth.png": [
+          260,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_yrel_seraphim.png": [
+          130,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_abilitytalent_armor.png": [
+          182,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_heal.png": [
+          442,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_yrel_divine_steed.png": [
+          130,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_yrel_velens_chosen.png": [
+          260,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_aoe.png": [
+          312,
+          0,
+          128,
+          128
+        ]
+      },
+      "portraits": {
+        "draftScreen": [
+          0,
+          0,
+          180,
+          212
+        ],
+        "minimap": [
+          156,
+          699,
+          32,
+          32
+        ],
+        "partyPanel": [
+          337,
+          604,
+          178,
+          56
+        ],
+        "target": [
+          0,
+          604,
+          92,
+          93
+        ],
+        "targetInfo": [
+          207,
+          604,
+          128,
+          56
+        ]
+      }
+    }
+  }
+}

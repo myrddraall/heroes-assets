@@ -1,0 +1,204 @@
+{
+  "abilities": {
+    "GuldanFelFlame|GuldanFelFlame|Q": {
+      "cooldownText": "Время восстановления: 1.5 сек.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Мана: 75</s>",
+      "fullText": "Волна пламени, наносящая врагам <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">210</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.045~~</c> ед. урона.",
+      "name": "Пламя Скверны",
+      "shortText": "Волна пламени, наносящая противникам урон."
+    },
+    "GuldanDrainLife|GuldanDrainLife|W": {
+      "cooldownText": "Время восстановления: 10 сек.",
+      "fullText": "В течение <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> сек. Гул'дан похищает жизнь цели, каждую секунду нанося ей <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">132</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона и восполняя себе <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">188</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. здоровья.",
+      "name": "Похищение жизни",
+      "shortText": "Похищает у цели здоровье и передает его Гул'дану."
+    },
+    "GuldanCorruption|GuldanCorruption|E": {
+      "cooldownText": "Время восстановления: 14 сек.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Мана: 90</s>",
+      "fullText": "Вызывает три взрыва темной энергии, которые наносят <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">204</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.045~~</c> ед. урона в течение <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> сек. Суммируется на противнике до <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> раз.",
+      "name": "Порча",
+      "shortText": "Наносит периодический урон по области."
+    },
+    "GuldanHorrify|GuldanHorrify|Heroic": {
+      "cooldownText": "Время восстановления: 80 сек.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Мана: 90</s>",
+      "fullText": "После паузы в <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c> сек. наносит героям в области действия <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">120</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона, заставляет их бежать в страхе от эпицентра «Ужаса» в течение <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> сек. и поражает их эффектом немоты.",
+      "name": "Ужас",
+      "shortText": "Наносит урон и обращает героев в бегство."
+    },
+    "GuldanRainOfDestruction|GuldanRainOfDestruction|Heroic": {
+      "cooldownText": "Время восстановления: 70 сек.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Мана: 80</s>",
+      "fullText": "После паузы в <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> сек. вызывает в указанной области дождь из падающих метеоритов, который длится <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">7</c> сек. Каждый метеорит наносит <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">165</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона в небольшой области.",
+      "name": "Огненный ливень",
+      "shortText": "Метеоритный дождь, наносящий урон в выбранной области."
+    },
+    "GuldanLifeTap|GuldanLifeTap|Trait": {
+      "fullText": "Мана Гул'дана не восстанавливается сама.<n/><n/>При использовании восполняет <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> максимального запаса маны.",
+      "lifeText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Здоровье: </s><s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">222</s>",
+      "name": "Жизнеотвод",
+      "shortText": "Восполняет ману за счет здоровья."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Время восстановления: 4 сек.",
+      "fullText": "После подготовки длительностью <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> сек. повышает скорость передвижения на <s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Вызов транспорта"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "После поддержания в течение <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> сек. телепортирует героя в Зал Штормов, моментально восполняя <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c> ед. здоровья и <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c> ед. маны.",
+      "name": "Возвращение"
+    },
+    "GuldanDrainLifeCancel|GuldanDrainLifeCancel|W": {
+      "fullText": "Прекращает поддержание «Похищения жизни».",
+      "name": "Отмена «Похищения жизни»"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Покинуть транспорт.",
+      "name": "Отмена транспорта"
+    },
+    "GuldanDemonicCircleTeleport|GuldanDemonicCircleTeleport|Active": {
+      "cooldownText": "Время восстановления: 60 сек.",
+      "fullText": "Мгновенно переносит Гул'дана к демоническому кругу.",
+      "name": "Телепортация в демонический круг",
+      "shortText": "Телепортация в демонический круг"
+    },
+    "GuldanConsumeSoul|GuldanConsumeSoul|Active": {
+      "cooldownText": "Время восстановления заряда: 25 сек.",
+      "fullText": "Мгновенно убивает вражеского воина и восполняет Гул'дану <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">365</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. здоровья.<n/><n/>Максимум зарядов – <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>.",
+      "name": "Поглощение души",
+      "shortText": "Убивает вражеского воина и восполняет Гул'дану здоровье."
+    },
+    "GuldanHealthstone|GuldanHealthstone|Active": {
+      "cooldownText": "Время восстановления: 45 сек.",
+      "fullText": "При использовании восполняет Гул'дану <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> максимального запаса здоровья.",
+      "name": "Камень здоровья",
+      "shortText": "При использовании восполняет здоровье."
+    },
+    "GuldanLifeTapFree|GuldanLifeTapFree|Trait": {
+      "fullText": "Мана Гул'дана не восстанавливается сама.<n/><n/>При использовании восполняет <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> максимального запаса маны.",
+      "name": "Жизнеотвод"
+    },
+    "GuldanDemonicCircleSummon|GuldanDemonicCircleSummon|Active": {
+      "cooldownText": "Время восстановления: 1 сек.",
+      "fullText": "После паузы в <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> сек. создает демонический круг в том месте, где стоит Гул'дан.",
+      "name": "Призыв демонического круга",
+      "shortText": "Призыв демонического круга"
+    }
+  },
+  "talents": {
+    "GuldanFelFlamePursuitOfFlame|GuldanFelFlameTalentPursuitOfFlame|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Задача:</c> поразите <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30</c> героев «Пламенем Скверны», не погибнув.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Награда:</c> радиус действия «Пламени Скверны» до конца матча увеличится на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">33%</c>.",
+      "name": "Пожар Скверны",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Задача:</c> поразите героев «Пламенем Скверны» <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30</c> раз, чтобы усилить его."
+    },
+    "GuldanChaoticEnergy|GuldanChaoticEnergy|W|Level1": {
+      "fullText": "Увеличивает дальность применения «Похищения жизни» на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>. Сферы регенерации восполняют на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> больше здоровья.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Задача:</c> подберите <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> сфер регенерации.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Награда:</c> стоимость базовых способностей снизится на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c> ед. маны до конца матча.",
+      "name": "Энергия хаоса",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Задача:</c> подбирайте сферы регенерации, чтобы уменьшить затраты маны."
+    },
+    "GuldanCorruptionEchoedCorruption|GuldanCorruptionEchoedCorruption|E|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Задача:</c> поражайте вражеских героев «Порчей».<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Награда:</c> после поражения вражеских героев <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40</c> раз у «Порчи» появится дополнительный эффект. После третьего взрыва «Порча» начнет наносить <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> дополнительных удара в обратном направлении.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Эпохальная награда:</c> после поражения <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">85</c> раз «Порча» начнет исцелять Гул'дана на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> от нанесенного урона.",
+      "name": "Отраженная порча",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Задача:</c> поразите вражеских героев «Порчей», чтобы улучшить ее."
+    },
+    "GuldanDrainLifeHealthFunnel|GuldanDrainLifeHealthFunnel|W|Level4": {
+      "fullText": "Во время поддержания «Похищение жизни» восстанавливается на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> быстрее. Если противник погибает под действием «Похищения жизни», оно мгновенно восстанавливается.",
+      "name": "Канал здоровья",
+      "shortText": "Ускоряет восстановление «Похищения жизни»."
+    },
+    "GuldanLifeTapImprovedLifeTap|GuldanLifeTapImprovedLifeTap|Trait|Level4": {
+      "fullText": "«Жизнеотвод» восполняет <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> максимального запаса маны.",
+      "name": "Улучшенный жизнеотвод",
+      "shortText": "«Жизнеотвод» восполняет больше маны."
+    },
+    "GuldanConsumeSoul|GuldanConsumeSoul|Active|Level4": {
+      "cooldownText": "Время восстановления заряда: 25 сек.",
+      "fullText": "Мгновенно убивает вражеского воина и восполняет Гул'дану <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">365</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. здоровья.<n/><n/>Максимум зарядов – <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>.",
+      "name": "Поглощение души",
+      "shortText": "Убивает вражеского воина и восполняет Гул'дану здоровье."
+    },
+    "GuldanFelFlameBoundByShadow|GuldanFelFlameBoundByShadow|Q|Level7": {
+      "fullText": "Сокращает время восстановления «Порчи» на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.75</c> сек. за каждого героя, пораженного «Пламенем Скверны».",
+      "name": "Узы Тьмы",
+      "shortText": "«Пламя Скверны» ускоряет восстановление «Порчи»."
+    },
+    "GuldanCorruptionCurseOfExhaustion|GuldanCorruptionCurseOfExhaustion|W|Level7": {
+      "fullText": "«Похищение жизни» наносит на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> больше урона и снижает скорость передвижения цели на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c>.",
+      "name": "Проклятие изнеможения",
+      "shortText": "«Похищение жизни» наносит больше урона и замедляет цель."
+    },
+    "GuldanLifeTapHungerforPower|GuldanLifeTapHungerforPower|Passive|Level7": {
+      "fullText": "Увеличивает силу способностей на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c>, но снижает эффективность получаемого от союзников исцеления на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>.",
+      "name": "Жажда власти",
+      "shortText": "Усиливает способности, но ослабляет получаемое исцеление."
+    },
+    "GuldanHorrify|GuldanHorrify|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 80 сек.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Мана: 90</s>",
+      "fullText": "После паузы в <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c> сек. наносит героям в области действия <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">120</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона, заставляет их бежать в страхе от эпицентра «Ужаса» в течение <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> сек. и поражает их эффектом немоты.",
+      "name": "Ужас",
+      "shortText": "Наносит урон и обращает героев в бегство."
+    },
+    "GuldanRainOfDestruction|GuldanRainOfDestruction|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 70 сек.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Мана: 80</s>",
+      "fullText": "После паузы в <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> сек. вызывает в указанной области дождь из падающих метеоритов, который длится <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">7</c> сек. Каждый метеорит наносит <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">165</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона в небольшой области.",
+      "name": "Огненный ливень",
+      "shortText": "Метеоритный дождь, наносящий урон в выбранной области."
+    },
+    "GuldanFelFlameFelArmor|GuldanFelFlameFelArmor|Q|Level13": {
+      "fullText": "Поражая героя «Пламенем Скверны», Гул'дан получает <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50</c> ед. энергетической брони. Эта броня уменьшает получаемый урон от способностей на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> в течение <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c> сек.",
+      "name": "Доспех Скверны",
+      "shortText": "«Пламя Скверны» дает энергетическую броню."
+    },
+    "GuldanDrainLifeHarvestLife|GuldanDrainLifeHarvestLife|W|Level13": {
+      "fullText": "Когда Гул'дан применяет «Похищение жизни» к героям, оно восполняет ему на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75%</c> больше здоровья.",
+      "name": "Жатва жизни",
+      "shortText": "«Похищение жизни» восполняет больше здоровья."
+    },
+    "GuldanDarkBargain|GuldanDarkBargain|Passive|Level13": {
+      "fullText": "До конца матча увеличивает максимальный запас здоровья на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c>, а время возрождения – на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> сек.",
+      "name": "Темная сделка",
+      "shortText": "Увеличивает время возрождения и запас здоровья."
+    },
+    "GuldanHealthstone|GuldanHealthstone|Active|Level13": {
+      "cooldownText": "Время восстановления: 45 сек.",
+      "fullText": "При использовании восполняет Гул'дану <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> максимального запаса здоровья.",
+      "name": "Камень здоровья",
+      "shortText": "При использовании восполняет здоровье."
+    },
+    "GuldanFelFlameRampantHellfire|GuldanFelFlameRampantHellfire|Q|Level16": {
+      "fullText": "Увеличивает урон от «Пламени Скверны» на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">12%</c> на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> сек. каждый раз, когда оно поражает героя. Суммируется до <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> раз.",
+      "name": "Буйное пламя",
+      "shortText": "«Пламя Скверны» наносит больше урона."
+    },
+    "GuldanCorruptionRuinousAffliction|GuldanCorruptionRuinousAffliction|E|Level16": {
+      "fullText": "При попадании «Порча» дополнительно наносит <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">70</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона. Если эта способность за одно применение поражает одного и того же противника 3 раза, урон от третьего попадания увеличивается до <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">242</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед.",
+      "name": "Порочное колдовство",
+      "shortText": "«Порча» наносит больше урона."
+    },
+    "GuldanLifeTapDarknessWithin|GuldanLifeTapDarknessWithin|Trait|Level16": {
+      "fullText": "После нанесения <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">600</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона героям следующий «Жизнеотвод» не требует затрат здоровья и повышает силу способностей Гул'дана на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> сек.",
+      "name": "Черная душа",
+      "shortText": "«Жизнеотвод» увеличивает урон."
+    },
+    "GuldanHorrifyHaunt|GuldanHorrifyHaunt|Heroic|Level20": {
+      "fullText": "Увеличивает время действия «Ужаса» на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> сек. Пораженные противники теряют <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c> ед. брони и получают на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> больше урона, пока бегут в страхе.",
+      "name": "Блуждающий дух",
+      "shortText": "«Ужас» действует дольше и ослабляет броню противников."
+    },
+    "GuldanRainOfDestructionDeepImpact|GuldanRainOfDestructionDeepImpact|Heroic|Level20": {
+      "fullText": "«Огненный ливень» снижает скорость передвижения пораженных противников на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">90%</c> на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c> сек.",
+      "name": "Глубокий ожог",
+      "shortText": "«Огненный ливень» замедляет врагов."
+    },
+    "GuldanDemonicCircle|GuldanDemonicCircle|Active|Level20": {
+      "cooldownText": "Время восстановления: 60 сек.",
+      "fullText": "Создает под ногами Гул'дана демонический круг. При использовании переносит его к этому кругу.",
+      "name": "Демонический круг",
+      "shortText": "Создает демонический круг, к которому можно перенестись."
+    }
+  },
+  "units": {}
+}
