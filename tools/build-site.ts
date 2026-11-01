@@ -1,10 +1,12 @@
 // Builds the GitHub Pages site a release deploys (site/dist): both channels' folders as they are
-// in the repository, plus index.json naming the version each holds, and index.html listing each
-// channel's files (Pages lists no folders, so the page links every file worth opening).
+// in the repository (past builds in their history/), the pictures past builds share (files/),
+// each channel's newest extraction as HDP wrote it (<channel>/raw/, from sources/), index.json
+// naming the version each holds, and index.html listing each channel's files (Pages lists no
+// folders, so the page links every file worth opening).
 //
 //   node tools/build-site.ts
 import { cp, mkdir, readdir, readFile, rm, writeFile } from 'node:fs/promises';
-import { join } from 'node:path';
+import { dirname, join } from 'node:path';
 import {
   channelVersion,
   CHANNELS,
@@ -13,6 +15,7 @@ import {
   type Channel,
   type ChannelVersion,
 } from './lib/channels.ts';
+import { readLatest } from './lib/sources.ts';
 
 const dist = join(ROOT, 'site', 'dist');
 await rm(dist, { recursive: true, force: true });
@@ -24,8 +27,21 @@ for (const channel of CHANNELS) {
   if (!version) continue;
   index[channel] = version;
   await cp(join(ROOT, channel), join(dist, channel), { recursive: true });
+  // HDP's data and strings of the newest build, under their own names
+  const latest = await readLatest(channel);
+  const build = latest?.meta.game.split('.').pop() ?? '';
+  for (const [name, doc] of latest?.docs ?? []) {
+    if (!/^(data|gamestrings)\//.test(name)) continue;
+    const target = join(dist, channel, 'raw', name.replaceAll('{build}', build));
+    await mkdir(dirname(target), { recursive: true });
+    await writeFile(target, `${JSON.stringify(doc, null, 2)}\n`);
+  }
 }
+await cp(join(ROOT, 'files'), join(dist, 'files'), { recursive: true }).catch((error) => {
+  if (error.code !== 'ENOENT') throw error;
+});
 await writeFile(join(dist, 'index.json'), `${JSON.stringify(index, null, 2)}\n`);
+await cp(join(ROOT, 'THIRD-PARTY-NOTICES.md'), join(dist, 'THIRD-PARTY-NOTICES.md'));
 await writeFile(join(dist, '.nojekyll'), '');
 
 const escape = (text: string): string =>
@@ -71,6 +87,9 @@ async function channelSection(channel: Channel, version: ChannelVersion): Promis
         .map((name) => `<td>${link(`${channel}/strings/${tag}/${name}.json`, name)}</td>`)
         .join('')}</tr>`,
   );
+  const past: { game: string; origin: string; patch: string }[] = JSON.parse(
+    await readFile(join(dist, channel, 'history', 'index.json'), 'utf8').catch(() => '[]'),
+  );
   const raw = [
     ...(await files(`${channel}/raw/data`)).map((f) => `${channel}/raw/data/${f}`),
     ...(await files(`${channel}/raw/gamestrings`)).map((f) => `${channel}/raw/gamestrings/${f}`),
@@ -114,6 +133,12 @@ async function channelSection(channel: Channel, version: ChannelVersion): Promis
       <details>
         <summary>Texts by locale (${localeRows.length})</summary>
         <table><tbody>${localeRows.join('')}</tbody></table>
+      </details>
+
+      <details>
+        <summary>Past builds (${past.length})</summary>
+        <p>Each as a patch of the build after it: ${link(`${channel}/history/index.json`, 'history/index.json')}</p>
+        ${list(past.map((p) => `${link(`${channel}/history/${p.patch}`, p.game)}${p.origin === 'heroes-data2' ? ' (from heroes-data2)' : ''}`))}
       </details>
 
       <details>

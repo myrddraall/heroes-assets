@@ -5,12 +5,12 @@
 //   node tools/plan.ts <live|ptr> [--rebuild]
 //
 // --rebuild builds the same game version again (a tool fix): the next revision, or the same one
-// while it's unreleased. It reuses the stored extraction when one matches (lib/extraction.ts).
+// while it's unreleased. It builds from the extraction stored in sources/ when that one was made
+// with the current extraction settings (lib/extraction.ts), and extracts again otherwise.
 //
 // Prints, and writes to $GITHUB_OUTPUT in CI: game, revision, version, tag, and the stages to
-// run: extract, build, release, deploy (true/false); snapshot: the release tag to take the
-// extraction from instead of extracting ('' when extracting); snapshot_name: the file name the
-// extraction is stored under on the release; locales: the extraction's locales (JSON); hdp: the HDP version it runs.
+// run: extract, build, release, deploy (true/false); locales: the extraction's locales (JSON);
+// hdp: the HDP version it runs.
 import { execFileSync } from 'node:child_process';
 import { appendFile } from 'node:fs/promises';
 import {
@@ -20,13 +20,8 @@ import {
   releaseVersion,
   serverVersion,
 } from './lib/channels.ts';
-import {
-  EXTRACTION_KEY,
-  EXTRACTION_LOCALES,
-  HDP_VERSION,
-  releaseTag,
-  snapshotName,
-} from './lib/extraction.ts';
+import { EXTRACTION_KEY, EXTRACTION_LOCALES, HDP_VERSION, releaseTag } from './lib/extraction.ts';
+import { latestMeta } from './lib/sources.ts';
 
 const REPOSITORY = process.env['GITHUB_REPOSITORY'] ?? 'myrddraall/heroes-assets';
 
@@ -75,23 +70,20 @@ const game = formatGameVersion(server);
 const folder = await channelVersion(channel);
 const sameGame = folder?.game === game;
 
-let plan: { revision: number; extract: boolean; build: boolean; snapshot: string };
+const stored = await latestMeta(channel);
+let plan: { revision: number; extract: boolean; build: boolean };
 if (sameGame && !rebuild) {
   // the folder holds this game already: what's left is releasing and deploying it
-  plan = { revision: folder.revision, extract: false, build: false, snapshot: '' };
+  plan = { revision: folder.revision, extract: false, build: false };
 } else if (sameGame) {
-  const assets = releaseAssets(folder.version);
-  const stored =
-    folder.extraction === EXTRACTION_KEY && assets?.includes(snapshotName(channel, game));
   plan = {
     // an unreleased revision is built again under the same number
-    revision: assets ? folder.revision + 1 : folder.revision,
-    extract: !stored,
+    revision: releaseAssets(folder.version) ? folder.revision + 1 : folder.revision,
+    extract: stored?.game !== game || stored.extraction !== EXTRACTION_KEY,
     build: true,
-    snapshot: stored ? releaseTag(folder.version) : '',
   };
 } else {
-  plan = { revision: 0, extract: true, build: true, snapshot: '' };
+  plan = { revision: 0, extract: true, build: true };
 }
 
 const version = releaseVersion(channel, server, plan.revision);
@@ -107,8 +99,6 @@ const outputs = {
   build: String(plan.build),
   release: String(!released),
   deploy: String(!deployed),
-  snapshot: plan.snapshot,
-  snapshot_name: snapshotName(channel, game),
   locales: JSON.stringify(EXTRACTION_LOCALES),
   hdp: HDP_VERSION,
 };

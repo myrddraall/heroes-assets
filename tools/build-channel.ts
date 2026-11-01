@@ -1,11 +1,14 @@
 // Turns a Heroes Data Parser extraction into a channel's folder: the raw output as it came, plus
 // files split for apps (one hero per file, strings per locale) and the pictures as sheets.
 //
-//   node tools/build-channel.ts <live|ptr> <extraction folder>
+//   node tools/build-channel.ts <live|ptr> <extraction folder> [output folder]
+//
+// The output folder is the channel's own (live/, ptr/) unless given: tools/build-history.ts builds
+// past builds elsewhere.
 //
 // The extraction folder is what tools/extract.ts writes for every locale, merged: HDP's data/,
 // gamestrings/ and images/, and map-ui/ (each map's interface textures, lib/map-ui.ts).
-import { cp, mkdir, readdir, readFile, rm, writeFile } from 'node:fs/promises';
+import { mkdir, readdir, readFile, rm, writeFile } from 'node:fs/promises';
 import { basename, dirname, join } from 'node:path';
 import { writeAnimatedWebp } from './lib/animated.ts';
 import { asChannel, LOCALES, ROOT } from './lib/channels.ts';
@@ -24,11 +27,12 @@ type Json = Record<string, unknown>;
 /** HDP's gamestrings: category → field → id → text. */
 type GameStrings = Record<string, Record<string, Record<string, string>>>;
 
-const [, , channelArg, hdpArg] = process.argv;
+const [, , channelArg, hdpArg, outArg] = process.argv;
 const channel = asChannel(channelArg);
-if (!hdpArg) throw new Error('Usage: build-channel.ts <live|ptr> <hdp output folder>');
+if (!hdpArg)
+  throw new Error('Usage: build-channel.ts <live|ptr> <extraction folder> [output folder]');
 const hdp = hdpArg;
-const out = join(ROOT, channel);
+const out = outArg ?? join(ROOT, channel);
 
 /** The folders this tool writes in a channel's folder; everything in them is rebuilt each time. */
 const GENERATED = ['raw', 'heroes', 'portraits', 'emoticons', 'maps', 'minimap', 'strings'];
@@ -145,11 +149,9 @@ async function sheet(
 /** A file name without its extension: the key a sheet's pictures go by. */
 const stem = (file: string): string => file.replace(/\.[^.]+$/, '');
 
-// ── Start clean, keep the raw output ─────────────────────────────────────────────────────────
+// ── Start clean (raw/ was HDP's output, now kept in sources/ and published by build-site) ────
 
 for (const folder of GENERATED) await rm(join(out, folder), { recursive: true, force: true });
-await cp(join(hdp, 'data'), join(out, 'raw', 'data'), { recursive: true });
-await cp(join(hdp, 'gamestrings'), join(out, 'raw', 'gamestrings'), { recursive: true });
 
 const pictures = await pictureFiles();
 const strings = await gameStrings();

@@ -12,7 +12,9 @@ Each channel has its own folder, `live/` and `ptr/`, laid out the same way:
 | Path                                    | What                                                                                                                               |
 | --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
 | `version.json`                          | The game version extracted, the tool revision, the release version and the HDP version                                             |
-| `raw/data/`, `raw/gamestrings/`         | HDP's output as it came (`--localized-text Extract`), with its map-specific patches                                                |
+| `raw/data/`, `raw/gamestrings/`         | HDP's output as it came (`--localized-text Extract`), with its map-specific patches (site only, from `sources/`)                   |
+| `history/index.json`                    | The channel's past builds, newest first (see [History](#history))                                                                  |
+| `history/<game>.json`                   | A past build's files as a patch of the build after it                                                                              |
 | `heroes/index.json`                     | Every hero's summary: ids, franchise, rarity, ratings, release date…                                                               |
 | `heroes/<heroId>.json`                  | One hero's full data, plus `sheets.hero`, `sheets.abilities` and `sheets.talents`: each sheet and where its pictures sit           |
 | `heroes/sheets/<heroId>/hero.webp`      | All of the hero's pictures: ability and talent icons, and its draft screen, minimap, party panel, target and target info portraits |
@@ -41,9 +43,33 @@ Every sheet holds each picture once: entries that use the same picture (units sh
 icon, a talent whose icon is the hero's portrait, two files with the same pixels) point at the same
 place. A sheet's places are `[x, y, width, height]` in pixels.
 
+Pictures past builds need that differ from the build after them are in `files/` at the site's root,
+shared by both channels, once each by content.
+
 Locales are BCP 47 tags: `en-US`, `de-DE`, `es-ES`, `es-MX`, `fr-FR`, `it-IT`, `ko-KR`, `pl-PL`,
 `pt-BR`, `ru-RU`, `zh-CN`, `zh-TW`.
 The site's `index.json` names the version each channel holds.
+
+## History
+
+Every build is kept, without storing what didn't change.
+
+- **On the site,** a channel's folder is its newest build. Each past build is
+  `history/<game>.json`: for every file that differs from the build after it, the RFC 6902 JSON
+  Patch operations that turn that build's file into this one's (`{ "full": … }` for a file only
+  this build has, `null` for one it hasn't). To get a build, start from the channel's own files and
+  apply the patches in `history/index.json`'s order down to it. A past build's pictures are named
+  where they are: the channel's own file when unchanged, else `../files/<hash>.webp`.
+- **In the repository,** `sources/` keeps what every build was made from: `sources/<channel>/latest/`
+  the newest extraction (HDP's JSON, file names with `{build}` for the build), its older builds in
+  `sources/<channel>/history/` as patches of the build after each, and every picture and texture
+  once, by content, in `sources/blobs/`. Each update rebuilds every past build from these with the
+  current tools (`tools/build-history.ts`), so a tool change reaches history too.
+- **Builds before ours** (2.55.16.97039 to 2.57.0.98304 live, 2.55.17.97407 to 2.57.0.98182 PTR)
+  are imported from HeroesToolChest's [heroes-data2](https://github.com/HeroesToolChest/heroes-data2)
+  and [heroes-images](https://github.com/HeroesToolChest/heroes-images) (MIT) with
+  `tools/import-heroes-data2.ts`: the same HDP output, the kinds and string categories we extract.
+  heroes-data2 has no map mod data, so their map sheets hold the objective icons only.
 
 ## Versions
 
@@ -77,10 +103,10 @@ An update runs in three jobs, each step skipped when its work is done already:
 2. **extract** runs HDP once per locale, in parallel. The English run also writes the data files and
    pictures; the others keep only their strings. HDP and its download of game files are kept in
    the Actions cache.
-3. **publish** builds the folder from the extraction and commits it to `main` (a rebuild of a game
-   build whose extraction is stored on its release takes that one and doesn't extract at all),
-   opens git-flow's release PR, merges it, publishes the release, stores the extraction on it (only
-   the newest release of each channel keeps one) and deploys it to Pages.
+3. **publish** stores a new extraction in `sources/` (the build it replaces kept as a patch),
+   builds the folder and every past build from `sources/` and commits them to `main` (a rebuild of
+   a game build already stored with the current extraction settings doesn't extract at all), opens
+   git-flow's release PR, merges it, publishes the release and deploys it to Pages.
 
 Live and PTR plan and extract at the same time; only publish runs one at a time, since both
 channels write `.publish/versions.yml` and share the release PR.
@@ -104,13 +130,17 @@ needed.
 
 ## Tools
 
-| Command                                              | What                                                  |
-| ---------------------------------------------------- | ----------------------------------------------------- |
-| `pnpm run plan <live\|ptr> [--rebuild]`              | What an update of a channel still has to do           |
-| `pnpm run extract <live\|ptr> <locale> <game> <out>` | Runs HDP for one locale (`tools/lib/extraction.ts`)   |
-| `pnpm run build.channel <live\|ptr> <hdp out>`       | Builds a channel's folder from HDP's output           |
-| `pnpm run set.version <live\|ptr> <game> <revision>` | Writes `version.json` and `.publish/versions.yml`     |
-| `pnpm run build.site`                                | Builds the Pages site (`site/dist`) from both folders |
+| Command                                                | What                                                  |
+| ------------------------------------------------------ | ----------------------------------------------------- |
+| `pnpm run plan <live\|ptr> [--rebuild]`                | What an update of a channel still has to do           |
+| `pnpm run extract <live\|ptr> <locale> <game> <out>`   | Runs HDP for one locale (`tools/lib/extraction.ts`)   |
+| `pnpm run build.channel <live\|ptr> <hdp out> [out]`   | Builds a channel's folder from HDP's output           |
+| `pnpm run store.extraction <live\|ptr> <game> <dir>`   | Stores an extraction as the channel's newest build    |
+| `pnpm run restore.extraction <live\|ptr> <game> <dir>` | Writes a stored build's extraction (`latest` or game) |
+| `pnpm run build.history <live\|ptr>`                   | Builds the channel's past builds into `history/`      |
+| `pnpm run import.heroes-data2 <live\|ptr>`             | Imports heroes-data2's older builds into `sources/`   |
+| `pnpm run set.version <live\|ptr> <game> <revision>`   | Writes `version.json` and `.publish/versions.yml`     |
+| `pnpm run build.site`                                  | Builds the Pages site (`site/dist`) from both folders |
 
 HDP's command for the English run (the other locales leave out the `:i` picture options);
 `tools/lib/extraction.ts` holds it:
@@ -125,4 +155,6 @@ HeroesDataParser online [--download-ptr] -e hero:i -e unit -e emoticon:i -e emot
 ## Credits
 
 Game data and pictures © Blizzard Entertainment. Extracted with HeroesToolChest's
-[Heroes Data Parser](https://github.com/HeroesToolChest/HeroesDataParser).
+[Heroes Data Parser](https://github.com/HeroesToolChest/HeroesDataParser). Builds before
+2.57.0.98348 come from HeroesToolChest's heroes-data2 and heroes-images, both MIT licensed: see
+[THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
