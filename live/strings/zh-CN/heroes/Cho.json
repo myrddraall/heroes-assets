@@ -1,0 +1,191 @@
+{
+  "abilities": {
+    "ChoSurgingFistCast|ChoSurgingFist|Q": {
+      "cooldownText": "冷却时间：12秒",
+      "fullText": "激活后开始蓄力涌动之拳。再次激活后向前冲刺，击退沿途的敌人，并造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">46</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点伤害。冲刺距离根据蓄力时间最多提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">250%</c>。",
+      "name": "涌动之拳",
+      "shortText": "向指定方向冲刺并击退沿途的敌人"
+    },
+    "ChoConsumingBlaze|ChoConsumingBlaze|W": {
+      "cooldownText": "冷却时间：12秒",
+      "fullText": "点燃周围敌人，在<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>秒内造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点伤害。对被点燃的敌人进行普通攻击会将其重新点燃。每点燃一个敌人使古恢复<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点生命值。",
+      "name": "吞噬耀光",
+      "shortText": "对附近敌人造成伤害，并治疗古"
+    },
+    "ChoRuneBomb|ChoRuneBomb|E": {
+      "cooldownText": "冷却时间：8秒",
+      "fullText": "放出一枚符文炸弹，对移动路径上的敌人造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">91</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点伤害。加尔可以使用符文冲击引爆炸弹，在范围内造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">210</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点伤害。",
+      "name": "符文炸弹",
+      "shortText": "投掷一枚直线前进的符文炸弹。加尔可以引爆炸弹，造成范围伤害。"
+    },
+    "ChoUpheaval|ChoUpheaval|Heroic": {
+      "cooldownText": "冷却时间：40秒",
+      "fullText": "<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>秒后，将敌人拉向古加尔，使其减速<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>秒，并造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">175</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点伤害。",
+      "name": "颠覆之击",
+      "shortText": "将大范围内的敌人拉回身边"
+    },
+    "ChoHammerOfTwilight|ChoHammerOfTwilight|Heroic": {
+      "cooldownText": "冷却时间：15秒",
+      "fullText": "激活后挥舞暮光神锤，造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.045~~</c>点伤害，将敌人击退，并使其昏迷<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.75</c>秒。<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">被动：</c>古的普通攻击造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>的额外伤害。",
+      "name": "暮光神锤",
+      "shortText": "激活后击退并击晕敌人"
+    },
+    "ChoOgreHide|ChoOgreHideActivated|Trait": {
+      "cooldownText": "冷却时间：5秒",
+      "fullText": "激活后获得<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c>点护甲，但加尔的伤害降低<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>。",
+      "name": "食人魔之皮",
+      "shortText": "激活后提高护甲"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "冷却时间：4秒",
+      "fullText": "引导<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>秒后，获得<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s>移动速度。",
+      "name": "召唤坐骑"
+    },
+    "Hearthstone|HearthstoneNoMana|B": {
+      "fullText": "引导<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c>秒后，传送回风暴大厅，立即恢复<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c>的生命值。",
+      "name": "炉石"
+    },
+    "ChoSurgingFistTrigger|ChoSurgingFistTriggerButton|Q": {
+      "fullText": "再次激活后向前冲刺，击退沿途的敌人，并造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">46</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点伤害。冲刺距离根据蓄力时间最多提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">250%</c>。",
+      "name": "涌动之拳"
+    },
+    ":PASSIVE:|ChoOgreHidePassive|Trait": {
+      "fullText": "古的护甲提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c>点，但加尔的伤害降低<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>。<n/><n/>加尔可以激活食人魔之怒，使其伤害提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>，但会移除该护甲加成。",
+      "name": "食人魔之皮",
+      "shortText": "提高护甲"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "解除坐骑。",
+      "name": "解除坐骑"
+    },
+    "ChoTalentMoltenBlock|ChoTalentMoltenBlockCancel|Active": {
+      "cooldownText": "冷却时间：60秒",
+      "fullText": "<s val=\"8783e6\" hlt-name=\"StandardTooltip\">取消熔火格挡</s>",
+      "name": "取消熔火格挡"
+    },
+    "ChoTalentMoltenBlock|ChoTalentMoltenBlock|Active": {
+      "cooldownText": "冷却时间：60秒",
+      "fullText": "激活后变为静止并获得无敌，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>秒，并且每秒对附近敌人造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">92</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点伤害。",
+      "name": "熔火格挡",
+      "shortText": "激活后变为无敌"
+    },
+    "ChoTwilightVeil|ChoTwilightVeilTalent|Active": {
+      "cooldownText": "冷却时间：30秒",
+      "fullText": "激活后使食人魔之皮的护甲加成提高至<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75</c>点，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>秒。如果在食人魔之怒激活时施放，则立刻切换为食人魔之皮。",
+      "name": "暮光帷幕",
+      "shortText": "激活后提高食人魔之皮的护甲"
+    }
+  },
+  "talents": {
+    "ChoConsumingFire|ChoConsumingFire|W|Level1": {
+      "fullText": "英雄被点燃时，吞噬耀光可额外恢复<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点生命值。",
+      "name": "吞噬之焰",
+      "shortText": "提高对英雄的治疗量"
+    },
+    "ChoCallousedHide|ChoCallousedHide|Trait|Level1": {
+      "fullText": "低于<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>最大生命值时，古的移动速度和受到的治疗提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c>。",
+      "name": "硬化外皮",
+      "shortText": "低生命值时提高治疗效果与移动速度"
+    },
+    "ChoTheWillofCho|ChoTheWillofCho|Trait|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">任务：</c>击杀敌方小兵可以获得<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>层古的意志。击杀英雄可以获得<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c>层。每<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30</c>层古的意志可以获得<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>点护甲值，最多<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c>点。<n/><n/>此护甲可以与食人魔之皮叠加。",
+      "name": "古的意志",
+      "shortText": "击杀小兵和英雄可以提高护甲"
+    },
+    "ChoUppercut|ChoUppercut|Q|Level4": {
+      "fullText": "涌动之拳击中一名敌方英雄时，可以造成相当于其最大生命值<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5%</c>的额外伤害，并且使涌动之拳的冷却时间缩短<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>秒。",
+      "name": "上勾拳",
+      "shortText": "提高涌动之拳的伤害"
+    },
+    "ChoRollback|ChoRollbackTalent|E|Level4": {
+      "fullText": "符文炸弹会返回古身边，对沿途的敌人造成伤害。",
+      "name": "炸弹回弹",
+      "shortText": "符文炸弹会返回"
+    },
+    "ChoSearedFlesh|ChoSearedFleshTalent|Passive|Level4": {
+      "fullText": "对敌方英雄连续进行普通攻击会造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c>的额外伤害，最多可提高至<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60%</c>。该加成持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>秒，或直到攻击另外一个非英雄敌人为止。",
+      "name": "肉体灼烧",
+      "shortText": "连续的普通攻击造成额外伤害"
+    },
+    "ChoPowerSurge|ChoPowerSurgeTalent|Q|Level7": {
+      "fullText": "涌动之拳击中敌方英雄时会使其减速<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c>，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c>秒。引导涌动之拳时会获得<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c>的移动速度加成，并且该加成在施放此技能<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c>秒后仍然存在。",
+      "name": "强力涌动",
+      "shortText": "涌动之拳使敌方英雄减速"
+    },
+    "ChoFirestarter|ChoFirestarter|W|Level7": {
+      "fullText": "对被点燃的英雄进行普通攻击使吞噬耀光的冷却时间缩短<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c>秒。<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">被动：</c>吞噬耀光的冷却时间缩短<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>秒。 ",
+      "name": "纵火者",
+      "shortText": "缩短吞噬耀光的冷却时间"
+    },
+    "ChoEnragedRegeneration|ChoEnragedRegeneration|Trait|Level7": {
+      "fullText": "古使用技能或普通攻击每击中一次敌方英雄，他便在<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>秒内获得<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点治疗。被加尔的恐惧之球击中的敌方英雄获得的治疗效果降低<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35%</c>，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>秒。",
+      "name": "狂怒恢复",
+      "shortText": "古从英雄伤害中获得治疗，加尔减少敌人的治疗"
+    },
+    "ChoHeroicAbilityHammerOfTwilight|ChoHammerOfTwilight|Heroic|Level10": {
+      "cooldownText": "冷却时间：15秒",
+      "fullText": "激活后挥舞暮光神锤，造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.045~~</c>点伤害，将敌人击退，并使其昏迷<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.75</c>秒。<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">被动：</c>古的普通攻击造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>的额外伤害。",
+      "name": "暮光神锤",
+      "shortText": "激活后击退并击晕敌人"
+    },
+    "ChoHeroicAbilityUpheaval|ChoUpheaval|Heroic|Level10": {
+      "cooldownText": "冷却时间：40秒",
+      "fullText": "<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>秒后，将敌人拉向古加尔，使其减速<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>秒，并造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">175</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点伤害。",
+      "name": "颠覆之击",
+      "shortText": "将大范围内的敌人拉回身边"
+    },
+    "ChoSurgingDash|ChoSurgingDashTalent|Q|Level13": {
+      "fullText": "引导涌动之拳时，古每秒恢复<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点生命值。",
+      "name": "涌动冲刺",
+      "shortText": "引导涌动之拳时获得治疗"
+    },
+    "ChoTwilightVeil|ChoTwilightVeilTalent|Active|Level13": {
+      "cooldownText": "冷却时间：30秒",
+      "fullText": "激活后使食人魔之皮的护甲加成提高至<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75</c>点，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>秒。如果在食人魔之怒激活时施放，则立刻切换为食人魔之皮。",
+      "name": "暮光帷幕",
+      "shortText": "激活后提高食人魔之皮的护甲"
+    },
+    "ChoTalentMoltenBlock|ChoTalentMoltenBlock|Active|Level13": {
+      "cooldownText": "冷却时间：60秒",
+      "fullText": "激活后变为静止并获得无敌，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>秒，并且每秒对附近敌人造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">92</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点伤害。",
+      "name": "熔火格挡",
+      "shortText": "激活后变为无敌"
+    },
+    "ChoFrenziedFists|ChoFrenziedFistsTalent|Q|Level16": {
+      "fullText": "使用涌动之拳后，攻击速度提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75%</c>，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>秒。",
+      "name": "狂暴之拳",
+      "shortText": "涌动之拳提高攻击速度"
+    },
+    "ChoRunicFeedback|ChoRunicFeedbackTalent|E|Level16": {
+      "fullText": "加尔的符文冲击每击中一个敌人使古的符文炸弹的冷却时间缩短<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>秒，每击中一个英雄缩短<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>秒。",
+      "name": "符文反馈",
+      "shortText": "符文冲击缩短符文炸弹的冷却时间"
+    },
+    "ChoRunedGauntlet|ChoRunedGauntletTalent|Passive|Level16": {
+      "fullText": "普通攻击使古和加尔的终极技能的冷却时间减少<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6%</c>。",
+      "name": "符文护手",
+      "shortText": "普通攻击缩短终极技能的冷却时间"
+    },
+    "ChoCthunsGift|ChoCthunsGiftTalent|Heroic|Level20": {
+      "fullText": "古的普通攻击变为远程攻击，并使目标减速<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c>，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>秒。",
+      "name": "克苏恩的赠礼",
+      "shortText": "普通攻击变为远程，并使目标减速"
+    },
+    "ChoFavorOfTheOldGods|ChoFavorOfTheOldGodsTalent|Heroic|Level20": {
+      "fullText": "颠覆之击使敌方英雄定身<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>秒。",
+      "name": "上古之神的眷顾",
+      "shortText": "颠覆之击使英雄定身"
+    },
+    "ChoFuelForTheFlame|ChoFuelForTheFlameTalent|Passive|Level20": {
+      "fullText": "对敌人发动普通攻击会令其爆炸，造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">21</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点伤害，并对附近的敌人造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">45</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点伤害。该伤害对敌方英雄翻倍。",
+      "name": "烈焰能量",
+      "shortText": "基本攻击造成伤害时引发爆炸"
+    },
+    "ChoHourofTwilight|ChoHourofTwilight|Passive|Level20": {
+      "fullText": "古加尔的复活时间缩短<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>。",
+      "name": "暮光审判",
+      "shortText": "缩短复活时间"
+    }
+  },
+  "units": {}
+}

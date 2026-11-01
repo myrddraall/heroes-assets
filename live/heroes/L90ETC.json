@@ -1,0 +1,664 @@
+{
+  "id": "L90ETC",
+  "unitId": "HeroL90ETC",
+  "hyperlinkId": "ETC",
+  "attributeId": "L90E",
+  "franchise": "Warcraft",
+  "rarity": "Rare",
+  "releaseDate": "2014-03-13",
+  "isMelee": true,
+  "gender": "Male",
+  "radius": 0.9375,
+  "innerRadius": 0.9375,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "BattleBeast",
+  "ratings": {
+    "complexity": 3,
+    "damage": 4,
+    "survivability": 9,
+    "utility": 6
+  },
+  "life": {
+    "amount": 2280,
+    "scale": 0.04,
+    "regenRate": 4.75,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "BodyBlocker",
+    "EnergyImportant",
+    "Escaper",
+    "Ganker",
+    "Overconfident",
+    "RoleTank",
+    "SelfHealer"
+  ],
+  "weapons": [
+    {
+      "nameId": "HeroL90ETC",
+      "isDisabled": false,
+      "range": 1.5,
+      "minimumRange": 0,
+      "period": 0.8,
+      "damage": 99,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "ETCGlam",
+    "ETCMarine",
+    "ETCPureCountry",
+    "ETCSummer18",
+    "ETCUltimate"
+  ],
+  "variationSkinIds": [
+    "ETCDark",
+    "ETCLight",
+    "ETCVar3"
+  ],
+  "voiceLineIds": [
+    "L90ETCBase_VoiceLine01",
+    "L90ETCBase_VoiceLine02",
+    "L90ETCBase_VoiceLine03",
+    "L90ETCBase_VoiceLine04",
+    "L90ETCBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "L90ETCPowerslide|L90ETCPowerslide|Q",
+        "abilityId": "L90ETCPowerslide",
+        "buttonId": "L90ETCPowerslide",
+        "icon": "storm_ui_icon_etc_powerslide.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "L90ETCFaceMelt|L90ETCFaceMelt|W",
+        "abilityId": "L90ETCFaceMelt",
+        "buttonId": "L90ETCFaceMelt",
+        "icon": "storm_ui_icon_etc_facemelt.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "L90ETCGuitarSolo|L90ETCGuitarSolo|E",
+        "abilityId": "L90ETCGuitarSolo",
+        "buttonId": "L90ETCGuitarSolo",
+        "icon": "storm_ui_icon_etc_guitarsolo.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "L90ETCMoshPit|L90ETCMoshPit|Heroic",
+        "abilityId": "L90ETCMoshPit",
+        "buttonId": "L90ETCMoshPit",
+        "icon": "storm_ui_icon_etc_moshpit.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "L90ETCStageDive|L90ETCStageDive|Heroic",
+        "abilityId": "L90ETCStageDive",
+        "buttonId": "L90ETCStageDive",
+        "icon": "storm_ui_icon_etc_stagedive.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": "RockstarDummy|L90ETCRockstar|Trait",
+        "abilityId": "RockstarDummy",
+        "buttonId": "L90ETCRockstar",
+        "icon": "storm_ui_icon_etc_rockstar.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "L90ETCMoshPit|L90ETCMoshPit|Heroic": {
+      "Heroic": [
+        {
+          "linkId": "L90ETCMoshPitCancel|L90ETCMoshPitCancel|Heroic",
+          "abilityId": "L90ETCMoshPitCancel",
+          "buttonId": "L90ETCMoshPitCancel",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "abilityType": "Heroic"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "GenericTalentImposingPresence|GenericImposingPresenceTalent|Active|Level16": {
+      "Activable": [
+        {
+          "linkId": "TalentImposingPresence|GenericImposingPresenceTalent|Active",
+          "abilityId": "TalentImposingPresence",
+          "buttonId": "GenericImposingPresenceTalent",
+          "icon": "storm_ui_icon_talent_imposingpresence.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "L90ETCPoweroftheHorde|L90ETCPoweroftheHorde|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "L90ETCPoweroftheHorde|L90ETCPoweroftheHorde|Active",
+          "abilityId": "L90ETCPoweroftheHorde",
+          "buttonId": "L90ETCPoweroftheHorde",
+          "icon": "storm_ui_icon_talent_stormshield.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "L90ETCRidetheLightning|L90ETCRidetheLightning|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "L90ETCRidetheLightning|L90ETCRidetheLightning|Active",
+          "abilityId": "L90ETCRidetheLightning",
+          "buttonId": "L90ETCRidetheLightning",
+          "icon": "storm_ui_icon_talent_boltofthestorm.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "ETCMasteryGuitarHero|L90ETCGuitarSoloGuitarHeroTalent|E|Level1",
+        "talentId": "ETCMasteryGuitarHero",
+        "buttonId": "L90ETCGuitarSoloGuitarHeroTalent",
+        "abilityId": "L90ETCGuitarSolo",
+        "icon": "storm_ui_icon_etc_guitarsolo.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "L90ETCGuitarSolo|L90ETCGuitarSolo|E"
+        ]
+      },
+      {
+        "linkId": "ETCMasteryProgRock|ETCProgRockTalent|E|Level1",
+        "talentId": "ETCMasteryProgRock",
+        "buttonId": "ETCProgRockTalent",
+        "abilityId": "L90ETCGuitarSolo",
+        "icon": "storm_ui_icon_etc_guitarsolo_a.png",
+        "abilityType": "E",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "L90ETCGuitarSolo|L90ETCGuitarSolo|E"
+        ]
+      },
+      {
+        "linkId": "ETCBlockParty|ETCBlockParty|Trait|Level1",
+        "talentId": "ETCBlockParty",
+        "buttonId": "ETCBlockParty",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_etc_rockstar.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "RockstarDummy|L90ETCRockstar|Trait"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "ETCCrowdSurfer|ETCCrowdSurfer|Q|Level4",
+        "talentId": "ETCCrowdSurfer",
+        "buttonId": "ETCCrowdSurfer",
+        "abilityId": "L90ETCPowerslide",
+        "icon": "storm_ui_icon_etc_powerslide.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "L90ETCPowerslide|L90ETCPowerslide|Q"
+        ]
+      },
+      {
+        "linkId": "L90ETCMasteryFaceMeltLoudSpeakers|L90ETCFaceMeltLoudSpeakersTalent|W|Level4",
+        "talentId": "L90ETCMasteryFaceMeltLoudSpeakers",
+        "buttonId": "L90ETCFaceMeltLoudSpeakersTalent",
+        "abilityId": "L90ETCFaceMelt",
+        "icon": "storm_ui_icon_etc_facemelt.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "L90ETCFaceMelt|L90ETCFaceMelt|W"
+        ]
+      },
+      {
+        "linkId": "ETCMasterySpeedMetal|ETCSpeedMetalTalent|Trait|Level4",
+        "talentId": "ETCMasterySpeedMetal",
+        "buttonId": "ETCSpeedMetalTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_etc_speedmetal.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "RockstarDummy|L90ETCRockstar|Trait"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "L90ETCMasteryFaceMeltPinballWizard|ETCPinballWizardTalent|W|Level7",
+        "talentId": "L90ETCMasteryFaceMeltPinballWizard",
+        "buttonId": "ETCPinballWizardTalent",
+        "abilityId": "L90ETCFaceMelt",
+        "icon": "storm_ui_icon_etc_facemelt.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "L90ETCFaceMelt|L90ETCFaceMelt|W"
+        ]
+      },
+      {
+        "linkId": "ETCMasteryHammeron|ETCHammeronTalent|E|Level7",
+        "talentId": "ETCMasteryHammeron",
+        "buttonId": "ETCHammeronTalent",
+        "abilityId": "L90ETCGuitarSolo",
+        "icon": "storm_ui_icon_etc_guitarsolo.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "L90ETCGuitarSolo|L90ETCGuitarSolo|E"
+        ]
+      },
+      {
+        "linkId": "ETCCombatStyleEchoPedal|L90ETCRockstarEchoPedalTalent|Passive|Level7",
+        "talentId": "ETCCombatStyleEchoPedal",
+        "buttonId": "L90ETCRockstarEchoPedalTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_etc_echopedal.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "RockstarDummy|L90ETCRockstar|Trait"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "ETCHeroicAbilityMoshPit|L90ETCMoshPit|Heroic|Level10",
+        "talentId": "ETCHeroicAbilityMoshPit",
+        "buttonId": "L90ETCMoshPit",
+        "abilityId": "L90ETCMoshPit",
+        "icon": "storm_ui_icon_etc_moshpit.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "ETCHeroicAbilityStageDive|L90ETCStageDive|Heroic|Level10",
+        "talentId": "ETCHeroicAbilityStageDive",
+        "buttonId": "L90ETCStageDive",
+        "abilityId": "L90ETCStageDive",
+        "icon": "storm_ui_icon_etc_stagedive.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "ETCMasteryMicCheck|ETCMicCheckTalent|W|Level13",
+        "talentId": "ETCMasteryMicCheck",
+        "buttonId": "ETCMicCheckTalent",
+        "abilityId": "L90ETCFaceMelt",
+        "icon": "storm_ui_icon_etc_facemelt.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "L90ETCFaceMelt|L90ETCFaceMelt|W"
+        ]
+      },
+      {
+        "linkId": "ETCMasteryEncore|ETCEncoreTalent|W|Level13",
+        "talentId": "ETCMasteryEncore",
+        "buttonId": "ETCEncoreTalent",
+        "abilityId": "L90ETCFaceMelt",
+        "icon": "storm_ui_icon_etc_facemelt_a.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "L90ETCFaceMelt|L90ETCFaceMelt|W"
+        ]
+      },
+      {
+        "linkId": "ETCMasteryFaceSmelt|L90ETCFaceMeltFaceSmeltTalent|W|Level13",
+        "talentId": "ETCMasteryFaceSmelt",
+        "buttonId": "L90ETCFaceMeltFaceSmeltTalent",
+        "abilityId": "L90ETCFaceMelt",
+        "icon": "storm_ui_icon_etc_facemelt_b.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "L90ETCFaceMelt|L90ETCFaceMelt|W"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "ETCMasteryShowStopper|ETCShowStopperTalent|Q|Level16",
+        "talentId": "ETCMasteryShowStopper",
+        "buttonId": "ETCShowStopperTalent",
+        "abilityId": "L90ETCPowerslide",
+        "icon": "storm_ui_icon_etc_powerslide.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "L90ETCPowerslide|L90ETCPowerslide|Q"
+        ]
+      },
+      {
+        "linkId": "ETCMasteryGuitarSoloAggressiveShredding|ETCGuitarSoloAggressiveShreddingTalent|E|Level16",
+        "talentId": "ETCMasteryGuitarSoloAggressiveShredding",
+        "buttonId": "ETCGuitarSoloAggressiveShreddingTalent",
+        "abilityId": "L90ETCGuitarSolo",
+        "icon": "storm_ui_icon_etc_guitarsolo.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "L90ETCGuitarSolo|L90ETCGuitarSolo|E"
+        ]
+      },
+      {
+        "linkId": "GenericTalentImposingPresence|GenericImposingPresenceTalent|Active|Level16",
+        "talentId": "GenericTalentImposingPresence",
+        "buttonId": "GenericImposingPresenceTalent",
+        "abilityId": "TalentImposingPresence",
+        "icon": "storm_ui_icon_talent_imposingpresence.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "L90ETCMasteryMoshPitTourBus|L90ETCMoshPitTourBusTalent|Heroic|Level20",
+        "talentId": "L90ETCMasteryMoshPitTourBus",
+        "buttonId": "L90ETCMoshPitTourBusTalent",
+        "abilityId": "L90ETCMoshPit",
+        "icon": "storm_ui_icon_etc_moshpit.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "L90ETCMoshPit|L90ETCMoshPit|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "ETCHeroicAbilityMoshPit"
+        ]
+      },
+      {
+        "linkId": "L90ETCMasteryStageDiveCrowdPleaser|ETCStageDiveCrowdPleaserTalent|Heroic|Level20",
+        "talentId": "L90ETCMasteryStageDiveCrowdPleaser",
+        "buttonId": "ETCStageDiveCrowdPleaserTalent",
+        "abilityId": "L90ETCStageDive",
+        "icon": "storm_ui_icon_etc_stagedive.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "L90ETCStageDive|L90ETCStageDive|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "ETCHeroicAbilityStageDive"
+        ]
+      },
+      {
+        "linkId": "L90ETCMasteryDeathMetal|L90ETCDeathMetalTalent|Passive|Level20",
+        "talentId": "L90ETCMasteryDeathMetal",
+        "buttonId": "L90ETCDeathMetalTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_etc_moshpit_a.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "RockstarDummy|L90ETCRockstar|Trait"
+        ]
+      },
+      {
+        "linkId": "L90ETCPoweroftheHorde|L90ETCPoweroftheHorde|Active|Level20",
+        "talentId": "L90ETCPoweroftheHorde",
+        "buttonId": "L90ETCPoweroftheHorde",
+        "abilityId": "L90ETCPoweroftheHorde",
+        "icon": "storm_ui_icon_talent_stormshield.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      },
+      {
+        "linkId": "L90ETCRidetheLightning|L90ETCRidetheLightning|Active|Level20",
+        "talentId": "L90ETCRidetheLightning",
+        "buttonId": "L90ETCRidetheLightning",
+        "abilityId": "L90ETCRidetheLightning",
+        "icon": "storm_ui_icon_talent_boltofthestorm.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 5
+      }
+    ]
+  },
+  "sheet": "sheets/L90ETC.webp",
+  "icons": {
+    "storm_ui_icon_etc_powerslide.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_etc_facemelt.png": [
+      300,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_etc_guitarsolo.png": [
+      600,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_etc_moshpit.png": [
+      900,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_etc_stagedive.png": [
+      1200,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_etc_rockstar.png": [
+      0,
+      300,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_mount.png": [
+      300,
+      300,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      600,
+      300,
+      111,
+      71
+    ],
+    "hud_btn_bg_ability_cancel.png": [
+      900,
+      300,
+      97,
+      111
+    ],
+    "storm_ui_icon_generic_cancel_mount.png": [
+      1200,
+      300,
+      76,
+      48
+    ],
+    "storm_ui_icon_talent_imposingpresence.png": [
+      0,
+      600,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_stormshield.png": [
+      300,
+      600,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_boltofthestorm.png": [
+      600,
+      600,
+      128,
+      128
+    ],
+    "storm_ui_icon_etc_guitarsolo_a.png": [
+      900,
+      600,
+      128,
+      128
+    ],
+    "storm_ui_icon_etc_speedmetal.png": [
+      1200,
+      600,
+      128,
+      128
+    ],
+    "storm_ui_icon_etc_echopedal.png": [
+      0,
+      900,
+      128,
+      128
+    ],
+    "storm_ui_icon_etc_facemelt_a.png": [
+      300,
+      900,
+      128,
+      128
+    ],
+    "storm_ui_icon_etc_facemelt_b.png": [
+      600,
+      900,
+      300,
+      300
+    ],
+    "storm_ui_icon_etc_moshpit_a.png": [
+      900,
+      900,
+      128,
+      128
+    ]
+  }
+}

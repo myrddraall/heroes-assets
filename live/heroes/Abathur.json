@@ -1,0 +1,729 @@
+{
+  "id": "Abathur",
+  "unitId": "HeroAbathur",
+  "hyperlinkId": "Abathur",
+  "attributeId": "Abat",
+  "franchise": "Starcraft",
+  "rarity": "Legendary",
+  "releaseDate": "2014-03-13",
+  "isMelee": true,
+  "gender": "Neutral",
+  "radius": 0.75,
+  "innerRadius": 0.75,
+  "sight": 12,
+  "speed": 4.75,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "HeroDummyVeterancy"
+  ],
+  "ratings": {
+    "complexity": 9,
+    "damage": 3,
+    "survivability": 1,
+    "utility": 7
+  },
+  "life": {
+    "amount": 685,
+    "scale": 0.04,
+    "regenRate": 1.4257,
+    "regenScale": 0.04
+  },
+  "playstyles": [
+    "Ganker",
+    "Helper",
+    "InstantTraveler",
+    "RoleSpecialist",
+    "TowerPusher",
+    "WaveClearer"
+  ],
+  "summonedUnitIds": [
+    "AbathurEvolvedMonstrosity",
+    "AbathurLocustAssaultStrain",
+    "AbathurLocustBombardStrain",
+    "AbathurLocustNest",
+    "AbathurLocustNormal",
+    "AbathurToxicNest",
+    "ItemMULE"
+  ],
+  "weapons": [
+    {
+      "nameId": "HeroAbathur",
+      "isDisabled": false,
+      "range": 1,
+      "minimumRange": 0,
+      "period": 0.7,
+      "damage": 26,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "AbathurMecha",
+    "AbathurPajamathur",
+    "AbathurSkelethur",
+    "AbathurUltimate"
+  ],
+  "variationSkinIds": [
+    "AbathurBaseVar3",
+    "AbathurBone",
+    "AbathurChar"
+  ],
+  "voiceLineIds": [
+    "AbathurBase_VoiceLine01",
+    "AbathurBase_VoiceLine02",
+    "AbathurBase_VoiceLine03",
+    "AbathurBase_VoiceLine04",
+    "AbathurBase_VoiceLine05"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "AbathurSymbiote|AbathurSymbiote|Q",
+        "abilityId": "AbathurSymbiote",
+        "buttonId": "AbathurSymbiote",
+        "icon": "storm_ui_icon_abathur_symbiote.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "AbathurToxicNest|AbathurToxicNest|W",
+        "abilityId": "AbathurToxicNest",
+        "buttonId": "AbathurToxicNest",
+        "icon": "storm_ui_icon_abathur_toxicnest.png",
+        "charges": {
+          "countMax": 3,
+          "countStart": 3,
+          "countUse": 1,
+          "recastCooldown": 0.0625,
+          "isCountHidden": false
+        },
+        "abilityType": "W"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "AbathurEvolveMonstrosity|AbathurEvolveMonstrosityHotbar|Heroic",
+        "abilityId": "AbathurEvolveMonstrosity",
+        "buttonId": "AbathurEvolveMonstrosityHotbar",
+        "icon": "storm_ui_icon_abathur_evolvemonstrosity.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "AbathurUltimateEvolution|AbathurUltimateEvolution|Heroic",
+        "abilityId": "AbathurUltimateEvolution",
+        "buttonId": "AbathurUltimateEvolution",
+        "icon": "storm_ui_icon_abathur_ultimateevolution.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": "AbathurSpawnLocusts|AbathurLocustStrain|Trait",
+        "abilityId": "AbathurSpawnLocusts",
+        "buttonId": "AbathurLocustStrain",
+        "icon": "storm_ui_icon_abathur_spawnlocust.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "AbathurDeepTunnel|AbathurDeepTunnel|Z",
+        "abilityId": "AbathurDeepTunnel",
+        "buttonId": "AbathurDeepTunnel",
+        "icon": "storm_ui_icon_abathur_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|HearthstoneNoMana|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "HearthstoneNoMana",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "AbathurEvolveMonstrosity|AbathurEvolveMonstrosityHotbar|Heroic": {
+      "Heroic": [
+        {
+          "linkId": "AbathurEvolveMonstrosityActiveSymbiote|EvolveMonstrosityActiveHotbar|Heroic",
+          "abilityId": "AbathurEvolveMonstrosityActiveSymbiote",
+          "buttonId": "EvolveMonstrosityActiveHotbar",
+          "icon": "storm_ui_icon_abathur_evolvemonstrosity.png",
+          "abilityType": "Heroic"
+        }
+      ]
+    },
+    "AbathurCombatStyleLocustBrood|AbathurLocustSwarm|Active|Level1": {
+      "Activable": [
+        {
+          "linkId": "AbathurLocustSwarm|AbathurLocustSwarm|Active",
+          "abilityId": "AbathurLocustSwarm",
+          "buttonId": "AbathurLocustSwarm",
+          "icon": "storm_ui_icon_abathur_spawnlocust.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "GenericTalentCalldownMULE|GenericCalldownMule|Active|Level7": {
+      "Activable": [
+        {
+          "linkId": "TalentBucketCalldownMule|GenericCalldownMule|Active",
+          "abilityId": "TalentBucketCalldownMule",
+          "buttonId": "GenericCalldownMule",
+          "icon": "storm_ui_icon_talent_mule.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "AbathurMasteryLocustMaster|AbathurLocustMasterHotbar|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "AbathurLocustNest|AbathurLocustMasterHotbar|Active",
+          "abilityId": "AbathurLocustNest",
+          "buttonId": "AbathurLocustMasterHotbar",
+          "icon": "storm_ui_icon_abathur_locustnest.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "AbathurMasteryPressurizedGlands|AbathurSymbiotePressurizedGlandsTalent|W|Level1",
+        "talentId": "AbathurMasteryPressurizedGlands",
+        "buttonId": "AbathurSymbiotePressurizedGlandsTalent",
+        "abilityId": "AbathurSymbioteSpikeBurst",
+        "icon": "storm_ui_icon_abathur_spikeburst.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AbathurSymbiote|AbathurSymbiote|Q",
+          "AbathurSymbioteSpikeBurst|AbathurSymbioteSpikeBurst|W"
+        ]
+      },
+      {
+        "linkId": "AbathurMasteryEnvenomedNestsToxicNest|AbathurToxicNestEnvenomedNestTalent|W|Level1",
+        "talentId": "AbathurMasteryEnvenomedNestsToxicNest",
+        "buttonId": "AbathurToxicNestEnvenomedNestTalent",
+        "abilityId": "AbathurToxicNest",
+        "icon": "storm_ui_icon_abathur_toxicnest.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "AbathurToxicNest|AbathurToxicNest|W"
+        ]
+      },
+      {
+        "linkId": "AbathurReinforcedCarapace|AbathurReinforcedCarapaceTalent|E|Level1",
+        "talentId": "AbathurReinforcedCarapace",
+        "buttonId": "AbathurReinforcedCarapaceTalent",
+        "abilityId": "AbathurSymbioteCarapace",
+        "icon": "storm_ui_icon_abathur_carapace.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "AbathurSymbiote|AbathurSymbiote|Q",
+          "AbathurSymbioteCarapace|AbathurSymbioteCarapace|E"
+        ]
+      },
+      {
+        "linkId": "AbathurCombatStyleLocustBrood|AbathurLocustSwarm|Active|Level1",
+        "talentId": "AbathurCombatStyleLocustBrood",
+        "buttonId": "AbathurLocustSwarm",
+        "abilityId": "AbathurLocustSwarm",
+        "icon": "storm_ui_icon_abathur_spawnlocust.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "AbathurSymbioteAdrenalOverload|AbathurSymbioteAdrenalOverloadTalent|Q|Level4",
+        "talentId": "AbathurSymbioteAdrenalOverload",
+        "buttonId": "AbathurSymbioteAdrenalOverloadTalent",
+        "abilityId": "AbathurSymbiote",
+        "icon": "storm_ui_icon_abathur_symbiote.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AbathurSymbiote|AbathurSymbiote|Q"
+        ]
+      },
+      {
+        "linkId": "AbathurMasteryNeedlespine|AbathurSymbioteNeedlespineTalent|Q|Level4",
+        "talentId": "AbathurMasteryNeedlespine",
+        "buttonId": "AbathurSymbioteNeedlespineTalent",
+        "abilityId": "AbathurSymbioteStab",
+        "icon": "storm_ui_icon_abathur_stab.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "AbathurSymbiote|AbathurSymbiote|Q",
+          "AbathurSymbioteStab|AbathurSymbioteStab|Q"
+        ]
+      },
+      {
+        "linkId": "AbathurMasteryProlificDispersal|AbathurToxicNestProlificDispersalTalent|W|Level4",
+        "talentId": "AbathurMasteryProlificDispersal",
+        "buttonId": "AbathurToxicNestProlificDispersalTalent",
+        "abilityId": "AbathurToxicNest",
+        "icon": "storm_ui_icon_abathur_toxicnest.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "AbathurToxicNest|AbathurToxicNest|W"
+        ]
+      },
+      {
+        "linkId": "AbathurSlapathur|AbathurSlapathur|E|Level4",
+        "talentId": "AbathurSlapathur",
+        "buttonId": "AbathurSlapathur",
+        "abilityId": "AbathurSymbioteCarapace",
+        "icon": "storm_ui_icon_abathur_volatilemutation.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 4
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "AbathurMasteryVileNestsToxicNest|AbathurToxicNestVileNestTalent|W|Level7",
+        "talentId": "AbathurMasteryVileNestsToxicNest",
+        "buttonId": "AbathurToxicNestVileNestTalent",
+        "abilityId": "AbathurToxicNest",
+        "icon": "storm_ui_icon_abathur_toxicnest.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AbathurToxicNest|AbathurToxicNest|W"
+        ]
+      },
+      {
+        "linkId": "AbathurSymbioteCarapaceNetworkedCarapace|AbathurSymbioteCarapaceNetworkedCarapaceTalent|E|Level7",
+        "talentId": "AbathurSymbioteCarapaceNetworkedCarapace",
+        "buttonId": "AbathurSymbioteCarapaceNetworkedCarapaceTalent",
+        "abilityId": "AbathurSymbioteCarapace",
+        "icon": "storm_ui_icon_abathur_carapace.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "AbathurSymbiote|AbathurSymbiote|Q",
+          "AbathurSymbioteCarapace|AbathurSymbioteCarapace|E"
+        ]
+      },
+      {
+        "linkId": "GenericTalentCalldownMULE|GenericCalldownMule|Active|Level7",
+        "talentId": "GenericTalentCalldownMULE",
+        "buttonId": "GenericCalldownMule",
+        "abilityId": "TalentBucketCalldownMule",
+        "icon": "storm_ui_icon_talent_mule.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "AbathurHeroicAbilityUltimateEvolution|AbathurUltimateEvolution|Heroic|Level10",
+        "talentId": "AbathurHeroicAbilityUltimateEvolution",
+        "buttonId": "AbathurUltimateEvolution",
+        "abilityId": "AbathurUltimateEvolution",
+        "icon": "storm_ui_icon_abathur_ultimateevolution.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "AbathurHeroicAbilityEvolveMonstrosity|AbathurEvolveMonstrosityHotbar|Heroic|Level10",
+        "talentId": "AbathurHeroicAbilityEvolveMonstrosity",
+        "buttonId": "AbathurEvolveMonstrosityHotbar",
+        "abilityId": "AbathurEvolveMonstrosity",
+        "icon": "storm_ui_icon_abathur_evolvemonstrosity.png",
+        "abilityType": "Heroic",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "AbathurMasterySpatialEfficiency|AbathurSymbioteSpatialEfficiencyTalent|Q|Level13",
+        "talentId": "AbathurMasterySpatialEfficiency",
+        "buttonId": "AbathurSymbioteSpatialEfficiencyTalent",
+        "abilityId": "AbathurSymbioteStab",
+        "icon": "storm_ui_icon_abathur_stab.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AbathurSymbiote|AbathurSymbiote|Q",
+          "AbathurSymbioteStab|AbathurSymbioteStab|Q"
+        ]
+      },
+      {
+        "linkId": "AbathurSymbioteSpikeBurstSomaTransference|AbathurSymbioteSpikeBurstSomaTransferenceTalent|W|Level13",
+        "talentId": "AbathurSymbioteSpikeBurstSomaTransference",
+        "buttonId": "AbathurSymbioteSpikeBurstSomaTransferenceTalent",
+        "abilityId": "AbathurSymbioteSpikeBurst",
+        "icon": "storm_ui_icon_abathur_spikeburst.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "AbathurSymbiote|AbathurSymbiote|Q",
+          "AbathurSymbioteSpikeBurst|AbathurSymbioteSpikeBurst|W"
+        ]
+      },
+      {
+        "linkId": "AbathurCombatStyleBombardStrain|AbathurLocustStrainBombardStrainTalent|Trait|Level13",
+        "talentId": "AbathurCombatStyleBombardStrain",
+        "buttonId": "AbathurLocustStrainBombardStrainTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_abathur_spawnlocust.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "AbathurSpawnLocusts|AbathurLocustStrain|Trait"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "AbathurMasteryEnvenomedSpikes|AbathurSymbioteEnvenomedSpikesTalent|W|Level16",
+        "talentId": "AbathurMasteryEnvenomedSpikes",
+        "buttonId": "AbathurSymbioteEnvenomedSpikesTalent",
+        "abilityId": "AbathurSymbioteSpikeBurst",
+        "icon": "storm_ui_icon_abathur_spikeburst.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AbathurSymbiote|AbathurSymbiote|Q",
+          "AbathurSymbioteSpikeBurst|AbathurSymbioteSpikeBurst|W"
+        ]
+      },
+      {
+        "linkId": "AbathurMasteryAdrenalineBoost|AbathurSymbioteAdrenalineBoostTalent|E|Level16",
+        "talentId": "AbathurMasteryAdrenalineBoost",
+        "buttonId": "AbathurSymbioteAdrenalineBoostTalent",
+        "abilityId": "AbathurSymbioteCarapace",
+        "icon": "storm_ui_icon_abathur_carapace.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "AbathurSymbiote|AbathurSymbiote|Q",
+          "AbathurSymbioteCarapace|AbathurSymbioteCarapace|E"
+        ]
+      },
+      {
+        "linkId": "AbathurVolatileMutation|AbathurVolatileMutationTalent|Heroic|Level16",
+        "talentId": "AbathurVolatileMutation",
+        "buttonId": "AbathurVolatileMutationTalent",
+        "abilityId": "AbathurEvolveMonstrosity",
+        "icon": "storm_ui_icon_abathur_volatilemutation.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "AbathurEvolveMonstrosity|AbathurEvolveMonstrosityHotbar|Heroic",
+          "AbathurUltimateEvolution|AbathurUltimateEvolution|Heroic"
+        ]
+      },
+      {
+        "linkId": "AbathurCombatStyleSurvivalInstincts|AbathurLocustStrainSurvivalInstinctsTalent|Trait|Level16",
+        "talentId": "AbathurCombatStyleSurvivalInstincts",
+        "buttonId": "AbathurLocustStrainSurvivalInstinctsTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_abathur_spawnlocust.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          "AbathurSpawnLocusts|AbathurLocustStrain|Trait"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "AbathurUltimateEvolutionEvolutionaryLink|AbathurUltimateEvolutionEvolutionaryLinkTalent|Heroic|Level20",
+        "talentId": "AbathurUltimateEvolutionEvolutionaryLink",
+        "buttonId": "AbathurUltimateEvolutionEvolutionaryLinkTalent",
+        "abilityId": "AbathurUltimateEvolution",
+        "icon": "storm_ui_icon_abathur_ultimateevolution.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AbathurUltimateEvolution|AbathurUltimateEvolution|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "AbathurHeroicAbilityUltimateEvolution"
+        ]
+      },
+      {
+        "linkId": "AbathurMasteryEvolutionComplete|AbathurMonstrosityEvolutionCompleteTalent|Heroic|Level20",
+        "talentId": "AbathurMasteryEvolutionComplete",
+        "buttonId": "AbathurMonstrosityEvolutionCompleteTalent",
+        "abilityId": "AbathurEvolveMonstrosity",
+        "icon": "storm_ui_icon_abathur_evolvemonstrosity.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "AbathurEvolveMonstrosity|AbathurEvolveMonstrosityHotbar|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "AbathurHeroicAbilityEvolveMonstrosity"
+        ]
+      },
+      {
+        "linkId": "AbathurSymbioteHivemind|AbathurSymbioteHivemindTalent|Q|Level20",
+        "talentId": "AbathurSymbioteHivemind",
+        "buttonId": "AbathurSymbioteHivemindTalent",
+        "abilityId": "AbathurSymbiote",
+        "icon": "storm_ui_icon_abathur_symbiote.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "AbathurSymbiote|AbathurSymbiote|Q"
+        ]
+      },
+      {
+        "linkId": "AbathurMasteryLocustMaster|AbathurLocustMasterHotbar|Active|Level20",
+        "talentId": "AbathurMasteryLocustMaster",
+        "buttonId": "AbathurLocustMasterHotbar",
+        "abilityId": "AbathurLocustNest",
+        "icon": "storm_ui_icon_abathur_locustnest.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      }
+    ]
+  },
+  "heroUnits": {
+    "AbathurSymbiote": {
+      "radius": 1.5,
+      "innerRadius": 0,
+      "sight": 4,
+      "speed": 0.0117,
+      "attributes": [
+        "IgnoredByTowerAI",
+        "ImmuneToAOE",
+        "ImmuneToFriendlyAbilities",
+        "ImmuneToSkillshots",
+        "NoMinionAggro",
+        "Summoned"
+      ],
+      "life": {
+        "amount": 1,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": {
+        "minimap": "storm_ui_minimapicon_abathur_hat.png",
+        "targetInfo": "ui_targetportrait_hero_symbiote.png"
+      },
+      "abilities": {
+        "Basic": [
+          {
+            "linkId": "AbathurSymbioteStab|AbathurSymbioteStab|Q",
+            "abilityId": "AbathurSymbioteStab",
+            "buttonId": "AbathurSymbioteStab",
+            "icon": "storm_ui_icon_abathur_stab.png",
+            "charges": {
+              "countMax": 2,
+              "countStart": 2,
+              "countUse": 1,
+              "recastCooldown": 1,
+              "isCountHidden": false
+            },
+            "abilityType": "Q"
+          },
+          {
+            "linkId": "AbathurSymbioteSpikeBurst|AbathurSymbioteSpikeBurst|W",
+            "abilityId": "AbathurSymbioteSpikeBurst",
+            "buttonId": "AbathurSymbioteSpikeBurst",
+            "icon": "storm_ui_icon_abathur_spikeburst.png",
+            "abilityType": "W"
+          },
+          {
+            "linkId": "AbathurSymbioteCarapace|AbathurSymbioteCarapace|E",
+            "abilityId": "AbathurSymbioteCarapace",
+            "buttonId": "AbathurSymbioteCarapace",
+            "icon": "storm_ui_icon_abathur_carapace.png",
+            "abilityType": "E"
+          }
+        ],
+        "Heroic": [
+          {
+            "linkId": "AbathurAssumingDirectControlCancel|AbathurSymbioteCancel|Heroic",
+            "abilityId": "AbathurAssumingDirectControlCancel",
+            "buttonId": "AbathurSymbioteCancel",
+            "icon": "hud_btn_bg_ability_cancel.png",
+            "abilityType": "Heroic"
+          }
+        ],
+        "Mount": [
+          {
+            "linkId": "AbathurMonstrosityDeepTunnel|AbathurMonstrosityDeepTunnel|Z",
+            "abilityId": "AbathurMonstrosityDeepTunnel",
+            "buttonId": "AbathurMonstrosityDeepTunnel",
+            "icon": "storm_ui_icon_abathur_mount.png",
+            "abilityType": "Z"
+          }
+        ]
+      }
+    }
+  },
+  "sheet": "sheets/Abathur.webp",
+  "icons": {
+    "storm_ui_icon_abathur_symbiote.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_abathur_toxicnest.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_abathur_evolvemonstrosity.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_abathur_ultimateevolution.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_abathur_spawnlocust.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_abathur_mount.png": [
+      128,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      256,
+      128,
+      111,
+      71
+    ],
+    "storm_ui_icon_talent_mule.png": [
+      384,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_abathur_locustnest.png": [
+      0,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_abathur_spikeburst.png": [
+      128,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_abathur_carapace.png": [
+      256,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_abathur_stab.png": [
+      384,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_abathur_volatilemutation.png": [
+      0,
+      384,
+      128,
+      128
+    ],
+    "hud_btn_bg_ability_cancel.png": [
+      128,
+      384,
+      97,
+      111
+    ]
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "abilities": {
+    "FirebatFlameStream|FirebatFlameStream|Q": {
+      "cooldownText": "재사용 대기시간: 4초",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">마나: 30</s>",
+      "fullText": "두 갈래로 불길을 내보내 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">76</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 피해를 줍니다. 불길 두 갈래에 동시에 적중당한 구조물이 아닌 적에게는 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">120</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 추가 피해를 줍니다. 기름 뿌리기로 뿌려진 기름을 점화할 수 있습니다.",
+      "name": "화염 방사",
+      "shortText": "두 갈래의 불길 방사"
+    },
+    "FirebatOilSpill|FirebatOilSpill|W": {
+      "cooldownText": "충전 대기시간: 12초",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">마나: 50</s>",
+      "fullText": "<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">끌어서 사용</c><n/>끈적한 기름을 뿌립니다. 기름은 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>초 동안 지속되며 적을 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> 느려지게 합니다.<n/><n/>화염 방사로 기름을 점화하면 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c>초 동안 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.3</c>초마다 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">16</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 피해를 주지만 더는 적을 느려지게 하지 않습니다. 점화된 기름에 있는 동안 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.3</c>초마다 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">49</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 생명력을 회복합니다.<n/><n/>최대 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>회 충전할 수 있습니다.",
+      "name": "기름 뿌리기",
+      "shortText": "적을 느려지게 하는 기름 생성, 점화하여 피해를 주고 자신 치유 가능"
+    },
+    "FirebatJetPropulsion|FirebatJetPropulsion|E": {
+      "cooldownText": "재사용 대기시간: 10초",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">마나: 45</s>",
+      "fullText": "<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.375</c>초 후, 전방으로 질주하여 처음 적중한 적 영웅과 주위의 적 영웅들에게 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">52</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 피해를 주고 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.25</c>초 동안 기절시킵니다.",
+      "name": "제트 추진기",
+      "shortText": "전방으로 질주하여 적 영웅들에게 피해를 주고 기절시킴"
+    },
+    "FirebatBunkerDrop|FirebatBunkerDrop|Heroic": {
+      "cooldownText": "재사용 대기시간: 85초",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">마나: 80</s>",
+      "fullText": "<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c>초 후, 생명력이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1435</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>인 벙커를 호출하여 들어갑니다. 벙커에는 자신과 아군이 자유롭게 드나들 수 있습니다. 벙커 내부에 있는 동안 아군 영웅은 화염 방사기를 사용하여 일직선상의 적들에게 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 피해를 줄 수 있습니다.<n/><n/>벙커에서 나오면 방어력이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>초 동안 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c> 증가합니다. <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c>초 동안, 또는 파괴될 때까지 지속됩니다.",
+      "name": "벙커 투하",
+      "shortText": "벙커를 호출합니다."
+    },
+    "FirebatCombustion|FirebatCombustion|Heroic": {
+      "cooldownText": "재사용 대기시간: 80초",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">마나: 70</s>",
+      "fullText": "최대 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.6</c>초 동안 정신을 집중합니다. 정신 집중이 끝나면 주위 적들을 불태워 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60%</c> 느려지게 하고 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c>초마다 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">55</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 피해를 줍니다. 연소의 감속 및 지속 피해 효과의 지속 시간은 정신을 집중한 시간에 비례하여 최소 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>초에서 최대 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>초까지 증가합니다.<n/><n/>정신을 집중하는 동안 이동 속도가 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> 감소합니다.",
+      "name": "연소",
+      "shortText": "정신을 집중한 후 적에게 피해를 주고 느려지게 함"
+    },
+    "FirebatIgnite|FirebatIgnite|Trait": {
+      "cooldownText": "재사용 대기시간: 90초",
+      "fullText": "<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>초 동안 방어력이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40</c> 증가하고 주위 적들에게 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c>초마다 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 피해를 줍니다.<n/><n/>적 영웅에게 화염 방사가 적중할 때마다 방화광의 재사용 대기시간이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>초 감소합니다.",
+      "name": "방화광",
+      "shortText": "방어력 증가 및 주위 적들에게 피해를 줌"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "재사용 대기시간: 4초",
+      "fullText": "<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>초 동안 정신을 집중한 후, 이동 속도가 <s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s> 증가합니다.",
+      "name": "탈것 소환"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c>초 동안 정신을 집중한 후, 폭풍의 전당으로 귀환하여 즉시 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c>의 생명력과 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c>의 마나를 회복합니다.",
+      "name": "귀환석"
+    },
+    "FirebatCombustionCancel|FirebatCombustionCancel|Heroic": {
+      "fullText": "연소를 취소합니다.",
+      "name": "연소 취소",
+      "shortText": ""
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "탈것에서 내립니다.",
+      "name": "탈것 소환 해제"
+    },
+    "FirebatAdrenalineStimpack|FirebatAdrenalineStimpack|Active": {
+      "cooldownText": "재사용 대기시간: 30초",
+      "fullText": "<c val=\"00ff90\" hlt-name=\"#AbilityPassive\">지속 효과:</c> 생명력이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">80%</c> 이상일 때 공격 속도가 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c>, 이동 속도가 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c> 증가합니다.<n/><n/>사용하면 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>초 동안 공격 속도가 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">85%</c>, 이동 속도가 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> 증가합니다.",
+      "name": "아드레날린 전투 자극제",
+      "shortText": "사용 시 공격 및 이동 속도 증가"
+    },
+    "FirebatEnduranceStimpack|FirebatEnduranceStimpack|Active": {
+      "cooldownText": "재사용 대기시간: 30초",
+      "fullText": "사용하면 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>초 동안 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">590</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 피해를 흡수하는 보호막을 얻습니다.<n/><n/>생명력이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c> 미만인 상태에서 피해를 받았을 때 보호막 전투 자극제가 재사용 대기 중이 아니라면, 자동으로 보호막 전투 자극제를 사용합니다.",
+      "name": "보호막 전투 자극제",
+      "shortText": "사용 시 보호막 획득"
+    },
+    "FirebatNeuralStimpack|FirebatNeuralStimpack|Active": {
+      "cooldownText": "재사용 대기시간: 30초",
+      "fullText": "사용하면 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40</c>의 마나를 회복하고 일반 기술의 재사용 대기시간이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>초 동안 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> 더 빨리 감소합니다.",
+      "name": "신경계 전투 자극제",
+      "shortText": "사용 시 재사용 대기시간 감소량 증가"
+    },
+    "FirebatJuggernautPlating|FirebatActiveJuggernautPlating|Active": {
+      "cooldownText": "재사용 대기시간: 30초",
+      "fullText": "사용하면 기술 방어력이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>초 동안 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50</c> 증가합니다. 만료되면 철인 장갑이 활성화된 동안 받은 피해의 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">125%</c>에 해당하는 보호막을 얻습니다.",
+      "name": "철인 장갑",
+      "shortText": "기술 방어력 증가 및 받은 피해만큼 보호막 획득"
+    },
+    "FirebatBunkerDropFlamethrower|FirebatBunkerDropFlamethrower|Q": {
+      "cooldownText": "재사용 대기시간: 1초",
+      "fullText": "일직선상의 적들에게 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 피해를 줍니다.",
+      "name": "화염방사기",
+      "shortText": "일직선상의 적들에게 피해를 줍니다."
+    },
+    "FirebatBunkerDropFortifiedBunkerOilSpill|FirebatBunkerDropFortifiedBunkerOilSpill|W": {
+      "cooldownText": "재사용 대기시간: 6초",
+      "fullText": "<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">끌어서 사용</c><n/>기름을 뿌려 적들을 느려지게 합니다. 자신이 불을 붙일 수 있습니다.",
+      "name": "기름 뿌리기",
+      "shortText": ""
+    },
+    "FirebatBunkerDropExitBunker|FirebatBunkerDropExitBunker|Trait": {
+      "fullText": "벙커에서 나갑니다.",
+      "name": "벙커 나가기",
+      "shortText": ""
+    }
+  },
+  "talents": {
+    "FirebatAdrenalineStimpack|FirebatAdrenalineStimpack|Active|Level1": {
+      "cooldownText": "재사용 대기시간: 30초",
+      "fullText": "<c val=\"00ff90\" hlt-name=\"#AbilityPassive\">지속 효과:</c> 생명력이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">80%</c> 이상일 때 공격 속도가 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c>, 이동 속도가 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c> 증가합니다.<n/><n/>사용하면 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>초 동안 공격 속도가 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">85%</c>, 이동 속도가 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> 증가합니다.",
+      "name": "아드레날린 전투 자극제",
+      "shortText": "사용 시 공격 및 이동 속도 증가"
+    },
+    "FirebatEnduranceStimpack|FirebatEnduranceStimpack|Active|Level1": {
+      "cooldownText": "재사용 대기시간: 30초",
+      "fullText": "사용하면 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>초 동안 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">590</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 피해를 흡수하는 보호막을 얻습니다.<n/><n/>생명력이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c> 미만인 상태에서 피해를 받았을 때 보호막 전투 자극제가 재사용 대기 중이 아니라면, 자동으로 보호막 전투 자극제를 사용합니다.",
+      "name": "보호막 전투 자극제",
+      "shortText": "사용 시 보호막 획득"
+    },
+    "FirebatNeuralStimpack|FirebatNeuralStimpack|Active|Level1": {
+      "cooldownText": "재사용 대기시간: 30초",
+      "fullText": "사용하면 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40</c>의 마나를 회복하고 일반 기술의 재사용 대기시간이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>초 동안 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> 더 빨리 감소합니다.",
+      "name": "신경계 전투 자극제",
+      "shortText": "사용 시 재사용 대기시간 감소량 증가"
+    },
+    "FirebatNewHabits|FirebatNewHabits|Trait|Level1": {
+      "fullText": "재생의 구슬을 획득할 때마다 방화광의 재사용 대기시간이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c>초 감소합니다.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">퀘스트:</c> 재생의 구슬을 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c>개 획득해야 합니다.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">보상:</c> 방화광을 사용하면 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>초 동안 저지 불가 상태가 됩니다.",
+      "name": "새로운 습관",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">퀘스트:</c> 방화광 사용 시 저지 불가"
+    },
+    "FirebatOilSpillOilDispersal|FirebatOilSpillOilDispersal|W|Level4": {
+      "fullText": "기름 뿌리기의 범위가 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> 증가합니다. 화염 방사가 적중한 적 영웅 하나당 기름 뿌리기의 재사용 대기시간이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.75</c>초 감소하고 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>의 마나를 돌려받습니다.",
+      "name": "기름 분출",
+      "shortText": "기름 뿌리기 범위 증가"
+    },
+    "FirebatIgniteMeltdown|FirebatIgniteMeltdown|Trait|Level4": {
+      "fullText": "방화광이 적 영웅의 공격력을 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c>초 동안 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8%</c> 감소시켜 최대 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> 감소시킵니다.",
+      "name": "용해",
+      "shortText": "방화광이 적 영웅의 공격력을 감소시킴"
+    },
+    "FirebatWeaponIncineratorGauntlets|FirebatWeaponIncineratorGauntlets|Passive|Level4": {
+      "fullText": "일반 공격의 범위가 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c> 증가하고 돌격병, 용병, 괴물에게 일반 공격으로 주는 피해가 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> 증가합니다.",
+      "name": "화염증폭기",
+      "shortText": "일반 공격이 영웅이 아닌 대상에게 추가 피해"
+    },
+    "FirebatFlameStreamSuppressiveFire|FirebatFlameStreamSuppressiveFire|Q|Level7": {
+      "fullText": "화염 방사의 각 불길이 적 영웅의 기술 위력을 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>초 동안 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> 감소시켜 최대 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> 감소시킵니다.",
+      "name": "제압 방사",
+      "shortText": "화염 방사가 적 기술 위력을 감소시킴"
+    },
+    "FirebatOilSpillNanomachineCoating|FirebatOilSpillNanomachineCoating|W|Level7": {
+      "fullText": "기름 뿌리기와 점화된 기름이 적의 공격 속도를 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>초 동안 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35%</c> 감소시킵니다.",
+      "name": "나노기계 점막",
+      "shortText": "기름 뿌리기가 공격 속도를 감소시킴"
+    },
+    "FirebatJetPropulsionFuelLeak|FirebatJetPropulsionFuelLeak|E|Level7": {
+      "fullText": "제트 추진기가 경로에 기름을 남깁니다. 제트 추진기가 적 영웅에게 적중하면 대상 영웅 밑에도 기름을 남깁니다.",
+      "name": "연료 유출",
+      "shortText": "제트 추진기가 경로에 기름을 남김"
+    },
+    "FirebatHeroicAbilityBunkerDrop|FirebatBunkerDrop|Heroic|Level10": {
+      "cooldownText": "재사용 대기시간: 85초",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">마나: 80</s>",
+      "fullText": "<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c>초 후, 생명력이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1435</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>인 벙커를 호출하여 들어갑니다. 벙커에는 자신과 아군이 자유롭게 드나들 수 있습니다. 벙커 내부에 있는 동안 아군 영웅은 화염 방사기를 사용하여 일직선상의 적들에게 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 피해를 줄 수 있습니다.<n/><n/>벙커에서 나오면 방어력이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>초 동안 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c> 증가합니다. <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c>초 동안, 또는 파괴될 때까지 지속됩니다.",
+      "name": "벙커 투하",
+      "shortText": "벙커를 호출합니다."
+    },
+    "FirebatHeroicAbilityCombustion|FirebatCombustion|Heroic|Level10": {
+      "cooldownText": "재사용 대기시간: 80초",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">마나: 70</s>",
+      "fullText": "최대 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.6</c>초 동안 정신을 집중합니다. 정신 집중이 끝나면 주위 적들을 불태워 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60%</c> 느려지게 하고 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c>초마다 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">55</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 피해를 줍니다. 연소의 감속 및 지속 피해 효과의 지속 시간은 정신을 집중한 시간에 비례하여 최소 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>초에서 최대 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>초까지 증가합니다.<n/><n/>정신을 집중하는 동안 이동 속도가 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> 감소합니다.",
+      "name": "연소",
+      "shortText": "정신을 집중한 후 적에게 피해를 주고 느려지게 함"
+    },
+    "FirebatOilSpillGrillandKill|FirebatOilSpillGrillandKill|W|Level13": {
+      "fullText": "점화된 기름의 공격력이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">45%</c> 증가합니다.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">퀘스트:</c> 점화된 기름이 적 영웅에게 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30</c>회 적중해야 합니다.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">보상:</c> 점화된 기름의 지속 시간이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c>초 증가합니다.",
+      "name": "노릇노릇하게",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">퀘스트</c>: 점화된 기름 지속 시간 및 공격력 증가"
+    },
+    "FirebatOilSpillAdhesivePetroleum|FirebatOilSpillAdhesivePetroleum|W|Level13": {
+      "fullText": "점화된 기름이 적을 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>초 동안 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> 느려지게 하고 지속 시간 동안 일반 공격이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35%</c>의 추가 피해를 줍니다. 또한, 일반 공격으로 기름을 점화할 수 있습니다.",
+      "name": "접착성 석유",
+      "shortText": "점화된 기름도 적을 느려지게 함"
+    },
+    "FirebatJetPropulsionCollisionCourse|FirebatJetPropulsionCollisionCourse|E|Level13": {
+      "fullText": "제트 추진기의 충돌이 처음 적중하는 적에게 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">260</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 피해를 줍니다.",
+      "name": "추진 전개",
+      "shortText": "제트 추진기의 충돌이 피해를 줌"
+    },
+    "FirebatJetPropulsionThermalProtection|FirebatJetPropulsionThermalProtection|E|Level16": {
+      "fullText": "제트 추진기가 적중한 적 영웅 하나당 방어력이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>초 동안 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> 증가하고 재사용 대기시간이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.25</c>초 감소합니다.",
+      "name": "열보호",
+      "shortText": "제트 추진기 적중 시 방어력 증가 및 재사용 대기시간 감소"
+    },
+    "FirebatIgniteHeatTreatment|FirebatIgniteHeatTreatment|Trait|Level16": {
+      "fullText": "방화광으로 준 피해의 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75%</c>만큼 생명력을 회복합니다.",
+      "name": "열기 치료",
+      "shortText": "방화광으로 생명력 회복"
+    },
+    "FirebatActiveJuggernautPlating|FirebatActiveJuggernautPlating|Active|Level16": {
+      "cooldownText": "재사용 대기시간: 30초",
+      "fullText": "사용하면 기술 방어력이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>초 동안 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50</c> 증가합니다. 만료되면 철인 장갑이 활성화된 동안 받은 피해의 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">125%</c>에 해당하는 보호막을 얻습니다.",
+      "name": "철인 장갑",
+      "shortText": "기술 방어력 증가 및 받은 피해만큼 보호막 획득"
+    },
+    "FirebatBunkerDropFortifiedBunker|FirebatBunkerDropFortifiedBunker|Heroic|Level20": {
+      "fullText": "벙커 내부에 있는 아군 영웅이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c>초마다 기름 뿌리기를 사용할 수 있습니다. 추가로, 벙커에서 나올 때의 방어력 증가 효과가 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c> 증가하고 지속 시간이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>초 증가합니다.",
+      "name": "강화 벙커",
+      "shortText": "벙커 내의 아군이 기름 뿌리기 사용 가능"
+    },
+    "FirebatCombustionFlashFire|FirebatCombustionFlashFire|Heroic|Level20": {
+      "fullText": "연소로 정신을 집중하는 동안 이동 속도가 감소하지 않고, 주위 적들이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60%</c> 느려집니다.",
+      "name": "불벼락",
+      "shortText": "연소 이동 속도 감소 효과 제거 및 적을 느려지게 함"
+    },
+    "FirebatWeaponBurnNotice|FirebatWeaponBurnNotice|Passive|Level20": {
+      "fullText": "일반 공격을 할 때마다 적을 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5%</c> 느려지게 하고 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c>초에 걸쳐 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">18</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 피해를 줍니다. 최대 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>회 중첩됩니다.",
+      "name": "불사르기",
+      "shortText": "일반 공격 시 적을 느려지게 하고 지속 피해를 줌"
+    }
+  },
+  "units": {
+    "FirebatBunkerDropBunkerUnit": {
+      "name": "벙커"
+    }
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "abilities": {
+    "TracerBlink|TracerBlink|Q": {
+      "cooldownText": "補充時間：9秒",
+      "fullText": "衝向目標區域。<n/><n/>可累積<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>次使用次數。",
+      "name": "閃現",
+      "shortText": "衝向目標區域"
+    },
+    "TracerMelee|TracerMelee|W": {
+      "cooldownText": "冷卻時間：8秒",
+      "fullText": "對附近一名敵人造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">220</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>點傷害，會優先以英雄為目標。對敵人使用近戰攻擊可使脈衝炸彈的蓄力值提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5%</c>，對英雄使用近戰攻擊可提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c>。",
+      "name": "近戰攻擊",
+      "shortText": "攻擊附近的一名敵人"
+    },
+    "TracerRecall|TracerRecall|E": {
+      "cooldownText": "冷卻時間：20秒",
+      "fullText": "<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.25</c>秒後，使閃光回到施展技能前<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>秒的位置，同時會裝填所有彈藥並且移除所有負面狀態。",
+      "name": "回溯",
+      "shortText": "回到先前的位置，並且移除負面狀態效果"
+    },
+    "TracerPulseBomb|TracerPulseBomb|Heroic": {
+      "fullText": "發射一顆短程炸彈，擊中時會附著在敵人身上。炸彈會在<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>秒後爆炸，對主要目標造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">298</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.06~~</c>點傷害，並且對附近敵人造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">149</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.06~~</c>點傷害。<n/><n/>使用基本攻擊跟近戰攻擊對敵人造成傷害可替此技能蓄力。",
+      "name": "脈衝炸彈",
+      "shortText": "在敵人身上黏一顆炸彈，造成大量傷害"
+    },
+    "TracerReload|TracerReload|Trait": {
+      "cooldownText": "冷卻時間：1秒",
+      "fullText": "閃光可以邊移動邊進行基本攻擊。攻擊<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c>次後，彈藥會在<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.75</c>秒內重新裝填。可提早使用重新裝填來裝填彈藥。<n/><n/>基本攻擊可為閃光恢復相當於傷害值<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c>的生命值。",
+      "name": "重新裝填",
+      "shortText": "閃光可以邊移動邊進行基本攻擊，基本攻擊會消耗彈藥"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "冷卻時間：4秒",
+      "fullText": "引導<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>秒後，提高<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s>移動速度。",
+      "name": "召喚坐騎"
+    },
+    "Hearthstone|HearthstoneNoMana|B": {
+      "fullText": "引導<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c>秒後會傳送回風暴祭壇，立刻恢復<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c>點生命值。",
+      "name": "爐石"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "離開坐騎。",
+      "name": "離開坐騎"
+    },
+    "TracerLockedandLoadedFailReload|TracerLockedandLoadedAbility|Trait": {
+      "cooldownText": "冷卻時間：1秒",
+      "fullText": "在重新裝填的引導時間少於<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>時再次使用重新裝填，可使該彈匣的基本攻擊傷害提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c>。",
+      "name": "蓄勢待發",
+      "shortText": "掌握重新裝填的完美時機可提高基本攻擊傷害"
+    },
+    "TracerLockedandLoaded|TracerLockedandLoadedAbility|Trait": {
+      "cooldownText": "冷卻時間：1秒",
+      "fullText": "在重新裝填的引導時間少於<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>時再次使用重新裝填，可使該彈匣的基本攻擊傷害提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c>。",
+      "name": "蓄勢待發",
+      "shortText": "掌握重新裝填的完美時機可提高基本攻擊傷害"
+    }
+  },
+  "talents": {
+    "TracerOneTwoPunch|TracerOneTwoPunch|W|Level1": {
+      "fullText": "近戰攻擊的冷卻時間降低<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>秒，並且額外獲得一次使用次數。",
+      "name": "雙重攻擊",
+      "shortText": "提高近戰攻擊的使用次數，降低冷卻時間"
+    },
+    "TracerPartingGift|TracerPartingGift|E|Level1": {
+      "fullText": "回溯會扔下<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c>顆炸彈，每顆炸彈會各自對不同目標造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">240</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>點傷害。炸彈擊中英雄時會使其緩速<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>，持續<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.75</c>秒。炸彈每擊中一名英雄可使脈衝炸彈的蓄力值提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">7%</c>。",
+      "name": "臨別贈禮",
+      "shortText": "使用回溯可扔下炸彈"
+    },
+    "TracerTracerRounds|TracerTracerRounds|Trait|Level1": {
+      "fullText": "基本攻擊距離提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c>。對英雄施展基本攻擊可使其周圍的小範圍現形<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>秒。",
+      "name": "曳光彈",
+      "shortText": "基本攻擊距離提高，可使敵人現形"
+    },
+    "TracerLeechingRounds|TracerLeechingRounds|Trait|Level4": {
+      "fullText": "依照閃光所失去的生命值，使基本攻擊的治療量最多提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">200%</c>。",
+      "name": "吸血彈",
+      "shortText": "提高基本攻擊的治療效果"
+    },
+    "TracerPulseGenerator|TracerPulseGenerator|Heroic|Level4": {
+      "fullText": "成功將脈衝炸彈附著於敵方英雄身上，可使閃光在<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c>秒內恢復最大生命值的<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">12%</c>，以及一次閃現使用次數。",
+      "name": "脈衝充能",
+      "shortText": "脈衝炸彈可治療閃光，恢復閃現的使用次數"
+    },
+    "TracerIsThataHealthPack|TracerIsthataHealthPack|Passive|Level4": {
+      "fullText": "拾取恢復之球可立即為閃光恢復<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c>最大生命值，並使治療活泉的冷卻時間降低<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c>秒。<n/><n/>飲用治療活泉可立即為閃光恢復<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c>最大生命值。",
+      "name": "發現治療包！",
+      "shortText": "強化治療活泉和恢復之球"
+    },
+    "TracerSleightofHand|TracerSleightofHand|Trait|Level7": {
+      "fullText": "重新裝填所需時間降低<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>（等同於每秒傷害提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c>）。",
+      "name": "妙手裝填",
+      "shortText": "重新裝填的速度加倍"
+    },
+    "TracerFocusFire|TracerFocusFire|Trait|Level7": {
+      "fullText": "若在<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>秒內對一名敵人射出整個彈匣的彈藥，最後一發子彈會額外造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">80</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>點傷害（等同於整個彈匣<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35%</c>的傷害值）。",
+      "name": "火力集中",
+      "shortText": "對一名敵人射出單一彈匣中的所有子彈可造成額外傷害"
+    },
+    "TracerLockedandLoaded|TracerLockedandLoaded|Trait|Level7": {
+      "fullText": "在重新裝填的引導時間少於<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>時再次使用重新裝填，可使該彈匣的基本攻擊傷害提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c>。",
+      "name": "蓄勢待發",
+      "shortText": "掌握重新裝填的完美時機可提高基本攻擊傷害"
+    },
+    "TracerStickyBomb|TracerStickyBomb|Heroic|Level10": {
+      "fullText": "脈衝炸彈的範圍提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>，被擊中的敵人會緩速<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">70%</c>，持續<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>秒。",
+      "name": "黏性炸彈",
+      "shortText": "提高脈衝炸彈的範圍，並且可使敵人緩速"
+    },
+    "TracerQuantumSpike|TracerQuantumSpike|Heroic|Level10": {
+      "fullText": "脈衝炸彈會對英雄額外造成相當於最大生命值<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6%</c>的傷害。",
+      "name": "量子集聚",
+      "shortText": "脈衝炸彈會造成百分比傷害"
+    },
+    "TracerPulseRounds|TracerPulseRounds|Heroic|Level10": {
+      "fullText": "提高脈衝炸彈的距離，並且對英雄進行基本攻擊所獲得的蓄力值提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c>。",
+      "name": "脈衝能量彈",
+      "shortText": "提高脈衝炸彈的距離和蓄力值"
+    },
+    "TracerUntouchable|TracerUntouchable|Q|Level13": {
+      "fullText": "<c val=\"00ff90\" hlt-name=\"#AbilityPassive\">被動：</c>閃現後獲得<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c>移動速度，持續<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.25</c>秒。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">任務：</c>參與擊殺英雄會使閃光的基本攻擊傷害提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5%</c>，最多提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>。死亡時失去所有加成。",
+      "name": "火力全開",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">任務：</c>參與擊殺英雄可提高攻擊傷害"
+    },
+    "TracerJumper|TracerJumper|Q|Level13": {
+      "fullText": "<c val=\"00ff90\" hlt-name=\"#AbilityPassive\">被動：</c>閃現的使用次數耗盡時，其冷卻速度會加快<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c>。<n/><n/>施放閃現可使閃光獲得相當於最大生命值<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6%</c>的護盾，持續<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>秒。此護盾最多可堆疊<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>次。",
+      "name": "時空旅人",
+      "shortText": "閃現會賦予護盾，降低冷卻時間"
+    },
+    "TracerTelefrag|TracerTelefrag|E|Level13": {
+      "fullText": "<c val=\"00ff90\" hlt-name=\"#AbilityPassive\">被動：</c>對敵方英雄施展基本攻擊可使回溯的冷卻時間降低<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.1875</c>秒。<n/><n/>閃光回溯到原位後無法擊殺，持續<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>秒，並且會擊退附近敵人，使其受到<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">175</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>點傷害。",
+      "name": "瞬殺",
+      "shortText": "回溯到原位後會造成傷害和擊退敵人"
+    },
+    "TracerBulletSprayMelee|TracerBulletSprayMelee|W|Level16": {
+      "fullText": "近戰攻擊的範圍提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c>，並且可對範圍內所有敵人造成傷害。",
+      "name": "近距掃射",
+      "shortText": "近戰攻擊可對範圍內所有敵人造成傷害"
+    },
+    "TracerHeavyHanded|TracerHeavyHanded|W|Level16": {
+      "fullText": "以近戰攻擊命中英雄可使其護甲降低<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c>點，持續<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>秒。",
+      "name": "強力痛擊",
+      "shortText": "近戰攻擊可降低護甲"
+    },
+    "TracerRicochetHeroWeapon|TracerRicochetHeroWeapon|Trait|Level16": {
+      "fullText": "閃光的基本攻擊有 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60%</c>的機率擊中附近的另一名敵人。此攻擊會優先以英雄為目標。",
+      "name": "跳彈",
+      "shortText": "基本攻擊可彈跳至附近一名敵人身上"
+    },
+    "TracerChronoTriggers|TracerChronoTriggers|Q|Level20": {
+      "fullText": "施展閃現可使基本攻擊不消耗彈藥，持續<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>秒。",
+      "name": "時光扳機",
+      "shortText": "閃現可強化彈藥"
+    },
+    "TracerGetStuffedMelee|TracerGetStuffedMelee|W|Level20": {
+      "fullText": "近戰攻擊對英雄使用時，獲得的脈衝炸彈蓄力值從<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c>提高至<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c>。對附著脈衝炸彈的敵人使用近戰攻擊時，會使炸彈立即爆炸並且擊退目標。",
+      "name": "走開啦",
+      "shortText": "強化近戰攻擊"
+    },
+    "TracerTotalRecallRecall|TracerTotalRecallRecall|E|Level20": {
+      "fullText": "回溯可將閃光的生命值恢復至原時間點的生命值。",
+      "name": "全面回溯",
+      "shortText": "回溯可恢復生命值"
+    },
+    "TracerCompositionBPulseBomb|TracerCompositionBPulseBomb|Heroic|Level20": {
+      "fullText": "成功將脈衝炸彈附著於敵方英雄身上時，同時會在該目標腳邊扔出另一顆可造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>傷害的炸彈，並且爆炸時間會略早於原炸彈。",
+      "name": "買一送一",
+      "shortText": "脈衝炸彈擊中英雄時會再扔出另一顆"
+    }
+  },
+  "units": {}
+}

@@ -1,0 +1,679 @@
+{
+  "id": "Jaina",
+  "unitId": "HeroJaina",
+  "hyperlinkId": "Jaina",
+  "attributeId": "Jain",
+  "franchise": "Warcraft",
+  "rarity": "Epic",
+  "releaseDate": "2014-12-02",
+  "isMelee": false,
+  "gender": "Female",
+  "radius": 0.625,
+  "innerRadius": 0.625,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 4,
+    "damage": 10,
+    "survivability": 2,
+    "utility": 4
+  },
+  "life": {
+    "amount": 1365,
+    "scale": 0.04,
+    "regenRate": 2.8437,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "EnergyImportant",
+    "RoleCaster",
+    "TowerPusher",
+    "WaveClearer"
+  ],
+  "summonedUnitIds": [
+    "JainaWaterElemental"
+  ],
+  "weapons": [
+    {
+      "nameId": "HeroJaina",
+      "isDisabled": false,
+      "range": 5.5,
+      "minimumRange": 0,
+      "period": 1,
+      "damage": 60,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "JainaClaus",
+    "JainaDreadlord",
+    "JainaModern",
+    "JainaTempest",
+    "JainaUltimate",
+    "LunarJaina"
+  ],
+  "variationSkinIds": [
+    "JainaBaseVar3",
+    "JainaBlue",
+    "JainaGreen"
+  ],
+  "voiceLineIds": [
+    "JainaBase_VoiceLine01",
+    "JainaBase_VoiceLine02",
+    "JainaBase_VoiceLine03",
+    "JainaBase_VoiceLine04",
+    "JainaBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "JainaFrostbolt|JainaFrostbolt|Q",
+        "abilityId": "JainaFrostbolt",
+        "buttonId": "JainaFrostbolt",
+        "icon": "storm_ui_icon_jaina_frostbolt.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "JainaBlizzard|JainaBlizzard|W",
+        "abilityId": "JainaBlizzard",
+        "buttonId": "JainaBlizzard",
+        "icon": "storm_ui_icon_jaina_blizzard.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "JainaConeOfCold|JainaConeOfCold|E",
+        "abilityId": "JainaConeOfCold",
+        "buttonId": "JainaConeOfCold",
+        "icon": "storm_ui_icon_jaina_coneofcold.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "JainaSummonWaterElemental|JainaSummonWaterElemental|Heroic",
+        "abilityId": "JainaSummonWaterElemental",
+        "buttonId": "JainaSummonWaterElemental",
+        "icon": "storm_ui_icon_jaina_summonwaterelemental.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "JainaRingOfFrost|JainaRingOfFrost|Heroic",
+        "abilityId": "JainaRingOfFrost",
+        "buttonId": "JainaRingOfFrost",
+        "icon": "storm_ui_icon_jaina_ringoffrost.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": ":PASSIVE:|JainaTraitFrostbite|Trait",
+        "abilityId": ":PASSIVE:",
+        "buttonId": "JainaTraitFrostbite",
+        "icon": "storm_ui_icon_jaina_frostbite.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Activable": [
+      {
+        "linkId": "JainaIceBlockActivate|JainaImprovedIceBlockHotbar|Active",
+        "abilityId": "JainaIceBlockActivate",
+        "buttonId": "JainaImprovedIceBlockHotbar",
+        "icon": "storm_ui_icon_talent_iceblock.png",
+        "abilityType": "Active"
+      },
+      {
+        "linkId": "JainaIceBlockActivate|JainaIceColdHotbar|Active",
+        "abilityId": "JainaIceBlockActivate",
+        "buttonId": "JainaIceColdHotbar",
+        "icon": "storm_ui_icon_talent_iceblock.png",
+        "abilityType": "Active"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "JainaSummonWaterElemental|JainaSummonWaterElemental|Heroic": {
+      "Heroic": [
+        {
+          "linkId": "JainaCommandWaterElemental|JainaCommandWaterElemental|Heroic",
+          "abilityId": "JainaCommandWaterElemental",
+          "buttonId": "JainaCommandWaterElemental",
+          "icon": "storm_ui_icon_jaina_commandwaterelemental.png",
+          "abilityType": "Heroic"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "JainaIceBlockActivate|JainaIceColdHotbar|Active": {
+      "Activable": [
+        {
+          "linkId": "JainaIceBlockCancel|JainaIceColdCancel|Active",
+          "abilityId": "JainaIceBlockCancel",
+          "buttonId": "JainaIceColdCancel",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "JainaIceBlockActivate|JainaImprovedIceBlockHotbar|Active": {
+      "Activable": [
+        {
+          "linkId": "JainaIceBlockCancel|JainaImprovedIceBlockCancel|Active",
+          "abilityId": "JainaIceBlockCancel",
+          "buttonId": "JainaImprovedIceBlockCancel",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "JainaIcyVeins|JainaIcyVeinsHotbar|Active|Level13": {
+      "Activable": [
+        {
+          "linkId": "IcyVeins|JainaIcyVeinsHotbar|Active",
+          "abilityId": "IcyVeins",
+          "buttonId": "JainaIcyVeinsHotbar",
+          "icon": "storm_ui_icon_jaina_icyveins.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "JainaFrigidTransmission|JainaFrigidTransmission|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "JainaFrigidTransmission|JainaFrigidTransmission|Active",
+          "abilityId": "JainaFrigidTransmission",
+          "buttonId": "JainaFrigidTransmission",
+          "icon": "storm_ui_icon_talent_boltofthestorm.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "JainaFrostboltWintersReach|JainaFrostboltWintersReachTalent|Q|Level1",
+        "talentId": "JainaFrostboltWintersReach",
+        "buttonId": "JainaFrostboltWintersReachTalent",
+        "abilityId": "JainaFrostbolt",
+        "icon": "storm_ui_icon_jaina_frostbolt.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "JainaFrostbolt|JainaFrostbolt|Q"
+        ]
+      },
+      {
+        "linkId": "JainaFrostbiteLingeringChill|JainaFrostbiteLingeringChillTalent|Trait|Level1",
+        "talentId": "JainaFrostbiteLingeringChill",
+        "buttonId": "JainaFrostbiteLingeringChillTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_jaina_frostbite.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|JainaTraitFrostbite|Trait"
+        ]
+      },
+      {
+        "linkId": "JainaFingersOfFrost|JainaFingersOfFrost|Passive|Level1",
+        "talentId": "JainaFingersOfFrost",
+        "buttonId": "JainaFingersOfFrost",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_conjurerspursuit.png",
+        "abilityType": "Passive",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|JainaTraitFrostbite|Trait"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "JainaFrostboltFrostShards|JainaFrostboltFrostShardsTalent|Q|Level4",
+        "talentId": "JainaFrostboltFrostShards",
+        "buttonId": "JainaFrostboltFrostShardsTalent",
+        "abilityId": "JainaFrostbolt",
+        "icon": "storm_ui_icon_jaina_frostbolt.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "JainaFrostbolt|JainaFrostbolt|Q"
+        ]
+      },
+      {
+        "linkId": "JainaFrostbiteArcaneIntellect|JainaFrostbiteArcaneIntellectTalent|Trait|Level4",
+        "talentId": "JainaFrostbiteArcaneIntellect",
+        "buttonId": "JainaFrostbiteArcaneIntellectTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_jaina_arcaneintellect.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|JainaTraitFrostbite|Trait"
+        ]
+      },
+      {
+        "linkId": "JainaFrostbiteFrostArmor|JainaFrostbiteFrostArmorTalent|Passive|Level4",
+        "talentId": "JainaFrostbiteFrostArmor",
+        "buttonId": "JainaFrostbiteFrostArmorTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_jaina_frostarmor.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "JainaFrostboltIceLance|JainaFrostboltIceLanceTalent|Q|Level7",
+        "talentId": "JainaFrostboltIceLance",
+        "buttonId": "JainaFrostboltIceLanceTalent",
+        "abilityId": "JainaFrostbolt",
+        "icon": "storm_ui_icon_jaina_frostbolt.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "JainaFrostbolt|JainaFrostbolt|Q"
+        ]
+      },
+      {
+        "linkId": "JainaConeOfColdIceFloes|JainaConeOfColdIceFloesTalent|E|Level7",
+        "talentId": "JainaConeOfColdIceFloes",
+        "buttonId": "JainaConeOfColdIceFloesTalent",
+        "abilityId": "JainaConeOfCold",
+        "icon": "storm_ui_icon_jaina_coneofcold.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "JainaConeOfCold|JainaConeOfCold|E"
+        ]
+      },
+      {
+        "linkId": "JainaIcefuryWand|JainaIcefuryWand|Passive|Level7",
+        "talentId": "JainaIcefuryWand",
+        "buttonId": "JainaIcefuryWand",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_cooldown.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "JainaBlizzard|JainaBlizzard|W"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "JainaHeroicRingOfFrost|JainaRingOfFrost|Heroic|Level10",
+        "talentId": "JainaHeroicRingOfFrost",
+        "buttonId": "JainaRingOfFrost",
+        "abilityId": "JainaRingOfFrost",
+        "icon": "storm_ui_icon_jaina_ringoffrost.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "JainaHeroicSummonWaterElemental|JainaSummonWaterElemental|Heroic|Level10",
+        "talentId": "JainaHeroicSummonWaterElemental",
+        "buttonId": "JainaSummonWaterElemental",
+        "abilityId": "JainaSummonWaterElemental",
+        "icon": "storm_ui_icon_jaina_summonwaterelemental.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "JainaBlizzardStormFront|JainaBlizzardStormFrontTalent|W|Level13",
+        "talentId": "JainaBlizzardStormFront",
+        "buttonId": "JainaBlizzardStormFrontTalent",
+        "abilityId": "JainaBlizzard",
+        "icon": "storm_ui_icon_jaina_blizzard.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "JainaBlizzard|JainaBlizzard|W"
+        ]
+      },
+      {
+        "linkId": "JainaFrostbiteIceBarrier|JainaFrostbiteIceBarrierTalent|Trait|Level13",
+        "talentId": "JainaFrostbiteIceBarrier",
+        "buttonId": "JainaFrostbiteIceBarrierTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_jaina_frostbite.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|JainaTraitFrostbite|Trait"
+        ]
+      },
+      {
+        "linkId": "JainaIcyVeins|JainaIcyVeinsHotbar|Active|Level13",
+        "talentId": "JainaIcyVeins",
+        "buttonId": "JainaIcyVeinsHotbar",
+        "abilityId": "IcyVeins",
+        "icon": "storm_ui_icon_jaina_icyveins.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "JainaBlizzardSnowstorm|JainaBlizzardSnowstormTalent|W|Level16",
+        "talentId": "JainaBlizzardSnowstorm",
+        "buttonId": "JainaBlizzardSnowstormTalent",
+        "abilityId": "JainaBlizzard",
+        "icon": "storm_ui_icon_jaina_blizzard.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "JainaBlizzard|JainaBlizzard|W"
+        ]
+      },
+      {
+        "linkId": "JainaConeOfColdNorthernExposure|JainaConeOfColdNorthernExposureTalent|E|Level16",
+        "talentId": "JainaConeOfColdNorthernExposure",
+        "buttonId": "JainaConeOfColdNorthernExposureTalent",
+        "abilityId": "JainaConeOfCold",
+        "icon": "storm_ui_icon_jaina_coneofcold.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "JainaConeOfCold|JainaConeOfCold|E"
+        ]
+      },
+      {
+        "linkId": "JainaConeOfColdNumbingBlast|JainaConeOfColdNumbingBlastTalent|E|Level16",
+        "talentId": "JainaConeOfColdNumbingBlast",
+        "buttonId": "JainaConeOfColdNumbingBlastTalent",
+        "abilityId": "JainaConeOfCold",
+        "icon": "storm_ui_icon_jaina_coneofcold_var1.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "JainaConeOfCold|JainaConeOfCold|E"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "JainaRingOfFrostColdSnap|JainaRingOfFrostColdSnapTalent|Heroic|Level20",
+        "talentId": "JainaRingOfFrostColdSnap",
+        "buttonId": "JainaRingOfFrostColdSnapTalent",
+        "abilityId": "JainaRingOfFrost",
+        "icon": "storm_ui_icon_jaina_ringoffrost.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "JainaRingOfFrost|JainaRingOfFrost|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "JainaHeroicRingOfFrost"
+        ]
+      },
+      {
+        "linkId": "JainaSummonWaterElementalWintermute|JainaSummonWaterElementalWintermuteTalent|Heroic|Level20",
+        "talentId": "JainaSummonWaterElementalWintermute",
+        "buttonId": "JainaSummonWaterElementalWintermuteTalent",
+        "abilityId": "JainaSummonWaterElemental",
+        "icon": "storm_ui_icon_jaina_summonwaterelemental.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "JainaSummonWaterElemental|JainaSummonWaterElemental|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "JainaHeroicSummonWaterElemental"
+        ]
+      },
+      {
+        "linkId": "JainaFrigidTransmission|JainaFrigidTransmission|Active|Level20",
+        "talentId": "JainaFrigidTransmission",
+        "buttonId": "JainaFrigidTransmission",
+        "abilityId": "JainaFrigidTransmission",
+        "icon": "storm_ui_icon_talent_boltofthestorm.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      },
+      {
+        "linkId": "JainaFrostbiteDeepChill|JainaFrostbiteDeepChillTalent|Trait|Level20",
+        "talentId": "JainaFrostbiteDeepChill",
+        "buttonId": "JainaFrostbiteDeepChillTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_jaina_frostbite.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|JainaTraitFrostbite|Trait"
+        ]
+      }
+    ]
+  },
+  "sheet": "sheets/Jaina.webp",
+  "icons": {
+    "storm_ui_icon_jaina_frostbolt.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_jaina_blizzard.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_jaina_coneofcold.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_jaina_summonwaterelemental.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_jaina_ringoffrost.png": [
+      512,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_jaina_frostbite.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_mount.png": [
+      128,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_talent_iceblock.png": [
+      256,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      384,
+      128,
+      111,
+      71
+    ],
+    "storm_ui_icon_jaina_commandwaterelemental.png": [
+      512,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_cancel_mount.png": [
+      0,
+      256,
+      76,
+      48
+    ],
+    "hud_btn_bg_ability_cancel.png": [
+      128,
+      256,
+      97,
+      111
+    ],
+    "storm_ui_icon_jaina_icyveins.png": [
+      256,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_boltofthestorm.png": [
+      384,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_conjurerspursuit.png": [
+      512,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_jaina_arcaneintellect.png": [
+      0,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_jaina_frostarmor.png": [
+      128,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_autoattack_cooldown.png": [
+      256,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_jaina_coneofcold_var1.png": [
+      384,
+      384,
+      128,
+      128
+    ]
+  }
+}

@@ -1,0 +1,716 @@
+{
+  "id": "Rexxar",
+  "unitId": "HeroRexxar",
+  "hyperlinkId": "Rexxar",
+  "attributeId": "Rexx",
+  "franchise": "Warcraft",
+  "rarity": "Epic",
+  "releaseDate": "2015-09-08",
+  "isMelee": false,
+  "gender": "Male",
+  "radius": 0.875,
+  "innerRadius": 0.875,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "BattleBeast",
+  "ratings": {
+    "complexity": 6,
+    "damage": 5,
+    "survivability": 7,
+    "utility": 8
+  },
+  "life": {
+    "amount": 1810,
+    "scale": 0.04,
+    "regenRate": 3.7695,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "EnergyImportant",
+    "MercKiller",
+    "RoleSpecialist",
+    "SoloLaner",
+    "WaveClearer"
+  ],
+  "summonedUnitIds": [
+    "RexxarUnleashTheBoarsUnit"
+  ],
+  "weapons": [
+    {
+      "nameId": "RexxarMeleeWeapon",
+      "isDisabled": false,
+      "range": 1.5,
+      "minimumRange": 0,
+      "period": 1.15,
+      "damage": 134,
+      "damageScale": 0.04
+    },
+    {
+      "nameId": "RexxarRangedWeapon",
+      "isDisabled": false,
+      "range": 5.5,
+      "minimumRange": 1.5,
+      "period": 1.15,
+      "damage": 134,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "RexxarMarine",
+    "RexxarSkinFrost",
+    "RexxarSkinMaster"
+  ],
+  "variationSkinIds": [
+    "RexxarBaseBrown",
+    "RexxarBaseWhite"
+  ],
+  "voiceLineIds": [
+    "RexxarBase_VoiceLine01",
+    "RexxarBase_VoiceLine02",
+    "RexxarBase_VoiceLine03",
+    "RexxarBase_VoiceLine04",
+    "RexxarBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "RexxarSpiritSwoop|RexxarSpiritSwoop|Q",
+        "abilityId": "RexxarSpiritSwoop",
+        "buttonId": "RexxarSpiritSwoop",
+        "icon": "storm_ui_icon_rexxar_spiritswoop.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "RexxarMishaChargeRedirect|RexxarMishaChargeRedirect|W",
+        "abilityId": "RexxarMishaChargeRedirect",
+        "buttonId": "RexxarMishaChargeRedirect",
+        "icon": "storm_ui_icon_rexxar_mishacharge.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "RexxarMendPet|RexxarMendPet|E",
+        "abilityId": "RexxarMendPet",
+        "buttonId": "RexxarMendPet",
+        "icon": "storm_ui_icon_rexxar_mendpet.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "RexxarUnleashTheBoars|RexxarUnleashTheBoars|Heroic",
+        "abilityId": "RexxarUnleashTheBoars",
+        "buttonId": "RexxarUnleashTheBoars",
+        "icon": "storm_ui_icon_rexxar_unleashtheboars.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "RexxarBestialWrath|RexxarBestialWrath|Heroic",
+        "abilityId": "RexxarBestialWrath",
+        "buttonId": "RexxarBestialWrath",
+        "icon": "storm_ui_icon_rexxar_bestialwrath.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": "RexxarMishaFocus|RexxarMishaFocus|Trait",
+        "abilityId": "RexxarMishaFocus",
+        "buttonId": "RexxarMishaFocus",
+        "icon": "storm_ui_icon_rexxar_mishafixate.png",
+        "toggleCooldown": 0.125,
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "RexxarFeignDeath|RexxarFeignDeath|Active": {
+      "Activable": [
+        {
+          "linkId": "RexxarFeignDeath|RexxarFeignDeathCancel|Active",
+          "abilityId": "RexxarFeignDeath",
+          "buttonId": "RexxarFeignDeathCancel",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "RexxarFlare|RexxarFlare|Active|Level1": {
+      "Activable": [
+        {
+          "linkId": "RexxarFlare|RexxarFlare|Active",
+          "abilityId": "RexxarFlare",
+          "buttonId": "RexxarFlare",
+          "icon": "storm_ui_icon_rexxar_flare.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "RexxarFeignDeath|RexxarFeignDeath|Active|Level16": {
+      "Activable": [
+        {
+          "linkId": "RexxarFeignDeath|RexxarFeignDeath|Active",
+          "abilityId": "RexxarFeignDeath",
+          "buttonId": "RexxarFeignDeath",
+          "icon": "storm_ui_icon_rexxar_feigndeath.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "RexxarSpiritBondPrimalIntimidation|RexxarSpiritBondPrimalIntimidationTalent|Active|Level16": {
+      "Activable": [
+        {
+          "linkId": "RexxarPrimalIntimidation|RexxarSpiritBondPrimalIntimidationTalent|Active",
+          "abilityId": "RexxarPrimalIntimidation",
+          "buttonId": "RexxarSpiritBondPrimalIntimidationTalent",
+          "icon": "storm_ui_icon_talent_imposingpresence.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "RexxarHardenedSkin|RexxarHardenedSkin|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "RexxarHardenedSkin|RexxarHardenedSkin|Active",
+          "abilityId": "RexxarHardenedSkin",
+          "buttonId": "RexxarHardenedSkin",
+          "icon": "storm_ui_icon_talent_hardenedshield.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "RexxarSpiritSwoopBirdOfPrey|RexxarSpiritSwoopBirdOfPreyTalent|Q|Level1",
+        "talentId": "RexxarSpiritSwoopBirdOfPrey",
+        "buttonId": "RexxarSpiritSwoopBirdOfPreyTalent",
+        "abilityId": "RexxarSpiritSwoop",
+        "icon": "storm_ui_icon_rexxar_spiritswoop.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "RexxarSpiritSwoop|RexxarSpiritSwoop|Q"
+        ]
+      },
+      {
+        "linkId": "RexxarSpiritBondEasyPrey|RexxarSpiritBondEasyPreyTalent|Passive|Level1",
+        "talentId": "RexxarSpiritBondEasyPrey",
+        "buttonId": "RexxarSpiritBondEasyPreyTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_rexxar_heremishaactive.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2
+      },
+      {
+        "linkId": "RexxarFlare|RexxarFlare|Active|Level1",
+        "talentId": "RexxarFlare",
+        "buttonId": "RexxarFlare",
+        "abilityId": "RexxarFlare",
+        "icon": "storm_ui_icon_rexxar_flare.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "RexxarHungryBear|RexxarHungryBearTalent|Passive|Level4",
+        "talentId": "RexxarHungryBear",
+        "buttonId": "RexxarHungryBearTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_rexxar_heremishaactive.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 1
+      },
+      {
+        "linkId": "RexxarHunterGatherer|RexxarHunterGathererTalent|Passive|Level4",
+        "talentId": "RexxarHunterGatherer",
+        "buttonId": "RexxarHunterGathererTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_regenerationmaster.png",
+        "abilityType": "Passive",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2
+      },
+      {
+        "linkId": "RexxarSpiritBondGrizzledFortitude|RexxarSpiritBondGrizzledFortitudeTalent|Passive|Level4",
+        "talentId": "RexxarSpiritBondGrizzledFortitude",
+        "buttonId": "RexxarSpiritBondGrizzledFortitudeTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_block.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      },
+      {
+        "linkId": "RexxarAnimalHusbandry|RexxarAnimalHusbandry|Passive|Level4",
+        "talentId": "RexxarAnimalHusbandry",
+        "buttonId": "RexxarAnimalHusbandry",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_rexxar_stayinalive.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "RexxarSpiritSwoopCripplingTalons|RexxarCripplingTalonsTalent|Q|Level7",
+        "talentId": "RexxarSpiritSwoopCripplingTalons",
+        "buttonId": "RexxarCripplingTalonsTalent",
+        "abilityId": "RexxarSpiritSwoop",
+        "icon": "storm_ui_icon_rexxar_spiritswoop.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "RexxarSpiritSwoop|RexxarSpiritSwoop|Q"
+        ]
+      },
+      {
+        "linkId": "RexxarTakingFlightSpiritSwoop|RexxarTakingFlightTalent|Q|Level7",
+        "talentId": "RexxarTakingFlightSpiritSwoop",
+        "buttonId": "RexxarTakingFlightTalent",
+        "abilityId": "RexxarSpiritSwoop",
+        "icon": "storm_ui_icon_rexxar_spiritswoop_var1.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "RexxarSpiritSwoop|RexxarSpiritSwoop|Q"
+        ]
+      },
+      {
+        "linkId": "RexxarAspectoftheBeastCharge|RexxarAspectoftheBeastTalent|W|Level7",
+        "talentId": "RexxarAspectoftheBeastCharge",
+        "buttonId": "RexxarAspectoftheBeastTalent",
+        "abilityId": "RexxarMishaChargeRedirect",
+        "icon": "storm_ui_icon_rexxar_mishacharge.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "RexxarMishaCharge|RexxarMishaChargeRedirect|W",
+          "RexxarMishaChargeRedirect|RexxarMishaChargeRedirect|W"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "RexxarHeroicAbilityBestialWrath|RexxarBestialWrath|Heroic|Level10",
+        "talentId": "RexxarHeroicAbilityBestialWrath",
+        "buttonId": "RexxarBestialWrath",
+        "abilityId": "RexxarBestialWrath",
+        "icon": "storm_ui_icon_rexxar_bestialwrath.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "RexxarHeroicAbilityUnleashTheBoars|RexxarUnleashTheBoars|Heroic|Level10",
+        "talentId": "RexxarHeroicAbilityUnleashTheBoars",
+        "buttonId": "RexxarUnleashTheBoars",
+        "abilityId": "RexxarUnleashTheBoars",
+        "icon": "storm_ui_icon_rexxar_unleashtheboars.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "RexxarAspectOfTheHawkSpiritSwoop|RexxarAspectOfTheHawkTalent|Q|Level13",
+        "talentId": "RexxarAspectOfTheHawkSpiritSwoop",
+        "buttonId": "RexxarAspectOfTheHawkTalent",
+        "abilityId": "RexxarSpiritSwoop",
+        "icon": "storm_ui_icon_rexxar_spiritswoop.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "RexxarSpiritSwoop|RexxarSpiritSwoop|Q"
+        ]
+      },
+      {
+        "linkId": "RexxarDireBeast|RexxarDireBeast|W|Level13",
+        "talentId": "RexxarDireBeast",
+        "buttonId": "RexxarDireBeast",
+        "abilityId": "RexxarMishaChargeRedirect",
+        "icon": "storm_ui_icon_rexxar_mishacharge.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "RexxarMishaCharge|RexxarMishaChargeRedirect|W",
+          "RexxarMishaChargeRedirect|RexxarMishaChargeRedirect|W"
+        ]
+      },
+      {
+        "linkId": "RexxarSpiritBondWildfireBear|RexxarSpiritBondWildfireBearTalent|Passive|Level13",
+        "talentId": "RexxarSpiritBondWildfireBear",
+        "buttonId": "RexxarSpiritBondWildfireBearTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_burningrage.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "RexxarThrilloftheHunt|RexxarThrilloftheHuntTalent|Passive|Level16",
+        "talentId": "RexxarThrilloftheHunt",
+        "buttonId": "RexxarThrilloftheHuntTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_rexxar_heremishaactive.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 1
+      },
+      {
+        "linkId": "RexxarSpiritBondPrimalIntimidation|RexxarSpiritBondPrimalIntimidationTalent|Active|Level16",
+        "talentId": "RexxarSpiritBondPrimalIntimidation",
+        "buttonId": "RexxarSpiritBondPrimalIntimidationTalent",
+        "abilityId": "RexxarPrimalIntimidation",
+        "icon": "storm_ui_icon_talent_imposingpresence.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2
+      },
+      {
+        "linkId": "RexxarFeignDeath|RexxarFeignDeath|Active|Level16",
+        "talentId": "RexxarFeignDeath",
+        "buttonId": "RexxarFeignDeath",
+        "abilityId": "RexxarFeignDeath",
+        "icon": "storm_ui_icon_rexxar_feigndeath.png",
+        "toggleCooldown": 0.5,
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "RexxarSpiritBond|RexxarSpiritBondTalent|Heroic|Level20",
+        "talentId": "RexxarSpiritBond",
+        "buttonId": "RexxarSpiritBondTalent",
+        "abilityId": "RexxarBestialWrath",
+        "icon": "storm_ui_icon_rexxar_bestialwrath.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "RexxarBestialWrath|RexxarBestialWrath|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "RexxarHeroicAbilityBestialWrath"
+        ]
+      },
+      {
+        "linkId": "RexxarUnleashTheBoarsKillCommand|RexxarUnleashTheBoarsKillCommandTalent|Heroic|Level20",
+        "talentId": "RexxarUnleashTheBoarsKillCommand",
+        "buttonId": "RexxarUnleashTheBoarsKillCommandTalent",
+        "abilityId": "RexxarUnleashTheBoars",
+        "icon": "storm_ui_icon_rexxar_unleashtheboars.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "RexxarUnleashTheBoars|RexxarUnleashTheBoars|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "RexxarHeroicAbilityUnleashTheBoars"
+        ]
+      },
+      {
+        "linkId": "RexxarFrenzyofKalimdor|RexxarFrenzyofKalimdorTalent|Passive|Level20",
+        "talentId": "RexxarFrenzyofKalimdor",
+        "buttonId": "RexxarFrenzyofKalimdorTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_slow.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      },
+      {
+        "linkId": "RexxarHardenedSkin|RexxarHardenedSkin|Active|Level20",
+        "talentId": "RexxarHardenedSkin",
+        "buttonId": "RexxarHardenedSkin",
+        "abilityId": "RexxarHardenedSkin",
+        "icon": "storm_ui_icon_talent_hardenedshield.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      }
+    ]
+  },
+  "heroUnits": {
+    "RexxarMisha": {
+      "radius": 0.9375,
+      "innerRadius": 0.9375,
+      "sight": 7,
+      "speed": 4.8398,
+      "attributes": [
+        "Heroic"
+      ],
+      "life": {
+        "amount": 1520,
+        "scale": 0.0475,
+        "regenRate": 3.1718,
+        "regenScale": 0.0475
+      },
+      "portraits": {
+        "minimap": "storm_ui_minimapicon_misha.png",
+        "targetInfo": "storm_ui_ingame_targetinfopanel_unit_hero_misha.png"
+      },
+      "weapons": [
+        {
+          "nameId": "MishaWeapon",
+          "isDisabled": false,
+          "range": 1.5,
+          "minimumRange": 0,
+          "period": 1.2,
+          "damage": 50,
+          "damageScale": 0.04
+        }
+      ],
+      "abilities": {
+        "Basic": [
+          {
+            "linkId": "RexxarMishaCharge|RexxarMishaChargeRedirect|W",
+            "abilityId": "RexxarMishaCharge",
+            "buttonId": "RexxarMishaChargeRedirect",
+            "icon": "storm_ui_icon_rexxar_mishacharge.png",
+            "toggleCooldown": 0.5,
+            "abilityType": "W"
+          }
+        ]
+      }
+    }
+  },
+  "sheet": "sheets/Rexxar.webp",
+  "icons": {
+    "storm_ui_icon_rexxar_spiritswoop.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_rexxar_mishacharge.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_rexxar_mendpet.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_rexxar_unleashtheboars.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_rexxar_bestialwrath.png": [
+      512,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_rexxar_mishafixate.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_mount.png": [
+      128,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      256,
+      128,
+      111,
+      71
+    ],
+    "storm_ui_icon_generic_cancel_mount.png": [
+      384,
+      128,
+      76,
+      48
+    ],
+    "hud_btn_bg_ability_cancel.png": [
+      512,
+      128,
+      97,
+      111
+    ],
+    "storm_ui_icon_rexxar_flare.png": [
+      0,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_rexxar_feigndeath.png": [
+      128,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_imposingpresence.png": [
+      256,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_hardenedshield.png": [
+      384,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_rexxar_heremishaactive.png": [
+      512,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_regenerationmaster.png": [
+      0,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_block.png": [
+      128,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_rexxar_stayinalive.png": [
+      256,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_rexxar_spiritswoop_var1.png": [
+      384,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_burningrage.png": [
+      512,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_autoattack_slow.png": [
+      0,
+      512,
+      128,
+      128
+    ]
+  }
+}

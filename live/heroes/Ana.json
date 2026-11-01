@@ -1,0 +1,678 @@
+{
+  "id": "Ana",
+  "unitId": "HeroAna",
+  "hyperlinkId": "Ana",
+  "attributeId": "HANA",
+  "franchise": "Overwatch",
+  "rarity": "Legendary",
+  "releaseDate": "2017-09-26",
+  "isMelee": false,
+  "gender": "Female",
+  "radius": 0.5625,
+  "innerRadius": 0.5625,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 6,
+    "damage": 3,
+    "survivability": 3,
+    "utility": 7
+  },
+  "life": {
+    "amount": 1598,
+    "scale": 0.04,
+    "regenRate": 3.3281,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "AllyHealer",
+    "ChanneledAutoAttacker",
+    "EnergyImportant",
+    "Helper",
+    "Roamer",
+    "RoleSupport"
+  ],
+  "weapons": [
+    {
+      "nameId": "AnaHeroWeapon",
+      "isDisabled": false,
+      "range": 6.5,
+      "minimumRange": 0,
+      "period": 0.75,
+      "damage": 30,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "AnaArmy18",
+    "AnaShrike"
+  ],
+  "variationSkinIds": [
+    "AnaBaseVar1",
+    "AnaBaseVar2",
+    "AnaBaseVar3",
+    "AnaBaseVar4",
+    "AnaBaseVar5"
+  ],
+  "voiceLineIds": [
+    "AnaBase_VoiceLine01",
+    "AnaBase_VoiceLine02",
+    "AnaBase_VoiceLine03",
+    "AnaBase_VoiceLine04",
+    "AnaBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "AnaHealingDart|AnaHealingDart|Q",
+        "abilityId": "AnaHealingDart",
+        "buttonId": "AnaHealingDart",
+        "icon": "storm_ui_icon_ana_healing_dart.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "AnaBioticGrenade|AnaBioticGrenade|W",
+        "abilityId": "AnaBioticGrenade",
+        "buttonId": "AnaBioticGrenade",
+        "icon": "storm_ui_icon_ana_biotic_grenade.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "AnaSleepDart|AnaSleepDart|E",
+        "abilityId": "AnaSleepDart",
+        "buttonId": "AnaSleepDart",
+        "icon": "storm_ui_icon_ana_sleep_dart.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "AnaNanoBoost|AnaNanoBoost|Heroic",
+        "abilityId": "AnaNanoBoost",
+        "buttonId": "AnaNanoBoost",
+        "icon": "storm_ui_icon_ana_nano_bost.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "AnaEyeOfHorusActivate|AnaEyeOfHorusActivate|Heroic",
+        "abilityId": "AnaEyeOfHorusActivate",
+        "buttonId": "AnaEyeOfHorusActivate",
+        "icon": "storm_ui_icon_ana_overwatch.png",
+        "charges": {
+          "countMax": 6,
+          "countStart": 6,
+          "countUse": 0,
+          "isCountHidden": true
+        },
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": "AnaAimDownSightsActivate|AnaAimDownSightsActivate|Trait",
+        "abilityId": "AnaAimDownSightsActivate",
+        "buttonId": "AnaAimDownSightsActivate",
+        "icon": "storm_ui_icon_ana_aim_down_sights.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "AnaEyeOfHorusActivate|AnaEyeOfHorusActivate|Heroic": {
+      "Basic": [
+        {
+          "linkId": "AnaEyeOfHorusAttackDummy|AnaEyeOfHorusHighPoweredRound|Q",
+          "abilityId": "AnaEyeOfHorusAttackDummy",
+          "buttonId": "AnaEyeOfHorusHighPoweredRound",
+          "icon": "storm_ui_icon_ana_overwatch.png",
+          "charges": {
+            "countMax": 6,
+            "countStart": 6,
+            "countUse": 1,
+            "recastCooldown": 1,
+            "isCountHidden": false
+          },
+          "abilityType": "Q"
+        },
+        {
+          "linkId": "AnaEyeOfHorusCancel|AnaEyeOfHorusCancel|W",
+          "abilityId": "AnaEyeOfHorusCancel",
+          "buttonId": "AnaEyeOfHorusCancel",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "abilityType": "W"
+        },
+        {
+          "linkId": "AnaEyeOfHorusCancel|AnaEyeOfHorusCancel|E",
+          "abilityId": "AnaEyeOfHorusCancel",
+          "buttonId": "AnaEyeOfHorusCancel",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "abilityType": "E"
+        }
+      ],
+      "Heroic": [
+        {
+          "linkId": "AnaEyeOfHorusAttackDummy|AnaEyeOfHorusHighPoweredRound|Heroic",
+          "abilityId": "AnaEyeOfHorusAttackDummy",
+          "buttonId": "AnaEyeOfHorusHighPoweredRound",
+          "icon": "storm_ui_icon_ana_overwatch.png",
+          "charges": {
+            "countMax": 6,
+            "countStart": 6,
+            "countUse": 1,
+            "recastCooldown": 1,
+            "isCountHidden": false
+          },
+          "abilityType": "Heroic"
+        }
+      ]
+    },
+    "AnaAimDownSightsActivate|AnaAimDownSightsActivate|Trait": {
+      "Trait": [
+        {
+          "linkId": "AnaAimDownSightsDeactivate|AnaAimDownSightsDeactivate|Trait",
+          "abilityId": "AnaAimDownSightsDeactivate",
+          "buttonId": "AnaAimDownSightsDeactivate",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "abilityType": "Trait"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "AnaDebilitatingDart|AnaDebilitatingDart|Active|Level4": {
+      "Activable": [
+        {
+          "linkId": "AnaDebilitatingDart|AnaDebilitatingDart|Active",
+          "abilityId": "AnaDebilitatingDart",
+          "buttonId": "AnaDebilitatingDart",
+          "icon": "storm_ui_icon_ana_debilitatingdart.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "AnaDetachableBoxMagazine|AnaDetachableBoxMagazineActive|Active|Level16": {
+      "Activable": [
+        {
+          "linkId": "AnaDetachableBoxMagazine|AnaDetachableBoxMagazineActive|Active",
+          "abilityId": "AnaDetachableBoxMagazine",
+          "buttonId": "AnaDetachableBoxMagazineActive",
+          "icon": "storm_ui_icon_ana_healing_dart_b.png",
+          "toggleCooldown": 0.0625,
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "AnaBioticGrenadeContactHealing|AnaBioticGrenadeContactHealing|W|Level1",
+        "talentId": "AnaBioticGrenadeContactHealing",
+        "buttonId": "AnaBioticGrenadeContactHealing",
+        "abilityId": "AnaBioticGrenade",
+        "icon": "storm_ui_icon_ana_biotic_grenade.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AnaBioticGrenade|AnaBioticGrenade|W"
+        ]
+      },
+      {
+        "linkId": "AnaSleepingDartSlumberShells|AnaSleepingDartSlumberShells|E|Level1",
+        "talentId": "AnaSleepingDartSlumberShells",
+        "buttonId": "AnaSleepingDartSlumberShells",
+        "abilityId": "AnaSleepDart",
+        "icon": "storm_ui_icon_ana_sleep_dart.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "AnaSleepDart|AnaSleepDart|E"
+        ]
+      },
+      {
+        "linkId": "AnaShrikeVampiricRounds|AnaShrikeVampiricRounds|Trait|Level1",
+        "talentId": "AnaShrikeVampiricRounds",
+        "buttonId": "AnaShrikeVampiricRounds",
+        "abilityId": "AnaShrike",
+        "icon": "storm_ui_icon_ana_shrike.png",
+        "abilityType": "Trait",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "AnaAimDownSightsActivate|AnaAimDownSightsActivate|Trait",
+          "AnaAimDownSightsDeactivate|AnaAimDownSightsDeactivate|Trait"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "AnaBioticGrenadeBioticEnhancements|AnaBioticGrenadeBioticEnhancements|W|Level4",
+        "talentId": "AnaBioticGrenadeBioticEnhancements",
+        "buttonId": "AnaBioticGrenadeBioticEnhancements",
+        "abilityId": "AnaBioticGrenade",
+        "icon": "storm_ui_icon_ana_biotic_grenade.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AnaBioticGrenade|AnaBioticGrenade|W"
+        ]
+      },
+      {
+        "linkId": "AnaOverdose|AnaOverdose|E|Level4",
+        "talentId": "AnaOverdose",
+        "buttonId": "AnaOverdose",
+        "abilityId": "AnaSleepDart",
+        "icon": "storm_ui_icon_ana_sleep_dart.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "AnaSleepDart|AnaSleepDart|E"
+        ]
+      },
+      {
+        "linkId": "AnaDebilitatingDart|AnaDebilitatingDart|Active|Level4",
+        "talentId": "AnaDebilitatingDart",
+        "buttonId": "AnaDebilitatingDart",
+        "abilityId": "AnaDebilitatingDart",
+        "icon": "storm_ui_icon_ana_debilitatingdart.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "AnaBioticGrenadeAntiHealer|AnaBioticGrenadeAntiHealer|W|Level7",
+        "talentId": "AnaBioticGrenadeAntiHealer",
+        "buttonId": "AnaBioticGrenadeAntiHealer",
+        "abilityId": "AnaBioticGrenade",
+        "icon": "storm_ui_icon_ana_biotic_grenade.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AnaBioticGrenade|AnaBioticGrenade|W"
+        ]
+      },
+      {
+        "linkId": "AnaSleepDartNightTerrors|AnaSleepDartNightTerrors|E|Level7",
+        "talentId": "AnaSleepDartNightTerrors",
+        "buttonId": "AnaSleepDartNightTerrors",
+        "abilityId": "AnaSleepDart",
+        "icon": "storm_ui_icon_ana_sleep_dart.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "AnaSleepDart|AnaSleepDart|E"
+        ]
+      },
+      {
+        "linkId": "AnaMindNumbingAgent|AnaMindNumbingAgent|Trait|Level7",
+        "talentId": "AnaMindNumbingAgent",
+        "buttonId": "AnaMindNumbingAgent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_ana_shrike.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "AnaAimDownSightsActivate|AnaAimDownSightsActivate|Trait",
+          "AnaAimDownSightsDeactivate|AnaAimDownSightsDeactivate|Trait"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "AnaHeroicAbilityNanaBoost|AnaNanoBoost|Heroic|Level10",
+        "talentId": "AnaHeroicAbilityNanaBoost",
+        "buttonId": "AnaNanoBoost",
+        "abilityId": "AnaNanoBoost",
+        "icon": "storm_ui_icon_ana_nano_bost.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "AnaHeroicAbilityEyeOfHorus|AnaEyeOfHorusActivate|Heroic|Level10",
+        "talentId": "AnaHeroicAbilityEyeOfHorus",
+        "buttonId": "AnaEyeOfHorusActivate",
+        "abilityId": "AnaEyeOfHorusActivate",
+        "icon": "storm_ui_icon_ana_overwatch.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "AnaHealingDartSpeedSerum|AnaHealingDartSpeedSerum|Q|Level13",
+        "talentId": "AnaHealingDartSpeedSerum",
+        "buttonId": "AnaHealingDartSpeedSerum",
+        "abilityId": "AnaHealingDart",
+        "icon": "storm_ui_icon_ana_healing_dart.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AnaHealingDart|AnaHealingDart|Q"
+        ]
+      },
+      {
+        "linkId": "AnaHealingDartPurifyingDarts|AnaHealingDartPurifyingDarts|Q|Level13",
+        "talentId": "AnaHealingDartPurifyingDarts",
+        "buttonId": "AnaHealingDartPurifyingDarts",
+        "abilityId": "AnaHealingDart",
+        "icon": "storm_ui_icon_ana_healing_dart_a.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "AnaHealingDart|AnaHealingDart|Q"
+        ]
+      },
+      {
+        "linkId": "AnaHealingDartSmellingSalts|AnaHealingDartSmellingSalts|Q|Level13",
+        "talentId": "AnaHealingDartSmellingSalts",
+        "buttonId": "AnaHealingDartSmellingSalts",
+        "abilityId": "AnaHealingDart",
+        "icon": "storm_ui_icon_ana_healing_dart_b.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "AnaHealingDart|AnaHealingDart|Q"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "AnaHealingDartSharpshooter|AnaHealingDartSharpshooter|Q|Level16",
+        "talentId": "AnaHealingDartSharpshooter",
+        "buttonId": "AnaHealingDartSharpshooter",
+        "abilityId": "AnaHealingDart",
+        "icon": "storm_ui_icon_ana_healing_dart.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AnaHealingDart|AnaHealingDart|Q"
+        ]
+      },
+      {
+        "linkId": "AnaHealingDartConcentratedDoses|AnaHealingDartConcentratedDoses|Q|Level16",
+        "talentId": "AnaHealingDartConcentratedDoses",
+        "buttonId": "AnaHealingDartConcentratedDoses",
+        "abilityId": "AnaHealingDart",
+        "icon": "storm_ui_icon_ana_healing_dart_a.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "AnaHealingDart|AnaHealingDart|Q"
+        ]
+      },
+      {
+        "linkId": "AnaDetachableBoxMagazine|AnaDetachableBoxMagazineActive|Active|Level16",
+        "talentId": "AnaDetachableBoxMagazine",
+        "buttonId": "AnaDetachableBoxMagazineActive",
+        "abilityId": "AnaDetachableBoxMagazine",
+        "icon": "storm_ui_icon_ana_healing_dart_b.png",
+        "toggleCooldown": 0.0625,
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "AnaHealingDart|AnaHealingDart|Q"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "AnaNanoInfusion|AnaNanoInfusion|Heroic|Level20",
+        "talentId": "AnaNanoInfusion",
+        "buttonId": "AnaNanoInfusion",
+        "abilityId": "AnaNanoBoost",
+        "icon": "storm_ui_icon_ana_nano_bost.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AnaNanoBoost|AnaNanoBoost|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "AnaHeroicAbilityNanaBoost"
+        ]
+      },
+      {
+        "linkId": "AnaEyeOfHorusDeadeye|AnaEyeOfHorusDeadeye|Heroic|Level20",
+        "talentId": "AnaEyeOfHorusDeadeye",
+        "buttonId": "AnaEyeOfHorusDeadeye",
+        "abilityId": "AnaEyeOfHorusActivate",
+        "icon": "storm_ui_icon_ana_overwatch.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "AnaEyeOfHorusActivate|AnaEyeOfHorusActivate|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "AnaHeroicAbilityEyeOfHorus"
+        ]
+      },
+      {
+        "linkId": "AnaShrikeArmoredStance|AnaShrikeArmoredStance|Trait|Level20",
+        "talentId": "AnaShrikeArmoredStance",
+        "buttonId": "AnaShrikeArmoredStance",
+        "abilityId": "AnaAimDownSightsActivate",
+        "icon": "storm_ui_icon_ana_aim_down_sights.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "AnaAimDownSightsActivate|AnaAimDownSightsActivate|Trait",
+          "AnaAimDownSightsDeactivate|AnaAimDownSightsDeactivate|Trait"
+        ]
+      },
+      {
+        "linkId": "AnaDynamicOptics|AnaDynamicOptics|Trait|Level20",
+        "talentId": "AnaDynamicOptics",
+        "buttonId": "AnaDynamicOptics",
+        "abilityId": "AnaAimDownSightsActivate",
+        "icon": "storm_ui_icon_ana_aim_down_sights_a.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          "AnaAimDownSightsActivate|AnaAimDownSightsActivate|Trait",
+          "AnaAimDownSightsDeactivate|AnaAimDownSightsDeactivate|Trait"
+        ]
+      }
+    ]
+  },
+  "sheet": "sheets/Ana.webp",
+  "icons": {
+    "storm_ui_icon_ana_healing_dart.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_ana_biotic_grenade.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_ana_sleep_dart.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_ana_nano_bost.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_ana_overwatch.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_ana_aim_down_sights.png": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_mount.png": [
+      256,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      384,
+      128,
+      111,
+      71
+    ],
+    "hud_btn_bg_ability_cancel.png": [
+      0,
+      256,
+      97,
+      111
+    ],
+    "storm_ui_icon_generic_cancel_mount.png": [
+      128,
+      256,
+      76,
+      48
+    ],
+    "storm_ui_icon_ana_debilitatingdart.png": [
+      256,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_ana_healing_dart_b.png": [
+      384,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_ana_shrike.png": [
+      0,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_ana_healing_dart_a.png": [
+      128,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_ana_aim_down_sights_a.png": [
+      256,
+      384,
+      128,
+      128
+    ]
+  }
+}

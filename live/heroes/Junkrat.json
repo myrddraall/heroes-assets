@@ -1,0 +1,729 @@
+{
+  "id": "Junkrat",
+  "unitId": "HeroJunkrat",
+  "hyperlinkId": "Junkrat",
+  "attributeId": "Junk",
+  "franchise": "Overwatch",
+  "rarity": "Legendary",
+  "releaseDate": "2017-10-17",
+  "isMelee": false,
+  "gender": "Male",
+  "radius": 0.6875,
+  "innerRadius": 0.6875,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 6,
+    "damage": 7,
+    "survivability": 5,
+    "utility": 8
+  },
+  "life": {
+    "amount": 1425,
+    "scale": 0.04,
+    "regenRate": 2.9687,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 4,
+    "regenRate": 0
+  },
+  "playstyles": [
+    "RoleSpecialist",
+    "TowerPusher",
+    "WaveClearer"
+  ],
+  "summonedUnitIds": [
+    "JunkratConcussionMine",
+    "JunkratRIPTire",
+    "JunkratRocketRideTrackerUnit",
+    "JunkratSteelTrap"
+  ],
+  "weapons": [
+    {
+      "nameId": "JunkratHeroWeaponRanged",
+      "isDisabled": false,
+      "range": 5.5,
+      "minimumRange": 0,
+      "period": 1,
+      "damage": 120,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "JunkratFallen",
+    "JunkratMobster19",
+    "JunkratWCAV"
+  ],
+  "variationSkinIds": [
+    "JunkratBaseVar1",
+    "JunkratBaseVar2",
+    "JunkratBaseVar3",
+    "JunkratBaseVar4"
+  ],
+  "voiceLineIds": [
+    "JunkratBase_VoiceLine01",
+    "JunkratBase_VoiceLine02",
+    "JunkratBase_VoiceLine03",
+    "JunkratBase_VoiceLine04",
+    "JunkratBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "JunkratFragLauncher|JunkratFragLauncher|Q",
+        "abilityId": "JunkratFragLauncher",
+        "buttonId": "JunkratFragLauncher",
+        "icon": "storm_ui_icon_junkrat_frag_launcher.png",
+        "charges": {
+          "countMax": 4,
+          "countStart": 4,
+          "countUse": 1,
+          "recastCooldown": 0.5,
+          "isCountHidden": false
+        },
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "JunkratConcussionMine|JunkratConcussionMine|W",
+        "abilityId": "JunkratConcussionMine",
+        "buttonId": "JunkratConcussionMine",
+        "icon": "storm_ui_icon_junkrat_concussion_mine.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "JunkratSteelTrap|JunkratSteelTrap|E",
+        "abilityId": "JunkratSteelTrap",
+        "buttonId": "JunkratSteelTrap",
+        "icon": "storm_ui_icon_junkrat_steel_trap.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "JunkratRIPTire|JunkratRIPTire|Heroic",
+        "abilityId": "JunkratRIPTire",
+        "buttonId": "JunkratRIPTire",
+        "icon": "storm_ui_icon_junkrat_rip_tire.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "JunkratRocketRide|JunkratRocketRide|Heroic",
+        "abilityId": "JunkratRocketRide",
+        "buttonId": "JunkratRocketRide",
+        "icon": "storm_ui_icon_junkrat_rocket_ride.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": ":PASSIVE:|JunkratTotalMayhem|Trait",
+        "abilityId": ":PASSIVE:",
+        "buttonId": "JunkratTotalMayhem",
+        "icon": "storm_ui_icon_junkrat_bomb_pack.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "JunkratConcussionMine|JunkratConcussionMine|W": {
+      "Trait": [
+        {
+          "linkId": "JunkratDetonateMine|JunkratDetonateMine|Trait",
+          "abilityId": "JunkratDetonateMine",
+          "buttonId": "JunkratDetonateMine",
+          "icon": "storm_ui_icon_junkrat_mayhem.png",
+          "toggleCooldown": 0.0625,
+          "abilityType": "Trait"
+        }
+      ]
+    },
+    "JunkratRIPTire|JunkratRIPTire|Heroic": {
+      "Basic": [
+        {
+          "linkId": "JunkratRIPTireJump|JunkratRIPTireJump|Q",
+          "abilityId": "JunkratRIPTireJump",
+          "buttonId": "JunkratRIPTireJump",
+          "icon": "storm_ui_icon_junkrat_rip_tire_jump.png",
+          "abilityType": "Q"
+        }
+      ],
+      "Heroic": [
+        {
+          "linkId": "JunkratDetonateRIPTire|JunkratDetonateRIPTire|Heroic",
+          "abilityId": "JunkratDetonateRIPTire",
+          "buttonId": "JunkratDetonateRIPTire",
+          "icon": "storm_ui_icon_junkrat_mayhem.png",
+          "abilityType": "Heroic"
+        }
+      ]
+    },
+    "JunkratIHateWaitingSummonMount|JunkratRocketRideSummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "JunkratRocketRideDismount|JunkratRocketRideUnsummonMount|Z",
+          "abilityId": "JunkratRocketRideDismount",
+          "buttonId": "JunkratRocketRideUnsummonMount",
+          "icon": "storm_ui_icon_junkrat_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "JunkratTotalMayhemDirtyTricksterTalent|JunkratDirtyTrickster|Trait|Level7": {
+      "Activable": [
+        {
+          "linkId": "JunkratTotalMayhemDirtyTrickster|JunkratDirtyTrickster|Trait",
+          "abilityId": "JunkratTotalMayhemDirtyTrickster",
+          "buttonId": "JunkratDirtyTrickster",
+          "icon": "storm_ui_icon_junkrat_bomb_pack.png",
+          "abilityType": "Trait"
+        }
+      ]
+    },
+    "JunkratFragLauncherSpreadVolley|JunkratSpreadVolleyFragLauncherTalent|Active|Level16": {
+      "Activable": [
+        {
+          "linkId": "JunkratSpreadVolley|JunkratSpreadVolleyActive|Active",
+          "abilityId": "JunkratSpreadVolley",
+          "buttonId": "JunkratSpreadVolleyActive",
+          "icon": "storm_ui_icon_junkrat_frag_launcher_d.png",
+          "toggleCooldown": 0.125,
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "JunkratIHateWaitingTalent|JunkratIHateWaiting|Z|Level20": {
+      "Mount": [
+        {
+          "linkId": "JunkratIHateWaitingSummonMount|JunkratRocketRideSummonMount|Z",
+          "abilityId": "JunkratIHateWaitingSummonMount",
+          "buttonId": "JunkratRocketRideSummonMount",
+          "icon": "storm_ui_icon_junkrat_mount.png",
+          "abilityType": "Z"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "JunkratFragLauncherTrickyShuffles|JunkratTrickyShufflesFragLauncherTalent|Q|Level1",
+        "talentId": "JunkratFragLauncherTrickyShuffles",
+        "buttonId": "JunkratTrickyShufflesFragLauncherTalent",
+        "abilityId": "JunkratFragLauncher",
+        "icon": "storm_ui_icon_junkrat_frag_launcher.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "JunkratFragLauncher|JunkratFragLauncher|Q"
+        ]
+      },
+      {
+        "linkId": "JunkratFragLauncherExtraWoundTimers|JunkratExtraWoundTimersFragLauncherTalent|Q|Level1",
+        "talentId": "JunkratFragLauncherExtraWoundTimers",
+        "buttonId": "JunkratExtraWoundTimersFragLauncherTalent",
+        "abilityId": "JunkratFragLauncher",
+        "icon": "storm_ui_icon_junkrat_frag_launcher_b.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "JunkratFragLauncher|JunkratFragLauncher|Q"
+        ]
+      },
+      {
+        "linkId": "JunkratConcussionMineBlowEmUp|JunkratBlowEmUpConcussionMineTalent|Passive|Level1",
+        "talentId": "JunkratConcussionMineBlowEmUp",
+        "buttonId": "JunkratBlowEmUpConcussionMineTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_junkrat_trap_mine.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "JunkratConcussionMine|JunkratConcussionMine|W",
+          "JunkratSteelTrap|JunkratSteelTrap|E"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "JunkratFragLauncherTasteForExplosions|JunkratTasteForExplosionsFragLauncherTalent|Q|Level4",
+        "talentId": "JunkratFragLauncherTasteForExplosions",
+        "buttonId": "JunkratTasteForExplosionsFragLauncherTalent",
+        "abilityId": "JunkratFragLauncher",
+        "icon": "storm_ui_icon_junkrat_frag_launcher.png",
+        "abilityType": "Q",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "JunkratFragLauncher|JunkratFragLauncher|Q"
+        ]
+      },
+      {
+        "linkId": "JunkratConcussionMineBOOMPOW|JunkratBOOMPOWConcussionMineTalent|W|Level4",
+        "talentId": "JunkratConcussionMineBOOMPOW",
+        "buttonId": "JunkratBOOMPOWConcussionMineTalent",
+        "abilityId": "JunkratConcussionMine",
+        "icon": "storm_ui_icon_junkrat_concussion_mine.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "JunkratConcussionMine|JunkratConcussionMine|W",
+          "JunkratDetonateMine|JunkratDetonateMine|Trait"
+        ]
+      },
+      {
+        "linkId": "JunkratSteelTrapChatteringTeeth|JunkratChatteringTeethSteelTrapTalent|E|Level4",
+        "talentId": "JunkratSteelTrapChatteringTeeth",
+        "buttonId": "JunkratChatteringTeethSteelTrapTalent",
+        "abilityId": "JunkratSteelTrap",
+        "icon": "storm_ui_icon_junkrat_steel_trap.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "JunkratSteelTrap|JunkratSteelTrap|E"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "JunkratConcussionMineBoggedDown|JunkratBoggedDownConcussionMineTalent|W|Level7",
+        "talentId": "JunkratConcussionMineBoggedDown",
+        "buttonId": "JunkratBoggedDownConcussionMineTalent",
+        "abilityId": "JunkratConcussionMine",
+        "icon": "storm_ui_icon_junkrat_concussion_mine.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "JunkratConcussionMine|JunkratConcussionMine|W",
+          "JunkratDetonateMine|JunkratDetonateMine|Trait"
+        ]
+      },
+      {
+        "linkId": "JunkratSteelTrapStickyWicket|JunkratStickyWicketSteelTrapTalent|E|Level7",
+        "talentId": "JunkratSteelTrapStickyWicket",
+        "buttonId": "JunkratStickyWicketSteelTrapTalent",
+        "abilityId": "JunkratSteelTrap",
+        "icon": "storm_ui_icon_junkrat_steel_trap.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "JunkratSteelTrap|JunkratSteelTrap|E"
+        ]
+      },
+      {
+        "linkId": "JunkratTotalMayhemDirtyTricksterTalent|JunkratDirtyTrickster|Trait|Level7",
+        "talentId": "JunkratTotalMayhemDirtyTricksterTalent",
+        "buttonId": "JunkratDirtyTrickster",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_junkrat_bomb_pack.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|JunkratTotalMayhem|Trait"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "JunkratRIPTire|JunkratRIPTire|Heroic|Level10",
+        "talentId": "JunkratRIPTire",
+        "buttonId": "JunkratRIPTire",
+        "abilityId": "JunkratRIPTire",
+        "icon": "storm_ui_icon_junkrat_rip_tire.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "JunkratRocketRide|JunkratRocketRide|Heroic|Level10",
+        "talentId": "JunkratRocketRide",
+        "buttonId": "JunkratRocketRide",
+        "abilityId": "JunkratRocketRide",
+        "icon": "storm_ui_icon_junkrat_rocket_ride.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "JunkratFragLauncherBombsAwayTalent|JunkratBombsAwayFragLauncherTalent|Q|Level13",
+        "talentId": "JunkratFragLauncherBombsAwayTalent",
+        "buttonId": "JunkratBombsAwayFragLauncherTalent",
+        "abilityId": "JunkratFragLauncher",
+        "icon": "storm_ui_icon_junkrat_frag_launcher.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "JunkratFragLauncher|JunkratFragLauncher|Q"
+        ]
+      },
+      {
+        "linkId": "JunkratConcussionMineRipperAir|JunkratRipperAirConcussionMineTalent|W|Level13",
+        "talentId": "JunkratConcussionMineRipperAir",
+        "buttonId": "JunkratRipperAirConcussionMineTalent",
+        "abilityId": "JunkratConcussionMine",
+        "icon": "storm_ui_icon_junkrat_concussion_mine.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "JunkratConcussionMine|JunkratConcussionMine|W",
+          "JunkratDetonateMine|JunkratDetonateMine|Trait"
+        ]
+      },
+      {
+        "linkId": "JunkratSteelTrapGottaTrapEmAll|JunkratGottaTrapEmAllSteelTrapTalent|E|Level13",
+        "talentId": "JunkratSteelTrapGottaTrapEmAll",
+        "buttonId": "JunkratGottaTrapEmAllSteelTrapTalent",
+        "abilityId": "JunkratSteelTrap",
+        "icon": "storm_ui_icon_junkrat_steel_trap.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "JunkratSteelTrap|JunkratSteelTrap|E"
+        ]
+      },
+      {
+        "linkId": "JunkratSteelTrapBigAs|JunkratBigAsSteelTrapTalent|E|Level13",
+        "talentId": "JunkratSteelTrapBigAs",
+        "buttonId": "JunkratBigAsSteelTrapTalent",
+        "abilityId": "JunkratSteelTrap",
+        "icon": "storm_ui_icon_junkrat_steel_trap_a.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          "JunkratSteelTrap|JunkratSteelTrap|E"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "JunkratFragLauncherBurstFire|JunkratBurstFireFragLauncherTalent|Q|Level16",
+        "talentId": "JunkratFragLauncherBurstFire",
+        "buttonId": "JunkratBurstFireFragLauncherTalent",
+        "abilityId": "JunkratFragLauncher",
+        "icon": "storm_ui_icon_junkrat_frag_launcher_f.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "JunkratFragLauncher|JunkratFragLauncher|Q"
+        ]
+      },
+      {
+        "linkId": "JunkratFragLauncherEndlessNades|JunkratEndlessNadesFragLauncherTalent|Q|Level16",
+        "talentId": "JunkratFragLauncherEndlessNades",
+        "buttonId": "JunkratEndlessNadesFragLauncherTalent",
+        "abilityId": "JunkratFragLauncher",
+        "icon": "storm_ui_icon_junkrat_frag_launcher_e.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "JunkratFragLauncher|JunkratFragLauncher|Q"
+        ]
+      },
+      {
+        "linkId": "JunkratFragLauncherSpreadVolley|JunkratSpreadVolleyFragLauncherTalent|Active|Level16",
+        "talentId": "JunkratFragLauncherSpreadVolley",
+        "buttonId": "JunkratSpreadVolleyFragLauncherTalent",
+        "abilityId": "JunkratSpreadVolley",
+        "icon": "storm_ui_icon_junkrat_frag_launcher_d.png",
+        "toggleCooldown": 0.125,
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "JunkratRIPTireExtraOomph|JunkratExtraOomphRIPTireTalent|Heroic|Level20",
+        "talentId": "JunkratRIPTireExtraOomph",
+        "buttonId": "JunkratExtraOomphRIPTireTalent",
+        "abilityId": "JunkratRIPTire",
+        "icon": "storm_ui_icon_junkrat_rip_tire.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "JunkratRIPTire|JunkratRIPTire|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "JunkratRIPTire"
+        ]
+      },
+      {
+        "linkId": "JunkratRocketRidePuckishScamp|JunkratPuckishScampRocketRideTalent|Heroic|Level20",
+        "talentId": "JunkratRocketRidePuckishScamp",
+        "buttonId": "JunkratPuckishScampRocketRideTalent",
+        "abilityId": "JunkratRocketRide",
+        "icon": "storm_ui_icon_junkrat_rocket_ride.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "JunkratRIPTire|JunkratRIPTire|Heroic",
+          "JunkratRocketRide|JunkratRocketRide|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "JunkratRocketRide"
+        ]
+      },
+      {
+        "linkId": "JunkratFragLauncherCannonball|JunkratCannonballFragLauncherTalent|Q|Level20",
+        "talentId": "JunkratFragLauncherCannonball",
+        "buttonId": "JunkratCannonballFragLauncherTalent",
+        "abilityId": "JunkratFragLauncher",
+        "icon": "storm_ui_icon_junkrat_frag_launcher_g.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "JunkratFragLauncher|JunkratFragLauncher|Q"
+        ]
+      },
+      {
+        "linkId": "JunkratIHateWaitingTalent|JunkratIHateWaiting|Z|Level20",
+        "talentId": "JunkratIHateWaitingTalent",
+        "buttonId": "JunkratIHateWaiting",
+        "abilityId": "JunkratIHateWaitingSummonMount",
+        "icon": "storm_ui_icon_junkrat_mount_rocket.png",
+        "abilityType": "Z",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|JunkratTotalMayhem|Trait"
+        ]
+      }
+    ]
+  },
+  "sheet": "sheets/Junkrat.webp",
+  "icons": {
+    "storm_ui_icon_junkrat_frag_launcher.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_junkrat_concussion_mine.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_junkrat_steel_trap.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_junkrat_rip_tire.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_junkrat_rocket_ride.png": [
+      512,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_junkrat_bomb_pack.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_mount.png": [
+      128,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      256,
+      128,
+      111,
+      71
+    ],
+    "storm_ui_icon_junkrat_mayhem.png": [
+      384,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_junkrat_rip_tire_jump.png": [
+      512,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_junkrat_cancel_mount.png": [
+      0,
+      256,
+      76,
+      48
+    ],
+    "storm_ui_icon_generic_cancel_mount.png": [
+      128,
+      256,
+      76,
+      48
+    ],
+    "storm_ui_icon_junkrat_frag_launcher_d.png": [
+      256,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_junkrat_mount.png": [
+      384,
+      256,
+      76,
+      48
+    ],
+    "storm_ui_icon_junkrat_frag_launcher_b.png": [
+      512,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_junkrat_trap_mine.png": [
+      0,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_junkrat_steel_trap_a.png": [
+      128,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_junkrat_frag_launcher_f.png": [
+      256,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_junkrat_frag_launcher_e.png": [
+      384,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_junkrat_frag_launcher_g.png": [
+      512,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_junkrat_mount_rocket.png": [
+      0,
+      512,
+      128,
+      128
+    ]
+  }
+}

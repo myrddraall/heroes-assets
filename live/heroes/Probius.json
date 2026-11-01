@@ -1,0 +1,567 @@
+{
+  "id": "Probius",
+  "unitId": "HeroProbius",
+  "hyperlinkId": "Probius",
+  "attributeId": "Prob",
+  "franchise": "Starcraft",
+  "rarity": "Legendary",
+  "releaseDate": "2017-03-14",
+  "isMelee": false,
+  "gender": "Male",
+  "radius": 0.6875,
+  "innerRadius": 0.6875,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "HeroDummyVeterancy"
+  ],
+  "ratings": {
+    "complexity": 7,
+    "damage": 8,
+    "survivability": 4,
+    "utility": 4
+  },
+  "life": {
+    "amount": 1260,
+    "scale": 0.04,
+    "regenRate": 2.625,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 600,
+    "regenRate": 0
+  },
+  "playstyles": [
+    "RoleSpecialist",
+    "SoloLaner",
+    "TowerPusher",
+    "WaveClearer"
+  ],
+  "summonedUnitIds": [
+    "ProbiusPhotonCannon",
+    "ProbiusPylon"
+  ],
+  "weapons": [
+    {
+      "nameId": "ProbiusAttackWeapon",
+      "isDisabled": false,
+      "range": 3,
+      "minimumRange": 0,
+      "period": 0.9,
+      "damage": 33,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "ProbiusTerran",
+    "ProbiusUltimate"
+  ],
+  "variationSkinIds": [
+    "ProbiusBaseVar1",
+    "ProbiusBaseVar2",
+    "ProbiusBaseVar3",
+    "ProbiusBaseVar4"
+  ],
+  "voiceLineIds": [
+    "ProbiusBase_VoiceLine01",
+    "ProbiusBase_VoiceLine02",
+    "ProbiusBase_VoiceLine03",
+    "ProbiusBase_VoiceLine04",
+    "ProbiusBase_VoiceLine05"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "ProbiusDisruptionPulse|ProbiusDisruptionPulse|Q",
+        "abilityId": "ProbiusDisruptionPulse",
+        "buttonId": "ProbiusDisruptionPulse",
+        "icon": "storm_ui_icon_probius_disruptionpulse.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "ProbiusWarpRift|ProbiusWarpRift|W",
+        "abilityId": "ProbiusWarpRift",
+        "buttonId": "ProbiusWarpRift",
+        "icon": "storm_ui_icon_probius_warprift.png",
+        "charges": {
+          "countMax": 2,
+          "countStart": 2,
+          "countUse": 1,
+          "isCountHidden": false
+        },
+        "abilityType": "W"
+      },
+      {
+        "linkId": "ProbiusPhotonCannon|ProbiusPhotonCannon|E",
+        "abilityId": "ProbiusPhotonCannon",
+        "buttonId": "ProbiusPhotonCannon",
+        "icon": "storm_ui_icon_probius_photoncannon.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "ProbiusPylonOvercharge|ProbiusPylonOvercharge|Heroic",
+        "abilityId": "ProbiusPylonOvercharge",
+        "buttonId": "ProbiusPylonOvercharge",
+        "icon": "storm_ui_icon_probius_pylonovercharge.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "ProbiusNullGate|ProbiusNullGate|Heroic",
+        "abilityId": "ProbiusNullGate",
+        "buttonId": "ProbiusNullGate",
+        "icon": "storm_ui_icon_probius_voidgate.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": "ProbiusWarpInPylon|ProbiusWarpInPylon|Trait",
+        "abilityId": "ProbiusWarpInPylon",
+        "buttonId": "ProbiusWarpInPylon",
+        "icon": "storm_ui_icon_probius_warpinpylon.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "ProbiusWorkerRush|ProbiusWorkerRush|Z",
+        "abilityId": "ProbiusWorkerRush",
+        "buttonId": "ProbiusWorkerRush",
+        "icon": "storm_ui_icon_probius_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "ProbiusEchoPulseDisruptionPulse|ProbiusEchoPulseDisruptionPulseTalent|Q|Level1",
+        "talentId": "ProbiusEchoPulseDisruptionPulse",
+        "buttonId": "ProbiusEchoPulseDisruptionPulseTalent",
+        "abilityId": "ProbiusDisruptionPulse",
+        "icon": "storm_ui_icon_probius_disruptionpulse.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ProbiusDisruptionPulse|ProbiusDisruptionPulse|Q"
+        ]
+      },
+      {
+        "linkId": "ProbiusWarpResonanceWarpRiftQuest|ProbiusWarpRiftWarpResonanceQuestTalent|W|Level1",
+        "talentId": "ProbiusWarpResonanceWarpRiftQuest",
+        "buttonId": "ProbiusWarpRiftWarpResonanceQuestTalent",
+        "abilityId": "ProbiusWarpRift",
+        "icon": "storm_ui_icon_probius_warprift.png",
+        "abilityType": "W",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ProbiusWarpRift|ProbiusWarpRift|W"
+        ]
+      },
+      {
+        "linkId": "ProbiusGatherMineralsPhotonCannonQuest|ProbiusGatherMineralsPhotonCannonQuestTalent|E|Level1",
+        "talentId": "ProbiusGatherMineralsPhotonCannonQuest",
+        "buttonId": "ProbiusGatherMineralsPhotonCannonQuestTalent",
+        "abilityId": "ProbiusPhotonCannon",
+        "icon": "storm_ui_icon_probius_photoncannon.png",
+        "abilityType": "E",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "ProbiusPhotonCannon|ProbiusPhotonCannon|E"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "ProbiusPhotonBarrierPhotonCannon|ProbiusPhotonBarrierPhotonCannonTalent|E|Level4",
+        "talentId": "ProbiusPhotonBarrierPhotonCannon",
+        "buttonId": "ProbiusPhotonBarrierPhotonCannonTalent",
+        "abilityId": "ProbiusPhotonCannon",
+        "icon": "storm_ui_icon_probius_photoncannon.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ProbiusPhotonCannon|ProbiusPhotonCannon|E"
+        ]
+      },
+      {
+        "linkId": "ProbiusTurboChargedWorkerRush|ProbiusTurboChargedWorkerRushTalent|Z|Level4",
+        "talentId": "ProbiusTurboChargedWorkerRush",
+        "buttonId": "ProbiusTurboChargedWorkerRushTalent",
+        "abilityId": "ProbiusWorkerRush",
+        "icon": "storm_ui_icon_probius_workerrush.png",
+        "abilityType": "Z",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ProbiusWorkerRush|ProbiusWorkerRush|Z"
+        ]
+      },
+      {
+        "linkId": "ProbiusShieldCapacitor|ProbiusShieldCapacitorTalent|Trait|Level4",
+        "talentId": "ProbiusShieldCapacitor",
+        "buttonId": "ProbiusShieldCapacitorTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_probius_shieldcapacitor.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "ProbiusWarpInPylon|ProbiusWarpInPylon|Trait"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "ProbiusParticleAcceleratorDisruptionPulse|ProbiusParticleAcceleratorDisruptionPulseTalent|Q|Level7",
+        "talentId": "ProbiusParticleAcceleratorDisruptionPulse",
+        "buttonId": "ProbiusParticleAcceleratorDisruptionPulseTalent",
+        "abilityId": "ProbiusDisruptionPulse",
+        "icon": "storm_ui_icon_probius_disruptionpulse.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ProbiusDisruptionPulse|ProbiusDisruptionPulse|Q"
+        ]
+      },
+      {
+        "linkId": "ProbiusRiftShockWarpRift|ProbiusRiftShockWarpRiftTalent|W|Level7",
+        "talentId": "ProbiusRiftShockWarpRift",
+        "buttonId": "ProbiusRiftShockWarpRiftTalent",
+        "abilityId": "ProbiusWarpRift",
+        "icon": "storm_ui_icon_probius_warprift.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ProbiusWarpRift|ProbiusWarpRift|W"
+        ]
+      },
+      {
+        "linkId": "ProbiusTowerDefensePhotonCannon|ProbiusTowerDefensePhotonCannonTalent|E|Level7",
+        "talentId": "ProbiusTowerDefensePhotonCannon",
+        "buttonId": "ProbiusTowerDefensePhotonCannonTalent",
+        "abilityId": "ProbiusPhotonCannon",
+        "icon": "storm_ui_icon_probius_photoncannon.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "ProbiusPhotonCannon|ProbiusPhotonCannon|E"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "ProbiusPylonOverchargeHeroic|ProbiusPylonOvercharge|Heroic|Level10",
+        "talentId": "ProbiusPylonOverchargeHeroic",
+        "buttonId": "ProbiusPylonOvercharge",
+        "abilityId": "ProbiusPylonOvercharge",
+        "icon": "storm_ui_icon_probius_pylonovercharge.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "ProbiusNullGateHeroic|ProbiusNullGate|Heroic|Level10",
+        "talentId": "ProbiusNullGateHeroic",
+        "buttonId": "ProbiusNullGate",
+        "abilityId": "ProbiusNullGate",
+        "icon": "storm_ui_icon_probius_voidgate.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "ProbiusAggressiveMatrixWarpInPylon|ProbiusPylonAggressiveMatrixWarpInPylonTalent|Trait|Level13",
+        "talentId": "ProbiusAggressiveMatrixWarpInPylon",
+        "buttonId": "ProbiusPylonAggressiveMatrixWarpInPylonTalent",
+        "abilityId": "ProbiusWarpInPylon",
+        "icon": "storm_ui_icon_probius_warpinpylon.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ProbiusWarpInPylon|ProbiusWarpInPylon|Trait"
+        ]
+      },
+      {
+        "linkId": "ProbiusPowerOverflowingWarpInPylon|ProbiusPowerOverflowingWarpInPylonTalent|Trait|Level13",
+        "talentId": "ProbiusPowerOverflowingWarpInPylon",
+        "buttonId": "ProbiusPowerOverflowingWarpInPylonTalent",
+        "abilityId": "ProbiusWarpInPylon",
+        "icon": "storm_ui_icon_probius_warpinpylon_a.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ProbiusWarpInPylon|ProbiusWarpInPylon|Trait"
+        ]
+      },
+      {
+        "linkId": "ProbiusShieldBatteryWarpInPylon|ProbiusShieldBatteryWarpInPylonTalent|Trait|Level13",
+        "talentId": "ProbiusShieldBatteryWarpInPylon",
+        "buttonId": "ProbiusShieldBatteryWarpInPylonTalent",
+        "abilityId": "ProbiusWarpInPylon",
+        "icon": "storm_ui_icon_probius_warpinpylon_b.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "ProbiusWarpInPylon|ProbiusWarpInPylon|Trait"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "ProbiusQuantumEntanglementWarpRift|ProbiusQuantumEntanglementWarpRiftTalent|W|Level16",
+        "talentId": "ProbiusQuantumEntanglementWarpRift",
+        "buttonId": "ProbiusQuantumEntanglementWarpRiftTalent",
+        "abilityId": "ProbiusWarpRift",
+        "icon": "storm_ui_icon_probius_warprift.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ProbiusWarpRift|ProbiusWarpRift|W"
+        ]
+      },
+      {
+        "linkId": "ProbiusGravityWellWarpRift|ProbiusGravityWellWarpRiftTalent|W|Level16",
+        "talentId": "ProbiusGravityWellWarpRift",
+        "buttonId": "ProbiusGravityWellWarpRiftTalent",
+        "abilityId": "ProbiusWarpRift",
+        "icon": "storm_ui_icon_probius_warprift_a.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ProbiusWarpRift|ProbiusWarpRift|W"
+        ]
+      },
+      {
+        "linkId": "ProbiusInterferenceWarpRift|ProbiusInterferenceWarpRiftTalent|W|Level16",
+        "talentId": "ProbiusInterferenceWarpRift",
+        "buttonId": "ProbiusInterferenceWarpRiftTalent",
+        "abilityId": "ProbiusWarpRift",
+        "icon": "storm_ui_icon_probius_warprift_c.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "ProbiusWarpRift|ProbiusWarpRift|W"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "ProbiusConstructAdditionalPylonsPylonOvercharge|ProbiusConstructAdditionalPylonsPylonOverchargeTalent|Heroic|Level20",
+        "talentId": "ProbiusConstructAdditionalPylonsPylonOvercharge",
+        "buttonId": "ProbiusConstructAdditionalPylonsPylonOverchargeTalent",
+        "abilityId": "ProbiusPylonOvercharge",
+        "icon": "storm_ui_icon_probius_pylonovercharge.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ProbiusPylonOvercharge|ProbiusPylonOvercharge|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "ProbiusPylonOverchargeHeroic"
+        ]
+      },
+      {
+        "linkId": "ProbiusGateKeeperNullGate|ProbiusGateKeeperNullGateTalent|Heroic|Level20",
+        "talentId": "ProbiusGateKeeperNullGate",
+        "buttonId": "ProbiusGateKeeperNullGateTalent",
+        "abilityId": "ProbiusNullGate",
+        "icon": "storm_ui_icon_probius_voidgate.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ProbiusNullGate|ProbiusNullGate|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "ProbiusNullGateHeroic"
+        ]
+      },
+      {
+        "linkId": "ProbiusShootEmUptoRiftsDisruptionPulse|ProbiusShootEmUpDisruptionPulseTalent|Q|Level20",
+        "talentId": "ProbiusShootEmUptoRiftsDisruptionPulse",
+        "buttonId": "ProbiusShootEmUpDisruptionPulseTalent",
+        "abilityId": "ProbiusDisruptionPulse",
+        "icon": "storm_ui_icon_probius_disruptionpulse.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "ProbiusDisruptionPulse|ProbiusDisruptionPulse|Q"
+        ]
+      },
+      {
+        "linkId": "ProbiusProbiusLoopWarpRift|ProbiusProbiusLoopWarpRiftTalent|W|Level20",
+        "talentId": "ProbiusProbiusLoopWarpRift",
+        "buttonId": "ProbiusProbiusLoopWarpRiftTalent",
+        "abilityId": "ProbiusWarpRift",
+        "icon": "storm_ui_icon_probius_warprift.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          "ProbiusWarpRift|ProbiusWarpRift|W"
+        ]
+      }
+    ]
+  },
+  "sheet": "sheets/Probius.webp",
+  "icons": {
+    "storm_ui_icon_probius_disruptionpulse.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_probius_warprift.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_probius_photoncannon.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_probius_pylonovercharge.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_probius_voidgate.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_probius_warpinpylon.png": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_probius_mount.png": [
+      256,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      384,
+      128,
+      111,
+      71
+    ],
+    "storm_ui_icon_probius_workerrush.png": [
+      0,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_probius_shieldcapacitor.png": [
+      128,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_probius_warpinpylon_a.png": [
+      256,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_probius_warpinpylon_b.png": [
+      384,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_probius_warprift_a.png": [
+      0,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_probius_warprift_c.png": [
+      128,
+      384,
+      128,
+      128
+    ]
+  }
+}

@@ -1,0 +1,632 @@
+{
+  "id": "Butcher",
+  "unitId": "HeroButcher",
+  "hyperlinkId": "TheButcher",
+  "attributeId": "Butc",
+  "franchise": "Diablo",
+  "rarity": "Epic",
+  "releaseDate": "2015-06-30",
+  "isMelee": true,
+  "gender": "Male",
+  "radius": 0.9375,
+  "innerRadius": 0.9375,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "BattleBeast",
+  "ratings": {
+    "complexity": 3,
+    "damage": 9,
+    "survivability": 5,
+    "utility": 4
+  },
+  "life": {
+    "amount": 2154,
+    "scale": 0.045,
+    "regenRate": 4.4882,
+    "regenScale": 0.045
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "EnergyImportant",
+    "Ganker",
+    "MercKiller",
+    "Overconfident",
+    "RoleAutoAttacker",
+    "SoloLaner"
+  ],
+  "summonedUnitIds": [
+    "ButcherLambToTheSlaughterPost"
+  ],
+  "weapons": [
+    {
+      "nameId": "ButcherHeroWeapon",
+      "isDisabled": false,
+      "range": 1.5,
+      "minimumRange": 0,
+      "period": 0.9,
+      "damage": 130,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "ButcherButcherlisk",
+    "ButcherClassic21",
+    "ButcherIron",
+    "ButcherSpring19",
+    "ButcherToys21",
+    "ButcherUltimate"
+  ],
+  "variationSkinIds": [
+    "ButcherBaseVar3",
+    "ButcherBaseVar4",
+    "ButcherGreen",
+    "ButcherYellow"
+  ],
+  "voiceLineIds": [
+    "ButcherBase_VoiceLine01",
+    "ButcherBase_VoiceLine02",
+    "ButcherBase_VoiceLine03",
+    "ButcherBase_VoiceLine04",
+    "ButcherBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "ButcherHamstring|ButcherHamstring|Q",
+        "abilityId": "ButcherHamstring",
+        "buttonId": "ButcherHamstring",
+        "icon": "storm_ui_icon_butcher_hamstring.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "ButcherButchersBrand|ButcherButchersBrand|W",
+        "abilityId": "ButcherButchersBrand",
+        "buttonId": "ButcherButchersBrand",
+        "icon": "storm_ui_icon_butcher_tenderize.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "ButcherRuthlessOnslaught|ButcherRuthlessOnslaught|E",
+        "abilityId": "ButcherRuthlessOnslaught",
+        "buttonId": "ButcherRuthlessOnslaught",
+        "icon": "storm_ui_icon_butcher_fullboar.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "ButcherFurnaceBlast|ButcherFurnaceBlast|Heroic",
+        "abilityId": "ButcherFurnaceBlast",
+        "buttonId": "ButcherFurnaceBlast",
+        "icon": "storm_ui_icon_butcher_furnaceblast.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "ButcherLambToTheSlaughter|ButcherLambToTheSlaughter|Heroic",
+        "abilityId": "ButcherLambToTheSlaughter",
+        "buttonId": "ButcherLambToTheSlaughter",
+        "icon": "storm_ui_icon_butcher_lambtotheslaughter.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": "ButcherFreshMeatDummy|ButcherFreshMeat|Trait",
+        "abilityId": "ButcherFreshMeatDummy",
+        "buttonId": "ButcherFreshMeat",
+        "icon": "storm_ui_icon_butcher_freshmeat.png",
+        "charges": {
+          "countMax": 65535,
+          "isCountHidden": false
+        },
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "ButcherRuthlessOnslaught|ButcherRuthlessOnslaught|E": {
+      "Basic": [
+        {
+          "linkId": "RuthlessOnslaughtCancel|ButcherRuthlessOnslaughtCancel|E",
+          "abilityId": "RuthlessOnslaughtCancel",
+          "buttonId": "ButcherRuthlessOnslaughtCancel",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "toggleCooldown": 0.75,
+          "abilityType": "E"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "ButcherTalentEnraged|ButcherEnragedTalent|Passive|Level16": {
+      "Activable": [
+        {
+          "linkId": "ButcherEnraged|ButcherEnragedHotbar|Passive",
+          "abilityId": "ButcherEnraged",
+          "buttonId": "ButcherEnragedHotbar",
+          "icon": "storm_ui_icon_butcher_enraged.png",
+          "abilityType": "Passive"
+        }
+      ]
+    },
+    "GenericTalentFlashoftheStorms|GenericBoltoftheStormTalent|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "FlashoftheStorms|GenericBoltoftheStormTalent|Active",
+          "abilityId": "FlashoftheStorms",
+          "buttonId": "GenericBoltoftheStormTalent",
+          "icon": "storm_ui_icon_talent_boltofthestorm.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "ButcherMasteryHamstringInvigoration|ButcherHamstringInvigorationTalent|Q|Level1",
+        "talentId": "ButcherMasteryHamstringInvigoration",
+        "buttonId": "ButcherHamstringInvigorationTalent",
+        "abilityId": "ButcherHamstring",
+        "icon": "storm_ui_icon_butcher_hamstring.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ButcherHamstring|ButcherHamstring|Q"
+        ]
+      },
+      {
+        "linkId": "ButcherMasteryHamstringChopMeat|ButcherHamstringChopMeatTalent|Q|Level1",
+        "talentId": "ButcherMasteryHamstringChopMeat",
+        "buttonId": "ButcherHamstringChopMeatTalent",
+        "abilityId": "ButcherHamstring",
+        "icon": "storm_ui_icon_butcher_hamstring_var1.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ButcherHamstring|ButcherHamstring|Q"
+        ]
+      },
+      {
+        "linkId": "GenericTalentBlock|GenericBlockTalent|Passive|Level1",
+        "talentId": "GenericTalentBlock",
+        "buttonId": "GenericBlockTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_block.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "ButcherMasteryHamstringFlailAxe|ButcherHamstringFlailAxeTalent|Q|Level4",
+        "talentId": "ButcherMasteryHamstringFlailAxe",
+        "buttonId": "ButcherHamstringFlailAxeTalent",
+        "abilityId": "ButcherHamstring",
+        "icon": "storm_ui_icon_butcher_hamstring.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ButcherHamstring|ButcherHamstring|Q"
+        ]
+      },
+      {
+        "linkId": "ButcherMasteryHamstringCheapShot|ButcherHamstringCheapShotTalent|Q|Level4",
+        "talentId": "ButcherMasteryHamstringCheapShot",
+        "buttonId": "ButcherHamstringCheapShotTalent",
+        "abilityId": "ButcherHamstring",
+        "icon": "storm_ui_icon_butcher_hamstring_var1.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ButcherHamstring|ButcherHamstring|Q"
+        ]
+      },
+      {
+        "linkId": "ButcherMasteryRuthlessOnslaughtUnrelentingPursuit|ButcherRuthlessOnslaughtUnrelentingPursuitTalent|E|Level4",
+        "talentId": "ButcherMasteryRuthlessOnslaughtUnrelentingPursuit",
+        "buttonId": "ButcherRuthlessOnslaughtUnrelentingPursuitTalent",
+        "abilityId": "ButcherRuthlessOnslaught",
+        "icon": "storm_ui_icon_butcher_fullboar.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "ButcherRuthlessOnslaught|ButcherRuthlessOnslaught|E"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "ButcherMasteryButchersBrandInsatiableBlade|ButcherButchersBrandInsatiableBladeTalent|W|Level7",
+        "talentId": "ButcherMasteryButchersBrandInsatiableBlade",
+        "buttonId": "ButcherButchersBrandInsatiableBladeTalent",
+        "abilityId": "ButcherButchersBrand",
+        "icon": "storm_ui_icon_butcher_tenderize.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ButcherButchersBrand|ButcherButchersBrand|W"
+        ]
+      },
+      {
+        "linkId": "ButcherMeatShield|ButcherMeatShield|E|Level7",
+        "talentId": "ButcherMeatShield",
+        "buttonId": "ButcherMeatShield",
+        "abilityId": "ButcherRuthlessOnslaught",
+        "icon": "storm_ui_icon_butcher_fullboar.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ButcherRuthlessOnslaught|ButcherRuthlessOnslaught|E"
+        ]
+      },
+      {
+        "linkId": "ButcherMasteryFreshMeatVictuals|ButcherFreshMeatVictualsTalent|Trait|Level7",
+        "talentId": "ButcherMasteryFreshMeatVictuals",
+        "buttonId": "ButcherFreshMeatVictualsTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_butcher_freshmeat.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "ButcherFreshMeatDummy|ButcherFreshMeat|Trait"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "ButcherHeroicAbilityButcherFurnaceBlast|ButcherFurnaceBlast|Heroic|Level10",
+        "talentId": "ButcherHeroicAbilityButcherFurnaceBlast",
+        "buttonId": "ButcherFurnaceBlast",
+        "abilityId": "ButcherFurnaceBlast",
+        "icon": "storm_ui_icon_butcher_furnaceblast.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "ButcherHeroicAbilityLambToTheSlaughter|ButcherLambToTheSlaughter|Heroic|Level10",
+        "talentId": "ButcherHeroicAbilityLambToTheSlaughter",
+        "buttonId": "ButcherLambToTheSlaughter",
+        "abilityId": "ButcherLambToTheSlaughter",
+        "icon": "storm_ui_icon_butcher_lambtotheslaughter.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "ButcherMasteryHamstringBrutalStrike|ButcherHamstringBrutalStrikeTalent|Q|Level13",
+        "talentId": "ButcherMasteryHamstringBrutalStrike",
+        "buttonId": "ButcherHamstringBrutalStrikeTalent",
+        "abilityId": "ButcherHamstring",
+        "icon": "storm_ui_icon_butcher_hamstring.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ButcherHamstring|ButcherHamstring|Q"
+        ]
+      },
+      {
+        "linkId": "ButcherMasteryRuthlessOnslaughtSavageCharge|ButcherRuthlessOnslaughtSavageChargeTalent|E|Level13",
+        "talentId": "ButcherMasteryRuthlessOnslaughtSavageCharge",
+        "buttonId": "ButcherRuthlessOnslaughtSavageChargeTalent",
+        "abilityId": "ButcherRuthlessOnslaught",
+        "icon": "storm_ui_icon_butcher_fullboar.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ButcherRuthlessOnslaught|ButcherRuthlessOnslaught|E"
+        ]
+      },
+      {
+        "linkId": "ButcherCleaver|ButcherCleaver|Passive|Level13",
+        "talentId": "ButcherCleaver",
+        "buttonId": "ButcherCleaver",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_aoe.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "ButcherFreshMeatDummy|ButcherFreshMeat|Trait"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "ButcherMasteryHamstringCripplingSlam|ButcherHamstringCripplingSlamTalent|Q|Level16",
+        "talentId": "ButcherMasteryHamstringCripplingSlam",
+        "buttonId": "ButcherHamstringCripplingSlamTalent",
+        "abilityId": "ButcherHamstring",
+        "icon": "storm_ui_icon_butcher_hamstring.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ButcherHamstring|ButcherHamstring|Q"
+        ]
+      },
+      {
+        "linkId": "ButcherTalentEnraged|ButcherEnragedTalent|Passive|Level16",
+        "talentId": "ButcherTalentEnraged",
+        "buttonId": "ButcherEnragedTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_butcher_enraged.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2
+      },
+      {
+        "linkId": "ButcherMasteryFreshMeatBloodFrenzy|ButcherFreshBloodFrenzyMeatTalent|Passive|Level16",
+        "talentId": "ButcherMasteryFreshMeatBloodFrenzy",
+        "buttonId": "ButcherFreshBloodFrenzyMeatTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_speed.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "ButcherFreshMeatDummy|ButcherFreshMeat|Trait"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "ButcherMasteryFiresofHell|ButcherFurnaceBlastFiresofHellTalent|Heroic|Level20",
+        "talentId": "ButcherMasteryFiresofHell",
+        "buttonId": "ButcherFurnaceBlastFiresofHellTalent",
+        "abilityId": "ButcherFurnaceBlast",
+        "icon": "storm_ui_icon_butcher_furnaceblast.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ButcherFurnaceBlast|ButcherFurnaceBlast|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "ButcherHeroicAbilityButcherFurnaceBlast"
+        ]
+      },
+      {
+        "linkId": "ButcherMasterySlaughterhouse|ButcherLambToTheSlaughterSlaughterhouseTalent|Heroic|Level20",
+        "talentId": "ButcherMasterySlaughterhouse",
+        "buttonId": "ButcherLambToTheSlaughterSlaughterhouseTalent",
+        "abilityId": "ButcherLambToTheSlaughter",
+        "icon": "storm_ui_icon_butcher_lambtotheslaughter.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ButcherLambToTheSlaughter|ButcherLambToTheSlaughter|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "ButcherHeroicAbilityLambToTheSlaughter"
+        ]
+      },
+      {
+        "linkId": "GenericTalentNexusBlades|NexusBladesTalent|Passive|Level20",
+        "talentId": "GenericTalentNexusBlades",
+        "buttonId": "NexusBladesTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_slow.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      },
+      {
+        "linkId": "GenericTalentFlashoftheStorms|GenericBoltoftheStormTalent|Active|Level20",
+        "talentId": "GenericTalentFlashoftheStorms",
+        "buttonId": "GenericBoltoftheStormTalent",
+        "abilityId": "FlashoftheStorms",
+        "icon": "storm_ui_icon_talent_boltofthestorm.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      }
+    ]
+  },
+  "sheet": "sheets/Butcher.webp",
+  "icons": {
+    "storm_ui_icon_butcher_hamstring.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_butcher_tenderize.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_butcher_fullboar.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_butcher_furnaceblast.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_butcher_lambtotheslaughter.png": [
+      512,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_butcher_freshmeat.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_mount.png": [
+      128,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      256,
+      128,
+      111,
+      71
+    ],
+    "hud_btn_bg_ability_cancel.png": [
+      384,
+      128,
+      97,
+      111
+    ],
+    "storm_ui_icon_generic_cancel_mount.png": [
+      512,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_butcher_enraged.png": [
+      0,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_boltofthestorm.png": [
+      128,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_butcher_hamstring_var1.png": [
+      256,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_block.png": [
+      384,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_autoattack_aoe.png": [
+      512,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_autoattack_speed.png": [
+      0,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_autoattack_slow.png": [
+      128,
+      384,
+      128,
+      128
+    ]
+  }
+}

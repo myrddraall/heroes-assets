@@ -1,0 +1,642 @@
+{
+  "id": "Nova",
+  "unitId": "HeroNova",
+  "hyperlinkId": "Nova",
+  "attributeId": "Nova",
+  "franchise": "Starcraft",
+  "rarity": "Epic",
+  "releaseDate": "2014-03-13",
+  "isMelee": false,
+  "gender": "Female",
+  "radius": 0.625,
+  "innerRadius": 0.625,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 5,
+    "damage": 10,
+    "survivability": 2,
+    "utility": 4
+  },
+  "life": {
+    "amount": 1300,
+    "scale": 0.04,
+    "regenRate": 2.711,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "EnergyImportant",
+    "Ganker",
+    "Helper",
+    "RoleCaster"
+  ],
+  "weapons": [
+    {
+      "nameId": "HeroNovaAntiArmorShellsTargeting",
+      "isDisabled": true,
+      "range": 6.5,
+      "minimumRange": 0,
+      "period": 0.5,
+      "damage": 105,
+      "damageScale": 0.04
+    },
+    {
+      "nameId": "HeroNova",
+      "isDisabled": false,
+      "range": 6.5,
+      "minimumRange": 0,
+      "period": 1,
+      "damage": 105,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "NovaMadAxe18",
+    "NovaRollerDerby",
+    "NovaSpectre",
+    "NovaUltimateWhiteTeal",
+    "NovaWidow",
+    "NovaZon"
+  ],
+  "variationSkinIds": [
+    "NovaGreen",
+    "NovaRed"
+  ],
+  "voiceLineIds": [
+    "NovaBase_VoiceLine01",
+    "NovaBase_VoiceLine02",
+    "NovaBase_VoiceLine03",
+    "NovaBase_VoiceLine04",
+    "NovaBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "NovaSnipeStorm|NovaSnipe|Q",
+        "abilityId": "NovaSnipeStorm",
+        "buttonId": "NovaSnipe",
+        "icon": "storm_ui_icon_nova_snipe.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "NovaPinningShot|NovaPinningShot|W",
+        "abilityId": "NovaPinningShot",
+        "buttonId": "NovaPinningShot",
+        "icon": "storm_ui_icon_nova_pinningshot.png",
+        "charges": {
+          "countMax": 1,
+          "countStart": 1,
+          "countUse": 1,
+          "recastCooldown": 1,
+          "isCountHidden": true
+        },
+        "abilityType": "W"
+      },
+      {
+        "linkId": "NovaHoloDecoy|NovaHoloDecoy|E",
+        "abilityId": "NovaHoloDecoy",
+        "buttonId": "NovaHoloDecoy",
+        "icon": "storm_ui_icon_nova_holodecoy.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "NovaTripleTap|NovaTripleTap|Heroic",
+        "abilityId": "NovaTripleTap",
+        "buttonId": "NovaTripleTap",
+        "icon": "storm_ui_icon_nova_tripletap.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "NovaPrecisionStrike|NovaPrecisionStrike|Heroic",
+        "abilityId": "NovaPrecisionStrike",
+        "buttonId": "NovaPrecisionStrike",
+        "icon": "storm_ui_icon_nova_orbitalstrike.png",
+        "charges": {
+          "countMax": 1,
+          "countStart": 1,
+          "countUse": 1,
+          "recastCooldown": 3,
+          "isCountHidden": true
+        },
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": ":PASSIVE:|NovaPermanentCloak|Trait",
+        "abilityId": ":PASSIVE:",
+        "buttonId": "NovaPermanentCloak",
+        "icon": "storm_ui_icon_nova_personalcloaking.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Activable": [
+      {
+        "linkId": "NovaGhostProtocol|NovaGhostProtocol|Active",
+        "abilityId": "NovaGhostProtocol",
+        "buttonId": "NovaGhostProtocol",
+        "icon": "storm_ui_icon_nova_personalcloaking.png",
+        "abilityType": "Active"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "NovaCovertMission|NovaCovertMissionTalent|Active|Level4": {
+      "Activable": [
+        {
+          "linkId": "NovaCovertMission|NovaCovertMission|Active",
+          "abilityId": "NovaCovertMission",
+          "buttonId": "NovaCovertMission",
+          "icon": "storm_ui_icon_talent_bribe.png",
+          "charges": {
+            "countMax": 4,
+            "countUse": 1,
+            "recastCooldown": 0.25,
+            "isCountHidden": false
+          },
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "GenericTalentRewind|GenericRewindHotbar|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "TalentRewind|GenericRewindHotbar|Active",
+          "abilityId": "TalentRewind",
+          "buttonId": "GenericRewindHotbar",
+          "icon": "storm_ui_icon_talent_rewind.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "NovaMasteryLongshot|NovaPinningShotLongshotTalent|W|Level1",
+        "talentId": "NovaMasteryLongshot",
+        "buttonId": "NovaPinningShotLongshotTalent",
+        "abilityId": "NovaPinningShot",
+        "icon": "storm_ui_icon_nova_pinningshot.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "NovaPinningShot|NovaPinningShot|W"
+        ]
+      },
+      {
+        "linkId": "NovaCovertOps|NovaCovertOpsTalent|W|Level1",
+        "talentId": "NovaCovertOps",
+        "buttonId": "NovaCovertOpsTalent",
+        "abilityId": "NovaPinningShot",
+        "icon": "storm_ui_icon_nova_pinningshot_var1.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "NovaPinningShot|NovaPinningShot|W"
+        ]
+      },
+      {
+        "linkId": "NovaAdvancedCloaking|NovaPermanentCloakSniperAdvancedCloakingTalent|Trait|Level1",
+        "talentId": "NovaAdvancedCloaking",
+        "buttonId": "NovaPermanentCloakSniperAdvancedCloakingTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_nova_personalcloaking.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|NovaPermanentCloak|Trait"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "NovaRapidProjection|NovaHoloDecoyRapidProjectionTalent|E|Level4",
+        "talentId": "NovaRapidProjection",
+        "buttonId": "NovaHoloDecoyRapidProjectionTalent",
+        "abilityId": "NovaHoloDecoy",
+        "icon": "storm_ui_icon_nova_holodecoy.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "NovaHoloDecoy|NovaHoloDecoy|E"
+        ]
+      },
+      {
+        "linkId": "NovaHoloStability|NovaHoloDecoyHoloStabilityTalent|E|Level4",
+        "talentId": "NovaHoloStability",
+        "buttonId": "NovaHoloDecoyHoloStabilityTalent",
+        "abilityId": "NovaHoloDecoy",
+        "icon": "storm_ui_icon_nova_holodecoy_var2.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "NovaHoloDecoy|NovaHoloDecoy|E",
+          "NovaGhostProtocol|NovaGhostProtocol|Active"
+        ]
+      },
+      {
+        "linkId": "NovaCovertMission|NovaCovertMissionTalent|Active|Level4",
+        "talentId": "NovaCovertMission",
+        "buttonId": "NovaCovertMissionTalent",
+        "abilityId": "NovaCovertMission",
+        "icon": "storm_ui_icon_talent_bribe.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "NovaMasteryPerfectShotSnipe|NovaPerfectShotTalent|Q|Level7",
+        "talentId": "NovaMasteryPerfectShotSnipe",
+        "buttonId": "NovaPerfectShotTalent",
+        "abilityId": "NovaSnipeStorm",
+        "icon": "storm_ui_icon_nova_snipe.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "NovaSnipeStorm|NovaSnipe|Q"
+        ]
+      },
+      {
+        "linkId": "NovaCombatStyleOneintheChamber|NovaOneintheChamberTalent|Passive|Level7",
+        "talentId": "NovaCombatStyleOneintheChamber",
+        "buttonId": "NovaOneintheChamberTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_damage.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|NovaPermanentCloak|Trait"
+        ]
+      },
+      {
+        "linkId": "NovaCombatStyleAntiArmorShells|NovaAntiArmorShellsTalent|Passive|Level7",
+        "talentId": "NovaCombatStyleAntiArmorShells",
+        "buttonId": "NovaAntiArmorShellsTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_antiarmorshells.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|NovaPermanentCloak|Trait"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "NovaHeroicAbilityTripleTap|NovaTripleTap|Heroic|Level10",
+        "talentId": "NovaHeroicAbilityTripleTap",
+        "buttonId": "NovaTripleTap",
+        "abilityId": "NovaTripleTap",
+        "icon": "storm_ui_icon_nova_tripletap.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "NovaHeroicAbilityPrecisionStrike|NovaPrecisionStrike|Heroic|Level10",
+        "talentId": "NovaHeroicAbilityPrecisionStrike",
+        "buttonId": "NovaPrecisionStrike",
+        "abilityId": "NovaPrecisionStrike",
+        "icon": "storm_ui_icon_nova_orbitalstrike.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "NovaMasteryPsionicEfficiency|NovaSnipePsionicEfficiencyTalent|Q|Level13",
+        "talentId": "NovaMasteryPsionicEfficiency",
+        "buttonId": "NovaSnipePsionicEfficiencyTalent",
+        "abilityId": "NovaSnipeStorm",
+        "icon": "storm_ui_icon_nova_snipe.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "NovaSnipeStorm|NovaSnipe|Q"
+        ]
+      },
+      {
+        "linkId": "NovaMasteryDoubleTap|NovaPinningShotDoubleTapTalent|W|Level13",
+        "talentId": "NovaMasteryDoubleTap",
+        "buttonId": "NovaPinningShotDoubleTapTalent",
+        "abilityId": "NovaPinningShot",
+        "icon": "storm_ui_icon_nova_pinningshot.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "NovaPinningShot|NovaPinningShot|W"
+        ]
+      },
+      {
+        "linkId": "NovaIonicForceField|NovaIonicForceFieldTalent|Trait|Level13",
+        "talentId": "NovaIonicForceField",
+        "buttonId": "NovaIonicForceFieldTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_nova_personalcloaking.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|NovaPermanentCloak|Trait"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "NovaMasteryExplosiveShot|NovaSnipeExplosiveRoundTalent|Q|Level16",
+        "talentId": "NovaMasteryExplosiveShot",
+        "buttonId": "NovaSnipeExplosiveRoundTalent",
+        "abilityId": "NovaSnipeStorm",
+        "icon": "storm_ui_icon_nova_snipe.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "NovaSnipeStorm|NovaSnipe|Q"
+        ]
+      },
+      {
+        "linkId": "NovaMasteryCripplingShot|NovaPinningShotCripplingShotTalent|W|Level16",
+        "talentId": "NovaMasteryCripplingShot",
+        "buttonId": "NovaPinningShotCripplingShotTalent",
+        "abilityId": "NovaPinningShot",
+        "icon": "storm_ui_icon_nova_pinningshot.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "NovaPinningShot|NovaPinningShot|W"
+        ]
+      },
+      {
+        "linkId": "NovaMasteryLethalDecoy|NovaHoloDecoyLethalDecoyTalent|E|Level16",
+        "talentId": "NovaMasteryLethalDecoy",
+        "buttonId": "NovaHoloDecoyLethalDecoyTalent",
+        "abilityId": "NovaHoloDecoy",
+        "icon": "storm_ui_icon_nova_holodecoy.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "NovaHoloDecoy|NovaHoloDecoy|E"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "NovaMasteryFastReload|NovaTripleTapFastReloadTalent|Heroic|Level20",
+        "talentId": "NovaMasteryFastReload",
+        "buttonId": "NovaTripleTapFastReloadTalent",
+        "abilityId": "NovaTripleTap",
+        "icon": "storm_ui_icon_nova_tripletap.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "NovaTripleTap|NovaTripleTap|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "NovaHeroicAbilityTripleTap"
+        ]
+      },
+      {
+        "linkId": "NovaMasteryPrecisionBarrage|NovaPrecisionStrikePrecisionBarrageTalent|Heroic|Level20",
+        "talentId": "NovaMasteryPrecisionBarrage",
+        "buttonId": "NovaPrecisionStrikePrecisionBarrageTalent",
+        "abilityId": "NovaPrecisionStrike",
+        "icon": "storm_ui_icon_nova_orbitalstrike.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "NovaPrecisionStrike|NovaPrecisionStrike|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "NovaHeroicAbilityPrecisionStrike"
+        ]
+      },
+      {
+        "linkId": "NovaApolloSuit|NovaGhostProtocolApolloSuitTalent|Trait|Level20",
+        "talentId": "NovaApolloSuit",
+        "buttonId": "NovaGhostProtocolApolloSuitTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_nova_personalcloaking.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|NovaPermanentCloak|Trait"
+        ]
+      },
+      {
+        "linkId": "GenericTalentRewind|GenericRewindHotbar|Active|Level20",
+        "talentId": "GenericTalentRewind",
+        "buttonId": "GenericRewindHotbar",
+        "abilityId": "TalentRewind",
+        "icon": "storm_ui_icon_talent_rewind.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      }
+    ]
+  },
+  "sheet": "sheets/Nova.webp",
+  "icons": {
+    "storm_ui_icon_nova_snipe.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_nova_pinningshot.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_nova_holodecoy.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_nova_tripletap.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_nova_orbitalstrike.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_nova_personalcloaking.png": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_mount.png": [
+      256,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      384,
+      128,
+      111,
+      71
+    ],
+    "storm_ui_icon_generic_cancel_mount.png": [
+      0,
+      256,
+      76,
+      48
+    ],
+    "storm_ui_icon_talent_bribe.png": [
+      128,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_rewind.png": [
+      256,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_nova_pinningshot_var1.png": [
+      384,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_nova_holodecoy_var2.png": [
+      0,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_autoattack_damage.png": [
+      128,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_antiarmorshells.png": [
+      256,
+      384,
+      128,
+      128
+    ]
+  }
+}

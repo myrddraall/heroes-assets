@@ -1,0 +1,628 @@
+{
+  "id": "Gall",
+  "unitId": "HeroGall",
+  "hyperlinkId": "Gall",
+  "attributeId": "Gall",
+  "franchise": "Warcraft",
+  "rarity": "Legendary",
+  "releaseDate": "2015-11-17",
+  "isMelee": false,
+  "gender": "Male",
+  "radius": 0,
+  "innerRadius": 0,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic",
+    "ImmuneToAOE",
+    "ImmuneToFriendlyAbilities",
+    "ImmuneToSkillshots",
+    "NoMinionAggro"
+  ],
+  "scalingLinkIds": [
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "ChoGallRunHorseCommon",
+  "ratings": {
+    "complexity": 3,
+    "damage": 9,
+    "survivability": 10,
+    "utility": 4
+  },
+  "life": {
+    "amount": 1,
+    "scale": 0,
+    "regenRate": 0,
+    "regenScale": 0
+  },
+  "playstyles": [
+    "GoalsDisabled",
+    "RoleCaster"
+  ],
+  "skinIds": [
+    "ChoAltered20",
+    "ChoCorruptor",
+    "ChoPumpkin",
+    "ChoUltimate"
+  ],
+  "variationSkinIds": [
+    "ChoBaseVar1",
+    "ChoBaseVar2",
+    "ChoBaseVar3"
+  ],
+  "voiceLineIds": [
+    "GallBase_VoiceLine01",
+    "GallBase_VoiceLine02",
+    "GallBase_VoiceLine03",
+    "GallBase_VoiceLine04",
+    "GallBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "ChoGallRun",
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "GallShadowflame|GallShadowflame|Q",
+        "abilityId": "GallShadowflame",
+        "buttonId": "GallShadowflame",
+        "icon": "storm_ui_icon_gall_shadowflame.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "GallDreadOrb|GallDreadOrb|W",
+        "abilityId": "GallDreadOrb",
+        "buttonId": "GallDreadOrb",
+        "icon": "storm_ui_icon_gall_chaoscollision.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "GallRunicBlast|GallRunicBlast|E",
+        "abilityId": "GallRunicBlast",
+        "buttonId": "GallRunicBlast",
+        "icon": "storm_ui_icon_gall_detonaterunes.png",
+        "toggleCooldown": 0.5,
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "GallTwistingNether|GallTwistingNether|Heroic",
+        "abilityId": "GallTwistingNether",
+        "buttonId": "GallTwistingNether",
+        "icon": "storm_ui_icon_gall_twistingnether_a.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "GallShadowboltVolley|GallShadowboltVolley|Heroic",
+        "abilityId": "GallShadowboltVolley",
+        "buttonId": "GallShadowboltVolley",
+        "icon": "storm_ui_icon_gall_shadowboltvolley.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": "GallOgreRage|GallOgreRageActivated|Trait",
+        "abilityId": "GallOgreRage",
+        "buttonId": "GallOgreRageActivated",
+        "icon": "storm_ui_icon_gall_ogrerage.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "GallShove|GallShoveHotbar|Z",
+        "abilityId": "GallShove",
+        "buttonId": "GallShoveHotbar",
+        "icon": "storm_ui_icon_gall_shove.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Activable": [
+      {
+        "linkId": "GallTalentEyeOfKilrogg|GallEyeofKilroggHotbar|Active",
+        "abilityId": "GallTalentEyeOfKilrogg",
+        "buttonId": "GallEyeofKilroggHotbar",
+        "icon": "storm_ui_icon_gall_eyeofkilrogg.png",
+        "charges": {
+          "countMax": 2,
+          "countStart": 2,
+          "countUse": 1,
+          "recastCooldown": 1,
+          "isCountHidden": false
+        },
+        "abilityType": "Active"
+      }
+    ]
+  },
+  "subAbilities": {
+    "GallDreadOrb|GallDreadOrb|W": {
+      "Basic": [
+        {
+          "linkId": "GallDoubleBack|GallDoubleBackAbility|W",
+          "abilityId": "GallDoubleBack",
+          "buttonId": "GallDoubleBackAbility",
+          "icon": "storm_ui_icon_gall_chaoscollision.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "W"
+        }
+      ]
+    },
+    "GallTwistingNether|GallTwistingNether|Heroic": {
+      "Heroic": [
+        {
+          "linkId": "GallTwistingNetherActivated|GallTwistingNetherActivated|Heroic",
+          "abilityId": "GallTwistingNetherActivated",
+          "buttonId": "GallTwistingNetherActivated",
+          "icon": "storm_ui_icon_gall_twistingnether_b.png",
+          "abilityType": "Heroic"
+        }
+      ]
+    },
+    "GallOgreRage|GallOgreRageActivated|Trait": {
+      "Trait": [
+        {
+          "linkId": ":PASSIVE:|GallOgreRagePassive|Trait",
+          "abilityId": ":PASSIVE:",
+          "buttonId": "GallOgreRagePassive",
+          "icon": "storm_ui_icon_gall_ogrerage.png",
+          "abilityType": "Trait"
+        }
+      ]
+    },
+    "GallShiftingNether|GallShiftingNether|Heroic|Level20": {
+      "Heroic": [
+        {
+          "linkId": "GallShiftingNether|GallTwistingNether|Heroic",
+          "abilityId": "GallShiftingNether",
+          "buttonId": "GallTwistingNether",
+          "icon": "storm_ui_icon_gall_twistingnether_a.png",
+          "abilityType": "Heroic"
+        }
+      ]
+    },
+    "GallTwilightFrenzy|GallTwilightFrenzy|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "GallTwilightFrenzy|GallTwilightFrenzy|Active",
+          "abilityId": "GallTwilightFrenzy",
+          "buttonId": "GallTwilightFrenzy",
+          "icon": "storm_ui_icon_gall_psychoticbreak.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "GallKeepMoving|GallKeepMoving|Z|Level1",
+        "talentId": "GallKeepMoving",
+        "buttonId": "GallKeepMoving",
+        "abilityId": "GallShove",
+        "icon": "storm_ui_icon_gall_shove.png",
+        "abilityType": "Z",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "GallShove|GallShoveHotbar|Z"
+        ]
+      },
+      {
+        "linkId": "GallTaskmaster|GallTaskmaster|Z|Level1",
+        "talentId": "GallTaskmaster",
+        "buttonId": "GallTaskmaster",
+        "abilityId": "GallShove",
+        "icon": "storm_ui_icon_gall_shove_a.png",
+        "abilityType": "Z",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "GallShove|GallShoveHotbar|Z"
+        ]
+      },
+      {
+        "linkId": "GallWeSeeYou|GallWeSeeYou|Passive|Level1",
+        "talentId": "GallWeSeeYou",
+        "buttonId": "GallWeSeeYou",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_gall_eyeofkilrogg.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "GallTalentEyeOfKilrogg|GallEyeofKilroggHotbar|Active"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "GallRisingDread|GallRisingDreadTalent|W|Level4",
+        "talentId": "GallRisingDread",
+        "buttonId": "GallRisingDreadTalent",
+        "abilityId": "GallDreadOrb",
+        "icon": "storm_ui_icon_gall_chaoscollision.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "GallDreadOrb|GallDreadOrb|W"
+        ]
+      },
+      {
+        "linkId": "GallRunicPersistence|GallRunicPersistenceTalent|E|Level4",
+        "talentId": "GallRunicPersistence",
+        "buttonId": "GallRunicPersistenceTalent",
+        "abilityId": "GallRunicBlast",
+        "icon": "storm_ui_icon_gall_detonaterunes.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "GallRunicBlast|GallRunicBlast|E"
+        ]
+      },
+      {
+        "linkId": "GallBombsAway|GallBombsAwayTalent|E|Level4",
+        "talentId": "GallBombsAway",
+        "buttonId": "GallBombsAwayTalent",
+        "abilityId": "GallRunicBlast",
+        "icon": "storm_ui_icon_cho_runebomb_var1.png",
+        "abilityType": "E",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "GallRunicBlast|GallRunicBlast|E"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "GallEdgeOfMadness|GallEdgeOfMadnessTalent|Q|Level7",
+        "talentId": "GallEdgeOfMadness",
+        "buttonId": "GallEdgeOfMadnessTalent",
+        "abilityId": "GallShadowflame",
+        "icon": "storm_ui_icon_gall_shadowflame.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "GallShadowflame|GallShadowflame|Q"
+        ]
+      },
+      {
+        "linkId": "GallDoubleTrouble|GallDoubleTroubleTalent|Q|Level7",
+        "talentId": "GallDoubleTrouble",
+        "buttonId": "GallDoubleTroubleTalent",
+        "abilityId": "GallShadowflame",
+        "icon": "storm_ui_icon_gall_shadowflame_var1.png",
+        "abilityType": "Q",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "GallShadowflame|GallShadowflame|Q"
+        ]
+      },
+      {
+        "linkId": "GallOgreRampage|GallOgreRampage|Trait|Level7",
+        "talentId": "GallOgreRampage",
+        "buttonId": "GallOgreRampage",
+        "abilityId": "GallOgreRage",
+        "icon": "storm_ui_icon_gall_ogrerage.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|GallOgreRagePassive|Trait",
+          "GallOgreRage|GallOgreRageActivated|Trait"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "GallHeroicAbilityShadowboltVolley|GallShadowboltVolley|Heroic|Level10",
+        "talentId": "GallHeroicAbilityShadowboltVolley",
+        "buttonId": "GallShadowboltVolley",
+        "abilityId": "GallShadowboltVolley",
+        "icon": "storm_ui_icon_gall_shadowboltvolley.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "GallHeroicAbilityTwistingNether|GallTwistingNether|Heroic|Level10",
+        "talentId": "GallHeroicAbilityTwistingNether",
+        "buttonId": "GallTwistingNether",
+        "abilityId": "GallTwistingNether",
+        "icon": "storm_ui_icon_gall_twistingnether_a.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "GallSearingShadows|GallSearingShadows|Q|Level13",
+        "talentId": "GallSearingShadows",
+        "buttonId": "GallSearingShadows",
+        "abilityId": "GallShadowflame",
+        "icon": "storm_ui_icon_gall_shadowflame.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "GallShadowflame|GallShadowflame|Q"
+        ]
+      },
+      {
+        "linkId": "GallPsychoticBreak|GallPsychoticBreakTalent|Passive|Level13",
+        "talentId": "GallPsychoticBreak",
+        "buttonId": "GallPsychoticBreakTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_gall_psychoticbreak.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|GallOgreRagePassive|Trait",
+          "GallOgreRage|GallOgreRageActivated|Trait"
+        ]
+      },
+      {
+        "linkId": "GallTwilightNova|GallTwilightNovaTalent|W|Level13",
+        "talentId": "GallTwilightNova",
+        "buttonId": "GallTwilightNovaTalent",
+        "abilityId": "GallDreadOrb",
+        "icon": "storm_ui_icon_gall_chaoscollision_var1.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "GallDreadOrb|GallDreadOrb|W"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "GallLeadenOrb|GallLeadenOrb|W|Level16",
+        "talentId": "GallLeadenOrb",
+        "buttonId": "GallLeadenOrb",
+        "abilityId": "GallDreadOrb",
+        "icon": "storm_ui_icon_gall_chaoscollision.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "GallDreadOrb|GallDreadOrb|W"
+        ]
+      },
+      {
+        "linkId": "GallDeafeningBlast|GallDeafeningBlast|E|Level16",
+        "talentId": "GallDeafeningBlast",
+        "buttonId": "GallDeafeningBlast",
+        "abilityId": "GallRunicBlast",
+        "icon": "storm_ui_icon_gall_detonaterunes.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "GallRunicBlast|GallRunicBlast|E"
+        ]
+      },
+      {
+        "linkId": "GallShadowsnare|GallShadowsnare|Passive|Level16",
+        "talentId": "GallShadowsnare",
+        "buttonId": "GallShadowsnare",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_gall_twoheaded.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|GallOgreRagePassive|Trait",
+          "GallOgreRage|GallOgreRageActivated|Trait"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "GallShadowboltVolleyShadowfury|GallShadowboltVolleyShadowfuryTalent|Heroic|Level20",
+        "talentId": "GallShadowboltVolleyShadowfury",
+        "buttonId": "GallShadowboltVolleyShadowfuryTalent",
+        "abilityId": "GallShadowboltVolley",
+        "icon": "storm_ui_icon_gall_shadowboltvolley.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "GallShadowboltVolley|GallShadowboltVolley|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "GallHeroicAbilityShadowboltVolley"
+        ]
+      },
+      {
+        "linkId": "GallShiftingNether|GallShiftingNether|Heroic|Level20",
+        "talentId": "GallShiftingNether",
+        "buttonId": "GallShiftingNether",
+        "abilityId": "GallTwistingNether",
+        "icon": "storm_ui_icon_gall_twistingnether_a.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "GallShiftingNether|GallTwistingNether|Heroic",
+          "GallTwistingNether|GallTwistingNether|Heroic",
+          "GallTwistingNetherActivated|GallTwistingNetherActivated|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "GallHeroicAbilityTwistingNether"
+        ]
+      },
+      {
+        "linkId": "GallTheWillofGall|GallTheWillofGall|Trait|Level20",
+        "talentId": "GallTheWillofGall",
+        "buttonId": "GallTheWillofGall",
+        "abilityId": "GallOgreRage",
+        "icon": "storm_ui_icon_gall_ogrerage.png",
+        "abilityType": "Trait",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|GallOgreRagePassive|Trait",
+          "GallOgreRage|GallOgreRageActivated|Trait"
+        ]
+      },
+      {
+        "linkId": "GallTwilightFrenzy|GallTwilightFrenzy|Active|Level20",
+        "talentId": "GallTwilightFrenzy",
+        "buttonId": "GallTwilightFrenzy",
+        "abilityId": "GallTwilightFrenzy",
+        "icon": "storm_ui_icon_gall_psychoticbreak.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      }
+    ]
+  },
+  "sheet": "sheets/Gall.webp",
+  "icons": {
+    "storm_ui_icon_gall_shadowflame.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_gall_chaoscollision.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_gall_detonaterunes.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_gall_twistingnether_a.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_gall_shadowboltvolley.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_gall_ogrerage.png": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_gall_shove.png": [
+      256,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_gall_eyeofkilrogg.png": [
+      384,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_gall_twistingnether_b.png": [
+      0,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_gall_psychoticbreak.png": [
+      128,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_gall_shove_a.png": [
+      256,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_cho_runebomb_var1.png": [
+      384,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_gall_shadowflame_var1.png": [
+      0,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_gall_chaoscollision_var1.png": [
+      128,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_gall_twoheaded.png": [
+      256,
+      384,
+      128,
+      128
+    ]
+  }
+}

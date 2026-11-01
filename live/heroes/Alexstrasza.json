@@ -1,0 +1,777 @@
+{
+  "id": "Alexstrasza",
+  "unitId": "HeroAlexstrasza",
+  "hyperlinkId": "Alexstrasza",
+  "attributeId": "Alex",
+  "franchise": "Warcraft",
+  "rarity": "Legendary",
+  "releaseDate": "2017-11-14",
+  "isMelee": false,
+  "gender": "Female",
+  "radius": 0.625,
+  "innerRadius": 0.625,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 6,
+    "damage": 3,
+    "survivability": 4,
+    "utility": 6
+  },
+  "life": {
+    "amount": 1780,
+    "scale": 0.04,
+    "regenRate": 9.2708,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "AllyHealer",
+    "EnergyImportant",
+    "Helper",
+    "RoleSupport"
+  ],
+  "weapons": [
+    {
+      "nameId": "AlexstraszaAttackWeapon",
+      "isDisabled": false,
+      "range": 5.5,
+      "minimumRange": 0,
+      "period": 1,
+      "damage": 73,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "AlexstraszaCowl",
+    "AlexstraszaDark",
+    "AlexstraszaSpooky18"
+  ],
+  "variationSkinIds": [
+    "AlexstraszaBaseVar1",
+    "AlexstraszaBaseVar2",
+    "AlexstraszaBaseVar3",
+    "AlexstraszaBaseVar4"
+  ],
+  "voiceLineIds": [
+    "AlexstraszaBase_VoiceLineFive",
+    "AlexstraszaBase_VoiceLineFour",
+    "AlexstraszaBase_VoiceLineOne",
+    "AlexstraszaBase_VoiceLineThree",
+    "AlexstraszaBase_VoiceLineTwo"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "AlexstraszaGiftOfLife|AlexstraszaGiftOfLife|Q",
+        "abilityId": "AlexstraszaGiftOfLife",
+        "buttonId": "AlexstraszaGiftOfLife",
+        "icon": "storm_ui_icon_alexstrasza_gift_of_life.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "AlexstraszaAbundance|AlexstraszaAbundance|W",
+        "abilityId": "AlexstraszaAbundance",
+        "buttonId": "AlexstraszaAbundance",
+        "icon": "storm_ui_icon_alexstrasza_abundance.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "AlexstraszaFlameBuffet|AlexstraszaFlameBuffet|E",
+        "abilityId": "AlexstraszaFlameBuffet",
+        "buttonId": "AlexstraszaFlameBuffet",
+        "icon": "storm_ui_icon_alexstrasza_flame_buffet.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "AlexstraszaLifebinder|AlexstraszaLifebinder|Heroic",
+        "abilityId": "AlexstraszaLifebinder",
+        "buttonId": "AlexstraszaLifebinder",
+        "icon": "storm_ui_icon_alexstrasza_life_binder.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "AlexstraszaCleansingFlame|AlexstraszaCleansingFlame|Heroic",
+        "abilityId": "AlexstraszaCleansingFlame",
+        "buttonId": "AlexstraszaCleansingFlame",
+        "icon": "storm_ui_icon_alexstrasza_cleansing_flame.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": "AlexstraszaDragonqueen|AlexstraszaDragonqueen|Trait",
+        "abilityId": "AlexstraszaDragonqueen",
+        "buttonId": "AlexstraszaDragonqueen",
+        "icon": "storm_ui_icon_alexstrasza_dragon_queen.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "AlexstraszaLifeUnbound|AlexstraszaLifeUnbound|Active|Level13": {
+      "Activable": [
+        {
+          "linkId": "AlexstraszaLifeUnbound|AlexstraszaLifeUnbound|Active",
+          "abilityId": "AlexstraszaLifeUnbound",
+          "buttonId": "AlexstraszaLifeUnbound",
+          "icon": "storm_ui_icon_alexstrasza_life_unbound.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "AlexstraszaPacify|AlexstraszaPacify|Active|Level13": {
+      "Activable": [
+        {
+          "linkId": "AlexstraszaPacify|AlexstraszaPacify|Active",
+          "abilityId": "AlexstraszaPacify",
+          "buttonId": "AlexstraszaPacify",
+          "icon": "storm_ui_icon_alexstrasza_pacify.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "AlexstraszaDragonScales|AlexstraszaDragonScales|Passive|Level13": {
+      "Activable": [
+        {
+          "linkId": "AlexstraszaDragonScales|AlexstraszaDragonScales|Passive",
+          "abilityId": "AlexstraszaDragonScales",
+          "buttonId": "AlexstraszaDragonScales",
+          "icon": "storm_ui_icon_alexstrasza_dragon_scales.png",
+          "abilityType": "Passive"
+        }
+      ]
+    },
+    "AlexstraszaBlessingOfTheRed|AlexstraszaBlessingOfTheRed|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "AlexstraszaBlessingOfTheRed|AlexstraszaBlessingOfTheRed|Active",
+          "abilityId": "AlexstraszaBlessingOfTheRed",
+          "buttonId": "AlexstraszaBlessingOfTheRed",
+          "icon": "storm_ui_icon_alexstrasza_blessing_of_the_red.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "AlexstraszaLiveAndLetLiveGiftOfLife|AlexstraszaLiveAndLetLiveGiftOfLife|Q|Level1",
+        "talentId": "AlexstraszaLiveAndLetLiveGiftOfLife",
+        "buttonId": "AlexstraszaLiveAndLetLiveGiftOfLife",
+        "abilityId": "AlexstraszaGiftOfLife",
+        "icon": "storm_ui_icon_alexstrasza_gift_of_life.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AlexstraszaBreathOfLife|AlexstraszaBreathOfLife|Q",
+          "AlexstraszaGiftOfLife|AlexstraszaGiftOfLife|Q"
+        ]
+      },
+      {
+        "linkId": "AlexstraszaCircleOfLifeAbundance|AlexstraszaCircleOfLifeAbundance|W|Level1",
+        "talentId": "AlexstraszaCircleOfLifeAbundance",
+        "buttonId": "AlexstraszaCircleOfLifeAbundance",
+        "abilityId": "AlexstraszaAbundance",
+        "icon": "storm_ui_icon_alexstrasza_abundance.png",
+        "abilityType": "W",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "AlexstraszaAbundance|AlexstraszaAbundance|W",
+          "AlexstraszaPreservation|AlexstraszaPreservation|W"
+        ]
+      },
+      {
+        "linkId": "AlexstraszaFlamesOfFuryFlameBuffet|AlexstraszaFlamesOfFuryFlameBuffet|E|Level1",
+        "talentId": "AlexstraszaFlamesOfFuryFlameBuffet",
+        "buttonId": "AlexstraszaFlamesOfFuryFlameBuffet",
+        "abilityId": "AlexstraszaFlameBuffet",
+        "icon": "storm_ui_icon_alexstrasza_flame_buffet.png",
+        "abilityType": "E",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "AlexstraszaFlameBuffet|AlexstraszaFlameBuffet|E"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "AlexstraszaSurgeOfVitalityAbundance|AlexstraszaSurgeOfVitalityAbundance|W|Level4",
+        "talentId": "AlexstraszaSurgeOfVitalityAbundance",
+        "buttonId": "AlexstraszaSurgeOfVitalityAbundance",
+        "abilityId": "AlexstraszaAbundance",
+        "icon": "storm_ui_icon_alexstrasza_abundance.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AlexstraszaAbundance|AlexstraszaAbundance|W",
+          "AlexstraszaPreservation|AlexstraszaPreservation|W"
+        ]
+      },
+      {
+        "linkId": "AlexstraszaHeatExhaustionFlameBuffet|AlexstraszaHeatExhaustionFlameBuffet|E|Level4",
+        "talentId": "AlexstraszaHeatExhaustionFlameBuffet",
+        "buttonId": "AlexstraszaHeatExhaustionFlameBuffet",
+        "abilityId": "AlexstraszaFlameBuffet",
+        "icon": "storm_ui_icon_alexstrasza_flame_buffet.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "AlexstraszaFlameBuffet|AlexstraszaFlameBuffet|E"
+        ]
+      },
+      {
+        "linkId": "AlexstraszaExuberance|AlexstraszaExuberance|Passive|Level4",
+        "talentId": "AlexstraszaExuberance",
+        "buttonId": "AlexstraszaExuberance",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_alexstrasza_exuberance.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "AlexstraszaLifeblossomGiftOfLife|AlexstraszaLifeblossomeGiftOfLife|Q|Level7",
+        "talentId": "AlexstraszaLifeblossomGiftOfLife",
+        "buttonId": "AlexstraszaLifeblossomeGiftOfLife",
+        "abilityId": "AlexstraszaGiftOfLife",
+        "icon": "storm_ui_icon_alexstrasza_life_blossom.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AlexstraszaBreathOfLife|AlexstraszaBreathOfLife|Q",
+          "AlexstraszaGiftOfLife|AlexstraszaGiftOfLife|Q"
+        ]
+      },
+      {
+        "linkId": "AlexstraszaVerdantFlourishAbundance|AlexstraszaVerdantFlourishAbundance|W|Level7",
+        "talentId": "AlexstraszaVerdantFlourishAbundance",
+        "buttonId": "AlexstraszaVerdantFlourishAbundance",
+        "abilityId": "AlexstraszaAbundance",
+        "icon": "storm_ui_icon_alexstrasza_abundance.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "AlexstraszaAbundance|AlexstraszaAbundance|W",
+          "AlexstraszaPreservation|AlexstraszaPreservation|W"
+        ]
+      },
+      {
+        "linkId": "AlexstraszaFireWithinFlameBuffet|AlexstraszaFireWithinFlameBuffet|E|Level7",
+        "talentId": "AlexstraszaFireWithinFlameBuffet",
+        "buttonId": "AlexstraszaFireWithinFlameBuffet",
+        "abilityId": "AlexstraszaFlameBuffet",
+        "icon": "storm_ui_icon_alexstrasza_flame_buffet.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "AlexstraszaFlameBuffet|AlexstraszaFlameBuffet|E"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "AlexstraszaLifebinder|AlexstraszaLifebinder|Heroic|Level10",
+        "talentId": "AlexstraszaLifebinder",
+        "buttonId": "AlexstraszaLifebinder",
+        "abilityId": "AlexstraszaLifebinder",
+        "icon": "storm_ui_icon_alexstrasza_life_binder.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "AlexstraszaCleansingFlame|AlexstraszaCleansingFlame|Heroic|Level10",
+        "talentId": "AlexstraszaCleansingFlame",
+        "buttonId": "AlexstraszaCleansingFlame",
+        "abilityId": "AlexstraszaCleansingFlame",
+        "icon": "storm_ui_icon_alexstrasza_cleansing_flame.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "AlexstraszaDragonScales|AlexstraszaDragonScales|Passive|Level13",
+        "talentId": "AlexstraszaDragonScales",
+        "buttonId": "AlexstraszaDragonScales",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_alexstrasza_dragon_scales.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 1
+      },
+      {
+        "linkId": "AlexstraszaPacify|AlexstraszaPacify|Active|Level13",
+        "talentId": "AlexstraszaPacify",
+        "buttonId": "AlexstraszaPacify",
+        "abilityId": "AlexstraszaPacify",
+        "icon": "storm_ui_icon_alexstrasza_pacify.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2
+      },
+      {
+        "linkId": "AlexstraszaLifeUnbound|AlexstraszaLifeUnbound|Active|Level13",
+        "talentId": "AlexstraszaLifeUnbound",
+        "buttonId": "AlexstraszaLifeUnbound",
+        "abilityId": "AlexstraszaLifeUnbound",
+        "icon": "storm_ui_icon_alexstrasza_life_unbound.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "AlexstraszaToughLoveGiftOfLife|AlexstraszaToughLoveGiftOfLife|Q|Level16",
+        "talentId": "AlexstraszaToughLoveGiftOfLife",
+        "buttonId": "AlexstraszaToughLoveGiftOfLife",
+        "abilityId": "AlexstraszaGiftOfLife",
+        "icon": "storm_ui_icon_alexstrasza_gift_of_life.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AlexstraszaBreathOfLife|AlexstraszaBreathOfLife|Q",
+          "AlexstraszaGiftOfLife|AlexstraszaGiftOfLife|Q"
+        ]
+      },
+      {
+        "linkId": "AlexstraszaOverprotectiveAbundance|AlexstraszaOverprotectiveAbundance|W|Level16",
+        "talentId": "AlexstraszaOverprotectiveAbundance",
+        "buttonId": "AlexstraszaOverprotectiveAbundance",
+        "abilityId": "AlexstraszaAbundance",
+        "icon": "storm_ui_icon_alexstrasza_abundance.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "AlexstraszaAbundance|AlexstraszaAbundance|W",
+          "AlexstraszaPreservation|AlexstraszaPreservation|W"
+        ]
+      },
+      {
+        "linkId": "AlexstraszaDraconicDisciplineDragonqueen|AlexstraszaDraconicDisciplineDragonqueen|Trait|Level16",
+        "talentId": "AlexstraszaDraconicDisciplineDragonqueen",
+        "buttonId": "AlexstraszaDraconicDisciplineDragonqueen",
+        "abilityId": "AlexstraszaDragonqueen",
+        "icon": "storm_ui_icon_alexstrasza_dragon_queen.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|AlexstraszaDragonqueenDragonFormPassive|Trait",
+          "AlexstraszaDragonqueen|AlexstraszaDragonqueen|Trait"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "AlexstraszaRitualOfLife|AlexstraszaRitualOfLifeLifebinder|Heroic|Level20",
+        "talentId": "AlexstraszaRitualOfLife",
+        "buttonId": "AlexstraszaRitualOfLifeLifebinder",
+        "abilityId": "AlexstraszaLifebinder",
+        "icon": "storm_ui_icon_alexstrasza_life_binder.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AlexstraszaLifebinder|AlexstraszaLifebinder|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "AlexstraszaLifebinder"
+        ]
+      },
+      {
+        "linkId": "AlexstraszaOnRubyWingsCleansingFlame|AlexstraszaOnRubyWingsCleansingFlame|Heroic|Level20",
+        "talentId": "AlexstraszaOnRubyWingsCleansingFlame",
+        "buttonId": "AlexstraszaOnRubyWingsCleansingFlame",
+        "abilityId": "AlexstraszaCleansingFlame",
+        "icon": "storm_ui_icon_alexstrasza_cleansing_flame.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "AlexstraszaCleansingFlame|AlexstraszaCleansingFlame|Heroic",
+          "AlexstraszaCleansingFlameDragonqueen|AlexstraszaCleansingFlameDragonqueen|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "AlexstraszaCleansingFlame"
+        ]
+      },
+      {
+        "linkId": "AlexstraszaAncientFlameFlameBuffet|AlexstraszaAncientFlameFlameBuffet|Trait|Level20",
+        "talentId": "AlexstraszaAncientFlameFlameBuffet",
+        "buttonId": "AlexstraszaAncientFlameFlameBuffet",
+        "abilityId": "AlexstraszaDragonqueen",
+        "icon": "storm_ui_icon_alexstrasza_dragon_queen_a.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|AlexstraszaDragonqueenDragonFormPassive|Trait",
+          "AlexstraszaDragonqueen|AlexstraszaDragonqueen|Trait"
+        ]
+      },
+      {
+        "linkId": "AlexstraszaBlessingOfTheRed|AlexstraszaBlessingOfTheRed|Active|Level20",
+        "talentId": "AlexstraszaBlessingOfTheRed",
+        "buttonId": "AlexstraszaBlessingOfTheRed",
+        "abilityId": "AlexstraszaBlessingOfTheRed",
+        "icon": "storm_ui_icon_alexstrasza_blessing_of_the_red.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      }
+    ]
+  },
+  "heroUnits": {
+    "HeroAlexstraszaDragon": {
+      "radius": 1.25,
+      "innerRadius": 1,
+      "sight": 12,
+      "speed": 4.8398,
+      "attributes": [
+        "Heroic"
+      ],
+      "scalingLinkIds": [
+        "ExcellentMana",
+        "HeroDummyVeterancy"
+      ],
+      "life": {
+        "amount": 1780,
+        "scale": 0.04,
+        "regenRate": 9.2708,
+        "regenScale": 0.04
+      },
+      "energy": {
+        "amount": 500,
+        "regenRate": 3
+      },
+      "playstyles": [
+        "AllyHealer",
+        "Helper",
+        "Overconfident",
+        "RoleSupport"
+      ],
+      "portraits": {
+        "minimap": "storm_ui_minimapicon_alexstrasza.png",
+        "targetInfo": "storm_ui_ingame_partyframe_alexstrasza.png"
+      },
+      "weapons": [
+        {
+          "nameId": "AlexstraszaDragonConeWeapon",
+          "isDisabled": false,
+          "range": 9,
+          "minimumRange": 0,
+          "period": 1.25,
+          "damage": 143,
+          "damageScale": 0.04
+        }
+      ],
+      "abilities": {
+        "Basic": [
+          {
+            "linkId": "AlexstraszaBreathOfLife|AlexstraszaBreathOfLife|Q",
+            "abilityId": "AlexstraszaBreathOfLife",
+            "buttonId": "AlexstraszaBreathOfLife",
+            "icon": "storm_ui_icon_alexstrasza_breath_of_life.png",
+            "abilityType": "Q"
+          },
+          {
+            "linkId": "AlexstraszaPreservation|AlexstraszaPreservation|W",
+            "abilityId": "AlexstraszaPreservation",
+            "buttonId": "AlexstraszaPreservation",
+            "icon": "storm_ui_icon_alexstrasza_preservation.png",
+            "abilityType": "W"
+          },
+          {
+            "linkId": "AlexstraszaWingBuffet|AlexstraszaWingBuffet|E",
+            "abilityId": "AlexstraszaWingBuffet",
+            "buttonId": "AlexstraszaWingBuffet",
+            "icon": "storm_ui_icon_alexstrasza_wing_buffet.png",
+            "abilityType": "E"
+          }
+        ],
+        "Heroic": [
+          {
+            "linkId": "AlexstraszaLifebinder|AlexstraszaLifebinder|Heroic",
+            "abilityId": "AlexstraszaLifebinder",
+            "buttonId": "AlexstraszaLifebinder",
+            "icon": "storm_ui_icon_alexstrasza_life_binder.png",
+            "abilityType": "Heroic"
+          },
+          {
+            "linkId": "AlexstraszaCleansingFlameDragonqueen|AlexstraszaCleansingFlameDragonqueen|Heroic",
+            "abilityId": "AlexstraszaCleansingFlameDragonqueen",
+            "buttonId": "AlexstraszaCleansingFlameDragonqueen",
+            "icon": "storm_ui_icon_alexstrasza_cleansing_flame.png",
+            "abilityType": "Heroic"
+          }
+        ],
+        "Trait": [
+          {
+            "linkId": ":PASSIVE:|AlexstraszaDragonqueenDragonFormPassive|Trait",
+            "abilityId": ":PASSIVE:",
+            "buttonId": "AlexstraszaDragonqueenDragonFormPassive",
+            "icon": "storm_ui_icon_alexstrasza_dragon_queen.png",
+            "abilityType": "Trait"
+          }
+        ],
+        "Mount": [
+          {
+            "linkId": "Mount|SummonMount|Z",
+            "abilityId": "Mount",
+            "buttonId": "SummonMount",
+            "icon": "storm_ui_icon_generic_mount.png",
+            "abilityType": "Z"
+          }
+        ],
+        "Hearth": [
+          {
+            "linkId": "Hearthstone|Hearthstone|B",
+            "abilityId": "Hearthstone",
+            "buttonId": "Hearthstone",
+            "icon": "storm_ui_icon_miscrune_1.png",
+            "abilityType": "B"
+          }
+        ]
+      },
+      "subAbilities": {
+        "Mount|SummonMount|Z": {
+          "Mount": [
+            {
+              "linkId": "Dismount|UnsummonMount|Z",
+              "abilityId": "Dismount",
+              "buttonId": "UnsummonMount",
+              "icon": "storm_ui_icon_generic_cancel_mount.png",
+              "toggleCooldown": 0.1,
+              "abilityType": "Z"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "sheet": "sheets/Alexstrasza.webp",
+  "icons": {
+    "storm_ui_icon_alexstrasza_gift_of_life.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_alexstrasza_abundance.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_alexstrasza_flame_buffet.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_alexstrasza_life_binder.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_alexstrasza_cleansing_flame.png": [
+      512,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_alexstrasza_dragon_queen.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_mount.png": [
+      128,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      256,
+      128,
+      111,
+      71
+    ],
+    "storm_ui_icon_generic_cancel_mount.png": [
+      384,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_alexstrasza_life_unbound.png": [
+      512,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_alexstrasza_pacify.png": [
+      0,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_alexstrasza_dragon_scales.png": [
+      128,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_alexstrasza_blessing_of_the_red.png": [
+      256,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_alexstrasza_exuberance.png": [
+      384,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_alexstrasza_life_blossom.png": [
+      512,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_alexstrasza_dragon_queen_a.png": [
+      0,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_alexstrasza_breath_of_life.png": [
+      128,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_alexstrasza_preservation.png": [
+      256,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_alexstrasza_wing_buffet.png": [
+      384,
+      384,
+      128,
+      128
+    ]
+  }
+}

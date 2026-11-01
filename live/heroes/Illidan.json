@@ -1,0 +1,646 @@
+{
+  "id": "Illidan",
+  "unitId": "HeroIllidan",
+  "hyperlinkId": "Illidan",
+  "attributeId": "Illi",
+  "franchise": "Warcraft",
+  "rarity": "Epic",
+  "releaseDate": "2014-03-13",
+  "isMelee": true,
+  "gender": "Male",
+  "radius": 0.625,
+  "innerRadius": 0.625,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 8,
+    "damage": 8,
+    "survivability": 6,
+    "utility": 3
+  },
+  "life": {
+    "amount": 1725,
+    "scale": 0.04,
+    "regenRate": 3.5898,
+    "regenScale": 0.04
+  },
+  "playstyles": [
+    "BodyBlocker",
+    "Escaper",
+    "Ganker",
+    "MercKiller",
+    "Overconfident",
+    "RoleAutoAttacker"
+  ],
+  "weapons": [
+    {
+      "nameId": "HeroIllidan",
+      "isDisabled": false,
+      "range": 1.25,
+      "minimumRange": 0,
+      "period": 0.55,
+      "damage": 78,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "IllidanLunar",
+    "IllidanShando",
+    "IllidanSpectre",
+    "IllidanUltimate",
+    "IllidanWar3"
+  ],
+  "variationSkinIds": [
+    "IllidanBaseVar3",
+    "IllidanBlack",
+    "IllidanBlue"
+  ],
+  "voiceLineIds": [
+    "IllidanBase_VoiceLine01",
+    "IllidanBase_VoiceLine02",
+    "IllidanBase_VoiceLine03",
+    "IllidanBase_VoiceLine04",
+    "IllidanBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "IllidanDive|IllidanDive|Q",
+        "abilityId": "IllidanDive",
+        "buttonId": "IllidanDive",
+        "icon": "storm_ui_icon_illidan_dive.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "IllidanSweepingStrike|IllidanSweepingStrike|W",
+        "abilityId": "IllidanSweepingStrike",
+        "buttonId": "IllidanSweepingStrike",
+        "icon": "storm_ui_icon_illidan_sweepingstrike.png",
+        "charges": {
+          "countMax": 1,
+          "countStart": 1,
+          "countUse": 1,
+          "recastCooldown": 1,
+          "isCountHidden": true
+        },
+        "abilityType": "W"
+      },
+      {
+        "linkId": "IllidanEvasion|IllidanEvasion|E",
+        "abilityId": "IllidanEvasion",
+        "buttonId": "IllidanEvasion",
+        "icon": "storm_ui_icon_illidan_evasion.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "IllidanTheHunt|IllidanTheHunt|Heroic",
+        "abilityId": "IllidanTheHunt",
+        "buttonId": "IllidanTheHunt",
+        "icon": "storm_ui_icon_illidan_thehunt.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "IllidanMetamorphosisTargeted|IllidanMetamorphosis|Heroic",
+        "abilityId": "IllidanMetamorphosisTargeted",
+        "buttonId": "IllidanMetamorphosis",
+        "icon": "storm_ui_icon_illidan_metamorphosis.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": ":PASSIVE:|IllidanBetrayersThirst|Trait",
+        "abilityId": ":PASSIVE:",
+        "buttonId": "IllidanBetrayersThirst",
+        "icon": "storm_ui_icon_illidan_betrayersthirst.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|HearthstoneNoMana|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "HearthstoneNoMana",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "IllidanMetamorphosisMountCustom|SummonMountCustom|Z": {
+      "Mount": [
+        {
+          "linkId": "IllidanMetamorphosisDismountCustom|UnsummonMountCustom|Z",
+          "abilityId": "IllidanMetamorphosisDismountCustom",
+          "buttonId": "UnsummonMountCustom",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "IllidanBladesOfAzzinoth|IllidanBladesOfAzzinoth|Active|Level16": {
+      "Activable": [
+        {
+          "linkId": "IllidanBladesOfAzzinoth|IllidanBladesOfAzzinoth|Active",
+          "abilityId": "IllidanBladesOfAzzinoth",
+          "buttonId": "IllidanBladesOfAzzinoth",
+          "icon": "storm_ui_icon_illidan_sweepingstrike_c.png",
+          "charges": {
+            "countMax": 5,
+            "countStart": 5,
+            "countUse": 5,
+            "recastCooldown": 8,
+            "isCountHidden": false
+          },
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "IllidanMasteryDemonicFormMetamorphosis|IllidanMetamorphosisDemonicFormTalent|Heroic|Level20": {
+      "Mount": [
+        {
+          "linkId": "IllidanMetamorphosisMountCustom|SummonMountCustom|Z",
+          "abilityId": "IllidanMetamorphosisMountCustom",
+          "buttonId": "SummonMountCustom",
+          "icon": "storm_ui_icon_generic_mount.png",
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "GenericTalentFlashoftheStorms|GenericBoltoftheStormTalent|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "FlashoftheStorms|GenericBoltoftheStormTalent|Active",
+          "abilityId": "FlashoftheStorms",
+          "buttonId": "GenericBoltoftheStormTalent",
+          "icon": "storm_ui_icon_talent_boltofthestorm.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "IllidanMasteryImmolationSweepingStrike|IllidanSweepingStrikeImmolationTalent|W|Level1",
+        "talentId": "IllidanMasteryImmolationSweepingStrike",
+        "buttonId": "IllidanSweepingStrikeImmolationTalent",
+        "abilityId": "IllidanSweepingStrike",
+        "icon": "storm_ui_icon_illidan_sweepingstrike.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "IllidanSweepingStrike|IllidanSweepingStrike|W"
+        ]
+      },
+      {
+        "linkId": "IllidanMasteryBatteredAssaultSweepingStrike|IllidanSweepingStrikeBatteredAssaultTalent|W|Level1",
+        "talentId": "IllidanMasteryBatteredAssaultSweepingStrike",
+        "buttonId": "IllidanSweepingStrikeBatteredAssaultTalent",
+        "abilityId": "IllidanSweepingStrike",
+        "icon": "storm_ui_icon_illidan_sweepingstrike_a.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "IllidanSweepingStrike|IllidanSweepingStrike|W"
+        ]
+      },
+      {
+        "linkId": "IllidanUnendingHatredPassive|IllidanUnendingHatredTalent|Passive|Level1",
+        "talentId": "IllidanUnendingHatredPassive",
+        "buttonId": "IllidanUnendingHatredTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_seasonedmarksman.png",
+        "abilityType": "Passive",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "IllidanReflexiveBlock|IllidanEvasionReflexiveBlockTalent|Q|Level4",
+        "talentId": "IllidanReflexiveBlock",
+        "buttonId": "IllidanEvasionReflexiveBlockTalent",
+        "abilityId": "IllidanDive",
+        "icon": "storm_ui_icon_illidan_dive.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "IllidanDive|IllidanDive|Q"
+        ]
+      },
+      {
+        "linkId": "IllidanSweepingStrikesThirstingBlade|IllidanBetrayersThirstThirstingBladeTalent|Trait|Level4",
+        "talentId": "IllidanSweepingStrikesThirstingBlade",
+        "buttonId": "IllidanBetrayersThirstThirstingBladeTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_illidan_betrayersthirst.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|IllidanBetrayersThirst|Trait"
+        ]
+      },
+      {
+        "linkId": "IllidanCombatStyleHuntersOnslaught|IllidanBetrayersThirstHuntersOnslaughtTalent|Trait|Level4",
+        "talentId": "IllidanCombatStyleHuntersOnslaught",
+        "buttonId": "IllidanBetrayersThirstHuntersOnslaughtTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_illidan_betrayersthirst_a.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|IllidanBetrayersThirst|Trait"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "IllidanMasteryRapidChaseDive|IllidanDiveRapidChaseTalent|Q|Level7",
+        "talentId": "IllidanMasteryRapidChaseDive",
+        "buttonId": "IllidanDiveRapidChaseTalent",
+        "abilityId": "IllidanDive",
+        "icon": "storm_ui_icon_illidan_dive.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "IllidanDive|IllidanDive|Q"
+        ]
+      },
+      {
+        "linkId": "IllidanMasteryFriendOrFoeDive|IllidanDiveFriendOrFoeTalent|Q|Level7",
+        "talentId": "IllidanMasteryFriendOrFoeDive",
+        "buttonId": "IllidanDiveFriendOrFoeTalent",
+        "abilityId": "IllidanDive",
+        "icon": "storm_ui_icon_illidan_dive_a.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "IllidanDive|IllidanDive|Q"
+        ]
+      },
+      {
+        "linkId": "IllidanMasteryUnboundSweepingStrike|IllidanSweepingStrikeUnboundTalent|W|Level7",
+        "talentId": "IllidanMasteryUnboundSweepingStrike",
+        "buttonId": "IllidanSweepingStrikeUnboundTalent",
+        "abilityId": "IllidanSweepingStrike",
+        "icon": "storm_ui_icon_illidan_sweepingstrike.png",
+        "abilityType": "W",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "IllidanSweepingStrike|IllidanSweepingStrike|W"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "IllidanHeroicAbilityMetamorphosis|IllidanMetamorphosis|Heroic|Level10",
+        "talentId": "IllidanHeroicAbilityMetamorphosis",
+        "buttonId": "IllidanMetamorphosis",
+        "abilityId": "IllidanMetamorphosisTargeted",
+        "icon": "storm_ui_icon_illidan_metamorphosis.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "IllidanHeroicAbilityTheHunt|IllidanTheHunt|Heroic|Level10",
+        "talentId": "IllidanHeroicAbilityTheHunt",
+        "buttonId": "IllidanTheHunt",
+        "abilityId": "IllidanTheHunt",
+        "icon": "storm_ui_icon_illidan_thehunt.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "IllidanNimbleDefender|IllidanNimbleDefender|W|Level13",
+        "talentId": "IllidanNimbleDefender",
+        "buttonId": "IllidanNimbleDefender",
+        "abilityId": "IllidanSweepingStrike",
+        "icon": "storm_ui_icon_illidan_sweepingstrike.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "IllidanSweepingStrike|IllidanSweepingStrike|W"
+        ]
+      },
+      {
+        "linkId": "IllidanElusiveStrike|IllidanElusiveStrike|E|Level13",
+        "talentId": "IllidanElusiveStrike",
+        "buttonId": "IllidanElusiveStrike",
+        "abilityId": "IllidanEvasion",
+        "icon": "storm_ui_icon_illidan_evasion.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "IllidanEvasion|IllidanEvasion|E"
+        ]
+      },
+      {
+        "linkId": "IllidanMasterySixthSenseEvasion|IllidanEvasionSixthSenseTalent|E|Level13",
+        "talentId": "IllidanMasterySixthSenseEvasion",
+        "buttonId": "IllidanEvasionSixthSenseTalent",
+        "abilityId": "IllidanEvasion",
+        "icon": "storm_ui_icon_illidan_evasion_a.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "IllidanEvasion|IllidanEvasion|E"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "IllidanMasteryMarkedforDeathDive|IllidanDiveMarkedForDeathTalent|Q|Level16",
+        "talentId": "IllidanMasteryMarkedforDeathDive",
+        "buttonId": "IllidanDiveMarkedForDeathTalent",
+        "abilityId": "IllidanDive",
+        "icon": "storm_ui_icon_illidan_dive.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "IllidanDive|IllidanDive|Q"
+        ]
+      },
+      {
+        "linkId": "IllidanFieryBrand|IllidanFieryBrand|Passive|Level16",
+        "talentId": "IllidanFieryBrand",
+        "buttonId": "IllidanFieryBrand",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_searing.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2
+      },
+      {
+        "linkId": "IllidanBladesOfAzzinoth|IllidanBladesOfAzzinoth|Active|Level16",
+        "talentId": "IllidanBladesOfAzzinoth",
+        "buttonId": "IllidanBladesOfAzzinoth",
+        "abilityId": "IllidanBladesOfAzzinoth",
+        "icon": "storm_ui_icon_illidan_sweepingstrike_c.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "IllidanMasteryDemonicFormMetamorphosis|IllidanMetamorphosisDemonicFormTalent|Heroic|Level20",
+        "talentId": "IllidanMasteryDemonicFormMetamorphosis",
+        "buttonId": "IllidanMetamorphosisDemonicFormTalent",
+        "abilityId": "IllidanMetamorphosisTargeted",
+        "icon": "storm_ui_icon_illidan_metamorphosis.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "IllidanMetamorphosisTargeted|IllidanMetamorphosis|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "IllidanHeroicAbilityMetamorphosis"
+        ]
+      },
+      {
+        "linkId": "IllidanMasteryNowhereToHideTheHunt|IllidanTheHuntNowhereToHideTalent|Heroic|Level20",
+        "talentId": "IllidanMasteryNowhereToHideTheHunt",
+        "buttonId": "IllidanTheHuntNowhereToHideTalent",
+        "abilityId": "IllidanTheHunt",
+        "icon": "storm_ui_icon_illidan_thehunt.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "IllidanTheHunt|IllidanTheHunt|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "IllidanHeroicAbilityTheHunt"
+        ]
+      },
+      {
+        "linkId": "GenericTalentNexusBlades|NexusBladesTalent|Passive|Level20",
+        "talentId": "GenericTalentNexusBlades",
+        "buttonId": "NexusBladesTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_slow.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      },
+      {
+        "linkId": "GenericTalentFlashoftheStorms|GenericBoltoftheStormTalent|Active|Level20",
+        "talentId": "GenericTalentFlashoftheStorms",
+        "buttonId": "GenericBoltoftheStormTalent",
+        "abilityId": "FlashoftheStorms",
+        "icon": "storm_ui_icon_talent_boltofthestorm.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      }
+    ]
+  },
+  "sheet": "sheets/Illidan.webp",
+  "icons": {
+    "storm_ui_icon_illidan_dive.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_illidan_sweepingstrike.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_illidan_evasion.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_illidan_thehunt.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_illidan_metamorphosis.png": [
+      512,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_illidan_betrayersthirst.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_mount.png": [
+      128,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      256,
+      128,
+      111,
+      71
+    ],
+    "storm_ui_icon_generic_cancel_mount.png": [
+      384,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_illidan_sweepingstrike_c.png": [
+      512,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_boltofthestorm.png": [
+      0,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_illidan_sweepingstrike_a.png": [
+      128,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_seasonedmarksman.png": [
+      256,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_illidan_betrayersthirst_a.png": [
+      384,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_illidan_dive_a.png": [
+      512,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_illidan_evasion_a.png": [
+      0,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_autoattack_searing.png": [
+      128,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_autoattack_slow.png": [
+      256,
+      384,
+      128,
+      128
+    ]
+  }
+}

@@ -1,0 +1,628 @@
+{
+  "id": "Artanis",
+  "unitId": "HeroArtanis",
+  "hyperlinkId": "Artanis",
+  "attributeId": "Arts",
+  "franchise": "Starcraft",
+  "rarity": "Epic",
+  "releaseDate": "2015-10-27",
+  "isMelee": true,
+  "gender": "Male",
+  "radius": 0.8125,
+  "innerRadius": 0.8125,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "BattleBeast",
+  "ratings": {
+    "complexity": 5,
+    "damage": 6,
+    "survivability": 8,
+    "utility": 6
+  },
+  "life": {
+    "amount": 2490,
+    "scale": 0.04,
+    "regenRate": 5.1875,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "BodyBlocker",
+    "EnergyImportant",
+    "Ganker",
+    "Overconfident",
+    "RoleAutoAttacker",
+    "RoleTank"
+  ],
+  "weapons": [
+    {
+      "nameId": "HeroArtanis",
+      "isDisabled": false,
+      "range": 1.25,
+      "minimumRange": 0,
+      "period": 1,
+      "damage": 111,
+      "damageScale": 0.04
+    },
+    {
+      "nameId": "HeroArtanisTwinBlades",
+      "isDisabled": false,
+      "range": 1.25,
+      "minimumRange": 0,
+      "period": 1,
+      "damage": 111,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "ArtanisCraft20",
+    "ArtanisPurifier",
+    "ArtanisSkinRonin",
+    "ArtanisUltimate",
+    "ArtanisZeraBlade"
+  ],
+  "variationSkinIds": [
+    "ArtanisBaseBlack",
+    "ArtanisBaseRed",
+    "ArtanisBaseVar3"
+  ],
+  "voiceLineIds": [
+    "ArtanisBase_VoiceLine01",
+    "ArtanisBase_VoiceLine02",
+    "ArtanisBase_VoiceLine03",
+    "ArtanisBase_VoiceLine04",
+    "ArtanisBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "ArtanisBladeDash|ArtanisBladeDash|Q",
+        "abilityId": "ArtanisBladeDash",
+        "buttonId": "ArtanisBladeDash",
+        "icon": "storm_ui_icon_artanis_powerstrikes.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "ArtanisTwinBlades|ArtanisTwinBlades|W",
+        "abilityId": "ArtanisTwinBlades",
+        "buttonId": "ArtanisTwinBlades",
+        "icon": "storm_ui_icon_artanis_doubleslash_on.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "ArtanisPhasePrism|ArtanisPhasePrism|E",
+        "abilityId": "ArtanisPhasePrism",
+        "buttonId": "ArtanisPhasePrism",
+        "icon": "storm_ui_icon_artanis_repositionmatrix.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "ArtanisSpearofAdunPurifierBeam|ArtanisSpearofAdunPurifierBeam|Heroic",
+        "abilityId": "ArtanisSpearofAdunPurifierBeam",
+        "buttonId": "ArtanisSpearofAdunPurifierBeam",
+        "icon": "storm_ui_icon_artanis_purifierbeam.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "ArtanisSpearofAdunSuppressionPulse|ArtanisSpearofAdunSuppressionPulse|Heroic",
+        "abilityId": "ArtanisSpearofAdunSuppressionPulse",
+        "buttonId": "ArtanisSpearofAdunSuppressionPulse",
+        "icon": "storm_ui_icon_artanis_disruptionweb.png",
+        "charges": {
+          "countMax": 1,
+          "countStart": 1,
+          "countUse": 1,
+          "recastCooldown": 10,
+          "isCountHidden": true
+        },
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": "ArtanisShieldOverloadDummy|ArtanisShieldOverloadTrait|Trait",
+        "abilityId": "ArtanisShieldOverloadDummy",
+        "buttonId": "ArtanisShieldOverloadTrait",
+        "icon": "storm_ui_icon_artanis_shieldoverload.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "ArtanisTwinBlades|ArtanisTwinBlades|W": {
+      "Basic": [
+        {
+          "linkId": ":PASSIVE:|ArtanisTwinBladesPrimed|W",
+          "abilityId": ":PASSIVE:",
+          "buttonId": "ArtanisTwinBladesPrimed",
+          "icon": "storm_ui_icon_artanis_doubleslash_off.png",
+          "abilityType": "W"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "ArtanisTwinBladesReactiveParry|ArtanisTwinBladesReactiveParryTalent|W|Level1",
+        "talentId": "ArtanisTwinBladesReactiveParry",
+        "buttonId": "ArtanisTwinBladesReactiveParryTalent",
+        "abilityId": "ArtanisTwinBlades",
+        "icon": "storm_ui_icon_artanis_doubleslash_on.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ArtanisBladeDash|ArtanisBladeDash|Q",
+          ":PASSIVE:|ArtanisTwinBladesPrimed|W",
+          "ArtanisTwinBlades|ArtanisTwinBlades|W"
+        ]
+      },
+      {
+        "linkId": "ArtanisTwinBladesAmateurOpponent|ArtanisTwinBladesAmateurOpponentTalent|W|Level1",
+        "talentId": "ArtanisTwinBladesAmateurOpponent",
+        "buttonId": "ArtanisTwinBladesAmateurOpponentTalent",
+        "abilityId": "ArtanisTwinBlades",
+        "icon": "storm_ui_icon_artanis_doubleslash_var1.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|ArtanisTwinBladesPrimed|W",
+          "ArtanisTwinBlades|ArtanisTwinBlades|W"
+        ]
+      },
+      {
+        "linkId": "ArtanisProtectorOfAiur|ArtanisProtectorOfAiurTalent|Passive|Level1",
+        "talentId": "ArtanisProtectorOfAiur",
+        "buttonId": "ArtanisProtectorOfAiurTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_damage.png",
+        "abilityType": "Passive",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "ArtanisShieldOverloadDummy|ArtanisShieldOverloadTrait|Trait"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "ArtanisPhasePrismPsionicSynergy|ArtanisPhasePrismPsionicSynergyTalent|E|Level4",
+        "talentId": "ArtanisPhasePrismPsionicSynergy",
+        "buttonId": "ArtanisPhasePrismPsionicSynergyTalent",
+        "abilityId": "ArtanisPhasePrism",
+        "icon": "storm_ui_icon_artanis_repositionmatrix.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ArtanisPhasePrism|ArtanisPhasePrism|E"
+        ]
+      },
+      {
+        "linkId": "ArtanisShieldOverloadShieldBattery|ArtanisShieldOverloadShieldBatteryTalent|Trait|Level4",
+        "talentId": "ArtanisShieldOverloadShieldBattery",
+        "buttonId": "ArtanisShieldOverloadShieldBatteryTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_artanis_shieldoverload.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ArtanisShieldOverloadDummy|ArtanisShieldOverloadTrait|Trait"
+        ]
+      },
+      {
+        "linkId": "ArtanisShieldOverloadShieldSurge|ArtanisShieldOverloadShieldSurgeTalentNew|Trait|Level4",
+        "talentId": "ArtanisShieldOverloadShieldSurge",
+        "buttonId": "ArtanisShieldOverloadShieldSurgeTalentNew",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_artanis_shieldoverload_a.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "ArtanisShieldOverloadDummy|ArtanisShieldOverloadTrait|Trait"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "ArtanisBladeDashSolariteReaper|ArtanisBladeDashSolariteReaperTalent|Q|Level7",
+        "talentId": "ArtanisBladeDashSolariteReaper",
+        "buttonId": "ArtanisBladeDashSolariteReaperTalent",
+        "abilityId": "ArtanisBladeDash",
+        "icon": "storm_ui_icon_artanis_powerstrikes.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ArtanisBladeDash|ArtanisBladeDash|Q"
+        ]
+      },
+      {
+        "linkId": "ArtanisPhasePrismChronoSurge|ArtanisPhasePrismChronoSurgeTalent|E|Level7",
+        "talentId": "ArtanisPhasePrismChronoSurge",
+        "buttonId": "ArtanisPhasePrismChronoSurgeTalent",
+        "abilityId": "ArtanisPhasePrism",
+        "icon": "storm_ui_icon_artanis_repositionmatrix.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ArtanisPhasePrism|ArtanisPhasePrism|E"
+        ]
+      },
+      {
+        "linkId": "ArtanisFinalCut|ArtanisFinalCut|Passive|Level7",
+        "talentId": "ArtanisFinalCut",
+        "buttonId": "ArtanisFinalCut",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_damage.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "ArtanisHeroicAbilitySpearofAdunSuppressionPulse|ArtanisSpearofAdunSuppressionPulse|Heroic|Level10",
+        "talentId": "ArtanisHeroicAbilitySpearofAdunSuppressionPulse",
+        "buttonId": "ArtanisSpearofAdunSuppressionPulse",
+        "abilityId": "ArtanisSpearofAdunSuppressionPulse",
+        "icon": "storm_ui_icon_artanis_disruptionweb.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "ArtanisHeroicAbilitySpearofAdunPurifierBeam|ArtanisSpearofAdunPurifierBeam|Heroic|Level10",
+        "talentId": "ArtanisHeroicAbilitySpearofAdunPurifierBeam",
+        "buttonId": "ArtanisSpearofAdunPurifierBeam",
+        "abilityId": "ArtanisSpearofAdunPurifierBeam",
+        "icon": "storm_ui_icon_artanis_purifierbeam.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "ArtanisBladeDashTemplarsZeal|ArtanisBladeDashTemplarsZealTalent|Q|Level13",
+        "talentId": "ArtanisBladeDashTemplarsZeal",
+        "buttonId": "ArtanisBladeDashTemplarsZealTalent",
+        "abilityId": "ArtanisBladeDash",
+        "icon": "storm_ui_icon_artanis_powerstrikes.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ArtanisBladeDash|ArtanisBladeDash|Q"
+        ]
+      },
+      {
+        "linkId": "ArtanisTwinBladesTripleStrike|ArtanisTwinBladesTripleStrikeTalent|W|Level13",
+        "talentId": "ArtanisTwinBladesTripleStrike",
+        "buttonId": "ArtanisTwinBladesTripleStrikeTalent",
+        "abilityId": "ArtanisTwinBlades",
+        "icon": "storm_ui_icon_artanis_doubleslash_on.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|ArtanisTwinBladesPrimed|W",
+          "ArtanisTwinBlades|ArtanisTwinBlades|W"
+        ]
+      },
+      {
+        "linkId": "ArtanisPhasePrismGravitonVortex|ArtanisPhasePrismGravitonVortexTalent|E|Level13",
+        "talentId": "ArtanisPhasePrismGravitonVortex",
+        "buttonId": "ArtanisPhasePrismGravitonVortexTalent",
+        "abilityId": "ArtanisPhasePrism",
+        "icon": "storm_ui_icon_artanis_repositionmatrix.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "ArtanisPhasePrism|ArtanisPhasePrism|E"
+        ]
+      },
+      {
+        "linkId": "ArtanisShieldOverloadPhaseBulwark|ArtanisShieldOverloadPhaseBulwarkTalent|Trait|Level13",
+        "talentId": "ArtanisShieldOverloadPhaseBulwark",
+        "buttonId": "ArtanisShieldOverloadPhaseBulwarkTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_artanis_shieldoverload.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          "ArtanisShieldOverloadDummy|ArtanisShieldOverloadTrait|Trait"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "ArtanisTwinBladesTitanKiller|ArtanisTwinBladesTitanKillerTalent|W|Level16",
+        "talentId": "ArtanisTwinBladesTitanKiller",
+        "buttonId": "ArtanisTwinBladesTitanKillerTalent",
+        "abilityId": "ArtanisTwinBlades",
+        "icon": "storm_ui_icon_artanis_doubleslash_on.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|ArtanisTwinBladesPrimed|W",
+          "ArtanisTwinBlades|ArtanisTwinBlades|W"
+        ]
+      },
+      {
+        "linkId": "ArtanisShieldOverloadForceofWill|ArtanisShieldOverloadForceofWillTalent|Trait|Level16",
+        "talentId": "ArtanisShieldOverloadForceofWill",
+        "buttonId": "ArtanisShieldOverloadForceofWillTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_artanis_shieldoverload.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ArtanisShieldOverloadDummy|ArtanisShieldOverloadTrait|Trait"
+        ]
+      },
+      {
+        "linkId": "ArtanisTwinBladesBladesofaTemplar|ArtanisTwinBladesBladesofaTemplar|Passive|Level16",
+        "talentId": "ArtanisTwinBladesBladesofaTemplar",
+        "buttonId": "ArtanisTwinBladesBladesofaTemplar",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_slow.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "ArtanisShieldOverloadDummy|ArtanisShieldOverloadTrait|Trait"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "ArtanisSpearofAdunSuppressionPulseOrbitalBombardment|ArtanisSpearofAdunSuppressionPulseOrbitalBombardmentTalent|Heroic|Level20",
+        "talentId": "ArtanisSpearofAdunSuppressionPulseOrbitalBombardment",
+        "buttonId": "ArtanisSpearofAdunSuppressionPulseOrbitalBombardmentTalent",
+        "abilityId": "ArtanisSpearofAdunSuppressionPulse",
+        "icon": "storm_ui_icon_artanis_disruptionweb.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ArtanisSpearofAdunSuppressionPulse|ArtanisSpearofAdunSuppressionPulse|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "ArtanisHeroicAbilitySpearofAdunSuppressionPulse"
+        ]
+      },
+      {
+        "linkId": "ArtanisSpearofAdunPurifierBeamTargetPurified|ArtanisSpearofAdunPurifierBeamTargetPurifiedTalent|Heroic|Level20",
+        "talentId": "ArtanisSpearofAdunPurifierBeamTargetPurified",
+        "buttonId": "ArtanisSpearofAdunPurifierBeamTargetPurifiedTalent",
+        "abilityId": "ArtanisSpearofAdunPurifierBeam",
+        "icon": "storm_ui_icon_artanis_purifierbeam.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ArtanisSpearofAdunPurifierBeam|ArtanisSpearofAdunPurifierBeam|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "ArtanisHeroicAbilitySpearofAdunPurifierBeam"
+        ]
+      },
+      {
+        "linkId": "ArtanisTwinBladesZealotCharge|ArtanisTwinBladesZealotChargeTalent|W|Level20",
+        "talentId": "ArtanisTwinBladesZealotCharge",
+        "buttonId": "ArtanisTwinBladesZealotChargeTalent",
+        "abilityId": "ArtanisTwinBlades",
+        "icon": "storm_ui_icon_artanis_doubleslash_on.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|ArtanisTwinBladesPrimed|W",
+          "ArtanisTwinBlades|ArtanisTwinBlades|W"
+        ]
+      },
+      {
+        "linkId": "ArtanisPlasmaBurn|ArtanisPlasmaBurn|Trait|Level20",
+        "talentId": "ArtanisPlasmaBurn",
+        "buttonId": "ArtanisPlasmaBurn",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_artanis_shieldoverload.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          "ArtanisShieldOverloadDummy|ArtanisShieldOverloadTrait|Trait"
+        ]
+      }
+    ]
+  },
+  "sheet": "sheets/Artanis.webp",
+  "icons": {
+    "storm_ui_icon_artanis_powerstrikes.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_artanis_doubleslash_on.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_artanis_repositionmatrix.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_artanis_purifierbeam.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_artanis_disruptionweb.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_artanis_shieldoverload.png": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_mount.png": [
+      256,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      384,
+      128,
+      111,
+      71
+    ],
+    "storm_ui_icon_artanis_doubleslash_off.png": [
+      0,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_cancel_mount.png": [
+      128,
+      256,
+      76,
+      48
+    ],
+    "storm_ui_icon_artanis_doubleslash_var1.png": [
+      256,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_autoattack_damage.png": [
+      384,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_artanis_shieldoverload_a.png": [
+      0,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_autoattack_slow.png": [
+      128,
+      384,
+      128,
+      128
+    ]
+  }
+}

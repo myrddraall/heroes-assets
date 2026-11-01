@@ -1,0 +1,205 @@
+{
+  "abilities": {
+    "BarbarianAncientSpear|BarbarianAncientSpear|Q": {
+      "cooldownText": "Время восстановления: 13 сек.",
+      "fullText": "Соня бросает копье на цепи, которое подтягивает ее к первому пораженному противнику, нанося <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">173</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона и временно оглушая его. Если «Копье Древних» попадает в цель, Соня накапливает <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40</c> ед. ярости.",
+      "name": "Копье Древних",
+      "shortText": "Притягивает себя к пораженному врагу, оглушая его и нанося урон."
+    },
+    "BarbarianSeismicSlam|BarbarianSeismicSlam|W": {
+      "cooldownText": "Время восстановления: 1 сек.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Ярость: 25</s>",
+      "fullText": "Наносит <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">176</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона цели и <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">44</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона противникам позади нее.",
+      "name": "Сейсмический удар",
+      "shortText": "Наносит урон цели и врагам позади нее."
+    },
+    "BarbarianWhirlwind|BarbarianWhirlwind|E": {
+      "cooldownText": "Время восстановления: 5 сек.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Ярость: 40</s>",
+      "fullText": "В течение <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> сек. наносит находящимся рядом противникам <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">138</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона в секунду и восполняет Соне здоровье в объеме <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> нанесенного урона. Урон по героям дает втрое больше здоровья.",
+      "name": "Вихрь",
+      "shortText": "Наносит урон и восполняет здоровье в размере доли от нанесенного урона."
+    },
+    "BarbarianLeap|BarbarianLeap|Heroic": {
+      "cooldownText": "Время восстановления: 60 сек.",
+      "fullText": "Совершает прыжок, нанося противникам поблизости <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">135</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона и оглушая их на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.25</c> сек.",
+      "name": "Удар в прыжке",
+      "shortText": "Совершает прыжок, наносящий урон и оглушающий врагов."
+    },
+    "BarbarianWrathoftheBerserker|BarbarianWrathoftheBerserker|Heroic": {
+      "cooldownText": "Время восстановления: 60 сек.",
+      "fullText": "Увеличивает наносимый урон на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c>. Сокращает время действия вражеских эффектов замедления, обездвиживания и оглушения на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>. Время действия способности составляет <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> сек. и увеличивается на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> сек. за каждые <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> ед. ярости, накопленной под воздействием ее эффекта.",
+      "name": "Гнев берсерка",
+      "shortText": "Увеличивает урон и сокращает время действия эффектов контроля."
+    },
+    ":PASSIVE:|BarbarianFury|Trait": {
+      "fullText": "Соня использует ярость вместо маны, накапливая ее при использовании автоатак или получении урона. Кроме того, при использовании базовой или героической способности она получает бонус к скорости передвижения в <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c> на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> сек.",
+      "name": "Ярость",
+      "shortText": "Накапливает ярость в бою. Способности ускоряют передвижение."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Время восстановления: 4 сек.",
+      "fullText": "После подготовки длительностью <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> сек. повышает скорость передвижения на <s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Вызов транспорта"
+    },
+    "Hearthstone|HearthstoneNoMana|B": {
+      "fullText": "После поддержания в течение <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> сек. телепортирует героя в Зал Штормов, моментально восполняя <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c> ед. здоровья.",
+      "name": "Возвращение"
+    },
+    "BarbarianWhirlwindCancel|BarbarianWhirlwindCancel|E": {
+      "fullText": "Прекращает действие «Вихря».",
+      "name": "Отмена «Вихря»"
+    },
+    "BarbarianCancelLeapArreatCrater|BarbarianLeapArreatCraterCancel|Heroic": {
+      "cooldownText": "Время восстановления: 1.5 сек.",
+      "fullText": "Прекращает действие «Арреатского кратера».",
+      "name": "Отмена «Удара в прыжке»"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Покинуть транспорт.",
+      "name": "Отмена транспорта"
+    },
+    "BarbarianShotofFury|BarbarianFuryShotOfFury|Trait": {
+      "cooldownText": "Время восстановления: 40 сек.",
+      "fullText": "Соня использует ярость вместо маны, накапливая ее при использовании автоатак или получении урона. Кроме того, при использовании базовой или героической способности она получает бонус к скорости передвижения в <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c> на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> сек.",
+      "name": "Ярость"
+    },
+    "BarbarianBattleRage|BarbarianBattleRage|Active": {
+      "cooldownText": "Время восстановления заряда: 30 сек.",
+      "fullText": "При использовании мгновенно восполняет <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c> максимального запаса здоровья. Максимум зарядов – <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>. Можно использовать во время «Вихря».<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Пассивный эффект:</c> увеличивает урон по наемникам на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>.",
+      "name": "Боевая ярость",
+      "shortText": "Увеличивает урон по наемникам. При использовании исцеляет."
+    },
+    "BarbarianNervesOfSteel|BarbarianNervesOfSteel|Active": {
+      "cooldownText": "Время восстановления: 60 сек.",
+      "fullText": "При использовании дает щит прочностью <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> максимального запаса здоровья на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> сек. Можно использовать во время «Вихря».",
+      "name": "Стальные нервы",
+      "shortText": "Дает щит."
+    },
+    "BarbarianStridingGiant|BarbarianStridingGiantActive|Heroic": {
+      "cooldownText": "Время восстановления: 30 сек.",
+      "fullText": "При использовании дает неудержимость на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> сек. Можно использовать только под действием «Гнева берсерка».",
+      "name": "Поступь великана"
+    },
+    "BarbarianIgnorePain|BarbarianIgnorePain|Active": {
+      "cooldownText": "Время восстановления: 60 сек.",
+      "fullText": "При использовании дает <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60</c> ед. брони на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> сек., уменьшая получаемый урон на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60%</c>. Можно использовать во время «Вихря».",
+      "name": "Стойкость к боли",
+      "shortText": "Дает мощную броню."
+    }
+  },
+  "talents": {
+    "BarbarianFuriousBlow|BarbarianSeismicSlamFuriousBlowTalent|W|Level1": {
+      "fullText": "Каждый <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4-й</c> «Сейсмический удар» наносит основной цели на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> больше урона и не требует затрат ярости.",
+      "name": "Яростный удар",
+      "shortText": "Усиливает «Сейсмический удар»."
+    },
+    "BarbarianWarPaint|BarbarianFuryWarPaintTalent|Passive|Level1": {
+      "fullText": "Автоатаки восполняют здоровье в объеме <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c> нанесенного урона.",
+      "name": "Боевая раскраска",
+      "shortText": "Автоатаки восполняют здоровье."
+    },
+    "BarbarianToughAsNails|BarbarianToughAsNails|Passive|Level1": {
+      "fullText": "Раз в <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">16</c> сек. дает <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60</c> ед. кинетической брони, которая уменьшает урон от следующей автоатаки героя противника на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60%</c>.<n/><n/>Максимум зарядов – <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>. Заряды восстанавливаются на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">200%</c> быстрее при наличии бонуса к скорости передвижения от «Ярости».",
+      "name": "Твердость",
+      "shortText": "Периодически дает кинетическую броню."
+    },
+    "BarbarianShatteredGround|BarbarianSeismicSlamShatteredGroundTalent|W|Level4": {
+      "fullText": "Увеличивает урон по области от «Сейсмического удара» на <<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">250%</c>. При применении «Сейсмического удара» против героя урон по области увеличивается еще на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">250%</c>, а при применении против других противников длина области поражения увеличивается на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">66%</c>.",
+      "name": "Расколотая земля",
+      "shortText": "Увеличивает урон по области от «Сейсмического удара»."
+    },
+    "BarbarianHurricane|BarbarianHurricaneWhirlwindTalent|E|Level4": {
+      "fullText": "Уменьшает время восстановления «Вихря» на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> сек. и снимает с Сони эффекты замедления и обездвиживания при его использовании.",
+      "name": "Ураган",
+      "shortText": "«Вихрь» избавляет от замедления и обездвиживания."
+    },
+    "BarbarianShotOfFury|BarbarianFuryShotOfFuryTalent|Trait|Level4": {
+      "cooldownText": "Время восстановления: 40 сек.",
+      "fullText": "При использовании дает <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50</c> ед. ярости. Можно использовать во время «Вихря».<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Пассивный эффект:</c> следующая за «Сейсмическим ударом» автоатака наносит на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> больше урона.",
+      "name": "Вспышка ярости",
+      "shortText": "При использовании дает ярость."
+    },
+    "BarbarianPoisonedSpear|BarbarianAncientSpearPoisonedSpearTalent|Q|Level7": {
+      "fullText": "«Копье Древних» дополнительно наносит <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> урона в течение <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> сек.",
+      "name": "Отравленное копье",
+      "shortText": "«Копье Древних» дополнительно наносит периодический урон."
+    },
+    "BarbarianLifeFunnel|BarbarianWhirlwindLifeFunnelTalent|E|Level7": {
+      "fullText": "Увеличивает объем здоровья, восполняемого «Вихрем», до <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35%</c> нанесенного урона.",
+      "name": "Токи жизни",
+      "shortText": "«Вихрь» восполняет больше здоровья."
+    },
+    "BarbarianBattleRage|BarbarianBattleRage|Active|Level7": {
+      "cooldownText": "Время восстановления заряда: 30 сек.",
+      "fullText": "При использовании мгновенно восполняет <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c> максимального запаса здоровья. Максимум зарядов – <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>. Можно использовать во время «Вихря».<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Пассивный эффект:</c> увеличивает урон по наемникам на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>.",
+      "name": "Боевая ярость",
+      "shortText": "Увеличивает урон по наемникам. При использовании исцеляет."
+    },
+    "BarbarianHeroicAbilityLeap|BarbarianLeap|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 60 сек.",
+      "fullText": "Совершает прыжок, нанося противникам поблизости <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">135</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона и оглушая их на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.25</c> сек.",
+      "name": "Удар в прыжке",
+      "shortText": "Совершает прыжок, наносящий урон и оглушающий врагов."
+    },
+    "BarbarianHeroicAbilityWrathoftheBerserker|BarbarianWrathoftheBerserker|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 60 сек.",
+      "fullText": "Увеличивает наносимый урон на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c>. Сокращает время действия вражеских эффектов замедления, обездвиживания и оглушения на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>. Время действия способности составляет <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> сек. и увеличивается на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> сек. за каждые <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> ед. ярости, накопленной под воздействием ее эффекта.",
+      "name": "Гнев берсерка",
+      "shortText": "Увеличивает урон и сокращает время действия эффектов контроля."
+    },
+    "BarbarianMysticalSpear|BarbarianAncientSpearMysticalSpearTalent|Q|Level13": {
+      "fullText": "«Копье Древних» переносит Соню в указанное место даже при промахе. В этом случае время его восстановления сокращается на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> сек.",
+      "name": "Мистическое копье",
+      "shortText": "«Копье Древних» всегда переносит Соню к цели и восстанавливается быстрее."
+    },
+    "BarbarianRuthless|BarbarianRuthless|E|Level13": {
+      "fullText": "«Вихрь» дополнительно наносит <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона в секунду героям с уровнем здоровья ниже <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>. Этот урон не влияет на объем восполняемого здоровья.",
+      "name": "Остервенение",
+      "shortText": "«Вихрь» наносит больше урона целям с низким запасом здоровья."
+    },
+    "BarbarianNoEscape|BarbarianFuryNoEscapeTalent|Trait|Level13": {
+      "fullText": "Увеличивает бонус к скорости передвижения при использовании базовых и героических способностей до <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c>.",
+      "name": "Неотвратимая кара",
+      "shortText": "Увеличивает бонус к скорости передвижения."
+    },
+    "BarbarianGiantSlammer|BarbarianGiantSlammer|W|Level16": {
+      "fullText": "Автоатаки и «Сейсмический удар» наносят героям дополнительный урон в объеме <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5%</c> их максимального запаса здоровья и восполняют Соне здоровье в объеме, равном <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60%</c> нанесенного урона.",
+      "name": "Ощутимый удар",
+      "shortText": "Автоатаки и «Сейсмический удар» наносят дополнительный урон."
+    },
+    "BarbarianRampage|BarbarianRampage|Passive|Level16": {
+      "fullText": "Увеличивает урон от автоатак на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>. Каждая автоатака сокращает время восстановления «Копья Древних» на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> сек.",
+      "name": "Буйство",
+      "shortText": "Автоатаки ускоряют восстановление «Копья Древних»."
+    },
+    "BarbarianNervesOfSteel|BarbarianNervesOfSteel|Active|Level16": {
+      "cooldownText": "Время восстановления: 60 сек.",
+      "fullText": "При использовании дает щит прочностью <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> максимального запаса здоровья на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> сек. Можно использовать во время «Вихря».",
+      "name": "Стальные нервы",
+      "shortText": "Дает щит."
+    },
+    "BarbarianArreatCrater|BarbarianLeapArreatCraterTalent|Heroic|Level20": {
+      "fullText": "На месте приземления на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> сек. остается непроходимый кратер. Уменьшает время восстановления «Удара в прыжке» на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c> сек.",
+      "name": "Арреатский кратер",
+      "shortText": "«Удар в прыжке» восстанавливается быстрее и создает кратер."
+    },
+    "BarbarianStridingGiant|BarbarianStridingGiant|Heroic|Level20": {
+      "fullText": "«Гнев берсерка» увеличивает максимальный запас здоровья на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c> и позволяет использовать способность «Поступь великана», дающую неудержимость на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> сек. Время восстановления «Поступи великана» – <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30</c> сек.",
+      "name": "Поступь великана",
+      "shortText": "«Гнев берсерка» позволяет получить неудержимость."
+    },
+    "BarbarianCompositeSpear|BarbarianAncientSpearCompositeSpearTalent|Q|Level20": {
+      "fullText": "Увеличивает дальность действия «Копья древних» на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>. Если копье поражает героя, Соня получает <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c> ед. брони на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> сек.",
+      "name": "Составное копье",
+      "shortText": "Копье летит дальше и дает броню."
+    },
+    "BarbarianIgnorePain|BarbarianIgnorePain|Active|Level20": {
+      "cooldownText": "Время восстановления: 60 сек.",
+      "fullText": "При использовании дает <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60</c> ед. брони на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> сек., уменьшая получаемый урон на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60%</c>. Можно использовать во время «Вихря».",
+      "name": "Стойкость к боли",
+      "shortText": "Дает мощную броню."
+    }
+  },
+  "units": {}
+}

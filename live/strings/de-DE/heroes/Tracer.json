@@ -1,0 +1,171 @@
+{
+  "abilities": {
+    "TracerBlink|TracerBlink|Q": {
+      "cooldownText": "Ladungsabklingzeit: 9 Sek.",
+      "fullText": "Tracer sprintet in die Zielrichtung.<n/><n/>Maximal <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> Aufladungen.",
+      "name": "Warp",
+      "shortText": "Tracer sprintet in die Zielrichtung."
+    },
+    "TracerMelee|TracerMelee|W": {
+      "cooldownText": "Abklingzeit: 8 Sek.",
+      "fullText": "Fügt einem Gegner in der Nähe <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">220</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Schaden zu, wobei Helden bevorzugt werden. Getroffene nicht heroische Ziele laden die Impulsbombe um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5%</c> und getroffene Helden um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c> auf.",
+      "name": "Nahkampfattacke",
+      "shortText": "Greift einen Gegner in der Nähe an."
+    },
+    "TracerRecall|TracerRecall|E": {
+      "cooldownText": "Abklingzeit: 20 Sek.",
+      "fullText": "Tracer kehrt nach <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.25</c> Sek. an die Position zurück, an der sie <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> Sek. vor dem Einsatz war. Lädt Munition nach und entfernt alle negativen Effekte.",
+      "name": "Zeitschleife",
+      "shortText": "Tracer kehrt zu einer vorherigen Position zurück. Entfernt negative Effekte."
+    },
+    "TracerPulseBomb|TracerPulseBomb|Heroic": {
+      "fullText": "Wirft eine Bombe mit kurzer Reichweite, die sich an Gegner heftet, wenn sie sie trifft. Die Bombe explodiert nach <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> Sek., fügt dem Hauptziel <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">298</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.06~~</c> Schaden zu und anderen Gegnern in der Nähe <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">149</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.06~~</c> Schaden.<n/><n/>Diese Fähigkeit lädt sich langsam auf, wenn Tracer Gegnern mit automatischen Angriffen oder Nahkampfattacken Schaden zufügt.",
+      "name": "Impulsbombe",
+      "shortText": "Heftet an Gegnern eine Bombe an, die hohen Schaden verursacht."
+    },
+    "TracerReload|TracerReload|Trait": {
+      "cooldownText": "Abklingzeit: 1 Sek.",
+      "fullText": "Tracer kann im Laufen automatische Angriffe ausführen. Nach <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> Angriffen muss sie <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.75</c> Sek. lang nachladen. Aktivieren, um manuell früher nachzuladen.<n/><n/>Automatische Angriffe heilen Tracer um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c> des verursachten Schadens.",
+      "name": "Nachladen",
+      "shortText": "Tracer kann im Laufen automatische Angriffe ausführen, die Munition verbrauchen."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Abklingzeit: 4 Sek.",
+      "fullText": "Erhöht die Bewegungsgeschwindigkeit nach <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> Sek. Kanalisierung um <s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Aufsitzen"
+    },
+    "Hearthstone|HearthstoneNoMana|B": {
+      "fullText": "Kanalisiert <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> Sek. lang und teleportiert sich dann zurück zum Altar der Stürme. Dabei werden sofort <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c> Lebenspunkte wiederhergestellt.",
+      "name": "Ruhestein"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Sitzt ab.",
+      "name": "Absitzen"
+    },
+    "TracerLockedandLoadedFailReload|TracerLockedandLoadedAbility|Trait": {
+      "cooldownText": "Abklingzeit: 1 Sek.",
+      "fullText": "Erhöht den Schaden des nächsten Magazins um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c>, wenn Nachladen während der letzten <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> der Einsatzzeit erneut aktiviert wird.",
+      "name": "Geladen und entsichert",
+      "shortText": "Perfekt getimter Einsatz von Nachladen erhöht den Schaden automatischer Angriffe."
+    },
+    "TracerLockedandLoaded|TracerLockedandLoadedAbility|Trait": {
+      "cooldownText": "Abklingzeit: 1 Sek.",
+      "fullText": "Erhöht den Schaden des nächsten Magazins um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c>, wenn Nachladen während der letzten <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> der Einsatzzeit erneut aktiviert wird.",
+      "name": "Geladen und entsichert",
+      "shortText": "Perfekt getimter Einsatz von Nachladen erhöht den Schaden automatischer Angriffe."
+    }
+  },
+  "talents": {
+    "TracerOneTwoPunch|TracerOneTwoPunch|W|Level1": {
+      "fullText": "Verringert die Abklingzeit der Nahkampfattacke um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> Sek. und gewährt eine weitere Aufladung.",
+      "name": "Faust auf Faust",
+      "shortText": "Verringert die Abklingzeit und verleiht eine zusätzliche Aufladung."
+    },
+    "TracerPartingGift|TracerPartingGift|E|Level1": {
+      "fullText": "Zeitschleife hinterlässt beim Einsatz <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> Bomben, die unterschiedlichen Zielen je <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">240</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Schaden zufügen. Getroffene Helden werden <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.75</c> Sek. lang um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> verlangsamt und laden die Impulsbombe um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">7%</c> auf.",
+      "name": "Abschiedsgeschenk",
+      "shortText": "Zeitschleife hinterlässt Bomben."
+    },
+    "TracerTracerRounds|TracerTracerRounds|Trait|Level1": {
+      "fullText": "Erhöht die Reichweite automatischer Angriffe um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c>. Automatische Angriffe gegen Helden decken <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> Sek. lang einen kleinen Bereich um sie herum auf.",
+      "name": "Leuchtspurmunition",
+      "shortText": "Automatische Angriffe decken auf und haben eine erhöhte Reichweite."
+    },
+    "TracerLeechingRounds|TracerLeechingRounds|Trait|Level4": {
+      "fullText": "Erhöht die durch automatische Angriffe hervorgerufene Heilung basierend auf Tracers fehlenden Lebenspunkten um bis zu <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">200%</c>.",
+      "name": "Erste-Hilfe-Munition",
+      "shortText": "Erhöht den Lebensentzug."
+    },
+    "TracerPulseGenerator|TracerPulseGenerator|Heroic|Level4": {
+      "fullText": "Das Anheften der Impulsbombe heilt Tracer im Verlauf von <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> Sek. um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">12%</c> ihrer maximalen Lebenspunkte und stellt eine Aufladung von Warp wieder her.",
+      "name": "Impulsgenerator",
+      "shortText": "Die Impulsbombe heilt und stellt eine Aufladung von Warp wieder her."
+    },
+    "TracerIsThataHealthPack|TracerIsthataHealthPack|Passive|Level4": {
+      "fullText": "Eingesammelte Regenerationskugeln heilen Tracer sofort um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c> ihrer maximalen Lebenspunkte und verringern die Abklingzeit von Heilbrunnen um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> Sek.<n/><n/>Das Trinken aus einem Heilbrunnen heilt Tracer sofort um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> ihrer maximalen Lebenspunkte.",
+      "name": "Ist das ein Medikit?!",
+      "shortText": "Verstärkt Regenerationskugeln und Heilbrunnen."
+    },
+    "TracerSleightofHand|TracerSleightofHand|Trait|Level7": {
+      "fullText": "Verringert die Nachladezeit um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>, wodurch sich der Schaden pro Sekunde um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> erhöht.",
+      "name": "Fingerfertigkeit",
+      "shortText": "Lädt doppelt so schnell nach."
+    },
+    "TracerFocusFire|TracerFocusFire|Trait|Level7": {
+      "fullText": "Wird ein komplettes Magazin an Munition innerhalb von <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> Sek. auf einen Gegner abgefeuert, verursacht die letzte Kugel <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">80</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Bonusschaden. Das gleicht <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35%</c> des gesamten Magazins.",
+      "name": "Gezieltes Feuer",
+      "shortText": "Verursacht Bonusschaden, wenn ein ganzes Magazin auf den gleichen Gegner gefeuert wird."
+    },
+    "TracerLockedandLoaded|TracerLockedandLoaded|Trait|Level7": {
+      "fullText": "Erhöht den Schaden des nächsten Magazins um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c>, wenn Nachladen während der letzten <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> der Einsatzzeit erneut aktiviert wird.",
+      "name": "Geladen und entsichert",
+      "shortText": "Perfekt getimter Einsatz von Nachladen erhöht den Schaden automatischer Angriffe."
+    },
+    "TracerStickyBomb|TracerStickyBomb|Heroic|Level10": {
+      "fullText": "Erhöht den Radius der Impulsbombe um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> und verlangsamt getroffene Gegner <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> Sek. lang um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">70%</c>.",
+      "name": "Slow Motion",
+      "shortText": "Vergrößert den Wirkungsbereich der Impulsbombe und verlangsamt Gegner."
+    },
+    "TracerQuantumSpike|TracerQuantumSpike|Heroic|Level10": {
+      "fullText": "Die Impulsbombe fügt getroffenen Helden zusätzlich Schaden in Höhe von <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6%</c> ihrer maximalen Lebenspunkte zu.",
+      "name": "Bombenerfolg",
+      "shortText": "Die Impulsbombe verursacht prozentualen Schaden."
+    },
+    "TracerPulseRounds|TracerPulseRounds|Heroic|Level10": {
+      "fullText": "Erhöht die Reichweite der Impulsbombe und die Aufladungsrate durch automatische Angriffe gegen Helden um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c>.",
+      "name": "Bombenweitwurf",
+      "shortText": "Erhöht die Reichweite der Impulsbombe und lädt sie schneller auf."
+    },
+    "TracerUntouchable|TracerUntouchable|Q|Level13": {
+      "fullText": "<c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Passiv:</c> Erhöht die Bewegungsgeschwindigkeit nach dem Warpen <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.25</c> Sek. lang um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Quest:</c> Töte gegnerische Helden, um den Schaden automatischer Angriffe jeweils um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5%</c> zu erhöhen, bis maximal <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>. Dieser Bonus geht beim Tod verloren.",
+      "name": "Unschlagbar",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Quest:</c> Kills erhöhen den Schaden automatischer Angriffe."
+    },
+    "TracerJumper|TracerJumper|Q|Level13": {
+      "fullText": "<c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Passiv:</c> Schließt die Abklingzeit von Warp <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> schneller ab, wenn keine Aufladungen verfügbar sind.<n/><n/>Warp gewährt <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> Sek. lang einen Schild in Höhe von <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6%</c> der maximalen Lebenspunkte. Dieser Schild ist bis zu <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>-mal stapelbar.",
+      "name": "Hyperwarp",
+      "shortText": "Warp gewährt einen Schild und klingt schneller ab."
+    },
+    "TracerTelefrag|TracerTelefrag|E|Level13": {
+      "fullText": "<c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Passiv:</c> Automatische Angriffe gegen Helden verringern die Abklingzeit von Zeitschleife um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.1875</c> Sek.<n/><n/>Macht Tracer beim Erscheinen am Zielort <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> Sek. lang unbesiegbar, fügt Gegnern in der Nähe <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">175</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Schaden zu und stößt sie zurück. ",
+      "name": "Telefrag",
+      "shortText": "Stößt Gegner am Zielort von Zeitschleife zurück und fügt ihnen Schaden zu."
+    },
+    "TracerBulletSprayMelee|TracerBulletSprayMelee|W|Level16": {
+      "fullText": "Erhöht den Radius der Nahkampfattacke um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c>. Sie fügt außerdem allen Gegnern in Reichweite Schaden zu.",
+      "name": "Kugelregen",
+      "shortText": "Die Nahkampfattacke trifft alle Gegner in Reichweite."
+    },
+    "TracerHeavyHanded|TracerHeavyHanded|W|Level16": {
+      "fullText": "Die Nahkampfattacke verringert die Panzerung getroffener Helden <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> Sek. lang um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c>.",
+      "name": "Harter Haken",
+      "shortText": "Die Nahkampfattacke verringert Panzerung."
+    },
+    "TracerRicochetHeroWeapon|TracerRicochetHeroWeapon|Trait|Level16": {
+      "fullText": "Automatische Angriffe haben eine Chance von <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60%</c>, einen weiteren Gegner in der Nähe zu treffen, wobei Helden bevorzugt werden.",
+      "name": "Querschläger",
+      "shortText": "Automatische Angriffe können weitere Gegner in der Nähe treffen."
+    },
+    "TracerChronoTriggers|TracerChronoTriggers|Q|Level20": {
+      "fullText": "Nach dem Einsatz von Warp verbrauchen automatische Angriffe <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> Sek. lang keine Munition.",
+      "name": "Chronomunition",
+      "shortText": "Warp hebt Munitionskosten auf."
+    },
+    "TracerGetStuffedMelee|TracerGetStuffedMelee|W|Level20": {
+      "fullText": "Nahkampfattacken gegen Helden laden die Impulsbombe um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> statt um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c> auf. Wenn die Nahkampfattacke einen Gegner trifft, an den eine Impulsbombe angeheftet ist, explodiert die Bombe sofort und das Ziel wird von Tracer weggestoßen.",
+      "name": "Time-out",
+      "shortText": "Verstärkt die Nahkampfattacke."
+    },
+    "TracerTotalRecallRecall|TracerTotalRecallRecall|E|Level20": {
+      "fullText": "Zeitschleife heilt Tracer um die Lebenspunkte, die sie während der zurückgespulten Zeit verloren hat.",
+      "name": "Zeit heilt alle Wunden",
+      "shortText": "Zeitschleife kann heilen."
+    },
+    "TracerCompositionBPulseBomb|TracerCompositionBPulseBomb|Heroic|Level20": {
+      "fullText": "Wenn eine Impulsbombe einen gegnerischen Helden trifft, lässt Tracer zu Füßen dieses Helden eine zweite Bombe fallen, die <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> des Schadens verursacht und etwas früher explodiert als die erste.",
+      "name": "Composit B",
+      "shortText": "Lässt eine zweite Impulsbombe fallen, wenn die erste einen Helden trifft."
+    }
+  },
+  "units": {}
+}

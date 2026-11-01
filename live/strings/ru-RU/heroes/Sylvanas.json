@@ -1,0 +1,218 @@
+{
+  "abilities": {
+    "SylvanasWitheringFire|SylvanasWitheringFire|Q": {
+      "cooldownText": "Время восстановления: 8 сек.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Мана: 25</s>",
+      "fullText": "Поражает ближайшего противника до <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> <lang rule=\"plural\" val=\"\">раза,раз,раз</lang> в течение <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> сек., нанося <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">39</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона. В первую очередь поражает героев. Восстанавливается при убийстве героя.",
+      "name": "Губительный обстрел",
+      "shortText": "Стреляет в ближайшего противника. Восстанавливается при убийстве героя."
+    },
+    "SylvanasShadowDagger|SylvanasShadowDagger|W": {
+      "cooldownText": "Время восстановления: 11 сек.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Мана: 50</s>",
+      "fullText": "Бросает в цель кинжал, нанося ей <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона и дополнительно <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. в течение <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c> сек. Когда Сильвана наносит урон основной цели, эффект «Кинжала тени» переходит на находящихся рядом противников.",
+      "name": "Кинжал тени",
+      "shortText": "Наносит периодический урон и распространяется при нанесении урона."
+    },
+    "SylvanasHauntingWave|SylvanasHauntingWave|E": {
+      "cooldownText": "Время восстановления: 11 сек.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Мана: 75</s>",
+      "fullText": "Посылает стаю банши, наносящую <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">114</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона всем пораженным противникам. Можно использовать повторно, чтобы телепортироваться в место, где находятся банши.",
+      "name": "Блуждающие духи",
+      "shortText": "Наносит урон и позволяет телепортироваться."
+    },
+    "SylvanasWailingArrow|SylvanasWailingArrow|Heroic": {
+      "cooldownText": "Время восстановления: 90 сек.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Мана: 100</s>",
+      "fullText": "Выпускает стрелу, которая при повторном использовании способности взрывается, нанося <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">228</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона противникам в области поражения и поражая их эффектом немоты на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c> сек. Пролетев максимальное расстояние, стрела взрывается автоматически.",
+      "name": "Стенающая стрела",
+      "shortText": "Наносит урон и применяет эффект немоты."
+    },
+    "SylvanasMindControlMissile|SylvanasMindControlMissile|Heroic": {
+      "cooldownText": "Время восстановления: 40 сек.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Мана: 50</s>",
+      "fullText": "После паузы в <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.25</c> сек. выпускает стрелу, которая подчиняет разум первого вражеского героя на своем пути. Этот герой немеет, замедляется на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c> и движется к Сильване в течение <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.75</c> сек. Цель также получает <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> <lang rule=\"plural\" val=\"\">эффект,эффекта,эффектов</lang> «Черных стрел».",
+      "name": "Контроль над разумом",
+      "shortText": "Заставляет вражеского героя двигаться к Сильване."
+    },
+    ":PASSIVE:|SylvanasBlackArrowsPassive|Trait": {
+      "fullText": "При автоатаках на врагов накладываются эффекты «Черных стрел» на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> сек. Эффекты могут накапливаться до <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> раз. Сильвана наносит на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c> больше урона врагам с <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> эффектами.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Задача:</c> наносите урон героям и строениям с <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> эффектами «Черных стрел».<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Награда:</c> при нанесении урона врагам <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">250</c> <lang rule=\"plural\" val=\"\"\">раз,раза,раз</lang> дополнительный урон от «Черных стрел» увеличится до <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Эпохальная награда:</c> при нанесении урона врагам <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">400</c> <lang rule=\"plural\" val=\"\"\">раз,раза,раз</lang> «Черные стрелы» будут исцелять Сильвану на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> от урона, наносимого при <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> эффектах. Этот показатель удваивается при нанесении урона героям.",
+      "name": "Черные стрелы",
+      "shortText": "Автоатаки накладывают эффекты «Черных стрел», увеличивая урон Сильваны."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Время восстановления: 4 сек.",
+      "fullText": "После подготовки длительностью <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> сек. повышает скорость передвижения на <s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Вызов транспорта"
+    },
+    "SylvanasPossession|SylvanasPossession|Active": {
+      "cooldownText": "Время восстановления заряда: 25 сек.",
+      "fullText": "При использовании заставляет воина сражаться на стороне команды Сильваны. Для подчинения катапульты требуется <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> заряда. Максимум зарядов — <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>.",
+      "name": "Одержимость",
+      "shortText": "Делает вражеского воина союзником."
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "После поддержания в течение <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> сек. телепортирует героя в Зал Штормов, моментально восполняя <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c> ед. здоровья и <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c> ед. маны.",
+      "name": "Возвращение"
+    },
+    "SylvanasHauntingWaveActivate|SylvanasHauntingWaveActivate|E": {
+      "fullText": "При использовании телепортирует в место, где находятся банши.",
+      "name": "Телепортация к духам"
+    },
+    "SylvanasHauntingWaveActivateWindrunnerTalent|SylvanasHauntingWaveActivateFree|E": {
+      "fullText": "При использовании телепортирует в место, где находятся банши.",
+      "name": "Телепортация к духам"
+    },
+    "SylvanasMindControlCancel|SylvanasMindControlCancel|Heroic": {
+      "fullText": "При использовании отменяет действие «Контроля над разумом».",
+      "name": "Отмена «Контроля над разумом»",
+      "shortText": "Отмена «Контроля над разумом»"
+    },
+    "SylvanasWailingArrowActivate|SylvanasWailingArrowActivate|Heroic": {
+      "fullText": "При использовании досрочно взрывает «Стенающую стрелу».",
+      "name": "Стенающая стрела"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Покинуть транспорт.",
+      "name": "Отмена транспорта"
+    },
+    "SylvanasBlackArrowsActive|SylvanasBlackArrows|Trait": {
+      "cooldownText": "Время восстановления: 90 сек.",
+      "fullText": "При автоатаках на врагов накладываются эффекты «Черных стрел» на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> сек. Эффекты могут накапливаться до <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> раз. Сильвана наносит на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c> больше урона врагам с <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> эффектами.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Задача:</c> наносите урон героям и строениям с <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> эффектами «Черных стрел».<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Награда:</c> при нанесении урона врагам <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">250</c> <lang rule=\"plural\" val=\"\">раз,раза,раз</lang> дополнительный урон от «Черных стрел» увеличится до <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Эпохальная награда:</c> при нанесении урона врагам <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">400</c> <lang rule=\"plural\" val=\"\">раз,раза,раз</lang> «Черные стрелы» будут исцелять Сильвану на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> от урона, наносимого при <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> эффектах. Этот показатель удваивается при нанесении урона героям.",
+      "name": "Черные стрелы",
+      "shortText": "Автоатаки накладывают эффекты «Черных стрел», увеличивая урон Сильваны."
+    },
+    "SylvanasHauntingWaveWindrunnerTalent|SylvanasHauntingWaveFree|E": {
+      "fullText": "Посылает стаю банши, наносящую <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">114</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона всем пораженным противникам. Можно использовать повторно, чтобы телепортироваться в место, где находятся банши.",
+      "name": "Блуждающие духи",
+      "shortText": "Наносит урон и позволяет телепортироваться."
+    },
+    "SylvanasWillOfTheForsaken|SylvanasWillOfTheForsaken|Active": {
+      "cooldownText": "Время восстановления: 60 сек.",
+      "fullText": "При использовании Сильвана становится неудержимой, а скорость ее передвижения повышается на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c>. Время действия – <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> сек.",
+      "name": "Воля Отрекшихся",
+      "shortText": "Дает неудержимость и ускоряет передвижение."
+    },
+    "FlashoftheStorms|GenericBoltoftheStormTalent|Active": {
+      "cooldownText": "Время восстановления: 70 сек.",
+      "fullText": "При использовании телепортирует вашего героя на небольшое расстояние.",
+      "name": "Штормовой заряд",
+      "shortText": "Телепортирует на небольшое расстояние."
+    }
+  },
+  "talents": {
+    "SylvanasTalentMightOfTheBansheeQueen|SylvanasMightOfTheBansheeQueenWitheringFireTalent|Q|Level1": {
+      "fullText": "Когда «Губительный обстрел» поражает героя, скорость атаки и сила способностей Сильваны увеличиваются на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5%</c> на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> сек. Суммируется до <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> раз.",
+      "name": "Мощь Королевы-банши",
+      "shortText": "«Губительный обстрел» повышает скорость атаки и силу способностей."
+    },
+    "SylvanasUnrelentingTorment|SylvanasUnrelentingTorment|W|Level1": {
+      "fullText": "Увеличивает урон от «Кинжала тени» на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c>, а время его действия — на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> сек.",
+      "name": "Вечное мучение",
+      "shortText": "Увеличивает урон от «Кинжала тени» и время его действия."
+    },
+    "SylvanasTalentOverwhelmingAffliction|SylvanasBlackArrowsOverwhelmingAfflictionTalent|Trait|Level1": {
+      "fullText": "Замедляет героев, находящихся под действием <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> эффектов «Черных стрел» на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c>. Автоатаки Сильваны по замедленным героям наносят урон в объеме <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1%</c> от их максимального запаса здоровья.",
+      "name": "Переполняющая скорбь",
+      "shortText": "«Черные стрелы» замедляют и наносят героям больше урона."
+    },
+    "SylvanasTalentUnstablePoison|SylvanasBlackArrowsUnstablePoisonTalent|W|Level4": {
+      "fullText": "Воины, находящиеся под действием «Кинжала тени» или умения Сильваны, взрываются при гибели, нанося <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона воинам, наемникам и призванным существам рядом с собой.",
+      "name": "Нестабильный яд",
+      "shortText": "Вражеские воины могут взрываться при смерти."
+    },
+    "SylvanasTalentMercenaryQueen|SylvanasMercenaryQueenTalent|Trait|Level4": {
+      "fullText": "Союзные неэлитные наемники рядом с Сильваной наносят на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60%</c> больше урона.<n/><n/>Автоатаки Сильваны оглушают нейтральных наемников и мгновенно накладывают на них <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> эффекта «Черных стрел». Сильвана наносит на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c> больше урона наемникам с <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> эффектами «Черных стрел».",
+      "name": "Королева наемников",
+      "shortText": "Нейтральные наемники рядом с Сильваной оглушаются, а союзные — усиливаются."
+    },
+    "SylvanasHauntingArrows|SylvanasBlackArrowsHauntingArrowsTalent|Trait|Level4": {
+      "cooldownText": "Время восстановления: 90 сек.",
+      "fullText": "При использовании «Черных стрел» автоатаки и способности Сильваны оглушают воинов и нейтрализуют строения на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> сек. Время действия — <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> сек. Автоатаки по строениям сокращают время восстановления на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> сек.",
+      "name": "Блуждающие стрелы",
+      "shortText": "«Черные стрелы» накладывают эффекты контроля."
+    },
+    "SylvanasTalentWitheringFireBarbedShot|SylvanasWitheringFireBarbedShotTalent|Q|Level7": {
+      "fullText": "Если <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> выстрелов «Губительного обстрела» поражают одного и того же противника, <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5-й</c> выстрел наносит на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">400%</c> больше урона.",
+      "name": "Зазубренные стрелы",
+      "shortText": "«Губительный обстрел» наносит дополнительный урон."
+    },
+    "SylvanasTalentLostSoul|SylvanasShadowDaggerLostSoulTalent|W|Level7": {
+      "fullText": "Каждая автоатака по герою или строению с <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> эффектами «Черных стрел» сокращает время восстановления «Кинжала тени» на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.75</c> сек. Этот бонус удваивается при автоатаках по героям.",
+      "name": "Потерянные души",
+      "shortText": "Автоатаки ускоряют восстановление «Кинжала тени»."
+    },
+    "SylvanasTalentFesteringWounds|SylvanasBlackArrowsFesteringWounds|E|Level7": {
+      "fullText": "«Блуждающие духи» наносят на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c> больше урона и поражают цели <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> эффектами «Черных стрел».",
+      "name": "Гнойные раны",
+      "shortText": "«Блуждающие духи» накладывают эффекты «Черных стрел»."
+    },
+    "SylvanasHeroicAbilityWailingArrow|SylvanasWailingArrow|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 90 сек.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Мана: 100</s>",
+      "fullText": "Выпускает стрелу, которая при повторном использовании способности взрывается, нанося <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">228</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона противникам в области поражения и поражая их эффектом немоты на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c> сек. Пролетев максимальное расстояние, стрела взрывается автоматически.",
+      "name": "Стенающая стрела",
+      "shortText": "Наносит урон и применяет эффект немоты."
+    },
+    "SylvanasMindControl|SylvanasMindControlMissile|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 40 сек.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Мана: 50</s>",
+      "fullText": "После паузы в <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.25</c> сек. выпускает стрелу, которая подчиняет разум первого вражеского героя на своем пути. Этот герой немеет, замедляется на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c> и движется к Сильване в течение <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.75</c> сек. Цель также получает <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> <lang rule=\"plural\" val=\"\">эффект,эффекта,эффектов</lang> «Черных стрел».",
+      "name": "Контроль над разумом",
+      "shortText": "Заставляет вражеского героя двигаться к Сильване."
+    },
+    "SylvanasTalentColdEmbrace|SylvanasShadowDaggerColdEmbraceTalent|W|Level13": {
+      "fullText": "Основная цель «Кинжала тени» теряет <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c> ед. брони, а дополнительные цели – <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> ед. брони на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c> сек.",
+      "name": "Холодные объятия",
+      "shortText": "«Кинжал тени» ослабляет броню."
+    },
+    "SylvanasTalentWindrunnerHauntingWave|SylvanasHauntingWaveWindrunnerTalent|E|Level13": {
+      "fullText": "После телепортации с помощью «Блуждающих духов» их можно применить повторно без затрат маны в течение <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> сек. Телепортация с помощью «Блуждающих духов» восстанавливает «Губительный обстрел».",
+      "name": "Ветрокрылая",
+      "shortText": "«Блуждающие духи» применяются дважды и восстанавливают «Губительный обстрел»."
+    },
+    "SylvanasTalentRemorseless|SylvanasRemorselessTalent|Trait|Level13": {
+      "fullText": "Автоатаки по героям с <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> эффектами «Черных стрел» применяют к целям базовую версию «Губительного обстрела». Этот «Губительный обстрел» поражает цель «Черными стрелами».<n/><n/>Увеличивает дальность автоатак на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> м.",
+      "name": "Беспощадность",
+      "shortText": "Применяет «Губительный обстрел» при автоатаке."
+    },
+    "SylvanasTalentWitheringFireEvasiveFire|SylvanasWitheringFireEvasiveFireTalent|Q|Level16": {
+      "fullText": "Каждое попадание «Губительного обстрела» повышает скорость передвижения Сильваны на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6%</c> на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> сек., вплоть до <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c>. Автоатаки обновляют время действия эффекта.",
+      "name": "Отход под прикрытием",
+      "shortText": "«Губительный обстрел» ускоряет передвижение."
+    },
+    "SylvanasTalentLifeDrain|SylvanasBlackArrowsLifeDrainTalent|Trait|Level16": {
+      "fullText": "Сильвана восполняет здоровье в объеме <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c> от урона, наносимого противникам, которые находятся под действием <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> эффектов «Черных стрел». Восполняет вдвое больше здоровья, если цель — герой.",
+      "name": "Похищение жизни",
+      "shortText": "Исцеляет Сильвану при нанесении урона."
+    },
+    "SylvanasTalentWillOfTheForsaken|SylvanasWillOfTheForsaken|Active|Level16": {
+      "cooldownText": "Время восстановления: 60 сек.",
+      "fullText": "При использовании Сильвана становится неудержимой, а скорость ее передвижения повышается на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c>. Время действия – <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> сек.",
+      "name": "Воля Отрекшихся",
+      "shortText": "Дает неудержимость и ускоряет передвижение."
+    },
+    "SylvanasWailingArrowDeafeningBlast|SylvanasWailingArrowDeafeningBlastTalent|Heroic|Level20": {
+      "fullText": "Противники в центре взрыва «Стенающей стрелы» получают на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> больше урона, а поражающий их эффект немоты длится вдвое дольше.",
+      "name": "Оглушительный взрыв",
+      "shortText": "Повышает эффективность «Стенающей стрелы» в центре взрыва."
+    },
+    "SylvanasDarkLadysCall|SylvanasDarkLadysCallMindControlTalent|Heroic|Level20": {
+      "fullText": "Значительно уменьшает радиус обзора героев, попавших под действие «Контроля над разумом», на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> сек. Уменьшает время восстановления «Контроля над разумом» на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c> сек.",
+      "name": "Зов Темной Госпожи",
+      "shortText": "«Контроль над разумом» уменьшает радиус обзора целей."
+    },
+    "SylvanasTalentWitheringBarrage|SylvanasWitheringFireWitheringBarrage|Q|Level20": {
+      "fullText": "«Губительный обстрел» накладывает эффекты «Черных стрел». Время восстановления «Губительного обстрела» сокращается на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.75</c> сек. при каждом поражении героя.",
+      "name": "Губительный залп",
+      "shortText": "«Губительный обстрел» накладывает эффекты «Черных стрел»."
+    },
+    "GenericTalentFlashoftheStorms|GenericBoltoftheStormTalent|Active|Level20": {
+      "cooldownText": "Время восстановления: 70 сек.",
+      "fullText": "При использовании телепортирует вашего героя на небольшое расстояние.",
+      "name": "Штормовой заряд",
+      "shortText": "Телепортирует на небольшое расстояние."
+    }
+  },
+  "units": {}
+}

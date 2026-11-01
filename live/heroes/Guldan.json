@@ -1,0 +1,663 @@
+{
+  "id": "Guldan",
+  "unitId": "HeroGuldan",
+  "hyperlinkId": "Guldan",
+  "attributeId": "Guld",
+  "franchise": "Warcraft",
+  "rarity": "Epic",
+  "releaseDate": "2016-07-12",
+  "isMelee": false,
+  "gender": "Male",
+  "radius": 0.8125,
+  "innerRadius": 0.8125,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "GuldanVeterancyMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 6,
+    "damage": 8,
+    "survivability": 5,
+    "utility": 3
+  },
+  "life": {
+    "amount": 1700,
+    "scale": 0.04,
+    "regenRate": 3.543,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 0
+  },
+  "playstyles": [
+    "RoleCaster",
+    "SoloLaner",
+    "TowerPusher",
+    "WaveClearer"
+  ],
+  "weapons": [
+    {
+      "nameId": "HeroGuldan",
+      "isDisabled": false,
+      "range": 5.5,
+      "minimumRange": 0,
+      "period": 1,
+      "damage": 60,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "GuldanDark18",
+    "GuldanSpider",
+    "GuldanToon20",
+    "GuldanUltimate"
+  ],
+  "variationSkinIds": [
+    "GuldanBaseVar1",
+    "GuldanBaseVar2",
+    "GuldanBaseVar3",
+    "GuldanBaseVar4"
+  ],
+  "voiceLineIds": [
+    "GuldanBase_VoiceLine01",
+    "GuldanBase_VoiceLine02",
+    "GuldanBase_VoiceLine03",
+    "GuldanBase_VoiceLine04",
+    "GuldanBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "GuldanFelFlame|GuldanFelFlame|Q",
+        "abilityId": "GuldanFelFlame",
+        "buttonId": "GuldanFelFlame",
+        "icon": "storm_ui_icon_guldan_felflame.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "GuldanDrainLife|GuldanDrainLife|W",
+        "abilityId": "GuldanDrainLife",
+        "buttonId": "GuldanDrainLife",
+        "icon": "storm_ui_icon_guldan_healthfunnel.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "GuldanCorruption|GuldanCorruption|E",
+        "abilityId": "GuldanCorruption",
+        "buttonId": "GuldanCorruption",
+        "icon": "storm_ui_icon_guldan_handofguldan.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "GuldanHorrify|GuldanHorrify|Heroic",
+        "abilityId": "GuldanHorrify",
+        "buttonId": "GuldanHorrify",
+        "icon": "storm_ui_icon_guldan_horrify.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "GuldanRainOfDestruction|GuldanRainOfDestruction|Heroic",
+        "abilityId": "GuldanRainOfDestruction",
+        "buttonId": "GuldanRainOfDestruction",
+        "icon": "storm_ui_icon_guldan_rainoffire.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": "GuldanLifeTap|GuldanLifeTap|Trait",
+        "abilityId": "GuldanLifeTap",
+        "buttonId": "GuldanLifeTap",
+        "icon": "storm_ui_icon_guldan_lifetap.png",
+        "toggleCooldown": 0.5,
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "GuldanDrainLife|GuldanDrainLife|W": {
+      "Basic": [
+        {
+          "linkId": "GuldanDrainLifeCancel|GuldanDrainLifeCancel|W",
+          "abilityId": "GuldanDrainLifeCancel",
+          "buttonId": "GuldanDrainLifeCancel",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "W"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "GuldanDemonicCircleSummon|GuldanDemonicCircleSummon|Active": {
+      "Activable": [
+        {
+          "linkId": "GuldanDemonicCircleTeleport|GuldanDemonicCircleTeleport|Active",
+          "abilityId": "GuldanDemonicCircleTeleport",
+          "buttonId": "GuldanDemonicCircleTeleport",
+          "icon": "storm_ui_icon_guldan_demoniccircle_a.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "GuldanConsumeSoul|GuldanConsumeSoul|Active|Level4": {
+      "Activable": [
+        {
+          "linkId": "GuldanConsumeSoul|GuldanConsumeSoul|Active",
+          "abilityId": "GuldanConsumeSoul",
+          "buttonId": "GuldanConsumeSoul",
+          "icon": "storm_ui_icon_guldan_darkpact.png",
+          "charges": {
+            "countMax": 3,
+            "countStart": 3,
+            "countUse": 1,
+            "isCountHidden": false
+          },
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "GuldanHealthstone|GuldanHealthstone|Active|Level13": {
+      "Activable": [
+        {
+          "linkId": "GuldanHealthstone|GuldanHealthstone|Active",
+          "abilityId": "GuldanHealthstone",
+          "buttonId": "GuldanHealthstone",
+          "icon": "storm_ui_icon_guldan_healthstone.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "GuldanLifeTapDarknessWithin|GuldanLifeTapDarknessWithin|Trait|Level16": {
+      "Trait": [
+        {
+          "linkId": "GuldanLifeTapFree|GuldanLifeTapFree|Trait",
+          "abilityId": "GuldanLifeTapFree",
+          "buttonId": "GuldanLifeTapFree",
+          "icon": "storm_ui_icon_guldan_lifetap.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Trait"
+        }
+      ]
+    },
+    "GuldanDemonicCircle|GuldanDemonicCircle|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "GuldanDemonicCircleSummon|GuldanDemonicCircleSummon|Active",
+          "abilityId": "GuldanDemonicCircleSummon",
+          "buttonId": "GuldanDemonicCircleSummon",
+          "icon": "storm_ui_icon_guldan_demoniccircle.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "GuldanFelFlamePursuitOfFlame|GuldanFelFlameTalentPursuitOfFlame|Q|Level1",
+        "talentId": "GuldanFelFlamePursuitOfFlame",
+        "buttonId": "GuldanFelFlameTalentPursuitOfFlame",
+        "abilityId": "GuldanFelFlame",
+        "icon": "storm_ui_icon_guldan_felflame.png",
+        "abilityType": "Q",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "GuldanFelFlame|GuldanFelFlame|Q"
+        ]
+      },
+      {
+        "linkId": "GuldanChaoticEnergy|GuldanChaoticEnergy|W|Level1",
+        "talentId": "GuldanChaoticEnergy",
+        "buttonId": "GuldanChaoticEnergy",
+        "abilityId": "GuldanDrainLife",
+        "icon": "storm_ui_icon_guldan_healthfunnel.png",
+        "abilityType": "W",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "GuldanDrainLife|GuldanDrainLife|W"
+        ]
+      },
+      {
+        "linkId": "GuldanCorruptionEchoedCorruption|GuldanCorruptionEchoedCorruption|E|Level1",
+        "talentId": "GuldanCorruptionEchoedCorruption",
+        "buttonId": "GuldanCorruptionEchoedCorruption",
+        "abilityId": "GuldanCorruption",
+        "icon": "storm_ui_icon_guldan_handofguldan.png",
+        "abilityType": "E",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "GuldanCorruption|GuldanCorruption|E"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "GuldanDrainLifeHealthFunnel|GuldanDrainLifeHealthFunnel|W|Level4",
+        "talentId": "GuldanDrainLifeHealthFunnel",
+        "buttonId": "GuldanDrainLifeHealthFunnel",
+        "abilityId": "GuldanDrainLife",
+        "icon": "storm_ui_icon_guldan_healthfunnel.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "GuldanDrainLife|GuldanDrainLife|W"
+        ]
+      },
+      {
+        "linkId": "GuldanLifeTapImprovedLifeTap|GuldanLifeTapImprovedLifeTap|Trait|Level4",
+        "talentId": "GuldanLifeTapImprovedLifeTap",
+        "buttonId": "GuldanLifeTapImprovedLifeTap",
+        "abilityId": "GuldanLifeTap",
+        "icon": "storm_ui_icon_guldan_lifetap.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "GuldanLifeTap|GuldanLifeTap|Trait",
+          "GuldanLifeTapFree|GuldanLifeTapFree|Trait"
+        ]
+      },
+      {
+        "linkId": "GuldanConsumeSoul|GuldanConsumeSoul|Active|Level4",
+        "talentId": "GuldanConsumeSoul",
+        "buttonId": "GuldanConsumeSoul",
+        "abilityId": "GuldanConsumeSoul",
+        "icon": "storm_ui_icon_guldan_darkpact.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "GuldanFelFlameBoundByShadow|GuldanFelFlameBoundByShadow|Q|Level7",
+        "talentId": "GuldanFelFlameBoundByShadow",
+        "buttonId": "GuldanFelFlameBoundByShadow",
+        "abilityId": "GuldanFelFlame",
+        "icon": "storm_ui_icon_guldan_felflame.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "GuldanFelFlame|GuldanFelFlame|Q"
+        ]
+      },
+      {
+        "linkId": "GuldanCorruptionCurseOfExhaustion|GuldanCorruptionCurseOfExhaustion|W|Level7",
+        "talentId": "GuldanCorruptionCurseOfExhaustion",
+        "buttonId": "GuldanCorruptionCurseOfExhaustion",
+        "abilityId": "GuldanDrainLife",
+        "icon": "storm_ui_icon_guldan_healthfunnel.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "GuldanDrainLife|GuldanDrainLife|W"
+        ]
+      },
+      {
+        "linkId": "GuldanLifeTapHungerforPower|GuldanLifeTapHungerforPower|Passive|Level7",
+        "talentId": "GuldanLifeTapHungerforPower",
+        "buttonId": "GuldanLifeTapHungerforPower",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_guldan_hungerforpower.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "GuldanLifeTap|GuldanLifeTap|Trait",
+          "GuldanLifeTapFree|GuldanLifeTapFree|Trait"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "GuldanHorrify|GuldanHorrify|Heroic|Level10",
+        "talentId": "GuldanHorrify",
+        "buttonId": "GuldanHorrify",
+        "abilityId": "GuldanHorrify",
+        "icon": "storm_ui_icon_guldan_horrify.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "GuldanRainOfDestruction|GuldanRainOfDestruction|Heroic|Level10",
+        "talentId": "GuldanRainOfDestruction",
+        "buttonId": "GuldanRainOfDestruction",
+        "abilityId": "GuldanRainOfDestruction",
+        "icon": "storm_ui_icon_guldan_rainoffire.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "GuldanFelFlameFelArmor|GuldanFelFlameFelArmor|Q|Level13",
+        "talentId": "GuldanFelFlameFelArmor",
+        "buttonId": "GuldanFelFlameFelArmor",
+        "abilityId": "GuldanFelFlame",
+        "icon": "storm_ui_icon_guldan_felflame.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "GuldanFelFlame|GuldanFelFlame|Q"
+        ]
+      },
+      {
+        "linkId": "GuldanDrainLifeHarvestLife|GuldanDrainLifeHarvestLife|W|Level13",
+        "talentId": "GuldanDrainLifeHarvestLife",
+        "buttonId": "GuldanDrainLifeHarvestLife",
+        "abilityId": "GuldanDrainLife",
+        "icon": "storm_ui_icon_guldan_healthfunnel.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "GuldanDrainLife|GuldanDrainLife|W"
+        ]
+      },
+      {
+        "linkId": "GuldanDarkBargain|GuldanDarkBargain|Passive|Level13",
+        "talentId": "GuldanDarkBargain",
+        "buttonId": "GuldanDarkBargain",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_guldan_darkbargain.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "GuldanLifeTap|GuldanLifeTap|Trait",
+          "GuldanLifeTapFree|GuldanLifeTapFree|Trait"
+        ]
+      },
+      {
+        "linkId": "GuldanHealthstone|GuldanHealthstone|Active|Level13",
+        "talentId": "GuldanHealthstone",
+        "buttonId": "GuldanHealthstone",
+        "abilityId": "GuldanHealthstone",
+        "icon": "storm_ui_icon_guldan_healthstone.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "GuldanFelFlameRampantHellfire|GuldanFelFlameRampantHellfire|Q|Level16",
+        "talentId": "GuldanFelFlameRampantHellfire",
+        "buttonId": "GuldanFelFlameRampantHellfire",
+        "abilityId": "GuldanFelFlame",
+        "icon": "storm_ui_icon_guldan_felflame.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "GuldanFelFlame|GuldanFelFlame|Q"
+        ]
+      },
+      {
+        "linkId": "GuldanCorruptionRuinousAffliction|GuldanCorruptionRuinousAffliction|E|Level16",
+        "talentId": "GuldanCorruptionRuinousAffliction",
+        "buttonId": "GuldanCorruptionRuinousAffliction",
+        "abilityId": "GuldanCorruption",
+        "icon": "storm_ui_icon_guldan_handofguldan.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "GuldanCorruption|GuldanCorruption|E"
+        ]
+      },
+      {
+        "linkId": "GuldanLifeTapDarknessWithin|GuldanLifeTapDarknessWithin|Trait|Level16",
+        "talentId": "GuldanLifeTapDarknessWithin",
+        "buttonId": "GuldanLifeTapDarknessWithin",
+        "abilityId": "GuldanLifeTap",
+        "icon": "storm_ui_icon_guldan_lifetap.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "GuldanLifeTap|GuldanLifeTap|Trait",
+          "GuldanLifeTapFree|GuldanLifeTapFree|Trait"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "GuldanHorrifyHaunt|GuldanHorrifyHaunt|Heroic|Level20",
+        "talentId": "GuldanHorrifyHaunt",
+        "buttonId": "GuldanHorrifyHaunt",
+        "abilityId": "GuldanHorrify",
+        "icon": "storm_ui_icon_guldan_horrify.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "GuldanHorrify|GuldanHorrify|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "GuldanHorrify"
+        ]
+      },
+      {
+        "linkId": "GuldanRainOfDestructionDeepImpact|GuldanRainOfDestructionDeepImpact|Heroic|Level20",
+        "talentId": "GuldanRainOfDestructionDeepImpact",
+        "buttonId": "GuldanRainOfDestructionDeepImpact",
+        "abilityId": "GuldanRainOfDestruction",
+        "icon": "storm_ui_icon_guldan_rainoffire.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "GuldanRainOfDestruction|GuldanRainOfDestruction|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "GuldanRainOfDestruction"
+        ]
+      },
+      {
+        "linkId": "GuldanDemonicCircle|GuldanDemonicCircle|Active|Level20",
+        "talentId": "GuldanDemonicCircle",
+        "buttonId": "GuldanDemonicCircle",
+        "abilityId": "GuldanDemonicCircleSummon",
+        "icon": "storm_ui_icon_guldan_demoniccircle.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ]
+  },
+  "sheet": "sheets/Guldan.webp",
+  "icons": {
+    "storm_ui_icon_guldan_felflame.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_guldan_healthfunnel.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_guldan_handofguldan.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_guldan_horrify.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_guldan_rainoffire.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_guldan_lifetap.png": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_mount.png": [
+      256,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      384,
+      128,
+      111,
+      71
+    ],
+    "hud_btn_bg_ability_cancel.png": [
+      0,
+      256,
+      97,
+      111
+    ],
+    "storm_ui_icon_generic_cancel_mount.png": [
+      128,
+      256,
+      76,
+      48
+    ],
+    "storm_ui_icon_guldan_demoniccircle_a.png": [
+      256,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_guldan_darkpact.png": [
+      384,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_guldan_healthstone.png": [
+      0,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_guldan_demoniccircle.png": [
+      128,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_guldan_hungerforpower.png": [
+      256,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_guldan_darkbargain.png": [
+      384,
+      384,
+      128,
+      128
+    ]
+  }
+}

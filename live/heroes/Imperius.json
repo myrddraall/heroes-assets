@@ -1,0 +1,619 @@
+{
+  "id": "Imperius",
+  "unitId": "HeroImperius",
+  "hyperlinkId": "Imperius",
+  "attributeId": "IMPE",
+  "franchise": "Diablo",
+  "rarity": "Legendary",
+  "releaseDate": "2019-01-08",
+  "isMelee": true,
+  "gender": "Male",
+  "radius": 0.8125,
+  "innerRadius": 0.8125,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 6,
+    "damage": 6,
+    "survivability": 5,
+    "utility": 6
+  },
+  "life": {
+    "amount": 2375,
+    "scale": 0.04,
+    "regenRate": 4.9492,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "BodyBlocker",
+    "EnergyImportant",
+    "Ganker",
+    "Overconfident",
+    "SoloLaner"
+  ],
+  "weapons": [
+    {
+      "nameId": "ImperiusHeroWeapon",
+      "isDisabled": false,
+      "range": 2,
+      "minimumRange": 0,
+      "period": 1.2,
+      "damage": 126,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "ImperiusDemonic19",
+    "ImperiusSummer20"
+  ],
+  "variationSkinIds": [
+    "ImperiusVar1",
+    "ImperiusVar2",
+    "ImperiusVar3",
+    "ImperiusVar4"
+  ],
+  "voiceLineIds": [
+    "ImperiusBase_VoiceLine01",
+    "ImperiusBase_VoiceLine02",
+    "ImperiusBase_VoiceLine03",
+    "ImperiusBase_VoiceLine04",
+    "ImperiusBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "ImperiusCelestialCharge|ImperiusCelestialCharge|Q",
+        "abilityId": "ImperiusCelestialCharge",
+        "buttonId": "ImperiusCelestialCharge",
+        "icon": "storm_ui_icon_imperius_q.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "ImperiusSolarionsFire|ImperiusSolarionsFire|W",
+        "abilityId": "ImperiusSolarionsFire",
+        "buttonId": "ImperiusSolarionsFire",
+        "icon": "storm_ui_icon_imperius_w.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "ImperiusMoltenArmor|ImperiusMoltenArmor|E",
+        "abilityId": "ImperiusMoltenArmor",
+        "buttonId": "ImperiusMoltenArmor",
+        "icon": "storm_ui_icon_imperius_e.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "ImperiusAngelicArmaments|ImperiusAngelicArmaments|Heroic",
+        "abilityId": "ImperiusAngelicArmaments",
+        "buttonId": "ImperiusAngelicArmaments",
+        "icon": "storm_ui_icon_imperius_r1.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "ImperiusWrathOfTheAngiris|ImperiusWrathOfTheAngiris|Heroic",
+        "abilityId": "ImperiusWrathOfTheAngiris",
+        "buttonId": "ImperiusWrathOfTheAngiris",
+        "icon": "storm_ui_icon_imperius_r2.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": ":PASSIVE:|ImperiusValorousBrand|Trait",
+        "abilityId": ":PASSIVE:",
+        "buttonId": "ImperiusValorousBrand",
+        "icon": "storm_ui_icon_imperius_trait.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "ImperiusHolyFervor|ImperiusHolyFervor|Active|Level7": {
+      "Activable": [
+        {
+          "linkId": "ImperiusHolyFervor|ImperiusHolyFervor|Active",
+          "abilityId": "ImperiusHolyFervor",
+          "buttonId": "ImperiusHolyFervor",
+          "icon": "storm_ui_icon_imperius_item_01.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "ImperiusValorousPursuit|ImperiusValorousPursuit|Active|Level16": {
+      "Activable": [
+        {
+          "linkId": "ImperiusValorousPursuit|ImperiusValorousPursuit|Active",
+          "abilityId": "ImperiusValorousPursuit",
+          "buttonId": "ImperiusValorousPursuit",
+          "icon": "storm_ui_icon_imperius_item_03.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "ImperiusImpervious|ImperiusImpervious|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "ImperiusImpervious|ImperiusImpervious|Active",
+          "abilityId": "ImperiusImpervious",
+          "buttonId": "ImperiusImpervious",
+          "icon": "storm_ui_icon_imperius_item_02.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "ImperiusCelestialChargeImpalingLight|ImperiusCelestialChargeImpalingLight|Q|Level1",
+        "talentId": "ImperiusCelestialChargeImpalingLight",
+        "buttonId": "ImperiusCelestialChargeImpalingLight",
+        "abilityId": "ImperiusCelestialCharge",
+        "icon": "storm_ui_icon_imperius_q.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ImperiusCelestialCharge|ImperiusCelestialCharge|Q"
+        ]
+      },
+      {
+        "linkId": "ImperiusSolarionsFireConsumingFlame|ImperiusSolarionsFireConsumingFlame|W|Level1",
+        "talentId": "ImperiusSolarionsFireConsumingFlame",
+        "buttonId": "ImperiusSolarionsFireConsumingFlame",
+        "abilityId": "ImperiusSolarionsFire",
+        "icon": "storm_ui_icon_imperius_w.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ImperiusSolarionsFire|ImperiusSolarionsFire|W"
+        ]
+      },
+      {
+        "linkId": "ImperiusValorousBrandBurnTheImpure|ImperiusValorousBrandBurnTheImpure|Trait|Level1",
+        "talentId": "ImperiusValorousBrandBurnTheImpure",
+        "buttonId": "ImperiusValorousBrandBurnTheImpure",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_imperius_trait.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|ImperiusValorousBrand|Trait"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "ImperiusMoltenArmorSovereignArmor|ImperiusMoltenArmorSovereignArmor|E|Level4",
+        "talentId": "ImperiusMoltenArmorSovereignArmor",
+        "buttonId": "ImperiusMoltenArmorSovereignArmor",
+        "abilityId": "ImperiusMoltenArmor",
+        "icon": "storm_ui_icon_imperius_e.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ImperiusMoltenArmor|ImperiusMoltenArmor|E"
+        ]
+      },
+      {
+        "linkId": "ImperiusValorousBrandBattleHunger|ImperiusValorousBrandBattleHunger|Trait|Level4",
+        "talentId": "ImperiusValorousBrandBattleHunger",
+        "buttonId": "ImperiusValorousBrandBattleHunger",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_imperius_trait.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|ImperiusValorousBrand|Trait"
+        ]
+      },
+      {
+        "linkId": "ImperiusPressForward|ImperiusPressForward|Passive|Level4",
+        "talentId": "ImperiusPressForward",
+        "buttonId": "ImperiusPressForward",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_imperius_globe.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|ImperiusValorousBrand|Trait"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "ImperiusCelestialChargeFlashOfAnger|ImperiusCelestialChargeFlashOfAnger|Q|Level7",
+        "talentId": "ImperiusCelestialChargeFlashOfAnger",
+        "buttonId": "ImperiusCelestialChargeFlashOfAnger",
+        "abilityId": "ImperiusCelestialCharge",
+        "icon": "storm_ui_icon_imperius_q.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ImperiusCelestialCharge|ImperiusCelestialCharge|Q"
+        ]
+      },
+      {
+        "linkId": "ImperiusSolarionsFireBlazeOfGlory|ImperiusSolarionsFireBlazeOfGlory|W|Level7",
+        "talentId": "ImperiusSolarionsFireBlazeOfGlory",
+        "buttonId": "ImperiusSolarionsFireBlazeOfGlory",
+        "abilityId": "ImperiusSolarionsFire",
+        "icon": "storm_ui_icon_imperius_w.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ImperiusSolarionsFire|ImperiusSolarionsFire|W"
+        ]
+      },
+      {
+        "linkId": "ImperiusHolyFervor|ImperiusHolyFervor|Active|Level7",
+        "talentId": "ImperiusHolyFervor",
+        "buttonId": "ImperiusHolyFervor",
+        "abilityId": "ImperiusHolyFervor",
+        "icon": "storm_ui_icon_imperius_item_01.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "ImperiusAngelicArmaments|ImperiusAngelicArmaments|Heroic|Level10",
+        "talentId": "ImperiusAngelicArmaments",
+        "buttonId": "ImperiusAngelicArmaments",
+        "abilityId": "ImperiusAngelicArmaments",
+        "icon": "storm_ui_icon_imperius_r1.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "ImperiusWrathOfTheAngiris|ImperiusWrathOfTheAngiris|Heroic|Level10",
+        "talentId": "ImperiusWrathOfTheAngiris",
+        "buttonId": "ImperiusWrathOfTheAngiris",
+        "abilityId": "ImperiusWrathOfTheAngiris",
+        "icon": "storm_ui_icon_imperius_r2.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "ImperiusCelestialChargePatheticMortals|ImperiusCelestialChargePatheticMortals|Q|Level13",
+        "talentId": "ImperiusCelestialChargePatheticMortals",
+        "buttonId": "ImperiusCelestialChargePatheticMortals",
+        "abilityId": "ImperiusCelestialCharge",
+        "icon": "storm_ui_icon_imperius_q.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ImperiusCelestialCharge|ImperiusCelestialCharge|Q"
+        ]
+      },
+      {
+        "linkId": "ImperiusMoltenArmorDivineRage|ImperiusMoltenArmorDivineRage|E|Level13",
+        "talentId": "ImperiusMoltenArmorDivineRage",
+        "buttonId": "ImperiusMoltenArmorDivineRage",
+        "abilityId": "ImperiusMoltenArmor",
+        "icon": "storm_ui_icon_imperius_e.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ImperiusMoltenArmor|ImperiusMoltenArmor|E"
+        ]
+      },
+      {
+        "linkId": "ImperiusMoltenArmorHeatOfBattle|ImperiusMoltenArmorHeatOfBattle|E|Level13",
+        "talentId": "ImperiusMoltenArmorHeatOfBattle",
+        "buttonId": "ImperiusMoltenArmorHeatOfBattle",
+        "abilityId": "ImperiusMoltenArmor",
+        "icon": "storm_ui_icon_imperius_e_alt_01.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "ImperiusMoltenArmor|ImperiusMoltenArmor|E"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "ImperiusCelestialChargeCelestialSwiftness|ImperiusCelestialSwiftness|Q|Level16",
+        "talentId": "ImperiusCelestialChargeCelestialSwiftness",
+        "buttonId": "ImperiusCelestialSwiftness",
+        "abilityId": "ImperiusCelestialCharge",
+        "icon": "storm_ui_icon_imperius_q.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ImperiusCelestialCharge|ImperiusCelestialCharge|Q"
+        ]
+      },
+      {
+        "linkId": "ImperiusMoltenArmorMeltingTouch|ImperiusMoltenArmorMeltingTouch|E|Level16",
+        "talentId": "ImperiusMoltenArmorMeltingTouch",
+        "buttonId": "ImperiusMoltenArmorMeltingTouch",
+        "abilityId": "ImperiusMoltenArmor",
+        "icon": "storm_ui_icon_imperius_e.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ImperiusMoltenArmor|ImperiusMoltenArmor|E"
+        ]
+      },
+      {
+        "linkId": "ImperiusValorousPursuit|ImperiusValorousPursuit|Active|Level16",
+        "talentId": "ImperiusValorousPursuit",
+        "buttonId": "ImperiusValorousPursuit",
+        "abilityId": "ImperiusValorousPursuit",
+        "icon": "storm_ui_icon_imperius_item_03.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "ImperiusAngelicArmamentsHeavenlyHost|ImperiusAngelicArmamentsHeavenlyHost|Heroic|Level20",
+        "talentId": "ImperiusAngelicArmamentsHeavenlyHost",
+        "buttonId": "ImperiusAngelicArmamentsHeavenlyHost",
+        "abilityId": "ImperiusAngelicArmaments",
+        "icon": "storm_ui_icon_imperius_r1.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ImperiusAngelicArmaments|ImperiusAngelicArmaments|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "ImperiusAngelicArmaments"
+        ]
+      },
+      {
+        "linkId": "ImperiusWrathOfTheAngirisUnrelentingDescent|ImperiusWrathOfTheAngirisUnrelentingDescent|Heroic|Level20",
+        "talentId": "ImperiusWrathOfTheAngirisUnrelentingDescent",
+        "buttonId": "ImperiusWrathOfTheAngirisUnrelentingDescent",
+        "abilityId": "ImperiusWrathOfTheAngiris",
+        "icon": "storm_ui_icon_imperius_r2.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ImperiusWrathOfTheAngiris|ImperiusWrathOfTheAngiris|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "ImperiusWrathOfTheAngiris"
+        ]
+      },
+      {
+        "linkId": "ImperiusMoltenWrath|ImperiusMoltenWrath|E|Level20",
+        "talentId": "ImperiusMoltenWrath",
+        "buttonId": "ImperiusMoltenWrath",
+        "abilityId": "ImperiusMoltenArmor",
+        "icon": "storm_ui_icon_imperius_e.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "ImperiusMoltenArmor|ImperiusMoltenArmor|E"
+        ]
+      },
+      {
+        "linkId": "ImperiusValorousBrandBrandOfSolarion|ImperiusValorousBrandBrandOfSolarion|Trait|Level20",
+        "talentId": "ImperiusValorousBrandBrandOfSolarion",
+        "buttonId": "ImperiusValorousBrandBrandOfSolarion",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_imperius_trait.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|ImperiusValorousBrand|Trait"
+        ]
+      },
+      {
+        "linkId": "ImperiusImpervious|ImperiusImpervious|Active|Level20",
+        "talentId": "ImperiusImpervious",
+        "buttonId": "ImperiusImpervious",
+        "abilityId": "ImperiusImpervious",
+        "icon": "storm_ui_icon_imperius_item_02.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 5
+      }
+    ]
+  },
+  "sheet": "sheets/Imperius.webp",
+  "icons": {
+    "storm_ui_icon_imperius_q.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_imperius_w.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_imperius_e.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_imperius_r1.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_imperius_r2.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_imperius_trait.png": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_mount.png": [
+      256,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      384,
+      128,
+      111,
+      71
+    ],
+    "storm_ui_icon_generic_cancel_mount.png": [
+      0,
+      256,
+      76,
+      48
+    ],
+    "storm_ui_icon_imperius_item_01.png": [
+      128,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_imperius_item_03.png": [
+      256,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_imperius_item_02.png": [
+      384,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_imperius_globe.png": [
+      0,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_imperius_e_alt_01.png": [
+      128,
+      384,
+      128,
+      128
+    ]
+  }
+}

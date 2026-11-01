@@ -1,0 +1,676 @@
+{
+  "id": "Barbarian",
+  "unitId": "HeroBarbarian",
+  "hyperlinkId": "Sonya",
+  "attributeId": "Barb",
+  "franchise": "Diablo",
+  "rarity": "Epic",
+  "releaseDate": "2014-03-13",
+  "isMelee": true,
+  "gender": "Female",
+  "radius": 0.75,
+  "innerRadius": 0.75,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "BattleBeast",
+  "ratings": {
+    "complexity": 5,
+    "damage": 7,
+    "survivability": 6,
+    "utility": 5
+  },
+  "life": {
+    "amount": 2450,
+    "scale": 0.04,
+    "regenRate": 5.1054,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 100,
+    "regenRate": 0
+  },
+  "playstyles": [
+    "Ganker",
+    "MercKiller",
+    "Overconfident",
+    "RoleAutoAttacker",
+    "RoleCaster",
+    "SoloLaner",
+    "WaveClearer"
+  ],
+  "weapons": [
+    {
+      "nameId": "HeroBarbarian",
+      "isDisabled": false,
+      "range": 1.5,
+      "minimumRange": 0,
+      "period": 0.8,
+      "damage": 84,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "BarbarianDeathKnightFemale",
+    "BarbarianDeathKnightFemaleVar5",
+    "BarbarianLegionFemale",
+    "BarbarianSummer18",
+    "BarbarianWrathFemale",
+    "SonyaUltimate",
+    "SuperSonya"
+  ],
+  "variationSkinIds": [
+    "BarbarianBaseVar3",
+    "BarbarianBaseVar4",
+    "BarbarianBlue",
+    "BarbarianRed"
+  ],
+  "voiceLineIds": [
+    "BarbarianBase_VoiceLine01",
+    "BarbarianBase_VoiceLine02",
+    "BarbarianBase_VoiceLine03",
+    "BarbarianBase_VoiceLine04",
+    "BarbarianBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "BarbarianAncientSpear|BarbarianAncientSpear|Q",
+        "abilityId": "BarbarianAncientSpear",
+        "buttonId": "BarbarianAncientSpear",
+        "icon": "storm_ui_icon_sonya_ancientspear.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "BarbarianSeismicSlam|BarbarianSeismicSlam|W",
+        "abilityId": "BarbarianSeismicSlam",
+        "buttonId": "BarbarianSeismicSlam",
+        "icon": "storm_ui_icon_sonya_seismicslam.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "BarbarianWhirlwind|BarbarianWhirlwind|E",
+        "abilityId": "BarbarianWhirlwind",
+        "buttonId": "BarbarianWhirlwind",
+        "icon": "storm_ui_icon_sonya_whirlwind.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "BarbarianLeap|BarbarianLeap|Heroic",
+        "abilityId": "BarbarianLeap",
+        "buttonId": "BarbarianLeap",
+        "icon": "storm_ui_icon_sonya_leap.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "BarbarianWrathoftheBerserker|BarbarianWrathoftheBerserker|Heroic",
+        "abilityId": "BarbarianWrathoftheBerserker",
+        "buttonId": "BarbarianWrathoftheBerserker",
+        "icon": "storm_ui_icon_sonya_wrathoftheberserker.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": ":PASSIVE:|BarbarianFury|Trait",
+        "abilityId": ":PASSIVE:",
+        "buttonId": "BarbarianFury",
+        "icon": "storm_ui_icon_sonya_fury.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|HearthstoneNoMana|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "HearthstoneNoMana",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "BarbarianWhirlwind|BarbarianWhirlwind|E": {
+      "Basic": [
+        {
+          "linkId": "BarbarianWhirlwindCancel|BarbarianWhirlwindCancel|E",
+          "abilityId": "BarbarianWhirlwindCancel",
+          "buttonId": "BarbarianWhirlwindCancel",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "toggleCooldown": 0.75,
+          "abilityType": "E"
+        }
+      ]
+    },
+    "BarbarianLeap|BarbarianLeap|Heroic": {
+      "Heroic": [
+        {
+          "linkId": "BarbarianCancelLeapArreatCrater|BarbarianLeapArreatCraterCancel|Heroic",
+          "abilityId": "BarbarianCancelLeapArreatCrater",
+          "buttonId": "BarbarianLeapArreatCraterCancel",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "abilityType": "Heroic"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "BarbarianShotOfFury|BarbarianFuryShotOfFuryTalent|Trait|Level4": {
+      "Trait": [
+        {
+          "linkId": "BarbarianShotofFury|BarbarianFuryShotOfFury|Trait",
+          "abilityId": "BarbarianShotofFury",
+          "buttonId": "BarbarianFuryShotOfFury",
+          "icon": "storm_ui_icon_sonya_fury.png",
+          "abilityType": "Trait"
+        }
+      ]
+    },
+    "BarbarianBattleRage|BarbarianBattleRage|Active|Level7": {
+      "Activable": [
+        {
+          "linkId": "BarbarianBattleRage|BarbarianBattleRage|Active",
+          "abilityId": "BarbarianBattleRage",
+          "buttonId": "BarbarianBattleRage",
+          "icon": "storm_ui_icon_talent_mercenarylord.png",
+          "charges": {
+            "countMax": 2,
+            "countUse": 1,
+            "recastCooldown": 8,
+            "isCountHidden": false
+          },
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "BarbarianNervesOfSteel|BarbarianNervesOfSteel|Active|Level16": {
+      "Activable": [
+        {
+          "linkId": "BarbarianNervesOfSteel|BarbarianNervesOfSteel|Active",
+          "abilityId": "BarbarianNervesOfSteel",
+          "buttonId": "BarbarianNervesOfSteel",
+          "icon": "storm_ui_icon_sonya_nervesofsteel.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "BarbarianStridingGiant|BarbarianStridingGiant|Heroic|Level20": {
+      "Activable": [
+        {
+          "linkId": "BarbarianStridingGiant|BarbarianStridingGiantActive|Heroic",
+          "abilityId": "BarbarianStridingGiant",
+          "buttonId": "BarbarianStridingGiantActive",
+          "icon": "storm_ui_icon_sonya_wrathoftheberserker_b.png",
+          "abilityType": "Heroic"
+        }
+      ]
+    },
+    "BarbarianIgnorePain|BarbarianIgnorePain|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "BarbarianIgnorePain|BarbarianIgnorePain|Active",
+          "abilityId": "BarbarianIgnorePain",
+          "buttonId": "BarbarianIgnorePain",
+          "icon": "storm_ui_icon_sonya_ignorepain.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "BarbarianFuriousBlow|BarbarianSeismicSlamFuriousBlowTalent|W|Level1",
+        "talentId": "BarbarianFuriousBlow",
+        "buttonId": "BarbarianSeismicSlamFuriousBlowTalent",
+        "abilityId": "BarbarianSeismicSlam",
+        "icon": "storm_ui_icon_sonya_seismicslam.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "BarbarianSeismicSlam|BarbarianSeismicSlam|W"
+        ]
+      },
+      {
+        "linkId": "BarbarianWarPaint|BarbarianFuryWarPaintTalent|Passive|Level1",
+        "talentId": "BarbarianWarPaint",
+        "buttonId": "BarbarianFuryWarPaintTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_heal.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|BarbarianFury|Trait",
+          "BarbarianShotofFury|BarbarianFuryShotOfFury|Trait"
+        ]
+      },
+      {
+        "linkId": "BarbarianToughAsNails|BarbarianToughAsNails|Passive|Level1",
+        "talentId": "BarbarianToughAsNails",
+        "buttonId": "BarbarianToughAsNails",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_block.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "BarbarianShatteredGround|BarbarianSeismicSlamShatteredGroundTalent|W|Level4",
+        "talentId": "BarbarianShatteredGround",
+        "buttonId": "BarbarianSeismicSlamShatteredGroundTalent",
+        "abilityId": "BarbarianSeismicSlam",
+        "icon": "storm_ui_icon_sonya_seismicslam.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "BarbarianSeismicSlam|BarbarianSeismicSlam|W"
+        ]
+      },
+      {
+        "linkId": "BarbarianHurricane|BarbarianHurricaneWhirlwindTalent|E|Level4",
+        "talentId": "BarbarianHurricane",
+        "buttonId": "BarbarianHurricaneWhirlwindTalent",
+        "abilityId": "BarbarianWhirlwind",
+        "icon": "storm_ui_icon_sonya_whirlwind.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "BarbarianWhirlwind|BarbarianWhirlwind|E"
+        ]
+      },
+      {
+        "linkId": "BarbarianShotOfFury|BarbarianFuryShotOfFuryTalent|Trait|Level4",
+        "talentId": "BarbarianShotOfFury",
+        "buttonId": "BarbarianFuryShotOfFuryTalent",
+        "abilityId": "BarbarianShotofFury",
+        "icon": "storm_ui_icon_sonya_fury.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|BarbarianFury|Trait",
+          "BarbarianShotofFury|BarbarianFuryShotOfFury|Trait"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "BarbarianPoisonedSpear|BarbarianAncientSpearPoisonedSpearTalent|Q|Level7",
+        "talentId": "BarbarianPoisonedSpear",
+        "buttonId": "BarbarianAncientSpearPoisonedSpearTalent",
+        "abilityId": "BarbarianAncientSpear",
+        "icon": "storm_ui_icon_sonya_ancientspear.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "BarbarianAncientSpear|BarbarianAncientSpear|Q"
+        ]
+      },
+      {
+        "linkId": "BarbarianLifeFunnel|BarbarianWhirlwindLifeFunnelTalent|E|Level7",
+        "talentId": "BarbarianLifeFunnel",
+        "buttonId": "BarbarianWhirlwindLifeFunnelTalent",
+        "abilityId": "BarbarianWhirlwind",
+        "icon": "storm_ui_icon_sonya_whirlwind.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "BarbarianWhirlwind|BarbarianWhirlwind|E"
+        ]
+      },
+      {
+        "linkId": "BarbarianBattleRage|BarbarianBattleRage|Active|Level7",
+        "talentId": "BarbarianBattleRage",
+        "buttonId": "BarbarianBattleRage",
+        "abilityId": "BarbarianBattleRage",
+        "icon": "storm_ui_icon_talent_mercenarylord.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "BarbarianHeroicAbilityLeap|BarbarianLeap|Heroic|Level10",
+        "talentId": "BarbarianHeroicAbilityLeap",
+        "buttonId": "BarbarianLeap",
+        "abilityId": "BarbarianLeap",
+        "icon": "storm_ui_icon_sonya_leap.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "BarbarianHeroicAbilityWrathoftheBerserker|BarbarianWrathoftheBerserker|Heroic|Level10",
+        "talentId": "BarbarianHeroicAbilityWrathoftheBerserker",
+        "buttonId": "BarbarianWrathoftheBerserker",
+        "abilityId": "BarbarianWrathoftheBerserker",
+        "icon": "storm_ui_icon_sonya_wrathoftheberserker.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "BarbarianMysticalSpear|BarbarianAncientSpearMysticalSpearTalent|Q|Level13",
+        "talentId": "BarbarianMysticalSpear",
+        "buttonId": "BarbarianAncientSpearMysticalSpearTalent",
+        "abilityId": "BarbarianAncientSpear",
+        "icon": "storm_ui_icon_sonya_ancientspear.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "BarbarianAncientSpear|BarbarianAncientSpear|Q"
+        ]
+      },
+      {
+        "linkId": "BarbarianRuthless|BarbarianRuthless|E|Level13",
+        "talentId": "BarbarianRuthless",
+        "buttonId": "BarbarianRuthless",
+        "abilityId": "BarbarianWhirlwind",
+        "icon": "storm_ui_icon_sonya_whirlwind.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "BarbarianWhirlwind|BarbarianWhirlwind|E"
+        ]
+      },
+      {
+        "linkId": "BarbarianNoEscape|BarbarianFuryNoEscapeTalent|Trait|Level13",
+        "talentId": "BarbarianNoEscape",
+        "buttonId": "BarbarianFuryNoEscapeTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_sonya_fury.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|BarbarianFury|Trait",
+          "BarbarianShotofFury|BarbarianFuryShotOfFury|Trait"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "BarbarianGiantSlammer|BarbarianGiantSlammer|W|Level16",
+        "talentId": "BarbarianGiantSlammer",
+        "buttonId": "BarbarianGiantSlammer",
+        "abilityId": "BarbarianSeismicSlam",
+        "icon": "storm_ui_icon_sonya_seismicslam.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "BarbarianSeismicSlam|BarbarianSeismicSlam|W"
+        ]
+      },
+      {
+        "linkId": "BarbarianRampage|BarbarianRampage|Passive|Level16",
+        "talentId": "BarbarianRampage",
+        "buttonId": "BarbarianRampage",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_cooldown.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2
+      },
+      {
+        "linkId": "BarbarianNervesOfSteel|BarbarianNervesOfSteel|Active|Level16",
+        "talentId": "BarbarianNervesOfSteel",
+        "buttonId": "BarbarianNervesOfSteel",
+        "abilityId": "BarbarianNervesOfSteel",
+        "icon": "storm_ui_icon_sonya_nervesofsteel.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "BarbarianArreatCrater|BarbarianLeapArreatCraterTalent|Heroic|Level20",
+        "talentId": "BarbarianArreatCrater",
+        "buttonId": "BarbarianLeapArreatCraterTalent",
+        "abilityId": "BarbarianLeap",
+        "icon": "storm_ui_icon_sonya_leap.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "BarbarianLeap|BarbarianLeap|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "BarbarianHeroicAbilityLeap"
+        ]
+      },
+      {
+        "linkId": "BarbarianStridingGiant|BarbarianStridingGiant|Heroic|Level20",
+        "talentId": "BarbarianStridingGiant",
+        "buttonId": "BarbarianStridingGiant",
+        "abilityId": "BarbarianWrathoftheBerserker",
+        "icon": "storm_ui_icon_sonya_wrathoftheberserker.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "BarbarianWrathoftheBerserker|BarbarianWrathoftheBerserker|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "BarbarianHeroicAbilityWrathoftheBerserker"
+        ]
+      },
+      {
+        "linkId": "BarbarianCompositeSpear|BarbarianAncientSpearCompositeSpearTalent|Q|Level20",
+        "talentId": "BarbarianCompositeSpear",
+        "buttonId": "BarbarianAncientSpearCompositeSpearTalent",
+        "abilityId": "BarbarianAncientSpear",
+        "icon": "storm_ui_icon_sonya_ancientspear.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "BarbarianAncientSpear|BarbarianAncientSpear|Q"
+        ]
+      },
+      {
+        "linkId": "BarbarianIgnorePain|BarbarianIgnorePain|Active|Level20",
+        "talentId": "BarbarianIgnorePain",
+        "buttonId": "BarbarianIgnorePain",
+        "abilityId": "BarbarianIgnorePain",
+        "icon": "storm_ui_icon_sonya_ignorepain.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      }
+    ]
+  },
+  "sheet": "sheets/Barbarian.webp",
+  "icons": {
+    "storm_ui_icon_sonya_ancientspear.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_sonya_seismicslam.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_sonya_whirlwind.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_sonya_leap.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_sonya_wrathoftheberserker.png": [
+      512,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_sonya_fury.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_mount.png": [
+      128,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      256,
+      128,
+      111,
+      71
+    ],
+    "hud_btn_bg_ability_cancel.png": [
+      384,
+      128,
+      97,
+      111
+    ],
+    "storm_ui_icon_generic_cancel_mount.png": [
+      512,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_talent_mercenarylord.png": [
+      0,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_sonya_nervesofsteel.png": [
+      128,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_sonya_wrathoftheberserker_b.png": [
+      256,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_sonya_ignorepain.png": [
+      384,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_autoattack_heal.png": [
+      512,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_block.png": [
+      0,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_autoattack_cooldown.png": [
+      128,
+      384,
+      128,
+      128
+    ]
+  }
+}

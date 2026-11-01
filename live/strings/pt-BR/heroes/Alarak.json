@@ -1,0 +1,229 @@
+{
+  "abilities": {
+    "AlarakDiscordStrike|AlarakDiscordStrike|Q": {
+      "cooldownText": "Recarga: 8 segundos",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 55</s>",
+      "fullText": "Depois de um atraso de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c> segundo, os inimigos na frente de Alarak recebem <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">165</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> de dano e são silenciados por <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> segundo. ",
+      "name": "Golpe da Discórdia",
+      "shortText": "Causa dano e silencia os inimigos em uma área"
+    },
+    "AlarakTelekinesis|AlarakTelekinesis|W": {
+      "cooldownText": "Recarga: 12 segundos",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 30</s>",
+      "fullText": "<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">Mira Vetorial</c><n/>Cria uma força que empurra Alarak e todos os inimigos atingidos do ponto-alvo até a direção desejada. Causa <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">48</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> de dano aos inimigos.",
+      "name": "Telecinese",
+      "shortText": "Empurra inimigos para um local"
+    },
+    "AlarakLightningSurge|AlarakLightningSurge|E": {
+      "cooldownText": "Recarga: 6 segundos",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 25</s>",
+      "fullText": "Causa <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">62</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> de dano a um inimigo e mais <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> de dano aos inimigos entre Alarak e o alvo. Restaura <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> de Vida para cada Herói atingido.",
+      "name": "Surto de Raios",
+      "shortText": "Causa dano a inimigos em linha reta"
+    },
+    "AlarakDeadlyChargeActivate|AlarakDeadlyCharge|Heroic": {
+      "cooldownText": "Recarga: 45 segundos",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Depois de canalizar, Alarak investe à frente, causando <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">200</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> de dano a todos os inimigos no caminho. A distância aumenta com base na quantidade de tempo de canalização, até um máximo de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> s.<n/><n/>Emitir uma ordem de movimentação enquanto estiver canalizando cancelará o lançamento sem custo. Receber dano interromperá a canalização.",
+      "name": "Investida Mortal",
+      "shortText": "Canalize para investir por uma longa distância"
+    },
+    "AlarakCounterStrikeTargeted|AlarakCounterStrikeTargeted|Heroic": {
+      "cooldownText": "Recarga: 30 segundos",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Alarak mira em uma área e canaliza por <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> s, ficando Protegido e Irrefreável. Depois disso, se um Herói inimigo o tiver atacado, ele lançará uma onda de choque que causa <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">275</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> de dano.",
+      "name": "Contra-ataque",
+      "shortText": "Previne dano e causa dano em uma grande área"
+    },
+    ":PASSIVE:|AlarakSadism|Trait": {
+      "fullText": "A cura em si e o dano de habilidade de Alarak aumentam em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> contra Heróis inimigos.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Missão repetível:</c> Abates aumentam o Sadismo em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3%</c>, acumulando até <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c>. O Sadismo recebido de Abates é perdido ao morrer.",
+      "name": "Sadismo",
+      "shortText": "Cada ponto de Sadismo aumenta o dano de habilidade de Alarak e a cura em si em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1%</c> contra Heróis inimigos.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Missão repetível:</c> Abates aumentam o Sadismo em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3%</c>, acumulando até <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c>. O Sadismo recebido de abates é perdido ao morrer."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Recarga: 4 segundos",
+      "fullText": "Depois de canalizar por <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> s, ganha <s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s> de Velocidade de Movimento.",
+      "name": "Evocar Montaria"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Depois de canalizar por <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> s, teleporta você de volta para o Salão das Tempestades, restaurando instantaneamente <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c> de Vida e <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c> de Mana.",
+      "name": "Pedra de Regresso"
+    },
+    "AlarakCounterStrikeTargeted2ndHeroic|AlarakCounterStrike2ndHeroicSadism|Trait": {
+      "cooldownText": "Recarga: 30 segundos",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Alarak mira em uma área e canaliza por <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> s, ficando Protegido e Irrefreável. Depois disso, se um Herói inimigo o tiver atacado, ele lançará uma onda de choque que causa <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">275</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> de dano.<n/><n/><s val=\"cbe8ff-ffffff\" hlt-name=\"StandardTooltipHeader\">Sadismo</s><n/><n/>A cura em si e o dano de habilidade de Alarak aumentam em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> contra Heróis inimigos.<n/><n/>Abates aumentam o Sadismo em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3%</c>, acumulando até <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c>. O Sadismo recebido de abates é perdido ao morrer.",
+      "name": "Contra-ataque",
+      "shortText": "Causa dano de habilidade aumentado aos Heróis"
+    },
+    "AlarakDeadlyChargeExecute|AlarakUnleashDeadlyCharge|Heroic": {
+      "fullText": "Libera a Investida Mortal de Alarak.<n/><n/>Emitir uma ordem de mover enquanto estiver canalizando cancelará o lançamento sem custo. Receber dano interromperá a canalização.",
+      "name": "Liberar Investida Mortal",
+      "shortText": "Investida Impensada"
+    },
+    "AlarakDeadlyChargeActivate2ndHeroic|AlarakDeadlyCharge2ndHeroicSadism|Trait": {
+      "cooldownText": "Recarga: 45 segundos",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Depois de canalizar, Alarak investe à frente, causando <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">200</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> de dano a todos os inimigos no caminho. A distância aumenta com base na quantidade de tempo de canalização, até um máximo de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> s.<n/><n/>Emitir uma ordem de movimentação enquanto estiver canalizando cancelará o lançamento sem custo. Receber dano interromperá a canalização.<n/><n/><s val=\"cbe8ff-ffffff\" hlt-name=\"StandardTooltipHeader\">Sadismo</s><n/><n/>A cura em si e o dano de habilidade de Alarak aumentam em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> contra Heróis inimigos.<n/><n/>Abates aumentam o Sadismo em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3%</c>, até <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c>. O Sadismo recebido de abates é perdido ao morrer.",
+      "name": "Investida Mortal",
+      "shortText": "Causa dano de habilidade aumentado aos Heróis"
+    },
+    "AlarakDeadlyChargeExecute2ndHeroic|AlarakUnleashDeadlyCharge|Trait": {
+      "fullText": "Libera a Investida Mortal de Alarak.<n/><n/>Emitir uma ordem de mover enquanto estiver canalizando cancelará o lançamento sem custo. Receber dano interromperá a canalização.",
+      "name": "Liberar Investida Mortal",
+      "shortText": "Investida Impensada"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Desmonta você.",
+      "name": "Dispensar Montaria"
+    },
+    "AlarakRiteofRakShir|AlarakRiteofRakShir|Trait": {
+      "cooldownText": "Recarga: 300 segundos",
+      "fullText": "Ative para marcar um Herói inimigo por <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">300</c> s.<n/><n/>Atingir o Herói marcado com Golpe da Discórdia aumenta o Sadismo em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3%</c>. Matar o Herói marcado aumenta o Sadismo em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5%</c> e reduz a recarga do Rito de Rak'shir para <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> s.<n/><n/>O Sadismo obtido com o Rito de Rak'shir é perdido ao morrer.",
+      "name": "Rito de Rak'shir",
+      "shortText": "Marca e causa dano a Heróis para aumentar Sadismo"
+    },
+    "AlarakLightningSurgeLightningBarrage|AlarakLightningSurgeLightningBarrage|E": {
+      "fullText": "Causa <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">62</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> de dano a um inimigo e mais <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> de dano aos inimigos entre Alarak e o alvo. Restaura <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> de Vida para cada Herói atingido.",
+      "name": "Surto de Raios",
+      "shortText": "Causa dano a inimigos em linha reta"
+    },
+    "AlarakHastyBargain|AlarakHastyBargain|Active": {
+      "cooldownText": "Recarga: 20 segundos",
+      "fullText": "Ative para reduzir permanentemente o Sadismo de Alarak em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4%</c> e concluir a recarga das Habilidades Básicas.",
+      "name": "Barganha Apressada",
+      "shortText": "Ative para reduzir o bônus de Sadismo e concluir as recargas de Habilidades Básicas"
+    },
+    "AlarakLastLaugh|AlarakLastLaugh|Active": {
+      "cooldownText": "Recarga: 30 segundos",
+      "fullText": "Ative para se teleportar até o local selecionado e remover todos os efeitos de Enraizamento, Desaceleração e dano ao longo do tempo. Se Alarak não atingir Heróis inimigos <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> vezes com Habilidades Básicas dentro de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> s após usar Quem Ri por Último, a Vida dele será reduzida a <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>.",
+      "name": "Quem Ri por Último",
+      "shortText": "Purifica e teleporta, mas reduz a Vida"
+    },
+    "AlarakMightOfTheHighlordSetDeadlyChargeAsHeroic|AlarakMightOfTheHighlord|Active": {
+      "fullText": "Alarak ganha acesso às duas Habilidades Heroicas dele. Isso concede a ele a possibilidade de alterná-las, uma sendo usada como Heroica e a outra como Especialização.",
+      "name": "Poder do Senhor Supremo",
+      "shortText": "Ganha ambas Habilidades Heroicas"
+    },
+    "AlarakMightOfTheHighlordSetCounterStrikeAsHeroic|AlarakMightOfTheHighlord|Active": {
+      "fullText": "Alarak ganha acesso às duas Habilidades Heroicas dele. Isso concede a ele a possibilidade de alterná-las, uma sendo usada como Heroica e a outra como Especialização.",
+      "name": "Poder do Senhor Supremo",
+      "shortText": "Ganha ambas Habilidades Heroicas"
+    }
+  },
+  "talents": {
+    "AlarakOverwhelmingPowerDiscordStrike|AlarakOverwhelmingPower|Q|Level1": {
+      "fullText": "Acertar um Herói inimigo com o Golpe da Discórdia aumenta em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> a Velocidade de Ataque e faz com que os Ataques Básicos curem <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c> do dano causado, aumentado em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> do bônus de Sadismo ao atingir Heróis. Esses efeitos duram <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> s.",
+      "name": "Poder Subjugador",
+      "shortText": "Golpe da Discórdia concede Velocidade de Ataque; Roubo de Vida"
+    },
+    "AlarakRuthlessMomentum|AlarakRuthlessMomentum|W|Level1": {
+      "fullText": "Reduz o custo de mana de Telecinese de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30</c> para <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20.</c> Telecinese recarrega <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> mais rápido se Alarak tiver mais que <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">80%</c> de Vida.",
+      "name": "Embalo Implacável",
+      "shortText": "Reduz a recarga se estiver com Vida alta"
+    },
+    "AlarakExtendedLightning|AlarakExtendedLightning|E|Level1": {
+      "fullText": "Reduz o Sadismo em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Missão:</c> Atingir Heróis com a parte central do Surto de Raios.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Recompensa:</c> Após atingir <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> Heróis, aumenta o alcance do Surto de Raios em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Recompensa:</c> Após atingir <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> Heróis, a parte central também desacelerará inimigos em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> por <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> s.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Recompensa:</c> Após atingir <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> Heróis com a parte central de uma só vez, aumenta o Sadismo em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c> e recebe instantaneamente as demais Recompensas deste talento.",
+      "name": "Raio Estendido",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Missão:</c> Reduz Sadismo, potencializa Surto de Raios"
+    },
+    "AlarakChaosReigns|AlarakChaosReigns|Q|Level4": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Missão:</c> Atingir Heróis com Golpe da Discórdia.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Recompensa:</c> Após atingir <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> Heróis, aumenta o dano do Golpe da Discórdia em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Recompensa:</c> Após atingir <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> Heróis com um só Golpe da Discórdia, aumenta o dano em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Recompensa:</c> Após atingir <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> Heróis com um só Golpe da Discórdia, aumenta o dano em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100</c> e recebe instantaneamente as demais Recompensas deste talento.",
+      "name": "Reino do Caos",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Missão:</c> Atingir Heróis para aumentar o dano do Golpe da Discórdia"
+    },
+    "AlarakNegativelyCharged|AlarakNegativelyCharged|E|Level4": {
+      "fullText": "Aumenta o bônus de dano do Surto de Raios contra inimigos entre Alarak e o alvo para <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">175%</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Missão repetível:</c> Cada Herói atingido pela parte central do Surto de Raios aumenta permanentemente o bônus de dano em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5%</c>.",
+      "name": "Carga Negativa",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Missão:</c> Aumenta o dano da parte central do Surto de Raios"
+    },
+    "AlarakShowofForce|AlarakShowofForce|Trait|Level4": {
+      "fullText": "Heróis que forem atingidos por <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> habilidades de Alarak em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> s recebem mais <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">61</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> de dano e aumentam em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2%</c> o Sadismo, acumulando até <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c>. <n/><n/>O Sadismo obtido com a Demonstração de Força é perdido ao morrer.",
+      "name": "Demonstração de Força",
+      "shortText": "Habilidades em série causam dano extra; concedem Sadismo"
+    },
+    "AlarakDissonance|AlarakDissonance|Q|Level7": {
+      "fullText": "Aumenta a duração do Silêncio do Golpe da Discórdia em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0,75</c> s.",
+      "name": "Dissonância",
+      "shortText": "Aumenta a duração do Silêncio do Golpe da Discórdia"
+    },
+    "AlarakHinderedMotion|AlarakHinderedMotion|W|Level7": {
+      "fullText": "Telecinese desacelera inimigos em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c> por <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> s.",
+      "name": "Movimento Prejudicado",
+      "shortText": "Telecinese desacelera"
+    },
+    "AlarakAppliedForce|AlarakAppliedForce|W|Level7": {
+      "fullText": "Reduz o Sadismo em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c>, mas Telecinese empurra <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c> mais longe e tem o alcance aumentado em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c>.",
+      "name": "Força Aplicada",
+      "shortText": "Reduz Sadismo, aumenta distância e alcance da Telecinese"
+    },
+    "AlarakDeadlyChargeFirstHeroic|AlarakDeadlyCharge|Heroic|Level10": {
+      "cooldownText": "Recarga: 45 segundos",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Depois de canalizar, Alarak investe à frente, causando <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">200</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> de dano a todos os inimigos no caminho. A distância aumenta com base na quantidade de tempo de canalização, até um máximo de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> s.<n/><n/>Emitir uma ordem de movimentação enquanto estiver canalizando cancelará o lançamento sem custo. Receber dano interromperá a canalização.",
+      "name": "Investida Mortal",
+      "shortText": "Canalize para investir por uma longa distância"
+    },
+    "AlarakHeroicAbilityCounterStrike|AlarakCounterStrikeTargeted|Heroic|Level10": {
+      "cooldownText": "Recarga: 30 segundos",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Alarak mira em uma área e canaliza por <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> s, ficando Protegido e Irrefreável. Depois disso, se um Herói inimigo o tiver atacado, ele lançará uma onda de choque que causa <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">275</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> de dano.",
+      "name": "Contra-ataque",
+      "shortText": "Previne dano e causa dano em uma grande área"
+    },
+    "AlarakBladeoftheHighlord|AlarakBladeoftheHighlord|Trait|Level13": {
+      "fullText": "Ataques Básicos contra Heróis aumentam em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2%</c> o Sadismo, podendo acumular até <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c>.<n/><n/>O Sadismo ganho de Lâmina do Senhor Supremo é perdido ao morrer.",
+      "name": "Lâmina do Senhor Supremo",
+      "shortText": "Ataques Básicos aumentam o Sadismo"
+    },
+    "AlarakPureMalice|AlarakPureMalice|Trait|Level13": {
+      "fullText": "Sempre que um Herói aliado morre, o Sadismo de Alarak aumenta em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c>, acumulando até <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c>.<n/><n/>O Sadismo recebido de Pura Malícia é perdido ao morrer.",
+      "name": "Pura Malícia",
+      "shortText": "Mortes de aliados aumentam Sadismo"
+    },
+    "AlarakRiteofRakShir|AlarakRiteofRakShir|Trait|Level13": {
+      "cooldownText": "Recarga: 300 segundos",
+      "fullText": "Ative para marcar um Herói inimigo por <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">300</c> s.<n/><n/>Atingir o Herói marcado com Golpe da Discórdia aumenta o Sadismo em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3%</c>. Matar o Herói marcado aumenta o Sadismo em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5%</c> e reduz a recarga do Rito de Rak'shir para <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> s.<n/><n/>O Sadismo obtido com o Rito de Rak'shir é perdido ao morrer.",
+      "name": "Rito de Rak'shir",
+      "shortText": "Marca e causa dano a Heróis para aumentar Sadismo"
+    },
+    "AlarakLethalOnslaughtDiscordStrike|AlarakLethalOnslaught|Q|Level16": {
+      "fullText": "Atingir um Herói inimigo com Golpe da Discórdia concede <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> do bônus de dano de Sadismo aos Ataques Básicos de Alarak por <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> s. Ataques Básicos contra Heróis renovam a duração desse efeito.",
+      "name": "Massacre Letal",
+      "shortText": "Golpe da Discórdia concede bônus de Sadismo aos Ataques Básicos"
+    },
+    "AlarakLightningBarrage|AlarakLightningBarrage|E|Level16": {
+      "fullText": "Atingir um Herói inimigo com a parte central do Surto de Raios permite que, dentro dos próximos <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> s, ele seja lançado de novo sem custo em outro alvo que não o primeiro. Esse uso grátis não se beneficia da Barragem de Raios.",
+      "name": "Barragem de Raios",
+      "shortText": "Acertos na parte central concedem um lançamento de Surto de Raios grátis"
+    },
+    "AlarakMockingStrikes|AlarakMockingStrikes|Passive|Level16": {
+      "fullText": "Ataques Básicos contra Heróis inimigos reduzem a recarga das Habilidades Básicas de Alarak em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> s. Esse bônus dobra contra Heróis inimigos atordoados, silenciados, desacelerados ou enraizados.",
+      "name": "Golpes Provocantes",
+      "shortText": "Reduz as recargas contra Heróis incapacitados"
+    },
+    "AlarakWrathOfTheHighlord|AlarakWrathOfTheHighlord|Heroic|Level20": {
+      "fullText": "Se a Investida Mortal for a Heroica selecionada, os Heróis atingidos por ela recebem dano adicional das habilidades de Alarak, equivalente a <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75%</c> do bônus de dano de Sadismo por <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> s.<n/><n/>Se Contra-ataque for a Heroica selecionada, a recarga é reduzida em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c> s para cada Herói inimigo atingido pelas Habilidades Básicas de Alarak.",
+      "name": "Fúria do Senhor Supremo",
+      "shortText": "Investida Mortal potencializa o dano de Sadismo<n/>Habilidades Básicas reduzem a recarga de Contra-ataque"
+    },
+    "AlarakMightOfTheHighlord|AlarakMightOfTheHighlord|Active|Level20": {
+      "fullText": "Alarak ganha acesso às duas Habilidades Heroicas dele. Isso concede a ele a possibilidade de alterná-las, uma sendo usada como Heroica e a outra como Especialização.",
+      "name": "Poder do Senhor Supremo",
+      "shortText": "Ganha ambas Habilidades Heroicas"
+    },
+    "AlarakLastLaugh|AlarakLastLaugh|Active|Level20": {
+      "cooldownText": "Recarga: 30 segundos",
+      "fullText": "Ative para se teleportar até o local selecionado e remover todos os efeitos de Enraizamento, Desaceleração e dano ao longo do tempo. Se Alarak não atingir Heróis inimigos <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> vezes com Habilidades Básicas dentro de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> s após usar Quem Ri por Último, a Vida dele será reduzida a <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>.",
+      "name": "Quem Ri por Último",
+      "shortText": "Purifica e teleporta, mas reduz a Vida"
+    },
+    "AlarakHastyBargain|AlarakHastyBargain|Active|Level20": {
+      "cooldownText": "Recarga: 20 segundos",
+      "fullText": "Ative para reduzir permanentemente o Sadismo de Alarak em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4%</c> e concluir a recarga das Habilidades Básicas.",
+      "name": "Barganha Apressada",
+      "shortText": "Ative para reduzir o bônus de Sadismo e concluir as recargas de Habilidades Básicas"
+    }
+  },
+  "units": {}
+}

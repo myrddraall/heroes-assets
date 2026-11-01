@@ -1,0 +1,207 @@
+{
+  "abilities": {
+    "AnaHealingDart|AnaHealingDart|Q": {
+      "cooldownText": "재사용 대기시간: 2초",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">마나: 10</s>",
+      "fullText": "생체탄을 발사하여 처음 적중한 아군 영웅의 생명력을 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">195</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> 회복시킵니다. 이미 생명력이 가득찬 영웅에게는 영향을 주지 않습니다.",
+      "name": "치유탄",
+      "shortText": "아군을 치유하는 치유탄 발사"
+    },
+    "AnaBioticGrenade|AnaBioticGrenade|W": {
+      "cooldownText": "재사용 대기시간: 16초",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">마나: 50</s>",
+      "fullText": "대상 위치로 수류탄을 던져 수류탄이 적중한 아군 영웅의 생명력을 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">152</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> 회복시키고 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>초 동안 아나로부터 받는 치유량을 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> 증가시킵니다. 수류탄이 적중한 적 영웅에게는 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 피해를 주고 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.75</c>초 동안 받는 치유량을 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> 감소시킵니다.<n/><n/>생체 수류탄이 적에게 적중하지 않으면 재사용 대기시간이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>초 감소하며, 아나에게만 적중하면 재사용 대기시간이 추가로 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>초 감소합니다.",
+      "name": "생체 수류탄",
+      "shortText": "아군을 치유하고 적의 받는 치유량을 감소시키는 수류탄 투척"
+    },
+    "AnaSleepDart|AnaSleepDart|E": {
+      "cooldownText": "재사용 대기시간: 14초",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">마나: 50</s>",
+      "fullText": "수면총을 발사하여 처음 적중한 적 영웅을 수면 상태로 만들어 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>초 동안 기절시킵니다. 대상이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c>초 이후에 피해를 받으면 수면 효과가 즉시 종료됩니다.<n/><n/><c val=\"ffff8a\">탑승물에는 사용할 수 없습니다.</c>",
+      "name": "수면총",
+      "shortText": "적을 수면 상태로 만드는 다트 발사"
+    },
+    "AnaNanoBoost|AnaNanoBoost|Heroic": {
+      "cooldownText": "재사용 대기시간: 70초",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">마나: 60</s>",
+      "fullText": "아군 영웅을 강화하여 즉시 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">200</c>의 마나를 회복시킵니다. <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c>초 동안 대상의 기술 위력이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c> 증가하고 일반 기술의 재사용 대기시간이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150%</c> 더 빨리 감소합니다.<n/><n/><c val=\"ffff8a\">자신에게는 사용할 수 없습니다.</c>",
+      "name": "나노 강화제",
+      "shortText": "아군의 기술 위력을 증가시키고 재사용 대기시간을 감소시킴"
+    },
+    "AnaEyeOfHorusActivate|AnaEyeOfHorusActivate|Heroic": {
+      "cooldownText": "재사용 대기시간: 60초",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">마나: 45</s>",
+      "fullText": "저격용 조준경을 활성화하여 사거리가 무한인 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c>발의 특수 탄환을 발사할 수 있습니다. 탄환은 영웅을 관통하지만 적 구조물은 관통할 수 없고 아군 영웅의 생명력은 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">225</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> 회복시키며 적 영웅에게는 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">135</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 피해를 줍니다. 구조물에는 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> 감소한 피해를 줍니다.<n/><n/>호루스의 눈이 활성화된 동안에는 이동할 수 없습니다.",
+      "name": "호루스의 눈",
+      "shortText": "사거리가 무한인 탄환을 발사하여 치유 또는 피해를 줌"
+    },
+    "AnaAimDownSightsActivate|AnaAimDownSightsActivate|Trait": {
+      "cooldownText": "재사용 대기시간: 4초",
+      "fullText": "적에게 일반 공격을 하면 독극물을 투여하여 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>초에 걸쳐 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 피해를 주고, 대상의 현재 중첩 수에 따라 추가 피해를 줍니다. 이 효과는 최대 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>회 중첩됩니다.<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c>초마다 때까치로 준 피해의 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60%</c>만큼 생명력을 회복합니다.<n/><n/><s val=\"cbe8ff-ffffff\" hlt-name=\"StandardTooltipHeader\">정조준</s><n/><n/>때까치를 사용하면 이동 속도가 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> 감소하지만, 치유탄과 수면총의 사거리가 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> 증가하고 영웅 하나를 관통합니다. 취소할 때까지 유지할 수 있습니다.",
+      "name": "때까치",
+      "shortText": "일반 공격 시 지속 피해"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "재사용 대기시간: 4초",
+      "fullText": "<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>초 동안 정신을 집중한 후, 이동 속도가 <s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s> 증가합니다.",
+      "name": "탈것 소환"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c>초 동안 정신을 집중한 후, 폭풍의 전당으로 귀환하여 즉시 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c>의 생명력과 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c>의 마나를 회복합니다.",
+      "name": "귀환석"
+    },
+    "AnaEyeOfHorusAttackDummy|AnaEyeOfHorusHighPoweredRound|Q": {
+      "cooldownText": "재사용 대기시간: 1초",
+      "fullText": "사거리가 무한인 특수 탄환을 발사하여 관통하는 모든 아군 영웅의 생명력을 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">225</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> 회복시키거나 적 영웅 또는 구조물에 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">135</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 피해를 줍니다. 구조물에는 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> 감소한 피해를 줍니다.",
+      "name": "고성능 탄환"
+    },
+    "AnaEyeOfHorusCancel|AnaEyeOfHorusCancel|W": {
+      "fullText": "호루스의 눈을 취소합니다.",
+      "name": "호루스의 눈 취소"
+    },
+    "AnaEyeOfHorusCancel|AnaEyeOfHorusCancel|E": {
+      "fullText": "호루스의 눈을 취소합니다.",
+      "name": "호루스의 눈 취소"
+    },
+    "AnaEyeOfHorusAttackDummy|AnaEyeOfHorusHighPoweredRound|Heroic": {
+      "cooldownText": "재사용 대기시간: 1초",
+      "fullText": "사거리가 무한인 특수 탄환을 발사하여 관통하는 모든 아군 영웅의 생명력을 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">225</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> 회복시키거나 적 영웅 또는 구조물에 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">135</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 피해를 줍니다. 구조물에는 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> 감소한 피해를 줍니다.",
+      "name": "고성능 탄환"
+    },
+    "AnaAimDownSightsDeactivate|AnaAimDownSightsDeactivate|Trait": {
+      "cooldownText": "재사용 대기시간: 4초",
+      "fullText": "적에게 일반 공격을 하면 독극물을 투여하여 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>초에 걸쳐 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 피해를 주고, 대상의 현재 중첩 수에 따라 추가 피해를 줍니다. 이 효과는 최대 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>회 중첩됩니다.<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c>초마다 때까치로 준 피해의 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60%</c>만큼 생명력을 회복합니다.<n/><n/><s val=\"cbe8ff-ffffff\" hlt-name=\"StandardTooltipHeader\">정조준</s><n/><n/>때까치를 사용하면 이동 속도가 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> 감소하지만, 치유탄과 수면총의 사거리가 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> 증가하고 영웅 하나를 관통합니다. 취소할 때까지 유지할 수 있습니다.",
+      "name": "때까치 취소"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "탈것에서 내립니다.",
+      "name": "탈것 소환 해제"
+    },
+    "AnaDebilitatingDart|AnaDebilitatingDart|Active": {
+      "cooldownText": "재사용 대기시간: 20초",
+      "fullText": "다트를 발사하여 처음 적중한 적 영웅의 공격력과 이동 속도를 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>초 동안 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> 감소시킵니다. 영웅에게 적중하지 않으면 쇠약의 다트의 재사용 대기시간이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c>초 감소합니다.",
+      "name": "쇠약의 다트",
+      "shortText": "공격력 및 이동 속도를 감소시키는 다트 발사"
+    },
+    "AnaDetachableBoxMagazine|AnaDetachableBoxMagazineActive|Active": {
+      "cooldownText": "재사용 대기시간: 60초",
+      "fullText": "사용하면 즉시 치유탄을 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>회 충전합니다.",
+      "name": "신속 재장전",
+      "shortText": "치유탄 추가 충전"
+    }
+  },
+  "talents": {
+    "AnaBioticGrenadeContactHealing|AnaBioticGrenadeContactHealing|W|Level1": {
+      "fullText": "생체 수류탄이 적중한 아군 및 적 영웅 하나당 공격력과 치유량이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c> 증가합니다.",
+      "name": "폭발적인 치유",
+      "shortText": "생체 수류탄이 여러 영웅 적중 시 강화"
+    },
+    "AnaSleepingDartSlumberShells|AnaSleepingDartSlumberShells|E|Level1": {
+      "fullText": "수면총의 재사용 대기시간이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>초 감소합니다. 수면총의 수면 효과가 만료되면 대상이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>초 동안 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> 느려집니다.",
+      "name": "소등",
+      "shortText": "수면총이 적을 느려지게 함, 재사용 대기시간 감소"
+    },
+    "AnaShrikeVampiricRounds|AnaShrikeVampiricRounds|Trait|Level1": {
+      "fullText": "때까치의 치유량이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c> 증가합니다.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">반복 퀘스트:</c> 독극물 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>중첩을 달성하면 때까치의 치유량이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1%</c> 증가합니다.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">반복 퀘스트:</c> 독극물이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>중첩인 영웅에게 일반 공격을 하면 때까치의 치유량이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.25%</c> 증가합니다.",
+      "name": "흡혈탄",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">퀘스트:</c> 때까치 치유량 증가"
+    },
+    "AnaBioticGrenadeBioticEnhancements|AnaBioticGrenadeBioticEnhancements|W|Level4": {
+      "fullText": "생체 수류탄의 치유량 증가 효과의 지속 시간이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> 증가하고 재사용 대기시간이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>초 감소합니다.",
+      "name": "생체 강화",
+      "shortText": "생체 수류탄 강화"
+    },
+    "AnaOverdose|AnaOverdose|E|Level4": {
+      "fullText": "수면총이 적 영웅에게 적중하면 독극물을 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>회 중첩시킵니다. 정조준이 활성화된 동안 수면총이 적 영웅을 관통합니다.",
+      "name": "과다 복용",
+      "shortText": "수면총이 관통 및 독극물 투여"
+    },
+    "AnaDebilitatingDart|AnaDebilitatingDart|Active|Level4": {
+      "cooldownText": "재사용 대기시간: 20초",
+      "fullText": "다트를 발사하여 처음 적중한 적 영웅의 공격력과 이동 속도를 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>초 동안 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> 감소시킵니다. 영웅에게 적중하지 않으면 쇠약의 다트의 재사용 대기시간이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c>초 감소합니다.",
+      "name": "쇠약의 다트",
+      "shortText": "공격력 및 이동 속도를 감소시키는 다트 발사"
+    },
+    "AnaBioticGrenadeAntiHealer|AnaBioticGrenadeAntiHealer|W|Level7": {
+      "fullText": "생체 수류탄의 범위가 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> 증가하고 치유량 감소 효과의 지속 시간이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.75</c>초 증가합니다.",
+      "name": "안티 힐러",
+      "shortText": "생체 수류탄 강화"
+    },
+    "AnaSleepDartNightTerrors|AnaSleepDartNightTerrors|E|Level7": {
+      "fullText": "수면총이 적중한 적 영웅 하나당 이동 속도가 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> 증가합니다. <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>초 동안 지속됩니다. 수면총의 수면 효과가 만료되면 대상의 최대 생명력의 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8%</c>만큼 피해를 줍니다.",
+      "name": "악몽의 여파",
+      "shortText": "수면총 강화"
+    },
+    "AnaMindNumbingAgent|AnaMindNumbingAgent|Trait|Level7": {
+      "fullText": "독극물 중첩당 적 영웅의 기술 위력이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c> 감소합니다.",
+      "name": "정신 마취 독극물",
+      "shortText": "독극물이 기술 위력을 감소시킴"
+    },
+    "AnaHeroicAbilityNanaBoost|AnaNanoBoost|Heroic|Level10": {
+      "cooldownText": "재사용 대기시간: 70초",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">마나: 60</s>",
+      "fullText": "아군 영웅을 강화하여 즉시 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">200</c>의 마나를 회복시킵니다. <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c>초 동안 대상의 기술 위력이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c> 증가하고 일반 기술의 재사용 대기시간이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150%</c> 더 빨리 감소합니다.<n/><n/><c val=\"ffff8a\">자신에게는 사용할 수 없습니다.</c>",
+      "name": "나노 강화제",
+      "shortText": "아군의 기술 위력을 증가시키고 재사용 대기시간을 감소시킴"
+    },
+    "AnaHeroicAbilityEyeOfHorus|AnaEyeOfHorusActivate|Heroic|Level10": {
+      "cooldownText": "재사용 대기시간: 60초",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">마나: 45</s>",
+      "fullText": "저격용 조준경을 활성화하여 사거리가 무한인 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c>발의 특수 탄환을 발사할 수 있습니다. 탄환은 영웅을 관통하지만 적 구조물은 관통할 수 없고 아군 영웅의 생명력은 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">225</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> 회복시키며 적 영웅에게는 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">135</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 피해를 줍니다. 구조물에는 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> 감소한 피해를 줍니다.<n/><n/>호루스의 눈이 활성화된 동안에는 이동할 수 없습니다.",
+      "name": "호루스의 눈",
+      "shortText": "사거리가 무한인 탄환을 발사하여 치유 또는 피해를 줌"
+    },
+    "AnaHealingDartSpeedSerum|AnaHealingDartSpeedSerum|Q|Level13": {
+      "fullText": "치유탄이 이동 속도를 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>초 동안 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> 증가시킵니다.",
+      "name": "증속 혈청",
+      "shortText": "치유탄이 이동 속도를 증가시킴"
+    },
+    "AnaHealingDartPurifyingDarts|AnaHealingDartPurifyingDarts|Q|Level13": {
+      "fullText": "치유탄이 대상의 이동 불가 및 감속 효과를 제거합니다. 효과를 제거하면 해당 치유탄의 치유량이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> 증가합니다.",
+      "name": "정화탄",
+      "shortText": "치유탄이 이동 불가 및 감속 효과 제거"
+    },
+    "AnaHealingDartSmellingSalts|AnaHealingDartSmellingSalts|Q|Level13": {
+      "fullText": "치유탄이 대상의 기절 효과를 제거합니다. 효과를 제거하면 대상의 방어력을 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>초 동안 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50</c> 증가시킵니다.",
+      "name": "자극제",
+      "shortText": "치유탄이 기절 효과 제거"
+    },
+    "AnaHealingDartSharpshooter|AnaHealingDartSharpshooter|Q|Level16": {
+      "fullText": "치유탄이 아군 영웅을 치유할 때마다 치유량이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5%</c> 증가하여 최대 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> 증가합니다. 최대치에 도달하면 치유량이 추가로 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35%</c> 증가합니다. 이 효과는 치유탄이 아군 영웅에게 적중하지 않으면 사라집니다.",
+      "name": "명사수",
+      "shortText": "연속 적중 시 치유탄 강화"
+    },
+    "AnaHealingDartConcentratedDoses|AnaHealingDartConcentratedDoses|Q|Level16": {
+      "fullText": "적 영웅에게 활성화된 독극물 중첩 하나당 치유탄의 치유량이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">12%</c> 증가합니다.",
+      "name": "집중 투여",
+      "shortText": "독극물이 치유탄 강화"
+    },
+    "AnaDetachableBoxMagazine|AnaDetachableBoxMagazineActive|Active|Level16": {
+      "cooldownText": "재사용 대기시간: 60초",
+      "fullText": "사용하면 즉시 치유탄을 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>회 충전합니다.",
+      "name": "신속 재장전",
+      "shortText": "치유탄 추가 충전"
+    },
+    "AnaNanoInfusion|AnaNanoInfusion|Heroic|Level20": {
+      "fullText": "나노 강화제의 대상이 준 기술 피해의 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>만큼 대상이 생명력을 회복합니다.",
+      "name": "나노 재구성",
+      "shortText": "대상이 준 기술 피해로 대상 생명력 회복"
+    },
+    "AnaEyeOfHorusDeadeye|AnaEyeOfHorusDeadeye|Heroic|Level20": {
+      "fullText": "호루스의 눈의 재사용 대기시간이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c>초로 감소하지만 새로운 탄환은 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c>초마다 얻습니다. 남은 재사용 대기시간은 탄환으로 전환됩니다.<n/><n/>호루스의 눈이 적중하는 영웅 하나당 공격력과 치유량이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5%</c> 증가합니다. 이 효과는 호루스의 눈을 벗어나거나 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>초가 지나면 초기화됩니다.",
+      "name": "우제트의 심판",
+      "shortText": "호루스의 눈 탄환이 지속적으로 재충전"
+    },
+    "AnaShrikeArmoredStance|AnaShrikeArmoredStance|Trait|Level20": {
+      "fullText": "때까치의 공격력이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> 증가합니다. 정조준이 활성화된 동안 방어력이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c> 증가합니다.",
+      "name": "수비 태세",
+      "shortText": "때까치 강화"
+    },
+    "AnaDynamicOptics|AnaDynamicOptics|Trait|Level20": {
+      "fullText": "일반 공격을 할 때마다 일반 공격 속도가 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>초 동안 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c> 증가하여 최대 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> 증가합니다. 정조준이 활성화된 동안 일반 공격 사거리가 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> 증가합니다.",
+      "name": "광학 조준경",
+      "shortText": "일반 공격 강화"
+    }
+  },
+  "units": {}
+}

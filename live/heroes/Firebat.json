@@ -1,0 +1,706 @@
+{
+  "id": "Firebat",
+  "unitId": "HeroFirebat",
+  "hyperlinkId": "Blaze",
+  "attributeId": "Fire",
+  "franchise": "Starcraft",
+  "rarity": "Legendary",
+  "releaseDate": "2018-01-09",
+  "isMelee": false,
+  "gender": "Male",
+  "radius": 0.9375,
+  "innerRadius": 0.9375,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 7,
+    "damage": 6,
+    "survivability": 9,
+    "utility": 7
+  },
+  "life": {
+    "amount": 2900,
+    "scale": 0.04,
+    "regenRate": 6.039,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "BodyBlocker",
+    "EnergyImportant",
+    "Ganker",
+    "Overconfident",
+    "RoleTank",
+    "SoloLaner"
+  ],
+  "weapons": [
+    {
+      "nameId": "FirebatHeroWeapon",
+      "isDisabled": false,
+      "range": 4.5,
+      "minimumRange": 0,
+      "period": 1,
+      "damage": 60,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "FirebatArmy19",
+    "FirebatFelReaver"
+  ],
+  "variationSkinIds": [
+    "FirebatBaseVar1",
+    "FirebatBaseVar2",
+    "FirebatBaseVar3",
+    "FirebatBaseVar4"
+  ],
+  "voiceLineIds": [
+    "FirebatBase_VoiceLine01",
+    "FirebatBase_VoiceLine02",
+    "FirebatBase_VoiceLine03",
+    "FirebatBase_VoiceLine04",
+    "FirebatBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "FirebatFlameStream|FirebatFlameStream|Q",
+        "abilityId": "FirebatFlameStream",
+        "buttonId": "FirebatFlameStream",
+        "icon": "storm_ui_icon_blaze_flame.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "FirebatOilSpill|FirebatOilSpill|W",
+        "abilityId": "FirebatOilSpill",
+        "buttonId": "FirebatOilSpill",
+        "icon": "storm_ui_icon_blaze_oil.png",
+        "charges": {
+          "countMax": 2,
+          "countStart": 2,
+          "countUse": 1,
+          "recastCooldown": 1,
+          "isCountHidden": false
+        },
+        "abilityType": "W"
+      },
+      {
+        "linkId": "FirebatJetPropulsion|FirebatJetPropulsion|E",
+        "abilityId": "FirebatJetPropulsion",
+        "buttonId": "FirebatJetPropulsion",
+        "icon": "storm_ui_icon_blaze_jet.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "FirebatBunkerDrop|FirebatBunkerDrop|Heroic",
+        "abilityId": "FirebatBunkerDrop",
+        "buttonId": "FirebatBunkerDrop",
+        "icon": "storm_ui_icon_blaze_bunker.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "FirebatCombustion|FirebatCombustion|Heroic",
+        "abilityId": "FirebatCombustion",
+        "buttonId": "FirebatCombustion",
+        "icon": "storm_ui_icon_blaze_combustion.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": "FirebatIgnite|FirebatIgnite|Trait",
+        "abilityId": "FirebatIgnite",
+        "buttonId": "FirebatIgnite",
+        "icon": "storm_ui_icon_blaze_pyromania.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "FirebatCombustion|FirebatCombustion|Heroic": {
+      "Heroic": [
+        {
+          "linkId": "FirebatCombustionCancel|FirebatCombustionCancel|Heroic",
+          "abilityId": "FirebatCombustionCancel",
+          "buttonId": "FirebatCombustionCancel",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Heroic"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "FirebatAdrenalineStimpack|FirebatAdrenalineStimpack|Active|Level1": {
+      "Activable": [
+        {
+          "linkId": "FirebatAdrenalineStimpack|FirebatAdrenalineStimpack|Active",
+          "abilityId": "FirebatAdrenalineStimpack",
+          "buttonId": "FirebatAdrenalineStimpack",
+          "icon": "storm_ui_icon_blaze_stim_2.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "FirebatEnduranceStimpack|FirebatEnduranceStimpack|Active|Level1": {
+      "Activable": [
+        {
+          "linkId": "FirebatEnduranceStimpack|FirebatEnduranceStimpack|Active",
+          "abilityId": "FirebatEnduranceStimpack",
+          "buttonId": "FirebatEnduranceStimpack",
+          "icon": "storm_ui_icon_blaze_stim_1.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "FirebatNeuralStimpack|FirebatNeuralStimpack|Active|Level1": {
+      "Activable": [
+        {
+          "linkId": "FirebatNeuralStimpack|FirebatNeuralStimpack|Active",
+          "abilityId": "FirebatNeuralStimpack",
+          "buttonId": "FirebatNeuralStimpack",
+          "icon": "storm_ui_icon_blaze_stim_3.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "FirebatActiveJuggernautPlating|FirebatActiveJuggernautPlating|Active|Level16": {
+      "Activable": [
+        {
+          "linkId": "FirebatJuggernautPlating|FirebatActiveJuggernautPlating|Active",
+          "abilityId": "FirebatJuggernautPlating",
+          "buttonId": "FirebatActiveJuggernautPlating",
+          "icon": "storm_ui_icon_blaze_vanadium_plating.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "FirebatAdrenalineStimpack|FirebatAdrenalineStimpack|Active|Level1",
+        "talentId": "FirebatAdrenalineStimpack",
+        "buttonId": "FirebatAdrenalineStimpack",
+        "abilityId": "FirebatAdrenalineStimpack",
+        "icon": "storm_ui_icon_blaze_stim_2.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 1
+      },
+      {
+        "linkId": "FirebatEnduranceStimpack|FirebatEnduranceStimpack|Active|Level1",
+        "talentId": "FirebatEnduranceStimpack",
+        "buttonId": "FirebatEnduranceStimpack",
+        "abilityId": "FirebatEnduranceStimpack",
+        "icon": "storm_ui_icon_blaze_stim_1.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2
+      },
+      {
+        "linkId": "FirebatNeuralStimpack|FirebatNeuralStimpack|Active|Level1",
+        "talentId": "FirebatNeuralStimpack",
+        "buttonId": "FirebatNeuralStimpack",
+        "abilityId": "FirebatNeuralStimpack",
+        "icon": "storm_ui_icon_blaze_stim_3.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      },
+      {
+        "linkId": "FirebatNewHabits|FirebatNewHabits|Trait|Level1",
+        "talentId": "FirebatNewHabits",
+        "buttonId": "FirebatNewHabits",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_blaze_new_habits.png",
+        "abilityType": "Trait",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          "FirebatIgnite|FirebatIgnite|Trait"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "FirebatOilSpillOilDispersal|FirebatOilSpillOilDispersal|W|Level4",
+        "talentId": "FirebatOilSpillOilDispersal",
+        "buttonId": "FirebatOilSpillOilDispersal",
+        "abilityId": "FirebatOilSpill",
+        "icon": "storm_ui_icon_blaze_oil.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "FirebatOilSpill|FirebatOilSpill|W"
+        ]
+      },
+      {
+        "linkId": "FirebatIgniteMeltdown|FirebatIgniteMeltdown|Trait|Level4",
+        "talentId": "FirebatIgniteMeltdown",
+        "buttonId": "FirebatIgniteMeltdown",
+        "abilityId": "FirebatIgnite",
+        "icon": "storm_ui_icon_blaze_pyromania.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "FirebatIgnite|FirebatIgnite|Trait"
+        ]
+      },
+      {
+        "linkId": "FirebatWeaponIncineratorGauntlets|FirebatWeaponIncineratorGauntlets|Passive|Level4",
+        "talentId": "FirebatWeaponIncineratorGauntlets",
+        "buttonId": "FirebatWeaponIncineratorGauntlets",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_building.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "FirebatIgnite|FirebatIgnite|Trait"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "FirebatFlameStreamSuppressiveFire|FirebatFlameStreamSuppressiveFire|Q|Level7",
+        "talentId": "FirebatFlameStreamSuppressiveFire",
+        "buttonId": "FirebatFlameStreamSuppressiveFire",
+        "abilityId": "FirebatFlameStream",
+        "icon": "storm_ui_icon_blaze_flame.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "FirebatFlameStream|FirebatFlameStream|Q"
+        ]
+      },
+      {
+        "linkId": "FirebatOilSpillNanomachineCoating|FirebatOilSpillNanomachineCoating|W|Level7",
+        "talentId": "FirebatOilSpillNanomachineCoating",
+        "buttonId": "FirebatOilSpillNanomachineCoating",
+        "abilityId": "FirebatOilSpill",
+        "icon": "storm_ui_icon_blaze_oil.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "FirebatOilSpill|FirebatOilSpill|W"
+        ]
+      },
+      {
+        "linkId": "FirebatJetPropulsionFuelLeak|FirebatJetPropulsionFuelLeak|E|Level7",
+        "talentId": "FirebatJetPropulsionFuelLeak",
+        "buttonId": "FirebatJetPropulsionFuelLeak",
+        "abilityId": "FirebatJetPropulsion",
+        "icon": "storm_ui_icon_blaze_jet.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "FirebatJetPropulsion|FirebatJetPropulsion|E"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "FirebatHeroicAbilityBunkerDrop|FirebatBunkerDrop|Heroic|Level10",
+        "talentId": "FirebatHeroicAbilityBunkerDrop",
+        "buttonId": "FirebatBunkerDrop",
+        "abilityId": "FirebatBunkerDrop",
+        "icon": "storm_ui_icon_blaze_bunker.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "FirebatHeroicAbilityCombustion|FirebatCombustion|Heroic|Level10",
+        "talentId": "FirebatHeroicAbilityCombustion",
+        "buttonId": "FirebatCombustion",
+        "abilityId": "FirebatCombustion",
+        "icon": "storm_ui_icon_blaze_combustion.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "FirebatOilSpillGrillandKill|FirebatOilSpillGrillandKill|W|Level13",
+        "talentId": "FirebatOilSpillGrillandKill",
+        "buttonId": "FirebatOilSpillGrillandKill",
+        "abilityId": "FirebatOilSpill",
+        "icon": "storm_ui_icon_blaze_oil.png",
+        "abilityType": "W",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "FirebatOilSpill|FirebatOilSpill|W"
+        ]
+      },
+      {
+        "linkId": "FirebatOilSpillAdhesivePetroleum|FirebatOilSpillAdhesivePetroleum|W|Level13",
+        "talentId": "FirebatOilSpillAdhesivePetroleum",
+        "buttonId": "FirebatOilSpillAdhesivePetroleum",
+        "abilityId": "FirebatOilSpill",
+        "icon": "storm_ui_icon_blaze_oil_b.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "FirebatOilSpill|FirebatOilSpill|W"
+        ]
+      },
+      {
+        "linkId": "FirebatJetPropulsionCollisionCourse|FirebatJetPropulsionCollisionCourse|E|Level13",
+        "talentId": "FirebatJetPropulsionCollisionCourse",
+        "buttonId": "FirebatJetPropulsionCollisionCourse",
+        "abilityId": "FirebatJetPropulsion",
+        "icon": "storm_ui_icon_blaze_jet.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "FirebatJetPropulsion|FirebatJetPropulsion|E"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "FirebatJetPropulsionThermalProtection|FirebatJetPropulsionThermalProtection|E|Level16",
+        "talentId": "FirebatJetPropulsionThermalProtection",
+        "buttonId": "FirebatJetPropulsionThermalProtection",
+        "abilityId": "FirebatJetPropulsion",
+        "icon": "storm_ui_icon_blaze_jet.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "FirebatJetPropulsion|FirebatJetPropulsion|E"
+        ]
+      },
+      {
+        "linkId": "FirebatIgniteHeatTreatment|FirebatIgniteHeatTreatment|Trait|Level16",
+        "talentId": "FirebatIgniteHeatTreatment",
+        "buttonId": "FirebatIgniteHeatTreatment",
+        "abilityId": "FirebatIgnite",
+        "icon": "storm_ui_icon_blaze_pyromania.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "FirebatIgnite|FirebatIgnite|Trait"
+        ]
+      },
+      {
+        "linkId": "FirebatActiveJuggernautPlating|FirebatActiveJuggernautPlating|Active|Level16",
+        "talentId": "FirebatActiveJuggernautPlating",
+        "buttonId": "FirebatActiveJuggernautPlating",
+        "abilityId": "FirebatJuggernautPlating",
+        "icon": "storm_ui_icon_blaze_vanadium_plating.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "FirebatBunkerDropFortifiedBunker|FirebatBunkerDropFortifiedBunker|Heroic|Level20",
+        "talentId": "FirebatBunkerDropFortifiedBunker",
+        "buttonId": "FirebatBunkerDropFortifiedBunker",
+        "abilityId": "FirebatBunkerDrop",
+        "icon": "storm_ui_icon_blaze_bunker.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "FirebatBunkerDrop|FirebatBunkerDrop|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "FirebatHeroicAbilityBunkerDrop"
+        ]
+      },
+      {
+        "linkId": "FirebatCombustionFlashFire|FirebatCombustionFlashFire|Heroic|Level20",
+        "talentId": "FirebatCombustionFlashFire",
+        "buttonId": "FirebatCombustionFlashFire",
+        "abilityId": "FirebatCombustion",
+        "icon": "storm_ui_icon_blaze_combustion.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "FirebatCombustion|FirebatCombustion|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "FirebatHeroicAbilityCombustion"
+        ]
+      },
+      {
+        "linkId": "FirebatWeaponBurnNotice|FirebatWeaponBurnNotice|Passive|Level20",
+        "talentId": "FirebatWeaponBurnNotice",
+        "buttonId": "FirebatWeaponBurnNotice",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_slow.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "FirebatIgnite|FirebatIgnite|Trait"
+        ]
+      }
+    ]
+  },
+  "heroUnits": {
+    "FirebatBunkerDropBunkerUnit": {
+      "radius": 1.25,
+      "innerRadius": 1.25,
+      "sight": 3,
+      "speed": 0,
+      "attributes": [
+        "ImmuneToFriendlyAbilities",
+        "Summoned"
+      ],
+      "life": {
+        "amount": 1435,
+        "scale": 0.04,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": {
+        "minimap": "storm_temp_btn-building-terran-bunker.png",
+        "targetInfo": "storm_ui_ingame_targetinfopanel_unit_firebat_bunker.png"
+      },
+      "abilities": {
+        "Basic": [
+          {
+            "linkId": "FirebatBunkerDropFlamethrower|FirebatBunkerDropFlamethrower|Q",
+            "abilityId": "FirebatBunkerDropFlamethrower",
+            "buttonId": "FirebatBunkerDropFlamethrower",
+            "icon": "storm_ui_icon_blaze_flame.png",
+            "abilityType": "Q"
+          },
+          {
+            "linkId": "FirebatBunkerDropFortifiedBunkerOilSpill|FirebatBunkerDropFortifiedBunkerOilSpill|W",
+            "abilityId": "FirebatBunkerDropFortifiedBunkerOilSpill",
+            "buttonId": "FirebatBunkerDropFortifiedBunkerOilSpill",
+            "icon": "storm_ui_icon_blaze_oil.png",
+            "abilityType": "W"
+          }
+        ],
+        "Trait": [
+          {
+            "linkId": "FirebatBunkerDropExitBunker|FirebatBunkerDropExitBunker|Trait",
+            "abilityId": "FirebatBunkerDropExitBunker",
+            "buttonId": "FirebatBunkerDropExitBunker",
+            "icon": "hud_btn_bg_ability_cancel.png",
+            "toggleCooldown": 0.25,
+            "abilityType": "Trait"
+          }
+        ]
+      }
+    }
+  },
+  "sheet": "sheets/Firebat.webp",
+  "icons": {
+    "storm_ui_icon_blaze_flame.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_blaze_oil.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_blaze_jet.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_blaze_bunker.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_blaze_combustion.png": [
+      512,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_blaze_pyromania.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_mount.png": [
+      128,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      256,
+      128,
+      111,
+      71
+    ],
+    "hud_btn_bg_ability_cancel.png": [
+      384,
+      128,
+      97,
+      111
+    ],
+    "storm_ui_icon_generic_cancel_mount.png": [
+      512,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_blaze_stim_2.png": [
+      0,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_blaze_stim_1.png": [
+      128,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_blaze_stim_3.png": [
+      256,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_blaze_vanadium_plating.png": [
+      384,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_blaze_new_habits.png": [
+      512,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_autoattack_building.png": [
+      0,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_blaze_oil_b.png": [
+      128,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_autoattack_slow.png": [
+      256,
+      384,
+      128,
+      128
+    ]
+  }
+}
