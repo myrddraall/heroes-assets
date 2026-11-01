@@ -15,11 +15,11 @@ Each channel has its own folder, `live/` and `ptr/`, laid out the same way:
 | `raw/data/`, `raw/gamestrings/`         | HDP's output as it came (`--localized-text Extract`), with its map-specific patches        |
 | `heroes/index.json`                     | Every hero's summary: ids, franchise, rarity, ratings, release date…                       |
 | `heroes/<heroId>.json`                  | One hero's full data, plus `sheet` and `icons`: where each ability and talent icon sits    |
-| `heroes/sheets/<heroId>.png`            | That hero's ability and talent icons (and its hero units'), one picture                    |
-| `portraits/<kind>.png`, `index.json`    | Every hero's portrait of one kind (`minimap`, `heroSelect`, `draftScreen`…) as one sheet   |
+| `heroes/sheets/<heroId>.webp`           | That hero's ability and talent icons (and its hero units'), one picture                    |
+| `portraits/<kind>.webp`, `index.json`   | Every hero's portrait of one kind (`minimap`, `heroSelect`, `draftScreen`…) as one sheet   |
 | `emoticons/index.json`                  | Every emote and emote pack; each emote's sheet and place, and its animation if it has one  |
-| `emoticons/sheets/<hero>.png`           | A hero's emotes (still; an animated one's first frame), `universal.png` for the rest       |
-| `emoticons/animated/*.apng`             | The animated emotes                                                                        |
+| `emoticons/sheets/<hero>.webp`          | A hero's emotes (still; an animated one's first frame), `universal.webp` for the rest      |
+| `emoticons/animated/*.webp`             | The animated emotes, as animated WebPs                                                     |
 | `maps/index.json`, `maps/images/`       | Maps by normalized id (`cursed_hollow`): replay previews, loading screens, objective icons |
 | `strings/<locale>/heroes.json`          | Heroes' names, titles, roles, descriptions                                                 |
 | `strings/<locale>/heroes/<heroId>.json` | A hero's ability, talent and unit texts, by the `linkId`s in `heroes/<heroId>.json`        |

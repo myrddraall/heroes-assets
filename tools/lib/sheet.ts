@@ -6,7 +6,7 @@ import sharp from 'sharp';
 export type Rect = readonly [number, number, number, number];
 
 /**
- * Packs pictures into one PNG sheet, on a grid of cells as big as the biggest picture, each in
+ * Packs pictures into one lossless WebP sheet, on a grid of cells as big as the biggest picture, each in
  * the top-left corner of its cell. An animated picture contributes its first frame.
  * Returns each picture's place by the name it was given.
  */
@@ -43,7 +43,16 @@ export async function writeSheet(
     },
   })
     .composite(layers)
-    .png({ compressionLevel: 9, adaptiveFiltering: true })
+    .webp({ lossless: true, effort: 6 })
     .toFile(out);
   return rects;
+}
+
+/** A picture's file name as a WebP: `a.png` → `a.webp`. */
+export const webpName = (file: string): string => file.replace(/\.[^.]+$/, '.webp');
+
+/** Writes one picture as a lossless WebP (its first frame, if animated). */
+export async function writeWebp(path: string, out: string): Promise<void> {
+  await mkdir(dirname(out), { recursive: true });
+  await sharp(path).webp({ lossless: true, effort: 6 }).toFile(out);
 }

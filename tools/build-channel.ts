@@ -6,10 +6,11 @@
 // The HDP output folder is what `heroesdataparser online -e hero:i -e unit -e emoticon:i
 // -e emoticonpack -e map:i -l all --localized-text Extract --gs-… -o <folder>` writes: data/,
 // gamestrings/ and images/ (update.yml has the full command).
-import { copyFile, cp, mkdir, readdir, readFile, rm, writeFile } from 'node:fs/promises';
+import { cp, mkdir, readdir, readFile, rm, writeFile } from 'node:fs/promises';
 import { basename, dirname, join } from 'node:path';
+import { writeAnimatedWebp } from './lib/animated.ts';
 import { asChannel, LOCALES, ROOT } from './lib/channels.ts';
-import { writeSheet, type Rect } from './lib/sheet.ts';
+import { webpName, writeSheet, writeWebp, type Rect } from './lib/sheet.ts';
 
 type Json = Record<string, unknown>;
 /** HDP's gamestrings: category → field → id → text. */
@@ -153,13 +154,13 @@ for (const [id, hero] of Object.entries(heroes)) {
   const rects = await sheet(
     [...icons].map((icon) => [icon, icon]),
     pictures,
-    join(out, 'heroes', 'sheets', `${id}.png`),
+    join(out, 'heroes', 'sheets', `${id}.webp`),
     id,
   );
   await writeJson(join(out, 'heroes', `${id}.json`), {
     id,
     ...data,
-    sheet: `sheets/${id}.png`,
+    sheet: `sheets/${id}.webp`,
     icons: rects,
   });
   heroLinks.set(id, {
@@ -182,12 +183,12 @@ for (const [id, hero] of Object.entries(heroes)) {
 }
 const portraitIndex: Record<string, Json> = {};
 for (const [kind, files] of portraitKinds) {
-  const rects = await sheet(files, pictures, join(out, 'portraits', `${kind}.png`), kind);
-  portraitIndex[kind] = { sheet: `${kind}.png`, heroes: rects };
+  const rects = await sheet(files, pictures, join(out, 'portraits', `${kind}.webp`), kind);
+  portraitIndex[kind] = { sheet: `${kind}.webp`, heroes: rects };
 }
 await writeJson(join(out, 'portraits', 'index.json'), portraitIndex);
 
-// ── Emoticons: still ones as a sheet per hero (or "universal"), animated ones as their APNGs ─
+// ── Emoticons: still ones as a sheet per hero (or "universal"), animated ones as animated WebPs
 
 interface Emoticon extends Json {
   heroId?: string;
@@ -210,11 +211,11 @@ for (const [group, images] of emoticonGroups) {
   const rects = await sheet(
     images,
     pictures,
-    join(out, 'emoticons', 'sheets', `${group}.png`),
+    join(out, 'emoticons', 'sheets', `${group}.webp`),
     group,
   );
   for (const [id, rect] of Object.entries(rects)) {
-    emoticonRects.set(id, { sheet: `sheets/${group}.png`, rect });
+    emoticonRects.set(id, { sheet: `sheets/${group}.webp`, rect });
   }
 }
 const emoticonIndex: Record<string, Json> = {};
@@ -224,10 +225,9 @@ for (const [id, emoticon] of Object.entries(emoticons)) {
   if (animation && image) {
     const picture = pictures.get(image.toLowerCase());
     if (picture) {
-      await mkdir(join(out, 'emoticons', 'animated'), { recursive: true });
-      await copyFile(picture, join(out, 'emoticons', 'animated', image));
+      await writeAnimatedWebp(picture, join(out, 'emoticons', 'animated', webpName(image)));
       animated = {
-        file: `animated/${image}`,
+        file: `animated/${webpName(image)}`,
         frames: animation.frames,
         duration: animation.duration,
       };
@@ -237,25 +237,38 @@ for (const [id, emoticon] of Object.entries(emoticons)) {
 }
 await writeJson(join(out, 'emoticons', 'index.json'), { emoticons: emoticonIndex, packs });
 
-// ── Maps: their data by normalized id, their pictures as they are ───────────────────────────
+// ── Maps: their data by normalized id, their pictures as WebPs (the data naming those) ──────
 
 interface MapData extends Json {
   normalizedId: string;
 }
 
+const MAP_PICTURES = ['replayPreviewImage', 'loadingScreenImage', 'image'];
+
+/** A map's data with each picture it names renamed to its WebP. */
+function withWebpNames(value: unknown): unknown {
+  if (Array.isArray(value)) return value.map(withWebpNames);
+  if (!value || typeof value !== 'object') return value;
+  return Object.fromEntries(
+    Object.entries(value).map(([key, v]) => [
+      key,
+      MAP_PICTURES.includes(key) && typeof v === 'string' ? webpName(v) : withWebpNames(v),
+    ]),
+  );
+}
+
 const maps = (await dataFile<MapData>('mapdata')).items;
 const mapIndex: Record<string, Json> = {};
 for (const [key, map] of Object.entries(maps)) {
-  for (const file of collect(map, ['replayPreviewImage', 'loadingScreenImage', 'image'])) {
+  for (const file of collect(map, MAP_PICTURES)) {
     const picture = pictures.get(file.toLowerCase());
     if (!picture) {
       warn(`${key}: no picture ${file}`);
       continue;
     }
-    await mkdir(join(out, 'maps', 'images'), { recursive: true });
-    await copyFile(picture, join(out, 'maps', 'images', file));
+    await writeWebp(picture, join(out, 'maps', 'images', webpName(file)));
   }
-  mapIndex[map.normalizedId] = { id: map.normalizedId, key, ...map };
+  mapIndex[map.normalizedId] = { id: map.normalizedId, key, ...(withWebpNames(map) as Json) };
 }
 await writeJson(join(out, 'maps', 'index.json'), mapIndex);
 
