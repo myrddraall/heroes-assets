@@ -1,16 +1,16 @@
 // Turns a Heroes Data Parser extraction into a channel's folder: the raw output as it came, plus
 // files split for apps (one hero per file, strings per locale) and the pictures as sheets.
 //
-//   node tools/build-channel.ts <live|ptr> <hdp output folder>
+//   node tools/build-channel.ts <live|ptr> <extraction folder>
 //
-// The HDP output folder is what `heroesdataparser online -e hero:i -e unit -e emoticon:i
-// -e emoticonpack -e map:i -l all --localized-text Extract --gs-… -o <folder>` writes: data/,
-// gamestrings/ and images/ (update.yml has the full command).
+// The extraction folder is what tools/extract.ts writes for every locale, merged: HDP's data/,
+// gamestrings/ and images/, and map-ui/ (each map's interface textures, lib/map-ui.ts).
 import { cp, mkdir, readdir, readFile, rm, writeFile } from 'node:fs/promises';
 import { basename, dirname, join } from 'node:path';
 import { writeAnimatedWebp } from './lib/animated.ts';
 import { asChannel, LOCALES, ROOT } from './lib/channels.ts';
-import { webpName, writeSheet, writeWebp, type Rect } from './lib/sheet.ts';
+import { decodeDds, type Decoded } from './lib/dds.ts';
+import { webpName, writeSheet, writeWebp, type Picture, type Rect } from './lib/sheet.ts';
 
 type Json = Record<string, unknown>;
 /** HDP's gamestrings: category → field → id → text. */
@@ -23,7 +23,7 @@ const hdp = hdpArg;
 const out = join(ROOT, channel);
 
 /** The folders this tool writes in a channel's folder; everything in them is rebuilt each time. */
-const GENERATED = ['raw', 'heroes', 'portraits', 'emoticons', 'maps', 'strings'];
+const GENERATED = ['raw', 'heroes', 'portraits', 'emoticons', 'maps', 'minimap', 'strings'];
 
 const warnings: string[] = [];
 const warn = (message: string): void => {
@@ -111,21 +111,31 @@ function collect(value: unknown, keys: readonly string[], into = new Set<string>
   return into;
 }
 
-/** A sheet of the named pictures that exist; the missing ones are warned about. */
+/**
+ * A sheet of the named pictures that exist (HDP's by file name, or pictures given as they are);
+ * the missing ones are warned about.
+ */
 async function sheet(
-  names: Iterable<[string, string]>,
+  names: Iterable<[string, string | Picture]>,
   pictures: ReadonlyMap<string, string>,
   path: string,
   what: string,
 ): Promise<Record<string, Rect>> {
-  const found = new Map<string, string>();
+  const found = new Map<string, Picture>();
   for (const [name, file] of names) {
+    if (typeof file !== 'string') {
+      found.set(name, file);
+      continue;
+    }
     const picture = pictures.get(file.toLowerCase());
     if (picture) found.set(name, picture);
     else warn(`${what}: no picture ${file}`);
   }
   return found.size ? writeSheet(found, path) : {};
 }
+
+/** A file name without its extension: the key a sheet's pictures go by. */
+const stem = (file: string): string => file.replace(/\.[^.]+$/, '');
 
 // ── Start clean, keep the raw output ─────────────────────────────────────────────────────────
 
@@ -136,7 +146,7 @@ await cp(join(hdp, 'gamestrings'), join(out, 'raw', 'gamestrings'), { recursive:
 const pictures = await pictureFiles();
 const strings = await gameStrings();
 
-// ── Heroes: one file and one ability/talent sheet each, portraits as one sheet per kind ──────
+// ── Heroes: one file, an ability sheet and a talent sheet each, portraits a sheet per kind ───
 
 interface Hero extends Json {
   portraits?: Record<string, string | string[]>;
@@ -152,19 +162,24 @@ const heroLinks = new Map<string, { links: Set<string>; units: Set<string> }>();
 await Promise.all(
   Object.entries(heroes).map(async ([id, hero]) => {
     const { portraits: _, ...data } = hero;
-    const icons = collect(data, ['icon']);
-    const rects = await sheet(
-      [...icons].map((icon) => [icon, icon]),
-      pictures,
-      join(out, 'heroes', 'sheets', `${id}.webp`),
-      id,
+    const { talents, ...abilities } = data; // abilities, sub-abilities, hero units' abilities
+    const kinds = { abilities: collect(abilities, ['icon']), talents: collect(talents, ['icon']) };
+    const sheets = Object.fromEntries(
+      await Promise.all(
+        Object.entries(kinds).map(async ([kind, icons]) => {
+          const file = `${id}/${kind}.webp`;
+          const rects = await sheet(
+            [...icons].map((icon) => [icon, icon]),
+            pictures,
+            join(out, 'heroes', 'sheets', file),
+            `${id} ${kind}`,
+          );
+          const written = Object.keys(rects).length > 0;
+          return [kind, { sheet: written ? `sheets/${file}` : null, icons: rects }] as const;
+        }),
+      ),
     );
-    await writeJson(join(out, 'heroes', `${id}.json`), {
-      id,
-      ...data,
-      sheet: `sheets/${id}.webp`,
-      icons: rects,
-    });
+    await writeJson(join(out, 'heroes', `${id}.json`), { id, ...data, sheets });
   }),
 );
 for (const [id, hero] of Object.entries(heroes)) {
@@ -197,7 +212,8 @@ const portraitIndex: Record<string, Json> = Object.fromEntries(
 );
 await writeJson(join(out, 'portraits', 'index.json'), portraitIndex);
 
-// ── Emoticons: still ones as a sheet per hero (or "universal"), animated ones as animated WebPs
+// ── Emoticons: still ones as a sheet per emote pack ("other" for those in none), animated ones
+//    as animated WebPs
 
 interface Emoticon extends Json {
   heroId?: string;
@@ -207,11 +223,15 @@ interface Emoticon extends Json {
 }
 
 const emoticons = (await dataFile<Emoticon>('emoticondata')).items;
-const packs = (await dataFile<Json>('emoticonpackdata')).items;
+const packs = (await dataFile<{ emoticonIds?: string[] }>('emoticonpackdata')).items;
+const packOf = new Map<string, string>();
+for (const [pack, { emoticonIds }] of Object.entries(packs)) {
+  for (const id of emoticonIds ?? []) packOf.set(id, pack);
+}
 const emoticonGroups = new Map<string, [string, string][]>();
 for (const [id, emoticon] of Object.entries(emoticons)) {
   if (!emoticon.image) continue;
-  const group = (emoticon.heroId ?? 'universal').toLowerCase();
+  const group = packOf.get(id) ?? 'other';
   if (!emoticonGroups.has(group)) emoticonGroups.set(group, []);
   emoticonGroups.get(group)!.push([id, emoticon.image]);
 }
@@ -243,45 +263,129 @@ for (const [id, emoticon] of Object.entries(emoticons)) {
   const file = animatedFiles.get(id);
   const animated = file &&
     animation && { file, frames: animation.frames, duration: animation.duration };
-  emoticonIndex[id] = { id, ...data, ...emoticonRects.get(id), ...(animated && { animated }) };
+  emoticonIndex[id] = {
+    id,
+    ...data,
+    pack: packOf.get(id) ?? null,
+    ...emoticonRects.get(id),
+    ...(animated && { animated }),
+  };
 }
 await writeJson(join(out, 'emoticons', 'index.json'), { emoticons: emoticonIndex, packs });
 
-// ── Maps: their data by normalized id, their pictures as WebPs (the data naming those) ──────
+// ── Maps: their data by normalized id; previews and loading screens as WebPs, and a sheet each
+//    of the map's objective icons and the interface textures its mods name (lib/map-ui.ts) ────
 
 interface MapData extends Json {
   normalizedId: string;
 }
 
-const MAP_PICTURES = ['replayPreviewImage', 'loadingScreenImage', 'image'];
+/** The pictures that stay files of their own (large; one per map). */
+const MAP_FILES = ['replayPreviewImage', 'loadingScreenImage'];
 
-/** A map's data with each picture it names renamed to its WebP. */
-function withWebpNames(value: unknown): unknown {
-  if (Array.isArray(value)) return value.map(withWebpNames);
+/** An interface texture bigger than this either way (a home-screen background) gets its own file. */
+const SHEET_MAX = 512;
+
+/** A map's data with its pictures renamed: files to their WebP, objective icons to their key. */
+function renamed(value: unknown): unknown {
+  if (Array.isArray(value)) return value.map(renamed);
   if (!value || typeof value !== 'object') return value;
   return Object.fromEntries(
     Object.entries(value).map(([key, v]) => [
       key,
-      MAP_PICTURES.includes(key) && typeof v === 'string' ? webpName(v) : withWebpNames(v),
+      typeof v !== 'string'
+        ? renamed(v)
+        : MAP_FILES.includes(key)
+          ? `images/${webpName(v)}`
+          : key === 'image'
+            ? stem(v)
+            : v,
     ]),
   );
 }
 
 const maps = (await dataFile<MapData>('mapdata')).items;
+let mapUi: { maps: Record<string, string[]> } = { maps: {} };
+try {
+  mapUi = await readJson(join(hdp, 'map-ui', 'maps.json'));
+} catch {
+  warn('no map interface textures in the extraction (map-ui/maps.json)');
+}
+const textures = new Map<string, Decoded | null>();
+async function texture(name: string): Promise<Decoded | null> {
+  if (!textures.has(name)) {
+    try {
+      textures.set(name, decodeDds(await readFile(join(hdp, 'map-ui', 'textures', `${name}.dds`))));
+    } catch (error) {
+      // named by a mod but not in the game (gatherTextures listed it), or not decodable
+      if ((error as NodeJS.ErrnoException).code !== 'ENOENT') warn(`${name}: ${error}`);
+      textures.set(name, null);
+    }
+  }
+  return textures.get(name)!;
+}
+
 const mapIndex: Record<string, Json> = {};
 await Promise.all(
-  Object.entries(maps).flatMap(([key, map]) =>
-    [...collect(map, MAP_PICTURES)].map(async (file) => {
+  Object.entries(maps).map(async ([key, map]) => {
+    for (const file of collect(map, MAP_FILES)) {
       const picture = pictures.get(file.toLowerCase());
-      if (!picture) return warn(`${key}: no picture ${file}`);
-      await writeWebp(picture, join(out, 'maps', 'images', webpName(file)));
-    }),
-  ),
+      if (!picture) warn(`${key}: no picture ${file}`);
+      else await writeWebp(picture, join(out, 'maps', 'images', webpName(file)));
+    }
+    const entries: [string, string | Picture][] = [...collect(map, ['image'])].map((file) => [
+      stem(file),
+      file,
+    ]);
+    const images: Record<string, string> = {};
+    for (const name of mapUi.maps[key] ?? []) {
+      const decoded = await texture(name);
+      if (!decoded) continue;
+      if (decoded.width <= SHEET_MAX && decoded.height <= SHEET_MAX) {
+        entries.push([name, decoded]);
+        continue;
+      }
+      images[name] = `images/${name}.webp`;
+      await writeWebp(
+        { raw: decoded.pixels, width: decoded.width, height: decoded.height },
+        join(out, 'maps', images[name]),
+      );
+    }
+    const file = `sheets/${map.normalizedId}.webp`;
+    const icons = await sheet(entries, pictures, join(out, 'maps', file), key);
+    mapIndex[map.normalizedId] = {
+      id: map.normalizedId,
+      key,
+      ...(renamed(map) as Json),
+      // null when the map has no icons to show (no sheet written)
+      sheet: Object.keys(icons).length ? file : null,
+      icons,
+      images,
+    };
+  }),
 );
-for (const [key, map] of Object.entries(maps)) {
-  mapIndex[map.normalizedId] = { id: map.normalizedId, key, ...(withWebpNames(map) as Json) };
-}
-await writeJson(join(out, 'maps', 'index.json'), mapIndex);
+await writeJson(
+  join(out, 'maps', 'index.json'),
+  Object.fromEntries(Object.values(maps).map((m) => [m.normalizedId, mapIndex[m.normalizedId]])),
+);
+
+// ── Minimap icons: every unit's that has one (towers, camps, tributes, shrines, summons…),
+//    a sheet keyed by unit. Shared by every map; no map's own data claims them ────────────────
+
+const units = (await dataFile<{ portraits?: { minimap?: string } }>('unitdata')).items;
+const minimapIcons = Object.entries(units).flatMap(([id, unit]) =>
+  unit.portraits?.minimap ? [[id, unit.portraits.minimap] as [string, string]] : [],
+);
+const minimapRects = await sheet(
+  minimapIcons,
+  pictures,
+  join(out, 'minimap', 'units.webp'),
+  'minimap',
+);
+await writeJson(join(out, 'minimap', 'index.json'), {
+  sheet: Object.keys(minimapRects).length ? 'units.webp' : null,
+  units: minimapRects,
+});
 
 // ── Strings, per locale ─────────────────────────────────────────────────────────────────────
 
@@ -310,7 +414,8 @@ for (const [locale, { main, maps: mapStrings }] of strings) {
 
 console.log(
   `${channel}: ${heroIndex.length} heroes, ${portraitKinds.size} portrait sheets, ` +
-    `${Object.keys(emoticonIndex).length} emoticons, ${Object.keys(mapIndex).length} maps, ` +
+    `${Object.keys(emoticonIndex).length} emoticons in ${emoticonGroups.size} sheets, ` +
+    `${Object.keys(mapIndex).length} maps, ${Object.keys(minimapRects).length} minimap icons, ` +
     `${strings.size} locales, ${warnings.length} warnings`,
 );
 if (process.env['GITHUB_STEP_SUMMARY'] && warnings.length) {
