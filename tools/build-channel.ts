@@ -10,7 +10,15 @@ import { basename, dirname, join } from 'node:path';
 import { writeAnimatedWebp } from './lib/animated.ts';
 import { asChannel, LOCALES, ROOT } from './lib/channels.ts';
 import { decodeDds, type Decoded } from './lib/dds.ts';
-import { webpName, writeSheet, writeWebp, type Picture, type Rect } from './lib/sheet.ts';
+import {
+  pictureSize,
+  webpName,
+  writeScaledWebp,
+  writeSheet,
+  writeWebp,
+  type Picture,
+  type Rect,
+} from './lib/sheet.ts';
 
 type Json = Record<string, unknown>;
 /** HDP's gamestrings: category → field → id → text. */
@@ -146,7 +154,8 @@ await cp(join(hdp, 'gamestrings'), join(out, 'raw', 'gamestrings'), { recursive:
 const pictures = await pictureFiles();
 const strings = await gameStrings();
 
-// ── Heroes: one file, an ability sheet and a talent sheet each, portraits a sheet per kind ───
+// ── Heroes: one file, an ability sheet, a talent sheet and a hero sheet (both, with its
+//    portraits) each; portraits also a sheet per kind across heroes ──────────────────────────
 
 interface Hero extends Json {
   portraits?: Record<string, string | string[]>;
@@ -155,6 +164,9 @@ interface Hero extends Json {
 }
 
 const heroes = (await dataFile<Hero>('herodata')).items;
+
+/** The portraits a hero's own sheet holds besides its icons. */
+const HERO_SHEET_PORTRAITS = ['draftScreen', 'minimap', 'partyPanel', 'target', 'targetInfo'];
 const heroIndex: Json[] = [];
 const heroLinks = new Map<string, { links: Set<string>; units: Set<string> }>();
 
@@ -164,7 +176,7 @@ await Promise.all(
     const { portraits: _, ...data } = hero;
     const { talents, ...abilities } = data; // abilities, sub-abilities, hero units' abilities
     const kinds = { abilities: collect(abilities, ['icon']), talents: collect(talents, ['icon']) };
-    const sheets = Object.fromEntries(
+    const sheets: Record<string, Json> = Object.fromEntries(
       await Promise.all(
         Object.entries(kinds).map(async ([kind, icons]) => {
           const file = `${id}/${kind}.webp`;
@@ -179,6 +191,28 @@ await Promise.all(
         }),
       ),
     );
+    // the hero sheet: every icon by file name, the portraits by kind; a picture used for both
+    // (Anub'arak's The Traitor King is his draft portrait) is in it once
+    const portraits = HERO_SHEET_PORTRAITS.flatMap((kind) => {
+      const file = hero.portraits?.[kind];
+      return typeof file === 'string' && file ? [[kind, file] as const] : [];
+    });
+    const icons = [...new Set([...kinds.abilities, ...kinds.talents])];
+    const files = new Set([...icons, ...portraits.map(([, file]) => file)]);
+    const file = `${id}/hero.webp`;
+    const rects = await sheet(
+      [...files].map((f): [string, string] => [f, f]),
+      pictures,
+      join(out, 'heroes', 'sheets', file),
+      `${id} hero`,
+    );
+    const placed = <T extends string>(pairs: readonly (readonly [T, string])[]) =>
+      Object.fromEntries(pairs.flatMap(([key, f]) => (rects[f] ? [[key, rects[f]]] : [])));
+    sheets['hero'] = {
+      sheet: Object.keys(rects).length ? `sheets/${file}` : null,
+      icons: placed(icons.map((icon) => [icon, icon] as const)),
+      portraits: placed(portraits),
+    };
     await writeJson(join(out, 'heroes', `${id}.json`), { id, ...data, sheets });
   }),
 );
@@ -364,6 +398,31 @@ await Promise.all(
     };
   }),
 );
+// A map without a replay preview (Deadman's Stand) gets its loading screen, scaled down to the
+// size most maps' previews are
+const previewSizes = new Map<string, number>();
+for (const map of Object.values(maps)) {
+  const file = typeof map['replayPreviewImage'] === 'string' ? map['replayPreviewImage'] : '';
+  const picture = pictures.get(file.toLowerCase());
+  if (!picture) continue;
+  const { width, height } = await pictureSize(picture);
+  previewSizes.set(`${width}x${height}`, (previewSizes.get(`${width}x${height}`) ?? 0) + 1);
+}
+const [previewSize] = [...previewSizes].sort((a, b) => b[1] - a[1])[0] ?? [];
+const [previewWidth, previewHeight] = (previewSize ?? '').split('x').map(Number);
+await Promise.all(
+  Object.entries(maps).map(async ([key, map]) => {
+    const preview = typeof map['replayPreviewImage'] === 'string' ? map['replayPreviewImage'] : '';
+    if (pictures.has(preview.toLowerCase())) return;
+    const loading = typeof map['loadingScreenImage'] === 'string' ? map['loadingScreenImage'] : '';
+    const picture = pictures.get(loading.toLowerCase());
+    if (!picture || !previewWidth || !previewHeight) return warn(`${key}: no preview`);
+    const file = `images/${map.normalizedId}-preview.webp`;
+    await writeScaledWebp(picture, join(out, 'maps', file), previewWidth, previewHeight);
+    mapIndex[map.normalizedId]!['replayPreviewImage'] = file;
+  }),
+);
+
 await writeJson(
   join(out, 'maps', 'index.json'),
   Object.fromEntries(Object.values(maps).map((m) => [m.normalizedId, mapIndex[m.normalizedId]])),
