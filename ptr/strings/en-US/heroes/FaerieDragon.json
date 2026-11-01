@@ -1,0 +1,190 @@
+{
+  "abilities": {
+    "FaerieDragonArcaneFlare|BrightwingArcaneFlare|Q": {
+      "cooldownText": "Cooldown: 6 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 35</s>",
+      "fullText": "Shoot a flare dealing <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage to enemies hit, and an additional <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">105</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage to enemies in the center. If a Hero is hit by the center, Soothing Mist's passive healing instantly activates.",
+      "name": "Arcane Flare",
+      "shortText": "Fire a damaging flare"
+    },
+    "FaerieDragonPolymorph|BrightwingPolymorph|W": {
+      "cooldownText": "Cooldown: 12 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Polymorph a target for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> seconds, Slowing their Movement Speed by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c> and Silencing them. Targets are not able to attack while Polymorphed.",
+      "name": "Polymorph",
+      "shortText": "Disable an enemy"
+    },
+    "FaerieDragonPixieDust|BrightwingPixieDust|E": {
+      "cooldownText": "Cooldown: 10 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Increase target Hero's Movement Speed by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c>, and grant them <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30</c> Spell Armor for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> seconds, reducing Spell damage taken by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c>.",
+      "name": "Pixie Dust",
+      "shortText": "Increase a Hero's Movement Speed and grant Spell Armor"
+    },
+    "FaerieDragonBlinkHealDash|BrightwingBlinkHealAllyDash|Heroic": {
+      "cooldownText": "Charge Cooldown: 9 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 40</s>",
+      "fullText": "Teleport to a nearby ally. When teleporting to a Hero, heal them for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">200</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>.<n/><n/>Stores up to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> charges.",
+      "name": "Blink Heal",
+      "shortText": "Teleport to allies and heal them"
+    },
+    "FaerieDragonEmeraldWind|BrightwingEmeraldWind|Heroic": {
+      "cooldownText": "Cooldown: 50 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 90</s>",
+      "fullText": "After <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c> seconds, create an expanding nova of wind, dealing <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">225</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c><c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\"> </c>damage and pushing enemies away.",
+      "name": "Emerald Wind",
+      "shortText": "Damages and pushes enemies in area"
+    },
+    "BrightwingCalmingMist|BrightwingSoothingMistCalmingMist|Trait": {
+      "cooldownText": "Cooldown: 75 seconds",
+      "fullText": "Activate to remove all Stun, Root, Slow, and Silence effects from nearby allied Heroes.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Passive:</c> Brightwing heals nearby allied Heroes for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">110</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> every <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> seconds",
+      "name": "Soothing Mist",
+      "shortText": "Remove disabling effects from allies"
+    },
+    "BrightwingPhaseShift|BrightwingPhaseShift|Z": {
+      "cooldownText": "Cooldown: 40 seconds",
+      "fullText": "After <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> seconds, teleport to an allied Hero and heal them for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> of their maximum Health.",
+      "name": "Phase Shift",
+      "shortText": "Teleport to an allied Hero and heal them"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "After Channeling for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> seconds, teleport back to the Hall of Storms, instantly restoring <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c> Health and <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c> Mana.",
+      "name": "Hearthstone"
+    },
+    "BrightwingBlinkHealDoubleWyrmholeDash|BrightwingDoubleWyrmhole|Heroic": {
+      "fullText": "Teleport to a nearby ally, healing them for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">200</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>.",
+      "name": "Double Wyrmhole"
+    },
+    "FaerieDragonPixieCharm|FaerieDragonPixieCharm|Active": {
+      "fullText": "Activate to consume <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c> stacks of Bribe to instantly defeat an uncaptured non-Elite Mercenary.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Passive:</c> Gain <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> stack of Bribe when a nearby enemy Minion dies, and <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> stacks when hitting an enemy Hero with Arcane Flare's center. Maximum <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">80</c> stacks.",
+      "name": "Pixie Charm"
+    },
+    "BrightwingPhaseOut|BrightwingPhaseOut|Active": {
+      "cooldownText": "Cooldown: 20 seconds",
+      "fullText": "Activate to place Brightwing in Stasis for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.75</c> seconds.",
+      "name": "Phase Out",
+      "shortText": "Activate to gain Stasis"
+    },
+    "BrightwingFaerieProtector|BrightwingFaerieProtectorHotbar|Active": {
+      "cooldownText": "Cooldown: 45 seconds",
+      "fullText": "Activate to apply Pixie Dust to all nearby Heroes.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Passive:</c> Pixie Dust always bounces back and applies to Brightwing.",
+      "name": "Faerie Protector",
+      "shortText": "Grant nearby allies Pixie Dust"
+    }
+  },
+  "talents": {
+    "BrightwingGreaterPolymorphPolymorph|BrightwingGreaterPolymorphTalent|W|Level1": {
+      "fullText": "<c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Passive:</c> Increase Polymorph's range by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c>. <n/><n/>If Brightwing hits an enemy Hero with Arcane Flare's center within <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> seconds of being Polymorphed, then reduce Polymorph's cooldown by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">7</c> seconds and gain <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50</c> Mana.",
+      "name": "Greater Polymorph",
+      "shortText": "Increase Polymorph range, reduce cooldown"
+    },
+    "BrightwingPhaseShiftHyperShift|BrightwingPhaseShiftHyperShift|Z|Level1": {
+      "fullText": "Increase Phase Shift's healing by an additional <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4%</c> of the target's maximum Health. Nearby enemy Minion deaths reduce Phase Shift's cooldown by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c> second.",
+      "name": "Hyper Shift",
+      "shortText": "Increase Phase Shift healing"
+    },
+    "BrightwingPixieCharm|FaerieDragonPixieCharmTalent|Active|Level1": {
+      "fullText": "Activate to consume <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c> stacks of Bribe to instantly defeat an uncaptured non-Elite Mercenary.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Passive:</c> Gain <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> stack of Bribe when a nearby enemy Minion dies, and <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> stacks when hitting an enemy Hero with Arcane Flare's center. Maximum <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">80</c> stacks.",
+      "name": "Pixie Charm",
+      "shortText": "Activate to instantly defeat a Mercenary"
+    },
+    "BrightwingDreamShotArcaneFlare|BrightwingDreamShotTalent|Q|Level4": {
+      "fullText": "Increase Arcane Flare's range by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60%</c>. Hitting a Hero with Arcane Flare's center reduces its cooldown to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> seconds.",
+      "name": "Dream Shot",
+      "shortText": "Arcane Flare center hits reduce cooldown"
+    },
+    "BrightwingUnstableAnomalyPolymorph|BrightwingUnstableAnomalyTalent|W|Level4": {
+      "fullText": "Increase Polymorph's Slow by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c>. Upon expiration, Polymorph deals damage to nearby enemy Heroes equal to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2%</c> of their maximum Health.",
+      "name": "Unstable Anomaly",
+      "shortText": "Polymorph Slows more, target explodes"
+    },
+    "BrightwingMagicSpit|BrightwingMagicSpit|Passive|Level4": {
+      "fullText": "Increase Basic Attack range by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.1</c>. Basic Attacks against Heroes reduce the cooldown of Soothing Mist by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> seconds.",
+      "name": "Magic Spit",
+      "shortText": "Basic Attacks reduce Soothing Mist cooldown"
+    },
+    "BrightwingArcaneFlareStickyFlare|BrightwingArcaneFlareStickyFlareTalent|Q|Level7": {
+      "fullText": "Enemy Heroes hit by Arcane Flare have their Movement Speed Slowed by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> seconds. Increase the Slow to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> if they are hit by the center portion.",
+      "name": "Sticky Flare",
+      "shortText": "Arcane Flare Slows enemies"
+    },
+    "BrightwingPhaseShiftPeekaboo|BrightwingPhaseShiftPeekaboo|Z|Level7": {
+      "fullText": "Phase Shifting to an ally grants both Brightwing and her target a <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">335</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Shield for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> seconds and reveals a large area around them for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> seconds.",
+      "name": "Peekaboo!",
+      "shortText": "Phase Shift grants a Shield, reveals an area"
+    },
+    "BrightwingCriticalMistCalmingMist|BrightwingCalmingMistCriticalMist|Trait|Level7": {
+      "fullText": "Soothing Mist heals allied Heroes for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">165</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>. Increase this healing by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">140%</c> if Soothing Mist removed a disabling effect from that ally.",
+      "name": "Critical Mist",
+      "shortText": "Activating Soothing Mist heals"
+    },
+    "FaerieDragonHeroicAbilityBlinkHeal|BrightwingBlinkHealAllyDash|Heroic|Level10": {
+      "cooldownText": "Charge Cooldown: 9 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 40</s>",
+      "fullText": "Teleport to a nearby ally. When teleporting to a Hero, heal them for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">200</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>.<n/><n/>Stores up to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> charges.",
+      "name": "Blink Heal",
+      "shortText": "Teleport to allies and heal them"
+    },
+    "FaerieDragonHeroicAbilityEmeraldWind|BrightwingEmeraldWind|Heroic|Level10": {
+      "cooldownText": "Cooldown: 50 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 90</s>",
+      "fullText": "After <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c> seconds, create an expanding nova of wind, dealing <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">225</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c><c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\"> </c>damage and pushing enemies away.",
+      "name": "Emerald Wind",
+      "shortText": "Damages and pushes enemies in area"
+    },
+    "BrightwingPixieBoostPixieDust|BrightwingPixieBoostTalent|E|Level13": {
+      "fullText": "Increase Pixie Dust's Movement Speed bonus to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>, decaying to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> over <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> seconds.",
+      "name": "Pixie Boost",
+      "shortText": "Pixie Dust grants an additional burst of speed"
+    },
+    "BrightwingPixieDustSafetyDust|BrightwingPixieDustSafetyDust|E|Level13": {
+      "fullText": "Increase Pixie Dust's duration by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> second. Soothing Mist and Blink Heal heal allies with an active Pixie Dust for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75%</c> more.",
+      "name": "Safety Dust",
+      "shortText": "Pixie Dust increases healing"
+    },
+    "BrightwingPixieDustPixiePower|BrightwingPixieDustPixiePower|E|Level13": {
+      "fullText": "Reduce the cooldown of Pixie Dust by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> seconds and increase the Spell Armor granted by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c>.",
+      "name": "Pixie Power",
+      "shortText": "Reduce Pixie Dust cooldown, increase Spell Armor"
+    },
+    "BrightwingArcaneFlareHush!|BrightwingArcaneFlareHush!|Q|Level16": {
+      "fullText": "Enemy Heroes hit by the center of Arcane Flare are Silenced for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> second and deal <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> less damage for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> seconds.",
+      "name": "Hush!",
+      "shortText": "Arcane Flare center Silences, reduces damage"
+    },
+    "FaerieDragonMasteryCritterize|BrightwingPolymorphCritterizeTalent|W|Level16": {
+      "fullText": "While Polymorphed, the target's Armor is reduced by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c>, increasing the damage they take by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>.",
+      "name": "Critterize",
+      "shortText": "Polymorph lowers enemy's Armor"
+    },
+    "BrightwingPhaseOut|BrightwingPhaseOut|Active|Level16": {
+      "cooldownText": "Cooldown: 20 seconds",
+      "fullText": "Activate to place Brightwing in Stasis for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.75</c> seconds.",
+      "name": "Phase Out",
+      "shortText": "Activate to gain Stasis"
+    },
+    "BrightwingInvisibleFriends|BrightwingInvisibleFriends|Heroic|Level20": {
+      "fullText": "Blink Heal grants Stealth to Brightwing and her Heroic targets for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">9</c> seconds, and they are Unrevealable for the first <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c> seconds. While Stealthed by Invisible Friends, Heroes heal for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> health per second.<n/><n/>Remaining stationary for at least <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> seconds while Stealthed grants Invisible.",
+      "name": "Invisible Friends",
+      "shortText": "Blink Heal grants Stealth"
+    },
+    "BrightwingIntensiveWinds|BrightwingEmeraldWindIntensiveWinds|Heroic|Level20": {
+      "fullText": "Permanently reduce Emerald Wind's cooldown to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> seconds.",
+      "name": "Intensive Winds",
+      "shortText": "Massively reduce Emerald Wind's cooldown"
+    },
+    "BrightwingSpeedyDragon|BrightwingSpeedyDragon|Z|Level20": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "fullText": "Permanently gain <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> Movement Speed. Reduce Phase Shift's cast time by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> second.",
+      "name": "Speedy Dragon",
+      "shortText": "Permanently gain Movement Speed"
+    },
+    "BrightwingFaerieProtector|BrightwingFaerieProtector|Active|Level20": {
+      "cooldownText": "Cooldown: 45 seconds",
+      "fullText": "Activate to apply Pixie Dust to all nearby Heroes.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Passive:</c> Pixie Dust always bounces back and applies to Brightwing.",
+      "name": "Faerie Protector",
+      "shortText": "Grant nearby allies Pixie Dust"
+    }
+  },
+  "units": {}
+}

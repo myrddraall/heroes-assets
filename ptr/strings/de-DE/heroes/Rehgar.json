@@ -1,0 +1,199 @@
+{
+  "abilities": {
+    "RehgarChainHeal|RehgarChainHeal|Q": {
+      "cooldownText": "Abklingzeit: 8 Sek.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Erzeugt eine Welle, die einen Verbündeten um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">260</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Lebenspunkte heilt. Die Welle springt danach <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>-mal auf Verbündete in einer Reichweite von <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">7</c> über und stellt bei ihnen jeweils <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">260</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Lebenspunkte wieder her.",
+      "name": "Kettenheilung",
+      "shortText": "Erzeugt eine heilende Welle, die zwischen Verbündeten überspringt."
+    },
+    "RehgarLightningShield|RehgarLightningShield|W": {
+      "cooldownText": "Abklingzeit: 8 Sek.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Lädt einen Verbündeten mit Blitzen auf, die Gegnern in der Nähe <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">64</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Schaden pro Sekunde zufügen. Stellt für jeden getroffenen Gegner <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> Mana von Rehgar wieder her. Hält <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> Sek. lang an.",
+      "name": "Blitzschlagschild",
+      "shortText": "Lädt ein verbündetes Ziel mit Blitzen auf, die Gegnern in der Nähe Schaden zufügen."
+    },
+    "RehgarEarthbindTotem|RehgarEarthbindTotem|E": {
+      "cooldownText": "Abklingzeit: 15 Sek.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Erschafft ein Totem mit <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">260</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Lebenspunkten am Zielort. Hält <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> Sek. lang an. Das Totem verlangsamt Gegner in der Nähe regelmäßig um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35%</c>.",
+      "name": "Totem der Erdbindung",
+      "shortText": "Erschafft ein Totem, das Gegner in der Nähe verlangsamt."
+    },
+    "RehgarBloodlust|RehgarBloodlust|Heroic": {
+      "cooldownText": "Abklingzeit: 90 Sek.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 70</s>",
+      "fullText": "Erhöht bei allen verbündeten Helden in der Nähe die Angriffsgeschwindigkeit um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> sowie die Bewegungsgeschwindigkeit um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35%</c>. Heilt sie außerdem um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c> des Schadens, den ihre automatischen Angriffe dem Hauptziel zufügen. Hält <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> Sek. lang an.",
+      "name": "Kampfrausch",
+      "shortText": "Verbündete Helden bewegen sich schneller, kämpfen schneller und ihre Angriffe heilen."
+    },
+    "RehgarAncestralHealing|RehgarAncestralHealing|Heroic": {
+      "cooldownText": "Abklingzeit: 100 Sek.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 80</s>",
+      "fullText": "Heilt einen verbündeten Helden nach <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> Sek. um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1180</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Lebenspunkte.",
+      "name": "Heilung der Ahnen",
+      "shortText": "Heilt einen verbündeten Helden maßgeblich."
+    },
+    "RehgarPurge|RehgarPurge|Trait": {
+      "cooldownText": "Abklingzeit: 60 Sek.",
+      "fullText": "Macht einen verbündeten Helden <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c> Sek. lang unaufhaltbar oder verlangsamt einen gegnerischen Helden um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">80%</c>. Die Verlangsamung nimmt im Verlauf von <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> Sek. ab.<n/><n/>Kann nicht auf Rehgar selbst angewandt werden.",
+      "name": "Reinigen",
+      "shortText": "Macht einen Verbündeten unaufhaltbar oder verlangsamt einen gegnerischen Helden."
+    },
+    "RehgarGhostWolfActivate|RehgarGhostWolfActivate|Z": {
+      "cooldownText": "Abklingzeit: 4 Sek.",
+      "fullText": "Anstatt aufzusitzen, kann sich Rehgar in einen Geisterwolf verwandeln, was seine Bewegungsgeschwindigkeit um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> erhöht. Automatische Angriffe in Geisterwolfgestalt lassen Rehgar das Ziel anspringen und verursachen <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60%</c> mehr Schaden. Wenn Rehgar Schaden verursacht, Fähigkeiten einsetzt oder kanalisiert, wird die Verwandlung aufgehoben.",
+      "name": "Geisterwolf",
+      "shortText": "Verwandelt Rehgar in einen Geisterwolf."
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Kanalisiert <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> Sek. lang und teleportiert sich dann zurück zum Altar der Stürme. Dabei werden sofort <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c> Lebenspunkte und <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c> Mana wiederhergestellt.",
+      "name": "Ruhestein"
+    },
+    "RehgarTotemicProjection|RehgarTotemicProjection|E": {
+      "fullText": "Versetzt ein Totem der Erdbindung sofort an einen neuen Standort.",
+      "name": "Totemische Projektion",
+      "shortText": "Versetzt ein Totem der Erdbindung sofort an einen neuen Standort."
+    },
+    "RehgarGhostWolfDeactivate|RehgarGhostWolfDeactivate|Z": {
+      "fullText": "Geisterwolfgestalt verlassen.",
+      "name": "Geisterwolf deaktivieren"
+    },
+    "RehgarHealingTotem|RehgarHealingTotem|Active": {
+      "cooldownText": "Abklingzeit: 30 Sek.",
+      "fullText": "Aktivieren, um ein Totem zu platzieren, das verbündete Helden im Wirkungsbereich <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2%</c> ihrer maximalen Lebenspunkte pro Sekunde regenerieren lässt. Das Totem hat <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">125</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Lebenspunkte und hält <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> Sek. lang an.",
+      "name": "Heiltotem",
+      "shortText": "Aktivieren, um einen Zauberschutz zu platzieren, der im Wirkungsbereich heilt."
+    },
+    "RehgarElementalConduit|RehgarElementalConduit|Active": {
+      "cooldownText": "Abklingzeit: 70 Sek.",
+      "fullText": "Aktivieren, um einen Blitzschlagschild zu erhalten und allen verbündeten Helden in der Nähe <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> Sek. lang einen Schild in Höhe von <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c> ihrer maximalen Lebenspunkte zu verleihen.<n/><n/>Wenn dieser Blitzschlagschild bis zu <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> Sek. nach dem Aktivieren einen gegnerischen Helden trifft, erhalten verbündete Helden in der Nähe <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> Sek. lang einen Schild in Höhe von <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5%</c> ihrer maximalen Lebenspunkte.",
+      "name": "Elementarverbunden",
+      "shortText": "Gewährt Blitzschlagschild und Verbündeten in der Nähe einen Schild."
+    }
+  },
+  "talents": {
+    "RehgarLightningShieldStormcaller|RehgarLightningShieldStormcaller|W|Level1": {
+      "fullText": "Erhöht den Radius des Blitzschlagschilds um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Quest:</c> Füg gegnerischen Helden mit dem Blitzschlagschild Schaden zu, um Rehgars Lebenspunkte jeweils um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> und Rehgars Mana um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> zu erhöhen, bis maximal <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">200</c>.",
+      "name": "Sturmrufer",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Quest:</c> Blitzschlagschild erhöht Lebenspunkte und Mana."
+    },
+    "RehgarEarthbindTotemColossalTotem|RehgarEarthbindTotemColossalTotem|E|Level1": {
+      "fullText": "Totem der Erdbindung kann erneut aktiviert werden, um ein aktives Totem einmalig an einen neuen Standort zu versetzen.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Passiv:</c> Erhöht den Bereich und die Dauer des Totems der Erdbindung um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> und die Lebenspunkte um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>.",
+      "name": "Kolossales Totem",
+      "shortText": "Vergrößert Lebenspunkte, Bereich und Dauer des Totems der Erdbindung."
+    },
+    "RehgarFeralHeart|RehgarGhostWolfFeralHeartTalent|Z|Level1": {
+      "fullText": "Erhöht den Bewegungsgeschwindigkeitsbonus in der ersten Sekunde der Geisterwolfgestalt auf <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> und verringert ihn dann auf <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c>. Gewährt beim Verwandeln in oder aus der Geisterwolfgestalt <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> Sek. lang <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> Panzerung.",
+      "name": "Wildherz",
+      "shortText": "Erhöht die Bewegungsgeschwindigkeit stärker und gewährt Panzerung."
+    },
+    "RehgarEarthlivingEnchant|RehgarEarthlivingEnchant|Q|Level4": {
+      "fullText": "Wenn die Kettenheilung auf einen Helden angewandt wird, der weniger als <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> Lebenspunkte hat, wird dieser zusätzlich im Verlauf von <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> Sek. um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">160</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Lebenspunkte geheilt.",
+      "name": "Zauber der Lebensgeister",
+      "shortText": "Erhöht die Heilung der Kettenheilung bei schwer verletzten Helden."
+    },
+    "RehgarLightningShieldElectricCharge|RehgarLightningShieldElectricCharge|W|Level4": {
+      "fullText": "Heilt den Träger des Blitzschlagschilds um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> des Schadens, den es gegnerischen Helden zufügt. Heilt um die doppelte Menge, wenn der Träger Rehgar ist.<n/><n/>Erhöht die Bewegungsgeschwindigkeit des Trägers um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c>, während der Schild einem Gegner Schaden zufügt.",
+      "name": "Elektrische Ladung",
+      "shortText": "Blitzschlagschild heilt und erhöht die Bewegungsgeschwindigkeit."
+    },
+    "RehgarHealingTotem|RehgarHealingTotem|Active|Level4": {
+      "cooldownText": "Abklingzeit: 30 Sek.",
+      "fullText": "Aktivieren, um ein Totem zu platzieren, das verbündete Helden im Wirkungsbereich <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2%</c> ihrer maximalen Lebenspunkte pro Sekunde regenerieren lässt. Das Totem hat <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">125</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Lebenspunkte und hält <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> Sek. lang an.",
+      "name": "Heiltotem",
+      "shortText": "Aktivieren, um einen Zauberschutz zu platzieren, der im Wirkungsbereich heilt."
+    },
+    "RehgarEarthbindTotemGroundedTotem|RehgarEarthbindTotemGroundedTotem|E|Level7": {
+      "fullText": "Verringert die Angriffsgeschwindigkeit gegnerischer Helden im Bereich des Totems der Erdbindung um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15 %</c> und ihre Fähigkeitsstärke um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15 %</c>.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Passiv:</c> Erhöht die Einsatzreichweite des Totems der Erdbindung um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">45 %</c>.",
+      "name": "Geerdetes Totem",
+      "shortText": "Verstärkt das Totem der Erdbindung."
+    },
+    "RehgarPurification|RehgarPurification|Trait|Level7": {
+      "fullText": "Wenn Reinigen einen Verlangsamungs-, Betäubungs-, Bewegungsunfähigkeits- oder Stilleeffekt von einem Verbündeten entfernt, wird er um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">220</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Lebenspunkte geheilt.<n/><n/>Der Einsatz von Reinigen gegen einen gegnerischen Helden fügt Schilden bis zu <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">330</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Schaden zu und verringert die erhaltene Heilung <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> Sek. lang um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c>.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Passiv:</c> Verringert die Abklingzeit von Reinigen um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> Sek.",
+      "name": "Läuterung",
+      "shortText": "Verstärkt Reinigen."
+    },
+    "RehgarBloodAndThunder|RehgarBloodAndThunder|Z|Level7": {
+      "fullText": "Automatische Angriffe in Geisterwolfgestalt verringern die Abklingzeiten der Grundfähigkeiten um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> Sek. und stellen <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4%</c> des maximalen Manas wieder her.",
+      "name": "Blut und Donner",
+      "shortText": "Automatische Angriffe als Geisterwolf verringern die Abklingzeiten der Grundfähigkeiten."
+    },
+    "RehgarAncestralHealing|RehgarAncestralHealing|Heroic|Level10": {
+      "cooldownText": "Abklingzeit: 100 Sek.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 80</s>",
+      "fullText": "Heilt einen verbündeten Helden nach <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> Sek. um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1180</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Lebenspunkte.",
+      "name": "Heilung der Ahnen",
+      "shortText": "Heilt einen verbündeten Helden maßgeblich."
+    },
+    "RehgarBloodlust|RehgarBloodlust|Heroic|Level10": {
+      "cooldownText": "Abklingzeit: 90 Sek.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 70</s>",
+      "fullText": "Erhöht bei allen verbündeten Helden in der Nähe die Angriffsgeschwindigkeit um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> sowie die Bewegungsgeschwindigkeit um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35%</c>. Heilt sie außerdem um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c> des Schadens, den ihre automatischen Angriffe dem Hauptziel zufügen. Hält <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> Sek. lang an.",
+      "name": "Kampfrausch",
+      "shortText": "Verbündete Helden bewegen sich schneller, kämpfen schneller und ihre Angriffe heilen."
+    },
+    "RehgarMasteryTidalWaves|RehgarChainHealTidalWavesTalent|Q|Level13": {
+      "fullText": "Verringert die Abklingzeit der Kettenheilung für jeden geheilten Helden um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> Sek. und verringert die Manakosten von <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60</c> auf <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40</c>.",
+      "name": "Flutwellen",
+      "shortText": "Verringert die Abklingzeit und die Manakosten der Kettenheilung."
+    },
+    "RehgarLightningShieldEarthShield|RehgarLightningShieldEarthShield|W|Level13": {
+      "fullText": "Blitzschlagschild gewährt einem Helden außerdem einen Schild in Höhe von <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">14%</c> seiner maximalen Lebenspunkte, der <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> Sek. lang anhält.",
+      "name": "Erdschild",
+      "shortText": "Blitzschlagschild gewährt einen Schild."
+    },
+    "RehgarWellspring|RehgarWellspring|E|Level13": {
+      "fullText": "Das Totem der Erdbindung setzt alle <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> Sek. eine Grundversion von Kettenheilung ein, die den nächsten verbündeten Helden mit den niedrigsten Lebenspunkten um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35%</c> der normalen Menge heilt. ",
+      "name": "Lebensquell",
+      "shortText": "Das Totem der Erdbindung setzt Kettenheilung ein."
+    },
+    "RehgarLightningShieldRisingStorm|RehgarLightningShieldRisingStorm|W|Level16": {
+      "fullText": "Jedes Mal, wenn ein Blitzschlagschild einem gegnerischen Helden Schaden zufügt, wird der Schaden um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c> erhöht. Bis zu <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c>-mal stapelbar.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Passiv:</c> Erhöht die Dauer des Blitzschlagschilds um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> Sek.",
+      "name": "Gewitterfront",
+      "shortText": "Erhöht Schaden und Dauer des Blitzschlagschilds."
+    },
+    "RehgarEarthbindTotemEarthgraspTotem|RehgarEarthbindTotemEarthgraspTotem|E|Level16": {
+      "fullText": "Das Totem der Erdbindung verursacht nach dem Einsatz <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">90</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Schaden und verlangsamt Gegner in der Nähe <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> Sek. lang um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">90%</c>.",
+      "name": "Totem des Erdgriffs",
+      "shortText": "Totem der Erdbindung verursacht beim Platzieren Schaden und verlangsamt stärker."
+    },
+    "RehgarHungerOfTheWolf|RehgarHungeroftheWolf|Z|Level16": {
+      "fullText": "In Geisterwolfgestalt fügen Angriffe Helden zusätzlichen Schaden in Höhe von <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6%</c> ihrer maximalen Lebenspunkte zu und heilen Rehgar um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6%</c> seiner maximalen Lebenspunkte.",
+      "name": "Wolfshunger",
+      "shortText": "Angriffe als Geisterwolf verursachen mehr Schaden und heilen."
+    },
+    "RehgarAncestralHealingFarseersBlessing|RehgarAncestralHealingFarseersBlessing|Heroic|Level20": {
+      "fullText": "Nach <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> Sek. wird Heilung der Ahnen erneut ausgelöst und heilt das gleiche Ziel ein zweites Mal. Verbündete in der Nähe des Ziels werden um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">590</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> geheilt.",
+      "name": "Segen des Scharfsehers",
+      "shortText": "Heilt ein zweites Mal und erhält einen Flächeneffekt."
+    },
+    "RehgarGladiatorsWarShout|RehgarBloodlustGladiatorsWarShout|Heroic|Level20": {
+      "fullText": "Erhöht die Dauer und Reichweite von Kampfrausch um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c>.",
+      "name": "Kampfruf des Gladiators",
+      "shortText": "Erhöht Dauer und Reichweite von Kampfrausch."
+    },
+    "RehgarElementalConduit|RehgarElementalConduit|Active|Level20": {
+      "cooldownText": "Abklingzeit: 70 Sek.",
+      "fullText": "Aktivieren, um einen Blitzschlagschild zu erhalten und allen verbündeten Helden in der Nähe <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> Sek. lang einen Schild in Höhe von <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c> ihrer maximalen Lebenspunkte zu verleihen.<n/><n/>Wenn dieser Blitzschlagschild bis zu <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> Sek. nach dem Aktivieren einen gegnerischen Helden trifft, erhalten verbündete Helden in der Nähe <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> Sek. lang einen Schild in Höhe von <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5%</c> ihrer maximalen Lebenspunkte.",
+      "name": "Elementarverbunden",
+      "shortText": "Gewährt Blitzschlagschild und Verbündeten in der Nähe einen Schild."
+    },
+    "RehgarPitFighter|RehgarPitFighter|Passive|Level20": {
+      "fullText": "Erhöht den Schaden automatischer Angriffe um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c> und gewährt <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> Fähigkeitsstärke. Gewährt einen weiteren Stapel dieses Effekts für jeden verbündeten Helden in der Nähe, bis maximal <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> Stapel.<n/><n/>Bei mindestens <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> Stapeln wird die Abklingzeit von Reinigen <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> schneller abgeschlossen.",
+      "name": "Grubenkämpfer",
+      "shortText": "Erhöht Angriffsschaden und Fähigkeitsstärke in der Nähe von Verbündeten."
+    }
+  },
+  "units": {
+    "RehgarEarthbindTotem": {
+      "description": "Erschafft ein Totem mit <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">260</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Lebenspunkten am Zielort. Hält <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> Sek. lang an. Das Totem verlangsamt Gegner in der Nähe regelmäßig um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35%</c>.",
+      "name": "Totem der Erdbindung"
+    },
+    "TalentHealingWard": {
+      "description": "<s val=\"cbe8ff-ffffff\" hlt-name=\"StandardTooltipHeader\">Heilungszauberschutz</s><n/><s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Abklingzeit: 60 Sek.</s><n/><n/><s val=\"8783e6\" hlt-name=\"StandardTooltip\">Aktivieren, um einen Zauberschutz auf dem Boden zu platzieren, der Verbündete im Wirkungsbereich </s><s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">10</s><s val=\"8783e6\" hlt-name=\"StandardTooltip\"> Sek. lang pro Sekunde um </s><s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">2%</s><s val=\"8783e6\" hlt-name=\"StandardTooltip\"> ihrer maximalen Lebenspunkte heilt.</s>",
+      "name": "Heilungszauberschutz"
+    }
+  }
+}

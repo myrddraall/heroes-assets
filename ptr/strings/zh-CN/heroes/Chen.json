@@ -1,0 +1,217 @@
+{
+  "abilities": {
+    "ChenFlyingKick|ChenFlyingKick|Q": {
+      "cooldownText": "冷却时间：5秒",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">酒量：10</s>",
+      "fullText": "飞踢敌人，造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">130</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点伤害。",
+      "name": "飞天脚",
+      "shortText": "向目标敌人施放飞踢"
+    },
+    "ChenKegSmash|ChenKegSmash|W": {
+      "cooldownText": "冷却时间：5秒",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">酒量：40</s>",
+      "fullText": "造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点伤害并用酒精浸透敌人，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>秒。使敌人减速<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c>，在<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.25</c>秒后，该减速效果提高至<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c>。<n/><n/>在使用后，该技能会变成火焰之息。<n/><n/><c val=\"ff0000\" hlt-name=\"#ColorRed\">火焰之息</c><n/>造成伤害并点燃浸酒的敌人。",
+      "name": "醉酿投",
+      "shortText": "向附近一个区域内的敌人泼酒，使他们减速"
+    },
+    "ChenStagger|ChenStagger|E": {
+      "cooldownText": "冷却时间：18秒",
+      "fullText": "在接下来的<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>秒内阻止一切伤害。当此效果结束时，陈会在秒内受到相当于所承受伤害<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>75%的伤害。此伤害值不会改变。",
+      "name": "醉拳",
+      "shortText": "免疫伤害，随后将其转为持续伤害"
+    },
+    "ChenStormEarthFire|ChenStormEarthFire|Heroic": {
+      "cooldownText": "冷却时间：120秒",
+      "fullText": "<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>秒后，陈分身为三个元素之灵，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">12</c>秒。每个元素之灵拥有陈<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">70%</c>的最大生命值和一个独特技能。最后一个施放的元素之灵技能将得到强化。如果所有三个元素之灵死亡，陈也会死亡。<n/><n/><c val=\"00ffff\">风暴之灵</c>可以给予元素之灵护盾。<n/><c val=\"00ff00\">大地之灵</c>可以跳向一个位置，使范围内的敌人减速。<n/><c val=\"ff6600\">火焰之灵</c>可以提高元素之灵的攻击速度和伤害。",
+      "name": "风火雷电",
+      "shortText": "化身成为三个元素之灵"
+    },
+    "ChenWanderingKeg|ChenWanderingKeg|Heroic": {
+      "cooldownText": "冷却时间：60秒",
+      "fullText": "在一个不可阻挡的酒桶里四处乱滚，移动速度提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">70%</c>，护甲提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c>，对沿途敌人造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">59</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点伤害并击退他们，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>秒。",
+      "name": "迷踪酒桶",
+      "shortText": "四处翻滚并击退敌人"
+    },
+    "ChenFortifyingBrew|ChenFortifyingBrew|Trait": {
+      "cooldownText": "冷却时间：7秒",
+      "fullText": "陈饮用酒桶里的美酒，每秒获得<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50</c>点酒量和<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">190</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点临时护盾，最多获得<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">570</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点。停止饮酒后，护盾保留<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>秒。",
+      "name": "壮胆酒",
+      "shortText": "喝酒时获得酒量和护盾"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "冷却时间：4秒",
+      "fullText": "引导<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>秒后，获得<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s>移动速度。",
+      "name": "召唤坐骑"
+    },
+    "Hearthstone|HearthstoneBrew|B": {
+      "fullText": "引导<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c>秒后，传送回风暴大厅，立即恢复<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c>的生命值和<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c>酒量值。",
+      "name": "炉石"
+    },
+    "ChenBreathOfFire|ChenBreathOfFire|W": {
+      "fullText": "吐出一股锥形火焰，造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点伤害。受到浸酒效果影响的敌人会被点燃，在<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c>秒内造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">342</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点额外伤害，并使醉酿投的减速持续时间延长<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c>秒。<n/><n/>在使用后或<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c>秒过后，此技能会变成醉酿投。<n/><n/><c val=\"e1c72c\" hlt-name=\"#ColorYellow\">醉酿投</c><n/>对敌人造成伤害和减速。",
+      "name": "火焰之息",
+      "shortText": "向目标方向喷吐火焰，造成伤害并使受到浸酒效果的敌人点燃"
+    },
+    "ChenStorm|ChenStorm|Q": {
+      "fullText": "元素之灵获得<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">400</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点生命值的护盾，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>秒。<n/><n/>如果该技能最后施放，则护盾值提高至<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">750</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点，没有持续时间限制，并且风火雷电的持续时间提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>秒。",
+      "name": "风暴之灵",
+      "shortText": "获得护盾"
+    },
+    "ChenEarth|ChenEarth|W": {
+      "fullText": "火焰之灵和大地之灵跳向目标位置，对大范围内的敌人造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">32</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点伤害和<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">70%</c>的减速，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c>秒。<n/><n/>如果该技能最后施放，则其造成的伤害提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">300%</c>，并使被击中的敌方英雄定身<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.75</c>秒，而不是减速。",
+      "name": "大地之灵",
+      "shortText": "跳向一个位置，对敌人造成伤害和定身"
+    },
+    "ChenFire|ChenFire|E": {
+      "fullText": "元素之灵的攻击速度和普通攻击伤害提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>秒。<n/><n/>如果该技能最后施放，则攻速和伤害加成提高至<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75%</c>，并且元素之灵在该技能持续期间获得<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>的移动速度。",
+      "name": "火焰之灵",
+      "shortText": "提高攻击速度和伤害"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "解除坐骑。",
+      "name": "解除坐骑"
+    },
+    "ChenElusiveBrawler|ChenElusiveBrawlerHotbar|Active": {
+      "cooldownText": "冷却时间：25秒",
+      "fullText": "激活后获得<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c>的移动速度，并能闪避敌人的普通攻击，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>秒。陈的普通攻击使该技能的冷却时间缩短<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>秒。",
+      "name": "醉拳大师",
+      "shortText": "激活后闪避所有普通攻击"
+    },
+    "Hearthstone|HearthstoneNoMana|B": {
+      "fullText": "引导<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c>秒后，传送回风暴大厅，立即恢复<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c>的生命值。",
+      "name": "炉石"
+    }
+  },
+  "talents": {
+    "ChenAccumulatingFlame|ChenAccumulatingFlame|W|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">奖励：</c>使用火焰之息命中敌方英雄，可使周期性伤害永久提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.25</c>点。击杀会额外提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>点。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">奖励：</c>提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c>点伤害后，醉酿投的射程提高。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">神话奖励：</c>提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">80</c>点伤害后，火焰之息会使敌人的护甲降低<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c>点，并且陈每次攻击该英雄时，其持续时间都会延长<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.75</c>秒。",
+      "name": "火势汹涌",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">任务：</c>灼烧敌方英雄，以提高伤害和射程"
+    },
+    "ChenFreshestIngredients|ChenFreshestIngredients|Trait|Level1": {
+      "fullText": "恢复之球的治疗持续时间提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150%</c>。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">任务：</c>收集<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c>个恢复之球。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">奖励：</c>壮胆酒的冷却时间缩短<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>秒，并且喝下壮胆酒后<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>的护盾值可以永久保留。",
+      "name": "新鲜原料",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">任务：</c>恢复之球治疗效果提高"
+    },
+    "ChenStormstoutSecretRecipe|ChenStormstoutSecretRecipe|Passive|Level1": {
+      "fullText": "陈的基本技能击中敌方英雄可使其恢复<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3.5%</c>的最大生命值。",
+      "name": "风暴烈酒秘方",
+      "shortText": "普通技能可以治疗陈"
+    },
+    "ChenDeadlyStrike|ChenFlyingKickDeadlyStrikeTalent|Q|Level4": {
+      "fullText": "飞天脚不再消耗酒量。此外，陈拥有壮胆酒的护盾时，飞天脚的伤害提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">125%</c>。",
+      "name": "下段踢",
+      "shortText": "提高飞天脚伤害，并移除酒量消耗"
+    },
+    "ChenEyeOfTheTiger|ChenEyeOfTheTiger|W|Level4": {
+      "fullText": "对浸酒的敌方英雄造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>的额外伤害，并恢复陈相当于所造成伤害<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\"> 60%</c>的生命值。",
+      "name": "猛虎之眼",
+      "shortText": "普通攻击造成额外伤害和治疗"
+    },
+    "ChenWitheringFlames|ChenWitheringFlames|W|Level4": {
+      "fullText": "点燃敌方英雄可使其法术强度降低<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60%</c>，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>秒。",
+      "name": "凋零烈焰",
+      "shortText": "点燃英雄降低他们的法术强度"
+    },
+    "ChenGiftOfTheOxStagger|ChenGiftOfTheOxStagger|E|Level7": {
+      "fullText": "使醉拳阻止伤害的持续时间延长<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>秒，并使随后受到的持续伤害降低至所受伤害的<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>。",
+      "name": "玄牛之赐",
+      "shortText": "提高醉拳的持续时间，降低受到的伤害"
+    },
+    "ChenBrewmastersBalance|ChenFortifyingBrewBrewmastersBalanceTalent|Trait|Level7": {
+      "fullText": "当酒量低于或等于<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50</c>点时，移动速度提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c>，当酒量高于或等于<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50</c>点时，每秒额外恢复<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">18</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点生命值。",
+      "name": "酒仙之道",
+      "shortText": "基于当前酒量提供增益效果"
+    },
+    "ChenElusiveBrawler|ChenElusiveBrawler|Active|Level7": {
+      "cooldownText": "冷却时间：25秒",
+      "fullText": "激活后获得<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c>的移动速度，并能闪避敌人的普通攻击，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>秒。陈的普通攻击使该技能的冷却时间缩短<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>秒。",
+      "name": "醉拳大师",
+      "shortText": "激活后闪避普通攻击"
+    },
+    "ChenHeroicAbilityWanderingKeg|ChenWanderingKeg|Heroic|Level10": {
+      "cooldownText": "冷却时间：60秒",
+      "fullText": "在一个不可阻挡的酒桶里四处乱滚，移动速度提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">70%</c>，护甲提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c>，对沿途敌人造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">59</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点伤害并击退他们，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>秒。",
+      "name": "迷踪酒桶",
+      "shortText": "四处翻滚并击退敌人"
+    },
+    "ChenHeroicAbilityStormEarthFire|ChenStormEarthFire|Heroic|Level10": {
+      "cooldownText": "冷却时间：120秒",
+      "fullText": "<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>秒后，陈分身为三个元素之灵，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">12</c>秒。每个元素之灵拥有陈<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">70%</c>的最大生命值和一个独特技能。最后一个施放的元素之灵技能将得到强化。如果所有三个元素之灵死亡，陈也会死亡。<n/><n/><c val=\"00ffff\">风暴之灵</c>可以给予元素之灵护盾。<n/><c val=\"00ff00\">大地之灵</c>可以跳向一个位置，使范围内的敌人减速。<n/><c val=\"ff6600\">火焰之灵</c>可以提高元素之灵的攻击速度和伤害。",
+      "name": "风火雷电",
+      "shortText": "化身成为三个元素之灵"
+    },
+    "ChenPressurePoint|ChenFlyingKickPressurePointTalent|Q|Level13": {
+      "fullText": "飞天脚使目标敌人减速<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c>，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c>秒，如果陈拥有壮胆酒的护盾，则减速<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">80%</c>。",
+      "name": "点穴踢",
+      "shortText": "飞天脚使敌人减速"
+    },
+    "ChenMasteryKegSmashATouchOfHoney|ChenKegSmashATouchOfHoneyTalent|W|Level13": {
+      "fullText": "醉酿投的减速效果提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c>，持续时间延长<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c>秒。",
+      "name": "蜜酒调味",
+      "shortText": "提高醉酿投的减速效果和持续时间"
+    },
+    "ChenRingofFire|ChenBreathOfFireRingOfFireTalent|W|Level13": {
+      "fullText": "点燃一名敌人后，产生一个火焰光环，每秒对附近的敌人造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点伤害，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c>秒。",
+      "name": "火焰之环",
+      "shortText": "点燃后对附近敌人造成伤害"
+    },
+    "ChenMasteryFortifyingBrewEnoughToShare|ChenFortifyingBrewEnoughToShareTalent|Trait|Level13": {
+      "fullText": "壮胆酒立刻使陈获得<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">190</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点护盾，周围的友方英雄也会每秒获得<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">140</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点护盾，最多<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">420</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点。",
+      "name": "这次我请",
+      "shortText": "壮胆酒为友方英雄提供护盾"
+    },
+    "ChenFlyingLeap|ChenFlyingLeap|Q|Level16": {
+      "fullText": "飞天脚的范围扩大<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c>，并且每有敌方英雄受到点燃伤害时，该技能的冷却时间降低<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c>秒。",
+      "name": "冲天脚",
+      "shortText": "扩大范围，缩短冷却"
+    },
+    "ChenCelerity|ChenCelerityStagger|E|Level16": {
+      "fullText": "对陷入减速、定身和昏迷的敌方英雄进行普通攻击，可以使醉拳的冷却时间减少<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>秒，并给予陈<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30</c>点护甲，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>秒。",
+      "name": "动如脱兔",
+      "shortText": "普通攻击缩短醉拳冷却时间，并给予护甲"
+    },
+    "ChenComboStrikes|ChenFortifyingBrewComboStrikesTalent|Trait|Level16": {
+      "fullText": "对同一个目标的每<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>次普通攻击造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75%</c>的额外伤害。在陈拥有壮胆酒的护盾期间和护盾消失后的<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>秒内，他的攻击速度提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35%</c>。",
+      "name": "快速连击",
+      "shortText": "提高攻击速度和伤害"
+    },
+    "ChenMasteryWanderingKegUntappedPotential|ChenWanderingKegUntappedPotentialTalent|Heroic|Level20": {
+      "fullText": "迷踪酒桶的移动速度加成从 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">70%</c>提高至<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">125%</c>，并使持续期间和之后<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>秒内的护甲加成提高至<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75</c> 点。",
+      "name": "黯然销魂",
+      "shortText": "提高迷踪酒桶的速度和护甲"
+    },
+    "ChenElementalConduit|ChenStormEarthFireElementalConduitTalent|Heroic|Level20": {
+      "fullText": "元素之灵的生命值提高至陈最大生命值的<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c>，并强化所有元素之灵的技能。",
+      "name": "元素导能",
+      "shortText": "强化所有元素之灵的技能"
+    },
+    "ChenPurifyingBrew|ChenPurifyingBrew|Trait|Level20": {
+      "fullText": "施放壮胆酒使陈获得不可阻挡，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c>秒。",
+      "name": "活血酒",
+      "shortText": "壮胆酒给予不可阻挡"
+    },
+    "ChenEnergizingBrew|ChenFortifyingBrewEnergizingBrewTalent|Trait|Level20": {
+      "fullText": "如果陈在壮胆酒的持续时间内完整将其引导，就能获得<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c>的额外生命值和<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c>的额外伤害，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c>秒。",
+      "name": "豪能酒",
+      "shortText": "壮胆酒提高最大生命值和伤害"
+    }
+  },
+  "units": {
+    "HeroChenEarth": {
+      "energyType": "法力",
+      "lifeType": "生命值",
+      "name": "陈 土"
+    },
+    "HeroChenFire": {
+      "energyType": "法力",
+      "lifeType": "生命值",
+      "name": "陈 火"
+    },
+    "HeroChenStorm": {
+      "energyType": "法力",
+      "lifeType": "生命值",
+      "name": "陈 风暴"
+    }
+  }
+}

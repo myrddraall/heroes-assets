@@ -1,0 +1,224 @@
+{
+  "abilities": {
+    "ValeeraSinisterStrike|ValeeraSinisterStrike|Q": {
+      "cooldownText": "Temps de recharge : 5 secondes",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Énergie : 25</s>",
+      "fullText": "Valeera se projette vers l’avant et frappe tous les ennemis sur une ligne en leur infligeant <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">110</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> points de dégâts. Si elle rencontre un héros, sa course s’arrête net et le temps de recharge est réduit à <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> seconde.<n/><n/><c val=\"ff5858\" hlt-name=\"#GlowColorRed\">Confère 1 point de combo.</c><n/><n/><c val=\"D65CFF\" hlt-name=\"#ColorViolet\">Mode camouflé : Embuscade</c><n/>Inflige d’importants dégâts à l’ennemi et réduit son armure.",
+      "name": "Frappe subite",
+      "shortText": "Valeera se projette vers l’avant et inflige des dégâts aux ennemis sur une ligne."
+    },
+    "ValeeraBladeFlurry|ValeeraBladeFlurry|W": {
+      "cooldownText": "Temps de recharge : 4 secondes",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Énergie : 40</s>",
+      "fullText": "Inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">130</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> points de dégâts dans une zone autour de Valeera.<n/><n/><c val=\"ff5858\" hlt-name=\"#GlowColorRed\">Confère 1 point de combo</c> par héros adverse touché.<n/><n/><c val=\"D65CFF\" hlt-name=\"#ColorViolet\">Mode camouflé : Coup bas</c><n/>Étourdit un ennemi, l’aveugle et lui inflige des dégâts.",
+      "name": "Éruption de lames",
+      "shortText": "Inflige des dégâts aux ennemis proches."
+    },
+    "ValeeraEviscerate|ValeeraEviscerate|E": {
+      "cooldownText": "Temps de recharge :<sp/>1 seconde<n/>Consomme tous les points de combo.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Énergie : 25</s>",
+      "fullText": "Éviscère un ennemi, ce qui lui inflige un montant de dégâts indexé sur le nombre de <c val=\"ff5858\" hlt-name=\"#GlowColorRed\">points de combo</c>.<n/><n/><c val=\"ff5858\" hlt-name=\"#GlowColorRed\">1 point</c> : <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">85</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> points de dégâts<n/><c val=\"ff5858\" hlt-name=\"#GlowColorRed\">2 points</c> : <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">170</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> points de dégâts<n/><c val=\"ff5858\" hlt-name=\"#GlowColorRed\">3 points</c> : <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">255</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> points de dégâts<n/><n/><c val=\"D65CFF\" hlt-name=\"#ColorViolet\">Mode camouflé : Garrot</c><n/>Réduit un ennemi au silence et lui inflige des dégâts sur la durée.",
+      "name": "Éviscération",
+      "shortText": "Coup de grâce infligeant d’importants dégâts."
+    },
+    "ValeeraCloakOfShadows|ValeeraCloakOfShadows|Heroic": {
+      "cooldownText": "Temps de recharge : 15 secondes",
+      "fullText": "Valeera s’enveloppe d’une cape d’ombre, ce qui supprime tous les effets de dégâts sur la durée qui l’affectent. Pendant <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> seconde, elle devient insensible aux effets de contrôle et obtient <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75</c> points d’armure anti-sort, ce qui réduit les dégâts de capacité qu’elle subit de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75%</c>.<n/><n/>Cette compétence n’interrompt pas le camouflage.",
+      "name": "Cape d’ombre",
+      "shortText": "Rend insensible aux effets de contrôle et confère de l’armure anti-sort."
+    },
+    "ValeeraSmokeBomb|ValeeraSmokeBomb|Heroic": {
+      "cooldownText": "Temps de recharge : 60 secondes",
+      "fullText": "Crée un nuage de fumée. Tant qu’elle se trouve à l’intérieur, Valeera est impossible à révéler, peut traverser les autres unités et obtient <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60</c> points d’armure, ce qui réduit de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60%</c> les dégâts qu’elle subit. Elle peut aussi continuer à attaquer et à utiliser ses capacités sans être révélée. Dure <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> secondes.<n/><n/>Cette capacité n’interrompt pas le camouflage.",
+      "name": "Bombe fumigène",
+      "shortText": "Crée un nuage de fumée opaque."
+    },
+    "ValeeraStealth|ValeeraStealth|Trait": {
+      "cooldownText": "Temps de recharge : 8 secondes",
+      "fullText": "Valeera se camoufle, voit sa vitesse de déplacement augmenter de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> et accède à un nouvel ensemble de capacités. Pendant la première seconde, elle ne peut être révélée, mais peut traverser les autres unités. Si elle reste immobile un minimum de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> secondes en étant camouflée, Valeera devient invisible.<n/><n/>Après <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> secondes de camouflage, la portée d’Embuscade, Coup bas et Garrot est portée de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c> à <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> mètres, et les trois capacités téléportent Valeera auprès de sa cible.",
+      "name": "Disparition",
+      "shortText": "Rend invisible et donne accès à un nouvel ensemble de capacités."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Temps de recharge : 4 secondes",
+      "fullText": "Après <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> seconde de canalisation, augmente la vitesse de déplacement de <s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Appeler une monture"
+    },
+    "Hearthstone|HearthstoneNoMana|B": {
+      "fullText": "Après <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> secondes de canalisation, téléporte au hall des Tempêtes et rend instantanément <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c> points de vie.",
+      "name": "Pierre de foyer"
+    },
+    "ValeeraAmbush|ValeeraAmbush|Q": {
+      "cooldownText": "Temps de recharge : 1 seconde",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Énergie : 10</s>",
+      "fullText": "Tend une embuscade à un ennemi pour lui infliger <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">130</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> points de dégâts et réduire son armure de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> points pendant <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> secondes.<n/><n/><c val=\"ff5858\" hlt-name=\"#GlowColorRed\">Confère 1 point de combo.</c><n/><n/><c val=\"D65CFF\" hlt-name=\"#ColorViolet\">Mode apparent : Frappe subite</c><n/>Projette vers l’avant et inflige des dégâts aux ennemis.",
+      "name": "Embuscade",
+      "shortText": "Inflige des dégâts à l’ennemi et réduit son armure."
+    },
+    "ValeeraCheapShot|ValeeraCheapShot|W": {
+      "cooldownText": "Temps de recharge : 1 seconde",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Énergie : 30</s>",
+      "fullText": "Inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> points de dégâts à un ennemi et l’étourdit pendant <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.75</c> seconde. Quand son étourdissement prend fin, l’ennemi est aveuglé pendant <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> secondes.<n/><n/><c val=\"ff5858\" hlt-name=\"#GlowColorRed\">Confère 1 point de combo.</c><n/><n/><c val=\"D65CFF\" hlt-name=\"#ColorViolet\">Mode apparent : Éruption de lames</c><n/>Inflige des dégâts de zone autour de Valeera.",
+      "name": "Coup bas",
+      "shortText": "Étourdit un ennemi, l’aveugle et lui inflige des dégâts."
+    },
+    "ValeeraGarrote|ValeeraGarrote|E": {
+      "cooldownText": "Temps de recharge : 1 seconde",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Énergie : 30</s>",
+      "fullText": "Inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> points de dégâts à un ennemi, plus <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">140</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> points en <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">7</c> secondes, et le réduit au silence pendant <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c> secondes.<n/><n/><c val=\"ff5858\" hlt-name=\"#GlowColorRed\">Confère 1 point de combo.</c><n/><n/><c val=\"D65CFF\" hlt-name=\"#ColorViolet\">Mode apparent : Éviscération</c><n/>Coup de grâce qui inflige d’importants dégâts.",
+      "name": "Garrot",
+      "shortText": "Inflige d’importants dégâts sur la durée à un ennemi."
+    },
+    "ValeeraCancelStealth|ValeeraCancelStealth|Trait": {
+      "cooldownText": "Temps de recharge : 1 seconde",
+      "fullText": "Annule le mode camouflé.",
+      "name": "Annuler le mode camouflé",
+      "shortText": "Annule le mode camouflé."
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Permet de descendre de la monture.",
+      "name": "Renvoyer la monture"
+    },
+    "ValeeraCripplingPoison|ValeeraCripplingPoison|Active": {
+      "cooldownText": "Temps de recharge :<sp/>15 secondes",
+      "fullText": "Activer pour que la prochaine capacité offensive de Valeera, ainsi que celles qui lui succèdent dans les <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> secondes, réduisent la vitesse de déplacement des cibles de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> pendant <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> secondes.<n/><n/>Activer Poison de lenteur ne dissipe pas le camouflage.",
+      "name": "Poison de lenteur",
+      "shortText": "Les dégâts de capacité ralentissent les ennemis."
+    },
+    "ValeeraWoundPoison|ValeeraWoundPoison|Active": {
+      "cooldownText": "Temps de recharge :<sp/>15 secondes",
+      "fullText": "Activer pour que la prochaine capacité offensive de Valeera, ainsi que celles qui lui succèdent dans les <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> secondes réduisent l’efficacité des soins dont bénéficie la victime de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> pendant <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> secondes.<n/><n/>Activer Poison de douleur ne dissipe pas le camouflage.",
+      "name": "Poison de douleur",
+      "shortText": "Les dégâts de capacité réduisent les soins reçus par les ennemis."
+    },
+    "ValeeraThistleTea|ValeeraThistleTea|Active": {
+      "cooldownText": "Temps de recharge : 20 secondes",
+      "fullText": "Rend instantanément <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100</c> points d’énergie à l’activation.<n/><n/>Activer Thé de chardon n’interrompt pas le camouflage.",
+      "name": "Thé de chardon",
+      "shortText": "Rend instantanément de l’énergie."
+    }
+  },
+  "talents": {
+    "ValeeraVigor|ValeeraVigor|Passive|Level1": {
+      "fullText": "Valeera récupère <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> points d’énergie supplémentaires par seconde.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Récompense :</c> une fois <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c> globes collectés, porte l’énergie maximale à <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">120</c> points.",
+      "name": "Vigueur",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Quête :</c> les globes de régénération augmentent l’énergie maximum."
+    },
+    "ValeeraVanishSubtlety|ValeeraSubtlety|Trait|Level1": {
+      "fullText": "Après s’être téléportée en utilisant Embuscade, Coup bas ou Garrot, Valeera récupère <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> points d’énergie par seconde pendant <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> secondes.",
+      "name": "Finesse",
+      "shortText": "Les capacités utilisées en mode camouflé améliorent la régénération d’énergie."
+    },
+    "ValeeraCombatReadiness|ValeeraCombatReadiness|Passive|Level1": {
+      "fullText": "Chaque point de combo dépensé confère <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75</c> points d’armure physique contre la prochaine attaque de base d’un héros, ce qui réduit les dégâts qu’elle inflige de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75%</c>. Peut cumuler jusqu’à <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> charges.",
+      "name": "Qui-vive",
+      "shortText": "Dépenser des points de combo confère du blocage."
+    },
+    "ValeeraCripplingPoison|ValeeraCripplingPoison|Active|Level1": {
+      "cooldownText": "Temps de recharge :<sp/>15 secondes",
+      "fullText": "Activer pour que la prochaine capacité offensive de Valeera, ainsi que celles qui lui succèdent dans les <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> secondes, réduisent la vitesse de déplacement des cibles de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> pendant <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> secondes.<n/><n/>Activer Poison de lenteur ne dissipe pas le camouflage.",
+      "name": "Poison de lenteur",
+      "shortText": "Les dégâts de capacité ralentissent les ennemis."
+    },
+    "ValeeraSinisterStrikeRelentlessStrikes|ValeeraRelentlessStrikes|Q|Level4": {
+      "fullText": "Réduit le coût en énergie de Frappe subite de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> points.",
+      "name": "Frappes soutenues",
+      "shortText": "Réduit le coût en énergie de Frappe subite."
+    },
+    "ValeeraGarroteHemorrhage|ValeeraHemorrhage|E|Level4": {
+      "fullText": "Les attaques de base de Valeera infligent <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> de dégâts supplémentaires aux ennemis victimes de Garrot.",
+      "name": "Hémorragie",
+      "shortText": "Garrot augmente les dégâts des attaques de base."
+    },
+    "ValeeraVanishInitiative|ValeeraInitiative|Trait|Level4": {
+      "fullText": "Embuscade, Coup bas et Garrot augmentent la vitesse de déplacement de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c> pendant <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> secondes et confèrent <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> points de combo.",
+      "name": "Initiative",
+      "shortText": "En mode camouflé, les capacités augmentent la vitesse et confèrent des points de combo."
+    },
+    "ValeeraWoundPoison|ValeeraWoundPoison|Active|Level4": {
+      "cooldownText": "Temps de recharge :<sp/>15 secondes",
+      "fullText": "Activer pour que la prochaine capacité offensive de Valeera, ainsi que celles qui lui succèdent dans les <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> secondes réduisent l’efficacité des soins dont bénéficie la victime de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> pendant <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> secondes.<n/><n/>Activer Poison de douleur ne dissipe pas le camouflage.",
+      "name": "Poison de douleur",
+      "shortText": "Les dégâts de capacité réduisent les soins reçus par les ennemis."
+    },
+    "ValeeraSinisterStrikeMutilate|ValeeraMutilate|Q|Level7": {
+      "fullText": "Frappe subite utilise les deux lames, ce qui inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">125%</c> de dégâts supplémentaires, mais réduit sa portée de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> mètre.",
+      "name": "Agression",
+      "shortText": "Augmente les dégâts de Frappe subite, mais en réduit la portée."
+    },
+    "ValeeraBladeFlurryFatalFinesse|ValeeraFatalFinesse|W|Level7": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Quête :</c> chaque fois qu’Éruption de lames inflige des dégâts à un héros adverse, ses dégâts augmentent de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> points, jusqu’à un maximum de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">90</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Récompense :</c> une fois <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> héros touchés avec Éruption de lames, son coût est réduit de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c> points de manière permanente.",
+      "name": "Fines lames",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Quête :</c> toucher des héros avec Éruption de lames."
+    },
+    "ValeeraEviscerateSliceAndDice|ValeeraSliceAndDice|E|Level7": {
+      "fullText": "Éviscérer un ennemi avec <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> points de combo augmente la vitesse d’attaque de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">400 %</c>. Dure <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> secondes ou <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> attaques de base.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Effet passif :</c> les attaques de base rendent <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> points d’énergie.",
+      "name": "Débiter",
+      "shortText": "Éviscération augmente la vitesse d’attaque."
+    },
+    "ValeeraSmokeBomb|ValeeraSmokeBomb|Heroic|Level10": {
+      "cooldownText": "Temps de recharge : 60 secondes",
+      "fullText": "Crée un nuage de fumée. Tant qu’elle se trouve à l’intérieur, Valeera est impossible à révéler, peut traverser les autres unités et obtient <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60</c> points d’armure, ce qui réduit de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60%</c> les dégâts qu’elle subit. Elle peut aussi continuer à attaquer et à utiliser ses capacités sans être révélée. Dure <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> secondes.<n/><n/>Cette capacité n’interrompt pas le camouflage.",
+      "name": "Bombe fumigène",
+      "shortText": "Crée un nuage de fumée opaque."
+    },
+    "ValeeraCloakOfShadows|ValeeraCloakOfShadows|Heroic|Level10": {
+      "cooldownText": "Temps de recharge : 15 secondes",
+      "fullText": "Valeera s’enveloppe d’une cape d’ombre, ce qui supprime tous les effets de dégâts sur la durée qui l’affectent. Pendant <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> seconde, elle devient insensible aux effets de contrôle et obtient <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75</c> points d’armure anti-sort, ce qui réduit les dégâts de capacité qu’elle subit de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75%</c>.<n/><n/>Cette compétence n’interrompt pas le camouflage.",
+      "name": "Cape d’ombre",
+      "shortText": "Rend insensible aux effets de contrôle et confère de l’armure anti-sort."
+    },
+    "ValeeraAmbushDeathFromAbove|ValeeraDeathFromAbove|Q|Level13": {
+      "fullText": "Se téléporter avec Embuscade réduit le temps de recharge de Disparition de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> secondes.",
+      "name": "Pas de l’ombre",
+      "shortText": "Embuscade peut réduire le temps de recharge de Disparition."
+    },
+    "ValeeraCheapShotBlind|ValeeraBlind|W|Level13": {
+      "fullText": "Augmente la durée de l’aveuglement infligé par Coup bas de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c> secondes.",
+      "name": "Cécité",
+      "shortText": "Augmente la durée de l’aveuglement infligé par Coup bas."
+    },
+    "ValeeraGarroteStrangle|ValeeraStrangle|E|Level13": {
+      "fullText": "Réduit de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> pendant <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> secondes la puissance de capacité du héros qui subit Garrot.",
+      "name": "Étranglement",
+      "shortText": "Garrot réduit la puissance de capacité."
+    },
+    "ValeeraSinisterStrikeSealFate|ValeeraSealFate|Q|Level16": {
+      "fullText": "Frappe subite inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> de dégâts supplémentaires et génère un point de combo supplémentaire quand elle touche un héros réduit au silence, étourdi ou immobilisé.",
+      "name": "Arrêt de mort",
+      "shortText": "Renforce les dégâts de Frappe subite et confère des points de combo."
+    },
+    "ValeeraAmbushAssassinate|ValeeraAssassinate|Q|Level16": {
+      "fullText": "Augmente les dégâts d’Embuscade de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50 %</c> et réduit l’armure de la cible de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> points supplémentaires si aucun héros adverse ne se trouve à moins de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> mètres.",
+      "name": "Assassinat",
+      "shortText": "Embuscade inflige davantage de dégâts aux héros isolés."
+    },
+    "ValeeraThistleTea|ValeeraThistleTea|Active|Level16": {
+      "cooldownText": "Temps de recharge : 20 secondes",
+      "fullText": "Rend instantanément <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100</c> points d’énergie à l’activation.<n/><n/>Activer Thé de chardon n’interrompt pas le camouflage.",
+      "name": "Thé de chardon",
+      "shortText": "Rend instantanément de l’énergie."
+    },
+    "ValeeraSmokeBombAdrenalineRush|ValeeraAdrenalineRush|Heroic|Level20": {
+      "fullText": "Tant qu’elle elle se trouve dans le nuage de fumée de Bombe fumigène, Valeera récupère <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40</c> points d’énergie supplémentaires par seconde.",
+      "name": "Poussée d’adrénaline",
+      "shortText": "Bombe fumigène augmente la régénération d’énergie."
+    },
+    "ValeeraCloakOfShadowsEnvelopingShadows|ValeeraEnvelopingShadows|Heroic|Level20": {
+      "fullText": "Quand Valeera utilise Disparition, lui confère Cape d’ombre.",
+      "name": "Fille de l’ombre",
+      "shortText": "Disparition confère Cape d’ombre."
+    },
+    "ValeeraGarroteRupture|ValeeraRupture|E|Level20": {
+      "fullText": "Augmente de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> les dégâts que Garrot inflige sur la durée. Les attaques de base réinitialisent en outre sa durée.",
+      "name": "Rupture",
+      "shortText": "Augmente les dégâts de Garrot sur la durée."
+    },
+    "ValeeraVanishElusiveness|ValeeraElusiveness|Trait|Level20": {
+      "fullText": "Augmente la vitesse de déplacement en mode camouflé de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> supplémentaires.",
+      "name": "Insaisissable",
+      "shortText": "Augmente le bonus à la vitesse de déplacement conféré par Disparition."
+    }
+  },
+  "units": {}
+}

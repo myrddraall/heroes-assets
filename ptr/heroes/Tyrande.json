@@ -1,0 +1,791 @@
+{
+  "id": "Tyrande",
+  "unitId": "HeroTyrande",
+  "hyperlinkId": "Tyrande",
+  "attributeId": "Tyrd",
+  "franchise": "Warcraft",
+  "rarity": "Epic",
+  "releaseDate": "2014-03-13",
+  "isMelee": false,
+  "gender": "Female",
+  "radius": 0.625,
+  "innerRadius": 0.625,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 7,
+    "damage": 5,
+    "survivability": 4,
+    "utility": 7
+  },
+  "life": {
+    "amount": 1511,
+    "scale": 0.04,
+    "regenRate": 3.1484,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "AllyHealer",
+    "EnergyImportant",
+    "Ganker",
+    "Helper",
+    "RoleAutoAttacker",
+    "RoleSupport",
+    "SelfHealer"
+  ],
+  "weapons": [
+    {
+      "nameId": "TyrandeHeroWeapon",
+      "isDisabled": false,
+      "range": 6,
+      "minimumRange": 0,
+      "period": 0.75,
+      "damage": 55,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "TyrandeBloodElfBase",
+    "TyrandeLove",
+    "TyrandeSuper",
+    "TyrandeUltimate",
+    "TyrandeWarden"
+  ],
+  "variationSkinIds": [
+    "TyrandeBlack",
+    "TyrandeShadow"
+  ],
+  "voiceLineIds": [
+    "TyrandeBase_VoiceLine01",
+    "TyrandeBase_VoiceLine02",
+    "TyrandeBase_VoiceLine03",
+    "TyrandeBase_VoiceLine04",
+    "TyrandeBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "TyrandeLightofElune|TyrandeLightOfElune|Q",
+        "abilityId": "TyrandeLightofElune",
+        "buttonId": "TyrandeLightOfElune",
+        "icon": "storm_ui_icon_tyrande_lightofelune.png",
+        "charges": {
+          "countMax": 2,
+          "countStart": 2,
+          "countUse": 1,
+          "recastCooldown": 0.5,
+          "isCountHidden": false
+        },
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "TyrandeSentinelShot|TyrandeSentinel|W",
+        "abilityId": "TyrandeSentinelShot",
+        "buttonId": "TyrandeSentinel",
+        "icon": "storm_ui_icon_tyrande_sentinel.png",
+        "charges": {
+          "countMax": 1,
+          "countStart": 1,
+          "countUse": 1,
+          "recastCooldown": 0.5,
+          "isCountHidden": true
+        },
+        "abilityType": "W"
+      },
+      {
+        "linkId": "TyrandeLunarFlare|TyrandeLunarFlare|E",
+        "abilityId": "TyrandeLunarFlare",
+        "buttonId": "TyrandeLunarFlare",
+        "icon": "storm_ui_icon_tyrande_lunarflare.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "TyrandeShadowstalk|TyrandeShadowstalk|Heroic",
+        "abilityId": "TyrandeShadowstalk",
+        "buttonId": "TyrandeShadowstalk",
+        "icon": "storm_ui_icon_tyrande_shadowstalk.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "TyrandeStarfall|TyrandeStarfall|Heroic",
+        "abilityId": "TyrandeStarfall",
+        "buttonId": "TyrandeStarfall",
+        "icon": "storm_ui_icon_tyrande_starfall.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": "TyrandeHuntersMark|TyrandeHuntersMark|Trait",
+        "abilityId": "TyrandeHuntersMark",
+        "buttonId": "TyrandeHuntersMark",
+        "icon": "storm_ui_icon_tyrande_huntersmark.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "TyrandeTrueshotAura|TyrandeHuntersMarkTrueshotAuraTalent|Active|Level1": {
+      "Activable": [
+        {
+          "linkId": "TyrandeTrueshotAura|TyrandeHuntersMarkTrueshotAuraTalent|Active",
+          "abilityId": "TyrandeTrueshotAura",
+          "buttonId": "TyrandeHuntersMarkTrueshotAuraTalent",
+          "icon": "storm_ui_icon_tyrande_trueshotaura.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "TyrandeElunesChosen|TyrandeElunesChosen|Active|Level4": {
+      "Activable": [
+        {
+          "linkId": "TyrandeElunesChosen|TyrandeElunesChosen|Active",
+          "abilityId": "TyrandeElunesChosen",
+          "buttonId": "TyrandeElunesChosen",
+          "icon": "storm_ui_icon_talent_autoattack_heal.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "TyrandeRanger|TyrandeSentinelRangerTalent|W|Level1",
+        "talentId": "TyrandeRanger",
+        "buttonId": "TyrandeSentinelRangerTalent",
+        "abilityId": "TyrandeSentinelShot",
+        "icon": "storm_ui_icon_tyrande_sentinel.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "TyrandeSentinelShot|TyrandeSentinel|W"
+        ]
+      },
+      {
+        "linkId": "TyrandeMoonlitArrows|TyrandeMoonlitArrows|Q|Level1",
+        "talentId": "TyrandeMoonlitArrows",
+        "buttonId": "TyrandeMoonlitArrows",
+        "abilityId": "TyrandeLightofElune",
+        "icon": "storm_ui_icon_tyrande_lightofelune.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "TyrandeLightofElune|TyrandeLightOfElune|Q"
+        ]
+      },
+      {
+        "linkId": "TyrandeTrueshotAura|TyrandeHuntersMarkTrueshotAuraTalent|Active|Level1",
+        "talentId": "TyrandeTrueshotAura",
+        "buttonId": "TyrandeHuntersMarkTrueshotAuraTalent",
+        "abilityId": "TyrandeTrueshotAura",
+        "icon": "storm_ui_icon_tyrande_trueshotaura.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "TyrandeHuntersMark|TyrandeHuntersMark|Trait"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "TyrandeLightOfEluneEverlastingLight|TyrandeLightOfEluneEverlastingLight|Q|Level4",
+        "talentId": "TyrandeLightOfEluneEverlastingLight",
+        "buttonId": "TyrandeLightOfEluneEverlastingLight",
+        "abilityId": "TyrandeLightofElune",
+        "icon": "storm_ui_icon_tyrande_lightofelune.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "TyrandeLightofElune|TyrandeLightOfElune|Q"
+        ]
+      },
+      {
+        "linkId": "TyrandeMarkofMending|TyrandeHuntersMarkMarkOfMendingTalent|Trait|Level4",
+        "talentId": "TyrandeMarkofMending",
+        "buttonId": "TyrandeHuntersMarkMarkOfMendingTalent",
+        "abilityId": "TyrandeHuntersMark",
+        "icon": "storm_ui_icon_tyrande_huntersmark.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "TyrandeHuntersMark|TyrandeHuntersMark|Trait"
+        ]
+      },
+      {
+        "linkId": "TyrandeElunesChosen|TyrandeElunesChosen|Active|Level4",
+        "talentId": "TyrandeElunesChosen",
+        "buttonId": "TyrandeElunesChosen",
+        "abilityId": "TyrandeElunesChosen",
+        "icon": "storm_ui_icon_talent_autoattack_heal.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "ElunesGift|ElunesFury|E|Level7",
+        "talentId": "ElunesGift",
+        "buttonId": "ElunesFury",
+        "abilityId": "TyrandeLunarFlare",
+        "icon": "storm_ui_icon_tyrande_lunarflare.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "TyrandeKaldoreiResistance|TyrandeKaldoreiResistance|Q|Level7",
+        "talentId": "TyrandeKaldoreiResistance",
+        "buttonId": "TyrandeKaldoreiResistance",
+        "abilityId": "TyrandeLightofElune",
+        "icon": "storm_ui_icon_tyrande_lightofelune_a.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "TyrandeLightofElune|TyrandeLightOfElune|Q"
+        ]
+      },
+      {
+        "linkId": "TyrandeHuntressFury|TyrandeHuntersMarkHuntressFuryTalent|Trait|Level7",
+        "talentId": "TyrandeHuntressFury",
+        "buttonId": "TyrandeHuntersMarkHuntressFuryTalent",
+        "abilityId": "TyrandeHuntersMark",
+        "icon": "storm_ui_icon_tyrande_huntersmark.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "TyrandeHuntersMark|TyrandeHuntersMark|Trait"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "TyrandeHeroicAbilityShadowstalk|TyrandeShadowstalk|Heroic|Level10",
+        "talentId": "TyrandeHeroicAbilityShadowstalk",
+        "buttonId": "TyrandeShadowstalk",
+        "abilityId": "TyrandeShadowstalk",
+        "icon": "storm_ui_icon_tyrande_shadowstalk.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "TyrandeHeroicAbilityStarfall|TyrandeStarfall|Heroic|Level10",
+        "talentId": "TyrandeHeroicAbilityStarfall",
+        "buttonId": "TyrandeStarfall",
+        "abilityId": "TyrandeStarfall",
+        "icon": "storm_ui_icon_tyrande_starfall.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "TyrandeMasteryLightofEluneQuickeningBlessing|TyrandeLightOfEluneQuickeningBlessingTalent|Q|Level13",
+        "talentId": "TyrandeMasteryLightofEluneQuickeningBlessing",
+        "buttonId": "TyrandeLightOfEluneQuickeningBlessingTalent",
+        "abilityId": "TyrandeLightofElune",
+        "icon": "storm_ui_icon_tyrande_lightofelune.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "TyrandeLightofElune|TyrandeLightOfElune|Q"
+        ]
+      },
+      {
+        "linkId": "TyrandeHarshMoonlight|TyrandeHarshMoonlight|W|Level13",
+        "talentId": "TyrandeHarshMoonlight",
+        "buttonId": "TyrandeHarshMoonlight",
+        "abilityId": "TyrandeSentinelShot",
+        "icon": "storm_ui_icon_tyrande_sentinel.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "TyrandeSentinelShot|TyrandeSentinel|W"
+        ]
+      },
+      {
+        "linkId": "TyrandeRangersMark|TyrandeHuntersMarkRangersMarkTalent|Trait|Level13",
+        "talentId": "TyrandeRangersMark",
+        "buttonId": "TyrandeHuntersMarkRangersMarkTalent",
+        "abilityId": "TyrandeHuntersMark",
+        "icon": "storm_ui_icon_tyrande_huntersmark.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "TyrandeHuntersMark|TyrandeHuntersMark|Trait"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "TyrandeCelestialAttunement|TyrandeLightOfEluneCelestialAttunementTalent|Q|Level16",
+        "talentId": "TyrandeCelestialAttunement",
+        "buttonId": "TyrandeLightOfEluneCelestialAttunementTalent",
+        "abilityId": "TyrandeLightofElune",
+        "icon": "storm_ui_icon_tyrande_lightofelune.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "TyrandeLightofElune|TyrandeLightOfElune|Q"
+        ]
+      },
+      {
+        "linkId": "TyrandeEmpower|TyrandeSentinelEmpowerTalent|W|Level16",
+        "talentId": "TyrandeEmpower",
+        "buttonId": "TyrandeSentinelEmpowerTalent",
+        "abilityId": "TyrandeSentinelShot",
+        "icon": "storm_ui_icon_tyrande_sentinel.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "TyrandeSentinelShot|TyrandeSentinel|W"
+        ]
+      },
+      {
+        "linkId": "TyrandeDarnassianArchery|TyrandeDarnassianArchery|Passive|Level16",
+        "talentId": "TyrandeDarnassianArchery",
+        "buttonId": "TyrandeDarnassianArchery",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_damage.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "TyrandeHuntersMark|TyrandeHuntersMark|Trait"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "TyrandeEyesOfTheHuntress|TyrandeEyesOfTheHuntress|Heroic|Level20",
+        "talentId": "TyrandeEyesOfTheHuntress",
+        "buttonId": "TyrandeEyesOfTheHuntress",
+        "abilityId": "TyrandeShadowstalk",
+        "icon": "storm_ui_icon_tyrande_shadowstalk.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "TyrandeShadowstalk|TyrandeShadowstalk|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "TyrandeHeroicAbilityShadowstalk"
+        ]
+      },
+      {
+        "linkId": "TyrandeMasteryStarfallCelestialWrath|TyrandeStarfallCelestialWrathTalent|Heroic|Level20",
+        "talentId": "TyrandeMasteryStarfallCelestialWrath",
+        "buttonId": "TyrandeStarfallCelestialWrathTalent",
+        "abilityId": "TyrandeStarfall",
+        "icon": "storm_ui_icon_tyrande_starfall.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "TyrandeStarfall|TyrandeStarfall|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "TyrandeHeroicAbilityStarfall"
+        ]
+      },
+      {
+        "linkId": "TyrandeCommanderofSentinels|TyrandeCommanderofSentinels|W|Level20",
+        "talentId": "TyrandeCommanderofSentinels",
+        "buttonId": "TyrandeCommanderofSentinels",
+        "abilityId": "TyrandeSentinelShot",
+        "icon": "storm_ui_icon_tyrande_sentinel.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "TyrandeSentinelShot|TyrandeSentinel|W"
+        ]
+      },
+      {
+        "linkId": "TyrandeIcebladeArrows|TyrandeIcebladeArrows|Passive|Level20",
+        "talentId": "TyrandeIcebladeArrows",
+        "buttonId": "TyrandeIcebladeArrows",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_slow.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          "TyrandeHuntersMark|TyrandeHuntersMark|Trait"
+        ]
+      }
+    ]
+  },
+  "sheets": {
+    "abilities": {
+      "sheet": "sheets/Tyrande/abilities.webp",
+      "icons": {
+        "storm_ui_icon_tyrande_lightofelune.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_tyrande_sentinel.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_tyrande_lunarflare.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_tyrande_shadowstalk.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_tyrande_starfall.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_tyrande_huntersmark.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          78,
+          390,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          260,
+          260,
+          111,
+          71
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          0,
+          390,
+          76,
+          48
+        ],
+        "storm_ui_icon_tyrande_trueshotaura.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_heal.png": [
+          0,
+          0,
+          128,
+          128
+        ]
+      }
+    },
+    "talents": {
+      "sheet": "sheets/Tyrande/talents.webp",
+      "icons": {
+        "storm_ui_icon_tyrande_sentinel.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_tyrande_lightofelune.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_tyrande_trueshotaura.png": [
+          130,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_tyrande_huntersmark.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_heal.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_tyrande_lunarflare.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_tyrande_lightofelune_a.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_tyrande_shadowstalk.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_tyrande_starfall.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_damage.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_slow.png": [
+          260,
+          0,
+          128,
+          128
+        ]
+      }
+    },
+    "hero": {
+      "sheet": "sheets/Tyrande/hero.webp",
+      "icons": {
+        "storm_ui_icon_tyrande_lightofelune.png": [
+          390,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_tyrande_sentinel.png": [
+          130,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_tyrande_lunarflare.png": [
+          0,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_tyrande_shadowstalk.png": [
+          260,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_tyrande_starfall.png": [
+          390,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_tyrande_huntersmark.png": [
+          130,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          258,
+          604,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          224,
+          474,
+          111,
+          71
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          180,
+          604,
+          76,
+          48
+        ],
+        "storm_ui_icon_tyrande_trueshotaura.png": [
+          0,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_heal.png": [
+          312,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_tyrande_lightofelune_a.png": [
+          260,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_damage.png": [
+          182,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_slow.png": [
+          0,
+          214,
+          128,
+          128
+        ]
+      },
+      "portraits": {
+        "draftScreen": [
+          0,
+          0,
+          180,
+          212
+        ],
+        "minimap": [
+          336,
+          604,
+          32,
+          32
+        ],
+        "partyPanel": [
+          0,
+          604,
+          178,
+          56
+        ],
+        "target": [
+          130,
+          474,
+          92,
+          93
+        ],
+        "targetInfo": [
+          337,
+          474,
+          128,
+          56
+        ]
+      }
+    }
+  }
+}

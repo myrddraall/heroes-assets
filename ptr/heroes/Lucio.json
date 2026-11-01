@@ -1,0 +1,813 @@
+{
+  "id": "Lucio",
+  "unitId": "HeroLucio",
+  "hyperlinkId": "Lucio",
+  "attributeId": "Luci",
+  "franchise": "Overwatch",
+  "rarity": "Legendary",
+  "releaseDate": "2017-02-14",
+  "isMelee": false,
+  "gender": "Male",
+  "radius": 0.6875,
+  "innerRadius": 0.4375,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "ratings": {
+    "complexity": 5,
+    "damage": 3,
+    "survivability": 6,
+    "utility": 8
+  },
+  "life": {
+    "amount": 1442,
+    "scale": 0.04,
+    "regenRate": 3,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "AllyHealer",
+    "EnergyImportant",
+    "Escaper",
+    "Helper",
+    "RoleSupport",
+    "SelfHealer"
+  ],
+  "summonedUnitIds": [
+    "LucioBoombox"
+  ],
+  "weapons": [
+    {
+      "nameId": "HeroLucioWeapon",
+      "isDisabled": false,
+      "range": 5.5,
+      "minimumRange": 0,
+      "period": 1.25,
+      "damage": 23,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "LucioFrog",
+    "LucioSpring19",
+    "LucioToon20",
+    "LucioUltimate"
+  ],
+  "variationSkinIds": [
+    "LucioBaseVar1",
+    "LucioBaseVar2",
+    "LucioBaseVar3"
+  ],
+  "voiceLineIds": [
+    "LucioBase_VoiceLine01",
+    "LucioBase_VoiceLine02",
+    "LucioBase_VoiceLine03",
+    "LucioBase_VoiceLine04",
+    "LucioBase_VoiceLine05"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "LucioSoundwave|LucioSoundwave|Q",
+        "abilityId": "LucioSoundwave",
+        "buttonId": "LucioSoundwave",
+        "icon": "storm_ui_icon_lucio_soundwave.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "LucioCrossfade|LucioCrossfadeActivateHealingBoost|W",
+        "abilityId": "LucioCrossfade",
+        "buttonId": "LucioCrossfadeActivateHealingBoost",
+        "icon": "storm_ui_icon_lucio_crossfadehealing.png",
+        "toggleCooldown": 0.5,
+        "abilityType": "W"
+      },
+      {
+        "linkId": "LucioAmpItUp|LucioAmpItUp|E",
+        "abilityId": "LucioAmpItUp",
+        "buttonId": "LucioAmpItUp",
+        "icon": "storm_ui_icon_lucio_ampitup.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "LucioSoundBarrier|LucioSoundBarrier|Heroic",
+        "abilityId": "LucioSoundBarrier",
+        "buttonId": "LucioSoundBarrier",
+        "icon": "storm_ui_icon_lucio_soundbarrier.png",
+        "toggleCooldown": 0.0625,
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "LucioHighFive|LucioHighFive|Heroic",
+        "abilityId": "LucioHighFive",
+        "buttonId": "LucioHighFive",
+        "icon": "storm_ui_icon_lucio_highfive.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": "LucioPushOff|LucioPushOff|Trait",
+        "abilityId": "LucioPushOff",
+        "buttonId": "LucioPushOff",
+        "icon": "storm_ui_icon_lucio_accelerando.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "LucioWallRide|LucioWallRide|Z",
+        "abilityId": "LucioWallRide",
+        "buttonId": "LucioWallRide",
+        "icon": "storm_ui_icon_lucio_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "LucioCrossfade|LucioCrossfadeActivateHealingBoost|W": {
+      "Basic": [
+        {
+          "linkId": "LucioCrossfade|LucioCrossfadeActivateSpeedBoost|W",
+          "abilityId": "LucioCrossfade",
+          "buttonId": "LucioCrossfadeActivateSpeedBoost",
+          "icon": "storm_ui_icon_lucio_crossfadespeed.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "W"
+        }
+      ]
+    },
+    "LucioBoombox|LucioBoomboxBoombox|Active|Level7": {
+      "Activable": [
+        {
+          "linkId": "LucioBoombox|LucioBoomboxBoombox|Active",
+          "abilityId": "LucioBoombox",
+          "buttonId": "LucioBoomboxBoombox",
+          "icon": "storm_ui_icon_lucio_fineshrine.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "LucioItemSummerAnthem|LucioItemSummerAnthem|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "LucioSummerAnthem|LucioItemSummerAnthem|Active",
+          "abilityId": "LucioSummerAnthem",
+          "buttonId": "LucioItemSummerAnthem",
+          "icon": "storm_ui_icon_lucio_crossfade_a.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "LucioCrossfadePartyMixQuest|LucioCrossfadePartyMix|W|Level1",
+        "talentId": "LucioCrossfadePartyMixQuest",
+        "buttonId": "LucioCrossfadePartyMix",
+        "abilityId": "LucioCrossfade",
+        "icon": "storm_ui_icon_lucio_crossfade_all.png",
+        "abilityType": "W",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "LucioCrossfade|LucioCrossfadeActivateHealingBoost|W",
+          "LucioCrossfade|LucioCrossfadeActivateSpeedBoost|W"
+        ]
+      },
+      {
+        "linkId": "LucioWallRideAccelerando|LucioWallRideAccelerando|Z|Level1",
+        "talentId": "LucioWallRideAccelerando",
+        "buttonId": "LucioWallRideAccelerando",
+        "abilityId": "LucioWallRide",
+        "icon": "storm_ui_icon_lucio_wallride.png",
+        "abilityType": "Z",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "LucioWallRide|LucioWallRide|Z"
+        ]
+      },
+      {
+        "linkId": "LucioPassiveSmoothMoves|LucioPassiveSmoothMoves|Z|Level1",
+        "talentId": "LucioPassiveSmoothMoves",
+        "buttonId": "LucioPassiveSmoothMoves",
+        "abilityId": "LucioWallRide",
+        "icon": "storm_ui_icon_lucio_wallride_a.png",
+        "abilityType": "Z",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "LucioWallRide|LucioWallRide|Z"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "LucioSoundwaveSubwoofer|LucioSoundwaveSubwoofer|Q|Level4",
+        "talentId": "LucioSoundwaveSubwoofer",
+        "buttonId": "LucioSoundwaveSubwoofer",
+        "abilityId": "LucioSoundwave",
+        "icon": "storm_ui_icon_lucio_soundwave.png",
+        "abilityType": "Q",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "LucioSoundwave|LucioSoundwave|Q"
+        ]
+      },
+      {
+        "linkId": "LucioSoundwaveOffTheWall|LucioSoundwaveOffTheWall|Q|Level4",
+        "talentId": "LucioSoundwaveOffTheWall",
+        "buttonId": "LucioSoundwaveOffTheWall",
+        "abilityId": "LucioSoundwave",
+        "icon": "storm_ui_icon_lucio_soundwave_a.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "LucioSoundwave|LucioSoundwave|Q"
+        ]
+      },
+      {
+        "linkId": "LucioPushOffSupersonic|LucioPushOffSupersonic|Trait|Level4",
+        "talentId": "LucioPushOffSupersonic",
+        "buttonId": "LucioPushOffSupersonic",
+        "abilityId": "LucioPushOff",
+        "icon": "storm_ui_icon_lucio_accelerando.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "LucioPushOff|LucioPushOff|Trait"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "LucioSoundwaveGoodVibrations|LucioSoundwaveGoodVibrations|Q|Level7",
+        "talentId": "LucioSoundwaveGoodVibrations",
+        "buttonId": "LucioSoundwaveGoodVibrations",
+        "abilityId": "LucioSoundwave",
+        "icon": "storm_ui_icon_lucio_soundwave.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "LucioSoundwave|LucioSoundwave|Q"
+        ]
+      },
+      {
+        "linkId": "LucioReverseAmp|LucioReverseAmp|W|Level7",
+        "talentId": "LucioReverseAmp",
+        "buttonId": "LucioReverseAmp",
+        "abilityId": "LucioCrossfade",
+        "icon": "storm_ui_icon_lucio_crossfade_all.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "LucioCrossfade|LucioCrossfadeActivateHealingBoost|W",
+          "LucioCrossfade|LucioCrossfadeActivateSpeedBoost|W"
+        ]
+      },
+      {
+        "linkId": "LucioBoombox|LucioBoomboxBoombox|Active|Level7",
+        "talentId": "LucioBoombox",
+        "buttonId": "LucioBoomboxBoombox",
+        "abilityId": "LucioBoombox",
+        "icon": "storm_ui_icon_lucio_fineshrine.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "LucioSoundBarrier|LucioSoundBarrier|Heroic|Level10",
+        "talentId": "LucioSoundBarrier",
+        "buttonId": "LucioSoundBarrier",
+        "abilityId": "LucioSoundBarrier",
+        "icon": "storm_ui_icon_lucio_soundbarrier.png",
+        "toggleCooldown": 0.0625,
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "LucioHighFive|LucioHighFive|Heroic|Level10",
+        "talentId": "LucioHighFive",
+        "buttonId": "LucioHighFive",
+        "abilityId": "LucioHighFive",
+        "icon": "storm_ui_icon_lucio_highfive.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "LucioCrossfadeAllTogetherTalent|LucioCrossfadeAllTogether|W|Level13",
+        "talentId": "LucioCrossfadeAllTogetherTalent",
+        "buttonId": "LucioCrossfadeAllTogether",
+        "abilityId": "LucioCrossfade",
+        "icon": "storm_ui_icon_lucio_crossfade_all.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "LucioCrossfade|LucioCrossfadeActivateHealingBoost|W",
+          "LucioCrossfade|LucioCrossfadeActivateSpeedBoost|W"
+        ]
+      },
+      {
+        "linkId": "LucioPushOffHeavyCasters|LucioPushOffHeavyCasters|Trait|Level13",
+        "talentId": "LucioPushOffHeavyCasters",
+        "buttonId": "LucioPushOffHeavyCasters",
+        "abilityId": "LucioPushOff",
+        "icon": "storm_ui_icon_lucio_accelerando.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "LucioPushOff|LucioPushOff|Trait"
+        ]
+      },
+      {
+        "linkId": "LucioWallRideSlip|LucioWallRideSlip|Z|Level13",
+        "talentId": "LucioWallRideSlip",
+        "buttonId": "LucioWallRideSlip",
+        "abilityId": "LucioWallRide",
+        "icon": "storm_ui_icon_lucio_wallride.png",
+        "abilityType": "Z",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "LucioWallRide|LucioWallRide|Z"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "LucioAmpItUpRejuvenescencia|LucioAmpItUpRejuvenescencia|E|Level16",
+        "talentId": "LucioAmpItUpRejuvenescencia",
+        "buttonId": "LucioAmpItUpRejuvenescencia",
+        "abilityId": "LucioAmpItUp",
+        "icon": "storm_ui_icon_lucio_ampitup.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "LucioAmpItUp|LucioAmpItUp|E"
+        ]
+      },
+      {
+        "linkId": "LucioAmpItUpUpTheFrequency|LucioAmpItUpUpTheFrequency|E|Level16",
+        "talentId": "LucioAmpItUpUpTheFrequency",
+        "buttonId": "LucioAmpItUpUpTheFrequency",
+        "abilityId": "LucioAmpItUp",
+        "icon": "storm_ui_icon_lucio_ampitup_b.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "LucioAmpItUp|LucioAmpItUp|E"
+        ]
+      },
+      {
+        "linkId": "LucioAmpItUpUpToEleven|LucioAmpItUpUpToEleven|E|Level16",
+        "talentId": "LucioAmpItUpUpToEleven",
+        "buttonId": "LucioAmpItUpUpToEleven",
+        "abilityId": "LucioAmpItUp",
+        "icon": "storm_ui_icon_lucio_ampitup_a.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "LucioAmpItUp|LucioAmpItUp|E"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "LucioSoundBarrierBossaNova|LucioSoundBarrierBossaNova|Heroic|Level20",
+        "talentId": "LucioSoundBarrierBossaNova",
+        "buttonId": "LucioSoundBarrierBossaNova",
+        "abilityId": "LucioSoundBarrier",
+        "icon": "storm_ui_icon_lucio_soundbarrier.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "LucioSoundBarrier|LucioSoundBarrier|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "LucioSoundBarrier"
+        ]
+      },
+      {
+        "linkId": "LucioCrossfadeMixingFire|LucioHighFiveMixingFire|Heroic|Level20",
+        "talentId": "LucioCrossfadeMixingFire",
+        "buttonId": "LucioHighFiveMixingFire",
+        "abilityId": "LucioHighFive",
+        "icon": "storm_ui_icon_lucio_highfive.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "LucioHighFive|LucioHighFive|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "LucioHighFive"
+        ]
+      },
+      {
+        "linkId": "LucioPassiveHouseParty|LucioPassiveHouseParty|W|Level20",
+        "talentId": "LucioPassiveHouseParty",
+        "buttonId": "LucioPassiveHouseParty",
+        "abilityId": "LucioCrossfade",
+        "icon": "storm_ui_icon_lucio_crossfade_all.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "LucioCrossfade|LucioCrossfadeActivateHealingBoost|W",
+          "LucioCrossfade|LucioCrossfadeActivateSpeedBoost|W"
+        ]
+      },
+      {
+        "linkId": "LucioItemSummerAnthem|LucioItemSummerAnthem|Active|Level20",
+        "talentId": "LucioItemSummerAnthem",
+        "buttonId": "LucioItemSummerAnthem",
+        "abilityId": "LucioSummerAnthem",
+        "icon": "storm_ui_icon_lucio_crossfade_a.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          "LucioCrossfade|LucioCrossfadeActivateHealingBoost|W",
+          "LucioCrossfade|LucioCrossfadeActivateSpeedBoost|W"
+        ]
+      }
+    ]
+  },
+  "sheets": {
+    "abilities": {
+      "sheet": "sheets/Lucio/abilities.webp",
+      "icons": {
+        "storm_ui_icon_lucio_soundwave.png": [
+          0,
+          518,
+          128,
+          128
+        ],
+        "storm_ui_icon_lucio_crossfadehealing.png": [
+          260,
+          258,
+          128,
+          128
+        ],
+        "storm_ui_icon_lucio_ampitup.png": [
+          0,
+          258,
+          128,
+          128
+        ],
+        "storm_ui_icon_lucio_soundbarrier.png": [
+          260,
+          388,
+          128,
+          128
+        ],
+        "storm_ui_icon_lucio_highfive.png": [
+          0,
+          0,
+          256,
+          256
+        ],
+        "storm_ui_icon_lucio_accelerando.png": [
+          258,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_lucio_mount.png": [
+          243,
+          518,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          130,
+          518,
+          111,
+          71
+        ],
+        "storm_ui_icon_lucio_crossfadespeed.png": [
+          0,
+          388,
+          128,
+          128
+        ],
+        "storm_ui_icon_lucio_fineshrine.png": [
+          130,
+          388,
+          128,
+          128
+        ],
+        "storm_ui_icon_lucio_crossfade_a.png": [
+          130,
+          258,
+          128,
+          128
+        ]
+      }
+    },
+    "talents": {
+      "sheet": "sheets/Lucio/talents.webp",
+      "icons": {
+        "storm_ui_icon_lucio_crossfade_all.png": [
+          390,
+          258,
+          128,
+          128
+        ],
+        "storm_ui_icon_lucio_wallride.png": [
+          130,
+          518,
+          128,
+          128
+        ],
+        "storm_ui_icon_lucio_wallride_a.png": [
+          0,
+          518,
+          128,
+          128
+        ],
+        "storm_ui_icon_lucio_soundwave.png": [
+          390,
+          388,
+          128,
+          128
+        ],
+        "storm_ui_icon_lucio_soundwave_a.png": [
+          260,
+          388,
+          128,
+          128
+        ],
+        "storm_ui_icon_lucio_accelerando.png": [
+          258,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_lucio_fineshrine.png": [
+          0,
+          388,
+          128,
+          128
+        ],
+        "storm_ui_icon_lucio_soundbarrier.png": [
+          130,
+          388,
+          128,
+          128
+        ],
+        "storm_ui_icon_lucio_highfive.png": [
+          0,
+          0,
+          256,
+          256
+        ],
+        "storm_ui_icon_lucio_ampitup.png": [
+          130,
+          258,
+          128,
+          128
+        ],
+        "storm_ui_icon_lucio_ampitup_b.png": [
+          0,
+          258,
+          128,
+          128
+        ],
+        "storm_ui_icon_lucio_ampitup_a.png": [
+          388,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_lucio_crossfade_a.png": [
+          260,
+          258,
+          128,
+          128
+        ]
+      }
+    },
+    "hero": {
+      "sheet": "sheets/Lucio/hero.webp",
+      "icons": {
+        "storm_ui_icon_lucio_soundwave.png": [
+          260,
+          518,
+          128,
+          128
+        ],
+        "storm_ui_icon_lucio_crossfadehealing.png": [
+          130,
+          388,
+          128,
+          128
+        ],
+        "storm_ui_icon_lucio_ampitup.png": [
+          260,
+          258,
+          128,
+          128
+        ],
+        "storm_ui_icon_lucio_soundbarrier.png": [
+          0,
+          518,
+          128,
+          128
+        ],
+        "storm_ui_icon_lucio_highfive.png": [
+          0,
+          0,
+          256,
+          256
+        ],
+        "storm_ui_icon_lucio_accelerando.png": [
+          440,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_lucio_mount.png": [
+          180,
+          778,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          224,
+          648,
+          111,
+          71
+        ],
+        "storm_ui_icon_lucio_crossfadespeed.png": [
+          260,
+          388,
+          128,
+          128
+        ],
+        "storm_ui_icon_lucio_fineshrine.png": [
+          390,
+          388,
+          128,
+          128
+        ],
+        "storm_ui_icon_lucio_crossfade_a.png": [
+          390,
+          258,
+          128,
+          128
+        ],
+        "storm_ui_icon_lucio_crossfade_all.png": [
+          0,
+          388,
+          128,
+          128
+        ],
+        "storm_ui_icon_lucio_wallride.png": [
+          0,
+          648,
+          128,
+          128
+        ],
+        "storm_ui_icon_lucio_wallride_a.png": [
+          390,
+          518,
+          128,
+          128
+        ],
+        "storm_ui_icon_lucio_soundwave_a.png": [
+          130,
+          518,
+          128,
+          128
+        ],
+        "storm_ui_icon_lucio_ampitup_b.png": [
+          130,
+          258,
+          128,
+          128
+        ],
+        "storm_ui_icon_lucio_ampitup_a.png": [
+          0,
+          258,
+          128,
+          128
+        ]
+      },
+      "portraits": {
+        "draftScreen": [
+          258,
+          0,
+          180,
+          212
+        ],
+        "minimap": [
+          258,
+          778,
+          32,
+          32
+        ],
+        "partyPanel": [
+          0,
+          778,
+          178,
+          56
+        ],
+        "target": [
+          130,
+          648,
+          92,
+          93
+        ],
+        "targetInfo": [
+          337,
+          648,
+          128,
+          56
+        ]
+      }
+    }
+  }
+}

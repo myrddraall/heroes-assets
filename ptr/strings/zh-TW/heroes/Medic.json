@@ -1,0 +1,213 @@
+{
+  "abilities": {
+    "MedicHealingBeam|MedicHealingBeam|Q": {
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">能量：每秒6點</s>",
+      "fullText": "每秒為一名友方英雄或小兵恢復<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">172</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>點生命值，只要目標待在範圍內，就不會中斷治療。超過<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>秒沒有引導治療光束後，每秒可恢復<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c>點能量。<n/><n/>再次使用技能可轉換目標，或者對自己施放以取消引導。",
+      "name": "治療光束",
+      "shortText": "持續為盟友恢復生命值"
+    },
+    "MedicSafeguard|MedicSafeguard|W": {
+      "cooldownText": "冷卻時間：11秒",
+      "fullText": "讓目標友方英雄獲得<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35</c>點護甲，持續<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>秒。",
+      "name": "減傷防護",
+      "shortText": "使目標獲得護甲"
+    },
+    "MedicDisplacementGrenade|MedicDisplacementGrenade|E": {
+      "cooldownText": "冷卻時間：12秒",
+      "fullText": "發射可手動引爆的榴彈，對附近的敵人造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">208</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>點傷害，並且將其擊退。",
+      "name": "衝擊榴彈",
+      "shortText": "對敵人造成傷害，並且將其擊退"
+    },
+    "MedicStimDrone|MedicStimDrone|Heroic": {
+      "cooldownText": "冷卻時間：70秒",
+      "fullText": "使一名友方英雄的攻擊速度提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75%</c>，移動速度提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>，持續<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c>秒。",
+      "name": "藥劑注射機",
+      "shortText": "大幅提高攻擊速度和移動速度"
+    },
+    "MedicMedivacDropship|MedicMedivacDropship|Heroic": {
+      "cooldownText": "冷卻時間：45秒",
+      "fullText": "指定醫療艇運輸的目標地點。在起飛前的<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c>秒內，盟友可以右鍵點擊進入醫療艇。",
+      "name": "醫療運輸艇",
+      "shortText": "將盟友載往遠處的目標地點"
+    },
+    ":PASSIVE:|MedicCaduceusReactor|Trait": {
+      "fullText": "引導治療光束時，莫拉萊斯中尉每秒會恢復最大生命值的<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2%</c>。",
+      "name": "醫療反應爐",
+      "shortText": "引導治療光束時可恢復生命值"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "冷卻時間：4秒",
+      "fullText": "引導<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>秒後，提高<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s>移動速度。",
+      "name": "召喚坐騎"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "引導<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c>秒後傳送回風暴祭壇，立即恢復<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c>點生命值和<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c>點法力值。",
+      "name": "爐石"
+    },
+    "MedicRedirectHealingBeam|MedicRedirectHealingBeam|Q": {
+      "fullText": "重新指定治療光束的目標英雄或小兵。對自己施放可取消引導。",
+      "name": "重新指定治療光束目標",
+      "shortText": "持續為盟友恢復生命值"
+    },
+    "MedicCancelHealingBeam|MedicCancelHealingBeam|Trait": {
+      "fullText": "停止引導治療光束。",
+      "name": "取消治療光束"
+    },
+    "MedicDetonateDisplacementGrenade|MedicDetonateDisplacementGrenade|E": {
+      "cooldownText": "冷卻時間：12秒",
+      "fullText": "引爆衝擊榴彈，對附近敵人造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">208</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>點傷害，並且將其擊退。",
+      "name": "引爆衝擊榴彈",
+      "shortText": "對敵人造成傷害，並且將其擊退"
+    },
+    "MedicReinforcements|MedicMedivacDropshipDepartReinforcementsTalent|Heroic": {
+      "cooldownText": "冷卻時間：45秒",
+      "fullText": "命令你的醫療艇飛往施放技能時的位置。",
+      "name": "起飛"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "離開坐騎。",
+      "name": "離開坐騎"
+    },
+    "MedicCellularReactor|MedicCellularReactorTalentAbilityFace|Active": {
+      "cooldownText": "冷卻時間：20秒",
+      "fullText": "消耗<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30</c>點能量值，使莫拉萊斯中尉在<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>秒內恢復最大生命值的<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c>。此技能作用期間，無法獲得醫療反應爐效果。",
+      "name": "細胞反應器",
+      "shortText": "消耗能量值以恢復生命值，減傷防護可恢復能量"
+    },
+    "MedicTraumaTriggerAbility|MedicTraumaTriggerItemButtonTalent|Passive": {
+      "cooldownText": "冷卻時間：30秒",
+      "fullText": "在生命值低於<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c>時受到傷害，會獲得<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40</c>點護甲，持續<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>秒。此效果的冷卻時間為<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30</c>秒。<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">被動：</c>醫療反應爐的每秒治療量從莫拉萊斯中尉最大生命值的<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2%</c>提高至<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4%</c>。",
+      "name": "緊急防護",
+      "shortText": "低生命值時獲得護甲"
+    },
+    "MedicReinforcements|MedicReinforcements|Heroic": {
+      "cooldownText": "冷卻時間：45秒",
+      "fullText": "啟動後，在風暴祭壇呼叫一艘醫療運輸艇讓盟友搭乘。經過<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c>秒後或再次施放此技能時，醫療艇會飛往技能施放時的地點並卸載盟友。此呼叫方式與醫療運輸艇共享冷卻時間。",
+      "name": "部隊增援",
+      "shortText": "醫療運輸艇會出現在風暴祭壇"
+    },
+    "MedicMedivacDropshipDepart|MedicMedivacDropshipDepart|E": {
+      "fullText": "立即飛往目標地點。",
+      "name": "起飛"
+    }
+  },
+  "talents": {
+    "MedicCaduceusFeedback|MedicCaduceusFeedbackTalent|Passive|Level1": {
+      "fullText": "攻擊距離提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.1</c>格，並且對英雄進行基本攻擊可產生<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>點能量。",
+      "name": "醫療能量",
+      "shortText": "進行基本攻擊可產生能量"
+    },
+    "MedicLifeSupport|MedicLifeSupport|Q|Level1": {
+      "fullText": "在能量恢復期間的前<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>秒內，治療光束產生的能量提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c>。<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">被動：</c>最大能量值提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c>點。",
+      "name": "生命救護",
+      "shortText": "提高最大能量值和恢復速度"
+    },
+    "MedicClear|MedicClearTalent|E|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">任務：</c>衝擊榴彈每命中一名敵方英雄，恢復<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>點能量。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">獎勵：</c>命中<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c>名英雄後，衝擊榴彈的冷卻時間會從<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">12</c>秒降低至<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">9</c>秒。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">獎勵：</c>命中<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30</c>名英雄後，衝擊榴彈的爆炸範圍提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>。",
+      "name": "淨空",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">任務：</c>命中英雄可強化衝擊榴彈"
+    },
+    "MedicCellularReactor|MedicCellularReactorTalent|Active|Level4": {
+      "cooldownText": "冷卻時間：20秒",
+      "fullText": "消耗<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30</c>點能量值，使莫拉萊斯中尉在<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>秒內恢復最大生命值的<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c>。此技能作用期間，無法獲得醫療反應爐效果。<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">被動：</c>每次減傷防護降低傷害時，產生<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>點能量，每次施放此技能最多可獲得<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c>點能量。",
+      "name": "細胞反應器",
+      "shortText": "消耗能量值以恢復生命值，減傷防護可恢復能量"
+    },
+    "MedicTraumaTrigger|MedicTraumaTriggerTalent|Passive|Level4": {
+      "fullText": "在生命值低於<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c>時受到傷害，會獲得<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40</c>點護甲，持續<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>秒。此效果的冷卻時間為<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30</c>秒。<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">被動：</c>醫療反應爐的每秒治療量從莫拉萊斯中尉最大生命值的<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2%</c>提高至<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4%</c>。",
+      "name": "緊急防護",
+      "shortText": "在生命值偏低時獲得護甲，提高醫療反應爐的治療量"
+    },
+    "MedicBlastShield|MedicBlastShield|E|Level4": {
+      "fullText": "被衝擊榴彈命中的敵方英雄被擊退後會緩速<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>，持續<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>秒，並且會使莫拉萊斯中尉獲得相當於最大生命值<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6%</c>的護盾。此護盾最多可堆疊<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>層。",
+      "name": "衝擊護盾",
+      "shortText": "衝擊榴彈可緩速，並且賦予護盾"
+    },
+    "MedicPhysicalTherapy|MedicPhysicalTherapy|W|Level7": {
+      "fullText": "減傷防護會移除目標受到的所有緩速效果，同時冷卻時間降低<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>秒。",
+      "name": "物理治療",
+      "shortText": "減傷防護會移除緩速效果"
+    },
+    "MedicVanadiumPlating|MedicVanadiumPlating|W|Level7": {
+      "fullText": "當獲得減傷防護的盟友被定身或昏迷，減傷防護可額外賦予<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c>點護甲。<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">被動：</c>減傷防護的持續時間提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>秒。",
+      "name": "釩合金板",
+      "shortText": "被定身或昏迷會提高減傷防護的護甲和持續時間"
+    },
+    "MedicMediDrone|MedicMediDrone|W|Level7": {
+      "fullText": "治療光束治療一名盟友會同時使受到減傷防護影響的盟友獲得<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75%</c>的治療量。",
+      "name": "醫療注射機",
+      "shortText": "治療光束會治療獲得減傷防護的目標"
+    },
+    "MedicHeroicAbilityStimDrone|MedicStimDrone|Heroic|Level10": {
+      "cooldownText": "冷卻時間：70秒",
+      "fullText": "使一名友方英雄的攻擊速度提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75%</c>，移動速度提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>，持續<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c>秒。",
+      "name": "藥劑注射機",
+      "shortText": "大幅提高攻擊速度和移動速度"
+    },
+    "MedicHeroicAbilityMedivacDropship|MedicMedivacDropshipsTalentFace|Heroic|Level10": {
+      "cooldownText": "冷卻時間：45秒",
+      "fullText": "解鎖醫療運輸艇和部隊增援技能。這些技能共享冷卻時間。<n/><n/><s val=\"cbe8ff-ffffff\" hlt-name=\"StandardTooltipHeader\">醫療運輸艇</s><n/>指定醫療艇運輸的目標地點。在起飛前的<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c>秒內，盟友可以右鍵點擊進入醫療艇。<n/><n/><s val=\"cbe8ff-ffffff\" hlt-name=\"StandardTooltipHeader\">部隊增援</s><n/>在風暴祭壇呼叫一艘醫療運輸艇讓盟友搭乘。經過<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c>秒後或再次施放此技能時，醫療艇會飛往技能施放時的地點並卸載盟友。",
+      "name": "醫療運輸艇增援",
+      "shortText": "解鎖醫療艇運輸"
+    },
+    "MedicEMPGrenade|MedicEMPGrenadeTalent|E|Level13": {
+      "fullText": "衝擊榴彈會在<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>秒內額外造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">96</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>點傷害，並且額外對英雄的護盾造成最多<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">400</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>點傷害。",
+      "name": "電磁脈衝榴彈",
+      "shortText": "衝擊榴彈會對護盾造成額外傷害"
+    },
+    "MedicSystemShock|MedicSystemShockTalent|E|Level13": {
+      "fullText": "衝擊榴彈命中敵方英雄時，可使目標造成的傷害降低<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c>，持續<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>秒。",
+      "name": "神經休克",
+      "shortText": "衝擊榴彈可降低目標造成的傷害"
+    },
+    "MedicBedsideManner|MedicBedsideManner|E|Level13": {
+      "fullText": "基本攻擊命中敵方英雄會額外造成相當於其最大生命值<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1%</c>的傷害。下一次對被衝擊榴彈命中的英雄進行基本攻擊時，傷害提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6%</c>，持續<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c>秒。",
+      "name": "臨床護理",
+      "shortText": "衝擊榴彈可強化基本攻擊"
+    },
+    "MedicExtendedCare|MedicExtendedCare|Q|Level16": {
+      "fullText": "對一名英雄引導治療光束持續<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>秒以上，可在治療光束效果結束後，使該英雄在<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>秒內恢復<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">258</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>點生命值。<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">被動：</c>治療光束的距離提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c>。",
+      "name": "長程照護",
+      "shortText": "治療光束會持續治療，距離提高"
+    },
+    "MedicFirstResponder|MedicFirstResponder|Q|Level16": {
+      "fullText": "能量值高於<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60</c>點時，治療光束的治療量提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c>，並且使莫拉萊斯中尉和治療光束目標的移動速度提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c>。",
+      "name": "前線急救員",
+      "shortText": "在高能量值時，強化治療光束"
+    },
+    "MedicShieldSequencer|MedicShieldSequencerTalent|W|Level16": {
+      "fullText": "減傷防護的使用次數提高到2次，距離提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60%</c>。",
+      "name": "防護序列",
+      "shortText": "減傷防護的使用次數提高到2次，距離提高"
+    },
+    "MedicHyperactivity|MedicHyperactivity|Heroic|Level20": {
+      "fullText": "藥劑注射機的冷卻時間從<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">70</c>秒降低至<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35</c>秒，移動速度加成從<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>提高至<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>。",
+      "name": "超速反應",
+      "shortText": "降低冷卻時間，提高移動速度"
+    },
+    "MedicSafeZone|MedicSafeZoneTalent|Heroic|Level20": {
+      "fullText": "盟友離開醫療艇時可獲得保護狀態，免疫所有傷害，持續<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>秒。<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">被動：</c>醫療運輸艇技能的冷卻時間降低<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c>秒。",
+      "name": "安全區域",
+      "shortText": "離開醫療艇時獲得保護狀態，冷卻時間降低"
+    },
+    "MedicHospiceCare|MedicHospiceCare|W|Level20": {
+      "fullText": "減傷防護可賦予目標無法擊殺狀態，持續<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>秒。如果目標生命值低於<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>，在無法擊殺效果結束後，可使其恢復最大生命值的<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8%</c>。",
+      "name": "安寧照護",
+      "shortText": "減傷防護可賦予無法擊殺狀態以及治療"
+    },
+    "MedicSecondOpinion|MedicSecondOpinion|E|Level20": {
+      "fullText": "衝擊榴彈擊中<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>名以上的英雄時，冷卻時間降低為<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>秒。",
+      "name": "備用榴彈",
+      "shortText": "降低衝擊榴彈的冷卻時間"
+    }
+  },
+  "units": {
+    "MedicMedivacDropship": {
+      "description": "指定醫療艇運輸的目標地點。在起飛前的<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c>秒內，盟友可以右鍵點擊進入醫療艇。",
+      "name": "醫療運輸艇"
+    },
+    "MedicMedivacDropshipDropoffLocationUnit": {
+      "name": "醫療運輸艇卸載地點單位"
+    }
+  }
+}

@@ -1,0 +1,822 @@
+{
+  "id": "Greymane",
+  "unitId": "HeroGreymane",
+  "hyperlinkId": "Greymane",
+  "attributeId": "Genn",
+  "franchise": "Warcraft",
+  "rarity": "Epic",
+  "releaseDate": "2016-01-12",
+  "isMelee": false,
+  "gender": "Male",
+  "radius": 0.6875,
+  "innerRadius": 0.6875,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 7,
+    "damage": 9,
+    "survivability": 4,
+    "utility": 3
+  },
+  "life": {
+    "amount": 1876,
+    "scale": 0.045,
+    "regenRate": 3.9062,
+    "regenScale": 0.045
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "EnergyImportant",
+    "Ganker",
+    "RoleAutoAttacker",
+    "RoleCaster",
+    "SoloLaner",
+    "WaveClearer"
+  ],
+  "weapons": [
+    {
+      "nameId": "HeroGreymaneMeleeWeapon",
+      "isDisabled": false,
+      "range": 1.5,
+      "minimumRange": 0,
+      "period": 1,
+      "damage": 148,
+      "damageScale": 0.04
+    },
+    {
+      "nameId": "HeroGreymaneRangedWeapon",
+      "isDisabled": false,
+      "range": 5.5,
+      "minimumRange": 0,
+      "period": 1,
+      "damage": 148,
+      "damageScale": 0.04
+    },
+    {
+      "nameId": "HeroGreymaneWorgenWeapon",
+      "isDisabled": true,
+      "range": 1.25,
+      "minimumRange": 0,
+      "period": 1,
+      "damage": 148,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "GreymaneCircusDefault",
+    "GreymaneDoctor",
+    "GreymaneEnforcer",
+    "GreymaneMasterDefault"
+  ],
+  "variationSkinIds": [
+    "GreymaneBaseVar1",
+    "GreymaneBaseVar2",
+    "GreymaneBaseVar3"
+  ],
+  "voiceLineIds": [
+    "GreymaneBase_VoiceLine01",
+    "GreymaneBase_VoiceLine02",
+    "GreymaneBase_VoiceLine03",
+    "GreymaneBase_VoiceLine04",
+    "GreymaneBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "GreymaneGilneanCocktail|GreymaneGilneanCocktail|Q",
+        "abilityId": "GreymaneGilneanCocktail",
+        "buttonId": "GreymaneGilneanCocktail",
+        "icon": "storm_ui_icon_greymane_qattack.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "GreymaneInnerBeast|GreymaneInnerBeast|W",
+        "abilityId": "GreymaneInnerBeast",
+        "buttonId": "GreymaneInnerBeast",
+        "icon": "storm_ui_icon_greymane_beastfocus.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "GreymaneDarkflight|GreymaneDarkflight|E",
+        "abilityId": "GreymaneDarkflight",
+        "buttonId": "GreymaneDarkflight",
+        "icon": "storm_ui_icon_greymane_darkflight.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "GreymaneGoForTheThroat|GreymaneGoForTheThroat|Heroic",
+        "abilityId": "GreymaneGoForTheThroat",
+        "buttonId": "GreymaneGoForTheThroat",
+        "icon": "storm_ui_icon_greymane_goforthethroat.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "GreymaneCursedBullet|GreymaneCursedBullet|Heroic",
+        "abilityId": "GreymaneCursedBullet",
+        "buttonId": "GreymaneCursedBullet",
+        "icon": "storm_ui_icon_greymane_snapshot.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": ":PASSIVE:|GreymaneWorgenForm|Trait",
+        "abilityId": ":PASSIVE:",
+        "buttonId": "GreymaneWorgenForm",
+        "icon": "storm_ui_icon_greymane_curseoftheworgen.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|GreymaneSummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "GreymaneSummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "GreymaneInnerBeast|GreymaneInnerBeast|W": {
+      "Basic": [
+        {
+          "linkId": ":PASSIVE:|GreymaneInnerBeastActive|W",
+          "abilityId": ":PASSIVE:",
+          "buttonId": "GreymaneInnerBeastActive",
+          "icon": "storm_ui_icon_greymane_worgen_beastfocus.png",
+          "abilityType": "W"
+        }
+      ]
+    },
+    "GreymaneDarkflight|GreymaneDarkflight|E": {
+      "Basic": [
+        {
+          "linkId": "GreymaneRazorSwipe|GreymaneRazorSwipe|Q",
+          "abilityId": "GreymaneRazorSwipe",
+          "buttonId": "GreymaneRazorSwipe",
+          "icon": "storm_ui_icon_greymane_swipe.png",
+          "abilityType": "Q"
+        },
+        {
+          "linkId": "GreymaneDisengage|GreymaneDisengage|E",
+          "abilityId": "GreymaneDisengage",
+          "buttonId": "GreymaneDisengage",
+          "icon": "storm_ui_icon_greymane_disengage.png",
+          "abilityType": "E"
+        }
+      ]
+    },
+    "Mount|GreymaneSummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "GreymaneInnerBeastWolfheart|GreymaneInnerBeastWolfheartTalent|W|Level1",
+        "talentId": "GreymaneInnerBeastWolfheart",
+        "buttonId": "GreymaneInnerBeastWolfheartTalent",
+        "abilityId": "GreymaneInnerBeast",
+        "icon": "storm_ui_icon_greymane_beastfocus.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|GreymaneInnerBeastActive|W",
+          "GreymaneInnerBeast|GreymaneInnerBeast|W"
+        ]
+      },
+      {
+        "linkId": "GreymaneGilneanCocktailPerfectAim|GreymaneGilneanCocktailPerfectAimTalent|Q|Level1",
+        "talentId": "GreymaneGilneanCocktailPerfectAim",
+        "buttonId": "GreymaneGilneanCocktailPerfectAimTalent",
+        "abilityId": "GreymaneGilneanCocktail",
+        "icon": "storm_ui_icon_greymane_qattack.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "GreymaneGilneanCocktail|GreymaneGilneanCocktail|Q"
+        ]
+      },
+      {
+        "linkId": "GreymaneInnerBeastViciousness|GreymaneInnerBeastViciousnessTalent|W|Level1",
+        "talentId": "GreymaneInnerBeastViciousness",
+        "buttonId": "GreymaneInnerBeastViciousnessTalent",
+        "abilityId": "GreymaneInnerBeast",
+        "icon": "storm_ui_icon_greymane_beastfocus_var1.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|GreymaneInnerBeastActive|W",
+          "GreymaneInnerBeast|GreymaneInnerBeast|W"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "GreymaneDarkflightThickSkin|GreymaneDarkflightThickSkinTalent|E|Level4",
+        "talentId": "GreymaneDarkflightThickSkin",
+        "buttonId": "GreymaneDarkflightThickSkinTalent",
+        "abilityId": "GreymaneDarkflight",
+        "icon": "storm_ui_icon_greymane_darkflight.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "GreymaneDarkflight|GreymaneDarkflight|E"
+        ]
+      },
+      {
+        "linkId": "GreymaneDisengageEyesInTheDark|GreymaneDisengageEyesInTheDarkTalent|E|Level4",
+        "talentId": "GreymaneDisengageEyesInTheDark",
+        "buttonId": "GreymaneDisengageEyesInTheDarkTalent",
+        "abilityId": "GreymaneDisengage",
+        "icon": "storm_ui_icon_greymane_disengage.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "GreymaneDisengage|GreymaneDisengage|E"
+        ]
+      },
+      {
+        "linkId": "GreymaneInnerBeastInsatiable|GreymaneInnerBeastInsatiableTalent|W|Level4",
+        "talentId": "GreymaneInnerBeastInsatiable",
+        "buttonId": "GreymaneInnerBeastInsatiableTalent",
+        "abilityId": "GreymaneInnerBeast",
+        "icon": "storm_ui_icon_greymane_beastfocus.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|GreymaneInnerBeastActive|W",
+          "GreymaneInnerBeast|GreymaneInnerBeast|W"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "GreymaneWorgenFormQuicksilverBullets|GreymaneQuicksilverBulletsTalent|Trait|Level7",
+        "talentId": "GreymaneWorgenFormQuicksilverBullets",
+        "buttonId": "GreymaneQuicksilverBulletsTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_greymane_curseoftheworgen.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|GreymaneWorgenForm|Trait"
+        ]
+      },
+      {
+        "linkId": "GreymaneGilneanCocktailIncendiaryElixir|GreymaneGilneanCocktailIncendiaryElixirTalent|Q|Level7",
+        "talentId": "GreymaneGilneanCocktailIncendiaryElixir",
+        "buttonId": "GreymaneGilneanCocktailIncendiaryElixirTalent",
+        "abilityId": "GreymaneGilneanCocktail",
+        "icon": "storm_ui_icon_greymane_qattack.png",
+        "abilityType": "Q",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "GreymaneGilneanCocktail|GreymaneGilneanCocktail|Q"
+        ]
+      },
+      {
+        "linkId": "GreymaneWizenedDuelist|GreymaneWizenedDuelistTalent|Trait|Level7",
+        "talentId": "GreymaneWizenedDuelist",
+        "buttonId": "GreymaneWizenedDuelistTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_greymane_curseoftheworgen_var1.png",
+        "abilityType": "Trait",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|GreymaneWorgenForm|Trait"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "GreymaneHeroicAbilityGoForTheThroat|GreymaneGoForTheThroat|Heroic|Level10",
+        "talentId": "GreymaneHeroicAbilityGoForTheThroat",
+        "buttonId": "GreymaneGoForTheThroat",
+        "abilityId": "GreymaneGoForTheThroat",
+        "icon": "storm_ui_icon_greymane_goforthethroat.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "GreymaneHeroicAbilityCursedBullet|GreymaneCursedBullet|Heroic|Level10",
+        "talentId": "GreymaneHeroicAbilityCursedBullet",
+        "buttonId": "GreymaneCursedBullet",
+        "abilityId": "GreymaneCursedBullet",
+        "icon": "storm_ui_icon_greymane_snapshot.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "GreymaneDarkflightDisengageRunningWild|GreymaneDarkflightRunningWildTalent|E|Level13",
+        "talentId": "GreymaneDarkflightDisengageRunningWild",
+        "buttonId": "GreymaneDarkflightRunningWildTalent",
+        "abilityId": "GreymaneDarkflight",
+        "icon": "storm_ui_icon_greymane_darkflight.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "GreymaneDarkflight|GreymaneDarkflight|E",
+          "GreymaneDisengage|GreymaneDisengage|E"
+        ]
+      },
+      {
+        "linkId": "GreymaneRazorSwipeUnfetteredAssault|GreymaneRazorSwipeUnfetteredAssaultTalent|Q|Level13",
+        "talentId": "GreymaneRazorSwipeUnfetteredAssault",
+        "buttonId": "GreymaneRazorSwipeUnfetteredAssaultTalent",
+        "abilityId": "GreymaneRazorSwipe",
+        "icon": "storm_ui_icon_greymane_swipe.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "GreymaneRazorSwipe|GreymaneRazorSwipe|Q"
+        ]
+      },
+      {
+        "linkId": "GreymaneInnerBeastOnTheProwl|GreymaneInnerBeastOnTheProwlTalent|W|Level13",
+        "talentId": "GreymaneInnerBeastOnTheProwl",
+        "buttonId": "GreymaneInnerBeastOnTheProwlTalent",
+        "abilityId": "GreymaneInnerBeast",
+        "icon": "storm_ui_icon_greymane_beastfocus.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|GreymaneInnerBeastActive|W",
+          "GreymaneInnerBeast|GreymaneInnerBeast|W"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "GreymaneEagerWolf|GreymaneEagerWolf|W|Level16",
+        "talentId": "GreymaneEagerWolf",
+        "buttonId": "GreymaneEagerWolf",
+        "abilityId": "GreymaneInnerBeast",
+        "icon": "storm_ui_icon_greymane_beastfocus.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|GreymaneInnerBeastActive|W",
+          "GreymaneInnerBeast|GreymaneInnerBeast|W"
+        ]
+      },
+      {
+        "linkId": "GreymaneLordofHisPack|GreymaneLordofHisPackTalent|Passive|Level16",
+        "talentId": "GreymaneLordofHisPack",
+        "buttonId": "GreymaneLordofHisPackTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_damage.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2
+      },
+      {
+        "linkId": "GreymaneWorgenFormAlphaKiller|GreymaneAlphaKillerTalent|Trait|Level16",
+        "talentId": "GreymaneWorgenFormAlphaKiller",
+        "buttonId": "GreymaneAlphaKillerTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_greymane_curseoftheworgen_var1.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|GreymaneWorgenForm|Trait"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "GreymaneGoForTheThroatUnleashed|GreymaneUnleashed|Heroic|Level20",
+        "talentId": "GreymaneGoForTheThroatUnleashed",
+        "buttonId": "GreymaneUnleashed",
+        "abilityId": "GreymaneGoForTheThroat",
+        "icon": "storm_ui_icon_greymane_goforthethroat.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "GreymaneGoForTheThroat|GreymaneGoForTheThroat|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "GreymaneHeroicAbilityGoForTheThroat"
+        ]
+      },
+      {
+        "linkId": "GreymaneCursedBulletGilneanRoulette|GreymaneCursedBulletGilneanRouletteTalent|Heroic|Level20",
+        "talentId": "GreymaneCursedBulletGilneanRoulette",
+        "buttonId": "GreymaneCursedBulletGilneanRouletteTalent",
+        "abilityId": "GreymaneCursedBullet",
+        "icon": "storm_ui_icon_greymane_snapshot.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "GreymaneCursedBullet|GreymaneCursedBullet|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "GreymaneHeroicAbilityCursedBullet"
+        ]
+      },
+      {
+        "linkId": "GreymaneHuntersBlunderbuss|GreymaneHuntersBlunderbussTalent|Trait|Level20",
+        "talentId": "GreymaneHuntersBlunderbuss",
+        "buttonId": "GreymaneHuntersBlunderbussTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_greymane_curseoftheworgen.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|GreymaneWorgenForm|Trait"
+        ]
+      },
+      {
+        "linkId": "GreymaneToothAndClaw|GreymaneToothAndClawTalent|Trait|Level20",
+        "talentId": "GreymaneToothAndClaw",
+        "buttonId": "GreymaneToothAndClawTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_greymane_curseoftheworgen_var1.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|GreymaneWorgenForm|Trait"
+        ]
+      }
+    ]
+  },
+  "sheets": {
+    "abilities": {
+      "sheet": "sheets/Greymane/abilities.webp",
+      "icons": {
+        "storm_ui_icon_greymane_qattack.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_greymane_beastfocus.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_greymane_darkflight.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_greymane_goforthethroat.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_greymane_snapshot.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_greymane_curseoftheworgen.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          191,
+          390,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          0,
+          390,
+          111,
+          71
+        ],
+        "storm_ui_icon_greymane_worgen_beastfocus.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_greymane_swipe.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_greymane_disengage.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          113,
+          390,
+          76,
+          48
+        ]
+      }
+    },
+    "talents": {
+      "sheet": "sheets/Greymane/talents.webp",
+      "icons": {
+        "storm_ui_icon_greymane_beastfocus.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_greymane_qattack.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_greymane_beastfocus_var1.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_greymane_darkflight.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_greymane_disengage.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_greymane_curseoftheworgen.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_greymane_curseoftheworgen_var1.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_greymane_goforthethroat.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_greymane_snapshot.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_greymane_swipe.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_damage.png": [
+          130,
+          390,
+          128,
+          128
+        ]
+      }
+    },
+    "hero": {
+      "sheet": "sheets/Greymane/hero.webp",
+      "icons": {
+        "storm_ui_icon_greymane_qattack.png": [
+          130,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_greymane_beastfocus.png": [
+          312,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_greymane_darkflight.png": [
+          260,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_greymane_goforthethroat.png": [
+          0,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_greymane_snapshot.png": [
+          260,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_greymane_curseoftheworgen.png": [
+          130,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          388,
+          604,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          354,
+          474,
+          111,
+          71
+        ],
+        "storm_ui_icon_greymane_worgen_beastfocus.png": [
+          0,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_greymane_swipe.png": [
+          390,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_greymane_disengage.png": [
+          390,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          310,
+          604,
+          76,
+          48
+        ],
+        "storm_ui_icon_greymane_beastfocus_var1.png": [
+          182,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_greymane_curseoftheworgen_var1.png": [
+          0,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_damage.png": [
+          130,
+          474,
+          128,
+          128
+        ]
+      },
+      "portraits": {
+        "draftScreen": [
+          0,
+          0,
+          180,
+          212
+        ],
+        "minimap": [
+          466,
+          604,
+          32,
+          32
+        ],
+        "partyPanel": [
+          130,
+          604,
+          178,
+          56
+        ],
+        "target": [
+          260,
+          474,
+          92,
+          93
+        ],
+        "targetInfo": [
+          0,
+          604,
+          128,
+          56
+        ]
+      }
+    }
+  }
+}

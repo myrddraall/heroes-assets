@@ -1,0 +1,869 @@
+{
+  "id": "Cho",
+  "unitId": "HeroCho",
+  "hyperlinkId": "Chogall",
+  "attributeId": "CCho",
+  "franchise": "Warcraft",
+  "rarity": "Legendary",
+  "releaseDate": "2015-11-17",
+  "isMelee": true,
+  "gender": "Male",
+  "radius": 1.1875,
+  "innerRadius": 0.9375,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "ChoGallRunHorseCommon",
+  "ratings": {
+    "complexity": 7,
+    "damage": 6,
+    "survivability": 10,
+    "utility": 2
+  },
+  "life": {
+    "amount": 2950,
+    "scale": 0.045,
+    "regenRate": 6.1445,
+    "regenScale": 0.045
+  },
+  "playstyles": [
+    "BodyBlocker",
+    "Escaper",
+    "Ganker",
+    "MercKiller",
+    "Overconfident",
+    "RoleTank",
+    "SoloLaner"
+  ],
+  "weapons": [
+    {
+      "nameId": "ChoShortRangeHeroWeapon",
+      "isDisabled": false,
+      "range": 1,
+      "minimumRange": 0,
+      "period": 1.1,
+      "damage": 130,
+      "damageScale": 0.045
+    },
+    {
+      "nameId": "ChoHeroWeapon",
+      "isDisabled": false,
+      "range": 2,
+      "minimumRange": 1,
+      "period": 1.1,
+      "damage": 130,
+      "damageScale": 0.045
+    },
+    {
+      "nameId": "ChoLongRangeHeroWeaponCthunsGift",
+      "isDisabled": true,
+      "range": 5,
+      "minimumRange": 2,
+      "period": 1.1,
+      "damage": 130,
+      "damageScale": 0.045
+    }
+  ],
+  "skinIds": [
+    "ChoAltered20",
+    "ChoCorruptor",
+    "ChoPumpkin",
+    "ChoUltimate"
+  ],
+  "variationSkinIds": [
+    "ChoBaseVar1",
+    "ChoBaseVar2",
+    "ChoBaseVar3"
+  ],
+  "voiceLineIds": [
+    "ChoBase_VoiceLine01",
+    "ChoBase_VoiceLine02",
+    "ChoBase_VoiceLine03",
+    "ChoBase_VoiceLine04",
+    "ChoBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "ChoGallRun",
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "ChoSurgingFistCast|ChoSurgingFist|Q",
+        "abilityId": "ChoSurgingFistCast",
+        "buttonId": "ChoSurgingFist",
+        "icon": "storm_ui_icon_cho_moltensurge_a.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "ChoConsumingBlaze|ChoConsumingBlaze|W",
+        "abilityId": "ChoConsumingBlaze",
+        "buttonId": "ChoConsumingBlaze",
+        "icon": "storm_ui_icon_cho_consumingflame.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "ChoRuneBomb|ChoRuneBomb|E",
+        "abilityId": "ChoRuneBomb",
+        "buttonId": "ChoRuneBomb",
+        "icon": "storm_ui_icon_cho_runebomb.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "ChoUpheaval|ChoUpheaval|Heroic",
+        "abilityId": "ChoUpheaval",
+        "buttonId": "ChoUpheaval",
+        "icon": "storm_ui_icon_cho_upheaval.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "ChoHammerOfTwilight|ChoHammerOfTwilight|Heroic",
+        "abilityId": "ChoHammerOfTwilight",
+        "buttonId": "ChoHammerOfTwilight",
+        "icon": "storm_ui_icon_cho_hammeroftwilight.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": "ChoOgreHide|ChoOgreHideActivated|Trait",
+        "abilityId": "ChoOgreHide",
+        "buttonId": "ChoOgreHideActivated",
+        "icon": "storm_ui_icon_cho_ogrehide.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|HearthstoneNoMana|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "HearthstoneNoMana",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "ChoSurgingFistCast|ChoSurgingFist|Q": {
+      "Basic": [
+        {
+          "linkId": "ChoSurgingFistTrigger|ChoSurgingFistTriggerButton|Q",
+          "abilityId": "ChoSurgingFistTrigger",
+          "buttonId": "ChoSurgingFistTriggerButton",
+          "icon": "storm_ui_icon_cho_moltensurge_b.png",
+          "abilityType": "Q"
+        }
+      ]
+    },
+    "ChoOgreHide|ChoOgreHideActivated|Trait": {
+      "Trait": [
+        {
+          "linkId": ":PASSIVE:|ChoOgreHidePassive|Trait",
+          "abilityId": ":PASSIVE:",
+          "buttonId": "ChoOgreHidePassive",
+          "icon": "storm_ui_icon_cho_ogrehide.png",
+          "abilityType": "Trait"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "ChoTalentMoltenBlock|ChoTalentMoltenBlock|Active|Level13": {
+      "Activable": [
+        {
+          "linkId": "ChoTalentMoltenBlock|ChoTalentMoltenBlock|Active",
+          "abilityId": "ChoTalentMoltenBlock",
+          "buttonId": "ChoTalentMoltenBlock",
+          "icon": "storm_ui_icon_cho_moltenblock.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Active"
+        },
+        {
+          "linkId": "ChoTalentMoltenBlock|ChoTalentMoltenBlockCancel|Active",
+          "abilityId": "ChoTalentMoltenBlock",
+          "buttonId": "ChoTalentMoltenBlockCancel",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "ChoTwilightVeil|ChoTwilightVeilTalent|Active|Level13": {
+      "Activable": [
+        {
+          "linkId": "ChoTwilightVeil|ChoTwilightVeilTalent|Active",
+          "abilityId": "ChoTwilightVeil",
+          "buttonId": "ChoTwilightVeilTalent",
+          "icon": "storm_ui_icon_talent_hardenedshield.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "ChoConsumingFire|ChoConsumingFire|W|Level1",
+        "talentId": "ChoConsumingFire",
+        "buttonId": "ChoConsumingFire",
+        "abilityId": "ChoConsumingBlaze",
+        "icon": "storm_ui_icon_cho_consumingflame.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ChoConsumingBlaze|ChoConsumingBlaze|W"
+        ]
+      },
+      {
+        "linkId": "ChoCallousedHide|ChoCallousedHide|Trait|Level1",
+        "talentId": "ChoCallousedHide",
+        "buttonId": "ChoCallousedHide",
+        "abilityId": "ChoOgreHide",
+        "icon": "storm_ui_icon_cho_ogrehide.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|ChoOgreHidePassive|Trait",
+          "ChoOgreHide|ChoOgreHideActivated|Trait"
+        ]
+      },
+      {
+        "linkId": "ChoTheWillofCho|ChoTheWillofCho|Trait|Level1",
+        "talentId": "ChoTheWillofCho",
+        "buttonId": "ChoTheWillofCho",
+        "abilityId": "ChoOgreHide",
+        "icon": "storm_ui_icon_cho_ogrehide_var1.png",
+        "abilityType": "Trait",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|ChoOgreHidePassive|Trait",
+          "ChoOgreHide|ChoOgreHideActivated|Trait"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "ChoUppercut|ChoUppercut|Q|Level4",
+        "talentId": "ChoUppercut",
+        "buttonId": "ChoUppercut",
+        "abilityId": "ChoSurgingFistCast",
+        "icon": "storm_ui_icon_cho_moltensurge_a.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ChoSurgingFistCast|ChoSurgingFist|Q",
+          "ChoSurgingFistTrigger|ChoSurgingFistTriggerButton|Q"
+        ]
+      },
+      {
+        "linkId": "ChoRollback|ChoRollbackTalent|E|Level4",
+        "talentId": "ChoRollback",
+        "buttonId": "ChoRollbackTalent",
+        "abilityId": "ChoRuneBomb",
+        "icon": "storm_ui_icon_cho_runebomb.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ChoRuneBomb|ChoRuneBomb|E"
+        ]
+      },
+      {
+        "linkId": "ChoSearedFlesh|ChoSearedFleshTalent|Passive|Level4",
+        "talentId": "ChoSearedFlesh",
+        "buttonId": "ChoSearedFleshTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_damage.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "ChoPowerSurge|ChoPowerSurgeTalent|Q|Level7",
+        "talentId": "ChoPowerSurge",
+        "buttonId": "ChoPowerSurgeTalent",
+        "abilityId": "ChoSurgingFistCast",
+        "icon": "storm_ui_icon_cho_moltensurge_a.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ChoSurgingFistCast|ChoSurgingFist|Q",
+          "ChoSurgingFistTrigger|ChoSurgingFistTriggerButton|Q"
+        ]
+      },
+      {
+        "linkId": "ChoFirestarter|ChoFirestarter|W|Level7",
+        "talentId": "ChoFirestarter",
+        "buttonId": "ChoFirestarter",
+        "abilityId": "ChoConsumingBlaze",
+        "icon": "storm_ui_icon_cho_consumingflame.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ChoConsumingBlaze|ChoConsumingBlaze|W"
+        ]
+      },
+      {
+        "linkId": "ChoEnragedRegeneration|ChoEnragedRegeneration|Trait|Level7",
+        "talentId": "ChoEnragedRegeneration",
+        "buttonId": "ChoEnragedRegeneration",
+        "abilityId": "ChoOgreHide",
+        "icon": "storm_ui_icon_cho_ogrehide.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|ChoOgreHidePassive|Trait",
+          "ChoOgreHide|ChoOgreHideActivated|Trait"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "ChoHeroicAbilityHammerOfTwilight|ChoHammerOfTwilight|Heroic|Level10",
+        "talentId": "ChoHeroicAbilityHammerOfTwilight",
+        "buttonId": "ChoHammerOfTwilight",
+        "abilityId": "ChoHammerOfTwilight",
+        "icon": "storm_ui_icon_cho_hammeroftwilight.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "ChoHeroicAbilityUpheaval|ChoUpheaval|Heroic|Level10",
+        "talentId": "ChoHeroicAbilityUpheaval",
+        "buttonId": "ChoUpheaval",
+        "abilityId": "ChoUpheaval",
+        "icon": "storm_ui_icon_cho_upheaval.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "ChoSurgingDash|ChoSurgingDashTalent|Q|Level13",
+        "talentId": "ChoSurgingDash",
+        "buttonId": "ChoSurgingDashTalent",
+        "abilityId": "ChoSurgingFistCast",
+        "icon": "storm_ui_icon_cho_moltensurge_a.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ChoSurgingFistCast|ChoSurgingFist|Q",
+          "ChoSurgingFistTrigger|ChoSurgingFistTriggerButton|Q"
+        ]
+      },
+      {
+        "linkId": "ChoTwilightVeil|ChoTwilightVeilTalent|Active|Level13",
+        "talentId": "ChoTwilightVeil",
+        "buttonId": "ChoTwilightVeilTalent",
+        "abilityId": "ChoTwilightVeil",
+        "icon": "storm_ui_icon_talent_hardenedshield.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2
+      },
+      {
+        "linkId": "ChoTalentMoltenBlock|ChoTalentMoltenBlock|Active|Level13",
+        "talentId": "ChoTalentMoltenBlock",
+        "buttonId": "ChoTalentMoltenBlock",
+        "abilityId": "ChoTalentMoltenBlock",
+        "icon": "storm_ui_icon_cho_moltenblock.png",
+        "toggleCooldown": 0.5,
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "ChoFrenziedFists|ChoFrenziedFistsTalent|Q|Level16",
+        "talentId": "ChoFrenziedFists",
+        "buttonId": "ChoFrenziedFistsTalent",
+        "abilityId": "ChoSurgingFistCast",
+        "icon": "storm_ui_icon_cho_moltensurge_a.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ChoSurgingFistCast|ChoSurgingFist|Q",
+          "ChoSurgingFistTrigger|ChoSurgingFistTriggerButton|Q"
+        ]
+      },
+      {
+        "linkId": "ChoRunicFeedback|ChoRunicFeedbackTalent|E|Level16",
+        "talentId": "ChoRunicFeedback",
+        "buttonId": "ChoRunicFeedbackTalent",
+        "abilityId": "ChoRuneBomb",
+        "icon": "storm_ui_icon_cho_runebomb.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ChoRuneBomb|ChoRuneBomb|E"
+        ]
+      },
+      {
+        "linkId": "ChoRunedGauntlet|ChoRunedGauntletTalent|Passive|Level16",
+        "talentId": "ChoRunedGauntlet",
+        "buttonId": "ChoRunedGauntletTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_cooldown.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "ChoCthunsGift|ChoCthunsGiftTalent|Heroic|Level20",
+        "talentId": "ChoCthunsGift",
+        "buttonId": "ChoCthunsGiftTalent",
+        "abilityId": "ChoHammerOfTwilight",
+        "icon": "storm_ui_icon_cho_hammeroftwilight.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ChoHammerOfTwilight|ChoHammerOfTwilight|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "ChoHeroicAbilityHammerOfTwilight"
+        ]
+      },
+      {
+        "linkId": "ChoFavorOfTheOldGods|ChoFavorOfTheOldGodsTalent|Heroic|Level20",
+        "talentId": "ChoFavorOfTheOldGods",
+        "buttonId": "ChoFavorOfTheOldGodsTalent",
+        "abilityId": "ChoUpheaval",
+        "icon": "storm_ui_icon_cho_upheaval.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ChoUpheaval|ChoUpheaval|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "ChoHeroicAbilityUpheaval"
+        ]
+      },
+      {
+        "linkId": "ChoFuelForTheFlame|ChoFuelForTheFlameTalent|Passive|Level20",
+        "talentId": "ChoFuelForTheFlame",
+        "buttonId": "ChoFuelForTheFlameTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_aoe.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|ChoOgreHidePassive|Trait",
+          "ChoOgreHide|ChoOgreHideActivated|Trait"
+        ]
+      },
+      {
+        "linkId": "ChoHourofTwilight|ChoHourofTwilight|Passive|Level20",
+        "talentId": "ChoHourofTwilight",
+        "buttonId": "ChoHourofTwilight",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_gall_psychoticbreak.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      }
+    ]
+  },
+  "sheets": {
+    "abilities": {
+      "sheet": "sheets/Cho/abilities.webp",
+      "icons": {
+        "storm_ui_icon_cho_moltensurge_a.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_cho_consumingflame.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_cho_runebomb.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_cho_upheaval.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_cho_hammeroftwilight.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_cho_ogrehide.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          290,
+          390,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          99,
+          390,
+          111,
+          71
+        ],
+        "storm_ui_icon_cho_moltensurge_b.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          212,
+          390,
+          76,
+          48
+        ],
+        "storm_ui_icon_cho_moltenblock.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "hud_btn_bg_ability_cancel.png": [
+          0,
+          390,
+          97,
+          111
+        ],
+        "storm_ui_icon_talent_hardenedshield.png": [
+          260,
+          260,
+          128,
+          128
+        ]
+      }
+    },
+    "talents": {
+      "sheet": "sheets/Cho/talents.webp",
+      "icons": {
+        "storm_ui_icon_cho_consumingflame.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_cho_ogrehide.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_cho_ogrehide_var1.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_cho_moltensurge_a.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_cho_runebomb.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_damage.png": [
+          260,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_cho_hammeroftwilight.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_cho_upheaval.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_hardenedshield.png": [
+          0,
+          520,
+          128,
+          128
+        ],
+        "storm_ui_icon_cho_moltenblock.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_cooldown.png": [
+          130,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_aoe.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_gall_psychoticbreak.png": [
+          260,
+          260,
+          128,
+          128
+        ]
+      }
+    },
+    "hero": {
+      "sheet": "sheets/Cho/hero.webp",
+      "icons": {
+        "storm_ui_icon_cho_moltensurge_a.png": [
+          0,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_cho_consumingflame.png": [
+          182,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_cho_runebomb.png": [
+          0,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_cho_upheaval.png": [
+          130,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_cho_hammeroftwilight.png": [
+          312,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_cho_ogrehide.png": [
+          390,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          78,
+          699,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          94,
+          604,
+          111,
+          71
+        ],
+        "storm_ui_icon_cho_moltensurge_b.png": [
+          130,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          0,
+          699,
+          76,
+          48
+        ],
+        "storm_ui_icon_cho_moltenblock.png": [
+          442,
+          0,
+          128,
+          128
+        ],
+        "hud_btn_bg_ability_cancel.png": [
+          390,
+          474,
+          97,
+          111
+        ],
+        "storm_ui_icon_talent_hardenedshield.png": [
+          260,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_cho_ogrehide_var1.png": [
+          260,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_damage.png": [
+          130,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_cooldown.png": [
+          0,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_aoe.png": [
+          390,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_gall_psychoticbreak.png": [
+          260,
+          344,
+          128,
+          128
+        ]
+      },
+      "portraits": {
+        "draftScreen": [
+          0,
+          0,
+          180,
+          212
+        ],
+        "minimap": [
+          156,
+          699,
+          32,
+          32
+        ],
+        "partyPanel": [
+          337,
+          604,
+          178,
+          56
+        ],
+        "target": [
+          0,
+          604,
+          92,
+          93
+        ],
+        "targetInfo": [
+          207,
+          604,
+          128,
+          56
+        ]
+      }
+    }
+  }
+}

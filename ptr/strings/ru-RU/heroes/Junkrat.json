@@ -1,0 +1,220 @@
+{
+  "abilities": {
+    "JunkratFragLauncher|JunkratFragLauncher|Q": {
+      "cooldownText": "Время восстановления заряда: 12 сек.",
+      "fullText": "Выпускает гранату, которая взрывается, прекратив движение или попав во врага. Взрыв наносит <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">124</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона противникам поблизости (на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> меньше строениям). Гранаты могут отскакивать от поверхностей.<n/><n/>Максимум зарядов – <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>. Во время восстановления гранатомет полностью перезаряжается.",
+      "name": "Гранатомет",
+      "shortText": "Выпускает гранаты, которые отскакивают от поверхностей."
+    },
+    "JunkratConcussionMine|JunkratConcussionMine|W": {
+      "cooldownText": "Время восстановления: 16 сек.",
+      "fullText": "Бросает мину на поле боя. При использовании умения мина взрывается, нанося <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">180</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона и отбрасывая противников. Крысавчик может перемещаться с помощью мины, не получая урона.<n/><n/>Одновременно можно установить только <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> мину.",
+      "name": "Фугасная мина",
+      "shortText": "Размещает мину с ручным детонатором."
+    },
+    "JunkratSteelTrap|JunkratSteelTrap|E": {
+      "cooldownText": "Время восстановления: 15 сек.",
+      "fullText": "Размещает капкан, который взводится через <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> сек., наносит первому попавшему в него противнику <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">130</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона и обездвиживает того на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> сек.<n/><n/>Одновременно можно установить только <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> капкан.",
+      "name": "Капкан",
+      "shortText": "Устанавливает капкан, который обездвиживает противников."
+    },
+    "JunkratRIPTire|JunkratRIPTire|Heroic": {
+      "cooldownText": "Время восстановления: 75 сек.",
+      "fullText": "Запускает начиненное взрывчаткой управляемое колесо прочностью <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">530</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед., которое перемещается по полю боя в течение <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> сек. Пока Крысавчик управляет колесом, он не может двигаться. <n/><n/>При повторном использовании «Адская шина» мгновенно взрывается, отбрасывая находящихся рядом противников и нанося <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">720</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона противникам в центре взрыва. Урон постепенно уменьшается до <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">445</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. во внешней области поражения.",
+      "name": "Адская шина",
+      "shortText": "Запускает начиненное взрывчаткой колесо."
+    },
+    "JunkratRocketRide|JunkratRocketRide|Heroic": {
+      "cooldownText": "Время восстановления: 75 сек.",
+      "fullText": "После паузы в <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.25</c> сек. Крысавчик взлетает в воздух верхом на ракете. Пока ракета находится в воздухе, можно передвигать точку приземления.<n/><n/>Крысавчик приземляется через <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3.75</c> сек., нанося <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">935</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона находящимся рядом противникам и активируя «Полный хаос». Спустя <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> сек. Крысавчик появляется в Зале Штормов и получает бонус к скорости передвижения в <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150%</c>, пока не покинет транспорт.",
+      "name": "Крысонавт",
+      "shortText": "Взлетает в воздух и наносит урон в области приземления."
+    },
+    ":PASSIVE:|JunkratTotalMayhem|Trait": {
+      "fullText": "Погибая, Крысавчик роняет связку из <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> гранат, которые взрываются через <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.75</c> сек. Каждая граната наносит <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">250</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона находящимся рядом противникам. Строения получают на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75%</c> меньше урона.<n/><n/><s val=\"cbe8ff-ffffff\" hlt-name=\"StandardTooltipHeader\">Детонация</s><n/><n/>Взрывает размещенную ранее фугасную мину.",
+      "name": "Полный хаос",
+      "shortText": "Погибая, Крысавчик роняет гранаты."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Время восстановления: 4 сек.",
+      "fullText": "После подготовки длительностью <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> сек. повышает скорость передвижения на <s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Вызов транспорта"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "После поддержания в течение <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> сек. телепортирует героя в Зал Штормов, моментально восполняя <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c> ед. здоровья и <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c> ед. маны.",
+      "name": "Возвращение"
+    },
+    "JunkratDetonateMine|JunkratDetonateMine|Trait": {
+      "fullText": "Взрывает оставленную ранее мину, которая наносит <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">180</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона противникам поблизости и отбрасывает их. Мина может отбросить Крысавчика, но при этом он не получает урон.",
+      "name": "Детонация",
+      "shortText": "Взрывает «Фугасную мину»."
+    },
+    "JunkratRIPTireJump|JunkratRIPTireJump|Q": {
+      "cooldownText": "Время восстановления: 2 сек.",
+      "fullText": "При использовании «Адская шина» перепрыгивает строения и другие препятствия.",
+      "name": "Др-рынь!",
+      "shortText": "Др-рынь!"
+    },
+    "JunkratDetonateRIPTire|JunkratDetonateRIPTire|Heroic": {
+      "fullText": "Мгновенно взрывает «Адскую шину», отбрасывая находящихся рядом противников и нанося <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">720</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона противникам в центре взрыва. Урон постепенно уменьшается до <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">445</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. во внешней области поражения.",
+      "name": "Взрыв «Адской шины»",
+      "shortText": "Мгновенно взрывает «Адскую шину»."
+    },
+    "JunkratRocketRideDismount|JunkratRocketRideUnsummonMount|Z": {
+      "fullText": "Покинуть транспорт.",
+      "name": "Отмена транспорта"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Покинуть транспорт.",
+      "name": "Отмена транспорта"
+    },
+    "JunkratTotalMayhemDirtyTrickster|JunkratDirtyTrickster|Trait": {
+      "cooldownText": "Время восстановления: 20 сек.",
+      "fullText": "Увеличивает радиус взрыва от «Полного хаоса» на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c>. Если у Крысавчика осталось менее <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> здоровья, то при обездвиживании, оглушении или получении урона от героя он применяет «Полный хаос», бросая себе под ноги и взрывая <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> <lang rule=\"plural\" val=\"\">гранату,гранаты,гранат</lang>.  <n/><n/>Время восстановления – <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c> сек.",
+      "name": "Грязный мошенник",
+      "shortText": "«Полный хаос» срабатывает чаще."
+    },
+    "JunkratSpreadVolley|JunkratSpreadVolleyActive|Active": {
+      "cooldownText": "Время восстановления: 30 сек.",
+      "fullText": "При использовании Крысавчик дополнительно выпускает <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> гранаты вразброс с каждым выстрелом из «Гранатомета». Эффект действует, пока не закончатся заряды «Гранатомета». Максимум – <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> залпа.",
+      "name": "Врассыпную!"
+    },
+    "JunkratIHateWaitingSummonMount|JunkratRocketRideSummonMount|Z": {
+      "cooldownText": "Время восстановления: 8 сек.",
+      "fullText": "После поддержания в течение <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> сек. повышает скорость передвижения на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150%</c>.",
+      "name": "Вызов транспорта"
+    }
+  },
+  "talents": {
+    "JunkratFragLauncherTrickyShuffles|JunkratTrickyShufflesFragLauncherTalent|Q|Level1": {
+      "fullText": "Повышает скорость передвижения на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c> и увеличивает урон от автоатак на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c> во время перезарядки гранатомета.",
+      "name": "Ногу в руку!",
+      "shortText": "Ускоряет передвижение на время перезарядки гранатомета."
+    },
+    "JunkratFragLauncherExtraWoundTimers|JunkratExtraWoundTimersFragLauncherTalent|Q|Level1": {
+      "fullText": "Последний снаряд «Гранатомета» наносит на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> больше урона, а гранаты автоматически взрываются на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> сек. позже.",
+      "name": "Заводной таймер",
+      "shortText": "Гранаты наносят дополнительный урон."
+    },
+    "JunkratConcussionMineBlowEmUp|JunkratBlowEmUpConcussionMineTalent|Passive|Level1": {
+      "fullText": "Когда «Фугасная мина» или «Капкан» поражает героя, автоатаки и базовые способности Крысавчика наносят на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> больше урона в течение <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> сек.",
+      "name": "Подорвать!",
+      "shortText": "Увеличивает урон после «Фугасной мины» и «Капкана»."
+    },
+    "JunkratFragLauncherTasteForExplosions|JunkratTasteForExplosionsFragLauncherTalent|Q|Level4": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Задача:</c> каждое попадание по герою «Гранатометом» увеличивает его урон на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.2%</c>, вплоть до <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c>.",
+      "name": "Любовь к взрывчатке",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Задача:</c> увеличьте урон от «Гранатомета»."
+    },
+    "JunkratConcussionMineBOOMPOW|JunkratBOOMPOWConcussionMineTalent|W|Level4": {
+      "fullText": "Каждое попадание по герою «Фугасной миной» сокращает время ее восстановления на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> сек.",
+      "name": "БДЫЩ!",
+      "shortText": "Попадания по героям ускоряют восстановление «Фугасной мины»."
+    },
+    "JunkratSteelTrapChatteringTeeth|JunkratChatteringTeethSteelTrapTalent|E|Level4": {
+      "fullText": "Капкан медленно движется к герою противника, если тот оказывается поблизости.",
+      "name": "Заводная челюсть",
+      "shortText": "Капкан преследует героев."
+    },
+    "JunkratConcussionMineBoggedDown|JunkratBoggedDownConcussionMineTalent|W|Level7": {
+      "fullText": "«Фугасная мина» замедляет пораженных противников на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c> сек. после их приземления.",
+      "name": "Контузия",
+      "shortText": "«Фугасная мина» замедляет противников."
+    },
+    "JunkratSteelTrapStickyWicket|JunkratStickyWicketSteelTrapTalent|E|Level7": {
+      "fullText": "Поражает попавших в капкан героев немотой на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> сек.",
+      "name": "Кто-то влип!",
+      "shortText": "Капкан поражает героев немотой."
+    },
+    "JunkratTotalMayhemDirtyTricksterTalent|JunkratDirtyTrickster|Trait|Level7": {
+      "fullText": "Увеличивает радиус взрыва от «Полного хаоса» на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c>. Если у Крысавчика осталось менее <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> здоровья, то при обездвиживании, оглушении или получении урона от героя он применяет «Полный хаос», бросая себе под ноги и взрывая <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> <lang rule=\"plural\" val=\"\">гранату,гранаты,гранат</lang>.  <n/><n/>Время восстановления – <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c> сек.",
+      "name": "Грязный мошенник",
+      "shortText": "«Полный хаос» срабатывает чаще."
+    },
+    "JunkratRIPTire|JunkratRIPTire|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 75 сек.",
+      "fullText": "Запускает начиненное взрывчаткой управляемое колесо прочностью <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">530</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед., которое перемещается по полю боя в течение <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> сек. Пока Крысавчик управляет колесом, он не может двигаться. <n/><n/>При повторном использовании «Адская шина» мгновенно взрывается, отбрасывая находящихся рядом противников и нанося <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">720</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона противникам в центре взрыва. Урон постепенно уменьшается до <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">445</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. во внешней области поражения.",
+      "name": "Адская шина",
+      "shortText": "Запускает начиненное взрывчаткой колесо."
+    },
+    "JunkratRocketRide|JunkratRocketRide|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 75 сек.",
+      "fullText": "После паузы в <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.25</c> сек. Крысавчик взлетает в воздух верхом на ракете. Пока ракета находится в воздухе, можно передвигать точку приземления.<n/><n/>Крысавчик приземляется через <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3.75</c> сек., нанося <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">935</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона находящимся рядом противникам и активируя «Полный хаос». Спустя <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> сек. Крысавчик появляется в Зале Штормов и получает бонус к скорости передвижения в <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150%</c>, пока не покинет транспорт.",
+      "name": "Крысонавт",
+      "shortText": "Взлетает в воздух и наносит урон в области приземления."
+    },
+    "JunkratFragLauncherBombsAwayTalent|JunkratBombsAwayFragLauncherTalent|Q|Level13": {
+      "fullText": "Увеличивает дальность автоатак на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> м. Снаряды «Гранатомета», выпущенные в течение <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c> сек. после автоатаки, наносят на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c> больше урона.",
+      "name": "Хорошо пошли!",
+      "shortText": "Увеличивает дальность автоатак и урон от «Гранатомета»."
+    },
+    "JunkratConcussionMineRipperAir|JunkratRipperAirConcussionMineTalent|W|Level13": {
+      "fullText": "Увеличивает дальность полета Крысавчика при взрыве «Фугасной мины» на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>. Если взрыв задевает только самого Крысавчика, сокращает время ее восстановления на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">12</c> сек.",
+      "name": "Разрывая воздух",
+      "shortText": "«Фугасная мина» отбрасывает Крысавчика дальше."
+    },
+    "JunkratSteelTrapGottaTrapEmAll|JunkratGottaTrapEmAllSteelTrapTalent|E|Level13": {
+      "fullText": "Уменьшает время восстановления «Капкана» на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> сек. и увеличивет максимальное количество активных капканов до <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>.",
+      "name": "Ловись рыбка!",
+      "shortText": "Увеличивает максимальное количество капканов."
+    },
+    "JunkratSteelTrapBigAs|JunkratBigAsSteelTrapTalent|E|Level13": {
+      "fullText": "Теперь «Капкан» поражает только героев и уменьшает их броню на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> ед. на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> сек. Увеличивает радиус действия и урон «Капкана» на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>.",
+      "name": "Размер имеет значение",
+      "shortText": "Приоритетными целями «Капкана» являются герои"
+    },
+    "JunkratFragLauncherBurstFire|JunkratBurstFireFragLauncherTalent|Q|Level16": {
+      "fullText": "«Гранатомет» выпускает все заряды очередью. Время восстановления уменьшается на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> сек., а максимальное число зарядов – на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>.",
+      "name": "Очередь",
+      "shortText": "Гранатомет стреляет очередями."
+    },
+    "JunkratFragLauncherEndlessNades|JunkratEndlessNadesFragLauncherTalent|Q|Level16": {
+      "fullText": "Каждое попадание по герою «Гранатометом» сокращает время его восстановления на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> сек.",
+      "name": "Бесконечные гранаты",
+      "shortText": "Попадания по героям ускоряют восстановление «Гранатомета»."
+    },
+    "JunkratFragLauncherSpreadVolley|JunkratSpreadVolleyFragLauncherTalent|Active|Level16": {
+      "cooldownText": "Время восстановления: 30 сек.",
+      "fullText": "При использовании Крысавчик дополнительно выпускает <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> гранаты вразброс с каждым выстрелом из «Гранатомета». Эффект действует, пока не закончатся заряды «Гранатомета». Максимум – <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> залпа.",
+      "name": "Врассыпную!",
+      "shortText": "Выпускает несколько гранат вразброс."
+    },
+    "JunkratRIPTireExtraOomph|JunkratExtraOomphRIPTireTalent|Heroic|Level20": {
+      "fullText": "Увеличивает дальность отбрасывания «Адской шины» на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">80%</c>. Каждое попадание по герою сокращает время восстановления «Адской шины» на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c> сек.",
+      "name": "Особый запал",
+      "shortText": "Ускоряет восстановление и увеличивает дальность отбрасывания «Адской шины»."
+    },
+    "JunkratRocketRidePuckishScamp|JunkratPuckishScampRocketRideTalent|Heroic|Level20": {
+      "fullText": "Дает Крысавчику доступ к «Адской шине». Героические способности чередуются после каждого использования.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Пассивный эффект:</c> время восстановления обеих героических способностей сокращается на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c> сек.",
+      "name": "Шалость удалась!",
+      "shortText": "Дает доступ к «Адской шине»."
+    },
+    "JunkratFragLauncherCannonball|JunkratCannonballFragLauncherTalent|Q|Level20": {
+      "fullText": "Увеличивает радиус действия, а также область поражения «Гранатомета» и автоатак на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>.",
+      "name": "Ядрышко-ом!",
+      "shortText": "Увеличивает область поражения автоатак и «Гранатомета»."
+    },
+    "JunkratIHateWaitingTalent|JunkratIHateWaiting|Z|Level20": {
+      "fullText": "Крысавчик всегда использует собственный транспорт-ракету, которая повышает его скорость передвижения на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150%</c>, но восстанавливается <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c> сек.",
+      "name": "Ненавижу ждать!",
+      "shortText": "Да это же ездовая ракета!"
+    }
+  },
+  "units": {
+    "JunkratConcussionMine": {
+      "description": "Бросает мину на поле боя. При использовании умения мина взрывается, нанося <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">180</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона и отбрасывая противников. Крысавчик может перемещаться с помощью мины, не получая урона.<n/><n/>Одновременно можно установить только <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> мину.",
+      "name": "Фугасная мина"
+    },
+    "JunkratRIPTire": {
+      "description": "Запускает начиненное взрывчаткой управляемое колесо прочностью <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">530</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед., которое перемещается по полю боя в течение <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> сек. Пока Крысавчик управляет колесом, он не может двигаться. <n/><n/>При повторном использовании «Адская шина» мгновенно взрывается, отбрасывая находящихся рядом противников и нанося <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">720</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона противникам в центре взрыва. Урон постепенно уменьшается до <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">445</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. во внешней области поражения.",
+      "name": "Адская шина"
+    },
+    "JunkratRocketRideTrackerUnit": {
+      "name": "Rocket Ride (Tracker Unit)"
+    },
+    "JunkratSteelTrap": {
+      "description": "Размещает капкан, который взводится через <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> сек., наносит первому попавшему в него противнику <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">130</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона и обездвиживает того на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> сек.<n/><n/>Одновременно можно установить только <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> капкан.",
+      "name": "Капкан"
+    }
+  }
+}

@@ -1,0 +1,809 @@
+{
+  "id": "Azmodan",
+  "unitId": "HeroAzmodan",
+  "hyperlinkId": "Azmodan",
+  "attributeId": "Azmo",
+  "franchise": "Diablo",
+  "rarity": "Rare",
+  "releaseDate": "2014-10-14",
+  "isMelee": false,
+  "gender": "Male",
+  "radius": 1.1875,
+  "innerRadius": 0.9375,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "AzmodanFireFeet",
+  "ratings": {
+    "complexity": 5,
+    "damage": 3,
+    "survivability": 7,
+    "utility": 6
+  },
+  "life": {
+    "amount": 2464.2,
+    "scale": 0.04,
+    "regenRate": 5.1328,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "EnergyImportant",
+    "RoleSpecialist",
+    "SoloLaner",
+    "TowerPusher",
+    "WaveClearer"
+  ],
+  "summonedUnitIds": [
+    "AzmodanDemonLieutenant",
+    "AzmodanDemonWarrior",
+    "AzmodanDemonicInvasionDemonGrunt"
+  ],
+  "weapons": [
+    {
+      "nameId": "AzmodanHeroWeapon",
+      "isDisabled": false,
+      "range": 5.5,
+      "minimumRange": 0,
+      "period": 1,
+      "damage": 85,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "AzmodanAzguldan",
+    "AzmodanMadAxe18",
+    "AzmodanSkinAzmodunk",
+    "AzmodanUltimate"
+  ],
+  "variationSkinIds": [
+    "AzmodanBaseVar3",
+    "AzmodanBaseVar4",
+    "AzmodanBlue",
+    "AzmodanGreen"
+  ],
+  "voiceLineIds": [
+    "AzmodanBase_VoiceLine01",
+    "AzmodanBase_VoiceLine02",
+    "AzmodanBase_VoiceLine03",
+    "AzmodanBase_VoiceLine04",
+    "AzmodanBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "AzmodanFireFeet",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "AzmodanGlobeOfAnnihilation|AzmodanGlobeOfAnnihilation|Q",
+        "abilityId": "AzmodanGlobeOfAnnihilation",
+        "buttonId": "AzmodanGlobeOfAnnihilation",
+        "icon": "storm_ui_icon_azmodan_globeofannihilation.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "AzmodanSummonDemonWarrior|AzmodanSummonDemonWarrior|W",
+        "abilityId": "AzmodanSummonDemonWarrior",
+        "buttonId": "AzmodanSummonDemonWarrior",
+        "icon": "storm_ui_icon_azmodan_summondemonwarrior.png",
+        "charges": {
+          "countMax": 2,
+          "countStart": 2,
+          "countUse": 1,
+          "recastCooldown": 0.5,
+          "isCountHidden": false
+        },
+        "abilityType": "W"
+      },
+      {
+        "linkId": "AzmodanAllShallBurn|AzmodanAllShallBurn|E",
+        "abilityId": "AzmodanAllShallBurn",
+        "buttonId": "AzmodanAllShallBurn",
+        "icon": "storm_ui_icon_azmodan_allshallburn.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "AzmodanDemonicInvasion|AzmodanDemonicInvasion|Heroic",
+        "abilityId": "AzmodanDemonicInvasion",
+        "buttonId": "AzmodanDemonicInvasion",
+        "icon": "storm_ui_icon_azmodan_demonicinvasion.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "AzmodanTideOfSin|AzmodanTideOfSin|Heroic",
+        "abilityId": "AzmodanTideOfSin",
+        "buttonId": "AzmodanTideOfSin",
+        "icon": "storm_ui_icon_azmodan_blackpool.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": "AzmodanDemonLieutenant|AzmodanDemonLieutenant|Trait",
+        "abilityId": "AzmodanDemonLieutenant",
+        "buttonId": "AzmodanDemonLieutenant",
+        "icon": "storm_ui_icon_azmodan_generalofhell.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "AzmodanAllShallBurn|AzmodanAllShallBurn|E": {
+      "Basic": [
+        {
+          "linkId": "AzmodanAllShallBurnCancel|AzmodanAllShallBurnCancel|E",
+          "abilityId": "AzmodanAllShallBurnCancel",
+          "buttonId": "AzmodanAllShallBurnCancel",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "abilityType": "E"
+        }
+      ]
+    },
+    "AzmodanTideOfSin|AzmodanTideOfSin|Heroic": {
+      "Heroic": [
+        {
+          "linkId": ":PASSIVE:|AzmodanTideOfSinPassive|Heroic",
+          "abilityId": ":PASSIVE:",
+          "buttonId": "AzmodanTideOfSinPassive",
+          "icon": "storm_ui_icon_azmodan_blackpool.png",
+          "abilityType": "Heroic"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "AzmodanTrample|AzmodanTrample|Active|Level16": {
+      "Activable": [
+        {
+          "linkId": "AzmodanTrample|AzmodanTrample|Active",
+          "abilityId": "AzmodanTrample",
+          "buttonId": "AzmodanTrample",
+          "icon": "storm_ui_icon_azmodan_trample.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "AzmodanGreed|AzmodanGreed|Q|Level1",
+        "talentId": "AzmodanGreed",
+        "buttonId": "AzmodanGreed",
+        "abilityId": "AzmodanGlobeOfAnnihilation",
+        "icon": "storm_ui_icon_azmodan_globeofannihilation.png",
+        "abilityType": "Q",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AzmodanGlobeOfAnnihilation|AzmodanGlobeOfAnnihilation|Q"
+        ]
+      },
+      {
+        "linkId": "AzmodanGluttony|AzmodanGluttony|Q|Level1",
+        "talentId": "AzmodanGluttony",
+        "buttonId": "AzmodanGluttony",
+        "abilityId": "AzmodanGlobeOfAnnihilation",
+        "icon": "storm_ui_icon_azmodan_globeofannihilation_a.png",
+        "abilityType": "Q",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "AzmodanGlobeOfAnnihilation|AzmodanGlobeOfAnnihilation|Q"
+        ]
+      },
+      {
+        "linkId": "AzmodanWrath|AzmodanWrath|Q|Level1",
+        "talentId": "AzmodanWrath",
+        "buttonId": "AzmodanWrath",
+        "abilityId": "AzmodanGlobeOfAnnihilation",
+        "icon": "storm_ui_icon_azmodan_globeofannihilation_b.png",
+        "abilityType": "Q",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "AzmodanGlobeOfAnnihilation|AzmodanGlobeOfAnnihilation|Q"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "AzmodanArmyOfHell|AzmodanArmyOfHell|W|Level4",
+        "talentId": "AzmodanArmyOfHell",
+        "buttonId": "AzmodanArmyOfHell",
+        "abilityId": "AzmodanSummonDemonWarrior",
+        "icon": "storm_ui_icon_azmodan_summondemonwarrior.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AzmodanSummonDemonWarrior|AzmodanSummonDemonWarrior|W"
+        ]
+      },
+      {
+        "linkId": "AzmodanHellforgedArmor|AzmodanSummonDemonWarriorHellforgedArmorTalent|W|Level4",
+        "talentId": "AzmodanHellforgedArmor",
+        "buttonId": "AzmodanSummonDemonWarriorHellforgedArmorTalent",
+        "abilityId": "AzmodanSummonDemonWarrior",
+        "icon": "storm_ui_icon_azmodan_summondemonwarrior_a.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "AzmodanSummonDemonWarrior|AzmodanSummonDemonWarrior|W",
+          "AzmodanDemonLieutenant|AzmodanDemonLieutenant|Trait"
+        ]
+      },
+      {
+        "linkId": "AzmodanBattleborn|AzmodanGlobOfAnnihilationBattlebornTalent|Passive|Level4",
+        "talentId": "AzmodanBattleborn",
+        "buttonId": "AzmodanGlobOfAnnihilationBattlebornTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_cooldown.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "AzmodanSummonDemonWarrior|AzmodanSummonDemonWarrior|W",
+          "AzmodanDemonLieutenant|AzmodanDemonLieutenant|Trait"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "AzmodanArtOfChaos|AzmodanArtOfChaos|Q|Level7",
+        "talentId": "AzmodanArtOfChaos",
+        "buttonId": "AzmodanArtOfChaos",
+        "abilityId": "AzmodanGlobeOfAnnihilation",
+        "icon": "storm_ui_icon_azmodan_globeofannihilation.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AzmodanGlobeOfAnnihilation|AzmodanGlobeOfAnnihilation|Q"
+        ]
+      },
+      {
+        "linkId": "AzmodanBombardment|AzmodanBombardment|Q|Level7",
+        "talentId": "AzmodanBombardment",
+        "buttonId": "AzmodanBombardment",
+        "abilityId": "AzmodanGlobeOfAnnihilation",
+        "icon": "storm_ui_icon_azmodan_globeofannihilation_a.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "AzmodanGlobeOfAnnihilation|AzmodanGlobeOfAnnihilation|Q"
+        ]
+      },
+      {
+        "linkId": "AzmodanMasterofDestruction|AzmodanAllShallBurnMasterOfDestructionTalent|E|Level7",
+        "talentId": "AzmodanMasterofDestruction",
+        "buttonId": "AzmodanAllShallBurnMasterOfDestructionTalent",
+        "abilityId": "AzmodanAllShallBurn",
+        "icon": "storm_ui_icon_azmodan_allshallburn.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "AzmodanAllShallBurn|AzmodanAllShallBurn|E"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "AzmodanHeroicAbilityDemonicInvasion|AzmodanDemonicInvasion|Heroic|Level10",
+        "talentId": "AzmodanHeroicAbilityDemonicInvasion",
+        "buttonId": "AzmodanDemonicInvasion",
+        "abilityId": "AzmodanDemonicInvasion",
+        "icon": "storm_ui_icon_azmodan_demonicinvasion.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "AzmodanTideOfSin|AzmodanTideOfSin|Heroic|Level10",
+        "talentId": "AzmodanTideOfSin",
+        "buttonId": "AzmodanTideOfSin",
+        "abilityId": "AzmodanTideOfSin",
+        "icon": "storm_ui_icon_azmodan_blackpool.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "AzmodanBrutishVanguard|AzmodanBrutishVanguard|W|Level13",
+        "talentId": "AzmodanBrutishVanguard",
+        "buttonId": "AzmodanBrutishVanguard",
+        "abilityId": "AzmodanSummonDemonWarrior",
+        "icon": "storm_ui_icon_azmodan_summondemonwarrior.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AzmodanSummonDemonWarrior|AzmodanSummonDemonWarrior|W"
+        ]
+      },
+      {
+        "linkId": "AzmodanCydaeasKiss|AzmodanCydaeasKiss|E|Level13",
+        "talentId": "AzmodanCydaeasKiss",
+        "buttonId": "AzmodanCydaeasKiss",
+        "abilityId": "AzmodanAllShallBurn",
+        "icon": "storm_ui_icon_azmodan_allshallburn.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "AzmodanAllShallBurn|AzmodanAllShallBurn|E"
+        ]
+      },
+      {
+        "linkId": "AzmodanChainOfCommand|AzmodanChainOfCommand|Trait|Level13",
+        "talentId": "AzmodanChainOfCommand",
+        "buttonId": "AzmodanChainOfCommand",
+        "abilityId": "AzmodanDemonLieutenant",
+        "icon": "storm_ui_icon_azmodan_generalofhell.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "AzmodanDemonLieutenant|AzmodanDemonLieutenant|Trait"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "AzmodanTotalAnnihilation|AzmodanTotalAnnihilation|Q|Level16",
+        "talentId": "AzmodanTotalAnnihilation",
+        "buttonId": "AzmodanTotalAnnihilation",
+        "abilityId": "AzmodanGlobeOfAnnihilation",
+        "icon": "storm_ui_icon_azmodan_globeofannihilation.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AzmodanGlobeOfAnnihilation|AzmodanGlobeOfAnnihilation|Q"
+        ]
+      },
+      {
+        "linkId": "AzmodanHellRift|AzmodanHellRift|E|Level16",
+        "talentId": "AzmodanHellRift",
+        "buttonId": "AzmodanHellRift",
+        "abilityId": "AzmodanAllShallBurn",
+        "icon": "storm_ui_icon_azmodan_allshallburn.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "AzmodanAllShallBurn|AzmodanAllShallBurn|E"
+        ]
+      },
+      {
+        "linkId": "AzmodanTrample|AzmodanTrample|Active|Level16",
+        "talentId": "AzmodanTrample",
+        "buttonId": "AzmodanTrample",
+        "abilityId": "AzmodanTrample",
+        "icon": "storm_ui_icon_azmodan_trample.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "AzmodanSiegebreaker|AzmodanSiegebreaker|Heroic|Level20",
+        "talentId": "AzmodanSiegebreaker",
+        "buttonId": "AzmodanSiegebreaker",
+        "abilityId": "AzmodanDemonicInvasion",
+        "icon": "storm_ui_icon_azmodan_demonicinvasion.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AzmodanDemonicInvasion|AzmodanDemonicInvasion|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "AzmodanHeroicAbilityDemonicInvasion"
+        ]
+      },
+      {
+        "linkId": "AzmodanBlackPool|AzmodanTideOfSinBlackPoolTalent|Heroic|Level20",
+        "talentId": "AzmodanBlackPool",
+        "buttonId": "AzmodanTideOfSinBlackPoolTalent",
+        "abilityId": "AzmodanTideOfSin",
+        "icon": "storm_ui_icon_azmodan_blackpool.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|AzmodanTideOfSinPassive|Heroic",
+          "AzmodanTideOfSin|AzmodanTideOfSin|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "AzmodanTideOfSin"
+        ]
+      },
+      {
+        "linkId": "InescapableAnnihilation|InescapableAnnihilation|Q|Level20",
+        "talentId": "InescapableAnnihilation",
+        "buttonId": "InescapableAnnihilation",
+        "abilityId": "AzmodanGlobeOfAnnihilation",
+        "icon": "storm_ui_icon_azmodan_globeofannihilation.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "AzmodanGlobeOfAnnihilation|AzmodanGlobeOfAnnihilation|Q"
+        ]
+      },
+      {
+        "linkId": "AzmodanSinsGrasp|AzmodanSinsGraspHotbar|E|Level20",
+        "talentId": "AzmodanSinsGrasp",
+        "buttonId": "AzmodanSinsGraspHotbar",
+        "abilityId": "AzmodanAllShallBurn",
+        "icon": "storm_ui_icon_azmodan_allshallburn.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          "AzmodanAllShallBurn|AzmodanAllShallBurn|E"
+        ]
+      }
+    ]
+  },
+  "sheets": {
+    "abilities": {
+      "sheet": "sheets/Azmodan/abilities.webp",
+      "icons": {
+        "storm_ui_icon_azmodan_globeofannihilation.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_azmodan_summondemonwarrior.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_azmodan_allshallburn.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_azmodan_demonicinvasion.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_azmodan_blackpool.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_azmodan_generalofhell.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          78,
+          520,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          229,
+          390,
+          111,
+          71
+        ],
+        "hud_btn_bg_ability_cancel.png": [
+          130,
+          390,
+          97,
+          111
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          0,
+          520,
+          76,
+          48
+        ],
+        "storm_ui_icon_azmodan_trample.png": [
+          0,
+          390,
+          128,
+          128
+        ]
+      }
+    },
+    "talents": {
+      "sheet": "sheets/Azmodan/talents.webp",
+      "icons": {
+        "storm_ui_icon_azmodan_globeofannihilation.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_azmodan_globeofannihilation_a.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_azmodan_globeofannihilation_b.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_azmodan_summondemonwarrior.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_azmodan_summondemonwarrior_a.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_cooldown.png": [
+          130,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_azmodan_allshallburn.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_azmodan_demonicinvasion.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_azmodan_blackpool.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_azmodan_generalofhell.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_azmodan_trample.png": [
+          0,
+          390,
+          128,
+          128
+        ]
+      }
+    },
+    "hero": {
+      "sheet": "sheets/Azmodan/hero.webp",
+      "icons": {
+        "storm_ui_icon_azmodan_globeofannihilation.png": [
+          0,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_azmodan_summondemonwarrior.png": [
+          260,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_azmodan_allshallburn.png": [
+          182,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_azmodan_demonicinvasion.png": [
+          0,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_azmodan_blackpool.png": [
+          312,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_azmodan_generalofhell.png": [
+          130,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          388,
+          604,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          323,
+          474,
+          111,
+          71
+        ],
+        "hud_btn_bg_ability_cancel.png": [
+          130,
+          474,
+          97,
+          111
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          310,
+          604,
+          76,
+          48
+        ],
+        "storm_ui_icon_azmodan_trample.png": [
+          390,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_azmodan_globeofannihilation_a.png": [
+          260,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_azmodan_globeofannihilation_b.png": [
+          390,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_azmodan_summondemonwarrior_a.png": [
+          130,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_cooldown.png": [
+          0,
+          474,
+          128,
+          128
+        ]
+      },
+      "portraits": {
+        "draftScreen": [
+          0,
+          0,
+          180,
+          212
+        ],
+        "minimap": [
+          466,
+          604,
+          32,
+          32
+        ],
+        "partyPanel": [
+          130,
+          604,
+          178,
+          56
+        ],
+        "target": [
+          229,
+          474,
+          92,
+          93
+        ],
+        "targetInfo": [
+          0,
+          604,
+          128,
+          56
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,966 @@
+{
+  "id": "Medic",
+  "unitId": "HeroMedic",
+  "hyperlinkId": "LtMorales",
+  "attributeId": "Medi",
+  "franchise": "Starcraft",
+  "rarity": "Epic",
+  "releaseDate": "2015-10-06",
+  "isMelee": false,
+  "gender": "Female",
+  "radius": 0.75,
+  "innerRadius": 0.75,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 5,
+    "damage": 3,
+    "survivability": 4,
+    "utility": 9
+  },
+  "life": {
+    "amount": 1560,
+    "scale": 0.04,
+    "regenRate": 3.25,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 100,
+    "regenRate": 0
+  },
+  "playstyles": [
+    "AllyHealer",
+    "Helper",
+    "RoleSupport"
+  ],
+  "summonedUnitIds": [
+    "MedicMedivacDropship",
+    "MedicMedivacDropshipDropoffLocationUnit"
+  ],
+  "weapons": [
+    {
+      "nameId": "MedicHeroWeapon",
+      "isDisabled": false,
+      "range": 5.5,
+      "minimumRange": 0,
+      "period": 1,
+      "damage": 83,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "MedicEnforcer",
+    "MedicSkinApoth",
+    "MedicSkinLove",
+    "MedicSkinMaster"
+  ],
+  "variationSkinIds": [
+    "MedicBaseVar3",
+    "MedicBlack",
+    "MedicGold"
+  ],
+  "voiceLineIds": [
+    "MedicBase_VoiceLine01",
+    "MedicBase_VoiceLine02",
+    "MedicBase_VoiceLine03",
+    "MedicBase_VoiceLine04",
+    "MedicBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "MedicHealingBeam|MedicHealingBeam|Q",
+        "abilityId": "MedicHealingBeam",
+        "buttonId": "MedicHealingBeam",
+        "icon": "storm_ui_icon_medic_healingbeam.png",
+        "toggleCooldown": 0.5,
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "MedicSafeguard|MedicSafeguard|W",
+        "abilityId": "MedicSafeguard",
+        "buttonId": "MedicSafeguard",
+        "icon": "storm_ui_icon_medic_deployshield.png",
+        "charges": {
+          "countMax": 1,
+          "countStart": 1,
+          "countUse": 1,
+          "recastCooldown": 0.5,
+          "isCountHidden": true
+        },
+        "abilityType": "W"
+      },
+      {
+        "linkId": "MedicDisplacementGrenade|MedicDisplacementGrenade|E",
+        "abilityId": "MedicDisplacementGrenade",
+        "buttonId": "MedicDisplacementGrenade",
+        "icon": "storm_ui_icon_medic_displacementgrenade.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "MedicStimDrone|MedicStimDrone|Heroic",
+        "abilityId": "MedicStimDrone",
+        "buttonId": "MedicStimDrone",
+        "icon": "storm_ui_icon_medic_stim.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "MedicMedivacDropship|MedicMedivacDropship|Heroic",
+        "abilityId": "MedicMedivacDropship",
+        "buttonId": "MedicMedivacDropship",
+        "icon": "storm_ui_icon_medic_medivacdropship.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": ":PASSIVE:|MedicCaduceusReactor|Trait",
+        "abilityId": ":PASSIVE:",
+        "buttonId": "MedicCaduceusReactor",
+        "icon": "storm_ui_icon_medic_caduceusreactor.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "MedicHealingBeam|MedicHealingBeam|Q": {
+      "Basic": [
+        {
+          "linkId": "MedicRedirectHealingBeam|MedicRedirectHealingBeam|Q",
+          "abilityId": "MedicRedirectHealingBeam",
+          "buttonId": "MedicRedirectHealingBeam",
+          "icon": "storm_ui_icon_medic_healingbeam_target.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Q"
+        }
+      ],
+      "Trait": [
+        {
+          "linkId": "MedicCancelHealingBeam|MedicCancelHealingBeam|Trait",
+          "abilityId": "MedicCancelHealingBeam",
+          "buttonId": "MedicCancelHealingBeam",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Trait"
+        }
+      ]
+    },
+    "MedicDisplacementGrenade|MedicDisplacementGrenade|E": {
+      "Basic": [
+        {
+          "linkId": "MedicDetonateDisplacementGrenade|MedicDetonateDisplacementGrenade|E",
+          "abilityId": "MedicDetonateDisplacementGrenade",
+          "buttonId": "MedicDetonateDisplacementGrenade",
+          "icon": "storm_ui_icon_medic_displacementgrenade_b.png",
+          "toggleCooldown": 0.0625,
+          "abilityType": "E"
+        }
+      ]
+    },
+    "MedicReinforcements|MedicReinforcements|Heroic": {
+      "Activable": [
+        {
+          "linkId": "MedicReinforcements|MedicMedivacDropshipDepartReinforcementsTalent|Heroic",
+          "abilityId": "MedicReinforcements",
+          "buttonId": "MedicMedivacDropshipDepartReinforcementsTalent",
+          "icon": "storm_ui_medic_departbutton.png",
+          "abilityType": "Heroic"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "MedicCellularReactor|MedicCellularReactorTalent|Active|Level4": {
+      "Activable": [
+        {
+          "linkId": "MedicCellularReactor|MedicCellularReactorTalentAbilityFace|Active",
+          "abilityId": "MedicCellularReactor",
+          "buttonId": "MedicCellularReactorTalentAbilityFace",
+          "icon": "storm_temp_btn-upgrade-terran-mobiusreactor.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "MedicTraumaTrigger|MedicTraumaTriggerTalent|Passive|Level4": {
+      "Activable": [
+        {
+          "linkId": "MedicTraumaTriggerAbility|MedicTraumaTriggerItemButtonTalent|Passive",
+          "abilityId": "MedicTraumaTriggerAbility",
+          "buttonId": "MedicTraumaTriggerItemButtonTalent",
+          "icon": "storm_ui_icon_medic_advancedblock.png",
+          "abilityType": "Passive"
+        }
+      ]
+    },
+    "MedicHeroicAbilityMedivacDropship|MedicMedivacDropshipsTalentFace|Heroic|Level10": {
+      "Activable": [
+        {
+          "linkId": "MedicReinforcements|MedicReinforcements|Heroic",
+          "abilityId": "MedicReinforcements",
+          "buttonId": "MedicReinforcements",
+          "icon": "storm_ui_icon_medic_medivacdropship_b.png",
+          "abilityType": "Heroic"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "MedicCaduceusFeedback|MedicCaduceusFeedbackTalent|Passive|Level1",
+        "talentId": "MedicCaduceusFeedback",
+        "buttonId": "MedicCaduceusFeedbackTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_mana.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 1
+      },
+      {
+        "linkId": "MedicLifeSupport|MedicLifeSupport|Q|Level1",
+        "talentId": "MedicLifeSupport",
+        "buttonId": "MedicLifeSupport",
+        "abilityId": "MedicHealingBeam",
+        "icon": "storm_ui_icon_medic_healingbeam.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "MedicHealingBeam|MedicHealingBeam|Q"
+        ]
+      },
+      {
+        "linkId": "MedicClear|MedicClearTalent|E|Level1",
+        "talentId": "MedicClear",
+        "buttonId": "MedicClearTalent",
+        "abilityId": "MedicDisplacementGrenade",
+        "icon": "storm_ui_icon_medic_displacementgrenade.png",
+        "abilityType": "E",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "MedicDetonateDisplacementGrenade|MedicDetonateDisplacementGrenade|E",
+          "MedicDisplacementGrenade|MedicDisplacementGrenade|E"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "MedicCellularReactor|MedicCellularReactorTalent|Active|Level4",
+        "talentId": "MedicCellularReactor",
+        "buttonId": "MedicCellularReactorTalent",
+        "abilityId": "MedicCellularReactor",
+        "icon": "storm_temp_btn-upgrade-terran-mobiusreactor.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MedicSafeguard|MedicSafeguard|W"
+        ]
+      },
+      {
+        "linkId": "MedicTraumaTrigger|MedicTraumaTriggerTalent|Passive|Level4",
+        "talentId": "MedicTraumaTrigger",
+        "buttonId": "MedicTraumaTriggerTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_medic_advancedblock.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|MedicCaduceusReactor|Trait"
+        ]
+      },
+      {
+        "linkId": "MedicBlastShield|MedicBlastShield|E|Level4",
+        "talentId": "MedicBlastShield",
+        "buttonId": "MedicBlastShield",
+        "abilityId": "MedicDisplacementGrenade",
+        "icon": "storm_ui_icon_medic_displacementgrenade.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "MedicDisplacementGrenade|MedicDisplacementGrenade|E"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "MedicPhysicalTherapy|MedicPhysicalTherapy|W|Level7",
+        "talentId": "MedicPhysicalTherapy",
+        "buttonId": "MedicPhysicalTherapy",
+        "abilityId": "MedicSafeguard",
+        "icon": "storm_ui_icon_medic_deployshield.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MedicSafeguard|MedicSafeguard|W"
+        ]
+      },
+      {
+        "linkId": "MedicVanadiumPlating|MedicVanadiumPlating|W|Level7",
+        "talentId": "MedicVanadiumPlating",
+        "buttonId": "MedicVanadiumPlating",
+        "abilityId": "MedicSafeguard",
+        "icon": "storm_ui_icon_medic_deployshield_c.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "MedicSafeguard|MedicSafeguard|W"
+        ]
+      },
+      {
+        "linkId": "MedicMediDrone|MedicMediDrone|W|Level7",
+        "talentId": "MedicMediDrone",
+        "buttonId": "MedicMediDrone",
+        "abilityId": "MedicSafeguard",
+        "icon": "storm_ui_icon_medic_deployshield_b.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "MedicSafeguard|MedicSafeguard|W"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "MedicHeroicAbilityStimDrone|MedicStimDrone|Heroic|Level10",
+        "talentId": "MedicHeroicAbilityStimDrone",
+        "buttonId": "MedicStimDrone",
+        "abilityId": "MedicStimDrone",
+        "icon": "storm_ui_icon_medic_stim.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "MedicHeroicAbilityMedivacDropship|MedicMedivacDropshipsTalentFace|Heroic|Level10",
+        "talentId": "MedicHeroicAbilityMedivacDropship",
+        "buttonId": "MedicMedivacDropshipsTalentFace",
+        "abilityId": "MedicMedivacDropship",
+        "icon": "storm_ui_icon_medic_medivacdropship.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "MedicEMPGrenade|MedicEMPGrenadeTalent|E|Level13",
+        "talentId": "MedicEMPGrenade",
+        "buttonId": "MedicEMPGrenadeTalent",
+        "abilityId": "MedicDisplacementGrenade",
+        "icon": "storm_ui_icon_medic_displacementgrenade.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MedicDisplacementGrenade|MedicDisplacementGrenade|E"
+        ]
+      },
+      {
+        "linkId": "MedicSystemShock|MedicSystemShockTalent|E|Level13",
+        "talentId": "MedicSystemShock",
+        "buttonId": "MedicSystemShockTalent",
+        "abilityId": "MedicDisplacementGrenade",
+        "icon": "storm_ui_icon_medic_displacementgrenade_b.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "MedicDetonateDisplacementGrenade|MedicDetonateDisplacementGrenade|E",
+          "MedicDisplacementGrenade|MedicDisplacementGrenade|E"
+        ]
+      },
+      {
+        "linkId": "MedicBedsideManner|MedicBedsideManner|E|Level13",
+        "talentId": "MedicBedsideManner",
+        "buttonId": "MedicBedsideManner",
+        "abilityId": "MedicDisplacementGrenade",
+        "icon": "storm_ui_icon_medic_displacementgrenade_c.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "MedicDisplacementGrenade|MedicDisplacementGrenade|E"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "MedicExtendedCare|MedicExtendedCare|Q|Level16",
+        "talentId": "MedicExtendedCare",
+        "buttonId": "MedicExtendedCare",
+        "abilityId": "MedicHealingBeam",
+        "icon": "storm_ui_icon_medic_healingbeam.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MedicHealingBeam|MedicHealingBeam|Q",
+          "MedicRedirectHealingBeam|MedicRedirectHealingBeam|Q"
+        ]
+      },
+      {
+        "linkId": "MedicFirstResponder|MedicFirstResponder|Q|Level16",
+        "talentId": "MedicFirstResponder",
+        "buttonId": "MedicFirstResponder",
+        "abilityId": "MedicHealingBeam",
+        "icon": "storm_ui_icon_medic_healingbeam_c.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "MedicHealingBeam|MedicHealingBeam|Q",
+          "MedicRedirectHealingBeam|MedicRedirectHealingBeam|Q"
+        ]
+      },
+      {
+        "linkId": "MedicShieldSequencer|MedicShieldSequencerTalent|W|Level16",
+        "talentId": "MedicShieldSequencer",
+        "buttonId": "MedicShieldSequencerTalent",
+        "abilityId": "MedicSafeguard",
+        "icon": "storm_ui_icon_medic_deployshield.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "MedicSafeguard|MedicSafeguard|W"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "MedicHyperactivity|MedicHyperactivity|Heroic|Level20",
+        "talentId": "MedicHyperactivity",
+        "buttonId": "MedicHyperactivity",
+        "abilityId": "MedicStimDrone",
+        "icon": "storm_ui_icon_medic_stim.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MedicStimDrone|MedicStimDrone|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "MedicHeroicAbilityStimDrone"
+        ]
+      },
+      {
+        "linkId": "MedicSafeZone|MedicSafeZoneTalent|Heroic|Level20",
+        "talentId": "MedicSafeZone",
+        "buttonId": "MedicSafeZoneTalent",
+        "abilityId": "MedicMedivacDropship",
+        "icon": "storm_ui_icon_medic_medivacdropship.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "MedicMedivacDropship|MedicMedivacDropship|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "MedicHeroicAbilityMedivacDropship"
+        ]
+      },
+      {
+        "linkId": "MedicHospiceCare|MedicHospiceCare|W|Level20",
+        "talentId": "MedicHospiceCare",
+        "buttonId": "MedicHospiceCare",
+        "abilityId": "MedicSafeguard",
+        "icon": "storm_ui_icon_medic_deployshield.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "MedicSafeguard|MedicSafeguard|W"
+        ]
+      },
+      {
+        "linkId": "MedicSecondOpinion|MedicSecondOpinion|E|Level20",
+        "talentId": "MedicSecondOpinion",
+        "buttonId": "MedicSecondOpinion",
+        "abilityId": "MedicDisplacementGrenade",
+        "icon": "storm_ui_icon_medic_displacementgrenade.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          "MedicDisplacementGrenade|MedicDisplacementGrenade|E"
+        ]
+      }
+    ]
+  },
+  "heroUnits": {
+    "MedicMedivacDropship": {
+      "damageType": "Summon",
+      "radius": 0.5,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 28,
+      "attributes": [
+        "ImmuneToFriendlyAbilities",
+        "Summoned"
+      ],
+      "life": {
+        "amount": 955.8,
+        "scale": 0.04,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": {
+        "minimap": "storm_ui_minimapicon_medic.png",
+        "targetInfo": "storm_ui_ingame_partyframe_medivac.png"
+      },
+      "abilities": {
+        "Basic": [
+          {
+            "linkId": "MedicMedivacDropshipDepart|MedicMedivacDropshipDepart|E",
+            "abilityId": "MedicMedivacDropshipDepart",
+            "buttonId": "MedicMedivacDropshipDepart",
+            "icon": "storm_ui_medic_departbutton.png",
+            "toggleCooldown": 0.5,
+            "abilityType": "E"
+          }
+        ]
+      }
+    }
+  },
+  "sheets": {
+    "abilities": {
+      "sheet": "sheets/Medic/abilities.webp",
+      "icons": {
+        "storm_ui_icon_medic_healingbeam.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_medic_deployshield.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_medic_displacementgrenade.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_medic_stim.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_medic_medivacdropship.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_medic_caduceusreactor.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          191,
+          520,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          0,
+          520,
+          111,
+          71
+        ],
+        "storm_ui_icon_medic_healingbeam_target.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "hud_btn_bg_ability_cancel.png": [
+          260,
+          390,
+          97,
+          111
+        ],
+        "storm_ui_icon_medic_displacementgrenade_b.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_medic_departbutton.png": [
+          130,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          113,
+          520,
+          76,
+          48
+        ],
+        "storm_temp_btn-upgrade-terran-mobiusreactor.png": [
+          359,
+          390,
+          76,
+          76
+        ],
+        "storm_ui_icon_medic_advancedblock.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_medic_medivacdropship_b.png": [
+          130,
+          260,
+          128,
+          128
+        ]
+      }
+    },
+    "talents": {
+      "sheet": "sheets/Medic/talents.webp",
+      "icons": {
+        "storm_ui_icon_talent_autoattack_mana.png": [
+          260,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_medic_healingbeam.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_medic_displacementgrenade.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_temp_btn-upgrade-terran-mobiusreactor.png": [
+          0,
+          520,
+          76,
+          76
+        ],
+        "storm_ui_icon_medic_advancedblock.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_medic_deployshield.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_medic_deployshield_c.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_medic_deployshield_b.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_medic_stim.png": [
+          130,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_medic_medivacdropship.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_medic_displacementgrenade_b.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_medic_displacementgrenade_c.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_medic_healingbeam_c.png": [
+          130,
+          260,
+          128,
+          128
+        ]
+      }
+    },
+    "hero": {
+      "sheet": "sheets/Medic/hero.webp",
+      "icons": {
+        "storm_ui_icon_medic_healingbeam.png": [
+          390,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_medic_deployshield.png": [
+          130,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_medic_displacementgrenade.png": [
+          0,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_medic_stim.png": [
+          260,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_medic_medivacdropship.png": [
+          130,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_medic_caduceusreactor.png": [
+          312,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          388,
+          734,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          401,
+          604,
+          111,
+          71
+        ],
+        "storm_ui_icon_medic_healingbeam_target.png": [
+          260,
+          344,
+          128,
+          128
+        ],
+        "hud_btn_bg_ability_cancel.png": [
+          130,
+          604,
+          97,
+          111
+        ],
+        "storm_ui_icon_medic_displacementgrenade_b.png": [
+          260,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_medic_departbutton.png": [
+          0,
+          604,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          310,
+          734,
+          76,
+          48
+        ],
+        "storm_temp_btn-upgrade-terran-mobiusreactor.png": [
+          323,
+          604,
+          76,
+          76
+        ],
+        "storm_ui_icon_medic_advancedblock.png": [
+          182,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_medic_medivacdropship_b.png": [
+          0,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_mana.png": [
+          390,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_medic_deployshield_c.png": [
+          0,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_medic_deployshield_b.png": [
+          442,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_medic_displacementgrenade_c.png": [
+          390,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_medic_healingbeam_c.png": [
+          130,
+          344,
+          128,
+          128
+        ]
+      },
+      "portraits": {
+        "draftScreen": [
+          0,
+          0,
+          180,
+          212
+        ],
+        "minimap": [
+          466,
+          734,
+          32,
+          32
+        ],
+        "partyPanel": [
+          130,
+          734,
+          178,
+          56
+        ],
+        "target": [
+          229,
+          604,
+          92,
+          93
+        ],
+        "targetInfo": [
+          0,
+          734,
+          128,
+          56
+        ]
+      }
+    }
+  }
+}

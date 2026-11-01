@@ -1,0 +1,212 @@
+{
+  "abilities": {
+    "AnaHealingDart|AnaHealingDart|Q": {
+      "cooldownText": "冷却时间：2秒",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">法力值：10</s>",
+      "fullText": "发射一枚镖，使击中的第一个友方英雄恢复<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">195</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点生命值。不影响生命值全满的英雄。",
+      "name": "治疗镖",
+      "shortText": "发射一枚可以治疗盟友的镖"
+    },
+    "AnaBioticGrenade|AnaBioticGrenade|W": {
+      "cooldownText": "冷却时间：16秒",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">法力值：50</s>",
+      "fullText": "向目标地区投掷一枚手雷。被击中的友方英雄恢复<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">152</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点生命值，并且获得来自安娜的治疗提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>秒。被击中的敌人受到<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点伤害，并且获得的治疗降低<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c>，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.75</c>秒。<n/><n/>如果生物手雷未命中任何敌人，则该技能的冷却时间缩短<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>秒。如果只命中安娜，则该技能的冷却时间额外缩短<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>秒。",
+      "name": "生物手雷",
+      "shortText": "投掷手雷，治疗盟友并阻止敌人接受治疗"
+    },
+    "AnaSleepDart|AnaSleepDart|E": {
+      "cooldownText": "冷却时间：14秒",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">法力值：50</s>",
+      "fullText": "发射一枚镖，使击中的第一个敌方英雄睡眠，使其无法行动，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>秒，目标如果在一开始的<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c>秒后受到任何伤害，睡眠效果就会结束。<n/><n/><c val=\"ffff8a\">不能对载具使用。</c>",
+      "name": "麻醉镖",
+      "shortText": "发射镖，使敌人睡眠"
+    },
+    "AnaNanoBoost|AnaNanoBoost|Heroic": {
+      "cooldownText": "冷却时间：70秒",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">法力值：60</s>",
+      "fullText": "立即强化一名友方英雄，恢复<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">200</c>点法力值。在接下来的<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c>秒内，使其法术强度提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c>，基本技能冷却速度加快<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150%</c>。<n/><n/><c val=\"ffff8a\">不能对安娜使用。</c>",
+      "name": "纳米激素",
+      "shortText": "使盟友法术强度提高，冷却时间缩短"
+    },
+    "AnaEyeOfHorusActivate|AnaEyeOfHorusActivate|Heroic": {
+      "cooldownText": "冷却时间：60秒",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">法力值：45</s>",
+      "fullText": "安娜采取狙击姿势，可以无限距离发射最多<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c>枚特殊子弹。子弹可穿透友方和敌方英雄，但会被路径上的敌方建筑阻挡。友方获得<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">225</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点治疗，敌方英雄受到<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">135</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点伤害。对建筑伤害降低<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>。<n/><n/>荷鲁斯之眼激活期间，安娜无法移动。",
+      "name": "荷鲁斯之眼",
+      "shortText": "发射没有距离限制的治疗和伤害子弹"
+    },
+    "AnaAimDownSightsActivate|AnaAimDownSightsActivate|Trait": {
+      "cooldownText": "冷却时间：4秒",
+      "fullText": "普通攻击对敌人施加一层药剂，在<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>秒内造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点持续伤害，外加等同于目标当前所叠加层数的额外伤害，最多叠加<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>层。安娜每<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c>秒受到一次治疗，数值相当于伯劳鸟造成伤害的<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60%</c>。<n/><n/><s val=\"cbe8ff-ffffff\" hlt-name=\"StandardTooltipHeader\">观瞄视界</s><n/><n/>激活伯劳鸟会使你的移动速度降低<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>，但治疗镖和麻醉镖的射程提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>，并且允许它们穿透一名英雄。持续直到取消为止。",
+      "name": "伯劳鸟",
+      "shortText": "普通攻击造成持续伤害"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "冷却时间：4秒",
+      "fullText": "引导<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>秒后，获得<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s>移动速度。",
+      "name": "召唤坐骑"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "引导<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c>秒后，传送回风暴大厅，立即恢复<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c>的生命值和<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c>法力值。",
+      "name": "炉石"
+    },
+    "AnaEyeOfHorusAttackDummy|AnaEyeOfHorusHighPoweredRound|Q": {
+      "cooldownText": "冷却时间：1秒",
+      "fullText": "发射一枚无限距离的特殊子弹，穿透路径上任何友方或敌方英雄。友方获得<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">225</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点治疗，敌方受到<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">135</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点伤害。对建筑伤害降低<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>。",
+      "name": "高功率子弹"
+    },
+    "AnaEyeOfHorusCancel|AnaEyeOfHorusCancel|W": {
+      "fullText": "取消荷鲁斯之眼。",
+      "name": "取消荷鲁斯之眼"
+    },
+    "AnaEyeOfHorusCancel|AnaEyeOfHorusCancel|E": {
+      "fullText": "取消荷鲁斯之眼。",
+      "name": "取消荷鲁斯之眼"
+    },
+    "AnaEyeOfHorusAttackDummy|AnaEyeOfHorusHighPoweredRound|Heroic": {
+      "cooldownText": "冷却时间：1秒",
+      "fullText": "发射一枚无限距离的特殊子弹，穿透路径上任何友方或敌方英雄。友方获得<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">225</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点治疗，敌方受到<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">135</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点伤害。对建筑伤害降低<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>。",
+      "name": "高功率子弹"
+    },
+    "AnaEyeOfHorusAttack|AnaEyeOfHorusHighPoweredRound|Heroic": {
+      "cooldownText": "冷却时间：1秒",
+      "fullText": "发射一枚无限距离的特殊子弹，穿透路径上任何友方或敌方英雄。友方获得<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">225</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点治疗，敌方受到<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">135</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点伤害。对建筑伤害降低<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>。",
+      "name": "高功率子弹"
+    },
+    "AnaAimDownSightsDeactivate|AnaAimDownSightsDeactivate|Trait": {
+      "cooldownText": "冷却时间：4秒",
+      "fullText": "普通攻击对敌人施加一层药剂，在<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>秒内造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点持续伤害，外加等同于目标当前所叠加层数的额外伤害，最多叠加<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>层。安娜每<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c>秒受到一次治疗，数值相当于伯劳鸟造成伤害的<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60%</c>。<n/><n/><s val=\"cbe8ff-ffffff\" hlt-name=\"StandardTooltipHeader\">观瞄视界</s><n/><n/>激活伯劳鸟会使你的移动速度降低<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>，但治疗镖和麻醉镖的射程提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>，并且允许它们穿透一名英雄。持续直到取消为止。",
+      "name": "取消伯劳鸟"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "解除坐骑。",
+      "name": "解除坐骑"
+    },
+    "AnaDebilitatingDart|AnaDebilitatingDart|Active": {
+      "cooldownText": "冷却时间：20秒",
+      "fullText": "发射一枚衰弱镖，使命中的第一个敌人的移动速度和造成的伤害降低<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>秒。如果未命中任何英雄，则该技能的冷却时间缩短<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c>秒。",
+      "name": "衰弱镖",
+      "shortText": "发射一枚减速镖，可降低敌人的伤害能力"
+    },
+    "AnaDetachableBoxMagazine|AnaDetachableBoxMagazineActive|Active": {
+      "cooldownText": "冷却时间：60秒",
+      "fullText": "激活后立即获得<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>层治疗镖。",
+      "name": "主动装填",
+      "shortText": "获得额外的治疗镖使用次数"
+    }
+  },
+  "talents": {
+    "AnaBioticGrenadeContactHealing|AnaBioticGrenadeContactHealing|W|Level1": {
+      "fullText": "生物手雷每击中一名英雄，其伤害和治疗量就会提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c>。",
+      "name": "接触治疗",
+      "shortText": "生物手雷击中多个英雄时效果增强"
+    },
+    "AnaSleepingDartSlumberShells|AnaSleepingDartSlumberShells|E|Level1": {
+      "fullText": "麻醉镖的冷却时间缩短<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>秒。醒来的敌方英雄还会减速<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>秒。",
+      "name": "阻滞弹",
+      "shortText": "缩短麻醉镖冷却时间，并可减速"
+    },
+    "AnaShrikeVampiricRounds|AnaShrikeVampiricRounds|Trait|Level1": {
+      "fullText": "伯劳鸟的治疗效果提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c>。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">可重复任务：</c>叠加<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>层药剂使伯劳鸟的治疗效果提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1%</c>。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">可重复任务：</c>对身上拥有<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>层药剂的英雄进行普通攻击使伯劳鸟的治疗效果提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.25%</c>。",
+      "name": "吸血弹",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">任务：</c>提高伯劳鸟的治疗"
+    },
+    "AnaBioticGrenadeBioticEnhancements|AnaBioticGrenadeBioticEnhancements|W|Level4": {
+      "fullText": "使生物手雷的治疗加成的持续时间延长<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>，并使其冷却时间缩短<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>秒。",
+      "name": "生物强化",
+      "shortText": "强化生物手雷"
+    },
+    "AnaOverdose|AnaOverdose|E|Level4": {
+      "fullText": "麻醉镖可施加<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>层药剂。当观瞄视界激活时，麻醉镖可以穿透所有敌方英雄。",
+      "name": "药剂过量",
+      "shortText": "麻醉镖施加药剂并能穿透目标"
+    },
+    "AnaDebilitatingDart|AnaDebilitatingDart|Active|Level4": {
+      "cooldownText": "冷却时间：20秒",
+      "fullText": "发射一枚衰弱镖，使命中的第一个敌人的移动速度和造成的伤害降低<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>秒。如果未命中任何英雄，则该技能的冷却时间缩短<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c>秒。",
+      "name": "衰弱镖",
+      "shortText": "发射一枚减速镖，可降低敌人的伤害能力"
+    },
+    "AnaBioticGrenadeAntiHealer|AnaBioticGrenadeAntiHealer|W|Level7": {
+      "fullText": "生物手雷的范围扩大<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>，并且禁疗效果的持续时间延长<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.75</c>秒。",
+      "name": "反治疗",
+      "shortText": "强化生物手雷"
+    },
+    "AnaSleepDartNightTerrors|AnaSleepDartNightTerrors|E|Level7": {
+      "fullText": "麻醉镖击中英雄时获得<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>的移动速度，每击中一名英雄，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>秒。醒来时，敌方英雄受到相当于其最大生命值<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8%</c>的伤害。",
+      "name": "噩梦效应",
+      "shortText": "强化麻醉镖"
+    },
+    "AnaMindNumbingAgent|AnaMindNumbingAgent|Trait|Level7": {
+      "fullText": "英雄身上每有一层药剂，法术强度就降低<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c>。",
+      "name": "降智药剂",
+      "shortText": "药剂降低法术强度"
+    },
+    "AnaHeroicAbilityNanaBoost|AnaNanoBoost|Heroic|Level10": {
+      "cooldownText": "冷却时间：70秒",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">法力值：60</s>",
+      "fullText": "立即强化一名友方英雄，恢复<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">200</c>点法力值。在接下来的<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c>秒内，使其法术强度提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c>，基本技能冷却速度加快<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150%</c>。<n/><n/><c val=\"ffff8a\">不能对安娜使用。</c>",
+      "name": "纳米激素",
+      "shortText": "使盟友法术强度提高，冷却时间缩短"
+    },
+    "AnaHeroicAbilityEyeOfHorus|AnaEyeOfHorusActivate|Heroic|Level10": {
+      "cooldownText": "冷却时间：60秒",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">法力值：45</s>",
+      "fullText": "安娜采取狙击姿势，可以无限距离发射最多<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c>枚特殊子弹。子弹可穿透友方和敌方英雄，但会被路径上的敌方建筑阻挡。友方获得<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">225</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点治疗，敌方英雄受到<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">135</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点伤害。对建筑伤害降低<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>。<n/><n/>荷鲁斯之眼激活期间，安娜无法移动。",
+      "name": "荷鲁斯之眼",
+      "shortText": "发射没有距离限制的治疗和伤害子弹"
+    },
+    "AnaHealingDartSpeedSerum|AnaHealingDartSpeedSerum|Q|Level13": {
+      "fullText": "治疗镖使受影响的英雄移动速度提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>秒。",
+      "name": "加速血清",
+      "shortText": "治疗镖使移动速度提高"
+    },
+    "AnaHealingDartPurifyingDarts|AnaHealingDartPurifyingDarts|Q|Level13": {
+      "fullText": "治疗镖可解除目标的定身和减速效果，并且成功解除时治疗量提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c>。",
+      "name": "净化镖",
+      "shortText": "治疗镖可解除定身、减速"
+    },
+    "AnaHealingDartSmellingSalts|AnaHealingDartSmellingSalts|Q|Level13": {
+      "fullText": "治疗镖可解除目标的昏迷效果，并且成功解除时使其获得<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50</c>点护甲，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>秒。",
+      "name": "嗅盐",
+      "shortText": "治疗镖可移除昏迷效果"
+    },
+    "AnaHealingDartSharpshooter|AnaHealingDartSharpshooter|Q|Level16": {
+      "fullText": "如果治疗镖治疗一次英雄，其治疗量提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5%</c>，最多提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>。达到最大加成时，使其治疗量额外提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35%</c>。如果治疗镖未击中英雄，则加成效果重置。",
+      "name": "神枪手",
+      "shortText": "强化连续命中的治疗镖"
+    },
+    "AnaHealingDartConcentratedDoses|AnaHealingDartConcentratedDoses|Q|Level16": {
+      "fullText": "敌方英雄身上每有一个激活的药剂效果，治疗镖的治疗量就提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">12%</c>。",
+      "name": "浓缩剂量",
+      "shortText": "药剂可以强化治疗镖"
+    },
+    "AnaDetachableBoxMagazine|AnaDetachableBoxMagazineActive|Active|Level16": {
+      "cooldownText": "冷却时间：60秒",
+      "fullText": "激活后立即获得<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>层治疗镖。",
+      "name": "主动装填",
+      "shortText": "获得额外的治疗镖使用次数"
+    },
+    "AnaNanoInfusion|AnaNanoInfusion|Heroic|Level20": {
+      "fullText": "受纳米激素影响的盟友会以造成法术伤害的<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>治疗自己。",
+      "name": "纳米注入",
+      "shortText": "纳米激素按造成的伤害给予治疗"
+    },
+    "AnaEyeOfHorusDeadeye|AnaEyeOfHorusDeadeye|Heroic|Level20": {
+      "fullText": "荷鲁斯之眼的冷却时间缩短至<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c>秒，但只能每<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c>秒获得子弹。剩余冷却时间转化为子弹。<n/><n/>荷鲁斯之眼每击中一名英雄，就能使该技能的治疗和伤害提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5%</c>。离开荷鲁斯之眼状态或<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>秒后，该加成会被重置。",
+      "name": "致命狙击",
+      "shortText": "荷鲁斯之眼子弹持续充能"
+    },
+    "AnaShrikeArmoredStance|AnaShrikeArmoredStance|Trait|Level20": {
+      "fullText": "使伯劳鸟的伤害提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>。当观瞄视界激活时，获得<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c>点护甲。",
+      "name": "掩蔽姿态",
+      "shortText": "强化伯劳鸟"
+    },
+    "AnaDynamicOptics|AnaDynamicOptics|Trait|Level20": {
+      "fullText": "普通攻击可以使攻击速度提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c>，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>秒，最多可达<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c>。当观瞄视界激活时，使你的普通攻击射程提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>码。",
+      "name": "动态光学组件",
+      "shortText": "强化普通攻击"
+    }
+  },
+  "units": {}
+}

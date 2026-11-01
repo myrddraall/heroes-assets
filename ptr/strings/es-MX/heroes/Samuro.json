@@ -1,0 +1,177 @@
+{
+  "abilities": {
+    "SamuroMirrorImageTargeted|SamuroMirrorImage|Q": {
+      "cooldownText": "Tiempo de reutilización: 14 segundos",
+      "fullText": "Samuro se teletransporta una corta distancia en la dirección del cursor del mouse, crea <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> Reflejos exactos en la dirección opuesta con la misma cantidad salud que de Samuro, los cuales infligen <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">11</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> de daño a los enemigos con ataques básicos. Siempre que un Reflejo recibe daño, este se inflige esa cantidad de daño a sí mismo, lo que duplica el daño que recibe.<n/><n/>Los Reflejos exactos duran <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c> segundos y puede haber hasta <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> Reflejos exactos activos al mismo tiempo. Cada vez que ellos o Samuro golpean a un héroe enemigo con ataques básicos, su duración se extiende <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> segundo. Usar Reflejo exacto elimina la mayoría de los efectos negativos de Samuro.",
+      "name": "Reflejo exacto",
+      "shortText": "Crea Reflejos exactos para confundir y atacar a los enemigos"
+    },
+    "SamuroCriticalStrike|SamuroCriticalStrike|W": {
+      "cooldownText": "Tiempo de reutilización: <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10 segundos</c>",
+      "fullText": "Actívalo para que el siguiente ataque básico de Samuro y sus Reflejos exactos durante los próximos <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c> segundos sean un Golpe crítico e inflijan un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> más de daño. Esta activación no interrumpe el sigilo.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Pasivo:</c> cada <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4.°</c> ataque básico de Samuro y sus Reflejos es un Golpe crítico.",
+      "name": "Golpe crítico",
+      "shortText": "Inflige Golpes críticos con más daño"
+    },
+    "SamuroWindwalk|SamuroWindwalk|E": {
+      "cooldownText": "Tiempo de reutilización: 15 segundos",
+      "fullText": "Otorga sigilo a Samuro durante un máximo de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> segundos o hasta que él ataque, use una habilidad o reciba daño.<n/><n/>En sigilo, Samuro recupera un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2%</c> de su salud máxima cada segundo, su velocidad de movimiento se incrementa un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> y puede atravesar otras unidades. Permanecer inmóvil durante al menos <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> segundos en sigilo otorga invisibilidad.<n/><n/>Samuro no puede ser revelado durante el <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">primer</c> segundo tras el lanzamiento de Caminaviento.",
+      "name": "Caminaviento",
+      "shortText": "Entras en sigilo y obtienes velocidad de movimiento"
+    },
+    "SamuroBladeStormDummy|SamuroBladestorm|Heroic": {
+      "cooldownText": "Tiempo de reutilización: 30 segundos",
+      "fullText": "Genera una Filotormenta de fuerza destructiva alrededor de Samuro durante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> segundos, lo que le otorga <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c> de Armadura e inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">180</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> de daño por segundo a los enemigos cercanos.",
+      "name": "Filotormenta",
+      "shortText": "Genera una Filotormenta de fuerza destructiva"
+    },
+    "SamuroIllusionMaster|SamuroIllusionMaster|Heroic": {
+      "cooldownText": "Tiempo de reutilización: 8 segundos",
+      "fullText": "Los Reflejos exactos pueden controlarse de a uno o en grupo, y su daño se incrementa un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c>. <n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Pasivo:</c> Se reduce el tiempo de reutilización de Transmisión de imagen a <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c> segundos.",
+      "name": "Maestro de la ilusión",
+      "shortText": "Los Reflejos exactos pueden controlarse"
+    },
+    "SamuroIllusionMaster|SamuroAdvancingStrikes|Trait": {
+      "cooldownText": "Tiempo de reutilización: 14 segundos",
+      "fullText": "Actívalo para cambiar de posición con un Reflejo exacto objetivo y eliminar la mayoría de los efectos negativos de Samuro y de todos los Reflejos exactos.<n/><n/><s val=\"cbe8ff-ffffff\" hlt-name=\"StandardTooltipHeader\">Avance ofensivo</s><n/><n/>Los ataques básicos contra héroes enemigos aumentan un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> la velocidad de movimiento de Samuro durante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> segundos.",
+      "name": "Transmisión de imagen",
+      "shortText": "Aumenta la velocidad de movimiento cuando atacas héroes"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Tiempo de reutilización: 4 segundos",
+      "fullText": "Tras una canalización de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> segundo, obtienes un <s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s> de velocidad de movimiento.",
+      "name": "Invocar montura"
+    },
+    ":PASSIVE:|SamuroSelectSamuroPrime|Active": {
+      "fullText": "<s val=\"cbe8ff-ffffff\" hlt-name=\"StandardTooltipHeader\">Selecciona a Samuro</s><n/><n/>Emite órdenes solo a Samuro.",
+      "name": "Seleccionar a Samuro",
+      "shortText": "Selecciona a Samuro"
+    },
+    ":PASSIVE:|SamuroSelectAll|Active": {
+      "fullText": "<s val=\"cbe8ff-ffffff\" hlt-name=\"StandardTooltipHeader\">Selecciona a todos</s><n/><n/>Emite órdenes para Samuro y todos los Reflejos exactos.",
+      "name": "Seleccionar todo",
+      "shortText": "Selecciona a todos"
+    },
+    "Hearthstone|HearthstoneNoMana|B": {
+      "fullText": "Tras una canalización de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> segundos, te teletransportas de regreso a la Sala de las tormentas para recuperar <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c> de salud de inmediato.",
+      "name": "Piedra de hogar"
+    },
+    "SamuroBladestormCancel|SamuroCancelBladestorm|Heroic": {
+      "fullText": "<s val=\"8783e6\" hlt-name=\"StandardTooltip\">Cancelar Filotormenta.</s>",
+      "name": "Cancelar Filotormenta"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Te desmontas.",
+      "name": "Desinvocar montura"
+    }
+  },
+  "talents": {
+    "SamuroWayOfIllusion|SamuroWayOfIllusion|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\"> Misión:</c> Cada vez que uno de los Reflejos exactos asesta un Golpe crítico sobre un héroe, Samuro obtiene <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.25</c> de daño de ataque, hasta un máximo de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Recompensa:</c> Después de golpear a <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40</c> héroes, Samuro obtiene <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30</c> más de daño de ataque.",
+      "name": "Senda de la ilusión",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Misión:</c> Los Golpes críticos de los Reflejos potencian los ataques básicos"
+    },
+    "SamuroMirrorImageWayOfTheBlade|SamuroWayoftheBlade|W|Level1": {
+      "fullText": "Ahora los Golpes críticos de Samuro y de sus Reflejos exactos se activan cada <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3.°</c> ataque básico. <n/><n/>Los Golpes críticos de Samuro y sus Reflejos exactos contra héroes enemigos reducen su Armadura física en <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> durante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.25</c> segundos, hasta una reducción máxima de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> de armadura física.",
+      "name": "Senda del acero",
+      "shortText": "Los Golpes críticos son más frecuentes"
+    },
+    "SamuroWayOfTheWind|SamuroWayOfTheWind|E|Level1": {
+      "fullText": "Tras activar o interrumpir Caminaviento, Samuro obtiene un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> de velocidad de movimiento durante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> segundos.<n/><n/>Activar Caminaviento restituye a Samuro un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3%</c> de su salud máxima.",
+      "name": "Senda del viento",
+      "shortText": "Caminaviento otorga más velocidad de movimiento, restituye salud"
+    },
+    "SamuroMirage|SamuroMirage|Q|Level4": {
+      "fullText": "Reflejo exacto otorga <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40</c> de Armadura especial a Samuro y sus Reflejos contra las próximas <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> fuentes de daño de habilidad especial, lo que reduce su daño un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c>.",
+      "name": "Espejismo",
+      "shortText": "Reflejo exacto otorga Armadura especial"
+    },
+    "SamuroWindwalkOneWithTheWind|SamuroOneWithTheWindTalent|E|Level4": {
+      "fullText": "Mientras la habilidad Caminaviento está activa y hasta <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> segundos después de interrumpirse, tanto él como sus Reflejos exactos obtienen <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c> de Armadura, por lo que reciben un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> menos de daño de todas las fuentes.",
+      "name": "Uno con el viento",
+      "shortText": "Obtienes Armadura durante Caminaviento"
+    },
+    "SamuroAdvancingStrikesDeflection|SamuroDeflectionTalent|Passive|Level4": {
+      "fullText": "Avance ofensivo otorga <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35</c> de Armadura física a Samuro y a sus Reflejos exactos.",
+      "name": "Desvío",
+      "shortText": "Avance ofensivo otorga Armadura física"
+    },
+    "SamuroBurningBlade|SamuroBurningBlade|W|Level7": {
+      "fullText": "Los Golpes críticos de Samuro o de sus Reflejos exactos infligen daño de habilidad especial adicional equivalente a un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> del daño de sus ataques básicos al objetivo y a los enemigos cercanos.",
+      "name": "Filo Ardiente",
+      "shortText": "Golpe crítico inflige daño de área"
+    },
+    "SamuroPhantomPain|SamuroPhantomsStrikeTalent|W|Level7": {
+      "fullText": "Los Golpes críticos de Samuro contra héroes reducen el tiempo de reutilización de Transmisión de imagen <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> segundo e infligen un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35%</c> más de daño por cada Reflejo exacto activo.",
+      "name": "Dolor fantasma",
+      "shortText": "Los Golpes críticos reducen el tiempo de reutilización de Transmisión de imagen"
+    },
+    "SamuroCrushingBlow|SamuroOverpoweringBlow|W|Level7": {
+      "fullText": "Los ataques básicos de Samuro contra héroes enemigos reducen el tiempo de reutilización de Golpe crítico <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> segundos. <n/><n/>Los Golpes críticos contra héroes enemigos incrementan el daño de ataque básico de Samuro un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c> durante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> segundos, hasta un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c>.",
+      "name": "Golpes aplastantes",
+      "shortText": "Los Golpes críticos aumentan el daño de los ataques básicos"
+    },
+    "SamuroHeroicAbilityBladestorm|SamuroBladestorm|Heroic|Level10": {
+      "cooldownText": "Tiempo de reutilización: 30 segundos",
+      "fullText": "Genera una Filotormenta de fuerza destructiva alrededor de Samuro durante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> segundos, lo que le otorga <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c> de Armadura e inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">180</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> de daño por segundo a los enemigos cercanos.",
+      "name": "Filotormenta",
+      "shortText": "Genera una Filotormenta de fuerza destructiva"
+    },
+    "SamuroHeroicAbilityIllusionMaster|SamuroIllusionMasterTalent|Heroic|Level10": {
+      "cooldownText": "Tiempo de reutilización: 8 segundos",
+      "fullText": "Los Reflejos exactos pueden controlarse de a uno o en grupo, y su daño se incrementa un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c>. <n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Pasivo:</c> Se reduce el tiempo de reutilización de Transmisión de imagen a <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c> segundos.",
+      "name": "Maestro de la ilusión",
+      "shortText": "Los Reflejos exactos pueden controlarse"
+    },
+    "SamuroMirroredSteel|SamuroMirroredSteelTalent|Q|Level13": {
+      "fullText": "Los ataques básicos de Samuro contra héroes enemigos reducen <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.75</c> segundos el tiempo de reutilización de Reflejo exacto.",
+      "name": "Acero reflejado",
+      "shortText": "Los ataques básicos reducen el tiempo de reutilización de Reflejo exacto"
+    },
+    "SamuroWindwalkKawarimi|WindwalkKawarimiTalent|E|Level13": {
+      "fullText": "Caminaviento crea un Reflejo exacto en la posición de Samuro, que seguirá con la acción que estaba realizando.",
+      "name": "Kawarimi",
+      "shortText": "Caminaviento crea un Reflejo"
+    },
+    "SamuroShukuchi|SamuroShukuchiTalent|E|Level13": {
+      "fullText": "Caminaviento teletransporta a Samuro una distancia corta en la dirección en la que está mirando.",
+      "name": "Shukuchi",
+      "shortText": "Caminaviento teletransporta a Samuro una distancia corta"
+    },
+    "SamuroMercilessStrikes|SamuroMercilessStrikes|W|Level16": {
+      "fullText": "Los ataques básicos de Samuro contra enemigos aturdidos, arraigados o ralentizados siempre son Golpes críticos.",
+      "name": "Ataques despiadados",
+      "shortText": "Siempre inflige Golpes críticos contra objetivos neutralizados"
+    },
+    "SamuroHarshWinds|SamuroHarshWinds|E|Level16": {
+      "fullText": "Si Samuro interrumpe Caminaviento por atacar a un héroe enemigo, inflige un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c> más de daño a ese objetivo durante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> segundos.",
+      "name": "Vientos violentos",
+      "shortText": "Los ataques de Caminaviento infligen más daño"
+    },
+    "SamuroPressTheAttack|SamuroPressTheAttack|Passive|Level16": {
+      "fullText": "Los ataques básicos de Samuro o de sus Reflejos exactos contra héroes enemigos mientras Avance ofensivo está activo aumentan su velocidad de ataque un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c>, hasta un máximo de un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c>.<n/><n/>Estas bonificaciones se pierden al perder Avance ofensivo.",
+      "name": "¡Al ataque!",
+      "shortText": "Avance ofensivo aumenta la velocidad de ataque"
+    },
+    "SamuroDanceOfDeath|SamuroDanceOfDeathTalent|Heroic|Level20": {
+      "fullText": "Los Reflejos exactos usan Filotormenta al mismo tiempo que Samuro, pero infligen un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">45%</c> de daño. Si Samuro golpea al menos a <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c> héroes enemigos con Filotormenta, el tiempo de reutilización se restablece.",
+      "name": "Baile de la muerte",
+      "shortText": "Los Reflejos usan Filotormenta, puede restablecer el tiempo de reutilización"
+    },
+    "SamuroThreeBladeStyle|SamuroThreeBladeStyleTalent|Heroic|Level20": {
+      "fullText": "Los Reflejos exactos de Samuro solo infligen la mitad del daño que reciben, lo que aumenta su salud un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>, y su duración aumenta a <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">16</c> segundos.",
+      "name": "Forma de las tres espadas",
+      "shortText": "Los Reflejos tienen más salud y duran más"
+    },
+    "SamuroWindStrider|SamuroWindStrider|E|Level20": {
+      "fullText": "Reduce <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> segundos el tiempo de reutilización de Caminaviento.",
+      "name": "Trotavientos",
+      "shortText": "Reduce notablemente la reutilización de Caminaviento"
+    },
+    "SamuroBlademastersPursuit|SamuroBlademastersPursuitTalent|Passive|Level20": {
+      "fullText": "Avance ofensivo otorga un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c> más de velocidad de movimiento a Samuro y a sus Reflejos exactos, y su duración aumenta <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> segundos.",
+      "name": "Afán del Maestro del acero",
+      "shortText": "Aumenta la duración y la velocidad de movimiento de Avance ofensivo"
+    }
+  },
+  "units": {}
+}

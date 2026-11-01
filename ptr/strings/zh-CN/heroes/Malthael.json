@@ -1,0 +1,209 @@
+{
+  "abilities": {
+    "MalthaelSoulRip|MalthaelSoulRip|Q": {
+      "cooldownText": "冷却时间：2秒",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">法力值：25</s>",
+      "fullText": "从附近有<c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">死神印记</c>的敌人身上抽取灵魂，造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点伤害，每击中一个目标就为马萨伊尔治疗<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点生命值。英雄目标额外治疗马萨伊尔相当于敌方英雄最大生命值<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4%</c>的生命。",
+      "name": "夺魂",
+      "shortText": "对被标记的敌人造成伤害，恢复生命"
+    },
+    "MalthaelWraithStrike|MalthaelWraithStrike|W": {
+      "cooldownText": "冷却时间：5秒",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">法力值：30</s>",
+      "fullText": "立即传送到一个身上有<c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">死神印记</c>的敌人身边，造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">59</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点伤害，并刷新<c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">死神印记</c>。",
+      "name": "怨鬼扑杀",
+      "shortText": "传送到被标记的目标身边"
+    },
+    "MalthaelDeathShroud|MalthaelDeathShroud|E": {
+      "cooldownText": "冷却时间：8秒",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">法力值：50</s>",
+      "fullText": "<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.25</c>秒后，释放一股黑暗迷雾，对击中的敌人施加<c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">死神印记</c>。",
+      "name": "死亡笼罩",
+      "shortText": "释放一股能量，施加死神印记"
+    },
+    "MalthaelTormentedSouls|MalthaelTormentedSouls|Heroic": {
+      "cooldownText": "冷却时间：60秒",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">法力值：20</s>",
+      "fullText": "释放一波灵魂，持续对附近的敌人施加<c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">死神印记</c>，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>秒。<n/><n/>激活折磨之魂会重置怨鬼扑杀的冷却时间，并且激活时怨鬼扑杀不消耗法力值，冷却时间缩短至<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>秒。",
+      "name": "折磨之魂",
+      "shortText": "对附近的敌人施加死神印记"
+    },
+    "MalthaelLastRites|MalthaelLastRites|Heroic": {
+      "cooldownText": "冷却时间：70秒",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">法力值：100</s>",
+      "fullText": "宣判一名敌方英雄的死亡，在<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>秒后，造成相当于其已损失生命值<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>的伤害。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">任务：</c>敌人若在断魂仪式开始执行一直到其造成伤害的<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c>秒内被杀死，可以永久缩短断魂仪式的冷却时间<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>秒，最多缩短至<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c>秒。",
+      "name": "断魂仪式",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">任务：</c>对一名英雄造成伤害，伤害量取决于其损失的生命值"
+    },
+    ":PASSIVE:|MalthaelReapersMark|Trait": {
+      "fullText": "普通攻击顺劈马萨伊尔前方区域，对非建筑目标施加<c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">死神印记</c>，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>秒。被标记的敌人将会暴露，并且每<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>秒受到相当于其最大生命值<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2%</c>的伤害。",
+      "name": "死神印记",
+      "shortText": "普通攻击可顺劈，施加死神印记"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "冷却时间：4秒",
+      "fullText": "引导<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>秒后，获得<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s>移动速度。",
+      "name": "召唤坐骑"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "引导<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c>秒后，传送回风暴大厅，立即恢复<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c>的生命值和<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c>法力值。",
+      "name": "炉石"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "解除坐骑。",
+      "name": "解除坐骑"
+    },
+    "MalthaelFearTheReaper|MalthaelFearTheReaper|Active": {
+      "cooldownText": "冷却时间：25秒",
+      "fullText": "激活后移动速度提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>，并且可以穿过其他单位，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>秒。",
+      "name": "惧怕夺魂者",
+      "shortText": "激活后提高移动速度"
+    },
+    "MalthaelTouchOfDeath|MalthaelTouchOfDeath|Active": {
+      "cooldownText": "冷却时间：20秒",
+      "fullText": "激活后，身上有<c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">死神印记</c>的英雄获得的治疗效果降低<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>秒。",
+      "name": "死亡之触",
+      "shortText": "激活后降低敌人受到的治疗"
+    },
+    "MalthaelInevitableEnd|MalthaelInevitableEnd|Active": {
+      "cooldownText": "冷却时间：20秒",
+      "fullText": "激活后变得不可阻挡，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>秒，但会移除所有激活的<c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">死神印记</c>。",
+      "name": "在劫难逃",
+      "shortText": "激活后变得不可阻挡，移除印记"
+    },
+    "MalthaelShroudOfWisdom|MalthaelShroudOfWisdom|Active": {
+      "cooldownText": "冷却时间：20秒",
+      "fullText": "<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>秒后，获得<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50</c>点法术护甲，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>秒。",
+      "name": "智慧帷幕",
+      "shortText": "激活后获得法术护甲"
+    },
+    "MalthaelNoOneCanStopDeath|MalthaelNoOneCanStopDeath|Active": {
+      "cooldownText": "冷却时间：180秒",
+      "fullText": "死亡后激活可立即在风暴大厅复活，但马萨伊尔下次复活时间延长<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>。",
+      "name": "没人能阻止死亡",
+      "shortText": "激活后复活"
+    }
+  },
+  "talents": {
+    "MalthaelDeathsReach|MalthaelDeathsReach|W|Level1": {
+      "fullText": "怨鬼扑杀的距离延长<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35%</c>。",
+      "name": "死亡延伸",
+      "shortText": "提高怨鬼扑杀的距离"
+    },
+    "MalthaelOnAPaleHorse|MalthaelOnAPaleHorse|Passive|Level1": {
+      "fullText": "在坐骑上移动速度额外提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c>。",
+      "name": "死神驾到",
+      "shortText": "在坐骑上移动速度提高"
+    },
+    "MalthaelFearTheReaper|MalthaelFearTheReaper|Active|Level1": {
+      "cooldownText": "冷却时间：25秒",
+      "fullText": "激活后移动速度提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>，并且可以穿过其他单位，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>秒。",
+      "name": "惧怕夺魂者",
+      "shortText": "激活后提高移动速度"
+    },
+    "MalthaelDieAlone|MalthaelDieAlone|Q|Level4": {
+      "fullText": "如果夺魂只击中1名英雄，那么伤害提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>。",
+      "name": "孤独死亡",
+      "shortText": "提高夺魂的单体目标伤害"
+    },
+    "MalthaelThrowingShade|MalthaelThrowingShade|E|Level4": {
+      "fullText": "死亡笼罩的使用范围增加<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">33%</c>，冷却时间缩短<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>秒，法力值消耗从<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50</c>点减少至<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30</c>点。<n/><n/>死亡笼罩的第一段攻击可以对非建筑敌人造成相当于最大生命值<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2%</c>的伤害。",
+      "name": "死亡投影",
+      "shortText": "提高死亡笼罩的使用范围，缩短冷却时间"
+    },
+    "MalthaelBlackHarvest|MalthaelBlackHarvest|Trait|Level4": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">任务：</c>对英雄施加的<c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">死神印记</c>总共持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c>秒。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">奖励：</c><c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">死神印记</c>的持续时间永久延长<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>秒。",
+      "name": "黑暗收割",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">任务：</c>延长死神印记的持续时间"
+    },
+    "MalthaelColdHand|MalthaelColdHand|Q|Level7": {
+      "fullText": "夺魂使敌人减速<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c>，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c>秒。",
+      "name": "冰冷之手",
+      "shortText": "夺魂附加减速效果"
+    },
+    "MalthaelMassacre|MalthaelMassacre|W|Level7": {
+      "fullText": "怨鬼扑杀对目标附近的敌人造成伤害，并施加<c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">死神印记</c>。",
+      "name": "屠杀",
+      "shortText": "怨鬼扑杀击中一片区域"
+    },
+    "MalthaelTouchOfDeath|MalthaelTouchOfDeath|Active|Level7": {
+      "cooldownText": "冷却时间：20秒",
+      "fullText": "激活后，身上有<c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">死神印记</c>的英雄获得的治疗效果降低<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>秒。",
+      "name": "死亡之触",
+      "shortText": "激活后降低敌人受到的治疗"
+    },
+    "MalthaelTormentedSouls|MalthaelTormentedSouls|Heroic|Level10": {
+      "cooldownText": "冷却时间：60秒",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">法力值：20</s>",
+      "fullText": "释放一波灵魂，持续对附近的敌人施加<c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">死神印记</c>，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>秒。<n/><n/>激活折磨之魂会重置怨鬼扑杀的冷却时间，并且激活时怨鬼扑杀不消耗法力值，冷却时间缩短至<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>秒。",
+      "name": "折磨之魂",
+      "shortText": "对附近的敌人施加死神印记"
+    },
+    "MalthaelLastRites|MalthaelLastRites|Heroic|Level10": {
+      "cooldownText": "冷却时间：70秒",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">法力值：100</s>",
+      "fullText": "宣判一名敌方英雄的死亡，在<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>秒后，造成相当于其已损失生命值<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>的伤害。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">任务：</c>敌人若在断魂仪式开始执行一直到其造成伤害的<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c>秒内被杀死，可以永久缩短断魂仪式的冷却时间<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>秒，最多缩短至<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c>秒。",
+      "name": "断魂仪式",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">任务：</c>对一名英雄造成伤害，伤害量取决于其损失的生命值"
+    },
+    "MalthaelSoulSiphon|MalthaelSoulSiphon|Q|Level13": {
+      "fullText": "夺魂在英雄身上获得的治疗加成提高至该英雄最大生命值的<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4.75%</c>。",
+      "name": "灵魂虹吸",
+      "shortText": "提高夺魂的治疗效果"
+    },
+    "MalthaelEtherealExistence|MalthaelEtherealExistence|Trait|Level13": {
+      "fullText": "每有1名敌方英雄受到<c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">死神印记</c>影响，获得<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c>点物理护甲，最多<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30</c>点。",
+      "name": "虚幻之躯",
+      "shortText": "被标记的目标使你获得物理护甲"
+    },
+    "MalthaelInevitableEnd|MalthaelInevitableEnd|Active|Level13": {
+      "cooldownText": "冷却时间：20秒",
+      "fullText": "激活后变得不可阻挡，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>秒，但会移除所有激活的<c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">死神印记</c>。",
+      "name": "在劫难逃",
+      "shortText": "激活后变得不可阻挡，移除印记"
+    },
+    "MalthaelShroudOfWisdom|MalthaelShroudOfWisdom|Active|Level13": {
+      "cooldownText": "冷却时间：20秒",
+      "fullText": "<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>秒后，获得<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50</c>点法术护甲，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>秒。",
+      "name": "智慧帷幕",
+      "shortText": "激活后获得法术护甲"
+    },
+    "MalthaelSoulCollector|MalthaelSoulCollector|Q|Level16": {
+      "fullText": "夺魂的冷却时间缩短<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c>秒，距离延长<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>。",
+      "name": "集魂者",
+      "shortText": "提高夺魂的距离，缩短冷却时间"
+    },
+    "MalthaelMortality|MalthaelMortality|W|Level16": {
+      "fullText": "怨鬼扑杀对英雄造成伤害时，造成相当于该英雄最大生命值<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8%</c>的额外伤害。",
+      "name": "震魂摄魄",
+      "shortText": "怨鬼扑杀对英雄造成额外伤害"
+    },
+    "MalthaelMementoMori|MalthaelMementoMori|Trait|Level16": {
+      "fullText": "<c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">死神印记</c>在敌人身上持续时间超过<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>秒后，伤害提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60%</c>。",
+      "name": "死亡警示",
+      "shortText": "死神印记的持续伤害提高"
+    },
+    "MalthaelReaperOfSouls|MalthaelReaperOfSouls|Heroic|Level20": {
+      "fullText": "折磨之魂的持续时间延长至<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c>秒，折磨之魂激活时，击杀英雄会重置持续时间。<n/><n/>如果折磨之魂的范围内存在<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>名或以上敌方英雄，该技能的剩余持续时间不会减少。",
+      "name": "夺魂之镰",
+      "shortText": "延长折磨之魂的持续时间"
+    },
+    "MalthaelAngelOfDeath|MalthaelAngelOfDeath|Heroic|Level20": {
+      "fullText": "断魂仪式治疗马萨伊尔，数值相当于造成伤害的<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c>，并且其当前和后续的冷却时间缩短加成效果翻倍。",
+      "name": "死亡天使",
+      "shortText": "断魂仪式附加治疗效果"
+    },
+    "MalthaelFinalCurtain|MalthaelFinalCurtain|E|Level20": {
+      "fullText": "死亡笼罩留下一条轨迹，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>秒，对范围内的敌人施加<c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">死神印记</c>。",
+      "name": "谢幕演出",
+      "shortText": "死亡笼罩留下一条轨迹"
+    },
+    "MalthaelNoOneCanStopDeath|MalthaelNoOneCanStopDeath|Active|Level20": {
+      "cooldownText": "冷却时间：180秒",
+      "fullText": "死亡后激活可立即在风暴大厅复活，但马萨伊尔下次复活时间延长<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>。",
+      "name": "没人能阻止死亡",
+      "shortText": "激活后复活"
+    }
+  },
+  "units": {}
+}

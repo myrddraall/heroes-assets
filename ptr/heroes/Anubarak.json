@@ -1,0 +1,843 @@
+{
+  "id": "Anubarak",
+  "unitId": "HeroAnubarak",
+  "hyperlinkId": "Anubarak",
+  "attributeId": "Anub",
+  "franchise": "Warcraft",
+  "rarity": "Epic",
+  "releaseDate": "2014-10-07",
+  "isMelee": true,
+  "gender": "Male",
+  "radius": 1.0625,
+  "innerRadius": 0.875,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "AnubarakWings",
+  "ratings": {
+    "complexity": 5,
+    "damage": 4,
+    "survivability": 7,
+    "utility": 6
+  },
+  "life": {
+    "amount": 2150,
+    "scale": 0.04,
+    "regenRate": 4.4804,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "BodyBlocker",
+    "EnergyImportant",
+    "Escaper",
+    "Ganker",
+    "Overconfident",
+    "RoleTank"
+  ],
+  "summonedUnitIds": [
+    "AnubarakBeetleSpitBeetle",
+    "AnubarakCocoonFat",
+    "AnubarakCocoonNormal"
+  ],
+  "weapons": [
+    {
+      "nameId": "AnubarakHeroWeapon",
+      "isDisabled": false,
+      "range": 1.5,
+      "minimumRange": 0,
+      "period": 1,
+      "damage": 81,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "AnubarakCyberNeonSkin",
+    "AnubarakCyberSkin",
+    "AnubarakLovebug",
+    "AnubarakUltimate",
+    "AnubarakZerg"
+  ],
+  "variationSkinIds": [
+    "AnubarakIce",
+    "AnubarakWhite"
+  ],
+  "voiceLineIds": [
+    "AnubarakBase_VoiceLine01",
+    "AnubarakBase_VoiceLine02",
+    "AnubarakBase_VoiceLine03",
+    "AnubarakBase_VoiceLine04",
+    "AnubarakBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "AnubarakWings",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "AnubarakImpale|AnubarakImpale|Q",
+        "abilityId": "AnubarakImpale",
+        "buttonId": "AnubarakImpale",
+        "icon": "storm_ui_icon_anubarak_impale.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "AnubarakHardenCarapace|AnubarakHardenCarapace|W",
+        "abilityId": "AnubarakHardenCarapace",
+        "buttonId": "AnubarakHardenCarapace",
+        "icon": "storm_ui_icon_anubarak_hardencarapace_var1.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "AnubarakBurrowCharge|AnubarakBurrowCharge|E",
+        "abilityId": "AnubarakBurrowCharge",
+        "buttonId": "AnubarakBurrowCharge",
+        "icon": "storm_ui_icon_anubarak_burrowcharge.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "AnubarakLocustSwarm|AnubarakLocustSwarm|Heroic",
+        "abilityId": "AnubarakLocustSwarm",
+        "buttonId": "AnubarakLocustSwarm",
+        "icon": "storm_ui_icon_anubarak_locustswarm.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "AnubarakCocoon|AnubarakCocoon|Heroic",
+        "abilityId": "AnubarakCocoon",
+        "buttonId": "AnubarakCocoon",
+        "icon": "storm_ui_icon_anubarak_webblast.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": "AnubarakLegionOfBeetlesVisual|AnubarakScarabHostTrait|Trait",
+        "abilityId": "AnubarakLegionOfBeetlesVisual",
+        "buttonId": "AnubarakScarabHostTrait",
+        "icon": "storm_ui_icon_anubarak_scarabhost.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "AnubarakBurrowCharge|AnubarakBurrowCharge|E": {
+      "Basic": [
+        {
+          "linkId": "AnubarakBurrowChargeCancel|AnubarakBurrowChargeCancel|E",
+          "abilityId": "AnubarakBurrowChargeCancel",
+          "buttonId": "AnubarakBurrowChargeCancel",
+          "icon": "storm_ui_icon_anubarak_burrowchargecancel.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "E"
+        }
+      ]
+    },
+    "AnubarakLegionOfBeetlesToggle|AnubarakScarabHostToggleLegionOfBeetlesOff|Trait": {
+      "Activable": [
+        {
+          "linkId": "AnubarakLegionOfBeetlesToggle|AnubarakScarabHostToggleLegionOfBeetlesOn|Trait",
+          "abilityId": "AnubarakLegionOfBeetlesToggle",
+          "buttonId": "AnubarakScarabHostToggleLegionOfBeetlesOn",
+          "icon": "storm_ui_icon_anubarak_scarabhost.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Trait"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "AnubarakCombatStyleLegionOfBeetles|AnubarakLegionOfBeetlesTalent|Trait|Level1": {
+      "Activable": [
+        {
+          "linkId": "AnubarakLegionOfBeetlesToggle|AnubarakScarabHostToggleLegionOfBeetlesOff|Trait",
+          "abilityId": "AnubarakLegionOfBeetlesToggle",
+          "buttonId": "AnubarakScarabHostToggleLegionOfBeetlesOff",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Trait"
+        }
+      ]
+    },
+    "AnubarakTheTraitorKing|AnubarakTheTraitorKing|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "AnubarakTheTraitorKing|AnubarakTheTraitorKing|Active",
+          "abilityId": "AnubarakTheTraitorKing",
+          "buttonId": "AnubarakTheTraitorKing",
+          "icon": "storm_ui_glues_draft_portrait_anubarak.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "GenericTalentRewind|GenericRewindHotbar|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "TalentRewind|GenericRewindHotbar|Active",
+          "abilityId": "TalentRewind",
+          "buttonId": "GenericRewindHotbar",
+          "icon": "storm_ui_icon_talent_rewind.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "AnubarakNerubianArmor|AnubarakNerubianArmor|W|Level1",
+        "talentId": "AnubarakNerubianArmor",
+        "buttonId": "AnubarakNerubianArmor",
+        "abilityId": "AnubarakHardenCarapace",
+        "icon": "storm_ui_icon_anubarak_hardencarapace_var1.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AnubarakHardenCarapace|AnubarakHardenCarapace|W"
+        ]
+      },
+      {
+        "linkId": "AnubarakCombatStyleLegionOfBeetles|AnubarakLegionOfBeetlesTalent|Trait|Level1",
+        "talentId": "AnubarakCombatStyleLegionOfBeetles",
+        "buttonId": "AnubarakLegionOfBeetlesTalent",
+        "abilityId": "AnubarakLegionOfBeetlesToggle",
+        "icon": "storm_ui_icon_anubarak_scarabhost.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "AnubarakLegionOfBeetlesVisual|AnubarakScarabHostTrait|Trait"
+        ]
+      },
+      {
+        "linkId": "GenericTalentRegenerationMaster|GenericRegenerationMasterTalent|Passive|Level1",
+        "talentId": "GenericTalentRegenerationMaster",
+        "buttonId": "GenericRegenerationMasterTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_regenerationmaster.png",
+        "abilityType": "Passive",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "AnubarakMasteryBedOfBarbs|AnubarakImpaleBedOfBarbsTalent|Q|Level4",
+        "talentId": "AnubarakMasteryBedOfBarbs",
+        "buttonId": "AnubarakImpaleBedOfBarbsTalent",
+        "abilityId": "AnubarakImpale",
+        "icon": "storm_ui_icon_anubarak_impale.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AnubarakImpale|AnubarakImpale|Q"
+        ]
+      },
+      {
+        "linkId": "AnubarakMasteryShedExoskeletonHardenCarapace|AnubarakRegeneratingCarapaceShedExoskeletonTalent|W|Level4",
+        "talentId": "AnubarakMasteryShedExoskeletonHardenCarapace",
+        "buttonId": "AnubarakRegeneratingCarapaceShedExoskeletonTalent",
+        "abilityId": "AnubarakHardenCarapace",
+        "icon": "storm_ui_icon_anubarak_hardencarapace_var1.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "AnubarakHardenCarapace|AnubarakHardenCarapace|W"
+        ]
+      },
+      {
+        "linkId": "AnubarakMasteryUnderkingBurrowCharge|AnubarakBurrowChargeUnderkingTalent|E|Level4",
+        "talentId": "AnubarakMasteryUnderkingBurrowCharge",
+        "buttonId": "AnubarakBurrowChargeUnderkingTalent",
+        "abilityId": "AnubarakBurrowCharge",
+        "icon": "storm_ui_icon_anubarak_burrowcharge.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "AnubarakBurrowCharge|AnubarakBurrowCharge|E"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "AnubarakCombatStyleChitinousPlating|AnubarakRegeneratingCarapaceChitinousPlatingTalent|W|Level7",
+        "talentId": "AnubarakCombatStyleChitinousPlating",
+        "buttonId": "AnubarakRegeneratingCarapaceChitinousPlatingTalent",
+        "abilityId": "AnubarakHardenCarapace",
+        "icon": "storm_ui_icon_anubarak_hardencarapace_var1.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AnubarakHardenCarapace|AnubarakHardenCarapace|W"
+        ]
+      },
+      {
+        "linkId": "AnubarakSubterraneanShield|AnubarakSubterraneanShield|E|Level7",
+        "talentId": "AnubarakSubterraneanShield",
+        "buttonId": "AnubarakSubterraneanShield",
+        "abilityId": "AnubarakBurrowCharge",
+        "icon": "storm_ui_icon_anubarak_burrowcharge.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "AnubarakBurrowCharge|AnubarakBurrowCharge|E"
+        ]
+      },
+      {
+        "linkId": "AnubarakMasteryLeechingScarabs|AnubarakLeechingMandiblesTalent|Trait|Level7",
+        "talentId": "AnubarakMasteryLeechingScarabs",
+        "buttonId": "AnubarakLeechingMandiblesTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_anubarak_scarabhost.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "AnubarakLegionOfBeetlesVisual|AnubarakScarabHostTrait|Trait"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "AnubarakLocustSwarm|AnubarakLocustSwarm|Heroic|Level10",
+        "talentId": "AnubarakLocustSwarm",
+        "buttonId": "AnubarakLocustSwarm",
+        "abilityId": "AnubarakLocustSwarm",
+        "icon": "storm_ui_icon_anubarak_locustswarm.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "AnubarakHeroicAbilityCocoon|AnubarakCocoon|Heroic|Level10",
+        "talentId": "AnubarakHeroicAbilityCocoon",
+        "buttonId": "AnubarakCocoon",
+        "abilityId": "AnubarakCocoon",
+        "icon": "storm_ui_icon_anubarak_webblast.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "AnubarakMasteryUrticatingSpines|AnubarakHardenCarapaceUrtricatingSpinesTalent|W|Level13",
+        "talentId": "AnubarakMasteryUrticatingSpines",
+        "buttonId": "AnubarakHardenCarapaceUrtricatingSpinesTalent",
+        "abilityId": "AnubarakHardenCarapace",
+        "icon": "storm_ui_icon_anubarak_hardencarapace_var1.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AnubarakHardenCarapace|AnubarakHardenCarapace|W"
+        ]
+      },
+      {
+        "linkId": "AnubarakBurningBeetles|AnubarakBurningBeetlesTalent|Trait|Level13",
+        "talentId": "AnubarakBurningBeetles",
+        "buttonId": "AnubarakBurningBeetlesTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_burningrage.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 2
+      },
+      {
+        "linkId": "AnubarakAcidDrenchedMandibles|AnubarakAcidDrenchedMandibles|Passive|Level13",
+        "talentId": "AnubarakAcidDrenchedMandibles",
+        "buttonId": "AnubarakAcidDrenchedMandibles",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_damage.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "AnubarakMasteryEpicenterBurrowCharge|AnubarakBurrowChargeEpicenterTalent|E|Level16",
+        "talentId": "AnubarakMasteryEpicenterBurrowCharge",
+        "buttonId": "AnubarakBurrowChargeEpicenterTalent",
+        "abilityId": "AnubarakBurrowCharge",
+        "icon": "storm_ui_icon_anubarak_burrowcharge.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AnubarakBurrowCharge|AnubarakBurrowCharge|E"
+        ]
+      },
+      {
+        "linkId": "AnubarakDebilitation|AnubarakDebilitation|Passive|Level16",
+        "talentId": "AnubarakDebilitation",
+        "buttonId": "AnubarakDebilitation",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_anubarak_combo_q_e.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "AnubarakImpale|AnubarakImpale|Q",
+          "AnubarakBurrowCharge|AnubarakBurrowCharge|E"
+        ]
+      },
+      {
+        "linkId": "AnubarakScarabHostBeetleJuiced|AnubarakBeetleSpitBeetleJuiceTalent|Trait|Level16",
+        "talentId": "AnubarakScarabHostBeetleJuiced",
+        "buttonId": "AnubarakBeetleSpitBeetleJuiceTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_anubarak_scarabhost.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "AnubarakLegionOfBeetlesVisual|AnubarakScarabHostTrait|Trait"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "AnubarakLocustSwarmHiveMaster|AnubarakLocustSwarmHiveMasterTalent|Heroic|Level20",
+        "talentId": "AnubarakLocustSwarmHiveMaster",
+        "buttonId": "AnubarakLocustSwarmHiveMasterTalent",
+        "abilityId": "AnubarakLocustSwarm",
+        "icon": "storm_ui_icon_anubarak_locustswarm.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AnubarakLocustSwarm|AnubarakLocustSwarm|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "AnubarakLocustSwarm"
+        ]
+      },
+      {
+        "linkId": "AnubarakCocoonCryptweave|AnubarakCryptweaveCocoonTalent|Heroic|Level20",
+        "talentId": "AnubarakCocoonCryptweave",
+        "buttonId": "AnubarakCryptweaveCocoonTalent",
+        "abilityId": "AnubarakCocoon",
+        "icon": "storm_ui_icon_anubarak_webblast.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "AnubarakCocoon|AnubarakCocoon|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "AnubarakHeroicAbilityCocoon"
+        ]
+      },
+      {
+        "linkId": "AnubarakTheTraitorKing|AnubarakTheTraitorKing|Active|Level20",
+        "talentId": "AnubarakTheTraitorKing",
+        "buttonId": "AnubarakTheTraitorKing",
+        "abilityId": "AnubarakTheTraitorKing",
+        "icon": "storm_ui_glues_draft_portrait_anubarak.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      },
+      {
+        "linkId": "GenericTalentRewind|GenericRewindHotbar|Active|Level20",
+        "talentId": "GenericTalentRewind",
+        "buttonId": "GenericRewindHotbar",
+        "abilityId": "TalentRewind",
+        "icon": "storm_ui_icon_talent_rewind.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      }
+    ]
+  },
+  "sheets": {
+    "abilities": {
+      "sheet": "sheets/Anubarak/abilities.webp",
+      "icons": {
+        "storm_ui_icon_anubarak_impale.png": [
+          130,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_anubarak_hardencarapace_var1.png": [
+          0,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_anubarak_burrowcharge.png": [
+          182,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_anubarak_locustswarm.png": [
+          260,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_anubarak_webblast.png": [
+          130,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_anubarak_scarabhost.png": [
+          0,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          290,
+          474,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          99,
+          474,
+          111,
+          71
+        ],
+        "storm_ui_icon_anubarak_burrowchargecancel.png": [
+          312,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          212,
+          474,
+          76,
+          48
+        ],
+        "hud_btn_bg_ability_cancel.png": [
+          0,
+          474,
+          97,
+          111
+        ],
+        "storm_ui_glues_draft_portrait_anubarak.png": [
+          0,
+          0,
+          180,
+          212
+        ],
+        "storm_ui_icon_talent_rewind.png": [
+          260,
+          344,
+          128,
+          128
+        ]
+      }
+    },
+    "talents": {
+      "sheet": "sheets/Anubarak/talents.webp",
+      "icons": {
+        "storm_ui_icon_anubarak_hardencarapace_var1.png": [
+          0,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_anubarak_scarabhost.png": [
+          0,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_regenerationmaster.png": [
+          130,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_anubarak_impale.png": [
+          130,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_anubarak_burrowcharge.png": [
+          182,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_anubarak_locustswarm.png": [
+          260,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_anubarak_webblast.png": [
+          130,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_burningrage.png": [
+          0,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_damage.png": [
+          260,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_anubarak_combo_q_e.png": [
+          312,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_glues_draft_portrait_anubarak.png": [
+          0,
+          0,
+          180,
+          212
+        ],
+        "storm_ui_icon_talent_rewind.png": [
+          260,
+          474,
+          128,
+          128
+        ]
+      }
+    },
+    "hero": {
+      "sheet": "sheets/Anubarak/hero.webp",
+      "icons": {
+        "storm_ui_icon_anubarak_impale.png": [
+          260,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_anubarak_hardencarapace_var1.png": [
+          130,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_anubarak_burrowcharge.png": [
+          182,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_anubarak_locustswarm.png": [
+          390,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_anubarak_webblast.png": [
+          130,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_anubarak_scarabhost.png": [
+          0,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          0,
+          677,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          0,
+          604,
+          111,
+          71
+        ],
+        "storm_ui_icon_anubarak_burrowchargecancel.png": [
+          312,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          423,
+          604,
+          76,
+          48
+        ],
+        "hud_btn_bg_ability_cancel.png": [
+          260,
+          474,
+          97,
+          111
+        ],
+        "storm_ui_glues_draft_portrait_anubarak.png": [
+          0,
+          0,
+          180,
+          212
+        ],
+        "storm_ui_icon_talent_rewind.png": [
+          130,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_regenerationmaster.png": [
+          0,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_burningrage.png": [
+          390,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_damage.png": [
+          260,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_anubarak_combo_q_e.png": [
+          0,
+          214,
+          128,
+          128
+        ]
+      },
+      "portraits": {
+        "draftScreen": [
+          0,
+          0,
+          180,
+          212
+        ],
+        "minimap": [
+          78,
+          677,
+          32,
+          32
+        ],
+        "partyPanel": [
+          243,
+          604,
+          178,
+          56
+        ],
+        "target": [
+          359,
+          474,
+          92,
+          93
+        ],
+        "targetInfo": [
+          113,
+          604,
+          128,
+          56
+        ]
+      }
+    }
+  }
+}

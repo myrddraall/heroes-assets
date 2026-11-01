@@ -1,0 +1,816 @@
+{
+  "id": "Hogger",
+  "unitId": "HeroHogger",
+  "hyperlinkId": "Hogger",
+  "attributeId": "HOGG",
+  "franchise": "Warcraft",
+  "rarity": "Legendary",
+  "releaseDate": "2020-12-01",
+  "isMelee": true,
+  "gender": "Male",
+  "radius": 0.875,
+  "innerRadius": 0,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 8,
+    "damage": 7,
+    "survivability": 7,
+    "utility": 8
+  },
+  "life": {
+    "amount": 2260,
+    "scale": 0.04,
+    "regenRate": 4.711,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 100,
+    "regenRate": 0
+  },
+  "summonedUnitIds": [
+    "HoggerEzThroDynamite"
+  ],
+  "weapons": [
+    {
+      "nameId": "HoggerHeroWeapon",
+      "isDisabled": false,
+      "range": 2,
+      "minimumRange": 0,
+      "period": 1.375,
+      "damage": 150,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "HoggerCapN"
+  ],
+  "variationSkinIds": [
+    "HoggerVar1",
+    "HoggerVar2",
+    "HoggerVar3",
+    "HoggerVar4",
+    "HoggerVar5"
+  ],
+  "voiceLineIds": [
+    "HoggerBase_VoiceLine01",
+    "HoggerBase_VoiceLine02",
+    "HoggerBase_VoiceLine03",
+    "HoggerBase_VoiceLine04",
+    "HoggerBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "HoggerStaggeringBlow|HoggerStaggeringBlow|Q",
+        "abilityId": "HoggerStaggeringBlow",
+        "buttonId": "HoggerStaggeringBlow",
+        "icon": "storm_ui_icon_hogger_q.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "HoggerEzThroDynamite|HoggerEzThroDynamite|W",
+        "abilityId": "HoggerEzThroDynamite",
+        "buttonId": "HoggerEzThroDynamite",
+        "icon": "storm_ui_icon_hogger_w.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "HoggerHoggWild|HoggerHoggWild|E",
+        "abilityId": "HoggerHoggWild",
+        "buttonId": "HoggerHoggWild",
+        "icon": "storm_ui_icon_hogger_e.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "HoggerHoardapult|HoggerHoardapult|Heroic",
+        "abilityId": "HoggerHoardapult",
+        "buttonId": "HoggerHoardapult",
+        "icon": "storm_ui_icon_hogger_r1.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "HoggerShockwave|HoggerShockwave|Heroic",
+        "abilityId": "HoggerShockwave",
+        "buttonId": "HoggerShockwave",
+        "icon": "storm_ui_icon_hogger_r2.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": "HoggerLootHoard|HoggerLootHoard|Trait",
+        "abilityId": "HoggerLootHoard",
+        "buttonId": "HoggerLootHoard",
+        "icon": "storm_ui_icon_hogger_trait.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "HoggerHoggWild|HoggerHoggWild|E": {
+      "Basic": [
+        {
+          "linkId": "HoggerCancelHoggWild|HoggerCancelHoggWild|E",
+          "abilityId": "HoggerCancelHoggWild",
+          "buttonId": "HoggerCancelHoggWild",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "E"
+        }
+      ]
+    },
+    "HoggerHoardapult|HoggerHoardapult|Heroic": {
+      "Heroic": [
+        {
+          "linkId": "HoggerCancelHoardapult|HoggerDestroyHoardapult|Heroic",
+          "abilityId": "HoggerCancelHoardapult",
+          "buttonId": "HoggerDestroyHoardapult",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "toggleCooldown": 0.75,
+          "abilityType": "Heroic"
+        }
+      ]
+    },
+    "HoggerLootHoard|HoggerLootHoard|Trait": {
+      "Trait": [
+        {
+          "linkId": "HoggerCancelLootHoard|HoggerDestroyLootHoard|Trait",
+          "abilityId": "HoggerCancelLootHoard",
+          "buttonId": "HoggerDestroyLootHoard",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "toggleCooldown": 0.75,
+          "abilityType": "Trait"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "HoggerOnTheProwl|HoggerOnTheProwl|Active|Level1": {
+      "Activable": [
+        {
+          "linkId": "HoggerOnTheProwl|HoggerOnTheProwl|Active",
+          "abilityId": "HoggerOnTheProwl",
+          "buttonId": "HoggerOnTheProwl",
+          "icon": "storm_ui_icon_hogger_rage.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "HoggerNoControl|HoggerNoControl|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "HoggerNoControl|HoggerNoControl|Active",
+          "abilityId": "HoggerNoControl",
+          "buttonId": "HoggerNoControl",
+          "icon": "storm_ui_icon_hogger_e_variant.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "HoggerJourneymanCooking|HoggerJourneymanCooking|W|Level1",
+        "talentId": "HoggerJourneymanCooking",
+        "buttonId": "HoggerJourneymanCooking",
+        "abilityId": "HoggerEzThroDynamite",
+        "icon": "storm_ui_icon_hogger_w.png",
+        "abilityType": "W",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "HoggerEzThroDynamite|HoggerEzThroDynamite|W"
+        ]
+      },
+      {
+        "linkId": "HoggerBonestoGnaw|HoggerBonestoGnaw|Trait|Level1",
+        "talentId": "HoggerBonestoGnaw",
+        "buttonId": "HoggerBonestoGnaw",
+        "abilityId": "HoggerLootHoard",
+        "icon": "storm_ui_icon_hogger_trait.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "HoggerLootHoard|HoggerLootHoard|Trait"
+        ]
+      },
+      {
+        "linkId": "HoggerOnTheProwl|HoggerOnTheProwl|Active|Level1",
+        "talentId": "HoggerOnTheProwl",
+        "buttonId": "HoggerOnTheProwl",
+        "abilityId": "HoggerOnTheProwl",
+        "icon": "storm_ui_icon_hogger_rage.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "HoggerBruteForce|HoggerBruteForce|Q|Level4",
+        "talentId": "HoggerBruteForce",
+        "buttonId": "HoggerBruteForce",
+        "abilityId": "HoggerStaggeringBlow",
+        "icon": "storm_ui_icon_hogger_combo_q_d.png",
+        "abilityType": "Q",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "HoggerStaggeringBlow|HoggerStaggeringBlow|Q"
+        ]
+      },
+      {
+        "linkId": "HoggerAggroRange|HoggerAggroRange|E|Level4",
+        "talentId": "HoggerAggroRange",
+        "buttonId": "HoggerAggroRange",
+        "abilityId": "HoggerHoggWild",
+        "icon": "storm_ui_icon_hogger_e.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "HoggerHoggWild|HoggerHoggWild|E"
+        ]
+      },
+      {
+        "linkId": "HoggerHoggersJoggers|HoggerHoggersJoggers|Passive|Level4",
+        "talentId": "HoggerHoggersJoggers",
+        "buttonId": "HoggerHoggersJoggers",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_hogger_rage.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "HoggerDenseBlastingPowder|HoggerDenseBlastingPowder|W|Level7",
+        "talentId": "HoggerDenseBlastingPowder",
+        "buttonId": "HoggerDenseBlastingPowder",
+        "abilityId": "HoggerEzThroDynamite",
+        "icon": "storm_ui_icon_hogger_w.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "HoggerStaggeringBlow|HoggerStaggeringBlow|Q",
+          "HoggerEzThroDynamite|HoggerEzThroDynamite|W"
+        ]
+      },
+      {
+        "linkId": "HoggerGarbageFire|HoggerGarbageFire|Trait|Level7",
+        "talentId": "HoggerGarbageFire",
+        "buttonId": "HoggerGarbageFire",
+        "abilityId": "HoggerLootHoard",
+        "icon": "storm_ui_icon_hogger_trait.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "HoggerLootHoard|HoggerLootHoard|Trait"
+        ]
+      },
+      {
+        "linkId": "HoggerSeeingRed|HoggerSeeingRed|Passive|Level7",
+        "talentId": "HoggerSeeingRed",
+        "buttonId": "HoggerSeeingRed",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_hogger_rage.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "HoggerStaggeringBlow|HoggerStaggeringBlow|Q",
+          "HoggerHoggWild|HoggerHoggWild|E"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "HoggerHoardapult|HoggerHoardapult|Heroic|Level10",
+        "talentId": "HoggerHoardapult",
+        "buttonId": "HoggerHoardapult",
+        "abilityId": "HoggerHoardapult",
+        "icon": "storm_ui_icon_hogger_r1.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "HoggerShockwave|HoggerShockwave|Heroic|Level10",
+        "talentId": "HoggerShockwave",
+        "buttonId": "HoggerShockwave",
+        "abilityId": "HoggerShockwave",
+        "icon": "storm_ui_icon_hogger_r2.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "HoggerDustDevil|HoggerDustDevil|E|Level13",
+        "talentId": "HoggerDustDevil",
+        "buttonId": "HoggerDustDevil",
+        "abilityId": "HoggerHoggWild",
+        "icon": "storm_ui_icon_hogger_e.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "HoggerHoggWild|HoggerHoggWild|E"
+        ]
+      },
+      {
+        "linkId": "HoggerPummel|HoggerPummel|E|Level13",
+        "talentId": "HoggerPummel",
+        "buttonId": "HoggerPummel",
+        "abilityId": "HoggerHoggWild",
+        "icon": "storm_ui_icon_hogger_e_variant.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "HoggerHoggWild|HoggerHoggWild|E"
+        ]
+      },
+      {
+        "linkId": "HoggerBloodthirst|HoggerBloodthirst|Passive|Level13",
+        "talentId": "HoggerBloodthirst",
+        "buttonId": "HoggerBloodthirst",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_heal.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "HoggerStaggeringBlow|HoggerStaggeringBlow|Q",
+          "HoggerHoggWild|HoggerHoggWild|E"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "HoggerHeadbanger|HoggerHeadbanger|Q|Level16",
+        "talentId": "HoggerHeadbanger",
+        "buttonId": "HoggerHeadbanger",
+        "abilityId": "HoggerStaggeringBlow",
+        "icon": "storm_ui_icon_hogger_q.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "HoggerStaggeringBlow|HoggerStaggeringBlow|Q"
+        ]
+      },
+      {
+        "linkId": "HoggerKablooie|HoggerKablooie|W|Level16",
+        "talentId": "HoggerKablooie",
+        "buttonId": "HoggerKablooie",
+        "abilityId": "HoggerEzThroDynamite",
+        "icon": "storm_ui_icon_hogger_w.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "HoggerEzThroDynamite|HoggerEzThroDynamite|W"
+        ]
+      },
+      {
+        "linkId": "HoggerFurzerker|HoggerFurzerker|Passive|Level16",
+        "talentId": "HoggerFurzerker",
+        "buttonId": "HoggerFurzerker",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_damage.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "HoggerStaggeringBlow|HoggerStaggeringBlow|Q",
+          "HoggerEzThroDynamite|HoggerEzThroDynamite|W",
+          "HoggerHoggWild|HoggerHoggWild|E"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "HoggerSecretStash|HoggerSecretStash|Heroic|Level20",
+        "talentId": "HoggerSecretStash",
+        "buttonId": "HoggerSecretStash",
+        "abilityId": "HoggerHoardapult",
+        "icon": "storm_ui_icon_hogger_r1.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "HoggerHoardapult|HoggerHoardapult|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "HoggerHoardapult"
+        ]
+      },
+      {
+        "linkId": "HoggerPowerSpike|HoggerPowerSpike|Heroic|Level20",
+        "talentId": "HoggerPowerSpike",
+        "buttonId": "HoggerPowerSpike",
+        "abilityId": "HoggerShockwave",
+        "icon": "storm_ui_icon_hogger_r2.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "HoggerShockwave|HoggerShockwave|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "HoggerShockwave"
+        ]
+      },
+      {
+        "linkId": "HoggerNoControl|HoggerNoControl|Active|Level20",
+        "talentId": "HoggerNoControl",
+        "buttonId": "HoggerNoControl",
+        "abilityId": "HoggerNoControl",
+        "icon": "storm_ui_icon_hogger_e_variant.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      },
+      {
+        "linkId": "HoggerAngerManagement|HoggerAngerManagement|Passive|Level20",
+        "talentId": "HoggerAngerManagement",
+        "buttonId": "HoggerAngerManagement",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_hogger_rage.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      }
+    ]
+  },
+  "sheets": {
+    "abilities": {
+      "sheet": "sheets/Hogger/abilities.webp",
+      "icons": {
+        "storm_ui_icon_hogger_q.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_hogger_w.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_hogger_e.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_hogger_r1.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_hogger_r2.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_hogger_trait.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          191,
+          390,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          0,
+          390,
+          111,
+          71
+        ],
+        "hud_btn_bg_ability_cancel.png": [
+          260,
+          260,
+          97,
+          111
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          113,
+          390,
+          76,
+          48
+        ],
+        "storm_ui_icon_hogger_rage.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_hogger_e_variant.png": [
+          0,
+          0,
+          128,
+          128
+        ]
+      }
+    },
+    "talents": {
+      "sheet": "sheets/Hogger/talents.webp",
+      "icons": {
+        "storm_ui_icon_hogger_w.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_hogger_trait.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_hogger_rage.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_hogger_combo_q_d.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_hogger_e.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_hogger_r1.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_hogger_r2.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_hogger_e_variant.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_heal.png": [
+          130,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_hogger_q.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_damage.png": [
+          0,
+          390,
+          128,
+          128
+        ]
+      }
+    },
+    "hero": {
+      "sheet": "sheets/Hogger/hero.webp",
+      "icons": {
+        "storm_ui_icon_hogger_q.png": [
+          130,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_hogger_w.png": [
+          260,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_hogger_e.png": [
+          0,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_hogger_r1.png": [
+          260,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_hogger_r2.png": [
+          390,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_hogger_trait.png": [
+          130,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          388,
+          604,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          323,
+          474,
+          111,
+          71
+        ],
+        "hud_btn_bg_ability_cancel.png": [
+          130,
+          474,
+          97,
+          111
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          310,
+          604,
+          76,
+          48
+        ],
+        "storm_ui_icon_hogger_rage.png": [
+          0,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_hogger_e_variant.png": [
+          312,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_hogger_combo_q_d.png": [
+          182,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_heal.png": [
+          0,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_damage.png": [
+          390,
+          344,
+          128,
+          128
+        ]
+      },
+      "portraits": {
+        "draftScreen": [
+          0,
+          0,
+          180,
+          212
+        ],
+        "minimap": [
+          466,
+          604,
+          32,
+          32
+        ],
+        "partyPanel": [
+          130,
+          604,
+          178,
+          56
+        ],
+        "target": [
+          229,
+          474,
+          92,
+          93
+        ],
+        "targetInfo": [
+          0,
+          604,
+          128,
+          56
+        ]
+      }
+    }
+  }
+}

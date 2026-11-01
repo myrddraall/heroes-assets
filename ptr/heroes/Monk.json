@@ -1,0 +1,1033 @@
+{
+  "id": "Monk",
+  "unitId": "HeroMonk",
+  "hyperlinkId": "Kharazim",
+  "attributeId": "Monk",
+  "franchise": "Diablo",
+  "rarity": "Epic",
+  "releaseDate": "2015-08-18",
+  "isMelee": true,
+  "gender": "Male",
+  "radius": 0.625,
+  "innerRadius": 0.625,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 4,
+    "damage": 4,
+    "survivability": 7,
+    "utility": 9
+  },
+  "life": {
+    "amount": 2080,
+    "scale": 0.04,
+    "regenRate": 4.3333,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "AllyHealer",
+    "EnergyImportant",
+    "Escaper",
+    "Ganker",
+    "Overconfident",
+    "RoleSupport",
+    "SelfHealer"
+  ],
+  "summonedUnitIds": [
+    "MonkAirAlly",
+    "MonkEarthAlly",
+    "MonkSpiritAlly"
+  ],
+  "weapons": [
+    {
+      "nameId": "MonkHeroWeapon",
+      "isDisabled": false,
+      "range": 1.75,
+      "minimumRange": 0,
+      "period": 0.5,
+      "damage": 64,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "MonkClaws",
+    "MonkJade",
+    "MonkMaster",
+    "MonkSpring19",
+    "MonkSummer18",
+    "MonkTiger",
+    "MonkWinter17"
+  ],
+  "variationSkinIds": [
+    "MonkBaseVar3",
+    "MonkBaseVar4",
+    "MonkGreen",
+    "MonkWhite"
+  ],
+  "voiceLineIds": [
+    "MonkBase_VoiceLine01",
+    "MonkBase_VoiceLine02",
+    "MonkBase_VoiceLine03",
+    "MonkBase_VoiceLine04",
+    "MonkBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "MonkRadiantDash|MonkRadiantDash|Q",
+        "abilityId": "MonkRadiantDash",
+        "buttonId": "MonkRadiantDash",
+        "icon": "storm_ui_icon_monk_dash.png",
+        "charges": {
+          "countMax": 2,
+          "countStart": 2,
+          "countUse": 1,
+          "recastCooldown": 0.25,
+          "isCountHidden": false
+        },
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "MonkBreathOfHeaven|MonkBreathOfHeaven|W",
+        "abilityId": "MonkBreathOfHeaven",
+        "buttonId": "MonkBreathOfHeaven",
+        "icon": "storm_ui_icon_monk_breath0fheaven.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "MonkDeadlyReach|MonkDeadlyReach|E",
+        "abilityId": "MonkDeadlyReach",
+        "buttonId": "MonkDeadlyReach",
+        "icon": "storm_ui_icon_monk_deadlyreach.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "MonkSevenSidedStrike|MonkSevenSidedStrike|Heroic",
+        "abilityId": "MonkSevenSidedStrike",
+        "buttonId": "MonkSevenSidedStrike",
+        "icon": "storm_ui_icon_monk_sevensidedstrike.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "MonkDivinePalm|MonkDivinePalm|Heroic",
+        "abilityId": "MonkDivinePalm",
+        "buttonId": "MonkDivinePalm",
+        "icon": "storm_ui_icon_monk_divinepalm.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": ":PASSIVE:|MonkBlankTrait|Trait",
+        "abilityId": ":PASSIVE:",
+        "buttonId": "MonkBlankTrait",
+        "icon": "storm_ui_icon_monk_trait1.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "MonkDeadlyReach|MonkDeadlyReach|E": {
+      "Basic": [
+        {
+          "linkId": ":PASSIVE:|MonkDeadlyReachActive|E",
+          "abilityId": ":PASSIVE:",
+          "buttonId": "MonkDeadlyReachActive",
+          "icon": "storm_ui_icon_monk_deadlyreachactive.png",
+          "abilityType": "E"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "HeroGenericSpellShield|GenericSpellShieldItemEnabled|Active": {
+      "Activable": [
+        {
+          "linkId": "HeroGenericSpellShield|GenericSpellShieldItemDisabled|Active",
+          "abilityId": "HeroGenericSpellShield",
+          "buttonId": "GenericSpellShieldItemDisabled",
+          "icon": "storm_ui_icon_talent_spellshield.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "MonkInsight|MonkInsightTalent|Trait|Level1": {
+      "Trait": [
+        {
+          "linkId": ":PASSIVE:|MonkInsight|Trait",
+          "abilityId": ":PASSIVE:",
+          "buttonId": "MonkInsight",
+          "icon": "storm_ui_icon_monk_trait_insight.png",
+          "abilityType": "Trait"
+        }
+      ]
+    },
+    "MonkIronFists|MonkIronFistsTalent|Trait|Level1": {
+      "Trait": [
+        {
+          "linkId": ":PASSIVE:|MonkIronFists|Trait",
+          "abilityId": ":PASSIVE:",
+          "buttonId": "MonkIronFists",
+          "icon": "storm_ui_icon_monk_trait_ironfist.png",
+          "abilityType": "Trait"
+        }
+      ]
+    },
+    "MonkTranscendence|MonkTranscendenceTalent|Trait|Level1": {
+      "Trait": [
+        {
+          "linkId": ":PASSIVE:|MonkTranscendence|Trait",
+          "abilityId": ":PASSIVE:",
+          "buttonId": "MonkTranscendence",
+          "icon": "storm_ui_icon_monk_trait_transcendence.png",
+          "abilityType": "Trait"
+        }
+      ]
+    },
+    "MonkAirAlly|MonkAirAlly|Active|Level4": {
+      "Activable": [
+        {
+          "linkId": "MonkAirAlly|MonkAirAlly|Active",
+          "abilityId": "MonkAirAlly",
+          "buttonId": "MonkAirAlly",
+          "icon": "storm_ui_icon_monk_allyair.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "MonkEarthAlly|MonkEarthAlly|Active|Level4": {
+      "Activable": [
+        {
+          "linkId": "MonkEarthAlly|MonkEarthAlly|Active",
+          "abilityId": "MonkEarthAlly",
+          "buttonId": "MonkEarthAlly",
+          "icon": "storm_ui_icon_monk_allyearth.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "MonkSpiritAlly|MonkSpiritAlly|Active|Level4": {
+      "Activable": [
+        {
+          "linkId": "MonkSpiritAlly|MonkSpiritAlly|Active",
+          "abilityId": "MonkSpiritAlly",
+          "buttonId": "MonkSpiritAlly",
+          "icon": "storm_ui_icon_monk_allyspirit.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "GenericTalentSpellShield|GenericSpellShieldTalent|Active|Level13": {
+      "Activable": [
+        {
+          "linkId": "HeroGenericSpellShield|GenericSpellShieldItemEnabled|Active",
+          "abilityId": "HeroGenericSpellShield",
+          "buttonId": "GenericSpellShieldItemEnabled",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "GenericTalentStormShield|GenericStormShield|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "TalentBucketStormShield|GenericStormShield|Active",
+          "abilityId": "TalentBucketStormShield",
+          "buttonId": "GenericStormShield",
+          "icon": "storm_ui_icon_talent_stormshield.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "MonkEpiphany|MonkEpiphany|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "MonkEpiphany|MonkEpiphany|Active",
+          "abilityId": "MonkEpiphany",
+          "buttonId": "MonkEpiphany",
+          "icon": "storm_ui_icon_kharazim_epiphany.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "MonkTranscendence|MonkTranscendenceTalent|Trait|Level1",
+        "talentId": "MonkTranscendence",
+        "buttonId": "MonkTranscendenceTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_monk_trait_transcendence.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 1
+      },
+      {
+        "linkId": "MonkIronFists|MonkIronFistsTalent|Trait|Level1",
+        "talentId": "MonkIronFists",
+        "buttonId": "MonkIronFistsTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_monk_trait_ironfist.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 2
+      },
+      {
+        "linkId": "MonkInsight|MonkInsightTalent|Trait|Level1",
+        "talentId": "MonkInsight",
+        "buttonId": "MonkInsightTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_monk_trait_insight.png",
+        "abilityType": "Trait",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "MonkSpiritAlly|MonkSpiritAlly|Active|Level4",
+        "talentId": "MonkSpiritAlly",
+        "buttonId": "MonkSpiritAlly",
+        "abilityId": "MonkSpiritAlly",
+        "icon": "storm_ui_icon_monk_allyspirit.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 1
+      },
+      {
+        "linkId": "MonkEarthAlly|MonkEarthAlly|Active|Level4",
+        "talentId": "MonkEarthAlly",
+        "buttonId": "MonkEarthAlly",
+        "abilityId": "MonkEarthAlly",
+        "icon": "storm_ui_icon_monk_allyearth.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2
+      },
+      {
+        "linkId": "MonkAirAlly|MonkAirAlly|Active|Level4",
+        "talentId": "MonkAirAlly",
+        "buttonId": "MonkAirAlly",
+        "abilityId": "MonkAirAlly",
+        "icon": "storm_ui_icon_monk_allyair.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "MonkBlindingSpeedRadiantDash|MonkBlindingSpeedTalent|Q|Level7",
+        "talentId": "MonkBlindingSpeedRadiantDash",
+        "buttonId": "MonkBlindingSpeedTalent",
+        "abilityId": "MonkRadiantDash",
+        "icon": "storm_ui_icon_monk_dash.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MonkRadiantDash|MonkRadiantDash|Q"
+        ]
+      },
+      {
+        "linkId": "MonkHeavenlyZealBreathofHeaven|MonkHeavenlyZealBreathofHeaven|W|Level7",
+        "talentId": "MonkHeavenlyZealBreathofHeaven",
+        "buttonId": "MonkHeavenlyZealBreathofHeaven",
+        "abilityId": "MonkBreathOfHeaven",
+        "icon": "storm_ui_icon_monk_breath0fheaven.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "MonkBreathOfHeaven|MonkBreathOfHeaven|W"
+        ]
+      },
+      {
+        "linkId": "MonkBlazingFistsDeadlyReach|MonkBlazingFistsTalent|E|Level7",
+        "talentId": "MonkBlazingFistsDeadlyReach",
+        "buttonId": "MonkBlazingFistsTalent",
+        "abilityId": "MonkDeadlyReach",
+        "icon": "storm_ui_icon_monk_deadlyreach.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|MonkDeadlyReachActive|E",
+          "MonkDeadlyReach|MonkDeadlyReach|E"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "MonkHeroicAbilityDivinePalm|MonkDivinePalm|Heroic|Level10",
+        "talentId": "MonkHeroicAbilityDivinePalm",
+        "buttonId": "MonkDivinePalm",
+        "abilityId": "MonkDivinePalm",
+        "icon": "storm_ui_icon_monk_divinepalm.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "MonkHeroicAbilitySevenSidedStrike|MonkSevenSidedStrike|Heroic|Level10",
+        "talentId": "MonkHeroicAbilitySevenSidedStrike",
+        "buttonId": "MonkSevenSidedStrike",
+        "abilityId": "MonkSevenSidedStrike",
+        "icon": "storm_ui_icon_monk_sevensidedstrike.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "MonkQuicksilverRadiantDash|MonkQuicksilverTalent|Q|Level13",
+        "talentId": "MonkQuicksilverRadiantDash",
+        "buttonId": "MonkQuicksilverTalent",
+        "abilityId": "MonkRadiantDash",
+        "icon": "storm_ui_icon_monk_dash.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MonkRadiantDash|MonkRadiantDash|Q"
+        ]
+      },
+      {
+        "linkId": "GenericTalentSpellShield|GenericSpellShieldTalent|Active|Level13",
+        "talentId": "GenericTalentSpellShield",
+        "buttonId": "GenericSpellShieldTalent",
+        "abilityId": "HeroGenericSpellShield",
+        "icon": "storm_ui_icon_talent_spellshield.png",
+        "toggleCooldown": 0.5,
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2
+      },
+      {
+        "linkId": "MonkSixthSense|MonkSixthSense|Passive|Level13",
+        "talentId": "MonkSixthSense",
+        "buttonId": "MonkSixthSense",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_relentless.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "MonkCleansingTouchRadiantDash|MonkCleansingTouch|Q|Level16",
+        "talentId": "MonkCleansingTouchRadiantDash",
+        "buttonId": "MonkCleansingTouch",
+        "abilityId": "MonkRadiantDash",
+        "icon": "storm_ui_icon_monk_dash.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MonkRadiantDash|MonkRadiantDash|Q"
+        ]
+      },
+      {
+        "linkId": "MonkWayoftheHundredFistsRadiantDash|MonkWayoftheHundredFistsTalent|Q|Level16",
+        "talentId": "MonkWayoftheHundredFistsRadiantDash",
+        "buttonId": "MonkWayoftheHundredFistsTalent",
+        "abilityId": "MonkRadiantDash",
+        "icon": "storm_ui_icon_monk_dash_a.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "MonkRadiantDash|MonkRadiantDash|Q"
+        ]
+      },
+      {
+        "linkId": "MonkEchoofHeavenBreathofHeaven|MonkEchoofHeavenTalent|W|Level16",
+        "talentId": "MonkEchoofHeavenBreathofHeaven",
+        "buttonId": "MonkEchoofHeavenTalent",
+        "abilityId": "MonkBreathOfHeaven",
+        "icon": "storm_ui_icon_monk_breath0fheaven.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "MonkBreathOfHeaven|MonkBreathOfHeaven|W"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "MonkPeacefulReposeDivinePalm|MonkPeacefulReposeTalent|Heroic|Level20",
+        "talentId": "MonkPeacefulReposeDivinePalm",
+        "buttonId": "MonkPeacefulReposeTalent",
+        "abilityId": "MonkDivinePalm",
+        "icon": "storm_ui_icon_monk_divinepalm.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MonkDivinePalm|MonkDivinePalm|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "MonkHeroicAbilityDivinePalm"
+        ]
+      },
+      {
+        "linkId": "MonkElevenSidedStrikeSevenSidedStrike|MonkElevenSidedStrikeTalent|Heroic|Level20",
+        "talentId": "MonkElevenSidedStrikeSevenSidedStrike",
+        "buttonId": "MonkElevenSidedStrikeTalent",
+        "abilityId": "MonkSevenSidedStrike",
+        "icon": "storm_ui_icon_monk_sevensidedstrike.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "MonkSevenSidedStrike|MonkSevenSidedStrike|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "MonkHeroicAbilitySevenSidedStrike"
+        ]
+      },
+      {
+        "linkId": "MonkFistsofLegendTrait|MonkFistsofLegend|Trait|Level20",
+        "talentId": "MonkFistsofLegendTrait",
+        "buttonId": "MonkFistsofLegend",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_kharazim_fistoflegend.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|MonkInsight|Trait",
+          ":PASSIVE:|MonkIronFists|Trait",
+          ":PASSIVE:|MonkTranscendence|Trait"
+        ]
+      },
+      {
+        "linkId": "GenericTalentStormShield|GenericStormShield|Active|Level20",
+        "talentId": "GenericTalentStormShield",
+        "buttonId": "GenericStormShield",
+        "abilityId": "TalentBucketStormShield",
+        "icon": "storm_ui_icon_talent_stormshield.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      },
+      {
+        "linkId": "MonkEpiphany|MonkEpiphany|Active|Level20",
+        "talentId": "MonkEpiphany",
+        "buttonId": "MonkEpiphany",
+        "abilityId": "MonkEpiphany",
+        "icon": "storm_ui_icon_kharazim_epiphany.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 5
+      }
+    ]
+  },
+  "sheets": {
+    "abilities": {
+      "sheet": "sheets/Monk/abilities.webp",
+      "icons": {
+        "storm_ui_icon_monk_dash.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_monk_breath0fheaven.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_monk_deadlyreach.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_monk_sevensidedstrike.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_monk_divinepalm.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_monk_trait1.png": [
+          130,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          290,
+          520,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          99,
+          520,
+          111,
+          71
+        ],
+        "storm_ui_icon_monk_deadlyreachactive.png": [
+          390,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          212,
+          520,
+          76,
+          48
+        ],
+        "storm_ui_icon_talent_spellshield.png": [
+          260,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_monk_trait_insight.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_monk_trait_ironfist.png": [
+          390,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_monk_trait_transcendence.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_monk_allyair.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_monk_allyearth.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_monk_allyspirit.png": [
+          390,
+          0,
+          128,
+          128
+        ],
+        "hud_btn_bg_ability_cancel.png": [
+          0,
+          520,
+          97,
+          111
+        ],
+        "storm_ui_icon_talent_stormshield.png": [
+          390,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_kharazim_epiphany.png": [
+          0,
+          0,
+          128,
+          128
+        ]
+      }
+    },
+    "talents": {
+      "sheet": "sheets/Monk/talents.webp",
+      "icons": {
+        "storm_ui_icon_monk_trait_transcendence.png": [
+          260,
+          518,
+          128,
+          128
+        ],
+        "storm_ui_icon_monk_trait_ironfist.png": [
+          130,
+          518,
+          128,
+          128
+        ],
+        "storm_ui_icon_monk_trait_insight.png": [
+          0,
+          518,
+          128,
+          128
+        ],
+        "storm_ui_icon_monk_allyspirit.png": [
+          130,
+          258,
+          128,
+          128
+        ],
+        "storm_ui_icon_monk_allyearth.png": [
+          0,
+          258,
+          128,
+          128
+        ],
+        "storm_ui_icon_monk_allyair.png": [
+          388,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_monk_dash.png": [
+          0,
+          388,
+          128,
+          128
+        ],
+        "storm_ui_icon_monk_breath0fheaven.png": [
+          260,
+          258,
+          128,
+          128
+        ],
+        "storm_ui_icon_monk_deadlyreach.png": [
+          130,
+          388,
+          128,
+          128
+        ],
+        "storm_ui_icon_monk_divinepalm.png": [
+          260,
+          388,
+          128,
+          128
+        ],
+        "storm_ui_icon_monk_sevensidedstrike.png": [
+          390,
+          388,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_spellshield.png": [
+          0,
+          648,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_relentless.png": [
+          390,
+          518,
+          128,
+          128
+        ],
+        "storm_ui_icon_monk_dash_a.png": [
+          390,
+          258,
+          128,
+          128
+        ],
+        "storm_ui_icon_kharazim_fistoflegend.png": [
+          0,
+          0,
+          256,
+          256
+        ],
+        "storm_ui_icon_talent_stormshield.png": [
+          130,
+          648,
+          128,
+          128
+        ],
+        "storm_ui_icon_kharazim_epiphany.png": [
+          258,
+          0,
+          128,
+          128
+        ]
+      }
+    },
+    "hero": {
+      "sheet": "sheets/Monk/hero.webp",
+      "icons": {
+        "storm_ui_icon_monk_dash.png": [
+          0,
+          388,
+          128,
+          128
+        ],
+        "storm_ui_icon_monk_breath0fheaven.png": [
+          390,
+          258,
+          128,
+          128
+        ],
+        "storm_ui_icon_monk_deadlyreach.png": [
+          130,
+          388,
+          128,
+          128
+        ],
+        "storm_ui_icon_monk_sevensidedstrike.png": [
+          520,
+          388,
+          128,
+          128
+        ],
+        "storm_ui_icon_monk_divinepalm.png": [
+          390,
+          388,
+          128,
+          128
+        ],
+        "storm_ui_icon_monk_trait1.png": [
+          390,
+          518,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          388,
+          778,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          453,
+          648,
+          111,
+          71
+        ],
+        "storm_ui_icon_monk_deadlyreachactive.png": [
+          260,
+          388,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          310,
+          778,
+          76,
+          48
+        ],
+        "storm_ui_icon_talent_spellshield.png": [
+          0,
+          648,
+          128,
+          128
+        ],
+        "storm_ui_icon_monk_trait_insight.png": [
+          0,
+          518,
+          128,
+          128
+        ],
+        "storm_ui_icon_monk_trait_ironfist.png": [
+          130,
+          518,
+          128,
+          128
+        ],
+        "storm_ui_icon_monk_trait_transcendence.png": [
+          260,
+          518,
+          128,
+          128
+        ],
+        "storm_ui_icon_monk_allyair.png": [
+          0,
+          258,
+          128,
+          128
+        ],
+        "storm_ui_icon_monk_allyearth.png": [
+          130,
+          258,
+          128,
+          128
+        ],
+        "storm_ui_icon_monk_allyspirit.png": [
+          260,
+          258,
+          128,
+          128
+        ],
+        "hud_btn_bg_ability_cancel.png": [
+          260,
+          648,
+          97,
+          111
+        ],
+        "storm_ui_icon_talent_stormshield.png": [
+          130,
+          648,
+          128,
+          128
+        ],
+        "storm_ui_icon_kharazim_epiphany.png": [
+          440,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_relentless.png": [
+          520,
+          518,
+          128,
+          128
+        ],
+        "storm_ui_icon_monk_dash_a.png": [
+          520,
+          258,
+          128,
+          128
+        ],
+        "storm_ui_icon_kharazim_fistoflegend.png": [
+          0,
+          0,
+          256,
+          256
+        ]
+      },
+      "portraits": {
+        "draftScreen": [
+          258,
+          0,
+          180,
+          212
+        ],
+        "minimap": [
+          466,
+          778,
+          32,
+          32
+        ],
+        "partyPanel": [
+          130,
+          778,
+          178,
+          56
+        ],
+        "target": [
+          359,
+          648,
+          92,
+          93
+        ],
+        "targetInfo": [
+          0,
+          778,
+          128,
+          56
+        ]
+      }
+    }
+  }
+}

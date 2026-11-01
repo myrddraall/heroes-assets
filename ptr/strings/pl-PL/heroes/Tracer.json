@@ -1,0 +1,171 @@
+{
+  "abilities": {
+    "TracerBlink|TracerBlink|Q": {
+      "cooldownText": "Czas odnowienia ładunku: 9 sek.",
+      "fullText": "Dokonuje przeskoku w wybranym kierunku.<n/><n/>Maksymalna liczba ładunków: <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>.",
+      "name": "Mignięcie",
+      "shortText": "Dokonuje przeskoku w kierunku obszaru"
+    },
+    "TracerMelee|TracerMelee|W": {
+      "cooldownText": "Czas odnowienia: 8 sek.",
+      "fullText": "Zadaje pobliskiemu przeciwnikowi <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">220</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń (najpierw bohaterowi). Kiedy używasz na przeciwniku Ataku Wręcz, zyskuje <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5%</c> ładunku Bomby Pulsacyjnej (przeciwko bohaterom: <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c>).",
+      "name": "Atak Wręcz",
+      "shortText": "Atakujesz pobliskiego przeciwnika"
+    },
+    "TracerRecall|TracerRecall|E": {
+      "cooldownText": "Czas odnowienia: 20 sek.",
+      "fullText": "Po upływie <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.25</c> sek. Smuga wraca do miejsca, w którym przebywała <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> sek. przed użyciem zdolności. Dodatkowo zdolność ta odnawia zapas amunicji i usuwa niekorzystne efekty.",
+      "name": "Powrót",
+      "shortText": "Powraca do wcześniejszego miejsca pobytu i usuwa ze Smugi negatywne efekty"
+    },
+    "TracerPulseBomb|TracerPulseBomb|Heroic": {
+      "fullText": "Smuga rzuca na krótki dystans bombę, która przy trafieniu przylepia się do przeciwników. Bomba wybucha po upływie <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> sek., zadając im <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">298</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.06~~</c> pkt. obrażeń oraz <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">149</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.06~~</c> pkt. obrażeń pobliskim wrogom.<n/><n/>Zdolność ta ładuje się stopniowo z upływem czasu, gdy Smuga zadaje przeciwnikom obrażenia <w>z użyciem ataków podstawowych oraz Ataku Wręcz.",
+      "name": "Bomba Pulsacyjna",
+      "shortText": "Przytwierdza do przeciwnika bombę, która zadaje dotkliwe obrażenia"
+    },
+    "TracerReload|TracerReload|Trait": {
+      "cooldownText": "Czas odnowienia: 1 sek.",
+      "fullText": "Smuga może używać ataków podstawowych w czasie przemieszczania się. Po wykonaniu <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> ataków Smuga musi poświęcić <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.75</c> sek. na przeładowanie. Możesz przeładować ręcznie, aktywując Przeładowanie.<n/><n/>Ataki podstawowe leczą Smugę, przywracając jej w postaci zdrowia równowartość <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c> zadanych obrażeń.",
+      "name": "Przeładowanie",
+      "shortText": "Smuga może używać ataków podstawowych w ruchu, ale zużywa amunicję"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Czas odnowienia: 4 sek.",
+      "fullText": "Po podtrzymywaniu przez <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> sek. zyskujesz premię <s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s> do szybkości ruchu.",
+      "name": "Przyzwanie Wierzchowca"
+    },
+    "Hearthstone|HearthstoneNoMana|B": {
+      "fullText": "Po podtrzymywaniu przez <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> sek. teleportuje bohatera z powrotem do Dworu Burz i przywraca mu natychmiast <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c> pkt. zdrowia.",
+      "name": "Kamień Powrotu"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Opuszczasz wierzchowca.",
+      "name": "Odesłanie Wierzchowca"
+    },
+    "TracerLockedandLoadedFailReload|TracerLockedandLoadedAbility|Trait": {
+      "cooldownText": "Czas odnowienia: 1 sek.",
+      "fullText": "Można ponownie aktywować Przeładowanie w ciągu ostatnich <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> czasu rzucania tej zdolności, aby zwiększyć obrażenia od ataku podstawowego Smugi o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> do wyczerpania bieżącego magazynka.",
+      "name": "Zwarta i Gotowa",
+      "shortText": "Zgranie w czasie Przeładowania zwiększa obrażenia ataku podstawowego"
+    },
+    "TracerLockedandLoaded|TracerLockedandLoadedAbility|Trait": {
+      "cooldownText": "Czas odnowienia: 1 sek.",
+      "fullText": "Można ponownie aktywować Przeładowanie w ciągu ostatnich <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> czasu rzucania tej zdolności, aby zwiększyć obrażenia od ataku podstawowego Smugi o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> do wyczerpania bieżącego magazynka.",
+      "name": "Zwarta i Gotowa",
+      "shortText": "Zgranie w czasie Przeładowania zwiększa obrażenia ataku podstawowego"
+    }
+  },
+  "talents": {
+    "TracerOneTwoPunch|TracerOneTwoPunch|W|Level1": {
+      "fullText": "Skraca czas odnowienia Ataku Wręcz o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> sek. i zapewnia jego dodatkowy ładunek.",
+      "name": "Podwójny Cios",
+      "shortText": "Atak Wręcz zyskuje dodatkowy ładunek i ma skrócony czas odnowienia"
+    },
+    "TracerPartingGift|TracerPartingGift|E|Level1": {
+      "fullText": "Użycie Powrotu powoduje pozostawienie <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> bomb, z których każda zadaje innemu celowi <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">240</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń. Bohaterowie trafieni tymi bombami zostają spowolnieni o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> na <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.75</c> sek. Za każdego bohatera trafionego tymi bombami Smuga otrzymuje <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">7%</c> ładunku Bomby Pulsacyjnej.",
+      "name": "Prezencik",
+      "shortText": "Użycie Powrotu powoduje upuszczanie bomb"
+    },
+    "TracerTracerRounds|TracerTracerRounds|Trait|Level1": {
+      "fullText": "Zasięg ataków podstawowych wzrasta o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c>. Ataki podstawowe wymierzone w bohaterów odsłaniają niewielki obszar wokół nich na <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> sek.",
+      "name": "Pociski Smugowe",
+      "shortText": "Ataki podstawowe odkrywają wrogów, zwiększony zasięg"
+    },
+    "TracerLeechingRounds|TracerLeechingRounds|Trait|Level4": {
+      "fullText": "Zwiększa skuteczność leczenia zapewnianego przez wykonywanie ataków podstawowych maksymalnie do <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">200%</c> w oparciu o wartość brakującego zdrowia Smugi.",
+      "name": "Wysysające Pociski",
+      "shortText": "Zwiększa skuteczność leczenia od ataków podstawowych"
+    },
+    "TracerPulseGenerator|TracerPulseGenerator|Heroic|Level4": {
+      "fullText": "Udane przylepienie Bomby Pulsacyjnej <w>do wrogiego bohatera sprawia, że Smuga odzyskuje </w><c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">12%</c><w> maksymalnego zdrowia w ciągu </w><c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c><w> sek. oraz otrzymuje ładunek Mignięcia.</w>",
+      "name": "Generator Pulsacyjny",
+      "shortText": "Bomba Pulsacyjna leczy Smugę i odświeża ładunek Mignięcia"
+    },
+    "TracerIsThataHealthPack|TracerIsthataHealthPack|Passive|Level4": {
+      "fullText": "Zebranie Kuli Regeneracji natychmiast leczy Smugę, przywracając jej <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c> maksymalnego zdrowia, i skraca czas odnowienia studni leczenia o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> sek.<n/><n/>Wypicie wody ze studni leczenia natychmiast leczy Smugę, przywracając jej <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> maksymalnego zdrowia.",
+      "name": "To Apteczka?!",
+      "shortText": "Wzmacnia studnie leczenia i Kule Regeneracji"
+    },
+    "TracerSleightofHand|TracerSleightofHand|Trait|Level7": {
+      "fullText": "Skraca czas Przeładowania o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>, co przekłada się na zwiększenie obrażeń na sekundę o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c>.",
+      "name": "Sztuczka",
+      "shortText": "Przeładowuje broń dwukrotnie szybciej"
+    },
+    "TracerFocusFire|TracerFocusFire|Trait|Level7": {
+      "fullText": "Jeśli Smuga opróżni cały magazynek w pojedynczego wroga w ciągu <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> sek., ostatni pocisk zada dodatkowo <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">80</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń, co stanowi równowartość <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35%</c> obrażeń zadanych przez pociski z całego magazynka.",
+      "name": "Skupienie Ognia",
+      "shortText": "Dodatkowe obrażenia za wystrzelenie magazynka w jednego wroga"
+    },
+    "TracerLockedandLoaded|TracerLockedandLoaded|Trait|Level7": {
+      "fullText": "Można ponownie aktywować Przeładowanie w ciągu ostatnich <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> czasu rzucania tej zdolności, aby zwiększyć obrażenia od ataku podstawowego Smugi o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> do wyczerpania bieżącego magazynka.",
+      "name": "Zwarta i Gotowa",
+      "shortText": "Zgranie w czasie Przeładowania zwiększa obrażenia ataku podstawowego"
+    },
+    "TracerStickyBomb|TracerStickyBomb|Heroic|Level10": {
+      "fullText": "Zwiększa pole rażenia Bomby Pulsacyjnej <w>o </w><c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c><w>, a trafieni wrogowie zostają spowolnieni </w><w>o </w><c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">70%</c><w> na </w><c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c><w> sek.</w>",
+      "name": "Przylepna Bomba",
+      "shortText": "Zwiększa pole rażenia Bomby Pulsacyjnej i dodaje spowolnienie"
+    },
+    "TracerQuantumSpike|TracerQuantumSpike|Heroic|Level10": {
+      "fullText": "Bomba Pulsacyjna zadaje bohaterom dodatkowe obrażenia równe <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6%</c> maksymalnego zdrowia.",
+      "name": "Niestabilność Kwantowa",
+      "shortText": "Bomba Pulsacyjna zadaje obrażenia procentowe"
+    },
+    "TracerPulseRounds|TracerPulseRounds|Heroic|Level10": {
+      "fullText": "Zwiększa zasięg Bomby Pulsacyjnej oraz jej szybkość ładowania za trafianie wrogich bohaterów atakami podstawowymi <w>o </w><c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c><w>.",
+      "name": "Pociski Pulsacyjne",
+      "shortText": "Zwiększa zasięg i szybkość ładowania Bomby Pulsacyjnej"
+    },
+    "TracerUntouchable|TracerUntouchable|Q|Level13": {
+      "fullText": "<c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Działanie pasywne: </c>Po wykonaniu Mignięcia Smuga zyskuje premię <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> do szybkości ruchu na <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.25</c> sek.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Zadanie:</c> Udział w zabiciu wrogiego bohatera zwiększa obrażenia od twojego ataku podstawowego o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5%</c>, aż do maksymalnej wartości <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>. Po śmierci Smuga traci tę premię.",
+      "name": "Nietykalność",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Zadanie:</c> Udział w zabiciu wrogiego bohatera zwiększa obrażenia od ataku"
+    },
+    "TracerJumper|TracerJumper|Q|Level13": {
+      "fullText": "<c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Działanie pasywne</c>: Kiedy Mignięcie nie ma już żadnych ładunków, jego czas odnowienia upływa o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> szybciej.<n/><n/>Użycie Mignięcia zapewnia Smudze osłonę o mocy równej <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6%</c> jej maksymalnego zdrowia na <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> sek. Osłona ta kumuluje się maksymalnie <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> razy.",
+      "name": "Przeskok",
+      "shortText": "Mignięcie zapewnia osłonę, skrócony czas odnowienia"
+    },
+    "TracerTelefrag|TracerTelefrag|E|Level13": {
+      "fullText": "<c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Działanie pasywne:</c> Ataki podstawowe wymierzone we wrogich bohaterów skracają czas odnowienia Powrotu o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.1875</c> sek.<n/><n/>Kiedy Smuga przybywa do punktu docelowego Powrotu, zyskuje nieśmiertelność na <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> sek., a pobliscy przeciwnicy otrzymują <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">175</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń i zostają odrzuceni w tył.",
+      "name": "Telerozprysk",
+      "shortText": "Końcowy etap Powrotu rani przeciwników i odrzuca ich"
+    },
+    "TracerBulletSprayMelee|TracerBulletSprayMelee|W|Level16": {
+      "fullText": "Zwiększa promień Ataku Wręcz <w>o </w><c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c><w>. Zdolność zadaje obrażenia wszystkim przeciwnikom </w><w>w zasięgu.",
+      "name": "Deszcz Pocisków",
+      "shortText": "Atak Wręcz trafia wszystkich wrogów w zasięgu"
+    },
+    "TracerHeavyHanded|TracerHeavyHanded|W|Level16": {
+      "fullText": "Pancerz bohaterów trafionych Atakiem Wręcz zostaje zmniejszony o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> pkt. na <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> sek.",
+      "name": "Ciężka Ręka",
+      "shortText": "Atak Wręcz zmniejsza pancerz"
+    },
+    "TracerRicochetHeroWeapon|TracerRicochetHeroWeapon|Trait|Level16": {
+      "fullText": "Ataki podstawowe Smugi mają <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60%</c> szansy na trafienie innego pobliskiego przeciwnika. W pierwszej kolejności atakowani są wrodzy bohaterowie.",
+      "name": "Rykoszet",
+      "shortText": "Ataki podstawowe mogą trafić rykoszetem pobliskiego wroga"
+    },
+    "TracerChronoTriggers|TracerChronoTriggers|Q|Level20": {
+      "fullText": "Użycie Mignięcia sprawia, że ataki podstawowe nie zużywają amunicji przez <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> sek.",
+      "name": "Chronowyzwalacz",
+      "shortText": "Mignięcie wzmacnia amunicję"
+    },
+    "TracerGetStuffedMelee|TracerGetStuffedMelee|W|Level20": {
+      "fullText": "Zwiększa wartość ładunku Bomby Pulsacyjnej zapewnianego przez Atak Wręcz z <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c> do <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c>. Trafienie Atakiem Wręcz przeciwnika z przylepioną Bombą Pulsacyjną sprawia, że bomba natychmiast wybucha i odrzuca cel.",
+      "name": "Wypchaj Się",
+      "shortText": "Wzmacnia Atak Wręcz"
+    },
+    "TracerTotalRecallRecall|TracerTotalRecallRecall|E|Level20": {
+      "fullText": "Powrót przywraca Smudze równowartość zdrowia utraconego przez nią w tym czasie.",
+      "name": "Déjà Vu",
+      "shortText": "Powrót leczy"
+    },
+    "TracerCompositionBPulseBomb|TracerCompositionBPulseBomb|Heroic|Level20": {
+      "fullText": "Udane przylepienie Bomby Pulsacyjnej <w>do wrogiego bohatera sprawia, że Smuga upuszcza mu pod nogi kolejną, która wybucha nieco wcześniej </w><w>i zadaje </w><c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c><w> obrażeń.</w>",
+      "name": "Cyklotol",
+      "shortText": "Trafienie bohaterów bombą powoduje upuszczanie kolejnej"
+    }
+  },
+  "units": {}
+}

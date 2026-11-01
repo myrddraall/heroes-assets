@@ -1,0 +1,187 @@
+{
+  "abilities": {
+    "NovaSnipeStorm|NovaSnipe|Q": {
+      "cooldownText": "Cooldown: 6 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Deal <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">230</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage to the first enemy hit.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Passive:</c> Hitting an enemy Hero with Snipe permanently increases the damage of Snipe by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6%</c>, stacking up to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c>. Gain an additional <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> damage bonus at maximum stacks. All stacks are lost if Snipe fails to hit an enemy.",
+      "name": "Snipe",
+      "shortText": "Fire a shot and deal a large amount of damage to the first enemy hit"
+    },
+    "NovaPinningShot|NovaPinningShot|W": {
+      "cooldownText": "Cooldown: 12 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 65</s>",
+      "fullText": "Deal <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage to an enemy and Slow them by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.25</c> seconds.",
+      "name": "Pinning Shot",
+      "shortText": "Slow and damage an enemy"
+    },
+    "NovaHoloDecoy|NovaHoloDecoy|E": {
+      "cooldownText": "Cooldown: 15 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Create a Decoy for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> seconds with <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> of Nova's current Health that attacks enemies, dealing <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c> of Nova's base damage. Whenever a Decoy takes damage, it deals that amount of damage to itself, effectively doubling the damage it takes.<n/><n/>Using this Ability does not break Stealth.",
+      "name": "Holo Decoy",
+      "shortText": "Create a hologram decoy of Nova"
+    },
+    "NovaTripleTap|NovaTripleTap|Heroic": {
+      "cooldownText": "Cooldown: 100 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 100</s>",
+      "fullText": "Locks in on the target Hero, then fires <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> shots that hit the first Hero or Structure they come in contact with for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">372</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage each.",
+      "name": "Triple Tap",
+      "shortText": "Fire at a target 3 times"
+    },
+    "NovaPrecisionStrike|NovaPrecisionStrike|Heroic": {
+      "cooldownText": "Cooldown: 50 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 100</s>",
+      "fullText": "After a <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> second delay, deals <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">435</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage to enemies within an area. Unlimited range.",
+      "name": "Precision Strike",
+      "shortText": "Area attack with unlimited range"
+    },
+    ":PASSIVE:|NovaPermanentCloak|Trait": {
+      "fullText": "Gain Stealth when out of combat for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> seconds. Taking damage, attacking, using Abilities, or Channeling ends Stealth. Remaining stationary for at least <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> seconds while Stealthed grants Invisible.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Passive:</c> Gain <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c> Movement Speed while Stealthed.",
+      "name": "Permanent Cloak",
+      "shortText": "Stealth and gain Move Speed while not attacking or taking damage"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Cooldown: 4 seconds",
+      "fullText": "After Channeling for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> second, gain <s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s> Movement Speed.",
+      "name": "Summon Mount"
+    },
+    "NovaGhostProtocol|NovaGhostProtocol|Active": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "fullText": "Activate to instantly grant Stealth to Nova and spawn a Holo Decoy at her location. Nova is Unrevealable for the first <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c> seconds when Stealthed by Ghost Protocol.",
+      "name": "Ghost Protocol",
+      "shortText": "Instantly Stealth and spawn a Holo Decoy at your location"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "After Channeling for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> seconds, teleport back to the Hall of Storms, instantly restoring <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c> Health and <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c> Mana.",
+      "name": "Hearthstone"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Dismounts you.",
+      "name": "Unsummon Mount"
+    },
+    "NovaCovertMission|NovaCovertMission|Active": {
+      "fullText": "Enemy Minions killed near Nova grant a stack of Bribe. Hero Takedowns grant <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10 </c>stacks of Bribe. Use <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c> stacks to bribe a Mercenary, instantly defeating them.  Does not work on Elite Mercenaries.  Maximum of <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100</c> stacks. If a camp is defeated entirely with Bribe, the camp respawns <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> faster.<n/><n/><c val=\"ffff8a\">Current number of Bribe stacks: </c><c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0</c>",
+      "name": "Covert Mission",
+      "shortText": "Kill Minions or Heroes to bribe a Mercenary"
+    },
+    "TalentRewind|GenericRewindHotbar|Active": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "fullText": "Activate to reset the cooldowns of your Basic Abilities.",
+      "name": "Rewind",
+      "shortText": "Activate to reset cooldowns"
+    }
+  },
+  "talents": {
+    "NovaMasteryLongshot|NovaPinningShotLongshotTalent|W|Level1": {
+      "fullText": "Increases the cast range of Pinning Shot by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c>. Pinning Shot also increases the range of Nova's next Basic Attack by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.3</c>.",
+      "name": "Longshot",
+      "shortText": "Increases Pinning Shot range"
+    },
+    "NovaCovertOps|NovaCovertOpsTalent|W|Level1": {
+      "fullText": "After being Stealthed for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> seconds, Pinning Shot's Slow is increased to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60%</c> and costs no Mana. Bonus is lost after losing Stealth for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> second.",
+      "name": "Covert Ops",
+      "shortText": "Stealth enhances Pinning Shot slow and cost"
+    },
+    "NovaAdvancedCloaking|NovaPermanentCloakSniperAdvancedCloakingTalent|Trait|Level1": {
+      "fullText": "After being Stealthed for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> second, gain an additional <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c> Movement Speed. While Stealthed, regenerate <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> Mana per second.",
+      "name": "Advanced Cloaking",
+      "shortText": "Stealth grants Move Speed, Mana regen"
+    },
+    "NovaRapidProjection|NovaHoloDecoyRapidProjectionTalent|E|Level4": {
+      "fullText": "Reduces Holo Decoy's cooldown and Mana cost by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60%</c>.",
+      "name": "Rapid Projection",
+      "shortText": "Reduces Holo Decoy cooldown and Mana cost"
+    },
+    "NovaHoloStability|NovaHoloDecoyHoloStabilityTalent|E|Level4": {
+      "fullText": "Increase the cast range of Holo Decoy by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> and its duration by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">120%</c>.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Passive:</c> Reduce the cooldown of Ghost Protocol by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> seconds.",
+      "name": "Holo Stability",
+      "shortText": "Increase Holo Decoy range, duration"
+    },
+    "NovaCovertMission|NovaCovertMissionTalent|Active|Level4": {
+      "fullText": "Enemy Minions killed near Nova grant a stack of Bribe. Hero Takedowns grant <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10 </c>stacks of Bribe. Use <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c> stacks to bribe a Mercenary, instantly defeating them. Does not work on Elite Mercenaries. Maximum of <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100</c> stacks. If a camp is defeated entirely with Bribe, the camp respawns <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> faster.",
+      "name": "Covert Mission",
+      "shortText": "Kill Minions or Heroes to bribe a Mercenary"
+    },
+    "NovaMasteryPerfectShotSnipe|NovaPerfectShotTalent|Q|Level7": {
+      "fullText": "Hitting an enemy with Snipe reduces its cooldown by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> seconds and refunds half its Mana cost, doubled against enemy Heroes.",
+      "name": "Perfect Shot",
+      "shortText": "Snipe hits reduce cooldown, refund Mana"
+    },
+    "NovaCombatStyleOneintheChamber|NovaOneintheChamberTalent|Passive|Level7": {
+      "fullText": "After using an Ability, Nova's next Basic Attack within <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> seconds deals <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">65%</c> additional damage.",
+      "name": "One in the Chamber",
+      "shortText": "Using an Ability empowers next Basic Attack"
+    },
+    "NovaCombatStyleAntiArmorShells|NovaAntiArmorShellsTalent|Passive|Level7": {
+      "fullText": "Nova's Basic Attacks deal <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">250%</c> damage and decrease the Physical Armor of Heroic targets by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> seconds, but her Attack Speed is proportionally slower.",
+      "name": "Anti-Armor Shells",
+      "shortText": "Basic Attacks hit harder, reduce Physical Armor"
+    },
+    "NovaHeroicAbilityTripleTap|NovaTripleTap|Heroic|Level10": {
+      "cooldownText": "Cooldown: 100 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 100</s>",
+      "fullText": "Locks in on the target Hero, then fires <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> shots that hit the first Hero or Structure they come in contact with for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">372</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage each.",
+      "name": "Triple Tap",
+      "shortText": "Fire at a target 3 times"
+    },
+    "NovaHeroicAbilityPrecisionStrike|NovaPrecisionStrike|Heroic|Level10": {
+      "cooldownText": "Cooldown: 50 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 100</s>",
+      "fullText": "After a <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> second delay, deals <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">435</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage to enemies within an area. Unlimited range.",
+      "name": "Precision Strike",
+      "shortText": "Area attack with unlimited range"
+    },
+    "NovaMasteryPsionicEfficiency|NovaSnipePsionicEfficiencyTalent|Q|Level13": {
+      "fullText": "Snipe's range is increased by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c> and hitting a Hero grants an additional stack of Precision Sniper.",
+      "name": "Psionic Efficiency",
+      "shortText": "Increase Snipe range and stacks"
+    },
+    "NovaMasteryDoubleTap|NovaPinningShotDoubleTapTalent|W|Level13": {
+      "fullText": "Pinning Shot now has <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> charges, but its cooldown is increased by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> seconds.",
+      "name": "Double Tap",
+      "shortText": "Pinning Shot gains a charge, cooldown increased"
+    },
+    "NovaIonicForceField|NovaIonicForceFieldTalent|Trait|Level13": {
+      "fullText": "Gain <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c> Armor for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> seconds after losing Stealth.",
+      "name": "Ionic Force Field",
+      "shortText": "Gain Armor after Stealth breaks"
+    },
+    "NovaMasteryExplosiveShot|NovaSnipeExplosiveRoundTalent|Q|Level16": {
+      "fullText": "Snipe also deals <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">90%</c> damage to enemies near the impact.",
+      "name": "Explosive Round",
+      "shortText": "Snipe deals damage in an area"
+    },
+    "NovaMasteryCripplingShot|NovaPinningShotCripplingShotTalent|W|Level16": {
+      "fullText": "Pinning Shot lowers a Hero's Armor by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c> for the duration of the Slow, causing them to take <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> increased damage.",
+      "name": "Crippling Shot",
+      "shortText": "Pinning Shot lowers Armor"
+    },
+    "NovaMasteryLethalDecoy|NovaHoloDecoyLethalDecoyTalent|E|Level16": {
+      "fullText": "Increases the damage Holo Decoy deals to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c> of Nova's damage.",
+      "name": "Lethal Decoy",
+      "shortText": "Holo Decoy deals more damage"
+    },
+    "NovaMasteryFastReload|NovaTripleTapFastReloadTalent|Heroic|Level20": {
+      "fullText": "Triple Tap's cooldown is reset if it kills an enemy Hero.",
+      "name": "Fast Reload",
+      "shortText": "Triple Tap cooldown resets on Hero kills"
+    },
+    "NovaMasteryPrecisionBarrage|NovaPrecisionStrikePrecisionBarrageTalent|Heroic|Level20": {
+      "fullText": "Precision Strike gains a <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2nd</c> charge and its cooldown is reduced by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c> seconds.",
+      "name": "Precision Barrage",
+      "shortText": "Lower Precision Strike cooldown, gain charge"
+    },
+    "NovaApolloSuit|NovaGhostProtocolApolloSuitTalent|Trait|Level20": {
+      "fullText": "Reduce the cooldown of Permanent Cloak by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> seconds.",
+      "name": "Apollo Suit",
+      "shortText": "Reduce Permanent Cloak cooldown"
+    },
+    "GenericTalentRewind|GenericRewindHotbar|Active|Level20": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "fullText": "Activate to reset the cooldowns of your Basic Abilities.",
+      "name": "Rewind",
+      "shortText": "Activate to reset cooldowns"
+    }
+  },
+  "units": {}
+}

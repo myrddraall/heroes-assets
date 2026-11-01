@@ -1,0 +1,884 @@
+{
+  "id": "WitchDoctor",
+  "unitId": "HeroWitchDoctor",
+  "hyperlinkId": "Nazeebo",
+  "attributeId": "Witc",
+  "franchise": "Diablo",
+  "rarity": "Epic",
+  "releaseDate": "2014-03-13",
+  "isMelee": false,
+  "gender": "Male",
+  "radius": 0.6875,
+  "innerRadius": 0.6875,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 6,
+    "damage": 8,
+    "survivability": 3,
+    "utility": 4
+  },
+  "life": {
+    "amount": 1502,
+    "scale": 0.04,
+    "regenRate": 3.129,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "EnergyImportant",
+    "RoleSpecialist",
+    "SoloLaner",
+    "TowerPusher",
+    "WaveClearer"
+  ],
+  "summonedUnitIds": [
+    "WitchDoctorCorpseSpider",
+    "WitchDoctorGargantuan",
+    "WitchDoctorZombieWallDeadRushTalentUnit",
+    "WitchDoctorZombieWallUnit"
+  ],
+  "weapons": [
+    {
+      "nameId": "HeroWitchDoctor",
+      "isDisabled": false,
+      "range": 5.5,
+      "minimumRange": 0,
+      "period": 0.9,
+      "damage": 88,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "MasterNazeebo",
+    "WitchDoctorGrimskull",
+    "WitchDoctorHarlequin",
+    "WitchDoctorMadAxe18",
+    "WitchDoctorWinter"
+  ],
+  "variationSkinIds": [
+    "WitchDoctorBlood",
+    "WitchDoctorToxic",
+    "WitchDoctorVar3",
+    "WitchDoctorVar4",
+    "WitchDoctorVar5",
+    "WitchDoctorVar6"
+  ],
+  "voiceLineIds": [
+    "WitchDoctorBase_VoiceLine01",
+    "WitchDoctorBase_VoiceLine02",
+    "WitchDoctorBase_VoiceLine03",
+    "WitchDoctorBase_VoiceLine04",
+    "WitchDoctorBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "WitchDoctorCorpseSpiders|WitchDoctorCorpseSpiders|Q",
+        "abilityId": "WitchDoctorCorpseSpiders",
+        "buttonId": "WitchDoctorCorpseSpiders",
+        "icon": "storm_ui_icon_nazeebo_corpsespider.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "WitchDoctorZombieWall|WitchDoctorZombieWall|W",
+        "abilityId": "WitchDoctorZombieWall",
+        "buttonId": "WitchDoctorZombieWall",
+        "icon": "storm_ui_icon_nazeebo_zombiewall.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "WitchDoctorPlagueofToads|WitchDoctorPlagueOfToads|E",
+        "abilityId": "WitchDoctorPlagueofToads",
+        "buttonId": "WitchDoctorPlagueOfToads",
+        "icon": "storm_ui_icon_nazeebo_plagueoftoads.png",
+        "charges": {
+          "countMax": 2,
+          "countStart": 2,
+          "countUse": 1,
+          "recastCooldown": 1,
+          "isCountHidden": false
+        },
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "WitchDoctorGargantuan|WitchDoctorGargantuan|Heroic",
+        "abilityId": "WitchDoctorGargantuan",
+        "buttonId": "WitchDoctorGargantuan",
+        "icon": "storm_ui_icon_nazeebo_gargantuan.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "WitchDoctorRavenousSpirit|WitchDoctorRavenousSpirit|Heroic",
+        "abilityId": "WitchDoctorRavenousSpirit",
+        "buttonId": "WitchDoctorRavenousSpirit",
+        "icon": "storm_ui_icon_nazeebo_ravenousspirit.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": ":PASSIVE:|WitchDoctorVoodooRitualTrait|Trait",
+        "abilityId": ":PASSIVE:",
+        "buttonId": "WitchDoctorVoodooRitualTrait",
+        "icon": "storm_ui_icon_nazeebo_voodooritual.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "WitchDoctorZombieWall|WitchDoctorZombieWall|W": {
+      "Basic": [
+        {
+          "linkId": "WitchDoctorZombieWallCancel|WitchDoctorZombieWallCancel|W",
+          "abilityId": "WitchDoctorZombieWallCancel",
+          "buttonId": "WitchDoctorZombieWallCancel",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "abilityType": "W"
+        }
+      ]
+    },
+    "WitchDoctorGargantuan|WitchDoctorGargantuan|Heroic": {
+      "Heroic": [
+        {
+          "linkId": "WitchDoctorGargantuanStompCommand|WitchDoctorGargantuanStomp|Heroic",
+          "abilityId": "WitchDoctorGargantuanStompCommand",
+          "buttonId": "WitchDoctorGargantuanStomp",
+          "icon": "storm_ui_icon_nazeebo_gargantuanstomp.png",
+          "abilityType": "Heroic"
+        }
+      ]
+    },
+    "WitchDoctorGargantuanStompCommand|WitchDoctorGargantuanStomp|Heroic": {
+      "Heroic": [
+        {
+          "linkId": ":PASSIVE:|WitchDoctorGargantuanStomp|Heroic",
+          "abilityId": ":PASSIVE:",
+          "buttonId": "WitchDoctorGargantuanStomp",
+          "icon": "storm_ui_icon_nazeebo_gargantuanstomp.png",
+          "abilityType": "Heroic"
+        }
+      ]
+    },
+    "WitchDoctorRavenousSpirit|WitchDoctorRavenousSpirit|Heroic": {
+      "Heroic": [
+        {
+          "linkId": "WitchDoctorRavenousSpiritCancel|WitchDoctorRavenousSpiritCancel|Heroic",
+          "abilityId": "WitchDoctorRavenousSpiritCancel",
+          "buttonId": "WitchDoctorRavenousSpiritCancel",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "abilityType": "Heroic"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "TalentBucketIceBlock|GenericIceBlockTalent|Active": {
+      "Activable": [
+        {
+          "linkId": "TalentBucketIceBlock|GenericIceBlockCancel|Active",
+          "abilityId": "TalentBucketIceBlock",
+          "buttonId": "GenericIceBlockCancel",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "GenericTalentIceBlock|GenericIceBlockTalent|Active|Level13": {
+      "Activable": [
+        {
+          "linkId": "TalentBucketIceBlock|GenericIceBlockTalent|Active",
+          "abilityId": "TalentBucketIceBlock",
+          "buttonId": "GenericIceBlockTalent",
+          "icon": "storm_ui_icon_talent_iceblock.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "WitchDoctorSoulHarvest|WitchDoctorSoulHarvest|Active|Level16": {
+      "Activable": [
+        {
+          "linkId": "WitchDoctorSoulHarvest|WitchDoctorSoulHarvest|Active",
+          "abilityId": "WitchDoctorSoulHarvest",
+          "buttonId": "WitchDoctorSoulHarvest",
+          "icon": "storm_ui_icon_nazeebo_soulharvest.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "WitchDoctorBadMedicine|WitchDoctorBadMedicine|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "WitchDoctorBadMedicine|WitchDoctorBadMedicine|Active",
+          "abilityId": "WitchDoctorBadMedicine",
+          "buttonId": "WitchDoctorBadMedicine",
+          "icon": "storm_ui_icon_nazeebo_voodooritual_a.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "WitchDoctorWidowmakers|WitchDoctorWidowmakers|Q|Level1",
+        "talentId": "WitchDoctorWidowmakers",
+        "buttonId": "WitchDoctorWidowmakers",
+        "abilityId": "WitchDoctorCorpseSpiders",
+        "icon": "storm_ui_icon_nazeebo_corpsespider.png",
+        "abilityType": "Q",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "WitchDoctorCorpseSpiders|WitchDoctorCorpseSpiders|Q"
+        ]
+      },
+      {
+        "linkId": "WitchDoctorPandemic|WitchDoctorPandemic|E|Level1",
+        "talentId": "WitchDoctorPandemic",
+        "buttonId": "WitchDoctorPandemic",
+        "abilityId": "WitchDoctorPlagueofToads",
+        "icon": "storm_ui_icon_nazeebo_plagueoftoads.png",
+        "abilityType": "E",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "WitchDoctorPlagueofToads|WitchDoctorPlagueOfToads|E"
+        ]
+      },
+      {
+        "linkId": "WitchDoctorThingOfTheDeep|WitchDoctorThingOfTheDeepTalent|Passive|Level1",
+        "talentId": "WitchDoctorThingOfTheDeep",
+        "buttonId": "WitchDoctorThingOfTheDeepTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_elunesgrace.png",
+        "abilityType": "Passive",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|WitchDoctorVoodooRitualTrait|Trait"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "WitchDoctorHexedCrawlers|WitchDoctorHexedCrawlers|Q|Level4",
+        "talentId": "WitchDoctorHexedCrawlers",
+        "buttonId": "WitchDoctorHexedCrawlers",
+        "abilityId": "WitchDoctorCorpseSpiders",
+        "icon": "storm_ui_icon_nazeebo_corpsespider.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "WitchDoctorCorpseSpiders|WitchDoctorCorpseSpiders|Q"
+        ]
+      },
+      {
+        "linkId": "WitchDoctorBigVoodoo|WitchDoctorBigVoodoo|Trait|Level4",
+        "talentId": "WitchDoctorBigVoodoo",
+        "buttonId": "WitchDoctorBigVoodoo",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_nazeebo_voodooritual.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|WitchDoctorVoodooRitualTrait|Trait"
+        ]
+      },
+      {
+        "linkId": "WitchDoctorBloodRitual|WitchDoctorVoodooRitualBloodRitualTalent|Trait|Level4",
+        "talentId": "WitchDoctorBloodRitual",
+        "buttonId": "WitchDoctorVoodooRitualBloodRitualTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_nazeebo_voodooritual_a.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|WitchDoctorVoodooRitualTrait|Trait"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "WitchDoctorSpiritofArachyr|WitchDoctorSpiritofArachyr|Q|Level7",
+        "talentId": "WitchDoctorSpiritofArachyr",
+        "buttonId": "WitchDoctorSpiritofArachyr",
+        "abilityId": "WitchDoctorCorpseSpiders",
+        "icon": "storm_ui_icon_nazeebo_corpsespider.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "WitchDoctorCorpseSpiders|WitchDoctorCorpseSpiders|Q"
+        ]
+      },
+      {
+        "linkId": "WitchDoctorDeadRush|WitchDoctorZombieWallDeadRushTalent|W|Level7",
+        "talentId": "WitchDoctorDeadRush",
+        "buttonId": "WitchDoctorZombieWallDeadRushTalent",
+        "abilityId": "WitchDoctorZombieWall",
+        "icon": "storm_ui_icon_nazeebo_zombiewall.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "WitchDoctorZombieWall|WitchDoctorZombieWall|W"
+        ]
+      },
+      {
+        "linkId": "WitchDoctorToadsofHugeness|WitchDoctorPlagueOfToadsToadsOfHugenessTalent|E|Level7",
+        "talentId": "WitchDoctorToadsofHugeness",
+        "buttonId": "WitchDoctorPlagueOfToadsToadsOfHugenessTalent",
+        "abilityId": "WitchDoctorPlagueofToads",
+        "icon": "storm_ui_icon_nazeebo_plagueoftoads.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "WitchDoctorPlagueofToads|WitchDoctorPlagueOfToads|E"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "WitchDoctorHeroicAbilityGargantuan|WitchDoctorGargantuan|Heroic|Level10",
+        "talentId": "WitchDoctorHeroicAbilityGargantuan",
+        "buttonId": "WitchDoctorGargantuan",
+        "abilityId": "WitchDoctorGargantuan",
+        "icon": "storm_ui_icon_nazeebo_gargantuan.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "WitchDoctorHeroicAbilityRavenousSpirits|WitchDoctorRavenousSpirit|Heroic|Level10",
+        "talentId": "WitchDoctorHeroicAbilityRavenousSpirits",
+        "buttonId": "WitchDoctorRavenousSpirit",
+        "abilityId": "WitchDoctorRavenousSpirit",
+        "icon": "storm_ui_icon_nazeebo_ravenousspirit.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "WitchDoctorGuardianToads|WitchDoctorGuardianToads|E|Level13",
+        "talentId": "WitchDoctorGuardianToads",
+        "buttonId": "WitchDoctorGuardianToads",
+        "abilityId": "WitchDoctorPlagueofToads",
+        "icon": "storm_ui_icon_nazeebo_plagueoftoads.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "WitchDoctorPlagueofToads|WitchDoctorPlagueOfToads|E"
+        ]
+      },
+      {
+        "linkId": "WitchDoctorSuperstition|WitchDoctorSuperstition|Passive|Level13",
+        "talentId": "WitchDoctorSuperstition",
+        "buttonId": "WitchDoctorSuperstition",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_nazeebo_suprerstition.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2
+      },
+      {
+        "linkId": "GenericTalentIceBlock|GenericIceBlockTalent|Active|Level13",
+        "talentId": "GenericTalentIceBlock",
+        "buttonId": "GenericIceBlockTalent",
+        "abilityId": "TalentBucketIceBlock",
+        "icon": "storm_ui_icon_talent_iceblock.png",
+        "toggleCooldown": 0.5,
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "WitchDoctorSpiderColony|WitchDoctorSpiderColony|Q|Level16",
+        "talentId": "WitchDoctorSpiderColony",
+        "buttonId": "WitchDoctorSpiderColony",
+        "abilityId": "WitchDoctorCorpseSpiders",
+        "icon": "storm_ui_icon_nazeebo_corpsespider.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "WitchDoctorCorpseSpiders|WitchDoctorCorpseSpiders|Q"
+        ]
+      },
+      {
+        "linkId": "WitchDoctorRingOfPoison|WitchDoctorRingOfPoison|W|Level16",
+        "talentId": "WitchDoctorRingOfPoison",
+        "buttonId": "WitchDoctorRingOfPoison",
+        "abilityId": "WitchDoctorZombieWall",
+        "icon": "storm_ui_icon_nazeebo_zombiewall.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "WitchDoctorZombieWall|WitchDoctorZombieWall|W"
+        ]
+      },
+      {
+        "linkId": "WitchDoctorSoulHarvest|WitchDoctorSoulHarvest|Active|Level16",
+        "talentId": "WitchDoctorSoulHarvest",
+        "buttonId": "WitchDoctorSoulHarvest",
+        "abilityId": "WitchDoctorSoulHarvest",
+        "icon": "storm_ui_icon_nazeebo_soulharvest.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "WitchDoctorHumongoid|WitchDoctorGargantuanHumongoidTalent|Heroic|Level20",
+        "talentId": "WitchDoctorHumongoid",
+        "buttonId": "WitchDoctorGargantuanHumongoidTalent",
+        "abilityId": "WitchDoctorGargantuan",
+        "icon": "storm_ui_icon_nazeebo_gargantuan.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "WitchDoctorGargantuan|WitchDoctorGargantuan|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "WitchDoctorHeroicAbilityGargantuan"
+        ]
+      },
+      {
+        "linkId": "WitchDoctorAnnihilatingSpirits|WitchDoctorRavenousSpiritAnnihilatingSpiritTalent|Heroic|Level20",
+        "talentId": "WitchDoctorAnnihilatingSpirits",
+        "buttonId": "WitchDoctorRavenousSpiritAnnihilatingSpiritTalent",
+        "abilityId": "WitchDoctorRavenousSpirit",
+        "icon": "storm_ui_icon_nazeebo_ravenousspirit.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "WitchDoctorRavenousSpirit|WitchDoctorRavenousSpirit|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "WitchDoctorHeroicAbilityRavenousSpirits"
+        ]
+      },
+      {
+        "linkId": "WitchDoctorVileInfection|WitchDoctorVileInfection|Trait|Level20",
+        "talentId": "WitchDoctorVileInfection",
+        "buttonId": "WitchDoctorVileInfection",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_nazeebo_voodooritual.png",
+        "abilityType": "Trait",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|WitchDoctorVoodooRitualTrait|Trait"
+        ]
+      },
+      {
+        "linkId": "WitchDoctorBadMedicine|WitchDoctorBadMedicine|Active|Level20",
+        "talentId": "WitchDoctorBadMedicine",
+        "buttonId": "WitchDoctorBadMedicine",
+        "abilityId": "WitchDoctorBadMedicine",
+        "icon": "storm_ui_icon_nazeebo_voodooritual_a.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      }
+    ]
+  },
+  "sheets": {
+    "abilities": {
+      "sheet": "sheets/WitchDoctor/abilities.webp",
+      "icons": {
+        "storm_ui_icon_nazeebo_corpsespider.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_nazeebo_zombiewall.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_nazeebo_plagueoftoads.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_nazeebo_gargantuan.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_nazeebo_ravenousspirit.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_nazeebo_voodooritual.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          0,
+          520,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          229,
+          390,
+          111,
+          71
+        ],
+        "hud_btn_bg_ability_cancel.png": [
+          130,
+          390,
+          97,
+          111
+        ],
+        "storm_ui_icon_nazeebo_gargantuanstomp.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          342,
+          390,
+          76,
+          48
+        ],
+        "storm_ui_icon_talent_iceblock.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_nazeebo_soulharvest.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_nazeebo_voodooritual_a.png": [
+          0,
+          260,
+          128,
+          128
+        ]
+      }
+    },
+    "talents": {
+      "sheet": "sheets/WitchDoctor/talents.webp",
+      "icons": {
+        "storm_ui_icon_nazeebo_corpsespider.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_nazeebo_plagueoftoads.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_elunesgrace.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_nazeebo_voodooritual.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_nazeebo_voodooritual_a.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_nazeebo_zombiewall.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_nazeebo_gargantuan.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_nazeebo_ravenousspirit.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_nazeebo_suprerstition.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_iceblock.png": [
+          130,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_nazeebo_soulharvest.png": [
+          130,
+          130,
+          128,
+          128
+        ]
+      }
+    },
+    "hero": {
+      "sheet": "sheets/WitchDoctor/hero.webp",
+      "icons": {
+        "storm_ui_icon_nazeebo_corpsespider.png": [
+          182,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_nazeebo_zombiewall.png": [
+          390,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_nazeebo_plagueoftoads.png": [
+          130,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_nazeebo_gargantuan.png": [
+          312,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_nazeebo_ravenousspirit.png": [
+          260,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_nazeebo_voodooritual.png": [
+          260,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          0,
+          677,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          0,
+          604,
+          111,
+          71
+        ],
+        "hud_btn_bg_ability_cancel.png": [
+          260,
+          474,
+          97,
+          111
+        ],
+        "storm_ui_icon_nazeebo_gargantuanstomp.png": [
+          0,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          423,
+          604,
+          76,
+          48
+        ],
+        "storm_ui_icon_talent_iceblock.png": [
+          130,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_nazeebo_soulharvest.png": [
+          390,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_nazeebo_voodooritual_a.png": [
+          130,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_elunesgrace.png": [
+          0,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_nazeebo_suprerstition.png": [
+          0,
+          344,
+          128,
+          128
+        ]
+      },
+      "portraits": {
+        "draftScreen": [
+          0,
+          0,
+          180,
+          212
+        ],
+        "minimap": [
+          78,
+          677,
+          32,
+          32
+        ],
+        "partyPanel": [
+          243,
+          604,
+          178,
+          56
+        ],
+        "target": [
+          359,
+          474,
+          92,
+          93
+        ],
+        "targetInfo": [
+          113,
+          604,
+          128,
+          56
+        ]
+      }
+    }
+  }
+}
