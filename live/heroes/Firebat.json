@@ -592,115 +592,184 @@
       }
     }
   },
-  "sheet": "sheets/Firebat.webp",
-  "icons": {
-    "storm_ui_icon_blaze_flame.png": [
-      0,
-      0,
-      128,
-      128
-    ],
-    "storm_ui_icon_blaze_oil.png": [
-      128,
-      0,
-      128,
-      128
-    ],
-    "storm_ui_icon_blaze_jet.png": [
-      256,
-      0,
-      128,
-      128
-    ],
-    "storm_ui_icon_blaze_bunker.png": [
-      384,
-      0,
-      128,
-      128
-    ],
-    "storm_ui_icon_blaze_combustion.png": [
-      512,
-      0,
-      128,
-      128
-    ],
-    "storm_ui_icon_blaze_pyromania.png": [
-      0,
-      128,
-      128,
-      128
-    ],
-    "storm_ui_icon_generic_mount.png": [
-      128,
-      128,
-      76,
-      48
-    ],
-    "storm_ui_icon_miscrune_1.png": [
-      256,
-      128,
-      111,
-      71
-    ],
-    "hud_btn_bg_ability_cancel.png": [
-      384,
-      128,
-      97,
-      111
-    ],
-    "storm_ui_icon_generic_cancel_mount.png": [
-      512,
-      128,
-      76,
-      48
-    ],
-    "storm_ui_icon_blaze_stim_2.png": [
-      0,
-      256,
-      128,
-      128
-    ],
-    "storm_ui_icon_blaze_stim_1.png": [
-      128,
-      256,
-      128,
-      128
-    ],
-    "storm_ui_icon_blaze_stim_3.png": [
-      256,
-      256,
-      128,
-      128
-    ],
-    "storm_ui_icon_blaze_vanadium_plating.png": [
-      384,
-      256,
-      128,
-      128
-    ],
-    "storm_ui_icon_blaze_new_habits.png": [
-      512,
-      256,
-      128,
-      128
-    ],
-    "storm_ui_icon_talent_autoattack_building.png": [
-      0,
-      384,
-      128,
-      128
-    ],
-    "storm_ui_icon_blaze_oil_b.png": [
-      128,
-      384,
-      128,
-      128
-    ],
-    "storm_ui_icon_talent_autoattack_slow.png": [
-      256,
-      384,
-      128,
-      128
-    ]
+  "sheets": {
+    "abilities": {
+      "sheet": "sheets/Firebat/abilities.webp",
+      "icons": {
+        "storm_ui_icon_blaze_flame.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_blaze_oil.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_blaze_jet.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_blaze_bunker.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_blaze_combustion.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_blaze_pyromania.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          0,
+          520,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          229,
+          390,
+          111,
+          71
+        ],
+        "hud_btn_bg_ability_cancel.png": [
+          130,
+          390,
+          97,
+          111
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          342,
+          390,
+          76,
+          48
+        ],
+        "storm_ui_icon_blaze_stim_2.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_blaze_stim_1.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_blaze_stim_3.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_blaze_vanadium_plating.png": [
+          0,
+          390,
+          128,
+          128
+        ]
+      }
+    },
+    "talents": {
+      "sheet": "sheets/Firebat/talents.webp",
+      "icons": {
+        "storm_ui_icon_blaze_stim_2.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_blaze_stim_1.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_blaze_stim_3.png": [
+          130,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_blaze_new_habits.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_blaze_oil.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_blaze_pyromania.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_building.png": [
+          0,
+          520,
+          128,
+          128
+        ],
+        "storm_ui_icon_blaze_flame.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_blaze_jet.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_blaze_bunker.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_blaze_combustion.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_blaze_oil_b.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_blaze_vanadium_plating.png": [
+          260,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_slow.png": [
+          130,
+          520,
+          128,
+          128
+        ]
+      }
+    }
   }
 }

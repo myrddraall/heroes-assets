@@ -170,7 +170,7 @@ jobs:
           SNAPSHOT: ${{ needs.plan.outputs.snapshot }}
         run: |
           gh release download "$SNAPSHOT" --pattern "$SNAPSHOT_NAME" --dir .
-          mkdir -p hdp-out && tar xzf "$SNAPSHOT_NAME" -C hdp-out && rm "$SNAPSHOT_NAME"
+          mkdir -p hdp-out && tar xzf "$SNAPSHOT_NAME" -C hdp-out
 
       - name: Build the folder
         if: needs.plan.outputs.build == 'true'
@@ -223,15 +223,16 @@ jobs:
           tools/await-run.sh build-pack-publish.yml release/main -f pr_number="$pr"
           gh release view "$TAG" --json tagName > /dev/null
 
-      # Kept only on the newest release of each channel: a rebuild of that game build reuses it
+      # Kept only on the newest release of each channel, whether extracted now or taken from the
+      # last release: the next rebuild of that game build looks for it there
       - name: Store the extraction on the release
-        if: needs.plan.outputs.extract == 'true'
+        if: needs.plan.outputs.build == 'true'
         run: |
           set -euo pipefail
           if gh release view "$TAG" --json assets --jq '.assets[].name' | grep -qx "$SNAPSHOT_NAME"; then
             echo "Stored already"
           else
-            tar czf "$SNAPSHOT_NAME" -C hdp-out .
+            [ -f "$SNAPSHOT_NAME" ] || tar czf "$SNAPSHOT_NAME" -C hdp-out .
             gh release upload "$TAG" "$SNAPSHOT_NAME"
           fi
           gh release list --limit 200 --json tagName --jq '.[].tagName' | while read -r tag; do

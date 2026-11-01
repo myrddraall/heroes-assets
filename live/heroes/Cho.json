@@ -557,115 +557,172 @@
       }
     ]
   },
-  "sheet": "sheets/Cho.webp",
-  "icons": {
-    "storm_ui_icon_cho_moltensurge_a.png": [
-      0,
-      0,
-      128,
-      128
-    ],
-    "storm_ui_icon_cho_consumingflame.png": [
-      128,
-      0,
-      128,
-      128
-    ],
-    "storm_ui_icon_cho_runebomb.png": [
-      256,
-      0,
-      128,
-      128
-    ],
-    "storm_ui_icon_cho_upheaval.png": [
-      384,
-      0,
-      128,
-      128
-    ],
-    "storm_ui_icon_cho_hammeroftwilight.png": [
-      512,
-      0,
-      128,
-      128
-    ],
-    "storm_ui_icon_cho_ogrehide.png": [
-      0,
-      128,
-      128,
-      128
-    ],
-    "storm_ui_icon_generic_mount.png": [
-      128,
-      128,
-      76,
-      48
-    ],
-    "storm_ui_icon_miscrune_1.png": [
-      256,
-      128,
-      111,
-      71
-    ],
-    "storm_ui_icon_cho_moltensurge_b.png": [
-      384,
-      128,
-      128,
-      128
-    ],
-    "storm_ui_icon_generic_cancel_mount.png": [
-      512,
-      128,
-      76,
-      48
-    ],
-    "hud_btn_bg_ability_cancel.png": [
-      0,
-      256,
-      97,
-      111
-    ],
-    "storm_ui_icon_cho_moltenblock.png": [
-      128,
-      256,
-      128,
-      128
-    ],
-    "storm_ui_icon_talent_hardenedshield.png": [
-      256,
-      256,
-      128,
-      128
-    ],
-    "storm_ui_icon_cho_ogrehide_var1.png": [
-      384,
-      256,
-      128,
-      128
-    ],
-    "storm_ui_icon_talent_autoattack_damage.png": [
-      512,
-      256,
-      128,
-      128
-    ],
-    "storm_ui_icon_talent_autoattack_cooldown.png": [
-      0,
-      384,
-      128,
-      128
-    ],
-    "storm_ui_icon_talent_autoattack_aoe.png": [
-      128,
-      384,
-      128,
-      128
-    ],
-    "storm_ui_icon_gall_psychoticbreak.png": [
-      256,
-      384,
-      128,
-      128
-    ]
+  "sheets": {
+    "abilities": {
+      "sheet": "sheets/Cho/abilities.webp",
+      "icons": {
+        "storm_ui_icon_cho_moltensurge_a.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_cho_consumingflame.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_cho_runebomb.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_cho_upheaval.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_cho_hammeroftwilight.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_cho_ogrehide.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          290,
+          390,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          99,
+          390,
+          111,
+          71
+        ],
+        "storm_ui_icon_cho_moltensurge_b.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          212,
+          390,
+          76,
+          48
+        ],
+        "hud_btn_bg_ability_cancel.png": [
+          0,
+          390,
+          97,
+          111
+        ],
+        "storm_ui_icon_cho_moltenblock.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_hardenedshield.png": [
+          260,
+          260,
+          128,
+          128
+        ]
+      }
+    },
+    "talents": {
+      "sheet": "sheets/Cho/talents.webp",
+      "icons": {
+        "storm_ui_icon_cho_consumingflame.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_cho_ogrehide.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_cho_ogrehide_var1.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_cho_moltensurge_a.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_cho_runebomb.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_damage.png": [
+          260,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_cho_hammeroftwilight.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_cho_upheaval.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_hardenedshield.png": [
+          0,
+          520,
+          128,
+          128
+        ],
+        "storm_ui_icon_cho_moltenblock.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_cooldown.png": [
+          130,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_aoe.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_gall_psychoticbreak.png": [
+          260,
+          260,
+          128,
+          128
+        ]
+      }
+    }
   }
 }

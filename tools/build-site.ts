@@ -3,7 +3,7 @@
 // channel's files (Pages lists no folders, so the page links every file worth opening).
 //
 //   node tools/build-site.ts
-import { cp, mkdir, readdir, rm, writeFile } from 'node:fs/promises';
+import { cp, mkdir, readdir, readFile, rm, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import {
   channelVersion,
@@ -50,9 +50,20 @@ async function channelSection(channel: Channel, version: ChannelVersion): Promis
   const heroes = (await files(`${channel}/heroes`)).filter((f) => f !== 'index.json');
   const heroRows = heroes.map((file) => {
     const id = file.replace(/\.json$/, '');
-    return `<tr><th scope="row">${escape(id)}</th><td>${link(`${channel}/heroes/${file}`, 'data')}</td><td>${link(`${channel}/heroes/sheets/${id}.webp`, 'icons')}</td><td>${link(`${channel}/strings/en-US/heroes/${file}`, 'en-US texts')}</td></tr>`;
+    return `<tr><th scope="row">${escape(id)}</th><td>${link(`${channel}/heroes/${file}`, 'data')}</td><td>${link(`${channel}/heroes/sheets/${id}/abilities.webp`, 'abilities')}</td><td>${link(`${channel}/heroes/sheets/${id}/talents.webp`, 'talents')}</td><td>${link(`${channel}/strings/en-US/heroes/${file}`, 'en-US texts')}</td></tr>`;
   });
   const portraits = (await files(`${channel}/portraits`)).filter((f) => f.endsWith('.webp'));
+  const maps: Record<
+    string,
+    { key: string; sheet: string | null; replayPreviewImage?: string; loadingScreenImage?: string }
+  > = JSON.parse(await readFile(join(dist, channel, 'maps', 'index.json'), 'utf8'));
+  const minimap: { sheet: string | null } = JSON.parse(
+    await readFile(join(dist, channel, 'minimap', 'index.json'), 'utf8'),
+  );
+  const mapRows = Object.values(maps).map(
+    (map) =>
+      `<tr><th scope="row">${escape(map.key)}</th><td>${map.sheet ? link(`${channel}/maps/${map.sheet}`, 'interface') : ''}</td><td>${map.replayPreviewImage ? link(`${channel}/maps/${map.replayPreviewImage}`, 'preview') : ''}</td><td>${map.loadingScreenImage ? link(`${channel}/maps/${map.loadingScreenImage}`, 'loading screen') : ''}</td></tr>`,
+  );
   const emoteSheets = await files(`${channel}/emoticons/sheets`);
   const localeRows = Object.values(LOCALES).map(
     (tag) =>
@@ -74,16 +85,24 @@ async function channelSection(channel: Channel, version: ChannelVersion): Promis
 
       <h3>Indexes</h3>
       ${list(
-        ['heroes', 'portraits', 'emoticons', 'maps'].map((name) =>
+        ['heroes', 'portraits', 'emoticons', 'maps', 'minimap'].map((name) =>
           link(`${channel}/${name}/index.json`, `${name}/index.json`),
         ),
       )}
+
+      <h3>Minimap icons</h3>
+      ${list(minimap.sheet ? [link(`${channel}/minimap/${minimap.sheet}`)] : ['none'])}
 
       <h3>Portraits</h3>
       ${list(portraits.map((f) => link(`${channel}/portraits/${f}`)))}
 
       <details>
-        <summary>Emote sheets (${emoteSheets.length})</summary>
+        <summary>Maps (${mapRows.length})</summary>
+        <table><tbody>${mapRows.join('')}</tbody></table>
+      </details>
+
+      <details>
+        <summary>Emote sheets by pack (${emoteSheets.length})</summary>
         ${list(emoteSheets.map((f) => link(`${channel}/emoticons/sheets/${f}`)))}
       </details>
 
