@@ -46,6 +46,8 @@ export interface ChannelVersion {
   readonly version: string;
   /** The Heroes Data Parser version that extracted the files. */
   readonly hdp: string;
+  /** What the extraction holds besides the game build (lib/extraction.ts EXTRACTION_KEY). */
+  readonly extraction?: string;
 }
 
 export function asChannel(value: string | undefined): Channel {

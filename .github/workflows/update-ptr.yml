@@ -13,6 +13,11 @@ on:
         type: boolean
         default: false
 
+# One update at a time, start to finish: both channels commit versions.yml and share the release PR
+concurrency:
+  group: heroes-assets-update
+  cancel-in-progress: false
+
 jobs:
   update:
     uses: ./.github/workflows/update.yml

@@ -48,17 +48,33 @@ them can be deployed again.
 
 | Workflow                 | When                                         | What                                                                 |
 | ------------------------ | -------------------------------------------- | -------------------------------------------------------------------- |
-| `update-live.yml`        | Daily, or by hand                            | Checks the live server's version; rebuilds `live/` when it changed   |
+| `update-live.yml`        | Daily, or by hand                            | Updates `live/` when the live server's version changed               |
 | `update-ptr.yml`         | Daily, or by hand                            | The same for the PTR and `ptr/`                                      |
-| `update.yml`             | Called by both                               | Extract, build, commit, merge the release PR, wait for it, deploy    |
+| `update.yml`             | Called by both, one update at a time         | Plan, extract, build, release, deploy (below)                        |
 | `create-release-pr.yml`  | Each push to `main`, or the update           | git-flow: opens or updates the release PR (`main` → `release/main`)  |
 | `build-pack-publish.yml` | The release PR merged, or the update         | git-flow: builds the site, publishes the GitHub release with its zip |
 | `deploy-production.yml`  | After each update, `gitflow deploy`, by hand | Deploys one release's site to the `gh-pages` branch                  |
 
-Run an update by hand with **rebuild** ticked to rebuild the same game version after a tool fix.
-Nobody merges release PRs by hand: the update merges them. Pushes and merges made with a
-workflow's own token start no other workflows, so the update dispatches Create Release PR and
-Build, Pack & Publish itself and waits for each; no personal token is needed.
+An update runs in five jobs, each skipped when its work is done already:
+
+1. **plan** (`tools/plan.ts`) works out what's left from where things stand: the patch server's
+   game version, the version the folder holds, whether that's released, whether it's deployed.
+2. **extract** runs HDP once per locale, in parallel. The English run also writes the data files and
+   pictures; the others keep only their strings. HDP's download of game files is kept in the
+   Actions cache.
+3. **build** makes the folder from the extraction and commits it to `main`. A rebuild of a game
+   build whose extraction is stored on its release takes that one and doesn't extract at all.
+4. **release** opens git-flow's release PR, merges it, publishes the release and stores the
+   extraction on it (only the newest release of each channel keeps one).
+5. **deploy** deploys the release to Pages.
+
+**After a failure**, use **Re-run failed jobs**, or start a new update: either carries on where the
+last one stopped. Tick **rebuild** to rebuild the same game version after a tool fix: the next
+revision, or the same one while it's unreleased. Nobody merges release PRs by hand.
+
+A workflow's own pushes and merges start no other workflows, but its dispatches do: the update
+dispatches Create Release PR and Build, Pack & Publish and waits for each, so no personal token is
+needed.
 
 **Rolling back:** deploy an older release. Run `pnpm gitflow deploy` and pick the version, or run
 **Deploy — Production** from the Actions tab with its tag (`@myrddraall/heroes-assets/v2.57.9834800`).
@@ -71,19 +87,22 @@ Build, Pack & Publish itself and waits for each; no personal token is needed.
 
 ## Tools
 
-| Command                                                    | What                                                  |
-| ---------------------------------------------------------- | ----------------------------------------------------- |
-| `pnpm run check.update <live\|ptr> [--rebuild]`            | Whether a channel needs a new build, and its version  |
-| `pnpm run build.channel <live\|ptr> <hdp out>`             | Builds a channel's folder from HDP's output           |
-| `pnpm run set.version <live\|ptr> <game> <revision> <hdp>` | Writes `version.json` and `.publish/versions.yml`     |
-| `pnpm run build.site`                                      | Builds the Pages site (`site/dist`) from both folders |
+| Command                                              | What                                                  |
+| ---------------------------------------------------- | ----------------------------------------------------- |
+| `pnpm run plan <live\|ptr> [--rebuild]`              | What an update of a channel still has to do           |
+| `pnpm run extract <live\|ptr> <locale> <game> <out>` | Runs HDP for one locale (`tools/lib/extraction.ts`)   |
+| `pnpm run build.channel <live\|ptr> <hdp out>`       | Builds a channel's folder from HDP's output           |
+| `pnpm run set.version <live\|ptr> <game> <revision>` | Writes `version.json` and `.publish/versions.yml`     |
+| `pnpm run build.site`                                | Builds the Pages site (`site/dist`) from both folders |
 
-HDP's command, as the update runs it:
+HDP's command for the English run (the other locales leave out the `:i` picture options);
+`tools/lib/extraction.ts` holds it:
 
 ```bash
 HeroesDataParser online [--download-ptr] -e hero:i -e unit -e emoticon:i -e emoticonpack -e map:i \
-  -l all --localized-text Extract -o hdp-out \
-  --gs-replace-constant-vars --gs-replace-style-vars --gs-preserve-constant-vars --gs-preserve-style-vars
+  -l enus --localized-text Extract \
+  --gs-replace-constant-vars --gs-replace-style-vars --gs-preserve-constant-vars --gs-preserve-style-vars \
+  -o hdp-out
 ```
 
 ## Credits
