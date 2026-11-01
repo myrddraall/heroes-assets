@@ -1,0 +1,200 @@
+{
+  "abilities": {
+    "WhitemaneDesperatePlea|WhitemaneDesperatePlea|Q": {
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 45</s>",
+      "fullText": "Cura un eroe alleato di <c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c> Salute e ottiene <c val=\"#WhitemaneDesperation\">Disperazione</c> per <c val=\"#TooltipNumbers\">4</c> s.<n/><n/><c val=\"#WhitemaneDesperation\">Disperazione</c> aumenta il costo in Mana di Supplica Disperata di <c val=\"#TooltipNumbers\">40</c> e si accumula fino a <c val=\"#TooltipNumbers\">3</c> volte.<n/><n/><c val=\"ffff8a\">Costo in Mana attuale:</c> <c val=\"#TooltipNumbers\">45</c>",
+      "name": "Supplica Disperata",
+      "shortText": "Cura un eroe alleato."
+    },
+    "WhitemaneInquisition|WhitemaneInquisition|W": {
+      "cooldownText": "Recupero: 12 s",
+      "fullText": "Incanala l'abilità su un eroe nemico per un massimo di <c val=\"#TooltipNumbers\">3</c> s, infliggendo <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> danni ogni <c val=\"#TooltipNumbers\">0.5</c> s e rallentandolo del <c val=\"#TooltipNumbers\">30%</c>. Rimuove un accumulo di <c val=\"#WhitemaneDesperation\">Disperazione</c>.<n/><n/>Condivide il tempo di recupero con Clemenza.",
+      "name": "Inquisizione",
+      "shortText": "Danneggia o cura eroi."
+    },
+    "WhitemaneSearingLash|WhitemaneSearingLash|E": {
+      "cooldownText": "Recupero: 6 s",
+      "fullText": "Dopo <c val=\"#TooltipNumbers\">0.5</c> s, folgora i nemici in una linea retta, infliggendo <c val=\"#TooltipNumbers\">82</c><c val=\"#ColorGray\">~~0.04~~</c> danni.<n/><n/>Se il primo attacco colpisce un eroe nemico, un secondo attacco si verificherà dopo un breve ritardo.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Missione ripetibile:</c> Colpisci gli eroi con Sferzata Ustionante.<n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Missione ripetibile:</c> Colpisci <c val=\"#TooltipNumbers\">3</c> eroi con attacchi base.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Ricompensa:</c> Aumenta permanentemente la Salute massima di Biancachioma di <c val=\"#TooltipNumbers\">3</c> e il Mana di <c val=\"#TooltipNumbers\">2</c>. Gli eroi colpiti con il secondo colpo di Sferzata Ustionante contano come <c val=\"#TooltipNumbers\">2</c> colpi.",
+      "name": "Sferzata Ustionante",
+      "shortText": "Danneggia i nemici in una linea retta."
+    },
+    "WhitemaneScarletAegis|WhitemaneScarletAegis|Heroic": {
+      "cooldownText": "Recupero: 60 s",
+      "fullText": "Rinfranca lo spirito degli eroi alleati vicini, curandoli di <c val=\"#TooltipNumbers\">300</c><c val=\"#ColorGray\">~~0.04~~</c> Salute e fornendo loro <c val=\"#TooltipNumbers\">40</c> Resistenza per <c val=\"#TooltipNumbers\">4</c> s.",
+      "name": "Egida Scarlatta",
+      "shortText": "Fornisce Resistenza agli alleati vicini e li cura."
+    },
+    "WhitemaneDivineReckoning|WhitemaneDivineReckoning|Heroic": {
+      "cooldownText": "Recupero: 75 s",
+      "fullText": "Dopo <c val=\"#TooltipNumbers\">1</c> s, consacra un'area per <c val=\"#TooltipNumbers\">4</c> s, infliggendo <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> danni ogni <c val=\"#TooltipNumbers\">0.5</c> s ai nemici all'interno. Rigenera Mana pari al <c val=\"#TooltipNumbers\">25%</c> dei danni inflitti agli eroi.",
+      "name": "Resa dei Conti Divina",
+      "shortText": "Consacra un'area."
+    },
+    "WhitemaneFanaticalPower|WhitemaneTraitZeal|Trait": {
+      "cooldownText": "Recupero: 40 s",
+      "fullText": "Le abilità di cura di Biancachioma applicano <c val=\"#WhitemaneZeal\">Zelo</c> per <c val=\"#TooltipNumbers\">8</c> s. Gli alleati con <c val=\"#WhitemaneZeal\">Zelo</c> rigenerano Salute pari al <c val=\"#TooltipNumbers\">100%</c> dei danni inflitti da Biancachioma agli eroi.<n/><n/>All'attivazione fornisce un bonus del <c val=\"#TooltipNumbers\">25%</c> alla Potenza magica ma riduce la Resistenza di <c val=\"#TooltipNumbers\">15</c> per <c val=\"#TooltipNumbers\">5</c> s. Può essere attivata durante l'incanalamento di abilità.",
+      "name": "Zelo",
+      "shortText": "I danni inflitti curano gli alleati marchiati."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Recupero: 4 s",
+      "fullText": "Dopo un incanalamento di <c val=\"#TooltipNumbers\">1</c> s, aumenta del <s val=\"StandardTooltipDetails\">30%</s> la velocità di movimento.",
+      "name": "Cavalcatura"
+    },
+    "WhitemaneInquisitionClemency|WhitemaneInquisitionClemency|Active": {
+      "cooldownText": "Recupero: 12 s",
+      "fullText": "Attiva Inquisizione su un eroe alleato, curandolo fino a <c val=\"#TooltipNumbers\">329</c><c val=\"#ColorGray\">~~0.04~~</c> Salute in <c val=\"#TooltipNumbers\">3</c> s durante l'incanalamento. Rimuove un accumulo di <c val=\"#WhitemaneDesperation\">Disperazione</c>.<n/><n/>Condivide il tempo di recupero con Inquisizione.",
+      "name": "Clemenza",
+      "shortText": "Cura gli alleati con Inquisizione."
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Dopo un incanalamento di <c val=\"#TooltipNumbers\">6</c> s, teletrasporta l'eroe nella Sala delle Tempeste, rigenerando all'istante <c val=\"#TooltipNumbers\">1125</c> Salute e <c val=\"#TooltipNumbers\">150</c> Mana.",
+      "name": "Pietra del Ritorno"
+    },
+    "WhitemaneInquisitionCancel|WhitemaneInquisitionCancel|W": {
+      "fullText": "Interrompe l'incanalamento di Inquisizione.",
+      "name": "Annulla Inquisizione",
+      "shortText": "Annulla Inquisizione."
+    },
+    "WhitemaneInquisitionCancel|WhitemaneInquisitionCancel|Active": {
+      "fullText": "Interrompe l'incanalamento di Inquisizione.",
+      "name": "Annulla Inquisizione",
+      "shortText": "Annulla Inquisizione."
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Congeda la cavalcatura.",
+      "name": "Congeda cavalcatura"
+    },
+    "WhitemaneIntercession|WhitemaneIntercession|Active": {
+      "cooldownText": "Recupero: 75 s",
+      "fullText": "All'attivazione, rende un alleato inarrestabile per <c val=\"#TooltipNumbers\">1</c> s.",
+      "name": "Intercessione",
+      "shortText": "Rende inarrestabile un alleato."
+    },
+    "WhitemaneGuidingLight|WhitemaneGuidingLight|Active": {
+      "cooldownText": "Recupero: 30 s",
+      "fullText": "Attiva permanentemente <c val=\"#WhitemaneZeal\">Zelo</c> su un eroe alleato, senza costo in Mana e senza fornire <c val=\"#WhitemaneDesperation\">Disperazione</c>. Può essere attivo un solo effetto alla volta, ha portata globale.<n/><n/>Aumenta il bonus alla Potenza magica fornito dal tratto di Biancachioma del 15%.",
+      "name": "Luce Guida",
+      "shortText": "All'attivazione fornisce gratuitamente <c val=\"#WhitemaneZeal\">Zelo</c>."
+    },
+    "WhitemanePurgeTheWicked|WhitemanePurgeTheWicked|Active": {
+      "cooldownText": "Recupero: 40 s",
+      "fullText": "All'attivazione investe un eroe nemico con fiamme sacre, riducendone la Resistenza di <c val=\"#TooltipNumbers\">25</c> e infliggendo <c val=\"#TooltipNumbers\">300</c><c val=\"#ColorGray\">~~0.04~~</c> danni in <c val=\"#TooltipNumbers\">4</c> s.",
+      "name": "Epurazione dal Male",
+      "shortText": "All'attivazione infligge danni e riduce la Resistenza."
+    }
+  },
+  "talents": {
+    "WhitemaneZealPityTheFrail|WhitemaneZealPityTheFrail|W|Level1": {
+      "fullText": "Ogni eroe colpito da Sferzata Ustionante riduce di <c val=\"#TooltipNumbers\">1</c> s il tempo di recupero di Inquisizione. Gli alleati con meno del <c val=\"#TooltipNumbers\">30%</c> di Salute ricevono il <c val=\"#TooltipNumbers\">25%</c> di cure in più da Biancachioma.",
+      "name": "Compassione",
+      "shortText": "Sferzata Ustionante riduce il tempo di recupero di Inquisizione."
+    },
+    "WhitemaneSearingLashRighteousFlame|WhitemaneSearingLashRighteousFlame|E|Level1": {
+      "fullText": "Sferzata Ustionante infligge il <c val=\"#TooltipNumbers\">25%</c> di danni aggiuntivi ai nemici. Se il secondo attacco colpisce un eroe nemico, subisce il <c val=\"#TooltipNumbers\">25%</c> di danni aggiuntivi e la velocità d'attacco di Biancachioma aumenta del <c val=\"#TooltipNumbers\">40%</c> per <c val=\"#TooltipNumbers\">3</c> s.",
+      "name": "Fiamme Virtuose",
+      "shortText": "Aumenta i danni di Sferzata Ustionante."
+    },
+    "WhitemaneInquisitorsPrayer|WhitemaneInquisitor'sPrayer|E|Level1": {
+      "fullText": "Sferzata Ustionante rigenera <c val=\"#TooltipNumbers\">25</c> Mana per ogni eroe colpito e la durata di <c val=\"#WhitemaneZeal\">Zelo</c> aumenta di <c val=\"#TooltipNumbers\">2</c> s.",
+      "name": "Preghiera dell'Inquisitrice",
+      "shortText": "Sferzata Ustionante rigenera Mana e fornisce bonus alla durata di <c val=\"#WhitemaneZeal\">Zelo</c>"
+    },
+    "WhitemaneDesperatePleaUnwaveringFaith|WhitemaneDesperatePleaUnwaveringFaith|Q|Level4": {
+      "fullText": "Estende di <c val=\"#TooltipNumbers\">1.1</c> la portata degli attacchi base di Biancachioma. Aumenta del <c val=\"#TooltipNumbers\">20%</c> i danni degli attacchi base di Biancachioma per ogni <c val=\"#WhitemaneZeal\">Zelo</c> attivo.",
+      "name": "Fede Incrollabile",
+      "shortText": "Estende la portata degli attacchi base e ne aumenta i danni."
+    },
+    "WhitemaneDesperatePleaMartyrdom|WhitemaneDesperatePleaMartyrdom|Q|Level4": {
+      "fullText": "Aumenta del <c val=\"#TooltipNumbers\">30% le cure di Supplica Disperata. Questo valore aumenta del </c><c val=\"#TooltipNumbers\">10%</c><c val=\"#TooltipNumbers\"> per ogni </c><c val=\"#WhitemaneZeal\">Zelo</c><c val=\"#TooltipNumbers\"> attivo.</c>",
+      "name": "Martirio",
+      "shortText": "<c val=\"#WhitemaneZeal\">Zelo</c> aumenta le cure di Supplica Disperata."
+    },
+    "WhitemaneZealIndulgence|WhitemaneZealIndulgence|Trait|Level4": {
+      "fullText": "Aumenta del <c val=\"#TooltipNumbers\">5%</c> la velocità di movimento. Questo valore aumenta del <c val=\"#TooltipNumbers\">5%</c> per ogni <c val=\"#WhitemaneZeal\">Zelo</c> attivo.",
+      "name": "Indulgenza",
+      "shortText": "<c val=\"#WhitemaneZeal\">Zelo</c> aumenta la velocità di movimento."
+    },
+    "WhitemaneDesperatePleaZealousSpirit|WhitemaneDesperatePleaZealousSpirit|Q|Level7": {
+      "fullText": "Al raggiungimento di <c val=\"#TooltipNumbers\">2</c> accumuli di <c val=\"#WhitemaneDesperation\">Disperazione</c>, Biancachioma ottiene <c val=\"#WhitemaneZeal\">Zelo</c>.",
+      "name": "Spirito Zelante",
+      "shortText": "<c val=\"#WhitemaneDesperation\">Disperazione</c> fornisce <c val=\"#WhitemaneZeal\">Zelo</c> a Biancachioma."
+    },
+    "WhitemaneSaintlyGreatstaff|WhitemaneSaintlyGreatstaff|E|Level7": {
+      "fullText": "Gli eroi nemici colpiti da Sferzata Ustionante sono marchiati per <c val=\"#TooltipNumbers\">3</c> s. Gli attacchi base contro di loro infliggono <c val=\"#TooltipNumbers\">55</c><c val=\"#ColorGray\">~~0.04~~</c> danni magici aggiuntivi e rimuovono il marchio.",
+      "name": "Scettro dei Santi",
+      "shortText": "Sferzata Ustionante potenzia gli attacchi base."
+    },
+    "WhitemaneIntercession|WhitemaneIntercession|Active|Level7": {
+      "cooldownText": "Recupero: 75 s",
+      "fullText": "All'attivazione, rende un alleato inarrestabile per <c val=\"#TooltipNumbers\">1</c> s.",
+      "name": "Intercessione",
+      "shortText": "Rende inarrestabile un alleato."
+    },
+    "WhitemaneScarletAegis|WhitemaneScarletAegis|Heroic|Level10": {
+      "cooldownText": "Recupero: 60 s",
+      "fullText": "Rinfranca lo spirito degli eroi alleati vicini, curandoli di <c val=\"#TooltipNumbers\">300</c><c val=\"#ColorGray\">~~0.04~~</c> Salute e fornendo loro <c val=\"#TooltipNumbers\">40</c> Resistenza per <c val=\"#TooltipNumbers\">4</c> s.",
+      "name": "Egida Scarlatta",
+      "shortText": "Fornisce Resistenza agli alleati vicini e li cura."
+    },
+    "WhitemaneDivineReckoning|WhitemaneDivineReckoning|Heroic|Level10": {
+      "cooldownText": "Recupero: 75 s",
+      "fullText": "Dopo <c val=\"#TooltipNumbers\">1</c> s, consacra un'area per <c val=\"#TooltipNumbers\">4</c> s, infliggendo <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> danni ogni <c val=\"#TooltipNumbers\">0.5</c> s ai nemici all'interno. Rigenera Mana pari al <c val=\"#TooltipNumbers\">25%</c> dei danni inflitti agli eroi.",
+      "name": "Resa dei Conti Divina",
+      "shortText": "Consacra un'area."
+    },
+    "WhitemaneInquisitionSubjugation|WhitemaneInquisitionSubjugation|W|Level13": {
+      "fullText": "Inquisizione riduce del <c val=\"#TooltipNumbers\">50%</c> tutti i danni inflitti dal bersaglio.",
+      "name": "Soggiogamento",
+      "shortText": "Inquisizione riduce i danni inflitti dai nemici."
+    },
+    "WhitemaneSearingLashLashingOut|WhitemaneSearingLashLashingOut|E|Level13": {
+      "fullText": "Se il secondo attacco di Sferzata Ustionante colpisce un eroe nemico, il suo tempo di recupero è ridotto a <c val=\"#TooltipNumbers\">1</c> s.",
+      "name": "Sferzata Maggiore",
+      "shortText": "Riduce il tempo di recupero di Sferzata Ustionante."
+    },
+    "WhitemaneZealScarletWrath|WhitemaneZealScarletWrath|Trait|Level13": {
+      "fullText": "Gli attacchi base contro gli eroi aumentano la durata di tutti gli <c val=\"#WhitemaneZeal\">Zeli</c> attivi di <c val=\"#TooltipNumbers\">0.75</c> s, rigenerano il <c val=\"#TooltipNumbers\">1</c><c val=\"#TooltipNumbers\">%</c> del Mana di tutti i bersagli di <c val=\"#WhitemaneZeal\">Zelo</c> e riduce il tempo di recupero dell'attivazione degli <c val=\"#WhitemaneZeal\">Zeli</c> di <c val=\"#TooltipNumbers\">4</c> s.",
+      "name": "Ira Scarlatta",
+      "shortText": "Gli attacchi base aumentano la durata di <c val=\"#WhitemaneZeal\">Zelo</c>."
+    },
+    "WhitemaneDesperatePleaRadiance|WhitemaneDesperatePleaRadiance|Q|Level16": {
+      "fullText": "Al raggiungimento di <c val=\"#TooltipNumbers\">3</c> accumuli di <c val=\"#WhitemaneDesperation\">Disperazione</c>, cura di <c val=\"#TooltipNumbers\">190</c><c val=\"#ColorGray\">~~0.04~~</c> e applica nuovamente <c val=\"#WhitemaneZeal\">Zelo</c> agli alleati con <c val=\"#WhitemaneZeal\">Zelo</c>.",
+      "name": "Radiosità",
+      "shortText": "<c val=\"#WhitemaneDesperation\">Disperazione</c> cura gli alleati con <c val=\"#WhitemaneZeal\">Zelo</c>."
+    },
+    "WhitemaneInquisitionSharedPunishment|WhitemaneInquisitionSharedPunishment|W|Level16": {
+      "fullText": "All'attivazione Inquisizione può colpire un secondo eroe nemico vicino al bersaglio, infliggendo <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> danni ogni <c val=\"#TooltipNumbers\">0.5</c> s. Sottrae <c val=\"#TooltipNumbers\">10</c> Resistenza ai nemici colpiti.",
+      "name": "Castigo Condiviso",
+      "shortText": "Inquisizione colpisce anche un nemico vicino e riduce la Resistenza."
+    },
+    "WhitemaneSearingLashHarshDiscipline|WhitemaneSearingLashHarshDiscipline|E|Level16": {
+      "fullText": "Colpire un eroe con Sferzata Ustionante mentre è sotto gli effetti di Inquisizione lo immobilizza per <c val=\"#TooltipNumbers\">1.5</c> s.<n/><n/><c val=\"#AbilityPassive\">Passiva:</c> Riduce il tempo di recupero di Inquisizione di <c val=\"#TooltipNumbers\">2</c> s.",
+      "name": "Disciplina Inflessibile",
+      "shortText": "Sferzata Ustionante immobilizza il bersaglio di Inquisizione."
+    },
+    "WhitemaneScarletAegisScarletCrusade|WhitemaneScarletAegisScarletCrusade|Heroic|Level20": {
+      "fullText": "Egida Scarlatta rigenera il <c val=\"#TooltipNumbers\">50%</c> di Salute in più e rende inarrestabili gli alleati per <c val=\"#TooltipNumbers\">2</c> s.",
+      "name": "Crociata Scarlatta",
+      "shortText": "Egida Scarlatta rende inarrestabili gli alleati."
+    },
+    "WhitemaneDivineReckoningJudgmentDay|WhitemaneDivineReckoningJudgmentDay|Heroic|Level20": {
+      "fullText": "Resa dei Conti Divina infligge il <c val=\"#TooltipNumbers\">50%</c> di danni aggiuntivi e trascina i nemici verso il centro la prima volta che li colpisce.",
+      "name": "Giorno del Giudizio",
+      "shortText": "Resa dei Conti Divina trascina i nemici."
+    },
+    "WhitemaneGuidingLight|WhitemaneGuidingLight|Active|Level20": {
+      "cooldownText": "Recupero: 30 s",
+      "fullText": "Attiva permanentemente <c val=\"#WhitemaneZeal\">Zelo</c> su un eroe alleato, senza costo in Mana e senza fornire <c val=\"#WhitemaneDesperation\">Disperazione</c>. Può essere attivo un solo effetto alla volta, ha portata globale.<n/><n/>Aumenta il bonus alla Potenza magica fornito dal tratto di Biancachioma del 15%.",
+      "name": "Luce Guida",
+      "shortText": "All'attivazione fornisce gratuitamente <c val=\"#WhitemaneZeal\">Zelo</c>."
+    },
+    "WhitemanePurgeTheWicked|WhitemanePurgeTheWicked|Active|Level20": {
+      "cooldownText": "Recupero: 40 s",
+      "fullText": "All'attivazione investe un eroe nemico con fiamme sacre, riducendone la Resistenza di <c val=\"#TooltipNumbers\">25</c> e infliggendo <c val=\"#TooltipNumbers\">300</c><c val=\"#ColorGray\">~~0.04~~</c> danni in <c val=\"#TooltipNumbers\">4</c> s.",
+      "name": "Epurazione dal Male",
+      "shortText": "All'attivazione infligge danni e riduce la Resistenza."
+    }
+  },
+  "units": {}
+}

@@ -1,0 +1,232 @@
+{
+  "abilities": {
+    "DVaBoostersOn|DVaMechBoosters|Q": {
+      "cooldownText": "Temps de recharge :<sp/>10 secondes",
+      "fullText": "Augmente la vitesse de déplacement de D.Va de <c val=\"#TooltipNumbers\">115%</c> pendant <c val=\"#TooltipNumbers\">1.75</c> secondes. Les ennemis touchés subissent <c val=\"#TooltipNumbers\">135</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts et sont repoussés.<n/><n/>D.Va ne peut pas être ralentie tant que ses turboréacteurs sont enclenchés. Chaque ennemi ne peut être touché qu’une fois par utilisation.",
+      "name": "Turboréacteurs",
+      "shortText": "D.Va se déplace rapidement et repousse les ennemis."
+    },
+    "DVaMechDefenseMatrixOn|DVaMechDefenseMatrix|W": {
+      "cooldownText": "Temps de recharge :<sp/>12 secondes",
+      "fullText": "Projette un champ défensif dans la direction ciblée pendant <c val=\"#TooltipNumbers\">3</c> secondes. Celui-ci réduit de <c val=\"#TooltipNumbers\">60%</c> les dégâts qu’infligent les héros adverses présents dans la zone d’effet.<n/><n/>Réactiver pour changer l’angle de projection.<n/><n/>Les dégâts infligés au méca par les ennemis se trouvant dans la Matrice défensive contribuent à charger Autodestruction.",
+      "name": "Matrice défensive",
+      "shortText": "Réduit les dégâts qu’infligent les héros adverses dans une zone."
+    },
+    "DVaMechSelfDestruct|DVaMechSelfDestruct|E": {
+      "fullText": "D.Va s’éjecte de son méca, qui s’autodétruit après <c val=\"#TooltipNumbers\">4</c> secondes. Inflige de <c val=\"#TooltipNumbers\">1100</c><c val=\"#ColorGray\">~~0.04~~</c> à <c val=\"#TooltipNumbers\">400</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts dans une large zone, selon l’éloignement. Inflige <c val=\"#TooltipNumbers\">50%</c> de ces dégâts aux bâtiments.<n/><n/><c val=\"FF8000\">Gagne </c><c val=\"#TooltipNumbers\">1%</c><c val=\"FF8000\"> de charge toutes les </c><c val=\"#TooltipNumbers\">2</c><c val=\"FF8000\"> secondes passées à lancer des attaques de base, et </c><c val=\"#TooltipNumbers\">25%</c><c val=\"FF8000\"> de charge pour </c><c val=\"#TooltipNumbers\">100%</c><c val=\"FF8000\"> des points de vie du méca perdus.</c>",
+      "name": "Autodestruction",
+      "shortText": "D.Va s’éjecte de son méca dont l’autodestruction inflige d’importants dégâts."
+    },
+    "DVaMechBunnyHopHeroic|DVaBunnyHopOn|Heroic": {
+      "cooldownText": "Temps de recharge :<sp/>70 secondes",
+      "fullText": "Le méca de D.Va devient insensible aux effets de contrôle et bondit toutes les <c val=\"#TooltipNumbers\">0.5</c> secondes, infligeant <c val=\"#TooltipNumbers\">78</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts dans une large zone. Chaque <c val=\"#TooltipNumbers\">4e</c> coup consécutif porté à un héros lui inflige <c val=\"#TooltipNumbers\">80%</c> de dégâts supplémentaires et l’étourdit pendant <c val=\"#TooltipNumbers\">0.5</c> secondes.<n/><n/>Dure <c val=\"#TooltipNumbers\">4</c> secondes.<n/><n/>Mode méca requis.",
+      "name": "Saut de lapin",
+      "shortText": "En mode méca, devient insensible aux effets de contrôle et étourdit les héros proches."
+    },
+    "DVaMicroMissiles|DVaMicroMissiles|Heroic": {
+      "cooldownText": "Temps de recharge : 19 secondes",
+      "fullText": "Après <c val=\"#TooltipNumbers\">0,375</c> seconde, canalise pour lancer une salve de <c val=\"#TooltipNumbers\">12</c> missiles dans une direction ciblée. Chaque missile touche le premier ennemi sur son passage, infligeant <c val=\"#TooltipNumbers\">40</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts dans une zone restreinte et un ralentissement de <c val=\"#TooltipNumbers\">30%</c> pendant <c val=\"#TooltipNumbers\">2</c> secondes.<n/><n/>Peut cumuler jusqu’à <c val=\"#TooltipNumbers\">2</c> charges avec un temps de recharge de <c val=\"#TooltipNumbers\">3</c> secondes entre chaque utilisation.<n/><n/>Mode méca requis.",
+      "name": "Micro-missiles",
+      "shortText": "Tire une salve de missiles qui inflige des dégâts et ralentit les ennemis. "
+    },
+    ":PASSIVE:|DVaMechMechMode|Trait": {
+      "fullText": "Quand le méca de D.Va n’a plus de points de vie, elle s’en éjecte après <c val=\"#TooltipNumbers\">0.75</c> secondes et peut continuer à combattre. Détruire le méca de D.Va n’octroie que <c val=\"#TooltipNumbers\">50%</c> d’expérience à l’adversaire.<n/><n/><s val=\"StandardTooltipHeader\">Fusio-canons</s><n/><n/>Les attaques de base du méca de D.Va infligent <c val=\"#TooltipNumbers\">22</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts dans une large zone toutes les <c val=\"#TooltipNumbers\">0.25</c> secondes. Inflige <c val=\"#TooltipNumbers\">40%</c> de dégâts supplémentaires contre les ennemis très proches du méca.",
+      "name": "Mode méca",
+      "shortText": "D.Va peut s’éjecter de son méca et continuer à combattre."
+    },
+    ":PASSIVE:|DVaMechanizedWalker|Z": {
+      "fullText": "Le méca de D.Va peut tirer tout en se déplaçant. En tirant ou en canalisant une capacité, la vitesse de déplacement du méca est rapidement réduite de <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Marcheur mécanisé",
+      "shortText": "Dans son méca, D.Va peut tirer tout en se déplaçant, mais sa vitesse de déplacement est réduite."
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Après <c val=\"#TooltipNumbers\">6</c> secondes de canalisation, téléporte au hall des Tempêtes et rend instantanément <c val=\"#TooltipNumbers\">1125</c> points de vie et <c val=\"#TooltipNumbers\">150</c> points de mana.",
+      "name": "Pierre de foyer"
+    },
+    "DVaBoostersOff|DVaMechCancelBoosters|Q": {
+      "fullText": "Annuler Turboréacteurs",
+      "name": "Annuler Turboréacteurs",
+      "shortText": "Annuler Turboréacteurs"
+    },
+    "DVaMechDefenseMatrixRetarget|DVaRetargetDefenseMatrix|W": {
+      "fullText": "Recibler Matrice défensive",
+      "name": "Recibler Matrice défensive",
+      "shortText": "Recibler Matrice défensive"
+    },
+    "DvaCancelDefenseMatrix|DvaCancelDefenseMatrix|Trait": {
+      "fullText": "Interrompre la canalisation de Matrice défensive.",
+      "name": "Annuler Matrice défensive",
+      "shortText": "Interrompre la canalisation de Matrice défensive."
+    },
+    "DVaMechBunnyHopHeroic|DVaBunnyHopOff|Heroic": {
+      "cooldownText": "Temps de recharge : 70 secondes",
+      "fullText": "Annuler Saut de lapin",
+      "name": "Saut de lapin",
+      "shortText": "Annuler Saut de lapin"
+    },
+    "DVaLiquidCoolingAbility|DVaLiquidCooling|Active": {
+      "cooldownText": "Temps de recharge : 50 secondes",
+      "fullText": "Confère les effets d’une Fontaine de soins. Mode méca requis.<n/><n/><c val=\"#AbilityPassive\">Effet passif :</c> en mode méca, le temps de recharge des fontaines de soins est réduit à <c val=\"#TooltipNumbers\">50</c> secondes et leurs effets durent <c val=\"#TooltipNumbers\">50%</c> plus longtemps.",
+      "name": "Refroidissement liquide",
+      "shortText": "Renforce les fontaines de soins en mode méca."
+    },
+    "DVaPilotTorpedoDash|DVaPilotTorpedoDashAbility|Q": {
+      "cooldownText": "Temps de recharge : 10 secondes",
+      "fullText": "Fonce vers l’emplacement ciblé en traversant les ennemis sur son passage.",
+      "name": "Tête baissée",
+      "shortText": "Fonce vers l’endroit ciblé."
+    },
+    "DVaPilotConcussivePulse|DVaPilotConcussivePulseAbility|W": {
+      "cooldownText": "Temps de recharge : 10 secondes",
+      "fullText": "Inflige <c val=\"#TooltipNumbers\">120</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts aux ennemis dans un cône et les repousse.",
+      "name": "Décharge percutante",
+      "shortText": "Inflige des dégâts aux ennemis proches et les repousse."
+    },
+    "DVaPilotCallMech|DVaPilotCallMech|E": {
+      "cooldownText": "Temps de recharge : 45 secondes",
+      "fullText": "Appelle un nouveau méca et passe en mode méca.<n/><n/>Chaque attaque de base réduit le temps de recharge de <c val=\"#TooltipNumbers\">0.5</c> seconde.",
+      "name": "Appel du méca"
+    },
+    "DVaPilotBigShot|DVaPilotBigShot|Heroic": {
+      "cooldownText": "Temps de recharge : 6 secondes",
+      "fullText": "Inflige <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts à tous les ennemis sur une ligne. Diminue la vitesse de déplacement des héros touchés de <c val=\"#TooltipNumbers\">25%</c> pendant <c val=\"#TooltipNumbers\">1.5</c> secondes. Le temps de recharge d’Appel du méca est réduit de <c val=\"#TooltipNumbers\">5</c> secondes pour chaque héros adverse touché.<n/><n/>Mode pilote requis.",
+      "name": "Tir de PGM",
+      "shortText": "En mode pilote, D.Va inflige des dégâts et ralentit les ennemis sur une ligne."
+    },
+    ":PASSIVE:|DVaPilotPilotMode|Trait": {
+      "fullText": "Les attaques de base réduisent le temps de recharge d’Appel du méca de <c val=\"#TooltipNumbers\">0.5</c> seconde. Tuer D.Va en mode pilote n’octroie que <c val=\"#TooltipNumbers\">50%</c> d’expérience à l’adversaire.",
+      "name": "Mode pilote"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Temps de recharge : 4 secondes",
+      "fullText": "Après <c val=\"#TooltipNumbers\">1</c> seconde de canalisation, augmente la vitesse de déplacement de <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Appeler une monture"
+    },
+    "DVaMechPilotSelfDestruct|DVaMechSelfDestruct|Active": {
+      "fullText": "D.Va s’éjecte de son méca, qui s’autodétruit après <c val=\"#TooltipNumbers\">4</c> secondes. Inflige de <c val=\"#TooltipNumbers\">1100</c><c val=\"#ColorGray\">~~0.04~~</c> à <c val=\"#TooltipNumbers\">400</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts dans une large zone, selon l’éloignement. Inflige <c val=\"#TooltipNumbers\">50%</c> de ces dégâts aux bâtiments.<n/><n/><c val=\"FF8000\">Gagne </c><c val=\"#TooltipNumbers\">1%</c><c val=\"FF8000\"> de charge toutes les </c><c val=\"#TooltipNumbers\">2</c><c val=\"FF8000\"> secondes passées à lancer des attaques de base, et </c><c val=\"#TooltipNumbers\">25%</c><c val=\"FF8000\"> de charge pour </c><c val=\"#TooltipNumbers\">100%</c><c val=\"FF8000\"> des points de vie du méca perdus.</c>",
+      "name": "Autodestruction",
+      "shortText": "D.Va s’éjecte de son méca dont l’autodestruction inflige d’importants dégâts."
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Permet de descendre de la monture.",
+      "name": "Renvoyer la monture"
+    }
+  },
+  "talents": {
+    "DVaFullMetal|DVaFullMetal|Trait|Level1": {
+      "fullText": "Les points de vie du méca de D.Va sont augmentés de <c val=\"#TooltipNumbers\">10%</c> et ses Fusio-canons rendent un montant de points de vie équivalent à <c val=\"#TooltipNumbers\">16%</c> des dégâts infligés aux ennemis situés dans sa zone d’effet.",
+      "name": "Balles chemisées",
+      "shortText": "Augmente les points de vie du méca, les Fusio-canons rendent des points de vie."
+    },
+    "DVaMechProMoves|DVaMechProMoves|Trait|Level1": {
+      "fullText": "Le méca de D.Va gagne <c val=\"#TooltipNumbers\">2%</c> de vitesse de déplacement et <c val=\"#TooltipNumbers\">2</c> points d’armure chaque fois qu’il subit des dégâts, cet effet pouvant se cumuler jusqu’à <c val=\"#TooltipNumbers\">15</c> fois. Les cumuls de cet effet diminuent toutes les <c val=\"#TooltipNumbers\">0.5</c> secondes.<n/><n/>Les attaques de base contre les héros adverses en mode pilote réduisent le temps de recharge d’Appel du méca de <c val=\"#TooltipNumbers\">1</c> seconde supplémentaire.",
+      "name": "Astuces de pro",
+      "shortText": "Subir des dégâts augmente la vitesse de déplacement et l’armure."
+    },
+    "DVaLiquidCooling|DVaLiquidCooling|Active|Level1": {
+      "cooldownText": "Temps de recharge : 50 secondes",
+      "fullText": "Confère les effets d’une Fontaine de soins. Mode méca requis.<n/><n/><c val=\"#AbilityPassive\">Effet passif :</c> en mode méca, le temps de recharge des fontaines de soins est réduit à <c val=\"#TooltipNumbers\">50</c> secondes et leurs effets durent <c val=\"#TooltipNumbers\">50%</c> plus longtemps.",
+      "name": "Refroidissement liquide",
+      "shortText": "Renforce les fontaines de soins en mode méca."
+    },
+    "DVaBoostersRushdown|DVaBoostersRushdown|Q|Level4": {
+      "fullText": "Turboréacteurs inflige aux héros un montant de dégâts supplémentaires équivalent à <c val=\"#TooltipNumbers\">2%</c> de leur maximum de points de vie et rend au méca de D.Va un nombre de points de vie équivalent aux dégâts infligés. Turboréacteurs inflige <c val=\"#TooltipNumbers\">50%</c> de dégâts supplémentaires aux ennemis non héroïques.",
+      "name": "Fonceuse",
+      "shortText": "Turboréacteurs vole des points de vie et augmente les dégâts aux ennemis non héroïques."
+    },
+    "DVaDefenseMatrixAggressionMatrix|DVaDefenseMatrixAggressionMatrix|W|Level4": {
+      "fullText": "Les héros adverses se trouvant dans votre Matrice défensive reçoivent <c val=\"#TooltipNumbers\">35%</c> de soins en moins.<n/><n/><c val=\"#AbilityPassive\">Effet passif :</c> les attaques de base portées à des héros réduisent le temps de recharge de Matrice défensive de <c val=\"#TooltipNumbers\">0.1875</c> secondes.",
+      "name": "Matrice offensive",
+      "shortText": "Matrice défensive réduit les soins, temps de recharge réduit."
+    },
+    "DVaSelfDestructNuclearOption|DVaSelfDestructNuclearOption|E|Level4": {
+      "fullText": "Toucher votre méca qui s’autodétruit avec Tir de PGM accélère son autodestruction de <c val=\"#TooltipNumbers\">40%</c>.<n/><n/><c val=\"#AbilityPassive\">Effet passif :</c> quand les Fusio-canons infligent des dégâts supplémentaires à un héros adverse, obtient <c val=\"#TooltipNumbers\">0.25</c> charge d’Autodestruction.",
+      "name": "Explosion nucléaire",
+      "shortText": "Renforce les Fusio-canons et Autodestruction."
+    },
+    "DvaGetOnThePoint|DvaGetOnThePoint|Q|Level7": {
+      "fullText": "L’utilisation de Turboréacteurs augmente la vitesse de déplacement des alliés proches de <c val=\"#TooltipNumbers\">20 %</c> pendant <c val=\"#TooltipNumbers\">3</c> secondes. <n/><n/><c val=\"#AbilityPassive\">Effet passif : </c>si D.Va n’a pas subi de dégâts durant les <c val=\"#TooltipNumbers\">2</c> dernières secondes, le temps de recharge de Turboréacteurs se réinitialise <c val=\"#TooltipNumbers\">100 %</c> plus vite.",
+      "name": "Attaquez l’objectif !",
+      "shortText": "Réduit le temps de recharge de Turboréacteurs et augmente la vitesse de déplacement des alliés."
+    },
+    "DVaBoostersHitTheNitrous|DVaBoostersHitTheNitrous|Q|Level7": {
+      "fullText": "L’augmentation initiale conférée à la vitesse de déplacement est portée à <c val=\"#TooltipNumbers\">300%</c>, mais elle diminue jusqu’à sa valeur normale en <c val=\"#TooltipNumbers\">0.5</c> secondes. Pendant ce temps, Turboréacteurs étourdit pendant <c val=\"#TooltipNumbers\">0.5</c> secondes.",
+      "name": "Nitro",
+      "shortText": "Les turboréacteurs octroient un bonus à la vitesse immédiat et étourdissent les ennemis."
+    },
+    "DVaDefenseMatrixFusionGenerator|DVaDefenseMatrixFusionGenerator|W|Level7": {
+      "fullText": "Chaque fois qu’un héros adverse inflige des dégâts alors qu’il se trouve dans la Matrice défensive, la charge d’Autodestruction augmente de <c val=\"#TooltipNumbers\">1%</c>. Gain de charge maximal : <c val=\"#TooltipNumbers\">20%</c> par utilisation.<n/><n/><c val=\"#AbilityPassive\">Effet passif : </c>quand la charge d’Autodestruction est au maximum, les dégâts supplémentaires des Fusio-canons sont augmentés de <c val=\"#TooltipNumbers\">100%</c>.",
+      "name": "Générateur à fusion",
+      "shortText": "Matrice défensive contribue à charger Autodestruction."
+    },
+    "DVaBunnyHop|DVaBunnyHopOn|Heroic|Level10": {
+      "cooldownText": "Temps de recharge :<sp/>70 secondes",
+      "fullText": "Le méca de D.Va devient insensible aux effets de contrôle et bondit toutes les <c val=\"#TooltipNumbers\">0.5</c> secondes, infligeant <c val=\"#TooltipNumbers\">78</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts dans une large zone. Chaque <c val=\"#TooltipNumbers\">4e</c> coup consécutif porté à un héros lui inflige <c val=\"#TooltipNumbers\">80%</c> de dégâts supplémentaires et l’étourdit pendant <c val=\"#TooltipNumbers\">0.5</c> secondes.<n/><n/>Dure <c val=\"#TooltipNumbers\">4</c> secondes.<n/><n/>Mode méca requis.",
+      "name": "Saut de lapin",
+      "shortText": "En mode méca, devient insensible aux effets de contrôle et étourdit les héros proches."
+    },
+    "DVaMicroMissiles|DVaMicroMissiles|Heroic|Level10": {
+      "cooldownText": "Temps de recharge : 19 secondes",
+      "fullText": "Après <c val=\"#TooltipNumbers\">0,375</c> seconde, canalise pour lancer une salve de <c val=\"#TooltipNumbers\">12</c> missiles dans une direction ciblée. Chaque missile touche le premier ennemi sur son passage, infligeant <c val=\"#TooltipNumbers\">40</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts dans une zone restreinte et un ralentissement de <c val=\"#TooltipNumbers\">30%</c> pendant <c val=\"#TooltipNumbers\">2</c> secondes.<n/><n/>Peut cumuler jusqu’à <c val=\"#TooltipNumbers\">2</c> charges avec un temps de recharge de <c val=\"#TooltipNumbers\">3</c> secondes entre chaque utilisation.<n/><n/>Mode méca requis.",
+      "name": "Micro-missiles",
+      "shortText": "Tire une salve de missiles qui inflige des dégâts et ralentit les ennemis. "
+    },
+    "DVaTargetLocked|DVaTargetLocked|W|Level13": {
+      "fullText": "L’armure des héros adverses qui restent dans votre Matrice défensive pendant <c val=\"#TooltipNumbers\">0.75</c> secondes est réduite de <c val=\"#TooltipNumbers\">15</c> points et leur vitesse de déplacement est réduite de <c val=\"#TooltipNumbers\">25%</c> pendant <c val=\"#TooltipNumbers\">3</c> secondes.",
+      "name": "Cible verrouillée",
+      "shortText": "Matrice défensive réduit l’armure et ralentit les ennemis."
+    },
+    "DVaGoodToGo|DVaGoodToGo|Trait|Level13": {
+      "fullText": "<c val=\"#AbilityPassive\">Mode pilote :</c> déverrouille les capacités Tête baissée et Décharge percutante.<n/><n/><c val=\"#TooltipNumbers\">Tête baissée :</c> charge en avant sur une courte distance. Temps de recharge : <c val=\"#TooltipNumbers\">10</c> secondes.<n/><n/><c val=\"#TooltipNumbers\">Décharge percutante :</c> inflige <c val=\"#TooltipNumbers\">120</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts aux ennemis dans une zone conique et les repousse. Temps de recharge : <c val=\"#TooltipNumbers\">10</c> secondes.",
+      "name": "Prête à partir",
+      "shortText": "Déverrouille des capacités supplémentaires en mode pilote."
+    },
+    "DVaBigShotPewPewPew|DVaBigShotPewPewPew|Trait|Level13": {
+      "fullText": "<c val=\"#AbilityPassive\">Mode pilote : </c>Tir de PGM fait feu à <c val=\"#TooltipNumbers\">3</c> reprises en <c val=\"#TooltipNumbers\">0.5</c> secondes. Chaque tir inflige <c val=\"#TooltipNumbers\">75%</c> de dégâts.",
+      "name": "One shot en 3 pious !",
+      "shortText": "Tir de PGM fait feu à plusieurs reprises."
+    },
+    "DVaInForTheKill|DVaInForTheKill|Q|Level16": {
+      "fullText": "L’utilisation de Turboréacteurs confère un bouclier équivalent à <c val=\"#TooltipNumbers\">10%</c> de son maximum de points de vie pendant <c val=\"#TooltipNumbers\">2.5</c> secondes. Chaque héros adverse touché par Turboréacteurs augmente les dégâts des attaques de base du méca de D.Va de <c val=\"#TooltipNumbers\">10%</c> pendant <c val=\"#TooltipNumbers\">5</c> secondes, cet effet pouvant se cumuler jusqu’à <c val=\"#TooltipNumbers\">5</c> fois.",
+      "name": "Offensive létale",
+      "shortText": "Turboréacteurs confère un bouclier et augmente les dégâts d’attaque."
+    },
+    "DVaDefenseMatrixDivertingPower|DVaDefenseMatrixDivertingPower|W|Level16": {
+      "fullText": "La zone de Matrice défensive s’agrandit considérablement et chaque fois qu’elle réduit les dégâts infligés aux héros, le méca de D.Va récupère <c val=\"#TooltipNumbers\">31</c><c val=\"#ColorGray\">~~0.04~~</c> points de vie.",
+      "name": "Dérivation de puissance",
+      "shortText": "Augmente la taille de Matrice défensive et rend des points de vie."
+    },
+    "DVaMechEmergencyShielding|DVaMechEmergencyShielding|Trait|Level16": {
+      "fullText": "Lorsque le méca de D.Va subit des dégâts fatals, lui octroie un bouclier capable d’absorber <c val=\"#TooltipNumbers\">290</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts en <c val=\"#TooltipNumbers\">8</c> secondes.<n/><n/>Cet effet a un temps de recharge de <c val=\"#TooltipNumbers\">30</c> secondes.",
+      "name": "Bouclier de secours",
+      "shortText": "Confère un bouclier au méca en cas de dégâts fatals."
+    },
+    "DVaBunnyHopStopAndPop|DVaBunnyHopStopAndPop|Heroic|Level20": {
+      "fullText": "La durée de Saut de lapin est augmentée <c val=\"#TooltipNumbers\">4</c> secondes et ne diminue pas tant que le méca de D.Va ne se déplace pas.",
+      "name": "Rien ne sert de bouger",
+      "shortText": "La durée de Saut de lapin est augmentée, et mise en pause lorsque le méca ne se déplace pas"
+    },
+    "DVaTimingAttack|DVaTimingAttack|Heroic|Level20": {
+      "fullText": "Micro-missiles obtient une charge supplémentaire. Chaque fois que Micro-missiles touche un héros adverse, son temps de recharge est réduit de <c val=\"#TooltipNumbers\">0.5</c> secondes et le temps de recharge des charges est réduit de <c val=\"#TooltipNumbers\">0.25</c> secondes.",
+      "name": "Attaque précise",
+      "shortText": "Obtient une charge, les héros touchés réduisent le temps de recharge."
+    },
+    "DVaHeadshot|DVaHeadshot|Trait|Level20": {
+      "fullText": "<c val=\"#AbilityPassive\">Mode pilote :</c> augmente les dégâts de Tir de PGM de <c val=\"#TooltipNumbers\">75%</c> et réduit son temps de recharge de <c val=\"#TooltipNumbers\">2</c> secondes.",
+      "name": "Dans ta face !",
+      "shortText": "Augmente les dégâts de Tir de PGM et réduit son temps de recharge."
+    },
+    "DVaMechAblativeArmor|DVaMechAblativeArmor|Trait|Level20": {
+      "fullText": "<c val=\"#TooltipNumbers\">45%</c> des dégâts de capacités infligés au méca de D.Va sont récupérés sous forme de points de vie en <c val=\"#TooltipNumbers\">4</c> secondes.",
+      "name": "Blindage impénétrable",
+      "shortText": "Soigne une partie des dégâts de capacité subis."
+    }
+  },
+  "units": {
+    "HeroDVaPilot": {
+      "energyType": "Charge",
+      "lifeType": "Vie",
+      "name": "D.Va"
+    }
+  }
+}

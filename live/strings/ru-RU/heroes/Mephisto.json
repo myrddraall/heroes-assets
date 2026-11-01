@@ -1,0 +1,176 @@
+{
+  "abilities": {
+    "MephistoSkullMissile|MephistoSkullMissile|Q": {
+      "cooldownText": "Время восстановления: 8 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 20</s>",
+      "fullText": "Создает череп, который спустя <c val=\"#TooltipNumbers\">0.625</c> сек. летит в указанном направлении, нанося противникам <c val=\"#TooltipNumbers\">127</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона и замедляя пораженных героев на <c val=\"#TooltipNumbers\">25%</c> на <c val=\"#TooltipNumbers\">2</c> сек.",
+      "name": "Призрачный череп",
+      "shortText": "После короткой паузы наносит урон противникам на прямой линии."
+    },
+    "MephistoLightningNova|MephistoLightningNova|W": {
+      "cooldownText": "Время восстановления: 14 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 50</s>",
+      "fullText": "Создает вокруг Мефисто кольцо молний, действующее <c val=\"#TooltipNumbers\">2.5</c> сек. Противники в кольце получают <c val=\"#TooltipNumbers\">43</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона раз в <c val=\"#TooltipNumbers\">0.25</c> сек.<n/><n/>Каждый раз, когда «Кольцо молний» поражает героя, урон от него увеличивается на <c val=\"#TooltipNumbers\">3%</c>, вплоть до <c val=\"#TooltipNumbers\">30%</c>.",
+      "name": "Кольцо молний",
+      "shortText": "Наносит возрастающий урон противникам рядом с собой."
+    },
+    "MephistoShadeOfMephisto|MephistoShadeOfMephisto|E": {
+      "cooldownText": "Время восстановления: 18 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 35</s>",
+      "fullText": "Переносится в указанную область, нанося противникам в ней <c val=\"#TooltipNumbers\">78</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона и оставляя за собой тень.<n/><n/>Спустя <c val=\"#TooltipNumbers\">2.5</c> сек. Мефисто возвращается в точку, где находится тень.",
+      "name": "Тень Мефисто",
+      "shortText": "Переносится в указанную точку и спустя некоторое время возвращается обратно."
+    },
+    "MephistoConsumeSouls|MephistoConsumeSouls|Heroic": {
+      "cooldownText": "Время восстановления: 120 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 80</s>",
+      "fullText": "При поддержании в течение <c val=\"#TooltipNumbers\">2.5</c> сек. раскрывает местоположение всех вражеских героев, а после этого наносит им <c val=\"#TooltipNumbers\">357</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона и замедляет их на <c val=\"#TooltipNumbers\">25%</c> на <c val=\"#TooltipNumbers\">2.5</c> сек.",
+      "name": "Поглощение душ",
+      "shortText": "Замедляет всех вражеских героев и наносит им урон."
+    },
+    "MephistoDuranceOfHate|MephistoDuranceOfHate|Heroic": {
+      "cooldownText": "Время восстановления: 50 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 50</s>",
+      "fullText": "После паузы в <c val=\"#TooltipNumbers\">1</c> сек. выпускает волну духов, которые обездвиживают первого героя на своем пути на <c val=\"#TooltipNumbers\">2.5</c> сек. и в течение этого времени наносят ему <c val=\"#TooltipNumbers\">250</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона.<n/><n/>Эффект распространяется от первой цели, обездвиживая героев рядом с ней и нанося им урон.",
+      "name": "Узилище ненависти",
+      "shortText": "Выпускает духов, которые обездвиживают героев."
+    },
+    ":PASSIVE:|MephistoLordOfHatred|Trait": {
+      "fullText": "Попадания базовыми способностями по героям ускоряют их восстановление.<n/><n/>За каждое попадание по герою «Призрачный череп» и «Тень Мефисто» сокращают время восстановления базовых способностей на <c val=\"#TooltipNumbers\">1.5</c> сек., а «Кольцо молний» – на <c val=\"#TooltipNumbers\">0.3</c> сек.",
+      "name": "Владыка Ненависти",
+      "shortText": "Попадания базовыми способностями по героям ускоряют их восстановление."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Время восстановления: 4 сек.",
+      "fullText": "После подготовки длительностью <c val=\"#TooltipNumbers\">1</c> сек. повышает скорость передвижения на <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Вызов транспорта"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "После поддержания в течение <c val=\"#TooltipNumbers\">6</c> сек. телепортирует героя в Зал Штормов, моментально восполняя <c val=\"#TooltipNumbers\">1125</c> ед. здоровья и <c val=\"#TooltipNumbers\">150</c> ед. маны.",
+      "name": "Возвращение"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Покинуть транспорт.",
+      "name": "Отмена транспорта"
+    },
+    "MephistoShadeOfMephistoShadeLord|MephistoShadeOfMephistoShadeLord|Active": {
+      "cooldownText": "Время восстановления: 20 сек.",
+      "fullText": "При использовании меняет Мефисто местами с тенью и обновляет ее время существования.<n/><n/><c val=\"#AbilityPassive\">Пассивный эффект:</c> тень Мефисто получает бонусы от всех талантов <c val=\"#TooltipNumbers\">7-го</c> уровня.",
+      "name": "Владыка теней",
+      "shortText": "Позволяет поменяться местами с тенью Мефисто."
+    }
+  },
+  "talents": {
+    "MephistoSkullMissileUnyieldingPower|MephistoSkullMissileUnyieldingPower|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Задача:</c> поражайте героев «Призрачным черепом».<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Награда:</c> после <c val=\"#TooltipNumbers\">20</c> попаданий по героям урон от «Призрачного черепа» увеличится на <c val=\"#TooltipNumbers\">100</c> ед.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Награда:</c> после <c val=\"#TooltipNumbers\">40</c> попаданий по героям «Призрачный череп» получит дополнительный заряд.",
+      "name": "Несокрушимая сила",
+      "shortText": "<c val=\"#TooltipQuest\">Задача:</c> усильте «Призрачный череп»."
+    },
+    "MephistoLightningNovaFuriousSpark|MephistoLightningNovaFuriousSpark|W|Level1": {
+      "fullText": "Каждый <c val=\"#TooltipNumbers\">3-й</c> разряд «Кольца молний» по той же цели наносит на <c val=\"#TooltipNumbers\">65</c><c val=\"#ColorGray\">~~0.04~~</c> ед. больше урона и восполняет Мефисто <c val=\"#TooltipNumbers\">2</c> ед. маны.",
+      "name": "Искра гнева",
+      "shortText": "«Кольцо молний» наносит больше урона."
+    },
+    "MephistoShadeOfMephistoMaliciousIntent|MephistoShadeOfMephistoMaliciousIntent|E|Level1": {
+      "fullText": "Повышает силу способностей на <c val=\"#TooltipNumbers\">25%</c>, пока существует тень Мефисто и в течение <c val=\"#TooltipNumbers\">2.5</c> сек. после ее исчезновения.<n/><n/>Если Мефисто поражает героев базовыми способностями хотя бы <c val=\"#TooltipNumbers\">18</c> раз, пока действует «Тень Мефисто», время действия бонуса к силе способностей после исчезновения тени увеличивается до <c val=\"#TooltipNumbers\">10</c> сек.",
+      "name": "Темный замысел",
+      "shortText": "«Тень Мефисто» усиливает способности."
+    },
+    "MephistoSkullMissileHatefulMending|MephistoSkullMissileHatefulMending|Q|Level4": {
+      "fullText": "«Призрачный череп» дает <c val=\"#TooltipNumbers\">10</c> ед. маны и восполняет здоровье в объеме <c val=\"#TooltipNumbers\">70%</c> урона, нанесенного героям.",
+      "name": "Целительная ненависть",
+      "shortText": "«Призрачный череп» исцеляет."
+    },
+    "MephistoLightningNovaStaticBarrier|MephistoLightningNovaStaticBarrier|W|Level4": {
+      "fullText": "По окончании действия «Кольца молний» Мефисто получает щит прочностью <c val=\"#TooltipNumbers\">40%</c> урона, нанесенного «Кольцом молнии» героям. Время действия – <c val=\"#TooltipNumbers\">5</c> сек.",
+      "name": "Статический барьер",
+      "shortText": "«Кольцо молний» дает щит."
+    },
+    "MephistoSpite|MephistoSpite|Passive|Level4": {
+      "fullText": "Исцеление от сфер регенерации действует на <c val=\"#TooltipNumbers\">100%</c> дольше. Каждый такт исцеления от сфер регенерации активирует «Владыку Ненависти», сокращая время восстановления базовых способностей на <c val=\"#TooltipNumbers\">1</c> сек.",
+      "name": "Злоба",
+      "shortText": "Сферы регенерации активируют эффект «Владыки Ненависти»."
+    },
+    "MephistoShadeOfMephistoGhastlyArmor|MephistoShadeOfMephistoGhastlyArmor|E|Level7": {
+      "fullText": "Дает <c val=\"#TooltipNumbers\">25</c> ед. брони, пока существует тень Мефисто и в течение <c val=\"#TooltipNumbers\">2.5</c> сек. после ее исчезновения.",
+      "name": "Жуткая броня",
+      "shortText": "«Тень Мефисто» дает броню."
+    },
+    "MephistoShadeOfMephistoFrostStorm|MephistoShadeOfMephistoFrostStorm|E|Level7": {
+      "fullText": "Пока действует «Тень Мефисто», «Кольцо молний» замедляет пораженных противников на <c val=\"#TooltipNumbers\">15%</c> на <c val=\"#TooltipNumbers\">1</c> сек., а эффективность замедления от «Призрачного черепа» повышается до <c val=\"#TooltipNumbers\">50%</c>.",
+      "name": "Морозная буря",
+      "shortText": "«Тень Мефисто» замедляет противников, пораженных «Кольцом молний»."
+    },
+    "MephistoShadeOfMephistoTrickery|MephistoShadeOfMephistoTrickery|E|Level7": {
+      "fullText": "«Тень Мефисто» повышает скорость передвижения Мефисто на <c val=\"#TooltipNumbers\">20%</c> во время своего действия и в течение <c val=\"#TooltipNumbers\">2.5</c> сек. после исчезновения.<n/><n/>Если Мефисто поражает героев базовыми способностями во время действия «Тени Мефисто» хотя бы <c val=\"#TooltipNumbers\">18</c> раз, она мгновенно восстанавливается.",
+      "name": "Уловка",
+      "shortText": "«Тень Мефисто» ускоряет передвижение."
+    },
+    "MephistoConsumeSouls|MephistoConsumeSouls|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 120 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 80</s>",
+      "fullText": "При поддержании в течение <c val=\"#TooltipNumbers\">2.5</c> сек. раскрывает местоположение всех вражеских героев, а после этого наносит им <c val=\"#TooltipNumbers\">357</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона и замедляет их на <c val=\"#TooltipNumbers\">25%</c> на <c val=\"#TooltipNumbers\">2.5</c> сек.",
+      "name": "Поглощение душ",
+      "shortText": "Замедляет всех вражеских героев и наносит им урон."
+    },
+    "MephistoDuranceOfHate|MephistoDuranceOfHate|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 50 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 50</s>",
+      "fullText": "После паузы в <c val=\"#TooltipNumbers\">1</c> сек. выпускает волну духов, которые обездвиживают первого героя на своем пути на <c val=\"#TooltipNumbers\">2.5</c> сек. и в течение этого времени наносят ему <c val=\"#TooltipNumbers\">250</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона.<n/><n/>Эффект распространяется от первой цели, обездвиживая героев рядом с ней и нанося им урон.",
+      "name": "Узилище ненависти",
+      "shortText": "Выпускает духов, которые обездвиживают героев."
+    },
+    "MephistoSkullMissileAbhorredSkull|MephistoSkullMissileAbhorredSkull|Q|Level13": {
+      "fullText": "Поражая героя, «Призрачный череп» повышает силу способностей на <c val=\"#TooltipNumbers\">25%</c> на <c val=\"#TooltipNumbers\">6</c> сек. «Призрачный череп» наносит на <c val=\"#TooltipNumbers\">40%</c>больше урона героям, у которых осталось менее <c val=\"#TooltipNumbers\">50%</c> здоровья.",
+      "name": "Отвратительный череп",
+      "shortText": "«Призрачный череп» наносит больше урона и усиливает способности."
+    },
+    "MephistoLordOfHatredHysteria|MephistoLordofHatredHysteria|Trait|Level13": {
+      "fullText": "«Владыка Ненависти» также ускоряет восстановление героической способности. Мефисто восполняет <c val=\"#TooltipNumbers\">15%</c> максимального запаса здоровья и маны при применении героической способности.",
+      "name": "Истерия",
+      "shortText": "«Владыка Ненависти» ускоряет восстановление героической способности."
+    },
+    "MephistoShardOfHate|MephistoShardOfHate|Passive|Level13": {
+      "fullText": "Автоатаки наносят урон противникам рядом с основной целью и при поражении героев активируют «Владыку ненависти», сокращая время восстановления базовых способностей на <c val=\"#TooltipNumbers\">1</c> сек. за каждого пораженного героя.",
+      "name": "Осколок ненависти",
+      "shortText": "Автоатаки наносят урон по области и активируют «Владыку ненависти»."
+    },
+    "MephistoSkullMissileLightningReaction|MephistoSkullMissileLightningReaction|Q|Level16": {
+      "fullText": "«Призрачный череп» взрывается при контакте с «Кольцом молний», нанося находящимся рядом противникам <c val=\"#TooltipNumbers\">120</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона.",
+      "name": "Ответный разряд",
+      "shortText": "«Призрачный череп» взрывается при контакте с «Кольцом молний»."
+    },
+    "MephistoLightningNovaStaticField|MephistoLightningNovaStaticField|W|Level16": {
+      "fullText": "Когда бонус к урону от «Кольца молний» достигает <c val=\"#TooltipNumbers\">30%</c>, герои в радиусе его действия получают урон в объеме <c val=\"#TooltipNumbers\">10%</c> своего максимального запаса здоровья.",
+      "name": "Статическое поле",
+      "shortText": "«Кольцо молний» может нанести процентный урон."
+    },
+    "MephistoAnimosity|MephistoAnimosity|W|Level16": {
+      "fullText": "Увеличивает время действия «Кольца молний» на <c val=\"#TooltipNumbers\">1</c> сек., а его максимальный дополнительный урон – c <c val=\"#TooltipNumbers\">30%</c> до <c val=\"#TooltipNumbers\">42%</c>.",
+      "name": "Враждебность",
+      "shortText": "Продлевает действие и увеличивает урон от «Кольца молний»."
+    },
+    "MephistoConsumeSoulsConsumedByHatred|MephistoConsumeSoulsConsumedByHatred|Heroic|Level20": {
+      "fullText": "«Поглощение душ» наносит дополнительный урон в объеме <c val=\"#TooltipNumbers\">10%</c> недостающего здоровья цели. Если оно убивает героя при первоначальном применении, оно применяется еще <c val=\"#TooltipNumbers\">один</c> раз.",
+      "name": "Голод и ненависть",
+      "shortText": "«Поглощение душ» применяется снова, если одна из целей погибает."
+    },
+    "MephistoDuranceOfHateUnspeakableHorror|MephistoDuranceOfHateUnspeakableHorror|Heroic|Level20": {
+      "fullText": "«Узилище ненависти» поражает обездвиженных противников немотой, которая длится еще <c val=\"#TooltipNumbers\">3</c> сек. после окончания обездвиживания.",
+      "name": "Невыразимый ужас",
+      "shortText": "«Узилище ненависти» поражает цели немотой."
+    },
+    "MephistoLightningNovaMimic|MephistoLightningNovaShadeOfMephistoMimic|W|Level20": {
+      "fullText": "Если во время использования «Кольца молний» действует тень Мефисто, она тоже использует «Кольцо молний».",
+      "name": "Подражатель",
+      "shortText": "Тень Мефисто может использовать «Кольцо молний»."
+    },
+    "MephistoShadeOfMephistoShadeLord|MephistoShadeOfMephistoShadeLord|Active|Level20": {
+      "cooldownText": "Время восстановления: 20 сек.",
+      "fullText": "При использовании меняет Мефисто местами с тенью и обновляет ее время существования.<n/><n/><c val=\"#AbilityPassive\">Пассивный эффект:</c> тень Мефисто получает бонусы от всех талантов <c val=\"#TooltipNumbers\">7-го</c> уровня.",
+      "name": "Владыка теней",
+      "shortText": "Позволяет поменяться местами с тенью Мефисто."
+    }
+  },
+  "units": {}
+}

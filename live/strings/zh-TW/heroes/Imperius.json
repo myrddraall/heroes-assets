@@ -1,0 +1,195 @@
+{
+  "abilities": {
+    "ImperiusCelestialCharge|ImperiusCelestialCharge|Q": {
+      "cooldownText": "冷卻時間：10秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：40點</s>",
+      "fullText": "朝目標方向衝刺並且突刺目標，造成<c val=\"#TooltipNumbers\">35</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。命中敵方英雄時，天威突刺會引導一段時間使其昏迷<c val=\"#TooltipNumbers\">1</c>秒，引導完成後會額外造成<c val=\"#TooltipNumbers\">80</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。",
+      "name": "天威突刺",
+      "shortText": "向前衝鋒並且使敵人昏迷"
+    },
+    "ImperiusSolarionsFire|ImperiusSolarionsFire|W": {
+      "cooldownText": "冷卻時間：8秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：50點</s>",
+      "fullText": "釋放一波怒火，造成<c val=\"#TooltipNumbers\">110</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。被中央區域擊中的敵人會額外受到<c val=\"#TooltipNumbers\">50%</c>點傷害，並且緩速<c val=\"#TooltipNumbers\">40%</c>，持續<c val=\"#TooltipNumbers\">3</c>秒。",
+      "name": "索拉瑞恩之火",
+      "shortText": "對直線路徑上的敵人造成傷害，並使其緩速"
+    },
+    "ImperiusMoltenArmor|ImperiusMoltenArmor|E": {
+      "cooldownText": "冷卻時間：12秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：75點</s>",
+      "fullText": "英普瑞斯被火包覆，持續<c val=\"#TooltipNumbers\">3</c>秒，每<c val=\"#TooltipNumbers\">0.25</c>秒對附近一名敵人造成<c val=\"#TooltipNumbers\">19</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。英普瑞斯恢復相當於傷害值<c val=\"#TooltipNumbers\">50%</c>的生命值，對英雄造成傷害時治療量提高至<c val=\"#TooltipNumbers\">100%</c>。若沒有英雄在範圍內，則額外打擊<c val=\"#TooltipNumbers\">2</c>名目標，每次打擊結束後恢復<c val=\"#TooltipNumbers\">1</c>點法力值。",
+      "name": "熔火護甲",
+      "shortText": "燃燒附近的敵人"
+    },
+    "ImperiusAngelicArmaments|ImperiusAngelicArmaments|Heroic": {
+      "cooldownText": "冷卻時間：70秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：70點</s>",
+      "fullText": "召喚一圈火焰劍護體，獲得<c val=\"#TooltipNumbers\">850</c><c val=\"#ColorGray\">~~0.04~~</c>點護盾，持續<c val=\"#TooltipNumbers\">3</c>秒。<n/><n/>如果護盾在持續時間內沒被破壞，可在<c val=\"#TooltipNumbers\">5</c>秒內再次啟動此技能，朝目標區域射出<c val=\"#TooltipNumbers\">6</c>把劍，每把對第一名擊中的敵人造成<c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。",
+      "name": "天使武裝",
+      "shortText": "獲得大型護盾，再次啟動可造成傷害"
+    },
+    "ImperiusWrathOfTheAngiris|ImperiusWrathOfTheAngiris|Heroic": {
+      "cooldownText": "冷卻時間：80秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：80點</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">0.75</c>秒後，衝向目標，抓起第一名擊中的敵方英雄飛向至高天。英普瑞斯在空中可移動，控制落地的位置。<n/><n/><c val=\"#TooltipNumbers\">2</c>秒後，把目標重重摔在地上，造成<c val=\"#TooltipNumbers\">250</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，落地時目標身上每一個英勇烙印使傷害提高<c val=\"#TooltipNumbers\">20%</c>，並且使其昏迷<c val=\"#TooltipNumbers\">1</c>秒。",
+      "name": "安傑瑞斯之怒",
+      "shortText": "抓起敵人，衝向至高天"
+    },
+    ":PASSIVE:|ImperiusValorousBrand|Trait": {
+      "fullText": "每個基本技能都會烙印擊中的敵方英雄，持續<c val=\"#TooltipNumbers\">10</c>秒。基本攻擊會消耗目標身上的烙印，每消耗一個烙印，會使造成的傷害提高<c val=\"#TooltipNumbers\">20%</c>，並且恢復<c val=\"#TooltipNumbers\">75</c><c val=\"#ColorGray\">~~0.04~~</c>點生命值。",
+      "name": "英勇烙印",
+      "shortText": "基本技能會烙印敵方英雄，可提高基本攻擊傷害並且提供治療"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "冷卻時間：4秒",
+      "fullText": "引導<c val=\"#TooltipNumbers\">1</c>秒後，提高<s val=\"StandardTooltipDetails\">30%</s>移動速度。",
+      "name": "召喚坐騎"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "引導<c val=\"#TooltipNumbers\">6</c>秒後傳送回風暴祭壇，立即恢復<c val=\"#TooltipNumbers\">1125</c>點生命值和<c val=\"#TooltipNumbers\">150</c>點法力值。",
+      "name": "爐石"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "離開坐騎。",
+      "name": "離開坐騎"
+    },
+    "ImperiusHolyFervor|ImperiusHolyFervor|Active": {
+      "cooldownText": "冷卻時間：25秒",
+      "fullText": "啟動後，重置英普瑞斯基本攻擊的冷卻時間，且可使<c val=\"#TooltipNumbers\">10</c>秒內的下<c val=\"#TooltipNumbers\">4</c>次基本攻擊擴散<c val=\"#TooltipNumbers\">30%</c>額外傷害。",
+      "name": "狂熱聖擊",
+      "shortText": "啟動後，基本攻擊會造成擴散傷害"
+    },
+    "ImperiusValorousPursuit|ImperiusValorousPursuit|Active": {
+      "cooldownText": "冷卻時間：20秒",
+      "fullText": "啟動後，可傳送至被英勇烙印標記的敵人，並且獲得<c val=\"#TooltipNumbers\">25</c>點護甲，持續<c val=\"#TooltipNumbers\">3</c>秒。",
+      "name": "勇猛追擊",
+      "shortText": "傳送至被英勇烙印標記的敵人"
+    },
+    "ImperiusImpervious|ImperiusImpervious|Active": {
+      "cooldownText": "冷卻時間：75秒",
+      "fullText": "啟動後對控場免疫，並且獲得<c val=\"#TooltipNumbers\">75</c>點法術護甲，持續<c val=\"#TooltipNumbers\">3</c>秒。索拉瑞恩之火中央區域擊中英雄可使堅不可摧的冷卻時間降低<c val=\"#TooltipNumbers\">5</c>秒。",
+      "name": "堅不可摧",
+      "shortText": "啟動後獲得控場免疫和法術護甲"
+    }
+  },
+  "talents": {
+    "ImperiusCelestialChargeImpalingLight|ImperiusCelestialChargeImpalingLight|Q|Level1": {
+      "fullText": "天威突刺對英雄造成的傷害提高<c val=\"#TooltipNumbers\">150%</c>，每額外擊中一名英雄便降低<c val=\"#TooltipNumbers\">25%</c>。當天威突刺的擊昏結束時，每有一個目標帶有英勇烙印便會使其冷卻時間縮短<c val=\"#TooltipNumbers\">1</c>秒。<n/><n/><c val=\"#AbilityPassive\">被動：</c>天威突刺的冷卻時間縮短<c val=\"#TooltipNumbers\">1.5</c>秒，且法力消耗從<c val=\"#TooltipNumbers\">40</c>點降低至<c val=\"#TooltipNumbers\">30</c>點。",
+      "name": "穿刺聖光",
+      "shortText": "英勇烙印可強化天威突刺"
+    },
+    "ImperiusSolarionsFireConsumingFlame|ImperiusSolarionsFireConsumingFlame|W|Level1": {
+      "fullText": "索拉瑞恩之火的中央區域傷害額外提高<c val=\"#TooltipNumbers\">125%</c>，並且造成的緩速效果提高<c val=\"#TooltipNumbers\">15%</c>。索拉瑞恩之火擊中第一個敵方英雄可恢復<c val=\"#TooltipNumbers\">30</c>點法力值。",
+      "name": "噬敵烈焰",
+      "shortText": "提高索拉瑞恩之火的中央區域傷害和緩速效果"
+    },
+    "ImperiusValorousBrandBurnTheImpure|ImperiusValorousBrandBurnTheImpure|Trait|Level1": {
+      "fullText": "消耗一個英勇烙印會額外造成該英雄最大生命值<c val=\"#TooltipNumbers\">2.5%</c>的傷害。",
+      "name": "淨化烈焰",
+      "shortText": "英勇烙印會額外造成傷害"
+    },
+    "ImperiusMoltenArmorSovereignArmor|ImperiusMoltenArmorSovereignArmor|E|Level4": {
+      "fullText": "熔火護甲會賦予<c val=\"#TooltipNumbers\">20</c>點護甲，持續<c val=\"#TooltipNumbers\">1.5</c>秒。熔火護甲對敵方英雄造成傷害會使護甲效果的持續時間提高<c val=\"#TooltipNumbers\">0.5</c>秒。",
+      "name": "至高護甲",
+      "shortText": "熔火護甲可賦予護甲"
+    },
+    "ImperiusValorousBrandBattleHunger|ImperiusValorousBrandBattleHunger|Trait|Level4": {
+      "fullText": "英勇烙印的治療量提高<c val=\"#TooltipNumbers\">80%</c>。",
+      "name": "嗜戰",
+      "shortText": "提高英勇烙印的治療量"
+    },
+    "ImperiusPressForward|ImperiusPressForward|Passive|Level4": {
+      "fullText": "被恢復之球治療時，英普瑞斯可獲得<c val=\"#TooltipNumbers\">10</c>點護甲。對敵方英雄造成傷害會使英普瑞斯身上的恢復之球持續時間提高至<c val=\"#TooltipNumbers\">8</c>秒（除非原本的持續時間已高於此）。",
+      "name": "勇猛推進",
+      "shortText": "對英雄造成傷害會重置恢復之球"
+    },
+    "ImperiusCelestialChargeFlashOfAnger|ImperiusCelestialChargeFlashOfAnger|Q|Level7": {
+      "fullText": "消耗天威突刺的烙印會對目標及附近的敵人造成<c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，並且賦予英普瑞斯<c val=\"#TooltipNumbers\">250</c><c val=\"#ColorGray\">~~0.04~~</c>點護盾，持續<c val=\"#TooltipNumbers\">4</c>秒。",
+      "name": "怒焰爆發",
+      "shortText": "天威突刺烙印會造成範圍傷害"
+    },
+    "ImperiusSolarionsFireBlazeOfGlory|ImperiusSolarionsFireBlazeOfGlory|W|Level7": {
+      "fullText": "索拉瑞恩之火會在路徑中央留下一片焦土，<c val=\"#TooltipNumbers\">1.75</c>秒後引爆，造成<c val=\"#TooltipNumbers\">212</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，對帶有英勇烙印的目標造成額外傷害。",
+      "name": "烈火榮耀",
+      "shortText": "索拉瑞恩之火在短暫延遲後會引爆"
+    },
+    "ImperiusHolyFervor|ImperiusHolyFervor|Active|Level7": {
+      "cooldownText": "冷卻時間：25秒",
+      "fullText": "啟動後，重置英普瑞斯基本攻擊的冷卻時間，且可使<c val=\"#TooltipNumbers\">10</c>秒內的下<c val=\"#TooltipNumbers\">4</c>次基本攻擊擴散<c val=\"#TooltipNumbers\">30%</c>額外傷害。",
+      "name": "狂熱聖擊",
+      "shortText": "啟動後，基本攻擊會造成擴散傷害"
+    },
+    "ImperiusAngelicArmaments|ImperiusAngelicArmaments|Heroic|Level10": {
+      "cooldownText": "冷卻時間：70秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：70點</s>",
+      "fullText": "召喚一圈火焰劍護體，獲得<c val=\"#TooltipNumbers\">850</c><c val=\"#ColorGray\">~~0.04~~</c>點護盾，持續<c val=\"#TooltipNumbers\">3</c>秒。<n/><n/>如果護盾在持續時間內沒被破壞，可在<c val=\"#TooltipNumbers\">5</c>秒內再次啟動此技能，朝目標區域射出<c val=\"#TooltipNumbers\">6</c>把劍，每把對第一名擊中的敵人造成<c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。",
+      "name": "天使武裝",
+      "shortText": "獲得大型護盾，再次啟動可造成傷害"
+    },
+    "ImperiusWrathOfTheAngiris|ImperiusWrathOfTheAngiris|Heroic|Level10": {
+      "cooldownText": "冷卻時間：80秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：80點</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">0.75</c>秒後，衝向目標，抓起第一名擊中的敵方英雄飛向至高天。英普瑞斯在空中可移動，控制落地的位置。<n/><n/><c val=\"#TooltipNumbers\">2</c>秒後，把目標重重摔在地上，造成<c val=\"#TooltipNumbers\">250</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，落地時目標身上每一個英勇烙印使傷害提高<c val=\"#TooltipNumbers\">20%</c>，並且使其昏迷<c val=\"#TooltipNumbers\">1</c>秒。",
+      "name": "安傑瑞斯之怒",
+      "shortText": "抓起敵人，衝向至高天"
+    },
+    "ImperiusCelestialChargePatheticMortals|ImperiusCelestialChargePatheticMortals|Q|Level13": {
+      "fullText": "天威突刺使敵方英雄昏迷時，可使其移動速度降低<c val=\"#TooltipNumbers\">25%</c>，以及造成的傷害降低<c val=\"#TooltipNumbers\">50%</c>，持續<c val=\"#TooltipNumbers\">4</c>秒。",
+      "name": "蔑視",
+      "shortText": "天威突刺可降低移動速度和傷害"
+    },
+    "ImperiusMoltenArmorDivineRage|ImperiusMoltenArmorDivineRage|E|Level13": {
+      "fullText": "消耗一層英勇烙印可使熔火護甲的冷卻時間降低<c val=\"#TooltipNumbers\">1</c>秒。",
+      "name": "神聖之怒",
+      "shortText": "英勇烙印可降低熔火護甲的冷卻時間"
+    },
+    "ImperiusMoltenArmorHeatOfBattle|ImperiusMoltenArmorHeatOfBattle|E|Level13": {
+      "fullText": "英普瑞斯每失去<c val=\"#TooltipNumbers\">1%</c>生命值，熔火護甲對英雄造成傷害的治療量就會提高<c val=\"#TooltipNumbers\">2%</c>。",
+      "name": "熾烈戰火",
+      "shortText": "熔火護甲命中英雄的治療量提高"
+    },
+    "ImperiusCelestialChargeCelestialSwiftness|ImperiusCelestialSwiftness|Q|Level16": {
+      "fullText": "施展天威突刺後，獲得<c val=\"#TooltipNumbers\">20%</c>移動速度，持續<c val=\"#TooltipNumbers\">5</c>秒。天威突刺每擊暈一名敵方英雄，可獲得<c val=\"#TooltipNumbers\">40%</c>攻擊速度，持續<c val=\"#TooltipNumbers\">5</c>秒。",
+      "name": "天使迅捷",
+      "shortText": "天威突刺可提高攻擊與移動速度"
+    },
+    "ImperiusMoltenArmorMeltingTouch|ImperiusMoltenArmorMeltingTouch|E|Level16": {
+      "fullText": "消耗一個熔火護甲烙印可使目標護甲降低<c val=\"#TooltipNumbers\">25</c>點，持續<c val=\"#TooltipNumbers\">4</c>秒。",
+      "name": "熔火之觸",
+      "shortText": "熔火護甲烙印可降低目標護甲"
+    },
+    "ImperiusValorousPursuit|ImperiusValorousPursuit|Active|Level16": {
+      "cooldownText": "冷卻時間：20秒",
+      "fullText": "啟動後，可傳送至被英勇烙印標記的敵人，並且獲得<c val=\"#TooltipNumbers\">25</c>點護甲，持續<c val=\"#TooltipNumbers\">3</c>秒。",
+      "name": "勇猛追擊",
+      "shortText": "傳送至被英勇烙印標記的敵人"
+    },
+    "ImperiusAngelicArmamentsHeavenlyHost|ImperiusAngelicArmamentsHeavenlyHost|Heroic|Level20": {
+      "fullText": "天使武裝賦予的護盾不再會失效，一開始啟用時，鄰近的友方英雄會獲得一個能吸收<c val=\"#TooltipNumbers\">600</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害的護盾。<n/><n/>若賦予友方英雄的護盾持續<c val=\"#TooltipNumbers\">3</c>秒，便會對一名鄰近敵人射出<c val=\"#TooltipNumbers\">1</c>把劍，以最近的英雄為優先目標，並造成<c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。",
+      "name": "天使軍團",
+      "shortText": "友方英雄可獲得武裝護盾"
+    },
+    "ImperiusWrathOfTheAngirisUnrelentingDescent|ImperiusWrathOfTheAngirisUnrelentingDescent|Heroic|Level20": {
+      "fullText": "英普瑞斯從天而降可使其恢復<c val=\"#TooltipNumbers\">30%</c>最大生命值和法力。消耗英勇烙印可使安傑瑞斯之怒的冷卻時間降低<c val=\"#TooltipNumbers\">10</c>秒。",
+      "name": "無恕之隕",
+      "shortText": "安傑瑞斯之怒會恢復生命值，降低冷卻時間"
+    },
+    "ImperiusMoltenWrath|ImperiusMoltenWrath|E|Level20": {
+      "fullText": "熔火護甲的效果半徑提高<c val=\"#TooltipNumbers\">25%</c>，且就算有英雄在範圍內，熔火護甲必會擊中<c val=\"#TooltipNumbers\">2</c>名額外目標。",
+      "name": "熔岩之怒",
+      "shortText": "熔火護甲必會擊中額外目標"
+    },
+    "ImperiusValorousBrandBrandOfSolarion|ImperiusValorousBrandBrandOfSolarion|Trait|Level20": {
+      "fullText": "英勇烙印的持續時間降低至<c val=\"#TooltipNumbers\">5</c>秒，但觸發時不再消耗該烙印。",
+      "name": "索拉瑞恩烙印",
+      "shortText": "英勇烙印觸發時不會消耗其效果"
+    },
+    "ImperiusImpervious|ImperiusImpervious|Active|Level20": {
+      "cooldownText": "冷卻時間：75秒",
+      "fullText": "啟動後對控場免疫，並且獲得<c val=\"#TooltipNumbers\">75</c>點法術護甲，持續<c val=\"#TooltipNumbers\">3</c>秒。索拉瑞恩之火中央區域擊中英雄可使堅不可摧的冷卻時間降低<c val=\"#TooltipNumbers\">5</c>秒。",
+      "name": "堅不可摧",
+      "shortText": "啟動後獲得控場免疫和法術護甲"
+    }
+  },
+  "units": {}
+}

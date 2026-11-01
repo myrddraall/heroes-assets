@@ -1,0 +1,209 @@
+{
+  "abilities": {
+    "ArthasDeathCoil|ArthasDeathCoil|Q": {
+      "cooldownText": "冷却时间：9秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：40</s>",
+      "fullText": "对目标敌人造成<c val=\"#TooltipNumbers\">164</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害。<n/><n/>可以对自己使用恢复<c val=\"#TooltipNumbers\">275</c><c val=\"#ColorGray\">~~0.04~~</c>点生命值。",
+      "name": "死亡缠绕",
+      "shortText": "对目标造成伤害或治疗阿尔萨斯"
+    },
+    "ArthasHowlingBlast|ArthasHowlingBlast|W": {
+      "cooldownText": "冷却时间：10秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：50</s>",
+      "fullText": "使目标范围内的敌人定身，持续<c val=\"#TooltipNumbers\">1.25</c>秒，并造成<c val=\"#TooltipNumbers\">68</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害。",
+      "name": "凛风冲击",
+      "shortText": "使范围内敌人定身并对其造成伤害"
+    },
+    "ArthasFrozenTempest|ArthasFrozenTempest|E": {
+      "cooldownText": "冷却时间：1秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：每秒13</s>",
+      "fullText": "每秒对附近的敌人造成<c val=\"#TooltipNumbers\">36</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害，并使其减速<c val=\"#TooltipNumbers\">10%</c>，最多减速<c val=\"#TooltipNumbers\">40%</c>。击中英雄还会使其攻击速度每秒降低<c val=\"#TooltipNumbers\">10%</c>，最多降低<c val=\"#TooltipNumbers\">40%</c>。寒冰风暴的效果持续<c val=\"#TooltipNumbers\">1.5</c>秒。",
+      "name": "寒冰风暴",
+      "shortText": "对附近敌人造成伤害并使其减速。激活后持续消耗法力值"
+    },
+    "ArthasArmyOfTheDead|ArthasArmyOfTheDead|Heroic": {
+      "cooldownText": "冷却时间：18秒",
+      "fullText": "消耗所有充能，召唤等量的食尸鬼，食尸鬼会在<c val=\"#TooltipNumbers\">20</c>秒内持续失去生命值，并造成<c val=\"#TooltipNumbers\">20</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害。重新激活可牺牲一只食尸鬼，为阿尔萨斯恢复<c val=\"#TooltipNumbers\">240</c><c val=\"#ColorGray\">~~0.04~~</c>点生命值。最多可储存<c val=\"#TooltipNumbers\">6</c>层充能。<n/><n/>每当附近有敌方小兵死亡时，该技能的充能冷却时间缩短<c val=\"#TooltipNumbers\">1</c>秒。击杀英雄会使该技能的充能冷却时间缩短<c val=\"#TooltipNumbers\">6</c>秒。",
+      "name": "亡者大军",
+      "shortText": "复活食尸鬼攻击敌人，并治疗阿尔萨斯"
+    },
+    "ArthasSummonSindragosa|ArthasSummonSindragosa|Heroic": {
+      "cooldownText": "冷却时间：100秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：100</s>",
+      "fullText": "造成<c val=\"#TooltipNumbers\">230</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害，并使敌人的速度降低<c val=\"#TooltipNumbers\">60%</c>，持续<c val=\"#TooltipNumbers\">4</c>秒。还会使小兵、雇佣兵、怪物和建筑失效，持续<c val=\"#TooltipNumbers\">20</c>秒。",
+      "name": "召唤辛达苟萨",
+      "shortText": "使敌人和建筑无法动弹"
+    },
+    "ArthasFrostmourneHungers|ArthasFrostmourneHungers|Trait": {
+      "cooldownText": "冷却时间：12秒",
+      "fullText": "激活后，阿尔萨斯的下一次普通攻击会立刻发动，并造成<c val=\"#TooltipNumbers\">71</c><c val=\"#ColorGray\">~~0.04~~</c>点额外伤害。造成伤害时恢复<c val=\"#TooltipNumbers\">40</c>点法力值。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任务：</c>使用霜之哀伤的饥渴击杀小兵或命中英雄，会使其额外伤害永久提高<c val=\"#TooltipNumbers\">3</c>点，阿尔萨斯的普通攻击伤害永久提高<c val=\"#TooltipNumbers\">0.75</c>点。",
+      "name": "霜之哀伤的饥渴",
+      "shortText": "激活后强化下一次攻击，并在击中后获得法力值"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "冷却时间：4秒",
+      "fullText": "引导<c val=\"#TooltipNumbers\">1</c>秒后，获得<s val=\"StandardTooltipDetails\">30%</s>移动速度。",
+      "name": "召唤坐骑"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "引导<c val=\"#TooltipNumbers\">6</c>秒后，传送回风暴大厅，立即恢复<c val=\"#TooltipNumbers\">1125</c>的生命值和<c val=\"#TooltipNumbers\">150</c>法力值。",
+      "name": "炉石"
+    },
+    "ArthasFrozenTempestCancel|ArthasFrozenTempestDeactive|E": {
+      "cooldownText": "冷却时间：1秒",
+      "fullText": "取消寒冰风暴技能。",
+      "name": "取消寒冰风暴"
+    },
+    "ArthasArmyOfTheDeadSacrifice|ArthasArmyOfTheDeadSacrifice|Heroic": {
+      "cooldownText": "冷却时间：2秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：15</s>",
+      "fullText": "牺牲一只食尸鬼，恢复<c val=\"#TooltipNumbers\">240</c><c val=\"#ColorGray\">~~0.04~~</c>点生命值。",
+      "name": "牺牲",
+      "shortText": "牺牲食尸鬼来恢复生命值"
+    },
+    ":PASSIVE:|ArthasFrostmourneHungersPrimed|Trait": {
+      "fullText": "下一次普通攻击造成<c val=\"#TooltipNumbers\">71</c><c val=\"#ColorGray\">~~0.04~~</c>点额外伤害。造成伤害时恢复<c val=\"#TooltipNumbers\">40</c>点法力值。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任务：</c>使用霜之哀伤的饥渴击杀小兵或命中英雄，会使其额外伤害和阿尔萨斯的普通攻击伤害永久提高<c val=\"#TooltipNumbers\">3</c>点。",
+      "name": "霜之哀伤的饥渴已激活"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "解除坐骑。",
+      "name": "解除坐骑"
+    },
+    "ArthasIceboundFortitude|ArthasIceboundFortitudeTalent|Active": {
+      "cooldownText": "冷却时间：35秒",
+      "fullText": "激活后立即移除所有定身和减速效果。获得<c val=\"#TooltipNumbers\">25</c>点护甲，并使阿尔萨斯受到的昏迷、减速和定身效果的持续时间缩短<c val=\"#TooltipNumbers\">75%</c>，持续<c val=\"#TooltipNumbers\">3</c>秒。<n/><n/>凛风冲击每定身一个敌方英雄，都会使该技能的冷却时间缩短<c val=\"#TooltipNumbers\">2</c>秒。",
+      "name": "冰封之韧",
+      "shortText": "激活后获得护甲，并降低控制效果"
+    },
+    "ArthasAntiMagicShell|ArthasAntiMagicShellTalent|Active": {
+      "cooldownText": "冷却时间：60秒",
+      "fullText": "激活后使阿尔萨斯免疫法术伤害，持续<c val=\"#TooltipNumbers\">4</c>秒，并为阿尔萨斯恢复相当于所阻挡伤害的<c val=\"#TooltipNumbers\">25%</c>的生命值。",
+      "name": "反魔法护罩",
+      "shortText": "激活后免疫法术伤害"
+    },
+    "ArthasPathofFrost|ArthasPathofFrost|Active": {
+      "cooldownText": "冷却时间：60秒",
+      "fullText": "激活后立即骑乘坐骑，最低移动速度为<c val=\"#TooltipNumbers\">140%</c>。受到伤害不会使阿尔萨斯从该坐骑上落下。最多持续<c val=\"#TooltipNumbers\">5</c>秒。<n/><n/>当阿尔萨斯下马时，会使附近所有敌人减速<c val=\"#TooltipNumbers\">30%</c>，持续<c val=\"#TooltipNumbers\">2</c>秒，并造成<c val=\"#TooltipNumbers\">66</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害。",
+      "name": "冰霜之路",
+      "shortText": "获得强化坐骑，并减速附近敌人"
+    }
+  },
+  "talents": {
+    "ArthasMasteryFrostPresenceHowlingBlast|ArthasFrostPresenceHowlingBlastTalent|W|Level1": {
+      "fullText": "凛风冲击的范围扩大<c val=\"#TooltipNumbers\">20%</c>。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任务：</c>使用凛风冲击击中敌方英雄。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">奖励：</c>命中<c val=\"#TooltipNumbers\">15</c>个英雄后，凛风冲击的射程提高<c val=\"#TooltipNumbers\">20%</c>，并会命中路径上的敌人。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">奖励：</c>命中<c val=\"#TooltipNumbers\">30</c>个英雄后，死亡缠绕会使被命中的英雄减速<c val=\"#TooltipNumbers\">50%</c>，持续<c val=\"#TooltipNumbers\">1.25</c>秒。",
+      "name": "冰霜灵气",
+      "shortText": "<c val=\"#TooltipQuest\">任务：</c>定身英雄来强化凛风冲击和死亡缠绕"
+    },
+    "ArthasBoreanWinds|ArthasBoreanWinds|E|Level1": {
+      "fullText": "寒冰风暴持续<c val=\"#TooltipNumbers\">2</c>秒后，阿尔萨斯移动速度提高<c val=\"#TooltipNumbers\">10%</c>。<n/><n/><c val=\"#AbilityPassive\">被动：</c>寒冰风暴的减速效果会额外持续<c val=\"#TooltipNumbers\">0.5</c>秒，且其每秒法力消耗降低<c val=\"#TooltipNumbers\">4</c>点。",
+      "name": "苔原之风",
+      "shortText": "寒冰风暴提高移动速度"
+    },
+    "ArthasRime|ArthasRime|Passive|Level1": {
+      "fullText": "每隔<c val=\"#TooltipNumbers\">5</c>秒，获得<c val=\"#TooltipNumbers\">75</c>点物理护甲，抵御下一次敌方英雄的普通攻击，使受到的伤害降低<c val=\"#TooltipNumbers\">75%</c>。最多储存<c val=\"#TooltipNumbers\">3</c>层。<n/><n/><c val=\"#AbilityPassive\">被动：</c>阿尔萨斯在被减速、定身或昏迷时，每秒恢复<c val=\"#TooltipNumbers\">24</c><c val=\"#ColorGray\">~~0.04~~</c>点生命值。",
+      "name": "白霜",
+      "shortText": "周期性获得物理护甲和生命值"
+    },
+    "ArthasShatteredArmor|ArthasShatteredArmor|W|Level4": {
+      "fullText": "被凛风冲击击中的敌方英雄的护甲降低<c val=\"#TooltipNumbers\">15</c>点，持续<c val=\"#TooltipNumbers\">4</c>秒。",
+      "name": "粉碎护甲",
+      "shortText": "凛风冲击降低护甲"
+    },
+    "ArthasIcyTalons|ArthasIcyTalons|E|Level4": {
+      "fullText": "每次英雄受到寒冰风暴的伤害使阿尔萨斯的攻击速度提高<c val=\"#TooltipNumbers\">3%</c>，持续<c val=\"#TooltipNumbers\">2</c>秒，最多提高<c val=\"#TooltipNumbers\">60%</c>。",
+      "name": "冰冷之爪",
+      "shortText": "寒冰风暴提高攻击速度"
+    },
+    "ArthasMasteryFrostStrikeFrostmourneHungers|ArthasFrostStrikeFrostmourneHungersTalent|Trait|Level4": {
+      "fullText": "霜之哀伤的饥渴会对范围内敌人额外造成<c val=\"#TooltipNumbers\">115</c><c val=\"#ColorGray\">~~0.04~~</c>点法术伤害，并使被命中的敌方英雄减速<c val=\"#TooltipNumbers\">20%</c>，持续<c val=\"#TooltipNumbers\">2</c>秒。",
+      "name": "冰霜打击",
+      "shortText": "霜之哀伤的饥渴造成范围伤害并减速"
+    },
+    "ArthasMasteryImmortalCoilDeathCoil|ArthasImmortalCoilDeathCoilTalent|Q|Level7": {
+      "fullText": "对敌人使用死亡缠绕也可以治疗自己。对阿尔萨斯使用死亡缠绕时，治疗量提高<c val=\"#TooltipNumbers\">75%</c>，冷却时间缩短<c val=\"#TooltipNumbers\">3</c>秒。",
+      "name": "不朽缠绕",
+      "shortText": "死亡缠绕总是治疗"
+    },
+    "ArthasRuneTap|ArthasRuneTapTalent|Passive|Level7": {
+      "fullText": "每第<c val=\"#TooltipNumbers\">3次</c>普通攻击会为阿尔萨斯恢复相当于其最大生命值<c val=\"#TooltipNumbers\">5%</c>的生命值。<n/><n/><c val=\"#AbilityPassive\">被动：</c>霜之哀伤的饥渴的每层效果都会使阿尔萨斯的最大生命值提高<c val=\"#TooltipNumbers\">10</c>点。",
+      "name": "符文分流",
+      "shortText": "连续的普通攻击产生治疗，并提高生命值"
+    },
+    "ArthasIceboundFortitude|ArthasIceboundFortitudeTalent|Active|Level7": {
+      "cooldownText": "冷却时间：35秒",
+      "fullText": "激活后立即移除所有定身和减速效果。获得<c val=\"#TooltipNumbers\">25</c>点护甲，并使阿尔萨斯受到的昏迷、减速和定身效果的持续时间缩短<c val=\"#TooltipNumbers\">75%</c>，持续<c val=\"#TooltipNumbers\">3</c>秒。<n/><n/>凛风冲击每定身一个敌方英雄，都会使该技能的冷却时间缩短<c val=\"#TooltipNumbers\">2</c>秒。",
+      "name": "冰封之韧",
+      "shortText": "激活后获得护甲，并降低控制效果"
+    },
+    "ArthasHeroicAbilityArmyoftheDead|ArthasArmyOfTheDead|Heroic|Level10": {
+      "cooldownText": "冷却时间：18秒",
+      "fullText": "消耗所有充能，召唤等量的食尸鬼，食尸鬼会在<c val=\"#TooltipNumbers\">20</c>秒内持续失去生命值，并造成<c val=\"#TooltipNumbers\">20</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害。重新激活可牺牲一只食尸鬼，为阿尔萨斯恢复<c val=\"#TooltipNumbers\">240</c><c val=\"#ColorGray\">~~0.04~~</c>点生命值。最多可储存<c val=\"#TooltipNumbers\">6</c>层充能。<n/><n/>每当附近有敌方小兵死亡时，该技能的充能冷却时间缩短<c val=\"#TooltipNumbers\">1</c>秒。击杀英雄会使该技能的充能冷却时间缩短<c val=\"#TooltipNumbers\">6</c>秒。",
+      "name": "亡者大军",
+      "shortText": "复活食尸鬼攻击敌人，并治疗阿尔萨斯"
+    },
+    "ArthasHeroicAbilitySummonSindragosa|ArthasSummonSindragosa|Heroic|Level10": {
+      "cooldownText": "冷却时间：100秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：100</s>",
+      "fullText": "造成<c val=\"#TooltipNumbers\">230</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害，并使敌人的速度降低<c val=\"#TooltipNumbers\">60%</c>，持续<c val=\"#TooltipNumbers\">4</c>秒。还会使小兵、雇佣兵、怪物和建筑失效，持续<c val=\"#TooltipNumbers\">20</c>秒。",
+      "name": "召唤辛达苟萨",
+      "shortText": "使敌人和建筑无法动弹"
+    },
+    "ArthasDeathlord|ArthasDeathlord|Q|Level13": {
+      "fullText": "如果对敌方英雄使用死亡缠绕，则会向附近另一名敌方英雄额外发射一个死亡缠绕。<n/><n/><c val=\"#AbilityPassive\">被动：</c>阿尔萨斯当前生命值越低，死亡缠绕造成的伤害越高，最多可提高<c val=\"#TooltipNumbers\">50%</c>。",
+      "name": "死亡领主",
+      "shortText": "死亡缠绕会额外命中一个英雄，并提高伤害"
+    },
+    "ArthasDeathchill|ArthasDeathchill|W|Level13": {
+      "fullText": "凛风冲击的伤害会随霜之哀伤的饥渴的每层效果提高<c val=\"#TooltipNumbers\">2</c>点。<n/><n/>对生命值低于<c val=\"#TooltipNumbers\">50%</c>的英雄，凛风冲击会额外造成<c val=\"#TooltipNumbers\">100%</c>伤害，并额外定身<c val=\"#TooltipNumbers\">0.25</c>秒。",
+      "name": "死亡之寒",
+      "shortText": "提高凛风冲击的伤害，对低生命值英雄造成更多伤害"
+    },
+    "ArthasMasteryBitingColdFrozenTempest|ArthasBitingColdFrozenTempestTalent|E|Level13": {
+      "fullText": "敌人每受到一秒寒冰风暴的伤害就能使该技能的伤害提高<c val=\"#TooltipNumbers\">15%</c>，最多提高<c val=\"#TooltipNumbers\">75%</c>。",
+      "name": "刺骨之寒",
+      "shortText": "寒冰风暴的伤害提高"
+    },
+    "ArthasMasteryRemorselessWinterFrozenTempest|ArthasRemorselessWinterFrozenTempestTalent|E|Level16": {
+      "fullText": "敌方英雄在寒冰风暴范围内停留<c val=\"#TooltipNumbers\">2.5</c>秒后，会被定身<c val=\"#TooltipNumbers\">1.25</c>秒，并为阿尔萨斯恢复相当于其最大生命值<c val=\"#TooltipNumbers\">3%</c>的生命值。该效果对每个目标有<c val=\"#TooltipNumbers\">8</c>秒冷却时间。",
+      "name": "冷酷严冬",
+      "shortText": "寒冰风暴可以使敌方英雄定身，并治疗阿尔萨斯"
+    },
+    "ArthasMasteryFrostmourneFeedsFrostmourneHungers|ArthasFrostmourneFeedsFrostmourneHungersTalents|Trait|Level16": {
+      "fullText": "霜之哀伤的饥渴的冷却时间缩短<c val=\"#TooltipNumbers\">6</c>秒。阿尔萨斯会恢复相当于霜之哀伤的饥渴所造成普通攻击伤害<c val=\"#TooltipNumbers\">75%</c>的生命值。",
+      "name": "霜之哀伤的盛宴",
+      "shortText": "缩短霜之哀伤的饥渴的冷却时间，并治疗阿尔萨斯"
+    },
+    "ArthasAntiMagicShell|ArthasAntiMagicShellTalent|Active|Level16": {
+      "cooldownText": "冷却时间：60秒",
+      "fullText": "激活后使阿尔萨斯免疫法术伤害，持续<c val=\"#TooltipNumbers\">4</c>秒，并为阿尔萨斯恢复相当于所阻挡伤害的<c val=\"#TooltipNumbers\">25%</c>的生命值。",
+      "name": "反魔法护罩",
+      "shortText": "激活后免疫法术伤害"
+    },
+    "ArthasMasteryLegionOfNorthrendArmyoftheDead|ArthasLegionOfNorthrendArmyOfTheDeadTalent|Heroic|Level20": {
+      "fullText": "亡者大军的充能冷却时间缩短<c val=\"#TooltipNumbers\">5</c>秒。<n/><n/>每消耗一次充能，就会额外召唤一只食尸鬼攻击附近敌人。这些食尸鬼无法被牺牲。",
+      "name": "诺森德大军",
+      "shortText": "缩短亡者大军的充能冷却时间，并召唤更多食尸鬼"
+    },
+    "ArthasMasteryAbsoluteZeroSummonSindragosa|ArthasAbsoluteZeroSummonSindragosaTalent|Heroic|Level20": {
+      "fullText": "辛达苟萨飞行距离翻倍。敌方英雄将被定身<c val=\"#TooltipNumbers\">2.5</c>秒，并且随后被减速<c val=\"#TooltipNumbers\">60%</c>，持续 <c val=\"#TooltipNumbers\">4</c>秒。",
+      "name": "绝对零度",
+      "shortText": "提高辛达苟萨的射程和负面效果持续时间"
+    },
+    "ArthasDeathPact|ArthasDeathPact|Trait|Level20": {
+      "fullText": "立即使你的霜之哀伤的饥渴层数翻倍，但之后不再能通过命中英雄或击杀小兵获得层数。<n/><n/><c val=\"#AbilityPassive\">被动：</c>击杀英雄会获得<c val=\"#TooltipNumbers\">2</c>层霜之哀伤的饥渴。",
+      "name": "死亡契约",
+      "shortText": "霜之哀伤的饥渴获得双倍层数 "
+    },
+    "ArthasPathofFrost|ArthasPathofFrost|Active|Level20": {
+      "cooldownText": "冷却时间：60秒",
+      "fullText": "激活后立即骑乘坐骑，最低移动速度为<c val=\"#TooltipNumbers\">140%</c>。受到伤害不会使阿尔萨斯从该坐骑上落下。最多持续<c val=\"#TooltipNumbers\">5</c>秒。<n/><n/>当阿尔萨斯下马时，会使附近所有敌人减速<c val=\"#TooltipNumbers\">30%</c>，持续<c val=\"#TooltipNumbers\">2</c>秒，并造成<c val=\"#TooltipNumbers\">66</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害。",
+      "name": "冰霜之路",
+      "shortText": "获得强化坐骑，并减速附近敌人"
+    }
+  },
+  "units": {
+    "ArthasArmyOfTheDeadGhoul": {
+      "name": "食尸鬼"
+    }
+  }
+}

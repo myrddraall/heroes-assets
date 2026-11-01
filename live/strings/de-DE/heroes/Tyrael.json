@@ -1,0 +1,197 @@
+{
+  "abilities": {
+    "TyraelElDruinsMight|TyraelElDruinsMight|Q": {
+      "cooldownText": "Abklingzeit: 12 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 45</s>",
+      "fullText": "Wirft El'druin in den Zielbereich, fügt Gegnern <c val=\"#TooltipNumbers\">110</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zu und verlangsamt sie <c val=\"#TooltipNumbers\">2.5</c> Sek. lang um <c val=\"#TooltipNumbers\">30%</c>. Durch erneute Aktivierung innerhalb von <c val=\"#TooltipNumbers\">5</c> Sek. wird Tyrael zu El'druin teleportiert und Gegner in der Nähe werden erneut verlangsamt.",
+      "name": "El'druins Macht",
+      "shortText": "Verlangsamt Gegner und fügt ihnen Schaden zu. Erneuter Einsatz teleportiert."
+    },
+    "TyraelRighteousness|TyraelRighteousness|W": {
+      "cooldownText": "Abklingzeit: 9 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 45</s>",
+      "fullText": "Gewährt Tyrael einen Schild mit <c val=\"#TooltipNumbers\">350</c><c val=\"#ColorGray\">~~0.04~~</c> Punkten und nahen verbündeten Helden und Dienern einen Schild in Höhe von <c val=\"#TooltipNumbers\">40%</c> dieses Wertes. Hält <c val=\"#TooltipNumbers\">4</c> Sek. lang an.",
+      "name": "Rechtschaffenheit",
+      "shortText": "Erzeugt einen vorübergehenden Schild."
+    },
+    "TyraelSmite|TyraelSmite|E": {
+      "cooldownText": "Abklingzeit: 6 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 45</s>",
+      "fullText": "Schwingt das Schwert über dem Zielgebiet und verursacht <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden. Erhöht für die nächsten <c val=\"#TooltipNumbers\">3</c> Sek. die Bewegungsgeschwindigkeit von Verbündeten, die sich durch das Zielgebiet bewegen, <c val=\"#TooltipNumbers\">2</c> Sek. lang um <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Niederstrecken",
+      "shortText": "Verursacht Schaden in einem Gebiet und erhöht die Geschwindigkeit Verbündeter."
+    },
+    "TyraelJudgement|TyraelJudgment|Heroic": {
+      "cooldownText": "Abklingzeit: 70 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 80</s>",
+      "fullText": "Stürmt nach <c val=\"#TooltipNumbers\">0.75</c> Sek. auf den anvisierten Helden zu, fügt ihm <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zu und betäubt ihn <c val=\"#TooltipNumbers\">1.5</c> Sek. lang. Gegner in der Nähe werden zurückgestoßen und erleiden <c val=\"#TooltipNumbers\">75</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden.",
+      "name": "Urteilsspruch",
+      "shortText": "Stürmt auf einen gegnerischen Helden zu und betäubt ihn."
+    },
+    "TyraelSanctificationStationary|TyraelSanctificationStationary|Heroic": {
+      "cooldownText": "Abklingzeit: 85 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 70</s>",
+      "fullText": "Erzeugt nach <c val=\"#TooltipNumbers\">0.5</c> Sek. ein Feld mit heiliger Energie, das verbündete Helden unverwundbar macht. Hält <c val=\"#TooltipNumbers\">3</c> Sek. lang an.",
+      "name": "Heiligsprechung",
+      "shortText": "Erzeugt ein Feld, das Verbündete unverwundbar macht."
+    },
+    "TyraelArchangelsWrathDummy|TyraelArchangelsWrath|Trait": {
+      "fullText": "Macht Tyrael nach seinem Tod <c val=\"#TooltipNumbers\">4</c> Sek. lang unverwundbar und erhöht die Bewegungsgeschwindigkeit um <c val=\"#TooltipNumbers\">20%</c>. Anschließend explodiert er und verursacht <c val=\"#TooltipNumbers\">450</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden. Jeder getroffene Held reduziert Tyraels Todestimer um <c val=\"#TooltipNumbers\">10%</c>.<n/><n/>Verringert den Schaden von gegnerischen Helden in der Nähe um <c val=\"#TooltipNumbers\">50%</c>, solange Vermächtnis des Erzengels aktiv ist. Der Effekt bleibt nach der Explosion <c val=\"#TooltipNumbers\">3</c> Sek. lang bestehen.",
+      "name": "Vermächtnis des Erzengels",
+      "shortText": "Macht Tyrael nach seinem Tod kurz unverwundbar und lässt ihn dann explodieren."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Abklingzeit: 4 Sek.",
+      "fullText": "Erhöht die Bewegungsgeschwindigkeit nach <c val=\"#TooltipNumbers\">1</c> Sek. Kanalisierung um <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Aufsitzen"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Kanalisiert <c val=\"#TooltipNumbers\">6</c> Sek. lang und teleportiert sich dann zurück zum Altar der Stürme. Dabei werden sofort <c val=\"#TooltipNumbers\">1125</c> Lebenspunkte und <c val=\"#TooltipNumbers\">150</c> Mana wiederhergestellt.",
+      "name": "Ruhestein"
+    },
+    "ElDruinsMightEldruinsFlash|TyraelElDruinsMightEldruinsFlash|Q": {
+      "fullText": "Teleportiert sich zu El'druin und verlangsamt Gegner in der Nähe <c val=\"#TooltipNumbers\">2</c> Sek. lang um <c val=\"#TooltipNumbers\">30%</c>.",
+      "name": "El'druins Blitz"
+    },
+    "CancelSanctification|TyraelSanctificationCancelSanctification|Heroic": {
+      "cooldownText": "Abklingzeit: 1.5 Sek.",
+      "fullText": "Bricht Heiligsprechung ab.",
+      "name": "Heiligsprechung abbrechen"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Sitzt ab.",
+      "name": "Absitzen"
+    },
+    "TyraelAspectofJustice|TyraelArchangelsWrathActive|Trait": {
+      "cooldownText": "Abklingzeit: 90 Sek.",
+      "fullText": "Macht Tyrael nach seinem Tod <c val=\"#TooltipNumbers\">4</c> Sek. lang unverwundbar und erhöht die Bewegungsgeschwindigkeit um <c val=\"#TooltipNumbers\">20%</c>. Anschließend explodiert er und verursacht <c val=\"#TooltipNumbers\">450</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden. Jeder getroffene Held reduziert Tyraels Todestimer um <c val=\"#TooltipNumbers\">10%</c>.<n/><n/>Verringert den Schaden von gegnerischen Helden in der Nähe um <c val=\"#TooltipNumbers\">50%</c>, solange Vermächtnis des Erzengels aktiv ist. Der Effekt bleibt nach der Explosion <c val=\"#TooltipNumbers\">3</c> Sek. lang bestehen.",
+      "name": "Vermächtnis des Erzengels",
+      "shortText": "Macht Tyrael nach seinem Tod kurz unverwundbar und lässt ihn dann explodieren."
+    },
+    "TyraelDefenseOfTheAngels|TyraelDefenseOfTheAngels|Active": {
+      "cooldownText": "Abklingzeit: 60 Sek.",
+      "fullText": "Aktivieren, um <c val=\"#TooltipNumbers\">3</c> Sek. lang <c val=\"#TooltipNumbers\">50</c> Panzerung zu erhalten.<n/><n/>Jedes Mal, wenn Tyrael einem gegnerischen Helden mit einem automatischen Angriff oder einer Grundfähigkeit Schaden zufügt, wird die Dauer dieses Rüstungsbonus um <c val=\"#TooltipNumbers\">0.5</c> Sek. erhöht.",
+      "name": "Engelsverteidigung",
+      "shortText": "Aktivieren, um Panzerung zu erhalten."
+    }
+  },
+  "talents": {
+    "TyraelSalvation|TyraelSalvation|W|Level1": {
+      "fullText": "Erhöht Tyraels Schildpunkte durch Rechtschaffenheit um <c val=\"#TooltipNumbers\">35%</c> und heilt ihn um <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c> Lebenspunkte, wenn der Schild zerstört wird. Hat keine Auswirkung auf den Schild Verbündeter.",
+      "name": "Rettung",
+      "shortText": "Verstärkt den Schild von Rechtschaffenheit. Heilt, wenn der Schild zerstört wird."
+    },
+    "TyraelJusticeForAll|TyraelJusticeForAll|W|Level1": {
+      "fullText": "Erhöht den Schildwert von Rechtschaffenheit bei Verbündeten auf <c val=\"#TooltipNumbers\">80%</c> von Tyraels Schild.",
+      "name": "Gleiches Recht für alle",
+      "shortText": "Erhöht den Schildwert von Verbündeten."
+    },
+    "TyraelArdentRestoration|TyraelArdentRestoration|Passive|Level1": {
+      "fullText": "Schaden gegen Helden heilt Tyrael im Verlauf von <c val=\"#TooltipNumbers\">5</c> Sek. um <c val=\"#TooltipNumbers\">20</c><c val=\"#ColorGray\">~~0.04~~</c> Lebenspunkte. Weiterer verursachter Schaden setzt die Dauer zurück. Die Heilung ist bis zu <c val=\"#TooltipNumbers\">8</c>-mal stapelbar.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Erhöht die Heilung pro eingesammelter Regenerationskugel dauerhaft um <c val=\"#TooltipNumbers\">1%</c>.",
+      "name": "Inbrunst",
+      "shortText": "<c val=\"#TooltipQuest\">Quest:</c> Schaden gegen Helden gewährt Heilung über Zeit."
+    },
+    "TyraelStalwartAngel|TyraelStalwartAngel|Q|Level4": {
+      "fullText": "Gewährt <c val=\"#TooltipNumbers\">25</c> Panzerung, solange El'druins Macht aktiv ist sowie nach der Teleportation noch <c val=\"#TooltipNumbers\">3</c> Sek. lang.",
+      "name": "Unerschütterlich",
+      "shortText": "El'druins Macht gewährt Panzerung."
+    },
+    "TyraelMasteryRighteousnessReciprocate|TyraelRighteousnessReciprocateTalent|W|Level4": {
+      "fullText": "Wenn Tyraels Schild der Rechtschaffenheit abläuft oder zerstört wird, verursacht er <c val=\"#TooltipNumbers\">170</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden an Helden und herbeigerufenen Einheiten in der Nähe.<n/><n/>Für jeden gegnerischen Helden, der durch Revanche oder El'Druins Macht Schaden erleidet, heilt Tyrael sich um <c val=\"#TooltipNumbers\">3%</c> seiner maximalen Lebenspunkte.",
+      "name": "Revanche",
+      "shortText": "Lässt den Schild von Rechtschaffenheit explodieren und kann Tyrael heilen."
+    },
+    "TyraelDivineVigor|TyraelDivineVigor|E|Level4": {
+      "fullText": "Wenn Niederstrecken einen Gegner trifft, heilen Tyraels automatische Angriffe innerhalb der nächsten <c val=\"#TooltipNumbers\">4</c> Sek. ihn um <c val=\"#TooltipNumbers\">70%</c> des verursachten Schadens.",
+      "name": "Himmlische Kraft",
+      "shortText": "Automatische Angriffe nach Niederstrecken heilen."
+    },
+    "TyraelBurningHalo|TyraelBurningHalo|Q|Level7": {
+      "fullText": "Tyrael und El'druin fügen nahen Gegnern <c val=\"#TooltipNumbers\">12</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden pro Sekunde zu. Nach der Teleportation wird dieser Schaden bei Tyrael <c val=\"#TooltipNumbers\">2</c> Sek. lang um <c val=\"#TooltipNumbers\">125%</c> erhöht.",
+      "name": "Flammenschein",
+      "shortText": "El'druin und Tyrael fügen nahen Gegnern Schaden zu."
+    },
+    "TyraelMasteryPurgeEvil|TyraelSmitePurgeEvilTalent|E|Level7": {
+      "fullText": "Erhöht den Schaden automatischer Angriffe für jeden von Niederstrecken getroffenen gegnerischen Helden <c val=\"#TooltipNumbers\">4</c> Sek. lang um <c val=\"#TooltipNumbers\">60%</c>.",
+      "name": "Böses vertreiben",
+      "shortText": "Niederstrecken erhöht den Schaden automatischer Angriffe."
+    },
+    "TyraelMasterySwiftRetribution|TyraelSmiteSwiftRetributionTalent|E|Level7": {
+      "fullText": "Erhöht den Geschwindigkeitsbonus von Niederstrecken um <c val=\"#TooltipNumbers\">20%</c>. Außerdem erhöht Niederstrecken die Angriffsgeschwindigkeit <c val=\"#TooltipNumbers\">2</c> Sek. lang um <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Rasche Vergeltung",
+      "shortText": "Erhöht den Geschwindigkeitsbonus von Niederstrecken und die Angriffsgeschwindigkeit."
+    },
+    "TyraelHeroicAbilityJudgement|TyraelJudgment|Heroic|Level10": {
+      "cooldownText": "Abklingzeit: 70 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 80</s>",
+      "fullText": "Stürmt nach <c val=\"#TooltipNumbers\">0.75</c> Sek. auf den anvisierten Helden zu, fügt ihm <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zu und betäubt ihn <c val=\"#TooltipNumbers\">1.5</c> Sek. lang. Gegner in der Nähe werden zurückgestoßen und erleiden <c val=\"#TooltipNumbers\">75</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden.",
+      "name": "Urteilsspruch",
+      "shortText": "Stürmt auf einen gegnerischen Helden zu und betäubt ihn."
+    },
+    "TyraelHeroicAbilitySanctification|TyraelSanctificationStationary|Heroic|Level10": {
+      "cooldownText": "Abklingzeit: 85 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 70</s>",
+      "fullText": "Erzeugt nach <c val=\"#TooltipNumbers\">0.5</c> Sek. ein Feld mit heiliger Energie, das verbündete Helden unverwundbar macht. Hält <c val=\"#TooltipNumbers\">3</c> Sek. lang an.",
+      "name": "Heiligsprechung",
+      "shortText": "Erzeugt ein Feld, das Verbündete unverwundbar macht."
+    },
+    "TyraelMasteryElDruinsMightSwordOfJustice|TyraelElDruinsMightSwordOfJusticeTalent|Q|Level13": {
+      "fullText": "Bei der Teleportation tauscht El'druin die Position mit Tyrael. El'druins Macht kann danach erneut aktiviert werden, um sich noch einmal zu teleportieren.",
+      "name": "Schwert der Gerechtigkeit",
+      "shortText": "El'druins Macht ermöglicht zwei Teleportationen."
+    },
+    "TyraelMasteryHolyGround|TyraelElDruinsMightHolyGroundTalent|Q|Level13": {
+      "fullText": "Erschafft einen Ring, der verhindert, dass Gegner den Teleportationszielort von El'druins Macht betreten können. Hält <c val=\"#TooltipNumbers\">3</c> Sek. lang an.",
+      "name": "Heiliger Boden",
+      "shortText": "Die Teleportation mittels El'druins Macht erschafft ein unpassierbares Feld."
+    },
+    "TyraelMasteryLawAndOrder|TyraelRighteousnessLawAndOrderTalent|Passive|Level13": {
+      "fullText": "Verringert die Abklingzeit von Rechtschaffenheit für jeden von Niederstrecken getroffenen gegnerischen Helden um <c val=\"#TooltipNumbers\">1</c> Sek. Erhöht den Schaden des nächsten Einsatzes von Niederstrecken für jeden von Rechtschaffenheit mit einem Schild belegten verbündeten Helden um <c val=\"#TooltipNumbers\">35%</c>.",
+      "name": "Recht und Ordnung",
+      "shortText": "Rechtschaffenheit und Niederstrecken verstärken sich gegenseitig."
+    },
+    "TyraelElDruinsMightBoundByLaw|TyraelElDruinsMightBoundByLawTalent|Q|Level16": {
+      "fullText": "Die Verlangsamung von El'druins Macht ist <c val=\"#TooltipNumbers\">1</c> Sek. lang um <c val=\"#TooltipNumbers\">65%</c> erhöht. Dieser Effekt sinkt über die verbleibende Dauer auf <c val=\"#TooltipNumbers\">30%</c>.",
+      "name": "An Gesetze gebunden",
+      "shortText": "El'druins Macht verlangsamt zu Beginn mehr."
+    },
+    "TyraelHoradricReforging|TyraelElDruinsMightHoradricReforgingTalent|Q|Level16": {
+      "fullText": "Automatische Angriffe verringern die Abklingzeit von El'druins Macht um <c val=\"#TooltipNumbers\">2</c> Sek.",
+      "name": "Horadrische Schmiede",
+      "shortText": "Automatische Angriffe verringern die Abklingzeit von El'druins Macht."
+    },
+    "TyraelSmiteTheWicked|TyraelSmiteTheWicked|E|Level16": {
+      "fullText": "Beschleunigt die Abklingzeit von Niederstrecken um <c val=\"#TooltipNumbers\">125%</c>, solange El'druins Macht aktiv ist sowie nach der Teleportation noch <c val=\"#TooltipNumbers\">2</c> Sek. lang.",
+      "name": "Überzeugtes Handeln",
+      "shortText": "El'druins Macht beschleunigt die Abklingzeit von Niederstrecken."
+    },
+    "TyraelMasteryJudgmentAngelofJustice|TyraelJudgmentAngelOfJusticeTalent|Heroic|Level20": {
+      "fullText": "Erhöht die Einsatzreichweite des Urteilsspruchs um <c val=\"#TooltipNumbers\">50 %</c> und verringert die Abklingzeit um <c val=\"#TooltipNumbers\">40</c> Sek.",
+      "name": "Engel der Gerechtigkeit",
+      "shortText": "Erhöht die Reichweite und verringert die Abklingzeit des Urteilsspruchs."
+    },
+    "TyraelMasterySanctificationHolyArena|TyraelSanctificationHolyArenaTalent|Heroic|Level20": {
+      "fullText": "Erhöht die Dauer von Heiligsprechung um <c val=\"#TooltipNumbers\">1</c> Sek. und den Schaden Verbündeter im Bereich um <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Heilige Arena",
+      "shortText": "Erhöht die Dauer von Heiligsprechung und verstärkt Verbündete."
+    },
+    "TyraelSealOfElDruin|TyraelSealofElDruin|Passive|Level20": {
+      "fullText": "Erhöht die Angriffsgeschwindigkeit <c val=\"#TooltipNumbers\">3</c> Sek. lang um <c val=\"#TooltipNumbers\">50%</c>, wenn eine Grundfähigkeit eingesetzt wird.",
+      "name": "El'druins Siegel",
+      "shortText": "Grundfähigkeiten gewähren Angriffsgeschwindigkeit."
+    },
+    "TyraelDefenseOfTheAngels|TyraelDefenseOfTheAngels|Active|Level20": {
+      "cooldownText": "Abklingzeit: 60 Sek.",
+      "fullText": "Aktivieren, um <c val=\"#TooltipNumbers\">3</c> Sek. lang <c val=\"#TooltipNumbers\">50</c> Panzerung zu erhalten.<n/><n/>Jedes Mal, wenn Tyrael einem gegnerischen Helden mit einem automatischen Angriff oder einer Grundfähigkeit Schaden zufügt, wird die Dauer dieses Rüstungsbonus um <c val=\"#TooltipNumbers\">0.5</c> Sek. erhöht.",
+      "name": "Engelsverteidigung",
+      "shortText": "Aktivieren, um Panzerung zu erhalten."
+    },
+    "TyraelAspectofJustice|TyraelAspectofJusticeTalent|Trait|Level20": {
+      "cooldownText": "Abklingzeit: 90 Sek.",
+      "fullText": "Gewährt nach <c val=\"#TooltipNumbers\">1.25</c> Sek. die Effekte von Vermächtnis des Erzengels, ohne zu sterben. Verringert die Abklingzeit für jeden gegnerischen Helden, der von der Explosion getroffen wird, um <c val=\"#TooltipNumbers\">15 %</c>.",
+      "name": "Aspekt der Gerechtigkeit",
+      "shortText": "Aktiviere das Vermächtnis des Erzengels"
+    }
+  },
+  "units": {}
+}

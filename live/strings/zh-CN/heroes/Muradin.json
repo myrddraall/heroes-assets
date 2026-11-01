@@ -1,0 +1,190 @@
+{
+  "abilities": {
+    "MuradinStormBolt|MuradinStormbolt|Q": {
+      "cooldownText": "冷却时间：10秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：45</s>",
+      "fullText": "扔出一把锤子，对击中的第一个敌人造成<c val=\"#TooltipNumbers\">110</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害，并使其昏迷<c val=\"#TooltipNumbers\">1.25</c>秒。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任务：</c>对受到昏迷、减速或定身的英雄进行普通攻击。攻击被减速或被定身的敌人累积<c val=\"#TooltipNumbers\">1</c>层。攻击昏迷的敌人累积<c val=\"#TooltipNumbers\">2</c>层。如果该英雄在<c val=\"#TooltipNumbers\">3</c>秒内死亡，则积累<c val=\"#TooltipNumbers\">5</c>层。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">奖励：</c>在命中<c val=\"#TooltipNumbers\">45</c>个目标后，风暴之锤可在穿透敌人后命中一个额外目标，且穆拉丁的普通攻击会使风暴之锤的冷却时间缩短<c val=\"#TooltipNumbers\">0.5</c>秒，并恢复<c val=\"#TooltipNumbers\">3</c>点法力值。<n/><n/><<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">神话奖励：</c>在命中<c val=\"#TooltipNumbers\">160</c>个目标后，风暴之锤的距离提高<c val=\"#TooltipNumbers\">50%</c>，宽度提高<c val=\"#TooltipNumbers\">100%</c>，且会穿透所有目标。",
+      "name": "风暴之锤",
+      "shortText": "扔出飞锤对击中的第一名敌人造成伤害并使其昏迷"
+    },
+    "MuradinThunderclap|MuradinThunderclap|W": {
+      "cooldownText": "冷却时间：8秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：50</s>",
+      "fullText": "冲击附近敌人，造成<c val=\"#TooltipNumbers\">96</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害，并使其减速<c val=\"#TooltipNumbers\">30%</c>，持续<c val=\"#TooltipNumbers\">2.5</c>秒。被击中的英雄的攻击速度在持续时间内降低<c val=\"#TooltipNumbers\">30%</c>。",
+      "name": "雷霆一击",
+      "shortText": "对附近敌人造成伤害并使其减速"
+    },
+    "MuradinDwarfToss|MuradinDwarfToss|E": {
+      "cooldownText": "冷却时间：10秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：55</s>",
+      "fullText": "跃向目标位置，落地后对敌人造成<c val=\"#TooltipNumbers\">59</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害。起跳时获得<c val=\"#TooltipNumbers\">30</c>点护甲，使受到的伤害降低<c val=\"#TooltipNumbers\">30%</c>，持续<c val=\"#TooltipNumbers\">2</c>秒。",
+      "name": "矮人投掷",
+      "shortText": "跃起对附近敌人造成伤害"
+    },
+    "MuradinAvatar|MuradinAvatar|Heroic": {
+      "cooldownText": "冷却时间：90秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：80</s>",
+      "fullText": "变身，持续<c val=\"#TooltipNumbers\">20</c>秒，获得<c val=\"#TooltipNumbers\">1000</c><c val=\"#ColorGray\">~~0.04~~</c>点生命值。",
+      "name": "天神下凡",
+      "shortText": "暂时提高生命值"
+    },
+    "MuradinHaymaker|MuradinHaymaker|Heroic": {
+      "cooldownText": "冷却时间：40秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：60</s>",
+      "fullText": "击晕目标敌方英雄并挥拳造成<c val=\"#TooltipNumbers\">319</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害并将目标击退，击退过程中打到的敌人将受到<c val=\"#TooltipNumbers\">319</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害且被击退一小段距离。",
+      "name": "野蛮斗殴",
+      "shortText": "击晕并击退一个敌人"
+    },
+    ":PASSIVE:|MuradinSecondWind|Trait": {
+      "fullText": "穆拉丁在<c val=\"#TooltipNumbers\">4</c>秒内没有受到伤害后，每秒恢复<c val=\"#TooltipNumbers\">55</c><c val=\"#ColorGray\">~~0.04~~</c>点生命值。生命值低于<c val=\"#TooltipNumbers\">40%</c>时，效果提高至每秒<c val=\"#TooltipNumbers\">111</c><c val=\"#ColorGray\">~~0.04~~</c>点生命值。",
+      "name": "复苏之风",
+      "shortText": "未受到攻击时恢复生命值"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "冷却时间：4秒",
+      "fullText": "引导<c val=\"#TooltipNumbers\">1</c>秒后，获得<s val=\"StandardTooltipDetails\">30%</s>移动速度。",
+      "name": "召唤坐骑"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "引导<c val=\"#TooltipNumbers\">6</c>秒后，传送回风暴大厅，立即恢复<c val=\"#TooltipNumbers\">1125</c>的生命值和<c val=\"#TooltipNumbers\">150</c>法力值。",
+      "name": "炉石"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "解除坐骑。",
+      "name": "解除坐骑"
+    },
+    "Stoneform|MuradinSecondWindActivateable|Trait": {
+      "cooldownText": "冷却时间：60秒",
+      "fullText": "穆拉丁在<c val=\"#TooltipNumbers\">4</c>秒内没有受到伤害后，每秒恢复<c val=\"#TooltipNumbers\">55</c><c val=\"#ColorGray\">~~0.04~~</c>点生命值。生命值低于<c val=\"#TooltipNumbers\">40%</c>时，效果提高至每秒<c val=\"#TooltipNumbers\">111</c><c val=\"#ColorGray\">~~0.04~~</c>点生命值。",
+      "name": "复苏之风",
+      "shortText": "未受到攻击时恢复生命值"
+    },
+    "TalentImposingPresence|GenericImposingPresenceTalent|Active": {
+      "cooldownText": "冷却时间：20秒",
+      "fullText": "激活后使附近英雄和召唤物的攻击速度降低<c val=\"#TooltipNumbers\">50%</c>，移动速度降低<c val=\"#TooltipNumbers\">20%</c>，持续<c val=\"#TooltipNumbers\">2.5</c>秒。<n/><n/><c val=\"#AbilityPassive\">被动：</c>攻击你的英雄和召唤物的攻击速度降低<c val=\"#TooltipNumbers\">20%</c>，持续<c val=\"#TooltipNumbers\">2.5</c>秒。",
+      "name": "盛气凌人",
+      "shortText": "激活后降低敌人的攻击速度和移动速度"
+    },
+    "TalentHardenedShield|HardenedShieldTalent|Active": {
+      "cooldownText": "冷却时间：60秒",
+      "fullText": "激活后获得<c val=\"#TooltipNumbers\">75</c>点护甲，使受到的伤害降低<c val=\"#TooltipNumbers\">75%</c>，持续<c val=\"#TooltipNumbers\">4</c>秒。",
+      "name": "刚毅护盾",
+      "shortText": "激活后获得大量护甲"
+    }
+  },
+  "talents": {
+    "MuradinDwarfBlock|MuradinDwarfBlock|E|Level1": {
+      "fullText": "施放矮人投掷将获得<c val=\"#TooltipNumbers\">3</c>层格挡。每一层格挡提供<c val=\"#TooltipNumbers\">75</c>点物理护甲来抵御下一次敌方英雄的普通攻击，使受到的伤害降低<c val=\"#TooltipNumbers\">75%</c>。",
+      "name": "矮人格挡",
+      "shortText": "矮人投掷给予物理护甲"
+    },
+    "MuradinCombatStyleThirdWind|MuradinSecondWindThirdWindTalent|Trait|Level1": {
+      "fullText": "生命恢复速度提高至每秒<c val=\"#TooltipNumbers\">90</c><c val=\"#ColorGray\">~~0.04~~</c>，生命值不足<c val=\"#TooltipNumbers\">60%</c>时恢复速度提高每秒<c val=\"#TooltipNumbers\">180</c><c val=\"#ColorGray\">~~0.04~~</c>。",
+      "name": "觉醒之风",
+      "shortText": "提高复苏之风的治疗效果"
+    },
+    "MuradinGiveEmTheAxeExecutioner60DamageBonus|MuradinGiveEmTheAxeTalent|Passive|Level1": {
+      "fullText": "攻击被减速、定身或昏迷的英雄使穆拉丁的普通攻击伤害提高<c val=\"#TooltipNumbers\">40%</c>，持续<c val=\"#TooltipNumbers\">3</c>秒。",
+      "name": "吃我一斧",
+      "shortText": "攻击被控制的英雄造成额外伤害"
+    },
+    "MuradinMasteryStormhammerSledgehammer|MuradinStormboltSledgehammerTalent|Q|Level4": {
+      "fullText": "风暴之锤对非英雄单位造成<c val=\"#TooltipNumbers\">500%</c>的伤害。风暴之锤的冷却时间缩短<c val=\"#TooltipNumbers\">1.5</c>秒。",
+      "name": "无情铁锤",
+      "shortText": "提高风暴之锤对非英雄单位的伤害，并缩短冷却时间"
+    },
+    "MuradinMasteryThunderclapReverberation|MuradinThunderclapReverberationTalent|W|Level4": {
+      "fullText": "使雷霆一击的攻速降低效果从<c val=\"#TooltipNumbers\">30%</c>提高到<c val=\"#TooltipNumbers\">50%</c>，并使持续时间从<c val=\"#TooltipNumbers\">2.5</c>秒提高到<c val=\"#TooltipNumbers\">3.5</c>秒。每击中一名敌方英雄可以使你的终极技能冷却时间减少<c val=\"#TooltipNumbers\">5%</c>。",
+      "name": "余波回荡",
+      "shortText": "强化雷霆一击和终极技能"
+    },
+    "MuradinMasteryThunderburn|MuradinThunderclapThunderburnTalent|W|Level4": {
+      "fullText": "雷霆一击击中一名敌方英雄后，可在<c val=\"#TooltipNumbers\">2</c>秒后于相同位置触发第二次爆炸，造成<c val=\"#TooltipNumbers\">72</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害。",
+      "name": "雷霆灼烧",
+      "shortText": "雷霆一击将会造成两次伤害"
+    },
+    "MuradinStormboltPerfectStorm|MuradinStormboltPerfectStormTalent|Q|Level7": {
+      "fullText": "如果一名敌人在被风暴之锤命中后的<c val=\"#TooltipNumbers\">3</c>秒内死亡，则会重置风暴之锤的冷却时间，并返还<c val=\"#TooltipNumbers\">25</c>点法力值。该冷却时间重置效果每<c val=\"#TooltipNumbers\">8.5</c>秒只能触发一次。",
+      "name": "完美风暴",
+      "shortText": "使用风暴之锤击杀敌人可以重置其冷却时间"
+    },
+    "MuradinMasteryDwarfTossHeavyImpact|MuradinDwarfTossHeavyImpactTalent|E|Level7": {
+      "fullText": "被矮人投掷击中的敌人被减速<c val=\"#TooltipNumbers\">80%</c>，持续<c val=\"#TooltipNumbers\">1.5</c>秒。",
+      "name": "猛烈撞击",
+      "shortText": "矮人投掷使敌人减速"
+    },
+    "MuradinCombatStyleSkullcracker|MuradinSecondWindSkullcrackerTalent|Passive|Level7": {
+      "fullText": "对同一个敌人的每第<c val=\"#TooltipNumbers\">3</c>次普通攻击造成<c val=\"#TooltipNumbers\">90% </c>的额外伤害，并使其昏迷<c val=\"#TooltipNumbers\">0.25</c>秒。",
+      "name": "碎颅者",
+      "shortText": "对同一目标进行连续普通攻击会使其昏迷，并造成更多伤害"
+    },
+    "MuradinHeroicAbilityAvatar|MuradinAvatar|Heroic|Level10": {
+      "cooldownText": "冷却时间：90秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：80</s>",
+      "fullText": "变身，持续<c val=\"#TooltipNumbers\">20</c>秒，获得<c val=\"#TooltipNumbers\">1000</c><c val=\"#ColorGray\">~~0.04~~</c>点生命值。",
+      "name": "天神下凡",
+      "shortText": "暂时提高生命值"
+    },
+    "MuradinHeroicAbilityHaymaker|MuradinHaymaker|Heroic|Level10": {
+      "cooldownText": "冷却时间：40秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：60</s>",
+      "fullText": "击晕目标敌方英雄并挥拳造成<c val=\"#TooltipNumbers\">319</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害并将目标击退，击退过程中打到的敌人将受到<c val=\"#TooltipNumbers\">319</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害且被击退一小段距离。",
+      "name": "野蛮斗殴",
+      "shortText": "击晕并击退一个敌人"
+    },
+    "MuradinBronzebeardRage|MuradinBronzebeardRage|Q|Level13": {
+      "fullText": "对附近的敌人每秒造成<c val=\"#TooltipNumbers\">15</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害，并恢复相当于该伤害<c val=\"#TooltipNumbers\">75%</c>的生命值。使用风暴之锤命中一名敌方英雄会使该伤害提高<c val=\"#TooltipNumbers\">200%</c>，持续<c val=\"#TooltipNumbers\">3</c>秒。",
+      "name": "铜须之怒",
+      "shortText": "对附近敌人造成伤害"
+    },
+    "MuradinMasteryThunderclapHealingStatic|MuradinThunderclapHealingStaticTalent|W|Level13": {
+      "fullText": "雷霆一击每击中一个英雄为穆拉丁恢复<c val=\"#TooltipNumbers\">6%</c>的最大生命值。",
+      "name": "静电恢复",
+      "shortText": "雷霆一击治疗穆拉丁"
+    },
+    "MuradinMasteryThunderclapThunderstrike|MuradinThunderclapThunderstrikeTalent|W|Level13": {
+      "fullText": "雷霆一击如果只命中一个目标，则造成<c val=\"#TooltipNumbers\">200%</c>的额外伤害。<n/><n/><c val=\"#AbilityPassive\">被动：</c>矮人投掷的护甲持续时间延长<c val=\"#TooltipNumbers\">2</c>秒。",
+      "name": "雷霆打击",
+      "shortText": "提高雷霆一击对单个敌人的伤害"
+    },
+    "MuradinMasteryDwarfTossDwarfLaunch|MuradinDwarfTossDwarfLaunchTalent|E|Level16": {
+      "fullText": "矮人投掷的范围扩大<c val=\"#TooltipNumbers\">30%</c>。用矮人投掷击中一名敌方英雄可使冷却时间缩短<c val=\"#TooltipNumbers\">1</c>秒。",
+      "name": "矮人飞射",
+      "shortText": "矮人投掷的范围扩大"
+    },
+    "MuradinMasteryPassiveStoneform|MuradinSecondWindStoneformTalent|Trait|Level16": {
+      "cooldownText": "冷却时间：60秒",
+      "fullText": "激活后在<c val=\"#TooltipNumbers\">10</c>秒内为穆拉丁恢复<c val=\"#TooltipNumbers\">30%</c>的最大生命值。在此期间，复苏之风不会生效。",
+      "name": "石像形态",
+      "shortText": "激活后持续恢复生命值"
+    },
+    "GenericTalentImposingPresence|GenericImposingPresenceTalent|Active|Level16": {
+      "cooldownText": "冷却时间：20秒",
+      "fullText": "激活后使附近英雄和召唤物的攻击速度降低<c val=\"#TooltipNumbers\">50%</c>，移动速度降低<c val=\"#TooltipNumbers\">20%</c>，持续<c val=\"#TooltipNumbers\">2.5</c>秒。<n/><n/><c val=\"#AbilityPassive\">被动：</c>攻击你的英雄和召唤物的攻击速度降低<c val=\"#TooltipNumbers\">20%</c>，持续<c val=\"#TooltipNumbers\">2.5</c>秒。",
+      "name": "盛气凌人",
+      "shortText": "激活后降低敌人的攻击速度和移动速度"
+    },
+    "MuradinMasteryAvatarUnstoppableForce|MuradinAvatarUnstoppableForceTalent|Heroic|Level20": {
+      "fullText": "天神下凡激活时，会提供<c val=\"#TooltipNumbers\">20</c>点护甲，而且使穆拉丁的普通攻击可以让雷霆一击和矮人投掷的冷却时间降低<c val=\"#TooltipNumbers\">0.75</c>秒。",
+      "name": "无坚不摧之力",
+      "shortText": "天神下凡提供额外加成"
+    },
+    "MuradinMasteryHaymakerGrandSlam|MuradinHaymakerGrandSlamTalent|Heroic|Level20": {
+      "fullText": "野蛮斗殴的伤害提高<c val=\"#TooltipNumbers\">25%</c>，并获得额外一次使用次数。如果一名英雄在被野蛮斗殴击中后的<c val=\"#TooltipNumbers\">3</c>秒内死亡，则立刻获得<c val=\"#TooltipNumbers\">1</c>次使用次数。",
+      "name": "裂地震击",
+      "shortText": "提高野蛮斗殴的伤害，获得更多使用次数"
+    },
+    "MuradinExtraCharges|MuradinExtraCharges|Passive|Level20": {
+      "fullText": "雷霆一击与矮人投掷额外获得<c val=\"#TooltipNumbers\">第二次</c>使用次数。",
+      "name": "山丘之王",
+      "shortText": "雷霆一击与矮人投掷获得一次使用次数。"
+    },
+    "GenericTalentHardenedShield|HardenedShieldTalent|Active|Level20": {
+      "cooldownText": "冷却时间：60秒",
+      "fullText": "激活后获得<c val=\"#TooltipNumbers\">75</c>点护甲，使受到的伤害降低<c val=\"#TooltipNumbers\">75%</c>，持续<c val=\"#TooltipNumbers\">4</c>秒。",
+      "name": "刚毅护盾",
+      "shortText": "激活后获得大量护甲"
+    }
+  },
+  "units": {}
+}

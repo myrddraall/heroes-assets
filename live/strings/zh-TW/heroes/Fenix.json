@@ -1,0 +1,195 @@
+{
+  "abilities": {
+    "FenixPlasmaCutter|FenixPlasmaCutter|Q": {
+      "cooldownText": "冷卻時間：12秒",
+      "fullText": "朝目標地點發射雷射光束，雷射光束會環繞菲尼克斯兩次，對敵人造成<c val=\"#TooltipNumbers\">135</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，並且使其緩速<c val=\"#TooltipNumbers\">25%</c>，持續<c val=\"#TooltipNumbers\">4</c>秒。",
+      "name": "電漿雷射",
+      "shortText": "發射會環繞菲尼克斯的雷射，對敵人造成傷害和緩速效果"
+    },
+    "FenixPhaseBomb|FenixPhaseBomb|W": {
+      "fullText": "基本攻擊速度提高<c val=\"#TooltipNumbers\">150%</c>。<n/><n/>啟動此技能可切換為<c val=\"#AbilityPassive\">武器模式：相位光彈</c>，提高基本攻擊的距離和傷害，並且會造成擴散傷害。",
+      "name": "武器模式：極速光砲",
+      "shortText": "提高基本攻擊速度"
+    },
+    "FenixWarp|FenixWarp|E": {
+      "cooldownText": "冷卻時間：17秒",
+      "fullText": "躍傳至指定地點，在<c val=\"#TooltipNumbers\">0.5</c>秒後進行躍傳，並且在<c val=\"#TooltipNumbers\">0.75</c>秒後抵達地點。",
+      "name": "躍傳",
+      "shortText": "躍傳至指定地點"
+    },
+    "FenixPlanetCracker|FenixPlanetCracker|Heroic": {
+      "cooldownText": "冷卻時間：100秒",
+      "fullText": "延遲<c val=\"#TooltipNumbers\">0.5</c>秒後，引導一道橫越戰場的強力光束，持續<c val=\"#TooltipNumbers\">4</c>秒，每<c val=\"#TooltipNumbers\">0.25</c>秒對非建築敵方目標造成<c val=\"#TooltipNumbers\">112</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。",
+      "name": "行星粉碎器",
+      "shortText": "發射一道橫越戰場的雷射光束"
+    },
+    "FenixPurificationSalvo|FenixPurificationSalvo|Heroic": {
+      "cooldownText": "冷卻時間：90秒",
+      "fullText": "引導<c val=\"#TooltipNumbers\">1.5</c>秒，以雷射掃描鎖定菲尼克斯前方的敵方英雄。引導結束後，對每個鎖定的英雄發射<c val=\"#TooltipNumbers\">5</c>發光彈，每發造成<c val=\"#TooltipNumbers\">79</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。對被緩速的目標可額外造成<c val=\"#TooltipNumbers\">50%</c>傷害。",
+      "name": "淨化彈幕",
+      "shortText": "發射追蹤光彈彈幕"
+    },
+    ":PASSIVE:|FenixShieldCapacitor|Trait": {
+      "fullText": "菲尼克斯擁有<c val=\"#TooltipNumbers\">760</c><c val=\"#ColorGray\">~~0.04~~</c>點可永久持續的護盾值，只要在<c val=\"#TooltipNumbers\">5</c>秒內未受到傷害，每秒會恢復<c val=\"#TooltipNumbers\">10%</c>護盾值。",
+      "name": "護盾充能器",
+      "shortText": "可永久持續的護盾值，脫離戰鬥後可恢復護盾值"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "冷卻時間：4秒",
+      "fullText": "引導<c val=\"#TooltipNumbers\">1</c>秒後，提高<s val=\"StandardTooltipDetails\">30%</s>移動速度。",
+      "name": "召喚坐騎"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "引導<c val=\"#TooltipNumbers\">6</c>秒後傳送回風暴祭壇，立即恢復<c val=\"#TooltipNumbers\">1125</c>點生命值和<c val=\"#TooltipNumbers\">150</c>點法力值。",
+      "name": "爐石"
+    },
+    "FenixRepeaterCannon|FenixRepeaterCannon|W": {
+      "fullText": "基本攻擊距離提高<c val=\"#TooltipNumbers\">1.25</c>格，造成的傷害提高<c val=\"#TooltipNumbers\">25%</c>，並且會對附近敵人造成擴散傷害。<n/><n/>啟動此技能可切換為<c val=\"#AbilityPassive\">武器模式：極速光砲</c>，提高基本攻擊速度。",
+      "name": "武器模式：相位光彈",
+      "shortText": "基本攻擊會造成擴散傷害，並且提高距離和傷害"
+    },
+    "FenixPlanetCrackerCancel|FenixPlanetCrackerCancel|Heroic": {
+      "cooldownText": "冷卻時間：1秒",
+      "fullText": "取消行星粉碎器",
+      "name": "行星粉碎器取消"
+    },
+    "FenixShieldCapacitorVisual|FenixShieldCapacitor|Trait": {
+      "cooldownText": "冷卻時間：5秒",
+      "fullText": "菲尼克斯擁有<c val=\"#TooltipNumbers\">760</c><c val=\"#ColorGray\">~~0.04~~</c>點可永久持續的護盾值，只要在<c val=\"#TooltipNumbers\">5</c>秒內未受到傷害，每秒會恢復<c val=\"#TooltipNumbers\">10%</c>護盾值。",
+      "name": "護盾充能器",
+      "shortText": "可永久持續的護盾值，脫離戰鬥後可恢復護盾值"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "離開坐騎。",
+      "name": "離開坐騎"
+    },
+    "FenixDivertPowerWeapons|FenixDivertPowerWeapons|Active": {
+      "cooldownText": "冷卻時間：40秒",
+      "fullText": "啟動後可獲得<c val=\"#TooltipNumbers\">40%</c>基本攻擊傷害，持續<c val=\"#TooltipNumbers\">5</c>秒。以基本攻擊命中英雄可重置效果持續時間。能量轉移：強化武器結束後，會消耗護盾充能器的所有護盾值。",
+      "name": "能量轉移：強化武器",
+      "shortText": "啟動後可提高攻擊傷害，但是會失去護盾值"
+    },
+    "FenixUnconqueredSpirit|FenixUnconqueredSpirit|Passive": {
+      "cooldownText": "冷卻時間：120秒",
+      "fullText": "受到致命傷害時，護盾充能器會恢復<c val=\"#TooltipNumbers\">800</c><c val=\"#ColorGray\">~~0.04~~</c>點護盾值。此效果的冷卻時間為<c val=\"#TooltipNumbers\">120</c>秒。",
+      "name": "不屈戰魂",
+      "shortText": "受到致命傷害會恢復護盾充能器"
+    }
+  },
+  "talents": {
+    "FenixAdvancedTargeting|FenixAdvancedTargeting|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任務：</c>電漿雷射擊中敵方英雄可使菲尼克斯的基本攻擊傷害永久提高<c val=\"#TooltipNumbers\">0.5</c>點，最多可提高<c val=\"#TooltipNumbers\">60</c>點。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">獎勵：</c>擊中<c val=\"#TooltipNumbers\">30</c>名英雄後，電漿雷射會額外環繞一次。",
+      "name": "進階鎖定",
+      "shortText": "<c val=\"#TooltipQuest\">任務：</c>電漿雷射會額外環繞一次"
+    },
+    "FenixArsenalSynergy|FenixArsenalSynergy|W|Level1": {
+      "fullText": "在極速光砲模式下，以基本攻擊命中敵方英雄<c val=\"#TooltipNumbers\">3</c>次後，下一發相位光彈的基本攻擊會額外造成<c val=\"#TooltipNumbers\">150%</c>傷害，並且擴散範圍提高<c val=\"#TooltipNumbers\">50%</c>。",
+      "name": "火力協同",
+      "shortText": "極速光砲可強化相位光彈"
+    },
+    "FenixMobileOffense|FenixMobileOffense|W|Level1": {
+      "fullText": "在移動後，菲尼克斯的下一次基本攻擊會對英雄額外造成<c val=\"#TooltipNumbers\">35%</c>傷害。",
+      "name": "機動攻擊",
+      "shortText": "移動會強化基本攻擊"
+    },
+    "FenixTargetAcquired|FenixTargetAcquired|W|Level4": {
+      "fullText": "在極速光砲模式下，對被緩速的英雄進行基本攻擊會提高<c val=\"#TooltipNumbers\">10%</c>移動速度，持續<c val=\"#TooltipNumbers\">4</c>秒，最多可提高<c val=\"#TooltipNumbers\">40%</c>。",
+      "name": "鎖定目標",
+      "shortText": "極速光砲可賦予移動速度"
+    },
+    "FenixInhibitingEnergy|FenixInhibitingEnergy|W|Level4": {
+      "fullText": "每<c val=\"#TooltipNumbers\">10</c>秒，菲尼克斯以相位光彈進行的下一次基本攻擊，會使命中的所有敵人緩速<c val=\"#TooltipNumbers\">60%</c>，效果在<c val=\"#TooltipNumbers\">1.5</c>秒內逐漸消退。",
+      "name": "能量抑制",
+      "shortText": "相位光彈可對敵人造成緩速"
+    },
+    "FenixEmergencyProtocol|FenixEmergencyProtocol|Trait|Level4": {
+      "fullText": "菲尼克斯從護盾充能器得到護盾時，獲得<c val=\"#TooltipNumbers\">10%</c>移動速度。菲尼克斯失去護盾充能器的護盾時，此移動速度加成提高至<c val=\"#TooltipNumbers\">15%</c>。",
+      "name": "緊急程序",
+      "shortText": "獲得移動速度，護盾耗盡時額外提高"
+    },
+    "FenixCombatAdvantage|FenixCombatAdvantage|Q|Level7": {
+      "fullText": "電漿雷射會對被緩速的目標額外造成<c val=\"#TooltipNumbers\">35%</c>傷害。",
+      "name": "戰鬥優勢",
+      "shortText": "電漿雷射會對被緩速的目標造成額外傷害"
+    },
+    "FenixWarpWarfare|FenixWarpWarfare|E|Level7": {
+      "fullText": "在極速光砲模式下，躍傳結束後會獲得<c val=\"#TooltipNumbers\">175%</c>攻擊速度，持續<c val=\"#TooltipNumbers\">4</c>秒。參與擊殺會重置躍傳的冷卻時間。",
+      "name": "躍傳突擊",
+      "shortText": "躍傳會賦予攻擊速度"
+    },
+    "FenixDivertPowerWeaponsTalent|FenixDivertPowerWeapons|Active|Level7": {
+      "cooldownText": "冷卻時間：40秒",
+      "fullText": "啟動後可獲得<c val=\"#TooltipNumbers\">40%</c>基本攻擊傷害，持續<c val=\"#TooltipNumbers\">5</c>秒。以基本攻擊命中英雄可重置效果持續時間。能量轉移：強化武器結束後，會消耗護盾充能器的所有護盾值。",
+      "name": "能量轉移：強化武器",
+      "shortText": "啟動後可提高攻擊傷害，但是會失去護盾值"
+    },
+    "FenixHeroicAbilityPurificationSalvo|FenixPurificationSalvo|Heroic|Level10": {
+      "cooldownText": "冷卻時間：90秒",
+      "fullText": "引導<c val=\"#TooltipNumbers\">1.5</c>秒，以雷射掃描鎖定菲尼克斯前方的敵方英雄。引導結束後，對每個鎖定的英雄發射<c val=\"#TooltipNumbers\">5</c>發光彈，每發造成<c val=\"#TooltipNumbers\">79</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。對被緩速的目標可額外造成<c val=\"#TooltipNumbers\">50%</c>傷害。",
+      "name": "淨化彈幕",
+      "shortText": "發射追蹤光彈彈幕"
+    },
+    "FenixHeroicAbilityPlanetCracker|FenixPlanetCracker|Heroic|Level10": {
+      "cooldownText": "冷卻時間：100秒",
+      "fullText": "延遲<c val=\"#TooltipNumbers\">0.5</c>秒後，引導一道橫越戰場的強力光束，持續<c val=\"#TooltipNumbers\">4</c>秒，每<c val=\"#TooltipNumbers\">0.25</c>秒對非建築敵方目標造成<c val=\"#TooltipNumbers\">112</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。",
+      "name": "行星粉碎器",
+      "shortText": "發射一道橫越戰場的雷射光束"
+    },
+    "FenixAdaniumShell|FenixAdaniumShell|E|Level13": {
+      "fullText": "躍傳結束後，獲得<c val=\"#TooltipNumbers\">50</c>點護甲，持續<c val=\"#TooltipNumbers\">4</c>秒。",
+      "name": "亞丹尼姆外殼",
+      "shortText": "躍傳會賦予護甲"
+    },
+    "FenixDampeningField|FenixDampeningField|Trait|Level13": {
+      "fullText": "菲尼克斯的護盾充能器有護盾值時，獲得<c val=\"#TooltipNumbers\">30</c>點法術護甲。",
+      "name": "緩衝力場",
+      "shortText": "護盾充能器會賦予法術護甲"
+    },
+    "FenixRapidRecharge|FenixRapidRecharge|Trait|Level13": {
+      "fullText": "護盾充能器從受到傷害到開始產生護盾的時間降低<c val=\"#TooltipNumbers\">2</c>秒，每當菲尼克斯獲得治療，護盾充能器也會恢復相當於治療量<c val=\"#TooltipNumbers\">60%</c>的護盾值。",
+      "name": "快速充能",
+      "shortText": "獲得治療會恢復護盾值"
+    },
+    "FenixAuxiliaryShields|FenixAuxiliaryShields|Trait|Level13": {
+      "fullText": "菲尼克斯的最大生命值永久降低<c val=\"#TooltipNumbers\">30%</c>，但護盾充能器的護盾值提高<c val=\"#TooltipNumbers\">40%</c>。基本攻擊可恢復相當於傷害值<c val=\"#TooltipNumbers\">10%</c>的護盾值。",
+      "name": "戰備護盾",
+      "shortText": "提高護盾值但降低生命值"
+    },
+    "FenixOffensiveCadence|FenixOffensiveCadence|W|Level16": {
+      "fullText": "在極速光砲模式下，對英雄每造成<c val=\"#TooltipNumbers\">3次</c>基本攻擊，可對目標額外造成其最大生命值<c val=\"#TooltipNumbers\">6%</c>的傷害。",
+      "name": "攻擊節奏",
+      "shortText": "極速光砲連續攻擊可造成額外傷害"
+    },
+    "FenixPhotonicWeaponry|FenixPhotonicWeaponry|Trait|Level16": {
+      "fullText": "菲尼克斯的護盾充能器有護盾值時，造成的傷害提高<c val=\"#TooltipNumbers\">20%</c>。",
+      "name": "光子武裝",
+      "shortText": "護盾充能器可提高傷害"
+    },
+    "FenixArsenalOvercharge|FenixArsenalOvercharge|Passive|Level16": {
+      "fullText": "極速光砲的基本攻擊會使技能冷卻時間降低<c val=\"#TooltipNumbers\">0.5</c>秒。啟用相位光彈的基本攻擊，每命中一名英雄會使技能冷卻時間降低<c val=\"#TooltipNumbers\">0.5</c>秒。",
+      "name": "武裝超載",
+      "shortText": "基本攻擊會降低技能冷卻時間"
+    },
+    "FenixArmageddonBeam|FenixArmageddonBeam|Heroic|Level20": {
+      "fullText": "行星粉碎器的寬度在<c val=\"#TooltipNumbers\">1.5</c>秒內提高<c val=\"#TooltipNumbers\">100%</c>。<n/><n/><c val=\"#AbilityPassive\">被動：</c>行星粉碎器的冷卻時間降低<c val=\"#TooltipNumbers\">40</c>秒。",
+      "name": "末日光束",
+      "shortText": "提高行星粉碎器的寬度，降低冷卻時間"
+    },
+    "FenixSecondaryFire|FenixSecondaryFire|Q|Level20": {
+      "fullText": "電漿雷射擊中英雄後，會在<c val=\"#TooltipNumbers\">0.5</c>秒後對擊中的英雄發射一發淨化彈幕的光彈，造成<c val=\"#TooltipNumbers\">79</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。對被緩速的目標造成的傷害提高<c val=\"#TooltipNumbers\">50%</c>。",
+      "name": "輔助火力",
+      "shortText": "電漿雷射可發射淨化彈幕的光彈"
+    },
+    "FenixSingularityCharge|FenixSingularityCharge|W|Level20": {
+      "fullText": "極速光砲賦予的攻擊速度提高<c val=\"#TooltipNumbers\">100%</c>，相位光彈賦予的攻擊距離提高<c val=\"#TooltipNumbers\">1.25</c>格。",
+      "name": "強力充能",
+      "shortText": "提高武器模式的加成效果"
+    },
+    "FenixUnconqueredSpirit|FenixUnconqueredSpirit|Passive|Level20": {
+      "fullText": "受到致命傷害時，護盾充能器會恢復<c val=\"#TooltipNumbers\">800</c><c val=\"#ColorGray\">~~0.04~~</c>點護盾值。此效果的冷卻時間為<c val=\"#TooltipNumbers\">120</c>秒。",
+      "name": "不屈戰魂",
+      "shortText": "受到致命傷害會恢復護盾充能器"
+    }
+  },
+  "units": {}
+}

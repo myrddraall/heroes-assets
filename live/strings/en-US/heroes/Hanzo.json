@@ -1,0 +1,181 @@
+{
+  "abilities": {
+    "HanzoStormBowFireTargetPoint|HanzoStormBow|Q": {
+      "cooldownText": "Cooldown: 4 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 20</s>",
+      "fullText": "Activate to charge an arrow that deals <c val=\"#TooltipNumbers\">291</c><c val=\"#ColorGray\">~~0.04~~</c> damage to the first enemy hit. Storm Bow's range increases the longer it is Channeled.",
+      "name": "Storm Bow",
+      "shortText": "Charge up to fire a deadly arrow"
+    },
+    "HanzoScatterArrow|HanzoScatterArrow|W": {
+      "cooldownText": "Cooldown: 8 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Fire an arrow that deals <c val=\"#TooltipNumbers\">88</c><c val=\"#ColorGray\">~~0.04~~</c> to the first enemy Hero hit. Scatter Arrow can collide with terrain and Structures, splitting into <c val=\"#TooltipNumbers\">5</c> arrows that travel extra distance, ricochet up to <c val=\"#TooltipNumbers\">4</c> additional times, and deal <c val=\"#TooltipNumbers\">88</c><c val=\"#ColorGray\">~~0.04~~</c> damage each to the first enemy hit.",
+      "name": "Scatter Arrow",
+      "shortText": "Fire an arrow that ricochets and splits"
+    },
+    "HanzoSonicArrow|HanzoSonicArrow|E": {
+      "cooldownText": "Cooldown: 20 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Fire an arrow that grants vision in a large area for <c val=\"#TooltipNumbers\">5</c> seconds. Enemies inside are revealed for <c val=\"#TooltipNumbers\">1</c> second. If Sonic Arrow lands directly on an enemy, it deals <c val=\"#TooltipNumbers\">165</c><c val=\"#ColorGray\">~~0.04~~</c> damage to them and follows them as they move.",
+      "name": "Sonic Arrow",
+      "shortText": "Reveal a large area"
+    },
+    "HanzoDragonstrike|HanzoDragonstrike|Heroic": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "After <c val=\"#TooltipNumbers\">1.5</c> seconds, summon a pair of Spirit Dragons which travel forward, dealing <c val=\"#TooltipNumbers\">84</c><c val=\"#ColorGray\">~~0.04~~</c> damage every <c val=\"#TooltipNumbers\">0.25</c> seconds to enemy Heroes in its area. Enemies in the center take <c val=\"#TooltipNumbers\">75%</c> increased damage.",
+      "name": "Dragonstrike",
+      "shortText": "Summon a pair of Spirit Dragons to damage enemies"
+    },
+    "HanzoDragonsArrow|HanzoDragonsArrow|Heroic": {
+      "cooldownText": "Cooldown: 70 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 90</s>",
+      "fullText": "Fire a missile that travels across the battleground. Explodes upon hitting an enemy Hero, dealing <c val=\"#TooltipNumbers\">130</c><c val=\"#ColorGray\">~~0.04~~</c> damage to all nearby enemies and Stunning them for <c val=\"#TooltipNumbers\">0.5</c> seconds.<n/><n/>After traveling a medium distance, the damage is increased to <c val=\"#TooltipNumbers\">260</c><c val=\"#ColorGray\">~~0.04~~</c> and the Stun duration to <c val=\"#TooltipNumbers\">1.25</c> seconds.<n/><n/>After traveling a long distance, the damage is increased to <c val=\"#TooltipNumbers\">390</c><c val=\"#ColorGray\">~~0.04~~</c> and the Stun duration to <c val=\"#TooltipNumbers\">2</c> seconds.",
+      "name": "Dragon's Arrow",
+      "shortText": "Fire a global arrow that Stuns, damages"
+    },
+    "HanzoNaturalAgilityButton|HanzoNaturalAgility|Trait": {
+      "cooldownText": "Cooldown: 25 seconds",
+      "fullText": "Jump over unpathable terrain or Structures, up to a maximum range.",
+      "name": "Natural Agility",
+      "shortText": "Jump over terrain"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Cooldown: 4 seconds",
+      "fullText": "After Channeling for <c val=\"#TooltipNumbers\">1</c> second, gain <s val=\"StandardTooltipDetails\">30%</s> Movement Speed.",
+      "name": "Summon Mount"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "After Channeling for <c val=\"#TooltipNumbers\">6</c> seconds, teleport back to the Hall of Storms, instantly restoring <c val=\"#TooltipNumbers\">1125</c> Health and <c val=\"#TooltipNumbers\">150</c> Mana.",
+      "name": "Hearthstone"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Dismounts you.",
+      "name": "Unsummon Mount"
+    },
+    "HanzoPOTG|HanzoPOTGActivate|Heroic": {
+      "fullText": "Activate to teleport to Hanzo's Dragon's Arrow.",
+      "name": "Play of the Game"
+    }
+  },
+  "talents": {
+    "HanzoTargetPractice|HanzoTargetPractice|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Hit every enemy Hero with Storm Bow.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Reward:</c> After hitting every enemy Hero once with Storm Bow, its range is increased by <c val=\"#TooltipNumbers\">30%</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Reward:</c> After hitting every enemy Hero <c val=\"#TooltipNumbers\">3</c> times with Storm Bow, its damage is increased by <c val=\"#TooltipNumbers\">100</c>.",
+      "name": "Target Practice",
+      "shortText": "<c val=\"#TooltipQuest\">Quest:</c> Hit all enemy Heroes to empower Storm Bow"
+    },
+    "HanzoSimpleGeometry|HanzoSimpleGeometry|W|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Hit a Hero with multiple arrows from the same Scatter Arrow cast <c val=\"#TooltipNumbers\">20</c> times. Each arrow hit after the second grants additional progress.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Reward:</c> Upon hitting terrain for the first time, Scatter Arrow creates <c val=\"#TooltipNumbers\">2</c> additional arrows.",
+      "name": "Simple Geometry",
+      "shortText": "<c val=\"#TooltipQuest\">Quest:</c> Gain additional Scatter Arrows"
+    },
+    "HanzoRedemption|HanzoRedemption|Passive|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Every <c val=\"#TooltipNumbers\">2</c> Basic Attacks against the same Hero within <c val=\"#TooltipNumbers\">10</c> seconds grants <c val=\"#TooltipNumbers\">1</c> Redemption, stacking up to <c val=\"#TooltipNumbers\">12</c>. Dying decreases Redemption by <c val=\"#TooltipNumbers\">3</c>, and Redemption can be lost even at maximum stacks.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Reward:</c> At <c val=\"#TooltipNumbers\">12</c> Redemption, gain <c val=\"#TooltipNumbers\">50%</c> Attack Speed.",
+      "name": "Redemption",
+      "shortText": "<c val=\"#TooltipQuest\">Quest:</c> Hit Heroes to gain Attack Speed"
+    },
+    "HanzoExplosiveArrows|HanzoExplosiveArrows|Q|Level4": {
+      "fullText": "Upon hitting a Minion or Monster, Storm Bow deals <c val=\"#TooltipNumbers\">60%</c> of its damage to enemies around its target.",
+      "name": "Explosive Arrows",
+      "shortText": "Storm Bow arrows explode on Minions, Monsters"
+    },
+    "HanzoSerratedArrows|HanzoSerratedArrows|W|Level4": {
+      "fullText": "Scatter Arrow deals <c val=\"#TooltipNumbers\">100%</c> more damage to Minions, Mercenaries, and Monsters.",
+      "name": "Serrated Arrows",
+      "shortText": "Scatter Arrow deals more damage to non-Heroes"
+    },
+    "HanzoIgnoreAllDistractions|HanzoIgnoreAllDistractions|Passive|Level4": {
+      "fullText": "Basic Attacks instantly kill Minions and increase Hanzo's Basic Attack range by <c val=\"#TooltipNumbers\">2</c> for <c val=\"#TooltipNumbers\">3</c> seconds.",
+      "name": "Ignore All Distractions",
+      "shortText": "Basic Attacks instantly kill Minions, increase range"
+    },
+    "HanzoTheDragonHungers|HanzoTheDragonHungers|Q|Level7": {
+      "fullText": "Hitting a Hero with Storm Bow grants <c val=\"#TooltipNumbers\">5%</c> Spell Power for <c val=\"#TooltipNumbers\">12</c> seconds, stacking up to <c val=\"#TooltipNumbers\">20%</c>.",
+      "name": "The Dragon Hungers",
+      "shortText": "Storm Bow grants Spell Power"
+    },
+    "HanzoNeverOutmatched|HanzoNeverOutmatched|W|Level7": {
+      "fullText": "Reduce Scatter Arrow's Mana cost from <c val=\"#TooltipNumbers\">50</c> to <c val=\"#TooltipNumbers\">30</c>. Basic Attacks against Heroes lower the cooldown of Scatter Arrow by <c val=\"#TooltipNumbers\">3</c> seconds.",
+      "name": "Never Outmatched",
+      "shortText": "Basic Attacks reduce Scatter Arrow cooldown"
+    },
+    "HanzoSharpenedArrowheads|HanzoSharpenedArrowheads|Passive|Level7": {
+      "fullText": "Hitting a Hero with Storm Bow or Basic Attacks reduces their Armor by <c val=\"#TooltipNumbers\">3</c> for <c val=\"#TooltipNumbers\">3</c> seconds, up to a maximum reduction of <c val=\"#TooltipNumbers\">20</c> Armor.",
+      "name": "Sharpened Arrowheads",
+      "shortText": "Basic Attacks, Storm Bow reduce Armor"
+    },
+    "HanzoDragonstrike|HanzoDragonstrike|Heroic|Level10": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "After <c val=\"#TooltipNumbers\">1.5</c> seconds, summon a pair of Spirit Dragons which travel forward, dealing <c val=\"#TooltipNumbers\">84</c><c val=\"#ColorGray\">~~0.04~~</c> damage every <c val=\"#TooltipNumbers\">0.25</c> seconds to enemy Heroes in its area. Enemies in the center take <c val=\"#TooltipNumbers\">75%</c> increased damage.",
+      "name": "Dragonstrike",
+      "shortText": "Summon a pair of Spirit Dragons to damage enemies"
+    },
+    "HanzoDragonsArrow|HanzoDragonsArrow|Heroic|Level10": {
+      "cooldownText": "Cooldown: 70 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 90</s>",
+      "fullText": "Fire a missile that travels across the battleground. Explodes upon hitting an enemy Hero, dealing <c val=\"#TooltipNumbers\">130</c><c val=\"#ColorGray\">~~0.04~~</c> damage to all nearby enemies and Stunning them for <c val=\"#TooltipNumbers\">0.5</c> seconds.<n/><n/>After traveling a medium distance, the damage is increased to <c val=\"#TooltipNumbers\">260</c><c val=\"#ColorGray\">~~0.04~~</c> and the Stun duration to <c val=\"#TooltipNumbers\">1.25</c> seconds.<n/><n/>After traveling a long distance, the damage is increased to <c val=\"#TooltipNumbers\">390</c><c val=\"#ColorGray\">~~0.04~~</c> and the Stun duration to <c val=\"#TooltipNumbers\">2</c> seconds.",
+      "name": "Dragon's Arrow",
+      "shortText": "Fire a global arrow that Stuns, damages"
+    },
+    "HanzoFleetofFoot|HanzoFleetofFoot|Q|Level13": {
+      "fullText": "Hitting a Hero with Storm Bow grants <c val=\"#TooltipNumbers\">10%</c> Movement Speed for <c val=\"#TooltipNumbers\">6</c> seconds, up to <c val=\"#TooltipNumbers\">30%</c>.",
+      "name": "Fleet of Foot",
+      "shortText": "Storm Bow grants Move Speed"
+    },
+    "HanzoNinjaAssassin|HanzoNinjaAssassin|Trait|Level13": {
+      "fullText": "Hitting Heroes with Storm Bow lowers Natural Agility's cooldown by <c val=\"#TooltipNumbers\">10</c> seconds. Additionally, Hero Takedowns reset Natural Agility's cooldown.",
+      "name": "Ninja Assassin",
+      "shortText": "Storm Bow lowers Natural Agility cooldown"
+    },
+    "HanzoMountedArchery|HanzoMountedArchery|Passive|Level13": {
+      "fullText": "Reduce the cooldown of Summon Mount by <c val=\"#TooltipNumbers\">2</c> seconds. Upon mounting, gain <c val=\"#TooltipNumbers\">25%</c> additional Movement Speed for <c val=\"#TooltipNumbers\">5</c> seconds. Using Natural Agility instantly mounts.",
+      "name": "Mounted Archery",
+      "shortText": "Increase Mount Speed, Natural Agility mounts"
+    },
+    "HanzoFlawlessTechnique|HanzoFlawlessTechnique|Passive|Level16": {
+      "fullText": "Hitting Heroes with Storm Bow increases the damage of Hanzo's next Basic Attack within <c val=\"#TooltipNumbers\">5</c> seconds by <c val=\"#TooltipNumbers\">40%</c>. Basic Attacks against Heroes increase the damage of Hanzo's next Storm Bow within <c val=\"#TooltipNumbers\">5</c> seconds by <c val=\"#TooltipNumbers\">40%</c>.",
+      "name": "Flawless Technique",
+      "shortText": "Storm Bow, Basic Attacks empower each other"
+    },
+    "HanzoPiercingArrows|HanzoPiercingArrows|Passive|Level16": {
+      "fullText": "Storm Bow and Scatter Arrow pierce, hitting an additional enemy. Additionally, Scatter Arrow can pierce through <c val=\"#TooltipNumbers\">1</c> enemy each time it ricochets.",
+      "name": "Piercing Arrows",
+      "shortText": "Storm Bow, Scatter Arrow pierce"
+    },
+    "HanzoGiantSlayer|HanzoGiantSlayer|Passive|Level16": {
+      "fullText": "Enemy Heroes hit by Scatter Arrow and Basic Attacks take a bonus <c val=\"#TooltipNumbers\">1.6%</c> of their maximum Health as damage.",
+      "name": "Giant Slayer",
+      "shortText": "Basic Attacks, Scatter Arrow deal bonus damage"
+    },
+    "HanzoTheDragonAwakens|HanzoTheDragonAwakens|Heroic|Level20": {
+      "fullText": "Hitting a Hero with Storm Bow, Scatter Arrow, or Basic Attacks reduces the cooldown of Dragonstrike by <c val=\"#TooltipNumbers\">4</c> seconds.",
+      "name": "The Dragon Awakens",
+      "shortText": "Abilities and Attacks reduce Dragonstrike cooldown"
+    },
+    "HanzoPOTG|HanzoPOTG|Heroic|Level20": {
+      "fullText": "While in flight or for up to <c val=\"#TooltipNumbers\">2</c> seconds after impacting a target, Dragon's Arrow can be reactivated to teleport to its location and jump backwards. If used after impact, Hanzo shoots arrows that deal <c val=\"#TooltipNumbers\">132</c><c val=\"#ColorGray\">~~0.04~~</c> damage to each target hit by the impact.<n/><n/>Hanzo is Unstoppable during Play of the Game.",
+      "name": "Play of the Game",
+      "shortText": "Activate to teleport to Dragon's Arrow"
+    },
+    "HanzoBullseye|HanzoBullseye|E|Level20": {
+      "fullText": "Increase Sonic Arrow's speed and center radius by <c val=\"#TooltipNumbers\">100%</c>. Additionally, Heroes hit by Sonic Arrow's center are Stunned for <c val=\"#TooltipNumbers\">1</c> second.",
+      "name": "Bullseye",
+      "shortText": "Sonic Arrow travels faster, Stuns"
+    },
+    "HanzoPerfectAgility|HanzoPerfectAgility|Trait|Level20": {
+      "fullText": "Natural Agility gains a <c val=\"#TooltipNumbers\">2nd</c> charge and its cooldown is reduced by <c val=\"#TooltipNumbers\">10</c> seconds.",
+      "name": "Perfect Agility",
+      "shortText": "Gain Natural Agility charge, cooldown reduced"
+    }
+  },
+  "units": {
+    "HanzoDragonstrikeController": {
+      "name": "Dragonstrike (Controller)"
+    },
+    "HanzoDragonstrikeSoundUnit": {
+      "name": "Dragonstrike (Sound Unit)"
+    }
+  }
+}

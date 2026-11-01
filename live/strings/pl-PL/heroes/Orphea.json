@@ -1,0 +1,192 @@
+{
+  "abilities": {
+    "OrpheaShadowWaltz|OrpheaShadowWaltz|Q": {
+      "cooldownText": "Czas odnowienia: 5 sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 35</s>",
+      "fullText": "Po upływie <c val=\"#TooltipNumbers\">0.5</c> sek. zadaje przeciwnikom ustawionym w linii prostej <c val=\"#TooltipNumbers\">165</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń. <n/><n/>Trafienie bohatera Cienistym Walcem ustawia czas odnowienia tej zdolności na <c val=\"#TooltipNumbers\">2</c> sek., przywraca Orfei <c val=\"#TooltipNumbers\">35</c> pkt. many i sprawia, że podczas wykonywania ruchu skacze ona na niewielką odległość.",
+      "name": "Cienisty Walc",
+      "shortText": "Orfea zadaje obrażenia wrogom w linii prostej i skacze po trafieniu bohatera"
+    },
+    "OrpheaChomp|OrpheaChomp|W": {
+      "cooldownText": "Czas odnowienia: 10 sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Po upływie <c val=\"#TooltipNumbers\">0.625</c> sek. zadaje pobliskim wrogom znajdującym się przed Orfeą <c val=\"#TooltipNumbers\">305</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń.",
+      "name": "Chaps",
+      "shortText": "Zadaje obrażenia wrogom znajdującym się przed Orfeą"
+    },
+    "OrpheaDread|OrpheaDread|E": {
+      "cooldownText": "Czas odnowienia: 14 sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Wyzwala falę zgrozy, która zadaje trafionym przeciwnikom <c val=\"#TooltipNumbers\">85</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń. Zgroza wybucha po upływie <c val=\"#TooltipNumbers\">0.75</c> sek. od dotarcia do końca trasy i zadaje <c val=\"#TooltipNumbers\">175</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń. Przeciwnicy trafieni falą lub erupcją Zgrozy zostają spowolnieni o <c val=\"#TooltipNumbers\">25%</c> na <c val=\"#TooltipNumbers\">2</c> sek.",
+      "name": "Zgroza",
+      "shortText": "Zadaje obrażenia wrogom w linii prostej i po chwili wybucha"
+    },
+    "OrpheaCrushingJaws|OrpheaCrushingJaws|Heroic": {
+      "cooldownText": "Czas odnowienia: 70 sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 75</s>",
+      "fullText": "Po upływie <c val=\"#TooltipNumbers\">1.25</c> sek. przyciąga wrogów znajdujących się na obszarze w kierunku centrum, zadaje im <c val=\"#TooltipNumbers\">250</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń oraz ogłusza ich na <c val=\"#TooltipNumbers\">0.5</c> sek.",
+      "name": "Druzgocące Szczęki",
+      "shortText": "Przyciąga, ogłusza i rani przeciwników na danym obszarze"
+    },
+    "OrpheaEternalFeast|OrpheaEternalFeast|Heroic": {
+      "cooldownText": "Czas odnowienia: 50 sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 75</s>",
+      "fullText": "Po upływie <c val=\"#TooltipNumbers\">1.5</c> sek. zadaje <c val=\"#TooltipNumbers\">210</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń na obszarze. Wieczna Uczta powtarza się co <c val=\"#TooltipNumbers\">1</c><w> sek., jeśli trafia bohatera.",
+      "name": "Wieczna Uczta",
+      "shortText": "Kilkakrotnie zadaje obrażenia wrogom na danym obszarze"
+    },
+    ":PASSIVE:|OrpheaOverflowingChaos|Trait": {
+      "fullText": "Trafienie wrogiego bohatera zdolnością podstawową zapewnia <c val=\"#TooltipNumbers\">1</c> poziom kumulacji Chaosu. Chaos może się kumulować maksymalnie <c val=\"#TooltipNumbers\">3</c> razy.<n/><n/>Kiedy Orfea posiada poziomy kumulacji Chaosu, jej ataki podstawowe wymierzone w bohaterów zużywają cały Chaos i zadają obrażenia zwiększone o <c val=\"#TooltipNumbers\">50%</c> za każdy poziom kumulacji oraz leczą Orfeę, przywracając jej w postaci zdrowia równowartość <c val=\"#TooltipNumbers\">100%</c> zadanych obrażeń.",
+      "name": "Wszechobecny Chaos",
+      "shortText": "Zdolności podstawowe wymierzone we wrogich bohaterów zapewniają Chaos"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Czas odnowienia: 4 sek.",
+      "fullText": "Po podtrzymywaniu przez <c val=\"#TooltipNumbers\">1</c> sek. zyskujesz premię <s val=\"StandardTooltipDetails\">30%</s> do szybkości ruchu.",
+      "name": "Przyzwanie Wierzchowca"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Po podtrzymywaniu przez <c val=\"#TooltipNumbers\">6</c> sek. teleportuje bohatera z powrotem do Dworu Burz i przywraca mu natychmiast <c val=\"#TooltipNumbers\">1125</c> pkt. zdrowia oraz <c val=\"#TooltipNumbers\">150</c> pkt. many.",
+      "name": "Kamień Powrotu"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Opuszczasz wierzchowca.",
+      "name": "Odesłanie Wierzchowca"
+    },
+    "OrpheaOverflowingChaosInvasiveMiasma|OrpheaOverflowingChaosInvasiveMiasma|Trait": {
+      "cooldownText": "Czas odnowienia: 10 sek.",
+      "fullText": "Trafienie wrogiego bohatera zdolnością podstawową zapewnia <c val=\"#TooltipNumbers\">1</c> poziom kumulacji Chaosu. Chaos może się kumulować maksymalnie <c val=\"#TooltipNumbers\">3</c> razy.<n/><n/>Kiedy Orfea posiada poziomy kumulacji Chaosu, jej ataki podstawowe wymierzone w bohaterów zużywają cały Chaos i zadają obrażenia zwiększone o <c val=\"#TooltipNumbers\">50%</c> za każdy poziom kumulacji oraz leczą Orfeę, przywracając jej w postaci zdrowia równowartość <c val=\"#TooltipNumbers\">100%</c> zadanych obrażeń.",
+      "name": "Wszechobecny Chaos",
+      "shortText": "Zdolności podstawowe wymierzone we wrogich bohaterów zapewniają Chaos"
+    },
+    "OrpheaLurkingTerror|OrpheaLurkingTerror|Active": {
+      "cooldownText": "Czas odnowienia: 10 sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Aktywuj talent po maksymalnie <c val=\"#TooltipNumbers\">2</c> sek. od erupcji Zgrozy, aby użyć Chapsa z jej obszaru. Wrodzy bohaterowie trafieni tym Chapsem zostają spowolnieni o <c val=\"#TooltipNumbers\">70%</c> na <c val=\"#TooltipNumbers\">1.5</c> sek.",
+      "name": "Czyhająca Groza",
+      "shortText": "Aktywuj, aby użyć Chapsa po erupcji Zgrozy"
+    },
+    "OrpheaFinalToccata|OrpheaFinalToccata|Active": {
+      "cooldownText": "Czas odnowienia: 20 sek.",
+      "fullText": "Aktywuj, aby natychmiast wyzerować czas odnowienia Cienistego Walca. Skok przy pomocy Cienistego Walca zeruje jego czas odnowienia przez kolejne <c val=\"#TooltipNumbers\">5</c> sek. i wydłuża czas działania Ostatniej Toccaty o <c val=\"#TooltipNumbers\">1</c> sek.",
+      "name": "Ostatnia Toccata",
+      "shortText": "Czas odnowienia Cienistego Walca zeruje się po skoku"
+    }
+  },
+  "talents": {
+    "OrpheaEnPointe|OrpheaEnPointe|Q|Level1": {
+      "fullText": "Cienisty Walc zadaje obrażenia zwiększone o <c val=\"#TooltipNumbers\">90%</c> przeciwnikom trafionym przez jego grot i zapewnia <c val=\"#TooltipNumbers\">1</c> dodatkowy poziom kumulacji Chaosu.",
+      "name": "Czysta Perfekcja",
+      "shortText": "Grot Cienistego Walca zadaje dodatkowe obrażenia"
+    },
+    "OrpheaGrowingNightmare|OrpheaGrowingNightmare|E|Level1": {
+      "fullText": "Obrażenia od Zgrozy wzrastają o <c val=\"#TooltipNumbers\">50%</c>. <n/><n/><c val=\"#TooltipQuest\">Zadanie:</c> Traf <c val=\"#TooltipNumbers\">3</c> wrogich bohaterów pojedynczą erupcją Zgrozy.<n/><n/><c val=\"#TooltipQuest\">Nagroda:</c> Obrażenia od erupcji Zgrozy wzrastają na stałe o <c val=\"#TooltipNumbers\">50%</c>, a skuteczność efektu spowolnienia zapewnianego przez erupcję Zgrozy wzrasta o <c val=\"#TooltipNumbers\">15%</c>.",
+      "name": "Wybujały Koszmar",
+      "shortText": "<c val=\"#TooltipQuest\">Zadanie:</c> Wzmocnij erupcję Zgrozy"
+    },
+    "OrpheaAncestralStrength|OrpheaAncestralStrength|Trait|Level1": {
+      "fullText": "Zdolności niebohaterskie zadają obrażenia zwiększone o <c val=\"#TooltipNumbers\">15%</c> ogłuszonym, unieruchomionym, wyciszonym lub spowolnionym przeciwnikom. Wrodzy bohaterowie trafieni Wszechobecnym Chaosem zostają spowolnieni o <c val=\"#TooltipNumbers\">20%</c> na <c val=\"#TooltipNumbers\">2.5</c> sek.",
+      "name": "Potęga Przodków",
+      "shortText": "Zdolności zadają większe obrażenia obezwładnionym wrogom"
+    },
+    "OrpheaAllegrissimo|OrpheaAllegrissimo|Q|Level4": {
+      "fullText": "Czas odnowienia Cienistego Walca zostaje skrócony o <c val=\"#TooltipNumbers\">1</c> sek.<n/><n/>Trafienie bohaterów grotem Cienistego Walca ustawia czas odnowienia tej zdolności na <c val=\"#TooltipNumbers\">0.75</c><w> sek.",
+      "name": "Allegrissimo",
+      "shortText": "Skraca czas odnowienia Cienistego Walca"
+    },
+    "OrpheaBackbiter|OrpheaBackbiter|W|Level4": {
+      "fullText": "Jeśli Chaps trafi bohatera, Orfea natychmiast odskakuje do tyłu na niewielką odległość.<n/><n/><c val=\"#AbilityPassive\">Działanie pasywne:</c> Orfea zyskuje premię <c val=\"#TooltipNumbers\">15%</c> do maksymalnego zdrowia.",
+      "name": "Podgryzak",
+      "shortText": "Orfea odskakuje po użyciu Chapsa i zyskuje premię do zdrowia"
+    },
+    "OrpheaChaoticAssault|OrpheaChaoticAssault|Trait|Level4": {
+      "fullText": "Ataki podstawowe wymierzone we wrogich bohaterów z <c val=\"#TooltipNumbers\">3</c> poziomami kumulacji Chaosu zadają dodatkowo <c val=\"#TooltipNumbers\">75%</c> obrażeń.",
+      "name": "Chaotyczne Natarcie",
+      "shortText": "Zwiększone obrażenia od Wszechobecnego Chaosu"
+    },
+    "OrpheaInsatiable|OrpheaInsatiable|W|Level7": {
+      "fullText": "Trafienie bohatera Chapsem ustawia czas odnowienia tej zdolności na <c val=\"#TooltipNumbers\">2</c> sek.",
+      "name": "Nienasycenie",
+      "shortText": "Trafianie bohaterów skraca czas odnowienia Chapsa"
+    },
+    "OrpheaRavenousHunger|OrpheaRavenousHunger|W|Level7": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Zadanie:</c> Każdy stronnik, który zginie w ciągu <c val=\"#TooltipNumbers\">1.5</c> sek. po trafieniu Chapsem, zwiększy na stałe zadawane przez niego obrażenia o <c val=\"#TooltipNumbers\">2</c> pkt. i uleczy Orfeę, przywracając jej <c val=\"#TooltipNumbers\">60</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. zdrowia. <n/><n/>Każdy bohater, który zginie, zwiększy obrażenia Chapsa o <c val=\"#TooltipNumbers\">40</c> pkt. i uleczy Orfeę, przywracając jej <c val=\"#TooltipNumbers\">25%</c> maksymalnego zdrowia.",
+      "name": "Nienasycony Głód",
+      "shortText": "<c val=\"#TooltipQuest\">Zadanie:</c> Zabójstwa przy użyciu Chapsa zwiększają jego obrażenia i leczą Orfeę"
+    },
+    "OrpheaMindDevourer|OrpheaMindDevourer|E|Level7": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Zadanie:</c> Trafianie bohaterów Zgrozą zwiększa obrażenia tej zdolności o <c val=\"#TooltipNumbers\">5</c> pkt., maksymalnie do <c val=\"#TooltipNumbers\">150</c> pkt.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Nagroda:</c> Po trafieniu <c val=\"#TooltipNumbers\">30</c> bohaterów trafienie wrogiego bohatera erupcją Zgrozy sprawia, że jej czas odnowienia zostaje ustawiony na <c val=\"#TooltipNumbers\">6</c> sek., a Orfea odzyskuje <c val=\"#TooltipNumbers\">50</c> pkt. many.",
+      "name": "Pożeracz Umysłów",
+      "shortText": "<c val=\"#TooltipQuest\">Zadanie:</c> Zwiększ obrażenia od Zgrozy i skróć jej czas odnowienia"
+    },
+    "OrpheaEternalFeast|OrpheaEternalFeast|Heroic|Level10": {
+      "cooldownText": "Czas odnowienia: 50 sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 75</s>",
+      "fullText": "Po upływie <c val=\"#TooltipNumbers\">1.5</c> sek. zadaje <c val=\"#TooltipNumbers\">210</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń na obszarze. Wieczna Uczta powtarza się co <c val=\"#TooltipNumbers\">1</c><w> sek., jeśli trafia bohatera.",
+      "name": "Wieczna Uczta",
+      "shortText": "Kilkakrotnie zadaje obrażenia wrogom na danym obszarze"
+    },
+    "OrpheaCrushingJaws|OrpheaCrushingJaws|Heroic|Level10": {
+      "cooldownText": "Czas odnowienia: 70 sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 75</s>",
+      "fullText": "Po upływie <c val=\"#TooltipNumbers\">1.25</c> sek. przyciąga wrogów znajdujących się na obszarze w kierunku centrum, zadaje im <c val=\"#TooltipNumbers\">250</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń oraz ogłusza ich na <c val=\"#TooltipNumbers\">0.5</c> sek.",
+      "name": "Druzgocące Szczęki",
+      "shortText": "Przyciąga, ogłusza i rani przeciwników na danym obszarze"
+    },
+    "OrpheaDetermination|OrpheaDetermination|Q|Level13": {
+      "fullText": "Po skoku wykonanym przy pomocy Cienistego Walca Orfea zyskuje <c val=\"#TooltipNumbers\">50</c> pkt. pancerza magicznego chroniącego przed kolejną zdolnością przeciwnika. Efekt ten kumuluje się maksymalnie <c val=\"#TooltipNumbers\">2</c> razy. Kiedy Orfea znajduje się pod wpływem Determinacji, zadawane przez nią obrażenia fizyczne wzrastają o <c val=\"#TooltipNumbers\">15%</c>.",
+      "name": "Determinacja",
+      "shortText": "Cienisty Walc zapewnia po skoku pancerz magiczny"
+    },
+    "OrpheaAbyssalSymbiosis|OrpheaAbyssalSymbiosis|W|Level13": {
+      "fullText": "Trafienie bohatera Chapsem natychmiast zapewnia Orfei maksymalny poziom kumulacji Chaosu oraz osłonę o mocy <c val=\"#TooltipNumbers\">170</c><c val=\"#ColorGray\">~~0.04~~</c> na <c val=\"#TooltipNumbers\">3</c> sek.",
+      "name": "Otchłanna Symbioza",
+      "shortText": "Trafianie bohaterów Chapsem zapewnia więcej Chaosu oraz osłonę"
+    },
+    "OrpheaInvasiveMiasma|OrpheaInvasiveMiasma|Trait|Level13": {
+      "cooldownText": "Czas odnowienia: 10 sek.",
+      "fullText": "Aktywuj, aby po upływie <c val=\"#TooltipNumbers\">2</c> sek. Orfea zadała wszystkim pobliskim przeciwnikom <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń. Orfea odzyskuje <c val=\"#TooltipNumbers\">182</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. zdrowia za każdego trafionego bohatera i otrzymuje <c val=\"#TooltipNumbers\">1</c> poziom kumulacji Chaosu.",
+      "name": "Żrące Miazmaty",
+      "shortText": "Aktywuj Wszechobecny Chaos, aby ranić wrogów i się leczyć"
+    },
+    "OrpheaBondOfAnguish|OrpheaBondOfAnguish|Q|Level16": {
+      "fullText": "Cienisty Walc zadaje wrogim bohaterom dodatkowe obrażenia równe <c val=\"#TooltipNumbers\">3%</c> maksymalnej wartości ich zdrowia i leczy Orfeę, przywracając jej w postaci zdrowia równowartość <c val=\"#TooltipNumbers\">50%</c> zadanych obrażeń.",
+      "name": "Więź Cierpienia",
+      "shortText": "Cienisty Walc wykrada odsetek zdrowia celu"
+    },
+    "OrpheaDeadMagic|OrpheaDeadMagic|Trait|Level16": {
+      "fullText": "Ataki podstawowe, które zużywają Chaos, przenikają pancerz i zadają celowi oraz wszystkim przeciwnikom wokół niego <c val=\"#TooltipNumbers\">90</c><c val=\"#ColorGray\">~~0.04~~</c><w> pkt. obrażeń od zaklęć.",
+      "name": "Magia Umarłych",
+      "shortText": "Ataki podstawowe z Chaosem są obszarowe i przenikają pancerz"
+    },
+    "OrpheaLurkingTerror|OrpheaLurkingTerror|Active|Level16": {
+      "cooldownText": "Czas odnowienia: 10 sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Aktywuj talent po maksymalnie <c val=\"#TooltipNumbers\">2</c> sek. od erupcji Zgrozy, aby użyć Chapsa z jej obszaru. Wrodzy bohaterowie trafieni tym Chapsem zostają spowolnieni o <c val=\"#TooltipNumbers\">70%</c> na <c val=\"#TooltipNumbers\">1.5</c> sek.",
+      "name": "Czyhająca Groza",
+      "shortText": "Aktywuj, aby użyć Chapsa po erupcji Zgrozy"
+    },
+    "OrpheaMonsterWithin|OrpheaMonsterWithin|Heroic|Level20": {
+      "fullText": "Wieczna Uczta zapewnia <c val=\"#TooltipNumbers\">1</c><w> poziom kumulacji Chaosu za każdym razem, kiedy trafia bohatera. Gdy Wieczna Uczta jest aktywna oraz przez </w><c val=\"#TooltipNumbers\">5</c><w> sek. po zakończeniu jej działania czasy odnowienia zdolności podstawowych Orfei upływają o </w><c val=\"#TooltipNumbers\">150%</c><w> szybciej.</w>",
+      "name": "Potwór z Wnętrza",
+      "shortText": "Wieczna Uczta zapewnia Chaos i skraca czasy odnowienia"
+    },
+    "OrpheaEngulfingOblivion|OrpheaEngulfingOblivion|Heroic|Level20": {
+      "fullText": "Druzgocące Szczęki zmniejszają pancerz trafionych bohaterów o <c val=\"#TooltipNumbers\">50</c><w> pkt. na </w><c val=\"#TooltipNumbers\">3</c><w> sek. Udział w zabiciu wrogich bohaterów ustawia czas odnowienia tej zdolności na </w><c val=\"#TooltipNumbers\">5</c><w> sek.</w>",
+      "name": "Osnowa Nicości",
+      "shortText": "Druzgocące Szczęki zmniejszają pancerz i skracają czas odnowienia"
+    },
+    "OrpheaEldritchConduit|OrpheaEldritchConduit|Trait|Level20": {
+      "fullText": "Moc zaklęć Orfei wzrasta o <c val=\"#TooltipNumbers\">3%</c>, maksymalnie do <c val=\"#TooltipNumbers\">30%</c>, za każdy zużyty poziom kumulacji Chaosu. Po osiągnięciu maksymalnej premii moc zaklęć wzrasta o kolejne <c val=\"#TooltipNumbers\">30%</c>. Czas działania: <c val=\"#TooltipNumbers\">10</c> sek.",
+      "name": "Przedwieczne Przesłanie",
+      "shortText": "Zużywanie Chaosu zwiększa moc zaklęć"
+    },
+    "OrpheaFinalToccata|OrpheaFinalToccata|Active|Level20": {
+      "cooldownText": "Czas odnowienia: 20 sek.",
+      "fullText": "Aktywuj, aby natychmiast wyzerować czas odnowienia Cienistego Walca. Skok przy pomocy Cienistego Walca zeruje jego czas odnowienia przez kolejne <c val=\"#TooltipNumbers\">5</c> sek. i wydłuża czas działania Ostatniej Toccaty o <c val=\"#TooltipNumbers\">1</c> sek.",
+      "name": "Ostatnia Toccata",
+      "shortText": "Czas odnowienia Cienistego Walca zeruje się po skoku"
+    }
+  },
+  "units": {}
+}

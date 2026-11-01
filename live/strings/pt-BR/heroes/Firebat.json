@@ -1,0 +1,224 @@
+{
+  "abilities": {
+    "FirebatFlameStream|FirebatFlameStream|Q": {
+      "cooldownText": "Recarga: 4 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 30</s>",
+      "fullText": "Dispara dois jatos que causam <c val=\"#TooltipNumbers\">76</c><c val=\"#ColorGray\">~~0.04~~</c> de dano aos inimigos atingidos. Inimigos não estruturais atingidos pelos dois jatos sofrem um dano adicional de <c val=\"#TooltipNumbers\">120</c><c val=\"#ColorGray\">~~0.04~~</c>. Torrente de Chamas incendeia Poças de Óleo se entrar em contato com elas.",
+      "name": "Torrente de Chamas",
+      "shortText": "Dispara dois jatos de chamas"
+    },
+    "FirebatOilSpill|FirebatOilSpill|W": {
+      "cooldownText": "Recarga da carga: 12 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">Mira Vetorial</c><n/>Cria uma Poça de Óleo que dura <c val=\"#TooltipNumbers\">5</c> s e desacelera os inimigos em <c val=\"#TooltipNumbers\">50%</c>.<n/><n/>Torrente de Chamas incendeia Poças de Óleo por <c val=\"#TooltipNumbers\">2.5</c> s. Poças incendiadas deixam de desacelerar, mas causam <c val=\"#TooltipNumbers\">16</c><c val=\"#ColorGray\">~~0.04~~</c> de dano a cada <c val=\"#TooltipNumbers\">0.3</c> s. Além disso, Blaze recupera <c val=\"#TooltipNumbers\">49</c><c val=\"#ColorGray\">~~0.04~~</c> de Vida a cada <c val=\"#TooltipNumbers\">0.3</c> s enquanto ficar em cima de uma Poça de Óleo incendiada.<n/><n/>Armazena até <c val=\"#TooltipNumbers\">2</c> cargas.",
+      "name": "Poça de Óleo",
+      "shortText": "Poça de Óleo que desacelera e pode ser incendiada para ferir inimigos e curar Blaze"
+    },
+    "FirebatJetPropulsion|FirebatJetPropulsion|E": {
+      "cooldownText": "Recarga: 10 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 45</s>",
+      "fullText": "Investe à frente após <c val=\"#TooltipNumbers\">0.375</c> s. Se colidir com um Herói inimigo, causará <c val=\"#TooltipNumbers\">52</c><c val=\"#ColorGray\">~~0.04~~</c> de dano aos Heróis inimigos próximos, atordoando-os por <c val=\"#TooltipNumbers\">1.25</c> s.",
+      "name": "Propulsão a Jato",
+      "shortText": "Avança, atordoando e causando dano a Heróis inimigos"
+    },
+    "FirebatBunkerDrop|FirebatBunkerDrop|Heroic": {
+      "cooldownText": "Recarga: 85 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 80</s>",
+      "fullText": "Após <c val=\"#TooltipNumbers\">0.5</c> s, posiciona e entra em uma Casamata com <c val=\"#TooltipNumbers\">1435</c><c val=\"#ColorGray\">~~0.04~~</c> de Vida. Blaze e os aliados podem entrar e sair à vontade da Casamata. Quem estiver dentro dela terá acesso ao Lança-chamas, que causa <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c> de dano aos inimigos em linha reta. <n/><n/>Quem sair da Casamata receberá <c val=\"#TooltipNumbers\">25</c> de Armadura por <c val=\"#TooltipNumbers\">2</c> s. As Casamatas duram <c val=\"#TooltipNumbers\">10</c> s ou até serem destruídas.",
+      "name": "Chamar Casamata",
+      "shortText": "Evoca uma Casamata"
+    },
+    "FirebatCombustion|FirebatCombustion|Heroic": {
+      "cooldownText": "Recarga: 80 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 70</s>",
+      "fullText": "Canaliza por até <c val=\"#TooltipNumbers\">2.6</c> s. Ao acabar, desacelera inimigos próximos em <c val=\"#TooltipNumbers\">60%</c> e causa <c val=\"#TooltipNumbers\">55</c><c val=\"#ColorGray\">~~0.04~~</c> de dano a eles a cada <c val=\"#TooltipNumbers\">0.5</c> s. A duração da desaceleração e do dano ao longo do tempo da Combustão aumenta de acordo com o tempo de canalização, variando de <c val=\"#TooltipNumbers\">1</c> s a <c val=\"#TooltipNumbers\">5</c> s.<n/><n/>A Velocidade de Movimento de Blaze é reduzida em <c val=\"#TooltipNumbers\">40%</c> enquanto canaliza a habilidade.",
+      "name": "Combustão",
+      "shortText": "Canalize para causar dano e desacelerar inimigos"
+    },
+    "FirebatIgnite|FirebatIgnite|Trait": {
+      "cooldownText": "Recarga: 90 segundos",
+      "fullText": "Ganha <c val=\"#TooltipNumbers\">40</c> de Armadura e causa <c val=\"#TooltipNumbers\">40</c><c val=\"#ColorGray\">~~0.04~~</c> de dano aos inimigos próximos a cada <c val=\"#TooltipNumbers\">0.5</c> s por <c val=\"#TooltipNumbers\">4</c> s.<n/><n/>Cada Herói atingido pela Torrente de Chamas reduz a recarga de Piromania em <c val=\"#TooltipNumbers\">4</c> s.",
+      "name": "Piromania",
+      "shortText": "Ganha Armadura e causa dano a inimigos próximos"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Recarga: 4 segundos",
+      "fullText": "Depois de canalizar por <c val=\"#TooltipNumbers\">1</c> s, ganha <s val=\"StandardTooltipDetails\">30%</s> de Velocidade de Movimento.",
+      "name": "Evocar Montaria"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Depois de canalizar por <c val=\"#TooltipNumbers\">6</c> s, teleporta você de volta para o Salão das Tempestades, restaurando instantaneamente <c val=\"#TooltipNumbers\">1125</c> de Vida e <c val=\"#TooltipNumbers\">150</c> de Mana.",
+      "name": "Pedra de Regresso"
+    },
+    "FirebatCombustionCancel|FirebatCombustionCancel|Heroic": {
+      "fullText": "Cancela Combustão.",
+      "name": "Cancelar Combustão",
+      "shortText": ""
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Desmonta você.",
+      "name": "Dispensar Montaria"
+    },
+    "FirebatAdrenalineStimpack|FirebatAdrenalineStimpack|Active": {
+      "cooldownText": "Recarga: 30 segundos",
+      "fullText": "<c val=\"#AbilityPassive\">Passiva:</c> Enquanto estiver acima de <c val=\"#TooltipNumbers\">80%</c> de Vida, receba <c val=\"#TooltipNumbers\">20%</c> de bônus de Velocidade de Ataque e <c val=\"#TooltipNumbers\">10%</c> de bônus de Velocidade de Movimento.<n/><n/>Ative para ganhar <c val=\"#TooltipNumbers\">85%</c> de Velocidade de Ataque e <c val=\"#TooltipNumbers\">25%</c> de Velocidade de Movimento por <c val=\"#TooltipNumbers\">5</c> s.",
+      "name": "Nitro de Adrenalina",
+      "shortText": "Ative para ganhar Velocidade de Ataque e de Movimento"
+    },
+    "FirebatEnduranceStimpack|FirebatEnduranceStimpack|Active": {
+      "cooldownText": "Recarga: 30 segundos",
+      "fullText": "Ative para ganhar um Escudo que absorve <c val=\"#TooltipNumbers\">590</c><c val=\"#ColorGray\">~~0.04~~</c> de dano ao longo de <c val=\"#TooltipNumbers\">5</c> s.<n/><n/>Quando receber dano estando com menos de <c val=\"#TooltipNumbers\">30%</c> do máximo de Vida, Nitro de Resistência será lançado automaticamente se não estiver em recarga.",
+      "name": "Nitro de Resistência",
+      "shortText": "Ative para ganhar um Escudo"
+    },
+    "FirebatNeuralStimpack|FirebatNeuralStimpack|Active": {
+      "cooldownText": "Recarga: 30 segundos",
+      "fullText": "Ative para ganhar <c val=\"#TooltipNumbers\">40</c> de Mana e aumentar em <c val=\"#TooltipNumbers\">100%</c> a velocidade de recarga das Habilidades Básicas por <c val=\"#TooltipNumbers\">5</c> s.",
+      "name": "Nitro Neural",
+      "shortText": "Ative para aumentar a velocidade de recarga"
+    },
+    "FirebatJuggernautPlating|FirebatActiveJuggernautPlating|Active": {
+      "cooldownText": "Recarga: 30 segundos",
+      "fullText": "Ative para ganhar <c val=\"#TooltipNumbers\">50</c> de Armadura Mágica por <c val=\"#TooltipNumbers\">3</c> s. Ao expirar, ganha um Escudo equivalente a <c val=\"#TooltipNumbers\">125%</c> do Dano Mágico recebido enquanto o Revestimento Juggernaut estava ativo.",
+      "name": "Revestimento Juggernaut",
+      "shortText": "Ganha Armadura Mágica, depois Escudo pelo dano recebido"
+    },
+    "FirebatBunkerDropFlamethrower|FirebatBunkerDropFlamethrower|Q": {
+      "cooldownText": "Recarga: 1 segundo",
+      "fullText": "Causa <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c> de dano a inimigos em linha reta.",
+      "name": "Lança-chamas",
+      "shortText": "Causa dano aos inimigos em linha reta."
+    },
+    "FirebatBunkerDropFortifiedBunkerOilSpill|FirebatBunkerDropFortifiedBunkerOilSpill|W": {
+      "cooldownText": "Recarga: 6 segundos",
+      "fullText": "<c val=\"#TooltipNumbers\">Mira Vetorial</c><n/>Cria uma Poça de Óleo que desacelera inimigos e pode ser incendiada por Blaze.",
+      "name": "Poça de Óleo",
+      "shortText": ""
+    },
+    "FirebatBunkerDropExitBunker|FirebatBunkerDropExitBunker|Trait": {
+      "fullText": "Sai da Casamata.",
+      "name": "Sair da Casamata",
+      "shortText": ""
+    }
+  },
+  "talents": {
+    "FirebatAdrenalineStimpack|FirebatAdrenalineStimpack|Active|Level1": {
+      "cooldownText": "Recarga: 30 segundos",
+      "fullText": "<c val=\"#AbilityPassive\">Passiva:</c> Enquanto estiver acima de <c val=\"#TooltipNumbers\">80%</c> de Vida, receba <c val=\"#TooltipNumbers\">20%</c> de bônus de Velocidade de Ataque e <c val=\"#TooltipNumbers\">10%</c> de bônus de Velocidade de Movimento.<n/><n/>Ative para ganhar <c val=\"#TooltipNumbers\">85%</c> de Velocidade de Ataque e <c val=\"#TooltipNumbers\">25%</c> de Velocidade de Movimento por <c val=\"#TooltipNumbers\">5</c> s.",
+      "name": "Nitro de Adrenalina",
+      "shortText": "Ative para ganhar Velocidade de Ataque e de Movimento"
+    },
+    "FirebatEnduranceStimpack|FirebatEnduranceStimpack|Active|Level1": {
+      "cooldownText": "Recarga: 30 segundos",
+      "fullText": "Ative para ganhar um Escudo que absorve <c val=\"#TooltipNumbers\">590</c><c val=\"#ColorGray\">~~0.04~~</c> de dano ao longo de <c val=\"#TooltipNumbers\">5</c> s.<n/><n/>Quando receber dano estando com menos de <c val=\"#TooltipNumbers\">30%</c> do máximo de Vida, Nitro de Resistência será lançado automaticamente se não estiver em recarga.",
+      "name": "Nitro de Resistência",
+      "shortText": "Ative para ganhar um Escudo"
+    },
+    "FirebatNeuralStimpack|FirebatNeuralStimpack|Active|Level1": {
+      "cooldownText": "Recarga: 30 segundos",
+      "fullText": "Ative para ganhar <c val=\"#TooltipNumbers\">40</c> de Mana e aumentar em <c val=\"#TooltipNumbers\">100%</c> a velocidade de recarga das Habilidades Básicas por <c val=\"#TooltipNumbers\">5</c> s.",
+      "name": "Nitro Neural",
+      "shortText": "Ative para aumentar a velocidade de recarga"
+    },
+    "FirebatNewHabits|FirebatNewHabits|Trait|Level1": {
+      "fullText": "Globos de Regeneração reduzem a recarga de Piromania em <c val=\"#TooltipNumbers\">6</c> s.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Missão:</c> Coletar <c val=\"#TooltipNumbers\">15</c> Globos de Regeneração.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa:</c> Piromania concede Irrefreável por <c val=\"#TooltipNumbers\">2</c> s.",
+      "name": "Novos Hábitos",
+      "shortText": "<c val=\"#TooltipQuest\">Missão:</c> Piromania concede Irrefreável"
+    },
+    "FirebatOilSpillOilDispersal|FirebatOilSpillOilDispersal|W|Level4": {
+      "fullText": "Aumenta a área do Derramamento de Óleo em <c val=\"#TooltipNumbers\">20%</c>. Cada Herói inimigo atingido pela Torrente de Chamas reduz a recarga do Derramamento de Óleo em <c val=\"#TooltipNumbers\">0.75</c> s e restitui <c val=\"#TooltipNumbers\">5</c> de Mana.",
+      "name": "Dispersão de Óleo",
+      "shortText": "Aumenta a área da Poça de Óleo"
+    },
+    "FirebatIgniteMeltdown|FirebatIgniteMeltdown|Trait|Level4": {
+      "fullText": "Atingir um Herói inimigo com Piromania reduz o dano que ele causa em <c val=\"#TooltipNumbers\">8%</c> por <c val=\"#TooltipNumbers\">2.5</c> s. Acumula até <c val=\"#TooltipNumbers\">40%</c>.",
+      "name": "Derretimento",
+      "shortText": "Piromania reduz o dano causado pelo inimigo"
+    },
+    "FirebatWeaponIncineratorGauntlets|FirebatWeaponIncineratorGauntlets|Passive|Level4": {
+      "fullText": "Aumenta em <c val=\"#TooltipNumbers\">15%</c> a área de Ataque Básico e em <c val=\"#TooltipNumbers\">40%</c> o dano de Ataque Básico a Tropas, Mercenários e Monstros.",
+      "name": "Manoplas Incineradoras",
+      "shortText": "Ataques Básicos causam dano extra a não Heróis"
+    },
+    "FirebatFlameStreamSuppressiveFire|FirebatFlameStreamSuppressiveFire|Q|Level7": {
+      "fullText": "Cada jato da Torrente de Chamas reduz o Poder Mágico dos Heróis atingidos em <c val=\"#TooltipNumbers\">20%</c> por <c val=\"#TooltipNumbers\">4</c> s, até <c val=\"#TooltipNumbers\">40%</c>.",
+      "name": "Fogo Supressivo",
+      "shortText": "Torrente de Chamas reduz Poder Mágico"
+    },
+    "FirebatOilSpillNanomachineCoating|FirebatOilSpillNanomachineCoating|W|Level7": {
+      "fullText": "Inimigos em cima de uma Poça de Óleo ou Poça de Óleo incendiada têm a Velocidade de Ataque reduzida em <c val=\"#TooltipNumbers\">35%</c> por <c val=\"#TooltipNumbers\">4</c> s.",
+      "name": "Revestimento de Nanomáquina",
+      "shortText": "Poça de Óleo reduz Velocidade de Ataque"
+    },
+    "FirebatJetPropulsionFuelLeak|FirebatJetPropulsionFuelLeak|E|Level7": {
+      "fullText": "Propulsão a Jato cria Poça de Óleo por onde Blaze passa. Se Propulsão a Jato atingir um Herói inimigo, outra Poça de Óleo será criada aos pés dele.",
+      "name": "Vazamento de Combustível",
+      "shortText": "Propulsão a Jato deixa um rastro de Poça de Óleo"
+    },
+    "FirebatHeroicAbilityBunkerDrop|FirebatBunkerDrop|Heroic|Level10": {
+      "cooldownText": "Recarga: 85 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 80</s>",
+      "fullText": "Após <c val=\"#TooltipNumbers\">0.5</c> s, posiciona e entra em uma Casamata com <c val=\"#TooltipNumbers\">1435</c><c val=\"#ColorGray\">~~0.04~~</c> de Vida. Blaze e os aliados podem entrar e sair à vontade da Casamata. Quem estiver dentro dela terá acesso ao Lança-chamas, que causa <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c> de dano aos inimigos em linha reta. <n/><n/>Quem sair da Casamata receberá <c val=\"#TooltipNumbers\">25</c> de Armadura por <c val=\"#TooltipNumbers\">2</c> s. As Casamatas duram <c val=\"#TooltipNumbers\">10</c> s ou até serem destruídas.",
+      "name": "Chamar Casamata",
+      "shortText": "Evoca uma Casamata"
+    },
+    "FirebatHeroicAbilityCombustion|FirebatCombustion|Heroic|Level10": {
+      "cooldownText": "Recarga: 80 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 70</s>",
+      "fullText": "Canaliza por até <c val=\"#TooltipNumbers\">2.6</c> s. Ao acabar, desacelera inimigos próximos em <c val=\"#TooltipNumbers\">60%</c> e causa <c val=\"#TooltipNumbers\">55</c><c val=\"#ColorGray\">~~0.04~~</c> de dano a eles a cada <c val=\"#TooltipNumbers\">0.5</c> s. A duração da desaceleração e do dano ao longo do tempo da Combustão aumenta de acordo com o tempo de canalização, variando de <c val=\"#TooltipNumbers\">1</c> s a <c val=\"#TooltipNumbers\">5</c> s.<n/><n/>A Velocidade de Movimento de Blaze é reduzida em <c val=\"#TooltipNumbers\">40%</c> enquanto canaliza a habilidade.",
+      "name": "Combustão",
+      "shortText": "Canalize para causar dano e desacelerar inimigos"
+    },
+    "FirebatOilSpillGrillandKill|FirebatOilSpillGrillandKill|W|Level13": {
+      "fullText": "Aumenta o dano das Poças de Óleo incendiadas em <c val=\"#TooltipNumbers\">45%</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Missão:</c> Causar dano a Heróis inimigos com Poças de Óleo incendiadas <c val=\"#TooltipNumbers\">30</c> vezes.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa:</c> Aumenta em <c val=\"#TooltipNumbers\">2.5</c> s a duração das Poças de Óleo incendiadas.",
+      "name": "Tostar e Matar",
+      "shortText": "<c val=\"#TooltipQuest\">Missão:</c> Aumenta duração e dano da Poça de Óleo incendiada"
+    },
+    "FirebatOilSpillAdhesivePetroleum|FirebatOilSpillAdhesivePetroleum|W|Level13": {
+      "fullText": "Inimigos que estiverem em cima da Poça de Óleo quando ela for incendiada ficarão desacelerados em <c val=\"#TooltipNumbers\">40%</c> e sofrerão mais <c val=\"#TooltipNumbers\">35%</c> de dano dos Ataques Básicos de Blaze por <c val=\"#TooltipNumbers\">3</c> s. Além disso, Ataques Básicos incendeiam Poças de Óleo.",
+      "name": "Petróleo Aderente",
+      "shortText": "Poça de Óleo desacelera ao ser incendiada"
+    },
+    "FirebatJetPropulsionCollisionCourse|FirebatJetPropulsionCollisionCourse|E|Level13": {
+      "fullText": "A colisão da Propulsão a Jato causa <c val=\"#TooltipNumbers\">260</c><c val=\"#ColorGray\">~~0.04~~</c> de dano ao primeiro Herói inimigo atingido.",
+      "name": "Rota de Colisão",
+      "shortText": "A colisão da Propulsão a Jato causa dano"
+    },
+    "FirebatJetPropulsionThermalProtection|FirebatJetPropulsionThermalProtection|E|Level16": {
+      "fullText": "Cada inimigo atingido pela Propulsão a Jato concede <c val=\"#TooltipNumbers\">10</c> de Armadura por <c val=\"#TooltipNumbers\">3</c> s e reduz a recarga da habilidade em <c val=\"#TooltipNumbers\">1.25</c> s.",
+      "name": "Proteção Térmica",
+      "shortText": "Acertos da Propulsão a Jato concedem Armadura; reduz recarga"
+    },
+    "FirebatIgniteHeatTreatment|FirebatIgniteHeatTreatment|Trait|Level16": {
+      "fullText": "Cura-se em <c val=\"#TooltipNumbers\">75%</c> do dano causado por Piromania.",
+      "name": "Terapia de Calor",
+      "shortText": "Piromania cura de acordo com o dano causado"
+    },
+    "FirebatActiveJuggernautPlating|FirebatActiveJuggernautPlating|Active|Level16": {
+      "cooldownText": "Recarga: 30 segundos",
+      "fullText": "Ative para ganhar <c val=\"#TooltipNumbers\">50</c> de Armadura Mágica por <c val=\"#TooltipNumbers\">3</c> s. Ao expirar, ganha um Escudo equivalente a <c val=\"#TooltipNumbers\">125%</c> do Dano Mágico recebido enquanto o Revestimento Juggernaut estava ativo.",
+      "name": "Revestimento Juggernaut",
+      "shortText": "Ganha Armadura Mágica, depois Escudo pelo dano recebido"
+    },
+    "FirebatBunkerDropFortifiedBunker|FirebatBunkerDropFortifiedBunker|Heroic|Level20": {
+      "fullText": "Quem estiver dentro da Casamata poderá usar Poça de Óleo a cada <c val=\"#TooltipNumbers\">6</c> s. Além disso, o bônus de Armadura ao sair da Casamata aumenta em <c val=\"#TooltipNumbers\">25</c>, e a duração, em <c val=\"#TooltipNumbers\">1</c> s.",
+      "name": "Casamata Fortificada",
+      "shortText": "Aliados podem usar Poça de Óleo de dentro da Casamata"
+    },
+    "FirebatCombustionFlashFire|FirebatCombustionFlashFire|Heroic|Level20": {
+      "fullText": "Enquanto canaliza Combustão, a Velocidade de Movimento de Blaze não é reduzida e os inimigos próximos são desacelerados em <c val=\"#TooltipNumbers\">60%</c>.",
+      "name": "Incêndio Rápido",
+      "shortText": "Combustão desacelera; remove penalidade de movimento"
+    },
+    "FirebatWeaponBurnNotice|FirebatWeaponBurnNotice|Passive|Level20": {
+      "fullText": "Ataques Básicos desaceleram os inimigos em <c val=\"#TooltipNumbers\">5%</c> e causam mais <c val=\"#TooltipNumbers\">18</c><c val=\"#ColorGray\">~~0.04~~</c> de dano ao longo de <c val=\"#TooltipNumbers\">2.5</c> s. Acumula até <c val=\"#TooltipNumbers\">5</c> vezes.",
+      "name": "Queimadura",
+      "shortText": "Ataques Básicos desaceleram e causam dano ao longo do tempo"
+    }
+  },
+  "units": {
+    "FirebatBunkerDropBunkerUnit": {
+      "name": "Casamata"
+    }
+  }
+}

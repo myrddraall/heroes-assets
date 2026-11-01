@@ -1,0 +1,213 @@
+{
+  "abilities": {
+    "TassadarShockRay|TassadarShockRay|Q": {
+      "cooldownText": "Tiempo de reutilización: 7 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 55</s>",
+      "fullText": "Canaliza un rayo de energía psiónica que inflige <c val=\"#TooltipNumbers\">280</c><c val=\"#ColorGray\">~~0.04~~</c> de daño y ralentiza a los enemigos en una línea un <c val=\"#TooltipNumbers\">30%</c> durante <c val=\"#TooltipNumbers\">2</c> segundos.",
+      "name": "Rayo conmocionante",
+      "shortText": "Infliges daño y ralentizas a los enemigos en una línea"
+    },
+    "TassadarPsionicStorm|TassadarPsionicStorm|W": {
+      "cooldownText": "Tiempo de reutilización: 8 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 60</s>",
+      "fullText": "Crea una Tormenta psiónica en la ubicación objetivo durante <c val=\"#TooltipNumbers\">3</c> segundos. Dentro de la tormenta, a los enemigos se les inflige <c val=\"#TooltipNumbers\">38</c><c val=\"#ColorGray\">~~0.04~~</c> de daño cada <c val=\"#TooltipNumbers\">0.5</c> segundos, lo que se incrementa un <c val=\"#TooltipNumbers\">20%</c> por cada instancia de daño consecutiva, hasta un máximo del <c val=\"#TooltipNumbers\">100%</c>.",
+      "name": "Tormenta psiónica",
+      "shortText": "Daña a los enemigos que están en un área"
+    },
+    "TassadarForceWall|TassadarForceWall|E": {
+      "cooldownText": "Tiempo de reutilización: 18 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 65</s>",
+      "fullText": "Después de una demora de <c val=\"#TooltipNumbers\">0.5</c> segundos, crea un muro que evita el avance de todas las unidades a través de este durante <c val=\"#TooltipNumbers\">2</c> segundos.",
+      "name": "Muro de fuerza",
+      "shortText": "Crea un muro de fuerza impenetrable"
+    },
+    "TassadarArchon|TassadarArchon|Heroic": {
+      "cooldownText": "Tiempo de reutilización: 90 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 100</s>",
+      "fullText": "Tassadar se transforma en un Arconte, por lo que obtiene un escudo equivalente al <c val=\"#TooltipNumbers\">25%</c> de su salud máxima y se potencia Rayo de resonancia. Dura <c val=\"#TooltipNumbers\">12</c> segundos.<n/><n/><c val=\"#AbilityPassive\">Rayo de resonancia: </c>Inflige <c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c> de daño al objetivo y <c val=\"#TooltipNumbers\">70</c><c val=\"#ColorGray\">~~0.04~~</c> de daño por proximidad a los enemigos cercanos. A los héroes golpeados se les reduce en <c val=\"#TooltipNumbers\">20</c> la Armadura especial durante <c val=\"#TooltipNumbers\">2</c> segundos. Rayo de resonancia se carga por completo cuando Arconte está activo.",
+      "name": "Arconte",
+      "shortText": "Te conviertes en un Arconte"
+    },
+    "TassadarBlackHole|TassadarBlackHole|Heroic": {
+      "cooldownText": "Tiempo de reutilización: 60 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 60</s>",
+      "fullText": "Después de un lanzamiento de <c val=\"#TooltipNumbers\">0.5</c> segundos, crea un Agujero negro que viaja en una línea larga. Los héroes enemigos dentro del área del Agujero negro son rápidamente atraídos a su centro. Tocar el centro le inflige al objetivo <c val=\"#TooltipNumbers\">310</c><c val=\"#ColorGray\">~~0.04~~</c> de daño y lo aturde durante <c val=\"#TooltipNumbers\">1.25</c> segundos.",
+      "name": "Agujero negro",
+      "shortText": "Inflige daño y aturde a los héroes en una línea larga"
+    },
+    ":PASSIVE:|TassadarResonanceBeam|Trait": {
+      "fullText": "El ataque básico de Tassadar es un rayo canalizado que ralentiza un <c val=\"#TooltipNumbers\">15%</c>. Durante la canalización, el daño de ataque básico y la regeneración de maná se incrementan un <c val=\"#TooltipNumbers\">25%</c> por segundo, hasta un máximo del <c val=\"#TooltipNumbers\">100%</c>. Al máximo de carga, obtienes <c val=\"#TooltipNumbers\">3</c> de maná adicional por segundo.<n/><n/>Esta bonificación se pierde tras no realizar la canalización durante <c val=\"#TooltipNumbers\">6</c> segundos.",
+      "name": "Rayo de resonancia",
+      "shortText": "Los ataques básicos se canalizan, restituye maná"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Tiempo de reutilización: 4 segundos",
+      "fullText": "Tras una canalización de <c val=\"#TooltipNumbers\">1</c> segundo, obtienes un <s val=\"StandardTooltipDetails\">30%</s> de velocidad de movimiento.",
+      "name": "Invocar montura"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Tras una canalización de <c val=\"#TooltipNumbers\">6</c> segundos, te teletransportas de regreso a la Sala de las tormentas para recuperar <c val=\"#TooltipNumbers\">1125</c> de salud y <c val=\"#TooltipNumbers\">150</c> de maná de inmediato.",
+      "name": "Piedra de hogar"
+    },
+    "TassadarForceWallCancel|TassadarForceWallCancel|E": {
+      "cooldownText": "Tiempo de reutilización: 1 segundo",
+      "fullText": "Destruye el Muro de fuerza activo.",
+      "name": "Muro de fuerza - Cancelar"
+    },
+    ":PASSIVE:|TassadarArchon|Heroic": {
+      "fullText": "Tassadar se transforma en un Arconte, por lo que obtiene un escudo equivalente al <c val=\"#TooltipNumbers\">25%</c> de su salud máxima y se potencia Rayo de resonancia. Dura <c val=\"#TooltipNumbers\">12</c> segundos.<n/><n/><c val=\"#AbilityPassive\">Rayo de resonancia: </c>Inflige <c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c> de daño al objetivo y <c val=\"#TooltipNumbers\">70</c><c val=\"#ColorGray\">~~0.04~~</c> de daño por proximidad a los enemigos cercanos. A los héroes golpeados se les reduce en <c val=\"#TooltipNumbers\">20</c> la Armadura especial durante <c val=\"#TooltipNumbers\">2</c> segundos. Rayo de resonancia se carga por completo cuando Arconte está activo.",
+      "name": "Arconte",
+      "shortText": "Te conviertes en un Arconte"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Te desmontas.",
+      "name": "Desinvocar montura"
+    },
+    "TassadarCancelOracle|TassadarCancelOracle|Active": {
+      "fullText": "Cancelar Oráculo",
+      "name": "Cancelar Oráculo"
+    },
+    "TassadarCancelShadowWalk|TassadarCancelShadowWalk|Active": {
+      "fullText": "Cancelar Avance sombrío",
+      "name": "Cancelar Avance sombrío"
+    },
+    "TassadarResonanceBeamArcDischargeDummy|TassadarResonanceBeam|Trait": {
+      "fullText": "El ataque básico de Tassadar es un rayo canalizado que ralentiza un <c val=\"#TooltipNumbers\">15%</c>. Durante la canalización, el daño de ataque básico y la regeneración de maná se incrementan un <c val=\"#TooltipNumbers\">25%</c> por segundo, hasta un máximo del <c val=\"#TooltipNumbers\">100%</c>. Al máximo de carga, obtienes <c val=\"#TooltipNumbers\">3</c> de maná adicional por segundo.<n/><n/>Esta bonificación se pierde tras no realizar la canalización durante <c val=\"#TooltipNumbers\">6</c> segundos.",
+      "name": "Rayo de resonancia",
+      "shortText": "Los ataques básicos se canalizan, restituye maná"
+    },
+    "TassadarOracleTargeted|TassadarOracleTargeted|Active": {
+      "cooldownText": "Tiempo de reutilización: 45 segundos",
+      "fullText": "<c val=\"#AbilityPassive\">Pasivo:</c> Al permanecer inmóvil, obtienes <c val=\"#TooltipNumbers\">30</c> de Armadura especial durante <c val=\"#TooltipNumbers\">0.75</c> segundos y recuperas <c val=\"#TooltipNumbers\">12</c><c val=\"#ColorGray\">~~0.04~~</c> de salud por segundo.<n/><n/>Activar para canalizar hasta <c val=\"#TooltipNumbers\">4</c> segundos, lo que revela un área cada vez más grande en cualquier lugar del mapa.",
+      "name": "Oráculo",
+      "shortText": "Obtienes Armadura especial, canalizar para revelar un área"
+    },
+    "TassadarShadowWalk|TassadarShadowWalk|Active": {
+      "cooldownText": "Tiempo de reutilización: 60 segundos",
+      "fullText": "Tassadar entra en sigilo y no puede ser revelado, pero no puede atacar ni usar habilidades durante <c val=\"#TooltipNumbers\">1.5</c> segundos. Mientras este efecto está activo, recibes un <c val=\"#TooltipNumbers\">40%</c> más de velocidad de movimiento y <c val=\"#TooltipNumbers\">35</c> de Armadura.<n/><n/>Puede lanzarse durante la canalización de Rayo conmocionante.",
+      "name": "Avance sombrío",
+      "shortText": "Entras en sigilo temporalmente, obtienes Armadura"
+    },
+    "TassadarExecutorsWill|TassadarExecutorsWill|Active": {
+      "cooldownText": "Tiempo de reutilización: 40 segundos",
+      "fullText": "Activar para obtener una carga completa de Rayo de resonancia, un <c val=\"#TooltipNumbers\">20%</c> de poder de habilidad especial y hacer que los tiempos de reutilización de la habilidad heroica y las habilidades básicas se regeneren un <c val=\"#TooltipNumbers\">25%</c> más rápido. Este efecto dura mientras Rayo de resonancia permanezca al máximo de carga.",
+      "name": "Voluntad del ejecutor",
+      "shortText": "Activar para potenciar Rayo de resonancia"
+    }
+  },
+  "talents": {
+    "TassadarStaticCharge|TassadarStaticCharge|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Misión:</c> Los héroes golpeados por Rayo conmocionante aumentan el daño de este en <c val=\"#TooltipNumbers\">5</c> y otorgan un <c val=\"#TooltipNumbers\">33%</c> de carga de Rayo de resonancia. <n/><n/>Máximo de <c val=\"#TooltipNumbers\">200</c> de bonificación de daño.",
+      "name": "Carga estática",
+      "shortText": "<c val=\"#TooltipQuest\">Misión:</c> Los héroes golpeados incrementan el daño"
+    },
+    "TassadarPsionicStormPsiInfusion|TassadarPsionicStormPsiInfusionTalent|W|Level1": {
+      "fullText": "Cada unidad enemiga golpeada por Tormenta psiónica que no sea una estructura restituye <c val=\"#TooltipNumbers\">0.5</c> de maná, lo que aumenta a <c val=\"#TooltipNumbers\">5</c> contra héroes.<n/><n/><c val=\"#AbilityPassive\">Pasivo:</c> Aumenta el alcance de lanzamiento de Tormenta psiónica un <c val=\"#TooltipNumbers\">33%</c>.",
+      "name": "Infusión psiónica",
+      "shortText": "Aumenta el alcance, los golpes restituyen maná"
+    },
+    "TassadarKhaydarinAmulet|TassadarKhaydarinAmulet|Trait|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Misión:</c> Rayo de resonancia se carga un <c val=\"#TooltipNumbers\">50%</c> más rápido.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa:</c> Después de que Rayo de resonancia se haya cargado por completo durante <c val=\"#TooltipNumbers\">80</c> segundos, rebota para golpear a <c val=\"#TooltipNumbers\">1</c> objetivo adicional e infligirle un <c val=\"#TooltipNumbers\">75%</c> de daño, dando prioridad a los héroes.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa:</c> Después de que Rayo de resonancia se haya cargado por completo durante <c val=\"#TooltipNumbers\">160</c> segundos, rebota para golpear a <c val=\"#TooltipNumbers\">2</c> objetivos adicionales e infligirles un <c val=\"#TooltipNumbers\">75%</c> de daño, dando prioridad a los héroes.",
+      "name": "Amuleto khaydarín",
+      "shortText": "<c val=\"#TooltipQuest\">Misión: </c>Potencia Rayo de resonancia"
+    },
+    "TassadarInduction|TassadarInduction|Q|Level4": {
+      "fullText": "Tassadar obtiene un <c val=\"#TooltipNumbers\">10%</c> más de velocidad de movimiento. Lanzar Rayo conmocionante aumenta al <c val=\"#TooltipNumbers\">30%</c> esta bonificación durante <c val=\"#TooltipNumbers\">3</c> segundos.",
+      "name": "Inducción",
+      "shortText": "Rayo conmocionante otorga velocidad de movimiento"
+    },
+    "TassadarElectricFence|TassadarElectricFence|E|Level4": {
+      "fullText": "Muro de fuerza inflige <c val=\"#TooltipNumbers\">92</c><c val=\"#ColorGray\">~~0.04~~</c> de daño por segundo a los enemigos cercanos y los ralentiza un <c val=\"#TooltipNumbers\">35%</c>.",
+      "name": "Cerca eléctrica",
+      "shortText": "Muro de fuerza inflige daño y ralentiza"
+    },
+    "TassadarPlasmaShield|TassadarPlasmaShieldTalent|Trait|Level4": {
+      "fullText": "Cuando Rayo de resonancia está completamente cargado, obtienes un escudo equivalente al <c val=\"#TooltipNumbers\">3%</c> de la salud máxima por segundo, que se acumula hasta un <c val=\"#TooltipNumbers\">12%</c>.",
+      "name": "Escudo de plasma",
+      "shortText": "La carga de Rayo de resonancia otorga escudos"
+    },
+    "TassadarBeamAlignment|TassadarBeamAlignment|Q|Level7": {
+      "fullText": "Cuando Rayo de resonancia está completamente cargado, el tiempo de reutilización de Rayo conmocionante se restablece un <c val=\"#TooltipNumbers\">100%</c> más rápido y la duración de la ralentización se incrementa a <c val=\"#TooltipNumbers\">4</c> segundos.<n/><n/><c val=\"#AbilityPassive\">Pasivo: </c>Reduce el costo de maná de Rayo conmocionante de <c val=\"#TooltipNumbers\">55</c> a <c val=\"#TooltipNumbers\">40</c>. ",
+      "name": "Alineación de rayo",
+      "shortText": "Rayo de resonancia reduce el tiempo de reutilización de Rayo conmocionante"
+    },
+    "TassadarPsionicEcho|TassadarPsionicEcho|W|Level7": {
+      "fullText": "Lanzar Tormenta psiónica hace que tu siguiente Rayo conmocionante dentro de los siguientes <c val=\"#TooltipNumbers\">3</c> segundos solo cueste <c val=\"#TooltipNumbers\">30</c> de maná y crea una Tormenta psiónica en el primer enemigo golpeado.",
+      "name": "Eco psiónico",
+      "shortText": "Rayo conmocionante crea una Tormenta psiónica en el héroe golpeado"
+    },
+    "TassadarArcDischarge|TassadarArcDischarge|Trait|Level7": {
+      "fullText": "Cuando Rayo de resonancia está completamente cargado, el alcance de los ataques básicos de Tassadar se incrementa en <c val=\"#TooltipNumbers\">1</c> y su siguiente instancia de daño también crea una Tormenta psiónica en el objetivo.<n/><n/>Este efecto tiene un tiempo de reutilización de <c val=\"#TooltipNumbers\">20</c> segundo que disminuye al doble de velocidad cuando Rayo de resonancia está completamente cargado.",
+      "name": "Descarga en arco",
+      "shortText": "Rayo de resonancia crea Tormentas psiónicas"
+    },
+    "TassadarHeroicAbilityArchon|TassadarArchon|Heroic|Level10": {
+      "cooldownText": "Tiempo de reutilización: 90 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 100</s>",
+      "fullText": "Tassadar se transforma en un Arconte, por lo que obtiene un escudo equivalente al <c val=\"#TooltipNumbers\">25%</c> de su salud máxima y se potencia Rayo de resonancia. Dura <c val=\"#TooltipNumbers\">12</c> segundos.<n/><n/><c val=\"#AbilityPassive\">Rayo de resonancia: </c>Inflige <c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c> de daño al objetivo y <c val=\"#TooltipNumbers\">70</c><c val=\"#ColorGray\">~~0.04~~</c> de daño por proximidad a los enemigos cercanos. A los héroes golpeados se les reduce en <c val=\"#TooltipNumbers\">20</c> la Armadura especial durante <c val=\"#TooltipNumbers\">2</c> segundos. Rayo de resonancia se carga por completo cuando Arconte está activo.",
+      "name": "Arconte",
+      "shortText": "Te conviertes en un Arconte"
+    },
+    "TassadarHeroicAbilityBlackHole|TassadarBlackHole|Heroic|Level10": {
+      "cooldownText": "Tiempo de reutilización: 60 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 60</s>",
+      "fullText": "Después de un lanzamiento de <c val=\"#TooltipNumbers\">0.5</c> segundos, crea un Agujero negro que viaja en una línea larga. Los héroes enemigos dentro del área del Agujero negro son rápidamente atraídos a su centro. Tocar el centro le inflige al objetivo <c val=\"#TooltipNumbers\">310</c><c val=\"#ColorGray\">~~0.04~~</c> de daño y lo aturde durante <c val=\"#TooltipNumbers\">1.25</c> segundos.",
+      "name": "Agujero negro",
+      "shortText": "Inflige daño y aturde a los héroes en una línea larga"
+    },
+    "TassadarFeedback|TassadarFeedback|W|Level13": {
+      "fullText": "Cuando un héroe enemigo es afectado por Tormenta psiónica, la ralentización de Rayo de resonancia se incrementa al <c val=\"#TooltipNumbers\">50%</c> y reduce la Armadura física en <c val=\"#TooltipNumbers\">25</c>.",
+      "name": "Retroalimentación",
+      "shortText": "Tormenta psiónica potencia Rayo de resonancia"
+    },
+    "TassadarShadowWalk|TassadarShadowWalk|Active|Level13": {
+      "cooldownText": "Tiempo de reutilización: 60 segundos",
+      "fullText": "Tassadar entra en sigilo y no puede ser revelado, pero no puede atacar ni usar habilidades durante <c val=\"#TooltipNumbers\">1.5</c> segundos. Mientras este efecto está activo, recibes un <c val=\"#TooltipNumbers\">40%</c> más de velocidad de movimiento y <c val=\"#TooltipNumbers\">35</c> de Armadura.<n/><n/>Puede lanzarse durante la canalización de Rayo conmocionante.",
+      "name": "Avance sombrío",
+      "shortText": "Entras en sigilo temporalmente, obtienes Armadura"
+    },
+    "TassadarOracle|TassadarOracleTargeted|Active|Level13": {
+      "cooldownText": "Tiempo de reutilización: 45 segundos",
+      "fullText": "<c val=\"#AbilityPassive\">Pasivo:</c> Al permanecer inmóvil, obtienes <c val=\"#TooltipNumbers\">30</c> de Armadura especial durante <c val=\"#TooltipNumbers\">0.75</c> segundos y recuperas <c val=\"#TooltipNumbers\">12</c><c val=\"#ColorGray\">~~0.04~~</c> de salud por segundo.<n/><n/>Activar para canalizar hasta <c val=\"#TooltipNumbers\">4</c> segundos, lo que revela un área cada vez más grande en cualquier lugar del mapa.",
+      "name": "Oráculo",
+      "shortText": "Obtienes Armadura especial, canalizar para revelar un área"
+    },
+    "TassadarThermalLance|TassadarThermalLance|Q|Level16": {
+      "fullText": "Rayo conmocionante inflige un <c val=\"#TooltipNumbers\">8%</c> más de la salud máxima como daño al primer héroe que golpea.",
+      "name": "Lanza térmica",
+      "shortText": "Daño porcentual contra el primer héroe"
+    },
+    "TassadarPsychicShock|TassadarPsychicShock|W|Level16": {
+      "fullText": "Tormenta psiónica inflige daño un <c val=\"#TooltipNumbers\">25%</c> más rápido.",
+      "name": "Descarga psíquica",
+      "shortText": "Tormenta psiónica inflige daño más rápido"
+    },
+    "TassadarExecutorsWill|TassadarExecutorsWill|Active|Level16": {
+      "cooldownText": "Tiempo de reutilización: 40 segundos",
+      "fullText": "Activar para obtener una carga completa de Rayo de resonancia, un <c val=\"#TooltipNumbers\">20%</c> de poder de habilidad especial y hacer que los tiempos de reutilización de la habilidad heroica y las habilidades básicas se regeneren un <c val=\"#TooltipNumbers\">25%</c> más rápido. Este efecto dura mientras Rayo de resonancia permanezca al máximo de carga.",
+      "name": "Voluntad del ejecutor",
+      "shortText": "Activar para potenciar Rayo de resonancia"
+    },
+    "TassadarMasteryTwilightArchon|TassadarArchonTwilightArchonTalent|Heroic|Level20": {
+      "fullText": "Los ataques básicos en forma de Arconte aumentan su duración <c val=\"#TooltipNumbers\">2</c> segundos.",
+      "name": "Arconte crepuscular",
+      "shortText": "Los ataques básicos incrementan la duración de Arconte"
+    },
+    "TassadarKugelblitz|TassadarKugelblitz|Heroic|Level20": {
+      "fullText": "A los héroes enemigos golpeados por el centro de Agujero negro se les reduce su Armadura en <c val=\"#TooltipNumbers\">20</c> durante <c val=\"#TooltipNumbers\">3</c> segundos y se crea una Tormenta psiónica en su ubicación.",
+      "name": "Kugelblitz",
+      "shortText": "Agujero negro reduce la Armadura, crea tormentas psiónicas"
+    },
+    "TassadarMasteryForceBarrier|TassadarForceBarrier|E|Level20": {
+      "fullText": "Aumenta la duración de Muro de fuerza <c val=\"#TooltipNumbers\">0.5</c> segundos y su alcance de lanzamiento un <c val=\"#TooltipNumbers\">50%</c>, y reduce su tiempo de reutilización <c val=\"#TooltipNumbers\">10</c> segundos.",
+      "name": "Barrera de fuerza",
+      "shortText": "Aumenta el alcance, reduce el tiempo de reutilización"
+    },
+    "TassadarKhalasGift|TassadarKhalasGift|Passive|Level20": {
+      "fullText": "Obtienes <c val=\"#TooltipNumbers\">4%</c> de poder de habilidad especial para ti y cada héroe aliado cercano, hasta un total de <c val=\"#TooltipNumbers\">20%</c> de poder de habilidad especial. La bonificación total se comparte con todos los aliados que contribuyen.",
+      "name": "Obsequio del Khala",
+      "shortText": "Los aliados cercanos otorgan y reciben poder de habilidad especial"
+    }
+  },
+  "units": {}
+}

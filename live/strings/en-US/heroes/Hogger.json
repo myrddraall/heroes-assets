@@ -1,0 +1,196 @@
+{
+  "abilities": {
+    "HoggerStaggeringBlow|HoggerStaggeringBlow|Q": {
+      "cooldownText": "Cooldown: 12 seconds",
+      "fullText": "Swing your chain in a wide arc, dealing <c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c> damage to enemies hit and knocking them away. If an enemy hits terrain, deal an additional <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c> damage, Stun for <c val=\"#TooltipNumbers\">0.75</c> seconds, and gain <c val=\"#TooltipNumbers\">15</c> Rage.",
+      "name": "Staggering Blow",
+      "shortText": "Knock enemies in an arc"
+    },
+    "HoggerEzThroDynamite|HoggerEzThroDynamite|W": {
+      "cooldownText": "Cooldown: 8 seconds",
+      "fullText": "Toss a bundle of Dynamite with a <c val=\"#TooltipNumbers\">1.5</c> second fuse. Upon detonation, enemies take <c val=\"#TooltipNumbers\">180</c><c val=\"#ColorGray\">~~0.04~~</c> damage and are Slowed by <c val=\"#TooltipNumbers\">30%</c> for <c val=\"#TooltipNumbers\">2</c> seconds. <n/><n/>The Dynamite instantly detonates when landing on an enemy Hero granting Hogger <c val=\"#TooltipNumbers\">10</c> Rage.",
+      "name": "Ez-Thro Dynamite",
+      "shortText": "Throw a bundle of Dynamite"
+    },
+    "HoggerHoggWild|HoggerHoggWild|E": {
+      "cooldownText": "Cooldown: 14 seconds",
+      "fullText": "After <c val=\"#TooltipNumbers\">0.25</c> seconds, become Unstoppable and uncontrollably spin towards the target direction, ricocheting off terrain. Ricocheting off terrain refreshes the duration.<n/><n/>Every <c val=\"#TooltipNumbers\">0.125</c> seconds, deal <c val=\"#TooltipNumbers\">44</c><c val=\"#ColorGray\">~~0.04~~</c> damage to nearby non-Structure enemies. Damage against Heroes is increased by <c val=\"#TooltipNumbers\">.5%</c> for each point of Rage. ",
+      "name": "Hogg Wild",
+      "shortText": "Rapidly spin, dealing damage"
+    },
+    "HoggerHoardapult|HoggerHoardapult|Heroic": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "fullText": "Launch an empowered Loot Hoard with Hogger attached, dealing <c val=\"#TooltipNumbers\">100</c><c val=\"#ColorGray\">~~0.04~~</c> damage and Slowing enemies by <c val=\"#TooltipNumbers\">50%</c> for <c val=\"#TooltipNumbers\">2</c> seconds.<n/><n/>Hoardapult's Loot Hoard lasts for up to <c val=\"#TooltipNumbers\">20</c> seconds, decaying rapidly while not nearby. Every <c val=\"#TooltipNumbers\">10</c> seconds Hogger can take a chunk of Meat from the Loot Hoard.",
+      "name": "Hoardapult",
+      "shortText": "Launch Loot Hoard, Hogger"
+    },
+    "HoggerShockwave|HoggerShockwave|Heroic": {
+      "cooldownText": "Cooldown: 70 seconds",
+      "fullText": "After <c val=\"#TooltipNumbers\">0.5</c> seconds, slam the ground, sending out a shockwave that travels in a long line. Enemies hit by the initial slam take <c val=\"#TooltipNumbers\">335</c><c val=\"#ColorGray\">~~0.04~~</c> damage and are Stunned for <c val=\"#TooltipNumbers\">1.5</c> seconds. Enemies only hit by the shockwave take <c val=\"#TooltipNumbers\">230</c><c val=\"#ColorGray\">~~0.04~~</c> damage and are Stunned for <c val=\"#TooltipNumbers\">0.75</c> seconds.",
+      "name": "Shockwave",
+      "shortText": "Damage and Stun in long line"
+    },
+    "HoggerLootHoard|HoggerLootHoard|Trait": {
+      "cooldownText": "Cooldown: 20 seconds",
+      "fullText": "Toss a pile of junk onto the battlefield, dealing <c val=\"#TooltipNumbers\">102</c><c val=\"#ColorGray\">~~0.04~~</c> damage in an area, knocking enemies away, and acting as terrain for up to <c val=\"#TooltipNumbers\">5</c> seconds.<n/><n/>When the Loot Hoard expires or is destroyed, a chunk of Meat falls out that can be picked up to restore <c val=\"#TooltipNumbers\">3%</c> of maximum Health every second for <c val=\"#TooltipNumbers\">4</c> seconds.<n/><n/>Reactivate to destroy Loot Hoard.",
+      "name": "Loot Hoard",
+      "shortText": "Create terrain and restore Health"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Cooldown: 4 seconds",
+      "fullText": "After Channeling for <c val=\"#TooltipNumbers\">1</c> second, gain <s val=\"StandardTooltipDetails\">30%</s> Movement Speed.",
+      "name": "Summon Mount"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "After Channeling for <c val=\"#TooltipNumbers\">6</c> seconds, teleport back to the Hall of Storms, instantly restoring <c val=\"#TooltipNumbers\">1125</c> Health and <c val=\"#TooltipNumbers\">150</c> Mana.",
+      "name": "Hearthstone"
+    },
+    "HoggerCancelHoggWild|HoggerCancelHoggWild|E": {
+      "fullText": "Stop spinning.",
+      "name": "Cancel Hogg Wild "
+    },
+    "HoggerCancelHoardapult|HoggerDestroyHoardapult|Heroic": {
+      "fullText": "Destroy Hoardapult's Loot Hoard.",
+      "name": "Destroy Hoardapult",
+      "shortText": "Destroy Hoardapult's Loot Hoard"
+    },
+    "HoggerCancelLootHoard|HoggerDestroyLootHoard|Trait": {
+      "fullText": "Destroy Loot Hoard.",
+      "name": "Destroy Loot Hoard",
+      "shortText": "Destroy Loot Hoard"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Dismounts you.",
+      "name": "Unsummon Mount"
+    },
+    "HoggerOnTheProwl|HoggerOnTheProwl|Active": {
+      "cooldownText": "Cooldown: 45 seconds",
+      "fullText": "Activate to gain <c val=\"#TooltipNumbers\">25</c> Rage over <c val=\"#TooltipNumbers\">8</c> seconds.<n/><n/><c val=\"#AbilityPassive\">Passive:</c> You heal for <c val=\"#TooltipNumbers\">7</c><c val=\"#ColorGray\">~~0.04~~</c> Health every second, increased by <c val=\"#TooltipNumbers\">2%</c> per point of Rage. ",
+      "name": "On The Prowl",
+      "shortText": "Periodically heal, activate to gain Rage"
+    },
+    "HoggerNoControl|HoggerNoControl|Active": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "fullText": "Activate to cast an untalented Hogg Wild and begin chasing an enemy Hero. After reaching the Hero, bounce to a random nearby enemy Hero. Lasts up to <c val=\"#TooltipNumbers\">5</c> seconds, rapidly decaying if there are no other enemy Heroes nearby.<n/><n/>Cannot be cancelled.",
+      "name": "No Control",
+      "shortText": "Chase enemies with Hogg Wild"
+    }
+  },
+  "talents": {
+    "HoggerJourneymanCooking|HoggerJourneymanCooking|W|Level1": {
+      "fullText": "Each Hero hit by Ez-Thro Dynamite heals you for <c val=\"#TooltipNumbers\">8%</c> of maximum Health.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Hitting Heroes with Ez-Thro Dynamite permanently increases your maximum Health by <c val=\"#TooltipNumbers\">10</c>, to a maximum of <c val=\"#TooltipNumbers\">750</c> bonus Health.",
+      "name": "Journeyman Cooking",
+      "shortText": "<c val=\"#TooltipQuest\">Quest:</c> Ez-Thro Dynamite heals, increases Health"
+    },
+    "HoggerBonestoGnaw|HoggerBonestoGnaw|Trait|Level1": {
+      "fullText": "Loot Hoard creates a chunk of Meat when it lands. While under the effects of Meat, gain <c val=\"#TooltipNumbers\">10</c> Armor.",
+      "name": "Bones to Gnaw",
+      "shortText": "Loot Hoard creates more Meat, gain Armor"
+    },
+    "HoggerOnTheProwl|HoggerOnTheProwl|Active|Level1": {
+      "cooldownText": "Cooldown: 45 seconds",
+      "fullText": "Activate to gain <c val=\"#TooltipNumbers\">25</c> Rage over <c val=\"#TooltipNumbers\">8</c> seconds.<n/><n/><c val=\"#AbilityPassive\">Passive:</c> You heal for <c val=\"#TooltipNumbers\">7</c><c val=\"#ColorGray\">~~0.04~~</c> Health every second, increased by <c val=\"#TooltipNumbers\">2%</c> per point of Rage. ",
+      "name": "On The Prowl",
+      "shortText": "Periodically heal, activate to gain Rage"
+    },
+    "HoggerBruteForce|HoggerBruteForce|Q|Level4": {
+      "fullText": "Increase the range of Loot Hoard by <c val=\"#TooltipNumbers\">25%</c> and its damage by <c val=\"#TooltipNumbers\">50%</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Hitting Heroes with Staggering Blow permanently increases Basic Attack damage by <c val=\"#TooltipNumbers\">2</c>, to a maximum of <c val=\"#TooltipNumbers\">150</c> bonus damage. Enemy Heroes that hit terrain grant an additional <c val=\"#TooltipNumbers\">6</c> damage.",
+      "name": "Brute Force",
+      "shortText": "Increases Loot Hoard damage, range.<n/><c val=\"#TooltipQuest\">Quest:</c> Hit Heroes with Staggering Blow."
+    },
+    "HoggerAggroRange|HoggerAggroRange|E|Level4": {
+      "fullText": "Increase Hogg Wild's radius by <c val=\"#TooltipNumbers\">20%</c> and each enemy hit generates <c val=\"#TooltipNumbers\">0.5</c> Rage, increased to <c val=\"#TooltipNumbers\">2</c> against Heroes.",
+      "name": "Aggro Range",
+      "shortText": "Increase Hogg Wild radius, generates Rage"
+    },
+    "HoggerHoggersJoggers|HoggerHoggersJoggers|Passive|Level4": {
+      "fullText": "While above <c val=\"#TooltipNumbers\">35</c>Rage, gain <c val=\"#TooltipNumbers\">10%</c> increased Movement Speed and healing received. <n/><n/>When at or above <c val=\"#TooltipNumbers\">50 </c>Rage, increase these bonuses to <c val=\"#TooltipNumbers\">15%</c>.",
+      "name": "Hogger's Joggers",
+      "shortText": "Rage increases Move Speed, healing received"
+    },
+    "HoggerDenseBlastingPowder|HoggerDenseBlastingPowder|W|Level7": {
+      "fullText": "Instant detonations of Ez-Thro Dynamite creates an additional dynamite behind the Hero hit.<n/><n/>Hitting the bundle of Ez-Thro Dynamite with Staggering Blow breaks it into three sticks and launches them forward in an arc.",
+      "name": "Dense Blasting Powder",
+      "shortText": "Create more Ez-Thro Dynamite"
+    },
+    "HoggerGarbageFire|HoggerGarbageFire|Trait|Level7": {
+      "fullText": "Reduce the cooldown of Loot Hoard by <c val=\"#TooltipNumbers\">2</c> seconds. Every <c val=\"#TooltipNumbers\">0.5</c> seconds, enemies in a large area around Loot Hoard take <c val=\"#TooltipNumbers\">23</c><c val=\"#ColorGray\">~~0.04~~</c> damage and are Slowed by <c val=\"#TooltipNumbers\">20%</c>.",
+      "name": "Garbage Fire",
+      "shortText": "Loot Hoard deals area damage, Slows"
+    },
+    "HoggerSeeingRed|HoggerSeeingRed|Passive|Level7": {
+      "fullText": "While above <c val=\"#TooltipNumbers\">50 </c>Rage, gain <c val=\"#TooltipNumbers\">35%</c> Attack Speed and the cooldowns of Staggering Blow and Hogg Wild refresh <c val=\"#TooltipNumbers\">30%</c> faster.",
+      "name": "Seeing Red",
+      "shortText": "Rage empowers Basic Abilities, Basic Attacks"
+    },
+    "HoggerHoardapult|HoggerHoardapult|Heroic|Level10": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "fullText": "Launch an empowered Loot Hoard with Hogger attached, dealing <c val=\"#TooltipNumbers\">100</c><c val=\"#ColorGray\">~~0.04~~</c> damage and Slowing enemies by <c val=\"#TooltipNumbers\">50%</c> for <c val=\"#TooltipNumbers\">2</c> seconds.<n/><n/>Hoardapult's Loot Hoard lasts for up to <c val=\"#TooltipNumbers\">20</c> seconds, decaying rapidly while not nearby. Every <c val=\"#TooltipNumbers\">10</c> seconds Hogger can take a chunk of Meat from the Loot Hoard.",
+      "name": "Hoardapult",
+      "shortText": "Launch Loot Hoard, Hogger"
+    },
+    "HoggerShockwave|HoggerShockwave|Heroic|Level10": {
+      "cooldownText": "Cooldown: 70 seconds",
+      "fullText": "After <c val=\"#TooltipNumbers\">0.5</c> seconds, slam the ground, sending out a shockwave that travels in a long line. Enemies hit by the initial slam take <c val=\"#TooltipNumbers\">335</c><c val=\"#ColorGray\">~~0.04~~</c> damage and are Stunned for <c val=\"#TooltipNumbers\">1.5</c> seconds. Enemies only hit by the shockwave take <c val=\"#TooltipNumbers\">230</c><c val=\"#ColorGray\">~~0.04~~</c> damage and are Stunned for <c val=\"#TooltipNumbers\">0.75</c> seconds.",
+      "name": "Shockwave",
+      "shortText": "Damage and Stun in long line"
+    },
+    "HoggerDustDevil|HoggerDustDevil|E|Level13": {
+      "fullText": "Gain <c val=\"#TooltipNumbers\">25</c> Armor while Hogg Wild is active and for <c val=\"#TooltipNumbers\">4</c> seconds after. When at or above <c val=\"#TooltipNumbers\">50 </c>Rage, increase this Armor to <c val=\"#TooltipNumbers\">40</c>.",
+      "name": "Dust Devil",
+      "shortText": "Hogg Wild grants Armor"
+    },
+    "HoggerPummel|HoggerPummel|E|Level13": {
+      "fullText": "Enemies hit by Hogg Wild are Slowed by <c val=\"#TooltipNumbers\">10%</c> for <c val=\"#TooltipNumbers\">2</c> seconds, stacking up to <c val=\"#TooltipNumbers\">5</c> times. <n/><n/>Heroes hit have their Spell Power reduced by <c val=\"#TooltipNumbers\">30%</c> for <c val=\"#TooltipNumbers\">2</c> seconds.",
+      "name": "Pummel",
+      "shortText": "Hogg Wild Slows, reduces Spell Power"
+    },
+    "HoggerBloodthirst|HoggerBloodthirst|Passive|Level13": {
+      "fullText": "Damaging Heroes with Basic Attacks, Staggering Blow, or Hogg Wild heals you for <c val=\"#TooltipNumbers\">33%</c> of the damage dealt.",
+      "name": "Bloodthirst",
+      "shortText": "Basic Attacks and some Abilities heal"
+    },
+    "HoggerHeadbanger|HoggerHeadbanger|Q|Level16": {
+      "fullText": "Enemy Heroes Stunned by Staggering Blow take an additional <c val=\"#TooltipNumbers\">8%</c> of their maximum Health as damage and are Stunned for an additional <c val=\"#TooltipNumbers\">0.5</c> seconds.",
+      "name": "Headbanger",
+      "shortText": "Increase Staggering Blow damage, Stun"
+    },
+    "HoggerKablooie|HoggerKablooie|W|Level16": {
+      "fullText": "Instant Ez-Thro Dynamite detonations deal <c val=\"#TooltipNumbers\">50%</c> more damage, reduce its cooldown by <c val=\"#TooltipNumbers\">1.5</c> seconds, and increase its Slow amount to <c val=\"#TooltipNumbers\">50%</c>. <n/><n/><c val=\"#AbilityPassive\">Passive:</c> Increase Ez-Thro Dynamite's range by <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Kablooie!",
+      "shortText": "Empower Ez-Thro Dynamite instant detonations"
+    },
+    "HoggerFurzerker|HoggerFurzerker|Passive|Level16": {
+      "fullText": "Hitting Heroes with Staggering Blow or Ez-Thro Dynamite increases the damage of the next Basic Attack within <c val=\"#TooltipNumbers\">8</c> seconds by <c val=\"#TooltipNumbers\">50%</c>, stacking up to <c val=\"#TooltipNumbers\">2</c> times.<n/><n/>When Hogg Wild ends, gain <c val=\"#TooltipNumbers\">30%</c> Movement Speed for <c val=\"#TooltipNumbers\">2</c> seconds.",
+      "name": "Furzerker",
+      "shortText": "Empower Basic Attacks, increase Move Speed"
+    },
+    "HoggerSecretStash|HoggerSecretStash|Heroic|Level20": {
+      "fullText": "Every <c val=\"#TooltipNumbers\">2</c> seconds, Hoardapults' Loot Hoard randomly launches Ez-Thro Dynamite, prioritizing nearby enemy Heroes.<n/><n/>Every <c val=\"#TooltipNumbers\">5</c> seconds, it also launches a chunk of Meat towards Hogger.",
+      "name": "Secret Stash",
+      "shortText": "Loot Hoard launches Dynamite and Meat"
+    },
+    "HoggerPowerSpike|HoggerPowerSpike|Heroic|Level20": {
+      "fullText": "Hitting Heroes with Shockwave reduces their Armor by <c val=\"#TooltipNumbers\">15</c> for <c val=\"#TooltipNumbers\">4</c> seconds and grants <c val=\"#TooltipNumbers\">20</c> Rage.<n/><n/><c val=\"#AbilityPassive\">Passive: </c>Rage's cooldown reduction affects Shockwave's cooldown.",
+      "name": "Power Spike",
+      "shortText": "Shockwave reduces Armor, reduced cooldown"
+    },
+    "HoggerNoControl|HoggerNoControl|Active|Level20": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "fullText": "Activate to cast an untalented Hogg Wild and begin chasing an enemy Hero. After reaching the Hero, bounce to a random nearby enemy Hero. Lasts up to <c val=\"#TooltipNumbers\">5</c> seconds, rapidly decaying if there are no other enemy Heroes nearby.<n/><n/>Cannot be cancelled.",
+      "name": "No Control",
+      "shortText": "Chase enemies with Hogg Wild"
+    },
+    "HoggerAngerManagement|HoggerAngerManagement|Passive|Level20": {
+      "fullText": "Increase maximum Rage by <c val=\"#TooltipNumbers\">50</c>, raising the maximum bonuses for its cooldown refresh rate to <c val=\"#TooltipNumbers\">75%</c> and Hogg Wild's Hero damage to <c val=\"#TooltipNumbers\">75%</c>.<n/><n/><c val=\"#AbilityPassive\">Passive:</c> Basic Attacks grant <c val=\"#TooltipNumbers\">5</c> additional Rage.",
+      "name": "Anger Management",
+      "shortText": "Increase max Rage, increase Rage gains"
+    }
+  },
+  "units": {
+    "HoggerEzThroDynamite": {
+      "description": "Toss a bundle of Dynamite with a <c val=\"#TooltipNumbers\">1.5</c> second fuse. Upon detonation, enemies take <c val=\"#TooltipNumbers\">180</c><c val=\"#ColorGray\">~~0.04~~</c> damage and are Slowed by <c val=\"#TooltipNumbers\">30%</c> for <c val=\"#TooltipNumbers\">2</c> seconds. <n/><n/>The Dynamite instantly detonates when landing on an enemy Hero granting Hogger <c val=\"#TooltipNumbers\">10</c> Rage.",
+      "name": "Ez-Thro Dynamite"
+    }
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "abilities": {
+    "KaelthasFlamestrike|KaelthasFlamestrike|Q": {
+      "cooldownText": "Abklingzeit: 7 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 70</s>",
+      "fullText": "Verursacht nach <c val=\"#TooltipNumbers\">1</c> Sek. <c val=\"#TooltipNumbers\">345</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden im Wirkungsbereich.<n/><n/><c val=\"ff00\">Tiefgrüne Sphären</c> erhöht den Radius um <c val=\"#TooltipNumbers\">50%</c>.",
+      "name": "Flammenschlag",
+      "shortText": "Verursacht im Wirkungsbereich Schaden."
+    },
+    "KaelthasLivingBomb|KaelthasLivingBomb|W": {
+      "cooldownText": "Abklingzeit: 10 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Fügt einem Gegner im Verlauf von <c val=\"#TooltipNumbers\">3</c> Sek. <c val=\"#TooltipNumbers\">126</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zu und explodiert schließlich. Die Explosion fügt allen Gegnern in der Nähe <c val=\"#TooltipNumbers\">215</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zu. Wenn eine Explosion anderen Helden Schaden zufügt, werden sie ebenfalls mit Lebende Bombe belegt. Sekundäre Explosionen können den Effekt aber nicht weiterverbreiten.<n/><n/>Wenn <c val=\"ff00\">Tiefgrüne Sphären</c> aktiv ist, kostet diese Fähigkeit kein Mana und hat keine Abklingzeit.",
+      "name": "Lebende Bombe",
+      "shortText": "Fügt einem Gegner über Zeit Schaden zu und explodiert schließlich."
+    },
+    "KaelthasGravityLapse|KaelthasGravityLapse|E": {
+      "cooldownText": "Abklingzeit: 12 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 90</s>",
+      "fullText": "Betäubt den ersten getroffenen Gegner <c val=\"#TooltipNumbers\">1</c> Sek. lang. <n/><n/><c val=\"ff00\">Tiefgrüne Sphären</c> erhöht die Anzahl der betäubten Gegner auf <c val=\"#TooltipNumbers\">3</c> und verlängert die Betäubungsdauer um <c val=\"#TooltipNumbers\">50%</c>.",
+      "name": "Gravitationsverlust",
+      "shortText": "Betäubt einen Gegner."
+    },
+    "KaelthasPyroblast|KaelthasPyroblast|Heroic": {
+      "cooldownText": "Abklingzeit: 100 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 80</s>",
+      "fullText": "Entfesselt nach <c val=\"#TooltipNumbers\">1.5</c> Sek. einen langsamen Feuerball, der einem gegnerischen Helden <c val=\"#TooltipNumbers\">810</c><c val=\"#ColorGray\">~~0.05~~</c> Schaden und Gegnern in seiner Nähe <c val=\"#TooltipNumbers\">405</c><c val=\"#ColorGray\">~~0.05~~</c> Schaden zufügt.",
+      "name": "Pyroschlag",
+      "shortText": "Schießt einen großen Feuerball auf einen Gegner."
+    },
+    "KaelthasPhoenix|KaelthasPhoenix|Heroic": {
+      "cooldownText": "Abklingzeit: 60 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 80</s>",
+      "fullText": "Ruft einen Phönix herbei, der zum Zielbereich fliegt und Gegnern dabei <c val=\"#TooltipNumbers\">84</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zufügt. Der Phönix bleibt <c val=\"#TooltipNumbers\">7</c> Sek. lang bestehen. Seine Angriffe fügen Gegnern <c val=\"#TooltipNumbers\">84</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zu und verursachen <c val=\"#TooltipNumbers\">42</c><c val=\"#ColorGray\">~~0.04~~</c> Flächenschaden.",
+      "name": "Phönix",
+      "shortText": "Ruft einen Phönix herbei, der Gegner verbrennt."
+    },
+    "KaelthasVerdantSpheres|KaelthasVerdantSpheres|Trait": {
+      "cooldownText": "Abklingzeit: <c val=\"#TooltipNumbers\">6 Sek.</c>",
+      "fullText": "Aktivieren, um Kael'thas' nächste eingesetzte Grundfähigkeit zu verstärken.",
+      "name": "Tiefgrüne Sphären",
+      "shortText": "Verstärkt Kael'thas' nächste eingesetzte Grundfähigkeit."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Abklingzeit: 4 Sek.",
+      "fullText": "Erhöht die Bewegungsgeschwindigkeit nach <c val=\"#TooltipNumbers\">1</c> Sek. Kanalisierung um <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Aufsitzen"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Kanalisiert <c val=\"#TooltipNumbers\">6</c> Sek. lang und teleportiert sich dann zurück zum Altar der Stürme. Dabei werden sofort <c val=\"#TooltipNumbers\">1125</c> Lebenspunkte und <c val=\"#TooltipNumbers\">150</c> Mana wiederhergestellt.",
+      "name": "Ruhestein"
+    },
+    "KaelthasPhoenixRetargetPhoenixAbility|KaelthasPhoenixRetarget|Heroic": {
+      "cooldownText": "Abklingzeit: 1 Sek.",
+      "fullText": "Bewegt den Phönix zu einem anderen Zielbereich.",
+      "name": "Phönix neu positionieren"
+    },
+    ":PASSIVE:|KaelthasVerdantSpheresActive|Trait": {
+      "fullText": "Verstärkt Kael'thas' nächste eingesetzte Grundfähigkeit.",
+      "name": "Tiefgrüne Sphären aktiv"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Sitzt ab.",
+      "name": "Absitzen"
+    },
+    "KaelthasArcaneBarrier|KaelthasArcaneBarrier|Passive": {
+      "cooldownText": "Abklingzeit: 45 Sek.",
+      "fullText": "Erzeugt einen Schild in Höhe von <c val=\"#TooltipNumbers\">100%</c> von Kael'thas' maximalem Mana, der <c val=\"#TooltipNumbers\">4</c> Sek. lang anhält.",
+      "name": "Arkanbarriere",
+      "shortText": "Erzeugt einen Schild, dessen Stärke von Kael'thas' maximalem Mana abhängt."
+    }
+  },
+  "talents": {
+    "KaelthasFlamestrikeConvection|KaelthasFlamestrikeConvectionTalent|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Wiederholbare Quest:</c> Triff <c val=\"#TooltipNumbers\">20gegnerische Helden</c> mit Flammenschlag, ohne dabei zu sterben.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Wiederholbare Belohnung:</c>Erhöht den Schaden von Flammenschlag dauerhaft um <c val=\"#TooltipNumbers\">200</c> sowie Kael'thas' maximale Lebenspunkte um <c val=\"#TooltipNumbers\">100</c>.",
+      "name": "Konvektion",
+      "shortText": "<c val=\"#TooltipQuest\">Quest:</c> Triff Helden, um den Schaden von Flammenschlag zu erhöhen."
+    },
+    "KaelthasVerdantSpheresFelInfusion|KaelthasVerdantSpheresFelInfusionTalent|Trait|Level1": {
+      "fullText": "Erhöht die Fähigkeitsstärke um <c val=\"#TooltipNumbers\">4%</c>. Tiefgrüne Sphären stellt bei Aktivierung <c val=\"#TooltipNumbers\">94</c><c val=\"#ColorGray\">~~0.04~~</c> Lebenspunkte wieder her.",
+      "name": "Teufelsextrakt",
+      "shortText": "Erhöht die Fähigkeitsstärke. Tiefgrüne Sphären heilt."
+    },
+    "KaelthasManaAddict|KaelthasManaAddictTalent|Passive|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Erhöht das maximale Mana pro eingesammelter Regenerationskugel um <c val=\"#TooltipNumbers\">15</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Belohnung:</c> Sobald <c val=\"#TooltipNumbers\">20</c> Regenerationskugeln eingesammelt wurden, kann Arkanbarriere aktiviert werden. Arkanbarriere erzeugt einen Schild in Höhe von <c val=\"#TooltipNumbers\">100%</c> von Kael'thas' maximalem Mana, der <c val=\"#TooltipNumbers\">4</c> Sek. lang anhält. <c val=\"#TooltipNumbers\">45</c> Sek. Abklingzeit.",
+      "name": "Manasüchtig",
+      "shortText": "<c val=\"#TooltipQuest\">Quest:</c> Regenerationskugeln ermöglichen den Einsatz von Arkanbarriere."
+    },
+    "KaelthasGravityLapseNetherWind|KaelthasGravityLapseNetherWindTalent|E|Level4": {
+      "fullText": "Erhöht die Reichweite von Gravitationsverlust um <c val=\"#TooltipNumbers\">30%</c>. Erstattet <c val=\"#TooltipNumbers\">80</c> Mana zurück, wenn ein gegnerischer Held getroffen wird.",
+      "name": "Netherwind",
+      "shortText": "Erhöht die Reichweite von Gravitationsverlust und erstattet Mana zurück."
+    },
+    "KaelthasGravityLapseEnergyRoil|KaelthasGravityLapseEnergyRoilTalent|E|Level4": {
+      "fullText": "Verringert die Manakosten von Gravitationsverlust um <c val=\"#TooltipNumbers\">70</c>. Verringert außerdem die Abklingzeit um <c val=\"#TooltipNumbers\">8</c> Sek., wenn die Fähigkeit einen Helden trifft.",
+      "name": "Energiestrudel",
+      "shortText": "Getroffene Helden verringern die Abklingzeit von Gravitationsverlust."
+    },
+    "KaelthasFlamestrikeManaTap|KaelthasManaTapTalent|Trait|Level4": {
+      "fullText": "Tiefgrüne Sphären stellt bei Aktivierung <c val=\"#TooltipNumbers\">5%</c> des maximalen Manas wieder her.",
+      "name": "Manadurst",
+      "shortText": "Tiefgrüne Sphären stellt Mana wieder her."
+    },
+    "KaelthasFlamestrikeBurnedFlesh|KaelthasBurnedFleshTalent|Q|Level7": {
+      "fullText": "Wenn Flammenschlag <c val=\"#TooltipNumbers\">2</c> oder mehr Helden Schaden zufügt, erleidet jeder zusätzlich Schaden in Höhe von <c val=\"#TooltipNumbers\">8%</c> seiner maximalen Lebenspunkte.",
+      "name": "Verbranntes Fleisch",
+      "shortText": "Flammenschlag ist gegen mehrere Helden stärker."
+    },
+    "KaelthasLivingBombSunKingsFury|KaelthasLivingBombSunKingsFury|W|Level7": {
+      "fullText": "Wenn Lebende Bomben auf gegnerische Helden übergesprungen sind, fügt der Effekt ihnen <c val=\"#TooltipNumbers\">35%</c> mehr Schaden zu.",
+      "name": "Wut des Sonnenkönigs",
+      "shortText": "Lebende Bombe verursacht nach dem Überspringen mehr Schaden."
+    },
+    "KaelthasMasterySunfireEnchantment|KaelthasSunfireEnchantmentTalent|Trait|Level7": {
+      "fullText": "Nach der Aktivierung von Tiefgrüne Sphären verursachen die nächsten <c val=\"#TooltipNumbers\">2</c> automatischen Angriffe stattdessen <c val=\"#TooltipNumbers\">115</c><c val=\"#ColorGray\">~~0.04~~</c> Fähigkeitsschaden. Gewährt <c val=\"#TooltipNumbers\">10</c> Sek. lang <c val=\"#TooltipNumbers\">15%</c> Fähigkeitsstärke, wenn diese beiden Angriffe gegnerische Helden treffen.",
+      "name": "Sonnenfeuerzauber",
+      "shortText": "Tiefgrüne Sphären ermöglichen einen Spezialangriff."
+    },
+    "KaelthasHeroicAbilityPhoenix|KaelthasPhoenix|Heroic|Level10": {
+      "cooldownText": "Abklingzeit: 60 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 80</s>",
+      "fullText": "Ruft einen Phönix herbei, der zum Zielbereich fliegt und Gegnern dabei <c val=\"#TooltipNumbers\">84</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zufügt. Der Phönix bleibt <c val=\"#TooltipNumbers\">7</c> Sek. lang bestehen. Seine Angriffe fügen Gegnern <c val=\"#TooltipNumbers\">84</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zu und verursachen <c val=\"#TooltipNumbers\">42</c><c val=\"#ColorGray\">~~0.04~~</c> Flächenschaden.",
+      "name": "Phönix",
+      "shortText": "Ruft einen Phönix herbei, der Gegner verbrennt."
+    },
+    "KaelthasHeroicAbilityPyroblast|KaelthasPyroblast|Heroic|Level10": {
+      "cooldownText": "Abklingzeit: 100 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 80</s>",
+      "fullText": "Entfesselt nach <c val=\"#TooltipNumbers\">1.5</c> Sek. einen langsamen Feuerball, der einem gegnerischen Helden <c val=\"#TooltipNumbers\">810</c><c val=\"#ColorGray\">~~0.05~~</c> Schaden und Gegnern in seiner Nähe <c val=\"#TooltipNumbers\">405</c><c val=\"#ColorGray\">~~0.05~~</c> Schaden zufügt.",
+      "name": "Pyroschlag",
+      "shortText": "Schießt einen großen Feuerball auf einen Gegner."
+    },
+    "KaelthasLivingBombPyromaniac|KaelthasLivingBombPyromaniacTalent|W|Level13": {
+      "fullText": "Jedes Mal, wenn Lebende Bombe regelmäßigen Schaden verursacht, werden die Abklingzeiten der Grundfähigkeiten um <c val=\"#TooltipNumbers\">0.5</c> Sek. verringert.",
+      "name": "Pyromane",
+      "shortText": "Lebende Bombe verringert die Abklingzeiten der Grundfähigkeiten."
+    },
+    "KaelthasLivingBombBackdraft|KaelthasLivingBombBackdraftTalent|W|Level13": {
+      "fullText": "Bombenexplosionen verringern die Bewegungsgeschwindigkeit von erfassten Gegnern <c val=\"#TooltipNumbers\">2</c> Sek. lang um <c val=\"#TooltipNumbers\">30%</c>.",
+      "name": "Pyrolyse",
+      "shortText": "Bombenexplosionen verlangsamen Gegner."
+    },
+    "KaelthasLivingBombFissionBomb|KaelthasLivingBombFissionBombTalent|W|Level13": {
+      "fullText": "Erhöht den Explosionsradius von Lebende Bombe um <c val=\"#TooltipNumbers\">20%</c>.",
+      "name": "Kernschmelze",
+      "shortText": "Erhöht den Explosionsradius von Lebende Bombe."
+    },
+    "KaelthasFlamestrikeFuryOfTheSunwell|KaelthasFlamestrikeFuryOfTheSunwellTalent|Q|Level16": {
+      "fullText": "Flammenschlag wird nach einer Verzögerung von <c val=\"#TooltipNumbers\">1.5</c> Sek. erneut ausgelöst.",
+      "name": "Wut des Sonnenbrunnens",
+      "shortText": "Flammenschlag löst zwei Explosionen aus."
+    },
+    "KaelthasLivingBombIgnite|KaelthasLivingBombIgnite|W|Level16": {
+      "fullText": "Flammenschlag belegt einen gegnerischen Helden, auf den Lebende Bombe noch nicht wirkt, mit Lebende Bombe. Bevorzugt Helden, die näher beim Zentrum von Flammenschlag sind.",
+      "name": "Entzünden",
+      "shortText": "Flammenschlag belegt Helden mit Lebende Bombe."
+    },
+    "KaelthasTwinSpheres|KaelthasVerdantSpheresTwinSpheresTalent|Trait|Level16": {
+      "fullText": "Fügt Tiefgrüne Sphären eine zweite Aufladung hinzu.<n/><n/><c val=\"#AbilityPassive\">Passiv:</c> Gewährt alle Talente der Stufe <c val=\"#TooltipNumbers\">7</c>.",
+      "name": "Zwillingssphären",
+      "shortText": "Gewährt Talente der Stufe 7 und eine Aufladung von Tiefgrüne Sphären."
+    },
+    "KaelthasPhoenixRebirth|KaelthasPhoenixRebirthTalent|Heroic|Level20": {
+      "fullText": "Erhöht die Lebensdauer des Phönix um <c val=\"#TooltipNumbers\">100%</c>. Der Phönix kann einmalig zu einem zweiten Zielbereich bewegt werden, solange er lebt. Speichert <c val=\"#TooltipNumbers\">3</c> Aufladungen.",
+      "name": "Wiedergeburt",
+      "shortText": "Erhöht die Lebensdauer des Phönix. Der Phönix kann einmal neu positioniert werden."
+    },
+    "KaelthasPyroblastPresenceOfMind|KaelthasPyroblastPresenceOfMindTalent|Heroic|Level20": {
+      "fullText": "Erhöht den Explosionsradius von Pyroschlag um <c val=\"#TooltipNumbers\">50%</c>. Heldentreffer mit Flammenschlag oder überspringende Lebende Bomben verringern die Abklingzeit von Pyroschlag um <c val=\"#TooltipNumbers\">10</c> Sek.",
+      "name": "Geistesgegenwart",
+      "shortText": "Erhöht den Radius von Pyroschlag und verringert die Abklingzeit."
+    },
+    "KaelthasMasterOfFlames|KaelthasMasterOfFlamesLivingBomb|W|Level20": {
+      "fullText": "Gegner, die von einer Bombenexplosion getroffen wurden, können Lebende Bombe ebenfalls weiter verbreiten.",
+      "name": "Meister der Flammen",
+      "shortText": "Lebende Bombe kann immer überspringen."
+    },
+    "KaelthasMasteryFlamethrower|KaelthasFlamethrowerTalent|Q|Level20": {
+      "fullText": "Erhöht die Einsatzreichweite von Flammenschlag um <c val=\"#TooltipNumbers\">40 %</c>. Verringert die Abklingzeit um <c val=\"#TooltipNumbers\">4</c> Sek., wenn Flammenschlag <c val=\"#TooltipNumbers\">2</c> oder mehr Helden trifft.",
+      "name": "Flammenwerfer",
+      "shortText": "Erhöht die Reichweite von Flammenschlag."
+    }
+  },
+  "units": {
+    "KaelthasPhoenix": {
+      "description": "Ruft einen Phönix herbei, der zum Zielbereich fliegt und Gegnern dabei <c val=\"#TooltipNumbers\">84</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zufügt. Der Phönix bleibt <c val=\"#TooltipNumbers\">7</c> Sek. lang bestehen. Seine Angriffe fügen Gegnern <c val=\"#TooltipNumbers\">84</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zu und verursachen <c val=\"#TooltipNumbers\">42</c><c val=\"#ColorGray\">~~0.04~~</c> Flächenschaden.",
+      "name": "Phönix"
+    }
+  }
+}

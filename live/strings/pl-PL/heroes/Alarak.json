@@ -1,0 +1,229 @@
+{
+  "abilities": {
+    "AlarakDiscordStrike|AlarakDiscordStrike|Q": {
+      "cooldownText": "Czas odnowienia: 8 sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 55</s>",
+      "fullText": "Po upływie <c val=\"#TooltipNumbers\">0.5</c> sek. Alarak zadaje wrogom ustawionym w linii prostej <c val=\"#TooltipNumbers\">165</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń <w>i wycisza ich na </w><c val=\"#TooltipNumbers\">1.5</c><w> sek.</w>",
+      "name": "Uderzenie Niezgody",
+      "shortText": "Zadaje obrażenia wrogom na danym obszarze i wycisza ich"
+    },
+    "AlarakTelekinesis|AlarakTelekinesis|W": {
+      "cooldownText": "Czas odnowienia: 12 sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 30</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">Celowanie wektorowe</c><n/>Alarak tworzy falę mocy, która odpycha jego <w>i wszystkich trafionych przeciwników od wskazanego punktu w wybranym kierunku. Zadaje wrogom </w><c val=\"#TooltipNumbers\">48</c><c val=\"#ColorGray\">~~0.04~~</c><w> pkt. obrażeń.</w>",
+      "name": "Telekineza",
+      "shortText": "Popycha wrogów w stronę wybranego miejsca"
+    },
+    "AlarakLightningSurge|AlarakLightningSurge|E": {
+      "cooldownText": "Czas odnowienia: 6 sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 25</s>",
+      "fullText": "Zadaje przeciwnikowi <c val=\"#TooltipNumbers\">62</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń oraz dodatkowo <c val=\"#TooltipNumbers\">100%</c> obrażeń wrogom znajdującym się między Alarakiem a celem. Przywraca <c val=\"#TooltipNumbers\">75</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. zdrowia za każdego trafionego bohatera.",
+      "name": "Uderzenie Błyskawicy",
+      "shortText": "Zadaje obrażenia wrogom ustawionym w linii prostej"
+    },
+    "AlarakDeadlyChargeActivate|AlarakDeadlyCharge|Heroic": {
+      "cooldownText": "Czas odnowienia: 45 sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Alarak przygotowuje się do szarży, która zadaje wszystkim przeciwnikom na jego drodze <c val=\"#TooltipNumbers\">200</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń. Odległość doskoku wzrasta wraz z czasem podtrzymywania, maksymalnie do <c val=\"#TooltipNumbers\">1.5</c><w> sek.</w><n/><n/><w>Wydanie komendy ruchu podczas podtrzymywania zdolności anuluje jej użycie bez ponoszenia kosztów. Otrzymanie obrażeń powoduje przerwanie podtrzymywania.</w>",
+      "name": "Zabójcza Szarża",
+      "shortText": "Po chwili Alarak szarżuje na dużą odległość"
+    },
+    "AlarakCounterStrikeTargeted|AlarakCounterStrikeTargeted|Heroic": {
+      "cooldownText": "Czas odnowienia: 30 sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Alarak obiera sobie na cel obszar i podtrzymuje zdolność przez <c val=\"#TooltipNumbers\">1</c> sek. oraz otrzymuje Ochronę i nieustępliwość. Jeśli wrogi bohater zada mu wówczas obrażenia, Alarak wyśle falę uderzeniową, która zada <c val=\"#TooltipNumbers\">275</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń.",
+      "name": "Kontratak",
+      "shortText": "Powstrzymuje przyjmowanie obrażeń i zadaje obrażenia na obszarze"
+    },
+    ":PASSIVE:|AlarakSadism|Trait": {
+      "fullText": "Obrażenia od zdolności Alaraka i jego skuteczność samoleczenia wzrastają o <c val=\"#TooltipNumbers\">100%</c> przeciwko wrogim bohaterom.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Powtarzalne zadanie:</c> Udział w zabiciu wrogich bohaterów zwiększa skuteczność Sadyzmu o <c val=\"#TooltipNumbers\">3%</c>, maksymalnie do <c val=\"#TooltipNumbers\">30%</c>. Alarak traci premię otrzymaną za udział w zabiciu wrogich bohaterów w chwili śmierci.",
+      "name": "Sadyzm",
+      "shortText": "Obrażenia od zdolności Alaraka i jego skuteczność samoleczenia wzrastają za każdy punkt Sadyzmu o <c val=\"#TooltipNumbers\">1%</c> przeciwko wrogim bohaterom.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Powtarzalne zadanie:</c> Udział w zabiciu wrogich bohaterów zwiększa skuteczność Sadyzmu o <c val=\"#TooltipNumbers\">3%</c>, maksymalnie do <c val=\"#TooltipNumbers\">30%</c>. Alarak traci premię otrzymaną za udział w zabiciu wrogich bohaterów w chwili śmierci."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Czas odnowienia: 4 sek.",
+      "fullText": "Po podtrzymywaniu przez <c val=\"#TooltipNumbers\">1</c> sek. zyskujesz premię <s val=\"StandardTooltipDetails\">30%</s> do szybkości ruchu.",
+      "name": "Przyzwanie Wierzchowca"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Po podtrzymywaniu przez <c val=\"#TooltipNumbers\">6</c> sek. teleportuje bohatera z powrotem do Dworu Burz i przywraca mu natychmiast <c val=\"#TooltipNumbers\">1125</c> pkt. zdrowia oraz <c val=\"#TooltipNumbers\">150</c> pkt. many.",
+      "name": "Kamień Powrotu"
+    },
+    "AlarakCounterStrikeTargeted2ndHeroic|AlarakCounterStrike2ndHeroicSadism|Trait": {
+      "cooldownText": "Czas odnowienia: 30 sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Alarak obiera sobie na cel obszar i podtrzymuje zdolność przez <c val=\"#TooltipNumbers\">1</c> sek. oraz otrzymuje Ochronę i nieustępliwość. Jeśli wrogi bohater zada mu wówczas obrażenia, Alarak wyśle falę uderzeniową, która zada <c val=\"#TooltipNumbers\">275</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń.<n/><n/><s val=\"StandardTooltipHeader\">Sadyzm</s><n/><n/>Obrażenia od zdolności Alaraka i skuteczność jego samoleczenia wzrastają o <c val=\"#TooltipNumbers\">100%</c> przeciwko wrogim bohaterom.<n/><n/>Udział w zabiciu wrogiego bohatera zwiększa skuteczność Sadyzmu o <c val=\"#TooltipNumbers\">3%</c>, maksymalnie do <c val=\"#TooltipNumbers\">30%</c>. Alarak traci premię otrzymaną za udział w zabiciu wrogich bohaterów w chwili śmierci.",
+      "name": "Kontratak",
+      "shortText": "Zadaje bohaterom zwiększone obrażenia od zdolności"
+    },
+    "AlarakDeadlyChargeExecute|AlarakUnleashDeadlyCharge|Heroic": {
+      "fullText": "Wykonujesz Zabójczą Szarżę.<n/><n/>Wydanie komendy ruchu podczas podtrzymywania zdolności anuluje jej użycie bez ponoszenia kosztów. Otrzymanie obrażeń powoduje przerwanie podtrzymywania.",
+      "name": "Wykonanie Zabójczej Szarży",
+      "shortText": "Przygotowanie do Szarży"
+    },
+    "AlarakDeadlyChargeActivate2ndHeroic|AlarakDeadlyCharge2ndHeroicSadism|Trait": {
+      "cooldownText": "Czas odnowienia: 45 sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Alarak przygotowuje się do szarży, która zadaje wszystkim przeciwnikom na jego drodze <c val=\"#TooltipNumbers\">200</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń. Odległość doskoku wzrasta wraz z czasem podtrzymywania, maksymalnie do <c val=\"#TooltipNumbers\">1.5</c><w> sek.</w><n/><n/><w>Wydanie komendy ruchu podczas podtrzymywania zdolności anuluje jej użycie bez ponoszenia kosztów. Otrzymanie obrażeń powoduje przerwanie podtrzymywania.</w><n/><n/><s val=\"StandardTooltipHeader\">Sadyzm</s><n/><n/><w>Obrażenia od zdolności Alaraka i skuteczność jego samoleczenia wzrastają o </w><c val=\"#TooltipNumbers\">100%</c><w> przeciwko wrogim bohaterom.</w><n/><n/><w>Udział w zabiciu wrogiego bohatera zwiększa skuteczność Sadyzmu o </w><c val=\"#TooltipNumbers\">3%</c><w>, maksymalnie do </w><c val=\"#TooltipNumbers\">30%</c><w>. Alarak traci premię otrzymaną za udział w zabiciu wrogich bohaterów w chwili śmierci.</w>",
+      "name": "Zabójcza Szarża",
+      "shortText": "Zadaje bohaterom zwiększone obrażenia od zdolności"
+    },
+    "AlarakDeadlyChargeExecute2ndHeroic|AlarakUnleashDeadlyCharge|Trait": {
+      "fullText": "Wykonujesz Zabójczą Szarżę.<n/><n/>Wydanie komendy ruchu podczas podtrzymywania zdolności anuluje jej użycie bez ponoszenia kosztów. Otrzymanie obrażeń powoduje przerwanie podtrzymywania.",
+      "name": "Wykonanie Zabójczej Szarży",
+      "shortText": "Przygotowanie do Szarży"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Opuszczasz wierzchowca.",
+      "name": "Odesłanie Wierzchowca"
+    },
+    "AlarakRiteofRakShir|AlarakRiteofRakShir|Trait": {
+      "cooldownText": "Czas odnowienia: 300 sek.",
+      "fullText": "Aktywuj, aby Alarak naznaczył wrogiego bohatera na <c val=\"#TooltipNumbers\">300</c> sek.<n/><n/>Trafianie naznaczonego bohatera Uderzeniem Niezgody zwiększa premię zapewnianą przez Sadyzm o <c val=\"#TooltipNumbers\">3%</c>. Zabicie naznaczonego bohatera zwiększa skuteczność Sadyzmu o <c val=\"#TooltipNumbers\">5%</c> i skraca czas odnowienia Rytuału Rak'Shir do <c val=\"#TooltipNumbers\">10</c> sek.<n/><n/>Alarak traci otrzymaną w ten sposób premię w chwili śmierci.",
+      "name": "Rytuał Rak'Shir",
+      "shortText": "Aktywuj, aby naznaczyć bohatera i zwiększyć Sadyzm raniąc go"
+    },
+    "AlarakLightningSurgeLightningBarrage|AlarakLightningSurgeLightningBarrage|E": {
+      "fullText": "Zadaje przeciwnikowi <c val=\"#TooltipNumbers\">62</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń oraz dodatkowo <c val=\"#TooltipNumbers\">100%</c> obrażeń wrogom znajdującym się między Alarakiem a celem. Przywraca <c val=\"#TooltipNumbers\">75</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. zdrowia za każdego trafionego bohatera.",
+      "name": "Uderzenie Błyskawicy",
+      "shortText": "Zadaje obrażenia wrogom ustawionym w linii prostej"
+    },
+    "AlarakHastyBargain|AlarakHastyBargain|Active": {
+      "cooldownText": "Czas odnowienia: 20 sek.",
+      "fullText": "Aktywuj, aby na stałe ograniczyć Sadyzm Alaraka <w>o </w><c val=\"#TooltipNumbers\">4%</c><w> i wyzerować czasy odnowienia zdolności podstawowych.",
+      "name": "Pospieszny Układ",
+      "shortText": "Aktywuj, aby ograniczyć Sadyzm i wyzerować czasy odnowienia zdolności podstawowych"
+    },
+    "AlarakLastLaugh|AlarakLastLaugh|Active": {
+      "cooldownText": "Czas odnowienia: 30 sek.",
+      "fullText": "Aktywuj, aby teleportować Alaraka w wybrane miejsce i usunąć wszystkie efekty unieruchomienia, spowolnienia i otrzymywania obrażeń z upływem czasu. Jeśli Alarak nie trafi wrogich bohaterów <c val=\"#TooltipNumbers\">3</c> razy zdolnościami podstawowymi w ciągu <c val=\"#TooltipNumbers\">4</c> sek. po użyciu Ostatniego Śmiechu, jego zdrowie spada do <c val=\"#TooltipNumbers\">1</c> pkt.",
+      "name": "Ostatni Śmiech",
+      "shortText": "Aktywuj, aby anulować efekty i teleportować Alaraka kosztem zdrowia"
+    },
+    "AlarakMightOfTheHighlordSetDeadlyChargeAsHeroic|AlarakMightOfTheHighlord|Active": {
+      "fullText": "Alarak zyskuje dostęp do obu swoich zdolności bohaterskich. Ta opcja może zostać aktywowana, aby zmienić zdolność w miejscu na zdolności bohaterskie – druga zdolność trafi wtedy do miejsca na cechę.",
+      "name": "Potęga Wielkiego Wodza",
+      "shortText": "Uzyskaj obie zdolności bohaterskie"
+    },
+    "AlarakMightOfTheHighlordSetCounterStrikeAsHeroic|AlarakMightOfTheHighlord|Active": {
+      "fullText": "Alarak zyskuje dostęp do obu swoich zdolności bohaterskich. Ta opcja może zostać aktywowana, aby zmienić zdolność w miejscu na zdolności bohaterskie – druga zdolność trafi wtedy do miejsca na cechę.",
+      "name": "Potęga Wielkiego Wodza",
+      "shortText": "Uzyskaj obie zdolności bohaterskie"
+    }
+  },
+  "talents": {
+    "AlarakOverwhelmingPowerDiscordStrike|AlarakOverwhelmingPower|Q|Level1": {
+      "fullText": "Trafienie wrogiego bohatera Uderzeniem Niezgody zapewnia Alarakowi premię <c val=\"#TooltipNumbers\">40%</c> do szybkości ataku i sprawia, że jego ataki podstawowe leczą, przywracając w postaci zdrowia równowartość <c val=\"#TooltipNumbers\">15%</c> zadanych obrażeń (wartość ta zostaje dodatkowo zwiększona o <c val=\"#TooltipNumbers\">50%</c> premii z Sadyzmu podczas trafiania bohaterów). Czas trwania efektów to <c val=\"#TooltipNumbers\">4</c> sek.",
+      "name": "Przytłaczająca Moc",
+      "shortText": "Uderzenie Niezgody zwiększa szybkość ataku i zapewnia kradzież życia"
+    },
+    "AlarakRuthlessMomentum|AlarakRuthlessMomentum|W|Level1": {
+      "fullText": "Zmniejsza koszt Telekinezy z <c val=\"#TooltipNumbers\">30</c> do <c val=\"#TooltipNumbers\">20 pkt. many.</c> Czas odnowienia Telekinezy upływa o <c val=\"#TooltipNumbers\">100%</c> szybciej, kiedy Alarak ma więcej niż <c val=\"#TooltipNumbers\">80%</c> zdrowia.",
+      "name": "Bezpardonowy Impet",
+      "shortText": "Skraca czas odnowienia przy wysokim poziomie zdrowia"
+    },
+    "AlarakExtendedLightning|AlarakExtendedLightning|E|Level1": {
+      "fullText": "Ogranicza Sadyzm o <c val=\"#TooltipNumbers\">10%</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Zadanie:</c> Trafiaj bohaterów w centralnym punkcie Uderzenia Błyskawicy.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Nagroda:</c> Po trafieniu <c val=\"#TooltipNumbers\">5</c> bohaterów zasięg Uderzenia Błyskawicy wzrasta o <c val=\"#TooltipNumbers\">20%</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Nagroda:</c> Po trafieniu <c val=\"#TooltipNumbers\">15</c> bohaterów obrażenia w centralnym punkcie Uderzenia Błyskawicy spowalniają wrogów o <c val=\"#TooltipNumbers\">40%</c> na <c val=\"#TooltipNumbers\">2</c> sek.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Nagroda:</c> Po trafieniu <c val=\"#TooltipNumbers\">3</c> bohaterów centralnym punktem wiązki przy pojedynczym użyciu zdolności skuteczność Sadyzmu wzrasta o <c val=\"#TooltipNumbers\">10%</c>, a Alarak natychmiast zyskuje pozostałe nagrody.",
+      "name": "Przedłużona Błyskawica",
+      "shortText": "<c val=\"#TooltipQuest\">Zadanie:</c> Ogranicz Sadyzm, by wzmocnić Uderzenie Błyskawicy"
+    },
+    "AlarakChaosReigns|AlarakChaosReigns|Q|Level4": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Zadanie:</c> Trafiaj bohaterów Uderzeniem Niezgody.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Nagroda:</c> Po trafieniu przez Alaraka <c val=\"#TooltipNumbers\">15</c> bohaterów obrażenia Uderzenia Niezgody wzrastają o <c val=\"#TooltipNumbers\">60</c> pkt.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Nagroda:</c> Po trafieniu <c val=\"#TooltipNumbers\">2</c> bohaterów pojedynczym Uderzeniem Niezgody jego obrażenia wzrastają o <c val=\"#TooltipNumbers\">60</c> pkt.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Nagroda:</c> Po trafieniu <c val=\"#TooltipNumbers\">3</c> bohaterów pojedynczym Uderzeniem Niezgody jego obrażenia wzrastają o <c val=\"#TooltipNumbers\">100</c> pkt., a Alarak natychmiast zyskuje wszystkie pozostałe nagrody.",
+      "name": "Chaos w Natarciu",
+      "shortText": "<c val=\"#TooltipQuest\">Zadanie:</c> Trafiaj bohaterów, aby zwiększyć obrażenia zadawane przez Uderzenie Niezgody"
+    },
+    "AlarakNegativelyCharged|AlarakNegativelyCharged|E|Level4": {
+      "fullText": "Zwiększa premię do obrażeń zadawanych Uderzeniem Błyskawicy wrogom znajdującym się między Alarakiem a jego celem do <c val=\"#TooltipNumbers\">175%</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Powtarzalne zadanie:</c> Za każdego bohatera trafionego w centralnym punkcie Uderzenia Błyskawicy premia do obrażeń wzrasta na stałe o <c val=\"#TooltipNumbers\">5%</c>.",
+      "name": "Ładunek Ujemny",
+      "shortText": "<c val=\"#TooltipQuest\">Zadanie:</c> Zwiększ obrażenia w centrum Uderzenia Błyskawicy"
+    },
+    "AlarakShowofForce|AlarakShowofForce|Trait|Level4": {
+      "fullText": "Bohaterowie trafieni <c val=\"#TooltipNumbers\">3</c> zdolnościami Alaraka w ciągu <c val=\"#TooltipNumbers\">2</c> sek. otrzymują dodatkowo <c val=\"#TooltipNumbers\">61</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń i zwiększają Sadyzm o <c val=\"#TooltipNumbers\">2%</c>, maksymalnie do <c val=\"#TooltipNumbers\">20%</c>. <n/><n/>W chwili śmierci Alarak traci cały Sadyzm zyskany dzięki Pokazowi Siły.",
+      "name": "Pokaz Siły",
+      "shortText": "Kombinacje zdolności zadają dodatkowe obrażenia i zwiększają Sadyzm"
+    },
+    "AlarakDissonance|AlarakDissonance|Q|Level7": {
+      "fullText": "Wydłuża czas działania wyciszenia zapewnianego przez Uderzenie Niezgody o <c val=\"#TooltipNumbers\">0,75</c> sek.",
+      "name": "Dysonans",
+      "shortText": "Wydłuża czas działania wyciszenia zapewnianego przez Uderzenie Niezgody"
+    },
+    "AlarakHinderedMotion|AlarakHinderedMotion|W|Level7": {
+      "fullText": "Telekineza spowalnia wrogów o <c val=\"#TooltipNumbers\">30%</c> na <c val=\"#TooltipNumbers\">3</c> sek.",
+      "name": "Utrudniony Ruch",
+      "shortText": "Telekineza spowalnia"
+    },
+    "AlarakAppliedForce|AlarakAppliedForce|W|Level7": {
+      "fullText": "Ogranicza Sadyzm o <c val=\"#TooltipNumbers\">10%</c>, ale Telekineza odpycha o <c val=\"#TooltipNumbers\">15%</c> dalej i ma zasięg zwiększony o <c val=\"#TooltipNumbers\">15%</c>.",
+      "name": "Przyłożenie Siły",
+      "shortText": "Ogranicza Sadyzm, zwiększa zasięg i odległość Telekinezy"
+    },
+    "AlarakDeadlyChargeFirstHeroic|AlarakDeadlyCharge|Heroic|Level10": {
+      "cooldownText": "Czas odnowienia: 45 sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Alarak przygotowuje się do szarży, która zadaje wszystkim przeciwnikom na jego drodze <c val=\"#TooltipNumbers\">200</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń. Odległość doskoku wzrasta wraz z czasem podtrzymywania, maksymalnie do <c val=\"#TooltipNumbers\">1.5</c><w> sek.</w><n/><n/><w>Wydanie komendy ruchu podczas podtrzymywania zdolności anuluje jej użycie bez ponoszenia kosztów. Otrzymanie obrażeń powoduje przerwanie podtrzymywania.</w>",
+      "name": "Zabójcza Szarża",
+      "shortText": "Po chwili Alarak szarżuje na dużą odległość"
+    },
+    "AlarakHeroicAbilityCounterStrike|AlarakCounterStrikeTargeted|Heroic|Level10": {
+      "cooldownText": "Czas odnowienia: 30 sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Alarak obiera sobie na cel obszar i podtrzymuje zdolność przez <c val=\"#TooltipNumbers\">1</c> sek. oraz otrzymuje Ochronę i nieustępliwość. Jeśli wrogi bohater zada mu wówczas obrażenia, Alarak wyśle falę uderzeniową, która zada <c val=\"#TooltipNumbers\">275</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń.",
+      "name": "Kontratak",
+      "shortText": "Powstrzymuje przyjmowanie obrażeń i zadaje obrażenia na obszarze"
+    },
+    "AlarakBladeoftheHighlord|AlarakBladeoftheHighlord|Trait|Level13": {
+      "fullText": "Ataki podstawowe wymierzone w bohaterów zwiększają Sadyzm o <c val=\"#TooltipNumbers\">2%</c>, maksymalnie do <c val=\"#TooltipNumbers\">40%</c>.<n/><n/>W chwili śmierci Alarak traci cały Sadyzm zyskany dzięki Ostrzu Wielkiego Wodza.",
+      "name": "Ostrze Wielkiego Wodza",
+      "shortText": "Ataki podstawowe zwiększają Sadyzm"
+    },
+    "AlarakPureMalice|AlarakPureMalice|Trait|Level13": {
+      "fullText": "Kiedy ginie bohater sojuszniczy, premia za Sadyzm wzrasta o <c val=\"#TooltipNumbers\">10%</c>, maksymalnie do <c val=\"#TooltipNumbers\">40%</c>.<n/><n/>Alarak traci otrzymaną w ten sposób premię w chwili śmierci.",
+      "name": "Czysta Podłość",
+      "shortText": "Zgony sojuszników zwiększają Sadyzm"
+    },
+    "AlarakRiteofRakShir|AlarakRiteofRakShir|Trait|Level13": {
+      "cooldownText": "Czas odnowienia: 300 sek.",
+      "fullText": "Aktywuj, aby Alarak naznaczył wrogiego bohatera na <c val=\"#TooltipNumbers\">300</c> sek.<n/><n/>Trafianie naznaczonego bohatera Uderzeniem Niezgody zwiększa premię zapewnianą przez Sadyzm o <c val=\"#TooltipNumbers\">3%</c>. Zabicie naznaczonego bohatera zwiększa skuteczność Sadyzmu o <c val=\"#TooltipNumbers\">5%</c> i skraca czas odnowienia Rytuału Rak'Shir do <c val=\"#TooltipNumbers\">10</c> sek.<n/><n/>Alarak traci otrzymaną w ten sposób premię w chwili śmierci.",
+      "name": "Rytuał Rak'Shir",
+      "shortText": "Aktywuj, aby naznaczyć bohatera i zwiększyć Sadyzm raniąc go"
+    },
+    "AlarakLethalOnslaughtDiscordStrike|AlarakLethalOnslaught|Q|Level16": {
+      "fullText": "Trafienie wrogiego bohatera Uderzeniem Niezgody zapewnia atakom podstawowym Alaraka <c val=\"#TooltipNumbers\">50%</c> premii do obrażeń za Sadyzm na <c val=\"#TooltipNumbers\">4</c> sek. Ataki podstawowe wymierzone w bohaterów odświeżają czas działania efektu.",
+      "name": "Mordercze Natarcie",
+      "shortText": "Uderzenie Niezgody zapewnia atakom podstawowym premię za Sadyzm"
+    },
+    "AlarakLightningBarrage|AlarakLightningBarrage|E|Level16": {
+      "fullText": "Trafienie wrogiego bohatera w centralnym punkcie Uderzenia Błyskawicy umożliwia jego ponowne użycie za darmo na innym głównym celu w ciągu kolejnych <c val=\"#TooltipNumbers\">3</c> sek. Takie darmowe użycie nie zyskuje efektów Błyskawicznej Kanonady.",
+      "name": "Błyskawiczna Kanonada",
+      "shortText": "Trafienia w centrum zapewniają darmowe użycie Uderzenia Błyskawicy"
+    },
+    "AlarakMockingStrikes|AlarakMockingStrikes|Passive|Level16": {
+      "fullText": "Ataki podstawowe wymierzone we wrogich bohaterów skracają czas odnowienia zdolności podstawowych Alaraka o <c val=\"#TooltipNumbers\">1.5</c> sek. Premia ta jest podwójna w przypadku ogłuszonych, wyciszonych, spowolnionych oraz unieruchomionych wrogich bohaterów.",
+      "name": "Obelżywe Ciosy",
+      "shortText": "Ataki przeciwko obezwładnionym bohaterom skracają czasy odnowienia"
+    },
+    "AlarakWrathOfTheHighlord|AlarakWrathOfTheHighlord|Heroic|Level20": {
+      "fullText": "Jeśli jako zdolność bohaterska została wybrana Zabójcza Szarża, trafieni nią bohaterowie będą otrzymywać dodatkowe obrażenia od zdolności Alaraka o równowartości <c val=\"#TooltipNumbers\">75%</c> dodatkowych obrażeń z Sadyzmu przez <c val=\"#TooltipNumbers\">4</c> sek.<n/><n/>Jeśli jako zdolność bohaterska został wybrany Kontratak, jego czas odnowienia będzie krótszy o <c val=\"#TooltipNumbers\">2.5</c> sek. z każdym wrogim bohaterem trafionym zdolnościami Alaraka.",
+      "name": "Gniew Wielkiego Wodza",
+      "shortText": "Zabójcza Szarża wzmacnia obrażenia Sadyzmu<n/>Zdolności podstawowe skracają czas odnowienia Kontrataku"
+    },
+    "AlarakMightOfTheHighlord|AlarakMightOfTheHighlord|Active|Level20": {
+      "fullText": "Alarak zyskuje dostęp do obu swoich zdolności bohaterskich. Ta opcja może zostać aktywowana, aby zmienić zdolność w miejscu na zdolności bohaterskie – druga zdolność trafi wtedy do miejsca na cechę.",
+      "name": "Potęga Wielkiego Wodza",
+      "shortText": "Uzyskaj obie zdolności bohaterskie"
+    },
+    "AlarakLastLaugh|AlarakLastLaugh|Active|Level20": {
+      "cooldownText": "Czas odnowienia: 30 sek.",
+      "fullText": "Aktywuj, aby teleportować Alaraka w wybrane miejsce i usunąć wszystkie efekty unieruchomienia, spowolnienia i otrzymywania obrażeń z upływem czasu. Jeśli Alarak nie trafi wrogich bohaterów <c val=\"#TooltipNumbers\">3</c> razy zdolnościami podstawowymi w ciągu <c val=\"#TooltipNumbers\">4</c> sek. po użyciu Ostatniego Śmiechu, jego zdrowie spada do <c val=\"#TooltipNumbers\">1</c> pkt.",
+      "name": "Ostatni Śmiech",
+      "shortText": "Aktywuj, aby anulować efekty i teleportować Alaraka kosztem zdrowia"
+    },
+    "AlarakHastyBargain|AlarakHastyBargain|Active|Level20": {
+      "cooldownText": "Czas odnowienia: 20 sek.",
+      "fullText": "Aktywuj, aby na stałe ograniczyć Sadyzm Alaraka <w>o </w><c val=\"#TooltipNumbers\">4%</c><w> i wyzerować czasy odnowienia zdolności podstawowych.",
+      "name": "Pospieszny Układ",
+      "shortText": "Aktywuj, aby ograniczyć Sadyzm i wyzerować czasy odnowienia zdolności podstawowych"
+    }
+  },
+  "units": {}
+}

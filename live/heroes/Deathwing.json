@@ -1,0 +1,690 @@
+{
+  "id": "Deathwing",
+  "unitId": "HeroDeathwing",
+  "hyperlinkId": "Deathwing",
+  "attributeId": "DEAT",
+  "franchise": "Warcraft",
+  "rarity": "Legendary",
+  "releaseDate": "2019-12-03",
+  "isMelee": true,
+  "gender": "Male",
+  "radius": 1.25,
+  "innerRadius": 1,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic",
+    "ImmuneToFriendlyAbilities"
+  ],
+  "scalingLinkIds": [
+    "HeroDummyVeterancy"
+  ],
+  "ratings": {
+    "complexity": 8,
+    "damage": 7,
+    "survivability": 10,
+    "utility": 7
+  },
+  "life": {
+    "amount": 2750,
+    "scale": 0.04,
+    "regenRate": 5.7304,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 100,
+    "regenRate": 5
+  },
+  "playstyles": [
+    "BodyBlocker",
+    "Ganker",
+    "HealingAltarGoalDisabled",
+    "InstantTraveler",
+    "Overconfident",
+    "Roamer",
+    "RoleAutoAttacker",
+    "Suicidal",
+    "TowerPusher",
+    "WaveClearer"
+  ],
+  "weapons": [
+    {
+      "nameId": "DeathwingHeroWeapon",
+      "isDisabled": false,
+      "range": 2.5,
+      "minimumRange": 0,
+      "period": 1.5,
+      "damage": 117,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "DeathwingDark20"
+  ],
+  "variationSkinIds": [
+    "DeathwingVar1",
+    "DeathwingVar2",
+    "DeathwingVar3",
+    "DeathwingVar4",
+    "DeathwingVar5"
+  ],
+  "voiceLineIds": [
+    "DeathwingBase_VoiceLine01",
+    "DeathwingBase_VoiceLine02",
+    "DeathwingBase_VoiceLine03",
+    "DeathwingBase_VoiceLine04",
+    "DeathwingBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "DeathwingMoltenFlame|DeathwingMoltenFlame|Q",
+        "abilityId": "DeathwingMoltenFlame",
+        "buttonId": "DeathwingMoltenFlame",
+        "icon": "storm_ui_icon_deathwing_molten_flame.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "DeathwingIncinerate|DeathwingIncinerate|W",
+        "abilityId": "DeathwingIncinerate",
+        "buttonId": "DeathwingIncinerate",
+        "icon": "storm_ui_icon_deathwing_incinerate.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "DeathwingOnslaught|DeathwingOnslaught|E",
+        "abilityId": "DeathwingOnslaught",
+        "buttonId": "DeathwingOnslaught",
+        "icon": "storm_ui_icon_deathwing_onslaught.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "DeathwingCataclysm|DeathwingCataclysm|Heroic",
+        "abilityId": "DeathwingCataclysm",
+        "buttonId": "DeathwingCataclysm",
+        "icon": "storm_ui_icon_deathwing_cataclysm.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": ":PASSIVE:|DeathwingAspectOfDeath|Trait",
+        "abilityId": ":PASSIVE:",
+        "buttonId": "DeathwingAspectOfDeath",
+        "icon": "storm_ui_icon_deathwing_aspect_of_death.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "DeathwingDragonflight|DeathwingDragonflight|Z",
+        "abilityId": "DeathwingDragonflight",
+        "buttonId": "DeathwingDragonflight",
+        "icon": "storm_ui_icon_deathwing_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|DeathwingHearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "DeathwingHearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "DeathwingMoltenFlame|DeathwingMoltenFlame|Q": {
+      "Basic": [
+        {
+          "linkId": "DeathwingMoltenFlameCancel|DeathwingMoltenFlameCancel|Q",
+          "abilityId": "DeathwingMoltenFlameCancel",
+          "buttonId": "DeathwingMoltenFlameCancel",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "toggleCooldown": 0.75,
+          "abilityType": "Q"
+        }
+      ]
+    },
+    "DeathwingWorldbreakerForm|DeathwingWorldbreaker|W": {
+      "Basic": [
+        {
+          "linkId": "DeathwingLavaBurst|DeathwingLavaBurst|W",
+          "abilityId": "DeathwingLavaBurst",
+          "buttonId": "DeathwingLavaBurst",
+          "icon": "storm_ui_icon_deathwing_lava_burst.png",
+          "abilityType": "W"
+        },
+        {
+          "linkId": "DeathwingEarthShatter|DeathwingEarthShatter|E",
+          "abilityId": "DeathwingEarthShatter",
+          "buttonId": "DeathwingEarthShatter",
+          "icon": "storm_ui_icon_deathwing_earth_shatter.png",
+          "abilityType": "E"
+        }
+      ]
+    },
+    "DeathwingDragonflight|DeathwingDragonflight|Z": {
+      "Basic": [
+        {
+          "linkId": "DeathwingDestroyerForm|DeathwingDestroyer|Q",
+          "abilityId": "DeathwingDestroyerForm",
+          "buttonId": "DeathwingDestroyer",
+          "icon": "storm_ui_icon_deathwing_destroyer.png",
+          "abilityType": "Q"
+        },
+        {
+          "linkId": "DeathwingWorldbreakerForm|DeathwingWorldbreaker|W",
+          "abilityId": "DeathwingWorldbreakerForm",
+          "buttonId": "DeathwingWorldbreaker",
+          "icon": "storm_ui_icon_deathwing_world_breaker.png",
+          "abilityType": "W"
+        }
+      ]
+    },
+    "DeathwingSkyfall|DeathwingSkyfall|E|Level7": {
+      "Basic": [
+        {
+          "linkId": "DeathwingSkyfall|DeathwingSkyfallActive|E",
+          "abilityId": "DeathwingSkyfall",
+          "buttonId": "DeathwingSkyfallActive",
+          "icon": "storm_ui_icon_deathwing_skyfall.png",
+          "charges": {
+            "countMax": 3,
+            "countStart": 3,
+            "countUse": 1,
+            "recastCooldown": 0.5,
+            "isCountHidden": false
+          },
+          "abilityType": "E"
+        }
+      ]
+    },
+    "DeathwingBellowingRoar|DeathwingBellowingRoarTalent|Active|Level10": {
+      "Activable": [
+        {
+          "linkId": "DeathwingBellowingRoar|DeathwingBellowingRoar|Active",
+          "abilityId": "DeathwingBellowingRoar",
+          "buttonId": "DeathwingBellowingRoar",
+          "icon": "storm_ui_icon_deathwing_bellowing_roar.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "DeathwingElementiumPlating|DeathwingElementiumPlatingTalent|Active|Level16": {
+      "Activable": [
+        {
+          "linkId": "DeathwingElementiumPlating|DeathwingElementiumPlating|Active",
+          "abilityId": "DeathwingElementiumPlating",
+          "buttonId": "DeathwingElementiumPlating",
+          "icon": "storm_ui_icon_deathwing_elemental_plating.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "DeathwingDragonSoul|DeathwingDragonSoul|W|Level1",
+        "talentId": "DeathwingDragonSoul",
+        "buttonId": "DeathwingDragonSoul",
+        "abilityId": "DeathwingIncinerate",
+        "icon": "storm_ui_icon_deathwing_heat_wave.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "DeathwingIncinerate|DeathwingIncinerate|W",
+          "DeathwingLavaBurst|DeathwingLavaBurst|W"
+        ]
+      },
+      {
+        "linkId": "DeathwingMoltenBlood|DeathwingMoltenBlood|Trait|Level1",
+        "talentId": "DeathwingMoltenBlood",
+        "buttonId": "DeathwingMoltenBlood",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_deathwing_aspect_of_death.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|DeathwingAspectOfDeath|Trait"
+        ]
+      },
+      {
+        "linkId": "DeathwingDraconicMight|DeathwingDraconicMight|Trait|Level1",
+        "talentId": "DeathwingDraconicMight",
+        "buttonId": "DeathwingDraconicMight",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_deathwing_aspect_of_death_alt1.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|DeathwingAspectOfDeath|Trait"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "DeathwingInfernus|DeathwingInfernus|Q|Level4",
+        "talentId": "DeathwingInfernus",
+        "buttonId": "DeathwingInfernus",
+        "abilityId": "DeathwingMoltenFlame",
+        "icon": "storm_ui_icon_deathwing_molten_flame.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "DeathwingMoltenFlame|DeathwingMoltenFlame|Q",
+          "DeathwingMoltenFlameCancel|DeathwingMoltenFlameCancel|Q"
+        ]
+      },
+      {
+        "linkId": "DeathwingHeatWave|DeathwingHeatWave|W|Level4",
+        "talentId": "DeathwingHeatWave",
+        "buttonId": "DeathwingHeatWave",
+        "abilityId": "DeathwingIncinerate",
+        "icon": "storm_ui_icon_deathwing_heat_wave.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "DeathwingIncinerate|DeathwingIncinerate|W",
+          "DeathwingLavaBurst|DeathwingLavaBurst|W"
+        ]
+      },
+      {
+        "linkId": "DeathwingDragonsIre|DeathwingDragonsIre|Trait|Level4",
+        "talentId": "DeathwingDragonsIre",
+        "buttonId": "DeathwingDragonsIre",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_deathwing_aspect_of_death.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|DeathwingAspectOfDeath|Trait"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "DeathwingFirestorm|DeathwingFirestorm|Z|Level7",
+        "talentId": "DeathwingFirestorm",
+        "buttonId": "DeathwingFirestorm",
+        "abilityId": "DeathwingDragonflight",
+        "icon": "storm_ui_icon_deathwing_firestorm.png",
+        "abilityType": "Z",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "DeathwingDestroyerForm|DeathwingDestroyer|Q",
+          "DeathwingWorldbreakerForm|DeathwingWorldbreaker|W",
+          "DeathwingDragonflight|DeathwingDragonflight|Z"
+        ]
+      },
+      {
+        "linkId": "DeathwingDeathDrop|DeathwingDeathDrop|Z|Level7",
+        "talentId": "DeathwingDeathDrop",
+        "buttonId": "DeathwingDeathDrop",
+        "abilityId": "DeathwingDragonflight",
+        "icon": "storm_ui_icon_deathwing_deathdrop.png",
+        "abilityType": "Z",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "DeathwingDestroyerForm|DeathwingDestroyer|Q",
+          "DeathwingWorldbreakerForm|DeathwingWorldbreaker|W",
+          "DeathwingDragonflight|DeathwingDragonflight|Z"
+        ]
+      },
+      {
+        "linkId": "DeathwingSkyfall|DeathwingSkyfall|E|Level7",
+        "talentId": "DeathwingSkyfall",
+        "buttonId": "DeathwingSkyfall",
+        "abilityId": "DeathwingSkyfall",
+        "icon": "storm_ui_icon_deathwing_skyfall.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "DeathwingDragonflight|DeathwingDragonflight|Z"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "DeathwingBurnBeneathMyShadow|DeathwingBurnBeneathMyShadow|Heroic|Level10",
+        "talentId": "DeathwingBurnBeneathMyShadow",
+        "buttonId": "DeathwingBurnBeneathMyShadow",
+        "abilityId": "DeathwingCataclysm",
+        "icon": "storm_ui_icon_deathwing_cataclysm.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "DeathwingCataclysm|DeathwingCataclysm|Heroic"
+        ]
+      },
+      {
+        "linkId": "DeathwingBellowingRoar|DeathwingBellowingRoarTalent|Active|Level10",
+        "talentId": "DeathwingBellowingRoar",
+        "buttonId": "DeathwingBellowingRoarTalent",
+        "abilityId": "DeathwingBellowingRoar",
+        "icon": "storm_ui_icon_deathwing_bellowing_roar.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "DeathwingWickedInferno|DeathwingWickedInferno|Q|Level13",
+        "talentId": "DeathwingWickedInferno",
+        "buttonId": "DeathwingWickedInferno",
+        "abilityId": "DeathwingMoltenFlame",
+        "icon": "storm_ui_icon_deathwing_molten_flame.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "DeathwingMoltenFlame|DeathwingMoltenFlame|Q",
+          "DeathwingMoltenFlameCancel|DeathwingMoltenFlameCancel|Q"
+        ]
+      },
+      {
+        "linkId": "DeathwingRuination|DeathwingRuination|E|Level13",
+        "talentId": "DeathwingRuination",
+        "buttonId": "DeathwingRuination",
+        "abilityId": "DeathwingOnslaught",
+        "icon": "storm_ui_icon_deathwing_ruination.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "DeathwingEarthShatter|DeathwingEarthShatter|E",
+          "DeathwingOnslaught|DeathwingOnslaught|E"
+        ]
+      },
+      {
+        "linkId": "DeathwingFireAndFury|DeathwingFireAndFury|Passive|Level13",
+        "talentId": "DeathwingFireAndFury",
+        "buttonId": "DeathwingFireAndFury",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_deathwing_fire_and_fury.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|DeathwingAspectOfDeath|Trait"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "DeathwingConflagration|DeathwingConflagration|Q|Level16",
+        "talentId": "DeathwingConflagration",
+        "buttonId": "DeathwingConflagration",
+        "abilityId": "DeathwingMoltenFlame",
+        "icon": "storm_ui_icon_deathwing_molten_flame.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "DeathwingMoltenFlame|DeathwingMoltenFlame|Q",
+          "DeathwingMoltenFlameCancel|DeathwingMoltenFlameCancel|Q"
+        ]
+      },
+      {
+        "linkId": "DeathwingGazeOntoDestruction|DeathwingGazeOntoDestruction|Z|Level16",
+        "talentId": "DeathwingGazeOntoDestruction",
+        "buttonId": "DeathwingGazeOntoDestruction",
+        "abilityId": "DeathwingDragonflight",
+        "icon": "storm_ui_icon_deathwing_deathdrop.png",
+        "abilityType": "Z",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "DeathwingDestroyerForm|DeathwingDestroyer|Q",
+          "DeathwingWorldbreakerForm|DeathwingWorldbreaker|W",
+          "DeathwingDragonflight|DeathwingDragonflight|Z"
+        ]
+      },
+      {
+        "linkId": "DeathwingElementiumPlating|DeathwingElementiumPlatingTalent|Active|Level16",
+        "talentId": "DeathwingElementiumPlating",
+        "buttonId": "DeathwingElementiumPlatingTalent",
+        "abilityId": "DeathwingElementiumPlating",
+        "icon": "storm_ui_icon_deathwing_elemental_plating.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "DeathwingStoodInTheFire|DeathwingStoodInTheFire|Heroic|Level20",
+        "talentId": "DeathwingStoodInTheFire",
+        "buttonId": "DeathwingStoodInTheFire",
+        "abilityId": "DeathwingCataclysm",
+        "icon": "storm_ui_icon_deathwing_cataclysm.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "DeathwingCataclysm|DeathwingCataclysm|Heroic"
+        ]
+      },
+      {
+        "linkId": "DeathwingArrivalOfAGod|DeathwingArrivalOfAGod|Z|Level20",
+        "talentId": "DeathwingArrivalOfAGod",
+        "buttonId": "DeathwingArrivalOfAGod",
+        "abilityId": "DeathwingDragonflight",
+        "icon": "storm_ui_icon_deathwing_deathdrop.png",
+        "abilityType": "Z",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "DeathwingDestroyerForm|DeathwingDestroyer|Q",
+          "DeathwingWorldbreakerForm|DeathwingWorldbreaker|W",
+          "DeathwingDragonflight|DeathwingDragonflight|Z"
+        ]
+      },
+      {
+        "linkId": "DeathwingDestroyersRampage|DeathwingDestroyersRampage|Trait|Level20",
+        "talentId": "DeathwingDestroyersRampage",
+        "buttonId": "DeathwingDestroyersRampage",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_deathwing_destroyer.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "DeathwingDestroyerForm|DeathwingDestroyer|Q",
+          ":PASSIVE:|DeathwingAspectOfDeath|Trait",
+          "DeathwingDragonflight|DeathwingDragonflight|Z"
+        ]
+      }
+    ]
+  },
+  "sheet": "sheets/Deathwing.png",
+  "icons": {
+    "storm_ui_icon_deathwing_molten_flame.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_deathwing_incinerate.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_deathwing_onslaught.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_deathwing_cataclysm.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_deathwing_aspect_of_death.png": [
+      512,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_deathwing_mount.png": [
+      0,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      128,
+      128,
+      111,
+      71
+    ],
+    "hud_btn_bg_ability_cancel.png": [
+      256,
+      128,
+      97,
+      111
+    ],
+    "storm_ui_icon_deathwing_lava_burst.png": [
+      384,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_deathwing_earth_shatter.png": [
+      512,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_deathwing_destroyer.png": [
+      0,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_deathwing_world_breaker.png": [
+      128,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_deathwing_skyfall.png": [
+      256,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_deathwing_bellowing_roar.png": [
+      384,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_deathwing_elemental_plating.png": [
+      512,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_deathwing_heat_wave.png": [
+      0,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_deathwing_aspect_of_death_alt1.png": [
+      128,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_deathwing_firestorm.png": [
+      256,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_deathwing_deathdrop.png": [
+      384,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_deathwing_ruination.png": [
+      512,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_deathwing_fire_and_fury.png": [
+      0,
+      512,
+      128,
+      128
+    ]
+  }
+}

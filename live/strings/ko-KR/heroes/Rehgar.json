@@ -1,0 +1,199 @@
+{
+  "abilities": {
+    "RehgarChainHeal|RehgarChainHeal|Q": {
+      "cooldownText": "재사용 대기시간: 8초",
+      "energyText": "<s val=\"StandardTooltipDetails\">마나: 60</s>",
+      "fullText": "치유의 파도를 일으켜 대상 아군의 생명력을 <c val=\"#TooltipNumbers\">260</c><c val=\"#ColorGray\">~~0.04~~</c> 회복시킨 다음, 사거리 <c val=\"#TooltipNumbers\">7</c> 내에 있는 최대 <c val=\"#TooltipNumbers\">2</c>명의 아군의 생명력을 각각 <c val=\"#TooltipNumbers\">260</c><c val=\"#ColorGray\">~~0.04~~</c> 회복시킵니다.",
+      "name": "연쇄 치유",
+      "shortText": "아군들에게 번지는 치유의 물결 생성"
+    },
+    "RehgarLightningShield|RehgarLightningShield|W": {
+      "cooldownText": "재사용 대기시간: 8초",
+      "energyText": "<s val=\"StandardTooltipDetails\">마나: 50</s>",
+      "fullText": "아군에게 번개의 기운을 불어넣어 주위 적들에게 매초 <c val=\"#TooltipNumbers\">64</c><c val=\"#ColorGray\">~~0.04~~</c>의 피해를 줍니다. 번개 보호막이 적에게 피해를 줄 때마다 자신은 <c val=\"#TooltipNumbers\">1</c>의 마나를 회복합니다. <c val=\"#TooltipNumbers\">5</c>초 동안 지속됩니다.",
+      "name": "번개 보호막",
+      "shortText": "대상 아군에게 번개의 기운을 불어넣어 주위 적들에게 피해를 주게 함"
+    },
+    "RehgarEarthbindTotem|RehgarEarthbindTotem|E": {
+      "cooldownText": "재사용 대기시간: 15초",
+      "energyText": "<s val=\"StandardTooltipDetails\">마나: 50</s>",
+      "fullText": "주위 적들을 <c val=\"#TooltipNumbers\">35%</c> 느려지게 하는 토템을 생성합니다. 토템은 <c val=\"#TooltipNumbers\">260</c><c val=\"#ColorGray\">~~0.04~~</c>의 생명력을 지니고 <c val=\"#TooltipNumbers\">6</c>초 동안 지속됩니다.",
+      "name": "속박의 토템",
+      "shortText": "주위 적들을 느려지게 하는 토템 생성"
+    },
+    "RehgarBloodlust|RehgarBloodlust|Heroic": {
+      "cooldownText": "재사용 대기시간: 90초",
+      "energyText": "<s val=\"StandardTooltipDetails\">마나: 70</s>",
+      "fullText": "주위 아군 영웅들의 공격 속도를 <c val=\"#TooltipNumbers\">40%</c>, 이동 속도를 <c val=\"#TooltipNumbers\">35%</c> 증가시키고 일반 공격으로 주 대상에게 준 피해의 <c val=\"#TooltipNumbers\">30%</c>만큼 생명력을 회복하게 합니다. <c val=\"#TooltipNumbers\">6</c>초 동안 지속됩니다.",
+      "name": "피의 욕망",
+      "shortText": "아군 영웅들의 이동 속도 및 공격 속도 증가, 생명력 흡수 효과 부여"
+    },
+    "RehgarAncestralHealing|RehgarAncestralHealing|Heroic": {
+      "cooldownText": "재사용 대기시간: 100초",
+      "energyText": "<s val=\"StandardTooltipDetails\">마나: 80</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">1</c>초 후, 대상 아군 영웅의 생명력을 <c val=\"#TooltipNumbers\">1180</c><c val=\"#ColorGray\">~~0.04~~</c> 회복시킵니다.",
+      "name": "선조의 치유",
+      "shortText": "아군 영웅 대량 치유"
+    },
+    "RehgarPurge|RehgarPurge|Trait": {
+      "cooldownText": "재사용 대기시간: 60초",
+      "fullText": "아군 영웅에게 사용하면 대상이 <c val=\"#TooltipNumbers\">0.5</c>초 동안 저지 불가 상태가 됩니다. 적 영웅에게 사용하면 대상이 <c val=\"#TooltipNumbers\">80%</c> 느려지며, 감속 효과는 <c val=\"#TooltipNumbers\">2</c>초에 걸쳐 서서히 사라집니다.<n/><n/>자신에게 시전할 수 없습니다.",
+      "name": "정화",
+      "shortText": "대상 아군을 저지 불가 상태로 만듦, 적 영웅을 느려지게 함"
+    },
+    "RehgarGhostWolfActivate|RehgarGhostWolfActivate|Z": {
+      "cooldownText": "재사용 대기시간: 4초",
+      "fullText": "탈것을 사용하는 대신 늑대 정령으로 변신해서 이동 속도가 <c val=\"#TooltipNumbers\">20%</c> 증가합니다. 늑대 정령 형상일 때 일반 공격을 하면 대상을 향해 짧은 거리를 약진하고 <c val=\"#TooltipNumbers\">60%</c> 추가 피해를 줍니다. 피해를 주거나, 기술을 사용하거나, 정신 집중이 필요한 행동을 하면 늑대 정령 형상이 취소됩니다.",
+      "name": "늑대 정령",
+      "shortText": "늑대 정령으로 변신"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "<c val=\"#TooltipNumbers\">6</c>초 동안 정신을 집중한 후, 폭풍의 전당으로 귀환하여 즉시 <c val=\"#TooltipNumbers\">1125</c>의 생명력과 <c val=\"#TooltipNumbers\">150</c>의 마나를 회복합니다.",
+      "name": "귀환석"
+    },
+    "RehgarTotemicProjection|RehgarTotemicProjection|E": {
+      "fullText": "속박의 토템을 즉시 새로운 위치에 놓습니다.",
+      "name": "토템 재배치",
+      "shortText": "속박의 토템 위치 즉시 변경"
+    },
+    "RehgarGhostWolfDeactivate|RehgarGhostWolfDeactivate|Z": {
+      "fullText": "늑대 정령 형상을 종료합니다.",
+      "name": "늑대 정령 비활성화"
+    },
+    "RehgarHealingTotem|RehgarHealingTotem|Active": {
+      "cooldownText": "재사용 대기시간: 30초",
+      "fullText": "사용하면 치유의 토템을 지면에 놓습니다. 토템은 <c val=\"#TooltipNumbers\">125</c><c val=\"#ColorGray\">~~0.04~~</c>의 생명력을 가지며 <c val=\"#TooltipNumbers\">10</c>초 동안, 일정 범위 안에 있는 아군 영웅들을 매초 최대 생명력의 <c val=\"#TooltipNumbers\">2%</c>만큼 치유합니다.",
+      "name": "치유의 토템",
+      "shortText": "사용 시 일정 범위 내 아군을 치유하는 토템 설치"
+    },
+    "RehgarElementalConduit|RehgarElementalConduit|Active": {
+      "cooldownText": "재사용 대기시간: 70초",
+      "fullText": "사용하면 번개 보호막을 획득하고 주위 모든 아군 영웅에게 <c val=\"#TooltipNumbers\">5</c>초 동안 최대 생명력의 <c val=\"#TooltipNumbers\">10%</c>에 해당하는 보호막을 부여합니다.<n/><n/>사용하고 최대 <c val=\"#TooltipNumbers\">5</c>초 동안 이 효과의 번개 보호막으로 적 영웅에게 피해를 주면 주위 아군에게 <c val=\"#TooltipNumbers\">5</c>초 동안 대상의 최대 생명력의 <c val=\"#TooltipNumbers\">1.5%</c>에 해당하는 보호막을 부여합니다.",
+      "name": "원소 출현",
+      "shortText": "번개 보호막 획득, 주위 아군에게 보호막 부여"
+    }
+  },
+  "talents": {
+    "RehgarLightningShieldStormcaller|RehgarLightningShieldStormcaller|W|Level1": {
+      "fullText": "번개 보호막의 반경이 <c val=\"#TooltipNumbers\">25%</c> 증가합니다. <n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">퀘스트:</c> 번개 보호막이 적 영웅에게 피해를 줄 때마다 생명력이 <c val=\"#TooltipNumbers\">2</c>, 마나가 <c val=\"#TooltipNumbers\">1</c> 영구히 증가합니다. 이 효과는 최대 <c val=\"#TooltipNumbers\">200</c>회 중첩됩니다.",
+      "name": "폭풍소환사",
+      "shortText": "<c val=\"#TooltipQuest\">퀘스트:</c> 번개 보호막으로 생명력 및 마나 증가"
+    },
+    "RehgarEarthbindTotemColossalTotem|RehgarEarthbindTotemColossalTotem|E|Level1": {
+      "fullText": "속박의 토템을 다시 사용하면 기존 토템을 다른 위치로 옮길 수 있습니다. 시전할 때마다 토템을 한 번만 옮길 수 있습니다.<n/><n/><c val=\"#AbilityPassive\">지속 효과:</c> 속박의 토템의 범위, 지속 시간이 <c val=\"#TooltipNumbers\">50%</c>, 생명력이 <c val=\"#TooltipNumbers\">25%</c> 증가합니다.",
+      "name": "거대 토템",
+      "shortText": "속박의 토템 생명력, 범위, 지속 시간 증가"
+    },
+    "RehgarFeralHeart|RehgarGhostWolfFeralHeartTalent|Z|Level1": {
+      "fullText": "늑대 정령의 이동 속도 증가 효과가 첫 1초 동안 <c val=\"#TooltipNumbers\">40%</c>로 증가한 뒤 <c val=\"#TooltipNumbers\">30%</c>로 떨어집니다. 늑대 정령으로 변신하거나 변신을 풀면 <c val=\"#TooltipNumbers\">1</c>초 동안 방어력이 <c val=\"#TooltipNumbers\">15</c> 증가합니다.",
+      "name": "야생의 심장",
+      "shortText": "늑대 정령 이동 속도 증가, 방어력 증가"
+    },
+    "RehgarEarthlivingEnchant|RehgarEarthlivingEnchant|Q|Level4": {
+      "fullText": "생명력이 <c val=\"#TooltipNumbers\">50%</c> 미만인 영웅을 연쇄 치유로 치유하면 <c val=\"#TooltipNumbers\">4</c>초에 걸쳐 <c val=\"#TooltipNumbers\">160</c><c val=\"#ColorGray\">~~0.04~~</c>의 생명력을 추가로 회복시킵니다.",
+      "name": "대지생명의 주문",
+      "shortText": "연쇄 치유가 생명력이 낮은 영웅에게 강화"
+    },
+    "RehgarLightningShieldElectricCharge|RehgarLightningShieldElectricCharge|W|Level4": {
+      "fullText": "번개 보호막 대상이 번개 보호막으로 적 영웅에게 준 피해의 <c val=\"#TooltipNumbers\">20%</c>만큼 생명력을 회복합니다. 번개 보호막 대상이 자신일 경우 효과가 두 배가 됩니다.<n/><n/>번개 보호막으로 적에게 피해를 주는 동안 번개 보호막 대상의 이동 속도가 <c val=\"#TooltipNumbers\">10%</c> 증가합니다.",
+      "name": "전하",
+      "shortText": "번개 보호막이 생명력 치유, 이동 속도 증가"
+    },
+    "RehgarHealingTotem|RehgarHealingTotem|Active|Level4": {
+      "cooldownText": "재사용 대기시간: 30초",
+      "fullText": "사용하면 치유의 토템을 지면에 놓습니다. 토템은 <c val=\"#TooltipNumbers\">125</c><c val=\"#ColorGray\">~~0.04~~</c>의 생명력을 가지며 <c val=\"#TooltipNumbers\">10</c>초 동안, 일정 범위 안에 있는 아군 영웅들을 매초 최대 생명력의 <c val=\"#TooltipNumbers\">2%</c>만큼 치유합니다.",
+      "name": "치유의 토템",
+      "shortText": "사용 시 일정 범위 내 아군을 치유하는 토템 설치"
+    },
+    "RehgarEarthbindTotemGroundedTotem|RehgarEarthbindTotemGroundedTotem|E|Level7": {
+      "fullText": "속박의 토템 범위 안에 있는 적 영웅의 공격 속도가 <c val=\"#TooltipNumbers\">15%</c> 감소하고 기술 위력이 <c val=\"#TooltipNumbers\">15%</c> 감소합니다.<n/><n/><c val=\"#AbilityPassive\">지속 효과:</c> 속박의 토템의 시전 사거리가 <c val=\"#TooltipNumbers\">45%</c> 증가합니다.",
+      "name": "흔들리지 않는 토템",
+      "shortText": "속박의 토템 강화"
+    },
+    "RehgarPurification|RehgarPurification|Trait|Level7": {
+      "fullText": "정화로 아군의 감속, 기절, 침묵, 이동 불가 효과를 제거하면 대상의 생명력을 <c val=\"#TooltipNumbers\">220</c><c val=\"#ColorGray\">~~0.04~~</c> 회복시킵니다.<n/><n/>적 영웅에게 정화를 사용하면 대상의 보호막에 최대 <c val=\"#TooltipNumbers\">330</c><c val=\"#ColorGray\">~~0.04~~</c>의 피해를 주고, 받는 치유 효과를 <c val=\"#TooltipNumbers\">2</c>초 동안 <c val=\"#TooltipNumbers\">40%</c> 감소시킵니다.<n/><n/><c val=\"#AbilityPassive\">지속 효과:</c> 정화의 재사용 대기시간이 <c val=\"#TooltipNumbers\">15</c>초 감소합니다.",
+      "name": "정제",
+      "shortText": "정화 강화"
+    },
+    "RehgarBloodAndThunder|RehgarBloodAndThunder|Z|Level7": {
+      "fullText": "늑대 정령일 때 일반 공격을 하면 일반 기술의 재사용 대기시간이 <c val=\"#TooltipNumbers\">1.5</c>초 감소하며 최대 마나의 <c val=\"#TooltipNumbers\">4%</c>를 회복합니다.",
+      "name": "피바람",
+      "shortText": "늑대 정령일 때 일반 공격 시 일반 기술 재사용 대기시간 감소"
+    },
+    "RehgarAncestralHealing|RehgarAncestralHealing|Heroic|Level10": {
+      "cooldownText": "재사용 대기시간: 100초",
+      "energyText": "<s val=\"StandardTooltipDetails\">마나: 80</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">1</c>초 후, 대상 아군 영웅의 생명력을 <c val=\"#TooltipNumbers\">1180</c><c val=\"#ColorGray\">~~0.04~~</c> 회복시킵니다.",
+      "name": "선조의 치유",
+      "shortText": "아군 영웅 대량 치유"
+    },
+    "RehgarBloodlust|RehgarBloodlust|Heroic|Level10": {
+      "cooldownText": "재사용 대기시간: 90초",
+      "energyText": "<s val=\"StandardTooltipDetails\">마나: 70</s>",
+      "fullText": "주위 아군 영웅들의 공격 속도를 <c val=\"#TooltipNumbers\">40%</c>, 이동 속도를 <c val=\"#TooltipNumbers\">35%</c> 증가시키고 일반 공격으로 주 대상에게 준 피해의 <c val=\"#TooltipNumbers\">30%</c>만큼 생명력을 회복하게 합니다. <c val=\"#TooltipNumbers\">6</c>초 동안 지속됩니다.",
+      "name": "피의 욕망",
+      "shortText": "아군 영웅들의 이동 속도 및 공격 속도 증가, 생명력 흡수 효과 부여"
+    },
+    "RehgarMasteryTidalWaves|RehgarChainHealTidalWavesTalent|Q|Level13": {
+      "fullText": "연쇄 치유로 치유한 영웅 하나당 연쇄 치유의 재사용 대기시간이 <c val=\"#TooltipNumbers\">1</c>초 감소합니다. 마나 소모량이 <c val=\"#TooltipNumbers\">60</c>에서 <c val=\"#TooltipNumbers\">40</c><lang rule=\"jongsung\">으로,로</lang> 감소합니다.",
+      "name": "굽이치는 물결",
+      "shortText": "연쇄 치유 재사용 대기시간 및 마나 소모량 감소"
+    },
+    "RehgarLightningShieldEarthShield|RehgarLightningShieldEarthShield|W|Level13": {
+      "fullText": "번개 보호막이 <c val=\"#TooltipNumbers\">3</c>초 동안 아군 영웅의 최대 생명력의 <c val=\"#TooltipNumbers\">14%</c>에 해당하는 보호막을 부여합니다.",
+      "name": "대지의 보호막",
+      "shortText": "번개 보호막이 보호막 부여"
+    },
+    "RehgarWellspring|RehgarWellspring|E|Level13": {
+      "fullText": "<c val=\"#TooltipNumbers\">2</c>초마다 속박의 토템이 주위에서 가장 생명력이 낮은 아군 영웅에게 특성이 적용되지 않은 연쇄 치유를 시전합니다. 이 연쇄 치유는 기본 치유량의 <c val=\"#TooltipNumbers\">35%</c>만큼 생명력을 회복시킵니다.",
+      "name": "샘솟는 물살",
+      "shortText": "속박의 토템이 연쇄 치유 시전"
+    },
+    "RehgarLightningShieldRisingStorm|RehgarLightningShieldRisingStorm|W|Level16": {
+      "fullText": "번개 보호막이 적 영웅에게 피해를 줄 때마다 번개 보호막의 공격력이 <c val=\"#TooltipNumbers\">10%</c> 증가합니다. 이 효과는 최대 <c val=\"#TooltipNumbers\">15</c>회 중첩됩니다.<n/><n/><c val=\"#AbilityPassive\">지속 효과:</c> 번개 보호막의 지속 시간이 <c val=\"#TooltipNumbers\">3</c>초 증가합니다.",
+      "name": "몰려드는 폭풍",
+      "shortText": "번개 보호막 공격력 및 지속 시간 증가"
+    },
+    "RehgarEarthbindTotemEarthgraspTotem|RehgarEarthbindTotemEarthgraspTotem|E|Level16": {
+      "fullText": "속박의 토템을 처음 시전하면 <c val=\"#TooltipNumbers\">90</c><c val=\"#ColorGray\">~~0.04~~</c>의 피해를 주고 주위 적을 <c val=\"#TooltipNumbers\">1</c>초 동안 <c val=\"#TooltipNumbers\">90%</c> 느려지게 합니다.",
+      "name": "결박 토템",
+      "shortText": "속박의 토템 배치 시 피해, 감속 효가 증가"
+    },
+    "RehgarHungerOfTheWolf|RehgarHungeroftheWolf|Z|Level16": {
+      "fullText": "늑대 정령일 때 적 영웅을 공격하면 대상의 최대 생명력의 <c val=\"#TooltipNumbers\">6%</c>만큼 추가 피해를 주고, 자신의 최대 생명력의 <c val=\"#TooltipNumbers\">6%</c>를 회복합니다.",
+      "name": "늑대의 굶주림",
+      "shortText": "늑대 정령일 때 일반 공격 시 추가 피해 및 생명력 회복"
+    },
+    "RehgarAncestralHealingFarseersBlessing|RehgarAncestralHealingFarseersBlessing|Heroic|Level20": {
+      "fullText": "<c val=\"#TooltipNumbers\">1.5</c>초 후, 선조의 치유가 같은 대상에게 한 번 더 시전되며 대상 주위 아군들의 생명력도 <c val=\"#TooltipNumbers\">590</c><c val=\"#ColorGray\">~~0.04~~</c> 회복시킵니다.",
+      "name": "선견자의 축복",
+      "shortText": "두 번 시전 및 광역 치유"
+    },
+    "RehgarGladiatorsWarShout|RehgarBloodlustGladiatorsWarShout|Heroic|Level20": {
+      "fullText": "피의 욕망의 지속 시간과 사거리가 <c val=\"#TooltipNumbers\">100%</c> 증가합니다.",
+      "name": "검투사의 전쟁 고함",
+      "shortText": "피의 욕망 지속 시간 및 사거리 증가"
+    },
+    "RehgarElementalConduit|RehgarElementalConduit|Active|Level20": {
+      "cooldownText": "재사용 대기시간: 70초",
+      "fullText": "사용하면 번개 보호막을 획득하고 주위 모든 아군 영웅에게 <c val=\"#TooltipNumbers\">5</c>초 동안 최대 생명력의 <c val=\"#TooltipNumbers\">10%</c>에 해당하는 보호막을 부여합니다.<n/><n/>사용하고 최대 <c val=\"#TooltipNumbers\">5</c>초 동안 이 효과의 번개 보호막으로 적 영웅에게 피해를 주면 주위 아군에게 <c val=\"#TooltipNumbers\">5</c>초 동안 대상의 최대 생명력의 <c val=\"#TooltipNumbers\">1.5%</c>에 해당하는 보호막을 부여합니다.",
+      "name": "원소 출현",
+      "shortText": "번개 보호막 획득, 주위 아군에게 보호막 부여"
+    },
+    "RehgarPitFighter|RehgarPitFighter|Passive|Level20": {
+      "fullText": "공격력이 <c val=\"#TooltipNumbers\">10%</c>, 기술 위력이 <c val=\"#TooltipNumbers\">3</c> 증가합니다. 주위 아군 영웅 하나당 이 효과가 최대 <c val=\"#TooltipNumbers\">5</c>회까지 추가로 중첩됩니다.<n/><n/><c val=\"#TooltipNumbers\">2</c>회 이상 중첩되면 정화의 재사용 대기시간이 <c val=\"#TooltipNumbers\">50%</c> 빠르게 감소합니다.",
+      "name": "구덩이 투사",
+      "shortText": "아군 주위에서 공격력, 기술 위력 증가"
+    }
+  },
+  "units": {
+    "RehgarEarthbindTotem": {
+      "description": "주위 적들을 <c val=\"#TooltipNumbers\">35%</c> 느려지게 하는 토템을 생성합니다. 토템은 <c val=\"#TooltipNumbers\">260</c><c val=\"#ColorGray\">~~0.04~~</c>의 생명력을 지니고 <c val=\"#TooltipNumbers\">6</c>초 동안 지속됩니다.",
+      "name": "속박의 토템"
+    },
+    "TalentHealingWard": {
+      "description": "<s val=\"StandardTooltipHeader\">치유의 수호물</s><n/><s val=\"StandardTooltipDetails\">재사용 대기시간: 60초</s><n/><n/><s val=\"StandardTooltip\">사용하면 치유의 수호물을 지면에 놓습니다. 수호물은 </s><s val=\"StandardTooltipDetails\">10</s><s val=\"StandardTooltip\">초 동안, 일정 범위 안에 있는 아군을 최대 생명력의 </s><s val=\"StandardTooltipDetails\">2%</s><s val=\"StandardTooltip\">만큼 매초 치유합니다.</s>",
+      "name": "치유의 수호물"
+    }
+  }
+}

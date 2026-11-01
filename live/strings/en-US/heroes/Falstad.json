@@ -1,0 +1,179 @@
+{
+  "abilities": {
+    "FalstadHammerang|FalstadHammerang|Q": {
+      "cooldownText": "Cooldown: 10 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Throw out a Hammer that returns to Falstad, dealing <c val=\"#TooltipNumbers\">80</c><c val=\"#ColorGray\">~~0.04~~</c> damage and Slowing enemies hit by <c val=\"#TooltipNumbers\">25%</c> for <c val=\"#TooltipNumbers\">2</c> seconds. Reactive to explode the Hammer, dealing <c val=\"#TooltipNumbers\">95</c><c val=\"#ColorGray\">~~0.04~~</c> damage to nearby enemies.",
+      "name": "Hammerang",
+      "shortText": "Throw out a Hammer that returns and explodes"
+    },
+    "FalstadLightningRod|FalstadLightningRod|W": {
+      "cooldownText": "Cooldown: 12 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Deal <c val=\"#TooltipNumbers\">107</c><c val=\"#ColorGray\">~~0.04~~</c> damage to an enemy, and an additional <c val=\"#TooltipNumbers\">75</c><c val=\"#ColorGray\">~~0.04~~</c> damage every <c val=\"#TooltipNumbers\">0.9</c> seconds for <c val=\"#TooltipNumbers\">4</c> seconds while close to the target. Deals <c val=\"#TooltipNumbers\">100%</c> increased damage to Minions and Mercenaries.",
+      "name": "Lightning Rod",
+      "shortText": "Deal damage to target enemy while staying close to them"
+    },
+    "FalstadBarrelRoll|FalstadBarrelRoll|E": {
+      "cooldownText": "Cooldown: 13 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 70</s>",
+      "fullText": "Dashes forward and grants a <c val=\"#TooltipNumbers\">171</c><c val=\"#ColorGray\">~~0.04~~</c> point Shield for <c val=\"#TooltipNumbers\">3</c> seconds.",
+      "name": "Barrel Roll",
+      "shortText": "Dash to a location and gain a temporary shield"
+    },
+    "FalstadMightyGust|FalstadMightyGust|Heroic": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 70</s>",
+      "fullText": "Push enemies away, and Slow them by <c val=\"#TooltipNumbers\">40%</c>, decaying over <c val=\"#TooltipNumbers\">4</c> seconds.",
+      "name": "Mighty Gust",
+      "shortText": "Push away enemies and slow them"
+    },
+    "FalstadHinterlandBlast|FalstadHinterlandBlast|Heroic": {
+      "cooldownText": "Cooldown: 120 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 80</s>",
+      "fullText": "After <c val=\"#TooltipNumbers\">1</c> second, deal <c val=\"#TooltipNumbers\">475</c><c val=\"#ColorGray\">~~0.0475~~</c> damage to enemies within a long line. The cooldown is reduced by <c val=\"#TooltipNumbers\">30</c> seconds for every enemy Hero hit.",
+      "name": "Hinterland Blast",
+      "shortText": "Long range damage beam"
+    },
+    "FalstadTailwindCooldownDisplay|FalstadTailwind|Trait": {
+      "cooldownText": "Cooldown: 5 seconds",
+      "fullText": "Gain <c val=\"#TooltipNumbers\">15%</c> increased Movement Speed after not taking damage for <c val=\"#TooltipNumbers\">5</c> seconds.",
+      "name": "Tailwind",
+      "shortText": "After not taking damage for a brief period, gain increased Movement Speed"
+    },
+    "FalstadFlight|FalstadFlight|Z": {
+      "cooldownText": "Cooldown: 75 seconds",
+      "fullText": "Instead of mounting, Falstad can fly a great distance over terrain.",
+      "name": "Flight",
+      "shortText": "Instead of mounting, Falstad can fly a great distance over terrain"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "After Channeling for <c val=\"#TooltipNumbers\">6</c> seconds, teleport back to the Hall of Storms, instantly restoring <c val=\"#TooltipNumbers\">1125</c> Health and <c val=\"#TooltipNumbers\">150</c> Mana.",
+      "name": "Hearthstone"
+    },
+    "FalstadBOOMerang|FalstadHammerangBOOMerangActive|Q": {
+      "cooldownText": "Cooldown: 1 second",
+      "fullText": "Deal <c val=\"#TooltipNumbers\">95</c><c val=\"#ColorGray\">~~0.04~~</c> additional damage in a small area around the Hammer.",
+      "name": "Explode",
+      "shortText": "Deal damage in a small area around the Hammer"
+    },
+    "FalstadFrequentFlyerActive|FalstadTailwindFrequentFlyerActive|Active": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "fullText": "Activate to gain <c val=\"#TooltipNumbers\">25%</c> Attack Speed and Tailwind for <c val=\"#TooltipNumbers\">4</c> seconds.",
+      "name": "Frequent Flyer"
+    }
+  },
+  "talents": {
+    "FalstadHammerangGatheringStorm|FalstadGatheringStormTalent|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Hit enemy Heroes with Hammerang. Restore <c val=\"#TooltipNumbers\">6</c> Mana for each Hero hit. Upon dying, Lose <c val=\"#TooltipNumbers\">8</c> stacks.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Reward:</c> After hitting <c val=\"#TooltipNumbers\">30</c> Heroes, Hammerang permanently deals <c val=\"#TooltipNumbers\">30%</c> more damage.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Reward:</c> After hitting <c val=\"#TooltipNumbers\">80</c> Heroes, Hammerang permanently deals an additional <c val=\"#TooltipNumbers\">50%</c> damage.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Mythic Reward:</c> After hitting <c val=\"#TooltipNumbers\">150</c> Heroes, Hammerang permanently deals an additional <c val=\"#TooltipNumbers\">70%</c> damage.",
+      "name": "Gathering Storm",
+      "shortText": "<c val=\"#TooltipQuest\">Quest:</c> Increase Hammerang damage"
+    },
+    "FalstadLightningRodDishonorableDischarge|FalstadLightningRodDishonorableDischarge|W|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Each Lightning Rod strike upon a Hero after the <c val=\"#TooltipNumbers\">3rd</c> generates <c val=\"#TooltipNumbers\">1</c> stack. If a Hero dies under its effect, generate <c val=\"#TooltipNumbers\">2</c> stacks.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Reward:</c> After <c val=\"#TooltipNumbers\">20</c> stacks, its damage is increased by <c val=\"#TooltipNumbers\">30%</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Reward:</c> After <c val=\"#TooltipNumbers\">45</c> stacks, its cooldown is reduced by <c val=\"#TooltipNumbers\">2</c> seconds and its damage is increased by an additional <c val=\"#TooltipNumbers\">75%</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Mythic Reward:</c> After <c val=\"#TooltipNumbers\">75</c> stacks, its number of strikes is increased by <c val=\"#TooltipNumbers\">2</c> and the final strike Stuns for <c val=\"#TooltipNumbers\">1.25</c> seconds.",
+      "name": "Dishonorable Discharge",
+      "shortText": "<c val=\"#TooltipQuest\">Quest:</c> Increase Lightning Rod damage, strikes"
+    },
+    "FalstadTailwindFrequentFlyer|FalstadTailwindFrequentFlyer|Active|Level1": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "fullText": "Activate Frequent Flyer to gain <c val=\"#TooltipNumbers\">25%</c> Attack Speed and Tailwind for <c val=\"#TooltipNumbers\">4</c> seconds.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Minion kills grant <c val=\"#TooltipNumbers\">1</c> stack. Hero Takedowns grant <c val=\"#TooltipNumbers\">5</c> stacks.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Reward:</c> After <c val=\"#TooltipNumbers\">60</c> stacks, gain <c val=\"#TooltipNumbers\">20</c> Attack Damage.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Reward:</c> After <c val=\"#TooltipNumbers\">150</c> stacks, gain <c val=\"#TooltipNumbers\">50</c> additional Attack Damage.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Mythic Reward:</c> After <c val=\"#TooltipNumbers\">300</c> stacks, gain <c val=\"#TooltipNumbers\">125</c> additional Attack Damage.",
+      "name": "Frequent Flyer",
+      "shortText": "Activate to gain Attack Speed, Tailwind<n/><c val=\"#TooltipQuest\">Quest:</c> Killing enemies grants Basic Attack Damage"
+    },
+    "FalstadMasteryLightningRodStaticShield|FalstadStaticShieldTalent|W|Level4": {
+      "fullText": "Lightning Rod strikes grant a Shield equal to <c val=\"#TooltipNumbers\">4%</c> of Falstad's maximum Health, up to <c val=\"#TooltipNumbers\">28%</c>, for <c val=\"#TooltipNumbers\">4</c> seconds.",
+      "name": "Static Shield",
+      "shortText": "Lightning Rod strikes grants Shields"
+    },
+    "FalstadMasteryUpdraftBarrelRoll|FalstadBarrelRollUpdraftTalent|E|Level4": {
+      "fullText": "Increases Barrel Roll's range by <c val=\"#TooltipNumbers\">40%</c> and Shield amount by <c val=\"#TooltipNumbers\">70%</c>, and its Shield now lasts indefinitely.",
+      "name": "Updraft",
+      "shortText": "Increases Barrel Roll range, Shield"
+    },
+    "FalstadTalentHammerGains|FalstadHammerGainsTalent|Passive|Level4": {
+      "fullText": "Basic Attacks heal for <c val=\"#TooltipNumbers\">20%</c> of the damage dealt to the primary target.",
+      "name": "Hammer Gains",
+      "shortText": "Basic Attacks heal"
+    },
+    "FalstadMasteryHammerangSecretWeapon|FalstadSecretWeaponTalent|Q|Level7": {
+      "fullText": "Increases Hammerang's range by <c val=\"#TooltipNumbers\">30%</c> and Basic Attacks deal <c val=\"#TooltipNumbers\">75%</c> bonus damage while Hammerang is in flight.",
+      "name": "Secret Weapon",
+      "shortText": "Increases Hammerang range, Basic Attack damage"
+    },
+    "FalstadHammerangBOOMerang|FalstadHammerangBOOMerangTalent|Q|Level7": {
+      "fullText": "Hammerang's explosion deals <c val=\"#TooltipNumbers\">100%</c> additional damage, and hitting enemy Heroes reduces their Spell Armor by <c val=\"#TooltipNumbers\">15</c> for <c val=\"#TooltipNumbers\">3</c> seconds.",
+      "name": "BOOMerang",
+      "shortText": "Increase Hammerang's explosion damage"
+    },
+    "FalstadMasteryLightningRodThunderstrikes|FalstadThunderstrikesTalent|W|Level7": {
+      "fullText": "Lightning Rod deals <c val=\"#TooltipNumbers\">25%</c> more damage each subsequent strike.",
+      "name": "Thunderstrikes",
+      "shortText": "Lightning Rod deals increasing damage"
+    },
+    "FalstadHeroicAbilityHinterlandBlast|FalstadHinterlandBlast|Heroic|Level10": {
+      "cooldownText": "Cooldown: 120 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 80</s>",
+      "fullText": "After <c val=\"#TooltipNumbers\">1</c> second, deal <c val=\"#TooltipNumbers\">475</c><c val=\"#ColorGray\">~~0.0475~~</c> damage to enemies within a long line. The cooldown is reduced by <c val=\"#TooltipNumbers\">30</c> seconds for every enemy Hero hit.",
+      "name": "Hinterland Blast",
+      "shortText": "Long range damage beam"
+    },
+    "FalstadHeroicAbilityMightyGust|FalstadMightyGust|Heroic|Level10": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 70</s>",
+      "fullText": "Push enemies away, and Slow them by <c val=\"#TooltipNumbers\">40%</c>, decaying over <c val=\"#TooltipNumbers\">4</c> seconds.",
+      "name": "Mighty Gust",
+      "shortText": "Push away enemies and slow them"
+    },
+    "FalstadMasteryLightningRodChargedUp|FalstadChargedUpTalent|W|Level13": {
+      "fullText": "Increases Lightning Rod range by <c val=\"#TooltipNumbers\">25%</c>. Hero Takedowns reset Lightning Rod's cooldown.",
+      "name": "Charged Up",
+      "shortText": "Increases Lightning Rod range, resets on takedown"
+    },
+    "FalstadMasteryBarrelRollFlowRider|FalstadFlowRiderTalent|Trait|Level13": {
+      "fullText": "While Tailwind is active, Falstad's Basic Abilities recharge <c val=\"#TooltipNumbers\">100%</c> faster.",
+      "name": "Flow Rider",
+      "shortText": "Tailwind recharges Basic Abilities faster"
+    },
+    "FalstadTailwindSustainedWinds|FalstadTailwindSustainedWinds|Trait|Level13": {
+      "fullText": "Basic Attacks against enemy Heroes deal bonus damage equal to <c val=\"#TooltipNumbers\">1.5%</c> of the Hero's maximum Health, increased to <c val=\"#TooltipNumbers\">2%</c> while Tailwind is active.",
+      "name": "Sustained Winds",
+      "shortText": "Increase Basic Attacks against Heroes"
+    },
+    "FalstadMasteryCripplingHammerHammerang|FalstadHammerangCripplingHammerTalent|Q|Level16": {
+      "fullText": "Increase Hammerang's Slow from <c val=\"#TooltipNumbers\">25%</c> to <c val=\"#TooltipNumbers\">50%</c>, and Hammerang's explosion also Slows.",
+      "name": "Crippling Hammer",
+      "shortText": "Increases Hammerang Slow, explosion Slows"
+    },
+    "FalstadMasteryAerieGustsTailwind|FalstadTailwindAerieGustsTalent|Trait|Level16": {
+      "fullText": "Reduces the activation time for Tailwind from <c val=\"#TooltipNumbers\">5</c> to <c val=\"#TooltipNumbers\">3</c> seconds, and increases the Movement Speed bonus from <c val=\"#TooltipNumbers\">15%</c> to <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Aerie Gusts",
+      "shortText": "Reduce Tailwind delay, increase Move Speed"
+    },
+    "FalstadMasteryAfterburner|FalstadBarrelRollAfterburnerTalent|E|Level16": {
+      "fullText": "Barrel Roll increases Movement Speed by <c val=\"#TooltipNumbers\">60%</c>, decaying over <c val=\"#TooltipNumbers\">3</c> seconds.",
+      "name": "Afterburner",
+      "shortText": "Barrel Roll increases Move Speed"
+    },
+    "FalstadMasteryCalloftheWildhammerHinterlandBlast|FalstadHinterlandBlastCalloftheWildhammerTalent|Heroic|Level20": {
+      "fullText": "Hinterland Blast has double the range and deals <c val=\"#TooltipNumbers\">25%</c> more damage.",
+      "name": "Call of the Wildhammer",
+      "shortText": "Increases Hinterland Blast range and damage"
+    },
+    "FalstadMasteryMightyGustWindTunnel|FalstadWindTunnelTalent|Heroic|Level20": {
+      "fullText": "Mighty Gust creates a wind tunnel for <c val=\"#TooltipNumbers\">4</c> seconds. Enemies caught in the tunnel will periodically be pushed back.",
+      "name": "Wind Tunnel",
+      "shortText": "Mighty Gust constantly knocks back"
+    },
+    "GenericTalentNexusFrenzy|NexusFrenzyTalent|Passive|Level20": {
+      "fullText": "Increases Attack Speed by <c val=\"#TooltipNumbers\">20%</c> and Attack Range by <c val=\"#TooltipNumbers\">1.1</c>.",
+      "name": "Nexus Frenzy",
+      "shortText": "Increases Attack Speed and Range"
+    },
+    "FalstadMasteryFlightEpicMount|FalstadEpicMountTalent|Z|Level20": {
+      "fullText": "Reduce the cooldown of Flight by <c val=\"#TooltipNumbers\">50</c> seconds, reduce the cast time before flying to <c val=\"#TooltipNumbers\">0.5</c> seconds, and increase the speed by <c val=\"#TooltipNumbers\">50%</c>.",
+      "name": "Epic Mount",
+      "shortText": "Reduces Flight cooldown and delay"
+    }
+  },
+  "units": {}
+}

@@ -1,0 +1,183 @@
+{
+  "abilities": {
+    "AurielSacredSweep|AurielSacredSweep|Q": {
+      "cooldownText": "Время восстановления: 8 сек.",
+      "fullText": "Ауриэль создает в секторе перед собой поток энергии Света, наносящий противникам <c val=\"#TooltipNumbers\">40</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона и дополнительно <c val=\"#TooltipNumbers\">160</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона тем, кто оказался в центре области действия этой способности.",
+      "name": "Освящающий взмах",
+      "shortText": "Наносит урон противникам в широком секторе. В центре сектора урон возрастает."
+    },
+    "AurielRayOfHeaven|AurielRayOfHeaven|W": {
+      "cooldownText": "Время восстановления: 4 сек.",
+      "fullText": "Ауриэль расходует всю накопленную энергию, чтобы восполнить здоровье всем союзным героям в области действия. Объем исцеления равен количеству потраченной энергии.",
+      "name": "Небесный луч",
+      "shortText": "Расходует всю накопленную энергию и исцеляет союзников в области действия."
+    },
+    "AurielDetainmentStrike|AurielDetainmentStrike|E": {
+      "cooldownText": "Время восстановления: 12 сек.",
+      "fullText": "Наносит <c val=\"#TooltipNumbers\">55</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона первому пораженному вражескому герою и отбрасывает его. Если противник врежется в препятствие, он будет оглушен на <c val=\"#TooltipNumbers\">1.25</c> сек. и дополнительно получит <c val=\"#TooltipNumbers\">165</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона.",
+      "name": "Сдерживающий удар",
+      "shortText": "Отталкивает вражеского героя и оглушает его, если он врезается в препятствие."
+    },
+    "AurielResurrect|AurielResurrect|Heroic": {
+      "cooldownText": "Время восстановления: 100 сек.",
+      "fullText": "При поддержании на душе погибшего союзника в течение <c val=\"#TooltipNumbers\">1</c> сек. после паузы в <c val=\"#TooltipNumbers\">3</c> сек. возвращает его к жизни с <c val=\"#TooltipNumbers\">100%</c> максимального запаса здоровья на месте гибели.<n/><n/>Ауриэль может применить эту способность после своей смерти, чтобы вернуть себя к жизни.",
+      "name": "Воскрешение",
+      "shortText": "Возвращает союзного героя к жизни."
+    },
+    "AurielCrystalAegis|AurielCrystalAegis|Heroic": {
+      "cooldownText": "Время восстановления: 60 сек.",
+      "fullText": "Помещает союзного героя в стазисный кристалл на <c val=\"#TooltipNumbers\">2</c> сек. По истечении времени действия кристалл взрывается, нанося <c val=\"#TooltipNumbers\">255</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона находящимся поблизости противникам.",
+      "name": "Кристальный оплот",
+      "shortText": "Помещает союзного героя в стазисный кристалл, который потом взрывается."
+    },
+    "AurielBestowHope|AurielBestowHope|Trait": {
+      "cooldownText": "Время восстановления: 1.5 сек.",
+      "fullText": "<c val=\"#AbilityPassive\">Пассивный эффект:</c> Ауриэль накапливает энергию в объеме <c val=\"#TooltipNumbers\">70%</c> наносимого героям урона и <c val=\"#TooltipNumbers\">35%</c> наносимого всем остальным целям урона.<n/><n/>При использовании наделяет союзного героя даром надежды. Пока этот союзник находится рядом с Ауриэль, <c val=\"#TooltipNumbers\">30%</c> наносимого им урона по героям и <c val=\"#TooltipNumbers\">10%</c> наносимого им урона по другим целям преобразуется в энергию Ауриэль. Одновременно действует на <c val=\"#TooltipNumbers\">1</c> союзника.<n/><n/>Максимум – <c val=\"#TooltipNumbers\">475</c><c val=\"#ColorGray\">~~0.04~~</c> ед. энергии.",
+      "name": "Дар надежды",
+      "shortText": "Наносимый союзником с «Даром надежды» урон дает энергию."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Время восстановления: 4 сек.",
+      "fullText": "После подготовки длительностью <c val=\"#TooltipNumbers\">1</c> сек. повышает скорость передвижения на <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Вызов транспорта"
+    },
+    "Hearthstone|HearthstoneNoMana|B": {
+      "fullText": "После поддержания в течение <c val=\"#TooltipNumbers\">6</c> сек. телепортирует героя в Зал Штормов, моментально восполняя <c val=\"#TooltipNumbers\">1125</c> ед. здоровья.",
+      "name": "Возвращение"
+    },
+    "AurielResurrectSelf|AurielResurrectSelf|Heroic": {
+      "cooldownText": "Время восстановления: 100 сек.",
+      "fullText": "После паузы в <c val=\"#TooltipNumbers\">3</c> сек. возвращает Ауриэль к жизни на месте гибели с <c val=\"#TooltipNumbers\">100%</c> максимального запаса здоровья.",
+      "name": "Воскрешение",
+      "shortText": "Возвращает союзного героя к жизни."
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Покинуть транспорт.",
+      "name": "Отмена транспорта"
+    },
+    "AurielAngelicFlight|AurielAngelicFlightTalent|Active": {
+      "cooldownText": "Время восстановления: 30 сек.",
+      "fullText": "После паузы в <c val=\"#TooltipNumbers\">2</c> сек. Ауриэль перелетает в выбранное место.",
+      "name": "Ангельский полет",
+      "shortText": "Ауриэль перелетает в выбранное место."
+    },
+    "AurielShieldOfHope|AurielShieldOfHopeTalent|Active": {
+      "cooldownText": "Время восстановления: 60 сек.",
+      "fullText": "При использовании дает находящимся рядом союзным героям щит прочностью <c val=\"#TooltipNumbers\">50%</c> объема недостающего у них здоровья. Время действия – <c val=\"#TooltipNumbers\">3</c> сек.",
+      "name": "Щит надежды",
+      "shortText": "Укрывает союзников щитами, прочность которых зависит от их текущего уровня здоровья."
+    }
+  },
+  "talents": {
+    "AurielIncreasingClaritySacredSweepTalent|AurielIncreasingClaritySacredSweepTalent|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Задача:</c> каждый раз, когда вражеский герой попадает в центр области действия «Освящающего взмаха», урон, наносимый по целям в центре области действия этой способности, увеличивается на <c val=\"#TooltipNumbers\">2</c> ед., вплоть до <c val=\"#TooltipNumbers\">50</c> ед. <n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Награда:</c> после <c val=\"#TooltipNumbers\">25</c> попаданий по героям бонус к урону в центре области действия увеличится до <c val=\"#TooltipNumbers\">180</c> ед.",
+      "name": "Приходящая мудрость",
+      "shortText": "<c val=\"#TooltipQuest\">Задача:</c> поражайте героев, чтобы увеличить урон в центре области действия."
+    },
+    "AurielRighteousAssaultSacredSweepTalent|AurielRighteousAssaultSacredSweepTalent|Q|Level1": {
+      "fullText": "Сокращает время восстановления «Освящающего взмаха» на <c val=\"#TooltipNumbers\">3</c> сек. за каждого попавшего в центр его области поражения вражеского героя.",
+      "name": "Праведный натиск",
+      "shortText": "«Освящающий взмах» восстанавливается быстрее, поражая героев."
+    },
+    "AurielSearingLightRayOfHeavenTalent|AurielSearingLightRayOfHeavenTalent|W|Level1": {
+      "fullText": "«Небесный луч» также наносит урон в объеме <c val=\"#TooltipNumbers\">30%</c> поглощенной энергии героям в области действия.",
+      "name": "Опаляющий свет",
+      "shortText": "«Небесный луч» также наносит урон героям в области своего действия."
+    },
+    "AurielMajesticSpanSacredSweepTalent|AurielMajesticSpanSacredSweepTalent|Q|Level4": {
+      "fullText": "Увеличивает радиус действия «Освящающего взмаха» на <c val=\"#TooltipNumbers\">15%</c>.",
+      "name": "Величественный взмах",
+      "shortText": "Увеличивает радиус действия «Освящающего взмаха»."
+    },
+    "AurielHeavyBurdenDetainmentStrikeTalent|AurielHeavyBurdenDetainmentStrikeTalent|E|Level4": {
+      "fullText": "«Сдерживающий удар» замедляет героев на <c val=\"#TooltipNumbers\">20%</c> на <c val=\"#TooltipNumbers\">2.5</c> сек. На оглушенных им противников замедление действует вдвое сильнее и вдвое дольше.<n/><n/><c val=\"#AbilityPassive\">Пассивный эффект: </c>время действия оглушения «Сдерживающего удара» увеличивается на <c val=\"#TooltipNumbers\">0.25</c> сек.",
+      "name": "Тяжкая ноша",
+      "shortText": "«Сдерживающий удар» замедляет противников."
+    },
+    "AurielRepeatedOffenseDetainmentStrikeTalent|AurielRepeatedOffenseDetainmentStrikeTalent|E|Level4": {
+      "fullText": "Пораженные «Сдерживающим ударом» противники отбрасываются на <c val=\"#TooltipNumbers\">30%</c> дальше.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Задача:</c> каждый раз, когда «Сдерживающий удар» оглушает героя, наносимый этой способностью урон при оглушении увеличивается на <c val=\"#TooltipNumbers\">10</c> ед., вплоть до <c val=\"#TooltipNumbers\">60</c> ед.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Награда:</c> оглушив героев <c val=\"#TooltipNumbers\">6</c> р., Ауриэль увеличит бонус к урону при оглушении «Сдерживающим ударом» до <c val=\"#TooltipNumbers\">250</c> ед.",
+      "name": "Повторное нарушение",
+      "shortText": "«Сдерживающий удар» отбрасывает дальше.<n/><c val=\"#TooltipQuest\">Задача:</c> увеличьте его урон, оглушая героев."
+    },
+    "AurielGlimmerofHopeRayOfHeavenTalent|AurielGlimmerofHopeRayOfHeavenTalent|W|Level7": {
+      "fullText": "Подбор сферы регенерации снижает стоимость следующего «Небесного луча» на <c val=\"#TooltipNumbers\">75%</c>.",
+      "name": "Проблеск надежды",
+      "shortText": "Сферы регенерации уменьшают затраты энергии на «Небесный луч»."
+    },
+    "AurielEmpathicLinkBestowHopeTalent|AurielEmpathicLinkBestowHopeTalent|Trait|Level7": {
+      "fullText": "«Дар надежды» также позволяет накапливать энергию в объеме <c val=\"#TooltipNumbers\">25%</c> получаемого целью умения урона.",
+      "name": "Эмпатическая связь",
+      "shortText": "Получаемый целью с «Даром надежды» урон дает Ауриэль энергию."
+    },
+    "AurielEnergizedCordRayOfHeavenTalent|AurielEnergizedCordRayOfHeavenTalent|Trait|Level7": {
+      "fullText": "Увеличивает объем создаваемой автоатаками Ауриэль энергии до <c val=\"#TooltipNumbers\">130%</c> нанесенного героям урона и до <c val=\"#TooltipNumbers\">70%</c> нанесенного всем остальным целям урона.<n/><n/><c val=\"ffff8a\">Не действует на союзника с «Даром надежды».</c><n/><n/><c val=\"#AbilityPassive\">Пассивный эффект:</c> увеличивает дальность автоатак на <c val=\"#TooltipNumbers\">1.1</c>.",
+      "name": "Заряженная нить",
+      "shortText": "Автоатаки Ауриэль позволяют накапливать больше энергии."
+    },
+    "AurielHeroicResurrect|AurielResurrect|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 100 сек.",
+      "fullText": "При поддержании на душе погибшего союзника в течение <c val=\"#TooltipNumbers\">1</c> сек. после паузы в <c val=\"#TooltipNumbers\">3</c> сек. возвращает его к жизни с <c val=\"#TooltipNumbers\">100%</c> максимального запаса здоровья на месте гибели.<n/><n/>Ауриэль может применить эту способность после своей смерти, чтобы вернуть себя к жизни.",
+      "name": "Воскрешение",
+      "shortText": "Возвращает союзного героя к жизни."
+    },
+    "AurielHeroicCrystalAegis|AurielCrystalAegis|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 60 сек.",
+      "fullText": "Помещает союзного героя в стазисный кристалл на <c val=\"#TooltipNumbers\">2</c> сек. По истечении времени действия кристалл взрывается, нанося <c val=\"#TooltipNumbers\">255</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона находящимся поблизости противникам.",
+      "name": "Кристальный оплот",
+      "shortText": "Помещает союзного героя в стазисный кристалл, который потом взрывается."
+    },
+    "AurielBlindingFlashSacredSweepTalent|AurielBlindingFlashSacredSweepTalent|Q|Level13": {
+      "fullText": "Ослепляет противников, попавших в центр области действия «Освящающего взмаха», на <c val=\"#TooltipNumbers\">2</c> сек.",
+      "name": "Ослепляющая вспышка",
+      "shortText": "«Освящающий взмах» ослепляет врагов в центре области действия."
+    },
+    "AurielConvergingForceSacredSweepTalent|AurielConvergingForceSacredSweepTalent|Q|Level13": {
+      "fullText": "Противники, оказавшиеся на краю области действия «Освящающего взмаха», притягиваются в ее центр.",
+      "name": "Завихрения",
+      "shortText": "«Освящающий взмах» притягивает врагов в центр области действия."
+    },
+    "AurielPiercingLashDetainmentStrikeTalent|AurielPiercingLashDetainmentStrikeTalent|E|Level13": {
+      "fullText": "«Сдерживающий удар» наносит урон всем героям на прямой линии и проходит сквозь них, сокращая время восстановления способности на <c val=\"#TooltipNumbers\">2</c> за каждого пораженного героя.",
+      "name": "Пронзающий бич",
+      "shortText": "«Сдерживающий удар» наносит урон всем героям на одной линии."
+    },
+    "AurielReservoirofHopeRayOfHeavenTalent|AurielReservoirofHopeRayOfHeavenTalent|W|Level16": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Задача:</c> каждое применение «Небесного луча» при полном запасе энергии увеличивает максимальный запас энергии на <c val=\"#TooltipNumbers\">55</c> ед.",
+      "name": "Обитель надежды",
+      "shortText": "<c val=\"#TooltipQuest\">Задача:</c> увеличьте максимальный запас энергии."
+    },
+    "AurielWillofHeavenBestowHopeTalent|AurielWillofHeavenBestowHopeTalent|Trait|Level16": {
+      "fullText": "Повышает скорость атаки цели «Дара надежды» на <c val=\"#TooltipNumbers\">20%</c>.<n/><n/><c val=\"#AbilityPassive\">Пассивный эффект:</c> увеличивает урон от автоатак Ауриэль на <c val=\"#TooltipNumbers\">10%</c>.",
+      "name": "Воля Небес",
+      "shortText": "Цель «Дара надежды» атакует быстрее."
+    },
+    "AurielWrathofHeavenBestowHopeTalent|AurielWrathofHeavenBestowHopeTalent|Trait|Level16": {
+      "fullText": "Увеличивает силу способностей цели «Дара надежды» на <c val=\"#TooltipNumbers\">15%</c>.<n/><n/>Ослабляет энергетическую броню противников, попавших в центр области действия «Освящающего взмаха» или отброшенных «Сдерживающим ударом» и столкнувшихся с препятствиями, на <c val=\"#TooltipNumbers\">20</c> ед. на <c val=\"#TooltipNumbers\">3</c> сек.",
+      "name": "Гнев Небес",
+      "shortText": "Цель «Дара надежды» получает бонус к силе способностей."
+    },
+    "AurielLightSpeedResurrectTalent|AurielLightSpeedResurrectTalent|Heroic|Level20": {
+      "fullText": "Повышает скорость передвижения воскрешенного союзника на <c val=\"#TooltipNumbers\">200%</c>. Эффект постепенно ослабевает в течение <c val=\"#TooltipNumbers\">4</c> сек. Пока воскрешенный союзник жив, следующее «Воскрешение» восстанавливается на <c val=\"#TooltipNumbers\">100%</c> быстрее.",
+      "name": "Скорость Света",
+      "shortText": "Ускоряет передвижение воскрешенных союзников и восстановление «Воскрешения»."
+    },
+    "AurielDiamondResolveCrystalAegisTalent|AurielDiamondResolveCrystalAegisTalent|Heroic|Level20": {
+      "fullText": "По истечении времени действия «Кристальный оплот» дает цели <c val=\"#TooltipNumbers\">75</c> ед. брони на <c val=\"#TooltipNumbers\">5</c> сек. Эта броня уменьшает получаемый урон на <c val=\"#TooltipNumbers\">75%</c>.",
+      "name": "Кристальная крепость",
+      "shortText": "«Кристальный оплот» дает броню."
+    },
+    "AurielAngelicFlightTalent|AurielAngelicFlightTalent|Active|Level20": {
+      "cooldownText": "Время восстановления: 30 сек.",
+      "fullText": "После паузы в <c val=\"#TooltipNumbers\">2</c> сек. Ауриэль перелетает в выбранное место.",
+      "name": "Ангельский полет",
+      "shortText": "Ауриэль перелетает в выбранное место."
+    },
+    "AurielShieldOfHopeTalent|AurielShieldOfHopeTalent|Active|Level20": {
+      "cooldownText": "Время восстановления: 60 сек.",
+      "fullText": "При использовании дает находящимся рядом союзным героям щит прочностью <c val=\"#TooltipNumbers\">50%</c> объема недостающего у них здоровья. Время действия – <c val=\"#TooltipNumbers\">3</c> сек.",
+      "name": "Щит надежды",
+      "shortText": "Укрывает союзников щитами, прочность которых зависит от их текущего уровня здоровья."
+    }
+  },
+  "units": {}
+}

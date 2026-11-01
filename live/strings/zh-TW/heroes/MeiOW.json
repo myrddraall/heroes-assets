@@ -1,0 +1,200 @@
+{
+  "abilities": {
+    "MeiOWSnowBlind|MeiOWSnowBlind|Q": {
+      "cooldownText": "冷卻時間：2秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：35點</s>",
+      "fullText": "投擲一顆雪球，命中範圍內的所有敵人。命中的敵人受到<c val=\"#TooltipNumbers\">70</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害和緩速<c val=\"#TooltipNumbers\">35%</c>，同時會目盲<c val=\"#TooltipNumbers\">1.75</c>秒。",
+      "name": "雪盲",
+      "shortText": "投擲雪球造成緩速和目盲"
+    },
+    "MeiOWBlizzard|MeiOWBlizzard|W": {
+      "cooldownText": "冷卻時間：14秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：70點</s>",
+      "fullText": "命令機器人夥伴「雪球」在目標位置製造一場暴風雪，持續<c val=\"#TooltipNumbers\">2</c>秒。在暴風雪範圍內的敵人每 <c val=\"#TooltipNumbers\">0.25</c>秒會受到<c val=\"#TooltipNumbers\">13</c><c val=\"#ColorGray\">~~0.04~~</c>傷害，並被緩速<c val=\"#TooltipNumbers\">7%</c>，效果最多累積至<c val=\"#TooltipNumbers\">35%</c>。當暴風雪結束時，範圍內的敵人會額外承受 <c val=\"#TooltipNumbers\">75</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，並昏迷 <c val=\"#TooltipNumbers\">1.25</c>秒。 ",
+      "name": "暴風雪",
+      "shortText": "冰凍範圍內的敵人"
+    },
+    "MeiOWIcing|MeiOWIcing|E": {
+      "cooldownText": "冷卻時間：14秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：70點</s>",
+      "fullText": "快速朝目標方向滑行。此效果結束後小美附近的敵人會被擊退，受到<c val=\"#TooltipNumbers\">52</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害並且緩速<c val=\"#TooltipNumbers\">80%</c>，效果會在<c val=\"#TooltipNumbers\">1.5</c>秒內快速消退。<n/><n/>滑行時可取消。",
+      "name": "滑冰",
+      "shortText": "朝一個方向滑行並且擊退敵人"
+    },
+    "MeiOWAvalanche|MeiOWAvalanche|Heroic": {
+      "cooldownText": "冷卻時間：90秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：80點</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">0.5</c>秒後，滾出一個巨大雪球，吞噬路徑上的所有敵方英雄。雪球抵達路徑末端時會瓦解，釋放被吞噬的英雄，造成<c val=\"#TooltipNumbers\">220</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，並且每吞噬一名英雄可使其昏迷<c val=\"#TooltipNumbers\">0.5</c>秒。",
+      "name": "雪崩",
+      "shortText": "用巨大雪球吞噬敵方英雄"
+    },
+    "MeiOWIceWall|MeiOWIceWall|Heroic": {
+      "cooldownText": "冷卻時間：60秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：50點</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">方位指定技能</c><n/>延遲<c val=\"#TooltipNumbers\">0.75</c>秒後產生一道阻礙通行的牆，命中的敵方英雄會受困<c val=\"#TooltipNumbers\">2.5</c>秒。冰牆失效後，受困的英雄會受到<c val=\"#TooltipNumbers\">75%</c>緩速，此效果會在<c val=\"#TooltipNumbers\">3</c>秒內逐漸消退。",
+      "name": "冰牆",
+      "shortText": "把敵人困在一道牆裡"
+    },
+    "MeiOWCryoFreeze|MeiOWCryoFreeze|Trait": {
+      "cooldownText": "冷卻時間：40秒",
+      "fullText": "被冰包覆著持續<c val=\"#TooltipNumbers\">3</c>秒，並獲得一個快速消退的護盾，最多可吸收<c val=\"#TooltipNumbers\">1104</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。在作用期間護盾會賦予控場免疫，並且最多恢復小美最大生命值的<c val=\"#TooltipNumbers\">35%</c>。",
+      "name": "冷凍屏障",
+      "shortText": "啟動可獲得護盾並且恢復生命值"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "冷卻時間：4秒",
+      "fullText": "引導<c val=\"#TooltipNumbers\">1</c>秒後，提高<s val=\"StandardTooltipDetails\">30%</s>移動速度。",
+      "name": "召喚坐騎"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "引導<c val=\"#TooltipNumbers\">6</c>秒後傳送回風暴祭壇，立即恢復<c val=\"#TooltipNumbers\">1125</c>點生命值和<c val=\"#TooltipNumbers\">150</c>點法力值。",
+      "name": "爐石"
+    },
+    "MeiOWIcingCancel|MeiOWIcingCancel|E": {
+      "cooldownText": "冷卻時間：14秒",
+      "fullText": "取消滑冰",
+      "name": "滑冰",
+      "shortText": "朝一個方向滑行並且擊退敵人"
+    },
+    "MeiOWCryoFreezeCancel|MeiOWCryoFreezeCancel|Trait": {
+      "fullText": "取消冷凍屏障",
+      "name": "冷凍屏障",
+      "shortText": "啟動可獲得護盾並且恢復生命值"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "離開坐騎。",
+      "name": "離開坐騎"
+    },
+    "MeiOWBackupBattery|MeiOWBackupBattery|Active": {
+      "cooldownText": "冷卻時間：70秒",
+      "fullText": "啟動後可移除定身和緩速效果，並且在<c val=\"#TooltipNumbers\">2</c>秒內恢復最大生命值的<c val=\"#TooltipNumbers\">20%</c>。小美每拾取一顆恢復之球可使此技能的冷卻時間降低<c val=\"#TooltipNumbers\">10</c>秒。",
+      "name": "備用電池",
+      "shortText": "啟動後可移除定身和緩速效果，並且恢復生命值"
+    },
+    "MeiOWSnowBlindTheBigOneDummyAbility|MeiOWTheBigOneHotbar|Q": {
+      "cooldownText": "冷卻時間：15秒",
+      "fullText": "每<c val=\"#TooltipNumbers\">15</c>秒，你施放的下一個雪盲的範圍提高<c val=\"#TooltipNumbers\">67%</c>，造成的傷害提高<c val=\"#TooltipNumbers\">200%</c>。",
+      "name": "大雪球",
+      "shortText": "定期強化雪盲"
+    },
+    "MeiOWCryoFreezeFlashFreezeTalentHotbar|MeiOWFlashFreezeHotbar|Trait": {
+      "cooldownText": "冷卻時間：180秒",
+      "fullText": "當小美受到致命傷害時會立刻獲得冷凍屏障。此效果的冷卻時間為<c val=\"#TooltipNumbers\">180</c>秒。",
+      "name": "急凍",
+      "shortText": "受到致命傷害會啟動冷凍屏障"
+    }
+  },
+  "talents": {
+    "MeiOWHeavyPack|MeiOWHeavyPack|Q|Level1": {
+      "fullText": "雪盲造成的緩速持續時間提高<c val=\"#TooltipNumbers\">1.5</c>秒。每次暴風雪對敵方英雄造成傷害，雪盲的冷卻時間降低<c val=\"#TooltipNumbers\">0.5</c>秒，並且恢復<c val=\"#TooltipNumbers\">3</c>點法力值。",
+      "name": "沉重浮冰",
+      "shortText": "提高雪盲造成的緩速，降低冷卻時間"
+    },
+    "MeiOWIceStorm|MeiOWBlizzardIceStorm|W|Level1": {
+      "fullText": "暴風雪每命中<c val=\"#TooltipNumbers\">3</c>次敵方英雄可額外造成<c val=\"#TooltipNumbers\">42</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。暴風雪對所有敵人造成的最後擊暈傷害提高<c val=\"#TooltipNumbers\">150%</c>。",
+      "name": "冰風暴",
+      "shortText": "暴風雪可造成額外傷害"
+    },
+    "MeiOWHeatTransfer|MeiOWHeatTransfer|Passive|Level1": {
+      "fullText": "對昏迷、定身或緩速的英雄進行基本攻擊可額外造成<c val=\"#TooltipNumbers\">33%</c>傷害。每次小美對敵方英雄造成昏迷或緩速，可恢復<c val=\"#TooltipNumbers\">16</c><c val=\"#ColorGray\">~~0.04~~</c>點生命值。",
+      "name": "熱能轉移",
+      "shortText": "癱瘓英雄可獲得加成效果"
+    },
+    "MeiOWSlushball|MeiOWSlushball|Q|Level4": {
+      "fullText": "雪盲造成的傷害提高<c val=\"#TooltipNumbers\">75%</c>，並且使命中的建築癱瘓<c val=\"#TooltipNumbers\">3</c>秒。",
+      "name": "融雪之球",
+      "shortText": "雪盲的傷害提高並且可癱瘓建築"
+    },
+    "MeiOWColdFront|MeiOWColdFront|E|Level4": {
+      "fullText": "滑冰的冷卻時間降低<c val=\"#TooltipNumbers\">3</c>秒。如果小美在滑冰作用期間進入自己的暴風雪區域，滑冰的冷卻時間降低<c val=\"#TooltipNumbers\">5</c>秒，並且可使小美恢復<c val=\"#TooltipNumbers\">80</c>點法力值。",
+      "name": "冷鋒",
+      "shortText": "暴風雪可降低滑冰的冷卻時間"
+    },
+    "MeiOWCrystallize|MeiOWCrystallize|Trait|Level4": {
+      "fullText": "冷凍屏障的冷卻時間降低<c val=\"#TooltipNumbers\">10</c>秒。在冷凍屏障作用期間和效果結束後的<c val=\"#TooltipNumbers\">1</c>秒內，小美會獲得<c val=\"#TooltipNumbers\">40</c>點法術護甲。",
+      "name": "冰晶防護",
+      "shortText": "冷凍屏障可賦予法術護甲"
+    },
+    "MeiOWInduceHibernation|MeiOWInduceHibernation|W|Level7": {
+      "fullText": "暴風雪會使位於其攻擊範圍內敵方英雄造成的傷害降低<c val=\"#TooltipNumbers\">40%</c>。<n/><n/>暴風雪結束後，還留在範圍內的敵方英雄會額外受到<c val=\"#TooltipNumbers\">4</c>秒的效果影響。",
+      "name": "誘發冬眠",
+      "shortText": "暴風雪可降低敵人造成的傷害"
+    },
+    "MeiOWSkatingAway|MeiOWSkatingAway|E|Level7": {
+      "fullText": "滑冰持續時間結束時，小美和附近的友方英雄可獲得<c val=\"#TooltipNumbers\">20%</c>移動速度和<c val=\"#TooltipNumbers\">50</c>點物理護甲，持續<c val=\"#TooltipNumbers\">3</c>秒。",
+      "name": "冰上開溜",
+      "shortText": "滑冰可賦予盟友移動速度和物理護甲"
+    },
+    "MeiOWBackupBattery|MeiOWBackupBattery|Active|Level7": {
+      "cooldownText": "冷卻時間：70秒",
+      "fullText": "啟動後可移除定身和緩速效果，並且在<c val=\"#TooltipNumbers\">2</c>秒內恢復最大生命值的<c val=\"#TooltipNumbers\">20%</c>。小美每拾取一顆恢復之球可使此技能的冷卻時間降低<c val=\"#TooltipNumbers\">10</c>秒。",
+      "name": "備用電池",
+      "shortText": "啟動後可移除定身和緩速效果，並且恢復生命值"
+    },
+    "MeiOWAvalanche|MeiOWAvalanche|Heroic|Level10": {
+      "cooldownText": "冷卻時間：90秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：80點</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">0.5</c>秒後，滾出一個巨大雪球，吞噬路徑上的所有敵方英雄。雪球抵達路徑末端時會瓦解，釋放被吞噬的英雄，造成<c val=\"#TooltipNumbers\">220</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，並且每吞噬一名英雄可使其昏迷<c val=\"#TooltipNumbers\">0.5</c>秒。",
+      "name": "雪崩",
+      "shortText": "用巨大雪球吞噬敵方英雄"
+    },
+    "MeiOWIceWall|MeiOWIceWall|Heroic|Level10": {
+      "cooldownText": "冷卻時間：60秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：50點</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">方位指定技能</c><n/>延遲<c val=\"#TooltipNumbers\">0.75</c>秒後產生一道阻礙通行的牆，命中的敵方英雄會受困<c val=\"#TooltipNumbers\">2.5</c>秒。冰牆失效後，受困的英雄會受到<c val=\"#TooltipNumbers\">75%</c>緩速，此效果會在<c val=\"#TooltipNumbers\">3</c>秒內逐漸消退。",
+      "name": "冰牆",
+      "shortText": "把敵人困在一道牆裡"
+    },
+    "MeiOWFlurry|MeiOWFlurry|W|Level13": {
+      "fullText": "當小美站在自己的暴風雪範圍裡可使攻擊速度提高<c val=\"#TooltipNumbers\">50% </c>，並且使暴風雪的冷卻速度加快<c val=\"#TooltipNumbers\">125%</c>。如果在暴風雪結束時，小美還在範圍裡面，可額外獲得<c val=\"#TooltipNumbers\">3</c>秒的效果加成。",
+      "name": "雪球風暴",
+      "shortText": "站在暴風雪裡可降低其冷卻時間"
+    },
+    "MeiOWCryoFreezeCoolingServos|MeiOWCryoFreezeCoolingServos|Trait|Level13": {
+      "fullText": "在冷凍屏障作用期間，小美基本技能的冷卻速度加快<c val=\"#TooltipNumbers\">200%</c>。<n/><n/><c val=\"#AbilityPassive\">被動：</c>基本攻擊可造成<c val=\"#TooltipNumbers\">20%</c>緩速，持續<c val=\"#TooltipNumbers\">1.5</c>秒。",
+      "name": "冷卻伺服",
+      "shortText": "強化冷凍屏障和基本攻擊"
+    },
+    "MeiOWPolarVortex|MeiOWPolarVortex|Passive|Level13": {
+      "fullText": "小美在使用技能時，每秒可以對附近的敵人造成<c val=\"#TooltipNumbers\">24</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，持續<c val=\"#TooltipNumbers\">4</c>秒。受到此效果傷害的敵方英雄，其移動速度和攻擊速度降低<c val=\"#TooltipNumbers\">20%</c>。",
+      "name": "極境漩渦",
+      "shortText": "在使用技能後造成範圍傷害和緩速效果"
+    },
+    "MeiOWFreshPowder|MeiOWFreshPowder|Q|Level16": {
+      "fullText": "雪盲額外獲得一次使用次數，並且距離提高<c val=\"#TooltipNumbers\">33%</c>。 ",
+      "name": "新降粉雪",
+      "shortText": "雪盲的使用次數提高一次，距離提高"
+    },
+    "MeiOWBlackIce|MeiOWBlackIce|E|Level16": {
+      "fullText": "滑冰的緩速效果不再逐漸消退，並且對非常靠近小美的敵人造成的傷害提高<c val=\"#TooltipNumbers\">300%</c>。",
+      "name": "黑冰",
+      "shortText": "提高滑冰的緩速效果和造成的傷害"
+    },
+    "MeiOWAcclimation|MeiOWAcclimation|Passive|Level16": {
+      "fullText": "小美每次擊暈或是緩速敵方英雄，可使她所造成的傷害或是獲得的治療量提高<c val=\"#TooltipNumbers\">1%</c>，加成效果最多累積<c val=\"#TooltipNumbers\">20</c>次。累積到最大層數之後，小美還會獲得<c val=\"#TooltipNumbers\">10</c>點護甲值。加成效果可持續<c val=\"#TooltipNumbers\">8</c>秒。 ",
+      "name": "適應",
+      "shortText": "癱瘓英雄可強化小美"
+    },
+    "MeiOWCascade|MeiOWCascade|Heroic|Level20": {
+      "fullText": "雪崩在滾動時，會在前方持續施放不含天賦加成的雪盲雪球。<n/><n/><c val=\"#AbilityPassive\">被動：</c>雪崩的冷卻時間降低<c val=\"#TooltipNumbers\">30</c>秒。",
+      "name": "傾瀉",
+      "shortText": "雪崩在滾動時會施放雪盲"
+    },
+    "MeiOWShatter|MeiOWShatter|Heroic|Level20": {
+      "fullText": "冰牆持續時間結束後，命中的受困敵方英雄會受到<c val=\"#TooltipNumbers\">210</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，其護甲也會降低<c val=\"#TooltipNumbers\">25</c>點，持續<c val=\"#TooltipNumbers\">5</c>秒。",
+      "name": "碎裂",
+      "shortText": "冰牆會造成傷害並且降低敵方英雄護甲"
+    },
+    "MeiOWTheBigOne|MeiOWTheBigOne|Q|Level20": {
+      "fullText": "每<c val=\"#TooltipNumbers\">15</c>秒，你施放的下一個雪盲的範圍提高<c val=\"#TooltipNumbers\">67%</c>，造成的傷害提高<c val=\"#TooltipNumbers\">200%</c>。",
+      "name": "大雪球",
+      "shortText": "定期強化雪盲"
+    },
+    "MeiOWFlashFreeze|MeiOWFlashFreeze|Trait|Level20": {
+      "fullText": "當小美受到致命傷害時會立刻獲得冷凍屏障。此效果的冷卻時間為<c val=\"#TooltipNumbers\">180</c>秒。",
+      "name": "急凍",
+      "shortText": "受到致命傷害會啟動冷凍屏障"
+    }
+  },
+  "units": {}
+}

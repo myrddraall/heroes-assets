@@ -1,0 +1,648 @@
+{
+  "id": "Tracer",
+  "unitId": "HeroTracer",
+  "hyperlinkId": "Tracer",
+  "attributeId": "Tra0",
+  "franchise": "Overwatch",
+  "rarity": "Legendary",
+  "releaseDate": "2016-04-19",
+  "isMelee": false,
+  "gender": "Female",
+  "radius": 0.625,
+  "innerRadius": 0.625,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 8,
+    "damage": 8,
+    "survivability": 5,
+    "utility": 2
+  },
+  "life": {
+    "amount": 1330,
+    "scale": 0.04,
+    "regenRate": 2.707,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 20,
+    "regenRate": 0
+  },
+  "playstyles": [
+    "Escaper",
+    "Ganker",
+    "RoleAutoAttacker"
+  ],
+  "weapons": [
+    {
+      "nameId": "TracerHeroWeapon",
+      "isDisabled": false,
+      "range": 5,
+      "minimumRange": 0,
+      "period": 0.125,
+      "damage": 23,
+      "damageScale": 0.04,
+      "vitalCost": {
+        "Energy": 2
+      }
+    }
+  ],
+  "skinIds": [
+    "TracerGhost",
+    "TracerMyth20",
+    "TracerSpectre",
+    "TracerUltimate",
+    "TracerWaterGun"
+  ],
+  "variationSkinIds": [
+    "TracerVar1",
+    "TracerVar2",
+    "TracerVar3"
+  ],
+  "voiceLineIds": [
+    "TracerBase_VoiceLine01",
+    "TracerBase_VoiceLine02",
+    "TracerBase_VoiceLine03",
+    "TracerBase_VoiceLine04",
+    "TracerBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "MountTracerBikeOWC20",
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "TracerBlink|TracerBlink|Q",
+        "abilityId": "TracerBlink",
+        "buttonId": "TracerBlink",
+        "icon": "storm_ui_icon_tracer_blink_empty.png",
+        "charges": {
+          "countMax": 3,
+          "countStart": 3,
+          "countUse": 1,
+          "isCountHidden": false
+        },
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "TracerMelee|TracerMelee|W",
+        "abilityId": "TracerMelee",
+        "buttonId": "TracerMelee",
+        "icon": "storm_ui_icon_tracer_melee.png",
+        "charges": {
+          "countMax": 1,
+          "countStart": 1,
+          "countUse": 1,
+          "recastCooldown": 3,
+          "isCountHidden": true
+        },
+        "abilityType": "W"
+      },
+      {
+        "linkId": "TracerRecall|TracerRecall|E",
+        "abilityId": "TracerRecall",
+        "buttonId": "TracerRecall",
+        "icon": "storm_ui_icon_tracer_recall.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "TracerPulseBomb|TracerPulseBomb|Heroic",
+        "abilityId": "TracerPulseBomb",
+        "buttonId": "TracerPulseBomb",
+        "icon": "storm_ui_icon_tracer_pulsebomb.png",
+        "charges": {
+          "countMax": 100,
+          "countUse": 100,
+          "isCountHidden": true
+        },
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": "TracerReload|TracerReload|Trait",
+        "abilityId": "TracerReload",
+        "buttonId": "TracerReload",
+        "icon": "storm_ui_icon_tracer_reload.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|HearthstoneNoMana|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "HearthstoneNoMana",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "TracerLockedandLoaded|TracerLockedandLoaded|Trait|Level7": {
+      "Trait": [
+        {
+          "linkId": "TracerLockedandLoadedFailReload|TracerLockedandLoadedAbility|Trait",
+          "abilityId": "TracerLockedandLoadedFailReload",
+          "buttonId": "TracerLockedandLoadedAbility",
+          "icon": "storm_ui_icon_tracer_reload_c.png",
+          "abilityType": "Trait"
+        },
+        {
+          "linkId": "TracerLockedandLoaded|TracerLockedandLoadedAbility|Trait",
+          "abilityId": "TracerLockedandLoaded",
+          "buttonId": "TracerLockedandLoadedAbility",
+          "icon": "storm_ui_icon_tracer_reload_c.png",
+          "abilityType": "Trait"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "TracerOneTwoPunch|TracerOneTwoPunch|W|Level1",
+        "talentId": "TracerOneTwoPunch",
+        "buttonId": "TracerOneTwoPunch",
+        "abilityId": "TracerMelee",
+        "icon": "storm_ui_icon_tracer_melee.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "TracerMelee|TracerMelee|W"
+        ]
+      },
+      {
+        "linkId": "TracerPartingGift|TracerPartingGift|E|Level1",
+        "talentId": "TracerPartingGift",
+        "buttonId": "TracerPartingGift",
+        "abilityId": "TracerRecall",
+        "icon": "storm_ui_icon_tracer_combo_e_r.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "TracerRecall|TracerRecall|E"
+        ]
+      },
+      {
+        "linkId": "TracerTracerRounds|TracerTracerRounds|Trait|Level1",
+        "talentId": "TracerTracerRounds",
+        "buttonId": "TracerTracerRounds",
+        "abilityId": "TracerReload",
+        "icon": "storm_ui_icon_tracer_reload.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "TracerReload|TracerReload|Trait"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "TracerLeechingRounds|TracerLeechingRounds|Trait|Level4",
+        "talentId": "TracerLeechingRounds",
+        "buttonId": "TracerLeechingRounds",
+        "abilityId": "TracerReload",
+        "icon": "storm_ui_icon_tracer_reload.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "TracerReload|TracerReload|Trait"
+        ]
+      },
+      {
+        "linkId": "TracerPulseGenerator|TracerPulseGenerator|Heroic|Level4",
+        "talentId": "TracerPulseGenerator",
+        "buttonId": "TracerPulseGenerator",
+        "abilityId": "TracerPulseBomb",
+        "icon": "storm_ui_icon_tracer_combo_q_r.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "TracerPulseBomb|TracerPulseBomb|Heroic"
+        ]
+      },
+      {
+        "linkId": "TracerIsThataHealthPack|TracerIsthataHealthPack|Passive|Level4",
+        "talentId": "TracerIsThataHealthPack",
+        "buttonId": "TracerIsthataHealthPack",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_tracer_medpack.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "TracerSleightofHand|TracerSleightofHand|Trait|Level7",
+        "talentId": "TracerSleightofHand",
+        "buttonId": "TracerSleightofHand",
+        "abilityId": "TracerReload",
+        "icon": "storm_ui_icon_tracer_reload.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "TracerReload|TracerReload|Trait"
+        ]
+      },
+      {
+        "linkId": "TracerFocusFire|TracerFocusFire|Trait|Level7",
+        "talentId": "TracerFocusFire",
+        "buttonId": "TracerFocusFire",
+        "abilityId": "TracerReload",
+        "icon": "storm_ui_icon_tracer_reload_b.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "TracerReload|TracerReload|Trait"
+        ]
+      },
+      {
+        "linkId": "TracerLockedandLoaded|TracerLockedandLoaded|Trait|Level7",
+        "talentId": "TracerLockedandLoaded",
+        "buttonId": "TracerLockedandLoaded",
+        "abilityId": "TracerReload",
+        "icon": "storm_ui_icon_tracer_reload_c.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "TracerReload|TracerReload|Trait"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "TracerStickyBomb|TracerStickyBomb|Heroic|Level10",
+        "talentId": "TracerStickyBomb",
+        "buttonId": "TracerStickyBomb",
+        "abilityId": "TracerPulseBomb",
+        "icon": "storm_ui_icon_tracer_pulsebomb.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "TracerPulseBomb|TracerPulseBomb|Heroic"
+        ]
+      },
+      {
+        "linkId": "TracerQuantumSpike|TracerQuantumSpike|Heroic|Level10",
+        "talentId": "TracerQuantumSpike",
+        "buttonId": "TracerQuantumSpike",
+        "abilityId": "TracerPulseBomb",
+        "icon": "storm_ui_icon_tracer_pulsebomb_b.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "TracerPulseBomb|TracerPulseBomb|Heroic"
+        ]
+      },
+      {
+        "linkId": "TracerPulseRounds|TracerPulseRounds|Heroic|Level10",
+        "talentId": "TracerPulseRounds",
+        "buttonId": "TracerPulseRounds",
+        "abilityId": "TracerPulseBomb",
+        "icon": "storm_ui_icon_tracer_pulsebomb_c.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "TracerPulseBomb|TracerPulseBomb|Heroic"
+        ]
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "TracerUntouchable|TracerUntouchable|Q|Level13",
+        "talentId": "TracerUntouchable",
+        "buttonId": "TracerUntouchable",
+        "abilityId": "TracerBlink",
+        "icon": "storm_ui_icon_tracer_combo_q_trait.png",
+        "abilityType": "Q",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "TracerBlink|TracerBlink|Q"
+        ]
+      },
+      {
+        "linkId": "TracerJumper|TracerJumper|Q|Level13",
+        "talentId": "TracerJumper",
+        "buttonId": "TracerJumper",
+        "abilityId": "TracerBlink",
+        "icon": "storm_ui_icon_tracer_blink.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "TracerBlink|TracerBlink|Q"
+        ]
+      },
+      {
+        "linkId": "TracerTelefrag|TracerTelefrag|E|Level13",
+        "talentId": "TracerTelefrag",
+        "buttonId": "TracerTelefrag",
+        "abilityId": "TracerRecall",
+        "icon": "storm_ui_icon_tracer_recall.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "TracerRecall|TracerRecall|E"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "TracerBulletSprayMelee|TracerBulletSprayMelee|W|Level16",
+        "talentId": "TracerBulletSprayMelee",
+        "buttonId": "TracerBulletSprayMelee",
+        "abilityId": "TracerMelee",
+        "icon": "storm_ui_icon_tracer_melee.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "TracerMelee|TracerMelee|W"
+        ]
+      },
+      {
+        "linkId": "TracerHeavyHanded|TracerHeavyHanded|W|Level16",
+        "talentId": "TracerHeavyHanded",
+        "buttonId": "TracerHeavyHanded",
+        "abilityId": "TracerMelee",
+        "icon": "storm_ui_icon_tracer_melee_b.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "TracerMelee|TracerMelee|W"
+        ]
+      },
+      {
+        "linkId": "TracerRicochetHeroWeapon|TracerRicochetHeroWeapon|Trait|Level16",
+        "talentId": "TracerRicochetHeroWeapon",
+        "buttonId": "TracerRicochetHeroWeapon",
+        "abilityId": "TracerReload",
+        "icon": "storm_ui_icon_tracer_reload.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "TracerReload|TracerReload|Trait"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "TracerChronoTriggers|TracerChronoTriggers|Q|Level20",
+        "talentId": "TracerChronoTriggers",
+        "buttonId": "TracerChronoTriggers",
+        "abilityId": "TracerBlink",
+        "icon": "storm_ui_icon_tracer_combo_q_trait.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "TracerBlink|TracerBlink|Q"
+        ]
+      },
+      {
+        "linkId": "TracerGetStuffedMelee|TracerGetStuffedMelee|W|Level20",
+        "talentId": "TracerGetStuffedMelee",
+        "buttonId": "TracerGetStuffedMelee",
+        "abilityId": "TracerMelee",
+        "icon": "storm_ui_icon_tracer_melee.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "TracerMelee|TracerMelee|W"
+        ]
+      },
+      {
+        "linkId": "TracerTotalRecallRecall|TracerTotalRecallRecall|E|Level20",
+        "talentId": "TracerTotalRecallRecall",
+        "buttonId": "TracerTotalRecallRecall",
+        "abilityId": "TracerRecall",
+        "icon": "storm_ui_icon_tracer_recall.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "TracerRecall|TracerRecall|E"
+        ]
+      },
+      {
+        "linkId": "TracerCompositionBPulseBomb|TracerCompositionBPulseBomb|Heroic|Level20",
+        "talentId": "TracerCompositionBPulseBomb",
+        "buttonId": "TracerCompositionBPulseBomb",
+        "abilityId": "TracerPulseBomb",
+        "icon": "storm_ui_icon_tracer_pulsebomb.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          "TracerPulseBomb|TracerPulseBomb|Heroic"
+        ]
+      }
+    ]
+  },
+  "sheet": "sheets/Tracer.png",
+  "icons": {
+    "storm_ui_icon_tracer_blink_empty.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_tracer_melee.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_tracer_recall.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_tracer_pulsebomb.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_tracer_reload.png": [
+      512,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_mount.png": [
+      0,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      128,
+      128,
+      111,
+      71
+    ],
+    "storm_ui_icon_generic_cancel_mount.png": [
+      256,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_tracer_reload_c.png": [
+      384,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_tracer_combo_e_r.png": [
+      512,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_tracer_combo_q_r.png": [
+      0,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_tracer_medpack.png": [
+      128,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_tracer_reload_b.png": [
+      256,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_tracer_pulsebomb_b.png": [
+      384,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_tracer_pulsebomb_c.png": [
+      512,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_tracer_combo_q_trait.png": [
+      0,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_tracer_blink.png": [
+      128,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_tracer_melee_b.png": [
+      256,
+      384,
+      128,
+      128
+    ]
+  }
+}

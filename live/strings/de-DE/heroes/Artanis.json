@@ -1,0 +1,180 @@
+{
+  "abilities": {
+    "ArtanisBladeDash|ArtanisBladeDash|Q": {
+      "cooldownText": "Abklingzeit: 10 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Artanis stürmt vorwärts und fügt Gegnern <c val=\"#TooltipNumbers\">63</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zu. Daraufhin stürmt er wieder zurück und fügt Gegnern <c val=\"#TooltipNumbers\">171</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zu. Verringert die Abklingzeit von Schildüberladung pro getroffenem Gegner um <c val=\"#TooltipNumbers\">1</c> Sek. und pro getroffenem Helden um <c val=\"#TooltipNumbers\">2</c> Sek.",
+      "name": "Klingenoffensive",
+      "shortText": "Artanis stürmt vorwärts und wieder zurück und fügt dabei Gegnern Schaden zu."
+    },
+    "ArtanisTwinBlades|ArtanisTwinBlades|W": {
+      "cooldownText": "Abklingzeit: 4 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 20</s>",
+      "fullText": "Der nächste automatische Angriff lässt Artanis sofort über kurze Entfernung auf einen Gegner zustürmen und ihn <c val=\"#TooltipNumbers\">2</c>-mal treffen.",
+      "name": "Zwillingsklingen",
+      "shortText": "Stürmt auf ein Ziel zu und trifft es mit zwei automatischen Angriffen."
+    },
+    "ArtanisPhasePrism|ArtanisPhasePrism|E": {
+      "cooldownText": "Abklingzeit: 12 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Feuert ein Phasenprisma ab, das dem ersten getroffenen gegnerischen Helden <c val=\"#TooltipNumbers\">66</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zufügt und Artanis' Position mit seiner vertauscht. Heldentreffer machen Artanis zusätzlich <c val=\"#TooltipNumbers\">1.5</c> Sek. lang unaufhaltbar. Kann während der Klingenoffensive eingesetzt werden.",
+      "name": "Phasenprisma",
+      "shortText": "Tauscht Artanis' Position mit der eines gegnerischen Helden."
+    },
+    "ArtanisSpearofAdunPurifierBeam|ArtanisSpearofAdunPurifierBeam|Heroic": {
+      "cooldownText": "Abklingzeit: 70 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 65</s>",
+      "fullText": "Der Speer des Adun erfasst einen gegnerischen Helden aus dem Orbit mit einem Strahl, der <c val=\"#TooltipNumbers\">8</c> Sek. lang <c val=\"#TooltipNumbers\">184</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden pro Sekunde verursacht. Der Strahl verfolgt das Ziel. Unbegrenzte Reichweite.",
+      "name": "Destruktorstrahl",
+      "shortText": "Verfolgt Gegner mit einem Strahl aus dem Orbit."
+    },
+    "ArtanisSpearofAdunSuppressionPulse|ArtanisSpearofAdunSuppressionPulse|Heroic": {
+      "cooldownText": "Abklingzeit: 50 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 40</s>",
+      "fullText": "Die Speer des Adun feuert einen Impuls auf einen großen Zielbereich, der <c val=\"#TooltipNumbers\">114</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden verursacht und Gegner <c val=\"#TooltipNumbers\">4</c> Sek. lang blendet. Unbegrenzte Reichweite.",
+      "name": "Unterdrückungsimpuls",
+      "shortText": "Fügt Gegnern in einem großen Bereich Schaden zu und blendet sie."
+    },
+    "ArtanisShieldOverloadDummy|ArtanisShieldOverloadTrait|Trait": {
+      "cooldownText": "Abklingzeit: 24 Sek.",
+      "fullText": "Wenn Artanis weniger als <c val=\"#TooltipNumbers\">75%</c> Lebenspunkte hat und Schaden erleidet, erhält er einen Schild mit <c val=\"#TooltipNumbers\">365</c><c val=\"#ColorGray\">~~0.04~~</c> Schildpunkten, der <c val=\"#TooltipNumbers\">5</c> Sek. lang anhält. Automatische Angriffe verringern die Abklingzeit von Schildüberladung um <c val=\"#TooltipNumbers\">4</c> Sek.",
+      "name": "Schildüberladung",
+      "shortText": "Gewährt Artanis einen Schild, wenn er bei niedrigen Lebenspunkten angegriffen wird."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Abklingzeit: 4 Sek.",
+      "fullText": "Erhöht die Bewegungsgeschwindigkeit nach <c val=\"#TooltipNumbers\">1</c> Sek. Kanalisierung um <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Aufsitzen"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Kanalisiert <c val=\"#TooltipNumbers\">6</c> Sek. lang und teleportiert sich dann zurück zum Altar der Stürme. Dabei werden sofort <c val=\"#TooltipNumbers\">1125</c> Lebenspunkte und <c val=\"#TooltipNumbers\">150</c> Mana wiederhergestellt.",
+      "name": "Ruhestein"
+    },
+    ":PASSIVE:|ArtanisTwinBladesPrimed|W": {
+      "cooldownText": "Abklingzeit: 4 Sek.",
+      "fullText": "Der nächste automatische Angriff lässt Artanis sofort über kurze Entfernung auf einen Gegner zustürmen und ihn <c val=\"#TooltipNumbers\">2</c>-mal treffen.",
+      "name": "Zwillingsklingen aktiviert"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Sitzt ab.",
+      "name": "Absitzen"
+    }
+  },
+  "talents": {
+    "ArtanisTwinBladesReactiveParry|ArtanisTwinBladesReactiveParryTalent|W|Level1": {
+      "fullText": "Heldentreffer mit den Zwillingsklingen oder der Klingenoffensive gewähren <c val=\"#TooltipNumbers\">50</c> physische Panzerung, die den Schaden des nächsten automatischen Angriffs eines Helden um <c val=\"#TooltipNumbers\">50%</c> verringert.<n/><n/>Maximal <c val=\"#TooltipNumbers\">2</c> Aufladungen.",
+      "name": "Reflexparade",
+      "shortText": "Zwillingsklingen und Klingenoffensive gewähren physische Panzerung."
+    },
+    "ArtanisTwinBladesAmateurOpponent|ArtanisTwinBladesAmateurOpponentTalent|W|Level1": {
+      "fullText": "Die Zwillingsklingen fügen nicht heroischen Zielen <c val=\"#TooltipNumbers\">150%</c> mehr Schaden zu.",
+      "name": "Ungleicher Kontrahent",
+      "shortText": "Die Zwillingsklingen fügen nicht heroischen Zielen mehr Schaden zu."
+    },
+    "ArtanisProtectorOfAiur|ArtanisProtectorOfAiurTalent|Passive|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Automatische Angriffe gegen Helden erhöhen den Angriffsschaden um <c val=\"#TooltipNumbers\">0.1%</c> und getötete Helden um <c val=\"#TooltipNumbers\">1%</c>.",
+      "name": "Beschützer von Aiur",
+      "shortText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Automatische Angriffe gegen Helden erhöhen den Schaden."
+    },
+    "ArtanisPhasePrismPsionicSynergy|ArtanisPhasePrismPsionicSynergyTalent|E|Level4": {
+      "fullText": "Heldentreffer mit Phasenprisma gewähren <c val=\"#TooltipNumbers\">5</c> Sek. lang <c val=\"#TooltipNumbers\">30</c> Panzerung.",
+      "name": "Psionische Synergie",
+      "shortText": "Phasenprisma gewährt Panzerung."
+    },
+    "ArtanisShieldOverloadShieldBattery|ArtanisShieldOverloadShieldBatteryTalent|Trait|Level4": {
+      "fullText": "Die Schildüberladung klingt <c val=\"#TooltipNumbers\">125%</c> schneller ab, solange der Schild aktiv ist.<n/><n/><c val=\"#AbilityPassive\">Passiv:</c> Verringert die Abklingzeit der Schildüberladung um <c val=\"#TooltipNumbers\">4</c> Sek.",
+      "name": "Schildbatterie",
+      "shortText": "Schildüberladung klingt schneller ab, wenn der Schild aktiv ist."
+    },
+    "ArtanisShieldOverloadShieldSurge|ArtanisShieldOverloadShieldSurgeTalentNew|Trait|Level4": {
+      "fullText": "Verstärkt den Schild von Schildüberladung um <c val=\"#TooltipNumbers\">80%</c>, wenn Artanis weniger als <c val=\"#TooltipNumbers\">25%</c> Lebenspunkte hat.",
+      "name": "Energetisierung",
+      "shortText": "Verstärkt Schildüberladung, wenn Artanis wenig Lebenspunkte hat."
+    },
+    "ArtanisBladeDashSolariteReaper|ArtanisBladeDashSolariteReaperTalent|Q|Level7": {
+      "fullText": "Erhöht den Schaden der Vorwärtsbewegung der Klingenoffensive um <c val=\"#TooltipNumbers\">175%</c>.",
+      "name": "Solaritverstärkung",
+      "shortText": "Erhöht den Schaden der Klingenoffensive."
+    },
+    "ArtanisPhasePrismChronoSurge|ArtanisPhasePrismChronoSurgeTalent|E|Level7": {
+      "fullText": "Heldentreffer mit Phasenprisma erhöhen die Angriffsgeschwindigkeit <c val=\"#TooltipNumbers\">5</c> Sek. lang um <c val=\"#TooltipNumbers\">40%</c> und verlangsamen das Ziel <c val=\"#TooltipNumbers\">4</c> Sek. lang um <c val=\"#TooltipNumbers\">30%</c>.",
+      "name": "Zeitraffer",
+      "shortText": "Phasenprisma erhöht die Angriffsgeschwindigkeit und verlangsamt."
+    },
+    "ArtanisFinalCut|ArtanisFinalCut|Passive|Level7": {
+      "fullText": "Der nächste automatische Angriff innerhalb von <c val=\"#TooltipNumbers\">6</c> Sek. nach dem Einsatz einer Fähigkeit verursacht <c val=\"#TooltipNumbers\">40%</c> zusätzlichen Schaden. Erhöht diesen Bonus auf <c val=\"#TooltipNumbers\">60%</c>, wenn Artanis weniger als <c val=\"#TooltipNumbers\">25%</c> Lebenspunkte hat.",
+      "name": "Letzter Schnitt",
+      "shortText": "Fähigkeiten erhöhen den Schaden automatischer Angriffe."
+    },
+    "ArtanisHeroicAbilitySpearofAdunSuppressionPulse|ArtanisSpearofAdunSuppressionPulse|Heroic|Level10": {
+      "cooldownText": "Abklingzeit: 50 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 40</s>",
+      "fullText": "Die Speer des Adun feuert einen Impuls auf einen großen Zielbereich, der <c val=\"#TooltipNumbers\">114</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden verursacht und Gegner <c val=\"#TooltipNumbers\">4</c> Sek. lang blendet. Unbegrenzte Reichweite.",
+      "name": "Unterdrückungsimpuls",
+      "shortText": "Fügt Gegnern in einem großen Bereich Schaden zu und blendet sie."
+    },
+    "ArtanisHeroicAbilitySpearofAdunPurifierBeam|ArtanisSpearofAdunPurifierBeam|Heroic|Level10": {
+      "cooldownText": "Abklingzeit: 70 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 65</s>",
+      "fullText": "Der Speer des Adun erfasst einen gegnerischen Helden aus dem Orbit mit einem Strahl, der <c val=\"#TooltipNumbers\">8</c> Sek. lang <c val=\"#TooltipNumbers\">184</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden pro Sekunde verursacht. Der Strahl verfolgt das Ziel. Unbegrenzte Reichweite.",
+      "name": "Destruktorstrahl",
+      "shortText": "Verfolgt Gegner mit einem Strahl aus dem Orbit."
+    },
+    "ArtanisBladeDashTemplarsZeal|ArtanisBladeDashTemplarsZealTalent|Q|Level13": {
+      "fullText": "Verringert die Manakosten der Klingenoffensive von <c val=\"#TooltipNumbers\">50</c> auf <c val=\"#TooltipNumbers\">25</c>. Jede Aktivierung von Schildüberladung verringert die Abklingzeit der Klingenoffensive um <c val=\"#TooltipNumbers\">6</c> Sek.",
+      "name": "Inbrunst des Templers",
+      "shortText": "Verringert die Abklingzeit der Klingenoffensive."
+    },
+    "ArtanisTwinBladesTripleStrike|ArtanisTwinBladesTripleStrikeTalent|W|Level13": {
+      "fullText": "Erhöht die Anzahl der Hiebe der Zwillingsklingen auf <c val=\"#TooltipNumbers\">3</c>, aber erhöht die Abklingzeit um <c val=\"#TooltipNumbers\">1</c> Sek.",
+      "name": "Dreifachschlag",
+      "shortText": "Die Zwillingsklingen schlagen 3-mal zu."
+    },
+    "ArtanisPhasePrismGravitonVortex|ArtanisPhasePrismGravitonVortexTalent|E|Level13": {
+      "fullText": "Verringert die Manakosten von Phasenprisma von <c val=\"#TooltipNumbers\">50</c> auf <c val=\"#TooltipNumbers\">25</c>. Heldentreffer mit automatischen Angriffen oder Klingenoffensive verringern die Abklingzeit von Phasenprisma um <c val=\"#TooltipNumbers\">2</c> Sek.",
+      "name": "Gravitonvortex",
+      "shortText": "Angriffe verringern die Abklingzeit von Phasenprisma."
+    },
+    "ArtanisShieldOverloadPhaseBulwark|ArtanisShieldOverloadPhaseBulwarkTalent|Trait|Level13": {
+      "fullText": "Schildüberladung gewährt während der Effektdauer <c val=\"#TooltipNumbers\">50</c> Zauberpanzerung, die nach Ablauf <c val=\"#TooltipNumbers\">2</c> Sek. lang anhält.",
+      "name": "Phasenbollwerk",
+      "shortText": "Schildüberladung gewährt Zauberpanzerung."
+    },
+    "ArtanisTwinBladesTitanKiller|ArtanisTwinBladesTitanKillerTalent|W|Level16": {
+      "fullText": "Automatische Angriffe fügen Helden Bonusschaden in Höhe von <c val=\"#TooltipNumbers\">0.5%</c> ihrer maximalen Lebenspunkte zu. Dieser Schaden wird auf <c val=\"#TooltipNumbers\">1.5%</c> erhöht, wenn die Zwillingsklingen aktiv sind.",
+      "name": "Rache der Daelaam",
+      "shortText": "Automatische Angriffe verursachen prozentbasierten Schaden."
+    },
+    "ArtanisShieldOverloadForceofWill|ArtanisShieldOverloadForceofWillTalent|Trait|Level16": {
+      "fullText": "Der Einsatz von Grundfähigkeiten verringert die Abklingzeit von Schildüberladung um <c val=\"#TooltipNumbers\">5</c> Sek.",
+      "name": "Willensstärke",
+      "shortText": "Grundfähigkeiten verringern die Abklingzeit von Schildüberladung."
+    },
+    "ArtanisTwinBladesBladesofaTemplar|ArtanisTwinBladesBladesofaTemplar|Passive|Level16": {
+      "fullText": "Erhöht die Angriffsgeschwindigkeit um <c val=\"#TooltipNumbers\">20%</c>. Automatische Angriffe verlangsamen Gegner <c val=\"#TooltipNumbers\">1.25</c> Sek. lang um <c val=\"#TooltipNumbers\">20%</c>.",
+      "name": "Klingen eines Templers",
+      "shortText": "Erhöht die Angriffsgeschwindigkeit und verlangsamt Gegner."
+    },
+    "ArtanisSpearofAdunSuppressionPulseOrbitalBombardment|ArtanisSpearofAdunSuppressionPulseOrbitalBombardmentTalent|Heroic|Level20": {
+      "fullText": "Verleiht dem Unterdrückungsimpuls eine zusätzliche Aufladung. Zwischen dem Einsatz der Aufladungen besteht eine Abklingzeit von <c val=\"#TooltipNumbers\">10</c> Sek.",
+      "name": "Orbitalschlag",
+      "shortText": "Verleiht dem Unterdrückungsimpuls eine zusätzliche Aufladung."
+    },
+    "ArtanisSpearofAdunPurifierBeamTargetPurified|ArtanisSpearofAdunPurifierBeamTargetPurifiedTalent|Heroic|Level20": {
+      "fullText": "Erhöht die Geschwindigkeit des Destruktorstrahls um <c val=\"#TooltipNumbers\">15%</c>. Wenn das Ziel stirbt, wird der Strahl automatisch erneut eingesetzt und verfolgt den nächsten sichtbaren gegnerischen Helden.",
+      "name": "Reinitialisierung",
+      "shortText": "Der Destruktorstrahl ist schneller und wird beim Tod des Ziels erneut eingesetzt."
+    },
+    "ArtanisTwinBladesZealotCharge|ArtanisTwinBladesZealotChargeTalent|W|Level20": {
+      "fullText": "Erhöht die Ansturmdistanz der Zwillingsklingen um <c val=\"#TooltipNumbers\">75%</c>.",
+      "name": "Berserkeransturm",
+      "shortText": "Erhöht die Ansturmdistanz der Zwillingsklingen."
+    },
+    "ArtanisPlasmaBurn|ArtanisPlasmaBurn|Trait|Level20": {
+      "fullText": "Solange Schildüberladung aktiv ist, fügt der Schild Gegnern in der Nähe pro Sekunde <c val=\"#TooltipNumbers\">70</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zu.",
+      "name": "Plasmaverbrennung",
+      "shortText": "Schildüberladung verbrennt Gegner in der Nähe."
+    }
+  },
+  "units": {}
+}

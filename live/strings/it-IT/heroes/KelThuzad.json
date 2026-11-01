@@ -1,0 +1,206 @@
+{
+  "abilities": {
+    "KelThuzadDeathAndDecay|KelThuzadDeathAndDecay|Q": {
+      "cooldownText": "Recupero: 5 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 20</s>",
+      "fullText": "Dopo <c val=\"#TooltipNumbers\">0.5</c> s, scaglia una sfera che esplode all'impatto con il primo nemico colpito, infliggendo <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.025~~</c> danni ai nemici nell'area. L'esplosione rilascia una pozza ammorbante che dura <c val=\"#TooltipNumbers\">2</c> s e infligge <c val=\"#TooltipNumbers\">82</c><c val=\"#ColorGray\">~~0.025~~</c> danni ogni <c val=\"#TooltipNumbers\">0.5</c> s.",
+      "name": "Morte e Distruzione",
+      "shortText": "Danneggia i nemici e crea una pozza che infligge danni."
+    },
+    "KelThuzadFrostNova|KelThuzadFrostNova|W": {
+      "cooldownText": "Recupero: 8 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Crea un sigillo che esplode dopo <c val=\"#TooltipNumbers\">1</c> s, infliggendo <c val=\"#TooltipNumbers\">180</c><c val=\"#ColorGray\">~~0.025~~</c> danni ai nemici al suo interno e rallentandoli del <c val=\"#TooltipNumbers\">35%</c> per <c val=\"#TooltipNumbers\">2.5</c> s. I nemici nell'area centrale sono immobilizzati per <c val=\"#TooltipNumbers\">1</c> s.",
+      "name": "Esplosione Gelida",
+      "shortText": "Danneggia i nemici e li inabilita."
+    },
+    "KelThuzadChains|KelThuzadChains|E": {
+      "cooldownText": "Recupero: 10 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Scaglia una catena, infliggendo <c val=\"#TooltipNumbers\">97</c><c val=\"#ColorGray\">~~0.025~~</c> danni al primo eroe nemico colpito. Per <c val=\"#TooltipNumbers\">3</c> s dopo aver colpito un bersaglio, l'abilità può essere riattivata per scagliare la catena su un nemico aggiuntivo, trascinandolo verso il primo e stordendo entrambi per <c val=\"#TooltipNumbers\">0.5</c> s.",
+      "name": "Catene di Kel'Thuzad",
+      "shortText": "Raduna i nemici."
+    },
+    "KelThuzadFrozenTomb|KelThuzadFrozenTomb|Heroic": {
+      "cooldownText": "Recupero: 50 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 45</s>",
+      "fullText": "Lancia una meteora gelida contro un eroe nemico. All'impatto, la meteora infligge <c val=\"#TooltipNumbers\">115</c><c val=\"#ColorGray\">~~0.025~~</c> danni al bersaglio e <c val=\"#TooltipNumbers\">275</c><c val=\"#ColorGray\">~~0.025~~</c> danni ai nemici nell'area. I nemici colpiti da Detonazione del Gelo sono immobilizzati per <c val=\"#TooltipNumbers\">2</c> s.",
+      "name": "Detonazione del Gelo",
+      "shortText": "Infligge danni ai nemici attorno a un bersaglio e li immobilizza."
+    },
+    "KelThuzadShadowFissure|KelThuzadShadowFissure|Heroic": {
+      "cooldownText": "Recupero: 16 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 40</s>",
+      "fullText": "Crea sulla mappa una fessura che esplode dopo <c val=\"#TooltipNumbers\">1.5</c> s, infliggendo <c val=\"#TooltipNumbers\">320</c><c val=\"#ColorGray\">~~0.025~~</c> danni agli eroi nemici nell'area. Se colpisce un eroe nemico, il tempo di recupero è impostato a <c val=\"#TooltipNumbers\">1.5</c> s.",
+      "name": "Fessura dell'Ombra",
+      "shortText": "Infligge ingenti danni ad area."
+    },
+    ":PASSIVE:|KelThuzadMasterOfTheColdDark|Trait": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Missione:</c> Ottieni <c val=\"#TooltipNumbers\">1</c> accumulo di Morbo ogni volta che un eroe è immobilizzato da Esplosione Gelida o colpito da Catene di Kel'Thuzad.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Ricompensa:</c> Dopo aver ottenuto <c val=\"#TooltipNumbers\">15</c> accumuli di Morbo, fornisce Aculeo Glaciale.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Ricompensa:</c> Dopo aver ottenuto <c val=\"#TooltipNumbers\">30</c> accumuli di Morbo, aumenta del <c val=\"#TooltipNumbers\">75%</c> la Potenza magica.<n/><n/><c val=\"#TooltipQuest\">Morbo:</c> <c val=\"#TooltipNumbers\" validator=\"True\">0/30</c>",
+      "name": "Maestro della Fredda Oscurità",
+      "shortText": "Kel'Thuzad diventa progressivamente più forte attaccando i nemici."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Recupero: 4 s",
+      "fullText": "Dopo un incanalamento di <c val=\"#TooltipNumbers\">1</c> s, aumenta del <s val=\"StandardTooltipDetails\">30%</s> la velocità di movimento.",
+      "name": "Cavalcatura"
+    },
+    "KelThuzadGlacialSpike|KelThuzadGlacialSpike|Active": {
+      "cooldownText": "Recupero: 30 s",
+      "fullText": "All'attivazione crea un aculeo che esplode dopo <c val=\"#TooltipNumbers\">4</c> s, infliggendo <c val=\"#TooltipNumbers\">70</c><c val=\"#ColorGray\">~~0.025~~</c> danni ai nemici vicini. L'aculeo può essere colpito dalle Catene di Kel'Thuzad.",
+      "name": "Aculeo Glaciale",
+      "shortText": "Crea un aculeo che esplode e infligge danni."
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Dopo un incanalamento di <c val=\"#TooltipNumbers\">6</c> s, teletrasporta l'eroe nella Sala delle Tempeste, rigenerando all'istante <c val=\"#TooltipNumbers\">1125</c> Salute e <c val=\"#TooltipNumbers\">150</c> Mana.",
+      "name": "Pietra del Ritorno"
+    },
+    "KelThuzadChainsLink|KelThuzadChainsLink|E": {
+      "fullText": "Scaglia una nuova catena dal nemico attualmente incatenato. Infligge <c val=\"#TooltipNumbers\">97</c><c val=\"#ColorGray\">~~0.025~~</c> danni quando colpisce un eroe e lo trascina verso il primo bersaglio.",
+      "name": "Catene di Kel'Thuzad",
+      "shortText": "Collega i nemici con Catene di Ghiaccio."
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Congeda la cavalcatura.",
+      "name": "Congeda cavalcatura"
+    },
+    "KelThuzadArchlichArmor|KelThuzadArchlichArmor|Active": {
+      "cooldownText": "Recupero: 25 s",
+      "fullText": "All'attivazione fornisce <c val=\"#TooltipNumbers\">50</c> Resistenza fisica per <c val=\"#TooltipNumbers\">4</c> s. All'attivazione, i nemici circostanti subiscono <c val=\"#TooltipNumbers\">45</c><c val=\"#ColorGray\">~~0.04~~</c> danni e sono rallentati del <c val=\"#TooltipNumbers\">35%</c> per <c val=\"#TooltipNumbers\">4</c> s.",
+      "name": "Armatura dell'Arcilich",
+      "shortText": "All'attivazione fornisce Resistenza fisica e rallenta i nemici."
+    },
+    "KelThuzadPhylacteryItem|KelThuzadPhylacteryItem|Passive": {
+      "fullText": "Attivare il filatterio consente a Kel'Thuzad di risorgere immediatamente nella Sala delle Tempeste. È necessario ricaricarlo dopo l'utilizzo.<n/><n/><c val=\"#AbilityPassive\">Passiva:</c> Kel'Thuzad rigenera Salute pari al <c val=\"#TooltipNumbers\">10%</c> dei danni da abilità inflitti finché il filatterio è carico.",
+      "name": "Filatterio di Kel'Thuzad",
+      "shortText": "Attiva per risorgere."
+    },
+    "KelThuzadShiftingMalice|KelThuzadShiftingMalice|Active": {
+      "cooldownText": "Recupero: 240 s",
+      "fullText": "All'attivazione Kel'Thuzad scatta in avanti, infliggendo <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.025~~</c> danni ai nemici sulla sua traiettoria. Le uccisioni azzerano il recupero di Rancore Fluttuante.",
+      "name": "Rancore Fluttuante",
+      "shortText": "All'attivazione Kel'Thuzad scatta in avanti e infligge danni."
+    },
+    "KelThuzadSpawnShade|KelThuzadTheDamnedReturn|Active": {
+      "cooldownText": "Recupero: 15 s",
+      "fullText": "All'attivazione crea un'Ombra di Naxxramas che dura <c val=\"#TooltipNumbers\">15</c> s e replica le attivazioni di Morte e Distruzione di Kel'Thuzad.",
+      "name": "Ritorno dei Dannati",
+      "shortText": "Crea delle ombre che replicano Morte e Distruzione."
+    }
+  },
+  "talents": {
+    "KelThuzadThePlaguelands|KelThuzadThePlaguelands|Q|Level1": {
+      "fullText": "Aumenta di <c val=\"#TooltipNumbers\">1</c> s la durata di Morte e Distruzione. Dopo aver ottenuto <c val=\"#TooltipNumbers\">30</c> accumuli di Morbo, estende del <c val=\"#TooltipNumbers\">30%</c> il raggio di Morte e Distruzione.",
+      "name": "Terre Infette",
+      "shortText": "Aumenta la durata di Morte e Distruzione e ne estende il raggio."
+    },
+    "KelThuzadBlightedFrost|KelThuzadBlightedFrost|W|Level1": {
+      "fullText": "Esplosione Gelida infligge il <c val=\"#TooltipNumbers\">75%</c> di danni aggiuntivi nell'area centrale. Dopo aver ottenuto <c val=\"#TooltipNumbers\">30</c> accumuli di Morbo, aumenta di <c val=\"#TooltipNumbers\">0.5</c> s la durata dell'immobilizzazione di Esplosione Gelida.",
+      "name": "Morbo Gelido",
+      "shortText": "Aumenta i danni dell'area centrale di Esplosione Gelida e la sua durata."
+    },
+    "KelThuzadBarbedChains|KelThuzadBarbedChains|E|Level1": {
+      "fullText": "Aumenta del <c val=\"#TooltipNumbers\">125%</c> i danni di Catene di Kel'Thuzad. Dopo aver ottenuto <c val=\"#TooltipNumbers\">30</c> accumuli di Morbo, Catene di Kel'Thuzad riduce di <c val=\"#TooltipNumbers\">10</c> la Resistenza degli eroi trascinati per <c val=\"#TooltipNumbers\">4</c> s.",
+      "name": "Catene Uncinate",
+      "shortText": "Catene infligge danni aggiuntivi e riduce la Resistenza dei nemici."
+    },
+    "KelThuzadStripShields|KelThuzadStripShields|E|Level4": {
+      "fullText": "Trascinare un eroe con Catene di Kel'Thuzad fornisce <c val=\"#TooltipNumbers\">128</c><c val=\"#ColorGray\">~~0.04~~</c> scudo permanente, fino a un massimo di <c val=\"#TooltipNumbers\">2</c> volte.<n/><n/>Inoltre, Catene di Kel'Thuzad infligge un massimo di <c val=\"#TooltipNumbers\">270</c><c val=\"#ColorGray\">~~0.025~~</c> danni aggiuntivi agli scudi.",
+      "name": "Catene Protettive",
+      "shortText": "Catene fornisce uno scudo e danneggia gli scudi."
+    },
+    "KelThuzadPhylactery|KelThuzadPhylactery|Passive|Level4": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Missione:</c> Raccogli <c val=\"#TooltipNumbers\">12</c> globi rigeneranti per caricare il filatterio di Kel'Thuzad.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Ricompensa:</c> Attivare il filatterio consente a Kel'Thuzad di risorgere immediatamente nella Sala delle Tempeste. È necessario ricaricarlo dopo l'utilizzo.<n/><n/><c val=\"#AbilityPassive\">Passiva:</c> Kel'Thuzad rigenera Salute pari al <c val=\"#TooltipNumbers\">10%</c> dei danni da abilità inflitti finché il filatterio è carico.",
+      "name": "Filatterio di Kel'Thuzad",
+      "shortText": "<c val=\"#TooltipQuest\">Missione:</c> Raccogliere globi rigeneranti consente di risorgere all'istante."
+    },
+    "KelThuzadArchlichArmor|KelThuzadArchlichArmor|Active|Level4": {
+      "cooldownText": "Recupero: 25 s",
+      "fullText": "All'attivazione fornisce <c val=\"#TooltipNumbers\">50</c> Resistenza fisica per <c val=\"#TooltipNumbers\">4</c> s. All'attivazione, i nemici circostanti subiscono <c val=\"#TooltipNumbers\">45</c><c val=\"#ColorGray\">~~0.04~~</c> danni e sono rallentati del <c val=\"#TooltipNumbers\">35%</c> per <c val=\"#TooltipNumbers\">4</c> s.",
+      "name": "Armatura dell'Arcilich",
+      "shortText": "All'attivazione fornisce Resistenza fisica e rallenta i nemici."
+    },
+    "KelThuzadAcceleratedDecay|KelThuzadAcceleratedDecay|Q|Level7": {
+      "fullText": "Ogni volta che Morte e Distruzione colpisce un eroe, questi subisce il <c val=\"#TooltipNumbers\">25%</c> di danni periodici aggiuntivi da Morte e Distruzione per i successivi <c val=\"#TooltipNumbers\">4</c> s, fino a un massimo di <c val=\"#TooltipNumbers\">4</c> volte.",
+      "name": "Decadimento Accelerato",
+      "shortText": "Aumenta i danni di Morte e Distruzione."
+    },
+    "KelThuzadChillingTouch|KelThuzadChillingTouch|Passive|Level7": {
+      "fullText": "Ogni <c val=\"#TooltipNumbers\">8</c> s, il successivo attacco base di Kel'Thuzad infligge il <c val=\"#TooltipNumbers\">80%</c> di danni aggiuntivi ai nemici nell'area come danni da abilità invece che danni fisici e rallenta i bersagli del <c val=\"#TooltipNumbers\">30%</c> per <c val=\"#TooltipNumbers\">2</c> s.",
+      "name": "Tocco Gelido",
+      "shortText": "Gli attacchi base periodicamente infliggono danni da abilità ad area."
+    },
+    "KelThuzadIceCold|KelThuzadIceCold|Passive|Level7": {
+      "fullText": "Riduce di <c val=\"#TooltipNumbers\">10</c> s il tempo di recupero di Aculeo Glaciale e ne aumenta i danni del <c val=\"#TooltipNumbers\">400%</c>. ",
+      "name": "Freddo Glaciale",
+      "shortText": "Riduce il tempo di recupero di Aculeo Glaciale."
+    },
+    "KelThuzadFrozenTomb|KelThuzadFrozenTomb|Heroic|Level10": {
+      "cooldownText": "Recupero: 50 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 45</s>",
+      "fullText": "Lancia una meteora gelida contro un eroe nemico. All'impatto, la meteora infligge <c val=\"#TooltipNumbers\">115</c><c val=\"#ColorGray\">~~0.025~~</c> danni al bersaglio e <c val=\"#TooltipNumbers\">275</c><c val=\"#ColorGray\">~~0.025~~</c> danni ai nemici nell'area. I nemici colpiti da Detonazione del Gelo sono immobilizzati per <c val=\"#TooltipNumbers\">2</c> s.",
+      "name": "Detonazione del Gelo",
+      "shortText": "Infligge danni ai nemici attorno a un bersaglio e li immobilizza."
+    },
+    "KelThuzadShadowFissure|KelThuzadShadowFissure|Heroic|Level10": {
+      "cooldownText": "Recupero: 16 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 40</s>",
+      "fullText": "Crea sulla mappa una fessura che esplode dopo <c val=\"#TooltipNumbers\">1.5</c> s, infliggendo <c val=\"#TooltipNumbers\">320</c><c val=\"#ColorGray\">~~0.025~~</c> danni agli eroi nemici nell'area. Se colpisce un eroe nemico, il tempo di recupero è impostato a <c val=\"#TooltipNumbers\">1.5</c> s.",
+      "name": "Fessura dell'Ombra",
+      "shortText": "Infligge ingenti danni ad area."
+    },
+    "KelThuzadIcyGrasp|KelThuzadIcyGrasp|W|Level13": {
+      "fullText": "Aumenta del <c val=\"#TooltipNumbers\">20%</c> l'effetto di rallentamento di Esplosione Gelida. Ogni volta che Kel'Thuzad danneggia un nemico rallentato da Esplosione Gelida, ne riduce il tempo di recupero di <c val=\"#TooltipNumbers\">0.75</c> s.",
+      "name": "Morsa Ghiacciata",
+      "shortText": "Potenzia Esplosione Gelida e riduce il tempo di recupero."
+    },
+    "KelThuzadChainsOfIce|KelThuzadChainsOfIce|E|Level13": {
+      "fullText": "Al termine di Catene di Kel'Thuzad, i nemici sono rallentati del <c val=\"#TooltipNumbers\">60%</c> per <c val=\"#TooltipNumbers\">1</c> s.",
+      "name": "Catene di Ghiaccio",
+      "shortText": "Catene rallenta i nemici dopo averli trascinati."
+    },
+    "KelThuzadChainLink|KelThuzadChainLink|E|Level13": {
+      "fullText": "Trascinare un eroe con Catene di Kel'Thuzad ne riduce il tempo di recupero di <c val=\"#TooltipNumbers\">5</c> s e rimborsa il costo in Mana.",
+      "name": "Incatenamento",
+      "shortText": "Trascinare gli eroi riduce il tempo di recupero di Catene di Kel'Thuzad."
+    },
+    "KelThuzadArcaneEchoes|KelThuzadArcaneEchoes|Q|Level16": {
+      "fullText": "Se Kel'Thuzad colpisce un eroe nemico con l'esplosione di Morte e Distruzione, il suo tempo di recupero è ridotto di <c val=\"#TooltipNumbers\">1.5</c> s.",
+      "name": "Echi Arcani",
+      "shortText": "Riduce il tempo di recupero di Morte e Distruzione."
+    },
+    "KelThuzadHungeringCold|KelThuzadHungeringCold|Passive|Level16": {
+      "fullText": "I nemici immobilizzati subiscono <c val=\"#TooltipNumbers\">55</c><c val=\"#ColorGray\">~~0.025~~</c> danni aggiuntivi ogni volta che sono danneggiati da Kel'Thuzad.",
+      "name": "Freddo Pungente",
+      "shortText": "Infligge danni aggiuntivi ai nemici immobilizzati."
+    },
+    "KelThuzadPowerOfIcecrown|KelThuzadPowerOfIcecrown|Passive|Level16": {
+      "fullText": "Stordire, immobilizzare o rallentare un eroe aumenta del <c val=\"#TooltipNumbers\">6%</c> la Potenza magica per <c val=\"#TooltipNumbers\">10</c> s, fino a un massimo di <c val=\"#TooltipNumbers\">5</c> volte.",
+      "name": "Potere della Corona di Ghiaccio",
+      "shortText": "Inabilitare i nemici fornisce Potenza magica."
+    },
+    "KelThuzadDeathchill|KelThuzadDeathchill|Heroic|Level20": {
+      "fullText": "Al termine dell'intrappolamento di Detonazione del Gelo, i nemici sono rallentati del <c val=\"#TooltipNumbers\">40%</c> per <c val=\"#TooltipNumbers\">3</c> s. Gli eroi uccisi durante gli effetti di Detonazione del Gelo rilasciano all'istante un'altra esplosione.",
+      "name": "Mortegelida",
+      "shortText": "Detonazione del Gelo rallenta i nemici, le uccisioni generano esplosioni."
+    },
+    "KelThuzadMightOfTheScourge|KelThuzadMightOfTheScourge|Heroic|Level20": {
+      "fullText": "Colpire un eroe con Fessura dell'Ombra la attiva una seconda volta <c val=\"#TooltipNumbers\">1</c> s più tardi. La seconda attivazione non si replica.",
+      "name": "Vigore del Flagello",
+      "shortText": "Colpire eroi ripristina Fessura dell'Ombra."
+    },
+    "KelThuzadShiftingMalice|KelThuzadShiftingMalice|Active|Level20": {
+      "cooldownText": "Recupero: 240 s",
+      "fullText": "All'attivazione Kel'Thuzad scatta in avanti, infliggendo <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.025~~</c> danni ai nemici sulla sua traiettoria. Le uccisioni azzerano il recupero di Rancore Fluttuante.",
+      "name": "Rancore Fluttuante",
+      "shortText": "All'attivazione Kel'Thuzad scatta in avanti e infligge danni."
+    },
+    "KelThuzadTheDamnedReturn|KelThuzadTheDamnedReturn|Active|Level20": {
+      "cooldownText": "Recupero: 15 s",
+      "fullText": "All'attivazione crea un'Ombra di Naxxramas che dura <c val=\"#TooltipNumbers\">15</c> s e replica le attivazioni di Morte e Distruzione di Kel'Thuzad.",
+      "name": "Ritorno dei Dannati",
+      "shortText": "Crea delle ombre che replicano Morte e Distruzione."
+    }
+  },
+  "units": {}
+}

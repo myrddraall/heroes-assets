@@ -1,0 +1,713 @@
+{
+  "id": "Dryad",
+  "unitId": "HeroDryad",
+  "hyperlinkId": "Lunara",
+  "attributeId": "Drya",
+  "franchise": "Warcraft",
+  "rarity": "Epic",
+  "releaseDate": "2015-12-15",
+  "isMelee": false,
+  "gender": "Female",
+  "radius": 0.75,
+  "innerRadius": 0.75,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "ratings": {
+    "complexity": 5,
+    "damage": 8,
+    "survivability": 4,
+    "utility": 5
+  },
+  "life": {
+    "amount": 1430,
+    "scale": 0.04,
+    "regenRate": 2.9804,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "EnergyImportant",
+    "Escaper",
+    "RoleAutoAttacker",
+    "RoleCaster",
+    "WaveClearer"
+  ],
+  "summonedUnitIds": [
+    "DryadWispUnit"
+  ],
+  "weapons": [
+    {
+      "nameId": "DryadHeroMeleeWeapon",
+      "isDisabled": false,
+      "range": 1.6,
+      "minimumRange": 0,
+      "period": 0.9,
+      "damage": 90,
+      "damageScale": 0.04
+    },
+    {
+      "nameId": "DryadHeroRangedWeapon",
+      "isDisabled": false,
+      "range": 5.5,
+      "minimumRange": 1.6,
+      "period": 0.9,
+      "damage": 90,
+      "damageScale": 0.04
+    },
+    {
+      "nameId": "DryadHeroRangedWeaponStarwoodSpearMastery",
+      "isDisabled": true,
+      "range": 8.25,
+      "minimumRange": 1.6,
+      "period": 0.9,
+      "damage": 90,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "DryadSkinSentinel",
+    "DryadSkinUltimate",
+    "DryadSummer18",
+    "DryadWarden",
+    "DryadWinter"
+  ],
+  "variationSkinIds": [
+    "DryadVar1",
+    "DryadVar2",
+    "DryadVar3"
+  ],
+  "voiceLineIds": [
+    "DryadBase_VoiceLine01",
+    "DryadBase_VoiceLine02",
+    "DryadBase_VoiceLine03",
+    "DryadBase_VoiceLine04",
+    "DryadBase_VoiceLine05"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "DryadNoxiousBlossom|DryadNoxiousBlossom|Q",
+        "abilityId": "DryadNoxiousBlossom",
+        "buttonId": "DryadNoxiousBlossom",
+        "icon": "storm_ui_icon_lunara_pollencloud.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "DryadCripplingSpores|DryadCripplingSpores|W",
+        "abilityId": "DryadCripplingSpores",
+        "buttonId": "DryadCripplingSpores",
+        "icon": "storm_ui_icon_lunara_fullbloom.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "DryadWisp|DryadWisp|E",
+        "abilityId": "DryadWisp",
+        "buttonId": "DryadWisp",
+        "icon": "storm_ui_icon_lunara_wisp.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "DryadThornwoodVine|DryadThornwoodVine|Heroic",
+        "abilityId": "DryadThornwoodVine",
+        "buttonId": "DryadThornwoodVine",
+        "icon": "storm_ui_icon_lunara_wildspear.png",
+        "charges": {
+          "countMax": 3,
+          "countStart": 3,
+          "countUse": 1,
+          "recastCooldown": 0.5,
+          "isCountHidden": false
+        },
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "DryadLeapingStrike|DryadLeapingStrike|Heroic",
+        "abilityId": "DryadLeapingStrike",
+        "buttonId": "DryadLeapingStrike",
+        "icon": "storm_ui_icon_lunara_boundlessstride.png",
+        "charges": {
+          "countMax": 2,
+          "countStart": 2,
+          "countUse": 1,
+          "recastCooldown": 0.5,
+          "isCountHidden": false
+        },
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": ":PASSIVE:|DryadNaturesToxin|Trait",
+        "abilityId": ":PASSIVE:",
+        "buttonId": "DryadNaturesToxin",
+        "icon": "storm_ui_icon_lunara_stiflingblossom.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": ":PASSIVE:|DryadDryadsSwiftness|Z",
+        "abilityId": ":PASSIVE:",
+        "buttonId": "DryadDryadsSwiftness",
+        "icon": "storm_ui_icon_lunara_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "DryadWisp|DryadWisp|E": {
+      "Basic": [
+        {
+          "linkId": "DryadWispRedirect|DryadWispRedirect|E",
+          "abilityId": "DryadWispRedirect",
+          "buttonId": "DryadWispRedirect",
+          "icon": "storm_ui_icon_lunara_wispredirect.png",
+          "abilityType": "E"
+        }
+      ]
+    },
+    "DryadGreaterSpellShield|DryadGreaterSpellShieldItemEnabled|Passive": {
+      "Activable": [
+        {
+          "linkId": "DryadGreaterSpellShield|DryadGreaterSpellShieldItemDisabled|Passive",
+          "abilityId": "DryadGreaterSpellShield",
+          "buttonId": "DryadGreaterSpellShieldItemDisabled",
+          "icon": "storm_ui_icon_lunara_greaterspellshield.png",
+          "toggleCooldown": 0.75,
+          "abilityType": "Passive"
+        }
+      ]
+    },
+    "DryadAbolishMagic|DryadAbolishMagicHotbar|Active|Level13": {
+      "Activable": [
+        {
+          "linkId": "DryadAbolishMagic|DryadAbolishMagicHotbar|Active",
+          "abilityId": "DryadAbolishMagic",
+          "buttonId": "DryadAbolishMagicHotbar",
+          "icon": "storm_ui_icon_lunara_abolishmagic.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "DryadGreaterSpellShield|DryadGreaterSpellShieldTalent|Passive|Level13": {
+      "Activable": [
+        {
+          "linkId": "DryadGreaterSpellShield|DryadGreaterSpellShieldItemEnabled|Passive",
+          "abilityId": "DryadGreaterSpellShield",
+          "buttonId": "DryadGreaterSpellShieldItemEnabled",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "toggleCooldown": 0.75,
+          "abilityType": "Passive"
+        }
+      ]
+    },
+    "DryadGallopingGait|DryadGallopingGaitTalent|Z|Level20": {
+      "Mount": [
+        {
+          "linkId": "DryadGallopingGait|DryadDryadsSwiftness|Z",
+          "abilityId": "DryadGallopingGait",
+          "buttonId": "DryadDryadsSwiftness",
+          "icon": "storm_ui_icon_lunara_mount.png",
+          "abilityType": "Z"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "DryadSentinelWisp|DryadSentinelWispTalent|E|Level1",
+        "talentId": "DryadSentinelWisp",
+        "buttonId": "DryadSentinelWispTalent",
+        "abilityId": "DryadWisp",
+        "icon": "storm_ui_icon_lunara_wisp.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "DryadWisp|DryadWisp|E",
+          "DryadWispRedirect|DryadWispRedirect|E"
+        ]
+      },
+      {
+        "linkId": "DryadNaturalPerspective|DryadNaturalPerspectiveTalent|Trait|Level1",
+        "talentId": "DryadNaturalPerspective",
+        "buttonId": "DryadNaturalPerspectiveTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_lunara_stiflingblossom.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|DryadNaturesToxin|Trait"
+        ]
+      },
+      {
+        "linkId": "DryadHippityHop|DryadHippityHop|Z|Level1",
+        "talentId": "DryadHippityHop",
+        "buttonId": "DryadHippityHop",
+        "abilityId": "DryadGallopingGait",
+        "icon": "storm_ui_icon_lunara_boundlessstride_a.png",
+        "abilityType": "Z",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|DryadDryadsSwiftness|Z",
+          "DryadGallopingGait|DryadDryadsSwiftness|Z"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "DryadBlossomSwell|DryadBlossomSwellTalent|Q|Level4",
+        "talentId": "DryadBlossomSwell",
+        "buttonId": "DryadBlossomSwellTalent",
+        "abilityId": "DryadNoxiousBlossom",
+        "icon": "storm_ui_icon_lunara_pollencloud.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "DryadNoxiousBlossom|DryadNoxiousBlossom|Q"
+        ]
+      },
+      {
+        "linkId": "DryadNaturesCulling|DryadNaturesCullingTalent|Trait|Level4",
+        "talentId": "DryadNaturesCulling",
+        "buttonId": "DryadNaturesCullingTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_lunara_stiflingblossom.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|DryadNaturesToxin|Trait"
+        ]
+      },
+      {
+        "linkId": "DryadSiphoningToxin|DryadSiphoningToxinTalent|Trait|Level4",
+        "talentId": "DryadSiphoningToxin",
+        "buttonId": "DryadSiphoningToxinTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_lunara_stiflingblossom_var1.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|DryadNaturesToxin|Trait"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "DryadSplinteredSpear|DryadSplinteredSpearTalent|Q|Level7",
+        "talentId": "DryadSplinteredSpear",
+        "buttonId": "DryadSplinteredSpearTalent",
+        "abilityId": "DryadNoxiousBlossom",
+        "icon": "storm_ui_icon_lunara_pollencloud.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "DryadNoxiousBlossom|DryadNoxiousBlossom|Q"
+        ]
+      },
+      {
+        "linkId": "DryadChokingPollen|DryadChokingPollenTalent|Q|Level7",
+        "talentId": "DryadChokingPollen",
+        "buttonId": "DryadChokingPollenTalent",
+        "abilityId": "DryadNoxiousBlossom",
+        "icon": "storm_ui_icon_lunara_pollencloud_b.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "DryadNoxiousBlossom|DryadNoxiousBlossom|Q"
+        ]
+      },
+      {
+        "linkId": "DryadWildVigor|DryadWildVigorTalent|W|Level7",
+        "talentId": "DryadWildVigor",
+        "buttonId": "DryadWildVigorTalent",
+        "abilityId": "DryadCripplingSpores",
+        "icon": "storm_ui_icon_lunara_fullbloom.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "DryadCripplingSpores|DryadCripplingSpores|W"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "DryadHeroicAbilityThornwoodVine|DryadThornwoodVine|Heroic|Level10",
+        "talentId": "DryadHeroicAbilityThornwoodVine",
+        "buttonId": "DryadThornwoodVine",
+        "abilityId": "DryadThornwoodVine",
+        "icon": "storm_ui_icon_lunara_wildspear.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "DryadHeroicAbilityLeapingStrike|DryadLeapingStrike|Heroic|Level10",
+        "talentId": "DryadHeroicAbilityLeapingStrike",
+        "buttonId": "DryadLeapingStrike",
+        "abilityId": "DryadLeapingStrike",
+        "icon": "storm_ui_icon_lunara_boundlessstride.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "DryadEndlessSpores|DryadEndlessSpores|W|Level13",
+        "talentId": "DryadEndlessSpores",
+        "buttonId": "DryadEndlessSpores",
+        "abilityId": "DryadCripplingSpores",
+        "icon": "storm_ui_icon_lunara_fullbloom.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "DryadCripplingSpores|DryadCripplingSpores|W"
+        ]
+      },
+      {
+        "linkId": "DryadLetThemWither|DryadLetThemWitherTalent|W|Level13",
+        "talentId": "DryadLetThemWither",
+        "buttonId": "DryadLetThemWitherTalent",
+        "abilityId": "DryadCripplingSpores",
+        "icon": "storm_ui_icon_lunara_fullbloom_a.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "DryadCripplingSpores|DryadCripplingSpores|W"
+        ]
+      },
+      {
+        "linkId": "DryadGreaterSpellShield|DryadGreaterSpellShieldTalent|Passive|Level13",
+        "talentId": "DryadGreaterSpellShield",
+        "buttonId": "DryadGreaterSpellShieldTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_lunara_greaterspellshield.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      },
+      {
+        "linkId": "DryadAbolishMagic|DryadAbolishMagicHotbar|Active|Level13",
+        "talentId": "DryadAbolishMagic",
+        "buttonId": "DryadAbolishMagicHotbar",
+        "abilityId": "DryadAbolishMagic",
+        "icon": "storm_ui_icon_lunara_abolishmagic.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "DryadAcceleratedContamination|DryadAcceleratedContamination|Q|Level16",
+        "talentId": "DryadAcceleratedContamination",
+        "buttonId": "DryadAcceleratedContamination",
+        "abilityId": "DryadNoxiousBlossom",
+        "icon": "storm_ui_icon_lunara_pollencloud.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "DryadNoxiousBlossom|DryadNoxiousBlossom|Q"
+        ]
+      },
+      {
+        "linkId": "DryadStarWoodSpear|DryadStarWoodSpearTalent|W|Level16",
+        "talentId": "DryadStarWoodSpear",
+        "buttonId": "DryadStarWoodSpearTalent",
+        "abilityId": "DryadCripplingSpores",
+        "icon": "storm_ui_icon_lunara_fullbloom.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "DryadCripplingSpores|DryadCripplingSpores|W"
+        ]
+      },
+      {
+        "linkId": "DryadInvigoratingSpores|DryadInvigoratingSporesTalent|W|Level16",
+        "talentId": "DryadInvigoratingSpores",
+        "buttonId": "DryadInvigoratingSporesTalent",
+        "abilityId": "DryadCripplingSpores",
+        "icon": "storm_ui_icon_lunara_fullbloom_a.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "DryadCripplingSpores|DryadCripplingSpores|W"
+        ]
+      },
+      {
+        "linkId": "DryadUnfairAdvantage|DryadUnfairAdvantageTalent|Trait|Level16",
+        "talentId": "DryadUnfairAdvantage",
+        "buttonId": "DryadUnfairAdvantageTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_lunara_stiflingblossom.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|DryadNaturesToxin|Trait"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "DryadForTheWildlands|DryadForTheWildlandsTalent|Heroic|Level20",
+        "talentId": "DryadForTheWildlands",
+        "buttonId": "DryadForTheWildlandsTalent",
+        "abilityId": "DryadThornwoodVine",
+        "icon": "storm_ui_icon_lunara_wildspear.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "DryadThornwoodVine|DryadThornwoodVine|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "DryadHeroicAbilityThornwoodVine"
+        ]
+      },
+      {
+        "linkId": "DryadBoundlessStrideTalent|DryadBoundlessStrideTalent|Heroic|Level20",
+        "talentId": "DryadBoundlessStrideTalent",
+        "buttonId": "DryadBoundlessStrideTalent",
+        "abilityId": "DryadLeapingStrike",
+        "icon": "storm_ui_icon_lunara_boundlessstride.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "DryadLeapingStrike|DryadLeapingStrike|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "DryadHeroicAbilityLeapingStrike"
+        ]
+      },
+      {
+        "linkId": "DryadForestsWrath|DryadForestsWrathTalent|Heroic|Level20",
+        "talentId": "DryadForestsWrath",
+        "buttonId": "DryadForestsWrathTalent",
+        "abilityId": "DryadThornwoodVine",
+        "icon": "storm_ui_icon_lunara_forests_wrath.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3
+      },
+      {
+        "linkId": "DryadIntensifyingToxin|DryadIntensifyingToxin|Trait|Level20",
+        "talentId": "DryadIntensifyingToxin",
+        "buttonId": "DryadIntensifyingToxin",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_lunara_stiflingblossom.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          "DryadNoxiousBlossom|DryadNoxiousBlossom|Q",
+          ":PASSIVE:|DryadNaturesToxin|Trait"
+        ]
+      },
+      {
+        "linkId": "DryadGallopingGait|DryadGallopingGaitTalent|Z|Level20",
+        "talentId": "DryadGallopingGait",
+        "buttonId": "DryadGallopingGaitTalent",
+        "abilityId": "DryadGallopingGait",
+        "icon": "storm_ui_icon_lunara_boundlessstride_a.png",
+        "abilityType": "Z",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 5,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|DryadDryadsSwiftness|Z",
+          "DryadGallopingGait|DryadDryadsSwiftness|Z"
+        ]
+      }
+    ]
+  },
+  "sheet": "sheets/Dryad.png",
+  "icons": {
+    "storm_ui_icon_lunara_pollencloud.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_lunara_fullbloom.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_lunara_wisp.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_lunara_wildspear.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_lunara_boundlessstride.png": [
+      512,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_lunara_stiflingblossom.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_lunara_mount.png": [
+      128,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      256,
+      128,
+      111,
+      71
+    ],
+    "storm_ui_icon_lunara_wispredirect.png": [
+      384,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_lunara_greaterspellshield.png": [
+      512,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_lunara_abolishmagic.png": [
+      0,
+      256,
+      128,
+      128
+    ],
+    "hud_btn_bg_ability_cancel.png": [
+      128,
+      256,
+      97,
+      111
+    ],
+    "storm_ui_icon_lunara_boundlessstride_a.png": [
+      256,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_lunara_stiflingblossom_var1.png": [
+      384,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_lunara_pollencloud_b.png": [
+      512,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_lunara_fullbloom_a.png": [
+      0,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_lunara_forests_wrath.png": [
+      128,
+      384,
+      128,
+      128
+    ]
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "abilities": {
+    "StukovHealingPathogen|StukovHealingPathogen|Q": {
+      "cooldownText": "Tiempo de reutilización: 10 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 40</s>",
+      "fullText": "Infesta a un héroe aliado con un Agente patógeno sanador que le restituye al objetivo <c val=\"#TooltipNumbers\">222</c><c val=\"#ColorGray\">~~0.04~~</c> de salud durante <c val=\"#TooltipNumbers\">4.5</c> segundos. Los Agentes patógenos sanadores pueden propagarse a un héroe aliado cercano cada <c val=\"#TooltipNumbers\">0.75</c> segundos.<n/><n/>Cada lanzamiento de Agente patógeno sanador puede propagarse a cada héroe aliado <c val=\"#TooltipNumbers\">1</c> sola vez.",
+      "name": "Agente patógeno sanador",
+      "shortText": "Infesta a aliados con un virus sanador que se propaga"
+    },
+    "StukovWeightedPustule|StukovWeightedPustule|W": {
+      "cooldownText": "Tiempo de reutilización: 10 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 50</s>",
+      "fullText": "Lanza una pústula que impacta sobre todos los héroes enemigos a su paso, lo que les inflige <c val=\"#TooltipNumbers\">20</c><c val=\"#ColorGray\">~~0.04~~</c> de daño y los ralentiza un <c val=\"#TooltipNumbers\">5%</c>, que aumenta hasta un <c val=\"#TooltipNumbers\">50%</c> durante <c val=\"#TooltipNumbers\">3</c> segundos. Inflige <c val=\"#TooltipNumbers\">88</c><c val=\"#ColorGray\">~~0.04~~</c> más de daño al expirar o eliminarla.",
+      "name": "Pústula pesada",
+      "shortText": "Inflige daño a los enemigos y los infesta con un virus ralentizador"
+    },
+    "StukovLurkingArm|StukovLurkingArm|E": {
+      "cooldownText": "Tiempo de reutilización: 10 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 60</s>",
+      "fullText": "Canaliza la habilidad hacia una ubicación objetivo, lo que crea un área que inflige <c val=\"#TooltipNumbers\">136</c><c val=\"#ColorGray\">~~0.04~~</c> de daño por segundo a los enemigos que no son estructuras y los silencia. Inflige un <c val=\"#TooltipNumbers\">50%</c> menos de daño a unidades que no son héroes.<n/><n/>No se gasta maná durante la canalización y dura hasta que se interrumpa o se cancele la habilidad.",
+      "name": "Brazo al acecho",
+      "shortText": "Daña continuamente y silencia a los enemigos en un área"
+    },
+    "StukovMassiveShove|StukovMassiveShove|Heroic": {
+      "cooldownText": "Tiempo de reutilización: 20 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 50</s>",
+      "fullText": "Extiende el brazo de Stukov. Si golpea a un héroe enemigo, lo empuja rápidamente hasta que este impacta contra el terreno, lo cual inflige <c val=\"#TooltipNumbers\">190</c><c val=\"#ColorGray\">~~0.04~~</c> de daño y aturde al objetivo durante <c val=\"#TooltipNumbers\">0.5</c> segundos. Stukov obtiene <c val=\"#TooltipNumbers\">50</c> de Armadura mientras empuja a un enemigo.",
+      "name": "Empujón masivo",
+      "shortText": "Empuja a un enemigo hasta que este choca contra el terreno"
+    },
+    "StukovFlailingSwipe|StukovFlailingSwipe|Heroic": {
+      "cooldownText": "Tiempo de reutilización: 60 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 60</s>",
+      "fullText": "Lanza un ataque <c val=\"#TooltipNumbers\">3</c> veces frente a Stukov durante <c val=\"#TooltipNumbers\">1.75</c> segundos, lo que inflige <c val=\"#TooltipNumbers\">48</c><c val=\"#ColorGray\">~~0.04~~</c> de daño a los enemigos golpeados y los repele. Con cada golpe se incrementa el radio de alcance.",
+      "name": "Flagelo continuo",
+      "shortText": "Repele a los enemigos delante de Stukov"
+    },
+    "StukovBioKillSwitch|StukovBioKillSwitch|Trait": {
+      "cooldownText": "Tiempo de reutilización: 16 segundos",
+      "fullText": "Activar para detonar todos los virus de Stukov. Cada Agente patógeno sanador le restituye <c val=\"#TooltipNumbers\">435</c><c val=\"#ColorGray\">~~0.04~~</c> de salud a su objetivo y cada Pústula pesada inflige <c val=\"#TooltipNumbers\">100</c><c val=\"#ColorGray\">~~0.04~~</c> de daño y ralentiza a su objetivo un <c val=\"#TooltipNumbers\">70%</c> durante <c val=\"#TooltipNumbers\">2</c> segundos.<n/><n/>Puede lanzarse durante la canalización de Brazo al acecho.",
+      "name": "Disparador de biomuerte",
+      "shortText": "Detona virus para efectos inmediatos"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Tiempo de reutilización: 4 segundos",
+      "fullText": "Tras una canalización de <c val=\"#TooltipNumbers\">1</c> segundo, obtienes un <s val=\"StandardTooltipDetails\">30%</s> de velocidad de movimiento.",
+      "name": "Invocar montura"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Tras una canalización de <c val=\"#TooltipNumbers\">6</c> segundos, te teletransportas de regreso a la Sala de las tormentas para recuperar <c val=\"#TooltipNumbers\">1125</c> de salud y <c val=\"#TooltipNumbers\">150</c> de maná de inmediato.",
+      "name": "Piedra de hogar"
+    },
+    "StukovSpineLauncher|StukovSpineLauncherTalentDisabled|W": {
+      "fullText": "Los ataques básicos tienen un mayor alcance y ralentizan a los enemigos un <c val=\"#TooltipNumbers\">20%</c> durante <c val=\"#TooltipNumbers\">1.5</c> segundos, pero el daño infligido se reduce un <c val=\"#TooltipNumbers\">35%</c>.<n/><n/>Activar para volver a los ataques básicos de melé.",
+      "name": "Lanzaespinas"
+    },
+    "StukovLurkingArmCancel|StukovLurkingArmCancel|E": {
+      "fullText": "Cancelar Brazo al acecho.",
+      "name": "Brazo al acecho - Cancelar"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Te desmontas.",
+      "name": "Desinvocar montura"
+    },
+    "StukovSpineLauncher|StukovSpineLauncherTalentEnabled|W": {
+      "fullText": "Los ataques básicos son de melé.<n/><n/>Activar para que los ataques básicos tengan un mayor alcance y ralenticen a los enemigos un <c val=\"#TooltipNumbers\">20%</c> durante <c val=\"#TooltipNumbers\">1.5</c> segundos, pero infligen un <c val=\"#TooltipNumbers\">35%</c> menos de daño.",
+      "name": "Ataques de melé"
+    },
+    "StukovWeightedPustuleReactiveBallistospores|StukovReactiveBallistosporesTalent|Active": {
+      "cooldownText": "Tiempo de reutilización: 75 segundos",
+      "fullText": "Activar para lanzar instantáneamente una Pústula pesada a todos los héroes enemigos cercanos y restablecer el tiempo de reutilización de Disparador de biomuerte.<n/><n/><c val=\"#AbilityPassive\">Pasiva</c>: Cuando tienes menos del <c val=\"#TooltipNumbers\">50%</c> de salud, el tiempo de reutilización de Disparador de biomuerte se restablece un <c val=\"#TooltipNumbers\">100%</c> más rápido.",
+      "name": "Esporas iracundas reactivas",
+      "shortText": "Lanza Pústula pesada"
+    }
+  },
+  "talents": {
+    "StukovFetidTouch|StukovFetidTouchTalent|W|Level1": {
+      "fullText": "Los ataques básicos tienen un mayor alcance y ralentizan a los enemigos un <c val=\"#TooltipNumbers\">20%</c> durante <c val=\"#TooltipNumbers\">1.5</c> segundos, pero infligen un <c val=\"#TooltipNumbers\">35%</c> menos de daño. Este efecto puede activarse y desactivarse.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Misión:</c> Golpea a héroes con Pústula pesada.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa:</c> Después de golpear a <c val=\"#TooltipNumbers\">15</c> héroes, se reduce el tiempo de reutilización de Pústula pesada <c val=\"#TooltipNumbers\">5</c> segundos y se elimina su costo de maná.",
+      "name": "Toque fétido",
+      "shortText": "<c val=\"#TooltipQuest\">Misión:</c> Reduce el costo y el tiempo de reutilización de Pústula pesada"
+    },
+    "StukovLowBlow|StukovLowBlowTalent|E|Level1": {
+      "fullText": "Brazo al acecho inflige un <c val=\"#TooltipNumbers\">100%</c> más de daño a los héroes enemigos con menos del <c val=\"#TooltipNumbers\">50%</c> de salud y persiste durante <c val=\"#TooltipNumbers\">1</c> segundo tras su cancelación.",
+      "name": "Golpe bajo",
+      "shortText": "Aumenta el daño de Brazo al acecho contra objetivos con poca salud"
+    },
+    "StukovWeightedPustuleReactiveBallistospores|StukovReactiveBallistosporesTalent|Active|Level1": {
+      "cooldownText": "Tiempo de reutilización: 75 segundos",
+      "fullText": "Activar para lanzar instantáneamente una Pústula pesada a todos los héroes enemigos cercanos y restablecer el tiempo de reutilización de Disparador de biomuerte.<n/><n/><c val=\"#AbilityPassive\">Pasiva</c>: Cuando tienes menos del <c val=\"#TooltipNumbers\">50%</c> de salud, el tiempo de reutilización de Disparador de biomuerte se restablece un <c val=\"#TooltipNumbers\">100%</c> más rápido.",
+      "name": "Esporas iracundas reactivas",
+      "shortText": "Lanza Pústula pesada"
+    },
+    "StukovOneGoodSpread|StukovOneGoodSpreadTalent|Q|Level4": {
+      "fullText": "Después de que Agente patógeno sanador infesta a <c val=\"#TooltipNumbers\">3</c> objetivos, se restituye <c val=\"#TooltipNumbers\">10</c> de maná y se reduce el tiempo de reutilización de Agente patógeno sanador <c val=\"#TooltipNumbers\">2</c> segundos.",
+      "name": "Una buena diseminación...",
+      "shortText": "Reduce el tiempo de reutilización de Agente patógeno sanador tras su propagación"
+    },
+    "StukovBioticArmor|StukovBioticArmorTalent|Q|Level4": {
+      "fullText": "Agente patógeno sanador otorga <c val=\"#TooltipNumbers\">10</c> de Armadura física a los objetivos cuando está activo sobre ellos. Al detonar Disparador de biomuerte se incrementa esta bonificación a <c val=\"#TooltipNumbers\">50</c> durante <c val=\"#TooltipNumbers\">2.5</c> segundos.",
+      "name": "Blindaje biótico",
+      "shortText": "Agente patógeno sanador otorga Armadura física"
+    },
+    "StukovVigorousReuptake|StukovVigorousReuptakeTalent|Trait|Level4": {
+      "fullText": "Se incrementa la sanación de Disparador de biomuerte un <c val=\"#TooltipNumbers\">30%</c> al detonar <c val=\"#TooltipNumbers\">3</c> o más Agentes patógenos sanadores.",
+      "name": "Recaptación vigorosa",
+      "shortText": "Aumenta la sanación de Disparador de biomuerte"
+    },
+    "StukovLongPitch|StukovLongPitchTalent|W|Level7": {
+      "fullText": "Aumenta el alcance de Pústula pesada un <c val=\"#TooltipNumbers\">50%</c>. Detonar <c val=\"#TooltipNumbers\">2</c> o más Pústulas pesadas hace que los tiempos de reutilización de Disparador de biomuerte y de las habilidades básicas de Stukov se recarguen un <c val=\"#TooltipNumbers\">100%</c> más rápido durante <c val=\"#TooltipNumbers\">4</c> segundos.",
+      "name": "El gran lanzamiento",
+      "shortText": "Aumenta el alcance de Pústula pesada, reduce los tiempos de reutilización"
+    },
+    "StukovGrowingInfestation|StukovGrowingInfestationTalent|E|Level7": {
+      "fullText": "El área de Brazo al acecho se expande un <c val=\"#TooltipNumbers\">50%</c> durante <c val=\"#TooltipNumbers\">2.5</c> segundos pero no puede canalizarse por más de <c val=\"#TooltipNumbers\">3</c> segundos.",
+      "name": "Infestación creciente",
+      "shortText": "Brazo al acecho se expande, tiene una duración determinada"
+    },
+    "StukovTargetedExcision|StukovTargetedExcisionTalent|Trait|Level7": {
+      "fullText": "Al detonar exactamente <c val=\"#TooltipNumbers\">1</c> Pústula pesada (pero cualquier número de Agentes patógenos sanadores) con Disparador de biomuerte, se reduce el tiempo de reutilización de Disparador de biomuerte a <c val=\"#TooltipNumbers\">7</c> segundos y el de otras habilidades básicas en <c val=\"#TooltipNumbers\">1.5</c> segundos.",
+      "name": "Remoción objetivo",
+      "shortText": "Detona una Pústula pesada para reducir los tiempos de reutilización"
+    },
+    "StukovHeroicAbilityFlailingSwipe|StukovFlailingSwipe|Heroic|Level10": {
+      "cooldownText": "Tiempo de reutilización: 60 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 60</s>",
+      "fullText": "Lanza un ataque <c val=\"#TooltipNumbers\">3</c> veces frente a Stukov durante <c val=\"#TooltipNumbers\">1.75</c> segundos, lo que inflige <c val=\"#TooltipNumbers\">48</c><c val=\"#ColorGray\">~~0.04~~</c> de daño a los enemigos golpeados y los repele. Con cada golpe se incrementa el radio de alcance.",
+      "name": "Flagelo continuo",
+      "shortText": "Repele a los enemigos delante de Stukov"
+    },
+    "StukovHeroicAbilityMassiveShove|StukovMassiveShove|Heroic|Level10": {
+      "cooldownText": "Tiempo de reutilización: 20 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 50</s>",
+      "fullText": "Extiende el brazo de Stukov. Si golpea a un héroe enemigo, lo empuja rápidamente hasta que este impacta contra el terreno, lo cual inflige <c val=\"#TooltipNumbers\">190</c><c val=\"#ColorGray\">~~0.04~~</c> de daño y aturde al objetivo durante <c val=\"#TooltipNumbers\">0.5</c> segundos. Stukov obtiene <c val=\"#TooltipNumbers\">50</c> de Armadura mientras empuja a un enemigo.",
+      "name": "Empujón masivo",
+      "shortText": "Empuja a un enemigo hasta que este choca contra el terreno"
+    },
+    "StukovItHungers|StukovLurkingArmItHungersTalent|E|Level13": {
+      "fullText": "Aumenta el alcance de Brazo al acecho un <c val=\"#TooltipNumbers\">30%</c>. Si Brazo al acecho inflige daño a héroes enemigos <c val=\"#TooltipNumbers\">8</c> veces, se restablece su tiempo de reutilización y se restituye su costo de maná.",
+      "name": "Insaciable",
+      "shortText": "El costo de Brazo al acecho puede recuperarse"
+    },
+    "StukovVirulentReaction|StukovVirulentReactionTalent|E|Level13": {
+      "fullText": "Detonar una Pústula pesada sobre un enemigo que se encuentra dentro de Brazo al acecho lo arraiga durante <c val=\"#TooltipNumbers\">1.5</c> segundos.",
+      "name": "Reacción virulenta",
+      "shortText": "Detonar Pústula pesada en Brazo al acecho arraiga"
+    },
+    "StukovPoppinPustules|StukovPoppinPustulesTalent|Trait|Level13": {
+      "fullText": "Detonar Pústula pesada con Disparador de biomuerte dentro de los <c val=\"#TooltipNumbers\">1.5</c> segundos de su finalización incrementa el daño un <c val=\"#TooltipNumbers\">150%</c> y aplica su daño y ralentización en un área. A los héroes enemigos golpeados se les aplica una Pústula pesada.",
+      "name": "Estallido de pústulas",
+      "shortText": "Pústula pesada puede detonar en un área"
+    },
+    "StukovSuperstrain|StukovSuperstrainTalent|Q|Level16": {
+      "fullText": "Cuando un aliado con Agente patógeno sanador es aturdido o arraigado, recupera instantáneamente <c val=\"#TooltipNumbers\">300</c><c val=\"#ColorGray\">~~0.04~~</c> de salud.",
+      "name": "Supercepa",
+      "shortText": "Agente patógeno sanador restituye salud a objetivos aturdidos, arraigados"
+    },
+    "StukovUniversalCarrier|StukovUniversalCarrierTalent|Q|Level16": {
+      "fullText": "Agente patógeno sanador puede propagarse continuamente por medio de Stukov, pero su sanación se reduce un <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Portador universal",
+      "shortText": "Agente patógeno sanador puede diseminarse continuamente"
+    },
+    "StukovPoxPopuli|StukovPoxPopuliTalent|Trait|Level16": {
+      "fullText": "Disparador de biomuerte ya no elimina Agente patógeno sanador; en cambio, establece su duración a <c val=\"#TooltipNumbers\">3</c> segundos.",
+      "name": "Peste pública",
+      "shortText": "Disparador de biomuerte ya no elimina Agente patógeno sanador"
+    },
+    "StukovControlledChaos|StukovControlledChaosTalent|Heroic|Level20": {
+      "fullText": "Flagelo continuo obtiene <c val=\"#TooltipNumbers\">2</c> cargas adicionales, pero cada uso solo golpea <c val=\"#TooltipNumbers\">1</c> vez, en alcance máximo. Además, su tiempo de reutilización se reduce a <c val=\"#TooltipNumbers\">25</c> segundos y el costo de maná se reduce de <c val=\"#TooltipNumbers\">60</c> a <c val=\"#TooltipNumbers\">25</c>.",
+      "name": "Caos controlado",
+      "shortText": "Flagelo continuo solo golpea una vez y se obtienen múltiples cargas"
+    },
+    "StukovPushComesToShove|StukovPushComesToShoveTalent|Heroic|Level20": {
+      "fullText": "Empujón masivo ralentiza a su objetivo un <c val=\"#TooltipNumbers\">50%</c> durante <c val=\"#TooltipNumbers\">4</c> segundos tras impactar contra el terreno. Si Empujón masivo repele a un objetivo durante más de <c val=\"#TooltipNumbers\">1.25</c> segundos, se reduce <c val=\"#TooltipNumbers\">15</c> segundos su tiempo de reutilización.",
+      "name": "Fuerza de empuje",
+      "shortText": "Empujón masivo ralentiza, puede reducir el tiempo de reutilización"
+    },
+    "StukovTopOff|StukovTopOffTalent|Q|Level20": {
+      "fullText": "Se incrementa la sanación con el tiempo de Agente patógeno sanador un <c val=\"#TooltipNumbers\">30%</c> siempre y cuando el objetivo tenga más de un <c val=\"#TooltipNumbers\">60%</c> de salud.",
+      "name": "Hasta el tope",
+      "shortText": "Agente patógeno sanador es más potente cuando se tiene un nivel de salud elevado"
+    },
+    "StukovBioExplosionSwitch|StukovBioExplosionSwitchTalent|Trait|Level20": {
+      "fullText": "Disparador de biomuerte ahora también detona Brazo al acecho, lo que inflige <c val=\"#TooltipNumbers\">230</c><c val=\"#ColorGray\">~~0.04~~</c> de daño, aplica una Pústula pesada a los héroes enemigos atrapados y los silencia durante <c val=\"#TooltipNumbers\">2.5</c> segundos.",
+      "name": "Disparador de bioexplosión",
+      "shortText": "Disparador de biomuerte detona Brazo al acecho"
+    }
+  },
+  "units": {}
+}

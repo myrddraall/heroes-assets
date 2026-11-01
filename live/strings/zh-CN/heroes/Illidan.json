@@ -1,0 +1,183 @@
+{
+  "abilities": {
+    "IllidanDive|IllidanDive|Q": {
+      "cooldownText": "冷却时间：6秒",
+      "fullText": "向目标俯冲，造成<c val=\"#TooltipNumbers\">66</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害并翻越至目标另一侧。",
+      "name": "俯冲",
+      "shortText": "俯冲一个敌人并越过一个敌人"
+    },
+    "IllidanSweepingStrike|IllidanSweepingStrike|W": {
+      "cooldownText": "冷却时间：8秒",
+      "fullText": "冲向目标地点，对沿途的敌人造成<c val=\"#TooltipNumbers\">119</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害。击中敌人使伊利丹的普通攻击伤害提高<c val=\"#TooltipNumbers\">35%</c>，持续<c val=\"#TooltipNumbers\">3</c>秒。",
+      "name": "扫荡打击",
+      "shortText": "冲刺并对敌人造成伤害，同时获得普通攻击伤害加成"
+    },
+    "IllidanEvasion|IllidanEvasion|E": {
+      "cooldownText": "冷却时间：15秒",
+      "fullText": "闪避敌人的普通攻击，持续<c val=\"#TooltipNumbers\">2.5</c>秒。",
+      "name": "闪避",
+      "shortText": "闪避敌人的普通攻击"
+    },
+    "IllidanTheHunt|IllidanTheHunt|Heroic": {
+      "cooldownText": "冷却时间：100秒",
+      "fullText": "冲向目标，碰撞后造成<c val=\"#TooltipNumbers\">251</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害并使其昏迷，持续<c val=\"#TooltipNumbers\">1</c>秒。",
+      "name": "恶魔追击",
+      "shortText": "从非常远的距离冲锋一个目标"
+    },
+    "IllidanMetamorphosisTargeted|IllidanMetamorphosis|Heroic": {
+      "cooldownText": "冷却时间：120秒",
+      "fullText": "在目标地点变为恶魔形态，对范围内的敌人造成<c val=\"#TooltipNumbers\">46</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害。每击中一个英雄都能使伊利丹的最大生命值暂时提高<c val=\"#TooltipNumbers\">220</c><c val=\"#ColorGray\">~~0.04~~</c>点，持续<c val=\"#TooltipNumbers\">18</c>秒。",
+      "name": "恶魔变形",
+      "shortText": "造成范围伤害并提高最大生命值"
+    },
+    ":PASSIVE:|IllidanBetrayersThirst|Trait": {
+      "fullText": "普通攻击伤害的<c val=\"#TooltipNumbers\">30%</c>转化为生命值，并使技能的冷却时间缩短<c val=\"#TooltipNumbers\">1</c>秒。",
+      "name": "背叛者的饥渴",
+      "shortText": "普通攻击伤害的一部分转化为生命值，并缩短技能的冷却时间"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "冷却时间：4秒",
+      "fullText": "引导<c val=\"#TooltipNumbers\">1</c>秒后，获得<s val=\"StandardTooltipDetails\">30%</s>移动速度。",
+      "name": "召唤坐骑"
+    },
+    "Hearthstone|HearthstoneNoMana|B": {
+      "fullText": "引导<c val=\"#TooltipNumbers\">6</c>秒后，传送回风暴大厅，立即恢复<c val=\"#TooltipNumbers\">1125</c>的生命值。",
+      "name": "炉石"
+    },
+    "IllidanMetamorphosisDismountCustom|UnsummonMountCustom|Z": {
+      "fullText": "解除坐骑。",
+      "name": "解除坐骑"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "解除坐骑。",
+      "name": "解除坐骑"
+    },
+    "IllidanBladesOfAzzinoth|IllidanBladesOfAzzinoth|Active": {
+      "fullText": "用扫荡打击击中<c val=\"#TooltipNumbers\">5</c>次英雄可以激活埃辛诺斯之刃效果，使普通攻击的伤害提高<c val=\"#TooltipNumbers\">75%</c>，持续<c val=\"#TooltipNumbers\">8</c>秒。",
+      "name": "埃辛诺斯之刃",
+      "shortText": "激活后提高普通攻击伤害"
+    },
+    "IllidanMetamorphosisMountCustom|SummonMountCustom|Z": {
+      "cooldownText": "冷却时间：1秒",
+      "fullText": "引导<c val=\"#TooltipNumbers\">1</c>秒后，获得<s val=\"StandardTooltipDetails\">30%</s>移动速度。",
+      "name": "召唤坐骑"
+    },
+    "FlashoftheStorms|GenericBoltoftheStormTalent|Active": {
+      "cooldownText": "冷却时间：70秒",
+      "fullText": "激活后传送到附近区域。",
+      "name": "风暴转移",
+      "shortText": "激活后传送一小段距离"
+    }
+  },
+  "talents": {
+    "IllidanMasteryImmolationSweepingStrike|IllidanSweepingStrikeImmolationTalent|W|Level1": {
+      "fullText": "扫荡打击可以点燃附近的敌人，每秒对他们造成<c val=\"#TooltipNumbers\">22</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害，持续<c val=\"#TooltipNumbers\">4</c>秒。",
+      "name": "献祭",
+      "shortText": "扫荡打击造成范围伤害"
+    },
+    "IllidanMasteryBatteredAssaultSweepingStrike|IllidanSweepingStrikeBatteredAssaultTalent|W|Level1": {
+      "fullText": "扫荡打击的普通攻击伤害加成的持续时间从<c val=\"#TooltipNumbers\">3</c>秒延长至<c val=\"#TooltipNumbers\">5</c>秒。如果扫荡打击击中<c val=\"#TooltipNumbers\">2</c>个英雄，伤害加成从<c val=\"#TooltipNumbers\">35%</c>提高至<c val=\"#TooltipNumbers\">125%</c>。",
+      "name": "猛烈连击",
+      "shortText": "提高扫荡打击的伤害加成"
+    },
+    "IllidanUnendingHatredPassive|IllidanUnendingHatredTalent|Passive|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任务：</c>每击杀一个小兵使普通攻击伤害提高<c val=\"#TooltipNumbers\">0.2</c>点。每击杀一个英雄使普通攻击伤害提高<c val=\"#TooltipNumbers\">1</c>点。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">奖励：</c>获得<c val=\"#TooltipNumbers\">20</c>点普通攻击伤害加成后，额外获得<c val=\"#TooltipNumbers\">20</c>点普通攻击伤害加成。",
+      "name": "无尽仇恨",
+      "shortText": "<c val=\"#TooltipQuest\">任务：</c>消灭敌人提高普通攻击伤害"
+    },
+    "IllidanReflexiveBlock|IllidanEvasionReflexiveBlockTalent|Q|Level4": {
+      "fullText": "使用俯冲提供<c val=\"#TooltipNumbers\">75</c>点物理护甲，抵御下<c val=\"#TooltipNumbers\">3</c>次英雄的普通攻击，使受到的伤害降低<c val=\"#TooltipNumbers\">75%</c>，持续<c val=\"#TooltipNumbers\">4</c>秒。",
+      "name": "本能格挡",
+      "shortText": "俯冲提供物理护甲"
+    },
+    "IllidanSweepingStrikesThirstingBlade|IllidanBetrayersThirstThirstingBladeTalent|Trait|Level4": {
+      "fullText": "扫荡打击的伤害加成效果激活时，背叛者的饥渴的治疗效果从<c val=\"#TooltipNumbers\">30%</c>提高至<c val=\"#TooltipNumbers\">50%</c>。",
+      "name": "嗜血之刃",
+      "shortText": "扫荡打击提高治疗量"
+    },
+    "IllidanCombatStyleHuntersOnslaught|IllidanBetrayersThirstHuntersOnslaughtTalent|Trait|Level4": {
+      "fullText": "基本技能伤害的<c val=\"#TooltipNumbers\">35%</c>转化为生命值。对英雄的效果翻倍。",
+      "name": "猎手猛击",
+      "shortText": "基本技能伤害恢复生命值"
+    },
+    "IllidanMasteryRapidChaseDive|IllidanDiveRapidChaseTalent|Q|Level7": {
+      "fullText": "施放俯冲后，移动速度提高<c val=\"#TooltipNumbers\">20%</c>，持续<c val=\"#TooltipNumbers\">3</c>秒。如果目标是一名敌方英雄，则冷却时间缩短<c val=\"#TooltipNumbers\">1</c>秒。",
+      "name": "夺命追猎",
+      "shortText": "俯冲会提高移动速度，缩短冷却时间"
+    },
+    "IllidanMasteryFriendOrFoeDive|IllidanDiveFriendOrFoeTalent|Q|Level7": {
+      "fullText": "俯冲的施法范围扩大<c val=\"#TooltipNumbers\">20%</c>，并且可以对友方英雄使用。",
+      "name": "敌我不分",
+      "shortText": "俯冲可对友军使用，提高施法范围"
+    },
+    "IllidanMasteryUnboundSweepingStrike|IllidanSweepingStrikeUnboundTalent|W|Level7": {
+      "fullText": "扫荡打击可以翻越墙和地形。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">奖励：</c>扫荡打击击中<c val=\"#TooltipNumbers\">15</c>个英雄后，获得额外一次使用次数。",
+      "name": "无拘无束",
+      "shortText": "<c val=\"#TooltipQuest\">任务：</c>扫荡打击可以翻越地形"
+    },
+    "IllidanHeroicAbilityMetamorphosis|IllidanMetamorphosis|Heroic|Level10": {
+      "cooldownText": "冷却时间：120秒",
+      "fullText": "在目标地点变为恶魔形态，对范围内的敌人造成<c val=\"#TooltipNumbers\">46</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害。每击中一个英雄都能使伊利丹的最大生命值暂时提高<c val=\"#TooltipNumbers\">220</c><c val=\"#ColorGray\">~~0.04~~</c>点，持续<c val=\"#TooltipNumbers\">18</c>秒。",
+      "name": "恶魔变形",
+      "shortText": "造成范围伤害并提高最大生命值"
+    },
+    "IllidanHeroicAbilityTheHunt|IllidanTheHunt|Heroic|Level10": {
+      "cooldownText": "冷却时间：100秒",
+      "fullText": "冲向目标，碰撞后造成<c val=\"#TooltipNumbers\">251</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害并使其昏迷，持续<c val=\"#TooltipNumbers\">1</c>秒。",
+      "name": "恶魔追击",
+      "shortText": "从非常远的距离冲锋一个目标"
+    },
+    "IllidanNimbleDefender|IllidanNimbleDefender|W|Level13": {
+      "fullText": "扫荡打击击中敌方英雄时获得<c val=\"#TooltipNumbers\">25</c>点护甲，使受到的伤害降低<c val=\"#TooltipNumbers\">25%</c>，持续<c val=\"#TooltipNumbers\">2</c>秒。",
+      "name": "迅捷防御",
+      "shortText": "扫荡打击提供护甲"
+    },
+    "IllidanElusiveStrike|IllidanElusiveStrike|E|Level13": {
+      "fullText": "扫荡打击每次击中敌方英雄时，闪避的冷却时间缩短<c val=\"#TooltipNumbers\">3</c>秒。",
+      "name": "闪避打击",
+      "shortText": "扫荡打击缩短闪避的冷却时间"
+    },
+    "IllidanMasterySixthSenseEvasion|IllidanEvasionSixthSenseTalent|E|Level13": {
+      "fullText": "激活时，闪避为伊利丹提供<c val=\"#TooltipNumbers\">75</c>点法术护甲，抵御下<c val=\"#TooltipNumbers\">2</c>次法术伤害，使其伤害降低<c val=\"#TooltipNumbers\">75%</c>。",
+      "name": "第六感",
+      "shortText": "闪避提供法术护甲"
+    },
+    "IllidanMasteryMarkedforDeathDive|IllidanDiveMarkedForDeathTalent|Q|Level16": {
+      "fullText": "如果俯冲在<c val=\"#TooltipNumbers\">10</c>秒内连续对同一个目标施放，则造成<c val=\"#TooltipNumbers\">180</c><c val=\"#ColorGray\">~~0.04~~</c>点额外伤害。",
+      "name": "死亡标记",
+      "shortText": "重复使用俯冲可以造成额外伤害"
+    },
+    "IllidanFieryBrand|IllidanFieryBrand|Passive|Level16": {
+      "fullText": "对同一英雄进行的每第<c val=\"#TooltipNumbers\">3</c>次攻击造成相当于其最大生命值<c val=\"#TooltipNumbers\">7%</c>的额外伤害。",
+      "name": "烈火烙印",
+      "shortText": "连续攻击同一英雄可造成更大伤害"
+    },
+    "IllidanBladesOfAzzinoth|IllidanBladesOfAzzinoth|Active|Level16": {
+      "fullText": "用扫荡打击击中<c val=\"#TooltipNumbers\">5</c>次英雄可以激活埃辛诺斯之刃效果，使普通攻击的伤害提高<c val=\"#TooltipNumbers\">75%</c>，持续<c val=\"#TooltipNumbers\">8</c>秒。",
+      "name": "埃辛诺斯之刃",
+      "shortText": "激活后提高普通攻击伤害"
+    },
+    "IllidanMasteryDemonicFormMetamorphosis|IllidanMetamorphosisDemonicFormTalent|Heroic|Level20": {
+      "fullText": "永久维持恶魔形态。恶魔变形也使攻击速度提高<c val=\"#TooltipNumbers\">20%</c>，受到的昏迷、定身和减速效果的持续时间缩短<c val=\"#TooltipNumbers\">50%</c>。伊利丹现在可以在恶魔形态下使用坐骑。",
+      "name": "恶魔形态",
+      "shortText": "恶魔形态可永久维持，并提高攻击速度"
+    },
+    "IllidanMasteryNowhereToHideTheHunt|IllidanTheHuntNowhereToHideTalent|Heroic|Level20": {
+      "fullText": "恶魔追击获得无限射程。伊利丹使战场上所有生命值在<c val=\"#TooltipNumbers\">25%</c>以下的敌方英雄暴露。",
+      "name": "杀机四伏",
+      "shortText": "提高恶魔追击施法范围，并且暴露低血量英雄的位置"
+    },
+    "GenericTalentNexusBlades|NexusBladesTalent|Passive|Level20": {
+      "fullText": "普通攻击造成的伤害提高<c val=\"#TooltipNumbers\">20%</c>，并使目标减速<c val=\"#TooltipNumbers\">20%</c>，持续<c val=\"#TooltipNumbers\">1</c>秒。",
+      "name": "时空利刃",
+      "shortText": "普通攻击造成更高伤害并带有减速效果"
+    },
+    "GenericTalentFlashoftheStorms|GenericBoltoftheStormTalent|Active|Level20": {
+      "cooldownText": "冷却时间：70秒",
+      "fullText": "激活后传送到附近区域。",
+      "name": "风暴转移",
+      "shortText": "激活后传送一小段距离"
+    }
+  },
+  "units": {}
+}

@@ -1,0 +1,227 @@
+{
+  "abilities": {
+    "VarianLionsFang|VarianLionsFang|Q": {
+      "cooldownText": "冷却时间：8秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：50</s>",
+      "fullText": "制造一道震荡波沿直线前进，对敌人造成<c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害，并使其减速<c val=\"#TooltipNumbers\">35%</c>，持续<c val=\"#TooltipNumbers\">1.5</c>秒。每击中一名敌人治疗瓦里安<c val=\"#TooltipNumbers\">35</c><c val=\"#ColorGray\">~~0.04~~</c>点生命，击中英雄提高至<c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c>点生命。",
+      "name": "雄狮之牙",
+      "shortText": "对一条直线上的敌人造成伤害并减速，同时治疗瓦里安"
+    },
+    "VarianParry|VarianParry|W": {
+      "cooldownText": "充能时间：10秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：30</s>",
+      "fullText": "招架所有普通攻击，持续<c val=\"#TooltipNumbers\">1.25</c>秒，使其伤害降低<c val=\"#TooltipNumbers\">100%</c>。<n/><n/>最多储存<c val=\"#TooltipNumbers\">2</c>次使用次数。",
+      "name": "招架",
+      "shortText": "格挡短时间内的普通攻击"
+    },
+    "VarianCharge|VarianCharge|E": {
+      "cooldownText": "冷却时间：12秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：45</s>",
+      "fullText": "向目标敌人冲锋，造成<c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害，并使其减速<c val=\"#TooltipNumbers\">75%</c>，持续<c val=\"#TooltipNumbers\">1</c>秒。",
+      "name": "冲锋",
+      "shortText": "向一名敌人冲锋，并对其造成伤害"
+    },
+    "VarianTaunt|VarianTaunt|Heroic": {
+      "cooldownText": "冷却时间：16秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：20</s>",
+      "fullText": "沉默目标英雄并强迫他们攻击瓦里安，持续<c val=\"#TooltipNumbers\">1.25</c>秒。<n/><n/><c val=\"#AbilityPassive\">被动：</c>最大生命值和生命恢复速度提高<c val=\"#TooltipNumbers\">40%</c>。",
+      "name": "嘲讽",
+      "shortText": "提高生命值<n/>强迫一名英雄攻击瓦里安"
+    },
+    "VarianColossusSmash|VarianColossusSmash|Heroic": {
+      "cooldownText": "冷却时间：20秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：40</s>",
+      "fullText": "重击目标敌人，造成<c val=\"#TooltipNumbers\">185</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害，并降低其<c val=\"#TooltipNumbers\">25</c>点护甲，持续<c val=\"#TooltipNumbers\">3</c>秒，使其受到的伤害提高<c val=\"#TooltipNumbers\">25%</c>。<n/><n/><c val=\"#AbilityPassive\">被动：</c>普通攻击伤害提高<c val=\"#TooltipNumbers\">100%</c>。<n/><c val=\"#AbilityPassive\">被动：</c>最大生命值和生命回复速度降低<c val=\"#TooltipNumbers\">10%</c>。",
+      "name": "巨人打击",
+      "shortText": "提高伤害，但降低生命值<n/>重击敌人，降低其护甲"
+    },
+    ":PASSIVE:|VarianTwinBladesOfFury|Heroic": {
+      "fullText": "普通攻击使英勇打击的冷却时间额外缩短<c val=\"#TooltipNumbers\">7</c>秒，并使瓦里安的移动速度提高<c val=\"#TooltipNumbers\">30%</c>，持续<c val=\"#TooltipNumbers\">2</c>秒。<n/><n/><c val=\"#AbilityPassive\">被动：</c>攻击速度提高<c val=\"#TooltipNumbers\">100%</c>。<n/><c val=\"#AbilityPassive\">被动：</c>普通攻击伤害降低<c val=\"#TooltipNumbers\">25%</c>。",
+      "name": "愤怒双刃",
+      "shortText": "提高攻击速度，但降低伤害<n/>普通攻击缩短英勇打击的冷却时间"
+    },
+    "VarianHeroicStrike|VarianHeroicStrike|Trait": {
+      "cooldownText": "冷却时间：18秒",
+      "fullText": "每隔<c val=\"#TooltipNumbers\">18</c>秒，瓦里安的下一次普通攻击造成<c val=\"#TooltipNumbers\">125</c><c val=\"#ColorGray\">~~0.04~~</c>点额外法术伤害。普通攻击使该效果的冷却时间缩短<c val=\"#TooltipNumbers\">3</c>秒。",
+      "name": "英勇打击",
+      "shortText": "下一次普通攻击造成额外伤害"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "冷却时间：4秒",
+      "fullText": "引导<c val=\"#TooltipNumbers\">1</c>秒后，获得<s val=\"StandardTooltipDetails\">30%</s>移动速度。",
+      "name": "召唤坐骑"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "引导<c val=\"#TooltipNumbers\">6</c>秒后，传送回风暴大厅，立即恢复<c val=\"#TooltipNumbers\">1125</c>的生命值和<c val=\"#TooltipNumbers\">150</c>法力值。",
+      "name": "炉石"
+    },
+    ":PASSIVE:|VarianHeroicStrikeActive|Trait": {
+      "cooldownText": "冷却时间：18秒",
+      "fullText": "每隔<c val=\"#TooltipNumbers\">18</c>秒，瓦里安的下一次普通攻击造成<c val=\"#TooltipNumbers\">125</c><c val=\"#ColorGray\">~~0.04~~</c>点额外法术伤害。普通攻击使该效果的冷却时间缩短<c val=\"#TooltipNumbers\">3</c>秒。",
+      "name": "英勇打击",
+      "shortText": "普通攻击伤害加成"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "解除坐骑。",
+      "name": "解除坐骑"
+    },
+    "VarianVictoryRush|VarianVictoryRush|Passive": {
+      "cooldownText": "冷却时间：30秒",
+      "fullText": "每隔<c val=\"#TooltipNumbers\">30</c>秒，瓦里安的下一次普通攻击为他恢复<c val=\"#TooltipNumbers\">350</c><c val=\"#ColorGray\">~~0.04~~</c>点生命值。附近有敌方小兵或怪物死亡时，冷却时间缩短<c val=\"#TooltipNumbers\">10</c>秒。",
+      "name": "乘胜追击",
+      "shortText": "普通攻击周期性地提供大量治疗"
+    },
+    "VarianShatteringThrow|VarianShatteringThrow|Active": {
+      "cooldownText": "冷却时间：30秒",
+      "fullText": "激活后向目标英雄扔出一把剑，造成<c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害，并对其护盾造成最多<c val=\"#TooltipNumbers\">1400</c><c val=\"#ColorGray\">~~0.04~~</c>点额外伤害。<n/><n/><c val=\"#AbilityPassive\">被动：</c>普通攻击对英雄的护盾造成最多额外<c val=\"#TooltipNumbers\">200%</c>的物理伤害。",
+      "name": "碎裂投掷",
+      "shortText": "对敌人的护盾造成大量伤害"
+    },
+    "VarianBannerOfDalaran|VarianBannerOfDalaran|Active": {
+      "cooldownText": "冷却时间：25秒",
+      "fullText": "激活后放置一面战旗，使附近友方英雄的法术强度提高<c val=\"#TooltipNumbers\">20%</c>，持续<c val=\"#TooltipNumbers\">12</c>秒。",
+      "name": "达拉然战旗",
+      "shortText": "提供法术强度的战旗"
+    },
+    "VarianBannerOfIronforge|VarianBannerOfIronforge|Active": {
+      "cooldownText": "冷却时间：45秒",
+      "fullText": "激活后放置一面战旗，使附近友方英雄获得<c val=\"#TooltipNumbers\">20</c>点护甲，受到的伤害降低<c val=\"#TooltipNumbers\">20%</c>，持续<c val=\"#TooltipNumbers\">12</c>秒。",
+      "name": "铁炉堡战旗",
+      "shortText": "提供护甲的战旗"
+    },
+    "VarianBannerOfStormwind|VarianBannerOfStormwind|Active": {
+      "cooldownText": "冷却时间：25秒",
+      "fullText": "激活后放置一面战旗，使附近友方英雄的移动速度提高<c val=\"#TooltipNumbers\">25%</c>，持续<c val=\"#TooltipNumbers\">12</c>秒。",
+      "name": "暴风城战旗",
+      "shortText": "提供移动速度的战旗"
+    },
+    "VarianDemoralizingShout|VarianDemoralizingShout|Active": {
+      "cooldownText": "冷却时间：20秒",
+      "fullText": "激活后降低附近敌方英雄的士气，使其造成的伤害降低<c val=\"#TooltipNumbers\">40%</c>，持续<c val=\"#TooltipNumbers\">5</c>秒。<n/><n/>每当受到挫志怒吼影响的敌方英雄对一名英雄造成伤害，其冷却时间与招架的冷却时间缩短<c val=\"#TooltipNumbers\">5%</c>。",
+      "name": "挫志怒吼",
+      "shortText": "降低附近英雄的伤害"
+    }
+  },
+  "talents": {
+    "VarianLionsFangLionsMawQuest|VarianLionsFangLionsMawQuest|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任务：</c>雄狮之牙每次击中一个英雄，伤害就会提高<c val=\"#TooltipNumbers\">7</c>点，最多提高<c val=\"#TooltipNumbers\">175</c>点。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">奖励：</c>击中<c val=\"#TooltipNumbers\">25</c>个英雄后，减速效果提高至<c val=\"#TooltipNumbers\">50%</c>，并且持续时间延长至<c val=\"#TooltipNumbers\">2</c>秒。",
+      "name": "雄狮之爪",
+      "shortText": "<c val=\"#TooltipQuest\">任务：</c>击中英雄来强化雄狮之牙"
+    },
+    "VarianParryOverpower|VarianParryOverpower|W|Level1": {
+      "fullText": "招架一次英雄普通攻击后刷新英勇打击的冷却时间，并且下一次英勇打击造成<c val=\"#TooltipNumbers\">40%</c>的额外伤害。",
+      "name": "压制",
+      "shortText": "招架英雄的攻击会刷新英勇打击"
+    },
+    "VarianHighKingsQuestQuest|VarianHighKingsQuestQuest|Passive|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任务：</c>用普通攻击击中<c val=\"#TooltipNumbers\">50</c>个英雄。<n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任务：</c>参与<c val=\"#TooltipNumbers\">5</c>次英雄击杀。<n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任务：</c>收集<c val=\"#TooltipNumbers\">15</c>个恢复之球。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">奖励：</c>完成一个任务后，获得<c val=\"#TooltipNumbers\">10</c>点普通攻击伤害加成。完成所有<c val=\"#TooltipNumbers\">3</c>个任务后，额外获得<c val=\"#TooltipNumbers\">30</c>点普通攻击伤害加成。",
+      "name": "至高王的任务",
+      "shortText": "<c val=\"#TooltipQuest\">任务：</c>完成任务提高攻击伤害"
+    },
+    "VarianTaunt|VarianTaunt|Heroic|Level4": {
+      "cooldownText": "冷却时间：16秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：20</s>",
+      "fullText": "沉默目标英雄并强迫他们攻击瓦里安，持续<c val=\"#TooltipNumbers\">1.25</c>秒。<n/><n/><c val=\"#AbilityPassive\">被动：</c>最大生命值和生命恢复速度提高<c val=\"#TooltipNumbers\">40%</c>。",
+      "name": "嘲讽",
+      "shortText": "提高生命值<n/>强迫一名英雄攻击瓦里安"
+    },
+    "VarianColossusSmash|VarianColossusSmash|Heroic|Level4": {
+      "cooldownText": "冷却时间：20秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：40</s>",
+      "fullText": "重击目标敌人，造成<c val=\"#TooltipNumbers\">185</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害，并降低其<c val=\"#TooltipNumbers\">25</c>点护甲，持续<c val=\"#TooltipNumbers\">3</c>秒，使其受到的伤害提高<c val=\"#TooltipNumbers\">25%</c>。<n/><n/><c val=\"#AbilityPassive\">被动：</c>普通攻击伤害提高<c val=\"#TooltipNumbers\">100%</c>。<n/><c val=\"#AbilityPassive\">被动：</c>最大生命值和生命回复速度降低<c val=\"#TooltipNumbers\">10%</c>。",
+      "name": "巨人打击",
+      "shortText": "提高伤害，但降低生命值<n/>重击敌人，降低其护甲"
+    },
+    "VarianTwinBladesOfFury|VarianTwinBladesOfFury|Heroic|Level4": {
+      "fullText": "普通攻击使英勇打击的冷却时间额外缩短<c val=\"#TooltipNumbers\">7</c>秒，并使瓦里安的移动速度提高<c val=\"#TooltipNumbers\">30%</c>，持续<c val=\"#TooltipNumbers\">2</c>秒。<n/><n/><c val=\"#AbilityPassive\">被动：</c>攻击速度提高<c val=\"#TooltipNumbers\">100%</c>。<n/><c val=\"#AbilityPassive\">被动：</c>普通攻击伤害降低<c val=\"#TooltipNumbers\">25%</c>。",
+      "name": "愤怒双刃",
+      "shortText": "提高攻击速度，但降低伤害<n/>普通攻击缩短英勇打击的冷却时间"
+    },
+    "VarianLionsFangLionheart|VarianLionsFangLionheart|Q|Level7": {
+      "fullText": "使雄狮之牙从英雄身上获得的治疗量提高<c val=\"#TooltipNumbers\">75%</c>。",
+      "name": "雄狮之心",
+      "shortText": "提高雄狮之牙的治疗量"
+    },
+    "VarianSecondWind|VarianSecondWind|Passive|Level7": {
+      "fullText": "普通攻击为瓦里安恢复<c val=\"#TooltipNumbers\">1%</c>的最大生命值。生命值低于<c val=\"#TooltipNumbers\">50%</c>时，还会为他恢复相当于造成伤害的<c val=\"#TooltipNumbers\">50%</c>的生命值。",
+      "name": "复苏之风",
+      "shortText": "普通攻击产生治疗，生命值较低时效果更高"
+    },
+    "VarianVictoryRush|VarianVictoryRush|Passive|Level7": {
+      "fullText": "每隔<c val=\"#TooltipNumbers\">30</c>秒，瓦里安的下一次普通攻击为他恢复<c val=\"#TooltipNumbers\">350</c><c val=\"#ColorGray\">~~0.04~~</c>点生命值。附近有敌方小兵或怪物死亡时，冷却时间缩短<c val=\"#TooltipNumbers\">10</c>秒。",
+      "name": "乘胜追击",
+      "shortText": "普通攻击周期性地提供大量治疗"
+    },
+    "VarianParryShieldWall|VarianParryShieldWall|W|Level10": {
+      "fullText": "招架现在提供保护，在持续时间内阻挡所有伤害。冷却时间缩短<c val=\"#TooltipNumbers\">5</c>秒，但使用次数减少<c val=\"#TooltipNumbers\">1</c>次。",
+      "name": "盾墙",
+      "shortText": "招架给予保护效果"
+    },
+    "VarianChargeWarbringer|VarianChargeWarbringer|E|Level10": {
+      "fullText": "冲锋的冷却时间缩短<c val=\"#TooltipNumbers\">8</c>秒，并且法力消耗从<c val=\"#TooltipNumbers\">45</c>点减少至<c val=\"#TooltipNumbers\">25</c>点。另外，冲锋可以对友方英雄施放。",
+      "name": "战神",
+      "shortText": "冲锋的冷却时间缩短并且可以对友方英雄施放"
+    },
+    "VarianChargeJuggernaut|VarianChargeJuggernaut|E|Level13": {
+      "fullText": "冲锋对英雄造成额外伤害，数值相当于其最大生命值的<c val=\"#TooltipNumbers\">4%</c>。",
+      "name": "主宰",
+      "shortText": "提高冲锋的伤害"
+    },
+    "VarianMortalStrike|VarianMortalStrike|Trait|Level13": {
+      "fullText": "被英勇打击击中的英雄受到的治疗效果降低<c val=\"#TooltipNumbers\">40%</c>，持续<c val=\"#TooltipNumbers\">4</c>秒。",
+      "name": "致死打击",
+      "shortText": "英勇打击降低敌人的治疗效果"
+    },
+    "VarianShatteringThrow|VarianShatteringThrow|Active|Level13": {
+      "cooldownText": "冷却时间：30秒",
+      "fullText": "激活后向目标英雄扔出一把剑，造成<c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害，并对其护盾造成最多<c val=\"#TooltipNumbers\">1400</c><c val=\"#ColorGray\">~~0.04~~</c>点额外伤害。<n/><n/><c val=\"#AbilityPassive\">被动：</c>普通攻击对英雄的护盾造成最多额外<c val=\"#TooltipNumbers\">200%</c>的物理伤害。",
+      "name": "碎裂投掷",
+      "shortText": "对敌人的护盾造成大量伤害"
+    },
+    "VarianBannerOfStormwind|VarianBannerOfStormwind|Active|Level16": {
+      "cooldownText": "冷却时间：25秒",
+      "fullText": "激活后放置一面战旗，使附近友方英雄的移动速度提高<c val=\"#TooltipNumbers\">25%</c>，持续<c val=\"#TooltipNumbers\">12</c>秒。",
+      "name": "暴风城战旗",
+      "shortText": "提供移动速度的战旗"
+    },
+    "VarianBannerOfIronforge|VarianBannerOfIronforge|Active|Level16": {
+      "cooldownText": "冷却时间：45秒",
+      "fullText": "激活后放置一面战旗，使附近友方英雄获得<c val=\"#TooltipNumbers\">20</c>点护甲，受到的伤害降低<c val=\"#TooltipNumbers\">20%</c>，持续<c val=\"#TooltipNumbers\">12</c>秒。",
+      "name": "铁炉堡战旗",
+      "shortText": "提供护甲的战旗"
+    },
+    "VarianBannerOfDalaran|VarianBannerOfDalaran|Active|Level16": {
+      "cooldownText": "冷却时间：25秒",
+      "fullText": "激活后放置一面战旗，使附近友方英雄的法术强度提高<c val=\"#TooltipNumbers\">20%</c>，持续<c val=\"#TooltipNumbers\">12</c>秒。",
+      "name": "达拉然战旗",
+      "shortText": "提供法术强度的战旗"
+    },
+    "VarianTauntVigilance|VarianTauntVigilance|Heroic|Level20": {
+      "fullText": "被英雄的普通攻击命中后，嘲讽的冷却时间缩短<c val=\"#TooltipNumbers\">1</c>秒。",
+      "name": "警戒",
+      "shortText": "受到攻击会缩短嘲讽的冷却时间"
+    },
+    "VarianColossusSmashMasterAtArms|VarianColossusSmashMasterAtArms|Heroic|Level20": {
+      "fullText": "巨人打击会影响目标附近的所有敌人，并且冷却时间缩短<c val=\"#TooltipNumbers\">10</c>秒。",
+      "name": "武器大师",
+      "shortText": "巨人打击会攻击目标附近的敌人"
+    },
+    "VarianTwinBladesOfFuryFrenzy|VarianTwinBladesOfFuryFrenzy|Passive|Level20": {
+      "fullText": "愤怒双刃使英勇打击的伤害额外提高<c val=\"#TooltipNumbers\">25%</c>，普通攻击使瓦里安的移动速度额外提高<c val=\"#TooltipNumbers\">10%</c>。",
+      "name": "狂暴",
+      "shortText": "提高愤怒双刃的加成效果"
+    },
+    "VarianBannersGloryToTheAlliance|VarianBannersGloryToTheAlliance|Passive|Level20": {
+      "fullText": "战旗现在还使附近友方英雄的生命恢复速度和受到的所有治疗效果提高<c val=\"#TooltipNumbers\">50%</c>，并且冷却时间缩短<c val=\"#TooltipNumbers\">50%</c>。",
+      "name": "荣耀属于联盟",
+      "shortText": "提高治疗效果的战旗"
+    },
+    "VarianDemoralizingShout|VarianDemoralizingShout|Active|Level20": {
+      "cooldownText": "冷却时间：20秒",
+      "fullText": "激活后降低附近敌方英雄的士气，使其造成的伤害降低<c val=\"#TooltipNumbers\">40%</c>，持续<c val=\"#TooltipNumbers\">5</c>秒。<n/><n/>每当受到挫志怒吼影响的敌方英雄对一名英雄造成伤害，其冷却时间与招架的冷却时间缩短<c val=\"#TooltipNumbers\">5%</c>。",
+      "name": "挫志怒吼",
+      "shortText": "降低附近英雄的伤害"
+    }
+  },
+  "units": {}
+}

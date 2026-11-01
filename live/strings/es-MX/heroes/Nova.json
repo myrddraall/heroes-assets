@@ -1,0 +1,187 @@
+{
+  "abilities": {
+    "NovaSnipeStorm|NovaSnipe|Q": {
+      "cooldownText": "Tiempo de reutilización: 6 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 50</s>",
+      "fullText": "Inflige <c val=\"#TooltipNumbers\">230</c><c val=\"#ColorGray\">~~0.04~~</c> de daño al primer enemigo que golpea.<n/><n/><c val=\"#AbilityPassive\">Pasivo:</c> Siempre que golpeas a un héroe enemigo con Francotirar, el daño de la habilidad aumenta un <c val=\"#TooltipNumbers\">6%</c>. Se acumula hasta un <c val=\"#TooltipNumbers\">30%</c>. El daño se incrementa un <c val=\"#TooltipNumbers\">25%</c> más cuando alcanzas el máximo de acumulaciones. Si Francotirar no impacta sobre un héroe enemigo, pierdes todas las acumulaciones.",
+      "name": "Francotirar",
+      "shortText": "Efectúa un disparo e inflige una gran cantidad de daño al primer enemigo impactado"
+    },
+    "NovaPinningShot|NovaPinningShot|W": {
+      "cooldownText": "Tiempo de reutilización: 12 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 65</s>",
+      "fullText": "Inflige <c val=\"#TooltipNumbers\">100</c><c val=\"#ColorGray\">~~0.04~~</c> de daño a un enemigo y lo ralentiza un <c val=\"#TooltipNumbers\">40%</c> durante <c val=\"#TooltipNumbers\">2.25</c> segundos.",
+      "name": "Tiro ralentizador",
+      "shortText": "Ralentiza y daña a un enemigo"
+    },
+    "NovaHoloDecoy|NovaHoloDecoy|E": {
+      "cooldownText": "Tiempo de reutilización: 15 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 50</s>",
+      "fullText": "Crea un señuelo durante <c val=\"#TooltipNumbers\">5</c> segundos con el <c val=\"#TooltipNumbers\">100%</c> de la salud actual de Nova que ataca a los enemigos y les inflige un <c val=\"#TooltipNumbers\">10%</c> del daño de base de Nova. Siempre que un señuelo reciba daño, este se infligirá esa cantidad de daño a sí mismo, lo que duplica efectivamente el daño que recibe.<n/><n/>El uso de esta habilidad no afecta el sigilo.",
+      "name": "Holoseñuelo",
+      "shortText": "Crea un señuelo holográfico de Nova"
+    },
+    "NovaTripleTap|NovaTripleTap|Heroic": {
+      "cooldownText": "Tiempo de reutilización: 100 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 100</s>",
+      "fullText": "Apunta al héroe objetivo y, a continuación, realiza <c val=\"#TooltipNumbers\">3</c> disparos que impactan al primer héroe o estructura que encuentran a su paso por <c val=\"#TooltipNumbers\">372</c><c val=\"#ColorGray\">~~0.04~~</c> de daño cada uno.",
+      "name": "Disparo triple",
+      "shortText": "Dispara 3 veces a un objetivo"
+    },
+    "NovaPrecisionStrike|NovaPrecisionStrike|Heroic": {
+      "cooldownText": "Tiempo de reutilización: 50 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 100</s>",
+      "fullText": "Después de una demora de <c val=\"#TooltipNumbers\">1.5</c> segundos, inflige <c val=\"#TooltipNumbers\">435</c><c val=\"#ColorGray\">~~0.04~~</c> de daño a los enemigos que están dentro de un área. Alcance ilimitado.",
+      "name": "Golpe de precisión",
+      "shortText": "Ataque de área con alcance ilimitado"
+    },
+    ":PASSIVE:|NovaPermanentCloak|Trait": {
+      "fullText": "Entras en sigilo cuando estás fuera de combate durante <c val=\"#TooltipNumbers\">3</c> segundos. Si recibes daño, atacas, utilizas o canalizas una habilidad, el sigilo se interrumpe. Permanecer inmóvil durante al menos <c val=\"#TooltipNumbers\">1.5</c> segundos en sigilo otorga invisibilidad.<n/><n/><c val=\"#AbilityPassive\">Pasivo:</c> Obtienes un <c val=\"#TooltipNumbers\">15%</c> de velocidad de movimiento en sigilo.",
+      "name": "Camuflaje permanente",
+      "shortText": "Entras en sigilo y te mueves más rápido mientras no estés atacando ni recibiendo daño."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Tiempo de reutilización: 4 segundos",
+      "fullText": "Tras una canalización de <c val=\"#TooltipNumbers\">1</c> segundo, obtienes un <s val=\"StandardTooltipDetails\">30%</s> de velocidad de movimiento.",
+      "name": "Invocar montura"
+    },
+    "NovaGhostProtocol|NovaGhostProtocol|Active": {
+      "cooldownText": "Tiempo de reutilización: 60 segundos",
+      "fullText": "Activar para otorgarle instantáneamente sigilo a Nova y que aparezca un Holoseñuelo en su ubicación. Nova no puede ser revelada durante los primeros <c val=\"#TooltipNumbers\">0.5</c> segundos de sigilo proporcionados por Protocolo fantasma.",
+      "name": "Protocolo fantasma",
+      "shortText": "Otorga instantáneamente sigilo a Nova y hace aparecer un Holoseñuelo en su ubicación."
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Tras una canalización de <c val=\"#TooltipNumbers\">6</c> segundos, te teletransportas de regreso a la Sala de las tormentas para recuperar <c val=\"#TooltipNumbers\">1125</c> de salud y <c val=\"#TooltipNumbers\">150</c> de maná de inmediato.",
+      "name": "Piedra de hogar"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Te desmontas.",
+      "name": "Desinvocar montura"
+    },
+    "NovaCovertMission|NovaCovertMission|Active": {
+      "fullText": "Los esbirros enemigos que mueren cerca de Nova otorgan una acumulación de Soborno. Los derribos de héroes otorgan <c val=\"#TooltipNumbers\">10</c> acumulaciones de Soborno. Usa <c val=\"#TooltipNumbers\">25</c> acumulaciones para sobornar a un mercenario y derrotarlo de inmediato. No funciona con los mercenarios de élite. Máximo: <c val=\"#TooltipNumbers\">100</c> acumulaciones. Si se derrota un campamento exclusivamente con Sobornos, el campamento se regenera un <c val=\"#TooltipNumbers\">50%</c> más rápido.<n/><n/><c val=\"ffff8a\">Cantidad actual de acumulaciones de Soborno: </c><c val=\"#TooltipNumbers\">0</c>",
+      "name": "Misión encubierta",
+      "shortText": "Mata esbirros o héroes para sobornar a un mercenario"
+    },
+    "TalentRewind|GenericRewindHotbar|Active": {
+      "cooldownText": "Tiempo de reutilización: 60 segundos",
+      "fullText": "Actívalo para restablecer los tiempos de reutilización de tus habilidades básicas.",
+      "name": "Rebobinar",
+      "shortText": "Actívalo para restablecer los tiempos de reutilización"
+    }
+  },
+  "talents": {
+    "NovaMasteryLongshot|NovaPinningShotLongshotTalent|W|Level1": {
+      "fullText": "Aumenta el alcance de lanzamiento de Tiro ralentizador un <c val=\"#TooltipNumbers\">30%</c>. Tiro ralentizador también aumenta el alcance del próximo ataque básico de Nova en <c val=\"#TooltipNumbers\">2.3</c>.",
+      "name": "Mira láser",
+      "shortText": "Aumenta el alcance de Tiro ralentizador"
+    },
+    "NovaCovertOps|NovaCovertOpsTalent|W|Level1": {
+      "fullText": "Después de pasar <c val=\"#TooltipNumbers\">2</c> segundos camuflado, la ralentización de Tiro ralentizador aumenta al <c val=\"#TooltipNumbers\">60%</c> y no cuesta maná. La bonificación se pierde <c val=\"#TooltipNumbers\">1</c> segundo después de salir del sigilo.",
+      "name": "Operación encubierta",
+      "shortText": "El sigilo optimiza la ralentización y el costo de Tiro ralentizador"
+    },
+    "NovaAdvancedCloaking|NovaPermanentCloakSniperAdvancedCloakingTalent|Trait|Level1": {
+      "fullText": "Tras permanecer en sigilo durante <c val=\"#TooltipNumbers\">1</c> segundo, Nova obtiene un <c val=\"#TooltipNumbers\">10%</c> más de velocidad de movimiento. Cuando está en sigilo, regenera <c val=\"#TooltipNumbers\">6</c> de maná por segundo.",
+      "name": "Camuflaje avanzado",
+      "shortText": "Sigilo otorga velocidad de movimiento y regeneración de maná"
+    },
+    "NovaRapidProjection|NovaHoloDecoyRapidProjectionTalent|E|Level4": {
+      "fullText": "Reduce el tiempo de reutilización y el costo de maná de Holoseñuelo un <c val=\"#TooltipNumbers\">60%</c>.",
+      "name": "Proyección veloz",
+      "shortText": "Reduce el tiempo de reutilización y el costo de maná de Holoseñuelo"
+    },
+    "NovaHoloStability|NovaHoloDecoyHoloStabilityTalent|E|Level4": {
+      "fullText": "Aumenta el alcance de lanzamiento de Holoseñuelo un <c val=\"#TooltipNumbers\">100%</c> y su duración un <c val=\"#TooltipNumbers\">120%</c>.<n/><n/><c val=\"#AbilityPassive\">Pasivo:</c> Reduce <c val=\"#TooltipNumbers\">15</c> segundos el tiempo de reutilización de Protocolo fantasma.",
+      "name": "Holoestabilidad",
+      "shortText": "Aumenta la duración y el alcance de Holoseñuelo"
+    },
+    "NovaCovertMission|NovaCovertMissionTalent|Active|Level4": {
+      "fullText": "Los esbirros enemigos que mueren cerca de Nova otorgan una acumulación de Soborno. Los derribos de héroes otorgan <c val=\"#TooltipNumbers\">10</c> acumulaciones de Soborno. Usa <c val=\"#TooltipNumbers\">25</c> acumulaciones para sobornar a un mercenario y derrotarlo de inmediato. No funciona con los mercenarios de élite. Máximo: <c val=\"#TooltipNumbers\">100</c> acumulaciones. Si se derrota un campamento exclusivamente con Sobornos, el campamento se regenera un <c val=\"#TooltipNumbers\">50%</c> más rápido.",
+      "name": "Misión encubierta",
+      "shortText": "Mata esbirros o héroes para sobornar a un mercenario"
+    },
+    "NovaMasteryPerfectShotSnipe|NovaPerfectShotTalent|Q|Level7": {
+      "fullText": "Golpear a un enemigo con Francotirar reduce su tiempo de reutilización <c val=\"#TooltipNumbers\">2</c> segundos y restituye la mitad de su costo de maná, y el valor se duplica contra héroes enemigos.",
+      "name": "Disparo perfecto",
+      "shortText": "Los golpes de Francotirar reducen el tiempo de reutilización y restituyen maná"
+    },
+    "NovaCombatStyleOneintheChamber|NovaOneintheChamberTalent|Passive|Level7": {
+      "fullText": "Después de usar una habilidad, el próximo ataque básico de Nova dentro de los siguientes <c val=\"#TooltipNumbers\">3</c> segundos inflige un <c val=\"#TooltipNumbers\">65%</c> más de daño.",
+      "name": "Lista para disparar",
+      "shortText": "Cuando usas una habilidad, se potencia tu próximo ataque básico"
+    },
+    "NovaCombatStyleAntiArmorShells|NovaAntiArmorShellsTalent|Passive|Level7": {
+      "fullText": "Los ataques básicos de Nova infligen un <c val=\"#TooltipNumbers\">250%</c> de daño y reducen la Armadura física de los héroes en <c val=\"#TooltipNumbers\">15</c> durante <c val=\"#TooltipNumbers\">4</c> segundos, pero su velocidad de ataque disminuye proporcionalmente.",
+      "name": "Municiones antitanque",
+      "shortText": "Los ataques básicos golpean más fuerte y reducen la Armadura"
+    },
+    "NovaHeroicAbilityTripleTap|NovaTripleTap|Heroic|Level10": {
+      "cooldownText": "Tiempo de reutilización: 100 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 100</s>",
+      "fullText": "Apunta al héroe objetivo y, a continuación, realiza <c val=\"#TooltipNumbers\">3</c> disparos que impactan al primer héroe o estructura que encuentran a su paso por <c val=\"#TooltipNumbers\">372</c><c val=\"#ColorGray\">~~0.04~~</c> de daño cada uno.",
+      "name": "Disparo triple",
+      "shortText": "Dispara 3 veces a un objetivo"
+    },
+    "NovaHeroicAbilityPrecisionStrike|NovaPrecisionStrike|Heroic|Level10": {
+      "cooldownText": "Tiempo de reutilización: 50 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 100</s>",
+      "fullText": "Después de una demora de <c val=\"#TooltipNumbers\">1.5</c> segundos, inflige <c val=\"#TooltipNumbers\">435</c><c val=\"#ColorGray\">~~0.04~~</c> de daño a los enemigos que están dentro de un área. Alcance ilimitado.",
+      "name": "Golpe de precisión",
+      "shortText": "Ataque de área con alcance ilimitado"
+    },
+    "NovaMasteryPsionicEfficiency|NovaSnipePsionicEfficiencyTalent|Q|Level13": {
+      "fullText": "El rango de Francotirar se incrementa un <c val=\"#TooltipNumbers\">15%</c>. Golpear a un héroe otorga una acumulación más de Francotiradora certera.",
+      "name": "Eficiencia psiónica",
+      "shortText": "Aumenta el rango y las acumulaciones de Francotirar"
+    },
+    "NovaMasteryDoubleTap|NovaPinningShotDoubleTapTalent|W|Level13": {
+      "fullText": "Ahora Tiro ralentizador tiene <c val=\"#TooltipNumbers\">2</c> cargas, pero su tiempo de reutilización aumenta <c val=\"#TooltipNumbers\">2</c> segundos.",
+      "name": "Disparo doble",
+      "shortText": "Tiro ralentizador obtiene una carga, pero su tiempo de reutilización es mayor"
+    },
+    "NovaIonicForceField|NovaIonicForceFieldTalent|Trait|Level13": {
+      "fullText": "Obtienes <c val=\"#TooltipNumbers\">25</c> de Armadura durante <c val=\"#TooltipNumbers\">3</c> segundos tras perder el sigilo.",
+      "name": "Campo de fuerza iónico",
+      "shortText": "Obtienes Armadura al salir del sigilo"
+    },
+    "NovaMasteryExplosiveShot|NovaSnipeExplosiveRoundTalent|Q|Level16": {
+      "fullText": "Francotirar también inflige un <c val=\"#TooltipNumbers\">90%</c> de daño a los enemigos que están cerca del impacto.",
+      "name": "Munición explosiva",
+      "shortText": "Francotirar inflige daño en un área"
+    },
+    "NovaMasteryCripplingShot|NovaPinningShotCripplingShotTalent|W|Level16": {
+      "fullText": "Tiro ralentizador reduce la Armadura de un héroe en <c val=\"#TooltipNumbers\">20</c> durante el transcurso de la ralentización, lo que hace que reciba un <c val=\"#TooltipNumbers\">20%</c> más de daño.",
+      "name": "Tiro incapacitante",
+      "shortText": "Tiro ralentizador reduce la Armadura"
+    },
+    "NovaMasteryLethalDecoy|NovaHoloDecoyLethalDecoyTalent|E|Level16": {
+      "fullText": "Aumenta el daño que inflige el Holoseñuelo al <c val=\"#TooltipNumbers\">30%</c> del daño de Nova.",
+      "name": "Señuelo letal",
+      "shortText": "Holoseñuelo inflige más daño"
+    },
+    "NovaMasteryFastReload|NovaTripleTapFastReloadTalent|Heroic|Level20": {
+      "fullText": "El tiempo de reutilización de Disparo triple se restablece si mata a un héroe enemigo.",
+      "name": "Recarga rápida",
+      "shortText": "El tiempo de reutilización de Disparo triple se restablece si mata a un héroe enemigo"
+    },
+    "NovaMasteryPrecisionBarrage|NovaPrecisionStrikePrecisionBarrageTalent|Heroic|Level20": {
+      "fullText": "Golpe de precisión obtiene una <c val=\"#TooltipNumbers\">segunda</c> carga y su tiempo de reutilización se reduce <c val=\"#TooltipNumbers\">25</c> segundos.",
+      "name": "Bombardeo de precisión",
+      "shortText": "Reduce el tiempo de reutilización de Golpe de precisión y obtiene una carga"
+    },
+    "NovaApolloSuit|NovaGhostProtocolApolloSuitTalent|Trait|Level20": {
+      "fullText": "Reduce el tiempo de reutilización de Camuflaje permanente <c val=\"#TooltipNumbers\">2</c> segundos.",
+      "name": "Traje Apolo",
+      "shortText": "Reduce el tiempo de reutilización de Camuflaje permanente"
+    },
+    "GenericTalentRewind|GenericRewindHotbar|Active|Level20": {
+      "cooldownText": "Tiempo de reutilización: 60 segundos",
+      "fullText": "Actívalo para restablecer los tiempos de reutilización de tus habilidades básicas.",
+      "name": "Rebobinar",
+      "shortText": "Actívalo para restablecer los tiempos de reutilización"
+    }
+  },
+  "units": {}
+}

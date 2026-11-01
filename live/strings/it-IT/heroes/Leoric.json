@@ -1,0 +1,205 @@
+{
+  "abilities": {
+    "LeoricSkeletalSwingTargetedReady|LeoricSkeletalSwing|Q": {
+      "cooldownText": "Recupero: 12 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 70</s>",
+      "fullText": "Leoric colpisce davanti a sé, infliggendo <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c> danni e rallentando i nemici del <c val=\"#TooltipNumbers\">40%</c> per <c val=\"#TooltipNumbers\">2.5</c> s. Se colpisce un eroe nemico, rimborsa il <c val=\"#TooltipNumbers\">50%</c> del tempo di recupero e del costo in Mana. Infligge il <c val=\"#TooltipNumbers\">75%</c> di danni aggiuntivi ai servitori. Pezzenti!",
+      "name": "Colpo Scheletrico",
+      "shortText": "Danneggia e rallenta i nemici."
+    },
+    "LeoricDrainHope|LeoricDrainHope|W": {
+      "cooldownText": "Recupero: 10 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Afferra l'anima di un eroe nemico, infliggendo danni fino al <c val=\"#TooltipNumbers\">20%</c> della sua Salute massima e curando Leoric fino al <c val=\"#TooltipNumbers\">20%</c> della Salute massima in <c val=\"#TooltipNumbers\">4</c> s finché si rimane a portata. Durante l'effetto, la velocità di movimento di Leoric è ridotta del <c val=\"#TooltipNumbers\">20%</c>.",
+      "name": "Sottrazione di Speranza",
+      "shortText": "Sottrae Salute da un eroe nemico nelle vicinanze."
+    },
+    "LeoricWraithWalk|LeoricWraithWalk|E": {
+      "cooldownText": "Recupero: 14 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Leoric si separa dal suo corpo, diventando inarrestabile e aumentando la propria velocità di movimento fino al <c val=\"#TooltipNumbers\">50%</c> per <c val=\"#TooltipNumbers\">2.5</c> s. Al termine o all'annullamento di Cammino Spettrale, il corpo raggiunge la posizione dello spettro.",
+      "name": "Cammino Spettrale",
+      "shortText": "Il fantasma di Leoric si separa dal corpo e si muove liberamente."
+    },
+    "LeoricEntomb|LeoricEntomb|Heroic": {
+      "cooldownText": "Recupero: 50 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 90</s>",
+      "fullText": "Crea un sepolcro impenetrabile per <c val=\"#TooltipNumbers\">4</c> s.",
+      "name": "Tumulazione",
+      "shortText": "Blocca un'area."
+    },
+    "LeoricMarchoftheBlackKing|LeoricMarchoftheBlackKing|Heroic": {
+      "cooldownText": "Recupero: 50 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 75</s>",
+      "fullText": "Leoric diventa inarrestabile e avanza, attaccando per <c val=\"#TooltipNumbers\">3</c> volte con la sua mazza. I nemici colpiti subiscono <c val=\"#TooltipNumbers\">250</c><c val=\"#ColorGray\">~~0.04~~</c> danni, e colpire eroi cura Leoric del <c val=\"#TooltipNumbers\">12%</c> della sua Salute massima.",
+      "name": "Marcia del Re Nero",
+      "shortText": "Marcia in avanti, curando Leoric e danneggiando i nemici."
+    },
+    ":PASSIVE:|LeoricUndyingTrait|Trait": {
+      "fullText": "Leoric diventa un fantasma alla morte, e risorge quando riacquista piena Salute. Leoric non infligge danni da morto.<n/><n/><s val=\"StandardTooltipHeader\">Collera del Re Scheletro</s><n/><n/>I primi due attacchi base di Leoric sono attacchi a fendente che infliggono il <c val=\"#TooltipNumbers\">100%</c> dei danni, e il terzo attacco base infligge il <c val=\"#TooltipNumbers\">225%</c> dei danni a un bersaglio singolo.",
+      "name": "Non Morte",
+      "shortText": "Leoric perseguita i nemici in forma di fantasma durante la morte."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Recupero: 4 s",
+      "fullText": "Dopo un incanalamento di <c val=\"#TooltipNumbers\">1</c> s, aumenta del <s val=\"StandardTooltipDetails\">30%</s> la velocità di movimento.",
+      "name": "Cavalcatura"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Dopo un incanalamento di <c val=\"#TooltipNumbers\">6</c> s, teletrasporta l'eroe nella Sala delle Tempeste, rigenerando all'istante <c val=\"#TooltipNumbers\">1125</c> Salute e <c val=\"#TooltipNumbers\">150</c> Mana.",
+      "name": "Pietra del Ritorno"
+    },
+    "LeoricCancelWraithWalk|LeoricCancelWraithWalk|E": {
+      "fullText": "Arresta Cammino Spettrale.",
+      "name": "Annulla Cammino Spettrale"
+    },
+    "LeoricEntombCancel|LeoricEntombCancel|Heroic": {
+      "fullText": "Premi per disattivare Tumulazione prima del termine.",
+      "name": "Annulla Tumulazione"
+    },
+    "LeoricGhastlySwing|LeoricGhastlySwing|Q": {
+      "cooldownText": "Recupero: 8 s",
+      "fullText": "Rallenta i nemici del <c val=\"#TooltipNumbers\">40%</c> per <c val=\"#TooltipNumbers\">2.5</c> s.",
+      "name": "Colpo Spettrale"
+    },
+    "LeoricDrainEssence|LeoricDrainEssence|W": {
+      "cooldownText": "Recupero: 9 s",
+      "fullText": "Scaglia una catena che si aggancia al primo eroe nemico colpito, curando Leoric fino al <c val=\"#TooltipNumbers\">10%</c> della Salute massima in <c val=\"#TooltipNumbers\">4</c> s finché si rimane a portata.",
+      "name": "Sottrazione d'Essenza"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Congeda la cavalcatura.",
+      "name": "Congeda cavalcatura"
+    },
+    "LeoricOsseinRenewal|LeoricOsseinRenewalHotbar|Active": {
+      "cooldownText": "Recupero: 120 s",
+      "fullText": "All'attivazione cura Leoric del <c val=\"#TooltipNumbers\">30%</c> della sua Salute massima in <c val=\"#TooltipNumbers\">5</c> s. I globi rigeneranti riducono il tempo di recupero dell'abilità di <c val=\"#TooltipNumbers\">20</c> s.",
+      "name": "Rinnovamento Osseo",
+      "shortText": "Attiva per curare."
+    },
+    "LeoricShroudOfTheDeadKing|LeoricShroudoftheDeadKingTalent|Active": {
+      "cooldownText": "Recupero: 25 s",
+      "fullText": "All'attivazione fornisce protezione per <c val=\"#TooltipNumbers\">3</c> s, assorbendo tutti i danni.",
+      "name": "Manto del Re Morto",
+      "shortText": "All'attivazione fornisce protezione."
+    }
+  },
+  "talents": {
+    "LeoricMasteryConsumeVitalitySkeletalSwing|LeoricConsumeVitalityTalent|Q|Level1": {
+      "fullText": "Riduce di <c val=\"#TooltipNumbers\">2</c> s il tempo di recupero di Colpo Scheletrico. Colpire eroi nemici cura Leoric del <c val=\"#TooltipNumbers\">4%</c> della sua Salute massima.",
+      "name": "Consumo Vitale",
+      "shortText": "Colpo Scheletrico rigenera Salute."
+    },
+    "LeoricMasteryFealtyUntoDeathUndying|LeoricFealtyUntoDeathTalent|Trait|Level1": {
+      "fullText": "Quando un servitore vicino muore, Leoric rigenera il <c val=\"#TooltipNumbers\">32</c><c val=\"#ColorGray\">~~0.04~~</c> di Salute e <c val=\"#TooltipNumbers\">6</c> Mana.",
+      "name": "Fedeltà nella Morte",
+      "shortText": "Rigenera Salute e Mana alla morte dei servitori."
+    },
+    "LeoricMasteryOsseinRenewal|LeoricOsseinRenewal|Active|Level1": {
+      "cooldownText": "Recupero: 120 s",
+      "fullText": "All'attivazione cura Leoric del <c val=\"#TooltipNumbers\">30%</c> della sua Salute massima in <c val=\"#TooltipNumbers\">5</c> s. I globi rigeneranti riducono il tempo di recupero dell'abilità di <c val=\"#TooltipNumbers\">20</c> s.",
+      "name": "Rinnovamento Osseo",
+      "shortText": "Attiva per curare."
+    },
+    "LeoricMasteryGhastlyReachSkeletalSwing|LeoricGhastlyReachTalent|Q|Level4": {
+      "fullText": "Estende del <c val=\"#TooltipNumbers\">25%</c> la portata di Colpo Scheletrico.",
+      "name": "Allungo Spettrale",
+      "shortText": "Estende la portata di Colpo Scheletrico."
+    },
+    "LeoricMasteryParalyzingRageSkeletalSwing|LeoricParalyzingRageTalent|Q|Level4": {
+      "fullText": "Aumenta del <c val=\"#TooltipNumbers\">20%</c> l'effetto di rallentamento di Colpo Scheletrico.",
+      "name": "Rabbia Paralizzante",
+      "shortText": "Aumenta il rallentamento di Colpo Scheletrico."
+    },
+    "LeoricSkeletalSwingKneelPeasantsTalent|LeoricKneelPeasantsTalent|Q|Level4": {
+      "fullText": "Colpo Scheletrico infligge il <c val=\"#TooltipNumbers\">75%</c> di danni aggiuntivi a mercenari e mostri, e colpirli attiva il rimborso del costo in Mana e la riduzione del tempo di recupero di Colpo Scheletrico.",
+      "name": "Tributo Reale",
+      "shortText": "Potenzia Colpo Scheletrico contro i bersagli non eroici."
+    },
+    "LeoricMasteryWillingVesselDrainHope|LeoricWillingVesselTalent|W|Level7": {
+      "fullText": "Aumenta l'effetto curativo di Sottrazione di Speranza al <c val=\"#TooltipNumbers\">25%</c> della Salute massima di Leoric. Se Sottrazione di Speranza dura fino al termine, Leoric rigenera all'istante un ulteriore <c val=\"#TooltipNumbers\">5%</c> della sua Salute massima.",
+      "name": "Ricettacolo Demoniaco",
+      "shortText": "Aumenta l'effetto curativo di Sottrazione di Speranza."
+    },
+    "LeoricMasteryDrainMomentumDrainHope|LeoricDrainMomentumTalent|W|Level7": {
+      "fullText": "Sottrazione di Speranza non riduce più la velocità di movimento di Leoric. Se Sottrazione di Speranza dura fino al termine, aumenta del <c val=\"#TooltipNumbers\">30%</c> la velocità di movimento per <c val=\"#TooltipNumbers\">4</c> s.",
+      "name": "Sottrazione Impetuosa",
+      "shortText": "Sottrazione di Speranza aumenta la velocità di movimento."
+    },
+    "LeoricMasteryHopelessnessDrainHope|LeoricHopelessnessTalent|W|Level7": {
+      "fullText": "Estende la portata di Sottrazione di Speranza del <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Senza Speranza",
+      "shortText": "Estende la portata di Sottrazione di Speranza."
+    },
+    "LeoricHeroicAbilityEntomb|LeoricEntomb|Heroic|Level10": {
+      "cooldownText": "Recupero: 50 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 90</s>",
+      "fullText": "Crea un sepolcro impenetrabile per <c val=\"#TooltipNumbers\">4</c> s.",
+      "name": "Tumulazione",
+      "shortText": "Blocca un'area."
+    },
+    "LeoricHeroicAbilityMarchoftheBlackKing|LeoricMarchoftheBlackKing|Heroic|Level10": {
+      "cooldownText": "Recupero: 50 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 75</s>",
+      "fullText": "Leoric diventa inarrestabile e avanza, attaccando per <c val=\"#TooltipNumbers\">3</c> volte con la sua mazza. I nemici colpiti subiscono <c val=\"#TooltipNumbers\">250</c><c val=\"#ColorGray\">~~0.04~~</c> danni, e colpire eroi cura Leoric del <c val=\"#TooltipNumbers\">12%</c> della sua Salute massima.",
+      "name": "Marcia del Re Nero",
+      "shortText": "Marcia in avanti, curando Leoric e danneggiando i nemici."
+    },
+    "LeoricMasteryUnyieldingDespairDrainHope|LeoricUnyieldingDespairTalent|W|Level13": {
+      "fullText": "Il tempo di recupero di Sottrazione di Speranza è ridotto di <c val=\"#TooltipNumbers\">0,75</c> s per ogni <c val=\"#TooltipNumbers\">1</c> s in cui rimane attiva. Se Sottrazione di Speranza dura fino al termine, il suo tempo di recupero è ridotto di altri <c val=\"#TooltipNumbers\">2</c> s.",
+      "name": "Disperazione Assoluta",
+      "shortText": "Riduce il tempo di recupero di Sottrazione di Speranza."
+    },
+    "LeoricWraithWalkOminousWraithTalent|LeoricOminousWraithTalent|E|Level13": {
+      "fullText": "Aumenta la durata di Cammino Spettrale del <c val=\"#TooltipNumbers\">100%</c>. Gli eroi nemici che entrano in contatto con lo spettro infliggono il <c val=\"#TooltipNumbers\">50%</c> di danni in meno per <c val=\"#TooltipNumbers\">4</c> s.",
+      "name": "Spirito Inquietante",
+      "shortText": "Potenzia Cammino Spettrale."
+    },
+    "LeoricMasterySpectralLeech|LeoricSpectralLeechTalent|Passive|Level13": {
+      "fullText": "Gli attacchi base contro gli eroi nemici infliggono danni aggiuntivi al bersaglio principale pari al <c val=\"#TooltipNumbers\">2.5%</c> della loro Salute massima e curano Leoric del <c val=\"#TooltipNumbers\">200%</c> dei danni aggiuntivi inflitti.",
+      "name": "Salasso Spettrale",
+      "shortText": "Gli attacchi base infliggono danni aggiuntivi e rigenerano Salute."
+    },
+    "LeoricDrainHopeCrushingHopeTalent|LeoricCrushingHopeTalent|W|Level16": {
+      "fullText": "Se Sottrazione di Speranza dura fino al termine, infligge all'istante danni aggiuntivi pari al <c val=\"#TooltipNumbers\">15%</c> della Salute massima del bersaglio. Questi danni non curano Leoric.",
+      "name": "Speranze Schiacciate",
+      "shortText": "Se Sottrazione di Speranza ha durata completa infligge danni aggiuntivi."
+    },
+    "LeoricMasteryRoyalFocusWraithWalk|LeoricRoyalFocusTalent|E|Level16": {
+      "fullText": "Cammino Spettrale aumenta i danni del successivo uso di Colpo Scheletrico entro <c val=\"#TooltipNumbers\">5</c> s del <c val=\"#TooltipNumbers\">50%</c>. Ogni eroe nemico colpito da Colpo Scheletrico riduce di <c val=\"#TooltipNumbers\">7</c> s il tempo di recupero di Cammino Spettrale.",
+      "name": "Enfasi Regale",
+      "shortText": "Potenzia Colpo Scheletrico e Cammino Spettrale."
+    },
+    "LeoricMithrilMaceTalent|LeoricMithrilMaceTalent|Passive|Level16": {
+      "fullText": "Aumenta la velocità d'attacco di Leoric del <c val=\"#TooltipNumbers\">20%</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Missione ripetibile:</c> Uccidere i servitori nemici vicini aumenta dello <c val=\"#TooltipNumbers\">0,3%</c> la velocità d'attacco, uccidere eroi l'aumenta del <c val=\"#TooltipNumbers\">3%</c>, fino a un massimo del <c val=\"#TooltipNumbers\">30%</c>.",
+      "name": "Mazza di Mithril",
+      "shortText": "<c val=\"#TooltipQuest\">Missione:</c> Potenzia Collera del Re Scheletro."
+    },
+    "LeoricMasteryBuriedAliveEntomb|LeoricBuriedAliveTalent|Heroic|Level20": {
+      "fullText": "Riduce di <c val=\"#TooltipNumbers\">1</c> s la durata di Sepoltura, ma i nemici al suo interno sono silenziati e subiscono <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> danni ogni <c val=\"#TooltipNumbers\">1</c> s.",
+      "name": "Sepolti Vivi",
+      "shortText": "Sepoltura danneggia e silenzia i nemici."
+    },
+    "LeoricMasteryDeathMarchMarchoftheBlackKing|LeoricDeathMarchTalent|Heroic|Level20": {
+      "fullText": "Il colpo finale di Marcia del Re Nero applica anche Sottrazione di Speranza agli eroi nemici vicini.",
+      "name": "Marcia Mortale",
+      "shortText": "Marcia del Re Nero applica Sottrazione di Speranza."
+    },
+    "LeoricBurningDespairTalent|LeoricBurningDespair|W|Level20": {
+      "fullText": "Infligge <c val=\"#TooltipNumbers\">40</c><c val=\"#ColorGray\">~~0.04~~</c> danni al secondo ai nemici vicini. <n/><n/>Finché Sottrazione di Speranza è attiva, fornisce <c val=\"#TooltipNumbers\">40</c> Resistenza e l'area è aumentata del <c val=\"#TooltipNumbers\">100%</c>.",
+      "name": "Disperazione Ardente",
+      "shortText": "Infligge danni ai nemici vicini e ottiene Resistenza."
+    },
+    "LeoricShroudoftheDeadKingTalent|LeoricShroudoftheDeadKingTalent|Active|Level20": {
+      "cooldownText": "Recupero: 25 s",
+      "fullText": "All'attivazione fornisce protezione per <c val=\"#TooltipNumbers\">3</c> s, assorbendo tutti i danni.",
+      "name": "Manto del Re Morto",
+      "shortText": "All'attivazione fornisce protezione."
+    }
+  },
+  "units": {
+    "LeoricWraithWalkUnit": {
+      "name": "Leoric"
+    }
+  }
+}

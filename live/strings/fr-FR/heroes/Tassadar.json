@@ -1,0 +1,213 @@
+{
+  "abilities": {
+    "TassadarShockRay|TassadarShockRay|Q": {
+      "cooldownText": "Temps de recharge : 7 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 55</s>",
+      "fullText": "Canalise un rayon d’énergie psionique, qui inflige <c val=\"#TooltipNumbers\">280</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts aux ennemis sur une ligne et les ralentit de <c val=\"#TooltipNumbers\">30%</c> pendant <c val=\"#TooltipNumbers\">2</c> secondes.",
+      "name": "Rayon de choc",
+      "shortText": "Inflige des dégâts et ralentit les ennemis sur une ligne."
+    },
+    "TassadarPsionicStorm|TassadarPsionicStorm|W": {
+      "cooldownText": "Temps de recharge : 8 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 60</s>",
+      "fullText": "Crée une Tempête psionique à l’endroit ciblé pendant <c val=\"#TooltipNumbers\">3</c> secondes. Lorsqu’ils sont pris dans une tempête, les ennemis subissent <c val=\"#TooltipNumbers\">38</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts toutes les <c val=\"#TooltipNumbers\">0.5</c> secondes. Les dégâts augmentent de <c val=\"#TooltipNumbers\">20%</c> à chaque itération, jusqu’à un maximum de <c val=\"#TooltipNumbers\">100%</c>.",
+      "name": "Tempête psionique",
+      "shortText": "Frappe les ennemis dans une zone."
+    },
+    "TassadarForceWall|TassadarForceWall|E": {
+      "cooldownText": "Temps de recharge : 18 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 65</s>",
+      "fullText": "Au bout de <c val=\"#TooltipNumbers\">0.5</c> seconde, crée un champ de force qui bloque le passage de toutes les unités pendant <c val=\"#TooltipNumbers\">2</c> secondes.",
+      "name": "Mur de force",
+      "shortText": "Crée un champ de force qui bloque le passage."
+    },
+    "TassadarArchon|TassadarArchon|Heroic": {
+      "cooldownText": "Temps de recharge : 90 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 100</s>",
+      "fullText": "Tassadar se transforme en Archonte, ce qui lui confère un bouclier équivalent à <c val=\"#TooltipNumbers\">25%</c> de son maximum de points de vie et renforce Rayon de résonance. Dure <c val=\"#TooltipNumbers\">12</c> secondes.<n/><n/><c val=\"#AbilityPassive\">Rayon de résonance : </c>inflige <c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts à la cible et <c val=\"#TooltipNumbers\">70</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts aux ennemis proches. L’armure anti-sort des héros touchés est réduite de <c val=\"#TooltipNumbers\">20</c> points pendant <c val=\"#TooltipNumbers\">2</c> secondes. Rayon de résonance est chargé au maximum tant qu’Archonte est actif.",
+      "name": "Archonte",
+      "shortText": "Transforme en archonte."
+    },
+    "TassadarBlackHole|TassadarBlackHole|Heroic": {
+      "cooldownText": "Temps de recharge : 60 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 60</s>",
+      "fullText": "Après une canalisation de <c val=\"#TooltipNumbers\">0.5</c> seconde, génère un Trou noir se déplaçant sur une longue ligne. Les héros adverses se trouvant dans la zone du Trou noir sont rapidement attirés vers son centre. Toucher le centre inflige <c val=\"#TooltipNumbers\">310</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts et étourdit pendant <c val=\"#TooltipNumbers\">1.25</c> secondes.",
+      "name": "Trou noir",
+      "shortText": "Inflige des dégâts et étourdit les héros sur une longue ligne."
+    },
+    ":PASSIVE:|TassadarResonanceBeam|Trait": {
+      "fullText": "L’attaque de base de Tassadar est un rayon canalisé qui ralentit les ennemis de <c val=\"#TooltipNumbers\">15%</c>. Pendant la canalisation, les dégâts de vos attaques de base et la régénération de mana augmentent de <c val=\"#TooltipNumbers\">25%</c> par seconde, jusqu’à un maximum de <c val=\"#TooltipNumbers\">100%</c>. Lorsqu’il est en charge maximum, il récupère <c val=\"#TooltipNumbers\">3</c> points de mana à chaque seconde.<n/><n/>Ce bonus est perdu après <c val=\"#TooltipNumbers\">6</c> secondes sans canaliser.",
+      "name": "Rayon de résonance",
+      "shortText": "Les attaques de base sont canalisées, rend du mana."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Temps de recharge : 4 secondes",
+      "fullText": "Après <c val=\"#TooltipNumbers\">1</c> seconde de canalisation, augmente la vitesse de déplacement de <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Appeler une monture"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Après <c val=\"#TooltipNumbers\">6</c> secondes de canalisation, téléporte au hall des Tempêtes et rend instantanément <c val=\"#TooltipNumbers\">1125</c> points de vie et <c val=\"#TooltipNumbers\">150</c> points de mana.",
+      "name": "Pierre de foyer"
+    },
+    "TassadarForceWallCancel|TassadarForceWallCancel|E": {
+      "cooldownText": "Temps de recharge : 1 seconde",
+      "fullText": "Détruit le mur de force actif.",
+      "name": "Annulation du mur de force"
+    },
+    ":PASSIVE:|TassadarArchon|Heroic": {
+      "fullText": "Tassadar se transforme en Archonte, ce qui lui confère un bouclier équivalent à <c val=\"#TooltipNumbers\">25%</c> de son maximum de points de vie et renforce Rayon de résonance. Dure <c val=\"#TooltipNumbers\">12</c> secondes.<n/><n/><c val=\"#AbilityPassive\">Rayon de résonance : </c>inflige <c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts à la cible et <c val=\"#TooltipNumbers\">70</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts aux ennemis proches. L’armure anti-sort des héros touchés est réduite de <c val=\"#TooltipNumbers\">20</c> points pendant <c val=\"#TooltipNumbers\">2</c> secondes. Rayon de résonance est chargé au maximum tant qu’Archonte est actif.",
+      "name": "Archonte",
+      "shortText": "Transforme en archonte."
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Permet de descendre de la monture.",
+      "name": "Renvoyer la monture"
+    },
+    "TassadarCancelOracle|TassadarCancelOracle|Active": {
+      "fullText": "Annuler Oracle",
+      "name": "Annuler Oracle"
+    },
+    "TassadarCancelShadowWalk|TassadarCancelShadowWalk|Active": {
+      "fullText": "Annuler Marche de l’ombre",
+      "name": "Annuler Marche de l’ombre"
+    },
+    "TassadarResonanceBeamArcDischargeDummy|TassadarResonanceBeam|Trait": {
+      "fullText": "L’attaque de base de Tassadar est un rayon canalisé qui ralentit les ennemis de <c val=\"#TooltipNumbers\">15%</c>. Pendant la canalisation, les dégâts de vos attaques de base et la régénération de mana augmentent de <c val=\"#TooltipNumbers\">25%</c> par seconde, jusqu’à un maximum de <c val=\"#TooltipNumbers\">100%</c>. Lorsqu’il est en charge maximum, il récupère <c val=\"#TooltipNumbers\">3</c> points de mana à chaque seconde.<n/><n/>Ce bonus est perdu après <c val=\"#TooltipNumbers\">6</c> secondes sans canaliser.",
+      "name": "Rayon de résonance",
+      "shortText": "Les attaques de base sont canalisées, rend du mana."
+    },
+    "TassadarOracleTargeted|TassadarOracleTargeted|Active": {
+      "cooldownText": "Temps de recharge : 45 secondes",
+      "fullText": "<c val=\"#AbilityPassive\">Effet passif :</c> en étant immobile, gagne <c val=\"#TooltipNumbers\">30</c> points d’armure anti-sort pendant <c val=\"#TooltipNumbers\">0.75</c> secondes et récupère <c val=\"#TooltipNumbers\">12</c><c val=\"#ColorGray\">~~0.04~~</c> points de vie par seconde.<n/><n/>En canalisant jusqu’à <c val=\"#TooltipNumbers\">4</c> secondes, révèle une zone de plus en plus large n’importe où sur la carte.",
+      "name": "Oracle",
+      "shortText": "Confère de l’armure anti-sort, révèle une zone après canalisation."
+    },
+    "TassadarShadowWalk|TassadarShadowWalk|Active": {
+      "cooldownText": "Temps de recharge : 60 secondes",
+      "fullText": "Tassadar devient camouflé et impossible à révéler, mais ne peut pas attaquer ou utiliser de capacité pendant <c val=\"#TooltipNumbers\">1.5</c> seconde. Tant que cet effet est actif, sa vitesse de déplacement est augmentée de <c val=\"#TooltipNumbers\">40%</c> et son armure de <c val=\"#TooltipNumbers\">35</c> points.<n/><n/>Peut être utilisé pendant la canalisation de Rayon de choc.",
+      "name": "Marche de l’ombre",
+      "shortText": "Tassadar se camoufle temporairement, confère de l’armure."
+    },
+    "TassadarExecutorsWill|TassadarExecutorsWill|Active": {
+      "cooldownText": "Temps de recharge : 40 secondes",
+      "fullText": "Confère une charge de Rayon de résonance maximale, une augmentation de <c val=\"#TooltipNumbers\">20%</c> à la puissance de capacité, et diminue le temps de recharge des capacités de base et héroïques de <c val=\"#TooltipNumbers\">25%</c>. Cet effet reste actif tant que Rayon de résonance est chargé au maximum.",
+      "name": "Volonté de l’exécuteur",
+      "shortText": "Renforce Rayon de résonance."
+    }
+  },
+  "talents": {
+    "TassadarStaticCharge|TassadarStaticCharge|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quête :</c> les héros touchés par Rayon de choc augmentent les dégâts du rayon de <c val=\"#TooltipNumbers\">5</c> points de manière permanente et confèrent <c val=\"#TooltipNumbers\">33%</c> de charge de Rayon de résonance. <n/><n/>Maximum de points de dégâts supplémentaires : <c val=\"#TooltipNumbers\">200</c>.",
+      "name": "Charge statique",
+      "shortText": "<c val=\"#TooltipQuest\">Quête :</c> toucher des héros augmente les dégâts."
+    },
+    "TassadarPsionicStormPsiInfusion|TassadarPsionicStormPsiInfusionTalent|W|Level1": {
+      "fullText": "Chaque adversaire (hors bâtiments) touché par Tempête psionique rend <c val=\"#TooltipNumbers\">0.5</c> point de mana, et les héros touchés rendent <c val=\"#TooltipNumbers\">5</c> points de mana.<n/><n/><c val=\"#AbilityPassive\">Effet passif :</c> augmente de <c val=\"#TooltipNumbers\">33%</c> la portée de Tempête psionique.",
+      "name": "Psi-infusion",
+      "shortText": "Portée augmentée, rend des points de mana en touchant des ennemis."
+    },
+    "TassadarKhaydarinAmulet|TassadarKhaydarinAmulet|Trait|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quête :</c> Rayon de résonance se charge <c val=\"#TooltipNumbers\">50%</c> plus vite.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Récompense :</c> une fois que Rayon de résonance est resté chargé au maximum pendant <c val=\"#TooltipNumbers\">80</c> secondes, il rebondit et inflige <c val=\"#TooltipNumbers\">75%</c> des dégâts sur <c val=\"#TooltipNumbers\">1</c> cible supplémentaire, en ciblant en priorité les héros.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Récompense :</c> une fois que Rayon de résonance est resté chargé au maximum pendant <c val=\"#TooltipNumbers\">160</c> secondes, il rebondit et inflige <c val=\"#TooltipNumbers\">75%</c> des dégâts sur <c val=\"#TooltipNumbers\">2</c> cibles supplémentaires, en ciblant en priorité les héros.",
+      "name": "Amulette Khaydarin",
+      "shortText": "<c val=\"#TooltipQuest\">Quête : </c>renforce Rayon de résonance."
+    },
+    "TassadarInduction|TassadarInduction|Q|Level4": {
+      "fullText": "Augmente la vitesse de déplacement de Tassadar de <c val=\"#TooltipNumbers\">10%</c>. Utiliser Rayon de choc porte ce bonus à <c val=\"#TooltipNumbers\">30%</c> pendant <c val=\"#TooltipNumbers\">3</c> secondes.",
+      "name": "Induction",
+      "shortText": "Rayon de choc augmente la vitesse de déplacement."
+    },
+    "TassadarElectricFence|TassadarElectricFence|E|Level4": {
+      "fullText": "Mur de force inflige <c val=\"#TooltipNumbers\">92</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts par seconde aux ennemis proches et les ralentit de <c val=\"#TooltipNumbers\">35%</c>.",
+      "name": "Barrière électrique",
+      "shortText": "Mur de force inflige des dégâts et ralentit."
+    },
+    "TassadarPlasmaShield|TassadarPlasmaShieldTalent|Trait|Level4": {
+      "fullText": "Lorsque Rayon de résonance est chargé au maximum, confère un bouclier équivalent à <c val=\"#TooltipNumbers\">3%</c> du maximum de points de vie par seconde, cumulable jusqu’à <c val=\"#TooltipNumbers\">12%</c>.",
+      "name": "Bouclier plasma",
+      "shortText": "La charge de Rayon de résonance confère un bouclier."
+    },
+    "TassadarBeamAlignment|TassadarBeamAlignment|Q|Level7": {
+      "fullText": "Tant que Rayon de résonance est chargé au maximum, le temps de recharge de Rayon de choc se réinitialise <c val=\"#TooltipNumbers\">100 %</c> plus vite et la durée de son ralentissement est portée à <c val=\"#TooltipNumbers\">4</c> secondes.<n/><n/><c val=\"#AbilityPassive\">Effet passif :</c> réduit le coût en mana de Rayon de choc de <c val=\"#TooltipNumbers\">55</c> à <c val=\"#TooltipNumbers\">40</c> points. ",
+      "name": "Alignement de rayons",
+      "shortText": "Rayon de résonance réduit le temps de recharge de Rayon de choc."
+    },
+    "TassadarPsionicEcho|TassadarPsionicEcho|W|Level7": {
+      "fullText": "Lancer Tempête psionique réduit le coût de votre prochain Rayon de choc à <c val=\"#TooltipNumbers\">30</c> points de mana pendant <c val=\"#TooltipNumbers\">3</c> secondes, et lui permet de génèrer une Tempête psionique sur le premier héros adverse touché.",
+      "name": "Écho psionique",
+      "shortText": "Rayon de choc génère une Tempête psionique sur le héros touché."
+    },
+    "TassadarArcDischarge|TassadarArcDischarge|Trait|Level7": {
+      "fullText": "Tant que Rayon de résonance est chargé au maximum, la portée des attaques de base de Tassadar est augmentée de <c val=\"#TooltipNumbers\">1</c> mètre(s) et ses prochains dégâts génèrent également une Tempête psionique sur la cible.<n/><n/>Cet effet a un temps de recharge de <c val=\"#TooltipNumbers\">20</c> secondes qui se dissipe deux fois plus vite tant que Rayon de résonance est chargé au maximum.",
+      "name": "Décharge en arc",
+      "shortText": "Rayon de résonance génère des Tempêtes psioniques."
+    },
+    "TassadarHeroicAbilityArchon|TassadarArchon|Heroic|Level10": {
+      "cooldownText": "Temps de recharge : 90 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 100</s>",
+      "fullText": "Tassadar se transforme en Archonte, ce qui lui confère un bouclier équivalent à <c val=\"#TooltipNumbers\">25%</c> de son maximum de points de vie et renforce Rayon de résonance. Dure <c val=\"#TooltipNumbers\">12</c> secondes.<n/><n/><c val=\"#AbilityPassive\">Rayon de résonance : </c>inflige <c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts à la cible et <c val=\"#TooltipNumbers\">70</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts aux ennemis proches. L’armure anti-sort des héros touchés est réduite de <c val=\"#TooltipNumbers\">20</c> points pendant <c val=\"#TooltipNumbers\">2</c> secondes. Rayon de résonance est chargé au maximum tant qu’Archonte est actif.",
+      "name": "Archonte",
+      "shortText": "Transforme en archonte."
+    },
+    "TassadarHeroicAbilityBlackHole|TassadarBlackHole|Heroic|Level10": {
+      "cooldownText": "Temps de recharge : 60 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 60</s>",
+      "fullText": "Après une canalisation de <c val=\"#TooltipNumbers\">0.5</c> seconde, génère un Trou noir se déplaçant sur une longue ligne. Les héros adverses se trouvant dans la zone du Trou noir sont rapidement attirés vers son centre. Toucher le centre inflige <c val=\"#TooltipNumbers\">310</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts et étourdit pendant <c val=\"#TooltipNumbers\">1.25</c> secondes.",
+      "name": "Trou noir",
+      "shortText": "Inflige des dégâts et étourdit les héros sur une longue ligne."
+    },
+    "TassadarFeedback|TassadarFeedback|W|Level13": {
+      "fullText": "Quand un héros adverse est affecté par Tempête psionique, porte le ralentissement de Rayon de résonance à <c val=\"#TooltipNumbers\">50%</c> et réduit l’armure physique de <c val=\"#TooltipNumbers\">25</c> points.",
+      "name": "Rétroaction",
+      "shortText": "Tempête psionique améliore Rayon de résonance."
+    },
+    "TassadarShadowWalk|TassadarShadowWalk|Active|Level13": {
+      "cooldownText": "Temps de recharge : 60 secondes",
+      "fullText": "Tassadar devient camouflé et impossible à révéler, mais ne peut pas attaquer ou utiliser de capacité pendant <c val=\"#TooltipNumbers\">1.5</c> seconde. Tant que cet effet est actif, sa vitesse de déplacement est augmentée de <c val=\"#TooltipNumbers\">40%</c> et son armure de <c val=\"#TooltipNumbers\">35</c> points.<n/><n/>Peut être utilisé pendant la canalisation de Rayon de choc.",
+      "name": "Marche de l’ombre",
+      "shortText": "Tassadar se camoufle temporairement, confère de l’armure."
+    },
+    "TassadarOracle|TassadarOracleTargeted|Active|Level13": {
+      "cooldownText": "Temps de recharge : 45 secondes",
+      "fullText": "<c val=\"#AbilityPassive\">Effet passif :</c> en étant immobile, gagne <c val=\"#TooltipNumbers\">30</c> points d’armure anti-sort pendant <c val=\"#TooltipNumbers\">0.75</c> secondes et récupère <c val=\"#TooltipNumbers\">12</c><c val=\"#ColorGray\">~~0.04~~</c> points de vie par seconde.<n/><n/>En canalisant jusqu’à <c val=\"#TooltipNumbers\">4</c> secondes, révèle une zone de plus en plus large n’importe où sur la carte.",
+      "name": "Oracle",
+      "shortText": "Confère de l’armure anti-sort, révèle une zone après canalisation."
+    },
+    "TassadarThermalLance|TassadarThermalLance|Q|Level16": {
+      "fullText": "Rayon de choc inflige au premier héros qu’il touche un montant de dégâts supplémentaires équivalent à <c val=\"#TooltipNumbers\">8%</c> de son maximum de points de vie.",
+      "name": "Thermolance",
+      "shortText": "Pourcentage de dégâts contre le premier héros."
+    },
+    "TassadarPsychicShock|TassadarPsychicShock|W|Level16": {
+      "fullText": "Tempête psionique inflige des dégâts <c val=\"#TooltipNumbers\">25%</c> plus vite.",
+      "name": "Choc psychique",
+      "shortText": "Tempête psionique inflige des dégâts plus rapidement."
+    },
+    "TassadarExecutorsWill|TassadarExecutorsWill|Active|Level16": {
+      "cooldownText": "Temps de recharge : 40 secondes",
+      "fullText": "Confère une charge de Rayon de résonance maximale, une augmentation de <c val=\"#TooltipNumbers\">20%</c> à la puissance de capacité, et diminue le temps de recharge des capacités de base et héroïques de <c val=\"#TooltipNumbers\">25%</c>. Cet effet reste actif tant que Rayon de résonance est chargé au maximum.",
+      "name": "Volonté de l’exécuteur",
+      "shortText": "Renforce Rayon de résonance."
+    },
+    "TassadarMasteryTwilightArchon|TassadarArchonTwilightArchonTalent|Heroic|Level20": {
+      "fullText": "Les attaques de base sous forme d’Archonte augmentent sa durée de <c val=\"#TooltipNumbers\">2</c> secondes.",
+      "name": "Archonte crépusculaire",
+      "shortText": "Les attaques de base augmentent la durée d’Archonte."
+    },
+    "TassadarKugelblitz|TassadarKugelblitz|Heroic|Level20": {
+      "fullText": "L’armure des héros adverses touchés par le centre du Trou noir est réduite de <c val=\"#TooltipNumbers\">20</c> points pendant <c val=\"#TooltipNumbers\">3</c> secondes et une Tempête psionique est créée à leur emplacement.",
+      "name": "Kugelblitz",
+      "shortText": "Trou noir réduit l’armure et génère des Tempêtes psioniques."
+    },
+    "TassadarMasteryForceBarrier|TassadarForceBarrier|E|Level20": {
+      "fullText": "Augmente la durée de Mur de force de <c val=\"#TooltipNumbers\">0.5</c> secondes, sa portée de <c val=\"#TooltipNumbers\">50%</c>, et réduit son temps de recharge de <c val=\"#TooltipNumbers\">10</c> secondes.",
+      "name": "Barrière de force",
+      "shortText": "Portée augmentée, temps de recharge réduit."
+    },
+    "TassadarKhalasGift|TassadarKhalasGift|Passive|Level20": {
+      "fullText": "Confère <c val=\"#TooltipNumbers\">4%</c> de puissance de capacité pour vous-même et chaque héros allié proche, jusqu’à un total de <c val=\"#TooltipNumbers\">20%</c>. Votre bonus total est partagé avec tous les alliés qui ont participé.",
+      "name": "Don du Khala",
+      "shortText": "Les alliés proches confèrent et gagnent de la puissance de capacité."
+    }
+  },
+  "units": {}
+}

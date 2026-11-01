@@ -1,0 +1,206 @@
+{
+  "abilities": {
+    "KelThuzadDeathAndDecay|KelThuzadDeathAndDecay|Q": {
+      "cooldownText": "Recarga: 5 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 20</s>",
+      "fullText": "Após <c val=\"#TooltipNumbers\">0.5</c> s, lança um orbe que explode ao atingir um inimigo, causando <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.025~~</c> de dano aos inimigos na área. A explosão cria uma poça de decomposição que dura <c val=\"#TooltipNumbers\">2</c> s, causando <c val=\"#TooltipNumbers\">82</c><c val=\"#ColorGray\">~~0.025~~</c> de dano a cada <c val=\"#TooltipNumbers\">0.5</c> s aos inimigos.",
+      "name": "Morte e Decomposição",
+      "shortText": "Causa dano e cria uma poça nociva"
+    },
+    "KelThuzadFrostNova|KelThuzadFrostNova|W": {
+      "cooldownText": "Recarga: 8 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Cria uma nova que explode após <c val=\"#TooltipNumbers\">1</c> s, causando <c val=\"#TooltipNumbers\">180</c><c val=\"#ColorGray\">~~0.025~~</c> de dano aos inimigos dentro da área e desacelerando-os em <c val=\"#TooltipNumbers\">35%</c> por <c val=\"#TooltipNumbers\">2.5</c> s. Os inimigos no centro ficam enraizados por <c val=\"#TooltipNumbers\">1</c> s.",
+      "name": "Nova Congelante",
+      "shortText": "Causa dano e prejudica inimigos"
+    },
+    "KelThuzadChains|KelThuzadChains|E": {
+      "cooldownText": "Recarga: 10 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Arremessa uma corrente, causando <c val=\"#TooltipNumbers\">97</c><c val=\"#ColorGray\">~~0.025~~</c> de dano ao primeiro Herói inimigo atingido. Por <c val=\"#TooltipNumbers\">3</c> s após atingir um alvo, Kel'Thuzad pode relançar as Correntes em outro inimigo, puxando um para perto do outro e atordoando os dois por <c val=\"#TooltipNumbers\">0.5</c> s.",
+      "name": "Correntes de Kel'Thuzad",
+      "shortText": "Puxe Heróis inimigos para perto um do outro"
+    },
+    "KelThuzadFrozenTomb|KelThuzadFrozenTomb|Heroic": {
+      "cooldownText": "Recarga: 50 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 45</s>",
+      "fullText": "Lança um meteoro de gelo em um Herói inimigo. O meteoro explode com o impacto, causando <c val=\"#TooltipNumbers\">115</c><c val=\"#ColorGray\">~~0.025~~</c> de dano ao alvo e mais <c val=\"#TooltipNumbers\">275</c><c val=\"#ColorGray\">~~0.025~~</c> de dano aos inimigos na área. Todas as vítimas atingidas pelo Impacto Gélido ficam enraizadas por <c val=\"#TooltipNumbers\">2</c> s.",
+      "name": "Impacto Gélido",
+      "shortText": "Enraíza e causa dano aos inimigos ao redor do alvo"
+    },
+    "KelThuzadShadowFissure|KelThuzadShadowFissure|Heroic": {
+      "cooldownText": "Recarga: 16 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 40</s>",
+      "fullText": "Cria uma fissura em qualquer lugar do campo de batalha que explode após <c val=\"#TooltipNumbers\">1.5</c> s, causando <c val=\"#TooltipNumbers\">320</c><c val=\"#ColorGray\">~~0.025~~</c> de dano aos Heróis inimigos na área. Se um Herói inimigo for atingido, a recarga será redefinida para <c val=\"#TooltipNumbers\">1.5</c> s.",
+      "name": "Fissura Sombria",
+      "shortText": "Causa muito dano em uma área"
+    },
+    ":PASSIVE:|KelThuzadMasterOfTheColdDark|Trait": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Missão:</c> Ganha <c val=\"#TooltipNumbers\">1</c> de Praga sempre que um Herói for enraizado pela Nova Congelante ou atingido pelas Correntes de Kel'Thuzad.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa:</c> Após ganhar <c val=\"#TooltipNumbers\">15</c> de Praga, ganha a habilidade Espeto Glacial.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa:</c> Após ganhar <c val=\"#TooltipNumbers\">30</c> de Praga, aumenta em <c val=\"#TooltipNumbers\">75%</c> o Poder Mágico.<n/><n/><c val=\"#TooltipQuest\">Praga:</c> <c val=\"#TooltipNumbers\" validator=\"True\">0/30</c>",
+      "name": "Mestre das Trevas Gélidas",
+      "shortText": "Kel'Thuzad fica mais forte conforme atrapalha os inimigos"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Recarga: 4 segundos",
+      "fullText": "Depois de canalizar por <c val=\"#TooltipNumbers\">1</c> s, ganha <s val=\"StandardTooltipDetails\">30%</s> de Velocidade de Movimento.",
+      "name": "Evocar Montaria"
+    },
+    "KelThuzadGlacialSpike|KelThuzadGlacialSpike|Active": {
+      "cooldownText": "Recarga: 30 s",
+      "fullText": "Ative para criar um espeto que explodirá após <c val=\"#TooltipNumbers\">4</c> s, causando <c val=\"#TooltipNumbers\">70</c><c val=\"#ColorGray\">~~0.025~~</c> de dano aos inimigos próximos. O espeto pode ser afetado pelas Correntes de Kel'Thuzad.",
+      "name": "Espeto Glacial",
+      "shortText": "Cria um espeto que explode e causa dano"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Depois de canalizar por <c val=\"#TooltipNumbers\">6</c> s, teleporta você de volta para o Salão das Tempestades, restaurando instantaneamente <c val=\"#TooltipNumbers\">1125</c> de Vida e <c val=\"#TooltipNumbers\">150</c> de Mana.",
+      "name": "Pedra de Regresso"
+    },
+    "KelThuzadChainsLink|KelThuzadChainsLink|E": {
+      "fullText": "Lança outra Corrente a partir do inimigo já acorrentado. Causa <c val=\"#TooltipNumbers\">97</c><c val=\"#ColorGray\">~~0.025~~</c> de dano ao atingir um Herói e puxa um para perto do outro.",
+      "name": "Correntes de Kel'Thuzad",
+      "shortText": ""
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Desmonta você.",
+      "name": "Dispensar Montaria"
+    },
+    "KelThuzadArchlichArmor|KelThuzadArchlichArmor|Active": {
+      "cooldownText": "Recarga: 25 segundos",
+      "fullText": "Ative para ganhar <c val=\"#TooltipNumbers\">50</c> de Armadura Física por <c val=\"#TooltipNumbers\">4</c> s. Ao ser ativado, os inimigos próximos recebem <c val=\"#TooltipNumbers\">45</c><c val=\"#ColorGray\">~~0.04~~</c> de dano e são desacelerados em <c val=\"#TooltipNumbers\">35%</c> por <c val=\"#TooltipNumbers\">4</c> s.",
+      "name": "Armadura do Arquilich",
+      "shortText": "Ative para ganhar Armadura Física e desacelerar inimigos"
+    },
+    "KelThuzadPhylacteryItem|KelThuzadPhylacteryItem|Passive": {
+      "fullText": "Pode ser ativado enquanto estiver morto para renascer imediatamente no Salão das Tempestades, mas terá que ser recarregado novamente.<n/><n/><c val=\"#AbilityPassive\">Passivo:</c> Kel'Thuzad se cura em <c val=\"#TooltipNumbers\">10%</c> de todo o Dano Mágico causado enquanto o Filactério estiver carregado.",
+      "name": "Filactério de Kel'Thuzad",
+      "shortText": ""
+    },
+    "KelThuzadShiftingMalice|KelThuzadShiftingMalice|Active": {
+      "cooldownText": "Recarga: 240 segundos",
+      "fullText": "Ative para avançar, causando <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.025~~</c> de dano a todos os inimigos no caminho. Abates concluem a recarga da Malícia Cambiante.",
+      "name": "Malícia Cambiante",
+      "shortText": "Ative para investir e causar dano"
+    },
+    "KelThuzadSpawnShade|KelThuzadTheDamnedReturn|Active": {
+      "cooldownText": "Recarga: 15 segundos",
+      "fullText": "Ative para criar um Vulto de Naxxramas que dura <c val=\"#TooltipNumbers\">15</c> s e imita os lançamentos de Morte e Decomposição de Kel'Thuzad.",
+      "name": "O Retorno dos Malditos",
+      "shortText": "Cria Vultos que também lançam Morte e Decomposição"
+    }
+  },
+  "talents": {
+    "KelThuzadThePlaguelands|KelThuzadThePlaguelands|Q|Level1": {
+      "fullText": "Aumenta a duração de Morte e Decomposição em <c val=\"#TooltipNumbers\">1</c> s. Após ganhar <c val=\"#TooltipNumbers\">30</c> de Praga, aumenta o raio da poça de Morte e Decomposição em <c val=\"#TooltipNumbers\">30%</c>.",
+      "name": "Terras Pestilentas",
+      "shortText": "Aumenta o raio e a duração de Morte e Decomposição"
+    },
+    "KelThuzadBlightedFrost|KelThuzadBlightedFrost|W|Level1": {
+      "fullText": "Nova Congelante causa <c val=\"#TooltipNumbers\">75%</c> a mais de dano aos inimigos no centro. Após ganhar <c val=\"#TooltipNumbers\">30</c> de Praga, a duração de enraizamento da Nova Congelante aumenta em <c val=\"#TooltipNumbers\">0.5</c> s.",
+      "name": "Gelidez Pestilenta",
+      "shortText": "Aumenta a duração e o dano no centro da Nova Congelante"
+    },
+    "KelThuzadBarbedChains|KelThuzadBarbedChains|E|Level1": {
+      "fullText": "Aumenta o dano das Correntes de Kel'Thuzad em <c val=\"#TooltipNumbers\">125%</c>. Após ganhar <c val=\"#TooltipNumbers\">30</c> de Praga, as Correntes passam a reduzir a Armadura dos Heróis puxados em <c val=\"#TooltipNumbers\">10</c> por <c val=\"#TooltipNumbers\">4</c> s.",
+      "name": "Correntes Farpadas",
+      "shortText": "Correntes causam mais dano e reduzem a Armadura"
+    },
+    "KelThuzadStripShields|KelThuzadStripShields|E|Level4": {
+      "fullText": "Puxar um Herói com as Correntes concede a Kel'Thuzad <c val=\"#TooltipNumbers\">128</c><c val=\"#ColorGray\">~~0.04~~</c> de Escudo. Acumula até <c val=\"#TooltipNumbers\">2</c> vezes.<n/><n/>Além disso, as Correntes de Kel'Thuzad causam até <c val=\"#TooltipNumbers\">270</c><c val=\"#ColorGray\">~~0.025~~</c> de dano a mais aos Escudos dos Heróis.",
+      "name": "Arrancar Escudo",
+      "shortText": "Correntes concedem Escudo e causam dano a Escudos"
+    },
+    "KelThuzadPhylactery|KelThuzadPhylactery|Passive|Level4": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Missão:</c> Coletar <c val=\"#TooltipNumbers\">12</c> Globos de Regeneração para carregar o Filactério de Kel'Thuzad.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa:</c> O Filactério de Kel'Thuzad pode ser ativado para renascer imediatamente no Salão das Tempestades, mas terá que ser recarregado novamente.<n/><n/><c val=\"#AbilityPassive\">Passivo:</c> Kel'Thuzad se cura em <c val=\"#TooltipNumbers\">10%</c> de todo o Dano Mágico causado enquanto o Filactério estiver carregado.",
+      "name": "Filactério de Kel'Thuzad",
+      "shortText": "<c val=\"#TooltipQuest\">Missão:</c> Coletar Globos de Regeneração para renascer instantaneamente"
+    },
+    "KelThuzadArchlichArmor|KelThuzadArchlichArmor|Active|Level4": {
+      "cooldownText": "Recarga: 25 segundos",
+      "fullText": "Ative para ganhar <c val=\"#TooltipNumbers\">50</c> de Armadura Física por <c val=\"#TooltipNumbers\">4</c> s. Ao ser ativado, os inimigos próximos recebem <c val=\"#TooltipNumbers\">45</c><c val=\"#ColorGray\">~~0.04~~</c> de dano e são desacelerados em <c val=\"#TooltipNumbers\">35%</c> por <c val=\"#TooltipNumbers\">4</c> s.",
+      "name": "Armadura do Arquilich",
+      "shortText": "Ative para ganhar Armadura Física e desacelerar inimigos"
+    },
+    "KelThuzadAcceleratedDecay|KelThuzadAcceleratedDecay|Q|Level7": {
+      "fullText": "Sempre que um Herói for atingido pela poça de Morte e Decomposição, ele receberá <c val=\"#TooltipNumbers\">25%</c> a mais de dano periódico de Morte e Decomposição por <c val=\"#TooltipNumbers\">4</c> s. Acumula até <c val=\"#TooltipNumbers\">4</c> vezes.",
+      "name": "Decomposição Acelerada",
+      "shortText": "Aumenta o dano de Morte e Decomposição"
+    },
+    "KelThuzadChillingTouch|KelThuzadChillingTouch|Passive|Level7": {
+      "fullText": "A cada <c val=\"#TooltipNumbers\">8</c> s, o próximo Ataque Básico de Kel'Thuzad será Mágico, causará mais <c val=\"#TooltipNumbers\">80%</c> de dano a todos os inimigos próximos e reduzirá em <c val=\"#TooltipNumbers\">30%</c> a Velocidade de Movimento por <c val=\"#TooltipNumbers\">2</c> s.",
+      "name": "Toque Congelante",
+      "shortText": "Ataques Básicos causam periodicamente Dano Mágico em área"
+    },
+    "KelThuzadIceCold|KelThuzadIceCold|Passive|Level7": {
+      "fullText": "Reduz a recarga do Espeto Glacial em <c val=\"#TooltipNumbers\">10</c> s e aumenta o dano em <c val=\"#TooltipNumbers\">400%</c>. ",
+      "name": "Dando um Gelo",
+      "shortText": "Reduz a recarga do Espeto Glacial"
+    },
+    "KelThuzadFrozenTomb|KelThuzadFrozenTomb|Heroic|Level10": {
+      "cooldownText": "Recarga: 50 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 45</s>",
+      "fullText": "Lança um meteoro de gelo em um Herói inimigo. O meteoro explode com o impacto, causando <c val=\"#TooltipNumbers\">115</c><c val=\"#ColorGray\">~~0.025~~</c> de dano ao alvo e mais <c val=\"#TooltipNumbers\">275</c><c val=\"#ColorGray\">~~0.025~~</c> de dano aos inimigos na área. Todas as vítimas atingidas pelo Impacto Gélido ficam enraizadas por <c val=\"#TooltipNumbers\">2</c> s.",
+      "name": "Impacto Gélido",
+      "shortText": "Enraíza e causa dano aos inimigos ao redor do alvo"
+    },
+    "KelThuzadShadowFissure|KelThuzadShadowFissure|Heroic|Level10": {
+      "cooldownText": "Recarga: 16 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 40</s>",
+      "fullText": "Cria uma fissura em qualquer lugar do campo de batalha que explode após <c val=\"#TooltipNumbers\">1.5</c> s, causando <c val=\"#TooltipNumbers\">320</c><c val=\"#ColorGray\">~~0.025~~</c> de dano aos Heróis inimigos na área. Se um Herói inimigo for atingido, a recarga será redefinida para <c val=\"#TooltipNumbers\">1.5</c> s.",
+      "name": "Fissura Sombria",
+      "shortText": "Causa muito dano em uma área"
+    },
+    "KelThuzadIcyGrasp|KelThuzadIcyGrasp|W|Level13": {
+      "fullText": "Aumenta a desaceleração da Nova Congelante em <c val=\"#TooltipNumbers\">20%</c>. Sempre que Kel'Thuzad causar dano a um inimigo desacelerado pela Nova Congelante, a recarga será reduzida em <c val=\"#TooltipNumbers\">0.75</c> s.",
+      "name": "Garra Gelada",
+      "shortText": "Aumenta a desaceleração da Nova Congelante; reduz a recarga"
+    },
+    "KelThuzadChainsOfIce|KelThuzadChainsOfIce|E|Level13": {
+      "fullText": "Após o atordoamento das Correntes de Kel'Thuzad, a vítima fica desacelerada em <c val=\"#TooltipNumbers\">60%</c> por <c val=\"#TooltipNumbers\">1</c> s.",
+      "name": "Correntes de Gelo",
+      "shortText": "Correntes desaceleram após puxarem"
+    },
+    "KelThuzadChainLink|KelThuzadChainLink|E|Level13": {
+      "fullText": "Puxar um Herói com as Correntes de Kel'Thuzad reduz a recarga em <c val=\"#TooltipNumbers\">5</c> s e recupera o custo de mana.",
+      "name": "Amarrar Corrente",
+      "shortText": "Puxar Heróis reduz a recarga das Correntes"
+    },
+    "KelThuzadArcaneEchoes|KelThuzadArcaneEchoes|Q|Level16": {
+      "fullText": "Sempre que Kel'Thuzad atinge um Herói inimigo com a explosão da Morte e Decomposição, a recarga é reduzida em <c val=\"#TooltipNumbers\">1.5</c> s.",
+      "name": "Ecos Arcanos",
+      "shortText": "Reduz a recarga de Morte e Decomposição"
+    },
+    "KelThuzadHungeringCold|KelThuzadHungeringCold|Passive|Level16": {
+      "fullText": "Inimigos enraizados receberão mais <c val=\"#TooltipNumbers\">55</c><c val=\"#ColorGray\">~~0.025~~</c> de dano sempre que Kel'Thuzad causar dano a eles.",
+      "name": "Frio Voraz",
+      "shortText": "Causa dano extra a inimigos enraizados"
+    },
+    "KelThuzadPowerOfIcecrown|KelThuzadPowerOfIcecrown|Passive|Level16": {
+      "fullText": "Atordoar, enraizar ou desacelerar um Herói concede <c val=\"#TooltipNumbers\">6%</c> de Poder Mágico por <c val=\"#TooltipNumbers\">10</c> s. Acumula até <c val=\"#TooltipNumbers\">5</c> vezes.",
+      "name": "Poder da Coroa de Gelo",
+      "shortText": "Prejudicar inimigos aumenta o Poder Mágico"
+    },
+    "KelThuzadDeathchill|KelThuzadDeathchill|Heroic|Level20": {
+      "fullText": "Após o enraizamento do Impacto Gélido, os inimigos ficam desacelerados em <c val=\"#TooltipNumbers\">40%</c> por <c val=\"#TooltipNumbers\">3</c> s. Heróis abatidos sob efeitos do Impacto Gélido provocam outra explosão.",
+      "name": "Criomortis",
+      "shortText": "Impacto Gélido desacelera, abates provocam explosões"
+    },
+    "KelThuzadMightOfTheScourge|KelThuzadMightOfTheScourge|Heroic|Level20": {
+      "fullText": "Se um Herói for atingido pela Fissura Sombria, uma segunda fissura será lançada embaixo dele <c val=\"#TooltipNumbers\">1</c> s depois. Este segundo lançamento não será duplicado.",
+      "name": "Poder do Flagelo",
+      "shortText": "Acertar Heróis lança outra Fissura Sombria"
+    },
+    "KelThuzadShiftingMalice|KelThuzadShiftingMalice|Active|Level20": {
+      "cooldownText": "Recarga: 240 segundos",
+      "fullText": "Ative para avançar, causando <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.025~~</c> de dano a todos os inimigos no caminho. Abates concluem a recarga da Malícia Cambiante.",
+      "name": "Malícia Cambiante",
+      "shortText": "Ative para investir e causar dano"
+    },
+    "KelThuzadTheDamnedReturn|KelThuzadTheDamnedReturn|Active|Level20": {
+      "cooldownText": "Recarga: 15 segundos",
+      "fullText": "Ative para criar um Vulto de Naxxramas que dura <c val=\"#TooltipNumbers\">15</c> s e imita os lançamentos de Morte e Decomposição de Kel'Thuzad.",
+      "name": "O Retorno dos Malditos",
+      "shortText": "Cria Vultos que também lançam Morte e Decomposição"
+    }
+  },
+  "units": {}
+}

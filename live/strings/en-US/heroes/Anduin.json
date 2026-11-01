@@ -1,0 +1,208 @@
+{
+  "abilities": {
+    "AnduinFlashHeal|AnduinFlashHeal|Q": {
+      "cooldownText": "Cooldown: 5 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 20</s>",
+      "fullText": "Cast for <c val=\"#TooltipNumbers\">0.75</c> seconds to heal an allied Hero for <c val=\"#TooltipNumbers\">280</c><c val=\"#ColorGray\">~~0.04~~</c>.",
+      "name": "Flash Heal",
+      "shortText": "Cast a heal on an Ally"
+    },
+    "AnduinDivineStar|AnduinDivineStar|W": {
+      "cooldownText": "Cooldown: 10 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Send light that deals <c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c> damage to enemies and then returns to Anduin, healing allied Heroes for <c val=\"#TooltipNumbers\">130</c><c val=\"#ColorGray\">~~0.04~~</c> in a wider path. Healing increases by <c val=\"#TooltipNumbers\">25%</c> per enemy Hero hit.",
+      "name": "Divine Star",
+      "shortText": "Send a heavenly bolt that damages and heals"
+    },
+    "AnduinChastise|AnduinChastise|E": {
+      "cooldownText": "Cooldown: 9 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 40</s>",
+      "fullText": "Shove a swell of light forward, dealing <c val=\"#TooltipNumbers\">175</c><c val=\"#ColorGray\">~~0.04~~</c> damage to the first enemy Hero hit and Rooting them for <c val=\"#TooltipNumbers\">1.25</c> seconds.",
+      "name": "Chastise",
+      "shortText": "Shove light forward that Roots"
+    },
+    "AnduinHolyWordSalvation|AnduinHolyWordSalvation|Heroic": {
+      "cooldownText": "Cooldown: 80 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 70</s>",
+      "fullText": "After <c val=\"#TooltipNumbers\">0.5</c> seconds, Channel to invoke the Light for <c val=\"#TooltipNumbers\">3</c> seconds. While nearby, allied Heroes heal for up to <c val=\"#TooltipNumbers\">30%</c> of their max Health and are Protected.",
+      "name": "Holy Word: Salvation",
+      "shortText": "Protect and heal allies near Anduin"
+    },
+    "AnduinLightBomb|AnduinLightBomb|Heroic": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 70</s>",
+      "fullText": "Imbue an allied Hero with the Light. After <c val=\"#TooltipNumbers\">1.5</c> seconds, it explodes, dealing <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c> damage to enemies and Stunning them for <c val=\"#TooltipNumbers\">1.25</c> seconds.<n/><n/>The target gains a Shield that absorbs <c val=\"#TooltipNumbers\">165</c><c val=\"#ColorGray\">~~0.04~~</c> damage per enemy Hero hit. Lasts for <c val=\"#TooltipNumbers\">5</c> seconds.",
+      "name": "Lightbomb",
+      "shortText": "Stun enemies around an ally"
+    },
+    "AnduinLeapOfFaithInstant|AnduinLeapOfFaithInstant|Trait": {
+      "cooldownText": "Cooldown: 70 seconds",
+      "fullText": "Faith instantly pulls an allied Hero to Anduin's location, granting them Unstoppable while they travel.<n/><n/><s val=\"StandardTooltipHeader\">Pursued By Grace</s><n/><n/>Basic Attacks against enemy Heroes heal the lowest Health allied Hero near Anduin for <c val=\"#TooltipNumbers\">32</c><c val=\"#ColorGray\">~~0.04~~</c>.",
+      "name": "Leap of Faith",
+      "shortText": "Pull an allied Hero to your location"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Cooldown: 4 seconds",
+      "fullText": "After Channeling for <c val=\"#TooltipNumbers\">1</c> second, gain <s val=\"StandardTooltipDetails\">30%</s> Movement Speed.",
+      "name": "Summon Mount"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "After Channeling for <c val=\"#TooltipNumbers\">6</c> seconds, teleport back to the Hall of Storms, instantly restoring <c val=\"#TooltipNumbers\">1125</c> Health and <c val=\"#TooltipNumbers\">150</c> Mana.",
+      "name": "Hearthstone"
+    },
+    "AnduinHolyWordSalvationCancel|AnduinHolyWordSalvationCancel|Heroic": {
+      "cooldownText": "Cooldown: 1 second",
+      "fullText": "Cancel Holy Word: Salvation.",
+      "name": "Cancel Holy Word: Salvation",
+      "shortText": "Cancel Holy Word: Salvation"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Dismounts you.",
+      "name": "Unsummon Mount"
+    },
+    "AnduinLightwell|AnduinLightwell|Active": {
+      "cooldownText": "Cooldown: 75 seconds",
+      "fullText": "Summon a Lightwell that periodically heals a nearby allied Hero for <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c>. The well only fades after healing <c val=\"#TooltipNumbers\">15</c> times or when recast.<n/><n/>This cooldown is reduced by <c val=\"#TooltipNumbers\">1</c> second each time Anduin heals an allied Hero.",
+      "name": "Lightwell",
+      "shortText": "Activate to summon a healing Lightwell"
+    },
+    "AnduinFlashHealDesperatePrayer|AnduinFlashHealDesperatePrayer|Active": {
+      "cooldownText": "Cooldown: 35 seconds",
+      "fullText": "Activate to instantly heal an allied Hero for <c val=\"#TooltipNumbers\">375</c><c val=\"#ColorGray\">~~0.04~~</c>, but kneel for <c val=\"#TooltipNumbers\">2</c> seconds, unable to act.",
+      "name": "Desperate Prayer",
+      "shortText": "Activate to desperately heal an allied Hero"
+    },
+    "AnduinBlessedRecovery|AnduinBlessedRecovery|Passive": {
+      "cooldownText": "Cooldown: 10 seconds",
+      "fullText": "If Anduin loses more than <c val=\"#TooltipNumbers\">8%</c> of his maximum Health at once, recover <c val=\"#TooltipNumbers\">15%</c> Health over <c val=\"#TooltipNumbers\">3</c> seconds. <n/><n/>This effect has a <c val=\"#TooltipNumbers\">10</c> second cooldown.<n/><n/>Current Health required: <c val=\"#TooltipNumbers\">133</c><c val=\"#ColorGray\">~~0.04~~</c>",
+      "name": "Blessed Recovery",
+      "shortText": "Recover Health after taking high damage"
+    },
+    "AnduinFlashHealInnerFocus|AnduinFlashHealInnerFocus|Active": {
+      "cooldownText": "Cooldown: 20 seconds",
+      "fullText": "Activate to reset the cooldown of Flash Heal and its next cast heals for <c val=\"#TooltipNumbers\">25%</c> more.<n/><n/>Damaging enemy Heroes reduces this cooldown by <c val=\"#TooltipNumbers\">1</c> second.",
+      "name": "Inner Focus",
+      "shortText": "Activate to reset Flash Heal cooldown"
+    }
+  },
+  "talents": {
+    "AnduinFlashHealEvenhandedBlessings|AnduinFlashHealEvenhandedBlessings|Q|Level1": {
+      "fullText": "If Flash Heal is cast on a different target from its last, increase its healing by <c val=\"#TooltipNumbers\">15%</c> and refund <c val=\"#TooltipNumbers\">40%</c> of its cooldown.",
+      "name": "Evenhanded Blessings",
+      "shortText": "Refund Flash Heal cooldown on new targets"
+    },
+    "AnduinDivineStarPowerWordShield|AnduinDivineStarPowerWordShield|W|Level1": {
+      "fullText": "While Divine Star is traveling out, allies in its path gain a Shield that absorbs <c val=\"#TooltipNumbers\">128</c><c val=\"#ColorGray\">~~0.04~~</c> damage for <c val=\"#TooltipNumbers\">4</c> seconds.<n/><n/>If Divine Star hits an enemy Hero, Anduin gains a Shield that absorbs <c val=\"#TooltipNumbers\">185</c><c val=\"#ColorGray\">~~0.04~~</c> damage for <c val=\"#TooltipNumbers\">4</c> seconds.",
+      "name": "Power Word: Shield",
+      "shortText": "Divine Star grants Shields"
+    },
+    "AnduinLightwell|AnduinLightwell|Active|Level1": {
+      "cooldownText": "Cooldown: 75 seconds",
+      "fullText": "Summon a Lightwell that periodically heals a nearby allied Hero for <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c>. The well only fades after healing <c val=\"#TooltipNumbers\">15</c> times or when recast.<n/><n/>This cooldown is reduced by <c val=\"#TooltipNumbers\">1</c> second each time Anduin heals an allied Hero.",
+      "name": "Lightwell",
+      "shortText": "Activate to summon a healing Lightwell"
+    },
+    "AnduinDivineStarMoralCompass|AnduinDivineStarMoralCompass|W|Level4": {
+      "fullText": "Divine Star fires Basic Attacks at Heroes close to its apex.<n/><n/><c val=\"#AbilityPassive\">Passive:</c> Increase Attack Range by <c val=\"#TooltipNumbers\">1.1</c>.",
+      "name": "Moral Compass",
+      "shortText": "Divine Star fires Basic Attacks at its apex"
+    },
+    "AnduinSurgeofLight|AnduinSurgeofLight|E|Level4": {
+      "fullText": "Basic Attacks reduce the cooldown of Chastise by <c val=\"#TooltipNumbers\">0.75</c> seconds. Basic Attacks against Heroes Rooted by Chastise launch an additional Basic Attack and restore <c val=\"#TooltipNumbers\">25</c> Mana.",
+      "name": "Surge of Light",
+      "shortText": "Chastise empowers Basic Attacks"
+    },
+    "AnduinPiercingLight|AnduinPiercingLight|E|Level4": {
+      "fullText": "Chastise pierces to hit an additional Hero.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Hitting two Heroes with a single Chastise permanently increases Spell Power by <c val=\"#TooltipNumbers\">1</c>, to a maximum of <c val=\"#TooltipNumbers\">10</c>.",
+      "name": "Piercing Light",
+      "shortText": "Chastise pierces.<n/><c val=\"#TooltipQuest\">Quest:</c> Hit two Heroes to increase Spell Power."
+    },
+    "AnduinFlashHealBindingHeal|AnduinFlashHealBindingHeal|Q|Level7": {
+      "fullText": "Casting Flash Heal on an ally heals Anduin for <c val=\"#TooltipNumbers\">135</c><c val=\"#ColorGray\">~~0.04~~</c>.",
+      "name": "Binding Heal",
+      "shortText": "Flash Heal also heals Anduin"
+    },
+    "AnduinBlessedRecovery|AnduinBlessedRecovery|Passive|Level7": {
+      "fullText": "If Anduin loses more than <c val=\"#TooltipNumbers\">8%</c> of his maximum Health at once, recover <c val=\"#TooltipNumbers\">15%</c> Health over <c val=\"#TooltipNumbers\">3</c> seconds. <n/><n/>This effect has a <c val=\"#TooltipNumbers\">10</c> second cooldown.<n/><n/>Current Health required: <c val=\"#TooltipNumbers\">133</c><c val=\"#ColorGray\">~~0.04~~</c>",
+      "name": "Blessed Recovery",
+      "shortText": "Recover Health after taking high damage"
+    },
+    "AnduinFlashHealDesperatePrayer|AnduinFlashHealDesperatePrayer|Active|Level7": {
+      "cooldownText": "Cooldown: 35 seconds",
+      "fullText": "Activate to instantly heal an allied Hero for <c val=\"#TooltipNumbers\">375</c><c val=\"#ColorGray\">~~0.04~~</c>, but kneel for <c val=\"#TooltipNumbers\">2</c> seconds, unable to act.",
+      "name": "Desperate Prayer",
+      "shortText": "Activate to desperately heal an allied Hero"
+    },
+    "AnduinHolyWordSalvation|AnduinHolyWordSalvation|Heroic|Level10": {
+      "cooldownText": "Cooldown: 80 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 70</s>",
+      "fullText": "After <c val=\"#TooltipNumbers\">0.5</c> seconds, Channel to invoke the Light for <c val=\"#TooltipNumbers\">3</c> seconds. While nearby, allied Heroes heal for up to <c val=\"#TooltipNumbers\">30%</c> of their max Health and are Protected.",
+      "name": "Holy Word: Salvation",
+      "shortText": "Protect and heal allies near Anduin"
+    },
+    "AnduinLightBomb|AnduinLightBomb|Heroic|Level10": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 70</s>",
+      "fullText": "Imbue an allied Hero with the Light. After <c val=\"#TooltipNumbers\">1.5</c> seconds, it explodes, dealing <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c> damage to enemies and Stunning them for <c val=\"#TooltipNumbers\">1.25</c> seconds.<n/><n/>The target gains a Shield that absorbs <c val=\"#TooltipNumbers\">165</c><c val=\"#ColorGray\">~~0.04~~</c> damage per enemy Hero hit. Lasts for <c val=\"#TooltipNumbers\">5</c> seconds.",
+      "name": "Lightbomb",
+      "shortText": "Stun enemies around an ally"
+    },
+    "AnduinDivineStarSpeedOfThePious|AnduinDivineStarSpeedOfThePious|W|Level13": {
+      "fullText": "While Divine Star is traveling, gain <c val=\"#TooltipNumbers\">30%</c> Movement Speed. Each allied Hero healed by Divine Star on its return to Anduin reduces its cooldown by <c val=\"#TooltipNumbers\">1</c> second.",
+      "name": "Speed of the Pious",
+      "shortText": "Divine Star grants Move Speed, reduce cooldown"
+    },
+    "AnduinPushForward|AnduinPushForward|Trait|Level13": {
+      "fullText": "Damaging an enemy Hero increases Movement Speed by <c val=\"#TooltipNumbers\">2.5%</c> and the amount healed by Pursued By Grace by <c val=\"#TooltipNumbers\">5%</c> for <c val=\"#TooltipNumbers\">6</c> seconds. These effects stack up to <c val=\"#TooltipNumbers\">8</c> times.",
+      "name": "Push Forward!",
+      "shortText": "Damage Heroes for Move Speed, increased healing"
+    },
+    "AnduinLeapOfFaithEnchantBootsLionsSpeed|AnduinLeapOfFaithEnchantBootsLionsSpeed|Trait|Level13": {
+      "fullText": "Gain <c val=\"#TooltipNumbers\">5%</c> Movement Speed. This bonus is quadrupled while Leap of Faith's cooldown is available. Allies pulled by Leap of Faith are healed for <c val=\"#TooltipNumbers\">280</c><c val=\"#ColorGray\">~~0.04~~</c> over <c val=\"#TooltipNumbers\">4</c> seconds.",
+      "name": "Enchant Boots - Lion's Speed",
+      "shortText": "Leap of Faith grants Move Speed, heals"
+    },
+    "AnduinFlashHealRenew|AnduinFlashHealRenew|Q|Level16": {
+      "fullText": "Flash Heal heals an additional <c val=\"#TooltipNumbers\">180</c><c val=\"#ColorGray\">~~0.04~~</c> over <c val=\"#TooltipNumbers\">6</c> seconds. The duration of this heal is refreshed each time Anduin hits an enemy Hero with a Basic Attack.",
+      "name": "Renew",
+      "shortText": "Flash Heal heals over time"
+    },
+    "AnduinDivineStarHolyNova|AnduinDivineStarHolyNova|W|Level16": {
+      "fullText": "After Anduin catches Divine Star, it explodes, healing nearby allied Heroes for <c val=\"#TooltipNumbers\">105</c><c val=\"#ColorGray\">~~0.04~~</c> and damaging enemies for <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c>.",
+      "name": "Holy Nova",
+      "shortText": "Divine Star explodes when caught"
+    },
+    "AnduinLeapOfFaithGlyphOfFaith|AnduinLeapOfFaithGlyphOfFaith|Trait|Level16": {
+      "fullText": "Leap of Faith gains a <c val=\"#TooltipNumbers\">2nd</c> charge.",
+      "name": "Glyph of Faith",
+      "shortText": "Leap of Faith gains a charge"
+    },
+    "AnduinFlashHealInnerFocus|AnduinFlashHealInnerFocus|Active|Level16": {
+      "cooldownText": "Cooldown: 20 seconds",
+      "fullText": "Activate to reset the cooldown of Flash Heal and its next cast heals for <c val=\"#TooltipNumbers\">25%</c> more.<n/><n/>Damaging enemy Heroes reduces this cooldown by <c val=\"#TooltipNumbers\">1</c> second.",
+      "name": "Inner Focus",
+      "shortText": "Activate to reset Flash Heal cooldown"
+    },
+    "AnduinHolyWordSalvationLightOfStormwind|AnduinHolyWordSalvationLightOfStormwind|Heroic|Level20": {
+      "fullText": "Holy Word: Salvation grants allied Heroes Invulnerability instead of Protected. This does not affect Anduin. <n/><n/>Channeling Holy Word: Salvation for its full duration reduces its cooldown by <c val=\"#TooltipNumbers\">60</c> seconds.",
+      "name": "Light of Stormwind",
+      "shortText": "Holy Word: Salvation grants allies Invulnerability"
+    },
+    "AnduinInnerFire|AnduinInnerFire|Heroic|Level20": {
+      "fullText": "The target of Light Bomb gains <c val=\"#TooltipNumbers\">40%</c> Move Speed and <c val=\"#TooltipNumbers\">50</c> Armor for <c val=\"#TooltipNumbers\">3</c> seconds.",
+      "name": "Inner Fire",
+      "shortText": "Lightbomb increases Move Speed, grants Armor"
+    },
+    "AnduinCensure|AnduinCensure|E|Level20": {
+      "fullText": "Chastise Stuns for <c val=\"#TooltipNumbers\">0.75</c> seconds and its Root duration is increased by <c val=\"#TooltipNumbers\">0.5</c> seconds.",
+      "name": "Censure",
+      "shortText": "Chastise Stuns, increased Root duration"
+    },
+    "AnduinVariansLegacy|AnduinVariansLegacy|Passive|Level20": {
+      "fullText": "Basic Attacks burn enemies for <c val=\"#TooltipNumbers\">87</c><c val=\"#ColorGray\">~~0.04~~</c> damage over <c val=\"#TooltipNumbers\">3</c> seconds and Anduin heals for <c val=\"#TooltipNumbers\">50%</c> of the damage dealt.",
+      "name": "Varian's Legacy",
+      "shortText": "Basic Attacks burn enemies"
+    }
+  },
+  "units": {}
+}

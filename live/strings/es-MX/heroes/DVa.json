@@ -1,0 +1,232 @@
+{
+  "abilities": {
+    "DVaBoostersOn|DVaMechBoosters|Q": {
+      "cooldownText": "Tiempo de reutilización: 10 segundos",
+      "fullText": "Aumenta la velocidad de movimiento de D.Va un <c val=\"#TooltipNumbers\">115%</c> durante <c val=\"#TooltipNumbers\">1.75</c> segundos. Los enemigos golpeados reciben <c val=\"#TooltipNumbers\">135</c><c val=\"#ColorGray\">~~0.04~~</c> de daño y son repelidos. <n/><n/>La ralentización no afecta a D.Va mientras la habilidad Propulsores está activada y cada enemigo puede ser golpeado solo una vez por uso.",
+      "name": "Propulsores",
+      "shortText": "Muévete rápido y repele a los enemigos"
+    },
+    "DVaMechDefenseMatrixOn|DVaMechDefenseMatrix|W": {
+      "cooldownText": "Tiempo de reutilización: 12 segundos",
+      "fullText": "Proyecta un campo defensivo en una ubicación objetivo durante <c val=\"#TooltipNumbers\">3</c> segundos, en el que el daño que infligen los héroes enemigos se reduce un <c val=\"#TooltipNumbers\">60%</c>.<n/><n/>Volver a activar para cambiar el ángulo de proyección.<n/><n/>El daño que infligen los enemigos a la armadura robótica dentro de la Matriz de defensa otorga la misma carga de Autodestrucción.",
+      "name": "Matriz de defensa",
+      "shortText": "Reduce el daño de los héroes enemigos en un área"
+    },
+    "DVaMechSelfDestruct|DVaMechSelfDestruct|E": {
+      "fullText": "Se eyecta de su armadura robótica y la hace explotar después de <c val=\"#TooltipNumbers\">4</c> segundos. Inflige entre <c val=\"#TooltipNumbers\">400</c><c val=\"#ColorGray\">~~0.04~~</c> y <c val=\"#TooltipNumbers\">1100</c><c val=\"#ColorGray\">~~0.04~~</c> de daño en un área grande, según la distancia desde el centro. Inflige un <c val=\"#TooltipNumbers\">50%</c> de daño contra estructuras.<n/><n/><c val=\"FF8000\">Obtiene un </c><c val=\"#TooltipNumbers\">1%</c><c val=\"FF8000\"> de carga cada </c><c val=\"#TooltipNumbers\">2</c><c val=\"FF8000\"> segundos al golpear con ataques básicos y un </c><c val=\"#TooltipNumbers\">25%</c><c val=\"FF8000\"> de carga al perder el </c><c val=\"#TooltipNumbers\">100%</c><c val=\"FF8000\"> de la salud de la armadura robótica.</c>",
+      "name": "Autodestrucción",
+      "shortText": "Eyéctate de la armadura robótica y hazla explotar para ocasionar un enorme daño"
+    },
+    "DVaMechBunnyHopHeroic|DVaBunnyHopOn|Heroic": {
+      "cooldownText": "Tiempo de reutilización: 70 segundos",
+      "fullText": "La armadura robótica de D.Va se vuelve imparable y pisotea cada <c val=\"#TooltipNumbers\">0.5</c> segundos, lo que inflige <c val=\"#TooltipNumbers\">78</c><c val=\"#ColorGray\">~~0.04~~</c> de daño en un área grande. Cada <c val=\"#TooltipNumbers\">4</c> ataques consecutivos a un héroe, inflige un <c val=\"#TooltipNumbers\">80%</c> más de daño y aturde al objetivo durante <c val=\"#TooltipNumbers\">0.5</c> segundos.<n/><n/>Dura <c val=\"#TooltipNumbers\">4</c> segundos.<n/><n/>Se requiere estar en modo de armadura robótica.",
+      "name": "Saltito",
+      "shortText": "Te vuelves imparable y aturdes a los héroes cercanos"
+    },
+    "DVaMicroMissiles|DVaMicroMissiles|Heroic": {
+      "cooldownText": "Tiempo de reutilización de carga: 19 segundos",
+      "fullText": "Tras <c val=\"#TooltipNumbers\">0.375</c> segundos, canalizar para lanzar una ráfaga de <c val=\"#TooltipNumbers\">12</c> misiles hacia la dirección objetivo. Cada misil impacta contra el primer enemigo que encuentra en su camino, lo que inflige <c val=\"#TooltipNumbers\">40</c><c val=\"#ColorGray\">~~0.04~~</c> de daño en un área pequeña y lo ralentiza un <c val=\"#TooltipNumbers\">30%</c> durante <c val=\"#TooltipNumbers\">2</c> segundos.<n/><n/>Acumula <c val=\"#TooltipNumbers\">2</c> cargas con un tiempo de reutilización de <c val=\"#TooltipNumbers\">3</c> segundos entre cada uso.<n/><n/>Se requiere estar en modo de armadura robótica.",
+      "name": "Micromisiles",
+      "shortText": "Dispara una ráfaga de proyectiles que infligen daño y ralentizan "
+    },
+    ":PASSIVE:|DVaMechMechMode|Trait": {
+      "fullText": "Cuando se destruye su armadura robótica, D.Va se eyecta después de <c val=\"#TooltipNumbers\">0.75</c> segundos y regresa al combate. La armadura robótica de D.Va solo otorga el <c val=\"#TooltipNumbers\">50%</c> de la experiencia normal de un héroe al ser destruida.<n/><n/><s val=\"StandardTooltipHeader\">Cañones de fusión</s><n/><n/>Los ataques básicos de la armadura robótica de D.Va infligen <c val=\"#TooltipNumbers\">22</c><c val=\"#ColorGray\">~~0.04~~</c> de daño en un área grande cada <c val=\"#TooltipNumbers\">0.25</c> segundos. Inflige un <c val=\"#TooltipNumbers\">40%</c> más de daño a los enemigos que están cerca de la armadura robótica.",
+      "name": "Modo de armadura robótica",
+      "shortText": "D.Va puede eyectarse de su armadura robótica y regresar al combate"
+    },
+    ":PASSIVE:|DVaMechanizedWalker|Z": {
+      "fullText": "La armadura robótica de D.Va puede disparar en movimiento, pero su velocidad de movimiento se reduce un <c val=\"#TooltipNumbers\">25%</c> al disparar o canalizar una habilidad.",
+      "name": "Caminante robótico",
+      "shortText": "Mientras está con su armadura robótica, D.Va puede disparar en movimiento, pero su velocidad de movimiento se reduce."
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Tras una canalización de <c val=\"#TooltipNumbers\">6</c> segundos, te teletransportas de regreso a la Sala de las tormentas para recuperar <c val=\"#TooltipNumbers\">1125</c> de salud y <c val=\"#TooltipNumbers\">150</c> de maná de inmediato.",
+      "name": "Piedra de hogar"
+    },
+    "DVaBoostersOff|DVaMechCancelBoosters|Q": {
+      "fullText": "Cancelar Propulsores",
+      "name": "Cancelar Propulsores",
+      "shortText": "Cancelar Propulsores"
+    },
+    "DVaMechDefenseMatrixRetarget|DVaRetargetDefenseMatrix|W": {
+      "fullText": "Redirigir Matriz de defensa",
+      "name": "Redirigir Matriz de defensa",
+      "shortText": "Redirigir Matriz de defensa"
+    },
+    "DvaCancelDefenseMatrix|DvaCancelDefenseMatrix|Trait": {
+      "fullText": "Dejar de canalizar Matriz de defensa",
+      "name": "Cancelar Matriz de defensa",
+      "shortText": "Dejar de canalizar Matriz de defensa"
+    },
+    "DVaMechBunnyHopHeroic|DVaBunnyHopOff|Heroic": {
+      "cooldownText": "Tiempo de reutilización: 70 segundos",
+      "fullText": "Cancelar Saltito",
+      "name": "Saltito",
+      "shortText": "Cancelar Saltito"
+    },
+    "DVaLiquidCoolingAbility|DVaLiquidCooling|Active": {
+      "cooldownText": "Tiempo de reutilización: 50 segundos",
+      "fullText": "Activar para obtener los efectos de la fuente de sanación. Requiere modo de armadura robótica.<n/><n/><c val=\"#AbilityPassive\">Pasivo:</c> En modo de armadura robótica, el tiempo de reutilización de la fuente de sanación se reduce a <c val=\"#TooltipNumbers\">50</c> segundos y sus efectos duran un <c val=\"#TooltipNumbers\">50%</c> más.",
+      "name": "Refrigeración líquida",
+      "shortText": "Potencia las fuentes de sanación en modo de armadura robótica"
+    },
+    "DVaPilotTorpedoDash|DVaPilotTorpedoDashAbility|Q": {
+      "cooldownText": "Tiempo de reutilización: 10 segundos",
+      "fullText": "Se lanza hacia una ubicación objetivo y atraviesa a los enemigos en el camino.",
+      "name": "Impulso fugaz",
+      "shortText": "Se lanza hacia una ubicación objetivo"
+    },
+    "DVaPilotConcussivePulse|DVaPilotConcussivePulseAbility|W": {
+      "cooldownText": "Tiempo de reutilización: 10 segundos",
+      "fullText": "Inflige <c val=\"#TooltipNumbers\">120</c><c val=\"#ColorGray\">~~0.04~~</c> de daño en forma de cono a los enemigos y los hace retroceder.",
+      "name": "Pulso derribador",
+      "shortText": "Daña y repele a los enemigos cercanos"
+    },
+    "DVaPilotCallMech|DVaPilotCallMech|E": {
+      "cooldownText": "Tiempo de reutilización: 45 segundos",
+      "fullText": "Llama una armadura robótica y entra en modo de armadura robótica.<n/><n/>Los ataques básicos reducen el tiempo de reutilización <c val=\"#TooltipNumbers\">0.5</c> segundos.",
+      "name": "Llamar armadura robótica"
+    },
+    "DVaPilotBigShot|DVaPilotBigShot|Heroic": {
+      "cooldownText": "Tiempo de reutilización: 6 segundos",
+      "fullText": "Inflige <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c> de daño a todos los enemigos en línea recta. A los héroes golpeados se les reduce un <c val=\"#TooltipNumbers\">25%</c> la velocidad de movimiento durante <c val=\"#TooltipNumbers\">1.5</c> segundos. El tiempo de reutilización de Llamar armadura robótica se reduce <c val=\"#TooltipNumbers\">5</c> segundos por cada héroe enemigo golpeado.<n/><n/>Se requiere estar en modo de piloto.",
+      "name": "Superpistola",
+      "shortText": "En modo de piloto, daña y ralentiza a los enemigos en línea recta"
+    },
+    ":PASSIVE:|DVaPilotPilotMode|Trait": {
+      "fullText": "Los ataques básicos reducen el tiempo de reutilización de Llamar armadura robótica <c val=\"#TooltipNumbers\">0.5</c> segundos. Fuera de la armadura robótica, D.Va solo otorga el <c val=\"#TooltipNumbers\">50%</c> de la experiencia normal de un héroe al morir.",
+      "name": "Modo de piloto"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Tiempo de reutilización: 4 segundos",
+      "fullText": "Tras una canalización de <c val=\"#TooltipNumbers\">1</c> segundo, obtienes un <s val=\"StandardTooltipDetails\">30%</s> de velocidad de movimiento.",
+      "name": "Invocar montura"
+    },
+    "DVaMechPilotSelfDestruct|DVaMechSelfDestruct|Active": {
+      "fullText": "Se eyecta de su armadura robótica y la hace explotar después de <c val=\"#TooltipNumbers\">4</c> segundos. Inflige entre <c val=\"#TooltipNumbers\">400</c><c val=\"#ColorGray\">~~0.04~~</c> y <c val=\"#TooltipNumbers\">1100</c><c val=\"#ColorGray\">~~0.04~~</c> de daño en un área grande, según la distancia desde el centro. Inflige un <c val=\"#TooltipNumbers\">50%</c> de daño contra estructuras.<n/><n/><c val=\"FF8000\">Obtiene un </c><c val=\"#TooltipNumbers\">1%</c><c val=\"FF8000\"> de carga cada </c><c val=\"#TooltipNumbers\">2</c><c val=\"FF8000\"> segundos al golpear con ataques básicos y un </c><c val=\"#TooltipNumbers\">25%</c><c val=\"FF8000\"> de carga al perder el </c><c val=\"#TooltipNumbers\">100%</c><c val=\"FF8000\"> de la salud de la armadura robótica.</c>",
+      "name": "Autodestrucción",
+      "shortText": "Eyéctate de la armadura robótica y hazla explotar para ocasionar un enorme daño"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Te desmontas.",
+      "name": "Desinvocar montura"
+    }
+  },
+  "talents": {
+    "DVaFullMetal|DVaFullMetal|Trait|Level1": {
+      "fullText": "La armadura robótica de D.Va obtiene un <c val=\"#TooltipNumbers\">10%</c> más de salud y sus Cañones de fusión restituyen un <c val=\"#TooltipNumbers\">16%</c> del daño infligido a enemigos en su área de bonificación.",
+      "name": "Puro blindaje",
+      "shortText": "Aumenta la salud de la armadura robótica; Cañones de fusión sanan"
+    },
+    "DVaMechProMoves|DVaMechProMoves|Trait|Level1": {
+      "fullText": "La armadura robótica de D.Va obtiene un <c val=\"#TooltipNumbers\">2%</c> de velocidad de movimiento y <c val=\"#TooltipNumbers\">2</c> de Armadura cada vez que recibe daño, lo que se acumula hasta <c val=\"#TooltipNumbers\">15</c> veces. Dichas acumulaciones se disipan cada <c val=\"#TooltipNumbers\">0.5</c> segundos.<n/><n/>Los ataques básicos contra héroes enemigos en modo de piloto reducen el tiempo de reutilización de Llamar armadura robótica <c val=\"#TooltipNumbers\">1</c> segundo más.",
+      "name": "Movimientos profesionales",
+      "shortText": "Al recibir daño, aumenta la velocidad de movimiento y la Armadura"
+    },
+    "DVaLiquidCooling|DVaLiquidCooling|Active|Level1": {
+      "cooldownText": "Tiempo de reutilización: 50 segundos",
+      "fullText": "Activar para obtener los efectos de la fuente de sanación. Requiere modo de armadura robótica.<n/><n/><c val=\"#AbilityPassive\">Pasivo:</c> En modo de armadura robótica, el tiempo de reutilización de la fuente de sanación se reduce a <c val=\"#TooltipNumbers\">50</c> segundos y sus efectos duran un <c val=\"#TooltipNumbers\">50%</c> más.",
+      "name": "Refrigeración líquida",
+      "shortText": "Potencia las fuentes de sanación en modo de armadura robótica"
+    },
+    "DVaBoostersRushdown|DVaBoostersRushdown|Q|Level4": {
+      "fullText": "Propulsores inflige un <c val=\"#TooltipNumbers\">2%</c> más de la salud máxima como daño a héroes y restituye el daño infligido a la armadura robótica de D.Va como salud. Propulsores inflige un <c val=\"#TooltipNumbers\">50%</c> más de daño a los enemigos que no son héroes.",
+      "name": "Atajo",
+      "shortText": "Propulsores roba salud; aumenta el daño a unidades no heroicas"
+    },
+    "DVaDefenseMatrixAggressionMatrix|DVaDefenseMatrixAggressionMatrix|W|Level4": {
+      "fullText": "Los héroes enemigos dentro de la Matriz de defensa reciben un <c val=\"#TooltipNumbers\">35%</c> menos de sanación.<n/><n/><c val=\"#AbilityPassive\">Pasivo:</c> Los ataques básicos contra héroes reducen el tiempo de reutilización de Matriz de defensa <c val=\"#TooltipNumbers\">0.1875</c> segundos.",
+      "name": "Matriz ofensiva",
+      "shortText": "Matriz de defensa reduce la sanación y su reutilización"
+    },
+    "DVaSelfDestructNuclearOption|DVaSelfDestructNuclearOption|E|Level4": {
+      "fullText": "Golpear con Superpistola a la armadura robótica hace que esta se autodestruya un <c val=\"#TooltipNumbers\">40%</c> más rápido.<n/><n/><c val=\"#AbilityPassive\">Pasivo:</c> Cuando Cañones de fusión inflige daño adicional a un héroe enemigo, obtienes <c val=\"#TooltipNumbers\">0.25</c> de carga de Autodestrucción.",
+      "name": "Opción nuclear",
+      "shortText": "Potencia Cañones de fusión y Autodestrucción"
+    },
+    "DvaGetOnThePoint|DvaGetOnThePoint|Q|Level7": {
+      "fullText": "El lanzamiento de Propulsores otorga a los aliados cercanos un <c val=\"#TooltipNumbers\">20%</c> de velocidad de movimiento durante <c val=\"#TooltipNumbers\">3</c> segundos. <n/><n/><c val=\"#AbilityPassive\">Pasivo: </c>Si D.Va no ha recibido daño en un lapso de <c val=\"#TooltipNumbers\">2</c> segundos, el tiempo de reutilización de Propulsores se recarga un <c val=\"#TooltipNumbers\">100%</c> más rápido.",
+      "name": "¡Vamos al grano!",
+      "shortText": "Reduce la reutilización de Propulsores; otorga velocidad de movimiento a aliados"
+    },
+    "DVaBoostersHitTheNitrous|DVaBoostersHitTheNitrous|Q|Level7": {
+      "fullText": "Aumenta la bonificación de la velocidad inicial de Propulsores al <c val=\"#TooltipNumbers\">300%</c>, y después vuelve a la velocidad normal de propulsión durante <c val=\"#TooltipNumbers\">0.5</c> segundos. Durante este período, Propulsores aturde <c val=\"#TooltipNumbers\">0.5</c> segundos.",
+      "name": "Velocidad nitrosa",
+      "shortText": "Propulsores otorga velocidad adicional inmediatamente; aturde"
+    },
+    "DVaDefenseMatrixFusionGenerator|DVaDefenseMatrixFusionGenerator|W|Level7": {
+      "fullText": "Cada vez que un héroe enemigo inflija daño dentro de la Matriz de defensa, la carga de Autodestrucción de D.Va aumentará un <c val=\"#TooltipNumbers\">1%</c>. Se obtendrá un máximo del <c val=\"#TooltipNumbers\">20%</c> de carga por cada uso. <n/><n/><c val=\"#AbilityPassive\">Pasivo: </c>Al alcanzar el máximo de cargas de Autodestrucción, se incrementa un <c val=\"#TooltipNumbers\">100%</c> la bonificación de daño de Cañones de fusión.",
+      "name": "Generador de fusión",
+      "shortText": "Matriz de defensa agrega cargas de Autodestrucción"
+    },
+    "DVaBunnyHop|DVaBunnyHopOn|Heroic|Level10": {
+      "cooldownText": "Tiempo de reutilización: 70 segundos",
+      "fullText": "La armadura robótica de D.Va se vuelve imparable y pisotea cada <c val=\"#TooltipNumbers\">0.5</c> segundos, lo que inflige <c val=\"#TooltipNumbers\">78</c><c val=\"#ColorGray\">~~0.04~~</c> de daño en un área grande. Cada <c val=\"#TooltipNumbers\">4</c> ataques consecutivos a un héroe, inflige un <c val=\"#TooltipNumbers\">80%</c> más de daño y aturde al objetivo durante <c val=\"#TooltipNumbers\">0.5</c> segundos.<n/><n/>Dura <c val=\"#TooltipNumbers\">4</c> segundos.<n/><n/>Se requiere estar en modo de armadura robótica.",
+      "name": "Saltito",
+      "shortText": "Te vuelves imparable y aturdes a los héroes cercanos"
+    },
+    "DVaMicroMissiles|DVaMicroMissiles|Heroic|Level10": {
+      "cooldownText": "Tiempo de reutilización de carga: 19 segundos",
+      "fullText": "Tras <c val=\"#TooltipNumbers\">0.375</c> segundos, canalizar para lanzar una ráfaga de <c val=\"#TooltipNumbers\">12</c> misiles hacia la dirección objetivo. Cada misil impacta contra el primer enemigo que encuentra en su camino, lo que inflige <c val=\"#TooltipNumbers\">40</c><c val=\"#ColorGray\">~~0.04~~</c> de daño en un área pequeña y lo ralentiza un <c val=\"#TooltipNumbers\">30%</c> durante <c val=\"#TooltipNumbers\">2</c> segundos.<n/><n/>Acumula <c val=\"#TooltipNumbers\">2</c> cargas con un tiempo de reutilización de <c val=\"#TooltipNumbers\">3</c> segundos entre cada uso.<n/><n/>Se requiere estar en modo de armadura robótica.",
+      "name": "Micromisiles",
+      "shortText": "Dispara una ráfaga de proyectiles que infligen daño y ralentizan "
+    },
+    "DVaTargetLocked|DVaTargetLocked|W|Level13": {
+      "fullText": "A los héroes enemigos que permanezcan en tu Matriz de defensa durante <c val=\"#TooltipNumbers\">0.75</c> segundos se les reducirá la Armadura en <c val=\"#TooltipNumbers\">15</c> y su velocidad de movimiento un <c val=\"#TooltipNumbers\">25%</c> durante <c val=\"#TooltipNumbers\">3</c> segundos.",
+      "name": "Objetivo fijado",
+      "shortText": "Matriz de defensa reduce la Armadura y ralentiza"
+    },
+    "DVaGoodToGo|DVaGoodToGo|Trait|Level13": {
+      "fullText": "<c val=\"#AbilityPassive\">Modo de piloto:</c> Desbloquea las habilidades Impulso fugaz y Pulso derribador.<n/><n/><c val=\"#TooltipNumbers\">Impulso fugaz:</c> Te desplazas una corta distancia. Tiempo de reutilización: <c val=\"#TooltipNumbers\">10</c> segundos.<n/><n/><c val=\"#TooltipNumbers\">Pulso derribador:</c> Inflige <c val=\"#TooltipNumbers\">120</c><c val=\"#ColorGray\">~~0.04~~</c> de daño a los enemigos en un área cónica y los repele. Tiempo de reutilización: <c val=\"#TooltipNumbers\">10</c> segundos.",
+      "name": "Lista para la acción",
+      "shortText": "Desbloquea más habilidades en modo piloto"
+    },
+    "DVaBigShotPewPewPew|DVaBigShotPewPewPew|Trait|Level13": {
+      "fullText": "<c val=\"#AbilityPassive\">Modo de piloto: </c>En vez de un solo disparo, Superpistola dispara <c val=\"#TooltipNumbers\">3</c> pulsos durante <c val=\"#TooltipNumbers\">0.5</c> segundos. Cada disparo inflige un <c val=\"#TooltipNumbers\">75%</c> de daño.",
+      "name": "¡Pium! ¡Pium! ¡Pium!",
+      "shortText": "Superpistola dispara varios pulsos"
+    },
+    "DVaInForTheKill|DVaInForTheKill|Q|Level16": {
+      "fullText": "El lanzamiento de Propulsores otorga un escudo equivalente al <c val=\"#TooltipNumbers\">10%</c> de la salud máxima durante <c val=\"#TooltipNumbers\">2.5</c> segundos. Cada héroe enemigo golpeado por Propulsores aumenta el daño de ataque básico de la armadura robótica de D.Va un <c val=\"#TooltipNumbers\">10%</c> durante <c val=\"#TooltipNumbers\">5</c> segundos, lo que se acumula hasta <c val=\"#TooltipNumbers\">5</c> veces.",
+      "name": "Directo a matar",
+      "shortText": "Propulsores otorga un escudo y aumenta el daño de ataque"
+    },
+    "DVaDefenseMatrixDivertingPower|DVaDefenseMatrixDivertingPower|W|Level16": {
+      "fullText": "El área de Matriz de defensa aumenta drásticamente de tamaño y, cada vez que reduce daño infligido a héroes, la armadura robótica de D.Va recupera <c val=\"#TooltipNumbers\">31</c><c val=\"#ColorGray\">~~0.04~~</c> de salud.",
+      "name": "Desviación de poder",
+      "shortText": "Aumenta el área de Matriz de defensa y sana"
+    },
+    "DVaMechEmergencyShielding|DVaMechEmergencyShielding|Trait|Level16": {
+      "fullText": "Cuando esté por destruirse, la armadura robótica de D.Va no se destruirá y, en cambio, obtendrá un escudo que absorbe <c val=\"#TooltipNumbers\">290</c><c val=\"#ColorGray\">~~0.04~~</c> de daño durante <c val=\"#TooltipNumbers\">8</c> segundos.<n/><n/>Este efecto tiene un tiempo de reutilización de <c val=\"#TooltipNumbers\">30</c> segundos.",
+      "name": "Escudo de emergencia",
+      "shortText": "En vez de morir, la armadura robótica obtiene un escudo"
+    },
+    "DVaBunnyHopStopAndPop|DVaBunnyHopStopAndPop|Heroic|Level20": {
+      "fullText": "Aumenta la duración de Saltito <c val=\"#TooltipNumbers\">4</c> segundos, y no disminuye mientras la armadura robótica de D.Va permanece inmóvil.",
+      "name": "Para y salta",
+      "shortText": "Saltito dura más, en pausa si la unidad no está en movimiento"
+    },
+    "DVaTimingAttack|DVaTimingAttack|Heroic|Level20": {
+      "fullText": "Micromisiles obtiene una carga adicional. Cada vez que Micromisiles golpea a un héroe enemigo, se reduce su tiempo de reutilización <c val=\"#TooltipNumbers\">0.5</c> segundos y el tiempo de reutilización de las cargas <c val=\"#TooltipNumbers\">0.25</c> segundos.",
+      "name": "Ataque oportuno",
+      "shortText": "Obtienes una carga; los golpes a héroes reducen la reutilización"
+    },
+    "DVaHeadshot|DVaHeadshot|Trait|Level20": {
+      "fullText": "<c val=\"#AbilityPassive\">Modo de piloto:</c> Aumenta el daño de Superpistola un <c val=\"#TooltipNumbers\">75%</c> y reduce su tiempo de reutilización <c val=\"#TooltipNumbers\">2</c> segundos.",
+      "name": "¡Entre ceja y ceja!",
+      "shortText": "Aumenta el daño de Superpistola; reduce el tiempo de reutilización"
+    },
+    "DVaMechAblativeArmor|DVaMechAblativeArmor|Trait|Level20": {
+      "fullText": "La armadura robótica de D.Va recupera el <c val=\"#TooltipNumbers\">45%</c> del daño de habilidad especial recibido como salud durante <c val=\"#TooltipNumbers\">4</c> segundos.",
+      "name": "Armadura ablativa",
+      "shortText": "Sana una parte del daño de habilidad especial recibido"
+    }
+  },
+  "units": {
+    "HeroDVaPilot": {
+      "energyType": "Carga",
+      "lifeType": "Salud",
+      "name": "D.Va"
+    }
+  }
+}

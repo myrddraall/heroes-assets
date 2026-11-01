@@ -1,0 +1,180 @@
+{
+  "abilities": {
+    "ArtanisBladeDash|ArtanisBladeDash|Q": {
+      "cooldownText": "Recupero: 10 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Artanis scatta in avanti e infligge <c val=\"#TooltipNumbers\">63</c><c val=\"#ColorGray\">~~0.04~~</c> danni ai nemici, poi torna nel punto iniziale, infliggendo <c val=\"#TooltipNumbers\">171</c><c val=\"#ColorGray\">~~0.04~~</c> danni. Colpire un nemico non eroico riduce il tempo di recupero di Sovraccarico Scudo di <c val=\"#TooltipNumbers\">1</c> s, colpire un eroe nemico lo riduce di <c val=\"#TooltipNumbers\">2</c> s.",
+      "name": "Slancio Letale",
+      "shortText": "Scatta in avanti e torna nella posizione originale, infliggendo danni ai nemici sulla traiettoria."
+    },
+    "ArtanisTwinBlades|ArtanisTwinBlades|W": {
+      "cooldownText": "Recupero: 4 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 20</s>",
+      "fullText": "Il successivo attacco base consente ad Artanis di effettuare una breve carica e di colpire il nemico <c val=\"#TooltipNumbers\">2</c> volte.",
+      "name": "Lame Gemelle",
+      "shortText": "Artanis carica i nemici e gli attacchi base colpiscono due volte."
+    },
+    "ArtanisPhasePrism|ArtanisPhasePrism|E": {
+      "cooldownText": "Recupero: 12 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Evoca un Prisma di Fase che infligge <c val=\"#TooltipNumbers\">66</c><c val=\"#ColorGray\">~~0.04~~</c> danni al primo eroe colpito e ne scambia la posizione con quella di Artanis. Colpire un eroe rende Artanis inarrestabile per <c val=\"#TooltipNumbers\">1.5 </c>s. Può essere usata durante Slancio Letale.",
+      "name": "Prisma di Fase",
+      "shortText": "Si scambia di posizione con un eroe nemico."
+    },
+    "ArtanisSpearofAdunPurifierBeam|ArtanisSpearofAdunPurifierBeam|Heroic": {
+      "cooldownText": "Recupero: 70 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 65</s>",
+      "fullText": "Colpisce un eroe nemico con un raggio orbitale dalla Lancia di Adun, infliggendo <c val=\"#TooltipNumbers\">184</c><c val=\"#ColorGray\">~~0.04~~</c> danni ogni secondo per <c val=\"#TooltipNumbers\">8</c> s. Il raggio segue il bersaglio durante il movimento. Portata illimitata.",
+      "name": "Raggio Purificatore",
+      "shortText": "Colpisce un eroe nemico con un raggio orbitale."
+    },
+    "ArtanisSpearofAdunSuppressionPulse|ArtanisSpearofAdunSuppressionPulse|Heroic": {
+      "cooldownText": "Recupero: 50 secondi",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 40</s>",
+      "fullText": "Emette un ampio impulso ad area dalla Lancia di Adun, infliggendo <c val=\"#TooltipNumbers\">114</c><c val=\"#ColorGray\">~~0.04~~</c> danni e accecando i nemici per <c val=\"#TooltipNumbers\">4</c> s. Portata infinita.",
+      "name": "Impulso Repressivo",
+      "shortText": "Danneggia e acceca i nemici in un'ampia area."
+    },
+    "ArtanisShieldOverloadDummy|ArtanisShieldOverloadTrait|Trait": {
+      "cooldownText": "Recupero: 24 s",
+      "fullText": "Se subisce danni con meno del <c val=\"#TooltipNumbers\">75%</c> di Salute, Artanis ottiene <c val=\"#TooltipNumbers\">365</c><c val=\"#ColorGray\">~~0.04~~</c> Scudo per <c val=\"#TooltipNumbers\">5</c> s. Gli attacchi base riducono il tempo di recupero di Sovraccarico Scudo di <c val=\"#TooltipNumbers\">4</c> s.",
+      "name": "Sovraccarico Scudo",
+      "shortText": "Fornisce uno scudo quando si subiscono attacchi con poca Salute."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Recupero: 4 s",
+      "fullText": "Dopo un incanalamento di <c val=\"#TooltipNumbers\">1</c> s, aumenta del <s val=\"StandardTooltipDetails\">30%</s> la velocità di movimento.",
+      "name": "Cavalcatura"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Dopo un incanalamento di <c val=\"#TooltipNumbers\">6</c> s, teletrasporta l'eroe nella Sala delle Tempeste, rigenerando all'istante <c val=\"#TooltipNumbers\">1125</c> Salute e <c val=\"#TooltipNumbers\">150</c> Mana.",
+      "name": "Pietra del Ritorno"
+    },
+    ":PASSIVE:|ArtanisTwinBladesPrimed|W": {
+      "cooldownText": "Recupero: 4 s",
+      "fullText": "Il successivo attacco base consente ad Artanis di effettuare una breve carica e di colpire il nemico <c val=\"#TooltipNumbers\">2</c> volte.",
+      "name": "Lame Gemelle attive"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Congeda la cavalcatura.",
+      "name": "Congeda cavalcatura"
+    }
+  },
+  "talents": {
+    "ArtanisTwinBladesReactiveParry|ArtanisTwinBladesReactiveParryTalent|W|Level1": {
+      "fullText": "Infliggere danni agli eroi nemici con Lame Gemelle o Slancio Letale fornisce ad Artanis <c val=\"#TooltipNumbers\">50</c> Resistenza fisica contro il successivo attacco base di un eroe, riducendo del <c val=\"#TooltipNumbers\">50%</c> i danni subiti.<n/><n/>Accumula fino a <c val=\"#TooltipNumbers\">2</c> cariche.",
+      "name": "Parata Reattiva",
+      "shortText": "Lame Gemelle e Slancio Letale forniscono Resistenza fisica."
+    },
+    "ArtanisTwinBladesAmateurOpponent|ArtanisTwinBladesAmateurOpponentTalent|W|Level1": {
+      "fullText": "Gli attacchi di Lame Gemelle infliggono il <c val=\"#TooltipNumbers\">150%</c> di danni aggiuntivi ai nemici non eroici.",
+      "name": "Avversario Indegno",
+      "shortText": "Aumenta i danni di Lame Gemelle ai bersagli non eroici."
+    },
+    "ArtanisProtectorOfAiur|ArtanisProtectorOfAiurTalent|Passive|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Missione:</c> Gli attacchi base contro gli eroi nemici aumentano i danni degli attacchi base di Artanis del <c val=\"#TooltipNumbers\">0.1%</c>. Le uccisioni forniscono un bonus ai danni del <c val=\"#TooltipNumbers\">1%</c>.",
+      "name": "Protettore di Aiur",
+      "shortText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Missione:</c> Gli attacchi contro gli eroi aumentano i danni."
+    },
+    "ArtanisPhasePrismPsionicSynergy|ArtanisPhasePrismPsionicSynergyTalent|E|Level4": {
+      "fullText": "Colpire un eroe nemico con Prisma di Fase fornisce <c val=\"#TooltipNumbers\">30</c> Resistenza per <c val=\"#TooltipNumbers\">5</c> s.",
+      "name": "Sinergia Psionica",
+      "shortText": "Prisma di Fase fornisce Resistenza."
+    },
+    "ArtanisShieldOverloadShieldBattery|ArtanisShieldOverloadShieldBatteryTalent|Trait|Level4": {
+      "fullText": "Il tempo di recupero di Sovraccarico Scudo scorre il <c val=\"#TooltipNumbers\">125%</c> più rapidamente finché lo scudo è attivo. <n/><n/><c val=\"#AbilityPassive\">Passiva:</c> Riduce il tempo di recupero di Sovraccarico Scudo di <c val=\"#TooltipNumbers\">4</c> s.",
+      "name": "Batteria di Scudi",
+      "shortText": "Sovraccarico Scudo si ricarica più rapidamente finché è attivo."
+    },
+    "ArtanisShieldOverloadShieldSurge|ArtanisShieldOverloadShieldSurgeTalentNew|Trait|Level4": {
+      "fullText": "Aumenta gli scudi di Sovraccarico Scudo del <c val=\"#TooltipNumbers\">80%</c> quando si ha meno del <c val=\"#TooltipNumbers\">25%</c> di Salute.",
+      "name": "Scudo Travolgente",
+      "shortText": "Aumenta l'effetto di Sovraccarico Scudo quando la Salute scarseggia."
+    },
+    "ArtanisBladeDashSolariteReaper|ArtanisBladeDashSolariteReaperTalent|Q|Level7": {
+      "fullText": "Aumenta del <c val=\"#TooltipNumbers\">175%</c> i danni del primo affondo di Slancio Letale.",
+      "name": "Mietitore di Solarite",
+      "shortText": "Aumenta i danni di Slancio Letale."
+    },
+    "ArtanisPhasePrismChronoSurge|ArtanisPhasePrismChronoSurgeTalent|E|Level7": {
+      "fullText": "Colpire un eroe nemico con Prisma di Fase aumenta del <c val=\"#TooltipNumbers\">40%</c> la velocità d'attacco per <c val=\"#TooltipNumbers\">5</c> s e rallenta la velocità di movimento del nemico del <c val=\"#TooltipNumbers\">30%</c> per <c val=\"#TooltipNumbers\">4</c> s.",
+      "name": "Varco Temporale",
+      "shortText": "Prisma di Fase aumenta la velocità d'attacco e rallenta."
+    },
+    "ArtanisFinalCut|ArtanisFinalCut|Passive|Level7": {
+      "fullText": "Dopo aver usato un'abilità, il prossimo attacco base entro <c val=\"#TooltipNumbers\">6</c> s infligge il <c val=\"#TooltipNumbers\">40%</c> di danni aggiuntivi. Se la Salute è al di sotto del <c val=\"#TooltipNumbers\">25%</c>, questo bonus ai danni è aumentato al <c val=\"#TooltipNumbers\">60%</c>.",
+      "name": "Taglio Finale",
+      "shortText": "Le abilità aumentano i danni degli attacchi base."
+    },
+    "ArtanisHeroicAbilitySpearofAdunSuppressionPulse|ArtanisSpearofAdunSuppressionPulse|Heroic|Level10": {
+      "cooldownText": "Recupero: 50 secondi",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 40</s>",
+      "fullText": "Emette un ampio impulso ad area dalla Lancia di Adun, infliggendo <c val=\"#TooltipNumbers\">114</c><c val=\"#ColorGray\">~~0.04~~</c> danni e accecando i nemici per <c val=\"#TooltipNumbers\">4</c> s. Portata infinita.",
+      "name": "Impulso Repressivo",
+      "shortText": "Danneggia e acceca i nemici in un'ampia area."
+    },
+    "ArtanisHeroicAbilitySpearofAdunPurifierBeam|ArtanisSpearofAdunPurifierBeam|Heroic|Level10": {
+      "cooldownText": "Recupero: 70 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 65</s>",
+      "fullText": "Colpisce un eroe nemico con un raggio orbitale dalla Lancia di Adun, infliggendo <c val=\"#TooltipNumbers\">184</c><c val=\"#ColorGray\">~~0.04~~</c> danni ogni secondo per <c val=\"#TooltipNumbers\">8</c> s. Il raggio segue il bersaglio durante il movimento. Portata illimitata.",
+      "name": "Raggio Purificatore",
+      "shortText": "Colpisce un eroe nemico con un raggio orbitale."
+    },
+    "ArtanisBladeDashTemplarsZeal|ArtanisBladeDashTemplarsZealTalent|Q|Level13": {
+      "fullText": "Riduce il costo in Mana di Slancio Letale da <c val=\"#TooltipNumbers\">50</c> a <c val=\"#TooltipNumbers\">25</c>. Riduce il tempo di recupero di Slancio Letale di <c val=\"#TooltipNumbers\">6</c> s ogni volta che Sovraccarico Scudo si attiva.",
+      "name": "Zelo dei Templari",
+      "shortText": "Riduce il tempo di recupero di Slancio Letale."
+    },
+    "ArtanisTwinBladesTripleStrike|ArtanisTwinBladesTripleStrikeTalent|W|Level13": {
+      "fullText": "Aumenta il numero di attacchi base di Lame Gemelle a <c val=\"#TooltipNumbers\">3</c>, ma ne aumenta il tempo di recupero di <c val=\"#TooltipNumbers\">1</c> s.",
+      "name": "Colpo Triplo",
+      "shortText": "Lame Gemelle colpisce tre volte."
+    },
+    "ArtanisPhasePrismGravitonVortex|ArtanisPhasePrismGravitonVortexTalent|E|Level13": {
+      "fullText": "Riduce il costo in Mana di Prisma di Fase da <c val=\"#TooltipNumbers\">50</c> a <c val=\"#TooltipNumbers\">25</c>. Colpire un eroe nemico con gli attacchi base o con Slancio Letale riduce il tempo di recupero di Prisma di Fase di <c val=\"#TooltipNumbers\">2</c> s.",
+      "name": "Vortice Gravitonico",
+      "shortText": "Gli attacchi riducono il tempo di recupero di Prisma di Fase."
+    },
+    "ArtanisShieldOverloadPhaseBulwark|ArtanisShieldOverloadPhaseBulwarkTalent|Trait|Level13": {
+      "fullText": "Sovraccarico Scudo fornisce <c val=\"#TooltipNumbers\">50</c> Resistenza magica finché è attivo e per <c val=\"#TooltipNumbers\">2</c> s dopo la sua scadenza.",
+      "name": "Baluardo Fasico",
+      "shortText": "Sovraccarico Scudo fornisce Resistenza magica."
+    },
+    "ArtanisTwinBladesTitanKiller|ArtanisTwinBladesTitanKillerTalent|W|Level16": {
+      "fullText": "Gli attacchi base contro gli eroi infliggono danni aggiuntivi pari al <c val=\"#TooltipNumbers\">0.5%</c> della Salute massima del bersaglio. L'effetto aumenta al <c val=\"#TooltipNumbers\">1.5%</c> durante l'effetto di Lame Gemelle.",
+      "name": "Uccisore di Titani",
+      "shortText": "Gli attacchi base infliggono danni percentuali."
+    },
+    "ArtanisShieldOverloadForceofWill|ArtanisShieldOverloadForceofWillTalent|Trait|Level16": {
+      "fullText": "Le abilità base riducono il tempo di recupero di Sovraccarico Scudo di <c val=\"#TooltipNumbers\">5</c> s.",
+      "name": "Forza della Volontà",
+      "shortText": "Le abilità riducono il tempo di recupero di Sovraccarico Scudo."
+    },
+    "ArtanisTwinBladesBladesofaTemplar|ArtanisTwinBladesBladesofaTemplar|Passive|Level16": {
+      "fullText": "Aumenta la velocità d'attacco del <c val=\"#TooltipNumbers\">20%</c>. Gli attacchi base rallentano i nemici del <c val=\"#TooltipNumbers\">20%</c> per <c val=\"#TooltipNumbers\">1.25</c> s.",
+      "name": "Lame del Templare",
+      "shortText": "Aumenta la velocità d'attacco e rallenta i nemici."
+    },
+    "ArtanisSpearofAdunSuppressionPulseOrbitalBombardment|ArtanisSpearofAdunSuppressionPulseOrbitalBombardmentTalent|Heroic|Level20": {
+      "fullText": "Impulso Repressivo ottiene una carica aggiuntiva. C'è un tempo di recupero di <c val=\"#TooltipNumbers\">10</c> s tra un uso e l'altro.",
+      "name": "Bombardamento Orbitale",
+      "shortText": "Impulso Repressivo ottiene una carica aggiuntiva."
+    },
+    "ArtanisSpearofAdunPurifierBeamTargetPurified|ArtanisSpearofAdunPurifierBeamTargetPurifiedTalent|Heroic|Level20": {
+      "fullText": "Aumenta del <c val=\"#TooltipNumbers\">15%</c> la velocità di Raggio Purificatore. Se il bersaglio muore, l'abilità viene automaticamente attivata sull'eroe nemico visibile più vicino.",
+      "name": "Bersaglio Purificato",
+      "shortText": "Raggio Purificatore è più rapido e passa a un nuovo nemico se il bersaglio muore."
+    },
+    "ArtanisTwinBladesZealotCharge|ArtanisTwinBladesZealotChargeTalent|W|Level20": {
+      "fullText": "Aumenta del <c val=\"#TooltipNumbers\">75%</c> la distanza di carica di Lame Gemelle.",
+      "name": "Carica degli Zeloti",
+      "shortText": "Aumenta la distanza di carica di Lame Gemelle."
+    },
+    "ArtanisPlasmaBurn|ArtanisPlasmaBurn|Trait|Level20": {
+      "fullText": "Sovraccarico Scudo infligge <c val=\"#TooltipNumbers\">70</c><c val=\"#ColorGray\">~~0.04~~</c> danni al secondo ai nemici vicini finché è attivo.",
+      "name": "Plasma Ustionante",
+      "shortText": "Sovraccarico Scudo brucia i nemici vicini."
+    }
+  },
+  "units": {}
+}

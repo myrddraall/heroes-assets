@@ -1,0 +1,205 @@
+{
+  "abilities": {
+    "BarbarianAncientSpear|BarbarianAncientSpear|Q": {
+      "cooldownText": "Tiempo de reutilización: 13 segundos",
+      "fullText": "Arroja una lanza que arrastra a Sonya hasta el primer enemigo golpeado, le inflige <c val=\"#TooltipNumbers\">173</c><c val=\"#ColorGray\">~~0.04~~</c> de daño y lo aturde por un instante. Si acierta un objetivo, genera <c val=\"#TooltipNumbers\">40</c> de Furia.",
+      "name": "Lanza ancestral",
+      "shortText": "Arroja una lanza que la arrastra hasta el primer enemigo que golpea, lo aturde y le inflige daño"
+    },
+    "BarbarianSeismicSlam|BarbarianSeismicSlam|W": {
+      "cooldownText": "Tiempo de reutilización: 1 segundo",
+      "energyText": "<s val=\"StandardTooltipDetails\">Furia: 25</s>",
+      "fullText": "Inflige <c val=\"#TooltipNumbers\">176</c><c val=\"#ColorGray\">~~0.04~~</c> de daño al enemigo objetivo y <c val=\"#TooltipNumbers\">44</c><c val=\"#ColorGray\">~~0.04~~</c> de daño a los enemigos que están detrás del objetivo.",
+      "name": "Golpe sísmico",
+      "shortText": "Inflige daño a un enemigo y daño por proximidad detrás de él"
+    },
+    "BarbarianWhirlwind|BarbarianWhirlwind|E": {
+      "cooldownText": "Tiempo de reutilización: 5 segundos.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Furia: 40</s>",
+      "fullText": "Inflige <c val=\"#TooltipNumbers\">138</c><c val=\"#ColorGray\">~~0.04~~</c> de daño por segundo a los enemigos cercanos durante <c val=\"#TooltipNumbers\">3</c> segundos y sana por un <c val=\"#TooltipNumbers\">25%</c> del daño infligido. La sanación se triplica contra los héroes.",
+      "name": "Remolino",
+      "shortText": "Inflige daño a los enemigos cercanos y sana por un porcentaje del daño infligido"
+    },
+    "BarbarianLeap|BarbarianLeap|Heroic": {
+      "cooldownText": "Tiempo de reutilización: 60 segundos",
+      "fullText": "Salta en el aire, inflige <c val=\"#TooltipNumbers\">135</c><c val=\"#ColorGray\">~~0.04~~</c> de daño a los enemigos cercanos y los aturde durante <c val=\"#TooltipNumbers\">1.25</c> segundos.",
+      "name": "Salto",
+      "shortText": "Salta a una ubicación, daña y aturde a los enemigos"
+    },
+    "BarbarianWrathoftheBerserker|BarbarianWrathoftheBerserker|Heroic": {
+      "cooldownText": "Tiempo de reutilización: 60 segundos",
+      "fullText": "Aumenta un <c val=\"#TooltipNumbers\">40%</c> el daño infligido. Reduce la duración de los aturdimientos, arraigos y ralentizaciones en contra de Sonya un <c val=\"#TooltipNumbers\">50%</c>. Dura <c val=\"#TooltipNumbers\">15</c> segundos y se extiende <c val=\"#TooltipNumbers\">1</c> segundo más por cada <c val=\"#TooltipNumbers\">10</c> puntos de Furia obtenidos.",
+      "name": "Furia del vesánico",
+      "shortText": "Aumenta el daño y reduce la duración de los efectos de neutralización"
+    },
+    ":PASSIVE:|BarbarianFury|Trait": {
+      "fullText": "En lugar de maná, utiliza Furia, que se obtiene al recibir o infligir daño de ataque básico. Usar una habilidad básica o heroica otorga un <c val=\"#TooltipNumbers\">10%</c> de velocidad de movimiento durante <c val=\"#TooltipNumbers\">4</c> segundos.",
+      "name": "Furia",
+      "shortText": "Genera Furia en combate. Todas las habilidades otorgan velocidad de movimiento"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Tiempo de reutilización: 4 segundos",
+      "fullText": "Tras una canalización de <c val=\"#TooltipNumbers\">1</c> segundo, obtienes un <s val=\"StandardTooltipDetails\">30%</s> de velocidad de movimiento.",
+      "name": "Invocar montura"
+    },
+    "Hearthstone|HearthstoneNoMana|B": {
+      "fullText": "Tras una canalización de <c val=\"#TooltipNumbers\">6</c> segundos, te teletransportas de regreso a la Sala de las tormentas para recuperar <c val=\"#TooltipNumbers\">1125</c> de salud de inmediato.",
+      "name": "Piedra de hogar"
+    },
+    "BarbarianWhirlwindCancel|BarbarianWhirlwindCancel|E": {
+      "fullText": "Cancela la habilidad Remolino",
+      "name": "Cancelar Remolino"
+    },
+    "BarbarianCancelLeapArreatCrater|BarbarianLeapArreatCraterCancel|Heroic": {
+      "cooldownText": "Tiempo de reutilización: 1.5 segundos",
+      "fullText": "Cancela Cráter de Arreat",
+      "name": "Cancelar - Salto"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Te desmontas.",
+      "name": "Desinvocar montura"
+    },
+    "BarbarianShotofFury|BarbarianFuryShotOfFury|Trait": {
+      "cooldownText": "Tiempo de reutilización: 40 segundos",
+      "fullText": "En lugar de maná, utiliza Furia, que se obtiene al recibir o infligir daño de ataque básico. Usar una habilidad básica o heroica otorga un <c val=\"#TooltipNumbers\">10%</c> de velocidad de movimiento durante <c val=\"#TooltipNumbers\">4</c> segundos.",
+      "name": "Furia"
+    },
+    "BarbarianBattleRage|BarbarianBattleRage|Active": {
+      "cooldownText": "Tiempo de reutilización de carga: 30 segundos",
+      "fullText": "Activar para recuperar un <c val=\"#TooltipNumbers\">10%</c> de la salud máxima de Sonya instantáneamente. Acumula hasta <c val=\"#TooltipNumbers\">2</c> cargas. Puede usarse durante Remolino.<n/><n/><c val=\"#AbilityPassive\">Pasivo: </c>Sonya inflige un <c val=\"#TooltipNumbers\">25%</c> más de daño a mercenarios.",
+      "name": "Furia bélica",
+      "shortText": "Aumenta el daño a mercenarios, activar para sanarse"
+    },
+    "BarbarianNervesOfSteel|BarbarianNervesOfSteel|Active": {
+      "cooldownText": "Tiempo de reutilización: 60 segundos",
+      "fullText": "Activar para obtener un <c val=\"#TooltipNumbers\">25%</c> de tu salud máxima como escudo durante <c val=\"#TooltipNumbers\">3</c> segundos. Puede usarse durante Remolino.",
+      "name": "Nervios de acero",
+      "shortText": "Activar para obtener un escudo"
+    },
+    "BarbarianStridingGiant|BarbarianStridingGiantActive|Heroic": {
+      "cooldownText": "Tiempo de reutilización: 30 segundos",
+      "fullText": "Activar para volverte imparable durante <c val=\"#TooltipNumbers\">2</c> segundos. Solo se puede usar cuando Furia del vesánico está activa.",
+      "name": "Pasos agigantados"
+    },
+    "BarbarianIgnorePain|BarbarianIgnorePain|Active": {
+      "cooldownText": "Tiempo de reutilización: 60 segundos",
+      "fullText": "Activar para obtener <c val=\"#TooltipNumbers\">60</c> de Armadura durante <c val=\"#TooltipNumbers\">4</c> segundos y recibir un <c val=\"#TooltipNumbers\">60%</c> menos de daño. Puede usarse durante Remolino.",
+      "name": "Ignorar dolor",
+      "shortText": "Actívalo para obtener una gran cantidad de Armadura"
+    }
+  },
+  "talents": {
+    "BarbarianFuriousBlow|BarbarianSeismicSlamFuriousBlowTalent|W|Level1": {
+      "fullText": "Cada <c val=\"#TooltipNumbers\">4</c> lanzamientos de Golpe sísmico, Sonya inflige un <c val=\"#TooltipNumbers\">40%</c> más de daño al objetivo principal sin costo de Furia.",
+      "name": "Golpe furioso",
+      "shortText": "Potencia Golpe sísmico"
+    },
+    "BarbarianWarPaint|BarbarianFuryWarPaintTalent|Passive|Level1": {
+      "fullText": "Los ataques básicos sanan a Sonya por un <c val=\"#TooltipNumbers\">30%</c> del daño infligido.",
+      "name": "Pintura bélica",
+      "shortText": "Los ataques básicos sanan"
+    },
+    "BarbarianToughAsNails|BarbarianToughAsNails|Passive|Level1": {
+      "fullText": "Cada <c val=\"#TooltipNumbers\">16</c> segundos, obtienes <c val=\"#TooltipNumbers\">60</c> de Armadura física que te protege del siguiente ataque básico de héroe enemigo, lo que reduce un <c val=\"#TooltipNumbers\">60%</c> el daño recibido.<n/><n/>Puede acumular hasta <c val=\"#TooltipNumbers\">3</c> cargas. Las cargas se restablecen un <c val=\"#TooltipNumbers\">200%</c> más rápido mientras la bonificación de velocidad de movimiento de Furia esté activa.",
+      "name": "Duro como el hierro",
+      "shortText": "Otorga Armadura física periódicamente"
+    },
+    "BarbarianShatteredGround|BarbarianSeismicSlamShatteredGroundTalent|W|Level4": {
+      "fullText": "Aumenta el daño por proximidad de Golpe sísmico un <c val=\"#TooltipNumbers\">250%</c>. Tener como objetivo a un héroe con Golpe sísmico aumenta aún más el daño por proximidad un <c val=\"#TooltipNumbers\">250%</c>, mientras que tener a otros enemigos como objetivo aumenta el alcance un <c val=\"#TooltipNumbers\">66%</c>.",
+      "name": "Terreno destrozado",
+      "shortText": "Aumenta el daño por proximidad de Golpe sísmico"
+    },
+    "BarbarianHurricane|BarbarianHurricaneWhirlwindTalent|E|Level4": {
+      "fullText": "Reduce el tiempo de reutilización de Remolino <c val=\"#TooltipNumbers\">2</c> segundos. Remolino elimina todos los efectos de ralentización y arraigo sobre Sonya.",
+      "name": "Huracán",
+      "shortText": "Remolino elimina los efectos de ralentización y arraigo"
+    },
+    "BarbarianShotOfFury|BarbarianFuryShotOfFuryTalent|Trait|Level4": {
+      "cooldownText": "Tiempo de reutilización: 40 segundos",
+      "fullText": "Activar para obtener <c val=\"#TooltipNumbers\">50</c> de Furia. Puede usarse durante Remolino.<n/><n/><c val=\"#AbilityPassive\">Pasivo:</c> Después de lanzar Golpe sísmico, tu próximo ataque básico inflige un <c val=\"#TooltipNumbers\">40%</c> más de daño.",
+      "name": "Estallido de furia",
+      "shortText": "Activar para obtener Furia"
+    },
+    "BarbarianPoisonedSpear|BarbarianAncientSpearPoisonedSpearTalent|Q|Level7": {
+      "fullText": "Lanza ancestral inflige un <c val=\"#TooltipNumbers\">100%</c> más de daño durante <c val=\"#TooltipNumbers\">6</c> segundos.",
+      "name": "Lanza envenenada",
+      "shortText": "Lanza ancestral inflige daño con el tiempo"
+    },
+    "BarbarianLifeFunnel|BarbarianWhirlwindLifeFunnelTalent|E|Level7": {
+      "fullText": "Aumenta la sanación de Remolino al <c val=\"#TooltipNumbers\">35%</c> del daño infligido.",
+      "name": "Embudo vital",
+      "shortText": "Aumenta la sanación de Remolino"
+    },
+    "BarbarianBattleRage|BarbarianBattleRage|Active|Level7": {
+      "cooldownText": "Tiempo de reutilización de carga: 30 segundos",
+      "fullText": "Activar para recuperar un <c val=\"#TooltipNumbers\">10%</c> de la salud máxima de Sonya instantáneamente. Acumula hasta <c val=\"#TooltipNumbers\">2</c> cargas. Puede usarse durante Remolino.<n/><n/><c val=\"#AbilityPassive\">Pasivo: </c>Sonya inflige un <c val=\"#TooltipNumbers\">25%</c> más de daño a mercenarios.",
+      "name": "Furia bélica",
+      "shortText": "Aumenta el daño a mercenarios, activar para sanarse"
+    },
+    "BarbarianHeroicAbilityLeap|BarbarianLeap|Heroic|Level10": {
+      "cooldownText": "Tiempo de reutilización: 60 segundos",
+      "fullText": "Salta en el aire, inflige <c val=\"#TooltipNumbers\">135</c><c val=\"#ColorGray\">~~0.04~~</c> de daño a los enemigos cercanos y los aturde durante <c val=\"#TooltipNumbers\">1.25</c> segundos.",
+      "name": "Salto",
+      "shortText": "Salta a una ubicación, daña y aturde a los enemigos"
+    },
+    "BarbarianHeroicAbilityWrathoftheBerserker|BarbarianWrathoftheBerserker|Heroic|Level10": {
+      "cooldownText": "Tiempo de reutilización: 60 segundos",
+      "fullText": "Aumenta un <c val=\"#TooltipNumbers\">40%</c> el daño infligido. Reduce la duración de los aturdimientos, arraigos y ralentizaciones en contra de Sonya un <c val=\"#TooltipNumbers\">50%</c>. Dura <c val=\"#TooltipNumbers\">15</c> segundos y se extiende <c val=\"#TooltipNumbers\">1</c> segundo más por cada <c val=\"#TooltipNumbers\">10</c> puntos de Furia obtenidos.",
+      "name": "Furia del vesánico",
+      "shortText": "Aumenta el daño y reduce la duración de los efectos de neutralización"
+    },
+    "BarbarianMysticalSpear|BarbarianAncientSpearMysticalSpearTalent|Q|Level13": {
+      "fullText": "Lanza ancestral siempre atrae a Sonya hasta la ubicación objetivo, incluso si no golpea a ningún enemigo. De esta forma, se reduce el tiempo de reutilización de Lanza ancestral <c val=\"#TooltipNumbers\">5</c> segundos. ",
+      "name": "Lanza mística",
+      "shortText": "Lanza ancestral siempre te lleva a la ubicación objetivo; menor tiempo de reutilización"
+    },
+    "BarbarianRuthless|BarbarianRuthless|E|Level13": {
+      "fullText": "Remolino inflige <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> de daño adicional por segundo a héroes con menos del <c val=\"#TooltipNumbers\">50%</c> de salud. No genera sanación adicional.",
+      "name": "Inclemente",
+      "shortText": "Aumenta el daño de Remolino contra objetivos con poca salud"
+    },
+    "BarbarianNoEscape|BarbarianFuryNoEscapeTalent|Trait|Level13": {
+      "fullText": "Aumenta la bonificación de velocidad de movimiento por el uso de habilidades básicas y heroicas al <c val=\"#TooltipNumbers\">20%</c>.",
+      "name": "Sin escapatoria",
+      "shortText": "Las habilidades otorgan más velocidad de movimiento"
+    },
+    "BarbarianGiantSlammer|BarbarianGiantSlammer|W|Level16": {
+      "fullText": "Los ataques básicos y Golpe sísmico infligen un <c val=\"#TooltipNumbers\">1.5%</c> de la salud máxima de los héroes como daño adicional y restituyen a Sonya un <c val=\"#TooltipNumbers\">60%</c> del daño infligido como salud.",
+      "name": "Golpe gigante",
+      "shortText": "Los ataques básicos y Golpe sísmico infligen daño adicional"
+    },
+    "BarbarianRampage|BarbarianRampage|Passive|Level16": {
+      "fullText": "Aumenta el daño de ataque básico un <c val=\"#TooltipNumbers\">25%</c>. Los ataques básicos reducen el tiempo de reutilización de Lanza ancestral <c val=\"#TooltipNumbers\">1.5</c> segundos.",
+      "name": "Arremetida",
+      "shortText": "Los ataques básicos reducen el tiempo de reutilización de Lanza ancestral"
+    },
+    "BarbarianNervesOfSteel|BarbarianNervesOfSteel|Active|Level16": {
+      "cooldownText": "Tiempo de reutilización: 60 segundos",
+      "fullText": "Activar para obtener un <c val=\"#TooltipNumbers\">25%</c> de tu salud máxima como escudo durante <c val=\"#TooltipNumbers\">3</c> segundos. Puede usarse durante Remolino.",
+      "name": "Nervios de acero",
+      "shortText": "Activar para obtener un escudo"
+    },
+    "BarbarianArreatCrater|BarbarianLeapArreatCraterTalent|Heroic|Level20": {
+      "fullText": "Salto deja a su paso un cráter infranqueable que dura <c val=\"#TooltipNumbers\">5</c> segundos. Reduce el tiempo de reutilización de Salto <c val=\"#TooltipNumbers\">20</c> segundos.",
+      "name": "Cráter de Arreat",
+      "shortText": "Salto deja un cráter y tiene una reutilización menor"
+    },
+    "BarbarianStridingGiant|BarbarianStridingGiant|Heroic|Level20": {
+      "fullText": "Furia del vesánico aumenta un <c val=\"#TooltipNumbers\">10%</c> la salud máxima y otorga Pasos agigantados, que puede activarse para volverte imparable durante <c val=\"#TooltipNumbers\">2</c> segundos. Tiene un tiempo de reutilización de <c val=\"#TooltipNumbers\">30</c> segundos.",
+      "name": "Pasos agigantados",
+      "shortText": "Furia del vesánico puede volverte imparable"
+    },
+    "BarbarianCompositeSpear|BarbarianAncientSpearCompositeSpearTalent|Q|Level20": {
+      "fullText": "Aumenta un <c val=\"#TooltipNumbers\">50%</c> el alcance de Lanza ancestral. Golpear a un héroe enemigo con Lanza ancestral otorga <c val=\"#TooltipNumbers\">25</c> de Armadura durante <c val=\"#TooltipNumbers\">4</c> segundos.",
+      "name": "Lanza compuesta",
+      "shortText": "Aumenta el alcance de Lanza ancestral y otorga Armadura"
+    },
+    "BarbarianIgnorePain|BarbarianIgnorePain|Active|Level20": {
+      "cooldownText": "Tiempo de reutilización: 60 segundos",
+      "fullText": "Activar para obtener <c val=\"#TooltipNumbers\">60</c> de Armadura durante <c val=\"#TooltipNumbers\">4</c> segundos y recibir un <c val=\"#TooltipNumbers\">60%</c> menos de daño. Puede usarse durante Remolino.",
+      "name": "Ignorar dolor",
+      "shortText": "Actívalo para obtener una gran cantidad de Armadura"
+    }
+  },
+  "units": {}
+}

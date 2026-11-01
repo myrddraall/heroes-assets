@@ -1,0 +1,642 @@
+{
+  "id": "Muradin",
+  "unitId": "HeroMuradin",
+  "hyperlinkId": "Muradin",
+  "attributeId": "Mura",
+  "franchise": "Warcraft",
+  "rarity": "Epic",
+  "releaseDate": "2014-03-13",
+  "isMelee": true,
+  "gender": "Male",
+  "radius": 0.8125,
+  "innerRadius": 0.8125,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 4,
+    "damage": 5,
+    "survivability": 9,
+    "utility": 5
+  },
+  "life": {
+    "amount": 2765,
+    "scale": 0.04,
+    "regenRate": 5.7617,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "BodyBlocker",
+    "EnergyImportant",
+    "Escaper",
+    "Ganker",
+    "Overconfident",
+    "RoleTank"
+  ],
+  "weapons": [
+    {
+      "nameId": "HeroMuradin",
+      "isDisabled": false,
+      "range": 1,
+      "minimumRange": 0,
+      "period": 0.9,
+      "damage": 88,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "MuradinKandyKing",
+    "MuradinMagni",
+    "MuradinMarauder",
+    "MuradinUltimate",
+    "MuradinWCAV"
+  ],
+  "variationSkinIds": [
+    "MuradinIron",
+    "MuradinRed"
+  ],
+  "voiceLineIds": [
+    "MuradinBase_VoiceLine01",
+    "MuradinBase_VoiceLine02",
+    "MuradinBase_VoiceLine03",
+    "MuradinBase_VoiceLine04",
+    "MuradinBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "MuradinStormBolt|MuradinStormbolt|Q",
+        "abilityId": "MuradinStormBolt",
+        "buttonId": "MuradinStormbolt",
+        "icon": "storm_ui_icon_muradin_stormbolt.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "MuradinThunderclap|MuradinThunderclap|W",
+        "abilityId": "MuradinThunderclap",
+        "buttonId": "MuradinThunderclap",
+        "icon": "storm_ui_icon_muradin_thunderclap.png",
+        "charges": {
+          "countMax": 1,
+          "countStart": 1,
+          "countUse": 1,
+          "recastCooldown": 1,
+          "isCountHidden": true
+        },
+        "abilityType": "W"
+      },
+      {
+        "linkId": "MuradinDwarfToss|MuradinDwarfToss|E",
+        "abilityId": "MuradinDwarfToss",
+        "buttonId": "MuradinDwarfToss",
+        "icon": "storm_ui_icon_muradin_dwarftoss.png",
+        "charges": {
+          "countMax": 1,
+          "countStart": 1,
+          "countUse": 1,
+          "recastCooldown": 1,
+          "isCountHidden": true
+        },
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "MuradinAvatar|MuradinAvatar|Heroic",
+        "abilityId": "MuradinAvatar",
+        "buttonId": "MuradinAvatar",
+        "icon": "storm_ui_icon_muradin_avatar.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "MuradinHaymaker|MuradinHaymaker|Heroic",
+        "abilityId": "MuradinHaymaker",
+        "buttonId": "MuradinHaymaker",
+        "icon": "storm_ui_icon_muradin_haymaker.png",
+        "charges": {
+          "countMax": 1,
+          "countStart": 1,
+          "countUse": 1,
+          "recastCooldown": 0.75,
+          "isCountHidden": true
+        },
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": ":PASSIVE:|MuradinSecondWind|Trait",
+        "abilityId": ":PASSIVE:",
+        "buttonId": "MuradinSecondWind",
+        "icon": "storm_ui_icon_muradin_secondwind.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "MuradinMasteryPassiveStoneform|MuradinSecondWindStoneformTalent|Trait|Level16": {
+      "Trait": [
+        {
+          "linkId": "Stoneform|MuradinSecondWindActivateable|Trait",
+          "abilityId": "Stoneform",
+          "buttonId": "MuradinSecondWindActivateable",
+          "icon": "storm_ui_icon_muradin_secondwind.png",
+          "abilityType": "Trait"
+        }
+      ]
+    },
+    "GenericTalentImposingPresence|GenericImposingPresenceTalent|Active|Level16": {
+      "Activable": [
+        {
+          "linkId": "TalentImposingPresence|GenericImposingPresenceTalent|Active",
+          "abilityId": "TalentImposingPresence",
+          "buttonId": "GenericImposingPresenceTalent",
+          "icon": "storm_ui_icon_talent_imposingpresence.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "GenericTalentHardenedShield|HardenedShieldTalent|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "TalentHardenedShield|HardenedShieldTalent|Active",
+          "abilityId": "TalentHardenedShield",
+          "buttonId": "HardenedShieldTalent",
+          "icon": "storm_ui_icon_talent_hardenedshield.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "MuradinDwarfBlock|MuradinDwarfBlock|E|Level1",
+        "talentId": "MuradinDwarfBlock",
+        "buttonId": "MuradinDwarfBlock",
+        "abilityId": "MuradinDwarfToss",
+        "icon": "storm_ui_icon_muradin_dwarftoss.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MuradinDwarfToss|MuradinDwarfToss|E"
+        ]
+      },
+      {
+        "linkId": "MuradinCombatStyleThirdWind|MuradinSecondWindThirdWindTalent|Trait|Level1",
+        "talentId": "MuradinCombatStyleThirdWind",
+        "buttonId": "MuradinSecondWindThirdWindTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_muradin_secondwind.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|MuradinSecondWind|Trait",
+          "Stoneform|MuradinSecondWindActivateable|Trait"
+        ]
+      },
+      {
+        "linkId": "MuradinGiveEmTheAxeExecutioner60DamageBonus|MuradinGiveEmTheAxeTalent|Passive|Level1",
+        "talentId": "MuradinGiveEmTheAxeExecutioner60DamageBonus",
+        "buttonId": "MuradinGiveEmTheAxeTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_damage.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|MuradinSecondWind|Trait"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "MuradinMasteryStormhammerSledgehammer|MuradinStormboltSledgehammerTalent|Q|Level4",
+        "talentId": "MuradinMasteryStormhammerSledgehammer",
+        "buttonId": "MuradinStormboltSledgehammerTalent",
+        "abilityId": "MuradinStormBolt",
+        "icon": "storm_ui_icon_muradin_stormbolt.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MuradinStormBolt|MuradinStormbolt|Q"
+        ]
+      },
+      {
+        "linkId": "MuradinMasteryThunderclapReverberation|MuradinThunderclapReverberationTalent|W|Level4",
+        "talentId": "MuradinMasteryThunderclapReverberation",
+        "buttonId": "MuradinThunderclapReverberationTalent",
+        "abilityId": "MuradinThunderclap",
+        "icon": "storm_ui_icon_muradin_thunderclap.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "MuradinThunderclap|MuradinThunderclap|W"
+        ]
+      },
+      {
+        "linkId": "MuradinMasteryThunderburn|MuradinThunderclapThunderburnTalent|W|Level4",
+        "talentId": "MuradinMasteryThunderburn",
+        "buttonId": "MuradinThunderclapThunderburnTalent",
+        "abilityId": "MuradinThunderclap",
+        "icon": "storm_ui_icon_muradin_thunderclap_b.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "MuradinThunderclap|MuradinThunderclap|W"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "MuradinStormboltPerfectStorm|MuradinStormboltPerfectStormTalent|Q|Level7",
+        "talentId": "MuradinStormboltPerfectStorm",
+        "buttonId": "MuradinStormboltPerfectStormTalent",
+        "abilityId": "MuradinStormBolt",
+        "icon": "storm_ui_icon_muradin_stormbolt.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MuradinStormBolt|MuradinStormbolt|Q"
+        ]
+      },
+      {
+        "linkId": "MuradinMasteryDwarfTossHeavyImpact|MuradinDwarfTossHeavyImpactTalent|E|Level7",
+        "talentId": "MuradinMasteryDwarfTossHeavyImpact",
+        "buttonId": "MuradinDwarfTossHeavyImpactTalent",
+        "abilityId": "MuradinDwarfToss",
+        "icon": "storm_ui_icon_muradin_dwarftoss.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "MuradinDwarfToss|MuradinDwarfToss|E"
+        ]
+      },
+      {
+        "linkId": "MuradinCombatStyleSkullcracker|MuradinSecondWindSkullcrackerTalent|Passive|Level7",
+        "talentId": "MuradinCombatStyleSkullcracker",
+        "buttonId": "MuradinSecondWindSkullcrackerTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_stun.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|MuradinSecondWind|Trait",
+          "Stoneform|MuradinSecondWindActivateable|Trait"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "MuradinHeroicAbilityAvatar|MuradinAvatar|Heroic|Level10",
+        "talentId": "MuradinHeroicAbilityAvatar",
+        "buttonId": "MuradinAvatar",
+        "abilityId": "MuradinAvatar",
+        "icon": "storm_ui_icon_muradin_avatar.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "MuradinHeroicAbilityHaymaker|MuradinHaymaker|Heroic|Level10",
+        "talentId": "MuradinHeroicAbilityHaymaker",
+        "buttonId": "MuradinHaymaker",
+        "abilityId": "MuradinHaymaker",
+        "icon": "storm_ui_icon_muradin_haymaker.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "MuradinBronzebeardRage|MuradinBronzebeardRage|Q|Level13",
+        "talentId": "MuradinBronzebeardRage",
+        "buttonId": "MuradinBronzebeardRage",
+        "abilityId": "MuradinStormBolt",
+        "icon": "storm_ui_icon_talent_burningrage.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MuradinStormBolt|MuradinStormbolt|Q"
+        ]
+      },
+      {
+        "linkId": "MuradinMasteryThunderclapHealingStatic|MuradinThunderclapHealingStaticTalent|W|Level13",
+        "talentId": "MuradinMasteryThunderclapHealingStatic",
+        "buttonId": "MuradinThunderclapHealingStaticTalent",
+        "abilityId": "MuradinThunderclap",
+        "icon": "storm_ui_icon_muradin_thunderclap_a.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "MuradinThunderclap|MuradinThunderclap|W"
+        ]
+      },
+      {
+        "linkId": "MuradinMasteryThunderclapThunderstrike|MuradinThunderclapThunderstrikeTalent|W|Level13",
+        "talentId": "MuradinMasteryThunderclapThunderstrike",
+        "buttonId": "MuradinThunderclapThunderstrikeTalent",
+        "abilityId": "MuradinThunderclap",
+        "icon": "storm_ui_icon_muradin_thunderclap.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "MuradinThunderclap|MuradinThunderclap|W"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "MuradinMasteryDwarfTossDwarfLaunch|MuradinDwarfTossDwarfLaunchTalent|E|Level16",
+        "talentId": "MuradinMasteryDwarfTossDwarfLaunch",
+        "buttonId": "MuradinDwarfTossDwarfLaunchTalent",
+        "abilityId": "MuradinDwarfToss",
+        "icon": "storm_ui_icon_muradin_dwarftoss.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MuradinDwarfToss|MuradinDwarfToss|E"
+        ]
+      },
+      {
+        "linkId": "MuradinMasteryPassiveStoneform|MuradinSecondWindStoneformTalent|Trait|Level16",
+        "talentId": "MuradinMasteryPassiveStoneform",
+        "buttonId": "MuradinSecondWindStoneformTalent",
+        "abilityId": "Stoneform",
+        "icon": "storm_ui_icon_muradin_secondwind.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|MuradinSecondWind|Trait",
+          "Stoneform|MuradinSecondWindActivateable|Trait"
+        ]
+      },
+      {
+        "linkId": "GenericTalentImposingPresence|GenericImposingPresenceTalent|Active|Level16",
+        "talentId": "GenericTalentImposingPresence",
+        "buttonId": "GenericImposingPresenceTalent",
+        "abilityId": "TalentImposingPresence",
+        "icon": "storm_ui_icon_talent_imposingpresence.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "MuradinMasteryAvatarUnstoppableForce|MuradinAvatarUnstoppableForceTalent|Heroic|Level20",
+        "talentId": "MuradinMasteryAvatarUnstoppableForce",
+        "buttonId": "MuradinAvatarUnstoppableForceTalent",
+        "abilityId": "MuradinAvatar",
+        "icon": "storm_ui_icon_muradin_avatar.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MuradinAvatar|MuradinAvatar|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "MuradinHeroicAbilityAvatar"
+        ]
+      },
+      {
+        "linkId": "MuradinMasteryHaymakerGrandSlam|MuradinHaymakerGrandSlamTalent|Heroic|Level20",
+        "talentId": "MuradinMasteryHaymakerGrandSlam",
+        "buttonId": "MuradinHaymakerGrandSlamTalent",
+        "abilityId": "MuradinHaymaker",
+        "icon": "storm_ui_icon_muradin_haymaker.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "MuradinHaymaker|MuradinHaymaker|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "MuradinHeroicAbilityHaymaker"
+        ]
+      },
+      {
+        "linkId": "MuradinExtraCharges|MuradinExtraCharges|Passive|Level20",
+        "talentId": "MuradinExtraCharges",
+        "buttonId": "MuradinExtraCharges",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_muradin_thunderclap_b.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      },
+      {
+        "linkId": "GenericTalentHardenedShield|HardenedShieldTalent|Active|Level20",
+        "talentId": "GenericTalentHardenedShield",
+        "buttonId": "HardenedShieldTalent",
+        "abilityId": "TalentHardenedShield",
+        "icon": "storm_ui_icon_talent_hardenedshield.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      }
+    ]
+  },
+  "sheet": "sheets/Muradin.png",
+  "icons": {
+    "storm_ui_icon_muradin_stormbolt.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_muradin_thunderclap.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_muradin_dwarftoss.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_muradin_avatar.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_muradin_haymaker.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_muradin_secondwind.png": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_mount.png": [
+      256,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      384,
+      128,
+      111,
+      71
+    ],
+    "storm_ui_icon_generic_cancel_mount.png": [
+      0,
+      256,
+      76,
+      48
+    ],
+    "storm_ui_icon_talent_imposingpresence.png": [
+      128,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_hardenedshield.png": [
+      256,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_autoattack_damage.png": [
+      384,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_muradin_thunderclap_b.png": [
+      0,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_autoattack_stun.png": [
+      128,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_burningrage.png": [
+      256,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_muradin_thunderclap_a.png": [
+      384,
+      384,
+      128,
+      128
+    ]
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "abilities": {
+    "MalthaelSoulRip|MalthaelSoulRip|Q": {
+      "cooldownText": "Temps de recharge : 2 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 25</s>",
+      "fullText": "Arrache l’âme des ennemis proches porteurs de la <c val=\"#MalthaelTrait\">marque du faucheur</c>, ce qui leur inflige <c val=\"#TooltipNumbers\">100</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts et rend <c val=\"#TooltipNumbers\">25</c><c val=\"#ColorGray\">~~0.04~~</c> points de vie à Malthaël par ennemi touché. Les cibles héroïques rendent à Mathaël un montant de points de vie supplémentaire équivalent à <c val=\"#TooltipNumbers\">4%</c> de leur maximum de points de vie.",
+      "name": "Moisson d’âmes",
+      "shortText": "Inflige des dégâts aux ennemis marqués et rend des points de vie à Malthaël."
+    },
+    "MalthaelWraithStrike|MalthaelWraithStrike|W": {
+      "cooldownText": "Temps de recharge : 5 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 30</s>",
+      "fullText": "Téléporte Malthaël instantanément derrière un ennemi porteur de la <c val=\"#MalthaelTrait\">marque du faucheur</c>, ce qui lui inflige <c val=\"#TooltipNumbers\">59</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts et réinitialise la durée de la <c val=\"#MalthaelTrait\">marque du faucheur</c>.",
+      "name": "Frappe éthérée",
+      "shortText": "Téléporte auprès d’une cible marquée."
+    },
+    "MalthaelDeathShroud|MalthaelDeathShroud|E": {
+      "cooldownText": "Temps de recharge : 8 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 50</s>",
+      "fullText": "Après <c val=\"#TooltipNumbers\">0.25</c> seconde, déchaîne une vague de ténèbres qui applique <c val=\"#MalthaelTrait\">Marque du faucheur</c> aux ennemis qu’elle traverse.",
+      "name": "Voile du faucheur",
+      "shortText": "Projette une vague qui applique Marque du faucheur."
+    },
+    "MalthaelTormentedSouls|MalthaelTormentedSouls|Heroic": {
+      "cooldownText": "Temps de recharge : 60 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 20</s>",
+      "fullText": "Déchaîne un torrent d’âmes qui applique continuellement <c val=\"#MalthaelTrait\">Marque du faucheur</c> aux ennemis proches pendant <c val=\"#TooltipNumbers\">4</c> secondes.<n/><n/>Tourment réinitialise le temps de recharge de Frappe éthérée lors de son activation et tant que Tourment est actif, Frappe éthérée ne coûte pas de mana et son temps de recharge est réduit à <c val=\"#TooltipNumbers\">2</c> secondes.",
+      "name": "Tourment",
+      "shortText": "Applique Marque du faucheur aux ennemis proches."
+    },
+    "MalthaelLastRites|MalthaelLastRites|Heroic": {
+      "cooldownText": "Temps de recharge :<sp/>70 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 100</s>",
+      "fullText": "Condamne à mort un héros adverse, ce qui lui inflige un montant de dégâts équivalent à <c val=\"#TooltipNumbers\">50%</c> de ses points de vie manquants après <c val=\"#TooltipNumbers\">2</c> secondes.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quête :</c> les ennemis condamnés par Extrême-onction tués dans les <c val=\"#TooltipNumbers\">1.5</c> secondes qui suivent l’application du sort, mais avant qu’ils ne subissent ses dégâts réduisent son temps de recharge de manière permanente de <c val=\"#TooltipNumbers\">5</c> secondes, jusqu’à un minimum de <c val=\"#TooltipNumbers\">20</c> secondes.",
+      "name": "Extrême-onction",
+      "shortText": "<c val=\"#TooltipQuest\">Quête :</c> inflige à un héros des dégâts fonction de ses points de vie manquants."
+    },
+    ":PASSIVE:|MalthaelReapersMark|Trait": {
+      "fullText": "Les attaques de base frappent les ennemis dans une zone devant Malthaël et appliquent <c val=\"#MalthaelTrait\">Marque du faucheur</c> aux unités autres que les bâtiments pendant <c val=\"#TooltipNumbers\">4</c> secondes. Les ennemis marqués sont révélés et subissent un montant de dégâts équivalent à <c val=\"#TooltipNumbers\">2 %</c> de leur maximum de points de vie toutes les <c val=\"#TooltipNumbers\">1</c> seconde.",
+      "name": "Marque du faucheur",
+      "shortText": "Les attaques de base infligent des dégâts de zone et appliquent Marque du faucheur."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Temps de recharge : 4 secondes",
+      "fullText": "Après <c val=\"#TooltipNumbers\">1</c> seconde de canalisation, augmente la vitesse de déplacement de <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Appeler une monture"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Après <c val=\"#TooltipNumbers\">6</c> secondes de canalisation, téléporte au hall des Tempêtes et rend instantanément <c val=\"#TooltipNumbers\">1125</c> points de vie et <c val=\"#TooltipNumbers\">150</c> points de mana.",
+      "name": "Pierre de foyer"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Permet de descendre de la monture.",
+      "name": "Renvoyer la monture"
+    },
+    "MalthaelFearTheReaper|MalthaelFearTheReaper|Active": {
+      "cooldownText": "Temps de recharge : 25 secondes",
+      "fullText": "Augmente la vitesse de déplacement de <c val=\"#TooltipNumbers\">25%</c> et permet de traverser les autres unités pendant <c val=\"#TooltipNumbers\">4</c> secondes.",
+      "name": "À tombeau ouvert",
+      "shortText": "Augmente la vitesse de déplacement."
+    },
+    "MalthaelTouchOfDeath|MalthaelTouchOfDeath|Active": {
+      "cooldownText": "Temps de recharge : 20 secondes",
+      "fullText": "Réduit les soins reçus par les héros porteurs de la <c val=\"#MalthaelTrait\">marque du faucheur</c> de <c val=\"#TooltipNumbers\">50%</c> pendant <c val=\"#TooltipNumbers\">4</c> secondes.",
+      "name": "Toucher de la mort",
+      "shortText": "Réduit les soins reçus par l’adversaire à l’activation."
+    },
+    "MalthaelInevitableEnd|MalthaelInevitableEnd|Active": {
+      "cooldownText": "Temps de recharge : 20 secondes",
+      "fullText": "Rend insensible aux effets de contrôle pendant <c val=\"#TooltipNumbers\">2</c> secondes, mais dissipe toutes les <c val=\"#MalthaelTrait\">marques du faucheur</c> actives.",
+      "name": "Fin inéluctable",
+      "shortText": "Rend insensible, mais dissipe les marques du faucheur."
+    },
+    "MalthaelShroudOfWisdom|MalthaelShroudOfWisdom|Active": {
+      "cooldownText": "Temps de recharge : 20 secondes",
+      "fullText": "Après <c val=\"#TooltipNumbers\">2</c> secondes, confère <c val=\"#TooltipNumbers\">50</c> points d’armure anti-sort pendant <c val=\"#TooltipNumbers\">4</c> secondes.",
+      "name": "Linceul de sagesse",
+      "shortText": "Confère de l’armure anti-sort."
+    },
+    "MalthaelNoOneCanStopDeath|MalthaelNoOneCanStopDeath|Active": {
+      "cooldownText": "Temps de recharge : 180 secondes",
+      "fullText": "Si Malthaël est mort, l’activation le ressuscite immédiatement au hall des Tempêtes, mais augmente le temps de sa prochaine réapparition de <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Nul ne peut arrêter la mort.",
+      "shortText": "Ressuscite instantanément."
+    }
+  },
+  "talents": {
+    "MalthaelDeathsReach|MalthaelDeathsReach|W|Level1": {
+      "fullText": "Augmente la portée de Frappe éthérée de <c val=\"#TooltipNumbers\">35 %</c>.",
+      "name": "Pas d’échappatoire",
+      "shortText": "Augmente la portée de Frappe éthérée"
+    },
+    "MalthaelOnAPaleHorse|MalthaelOnAPaleHorse|Passive|Level1": {
+      "fullText": "Augmente la vitesse de déplacement sur monture de <c val=\"#TooltipNumbers\">20%</c>.",
+      "name": "Haridelle",
+      "shortText": "Augmente la vitesse de déplacement sur monture."
+    },
+    "MalthaelFearTheReaper|MalthaelFearTheReaper|Active|Level1": {
+      "cooldownText": "Temps de recharge : 25 secondes",
+      "fullText": "Augmente la vitesse de déplacement de <c val=\"#TooltipNumbers\">25%</c> et permet de traverser les autres unités pendant <c val=\"#TooltipNumbers\">4</c> secondes.",
+      "name": "À tombeau ouvert",
+      "shortText": "Augmente la vitesse de déplacement."
+    },
+    "MalthaelDieAlone|MalthaelDieAlone|Q|Level4": {
+      "fullText": "Moisson d’âmes inflige <c val=\"#TooltipNumbers\">50%</c> de dégâts supplémentaires au héros touché si elle ne touche que lui.",
+      "name": "Face à la mort",
+      "shortText": "Augmente les dégâts que Moisson d’âmes inflige à une cible unique."
+    },
+    "MalthaelThrowingShade|MalthaelThrowingShade|E|Level4": {
+      "fullText": "Augmente la portée de Voile du faucheur de <c val=\"#TooltipNumbers\">33%</c>, réduit son temps de recharge de <c val=\"#TooltipNumbers\">3</c> secondes et réduit son coût en mana de <c val=\"#TooltipNumbers\">50</c> à <c val=\"#TooltipNumbers\">30</c> points.<n/><n/>L’impact initial de Voile du faucheur inflige aux ennemis autres que les bâtiments un montant de dégâts équivalent à <c val=\"#TooltipNumbers\">2%</c> de leur maximum de points de vie.",
+      "name": "Ombre projetée",
+      "shortText": "Augmente la portée de Voile du faucheur et réduit son temps de recharge."
+    },
+    "MalthaelBlackHarvest|MalthaelBlackHarvest|Trait|Level4": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quête :</c> appliquer <c val=\"#MalthaelTrait\">Marque du faucheur</c> aux héros pendant un total de <c val=\"#TooltipNumbers\">150</c> secondes.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Récompense :</c> augmente de manière permanente la durée de <c val=\"#MalthaelTrait\">Marque du faucheur</c> de <c val=\"#TooltipNumbers\">2</c> secondes.",
+      "name": "Jugement dernier",
+      "shortText": "<c val=\"#TooltipQuest\">Quête :</c> augmente la durée de Marque du faucheur."
+    },
+    "MalthaelColdHand|MalthaelColdHand|Q|Level7": {
+      "fullText": "Moisson d’âmes ralentit les ennemis de <c val=\"#TooltipNumbers\">20%</c> pendant <c val=\"#TooltipNumbers\">2.5</c> secondes.",
+      "name": "Rigidité",
+      "shortText": "Moisson d’âmes ralentit."
+    },
+    "MalthaelMassacre|MalthaelMassacre|W|Level7": {
+      "fullText": "Frappe éthérée inflige des dégâts aux ennemis proches de sa cible et leur applique <c val=\"#MalthaelTrait\">Marque du faucheur</c>.",
+      "name": "Hécatombe",
+      "shortText": "Frappe éthérée inflige des dégâts de zone."
+    },
+    "MalthaelTouchOfDeath|MalthaelTouchOfDeath|Active|Level7": {
+      "cooldownText": "Temps de recharge : 20 secondes",
+      "fullText": "Réduit les soins reçus par les héros porteurs de la <c val=\"#MalthaelTrait\">marque du faucheur</c> de <c val=\"#TooltipNumbers\">50%</c> pendant <c val=\"#TooltipNumbers\">4</c> secondes.",
+      "name": "Toucher de la mort",
+      "shortText": "Réduit les soins reçus par l’adversaire à l’activation."
+    },
+    "MalthaelTormentedSouls|MalthaelTormentedSouls|Heroic|Level10": {
+      "cooldownText": "Temps de recharge : 60 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 20</s>",
+      "fullText": "Déchaîne un torrent d’âmes qui applique continuellement <c val=\"#MalthaelTrait\">Marque du faucheur</c> aux ennemis proches pendant <c val=\"#TooltipNumbers\">4</c> secondes.<n/><n/>Tourment réinitialise le temps de recharge de Frappe éthérée lors de son activation et tant que Tourment est actif, Frappe éthérée ne coûte pas de mana et son temps de recharge est réduit à <c val=\"#TooltipNumbers\">2</c> secondes.",
+      "name": "Tourment",
+      "shortText": "Applique Marque du faucheur aux ennemis proches."
+    },
+    "MalthaelLastRites|MalthaelLastRites|Heroic|Level10": {
+      "cooldownText": "Temps de recharge :<sp/>70 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 100</s>",
+      "fullText": "Condamne à mort un héros adverse, ce qui lui inflige un montant de dégâts équivalent à <c val=\"#TooltipNumbers\">50%</c> de ses points de vie manquants après <c val=\"#TooltipNumbers\">2</c> secondes.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quête :</c> les ennemis condamnés par Extrême-onction tués dans les <c val=\"#TooltipNumbers\">1.5</c> secondes qui suivent l’application du sort, mais avant qu’ils ne subissent ses dégâts réduisent son temps de recharge de manière permanente de <c val=\"#TooltipNumbers\">5</c> secondes, jusqu’à un minimum de <c val=\"#TooltipNumbers\">20</c> secondes.",
+      "name": "Extrême-onction",
+      "shortText": "<c val=\"#TooltipQuest\">Quête :</c> inflige à un héros des dégâts fonction de ses points de vie manquants."
+    },
+    "MalthaelSoulSiphon|MalthaelSoulSiphon|Q|Level13": {
+      "fullText": "Porte l’effet de soin de Moisson d’âmes à <c val=\"#TooltipNumbers\">4.75 %</c> du maximum de points de vie du héros.",
+      "name": "Absorption",
+      "shortText": "Augmente l’effet de soin de Moisson d’âmes."
+    },
+    "MalthaelEtherealExistence|MalthaelEtherealExistence|Trait|Level13": {
+      "fullText": "Confère <c val=\"#TooltipNumbers\">10</c> points d’armure physique par héros adverse porteur de la <c val=\"#MalthaelTrait\">marque du faucheur</c>, jusqu’à un maximum de <c val=\"#TooltipNumbers\">30</c> points.",
+      "name": "Évanescence",
+      "shortText": "Les cibles marquées confèrent de l’armure physique."
+    },
+    "MalthaelInevitableEnd|MalthaelInevitableEnd|Active|Level13": {
+      "cooldownText": "Temps de recharge : 20 secondes",
+      "fullText": "Rend insensible aux effets de contrôle pendant <c val=\"#TooltipNumbers\">2</c> secondes, mais dissipe toutes les <c val=\"#MalthaelTrait\">marques du faucheur</c> actives.",
+      "name": "Fin inéluctable",
+      "shortText": "Rend insensible, mais dissipe les marques du faucheur."
+    },
+    "MalthaelShroudOfWisdom|MalthaelShroudOfWisdom|Active|Level13": {
+      "cooldownText": "Temps de recharge : 20 secondes",
+      "fullText": "Après <c val=\"#TooltipNumbers\">2</c> secondes, confère <c val=\"#TooltipNumbers\">50</c> points d’armure anti-sort pendant <c val=\"#TooltipNumbers\">4</c> secondes.",
+      "name": "Linceul de sagesse",
+      "shortText": "Confère de l’armure anti-sort."
+    },
+    "MalthaelSoulCollector|MalthaelSoulCollector|Q|Level16": {
+      "fullText": "Réduit le temps de recharge de Moisson d’âmes de <c val=\"#TooltipNumbers\">0.5</c> seconde et en augmente la portée de <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Creuset",
+      "shortText": "Augmente la portée de Moisson d’âmes et réduit son temps de recharge."
+    },
+    "MalthaelMortality|MalthaelMortality|W|Level16": {
+      "fullText": "Quand Frappe éthérée touche un héros, elle lui inflige un montant de dégâts supplémentaires équivalent à <c val=\"#TooltipNumbers\">8%</c> de son maximum de points de vie.",
+      "name": "Mortalité",
+      "shortText": "Frappe éthérée inflige un surplus de dégâts aux héros."
+    },
+    "MalthaelMementoMori|MalthaelMementoMori|Trait|Level16": {
+      "fullText": "<c val=\"#MalthaelTrait\">Marque du faucheur</c> inflige <c val=\"#TooltipNumbers\">60%</c> de dégâts supplémentaires aux ennemis marqués pendant plus de <c val=\"#TooltipNumbers\">4</c> secondes.",
+      "name": "Memento Mori",
+      "shortText": "Les dégâts de Marque du faucheur augmentent sur la durée."
+    },
+    "MalthaelReaperOfSouls|MalthaelReaperOfSouls|Heroic|Level20": {
+      "fullText": "Porte la durée de Tourment à <c val=\"#TooltipNumbers\">6</c> secondes, et tant que Tourment est actif, les éliminations réinitialisent sa durée.<n/><n/>Si <c val=\"#TooltipNumbers\">2</c> héros adverses ou plus se trouvent dans le rayon de Tourment, sa durée ne décroît pas.",
+      "name": "Faucheur d’âmes",
+      "shortText": "Prolonge la durée de Tourment"
+    },
+    "MalthaelAngelOfDeath|MalthaelAngelOfDeath|Heroic|Level20": {
+      "fullText": "Extrême-onction rend <c val=\"#TooltipNumbers\">100%</c> des dégâts infligés sous forme de points de vie et ses bonus à la réduction du temps de recharge actuels et à venir, sont doublés.",
+      "name": "Ange de la mort",
+      "shortText": "Extrême-onction rend des points de vie."
+    },
+    "MalthaelFinalCurtain|MalthaelFinalCurtain|E|Level20": {
+      "fullText": "Voile du faucheur laisse un sillage qui dure <c val=\"#TooltipNumbers\">4</c> secondes et qui applique <c val=\"#MalthaelTrait\">Marque du faucheur</c> aux ennemis à proximité.",
+      "name": "Drap mortuaire",
+      "shortText": "Voile du faucheur laisse un sillage persistant."
+    },
+    "MalthaelNoOneCanStopDeath|MalthaelNoOneCanStopDeath|Active|Level20": {
+      "cooldownText": "Temps de recharge : 180 secondes",
+      "fullText": "Si Malthaël est mort, l’activation le ressuscite immédiatement au hall des Tempêtes, mais augmente le temps de sa prochaine réapparition de <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Nul ne peut arrêter la mort.",
+      "shortText": "Ressuscite instantanément."
+    }
+  },
+  "units": {}
+}

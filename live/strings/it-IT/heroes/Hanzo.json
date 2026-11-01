@@ -1,0 +1,181 @@
+{
+  "abilities": {
+    "HanzoStormBowFireTargetPoint|HanzoStormBow|Q": {
+      "cooldownText": "Recupero: 4 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 20</s>",
+      "fullText": "All'attivazione carica una freccia che infligge <c val=\"#TooltipNumbers\">291</c><c val=\"#ColorGray\">~~0.04~~</c> danni al primo nemico colpito. La portata di Arco della Tempesta aumenta per ogni secondo di incanalamento.",
+      "name": "Arco della Tempesta",
+      "shortText": "Carica l'abilità per scoccare una freccia letale."
+    },
+    "HanzoScatterArrow|HanzoScatterArrow|W": {
+      "cooldownText": "Recupero: 8 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Scocca una freccia che infligge <c val=\"#TooltipNumbers\">88</c><c val=\"#ColorGray\">~~0.04~~</c> danni al primo nemico colpito. Freccia Infida può colpire ostacoli e strutture, dividendosi in <c val=\"#TooltipNumbers\">5</c> frecce che coprono ulteriore distanza, rimbalzano fino a <c val=\"#TooltipNumbers\">4</c> volte aggiuntive e infliggono <c val=\"#TooltipNumbers\">88</c><c val=\"#ColorGray\">~~0.04~~</c> danni al primo nemico colpito ciascuna.",
+      "name": "Freccia Infida",
+      "shortText": "Scocca una freccia che rimbalza e si divide."
+    },
+    "HanzoSonicArrow|HanzoSonicArrow|E": {
+      "cooldownText": "Recupero: 20 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Scocca una freccia che fornisce visuale su un'ampia area per <c val=\"#TooltipNumbers\">5</c> s. I nemici all'interno sono rivelati per <c val=\"#TooltipNumbers\">1</c> s. Se Freccia Sonica colpisce direttamente un nemico, infligge <c val=\"#TooltipNumbers\">165</c><c val=\"#ColorGray\">~~0.04~~</c> danni e lo segue nei suoi spostamenti.",
+      "name": "Freccia Sonica",
+      "shortText": "Rivela un'ampia area."
+    },
+    "HanzoDragonstrike|HanzoDragonstrike|Heroic": {
+      "cooldownText": "Recupero: 60 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Dopo <c val=\"#TooltipNumbers\">1.5</c> s, evoca due Draghi Spiritici che avanzano, infliggendo <c val=\"#TooltipNumbers\">84</c><c val=\"#ColorGray\">~~0.04~~</c> danni ogni <c val=\"#TooltipNumbers\">0,25</c> s agli eroi nemici colpiti. I nemici nell'area centrale subiscono il <c val=\"#TooltipNumbers\">75%</c> di danni aggiuntivi.",
+      "name": "Assalto del Drago",
+      "shortText": "Evoca due Draghi Spiritici che danneggiano i nemici."
+    },
+    "HanzoDragonsArrow|HanzoDragonsArrow|Heroic": {
+      "cooldownText": "Recupero: 70 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 90</s>",
+      "fullText": "Scocca una freccia che attraversa il campo di battaglia. Quando colpisce un eroe nemico, esplode, infliggendo <c val=\"#TooltipNumbers\">130</c><c val=\"#ColorGray\">~~0.04~~</c> danni a tutti i nemici vicini e stordendoli per <c val=\"#TooltipNumbers\">0.5</c> s.<n/><n/>Dopo aver coperto una distanza media, i danni aumentano a <c val=\"#TooltipNumbers\">260</c><c val=\"#ColorGray\">~~0.04~~</c> e la durata dello stordimento a <c val=\"#TooltipNumbers\">1.25</c> s.<n/><n/>Dopo aver coperto una lunga distanza, i danni aumentano a <c val=\"#TooltipNumbers\">390</c><c val=\"#ColorGray\">~~0.04~~</c> e la durata dello stordimento a <c val=\"#TooltipNumbers\">2</c> s.",
+      "name": "Freccia del Drago",
+      "shortText": "Scocca una freccia con portata globale che danneggia e stordisce i nemici."
+    },
+    "HanzoNaturalAgilityButton|HanzoNaturalAgility|Trait": {
+      "cooldownText": "Recupero: 25 s",
+      "fullText": "Supera con un salto ostacoli o strutture entro la portata massima.",
+      "name": "Agilità Naturale",
+      "shortText": "Salta oltre gli ostacoli."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Recupero: 4 s",
+      "fullText": "Dopo un incanalamento di <c val=\"#TooltipNumbers\">1</c> s, aumenta del <s val=\"StandardTooltipDetails\">30%</s> la velocità di movimento.",
+      "name": "Cavalcatura"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Dopo un incanalamento di <c val=\"#TooltipNumbers\">6</c> s, teletrasporta l'eroe nella Sala delle Tempeste, rigenerando all'istante <c val=\"#TooltipNumbers\">1125</c> Salute e <c val=\"#TooltipNumbers\">150</c> Mana.",
+      "name": "Pietra del Ritorno"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Congeda la cavalcatura.",
+      "name": "Congeda cavalcatura"
+    },
+    "HanzoPOTG|HanzoPOTGActivate|Heroic": {
+      "fullText": "All'attivazione Hanzo si teletrasporta nella posizione della Freccia del Drago.",
+      "name": "Azione Migliore"
+    }
+  },
+  "talents": {
+    "HanzoTargetPractice|HanzoTargetPractice|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Missione:</c> Colpisci ogni eroe nemico con Arco della Tempesta.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Ricompensa:</c> Dopo aver colpito ogni eroe nemico una volta con Arco della Tempesta, la sua portata è estesa del <c val=\"#TooltipNumbers\">30%</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Ricompensa:</c> Dopo aver colpito ogni eroe nemico <c val=\"#TooltipNumbers\">3</c> volte con Arco della Tempesta, i suoi danni aumentano di <c val=\"#TooltipNumbers\">100</c>.",
+      "name": "Tiro al Bersaglio",
+      "shortText": "<c val=\"#TooltipQuest\">Missione:</c> Colpisci tutti gli eroi nemici per potenziare Arco della Tempesta."
+    },
+    "HanzoSimpleGeometry|HanzoSimpleGeometry|W|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Missione:</c> Colpisci un eroe con diverse frecce della stessa attivazione di Freccia Infida per <c val=\"#TooltipNumbers\">20</c> volte. Ogni freccia dopo la seconda fornisce progressi aggiuntivi.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Ricompensa:</c> Dopo aver colpito ostacoli per la prima volta, Freccia Infida crea <c val=\"#TooltipNumbers\">2</c> frecce aggiuntive.",
+      "name": "Geometria Elementare",
+      "shortText": "<c val=\"#TooltipQuest\">Missione:</c> Ottieni Frecce Infide aggiuntive."
+    },
+    "HanzoRedemption|HanzoRedemption|Passive|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Missione:</c> Ogni <c val=\"#TooltipNumbers\">2</c> attacchi base contro lo stesso eroe entro <c val=\"#TooltipNumbers\">10</c> s fornisce <c val=\"#TooltipNumbers\">1</c> Redenzione, fino a un massimo di <c val=\"#TooltipNumbers\">12</c>. Morire riduce Redenzione di <c val=\"#TooltipNumbers\">3</c>. Redenzione può essere persa anche quando è al massimo.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Ricompensa:</c> A <c val=\"#TooltipNumbers\">12</c> Redenzione, aumenta del <c val=\"#TooltipNumbers\">50%</c> la velocità d'attacco.",
+      "name": "Redenzione",
+      "shortText": "<c val=\"#TooltipQuest\">Missione:</c> Colpire eroi aumenta la velocità d'attacco."
+    },
+    "HanzoExplosiveArrows|HanzoExplosiveArrows|Q|Level4": {
+      "fullText": "Quando colpisce un servitore o un mostro, Arco della Tempesta infligge il <c val=\"#TooltipNumbers\">60%</c> dei danni ai nemici attorno al bersaglio.",
+      "name": "Frecce Esplosive",
+      "shortText": "Le frecce di Arco della Tempesta esplodono su servitori e mostri."
+    },
+    "HanzoSerratedArrows|HanzoSerratedArrows|W|Level4": {
+      "fullText": "Freccia Infida infligge il <c val=\"#TooltipNumbers\">100%</c> di danni aggiuntivi a servitori, mercenari e mostri.",
+      "name": "Frecce Implacabili",
+      "shortText": "Freccia Infida infligge danni aggiuntivi ai nemici diversi dagli eroi."
+    },
+    "HanzoIgnoreAllDistractions|HanzoIgnoreAllDistractions|Passive|Level4": {
+      "fullText": "Gli attacchi base uccidono i servitori all'istante e la loro portata è estesa di <c val=\"#TooltipNumbers\">2</c> per <c val=\"#TooltipNumbers\">3</c> s.",
+      "name": "Nessuna Distrazione",
+      "shortText": "Gli attacchi base uccidono all'istante i servitori e hanno portata estesa."
+    },
+    "HanzoTheDragonHungers|HanzoTheDragonHungers|Q|Level7": {
+      "fullText": "Colpire un eroe con Arco della Tempesta fornisce un bonus del <c val=\"#TooltipNumbers\">5%</c> alla Potenza magica per <c val=\"#TooltipNumbers\">12</c> s, fino a un massimo del <c val=\"#TooltipNumbers\">20%</c>.",
+      "name": "Fame del Drago",
+      "shortText": "Arco della Tempesta aumenta la Potenza magica."
+    },
+    "HanzoNeverOutmatched|HanzoNeverOutmatched|W|Level7": {
+      "fullText": "Riduce il costo in Mana di Freccia Infida da <c val=\"#TooltipNumbers\">50</c> a <c val=\"#TooltipNumbers\">30</c>. Gli attacchi base contro gli eroi riducono il tempo di recupero di Freccia Infida di <c val=\"#TooltipNumbers\">3</c> s.",
+      "name": "Prontezza Costante",
+      "shortText": "Gli attacchi base riducono il tempo di recupero di Freccia Infida."
+    },
+    "HanzoSharpenedArrowheads|HanzoSharpenedArrowheads|Passive|Level7": {
+      "fullText": "Colpire eroi con Arco della Tempesta o con gli attacchi base riduce la loro Resistenza di <c val=\"#TooltipNumbers\">3</c> per <c val=\"#TooltipNumbers\">3</c> s, fino a una riduzione massima di <c val=\"#TooltipNumbers\">20</c>.",
+      "name": "Punte Affilate",
+      "shortText": "Arco della Tempesta e gli attacchi base riducono la Resistenza."
+    },
+    "HanzoDragonstrike|HanzoDragonstrike|Heroic|Level10": {
+      "cooldownText": "Recupero: 60 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Dopo <c val=\"#TooltipNumbers\">1.5</c> s, evoca due Draghi Spiritici che avanzano, infliggendo <c val=\"#TooltipNumbers\">84</c><c val=\"#ColorGray\">~~0.04~~</c> danni ogni <c val=\"#TooltipNumbers\">0,25</c> s agli eroi nemici colpiti. I nemici nell'area centrale subiscono il <c val=\"#TooltipNumbers\">75%</c> di danni aggiuntivi.",
+      "name": "Assalto del Drago",
+      "shortText": "Evoca due Draghi Spiritici che danneggiano i nemici."
+    },
+    "HanzoDragonsArrow|HanzoDragonsArrow|Heroic|Level10": {
+      "cooldownText": "Recupero: 70 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 90</s>",
+      "fullText": "Scocca una freccia che attraversa il campo di battaglia. Quando colpisce un eroe nemico, esplode, infliggendo <c val=\"#TooltipNumbers\">130</c><c val=\"#ColorGray\">~~0.04~~</c> danni a tutti i nemici vicini e stordendoli per <c val=\"#TooltipNumbers\">0.5</c> s.<n/><n/>Dopo aver coperto una distanza media, i danni aumentano a <c val=\"#TooltipNumbers\">260</c><c val=\"#ColorGray\">~~0.04~~</c> e la durata dello stordimento a <c val=\"#TooltipNumbers\">1.25</c> s.<n/><n/>Dopo aver coperto una lunga distanza, i danni aumentano a <c val=\"#TooltipNumbers\">390</c><c val=\"#ColorGray\">~~0.04~~</c> e la durata dello stordimento a <c val=\"#TooltipNumbers\">2</c> s.",
+      "name": "Freccia del Drago",
+      "shortText": "Scocca una freccia con portata globale che danneggia e stordisce i nemici."
+    },
+    "HanzoFleetofFoot|HanzoFleetofFoot|Q|Level13": {
+      "fullText": "Colpire un eroe con Arco della Tempesta aumenta del <c val=\"#TooltipNumbers\">10%</c> la velocità di movimento per <c val=\"#TooltipNumbers\">6</c> s, fino a un massimo del <c val=\"#TooltipNumbers\">30%</c>.",
+      "name": "Ali ai Piedi",
+      "shortText": "Arco della Tempesta aumenta la velocità di movimento."
+    },
+    "HanzoNinjaAssassin|HanzoNinjaAssassin|Trait|Level13": {
+      "fullText": "Colpire eroi con Arco della Tempesta riduce il tempo di recupero di Agilità Naturale di <c val=\"#TooltipNumbers\">10</c> s. Uccidere eroi azzera il tempo di recupero di Agilità Naturale.",
+      "name": "Assassino Ninja",
+      "shortText": "Arco della Tempesta riduce il tempo di recupero di Agilità Naturale."
+    },
+    "HanzoMountedArchery|HanzoMountedArchery|Passive|Level13": {
+      "fullText": "Riduce il tempo di recupero di Cavalcatura di <c val=\"#TooltipNumbers\">2</c> s. Montare in sella aumenta del <c val=\"#TooltipNumbers\">25%</c> la velocità di movimento su cavalcatura per <c val=\"#TooltipNumbers\">5</c> s. Agilità Naturale evoca all'istante la cavalcatura.",
+      "name": "Arciere Equestre",
+      "shortText": "Aumenta la velocità su cavalcatura e consente di evocarla attivando Agilità Naturale."
+    },
+    "HanzoFlawlessTechnique|HanzoFlawlessTechnique|Passive|Level16": {
+      "fullText": "Colpire eroi con Arco della Tempesta aumenta i danni del successivo attacco base di Hanzo entro <c val=\"#TooltipNumbers\">5</c> s del <c val=\"#TooltipNumbers\">40%</c>. Gli attacchi base contro gli eroi aumentano i danni del successivo utilizzo di Arco della Tempesta entro <c val=\"#TooltipNumbers\">5</c> s del <c val=\"#TooltipNumbers\">40%</c>.",
+      "name": "Tecnica Perfetta",
+      "shortText": "Arco della Tempesta e gli attacchi base si potenziano a vicenda."
+    },
+    "HanzoPiercingArrows|HanzoPiercingArrows|Passive|Level16": {
+      "fullText": "Arco della Tempesta e Freccia Infida trapassano i bersagli, colpendo un nemico aggiuntivo. Inoltre, Freccia Infida può trapassare <c val=\"#TooltipNumbers\">1</c> nemico ogni volta che rimbalza.",
+      "name": "Frecce Perforanti",
+      "shortText": "Arco della Tempesta e Freccia Infida trapassano i nemici."
+    },
+    "HanzoGiantSlayer|HanzoGiantSlayer|Passive|Level16": {
+      "fullText": "Gli eroi nemici colpiti da Freccia Infida e dagli attacchi base subiscono danni aggiuntivi pari al <c val=\"#TooltipNumbers\">1.6%</c> della loro Salute massima.",
+      "name": "Ammazzagiganti",
+      "shortText": "Gli attacchi base e Freccia Infida infliggono danni aggiuntivi."
+    },
+    "HanzoTheDragonAwakens|HanzoTheDragonAwakens|Heroic|Level20": {
+      "fullText": "Colpire un eroe con Arco della Tempesta, Freccia Infida o con gli attacchi base riduce il tempo di recupero di Assalto del Drago di <c val=\"#TooltipNumbers\">4</c> s.",
+      "name": "Risveglio del Drago",
+      "shortText": "Le abilità e gli attacchi riducono il tempo di recupero di Assalto del Drago."
+    },
+    "HanzoPOTG|HanzoPOTG|Heroic|Level20": {
+      "fullText": "Durante il volo o fino a <c val=\"#TooltipNumbers\">2</c> s dopo l'impatto con un bersaglio, è possibile riattivare Freccia del Drago per teletrasportarsi alla sua posizione e tornare indietro. Se viene attivato dopo l'impatto, Hanzo scocca delle frecce che infliggono <c val=\"#TooltipNumbers\">132</c><c val=\"#ColorGray\">~~0.04~~</c> danni a ogni bersaglio colpito dall'impatto.<n/><n/>Hanzo è inarrestabile durante Azione Migliore.",
+      "name": "Azione Migliore",
+      "shortText": "L'attivazione consente di teletrasportarsi sulla posizione della Freccia del Drago."
+    },
+    "HanzoBullseye|HanzoBullseye|E|Level20": {
+      "fullText": "Aumenta la velocità di Freccia Sonica ed estende la sua area centrale del <c val=\"#TooltipNumbers\">100%</c>. Inoltre, gli eroi colpiti dall'area centrale di Freccia Sonica sono storditi per <c val=\"#TooltipNumbers\">1</c> s.",
+      "name": "Centro Perfetto",
+      "shortText": "Freccia Sonica si muove più velocemente e stordisce i nemici."
+    },
+    "HanzoPerfectAgility|HanzoPerfectAgility|Trait|Level20": {
+      "fullText": "Agilità Naturale ottiene una <c val=\"#TooltipNumbers\">2°</c> carica, e il suo tempo di recupero è ridotto di <c val=\"#TooltipNumbers\">10</c> s.",
+      "name": "Agilità Perfetta",
+      "shortText": "Fornisce una carica di Agilità Naturale e riduce il tempo di recupero."
+    }
+  },
+  "units": {
+    "HanzoDragonstrikeController": {
+      "name": "Assalto del Drago - Controllo"
+    },
+    "HanzoDragonstrikeSoundUnit": {
+      "name": "Assalto del Drago - Suono unità"
+    }
+  }
+}

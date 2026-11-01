@@ -1,0 +1,191 @@
+{
+  "abilities": {
+    "ZaryaParticleGrenade|ZaryaParticleGrenade|Q": {
+      "cooldownText": "Ladungsabklingzeit: 8 Sek.",
+      "fullText": "Feuert eine Partikelgranate auf ein Zielgebiet, die Gegnern innerhalb des Wirkungsbereichs <c val=\"#TooltipNumbers\">80</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zufügt. Fügt Gebäuden <c val=\"#TooltipNumbers\">50%</c> des Schadens zu.<n/><n/>Maximal <c val=\"#TooltipNumbers\">4</c> Aufladungen.",
+      "name": "Partikelgranate",
+      "shortText": "Fügt Gegnern in einem kleinen Bereich Schaden zu."
+    },
+    "ZaryaPersonalBarrier|ZaryaPersonalBarrier|W": {
+      "cooldownText": "Abklingzeit: 10 Sek.",
+      "fullText": "Gewährt einen Schild, der <c val=\"#TooltipNumbers\">3</c> Sek. lang anhält und <c val=\"#TooltipNumbers\">560</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden absorbiert.",
+      "name": "Persönliche Barriere",
+      "shortText": "Gewährt einen Schild, der Schaden absorbiert."
+    },
+    "ZaryaShieldAlly|ZaryaShieldAlly|E": {
+      "cooldownText": "Abklingzeit: 12 Sek.",
+      "fullText": "Gewährt einem verbündeten Helden einen Schild, der <c val=\"#TooltipNumbers\">3</c> Sek. lang anhält und bis zu <c val=\"#TooltipNumbers\">420</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden absorbiert.",
+      "name": "Projizierte Barriere",
+      "shortText": "Gewährt einem Verbündeten einen Schild, der Schaden absorbiert."
+    },
+    "ZaryaGravitonSurge|ZaryaGravitonSurge|Heroic": {
+      "cooldownText": "Abklingzeit: 60 Sek.",
+      "fullText": "Feuert eine Gravitonbombe ab, die nach <c val=\"#TooltipNumbers\">1</c> Sek. zündet und gegnerische Helden <c val=\"#TooltipNumbers\">2,5</c> Sek. lang zum Einschlagzentrum zieht. Betroffene Helden erleiden pro Sekunde <c val=\"#TooltipNumbers\">30</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden.",
+      "name": "Gravitonbombe",
+      "shortText": "Feuert eine Gravitonbombe ab, die Gegner anzieht."
+    },
+    "ZaryaExpulsionZone|ZaryaExpulsionZone|Heroic": {
+      "cooldownText": "Abklingzeit: 45 Sek.",
+      "fullText": "Feuert eine Gravitonbombe auf ein Zielgebiet ab, die <c val=\"#TooltipNumbers\">124</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden verursacht und ein Rückstoßfeld erzeugt, das <c val=\"#TooltipNumbers\">3.5</c> Sek. lang anhält. Das Feld stößt Gegner zurück und verringert ihre Bewegungsgeschwindigkeit <c val=\"#TooltipNumbers\">1</c> Sek. lang um <c val=\"#TooltipNumbers\">50%</c>.",
+      "name": "Sperrgebiet",
+      "shortText": "Feuert eine Bombe ab, die Gegner kontinuierlich wegstößt."
+    },
+    ":PASSIVE:|ZaryaEnergy|Trait": {
+      "fullText": "Jedes Mal, wenn Zaryas Persönliche oder Projizierte Barriere <c val=\"#TooltipNumbers\">9</c><c val=\"#ColorGray\">~~0.04~~</c> Schadenspunkte absorbiert, wird ihre Energie um <c val=\"#TooltipNumbers\">1</c> erhöht. Energie erhöht Zaryas Schaden um <c val=\"#TooltipNumbers\">2%</c> pro Energiepunkt. Energie verfällt nach einer Verzögerung von <c val=\"#TooltipNumbers\">0.5</c> Sek. um <c val=\"#TooltipNumbers\">3</c> pro Sekunde.",
+      "name": "Energie",
+      "shortText": "Schaden, der von Zaryas Barrieren absorbiert wird, erhöht ihren Schaden."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Abklingzeit: 4 Sek.",
+      "fullText": "Erhöht die Bewegungsgeschwindigkeit nach <c val=\"#TooltipNumbers\">1</c> Sek. Kanalisierung um <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Aufsitzen"
+    },
+    "Hearthstone|HearthstoneNoMana|B": {
+      "fullText": "Kanalisiert <c val=\"#TooltipNumbers\">6</c> Sek. lang und teleportiert sich dann zurück zum Altar der Stürme. Dabei werden sofort <c val=\"#TooltipNumbers\">1125</c> Lebenspunkte wiederhergestellt.",
+      "name": "Ruhestein"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Sitzt ab.",
+      "name": "Absitzen"
+    },
+    "ZaryaPainIsTemporary|ZaryaPainIsTemporaryTalent|Active": {
+      "cooldownText": "Abklingzeit: 30 Sek.",
+      "fullText": "Aktivieren, um alle Energie zu verbrauchen und einen Schild zu erhalten, der pro verbrauchtem Energiepunkt <c val=\"#TooltipNumbers\">0,8%</c> von Zaryas maximalen Lebenspunkten absorbiert und <c val=\"#TooltipNumbers\">3</c> Sek. lang anhält. Zarya kann gleichzeitig nur einen persönlichen Schild auf sich aktiv haben.",
+      "name": "Schmerz ist vergänglich",
+      "shortText": "Verbraucht Energie, um einen Schild zu erhalten."
+    },
+    "ZaryaUnyieldingDefender|ZaryaUnyieldingDefenderTalent|Active": {
+      "cooldownText": "Abklingzeit: 60 Sek.",
+      "fullText": "Aktivieren, um die Abklingzeiten der Persönlichen Barriere und der Projizierten Barriere sofort abzuschließen.",
+      "name": "Unerschütterliche Kämpferin",
+      "shortText": "Aktivieren, um die Abklingzeiten der Barrieren abzuschließen."
+    }
+  },
+  "talents": {
+    "ZaryaParticleGrenadeDemolitionsExpertQuest|ZaryaParticleGrenadeDemolitionsExpertTalent|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Triff <c val=\"#TooltipNumbers\">5</c> gegnerische Helden mit der Partikelgranate, um ihre Ladungsabklingzeit jeweils um <c val=\"#TooltipNumbers\">0.4375</c> Sek. zu verringern, bis maximal <c val=\"#TooltipNumbers\">3.5</c> Sek.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Belohnung:</c> Sobald die Partikelgranate <c val=\"#TooltipNumbers\">40</c> gegnerische Helden getroffen hat, wird der Effektradius um <c val=\"#TooltipNumbers\">15%</c> erhöht.",
+      "name": "Sprengexpertin",
+      "shortText": "<c val=\"#TooltipQuest\">Quest:</c> Erhöht den Radius und verringert die Abklingzeit der Partikelgranate."
+    },
+    "ZaryaShieldAllyTogetherWeAreStrong|ZaryaShieldAllyTogetherWeAreStrongTalent|E|Level1": {
+      "fullText": "Der Träger der Projizierten Barriere erzeugt nach dem Erhalt <c val=\"#TooltipNumbers\">3</c> Sek. lang pro <c val=\"#TooltipNumbers\">5.35</c><c val=\"#ColorGray\">~~0.04~~</c> verursachtem Schaden <c val=\"#TooltipNumbers\">1</c> Energie für Zarya, bis zu einem Maximalwert von <c val=\"#TooltipNumbers\">40</c> Energie pro Barriere.",
+      "name": "Gemeinsam sind wir stark",
+      "shortText": "Schaden, den Verbündete unter der Projizierten Barriere verursachen, erzeugt Energie."
+    },
+    "ZaryaWeaponFeelTheHeat|ZaryaWeaponFeelTheHeatTalent|Trait|Level1": {
+      "fullText": "Automatische Angriffe verursachen in Nahkampfreichweite <c val=\"#TooltipNumbers\">50%</c> mehr Schaden. Solange Zaryas Energie mehr als <c val=\"#TooltipNumbers\">40</c> beträgt, wird die Breite automatischer Angriffe um <c val=\"#TooltipNumbers\">35%</c> erhöht.",
+      "name": "Kampfmaschine",
+      "shortText": "Erhöht die Breite automatischer Angriffe und den Schaden im Nahkampf."
+    },
+    "ZaryaEnergyMaximumChargeQuest|ZaryaEnergyMaximumChargeTalent|Trait|Level1": {
+      "fullText": "Regenerationskugeln erzeugen jetzt sofort <c val=\"#TooltipNumbers\">20</c> Energie.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Bleibe <c val=\"#TooltipNumbers\">150</c> Sek. lang bei <c val=\"#TooltipNumbers\">50</c> oder mehr Energie.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Belohnung:</c> Erhöht die maximale Energie zusätzlich um <c val=\"#TooltipNumbers\">20</c>.",
+      "name": "Maximale Aufladung",
+      "shortText": "Regenerationskugeln erzeugen Energie.<n/><c val=\"#TooltipQuest\">Quest:</c> Erhöht die maximale Energie."
+    },
+    "ZaryaPersonalBarrierIAmTheStrongest|ZaryaPersonalBarrierIAmTheStrongestTalent|W|Level4": {
+      "fullText": "Die Persönliche Barriere absorbiert <c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c> zusätzlichen Schaden.<n/><n/><c val=\"#AbilityPassive\">Passiv:</c> Von Zaryas Barrieren absorbierter Schaden erzeugt <c val=\"#TooltipNumbers\">20%</c> mehr Energie.",
+      "name": "Die stärkste Frau der Welt",
+      "shortText": "Erhöht die Absorption der Persönlichen Barriere und die erzeugte Energie."
+    },
+    "ZaryaShieldAllyGiveMeTwentyQuest|ZaryaShieldAllyGiveMeTwentyTalent|E|Level4": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Sammle Regenerationskugeln ein, um den absorbierten Schaden der Projizierten Barriere jeweils dauerhaft um <c val=\"#TooltipNumbers\">15</c> zu erhöhen, bis zu einem Maximum von <c val=\"#TooltipNumbers\">300</c>. <n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Belohnung:</c> Sobald <c val=\"#TooltipNumbers\">20</c> Regenerationskugeln eingesammelt wurden, wird die Abklingzeit der Projizierten Barriere dauerhaft um <c val=\"#TooltipNumbers\">2</c> Sek. verringert.",
+      "name": "Muskelgedächtnis",
+      "shortText": "<c val=\"#TooltipQuest\">Quest:</c> Verstärkt die Projizierte Barriere und verringert ihre Abklingzeit."
+    },
+    "ZaryaShieldAllySpeedBarrier|ZaryaShieldAllySpeedBarrierTalent|E|Level4": {
+      "fullText": "Die Projizierte Barriere erhöht die Bewegungsgeschwindigkeit des verbündeten Helden für die Dauer des Effekts um <c val=\"#TooltipNumbers\">50%</c>.",
+      "name": "Schnellkraft",
+      "shortText": "Projizierte Barriere erhöht die Bewegungsgeschwindigkeit."
+    },
+    "ZaryaDefensiveShielding|ZaryaDefensiveShieldingTalent|Passive|Level4": {
+      "fullText": "Nach Ablauf oder Zerstörung gewähren die Persönliche Barriere und die Projizierte Barriere <c val=\"#TooltipNumbers\">6</c> Sek. lang <c val=\"#TooltipNumbers\">75</c> physische Panzerung, die den Schaden der nächsten <c val=\"#TooltipNumbers\">2</c> automatischen Angriffe von Helden um <c val=\"#TooltipNumbers\">75%</c> verringert.",
+      "name": "Defensivschild",
+      "shortText": "Die Persönliche und die Projizierte Barriere gewähren physische Panzerung."
+    },
+    "ZaryaParticleGrenadePinpointAccuracy|ZaryaParticleGrenadePinpointAccuracyTalent|Q|Level7": {
+      "fullText": "Die Partikelgranate fügt Gegnern in der Nähe ihres Einschlagzentrums <c val=\"#TooltipNumbers\">25</c><c val=\"#ColorGray\">~~0.04~~</c> mehr Schaden zu und verlangsamt sie <c val=\"#TooltipNumbers\">2</c> Sek. lang um <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Explosivkraft",
+      "shortText": "Die Partikelgranate verursacht im Einschlagzentrum mehr Schaden und verlangsamt."
+    },
+    "ZaryaDeepBurn|ZaryaDeepBurn|Q|Level7": {
+      "fullText": "Nach einem Heldentreffer mit der Partikelgranate erzeugen automatische Angriffe gegen das Ziel <c val=\"#TooltipNumbers\">2</c> Energie. Dieser Effekt hält <c val=\"#TooltipNumbers\">4</c> Sek. lang an.",
+      "name": "Tiefe Verbrennung",
+      "shortText": "Die Partikelgranate kann Energie erzeugen."
+    },
+    "ZaryaPersonalBarrierExplosiveBarrier|ZaryaPersonalBarrierExplosiveBarrierTalent|W|Level7": {
+      "fullText": "Nach Ablauf oder Zerstörung explodiert die Persönliche Barriere und fügt Gegnern in der Nähe <c val=\"#TooltipNumbers\">110</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zu.",
+      "name": "Explosive Barriere",
+      "shortText": "Die Persönliche Barriere verursacht Flächenschaden."
+    },
+    "ZaryaHeroicAbilityGravitonSurge|ZaryaGravitonSurge|Heroic|Level10": {
+      "cooldownText": "Abklingzeit: 60 Sek.",
+      "fullText": "Feuert eine Gravitonbombe ab, die nach <c val=\"#TooltipNumbers\">1</c> Sek. zündet und gegnerische Helden <c val=\"#TooltipNumbers\">2,5</c> Sek. lang zum Einschlagzentrum zieht. Betroffene Helden erleiden pro Sekunde <c val=\"#TooltipNumbers\">30</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden.",
+      "name": "Gravitonbombe",
+      "shortText": "Feuert eine Gravitonbombe ab, die Gegner anzieht."
+    },
+    "ZaryaHeroicAbilityExpulsionZone|ZaryaExpulsionZone|Heroic|Level10": {
+      "cooldownText": "Abklingzeit: 45 Sek.",
+      "fullText": "Feuert eine Gravitonbombe auf ein Zielgebiet ab, die <c val=\"#TooltipNumbers\">124</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden verursacht und ein Rückstoßfeld erzeugt, das <c val=\"#TooltipNumbers\">3.5</c> Sek. lang anhält. Das Feld stößt Gegner zurück und verringert ihre Bewegungsgeschwindigkeit <c val=\"#TooltipNumbers\">1</c> Sek. lang um <c val=\"#TooltipNumbers\">50%</c>.",
+      "name": "Sperrgebiet",
+      "shortText": "Feuert eine Bombe ab, die Gegner kontinuierlich wegstößt."
+    },
+    "ZaryaPersonalBarrierUnstoppableCompetitor|ZaryaPersonalBarrierUnstoppableCompetitorTalent|W|Level13": {
+      "fullText": "Die Persönliche Barriere macht Zarya bis zu <c val=\"#TooltipNumbers\">2</c> Sek. lang unaufhaltbar.",
+      "name": "In Höchstform",
+      "shortText": "Die Persönliche Barriere macht Zarya unaufhaltbar."
+    },
+    "ZaryaPersonalBarrierSpellBarrier|ZaryaPersonalBarrierSpellBarrierTalent|W|Level13": {
+      "fullText": "Nach Ablauf oder Zerstörung gewährt die Persönliche Barriere <c val=\"#TooltipNumbers\">3</c> Sek. lang <c val=\"#TooltipNumbers\">75</c> Zauberpanzerung, die den erlittenen Fähigkeitsschaden um <c val=\"#TooltipNumbers\">75%</c> verringert.",
+      "name": "Zauberbarriere",
+      "shortText": "Die Persönliche Barriere gewährt Zauberpanzerung."
+    },
+    "ZaryaEnergyEnduranceTraining|ZaryaEnergyEnduranceTrainingTalent|Trait|Level13": {
+      "fullText": "Bei <c val=\"#TooltipNumbers\">75</c> Energie oder mehr erhält Zarya <c val=\"#TooltipNumbers\">20</c> Panzerung, die den erlittenen Schaden um <c val=\"#TooltipNumbers\">20%</c> verringert.",
+      "name": "Abhärtung",
+      "shortText": "Gewährt bei hoher Energie Panzerung."
+    },
+    "ZaryaPainIsTemporary|ZaryaPainIsTemporaryTalent|Active|Level13": {
+      "cooldownText": "Abklingzeit: 30 Sek.",
+      "fullText": "Aktivieren, um alle Energie zu verbrauchen und einen Schild zu erhalten, der pro verbrauchtem Energiepunkt <c val=\"#TooltipNumbers\">0,8%</c> von Zaryas maximalen Lebenspunkten absorbiert und <c val=\"#TooltipNumbers\">3</c> Sek. lang anhält. Zarya kann gleichzeitig nur einen persönlichen Schild auf sich aktiv haben.",
+      "name": "Schmerz ist vergänglich",
+      "shortText": "Verbraucht Energie, um einen Schild zu erhalten."
+    },
+    "ZaryaShieldAllyCleansingShield|ZaryaShieldAllyCleansingShieldTalent|E|Level16": {
+      "fullText": "Verringert die Abklingzeit der Projizierten Barriere um <c val=\"#TooltipNumbers\">3</c> Sek. Die Projizierte Barriere entfernt alle Beeinträchtigungen. ",
+      "name": "Selbstbeherrschung",
+      "shortText": "Die Projizierte Barriere entfernt alle Beeinträchtigungen."
+    },
+    "ZaryaShieldAllyGainTrain|ZaryaShieldAllyGainTrainTalent|E|Level16": {
+      "fullText": "Die Projizierte Barriere gewährt bei Aktivierung einem Verbündeten in der Nähe eine Grundversion der Barriere.",
+      "name": "Trainingspartner",
+      "shortText": "Ein zweiter Verbündeter erhält jetzt ebenfalls eine Projizierte Barriere."
+    },
+    "ZaryaEnergyBornInBattle|ZaryaEnergyBornInBattleTalent|Trait|Level16": {
+      "fullText": "Bei <c val=\"#TooltipNumbers\">75</c> Energie oder mehr werden Abklingzeiten <c val=\"#TooltipNumbers\">25%</c> schneller abgeschlossen.",
+      "name": "Im Krieg geboren",
+      "shortText": "Bei hoher Energie werden Abklingzeiten schneller abgeschlossen."
+    },
+    "ZaryaGravitonSurgeGravityKills|ZaryaGravitonSurgeGravityKillsTalent|Heroic|Level20": {
+      "fullText": "Erhöht die Dauer der Gravitonbombe um <c val=\"#TooltipNumbers\">1</c> Sek. und bringt getroffene Helden zum Schweigen.",
+      "name": "Unwiderstehlich",
+      "shortText": "Erhöht die Dauer der Gravitonbombe und bringt Ziele zum Schweigen."
+    },
+    "ZaryaExpulsionZoneClearOut|ZaryaExpulsionZoneClearOutTalent|Heroic|Level20": {
+      "fullText": "Verringert die Abklingzeit von Sperrgebiet um <c val=\"#TooltipNumbers\">25</c> Sek. und erhöht die Dauer um <c val=\"#TooltipNumbers\">1.5</c> Sek.",
+      "name": "Weiträumige Sperrung",
+      "shortText": "Verringert die Abklingzeit von Sperrgebiet und erhöht die Dauer."
+    },
+    "ZaryaParticleGrenadeGrenadier|ZaryaParticleGrenadeGrenadierTalent|Q|Level20": {
+      "fullText": "Alle Aufladungen der Partikelgranate werden gleichzeitig wiederhergestellt.",
+      "name": "Grenadier",
+      "shortText": "Alle Aufladungen der Partikelgranate werden gleichzeitig wiederhergestellt."
+    },
+    "ZaryaUnyieldingDefender|ZaryaUnyieldingDefenderTalent|Active|Level20": {
+      "cooldownText": "Abklingzeit: 60 Sek.",
+      "fullText": "Aktivieren, um die Abklingzeiten der Persönlichen Barriere und der Projizierten Barriere sofort abzuschließen.",
+      "name": "Unerschütterliche Kämpferin",
+      "shortText": "Aktivieren, um die Abklingzeiten der Barrieren abzuschließen."
+    }
+  },
+  "units": {}
+}

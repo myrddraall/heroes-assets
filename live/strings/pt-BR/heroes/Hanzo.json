@@ -1,0 +1,181 @@
+{
+  "abilities": {
+    "HanzoStormBowFireTargetPoint|HanzoStormBow|Q": {
+      "cooldownText": "Recarga: 4 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 20</s>",
+      "fullText": "Ative para carregar uma flecha que causa <c val=\"#TooltipNumbers\">291</c><c val=\"#ColorGray\">~~0.04~~</c> de dano ao primeiro inimigo atingido. O alcance do Arco da Tempestade aumenta à medida que é canalizado.",
+      "name": "Arco da Tempestade",
+      "shortText": "Carrega para disparar uma flecha mortal"
+    },
+    "HanzoScatterArrow|HanzoScatterArrow|W": {
+      "cooldownText": "Recarga: 8 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Dispara uma flecha que causa <c val=\"#TooltipNumbers\">88</c><c val=\"#ColorGray\">~~0.04~~</c> de dano ao primeiro Herói inimigo atingido. Flecha Dispersora pode colidir com terreno e Estruturas, dividindo-se em <c val=\"#TooltipNumbers\">5</c> flechas que percorrem uma distância extra, ricocheteando até <c val=\"#TooltipNumbers\">4</c> vezes a mais e causando <c val=\"#TooltipNumbers\">88</c><c val=\"#ColorGray\">~~0.04~~</c> de dano cada ao primeiro inimigo que atingirem.",
+      "name": "Flecha Dispersora",
+      "shortText": "Dispara uma flecha que ricocheteia e se divide"
+    },
+    "HanzoSonicArrow|HanzoSonicArrow|E": {
+      "cooldownText": "Recarga: 20 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Dispara uma flecha que concede visão em uma vasta área por <c val=\"#TooltipNumbers\">5</c> s. Inimigos dentro desta área são revelados por <c val=\"#TooltipNumbers\">1</c> s. Se a Flecha Sônica atingir diretamente um inimigo, causa <c val=\"#TooltipNumbers\">165</c><c val=\"#ColorGray\">~~0.04~~</c> de dano e segue o inimigo enquanto ele se desloca.",
+      "name": "Flecha Sônica",
+      "shortText": "Revela uma grande área"
+    },
+    "HanzoDragonstrike|HanzoDragonstrike|Heroic": {
+      "cooldownText": "Recarga: 60 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Depois de <c val=\"#TooltipNumbers\">1.5</c> s, evoca dois Dragões Espirituais que avançam, causando <c val=\"#TooltipNumbers\">84</c><c val=\"#ColorGray\">~~0.04~~</c> de dano a cada <c val=\"#TooltipNumbers\">0,25</c> s aos Heróis inimigos atingidos. Inimigos que estiverem no centro receberão <c val=\"#TooltipNumbers\">75%</c> a mais de dano.",
+      "name": "Golpe do Dragão",
+      "shortText": "Evoca um par de Dragões Espirituais que causam dano"
+    },
+    "HanzoDragonsArrow|HanzoDragonsArrow|Heroic": {
+      "cooldownText": "Recarga: 70 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 90</s>",
+      "fullText": "Dispara um projétil que atravessa o campo de batalha e explode ao atingir um Herói inimigo, causando <c val=\"#TooltipNumbers\">130</c><c val=\"#ColorGray\">~~0.04~~</c> de dano a todos os inimigos próximos e Atordoando-os por <c val=\"#TooltipNumbers\">0.5</c> s.<n/><n/>Depois que percorrer uma distância média, o dano aumenta para <c val=\"#TooltipNumbers\">260</c><c val=\"#ColorGray\">~~0.04~~</c> e a duração do Atordoamento aumenta para <c val=\"#TooltipNumbers\">1.25</c> s.<n/><n/>Depois que percorrer uma longa distância, o dano aumenta para <c val=\"#TooltipNumbers\">390</c><c val=\"#ColorGray\">~~0.04~~</c> e a duração do Atordoamento aumenta para <c val=\"#TooltipNumbers\">2</c> s.",
+      "name": "Flecha do Dragão",
+      "shortText": "Dispara uma flecha global que atordoa; causa dano"
+    },
+    "HanzoNaturalAgilityButton|HanzoNaturalAgility|Trait": {
+      "cooldownText": "Recarga: 25 s",
+      "fullText": "Salta por cima de Estruturas e obstáculos intransponíveis que estejam dentro do alcance.",
+      "name": "Agilidade Natural",
+      "shortText": "Salta sobre o terreno"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Recarga: 4 segundos",
+      "fullText": "Depois de canalizar por <c val=\"#TooltipNumbers\">1</c> s, ganha <s val=\"StandardTooltipDetails\">30%</s> de Velocidade de Movimento.",
+      "name": "Evocar Montaria"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Depois de canalizar por <c val=\"#TooltipNumbers\">6</c> s, teleporta você de volta para o Salão das Tempestades, restaurando instantaneamente <c val=\"#TooltipNumbers\">1125</c> de Vida e <c val=\"#TooltipNumbers\">150</c> de Mana.",
+      "name": "Pedra de Regresso"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Desmonta você.",
+      "name": "Dispensar Montaria"
+    },
+    "HanzoPOTG|HanzoPOTGActivate|Heroic": {
+      "fullText": "Ative para se teleportar para a Flecha do Dragão de Hanzo.",
+      "name": "Jogada da Partida"
+    }
+  },
+  "talents": {
+    "HanzoTargetPractice|HanzoTargetPractice|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Missão:</c> Atingir todos os Heróis inimigos com o Arco da Tempestade.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa:</c> Após atingir todos os Heróis inimigos com o Arco da Tempestade, seu alcance aumenta em <c val=\"#TooltipNumbers\">30%</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa:</c> Após atingir todos os Heróis inimigos <c val=\"#TooltipNumbers\">3</c> vezes com o Arco da Tempestade, seu dano aumenta em <c val=\"#TooltipNumbers\">100</c>.",
+      "name": "Treino de Pontaria",
+      "shortText": "<c val=\"#TooltipQuest\">Missão:</c> Atingir todos os Heróis inimigos para potencializar Arco da Tempestade"
+    },
+    "HanzoSimpleGeometry|HanzoSimpleGeometry|W|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Missão:</c> Atingir um Herói com várias flechas da mesma Flecha Dispersora lançada <c val=\"#TooltipNumbers\">20</c> vezes. Cada acerto de flecha após o segundo concede progresso extra.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa:</c> Ao atingir o terreno pela primeira vez, a Flecha Dispersora cria mais <c val=\"#TooltipNumbers\">2</c> flechas.",
+      "name": "Geometria Básica",
+      "shortText": "<c val=\"#TooltipQuest\">Missão:</c> Receba mais Flechas Dispersoras"
+    },
+    "HanzoRedemption|HanzoRedemption|Passive|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Missão:</c> Cada <c val=\"#TooltipNumbers\">2</c> Ataques Básicos contra o mesmo Herói dentro de <c val=\"#TooltipNumbers\">10</c> s concedem <c val=\"#TooltipNumbers\">1</c> de Redenção, acumulando até <c val=\"#TooltipNumbers\">12</c>. Morrer reduz a Redenção em <c val=\"#TooltipNumbers\">3</c>, e é possível perder Redenção mesmo com o máximo de aplicações.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa:</c> Ao alcançar <c val=\"#TooltipNumbers\">12</c> de Redenção, recebe <c val=\"#TooltipNumbers\">50%</c> de Velocidade de Ataque.",
+      "name": "Redenção",
+      "shortText": "<c val=\"#TooltipQuest\">Missão:</c> Atingir Heróis para receber Velocidade de Ataque"
+    },
+    "HanzoExplosiveArrows|HanzoExplosiveArrows|Q|Level4": {
+      "fullText": "Ao atingir uma Tropa ou um Monstro, o Arco da Tempestade causa <c val=\"#TooltipNumbers\">60%</c> do dano aos inimigos ao redor do alvo.",
+      "name": "Flechas Explosivas",
+      "shortText": "Flechas do Arco da Tempestade explodem em Tropas e Monstros"
+    },
+    "HanzoSerratedArrows|HanzoSerratedArrows|W|Level4": {
+      "fullText": "Flecha Dispersora causa <c val=\"#TooltipNumbers\">100%</c> a mais de dano a Tropas, Mercenários e Monstros.",
+      "name": "Flechas Serrilhadas",
+      "shortText": "Flecha Dispersora causa mais dano a não Heróis"
+    },
+    "HanzoIgnoreAllDistractions|HanzoIgnoreAllDistractions|Passive|Level4": {
+      "fullText": "Ataques Básicos matam Tropas instantaneamente e aumentam em <c val=\"#TooltipNumbers\">2</c> o alcance do Ataque Básico de Hanzo por <c val=\"#TooltipNumbers\">3</c> s.",
+      "name": "Ignorar Distrações",
+      "shortText": "Ataques Básicos matam instantaneamente Tropas; aumenta alcance"
+    },
+    "HanzoTheDragonHungers|HanzoTheDragonHungers|Q|Level7": {
+      "fullText": "Atingir um Herói com Arco da Tempestade concede <c val=\"#TooltipNumbers\">5%</c> de Poder Mágico por <c val=\"#TooltipNumbers\">12</c> s, acumulando até o máximo de <c val=\"#TooltipNumbers\">20%</c>.",
+      "name": "O Dragão Tem Fome",
+      "shortText": "Arco da Tempestade concede Poder Mágico"
+    },
+    "HanzoNeverOutmatched|HanzoNeverOutmatched|W|Level7": {
+      "fullText": "Reduz o custo de Mana da Flecha Dispersora de <c val=\"#TooltipNumbers\">50</c> para <c val=\"#TooltipNumbers\">30</c>. Ataques Básicos contra Heróis reduzem a recarga da Flecha Dispersora em <c val=\"#TooltipNumbers\">3</c> s.",
+      "name": "Vantagem Perene",
+      "shortText": "Ataques Básicos reduzem recarga de Flecha Dispersora"
+    },
+    "HanzoSharpenedArrowheads|HanzoSharpenedArrowheads|Passive|Level7": {
+      "fullText": "Atingir Heróis com Arco da Tempestade ou Ataques Básicos reduz a armadura do alvo em <c val=\"#TooltipNumbers\">3</c> por <c val=\"#TooltipNumbers\">3</c> s, até uma redução máxima de <c val=\"#TooltipNumbers\">20</c> de Armadura.",
+      "name": "Flechas Afiadas",
+      "shortText": "Ataques Básicos e Arco da Tempestade reduzem Armadura"
+    },
+    "HanzoDragonstrike|HanzoDragonstrike|Heroic|Level10": {
+      "cooldownText": "Recarga: 60 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Depois de <c val=\"#TooltipNumbers\">1.5</c> s, evoca dois Dragões Espirituais que avançam, causando <c val=\"#TooltipNumbers\">84</c><c val=\"#ColorGray\">~~0.04~~</c> de dano a cada <c val=\"#TooltipNumbers\">0,25</c> s aos Heróis inimigos atingidos. Inimigos que estiverem no centro receberão <c val=\"#TooltipNumbers\">75%</c> a mais de dano.",
+      "name": "Golpe do Dragão",
+      "shortText": "Evoca um par de Dragões Espirituais que causam dano"
+    },
+    "HanzoDragonsArrow|HanzoDragonsArrow|Heroic|Level10": {
+      "cooldownText": "Recarga: 70 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 90</s>",
+      "fullText": "Dispara um projétil que atravessa o campo de batalha e explode ao atingir um Herói inimigo, causando <c val=\"#TooltipNumbers\">130</c><c val=\"#ColorGray\">~~0.04~~</c> de dano a todos os inimigos próximos e Atordoando-os por <c val=\"#TooltipNumbers\">0.5</c> s.<n/><n/>Depois que percorrer uma distância média, o dano aumenta para <c val=\"#TooltipNumbers\">260</c><c val=\"#ColorGray\">~~0.04~~</c> e a duração do Atordoamento aumenta para <c val=\"#TooltipNumbers\">1.25</c> s.<n/><n/>Depois que percorrer uma longa distância, o dano aumenta para <c val=\"#TooltipNumbers\">390</c><c val=\"#ColorGray\">~~0.04~~</c> e a duração do Atordoamento aumenta para <c val=\"#TooltipNumbers\">2</c> s.",
+      "name": "Flecha do Dragão",
+      "shortText": "Dispara uma flecha global que atordoa; causa dano"
+    },
+    "HanzoFleetofFoot|HanzoFleetofFoot|Q|Level13": {
+      "fullText": "Atingir um Herói com Arco da Tempestade concede <c val=\"#TooltipNumbers\">10%</c> de Velocidade de Movimento por <c val=\"#TooltipNumbers\">6</c> s até o máximo de <c val=\"#TooltipNumbers\">30%</c>.",
+      "name": "Pés de Vento",
+      "shortText": "Arco da Tempestade concede Velocidade de Movimento"
+    },
+    "HanzoNinjaAssassin|HanzoNinjaAssassin|Trait|Level13": {
+      "fullText": "Atingir Heróis com Arco da Tempestade reduz a recarga de Agilidade Natural em <c val=\"#TooltipNumbers\">10</c> s. Além disso, Abates de Herói concluem a recarga da Agilidade Natural.",
+      "name": "Ninja Assassino",
+      "shortText": "Arco da Tempestade reduz recarga de Agilidade Natural"
+    },
+    "HanzoMountedArchery|HanzoMountedArchery|Passive|Level13": {
+      "fullText": "Reduz a recarga de Evocar Montaria em <c val=\"#TooltipNumbers\">2</c> s. Ao montar, ganha <c val=\"#TooltipNumbers\">25%</c> a mais de Velocidade de Movimento por <c val=\"#TooltipNumbers\">5</c> s. Monta instantaneamente ao usar a Agilidade Natural.",
+      "name": "Arqueria Montada",
+      "shortText": "Aumenta Velocidade de Montaria; Monta ao usar Agilidade Natural"
+    },
+    "HanzoFlawlessTechnique|HanzoFlawlessTechnique|Passive|Level16": {
+      "fullText": "Atingir Heróis com Arco da Tempestade aumenta em <c val=\"#TooltipNumbers\">40%</c> o dano do próximo Ataque Básico de Hanzo que ocorrer dentro de <c val=\"#TooltipNumbers\">5</c> s. Ataques Básicos contra Heróis aumentam em <c val=\"#TooltipNumbers\">40%</c> o dano do próximo Arco da Tempestade que ocorrer dentro <c val=\"#TooltipNumbers\">5</c> s.",
+      "name": "Técnica Impecável",
+      "shortText": "Arco da Tempestade e Ataques Básicos se potencializam mutuamente"
+    },
+    "HanzoPiercingArrows|HanzoPiercingArrows|Passive|Level16": {
+      "fullText": "Arco da Tempestade e Flecha Dispersora perfuram, atingindo mais um inimigo. Além disso, Flecha Dispersora pode perfurar <c val=\"#TooltipNumbers\">1</c> inimigo a cada vez que ricocheteia.",
+      "name": "Flechas Perfurantes",
+      "shortText": "Arco da Tempestade e Flecha Dispersora perfuram"
+    },
+    "HanzoGiantSlayer|HanzoGiantSlayer|Passive|Level16": {
+      "fullText": "Heróis inimigos atingidos pela Flecha Dispersora e por Ataques Básicos recebem dano extra equivalente a <c val=\"#TooltipNumbers\">1.6%</c> do máximo de Vida.",
+      "name": "Matador de Gigantes",
+      "shortText": "Ataques Básicos e Flecha Dispersora causam dano extra"
+    },
+    "HanzoTheDragonAwakens|HanzoTheDragonAwakens|Heroic|Level20": {
+      "fullText": "Atingir um Herói com Arco da Tempestade, Flecha Dispersora ou Ataques Básicos reduz a recarga de Golpe do Dragão em <c val=\"#TooltipNumbers\">4</c> s.",
+      "name": "O Dragão Acordou",
+      "shortText": "Habilidades e Ataques reduzem a recarga do Golpe do Dragão"
+    },
+    "HanzoPOTG|HanzoPOTG|Heroic|Level20": {
+      "fullText": "Durante o voo ou em até <c val=\"#TooltipNumbers\">2</c> s depois de atingir um alvo, a Flecha do Dragão pode ser reativada para Hanzo se teleportar até o local e saltar para trás. Se usado após o impacto, Hanzo dispara flechas que causam <c val=\"#TooltipNumbers\">132</c><c val=\"#ColorGray\">~~0.04~~</c> de dano ao alvo atingido pelo impacto.<n/><n/>Hanzo fica Irrefreável durante a Jogada da Partida.",
+      "name": "Jogada da Partida",
+      "shortText": "Ative para se teleportar para a Flecha do Dragão"
+    },
+    "HanzoBullseye|HanzoBullseye|E|Level20": {
+      "fullText": "Aumenta a velocidade da Flecha Sônica e o raio do centro em <c val=\"#TooltipNumbers\">100%</c>. Além disso, os Heróis atingidos pelo centro da Flecha Sônica ficam Atordoados por <c val=\"#TooltipNumbers\">1</c> s.",
+      "name": "Na Mira",
+      "shortText": "Flecha Sônica é mais rápida; atordoa"
+    },
+    "HanzoPerfectAgility|HanzoPerfectAgility|Trait|Level20": {
+      "fullText": "Agilidade natural ganha uma <c val=\"#TooltipNumbers\">segunda</c> carga e a recarga é reduzida em <c val=\"#TooltipNumbers\">10</c> s.",
+      "name": "Agilidade Perfeita",
+      "shortText": "Ganha uma carga de Agilidade Natural, recarga reduzida"
+    }
+  },
+  "units": {
+    "HanzoDragonstrikeController": {
+      "name": "Golpe do Dragão (Controlador)"
+    },
+    "HanzoDragonstrikeSoundUnit": {
+      "name": "Golpe do Dragão (Unidade de Som)"
+    }
+  }
+}

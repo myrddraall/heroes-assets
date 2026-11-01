@@ -1,0 +1,206 @@
+{
+  "abilities": {
+    "KelThuzadDeathAndDecay|KelThuzadDeathAndDecay|Q": {
+      "cooldownText": "Czas odnowienia: 5 sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 20</s>",
+      "fullText": "Po upływie <c val=\"#TooltipNumbers\">0.5</c> sek. Kel'Thuzad wystrzeliwuje kulę, która wybucha po trafieniu przeciwnika i zadaje wrogom znajdującym się na tym obszarze <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.025~~</c> pkt. obrażeń. Eksplozja pozostawia po sobie pole rozkładu, które utrzymuje się przez <c val=\"#TooltipNumbers\">2</c> sek. i zadaje przeciwnikom <c val=\"#TooltipNumbers\">82</c><c val=\"#ColorGray\">~~0.025~~</c> pkt. obrażeń co <c val=\"#TooltipNumbers\">0.5</c> sek.",
+      "name": "Śmierć i Rozkład",
+      "shortText": "Rani wrogów i tworzy obszar zadający obrażenia"
+    },
+    "KelThuzadFrostNova|KelThuzadFrostNova|W": {
+      "cooldownText": "Czas odnowienia: 8 sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Tworzy Rozbłysk Mrozu, który eksploduje po upływie <c val=\"#TooltipNumbers\">1</c> sek. i zadaje <c val=\"#TooltipNumbers\">180</c><c val=\"#ColorGray\">~~0.025~~</c> pkt. obrażeń przeciwnikom w polu rażenia oraz spowalnia ich o <c val=\"#TooltipNumbers\">35%</c> na <c val=\"#TooltipNumbers\">2.5</c> sek. Wrogowie znajdujący się w epicentrum zostają unieruchomieni na <c val=\"#TooltipNumbers\">1</c> sek.",
+      "name": "Rozbłysk Mrozu",
+      "shortText": "Rani wrogów i unieszkodliwia ich"
+    },
+    "KelThuzadChains|KelThuzadChains|E": {
+      "cooldownText": "Czas odnowienia: 10 sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Kel'Thuzad wystrzeliwuje łańcuch, który zadaje pierwszemu trafionemu wrogiemu bohaterowi <c val=\"#TooltipNumbers\">97</c><c val=\"#ColorGray\">~~0.025~~</c> pkt. obrażeń. Przez kolejne <c val=\"#TooltipNumbers\">3</c> sek. po trafieniu celu można ponownie użyć Okowów Kel'Thuzada, aby wystrzelić łańcuch w dodatkowego przeciwnika, skuć obu wrogów ze sobą nawzajem i ogłuszyć ich na <c val=\"#TooltipNumbers\">0.5</c> sek.",
+      "name": "Okowy Kel'Thuzada",
+      "shortText": "Przyciąga wrogich bohaterów do siebie"
+    },
+    "KelThuzadFrozenTomb|KelThuzadFrozenTomb|Heroic": {
+      "cooldownText": "Czas odnowienia: 50 sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 45</s>",
+      "fullText": "Wystrzeliwuje lodowy meteoryt we wrogiego bohatera. Przy trafieniu meteoryt zadaje celowi <c val=\"#TooltipNumbers\">115</c><c val=\"#ColorGray\">~~0.025~~</c> pkt. obrażeń oraz <c val=\"#TooltipNumbers\">275</c><c val=\"#ColorGray\">~~0.025~~</c> pkt. obrażeń przeciwnikom znajdującym się na danym obszarze. Wszyscy wrogowie trafieni Lodowym Pociskiem zostają unieruchomieni na <c val=\"#TooltipNumbers\">2</c> sek.",
+      "name": "Lodowy Pocisk",
+      "shortText": "Unieruchamia i rani wrogów wokół celu"
+    },
+    "KelThuzadShadowFissure|KelThuzadShadowFissure|Heroic": {
+      "cooldownText": "Czas odnowienia: 16 sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 40</s>",
+      "fullText": "Tworzy w dowolnym miejscu na mapie wyrwę, która eksploduje po upływie <c val=\"#TooltipNumbers\">1.5</c> sek. i zadaje wrogim bohaterom znajdującym się w polu rażenia <c val=\"#TooltipNumbers\">320</c><c val=\"#ColorGray\">~~0.025~~</c> pkt. obrażeń. W przypadku trafienia wrogiego bohatera czas odnowienia zostaje ustawiony na <c val=\"#TooltipNumbers\">1.5</c> sek.",
+      "name": "Erupcja Cienia",
+      "shortText": "Zadaje duże obrażenia obszarowe"
+    },
+    ":PASSIVE:|KelThuzadMasterOfTheColdDark|Trait": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Zadanie:</c> Kel'Thuzad zyskuje poziomy Moru (<c val=\"#TooltipNumbers\">1</c>) za każdym razem, kiedy bohater zostanie unieruchomiony za pomocą Rozbłysku Mrozu lub Okowów Kel'Thuzada.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Nagroda:</c> Po zgromadzeniu przez Kel'Thuzada <c val=\"#TooltipNumbers\">15</c> poziomów Moru zyskuje on dostęp do zdolności Lodowy Kolec.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Nagroda:</c> Po zgromadzeniu przez Kel'Thuzada <c val=\"#TooltipNumbers\">30</c> poziomów Moru zyskuje on premię <c val=\"#TooltipNumbers\">75%</c> do mocy zaklęć.<n/><n/><c val=\"#TooltipQuest\">Poziom Moru:</c> <c val=\"#TooltipNumbers\" validator=\"True\">0/30</c>",
+      "name": "Władca Zimnej Ciemności",
+      "shortText": "Kel'Thuzad staje się coraz silniejszy w miarę zakłócania poczynań wrogów"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Czas odnowienia: 4 sek.",
+      "fullText": "Po podtrzymywaniu przez <c val=\"#TooltipNumbers\">1</c> sek. zyskujesz premię <s val=\"StandardTooltipDetails\">30%</s> do szybkości ruchu.",
+      "name": "Przyzwanie Wierzchowca"
+    },
+    "KelThuzadGlacialSpike|KelThuzadGlacialSpike|Active": {
+      "cooldownText": "Czas odnowienia: 30 sek.",
+      "fullText": "Aktywuj, aby Kel'Thuzad stworzył kolec, który wybuchnie po upływie <c val=\"#TooltipNumbers\">4</c> sek. i zada pobliskim przeciwnikom <c val=\"#TooltipNumbers\">70</c><c val=\"#ColorGray\">~~0.025~~</c> pkt. obrażeń. Efekt Okowów Kel'Thuzada można stosować na kolcu.",
+      "name": "Lodowy Kolec",
+      "shortText": "Tworzy szpikulec, który wybucha i zadaje obrażenia"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Po podtrzymywaniu przez <c val=\"#TooltipNumbers\">6</c> sek. teleportuje bohatera z powrotem do Dworu Burz i przywraca mu natychmiast <c val=\"#TooltipNumbers\">1125</c> pkt. zdrowia oraz <c val=\"#TooltipNumbers\">150</c> pkt. many.",
+      "name": "Kamień Powrotu"
+    },
+    "KelThuzadChainsLink|KelThuzadChainsLink|E": {
+      "fullText": "Kel'Thuzad wystrzeliwuje nowy łańcuch ze skutego właśnie przeciwnika. Przy trafieniu bohatera zadaje <c val=\"#TooltipNumbers\">97</c><c val=\"#ColorGray\">~~0.025~~</c> pkt. obrażeń i przyciąga przeciwników do siebie nawzajem.",
+      "name": "Okowy Kel'Thuzada",
+      "shortText": ""
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Opuszczasz wierzchowca.",
+      "name": "Odesłanie Wierzchowca"
+    },
+    "KelThuzadArchlichArmor|KelThuzadArchlichArmor|Active": {
+      "cooldownText": "Czas odnowienia: 25 sek.",
+      "fullText": "Aktywuj, aby Kel'Thuzad zyskał <c val=\"#TooltipNumbers\">50</c> pkt. pancerza fizycznego na <c val=\"#TooltipNumbers\">4</c> sek. W chwili użycia pobliscy przeciwnicy otrzymują <c val=\"#TooltipNumbers\">45</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń i zostają spowolnieni o <c val=\"#TooltipNumbers\">35%</c> na <c val=\"#TooltipNumbers\">4</c> sek.",
+      "name": "Pancerz Arcylisza",
+      "shortText": "Kel'Thuzad zyskuje pancerz fizyczny i spowalnia wrogów"
+    },
+    "KelThuzadPhylacteryItem|KelThuzadPhylacteryItem|Passive": {
+      "fullText": "Filakterium można aktywować po śmierci Kel'Thuzada, aby powrócił on natychmiast do życia w Dworze Burz. Przed kolejnym użyciem Filakterium trzeba je ponownie naładować.<n/><n/><c val=\"#AbilityPassive\">Działanie pasywne:</c> Kel'Thuzad odzyskuje w postaci zdrowia równowartość <c val=\"#TooltipNumbers\">10%</c> obrażeń od zaklęć zadanych po naładowaniu Filakterium.",
+      "name": "Filakterium Kel'Thuzada",
+      "shortText": ""
+    },
+    "KelThuzadShiftingMalice|KelThuzadShiftingMalice|Active": {
+      "cooldownText": "Czas odnowienia: 240 sek.",
+      "fullText": "Aktywuj, aby Kel'Thuzad rzucił się do przodu i zadał przeciwnikom znajdującym się na jego drodze <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.025~~</c> pkt. obrażeń. Udział w zabiciu wrogich bohaterów zeruje czas odnowienia Nikczemnej Szarży.",
+      "name": "Nikczemna Szarża",
+      "shortText": "Kel'Thuzad rzuca się do przodu i zadaje obrażenia wrogom"
+    },
+    "KelThuzadSpawnShade|KelThuzadTheDamnedReturn|Active": {
+      "cooldownText": "Czas odnowienia: 15 sek.",
+      "fullText": "Aktywuj, aby Kel'Thuzad stworzył Cień z Naxxramas, który będzie naśladować jego wezwania Śmierci i Rozkładu. Cień pozostanie przy życiu przez <c val=\"#TooltipNumbers\">15</c> sek.",
+      "name": "Powrót Potępionych",
+      "shortText": "Kel'Thuzad tworzy Cień, który używa Śmierci i Rozkładu"
+    }
+  },
+  "talents": {
+    "KelThuzadThePlaguelands|KelThuzadThePlaguelands|Q|Level1": {
+      "fullText": "Wydłuża czas działania Śmierci i Rozkładu o <c val=\"#TooltipNumbers\">1</c> sek. Po zgromadzeniu przez Kel'Thuzada <c val=\"#TooltipNumbers\">30</c> poziomów Moru obszar pola pozostawianego przez Śmierć i Rozkład wzrasta o <c val=\"#TooltipNumbers\">30%</c>.",
+      "name": "Plagowiska",
+      "shortText": "Śmierć i Rozkład ma zwiększony obszar i czas działania"
+    },
+    "KelThuzadBlightedFrost|KelThuzadBlightedFrost|W|Level1": {
+      "fullText": "Rozbłysk Mrozu zadaje przeciwnikom znajdującym się w epicentrum obrażenia zwiększone o <c val=\"#TooltipNumbers\">75%</c>. Po zgromadzeniu przez Kel'Thuzada <c val=\"#TooltipNumbers\">30</c> poziomów Moru czas działania efektu unieruchomienia zapewnianego przez Rozbłysk Mrozu wzrasta o <c val=\"#TooltipNumbers\">0.5</c> sek.",
+      "name": "Morowy Mróz",
+      "shortText": "Rozbłysku Mrozu zdaje większe obrażenia w centrum i działa dłużej"
+    },
+    "KelThuzadBarbedChains|KelThuzadBarbedChains|E|Level1": {
+      "fullText": "Zwiększa obrażenia zadawane Okowami Kel'Thuzada o <c val=\"#TooltipNumbers\">125%</c>. Po zgromadzeniu przez niego <c val=\"#TooltipNumbers\">30</c> poziomów Moru Okowy Kel'Thuzada zmniejszają pancerz przyciąganych bohaterów o <c val=\"#TooltipNumbers\">10</c> pkt. na <c val=\"#TooltipNumbers\">4</c> sek.",
+      "name": "Kolczaste Okowy",
+      "shortText": "Okowy zadają więcej obrażeń i zmniejszają pancerz"
+    },
+    "KelThuzadStripShields|KelThuzadStripShields|E|Level4": {
+      "fullText": "Przyciągnięcie bohatera okowami zapewnia Kel'Thuzadowi stałą osłonę o mocy <c val=\"#TooltipNumbers\">128</c><c val=\"#ColorGray\">~~0.04~~</c> pkt., która kumuluje się maksymalnie <c val=\"#TooltipNumbers\">2</c> razy.<n/><n/>Dodatkowo Okowy Kel'Thuzada zadają osłonom wrogich bohaterów obrażenia zwiększone maksymalnie do <c val=\"#TooltipNumbers\">270</c><c val=\"#ColorGray\">~~0.025~~</c> pkt.",
+      "name": "Rozdarcie Osłony",
+      "shortText": "Okowy Kel'Thuzada zapewniają osłonę i niszczą wrogie osłony"
+    },
+    "KelThuzadPhylactery|KelThuzadPhylactery|Passive|Level4": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Zadanie:</c> Zbierz Kule Regeneracji (<c val=\"#TooltipNumbers\">12</c>), aby naładować Filakterium Kel'Thuzada.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Nagroda:</c> Aktywuj Filakterium Kel'Thuzada po jego śmierci, aby powrócił on natychmiast do życia w Dworze Burz. Przed kolejnym użyciem talentu trzeba go ponownie naładować.<n/><n/><c val=\"#AbilityPassive\">Działanie pasywne:</c> Kel'Thuzad odzyskuje w postaci zdrowia równowartość <c val=\"#TooltipNumbers\">10%</c> obrażeń od zaklęć zadanych po naładowaniu Filakterium.",
+      "name": "Filakterium Kel'Thuzada",
+      "shortText": "<c val=\"#TooltipQuest\">Zadanie:</c> Gromadź Kule Regeneracji, aby wracać do życia"
+    },
+    "KelThuzadArchlichArmor|KelThuzadArchlichArmor|Active|Level4": {
+      "cooldownText": "Czas odnowienia: 25 sek.",
+      "fullText": "Aktywuj, aby Kel'Thuzad zyskał <c val=\"#TooltipNumbers\">50</c> pkt. pancerza fizycznego na <c val=\"#TooltipNumbers\">4</c> sek. W chwili użycia pobliscy przeciwnicy otrzymują <c val=\"#TooltipNumbers\">45</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń i zostają spowolnieni o <c val=\"#TooltipNumbers\">35%</c> na <c val=\"#TooltipNumbers\">4</c> sek.",
+      "name": "Pancerz Arcylisza",
+      "shortText": "Kel'Thuzad zyskuje pancerz fizyczny i spowalnia wrogów"
+    },
+    "KelThuzadAcceleratedDecay|KelThuzadAcceleratedDecay|Q|Level7": {
+      "fullText": "Za każdym razem, kiedy bohater zostaje zraniony przez pole pozostawione przez Śmierć i Rozkład, otrzymuje on co jakiś czas dodatkowo <c val=\"#TooltipNumbers\">25%</c> obrażeń od tej zdolności przez kolejne <c val=\"#TooltipNumbers\">4</c> sek. Efekt ten może się kumulować maksymalnie <c val=\"#TooltipNumbers\">4</c> razy.",
+      "name": "Przyspieszony Rozkład",
+      "shortText": "Zwiększa obrażenia Śmierci i Rozkładu"
+    },
+    "KelThuzadChillingTouch|KelThuzadChillingTouch|Passive|Level7": {
+      "fullText": "Co <c val=\"#TooltipNumbers\">8</c> sek. kolejny atak podstawowy Kel'Thuzada trafia wszystkich przeciwników znajdujących się na danym obszarze i zadaje im dodatkowo <c val=\"#TooltipNumbers\">80%</c> obrażeń. Zadaje obrażenia od zaklęć zamiast obrażeń fizycznych, a także spowalnia cele o <c val=\"#TooltipNumbers\">30%</c> na <c val=\"#TooltipNumbers\">2</c> sek.",
+      "name": "Zmrażający Dotyk",
+      "shortText": "Ataki podstawowe co jakiś czas zadają obszarowe obrażenia od zaklęć"
+    },
+    "KelThuzadIceCold|KelThuzadIceCold|Passive|Level7": {
+      "fullText": "Czas odnowienia Lodowego Kolca zostaje skrócony o <c val=\"#TooltipNumbers\">10</c> sek., a zadawane obrażenia wzrastają o <c val=\"#TooltipNumbers\">400%</c>.",
+      "name": "Przenikliwy Chłód",
+      "shortText": "Skraca czas odnowienia Lodowego Kolca"
+    },
+    "KelThuzadFrozenTomb|KelThuzadFrozenTomb|Heroic|Level10": {
+      "cooldownText": "Czas odnowienia: 50 sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 45</s>",
+      "fullText": "Wystrzeliwuje lodowy meteoryt we wrogiego bohatera. Przy trafieniu meteoryt zadaje celowi <c val=\"#TooltipNumbers\">115</c><c val=\"#ColorGray\">~~0.025~~</c> pkt. obrażeń oraz <c val=\"#TooltipNumbers\">275</c><c val=\"#ColorGray\">~~0.025~~</c> pkt. obrażeń przeciwnikom znajdującym się na danym obszarze. Wszyscy wrogowie trafieni Lodowym Pociskiem zostają unieruchomieni na <c val=\"#TooltipNumbers\">2</c> sek.",
+      "name": "Lodowy Pocisk",
+      "shortText": "Unieruchamia i rani wrogów wokół celu"
+    },
+    "KelThuzadShadowFissure|KelThuzadShadowFissure|Heroic|Level10": {
+      "cooldownText": "Czas odnowienia: 16 sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 40</s>",
+      "fullText": "Tworzy w dowolnym miejscu na mapie wyrwę, która eksploduje po upływie <c val=\"#TooltipNumbers\">1.5</c> sek. i zadaje wrogim bohaterom znajdującym się w polu rażenia <c val=\"#TooltipNumbers\">320</c><c val=\"#ColorGray\">~~0.025~~</c> pkt. obrażeń. W przypadku trafienia wrogiego bohatera czas odnowienia zostaje ustawiony na <c val=\"#TooltipNumbers\">1.5</c> sek.",
+      "name": "Erupcja Cienia",
+      "shortText": "Zadaje duże obrażenia obszarowe"
+    },
+    "KelThuzadIcyGrasp|KelThuzadIcyGrasp|W|Level13": {
+      "fullText": "Zwiększa skuteczność efektu spowolnienia zapewnianego przez Rozbłysk Mrozu o <c val=\"#TooltipNumbers\">20%</c>. Za każdym razem, kiedy Kel'Thuzad rani przeciwników spowolnionych przy pomocy Rozbłysku Mrozu, czas odnowienia Rozbłysku Mrozu zostaje skrócony o <c val=\"#TooltipNumbers\">0.75</c> sek.",
+      "name": "Szpony Lodu",
+      "shortText": "Wydłuża czas działania spowolnienia od Rozbłysku Mrozu, skraca czas odnowienia"
+    },
+    "KelThuzadChainsOfIce|KelThuzadChainsOfIce|E|Level13": {
+      "fullText": "Kiedy zakończy się efekt ogłuszenia wywoływany przez Okowy Kel'Thuzada, wróg zostaje spowolniony o <c val=\"#TooltipNumbers\">60%</c> na <c val=\"#TooltipNumbers\">1</c> sek.",
+      "name": "Okowy Lodu",
+      "shortText": "Okowy spowalniają po przyciągnięciu"
+    },
+    "KelThuzadChainLink|KelThuzadChainLink|E|Level13": {
+      "fullText": "Przyciągnięcie bohatera Okowami Kel'Thuzada skraca czas odnowienia tej zdolności o <c val=\"#TooltipNumbers\">5</c> sek. i powoduje zwrot poniesionego kosztu many.",
+      "name": "Ogniwo Łańcucha",
+      "shortText": "Przyciąganie bohaterów skraca czas odnowienia Okowów"
+    },
+    "KelThuzadArcaneEchoes|KelThuzadArcaneEchoes|Q|Level16": {
+      "fullText": "Za każdym razem, kiedy wrogi bohater zostaje zraniony w eksplozji spowodowanej przez Śmierć i Rozkład, czas odnowienia tej zdolności zostaje skrócony o <c val=\"#TooltipNumbers\">1.5</c> sek.",
+      "name": "Tajemne Echo",
+      "shortText": "Skraca czas odnowienia Śmierci i Rozkładu"
+    },
+    "KelThuzadHungeringCold|KelThuzadHungeringCold|Passive|Level16": {
+      "fullText": "Unieruchomieni przeciwnicy otrzymują dodatkowo <c val=\"#TooltipNumbers\">55</c><c val=\"#ColorGray\">~~0.025~~</c> pkt. obrażeń za każdym razem, gdy Kel'Thuzad ich zrani.",
+      "name": "Nienasycone Zimno",
+      "shortText": "Kel'Thuzad zadaje zwiększone obrażenia unieruchomionym celom"
+    },
+    "KelThuzadPowerOfIcecrown|KelThuzadPowerOfIcecrown|Passive|Level16": {
+      "fullText": "Ogłuszenie, unieruchomienie lub spowolnienie bohatera zapewnia premię <c val=\"#TooltipNumbers\">6%</c> do mocy zaklęć na <c val=\"#TooltipNumbers\">10</c> sek. Efekt kumuluje się maksymalnie <c val=\"#TooltipNumbers\">5</c> razy.",
+      "name": "Potęga Lodowej Korony",
+      "shortText": "Unieszkodliwianie przeciwników zwiększa moc zaklęć"
+    },
+    "KelThuzadDeathchill|KelThuzadDeathchill|Heroic|Level20": {
+      "fullText": "Kiedy kończy się działanie Lodowego Pocisku, wrogowie zostają spowolnieni o <c val=\"#TooltipNumbers\">40%</c> na <c val=\"#TooltipNumbers\">3</c> sek. Zabijanie bohaterów będących pod wpływem efektów Lodowego Pocisku powoduje natychmiastowe wyzwolenie kolejnej eksplozji pocisku.",
+      "name": "Lodowaty Uścisk Śmierci",
+      "shortText": "Spowalnia wrogów i wyzwala pocisk za udział w zabiciu bohatera"
+    },
+    "KelThuzadMightOfTheScourge|KelThuzadMightOfTheScourge|Heroic|Level20": {
+      "fullText": "Jeśli bohater zostanie trafiony Erupcją Cienia, zdolność jest aktywowana drugi raz pod nim <c val=\"#TooltipNumbers\">1</c> sek. później. Drugie użycie nie zostanie powtórzone.",
+      "name": "Potęga Plagi",
+      "shortText": "Trafianie bohaterów ponownie aktywuje Erupcję Cienia"
+    },
+    "KelThuzadShiftingMalice|KelThuzadShiftingMalice|Active|Level20": {
+      "cooldownText": "Czas odnowienia: 240 sek.",
+      "fullText": "Aktywuj, aby Kel'Thuzad rzucił się do przodu i zadał przeciwnikom znajdującym się na jego drodze <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.025~~</c> pkt. obrażeń. Udział w zabiciu wrogich bohaterów zeruje czas odnowienia Nikczemnej Szarży.",
+      "name": "Nikczemna Szarża",
+      "shortText": "Kel'Thuzad rzuca się do przodu i zadaje obrażenia wrogom"
+    },
+    "KelThuzadTheDamnedReturn|KelThuzadTheDamnedReturn|Active|Level20": {
+      "cooldownText": "Czas odnowienia: 15 sek.",
+      "fullText": "Aktywuj, aby Kel'Thuzad stworzył Cień z Naxxramas, który będzie naśladować jego wezwania Śmierci i Rozkładu. Cień pozostanie przy życiu przez <c val=\"#TooltipNumbers\">15</c> sek.",
+      "name": "Powrót Potępionych",
+      "shortText": "Kel'Thuzad tworzy Cień, który używa Śmierci i Rozkładu"
+    }
+  },
+  "units": {}
+}

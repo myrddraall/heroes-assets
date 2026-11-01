@@ -1,0 +1,213 @@
+{
+  "abilities": {
+    "MedicHealingBeam|MedicHealingBeam|Q": {
+      "energyText": "<s val=\"StandardTooltipDetails\">Energie: 6 pro Sekunde</s>",
+      "fullText": "Heilt den anvisierten verbündeten Helden oder Diener pro Sekunde um <c val=\"#TooltipNumbers\">172</c><c val=\"#ColorGray\">~~0.04~~</c> Lebenspunkte, solange er in Reichweite ist. Regeneriert pro Sekunde <c val=\"#TooltipNumbers\">6</c> Energie, nachdem der Heilstrahl <c val=\"#TooltipNumbers\">2</c> Sek. lang inaktiv war.<n/><n/>Erneut aktivieren, um das Ziel zu wechseln, oder sich selbst auswählen, um den Einsatz abzubrechen.",
+      "name": "Heilstrahl",
+      "shortText": "Heilt einen Verbündeten kontinuierlich."
+    },
+    "MedicSafeguard|MedicSafeguard|W": {
+      "cooldownText": "Abklingzeit: 11 Sek.",
+      "fullText": "Gewährt dem anvisierten verbündeten Helden <c val=\"#TooltipNumbers\">3</c> Sek. lang <c val=\"#TooltipNumbers\">35</c> Panzerung.",
+      "name": "Kampfschild",
+      "shortText": "Gewährt dem Ziel Panzerung."
+    },
+    "MedicDisplacementGrenade|MedicDisplacementGrenade|E": {
+      "cooldownText": "Abklingzeit: 12 Sek.",
+      "fullText": "Feuert eine Granate, die manuell gezündet werden kann. Die Explosion fügt Gegnern in der Nähe <c val=\"#TooltipNumbers\">208</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zu und stößt sie zurück.",
+      "name": "Kinetische Granate",
+      "shortText": "Fügt Gegnern Schaden zu und stößt sie zurück."
+    },
+    "MedicStimDrone|MedicStimDrone|Heroic": {
+      "cooldownText": "Abklingzeit: 70 Sek.",
+      "fullText": "Erhöht die Angriffsgeschwindigkeit eines verbündeten Helden um <c val=\"#TooltipNumbers\">75%</c> und seine Bewegungsgeschwindigkeit um <c val=\"#TooltipNumbers\">25%</c>. Hält <c val=\"#TooltipNumbers\">10</c> Sek. lang an.",
+      "name": "Stimdrohne",
+      "shortText": "Erhöht die Angriffs- und die Bewegungs-<n/>geschwindigkeit eines Verbündeten deutlich."
+    },
+    "MedicMedivacDropship|MedicMedivacDropship|Heroic": {
+      "cooldownText": "Abklingzeit: 45 Sek.",
+      "fullText": "Transportiert Lt. Morales zum anvisierten Gebiet. Verbündete Helden können das Medivac bis zu <c val=\"#TooltipNumbers\">10</c> Sek. vor dem Start per Rechtsklick betreten.",
+      "name": "Medivac",
+      "shortText": "Transportiert Verbündete über große Entfernungen hinweg."
+    },
+    ":PASSIVE:|MedicCaduceusReactor|Trait": {
+      "fullText": "Stellt pro Sekunde <c val=\"#TooltipNumbers\">2%</c> von Lt. Morales' maximalen Lebenspunkten wieder her, solange der Heilstrahl aktiv ist.",
+      "name": "Caduceus-Reaktor",
+      "shortText": "Heilt Lt. Morales, solange der Heilstrahl aktiv ist."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Abklingzeit: 4 Sek.",
+      "fullText": "Erhöht die Bewegungsgeschwindigkeit nach <c val=\"#TooltipNumbers\">1</c> Sek. Kanalisierung um <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Aufsitzen"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Kanalisiert <c val=\"#TooltipNumbers\">6</c> Sek. lang und teleportiert sich dann zurück zum Altar der Stürme. Dabei werden sofort <c val=\"#TooltipNumbers\">1125</c> Lebenspunkte und <c val=\"#TooltipNumbers\">150</c> Mana wiederhergestellt.",
+      "name": "Ruhestein"
+    },
+    "MedicRedirectHealingBeam|MedicRedirectHealingBeam|Q": {
+      "fullText": "Richtet den Heilstrahl auf einen anderen Helden oder Diener aus. Auf Lt. Morales anwenden, um das Kanalisieren abzubrechen.",
+      "name": "Heilstrahl neu ausrichten",
+      "shortText": "Heilt einen Verbündeten kontinuierlich."
+    },
+    "MedicCancelHealingBeam|MedicCancelHealingBeam|Trait": {
+      "fullText": "Bricht den Heilstrahl ab.",
+      "name": "Heilstrahl abbrechen"
+    },
+    "MedicDetonateDisplacementGrenade|MedicDetonateDisplacementGrenade|E": {
+      "cooldownText": "Abklingzeit: 12 Sek.",
+      "fullText": "Zündet eine Kinetische Granate, die Gegnern in der Nähe <c val=\"#TooltipNumbers\">208</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zufügt und sie zurückstößt.",
+      "name": "Kinetische Granate zünden",
+      "shortText": "Fügt Gegnern Schaden zu und stößt sie zurück."
+    },
+    "MedicReinforcements|MedicMedivacDropshipDepartReinforcementsTalent|Heroic": {
+      "cooldownText": "Abklingzeit: 45 Sek.",
+      "fullText": "Befiehlt dem Medivac, zum Anforderungsort zu fliegen.",
+      "name": "Starten"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Sitzt ab.",
+      "name": "Absitzen"
+    },
+    "MedicCellularReactor|MedicCellularReactorTalentAbilityFace|Active": {
+      "cooldownText": "Abklingzeit: 20 Sek.",
+      "fullText": "Verbraucht <c val=\"#TooltipNumbers\">30</c> Energie und heilt Lt. Morales im Verlauf von <c val=\"#TooltipNumbers\">3</c> Sek. um <c val=\"#TooltipNumbers\">30%</c> der maximalen Lebenspunkte. Währenddessen ist der Caduceus-Reaktor deaktiviert.",
+      "name": "Zellularreaktor",
+      "shortText": "Wandelt Energie in Heilung um. Der Kampfschild gewährt Energie."
+    },
+    "MedicTraumaTriggerAbility|MedicTraumaTriggerItemButtonTalent|Passive": {
+      "cooldownText": "Abklingzeit: 30 Sek.",
+      "fullText": "Wenn Lt. Morales weniger als <c val=\"#TooltipNumbers\">40%</c> Lebenspunkte hat und Schaden erleidet, erhält sie <c val=\"#TooltipNumbers\">40</c> Sek. lang <c val=\"#TooltipNumbers\">3</c> Panzerung. Dieser Effekt hat eine Abklingzeit von <c val=\"#TooltipNumbers\">30</c> Sek.<n/><n/><c val=\"#AbilityPassive\">Passiv:</c> Erhöht die Heilung durch den Caduceus-Reaktor von <c val=\"#TooltipNumbers\">2%</c> auf <c val=\"#TooltipNumbers\">4%</c> der maximalen Lebenspunkte pro Sekunde.",
+      "name": "Notpflaster",
+      "shortText": "Gewährt bei niedrigen Lebenspunkten Panzerung."
+    },
+    "MedicReinforcements|MedicReinforcements|Heroic": {
+      "cooldownText": "Abklingzeit: 45 Sek.",
+      "fullText": "Aktivieren, um für Verbündete am Altar der Stürme ein Medivac einzufliegen. Nach <c val=\"#TooltipNumbers\">10</c> Sek. oder nach erneuter Aktivierung fliegt das Medivac zu dem Ort, von dem es angefordert wurde, und lädt die Passagiere aus. Teilt sich eine Abklingzeit mit dem Medivac.",
+      "name": "Verstärkung einfliegen",
+      "shortText": "Das Medivac erscheint am Altar der Stürme."
+    },
+    "MedicMedivacDropshipDepart|MedicMedivacDropshipDepart|E": {
+      "fullText": "Lässt das Medivac sofort starten und zum Zielgebiet fliegen.",
+      "name": "Starten"
+    }
+  },
+  "talents": {
+    "MedicCaduceusFeedback|MedicCaduceusFeedbackTalent|Passive|Level1": {
+      "fullText": "Erhöht die Angriffsreichweite um <c val=\"#TooltipNumbers\">1.1</c> und automatische Angriffe gegen Helden erzeugen <c val=\"#TooltipNumbers\">4</c> Energie.",
+      "name": "Caduceus-Rückkopplung",
+      "shortText": "Automatische Angriffe erzeugen Energie."
+    },
+    "MedicLifeSupport|MedicLifeSupport|Q|Level1": {
+      "fullText": "Während der ersten <c val=\"#TooltipNumbers\">2</c> Sek. der Energieregeneration regeneriert der Heilstrahl <c val=\"#TooltipNumbers\">100%</c> mehr Energie.<n/><n/><c val=\"#AbilityPassive\">Passiv:</c> Erhöht die maximale Energie um <c val=\"#TooltipNumbers\">10</c>.",
+      "name": "Lebenserhaltungssysteme",
+      "shortText": "Erhöht die maximale Energie und die Regenerationsrate."
+    },
+    "MedicClear|MedicClearTalent|E|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Stellt für jeden Heldentreffer mit der Kinetischen Granate <c val=\"#TooltipNumbers\">3</c> Energie wieder her.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Belohnung:</c> Sobald <c val=\"#TooltipNumbers\">15</c> Helden getroffen wurden, wird die Abklingzeit der Kinetischen Granate von <c val=\"#TooltipNumbers\">12</c> Sek. auf <c val=\"#TooltipNumbers\">9</c> Sek. verringert.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Belohnung:</c> Sobald <c val=\"#TooltipNumbers\">30</c> Helden getroffen wurden, wird der Wirkungsbereich der Kinetischen Granate um <c val=\"#TooltipNumbers\">25%</c> vergrößert.",
+      "name": "Weg da!",
+      "shortText": "<c val=\"#TooltipQuest\">Quest:</c> Triff Helden, um die Kinetische Granate zu verstärken."
+    },
+    "MedicCellularReactor|MedicCellularReactorTalent|Active|Level4": {
+      "cooldownText": "Abklingzeit: 20 Sek.",
+      "fullText": "Verbraucht <c val=\"#TooltipNumbers\">30</c> Energie und heilt Lt. Morales im Verlauf von <c val=\"#TooltipNumbers\">3</c> Sek. um <c val=\"#TooltipNumbers\">30%</c> der maximalen Lebenspunkte. Währenddessen ist der Caduceus-Reaktor deaktiviert.<n/><n/><c val=\"#AbilityPassive\">Passiv:</c> Gewährt jedes Mal <c val=\"#TooltipNumbers\">2</c> Energie, wenn der Kampfschild Schaden verringert, bis maximal <c val=\"#TooltipNumbers\">10</c> pro Einsatz.",
+      "name": "Zellularreaktor",
+      "shortText": "Wandelt Energie in Heilung um. Der Kampfschild gewährt Energie."
+    },
+    "MedicTraumaTrigger|MedicTraumaTriggerTalent|Passive|Level4": {
+      "fullText": "Wenn Lt. Morales weniger als <c val=\"#TooltipNumbers\">40%</c> Lebenspunkte hat und Schaden erleidet, erhält sie <c val=\"#TooltipNumbers\">40</c> Sek. lang <c val=\"#TooltipNumbers\">3</c> Panzerung. Dieser Effekt hat eine Abklingzeit von <c val=\"#TooltipNumbers\">30</c> Sek.<n/><n/><c val=\"#AbilityPassive\">Passiv:</c> Erhöht die Heilung durch den Caduceus-Reaktor von <c val=\"#TooltipNumbers\">2%</c> auf <c val=\"#TooltipNumbers\">4%</c> der maximalen Lebenspunkte pro Sekunde.",
+      "name": "Notpflaster",
+      "shortText": "Gewährt bei niedrigen Lebenspunkten Panzerung. Verbessert den Caduceus-Reaktor."
+    },
+    "MedicBlastShield|MedicBlastShield|E|Level4": {
+      "fullText": "Die Kinetische Granate verlangsamt getroffene Helden nach dem Zurückstoßen <c val=\"#TooltipNumbers\">1</c> Sek. lang um <c val=\"#TooltipNumbers\">50%</c> und gewährt einen Schild in Höhe von <c val=\"#TooltipNumbers\">6%</c> der maximalen Lebenspunkte von Lt. Morales. Dieser Schild ist bis zu <c val=\"#TooltipNumbers\">5</c>-mal stapelbar.",
+      "name": "Abschirmung",
+      "shortText": "Die Kinetische Granate verlangsamt und gewährt einen Schild."
+    },
+    "MedicPhysicalTherapy|MedicPhysicalTherapy|W|Level7": {
+      "fullText": "Der Kampfschild entfernt alle Verlangsamungen vom Ziel. Verringert die Abklingzeit um <c val=\"#TooltipNumbers\">3</c> Sek.",
+      "name": "Physiotherapie",
+      "shortText": "Der Kampfschild entfernt Verlangsamungen."
+    },
+    "MedicVanadiumPlating|MedicVanadiumPlating|W|Level7": {
+      "fullText": "Wenn ein Verbündeter unter dem Effekt des Kampfschilds betäubt oder bewegungsunfähig gemacht wird, erhält er <c val=\"#TooltipNumbers\">20</c> zusätzliche Panzerung.<n/><n/><c val=\"#AbilityPassive\">Passiv:</c> Erhöht die Dauer des Kampfschilds um <c val=\"#TooltipNumbers\">1</c> Sek.",
+      "name": "Vanadiumpanzerung",
+      "shortText": "Erhöht die Dauer des Kampfschilds. Betäubungen und Bewegungsunfähigkeit erhöhen seine Panzerung."
+    },
+    "MedicMediDrone|MedicMediDrone|W|Level7": {
+      "fullText": "Verbündete unter dem Effekt des Kampfschilds erhalten <c val=\"#TooltipNumbers\">75%</c> der vom Heilstrahl bei anderen Verbündeten hervorgerufenen Heilung. ",
+      "name": "Medi-Drohne",
+      "shortText": "Der Heilstrahl heilt die Ziele des Kampfschilds"
+    },
+    "MedicHeroicAbilityStimDrone|MedicStimDrone|Heroic|Level10": {
+      "cooldownText": "Abklingzeit: 70 Sek.",
+      "fullText": "Erhöht die Angriffsgeschwindigkeit eines verbündeten Helden um <c val=\"#TooltipNumbers\">75%</c> und seine Bewegungsgeschwindigkeit um <c val=\"#TooltipNumbers\">25%</c>. Hält <c val=\"#TooltipNumbers\">10</c> Sek. lang an.",
+      "name": "Stimdrohne",
+      "shortText": "Erhöht die Angriffs- und die Bewegungs-<n/>geschwindigkeit eines Verbündeten deutlich."
+    },
+    "MedicHeroicAbilityMedivacDropship|MedicMedivacDropshipsTalentFace|Heroic|Level10": {
+      "cooldownText": "Abklingzeit: 45 Sek.",
+      "fullText": "Gewährt die Fähigkeiten Medivac und Verstärkung einfliegen. Diese Fähigkeiten teilen sich eine Abklingzeit.<n/><n/><s val=\"StandardTooltipHeader\">Medivac</s><n/>Transportiert Lt. Morales zum anvisierten Gebiet. Verbündete Helden können das Medivac bis zu <c val=\"#TooltipNumbers\">10</c> Sek. vor dem Start per Rechtsklick betreten.<n/><n/><s val=\"StandardTooltipHeader\">Verstärkung einfliegen</s><n/>Aktivieren, um für Verbündete am Altar der Stürme ein Medivac einzufliegen. Nach <c val=\"#TooltipNumbers\">10</c> Sek. oder nach erneuter Aktivierung fliegt das Medivac zu dem Ort, von dem es angefordert wurde, und lädt die Passagiere aus.",
+      "name": "Medivacs",
+      "shortText": "Gewährt Medivacs."
+    },
+    "MedicEMPGrenade|MedicEMPGrenadeTalent|E|Level13": {
+      "fullText": "Die Kinetische Granate fügt Zielen zusätzlich im Verlauf von <c val=\"#TooltipNumbers\">2</c> Sek. <c val=\"#TooltipNumbers\">96</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zu sowie bis zu <c val=\"#TooltipNumbers\">400</c><c val=\"#ColorGray\">~~0.04~~</c> Bonusschaden gegen Schilde von Helden.",
+      "name": "EMP-Granate",
+      "shortText": "Die Kinetische Granate verursacht Bonusschaden gegen Schilde."
+    },
+    "MedicSystemShock|MedicSystemShockTalent|E|Level13": {
+      "fullText": "Die Kinetische Granate verringert den Schaden getroffener Helden <c val=\"#TooltipNumbers\">3</c> Sek. lang um <c val=\"#TooltipNumbers\">30%</c>. ",
+      "name": "Knalltrauma",
+      "shortText": "Die Kinetische Granate verringert den Schaden getroffener Helden."
+    },
+    "MedicBedsideManner|MedicBedsideManner|E|Level13": {
+      "fullText": "Automatische Angriffe gegen Helden verursachen Bonusschaden in Höhe von <c val=\"#TooltipNumbers\">1%</c> ihrer maximalen Lebenspunkte. Einen gegnerischen Helden mit einer Kinetischen Granate zu treffen, erhöht den nächsten Schaden gegen ihn für <c val=\"#TooltipNumbers\">6</c> Sek. auf <c val=\"#TooltipNumbers\">6%</c>.",
+      "name": "Wo tut's denn weh?",
+      "shortText": "Die Kinetische Granate verstärkt automatische Angriffe."
+    },
+    "MedicExtendedCare|MedicExtendedCare|Q|Level16": {
+      "fullText": "Wenn der Heilstrahl einen Helden mindestens <c val=\"#TooltipNumbers\">3</c> Sek. lang zum Ziel hatte, wird dieser nach Deaktivieren des Heilstrahls im Verlauf von <c val=\"#TooltipNumbers\">3</c> Sek. um <c val=\"#TooltipNumbers\">258</c><c val=\"#ColorGray\">~~0.04~~</c> Lebenspunkte geheilt.<n/><n/><c val=\"#AbilityPassive\">Passiv:</c> Erhöht die Reichweite des Heilstrahls um <c val=\"#TooltipNumbers\">30%</c>.",
+      "name": "Langzeitbehandlung",
+      "shortText": "Erhöht die Reichweite des Heilstrahls und heilt über Zeit."
+    },
+    "MedicFirstResponder|MedicFirstResponder|Q|Level16": {
+      "fullText": "Erhöht die Heilung des Heilstrahls um <c val=\"#TooltipNumbers\">20%</c>, wenn die Energie über <c val=\"#TooltipNumbers\">60</c> liegt, und erhöht die Bewegungsgeschwindigkeit von Lt. Morales und dem Ziel des Heilstrahls um <c val=\"#TooltipNumbers\">15%</c>.",
+      "name": "Ersthelferin",
+      "shortText": "Erhöht die Heilung bei hoher Energie."
+    },
+    "MedicShieldSequencer|MedicShieldSequencerTalent|W|Level16": {
+      "fullText": "Gewährt dem Kampfschild eine zweite Aufladung und erhöht die Reichweite um <c val=\"#TooltipNumbers\">60%</c>.",
+      "name": "Sequenzielle Aktivierung",
+      "shortText": "Gewährt dem Kampfschild eine zweite Aufladung und höhere Reichweite."
+    },
+    "MedicHyperactivity|MedicHyperactivity|Heroic|Level20": {
+      "fullText": "Verringert die Abklingzeit von Stimdrohne von <c val=\"#TooltipNumbers\">70</c> Sek. auf <c val=\"#TooltipNumbers\">35</c> Sek. und erhöht den Geschwindigkeitsbonus von <c val=\"#TooltipNumbers\">25%</c> auf <c val=\"#TooltipNumbers\">50%</c>.",
+      "name": "Hyperaktivität",
+      "shortText": "Verringert die Abklingzeit von Stimdrohne und erhöht die Bewegungsgeschwindigkeit."
+    },
+    "MedicSafeZone|MedicSafeZoneTalent|Heroic|Level20": {
+      "fullText": "Nach dem Aussteigen sind die Passagiere des Medivacs <c val=\"#TooltipNumbers\">3</c> Sek. lang vor Schaden geschützt.<n/><n/><c val=\"#AbilityPassive\">Passiv:</c> Verringert die Abklingzeit von Medivac-Fähigkeiten um <c val=\"#TooltipNumbers\">15</c> Sek.",
+      "name": "Neutrale Zone",
+      "shortText": "Schützt beim Ausstieg aus dem Medivac und verringert die Abklingzeit."
+    },
+    "MedicHospiceCare|MedicHospiceCare|W|Level20": {
+      "fullText": "Der Kampfschild macht das Ziel <c val=\"#TooltipNumbers\">1</c> Sek. lang unbesiegbar. Wenn das Ziel weniger als <c val=\"#TooltipNumbers\">50%</c> Lebenspunkte hat, wenn der Unbesiegbarkeitseffekt endet, wird es um <c val=\"#TooltipNumbers\">8%</c> seiner maximalen Lebenspunkte geheilt.",
+      "name": "Hospizpflege",
+      "shortText": "Der Kampfschild macht unbesiegbar und kann heilen."
+    },
+    "MedicSecondOpinion|MedicSecondOpinion|E|Level20": {
+      "fullText": "Verringert die Abklingzeit auf <c val=\"#TooltipNumbers\">2</c> Sek., wenn die Kinetische Granate mindestens <c val=\"#TooltipNumbers\">2</c> Helden trifft.",
+      "name": "Zweite Meinung",
+      "shortText": "Verringert die Abklingzeit der Kinetischen Granate."
+    }
+  },
+  "units": {
+    "MedicMedivacDropship": {
+      "description": "Transportiert Lt. Morales zum anvisierten Gebiet. Verbündete Helden können das Medivac bis zu <c val=\"#TooltipNumbers\">10</c> Sek. vor dem Start per Rechtsklick betreten.",
+      "name": "Medivac"
+    },
+    "MedicMedivacDropshipDropoffLocationUnit": {
+      "name": "Medivac - Ausladeort, Einheit"
+    }
+  }
+}

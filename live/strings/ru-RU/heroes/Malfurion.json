@@ -1,0 +1,193 @@
+{
+  "abilities": {
+    "MalfurionRegrowth|MalfurionRegrowth|Q": {
+      "cooldownText": "Время восстановления: 5 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 35</s>",
+      "fullText": "Восполняет союзному герою <c val=\"#TooltipNumbers\">380</c><c val=\"#ColorGray\">~~0.04~~</c> ед. здоровья в течение <c val=\"#TooltipNumbers\">20</c> сек.",
+      "name": "Восстановление",
+      "shortText": "Периодически исцеляет союзного героя."
+    },
+    "MalfurionMoonfire|MalfurionMoonfire|W": {
+      "cooldownText": "Время восстановления: 3 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 10</s>",
+      "fullText": "Наносит противникам в указанной области <c val=\"#TooltipNumbers\">90</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона и раскрывает их местоположение на <c val=\"#TooltipNumbers\">2</c> сек.<n/><n/>Каждый раз, когда «Лунный огонь» поражает героя, союзники, находящиеся под действием «Восстановления», восполняют <c val=\"#TooltipNumbers\">130</c><c val=\"#ColorGray\">~~0.04~~</c> ед. здоровья.",
+      "name": "Лунный огонь",
+      "shortText": "Наносит урон противникам в области и лечит союзников под «Восстановлением»."
+    },
+    "MalfurionEntanglingRoots|MalfurionEntanglingRoots|E": {
+      "cooldownText": "Время восстановления: 12 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 65</s>",
+      "fullText": "Обездвиживает героев в указанной области на <c val=\"#TooltipNumbers\">1.25</c> сек. и наносит им <c val=\"#TooltipNumbers\">117</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона в течение времени действия. Область действия увеличивается в течение <c val=\"#TooltipNumbers\">3</c> сек.",
+      "name": "Опутывающие корни",
+      "shortText": "Обездвиживает героев в области и наносит им урон."
+    },
+    "MalfurionTranquility|MalfurionTranquility|Heroic": {
+      "cooldownText": "Время восстановления: 80 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 80</s>",
+      "fullText": "Восполняет находящимся рядом союзным героям <c val=\"#TooltipNumbers\">80</c><c val=\"#ColorGray\">~~0.04~~</c> ед. здоровья в секунду в течение <c val=\"#TooltipNumbers\">8</c> сек. Союзники в области действия, находящиеся под действием «Восстановления», получают <c val=\"#TooltipNumbers\">10</c> ед. брони.",
+      "name": "Спокойствие",
+      "shortText": "Периодически исцеляет союзников поблизости."
+    },
+    "MalfurionTwilightDream|MalfurionTwilightDream|Heroic": {
+      "cooldownText": "Время восстановления: 90 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 100</s>",
+      "fullText": "После паузы в <c val=\"#TooltipNumbers\">0.5</c> сек. наносит <c val=\"#TooltipNumbers\">310</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона в большой области вокруг Малфуриона. К пораженным противникам на <c val=\"#TooltipNumbers\">3</c> сек. применяется эффект немоты.",
+      "name": "Сумеречный сон",
+      "shortText": "Наносит урон противникам поблизости и поражает их эффектом немоты."
+    },
+    "MalfurionInnervate|MalfurionInnervate|Trait": {
+      "cooldownText": "Время восстановления: 25 сек.",
+      "fullText": "Восполняет союзному герою <c val=\"#TooltipNumbers\">20%</c> его максимального запаса маны в течение <c val=\"#TooltipNumbers\">5</c> сек. Пока «Озарение» активно, базовые способности цели восстанавливаются на <c val=\"#TooltipNumbers\">50%</c> быстрее.<n/><n/><c val=\"ffff8a\">Не действует на героев, не использующих ману.</c>",
+      "name": "Озарение",
+      "shortText": "Дает союзнику ману и ускоряет восстановление его способностей."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Время восстановления: 4 сек.",
+      "fullText": "После подготовки длительностью <c val=\"#TooltipNumbers\">1</c> сек. повышает скорость передвижения на <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Вызов транспорта"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "После поддержания в течение <c val=\"#TooltipNumbers\">6</c> сек. телепортирует героя в Зал Штормов, моментально восполняя <c val=\"#TooltipNumbers\">1125</c> ед. здоровья и <c val=\"#TooltipNumbers\">150</c> ед. маны.",
+      "name": "Возвращение"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Покинуть транспорт.",
+      "name": "Отмена транспорта"
+    },
+    "MalfurionEntanglingRootsTenaciousRoots|MalfurionEntanglingRootsTenaciousRootsHotbar|E": {
+      "cooldownText": "Время восстановления: 10 сек.",
+      "fullText": "При оглушении Малфуриона мгновенно завершает время восстановления «Опутывающих корней».",
+      "name": "Цепкие корни"
+    },
+    "MalfurionNaturesCure|MalfurionNaturesCure|Active": {
+      "cooldownText": "Время восстановления: 45 сек.",
+      "fullText": "При использовании снимает эффекты оглушения, обездвиживания и замедления с союзников, находящихся под действием «Восстановления».",
+      "name": "Природный целитель",
+      "shortText": "Снимает эффекты контроля с союзников."
+    },
+    "MalfurionAstralCommunion|MalfurionTwilightDreamAstralCommunionTalent|Heroic": {
+      "cooldownText": "Время восстановления: 90 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 100</s>",
+      "fullText": "При использовании Малфурион готовится в течение <c val=\"#TooltipNumbers\">1</c> сек., а затем мгновенно телепортируется в указанную точку и применяет «Сумеречный сон». Обе способности имеют общее время восстановления.<n/><n/><c val=\"#AbilityPassive\">Пассивный эффект:</c> продлевает действие эффекта немоты от «Сумеречного сна» до <c val=\"#TooltipNumbers\">5</c> сек.",
+      "name": "Астральное единение",
+      "shortText": "Малфурион телепортируется и применяет «Сумеречный сон»."
+    }
+  },
+  "talents": {
+    "MalfurionEntanglingRootsDeepRootsTalent|MalfurionEntanglingRootsDeepRootsTalent|E|Level1": {
+      "fullText": "Увеличивает область действия «Опутывающих корней» на <c val=\"#TooltipNumbers\">25%</c>, а время действия – на <c val=\"#TooltipNumbers\">40%</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Постоянная задача:</c> каждый раз когда вражеский герой обездвиживается, Малфурион получает прибавку в <c val=\"#TooltipNumbers\">14</c> ед. к запасу маны до конца матча.",
+      "name": "Глубокие корни",
+      "shortText": "<c val=\"#TooltipQuest\">Задача:</c> «Опутывающие корни» увеличивают запас маны до конца матча."
+    },
+    "MalfurionMasteryVengefulRoots|MalfurionEntanglingRootsVengefulRootsTalent|E|Level1": {
+      "fullText": "При использовании «Опутывающих корней» призывает древня, атаки которого наносят <c val=\"#TooltipNumbers\">58</c> ед. урона в секунду. Древень теряет здоровье в течение <c val=\"#TooltipNumbers\">11</c> сек.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Постоянная задача:</c> каждое попадание «Опутывающими корнями» по герою увеличивает урон, наносимый древнем, на <c val=\"#TooltipNumbers\">7</c> ед. в секунду до конца матча.",
+      "name": "Мстительные корни",
+      "shortText": "<c val=\"#TooltipQuest\">Задача:</c> при использовании «Опутывающих корней» появляется древень."
+    },
+    "MalfurionEntanglingRootsEmeraldDreams|MalfurionEntanglingRootsEmeraldDreams|E|Level1": {
+      "fullText": "По окончании действия эффекта обездвиживания «Опутывающие корни» усыпляют героев на <c val=\"#TooltipNumbers\">2</c> сек.",
+      "name": "Изумрудные сны",
+      "shortText": "«Опутывающие корни» усыпляют цель."
+    },
+    "MalfurionRejuvenation|MalfurionRejuvenationTalent|Q|Level4": {
+      "fullText": "При применении «Восстановления» к союзнику Малфурион получает его эффект на <c val=\"#TooltipNumbers\">50%</c> обычного времени действия.",
+      "name": "Омоложение",
+      "shortText": "«Восстановление» также действует на Малфуриона."
+    },
+    "MalfurionCelestialAlignment|MalfurionMoonfireCelestialAlignmentTalent|W|Level4": {
+      "fullText": "«Лунный огонь» раскрывает местоположение противников на <c val=\"#TooltipNumbers\">3</c> сек. дольше. Автоатаки Малфуриона по раскрытым «Лунным огнем» героям наносят на <c val=\"#TooltipNumbers\">85%</c> больше урона.",
+      "name": "Парад планет",
+      "shortText": "«Лунный огонь» дольше раскрывает противников и усиливает атаки."
+    },
+    "MalfurionCombatStyleShandosClarity|MalfurionInnervateShandosClarityTalent|Trait|Level4": {
+      "fullText": "«Озарение» получает второй заряд, а также восстанавливается на <c val=\"#TooltipNumbers\">25%</c> быстрее за каждого союзника с «Восстановлением».",
+      "name": "Прозрение Шан'до",
+      "shortText": "«Озарение» получает второй заряд."
+    },
+    "MalfurionWildGrowthTalent|MalfurionMoonfireWildGrowthTalent|Passive|Level7": {
+      "fullText": "Каждое попадание «Лунным огнем» по герою увеличивает время действия активных эффектов «Восстановления» на <c val=\"#TooltipNumbers\">1</c> сек.",
+      "name": "Буйный рост",
+      "shortText": "«Лунный огонь» продлевает действие «Восстановления»."
+    },
+    "MalfurionMasteryTenaciousRootsEntanglingRoots|MalfurionEntanglingRootsTenaciousRootsTalent|E|Level7": {
+      "fullText": "Увеличивает время действия эффекта обездвиживания от «Опутывающих корней» на <c val=\"#TooltipNumbers\">25%</c>. При оглушении Малфуриона время восстановления «Опутывающих корней» мгновенно завершается. Время восстановления «Цепких корней» – <c val=\"#TooltipNumbers\">10</c> сек.",
+      "name": "Цепкие корни",
+      "shortText": "«Опутывающие корни» действуют дольше и восстанавливаются при оглушении."
+    },
+    "MalfurionNaturesCureRegrowth|MalfurionNaturesCure|Active|Level7": {
+      "cooldownText": "Время восстановления: 45 сек.",
+      "fullText": "При использовании снимает эффекты оглушения, обездвиживания и замедления с союзников, находящихся под действием «Восстановления».",
+      "name": "Природный целитель",
+      "shortText": "Снимает эффекты контроля с союзников."
+    },
+    "MalfurionHeroicAbilityTranquility|MalfurionTranquility|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 80 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 80</s>",
+      "fullText": "Восполняет находящимся рядом союзным героям <c val=\"#TooltipNumbers\">80</c><c val=\"#ColorGray\">~~0.04~~</c> ед. здоровья в секунду в течение <c val=\"#TooltipNumbers\">8</c> сек. Союзники в области действия, находящиеся под действием «Восстановления», получают <c val=\"#TooltipNumbers\">10</c> ед. брони.",
+      "name": "Спокойствие",
+      "shortText": "Периодически исцеляет союзников поблизости."
+    },
+    "MalfurionHeroicAbilityTwilightDream|MalfurionTwilightDream|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 90 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 100</s>",
+      "fullText": "После паузы в <c val=\"#TooltipNumbers\">0.5</c> сек. наносит <c val=\"#TooltipNumbers\">310</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона в большой области вокруг Малфуриона. К пораженным противникам на <c val=\"#TooltipNumbers\">3</c> сек. применяется эффект немоты.",
+      "name": "Сумеречный сон",
+      "shortText": "Наносит урон противникам поблизости и поражает их эффектом немоты."
+    },
+    "MalfurionRegrowthNaturesSwiftness|MalfurionRegrowthNaturesSwiftnessTalent|Q|Level13": {
+      "fullText": "Повышает скорость передвижения Малфуриона на <c val=\"#TooltipNumbers\">6%</c> за каждый действующий эффект «Восстановления».",
+      "name": "Природная стремительность",
+      "shortText": "Эффекты «Восстановления» ускоряют передвижение Малфуриона."
+    },
+    "MalfurionMasteryHinderingMoonfire|MalfurionMoonfireHinderingMoonfireTalent|W|Level13": {
+      "fullText": "«Лунный огонь» замедляет героев на <c val=\"#TooltipNumbers\">25%</c> на <c val=\"#TooltipNumbers\">3</c> сек.",
+      "name": "Лунные путы",
+      "shortText": "«Лунный огонь» замедляет цели."
+    },
+    "MalfurionRevitalizeInnervateTalent|MalfurionRevitalizeInnervateTalent|Trait|Level13": {
+      "fullText": "При использовании «Озарения» Малфурион восполняет <c val=\"#TooltipNumbers\">15%</c> максимального запаса маны, а скорость восстановления его базовых способностей повышается на <c val=\"#TooltipNumbers\">50%</c> на <c val=\"#TooltipNumbers\">5</c> сек.",
+      "name": "Ободрение",
+      "shortText": "«Озарение» дает бонусы Малфуриону."
+    },
+    "MalfurionYserasGift|MalfurionYserasGift|Q|Level16": {
+      "fullText": "Повышает эффективность периодического исцеления «Восстановления» на <c val=\"#TooltipNumbers\">75%</c>, если уровень здоровья Малфуриона превышает <c val=\"#TooltipNumbers\">75%</c>.",
+      "name": "Дар Изеры",
+      "shortText": "Усиливает «Восстановление» при высоком уровне здоровья."
+    },
+    "MalfurionRegrowthNaturesBalance|MalfurionRegrowthNaturesBalanceTalent|Passive|Level16": {
+      "fullText": "Увеличивает область действия «Лунного огня» на <c val=\"#TooltipNumbers\">25%</c>, а время действия «Восстановления» – на <c val=\"#TooltipNumbers\">5</c> сек.",
+      "name": "Природное равновесие",
+      "shortText": "Увеличивает область действия «Лунного огня» и время действия «Восстановления»."
+    },
+    "MalfurionMoonfireMoonlitHarmonyTalent|MalfurionMoonfireMoonlitHarmonyTalent|Passive|Level16": {
+      "fullText": "Усиливает исцеление от «Лунного огня» на <c val=\"#TooltipNumbers\">20%</c> и еще на <c val=\"#TooltipNumbers\">15%</c> за каждый действующий на союзника эффект «Восстановления».",
+      "name": "Лунная гармония",
+      "shortText": "Усиливает исцеление от «Лунного огня» за каждого союзника под «Восстановлением»."
+    },
+    "MalfurionMasterySerenity|MalfurionTranquilitySerenityTalent|Heroic|Level20": {
+      "fullText": "Сокращает время восстановления «Спокойствия» на <c val=\"#TooltipNumbers\">3</c> сек. за каждого пораженного «Лунным огнем» героя. Усиливает исцеление от «Спокойствия» на <c val=\"#TooltipNumbers\">25%</c> и на <c val=\"#TooltipNumbers\">10%</c> за каждый действующий на союзника эффект «Восстановления».",
+      "name": "Безмятежность",
+      "shortText": "Усиливает «Спокойствие»."
+    },
+    "MalfurionMasteryAstralCommunion|MalfurionTwilightDreamAstralCommunionTalent|Heroic|Level20": {
+      "fullText": "При использовании Малфурион готовится в течение <c val=\"#TooltipNumbers\">1</c> сек., а затем мгновенно телепортируется в указанную точку и применяет «Сумеречный сон». Обе способности имеют общее время восстановления.<n/><n/><c val=\"#AbilityPassive\">Пассивный эффект:</c> продлевает действие эффекта немоты от «Сумеречного сна» до <c val=\"#TooltipNumbers\">5</c> сек.",
+      "name": "Астральное единение",
+      "shortText": "Малфурион телепортируется и применяет «Сумеречный сон»."
+    },
+    "MalfurionLifebloomRegrowth|MalfurionRegrowthMoonfireLifebloomTalent|Q|Level20": {
+      "fullText": "«Восстановление» мгновенно восполняет цели <c val=\"#TooltipNumbers\">10%</c> недостающего здоровья.",
+      "name": "Жизнецвет",
+      "shortText": "«Восстановление» мгновенно восполняет здоровье."
+    },
+    "MalfurionMasteryLunarShower|MalfurionMoonfireLunarShowerTalent|W|Level20": {
+      "fullText": "Если «Лунный огонь» поражает героя, время его восстановления сокращается на <c val=\"#TooltipNumbers\">1</c> сек., а следующий «Лунный огонь», использованный в течение <c val=\"#TooltipNumbers\">6</c> сек., наносит на <c val=\"#TooltipNumbers\">20%</c> больше урона. Суммируется до <c val=\"#TooltipNumbers\">60%</c>.",
+      "name": "Лунный поток",
+      "shortText": "Каждое следующее использование «Лунного огня» становится эффективнее."
+    }
+  },
+  "units": {
+    "MalfurionEntanglingRootsVengefulRootsTreant": {
+      "name": "Древень"
+    }
+  }
+}

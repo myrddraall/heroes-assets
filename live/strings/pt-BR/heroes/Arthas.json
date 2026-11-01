@@ -1,0 +1,209 @@
+{
+  "abilities": {
+    "ArthasDeathCoil|ArthasDeathCoil|Q": {
+      "cooldownText": "Recarga: 9 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 40</s>",
+      "fullText": "Causa <c val=\"#TooltipNumbers\">164</c><c val=\"#ColorGray\">~~0.04~~</c> de dano ao inimigo.<n/><n/>Pode ser lançada em si mesmo para curar <c val=\"#TooltipNumbers\">275</c><c val=\"#ColorGray\">~~0.04~~</c> de Vida.",
+      "name": "Espiral da Morte",
+      "shortText": "Causa dano a um alvo ou cura o Arthas"
+    },
+    "ArthasHowlingBlast|ArthasHowlingBlast|W": {
+      "cooldownText": "Recarga: 10 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Enraíza os inimigos na área por <c val=\"#TooltipNumbers\">1.25</c> segundo e causa <c val=\"#TooltipNumbers\">68</c><c val=\"#ColorGray\">~~0.04~~</c> de dano.",
+      "name": "Impacto Uivante",
+      "shortText": "Enraíza e causa dano aos inimigos em uma área"
+    },
+    "ArthasFrozenTempest|ArthasFrozenTempest|E": {
+      "cooldownText": "Recarga: 1 segundo",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 13 por segundo</s>",
+      "fullText": "Causa <c val=\"#TooltipNumbers\">36</c><c val=\"#ColorGray\">~~0.04~~</c> de dano por segundo aos inimigos próximos e os desacelera em <c val=\"#TooltipNumbers\">10%</c> por segundo, acumulando até <c val=\"#TooltipNumbers\">40%</c>. Os Heróis atingidos também têm a Velocidade de Ataque reduzida em <c val=\"#TooltipNumbers\">10%</c> por segundo, acumulando até <c val=\"#TooltipNumbers\">40%</c>. Os efeitos da Tempestade Congelada duram <c val=\"#TooltipNumbers\">1.5</c> s.",
+      "name": "Tempestade Congelada",
+      "shortText": "Causa dano e desacelera inimigos próximos. Sorve Mana enquanto está ativa"
+    },
+    "ArthasArmyOfTheDead|ArthasArmyOfTheDead|Heroic": {
+      "cooldownText": "Recarga: 18 s",
+      "fullText": "Consome todas as cargas para evocar a mesma quantidade de Carniçais que perdem vida ao longo de <c val=\"#TooltipNumbers\">20</c> s e atacam por <c val=\"#TooltipNumbers\">20</c><c val=\"#ColorGray\">~~0.04~~</c> de dano. Reativa para sacrificar um carniçal, curando Arthas em <c val=\"#TooltipNumbers\">240</c><c val=\"#ColorGray\">~~0.04~~</c> de vida. Acumula até <c val=\"#TooltipNumbers\">6</c> cargas.<n/><n/>Sempre que uma tropa inimiga próxima morre, reduz a recarga dessa habilidade em <c val=\"#TooltipNumbers\">1</c> s. Abates reduzem a recarga dessa habilidade em <c val=\"#TooltipNumbers\">6</c> s.",
+      "name": "Exército dos Mortos",
+      "shortText": "Ergue carniçais que lutam contra os inimigos e curam o Arthas"
+    },
+    "ArthasSummonSindragosa|ArthasSummonSindragosa|Heroic": {
+      "cooldownText": "Recarga: 100 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 100</s>",
+      "fullText": "Causa <c val=\"#TooltipNumbers\">230</c><c val=\"#ColorGray\">~~0.04~~</c> de dano e desacelera os inimigos em <c val=\"#TooltipNumbers\">60%</c> por <c val=\"#TooltipNumbers\">4</c> s. Além disso, desabilita Tropas, Mercenários, Monstros e Estruturas por <c val=\"#TooltipNumbers\">20</c> s.",
+      "name": "Evocar Sindragosa",
+      "shortText": "Desativa inimigos e Estruturas"
+    },
+    "ArthasFrostmourneHungers|ArthasFrostmourneHungers|Trait": {
+      "cooldownText": "Recarga: 12 segundos",
+      "fullText": "Ative para desferir imediatamente o próximo Ataque Básico de Arthas, causando <c val=\"#TooltipNumbers\">71</c><c val=\"#ColorGray\">~~0.04~~</c> a mais de dano. Restaura <c val=\"#TooltipNumbers\">40</c> de Mana ao causar dano.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Missão:</c> matar uma Tropa ou atingir um Herói com o Gélido Lamento Tem Fome aumenta o dano extra dele em <c val=\"#TooltipNumbers\">3</c> e o dano do Ataque Básico de Arthas permanentemente em <c val=\"#TooltipNumbers\">0.75</c>.",
+      "name": "Gélido Lamento tem Fome",
+      "shortText": "Ative para fortalecer o próximo ataque e restaurar Mana ao acertar"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Recarga: 4 segundos",
+      "fullText": "Depois de canalizar por <c val=\"#TooltipNumbers\">1</c> s, ganha <s val=\"StandardTooltipDetails\">30%</s> de Velocidade de Movimento.",
+      "name": "Evocar Montaria"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Depois de canalizar por <c val=\"#TooltipNumbers\">6</c> s, teleporta você de volta para o Salão das Tempestades, restaurando instantaneamente <c val=\"#TooltipNumbers\">1125</c> de Vida e <c val=\"#TooltipNumbers\">150</c> de Mana.",
+      "name": "Pedra de Regresso"
+    },
+    "ArthasFrozenTempestCancel|ArthasFrozenTempestDeactive|E": {
+      "cooldownText": "Recarga: 1 segundo",
+      "fullText": "Cancela a habilidade Tempestade Congelada.",
+      "name": "Cancelar Tempestade Congelada"
+    },
+    "ArthasArmyOfTheDeadSacrifice|ArthasArmyOfTheDeadSacrifice|Heroic": {
+      "cooldownText": "Recarga: 2 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 15</s>",
+      "fullText": "Sacrifica um Carniçal para restaurar <c val=\"#TooltipNumbers\">240</c><c val=\"#ColorGray\">~~0.04~~</c> de Vida.",
+      "name": "Sacrifício",
+      "shortText": "Sacrifica um Carniçal para se curar"
+    },
+    ":PASSIVE:|ArthasFrostmourneHungersPrimed|Trait": {
+      "fullText": "O próximo Ataque Básico causa <c val=\"#TooltipNumbers\">71</c><c val=\"#ColorGray\">~~0.04~~</c> de dano extra. Causar dano restaura <c val=\"#TooltipNumbers\">40</c> de Mana.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Missão:</c> Matar uma Tropa ou atingir um Herói com um Gélido Lamento Tem Fome aumenta o dano extra e o dano do Ataque Básico de Arthas em <c val=\"#TooltipNumbers\">3</c>.",
+      "name": "Gélido Lamento Tem Fome - Preparada"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Desmonta você.",
+      "name": "Dispensar Montaria"
+    },
+    "ArthasIceboundFortitude|ArthasIceboundFortitudeTalent|Active": {
+      "cooldownText": "Recarga: 35 segundos",
+      "fullText": "Ative para remover instantaneamente todas as raízes e desacelerações. Ganhe <c val=\"#TooltipNumbers\">25</c> de Armadura e reduza a duração de atordoamentos, desacelerações e enraizamentos contra Arthas em <c val=\"#TooltipNumbers\">75%</c> por <c val=\"#TooltipNumbers\">3</c> s.<n/><n/>Cada Herói enraizado por Impacto Uivante reduz a recarga dessa habilidade em <c val=\"#TooltipNumbers\">2</c> s.",
+      "name": "Fortitude Gélida",
+      "shortText": "Ative para receber Armadura, reduzir efeitos debilitantes"
+    },
+    "ArthasAntiMagicShell|ArthasAntiMagicShellTalent|Active": {
+      "cooldownText": "Recarga: 60 segundos",
+      "fullText": "Ative para que o Arthas fique imune a Dano Mágico por <c val=\"#TooltipNumbers\">4</c> s e se cure em <c val=\"#TooltipNumbers\">25%</c> do dano prevenido.",
+      "name": "Carapaça Antimagia",
+      "shortText": "Ative para ficar imune a Dano Mágico"
+    },
+    "ArthasPathofFrost|ArthasPathofFrost|Active": {
+      "cooldownText": "Recarga: 60 segundos",
+      "fullText": "Ativa para montar imediatamente com <c val=\"#TooltipNumbers\">140%</c> de Velocidade de Movimento mínima. Receber dano não faz Arthas desmontar de sua montaria. Dura até <c val=\"#TooltipNumbers\">5</c> s.<n/><n/>Quando Arthas desmonta, desacelera todos os inimigos próximos em <c val=\"#TooltipNumbers\">30%</c> por <c val=\"#TooltipNumbers\">2</c> s e causa <c val=\"#TooltipNumbers\">66</c><c val=\"#ColorGray\">~~0.04~~</c> de dano.",
+      "name": "Caminho Gélido",
+      "shortText": "Ganha montaria potencializada, desacelera inimigos próximos"
+    }
+  },
+  "talents": {
+    "ArthasMasteryFrostPresenceHowlingBlast|ArthasFrostPresenceHowlingBlastTalent|W|Level1": {
+      "fullText": "Aumenta a área de Impacto Uivante em <c val=\"#TooltipNumbers\">20%</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Missão:</c> Atingir Heróis inimigos com Impacto Uivante.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa:</c> Após atingir <c val=\"#TooltipNumbers\">15</c> Heróis, o alcance do Impacto Uivante aumenta em <c val=\"#TooltipNumbers\">20%</c> e atinge inimigos no caminho.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa:</c> Após atingir <c val=\"#TooltipNumbers\">30</c> Heróis, Espiral da Morte desacelera Heróis atingidos em <c val=\"#TooltipNumbers\">50%</c> por <c val=\"#TooltipNumbers\">1.25</c> s.",
+      "name": "Presença Gélida",
+      "shortText": "<c val=\"#TooltipQuest\">Missão:</c> Enraizar Heróis potencializa Impacto Uivante, Espiral da Morte"
+    },
+    "ArthasBoreanWinds|ArthasBoreanWinds|E|Level1": {
+      "fullText": "Após <c val=\"#TooltipNumbers\">2</c> s de atividade da Tempestade Congelada, Arthas ganha <c val=\"#TooltipNumbers\">10%</c> de Velocidade de Movimento.<n/><n/><c val=\"#AbilityPassive\">Passiva: </c>Os efeitos de desaceleração da Tempestade Congelada duram <c val=\"#TooltipNumbers\">0.5</c> s a mais e seu custo de Mana é reduzido em <c val=\"#TooltipNumbers\">4</c> por segundo.",
+      "name": "Ventos Bóreos",
+      "shortText": "Tempestade Congelada aumenta a Velocidade de Movimento"
+    },
+    "ArthasRime|ArthasRime|Passive|Level1": {
+      "fullText": "A cada <c val=\"#TooltipNumbers\">5</c> s, ganha <c val=\"#TooltipNumbers\">75</c> de Armadura Física contra o próximo Ataque Básico de um Herói inimigo, reduzindo o dano recebido em <c val=\"#TooltipNumbers\">75%</c>. Acumula até <c val=\"#TooltipNumbers\">3</c> cargas.<n/><n/><c val=\"#AbilityPassive\">Passiva: </c>Arthas se cura em <c val=\"#TooltipNumbers\">24</c><c val=\"#ColorGray\">~~0.04~~</c> de sua Vida por segundo enquanto estiver desacelerado, enraizado ou atordoado.",
+      "name": "Geada",
+      "shortText": "Ganha Armadura Física e Vida periodicamente"
+    },
+    "ArthasShatteredArmor|ArthasShatteredArmor|W|Level4": {
+      "fullText": "Heróis inimigos atingidos pelo Impacto Uivante perdem <c val=\"#TooltipNumbers\">15</c> de Armadura por <c val=\"#TooltipNumbers\">4</c> s.",
+      "name": "Armadura Estilhaçada",
+      "shortText": "Impacto Uivante reduz Armadura"
+    },
+    "ArthasIcyTalons|ArthasIcyTalons|E|Level4": {
+      "fullText": "Ganha <c val=\"#TooltipNumbers\">3%</c> de Velocidade de Ataque por <c val=\"#TooltipNumbers\">2</c> s sempre que um Herói receber dano da Tempestade Congelada, até um máximo de <c val=\"#TooltipNumbers\">60%</c>. ",
+      "name": "Garras Gélidas",
+      "shortText": "Tempestade Congelada aumenta a Velocidade de Ataque"
+    },
+    "ArthasMasteryFrostStrikeFrostmourneHungers|ArthasFrostStrikeFrostmourneHungersTalent|Trait|Level4": {
+      "fullText": "Gélido Lamento Tem Fome causa <c val=\"#TooltipNumbers\">115</c><c val=\"#ColorGray\">~~0.04~~</c> a mais de Dano Mágico em uma área e desacelera Heróis inimigos atingidos em <c val=\"#TooltipNumbers\">20%</c> por <c val=\"#TooltipNumbers\">2</c> s.",
+      "name": "Golpe Gélido",
+      "shortText": "Gélido Lamento Tem Fome causa dano à área e desacelera"
+    },
+    "ArthasMasteryImmortalCoilDeathCoil|ArthasImmortalCoilDeathCoilTalent|Q|Level7": {
+      "fullText": "Ganha o efeito de cura da Espiral da Morte mesmo quando usada em inimigos. Se a Espiral da Morte for usada em Arthas, ela concederá <c val=\"#TooltipNumbers\">75%</c> de bônus de cura e sua recarga será reduzida em <c val=\"#TooltipNumbers\">3</c> s.",
+      "name": "Espiral Imortal",
+      "shortText": "Espiral da Morte sempre cura"
+    },
+    "ArthasRuneTap|ArthasRuneTapTalent|Passive|Level7": {
+      "fullText": "A cada <c val=\"#TooltipNumbers\">3º</c> Ataque Básico, Arthas se cura em <c val=\"#TooltipNumbers\">5%</c> de seu máximo de vida.<n/><n/><c val=\"#AbilityPassive\">Passiva: </c>Cada aplicação de Gélido Lamento Tem Fome aumenta o máximo de Vida de Arthas em <c val=\"#TooltipNumbers\">10</c>.",
+      "name": "Transfusão Rúnica",
+      "shortText": "Ataques Básicos consecutivos curam, Vida aumentada"
+    },
+    "ArthasIceboundFortitude|ArthasIceboundFortitudeTalent|Active|Level7": {
+      "cooldownText": "Recarga: 35 segundos",
+      "fullText": "Ative para remover instantaneamente todas as raízes e desacelerações. Ganhe <c val=\"#TooltipNumbers\">25</c> de Armadura e reduza a duração de atordoamentos, desacelerações e enraizamentos contra Arthas em <c val=\"#TooltipNumbers\">75%</c> por <c val=\"#TooltipNumbers\">3</c> s.<n/><n/>Cada Herói enraizado por Impacto Uivante reduz a recarga dessa habilidade em <c val=\"#TooltipNumbers\">2</c> s.",
+      "name": "Fortitude Gélida",
+      "shortText": "Ative para receber Armadura, reduzir efeitos debilitantes"
+    },
+    "ArthasHeroicAbilityArmyoftheDead|ArthasArmyOfTheDead|Heroic|Level10": {
+      "cooldownText": "Recarga: 18 s",
+      "fullText": "Consome todas as cargas para evocar a mesma quantidade de Carniçais que perdem vida ao longo de <c val=\"#TooltipNumbers\">20</c> s e atacam por <c val=\"#TooltipNumbers\">20</c><c val=\"#ColorGray\">~~0.04~~</c> de dano. Reativa para sacrificar um carniçal, curando Arthas em <c val=\"#TooltipNumbers\">240</c><c val=\"#ColorGray\">~~0.04~~</c> de vida. Acumula até <c val=\"#TooltipNumbers\">6</c> cargas.<n/><n/>Sempre que uma tropa inimiga próxima morre, reduz a recarga dessa habilidade em <c val=\"#TooltipNumbers\">1</c> s. Abates reduzem a recarga dessa habilidade em <c val=\"#TooltipNumbers\">6</c> s.",
+      "name": "Exército dos Mortos",
+      "shortText": "Ergue carniçais que lutam contra os inimigos e curam o Arthas"
+    },
+    "ArthasHeroicAbilitySummonSindragosa|ArthasSummonSindragosa|Heroic|Level10": {
+      "cooldownText": "Recarga: 100 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 100</s>",
+      "fullText": "Causa <c val=\"#TooltipNumbers\">230</c><c val=\"#ColorGray\">~~0.04~~</c> de dano e desacelera os inimigos em <c val=\"#TooltipNumbers\">60%</c> por <c val=\"#TooltipNumbers\">4</c> s. Além disso, desabilita Tropas, Mercenários, Monstros e Estruturas por <c val=\"#TooltipNumbers\">20</c> s.",
+      "name": "Evocar Sindragosa",
+      "shortText": "Desativa inimigos e Estruturas"
+    },
+    "ArthasDeathlord|ArthasDeathlord|Q|Level13": {
+      "fullText": "Se a Espiral da Morte for usada em um Herói inimigo, ela lança uma Espiral da Morte adicional contra um Herói inimigo próximo.<n/><n/><c val=\"#AbilityPassive\">Passivo:</c> O dano da Espiral da Morte aumenta em proporção inversa à Vida atual de Arthas, até um máximo de <c val=\"#TooltipNumbers\">50%</c> de dano extra.",
+      "name": "Senhor da Morte",
+      "shortText": "Espiral da Morte atinge um Herói a mais, dano aumentado"
+    },
+    "ArthasDeathchill|ArthasDeathchill|W|Level13": {
+      "fullText": "O dano de Impacto Uivante é aumentado em <c val=\"#TooltipNumbers\">2</c> por cada aplicação de Gélido Lamento Tem Fome. <n/><n/>Impacto Uivante causa <c val=\"#TooltipNumbers\">100%</c> a mais de dano e causa enraizamento por <c val=\"#TooltipNumbers\">0.25</c> s a mais contra Heróis com menos que <c val=\"#TooltipNumbers\">50%</c> de Vida.",
+      "name": "Criomortis",
+      "shortText": "Dano de Impacto Uivante aumentado, mais contra Heróis com pouca Vida"
+    },
+    "ArthasMasteryBitingColdFrozenTempest|ArthasBitingColdFrozenTempestTalent|E|Level13": {
+      "fullText": "A cada segundo que um inimigo receber dano da Tempestade Congelada, ela causará <c val=\"#TooltipNumbers\">15%</c> a mais de dano, até um bônus máximo de <c val=\"#TooltipNumbers\">75%</c>.",
+      "name": "Frio Penetrante",
+      "shortText": "Dano de Tempestade Congelada aumentado"
+    },
+    "ArthasMasteryRemorselessWinterFrozenTempest|ArthasRemorselessWinterFrozenTempestTalent|E|Level16": {
+      "fullText": "Heróis inimigos que permanecem dentro da Tempestade Congelada por <c val=\"#TooltipNumbers\">2,5</c> s ficam enraizados por <c val=\"#TooltipNumbers\">1.25</c> s e Arthas se cura em <c val=\"#TooltipNumbers\">3%</c> do seu máximo de Vida. Esse efeito tem uma recarga de <c val=\"#TooltipNumbers\">8</c> s por alvo.",
+      "name": "Inverno Impiedoso",
+      "shortText": "Tempestade Congelada pode enraizar Heróis inimigos, cura Arthas"
+    },
+    "ArthasMasteryFrostmourneFeedsFrostmourneHungers|ArthasFrostmourneFeedsFrostmourneHungersTalents|Trait|Level16": {
+      "fullText": "Reduz a recarga de Gélido Lamento Tem Fome em <c val=\"#TooltipNumbers\">6</c> s. Arthas cura em <c val=\"#TooltipNumbers\">75%</c> do dano do Ataque Básico causado por Gélido Lamento Tem Fome.",
+      "name": "Gélido Lamento se Alimenta",
+      "shortText": "Reduz a recarga de Gélido Lamento Tem Fome, cura Arthas"
+    },
+    "ArthasAntiMagicShell|ArthasAntiMagicShellTalent|Active|Level16": {
+      "cooldownText": "Recarga: 60 segundos",
+      "fullText": "Ative para que o Arthas fique imune a Dano Mágico por <c val=\"#TooltipNumbers\">4</c> s e se cure em <c val=\"#TooltipNumbers\">25%</c> do dano prevenido.",
+      "name": "Carapaça Antimagia",
+      "shortText": "Ative para ficar imune a Dano Mágico"
+    },
+    "ArthasMasteryLegionOfNorthrendArmyoftheDead|ArthasLegionOfNorthrendArmyOfTheDeadTalent|Heroic|Level20": {
+      "fullText": "Reduz a recarga de Exército dos Mortos em <c val=\"#TooltipNumbers\">5</c> s.<n/><n/>Cada carga consumida cria um Carniçal extra para atacar inimigos próximos. Esses Carniçais não podem ser sacrificados.",
+      "name": "Legião de Nortúndria",
+      "shortText": "Reduz a recarga da carga de Exército dos Mortos, cria mais Carniçais"
+    },
+    "ArthasMasteryAbsoluteZeroSummonSindragosa|ArthasAbsoluteZeroSummonSindragosaTalent|Heroic|Level20": {
+      "fullText": "Sindragosa voa o dobro da distância. Heróis inimigos ficam enraizados por <c val=\"#TooltipNumbers\">2.5</c> s, então são desacelerados em <c val=\"#TooltipNumbers\">60%</c> por <c val=\"#TooltipNumbers\">4</c> s.",
+      "name": "Zero Absoluto",
+      "shortText": "Aumenta o alcance e a duração dos efeitos debilitantes de Sindragosa"
+    },
+    "ArthasDeathPact|ArthasDeathPact|Trait|Level20": {
+      "fullText": "Dobra suas aplicações de Gélido Lamento Tem Fome instantaneamente, mas não ganha mais aplicações ao atingir Heróis ou matar Tropas.<n/><n/><c val=\"#AbilityPassive\">Passiva: </c>Abates concedem <c val=\"#TooltipNumbers\">2</c> aplicações de Gélido Lamento Tem Fome.",
+      "name": "Pacto da Morte",
+      "shortText": "Dobra as aplicações de Gélido Lamento Tem Fome "
+    },
+    "ArthasPathofFrost|ArthasPathofFrost|Active|Level20": {
+      "cooldownText": "Recarga: 60 segundos",
+      "fullText": "Ativa para montar imediatamente com <c val=\"#TooltipNumbers\">140%</c> de Velocidade de Movimento mínima. Receber dano não faz Arthas desmontar de sua montaria. Dura até <c val=\"#TooltipNumbers\">5</c> s.<n/><n/>Quando Arthas desmonta, desacelera todos os inimigos próximos em <c val=\"#TooltipNumbers\">30%</c> por <c val=\"#TooltipNumbers\">2</c> s e causa <c val=\"#TooltipNumbers\">66</c><c val=\"#ColorGray\">~~0.04~~</c> de dano.",
+      "name": "Caminho Gélido",
+      "shortText": "Ganha montaria potencializada, desacelera inimigos próximos"
+    }
+  },
+  "units": {
+    "ArthasArmyOfTheDeadGhoul": {
+      "name": "Carniçal"
+    }
+  }
+}

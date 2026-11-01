@@ -1,0 +1,174 @@
+{
+  "abilities": {
+    "ProbiusDisruptionPulse|ProbiusDisruptionPulse|Q": {
+      "cooldownText": "Tiempo de reutilización: 3 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 75</s>",
+      "fullText": "Dispara una ráfaga de energía hacia adelante que inflige <c val=\"#TooltipNumbers\">142</c><c val=\"#ColorGray\">~~0.05~~</c> de daño a todos los enemigos que atraviesa.<n/><n/>Si golpea el centro de una Fisura de transposición, la detona e inflige más daño.",
+      "name": "Pulso disruptor",
+      "shortText": "Dispara un misil en línea recta que daña a los enemigos y detona las Fisuras de transposición"
+    },
+    "ProbiusWarpRift|ProbiusWarpRift|W": {
+      "cooldownText": "Tiempo de reutilización de carga: 6 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 150</s>",
+      "fullText": "Abre una Fisura de transposición inestable en una ubicación que se arma en <c val=\"#TooltipNumbers\">1.25 </c>segundos, lo que ralentiza a los enemigos cercanos un <c val=\"#TooltipNumbers\">25%</c> durante <c val=\"#TooltipNumbers\">3</c> segundos.<n/><n/>Las Fisuras de transposición armadas explotan al expirar o si las golpea un Pulso disruptor, e infligen <c val=\"#TooltipNumbers\">261</c><c val=\"#ColorGray\">~~0.05~~</c> de daño a los enemigos cercanos.",
+      "name": "Fisura de transposición",
+      "shortText": "Crea una fisura que ralentiza a los enemigos y puede detonarse con Pulso disruptor"
+    },
+    "ProbiusPhotonCannon|ProbiusPhotonCannon|E": {
+      "cooldownText": "Tiempo de reutilización: 15 segundos",
+      "fullText": "Transposiciona un Cañón de fotones que inflige <c val=\"#TooltipNumbers\">105</c><c val=\"#ColorGray\">~~0.04~~</c> de daño. Dura <c val=\"#TooltipNumbers\">13</c> segundos.<n/><n/>Dentro del campo de energía de un Pilón, los Cañones de fotones reciben un <c val=\"#TooltipNumbers\">40%</c> de velocidad de ataque durante <c val=\"#TooltipNumbers\">4</c> segundos y revelan a los enemigos cercanos.",
+      "name": "Cañón de fotones",
+      "shortText": "Crea un cañón que ataca a los enemigos cercanos"
+    },
+    "ProbiusPylonOvercharge|ProbiusPylonOvercharge|Heroic": {
+      "cooldownText": "Tiempo de reutilización: 80 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 100</s>",
+      "fullText": "Durante <c val=\"#TooltipNumbers\">8</c> segundos, aumenta el tamaño de los campos de energía de los Pilones y les permite atacar a los héroes enemigos que están a su alcance por <c val=\"#TooltipNumbers\">96</c><c val=\"#ColorGray\">~~0.04~~</c> de daño por segundo. Los Pilones se vuelven invulnerables durante el transcurso de la habilidad.",
+      "name": "Sobrecarga de Pilón",
+      "shortText": "Pilones ofensivos"
+    },
+    "ProbiusNullGate|ProbiusNullGate|Heroic": {
+      "cooldownText": "Tiempo de reutilización: 25 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 100</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">Selección de objetivos con vector</c><n/>Proyecta una barrera de energía negativa en la dirección objetivo que dura <c val=\"#TooltipNumbers\">4</c> segundos. A los enemigos que tocan la barrera se les inflige <c val=\"#TooltipNumbers\">76</c><c val=\"#ColorGray\">~~0.04~~</c> de daño por segundo y son ralentizados un <c val=\"#TooltipNumbers\">80%</c> mientras sigan en contacto con ella.",
+      "name": "Portal anulador",
+      "shortText": "Crea una barrera que ralentiza"
+    },
+    "ProbiusWarpInPylon|ProbiusWarpInPylon|Trait": {
+      "cooldownText": "Tiempo de reutilización: 14 segundos",
+      "fullText": "Transposiciona un Pilón que genera un campo de energía y otorga visión del área circundante. Sondius solo regenera maná dentro de un campo de energía. Los esbirros y héroes enemigos sueltan minerales cuando mueren. Recoge minerales para reducir el tiempo de reutilización de Transposicionar Pilón <c val=\"#TooltipNumbers\">0.75</c> segundos.<n/><n/>Puede haber un máximo de <c val=\"#TooltipNumbers\">2</c> Pilones activos a la vez.",
+      "name": "Transposicionar Pilón",
+      "shortText": "Invoca un Pilón que reenergiza a Sondius y permite la construcción de otras edificaciones"
+    },
+    "ProbiusWorkerRush|ProbiusWorkerRush|Z": {
+      "cooldownText": "Tiempo de reutilización: 30 segundos",
+      "fullText": "Actívalo para obtener un <c val=\"#TooltipNumbers\">60%</c> más de velocidad de movimiento durante <c val=\"#TooltipNumbers\">5</c> segundos. El efecto se interrumpe de forma anticipada si recibes daño. Obrero veloz siempre está activo mientras estás en la Sala de las tormentas.<n/><n/><c val=\"#AbilityPassive\">Pasivo: </c>Sondius se mueve un <c val=\"#TooltipNumbers\">10%</c> más rápido y flota por encima del terreno.",
+      "name": "Obrero veloz",
+      "shortText": "Más velocidad de movimiento pasiva. Actívalo para moverte más rápido."
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Tras una canalización de <c val=\"#TooltipNumbers\">6</c> segundos, te teletransportas de regreso a la Sala de las tormentas para recuperar <c val=\"#TooltipNumbers\">1125</c> de salud y <c val=\"#TooltipNumbers\">150</c> de maná de inmediato.",
+      "name": "Piedra de hogar"
+    }
+  },
+  "talents": {
+    "ProbiusEchoPulseDisruptionPulse|ProbiusEchoPulseDisruptionPulseTalent|Q|Level1": {
+      "fullText": "Ahora Pulso disruptor regresa a Sondius <c val=\"#TooltipNumbers\">1.25</c> segundos después de llegar a su objetivo e inflige un <c val=\"#TooltipNumbers\">100%</c> de daño al regresar.",
+      "name": "Pulso ecoico",
+      "shortText": "Pulso disruptor regresa a Sondius"
+    },
+    "ProbiusWarpResonanceWarpRiftQuest|ProbiusWarpRiftWarpResonanceQuestTalent|W|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Misión: </c>Golpea a héroes con explosiones de Fisura de transposición.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa: </c>Después de golpear a <c val=\"#TooltipNumbers\">8</c> héroes con las explosiones de Fisura de transposición, aumenta el daño de explosión en <c val=\"#TooltipNumbers\">120</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa: </c>Después de golpear a <c val=\"#TooltipNumbers\">16</c> héroes con las explosiones de Fisura de transposición, la habilidad obtiene <c val=\"#TooltipNumbers\">1</c> carga adicional.",
+      "name": "Resonancia transposicional",
+      "shortText": "<c val=\"#TooltipQuest\"> Misión:</c> Detona Fisura de transposición sobre héroes"
+    },
+    "ProbiusGatherMineralsPhotonCannonQuest|ProbiusGatherMineralsPhotonCannonQuestTalent|E|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Misión: </c>Recoge minerales para aumentar la salud de los Cañones de fotones en <c val=\"#TooltipNumbers\">8</c>, hasta un máximo de <c val=\"#TooltipNumbers\">560</c>. <n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa:</c> Si recolectas <c val=\"#TooltipNumbers\">70</c> minerales, los Cañones de fotones infligen un <c val=\"#TooltipNumbers\">35%</c> más de daño.",
+      "name": "Recoger minerales",
+      "shortText": "<c val=\"#TooltipQuest\">Misión: </c>Recoge minerales para potenciar los Cañones de fotones"
+    },
+    "ProbiusPhotonBarrierPhotonCannon|ProbiusPhotonBarrierPhotonCannonTalent|E|Level4": {
+      "fullText": "Cuando un Cañón de fotones está activo y energizado, Sondius obtiene <c val=\"#TooltipNumbers\">40</c> de Armadura especial",
+      "name": "Barrera de fotones",
+      "shortText": "Los Cañones de fotones activos otorgan Armadura especial"
+    },
+    "ProbiusTurboChargedWorkerRush|ProbiusTurboChargedWorkerRushTalent|Z|Level4": {
+      "fullText": "Obrero veloz otorga un <c val=\"#TooltipNumbers\">10%</c> más de velocidad de movimiento de forma pasiva dentro de un campo de energía, y su tiempo de reutilización se reduce <c val=\"#TooltipNumbers\">14 </c>segundos.",
+      "name": "Turbocargado",
+      "shortText": "Te mueves más rápido y se reduce la reutilización de Obrero veloz"
+    },
+    "ProbiusShieldCapacitor|ProbiusShieldCapacitorTalent|Trait|Level4": {
+      "fullText": "Sondius obtiene escudos permanentes que equivalen al <c val=\"#TooltipNumbers\">10% </c>de su vida máxima. Los escudos se regeneran con rapidez si no ha recibido daño recientemente.",
+      "name": "Capacitor de escudos",
+      "shortText": "Obtienes escudos permanentes"
+    },
+    "ProbiusParticleAcceleratorDisruptionPulse|ProbiusParticleAcceleratorDisruptionPulseTalent|Q|Level7": {
+      "fullText": "Después de golpear a <c val=\"#TooltipNumbers\">3</c> héroes con Pulso disruptor, la siguiente Fisura de transposición detonada por un Pulso disruptor dispara <c val=\"#TooltipNumbers\">4</c> pulsos adicionales que infligen <c val=\"#TooltipNumbers\">78</c><c val=\"#ColorGray\">~~0.05~~</c> de daño desde el lugar del impacto en diferentes direcciones.<n/><n/><c val=\"#AbilityPassive\">Pasivo:</c> Reduce el tiempo de reutilización de Pulso disruptor <c val=\"#TooltipNumbers\">0.5</c> segundos.",
+      "name": "Acelerador de partículas",
+      "shortText": "Pulso disruptor puede disparar pulsos adicionales"
+    },
+    "ProbiusRiftShockWarpRift|ProbiusRiftShockWarpRiftTalent|W|Level7": {
+      "fullText": "Si Pulso disruptor golpea una Fisura de transposición en un lapso de <c val=\"#TooltipNumbers\">1</c> segundo tras armarse inflige <c val=\"#TooltipNumbers\">105</c><c val=\"#ColorGray\">~~0.05~~</c> de daño durante <c val=\"#TooltipNumbers\">3</c> segundos.",
+      "name": "Impacto de fisura",
+      "shortText": "Detonar Fisuras de transposición rápidamente inflige daño adicional"
+    },
+    "ProbiusTowerDefensePhotonCannon|ProbiusTowerDefensePhotonCannonTalent|E|Level7": {
+      "fullText": "Cuando Pulso disruptor o Fisura de transposición infligen daño a un héroe enemigo, el tiempo de reutilización de Cañón de fotones se reduce <c val=\"#TooltipNumbers\">3.5</c> segundos.",
+      "name": "Defensa con torres",
+      "shortText": "Reduce la reutilización de Cañón de fotones"
+    },
+    "ProbiusPylonOverchargeHeroic|ProbiusPylonOvercharge|Heroic|Level10": {
+      "cooldownText": "Tiempo de reutilización: 80 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 100</s>",
+      "fullText": "Durante <c val=\"#TooltipNumbers\">8</c> segundos, aumenta el tamaño de los campos de energía de los Pilones y les permite atacar a los héroes enemigos que están a su alcance por <c val=\"#TooltipNumbers\">96</c><c val=\"#ColorGray\">~~0.04~~</c> de daño por segundo. Los Pilones se vuelven invulnerables durante el transcurso de la habilidad.",
+      "name": "Sobrecarga de Pilón",
+      "shortText": "Pilones ofensivos"
+    },
+    "ProbiusNullGateHeroic|ProbiusNullGate|Heroic|Level10": {
+      "cooldownText": "Tiempo de reutilización: 25 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 100</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">Selección de objetivos con vector</c><n/>Proyecta una barrera de energía negativa en la dirección objetivo que dura <c val=\"#TooltipNumbers\">4</c> segundos. A los enemigos que tocan la barrera se les inflige <c val=\"#TooltipNumbers\">76</c><c val=\"#ColorGray\">~~0.04~~</c> de daño por segundo y son ralentizados un <c val=\"#TooltipNumbers\">80%</c> mientras sigan en contacto con ella.",
+      "name": "Portal anulador",
+      "shortText": "Crea una barrera que ralentiza"
+    },
+    "ProbiusAggressiveMatrixWarpInPylon|ProbiusPylonAggressiveMatrixWarpInPylonTalent|Trait|Level13": {
+      "fullText": "El campo de energía del Pilón otorga a los héroes aliados un <c val=\"#TooltipNumbers\">35%</c> más de daño de ataque.",
+      "name": "Matriz agresiva",
+      "shortText": "Los campos de energía otorgan daño de ataque"
+    },
+    "ProbiusPowerOverflowingWarpInPylon|ProbiusPowerOverflowingWarpInPylonTalent|Trait|Level13": {
+      "fullText": "El campo de energía del Pilón otorga a los héroes aliados un<c val=\"#TooltipNumbers\"> 10%</c> más de poder de habilidad especial y <c val=\"#TooltipNumbers\">2</c> de maná por segundo.",
+      "name": "Poder rebosante",
+      "shortText": "Los campos de energía otorgan poder de habilidad especial y maná"
+    },
+    "ProbiusShieldBatteryWarpInPylon|ProbiusShieldBatteryWarpInPylonTalent|Trait|Level13": {
+      "fullText": "El campo de energía del Pilón otorga a los héroes aliados <c val=\"#TooltipNumbers\">28</c><c val=\"#ColorGray\">~~0.04~~</c> escudos por segundo, hasta un máximo de <c val=\"#TooltipNumbers\">112</c><c val=\"#ColorGray\">~~0.04~~</c>. Los escudos perduran durante <c val=\"#TooltipNumbers\">2</c> segundos después de abandonar el campo de energía del Pilón.",
+      "name": "Batería de escudos",
+      "shortText": "Los campos de energía otorgan escudos"
+    },
+    "ProbiusQuantumEntanglementWarpRift|ProbiusQuantumEntanglementWarpRiftTalent|W|Level16": {
+      "fullText": "Los enemigos permanecen ralentizados durante <c val=\"#TooltipNumbers\">3</c> segundos después de haber estado en contacto con una Fisura de transposición.",
+      "name": "Cruce cuántico",
+      "shortText": "La ralentización de Fisura de transposición perdura"
+    },
+    "ProbiusGravityWellWarpRift|ProbiusGravityWellWarpRiftTalent|W|Level16": {
+      "fullText": "La ralentización de los enemigos es mayor cuanto más cerca estén del centro de la Fisura de transposición, hasta una ralentización máxima del <c val=\"#TooltipNumbers\">60%</c>.",
+      "name": "Pozo de gravedad",
+      "shortText": "Aumenta la ralentización de Fisura de transposición en el centro"
+    },
+    "ProbiusInterferenceWarpRift|ProbiusInterferenceWarpRiftTalent|W|Level16": {
+      "fullText": "Los héroes enemigos golpeados por las explosiones de Fisura de transposición tienen un <c val=\"#TooltipNumbers\">35%</c> menos de poder de habilidad especial durante <c val=\"#TooltipNumbers\">5</c> segundos. Además, los enemigos golpeados por las explosiones de Fisura de transposición son repelidos del centro.",
+      "name": "Interferencia",
+      "shortText": "Las explosiones de Fisura de transposición reducen el poder de habilidad especial del enemigo y repelen"
+    },
+    "ProbiusConstructAdditionalPylonsPylonOvercharge|ProbiusConstructAdditionalPylonsPylonOverchargeTalent|Heroic|Level20": {
+      "fullText": "Sondius ahora puede tener hasta <c val=\"#TooltipNumbers\">3</c> Pilones activos, y aumenta el daño de Sobrecarga de Pilón un <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Construye más Pilones",
+      "shortText": "Aumenta la cantidad máxima de Pilones y el daño de Sobrecarga de Pilón"
+    },
+    "ProbiusGateKeeperNullGate|ProbiusGateKeeperNullGateTalent|Heroic|Level20": {
+      "fullText": "Portal anulador dura indefinidamente si cualquiera de sus extremos se encuentra dentro de un campo de energía.",
+      "name": "Guardaportales",
+      "shortText": "Duración indefinida en la energía de un Pilón"
+    },
+    "ProbiusShootEmUptoRiftsDisruptionPulse|ProbiusShootEmUpDisruptionPulseTalent|Q|Level20": {
+      "fullText": "Los héroes enemigos golpeados por Pulso disruptor reciben un <c val=\"#TooltipNumbers\">2.5%</c> adicional de su salud máxima como daño.<n/><n/><c val=\"#AbilityPassive\">Pasivo:</c> Reduce el tiempo de reutilización de Pulso disruptor <c val=\"#TooltipNumbers\">0.5</c> segundos.",
+      "name": "Abran fuego",
+      "shortText": "Aumenta el daño de Pulso disruptor contra héroes"
+    },
+    "ProbiusProbiusLoopWarpRift|ProbiusProbiusLoopWarpRiftTalent|W|Level20": {
+      "fullText": "Cuando una explosión de Fisura golpea a <c val=\"#TooltipNumbers\">1</c> o más héroes enemigos, crea una nueva Fisura de transposición en la misma ubicación.",
+      "name": "Banda de Sondius",
+      "shortText": "Golpear héroes con explosiones crea nuevas Fisuras de transposición"
+    }
+  },
+  "units": {
+    "ProbiusPhotonCannon": {
+      "description": "Transposiciona un Cañón de fotones que inflige <c val=\"#TooltipNumbers\">105</c><c val=\"#ColorGray\">~~0.04~~</c> de daño. Dura <c val=\"#TooltipNumbers\">13</c> segundos.<n/><n/>Dentro del campo de energía de un Pilón, los Cañones de fotones reciben un <c val=\"#TooltipNumbers\">40%</c> de velocidad de ataque durante <c val=\"#TooltipNumbers\">4</c> segundos y revelan a los enemigos cercanos.",
+      "name": "Cañón de fotones"
+    },
+    "ProbiusPylon": {
+      "name": "Pilón"
+    }
+  }
+}

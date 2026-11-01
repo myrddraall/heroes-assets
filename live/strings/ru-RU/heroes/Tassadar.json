@@ -1,0 +1,213 @@
+{
+  "abilities": {
+    "TassadarShockRay|TassadarShockRay|Q": {
+      "cooldownText": "Время восстановления: 7 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 55</s>",
+      "fullText": "Поддерживает луч псионной энергии, нанося противникам на прямой линии <c val=\"#TooltipNumbers\">280</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона и замедляя их на <c val=\"#TooltipNumbers\">30%</c> на <c val=\"#TooltipNumbers\">2</c> сек.",
+      "name": "Ударный луч",
+      "shortText": "Наносит урон противникам на прямой линии и замедляет их."
+    },
+    "TassadarPsionicStorm|TassadarPsionicStorm|W": {
+      "cooldownText": "Время восстановления: 8 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 60</s>",
+      "fullText": "Создает в указанной точке «Псионный шторм» на <c val=\"#TooltipNumbers\">3</c> сек. Попавшие в шторм противники получают <c val=\"#TooltipNumbers\">38</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона раз в <c val=\"#TooltipNumbers\">0.5</c> сек. Урон увеличивается на <c val=\"#TooltipNumbers\">20%</c> за каждый такт, вплоть до <c val=\"#TooltipNumbers\">100%</c>.",
+      "name": "Псионный шторм",
+      "shortText": "Наносит урон противникам в указанной области."
+    },
+    "TassadarForceWall|TassadarForceWall|E": {
+      "cooldownText": "Время восстановления: 18 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 65</s>",
+      "fullText": "После паузы в <c val=\"#TooltipNumbers\">0.5</c> сек. создает стену, блокирующую передвижение всех персонажей в течение <c val=\"#TooltipNumbers\">2</c> сек.",
+      "name": "Силовой заслон",
+      "shortText": "Создает непреодолимую стену."
+    },
+    "TassadarArchon|TassadarArchon|Heroic": {
+      "cooldownText": "Время восстановления: 90 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 100</s>",
+      "fullText": "Тассадар превращается в архонта, получает щит прочностью <c val=\"#TooltipNumbers\">25%</c> максимального запаса здоровья и усиливает «Луч резонанса». Время действия – <c val=\"#TooltipNumbers\">12</c> сек.<n/><n/><c val=\"#AbilityPassive\">«Луч резонанса»: </c>наносит <c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона цели и <c val=\"#TooltipNumbers\">70</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона находящимся рядом противникам. Если «Луч резонанса» поражает героев, то ослабляет их энергетическую броню на <c val=\"#TooltipNumbers\">20</c> ед. на <c val=\"#TooltipNumbers\">2</c> сек. Пока Тассадар находится в облике архонта, «Луч резонанса» получает максимальный заряд.",
+      "name": "Архонт",
+      "shortText": "Тассадар превращается в архонта."
+    },
+    "TassadarBlackHole|TassadarBlackHole|Heroic": {
+      "cooldownText": "Время восстановления: 60 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 60</s>",
+      "fullText": "После применения в течение <c val=\"#TooltipNumbers\">0.5</c> сек. создает черную дыру, которая движется по прямой линии. Герои, попавшие в область действия, быстро притягиваются к ее центру. Достигнув центра, они получают <c val=\"#TooltipNumbers\">310</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона и оглушаются на <c val=\"#TooltipNumbers\">1.25</c> сек.",
+      "name": "Черная дыра",
+      "shortText": "Оглушает героев на длинной прямой линии и наносит им урон."
+    },
+    ":PASSIVE:|TassadarResonanceBeam|Trait": {
+      "fullText": "Автоатака Тассадара представляет собой поддерживаемый луч, который замедляет цель на <c val=\"#TooltipNumbers\">15%</c>. Во время поддержания урон от автоатак и скорость восполнения маны увеличиваются на <c val=\"#TooltipNumbers\">25%</c> в секунду, вплоть до <c val=\"#TooltipNumbers\">100%</c>. Когда «Луч резонанса» полностью заряжен, Тассадар получает еще <c val=\"#TooltipNumbers\">3</c> ед. маны в секунду.<n/><n/>Если поддержание прерывается на <c val=\"#TooltipNumbers\">6</c> сек., бонус теряется.",
+      "name": "Луч резонанса",
+      "shortText": "Автоатаки требуют поддержания и восполняют ману."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Время восстановления: 4 сек.",
+      "fullText": "После подготовки длительностью <c val=\"#TooltipNumbers\">1</c> сек. повышает скорость передвижения на <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Вызов транспорта"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "После поддержания в течение <c val=\"#TooltipNumbers\">6</c> сек. телепортирует героя в Зал Штормов, моментально восполняя <c val=\"#TooltipNumbers\">1125</c> ед. здоровья и <c val=\"#TooltipNumbers\">150</c> ед. маны.",
+      "name": "Возвращение"
+    },
+    "TassadarForceWallCancel|TassadarForceWallCancel|E": {
+      "cooldownText": "Время восстановления: 1 сек.",
+      "fullText": "Уничтожить активный силовой заслон.",
+      "name": "Отмена «Силового заслона»"
+    },
+    ":PASSIVE:|TassadarArchon|Heroic": {
+      "fullText": "Тассадар превращается в архонта, получает щит прочностью <c val=\"#TooltipNumbers\">25%</c> максимального запаса здоровья и усиливает «Луч резонанса». Время действия – <c val=\"#TooltipNumbers\">12</c> сек.<n/><n/><c val=\"#AbilityPassive\">«Луч резонанса»: </c>наносит <c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона цели и <c val=\"#TooltipNumbers\">70</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона находящимся рядом противникам. Если «Луч резонанса» поражает героев, то ослабляет их энергетическую броню на <c val=\"#TooltipNumbers\">20</c> ед. на <c val=\"#TooltipNumbers\">2</c> сек. Пока Тассадар находится в облике архонта, «Луч резонанса» получает максимальный заряд.",
+      "name": "Архонт",
+      "shortText": "Тассадар превращается в архонта."
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Покинуть транспорт.",
+      "name": "Отмена транспорта"
+    },
+    "TassadarCancelOracle|TassadarCancelOracle|Active": {
+      "fullText": "Отмена «Оракула»",
+      "name": "Отмена «Оракула»"
+    },
+    "TassadarCancelShadowWalk|TassadarCancelShadowWalk|Active": {
+      "fullText": "Отмена «Шага сквозь тень»",
+      "name": "Отмена «Шага сквозь тень»"
+    },
+    "TassadarResonanceBeamArcDischargeDummy|TassadarResonanceBeam|Trait": {
+      "fullText": "Автоатака Тассадара представляет собой поддерживаемый луч, который замедляет цель на <c val=\"#TooltipNumbers\">15%</c>. Во время поддержания урон от автоатак и скорость восполнения маны увеличиваются на <c val=\"#TooltipNumbers\">25%</c> в секунду, вплоть до <c val=\"#TooltipNumbers\">100%</c>. Когда «Луч резонанса» полностью заряжен, Тассадар получает еще <c val=\"#TooltipNumbers\">3</c> ед. маны в секунду.<n/><n/>Если поддержание прерывается на <c val=\"#TooltipNumbers\">6</c> сек., бонус теряется.",
+      "name": "Луч резонанса",
+      "shortText": "Автоатаки требуют поддержания и восполняют ману."
+    },
+    "TassadarOracleTargeted|TassadarOracleTargeted|Active": {
+      "cooldownText": "Время восстановления: 45 сек.",
+      "fullText": "<c val=\"#AbilityPassive\">Пассивный эффект:</c> пока Тассадар остается неподвижным, он получает <c val=\"#TooltipNumbers\">30</c> ед. энергетической брони на <c val=\"#TooltipNumbers\">0.75</c> сек. и восполняет <c val=\"#TooltipNumbers\">12</c><c val=\"#ColorGray\">~~0.04~~</c> ед. здоровья в секунду.<n/><n/>При поддержании в течение <c val=\"#TooltipNumbers\">4</c> сек. постепенно открывает обзор в указанной области.",
+      "name": "Оракул",
+      "shortText": "Дает энергетическую броню, открывает обзор при поддержании."
+    },
+    "TassadarShadowWalk|TassadarShadowWalk|Active": {
+      "cooldownText": "Время восстановления: 60 сек.",
+      "fullText": "Тассадар получает маскировку, и его невозможно обнаружить, но он не может атаковать в течение <c val=\"#TooltipNumbers\">1.5</c> сек. «Шаг сквозь тень» повышает скорость передвижения на <c val=\"#TooltipNumbers\">40%</c> и усиливает броню на <c val=\"#TooltipNumbers\">35</c> ед. на время своего действия.<n/><n/>Можно использовать во время поддержания «Ударного луча».",
+      "name": "Шаг сквозь тень",
+      "shortText": "Дает временную маскировку и броню."
+    },
+    "TassadarExecutorsWill|TassadarExecutorsWill|Active": {
+      "cooldownText": "Время восстановления: 40 сек.",
+      "fullText": "При использовании полностью заряжает «Луч резонанса», увеличивает силу способностей на <c val=\"#TooltipNumbers\">20%</c> и ускоряет восстановление базовых и героической способностей на <c val=\"#TooltipNumbers\">25%</c>. Действует, пока «Луч резонанса» полностью заряжен.",
+      "name": "Воля вершителя",
+      "shortText": "Усиливает «Луч резонанса»."
+    }
+  },
+  "talents": {
+    "TassadarStaticCharge|TassadarStaticCharge|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Задача:</c> каждое попадание по герою «Ударным лучом» увеличивает урон от него на <c val=\"#TooltipNumbers\">5</c> ед. до конца матча и заряжает «Луч резонанса» на <c val=\"#TooltipNumbers\">33%</c>.<n/><n/>Максимальный бонус к урону – <c val=\"#TooltipNumbers\">200</c> ед.",
+      "name": "Статический разряд",
+      "shortText": "<c val=\"#TooltipQuest\">Задача:</c> увеличьте урон от «Ударного луча», поражая героев."
+    },
+    "TassadarPsionicStormPsiInfusion|TassadarPsionicStormPsiInfusionTalent|W|Level1": {
+      "fullText": "Если «Псионный шторм» наносит урон любой цели, кроме строений, Тассадар восполняет <c val=\"#TooltipNumbers\">0.5</c> ед. маны, а если герою — <c val=\"#TooltipNumbers\">5</c> ед.<n/><n/><c val=\"#AbilityPassive\">Пассивный эффект:</c> увеличивает дальность действия «Псионного шторма» на <c val=\"#TooltipNumbers\">33%</c>.",
+      "name": "Псионное усиление",
+      "shortText": "Увеличивает дальность действия, восполняет ману при попадании."
+    },
+    "TassadarKhaydarinAmulet|TassadarKhaydarinAmulet|Trait|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Задача:</c> «Луч резонанса» заряжается на <c val=\"#TooltipNumbers\">50%</c> быстрее.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Награда:</c> если «Луч резонанса» сохраняет полный заряд в течение <c val=\"#TooltipNumbers\">80</c> сек., он рикошетит по еще <c val=\"#TooltipNumbers\">1</c> цели, нанося <c val=\"#TooltipNumbers\">75%</c> урона. В первую очередь поражает героев.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Награда:</c> если «Луч резонанса» сохраняет полный заряд в течение <c val=\"#TooltipNumbers\">160</c> сек., он рикошетит еще по <c val=\"#TooltipNumbers\">2</c> целям, нанося <c val=\"#TooltipNumbers\">75%</c> урона. В первую очередь поражает героев.",
+      "name": "Кайдариновый амулет",
+      "shortText": "<c val=\"#TooltipQuest\">Задача: </c>усильте «Луч резонанса»."
+    },
+    "TassadarInduction|TassadarInduction|Q|Level4": {
+      "fullText": "Повышает скорость передвижения Тассадара на <c val=\"#TooltipNumbers\">10%</c>. При применении «Ударного луча» эта прибавка увеличивается до <c val=\"#TooltipNumbers\">30%</c> на <c val=\"#TooltipNumbers\">3</c> сек.",
+      "name": "Индукция",
+      "shortText": "«Ударный луч» ускоряет передвижение."
+    },
+    "TassadarElectricFence|TassadarElectricFence|E|Level4": {
+      "fullText": "«Силовой заслон» наносит находящимся рядом противникам <c val=\"#TooltipNumbers\">92</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона в секунду и замедляет их на <c val=\"#TooltipNumbers\">35%</c>.",
+      "name": "Электрический заслон",
+      "shortText": "«Силовой заслон» замедляет противников и наносит им урон."
+    },
+    "TassadarPlasmaShield|TassadarPlasmaShieldTalent|Trait|Level4": {
+      "fullText": "При полном заряде «Луча резонанса» дает щит прочностью <c val=\"#TooltipNumbers\">3%</c> максимального запаса здоровья каждую секунду, вплоть до <c val=\"#TooltipNumbers\">12%</c>.",
+      "name": "Плазменный щит",
+      "shortText": "Заряженный «Луч резонанса» дает щит."
+    },
+    "TassadarBeamAlignment|TassadarBeamAlignment|Q|Level7": {
+      "fullText": "Пока «Луч резонанса» полностью заряжен, «Ударный луч» восстанавливается на <c val=\"#TooltipNumbers\">100%</c> быстрее, а время действия замедления увеличивается до <c val=\"#TooltipNumbers\">4</c> сек.<n/><n/><c val=\"#AbilityPassive\">Пассивный эффект: </c>снижает стоимость «Ударного луча» с <c val=\"#TooltipNumbers\">55</c> до <c val=\"#TooltipNumbers\">40</c> ед. маны. ",
+      "name": "Фокусировка лучей",
+      "shortText": "«Луч резонанса» ускоряет восстановление «Ударного луча»."
+    },
+    "TassadarPsionicEcho|TassadarPsionicEcho|W|Level7": {
+      "fullText": "При использовании «Псионный шторм» снижает стоимость следующего «Ударного луча», примененного в течение <c val=\"#TooltipNumbers\">3</c> сек., до <c val=\"#TooltipNumbers\">30</c> ед. маны. Этот «Ударный луч» создает «Псионный шторм» вокруг первого пораженного героя.",
+      "name": "Псионный отзвук",
+      "shortText": "«Ударный луч» создает «Псионный шторм», когда поражает героя."
+    },
+    "TassadarArcDischarge|TassadarArcDischarge|Trait|Level7": {
+      "fullText": "Пока «Луч резонанса» полностью заряжен, дальность действия автоатак увеличивается на <c val=\"#TooltipNumbers\">1</c> м, а следующее попадание создает вокруг цели «Псионный шторм».<n/><n/>Время восстановления – <c val=\"#TooltipNumbers\">20</c> сек. Восстанавливается вдвое быстрее, пока «Луч резонанса» полностью заряжен.",
+      "name": "Дуговой разряд",
+      "shortText": "«Луч резонанса» создает «Псионный шторм»."
+    },
+    "TassadarHeroicAbilityArchon|TassadarArchon|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 90 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 100</s>",
+      "fullText": "Тассадар превращается в архонта, получает щит прочностью <c val=\"#TooltipNumbers\">25%</c> максимального запаса здоровья и усиливает «Луч резонанса». Время действия – <c val=\"#TooltipNumbers\">12</c> сек.<n/><n/><c val=\"#AbilityPassive\">«Луч резонанса»: </c>наносит <c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона цели и <c val=\"#TooltipNumbers\">70</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона находящимся рядом противникам. Если «Луч резонанса» поражает героев, то ослабляет их энергетическую броню на <c val=\"#TooltipNumbers\">20</c> ед. на <c val=\"#TooltipNumbers\">2</c> сек. Пока Тассадар находится в облике архонта, «Луч резонанса» получает максимальный заряд.",
+      "name": "Архонт",
+      "shortText": "Тассадар превращается в архонта."
+    },
+    "TassadarHeroicAbilityBlackHole|TassadarBlackHole|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 60 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 60</s>",
+      "fullText": "После применения в течение <c val=\"#TooltipNumbers\">0.5</c> сек. создает черную дыру, которая движется по прямой линии. Герои, попавшие в область действия, быстро притягиваются к ее центру. Достигнув центра, они получают <c val=\"#TooltipNumbers\">310</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона и оглушаются на <c val=\"#TooltipNumbers\">1.25</c> сек.",
+      "name": "Черная дыра",
+      "shortText": "Оглушает героев на длинной прямой линии и наносит им урон."
+    },
+    "TassadarFeedback|TassadarFeedback|W|Level13": {
+      "fullText": "Пока «Псионный шторм» действует на героя, «Луч резонанса» замедляет цели на <c val=\"#TooltipNumbers\">50%</c> и ослабляет кинетическую броню на <c val=\"#TooltipNumbers\">25</c> ед.",
+      "name": "Противодействие",
+      "shortText": "«Псионный шторм» усиливает «Луч резонанса»."
+    },
+    "TassadarShadowWalk|TassadarShadowWalk|Active|Level13": {
+      "cooldownText": "Время восстановления: 60 сек.",
+      "fullText": "Тассадар получает маскировку, и его невозможно обнаружить, но он не может атаковать в течение <c val=\"#TooltipNumbers\">1.5</c> сек. «Шаг сквозь тень» повышает скорость передвижения на <c val=\"#TooltipNumbers\">40%</c> и усиливает броню на <c val=\"#TooltipNumbers\">35</c> ед. на время своего действия.<n/><n/>Можно использовать во время поддержания «Ударного луча».",
+      "name": "Шаг сквозь тень",
+      "shortText": "Дает временную маскировку и броню."
+    },
+    "TassadarOracle|TassadarOracleTargeted|Active|Level13": {
+      "cooldownText": "Время восстановления: 45 сек.",
+      "fullText": "<c val=\"#AbilityPassive\">Пассивный эффект:</c> пока Тассадар остается неподвижным, он получает <c val=\"#TooltipNumbers\">30</c> ед. энергетической брони на <c val=\"#TooltipNumbers\">0.75</c> сек. и восполняет <c val=\"#TooltipNumbers\">12</c><c val=\"#ColorGray\">~~0.04~~</c> ед. здоровья в секунду.<n/><n/>При поддержании в течение <c val=\"#TooltipNumbers\">4</c> сек. постепенно открывает обзор в указанной области.",
+      "name": "Оракул",
+      "shortText": "Дает энергетическую броню, открывает обзор при поддержании."
+    },
+    "TassadarThermalLance|TassadarThermalLance|Q|Level16": {
+      "fullText": "Первое попадание «Ударного луча» по герою наносит дополнительный урон в объеме <c val=\"#TooltipNumbers\">8%</c> его максимального запаса здоровья.",
+      "name": "Термальный луч",
+      "shortText": "Попадание по первому герою наносит процентный урон."
+    },
+    "TassadarPsychicShock|TassadarPsychicShock|W|Level16": {
+      "fullText": "«Псионный шторм» наносит урон на <c val=\"#TooltipNumbers\">25%</c> быстрее.",
+      "name": "Ментальный шок",
+      "shortText": "«Псионный шторм» наносит урон быстрее."
+    },
+    "TassadarExecutorsWill|TassadarExecutorsWill|Active|Level16": {
+      "cooldownText": "Время восстановления: 40 сек.",
+      "fullText": "При использовании полностью заряжает «Луч резонанса», увеличивает силу способностей на <c val=\"#TooltipNumbers\">20%</c> и ускоряет восстановление базовых и героической способностей на <c val=\"#TooltipNumbers\">25%</c>. Действует, пока «Луч резонанса» полностью заряжен.",
+      "name": "Воля вершителя",
+      "shortText": "Усиливает «Луч резонанса»."
+    },
+    "TassadarMasteryTwilightArchon|TassadarArchonTwilightArchonTalent|Heroic|Level20": {
+      "fullText": "Автоатаки «Архонта» увеличивают время его действия на <c val=\"#TooltipNumbers\">2</c> сек.",
+      "name": "Сумеречный архонт",
+      "shortText": "Автоатаки «Архонта» продлевают его действие."
+    },
+    "TassadarKugelblitz|TassadarKugelblitz|Heroic|Level20": {
+      "fullText": "Герои, пораженные центром «Черной дыры», на <c val=\"#TooltipNumbers\">3</c> сек. теряют <c val=\"#TooltipNumbers\">20</c> ед. брони  и создают вокруг себя «Псионный шторм».",
+      "name": "Шаровая молния",
+      "shortText": "«Черная дыра» ослабляет броню и создает «Псионный шторм»."
+    },
+    "TassadarMasteryForceBarrier|TassadarForceBarrier|E|Level20": {
+      "fullText": "Увеличивает время действия «Силового заслона» на <c val=\"#TooltipNumbers\">0.5</c> сек. и дальность применения на <c val=\"#TooltipNumbers\">50%</c>, а также сокращает время его восстановления на <c val=\"#TooltipNumbers\">10</c> сек.",
+      "name": "Силовой барьер",
+      "shortText": "Увеличивает дальность действия и ускоряет восстановление «Силового заслона»."
+    },
+    "TassadarKhalasGift|TassadarKhalasGift|Passive|Level20": {
+      "fullText": "Увеличивает силу способностей Тассадара и находящихся рядом союзных героев на <c val=\"#TooltipNumbers\">4%</c>, вплоть до <c val=\"#TooltipNumbers\">20%</c>. Общий бонус распространяется на всех находящихся рядом союзников.",
+      "name": "Дар Кхалы",
+      "shortText": "Усиливает способности Тассадара и союзников рядом с ним."
+    }
+  },
+  "units": {}
+}

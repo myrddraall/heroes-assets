@@ -1,0 +1,684 @@
+{
+  "id": "Leoric",
+  "unitId": "HeroLeoric",
+  "hyperlinkId": "Leoric",
+  "attributeId": "Leor",
+  "franchise": "Diablo",
+  "rarity": "Epic",
+  "releaseDate": "2015-07-21",
+  "isMelee": true,
+  "gender": "Male",
+  "radius": 0.8125,
+  "innerRadius": 0.8125,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 6,
+    "damage": 4,
+    "survivability": 8,
+    "utility": 5
+  },
+  "life": {
+    "amount": 2550,
+    "scale": 0.04,
+    "regenRate": 5.3125,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "EnergyImportant",
+    "Overconfident",
+    "RoleTank",
+    "WaveClearer"
+  ],
+  "summonedUnitIds": [
+    "LeoricWraithWalkUnit"
+  ],
+  "weapons": [
+    {
+      "nameId": "LeoricWeapon",
+      "isDisabled": false,
+      "range": 2,
+      "minimumRange": 0,
+      "period": 1.3,
+      "damage": 115,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "LeoricJanitor18",
+    "LeoricKingVrykul",
+    "LeoricSpace",
+    "LeoricUltimate",
+    "LeoricVrykul"
+  ],
+  "variationSkinIds": [
+    "LeoricRed",
+    "LeoricWhite"
+  ],
+  "voiceLineIds": [
+    "LeoricBase_VoiceLine01",
+    "LeoricBase_VoiceLine02",
+    "LeoricBase_VoiceLine03",
+    "LeoricBase_VoiceLine04",
+    "LeoricBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "LeoricSkeletalSwingTargetedReady|LeoricSkeletalSwing|Q",
+        "abilityId": "LeoricSkeletalSwingTargetedReady",
+        "buttonId": "LeoricSkeletalSwing",
+        "icon": "storm_ui_icon_leoric_skeletalswing.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "LeoricDrainHope|LeoricDrainHope|W",
+        "abilityId": "LeoricDrainHope",
+        "buttonId": "LeoricDrainHope",
+        "icon": "storm_ui_icon_leoric_drainhope.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "LeoricWraithWalk|LeoricWraithWalk|E",
+        "abilityId": "LeoricWraithWalk",
+        "buttonId": "LeoricWraithWalk",
+        "icon": "storm_ui_icon_leoric_wraithwalk.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "LeoricEntomb|LeoricEntomb|Heroic",
+        "abilityId": "LeoricEntomb",
+        "buttonId": "LeoricEntomb",
+        "icon": "storm_ui_icon_leoric_entomb.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "LeoricMarchoftheBlackKing|LeoricMarchoftheBlackKing|Heroic",
+        "abilityId": "LeoricMarchoftheBlackKing",
+        "buttonId": "LeoricMarchoftheBlackKing",
+        "icon": "storm_ui_icon_leoric_r2.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": ":PASSIVE:|LeoricUndyingTrait|Trait",
+        "abilityId": ":PASSIVE:",
+        "buttonId": "LeoricUndyingTrait",
+        "icon": "storm_ui_icon_leoric_trait.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "LeoricWraithWalk|LeoricWraithWalk|E": {
+      "Basic": [
+        {
+          "linkId": "LeoricCancelWraithWalk|LeoricCancelWraithWalk|E",
+          "abilityId": "LeoricCancelWraithWalk",
+          "buttonId": "LeoricCancelWraithWalk",
+          "icon": "storm_ui_icon_leoric_wraithwalk_end.png",
+          "toggleCooldown": 0.25,
+          "abilityType": "E"
+        }
+      ]
+    },
+    "LeoricEntomb|LeoricEntomb|Heroic": {
+      "Heroic": [
+        {
+          "linkId": "LeoricEntombCancel|LeoricEntombCancel|Heroic",
+          "abilityId": "LeoricEntombCancel",
+          "buttonId": "LeoricEntombCancel",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Heroic"
+        }
+      ]
+    },
+    ":PASSIVE:|LeoricUndyingTrait|Trait": {
+      "Basic": [
+        {
+          "linkId": "LeoricGhastlySwing|LeoricGhastlySwing|Q",
+          "abilityId": "LeoricGhastlySwing",
+          "buttonId": "LeoricGhastlySwing",
+          "icon": "storm_ui_icon_leoric_skeletalswing_undead.png",
+          "abilityType": "Q"
+        },
+        {
+          "linkId": "LeoricDrainEssence|LeoricDrainEssence|W",
+          "abilityId": "LeoricDrainEssence",
+          "buttonId": "LeoricDrainEssence",
+          "icon": "storm_ui_icon_leoric_drainhope_undead.png",
+          "abilityType": "W"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "LeoricMasteryOsseinRenewal|LeoricOsseinRenewal|Active|Level1": {
+      "Activable": [
+        {
+          "linkId": "LeoricOsseinRenewal|LeoricOsseinRenewalHotbar|Active",
+          "abilityId": "LeoricOsseinRenewal",
+          "buttonId": "LeoricOsseinRenewalHotbar",
+          "icon": "storm_ui_icon_talent_amplifiedhealing.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "LeoricShroudoftheDeadKingTalent|LeoricShroudoftheDeadKingTalent|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "LeoricShroudOfTheDeadKing|LeoricShroudoftheDeadKingTalent|Active",
+          "abilityId": "LeoricShroudOfTheDeadKing",
+          "buttonId": "LeoricShroudoftheDeadKingTalent",
+          "icon": "storm_ui_icon_talent_hardenedshield.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "LeoricMasteryConsumeVitalitySkeletalSwing|LeoricConsumeVitalityTalent|Q|Level1",
+        "talentId": "LeoricMasteryConsumeVitalitySkeletalSwing",
+        "buttonId": "LeoricConsumeVitalityTalent",
+        "abilityId": "LeoricSkeletalSwingTargetedReady",
+        "icon": "storm_ui_icon_leoric_skeletalswing.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "LeoricSkeletalSwingTargetedReady|LeoricSkeletalSwing|Q"
+        ]
+      },
+      {
+        "linkId": "LeoricMasteryFealtyUntoDeathUndying|LeoricFealtyUntoDeathTalent|Trait|Level1",
+        "talentId": "LeoricMasteryFealtyUntoDeathUndying",
+        "buttonId": "LeoricFealtyUntoDeathTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_leoric_trait.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|LeoricUndyingTrait|Trait"
+        ]
+      },
+      {
+        "linkId": "LeoricMasteryOsseinRenewal|LeoricOsseinRenewal|Active|Level1",
+        "talentId": "LeoricMasteryOsseinRenewal",
+        "buttonId": "LeoricOsseinRenewal",
+        "abilityId": "LeoricOsseinRenewal",
+        "icon": "storm_ui_icon_talent_amplifiedhealing.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "LeoricMasteryGhastlyReachSkeletalSwing|LeoricGhastlyReachTalent|Q|Level4",
+        "talentId": "LeoricMasteryGhastlyReachSkeletalSwing",
+        "buttonId": "LeoricGhastlyReachTalent",
+        "abilityId": "LeoricSkeletalSwingTargetedReady",
+        "icon": "storm_ui_icon_leoric_skeletalswing.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "LeoricSkeletalSwingTargetedReady|LeoricSkeletalSwing|Q"
+        ]
+      },
+      {
+        "linkId": "LeoricMasteryParalyzingRageSkeletalSwing|LeoricParalyzingRageTalent|Q|Level4",
+        "talentId": "LeoricMasteryParalyzingRageSkeletalSwing",
+        "buttonId": "LeoricParalyzingRageTalent",
+        "abilityId": "LeoricSkeletalSwingTargetedReady",
+        "icon": "storm_ui_icon_leoric_skeletalswing_var1.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "LeoricSkeletalSwingTargetedReady|LeoricSkeletalSwing|Q"
+        ]
+      },
+      {
+        "linkId": "LeoricSkeletalSwingKneelPeasantsTalent|LeoricKneelPeasantsTalent|Q|Level4",
+        "talentId": "LeoricSkeletalSwingKneelPeasantsTalent",
+        "buttonId": "LeoricKneelPeasantsTalent",
+        "abilityId": "LeoricSkeletalSwingTargetedReady",
+        "icon": "storm_ui_icon_leoric_skeletalswing_var2.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "LeoricSkeletalSwingTargetedReady|LeoricSkeletalSwing|Q"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "LeoricMasteryWillingVesselDrainHope|LeoricWillingVesselTalent|W|Level7",
+        "talentId": "LeoricMasteryWillingVesselDrainHope",
+        "buttonId": "LeoricWillingVesselTalent",
+        "abilityId": "LeoricDrainHope",
+        "icon": "storm_ui_icon_leoric_drainhope.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "LeoricDrainEssence|LeoricDrainEssence|W",
+          "LeoricDrainHope|LeoricDrainHope|W"
+        ]
+      },
+      {
+        "linkId": "LeoricMasteryDrainMomentumDrainHope|LeoricDrainMomentumTalent|W|Level7",
+        "talentId": "LeoricMasteryDrainMomentumDrainHope",
+        "buttonId": "LeoricDrainMomentumTalent",
+        "abilityId": "LeoricDrainHope",
+        "icon": "storm_ui_icon_leoric_drainhope_var1.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "LeoricDrainHope|LeoricDrainHope|W"
+        ]
+      },
+      {
+        "linkId": "LeoricMasteryHopelessnessDrainHope|LeoricHopelessnessTalent|W|Level7",
+        "talentId": "LeoricMasteryHopelessnessDrainHope",
+        "buttonId": "LeoricHopelessnessTalent",
+        "abilityId": "LeoricDrainHope",
+        "icon": "storm_ui_icon_leoric_drainhope_var2.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "LeoricDrainHope|LeoricDrainHope|W"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "LeoricHeroicAbilityEntomb|LeoricEntomb|Heroic|Level10",
+        "talentId": "LeoricHeroicAbilityEntomb",
+        "buttonId": "LeoricEntomb",
+        "abilityId": "LeoricEntomb",
+        "icon": "storm_ui_icon_leoric_entomb.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "LeoricHeroicAbilityMarchoftheBlackKing|LeoricMarchoftheBlackKing|Heroic|Level10",
+        "talentId": "LeoricHeroicAbilityMarchoftheBlackKing",
+        "buttonId": "LeoricMarchoftheBlackKing",
+        "abilityId": "LeoricMarchoftheBlackKing",
+        "icon": "storm_ui_icon_leoric_r2.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "LeoricMasteryUnyieldingDespairDrainHope|LeoricUnyieldingDespairTalent|W|Level13",
+        "talentId": "LeoricMasteryUnyieldingDespairDrainHope",
+        "buttonId": "LeoricUnyieldingDespairTalent",
+        "abilityId": "LeoricDrainHope",
+        "icon": "storm_ui_icon_leoric_drainhope.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "LeoricDrainHope|LeoricDrainHope|W"
+        ]
+      },
+      {
+        "linkId": "LeoricWraithWalkOminousWraithTalent|LeoricOminousWraithTalent|E|Level13",
+        "talentId": "LeoricWraithWalkOminousWraithTalent",
+        "buttonId": "LeoricOminousWraithTalent",
+        "abilityId": "LeoricWraithWalk",
+        "icon": "storm_ui_icon_leoric_wraithwalk.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "LeoricWraithWalk|LeoricWraithWalk|E"
+        ]
+      },
+      {
+        "linkId": "LeoricMasterySpectralLeech|LeoricSpectralLeechTalent|Passive|Level13",
+        "talentId": "LeoricMasterySpectralLeech",
+        "buttonId": "LeoricSpectralLeechTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_heal.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|LeoricUndyingTrait|Trait"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "LeoricDrainHopeCrushingHopeTalent|LeoricCrushingHopeTalent|W|Level16",
+        "talentId": "LeoricDrainHopeCrushingHopeTalent",
+        "buttonId": "LeoricCrushingHopeTalent",
+        "abilityId": "LeoricDrainHope",
+        "icon": "storm_ui_icon_leoric_drainhope.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "LeoricDrainHope|LeoricDrainHope|W"
+        ]
+      },
+      {
+        "linkId": "LeoricMasteryRoyalFocusWraithWalk|LeoricRoyalFocusTalent|E|Level16",
+        "talentId": "LeoricMasteryRoyalFocusWraithWalk",
+        "buttonId": "LeoricRoyalFocusTalent",
+        "abilityId": "LeoricWraithWalk",
+        "icon": "storm_ui_icon_leoric_wraithwalk.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "LeoricWraithWalk|LeoricWraithWalk|E"
+        ]
+      },
+      {
+        "linkId": "LeoricMithrilMaceTalent|LeoricMithrilMaceTalent|Passive|Level16",
+        "talentId": "LeoricMithrilMaceTalent",
+        "buttonId": "LeoricMithrilMaceTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_speed.png",
+        "abilityType": "Passive",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|LeoricUndyingTrait|Trait"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "LeoricMasteryBuriedAliveEntomb|LeoricBuriedAliveTalent|Heroic|Level20",
+        "talentId": "LeoricMasteryBuriedAliveEntomb",
+        "buttonId": "LeoricBuriedAliveTalent",
+        "abilityId": "LeoricEntomb",
+        "icon": "storm_ui_icon_leoric_entomb.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "LeoricEntomb|LeoricEntomb|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "LeoricHeroicAbilityEntomb"
+        ]
+      },
+      {
+        "linkId": "LeoricMasteryDeathMarchMarchoftheBlackKing|LeoricDeathMarchTalent|Heroic|Level20",
+        "talentId": "LeoricMasteryDeathMarchMarchoftheBlackKing",
+        "buttonId": "LeoricDeathMarchTalent",
+        "abilityId": "LeoricMarchoftheBlackKing",
+        "icon": "storm_ui_icon_leoric_r2.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "LeoricMarchoftheBlackKing|LeoricMarchoftheBlackKing|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "LeoricHeroicAbilityMarchoftheBlackKing"
+        ]
+      },
+      {
+        "linkId": "LeoricBurningDespairTalent|LeoricBurningDespair|W|Level20",
+        "talentId": "LeoricBurningDespairTalent",
+        "buttonId": "LeoricBurningDespair",
+        "abilityId": "LeoricDrainHope",
+        "icon": "storm_ui_icon_leoric_drainhope.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "LeoricDrainHope|LeoricDrainHope|W"
+        ]
+      },
+      {
+        "linkId": "LeoricShroudoftheDeadKingTalent|LeoricShroudoftheDeadKingTalent|Active|Level20",
+        "talentId": "LeoricShroudoftheDeadKingTalent",
+        "buttonId": "LeoricShroudoftheDeadKingTalent",
+        "abilityId": "LeoricShroudOfTheDeadKing",
+        "icon": "storm_ui_icon_talent_hardenedshield.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      }
+    ]
+  },
+  "sheet": "sheets/Leoric.png",
+  "icons": {
+    "storm_ui_icon_leoric_skeletalswing.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_leoric_drainhope.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_leoric_wraithwalk.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_leoric_entomb.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_leoric_r2.png": [
+      512,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_leoric_trait.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_mount.png": [
+      128,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      256,
+      128,
+      111,
+      71
+    ],
+    "storm_ui_icon_leoric_wraithwalk_end.png": [
+      384,
+      128,
+      128,
+      128
+    ],
+    "hud_btn_bg_ability_cancel.png": [
+      512,
+      128,
+      97,
+      111
+    ],
+    "storm_ui_icon_leoric_skeletalswing_undead.png": [
+      0,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_leoric_drainhope_undead.png": [
+      128,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_cancel_mount.png": [
+      256,
+      256,
+      76,
+      48
+    ],
+    "storm_ui_icon_talent_amplifiedhealing.png": [
+      384,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_hardenedshield.png": [
+      512,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_leoric_skeletalswing_var1.png": [
+      0,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_leoric_skeletalswing_var2.png": [
+      128,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_leoric_drainhope_var1.png": [
+      256,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_leoric_drainhope_var2.png": [
+      384,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_autoattack_heal.png": [
+      512,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_autoattack_speed.png": [
+      0,
+      512,
+      128,
+      128
+    ]
+  }
+}

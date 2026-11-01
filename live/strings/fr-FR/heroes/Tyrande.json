@@ -1,0 +1,184 @@
+{
+  "abilities": {
+    "TyrandeLightofElune|TyrandeLightOfElune|Q": {
+      "cooldownText": "Temps de recharge : 16 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 15</s>",
+      "fullText": "Rend <c val=\"#TooltipNumbers\">270</c><c val=\"#ColorGray\">~~0.04~~</c> points de vie à un héros allié. Le temps de recharge de Lumière d’Élune est réduit de <c val=\"#TooltipNumbers\">1.5</c> seconde chaque fois que Tyrande touche un ennemi avec une attaque de base ou inflige des dégâts à un héros adverse.<n/><n/>Cumule jusqu’à <c val=\"#TooltipNumbers\">2</c> charges. Toutes les charges sont récupérées à la fin du temps de recharge de Lumière d’Élune.",
+      "name": "Lumière d’Élune",
+      "shortText": "Rend des points de vie à un héros allié."
+    },
+    "TyrandeSentinelShot|TyrandeSentinel|W": {
+      "cooldownText": "Temps de recharge :<sp/>15 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 55</s>",
+      "fullText": "Envoie une chouette qui survole le champ de bataille et dévoile le terrain sur sa trajectoire. Elle inflige <c val=\"#TooltipNumbers\">120</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts au premier héros qu’elle touche en plus de le révéler pendant <c val=\"#TooltipNumbers\">5</c> secondes. Si un héros révélé par Sentinelle meurt, son temps de recharge est annulé.",
+      "name": "Sentinelle",
+      "shortText": "Lâche une chouette qui inflige des dégâts aux héros adverses et les révèle."
+    },
+    "TyrandeLunarFlare|TyrandeLunarFlare|E": {
+      "cooldownText": "Temps de recharge : 13 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 65</s>",
+      "fullText": "Au bout de <c val=\"#TooltipNumbers\">0.75</c> secondes, inflige <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts et étourdit les adversaires dans la zone ciblée pendant <c val=\"#TooltipNumbers\">0.75 </c>secondes. Rend <c val=\"#TooltipNumbers\">25</c> points de mana par adversaire touché.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quête :</c> toucher des héros avec Éclat de lune augmente ses dégâts de <c val=\"#TooltipNumbers\">3%</c>, jusqu’à un maximum de <c val=\"#TooltipNumbers\">120%</c>. Le bonus est doublé si le héros meurt en moins de <c val=\"#TooltipNumbers\">3</c> secondes.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Récompense :</c> après avoir porté des attaques à <c val=\"#TooltipNumbers\">10</c> héros, augmente la portée d’Éclat de lune de <c val=\"#TooltipNumbers\">30%</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">.Récompense :</c> après avoir porté des attaques à <c val=\"#TooltipNumbers\">20</c> héros, Sentinelle transperce désormais le premier héros touché.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Récompense mythique :</c> après avoir porté des attaques à <c val=\"#TooltipNumbers\">40</c> héros, toutes les <c val=\"#TooltipNumbers\">8</c> attaques basiques, un Éclat de lune est lancé, la priorité étant donnée aux héros. Portée augmentée de <c val=\"#TooltipNumbers\">1</c>.",
+      "name": "Éclat de lune",
+      "shortText": "Étourdit et frappe les ennemis dans une zone."
+    },
+    "TyrandeShadowstalk|TyrandeShadowstalk|Heroic": {
+      "cooldownText": "Temps de recharge : 90 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 85</s>",
+      "fullText": "Tous les alliés sont camouflés pendant <c val=\"#TooltipNumbers\">10</c> secondes et récupèrent <c val=\"#TooltipNumbers\">380</c><c val=\"#ColorGray\">~~0.04~~</c> points de vie en <c val=\"#TooltipNumbers\">10</c> secondes. Rester immobile pendant au moins <c val=\"#TooltipNumbers\">1.5</c> seconde en étant camouflé rend invisible.",
+      "name": "Éclipse d’Élune",
+      "shortText": "Soigne et camoufle tous les alliés."
+    },
+    "TyrandeStarfall|TyrandeStarfall|Heroic": {
+      "cooldownText": "Temps de recharge : 80 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 85</s>",
+      "fullText": "Inflige <c val=\"#TooltipNumbers\">92</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts par seconde aux ennemis dans une zone et les ralentit de <c val=\"#TooltipNumbers\">20%</c> pendant <c val=\"#TooltipNumbers\">6</c> secondes.",
+      "name": "Météores",
+      "shortText": "Frappe et ralentit les ennemis dans la zone ciblée."
+    },
+    "TyrandeHuntersMark|TyrandeHuntersMark|Trait": {
+      "cooldownText": "Temps de recharge : 20 secondes",
+      "fullText": "Révèle un ennemi (hors bâtiments) et réduit son armure de <c val=\"#TooltipNumbers\">15</c> points pendant <c val=\"#TooltipNumbers\">4</c> secondes.<n/><n/><c val=\"#AbilityPassive\">Effet passif :</c> les attaques de base de Tyrande lui rendent <c val=\"#TooltipNumbers\">1%</c> de son maximum de points de vie. Cet effet est doublé si les cibles sont affectées par Marque du chasseur.",
+      "name": "Marque du chasseur",
+      "shortText": "Révèle la cible et réduit son armure."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Temps de recharge : 4 secondes",
+      "fullText": "Après <c val=\"#TooltipNumbers\">1</c> seconde de canalisation, augmente la vitesse de déplacement de <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Appeler une monture"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Après <c val=\"#TooltipNumbers\">6</c> secondes de canalisation, téléporte au hall des Tempêtes et rend instantanément <c val=\"#TooltipNumbers\">1125</c> points de vie et <c val=\"#TooltipNumbers\">150</c> points de mana.",
+      "name": "Pierre de foyer"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Permet de descendre de la monture.",
+      "name": "Renvoyer la monture"
+    },
+    "TyrandeTrueshotAura|TyrandeHuntersMarkTrueshotAuraTalent|Active": {
+      "cooldownText": "Temps de recharge : 45 secondes",
+      "fullText": "À l’activation, augmente les dégâts d’attaque de base de Tyrande et des autres héros alliés proches de <c val=\"#TooltipNumbers\">40 %</c> pendant <c val=\"#TooltipNumbers\">5</c> secondes et réinitialise le temps de recharge de Marque du chasseur.",
+      "name": "Aura de précision",
+      "shortText": "Augmente les dégâts des attaques et réinitialise Marque du chasseur."
+    },
+    "TyrandeElunesChosen|TyrandeElunesChosen|Active": {
+      "cooldownText": "Temps de recharge : 30 secondes",
+      "fullText": "Les attaques de base rendent au héros ciblé un montant de points de vie équivalent à <c val=\"#TooltipNumbers\">175%</c> des dégâts infligés. Dure <c val=\"#TooltipNumbers\">8</c> secondes.",
+      "name": "Élue d’Élune",
+      "shortText": "Les attaques de base rendent des points de vie au héros ciblé."
+    }
+  },
+  "talents": {
+    "TyrandeRanger|TyrandeSentinelRangerTalent|W|Level1": {
+      "fullText": "La zone d’effet de Sentinelle est augmentée de <c val=\"#TooltipNumbers\">25 %</c> et lui permet d’infliger jusqu’à <c val=\"#TooltipNumbers\">250 %</c> de dégâts supplémentaires selon la distance parcourue.",
+      "name": "Éclaireuse",
+      "shortText": "Sentinelle est plus large et inflige davantage de dégâts."
+    },
+    "TyrandeMoonlitArrows|TyrandeMoonlitArrows|Q|Level1": {
+      "fullText": "Les attaques de base réduisent le temps de recharge de Lumière d’Élune de <c val=\"#TooltipNumbers\">0.5</c> seconde supplémentaire.",
+      "name": "Flèches lunaires",
+      "shortText": "Accentue la réduction du temps de recharge de Lumière d’Élune."
+    },
+    "TyrandeTrueshotAura|TyrandeHuntersMarkTrueshotAuraTalent|Active|Level1": {
+      "cooldownText": "Temps de recharge : 45 secondes",
+      "fullText": "À l’activation, augmente les dégâts d’attaque de base de Tyrande et des autres héros alliés proches de <c val=\"#TooltipNumbers\">40 %</c> pendant <c val=\"#TooltipNumbers\">5</c> secondes et réinitialise le temps de recharge de Marque du chasseur.",
+      "name": "Aura de précision",
+      "shortText": "Augmente les dégâts des attaques et réinitialise Marque du chasseur."
+    },
+    "TyrandeLightOfEluneEverlastingLight|TyrandeLightOfEluneEverlastingLight|Q|Level4": {
+      "fullText": "Si la seconde charge de Lumière d’Élune n’est pas utilisée sur la même cible que la première charge, augmente les points de vie rendus de <c val=\"#TooltipNumbers\">80%</c>.",
+      "name": "Lumière éternelle",
+      "shortText": "Augmente l’effet de soin de Lumière d’Élune quand elle affecte plusieurs cibles."
+    },
+    "TyrandeMarkofMending|TyrandeHuntersMarkMarkOfMendingTalent|Trait|Level4": {
+      "fullText": "Les attaques de base de Tyrande portées à des cibles marquées rendent <c val=\"#TooltipNumbers\">4%</c> de leur maximum de points de vie à tous les héros alliés proches de l’ennemi.",
+      "name": "Marque de guérison",
+      "shortText": "Les ennemis marqués rendent des points de vie aux alliés proches."
+    },
+    "TyrandeElunesChosen|TyrandeElunesChosen|Active|Level4": {
+      "cooldownText": "Temps de recharge : 30 secondes",
+      "fullText": "Les attaques de base rendent au héros ciblé un montant de points de vie équivalent à <c val=\"#TooltipNumbers\">175%</c> des dégâts infligés. Dure <c val=\"#TooltipNumbers\">8</c> secondes.",
+      "name": "Élue d’Élune",
+      "shortText": "Les attaques de base rendent des points de vie au héros ciblé."
+    },
+    "ElunesGift|ElunesFury|E|Level7": {
+      "fullText": "Porter une attaque à un héros adverse avec Éclat de lune augmente la puissance de capacité de <c val=\"#TooltipNumbers\">20%</c> pendant <c val=\"#TooltipNumbers\">10</c> secondes.",
+      "name": "Don d’Élune",
+      "shortText": "Les frappes d’Éclat de lune confèrent de la puissance de capacité."
+    },
+    "TyrandeKaldoreiResistance|TyrandeKaldoreiResistance|Q|Level7": {
+      "fullText": "Lumière d’Élune confère à la cible <c val=\"#TooltipNumbers\">10</c> points d’armure anti-sort pendant <c val=\"#TooltipNumbers\">2</c> secondes. Cet effet se cumule jusqu’à <c val=\"#TooltipNumbers\">2</c> fois.",
+      "name": "Résistance kaldorei",
+      "shortText": "Lumière d’Élune confère de l’armure anti-sort."
+    },
+    "TyrandeHuntressFury|TyrandeHuntersMarkHuntressFuryTalent|Trait|Level7": {
+      "fullText": "Les attaques de base de Tyrande portées aux cibles affectées par Marque du chasseur rebondissent jusqu’aux héros adverses proches.<n/><n/><c val=\"#AbilityPassive\">Effet passif :</c> augmente la durée de Marque du chasseur de <c val=\"#TooltipNumbers\">1</c> secondes et sa portée de <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Fureur de la chasseresse",
+      "shortText": "Marque du chasseur permet aux attaques de base de rebondir sur les héros adverses proches."
+    },
+    "TyrandeHeroicAbilityShadowstalk|TyrandeShadowstalk|Heroic|Level10": {
+      "cooldownText": "Temps de recharge : 90 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 85</s>",
+      "fullText": "Tous les alliés sont camouflés pendant <c val=\"#TooltipNumbers\">10</c> secondes et récupèrent <c val=\"#TooltipNumbers\">380</c><c val=\"#ColorGray\">~~0.04~~</c> points de vie en <c val=\"#TooltipNumbers\">10</c> secondes. Rester immobile pendant au moins <c val=\"#TooltipNumbers\">1.5</c> seconde en étant camouflé rend invisible.",
+      "name": "Éclipse d’Élune",
+      "shortText": "Soigne et camoufle tous les alliés."
+    },
+    "TyrandeHeroicAbilityStarfall|TyrandeStarfall|Heroic|Level10": {
+      "cooldownText": "Temps de recharge : 80 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 85</s>",
+      "fullText": "Inflige <c val=\"#TooltipNumbers\">92</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts par seconde aux ennemis dans une zone et les ralentit de <c val=\"#TooltipNumbers\">20%</c> pendant <c val=\"#TooltipNumbers\">6</c> secondes.",
+      "name": "Météores",
+      "shortText": "Frappe et ralentit les ennemis dans la zone ciblée."
+    },
+    "TyrandeMasteryLightofEluneQuickeningBlessing|TyrandeLightOfEluneQuickeningBlessingTalent|Q|Level13": {
+      "fullText": "Augmente la vitesse de déplacement de <c val=\"#TooltipNumbers\">5%</c>. Lumière d’Élune augmente la vitesse de déplacement de sa cible de <c val=\"#TooltipNumbers\">25%</c> pendant <c val=\"#TooltipNumbers\">3</c> secondes.",
+      "name": "Bénédiction de célérité",
+      "shortText": "Lumière d’Élune augmente la vitesse de déplacement."
+    },
+    "TyrandeHarshMoonlight|TyrandeHarshMoonlight|W|Level13": {
+      "fullText": "Sentinelle ralentit les ennemis touchés de <c val=\"#TooltipNumbers\">35%</c> et réduit les dégâts qu’ils infligent de <c val=\"#TooltipNumbers\">35%</c> pendant <c val=\"#TooltipNumbers\">3</c> secondes.",
+      "name": "Lumière lunaire cinglante",
+      "shortText": "Sentinelle ralentit sa cible et réduit les dégâts qu’elle inflige."
+    },
+    "TyrandeRangersMark|TyrandeHuntersMarkRangersMarkTalent|Trait|Level13": {
+      "fullText": "Les attaques de base réduisent le temps de recharge de Marque du chasseur de <c val=\"#TooltipNumbers\">2</c> seconde. Les attaques de base portées à des cibles marquées réduisent le temps de recharge d’Éclat de lune de <c val=\"#TooltipNumbers\">4</c> secondes.",
+      "name": "Marque du forestier",
+      "shortText": "Les attaques de base renforcent Marque du chasseur et Éclat de lune."
+    },
+    "TyrandeCelestialAttunement|TyrandeLightOfEluneCelestialAttunementTalent|Q|Level16": {
+      "fullText": "Lumière d’Élune supprime les effets d’étourdissement, de silence et de ralentissement qui affectent la cible.",
+      "name": "Harmonisation céleste",
+      "shortText": "Lumière d’Élune supprime les étourdissements, les silences et les ralentissements."
+    },
+    "TyrandeEmpower|TyrandeSentinelEmpowerTalent|W|Level16": {
+      "fullText": "Réduit le temps de recharge de Sentinelle de <c val=\"#TooltipNumbers\">3</c> secondes. Les héros touchés par Sentinelle subissent un supplément de dégâts égal à <c val=\"#TooltipNumbers\">6%</c> de leur maximum de points de vie.",
+      "name": "Renforcement",
+      "shortText": "Sentinelle inflige des dégâts supplémentaires. Son temps de recharge est réduit."
+    },
+    "TyrandeDarnassianArchery|TyrandeDarnassianArchery|Passive|Level16": {
+      "fullText": "Chaque attaque de base portée à un héros adverse augmente les dégâts des suivantes de <c val=\"#TooltipNumbers\">12%</c> cumulables pendant <c val=\"#TooltipNumbers\">4</c> secondes.",
+      "name": "Archerie darnassienne",
+      "shortText": "Les attaques de base consécutives infligent plus de dégâts."
+    },
+    "TyrandeEyesOfTheHuntress|TyrandeEyesOfTheHuntress|Heroic|Level20": {
+      "fullText": "Éclipse d’Élune révèle tous les héros adverses pendant <c val=\"#TooltipNumbers\">10</c> secondes et rend <c val=\"#TooltipNumbers\">100%</c> de vie supplémentaire.",
+      "name": "Vision de la chasseresse",
+      "shortText": "Éclipse d’Élune révèle tous les ennemis et ses soins sont renforcés."
+    },
+    "TyrandeMasteryStarfallCelestialWrath|TyrandeStarfallCelestialWrathTalent|Heroic|Level20": {
+      "fullText": "Porte le ralentissement de Météores à <c val=\"#TooltipNumbers\">60%</c> et applique Marque du chasseur aux héros se trouvant dans sa zone d’effet.",
+      "name": "Courroux céleste",
+      "shortText": "Météores applique Marque du chasseur et ralentit davantage."
+    },
+    "TyrandeCommanderofSentinels|TyrandeCommanderofSentinels|W|Level20": {
+      "fullText": "Sentinelle obtient une <c val=\"#TooltipNumbers\">deuxième</c> charge.",
+      "name": "Commandante des sentinelles",
+      "shortText": "Sentinelle obtient une charge supplémentaire."
+    },
+    "TyrandeIcebladeArrows|TyrandeIcebladeArrows|Passive|Level20": {
+      "fullText": "Augmente la vitesse d’attaque de <c val=\"#TooltipNumbers\">20%</c>. Les attaques de base portées aux héros adverses réduisent les dégâts qu’ils infligent de <c val=\"#TooltipNumbers\">8%</c> pendant <c val=\"#TooltipNumbers\">2</c> secondes. Cet effet se cumule jusqu’à <c val=\"#TooltipNumbers\">5</c> fois.",
+      "name": "Flèches glacelame",
+      "shortText": "Augmente le vitesse d’attaque, réduit les dégâts subis."
+    }
+  },
+  "units": {}
+}

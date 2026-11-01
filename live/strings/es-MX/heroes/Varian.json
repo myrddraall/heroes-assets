@@ -1,0 +1,227 @@
+{
+  "abilities": {
+    "VarianLionsFang|VarianLionsFang|Q": {
+      "cooldownText": "Tiempo de reutilización: 8 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 50</s>",
+      "fullText": "Crea una ola de choque que avanza en línea recta, inflige <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c> de daño y ralentiza a los enemigos un <c val=\"#TooltipNumbers\">35%</c> durante <c val=\"#TooltipNumbers\">1.5</c> segundos. Cada enemigo golpeado le restituye <c val=\"#TooltipNumbers\">35</c><c val=\"#ColorGray\">~~0.04~~</c> de salud a Varian, lo que aumenta en <c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c> si golpea a héroes.",
+      "name": "Colmillo de león",
+      "shortText": "Daña y ralentiza a los enemigos en una línea y sana a Varian"
+    },
+    "VarianParry|VarianParry|W": {
+      "cooldownText": "Tiempo de reutilización de carga: 10 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 30</s>",
+      "fullText": "Bloquea todos los ataques básicos recibidos durante <c val=\"#TooltipNumbers\">1.25</c> segundos y reduce su daño un <c val=\"#TooltipNumbers\">100%</c>.<n/><n/>Acumula hasta <c val=\"#TooltipNumbers\">2</c> cargas.",
+      "name": "Parar",
+      "shortText": "Bloquea los ataques básicos recibidos durante un período breve"
+    },
+    "VarianCharge|VarianCharge|E": {
+      "cooldownText": "Tiempo de reutilización: 12 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 45</s>",
+      "fullText": "Carga contra el enemigo objetivo, le inflige <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> de daño y lo ralentiza un <c val=\"#TooltipNumbers\">75%</c> durante <c val=\"#TooltipNumbers\">1</c> segundo.",
+      "name": "Carga",
+      "shortText": "Carga hacia un enemigo y lo daña"
+    },
+    "VarianTaunt|VarianTaunt|Heroic": {
+      "cooldownText": "Tiempo de reutilización: 16 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 20</s>",
+      "fullText": "Silencia a un héroe objetivo y lo obliga a atacar a Varian durante <c val=\"#TooltipNumbers\">1.25</c> segundos.<n/><n/><c val=\"#AbilityPassive\">Pasivo:</c> Aumenta un <c val=\"#TooltipNumbers\">40%</c> la salud máxima y la regeneración de salud.",
+      "name": "Provocar",
+      "shortText": "Obtienes salud <n/>Obliga a un héroe a que ataque a Varian"
+    },
+    "VarianColossusSmash|VarianColossusSmash|Heroic": {
+      "cooldownText": "Tiempo de reutilización: 20 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 40</s>",
+      "fullText": "Machaca a un enemigo objetivo, le inflige <c val=\"#TooltipNumbers\">185</c><c val=\"#ColorGray\">~~0.04~~</c> de daño y reduce su Armadura en <c val=\"#TooltipNumbers\">25</c> durante <c val=\"#TooltipNumbers\">3</c> segundos, lo que hace que reciba un <c val=\"#TooltipNumbers\">25%</c> más de daño.<n/><n/><c val=\"#AbilityPassive\">Pasivo:</c> Aumenta un <c val=\"#TooltipNumbers\">100%</c> el daño de ataque básico.<n/><c val=\"#AbilityPassive\">Pasivo: </c>Reduce un <c val=\"#TooltipNumbers\">10%</c> la salud máxima y la regeneración de salud.",
+      "name": "Machaque colosal",
+      "shortText": "Infliges más daño pero pierdes salud<n/>Machaca a los enemigos y reduce su Armadura"
+    },
+    ":PASSIVE:|VarianTwinBladesOfFury|Heroic": {
+      "fullText": "Los ataques básicos reducen <c val=\"#TooltipNumbers\">7</c> segundos más el tiempo de reutilización de Golpe heroico y aumentan un <c val=\"#TooltipNumbers\">30%</c> la velocidad de movimiento de Varian durante <c val=\"#TooltipNumbers\">2</c> segundos.<n/><n/><c val=\"#AbilityPassive\">Pasiva:</c> La velocidad de ataque aumenta un <c val=\"#TooltipNumbers\">100%</c>.<n/><c val=\"#AbilityPassive\">Pasiva:</c> Reduce un <c val=\"#TooltipNumbers\">25%</c> el daño de ataque básico.",
+      "name": "Espadas gemelas de furia",
+      "shortText": "Aumenta velocidad de ataque, reduce el daño<n/>Los ataques básicos recargan Golpe heroico"
+    },
+    "VarianHeroicStrike|VarianHeroicStrike|Trait": {
+      "cooldownText": "Tiempo de reutilización: 18 segundos",
+      "fullText": "Cada <c val=\"#TooltipNumbers\">18</c> segundos, el siguiente ataque básico de Varian inflige <c val=\"#TooltipNumbers\">125</c><c val=\"#ColorGray\">~~0.04~~</c> más de daño de habilidad especial. Los ataques básicos reducen <c val=\"#TooltipNumbers\">3</c> segundos el tiempo de reutilización.",
+      "name": "Golpe heroico",
+      "shortText": "Inflige daño adicional en el próximo ataque"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Tiempo de reutilización: 4 segundos",
+      "fullText": "Tras una canalización de <c val=\"#TooltipNumbers\">1</c> segundo, obtienes un <s val=\"StandardTooltipDetails\">30%</s> de velocidad de movimiento.",
+      "name": "Invocar montura"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Tras una canalización de <c val=\"#TooltipNumbers\">6</c> segundos, te teletransportas de regreso a la Sala de las tormentas para recuperar <c val=\"#TooltipNumbers\">1125</c> de salud y <c val=\"#TooltipNumbers\">150</c> de maná de inmediato.",
+      "name": "Piedra de hogar"
+    },
+    ":PASSIVE:|VarianHeroicStrikeActive|Trait": {
+      "cooldownText": "Tiempo de reutilización: 18 segundos",
+      "fullText": "Cada <c val=\"#TooltipNumbers\">18</c> segundos, el siguiente ataque básico de Varian inflige <c val=\"#TooltipNumbers\">125</c><c val=\"#ColorGray\">~~0.04~~</c> más de daño de habilidad especial. Los ataques básicos reducen <c val=\"#TooltipNumbers\">3</c> segundos el tiempo de reutilización.",
+      "name": "Golpe heroico",
+      "shortText": "Daño de ataque básico adicional"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Te desmontas.",
+      "name": "Desinvocar montura"
+    },
+    "VarianVictoryRush|VarianVictoryRush|Passive": {
+      "cooldownText": "Tiempo de reutilización: 30 segundos",
+      "fullText": "Cada <c val=\"#TooltipNumbers\">30</c> segundos, el siguiente ataque básico de Varian lo sana por <c val=\"#TooltipNumbers\">350</c><c val=\"#ColorGray\">~~0.04~~</c> de salud. Cuando un esbirro enemigo o monstruo cercano muere, el tiempo de reutilización se reduce <c val=\"#TooltipNumbers\">10</c> segundos.",
+      "name": "Ataque victorioso",
+      "shortText": "Los ataques básicos sanan por un gran monto periódicamente"
+    },
+    "VarianShatteringThrow|VarianShatteringThrow|Active": {
+      "cooldownText": "Tiempo de reutilización: 30 segundos",
+      "fullText": "Activar para lanzar una espada sobre un héroe objetivo e infligirle <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> de daño, y hasta un máximo de <c val=\"#TooltipNumbers\">1400</c><c val=\"#ColorGray\">~~0.04~~</c> más de daño a sus escudos.<n/><n/><c val=\"#AbilityPassive\">Pasivo:</c> Los ataques básicos contra héroes infligen hasta un <c val=\"#TooltipNumbers\">200%</c> más de daño físico a los escudos.",
+      "name": "Lanzamiento destrozador",
+      "shortText": "Inflige un gran daño a los escudos enemigos"
+    },
+    "VarianBannerOfDalaran|VarianBannerOfDalaran|Active": {
+      "cooldownText": "Tiempo de reutilización: 25 segundos",
+      "fullText": "Actívalo para colocar un estandarte que otorga un <c val=\"#TooltipNumbers\">20%</c> más de poder de habilidad especial a los héroes aliados cercanos. Dura <c val=\"#TooltipNumbers\">12</c> segundos.",
+      "name": "Estandarte de Dalaran",
+      "shortText": "Estandarte que otorga poder de habilidad especial"
+    },
+    "VarianBannerOfIronforge|VarianBannerOfIronforge|Active": {
+      "cooldownText": "Tiempo de reutilización: 45 segundos",
+      "fullText": "Actívalo para colocar un estandarte que otorga <c val=\"#TooltipNumbers\">20</c> de Armadura a los héroes aliados cercanos, lo que reduce el daño recibido un <c val=\"#TooltipNumbers\">20%</c>. Dura <c val=\"#TooltipNumbers\">12</c> segundos.",
+      "name": "Estandarte de Forjaz",
+      "shortText": "Estandarte que otorga Armadura"
+    },
+    "VarianBannerOfStormwind|VarianBannerOfStormwind|Active": {
+      "cooldownText": "Tiempo de reutilización: 25 segundos",
+      "fullText": "Actívalo para colocar un estandarte que otorga <c val=\"#TooltipNumbers\">25%</c> más de velocidad de movimiento a los héroes aliados cercanos. Dura <c val=\"#TooltipNumbers\">12</c> segundos.",
+      "name": "Estandarte de Ventormenta",
+      "shortText": "Estandarte que otorga velocidad de movimiento"
+    },
+    "VarianDemoralizingShout|VarianDemoralizingShout|Active": {
+      "cooldownText": "Tiempo de reutilización: 20 segundos",
+      "fullText": "Actívalo para desmoralizar a los héroes enemigos cercanos y reducir un <c val=\"#TooltipNumbers\">40%</c> el daño que infligen durante <c val=\"#TooltipNumbers\">5</c> segundos.<n/><n/>Cada vez que un héroe enemigo afectado por Grito desmoralizador inflige daño, su tiempo de reutilización y el de Parar se reducen un <c val=\"#TooltipNumbers\">5%</c>.",
+      "name": "Grito desmoralizador",
+      "shortText": "Reduce el daño de los héroes cercanos"
+    }
+  },
+  "talents": {
+    "VarianLionsFangLionsMawQuest|VarianLionsFangLionsMawQuest|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Misión:</c> Cada vez que Colmillo de león golpea a un héroe, su daño aumenta en <c val=\"#TooltipNumbers\">7</c>, hasta un máximo de <c val=\"#TooltipNumbers\">175</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa:</c> Después de golpear a <c val=\"#TooltipNumbers\">25</c> héroes, la ralentización aumenta al <c val=\"#TooltipNumbers\">50%</c> y su duración aumenta a <c val=\"#TooltipNumbers\">2</c> segundos.",
+      "name": "Fauces del león",
+      "shortText": "<c val=\"#TooltipQuest\">Misión:</c> Golpea héroes para potenciar Colmillo de león"
+    },
+    "VarianParryOverpower|VarianParryOverpower|W|Level1": {
+      "fullText": "Si Parar bloquea un ataque básico de héroe, el tiempo de reutilización de Golpe heroico se restablece y el siguiente golpe con esta habilidad inflige un <c val=\"#TooltipNumbers\">40%</c> más de daño.",
+      "name": "Abrumar",
+      "shortText": "Parar el ataque de un héroe restablece Golpe heroico"
+    },
+    "VarianHighKingsQuestQuest|VarianHighKingsQuestQuest|Passive|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Misión: </c>Golpea a <c val=\"#TooltipNumbers\">50</c> héroes con ataques básicos.<n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Misión: </c>Participa en <c val=\"#TooltipNumbers\">5</c> derribos de héroe.<n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Misión: </c>Recoge <c val=\"#TooltipNumbers\">15</c> esferas de regeneración.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa:</c> Completar una misión otorga <c val=\"#TooltipNumbers\">10</c> de daño de ataque básico. Si completas las <c val=\"#TooltipNumbers\">3</c> misiones obtienes <c val=\"#TooltipNumbers\">30</c> de daño de ataque básico.",
+      "name": "Misión del Alto Rey",
+      "shortText": "<c val=\"#TooltipQuest\">Misión:</c> Completa misiones para obtener daño de ataque"
+    },
+    "VarianTaunt|VarianTaunt|Heroic|Level4": {
+      "cooldownText": "Tiempo de reutilización: 16 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 20</s>",
+      "fullText": "Silencia a un héroe objetivo y lo obliga a atacar a Varian durante <c val=\"#TooltipNumbers\">1.25</c> segundos.<n/><n/><c val=\"#AbilityPassive\">Pasivo:</c> Aumenta un <c val=\"#TooltipNumbers\">40%</c> la salud máxima y la regeneración de salud.",
+      "name": "Provocar",
+      "shortText": "Obtienes salud <n/>Obliga a un héroe a que ataque a Varian"
+    },
+    "VarianColossusSmash|VarianColossusSmash|Heroic|Level4": {
+      "cooldownText": "Tiempo de reutilización: 20 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 40</s>",
+      "fullText": "Machaca a un enemigo objetivo, le inflige <c val=\"#TooltipNumbers\">185</c><c val=\"#ColorGray\">~~0.04~~</c> de daño y reduce su Armadura en <c val=\"#TooltipNumbers\">25</c> durante <c val=\"#TooltipNumbers\">3</c> segundos, lo que hace que reciba un <c val=\"#TooltipNumbers\">25%</c> más de daño.<n/><n/><c val=\"#AbilityPassive\">Pasivo:</c> Aumenta un <c val=\"#TooltipNumbers\">100%</c> el daño de ataque básico.<n/><c val=\"#AbilityPassive\">Pasivo: </c>Reduce un <c val=\"#TooltipNumbers\">10%</c> la salud máxima y la regeneración de salud.",
+      "name": "Machaque colosal",
+      "shortText": "Infliges más daño pero pierdes salud<n/>Machaca a los enemigos y reduce su Armadura"
+    },
+    "VarianTwinBladesOfFury|VarianTwinBladesOfFury|Heroic|Level4": {
+      "fullText": "Los ataques básicos reducen <c val=\"#TooltipNumbers\">7</c> segundos más el tiempo de reutilización de Golpe heroico y aumentan un <c val=\"#TooltipNumbers\">30%</c> la velocidad de movimiento de Varian durante <c val=\"#TooltipNumbers\">2</c> segundos.<n/><n/><c val=\"#AbilityPassive\">Pasiva:</c> La velocidad de ataque aumenta un <c val=\"#TooltipNumbers\">100%</c>.<n/><c val=\"#AbilityPassive\">Pasiva:</c> Reduce un <c val=\"#TooltipNumbers\">25%</c> el daño de ataque básico.",
+      "name": "Espadas gemelas de furia",
+      "shortText": "Aumenta velocidad de ataque, reduce el daño<n/>Los ataques básicos recargan Golpe heroico"
+    },
+    "VarianLionsFangLionheart|VarianLionsFangLionheart|Q|Level7": {
+      "fullText": "Aumenta un <c val=\"#TooltipNumbers\">75%</c> la sanación recibida por infligir daño a héroes con Colmillo de león.",
+      "name": "Corazón de león",
+      "shortText": "Aumenta la sanación de Colmillo de león"
+    },
+    "VarianSecondWind|VarianSecondWind|Passive|Level7": {
+      "fullText": "Los ataques básicos sanan a Varian un <c val=\"#TooltipNumbers\">1%</c> de su salud máxima. Cuando tiene menos del <c val=\"#TooltipNumbers\">50%</c> de salud, también lo sanan un <c val=\"#TooltipNumbers\">50%</c> del daño infligido.",
+      "name": "Segundo aliento",
+      "shortText": "Los ataques básicos sanan, y más cuando tienes poca salud"
+    },
+    "VarianVictoryRush|VarianVictoryRush|Passive|Level7": {
+      "fullText": "Cada <c val=\"#TooltipNumbers\">30</c> segundos, el siguiente ataque básico de Varian lo sana por <c val=\"#TooltipNumbers\">350</c><c val=\"#ColorGray\">~~0.04~~</c> de salud. Cuando un esbirro enemigo o monstruo cercano muere, el tiempo de reutilización se reduce <c val=\"#TooltipNumbers\">10</c> segundos.",
+      "name": "Ataque victorioso",
+      "shortText": "Los ataques básicos sanan por un gran monto periódicamente"
+    },
+    "VarianParryShieldWall|VarianParryShieldWall|W|Level10": {
+      "fullText": "Parar otorga protección, lo que anula todo el daño recibido durante el transcurso de la habilidad. Además, reduce <c val=\"#TooltipNumbers\">5</c> segundos el tiempo de reutilización de Parar, pero pierde <c val=\"#TooltipNumbers\">1</c> carga.",
+      "name": "Muro de escudo",
+      "shortText": "Parar otorga protección"
+    },
+    "VarianChargeWarbringer|VarianChargeWarbringer|E|Level10": {
+      "fullText": "Reduce <c val=\"#TooltipNumbers\">8</c> segundos el tiempo de reutilización de Carga y el costo de maná de <c val=\"#TooltipNumbers\">45</c> a <c val=\"#TooltipNumbers\">25</c>. Además, ahora Carga se puede lanzar sobre héroes aliados.",
+      "name": "Belisario",
+      "shortText": "Reduce el tiempo de reutilización de Carga; se puede usar sobre aliados"
+    },
+    "VarianChargeJuggernaut|VarianChargeJuggernaut|E|Level13": {
+      "fullText": "Carga inflige daño adicional a los héroes por un valor equivalente al <c val=\"#TooltipNumbers\">4%</c> de su salud máxima.",
+      "name": "Fuerza irresistible",
+      "shortText": "Aumenta el daño de Carga"
+    },
+    "VarianMortalStrike|VarianMortalStrike|Trait|Level13": {
+      "fullText": "Los héroes golpeados con Golpe heroico reciben un <c val=\"#TooltipNumbers\">40%</c> menos de sanación durante <c val=\"#TooltipNumbers\">4</c> segundos.",
+      "name": "Golpe mortal",
+      "shortText": "Golpe heroico reduce la sanación de los enemigos"
+    },
+    "VarianShatteringThrow|VarianShatteringThrow|Active|Level13": {
+      "cooldownText": "Tiempo de reutilización: 30 segundos",
+      "fullText": "Activar para lanzar una espada sobre un héroe objetivo e infligirle <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> de daño, y hasta un máximo de <c val=\"#TooltipNumbers\">1400</c><c val=\"#ColorGray\">~~0.04~~</c> más de daño a sus escudos.<n/><n/><c val=\"#AbilityPassive\">Pasivo:</c> Los ataques básicos contra héroes infligen hasta un <c val=\"#TooltipNumbers\">200%</c> más de daño físico a los escudos.",
+      "name": "Lanzamiento destrozador",
+      "shortText": "Inflige un gran daño a los escudos enemigos"
+    },
+    "VarianBannerOfStormwind|VarianBannerOfStormwind|Active|Level16": {
+      "cooldownText": "Tiempo de reutilización: 25 segundos",
+      "fullText": "Actívalo para colocar un estandarte que otorga <c val=\"#TooltipNumbers\">25%</c> más de velocidad de movimiento a los héroes aliados cercanos. Dura <c val=\"#TooltipNumbers\">12</c> segundos.",
+      "name": "Estandarte de Ventormenta",
+      "shortText": "Estandarte que otorga velocidad de movimiento"
+    },
+    "VarianBannerOfIronforge|VarianBannerOfIronforge|Active|Level16": {
+      "cooldownText": "Tiempo de reutilización: 45 segundos",
+      "fullText": "Actívalo para colocar un estandarte que otorga <c val=\"#TooltipNumbers\">20</c> de Armadura a los héroes aliados cercanos, lo que reduce el daño recibido un <c val=\"#TooltipNumbers\">20%</c>. Dura <c val=\"#TooltipNumbers\">12</c> segundos.",
+      "name": "Estandarte de Forjaz",
+      "shortText": "Estandarte que otorga Armadura"
+    },
+    "VarianBannerOfDalaran|VarianBannerOfDalaran|Active|Level16": {
+      "cooldownText": "Tiempo de reutilización: 25 segundos",
+      "fullText": "Actívalo para colocar un estandarte que otorga un <c val=\"#TooltipNumbers\">20%</c> más de poder de habilidad especial a los héroes aliados cercanos. Dura <c val=\"#TooltipNumbers\">12</c> segundos.",
+      "name": "Estandarte de Dalaran",
+      "shortText": "Estandarte que otorga poder de habilidad especial"
+    },
+    "VarianTauntVigilance|VarianTauntVigilance|Heroic|Level20": {
+      "fullText": "Cuando un héroe te golpea con un ataque básico, el tiempo de reutilización de Provocar se reduce <c val=\"#TooltipNumbers\">1</c> segundo.",
+      "name": "Vigilancia",
+      "shortText": "Los ataques recibidos reducen la reutilización de Provocar"
+    },
+    "VarianColossusSmashMasterAtArms|VarianColossusSmashMasterAtArms|Heroic|Level20": {
+      "fullText": "Machaque colosal afecta a todos los enemigos cercanos al objetivo y su tiempo de reutilización se reduce <c val=\"#TooltipNumbers\">10</c> segundos.",
+      "name": "Maestro de armas",
+      "shortText": "Machaque colosal golpea a los enemigos cercanos al objetivo"
+    },
+    "VarianTwinBladesOfFuryFrenzy|VarianTwinBladesOfFuryFrenzy|Passive|Level20": {
+      "fullText": "Espadas gemelas de furia aumenta el daño de Golpe heroico un <c val=\"#TooltipNumbers\">25%</c> más, y los ataques básicos aumentan su velocidad de movimiento un <c val=\"#TooltipNumbers\">10%</c> más.",
+      "name": "Frenesí",
+      "shortText": "Aumenta las bonificaciones de Espadas gemelas de furia"
+    },
+    "VarianBannersGloryToTheAlliance|VarianBannersGloryToTheAlliance|Passive|Level20": {
+      "fullText": "Ahora el estandarte también aumenta la regeneración de salud de los héroes aliados cercanos y todas las sanaciones que reciben un <c val=\"#TooltipNumbers\">50%</c>, y el tiempo de reutilización se reduce un <c val=\"#TooltipNumbers\">50%</c>.",
+      "name": "Gloria a la Alianza",
+      "shortText": "El estandarte también potencia los efectos de sanación"
+    },
+    "VarianDemoralizingShout|VarianDemoralizingShout|Active|Level20": {
+      "cooldownText": "Tiempo de reutilización: 20 segundos",
+      "fullText": "Actívalo para desmoralizar a los héroes enemigos cercanos y reducir un <c val=\"#TooltipNumbers\">40%</c> el daño que infligen durante <c val=\"#TooltipNumbers\">5</c> segundos.<n/><n/>Cada vez que un héroe enemigo afectado por Grito desmoralizador inflige daño, su tiempo de reutilización y el de Parar se reducen un <c val=\"#TooltipNumbers\">5%</c>.",
+      "name": "Grito desmoralizador",
+      "shortText": "Reduce el daño de los héroes cercanos"
+    }
+  },
+  "units": {}
+}

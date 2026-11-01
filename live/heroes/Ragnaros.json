@@ -1,0 +1,791 @@
+{
+  "id": "Ragnaros",
+  "unitId": "HeroRagnaros",
+  "hyperlinkId": "Ragnaros",
+  "attributeId": "Ragn",
+  "franchise": "Warcraft",
+  "rarity": "Epic",
+  "releaseDate": "2016-12-14",
+  "isMelee": true,
+  "gender": "Male",
+  "radius": 1,
+  "innerRadius": 0.875,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "MountRagnarosWake",
+  "ratings": {
+    "complexity": 7,
+    "damage": 8,
+    "survivability": 8,
+    "utility": 7
+  },
+  "life": {
+    "amount": 2075,
+    "scale": 0.04,
+    "regenRate": 4.3242,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "EnergyImportant",
+    "Escaper",
+    "Overconfident",
+    "RoleCaster",
+    "WaveClearer"
+  ],
+  "weapons": [
+    {
+      "nameId": "RagnarosAttackWeapon",
+      "isDisabled": false,
+      "range": 2,
+      "minimumRange": 0,
+      "period": 1.2,
+      "damage": 180,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "RagnarosLil",
+    "RagnarosUltimate"
+  ],
+  "variationSkinIds": [
+    "RagnarosBaseVar1",
+    "RagnarosBaseVar2"
+  ],
+  "voiceLineIds": [
+    "RagnarosBase_VoiceLine01",
+    "RagnarosBase_VoiceLine02",
+    "RagnarosBase_VoiceLine03",
+    "RagnarosBase_VoiceLine04",
+    "RagnarosBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "MountRagnarosWake"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "RagnarosEmpowerSulfuras|RagnarosEmpowerSulfuras|Q",
+        "abilityId": "RagnarosEmpowerSulfuras",
+        "buttonId": "RagnarosEmpowerSulfuras",
+        "icon": "storm_ui_icon_ragnaros_empowersulfuras.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "RagnarosLivingMeteor|RagnarosLivingMeteor|W",
+        "abilityId": "RagnarosLivingMeteor",
+        "buttonId": "RagnarosLivingMeteor",
+        "icon": "storm_ui_icon_ragnaros_livingmeteor.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "RagnarosBlastWave|RagnarosBlastWave|E",
+        "abilityId": "RagnarosBlastWave",
+        "buttonId": "RagnarosBlastWave",
+        "icon": "storm_ui_icon_ragnaros_blastwave.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "RagnarosSulfurasSmash|RagnarosSulfurasSmash|Heroic",
+        "abilityId": "RagnarosSulfurasSmash",
+        "buttonId": "RagnarosSulfurasSmash",
+        "icon": "storm_ui_icon_ragnaros_sulfurassmash.png",
+        "charges": {
+          "countMax": 1,
+          "countStart": 1,
+          "countUse": 1,
+          "recastCooldown": 1,
+          "isCountHidden": true
+        },
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "RagnarosLavaWaveTargetPoint|RagnarosLavaWaveTargetPoint|Heroic",
+        "abilityId": "RagnarosLavaWaveTargetPoint",
+        "buttonId": "RagnarosLavaWaveTargetPoint",
+        "icon": "storm_ui_icon_ragnaros_lavawave.png",
+        "charges": {
+          "countMax": 1,
+          "countStart": 1,
+          "countUse": 1,
+          "recastCooldown": 5,
+          "isCountHidden": true
+        },
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": "RagnarosMoltenCore|RagnarosMoltenCore|Trait",
+        "abilityId": "RagnarosMoltenCore",
+        "buttonId": "RagnarosMoltenCore",
+        "icon": "storm_ui_icon_ragnaros_moltencore.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "RagnarosEmpowerSulfuras|RagnarosEmpowerSulfuras|Q": {
+      "Basic": [
+        {
+          "linkId": ":PASSIVE:|RagnarosEmpowerSulfurasActive|Q",
+          "abilityId": ":PASSIVE:",
+          "buttonId": "RagnarosEmpowerSulfurasActive",
+          "icon": "storm_ui_icon_ragnaros_empowersulfuras_active.png",
+          "abilityType": "Q"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "RagnarosSubmerge|RagnarosSubmerge|Active": {
+      "Activable": [
+        {
+          "linkId": "RagnarosSubmerge|RagnarosSubmergeCancel|Active",
+          "abilityId": "RagnarosSubmerge",
+          "buttonId": "RagnarosSubmergeCancel",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "RagnarosLivingMeteorShiftingMeteor|RagnarosLivingMeteorShiftingMeteor|W|Level1": {
+      "Basic": [
+        {
+          "linkId": "RagnarosLivingMeteorShiftingMeteor|RagnarosLivingMeteorShiftingMeteorRedirect|W",
+          "abilityId": "RagnarosLivingMeteorShiftingMeteor",
+          "buttonId": "RagnarosLivingMeteorShiftingMeteorRedirect",
+          "icon": "storm_ui_icon_ragnaros_shiftingmeteor.png",
+          "abilityType": "W"
+        }
+      ]
+    },
+    "RagnarosCatchingFire|RagnarosCatchingFireTalent|Active|Level4": {
+      "Activable": [
+        {
+          "linkId": "RagnarosCatchingFire|RagnarosCatchingFireItem|Active",
+          "abilityId": "RagnarosCatchingFire",
+          "buttonId": "RagnarosCatchingFireItem",
+          "icon": "storm_ui_icon_ragnaros_catchingfire.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "RagnarosResilientFlame|RagnarosResilientFlame|Passive|Level13": {
+      "Activable": [
+        {
+          "linkId": "RagnarosResilientFlameCooldownDisplay|RagnarosResilientFlame|Passive",
+          "abilityId": "RagnarosResilientFlameCooldownDisplay",
+          "buttonId": "RagnarosResilientFlame",
+          "icon": "storm_ui_icon_talent_resistance.png",
+          "abilityType": "Passive"
+        }
+      ]
+    },
+    "RagnarosSubmerge|RagnarosSubmerge|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "RagnarosSubmerge|RagnarosSubmerge|Active",
+          "abilityId": "RagnarosSubmerge",
+          "buttonId": "RagnarosSubmerge",
+          "icon": "storm_ui_icon_ragnaros_submerge.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "RagnarosEmpowerSulfurasSulfurasHungers|RagnarosEmpowerSulfurasSulfurasHungers|Q|Level1",
+        "talentId": "RagnarosEmpowerSulfurasSulfurasHungers",
+        "buttonId": "RagnarosEmpowerSulfurasSulfurasHungers",
+        "abilityId": "RagnarosEmpowerSulfuras",
+        "icon": "storm_ui_icon_ragnaros_empowersulfuras.png",
+        "abilityType": "Q",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|RagnarosEmpowerSulfurasActive|Q",
+          "RagnarosEmpowerSulfuras|RagnarosEmpowerSulfuras|Q"
+        ]
+      },
+      {
+        "linkId": "RagnarosLivingMeteorShiftingMeteor|RagnarosLivingMeteorShiftingMeteor|W|Level1",
+        "talentId": "RagnarosLivingMeteorShiftingMeteor",
+        "buttonId": "RagnarosLivingMeteorShiftingMeteor",
+        "abilityId": "RagnarosLivingMeteor",
+        "icon": "storm_ui_icon_ragnaros_livingmeteor.png",
+        "abilityType": "W",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "RagnarosLivingMeteor|RagnarosLivingMeteor|W"
+        ]
+      },
+      {
+        "linkId": "RagnarosBlastWaveEngulfingFlame|RagnarosBlastWaveEngulfingFlame|E|Level1",
+        "talentId": "RagnarosBlastWaveEngulfingFlame",
+        "buttonId": "RagnarosBlastWaveEngulfingFlame",
+        "abilityId": "RagnarosBlastWave",
+        "icon": "storm_ui_icon_ragnaros_blastwave.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "RagnarosBlastWave|RagnarosBlastWave|E"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "RagnarosLivingMeteorFireWard|RagnarosLivingMeteorFireWard|W|Level4",
+        "talentId": "RagnarosLivingMeteorFireWard",
+        "buttonId": "RagnarosLivingMeteorFireWard",
+        "abilityId": "RagnarosLivingMeteor",
+        "icon": "storm_ui_icon_ragnaros_livingmeteor.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "RagnarosLivingMeteor|RagnarosLivingMeteor|W"
+        ]
+      },
+      {
+        "linkId": "RagnarosBlastWaveSlowBurn|RagnarosBlastWaveSlowBurn|E|Level4",
+        "talentId": "RagnarosBlastWaveSlowBurn",
+        "buttonId": "RagnarosBlastWaveSlowBurn",
+        "abilityId": "RagnarosBlastWave",
+        "icon": "storm_ui_icon_ragnaros_blastwave.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "RagnarosBlastWave|RagnarosBlastWave|E"
+        ]
+      },
+      {
+        "linkId": "RagnarosCatchingFire|RagnarosCatchingFireTalent|Active|Level4",
+        "talentId": "RagnarosCatchingFire",
+        "buttonId": "RagnarosCatchingFireTalent",
+        "abilityId": "RagnarosCatchingFire",
+        "icon": "storm_ui_icon_ragnaros_catchingfire.png",
+        "abilityType": "Active",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "RagnarosCatchingFire|RagnarosCatchingFireItem|Active"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "RagnarosEmpowerSulfurasHandOfRagnaros|RagnarosEmpowerSulfurasHandOfRagnaros|Q|Level7",
+        "talentId": "RagnarosEmpowerSulfurasHandOfRagnaros",
+        "buttonId": "RagnarosEmpowerSulfurasHandOfRagnaros",
+        "abilityId": "RagnarosEmpowerSulfuras",
+        "icon": "storm_ui_icon_ragnaros_empowersulfuras.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|RagnarosEmpowerSulfurasActive|Q",
+          "RagnarosEmpowerSulfuras|RagnarosEmpowerSulfuras|Q"
+        ]
+      },
+      {
+        "linkId": "RagnarosLivingMeteorMoltenPower|RagnarosLivingMeteorMoltenPower|W|Level7",
+        "talentId": "RagnarosLivingMeteorMoltenPower",
+        "buttonId": "RagnarosLivingMeteorMoltenPower",
+        "abilityId": "RagnarosLivingMeteor",
+        "icon": "storm_ui_icon_ragnaros_livingmeteor.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "RagnarosLivingMeteor|RagnarosLivingMeteor|W"
+        ]
+      },
+      {
+        "linkId": "RagnarosBlisteringAttacks|RagnarosBlisteringAttacks|Passive|Level7",
+        "talentId": "RagnarosBlisteringAttacks",
+        "buttonId": "RagnarosBlisteringAttacks",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_damage.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "RagnarosSulfurasSmash|RagnarosSulfurasSmash|Heroic|Level10",
+        "talentId": "RagnarosSulfurasSmash",
+        "buttonId": "RagnarosSulfurasSmash",
+        "abilityId": "RagnarosSulfurasSmash",
+        "icon": "storm_ui_icon_ragnaros_sulfurassmash.png",
+        "abilityType": "Heroic",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "RagnarosLavaWave|RagnarosLavaWaveTargetPoint|Heroic|Level10",
+        "talentId": "RagnarosLavaWave",
+        "buttonId": "RagnarosLavaWaveTargetPoint",
+        "abilityId": "RagnarosLavaWaveTargetPoint",
+        "icon": "storm_ui_icon_ragnaros_lavawave.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "RagnarosEmpowerSulfurasCauterizeWounds|RagnarosEmpowerSulfurasCauterizeWounds|Q|Level13",
+        "talentId": "RagnarosEmpowerSulfurasCauterizeWounds",
+        "buttonId": "RagnarosEmpowerSulfurasCauterizeWounds",
+        "abilityId": "RagnarosEmpowerSulfuras",
+        "icon": "storm_ui_icon_ragnaros_empowersulfuras.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|RagnarosEmpowerSulfurasActive|Q",
+          "RagnarosEmpowerSulfuras|RagnarosEmpowerSulfuras|Q"
+        ]
+      },
+      {
+        "linkId": "RagnarosBlastWaveTemperedFlame|RagnarosBlastWaveTemperedFlame|E|Level13",
+        "talentId": "RagnarosBlastWaveTemperedFlame",
+        "buttonId": "RagnarosBlastWaveTemperedFlame",
+        "abilityId": "RagnarosBlastWave",
+        "icon": "storm_ui_icon_ragnaros_blastwave.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "RagnarosBlastWave|RagnarosBlastWave|E"
+        ]
+      },
+      {
+        "linkId": "RagnarosResilientFlame|RagnarosResilientFlame|Passive|Level13",
+        "talentId": "RagnarosResilientFlame",
+        "buttonId": "RagnarosResilientFlame",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_resistance.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "RagnarosEmpowerSulfurasGiantScorcher|RagnarosEmpowerSulfurasGiantScorcher|Q|Level16",
+        "talentId": "RagnarosEmpowerSulfurasGiantScorcher",
+        "buttonId": "RagnarosEmpowerSulfurasGiantScorcher",
+        "abilityId": "RagnarosEmpowerSulfuras",
+        "icon": "storm_ui_icon_ragnaros_empowersulfuras.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|RagnarosEmpowerSulfurasActive|Q",
+          "RagnarosEmpowerSulfuras|RagnarosEmpowerSulfuras|Q"
+        ]
+      },
+      {
+        "linkId": "RagnarosLivingMeteorMeteorBomb|RagnarosLivingMeteorMeteorBomb|W|Level16",
+        "talentId": "RagnarosLivingMeteorMeteorBomb",
+        "buttonId": "RagnarosLivingMeteorMeteorBomb",
+        "abilityId": "RagnarosLivingMeteor",
+        "icon": "storm_ui_icon_ragnaros_livingmeteor.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "RagnarosLivingMeteor|RagnarosLivingMeteor|W"
+        ]
+      },
+      {
+        "linkId": "RagnarosBlastWaveBlastEcho|RagnarosBlastWaveBlastEcho|E|Level16",
+        "talentId": "RagnarosBlastWaveBlastEcho",
+        "buttonId": "RagnarosBlastWaveBlastEcho",
+        "abilityId": "RagnarosBlastWave",
+        "icon": "storm_ui_icon_ragnaros_blastwave.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "RagnarosBlastWave|RagnarosBlastWave|E"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "RagnarosSulfurasSmashFlamesOfSulfuron|RagnarosSulfurasSmashFlamesOfSulfuron|Heroic|Level20",
+        "talentId": "RagnarosSulfurasSmashFlamesOfSulfuron",
+        "buttonId": "RagnarosSulfurasSmashFlamesOfSulfuron",
+        "abilityId": "RagnarosSulfurasSmash",
+        "icon": "storm_ui_icon_ragnaros_sulfurassmash.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "RagnarosBigRagSulfurasSmash|RagnarosSulfurasSmash|Heroic",
+          "RagnarosSulfurasSmash|RagnarosSulfurasSmash|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "RagnarosSulfurasSmash"
+        ]
+      },
+      {
+        "linkId": "RagnarosLavaWaveLavaSurge|RagnarosLavaWaveLavaSurge|Heroic|Level20",
+        "talentId": "RagnarosLavaWaveLavaSurge",
+        "buttonId": "RagnarosLavaWaveLavaSurge",
+        "abilityId": "RagnarosLavaWaveTargetPoint",
+        "icon": "storm_ui_icon_ragnaros_lavawave.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "RagnarosLavaWaveTargetPoint|RagnarosLavaWaveTargetPoint|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "RagnarosLavaWave"
+        ]
+      },
+      {
+        "linkId": "RagnarosMoltenCoreHeroicDifficulty|RagnarosMoltenCoreHeroicDifficulty|Trait|Level20",
+        "talentId": "RagnarosMoltenCoreHeroicDifficulty",
+        "buttonId": "RagnarosMoltenCoreHeroicDifficulty",
+        "abilityId": "RagnarosMoltenCore",
+        "icon": "storm_ui_icon_ragnaros_moltencore.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "RagnarosMoltenCore|RagnarosMoltenCore|Trait"
+        ]
+      },
+      {
+        "linkId": "RagnarosSubmerge|RagnarosSubmerge|Active|Level20",
+        "talentId": "RagnarosSubmerge",
+        "buttonId": "RagnarosSubmerge",
+        "abilityId": "RagnarosSubmerge",
+        "icon": "storm_ui_icon_ragnaros_submerge.png",
+        "toggleCooldown": 0.5,
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      }
+    ]
+  },
+  "heroUnits": {
+    "RagnarosBigRag": {
+      "radius": 3,
+      "innerRadius": 0,
+      "sight": 12,
+      "speed": 4.8398,
+      "attributes": [
+        "AITargetableStructure",
+        "Heroic",
+        "ImmuneToFriendlyAbilities"
+      ],
+      "life": {
+        "amount": 5000,
+        "scale": 0.04,
+        "regenRate": -222,
+        "regenScale": 0.04
+      },
+      "portraits": {
+        "minimap": "storm_ui_minimapicon_town_glow.png",
+        "targetInfo": "storm_ui_ingame_partyframe_ragnaros.png"
+      },
+      "abilities": {
+        "Basic": [
+          {
+            "linkId": "RagnarosBigRagMoltenSwing|RagnarosBigRagMoltenSwing|Q",
+            "abilityId": "RagnarosBigRagMoltenSwing",
+            "buttonId": "RagnarosBigRagMoltenSwing",
+            "icon": "storm_ui_icon_ragnaros_moltenswing.png",
+            "abilityType": "Q"
+          },
+          {
+            "linkId": "RagnarosBigRagMeteorShower|RagnarosBigRagMeteorShower|W",
+            "abilityId": "RagnarosBigRagMeteorShower",
+            "buttonId": "RagnarosBigRagMeteorShower",
+            "icon": "storm_ui_icon_ragnaros_meteorshower.png",
+            "abilityType": "W"
+          },
+          {
+            "linkId": "RagnarosBigRagExplosiveRune|RagnarosBigRagExplosiveRune|E",
+            "abilityId": "RagnarosBigRagExplosiveRune",
+            "buttonId": "RagnarosBigRagExplosiveRune",
+            "icon": "storm_ui_icon_ragnaros_explosiverune.png",
+            "abilityType": "E"
+          }
+        ],
+        "Heroic": [
+          {
+            "linkId": "RagnarosBigRagSulfurasSmash|RagnarosSulfurasSmash|Heroic",
+            "abilityId": "RagnarosBigRagSulfurasSmash",
+            "buttonId": "RagnarosSulfurasSmash",
+            "icon": "storm_ui_icon_ragnaros_sulfurassmash.png",
+            "charges": {
+              "countMax": 1,
+              "countStart": 1,
+              "countUse": 1,
+              "recastCooldown": 1,
+              "isCountHidden": true
+            },
+            "abilityType": "Heroic"
+          },
+          {
+            "linkId": "RagnarosLavaWaveTargetPoint|RagnarosLavaWaveTargetPoint|Heroic",
+            "abilityId": "RagnarosLavaWaveTargetPoint",
+            "buttonId": "RagnarosLavaWaveTargetPoint",
+            "icon": "storm_ui_icon_ragnaros_lavawave.png",
+            "charges": {
+              "countMax": 1,
+              "countStart": 1,
+              "countUse": 1,
+              "recastCooldown": 5,
+              "isCountHidden": true
+            },
+            "abilityType": "Heroic"
+          }
+        ],
+        "Trait": [
+          {
+            "linkId": "RagnarosBigRagReturnMoltenCore|RagnarosBigRagReturnMoltenCore|Trait",
+            "abilityId": "RagnarosBigRagReturnMoltenCore",
+            "buttonId": "RagnarosBigRagReturnMoltenCore",
+            "icon": "storm_ui_icon_ragnaros_return.png",
+            "toggleCooldown": 0.3,
+            "abilityType": "Trait"
+          }
+        ]
+      },
+      "subAbilities": {
+        "RagnarosBigRagReturnMoltenCore|RagnarosBigRagReturnMoltenCore|Trait": {
+          "Trait": [
+            {
+              "linkId": "RagnarosBigRagReturnMoltenCore|RagnarosBigRagCancelReturnMoltenCore|Trait",
+              "abilityId": "RagnarosBigRagReturnMoltenCore",
+              "buttonId": "RagnarosBigRagCancelReturnMoltenCore",
+              "icon": "hud_btn_bg_ability_cancel.png",
+              "toggleCooldown": 0.3,
+              "abilityType": "Trait"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "sheet": "sheets/Ragnaros.png",
+  "icons": {
+    "storm_ui_icon_ragnaros_empowersulfuras.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_ragnaros_livingmeteor.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_ragnaros_blastwave.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_ragnaros_sulfurassmash.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_ragnaros_lavawave.png": [
+      512,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_ragnaros_moltencore.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_mount.png": [
+      128,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      256,
+      128,
+      111,
+      71
+    ],
+    "storm_ui_icon_ragnaros_empowersulfuras_active.png": [
+      384,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_cancel_mount.png": [
+      512,
+      128,
+      76,
+      48
+    ],
+    "hud_btn_bg_ability_cancel.png": [
+      0,
+      256,
+      97,
+      111
+    ],
+    "storm_ui_icon_ragnaros_shiftingmeteor.png": [
+      128,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_ragnaros_catchingfire.png": [
+      256,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_resistance.png": [
+      384,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_ragnaros_submerge.png": [
+      512,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_autoattack_damage.png": [
+      0,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_ragnaros_moltenswing.png": [
+      128,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_ragnaros_meteorshower.png": [
+      256,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_ragnaros_explosiverune.png": [
+      384,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_ragnaros_return.png": [
+      512,
+      384,
+      128,
+      128
+    ]
+  }
+}

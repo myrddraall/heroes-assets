@@ -1,0 +1,227 @@
+{
+  "abilities": {
+    "ChromieSandBlast|ChromieSandBlast|Q": {
+      "cooldownText": "Tiempo de reutilización: 3 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 20</s>",
+      "fullText": "Después de <c val=\"#TooltipNumbers\">0.5</c> segundos, dispara un misil que inflige <c val=\"#TooltipNumbers\">305</c><c val=\"#ColorGray\">~~0.04~~</c> de daño al primer enemigo al que golpea. Inflige un <c val=\"#TooltipNumbers\">50%</c> de daño a estructuras.<n/><n/>El lanzamiento de Explosión de arena deja un eco detrás que imita los ataques básicos y la Explosión de arena de Cromi, e inflige un <c val=\"#TooltipNumbers\">40%</c> de daño. Máximo de <c val=\"#TooltipNumbers\">1</c> eco activo a la vez.",
+      "name": "Explosión de arena",
+      "shortText": "Dispara una explosión de largo alcance que daña a un enemigo"
+    },
+    "ChromieDragonsBreath|ChromieDragonsBreath|W": {
+      "cooldownText": "Tiempo de reutilización: 14 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 65</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">Selección de objetivos con vector</c><n/>Lanza <c val=\"#TooltipNumbers\">3</c> proyectiles al aire que caen cada <c val=\"#TooltipNumbers\">0.75</c> segundos hacia la dirección objetivo e infligen <c val=\"#TooltipNumbers\">215</c><c val=\"#ColorGray\">~~0.04~~</c> de daño cada uno.",
+      "name": "Aliento de dragón",
+      "shortText": "Dispara un conjunto de proyectiles en un área"
+    },
+    "ChromieTimeTrap|ChromieTimeTrap|E": {
+      "cooldownText": "Tiempo de reutilización: 15 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 20</s>",
+      "fullText": "Coloca una Trampa temporal que se arma y entra en sigilo después de <c val=\"#TooltipNumbers\">2</c> segundos. El atributo de Cromi puede activarse para detonar la trampa y colocar a todos los héroes aliados o enemigos cercanos en cese temporal durante <c val=\"#TooltipNumbers\">2</c> segundos. Máximo de <c val=\"#TooltipNumbers\">1</c> trampa activa a la vez.",
+      "name": "Trampa temporal",
+      "shortText": "Coloca una trampa que pone en cese temporal a los héroes"
+    },
+    "ChromieTemporalLoop|ChromieTemporalLoop|Heroic": {
+      "cooldownText": "Tiempo de reutilización: 50 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 60</s>",
+      "fullText": "Elige a un héroe enemigo. Después de <c val=\"#TooltipNumbers\">3</c> segundos, es teletransportado de regreso a la posición donde recibió Bucle temporal.<n/><n/>Las habilidades básicas se recargan un <c val=\"#TooltipNumbers\">500%</c> más rápido durante <c val=\"#TooltipNumbers\">3</c> segundos después del lanzamiento de Bucle temporal.",
+      "name": "Bucle temporal",
+      "shortText": "Regresa a un héroe enemigo a una posición anterior"
+    },
+    "ChromieSlowingSands|ChromieSlowingSands|Heroic": {
+      "cooldownText": "Tiempo de reutilización: 5 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 5 por segundo</s>",
+      "fullText": "Invoca un vórtice de arena que ralentiza a los enemigos un <c val=\"#TooltipNumbers\">10%</c> cada <c val=\"#TooltipNumbers\">0.25</c> segundos, hasta un máximo del <c val=\"#TooltipNumbers\">70%</c>.",
+      "name": "Arenas ralentizadoras",
+      "shortText": "Crea un área ralentizadora"
+    },
+    ":PASSIVE:|ChromieTimewalkerTrait|Trait": {
+      "fullText": "¡Cromi ha viajado al futuro! En consecuencia, aprenderá sus talentos <c val=\"#TooltipNumbers\">2</c> niveles antes que sus compañeros de equipo.<n/><n/><s val=\"StandardTooltipHeader\">Detonar Trampa temporal</s><n/><n/>Detona las Trampas temporales activas.",
+      "name": "Caminante del tiempo",
+      "shortText": "Obtienes talentos antes que todos los demás"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Tiempo de reutilización: 4 segundos",
+      "fullText": "Tras una canalización de <c val=\"#TooltipNumbers\">1</c> segundo, obtienes un <s val=\"StandardTooltipDetails\">30%</s> de velocidad de movimiento.",
+      "name": "Invocar montura"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Tras una canalización de <c val=\"#TooltipNumbers\">6</c> segundos, te teletransportas de regreso a la Sala de las tormentas para recuperar <c val=\"#TooltipNumbers\">1125</c> de salud y <c val=\"#TooltipNumbers\">150</c> de maná de inmediato.",
+      "name": "Piedra de hogar"
+    },
+    "ChromieTimeTrapDetonate|ChromieDetonateTimeTrap|Trait": {
+      "fullText": "Detona Trampas temporales activas, lo que coloca a todos los héroes aliados o enemigos en cese temporal durante <c val=\"#TooltipNumbers\">2</c> segundos.",
+      "name": "Detonar Trampa temporal",
+      "shortText": "Detona una trampa que pone en cese temporal a los héroes"
+    },
+    "ChromieSlowingSandsCancel|ChromieSlowingSandsCancel|Heroic": {
+      "fullText": "Cancelar Arenas ralentizadoras",
+      "name": "Cancelar Arenas ralentizadoras"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Te desmontas.",
+      "name": "Desinvocar montura"
+    },
+    "ChromieTimeOut|ChromieTimeOutCancel|Active": {
+      "cooldownText": "Tiempo de reutilización: 60 segundos",
+      "fullText": "Cancelar Descanso.",
+      "name": "Cancelar Descanso",
+      "shortText": "Cancelar Descanso."
+    },
+    "ChromieTimewalkersPursuit|ChromieTimewalkersPursuitActive|Active": {
+      "cooldownText": "Tiempo de reutilización: 25 segundos",
+      "fullText": "Actívalo para revelar el área objetivo durante <c val=\"#TooltipNumbers\">4</c> segundos. Los enemigos divisados quedan revelados durante <c val=\"#TooltipNumbers\">4</c> segundos.",
+      "name": "Afán del caminante del tiempo",
+      "shortText": "Actívalo para revelar un área<n/><c val=\"#TooltipQuest\">Misión:</c> Las esferas de regeneración aumentan la regeneración de maná"
+    },
+    "ChromieHereAndThere|ChromieHereAndThere|Active": {
+      "cooldownText": "Tiempo de reutilización: 20 segundos",
+      "fullText": "Activar para teletransportarte hasta un área cerca de un eco e intercambiar su posición con la posición anterior de Cromi.",
+      "name": "Aquí y allá",
+      "shortText": "Activar para intercambiar la posición con un eco"
+    },
+    "ChromieTimeOut|ChromieTimeOutHotbar|Active": {
+      "cooldownText": "Tiempo de reutilización: 60 segundos.",
+      "fullText": "Actívalo para que Cromi entre en estasis y se vuelva invulnerable durante un máximo de <c val=\"#TooltipNumbers\">5</c> segundos. Se puede volver a activar para interrumpir el efecto antes de tiempo.",
+      "name": "Descanso",
+      "shortText": "Actívalo para volverte invulnerable"
+    },
+    "ChromieQuantumOverdrive|ChromieQuantumOverdrive|Active": {
+      "cooldownText": "Tiempo de reutilización: 45 segundos",
+      "fullText": "Activar para aumentar el poder de habilidad especial un <c val=\"#TooltipNumbers\">30%</c> durante <c val=\"#TooltipNumbers\">8</c> segundos. Golpear a un héroe enemigo con Explosión de arena reduce este tiempo de reutilización <c val=\"#TooltipNumbers\">3</c> segundos.",
+      "name": "Ultravelocidad cuántica",
+      "shortText": "Actívala para obtener poder de habilidad especial"
+    },
+    "ChromieBlessingOfTheBronze|ChromieBlessingOfTheBronze|Active": {
+      "cooldownText": "Tiempo de reutilización: 30 segundos",
+      "fullText": "Activar para que Cromi y todos los héroes aliados obtengan un <c val=\"#TooltipNumbers\">20%</c> de velocidad de movimiento y para que sus habilidades básicas se recarguen un <c val=\"#TooltipNumbers\">35%</c> más rápido durante <c val=\"#TooltipNumbers\">8</c> segundos.<n/><n/>Golpear a un héroe enemigo con Explosión de arena de Cromi o sus ecos reduce el tiempo de reutilización de Bendición del Aspecto bronce <c val=\"#TooltipNumbers\">1</c> segundo.",
+      "name": "Bendición del Aspecto bronce",
+      "shortText": "Aumenta la velocidad de movimiento de aliados y reduce las reutilizaciones"
+    }
+  },
+  "talents": {
+    "ChromieSandBlastOnceAgainTheFirstTime|ChromieSandBlastOnceAgaintheFirstTime|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Misión:</c> Golpea a <c val=\"#TooltipNumbers\">20</c> héroes con Explosión de arena de Cromi o sus ecos sin morir.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa:</c> Aumenta el número máximo de ecos activos a <c val=\"#TooltipNumbers\">2</c> y el daño del eco a un <c val=\"#TooltipNumbers\">50%</c>.",
+      "name": "Otra vez la primera vez",
+      "shortText": "<c val=\"#TooltipQuest\">Misión:</c> Explosión de arena obtiene otro eco."
+    },
+    "ChromieDragonsBreathDeepBreathing|ChromieDragonsBreathDeepBreathing|W|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Misión:</c> Cada vez que Aliento de dragón golpea a un héroe, su daño aumenta un <c val=\"#TooltipNumbers\">0.5%</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa:</c> Después de golpear a <c val=\"#TooltipNumbers\">20</c> héroes, se reduce el tiempo de reutilización de Aliento de dragón en<c val=\"#TooltipNumbers\">4</c> segundos y el costo de maná de <c val=\"#TooltipNumbers\">65</c> a <c val=\"#TooltipNumbers\">40</c>.",
+      "name": "Aliento concentrado",
+      "shortText": "<c val=\"#TooltipQuest\">Misión:</c> Golpear héroes potencia Aliento de dragón"
+    },
+    "ChromieTimewalkersPursuit|ChromieTimewalkersPursuit|Active|Level1": {
+      "cooldownText": "Tiempo de reutilización: 25 segundos",
+      "fullText": "Obtiene un <c val=\"#TooltipNumbers\">15%</c> de poder de habilidad especial y reduce <c val=\"#TooltipNumbers\">0.75</c> segundos el tiempo de armado de las Trampas temporales. Activar para revelar el área objetivo durante <c val=\"#TooltipNumbers\">4</c> segundos. Los enemigos divisados quedan revelados durante <c val=\"#TooltipNumbers\">4</c> segundos.",
+      "name": "Afán del caminante del tiempo",
+      "shortText": "Aumenta el poder de habilidad especial; activar para revelar un área"
+    },
+    "ChromieTimeTrapChronicConditions|ChromieTimeTrapChronicConditions|E|Level4": {
+      "fullText": "Trampa temporal se activa en los héroes enemigos de forma automática.<n/><n/>Cuando termina el cese temporal, los enemigos afectados por Trampa temporal son ralentizados un <c val=\"#TooltipNumbers\">25%</c> durante <c val=\"#TooltipNumbers\">3</c> segundos, y los aliados obtienen un <c val=\"#TooltipNumbers\">25%</c> de velocidad de movimiento durante <c val=\"#TooltipNumbers\">3</c> segundos.",
+      "name": "Condiciones crónicas",
+      "shortText": "Trampa temporal se activa de forma automática y afecta la velocidad de movimiento tanto de enemigos como de aliados"
+    },
+    "ChromieTimeTrapTimeTroubles|ChromieTimeTrapTimeTroubles|E|Level4": {
+      "fullText": "Cuando termina el cese temporal, los enemigos afectados por Trampa temporal pierden <c val=\"#TooltipNumbers\">15</c> de Armadura durante <c val=\"#TooltipNumbers\">3</c> segundos, y los aliados obtienen <c val=\"#TooltipNumbers\">30</c> de Armadura durante <c val=\"#TooltipNumbers\">3</c> segundos.",
+      "name": "Confusión temporal",
+      "shortText": "Trampa temporal afecta la Armadura de enemigos y aliados"
+    },
+    "ChromieTimeTrapAndorhalAnomaly|ChromieTimeTrapAndorhalAnomaly|E|Level4": {
+      "fullText": "Aumenta las cargas y el número máximo de Trampas temporales activas a <c val=\"#TooltipNumbers\">3</c> y reduce <c val=\"#TooltipNumbers\">8</c> segundos su tiempo de reutilización.",
+      "name": "Anomalía de Andorhal",
+      "shortText": "Aumenta las cargas de Trampa temporal, reduce el tiempo de reutilización"
+    },
+    "ChromieSandBlastBronzeTalons|ChromieSandBlastBronzeTalons|Q|Level7": {
+      "fullText": "Golpear a un héroe con Explosión de arena de Cromi o sus ecos otorga un <c val=\"#TooltipNumbers\">50%</c> más de daño de ataque básico durante <c val=\"#TooltipNumbers\">5</c> segundos.",
+      "name": "Garras de bronce",
+      "shortText": "Explosión de arena potencia los ataques básicos"
+    },
+    "ChromieDragonsBreathMobiusLoop|ChromieDragonsBreathMobiusLoop|W|Level7": {
+      "fullText": "Aliento de dragón inflige un <c val=\"#TooltipNumbers\">30%</c> más de daño a enemigos en el centro. Los héroes enemigos golpeados en el centro son ralentizados un <c val=\"#TooltipNumbers\">40%</c> durante <c val=\"#TooltipNumbers\">0.75</c> segundos.",
+      "name": "Bucle de Moebius",
+      "shortText": "Aliento de dragón inflige más daño en el centro, ralentiza"
+    },
+    "ChromieAProperGreeting|ChromieAProperGreeting|Passive|Level7": {
+      "fullText": "Infligir daño a un héroe enemigo aturdido, arraigado o ralentizado otorga un <c val=\"#TooltipNumbers\">20%</c> más de daño durante <c val=\"#TooltipNumbers\">3</c> segundos.",
+      "name": "Merecida bienvenida",
+      "shortText": "Infligir daño a héroes incapacitados aumenta el daño"
+    },
+    "ChromieHeroicAbilitySlowingSands|ChromieSlowingSands|Heroic|Level10": {
+      "cooldownText": "Tiempo de reutilización: 5 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 5 por segundo</s>",
+      "fullText": "Invoca un vórtice de arena que ralentiza a los enemigos un <c val=\"#TooltipNumbers\">10%</c> cada <c val=\"#TooltipNumbers\">0.25</c> segundos, hasta un máximo del <c val=\"#TooltipNumbers\">70%</c>.",
+      "name": "Arenas ralentizadoras",
+      "shortText": "Crea un área ralentizadora"
+    },
+    "ChromieHeroicAbilityTemporalLoop|ChromieTemporalLoop|Heroic|Level10": {
+      "cooldownText": "Tiempo de reutilización: 50 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 60</s>",
+      "fullText": "Elige a un héroe enemigo. Después de <c val=\"#TooltipNumbers\">3</c> segundos, es teletransportado de regreso a la posición donde recibió Bucle temporal.<n/><n/>Las habilidades básicas se recargan un <c val=\"#TooltipNumbers\">500%</c> más rápido durante <c val=\"#TooltipNumbers\">3</c> segundos después del lanzamiento de Bucle temporal.",
+      "name": "Bucle temporal",
+      "shortText": "Regresa a un héroe enemigo a una posición anterior"
+    },
+    "ChromieSandBlastGnomeSpeedAhead|ChromieSandBlastGnomeSpeedAhead|Q|Level13": {
+      "fullText": "Después de lanzar Explosión de arena, Cromi obtiene un <c val=\"#TooltipNumbers\">20%</c> de velocidad de movimiento y un <c val=\"#TooltipNumbers\">200%</c> más de regeneración de salud durante <c val=\"#TooltipNumbers\">3</c> segundos.",
+      "name": "¡A toda gnoma!",
+      "shortText": "Explosión de arena aumenta la velocidad de movimiento y la regeneración"
+    },
+    "ChromieHereAndThere|ChromieHereAndThere|Active|Level13": {
+      "cooldownText": "Tiempo de reutilización: 20 segundos",
+      "fullText": "Activar para teletransportarte hasta un área cerca de un eco e intercambiar su posición con la posición anterior de Cromi.",
+      "name": "Aquí y allá",
+      "shortText": "Activar para intercambiar la posición con un eco"
+    },
+    "ChromieTimeOut|ChromieTimeOutHotbar|Active|Level13": {
+      "cooldownText": "Tiempo de reutilización: 60 segundos.",
+      "fullText": "Actívalo para que Cromi entre en estasis y se vuelva invulnerable durante un máximo de <c val=\"#TooltipNumbers\">5</c> segundos. Se puede volver a activar para interrumpir el efecto antes de tiempo.",
+      "name": "Descanso",
+      "shortText": "Actívalo para volverte invulnerable"
+    },
+    "ChromieSandBlastShiftingSands|ChromieSandBlastShiftingSands|Q|Level16": {
+      "fullText": "Golpear a un héroe enemigo con la principal Explosión de arena de Cromi otorga un <c val=\"#TooltipNumbers\">5%</c> de poder de habilidad especial durante <c val=\"#TooltipNumbers\">8</c> segundos, hasta un máximo del <c val=\"#TooltipNumbers\">50%</c>. La duración se restablece cada vez que un héroe enemigo recibe daño de la primera Explosión de arena.",
+      "name": "Arenas movedizas",
+      "shortText": "Explosión de arena otorga poder de habilidad especial"
+    },
+    "ChromieSandBlastFastForward|ChromieSandBlastFastForward|Q|Level16": {
+      "fullText": "Si la principal Explosión de arena de Cromi recorre por lo menos el <c val=\"#TooltipNumbers\">50%</c> de su distancia básica y golpea a un héroe, su tiempo de reutilización se reduce a <c val=\"#TooltipNumbers\">0.5</c> segundos y restituye <c val=\"#TooltipNumbers\">10</c> de maná.",
+      "name": "Avance rápido",
+      "shortText": "Las Explosiones de arena de largo alcance reducen la reutilización"
+    },
+    "ChromieQuantumOverdrive|ChromieQuantumOverdrive|Active|Level16": {
+      "cooldownText": "Tiempo de reutilización: 45 segundos",
+      "fullText": "Activar para aumentar el poder de habilidad especial un <c val=\"#TooltipNumbers\">30%</c> durante <c val=\"#TooltipNumbers\">8</c> segundos. Golpear a un héroe enemigo con Explosión de arena reduce este tiempo de reutilización <c val=\"#TooltipNumbers\">3</c> segundos.",
+      "name": "Ultravelocidad cuántica",
+      "shortText": "Actívala para obtener poder de habilidad especial"
+    },
+    "ChromieSlowingSandsUnravelling|ChromieSlowingSandsUnravelling|Heroic|Level20": {
+      "fullText": "Cada <c val=\"#TooltipNumbers\">0.25</c> segundos, la Armadura especial de los héroes ralentizados por Arenas ralentizadoras se reduce en <c val=\"#TooltipNumbers\">10</c>, hasta un máximo de <c val=\"#TooltipNumbers\">50</c>.<n/><n/><c val=\"#AbilityPassive\">Pasivo:</c> Aumenta el alcance de lanzamiento de Arenas ralentizadoras un <c val=\"#TooltipNumbers\">50%</c> y estas persisten durante <c val=\"#TooltipNumbers\">5</c> segundos tras su cancelación.",
+      "name": "Desenredo",
+      "shortText": "Arenas ralentizadoras reduce la Armadura especial, persiste"
+    },
+    "ChromieTemporalLoopStuckInALoop|ChromieTemporalLoopStuckInALoop|Heroic|Level20": {
+      "fullText": "Bucle temporal teletransporta al objetivo una segunda vez después de la primera, y las habilidades básicas se recargan durante <c val=\"#TooltipNumbers\">3</c> segundos más. Aumenta la velocidad de recarga del tiempo de reutilización del <c val=\"#TooltipNumbers\">500%</c> al <c val=\"#TooltipNumbers\">700%</c>.",
+      "name": "Bucle infinito",
+      "shortText": "Bucle temporal teletransporta dos veces"
+    },
+    "ChromieSandBlastPiercingSands|ChromieSandBlastPiercingSands|Q|Level20": {
+      "fullText": "El lanzamiento de Explosión de arena de Cromi y sus ecos ahora atraviesa a todos los enemigos golpeados.",
+      "name": "Arenas punzantes",
+      "shortText": "Explosión de arena perfora"
+    },
+    "ChromieBlessingOfTheBronze|ChromieBlessingOfTheBronze|Active|Level20": {
+      "cooldownText": "Tiempo de reutilización: 30 segundos",
+      "fullText": "Activar para que Cromi y todos los héroes aliados obtengan un <c val=\"#TooltipNumbers\">20%</c> de velocidad de movimiento y para que sus habilidades básicas se recarguen un <c val=\"#TooltipNumbers\">35%</c> más rápido durante <c val=\"#TooltipNumbers\">8</c> segundos.<n/><n/>Golpear a un héroe enemigo con Explosión de arena de Cromi o sus ecos reduce el tiempo de reutilización de Bendición del Aspecto bronce <c val=\"#TooltipNumbers\">1</c> segundo.",
+      "name": "Bendición del Aspecto bronce",
+      "shortText": "Aumenta la velocidad de movimiento de aliados y reduce las reutilizaciones"
+    }
+  },
+  "units": {
+    "ChromieSandBlastPastAndFutureMeControllerUnit": {
+      "name": "Explosión de arena - Yo pasado y futuro - Controlador - Unidad"
+    },
+    "ChromieTimeTrap": {
+      "description": "Coloca una Trampa temporal que se arma y entra en sigilo después de <c val=\"#TooltipNumbers\">2</c> segundos. El atributo de Cromi puede activarse para detonar la trampa y colocar a todos los héroes aliados o enemigos cercanos en cese temporal durante <c val=\"#TooltipNumbers\">2</c> segundos. Máximo de <c val=\"#TooltipNumbers\">1</c> trampa activa a la vez.",
+      "name": "Trampa temporal"
+    }
+  }
+}

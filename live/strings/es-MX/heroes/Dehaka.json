@@ -1,0 +1,172 @@
+{
+  "abilities": {
+    "DehakaDrag|DehakaDrag|Q": {
+      "cooldownText": "Tiempo de reutilización: 15 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 75</s>",
+      "fullText": "Dehaka lanza un latigazo con la lengua que inflige <c val=\"#TooltipNumbers\">160</c><c val=\"#ColorGray\">~~0.04~~</c> de daño al primer enemigo golpeado, lo aturde y lo arrastra junto a él durante <c val=\"#TooltipNumbers\">1.75</c> segundos.<n/><n/>Si aturden o silencian a Dehaka durante Arrastrar, el efecto se interrumpe.",
+      "name": "Arrastrar",
+      "shortText": "Inflige daño ligero y arrastra a un enemigo"
+    },
+    "DehakaDarkSwarm|DehakaDarkSwarm|W": {
+      "cooldownText": "Tiempo de reutilización: 10 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 50</s>",
+      "fullText": "Inflige <c val=\"#TooltipNumbers\">48</c><c val=\"#ColorGray\">~~0.04~~</c> de daño cada <c val=\"#TooltipNumbers\">0.5</c> segundos a los enemigos cercanos durante <c val=\"#TooltipNumbers\">3.5</c> segundos. Mientras la habilidad está activa, puedes moverte a través de las unidades. Puede lanzarse durante Arrastrar y Enterrar.",
+      "name": "Enjambre oscuro",
+      "shortText": "Daña a los enemigos cercanos"
+    },
+    "DehakaBurrow|DehakaBurrow|E": {
+      "cooldownText": "Tiempo de reutilización: 20 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 65</s>",
+      "fullText": "Te entierras, entras en estasis y te vuelves invulnerable durante <c val=\"#TooltipNumbers\">2</c> segundos. Mientras está enterrado, Dehaka puede moverse al <c val=\"#TooltipNumbers\">50%</c> de la velocidad de movimiento.",
+      "name": "Enterrar",
+      "shortText": "Te entierras para obtener Estasis"
+    },
+    "DehakaIsolation|DehakaIsolation|Heroic": {
+      "cooldownText": "Tiempo de reutilización: 60 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 70</s>",
+      "fullText": "Lanza una biomasa que golpea al primer héroe enemigo, le inflige <c val=\"#TooltipNumbers\">200</c><c val=\"#ColorGray\">~~0.04~~</c> de daño, lo revela, lo silencia y lo ralentiza un <c val=\"#TooltipNumbers\">30%</c> durante <c val=\"#TooltipNumbers\">3</c> segundos. Además, el radio de visión del objetivo se reduce notablemente durante <c val=\"#TooltipNumbers\">6</c> segundos.",
+      "name": "Aislamiento",
+      "shortText": "Silencia, ralentiza y reduce la visión de un enemigo"
+    },
+    "DehakaAdaptation|DehakaAdaptation|Heroic": {
+      "cooldownText": "Tiempo de reutilización: 60 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 70</s>",
+      "fullText": "Después de <c val=\"#TooltipNumbers\">4</c> segundos, sanas por <c val=\"#TooltipNumbers\">100%</c> del daño que recibió Dehaka en ese tiempo.",
+      "name": "Adaptación",
+      "shortText": "Sanas por el daño recibido"
+    },
+    "DehakaEssenceCollection|DehakaEssenceCollection|Trait": {
+      "cooldownText": "Tiempo de reutilización: 5 segundos",
+      "fullText": "Dehaka recupera <c val=\"#TooltipNumbers\">29</c><c val=\"#ColorGray\">~~0.04~~</c> de salud por Esencia acumulada durante <c val=\"#TooltipNumbers\">5</c> segundos. Puede lanzarse durante Arrastrar y Enterrar.<n/><n/><c val=\"#AbilityPassive\">Pasivo:</c> Obtienes <c val=\"#TooltipNumbers\">10</c> de Esencia por los derribos y <c val=\"#TooltipNumbers\">2</c> de Esencia por los esbirros que mueren cerca de ti. Máximo: <c val=\"#TooltipNumbers\">50</c> de Esencia.",
+      "name": "Recolección de esencia",
+      "shortText": "Recolecta y consume Esencia enemiga para sanar"
+    },
+    "DehakaBrushstalker|DehakaBrushstalker|Z": {
+      "cooldownText": "Tiempo de reutilización: 240 segundos",
+      "fullText": "Actívala para moverte bajo tierra hasta un arbusto del campo de batalla.<n/><n/><c val=\"#AbilityPassive\">Pasiva:</c> Obtienes un <c val=\"#TooltipNumbers\">20%</c> de velocidad de movimiento cuando estás en un arbusto y durante <c val=\"#TooltipNumbers\">2</c> segundos después de abandonarlo. <n/><n/><c val=\"#AbilityPassive\">Pasiva:</c> Si recoges una Esfera de regeneración, el tiempo de reutilización de Acecharbustos se reduce <c val=\"#TooltipNumbers\">40</c> segundos.",
+      "name": "Acecharbustos",
+      "shortText": "Te mueves bajo tierra hasta un arbusto del campo de batalla."
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Tras una canalización de <c val=\"#TooltipNumbers\">6</c> segundos, te teletransportas de regreso a la Sala de las tormentas para recuperar <c val=\"#TooltipNumbers\">1125</c> de salud y <c val=\"#TooltipNumbers\">150</c> de maná de inmediato.",
+      "name": "Piedra de hogar"
+    },
+    "DehakaCancelBurrow|DehakaCancelBurrow|E": {
+      "fullText": "Cancela Enterrar",
+      "name": "Cancelar Enterrar",
+      "shortText": "Desenterrar"
+    }
+  },
+  "talents": {
+    "DehakaDarkSwarmTalentEnduringSwarm|DehakaDarkSwarmTalentEnduringSwarm|W|Level1": {
+      "fullText": "Aumenta la duración de Enjambre oscuro <c val=\"#TooltipNumbers\">0.5</c> segundos y otorga <c val=\"#TooltipNumbers\">50</c> de Armadura especial mientras la habilidad está activa.",
+      "name": "Enjambre resistente",
+      "shortText": "Aumenta la duración de Enjambre oscuro y otorga Armadura especial"
+    },
+    "DehakaEssenceCollectionTalentTissueRegeneration|DehakaEssenceCollectionTalentTissueRegeneration|Trait|Level1": {
+      "fullText": "Las esferas de regeneración otorgan <c val=\"#TooltipNumbers\">10</c> de Esencia.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Misión repetible:</c> Cada <c val=\"#TooltipNumbers\">50</c> de Esencia recolectada, la regeneración de salud aumenta en <c val=\"#TooltipNumbers\">4</c> permanentemente, hasta un máximo de <c val=\"#TooltipNumbers\">40</c>, y su Esencia máxima aumenta en <c val=\"#TooltipNumbers\">1</c>, hasta un máximo de <c val=\"#TooltipNumbers\">10</c>.",
+      "name": "Regeneración de tejido",
+      "shortText": "<c val=\"#TooltipQuest\">Misión:</c> La Esencia aumenta la regeneración de salud y el máximo de Esencia"
+    },
+    "DehakaEssenceCollectionTalentEnhancedAgility|DehakaEssenceCollectionTalentEnhancedAgility|Z|Level1": {
+      "fullText": "Ahora la bonificación a la velocidad de movimiento de Acecharbustos dura <c val=\"#TooltipNumbers\">4</c> segundos después de abandonar un arbusto.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Misión repetible:</c> Cada <c val=\"#TooltipNumbers\">50</c> de Esencia recolectada, la bonificación a la velocidad de movimiento de Acecharbustos aumenta un <c val=\"#TooltipNumbers\">2%</c> permanentemente, hasta un máximo del <c val=\"#TooltipNumbers\">20%</c>.",
+      "name": "Agilidad mejorada",
+      "shortText": "<c val=\"#TooltipQuest\">Misión:</c> La Esencia aumenta la velocidad de movimiento de Acecharbustos"
+    },
+    "DehakaBurrowTalentLurkerStrain|DehakaBurrowTalentLurkerStrain|E|Level4": {
+      "fullText": "Cuando Enterrar termina, le otorga a Dehaka sigilo durante <c val=\"#TooltipNumbers\">3</c> segundos y repele a los enemigos cercanos, lo que les inflige <c val=\"#TooltipNumbers\">125</c><c val=\"#ColorGray\">~~0.04~~</c> de daño y los ralentiza un <c val=\"#TooltipNumbers\">30%</c> durante <c val=\"#TooltipNumbers\">3</c> segundos.<n/><n/><c val=\"#AbilityPassive\">Pasivo:</c> Reduce <c val=\"#TooltipNumbers\">2</c> segundos el tiempo de reutilización de Enterrar. ",
+      "name": "Cepa de acechador",
+      "shortText": "Enterrar otorga sigilo y repele a los enemigos"
+    },
+    "DehakaEssenceCollectionOneWhoCollectsTalent|DehakaEssenceCollectionOneWhoCollectsTalent|Trait|Level4": {
+      "fullText": "Aumenta la Esencia recolectada de los esbirros un <c val=\"#TooltipNumbers\">50%</c>. Enjambre oscuro inflige un <c val=\"#TooltipNumbers\">40%</c> más de daño a mercenarios.",
+      "name": "El que recolecta",
+      "shortText": "Aumenta la Esencia de los esbirros, Enjambre oscuro inflige daño a mercenarios"
+    },
+    "DehakaEssenceCollectionTalentHeroStalker|DehakaEssenceCollectionTalentHeroStalker|Trait|Level4": {
+      "fullText": "Aumenta la Esencia que se obtiene de los derribos un <c val=\"#TooltipNumbers\">100%</c>. Golpear a héroes enemigos con Enjambre oscuro otorga <c val=\"#TooltipNumbers\">1</c> de Esencia por cada héroe enemigo golpeado, hasta un máximo de <c val=\"#TooltipNumbers\">3</c> a la vez.",
+      "name": "Acechahéroes",
+      "shortText": "Los derribos otorgan más Esencia"
+    },
+    "DehakaDragTalentFeedingFrenzy|DehakaDragTalentFeedingFrenzy|Q|Level7": {
+      "fullText": "Aumenta la duración de Arrastrar en <c val=\"#TooltipNumbers\">0.5</c> segundos.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Gambito:</c> Los ataques básicos reducen el tiempo de reutilización de Arrastrar en <c val=\"#TooltipNumbers\">1.5</c> segundos. Cada muerte disminuye esta reducción del tiempo de reutilización en <c val=\"#TooltipNumbers\">0.25</c> segundos, hasta un máximo de <c val=\"#TooltipNumbers\">3</c> veces.",
+      "name": "Frenesí famélico",
+      "shortText": "<c val=\"#TooltipQuest\">Gambito:</c> Los ataques básicos reducen el tiempo de reutilización de Arrastrar"
+    },
+    "DehakaDragTalentParalyzingEnzymes|DehakaDragTalentParalyzingEnzymes|Q|Level7": {
+      "fullText": "Arrastrar ralentiza al objetivo un <c val=\"#TooltipNumbers\">40%</c> y reduce la sanación que recibe un <c val=\"#TooltipNumbers\">50%</c> mientras esté activa y durante <c val=\"#TooltipNumbers\">2</c> segundos tras haber finalizado. Los ataques básicos de Dehaka aumentan la duración de la reducción de sanación a <c val=\"#TooltipNumbers\">2</c> segundos.",
+      "name": "Enzimas paralizantes",
+      "shortText": "Arrastrar ralentiza, reduce la sanación"
+    },
+    "DehakaDarkSwarmTalentSymbiosis|DehakaDarkSwarmTalentSymbiosis|W|Level7": {
+      "fullText": "Siempre que Enjambre oscuro daña a un héroe enemigo, su tiempo de reutilización se reduce <c val=\"#TooltipNumbers\">0.4</c> segundos.",
+      "name": "Simbiosis",
+      "shortText": "Reduce la reutilización de Enjambre oscuro contra héroes"
+    },
+    "DehakaHeroicAbilityIsolation|DehakaIsolation|Heroic|Level10": {
+      "cooldownText": "Tiempo de reutilización: 60 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 70</s>",
+      "fullText": "Lanza una biomasa que golpea al primer héroe enemigo, le inflige <c val=\"#TooltipNumbers\">200</c><c val=\"#ColorGray\">~~0.04~~</c> de daño, lo revela, lo silencia y lo ralentiza un <c val=\"#TooltipNumbers\">30%</c> durante <c val=\"#TooltipNumbers\">3</c> segundos. Además, el radio de visión del objetivo se reduce notablemente durante <c val=\"#TooltipNumbers\">6</c> segundos.",
+      "name": "Aislamiento",
+      "shortText": "Silencia, ralentiza y reduce la visión de un enemigo"
+    },
+    "DehakaHeroicAbilityAdaptation|DehakaAdaptation|Heroic|Level10": {
+      "cooldownText": "Tiempo de reutilización: 60 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 70</s>",
+      "fullText": "Después de <c val=\"#TooltipNumbers\">4</c> segundos, sanas por <c val=\"#TooltipNumbers\">100%</c> del daño que recibió Dehaka en ese tiempo.",
+      "name": "Adaptación",
+      "shortText": "Sanas por el daño recibido"
+    },
+    "DehakaBrushstalkerFerociousStalker|DehakaBrushstalkerFerociousStalkerTalent|W|Level13": {
+      "fullText": "Enjambre oscuro ralentiza a los héroes enemigos un <c val=\"#TooltipNumbers\">15%</c> durante <c val=\"#TooltipNumbers\">0.75</c> segundos e inflige un <c val=\"#TooltipNumbers\">50%</c> más de daño mientras la bonificación a la velocidad de movimiento de Acecharbustos está activa.",
+      "name": "Acechador feroz",
+      "shortText": "Acecharbustos ralentiza y aumenta el daño de Enjambre oscuro"
+    },
+    "DehakaPrimalSwarm|DehakaPrimalSwarm|W|Level13": {
+      "fullText": "Enjambre oscuro hace que los enemigos golpeados pierdan <c val=\"#TooltipNumbers\">10</c> de Armadura durante <c val=\"#TooltipNumbers\">0.75</c> segundos, lo que hace que reciban un <c val=\"#TooltipNumbers\">10%</c> más de daño.",
+      "name": "Enjambre primigenio",
+      "shortText": "Enjambre oscuro reduce la Armadura enemiga"
+    },
+    "DehakaPrimalRage|DehakaPrimalRage|Trait|Level13": {
+      "fullText": "Obtienes un <c val=\"#TooltipNumbers\">1.25%</c> más de daño de ataque por cada Esencia acumulada.",
+      "name": "Furia primigenia",
+      "shortText": "La Esencia aumenta el daño de ataque"
+    },
+    "DehakaDragTalentElongatedTongue|DehakaDragTalentElongatedTongue|Q|Level16": {
+      "fullText": "Aumenta <c val=\"#TooltipNumbers\">20%</c> el alcance de Arrastrar.",
+      "name": "Lengua extendida",
+      "shortText": "Aumenta el alcance de Arrastrar"
+    },
+    "DehakaTunnelingClaws|DehakaTunnelingClaws|E|Level16": {
+      "fullText": "Aumenta la velocidad de movimiento durante Enterrar al <c val=\"#TooltipNumbers\">120%</c>.",
+      "name": "Garras excavadoras",
+      "shortText": "Aumenta la velocidad de movimiento de Enterrar"
+    },
+    "DehakaPackLeaderBrushstalkerTalent|DehakaPackLeaderBrushstalker|Z|Level16": {
+      "fullText": "Dehaka obtiene <c val=\"#TooltipNumbers\">40</c> de Armadura y un <c val=\"#TooltipNumbers\">15%</c> más de velocidad de ataque mientras está en un arbusto y durante <c val=\"#TooltipNumbers\">4</c> segundos después de abandonar el arbusto.",
+      "name": "Líder de la manada",
+      "shortText": "Obtienes Armadura y velocidad de ataque cerca de arbustos"
+    },
+    "DehakaIsolationTalentContagion|DehakaIsolationTalentContagion|Heroic|Level20": {
+      "fullText": "Aislamiento golpea a todos los héroes cerca del primer objetivo, pero les inflige un <c val=\"#TooltipNumbers\">60%</c> menos de daño a todos los objetivos.",
+      "name": "Contagio",
+      "shortText": "Aislamiento inflige daño por proximidad a los héroes"
+    },
+    "DehakaAdaptationChangeIsSurvivalTalent|DehakaAdaptationChangeIsSurvivalTalent|Heroic|Level20": {
+      "fullText": "Aumenta la sanación de Adaptación a <c val=\"#TooltipNumbers\">200%</c> del daño recibido y reduce el tiempo de reutilización en <c val=\"#TooltipNumbers\">40</c> segundos.",
+      "name": "El cambio es supervivencia",
+      "shortText": "Mejora la sanación y la reutilización de Adaptación"
+    },
+    "DehakaEssenceClaws|DehakaEssenceClaws|Trait|Level20": {
+      "fullText": "Los ataques básicos de Dehaka ralentizan al objetivo un <c val=\"#TooltipNumbers\">20%</c> durante <c val=\"#TooltipNumbers\">1</c> segundo. Si el objetivo es un héroe, Dehaka obtiene <c val=\"#TooltipNumbers\">5</c> de Esencia.",
+      "name": "Garras esenciales",
+      "shortText": "Los ataques básicos ralentizan y otorgan Esencia"
+    },
+    "DehakaBrushstalkerApexPredator|DehakaBrushstalkerApexPredatorTalent|Z|Level20": {
+      "fullText": "Reduce <c val=\"#TooltipNumbers\">120</c> segundos el tiempo de reutilización de Acecharbustos y <c val=\"#TooltipNumbers\">0.5</c> segundos el tiempo de lanzamiento.",
+      "name": "Superpredador",
+      "shortText": "Reduce la reutilización y el tiempo de lanzamiento de Acecharbustos"
+    }
+  },
+  "units": {}
+}

@@ -1,0 +1,607 @@
+{
+  "id": "Rehgar",
+  "unitId": "HeroRehgar",
+  "hyperlinkId": "Rehgar",
+  "attributeId": "Rehg",
+  "franchise": "Warcraft",
+  "rarity": "Epic",
+  "releaseDate": "2014-07-22",
+  "isMelee": true,
+  "gender": "Male",
+  "radius": 0.75,
+  "innerRadius": 0.75,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "ratings": {
+    "complexity": 6,
+    "damage": 5,
+    "survivability": 7,
+    "utility": 7
+  },
+  "life": {
+    "amount": 1900,
+    "scale": 0.04,
+    "regenRate": 3.957,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "AllyHealer",
+    "EnergyImportant",
+    "Escaper",
+    "Helper",
+    "Overconfident",
+    "RoleSupport",
+    "SelfHealer"
+  ],
+  "summonedUnitIds": [
+    "RehgarEarthbindTotem",
+    "TalentHealingWard"
+  ],
+  "weapons": [
+    {
+      "nameId": "HeroRehgar",
+      "isDisabled": false,
+      "range": 1.5,
+      "minimumRange": 0,
+      "period": 0.9,
+      "damage": 110,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "RehgarClassic21",
+    "RehgarGFWinter",
+    "RehgarIronClaw",
+    "RehgarMecha",
+    "RehgarUltimate",
+    "RehgarWCAV"
+  ],
+  "variationSkinIds": [
+    "RehgarBaseVar3",
+    "RehgarBaseVar4",
+    "RehgarGreen",
+    "RehgarRed"
+  ],
+  "voiceLineIds": [
+    "RehgarBase_VoiceLine01",
+    "RehgarBase_VoiceLine02",
+    "RehgarBase_VoiceLine03",
+    "RehgarBase_VoiceLine04",
+    "RehgarBase_VoiceLine05"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "RehgarChainHeal|RehgarChainHeal|Q",
+        "abilityId": "RehgarChainHeal",
+        "buttonId": "RehgarChainHeal",
+        "icon": "storm_ui_icon_rehgar_chainheal.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "RehgarLightningShield|RehgarLightningShield|W",
+        "abilityId": "RehgarLightningShield",
+        "buttonId": "RehgarLightningShield",
+        "icon": "storm_ui_icon_rehgar_lightningshield.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "RehgarEarthbindTotem|RehgarEarthbindTotem|E",
+        "abilityId": "RehgarEarthbindTotem",
+        "buttonId": "RehgarEarthbindTotem",
+        "icon": "storm_ui_icon_rehgar_earthbindtotem.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "RehgarBloodlust|RehgarBloodlust|Heroic",
+        "abilityId": "RehgarBloodlust",
+        "buttonId": "RehgarBloodlust",
+        "icon": "storm_ui_icon_rehgar_bloodlust.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "RehgarAncestralHealing|RehgarAncestralHealing|Heroic",
+        "abilityId": "RehgarAncestralHealing",
+        "buttonId": "RehgarAncestralHealing",
+        "icon": "storm_ui_icon_rehgar_ancestralhealing.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": "RehgarPurge|RehgarPurge|Trait",
+        "abilityId": "RehgarPurge",
+        "buttonId": "RehgarPurge",
+        "icon": "storm_ui_icon_rehgar_purge.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "RehgarGhostWolfActivate|RehgarGhostWolfActivate|Z",
+        "abilityId": "RehgarGhostWolfActivate",
+        "buttonId": "RehgarGhostWolfActivate",
+        "icon": "storm_ui_icon_rehgar_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "RehgarEarthbindTotem|RehgarEarthbindTotem|E": {
+      "Basic": [
+        {
+          "linkId": "RehgarTotemicProjection|RehgarTotemicProjection|E",
+          "abilityId": "RehgarTotemicProjection",
+          "buttonId": "RehgarTotemicProjection",
+          "icon": "storm_ui_icon_rehgar_earthbindtotem_a.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "E"
+        }
+      ]
+    },
+    "RehgarGhostWolfActivate|RehgarGhostWolfActivate|Z": {
+      "Mount": [
+        {
+          "linkId": "RehgarGhostWolfDeactivate|RehgarGhostWolfDeactivate|Z",
+          "abilityId": "RehgarGhostWolfDeactivate",
+          "buttonId": "RehgarGhostWolfDeactivate",
+          "icon": "storm_ui_icon_rehgar_cancel_mount.png",
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "RehgarHealingTotem|RehgarHealingTotem|Active|Level4": {
+      "Activable": [
+        {
+          "linkId": "RehgarHealingTotem|RehgarHealingTotem|Active",
+          "abilityId": "RehgarHealingTotem",
+          "buttonId": "RehgarHealingTotem",
+          "icon": "storm_ui_icon_talent_healingward.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "RehgarElementalConduit|RehgarElementalConduit|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "RehgarElementalConduit|RehgarElementalConduit|Active",
+          "abilityId": "RehgarElementalConduit",
+          "buttonId": "RehgarElementalConduit",
+          "icon": "storm_ui_icon_talent_stormshield.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "RehgarLightningShieldStormcaller|RehgarLightningShieldStormcaller|W|Level1",
+        "talentId": "RehgarLightningShieldStormcaller",
+        "buttonId": "RehgarLightningShieldStormcaller",
+        "abilityId": "RehgarLightningShield",
+        "icon": "storm_ui_icon_rehgar_lightningshield.png",
+        "abilityType": "W",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "RehgarLightningShield|RehgarLightningShield|W"
+        ]
+      },
+      {
+        "linkId": "RehgarEarthbindTotemColossalTotem|RehgarEarthbindTotemColossalTotem|E|Level1",
+        "talentId": "RehgarEarthbindTotemColossalTotem",
+        "buttonId": "RehgarEarthbindTotemColossalTotem",
+        "abilityId": "RehgarEarthbindTotem",
+        "icon": "storm_ui_icon_rehgar_earthbindtotem.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "RehgarEarthbindTotem|RehgarEarthbindTotem|E"
+        ]
+      },
+      {
+        "linkId": "RehgarFeralHeart|RehgarGhostWolfFeralHeartTalent|Z|Level1",
+        "talentId": "RehgarFeralHeart",
+        "buttonId": "RehgarGhostWolfFeralHeartTalent",
+        "abilityId": "RehgarGhostWolfActivate",
+        "icon": "storm_ui_icon_rehgar_ghostwolf.png",
+        "abilityType": "Z",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "RehgarGhostWolfActivate|RehgarGhostWolfActivate|Z"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "RehgarEarthlivingEnchant|RehgarEarthlivingEnchant|Q|Level4",
+        "talentId": "RehgarEarthlivingEnchant",
+        "buttonId": "RehgarEarthlivingEnchant",
+        "abilityId": "RehgarChainHeal",
+        "icon": "storm_ui_icon_rehgar_chainheal.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "RehgarChainHeal|RehgarChainHeal|Q"
+        ]
+      },
+      {
+        "linkId": "RehgarLightningShieldElectricCharge|RehgarLightningShieldElectricCharge|W|Level4",
+        "talentId": "RehgarLightningShieldElectricCharge",
+        "buttonId": "RehgarLightningShieldElectricCharge",
+        "abilityId": "RehgarLightningShield",
+        "icon": "storm_ui_icon_rehgar_lightningshield.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "RehgarLightningShield|RehgarLightningShield|W"
+        ]
+      },
+      {
+        "linkId": "RehgarHealingTotem|RehgarHealingTotem|Active|Level4",
+        "talentId": "RehgarHealingTotem",
+        "buttonId": "RehgarHealingTotem",
+        "abilityId": "RehgarHealingTotem",
+        "icon": "storm_ui_icon_talent_healingward.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "RehgarEarthbindTotemGroundedTotem|RehgarEarthbindTotemGroundedTotem|E|Level7",
+        "talentId": "RehgarEarthbindTotemGroundedTotem",
+        "buttonId": "RehgarEarthbindTotemGroundedTotem",
+        "abilityId": "RehgarEarthbindTotem",
+        "icon": "storm_ui_icon_rehgar_earthbindtotem.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "RehgarEarthbindTotem|RehgarEarthbindTotem|E"
+        ]
+      },
+      {
+        "linkId": "RehgarPurification|RehgarPurification|Trait|Level7",
+        "talentId": "RehgarPurification",
+        "buttonId": "RehgarPurification",
+        "abilityId": "RehgarPurge",
+        "icon": "storm_ui_icon_rehgar_purge.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "RehgarPurge|RehgarPurge|Trait"
+        ]
+      },
+      {
+        "linkId": "RehgarBloodAndThunder|RehgarBloodAndThunder|Z|Level7",
+        "talentId": "RehgarBloodAndThunder",
+        "buttonId": "RehgarBloodAndThunder",
+        "abilityId": "RehgarGhostWolfActivate",
+        "icon": "storm_ui_icon_rehgar_ghostwolf.png",
+        "abilityType": "Z",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "RehgarGhostWolfActivate|RehgarGhostWolfActivate|Z"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "RehgarAncestralHealing|RehgarAncestralHealing|Heroic|Level10",
+        "talentId": "RehgarAncestralHealing",
+        "buttonId": "RehgarAncestralHealing",
+        "abilityId": "RehgarAncestralHealing",
+        "icon": "storm_ui_icon_rehgar_ancestralhealing.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "RehgarBloodlust|RehgarBloodlust|Heroic|Level10",
+        "talentId": "RehgarBloodlust",
+        "buttonId": "RehgarBloodlust",
+        "abilityId": "RehgarBloodlust",
+        "icon": "storm_ui_icon_rehgar_bloodlust.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "RehgarMasteryTidalWaves|RehgarChainHealTidalWavesTalent|Q|Level13",
+        "talentId": "RehgarMasteryTidalWaves",
+        "buttonId": "RehgarChainHealTidalWavesTalent",
+        "abilityId": "RehgarChainHeal",
+        "icon": "storm_ui_icon_rehgar_chainheal.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "RehgarChainHeal|RehgarChainHeal|Q"
+        ]
+      },
+      {
+        "linkId": "RehgarLightningShieldEarthShield|RehgarLightningShieldEarthShield|W|Level13",
+        "talentId": "RehgarLightningShieldEarthShield",
+        "buttonId": "RehgarLightningShieldEarthShield",
+        "abilityId": "RehgarLightningShield",
+        "icon": "storm_ui_icon_rehgar_lightningshield.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "RehgarLightningShield|RehgarLightningShield|W"
+        ]
+      },
+      {
+        "linkId": "RehgarWellspring|RehgarWellspring|E|Level13",
+        "talentId": "RehgarWellspring",
+        "buttonId": "RehgarWellspring",
+        "abilityId": "RehgarEarthbindTotem",
+        "icon": "storm_ui_icon_rehgar_earthbindtotem.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "RehgarEarthbindTotem|RehgarEarthbindTotem|E"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "RehgarLightningShieldRisingStorm|RehgarLightningShieldRisingStorm|W|Level16",
+        "talentId": "RehgarLightningShieldRisingStorm",
+        "buttonId": "RehgarLightningShieldRisingStorm",
+        "abilityId": "RehgarLightningShield",
+        "icon": "storm_ui_icon_rehgar_lightningshield.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "RehgarLightningShield|RehgarLightningShield|W"
+        ]
+      },
+      {
+        "linkId": "RehgarEarthbindTotemEarthgraspTotem|RehgarEarthbindTotemEarthgraspTotem|E|Level16",
+        "talentId": "RehgarEarthbindTotemEarthgraspTotem",
+        "buttonId": "RehgarEarthbindTotemEarthgraspTotem",
+        "abilityId": "RehgarEarthbindTotem",
+        "icon": "storm_ui_icon_rehgar_earthbindtotem.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "RehgarEarthbindTotem|RehgarEarthbindTotem|E"
+        ]
+      },
+      {
+        "linkId": "RehgarHungerOfTheWolf|RehgarHungeroftheWolf|Z|Level16",
+        "talentId": "RehgarHungerOfTheWolf",
+        "buttonId": "RehgarHungeroftheWolf",
+        "abilityId": "RehgarGhostWolfActivate",
+        "icon": "storm_ui_icon_rehgar_ghostwolf.png",
+        "abilityType": "Z",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "RehgarGhostWolfActivate|RehgarGhostWolfActivate|Z"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "RehgarAncestralHealingFarseersBlessing|RehgarAncestralHealingFarseersBlessing|Heroic|Level20",
+        "talentId": "RehgarAncestralHealingFarseersBlessing",
+        "buttonId": "RehgarAncestralHealingFarseersBlessing",
+        "abilityId": "RehgarAncestralHealing",
+        "icon": "storm_ui_icon_rehgar_ancestralhealing.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "RehgarAncestralHealing|RehgarAncestralHealing|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "RehgarAncestralHealing"
+        ]
+      },
+      {
+        "linkId": "RehgarGladiatorsWarShout|RehgarBloodlustGladiatorsWarShout|Heroic|Level20",
+        "talentId": "RehgarGladiatorsWarShout",
+        "buttonId": "RehgarBloodlustGladiatorsWarShout",
+        "abilityId": "RehgarBloodlust",
+        "icon": "storm_ui_icon_rehgar_bloodlust.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "RehgarBloodlust|RehgarBloodlust|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "RehgarBloodlust"
+        ]
+      },
+      {
+        "linkId": "RehgarElementalConduit|RehgarElementalConduit|Active|Level20",
+        "talentId": "RehgarElementalConduit",
+        "buttonId": "RehgarElementalConduit",
+        "abilityId": "RehgarElementalConduit",
+        "icon": "storm_ui_icon_talent_stormshield.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      },
+      {
+        "linkId": "RehgarPitFighter|RehgarPitFighter|Passive|Level20",
+        "talentId": "RehgarPitFighter",
+        "buttonId": "RehgarPitFighter",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_ingame_heroselect_btn_rehgar.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      }
+    ]
+  },
+  "sheet": "sheets/Rehgar.png",
+  "icons": {
+    "storm_ui_icon_rehgar_chainheal.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_rehgar_lightningshield.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_rehgar_earthbindtotem.png": [
+      512,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_rehgar_bloodlust.png": [
+      768,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_rehgar_ancestralhealing.png": [
+      0,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_rehgar_purge.png": [
+      256,
+      256,
+      256,
+      256
+    ],
+    "storm_ui_icon_rehgar_mount.png": [
+      512,
+      256,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      768,
+      256,
+      111,
+      71
+    ],
+    "storm_ui_icon_rehgar_earthbindtotem_a.png": [
+      0,
+      512,
+      128,
+      128
+    ],
+    "storm_ui_icon_rehgar_cancel_mount.png": [
+      256,
+      512,
+      76,
+      48
+    ],
+    "storm_ui_icon_talent_healingward.png": [
+      512,
+      512,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_stormshield.png": [
+      768,
+      512,
+      128,
+      128
+    ],
+    "storm_ui_icon_rehgar_ghostwolf.png": [
+      0,
+      768,
+      128,
+      128
+    ],
+    "storm_ui_ingame_heroselect_btn_rehgar.png": [
+      256,
+      768,
+      128,
+      128
+    ]
+  }
+}

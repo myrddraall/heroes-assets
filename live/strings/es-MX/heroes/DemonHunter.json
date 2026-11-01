@@ -1,0 +1,176 @@
+{
+  "abilities": {
+    "DemonHunterHungeringArrow|DemonHunterHungeringArrow|Q": {
+      "cooldownText": "Tiempo de reutilización: 10 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 60</s>",
+      "fullText": "Dispara una flecha que inflige <c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c> de daño al primer objetivo que impacta y después busca hasta <c val=\"#TooltipNumbers\">2</c> enemigos adicionales, priorizando a héroes, y les inflige <c val=\"#TooltipNumbers\">80</c><c val=\"#ColorGray\">~~0.04~~</c> de daño. Puede atacar a un mismo enemigo varias veces.",
+      "name": "Flecha famélica",
+      "shortText": "Dispara una flecha que busca y golpea a varios objetivos"
+    },
+    "DemonHunterMultishot|DemonHunterMultishot|W": {
+      "cooldownText": "Tiempo de reutilización: 13 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 75</s>",
+      "fullText": "Inflige <c val=\"#TooltipNumbers\">159</c><c val=\"#ColorGray\">~~0.04~~</c> de daño a los enemigos que están dentro del área objetivo.",
+      "name": "Disparo múltiple",
+      "shortText": "Daña a los enemigos que están en un área"
+    },
+    "DemonHunterVault|DemonHunterVault|E": {
+      "cooldownText": "Tiempo de reutilización: 10 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 50</s>",
+      "fullText": "Arremete hacia el área objetivo. El próximo ataque básico de Vala dentro de los siguientes <c val=\"#TooltipNumbers\">2</c> segundos inflige un <c val=\"#TooltipNumbers\">6%</c> más de daño por cada acumulación de Odio.",
+      "name": "Acrobacia",
+      "shortText": "Arremete hacia una ubicación"
+    },
+    "DemonHunterStrafe|DemonHunterStrafe|Heroic": {
+      "cooldownText": "Tiempo de reutilización: 60 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 60</s>",
+      "fullText": "Ataca rápidamente a los enemigos que se encuentran en un radio de <c val=\"#TooltipNumbers\">10</c> y les inflige <c val=\"#TooltipNumbers\">70</c><c val=\"#ColorGray\">~~0.04~~</c> de daño por golpe (prioriza a héroes sobre esbirros). Vala puede moverse y usar Acrobacia mientras acribilla a los enemigos. Dura <c val=\"#TooltipNumbers\">4</c> segundos.",
+      "name": "Acribillar",
+      "shortText": "Descarga un aluvión de flechas sobre los enemigos"
+    },
+    "DemonHunterRainOfVengeance|DemonHunterRainOfVengeance|Heroic": {
+      "cooldownText": "Tiempo de reutilización de carga: 50 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 50</s>",
+      "fullText": "Lanza una oleada de Bestias sombrías que inflige <c val=\"#TooltipNumbers\">250</c><c val=\"#ColorGray\">~~0.04~~</c> de daño y aturde a los enemigos que están en el área objetivo durante <c val=\"#TooltipNumbers\">0.5</c> segundos.<n/><n/>Acumula hasta <c val=\"#TooltipNumbers\">2</c> cargas.",
+      "name": "Lluvia de venganza",
+      "shortText": "Ataque de área que aturde a los enemigos"
+    },
+    ":PASSIVE:|DemonHunterHatred|Trait": {
+      "fullText": "Los ataques básicos otorgan una acumulación de Odio hasta un máximo de <c val=\"#TooltipNumbers\">10</c>. Cada acumulación de Odio aumenta el daño de los ataques básicos un <c val=\"#TooltipNumbers\">8%</c> y la velocidad de movimiento un <c val=\"#TooltipNumbers\">1%</c>. Dura <c val=\"#TooltipNumbers\">5</c> segundos.",
+      "name": "Odio",
+      "shortText": "Ataques básicos otorgan más daño de ataque y velocidad de movimiento temporalmente"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Tiempo de reutilización: 4 segundos",
+      "fullText": "Tras una canalización de <c val=\"#TooltipNumbers\">1</c> segundo, obtienes un <s val=\"StandardTooltipDetails\">30%</s> de velocidad de movimiento.",
+      "name": "Invocar montura"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Tras una canalización de <c val=\"#TooltipNumbers\">6</c> segundos, te teletransportas de regreso a la Sala de las tormentas para recuperar <c val=\"#TooltipNumbers\">1125</c> de salud y <c val=\"#TooltipNumbers\">150</c> de maná de inmediato.",
+      "name": "Piedra de hogar"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Te desmontas.",
+      "name": "Desinvocar montura"
+    },
+    "DemonHunterGloom|DemonHunterGloomItem|Active": {
+      "cooldownText": "Tiempo de reutilización: 5 segundos",
+      "fullText": "Activar para consumir todo el Odio y obtener <c val=\"#TooltipNumbers\">3</c> de Armadura especial por Odio consumido durante <c val=\"#TooltipNumbers\">5</c> segundos.<n/><n/><c val=\"#AbilityPassive\">Pasivo:</c> Obtienes <c val=\"#TooltipNumbers\">15</c> de Armadura especial, y cada acumulación de Odio restituye <c val=\"#TooltipNumbers\">1.2</c><c val=\"#ColorGray\">~~0.04~~</c> de salud por segundo.",
+      "name": "Penumbras",
+      "shortText": "Consume Odio para obtener Armadura especial"
+    }
+  },
+  "talents": {
+    "DemonHunterMasteryPuncturingArrow|DemonHunterHungeringArrowPuncturingArrowTalent|Q|Level1": {
+      "fullText": "Aumenta en <c val=\"#TooltipNumbers\">1</c> el número de rebotes de Flecha famélica.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Misión:</c> Golpear a un héroe enemigo con el impacto inicial de Flecha famélica restituye <c val=\"#TooltipNumbers\">40</c> de maná y aumenta permanentemente el daño de su impacto inicial en <c val=\"#TooltipNumbers\">6</c>.",
+      "name": "Flecha perforadora",
+      "shortText": "<c val=\"#TooltipQuest\">Misión:</c> Obtienes un rebote y daño de Flecha famélica"
+    },
+    "DemonHunterMultishotFireAtWill|DemonHunterMultishotFireAtWill|W|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Misión:</c> Golpear a un héroe con Disparo múltiple otorga <c val=\"#TooltipNumbers\">2</c> de Odio y aumenta permanentemente su daño en <c val=\"#TooltipNumbers\">2</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa:</c> Después de golpear a <c val=\"#TooltipNumbers\">20</c> héroes con Disparo múltiple, aumenta su daño en <c val=\"#TooltipNumbers\">40</c>.",
+      "name": "Fuego a discreción",
+      "shortText": "<c val=\"#TooltipQuest\">Misión:</c> Obtienes daño de Disparo múltiple, Odio"
+    },
+    "DemonHunterCreedoftheHunter|DemonHunterCreedoftheHunter|Trait|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Misión:</c> Cada <c val=\"#TooltipNumbers\">50</c> ataques básicos contra héroes aumenta la bonificación de daño de Odio por acumulación un <c val=\"#TooltipNumbers\">1%</c>, hasta un <c val=\"#TooltipNumbers\">6%</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Gambito:</c> Obtienes un <c val=\"#TooltipNumbers\">25%</c> de velocidad de ataque adicional. Cada muerte reduce esta bonificación un <c val=\"#TooltipNumbers\">5%</c>.",
+      "name": "Credo del cazador",
+      "shortText": "<c val=\"#TooltipQuest\">Gambito:</c> Obtienes velocidad de ataque<n/><c val=\"#TooltipQuest\">Misión:</c> Más bonificación de ataque básico de Odio"
+    },
+    "DemonHunterMasteryArsenal|DemonHunterMultishotArsenalTalent|W|Level4": {
+      "fullText": "Aumenta el alcance de Disparo múltiple un <c val=\"#TooltipNumbers\">20%</c>. Disparo múltiple también lanza <c val=\"#TooltipNumbers\">3</c> granadas que infligen <c val=\"#TooltipNumbers\">100</c><c val=\"#ColorGray\">~~0.04~~</c> de daño y restituyen <c val=\"#TooltipNumbers\">25</c> de maná después de golpear a los héroes enemigos.",
+      "name": "Arsenal",
+      "shortText": "Aumenta el alcance de Disparo múltiple, lanza granadas"
+    },
+    "DemonHunterDeathDealer|DemonHunterDeathDealer|E|Level4": {
+      "fullText": "Aumenta la bonificación de daño que otorga Acrobacia a los ataques básicos del <c val=\"#TooltipNumbers\">6%</c> al <c val=\"#TooltipNumbers\">15%</c> por acumulación de Odio. Si este ataque mata a la víctima en un lapso de <c val=\"#TooltipNumbers\">1.5</c> segundos, se restituye el costo de maná y el tiempo de reutilización de Acrobacia.<n/><n/><c val=\"#AbilityPassive\">Pasiva:</c> Reduce <c val=\"#TooltipNumbers\">5</c> segundos el tiempo de reutilización de Acrobacia.",
+      "name": "Muerte a la orden",
+      "shortText": "Aumenta la bonificación de daño que otorga Acrobacia, reduce el tiempo de reutilización"
+    },
+    "DemonHunterMasteryRepeatingArrowVault|DemonHunterVaultRepeatingArrowTalent|E|Level4": {
+      "fullText": "Acrobacia ya no cuesta maná. Usar Acrobacia restablece el tiempo de reutilización de Flecha famélica.",
+      "name": "Flecha iterativa",
+      "shortText": "Acrobacia restablece Flecha famélica"
+    },
+    "DemonHunterMasteryMonsterHunterHungeringArrow|DemonHunterHungeringArrowMonsterHunterTalent|Q|Level7": {
+      "fullText": "Flecha famélica inflige un <c val=\"#TooltipNumbers\">150%</c> más de daño a esbirros, mercenarios y monstruos.",
+      "name": "Cazamonstruos",
+      "shortText": "Aumenta el daño de Flecha famélica a unidades que no son héroes"
+    },
+    "DemonHunterMasteryFrostShot|DemonHunterHungeringArrowFrostShotTalent|Q|Level7": {
+      "fullText": "Disparo múltiple ralentiza a los enemigos un <c val=\"#TooltipNumbers\">20%</c> durante <c val=\"#TooltipNumbers\">2.5</c> segundos. Flecha famélica inflige un <c val=\"#TooltipNumbers\">25%</c> más de daño a los enemigos ralentizados.",
+      "name": "Disparo de escarcha",
+      "shortText": "Obtienes ralentización de Disparo múltiple y daño de Flecha famélica"
+    },
+    "DemonHunterCombatStyleHotPursuit|DemonHunterHatredHotPursuitTalent|Trait|Level7": {
+      "fullText": "Aumenta la bonificación de velocidad de movimiento de cada acumulación de Odio del <c val=\"#TooltipNumbers\">1%</c> al <c val=\"#TooltipNumbers\">2%</c>.",
+      "name": "Persecución intensa",
+      "shortText": "Aumenta la bonificación de velocidad de movimiento de Odio"
+    },
+    "DemonHunterHeroicAbilityStrafe|DemonHunterStrafe|Heroic|Level10": {
+      "cooldownText": "Tiempo de reutilización: 60 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 60</s>",
+      "fullText": "Ataca rápidamente a los enemigos que se encuentran en un radio de <c val=\"#TooltipNumbers\">10</c> y les inflige <c val=\"#TooltipNumbers\">70</c><c val=\"#ColorGray\">~~0.04~~</c> de daño por golpe (prioriza a héroes sobre esbirros). Vala puede moverse y usar Acrobacia mientras acribilla a los enemigos. Dura <c val=\"#TooltipNumbers\">4</c> segundos.",
+      "name": "Acribillar",
+      "shortText": "Descarga un aluvión de flechas sobre los enemigos"
+    },
+    "DemonHunterHeroicAbilityRainofVengeance|DemonHunterRainOfVengeance|Heroic|Level10": {
+      "cooldownText": "Tiempo de reutilización de carga: 50 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 50</s>",
+      "fullText": "Lanza una oleada de Bestias sombrías que inflige <c val=\"#TooltipNumbers\">250</c><c val=\"#ColorGray\">~~0.04~~</c> de daño y aturde a los enemigos que están en el área objetivo durante <c val=\"#TooltipNumbers\">0.5</c> segundos.<n/><n/>Acumula hasta <c val=\"#TooltipNumbers\">2</c> cargas.",
+      "name": "Lluvia de venganza",
+      "shortText": "Ataque de área que aturde a los enemigos"
+    },
+    "DemonHunterMasterySiphoningArrow|DemonHunterHungeringArrowSiphoningArrowTalent|Q|Level13": {
+      "fullText": "Golpear a un héroe con Flecha famélica sana a Vala por un <c val=\"#TooltipNumbers\">4%</c> de su salud máxima, y Disparo múltiple sana por un <c val=\"#TooltipNumbers\">2%</c>.",
+      "name": "Flecha succionante",
+      "shortText": "Flecha famélica y Disparo múltiple sanan"
+    },
+    "DemonHunterCombatStyleTemperedByDiscipline|DemonHunterHatredTemperedByDisciplineTalent|Trait|Level13": {
+      "fullText": "Los ataques básicos sanan por un <c val=\"#TooltipNumbers\">10%</c> del daño infligido, que se incrementa al <c val=\"#TooltipNumbers\">2%</c> por acumulación de Odio.",
+      "name": "Triunfo de la disciplina",
+      "shortText": "Los ataques básicos sanan, esto aumenta con Odio"
+    },
+    "DemonHunterGloom|DemonHunterGloom|Active|Level13": {
+      "cooldownText": "Tiempo de reutilización: 5 segundos",
+      "fullText": "Activar para consumir todo el Odio y obtener <c val=\"#TooltipNumbers\">3</c> de Armadura especial por Odio consumido durante <c val=\"#TooltipNumbers\">5</c> segundos.<n/><n/><c val=\"#AbilityPassive\">Pasivo:</c> Obtienes <c val=\"#TooltipNumbers\">15</c> de Armadura especial, y cada acumulación de Odio restituye <c val=\"#TooltipNumbers\">1.2</c><c val=\"#ColorGray\">~~0.04~~</c> de salud por segundo.",
+      "name": "Penumbras",
+      "shortText": "Consume Odio para obtener Armadura especial"
+    },
+    "DemonHunterPunishment|DemonHunterHatredPunishmentTalent|W|Level16": {
+      "fullText": "Al máximo de Odio, el tiempo de reutilización de Disparo múltiple se recarga un <c val=\"#TooltipNumbers\">50%</c> más rápido.<n/><n/><c val=\"#AbilityPassive\">Pasivo:</c> Reduce el costo de maná de Disparo múltiple de <c val=\"#TooltipNumbers\">75</c> a <c val=\"#TooltipNumbers\">55</c>.",
+      "name": "Castigo",
+      "shortText": "Reduce el tiempo de reutilización de Disparo múltiple al máximo de Odio"
+    },
+    "DemonHunterSeethingHatred|DemonHunterSeethingHatred|Trait|Level16": {
+      "fullText": "Al máximo de Odio, aumenta todo el daño infligido un <c val=\"#TooltipNumbers\">10%</c>.",
+      "name": "Odio enardecido",
+      "shortText": "Aumenta todo el daño al máximo de Odio"
+    },
+    "DemonHunterManticore|DemonHunterManticore|Passive|Level16": {
+      "fullText": "Cada <c val=\"#TooltipNumbers\">tres</c> ataques básicos contra el mismo héroe, inflige un <c val=\"#TooltipNumbers\">4%</c> de su salud máxima como daño adicional.",
+      "name": "Mantícora",
+      "shortText": "Aumenta el daño de ataque básico contra héroes"
+    },
+    "DemonHunterMasteryDeathSiphon|DemonHunterStrafeDeathSiphonTalent|Heroic|Level20": {
+      "fullText": "Golpear a un héroe enemigo con Acribillar aumenta su duración <c val=\"#TooltipNumbers\">0.125</c> segundos. Acribillar también dispara saetas perforadoras en línea recta que infligen <c val=\"#TooltipNumbers\">34</c><c val=\"#ColorGray\">~~0.04~~</c> de daño cada <c val=\"#TooltipNumbers\">0.25</c> segundos.",
+      "name": "Succión mortal",
+      "shortText": "Acribillar dura más y dispara saetas perforadoras"
+    },
+    "DemonHunterMasteryStormofVengeance|DemonHunterRainOfVengeanceStormOfVengeanceTalent|Heroic|Level20": {
+      "fullText": "Los ataques básicos contra héroes reducen el tiempo de reutilización de Lluvia de venganza <c val=\"#TooltipNumbers\">5</c> segundos.<n/><n/><c val=\"#AbilityPassive\">Pasivo:</c> Cada acumulación de Odio también aumenta la velocidad de ataque un <c val=\"#TooltipNumbers\">2%</c>. Al máximo de Odio, obtienes un <c val=\"#TooltipNumbers\">30%</c> más de velocidad de ataque.",
+      "name": "Tormenta de venganza",
+      "shortText": "Reduce el tiempo de reutilización, obtienes velocidad de ataque"
+    },
+    "DemonHunterVaultAcrobat|DemonHunterVaultAcrobat|E|Level20": {
+      "fullText": "Obtienes <c val=\"#TooltipNumbers\">2</c> cargas adicionales de Acrobacia. Sueltas <c val=\"#TooltipNumbers\">3</c> Abrojos mientras haces acrobacias que infligen <c val=\"#TooltipNumbers\">60</c><c val=\"#ColorGray\">~~0.04~~</c> de daño y ralentizan a los enemigos un <c val=\"#TooltipNumbers\">40%</c> durante <c val=\"#TooltipNumbers\">1</c> segundo.",
+      "name": "Acróbata",
+      "shortText": "Obtienes cargas de Acrobacia, sueltas Abrojos"
+    },
+    "DemonHunterFarflightQuiver|DemonHunterFarflightQuiver|Trait|Level20": {
+      "fullText": "Obtienes un <c val=\"#TooltipNumbers\">20%</c> de alcance de ataque básico. Al máximo de Odio, obtienes un <c val=\"#TooltipNumbers\">30%</c> más de alcance de ataque básico.",
+      "name": "Aljaba lontavirote",
+      "shortText": "Mayor alcance de ataque básico, aumenta con Odio"
+    }
+  },
+  "units": {}
+}

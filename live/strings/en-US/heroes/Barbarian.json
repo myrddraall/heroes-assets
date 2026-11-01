@@ -1,0 +1,205 @@
+{
+  "abilities": {
+    "BarbarianAncientSpear|BarbarianAncientSpear|Q": {
+      "cooldownText": "Cooldown: 13 seconds",
+      "fullText": "Throw out a spear that pulls Sonya to the first enemy hit, dealing <c val=\"#TooltipNumbers\">173</c><c val=\"#ColorGray\">~~0.04~~</c> damage and briefly stunning them. If this hits an enemy, generate <c val=\"#TooltipNumbers\">40</c> Fury.",
+      "name": "Ancient Spear",
+      "shortText": "Throw a spear and pull self to the first enemy hit, stunning and dealing damage"
+    },
+    "BarbarianSeismicSlam|BarbarianSeismicSlam|W": {
+      "cooldownText": "Cooldown: 1 second",
+      "energyText": "<s val=\"StandardTooltipDetails\">Fury: 25</s>",
+      "fullText": "Deals <c val=\"#TooltipNumbers\">176</c><c val=\"#ColorGray\">~~0.04~~</c> damage to the target enemy, and <c val=\"#TooltipNumbers\">44</c><c val=\"#ColorGray\">~~0.04~~</c> to enemies behind the target.",
+      "name": "Seismic Slam",
+      "shortText": "Damage an enemy and splash damage behind them"
+    },
+    "BarbarianWhirlwind|BarbarianWhirlwind|E": {
+      "cooldownText": "Cooldown: 5 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Fury: 40</s>",
+      "fullText": "Deals <c val=\"#TooltipNumbers\">138</c><c val=\"#ColorGray\">~~0.04~~</c> damage a second to nearby enemies for <c val=\"#TooltipNumbers\">3</c> seconds, healing for <c val=\"#TooltipNumbers\">25%</c> of damage dealt. Healing tripled versus Heroes.",
+      "name": "Whirlwind",
+      "shortText": "Damage nearby enemies and heal for a percentage of damage dealt"
+    },
+    "BarbarianLeap|BarbarianLeap|Heroic": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "fullText": "Leap into the air, dealing <c val=\"#TooltipNumbers\">135</c><c val=\"#ColorGray\">~~0.04~~</c> damage to nearby enemies, and stunning them for <c val=\"#TooltipNumbers\">1.25</c> seconds.",
+      "name": "Leap",
+      "shortText": "Jump to a location, deal damage, and stun enemies"
+    },
+    "BarbarianWrathoftheBerserker|BarbarianWrathoftheBerserker|Heroic": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "fullText": "Increase damage dealt by <c val=\"#TooltipNumbers\">40%</c>. Reduce the duration of Stuns, Roots, and Slows against Sonya by <c val=\"#TooltipNumbers\">50%</c>. Lasts <c val=\"#TooltipNumbers\">15</c> seconds, and extends by <c val=\"#TooltipNumbers\">1</c> second for every <c val=\"#TooltipNumbers\">10</c> Fury gained.",
+      "name": "Wrath of the Berserker",
+      "shortText": "Increase damage and reduce disable duration"
+    },
+    ":PASSIVE:|BarbarianFury|Trait": {
+      "fullText": "Use Fury instead of Mana, which is gained by taking damage or dealing Basic Attack damage. Using a Basic or Heroic Ability grants <c val=\"#TooltipNumbers\">10%</c> Movement Speed for <c val=\"#TooltipNumbers\">4</c> seconds.",
+      "name": "Fury",
+      "shortText": "Generate Fury in combat. All Abilities grant Move Speed"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Cooldown: 4 seconds",
+      "fullText": "After Channeling for <c val=\"#TooltipNumbers\">1</c> second, gain <s val=\"StandardTooltipDetails\">30%</s> Movement Speed.",
+      "name": "Summon Mount"
+    },
+    "Hearthstone|HearthstoneNoMana|B": {
+      "fullText": "After Channeling for <c val=\"#TooltipNumbers\">6</c> seconds, teleport back to the Hall of Storms, instantly restoring <c val=\"#TooltipNumbers\">1125</c> Health.",
+      "name": "Hearthstone"
+    },
+    "BarbarianWhirlwindCancel|BarbarianWhirlwindCancel|E": {
+      "fullText": "Cancels the Whirlwind ability",
+      "name": "Cancel Whirlwind"
+    },
+    "BarbarianCancelLeapArreatCrater|BarbarianLeapArreatCraterCancel|Heroic": {
+      "cooldownText": "Cooldown: 1.5 seconds",
+      "fullText": "Cancels Arreat Crater",
+      "name": "Cancel Leap"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Dismounts you.",
+      "name": "Unsummon Mount"
+    },
+    "BarbarianShotofFury|BarbarianFuryShotOfFury|Trait": {
+      "cooldownText": "Cooldown: 40 seconds",
+      "fullText": "Use Fury instead of Mana, which is gained by taking damage or dealing Basic Attack damage. Using a Basic or Heroic Ability grants <c val=\"#TooltipNumbers\">10%</c> Movement Speed for <c val=\"#TooltipNumbers\">4</c> seconds.",
+      "name": "Fury"
+    },
+    "BarbarianBattleRage|BarbarianBattleRage|Active": {
+      "cooldownText": "Charge Cooldown: 30 seconds",
+      "fullText": "Activate to instantly restore <c val=\"#TooltipNumbers\">10%</c> of Sonya's maximum Health. Stores up to <c val=\"#TooltipNumbers\">2</c> charges. Usable while Whirlwinding.<n/><n/><c val=\"#AbilityPassive\">Passive: </c>Sonya deals <c val=\"#TooltipNumbers\">25%</c> more damage to Mercenaries.",
+      "name": "Battle Rage",
+      "shortText": "Increase damage to Mercenaries, activate to heal"
+    },
+    "BarbarianNervesOfSteel|BarbarianNervesOfSteel|Active": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "fullText": "Activate to gain <c val=\"#TooltipNumbers\">25%</c> of your maximum Health as a Shield for <c val=\"#TooltipNumbers\">3</c> seconds. Usable while Whirlwinding.",
+      "name": "Nerves of Steel",
+      "shortText": "Activate to gain a Shield"
+    },
+    "BarbarianStridingGiant|BarbarianStridingGiantActive|Heroic": {
+      "cooldownText": "Cooldown: 30 seconds",
+      "fullText": "Activate to become unstoppable for <c val=\"#TooltipNumbers\">2</c> seconds. Usable only when Wrath Of The Berserker is active.",
+      "name": "Striding Giant"
+    },
+    "BarbarianIgnorePain|BarbarianIgnorePain|Active": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "fullText": "Activate to gain <c val=\"#TooltipNumbers\">60</c> Armor for <c val=\"#TooltipNumbers\">4</c> seconds, taking <c val=\"#TooltipNumbers\">60%</c> less damage. Usable while Whirlwinding.",
+      "name": "Ignore Pain",
+      "shortText": "Activate to gain massive Armor"
+    }
+  },
+  "talents": {
+    "BarbarianFuriousBlow|BarbarianSeismicSlamFuriousBlowTalent|W|Level1": {
+      "fullText": "Every <c val=\"#TooltipNumbers\">4th</c> cast of Seismic Slam deals <c val=\"#TooltipNumbers\">40%</c> more damage to the primary target and costs no Fury.",
+      "name": "Furious Blow",
+      "shortText": "Empower Seismic Slam"
+    },
+    "BarbarianWarPaint|BarbarianFuryWarPaintTalent|Passive|Level1": {
+      "fullText": "Sonya's Basic Attacks heal for <c val=\"#TooltipNumbers\">30%</c> of the damage dealt.",
+      "name": "War Paint",
+      "shortText": "Basic Attacks heal"
+    },
+    "BarbarianToughAsNails|BarbarianToughAsNails|Passive|Level1": {
+      "fullText": "Every <c val=\"#TooltipNumbers\">16</c> seconds, gain <c val=\"#TooltipNumbers\">60</c> Physical Armor against the next enemy Hero Basic Attack, reducing the damage taken by <c val=\"#TooltipNumbers\">60%</c>.<n/><n/>Stores up to <c val=\"#TooltipNumbers\">3</c> charges. Charges refresh <c val=\"#TooltipNumbers\">200%</c> faster while Fury's Movement Speed bonus is active.",
+      "name": "Tough As Nails",
+      "shortText": "Periodically gain Physical Armor"
+    },
+    "BarbarianShatteredGround|BarbarianSeismicSlamShatteredGroundTalent|W|Level4": {
+      "fullText": "Increase Seismic Slam's splash damage by <c val=\"#TooltipNumbers\">250%</c>. Targeting a Hero with Seismic Slam further increases its splash damage by <c val=\"#TooltipNumbers\">250%</c>, while targeting other enemies increases the length of its splash by <c val=\"#TooltipNumbers\">66%</c>.",
+      "name": "Shattered Ground",
+      "shortText": "Increase Seismic Slam splash damage"
+    },
+    "BarbarianHurricane|BarbarianHurricaneWhirlwindTalent|E|Level4": {
+      "fullText": "Reduce the cooldown of Whirlwind by <c val=\"#TooltipNumbers\">2</c> seconds. Casting Whirlwind removes all Slows and Roots from Sonya.",
+      "name": "Hurricane",
+      "shortText": "Whirlwind removes Slows and Roots"
+    },
+    "BarbarianShotOfFury|BarbarianFuryShotOfFuryTalent|Trait|Level4": {
+      "cooldownText": "Cooldown: 40 seconds",
+      "fullText": "Activate to gain <c val=\"#TooltipNumbers\">50</c> Fury. Usable while Whirlwinding.<n/><n/><c val=\"#AbilityPassive\">Passive:</c> After casting Seismic Slam, your next Basic Attack deals <c val=\"#TooltipNumbers\">40%</c> more damage.",
+      "name": "Shot Of Fury",
+      "shortText": "Activate to gain Fury"
+    },
+    "BarbarianPoisonedSpear|BarbarianAncientSpearPoisonedSpearTalent|Q|Level7": {
+      "fullText": "Ancient Spear deals an additional <c val=\"#TooltipNumbers\">100%</c> damage over <c val=\"#TooltipNumbers\">6</c> seconds.",
+      "name": "Poisoned Spear",
+      "shortText": "Ancient Spear deals damage over time"
+    },
+    "BarbarianLifeFunnel|BarbarianWhirlwindLifeFunnelTalent|E|Level7": {
+      "fullText": "Increases the healing of Whirlwind to <c val=\"#TooltipNumbers\">35%</c> of damage dealt.",
+      "name": "Life Funnel",
+      "shortText": "Increases Whirlwind healing"
+    },
+    "BarbarianBattleRage|BarbarianBattleRage|Active|Level7": {
+      "cooldownText": "Charge Cooldown: 30 seconds",
+      "fullText": "Activate to instantly restore <c val=\"#TooltipNumbers\">10%</c> of Sonya's maximum Health. Stores up to <c val=\"#TooltipNumbers\">2</c> charges. Usable while Whirlwinding.<n/><n/><c val=\"#AbilityPassive\">Passive: </c>Sonya deals <c val=\"#TooltipNumbers\">25%</c> more damage to Mercenaries.",
+      "name": "Battle Rage",
+      "shortText": "Increase damage to Mercenaries, activate to heal"
+    },
+    "BarbarianHeroicAbilityLeap|BarbarianLeap|Heroic|Level10": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "fullText": "Leap into the air, dealing <c val=\"#TooltipNumbers\">135</c><c val=\"#ColorGray\">~~0.04~~</c> damage to nearby enemies, and stunning them for <c val=\"#TooltipNumbers\">1.25</c> seconds.",
+      "name": "Leap",
+      "shortText": "Jump to a location, deal damage, and stun enemies"
+    },
+    "BarbarianHeroicAbilityWrathoftheBerserker|BarbarianWrathoftheBerserker|Heroic|Level10": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "fullText": "Increase damage dealt by <c val=\"#TooltipNumbers\">40%</c>. Reduce the duration of Stuns, Roots, and Slows against Sonya by <c val=\"#TooltipNumbers\">50%</c>. Lasts <c val=\"#TooltipNumbers\">15</c> seconds, and extends by <c val=\"#TooltipNumbers\">1</c> second for every <c val=\"#TooltipNumbers\">10</c> Fury gained.",
+      "name": "Wrath of the Berserker",
+      "shortText": "Increase damage and reduce disable duration"
+    },
+    "BarbarianMysticalSpear|BarbarianAncientSpearMysticalSpearTalent|Q|Level13": {
+      "fullText": "Ancient Spear always pulls Sonya to the target location even if it doesn't hit an enemy. When used this way, Ancient Spear's cooldown is reduced by <c val=\"#TooltipNumbers\">5</c> seconds. ",
+      "name": "Mystical Spear",
+      "shortText": "Ancient Spear always pulls, cooldown reduced"
+    },
+    "BarbarianRuthless|BarbarianRuthless|E|Level13": {
+      "fullText": "Whirlwind deals an additional <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> damage per second to Heroes below <c val=\"#TooltipNumbers\">50%</c> Health. Does not generate additional healing.",
+      "name": "Ruthless",
+      "shortText": "Increase Whirlwind damage to low Health targets"
+    },
+    "BarbarianNoEscape|BarbarianFuryNoEscapeTalent|Trait|Level13": {
+      "fullText": "Increases the Movement Speed bonus from using Basic and Heroic Abilities to <c val=\"#TooltipNumbers\">20%</c>.",
+      "name": "No Escape",
+      "shortText": "Abilities give more Movement Speed"
+    },
+    "BarbarianGiantSlammer|BarbarianGiantSlammer|W|Level16": {
+      "fullText": "Basic Attacks and Seismic Slam deal an additional <c val=\"#TooltipNumbers\">1.5%</c> of Heroes' maximum Health as damage and heal Sonya for <c val=\"#TooltipNumbers\">60%</c> of the damage dealt.",
+      "name": "Giant Slammer",
+      "shortText": "Basic Attacks and Seismic Slam deal bonus damage"
+    },
+    "BarbarianRampage|BarbarianRampage|Passive|Level16": {
+      "fullText": "Increase Basic Attack damage by <c val=\"#TooltipNumbers\">25%</c>. Basic Attacks reduce the cooldown of Ancient Spear by <c val=\"#TooltipNumbers\">1.5</c> seconds.",
+      "name": "Rampage",
+      "shortText": "Basic Attacks reduce Ancient Spear cooldown"
+    },
+    "BarbarianNervesOfSteel|BarbarianNervesOfSteel|Active|Level16": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "fullText": "Activate to gain <c val=\"#TooltipNumbers\">25%</c> of your maximum Health as a Shield for <c val=\"#TooltipNumbers\">3</c> seconds. Usable while Whirlwinding.",
+      "name": "Nerves of Steel",
+      "shortText": "Activate to gain a Shield"
+    },
+    "BarbarianArreatCrater|BarbarianLeapArreatCraterTalent|Heroic|Level20": {
+      "fullText": "Leap leaves behind an impassable crater for <c val=\"#TooltipNumbers\">5</c> seconds.  Reduces Leap's cooldown by <c val=\"#TooltipNumbers\">20</c> seconds.",
+      "name": "Arreat Crater",
+      "shortText": "Leap creates a crater and has reduced cooldown"
+    },
+    "BarbarianStridingGiant|BarbarianStridingGiant|Heroic|Level20": {
+      "fullText": "Wrath of the Berserker increases maximum Health by <c val=\"#TooltipNumbers\">10%</c> and grants Striding Giant, which can be activated to become Unstoppable for <c val=\"#TooltipNumbers\">2</c> seconds. <c val=\"#TooltipNumbers\">30</c> second cooldown.",
+      "name": "Striding Giant",
+      "shortText": "Wrath of the Berserker can grant Unstoppable"
+    },
+    "BarbarianCompositeSpear|BarbarianAncientSpearCompositeSpearTalent|Q|Level20": {
+      "fullText": "Increases Ancient Spear's range by <c val=\"#TooltipNumbers\">50%</c>. Hitting an enemy Hero with Ancient Spear grants <c val=\"#TooltipNumbers\">25</c> Armor for <c val=\"#TooltipNumbers\">4</c> seconds.",
+      "name": "Composite Spear",
+      "shortText": "Increase Ancient Spear range, grants Armor"
+    },
+    "BarbarianIgnorePain|BarbarianIgnorePain|Active|Level20": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "fullText": "Activate to gain <c val=\"#TooltipNumbers\">60</c> Armor for <c val=\"#TooltipNumbers\">4</c> seconds, taking <c val=\"#TooltipNumbers\">60%</c> less damage. Usable while Whirlwinding.",
+      "name": "Ignore Pain",
+      "shortText": "Activate to gain massive Armor"
+    }
+  },
+  "units": {}
+}

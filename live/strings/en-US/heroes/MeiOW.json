@@ -1,0 +1,200 @@
+{
+  "abilities": {
+    "MeiOWSnowBlind|MeiOWSnowBlind|Q": {
+      "cooldownText": "Cooldown: 10 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 35</s>",
+      "fullText": "Throw a snowball that hits all enemies in an area. Enemies hit take <c val=\"#TooltipNumbers\">70</c><c val=\"#ColorGray\">~~0.04~~</c> damage, are Slowed by <c val=\"#TooltipNumbers\">35%</c>, and are Blinded for <c val=\"#TooltipNumbers\">1.75</c> seconds.",
+      "name": "Snow Blind",
+      "shortText": "Throw a snowball that Slows and Blinds"
+    },
+    "MeiOWBlizzard|MeiOWBlizzard|W": {
+      "cooldownText": "Cooldown: 14 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 70</s>",
+      "fullText": "Command Snowball to create a Blizzard at the target location for <c val=\"#TooltipNumbers\">2</c> seconds. Enemies within the blizzard take <c val=\"#TooltipNumbers\">13</c><c val=\"#ColorGray\">~~0.04~~</c> damage every <c val=\"#TooltipNumbers\">0.25</c> seconds and are Slowed by <c val=\"#TooltipNumbers\">7%</c>, stacking up to <c val=\"#TooltipNumbers\">35%</c>. When the Blizzard ends, enemies within its area take an additional <c val=\"#TooltipNumbers\">75</c><c val=\"#ColorGray\">~~0.04~~</c> damage and are Stunned for <c val=\"#TooltipNumbers\">1.25</c> seconds.",
+      "name": "Blizzard",
+      "shortText": "Freeze enemies in an area"
+    },
+    "MeiOWIcing|MeiOWIcing|E": {
+      "cooldownText": "Cooldown: 14 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 70</s>",
+      "fullText": "Slide quickly in the targeted direction. When this effect ends, enemies near Mei are knocked back, take <c val=\"#TooltipNumbers\">52</c><c val=\"#ColorGray\">~~0.04~~</c> damage, and are Slowed by <c val=\"#TooltipNumbers\">80%</c>, rapidly decaying over <c val=\"#TooltipNumbers\">1.5</c> seconds.<n/><n/>Can be canceled during sliding.",
+      "name": "Icing",
+      "shortText": "Slide in a direction and knockback enemies"
+    },
+    "MeiOWAvalanche|MeiOWAvalanche|Heroic": {
+      "cooldownText": "Cooldown: 90 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 80</s>",
+      "fullText": "After <c val=\"#TooltipNumbers\">0.5</c> seconds, roll a massive snowball that consumes enemy Heroes in its path. At the end of its path, the snowball crumbles, releasing the consumed Heroes, dealing <c val=\"#TooltipNumbers\">220</c><c val=\"#ColorGray\">~~0.04~~</c> damage and Stunning them for <c val=\"#TooltipNumbers\">0.5</c> seconds per Hero consumed.",
+      "name": "Avalanche",
+      "shortText": "Consume Heroes in a massive snowball"
+    },
+    "MeiOWIceWall|MeiOWIceWall|Heroic": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">Vector Targeting</c><n/>After a <c val=\"#TooltipNumbers\">0.75</c> second delay, create an impassable wall that traps enemy Heroes hit for <c val=\"#TooltipNumbers\">2.5</c> seconds. When the wall expires, trapped Heroes are Slowed by <c val=\"#TooltipNumbers\">75%</c>, decaying over <c val=\"#TooltipNumbers\">3</c> seconds.",
+      "name": "Ice Wall",
+      "shortText": "Trap enemies inside of a path blocking wall"
+    },
+    "MeiOWCryoFreeze|MeiOWCryoFreeze|Trait": {
+      "cooldownText": "Cooldown: 40 seconds",
+      "fullText": "Become encased in ice for <c val=\"#TooltipNumbers\">3</c> seconds, gaining a rapidly decaying Shield that absorbs up to <c val=\"#TooltipNumbers\">1104</c><c val=\"#ColorGray\">~~0.04~~</c> damage. While active, this Shield grants Unstoppable and restores up to <c val=\"#TooltipNumbers\">35%</c> of Mei's maximum Health.",
+      "name": "Cryo-Freeze",
+      "shortText": "Activate to gain Shield and heal"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Cooldown: 4 seconds",
+      "fullText": "After Channeling for <c val=\"#TooltipNumbers\">1</c> second, gain <s val=\"StandardTooltipDetails\">30%</s> Movement Speed.",
+      "name": "Summon Mount"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "After Channeling for <c val=\"#TooltipNumbers\">6</c> seconds, teleport back to the Hall of Storms, instantly restoring <c val=\"#TooltipNumbers\">1125</c> Health and <c val=\"#TooltipNumbers\">150</c> Mana.",
+      "name": "Hearthstone"
+    },
+    "MeiOWIcingCancel|MeiOWIcingCancel|E": {
+      "cooldownText": "Cooldown: 14 seconds",
+      "fullText": "Cancel Icing",
+      "name": "Icing",
+      "shortText": "Slide in a direction and knockback enemies"
+    },
+    "MeiOWCryoFreezeCancel|MeiOWCryoFreezeCancel|Trait": {
+      "fullText": "Cancel Cryo-Freeze",
+      "name": "Cryo-Freeze",
+      "shortText": "Activate to gain Shield and heal"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Dismounts you.",
+      "name": "Unsummon Mount"
+    },
+    "MeiOWBackupBattery|MeiOWBackupBattery|Active": {
+      "cooldownText": "Cooldown: 70 seconds",
+      "fullText": "Activate to remove all Roots and Slows and regenerate <c val=\"#TooltipNumbers\">20%</c> of maximum Health over <c val=\"#TooltipNumbers\">2</c> seconds. The cooldown of this ability is reduced by <c val=\"#TooltipNumbers\">10</c> seconds each time Mei picks up a Regeneration Globe.",
+      "name": "Backup Battery",
+      "shortText": "Activate to remove Roots and Slows, heal"
+    },
+    "MeiOWSnowBlindTheBigOneDummyAbility|MeiOWTheBigOneHotbar|Q": {
+      "cooldownText": "Cooldown: 15 seconds",
+      "fullText": "Every <c val=\"#TooltipNumbers\">15</c> seconds, the next Snow Blind you cast has <c val=\"#TooltipNumbers\">67%</c> increased area and <c val=\"#TooltipNumbers\">200%</c> increased damage. ",
+      "name": "The Big One",
+      "shortText": "Snow Blind is periodically empowered"
+    },
+    "MeiOWCryoFreezeFlashFreezeTalentHotbar|MeiOWFlashFreezeHotbar|Trait": {
+      "cooldownText": "Cooldown: 180 seconds",
+      "fullText": "When Mei takes fatal damage she instantly gains Cryo-Freeze. This effect has a <c val=\"#TooltipNumbers\">180</c> second cooldown.",
+      "name": "Flash Freeze",
+      "shortText": "Cryo-Freeze activates on fatal damage"
+    }
+  },
+  "talents": {
+    "MeiOWHeavyPack|MeiOWHeavyPack|Q|Level1": {
+      "fullText": "Increases the duration of Snow Blind's Slow by <c val=\"#TooltipNumbers\">1.5</c> seconds. Each time Blizzard damages an enemy Hero, reduce the cooldown of Snow Blind by <c val=\"#TooltipNumbers\">0.5</c> seconds and gain <c val=\"#TooltipNumbers\">3</c> Mana.",
+      "name": "Heavy Pack",
+      "shortText": "Increase Snow Blind's Slow, reduced cooldown"
+    },
+    "MeiOWIceStorm|MeiOWBlizzardIceStorm|W|Level1": {
+      "fullText": "Every <c val=\"#TooltipNumbers\">3rd</c> hit of Blizzard against enemy Heroes deals an additional <c val=\"#TooltipNumbers\">42</c><c val=\"#ColorGray\">~~0.04~~</c> damage. Blizzard's final Stun damage is increased by <c val=\"#TooltipNumbers\">150%</c> against all enemies. ",
+      "name": "Ice Storm",
+      "shortText": "Blizzard can deal extra damage"
+    },
+    "MeiOWHeatTransfer|MeiOWHeatTransfer|Passive|Level1": {
+      "fullText": "Basic Attacks against Stunned, Rooted, or Slowed Heroes deal <c val=\"#TooltipNumbers\">33%</c> more damage. Each time Mei Stuns or Slows an enemy Hero she heals for <c val=\"#TooltipNumbers\">16</c><c val=\"#ColorGray\">~~0.04~~</c> Health. ",
+      "name": "Heat Transfer",
+      "shortText": "Gain bonuses from disabling Heroes"
+    },
+    "MeiOWSlushball|MeiOWSlushball|Q|Level4": {
+      "fullText": "Snow Blind deals <c val=\"#TooltipNumbers\">75%</c> increased damage and Structures hit are disabled for <c val=\"#TooltipNumbers\">3</c> seconds.",
+      "name": "Slushball",
+      "shortText": "Increase Snow Blind damage, disables Structures"
+    },
+    "MeiOWColdFront|MeiOWColdFront|E|Level4": {
+      "fullText": "Reduce the cooldown of Icing by <c val=\"#TooltipNumbers\">3</c> seconds. If Mei enters her own Blizzard while Icing is active, the cooldown of Icing is reduced by <c val=\"#TooltipNumbers\">5</c> seconds and she gains <c val=\"#TooltipNumbers\">80</c> Mana.",
+      "name": "Cold Front",
+      "shortText": "Blizzard reduces Icing cooldown"
+    },
+    "MeiOWCrystallize|MeiOWCrystallize|Trait|Level4": {
+      "fullText": "Reduce the cooldown of Cryo-Freeze by <c val=\"#TooltipNumbers\">10</c> seconds. Mei gains <c val=\"#TooltipNumbers\">40</c> Spell Armor while Cryo-Freeze is active and for <c val=\"#TooltipNumbers\">1</c> second after.",
+      "name": "Crystallize",
+      "shortText": "Cryo-Freeze grants Spell Armor"
+    },
+    "MeiOWInduceHibernation|MeiOWInduceHibernation|W|Level7": {
+      "fullText": "Blizzard reduces the damage dealt by enemy Heroes inside of its area by <c val=\"#TooltipNumbers\">40%</c>. <n/><n/>When Blizzard ends, enemy Heroes still within its area gain this effect for an additional <c val=\"#TooltipNumbers\">4</c> seconds.",
+      "name": "Induce Hibernation",
+      "shortText": "Blizzard reduces enemy damage dealt"
+    },
+    "MeiOWSkatingAway|MeiOWSkatingAway|E|Level7": {
+      "fullText": "When Icing ends, Mei and all nearby allied Heroes gain <c val=\"#TooltipNumbers\">20%</c> Movement Speed and <c val=\"#TooltipNumbers\">50</c> Physical Armor for <c val=\"#TooltipNumbers\">3</c> seconds.",
+      "name": "Skating Away",
+      "shortText": "Icing grants allies Movement Speed, Physical Armor"
+    },
+    "MeiOWBackupBattery|MeiOWBackupBattery|Active|Level7": {
+      "cooldownText": "Cooldown: 70 seconds",
+      "fullText": "Activate to remove all Roots and Slows and regenerate <c val=\"#TooltipNumbers\">20%</c> of maximum Health over <c val=\"#TooltipNumbers\">2</c> seconds. The cooldown of this ability is reduced by <c val=\"#TooltipNumbers\">10</c> seconds each time Mei picks up a Regeneration Globe.",
+      "name": "Backup Battery",
+      "shortText": "Activate to remove Roots and Slows, heal"
+    },
+    "MeiOWAvalanche|MeiOWAvalanche|Heroic|Level10": {
+      "cooldownText": "Cooldown: 90 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 80</s>",
+      "fullText": "After <c val=\"#TooltipNumbers\">0.5</c> seconds, roll a massive snowball that consumes enemy Heroes in its path. At the end of its path, the snowball crumbles, releasing the consumed Heroes, dealing <c val=\"#TooltipNumbers\">220</c><c val=\"#ColorGray\">~~0.04~~</c> damage and Stunning them for <c val=\"#TooltipNumbers\">0.5</c> seconds per Hero consumed.",
+      "name": "Avalanche",
+      "shortText": "Consume Heroes in a massive snowball"
+    },
+    "MeiOWIceWall|MeiOWIceWall|Heroic|Level10": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">Vector Targeting</c><n/>After a <c val=\"#TooltipNumbers\">0.75</c> second delay, create an impassable wall that traps enemy Heroes hit for <c val=\"#TooltipNumbers\">2.5</c> seconds. When the wall expires, trapped Heroes are Slowed by <c val=\"#TooltipNumbers\">75%</c>, decaying over <c val=\"#TooltipNumbers\">3</c> seconds.",
+      "name": "Ice Wall",
+      "shortText": "Trap enemies inside of a path blocking wall"
+    },
+    "MeiOWFlurry|MeiOWFlurry|W|Level13": {
+      "fullText": "While in her own Blizzard, Mei gains <c val=\"#TooltipNumbers\">50% </c>increased Attack Speed and Blizzard's cooldown refreshes <c val=\"#TooltipNumbers\">125%</c> faster. If Mei is in her own Blizzard when it ends, gain these bonuses for <c val=\"#TooltipNumbers\">3</c> additional seconds.",
+      "name": "Flurry",
+      "shortText": "Standing in Blizzard reduces its cooldown"
+    },
+    "MeiOWCryoFreezeCoolingServos|MeiOWCryoFreezeCoolingServos|Trait|Level13": {
+      "fullText": "While Cryo-Freeze is active, Mei's Basic Ability cooldowns recover <c val=\"#TooltipNumbers\">200%</c> faster.<n/><n/><c val=\"#AbilityPassive\">Passive:</c> Basic Attacks Slow by <c val=\"#TooltipNumbers\">20%</c> for <c val=\"#TooltipNumbers\">1.5</c> seconds.",
+      "name": "Cooling Servos",
+      "shortText": "Empower Cryo-Freeze, Basic Attacks "
+    },
+    "MeiOWPolarVortex|MeiOWPolarVortex|Passive|Level13": {
+      "fullText": "Using an ability causes Mei to deal <c val=\"#TooltipNumbers\">24</c><c val=\"#ColorGray\">~~0.04~~</c> damage a second to nearby enemies for <c val=\"#TooltipNumbers\">4</c> seconds. Enemy Heroes damaged by this effect also have their Movement Speed and Attack Speed Slowed by <c val=\"#TooltipNumbers\">20%</c>.",
+      "name": "Polar Vortex",
+      "shortText": "Deal area damage and Slow after casting abilities"
+    },
+    "MeiOWFreshPowder|MeiOWFreshPowder|Q|Level16": {
+      "fullText": "Snow Blind gains an additional charge and its range is increased by <c val=\"#TooltipNumbers\">33%</c>. ",
+      "name": "Fresh Powder",
+      "shortText": "Snow Blind gains a charge, increased range"
+    },
+    "MeiOWBlackIce|MeiOWBlackIce|E|Level16": {
+      "fullText": "Icing's Slow effect no longer decays over its duration. Icing deals <c val=\"#TooltipNumbers\">300%</c> more damage to enemies very close to Mei. ",
+      "name": "Black Ice",
+      "shortText": "Increased Icing Slow, damage"
+    },
+    "MeiOWAcclimation|MeiOWAcclimation|Passive|Level16": {
+      "fullText": "Each time Mei Stuns or Slows an enemy Hero, the damage she deals and healing she receives is increased by <c val=\"#TooltipNumbers\">1%</c>, stacking up to <c val=\"#TooltipNumbers\">20</c> times. While at maximum stacks, Mei also gains <c val=\"#TooltipNumbers\">10</c> Armor. Lasts <c val=\"#TooltipNumbers\">8</c> seconds. ",
+      "name": "Acclimation",
+      "shortText": "Disabling Heroes empowers Mei"
+    },
+    "MeiOWCascade|MeiOWCascade|Heroic|Level20": {
+      "fullText": "While traveling, Avalanche constantly launches a volley of untalented Snow Blind snowballs ahead of itself.<n/><n/><c val=\"#AbilityPassive\">Passive:</c> Reduce the cooldown of Avalanche by <c val=\"#TooltipNumbers\">30</c> seconds.",
+      "name": "Cascade",
+      "shortText": "Avalanche launches Snow Blinds during travel"
+    },
+    "MeiOWShatter|MeiOWShatter|Heroic|Level20": {
+      "fullText": "When Ice Wall expires, trapped enemy Heroes hit take <c val=\"#TooltipNumbers\">210</c><c val=\"#ColorGray\">~~0.04~~</c> damage and have their Armor reduced by <c val=\"#TooltipNumbers\">25</c> for <c val=\"#TooltipNumbers\">5</c> seconds.",
+      "name": "Shatter",
+      "shortText": "Ice Wall damages, reduces Armor"
+    },
+    "MeiOWTheBigOne|MeiOWTheBigOne|Q|Level20": {
+      "fullText": "Every <c val=\"#TooltipNumbers\">15</c> seconds, the next Snow Blind you cast has <c val=\"#TooltipNumbers\">67%</c> increased area and <c val=\"#TooltipNumbers\">200%</c> increased damage. ",
+      "name": "The Big One",
+      "shortText": "Snow Blind is periodically empowered"
+    },
+    "MeiOWFlashFreeze|MeiOWFlashFreeze|Trait|Level20": {
+      "fullText": "When Mei takes fatal damage she instantly gains Cryo-Freeze. This effect has a <c val=\"#TooltipNumbers\">180</c> second cooldown.",
+      "name": "Flash Freeze",
+      "shortText": "Cryo-Freeze activates on fatal damage"
+    }
+  },
+  "units": {}
+}

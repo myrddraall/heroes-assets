@@ -1,0 +1,209 @@
+{
+  "abilities": {
+    "ArthasDeathCoil|ArthasDeathCoil|Q": {
+      "cooldownText": "冷卻時間：9秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：40點</s>",
+      "fullText": "對目標敵人造成<c val=\"#TooltipNumbers\">164</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。<n/><n/>對自己施放時，可恢復<c val=\"#TooltipNumbers\">275</c><c val=\"#ColorGray\">~~0.04~~</c>點生命值。",
+      "name": "死亡纏繞",
+      "shortText": "對一個目標造成傷害，或是治療阿薩斯"
+    },
+    "ArthasHowlingBlast|ArthasHowlingBlast|W": {
+      "cooldownText": "冷卻時間：10秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：50點</s>",
+      "fullText": "使目標範圍內的敵人定身<c val=\"#TooltipNumbers\">1.25</c>秒，並且造成<c val=\"#TooltipNumbers\">68</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。",
+      "name": "凜風衝擊",
+      "shortText": "定身區域內的敵人，並造成傷害"
+    },
+    "ArthasFrozenTempest|ArthasFrozenTempest|E": {
+      "cooldownText": "冷卻時間：1秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：每秒 13 次點</s>",
+      "fullText": "每秒對附近的敵人造成 <c val=\"#TooltipNumbers\">36</c><c val=\"#ColorGray\">~~0.04~~</c> 點傷害，並使其每秒緩速 <c val=\"#TooltipNumbers\">10%</c>，效果最高疊加至 <c val=\"#TooltipNumbers\">40%</c>。被命中的英雄攻擊速度每秒下降 <c val=\"#TooltipNumbers\">10%</c>，效果最高疊加至 <c val=\"#TooltipNumbers\">40%</c>。冰凍風暴的效果會持續 <c val=\"#TooltipNumbers\">1.5</c> 秒。",
+      "name": "冰凍風暴",
+      "shortText": "對附近敵人造成傷害與緩速效果，啟動時持續消耗法力值"
+    },
+    "ArthasArmyOfTheDead|ArthasArmyOfTheDead|Heroic": {
+      "cooldownText": "冷卻時間：18 秒",
+      "fullText": "消耗所有使用次數，召喚同等數量的食屍鬼，這些食屍鬼會在<c val=\"#TooltipNumbers\">20</c>秒內逐漸失去生命值，並造成<c val=\"#TooltipNumbers\">20</c><c val=\"#ColorGray\">~~0.04~~</c>點攻擊傷害。再次觸發此技能，將犧牲一名食屍鬼，為阿薩斯恢復<c val=\"#TooltipNumbers\">240</c><c val=\"#ColorGray\">~~0.04~~</c>點生命值。最多可儲存<c val=\"#TooltipNumbers\">6</c>次使用次數。<n/><n/>每當附近的敵方小兵死亡時，此技能的使用次數冷卻時間降低<c val=\"#TooltipNumbers\">1</c>秒。每擊殺一名英雄，此技能的使用次數冷卻時間降低<c val=\"#TooltipNumbers\">6</c>秒。",
+      "name": "亡靈大軍",
+      "shortText": "召喚食屍鬼一同戰鬥，或是治療阿薩斯"
+    },
+    "ArthasSummonSindragosa|ArthasSummonSindragosa|Heroic": {
+      "cooldownText": "冷卻時間：100秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：100點</s>",
+      "fullText": "造成<c val=\"#TooltipNumbers\">230</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，並且使敵人緩速<c val=\"#TooltipNumbers\">60%</c>，持續<c val=\"#TooltipNumbers\">4</c>秒。同時能使小兵、傭兵、中立怪與建築物凍結<c val=\"#TooltipNumbers\">20</c>秒。",
+      "name": "召喚辛德拉苟莎",
+      "shortText": "癱瘓敵人與建築物"
+    },
+    "ArthasFrostmourneHungers|ArthasFrostmourneHungers|Trait": {
+      "cooldownText": "冷卻時間：12秒",
+      "fullText": "啟動後，阿薩斯會立即發動下一次基本攻擊，額外造成<c val=\"#TooltipNumbers\">71</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，並且在造成傷害後恢復<c val=\"#TooltipNumbers\">40</c>點法力值。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任務：</c>使用霜之哀傷的飢渴擊殺小兵或命中英雄時，其傷害加成永久提高<c val=\"#TooltipNumbers\">3</c>點，阿薩斯的基本攻擊傷害永久提高<c val=\"#TooltipNumbers\">0.75</c>點。",
+      "name": "霜之哀傷的飢渴",
+      "shortText": "啟動後強化下一次的攻擊，並且在命中時恢復法力值"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "冷卻時間：4秒",
+      "fullText": "引導<c val=\"#TooltipNumbers\">1</c>秒後，提高<s val=\"StandardTooltipDetails\">30%</s>移動速度。",
+      "name": "召喚坐騎"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "引導<c val=\"#TooltipNumbers\">6</c>秒後傳送回風暴祭壇，立即恢復<c val=\"#TooltipNumbers\">1125</c>點生命值和<c val=\"#TooltipNumbers\">150</c>點法力值。",
+      "name": "爐石"
+    },
+    "ArthasFrozenTempestCancel|ArthasFrozenTempestDeactive|E": {
+      "cooldownText": "冷卻時間：1秒",
+      "fullText": "取消冰凍風暴技能。",
+      "name": "取消冰凍風暴"
+    },
+    "ArthasArmyOfTheDeadSacrifice|ArthasArmyOfTheDeadSacrifice|Heroic": {
+      "cooldownText": "冷卻時間：2秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：15點</s>",
+      "fullText": "犧牲食屍鬼，讓阿薩斯恢復<c val=\"#TooltipNumbers\">240</c><c val=\"#ColorGray\">~~0.04~~</c>點生命值。",
+      "name": "犧牲",
+      "shortText": "犧牲一個食屍鬼以恢復生命值"
+    },
+    ":PASSIVE:|ArthasFrostmourneHungersPrimed|Trait": {
+      "fullText": "下一次的基本攻擊傷害會額外造成 <c val=\"#TooltipNumbers\">71</c><c val=\"#ColorGray\">~~0.04~~</c> 點傷害。造成傷害時恢復 <c val=\"#TooltipNumbers\">40</c> 點法力值。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任務：</c>使用霜之哀傷的飢渴擊殺小兵或命中英雄時，永久提高其傷害加成與阿薩斯的基本攻擊傷害 <c val=\"#TooltipNumbers\">3</c> 點。",
+      "name": "霜之哀傷的飢渴 - 啟動"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "離開坐騎。",
+      "name": "離開坐騎"
+    },
+    "ArthasIceboundFortitude|ArthasIceboundFortitudeTalent|Active": {
+      "cooldownText": "冷卻時間：35秒",
+      "fullText": "啟動後立即移除所有定身和緩速，可獲得<c val=\"#TooltipNumbers\">25</c>點護甲，並使阿薩斯受到的昏迷、緩速與定身效果持續時間降低<c val=\"#TooltipNumbers\">75%</c>，持續<c val=\"#TooltipNumbers\">3</c>秒。<n/><n/>每當有英雄被凜風衝擊定身，此技能的冷卻時間降低<c val=\"#TooltipNumbers\">2</c>秒。",
+      "name": "冰錮堅韌",
+      "shortText": "啟動後可獲得護甲，並且降低控場效果時間"
+    },
+    "ArthasAntiMagicShell|ArthasAntiMagicShellTalent|Active": {
+      "cooldownText": "冷卻時間：60秒",
+      "fullText": "啟動後，阿薩斯對所有法術傷害免疫，持續<c val=\"#TooltipNumbers\">4</c>秒，並且減免的<c val=\"#TooltipNumbers\">25%</c>傷害會轉化為生命值。",
+      "name": "反魔法護罩",
+      "shortText": "啟動後，免疫所有法術傷害"
+    },
+    "ArthasPathofFrost|ArthasPathofFrost|Active": {
+      "cooldownText": "冷卻時間：60秒",
+      "fullText": "啟動後可立即騎乘，並獲得最低<c val=\"#TooltipNumbers\">140%</c>的移動速度加成。受到傷害時，阿薩斯不會離開此坐騎。持續時間最長為<c val=\"#TooltipNumbers\">5</c>秒。<n/><n/>阿薩斯離開坐騎時，會使附近所有敵人緩速<c val=\"#TooltipNumbers\">30%</c>，持續<c val=\"#TooltipNumbers\">2</c>秒，同時造成<c val=\"#TooltipNumbers\">66</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。",
+      "name": "冰霜之徑",
+      "shortText": "獲得騎乘能力強化，使附近敵人緩速"
+    }
+  },
+  "talents": {
+    "ArthasMasteryFrostPresenceHowlingBlast|ArthasFrostPresenceHowlingBlastTalent|W|Level1": {
+      "fullText": "凜風衝擊的攻擊範圍提升 <c val=\"#TooltipNumbers\">20%</c>。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任務：</c>以凜風衝擊命中敵方英雄。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">獎勵：</c>命中 <c val=\"#TooltipNumbers\">15</c> 名英雄後，凜風衝擊的攻擊範圍提高 <c val=\"#TooltipNumbers\">20%</c>，並會攻擊其路徑上的敵人。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">獎勵：</c>命中 <c val=\"#TooltipNumbers\">30</c> 名英雄時，死亡纏繞會使被命中的敵人緩速 <c val=\"#TooltipNumbers\">50%</c>，持續 <c val=\"#TooltipNumbers\">1.25</c> 秒。",
+      "name": "冰霜領域",
+      "shortText": "<c val=\"#TooltipQuest\">任務：</c>使英雄定身可強化凜風衝擊與死亡纏繞"
+    },
+    "ArthasBoreanWinds|ArthasBoreanWinds|E|Level1": {
+      "fullText": "冰凍風暴持續生效 <c val=\"#TooltipNumbers\">2</c> 秒後，阿薩斯的移動速度提高 <c val=\"#TooltipNumbers\">10%</c>。<n/><n/><c val=\"#AbilityPassive\">被動：</c>冰凍風暴的緩速效果將額外增加 <c val=\"#TooltipNumbers\">0.5</c> 秒，且每秒消耗的法力值降低 <c val=\"#TooltipNumbers\">4</c> 點。",
+      "name": "北風湧動",
+      "shortText": "冰凍風暴可提高移動速度"
+    },
+    "ArthasRime|ArthasRime|Passive|Level1": {
+      "fullText": "每 <c val=\"#TooltipNumbers\">5</c> 秒會獲得 <c val=\"#TooltipNumbers\">75</c> 點物理護甲，使下一次受到的敵方英雄基本攻擊傷害降低 <c val=\"#TooltipNumbers\">75%</c>。最多可累積 <c val=\"#TooltipNumbers\">3</c> 次。<n/><n/><c val=\"#AbilityPassive\">被動：</c>阿薩斯陷入緩速、定身或暈眩狀態時，每秒可恢復 <c val=\"#TooltipNumbers\">24</c><c val=\"#ColorGray\">~~0.04~~</c> 點生命值。",
+      "name": "凝霜",
+      "shortText": "定期獲得物理護甲和生命值"
+    },
+    "ArthasShatteredArmor|ArthasShatteredArmor|W|Level4": {
+      "fullText": "被凜風衝擊擊中的敵人，護甲會降低<c val=\"#TooltipNumbers\">15</c>點，持續<c val=\"#TooltipNumbers\">4</c>秒。",
+      "name": "碎裂護甲",
+      "shortText": "凜風衝擊可降低護甲"
+    },
+    "ArthasIcyTalons|ArthasIcyTalons|E|Level4": {
+      "fullText": "每當冰凍風暴對一名英雄造成傷害，可使攻擊速度提高 <c val=\"#TooltipNumbers\">3%</c>，持續 <c val=\"#TooltipNumbers\">2</c> 秒，最多可提高 <c val=\"#TooltipNumbers\">60%</c>。",
+      "name": "冰結之爪",
+      "shortText": "冰凍風暴可提高攻擊速度"
+    },
+    "ArthasMasteryFrostStrikeFrostmourneHungers|ArthasFrostStrikeFrostmourneHungersTalent|Trait|Level4": {
+      "fullText": "霜之哀傷的飢渴會在範圍內額外造成 <c val=\"#TooltipNumbers\">115</c><c val=\"#ColorGray\">~~0.04~~</c> 點法術傷害，並使被命中的敵方英雄緩速 <c val=\"#TooltipNumbers\">20%</c>，持續 <c val=\"#TooltipNumbers\">2</c> 秒。",
+      "name": "冰霜打擊",
+      "shortText": "霜之哀傷的飢渴會造成範圍傷害，並造成緩速"
+    },
+    "ArthasMasteryImmortalCoilDeathCoil|ArthasImmortalCoilDeathCoilTalent|Q|Level7": {
+      "fullText": "對敵人施放死亡纏繞也可為阿薩斯恢復生命值。若對阿薩斯使用，治療效果會提高 <c val=\"#TooltipNumbers\">75%</c>，其冷卻時間降低 <c val=\"#TooltipNumbers\">3</c> 秒。",
+      "name": "不朽纏繞",
+      "shortText": "對敵人使用也會治療自己"
+    },
+    "ArthasRuneTap|ArthasRuneTapTalent|Passive|Level7": {
+      "fullText": "每 <c val=\"#TooltipNumbers\">3次</c>基本攻擊可為阿薩斯恢復相當於其最大生命值的 <c val=\"#TooltipNumbers\">5%</c>。<n/><n/><c val=\"#AbilityPassive\">被動：</c>每層霜之哀傷的飢渴會使阿薩斯的最大生命值提高 <c val=\"#TooltipNumbers\">10</c> 點。",
+      "name": "符文轉化",
+      "shortText": "連續基本攻擊可恢復生命值，並提高生命值"
+    },
+    "ArthasIceboundFortitude|ArthasIceboundFortitudeTalent|Active|Level7": {
+      "cooldownText": "冷卻時間：35秒",
+      "fullText": "啟動後立即移除所有定身和緩速，可獲得<c val=\"#TooltipNumbers\">25</c>點護甲，並使阿薩斯受到的昏迷、緩速與定身效果持續時間降低<c val=\"#TooltipNumbers\">75%</c>，持續<c val=\"#TooltipNumbers\">3</c>秒。<n/><n/>每當有英雄被凜風衝擊定身，此技能的冷卻時間降低<c val=\"#TooltipNumbers\">2</c>秒。",
+      "name": "冰錮堅韌",
+      "shortText": "啟動後可獲得護甲，並且降低控場效果時間"
+    },
+    "ArthasHeroicAbilityArmyoftheDead|ArthasArmyOfTheDead|Heroic|Level10": {
+      "cooldownText": "冷卻時間：18 秒",
+      "fullText": "消耗所有使用次數，召喚同等數量的食屍鬼，這些食屍鬼會在<c val=\"#TooltipNumbers\">20</c>秒內逐漸失去生命值，並造成<c val=\"#TooltipNumbers\">20</c><c val=\"#ColorGray\">~~0.04~~</c>點攻擊傷害。再次觸發此技能，將犧牲一名食屍鬼，為阿薩斯恢復<c val=\"#TooltipNumbers\">240</c><c val=\"#ColorGray\">~~0.04~~</c>點生命值。最多可儲存<c val=\"#TooltipNumbers\">6</c>次使用次數。<n/><n/>每當附近的敵方小兵死亡時，此技能的使用次數冷卻時間降低<c val=\"#TooltipNumbers\">1</c>秒。每擊殺一名英雄，此技能的使用次數冷卻時間降低<c val=\"#TooltipNumbers\">6</c>秒。",
+      "name": "亡靈大軍",
+      "shortText": "召喚食屍鬼一同戰鬥，或是治療阿薩斯"
+    },
+    "ArthasHeroicAbilitySummonSindragosa|ArthasSummonSindragosa|Heroic|Level10": {
+      "cooldownText": "冷卻時間：100秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：100點</s>",
+      "fullText": "造成<c val=\"#TooltipNumbers\">230</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，並且使敵人緩速<c val=\"#TooltipNumbers\">60%</c>，持續<c val=\"#TooltipNumbers\">4</c>秒。同時能使小兵、傭兵、中立怪與建築物凍結<c val=\"#TooltipNumbers\">20</c>秒。",
+      "name": "召喚辛德拉苟莎",
+      "shortText": "癱瘓敵人與建築物"
+    },
+    "ArthasDeathlord|ArthasDeathlord|Q|Level13": {
+      "fullText": "如果對敵方英雄施放死亡纏繞，將對附近另一名敵方英雄發射額外死亡纏繞。<n/><n/><c val=\"#AbilityPassive\">被動：</c>死亡纏繞造成的傷害會隨阿薩斯目前生命值的降低而提高，最高可額外獲得 <c val=\"#TooltipNumbers\">50%</c> 傷害。",
+      "name": "死亡領主",
+      "shortText": "死亡纏繞額外擊中一名英雄時可提高傷害"
+    },
+    "ArthasDeathchill|ArthasDeathchill|W|Level13": {
+      "fullText": "凜風衝擊的傷害會隨著霜之哀傷的飢渴疊層提高，每一層提高 <c val=\"#TooltipNumbers\">2</c> 點。<n/><n/>當目標英雄的生命值低於 <c val=\"#TooltipNumbers\">50%</c>，凜風衝擊會額外造成 <c val=\"#TooltipNumbers\">100%</c> 的傷害，並使其額外被定身 <c val=\"#TooltipNumbers\">0.25</c> 秒。",
+      "name": "死亡寒顫",
+      "shortText": "提高凜風衝擊的傷害，生命值低落時可造成更多傷害"
+    },
+    "ArthasMasteryBitingColdFrozenTempest|ArthasBitingColdFrozenTempestTalent|E|Level13": {
+      "fullText": "冰凍風暴每秒對敵人造成傷害後，傷害會額外提高<c val=\"#TooltipNumbers\">15%</c>，最多可提高<c val=\"#TooltipNumbers\">75%</c>。",
+      "name": "刺骨之寒",
+      "shortText": "提高冰凍風暴的傷害"
+    },
+    "ArthasMasteryRemorselessWinterFrozenTempest|ArthasRemorselessWinterFrozenTempestTalent|E|Level16": {
+      "fullText": "在冰凍風暴中停留超過 <c val=\"#TooltipNumbers\">2.5</c> 秒的敵方英雄會被定身，持續 <c val=\"#TooltipNumbers\">1.25</c> 秒，並為阿薩斯恢復其最大生命值的 <c val=\"#TooltipNumbers\">3%</c>。此效果對每個目標的冷卻時間為 <c val=\"#TooltipNumbers\">8</c> 秒。",
+      "name": "冷酷凜冬",
+      "shortText": "冰凍風暴可使敵方英雄定身，並治療阿薩斯"
+    },
+    "ArthasMasteryFrostmourneFeedsFrostmourneHungers|ArthasFrostmourneFeedsFrostmourneHungersTalents|Trait|Level16": {
+      "fullText": "降低霜之哀傷的飢渴的冷卻時間 <c val=\"#TooltipNumbers\">6</c> 秒。霜之哀傷的飢渴造成的基本攻擊傷害會使阿薩斯治療 <c val=\"#TooltipNumbers\">75%</c> 的生命值。",
+      "name": "霜之哀傷的食糧",
+      "shortText": "降低霜之哀傷的飢渴的冷卻時間，並治療阿薩斯"
+    },
+    "ArthasAntiMagicShell|ArthasAntiMagicShellTalent|Active|Level16": {
+      "cooldownText": "冷卻時間：60秒",
+      "fullText": "啟動後，阿薩斯對所有法術傷害免疫，持續<c val=\"#TooltipNumbers\">4</c>秒，並且減免的<c val=\"#TooltipNumbers\">25%</c>傷害會轉化為生命值。",
+      "name": "反魔法護罩",
+      "shortText": "啟動後，免疫所有法術傷害"
+    },
+    "ArthasMasteryLegionOfNorthrendArmyoftheDead|ArthasLegionOfNorthrendArmyOfTheDeadTalent|Heroic|Level20": {
+      "fullText": "亡靈大軍的蓄力冷卻時間降低 <c val=\"#TooltipNumbers\">5</c> 秒。<n/><n/>每次消耗一次蓄力值，將額外生成一隻食屍鬼攻擊附近敵人。這些食屍鬼無法被犧牲。",
+      "name": "北裂境軍團",
+      "shortText": "降低亡靈大軍的蓄力冷卻時間，生成更多食屍鬼"
+    },
+    "ArthasMasteryAbsoluteZeroSummonSindragosa|ArthasAbsoluteZeroSummonSindragosaTalent|Heroic|Level20": {
+      "fullText": "辛德拉苟莎的飛行距離加倍。使敵方英雄定身，持續<c val=\"#TooltipNumbers\">2.5</c>秒，並且在定身效果結束後使其緩速<c val=\"#TooltipNumbers\">60%</c>，持續<c val=\"#TooltipNumbers\">4</c>秒。",
+      "name": "絕對零度",
+      "shortText": "提高辛德拉苟莎的飛行距離和控場效果"
+    },
+    "ArthasDeathPact|ArthasDeathPact|Trait|Level20": {
+      "fullText": "立即使霜之哀傷的飢渴的疊加次數翻倍，但此技能不再透過命中英雄或擊殺小兵來累積疊加次數。<n/><n/><c val=\"#AbilityPassive\">被動：</c>擊殺英雄可使霜之哀傷的飢渴的疊層提高 <c val=\"#TooltipNumbers\">2</c> 層。",
+      "name": "死亡契約",
+      "shortText": "霜之哀傷的飢渴疊層翻倍 "
+    },
+    "ArthasPathofFrost|ArthasPathofFrost|Active|Level20": {
+      "cooldownText": "冷卻時間：60秒",
+      "fullText": "啟動後可立即騎乘，並獲得最低<c val=\"#TooltipNumbers\">140%</c>的移動速度加成。受到傷害時，阿薩斯不會離開此坐騎。持續時間最長為<c val=\"#TooltipNumbers\">5</c>秒。<n/><n/>阿薩斯離開坐騎時，會使附近所有敵人緩速<c val=\"#TooltipNumbers\">30%</c>，持續<c val=\"#TooltipNumbers\">2</c>秒，同時造成<c val=\"#TooltipNumbers\">66</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。",
+      "name": "冰霜之徑",
+      "shortText": "獲得騎乘能力強化，使附近敵人緩速"
+    }
+  },
+  "units": {
+    "ArthasArmyOfTheDeadGhoul": {
+      "name": "食屍鬼"
+    }
+  }
+}

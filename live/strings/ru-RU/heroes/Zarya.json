@@ -1,0 +1,191 @@
+{
+  "abilities": {
+    "ZaryaParticleGrenade|ZaryaParticleGrenade|Q": {
+      "cooldownText": "Время восстановления заряда: 8 сек.",
+      "fullText": "Запускает лучевой снаряд, который наносит <c val=\"#TooltipNumbers\">80</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона противникам в указанной области. Строения получают <c val=\"#TooltipNumbers\">50%</c> урона.<n/><n/>Максимум зарядов – <c val=\"#TooltipNumbers\">4</c>.",
+      "name": "Лучевая граната",
+      "shortText": "Наносит противникам урон в небольшой области."
+    },
+    "ZaryaPersonalBarrier|ZaryaPersonalBarrier|W": {
+      "cooldownText": "Время восстановления: 10 сек.",
+      "fullText": "Укрывает себя щитом, который поглощает <c val=\"#TooltipNumbers\">560</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона и действует в течение <c val=\"#TooltipNumbers\">3</c> сек.",
+      "name": "Защитный барьер",
+      "shortText": "Окружает себя барьером, поглощающим урон."
+    },
+    "ZaryaShieldAlly|ZaryaShieldAlly|E": {
+      "cooldownText": "Время восстановления: 12 сек.",
+      "fullText": "Укрывает дружественного героя щитом, который поглощает <c val=\"#TooltipNumbers\">420</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона и действует в течение <c val=\"#TooltipNumbers\">3</c> сек.",
+      "name": "Дистанционный барьер",
+      "shortText": "Окружает союзника щитом, поглощающим урон."
+    },
+    "ZaryaGravitonSurge|ZaryaGravitonSurge|Heroic": {
+      "cooldownText": "Время восстановления: 60 сек.",
+      "fullText": "Запускает гравитонную бомбу, которая спустя <c val=\"#TooltipNumbers\">1</c> сек. взрывается и в течение <c val=\"#TooltipNumbers\">2,5</c> сек. притягивает вражеских героев к центру взрыва, нанося им <c val=\"#TooltipNumbers\">30</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона в сек.",
+      "name": "Гравитонный импульс",
+      "shortText": "Запускает гравитонную бомбу, которая притягивает противников к себе."
+    },
+    "ZaryaExpulsionZone|ZaryaExpulsionZone|Heroic": {
+      "cooldownText": "Время восстановления: 45 сек.",
+      "fullText": "Запускает гравитонную бомбу, которая наносит <c val=\"#TooltipNumbers\">124</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона и создает зону отчуждения, существующую в течение <c val=\"#TooltipNumbers\">3.5</c> сек. Противники, вошедшие в эту зону, отбрасываются, а их скорость передвижения снижается на <c val=\"#TooltipNumbers\">50%</c> на <c val=\"#TooltipNumbers\">1</c> сек.",
+      "name": "Зона отчуждения",
+      "shortText": "Запускает бомбу, которая отталкивает противников."
+    },
+    ":PASSIVE:|ZaryaEnergy|Trait": {
+      "fullText": "Запас энергии Зари увеличивается на <c val=\"#TooltipNumbers\">1</c> ед. за каждые <c val=\"#TooltipNumbers\">9</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона, поглощенного «Защитным барьером» и «Дистанционным барьером». Урон, наносимый Зарей, увеличивается на <c val=\"#TooltipNumbers\">2%</c> за каждую единицу энергии. Спустя <c val=\"#TooltipNumbers\">0.5</c> сек. накопленная энергия начинает убывать со скоростью <c val=\"#TooltipNumbers\">3</c> ед. в секунду.",
+      "name": "Энергия",
+      "shortText": "Урон, поглощаемый барьерами Зари, увеличивает наносимый ею урон."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Время восстановления: 4 сек.",
+      "fullText": "После подготовки длительностью <c val=\"#TooltipNumbers\">1</c> сек. повышает скорость передвижения на <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Вызов транспорта"
+    },
+    "Hearthstone|HearthstoneNoMana|B": {
+      "fullText": "После поддержания в течение <c val=\"#TooltipNumbers\">6</c> сек. телепортирует героя в Зал Штормов, моментально восполняя <c val=\"#TooltipNumbers\">1125</c> ед. здоровья.",
+      "name": "Возвращение"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Покинуть транспорт.",
+      "name": "Отмена транспорта"
+    },
+    "ZaryaPainIsTemporary|ZaryaPainIsTemporaryTalent|Active": {
+      "cooldownText": "Время восстановления: 30 сек.",
+      "fullText": "При активации расходует весь запас энергии и дает барьер, поглощающий урон в объеме <c val=\"#TooltipNumbers\">0,8%</c> максимального запаса здоровья Зари за каждую израсходованную единицу энергии. Время действия – <c val=\"#TooltipNumbers\">3</c> сек. Одновременно на Зарю может действовать только один барьер.",
+      "name": "Боль – это иллюзия",
+      "shortText": "Расходует энергию и создает щит."
+    },
+    "ZaryaUnyieldingDefender|ZaryaUnyieldingDefenderTalent|Active": {
+      "cooldownText": "Время восстановления: 60 сек.",
+      "fullText": "При использовании обнуляет время восстановления способностей «Защитный барьер» и «Дистанционный барьер».",
+      "name": "Стойкая защитница",
+      "shortText": "Обнуляет время восстановления барьеров."
+    }
+  },
+  "talents": {
+    "ZaryaParticleGrenadeDemolitionsExpertQuest|ZaryaParticleGrenadeDemolitionsExpertTalent|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Задача:</c> заряды «Лучевой гранаты» восстанавливаются на <c val=\"#TooltipNumbers\">0.4375</c> сек. быстрее за каждые <c val=\"#TooltipNumbers\">5</c> попаданий этой способностью по героям, но не более чем на <c val=\"#TooltipNumbers\">3.5</c> сек. в целом.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Награда:</c> когда «Лучевая граната» поразит героев <c val=\"#TooltipNumbers\">40</c> <lang rule=\"plural\" val=\"\">раз,раза,раз</lang>, радиус ее области поражения увеличится на <c val=\"#TooltipNumbers\">15%</c>.",
+      "name": "Эксперт-подрывник",
+      "shortText": "<c val=\"#TooltipQuest\">Задача:</c> увеличьте область поражения и ускорьте восстановление «Лучевой гранаты»."
+    },
+    "ZaryaShieldAllyTogetherWeAreStrong|ZaryaShieldAllyTogetherWeAreStrongTalent|E|Level1": {
+      "fullText": "Заря получает <c val=\"#TooltipNumbers\">1</c> ед. энергии за каждые <c val=\"#TooltipNumbers\">5.35</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона, нанесенного союзником в течение <c val=\"#TooltipNumbers\">3</c> сек. после того, как его укрыл «Дистанционный барьер», вплоть до <c val=\"#TooltipNumbers\">40</c> ед. за каждый барьер.",
+      "name": "Вместе мы сила!",
+      "shortText": "Урон, наносимый союзниками с «Дистанционным барьером», дает Заре энергию."
+    },
+    "ZaryaWeaponFeelTheHeat|ZaryaWeaponFeelTheHeatTalent|Trait|Level1": {
+      "fullText": "Автоатаки Зари наносят на <c val=\"#TooltipNumbers\">50%</c> больше урона противникам, находящимся на расстоянии ближнего боя. Пока у Зари остается больше <c val=\"#TooltipNumbers\">40</c> ед. энергии, область поражения ее автоатак увеличивается на <c val=\"#TooltipNumbers\">35%</c>.",
+      "name": "Зададим жару!",
+      "shortText": "Автоатаки наносят больше урона ближайшим противникам. Область поражения увеличена."
+    },
+    "ZaryaEnergyMaximumChargeQuest|ZaryaEnergyMaximumChargeTalent|Trait|Level1": {
+      "fullText": "Сферы регенерации мгновенно дают <c val=\"#TooltipNumbers\">20</c> ед. энергии.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Задача:</c> в течение как минимум <c val=\"#TooltipNumbers\">150</c> сек. поддерживайте запас энергии на уровне не ниже <c val=\"#TooltipNumbers\">50</c> ед.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Награда:</c> максимальный запас энергии увеличится на <c val=\"#TooltipNumbers\">20</c> ед.",
+      "name": "Максимальный заряд",
+      "shortText": "Сферы регенерации дают энергию.<n/><c val=\"#TooltipQuest\">Задача:</c> увеличьте максимальный запас энергии."
+    },
+    "ZaryaPersonalBarrierIAmTheStrongest|ZaryaPersonalBarrierIAmTheStrongestTalent|W|Level4": {
+      "fullText": "«Защитный барьер» поглощает на <c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c> ед. больше урона. <n/><n/><c val=\"#AbilityPassive\">Пассивный эффект: </c>Урон, поглощаемый барьерами Зари, дает на <c val=\"#TooltipNumbers\">20%</c> больше энергии. ",
+      "name": "Самая сильная",
+      "shortText": "Увеличивает объем урона, поглощаемого «Защитным барьером», и количество получаемой энергии."
+    },
+    "ZaryaShieldAllyGiveMeTwentyQuest|ZaryaShieldAllyGiveMeTwentyTalent|E|Level4": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Задача:</c> сферы регенерации до конца матча увеличивают запас прочности «Дистанционного барьера» на <c val=\"#TooltipNumbers\">15</c> ед., вплоть до <c val=\"#TooltipNumbers\">300</c> ед. <n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Награда:</c> после подбора <c val=\"#TooltipNumbers\">20</c> сфер время восстановления «Дистанционного барьера» сократится на <c val=\"#TooltipNumbers\">2</c> сек. до конца матча.",
+      "name": "Упал-отжался!",
+      "shortText": "<c val=\"#TooltipQuest\">Задача:</c> увеличьте прочность и ускорьте восстановление «Дистанционного барьера»."
+    },
+    "ZaryaShieldAllySpeedBarrier|ZaryaShieldAllySpeedBarrierTalent|E|Level4": {
+      "fullText": "«Дистанционный барьер» повышает скорость передвижения союзного героя на <c val=\"#TooltipNumbers\">50%</c> на все время своего действия.",
+      "name": "Ускоряющий барьер",
+      "shortText": "«Дистанционный барьер» повышает скорость передвижения."
+    },
+    "ZaryaDefensiveShielding|ZaryaDefensiveShieldingTalent|Passive|Level4": {
+      "fullText": "По истечении времени действия или при уничтожении «Защитный барьер» и «Дистанционный барьер» дают <c val=\"#TooltipNumbers\">75</c> ед. кинетической брони. Эта броня уменьшает урон от <c val=\"#TooltipNumbers\">2</c> следующих автоатак вражеских героев в течение <c val=\"#TooltipNumbers\">6</c> сек. на <c val=\"#TooltipNumbers\">75%</c>.",
+      "name": "Непробиваемая защита",
+      "shortText": "«Защитный барьер» и «Дистанционный барьер» дают кинетическую броню."
+    },
+    "ZaryaParticleGrenadePinpointAccuracy|ZaryaParticleGrenadePinpointAccuracyTalent|Q|Level7": {
+      "fullText": "«Лучевая граната» наносит на <c val=\"#TooltipNumbers\">25</c><c val=\"#ColorGray\">~~0.04~~</c> ед. больше урона и снижает скорость передвижения противников в центре области поражения на <c val=\"#TooltipNumbers\">25%</c> на <c val=\"#TooltipNumbers\">2</c> сек.",
+      "name": "Ювелирная точность",
+      "shortText": "«Лучевая граната» наносит больше урона в эпицентре поражения и замедляет цели."
+    },
+    "ZaryaDeepBurn|ZaryaDeepBurn|Q|Level7": {
+      "fullText": "Автоатаки, направленные против героя, пораженного «Лучевой гранатой», дают <c val=\"#TooltipNumbers\">2</c> ед. энергии. Время действия — <c val=\"#TooltipNumbers\">4</c> сек.",
+      "name": "Глубокий ожог",
+      "shortText": "«Лучевая граната» позволяет накапливать энергию."
+    },
+    "ZaryaPersonalBarrierExplosiveBarrier|ZaryaPersonalBarrierExplosiveBarrierTalent|W|Level7": {
+      "fullText": "По истечении времени действия или при уничтожении «Защитный барьер» взрывается, нанося <c val=\"#TooltipNumbers\">110</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона находящимся рядом противникам.",
+      "name": "Взрывной барьер",
+      "shortText": "«Защитный барьер» наносит урон по области."
+    },
+    "ZaryaHeroicAbilityGravitonSurge|ZaryaGravitonSurge|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 60 сек.",
+      "fullText": "Запускает гравитонную бомбу, которая спустя <c val=\"#TooltipNumbers\">1</c> сек. взрывается и в течение <c val=\"#TooltipNumbers\">2,5</c> сек. притягивает вражеских героев к центру взрыва, нанося им <c val=\"#TooltipNumbers\">30</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона в сек.",
+      "name": "Гравитонный импульс",
+      "shortText": "Запускает гравитонную бомбу, которая притягивает противников к себе."
+    },
+    "ZaryaHeroicAbilityExpulsionZone|ZaryaExpulsionZone|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 45 сек.",
+      "fullText": "Запускает гравитонную бомбу, которая наносит <c val=\"#TooltipNumbers\">124</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона и создает зону отчуждения, существующую в течение <c val=\"#TooltipNumbers\">3.5</c> сек. Противники, вошедшие в эту зону, отбрасываются, а их скорость передвижения снижается на <c val=\"#TooltipNumbers\">50%</c> на <c val=\"#TooltipNumbers\">1</c> сек.",
+      "name": "Зона отчуждения",
+      "shortText": "Запускает бомбу, которая отталкивает противников."
+    },
+    "ZaryaPersonalBarrierUnstoppableCompetitor|ZaryaPersonalBarrierUnstoppableCompetitorTalent|W|Level13": {
+      "fullText": "«Защитный барьер» делает Зарю неудержимой. Время действия – до <c val=\"#TooltipNumbers\">2</c> сек.",
+      "name": "Неудержимая сила",
+      "shortText": "«Защитный барьер» делает Зарю неудержимой."
+    },
+    "ZaryaPersonalBarrierSpellBarrier|ZaryaPersonalBarrierSpellBarrierTalent|W|Level13": {
+      "fullText": "По истечении времени действия «Защитного барьера» или при его уничтожении Заря получает <c val=\"#TooltipNumbers\">75</c> ед. энергетической брони. Эта броня уменьшает получаемый урон от способностей на <c val=\"#TooltipNumbers\">75%</c> в течение <c val=\"#TooltipNumbers\">3</c> сек.",
+      "name": "Энергетический барьер",
+      "shortText": "«Защитный барьер» дает энергетическую броню."
+    },
+    "ZaryaEnergyEnduranceTraining|ZaryaEnergyEnduranceTrainingTalent|Trait|Level13": {
+      "fullText": "Пока у Зари не менее <c val=\"#TooltipNumbers\">75</c> ед. энергии, она получает <c val=\"#TooltipNumbers\">20</c> ед. брони, снижающей получаемый урон на <c val=\"#TooltipNumbers\">20%</c>.",
+      "name": "Тренировка выносливости",
+      "shortText": "Дает броню при высоком уровне энергии."
+    },
+    "ZaryaPainIsTemporary|ZaryaPainIsTemporaryTalent|Active|Level13": {
+      "cooldownText": "Время восстановления: 30 сек.",
+      "fullText": "При активации расходует весь запас энергии и дает барьер, поглощающий урон в объеме <c val=\"#TooltipNumbers\">0,8%</c> максимального запаса здоровья Зари за каждую израсходованную единицу энергии. Время действия – <c val=\"#TooltipNumbers\">3</c> сек. Одновременно на Зарю может действовать только один барьер.",
+      "name": "Боль – это иллюзия",
+      "shortText": "Расходует энергию и создает щит."
+    },
+    "ZaryaShieldAllyCleansingShield|ZaryaShieldAllyCleansingShieldTalent|E|Level16": {
+      "fullText": "Уменьшает время восстановления «Дистанционного барьера» на <c val=\"#TooltipNumbers\">3</c> сек. и позволяет этой способности снимать с цели эффекты контроля.",
+      "name": "Очищающий барьер",
+      "shortText": "«Дистанционный барьер» снимает все эффекты контроля."
+    },
+    "ZaryaShieldAllyGainTrain|ZaryaShieldAllyGainTrainTalent|E|Level16": {
+      "fullText": "При попадании по активному «Дистанционному барьеру» другой находящийся рядом союзник также получает базовый вариант щита от этой способности.",
+      "name": "Ты вообще качаешься?",
+      "shortText": "«Дистанционный барьер» защищает дополнительного союзника."
+    },
+    "ZaryaEnergyBornInBattle|ZaryaEnergyBornInBattleTalent|Trait|Level16": {
+      "fullText": "Когда Заря накапливает не менее <c val=\"#TooltipNumbers\">75</c> ед. энергии, ее способности восстанавливаются на <c val=\"#TooltipNumbers\">25%</c> быстрее.",
+      "name": "Рождена для битвы",
+      "shortText": "Способности восстанавливаются быстрее, когда у Зари много энергии."
+    },
+    "ZaryaGravitonSurgeGravityKills|ZaryaGravitonSurgeGravityKillsTalent|Heroic|Level20": {
+      "fullText": "Увеличивает время действия «Гравитонного импульса» на <c val=\"#TooltipNumbers\">1</c> сек. и поражает эффектом немоты героев в области действия.",
+      "name": "Бессердечная гравитация",
+      "shortText": "«Гравитонный импульс» действует дольше и поражает эффектом немоты."
+    },
+    "ZaryaExpulsionZoneClearOut|ZaryaExpulsionZoneClearOutTalent|Heroic|Level20": {
+      "fullText": "Уменьшает время восстановления «Зоны отчуждения» на <c val=\"#TooltipNumbers\">25</c> сек. и увеличивает ее время действия на <c val=\"#TooltipNumbers\">1.5</c> сек.",
+      "name": "Расчистка местности",
+      "shortText": "Ускоряет восстановление и продлевает действие «Зоны отчуждения»."
+    },
+    "ZaryaParticleGrenadeGrenadier|ZaryaParticleGrenadeGrenadierTalent|Q|Level20": {
+      "fullText": "Все заряды «Лучевой гранаты» восстанавливаются одновременно.",
+      "name": "Гренадер",
+      "shortText": "Все заряды «Лучевой гранаты» восстанавливаются одновременно."
+    },
+    "ZaryaUnyieldingDefender|ZaryaUnyieldingDefenderTalent|Active|Level20": {
+      "cooldownText": "Время восстановления: 60 сек.",
+      "fullText": "При использовании обнуляет время восстановления способностей «Защитный барьер» и «Дистанционный барьер».",
+      "name": "Стойкая защитница",
+      "shortText": "Обнуляет время восстановления барьеров."
+    }
+  },
+  "units": {}
+}

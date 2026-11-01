@@ -1,0 +1,200 @@
+{
+  "abilities": {
+    "KerriganRavage|KerriganRavage|Q": {
+      "cooldownText": "충전 대기시간: 8초",
+      "energyText": "<s val=\"StandardTooltipDetails\">마나: 20</s>",
+      "fullText": "대상을 향해 도약하여 <c val=\"#TooltipNumbers\">115</c><c val=\"#ColorGray\">~~0.04~~</c>의 피해를 줍니다. 대상이 <c val=\"#TooltipNumbers\">0.75</c>초 안에 죽으면 강습이 즉시 <c val=\"#TooltipNumbers\">1</c>회 충전되고 <c val=\"#TooltipNumbers\">20</c>의 마나를 돌려받습니다.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">퀘스트:</c> 가까운 거리 내의 적을 처치해야 합니다. 적 돌격병은 <c val=\"#TooltipNumbers\">1</c>회, 적 영웅은 <c val=\"#TooltipNumbers\">7</c>회 중첩됩니다. <n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">보상:</c> <c val=\"#TooltipNumbers\">100</c>중첩 이상 획득하면, 강습이 <c val=\"#TooltipNumbers\">125</c>의 추가 피해를 주고, 영웅 처치 시 중첩을 <c val=\"#TooltipNumbers\">14</c>회 제공합니다.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">신화 보상:</c> <c val=\"#TooltipNumbers\">250</c>중첩 이상 획득하면 강습이 추가로 <c val=\"#TooltipNumbers\">200</c>의 추가 피해를 줍니다.",
+      "name": "강습",
+      "shortText": "대상을 향해 도약하여 피해를 줌"
+    },
+    "KerriganImpalingBlades|KerriganImpalingBlades|W": {
+      "cooldownText": "재사용 대기시간: 9초",
+      "energyText": "<s val=\"StandardTooltipDetails\">마나: 80</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">1.25</c>초 후, 대상 지역 안의 적들에게 <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c>의 피해를 주고 <c val=\"#TooltipNumbers\">0.75</c>초 동안 기절시킵니다.",
+      "name": "칼날 관통",
+      "shortText": "일정 지역 안의 적들에게 피해를 주고 기절시킴"
+    },
+    "KerriganPrimalGrasp|KerriganPrimalGrasp|E": {
+      "cooldownText": "재사용 대기시간: 8초",
+      "energyText": "<s val=\"StandardTooltipDetails\">마나: 65</s>",
+      "fullText": "대상 지역 안의 적들을 자신에게 잡아당기고 <c val=\"#TooltipNumbers\">40</c><c val=\"#ColorGray\">~~0.04~~</c>의 피해를 줍니다. <c val=\"#TooltipNumbers\">2.5</c>초 후, 주위 적들에게 <c val=\"#TooltipNumbers\">160</c><c val=\"#ColorGray\">~~0.04~~</c>의 피해를 줍니다.",
+      "name": "원시 손아귀",
+      "shortText": "대상 지역 안의 적들을 끌어당기고 피해를 줌"
+    },
+    "KerriganSummonUltralisk|KerriganSummonUltralisk|Heroic": {
+      "cooldownText": "재사용 대기시간: 80초",
+      "energyText": "<s val=\"StandardTooltipDetails\">마나: 75</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">0.5</c>초 후, 전방으로 돌진하는 울트라리스크를 소환합니다. 울트라리스크는 처음 적중하는 적 영웅에게 <c val=\"#TooltipNumbers\">225</c><c val=\"#ColorGray\">~~0.04~~</c>의 피해를 주고 <c val=\"#TooltipNumbers\">0.5</c>초 동안 기절시킵니다.<n/><n/>울트라리스크의 일반 공격은 대상 주위 적들에게 <c val=\"#TooltipNumbers\">50%</c>의 방사 피해를 줍니다. 기술을 다시 사용해서 울트라리스크의 대상을 바꿀 수 있습니다.",
+      "name": "울트라리스크 소환",
+      "shortText": "조종 가능한 울트라리스크 소환"
+    },
+    "KerriganMaelstrom|KerriganMaelstrom|Heroic": {
+      "cooldownText": "재사용 대기시간: 90초",
+      "energyText": "<s val=\"StandardTooltipDetails\">마나: 80</s>",
+      "fullText": "주위 적들에게 초당 <c val=\"#TooltipNumbers\">74</c><c val=\"#ColorGray\">~~0.04~~</c>의 피해를 줍니다. <c val=\"#TooltipNumbers\">7</c>초 동안 지속됩니다.",
+      "name": "혼돈의 폭풍",
+      "shortText": "주위 적들에게 지속 피해"
+    },
+    ":PASSIVE:|KerriganAssimilation|Trait": {
+      "fullText": "적에게 기술로 준 피해의 <c val=\"#TooltipNumbers\">10%</c>와 일반 공격으로 준 피해의 <c val=\"#TooltipNumbers\">20%</c>가 보호막으로 전환됩니다. 보호막은 <c val=\"#TooltipNumbers\">6</c>초 동안 유지됩니다. 영웅에게 피해를 주면 보호막으로 전환되는 양이 두 배가 됩니다.<n/><n/><c val=\"ffff8a\">현재 최댓값: </c><c val=\"#TooltipNumbers\">1004</c><c val=\"#ColorGray\">~~0.04~~</c>",
+      "name": "동화 작용",
+      "shortText": "적에게 피해를 주면 일시적으로 보호막 획득"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "재사용 대기시간: 4초",
+      "fullText": "<c val=\"#TooltipNumbers\">1</c>초 동안 정신을 집중한 후, 이동 속도가 <s val=\"StandardTooltipDetails\">30%</s> 증가합니다.",
+      "name": "탈것 소환"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "<c val=\"#TooltipNumbers\">6</c>초 동안 정신을 집중한 후, 폭풍의 전당으로 귀환하여 즉시 <c val=\"#TooltipNumbers\">1125</c>의 생명력과 <c val=\"#TooltipNumbers\">150</c>의 마나를 회복합니다.",
+      "name": "귀환석"
+    },
+    "KerriganSummonUltraliskIssueOrder|KerriganUltraliskIssueAttackOrder|Heroic": {
+      "fullText": "울트라리스크에게 명령을 내려, 적을 공격하거나 대상 지점으로 이동하게 합니다.",
+      "name": "울트라리스크 명령 내리기"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "탈것에서 내립니다.",
+      "name": "탈것 소환 해제"
+    },
+    "KerriganChrysalisCancel|KerriganCancelChrysalis|Active": {
+      "cooldownText": "재사용 대기시간: 90초",
+      "fullText": "<s val=\"StandardTooltip\">번데기를 취소해 정지 효과를 제거합니다.</s>",
+      "name": "번데기 취소"
+    },
+    "KerriganChrysalis|KerriganChrysalis|Active": {
+      "cooldownText": "재사용 대기시간: 90초",
+      "fullText": "사용하면 생명력이 <c val=\"#TooltipNumbers\">650</c><c val=\"#ColorGray\">~~0.04~~</c>인 번데기로 자신을 <c val=\"#TooltipNumbers\">5</c>초 동안 감쌉니다. 번데기 내부에 있는 동안 매초 최대 생명력의 <c val=\"#TooltipNumbers\">4%</c>를 회복합니다.<n/><n/>적은 고치를 공격하여 효과를 일찍 끝낼 수 있습니다.",
+      "name": "번데기",
+      "shortText": "사용 시 정지 및 생명력 회복"
+    },
+    "KerriganPsionicShift|KerriganPsionicShift|Active": {
+      "cooldownText": "재사용 대기시간: 70초",
+      "fullText": "사용하면 가까운 목표 위치로 순간이동한 후 주위 적들에게 <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c>의 피해를 줍니다. 준 피해의 <c val=\"#TooltipNumbers\">300%</c>만큼 동화 작용 보호막을 얻습니다.",
+      "name": "사이오닉 돌진",
+      "shortText": "사용 시 짧은 거리 순간이동 및 피해를 줌"
+    }
+  },
+  "talents": {
+    "KerriganRavageSiphoningImpact|KerriganRavageSiphoningImpact|Q|Level1": {
+      "fullText": "강습이 적 영웅에게 적중하면 <c val=\"#TooltipNumbers\">100</c><c val=\"#ColorGray\">~~0.04~~</c>의 피해를 흡수하는 동화 작용 보호막을 얻습니다.",
+      "name": "흡수의 일격",
+      "shortText": "강습으로 동화 작용 보호막 획득"
+    },
+    "KerriganAssimilationMastery|KerriganAssimilationMasteryTalent|Trait|Level1": {
+      "fullText": "재생의 구슬을 획득하면 지속 시간 동안 <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c>의 피해를 흡수하는 동화 작용 보호막을 매초 얻습니다. 동화 작용이 활성화된 동안 생명력 및 마나 재생량이 <c val=\"#TooltipNumbers\">150%</c> 증가합니다.",
+      "name": "동화 작용 전문화",
+      "shortText": "재생의 구슬 획득 시 보호막 획득 및 동화 작용 활성화 시 생명력 및 마나 재생량 증가"
+    },
+    "KerriganFuryOfTheSwarm|KerriganAssimilationFuryOfTheSwarmTalent|Passive|Level1": {
+      "fullText": "강습을 사용한 후 <c val=\"#TooltipNumbers\">3</c>초 이내의 다음 일반 공격이 대상 주위에 <c val=\"#TooltipNumbers\">100%</c>의 방사 피해를 줍니다.",
+      "name": "군단의 분노",
+      "shortText": "강습을 사용하면 일반 공격 시 방사 피해"
+    },
+    "KerriganRavageRavagingFerocity|KerriganRavageRavagingFerocity|Q|Level4": {
+      "fullText": "강습 사용 시 <c val=\"#TooltipNumbers\">3</c>초 동안 공격 속도가 <c val=\"#TooltipNumbers\">25%</c> 증가합니다.",
+      "name": "흉포한 강습",
+      "shortText": "강습 사용 시 공격 속도 증가"
+    },
+    "KerriganImpalingBladesKineticFulmination|KerriganImpalingBladesKineticFulmination|W|Level4": {
+      "fullText": "적을 공격할 때마다 <c val=\"#TooltipNumbers\">10</c>초 이내의 다음 칼날 관통의 공격력이 <c val=\"#TooltipNumbers\">10%</c> 증가하여 최대 <c val=\"#TooltipNumbers\">100%</c> 증가합니다.",
+      "name": "칼날 폭발",
+      "shortText": "적 공격 시 다음 칼날 관통 공격력 증가"
+    },
+    "KerriganPrimalGraspPsionicPulse|KerriganPrimalGraspPsionicPulse|E|Level4": {
+      "fullText": "원시 손아귀가 처음 폭발하고 <c val=\"#TooltipNumbers\">2</c>초 후 한 번 더 폭발합니다.",
+      "name": "사이오닉 파동",
+      "shortText": "원시 손아귀가 두 번 폭발"
+    },
+    "KerriganRavageQueenOfBlades|KerriganRavageQueenOfBlades|Q|Level7": {
+      "fullText": "강습의 재사용 대기시간이 <c val=\"#TooltipNumbers\">4</c>초 감소하고 강습으로 돌격병과 용병에게 주는 피해가 <c val=\"#TooltipNumbers\">100%</c> 증가합니다.",
+      "name": "칼날 여왕",
+      "shortText": "강습으로 돌격병과 용병에게 추가 피해"
+    },
+    "KerriganRavageBoundlessFury|KerriganRavageBoundlessFury|Q|Level7": {
+      "fullText": "강습이 적 영웅에게 적중하면 강습이 1회 충전됩니다. 같은 적 영웅에게 <c val=\"#TooltipNumbers\">12</c>초에 1번씩만 발동합니다.",
+      "name": "무한한 분노",
+      "shortText": "강습 적 영웅 적중 시 강습 충전 가능"
+    },
+    "KerriganBladedMomentum|KerriganBladedMomentum|Passive|Level7": {
+      "fullText": "적 영웅에게 일반 공격을 할 때마다 일반 기술의 재사용 대기시간이 <c val=\"#TooltipNumbers\">0.75</c>초 감소합니다.",
+      "name": "칼날 여왕의 여세",
+      "shortText": "적 영웅 공격 시 기술 재사용 대기시간 감소"
+    },
+    "KerriganHeroicAbilityMaelstrom|KerriganMaelstrom|Heroic|Level10": {
+      "cooldownText": "재사용 대기시간: 90초",
+      "energyText": "<s val=\"StandardTooltipDetails\">마나: 80</s>",
+      "fullText": "주위 적들에게 초당 <c val=\"#TooltipNumbers\">74</c><c val=\"#ColorGray\">~~0.04~~</c>의 피해를 줍니다. <c val=\"#TooltipNumbers\">7</c>초 동안 지속됩니다.",
+      "name": "혼돈의 폭풍",
+      "shortText": "주위 적들에게 지속 피해"
+    },
+    "KerriganHeroicAbilitySummonUltralisk|KerriganSummonUltralisk|Heroic|Level10": {
+      "cooldownText": "재사용 대기시간: 80초",
+      "energyText": "<s val=\"StandardTooltipDetails\">마나: 75</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">0.5</c>초 후, 전방으로 돌진하는 울트라리스크를 소환합니다. 울트라리스크는 처음 적중하는 적 영웅에게 <c val=\"#TooltipNumbers\">225</c><c val=\"#ColorGray\">~~0.04~~</c>의 피해를 주고 <c val=\"#TooltipNumbers\">0.5</c>초 동안 기절시킵니다.<n/><n/>울트라리스크의 일반 공격은 대상 주위 적들에게 <c val=\"#TooltipNumbers\">50%</c>의 방사 피해를 줍니다. 기술을 다시 사용해서 울트라리스크의 대상을 바꿀 수 있습니다.",
+      "name": "울트라리스크 소환",
+      "shortText": "조종 가능한 울트라리스크 소환"
+    },
+    "KerriganPrimalGraspPsionicBarrier|KerriganPrimalGraspPsionicBarrier|E|Level13": {
+      "fullText": "원시 손아귀가 적중한 적 영웅 하나당 기술 방어력이 <c val=\"#TooltipNumbers\">20</c> 증가하고, 이동 속도가 <c val=\"#TooltipNumbers\">4%</c> 증가하여 최대 <c val=\"#TooltipNumbers\">20%</c> 증가합니다. <c val=\"#TooltipNumbers\">4</c>초 동안 지속됩니다.",
+      "name": "사이오닉 방벽",
+      "shortText": "원시 손아귀가 기술 방어력 및 이동 속도 증가"
+    },
+    "KerriganAssimilationVolatilePower|KerriganAssimilationVolatilePower|Trait|Level13": {
+      "fullText": "동화 작용으로 얻는 보호막이 추가로 <c val=\"#TooltipNumbers\">10%</c> 증가하지만 동화 작용의 지속 시간이 <c val=\"#TooltipNumbers\">3</c>초 감소합니다.",
+      "name": "불안정한 힘",
+      "shortText": "동화 작용 보호막이 증가하지만 지속 시간 감소"
+    },
+    "KerriganChrysalis|KerriganChrysalis|Active|Level13": {
+      "cooldownText": "재사용 대기시간: 90초",
+      "fullText": "사용하면 생명력이 <c val=\"#TooltipNumbers\">650</c><c val=\"#ColorGray\">~~0.04~~</c>인 번데기로 자신을 <c val=\"#TooltipNumbers\">5</c>초 동안 감쌉니다. 번데기 내부에 있는 동안 매초 최대 생명력의 <c val=\"#TooltipNumbers\">4%</c>를 회복합니다.<n/><n/>적은 고치를 공격하여 효과를 일찍 끝낼 수 있습니다.",
+      "name": "번데기",
+      "shortText": "사용 시 정지 및 생명력 회복"
+    },
+    "KerriganRavageMountingPotency|KerriganRavageMountingPotency|Q|Level16": {
+      "fullText": "강습이 적에게 적중하면 기술 위력이 <c val=\"#TooltipNumbers\">5</c>초 동안 <c val=\"#TooltipNumbers\">5%</c> 증가하여 최대 <c val=\"#TooltipNumbers\">40%</c> 증가합니다.",
+      "name": "뚜렷한 잠재력",
+      "shortText": "강습 적중 시 기술 위력 증가"
+    },
+    "KerriganImpalingBladesPainfulSpikes|KerriganImpalingBladesPainfulSpikes|W|Level16": {
+      "fullText": "칼날 관통이 적중한 적에게 자신이 주는 모든 피해가 <c val=\"#TooltipNumbers\">5</c>초 동안 <c val=\"#TooltipNumbers\">60</c><c val=\"#ColorGray\">~~0.04~~</c>의 추가 피해를 줍니다. 최대 <c val=\"#TooltipNumbers\">6</c>회의 공격에 적용됩니다.",
+      "name": "고통스러운 가시",
+      "shortText": "칼날 관통 적중 시 추가 피해 가능"
+    },
+    "KerriganUnbridledEnergy|KerriganUnbridledEnergy|Heroic|Level16": {
+      "fullText": "궁극기로 적 영웅에게 피해를 주면 기술 위력이 <c val=\"#TooltipNumbers\">4</c>초 동안 <c val=\"#TooltipNumbers\">35%</c> 증가합니다.",
+      "name": "에너지 폭주",
+      "shortText": "궁극기로 적 공격 시 기술 위력 증가"
+    },
+    "KerriganOmegastormMaelstrom|KerriganMaelstromOmegastormTalent|Heroic|Level20": {
+      "fullText": "혼돈의 폭풍이 적 영웅에게 적중할 때마다 지속 시간이 <c val=\"#TooltipNumbers\">0.4</c>초 증가합니다.",
+      "name": "최후의 폭풍",
+      "shortText": "적 영웅 적중 시 지속 시간 증가"
+    },
+    "KerriganTorrasqueSummonUltralisk|KerriganSummonUltraliskTorrasqueTalent|Heroic|Level20": {
+      "fullText": "울트라리스크의 생명력과 일반 공격력이 <c val=\"#TooltipNumbers\">20%</c> 증가합니다. 울트라리스크가 죽으면 알로 변태합니다. 알이 <c val=\"#TooltipNumbers\">4</c>초 안에 파괴되지 않으면 새로운 울트라리스크가 태어납니다.",
+      "name": "토라스크",
+      "shortText": "울트라리스크 사망 시 새로운 울트라리스크 생성"
+    },
+    "KerriganAssimilationAssimilationBlades|KerriganAssimilationBlades|Passive|Level20": {
+      "fullText": "적에게 일반 공격을 할 때마다 일반 공격력이 <c val=\"#TooltipNumbers\">5</c>초 동안 <c val=\"#TooltipNumbers\">2%</c> 증가하여 최대 <c val=\"#TooltipNumbers\">40%</c> 증가합니다.",
+      "name": "동화 작용 칼날",
+      "shortText": "적 공격 시 일반 공격력 증가"
+    },
+    "KerriganPsionicShift|KerriganPsionicShift|Active|Level20": {
+      "cooldownText": "재사용 대기시간: 70초",
+      "fullText": "사용하면 가까운 목표 위치로 순간이동한 후 주위 적들에게 <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c>의 피해를 줍니다. 준 피해의 <c val=\"#TooltipNumbers\">300%</c>만큼 동화 작용 보호막을 얻습니다.",
+      "name": "사이오닉 돌진",
+      "shortText": "사용 시 짧은 거리 순간이동 및 피해를 줌"
+    }
+  },
+  "units": {
+    "KerriganChrysalis": {
+      "description": "사용하면 생명력이 <c val=\"#TooltipNumbers\">650</c><c val=\"#ColorGray\">~~0.04~~</c>인 번데기로 자신을 <c val=\"#TooltipNumbers\">5</c>초 동안 감쌉니다. 번데기 내부에 있는 동안 매초 최대 생명력의 <c val=\"#TooltipNumbers\">4%</c>를 회복합니다.<n/><n/>적은 고치를 공격하여 효과를 일찍 끝낼 수 있습니다.",
+      "name": "번데기"
+    },
+    "KerriganUltralisk": {
+      "name": "울트라리스크"
+    }
+  }
+}

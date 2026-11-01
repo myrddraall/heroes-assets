@@ -1,0 +1,203 @@
+{
+  "abilities": {
+    "CrusaderPunish|CrusaderPunish|Q": {
+      "cooldownText": "Время восстановления: 8 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 40</s>",
+      "fullText": "Совершает выпад, нанося <c val=\"#TooltipNumbers\">113</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона и замедляя пораженных противников на <c val=\"#TooltipNumbers\">50%</c>. Эффект замедления постепенно ослабевает в течение <c val=\"#TooltipNumbers\">2</c> сек.",
+      "name": "Наказание",
+      "shortText": "Замедляет противников и наносит им урон."
+    },
+    "CrusaderCondemn|CrusaderCondemn|W": {
+      "cooldownText": "Время восстановления: 10 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 50</s>",
+      "fullText": "После паузы в <c val=\"#TooltipNumbers\">1</c> сек. Джоанна наносит <c val=\"#TooltipNumbers\">55</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона находящимся рядом противникам и притягивает их к себе, оглушая на <c val=\"#TooltipNumbers\">0.25</c> сек. Воины и наемники получают на <c val=\"#TooltipNumbers\">200%</c> больше урона.",
+      "name": "Порицание",
+      "shortText": "Притягивает находящихся рядом противников и наносит им урон."
+    },
+    "CrusaderShieldGlare|CrusaderShieldGlare|E": {
+      "cooldownText": "Время восстановления: 13 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 55</s>",
+      "fullText": "Наносит <c val=\"#TooltipNumbers\">59</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона и ослепляет пораженных противников на <c val=\"#TooltipNumbers\">1.5</c> сек.",
+      "name": "Сияющий щит",
+      "shortText": "Наносит урон противникам в секторе перед Джоанной и ослепляет их."
+    },
+    "CrusaderFallingSword|CrusaderFallingSword|Heroic": {
+      "cooldownText": "Время восстановления: 50 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 60</s>",
+      "fullText": "Джоанна высоко подпрыгивает. Пока она находится в воздухе, союзники под ней становятся неудержимыми, а область приземления можно переместить. После паузы в <c val=\"#TooltipNumbers\">2</c> сек. Джоанна приземляется, наносит <c val=\"#TooltipNumbers\">225</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона пораженным противникам и оглушает их на <c val=\"#TooltipNumbers\">0.25</c> сек.",
+      "name": "Падающий меч",
+      "shortText": "Совершает прыжок, защищая союзников и оглушая противников."
+    },
+    "CrusaderBlessedShield|CrusaderBlessedShield|Heroic": {
+      "cooldownText": "Время восстановления: 65 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 90</s>",
+      "fullText": "Бросает щит, наносящий <c val=\"#TooltipNumbers\">114</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона и оглушающий первого противника на своем пути на <c val=\"#TooltipNumbers\">1.5</c> сек. Затем щит отскакивает к <c val=\"#TooltipNumbers\">2</c> находящимся рядом противникам, нанося им по <c val=\"#TooltipNumbers\">57</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона и оглушая их на <c val=\"#TooltipNumbers\">0.75</c> сек.",
+      "name": "Освященный щит",
+      "shortText": "Бросает щит, оглушающий противников."
+    },
+    "CrusaderIronSkin|CrusaderIronSkin|Trait": {
+      "cooldownText": "Время восстановления: 22 сек.",
+      "fullText": "При использовании Джоанна получает щит, поглощающий <c val=\"#TooltipNumbers\">810</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона в течение <c val=\"#TooltipNumbers\">4</c> сек. Джоанна становится неудержимой на время действия щита.",
+      "name": "Железная кожа",
+      "shortText": "Становится неудержимой и получает щит."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Время восстановления: 4 сек.",
+      "fullText": "После подготовки длительностью <c val=\"#TooltipNumbers\">1</c> сек. повышает скорость передвижения на <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Вызов транспорта"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "После поддержания в течение <c val=\"#TooltipNumbers\">6</c> сек. телепортирует героя в Зал Штормов, моментально восполняя <c val=\"#TooltipNumbers\">1125</c> ед. здоровья и <c val=\"#TooltipNumbers\">150</c> ед. маны.",
+      "name": "Возвращение"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Покинуть транспорт.",
+      "name": "Отмена транспорта"
+    },
+    "CrusaderLawsOfHope|CrusaderLawsOfHope|Active": {
+      "cooldownText": "Время восстановления: 40 сек.",
+      "fullText": "При использовании восполняет <c val=\"#TooltipNumbers\">20%</c> максимального запаса здоровья за <c val=\"#TooltipNumbers\">5</c> сек.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Задача:</c> каждая <c val=\"#TooltipNumbers\">10-я</c> подобранная сфера регенерации увеличивает объем этого исцеления на <c val=\"#TooltipNumbers\">5%</c> максимального запаса здоровья.",
+      "name": "Принцип надежды",
+      "shortText": "Периодически восполняет здоровье.<n/><c val=\"#TooltipQuest\">Задача:</c> увеличьте объем исцеления."
+    },
+    "CrusaderSteedCharge|CrusaderIronSkinSteedCharge|Active": {
+      "cooldownText": "Время восстановления: 20 сек.",
+      "fullText": "При использовании мгновенно призывает транспорт на <c val=\"#TooltipNumbers\">4</c> сек. Урон не отменяет его действие.<n/><n/><c val=\"#AbilityPassive\">Пассивный эффект:</c> увеличивает время действия «Железной кожи» на <c val=\"#TooltipNumbers\">2</c> сек.",
+      "name": "Скакун",
+      "shortText": "Призывает усиленный транспорт."
+    },
+    "CrusaderBlessedHammer|CrusaderCondemnBlessedHammerTalent|Active": {
+      "cooldownText": "Время восстановления: 30 сек.",
+      "fullText": "При использовании создает <c val=\"#TooltipNumbers\">2</c> <lang rule=\"plural\" val=\"\">молот,молота,молотов</lang>, которые вращаются вокруг Джоанны, нанося врагам <c val=\"#TooltipNumbers\">65</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона. Когда базовые способности наносят урон, время восстановления «Освященного молота» сокращается на <c val=\"#TooltipNumbers\">2.5</c> сек.<n/><n/><c val=\"#AbilityPassive\">Пассивный эффект:</c> каждая <c val=\"#TooltipNumbers\">3-я</c> автоатака по героям противника призывает молот.",
+      "name": "Освященный молот",
+      "shortText": "Запускает вращающиеся молоты."
+    },
+    "CrusaderBlindedByTheLight|CrusaderBlindedByTheLight|Active": {
+      "cooldownText": "Время восстановления: 60 сек.",
+      "fullText": "При использовании дает находящимся рядом союзным героям щит прочностью <c val=\"#TooltipNumbers\">25%</c> их максимального запаса здоровья на <c val=\"#TooltipNumbers\">3</c> сек.<n/><n/>Каждое попадание по герою «Сияющим щитом» сокращает время восстановления этой способности на <c val=\"#TooltipNumbers\">8</c> сек.",
+      "name": "Ослепление Светом",
+      "shortText": "Дает щит союзникам поблизости."
+    },
+    "CrusaderIndestructible|CrusaderIndestructibleHotbar|Passive": {
+      "cooldownText": "Время восстановления: 120 сек.",
+      "fullText": "При получении смертельного урона на <c val=\"#TooltipNumbers\">4</c> сек. укрывает Джоанну щитом прочностью, равной ее максимальному запасу здоровья.",
+      "name": "Непробиваемая броня"
+    }
+  },
+  "talents": {
+    "CrusaderZealousGlare|CrusaderZealousGlare|E|Level1": {
+      "fullText": "«Сияющий щит» получает еще <c val=\"#TooltipNumbers\">1</c> <lang rule=\"plural\" val=\"\">заряд,заряда,зарядов</lang> и наносит на <c val=\"#TooltipNumbers\">70%</c> больше урона.",
+      "name": "Вспышка рвения",
+      "shortText": "Дает дополнительный заряд «Cияющего щита» и увеличивает урон."
+    },
+    "CrusaderPassiveDivineFortress|CrusaderPassiveDivineFortress|Passive|Level1": {
+      "fullText": "Автоатаки дают <c val=\"#TooltipNumbers\">10</c> ед. кинетической брони на <c val=\"#TooltipNumbers\">4</c> сек., вплоть до <c val=\"#TooltipNumbers\">40</c> ед.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Гамбит:</c> увеличивает максимальный запас здоровья на <c val=\"#TooltipNumbers\">25%</c>. С каждой смертью бонус уменьшается на <c val=\"#TooltipNumbers\">5%</c>.",
+      "name": "Священная твердыня",
+      "shortText": "<c val=\"#TooltipQuest\">Гамбит:</c> увеличивает запас здоровья.<n/>Автоатаки дают кинетическую броню."
+    },
+    "CrusaderMasteryLawsOfHope|CrusaderLawsOfHope|Active|Level1": {
+      "cooldownText": "Время восстановления: 40 сек.",
+      "fullText": "При использовании восполняет <c val=\"#TooltipNumbers\">20%</c> максимального запаса здоровья за <c val=\"#TooltipNumbers\">5</c> сек.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Задача:</c> каждая <c val=\"#TooltipNumbers\">10-я</c> подобранная сфера регенерации увеличивает объем этого исцеления на <c val=\"#TooltipNumbers\">5%</c> максимального запаса здоровья.",
+      "name": "Принцип надежды",
+      "shortText": "Периодически восполняет здоровье.<n/><c val=\"#TooltipQuest\">Задача:</c> увеличьте объем исцеления."
+    },
+    "CrusaderMasteryPunishSubdue|CrusaderSubdueTalent|Q|Level4": {
+      "fullText": "Если «Наказание» одновременно поражает не менее <c val=\"#TooltipNumbers\">2</c> героев, замедление усиливается до <c val=\"#TooltipNumbers\">70%</c> и не ослабевает со временем.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Задача:</c> поразите «Наказанием» не менее <c val=\"#TooltipNumbers\">4</c> героев одновременно.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Награда:</c> «Наказание» всегда будет замедлять цели на <c val=\"#TooltipNumbers\">70%</c>.",
+      "name": "Подчинение",
+      "shortText": "<c val=\"#TooltipQuest\">Задача:</c> усильте эффект замедления от «Наказания»."
+    },
+    "CrusaderMasteryCondemnEternalRetaliation|CrusaderEternalRetaliationTalent|W|Level4": {
+      "fullText": "«Порицание» ставит метку на противников на <c val=\"#TooltipNumbers\">10</c> сек. Следущая автоатака Джоанны по отмеченному противнику снимает метку, сокращает время восстановления «Порицания» на <c val=\"#TooltipNumbers\">1</c> сек. и восполняет Джоанне <c val=\"#TooltipNumbers\">10</c> ед. маны. Автоатака по отмеченному воину мгновенно убивает его.",
+      "name": "Вечная расплата",
+      "shortText": "«Порицание» оставляет метки и убивает воинов."
+    },
+    "CrusaderMasteryIronSkinHoldYourGround|CrusaderIronSkinHoldYourGroundTalent|Trait|Level4": {
+      "fullText": "Увеличивает прочность щита от «Железной кожи» на <c val=\"#TooltipNumbers\">40%</c> и уменьшает время ее восстановления на <c val=\"#TooltipNumbers\">2</c> сек.",
+      "name": "Ни шагу назад",
+      "shortText": "Усиливает щит от «Железной кожи» и ускоряет ее восстановление."
+    },
+    "CrusaderMasteryShieldGlareSinsExposed|CrusaderPunishSinsExposedTalent|Q|Level7": {
+      "fullText": "«Наказание» ослабляет получаемое противниками исцеление на <c val=\"#TooltipNumbers\">35%</c> на <c val=\"#TooltipNumbers\">3</c> сек. Автоатаки по этим противникам обновляют время действия эффекта.",
+      "name": "Выявление грехов",
+      "shortText": "«Наказание» ослабляет исцеление противников."
+    },
+    "CrusaderMasteryCondemnConviction|CrusaderCondemnConvictionTalent|W|Level7": {
+      "fullText": "Повышает скорость передвижения на <c val=\"#TooltipNumbers\">10%</c>. Бонус увеличивается до <c val=\"#TooltipNumbers\">20%</c>, пока заряжается «Порицание».",
+      "name": "Праведный суд",
+      "shortText": "«Порицание» ускоряет передвижение."
+    },
+    "CrusaderIronSkinSteedCharge|CrusaderIronSkinSteedCharge|Active|Level7": {
+      "cooldownText": "Время восстановления: 20 сек.",
+      "fullText": "При использовании мгновенно призывает транспорт на <c val=\"#TooltipNumbers\">4</c> сек. Урон не отменяет его действие.<n/><n/><c val=\"#AbilityPassive\">Пассивный эффект:</c> увеличивает время действия «Железной кожи» на <c val=\"#TooltipNumbers\">2</c> сек.",
+      "name": "Скакун",
+      "shortText": "Призывает усиленный транспорт."
+    },
+    "CrusaderHeroicAbilityFallingSword|CrusaderFallingSword|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 50 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 60</s>",
+      "fullText": "Джоанна высоко подпрыгивает. Пока она находится в воздухе, союзники под ней становятся неудержимыми, а область приземления можно переместить. После паузы в <c val=\"#TooltipNumbers\">2</c> сек. Джоанна приземляется, наносит <c val=\"#TooltipNumbers\">225</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона пораженным противникам и оглушает их на <c val=\"#TooltipNumbers\">0.25</c> сек.",
+      "name": "Падающий меч",
+      "shortText": "Совершает прыжок, защищая союзников и оглушая противников."
+    },
+    "CrusaderHeroicAbilityBlessedShield|CrusaderBlessedShield|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 65 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 90</s>",
+      "fullText": "Бросает щит, наносящий <c val=\"#TooltipNumbers\">114</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона и оглушающий первого противника на своем пути на <c val=\"#TooltipNumbers\">1.5</c> сек. Затем щит отскакивает к <c val=\"#TooltipNumbers\">2</c> находящимся рядом противникам, нанося им по <c val=\"#TooltipNumbers\">57</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона и оглушая их на <c val=\"#TooltipNumbers\">0.75</c> сек.",
+      "name": "Освященный щит",
+      "shortText": "Бросает щит, оглушающий противников."
+    },
+    "CrusaderMasteryPunishRoar|CrusaderRoarTalent|Q|Level13": {
+      "fullText": "Увеличивает урон от «Наказания» на <c val=\"#TooltipNumbers\">50%</c>. При поражении <c val=\"#TooltipNumbers\">двух</c> или более героев «Наказание» наносит на <c val=\"#TooltipNumbers\">150%</c> больше урона.",
+      "name": "Рык",
+      "shortText": "Увеличивает урон от «Наказания»."
+    },
+    "CrusaderHolyFury|CrusaderHolyFury|W|Level13": {
+      "fullText": "Наносит противникам поблизости <c val=\"#TooltipNumbers\">15</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона в секунду. Каждое попадание по герою «Порицанием» увеличивает урон от «Святого неистовства» на <c val=\"#TooltipNumbers\">40% </c> на <c val=\"#TooltipNumbers\">5</c> сек.",
+      "name": "Святое неистовство",
+      "shortText": "Наносит урон противникам поблизости."
+    },
+    "CrusaderBlessedHammer|CrusaderCondemnBlessedHammerTalent|Active|Level13": {
+      "cooldownText": "Время восстановления: 30 сек.",
+      "fullText": "При использовании создает <c val=\"#TooltipNumbers\">2</c> <lang rule=\"plural\" val=\"\">молот,молота,молотов</lang>, которые вращаются вокруг Джоанны, нанося врагам <c val=\"#TooltipNumbers\">65</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона. Когда базовые способности наносят урон, время восстановления «Освященного молота» сокращается на <c val=\"#TooltipNumbers\">2.5</c> сек.<n/><n/><c val=\"#AbilityPassive\">Пассивный эффект:</c> каждая <c val=\"#TooltipNumbers\">3-я</c> автоатака по героям противника призывает молот.",
+      "name": "Освященный молот",
+      "shortText": "Запускает вращающиеся молоты."
+    },
+    "CrusaderCondemnShrinkingVacuum|CrusaderCondemnShrinkingVacuumTalent|W|Level16": {
+      "fullText": "«Порицание» уменьшает урон пораженных героев на <c val=\"#TooltipNumbers\">30%</c> и замедляет их на <c val=\"#TooltipNumbers\">30%</c> на <c val=\"#TooltipNumbers\">3</c> сек.",
+      "name": "Сжимающийся вакуум",
+      "shortText": "«Порицание» уменьшает наносимый противниками урон и замедляет их."
+    },
+    "CrusaderMasteryShieldGlareHolyRenewal|CrusaderShieldGlareHolyRenewalTalent|E|Level16": {
+      "fullText": "За каждого героя, пораженного «Сияющим щитом», время его восстановления сокращается на <c val=\"#TooltipNumbers\">1</c> сек., а Джоанна восполняет <c val=\"#TooltipNumbers\">5%</c> своего максимального запаса здоровья.",
+      "name": "Святое восстановление",
+      "shortText": "«Сияющий щит» восполняет здоровье."
+    },
+    "CrusaderBlessedMomentum|JohannaBlessedMomentum|Passive|Level16": {
+      "fullText": "Автоатаки повышают скорость атаки на <c val=\"#TooltipNumbers\">10%</c> на <c val=\"#TooltipNumbers\">4</c> сек. (суммируется до <c val=\"#TooltipNumbers\">40%</c>) и сокращают время восстановления базовых способностей на <c val=\"#TooltipNumbers\">0.5</c> сек.",
+      "name": "Священный азарт",
+      "shortText": "Автоатаки ускоряют восстановление базовых способностей."
+    },
+    "CrusaderMasteryFallingSwordHeavensFury|CrusaderFallingSwordHeavensFuryTalent|Heroic|Level20": {
+      "fullText": "«Падающий меч» обрушивает дождь из сгустков энергии Света, который наносит <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона, восполняет союзным героям <c val=\"#TooltipNumbers\">68</c><c val=\"#ColorGray\">~~0.04~~</c> ед. здоровья и сокращает время восстановления «Падающего меча» на <c val=\"#TooltipNumbers\">1</c> сек. за каждого пораженного героя.",
+      "name": "Ярость Небес",
+      "shortText": "«Падающий меч» призывает дождь из сгустков энергии Света."
+    },
+    "CrusaderMasteryBlessedShieldRadiatingFaith|CrusaderBlessedShieldRadiatingFaithTalent|Heroic|Level20": {
+      "fullText": "Увеличивает время действия оглушения от «Освященного щита» до <c val=\"#TooltipNumbers\">1.75</c> сек., а максимальное количество поражаемых целей – на <c val=\"#TooltipNumbers\">2</c>. Оглушение всегда действует максимальное время.",
+      "name": "Сияние веры",
+      "shortText": "Увеличивает время оглушения и максимальное количество целей."
+    },
+    "CrusaderHeroicMasteryIndestructable|CrusaderIndestructableTalent|Passive|Level20": {
+      "fullText": "При получении смертельного урона на <c val=\"#TooltipNumbers\">4</c> сек. укрывает Джоанну щитом, прочность которого равна максимальному запасу ее здоровья. Время восстановления – <c val=\"#TooltipNumbers\">120</c> сек.",
+      "name": "Непробиваемая броня",
+      "shortText": "Получая смертельный урон, Джоанна не погибает и получает щит."
+    },
+    "CrusaderBlindedByTheLight|CrusaderBlindedByTheLight|Active|Level20": {
+      "cooldownText": "Время восстановления: 60 сек.",
+      "fullText": "При использовании дает находящимся рядом союзным героям щит прочностью <c val=\"#TooltipNumbers\">25%</c> их максимального запаса здоровья на <c val=\"#TooltipNumbers\">3</c> сек.<n/><n/>Каждое попадание по герою «Сияющим щитом» сокращает время восстановления этой способности на <c val=\"#TooltipNumbers\">8</c> сек.",
+      "name": "Ослепление Светом",
+      "shortText": "Дает щит союзникам поблизости."
+    }
+  },
+  "units": {}
+}

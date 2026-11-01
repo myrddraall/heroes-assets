@@ -1,0 +1,190 @@
+{
+  "abilities": {
+    "SamuroMirrorImageTargeted|SamuroMirrorImage|Q": {
+      "cooldownText": "Abklingzeit: 14 Sek.",
+      "fullText": "Teleportiert Samuro eine kurze Entfernung in Richtung des Mauszeigers und erschafft <c val=\"#TooltipNumbers\">2</c> Spiegelbilder in entgegengesetzter Richtung, die genau so viele Lebenspunkte wie Samuro besitzen und mit automatischen Angriffen jeweils <c val=\"#TooltipNumbers\">11</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden verursachen. Wenn ein Spiegelbild Schaden erleidet, fügt es sich selbst ebenfalls dieselbe Menge Schaden zu, wodurch es effektiv doppelten Schaden erleidet.<n/><n/>Spiegelbilder bleiben <c val=\"#TooltipNumbers\">8</c> Sek. lang bestehen und es können maximal <c val=\"#TooltipNumbers\">2</c> Spiegelbilder gleichzeitig aktiv sein. Die Dauer der Spiegelbilder erhöht sich für jeden automatischen Angriff von Samuro und seinen Spiegelbildern gegen gegnerische Helden um <c val=\"#TooltipNumbers\">1</c> Sek. Der Einsatz von Spiegelbild entfernt die meisten negativen Effekte von Samuro.",
+      "name": "Spiegelbild",
+      "shortText": "Erschafft Spiegelbilder, um Gegner zu verwirren und anzugreifen."
+    },
+    "SamuroCriticalStrike|SamuroCriticalStrike|W": {
+      "cooldownText": "Abklingzeit: <c val=\"#TooltipNumbers\">10 Sek.</c>",
+      "fullText": "Aktivieren, damit der nächste automatische Angriff von Samuro und seinen Spiegelbildern innerhalb der nächsten <c val=\"#TooltipNumbers\">8</c> Sek. ein kritischer Schlag ist, der <c val=\"#TooltipNumbers\">50 %</c> zusätzlichen Schaden verursacht. Die Tarnung wird bei Aktivierung nicht aufgehoben.<n/><n/><c val=\"#AbilityPassive\">Passiv:</c> Samuro und seine Spiegelbilder verursachen außerdem mit jedem <c val=\"#TooltipNumbers\">4.</c> automatischen Angriff einen kritischen Schlag.",
+      "name": "Kritischer Schlag",
+      "shortText": "Automatische Angriffe erzielen regelmäßig kritische Treffer."
+    },
+    "SamuroWindwalk|SamuroWindwalk|E": {
+      "cooldownText": "Abklingzeit: 15 Sek.",
+      "fullText": "Tarnt Samuro bis zu <c val=\"#TooltipNumbers\">10</c> Sek. lang oder bis er angreift, eine Fähigkeit einsetzt oder Schaden erleidet.<n/><n/>Im getarnten Zustand heilt sich Samuro um <c val=\"#TooltipNumbers\">2%</c> seiner maximalen Lebenspunkte pro Sekunde, bewegt sich <c val=\"#TooltipNumbers\">20%</c> schneller und kann sich durch andere Einheiten hindurchbewegen. Er wird unsichtbar, wenn er sich getarnt mindestens <c val=\"#TooltipNumbers\">1.5</c> Sek. lang nicht bewegt.<n/><n/>Während der <c val=\"#TooltipNumbers\">1</c>. Sekunde von Windlauf ist Samuro unaufdeckbar.",
+      "name": "Windlauf",
+      "shortText": "Tarnt Samuro und erhöht seine Bewegungsgeschwindigkeit."
+    },
+    "SamuroBladeStormDummy|SamuroBladestorm|Heroic": {
+      "cooldownText": "Abklingzeit: 30 Sek.",
+      "fullText": "Löst einen zerstörerischen Klingensturm um Samuro herum aus, gewährt ihm <c val=\"#TooltipNumbers\">25</c> Panzerung und fügt Gegnern in der Nähe <c val=\"#TooltipNumbers\">180</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden pro Sekunde zu. Hält <c val=\"#TooltipNumbers\">3</c> Sek. lang an.",
+      "name": "Klingensturm",
+      "shortText": "Löst einen zerstörerischen Klingensturm aus."
+    },
+    "SamuroIllusionMaster|SamuroIllusionMaster|Heroic": {
+      "cooldownText": "Abklingzeit: 8 Sek.",
+      "fullText": "Spiegelbilder können einzeln oder als Gruppe gesteuert werden. Erhöht den Schaden von Spiegelbildern um <c val=\"#TooltipNumbers\">100%</c>.<n/><n/><c val=\"#AbilityPassive\">Passiv:</c> Verringert die Abklingzeit von Bildwechsel auf <c val=\"#TooltipNumbers\">8</c> Sek.",
+      "name": "Illusionsmeister",
+      "shortText": "Spiegelbilder können gesteuert werden."
+    },
+    "SamuroIllusionMaster|SamuroAdvancingStrikes|Trait": {
+      "cooldownText": "Abklingzeit: 14 Sek.",
+      "fullText": "Aktivieren, um die Position mit dem anvisierten Spiegelbild zu wechseln. Dabei werden die meisten negativen Effekte von Samuro und allen Spiegelbildern entfernt.<n/><n/><s val=\"StandardTooltipHeader\">Vorstoß</s><n/><n/>Automatische Angriffe gegen gegnerische Helden erhöhen Samuros Bewegungsgeschwindigkeit <c val=\"#TooltipNumbers\">2</c> Sek. lang um <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Bildwechsel",
+      "shortText": "Angriffe auf Helden erhöhen die Bewegungsgeschwindigkeit."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Abklingzeit: 4 Sek.",
+      "fullText": "Erhöht die Bewegungsgeschwindigkeit nach <c val=\"#TooltipNumbers\">1</c> Sek. Kanalisierung um <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Aufsitzen"
+    },
+    "Hearthstone|HearthstoneNoMana|B": {
+      "fullText": "Kanalisiert <c val=\"#TooltipNumbers\">6</c> Sek. lang und teleportiert sich dann zurück zum Altar der Stürme. Dabei werden sofort <c val=\"#TooltipNumbers\">1125</c> Lebenspunkte wiederhergestellt.",
+      "name": "Ruhestein"
+    },
+    "SamuroBladestormCancel|SamuroCancelBladestorm|Heroic": {
+      "fullText": "<s val=\"StandardTooltip\">Bricht Klingensturm ab.</s>",
+      "name": "Klingensturm abbrechen"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Sitzt ab.",
+      "name": "Absitzen"
+    },
+    "SamuroIllusionMasterToggleAI|SamuroIllusionMasterToggleAIOn|Active": {
+      "fullText": "Wenn die K.I. deaktiviert ist, führen die Spiegelbilder nur Bewegungen oder andere Aktionen aus, wenn der Spieler ihnen entsprechende Befehle erteilt.<n/><n/>Ein Klick auf diese Schaltfläche aktiviert die K.I.",
+      "name": "K.I. deaktiviert"
+    },
+    "SamuroIllusionMasterToggleAI|SamuroIllusionMasterToggleAIOff|Active": {
+      "fullText": "Wenn die K.I. aktiviert ist, führen die Spiegelbilder erst alle erteilten Befehle aus und suchen sich dann automatisch Angriffsziele in der Nähe.<n/><n/>Ein Klick auf diese Schaltfläche deaktiviert die K.I.",
+      "name": "K.I. aktiviert"
+    },
+    ":PASSIVE:|SamuroSelectMirrorImages|Active": {
+      "fullText": "<s val=\"StandardTooltipHeader\">Spiegelbild auswählen</s><n/><n/>Erteilt einem einzelnen Spiegelbild Befehle.",
+      "name": "Spiegelbild auswählen",
+      "shortText": "Wählt ein Spiegelbild aus."
+    },
+    ":PASSIVE:|SamuroSelectSamuroPrime|Active": {
+      "fullText": "<s val=\"StandardTooltipHeader\">Samuro auswählen</s><n/><n/>Erteilt nur Samuro Befehle.",
+      "name": "Samuro auswählen",
+      "shortText": "Wählt Samuro aus."
+    },
+    ":PASSIVE:|SamuroSelectAll|Active": {
+      "fullText": "<s val=\"StandardTooltipHeader\">Alle auswählen</s><n/><n/>Erteilt Samuro und allen Spiegelbildern Befehle.",
+      "name": "Alle auswählen",
+      "shortText": "Alle auswählen"
+    }
+  },
+  "talents": {
+    "SamuroWayOfIllusion|SamuroWayOfIllusion|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Wenn ein Spiegelbild einen Helden mit einem Kritischen Schlag trifft, wird Samuros Angriffsschaden jeweils um <c val=\"#TooltipNumbers\">0.25</c> erhöht, bis auf maximal <c val=\"#TooltipNumbers\">10</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Belohnung:</c> Sobald <c val=\"#TooltipNumbers\">40</c> Helden getroffen wurden, wird Samuros Angriffsschaden zusätzlich um <c val=\"#TooltipNumbers\">30</c> erhöht.",
+      "name": "Weg der Illusionen",
+      "shortText": "<c val=\"#TooltipQuest\">Quest:</c> Kritische Schläge von Spiegelbildern verstärken automatische Angriffe."
+    },
+    "SamuroMirrorImageWayOfTheBlade|SamuroWayoftheBlade|W|Level1": {
+      "fullText": "Jeweils jeder <c val=\"#TooltipNumbers\">3.</c> automatische Angriff von Samuro und seinen Spiegelbildern ist jetzt ein kritischer Schlag.<n/><n/>Kritische Schläge von Samuro und seinen Spiegelbildern gegen Helden verringern ihre physische Panzerung <c val=\"#TooltipNumbers\">2.25</c> Sek. lang um <c val=\"#TooltipNumbers\">5</c>, bis maximal um <c val=\"#TooltipNumbers\">15</c> physische Panzerung.",
+      "name": "Weg der Klinge",
+      "shortText": "Kritische Schläge erfolgen öfter."
+    },
+    "SamuroWayOfTheWind|SamuroWayOfTheWind|E|Level1": {
+      "fullText": "Erhöht die Bewegungsgeschwindigkeit nach dem Aktivieren oder Verlassen von Windlauf <c val=\"#TooltipNumbers\">3</c> Sek. lang um <c val=\"#TooltipNumbers\">40 %</c>.<n/><n/>Der Einsatz von Windlauf heilt Samuro sofort um <c val=\"#TooltipNumbers\">3 %</c> seiner maximalen Lebenspunkte.",
+      "name": "Weg des Windes",
+      "shortText": "Windlauf erhöht die Bewegungsgeschwindigkeit und stellt Lebenspunkte wieder her."
+    },
+    "SamuroMirage|SamuroMirage|Q|Level4": {
+      "fullText": "Spiegelbild gewährt Samuro und seinen Spiegelbildern <c val=\"#TooltipNumbers\">40</c> Zauberpanzerung, die den Schaden der <c val=\"#TooltipNumbers\">2</c> nächsten gegnerischen Fähigkeiten um <c val=\"#TooltipNumbers\">40%</c> verringert.",
+      "name": "Trugbild",
+      "shortText": "Spiegelbild gewährt Zauberpanzerung."
+    },
+    "SamuroWindwalkOneWithTheWind|SamuroOneWithTheWindTalent|E|Level4": {
+      "fullText": "Wenn Samuro unter dem Effekt von Windlauf steht, erhalten er und seine Spiegelbilder <c val=\"#TooltipNumbers\">25</c> Panzerung, die ihren erlittenen Schaden um <c val=\"#TooltipNumbers\">25%</c> verringert. Dieser Effekt hält nach dem Verlassen von Windlauf weitere <c val=\"#TooltipNumbers\">3</c> Sek. lang an.",
+      "name": "Eins mit dem Wind",
+      "shortText": "Gewährt Panzerung während Windlauf."
+    },
+    "SamuroAdvancingStrikesDeflection|SamuroDeflectionTalent|Passive|Level4": {
+      "fullText": "Vorstoß gewährt Samuro und seinen Spiegelbildern <c val=\"#TooltipNumbers\">35</c> physische Panzerung.",
+      "name": "Abwehren",
+      "shortText": "Vorstoß gewährt physische Panzerung."
+    },
+    "SamuroBurningBlade|SamuroBurningBlade|W|Level7": {
+      "fullText": "Kritische Schläge von Samuro und seinen Spiegelbildern fügen dem Ziel und Gegnern in der Nähe zusätzlich <c val=\"#TooltipNumbers\">50 %</c> des Schadens automatischer Angriffe als Fähigkeitsschaden zu.",
+      "name": "Brennende Klinge",
+      "shortText": "Kritische Schläge verursachen Flächenschaden."
+    },
+    "SamuroPhantomPain|SamuroPhantomsStrikeTalent|W|Level7": {
+      "fullText": "Samuros kritischer Schläge gegen feindliche Helden verringern die Abklingzeit von Bildwechsel um <c val=\"#TooltipNumbers\">1</c> Sek. und verursachen für jedes aktive Spiegelbild <c val=\"#TooltipNumbers\">35%</c> mehr Schaden.",
+      "name": "Schmerz ist (k)eine Illusion",
+      "shortText": "Kritische Schläge verringern die Abklingzeit von Bildwechsel."
+    },
+    "SamuroCrushingBlow|SamuroOverpoweringBlow|W|Level7": {
+      "fullText": "Samuros automatische Angriffe gegen feindliche Helden verringern die Abklingzeit von Kritischer Schlag um <c val=\"#TooltipNumbers\">2</c> Sek.<n/><n/>Kritische Schläge gegen gegnerische Helden erhöhen Samuros Schaden mit automatischen Angriffen <c val=\"#TooltipNumbers\">4</c> Sek. lang um <c val=\"#TooltipNumbers\">10%</c>. Bis zu <c val=\"#TooltipNumbers\">30%</c>.",
+      "name": "Vernichtende Hiebe",
+      "shortText": "Kritische Schläge erhöhen den Schaden automatischer Angriffe."
+    },
+    "SamuroHeroicAbilityBladestorm|SamuroBladestorm|Heroic|Level10": {
+      "cooldownText": "Abklingzeit: 30 Sek.",
+      "fullText": "Löst einen zerstörerischen Klingensturm um Samuro herum aus, gewährt ihm <c val=\"#TooltipNumbers\">25</c> Panzerung und fügt Gegnern in der Nähe <c val=\"#TooltipNumbers\">180</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden pro Sekunde zu. Hält <c val=\"#TooltipNumbers\">3</c> Sek. lang an.",
+      "name": "Klingensturm",
+      "shortText": "Löst einen zerstörerischen Klingensturm aus."
+    },
+    "SamuroHeroicAbilityIllusionMaster|SamuroIllusionMasterTalent|Heroic|Level10": {
+      "cooldownText": "Abklingzeit: 8 Sek.",
+      "fullText": "Spiegelbilder können einzeln oder als Gruppe gesteuert werden. Erhöht den Schaden von Spiegelbildern um <c val=\"#TooltipNumbers\">100%</c>.<n/><n/><c val=\"#AbilityPassive\">Passiv:</c> Verringert die Abklingzeit von Bildwechsel auf <c val=\"#TooltipNumbers\">8</c> Sek.",
+      "name": "Illusionsmeister",
+      "shortText": "Spiegelbilder können gesteuert werden."
+    },
+    "SamuroMirroredSteel|SamuroMirroredSteelTalent|Q|Level13": {
+      "fullText": "Die Abklingzeit von Spiegelbildern verringert sich für jeden automatischen Angriff von Samuro und seinen Spiegelbildern gegen gegnerische Helden um <c val=\"#TooltipNumbers\">0.75</c> Sek.",
+      "name": "Spiegelnder Stahl",
+      "shortText": "Automatische Angriffe verringern die Abklingzeit von Spiegelbild."
+    },
+    "SamuroWindwalkKawarimi|WindwalkKawarimiTalent|E|Level13": {
+      "fullText": "Windlauf erschafft ein Spiegelbild am Ausgangsort, das Samuros Aktivitäten fortführt.",
+      "name": "Kawarimi",
+      "shortText": "Windlauf erschafft ein Spiegelbild."
+    },
+    "SamuroShukuchi|SamuroShukuchiTalent|E|Level13": {
+      "fullText": "Windlauf teleportiert Samuro eine kurze Entfernung in Blickrichtung.",
+      "name": "Shukuchi",
+      "shortText": "Windlauf teleportiert Samuro eine kurze Strecke."
+    },
+    "SamuroMercilessStrikes|SamuroMercilessStrikes|W|Level16": {
+      "fullText": "Samuros automatische Angriffe gegen betäubte, bewegungsunfähige oder verlangsamte Gegner sind immer Kritische Schläge.",
+      "name": "Keine Gnade",
+      "shortText": "Samuro trifft beeinträchtigte Ziele immer kritisch."
+    },
+    "SamuroHarshWinds|SamuroHarshWinds|E|Level16": {
+      "fullText": "Wenn Windlauf unterbrochen wird, indem Samuro einen gegnerischen Helden angreift, fügt er diesem Ziel <c val=\"#TooltipNumbers\">3</c> Sek. lang <c val=\"#TooltipNumbers\">30 %</c> zusätzlichen Schaden zu.",
+      "name": "Beißender Wind",
+      "shortText": "Angriffe aus dem Windlauf erhöhen den vom Ziel erlittenen Schaden."
+    },
+    "SamuroPressTheAttack|SamuroPressTheAttack|Passive|Level16": {
+      "fullText": "Automatische Angriffe von Samuro oder seinen Spiegelbildern gegen gegnerischen Helden oder während Vorstoß aktiv ist, erhöhen die Angriffsgeschwindigkeit um <c val=\"#TooltipNumbers\">10 %</c>, auf bis zu <c val=\"#TooltipNumbers\">40 %</c>.<n/><n/>Diese Boni gehen gleichzeitig mit Vorstoß verloren.",
+      "name": "Rasender Vorstoß",
+      "shortText": "Vorstoß erhöht die Angriffsgeschwindigkeit."
+    },
+    "SamuroDanceOfDeath|SamuroDanceOfDeathTalent|Heroic|Level20": {
+      "fullText": "Die Spiegelbilder setzen Klingensturm gleichzeitig mit Samuro ein und verursachen dabei <c val=\"#TooltipNumbers\">45%</c> des normalen Schadens. Wenn Samuro gegnerische Helden mindestens <c val=\"#TooltipNumbers\">20</c>-mal mit Klingensturm trifft, wird die Abklingzeit der Fähigkeit abgeschlossen.",
+      "name": "Tanz des Todes",
+      "shortText": "Spiegelbilder setzen Klingensturm ein und können die Abklingzeit abschließen."
+    },
+    "SamuroThreeBladeStyle|SamuroThreeBladeStyleTalent|Heroic|Level20": {
+      "fullText": "Halbiert den Bonusschaden, den Spiegelbilder erleiden, wodurch sie effektiv <c val=\"#TooltipNumbers\">25%</c> mehr Lebenspunkte haben. Erhöht die maximale Dauer von Spiegelbildern auf <c val=\"#TooltipNumbers\">16</c> Sek.",
+      "name": "Die Drei Klingen",
+      "shortText": "Spiegelbilder haben mehr Lebenspunkte und bleiben länger bestehen."
+    },
+    "SamuroWindStrider|SamuroWindStrider|E|Level20": {
+      "fullText": "Verringert die Abklingzeit von Windlauf um <c val=\"#TooltipNumbers\">6</c> Sek.",
+      "name": "Wie der Wind",
+      "shortText": "Verringert die Abklingzeit von Windlauf stark."
+    },
+    "SamuroBlademastersPursuit|SamuroBlademastersPursuitTalent|Passive|Level20": {
+      "fullText": "Erhöht den Geschwindigkeitsbonus von Vorstoß für Samuro und seine Spiegelbilder um <c val=\"#TooltipNumbers\">15%</c> und die Dauer um <c val=\"#TooltipNumbers\">2</c> Sek.",
+      "name": "Der Weg ist das Ziel",
+      "shortText": "Erhöht den Geschwindigkeitsbonus und die Dauer von Vorstoß."
+    }
+  },
+  "units": {}
+}

@@ -1,0 +1,172 @@
+{
+  "abilities": {
+    "DehakaDrag|DehakaDrag|Q": {
+      "cooldownText": "Temps de recharge : 15 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 75</s>",
+      "fullText": "Dehaka donne un coup de langue qui inflige <c val=\"#TooltipNumbers\">160</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts au premier ennemi touché, l’étourdit et le traîne avec lui pendant <c val=\"#TooltipNumbers\">1.75</c> seconde.<n/><n/>Subir un étourdissement ou une réduction au silence interrompt Traction.",
+      "name": "Traction",
+      "shortText": "Inflige de faibles dégâts à un ennemi et l’attire à Dehaka."
+    },
+    "DehakaDarkSwarm|DehakaDarkSwarm|W": {
+      "cooldownText": "Temps de recharge : 10 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 50</s>",
+      "fullText": "Inflige <c val=\"#TooltipNumbers\">48</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts toutes les <c val=\"#TooltipNumbers\">0.5</c> secondes aux ennemis proches pendant <c val=\"#TooltipNumbers\">3.5</c> secondes et permet de traverser les unités pendant toute sa durée. Peut être utilisé pendant Traction et Enfouissement.",
+      "name": "Essaim noir",
+      "shortText": "Frappe les ennemis proches."
+    },
+    "DehakaBurrow|DehakaBurrow|E": {
+      "cooldownText": "Temps de recharge :<sp/>20 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 65</s>",
+      "fullText": "S’enfouit sous terre, entre en stase et devient invulnérable pendant <c val=\"#TooltipNumbers\">2</c> secondes. Pendant qu’il est enfoui, Dehaka peut se déplacer à <c val=\"#TooltipNumbers\">50%</c> de sa vitesse de déplacement.",
+      "name": "Enfouissement",
+      "shortText": "Entre en stase en s’enfouissant dans le sol."
+    },
+    "DehakaIsolation|DehakaIsolation|Heroic": {
+      "cooldownText": "Temps de recharge : 60 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 70</s>",
+      "fullText": "Projette une biomasse qui inflige <c val=\"#TooltipNumbers\">200</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts au premier héros adverse touché, le révèle, le réduit au silence et le ralentit de <c val=\"#TooltipNumbers\">30%</c> pendant <c val=\"#TooltipNumbers\">3</c> secondes. Réduit également son champ de vision pendant <c val=\"#TooltipNumbers\">6</c> secondes.",
+      "name": "Aliénation",
+      "shortText": "Réduit au silence, ralentit et supprime la vision d’un ennemi."
+    },
+    "DehakaAdaptation|DehakaAdaptation|Heroic": {
+      "cooldownText": "Temps de recharge : 60 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 70</s>",
+      "fullText": "Après <c val=\"#TooltipNumbers\">4</c> secondes, rend instantanément à Dehaka <c val=\"#TooltipNumbers\">100%</c> des points de vie perdus pendant cette période.",
+      "name": "Adaptation",
+      "shortText": "Rend un montant de points de vie équivalent aux dégâts subis."
+    },
+    "DehakaEssenceCollection|DehakaEssenceCollection|Trait": {
+      "cooldownText": "Temps de recharge :<sp/>5 secondes",
+      "fullText": "Rend <c val=\"#TooltipNumbers\">29</c><c val=\"#ColorGray\">~~0.04~~</c> points de vie en <c val=\"#TooltipNumbers\">5</c> secondes à Dehaka pour chaque unité d’essence accumulée. Peut être utilisé pendant Traction et Enfouissement.<n/><n/><c val=\"#AbilityPassive\">Effet passif :</c> faire des victimes rapporte <c val=\"#TooltipNumbers\">10</c> unités d’essence, et les serviteurs tués à proximité en rapportent <c val=\"#TooltipNumbers\">2</c>. Un maximum de <c val=\"#TooltipNumbers\">50</c> unités d’essence peut être accumulé.",
+      "name": "Collecte d’essence",
+      "shortText": "Collecte et consume l’essence des ennemis pour rendre des points de vie."
+    },
+    "DehakaBrushstalker|DehakaBrushstalker|Z": {
+      "cooldownText": "Temps de recharge : 240 secondes",
+      "fullText": "Enfouit Dehaka pour le faire réapparaître dans n’importe quel buisson du champ de bataille.<n/><n/><c val=\"#AbilityPassive\">Effet passif :</c> augmente la vitesse de déplacement de <c val=\"#TooltipNumbers\">20 %</c> au sein des buissons, puis pendant <c val=\"#TooltipNumbers\">2</c> secondes après les avoir quittés.<n/><n/><c val=\"#AbilityPassive\">Effet passif :</c> collecter un globe de régénération réduit le temps de recharge de Traqueur de la jungle de <c val=\"#TooltipNumbers\">40</c> secondes.",
+      "name": "Traqueur de la jungle",
+      "shortText": "S’enfouit pour réapparaître dissimulé dans un buisson du champ de bataille."
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Après <c val=\"#TooltipNumbers\">6</c> secondes de canalisation, téléporte au hall des Tempêtes et rend instantanément <c val=\"#TooltipNumbers\">1125</c> points de vie et <c val=\"#TooltipNumbers\">150</c> points de mana.",
+      "name": "Pierre de foyer"
+    },
+    "DehakaCancelBurrow|DehakaCancelBurrow|E": {
+      "fullText": "Annule Enfouissement",
+      "name": "Annuler Enfouissement",
+      "shortText": "Déterrer"
+    }
+  },
+  "talents": {
+    "DehakaDarkSwarmTalentEnduringSwarm|DehakaDarkSwarmTalentEnduringSwarm|W|Level1": {
+      "fullText": "La durée d’Essaim noir augmente de <c val=\"#TooltipNumbers\">0.5</c> seconde et il confère <c val=\"#TooltipNumbers\">50</c> points d’armure anti-sort.",
+      "name": "Essaim tenace",
+      "shortText": "Augmente la durée d’Essaim noir et confère un bouclier anti-sort."
+    },
+    "DehakaEssenceCollectionTalentTissueRegeneration|DehakaEssenceCollectionTalentTissueRegeneration|Trait|Level1": {
+      "fullText": "Les globes de régénération confèrent <c val=\"#TooltipNumbers\">10</c> unités d’essence.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quête :</c> toutes les <c val=\"#TooltipNumbers\">50</c> unités d’essence récoltées, la récupération des points de vie augmente de <c val=\"#TooltipNumbers\">4</c> points de manière permanente, jusqu’à un maximum de <c val=\"#TooltipNumbers\">40</c>, et le maximum d’essence augmente de <c val=\"#TooltipNumbers\">1</c> unités de manière permanente, jusqu’à un maximum de <c val=\"#TooltipNumbers\">10</c>.",
+      "name": "Régénération des tissus",
+      "shortText": "<c val=\"#TooltipQuest\">Quête :</c> l’essence augmente la récupération des points de vie et le maximum d’essence."
+    },
+    "DehakaEssenceCollectionTalentEnhancedAgility|DehakaEssenceCollectionTalentEnhancedAgility|Z|Level1": {
+      "fullText": "Le bonus à la vitesse déplacement conféré par Traqueur de la jungle dure désormais <c val=\"#TooltipNumbers\">4</c> secondes une fois Dehaka sorti d’un buisson.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quête :</c> toutes les <c val=\"#TooltipNumbers\">50</c> unités d’essence récoltées, le bonus à la vitesse de déplacement conféré par Traqueur de la jungle augmente de <c val=\"#TooltipNumbers\">2%</c> de façon permanente, jusqu’à un maximum de <c val=\"#TooltipNumbers\">20%</c>.",
+      "name": "Agilité amplifiée",
+      "shortText": "<c val=\"#TooltipQuest\">Quête :</c> l’essence augmente le bonus à la vitesse de déplacement conféré par Traqueur de la jungle."
+    },
+    "DehakaBurrowTalentLurkerStrain|DehakaBurrowTalentLurkerStrain|E|Level4": {
+      "fullText": "Sortir de l’enfouissement camoufle Dehaka pendant <c val=\"#TooltipNumbers\">3</c> secondes et repousse les ennemis proches, ce qui leur inflige <c val=\"#TooltipNumbers\">125</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts et les ralentit de <c val=\"#TooltipNumbers\">30%</c> pendant <c val=\"#TooltipNumbers\">3</c> secondes.<n/><n/><c val=\"#AbilityPassive\">Effet passif :</c> réduit le temps de recharge d’Enfouissement de <c val=\"#TooltipNumbers\">2</c> secondes.",
+      "name": "Souche rôdeur",
+      "shortText": "Enfouissement camoufle, et repousse les ennemis."
+    },
+    "DehakaEssenceCollectionOneWhoCollectsTalent|DehakaEssenceCollectionOneWhoCollectsTalent|Trait|Level4": {
+      "fullText": "Augmente la quantité d’essence récoltée sur les serviteurs de <c val=\"#TooltipNumbers\">50%</c>. Essaim noir inflige <c val=\"#TooltipNumbers\">40%</c> de dégâts supplémentaires aux mercenaires.",
+      "name": "Celui-qui-récolte",
+      "shortText": "Augmente l’essence des serviteurs et les dégâts qu’Essaim noir inflige aux mercenaires."
+    },
+    "DehakaEssenceCollectionTalentHeroStalker|DehakaEssenceCollectionTalentHeroStalker|Trait|Level4": {
+      "fullText": "Augmente de <c val=\"#TooltipNumbers\">100 %</c> la quantité d’essence récoltée en tuant des héros et confère <c val=\"#TooltipNumbers\">1</c> unité d’essence chaque fois qu’Essaim noir touche un héros adverse, jusqu’à <c val=\"#TooltipNumbers\">3</c> simultanément.",
+      "name": "Traqueur de héros",
+      "shortText": "Tuer des héros confère davantage d’essence."
+    },
+    "DehakaDragTalentFeedingFrenzy|DehakaDragTalentFeedingFrenzy|Q|Level7": {
+      "fullText": "Augmente la durée de Traction de <c val=\"#TooltipNumbers\">0.5</c> secondes.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Tactique :</c> les attaques de base réduisent le temps de recharge de Traction de<c val=\"#TooltipNumbers\">1.5</c> secondes. Chaque mort réduit cette réduction du temps de recharge de <c val=\"#TooltipNumbers\">0.25</c> secondes, cumulable<c val=\"#TooltipNumbers\">3</c> fois.",
+      "name": "Appétit dévorant",
+      "shortText": "<c val=\"#TooltipQuest\">Tactique :</c> les attaques de base réduisent le temps de recharge de Traction"
+    },
+    "DehakaDragTalentParalyzingEnzymes|DehakaDragTalentParalyzingEnzymes|Q|Level7": {
+      "fullText": "Traction ralentit la cible de <c val=\"#TooltipNumbers\">40 %</c> et réduit les soins qu’elle reçoit de <c val=\"#TooltipNumbers\">50 %</c> tant que Traction est active et pendant encore <c val=\"#TooltipNumbers\">2</c> secondes après. Les attaques de base de Dehaka portent la durée de la réduction des soins à <c val=\"#TooltipNumbers\">2</c> secondes.",
+      "name": "Enzymes paralysantes",
+      "shortText": "Traction ralentit les ennemis et réduit les soins"
+    },
+    "DehakaDarkSwarmTalentSymbiosis|DehakaDarkSwarmTalentSymbiosis|W|Level7": {
+      "fullText": "Chaque fois qu’Essaim noir touche un héros adverse, réduit son temps de recharge de <c val=\"#TooltipNumbers\">0.4</c> seconde.",
+      "name": "Symbiose",
+      "shortText": "Réduit le temps de recharge d’Essaim noir pour chaque héros touché."
+    },
+    "DehakaHeroicAbilityIsolation|DehakaIsolation|Heroic|Level10": {
+      "cooldownText": "Temps de recharge : 60 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 70</s>",
+      "fullText": "Projette une biomasse qui inflige <c val=\"#TooltipNumbers\">200</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts au premier héros adverse touché, le révèle, le réduit au silence et le ralentit de <c val=\"#TooltipNumbers\">30%</c> pendant <c val=\"#TooltipNumbers\">3</c> secondes. Réduit également son champ de vision pendant <c val=\"#TooltipNumbers\">6</c> secondes.",
+      "name": "Aliénation",
+      "shortText": "Réduit au silence, ralentit et supprime la vision d’un ennemi."
+    },
+    "DehakaHeroicAbilityAdaptation|DehakaAdaptation|Heroic|Level10": {
+      "cooldownText": "Temps de recharge : 60 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 70</s>",
+      "fullText": "Après <c val=\"#TooltipNumbers\">4</c> secondes, rend instantanément à Dehaka <c val=\"#TooltipNumbers\">100%</c> des points de vie perdus pendant cette période.",
+      "name": "Adaptation",
+      "shortText": "Rend un montant de points de vie équivalent aux dégâts subis."
+    },
+    "DehakaBrushstalkerFerociousStalker|DehakaBrushstalkerFerociousStalkerTalent|W|Level13": {
+      "fullText": "Essaim noir ralentit les héros adverses de <c val=\"#TooltipNumbers\">15%</c> pendant <c val=\"#TooltipNumbers\">0.75</c> seconde et inflige <c val=\"#TooltipNumbers\">50%</c> de dégâts supplémentaires tant que le bonus à la vitesse de déplacement conféré par Traqueur de la jungle est actif.",
+      "name": "Traqueur féroce",
+      "shortText": "Traqueur de la jungle ralentit les héros adverses et augmente la puissance d’Essaim noir."
+    },
+    "DehakaPrimalSwarm|DehakaPrimalSwarm|W|Level13": {
+      "fullText": "Essaim noir réduit l’armure des ennemis touchés de <c val=\"#TooltipNumbers\">10</c> points pendant <c val=\"#TooltipNumbers\">0.75</c> seconde, ce qui augmente les dégâts qu’ils subissent de <c val=\"#TooltipNumbers\">10%</c>.",
+      "name": "Essaim primordial",
+      "shortText": "Essaim noir réduit l’armure des ennemis."
+    },
+    "DehakaPrimalRage|DehakaPrimalRage|Trait|Level13": {
+      "fullText": "Augmente les dégâts des attaques de base de <c val=\"#TooltipNumbers\">1.25%</c> par unité d’essence.",
+      "name": "Rage primordiale",
+      "shortText": "L’essence augmente les dégâts d’attaque."
+    },
+    "DehakaDragTalentElongatedTongue|DehakaDragTalentElongatedTongue|Q|Level16": {
+      "fullText": "Augmente la portée de Traction de <c val=\"#TooltipNumbers\">20%</c>.",
+      "name": "Macroglossie",
+      "shortText": "Augmente la portée de Traction."
+    },
+    "DehakaTunnelingClaws|DehakaTunnelingClaws|E|Level16": {
+      "fullText": "Porte la vitesse de déplacement lors de l’enfouissement à <c val=\"#TooltipNumbers\">120%</c>.",
+      "name": "Griffes fouisseuses",
+      "shortText": "Augmente la vitesse de déplacement lors de l’enfouissement."
+    },
+    "DehakaPackLeaderBrushstalkerTalent|DehakaPackLeaderBrushstalker|Z|Level16": {
+      "fullText": "Confère <c val=\"#TooltipNumbers\">40</c> points d’armure à Dehaka et augmente sa vitesse d’attaque de <c val=\"#TooltipNumbers\">15%</c> lorsqu’il est dans un buisson et pendant <c val=\"#TooltipNumbers\">4</c> secondes quand il en sort.",
+      "name": "Chef de meute",
+      "shortText": "Confère de l’armure et augmente la vitesse d’attaque près des buissons."
+    },
+    "DehakaIsolationTalentContagion|DehakaIsolationTalentContagion|Heroic|Level20": {
+      "fullText": "Aliénation touche tous les héros proches de la première cible, mais inflige <c val=\"#TooltipNumbers\">60%</c> de dégâts en moins à toutes les cibles.",
+      "name": "Contagion",
+      "shortText": "Aliénation affecte les héros proches."
+    },
+    "DehakaAdaptationChangeIsSurvivalTalent|DehakaAdaptationChangeIsSurvivalTalent|Heroic|Level20": {
+      "fullText": "Porte les soins d’Adaptation à <c val=\"#TooltipNumbers\">200%</c> des dégâts subis et diminue le temps de recharge de <c val=\"#TooltipNumbers\">40</c> secondes.",
+      "name": "Changer, c’est survivre",
+      "shortText": "Augmente les soins et diminue le temps de recharge d’Adaptation."
+    },
+    "DehakaEssenceClaws|DehakaEssenceClaws|Trait|Level20": {
+      "fullText": "Les attaques de base ralentissent la cible de <c val=\"#TooltipNumbers\">20%</c> pendant <c val=\"#TooltipNumbers\">1</c> seconde. Si c’est un héros, Dehaka obtient <c val=\"#TooltipNumbers\">5</c> unités d’essence.",
+      "name": "Griffes drainantes",
+      "shortText": "Les attaques de base ralentissent la cible et confèrent de l’essence."
+    },
+    "DehakaBrushstalkerApexPredator|DehakaBrushstalkerApexPredatorTalent|Z|Level20": {
+      "fullText": "Réduit le temps de recharge de Traqueur de la jungle de <c val=\"#TooltipNumbers\">120</c> secondes et sa durée d’incantation de <c val=\"#TooltipNumbers\">0.5</c> seconde.",
+      "name": "Prédateur de l’apex",
+      "shortText": "Réduit les temps de recharge et d’incantation de Traqueur de la jungle."
+    }
+  },
+  "units": {}
+}

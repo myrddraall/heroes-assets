@@ -1,0 +1,660 @@
+{
+  "id": "Zarya",
+  "unitId": "HeroZarya",
+  "hyperlinkId": "Zarya",
+  "attributeId": "Zary",
+  "franchise": "Overwatch",
+  "rarity": "Epic",
+  "releaseDate": "2016-09-27",
+  "isMelee": false,
+  "gender": "Female",
+  "radius": 0.8125,
+  "innerRadius": 0.8125,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 7,
+    "damage": 5,
+    "survivability": 8,
+    "utility": 7
+  },
+  "life": {
+    "amount": 2292,
+    "scale": 0.04,
+    "regenRate": 4.7734,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 100,
+    "regenRate": 0
+  },
+  "playstyles": [
+    "ChanneledAutoAttacker",
+    "Helper",
+    "Overconfident",
+    "RoleTank"
+  ],
+  "weapons": [
+    {
+      "nameId": "ZaryaHeroWeapon",
+      "isDisabled": false,
+      "range": 4.5,
+      "minimumRange": 0,
+      "period": 0.25,
+      "damage": 20,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "ZaryaHanamura",
+    "ZaryaSpooky18",
+    "ZaryaThunder",
+    "ZaryaUltimate"
+  ],
+  "variationSkinIds": [
+    "ZaryaBaseVar1",
+    "ZaryaBaseVar2",
+    "ZaryaBaseVar3"
+  ],
+  "voiceLineIds": [
+    "ZaryaBase_VoiceLine01",
+    "ZaryaBase_VoiceLine02",
+    "ZaryaBase_VoiceLine03",
+    "ZaryaBase_VoiceLine04",
+    "ZaryaBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "ZaryaParticleGrenade|ZaryaParticleGrenade|Q",
+        "abilityId": "ZaryaParticleGrenade",
+        "buttonId": "ZaryaParticleGrenade",
+        "icon": "storm_ui_icon_zarya_particlegrenade.png",
+        "charges": {
+          "countMax": 4,
+          "countStart": 4,
+          "countUse": 1,
+          "recastCooldown": 0.75,
+          "isCountHidden": false
+        },
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "ZaryaPersonalBarrier|ZaryaPersonalBarrier|W",
+        "abilityId": "ZaryaPersonalBarrier",
+        "buttonId": "ZaryaPersonalBarrier",
+        "icon": "storm_ui_icon_zarya_personalbarrier.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "ZaryaShieldAlly|ZaryaShieldAlly|E",
+        "abilityId": "ZaryaShieldAlly",
+        "buttonId": "ZaryaShieldAlly",
+        "icon": "storm_ui_icon_zarya_shieldally.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "ZaryaGravitonSurge|ZaryaGravitonSurge|Heroic",
+        "abilityId": "ZaryaGravitonSurge",
+        "buttonId": "ZaryaGravitonSurge",
+        "icon": "storm_ui_icon_zarya_gravitonsurge.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "ZaryaExpulsionZone|ZaryaExpulsionZone|Heroic",
+        "abilityId": "ZaryaExpulsionZone",
+        "buttonId": "ZaryaExpulsionZone",
+        "icon": "storm_ui_icon_zarya_expulsionzone.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": ":PASSIVE:|ZaryaEnergy|Trait",
+        "abilityId": ":PASSIVE:",
+        "buttonId": "ZaryaEnergy",
+        "icon": "storm_ui_icon_zarya_energy.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|HearthstoneNoMana|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "HearthstoneNoMana",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "ZaryaPainIsTemporary|ZaryaPainIsTemporaryTalent|Active|Level13": {
+      "Activable": [
+        {
+          "linkId": "ZaryaPainIsTemporary|ZaryaPainIsTemporaryTalent|Active",
+          "abilityId": "ZaryaPainIsTemporary",
+          "buttonId": "ZaryaPainIsTemporaryTalent",
+          "icon": "storm_ui_icon_zarya_painistemporary.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "ZaryaUnyieldingDefender|ZaryaUnyieldingDefenderTalent|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "ZaryaUnyieldingDefender|ZaryaUnyieldingDefenderTalent|Active",
+          "abilityId": "ZaryaUnyieldingDefender",
+          "buttonId": "ZaryaUnyieldingDefenderTalent",
+          "icon": "storm_ui_icon_zarya_unyieldingdefender.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "ZaryaParticleGrenadeDemolitionsExpertQuest|ZaryaParticleGrenadeDemolitionsExpertTalent|Q|Level1",
+        "talentId": "ZaryaParticleGrenadeDemolitionsExpertQuest",
+        "buttonId": "ZaryaParticleGrenadeDemolitionsExpertTalent",
+        "abilityId": "ZaryaParticleGrenade",
+        "icon": "storm_ui_icon_zarya_particlegrenade.png",
+        "abilityType": "Q",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ZaryaParticleGrenade|ZaryaParticleGrenade|Q"
+        ]
+      },
+      {
+        "linkId": "ZaryaShieldAllyTogetherWeAreStrong|ZaryaShieldAllyTogetherWeAreStrongTalent|E|Level1",
+        "talentId": "ZaryaShieldAllyTogetherWeAreStrong",
+        "buttonId": "ZaryaShieldAllyTogetherWeAreStrongTalent",
+        "abilityId": "ZaryaShieldAlly",
+        "icon": "storm_ui_icon_zarya_shieldally.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ZaryaShieldAlly|ZaryaShieldAlly|E"
+        ]
+      },
+      {
+        "linkId": "ZaryaWeaponFeelTheHeat|ZaryaWeaponFeelTheHeatTalent|Trait|Level1",
+        "talentId": "ZaryaWeaponFeelTheHeat",
+        "buttonId": "ZaryaWeaponFeelTheHeatTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_damage.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|ZaryaEnergy|Trait"
+        ]
+      },
+      {
+        "linkId": "ZaryaEnergyMaximumChargeQuest|ZaryaEnergyMaximumChargeTalent|Trait|Level1",
+        "talentId": "ZaryaEnergyMaximumChargeQuest",
+        "buttonId": "ZaryaEnergyMaximumChargeTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_zarya_energy.png",
+        "abilityType": "Trait",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|ZaryaEnergy|Trait"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "ZaryaPersonalBarrierIAmTheStrongest|ZaryaPersonalBarrierIAmTheStrongestTalent|W|Level4",
+        "talentId": "ZaryaPersonalBarrierIAmTheStrongest",
+        "buttonId": "ZaryaPersonalBarrierIAmTheStrongestTalent",
+        "abilityId": "ZaryaPersonalBarrier",
+        "icon": "storm_ui_icon_zarya_personalbarrier.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ZaryaPersonalBarrier|ZaryaPersonalBarrier|W"
+        ]
+      },
+      {
+        "linkId": "ZaryaShieldAllyGiveMeTwentyQuest|ZaryaShieldAllyGiveMeTwentyTalent|E|Level4",
+        "talentId": "ZaryaShieldAllyGiveMeTwentyQuest",
+        "buttonId": "ZaryaShieldAllyGiveMeTwentyTalent",
+        "abilityId": "ZaryaShieldAlly",
+        "icon": "storm_ui_icon_zarya_shieldally.png",
+        "abilityType": "E",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ZaryaShieldAlly|ZaryaShieldAlly|E"
+        ]
+      },
+      {
+        "linkId": "ZaryaShieldAllySpeedBarrier|ZaryaShieldAllySpeedBarrierTalent|E|Level4",
+        "talentId": "ZaryaShieldAllySpeedBarrier",
+        "buttonId": "ZaryaShieldAllySpeedBarrierTalent",
+        "abilityId": "ZaryaShieldAlly",
+        "icon": "storm_ui_icon_zarya_shieldally_a.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "ZaryaShieldAlly|ZaryaShieldAlly|E"
+        ]
+      },
+      {
+        "linkId": "ZaryaDefensiveShielding|ZaryaDefensiveShieldingTalent|Passive|Level4",
+        "talentId": "ZaryaDefensiveShielding",
+        "buttonId": "ZaryaDefensiveShieldingTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_zarya_pumped.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          "ZaryaPersonalBarrier|ZaryaPersonalBarrier|W",
+          "ZaryaShieldAlly|ZaryaShieldAlly|E"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "ZaryaParticleGrenadePinpointAccuracy|ZaryaParticleGrenadePinpointAccuracyTalent|Q|Level7",
+        "talentId": "ZaryaParticleGrenadePinpointAccuracy",
+        "buttonId": "ZaryaParticleGrenadePinpointAccuracyTalent",
+        "abilityId": "ZaryaParticleGrenade",
+        "icon": "storm_ui_icon_zarya_particlegrenade.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ZaryaParticleGrenade|ZaryaParticleGrenade|Q"
+        ]
+      },
+      {
+        "linkId": "ZaryaDeepBurn|ZaryaDeepBurn|Q|Level7",
+        "talentId": "ZaryaDeepBurn",
+        "buttonId": "ZaryaDeepBurn",
+        "abilityId": "ZaryaParticleGrenade",
+        "icon": "storm_ui_icon_zarya_particlegrenade_a.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ZaryaParticleGrenade|ZaryaParticleGrenade|Q"
+        ]
+      },
+      {
+        "linkId": "ZaryaPersonalBarrierExplosiveBarrier|ZaryaPersonalBarrierExplosiveBarrierTalent|W|Level7",
+        "talentId": "ZaryaPersonalBarrierExplosiveBarrier",
+        "buttonId": "ZaryaPersonalBarrierExplosiveBarrierTalent",
+        "abilityId": "ZaryaPersonalBarrier",
+        "icon": "storm_ui_icon_zarya_personalbarrier.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "ZaryaPersonalBarrier|ZaryaPersonalBarrier|W"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "ZaryaHeroicAbilityGravitonSurge|ZaryaGravitonSurge|Heroic|Level10",
+        "talentId": "ZaryaHeroicAbilityGravitonSurge",
+        "buttonId": "ZaryaGravitonSurge",
+        "abilityId": "ZaryaGravitonSurge",
+        "icon": "storm_ui_icon_zarya_gravitonsurge.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "ZaryaHeroicAbilityExpulsionZone|ZaryaExpulsionZone|Heroic|Level10",
+        "talentId": "ZaryaHeroicAbilityExpulsionZone",
+        "buttonId": "ZaryaExpulsionZone",
+        "abilityId": "ZaryaExpulsionZone",
+        "icon": "storm_ui_icon_zarya_expulsionzone.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "ZaryaPersonalBarrierUnstoppableCompetitor|ZaryaPersonalBarrierUnstoppableCompetitorTalent|W|Level13",
+        "talentId": "ZaryaPersonalBarrierUnstoppableCompetitor",
+        "buttonId": "ZaryaPersonalBarrierUnstoppableCompetitorTalent",
+        "abilityId": "ZaryaPersonalBarrier",
+        "icon": "storm_ui_icon_zarya_personalbarrier.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ZaryaPersonalBarrier|ZaryaPersonalBarrier|W"
+        ]
+      },
+      {
+        "linkId": "ZaryaPersonalBarrierSpellBarrier|ZaryaPersonalBarrierSpellBarrierTalent|W|Level13",
+        "talentId": "ZaryaPersonalBarrierSpellBarrier",
+        "buttonId": "ZaryaPersonalBarrierSpellBarrierTalent",
+        "abilityId": "ZaryaPersonalBarrier",
+        "icon": "storm_ui_icon_zarya_personalbarrier_a.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ZaryaPersonalBarrier|ZaryaPersonalBarrier|W"
+        ]
+      },
+      {
+        "linkId": "ZaryaEnergyEnduranceTraining|ZaryaEnergyEnduranceTrainingTalent|Trait|Level13",
+        "talentId": "ZaryaEnergyEnduranceTraining",
+        "buttonId": "ZaryaEnergyEnduranceTrainingTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_zarya_energy.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|ZaryaEnergy|Trait"
+        ]
+      },
+      {
+        "linkId": "ZaryaPainIsTemporary|ZaryaPainIsTemporaryTalent|Active|Level13",
+        "talentId": "ZaryaPainIsTemporary",
+        "buttonId": "ZaryaPainIsTemporaryTalent",
+        "abilityId": "ZaryaPainIsTemporary",
+        "icon": "storm_ui_icon_zarya_painistemporary.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "ZaryaShieldAllyCleansingShield|ZaryaShieldAllyCleansingShieldTalent|E|Level16",
+        "talentId": "ZaryaShieldAllyCleansingShield",
+        "buttonId": "ZaryaShieldAllyCleansingShieldTalent",
+        "abilityId": "ZaryaShieldAlly",
+        "icon": "storm_ui_icon_zarya_shieldally.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ZaryaShieldAlly|ZaryaShieldAlly|E"
+        ]
+      },
+      {
+        "linkId": "ZaryaShieldAllyGainTrain|ZaryaShieldAllyGainTrainTalent|E|Level16",
+        "talentId": "ZaryaShieldAllyGainTrain",
+        "buttonId": "ZaryaShieldAllyGainTrainTalent",
+        "abilityId": "ZaryaShieldAlly",
+        "icon": "storm_ui_icon_zarya_shieldally_a.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ZaryaShieldAlly|ZaryaShieldAlly|E"
+        ]
+      },
+      {
+        "linkId": "ZaryaEnergyBornInBattle|ZaryaEnergyBornInBattleTalent|Trait|Level16",
+        "talentId": "ZaryaEnergyBornInBattle",
+        "buttonId": "ZaryaEnergyBornInBattleTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_zarya_energy.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|ZaryaEnergy|Trait"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "ZaryaGravitonSurgeGravityKills|ZaryaGravitonSurgeGravityKillsTalent|Heroic|Level20",
+        "talentId": "ZaryaGravitonSurgeGravityKills",
+        "buttonId": "ZaryaGravitonSurgeGravityKillsTalent",
+        "abilityId": "ZaryaGravitonSurge",
+        "icon": "storm_ui_icon_zarya_gravitonsurge.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ZaryaGravitonSurge|ZaryaGravitonSurge|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "ZaryaHeroicAbilityGravitonSurge"
+        ]
+      },
+      {
+        "linkId": "ZaryaExpulsionZoneClearOut|ZaryaExpulsionZoneClearOutTalent|Heroic|Level20",
+        "talentId": "ZaryaExpulsionZoneClearOut",
+        "buttonId": "ZaryaExpulsionZoneClearOutTalent",
+        "abilityId": "ZaryaExpulsionZone",
+        "icon": "storm_ui_icon_zarya_expulsionzone.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ZaryaExpulsionZone|ZaryaExpulsionZone|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "ZaryaHeroicAbilityExpulsionZone"
+        ]
+      },
+      {
+        "linkId": "ZaryaParticleGrenadeGrenadier|ZaryaParticleGrenadeGrenadierTalent|Q|Level20",
+        "talentId": "ZaryaParticleGrenadeGrenadier",
+        "buttonId": "ZaryaParticleGrenadeGrenadierTalent",
+        "abilityId": "ZaryaParticleGrenade",
+        "icon": "storm_ui_icon_zarya_particlegrenade.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "ZaryaParticleGrenade|ZaryaParticleGrenade|Q"
+        ]
+      },
+      {
+        "linkId": "ZaryaUnyieldingDefender|ZaryaUnyieldingDefenderTalent|Active|Level20",
+        "talentId": "ZaryaUnyieldingDefender",
+        "buttonId": "ZaryaUnyieldingDefenderTalent",
+        "abilityId": "ZaryaUnyieldingDefender",
+        "icon": "storm_ui_icon_zarya_unyieldingdefender.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      }
+    ]
+  },
+  "sheet": "sheets/Zarya.png",
+  "icons": {
+    "storm_ui_icon_zarya_particlegrenade.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_zarya_personalbarrier.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_zarya_shieldally.png": [
+      512,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_zarya_gravitonsurge.png": [
+      768,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_zarya_expulsionzone.png": [
+      0,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_zarya_energy.png": [
+      256,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_mount.png": [
+      512,
+      256,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      768,
+      256,
+      111,
+      71
+    ],
+    "storm_ui_icon_generic_cancel_mount.png": [
+      0,
+      512,
+      76,
+      48
+    ],
+    "storm_ui_icon_zarya_painistemporary.png": [
+      256,
+      512,
+      128,
+      128
+    ],
+    "storm_ui_icon_zarya_unyieldingdefender.png": [
+      512,
+      512,
+      256,
+      256
+    ],
+    "storm_ui_icon_talent_autoattack_damage.png": [
+      768,
+      512,
+      128,
+      128
+    ],
+    "storm_ui_icon_zarya_shieldally_a.png": [
+      0,
+      768,
+      128,
+      128
+    ],
+    "storm_ui_icon_zarya_pumped.png": [
+      256,
+      768,
+      128,
+      128
+    ],
+    "storm_ui_icon_zarya_particlegrenade_a.png": [
+      512,
+      768,
+      128,
+      128
+    ],
+    "storm_ui_icon_zarya_personalbarrier_a.png": [
+      768,
+      768,
+      128,
+      128
+    ]
+  }
+}

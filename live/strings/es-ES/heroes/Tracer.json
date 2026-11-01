@@ -1,0 +1,171 @@
+{
+  "abilities": {
+    "TracerBlink|TracerBlink|Q": {
+      "cooldownText": "Tiempo de reutilización de carga: 9 s",
+      "fullText": "Cargas hacia un área.<n/><n/>Puedes almacenar hasta <c val=\"#TooltipNumbers\">3</c> cargas.",
+      "name": "Traslación",
+      "shortText": "Cargas hacia un área."
+    },
+    "TracerMelee|TracerMelee|W": {
+      "cooldownText": "Tiempo de reutilización: 8 s",
+      "fullText": "Infliges <c val=\"#TooltipNumbers\">220</c><c val=\"#ColorGray\">~~0.04~~</c> de daño a un enemigo cercano y das prioridad a los héroes. Bomba de pulsos se carga un <c val=\"#TooltipNumbers\">5%</c> al usar Culatazo contra un enemigo y un <c val=\"#TooltipNumbers\">10%</c> si se usa contra un héroe.",
+      "name": "Culatazo",
+      "shortText": "Atacas a un enemigo cercano."
+    },
+    "TracerRecall|TracerRecall|E": {
+      "cooldownText": "Tiempo de reutilización: 20 s",
+      "fullText": "Después de <c val=\"#TooltipNumbers\">1.25</c> s, vuelves a la posición en la que estabas <c val=\"#TooltipNumbers\">2</c> s antes del lanzamiento, recuperas toda la munición y se eliminan todos los efectos negativos que estuvieras sufriendo.",
+      "name": "Regresión",
+      "shortText": "Vuelves a una ubicación reciente y se eliminan todos los efectos negativos."
+    },
+    "TracerPulseBomb|TracerPulseBomb|Heroic": {
+      "fullText": "Lanzas una bomba de corto alcance que puede adherirse a un enemigo si lo alcanza. La bomba explota al cabo de <c val=\"#TooltipNumbers\">2</c> s e inflige <c val=\"#TooltipNumbers\">298</c><c val=\"#ColorGray\">~~0.06~~</c> de daño al enemigo al que se adhiere y <c val=\"#TooltipNumbers\">149</c><c val=\"#ColorGray\">~~0.06~~</c> de daño a otros enemigos cercanos.<n/><n/>Esta habilidad se va cargando lentamente al infligir daño a los enemigos con los ataques básicos y con Culatazo.",
+      "name": "Bomba de pulsos",
+      "shortText": "Adhieres una bomba al enemigo, lo que le inflige un gran daño."
+    },
+    "TracerReload|TracerReload|Trait": {
+      "cooldownText": "Tiempo de reutilización: 1 s",
+      "fullText": "Puedes realizar ataques básicos mientras te mueves. Tras atacar <c val=\"#TooltipNumbers\">10</c> veces, necesitas <c val=\"#TooltipNumbers\">0.75</c> s para recargar. También puedes recargar manualmente antes de tiempo si activas Recarga.<n/><n/>Los ataques básicos te curan un <c val=\"#TooltipNumbers\">10%</c> del daño infligido.",
+      "name": "Recarga",
+      "shortText": "Puedes moverte mientras usas ataques básicos, pero estos cuestan munición."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Tiempo de reutilización: 4 s",
+      "fullText": "Tras canalizar durante <c val=\"#TooltipNumbers\">1</c> s, obtienes un <s val=\"StandardTooltipDetails\">30%</s> de velocidad de movimiento.",
+      "name": "Invocar montura"
+    },
+    "Hearthstone|HearthstoneNoMana|B": {
+      "fullText": "Tras canalizar durante <c val=\"#TooltipNumbers\">6</c> s, te teletransportas de vuelta a la Cámara de las Tormentas, lo que restaura al instante <c val=\"#TooltipNumbers\">1125</c> de salud.",
+      "name": "Piedra de hogar"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Desmontas.",
+      "name": "Desmontar"
+    },
+    "TracerLockedandLoadedFailReload|TracerLockedandLoadedAbility|Trait": {
+      "cooldownText": "Tiempo de reutilización: 1 s",
+      "fullText": "Reactiva Recarga durante la <c val=\"#TooltipNumbers\">segunda mitad</c> de su tiempo de lanzamiento para aumentar el daño de ataque básico de ese cargador un <c val=\"#TooltipNumbers\">40%</c>.",
+      "name": "Cargada y lista",
+      "shortText": "Recarga en el momento adecuado para obtener daño de ataque básico."
+    },
+    "TracerLockedandLoaded|TracerLockedandLoadedAbility|Trait": {
+      "cooldownText": "Tiempo de reutilización: 1 s",
+      "fullText": "Reactiva Recarga durante la <c val=\"#TooltipNumbers\">segunda mitad</c> de su tiempo de lanzamiento para aumentar el daño de ataque básico de ese cargador un <c val=\"#TooltipNumbers\">40%</c>.",
+      "name": "Cargada y lista",
+      "shortText": "Recarga en el momento adecuado para obtener daño de ataque básico."
+    }
+  },
+  "talents": {
+    "TracerOneTwoPunch|TracerOneTwoPunch|W|Level1": {
+      "fullText": "Reduce el tiempo de reutilización de Culatazo en <c val=\"#TooltipNumbers\">1</c> s y le otorga una carga adicional.",
+      "name": "¡Uno, dos!",
+      "shortText": "Culatazo obtiene una carga adicional y tiene menos tiempo de reutilización."
+    },
+    "TracerPartingGift|TracerPartingGift|E|Level1": {
+      "fullText": "Regresión deja atrás <c val=\"#TooltipNumbers\">6</c> bombas que infligen <c val=\"#TooltipNumbers\">240</c><c val=\"#ColorGray\">~~0.04~~</c> de daño cada una a un objetivo diferente. Los héroes golpeados por estas bombas quedan ralentizados un <c val=\"#TooltipNumbers\">50%</c> durante <c val=\"#TooltipNumbers\">0.75</c> s y otorgan un <c val=\"#TooltipNumbers\">7%</c> de carga de Bomba de pulsos.",
+      "name": "Regalo de despedida",
+      "shortText": "Al usar Regresión, sueltas bombas."
+    },
+    "TracerTracerRounds|TracerTracerRounds|Trait|Level1": {
+      "fullText": "Aumenta el alcance de los ataques básicos un <c val=\"#TooltipNumbers\">10%</c>. Los ataques básicos contra héroes revelan una pequeña área a su alrededor durante <c val=\"#TooltipNumbers\">3</c> s.",
+      "name": "Balas rastreadoras",
+      "shortText": "Los ataques básicos revelan y tienen más alcance."
+    },
+    "TracerLeechingRounds|TracerLeechingRounds|Trait|Level4": {
+      "fullText": "Aumenta la curación de los ataques básicos hasta un <c val=\"#TooltipNumbers\">200%</c>, según la cantidad de salud que te falte.",
+      "name": "Balas succionadoras",
+      "shortText": "Aumenta la curación de los ataques básicos."
+    },
+    "TracerPulseGenerator|TracerPulseGenerator|Heroic|Level4": {
+      "fullText": "Si consigues adherir una bomba de pulsos a un héroe enemigo, te curas un <c val=\"#TooltipNumbers\">12%</c> de tu salud máxima a lo largo de <c val=\"#TooltipNumbers\">1.5</c> s y recuperas una carga de Traslación.",
+      "name": "Generador de pulsos",
+      "shortText": "Bomba de pulsos te cura y restablece una carga de Traslación."
+    },
+    "TracerIsThataHealthPack|TracerIsthataHealthPack|Passive|Level4": {
+      "fullText": "Recoger una esfera de regeneración te cura un <c val=\"#TooltipNumbers\">15%</c> de tu salud máxima al instante y reduce <c val=\"#TooltipNumbers\">15</c> s el tiempo de reutilización de la fuente de sanación.<n/><n/>Beber de una fuente de sanación te cura un <c val=\"#TooltipNumbers\">20%</c> de tu salud máxima al instante.",
+      "name": "¿Eso es un pack de salud?",
+      "shortText": "Potencia las fuentes de sanación y las esferas de regeneración."
+    },
+    "TracerSleightofHand|TracerSleightofHand|Trait|Level7": {
+      "fullText": "Reduce el tiempo de Recarga un <c val=\"#TooltipNumbers\">50%</c>, lo que equivale a un <c val=\"#TooltipNumbers\">20%</c> más de daño por segundo.",
+      "name": "Destreza manual",
+      "shortText": "Recargas 2 veces más rápido."
+    },
+    "TracerFocusFire|TracerFocusFire|Trait|Level7": {
+      "fullText": "Si se descarga todo el cargador contra un enemigo en un plazo de <c val=\"#TooltipNumbers\">2</c> s, la última bala infligirá <c val=\"#TooltipNumbers\">80</c><c val=\"#ColorGray\">~~0.04~~</c> más de daño. Esto equivale a un <c val=\"#TooltipNumbers\">35%</c> del total del cargador.",
+      "name": "Fuego concentrado",
+      "shortText": "Vaciar un cargador contra un enemigo inflige daño adicional."
+    },
+    "TracerLockedandLoaded|TracerLockedandLoaded|Trait|Level7": {
+      "fullText": "Reactiva Recarga durante la <c val=\"#TooltipNumbers\">segunda mitad</c> de su tiempo de lanzamiento para aumentar el daño de ataque básico de ese cargador un <c val=\"#TooltipNumbers\">40%</c>.",
+      "name": "Cargada y lista",
+      "shortText": "Recarga en el momento adecuado para obtener daño de ataque básico."
+    },
+    "TracerStickyBomb|TracerStickyBomb|Heroic|Level10": {
+      "fullText": "Aumenta el radio de Bomba de pulsos un <c val=\"#TooltipNumbers\">50%</c> y los enemigos golpeados quedan ralentizados un <c val=\"#TooltipNumbers\">70%</c> durante <c val=\"#TooltipNumbers\">3</c> s.",
+      "name": "Bomba adhesiva",
+      "shortText": "Aumenta el área de Bomba de pulsos, que ahora ralentiza."
+    },
+    "TracerQuantumSpike|TracerQuantumSpike|Heroic|Level10": {
+      "fullText": "Bomba de pulsos inflige un <c val=\"#TooltipNumbers\">6%</c> de la salud máxima como daño adicional a los héroes.",
+      "name": "Pico cuántico",
+      "shortText": "Bomba de pulsos inflige un porcentaje de daño."
+    },
+    "TracerPulseRounds|TracerPulseRounds|Heroic|Level10": {
+      "fullText": "Aumenta un <c val=\"#TooltipNumbers\">100%</c> el alcance de Bomba de pulsos y su ritmo de carga cuando utilizas ataques básicos contra héroes.",
+      "name": "Balas de pulsos",
+      "shortText": "Aumenta el alcance de Bomba de pulsos y su ritmo de carga."
+    },
+    "TracerUntouchable|TracerUntouchable|Q|Level13": {
+      "fullText": "<c val=\"#AbilityPassive\">Pasiva: </c>Después de usar Traslación, obtienes un <c val=\"#TooltipNumbers\">20%</c> de velocidad de movimiento durante <c val=\"#TooltipNumbers\">1.25</c> s.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Misión:</c> Participa en bajas para aumentar tu daño de ataque básico un <c val=\"#TooltipNumbers\">5%</c>, hasta un <c val=\"#TooltipNumbers\">25%</c>. Esta bonificación se pierde al morir.",
+      "name": "Intocable",
+      "shortText": "<c val=\"#TooltipQuest\">Misión:</c> Participa en bajas para aumentar el daño de ataque."
+    },
+    "TracerJumper|TracerJumper|Q|Level13": {
+      "fullText": "<c val=\"#AbilityPassive\">Pasiva:</c> Cuando no te quedan cargas de Traslación, su tiempo de reutilización se recarga un <c val=\"#TooltipNumbers\">100%</c> más rápido.<n/><n/>Lanzar Traslación te otorga un escudo equivalente a un <c val=\"#TooltipNumbers\">6%</c> de tu salud máxima durante <c val=\"#TooltipNumbers\">3</c> s. Este escudo se acumula hasta <c val=\"#TooltipNumbers\">3</c> veces.",
+      "name": "Velocidad absurda",
+      "shortText": "Traslación otorga un escudo y tiene menos tiempo de reutilización."
+    },
+    "TracerTelefrag|TracerTelefrag|E|Level13": {
+      "fullText": "<c val=\"#AbilityPassive\">Pasiva:</c> Los ataques básicos contra héroes enemigos reducen <c val=\"#TooltipNumbers\">0.1875</c> s el tiempo de reutilización de Regresión.<n/><n/>Cuando llegas a la ubicación de Regresión, te vuelves inmortal durante <c val=\"#TooltipNumbers\">1</c> s, repeles a los enemigos cercanos y les infliges <c val=\"#TooltipNumbers\">175</c><c val=\"#ColorGray\">~~0.04~~</c> de daño.",
+      "name": "Daño de distorsión",
+      "shortText": "Daño y repulsión al llegar a la ubicación de Regresión."
+    },
+    "TracerBulletSprayMelee|TracerBulletSprayMelee|W|Level16": {
+      "fullText": "Aumenta el radio de Culatazo un <c val=\"#TooltipNumbers\">30%</c> y hace que inflija daño a todos los enemigos a su alcance.",
+      "name": "Ráfaga de balas",
+      "shortText": "Culatazo golpea a todos los enemigos al alcance."
+    },
+    "TracerHeavyHanded|TracerHeavyHanded|W|Level16": {
+      "fullText": "Reduce la armadura de los héroes golpeados por Culatazo en <c val=\"#TooltipNumbers\">15</c> durante <c val=\"#TooltipNumbers\">4</c> s.",
+      "name": "Mano dura",
+      "shortText": "Culatazo reduce la armadura."
+    },
+    "TracerRicochetHeroWeapon|TracerRicochetHeroWeapon|Trait|Level16": {
+      "fullText": "Tus ataques básicos tienen un <c val=\"#TooltipNumbers\">60%</c> de probabilidad de golpear a otro enemigo cercano y dan prioridad a los héroes.",
+      "name": "Rebote",
+      "shortText": "Los ataques básicos pueden rebotar a un enemigo cercano."
+    },
+    "TracerChronoTriggers|TracerChronoTriggers|Q|Level20": {
+      "fullText": "Lanzar Traslación hace que tus ataques básicos no consuman munición durante <c val=\"#TooltipNumbers\">1</c> s.",
+      "name": "Cronoactivadores",
+      "shortText": "Traslación potencia la munición."
+    },
+    "TracerGetStuffedMelee|TracerGetStuffedMelee|W|Level20": {
+      "fullText": "Aumenta la carga de Bomba de pulsos que recibes al golpear a héroes con Culatazo de un <c val=\"#TooltipNumbers\">10%</c> a un <c val=\"#TooltipNumbers\">20%</c>. Golpear con Culatazo a un enemigo que tiene una bomba de pulsos adherida hace que la bomba explote al instante y repela al objetivo.",
+      "name": "¡Piérdete!",
+      "shortText": "Potencia Culatazo."
+    },
+    "TracerTotalRecallRecall|TracerTotalRecallRecall|E|Level20": {
+      "fullText": "Regresión restaura la salud que has perdido en ese tiempo.",
+      "name": "Regresión total",
+      "shortText": "Regresión puede restaurar salud."
+    },
+    "TracerCompositionBPulseBomb|TracerCompositionBPulseBomb|Heroic|Level20": {
+      "fullText": "Si consigues adherir una bomba de pulsos a un héroe enemigo, también lanzas otra a sus pies que explota un poco antes e inflige un <c val=\"#TooltipNumbers\">50%</c> de daño.",
+      "name": "Compuesto B",
+      "shortText": "Si alcanzas a un héroe con Bomba de pulsos, le lanzas otra más."
+    }
+  },
+  "units": {}
+}

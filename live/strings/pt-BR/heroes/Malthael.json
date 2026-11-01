@@ -1,0 +1,209 @@
+{
+  "abilities": {
+    "MalthaelSoulRip|MalthaelSoulRip|Q": {
+      "cooldownText": "Recarga: 2 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 25</s>",
+      "fullText": "Extrai a alma de inimigos próximos afligidos pela <c val=\"#MalthaelTrait\">Marca do Ceifador</c>, causando <c val=\"#TooltipNumbers\">100</c><c val=\"#ColorGray\">~~0.04~~</c> de dano e curando <c val=\"#TooltipNumbers\">25</c><c val=\"#ColorGray\">~~0.04~~</c> de Vida de Maltael para cada alvo atingido. Alvos Heroicos o curam em mais <c val=\"#TooltipNumbers\">4%</c> do máximo de Vida dos Heróis.",
+      "name": "Rasgar Alma",
+      "shortText": "Causa dano aos inimigos Marcados e cura"
+    },
+    "MalthaelWraithStrike|MalthaelWraithStrike|W": {
+      "cooldownText": "Recarga: 5 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 30</s>",
+      "fullText": "Teleporta-se instantaneamente através de um inimigo afligido pela <c val=\"#MalthaelTrait\">Marca do Ceifador</c>, causando <c val=\"#TooltipNumbers\">59</c><c val=\"#ColorGray\">~~0.04~~</c> de dano e restaurando a <c val=\"#MalthaelTrait\">Marca do Ceifador</c>.",
+      "name": "Golpe Espectral",
+      "shortText": "Teleporta-se para um alvo Marcado"
+    },
+    "MalthaelDeathShroud|MalthaelDeathShroud|E": {
+      "cooldownText": "Recarga: 8 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Depois de <c val=\"#TooltipNumbers\">0.25</c> s, dispara uma névoa sombria que aplica <c val=\"#MalthaelTrait\">Marca do Ceifador</c> aos inimigos atingidos.",
+      "name": "Mortalha Sombria",
+      "shortText": "Dispara uma onda que aplica Marca do Ceifador"
+    },
+    "MalthaelTormentedSouls|MalthaelTormentedSouls|Heroic": {
+      "cooldownText": "Recarga: 60 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 20</s>",
+      "fullText": "Solta uma torrente de almas, aplicando continuamente <c val=\"#MalthaelTrait\">Marca do Ceifador</c> a inimigos próximos por <c val=\"#TooltipNumbers\">4</c> s.<n/><n/>Almas Atormentadas conclui a recarga de Golpe Espectral quando ativada e, enquanto ativa, a habilidade Golpe Espectral não custa Mana e sua recarga é reduzida a <c val=\"#TooltipNumbers\">2</c> s.",
+      "name": "Almas Atormentadas",
+      "shortText": "Aplica Marca do Ceifador aos inimigos próximos"
+    },
+    "MalthaelLastRites|MalthaelLastRites|Heroic": {
+      "cooldownText": "Recarga: 70 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 100</s>",
+      "fullText": "Aplica uma sentença de morte a um Herói inimigo. Depois de <c val=\"#TooltipNumbers\">2</c> s, causa dano equivalente a <c val=\"#TooltipNumbers\">50%</c> da Vida faltante desse Herói.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Missão:</c> Inimigos mortos entre a aplicação de Últimos Ritos e <c val=\"#TooltipNumbers\">1.5</c> s após ela causar dano reduzem permanentemente a recarga em <c val=\"#TooltipNumbers\">5</c> s, até o mínimo de <c val=\"#TooltipNumbers\">20</c> s.",
+      "name": "Últimos Ritos",
+      "shortText": "<c val=\"#TooltipQuest\">Missão:</c> Causar dano a um Herói com base na Vida faltante dele"
+    },
+    ":PASSIVE:|MalthaelReapersMark|Trait": {
+      "fullText": "Ataques Básicos cutilam a área à frente de Maltael e aplicam <c val=\"#MalthaelTrait\">Marca do Ceifador</c> a alvos que não sejam Estruturas por <c val=\"#TooltipNumbers\">4</c> s. Inimigos marcados ficam revelados e recebem dano equivalente a <c val=\"#TooltipNumbers\">2%</c> do máximo de Vida deles a cada <c val=\"#TooltipNumbers\">1</c> s.",
+      "name": "Marca do Ceifador",
+      "shortText": "Ataques Básicos cutilam e aplicam Marca do Ceifador"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Recarga: 4 segundos",
+      "fullText": "Depois de canalizar por <c val=\"#TooltipNumbers\">1</c> s, ganha <s val=\"StandardTooltipDetails\">30%</s> de Velocidade de Movimento.",
+      "name": "Evocar Montaria"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Depois de canalizar por <c val=\"#TooltipNumbers\">6</c> s, teleporta você de volta para o Salão das Tempestades, restaurando instantaneamente <c val=\"#TooltipNumbers\">1125</c> de Vida e <c val=\"#TooltipNumbers\">150</c> de Mana.",
+      "name": "Pedra de Regresso"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Desmonta você.",
+      "name": "Dispensar Montaria"
+    },
+    "MalthaelFearTheReaper|MalthaelFearTheReaper|Active": {
+      "cooldownText": "Recarga: 25 segundos",
+      "fullText": "Ative para aumentar a velocidade de movimento em <c val=\"#TooltipNumbers\">25%</c> e atravessar outras unidades por <c val=\"#TooltipNumbers\">4</c> s.",
+      "name": "Pavor da Morte",
+      "shortText": "Ative para aumentar a velocidade de movimento"
+    },
+    "MalthaelTouchOfDeath|MalthaelTouchOfDeath|Active": {
+      "cooldownText": "Recarga: 20 segundos",
+      "fullText": "Ative para reduzir em <c val=\"#TooltipNumbers\">50%</c> a cura recebida por Heróis afligidos pela <c val=\"#MalthaelTrait\">Marca do Ceifador</c> por <c val=\"#TooltipNumbers\">4</c> s.",
+      "name": "Toque da Morte",
+      "shortText": "Ative para reduzir cura do inimigo"
+    },
+    "MalthaelInevitableEnd|MalthaelInevitableEnd|Active": {
+      "cooldownText": "Recarga: 20 segundos",
+      "fullText": "Ative para se tornar Irrefreável por <c val=\"#TooltipNumbers\">2</c> s, mas isso remove todas as suas <c val=\"#MalthaelTrait\">Marcas de Ceifador</c> ativas.",
+      "name": "Fim Inevitável",
+      "shortText": "Ative para se tornar Irrefreável e remover as Marcas"
+    },
+    "MalthaelShroudOfWisdom|MalthaelShroudOfWisdom|Active": {
+      "cooldownText": "Recarga: 20 segundos",
+      "fullText": "Após <c val=\"#TooltipNumbers\">2</c> s, Maltael recebe <c val=\"#TooltipNumbers\">50</c> de Armadura Mágica por <c val=\"#TooltipNumbers\">4</c> s.",
+      "name": "Mortalha da Sabedoria",
+      "shortText": "Ative para receber Armadura Mágica"
+    },
+    "MalthaelNoOneCanStopDeath|MalthaelNoOneCanStopDeath|Active": {
+      "cooldownText": "Recarga: 180 segundos",
+      "fullText": "Ative enquanto estiver morto para renascer imediatamente no Salão das Tempestades, mas isso aumenta o próximo tempo de reaparecimento de Maltael em <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Ninguém Detém a Morte",
+      "shortText": "Ative para reaparecer"
+    }
+  },
+  "talents": {
+    "MalthaelDeathsReach|MalthaelDeathsReach|W|Level1": {
+      "fullText": "Aumenta o alcance de Golpe Espectral em <c val=\"#TooltipNumbers\">35%</c>.",
+      "name": "Garras da Morte",
+      "shortText": "Aumenta o alcance de Golpe Espectral"
+    },
+    "MalthaelOnAPaleHorse|MalthaelOnAPaleHorse|Passive|Level1": {
+      "fullText": "Aumenta em <c val=\"#TooltipNumbers\">20%</c> a velocidade de movimento enquanto montado.",
+      "name": "A Morte Vem a Galope",
+      "shortText": "Aumenta a velocidade de movimento montado"
+    },
+    "MalthaelFearTheReaper|MalthaelFearTheReaper|Active|Level1": {
+      "cooldownText": "Recarga: 25 segundos",
+      "fullText": "Ative para aumentar a velocidade de movimento em <c val=\"#TooltipNumbers\">25%</c> e atravessar outras unidades por <c val=\"#TooltipNumbers\">4</c> s.",
+      "name": "Pavor da Morte",
+      "shortText": "Ative para aumentar a velocidade de movimento"
+    },
+    "MalthaelDieAlone|MalthaelDieAlone|Q|Level4": {
+      "fullText": "Rasgar Alma causa <c val=\"#TooltipNumbers\">50%</c> a mais de dano a Heróis se atingir apenas um Herói.",
+      "name": "Morte Solitária",
+      "shortText": "Aumenta o dano de Rasgar Alma contra alvo único"
+    },
+    "MalthaelThrowingShade|MalthaelThrowingShade|E|Level4": {
+      "fullText": "Aumenta o alcance da Mortalha Sombria em <c val=\"#TooltipNumbers\">33%</c>, reduz a recarga em <c val=\"#TooltipNumbers\">3</c> s e reduz o custo de Mana de <c val=\"#TooltipNumbers\">50</c> para <c val=\"#TooltipNumbers\">30</c>.<n/><n/>O impacto inicial da Mortalha da Morte causa dano equivalente a <c val=\"#TooltipNumbers\">2%</c> do máximo de Vida a inimigos que não sejam Estruturas.",
+      "name": "Alcance Nefasto",
+      "shortText": "Aumenta o alcance da Mortalha Sombria; reduz a recarga"
+    },
+    "MalthaelBlackHarvest|MalthaelBlackHarvest|Trait|Level4": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Missão:</c> Aplicar <c val=\"#MalthaelTrait\">Marca do Ceifador</c> a Heróis por um total de <c val=\"#TooltipNumbers\">150</c> s.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa:</c> Aumenta permanentemente a duração da <c val=\"#MalthaelTrait\">Marca do Ceifador</c> em <c val=\"#TooltipNumbers\">2</c> s.",
+      "name": "Colheita Negra",
+      "shortText": "<c val=\"#TooltipQuest\">Missão:</c> Aumenta a duração de Marca do Ceifador"
+    },
+    "MalthaelColdHand|MalthaelColdHand|Q|Level7": {
+      "fullText": "Rasgar Alma desacelera os inimigos em <c val=\"#TooltipNumbers\">20%</c> por <c val=\"#TooltipNumbers\">2.5</c> s.",
+      "name": "Mão Fria",
+      "shortText": "Rasgar Alma desacelera"
+    },
+    "MalthaelMassacre|MalthaelMassacre|W|Level7": {
+      "fullText": "Golpe Espectral agora causa dano e aplica <c val=\"#MalthaelTrait\">Marca do Ceifador</c> a inimigos em torno do alvo principal.",
+      "name": "Massacre",
+      "shortText": "Golpe Espectral atinge uma área"
+    },
+    "MalthaelTouchOfDeath|MalthaelTouchOfDeath|Active|Level7": {
+      "cooldownText": "Recarga: 20 segundos",
+      "fullText": "Ative para reduzir em <c val=\"#TooltipNumbers\">50%</c> a cura recebida por Heróis afligidos pela <c val=\"#MalthaelTrait\">Marca do Ceifador</c> por <c val=\"#TooltipNumbers\">4</c> s.",
+      "name": "Toque da Morte",
+      "shortText": "Ative para reduzir cura do inimigo"
+    },
+    "MalthaelTormentedSouls|MalthaelTormentedSouls|Heroic|Level10": {
+      "cooldownText": "Recarga: 60 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 20</s>",
+      "fullText": "Solta uma torrente de almas, aplicando continuamente <c val=\"#MalthaelTrait\">Marca do Ceifador</c> a inimigos próximos por <c val=\"#TooltipNumbers\">4</c> s.<n/><n/>Almas Atormentadas conclui a recarga de Golpe Espectral quando ativada e, enquanto ativa, a habilidade Golpe Espectral não custa Mana e sua recarga é reduzida a <c val=\"#TooltipNumbers\">2</c> s.",
+      "name": "Almas Atormentadas",
+      "shortText": "Aplica Marca do Ceifador aos inimigos próximos"
+    },
+    "MalthaelLastRites|MalthaelLastRites|Heroic|Level10": {
+      "cooldownText": "Recarga: 70 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 100</s>",
+      "fullText": "Aplica uma sentença de morte a um Herói inimigo. Depois de <c val=\"#TooltipNumbers\">2</c> s, causa dano equivalente a <c val=\"#TooltipNumbers\">50%</c> da Vida faltante desse Herói.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Missão:</c> Inimigos mortos entre a aplicação de Últimos Ritos e <c val=\"#TooltipNumbers\">1.5</c> s após ela causar dano reduzem permanentemente a recarga em <c val=\"#TooltipNumbers\">5</c> s, até o mínimo de <c val=\"#TooltipNumbers\">20</c> s.",
+      "name": "Últimos Ritos",
+      "shortText": "<c val=\"#TooltipQuest\">Missão:</c> Causar dano a um Herói com base na Vida faltante dele"
+    },
+    "MalthaelSoulSiphon|MalthaelSoulSiphon|Q|Level13": {
+      "fullText": "Aumenta para <c val=\"#TooltipNumbers\">4.75%</c> do máximo de Vida do Herói o bônus de cura decorrente de usar Rasgar Alma em Heróis.",
+      "name": "Sifão da Alma",
+      "shortText": "Aumenta a cura de Rasgar Alma"
+    },
+    "MalthaelEtherealExistence|MalthaelEtherealExistence|Trait|Level13": {
+      "fullText": "Recebe <c val=\"#TooltipNumbers\">10</c> de Armadura Física por Herói inimigo atingido pela <c val=\"#MalthaelTrait\">Marca do Ceifador</c>, até o máximo de <c val=\"#TooltipNumbers\">30</c>.",
+      "name": "Existência Etérea",
+      "shortText": "Alvos marcados concedem Armadura Física"
+    },
+    "MalthaelInevitableEnd|MalthaelInevitableEnd|Active|Level13": {
+      "cooldownText": "Recarga: 20 segundos",
+      "fullText": "Ative para se tornar Irrefreável por <c val=\"#TooltipNumbers\">2</c> s, mas isso remove todas as suas <c val=\"#MalthaelTrait\">Marcas de Ceifador</c> ativas.",
+      "name": "Fim Inevitável",
+      "shortText": "Ative para se tornar Irrefreável e remover as Marcas"
+    },
+    "MalthaelShroudOfWisdom|MalthaelShroudOfWisdom|Active|Level13": {
+      "cooldownText": "Recarga: 20 segundos",
+      "fullText": "Após <c val=\"#TooltipNumbers\">2</c> s, Maltael recebe <c val=\"#TooltipNumbers\">50</c> de Armadura Mágica por <c val=\"#TooltipNumbers\">4</c> s.",
+      "name": "Mortalha da Sabedoria",
+      "shortText": "Ative para receber Armadura Mágica"
+    },
+    "MalthaelSoulCollector|MalthaelSoulCollector|Q|Level16": {
+      "fullText": "Reduz em <c val=\"#TooltipNumbers\">0.5</c> s a recarga de Rasgar Alma e aumenta o alcance em <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Colecionador de Almas",
+      "shortText": "Aumenta o alcance de Rasgar Alma e reduz a recarga"
+    },
+    "MalthaelMortality|MalthaelMortality|W|Level16": {
+      "fullText": "Quando causa dano a um Herói, Golpe Espectral causa dano extra equivalente a <c val=\"#TooltipNumbers\">8%</c> do máximo de Vida dele.",
+      "name": "Mortalidade",
+      "shortText": "Golpe Espectral causa dano extra a Heróis"
+    },
+    "MalthaelMementoMori|MalthaelMementoMori|Trait|Level16": {
+      "fullText": "<c val=\"#MalthaelTrait\">Marca do Ceifador</c> causa <c val=\"#TooltipNumbers\">60%</c> a mais de dano após afligir um inimigo por mais de <c val=\"#TooltipNumbers\">4</c> s.",
+      "name": "Memento Mori",
+      "shortText": "Marca do Ceifador causa mais dano ao longo do tempo"
+    },
+    "MalthaelReaperOfSouls|MalthaelReaperOfSouls|Heroic|Level20": {
+      "fullText": "Aumenta a duração de Almas Atormentadas para <c val=\"#TooltipNumbers\">6</c> s e, enquanto Almas Atormentadas está ativa, abates de Herói restauram a duração dela.<n/><n/>Se <c val=\"#TooltipNumbers\">2</c> ou mais Heróis inimigos estiverem no raio de Almas Atormentadas, ela não perde força.",
+      "name": "Ceifador de Almas",
+      "shortText": "Estende a duração de Almas Atormentadas"
+    },
+    "MalthaelAngelOfDeath|MalthaelAngelOfDeath|Heroic|Level20": {
+      "fullText": "Últimos Ritos cura <c val=\"#TooltipNumbers\">100%</c> do dano causado, e o bônus de redução de recarga atual é duplicado, assim como os bônus futuros.",
+      "name": "Anjo da Morte",
+      "shortText": "Últimos Ritos cura"
+    },
+    "MalthaelFinalCurtain|MalthaelFinalCurtain|E|Level20": {
+      "fullText": "Mortalha Sombria deixa uma trilha por <c val=\"#TooltipNumbers\">4</c> s, aplicando <c val=\"#MalthaelTrait\">Marca do Ceifador</c> aos inimigos nessa área.",
+      "name": "Cortina Final",
+      "shortText": "Mortalha Sombria deixa uma trilha"
+    },
+    "MalthaelNoOneCanStopDeath|MalthaelNoOneCanStopDeath|Active|Level20": {
+      "cooldownText": "Recarga: 180 segundos",
+      "fullText": "Ative enquanto estiver morto para renascer imediatamente no Salão das Tempestades, mas isso aumenta o próximo tempo de reaparecimento de Maltael em <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Ninguém Detém a Morte",
+      "shortText": "Ative para reaparecer"
+    }
+  },
+  "units": {}
+}

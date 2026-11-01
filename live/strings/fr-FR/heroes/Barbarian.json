@@ -1,0 +1,205 @@
+{
+  "abilities": {
+    "BarbarianAncientSpear|BarbarianAncientSpear|Q": {
+      "cooldownText": "Temps de recharge : 13 secondes",
+      "fullText": "Projette une lance qui attire vers le premier ennemi touché, lui inflige <c val=\"#TooltipNumbers\">173</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts et l’étourdit brièvement. Si la lance touche un ennemi, génère <c val=\"#TooltipNumbers\">40</c> points de fureur.",
+      "name": "Lance des anciens",
+      "shortText": "Projette une lance qui attire Sonya vers le premier ennemi touché, l’étourdit et lui inflige des dégâts."
+    },
+    "BarbarianSeismicSlam|BarbarianSeismicSlam|W": {
+      "cooldownText": "Temps de recharge : 1 seconde",
+      "energyText": "<s val=\"StandardTooltipDetails\">Fureur : 25</s>",
+      "fullText": "Inflige <c val=\"#TooltipNumbers\">176</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts à la cible ennemie et <c val=\"#TooltipNumbers\">44</c><c val=\"#ColorGray\">~~0.04~~</c> aux ennemis derrière elle.",
+      "name": "Secousse sismique",
+      "shortText": "Inflige des dégâts à un ennemi et des dégâts de zone derrière lui."
+    },
+    "BarbarianWhirlwind|BarbarianWhirlwind|E": {
+      "cooldownText": "Temps de recharge :<sp/>5 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Fureur : 40</s>",
+      "fullText": "Inflige <c val=\"#TooltipNumbers\">138</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts par seconde aux ennemis proches pendant <c val=\"#TooltipNumbers\">3</c> secondes, et rend un montant de points de vie égal à <c val=\"#TooltipNumbers\">25%</c> des dégâts infligés. Effet de soin triplé contre les héros.",
+      "name": "Trombe",
+      "shortText": "Inflige des dégâts aux ennemis proches et rend en points de vie une partie des dégâts infligés."
+    },
+    "BarbarianLeap|BarbarianLeap|Heroic": {
+      "cooldownText": "Temps de recharge : 60 secondes",
+      "fullText": "Un grand bond qui inflige <c val=\"#TooltipNumbers\">135</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts aux ennemis proches et les étourdit pendant <c val=\"#TooltipNumbers\">1.25</c> seconde.",
+      "name": "Bond",
+      "shortText": "Bondit vers l’endroit ciblé, frappe les ennemis et les étourdit."
+    },
+    "BarbarianWrathoftheBerserker|BarbarianWrathoftheBerserker|Heroic": {
+      "cooldownText": "Temps de recharge : 60 secondes",
+      "fullText": "Augmente les dégâts infligés de <c val=\"#TooltipNumbers\">40%</c> et réduit la durée des étourdissements, ralentissements et immobilisations contre Sonya de <c val=\"#TooltipNumbers\">50%</c>. Dure <c val=\"#TooltipNumbers\">15</c> secondes, prolongées de <c val=\"#TooltipNumbers\">1</c> seconde par tranche de <c val=\"#TooltipNumbers\">10</c> points de fureur obtenus.",
+      "name": "Courroux du berserker",
+      "shortText": "Augmente les dégâts et réduit la durée des effets incapacitants."
+    },
+    ":PASSIVE:|BarbarianFury|Trait": {
+      "fullText": "La fureur remplace le mana, et s’obtient en infligeant ou subissant des dégâts avec les attaques de base. Utiliser une capacité de base ou héroïque confère un bonus de <c val=\"#TooltipNumbers\">10%</c> à la vitesse de déplacement pendant <c val=\"#TooltipNumbers\">4</c> secondes.",
+      "name": "Fureur",
+      "shortText": "Génère de la fureur au combat. L’utilisation de capacités augmente la vitesse de déplacement."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Temps de recharge : 4 secondes",
+      "fullText": "Après <c val=\"#TooltipNumbers\">1</c> seconde de canalisation, augmente la vitesse de déplacement de <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Appeler une monture"
+    },
+    "Hearthstone|HearthstoneNoMana|B": {
+      "fullText": "Après <c val=\"#TooltipNumbers\">6</c> secondes de canalisation, téléporte au hall des Tempêtes et rend instantanément <c val=\"#TooltipNumbers\">1125</c> points de vie.",
+      "name": "Pierre de foyer"
+    },
+    "BarbarianWhirlwindCancel|BarbarianWhirlwindCancel|E": {
+      "fullText": "Annule la capacité Trombe.",
+      "name": "Annuler la trombe"
+    },
+    "BarbarianCancelLeapArreatCrater|BarbarianLeapArreatCraterCancel|Heroic": {
+      "cooldownText": "Temps de recharge : 1.5 secondes",
+      "fullText": "Annule la capacité Cratère d’Arreat.",
+      "name": "Annuler le Bond"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Permet de descendre de la monture.",
+      "name": "Renvoyer la monture"
+    },
+    "BarbarianShotofFury|BarbarianFuryShotOfFury|Trait": {
+      "cooldownText": "Temps de recharge : 40 secondes",
+      "fullText": "La fureur remplace le mana, et s’obtient en infligeant ou subissant des dégâts avec les attaques de base. Utiliser une capacité de base ou héroïque confère un bonus de <c val=\"#TooltipNumbers\">10%</c> à la vitesse de déplacement pendant <c val=\"#TooltipNumbers\">4</c> secondes.",
+      "name": "Fureur"
+    },
+    "BarbarianBattleRage|BarbarianBattleRage|Active": {
+      "cooldownText": "Temps de recharge : 30 secondes",
+      "fullText": "Activer rend instantanément <c val=\"#TooltipNumbers\">10%</c> de son maximum de points de vie à Sonya. Cumule jusqu’à <c val=\"#TooltipNumbers\">2</c> charges. Utilisable pendant que Trombe est active.<n/><n/><c val=\"#AbilityPassive\">Effet passif :</c> Sonya inflige des dégâts augmentés de <c val=\"#TooltipNumbers\">25%</c> aux mercenaires.",
+      "name": "Fureur guerrière",
+      "shortText": "Soigne à l’activation et augmente les dégâts infligés aux mercenaires."
+    },
+    "BarbarianNervesOfSteel|BarbarianNervesOfSteel|Active": {
+      "cooldownText": "Temps de recharge : 60 secondes",
+      "fullText": "Génère un bouclier égal à <c val=\"#TooltipNumbers\">25%</c> des points de vie maximum pendant <c val=\"#TooltipNumbers\">3</c> secondes. Utilisable pendant que Trombe est active.",
+      "name": "Nerfs d’acier",
+      "shortText": "Confère un bouclier."
+    },
+    "BarbarianStridingGiant|BarbarianStridingGiantActive|Heroic": {
+      "cooldownText": "Temps de recharge : 30 secondes",
+      "fullText": "Rend Insensible aux effets de contrôle pendant <c val=\"#TooltipNumbers\">2</c> secondes. Utilisable uniquement pendant que Courroux du berserker est actif.",
+      "name": "Jeu de jambes"
+    },
+    "BarbarianIgnorePain|BarbarianIgnorePain|Active": {
+      "cooldownText": "Temps de recharge : 60 secondes",
+      "fullText": "Génère <c val=\"#TooltipNumbers\">60</c> points d’armure pendant <c val=\"#TooltipNumbers\">4</c> secondes, ce qui réduit les dégâts subis de <c val=\"#TooltipNumbers\">60%</c>. Utilisable pendant que Trombe est active.",
+      "name": "Dure au mal",
+      "shortText": "Confère une grande quantité d’armure."
+    }
+  },
+  "talents": {
+    "BarbarianFuriousBlow|BarbarianSeismicSlamFuriousBlowTalent|W|Level1": {
+      "fullText": "Toutes les <c val=\"#TooltipNumbers\">4</c> utilisations de Secousse sismique, la compétence inflige <c val=\"#TooltipNumbers\">40%</c> de dégâts supplémentaires à la cible principale et ne coûte pas de fureur.",
+      "name": "Coup furieux",
+      "shortText": "Renforce Secousse sismique"
+    },
+    "BarbarianWarPaint|BarbarianFuryWarPaintTalent|Passive|Level1": {
+      "fullText": "Les attaques de base de Sonya lui rendent un montant de points de vie équivalent à <c val=\"#TooltipNumbers\">30%</c> des dégâts infligés.",
+      "name": "Peintures de guerre",
+      "shortText": "Les attaques de base rendent des points de vie."
+    },
+    "BarbarianToughAsNails|BarbarianToughAsNails|Passive|Level1": {
+      "fullText": "Toutes les <c val=\"#TooltipNumbers\">16</c> secondes, confère <c val=\"#TooltipNumbers\">60</c> points d’armure physique contre la prochaine attaque de base d’un héros adverse, ce qui réduit les dégâts qu’elle inflige à Sonya de <c val=\"#TooltipNumbers\">60%</c>.<n/><n/>Cumule jusqu’à <c val=\"#TooltipNumbers\">3</c> charges. Celles-ci s’accumulent <c val=\"#TooltipNumbers\">200%</c> plus vite tant que le bonus à la vitesse de déplacement conféré par Fureur est actif.",
+      "name": "Dure à cuire",
+      "shortText": "Confère régulièrement de l’armure physique."
+    },
+    "BarbarianShatteredGround|BarbarianSeismicSlamShatteredGroundTalent|W|Level4": {
+      "fullText": "Augmente les dégâts de zone de Secousse sismique de <c val=\"#TooltipNumbers\">250%</c>. Cibler un héros avec Secousse sismique augmente encore ses dégâts de zone de <c val=\"#TooltipNumbers\">250%</c>, tandis que cibler d’autres ennemis augmente la taille de sa zone d’effet de <c val=\"#TooltipNumbers\">66%</c>.",
+      "name": "Terre brisée",
+      "shortText": "Augmente les dégâts de zone de Secousse sismique."
+    },
+    "BarbarianHurricane|BarbarianHurricaneWhirlwindTalent|E|Level4": {
+      "fullText": "Réduit de <c val=\"#TooltipNumbers\">2</c> seconde le temps de recharge de Trombe, qui supprime les effets de ralentissement et d’immobilisation subis.",
+      "name": "Ouragan",
+      "shortText": "Trombe supprime ralentissements et immobilisations."
+    },
+    "BarbarianShotOfFury|BarbarianFuryShotOfFuryTalent|Trait|Level4": {
+      "cooldownText": "Temps de recharge : 40 secondes",
+      "fullText": "Génère <c val=\"#TooltipNumbers\">50</c> points de fureur. Utilisable pendant que Trombe est active.<n/><n/><c val=\"#AbilityPassive\">Effet passif :</c> la première attaque de base portée après Secousse sismique inflige <c val=\"#TooltipNumbers\">40%</c> de dégâts supplémentaires.",
+      "name": "Coup de sang",
+      "shortText": "Confère de la fureur à l’activation."
+    },
+    "BarbarianPoisonedSpear|BarbarianAncientSpearPoisonedSpearTalent|Q|Level7": {
+      "fullText": "Lance des anciens inflige <c val=\"#TooltipNumbers\">100%</c> de dégâts supplémentaires en <c val=\"#TooltipNumbers\">6</c> secondes.",
+      "name": "Lance empoisonnée",
+      "shortText": "Lance des anciens inflige des dégâts sur la durée."
+    },
+    "BarbarianLifeFunnel|BarbarianWhirlwindLifeFunnelTalent|E|Level7": {
+      "fullText": "Porte l’effet de soin de Trombe à <c val=\"#TooltipNumbers\">35%</c> des dégâts infligés.",
+      "name": "Bouffée de vie",
+      "shortText": "Augmente les soins de Trombe."
+    },
+    "BarbarianBattleRage|BarbarianBattleRage|Active|Level7": {
+      "cooldownText": "Temps de recharge : 30 secondes",
+      "fullText": "Activer rend instantanément <c val=\"#TooltipNumbers\">10%</c> de son maximum de points de vie à Sonya. Cumule jusqu’à <c val=\"#TooltipNumbers\">2</c> charges. Utilisable pendant que Trombe est active.<n/><n/><c val=\"#AbilityPassive\">Effet passif :</c> Sonya inflige des dégâts augmentés de <c val=\"#TooltipNumbers\">25%</c> aux mercenaires.",
+      "name": "Fureur guerrière",
+      "shortText": "Soigne à l’activation et augmente les dégâts infligés aux mercenaires."
+    },
+    "BarbarianHeroicAbilityLeap|BarbarianLeap|Heroic|Level10": {
+      "cooldownText": "Temps de recharge : 60 secondes",
+      "fullText": "Un grand bond qui inflige <c val=\"#TooltipNumbers\">135</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts aux ennemis proches et les étourdit pendant <c val=\"#TooltipNumbers\">1.25</c> seconde.",
+      "name": "Bond",
+      "shortText": "Bondit vers l’endroit ciblé, frappe les ennemis et les étourdit."
+    },
+    "BarbarianHeroicAbilityWrathoftheBerserker|BarbarianWrathoftheBerserker|Heroic|Level10": {
+      "cooldownText": "Temps de recharge : 60 secondes",
+      "fullText": "Augmente les dégâts infligés de <c val=\"#TooltipNumbers\">40%</c> et réduit la durée des étourdissements, ralentissements et immobilisations contre Sonya de <c val=\"#TooltipNumbers\">50%</c>. Dure <c val=\"#TooltipNumbers\">15</c> secondes, prolongées de <c val=\"#TooltipNumbers\">1</c> seconde par tranche de <c val=\"#TooltipNumbers\">10</c> points de fureur obtenus.",
+      "name": "Courroux du berserker",
+      "shortText": "Augmente les dégâts et réduit la durée des effets incapacitants."
+    },
+    "BarbarianMysticalSpear|BarbarianAncientSpearMysticalSpearTalent|Q|Level13": {
+      "fullText": "Lance des anciens attire toujours Sonya au point ciblé même si elle ne touche aucun ennemi. Utilisée de la sorte, son temps de recharge est réduit de <c val=\"#TooltipNumbers\">5</c> secondes.",
+      "name": "Lance mystique",
+      "shortText": "Réduit le temps de recharge de Lance des anciens et attire même sans toucher de cible."
+    },
+    "BarbarianRuthless|BarbarianRuthless|E|Level13": {
+      "fullText": "Trombe inflige un supplément de <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts par seconde aux héros disposant de moins de <c val=\"#TooltipNumbers\">50%</c> de leur maximum de points de vie. Ne génère pas de soins supplémentaires.",
+      "name": "Impitoyable",
+      "shortText": "Augmente les dégâts que Trombe inflige aux cibles dont les points de vie sont bas."
+    },
+    "BarbarianNoEscape|BarbarianFuryNoEscapeTalent|Trait|Level13": {
+      "fullText": "Porte le bonus de vitesse de déplacement lié à l’utilisation des capacités (basiques ou héroïques) à <c val=\"#TooltipNumbers\">20%</c>.",
+      "name": "Sans issue",
+      "shortText": "Augmente le bonus de vitesse de déplacement des capacités."
+    },
+    "BarbarianGiantSlammer|BarbarianGiantSlammer|W|Level16": {
+      "fullText": "Les attaques de base et Secousse sismique infligent aux héros un montant de dégâts supplémentaires équivalent à <c val=\"#TooltipNumbers\">1.5%</c> de leur maximum de points de vie et rendent à Sonya un montant de points de vie équivalent à <c val=\"#TooltipNumbers\">60%</c> des dégâts infligés.",
+      "name": "Choc tectonique",
+      "shortText": "Les attaques de base et Secousse sismique infligent des dégâts supplémentaires."
+    },
+    "BarbarianRampage|BarbarianRampage|Passive|Level16": {
+      "fullText": "Augmente les dégâts des attaques de base de <c val=\"#TooltipNumbers\">25%</c>. Les attaques de base réduisent le temps de recharge de Lance des anciens de <c val=\"#TooltipNumbers\">1.5</c> seconde.",
+      "name": "Boucherie",
+      "shortText": "Les attaques de base réduisent le temps de recharge de Lance des anciens."
+    },
+    "BarbarianNervesOfSteel|BarbarianNervesOfSteel|Active|Level16": {
+      "cooldownText": "Temps de recharge : 60 secondes",
+      "fullText": "Génère un bouclier égal à <c val=\"#TooltipNumbers\">25%</c> des points de vie maximum pendant <c val=\"#TooltipNumbers\">3</c> secondes. Utilisable pendant que Trombe est active.",
+      "name": "Nerfs d’acier",
+      "shortText": "Confère un bouclier."
+    },
+    "BarbarianArreatCrater|BarbarianLeapArreatCraterTalent|Heroic|Level20": {
+      "fullText": "Bond génère un cratère infranchissable pendant <c val=\"#TooltipNumbers\">5</c> secondes. Réduit son temps de recharge de <c val=\"#TooltipNumbers\">20</c> secondes.",
+      "name": "Cratère d’Arreat",
+      "shortText": "Bond génère un cratère et bénéficie d’un temps de recharge réduit."
+    },
+    "BarbarianStridingGiant|BarbarianStridingGiant|Heroic|Level20": {
+      "fullText": "Courroux du berserker augmente le maximum de points de vie de <c val=\"#TooltipNumbers\">10%</c> et permet d’utiliser Jeu de jambes, qui rend insensible aux effets de contrôle pendant <c val=\"#TooltipNumbers\">2</c> secondes. <c val=\"#TooltipNumbers\">30</c> secondes de temps de recharge.",
+      "name": "Jeu de jambes",
+      "shortText": "Courroux du berserker peut rendre insensible aux effets de contrôle."
+    },
+    "BarbarianCompositeSpear|BarbarianAncientSpearCompositeSpearTalent|Q|Level20": {
+      "fullText": "Augmente la portée de <c val=\"#TooltipNumbers\">50%</c>. Toucher un héros adverse avec Lance des anciens confère <c val=\"#TooltipNumbers\">25</c> points d’armure pendant <c val=\"#TooltipNumbers\">4</c> secondes.",
+      "name": "Lance composite",
+      "shortText": "Augmente la portée de Lance des anciens et confère de l’armure."
+    },
+    "BarbarianIgnorePain|BarbarianIgnorePain|Active|Level20": {
+      "cooldownText": "Temps de recharge : 60 secondes",
+      "fullText": "Génère <c val=\"#TooltipNumbers\">60</c> points d’armure pendant <c val=\"#TooltipNumbers\">4</c> secondes, ce qui réduit les dégâts subis de <c val=\"#TooltipNumbers\">60%</c>. Utilisable pendant que Trombe est active.",
+      "name": "Dure au mal",
+      "shortText": "Confère une grande quantité d’armure."
+    }
+  },
+  "units": {}
+}

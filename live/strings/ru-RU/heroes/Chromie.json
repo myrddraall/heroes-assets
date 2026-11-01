@@ -1,0 +1,227 @@
+{
+  "abilities": {
+    "ChromieSandBlast|ChromieSandBlast|Q": {
+      "cooldownText": "Время восстановления: 3 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 20</s>",
+      "fullText": "После паузы в <c val=\"#TooltipNumbers\">0.5</c> сек. запускает снаряд, наносящий первому противнику на своем пути <c val=\"#TooltipNumbers\">305</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона. Строения получают <c val=\"#TooltipNumbers\">50%</c> урона.<n/><n/>При использовании «Песчаный вихрь» создает песчаную копию, которая повторяет «Песчаные вихри» и автоатаки Хроми, нанося <c val=\"#TooltipNumbers\">40%</c> урона. Одновременно может существовать не более <c val=\"#TooltipNumbers\">1</c> <lang rule=\"plural\" val=\"\">копии,копий,копий</lang>.",
+      "name": "Песчаный вихрь",
+      "shortText": "Выпускает далеко летящий снаряд, который наносит урон противникам."
+    },
+    "ChromieDragonsBreath|ChromieDragonsBreath|W": {
+      "cooldownText": "Время восстановления: 14 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 65</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">Векторное действие</c><n/>Запускает вверх <c val=\"#TooltipNumbers\">3</c> <lang rule=\"plural\" val=\"\">песчаный поток,песчаных потока,песчаных потоков</lang>, которые приземляются раз в <c val=\"#TooltipNumbers\">0.75</c> сек. Каждый поток наносит противникам в указанной области <c val=\"#TooltipNumbers\">215</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона.",
+      "name": "Дыхание дракона",
+      "shortText": "Обрушивает потоки песка на указанную область."
+    },
+    "ChromieTimeTrap|ChromieTimeTrap|E": {
+      "cooldownText": "Время восстановления: 15 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 20</s>",
+      "fullText": "Создает ловушку, которая после паузы в <c val=\"#TooltipNumbers\">2</c> сек. взводится и получает маскировку. При использовании умения ловушки взрываются, останавливая время для находящихся рядом с ними союзных и вражеских героев на <c val=\"#TooltipNumbers\">2</c> сек. Одновременно может существовать не более <c val=\"#TooltipNumbers\">1</c> <lang rule=\"plural\" val=\"\">ловушки,ловушек,ловушек</lang>.",
+      "name": "Темпоральная ловушка",
+      "shortText": "Размещает ловушку, которая останавливает время для героев."
+    },
+    "ChromieTemporalLoop|ChromieTemporalLoop|Heroic": {
+      "cooldownText": "Время восстановления: 50 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 60</s>",
+      "fullText": "После паузы в <c val=\"#TooltipNumbers\">3</c> сек. телепортирует указанного вражеского героя в место, где он находился в момент применения.<n/><n/>Базовые способности восстанавливаются на <c val=\"#TooltipNumbers\">500%</c> быстрее в течение <c val=\"#TooltipNumbers\">3</c> сек. после применения «Петли времени».",
+      "name": "Петля времени",
+      "shortText": "Телепортирует вражеского героя туда, где он был недавно."
+    },
+    "ChromieSlowingSands|ChromieSlowingSands|Heroic": {
+      "cooldownText": "Время восстановления: 5 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 5 ед. в секунду</s>",
+      "fullText": "Создает в указанной области песчаную бурю, которая замедляет противников на <c val=\"#TooltipNumbers\">10%</c> раз в <c val=\"#TooltipNumbers\">0.25</c> сек., вплоть до <c val=\"#TooltipNumbers\">70%</c>.",
+      "name": "Пески времени",
+      "shortText": "Создает замедляющую противников аномалию."
+    },
+    ":PASSIVE:|ChromieTimewalkerTrait|Trait": {
+      "fullText": "Хроми побывала в будущем, и поэтому получает таланты на <c val=\"#TooltipNumbers\">2</c> уровня раньше всех!<n/><n/><s val=\"StandardTooltipHeader\">Взрыв «Темпоральной ловушки»</s><n/><n/>Взрывает взведенные «Темпоральные ловушки».",
+      "name": "Путешествие во времени",
+      "shortText": "Хроми получает таланты раньше остальных героев."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Время восстановления: 4 сек.",
+      "fullText": "После подготовки длительностью <c val=\"#TooltipNumbers\">1</c> сек. повышает скорость передвижения на <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Вызов транспорта"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "После поддержания в течение <c val=\"#TooltipNumbers\">6</c> сек. телепортирует героя в Зал Штормов, моментально восполняя <c val=\"#TooltipNumbers\">1125</c> ед. здоровья и <c val=\"#TooltipNumbers\">150</c> ед. маны.",
+      "name": "Возвращение"
+    },
+    "ChromieTimeTrapDetonate|ChromieDetonateTimeTrap|Trait": {
+      "fullText": "Взрывает взведенные «Темпоральные ловушки», останавливая время для находящихся рядом с ними союзных и вражеских героев на <c val=\"#TooltipNumbers\">2</c> сек.",
+      "name": "Взрыв «Темпоральной ловушки»",
+      "shortText": "Взрывает ловушку, которая останавливает время для героев."
+    },
+    "ChromieSlowingSandsCancel|ChromieSlowingSandsCancel|Heroic": {
+      "fullText": "Прерывает действие «Песков времени».",
+      "name": "Развеять пески времени"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Покинуть транспорт.",
+      "name": "Отмена транспорта"
+    },
+    "ChromieTimeOut|ChromieTimeOutCancel|Active": {
+      "cooldownText": "Время восстановления: 60 сек.",
+      "fullText": "Прерывает действие «Тайм-аута».",
+      "name": "Отмена «Тайм-аута»",
+      "shortText": "Прерывает действие «Тайм-аута»."
+    },
+    "ChromieTimewalkersPursuit|ChromieTimewalkersPursuitActive|Active": {
+      "cooldownText": "Время восстановления: 25 сек.",
+      "fullText": "При использовании открывает обзор в указанной области на <c val=\"#TooltipNumbers\">4</c> сек. и раскрывает местоположение противников в этой области на <c val=\"#TooltipNumbers\">4</c> сек.",
+      "name": "Погоня за временем",
+      "shortText": "Открывает обзор в области.<n/><c val=\"#TooltipQuest\">Задача:</c> ускорьте восстановление маны."
+    },
+    "ChromieHereAndThere|ChromieHereAndThere|Active": {
+      "cooldownText": "Время восстановления: 20 сек.",
+      "fullText": "При использовании переносит Хроми в область, где находится песчаная копия, а копию – в область, где находилась Хроми.",
+      "name": "И здесь, и там",
+      "shortText": "Меняет Хроми местами с песчаной копией."
+    },
+    "ChromieTimeOut|ChromieTimeOutHotbar|Active": {
+      "cooldownText": "Время восстановления: 60 сек.",
+      "fullText": "При использовании Хроми вводит себя в стазис и становится неуязвимой. Время действия – до <c val=\"#TooltipNumbers\">5</c> сек. Повторное использование отменяет действие этой способности.",
+      "name": "Тайм-аут",
+      "shortText": "Временно делает Хроми неуязвимой."
+    },
+    "ChromieQuantumOverdrive|ChromieQuantumOverdrive|Active": {
+      "cooldownText": "Время восстановления: 45 сек.",
+      "fullText": "При использовании увеличивает силу способностей на <c val=\"#TooltipNumbers\">30%</c> на <c val=\"#TooltipNumbers\">8</c> сек. Когда «Песчаный вихрь» поражает героя, время восстановления «Квантовой перегрузки» сокращается на <c val=\"#TooltipNumbers\">3</c> сек.",
+      "name": "Квантовая перегрузка",
+      "shortText": "Усиливает способности."
+    },
+    "ChromieBlessingOfTheBronze|ChromieBlessingOfTheBronze|Active": {
+      "cooldownText": "Время восстановления: 30 сек.",
+      "fullText": "При использовании Хроми и ее союзники-герои передвигаются на <c val=\"#TooltipNumbers\">20%</c> быстрее, а их базовые способности восстанавливаются на <c val=\"#TooltipNumbers\">35%</c> быстрее в течение <c val=\"#TooltipNumbers\">8</c> сек.<n/><n/>Когда «Песчаный вихрь» Хроми или ее копий поражает героя, время восстановления «Дара бронзовых драконов» сокращается на <c val=\"#TooltipNumbers\">1</c> сек.",
+      "name": "Дар бронзовых драконов",
+      "shortText": "Ускоряет передвижение и восстановление способностей союзников."
+    }
+  },
+  "talents": {
+    "ChromieSandBlastOnceAgainTheFirstTime|ChromieSandBlastOnceAgaintheFirstTime|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Задача:</c> поразите героев «Песчаным вихрем» Хроми или ее копий <c val=\"#TooltipNumbers\">20</c> <lang rule=\"plural\" val=\"\">раз,раза,раз</lang>, при этом не погибнув.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Награда:</c> максимальное количество активных копий будет увеличено до <c val=\"#TooltipNumbers\">2</c>, а наносимый ими урон — до <c val=\"#TooltipNumbers\">50%</c>.",
+      "name": "Неповторимый повтор",
+      "shortText": "<c val=\"#TooltipQuest\">Задача:</c> увеличьте максимальное количество песчаных копий."
+    },
+    "ChromieDragonsBreathDeepBreathing|ChromieDragonsBreathDeepBreathing|W|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Задача:</c> каждое попадание «Дыханием дракона» по герою увеличивает урон от него на <c val=\"#TooltipNumbers\">0.5%</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Награда:</c> после <c val=\"#TooltipNumbers\">20</c> попаданий по героям время восстановления «Дыхания дракона» уменьшится на <c val=\"#TooltipNumbers\">4</c> сек., а стоимость снизится с <c val=\"#TooltipNumbers\">65</c> до <c val=\"#TooltipNumbers\">40</c> ед. маны.",
+      "name": "Глубокий вдох",
+      "shortText": "<c val=\"#TooltipQuest\">Задача:</c> поражайте героев «Дыханием дракона», чтобы увеличить его урон."
+    },
+    "ChromieTimewalkersPursuit|ChromieTimewalkersPursuit|Active|Level1": {
+      "cooldownText": "Время восстановления: 25 сек.",
+      "fullText": "Увеличивает силу способностей на <c val=\"#TooltipNumbers\">15%</c> и уменьшает время взведения «Темпоральной ловушки» на <c val=\"#TooltipNumbers\">0.75</c> сек. При использовании открывает обзор в указанной области на <c val=\"#TooltipNumbers\">4</c> сек. Обнаруженные противники остаются видимыми в течение <c val=\"#TooltipNumbers\">4</c> сек.",
+      "name": "Погоня за временем",
+      "shortText": "Открывает обзор в области, усиливает способности."
+    },
+    "ChromieTimeTrapChronicConditions|ChromieTimeTrapChronicConditions|E|Level4": {
+      "fullText": "«Темпоральная ловушка» поражает вражеских героев автоматически.<n/><n/>По истечении остановки времени замедляет пораженных «Темпоральной ловушкой» противников на <c val=\"#TooltipNumbers\">25%</c> на <c val=\"#TooltipNumbers\">3</c> сек. и повышает скорость передвижения попавших под ее воздействие союзников на <c val=\"#TooltipNumbers\">25%</c> на <c val=\"#TooltipNumbers\">3</c> сек.",
+      "name": "Темпоральная аномалия",
+      "shortText": "«Темпоральная ловушка» срабатывает автоматически, изменяет скорость передвижения врагов и союзников."
+    },
+    "ChromieTimeTrapTimeTroubles|ChromieTimeTrapTimeTroubles|E|Level4": {
+      "fullText": "По истечении остановки времени ослабляет броню пораженных «Темпоральной ловушкой» противников на <c val=\"#TooltipNumbers\">15</c> ед. на <c val=\"#TooltipNumbers\">3</c> сек. и усиливает броню попавших под ее воздействие союзников на <c val=\"#TooltipNumbers\">30</c> ед. на <c val=\"#TooltipNumbers\">3</c> сек.",
+      "name": "Беда со временем",
+      "shortText": "«Темпоральная ловушка» влияет на броню врагов и союзников."
+    },
+    "ChromieTimeTrapAndorhalAnomaly|ChromieTimeTrapAndorhalAnomaly|E|Level4": {
+      "fullText": "Увеличивает максимальное количество зарядов «Темпоральной ловушки» и активных ловушек до <c val=\"#TooltipNumbers\">3</c>, а также уменьшает время ее восстановления на <c val=\"#TooltipNumbers\">8</c> сек.",
+      "name": "Андоральская аномалия",
+      "shortText": "Дает дополнительные заряды и ускоряет восстановление «Темпоральной ловушки»."
+    },
+    "ChromieSandBlastBronzeTalons|ChromieSandBlastBronzeTalons|Q|Level7": {
+      "fullText": "Когда Хроми или ее копии поражают героя «Песчаным вихрем», ее автоатаки в течение <c val=\"#TooltipNumbers\">5</c> сек. наносят на <c val=\"#TooltipNumbers\">50%</c> больше урона.",
+      "name": "Бронзовые когти",
+      "shortText": "«Песчаный вихрь» усиливает автоатаки."
+    },
+    "ChromieDragonsBreathMobiusLoop|ChromieDragonsBreathMobiusLoop|W|Level7": {
+      "fullText": "«Дыхание дракона» наносит на <c val=\"#TooltipNumbers\">30%</c> больше урона в центре области действия. Герои, попавшие в центр, замедляются на <c val=\"#TooltipNumbers\">40%</c> на <c val=\"#TooltipNumbers\">0.75</c> сек.",
+      "name": "Петля Мебиуса",
+      "shortText": "«Дыхание дракона» наносит больше урона в центре области действия и замедляет цели."
+    },
+    "ChromieAProperGreeting|ChromieAProperGreeting|Passive|Level7": {
+      "fullText": "Когда Хроми наносит урон оглушенным, обездвиженным или замедленным героям, наносимый ею урон увеличивается на <c val=\"#TooltipNumbers\">20%</c> на <c val=\"#TooltipNumbers\">3</c> сек.",
+      "name": "«Теплый» прием",
+      "shortText": "Урон по обезвреженным героям увеличивает урон."
+    },
+    "ChromieHeroicAbilitySlowingSands|ChromieSlowingSands|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 5 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 5 ед. в секунду</s>",
+      "fullText": "Создает в указанной области песчаную бурю, которая замедляет противников на <c val=\"#TooltipNumbers\">10%</c> раз в <c val=\"#TooltipNumbers\">0.25</c> сек., вплоть до <c val=\"#TooltipNumbers\">70%</c>.",
+      "name": "Пески времени",
+      "shortText": "Создает замедляющую противников аномалию."
+    },
+    "ChromieHeroicAbilityTemporalLoop|ChromieTemporalLoop|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 50 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 60</s>",
+      "fullText": "После паузы в <c val=\"#TooltipNumbers\">3</c> сек. телепортирует указанного вражеского героя в место, где он находился в момент применения.<n/><n/>Базовые способности восстанавливаются на <c val=\"#TooltipNumbers\">500%</c> быстрее в течение <c val=\"#TooltipNumbers\">3</c> сек. после применения «Петли времени».",
+      "name": "Петля времени",
+      "shortText": "Телепортирует вражеского героя туда, где он был недавно."
+    },
+    "ChromieSandBlastGnomeSpeedAhead|ChromieSandBlastGnomeSpeedAhead|Q|Level13": {
+      "fullText": "Использовав «Песчаный вихрь», Хроми получает бонус к скорости передвижения в <c val=\"#TooltipNumbers\">20%</c> и бонус к скорости восстановления здоровья в <c val=\"#TooltipNumbers\">200%</c> на <c val=\"#TooltipNumbers\">3</c> сек.",
+      "name": "Гномий вперед!",
+      "shortText": "«Песчаный вихрь» ускоряет передвижение и восстановление здоровья."
+    },
+    "ChromieHereAndThere|ChromieHereAndThere|Active|Level13": {
+      "cooldownText": "Время восстановления: 20 сек.",
+      "fullText": "При использовании переносит Хроми в область, где находится песчаная копия, а копию – в область, где находилась Хроми.",
+      "name": "И здесь, и там",
+      "shortText": "Меняет Хроми местами с песчаной копией."
+    },
+    "ChromieTimeOut|ChromieTimeOutHotbar|Active|Level13": {
+      "cooldownText": "Время восстановления: 60 сек.",
+      "fullText": "При использовании Хроми вводит себя в стазис и становится неуязвимой. Время действия – до <c val=\"#TooltipNumbers\">5</c> сек. Повторное использование отменяет действие этой способности.",
+      "name": "Тайм-аут",
+      "shortText": "Временно делает Хроми неуязвимой."
+    },
+    "ChromieSandBlastShiftingSands|ChromieSandBlastShiftingSands|Q|Level16": {
+      "fullText": "Каждое попадание по противнику основным «Песчаным вихрем» Хроми увеличивает ее силу способностей на <c val=\"#TooltipNumbers\">5%</c> на <c val=\"#TooltipNumbers\">8</c> сек., вплоть до <c val=\"#TooltipNumbers\">50%</c>. Обновляется при каждом нанесении урона основным «Песчаным вихрем».",
+      "name": "Зыбучие пески",
+      "shortText": "«Песчаный вихрь» усиливает способности."
+    },
+    "ChromieSandBlastFastForward|ChromieSandBlastFastForward|Q|Level16": {
+      "fullText": "Если перед попаданием в героя снаряд основного «Песчаного вихря» Хроми преодолевает не менее <c val=\"#TooltipNumbers\">50%</c> базовой дистанции, время его восстановления сокращается до <c val=\"#TooltipNumbers\">0.5</c> сек., а Хроми восполняет <c val=\"#TooltipNumbers\">10</c> ед. маны.",
+      "name": "Перемотка вперед",
+      "shortText": "«Песчаный вихрь» восстанавливается быстрее, если попадает в цель издалека."
+    },
+    "ChromieQuantumOverdrive|ChromieQuantumOverdrive|Active|Level16": {
+      "cooldownText": "Время восстановления: 45 сек.",
+      "fullText": "При использовании увеличивает силу способностей на <c val=\"#TooltipNumbers\">30%</c> на <c val=\"#TooltipNumbers\">8</c> сек. Когда «Песчаный вихрь» поражает героя, время восстановления «Квантовой перегрузки» сокращается на <c val=\"#TooltipNumbers\">3</c> сек.",
+      "name": "Квантовая перегрузка",
+      "shortText": "Усиливает способности."
+    },
+    "ChromieSlowingSandsUnravelling|ChromieSlowingSandsUnravelling|Heroic|Level20": {
+      "fullText": "Раз в <c val=\"#TooltipNumbers\">0.25</c> сек. ослабляет энергетическую броню замедленных «Песками времени» героев на <c val=\"#TooltipNumbers\">10</c> ед., вплоть до <c val=\"#TooltipNumbers\">50</c> ед.<n/><n/><c val=\"#AbilityPassive\">Пассивный эффект:</c> дальность применения «Песков времени» увеличивается на <c val=\"#TooltipNumbers\">50%</c>, а их эффект сохраняется в течение <c val=\"#TooltipNumbers\">5</c> сек. после прекращения действия.",
+      "name": "Распутывание",
+      "shortText": "«Пески времени» ослабляют энергетическую броню и действуют дольше."
+    },
+    "ChromieTemporalLoopStuckInALoop|ChromieTemporalLoopStuckInALoop|Heroic|Level20": {
+      "fullText": "«Петля времени» телепортирует цель дважды, а базовые способности восстанавливаются быстрее еще <c val=\"#TooltipNumbers\">3</c> сек. Увеличивает бонус к скорости восстановления способностей c <c val=\"#TooltipNumbers\">500%</c> до <c val=\"#TooltipNumbers\">700%</c>.",
+      "name": "В петле",
+      "shortText": "«Петля времени» телепортирует дважды."
+    },
+    "ChromieSandBlastPiercingSands|ChromieSandBlastPiercingSands|Q|Level20": {
+      "fullText": "«Песчаный вихрь» Хроми и ее копий пронзает противников.",
+      "name": "Пронзающие пески",
+      "shortText": "«Песчаный вихрь» проходит сквозь противников."
+    },
+    "ChromieBlessingOfTheBronze|ChromieBlessingOfTheBronze|Active|Level20": {
+      "cooldownText": "Время восстановления: 30 сек.",
+      "fullText": "При использовании Хроми и ее союзники-герои передвигаются на <c val=\"#TooltipNumbers\">20%</c> быстрее, а их базовые способности восстанавливаются на <c val=\"#TooltipNumbers\">35%</c> быстрее в течение <c val=\"#TooltipNumbers\">8</c> сек.<n/><n/>Когда «Песчаный вихрь» Хроми или ее копий поражает героя, время восстановления «Дара бронзовых драконов» сокращается на <c val=\"#TooltipNumbers\">1</c> сек.",
+      "name": "Дар бронзовых драконов",
+      "shortText": "Ускоряет передвижение и восстановление способностей союзников."
+    }
+  },
+  "units": {
+    "ChromieSandBlastPastAndFutureMeControllerUnit": {
+      "name": "Sand Blast Past and Future Me Controller Unit"
+    },
+    "ChromieTimeTrap": {
+      "description": "Создает ловушку, которая после паузы в <c val=\"#TooltipNumbers\">2</c> сек. взводится и получает маскировку. При использовании умения ловушки взрываются, останавливая время для находящихся рядом с ними союзных и вражеских героев на <c val=\"#TooltipNumbers\">2</c> сек. Одновременно может существовать не более <c val=\"#TooltipNumbers\">1</c> <lang rule=\"plural\" val=\"\">ловушки,ловушек,ловушек</lang>.",
+      "name": "Темпоральная ловушка"
+    }
+  }
+}

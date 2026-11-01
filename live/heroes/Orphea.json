@@ -1,0 +1,616 @@
+{
+  "id": "Orphea",
+  "unitId": "HeroOrphea",
+  "hyperlinkId": "Orphea",
+  "attributeId": "ORPH",
+  "franchise": "Classic",
+  "rarity": "Legendary",
+  "releaseDate": "2018-11-13",
+  "isMelee": false,
+  "gender": "Female",
+  "radius": 0.625,
+  "innerRadius": 0.625,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 4,
+    "damage": 9,
+    "survivability": 7,
+    "utility": 5
+  },
+  "life": {
+    "amount": 1525,
+    "scale": 0.04,
+    "regenRate": 3.1757,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "Escaper",
+    "Ganker",
+    "Overconfident",
+    "RoleAutoAttacker",
+    "RoleCaster",
+    "SoloLaner",
+    "WaveClearer"
+  ],
+  "weapons": [
+    {
+      "nameId": "OrpheaOverflowingChaosWeapon",
+      "isDisabled": false,
+      "range": 5.5,
+      "minimumRange": 0,
+      "period": 0.8332,
+      "damage": 88,
+      "damageScale": 0.04
+    },
+    {
+      "nameId": "OrpheaWeapon",
+      "isDisabled": false,
+      "range": 5.5,
+      "minimumRange": 0,
+      "period": 0.8332,
+      "damage": 88,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "OrpheaMobster19",
+    "OrpheaSchool18"
+  ],
+  "variationSkinIds": [
+    "OrpheaBaseVar1",
+    "OrpheaBaseVar2",
+    "OrpheaBaseVar3",
+    "OrpheaBaseVar4"
+  ],
+  "voiceLineIds": [
+    "OrpheaBase_VoiceLineFive",
+    "OrpheaBase_VoiceLineFour",
+    "OrpheaBase_VoiceLineOne",
+    "OrpheaBase_VoiceLineThree",
+    "OrpheaBase_VoiceLineTwo"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "OrpheaShadowWaltz|OrpheaShadowWaltz|Q",
+        "abilityId": "OrpheaShadowWaltz",
+        "buttonId": "OrpheaShadowWaltz",
+        "icon": "storm_ui_icon_orphea_q.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "OrpheaChomp|OrpheaChomp|W",
+        "abilityId": "OrpheaChomp",
+        "buttonId": "OrpheaChomp",
+        "icon": "storm_ui_icon_orphea_w.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "OrpheaDread|OrpheaDread|E",
+        "abilityId": "OrpheaDread",
+        "buttonId": "OrpheaDread",
+        "icon": "storm_ui_icon_orphea_e.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "OrpheaCrushingJaws|OrpheaCrushingJaws|Heroic",
+        "abilityId": "OrpheaCrushingJaws",
+        "buttonId": "OrpheaCrushingJaws",
+        "icon": "storm_ui_icon_orphea_ult_thrasher.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "OrpheaEternalFeast|OrpheaEternalFeast|Heroic",
+        "abilityId": "OrpheaEternalFeast",
+        "buttonId": "OrpheaEternalFeast",
+        "icon": "storm_ui_icon_orphea_ult_darkfall.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": ":PASSIVE:|OrpheaOverflowingChaos|Trait",
+        "abilityId": ":PASSIVE:",
+        "buttonId": "OrpheaOverflowingChaos",
+        "icon": "storm_ui_icon_orphea_trait.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "OrpheaInvasiveMiasma|OrpheaInvasiveMiasma|Trait|Level13": {
+      "Trait": [
+        {
+          "linkId": "OrpheaOverflowingChaosInvasiveMiasma|OrpheaOverflowingChaosInvasiveMiasma|Trait",
+          "abilityId": "OrpheaOverflowingChaosInvasiveMiasma",
+          "buttonId": "OrpheaOverflowingChaosInvasiveMiasma",
+          "icon": "storm_ui_icon_orphea_trait.png",
+          "abilityType": "Trait"
+        }
+      ]
+    },
+    "OrpheaLurkingTerror|OrpheaLurkingTerror|Active|Level16": {
+      "Activable": [
+        {
+          "linkId": "OrpheaLurkingTerror|OrpheaLurkingTerror|Active",
+          "abilityId": "OrpheaLurkingTerror",
+          "buttonId": "OrpheaLurkingTerror",
+          "icon": "storm_ui_icon_orphea_e_terror.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "OrpheaFinalToccata|OrpheaFinalToccata|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "OrpheaFinalToccata|OrpheaFinalToccata|Active",
+          "abilityId": "OrpheaFinalToccata",
+          "buttonId": "OrpheaFinalToccata",
+          "icon": "storm_ui_icon_orphea_reset.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "OrpheaEnPointe|OrpheaEnPointe|Q|Level1",
+        "talentId": "OrpheaEnPointe",
+        "buttonId": "OrpheaEnPointe",
+        "abilityId": "OrpheaShadowWaltz",
+        "icon": "storm_ui_icon_orphea_q.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "OrpheaShadowWaltz|OrpheaShadowWaltz|Q"
+        ]
+      },
+      {
+        "linkId": "OrpheaGrowingNightmare|OrpheaGrowingNightmare|E|Level1",
+        "talentId": "OrpheaGrowingNightmare",
+        "buttonId": "OrpheaGrowingNightmare",
+        "abilityId": "OrpheaDread",
+        "icon": "storm_ui_icon_orphea_e.png",
+        "abilityType": "E",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "OrpheaDread|OrpheaDread|E"
+        ]
+      },
+      {
+        "linkId": "OrpheaAncestralStrength|OrpheaAncestralStrength|Trait|Level1",
+        "talentId": "OrpheaAncestralStrength",
+        "buttonId": "OrpheaAncestralStrength",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_orphea_trait.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|OrpheaOverflowingChaos|Trait",
+          "OrpheaOverflowingChaosInvasiveMiasma|OrpheaOverflowingChaosInvasiveMiasma|Trait"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "OrpheaAllegrissimo|OrpheaAllegrissimo|Q|Level4",
+        "talentId": "OrpheaAllegrissimo",
+        "buttonId": "OrpheaAllegrissimo",
+        "abilityId": "OrpheaShadowWaltz",
+        "icon": "storm_ui_icon_orphea_q.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "OrpheaShadowWaltz|OrpheaShadowWaltz|Q"
+        ]
+      },
+      {
+        "linkId": "OrpheaBackbiter|OrpheaBackbiter|W|Level4",
+        "talentId": "OrpheaBackbiter",
+        "buttonId": "OrpheaBackbiter",
+        "abilityId": "OrpheaChomp",
+        "icon": "storm_ui_icon_orphea_w.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "OrpheaChomp|OrpheaChomp|W"
+        ]
+      },
+      {
+        "linkId": "OrpheaChaoticAssault|OrpheaChaoticAssault|Trait|Level4",
+        "talentId": "OrpheaChaoticAssault",
+        "buttonId": "OrpheaChaoticAssault",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_orphea_trait.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|OrpheaOverflowingChaos|Trait",
+          "OrpheaOverflowingChaosInvasiveMiasma|OrpheaOverflowingChaosInvasiveMiasma|Trait"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "OrpheaInsatiable|OrpheaInsatiable|W|Level7",
+        "talentId": "OrpheaInsatiable",
+        "buttonId": "OrpheaInsatiable",
+        "abilityId": "OrpheaChomp",
+        "icon": "storm_ui_icon_orphea_w.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "OrpheaChomp|OrpheaChomp|W"
+        ]
+      },
+      {
+        "linkId": "OrpheaRavenousHunger|OrpheaRavenousHunger|W|Level7",
+        "talentId": "OrpheaRavenousHunger",
+        "buttonId": "OrpheaRavenousHunger",
+        "abilityId": "OrpheaChomp",
+        "icon": "storm_ui_icon_orphea_w_2.png",
+        "abilityType": "W",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "OrpheaChomp|OrpheaChomp|W"
+        ]
+      },
+      {
+        "linkId": "OrpheaMindDevourer|OrpheaMindDevourer|E|Level7",
+        "talentId": "OrpheaMindDevourer",
+        "buttonId": "OrpheaMindDevourer",
+        "abilityId": "OrpheaDread",
+        "icon": "storm_ui_icon_orphea_e.png",
+        "abilityType": "E",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "OrpheaDread|OrpheaDread|E"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "OrpheaEternalFeast|OrpheaEternalFeast|Heroic|Level10",
+        "talentId": "OrpheaEternalFeast",
+        "buttonId": "OrpheaEternalFeast",
+        "abilityId": "OrpheaEternalFeast",
+        "icon": "storm_ui_icon_orphea_ult_darkfall.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "OrpheaCrushingJaws|OrpheaCrushingJaws|Heroic|Level10",
+        "talentId": "OrpheaCrushingJaws",
+        "buttonId": "OrpheaCrushingJaws",
+        "abilityId": "OrpheaCrushingJaws",
+        "icon": "storm_ui_icon_orphea_ult_thrasher.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "OrpheaDetermination|OrpheaDetermination|Q|Level13",
+        "talentId": "OrpheaDetermination",
+        "buttonId": "OrpheaDetermination",
+        "abilityId": "OrpheaShadowWaltz",
+        "icon": "storm_ui_icon_orphea_q.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "OrpheaShadowWaltz|OrpheaShadowWaltz|Q"
+        ]
+      },
+      {
+        "linkId": "OrpheaAbyssalSymbiosis|OrpheaAbyssalSymbiosis|W|Level13",
+        "talentId": "OrpheaAbyssalSymbiosis",
+        "buttonId": "OrpheaAbyssalSymbiosis",
+        "abilityId": "OrpheaChomp",
+        "icon": "storm_ui_icon_orphea_w.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "OrpheaChomp|OrpheaChomp|W"
+        ]
+      },
+      {
+        "linkId": "OrpheaInvasiveMiasma|OrpheaInvasiveMiasma|Trait|Level13",
+        "talentId": "OrpheaInvasiveMiasma",
+        "buttonId": "OrpheaInvasiveMiasma",
+        "abilityId": "OrpheaOverflowingChaosInvasiveMiasma",
+        "icon": "storm_ui_icon_orphea_trait.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "OrpheaOverflowingChaosInvasiveMiasma|OrpheaOverflowingChaosInvasiveMiasma|Trait"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "OrpheaBondOfAnguish|OrpheaBondOfAnguish|Q|Level16",
+        "talentId": "OrpheaBondOfAnguish",
+        "buttonId": "OrpheaBondOfAnguish",
+        "abilityId": "OrpheaShadowWaltz",
+        "icon": "storm_ui_icon_orphea_q.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "OrpheaShadowWaltz|OrpheaShadowWaltz|Q"
+        ]
+      },
+      {
+        "linkId": "OrpheaDeadMagic|OrpheaDeadMagic|Trait|Level16",
+        "talentId": "OrpheaDeadMagic",
+        "buttonId": "OrpheaDeadMagic",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_orphea_trait.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|OrpheaOverflowingChaos|Trait",
+          "OrpheaOverflowingChaosInvasiveMiasma|OrpheaOverflowingChaosInvasiveMiasma|Trait"
+        ]
+      },
+      {
+        "linkId": "OrpheaLurkingTerror|OrpheaLurkingTerror|Active|Level16",
+        "talentId": "OrpheaLurkingTerror",
+        "buttonId": "OrpheaLurkingTerror",
+        "abilityId": "OrpheaLurkingTerror",
+        "icon": "storm_ui_icon_orphea_e_terror.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "OrpheaDread|OrpheaDread|E"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "OrpheaMonsterWithin|OrpheaMonsterWithin|Heroic|Level20",
+        "talentId": "OrpheaMonsterWithin",
+        "buttonId": "OrpheaMonsterWithin",
+        "abilityId": "OrpheaEternalFeast",
+        "icon": "storm_ui_icon_orphea_ult_darkfall.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "OrpheaEternalFeast|OrpheaEternalFeast|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "OrpheaEternalFeast"
+        ]
+      },
+      {
+        "linkId": "OrpheaEngulfingOblivion|OrpheaEngulfingOblivion|Heroic|Level20",
+        "talentId": "OrpheaEngulfingOblivion",
+        "buttonId": "OrpheaEngulfingOblivion",
+        "abilityId": "OrpheaCrushingJaws",
+        "icon": "storm_ui_icon_orphea_ult_thrasher.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "OrpheaCrushingJaws|OrpheaCrushingJaws|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "OrpheaCrushingJaws"
+        ]
+      },
+      {
+        "linkId": "OrpheaEldritchConduit|OrpheaEldritchConduit|Trait|Level20",
+        "talentId": "OrpheaEldritchConduit",
+        "buttonId": "OrpheaEldritchConduit",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_orphea_trait.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|OrpheaOverflowingChaos|Trait",
+          "OrpheaOverflowingChaosInvasiveMiasma|OrpheaOverflowingChaosInvasiveMiasma|Trait"
+        ]
+      },
+      {
+        "linkId": "OrpheaFinalToccata|OrpheaFinalToccata|Active|Level20",
+        "talentId": "OrpheaFinalToccata",
+        "buttonId": "OrpheaFinalToccata",
+        "abilityId": "OrpheaFinalToccata",
+        "icon": "storm_ui_icon_orphea_reset.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          "OrpheaShadowWaltz|OrpheaShadowWaltz|Q"
+        ]
+      }
+    ]
+  },
+  "sheet": "sheets/Orphea.png",
+  "icons": {
+    "storm_ui_icon_orphea_q.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_orphea_w.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_orphea_e.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_orphea_ult_thrasher.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_orphea_ult_darkfall.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_orphea_trait.png": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_mount.png": [
+      256,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      384,
+      128,
+      111,
+      71
+    ],
+    "storm_ui_icon_generic_cancel_mount.png": [
+      0,
+      256,
+      76,
+      48
+    ],
+    "storm_ui_icon_orphea_e_terror.png": [
+      128,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_orphea_reset.png": [
+      256,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_orphea_w_2.png": [
+      384,
+      256,
+      128,
+      128
+    ]
+  }
+}

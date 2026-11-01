@@ -1,0 +1,205 @@
+{
+  "abilities": {
+    "AnubarakImpale|AnubarakImpale|Q": {
+      "cooldownText": "Cooldown: 12 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 65</s>",
+      "fullText": "Deals <c val=\"#TooltipNumbers\">90</c><c val=\"#ColorGray\">~~0.04~~</c> damage. Stuns for <c val=\"#TooltipNumbers\">1</c> second.",
+      "name": "Impale",
+      "shortText": "Shoot line of spikes that damages and stuns enemies"
+    },
+    "AnubarakHardenCarapace|AnubarakHardenCarapace|W": {
+      "cooldownText": "Cooldown: 7 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 25</s>",
+      "fullText": "Gain a Shield that grants <c val=\"#TooltipNumbers\">40</c> Spell Armor and absorbs <c val=\"#TooltipNumbers\">340</c><c val=\"#ColorGray\">~~0.04~~</c> damage over <c val=\"#TooltipNumbers\">3</c> seconds.",
+      "name": "Harden Carapace",
+      "shortText": "Gain a shield"
+    },
+    "AnubarakBurrowCharge|AnubarakBurrowCharge|E": {
+      "cooldownText": "Cooldown: 14 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 65</s>",
+      "fullText": "Burrow to the target location, dealing <c val=\"#TooltipNumbers\">91</c><c val=\"#ColorGray\">~~0.04~~</c> damage and briefly stunning enemies in a small area upon surfacing, slowing them by <c val=\"#TooltipNumbers\">25%</c> for <c val=\"#TooltipNumbers\">2.5</c> seconds.<n/><n/>Burrow Charge can be reactivated to surface early.",
+      "name": "Burrow Charge",
+      "shortText": "Burrow underground and charge in a direction"
+    },
+    "AnubarakLocustSwarm|AnubarakLocustSwarm|Heroic": {
+      "cooldownText": "Cooldown: 100 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 75</s>",
+      "fullText": "Deal <c val=\"#TooltipNumbers\">68</c><c val=\"#ColorGray\">~~0.04~~</c> damage per second to nearby enemies. Each enemy damaged restores <c val=\"#TooltipNumbers\">24</c><c val=\"#ColorGray\">~~0.04~~</c> Health. Lasts <c val=\"#TooltipNumbers\">6</c> seconds.",
+      "name": "Locust Swarm",
+      "shortText": "Damages enemies while healing"
+    },
+    "AnubarakCocoon|AnubarakCocoon|Heroic": {
+      "cooldownText": "Cooldown: 70 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 70</s>",
+      "fullText": "Wraps target enemy Hero in a cocoon, rendering them unable to act or be targeted for <c val=\"#TooltipNumbers\">7</c> seconds. Allies of the Hero can attack the cocoon to break it and free them early.",
+      "name": "Cocoon",
+      "shortText": "Wraps enemy in a cocoon"
+    },
+    "AnubarakLegionOfBeetlesVisual|AnubarakScarabHostTrait|Trait": {
+      "fullText": "Using an Ability spawns a Beetle which loses Health over <c val=\"#TooltipNumbers\">10</c> seconds, attacking nearby enemies for <c val=\"#TooltipNumbers\">20</c><c val=\"#ColorGray\">~~0.04~~</c> damage.",
+      "name": "Scarab Host",
+      "shortText": "Spawn a Beetle whenever an Ability is cast"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Cooldown: 4 seconds",
+      "fullText": "After Channeling for <c val=\"#TooltipNumbers\">1</c> second, gain <s val=\"StandardTooltipDetails\">30%</s> Movement Speed.",
+      "name": "Summon Mount"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "After Channeling for <c val=\"#TooltipNumbers\">6</c> seconds, teleport back to the Hall of Storms, instantly restoring <c val=\"#TooltipNumbers\">1125</c> Health and <c val=\"#TooltipNumbers\">150</c> Mana.",
+      "name": "Hearthstone"
+    },
+    "AnubarakBurrowChargeCancel|AnubarakBurrowChargeCancel|E": {
+      "fullText": "Uproot early from Burrow Charge.",
+      "name": "Burrow Charge Cancel"
+    },
+    "AnubarakLegionOfBeetlesToggle|AnubarakScarabHostToggleLegionOfBeetlesOn|Trait": {
+      "fullText": "<c val=\"bb0000\">Press to toggle Legion of Beetles ON.</c>",
+      "name": "Scarab Host"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Dismounts you.",
+      "name": "Unsummon Mount"
+    },
+    "AnubarakLegionOfBeetlesToggle|AnubarakScarabHostToggleLegionOfBeetlesOff|Trait": {
+      "fullText": "<c val=\"BB0000\">Press to toggle Legion of Beetles OFF.</c>",
+      "name": "Scarab Host"
+    },
+    "AnubarakTheTraitorKing|AnubarakTheTraitorKing|Active": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "fullText": "Gain <c val=\"#TooltipNumbers\">10%</c> bonus maximum Health and <c val=\"#TooltipNumbers\">20</c> Spell Armor.<n/><n/>Activate to gain <c val=\"#TooltipNumbers\">75</c> Armor for <c val=\"#TooltipNumbers\">4</c> seconds.",
+      "name": "The Traitor King",
+      "shortText": "Gain Health and Armor"
+    },
+    "TalentRewind|GenericRewindHotbar|Active": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "fullText": "Activate to reset the cooldowns of your Basic Abilities.",
+      "name": "Rewind",
+      "shortText": "Activate to reset cooldowns"
+    }
+  },
+  "talents": {
+    "AnubarakNerubianArmor|AnubarakNerubianArmor|W|Level1": {
+      "fullText": "Increase Harden Carapace's Spell Armor by <c val=\"#TooltipNumbers\">25</c>.",
+      "name": "Nerubian Armor",
+      "shortText": "Increase Harden Carapace's Spell Armor"
+    },
+    "AnubarakCombatStyleLegionOfBeetles|AnubarakLegionOfBeetlesTalent|Trait|Level1": {
+      "fullText": "Beetles have <c val=\"#TooltipNumbers\">30</c> Spell Armor. Automatically spawn a Beetle every <c val=\"#TooltipNumbers\">12</c> seconds. Can be toggled on and off.",
+      "name": "Legion of Beetles",
+      "shortText": "Spawn Beetles periodically"
+    },
+    "GenericTalentRegenerationMaster|GenericRegenerationMasterTalent|Passive|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Gathering a Regeneration Globe increases your Health Regeneration by <c val=\"#TooltipNumbers\">1</c> per second, up to <c val=\"#TooltipNumbers\">30</c>. <n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Reward:</c> After gathering <c val=\"#TooltipNumbers\">25</c> Regeneration Globes, you also gain <c val=\"#TooltipNumbers\">500</c> Health.",
+      "name": "Regeneration Master",
+      "shortText": "<c val=\"#TooltipQuest\">Quest:</c> Regen Globes increase Health Regen"
+    },
+    "AnubarakMasteryBedOfBarbs|AnubarakImpaleBedOfBarbsTalent|Q|Level4": {
+      "fullText": "Create a bed of spikes along Impale's path that Slows enemies by <c val=\"#TooltipNumbers\">25%</c> and deals <c val=\"#TooltipNumbers\">21</c><c val=\"#ColorGray\">~~0.04~~</c> damage per second. Spikes persist for <c val=\"#TooltipNumbers\">3.5</c> seconds.",
+      "name": "Bed of Barbs",
+      "shortText": "Impale slows and damages over time"
+    },
+    "AnubarakMasteryShedExoskeletonHardenCarapace|AnubarakRegeneratingCarapaceShedExoskeletonTalent|W|Level4": {
+      "fullText": "Harden Carapace grants <c val=\"#TooltipNumbers\">30%</c> increased Movement Speed for <c val=\"#TooltipNumbers\">3</c> seconds.",
+      "name": "Shed Exoskeleton",
+      "shortText": "Harden Carapace increases Move Speed"
+    },
+    "AnubarakMasteryUnderkingBurrowCharge|AnubarakBurrowChargeUnderkingTalent|E|Level4": {
+      "fullText": "Increases Burrow Charge range by <c val=\"#TooltipNumbers\">20%</c> and damage by <c val=\"#TooltipNumbers\">100%</c>.",
+      "name": "Underking",
+      "shortText": "Increases Burrow Charge range and damage"
+    },
+    "AnubarakCombatStyleChitinousPlating|AnubarakRegeneratingCarapaceChitinousPlatingTalent|W|Level7": {
+      "fullText": "While Harden Carapace is active, taking damage from enemy Abilities reduces its cooldown by <c val=\"#TooltipNumbers\">1</c> second, up to <c val=\"#TooltipNumbers\">3</c> seconds.",
+      "name": "Chitinous Plating",
+      "shortText": "Reduces Harden Carapace cooldown"
+    },
+    "AnubarakSubterraneanShield|AnubarakSubterraneanShield|E|Level7": {
+      "fullText": "Burrow Charge also grants a <c val=\"#TooltipNumbers\">400</c><c val=\"#ColorGray\">~~0.04~~</c> point Shield for <c val=\"#TooltipNumbers\">5</c> seconds.",
+      "name": "Subterranean Shield",
+      "shortText": "Burrow Charge grants Shield"
+    },
+    "AnubarakMasteryLeechingScarabs|AnubarakLeechingMandiblesTalent|Trait|Level7": {
+      "fullText": "Beetles attacks deal <c val=\"#TooltipNumbers\">30%</c> more damage and heal Anub'arak <c val=\"#TooltipNumbers\">50%</c> of damage dealt if he is nearby.",
+      "name": "Leeching Scarabs",
+      "shortText": "Beetles heal Anub'arak"
+    },
+    "AnubarakLocustSwarm|AnubarakLocustSwarm|Heroic|Level10": {
+      "cooldownText": "Cooldown: 100 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 75</s>",
+      "fullText": "Deal <c val=\"#TooltipNumbers\">68</c><c val=\"#ColorGray\">~~0.04~~</c> damage per second to nearby enemies. Each enemy damaged restores <c val=\"#TooltipNumbers\">24</c><c val=\"#ColorGray\">~~0.04~~</c> Health. Lasts <c val=\"#TooltipNumbers\">6</c> seconds.",
+      "name": "Locust Swarm",
+      "shortText": "Damages enemies while healing"
+    },
+    "AnubarakHeroicAbilityCocoon|AnubarakCocoon|Heroic|Level10": {
+      "cooldownText": "Cooldown: 70 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 70</s>",
+      "fullText": "Wraps target enemy Hero in a cocoon, rendering them unable to act or be targeted for <c val=\"#TooltipNumbers\">7</c> seconds. Allies of the Hero can attack the cocoon to break it and free them early.",
+      "name": "Cocoon",
+      "shortText": "Wraps enemy in a cocoon"
+    },
+    "AnubarakMasteryUrticatingSpines|AnubarakHardenCarapaceUrtricatingSpinesTalent|W|Level13": {
+      "fullText": "Casting Harden Carapace will also deal <c val=\"#TooltipNumbers\">90</c><c val=\"#ColorGray\">~~0.04~~</c> damage to nearby enemies. Deals double damage against Heroes.",
+      "name": "Urticating Spines",
+      "shortText": "Harden Carapace deals area damage"
+    },
+    "AnubarakBurningBeetles|AnubarakBurningBeetlesTalent|Trait|Level13": {
+      "fullText": "Deal <c val=\"#TooltipNumbers\">21</c><c val=\"#ColorGray\">~~0.04~~</c> damage per second to nearby enemies. Beetles deal <c val=\"#TooltipNumbers\">6</c><c val=\"#ColorGray\">~~0.04~~</c> damage per second to nearby enemies.",
+      "name": "Burning Beetles",
+      "shortText": "Deal damage to nearby enemies"
+    },
+    "AnubarakAcidDrenchedMandibles|AnubarakAcidDrenchedMandibles|Passive|Level13": {
+      "fullText": "Attacking a Hero that is Slowed, Rooted, or Stunned increases Anub'arak's Basic Attack damage by <c val=\"#TooltipNumbers\">80%</c> for <c val=\"#TooltipNumbers\">4</c> seconds.",
+      "name": "Acid-Drenched Mandibles",
+      "shortText": "Attacking disabled Heroes increases damage"
+    },
+    "AnubarakMasteryEpicenterBurrowCharge|AnubarakBurrowChargeEpicenterTalent|E|Level16": {
+      "fullText": "Increases Burrow Charge impact area by <c val=\"#TooltipNumbers\">60%</c> and lowers the cooldown by <c val=\"#TooltipNumbers\">1</c> second for each Hero hit.",
+      "name": "Epicenter",
+      "shortText": "Increases Burrow Charge area and reduces cooldown"
+    },
+    "AnubarakDebilitation|AnubarakDebilitation|Passive|Level16": {
+      "fullText": "Enemy Heroes hit by Burrow Charge or Impale have their Spell Power reduced by <c val=\"#TooltipNumbers\">50%</c> for <c val=\"#TooltipNumbers\">4</c> seconds.",
+      "name": "Debilitation",
+      "shortText": "Burrow Charge, Impale reduce enemy Spell Power"
+    },
+    "AnubarakScarabHostBeetleJuiced|AnubarakBeetleSpitBeetleJuiceTalent|Trait|Level16": {
+      "fullText": "<c val=\"#AbilityPassive\">Passive:</c> Beetles gain <c val=\"#TooltipNumbers\">30%</c> increased health.<n/><n/>Every <c val=\"#TooltipNumbers\">4th</c> Basic Attack spawns a Beetle.",
+      "name": "Beetle, Juiced",
+      "shortText": "Basic Attacks spawn Beetles"
+    },
+    "AnubarakLocustSwarmHiveMaster|AnubarakLocustSwarmHiveMasterTalent|Heroic|Level20": {
+      "fullText": "Gain a permanent Vampire Locust that attacks a nearby enemy every <c val=\"#TooltipNumbers\">3</c> seconds. The Vampire Locust deals <c val=\"#TooltipNumbers\">165</c><c val=\"#ColorGray\">~~0.04~~</c> damage and returns to heal Anub'arak for <c val=\"#TooltipNumbers\">80</c><c val=\"#ColorGray\">~~0.04~~</c> health.",
+      "name": "Hive Master",
+      "shortText": "Gain a permanent life-stealing Locust"
+    },
+    "AnubarakCocoonCryptweave|AnubarakCryptweaveCocoonTalent|Heroic|Level20": {
+      "fullText": "Staying near the Cocoon allows Anub'arak to extend the duration by up to <c val=\"#TooltipNumbers\">6</c> seconds per Cocoon. Upon exiting the Cocoon, enemies take <c val=\"#TooltipNumbers\">60</c><c val=\"#ColorGray\">~~0.04~~</c> damage over <c val=\"#TooltipNumbers\">4</c> seconds. This damage is increased by <c val=\"#TooltipNumbers\">100%</c> for each second that they were inside.",
+      "name": "Cryptweave",
+      "shortText": "Increases Cocoon duration, damage on exit"
+    },
+    "AnubarakTheTraitorKing|AnubarakTheTraitorKing|Active|Level20": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "fullText": "Gain <c val=\"#TooltipNumbers\">10%</c> bonus maximum Health and <c val=\"#TooltipNumbers\">20</c> Spell Armor.<n/><n/>Activate to gain <c val=\"#TooltipNumbers\">75</c> Armor for <c val=\"#TooltipNumbers\">4</c> seconds.",
+      "name": "The Traitor King",
+      "shortText": "Gain Health and Armor"
+    },
+    "GenericTalentRewind|GenericRewindHotbar|Active|Level20": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "fullText": "Activate to reset the cooldowns of your Basic Abilities.",
+      "name": "Rewind",
+      "shortText": "Activate to reset cooldowns"
+    }
+  },
+  "units": {
+    "AnubarakBeetleSpitBeetle": {
+      "name": "Beetle"
+    },
+    "AnubarakCocoonFat": {
+      "name": "Cocoon (Normal)"
+    },
+    "AnubarakCocoonNormal": {
+      "name": "Cocoon (Normal)"
+    }
+  }
+}

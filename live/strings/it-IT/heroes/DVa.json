@@ -1,0 +1,232 @@
+{
+  "abilities": {
+    "DVaBoostersOn|DVaMechBoosters|Q": {
+      "cooldownText": "Recupero: 10 s",
+      "fullText": "Aumenta la velocità di movimento di D.VA del <c val=\"#TooltipNumbers\">115%</c> per <c val=\"#TooltipNumbers\">1.75</c> s. I nemici colpiti subiscono <c val=\"#TooltipNumbers\">135</c><c val=\"#ColorGray\">~~0.04~~</c> danni e sono respinti. <n/><n/>D.VA non può essere rallentata finché Retrorazzi è attivo, e ogni nemico può essere colpito una sola volta per utilizzo.",
+      "name": "Retrorazzi",
+      "shortText": "Aumenta la velocità di movimento e respinge i nemici."
+    },
+    "DVaMechDefenseMatrixOn|DVaMechDefenseMatrix|W": {
+      "cooldownText": "Recupero: 12 s",
+      "fullText": "Proietta un campo difensivo nella direzione indicata per <c val=\"#TooltipNumbers\">3</c> s, riducendo del <c val=\"#TooltipNumbers\">60%</c> i danni inflitti dagli eroi nemici al suo interno.<n/><n/>Riattivare l'abilità permette di cambiare l'angolo di proiezione.<n/><n/>I danni inflitti al Mech dai nemici all'interno di Matrice Difensiva forniscono la stessa carica di Autodistruzione.",
+      "name": "Matrice Difensiva",
+      "shortText": "Riduce i danni inflitti dagli eroi nemici in un'area."
+    },
+    "DVaMechSelfDestruct|DVaMechSelfDestruct|E": {
+      "fullText": "D.VA si eietta dal Mech, che si autodistrugge dopo <c val=\"#TooltipNumbers\">4</c> s. Infligge da <c val=\"#TooltipNumbers\">400</c><c val=\"#ColorGray\">~~0.04~~</c> a <c val=\"#TooltipNumbers\">1100</c><c val=\"#ColorGray\">~~0.04~~</c> danni in un'ampia area, a seconda della distanza dal centro. Infligge il <c val=\"#TooltipNumbers\">50%</c> dei danni alle strutture.<n/><n/><c val=\"FF8000\">Ottiene il </c><c val=\"#TooltipNumbers\">1%</c><c val=\"FF8000\"> di carica per ogni </c><c val=\"#TooltipNumbers\">2</c><c val=\"FF8000\"> s di attacchi base, e il </c><c val=\"#TooltipNumbers\">25%</c><c val=\"FF8000\"> di carica se il Mech perde il </c><c val=\"#TooltipNumbers\">100%</c><c val=\"FF8000\"> di Salute.</c>",
+      "name": "Autodistruzione",
+      "shortText": "D.VA si eietta dal Mech e ne provoca l’autodistruzione, infliggendo ingenti danni."
+    },
+    "DVaMechBunnyHopHeroic|DVaBunnyHopOn|Heroic": {
+      "cooldownText": "Recupero: 70 s",
+      "fullText": "Il Mech di D.VA diventa inarrestabile e calpesta il terreno ogni <c val=\"#TooltipNumbers\">0.5</c> s, infliggendo <c val=\"#TooltipNumbers\">78</c><c val=\"#ColorGray\">~~0.04~~</c> danni in un'ampia area. Ogni <c val=\"#TooltipNumbers\">4°</c> colpo consecutivo contro un eroe infligge il <c val=\"#TooltipNumbers\">80%</c> di danni aggiuntivi e lo stordisce per <c val=\"#TooltipNumbers\">0.5</c> s.<n/><n/>Dura <c val=\"#TooltipNumbers\">4</c> s.<n/><n/>Richiede Assetto Mech.",
+      "name": "Passo Pesante",
+      "shortText": "D.VA diventa inarrestabile e stordisce gli eroi vicini."
+    },
+    "DVaMicroMissiles|DVaMicroMissiles|Heroic": {
+      "cooldownText": "Recupero carica: 19 s",
+      "fullText": "Dopo <c val=\"#TooltipNumbers\">0,375</c> s, canalizza per lanciare una salva di <c val=\"#TooltipNumbers\">12 </c>missili nella direzione selezionata. Ogni missile colpisce il primo nemico sulla traiettoria, infliggendo <c val=\"#TooltipNumbers\">40</c><c val=\"#ColorGray\">~~0.04~~</c> danni in una piccola area e rallentando del <c val=\"#TooltipNumbers\">30%</c> per <c val=\"#TooltipNumbers\">2</c> s.<n/><n/>Accumula <c val=\"#TooltipNumbers\">2</c> cariche con un tempo di recupero di <c val=\"#TooltipNumbers\">3</c> s tra un utilizzo e l'altro.<n/><n/>Richiede Assetto Mech.",
+      "name": "Micromissili",
+      "shortText": "Lancia una salva di missili che infligge danni e rallenta. "
+    },
+    ":PASSIVE:|DVaMechMechMode|Trait": {
+      "fullText": "Quando il Mech viene distrutto, D.VA si eietta dopo <c val=\"#TooltipNumbers\">0.75</c> s e può proseguire a combattere. Il Mech di D.VA fornisce il <c val=\"#TooltipNumbers\">50%</c> dell'esperienza degli eroi alla morte.<n/><n/><s val=\"StandardTooltipHeader\">Cannoni a Fusione</s><n/><n/>Gli attacchi base del Mech di D.VA infliggono <c val=\"#TooltipNumbers\">22</c><c val=\"#ColorGray\">~~0.04~~</c> danni in un'ampia area ogni <c val=\"#TooltipNumbers\">0.25</c> s. Infliggono il <c val=\"#TooltipNumbers\">40%</c> di danni aggiuntivi ai nemici molto vicini al Mech.",
+      "name": "Assetto Mech",
+      "shortText": "D.VA può eiettarsi dal Mech e proseguire a combattere."
+    },
+    ":PASSIVE:|DVaMechanizedWalker|Z": {
+      "fullText": "Il Mech di D.VA può sparare in movimento. Quando si attacca o si canalizza un'abilità, la velocità di movimento del Mech si riduce rapidamente del <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Camminatore Meccanico",
+      "shortText": "Finché è all'interno del Mech, D.VA può sparare in movimento, ma la sua velocità è ridotta."
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Dopo un incanalamento di <c val=\"#TooltipNumbers\">6</c> s, teletrasporta l'eroe nella Sala delle Tempeste, rigenerando all'istante <c val=\"#TooltipNumbers\">1125</c> Salute e <c val=\"#TooltipNumbers\">150</c> Mana.",
+      "name": "Pietra del Ritorno"
+    },
+    "DVaBoostersOff|DVaMechCancelBoosters|Q": {
+      "fullText": "Annulla Retrorazzi",
+      "name": "Annulla Retrorazzi",
+      "shortText": "Annulla Retrorazzi"
+    },
+    "DVaMechDefenseMatrixRetarget|DVaRetargetDefenseMatrix|W": {
+      "fullText": "Cambio bersaglio Matrice Difensiva",
+      "name": "Cambio bersaglio Matrice Difensiva",
+      "shortText": "Cambio bersaglio Matrice Difensiva"
+    },
+    "DvaCancelDefenseMatrix|DvaCancelDefenseMatrix|Trait": {
+      "fullText": "Annulla l'incanalamento di Matrice Difensiva",
+      "name": "Annulla Matrice Difensiva",
+      "shortText": "Annulla l'incanalamento di Matrice Difensiva"
+    },
+    "DVaMechBunnyHopHeroic|DVaBunnyHopOff|Heroic": {
+      "cooldownText": "Recupero: 70 s",
+      "fullText": "Annulla Passo Pesante",
+      "name": "Passo Pesante",
+      "shortText": "Annulla Passo Pesante"
+    },
+    "DVaLiquidCoolingAbility|DVaLiquidCooling|Active": {
+      "cooldownText": "Recupero: 50 s",
+      "fullText": "All'attivazione fornisce gli effetti di una fonte curativa. Richiede l'Assetto Mech.<n/><n/><c val=\"#AbilityPassive\">Passiva:</c> In Assetto Mech, il tempo di recupero delle fonti curative è ridotto a <c val=\"#TooltipNumbers\">50</c> s e il loro effetto dura il <c val=\"#TooltipNumbers\">50%</c> più a lungo.",
+      "name": "Raffreddamento a Liquido",
+      "shortText": "Potenzia le fonti curative in Assetto Mech."
+    },
+    "DVaPilotTorpedoDash|DVaPilotTorpedoDashAbility|Q": {
+      "cooldownText": "Recupero: 10 s",
+      "fullText": "D.VA scatta verso la posizione selezionata, oltrepassando i nemici sulla traiettoria.",
+      "name": "Torpedine",
+      "shortText": "D.VA scatta verso la posizione selezionata."
+    },
+    "DVaPilotConcussivePulse|DVaPilotConcussivePulseAbility|W": {
+      "cooldownText": "Recupero: 10 s",
+      "fullText": "Infligge <c val=\"#TooltipNumbers\">120</c><c val=\"#ColorGray\">~~0.04~~</c> danni ai nemici in un cono e li respinge.",
+      "name": "Salva Concussiva",
+      "shortText": "Danneggia e respinge i nemici vicini."
+    },
+    "DVaPilotCallMech|DVaPilotCallMech|E": {
+      "cooldownText": "Recupero: 45 s",
+      "fullText": "Richiama un nuovo Mech e passa all'Assetto Mech.<n/><n/>Ogni attacco base riduce il tempo di recupero di <c val=\"#TooltipNumbers\">0.5</c> s.",
+      "name": "Richiama Mech"
+    },
+    "DVaPilotBigShot|DVaPilotBigShot|Heroic": {
+      "cooldownText": "Recupero: 6 s",
+      "fullText": "Infligge <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c> danni ai nemici in una linea retta. La velocità di movimento degli eroi colpiti viene ridotta del <c val=\"#TooltipNumbers\">25%</c> per <c val=\"#TooltipNumbers\">1.5</c> s. Il tempo di recupero di Richiama Mech è ridotto di <c val=\"#TooltipNumbers\">5</c> s per ogni eroe nemico colpito.<n/><n/>Richiede Assetto Pilota.",
+      "name": "Colpo Grosso",
+      "shortText": "Danneggia e rallenta i nemici in una linea retta in Assetto Pilota."
+    },
+    ":PASSIVE:|DVaPilotPilotMode|Trait": {
+      "fullText": "Gli attacchi base riducono il tempo di recupero di Richiama Mech di <c val=\"#TooltipNumbers\">0.5</c> s. In Assetto Pilota, D.VA fornisce il <c val=\"#TooltipNumbers\">50%</c> dell'esperienza degli eroi alla morte.",
+      "name": "Assetto Pilota"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Recupero: 4 s",
+      "fullText": "Dopo un incanalamento di <c val=\"#TooltipNumbers\">1</c> s, aumenta del <s val=\"StandardTooltipDetails\">30%</s> la velocità di movimento.",
+      "name": "Cavalcatura"
+    },
+    "DVaMechPilotSelfDestruct|DVaMechSelfDestruct|Active": {
+      "fullText": "D.VA si eietta dal Mech, che si autodistrugge dopo <c val=\"#TooltipNumbers\">4</c> s. Infligge da <c val=\"#TooltipNumbers\">400</c><c val=\"#ColorGray\">~~0.04~~</c> a <c val=\"#TooltipNumbers\">1100</c><c val=\"#ColorGray\">~~0.04~~</c> danni in un'ampia area, a seconda della distanza dal centro. Infligge il <c val=\"#TooltipNumbers\">50%</c> dei danni alle strutture.<n/><n/><c val=\"FF8000\">Ottiene il </c><c val=\"#TooltipNumbers\">1%</c><c val=\"FF8000\"> di carica per ogni </c><c val=\"#TooltipNumbers\">2</c><c val=\"FF8000\"> s di attacchi base, e il </c><c val=\"#TooltipNumbers\">25%</c><c val=\"FF8000\"> di carica se il Mech perde il </c><c val=\"#TooltipNumbers\">100%</c><c val=\"FF8000\"> di Salute.</c>",
+      "name": "Autodistruzione",
+      "shortText": "D.VA si eietta dal Mech e ne provoca l’autodistruzione, infliggendo ingenti danni."
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Congeda la cavalcatura.",
+      "name": "Congeda cavalcatura"
+    }
+  },
+  "talents": {
+    "DVaFullMetal|DVaFullMetal|Trait|Level1": {
+      "fullText": "Il Mech di D.VA ottiene un bonus alla Salute del <c val=\"#TooltipNumbers\">10%</c> e i suoi Cannoni a Fusione rigenerano Salute pari al <c val=\"#TooltipNumbers\">16%</c> dei danni inflitti ai nemici nell'area bonus.",
+      "name": "Metallo Pesante",
+      "shortText": "Aumenta la Salute del Mech e Cannoni a Fusione cura."
+    },
+    "DVaMechProMoves|DVaMechProMoves|Trait|Level1": {
+      "fullText": "Il Mech di D.VA ottiene un bonus alla velocità di movimento del <c val=\"#TooltipNumbers\">2%</c> e <c val=\"#TooltipNumbers\">2</c> Resistenza ogni volta che subisce danno. Si accumula fino a <c val=\"#TooltipNumbers\">15</c> volte. Gli accumuli di questo effetto si esauriscono ogni <c val=\"#TooltipNumbers\">0.5</c> s.<n/><n/>Gli attacchi base contro gli eroi nemici in Assetto Pilota riducono il tempo di recupero di Richiama Mech di <c val=\"#TooltipNumbers\">1</c> s aggiuntivo.",
+      "name": "Mosse Avanzate",
+      "shortText": "Subire danni aumenta la velocità di movimento e la Resistenza."
+    },
+    "DVaLiquidCooling|DVaLiquidCooling|Active|Level1": {
+      "cooldownText": "Recupero: 50 s",
+      "fullText": "All'attivazione fornisce gli effetti di una fonte curativa. Richiede l'Assetto Mech.<n/><n/><c val=\"#AbilityPassive\">Passiva:</c> In Assetto Mech, il tempo di recupero delle fonti curative è ridotto a <c val=\"#TooltipNumbers\">50</c> s e il loro effetto dura il <c val=\"#TooltipNumbers\">50%</c> più a lungo.",
+      "name": "Raffreddamento a Liquido",
+      "shortText": "Potenzia le fonti curative in Assetto Mech."
+    },
+    "DVaBoostersRushdown|DVaBoostersRushdown|Q|Level4": {
+      "fullText": "Retrorazzi infligge danni aggiuntivi agli eroi pari al <c val=\"#TooltipNumbers\">2%</c> della loro Salute massima e rigenera Salute al Mech di D.VA pari ai danni inflitti. Retrorazzi infligge il <c val=\"#TooltipNumbers\">50%</c> di danni aggiuntivi ai nemici non eroici.",
+      "name": "Basso Profilo",
+      "shortText": "Retrorazzi sottrae Salute e aumenta i danni contro le unità non eroiche."
+    },
+    "DVaDefenseMatrixAggressionMatrix|DVaDefenseMatrixAggressionMatrix|W|Level4": {
+      "fullText": "Gli eroi nemici all'interno della Matrice Difensiva ricevono il <c val=\"#TooltipNumbers\">35%</c> di cure in meno.<n/><n/><c val=\"#AbilityPassive\">Passiva:</c> Gli attacchi base contro gli eroi riducono il tempo di recupero di Matrice Difensiva di <c val=\"#TooltipNumbers\">0.1875</c> s.",
+      "name": "Matrice Aggressiva",
+      "shortText": "Matrice Difensiva riduce le cure e ha tempo di recupero ridotto."
+    },
+    "DVaSelfDestructNuclearOption|DVaSelfDestructNuclearOption|E|Level4": {
+      "fullText": "Colpire il tuo Mech durante Autodistruzione con Colpo Grosso fa sì che si autodistrugga il <c val=\"#TooltipNumbers\">40%</c> più velocemente.<n/><n/><c val=\"#AbilityPassive\">Passiva:</c> Quando Cannoni a Fusione infligge danni aggiuntivi a un eroe nemico, fornisce <c val=\"#TooltipNumbers\">0.25</c> carica di Autodistruzione.",
+      "name": "Opzione Nucleare",
+      "shortText": "Potenzia Cannoni a Fusione e Autodistruzione"
+    },
+    "DvaGetOnThePoint|DvaGetOnThePoint|Q|Level7": {
+      "fullText": "Attivare Retrorazzi fornisce agli alleati vicini un bonus del <c val=\"#TooltipNumbers\">20%</c> alla velocità di movimento per <c val=\"#TooltipNumbers\">3</c> s. <n/><n/><c val=\"#AbilityPassive\">Passiva: </c>Se D.VA non ha subito danni negli ultimi <c val=\"#TooltipNumbers\">2</c> s, il tempo di recupero di Retrorazzi scorre il <c val=\"#TooltipNumbers\">100%</c> più rapidamente.",
+      "name": "Sul Punto!",
+      "shortText": "Riduce il tempo di recupero di Retrorazzi e fornisce un bonus alla velocità di movimento agli alleati."
+    },
+    "DVaBoostersHitTheNitrous|DVaBoostersHitTheNitrous|Q|Level7": {
+      "fullText": "Aumenta il bonus alla velocità iniziale di Retrorazzi al <c val=\"#TooltipNumbers\">300%</c>, poi torna al normale bonus in <c val=\"#TooltipNumbers\">0.5</c> s. Durante questo periodo, Retrorazzi stordisce per <c val=\"#TooltipNumbers\">0.5</c> s.",
+      "name": "NOS",
+      "shortText": "Retrorazzi fornisce un istantaneo bonus alla velocità e stordisce."
+    },
+    "DVaDefenseMatrixFusionGenerator|DVaDefenseMatrixFusionGenerator|W|Level7": {
+      "fullText": "Ogni volta che un eroe nemico infligge danni all'interno di Matrice Difensiva, la carica di Autodistruzione aumenta del <c val=\"#TooltipNumbers\">1%</c>. Ogni utilizzo può fornire una carica massima del <c val=\"#TooltipNumbers\">20%</c>.<n/><n/><c val=\"#AbilityPassive\">Passiva: </c>Quando la carica di Autodistruzione è al massimo, il bonus ai danni di Cannoni a Fusione è aumentato al <c val=\"#TooltipNumbers\">100%</c>.",
+      "name": "Generatore a Fusione",
+      "shortText": "Matrice Difensiva carica Autodistruzione."
+    },
+    "DVaBunnyHop|DVaBunnyHopOn|Heroic|Level10": {
+      "cooldownText": "Recupero: 70 s",
+      "fullText": "Il Mech di D.VA diventa inarrestabile e calpesta il terreno ogni <c val=\"#TooltipNumbers\">0.5</c> s, infliggendo <c val=\"#TooltipNumbers\">78</c><c val=\"#ColorGray\">~~0.04~~</c> danni in un'ampia area. Ogni <c val=\"#TooltipNumbers\">4°</c> colpo consecutivo contro un eroe infligge il <c val=\"#TooltipNumbers\">80%</c> di danni aggiuntivi e lo stordisce per <c val=\"#TooltipNumbers\">0.5</c> s.<n/><n/>Dura <c val=\"#TooltipNumbers\">4</c> s.<n/><n/>Richiede Assetto Mech.",
+      "name": "Passo Pesante",
+      "shortText": "D.VA diventa inarrestabile e stordisce gli eroi vicini."
+    },
+    "DVaMicroMissiles|DVaMicroMissiles|Heroic|Level10": {
+      "cooldownText": "Recupero carica: 19 s",
+      "fullText": "Dopo <c val=\"#TooltipNumbers\">0,375</c> s, canalizza per lanciare una salva di <c val=\"#TooltipNumbers\">12 </c>missili nella direzione selezionata. Ogni missile colpisce il primo nemico sulla traiettoria, infliggendo <c val=\"#TooltipNumbers\">40</c><c val=\"#ColorGray\">~~0.04~~</c> danni in una piccola area e rallentando del <c val=\"#TooltipNumbers\">30%</c> per <c val=\"#TooltipNumbers\">2</c> s.<n/><n/>Accumula <c val=\"#TooltipNumbers\">2</c> cariche con un tempo di recupero di <c val=\"#TooltipNumbers\">3</c> s tra un utilizzo e l'altro.<n/><n/>Richiede Assetto Mech.",
+      "name": "Micromissili",
+      "shortText": "Lancia una salva di missili che infligge danni e rallenta. "
+    },
+    "DVaTargetLocked|DVaTargetLocked|W|Level13": {
+      "fullText": "La Resistenza degli eroi nemici che rimangono nella tua Matrice Difensiva per <c val=\"#TooltipNumbers\">0.75</c> s è ridotta di <c val=\"#TooltipNumbers\">15</c> e la loro velocità di movimento è ridotta del <c val=\"#TooltipNumbers\">25%</c> per <c val=\"#TooltipNumbers\">3</c> s.",
+      "name": "Bersaglio Agganciato",
+      "shortText": "Matrice Difensiva riduce la Resistenza e rallenta."
+    },
+    "DVaGoodToGo|DVaGoodToGo|Trait|Level13": {
+      "fullText": "<c val=\"#AbilityPassive\">Assetto Pilota:</c> Sblocca le abilità Torpedine e Salva Concussiva.<n/><n/><c val=\"#TooltipNumbers\">Torpedine:</c> Scatta per una breve distanza. Tempo di recupero di <c val=\"#TooltipNumbers\">10</c> s.<n/><n/><c val=\"#TooltipNumbers\">Salva Concussiva:</c> Infligge <c val=\"#TooltipNumbers\">120</c><c val=\"#ColorGray\">~~0.04~~</c> danni ai nemici in un cono e li respinge indietro. Tempo di recupero di <c val=\"#TooltipNumbers\">10</c> s.",
+      "name": "Arsenale Migliorato",
+      "shortText": "Sblocca ulteriori abilità in Assetto Pilota."
+    },
+    "DVaBigShotPewPewPew|DVaBigShotPewPewPew|Trait|Level13": {
+      "fullText": "<c val=\"#AbilityPassive\">Assetto Pilota: </c>Invece di esplodere un colpo singolo, Colpo Grosso si divide in <c val=\"#TooltipNumbers\">3</c> colpi in <c val=\"#TooltipNumbers\">0.5</c> s. Ogni colpo infligge il <c val=\"#TooltipNumbers\">75%</c> dei danni.",
+      "name": "Bang! Bang!",
+      "shortText": "Colpo Grosso esplode più colpi."
+    },
+    "DVaInForTheKill|DVaInForTheKill|Q|Level16": {
+      "fullText": "Attivare Retrorazzi fornisce uno scudo pari al <c val=\"#TooltipNumbers\">10%</c> della Salute massima per <c val=\"#TooltipNumbers\">2.5</c> s. Ogni eroe nemico colpito da Retrorazzi aumenta i danni degli attacchi base del Mech di D.VA del<c val=\"#TooltipNumbers\">10%</c> per <c val=\"#TooltipNumbers\">5</c> s. Si accumula fino a <c val=\"#TooltipNumbers\">5</c> volte.",
+      "name": "Senza Pietà",
+      "shortText": "Retrorazzi fornisce uno scudo e aumenta i danni degli attacchi."
+    },
+    "DVaDefenseMatrixDivertingPower|DVaDefenseMatrixDivertingPower|W|Level16": {
+      "fullText": "L'area della Matrice Difensiva cresce drasticamente di dimensioni e ogni volta che riduce i danni inflitti agli eroi rigenera <c val=\"#TooltipNumbers\">31</c><c val=\"#ColorGray\">~~0.04~~</c> Salute al Mech di D.VA.",
+      "name": "Divisione di Potere",
+      "shortText": "Aumenta l'area di Matrice Difensiva e fornisce cure."
+    },
+    "DVaMechEmergencyShielding|DVaMechEmergencyShielding|Trait|Level16": {
+      "fullText": "Se il Mech di D.VA subisce danni fatali, ottiene uno scudo che assorbe <c val=\"#TooltipNumbers\">290</c><c val=\"#ColorGray\">~~0.04~~</c> danni in <c val=\"#TooltipNumbers\">8</c> s.<n/><n/>L'effetto ha un tempo di recupero di <c val=\"#TooltipNumbers\">30</c> s.",
+      "name": "Scudo d'Emergenza",
+      "shortText": "Il Mech ottiene uno scudo invece di venire distrutto."
+    },
+    "DVaBunnyHopStopAndPop|DVaBunnyHopStopAndPop|Heroic|Level20": {
+      "fullText": "Aumenta la durata di Passo Pesante di <c val=\"#TooltipNumbers\">4</c> s e non si riduce finché il Mech di D.VA rimane fermo.",
+      "name": "Ferma Come Un Sasso",
+      "shortText": "Aumenta la durata di Passo Pesante e viene messa in pausa se D.VA rimane ferma."
+    },
+    "DVaTimingAttack|DVaTimingAttack|Heroic|Level20": {
+      "fullText": "Micromissili ottiene una carica aggiuntiva. Ogni volta che Micromissili colpisce un eroe nemico, il suo tempo di recupero si riduce di <c val=\"#TooltipNumbers\">0.5</c> s e il tempo di recupero della carica si riduce di <c val=\"#TooltipNumbers\">0.25</c> s.",
+      "name": "Attacco Tempestivo",
+      "shortText": "Fornisce una carica e i colpi agli eroi nemici riducono il tempo di recupero."
+    },
+    "DVaHeadshot|DVaHeadshot|Trait|Level20": {
+      "fullText": "<c val=\"#AbilityPassive\">Assetto Pilota:</c> Aumenta i danni di Colpo Grosso del <c val=\"#TooltipNumbers\">75%</c> e ne riduce il tempo di recupero di <c val=\"#TooltipNumbers\">2</c> s.",
+      "name": "Colpo alla Testa!",
+      "shortText": "Aumenta i danni di Colpo Grosso e ne riduce il tempo di recupero."
+    },
+    "DVaMechAblativeArmor|DVaMechAblativeArmor|Trait|Level20": {
+      "fullText": "Il <c val=\"#TooltipNumbers\">45%</c> dei danni inflitti dalle abilità al Mech di D.VA vengono forniti come cure in <c val=\"#TooltipNumbers\">4</c> s.",
+      "name": "Armatura Ricorsiva",
+      "shortText": "Rigenera Salute pari a una porzione dei danni subiti dalle abilità."
+    }
+  },
+  "units": {
+    "HeroDVaPilot": {
+      "energyType": "Carica",
+      "lifeType": "Salute",
+      "name": "D.VA"
+    }
+  }
+}

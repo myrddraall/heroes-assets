@@ -1,0 +1,635 @@
+{
+  "id": "SgtHammer",
+  "unitId": "HeroSgtHammer",
+  "hyperlinkId": "SgtHammer",
+  "attributeId": "Sgth",
+  "franchise": "Starcraft",
+  "rarity": "Epic",
+  "releaseDate": "2014-03-13",
+  "isMelee": false,
+  "gender": "Female",
+  "radius": 1.1875,
+  "innerRadius": 0.9375,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "ratings": {
+    "complexity": 6,
+    "damage": 9,
+    "survivability": 3,
+    "utility": 3
+  },
+  "life": {
+    "amount": 1720,
+    "scale": 0.04,
+    "regenRate": 3.582,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "EnergyImportant",
+    "RoleAutoAttacker",
+    "TowerPusher",
+    "WaveClearer"
+  ],
+  "summonedUnitIds": [
+    "SgtHammerSpiderMinesUnit"
+  ],
+  "weapons": [
+    {
+      "nameId": "HeroSgtHammer",
+      "isDisabled": false,
+      "range": 5.5,
+      "minimumRange": 0,
+      "period": 1,
+      "damage": 140,
+      "damageScale": 0.04
+    },
+    {
+      "nameId": "SgtHammerSiegeModeWeapon",
+      "isDisabled": true,
+      "range": 11,
+      "minimumRange": 0,
+      "period": 1,
+      "damage": 140,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "SgtHammerDoom",
+    "SgtHammerMobster19",
+    "SgtHammerUltimate",
+    "SgtHammerWW2",
+    "SgtHammerWW2Neon"
+  ],
+  "variationSkinIds": [
+    "SgtHammerBlue",
+    "SgtHammerWhite"
+  ],
+  "voiceLineIds": [
+    "SgtHammerBase_VoiceLine01",
+    "SgtHammerBase_VoiceLine02",
+    "SgtHammerBase_VoiceLine03",
+    "SgtHammerBase_VoiceLine04",
+    "SgtHammerBase_VoiceLine05"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "SgtHammerSpiderMines|SgtHammerSpiderMines|Q",
+        "abilityId": "SgtHammerSpiderMines",
+        "buttonId": "SgtHammerSpiderMines",
+        "icon": "storm_ui_icon_sgthammer_spidermines.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "SgtHammerConcussiveBlast|SgtHammerConcussiveBlast|W",
+        "abilityId": "SgtHammerConcussiveBlast",
+        "buttonId": "SgtHammerConcussiveBlast",
+        "icon": "storm_ui_icon_sgthammer_concussiveblast.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "SgtHammerNeosteelPlating|SgtHammerNeosteelPlating|E",
+        "abilityId": "SgtHammerNeosteelPlating",
+        "buttonId": "SgtHammerNeosteelPlating",
+        "icon": "storm_ui_icon_sgthammer_neosteelplating.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "SgtHammerNapalmStrike|SgtHammerNapalmStrike|Heroic",
+        "abilityId": "SgtHammerNapalmStrike",
+        "buttonId": "SgtHammerNapalmStrike",
+        "icon": "storm_ui_icon_sgthammer_napalmstrike.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "SgtHammerBluntForceGun|SgtHammerBluntForceGun|Heroic",
+        "abilityId": "SgtHammerBluntForceGun",
+        "buttonId": "SgtHammerBluntForceGun",
+        "icon": "storm_ui_icon_sgthammer_bluntforcegun.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": "SgtHammerSiegeMode|SgtHammerSiegeMode|Trait",
+        "abilityId": "SgtHammerSiegeMode",
+        "buttonId": "SgtHammerSiegeMode",
+        "icon": "storm_ui_icon_sgthammer_siegemode.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "SgtHammerThrusters|SgtHammerThrusters|Z",
+        "abilityId": "SgtHammerThrusters",
+        "buttonId": "SgtHammerThrusters",
+        "icon": "storm_ui_icon_sgthammer_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "SgtHammerSiegeMode|SgtHammerSiegeMode|Trait": {
+      "Basic": [
+        {
+          "linkId": "SgtHammerSpiderMinesSiegeMode|SgtHammerSpiderMines|Q",
+          "abilityId": "SgtHammerSpiderMinesSiegeMode",
+          "buttonId": "SgtHammerSpiderMines",
+          "icon": "storm_ui_icon_sgthammer_spidermines.png",
+          "abilityType": "Q"
+        }
+      ],
+      "Heroic": [
+        {
+          "linkId": "SgtHammerNapalmStrikeSiege|SgtHammerNapalmStrike|Heroic",
+          "abilityId": "SgtHammerNapalmStrikeSiege",
+          "buttonId": "SgtHammerNapalmStrike",
+          "icon": "storm_ui_icon_sgthammer_napalmstrike.png",
+          "abilityType": "Heroic"
+        }
+      ],
+      "Trait": [
+        {
+          "linkId": "SgtHammerTankMode|SgtHammerTankMode|Trait",
+          "abilityId": "SgtHammerTankMode",
+          "buttonId": "SgtHammerTankMode",
+          "icon": "storm_ui_icon_sgthammer_tankmode.png",
+          "abilityType": "Trait"
+        }
+      ]
+    },
+    "SgtHammerSiegeModeMaelstromRounds|SgtHammerSiegeModeMaelstromRounds|Active|Level1": {
+      "Activable": [
+        {
+          "linkId": "SgtHammerSiegeModeMaelstromRounds|SgtHammerSiegeModeMaelstromRounds|Active",
+          "abilityId": "SgtHammerSiegeModeMaelstromRounds",
+          "buttonId": "SgtHammerSiegeModeMaelstromRounds",
+          "icon": "storm_ui_icon_sgthammer_siegemode_var1.png",
+          "charges": {
+            "countMax": 3,
+            "countStart": 3,
+            "countUse": 1,
+            "recastCooldown": 5,
+            "isCountHidden": false
+          },
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "SgtHammerBarricade|SgtHammerConcussiveBlastBarricadeTalent|W|Level4": {
+      "Basic": [
+        {
+          "linkId": "ConcussiveBlastScrapCancel|SgtHammerConcussiveBlastBarricadeCancel|W",
+          "abilityId": "ConcussiveBlastScrapCancel",
+          "buttonId": "SgtHammerConcussiveBlastBarricadeCancel",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "abilityType": "W"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "SgtHammerAmbush|SgtHammerSiegeModeAmbushTalent|Trait|Level1",
+        "talentId": "SgtHammerAmbush",
+        "buttonId": "SgtHammerSiegeModeAmbushTalent",
+        "abilityId": "SgtHammerSiegeMode",
+        "icon": "storm_ui_icon_sgthammer_siegemode_var2.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "SgtHammerSiegeMode|SgtHammerSiegeMode|Trait"
+        ]
+      },
+      {
+        "linkId": "SgtHammerSiegeModeAdvancedArtillery|SgtHammerSiegeModeAdvancedArtillery|Trait|Level1",
+        "talentId": "SgtHammerSiegeModeAdvancedArtillery",
+        "buttonId": "SgtHammerSiegeModeAdvancedArtillery",
+        "abilityId": "SgtHammerSiegeMode",
+        "icon": "storm_ui_icon_sgthammer_siegemode.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "SgtHammerSiegeMode|SgtHammerSiegeMode|Trait"
+        ]
+      },
+      {
+        "linkId": "SgtHammerSiegeModeMaelstromRounds|SgtHammerSiegeModeMaelstromRounds|Active|Level1",
+        "talentId": "SgtHammerSiegeModeMaelstromRounds",
+        "buttonId": "SgtHammerSiegeModeMaelstromRounds",
+        "abilityId": "SgtHammerSiegeModeMaelstromRounds",
+        "icon": "storm_ui_icon_sgthammer_siegemode_var1.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "SgtHammerSiegeMode|SgtHammerSiegeMode|Trait"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "SgtHammerBarricade|SgtHammerConcussiveBlastBarricadeTalent|W|Level4",
+        "talentId": "SgtHammerBarricade",
+        "buttonId": "SgtHammerConcussiveBlastBarricadeTalent",
+        "abilityId": "SgtHammerConcussiveBlast",
+        "icon": "storm_ui_icon_sgthammer_concussiveblast.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "SgtHammerConcussiveBlast|SgtHammerConcussiveBlast|W"
+        ]
+      },
+      {
+        "linkId": "SgtHammerNeosteelPlatingSiegeTactics|SgtHammerNeosteelPlatingSiegeTacticsTalent|E|Level4",
+        "talentId": "SgtHammerNeosteelPlatingSiegeTactics",
+        "buttonId": "SgtHammerNeosteelPlatingSiegeTacticsTalent",
+        "abilityId": "SgtHammerNeosteelPlating",
+        "icon": "storm_ui_icon_sgthammer_neosteelplating.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "SgtHammerNeosteelPlating|SgtHammerNeosteelPlating|E"
+        ]
+      },
+      {
+        "linkId": "SgtHammerSiegeModeRegenerativeBioSteel|SgtHammerSiegeModeRegenerativeBioSteel|Trait|Level4",
+        "talentId": "SgtHammerSiegeModeRegenerativeBioSteel",
+        "buttonId": "SgtHammerSiegeModeRegenerativeBioSteel",
+        "abilityId": "SgtHammerSiegeMode",
+        "icon": "storm_ui_icon_sgthammer_siegemode.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "SgtHammerSiegeMode|SgtHammerSiegeMode|Trait"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "SgtHammerSpiderMinesPulseDetonationCore|SgtHammerSpiderMinesPulseDetonationCoreTalent|Q|Level7",
+        "talentId": "SgtHammerSpiderMinesPulseDetonationCore",
+        "buttonId": "SgtHammerSpiderMinesPulseDetonationCoreTalent",
+        "abilityId": "SgtHammerSpiderMines",
+        "icon": "storm_ui_icon_sgthammer_spidermines.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "SgtHammerSpiderMines|SgtHammerSpiderMines|Q",
+          "SgtHammerSpiderMinesSiegeMode|SgtHammerSpiderMines|Q"
+        ]
+      },
+      {
+        "linkId": "SgtHammerMasteryHoverSiegeMode|SgtHammerSiegeModeHoverSiegeModeTalent|Trait|Level7",
+        "talentId": "SgtHammerMasteryHoverSiegeMode",
+        "buttonId": "SgtHammerSiegeModeHoverSiegeModeTalent",
+        "abilityId": "SgtHammerSiegeMode",
+        "icon": "storm_ui_icon_sgthammer_siegemode.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "SgtHammerSiegeMode|SgtHammerSiegeMode|Trait"
+        ]
+      },
+      {
+        "linkId": "SgtHammerGraduatingRange|SgtHammerSiegeModeGraduatingRangeTalent|Trait|Level7",
+        "talentId": "SgtHammerGraduatingRange",
+        "buttonId": "SgtHammerSiegeModeGraduatingRangeTalent",
+        "abilityId": "SgtHammerSiegeMode",
+        "icon": "storm_ui_icon_sgthammer_siegemode_var1.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "SgtHammerSiegeMode|SgtHammerSiegeMode|Trait"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "SgtHammerHeroicAbilityBluntForceGun|SgtHammerBluntForceGun|Heroic|Level10",
+        "talentId": "SgtHammerHeroicAbilityBluntForceGun",
+        "buttonId": "SgtHammerBluntForceGun",
+        "abilityId": "SgtHammerBluntForceGun",
+        "icon": "storm_ui_icon_sgthammer_bluntforcegun.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "SgtHammerHeroicAbilityNapalmStrike|SgtHammerNapalmStrike|Heroic|Level10",
+        "talentId": "SgtHammerHeroicAbilityNapalmStrike",
+        "buttonId": "SgtHammerNapalmStrike",
+        "abilityId": "SgtHammerNapalmStrike",
+        "icon": "storm_ui_icon_sgthammer_napalmstrike.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "SgtHammerSpiderMinesTacticalMineDeployment|SgtHammerSpiderMinesTacticalMineDeployment|Q|Level13",
+        "talentId": "SgtHammerSpiderMinesTacticalMineDeployment",
+        "buttonId": "SgtHammerSpiderMinesTacticalMineDeployment",
+        "abilityId": "SgtHammerSpiderMines",
+        "icon": "storm_ui_icon_sgthammer_spidermines.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "SgtHammerSpiderMines|SgtHammerSpiderMines|Q",
+          "SgtHammerSpiderMinesSiegeMode|SgtHammerSpiderMines|Q"
+        ]
+      },
+      {
+        "linkId": "SgtHammerConcussiveBlastEntrenched|SgtHammerConcussiveBlastEntrenchedTalent|W|Level13",
+        "talentId": "SgtHammerConcussiveBlastEntrenched",
+        "buttonId": "SgtHammerConcussiveBlastEntrenchedTalent",
+        "abilityId": "SgtHammerConcussiveBlast",
+        "icon": "storm_ui_icon_sgthammer_concussiveblast.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "SgtHammerConcussiveBlast|SgtHammerConcussiveBlast|W"
+        ]
+      },
+      {
+        "linkId": "SgtHammerHyperCoolingEngines|SgtHammerThrustersHyperCoolingEnginesTalent|Z|Level13",
+        "talentId": "SgtHammerHyperCoolingEngines",
+        "buttonId": "SgtHammerThrustersHyperCoolingEnginesTalent",
+        "abilityId": "SgtHammerThrusters",
+        "icon": "storm_ui_icon_sgthammer_hypercoolingengines.png",
+        "abilityType": "Z",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "SgtHammerThrusters|SgtHammerThrusters|Z"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "SgtHammerNeosteelPlatingMechanicalKnowhow|SgtHammerNeosteelPlatingMechanicalKnowhowTalent|E|Level16",
+        "talentId": "SgtHammerNeosteelPlatingMechanicalKnowhow",
+        "buttonId": "SgtHammerNeosteelPlatingMechanicalKnowhowTalent",
+        "abilityId": "SgtHammerNeosteelPlating",
+        "icon": "storm_ui_icon_sgthammer_neosteelplating.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "SgtHammerNeosteelPlating|SgtHammerNeosteelPlating|E"
+        ]
+      },
+      {
+        "linkId": "HeroGenericExecutionerPassive|GenericExecutionerTalent|Passive|Level16",
+        "talentId": "HeroGenericExecutionerPassive",
+        "buttonId": "GenericExecutionerTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_damage.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2
+      },
+      {
+        "linkId": "GenericTalentGiantKillerSgtHammer|SgtHammerGiantKiller|Passive|Level16",
+        "talentId": "GenericTalentGiantKillerSgtHammer",
+        "buttonId": "SgtHammerGiantKiller",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_searing.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "SgtHammerMasteryOrbitalBFGBluntForceGun|SgtHammerBluntForceGunOrbitalBFGTalent|Heroic|Level20",
+        "talentId": "SgtHammerMasteryOrbitalBFGBluntForceGun",
+        "buttonId": "SgtHammerBluntForceGunOrbitalBFGTalent",
+        "abilityId": "SgtHammerBluntForceGun",
+        "icon": "storm_ui_icon_sgthammer_bluntforcegun.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "SgtHammerBluntForceGun|SgtHammerBluntForceGun|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "SgtHammerHeroicAbilityBluntForceGun"
+        ]
+      },
+      {
+        "linkId": "SgtHammerMasteryAdvancedLavaStrikeNapalmStrike|SgtHammerNapalmStrikeAdvancedLavaStrikeTalent|Heroic|Level20",
+        "talentId": "SgtHammerMasteryAdvancedLavaStrikeNapalmStrike",
+        "buttonId": "SgtHammerNapalmStrikeAdvancedLavaStrikeTalent",
+        "abilityId": "SgtHammerNapalmStrike",
+        "icon": "storm_ui_icon_sgthammer_napalmstrike.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "SgtHammerNapalmStrike|SgtHammerNapalmStrike|Heroic",
+          "SgtHammerNapalmStrikeSiege|SgtHammerNapalmStrike|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "SgtHammerHeroicAbilityNapalmStrike"
+        ]
+      },
+      {
+        "linkId": "SgtHammerSpiderMinesShrapnelMines|SgtHammerSpiderMinesShrapnelMines|Q|Level20",
+        "talentId": "SgtHammerSpiderMinesShrapnelMines",
+        "buttonId": "SgtHammerSpiderMinesShrapnelMines",
+        "abilityId": "SgtHammerSpiderMines",
+        "icon": "storm_ui_icon_sgthammer_spidermines.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "SgtHammerSpiderMines|SgtHammerSpiderMines|Q",
+          "SgtHammerSpiderMinesSiegeMode|SgtHammerSpiderMines|Q"
+        ]
+      },
+      {
+        "linkId": "SgtHammerSiegeModeUltraCapacitors|SgtHammerSiegeModeUltraCapacitors|Trait|Level20",
+        "talentId": "SgtHammerSiegeModeUltraCapacitors",
+        "buttonId": "SgtHammerSiegeModeUltraCapacitors",
+        "abilityId": "SgtHammerSiegeMode",
+        "icon": "storm_ui_icon_sgthammer_siegemode.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          "SgtHammerSiegeMode|SgtHammerSiegeMode|Trait"
+        ]
+      }
+    ]
+  },
+  "sheet": "sheets/SgtHammer.png",
+  "icons": {
+    "storm_ui_icon_sgthammer_spidermines.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_sgthammer_concussiveblast.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_sgthammer_neosteelplating.png": [
+      512,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_sgthammer_napalmstrike.png": [
+      768,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_sgthammer_bluntforcegun.png": [
+      0,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_sgthammer_siegemode.png": [
+      256,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_sgthammer_mount.png": [
+      512,
+      256,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      768,
+      256,
+      111,
+      71
+    ],
+    "storm_ui_icon_sgthammer_tankmode.png": [
+      0,
+      512,
+      128,
+      128
+    ],
+    "storm_ui_icon_sgthammer_siegemode_var1.png": [
+      256,
+      512,
+      128,
+      128
+    ],
+    "hud_btn_bg_ability_cancel.png": [
+      512,
+      512,
+      97,
+      111
+    ],
+    "storm_ui_icon_sgthammer_siegemode_var2.png": [
+      768,
+      512,
+      256,
+      256
+    ],
+    "storm_ui_icon_sgthammer_hypercoolingengines.png": [
+      0,
+      768,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_autoattack_damage.png": [
+      256,
+      768,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_autoattack_searing.png": [
+      512,
+      768,
+      128,
+      128
+    ]
+  }
+}

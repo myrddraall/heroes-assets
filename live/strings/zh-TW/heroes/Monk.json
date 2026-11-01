@@ -1,0 +1,248 @@
+{
+  "abilities": {
+    "MonkRadiantDash|MonkRadiantDash|Q": {
+      "cooldownText": "補充時間：12秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：25點</s>",
+      "fullText": "躍至盟友或敵人身旁。目標為敵人時，會立刻使出一次基本攻擊。<n/><n/>使用次數可累積至<c val=\"#TooltipNumbers\">2</c>次。",
+      "name": "耀目閃",
+      "shortText": "衝刺至一名盟友或敵人身邊"
+    },
+    "MonkBreathOfHeaven|MonkBreathOfHeaven|W": {
+      "cooldownText": "冷卻時間：10秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：65點</s>",
+      "fullText": "為附近的友方英雄恢復<c val=\"#TooltipNumbers\">295</c><c val=\"#ColorGray\">~~0.04~~</c>點生命值，並且使其移動速度提高<c val=\"#TooltipNumbers\">15%</c>，持續<c val=\"#TooltipNumbers\">3</c>秒。",
+      "name": "迴天氣訣",
+      "shortText": "治療附近的友方英雄並提高移動速度"
+    },
+    "MonkDeadlyReach|MonkDeadlyReach|E": {
+      "cooldownText": "冷卻時間：10秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：45點</s>",
+      "fullText": "克拉辛下一次的基本攻擊會使攻擊速度和距離提高<c val=\"#TooltipNumbers\">100%</c>，持續<c val=\"#TooltipNumbers\">2</c>秒。",
+      "name": "斷空波",
+      "shortText": "提高攻擊速度與距離"
+    },
+    "MonkSevenSidedStrike|MonkSevenSidedStrike|Heroic": {
+      "cooldownText": "冷卻時間：50秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：77點</s>",
+      "fullText": "進入無敵狀態，並且在<c val=\"#TooltipNumbers\">2</c>秒內發動<c val=\"#TooltipNumbers\">7</c>次攻擊。每次攻擊會以附近生命值最高的英雄為目標，造成相當於敵方最大生命值<c val=\"#TooltipNumbers\">7%</c>的傷害。",
+      "name": "七星閃",
+      "shortText": "進入無敵狀態，並且攻擊附近的英雄"
+    },
+    "MonkDivinePalm|MonkDivinePalm|Heroic": {
+      "cooldownText": "冷卻時間：50秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：50點</s>",
+      "fullText": "若目標友方英雄在下<c val=\"#TooltipNumbers\">4</c>秒內受到足以致死的傷害，可使其免於死亡並恢復<c val=\"#TooltipNumbers\">1200</c><c val=\"#ColorGray\">~~0.04~~</c>點生命值。",
+      "name": "聖禦掌",
+      "shortText": "保護一名盟友免於死亡"
+    },
+    ":PASSIVE:|MonkBlankTrait|Trait": {
+      "fullText": "<c val=\"#TooltipNumbers\">從天賦面板選擇超絕、玄鐵拳或明心禪。</c>",
+      "name": "選擇特性",
+      "shortText": "選擇一項特性"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "冷卻時間：4秒",
+      "fullText": "引導<c val=\"#TooltipNumbers\">1</c>秒後，提高<s val=\"StandardTooltipDetails\">30%</s>移動速度。",
+      "name": "召喚坐騎"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "引導<c val=\"#TooltipNumbers\">6</c>秒後傳送回風暴祭壇，立即恢復<c val=\"#TooltipNumbers\">1125</c>點生命值和<c val=\"#TooltipNumbers\">150</c>點法力值。",
+      "name": "爐石"
+    },
+    ":PASSIVE:|MonkDeadlyReachActive|E": {
+      "fullText": "克拉辛下一次的基本攻擊會使攻擊速度和距離提高<c val=\"#TooltipNumbers\">100%</c>，持續<c val=\"#TooltipNumbers\">2</c>秒。",
+      "name": "斷空波作用中"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "離開坐騎。",
+      "name": "離開坐騎"
+    },
+    "HeroGenericSpellShield|GenericSpellShieldItemDisabled|Active": {
+      "fullText": "法術護盾已停用，不會再觸發。<n/><n/>按此按鈕可開啟法術護盾。",
+      "name": "法術護盾 - 停用",
+      "shortText": "啟動後降低受到的技能傷害"
+    },
+    ":PASSIVE:|MonkInsight|Trait": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\"height=\"22\" /><c val=\"#TooltipQuest\">任務：</c>每<c val=\"#TooltipNumbers\">3</c>次基本攻擊，可恢復<c val=\"#TooltipNumbers\">14</c><c val=\"#ColorGray\">~~0.04~~</c>點法力值，堆疊一層明心禪，並且提高<c val=\"#TooltipNumbers\">25%</c>移動速度，持續<c val=\"#TooltipNumbers\">2.5</c>秒。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\"height=\"22\" /><c val=\"#TooltipQuest\">獎勵：</c>明心禪堆疊至<c val=\"#TooltipNumbers\">100</c>層時，每<c val=\"#TooltipNumbers\">3</c>次攻擊可使基本技能的冷卻時間降低<c val=\"#TooltipNumbers\">1.75</c>秒。",
+      "name": "明心禪"
+    },
+    ":PASSIVE:|MonkIronFists|Trait": {
+      "fullText": "每<c val=\"#TooltipNumbers\">3</c>次基本攻擊，可造成<c val=\"#TooltipNumbers\">110%</c>額外傷害，並且使移動速度提高<c val=\"#TooltipNumbers\">25%</c>，持續<c val=\"#TooltipNumbers\">2.5</c>秒。",
+      "name": "玄鐵拳"
+    },
+    ":PASSIVE:|MonkTranscendence|Trait": {
+      "fullText": "每<c val=\"#TooltipNumbers\">3</c>次基本攻擊，可為附近生命值最低的友方英雄恢復<c val=\"#TooltipNumbers\">104</c><c val=\"#ColorGray\">~~0.04~~</c>點生命值，並且提高<c val=\"#TooltipNumbers\">25%</c>移動速度，持續<c val=\"#TooltipNumbers\">2.5</c>秒。",
+      "name": "超絕"
+    },
+    "MonkAirAlly|MonkAirAlly|Active": {
+      "cooldownText": "冷卻時間：30秒",
+      "fullText": "放置一個風之元靈，賦予友方英雄<c val=\"#TooltipNumbers\">20%</c>法術強度、獲得其附近大範圍區域的視野並且揭露範圍內匿蹤的敵人。風之元靈具有<c val=\"#TooltipNumbers\">300</c><c val=\"#ColorGray\">~~0.04~~</c>點生命值，存在時間為<c val=\"#TooltipNumbers\">10</c>秒。耀目閃可以風之元靈為目標。",
+      "name": "風之元靈",
+      "shortText": "放置賦予法術強度和可顯示區域的風之元靈"
+    },
+    "MonkEarthAlly|MonkEarthAlly|Active": {
+      "cooldownText": "冷卻時間：45秒",
+      "fullText": "放置一個地之元靈，使附近友方英雄獲得<c val=\"#TooltipNumbers\">50</c>點物理護甲，使其受到的英雄基本攻擊傷害降低<c val=\"#TooltipNumbers\">50%</c>。地之元靈具有<c val=\"#TooltipNumbers\">400</c><c val=\"#ColorGray\">~~0.04~~</c>點生命值，存在時間為<c val=\"#TooltipNumbers\">10</c>秒。耀目閃可以地之元靈為目標。",
+      "name": "地之元靈",
+      "shortText": "放置可賦予物理護甲的地之元靈"
+    },
+    "MonkSpiritAlly|MonkSpiritAlly|Active": {
+      "cooldownText": "冷卻時間：45秒",
+      "fullText": "放置一個魂癒元靈，每秒替附近大範圍區域的友方英雄治療其最大生命值的<c val=\"#TooltipNumbers\">2%</c>。魂癒元靈具有<c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c>點生命值，存在時間為<c val=\"#TooltipNumbers\">10</c>秒。耀目閃可以魂癒元靈為目標。",
+      "name": "魂癒元靈",
+      "shortText": "放置可治療範圍內盟友的魂癒元靈"
+    },
+    "HeroGenericSpellShield|GenericSpellShieldItemEnabled|Active": {
+      "fullText": "每<c val=\"#TooltipNumbers\">30</c>秒會獲得<c val=\"#TooltipNumbers\">50</c>點法術護甲，使下次及後續受到的敵方技能傷害降低<c val=\"#TooltipNumbers\">50%</c>，持續<c val=\"#TooltipNumbers\">3</c>秒。<n/><n/>按此按鈕可取消自動觸發法術護盾。",
+      "name": "法術護盾 - 開啟",
+      "shortText": "啟動後降低受到的技能傷害"
+    },
+    "TalentBucketStormShield|GenericStormShield|Active": {
+      "cooldownText": "冷卻時間：45秒",
+      "fullText": "啟動後，使附近所有友方英雄獲得相當其最大生命值<c val=\"#TooltipNumbers\">20%</c>的護盾，持續<c val=\"#TooltipNumbers\">3</c>秒。",
+      "name": "風暴護盾",
+      "shortText": "啟動後，使附近友方英雄獲得護盾"
+    },
+    "MonkEpiphany|MonkEpiphany|Active": {
+      "cooldownText": "冷卻時間：70秒",
+      "fullText": "啟動後，恢復最大法力值的<c val=\"#TooltipNumbers\">70%</c>，並補充<c val=\"#TooltipNumbers\">2</c>次耀目閃的使用次數。",
+      "name": "靈光悟",
+      "shortText": "啟動後，恢復法力值和耀目閃的使用次數"
+    }
+  },
+  "talents": {
+    "MonkTranscendence|MonkTranscendenceTalent|Trait|Level1": {
+      "fullText": "每<c val=\"#TooltipNumbers\">3</c>次基本攻擊，可為附近生命值最低的友方英雄恢復<c val=\"#TooltipNumbers\">104</c><c val=\"#ColorGray\">~~0.04~~</c>點生命值，並且提高<c val=\"#TooltipNumbers\">25%</c>移動速度，持續<c val=\"#TooltipNumbers\">2.5</c>秒。",
+      "name": "超絕",
+      "shortText": "基本攻擊可恢復生命值"
+    },
+    "MonkIronFists|MonkIronFistsTalent|Trait|Level1": {
+      "fullText": "每<c val=\"#TooltipNumbers\">3</c>次基本攻擊，可造成<c val=\"#TooltipNumbers\">110%</c>額外傷害，並且使移動速度提高<c val=\"#TooltipNumbers\">25%</c>，持續<c val=\"#TooltipNumbers\">2.5</c>秒。",
+      "name": "玄鐵拳",
+      "shortText": "基本攻擊可造成更多傷害"
+    },
+    "MonkInsight|MonkInsightTalent|Trait|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\"height=\"22\" /><c val=\"#TooltipQuest\">任務：</c>每<c val=\"#TooltipNumbers\">3</c>次基本攻擊，可恢復<c val=\"#TooltipNumbers\">14</c><c val=\"#ColorGray\">~~0.04~~</c>點法力值，堆疊一層明心禪，並且提高<c val=\"#TooltipNumbers\">25%</c>移動速度，持續<c val=\"#TooltipNumbers\">2.5</c>秒。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\"height=\"22\" /><c val=\"#TooltipQuest\">獎勵：</c>明心禪堆疊至<c val=\"#TooltipNumbers\">100</c>層時，每<c val=\"#TooltipNumbers\">3</c>次攻擊可使基本技能的冷卻時間降低<c val=\"#TooltipNumbers\">1.75</c>秒。",
+      "name": "明心禪",
+      "shortText": "<c val=\"#TooltipQuest\">任務：</c>基本攻擊可恢復法力值並且降低冷卻時間"
+    },
+    "MonkSpiritAlly|MonkSpiritAlly|Active|Level4": {
+      "cooldownText": "冷卻時間：45秒",
+      "fullText": "放置一個魂癒元靈，每秒替附近大範圍區域的友方英雄治療其最大生命值的<c val=\"#TooltipNumbers\">2%</c>。魂癒元靈具有<c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c>點生命值，存在時間為<c val=\"#TooltipNumbers\">10</c>秒。耀目閃可以魂癒元靈為目標。",
+      "name": "魂癒元靈",
+      "shortText": "放置可治療範圍內盟友的魂癒元靈"
+    },
+    "MonkEarthAlly|MonkEarthAlly|Active|Level4": {
+      "cooldownText": "冷卻時間：45秒",
+      "fullText": "放置一個地之元靈，使附近友方英雄獲得<c val=\"#TooltipNumbers\">50</c>點物理護甲，使其受到的英雄基本攻擊傷害降低<c val=\"#TooltipNumbers\">50%</c>。地之元靈具有<c val=\"#TooltipNumbers\">400</c><c val=\"#ColorGray\">~~0.04~~</c>點生命值，存在時間為<c val=\"#TooltipNumbers\">10</c>秒。耀目閃可以地之元靈為目標。",
+      "name": "地之元靈",
+      "shortText": "放置可賦予物理護甲的地之元靈"
+    },
+    "MonkAirAlly|MonkAirAlly|Active|Level4": {
+      "cooldownText": "冷卻時間：30秒",
+      "fullText": "放置一個風之元靈，賦予友方英雄<c val=\"#TooltipNumbers\">20%</c>法術強度、獲得其附近大範圍區域的視野並且揭露範圍內匿蹤的敵人。風之元靈具有<c val=\"#TooltipNumbers\">300</c><c val=\"#ColorGray\">~~0.04~~</c>點生命值，存在時間為<c val=\"#TooltipNumbers\">10</c>秒。耀目閃可以風之元靈為目標。",
+      "name": "風之元靈",
+      "shortText": "放置賦予法術強度和可顯示區域的風之元靈"
+    },
+    "MonkBlindingSpeedRadiantDash|MonkBlindingSpeedTalent|Q|Level7": {
+      "fullText": "耀目閃的冷卻時間降低<c val=\"#TooltipNumbers\">2</c>秒，使用次數提高<c val=\"#TooltipNumbers\">1</c>次。",
+      "name": "無影速",
+      "shortText": "提高耀目閃的使用次數"
+    },
+    "MonkHeavenlyZealBreathofHeaven|MonkHeavenlyZealBreathofHeaven|W|Level7": {
+      "fullText": "迴天氣訣的移動速度加成提高至<c val=\"#TooltipNumbers\">30%</c>。對盟友施放耀目閃可使其從獲得迴天氣訣的治療量提高<c val=\"#TooltipNumbers\">50%</c>，持續<c val=\"#TooltipNumbers\">3.5</c>秒。",
+      "name": "熾誠迴天",
+      "shortText": "迴天氣訣可提高盟友的移動速度"
+    },
+    "MonkBlazingFistsDeadlyReach|MonkBlazingFistsTalent|E|Level7": {
+      "fullText": "斷空波的持續時間提高<c val=\"#TooltipNumbers\">100%</c>。每<c val=\"#TooltipNumbers\">3</c>次基本攻擊，可減少斷空波的冷卻時間<c val=\"#TooltipNumbers\">0.75</c>秒。",
+      "name": "奔熾拳",
+      "shortText": "基本攻擊可降低斷空波的冷卻時間"
+    },
+    "MonkHeroicAbilityDivinePalm|MonkDivinePalm|Heroic|Level10": {
+      "cooldownText": "冷卻時間：50秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：50點</s>",
+      "fullText": "若目標友方英雄在下<c val=\"#TooltipNumbers\">4</c>秒內受到足以致死的傷害，可使其免於死亡並恢復<c val=\"#TooltipNumbers\">1200</c><c val=\"#ColorGray\">~~0.04~~</c>點生命值。",
+      "name": "聖禦掌",
+      "shortText": "保護一名盟友免於死亡"
+    },
+    "MonkHeroicAbilitySevenSidedStrike|MonkSevenSidedStrike|Heroic|Level10": {
+      "cooldownText": "冷卻時間：50秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：77點</s>",
+      "fullText": "進入無敵狀態，並且在<c val=\"#TooltipNumbers\">2</c>秒內發動<c val=\"#TooltipNumbers\">7</c>次攻擊。每次攻擊會以附近生命值最高的英雄為目標，造成相當於敵方最大生命值<c val=\"#TooltipNumbers\">7%</c>的傷害。",
+      "name": "七星閃",
+      "shortText": "進入無敵狀態，並且攻擊附近的英雄"
+    },
+    "MonkQuicksilverRadiantDash|MonkQuicksilverTalent|Q|Level13": {
+      "fullText": "對盟友施放耀目閃後，使克拉辛與目標的移動速度提高<c val=\"#TooltipNumbers\">30%</c>，持續<c val=\"#TooltipNumbers\">3</c>秒。",
+      "name": "迅銀擊",
+      "shortText": "耀目閃可提高移動速度"
+    },
+    "GenericTalentSpellShield|GenericSpellShieldTalent|Active|Level13": {
+      "fullText": "每<c val=\"#TooltipNumbers\">30</c>秒會獲得<c val=\"#TooltipNumbers\">50</c>點法術護甲，使下次及後續受到的敵方技能傷害降低<c val=\"#TooltipNumbers\">50%</c>，持續<c val=\"#TooltipNumbers\">3</c>秒。<n/><n/>可以開啟或關閉自動觸發此技能。",
+      "name": "法術護盾",
+      "shortText": "定期獲得暫時的法術護甲"
+    },
+    "MonkSixthSense|MonkSixthSense|Passive|Level13": {
+      "fullText": "昏迷或者被定身時，你會獲得<c val=\"#TooltipNumbers\">75</c>點物理護甲，使受到的敵方英雄基本攻擊傷害降低<c val=\"#TooltipNumbers\">75%</c>，持續<c val=\"#TooltipNumbers\">4</c>秒。 ",
+      "name": "敏銳直覺",
+      "shortText": "昏迷或定身時可獲得物理護甲"
+    },
+    "MonkCleansingTouchRadiantDash|MonkCleansingTouch|Q|Level16": {
+      "fullText": "對盟友施放耀目閃後，可使盟友獲得控場免疫的效果，持續<c val=\"#TooltipNumbers\">1</c>秒。",
+      "name": "淨化之觸",
+      "shortText": "耀目閃可使盟友獲得控場免疫的效果"
+    },
+    "MonkWayoftheHundredFistsRadiantDash|MonkWayoftheHundredFistsTalent|Q|Level16": {
+      "fullText": "對敵人使出耀目閃時會發動<c val=\"#TooltipNumbers\">6</c>次的連環基本攻擊，每次攻擊造成<c val=\"#TooltipNumbers\">45%</c>傷害。",
+      "name": "百烈拳",
+      "shortText": "耀目閃會發動連環攻擊"
+    },
+    "MonkEchoofHeavenBreathofHeaven|MonkEchoofHeavenTalent|W|Level16": {
+      "fullText": "迴天氣訣的治療效果降低至原本的<c val=\"#TooltipNumbers\">75%</c>，但是會在<c val=\"#TooltipNumbers\">3</c>秒後再治療一次。",
+      "name": "迴天心法",
+      "shortText": "迴天氣訣可治療兩次"
+    },
+    "MonkPeacefulReposeDivinePalm|MonkPeacefulReposeTalent|Heroic|Level20": {
+      "fullText": "若英雄未受到致命傷害，則聖禦掌的治療量提高<c val=\"#TooltipNumbers\">75%</c>，冷卻時間為<c val=\"#TooltipNumbers\">5</c>秒。",
+      "name": "寧靜養神",
+      "shortText": "若目標未死亡，則降低聖禦掌的冷卻時間"
+    },
+    "MonkElevenSidedStrikeSevenSidedStrike|MonkElevenSidedStrikeTalent|Heroic|Level20": {
+      "fullText": "七星閃會額外攻擊<c val=\"#TooltipNumbers\">4</c>次。",
+      "name": "罪愆咒",
+      "shortText": "提高七星閃的攻擊次數"
+    },
+    "MonkFistsofLegendTrait|MonkFistsofLegend|Trait|Level20": {
+      "fullText": "獲得未選擇的兩個等級<c val=\"#TooltipNumbers\">1</c>天賦的<c val=\"#TooltipNumbers\">50%</c>加成效果。",
+      "name": "傳說之拳",
+      "shortText": "獲得部分等級1天賦"
+    },
+    "GenericTalentStormShield|GenericStormShield|Active|Level20": {
+      "cooldownText": "冷卻時間：45秒",
+      "fullText": "啟動後，使附近所有友方英雄獲得相當其最大生命值<c val=\"#TooltipNumbers\">20%</c>的護盾，持續<c val=\"#TooltipNumbers\">3</c>秒。",
+      "name": "風暴護盾",
+      "shortText": "啟動後，使附近友方英雄獲得護盾"
+    },
+    "MonkEpiphany|MonkEpiphany|Active|Level20": {
+      "cooldownText": "冷卻時間：70秒",
+      "fullText": "啟動後，恢復最大法力值的<c val=\"#TooltipNumbers\">70%</c>，並補充<c val=\"#TooltipNumbers\">2</c>次耀目閃的使用次數。",
+      "name": "靈光悟",
+      "shortText": "啟動後，恢復法力值和耀目閃的使用次數"
+    }
+  },
+  "units": {
+    "MonkAirAlly": {
+      "description": "放置一個風之元靈，賦予友方英雄<c val=\"#TooltipNumbers\">20%</c>法術強度、獲得其附近大範圍區域的視野並且揭露範圍內匿蹤的敵人。風之元靈具有<c val=\"#TooltipNumbers\">300</c><c val=\"#ColorGray\">~~0.04~~</c>點生命值，存在時間為<c val=\"#TooltipNumbers\">10</c>秒。耀目閃可以風之元靈為目標。",
+      "name": "風之元靈"
+    },
+    "MonkEarthAlly": {
+      "description": "放置一個地之元靈，使附近友方英雄獲得<c val=\"#TooltipNumbers\">50</c>點物理護甲，使其受到的英雄基本攻擊傷害降低<c val=\"#TooltipNumbers\">50%</c>。地之元靈具有<c val=\"#TooltipNumbers\">400</c><c val=\"#ColorGray\">~~0.04~~</c>點生命值，存在時間為<c val=\"#TooltipNumbers\">10</c>秒。耀目閃可以地之元靈為目標。",
+      "name": "地之元靈"
+    },
+    "MonkSpiritAlly": {
+      "description": "放置一個魂癒元靈，每秒替附近大範圍區域的友方英雄治療其最大生命值的<c val=\"#TooltipNumbers\">2%</c>。魂癒元靈具有<c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c>點生命值，存在時間為<c val=\"#TooltipNumbers\">10</c>秒。耀目閃可以魂癒元靈為目標。",
+      "name": "魂癒元靈"
+    }
+  }
+}

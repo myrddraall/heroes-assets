@@ -1,0 +1,176 @@
+{
+  "abilities": {
+    "MephistoSkullMissile|MephistoSkullMissile|Q": {
+      "cooldownText": "Temps de recharge :<sp/>8 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 20</s>",
+      "fullText": "Invoque un crâne qui avance dans la direction indiquée après <c val=\"#TooltipNumbers\">0.625</c> seconde et qui inflige <c val=\"#TooltipNumbers\">127</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts aux ennemis sur sa trajectoire en plus de ralentir les héros touchés de <c val=\"#TooltipNumbers\">25%</c> pendant <c val=\"#TooltipNumbers\">2</c> secondes.",
+      "name": "Crâne maudit",
+      "shortText": "Inflige des dégâts aux ennemis sur une ligne après un bref délai."
+    },
+    "MephistoLightningNova|MephistoLightningNova|W": {
+      "cooldownText": "Temps de recharge : 14 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 50</s>",
+      "fullText": "Un anneau de foudre se forme autour de Méphisto pendant <c val=\"#TooltipNumbers\">2.5</c> secondes. Les ennemis en contact avec l’anneau subissent <c val=\"#TooltipNumbers\">43</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts toutes les <c val=\"#TooltipNumbers\">0.25</c> secondes.<n/><n/>Chaque fois qu’une décharge de Nova de foudre touche un héros, ses dégâts sont augmentés de <c val=\"#TooltipNumbers\">3%</c>, jusqu’à un maximum de <c val=\"#TooltipNumbers\">30%</c>.",
+      "name": "Nova de foudre",
+      "shortText": "Inflige des dégâts croissants aux ennemis proches."
+    },
+    "MephistoShadeOfMephisto|MephistoShadeOfMephisto|E": {
+      "cooldownText": "Temps de recharge : 18 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 35</s>",
+      "fullText": "Téléporte à l’endroit ciblé et inflige <c val=\"#TooltipNumbers\">78</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts aux ennemis proches à l’arrivée en laissant une Ombre de Méphisto au point de départ.<n/><n/>Après <c val=\"#TooltipNumbers\">2.5</c> secondes, Méphisto retourne à son ombre.",
+      "name": "Ombre de Méphisto",
+      "shortText": "Téléporte à un endroit et revient à son point de départ peu après."
+    },
+    "MephistoConsumeSouls|MephistoConsumeSouls|Heroic": {
+      "cooldownText": "Temps de recharge : 120 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 80</s>",
+      "fullText": "Canalise pendant <c val=\"#TooltipNumbers\">2.5</c> secondes en révélant tous les héros adverses. À la fin de la canalisation, tous subissent <c val=\"#TooltipNumbers\">357</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts et sont ralentis de <c val=\"#TooltipNumbers\">25%</c> pendant <c val=\"#TooltipNumbers\">2.5</c> secondes.",
+      "name": "Orgie d’âmes",
+      "shortText": "Inflige des dégâts à tous les héros adverses et les ralentit."
+    },
+    "MephistoDuranceOfHate|MephistoDuranceOfHate|Heroic": {
+      "cooldownText": "Temps de recharge : 50 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 50</s>",
+      "fullText": "Après <c val=\"#TooltipNumbers\">1</c> seconde, déchaîne une vague d’esprits démoniaques qui immobilisent le premier héros adverse touché pendant <c val=\"#TooltipNumbers\">2.5</c> secondes et lui infligent <c val=\"#TooltipNumbers\">250</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts sur la même durée.<n/><n/>Prison de haine se propage à partir de l’impact avec sa première cible pour immobiliser d’autres héros adverses proches et leur infliger des dégâts.",
+      "name": "Prison de haine",
+      "shortText": "Déchaîne des esprits qui immobilisent les ennemis."
+    },
+    ":PASSIVE:|MephistoLordOfHatred|Trait": {
+      "fullText": "Toucher des héros adverses avec les capacités de base réduit leurs temps de recharge.<n/><n/>Crâne maudit et Ombre de Méphisto réduisent les temps de recharge de <c val=\"#TooltipNumbers\">1.5</c> seconde par héros touché, et Nova de foudre, de <c val=\"#TooltipNumbers\">0.3</c> seconde par héros touché.",
+      "name": "Seigneur de la Haine",
+      "shortText": "Toucher des héros avec les capacités de base réduit les temps de recharge de Méphisto."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Temps de recharge : 4 secondes",
+      "fullText": "Après <c val=\"#TooltipNumbers\">1</c> seconde de canalisation, augmente la vitesse de déplacement de <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Appeler une monture"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Après <c val=\"#TooltipNumbers\">6</c> secondes de canalisation, téléporte au hall des Tempêtes et rend instantanément <c val=\"#TooltipNumbers\">1125</c> points de vie et <c val=\"#TooltipNumbers\">150</c> points de mana.",
+      "name": "Pierre de foyer"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Permet de descendre de la monture.",
+      "name": "Renvoyer la monture"
+    },
+    "MephistoShadeOfMephistoShadeLord|MephistoShadeOfMephistoShadeLord|Active": {
+      "cooldownText": "Temps de recharge : 20 secondes",
+      "fullText": "À l’activation, Méphisto prend la place de son ombre et sa durée est réinitialisée.<n/><n/><c val=\"#AbilityPassive\">Effet passif :</c> l’ombre de Méphisto obtient les effets de tous les talents du niveau <c val=\"#TooltipNumbers\">7</c>.",
+      "name": "Transfert d’ombre",
+      "shortText": "Permet à Méphisto de changer de place avec son ombre."
+    }
+  },
+  "talents": {
+    "MephistoSkullMissileUnyieldingPower|MephistoSkullMissileUnyieldingPower|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quête :</c> toucher des héros avec Crâne maudit.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Récompense :</c> une fois <c val=\"#TooltipNumbers\">20</c> héros touchés, augmente les dégâts de Crâne maudit de <c val=\"#TooltipNumbers\">100</c> points.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Récompense :</c> une fois <c val=\"#TooltipNumbers\">40</c> héros touchés, Crâne maudit obtient une charge supplémentaire.",
+      "name": "Puissance accablante",
+      "shortText": "<c val=\"#TooltipQuest\">Quête :</c> renforce Crâne maudit."
+    },
+    "MephistoLightningNovaFuriousSpark|MephistoLightningNovaFuriousSpark|W|Level1": {
+      "fullText": "Tous les <c val=\"#TooltipNumbers\">3</c> impacts de Nova de foudre contre la même cible, la capacité inflige <c val=\"#TooltipNumbers\">65</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts supplémentaires et rend <c val=\"#TooltipNumbers\">2</c> de mana à Méphisto.",
+      "name": "Étincelle de haine",
+      "shortText": "Nova de foudre inflige des dégâts supplémentaires."
+    },
+    "MephistoShadeOfMephistoMaliciousIntent|MephistoShadeOfMephistoMaliciousIntent|E|Level1": {
+      "fullText": "Ombre de Méphisto augmente la puissance de capacité de <c val=\"#TooltipNumbers\">25%</c> tant qu’elle est active et pendant encore <c val=\"#TooltipNumbers\">2.5</c> secondes après.<n/><n/>Si Méphisto touche des héros adverses au moins <c val=\"#TooltipNumbers\">18</c> fois avec ses capacités de base lorsqu’Ombre de Méphisto est active, la durée du bonus de puissance de capacité est augmentée à <c val=\"#TooltipNumbers\">10</c> secondes après la fin d’Ombre de Méphisto.",
+      "name": "Mauvaise intention",
+      "shortText": "L’ombre de Méphisto augmente la puissance de capacité."
+    },
+    "MephistoSkullMissileHatefulMending|MephistoSkullMissileHatefulMending|Q|Level4": {
+      "fullText": "Crâne maudit confère à Méphisto <c val=\"#TooltipNumbers\">10</c> points de mana et lui rend <c val=\"#TooltipNumbers\">70%</c> des dégâts qu’il inflige aux héros.",
+      "name": "Moëlle osseuse",
+      "shortText": "Crâne maudit rend des points de vie."
+    },
+    "MephistoLightningNovaStaticBarrier|MephistoLightningNovaStaticBarrier|W|Level4": {
+      "fullText": "À son terme, Nova de foudre confère un bouclier à Méphisto. Celui-ci est égal à <c val=\"#TooltipNumbers\">40%</c> des dégâts infligés par Nova de foudre aux héros et dure <c val=\"#TooltipNumbers\">5</c> secondes.",
+      "name": "Barrière statique",
+      "shortText": "Nova de foudre confère un bouclier."
+    },
+    "MephistoSpite|MephistoSpite|Passive|Level4": {
+      "fullText": "Augmente la durée de soin des globes de régénération de <c val=\"#TooltipNumbers\">100%</c>. Chaque application de soin de la part d’un globe de régénération active Seigneur de la Haine, ce qui réduit les temps de recharge des capacités de base de <c val=\"#TooltipNumbers\">1</c> seconde.",
+      "name": "Malfaisance",
+      "shortText": "Les globes de régénération activent Seigneur de la Haine."
+    },
+    "MephistoShadeOfMephistoGhastlyArmor|MephistoShadeOfMephistoGhastlyArmor|E|Level7": {
+      "fullText": "L’ombre de Méphisto confère <c val=\"#TooltipNumbers\">25</c> points d’armure tant qu’elle est active et pendant <c val=\"#TooltipNumbers\">2.5</c> secondes après qu’elle a disparu.",
+      "name": "Armure impie",
+      "shortText": "L’ombre de Méphisto confère de l’armure."
+    },
+    "MephistoShadeOfMephistoFrostStorm|MephistoShadeOfMephistoFrostStorm|E|Level7": {
+      "fullText": "Tant qu’Ombre de Méphisto est active, les adversaires touchés par Nova de foudre sont ralentis de <c val=\"#TooltipNumbers\">15%</c> pendant <c val=\"#TooltipNumbers\">1</c> seconde et le ralentissement provoqué par Crâne maudit est augmenté à <c val=\"#TooltipNumbers\">50%</c>.",
+      "name": "Tempête de givre",
+      "shortText": "Ombre de Méphisto permet à Nova de foudre de ralentir."
+    },
+    "MephistoShadeOfMephistoTrickery|MephistoShadeOfMephistoTrickery|E|Level7": {
+      "fullText": "Ombre de Méphisto augmente la vitesse de déplacement de <c val=\"#TooltipNumbers\">20%</c> tant qu’elle est active et pendant encore <c val=\"#TooltipNumbers\">2.5</c> secondes après.<n/><n/>Si Méphisto touche au moins <c val=\"#TooltipNumbers\">18</c> fois des héros adverses avec ses capacités de base pendant qu’Ombre de Méphisto est active, cela met fin au temps de recharge de la capacité.",
+      "name": "Diablerie",
+      "shortText": "Ombre de Méphisto augmente la vitesse de déplacement."
+    },
+    "MephistoConsumeSouls|MephistoConsumeSouls|Heroic|Level10": {
+      "cooldownText": "Temps de recharge : 120 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 80</s>",
+      "fullText": "Canalise pendant <c val=\"#TooltipNumbers\">2.5</c> secondes en révélant tous les héros adverses. À la fin de la canalisation, tous subissent <c val=\"#TooltipNumbers\">357</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts et sont ralentis de <c val=\"#TooltipNumbers\">25%</c> pendant <c val=\"#TooltipNumbers\">2.5</c> secondes.",
+      "name": "Orgie d’âmes",
+      "shortText": "Inflige des dégâts à tous les héros adverses et les ralentit."
+    },
+    "MephistoDuranceOfHate|MephistoDuranceOfHate|Heroic|Level10": {
+      "cooldownText": "Temps de recharge : 50 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 50</s>",
+      "fullText": "Après <c val=\"#TooltipNumbers\">1</c> seconde, déchaîne une vague d’esprits démoniaques qui immobilisent le premier héros adverse touché pendant <c val=\"#TooltipNumbers\">2.5</c> secondes et lui infligent <c val=\"#TooltipNumbers\">250</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts sur la même durée.<n/><n/>Prison de haine se propage à partir de l’impact avec sa première cible pour immobiliser d’autres héros adverses proches et leur infliger des dégâts.",
+      "name": "Prison de haine",
+      "shortText": "Déchaîne des esprits qui immobilisent les ennemis."
+    },
+    "MephistoSkullMissileAbhorredSkull|MephistoSkullMissileAbhorredSkull|Q|Level13": {
+      "fullText": "Toucher un héros avec Crâne maudit augmente la puissance de capacité de <c val=\"#TooltipNumbers\">25%</c> pendant <c val=\"#TooltipNumbers\">6</c> secondes. Crâne maudit inflige <c val=\"#TooltipNumbers\">40%</c> de dégâts supplémentaires aux héros disposant de moins de <c val=\"#TooltipNumbers\">50%</c> de leur maximum de points de vie.",
+      "name": "Crâne honni",
+      "shortText": "Augmente les dégâts de Crâne maudit, confère de la puissance de capacité."
+    },
+    "MephistoLordOfHatredHysteria|MephistoLordofHatredHysteria|Trait|Level13": {
+      "fullText": "Seigneur de la Haine réduit aussi le temps de recharge de la capacité héroïque de Méphisto. Méphisto récupère <c val=\"#TooltipNumbers\">15 %</c> de ses points de vie et de mana maximum lorsqu’il utilise sa capacité héroïque.",
+      "name": "Hystérie",
+      "shortText": "Seigneur de la Haine réduit le temps de recharge de la capacité héroïque."
+    },
+    "MephistoShardOfHate|MephistoShardOfHate|Passive|Level13": {
+      "fullText": "Les attaques de base touchent aussi les ennemis proches de la cible principale et activent Seigneur de la Haine quand elles touchent des héros adverses, ce qui réduit le temps de recharge des capacités de base de <c val=\"#TooltipNumbers\">1</c> seconde par héros touché.",
+      "name": "Écharde de haine",
+      "shortText": "Les attaques de base infligent des dégâts de zone et activent Seigneur de la Haine."
+    },
+    "MephistoSkullMissileLightningReaction|MephistoSkullMissileLightningReaction|Q|Level16": {
+      "fullText": "Crâne maudit explose à l’impact avec Nova de foudre et inflige <c val=\"#TooltipNumbers\">120</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts aux ennemis proches.",
+      "name": "Synergie foudroyante",
+      "shortText": "Crâne maudit explose quand il entre en contact avec Nova de foudre."
+    },
+    "MephistoLightningNovaStaticField|MephistoLightningNovaStaticField|W|Level16": {
+      "fullText": "Quand le bonus de dégâts de Nova de foudre atteint <c val=\"#TooltipNumbers\">30%</c>, les héros adverses présents dans la nova subissent un montant de dégâts égal à <c val=\"#TooltipNumbers\">10%</c> de leurs points de vie maximum.",
+      "name": "Champ statique",
+      "shortText": "Nova de foudre peut infliger un pourcentage de dégâts."
+    },
+    "MephistoAnimosity|MephistoAnimosity|W|Level16": {
+      "fullText": "Augmente la durée de Nova de foudre de <c val=\"#TooltipNumbers\">1</c> seconde et le montant maximum du bonus aux dégâts qu’elle peut infliger passe de <c val=\"#TooltipNumbers\">30%</c> à <c val=\"#TooltipNumbers\">42%</c>.",
+      "name": "Animosité",
+      "shortText": "Augmente la durée et les dégâts de Nova de foudre."
+    },
+    "MephistoConsumeSoulsConsumedByHatred|MephistoConsumeSoulsConsumedByHatred|Heroic|Level20": {
+      "fullText": "Orgie d’âmes inflige à ses cibles un supplément de dégâts égal à <c val=\"#TooltipNumbers\">10%</c> des points de vie qui leur manquent. Si le lancement initial de la capacité tue un héros, elle se relance <c val=\"#TooltipNumbers\">1</c> fois de plus.",
+      "name": "Supplément d’âmes",
+      "shortText": "Orgie d’âmes se relance quand elle fait une victime."
+    },
+    "MephistoDuranceOfHateUnspeakableHorror|MephistoDuranceOfHateUnspeakableHorror|Heroic|Level20": {
+      "fullText": "Prison de haine réduit les ennemis au silence tant qu’ils sont immobilisés et pendant <c val=\"#TooltipNumbers\">3</c> secondes après la fin de l’immobilisation.",
+      "name": "Horreur indicible",
+      "shortText": "Prison de haine réduit au silence."
+    },
+    "MephistoLightningNovaMimic|MephistoLightningNovaShadeOfMephistoMimic|W|Level20": {
+      "fullText": "L’ombre de Méphisto reproduit Nova de foudre quand Méphisto l’utilise.",
+      "name": "Émule",
+      "shortText": "Ombre de Méphisto peut lancer Nova de foudre."
+    },
+    "MephistoShadeOfMephistoShadeLord|MephistoShadeOfMephistoShadeLord|Active|Level20": {
+      "cooldownText": "Temps de recharge : 20 secondes",
+      "fullText": "À l’activation, Méphisto prend la place de son ombre et sa durée est réinitialisée.<n/><n/><c val=\"#AbilityPassive\">Effet passif :</c> l’ombre de Méphisto obtient les effets de tous les talents du niveau <c val=\"#TooltipNumbers\">7</c>.",
+      "name": "Transfert d’ombre",
+      "shortText": "Permet à Méphisto de changer de place avec son ombre."
+    }
+  },
+  "units": {}
+}

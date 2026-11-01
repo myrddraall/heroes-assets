@@ -1,0 +1,184 @@
+{
+  "abilities": {
+    "TyrandeLightofElune|TyrandeLightOfElune|Q": {
+      "cooldownText": "充能时间：16秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：15</s>",
+      "fullText": "为一名友方英雄恢复<c val=\"#TooltipNumbers\">270</c><c val=\"#ColorGray\">~~0.04~~</c>点生命值。每当泰兰德以普通攻击命中一名敌人或对一名敌方英雄造成伤害，月神之光的冷却时间就会减少<c val=\"#TooltipNumbers\">1.5</c>秒。<n/><n/>最多储存<c val=\"#TooltipNumbers\">2</c>层使用次数。冷却时间结束时补充所有层数。",
+      "name": "月神之光",
+      "shortText": "治疗一名盟友英雄"
+    },
+    "TyrandeSentinelShot|TyrandeSentinel|W": {
+      "cooldownText": "冷却时间：15秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：55</s>",
+      "fullText": "派一只猫头鹰飞越战场显示沿途情况。对击中的第一名敌方英雄造成<c val=\"#TooltipNumbers\">120</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害并使其暴露，持续<c val=\"#TooltipNumbers\">5</c>秒。如果一名被哨兵暴露的英雄死亡，则刷新该技能的冷却时间。",
+      "name": "哨兵",
+      "shortText": "派出一只猫头鹰暴露战场并对敌方英雄造成伤害"
+    },
+    "TyrandeLunarFlare|TyrandeLunarFlare|E": {
+      "cooldownText": "冷却时间：13秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：65</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">0.75</c>秒后，对目标区域内的敌人造成<c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害并使其昏迷<c val=\"#TooltipNumbers\">0.75</c>秒。每击中一个敌人恢复<c val=\"#TooltipNumbers\">25</c>点法力值。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任务：</c>月光术每击中一名英雄，其伤害就提高<c val=\"#TooltipNumbers\">3%</c>，最多提高<c val=\"#TooltipNumbers\">120%</c>。如果该英雄在<c val=\"#TooltipNumbers\">3</c>秒内死亡，则该加成翻倍。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">奖励：</c>击中<c val=\"#TooltipNumbers\">10</c>名英雄后，月光术的射程提高<c val=\"#TooltipNumbers\">30%</c>。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">奖励：</c>击中<c val=\"#TooltipNumbers\">20</c>名英雄后，哨兵会穿透命中的第一个英雄。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">神话奖励：</c>击中<c val=\"#TooltipNumbers\">40</c>名英雄后，每第<c val=\"#TooltipNumbers\">8次</c>普通攻击都会施放一次月光术，优先选择英雄。攻击距离提高<c val=\"#TooltipNumbers\">1</c>。",
+      "name": "月光术",
+      "shortText": "对范围内敌人造成伤害并使其昏迷"
+    },
+    "TyrandeShadowstalk|TyrandeShadowstalk|Heroic": {
+      "cooldownText": "冷却时间：90秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：85</s>",
+      "fullText": "使所有友方英雄获得潜行，持续<c val=\"#TooltipNumbers\">10</c> 秒，并恢复他们<c val=\"#TooltipNumbers\">380</c><c val=\"#ColorGray\">~~0.04~~</c>点生命值，在<c val=\"#TooltipNumbers\">10</c>秒内。在潜行状态下保持静止状态至少<c val=\"#TooltipNumbers\">1.5</c>秒后进入隐形。",
+      "name": "暗影潜行",
+      "shortText": "治疗并使所有盟友获得潜行"
+    },
+    "TyrandeStarfall|TyrandeStarfall|Heroic": {
+      "cooldownText": "冷却时间：80秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：85</s>",
+      "fullText": "每秒对一片区域内的敌人造成<c val=\"#TooltipNumbers\">92</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害，并使敌人减速<c val=\"#TooltipNumbers\">20%</c>，持续<c val=\"#TooltipNumbers\">6</c>秒。",
+      "name": "星辰坠落",
+      "shortText": "对范围内的敌人造成伤害和减速"
+    },
+    "TyrandeHuntersMark|TyrandeHuntersMark|Trait": {
+      "cooldownText": "冷却时间：20秒",
+      "fullText": "暴露一名非建筑敌人，并降低其<c val=\"#TooltipNumbers\">15</c>点护甲，持续<c val=\"#TooltipNumbers\">4</c>秒。<n/><n/><c val=\"#AbilityPassive\">被动：</c>泰兰德的普通攻击可以为自身恢复<c val=\"#TooltipNumbers\">1%</c>的最大生命值，对有猎人印记效果的目标造成双倍效果。",
+      "name": "猎人印记",
+      "shortText": "降低护甲并暴露被标记的目标"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "冷却时间：4秒",
+      "fullText": "引导<c val=\"#TooltipNumbers\">1</c>秒后，获得<s val=\"StandardTooltipDetails\">30%</s>移动速度。",
+      "name": "召唤坐骑"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "引导<c val=\"#TooltipNumbers\">6</c>秒后，传送回风暴大厅，立即恢复<c val=\"#TooltipNumbers\">1125</c>的生命值和<c val=\"#TooltipNumbers\">150</c>法力值。",
+      "name": "炉石"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "解除坐骑。",
+      "name": "解除坐骑"
+    },
+    "TyrandeTrueshotAura|TyrandeHuntersMarkTrueshotAuraTalent|Active": {
+      "cooldownText": "冷却时间：45秒",
+      "fullText": "激活后，使泰兰德与周围友方英雄的普通攻击伤害提高<c val=\"#TooltipNumbers\">40%</c>，持续<c val=\"#TooltipNumbers\">5</c>秒，重置猎人印记的冷却时间。",
+      "name": "强击光环",
+      "shortText": "获得攻击伤害，重置猎人印记"
+    },
+    "TyrandeElunesChosen|TyrandeElunesChosen|Active": {
+      "cooldownText": "冷却时间：30秒",
+      "fullText": "激活后，泰兰德的普通攻击治疗目标友方英雄，相当于造成伤害的<c val=\"#TooltipNumbers\">175%</c>。持续<c val=\"#TooltipNumbers\">8</c>秒。",
+      "name": "艾露恩钦定者",
+      "shortText": "普通攻击治疗目标英雄"
+    }
+  },
+  "talents": {
+    "TyrandeRanger|TyrandeSentinelRangerTalent|W|Level1": {
+      "fullText": "哨兵的宽度增加<c val=\"#TooltipNumbers\">25%</c>，并随着飞行距离的提高，造成最多<c val=\"#TooltipNumbers\">250%</c>的额外伤害。",
+      "name": "游侠",
+      "shortText": "哨兵轨迹变宽并造成额外伤害"
+    },
+    "TyrandeMoonlitArrows|TyrandeMoonlitArrows|Q|Level1": {
+      "fullText": "普通攻击使月神之光的冷却时间额外减少<c val=\"#TooltipNumbers\">0.5</c>秒。",
+      "name": "月光箭矢",
+      "shortText": "提高月神之光的冷却时间缩减"
+    },
+    "TyrandeTrueshotAura|TyrandeHuntersMarkTrueshotAuraTalent|Active|Level1": {
+      "cooldownText": "冷却时间：45秒",
+      "fullText": "激活后，使泰兰德与周围友方英雄的普通攻击伤害提高<c val=\"#TooltipNumbers\">40%</c>，持续<c val=\"#TooltipNumbers\">5</c>秒，重置猎人印记的冷却时间。",
+      "name": "强击光环",
+      "shortText": "获得攻击伤害，重置猎人印记"
+    },
+    "TyrandeLightOfEluneEverlastingLight|TyrandeLightOfEluneEverlastingLight|Q|Level4": {
+      "fullText": "如果月神之光第二层的施法对象与第一次的目标不同，则治疗效果提高<c val=\"#TooltipNumbers\">80%</c>。",
+      "name": "永续之光",
+      "shortText": "提高月神之光对多个目标的治疗"
+    },
+    "TyrandeMarkofMending|TyrandeHuntersMarkMarkOfMendingTalent|Trait|Level4": {
+      "fullText": "泰兰德对有猎人印记的目标发动普通攻击可为敌人附近的其他友方英雄恢复<c val=\"#TooltipNumbers\">4%</c>的最大生命值。",
+      "name": "愈合印记",
+      "shortText": "攻击标记的敌人治疗附近盟友"
+    },
+    "TyrandeElunesChosen|TyrandeElunesChosen|Active|Level4": {
+      "cooldownText": "冷却时间：30秒",
+      "fullText": "激活后，泰兰德的普通攻击治疗目标友方英雄，相当于造成伤害的<c val=\"#TooltipNumbers\">175%</c>。持续<c val=\"#TooltipNumbers\">8</c>秒。",
+      "name": "艾露恩钦定者",
+      "shortText": "普通攻击治疗目标英雄"
+    },
+    "ElunesGift|ElunesFury|E|Level7": {
+      "fullText": "月光术击中一名敌方英雄后，提供<c val=\"#TooltipNumbers\">20%</c>法术强度，持续<c val=\"#TooltipNumbers\">10</c>秒。",
+      "name": "月神赠礼",
+      "shortText": "月光术命中时提高法术强度"
+    },
+    "TyrandeKaldoreiResistance|TyrandeKaldoreiResistance|Q|Level7": {
+      "fullText": "月神之光给予目标<c val=\"#TooltipNumbers\">10</c>法术护甲，持续<c val=\"#TooltipNumbers\">2</c>秒。该效果最多叠加<c val=\"#TooltipNumbers\">2</c>次。",
+      "name": "卡多雷抗性",
+      "shortText": "月神之光提供法术护甲"
+    },
+    "TyrandeHuntressFury|TyrandeHuntersMarkHuntressFuryTalent|Trait|Level7": {
+      "fullText": "泰兰德对有猎人印记的目标进行的普通攻击会弹射到附近的敌方英雄身上。<n/><n/><c val=\"#AbilityPassive\">被动：</c>猎人印记的持续时间提高<c val=\"#TooltipNumbers\">1</c>秒，施法范围提高<c val=\"#TooltipNumbers\">25%</c>。",
+      "name": "女猎手之怒",
+      "shortText": "猎人印记使普通攻击具有弹射效果"
+    },
+    "TyrandeHeroicAbilityShadowstalk|TyrandeShadowstalk|Heroic|Level10": {
+      "cooldownText": "冷却时间：90秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：85</s>",
+      "fullText": "使所有友方英雄获得潜行，持续<c val=\"#TooltipNumbers\">10</c> 秒，并恢复他们<c val=\"#TooltipNumbers\">380</c><c val=\"#ColorGray\">~~0.04~~</c>点生命值，在<c val=\"#TooltipNumbers\">10</c>秒内。在潜行状态下保持静止状态至少<c val=\"#TooltipNumbers\">1.5</c>秒后进入隐形。",
+      "name": "暗影潜行",
+      "shortText": "治疗并使所有盟友获得潜行"
+    },
+    "TyrandeHeroicAbilityStarfall|TyrandeStarfall|Heroic|Level10": {
+      "cooldownText": "冷却时间：80秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：85</s>",
+      "fullText": "每秒对一片区域内的敌人造成<c val=\"#TooltipNumbers\">92</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害，并使敌人减速<c val=\"#TooltipNumbers\">20%</c>，持续<c val=\"#TooltipNumbers\">6</c>秒。",
+      "name": "星辰坠落",
+      "shortText": "对范围内的敌人造成伤害和减速"
+    },
+    "TyrandeMasteryLightofEluneQuickeningBlessing|TyrandeLightOfEluneQuickeningBlessingTalent|Q|Level13": {
+      "fullText": "获得<c val=\"#TooltipNumbers\">5%</c>的移动速度。月神之光使目标的移动速度提高<c val=\"#TooltipNumbers\">25%</c>，持续<c val=\"#TooltipNumbers\">3</c>秒。",
+      "name": "急速祝福",
+      "shortText": "月神之光提高移动速度"
+    },
+    "TyrandeHarshMoonlight|TyrandeHarshMoonlight|W|Level13": {
+      "fullText": "哨兵使击中目标减速<c val=\"#TooltipNumbers\">35%</c>并使其造成的伤害减少<c val=\"#TooltipNumbers\">35%</c>，持续<c val=\"#TooltipNumbers\">3</c>秒。",
+      "name": "苛烈月光",
+      "shortText": "哨兵减速并降低目标的伤害"
+    },
+    "TyrandeRangersMark|TyrandeHuntersMarkRangersMarkTalent|Trait|Level13": {
+      "fullText": "普通攻击减少猎人印记的冷却时间<c val=\"#TooltipNumbers\">2</c>秒。对被标记的目标进行普通攻击可使月光术的冷却时间减少<c val=\"#TooltipNumbers\">4</c>秒。",
+      "name": "游侠印记",
+      "shortText": "普通攻击可强化猎人印记和月光术"
+    },
+    "TyrandeCelestialAttunement|TyrandeLightOfEluneCelestialAttunementTalent|Q|Level16": {
+      "fullText": "月神之光可解除目标的昏迷、沉默和减速效果。",
+      "name": "星空弦音",
+      "shortText": "月神之光可解除昏迷、沉默和减速"
+    },
+    "TyrandeEmpower|TyrandeSentinelEmpowerTalent|W|Level16": {
+      "fullText": "哨兵的冷却时间缩短<c val=\"#TooltipNumbers\">3</c>秒。哨兵击中的英雄会受到额外伤害，相当于其最大生命值的<c val=\"#TooltipNumbers\">6%</c>。",
+      "name": "强化术",
+      "shortText": "缩短哨兵的冷却时间，造成百分比伤害"
+    },
+    "TyrandeDarnassianArchery|TyrandeDarnassianArchery|Passive|Level16": {
+      "fullText": "对敌方英雄进行普通攻击时可以获得<c val=\"#TooltipNumbers\">12%</c>的攻击伤害加成，持续<c val=\"#TooltipNumbers\">4</c>秒。该效果可以叠加。",
+      "name": "达纳苏斯箭术",
+      "shortText": "连续的普通攻击造成更多伤害"
+    },
+    "TyrandeEyesOfTheHuntress|TyrandeEyesOfTheHuntress|Heroic|Level20": {
+      "fullText": "暗影潜行使所有敌方英雄暴露<c val=\"#TooltipNumbers\">10</c>秒，并且治疗效果提高<c val=\"#TooltipNumbers\">100%</c>。",
+      "name": "女猎手之眼",
+      "shortText": "暗影潜行暴露英雄，治疗提高"
+    },
+    "TyrandeMasteryStarfallCelestialWrath|TyrandeStarfallCelestialWrathTalent|Heroic|Level20": {
+      "fullText": "星辰坠落的减速效果提高至<c val=\"#TooltipNumbers\">60%</c>，并且该技能会对效果范围内的敌方英雄施加猎人印记。",
+      "name": "星空之怒",
+      "shortText": "星辰坠落对英雄施加猎人印记，减速增强"
+    },
+    "TyrandeCommanderofSentinels|TyrandeCommanderofSentinels|W|Level20": {
+      "fullText": "哨兵获得<c val=\"#TooltipNumbers\">第二</c>次使用次数。",
+      "name": "哨兵指挥官",
+      "shortText": "哨兵获得一次使用次数"
+    },
+    "TyrandeIcebladeArrows|TyrandeIcebladeArrows|Passive|Level20": {
+      "fullText": "攻击速度提高<c val=\"#TooltipNumbers\">20%</c>。对敌方英雄进行普通攻击会使他们造成的伤害减少<c val=\"#TooltipNumbers\">8%</c>，持续<c val=\"#TooltipNumbers\">2</c>秒。该效果最多叠加<c val=\"#TooltipNumbers\">5</c>次。",
+      "name": "冰刃箭矢",
+      "shortText": "获得攻击速度，减少敌人伤害"
+    }
+  },
+  "units": {}
+}

@@ -1,0 +1,200 @@
+{
+  "abilities": {
+    "WhitemaneDesperatePlea|WhitemaneDesperatePlea|Q": {
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 45</s>",
+      "fullText": "Curas <c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c> de salud a un héroe aliado y obtienes <c val=\"#WhitemaneDesperation\">Desesperación</c> durante <c val=\"#TooltipNumbers\">4</c> s.<n/><n/><c val=\"#WhitemaneDesperation\">Desesperación</c> aumenta el coste de maná de Oración desesperada en <c val=\"#TooltipNumbers\">40</c>. Se acumula hasta <c val=\"#TooltipNumbers\">3</c> veces.<n/><n/><c val=\"ffff8a\">Coste de maná actual:</c> <c val=\"#TooltipNumbers\">45</c>",
+      "name": "Oración desesperada",
+      "shortText": "Curas a un héroe aliado."
+    },
+    "WhitemaneInquisition|WhitemaneInquisition|W": {
+      "cooldownText": "Tiempo de reutilización: 12 s",
+      "fullText": "Canalízala en un héroe enemigo durante un máximo de <c val=\"#TooltipNumbers\">3</c> s para infligirle <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> de daño cada <c val=\"#TooltipNumbers\">0.5</c> s y ralentizarlo un <c val=\"#TooltipNumbers\">30%</c>. Elimina una acumulación de <c val=\"#WhitemaneDesperation\">Desesperación</c>.<n/><n/>Comparte tiempo de reutilización con Clemencia.",
+      "name": "Inquisición",
+      "shortText": "Dañas o curas a héroes."
+    },
+    "WhitemaneSearingLash|WhitemaneSearingLash|E": {
+      "cooldownText": "Tiempo de reutilización: 6 s",
+      "fullText": "Tras <c val=\"#TooltipNumbers\">0.5</c> s, golpeas a los enemigos en una línea recta y les infliges <c val=\"#TooltipNumbers\">82</c><c val=\"#ColorGray\">~~0.04~~</c> de daño.<n/><n/>Si el primer golpe alcanza a un héroe enemigo, se producirá un segundo golpe tras un breve periodo.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Misión repetible:</c> Golpea a héroes con Latigazo abrasador.<n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Misión repetible:</c> Golpea a <c val=\"#TooltipNumbers\">3</c> héroes con ataques básicos.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa:</c> Aumenta de forma permanente tu salud máxima en <c val=\"#TooltipNumbers\">3</c> y tu maná en <c val=\"#TooltipNumbers\">2</c>. Los héroes golpeados por el segundo ataque de Latigazo abrasador cuentan como <c val=\"#TooltipNumbers\">2</c> golpes.",
+      "name": "Latigazo abrasador",
+      "shortText": "Dañas a los enemigos en una línea."
+    },
+    "WhitemaneScarletAegis|WhitemaneScarletAegis|Heroic": {
+      "cooldownText": "Tiempo de reutilización: 60 s",
+      "fullText": "Brindas apoyo a los espíritus de los héroes aliados cercanos, les curas <c val=\"#TooltipNumbers\">300</c><c val=\"#ColorGray\">~~0.04~~</c> de salud y les otorgas <c val=\"#TooltipNumbers\">40</c> de armadura durante <c val=\"#TooltipNumbers\">4</c> s.",
+      "name": "Égida escarlata",
+      "shortText": "Curas y otorgas armadura a los aliados cercanos."
+    },
+    "WhitemaneDivineReckoning|WhitemaneDivineReckoning|Heroic": {
+      "cooldownText": "Tiempo de reutilización: 75 s",
+      "fullText": "Tras <c val=\"#TooltipNumbers\">1</c> s, consagras un área durante <c val=\"#TooltipNumbers\">4</c> s, lo que inflige <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> de daño cada <c val=\"#TooltipNumbers\">0.5</c> s a los enemigos en su interior. Un <c val=\"#TooltipNumbers\">25%</c> del daño infligido a héroes se devuelve como maná.",
+      "name": "Expiación divina",
+      "shortText": "Consagras un área."
+    },
+    "WhitemaneFanaticalPower|WhitemaneTraitZeal|Trait": {
+      "cooldownText": "Tiempo de reutilización: 40 s",
+      "fullText": "Tus habilidades curativas aplican <c val=\"#WhitemaneZeal\">Fervor</c> durante <c val=\"#TooltipNumbers\">8</c> s. Los aliados con <c val=\"#WhitemaneZeal\">Fervor</c> se curan un <c val=\"#TooltipNumbers\">100%</c> del daño que infliges a héroes.<n/><n/>Actívalo para obtener un <c val=\"#TooltipNumbers\">25%</c> de poder de habilidad y perder <c val=\"#TooltipNumbers\">15</c> de armadura durante <c val=\"#TooltipNumbers\">5</c> s. Se puede lanzar mientras se canalizan habilidades.",
+      "name": "Fervor",
+      "shortText": "Curas a los aliados marcados en función del daño que infliges."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Tiempo de reutilización: 4 s",
+      "fullText": "Tras canalizar durante <c val=\"#TooltipNumbers\">1</c> s, obtienes un <s val=\"StandardTooltipDetails\">30%</s> de velocidad de movimiento.",
+      "name": "Invocar montura"
+    },
+    "WhitemaneInquisitionClemency|WhitemaneInquisitionClemency|Active": {
+      "cooldownText": "Tiempo de reutilización: 12 s",
+      "fullText": "Actívalo para lanzar Inquisición a un héroe aliado y curarle hasta <c val=\"#TooltipNumbers\">329</c><c val=\"#ColorGray\">~~0.04~~</c> de salud a lo largo de <c val=\"#TooltipNumbers\">3</c> s mientras canalizas. Elimina una acumulación de <c val=\"#WhitemaneDesperation\">Desesperación</c>.<n/><n/>Comparte tiempo de reutilización con Inquisición.",
+      "name": "Clemencia",
+      "shortText": "Curas a los aliados con Inquisición."
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Tras canalizar durante <c val=\"#TooltipNumbers\">6</c> s, te teletransportas de vuelta a la Cámara de las Tormentas, lo que restaura al instante <c val=\"#TooltipNumbers\">1125</c> de salud y <c val=\"#TooltipNumbers\">150</c> de maná.",
+      "name": "Piedra de hogar"
+    },
+    "WhitemaneInquisitionCancel|WhitemaneInquisitionCancel|W": {
+      "fullText": "Dejas de canalizar Inquisición.",
+      "name": "Inquisición (cancelar)",
+      "shortText": "Cancelas Inquisición."
+    },
+    "WhitemaneInquisitionCancel|WhitemaneInquisitionCancel|Active": {
+      "fullText": "Dejas de canalizar Inquisición.",
+      "name": "Inquisición (cancelar)",
+      "shortText": "Cancelas Inquisición."
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Desmontas.",
+      "name": "Desmontar"
+    },
+    "WhitemaneIntercession|WhitemaneIntercession|Active": {
+      "cooldownText": "Tiempo de reutilización: 75 s",
+      "fullText": "Actívalo para volver imparable a un aliado durante <c val=\"#TooltipNumbers\">1</c> s.",
+      "name": "Intercesión",
+      "shortText": "Vuelves imparable a un aliado."
+    },
+    "WhitemaneGuidingLight|WhitemaneGuidingLight|Active": {
+      "cooldownText": "Tiempo de reutilización: 30 s",
+      "fullText": "Actívalo para lanzar <c val=\"#WhitemaneZeal\">Fervor</c> de forma permanente en un héroe aliado. No cuesta maná y no otorga <c val=\"#WhitemaneDesperation\">Desesperación</c>. No puede haber más de uno activo a la vez. Tiene un alcance de lanzamiento global.<n/><n/>Aumenta un 15% la bonificación al poder de habilidad que te otorgada tu atributo.",
+      "name": "Luz inspiradora",
+      "shortText": "Actívalo para lanzar <c val=\"#WhitemaneZeal\">Fervor</c> a un héroe aliado sin coste."
+    },
+    "WhitemanePurgeTheWicked|WhitemanePurgeTheWicked|Active": {
+      "cooldownText": "Tiempo de reutilización: 40 s",
+      "fullText": "Actívalo para lanzar fuego sagrado a un héroe enemigo, lo que reduce su armadura en <c val=\"#TooltipNumbers\">25</c> e inflige <c val=\"#TooltipNumbers\">300</c><c val=\"#ColorGray\">~~0.04~~</c> de daño a lo largo de <c val=\"#TooltipNumbers\">4</c> s.",
+      "name": "Purgar al maligno",
+      "shortText": "Actívalo para infligir daño y reducir la armadura."
+    }
+  },
+  "talents": {
+    "WhitemaneZealPityTheFrail|WhitemaneZealPityTheFrail|W|Level1": {
+      "fullText": "Por cada héroe golpeado con Latigazo abrasador se reduce el tiempo de reutilización de Inquisición <c val=\"#TooltipNumbers\">1</c> s. Los aliados con menos de un <c val=\"#TooltipNumbers\">30%</c> de salud reciben un <c val=\"#TooltipNumbers\">25%</c> más de curación de ti.",
+      "name": "Compasión por los débiles",
+      "shortText": "Latigazo abrasador reduce el tiempo de reutilización de Inquisición."
+    },
+    "WhitemaneSearingLashRighteousFlame|WhitemaneSearingLashRighteousFlame|E|Level1": {
+      "fullText": "Latigazo abrasador inflige un <c val=\"#TooltipNumbers\">25%</c> más de daño a los enemigos. Si el segundo golpe acierta a un héroe enemigo, este recibe un <c val=\"#TooltipNumbers\">25%</c> más de daño y obtienes un <c val=\"#TooltipNumbers\">40%</c> de velocidad de ataque durante <c val=\"#TooltipNumbers\">3</c> s.",
+      "name": "Llama de rectitud",
+      "shortText": "Aumenta el daño de Latigazo abrasador."
+    },
+    "WhitemaneInquisitorsPrayer|WhitemaneInquisitor'sPrayer|E|Level1": {
+      "fullText": "Latigazo abrasador restaura <c val=\"#TooltipNumbers\">25</c> de maná por cada héroe golpeado y <c val=\"#WhitemaneZeal\">Fervor</c> dura <c val=\"#TooltipNumbers\">2</c> s más.",
+      "name": "Oración de inquisidora",
+      "shortText": "Latigazo abrasador restaura maná y obtienes duración de <c val=\"#WhitemaneZeal\">Fervor</c> adicional."
+    },
+    "WhitemaneDesperatePleaUnwaveringFaith|WhitemaneDesperatePleaUnwaveringFaith|Q|Level4": {
+      "fullText": "Aumenta el alcance de tus ataques básicos en <c val=\"#TooltipNumbers\">1.1</c>. Obtienes un <c val=\"#TooltipNumbers\">20%</c> más de daño de ataque básico por cada beneficio de <c val=\"#WhitemaneZeal\">Fervor</c> activo.",
+      "name": "Fe inquebrantable",
+      "shortText": "Aumenta el alcance y el daño de los ataques básicos."
+    },
+    "WhitemaneDesperatePleaMartyrdom|WhitemaneDesperatePleaMartyrdom|Q|Level4": {
+      "fullText": "La curación de Oración desesperada aumenta un <c val=\"#TooltipNumbers\">30%</c>. Esto aumenta un <c val=\"#TooltipNumbers\">10%</c> más por cada <c val=\"#WhitemaneZeal\">Fervor</c> activo.",
+      "name": "Martirio",
+      "shortText": "<c val=\"#WhitemaneZeal\">Fervor</c> aumenta la curación de Oración desesperada."
+    },
+    "WhitemaneZealIndulgence|WhitemaneZealIndulgence|Trait|Level4": {
+      "fullText": "Obtienes un <c val=\"#TooltipNumbers\">5%</c> de velocidad de movimiento. Esto aumenta un <c val=\"#TooltipNumbers\">5%</c> más por cada <c val=\"#WhitemaneZeal\">Fervor</c> activo.",
+      "name": "Indulgencia",
+      "shortText": "<c val=\"#WhitemaneZeal\">Fervor</c> otorga velocidad de movimiento."
+    },
+    "WhitemaneDesperatePleaZealousSpirit|WhitemaneDesperatePleaZealousSpirit|Q|Level7": {
+      "fullText": "Al alcanzar <c val=\"#TooltipNumbers\">2</c> acumulaciones de <c val=\"#WhitemaneDesperation\">Desesperación</c>, obtienes <c val=\"#WhitemaneZeal\">Fervor</c>.",
+      "name": "Espíritu ferviente",
+      "shortText": "<c val=\"#WhitemaneDesperation\">Desesperación</c> te otorga <c val=\"#WhitemaneZeal\">Fervor</c>."
+    },
+    "WhitemaneSaintlyGreatstaff|WhitemaneSaintlyGreatstaff|E|Level7": {
+      "fullText": "Los héroes enemigos golpeados por Latigazo abrasador quedan marcados durante <c val=\"#TooltipNumbers\">3</c> s. Los ataques básicos contra ellos infligen <c val=\"#TooltipNumbers\">55</c><c val=\"#ColorGray\">~~0.04~~</c> de daño de habilidad adicional y eliminan la marca.",
+      "name": "Gran bastón santo",
+      "shortText": "Latigazo abrasador potencia los ataques básicos."
+    },
+    "WhitemaneIntercession|WhitemaneIntercession|Active|Level7": {
+      "cooldownText": "Tiempo de reutilización: 75 s",
+      "fullText": "Actívalo para volver imparable a un aliado durante <c val=\"#TooltipNumbers\">1</c> s.",
+      "name": "Intercesión",
+      "shortText": "Vuelves imparable a un aliado."
+    },
+    "WhitemaneScarletAegis|WhitemaneScarletAegis|Heroic|Level10": {
+      "cooldownText": "Tiempo de reutilización: 60 s",
+      "fullText": "Brindas apoyo a los espíritus de los héroes aliados cercanos, les curas <c val=\"#TooltipNumbers\">300</c><c val=\"#ColorGray\">~~0.04~~</c> de salud y les otorgas <c val=\"#TooltipNumbers\">40</c> de armadura durante <c val=\"#TooltipNumbers\">4</c> s.",
+      "name": "Égida escarlata",
+      "shortText": "Curas y otorgas armadura a los aliados cercanos."
+    },
+    "WhitemaneDivineReckoning|WhitemaneDivineReckoning|Heroic|Level10": {
+      "cooldownText": "Tiempo de reutilización: 75 s",
+      "fullText": "Tras <c val=\"#TooltipNumbers\">1</c> s, consagras un área durante <c val=\"#TooltipNumbers\">4</c> s, lo que inflige <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> de daño cada <c val=\"#TooltipNumbers\">0.5</c> s a los enemigos en su interior. Un <c val=\"#TooltipNumbers\">25%</c> del daño infligido a héroes se devuelve como maná.",
+      "name": "Expiación divina",
+      "shortText": "Consagras un área."
+    },
+    "WhitemaneInquisitionSubjugation|WhitemaneInquisitionSubjugation|W|Level13": {
+      "fullText": "Inquisición reduce un <c val=\"#TooltipNumbers\">50%</c> todo el daño que inflige el objetivo.",
+      "name": "Subyugación",
+      "shortText": "Inquisición reduce el daño del enemigo."
+    },
+    "WhitemaneSearingLashLashingOut|WhitemaneSearingLashLashingOut|E|Level13": {
+      "fullText": "Si el segundo golpe de Latigazo abrasador golpea a un héroe enemigo, reduce su tiempo de reutilización a <c val=\"#TooltipNumbers\">1</c> s.",
+      "name": "A latigazos",
+      "shortText": "Reduce el tiempo de reutilización de Latigazo abrasador."
+    },
+    "WhitemaneZealScarletWrath|WhitemaneZealScarletWrath|Trait|Level13": {
+      "fullText": "Los ataques básicos contra héroes aumentan la duración de todos los <c val=\"#WhitemaneZeal\">Fervores</c> activos <c val=\"#TooltipNumbers\">0.75</c> s, restauran un <c val=\"#TooltipNumbers\">1</c><c val=\"#TooltipNumbers\">%</c> de maná a todos los objetivos de <c val=\"#WhitemaneZeal\">Fervor</c> y reducen <c val=\"#WhitemaneZeal\"> s el tiempo de reutilización de la activación de 4Fervor</c>.",
+      "name": "Cólera escarlata",
+      "shortText": "Los ataques básicos aumentan la duración de <c val=\"#WhitemaneZeal\">Fervor</c>."
+    },
+    "WhitemaneDesperatePleaRadiance|WhitemaneDesperatePleaRadiance|Q|Level16": {
+      "fullText": "Al alcanar <c val=\"#TooltipNumbers\">3</c> acumulaciones de <c val=\"#WhitemaneDesperation\">Desesperación</c>, curas <c val=\"#TooltipNumbers\">190</c><c val=\"#ColorGray\">~~0.04~~</c> de salud y vuelves a aplicar <c val=\"#WhitemaneZeal\">Fervor</c> a los aliados con <c val=\"#WhitemaneZeal\">Fervor</c>.",
+      "name": "Radiancia",
+      "shortText": "<c val=\"#WhitemaneDesperation\">Desesperación</c> cura a los aliados con <c val=\"#WhitemaneZeal\">Fervor</c>."
+    },
+    "WhitemaneInquisitionSharedPunishment|WhitemaneInquisitionSharedPunishment|W|Level16": {
+      "fullText": "Inquisición puede afectar a un héroe enemigo adicional que se encuentre cerca del objetivo al lanzarla, lo que le inflige <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> de daño cada <c val=\"#TooltipNumbers\">0.5</c> s. Los enemigos afectados pierden <c val=\"#TooltipNumbers\">10</c> de armadura.",
+      "name": "Castigo compartido",
+      "shortText": "Inquisición reduce la armadura y afecta también a un enemigo cercano."
+    },
+    "WhitemaneSearingLashHarshDiscipline|WhitemaneSearingLashHarshDiscipline|E|Level16": {
+      "fullText": "Golpear a un héroe con Latigazo abrasador mientras es el objetivo de Inquisición lo inmoviliza durante <c val=\"#TooltipNumbers\">1.5</c> s.<n/><n/><c val=\"#AbilityPassive\">Pasiva:</c> Reduce el tiempo de reutilización de Inquisición en <c val=\"#TooltipNumbers\">2</c> s.",
+      "name": "Disciplina severa",
+      "shortText": "Latigazo abrasador inmoviliza al objetivo de Inquisición."
+    },
+    "WhitemaneScarletAegisScarletCrusade|WhitemaneScarletAegisScarletCrusade|Heroic|Level20": {
+      "fullText": "Égida escarlata cura un <c val=\"#TooltipNumbers\">50%</c> más y vuelve imparables a los aliados afectados durante <c val=\"#TooltipNumbers\">2</c> s.",
+      "name": "Cruzada Escarlata",
+      "shortText": "Égida escarlata vuelve imparables a los aliados."
+    },
+    "WhitemaneDivineReckoningJudgmentDay|WhitemaneDivineReckoningJudgmentDay|Heroic|Level20": {
+      "fullText": "Expiación divina inflige un <c val=\"#TooltipNumbers\">50%</c> más de daño y atrae a los enemigos hacia el centro la primera vez que los golpea.",
+      "name": "El día del juicio",
+      "shortText": "Expiación divina atrae a los enemigos."
+    },
+    "WhitemaneGuidingLight|WhitemaneGuidingLight|Active|Level20": {
+      "cooldownText": "Tiempo de reutilización: 30 s",
+      "fullText": "Actívalo para lanzar <c val=\"#WhitemaneZeal\">Fervor</c> de forma permanente en un héroe aliado. No cuesta maná y no otorga <c val=\"#WhitemaneDesperation\">Desesperación</c>. No puede haber más de uno activo a la vez. Tiene un alcance de lanzamiento global.<n/><n/>Aumenta un 15% la bonificación al poder de habilidad que te otorgada tu atributo.",
+      "name": "Luz inspiradora",
+      "shortText": "Actívalo para lanzar <c val=\"#WhitemaneZeal\">Fervor</c> a un héroe aliado sin coste."
+    },
+    "WhitemanePurgeTheWicked|WhitemanePurgeTheWicked|Active|Level20": {
+      "cooldownText": "Tiempo de reutilización: 40 s",
+      "fullText": "Actívalo para lanzar fuego sagrado a un héroe enemigo, lo que reduce su armadura en <c val=\"#TooltipNumbers\">25</c> e inflige <c val=\"#TooltipNumbers\">300</c><c val=\"#ColorGray\">~~0.04~~</c> de daño a lo largo de <c val=\"#TooltipNumbers\">4</c> s.",
+      "name": "Purgar al maligno",
+      "shortText": "Actívalo para infligir daño y reducir la armadura."
+    }
+  },
+  "units": {}
+}

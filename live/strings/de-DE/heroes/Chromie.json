@@ -1,0 +1,227 @@
+{
+  "abilities": {
+    "ChromieSandBlast|ChromieSandBlast|Q": {
+      "cooldownText": "Abklingzeit: 3 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 20</s>",
+      "fullText": "Feuert nach <c val=\"#TooltipNumbers\">0.5</c> Sek. ein Geschoss ab, das dem ersten getroffenen Gegner <c val=\"#TooltipNumbers\">305</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zufügt. Fügt Gebäuden <c val=\"#TooltipNumbers\">50%</c> des Schadens zu.<n/><n/>Der Einsatz der Sandböe hinterlässt ein Echo, das Chromies automatische Angriffe und Sandböen nachahmt und <c val=\"#TooltipNumbers\">40%</c> des Schadens verursacht. Es kann maximal <c val=\"#TooltipNumbers\">1</c> Echo gleichzeitig aktiv sein.",
+      "name": "Sandböe",
+      "shortText": "Feuert ein Geschoss mit hoher Reichweite ab, das einem Helden Schaden zufügt."
+    },
+    "ChromieDragonsBreath|ChromieDragonsBreath|W": {
+      "cooldownText": "Abklingzeit: 14 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 65</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">Vektorpositionierung</c><n/>Feuert <c val=\"#TooltipNumbers\">3</c> Geschosse in die Luft, die in einer Abfolge von <c val=\"#TooltipNumbers\">0.75</c> Sek. in Zielrichtung einschlagen und jeweils <c val=\"#TooltipNumbers\">215</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden verursachen.",
+      "name": "Drachenodem",
+      "shortText": "Lässt mehrere Geschosse in einem Gebiet niedergehen."
+    },
+    "ChromieTimeTrap|ChromieTimeTrap|E": {
+      "cooldownText": "Abklingzeit: 15 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 20</s>",
+      "fullText": "Stellt eine Chronofalle auf, die nach <c val=\"#TooltipNumbers\">2</c> Sek. scharf ist und getarnt wird. Die Falle kann über Chromies Eigenschaft gezündet werden, um <c val=\"#TooltipNumbers\">2</c> Sek. lang die Zeit für alle verbündeten und gegnerischen Helden in der Nähe zu stoppen. Es kann immer nur <c val=\"#TooltipNumbers\">1</c> Falle gleichzeitig aktiv sein.",
+      "name": "Chronofalle",
+      "shortText": "Stellt eine Falle auf, die für Helden die Zeit stoppt."
+    },
+    "ChromieTemporalLoop|ChromieTemporalLoop|Heroic": {
+      "cooldownText": "Abklingzeit: 50 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Visiert einen gegnerischen Helden an. <c val=\"#TooltipNumbers\">3</c> Sek. später wird dieser zurück an den Ort teleportiert, an dem er anvisiert wurde.<n/><n/>Nach dem Einsatz klingen Grundfähigkeiten <c val=\"#TooltipNumbers\">3</c> Sek. lang <c val=\"#TooltipNumbers\">500%</c> schneller ab.",
+      "name": "Zeitspule",
+      "shortText": "Versetzt einen gegnerischen Helden an eine frühere Position zurück."
+    },
+    "ChromieSlowingSands|ChromieSlowingSands|Heroic": {
+      "cooldownText": "Abklingzeit: 5 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 5 pro Sekunde</s>",
+      "fullText": "Erschafft einen Sandwirbel, der Gegner alle <c val=\"#TooltipNumbers\">0.25</c> Sek. um <c val=\"#TooltipNumbers\">10%</c> verlangsamt, bis maximal <c val=\"#TooltipNumbers\">70%</c>.",
+      "name": "Sande der Zeit",
+      "shortText": "Erzeugt ein verlangsamendes Feld."
+    },
+    ":PASSIVE:|ChromieTimewalkerTrait|Trait": {
+      "fullText": "Als Mitglied der Zeitwanderer erlernt Chromie Talente <c val=\"#TooltipNumbers\">2</c> Stufen früher als ihre Teamkameraden!<n/><n/><s val=\"StandardTooltipHeader\">Chronofalle zünden</s><n/><n/>Aktivieren, um aktive Chronofallen explodieren zu lassen.",
+      "name": "Die vierte Dimension",
+      "shortText": "Chromie erlernt Talente früher."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Abklingzeit: 4 Sek.",
+      "fullText": "Erhöht die Bewegungsgeschwindigkeit nach <c val=\"#TooltipNumbers\">1</c> Sek. Kanalisierung um <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Aufsitzen"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Kanalisiert <c val=\"#TooltipNumbers\">6</c> Sek. lang und teleportiert sich dann zurück zum Altar der Stürme. Dabei werden sofort <c val=\"#TooltipNumbers\">1125</c> Lebenspunkte und <c val=\"#TooltipNumbers\">150</c> Mana wiederhergestellt.",
+      "name": "Ruhestein"
+    },
+    "ChromieTimeTrapDetonate|ChromieDetonateTimeTrap|Trait": {
+      "fullText": "Lässt alle aktiven Chronofallen explodieren und stoppt <c val=\"#TooltipNumbers\">2</c> Sek. lang die Zeit für alle verbündeten und gegnerischen Helden in ihrer Nähe.",
+      "name": "Chronofalle zünden",
+      "shortText": "Lässt die Chronofalle explodieren und stoppt die Zeit für alle gegnerischen Helden in ihrer Nähe."
+    },
+    "ChromieSlowingSandsCancel|ChromieSlowingSandsCancel|Heroic": {
+      "fullText": "Bricht Sande der Zeit ab.",
+      "name": "Sande der Zeit abbrechen"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Sitzt ab.",
+      "name": "Absitzen"
+    },
+    "ChromieTimeOut|ChromieTimeOutCancel|Active": {
+      "cooldownText": "Abklingzeit: 60 Sek.",
+      "fullText": "Bricht Verschnaufpause ab.",
+      "name": "Verschnaufpause abbrechen",
+      "shortText": "Bricht Verschnaufpause ab."
+    },
+    "ChromieTimewalkersPursuit|ChromieTimewalkersPursuitActive|Active": {
+      "cooldownText": "Abklingzeit: 25 Sek.",
+      "fullText": "Aktivieren, um das Zielgebiet <c val=\"#TooltipNumbers\">4</c> Sek. lang aufzudecken. Betroffene Gegner werden <c val=\"#TooltipNumbers\">4</c> Sek. lang aufgedeckt.",
+      "name": "Gesetz der ewigen Wiederkehr",
+      "shortText": "Aktivieren, um ein Gebiet aufzudecken.<n/><c val=\"#TooltipQuest\">Quest:</c> Regenerationskugeln gewähren mehr Mana."
+    },
+    "ChromieHereAndThere|ChromieHereAndThere|Active": {
+      "cooldownText": "Abklingzeit: 20 Sek.",
+      "fullText": "Aktivieren, um sich in die Nähe eines Echos zu teleportieren und das Echo an Chromies vorheriger Position erscheinen zu lassen.",
+      "name": "Gleichzeitigkeit",
+      "shortText": "Aktivieren, um mit einem Echo die Position zu tauschen."
+    },
+    "ChromieTimeOut|ChromieTimeOutHotbar|Active": {
+      "cooldownText": "Abklingzeit: 60 Sek.",
+      "fullText": "Aktivieren, um Chromie bis zu <c val=\"#TooltipNumbers\">5</c> Sek. lang in Stasis zu versetzen und dadurch unverwundbar zu machen. Kann erneut aktiviert werden, um den Effekt frühzeitig abzubrechen.",
+      "name": "Verschnaufpause",
+      "shortText": "Aktivieren, um Chromie unverwundbar zu machen."
+    },
+    "ChromieQuantumOverdrive|ChromieQuantumOverdrive|Active": {
+      "cooldownText": "Abklingzeit: 45 Sek.",
+      "fullText": "Aktivieren, um die Fähigkeitsstärke <c val=\"#TooltipNumbers\">8</c> Sek. lang um <c val=\"#TooltipNumbers\">30%</c> zu erhöhen. Heldentreffer mit der Sandböe verringern die Abklingzeit um <c val=\"#TooltipNumbers\">3</c> Sek.",
+      "name": "Quantenbeschleunigung",
+      "shortText": "Aktivieren, um die Fähigkeitsstärke zu erhöhen."
+    },
+    "ChromieBlessingOfTheBronze|ChromieBlessingOfTheBronze|Active": {
+      "cooldownText": "Abklingzeit: 30 Sek.",
+      "fullText": "Aktivieren, um die Bewegungsgeschwindigkeit von Chromie und allen verbündeten Helden um <c val=\"#TooltipNumbers\">20%</c> zu erhöhen und die Abklingzeiten der Grundfähigkeiten von allen um <c val=\"#TooltipNumbers\">35%</c> zu beschleunigen. Hält <c val=\"#TooltipNumbers\">8</c> Sek. lang an.<n/><n/>Wenn Chromie oder eins ihrer Echos mit der Sandböe einen gegnerischen Helden trifft, wird die Abklingzeit von Bronzesegen um <c val=\"#TooltipNumbers\">1</c> Sek. verringert.",
+      "name": "Bronzesegen",
+      "shortText": "Erhöht die Bewegungsgeschwindigkeit von Verbündeten und beschleunigt Abklingzeiten."
+    }
+  },
+  "talents": {
+    "ChromieSandBlastOnceAgainTheFirstTime|ChromieSandBlastOnceAgaintheFirstTime|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Triff <c val=\"#TooltipNumbers\">20</c> Helden mit Sandböe von Chromie oder ihren Echos, ohne zu sterben.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Belohnung:</c> Erhöht die maximale Anzahl aktiver Echos auf <c val=\"#TooltipNumbers\">2</c> und den Schaden der Echos auf <c val=\"#TooltipNumbers\">50 %</c>.",
+      "name": "Zukunft ist Vergangenheit",
+      "shortText": "<c val=\"#TooltipQuest\">Quest:</c> Die Sandböe hinterlässt ein weiteres Echo."
+    },
+    "ChromieDragonsBreathDeepBreathing|ChromieDragonsBreathDeepBreathing|W|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Jedes Mal, wenn Drachenodem einen Helden trifft, erhöht sich der Schaden der Fähigkeit um <c val=\"#TooltipNumbers\">0.5 %</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Belohnung:</c> Sobald <c val=\"#TooltipNumbers\">20</c> Helden getroffen wurden, werden die Abklingzeit von Drachenodem um <c val=\"#TooltipNumbers\">4</c> Sek. und dessen Manakosten von <c val=\"#TooltipNumbers\">65</c> auf <c val=\"#TooltipNumbers\">40</c> verringert.",
+      "name": "Tief Luft holen",
+      "shortText": "<c val=\"#TooltipQuest\">Quest:</c> Triff Helden, um Drachenodem zu verstärken."
+    },
+    "ChromieTimewalkersPursuit|ChromieTimewalkersPursuit|Active|Level1": {
+      "cooldownText": "Abklingzeit: 25 Sek.",
+      "fullText": "Erhöht die Fähigkeitsstärke um <c val=\"#TooltipNumbers\">15%</c> und verringert die Zeit, bis Chronofallen scharf sind, um <c val=\"#TooltipNumbers\">0.75</c> Sek. Aktivieren, um das Zielgebiet <c val=\"#TooltipNumbers\">4</c> Sek. lang aufzudecken. Gegner im Zielgebiet bleiben <c val=\"#TooltipNumbers\">4</c> Sek. lang aufgedeckt.",
+      "name": "Gesetz der ewigen Wiederkehr",
+      "shortText": "Erhöht die Fähigkeitsstärke. Aktivieren, um ein Gebiet aufzudecken."
+    },
+    "ChromieTimeTrapChronicConditions|ChromieTimeTrapChronicConditions|E|Level4": {
+      "fullText": "Die Chronofalle wird gegen gegnerische Helden automatisch aktiviert.<n/><n/>Verlangsamt betroffene Gegner nach Ablauf des Zeitstoppeffekts <c val=\"#TooltipNumbers\">3</c> Sek. lang um <c val=\"#TooltipNumbers\">25 %</c> und Verbündete erhalten <c val=\"#TooltipNumbers\">3</c> Sek. lang um <c val=\"#TooltipNumbers\">25 %</c> erhöhte Bewegungsgeschwindigkeit.",
+      "name": "Zeitfenster",
+      "shortText": "Die Chronofalle wird automatisch ausgelöst, verlangsamt Gegner und beschleunigt Verbündete."
+    },
+    "ChromieTimeTrapTimeTroubles|ChromieTimeTrapTimeTroubles|E|Level4": {
+      "fullText": "Verringert die Panzerung betroffener Gegner nach Ablauf des Zeitstoppeffekts der Chronofalle <c val=\"#TooltipNumbers\">3</c> Sek. lang um <c val=\"#TooltipNumbers\">15</c>. Erhöht gleichzeitig die Panzerung von Verbündeten <c val=\"#TooltipNumbers\">3</c> Sek. lang um <c val=\"#TooltipNumbers\">30</c>.",
+      "name": "Eine Frage der Zeit",
+      "shortText": "Die Chronofalle beeinflusst die Panzerung von Gegnern und Verbündeten."
+    },
+    "ChromieTimeTrapAndorhalAnomaly|ChromieTimeTrapAndorhalAnomaly|E|Level4": {
+      "fullText": "Erhöht die Aufladungen und die maximale Anzahl aktiver Chronofallen auf <c val=\"#TooltipNumbers\">3</c>. Verringert außerdem die Abklingzeit um <c val=\"#TooltipNumbers\">8</c> Sek.",
+      "name": "Andorhal-Anomalie",
+      "shortText": "Verleiht der Chronofalle mehr Aufladungen und verringert die Abklingzeit."
+    },
+    "ChromieSandBlastBronzeTalons|ChromieSandBlastBronzeTalons|Q|Level7": {
+      "fullText": "Heldentreffer mit Sandböen von Chromie oder ihren Echos erhöhen den Schaden automatischer Angriffe <c val=\"#TooltipNumbers\">5</c> Sek. lang um <c val=\"#TooltipNumbers\">50%</c>.",
+      "name": "Bronzeklauen",
+      "shortText": "Die Sandböe erhöht den Schaden automatischer Angriffe."
+    },
+    "ChromieDragonsBreathMobiusLoop|ChromieDragonsBreathMobiusLoop|W|Level7": {
+      "fullText": "Drachenodem fügt Gegnern im Einschlagzentrum <c val=\"#TooltipNumbers\">30%</c> Bonusschaden zu und verlangsamt Helden im Einschlagzentrum <c val=\"#TooltipNumbers\">0.75</c> Sek. lang um <c val=\"#TooltipNumbers\">40%</c>.",
+      "name": "Möbiusschleife",
+      "shortText": "Drachenodem verursacht im Zentrum mehr Schaden und verlangsamt."
+    },
+    "ChromieAProperGreeting|ChromieAProperGreeting|Passive|Level7": {
+      "fullText": "Erhöht den Schaden <c val=\"#TooltipNumbers\">3</c> Sek. lang um <c val=\"#TooltipNumbers\">20%</c>, wenn Chromie betäubten, bewegungsunfähigen oder verlangsamten Helden Schaden zufügt.",
+      "name": "Sand in die Augen",
+      "shortText": "Schaden gegen beeinträchtigte Helden erhöht den Schaden."
+    },
+    "ChromieHeroicAbilitySlowingSands|ChromieSlowingSands|Heroic|Level10": {
+      "cooldownText": "Abklingzeit: 5 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 5 pro Sekunde</s>",
+      "fullText": "Erschafft einen Sandwirbel, der Gegner alle <c val=\"#TooltipNumbers\">0.25</c> Sek. um <c val=\"#TooltipNumbers\">10%</c> verlangsamt, bis maximal <c val=\"#TooltipNumbers\">70%</c>.",
+      "name": "Sande der Zeit",
+      "shortText": "Erzeugt ein verlangsamendes Feld."
+    },
+    "ChromieHeroicAbilityTemporalLoop|ChromieTemporalLoop|Heroic|Level10": {
+      "cooldownText": "Abklingzeit: 50 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Visiert einen gegnerischen Helden an. <c val=\"#TooltipNumbers\">3</c> Sek. später wird dieser zurück an den Ort teleportiert, an dem er anvisiert wurde.<n/><n/>Nach dem Einsatz klingen Grundfähigkeiten <c val=\"#TooltipNumbers\">3</c> Sek. lang <c val=\"#TooltipNumbers\">500%</c> schneller ab.",
+      "name": "Zeitspule",
+      "shortText": "Versetzt einen gegnerischen Helden an eine frühere Position zurück."
+    },
+    "ChromieSandBlastGnomeSpeedAhead|ChromieSandBlastGnomeSpeedAhead|Q|Level13": {
+      "fullText": "Erhöht nach dem Einsatz der Sandböe <c val=\"#TooltipNumbers\">3</c> Sek. lang die Bewegungsgeschwindigkeit um <c val=\"#TooltipNumbers\">20%</c> und die Lebensregeneration um <c val=\"#TooltipNumbers\">200%</c>.",
+      "name": "Zeitdruck",
+      "shortText": "Die Sandböe erhöht die Regeneration und die Bewegungsgeschwindigkeit."
+    },
+    "ChromieHereAndThere|ChromieHereAndThere|Active|Level13": {
+      "cooldownText": "Abklingzeit: 20 Sek.",
+      "fullText": "Aktivieren, um sich in die Nähe eines Echos zu teleportieren und das Echo an Chromies vorheriger Position erscheinen zu lassen.",
+      "name": "Gleichzeitigkeit",
+      "shortText": "Aktivieren, um mit einem Echo die Position zu tauschen."
+    },
+    "ChromieTimeOut|ChromieTimeOutHotbar|Active|Level13": {
+      "cooldownText": "Abklingzeit: 60 Sek.",
+      "fullText": "Aktivieren, um Chromie bis zu <c val=\"#TooltipNumbers\">5</c> Sek. lang in Stasis zu versetzen und dadurch unverwundbar zu machen. Kann erneut aktiviert werden, um den Effekt frühzeitig abzubrechen.",
+      "name": "Verschnaufpause",
+      "shortText": "Aktivieren, um Chromie unverwundbar zu machen."
+    },
+    "ChromieSandBlastShiftingSands|ChromieSandBlastShiftingSands|Q|Level16": {
+      "fullText": "Wenn Chromies primäre Sandböe einen gegnerischen Helden trifft, wird die Fähigkeitsstärke <c val=\"#TooltipNumbers\">8</c> Sek. lang um <c val=\"#TooltipNumbers\">5%</c> erhöht, bis maximal <c val=\"#TooltipNumbers\">50%</c>. Die Dauer wird jedes Mal zurückgesetzt, wenn die primäre Sandböe einem Gegner Schaden zufügt.",
+      "name": "Sandstürme",
+      "shortText": "Die Sandböe gewährt Fähigkeitsstärke."
+    },
+    "ChromieSandBlastFastForward|ChromieSandBlastFastForward|Q|Level16": {
+      "fullText": "Verringert die Abklingzeit der Sandböe auf <c val=\"#TooltipNumbers\">0.5</c> Sek. und erstattet <c val=\"#TooltipNumbers\">10</c> Mana, wenn Chromies primäre Sandböe einen Helden trifft, nachdem sie mindestens <c val=\"#TooltipNumbers\">50%</c> ihrer normalen Reichweite zurückgelegt hat.",
+      "name": "Wanderdüne",
+      "shortText": "Der Einsatz der Sandböe auf große Entfernung verringert die Abklingzeit."
+    },
+    "ChromieQuantumOverdrive|ChromieQuantumOverdrive|Active|Level16": {
+      "cooldownText": "Abklingzeit: 45 Sek.",
+      "fullText": "Aktivieren, um die Fähigkeitsstärke <c val=\"#TooltipNumbers\">8</c> Sek. lang um <c val=\"#TooltipNumbers\">30%</c> zu erhöhen. Heldentreffer mit der Sandböe verringern die Abklingzeit um <c val=\"#TooltipNumbers\">3</c> Sek.",
+      "name": "Quantenbeschleunigung",
+      "shortText": "Aktivieren, um die Fähigkeitsstärke zu erhöhen."
+    },
+    "ChromieSlowingSandsUnravelling|ChromieSlowingSandsUnravelling|Heroic|Level20": {
+      "fullText": "Die Sande der Zeit verringern die Zauberpanzerung betroffener gegnerischer Helden alle <c val=\"#TooltipNumbers\">0.25</c> Sek. um <c val=\"#TooltipNumbers\">10</c>, bis zu maximal <c val=\"#TooltipNumbers\">50</c>.<n/><n/><c val=\"#AbilityPassive\">Passiv:</c> Erhöht die Einsatzreichweite von Sande der Zeit um <c val=\"#TooltipNumbers\">50%</c>. Die Sande der Zeit bleiben nach Abbruch noch <c val=\"#TooltipNumbers\">5</c> Sek. lang bestehen.",
+      "name": "Sand im Getriebe",
+      "shortText": "Sande der Zeit verringert die Zauberpanzerung und bleibt bestehen."
+    },
+    "ChromieTemporalLoopStuckInALoop|ChromieTemporalLoopStuckInALoop|Heroic|Level20": {
+      "fullText": "Zeitspule teleportiert das Ziel ein zweites Mal. Erhöht die Dauer der Abklingzeitbeschleunigung um <c val=\"#TooltipNumbers\">3</c> Sek. Erhöht die Abklingzeitbeschleunigung von <c val=\"#TooltipNumbers\">500%</c> auf <c val=\"#TooltipNumbers\">700%</c>.",
+      "name": "Endlosschleife",
+      "shortText": "Zeitspule teleportiert das Ziel zweimal."
+    },
+    "ChromieSandBlastPiercingSands|ChromieSandBlastPiercingSands|Q|Level20": {
+      "fullText": "Sandböen von Chromie und ihren Echos durchschlagen alle Helden auf ihrem Weg.",
+      "name": "Sandstrahl",
+      "shortText": "Die Sandböe kann mehrere Ziele treffen."
+    },
+    "ChromieBlessingOfTheBronze|ChromieBlessingOfTheBronze|Active|Level20": {
+      "cooldownText": "Abklingzeit: 30 Sek.",
+      "fullText": "Aktivieren, um die Bewegungsgeschwindigkeit von Chromie und allen verbündeten Helden um <c val=\"#TooltipNumbers\">20%</c> zu erhöhen und die Abklingzeiten der Grundfähigkeiten von allen um <c val=\"#TooltipNumbers\">35%</c> zu beschleunigen. Hält <c val=\"#TooltipNumbers\">8</c> Sek. lang an.<n/><n/>Wenn Chromie oder eins ihrer Echos mit der Sandböe einen gegnerischen Helden trifft, wird die Abklingzeit von Bronzesegen um <c val=\"#TooltipNumbers\">1</c> Sek. verringert.",
+      "name": "Bronzesegen",
+      "shortText": "Erhöht die Bewegungsgeschwindigkeit von Verbündeten und beschleunigt Abklingzeiten."
+    }
+  },
+  "units": {
+    "ChromieSandBlastPastAndFutureMeControllerUnit": {
+      "name": "Sandböe - Früheres Ich, Controller - Einheit"
+    },
+    "ChromieTimeTrap": {
+      "description": "Stellt eine Chronofalle auf, die nach <c val=\"#TooltipNumbers\">2</c> Sek. scharf ist und getarnt wird. Die Falle kann über Chromies Eigenschaft gezündet werden, um <c val=\"#TooltipNumbers\">2</c> Sek. lang die Zeit für alle verbündeten und gegnerischen Helden in der Nähe zu stoppen. Es kann immer nur <c val=\"#TooltipNumbers\">1</c> Falle gleichzeitig aktiv sein.",
+      "name": "Chronofalle"
+    }
+  }
+}

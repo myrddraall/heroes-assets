@@ -1,0 +1,189 @@
+{
+  "abilities": {
+    "ButcherHamstring|ButcherHamstring|Q": {
+      "cooldownText": "Время восстановления: 4 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 40</s>",
+      "fullText": "Наносит <c val=\"#TooltipNumbers\">110</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона и замедляет пораженных противников на <c val=\"#TooltipNumbers\">50%</c>. Эффект замедления постепенно ослабевает в течение <c val=\"#TooltipNumbers\">2</c> сек. Следующая автоатака Мясника при этом срабатывает мгновенно.",
+      "name": "Подрезать сухожилия",
+      "shortText": "Наносит урон по области и замедляет противников."
+    },
+    "ButcherButchersBrand|ButcherButchersBrand|W": {
+      "cooldownText": "Время восстановления: 14 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 60</s>",
+      "fullText": "Наносит <c val=\"#TooltipNumbers\">37</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона противнику и накладывает эффект «Тавро Мясника» на <c val=\"#TooltipNumbers\">4</c> сек. Автоатаки Мясника против целей под действием эффекта «Тавро мясника» восполняют Мяснику здоровье в объеме <c val=\"#TooltipNumbers\">75%</c> нанесенного урона.<n/><n/>Автоатаки против героев под действием эффекта «Тавро мясника» восполняют в два раза больше здоровья и продлевают действие эффекта «Тавро мясника» на <c val=\"#TooltipNumbers\">0,5</c> сек.",
+      "name": "Тавро Мясника",
+      "shortText": "Клеймит цель, позволяя Мяснику поглощать ее здоровье."
+    },
+    "ButcherRuthlessOnslaught|ButcherRuthlessOnslaught|E": {
+      "cooldownText": "Время восстановления: 15 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 50</s>",
+      "fullText": "Мясник бросается на противника, становясь неудержимым и получая бонус к скорости передвижения. Достигнув цели, он оглушает ее на <c val=\"#TooltipNumbers\">1</c> сек. и наносит <c val=\"#TooltipNumbers\">119</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона.",
+      "name": "Безжалостный рывок",
+      "shortText": "Бросается к противнику, оглушая его и нанося ему урон."
+    },
+    "ButcherFurnaceBlast|ButcherFurnaceBlast|Heroic": {
+      "cooldownText": "Время восстановления: 60 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 75</s>",
+      "fullText": "После паузы в <c val=\"#TooltipNumbers\">3</c> сек. создает вокруг Мясника взрыв пламени, наносящий противникам <c val=\"#TooltipNumbers\">500</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона.<n/><n/>Можно использовать во время «Безжалостного рывка».",
+      "name": "Взрыв горнила",
+      "shortText": "После паузы наносит урон противникам вокруг Мясника."
+    },
+    "ButcherLambToTheSlaughter|ButcherLambToTheSlaughter|Heroic": {
+      "cooldownText": "Время восстановления: 90 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 75</s>",
+      "fullText": "Мясник вколачивает в землю столб с цепью, которая спустя <c val=\"#TooltipNumbers\">1</c> сек. цепляет ближайшего вражеского героя, нанося ему <c val=\"#TooltipNumbers\">171</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона, приковывая его к столбу и поражая эффектом немоты на <c val=\"#TooltipNumbers\">3</c> сек.",
+      "name": "Агнец на заклание",
+      "shortText": "Приковывает вражеского героя к столбу."
+    },
+    "ButcherFreshMeatDummy|ButcherFreshMeat|Trait": {
+      "fullText": "При гибели находящихся рядом вражеских воинов остается <c val=\"#TooltipNumbers\">1</c> кусок свежего мяса, а при гибели героев противника – <c val=\"#TooltipNumbers\">20</c>  <lang rule=\"plural\" val=\"\">кусок,куска,кусков</lang>. За каждый подобранный кусок урон от автоатак Мясника увеличивается на <c val=\"#TooltipNumbers\">0.5</c> ед. Погибнув, Мясник теряет <c val=\"#TooltipNumbers\">15</c> кусков.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Задача:</c> соберите <c val=\"#TooltipNumbers\">200</c> кусков мяса.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Награда:</c> Мясник получит дополнительный бонус к урону от автоатак в размере <c val=\"#TooltipNumbers\">125</c> ед. и прибавку к скорости атаки в <c val=\"#TooltipNumbers\">25%</c>. Погибающие герои будут оставлять <c val=\"#TooltipNumbers\">10</c> <lang rule=\"plural\" val=\"\">куску,куска,кусков</lang> мяса, но при гибели воинов мясо больше не будет появляться. Также собранное мясо не будет теряться после смерти Мясника.",
+      "name": "Свежее мясо",
+      "shortText": "Набирает силу, убивая врагов и собирая их мясо."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Время восстановления: 4 сек.",
+      "fullText": "После подготовки длительностью <c val=\"#TooltipNumbers\">1</c> сек. повышает скорость передвижения на <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Вызов транспорта"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "После поддержания в течение <c val=\"#TooltipNumbers\">6</c> сек. телепортирует героя в Зал Штормов, моментально восполняя <c val=\"#TooltipNumbers\">1125</c> ед. здоровья и <c val=\"#TooltipNumbers\">150</c> ед. маны.",
+      "name": "Возвращение"
+    },
+    "RuthlessOnslaughtCancel|ButcherRuthlessOnslaughtCancel|E": {
+      "fullText": "Прекращает действие «Безжалостного рывка».",
+      "name": "Отмена «Безжалостного рывка»"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Покинуть транспорт.",
+      "name": "Отмена транспорта"
+    },
+    "ButcherEnraged|ButcherEnragedHotbar|Passive": {
+      "cooldownText": "Время восстановления: 25 сек.",
+      "fullText": "Если при получении урона у Мясника остается менее <c val=\"#TooltipNumbers\">50%</c> максимального запаса здоровья, он впадает в бешенство на <c val=\"#TooltipNumbers\">10</c> сек. Скорость его атаки повышается на <c val=\"#TooltipNumbers\">40%</c>, а броня усиливается на <c val=\"#TooltipNumbers\">25</c> ед., что уменьшает получаемый урон на <c val=\"#TooltipNumbers\">25%</c>.<n/><n/>Время восстановления – <c val=\"#TooltipNumbers\">25</c> сек.",
+      "name": "Бешенство"
+    },
+    "FlashoftheStorms|GenericBoltoftheStormTalent|Active": {
+      "cooldownText": "Время восстановления: 70 сек.",
+      "fullText": "При использовании телепортирует вашего героя на небольшое расстояние.",
+      "name": "Штормовой заряд",
+      "shortText": "Телепортирует на небольшое расстояние."
+    }
+  },
+  "talents": {
+    "ButcherMasteryHamstringInvigoration|ButcherHamstringInvigorationTalent|Q|Level1": {
+      "fullText": "Восполняет половину затраченной на применение способности «Подрезать сухожилия» маны и сокращает время ее восстановления на <c val=\"#TooltipNumbers\">1</c> сек., если она поражает героя.",
+      "name": "Бодрящая затрещина",
+      "shortText": "«Подрезать сухожилия» быстрее восстанавливается и расходует меньше маны."
+    },
+    "ButcherMasteryHamstringChopMeat|ButcherHamstringChopMeatTalent|Q|Level1": {
+      "fullText": "«Подрезать сухожилия» наносит на <c val=\"#TooltipNumbers\">100%</c> больше урона воинам, наемникам и монстрам.",
+      "name": "Рубленое мясо",
+      "shortText": "«Подрезать сухожилия» наносит больше урона всем, кроме героев."
+    },
+    "GenericTalentBlock|GenericBlockTalent|Passive|Level1": {
+      "fullText": "Раз в <c val=\"#TooltipNumbers\">5</c> сек. дает <c val=\"#TooltipNumbers\">75</c> ед. кинетической брони, уменьшающей урон от следующей автоатаки вражеского героя на <c val=\"#TooltipNumbers\">75%</c>.<n/><n/>Максимум зарядов – <c val=\"#TooltipNumbers\">2</c>.",
+      "name": "Блок",
+      "shortText": "Периодически дает кинетическую броню."
+    },
+    "ButcherMasteryHamstringFlailAxe|ButcherHamstringFlailAxeTalent|Q|Level4": {
+      "fullText": "Увеличивает дальность действия «Подрезать сухожилия» на <c val=\"#TooltipNumbers\">40%</c>.",
+      "name": "Тесак на цепи",
+      "shortText": "Увеличивает дальность действия «Подрезать сухожилия»."
+    },
+    "ButcherMasteryHamstringCheapShot|ButcherHamstringCheapShotTalent|Q|Level4": {
+      "fullText": "«Подрезать сухожилия» наносит на <c val=\"#TooltipNumbers\">100%</c> больше урона оглушенным, обездвиженным и замедленным целям.",
+      "name": "Подлый трюк",
+      "shortText": "«Подрезать сухожилия» наносит больше урона целям под эффектами контроля."
+    },
+    "ButcherMasteryRuthlessOnslaughtUnrelentingPursuit|ButcherRuthlessOnslaughtUnrelentingPursuitTalent|E|Level4": {
+      "fullText": "При поражении противника «Безжалостным рывком» сокращает время его восстановления на <c val=\"#TooltipNumbers\">33%</c>.",
+      "name": "Неутомимая погоня",
+      "shortText": "Ускоряет восстановление «Безжалостного рывка» при попадании."
+    },
+    "ButcherMasteryButchersBrandInsatiableBlade|ButcherButchersBrandInsatiableBladeTalent|W|Level7": {
+      "fullText": "Пока заклейменная «Тавром Мясника» цель находится перед Мясником, он передвигается на <c val=\"#TooltipNumbers\">25%</c> быстрее.",
+      "name": "Удачной охоты!",
+      "shortText": "«Тавро Мясника» ускоряет передвижение."
+    },
+    "ButcherMeatShield|ButcherMeatShield|E|Level7": {
+      "fullText": "Если при «Безжалостном рывке» Мясник попадает в героя противника, он получает <c val=\"#TooltipNumbers\">50</c> ед. энергетической брони. Эта броня уменьшает получаемый урон от способностей на <c val=\"#TooltipNumbers\">50%</c> в течение <c val=\"#TooltipNumbers\">2.5</c> сек.",
+      "name": "Мясной щит",
+      "shortText": "«Безжалостный рывок» дает энергетическую броню."
+    },
+    "ButcherMasteryFreshMeatVictuals|ButcherFreshMeatVictualsTalent|Trait|Level7": {
+      "fullText": "Восполняет Мяснику <c val=\"#TooltipNumbers\">5%</c> максимального запаса здоровья за каждого погибающего рядом вражеского воина.",
+      "name": "Вожделение",
+      "shortText": "Восполняет здоровье, когда рядом погибают воины."
+    },
+    "ButcherHeroicAbilityButcherFurnaceBlast|ButcherFurnaceBlast|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 60 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 75</s>",
+      "fullText": "После паузы в <c val=\"#TooltipNumbers\">3</c> сек. создает вокруг Мясника взрыв пламени, наносящий противникам <c val=\"#TooltipNumbers\">500</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона.<n/><n/>Можно использовать во время «Безжалостного рывка».",
+      "name": "Взрыв горнила",
+      "shortText": "После паузы наносит урон противникам вокруг Мясника."
+    },
+    "ButcherHeroicAbilityLambToTheSlaughter|ButcherLambToTheSlaughter|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 90 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 75</s>",
+      "fullText": "Мясник вколачивает в землю столб с цепью, которая спустя <c val=\"#TooltipNumbers\">1</c> сек. цепляет ближайшего вражеского героя, нанося ему <c val=\"#TooltipNumbers\">171</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона, приковывая его к столбу и поражая эффектом немоты на <c val=\"#TooltipNumbers\">3</c> сек.",
+      "name": "Агнец на заклание",
+      "shortText": "Приковывает вражеского героя к столбу."
+    },
+    "ButcherMasteryHamstringBrutalStrike|ButcherHamstringBrutalStrikeTalent|Q|Level13": {
+      "fullText": "Увеличивает урон от <c val=\"#TooltipNumbers\">3</c> <lang rule=\"plural\">следующей автоатаки,следующих автоатак,следующих автоатак</lang> Мясника после использования способности «Подрезать сухожилия» на <c val=\"#TooltipNumbers\">15%</c> на <c val=\"#TooltipNumbers\">5</c> сек.",
+      "name": "Жестокий удар",
+      "shortText": "«Подрезать сухожилия» усиливает автоатаки."
+    },
+    "ButcherMasteryRuthlessOnslaughtSavageCharge|ButcherRuthlessOnslaughtSavageChargeTalent|E|Level13": {
+      "fullText": "«Безжалостный рывок» наносит героям дополнительный урон в объеме <c val=\"#TooltipNumbers\">10%</c> их максимального запаса здоровья.",
+      "name": "Бешеный рывок",
+      "shortText": "«Безжалостный рывок» наносит дополнительный урон."
+    },
+    "ButcherCleaver|ButcherCleaver|Passive|Level13": {
+      "fullText": "Автоатаки наносят <c val=\"#TooltipNumbers\">35%</c> урона от автоатак Мясника в области вокруг цели.",
+      "name": "Колун",
+      "shortText": "Автоатаки наносят урон по области."
+    },
+    "ButcherMasteryHamstringCripplingSlam|ButcherHamstringCripplingSlamTalent|Q|Level16": {
+      "fullText": "Увеличивает длительность эффекта замедления от способности «Подрезать сухожилия» на <c val=\"#TooltipNumbers\">30%</c>. Эффект замедления не ослабевает со временем.",
+      "name": "Калечащий удар",
+      "shortText": "Эффект замедления длится дольше и не ослабевает со временем."
+    },
+    "ButcherTalentEnraged|ButcherEnragedTalent|Passive|Level16": {
+      "fullText": "Если при получении урона у Мясника остается менее <c val=\"#TooltipNumbers\">50%</c> максимального запаса здоровья, он впадает в бешенство на <c val=\"#TooltipNumbers\">10</c> сек. Скорость его атаки повышается на <c val=\"#TooltipNumbers\">40%</c>, а броня усиливается на <c val=\"#TooltipNumbers\">25</c> ед., что уменьшает получаемый урон на <c val=\"#TooltipNumbers\">25%</c>.<n/><n/>Время восстановления – <c val=\"#TooltipNumbers\">25</c> сек.",
+      "name": "Бешенство",
+      "shortText": "Ускоряет атаки и дает броню при низком уровне здоровья."
+    },
+    "ButcherMasteryFreshMeatBloodFrenzy|ButcherFreshBloodFrenzyMeatTalent|Passive|Level16": {
+      "fullText": "Автоатаки по героям повышают скорость атаки и передвижения Мясника на <c val=\"#TooltipNumbers\">5%</c> на <c val=\"#TooltipNumbers\">3</c> сек., вплоть до <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Кровавое бешенство",
+      "shortText": "Автоатаки повышают скорость атаки и передвижения."
+    },
+    "ButcherMasteryFiresofHell|ButcherFurnaceBlastFiresofHellTalent|Heroic|Level20": {
+      "fullText": "«Взрыв горнила» срабатывает повторно через <c val=\"#TooltipNumbers\">3</c> сек. после первоначального взрыва.",
+      "name": "Пламя Преисподней",
+      "shortText": "«Взрыв горнила» срабатывает дважды."
+    },
+    "ButcherMasterySlaughterhouse|ButcherLambToTheSlaughterSlaughterhouseTalent|Heroic|Level20": {
+      "fullText": "«Агнец на заклание» сковывает цепями всех вражеских героев в радиусе поражения.",
+      "name": "Кровавая баня",
+      "shortText": "«Агнец на заклание» сковывает всех вражеских героев."
+    },
+    "GenericTalentNexusBlades|NexusBladesTalent|Passive|Level20": {
+      "fullText": "Автоатаки наносят на <c val=\"#TooltipNumbers\">20%</c> больше урона и снижают скорость передвижения цели на <c val=\"#TooltipNumbers\">20%</c> на <c val=\"#TooltipNumbers\">1</c> сек.",
+      "name": "Клинки Нексуса",
+      "shortText": "Автоатаки наносят больше урона и замедляют цель."
+    },
+    "GenericTalentFlashoftheStorms|GenericBoltoftheStormTalent|Active|Level20": {
+      "cooldownText": "Время восстановления: 70 сек.",
+      "fullText": "При использовании телепортирует вашего героя на небольшое расстояние.",
+      "name": "Штормовой заряд",
+      "shortText": "Телепортирует на небольшое расстояние."
+    }
+  },
+  "units": {
+    "ButcherLambToTheSlaughterPost": {
+      "name": "Агнец на заклание (столб)"
+    }
+  }
+}

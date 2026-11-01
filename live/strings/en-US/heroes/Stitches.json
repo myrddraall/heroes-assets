@@ -1,0 +1,177 @@
+{
+  "abilities": {
+    "StitchesHook|StitchesHook|Q": {
+      "cooldownText": "Cooldown: 16 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 75</s>",
+      "fullText": "Pull the first enemy hit towards Stitches and deal <c val=\"#TooltipNumbers\">91</c><c val=\"#ColorGray\">~~0.04~~</c> damage.<n/><n/>After reaching level <c val=\"#TooltipNumbers\">13</c>, Hook's range is increased by <c val=\"#TooltipNumbers\">40%</c>.",
+      "name": "Hook",
+      "shortText": "Pull the first target hit towards Stitches"
+    },
+    "StitchesSlam|StitchesSlam|W": {
+      "cooldownText": "Cooldown: 8 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 35</s>",
+      "fullText": "Deal <c val=\"#TooltipNumbers\">104</c><c val=\"#ColorGray\">~~0.04~~</c> damage to enemies within the target area. Enemies in the inner impact take <c val=\"#TooltipNumbers\">50%</c> more damage and are Slowed by <c val=\"#TooltipNumbers\">45%</c> for <c val=\"#TooltipNumbers\">2</c> seconds.",
+      "name": "Slam",
+      "shortText": "Damage and Slow enemies in an area"
+    },
+    "StitchesDevour|StitchesDevour|E": {
+      "cooldownText": "Cooldown: 20 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 55</s>",
+      "fullText": "Deal <c val=\"#TooltipNumbers\">319</c><c val=\"#ColorGray\">~~0.04~~</c> damage to non-Heroic units, or <c val=\"#TooltipNumbers\">114</c><c val=\"#ColorGray\">~~0.04~~</c> damage to Heroes. Restores <c val=\"#TooltipNumbers\">20%</c> of Stitches's maximum Health. ",
+      "name": "Devour",
+      "shortText": "Damage an enemy and restore Health"
+    },
+    "StitchesPutridBile|StitchesPutridBile|Heroic": {
+      "cooldownText": "Cooldown: 75 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 75</s>",
+      "fullText": "Emit bile that deals <c val=\"#TooltipNumbers\">37</c><c val=\"#ColorGray\">~~0.04~~</c> damage per second to enemies within, Slowing them by <c val=\"#TooltipNumbers\">35%</c> for <c val=\"#TooltipNumbers\">1.5</c> seconds. Gain <c val=\"#TooltipNumbers\">20%</c> Movement Speed while emitting bile. Lasts <c val=\"#TooltipNumbers\">8</c> seconds.",
+      "name": "Putrid Bile",
+      "shortText": "Emit a Slowing bile trail"
+    },
+    "StitchesGorge|StitchesGorge|Heroic": {
+      "cooldownText": "Cooldown: 65 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 70</s>",
+      "fullText": "Consume an enemy Hero, trapping them for <c val=\"#TooltipNumbers\">4</c> seconds. When Gorge ends, the enemy Hero takes <c val=\"#TooltipNumbers\">274</c><c val=\"#ColorGray\">~~0.04~~</c> damage. The trapped Hero cannot move or act and doesn't take damage from other sources.",
+      "name": "Gorge",
+      "shortText": "Completely consume an enemy Hero"
+    },
+    "StitchesShamblingHorror|StitchesShamblingHorror|Trait": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "fullText": "Activate to spread Vile Gas in a large area every second and prevent your Movement Speed from being reduced below <c val=\"#TooltipNumbers\">110%</c> for <c val=\"#TooltipNumbers\">4</c> seconds.<n/><n/><s val=\"StandardTooltipHeader\">Vile Gas</s><n/>Hitting enemies with Basic Attacks or the inner area of Slam afflicts them with Vile Gas, dealing an additional <c val=\"#TooltipNumbers\">36</c><c val=\"#ColorGray\">~~0.04~~</c> damage over <c val=\"#TooltipNumbers\">4</c> seconds. Deals <c val=\"#TooltipNumbers\">150%</c> more damage to Minions, Mercenaries, and Monsters. ",
+      "name": "Shambling Horror",
+      "shortText": "Attacks poison, activate to prevent Slows"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Cooldown: 4 seconds",
+      "fullText": "After Channeling for <c val=\"#TooltipNumbers\">1</c> second, gain <s val=\"StandardTooltipDetails\">30%</s> Movement Speed.",
+      "name": "Summon Mount"
+    },
+    "StitchesHookHelpingHand|StitchesHelpingHand|Active": {
+      "cooldownText": "Cooldown: 16 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 75</s>",
+      "fullText": "Activate to use Hook that can hit allied Heroes. Hitting an allied Hero this way reduces the cooldown of Hook by <c val=\"#TooltipNumbers\">8</c> seconds.<n/><n/>After reaching level <c val=\"#TooltipNumbers\">13</c>, Helping Hand's range is increased by <c val=\"#TooltipNumbers\">40%</c>.",
+      "name": "Helping Hand",
+      "shortText": "Pull the first target hit towards Stitches"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "After Channeling for <c val=\"#TooltipNumbers\">6</c> seconds, teleport back to the Hall of Storms, instantly restoring <c val=\"#TooltipNumbers\">1125</c> Health and <c val=\"#TooltipNumbers\">150</c> Mana.",
+      "name": "Hearthstone"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Dismounts you.",
+      "name": "Unsummon Mount"
+    }
+  },
+  "talents": {
+    "StitchesPatchworkCreation|StitchesPatchworkCreation|W|Level1": {
+      "fullText": "Gain <c val=\"#TooltipNumbers\">3</c> Armor for every unit afflicted with Vile Gas, stacking up to <c val=\"#TooltipNumbers\">8</c> times. While Shambling Horror is active, this Armor amount is doubled.<n/><n/><c val=\"#AbilityPassive\">Passive:</c> Increase regeneration effects and all healing received by <c val=\"#TooltipNumbers\">15%</c>.",
+      "name": "Patchwork Creation",
+      "shortText": "Vile Gas grants Armor, all healing effects increased"
+    },
+    "StitchesSavortheFlavorDevour|StitchesDevourSavorTheFlavorTalent|E|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Hitting an enemy Hero with Devour increases Stitches' Health Regeneration by <c val=\"#TooltipNumbers\">1.5</c> and the damage of Vile Gas by <c val=\"#TooltipNumbers\">2%</c>, stacking up to <c val=\"#TooltipNumbers\">100</c> times.",
+      "name": "Savor The Flavor",
+      "shortText": "<c val=\"#TooltipQuest\">Quest:</c> Devouring Heroes grants Health per second, increases Vile Gas damage"
+    },
+    "StitchesHungryforMore|StitchesHungryforMore|Passive|Level1": {
+      "fullText": "Gain <c val=\"#TooltipNumbers\">5%</c> Movement Speed.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Gathering a Regeneration Globe increases Stitches's maximum Health by <c val=\"#TooltipNumbers\">25</c>. <n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Reward:</c> Every <c val=\"#TooltipNumbers\">20</c> Globes gathered permanently increases Stitches' Movement Speed by an additional <c val=\"#TooltipNumbers\">5%</c>.",
+      "name": "Hungry for More",
+      "shortText": "<c val=\"#TooltipQuest\">Quest:</c> Regen Globes increase Health, Move Speed"
+    },
+    "StitchesPlaytime|StitchesPlaytime|W|Level4": {
+      "fullText": "Basic Attacks restore <c val=\"#TooltipNumbers\">5</c> Mana and reduce Slam's cooldown by <c val=\"#TooltipNumbers\">0.75</c> seconds.<n/><n/>For each enemy Hero hit by Slam's inner area, restore <c val=\"#TooltipNumbers\">5</c> Mana and reduce its cooldown by <c val=\"#TooltipNumbers\">1.5</c> seconds.",
+      "name": "Playtime!",
+      "shortText": "Basic Attacks reduce Slam cooldown"
+    },
+    "StitchesVileCleaver|StitchesVileCleaver|Trait|Level4": {
+      "fullText": "Basic Attacks against enemies with Vile Gas deal <c val=\"#TooltipNumbers\">35%</c> more damage and spreads Vile Gas to nearby enemies. <n/><n/><c val=\"#AbilityPassive\">Passive:</c> Slam applies Vile Gas to all targets hit.",
+      "name": "Vile Cleaver",
+      "shortText": "Basic Attacks, Slam, spread Vile Gas"
+    },
+    "StitchesTenderizer|StitchesVileGasTenderizerTalent|Passive|Level4": {
+      "fullText": "Basic Attacks against enemy Heroes Slow by <c val=\"#TooltipNumbers\">20%</c> for <c val=\"#TooltipNumbers\">1.5</c> seconds and restore <c val=\"#TooltipNumbers\">1.75%</c> of Stitches' maximum Health.",
+      "name": "Tenderizer",
+      "shortText": "Basic Attacks Slow Heroes, restore Health"
+    },
+    "StitchesSerratedEdge|StitchesSerratedEdge|Q|Level7": {
+      "fullText": "Hitting an enemy Hero with Hook deals bonus damage equal to <c val=\"#TooltipNumbers\">5%</c> of their maximum Health, reduces Hook's cooldown by <c val=\"#TooltipNumbers\">4</c> seconds, and restores <c val=\"#TooltipNumbers\">35</c> Mana.",
+      "name": "Serrated Edge",
+      "shortText": "Hook deals bonus damage, reduces cooldown"
+    },
+    "StitchesSecondHelping|StitchesSecondHelping|E|Level7": {
+      "fullText": "Devour gains <c val=\"#TooltipNumbers\">1</c> additional charge with a <c val=\"#TooltipNumbers\">6</c> second cooldown between uses. <n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Gambit:</c> If Stitches is at max Health after using Devour, he gains a Shield equal to <c val=\"#TooltipNumbers\">15%</c> of his maximum Health for <c val=\"#TooltipNumbers\">10</c> seconds. Every death, reduce this Shield by <c val=\"#TooltipNumbers\">3%</c>.",
+      "name": "Second Helping",
+      "shortText": "<c val=\"#TooltipQuest\">Gambit:</c> Gain additional Devour charge, grants Shields<n/>"
+    },
+    "StitchesPutrefaction|StitchesPutrefaction|Trait|Level7": {
+      "fullText": "While Shambling Horror is active, Vile Gas reduces healing received by <c val=\"#TooltipNumbers\">40%</c>.<n/><n/><c val=\"#AbilityPassive\">Passive:</c> Vile Gas heals Stitches for <c val=\"#TooltipNumbers\">75%</c> of the damage dealt.",
+      "name": "Putrefaction",
+      "shortText": "Vile Gas heals, empowered during Shambling Horror"
+    },
+    "StitchesHeroicAbilityPutridBile|StitchesPutridBile|Heroic|Level10": {
+      "cooldownText": "Cooldown: 75 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 75</s>",
+      "fullText": "Emit bile that deals <c val=\"#TooltipNumbers\">37</c><c val=\"#ColorGray\">~~0.04~~</c> damage per second to enemies within, Slowing them by <c val=\"#TooltipNumbers\">35%</c> for <c val=\"#TooltipNumbers\">1.5</c> seconds. Gain <c val=\"#TooltipNumbers\">20%</c> Movement Speed while emitting bile. Lasts <c val=\"#TooltipNumbers\">8</c> seconds.",
+      "name": "Putrid Bile",
+      "shortText": "Emit a Slowing bile trail"
+    },
+    "StitchesHeroicAbilityGorge|StitchesGorge|Heroic|Level10": {
+      "cooldownText": "Cooldown: 65 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 70</s>",
+      "fullText": "Consume an enemy Hero, trapping them for <c val=\"#TooltipNumbers\">4</c> seconds. When Gorge ends, the enemy Hero takes <c val=\"#TooltipNumbers\">274</c><c val=\"#ColorGray\">~~0.04~~</c> damage. The trapped Hero cannot move or act and doesn't take damage from other sources.",
+      "name": "Gorge",
+      "shortText": "Completely consume an enemy Hero"
+    },
+    "StitchesMeatHook|StitchesMeatHook|Q|Level13": {
+      "fullText": "Hitting an enemy Hero with Hook heals Stitches for <c val=\"#TooltipNumbers\">20%</c> of his maximum Health over <c val=\"#TooltipNumbers\">5</c> seconds. While active, Basic Attacks against the Hero hit refresh the duration of this effect.",
+      "name": "Meat Hook",
+      "shortText": "Hook heals Stitches over time"
+    },
+    "StitchesUnderPressure|StitchesUnderPressure|W|Level13": {
+      "fullText": "Increase Slam's damage by <c val=\"#TooltipNumbers\">25</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> After damaging Heroes with Vile Gas <c val=\"#TooltipNumbers\">6</c> times, permanently increase the damage of Slam by <c val=\"#TooltipNumbers\">1</c>, to a maximum of <c val=\"#TooltipNumbers\">75</c> additional damage.",
+      "name": "Under Pressure",
+      "shortText": "<c val=\"#TooltipQuest\">Quest:</c> Vile Gas increases Slam damage"
+    },
+    "StitchesChopChop|StitchesChopChop|Trait|Level13": {
+      "fullText": "Hitting an enemy Hero with Hook or activating Shambling Horror grants <c val=\"#TooltipNumbers\">40%</c> increased Attack Speed for <c val=\"#TooltipNumbers\">4</c> seconds. Basic Attacks refresh the duration of this effect.",
+      "name": "Chop Chop",
+      "shortText": "Hook, Shambling Horror, increases Attack Speed"
+    },
+    "StitchesPulverizeSlam|StitchesSlamPulverizeTalent|W|Level16": {
+      "fullText": "All enemies hit by Slam are Slowed by <c val=\"#TooltipNumbers\">70%</c> for <c val=\"#TooltipNumbers\">0.75</c> seconds and Heroes have their Armor reduced by <c val=\"#TooltipNumbers\">10</c> for <c val=\"#TooltipNumbers\">3</c> seconds.",
+      "name": "Pulverize",
+      "shortText": "Slam Slows all targets, decreases Armor"
+    },
+    "StitchesDigestiveJuices|StitchesDigestiveJuices|E|Level16": {
+      "fullText": "Devour deals an additional <c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c> damage over <c val=\"#TooltipNumbers\">5</c> seconds. When used on a Hero, its cooldown is reduced by <c val=\"#TooltipNumbers\">4</c> seconds and causes the Hero hit to deal <c val=\"#TooltipNumbers\">50%</c> reduced damage for <c val=\"#TooltipNumbers\">4</c> seconds.",
+      "name": "Digestive Juices",
+      "shortText": "Increase Devour damage, reduces enemy damage dealt"
+    },
+    "StitchesFlareUp|StitchesFlareUp|Trait|Level16": {
+      "fullText": "Deals <c val=\"#TooltipNumbers\">15</c><c val=\"#ColorGray\">~~0.04~~</c> damage per second to nearby enemies. Hitting an enemy Hero with Hook or activating Shambling Horror increases this damage by <c val=\"#TooltipNumbers\">150%</c> for <c val=\"#TooltipNumbers\">4</c> seconds.",
+      "name": "Flare Up",
+      "shortText": "Deals damage to nearby enemies"
+    },
+    "StitchesGiftFromTheEmbalmer|StitchesGiftFromTheEmbalmer|Heroic|Level20": {
+      "fullText": "Putrid Bile deals <c val=\"#TooltipNumbers\">100%</c> more damage to Heroes.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Each time Putrid Bile damages an enemy Hero, the duration of Stitches' next death timer is reduced by <c val=\"#TooltipNumbers\">2%</c>, to a maximum of <c val=\"#TooltipNumbers\">80%</c> total reduction. All stacks of this effect are lost upon death.",
+      "name": "Gift From The Embalmer",
+      "shortText": "<c val=\"#TooltipQuest\">Quest:</c> Increase Putrid Bile damage, reduce death timer"
+    },
+    "StitchesHungryHungryStitchesGorge|StitchesGorgeHungryHungryStitchesTalent|Heroic|Level20": {
+      "fullText": "For <c val=\"#TooltipNumbers\">4</c> seconds after using Gorge, Stitches can teleport a short distance to additional targets and Gorge them. Enemies are Slowed by <c val=\"#TooltipNumbers\">75%</c> for <c val=\"#TooltipNumbers\">1</c> second after Gorge ends.",
+      "name": "Hungry Hungry Stitches",
+      "shortText": "Gorge multiple Heroes, can teleport"
+    },
+    "StitchesHookMasterHooker|StitchesHookMasterHooker|Q|Level20": {
+      "fullText": "Reduce the cooldown of Hook by <c val=\"#TooltipNumbers\">4</c> seconds. Enemy Heroes hit by Hook have <c val=\"#TooltipNumbers\">75%</c> reduced healing for <c val=\"#TooltipNumbers\">2</c> seconds. Allies hit by Helping Hand are Unkillable for <c val=\"#TooltipNumbers\">2</c> seconds. ",
+      "name": "Master Hooker",
+      "shortText": "Empower Hook"
+    },
+    "StitchesGasBag|StitchesGasBag|Trait|Level20": {
+      "fullText": "Activating Shambling Horror grants Unstoppable for <c val=\"#TooltipNumbers\">3</c> seconds.<n/><n/><c val=\"#AbilityPassive\">Passive: </c>Shambling Horror's cooldown is reduced by <c val=\"#TooltipNumbers\">20</c> seconds.",
+      "name": "Gas Bag",
+      "shortText": "Shambling Horror grants Unstoppable, reduced cooldown"
+    }
+  },
+  "units": {}
+}

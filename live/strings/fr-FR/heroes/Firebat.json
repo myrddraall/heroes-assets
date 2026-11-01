@@ -1,0 +1,224 @@
+{
+  "abilities": {
+    "FirebatFlameStream|FirebatFlameStream|Q": {
+      "cooldownText": "Temps de recharge : 4 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 30</s>",
+      "fullText": "Crache deux jets de flammes qui infligent <c val=\"#TooltipNumbers\">76</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts aux ennemis touchés, plus <c val=\"#TooltipNumbers\">120</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts supplémentaires aux adversaires qui reçoivent les deux jets (sauf les bâtiments). Enflamme les flaques d’huile.",
+      "name": "Flambée",
+      "shortText": "Crache deux jets de flammes."
+    },
+    "FirebatOilSpill|FirebatOilSpill|W": {
+      "cooldownText": "Temps de recharge : 12 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 50</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">Ciblage vectoriel</c><n/>Répand une flaque d’huile qui dure <c val=\"#TooltipNumbers\">5</c> secondes et ralentit les ennemis de <c val=\"#TooltipNumbers\">50%</c>.<n/><n/>Les flaques d’huile s’enflamment pour <c val=\"#TooltipNumbers\">2.5</c> secondes quand Flambée les touche. Les flaques d’huile enflammées ne ralentissent plus les ennemis, mais leur infligent <c val=\"#TooltipNumbers\">16</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts toutes les <c val=\"#TooltipNumbers\">0.3</c> secondes. Tant qu’il se tient dans une flaque enflammée, Kramer récupère <c val=\"#TooltipNumbers\">49</c><c val=\"#ColorGray\">~~0.04~~</c> points de vie toutes les <c val=\"#TooltipNumbers\">0.3</c> secondes.<n/><n/>Cumule jusqu’à <c val=\"#TooltipNumbers\">2</c> charges.",
+      "name": "Flaque d’huile",
+      "shortText": "Crée une flaque d’huile qui ralentit, inflige des dégâts et soigne Kramer."
+    },
+    "FirebatJetPropulsion|FirebatJetPropulsion|E": {
+      "cooldownText": "Temps de recharge : 10 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 45</s>",
+      "fullText": "Après <c val=\"#TooltipNumbers\">0.375</c> secondes, Kramer charge droit devant lui. Dès qu’il percute un héros adverse, il lui inflige ainsi qu’à tous les héros adverses proches <c val=\"#TooltipNumbers\">52</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts, en plus de tous les étourdir pendant <c val=\"#TooltipNumbers\">1.25</c> seconde.",
+      "name": "Charge à réaction",
+      "shortText": "Charge vers l’avant en infligeant des dégâts aux héros adverses et en les étourdissant."
+    },
+    "FirebatBunkerDrop|FirebatBunkerDrop|Heroic": {
+      "cooldownText": "Temps de recharge : 85 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 80</s>",
+      "fullText": "Au bout de <c val=\"#TooltipNumbers\">0.5</c> seconde, Kramer déploie et occupe un bunker qui dispose de <c val=\"#TooltipNumbers\">1435</c><c val=\"#ColorGray\">~~0.04~~</c> points de vie. Lui et ses alliés peuvent entrer et sortir du bunker à leur guise et y utiliser un lance-flammes qui inflige <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts aux ennemis le long d’une ligne.<n/><n/> À la sortie du bunker, les occupants obtiennent <c val=\"#TooltipNumbers\">25</c> points d’armure pendant <c val=\"#TooltipNumbers\">2</c> secondes. Le bunker dure <c val=\"#TooltipNumbers\">10</c> secondes ou jusqu’à ce qu’il soit détruit.",
+      "name": "Bunker",
+      "shortText": "Déploie un bunker."
+    },
+    "FirebatCombustion|FirebatCombustion|Heroic": {
+      "cooldownText": "Temps de recharge : 80 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 70</s>",
+      "fullText": "Kramer charge une explosion jusqu’à <c val=\"#TooltipNumbers\">2.6</c> secondes, puis la déclenche autour de lui en ralentissant les ennemis proches de <c val=\"#TooltipNumbers\">60%</c> et en leur infligeant <c val=\"#TooltipNumbers\">55</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts toutes les <c val=\"#TooltipNumbers\">0.5</c> secondes. La durée du ralentissement et des dégâts augmente selon la durée de la charge et peut aller de <c val=\"#TooltipNumbers\">1</c> à <c val=\"#TooltipNumbers\">5</c> secondes.<n/><n/>Pendant la charge, la vitesse de déplacement de Kramer est réduite de <c val=\"#TooltipNumbers\">40%</c>.",
+      "name": "Combustion",
+      "shortText": "Charge une explosion qui inflige des dégâts aux ennemis et les ralentit."
+    },
+    "FirebatIgnite|FirebatIgnite|Trait": {
+      "cooldownText": "Temps de recharge : 90 secondes",
+      "fullText": "Confère <c val=\"#TooltipNumbers\">40</c> points d’armure et inflige <c val=\"#TooltipNumbers\">40</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts aux ennemis proches toutes les <c val=\"#TooltipNumbers\">0.5</c> secondes pendant <c val=\"#TooltipNumbers\">4</c> secondes.<n/><n/>Chaque héros touché par Flambée réduit le temps de recharge de Mise à feu de <c val=\"#TooltipNumbers\">4</c> secondes.",
+      "name": "Mise à feu",
+      "shortText": "Confère de l’armure et inflige des dégâts aux ennemis proches."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Temps de recharge : 4 secondes",
+      "fullText": "Après <c val=\"#TooltipNumbers\">1</c> seconde de canalisation, augmente la vitesse de déplacement de <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Appeler une monture"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Après <c val=\"#TooltipNumbers\">6</c> secondes de canalisation, téléporte au hall des Tempêtes et rend instantanément <c val=\"#TooltipNumbers\">1125</c> points de vie et <c val=\"#TooltipNumbers\">150</c> points de mana.",
+      "name": "Pierre de foyer"
+    },
+    "FirebatCombustionCancel|FirebatCombustionCancel|Heroic": {
+      "fullText": "Annuler Combustion.",
+      "name": "Annulation de Combustion",
+      "shortText": ""
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Permet de descendre de la monture.",
+      "name": "Renvoyer la monture"
+    },
+    "FirebatAdrenalineStimpack|FirebatAdrenalineStimpack|Active": {
+      "cooldownText": "Temps de recharge : 30 secondes",
+      "fullText": "<c val=\"#AbilityPassive\">Effet passif :</c> lorsque les points de vie sont supérieurs à <c val=\"#TooltipNumbers\">80%</c>, confère une augmentation de la vitesse d’attaque de <c val=\"#TooltipNumbers\">20%</c> et de la vitesse de déplacement de <c val=\"#TooltipNumbers\">10%</c>.<n/><n/>À l'activation, augmente la vitesse d’attaque de <c val=\"#TooltipNumbers\">85%</c> et la vitesse de déplacement de <c val=\"#TooltipNumbers\">25%</c> pendant <c val=\"#TooltipNumbers\">5</c> secondes.",
+      "name": "Stimulants surrénaux",
+      "shortText": "Augmente les vitesses d’attaque et de déplacement."
+    },
+    "FirebatEnduranceStimpack|FirebatEnduranceStimpack|Active": {
+      "cooldownText": "Temps de recharge : 30 secondes",
+      "fullText": "Confère un bouclier capable d’absorber <c val=\"#TooltipNumbers\">590</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts en <c val=\"#TooltipNumbers\">5</c> secondes.<n/><n/>Lorsque les points de vie sont inférieurs à <c val=\"#TooltipNumbers\">30%</c> de leur maximum, Stimulants bestiaux est automatiquement utilisé s’il n’est pas en cours de recharge.",
+      "name": "Stimulants bestiaux",
+      "shortText": "Confère un bouclier."
+    },
+    "FirebatNeuralStimpack|FirebatNeuralStimpack|Active": {
+      "cooldownText": "Temps de recharge : 30 secondes",
+      "fullText": "Confère <c val=\"#TooltipNumbers\">40</c> points de mana et accélère l’écoulement des temps de recharge des capacités de base de <c val=\"#TooltipNumbers\">100%</c> pendant <c val=\"#TooltipNumbers\">5</c> secondes.",
+      "name": "Stimulants neuraux",
+      "shortText": "Activer permet d’augmenter la vitesse d’écoulement du temps de recharge."
+    },
+    "FirebatJuggernautPlating|FirebatActiveJuggernautPlating|Active": {
+      "cooldownText": "Temps de recharge : 30 secondes",
+      "fullText": "Confère <c val=\"#TooltipNumbers\">50</c> points d’armure anti-sort pendant <c val=\"#TooltipNumbers\">3</c> secondes. À l’expiration, confère un bouclier équivalent à <c val=\"#TooltipNumbers\">125%</c> des dégâts de capacité subis tant que Blindage Mastodonte était actif.",
+      "name": "Blindage Mastodonte",
+      "shortText": "Confère de l’armure anti-sort et un bouclier dépendant des dégâts subis."
+    },
+    "FirebatBunkerDropFlamethrower|FirebatBunkerDropFlamethrower|Q": {
+      "cooldownText": "Temps de recharge : 1 seconde",
+      "fullText": "Inflige <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts aux ennemis le long d’une ligne.",
+      "name": "Lance-flammes",
+      "shortText": "Inflige des dégâts aux ennemis sur une ligne."
+    },
+    "FirebatBunkerDropFortifiedBunkerOilSpill|FirebatBunkerDropFortifiedBunkerOilSpill|W": {
+      "cooldownText": "Temps de recharge : 6 secondes",
+      "fullText": "<c val=\"#TooltipNumbers\">Ciblage vectoriel</c><n/>Répand une flaque d’huile qui ralentit les ennemis et qui peut être enflammée par Kramer.",
+      "name": "Flaque d’huile",
+      "shortText": ""
+    },
+    "FirebatBunkerDropExitBunker|FirebatBunkerDropExitBunker|Trait": {
+      "fullText": "Sortir du bunker",
+      "name": "Sortir du bunker",
+      "shortText": ""
+    }
+  },
+  "talents": {
+    "FirebatAdrenalineStimpack|FirebatAdrenalineStimpack|Active|Level1": {
+      "cooldownText": "Temps de recharge : 30 secondes",
+      "fullText": "<c val=\"#AbilityPassive\">Effet passif :</c> lorsque les points de vie sont supérieurs à <c val=\"#TooltipNumbers\">80%</c>, confère une augmentation de la vitesse d’attaque de <c val=\"#TooltipNumbers\">20%</c> et de la vitesse de déplacement de <c val=\"#TooltipNumbers\">10%</c>.<n/><n/>À l'activation, augmente la vitesse d’attaque de <c val=\"#TooltipNumbers\">85%</c> et la vitesse de déplacement de <c val=\"#TooltipNumbers\">25%</c> pendant <c val=\"#TooltipNumbers\">5</c> secondes.",
+      "name": "Stimulants surrénaux",
+      "shortText": "Augmente les vitesses d’attaque et de déplacement."
+    },
+    "FirebatEnduranceStimpack|FirebatEnduranceStimpack|Active|Level1": {
+      "cooldownText": "Temps de recharge : 30 secondes",
+      "fullText": "Confère un bouclier capable d’absorber <c val=\"#TooltipNumbers\">590</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts en <c val=\"#TooltipNumbers\">5</c> secondes.<n/><n/>Lorsque les points de vie sont inférieurs à <c val=\"#TooltipNumbers\">30%</c> de leur maximum, Stimulants bestiaux est automatiquement utilisé s’il n’est pas en cours de recharge.",
+      "name": "Stimulants bestiaux",
+      "shortText": "Confère un bouclier."
+    },
+    "FirebatNeuralStimpack|FirebatNeuralStimpack|Active|Level1": {
+      "cooldownText": "Temps de recharge : 30 secondes",
+      "fullText": "Confère <c val=\"#TooltipNumbers\">40</c> points de mana et accélère l’écoulement des temps de recharge des capacités de base de <c val=\"#TooltipNumbers\">100%</c> pendant <c val=\"#TooltipNumbers\">5</c> secondes.",
+      "name": "Stimulants neuraux",
+      "shortText": "Activer permet d’augmenter la vitesse d’écoulement du temps de recharge."
+    },
+    "FirebatNewHabits|FirebatNewHabits|Trait|Level1": {
+      "fullText": "Collecter des globes de régénération réduit le temps de recharge de Mise à feu de <c val=\"#TooltipNumbers\">6</c> secondes.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quête :</c> collecter <c val=\"#TooltipNumbers\">15</c> globes de régénération.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Récompense :</c> Mise à feu rend insensible pendant <c val=\"#TooltipNumbers\">2</c> secondes.",
+      "name": "Accélérateur",
+      "shortText": "<c val=\"#TooltipQuest\">Quête :</c> Mise à feu rend insensible."
+    },
+    "FirebatOilSpillOilDispersal|FirebatOilSpillOilDispersal|W|Level4": {
+      "fullText": "Augmente l’étendue de Flaque d’huile de <c val=\"#TooltipNumbers\">20%</c>. Chaque héros adverse touché par Flambée réduit le temps de recharge de Flaque d’huile de <c val=\"#TooltipNumbers\">0.75</c> secondes et rend <c val=\"#TooltipNumbers\">5</c> points de mana.",
+      "name": "Tache d’huile",
+      "shortText": "Augmente l’étendue de Flaque d’huile."
+    },
+    "FirebatIgniteMeltdown|FirebatIgniteMeltdown|Trait|Level4": {
+      "fullText": "Toucher un héros adverse avec Mise à feu réduit les dégâts qu’il inflige de <c val=\"#TooltipNumbers\">8%</c> pendant <c val=\"#TooltipNumbers\">2.5</c> secondes, jusqu’à un maximum de <c val=\"#TooltipNumbers\">40%</c>.",
+      "name": "Pyrofusion",
+      "shortText": "Mise à feu réduit les dégâts infligés par les ennemis."
+    },
+    "FirebatWeaponIncineratorGauntlets|FirebatWeaponIncineratorGauntlets|Passive|Level4": {
+      "fullText": "Augmente la zone d’effet des attaques de base de <c val=\"#TooltipNumbers\">15%</c> et les dégâts qu’elles infligent aux serviteurs, mercenaires et monstres de <c val=\"#TooltipNumbers\">40%</c>.",
+      "name": "Gants incinérateurs",
+      "shortText": "Les attaques de base infligent des dégâts supplémentaires aux cibles non héroïques."
+    },
+    "FirebatFlameStreamSuppressiveFire|FirebatFlameStreamSuppressiveFire|Q|Level7": {
+      "fullText": "Chacun des jets de flammes de Flambée réduit la puissance de capacité des héros touchés de <c val=\"#TooltipNumbers\">20%</c> pendant <c val=\"#TooltipNumbers\">4</c> secondes, jusqu’à un maximum de <c val=\"#TooltipNumbers\">40%</c>.",
+      "name": "Flammes fatales",
+      "shortText": "Flambée réduit la puissance de capacité."
+    },
+    "FirebatOilSpillNanomachineCoating|FirebatOilSpillNanomachineCoating|W|Level7": {
+      "fullText": "La vitesse d’attaque des ennemis se trouvant dans des flaques d’huile, enflammées ou pas, est réduite de <c val=\"#TooltipNumbers\">35%</c> pendant <c val=\"#TooltipNumbers\">4</c> secondes.",
+      "name": "Engluement",
+      "shortText": "Flaque d’huile réduit la vitesse d’attaque."
+    },
+    "FirebatJetPropulsionFuelLeak|FirebatJetPropulsionFuelLeak|E|Level7": {
+      "fullText": "Charge à réaction laisse des flaques d’huile dans le sillage de Kramer. Si la charge percute un héros adverse, une flaque d’huile supplémentaire se répand à ses pieds.",
+      "name": "Fuite stratégique",
+      "shortText": "Charge à réaction laisse une flaque d’huile dans le sillage de Kramer."
+    },
+    "FirebatHeroicAbilityBunkerDrop|FirebatBunkerDrop|Heroic|Level10": {
+      "cooldownText": "Temps de recharge : 85 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 80</s>",
+      "fullText": "Au bout de <c val=\"#TooltipNumbers\">0.5</c> seconde, Kramer déploie et occupe un bunker qui dispose de <c val=\"#TooltipNumbers\">1435</c><c val=\"#ColorGray\">~~0.04~~</c> points de vie. Lui et ses alliés peuvent entrer et sortir du bunker à leur guise et y utiliser un lance-flammes qui inflige <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts aux ennemis le long d’une ligne.<n/><n/> À la sortie du bunker, les occupants obtiennent <c val=\"#TooltipNumbers\">25</c> points d’armure pendant <c val=\"#TooltipNumbers\">2</c> secondes. Le bunker dure <c val=\"#TooltipNumbers\">10</c> secondes ou jusqu’à ce qu’il soit détruit.",
+      "name": "Bunker",
+      "shortText": "Déploie un bunker."
+    },
+    "FirebatHeroicAbilityCombustion|FirebatCombustion|Heroic|Level10": {
+      "cooldownText": "Temps de recharge : 80 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 70</s>",
+      "fullText": "Kramer charge une explosion jusqu’à <c val=\"#TooltipNumbers\">2.6</c> secondes, puis la déclenche autour de lui en ralentissant les ennemis proches de <c val=\"#TooltipNumbers\">60%</c> et en leur infligeant <c val=\"#TooltipNumbers\">55</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts toutes les <c val=\"#TooltipNumbers\">0.5</c> secondes. La durée du ralentissement et des dégâts augmente selon la durée de la charge et peut aller de <c val=\"#TooltipNumbers\">1</c> à <c val=\"#TooltipNumbers\">5</c> secondes.<n/><n/>Pendant la charge, la vitesse de déplacement de Kramer est réduite de <c val=\"#TooltipNumbers\">40%</c>.",
+      "name": "Combustion",
+      "shortText": "Charge une explosion qui inflige des dégâts aux ennemis et les ralentit."
+    },
+    "FirebatOilSpillGrillandKill|FirebatOilSpillGrillandKill|W|Level13": {
+      "fullText": "Augmente les dégâts d’inflammation de Flaque d’huile de <c val=\"#TooltipNumbers\">45%</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quête :</c> infliger des dégâts aux héros adverses en enflammant des flaques d’huile à <c val=\"#TooltipNumbers\">30</c> reprises.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Récompense :</c> augmente la durée des flammes de Flaque d’huile de <c val=\"#TooltipNumbers\">2.5</c> secondes.",
+      "name": "Quand c’est mort, c’est cuit",
+      "shortText": "<c val=\"#TooltipQuest\">Quête :</c> augmente les dégâts d’inflammation de Flaque d’huile et la durée des flammes."
+    },
+    "FirebatOilSpillAdhesivePetroleum|FirebatOilSpillAdhesivePetroleum|W|Level13": {
+      "fullText": "Les ennemis se trouvant dans une flaque d’huile au moment où elle est enflammée sont ralentis de <c val=\"#TooltipNumbers\">40%</c> et les attaques de base de Kramer leur infligent <c val=\"#TooltipNumbers\">35%</c> de dégâts supplémentaires pendant <c val=\"#TooltipNumbers\">3</c> secondes. Permet aux attaques de base d’enflammer les flaques d’huile.",
+      "name": "Haute viscosité",
+      "shortText": "Flaque d’huile ralentit quand elle est enflammée."
+    },
+    "FirebatJetPropulsionCollisionCourse|FirebatJetPropulsionCollisionCourse|E|Level13": {
+      "fullText": "L’impact de Charge à réaction inflige <c val=\"#TooltipNumbers\">260</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts au premier héros adverse touché.",
+      "name": "Impact frontal",
+      "shortText": "L’impact de Charge à réaction inflige des dégâts."
+    },
+    "FirebatJetPropulsionThermalProtection|FirebatJetPropulsionThermalProtection|E|Level16": {
+      "fullText": "Chaque ennemi touché par Charge à propulsion confère <c val=\"#TooltipNumbers\">10</c> points d’armure pendant <c val=\"#TooltipNumbers\">3</c> secondes et réduit son temps de recharge de <c val=\"#TooltipNumbers\">1.25</c> seconde.",
+      "name": "Bouclier thermique",
+      "shortText": "Toucher des héros adverses confère de l’armure et réduit le temps de recharge."
+    },
+    "FirebatIgniteHeatTreatment|FirebatIgniteHeatTreatment|Trait|Level16": {
+      "fullText": "Kramer récupère un montant de points de vie équivalent à <c val=\"#TooltipNumbers\">75%</c> des dégâts infligés par Mise à feu.",
+      "name": "Chaud au cœur",
+      "shortText": "Mise à feu rend des points de vie selon les dégâts infligés."
+    },
+    "FirebatActiveJuggernautPlating|FirebatActiveJuggernautPlating|Active|Level16": {
+      "cooldownText": "Temps de recharge : 30 secondes",
+      "fullText": "Confère <c val=\"#TooltipNumbers\">50</c> points d’armure anti-sort pendant <c val=\"#TooltipNumbers\">3</c> secondes. À l’expiration, confère un bouclier équivalent à <c val=\"#TooltipNumbers\">125%</c> des dégâts de capacité subis tant que Blindage Mastodonte était actif.",
+      "name": "Blindage Mastodonte",
+      "shortText": "Confère de l’armure anti-sort et un bouclier dépendant des dégâts subis."
+    },
+    "FirebatBunkerDropFortifiedBunker|FirebatBunkerDropFortifiedBunker|Heroic|Level20": {
+      "fullText": "Les occupants peuvent utiliser Flaque d’huile depuis le bunker toutes les <c val=\"#TooltipNumbers\">6</c> secondes. En outre, le bonus à l’armure à la sortie est augmenté de <c val=\"#TooltipNumbers\">25</c> points et sa durée de <c val=\"#TooltipNumbers\">1</c> seconde.",
+      "name": "Blockhaus",
+      "shortText": "Les alliés peuvent utiliser Flaque d’huile depuis le bunker."
+    },
+    "FirebatCombustionFlashFire|FirebatCombustionFlashFire|Heroic|Level20": {
+      "fullText": "Pendant la charge, Kramer se déplace à sa vitesse normale et les ennemis proches sont ralentis de <c val=\"#TooltipNumbers\">60%</c>.",
+      "name": "Bombe humaine",
+      "shortText": "Kramer se déplace à vitesse normale et ralentit les ennemis proches."
+    },
+    "FirebatWeaponBurnNotice|FirebatWeaponBurnNotice|Passive|Level20": {
+      "fullText": "Les attaques de base ralentissent les ennemis de <c val=\"#TooltipNumbers\">5%</c> et infligent <c val=\"#TooltipNumbers\">18</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts supplémentaires en <c val=\"#TooltipNumbers\">2.5</c> secondes. Se cumule jusqu’à <c val=\"#TooltipNumbers\">5</c> fois.",
+      "name": "Troisième degré",
+      "shortText": "Les attaques de base ralentissent et infligent des dégâts sur la durée."
+    }
+  },
+  "units": {
+    "FirebatBunkerDropBunkerUnit": {
+      "name": "Bunker"
+    }
+  }
+}

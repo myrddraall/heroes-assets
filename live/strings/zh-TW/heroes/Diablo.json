@@ -1,0 +1,194 @@
+{
+  "abilities": {
+    "DiabloShadowCharge|DiabloShadowCharge|Q": {
+      "cooldownText": "冷卻時間：12秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：65點</s>",
+      "fullText": "衝向敵人並將其擊退，造成<c val=\"#TooltipNumbers\">45</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，並獲得<c val=\"#TooltipNumbers\">15%</c>移動速度，持續<c val=\"#TooltipNumbers\">2</c>秒。如果敵人被撞向地形障礙，會昏迷<c val=\"#TooltipNumbers\">1</c>秒，並額外受到<c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。",
+      "name": "暗影突進",
+      "shortText": "向目標敵人突進，同時擊退敵人"
+    },
+    "DiabloFireStomp|DiabloFireStomp|W": {
+      "cooldownText": "冷卻時間：8秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：35點</s>",
+      "fullText": "朝目標區域發出火焰波，每個火焰波會造成<c val=\"#TooltipNumbers\">11</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。火焰波抵達最遠距離時會回到迪亞布羅身邊，額外造成<c val=\"#TooltipNumbers\">34</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。火焰波對敵方英雄造成的<c val=\"#TooltipNumbers\">130%</c>傷害會轉而治療迪亞布羅。",
+      "name": "烈焰重踏",
+      "shortText": "朝目標方向發出火焰波"
+    },
+    "DiabloOverpower|DiabloOverpower|E": {
+      "cooldownText": "冷卻時間：12秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：35點</s>",
+      "fullText": "抓住目標，砸向迪亞布羅後方，造成<c val=\"#TooltipNumbers\">80</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，並且使目標昏迷<c val=\"#TooltipNumbers\">0.25</c>秒。",
+      "name": "壓制猛摔",
+      "shortText": "抓住敵人，砸向迪亞布羅後方，使其昏迷並造成傷害"
+    },
+    "DiabloApocalypse|DiabloApocalypse|Heroic": {
+      "cooldownText": "冷卻時間：90秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：50點</s>",
+      "fullText": "於戰場上每名敵方英雄的腳下產生一個惡魔符文。符文會在<c val=\"#TooltipNumbers\">1.75</c>秒後爆炸，造成<c val=\"#TooltipNumbers\">137</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，並且使敵人昏迷<c val=\"#TooltipNumbers\">1.75</c>秒。",
+      "name": "毀天滅地",
+      "shortText": "使所有敵方英雄昏迷"
+    },
+    "DiabloLightningBreath|DiabloLightningBreath|Heroic": {
+      "cooldownText": "冷卻時間：90秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：80點</s>",
+      "fullText": "在<c val=\"#TooltipNumbers\">0.5</c>秒後獲得控場免疫並且引導最多<c val=\"#TooltipNumbers\">4</c>秒，在引導期間每<c val=\"#TooltipNumbers\">0.25</c>秒會對迪亞布羅前方敵人造成<c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。受影響的敵人會緩速<c val=\"#TooltipNumbers\">4%</c>，持續<c val=\"#TooltipNumbers\">2</c>秒，最多可緩速<c val=\"#TooltipNumbers\">40%</c>。<n/><n/>閃電吐息的方向會根據滑鼠游標的位置而改變。",
+      "name": "閃電吐息",
+      "shortText": "對迪亞布羅前方的敵人造成傷害及緩速"
+    },
+    ":PASSIVE:|DiabloBlackSoulstone|Trait": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">重複性任務：</c>每殺死一位英雄，獲得<c val=\"#TooltipNumbers\">10</c>個靈魂，每殺死一個小兵，獲得<c val=\"#TooltipNumbers\">1</c>個靈魂。最多可擁有<c val=\"#TooltipNumbers\">100</c>個靈魂。每擁有1個靈魂，最大生命值提高<c val=\"#TooltipNumbers\">0.3%</c>。如果迪亞布羅在靈魂數量達到<c val=\"#TooltipNumbers\">100</c>個之後死亡，將於<c val=\"#TooltipNumbers\">5</c>秒後復活，並且失去<c val=\"#TooltipNumbers\">100</c>個靈魂。<n/><n/>達到等級<c val=\"#TooltipNumbers\">10</c>以後，迪亞布羅復活只會消耗<c val=\"#TooltipNumbers\">75</c>個靈魂。",
+      "name": "黑靈魂石",
+      "shortText": "收集敵人的靈魂，恢復生命值並且降低復活所需時間"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "冷卻時間：4秒",
+      "fullText": "引導<c val=\"#TooltipNumbers\">1</c>秒後，提高<s val=\"StandardTooltipDetails\">30%</s>移動速度。",
+      "name": "召喚坐騎"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "引導<c val=\"#TooltipNumbers\">6</c>秒後傳送回風暴祭壇，立即恢復<c val=\"#TooltipNumbers\">1125</c>點生命值和<c val=\"#TooltipNumbers\">150</c>點法力值。",
+      "name": "爐石"
+    },
+    "LightningBreathCancel|DiabloLightningBreathCancel|Heroic": {
+      "fullText": "取消閃電吐息技能。",
+      "name": "取消閃電吐息"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "離開坐騎。",
+      "name": "離開坐騎"
+    },
+    "DiabloBlackSoulstoneSoulShield|DiabloSoulShield|Active": {
+      "cooldownText": "冷卻時間：45秒",
+      "fullText": "啟動後獲得<c val=\"#TooltipNumbers\">25</c>點再加上迪亞布羅總靈魂數<c val=\"#TooltipNumbers\">50%</c>的法術護甲，持續<c val=\"#TooltipNumbers\">4</c>秒。每次迪亞布羅對敵方英雄造成傷害，此天賦的冷卻時間降低<c val=\"#TooltipNumbers\">1</c>秒。",
+      "name": "靈魂護盾",
+      "shortText": "啟動後根據總靈魂數獲得法術護甲"
+    },
+    "DiabloHellgate|DiabloHellgateTalent|Active": {
+      "cooldownText": "冷卻時間：100秒",
+      "fullText": "傳送並在目標位置產生一個惡魔符文。符文會在<c val=\"#TooltipNumbers\">1.75</c>秒後爆炸，造成<c val=\"#TooltipNumbers\">137</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，並且使敵人昏迷<c val=\"#TooltipNumbers\">1.75</c>秒。",
+      "name": "地獄之門",
+      "shortText": "傳送並且施放毀天滅地"
+    },
+    "DiabloTalentLordOfTerror|DiabloLordOfTerror|Active": {
+      "cooldownText": "冷卻時間：60秒",
+      "fullText": "啟動後，竊取附近敵方英雄最大生命值的<c val=\"#TooltipNumbers\">12%</c>，並且每竊取一名英雄的生命值可獲得<c val=\"#TooltipNumbers\">5</c>個靈魂。",
+      "name": "恐懼之王",
+      "shortText": "竊取附近敵方英雄的生命值和靈魂"
+    }
+  },
+  "talents": {
+    "DiabloMasteryFeastOnFearBlackSoulstone|DiabloBlackSoulstoneFeastOnFearTalent|Passive|Level1": {
+      "fullText": "以暗影突進或壓制猛摔使敵方英雄昏迷後，迪亞布羅會在<c val=\"#TooltipNumbers\">3</c>秒內恢復最大生命值的<c val=\"#TooltipNumbers\">10%</c>。",
+      "name": "恐懼饗宴",
+      "shortText": "暗影突進和壓制猛摔可恢復生命值"
+    },
+    "DiabloMasteryDevilsDueBlackSoulstone|DiabloBlackSoulstoneDevilsDueTalent|Trait|Level1": {
+      "fullText": "黑靈魂石每擁有一個靈魂，可使恢復之球和治療活泉的效果提高<c val=\"#TooltipNumbers\">2.25%</c>。",
+      "name": "惡魔特權",
+      "shortText": "靈魂可強化恢復之球與治療活泉的效果"
+    },
+    "DiabloSoulShield|DiabloSoulShield|Active|Level1": {
+      "cooldownText": "冷卻時間：45秒",
+      "fullText": "啟動後獲得<c val=\"#TooltipNumbers\">25</c>點再加上迪亞布羅總靈魂數<c val=\"#TooltipNumbers\">50%</c>的法術護甲，持續<c val=\"#TooltipNumbers\">4</c>秒。每次迪亞布羅對敵方英雄造成傷害，此天賦的冷卻時間降低<c val=\"#TooltipNumbers\">1</c>秒。",
+      "name": "靈魂護盾",
+      "shortText": "啟動後根據總靈魂數獲得法術護甲"
+    },
+    "DiabloShadowChargeSacrificialSoul|DiabloShadowChargeSacrificialSoul|Q|Level4": {
+      "fullText": "以暗影突進使敵方英雄昏迷能獲得<c val=\"#TooltipNumbers\">10</c>個靈魂和<c val=\"#TooltipNumbers\">20</c>點護甲，持續<c val=\"#TooltipNumbers\">3</c>秒。靈魂數達到<c val=\"#TooltipNumbers\">100</c>時，此效果賦予的護甲提高至<c val=\"#TooltipNumbers\">40</c>點。",
+      "name": "靈魂獻祭",
+      "shortText": "暗影突進可賦予靈魂和護甲"
+    },
+    "DiabloFireStompSoulsToTheFlame|DiabloFireStompSoulsToTheFlame|W|Level4": {
+      "fullText": "烈焰重踏對敵方英雄每造成<c val=\"#TooltipNumbers\">3</c>次傷害可獲得<c val=\"#TooltipNumbers\">1</c>個靈魂，並且每擁有一個靈魂，可額外恢復等同傷害量的<c val=\"#TooltipNumbers\">1.3%</c>。",
+      "name": "烈焰亡魂",
+      "shortText": "烈焰重踏可賦予靈魂並且提高治療量"
+    },
+    "DiabloLifeLeech|DiabloLifeLeechTalent|Passive|Level4": {
+      "fullText": "迪亞布羅對敵方英雄進行基本攻擊可獲得<c val=\"#TooltipNumbers\">1</c>個靈魂，並且恢復最大生命值的<c val=\"#TooltipNumbers\">1.75%</c>。靈魂數達到<c val=\"#TooltipNumbers\">100</c>時，此恢復量提高至其最大生命值的<c val=\"#TooltipNumbers\">3.5%</c>。",
+      "name": "生命竊取",
+      "shortText": "基本攻擊可賦予靈魂和生命值"
+    },
+    "DiabloShadowChargeOverpowerEternalFlames|DiabloShadowChargeOverpowerEternalFlames|W|Level7": {
+      "fullText": "烈焰重踏的冷卻時間降低<c val=\"#TooltipNumbers\">1</c>秒。迪亞布羅以暗影突進或壓制猛摔使敵方英雄昏迷後，重置烈焰重踏的冷卻時間，並且使迪亞布羅恢復<c val=\"#TooltipNumbers\">45</c>點法力值。",
+      "name": "無盡之焰",
+      "shortText": "暗影突進和壓制猛摔可重置烈焰重踏"
+    },
+    "DiabloMalevolence|DiabloMalevolence|Passive|Level7": {
+      "fullText": "迪亞布羅使用基本技能後，在<c val=\"#TooltipNumbers\">6</c>秒內的下一次基本攻擊會額外造成<c val=\"#TooltipNumbers\">100</c><c val=\"#ColorGray\">~~0.04~~</c>點法術傷害。使用次數最多可累積<c val=\"#TooltipNumbers\">2</c>次。",
+      "name": "凶惡攻擊",
+      "shortText": "技能會提高基本攻擊傷害"
+    },
+    "DiabloDiabolicalMomentum|DiabloDiabolicalMomentum|Passive|Level7": {
+      "fullText": "迪亞布羅的基本攻擊對敵人造成傷害時，可使暗影突進和壓制猛摔的冷卻時間降低<c val=\"#TooltipNumbers\">2</c>秒。",
+      "name": "惡魔律動",
+      "shortText": "基本攻擊降低技能冷卻時間"
+    },
+    "DiabloHeroicAbilityApocalypse|DiabloApocalypse|Heroic|Level10": {
+      "cooldownText": "冷卻時間：90秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：50點</s>",
+      "fullText": "於戰場上每名敵方英雄的腳下產生一個惡魔符文。符文會在<c val=\"#TooltipNumbers\">1.75</c>秒後爆炸，造成<c val=\"#TooltipNumbers\">137</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，並且使敵人昏迷<c val=\"#TooltipNumbers\">1.75</c>秒。",
+      "name": "毀天滅地",
+      "shortText": "使所有敵方英雄昏迷"
+    },
+    "DiabloHeroicAbilityLightningBreath|DiabloLightningBreath|Heroic|Level10": {
+      "cooldownText": "冷卻時間：90秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：80點</s>",
+      "fullText": "在<c val=\"#TooltipNumbers\">0.5</c>秒後獲得控場免疫並且引導最多<c val=\"#TooltipNumbers\">4</c>秒，在引導期間每<c val=\"#TooltipNumbers\">0.25</c>秒會對迪亞布羅前方敵人造成<c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。受影響的敵人會緩速<c val=\"#TooltipNumbers\">4%</c>，持續<c val=\"#TooltipNumbers\">2</c>秒，最多可緩速<c val=\"#TooltipNumbers\">40%</c>。<n/><n/>閃電吐息的方向會根據滑鼠游標的位置而改變。",
+      "name": "閃電吐息",
+      "shortText": "對迪亞布羅前方的敵人造成傷害及緩速"
+    },
+    "DiabloDevastatingCharge|DiabloDevastatingCharge|Q|Level13": {
+      "fullText": "暗影突進撞擊地形的傷害提高<c val=\"#TooltipNumbers\">50%</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任務：</c>使敵方英雄撞擊地形<c val=\"#TooltipNumbers\">5</c>次。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">獎勵：</c>敵方英雄撞擊地形會使其護甲降低<c val=\"#TooltipNumbers\">20</c>點，持續<c val=\"#TooltipNumbers\">4</c>秒。",
+      "name": "毀滅突進",
+      "shortText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任務：</c>暗影突進可降低護甲"
+    },
+    "DiabloHellfire|DiabloHellfire|W|Level13": {
+      "fullText": "烈焰重踏每擊中一名敵方英雄，可賦予 <c val=\"#TooltipNumbers\">3%</c> 法術強度，持續 <c val=\"#TooltipNumbers\">10</c> 秒。最多可賦予 <c val=\"#TooltipNumbers\">30%</c>。堆疊至滿層時，迪亞布羅每秒對附近敵人造成 <c val=\"#TooltipNumbers\">33</c><c val=\"#ColorGray\">~~0.04~~</c> 點傷害。",
+      "name": "地獄烈焰",
+      "shortText": "烈焰重踏可賦予法術強度"
+    },
+    "DiabloShadowChargeOverpowerCruelty|DiabloShadowChargeOverpowerCruelty|Passive|Level13": {
+      "fullText": "以暗影突進或壓制猛摔使敵方英雄昏迷後，迪亞布羅的攻擊速度會提高<c val=\"#TooltipNumbers\">50%</c>，持續<c val=\"#TooltipNumbers\">7</c>秒。最多可提高<c val=\"#TooltipNumbers\">100%</c>。",
+      "name": "殘暴",
+      "shortText": "暗影突進，壓制猛摔可賦予攻擊速度"
+    },
+    "DiabloTalentDominationOverpower|DiabloOverpowerDominationTalent|Q|Level16": {
+      "fullText": "施放壓制猛摔可重置暗影突進的冷卻時間。",
+      "name": "全面壓制",
+      "shortText": "壓制猛摔可重置暗影突進的冷卻時間"
+    },
+    "DiabloDebilitatingFlames|DiabloDebilitatingFlames|W|Level16": {
+      "fullText": "被烈焰重踏擊中的敵方英雄會緩速<c val=\"#TooltipNumbers\">6%</c>，持續<c val=\"#TooltipNumbers\">4</c>秒，最多可緩速<c val=\"#TooltipNumbers\">60%</c>。受到致殘烈焰緩速<c val=\"#TooltipNumbers\">24%</c>以上的英雄，造成的傷害會降低<c val=\"#TooltipNumbers\">50%</c>。",
+      "name": "致殘烈焰",
+      "shortText": "烈焰重踏可降低敵人傷害"
+    },
+    "DiabloOverpowerOverpoweringNightmare|DiabloOverpowerOverpoweringNightmareTalent|E|Level16": {
+      "fullText": "壓制猛摔額外獲得<c val=\"#TooltipNumbers\">2</c>次使用次數，使用次數之間有<c val=\"#TooltipNumbers\">2</c>秒的冷卻時間。",
+      "name": "夢魘壓制",
+      "shortText": "壓制猛摔獲得額外的使用次數"
+    },
+    "DiabloMasteryDyingBreathApocalypse|DiabloApocalypseDyingBreathTalent|Heroic|Level20": {
+      "fullText": "每擊中一名敵方英雄，毀天滅地的冷卻時間便降低<c val=\"#TooltipNumbers\">30</c>秒（最多可降低至<c val=\"#TooltipNumbers\">5</c>秒），並且會在迪亞布羅死亡時免費施放。",
+      "name": "絕命破滅",
+      "shortText": "毀天滅地會在死亡時自動施放"
+    },
+    "DiabloMasteryHellstormLightningBreath|DiabloLightningBreathHellstormTalent|Heroic|Level20": {
+      "fullText": "閃電吐息的持續時間提高<c val=\"#TooltipNumbers\">200%</c>。",
+      "name": "煉獄雷暴",
+      "shortText": "提高閃電吐息的持續時間"
+    },
+    "DiabloTalentLordOfTerror|DiabloLordOfTerror|Active|Level20": {
+      "cooldownText": "冷卻時間：60秒",
+      "fullText": "啟動後，竊取附近敵方英雄最大生命值的<c val=\"#TooltipNumbers\">12%</c>，並且每竊取一名英雄的生命值可獲得<c val=\"#TooltipNumbers\">5</c>個靈魂。",
+      "name": "恐懼之王",
+      "shortText": "竊取附近敵方英雄的生命值和靈魂"
+    },
+    "DiabloHellgate|DiabloHellgateTalent|Active|Level20": {
+      "cooldownText": "冷卻時間：100秒",
+      "fullText": "傳送並在目標位置產生一個惡魔符文。符文會在<c val=\"#TooltipNumbers\">1.75</c>秒後爆炸，造成<c val=\"#TooltipNumbers\">137</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，並且使敵人昏迷<c val=\"#TooltipNumbers\">1.75</c>秒。",
+      "name": "地獄之門",
+      "shortText": "傳送並且施放毀天滅地"
+    }
+  },
+  "units": {}
+}

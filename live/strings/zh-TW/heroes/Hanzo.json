@@ -1,0 +1,181 @@
+{
+  "abilities": {
+    "HanzoStormBowFireTargetPoint|HanzoStormBow|Q": {
+      "cooldownText": "冷卻時間：4秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：20點</s>",
+      "fullText": "啟動後拉弓蓄力，準備發射弓箭，對第一名擊中的敵人造成<c val=\"#TooltipNumbers\">291</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。暴風弓的射程會隨著引導時間提高。",
+      "name": "暴風弓",
+      "shortText": "拉弓蓄力，發射致命的飛箭"
+    },
+    "HanzoScatterArrow|HanzoScatterArrow|W": {
+      "cooldownText": "冷卻時間：8秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：50點</s>",
+      "fullText": "發射一發箭矢，對第一名擊中的敵方英雄造成<c val=\"#TooltipNumbers\">88</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。裂破箭擊中地形障礙或建築後會分裂成<c val=\"#TooltipNumbers\">5</c>支箭矢，並且繼續飛行，最多可彈射<c val=\"#TooltipNumbers\">4</c>次，每支箭可對第一名擊中的敵人造成<c val=\"#TooltipNumbers\">88</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。",
+      "name": "裂破箭",
+      "shortText": "發射會彈射分裂的箭"
+    },
+    "HanzoSonicArrow|HanzoSonicArrow|E": {
+      "cooldownText": "冷卻時間：20秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：50點</s>",
+      "fullText": "發射音波箭顯示大範圍區域，持續<c val=\"#TooltipNumbers\">5</c>秒。區域內的敵人會現形，持續<c val=\"#TooltipNumbers\">1</c>秒。如果音波箭直接擊中一名敵人會造成<c val=\"#TooltipNumbers\">165</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，並且效果會隨著敵人移動。",
+      "name": "音波箭",
+      "shortText": "顯示大範圍區域"
+    },
+    "HanzoDragonstrike|HanzoDragonstrike|Heroic": {
+      "cooldownText": "冷卻時間：60秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：60點</s>",
+      "fullText": "在<c val=\"#TooltipNumbers\">1.5</c>秒後，召喚一對朝前方飛行的龍魂，每<c val=\"#TooltipNumbers\">0.25</c>秒對範圍內的敵方英雄造成<c val=\"#TooltipNumbers\">84</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。在中央區域的敵人受到的傷害提高<c val=\"#TooltipNumbers\">75%</c>。",
+      "name": "龍魂擊",
+      "shortText": "召喚一對龍魂對敵人造成傷害"
+    },
+    "HanzoDragonsArrow|HanzoDragonsArrow|Heroic": {
+      "cooldownText": "冷卻時間：70秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：90點</s>",
+      "fullText": "發射龍牙箭飛越戰場。龍牙箭擊中敵方英雄會爆炸，對附近所有敵人造成<c val=\"#TooltipNumbers\">130</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，並且使其昏迷<c val=\"#TooltipNumbers\">0.5</c>秒。<n/><n/>龍牙箭飛行中程距離後，造成的傷害提高為<c val=\"#TooltipNumbers\">260</c><c val=\"#ColorGray\">~~0.04~~</c>點，昏迷效果提高為<c val=\"#TooltipNumbers\">1.25</c>秒。<n/><n/>龍牙箭飛行遠程距離後，造成的傷害提高為<c val=\"#TooltipNumbers\">390</c><c val=\"#ColorGray\">~~0.04~~</c>點，昏迷效果提高為<c val=\"#TooltipNumbers\">2</c>秒。",
+      "name": "龍牙箭",
+      "shortText": "發射飛越全地圖的箭矢，造成傷害和昏迷效果"
+    },
+    "HanzoNaturalAgilityButton|HanzoNaturalAgility|Trait": {
+      "cooldownText": "冷卻時間：25秒",
+      "fullText": "躍過沒有行進路線的地形障礙或建築，有最大距離限制。",
+      "name": "身輕如燕",
+      "shortText": "縱身躍過地形"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "冷卻時間：4秒",
+      "fullText": "引導<c val=\"#TooltipNumbers\">1</c>秒後，提高<s val=\"StandardTooltipDetails\">30%</s>移動速度。",
+      "name": "召喚坐騎"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "引導<c val=\"#TooltipNumbers\">6</c>秒後傳送回風暴祭壇，立即恢復<c val=\"#TooltipNumbers\">1125</c>點生命值和<c val=\"#TooltipNumbers\">150</c>點法力值。",
+      "name": "爐石"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "離開坐騎。",
+      "name": "離開坐騎"
+    },
+    "HanzoPOTG|HanzoPOTGActivate|Heroic": {
+      "fullText": "啟動後傳送至半藏龍牙箭的位置。",
+      "name": "神乎其技"
+    }
+  },
+  "talents": {
+    "HanzoTargetPractice|HanzoTargetPractice|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任務：</c>以暴風弓擊中每一個敵方英雄。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">獎勵：</c>以暴風弓擊中每一個敵方英雄一次以後，暴風弓的距離提高<c val=\"#TooltipNumbers\">30%</c>。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">獎勵：</c>以暴風弓擊中每一個敵方英雄<c val=\"#TooltipNumbers\">3</c>次以後，暴風弓造成的傷害提高<c val=\"#TooltipNumbers\">100</c>點。",
+      "name": "活靶練習",
+      "shortText": "<c val=\"#TooltipQuest\">任務：</c>擊中所有敵方英雄以強化暴風弓"
+    },
+    "HanzoSimpleGeometry|HanzoSimpleGeometry|W|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任務：</c>以同一發裂破箭多次擊中同一名英雄<c val=\"#TooltipNumbers\">20</c>次。多次擊中時，第二支之後的箭矢會賦予額外的進度。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">獎勵：</c>裂破箭第一次擊中地形障礙後，會額外產生<c val=\"#TooltipNumbers\">2</c>發箭矢。",
+      "name": "基礎幾何學",
+      "shortText": "<c val=\"#TooltipQuest\">任務：</c>裂破箭可獲得額外的箭矢"
+    },
+    "HanzoRedemption|HanzoRedemption|Passive|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任務：</c>對相同英雄在<c val=\"#TooltipNumbers\">10</c>秒內每施展<c val=\"#TooltipNumbers\">2</c>次基本攻擊，會獲得<c val=\"#TooltipNumbers\">1</c>層贖罪，最高可堆疊<c val=\"#TooltipNumbers\">12</c>層。死亡會使贖罪降低<c val=\"#TooltipNumbers\">3</c>層效果，即使達到層數上限仍會失去堆疊層數。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">獎勵：</c>獲得<c val=\"#TooltipNumbers\">12</c>層贖罪後，攻擊速度提高<c val=\"#TooltipNumbers\">50%</c>。",
+      "name": "贖罪",
+      "shortText": "<c val=\"#TooltipQuest\">任務：</c>擊中英雄以提高攻擊速度"
+    },
+    "HanzoExplosiveArrows|HanzoExplosiveArrows|Q|Level4": {
+      "fullText": "暴風弓擊中小兵或中立怪後，會對目標周圍的敵人造成<c val=\"#TooltipNumbers\">60%</c>傷害。",
+      "name": "爆裂箭",
+      "shortText": "暴風弓的箭會在擊中小兵或中立怪後爆炸"
+    },
+    "HanzoSerratedArrows|HanzoSerratedArrows|W|Level4": {
+      "fullText": "裂破箭對小兵、傭兵與中立怪造成的傷害提高<c val=\"#TooltipNumbers\">100%</c>。",
+      "name": "鋸齒箭",
+      "shortText": "提高裂破箭對非英雄單位造成的傷害"
+    },
+    "HanzoIgnoreAllDistractions|HanzoIgnoreAllDistractions|Passive|Level4": {
+      "fullText": "基本攻擊會立即殺死小兵，殺死後會使半藏的基本攻擊距離提高<c val=\"#TooltipNumbers\">2</c>格，持續<c val=\"#TooltipNumbers\">3</c>秒。",
+      "name": "心無旁騖",
+      "shortText": "基本攻擊會立即殺死小兵，並且提高射程"
+    },
+    "HanzoTheDragonHungers|HanzoTheDragonHungers|Q|Level7": {
+      "fullText": "暴風弓擊中英雄會獲得<c val=\"#TooltipNumbers\">5%</c>法術強度，持續<c val=\"#TooltipNumbers\">12</c>秒，最多可堆疊至<c val=\"#TooltipNumbers\">20%</c>。",
+      "name": "嗜血龍魂",
+      "shortText": "暴風弓可賦予法術強度"
+    },
+    "HanzoNeverOutmatched|HanzoNeverOutmatched|W|Level7": {
+      "fullText": "裂破箭的法力消耗由<c val=\"#TooltipNumbers\">50</c>點降低為<c val=\"#TooltipNumbers\">30</c>點。對英雄施展基本攻擊會使裂破箭的冷卻時間降低<c val=\"#TooltipNumbers\">3</c>秒。",
+      "name": "未逢敵手",
+      "shortText": "基本攻擊會降低裂破箭的冷卻時間"
+    },
+    "HanzoSharpenedArrowheads|HanzoSharpenedArrowheads|Passive|Level7": {
+      "fullText": "暴風弓或基本攻擊命中英雄後，會使其護甲降低<c val=\"#TooltipNumbers\">3</c>點，持續<c val=\"#TooltipNumbers\">3</c>秒，最多可降低<c val=\"#TooltipNumbers\">20</c>點護甲。",
+      "name": "鋒利箭鏃",
+      "shortText": "暴風弓和基本攻擊可降低護甲"
+    },
+    "HanzoDragonstrike|HanzoDragonstrike|Heroic|Level10": {
+      "cooldownText": "冷卻時間：60秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：60點</s>",
+      "fullText": "在<c val=\"#TooltipNumbers\">1.5</c>秒後，召喚一對朝前方飛行的龍魂，每<c val=\"#TooltipNumbers\">0.25</c>秒對範圍內的敵方英雄造成<c val=\"#TooltipNumbers\">84</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。在中央區域的敵人受到的傷害提高<c val=\"#TooltipNumbers\">75%</c>。",
+      "name": "龍魂擊",
+      "shortText": "召喚一對龍魂對敵人造成傷害"
+    },
+    "HanzoDragonsArrow|HanzoDragonsArrow|Heroic|Level10": {
+      "cooldownText": "冷卻時間：70秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：90點</s>",
+      "fullText": "發射龍牙箭飛越戰場。龍牙箭擊中敵方英雄會爆炸，對附近所有敵人造成<c val=\"#TooltipNumbers\">130</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，並且使其昏迷<c val=\"#TooltipNumbers\">0.5</c>秒。<n/><n/>龍牙箭飛行中程距離後，造成的傷害提高為<c val=\"#TooltipNumbers\">260</c><c val=\"#ColorGray\">~~0.04~~</c>點，昏迷效果提高為<c val=\"#TooltipNumbers\">1.25</c>秒。<n/><n/>龍牙箭飛行遠程距離後，造成的傷害提高為<c val=\"#TooltipNumbers\">390</c><c val=\"#ColorGray\">~~0.04~~</c>點，昏迷效果提高為<c val=\"#TooltipNumbers\">2</c>秒。",
+      "name": "龍牙箭",
+      "shortText": "發射飛越全地圖的箭矢，造成傷害和昏迷效果"
+    },
+    "HanzoFleetofFoot|HanzoFleetofFoot|Q|Level13": {
+      "fullText": "以暴風弓擊中英雄會使半藏的移動速度提高<c val=\"#TooltipNumbers\">10%</c>，持續<c val=\"#TooltipNumbers\">6</c>秒，最多可提高<c val=\"#TooltipNumbers\">30%</c>。",
+      "name": "疾行",
+      "shortText": "暴風弓提高移動速度"
+    },
+    "HanzoNinjaAssassin|HanzoNinjaAssassin|Trait|Level13": {
+      "fullText": "暴風弓擊中英雄會使身輕如燕的冷卻時間降低<c val=\"#TooltipNumbers\">10</c>秒。此外，參與擊殺英雄會重置身輕如燕的冷卻時間。",
+      "name": "忍者刺客",
+      "shortText": "暴風弓可降低身輕如燕的冷卻時間"
+    },
+    "HanzoMountedArchery|HanzoMountedArchery|Passive|Level13": {
+      "fullText": "召喚坐騎的冷卻時間降低<c val=\"#TooltipNumbers\">2</c>秒。騎乘坐騎後，移動速度額外提高<c val=\"#TooltipNumbers\">25%</c>，持續<c val=\"#TooltipNumbers\">5</c>秒。使用身輕如燕後會立即騎乘坐騎。",
+      "name": "弓騎兵",
+      "shortText": "提高坐騎速度，使用身輕如燕後會騎乘坐騎"
+    },
+    "HanzoFlawlessTechnique|HanzoFlawlessTechnique|Passive|Level16": {
+      "fullText": "暴風弓擊中英雄會使半藏在<c val=\"#TooltipNumbers\">5</c>秒內下一次基本攻擊造成的傷害提高<c val=\"#TooltipNumbers\">40%</c>。對英雄施展基本攻擊會使半藏在<c val=\"#TooltipNumbers\">5</c>秒內下一次暴風弓造成的傷害提高<c val=\"#TooltipNumbers\">40%</c>。",
+      "name": "箭術如神",
+      "shortText": "暴風弓和基本攻擊會互相強化"
+    },
+    "HanzoPiercingArrows|HanzoPiercingArrows|Passive|Level16": {
+      "fullText": "暴風弓和裂破箭會貫穿目標，額外擊中一名敵人。此外，裂破箭每次彈射會貫穿<c val=\"#TooltipNumbers\">1</c>名敵人。",
+      "name": "穿刺箭",
+      "shortText": "暴風弓和裂破箭會貫穿敵人"
+    },
+    "HanzoGiantSlayer|HanzoGiantSlayer|Passive|Level16": {
+      "fullText": "裂破箭和基本攻擊命中敵方英雄可額外造成目標最大生命值<c val=\"#TooltipNumbers\">1.6%</c>的傷害。",
+      "name": "強敵殺手",
+      "shortText": "基本攻擊和裂破箭會額外造成傷害"
+    },
+    "HanzoTheDragonAwakens|HanzoTheDragonAwakens|Heroic|Level20": {
+      "fullText": "暴風弓、裂破箭或基本攻擊命中英雄會使龍魂擊的冷卻時間降低<c val=\"#TooltipNumbers\">4</c>秒。",
+      "name": "龍魂覺醒",
+      "shortText": "技能和基本攻擊會降低龍魂擊的冷卻時間"
+    },
+    "HanzoPOTG|HanzoPOTG|Heroic|Level20": {
+      "fullText": "龍牙箭在飛行中，或擊中目標後的<c val=\"#TooltipNumbers\">2</c>秒內可以重新啟動，使半藏傳送至龍牙箭的位置，然後躍向後方。如果在擊中目標後啟動，半藏會對所有龍牙箭擊中的目標發射箭矢造成<c val=\"#TooltipNumbers\">132</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。<n/><n/>半藏在「神乎其技」效果期間會獲得控場免疫。",
+      "name": "神乎其技",
+      "shortText": "啟動後傳送至龍牙箭的位置"
+    },
+    "HanzoBullseye|HanzoBullseye|E|Level20": {
+      "fullText": "音波箭的速度和中心範圍提高<c val=\"#TooltipNumbers\">100%</c>。在音波箭中心範圍被擊中的英雄會昏迷<c val=\"#TooltipNumbers\">1</c>秒。",
+      "name": "箭無虛發",
+      "shortText": "提高音波箭的速度，並且賦予昏迷效果"
+    },
+    "HanzoPerfectAgility|HanzoPerfectAgility|Trait|Level20": {
+      "fullText": "身輕如燕獲得第<c val=\"#TooltipNumbers\">2</c>個使用次數，並且冷卻時間降低<c val=\"#TooltipNumbers\">10</c>秒。",
+      "name": "完美身法",
+      "shortText": "身輕如燕提高使用次數，並且降低冷卻時間"
+    }
+  },
+  "units": {
+    "HanzoDragonstrikeController": {
+      "name": "龍魂擊（控制器）"
+    },
+    "HanzoDragonstrikeSoundUnit": {
+      "name": "龍魂擊（音效單位）"
+    }
+  }
+}

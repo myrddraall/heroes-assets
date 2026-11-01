@@ -1,0 +1,211 @@
+{
+  "abilities": {
+    "NecromancerSpectralScythe|NecromancerSpectralScythe|Q": {
+      "cooldownText": "冷卻時間：8秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：55點</s>",
+      "fullText": "召喚一把鐮刀，<c val=\"#TooltipNumbers\">1</c> 秒後朝蘇爾飛回，對敵人造成 <c val=\"#TooltipNumbers\">190</c><c val=\"#ColorGray\">~~0.04~~</c> 點傷害，並且在命中敵方英雄時，產生一個骷髏戰士。這些骷髏戰士不會計入蘇爾的骷髏復甦的數量上限。",
+      "name": "亡靈之鐮",
+      "shortText": "蘇爾拋出鐮刀，鐮刀飛回時對敵人造成傷害"
+    },
+    "NecromancerCursedStrikes|NecromancerCursedStrikes|W": {
+      "cooldownText": "冷卻時間：16秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：50點</s>",
+      "fullText": "蘇爾的基本攻擊會造成大範圍傷害，並且使敵方英雄與召喚單位的攻擊速度降低<c val=\"#TooltipNumbers\">40%</c>，持續<c val=\"#TooltipNumbers\">2</c>秒。啟動後，效果可持續<c val=\"#TooltipNumbers\">4</c>秒。",
+      "name": "咒滅之擊",
+      "shortText": "基本攻擊可造成範圍傷害，並降低敵人的攻擊速度"
+    },
+    "NecromancerBonePrison|NecromancerBonePrison|E": {
+      "cooldownText": "冷卻時間：10秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：70點</s>",
+      "fullText": "延遲 <c val=\"#TooltipNumbers\">2</c> 秒後，對指定的敵方英雄造成 <c val=\"#TooltipNumbers\">80</c><c val=\"#ColorGray\">~~0.04~~</c> 點傷害，並且使其定身 <c val=\"#TooltipNumbers\">1.75</c> 秒。附近所有骷髏戰士會在此期間內追擊該目標。",
+      "name": "骨牢",
+      "shortText": "使一名敵人定身"
+    },
+    "NecromancerSkeletalMages|NecromancerSkeletalMages|Heroic": {
+      "cooldownText": "冷卻時間：90秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：80點</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">方位指定技能</c><n/>召喚出<c val=\"#TooltipNumbers\">4</c>個排成一列的冰霜法師攻擊附近的敵人，每秒可造成<c val=\"#TooltipNumbers\">47</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害並且使目標緩速<c val=\"#TooltipNumbers\">30%</c>，持續<c val=\"#TooltipNumbers\">2</c>秒。冰霜法師的存在時間為<c val=\"#TooltipNumbers\">15</c>秒。",
+      "name": "骷髏法師",
+      "shortText": "召喚冰霜法師，對敵人造成傷害並且使其緩速"
+    },
+    "NecromancerPoisonNovaInstant|NecromancerPoisonNova|Heroic": {
+      "cooldownText": "冷卻時間：90秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：100點</s>",
+      "fullText": "延遲<c val=\"#TooltipNumbers\">0.5</c>秒後，放出帶有劇毒的攻擊，在<c val=\"#TooltipNumbers\">10</c>秒內對所有命中的敵人造成<c val=\"#TooltipNumbers\">630</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。",
+      "name": "劇毒新星",
+      "shortText": "使大範圍內的敵人身中劇毒"
+    },
+    "NecromancerRaiseSkeletonDisplayAbility|NecromancerRaiseSkeleton|Trait": {
+      "fullText": "附近的敵方小兵死亡後，會轉化為骷髏戰士。骷髏戰士有 <c val=\"#TooltipNumbers\">240</c><c val=\"#ColorGray\">~~0.04~~</c> 點生命值，攻擊可造成 <c val=\"#TooltipNumbers\">21</c><c val=\"#ColorGray\">~~0.04~~</c> 點傷害，存在時間為 <c val=\"#TooltipNumbers\">12</c> 秒。骷髏戰士死亡時，會對附近敵人造成 <c val=\"#TooltipNumbers\">40</c><c val=\"#ColorGray\">~~0.04~~</c> 點傷害。最多可同時存在 <c val=\"#TooltipNumbers\">3</c> 個以此方式產生的骷髏戰士。",
+      "name": "骷髏復甦",
+      "shortText": "將小兵復甦為骷髏戰士"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "冷卻時間：4秒",
+      "fullText": "引導<c val=\"#TooltipNumbers\">1</c>秒後，提高<s val=\"StandardTooltipDetails\">30%</s>移動速度。",
+      "name": "召喚坐騎"
+    },
+    "NecromancerBoneArmor|NecromancerBoneArmor|Active": {
+      "cooldownText": "冷卻時間：30秒",
+      "fullText": "啟動後，獲得相當於蘇爾最大生命值<c val=\"#TooltipNumbers\">25%</c>的護盾，持續<c val=\"#TooltipNumbers\">3</c>秒。",
+      "name": "骸骨護甲",
+      "shortText": "啟動後獲得護盾"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "引導<c val=\"#TooltipNumbers\">6</c>秒後傳送回風暴祭壇，立即恢復<c val=\"#TooltipNumbers\">1125</c>點生命值和<c val=\"#TooltipNumbers\">150</c>點法力值。",
+      "name": "爐石"
+    },
+    ":PASSIVE:|NecromancerCursedStrikesPassive|W": {
+      "fullText": "蘇爾的基本攻擊會造成大範圍傷害，並且使敵方英雄與召喚單位的攻擊速度降低<c val=\"#TooltipNumbers\">40%</c>，持續<c val=\"#TooltipNumbers\">2</c>秒。啟動後，效果可持續<c val=\"#TooltipNumbers\">4</c>秒。",
+      "name": "咒滅之擊",
+      "shortText": "基本攻擊可造成範圍傷害，並降低敵人的攻擊速度"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "離開坐騎。",
+      "name": "離開坐騎"
+    },
+    "NecromancerBoneArmor|NecromancerBoneArmorAbilBacklash|Active": {
+      "cooldownText": "冷卻時間：30秒",
+      "fullText": "啟動後，獲得相當於蘇爾最大生命值<c val=\"#TooltipNumbers\">25%</c>的護盾，持續<c val=\"#TooltipNumbers\">3</c>秒。",
+      "name": "骸骨護甲",
+      "shortText": "啟動後獲得護盾"
+    },
+    "NecromancerBoneArmor|NecromancerBoneArmorAbilShackler|Active": {
+      "cooldownText": "冷卻時間：30秒",
+      "fullText": "啟動後，獲得相當於蘇爾最大生命值<c val=\"#TooltipNumbers\">25%</c>的護盾，持續<c val=\"#TooltipNumbers\">3</c>秒。",
+      "name": "骸骨護甲",
+      "shortText": "啟動後獲得護盾"
+    },
+    "NecromancerBoneSpear|NecromancerBoneSpear|Active": {
+      "cooldownText": "冷卻時間：12秒",
+      "fullText": "對直線路徑上的敵人造成<c val=\"#TooltipNumbers\">230</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。",
+      "name": "骨矛",
+      "shortText": "對直線路徑上的敵人造成傷害"
+    }
+  },
+  "talents": {
+    "NecromancerTalentBoneArmorBacklash|NecromancerBoneArmorBacklash|Passive|Level1": {
+      "fullText": "骸骨護甲的持續時間結束時，對附近敵方英雄造成相當於其最大生命值<c val=\"#TooltipNumbers\">12%</c>的傷害。",
+      "name": "骸骨反噬",
+      "shortText": "骸骨護甲可爆炸並且造成傷害"
+    },
+    "NecromancerTalentBoneArmorShackler|NecromancerBoneArmorShackler|Passive|Level1": {
+      "fullText": "在骸骨護甲的作用期間內，使附近敵人緩速<c val=\"#TooltipNumbers\">35%</c>，持續<c val=\"#TooltipNumbers\">1</c>秒。以基本攻擊命中受到緩速、定身或昏迷的英雄時，可使骸骨護甲的冷卻時間降低<c val=\"#TooltipNumbers\">2</c>秒。",
+      "name": "骸骨縛體",
+      "shortText": "骸骨護甲可使敵人緩速，並且可降低冷卻時間"
+    },
+    "NecromancerTalentBoneArmorShade|NecromancerBoneArmorShade|Passive|Level1": {
+      "fullText": "在骸骨護甲的作用期間內，蘇爾能閃避所有基本攻擊，但骸骨護甲的冷卻時間提高<c val=\"#TooltipNumbers\">10</c>秒。",
+      "name": "幽影之軀",
+      "shortText": "骸骨護甲可讓你閃避基本攻擊"
+    },
+    "NecromancerTalentReapersToll|NecromancerReapersTollTalent|Q|Level4": {
+      "fullText": "亡靈之鐮的冷卻時間降低<c val=\"#TooltipNumbers\">2</c>秒，法力消耗降低<c val=\"#TooltipNumbers\">15</c>點。 ",
+      "name": "收割亡魂",
+      "shortText": "降低亡靈之鐮的冷卻時間和法力消耗"
+    },
+    "NecromancerTalentGrimScythe|NecromancerCursedStrikesGrimScythe|W|Level4": {
+      "fullText": "蘇爾的基本攻擊傷害提高 <c val=\"#TooltipNumbers\">15%</c>。咒滅之擊每擊中一個敵人，可使其冷卻時間降低 <c val=\"#TooltipNumbers\">1</c> 秒，最多可降低 <c val=\"#TooltipNumbers\">12</c> 秒。",
+      "name": "死亡鐮刀",
+      "shortText": "降低咒滅之擊冷卻時間"
+    },
+    "NecromancerTalentJailors|NecromancerJailors|Trait|Level4": {
+      "fullText": "骨牢可產生 <c val=\"#TooltipNumbers\">2</c> 名骷髏戰士，這些骷髏戰士不會計入蘇爾的骷髏復甦數量上限。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任務：</c>產生 <c val=\"#TooltipNumbers\">80</c> 名骷髏戰士。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">獎勵：</c>骷髏戰士追擊敵人時，移動速度和攻擊速度提高 <c val=\"#TooltipNumbers\">25%</c>。",
+      "name": "骷髏獄卒",
+      "shortText": "<c val=\"#TooltipQuest\">任務：</c>骨牢可產生骷髏戰士"
+    },
+    "NecromancerTalentHarvestVitality|NecromancerHarvestVitality|W|Level7": {
+      "fullText": "咒滅之擊對英雄造成的<c val=\"#TooltipNumbers\">70%</c>傷害值會轉而治療蘇爾。",
+      "name": "精魂刈取",
+      "shortText": "咒滅之擊命中英雄可治療蘇爾"
+    },
+    "NecromancerTalentTragOulsEssence|NecromancerTragOulsEssence|Trait|Level7": {
+      "fullText": "骷髏戰士擊中敵人時，可為蘇爾恢復最大生命值的<c val=\"#TooltipNumbers\">0.5%</c>與最大法力值的<c val=\"#TooltipNumbers\">0.2%</c>。",
+      "name": "塔格奧的元髓",
+      "shortText": "骷髏戰士的攻擊可為蘇爾恢復生命值與法力值"
+    },
+    "NecromancerBoneArmorWallOfBonesTalent|NecromancerWallOfBonesBoneArmorTalent|Passive|Level7": {
+      "fullText": "骸骨護甲的護盾值提高至蘇爾大生命值的<c val=\"#TooltipNumbers\">35%</c>，並且在效果期間內，使蘇爾獲得<c val=\"#TooltipNumbers\">20</c>點法術護甲。",
+      "name": "骸骨之牆",
+      "shortText": "提高骸骨護甲的護盾值"
+    },
+    "NecromancerHeroicAbilityPoisonNova|NecromancerPoisonNovaTalent|Heroic|Level10": {
+      "cooldownText": "冷卻時間：90秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：100點</s>",
+      "fullText": "延遲<c val=\"#TooltipNumbers\">0.5</c>秒後，放出帶有劇毒的攻擊，在<c val=\"#TooltipNumbers\">10</c>秒內對所有命中的敵人造成<c val=\"#TooltipNumbers\">630</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。",
+      "name": "劇毒新星",
+      "shortText": "使附近敵人身中劇毒"
+    },
+    "NecromancerHeroicAbilitySkeletalMages|NecromancerSkeletalMages|Heroic|Level10": {
+      "cooldownText": "冷卻時間：90秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：80點</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">方位指定技能</c><n/>召喚出<c val=\"#TooltipNumbers\">4</c>個排成一列的冰霜法師攻擊附近的敵人，每秒可造成<c val=\"#TooltipNumbers\">47</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害並且使目標緩速<c val=\"#TooltipNumbers\">30%</c>，持續<c val=\"#TooltipNumbers\">2</c>秒。冰霜法師的存在時間為<c val=\"#TooltipNumbers\">15</c>秒。",
+      "name": "骷髏法師",
+      "shortText": "召喚冰霜法師，對敵人造成傷害並且使其緩速"
+    },
+    "NecromancerTalentEchoesOfDeath|NecromancerEchoesOfDeathTalent|Q|Level13": {
+      "fullText": "延遲<c val=\"#TooltipNumbers\">1.5</c>秒後，第一把亡靈之鐮旁會額外產生<c val=\"#TooltipNumbers\">2</c>把亡靈之鐮，造成<c val=\"#TooltipNumbers\">40%</c>傷害。",
+      "name": "迴盪亡鐮",
+      "shortText": "產生額外的亡靈之鐮"
+    },
+    "NecromancerTalentRapidHarvest|NecromancerCursedStrikesRapidHarvest|W|Level13": {
+      "fullText": "咒滅之擊命中敵人時，蘇爾可提高<c val=\"#TooltipNumbers\">5%</c>攻擊速度，持續<c val=\"#TooltipNumbers\">3</c>秒，最多可提高<c val=\"#TooltipNumbers\">75%</c>。",
+      "name": "迅刃收割",
+      "shortText": "咒滅之擊可提高攻擊速度"
+    },
+    "NecromancerTalentAmplifyDamage|NecromancerAmplifyDamage|E|Level13": {
+      "fullText": "骨牢的定身持續時間提高 <c val=\"#TooltipNumbers\">0.25</c> 秒。被骨牢定身的敵人會降低 <c val=\"#TooltipNumbers\">25</c> 點護甲，持續 <c val=\"#TooltipNumbers\">2</c> 秒。",
+      "name": "傷害增幅",
+      "shortText": "骨牢可降低護甲"
+    },
+    "NecromancerTalentDecrepify|NecromancerDecrepifyTalent|Q|Level16": {
+      "fullText": "以亡靈之鐮或骷髏戰士對敵方英雄造成傷害時，會使其緩速<c val=\"#TooltipNumbers\">30%</c>，持續<c val=\"#TooltipNumbers\">2.5</c>。",
+      "name": "衰弱腐朽",
+      "shortText": "亡靈之鐮和骷髏戰士可使敵方英雄緩速"
+    },
+    "NecromancerTalentWeaken|NecromancerWeaken|W|Level16": {
+      "fullText": "以咒滅之擊或骷髏戰士對敵方英雄造成傷害時，會使其造成的傷害降低<c val=\"#TooltipNumbers\">35%</c>，持續<c val=\"#TooltipNumbers\">3</c>秒。",
+      "name": "咒弱之身",
+      "shortText": "咒滅之擊和骷髏戰士可降低敵方英雄造成的傷害"
+    },
+    "NecromancerTalentBoneSpear|NecromancerBoneSpear|Active|Level16": {
+      "cooldownText": "冷卻時間：12秒",
+      "fullText": "對直線路徑上的敵人造成<c val=\"#TooltipNumbers\">230</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。",
+      "name": "骨矛",
+      "shortText": "對直線路徑上的敵人造成傷害"
+    },
+    "NecromancerTalentAndarielsVisage|NecromancerAndarielsVisage|Heroic|Level20": {
+      "fullText": "劇毒新星會恢復相當於傷害值<c val=\"#TooltipNumbers\">50%</c>的生命值，持續時間提高<c val=\"#TooltipNumbers\">50%</c>。",
+      "name": "安達莉爾的面貌",
+      "shortText": "提高劇毒新星的持續時間，並且恢復生命值"
+    },
+    "NecromancerTalentColdHandOfDeath|NecromancerColdHandOfDeath|Heroic|Level20": {
+      "fullText": "冰霜法師的緩速效果提高 <c val=\"#TooltipNumbers\">20%</c>。<n/><n/>亡靈之鐮每命中敵方英雄 <c val=\"#TooltipNumbers\">5 次</c>會在目標位置產生一個冰霜法師，而不是骷髏戰士。",
+      "name": "死亡寒爪",
+      "shortText": "亡靈之鐮會產生骷髏法師"
+    },
+    "NecromancerTalentMortalWound|NecromancerMortalWound|Q|Level20": {
+      "fullText": "亡靈之鐮可使敵方英雄受到的治療效果降低<c val=\"#TooltipNumbers\">75%</c> ，持續<c val=\"#TooltipNumbers\">4</c>秒。",
+      "name": "致命重創",
+      "shortText": "亡靈之鐮可降低敵人所受到的治療效果"
+    },
+    "NecromancerTalentKalansEdict|NecromancerTalentKalansEdict|Trait|Level20": {
+      "fullText": "每次骷髏戰士造成傷害，可使骸骨護甲和蘇爾的英雄絕技冷卻時間降低<c val=\"#TooltipNumbers\">1.5%</c>。",
+      "name": "卡蘭之令",
+      "shortText": "骷髏戰士可降低英雄絕技冷卻時間"
+    }
+  },
+  "units": {
+    "NecromancerRaiseSkeleton": {
+      "description": "附近的敵方小兵死亡後，會轉化為骷髏戰士。骷髏戰士有 <c val=\"#TooltipNumbers\">240</c><c val=\"#ColorGray\">~~0.04~~</c> 點生命值，攻擊可造成 <c val=\"#TooltipNumbers\">21</c><c val=\"#ColorGray\">~~0.04~~</c> 點傷害，存在時間為 <c val=\"#TooltipNumbers\">12</c> 秒。骷髏戰士死亡時，會對附近敵人造成 <c val=\"#TooltipNumbers\">40</c><c val=\"#ColorGray\">~~0.04~~</c> 點傷害。最多可同時存在 <c val=\"#TooltipNumbers\">3</c> 個以此方式產生的骷髏戰士。",
+      "name": "骷髏復甦"
+    },
+    "NecromancerRaiseSkeletonBonePrisonTalentJailor": {
+      "description": "附近的敵方小兵死亡後，會轉化為你的骷髏戰士。骷髏戰士的攻擊可造成 <c val=\"#TooltipNumbers\">21</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，存在時間為<c val=\"#TooltipNumbers\">12</c>秒。最多可同時存在<c val=\"#TooltipNumbers\">4</c>個骷髏戰士。",
+      "name": "骷髏復甦（骨牢天賦骷髏獄卒）"
+    },
+    "NecromancerSkeletalMage": {
+      "name": "骷髏法師"
+    }
+  }
+}

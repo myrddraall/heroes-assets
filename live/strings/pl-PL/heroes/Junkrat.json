@@ -1,0 +1,220 @@
+{
+  "abilities": {
+    "JunkratFragLauncher|JunkratFragLauncher|Q": {
+      "cooldownText": "Czas odnowienia ładunku: 12 sek.",
+      "fullText": "Złomiarz wystrzeliwuje granat, który eksploduje po przebyciu całej odległości lub po trafieniu przeciwnika i zadaje pobliskim wrogom <c val=\"#TooltipNumbers\">124</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń. Granaty mogą się odbijać od przeszkód na mapie. Zadaje budowlom obrażenia zmniejszone o <c val=\"#TooltipNumbers\">50%</c>.<n/><n/>Maksymalna liczba ładunków: <c val=\"#TooltipNumbers\">4</c>. Wraz z upływem czasu odnowienia Złomiarz odzyskuje jednocześnie wszystkie ładunki.",
+      "name": "Granatnik",
+      "shortText": "Wystrzeliwuje odbijający się granat"
+    },
+    "JunkratConcussionMine|JunkratConcussionMine|W": {
+      "cooldownText": "Czas odnowienia: 16 sek.",
+      "fullText": "Złomiarz umieszcza na ziemi minę. Może aktywować swoją cechę, aby zdetonować minę i zadać pobliskim przeciwnikom <c val=\"#TooltipNumbers\">180</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń oraz odrzucić ich. Złomiarz również może zostać odrzucony przy pomocy Miny Ogłuszającej, ale nie odnosi wówczas obrażeń.<n/><n/>Maksymalna liczba aktywnych min: <c val=\"#TooltipNumbers\">1</c>.",
+      "name": "Mina Ogłuszająca",
+      "shortText": "Umieszcza minę, która może zostać zdetonowana"
+    },
+    "JunkratSteelTrap|JunkratSteelTrap|E": {
+      "cooldownText": "Czas odnowienia: 15 sek.",
+      "fullText": "Złomiarz umieszcza na ziemi pułapkę, która uzbraja się po upływie <c val=\"#TooltipNumbers\">2</c> sek. Zadaje pierwszemu przeciwnikowi, który po niej przejdzie, <c val=\"#TooltipNumbers\">130</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń i unieruchamia go na <c val=\"#TooltipNumbers\">2</c> sek.<n/><n/>Maksymalna liczba aktywnych pułapek: <c val=\"#TooltipNumbers\">1</c>.",
+      "name": "Potrzask",
+      "shortText": "Umieszcza Potrzask, który unieruchamia przeciwników"
+    },
+    "JunkratRIPTire|JunkratRIPTire|Heroic": {
+      "cooldownText": "Czas odnowienia: 75 sek.",
+      "fullText": "Tworzy mobilną bombę-oponę, która posiada <c val=\"#TooltipNumbers\">530</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. zdrowia i utrzymuje się przez <c val=\"#TooltipNumbers\">15</c> sek. W czasie działania zdolności Złomiarz musi pozostawać w bezruchu, ale przejmuje kontrolę nad przemieszczającą się Mord-Oponą.<n/><n/>Można aktywować ponownie Mord-Oponę, aby ją natychmiast zdetonować i odrzucić pobliskich przeciwników oraz zadać <c val=\"#TooltipNumbers\">720</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń wrogom znajdującym się w pobliżu centrum wybuchu. Obrażenia stopniowo maleją wraz z odległością, a ich wartość na granicy pola rażenia wynosi <c val=\"#TooltipNumbers\">445</c><c val=\"#ColorGray\">~~0.04~~</c> pkt.",
+      "name": "Mord-Opona",
+      "shortText": "Tworzy ruchomą bombę, która wybucha"
+    },
+    "JunkratRocketRide|JunkratRocketRide|Heroic": {
+      "cooldownText": "Czas odnowienia: 75 sek.",
+      "fullText": "Po upływie <c val=\"#TooltipNumbers\">1.25</c> sek. Złomiarz wyskakuje wysoko w powietrze. W czasie lotu może poruszać się, aby wpływać na miejsce lądowania.<n/><n/>Po upływie <c val=\"#TooltipNumbers\">3.75</c> sek. Złomiarz ląduje i zadaje pobliskim przeciwnikom <c val=\"#TooltipNumbers\">935</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń oraz aktywuje Totalną Masakrę. <c val=\"#TooltipNumbers\">5</c> sek. po wylądowaniu Złomiarz odradza się przy Dworze Burz i zyskuje premię <c val=\"#TooltipNumbers\">150%</c> do szybkości ruchu aż do czasu opuszczenia wierzchowca.",
+      "name": "Rakietowiec",
+      "shortText": "Złomiarz wylatuje wysoko, a lądując zadaje obrażenia"
+    },
+    ":PASSIVE:|JunkratTotalMayhem|Trait": {
+      "fullText": "W chwili śmierci Złomiarz upuszcza granaty (<c val=\"#TooltipNumbers\">5</c>), które wybuchają po upływie <c val=\"#TooltipNumbers\">0.75</c> sek. Każdy z nich zadaje pobliskim przeciwnikom <c val=\"#TooltipNumbers\">250</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń. Zadaje budowlom obrażenia zmniejszone o <c val=\"#TooltipNumbers\">75%</c>.<n/><n/><s val=\"StandardTooltipHeader\">Zdetonuj Minę</s><n/><n/>Złomiarz detonuje aktywną Minę Ogłuszającą.",
+      "name": "Totalna Masakra",
+      "shortText": "Kiedy Złomiarz ginie, upuszcza granaty"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Czas odnowienia: 4 sek.",
+      "fullText": "Po podtrzymywaniu przez <c val=\"#TooltipNumbers\">1</c> sek. zyskujesz premię <s val=\"StandardTooltipDetails\">30%</s> do szybkości ruchu.",
+      "name": "Przyzwanie Wierzchowca"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Po podtrzymywaniu przez <c val=\"#TooltipNumbers\">6</c> sek. teleportuje bohatera z powrotem do Dworu Burz i przywraca mu natychmiast <c val=\"#TooltipNumbers\">1125</c> pkt. zdrowia oraz <c val=\"#TooltipNumbers\">150</c> pkt. many.",
+      "name": "Kamień Powrotu"
+    },
+    "JunkratDetonateMine|JunkratDetonateMine|Trait": {
+      "fullText": "Złomiarz detonuje podłożoną Minę Ogłuszającą i zadaje pobliskim przeciwnikom <c val=\"#TooltipNumbers\">180</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń oraz odrzuca ich. Złomiarz również może zostać odrzucony przy pomocy Miny Ogłuszającej, ale nie odnosi wówczas obrażeń.",
+      "name": "Zdetonuj Minę",
+      "shortText": "Detonuje Minę Ogłuszającą"
+    },
+    "JunkratRIPTireJump|JunkratRIPTireJump|Q": {
+      "cooldownText": "Czas odnowienia: 2 sek.",
+      "fullText": "Aktywuj, aby Mord-Opona podskoczyła. Można w ten sposób omijać elementy terenu, budowle i inne przeszkody.",
+      "name": "Skok!",
+      "shortText": "Skok!"
+    },
+    "JunkratDetonateRIPTire|JunkratDetonateRIPTire|Heroic": {
+      "fullText": "Złomiarz natychmiast detonuje Mord-Oponę, odrzucając pobliskich przeciwników i zadając <c val=\"#TooltipNumbers\">720</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń wrogom znajdującym się w pobliżu centrum wybuchu. Obrażenia maleją stopniowo wraz z odległością, a ich wartość na granicy pola rażenia wynosi <c val=\"#TooltipNumbers\">445</c><c val=\"#ColorGray\">~~0.04~~</c> pkt.",
+      "name": "Zdetonuj Mord-Oponę",
+      "shortText": "Natychmiast niszczy Mord-Oponę"
+    },
+    "JunkratRocketRideDismount|JunkratRocketRideUnsummonMount|Z": {
+      "fullText": "Opuszczasz wierzchowca.",
+      "name": "Odesłanie Wierzchowca"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Opuszczasz wierzchowca.",
+      "name": "Odesłanie Wierzchowca"
+    },
+    "JunkratTotalMayhemDirtyTrickster|JunkratDirtyTrickster|Trait": {
+      "cooldownText": "Czas odnowienia: 20 sek.",
+      "fullText": "Zwiększa pole rażenia Totalnej Masakry o <c val=\"#TooltipNumbers\">20%</c>. Gdy Złomiarz zostanie ogłuszony, unieruchomiony lub zraniony przez wrogiego bohatera, mając mniej niż <c val=\"#TooltipNumbers\">50%</c> zdrowia, użyje Totalnej Masakry i upuści u swych stóp granaty (<c val=\"#TooltipNumbers\">5</c>), które wybuchną. <n/><n/> Czas odnowienia tego efektu wynosi <c val=\"#TooltipNumbers\">20</c> sek.",
+      "name": "Parszywy Oszust",
+      "shortText": "Totalna Masakra aktywuje się częściej"
+    },
+    "JunkratSpreadVolley|JunkratSpreadVolleyActive|Active": {
+      "cooldownText": "Czas odnowienia: 30 sek.",
+      "fullText": "Aktywuj, aby Złomiarz wystrzelił z Granatnika <c val=\"#TooltipNumbers\">2</c> dodatkowe granaty na obszar w kształcie wachlarza. Efekt trwa przez <c val=\"#TooltipNumbers\">4</c> ładunki lub do wyczerpania ładunków Granatnika.",
+      "name": "Rozproszona Salwa"
+    },
+    "JunkratIHateWaitingSummonMount|JunkratRocketRideSummonMount|Z": {
+      "cooldownText": "Czas odnowienia: 8 sek.",
+      "fullText": "Po podtrzymywaniu przez <c val=\"#TooltipNumbers\">1</c> sek. zyskujesz premię <c val=\"#TooltipNumbers\">150%</c> do szybkości ruchu.",
+      "name": "Przyzwanie Wierzchowca"
+    }
+  },
+  "talents": {
+    "JunkratFragLauncherTrickyShuffles|JunkratTrickyShufflesFragLauncherTalent|Q|Level1": {
+      "fullText": "Kiedy wykorzystane zostają wszystkie ładunki Granatnika, Złomiarz zyskuje premię <c val=\"#TooltipNumbers\">10%</c> do szybkości ruchu, a jego ataki podstawowe zadają obrażenia zwiększone o  <c val=\"#TooltipNumbers\">15%</c>",
+      "name": "Zwinne Ręce",
+      "shortText": "Zwiększona szybkość ruchu podczas odnowienia Granatnika"
+    },
+    "JunkratFragLauncherExtraWoundTimers|JunkratExtraWoundTimersFragLauncherTalent|Q|Level1": {
+      "fullText": "Ostatni granat wystrzelony z Granatnika zadaje <c val=\"#TooltipNumbers\">100%</c> dodatkowych obrażeń. Granaty wystrzelone z Granatnika utrzymują się o <c val=\"#TooltipNumbers\">2</c> sek. dłużej, a następnie wybuchają automatycznie.",
+      "name": "Opóźniony Zapłon",
+      "shortText": "Granaty wystrzelone z Granatnika zadają dodatkowe obrażenia"
+    },
+    "JunkratConcussionMineBlowEmUp|JunkratBlowEmUpConcussionMineTalent|Passive|Level1": {
+      "fullText": "Trafienie wrogiego bohatera Miną Ogłuszającą lub Potrzaskiem sprawia, że ataki podstawowe i zdolności podstawowe Złomiarza zadają obrażenia zwiększone o <c val=\"#TooltipNumbers\">25%</c> przez <c val=\"#TooltipNumbers\">6</c> sek.",
+      "name": "Drobne Kawałeczki",
+      "shortText": "Mina Ogłuszająca i Potrzask zwiększają obrażenia"
+    },
+    "JunkratFragLauncherTasteForExplosions|JunkratTasteForExplosionsFragLauncherTalent|Q|Level4": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Zadanie:</c> Za każdego bohatera trafionego Granatnikiem zadawane przez niego obrażenia wzrastają o <c val=\"#TooltipNumbers\">0.2%</c>, maksymalnie do <c val=\"#TooltipNumbers\">40%</c>.",
+      "name": "Apetyt na Wybuchy",
+      "shortText": "<c val=\"#TooltipQuest\">Zadanie:</c> Zwiększ obrażenia Granatnika"
+    },
+    "JunkratConcussionMineBOOMPOW|JunkratBOOMPOWConcussionMineTalent|W|Level4": {
+      "fullText": "Trafienie wrogiego bohatera Miną Ogłuszającą skraca jej czas odnowienia o <c val=\"#TooltipNumbers\">10</c> sek.",
+      "name": "PIERDUT",
+      "shortText": "Trafianie bohaterów skraca czas odnowienia Miny Ogłuszającej"
+    },
+    "JunkratSteelTrapChatteringTeeth|JunkratChatteringTeethSteelTrapTalent|E|Level4": {
+      "fullText": "Potrzaski będą się powoli przemieszczać do pobliskich wrogich bohaterów.",
+      "name": "Zębata Paszczęka",
+      "shortText": "Potrzaski podążają za bohaterami"
+    },
+    "JunkratConcussionMineBoggedDown|JunkratBoggedDownConcussionMineTalent|W|Level7": {
+      "fullText": "Wrogowie wyrzuceni w powietrze przez Minę Ogłuszającą zostają po lądowaniu spowolnieni o <c val=\"#TooltipNumbers\">40%</c> na <c val=\"#TooltipNumbers\">2.5</c> sek.",
+      "name": "Grzęzawisko",
+      "shortText": "Mina Ogłuszająca spowalnia"
+    },
+    "JunkratSteelTrapStickyWicket|JunkratStickyWicketSteelTrapTalent|E|Level7": {
+      "fullText": "Wrodzy bohaterowie trafieni Potrzaskiem zostają wyciszeni na <c val=\"#TooltipNumbers\">2</c> sek.",
+      "name": "Niezła Wtopa",
+      "shortText": "Potrzask wycisza bohaterów"
+    },
+    "JunkratTotalMayhemDirtyTricksterTalent|JunkratDirtyTrickster|Trait|Level7": {
+      "fullText": "Zwiększa pole rażenia Totalnej Masakry o <c val=\"#TooltipNumbers\">20%</c>. Gdy Złomiarz zostanie ogłuszony, unieruchomiony lub zraniony przez wrogiego bohatera, mając mniej niż <c val=\"#TooltipNumbers\">50%</c> zdrowia, użyje Totalnej Masakry i upuści u swych stóp granaty (<c val=\"#TooltipNumbers\">5</c>), które wybuchną. <n/><n/> Czas odnowienia tego efektu wynosi <c val=\"#TooltipNumbers\">20</c> sek.",
+      "name": "Parszywy Oszust",
+      "shortText": "Totalna Masakra aktywuje się częściej"
+    },
+    "JunkratRIPTire|JunkratRIPTire|Heroic|Level10": {
+      "cooldownText": "Czas odnowienia: 75 sek.",
+      "fullText": "Tworzy mobilną bombę-oponę, która posiada <c val=\"#TooltipNumbers\">530</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. zdrowia i utrzymuje się przez <c val=\"#TooltipNumbers\">15</c> sek. W czasie działania zdolności Złomiarz musi pozostawać w bezruchu, ale przejmuje kontrolę nad przemieszczającą się Mord-Oponą.<n/><n/>Można aktywować ponownie Mord-Oponę, aby ją natychmiast zdetonować i odrzucić pobliskich przeciwników oraz zadać <c val=\"#TooltipNumbers\">720</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń wrogom znajdującym się w pobliżu centrum wybuchu. Obrażenia stopniowo maleją wraz z odległością, a ich wartość na granicy pola rażenia wynosi <c val=\"#TooltipNumbers\">445</c><c val=\"#ColorGray\">~~0.04~~</c> pkt.",
+      "name": "Mord-Opona",
+      "shortText": "Tworzy ruchomą bombę, która wybucha"
+    },
+    "JunkratRocketRide|JunkratRocketRide|Heroic|Level10": {
+      "cooldownText": "Czas odnowienia: 75 sek.",
+      "fullText": "Po upływie <c val=\"#TooltipNumbers\">1.25</c> sek. Złomiarz wyskakuje wysoko w powietrze. W czasie lotu może poruszać się, aby wpływać na miejsce lądowania.<n/><n/>Po upływie <c val=\"#TooltipNumbers\">3.75</c> sek. Złomiarz ląduje i zadaje pobliskim przeciwnikom <c val=\"#TooltipNumbers\">935</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń oraz aktywuje Totalną Masakrę. <c val=\"#TooltipNumbers\">5</c> sek. po wylądowaniu Złomiarz odradza się przy Dworze Burz i zyskuje premię <c val=\"#TooltipNumbers\">150%</c> do szybkości ruchu aż do czasu opuszczenia wierzchowca.",
+      "name": "Rakietowiec",
+      "shortText": "Złomiarz wylatuje wysoko, a lądując zadaje obrażenia"
+    },
+    "JunkratFragLauncherBombsAwayTalent|JunkratBombsAwayFragLauncherTalent|Q|Level13": {
+      "fullText": "Zwiększa zasięg ataków podstawowych Złomiarza o <c val=\"#TooltipNumbers\">1</c>. Granaty wystrzelone z Granatnika w ciągu <c val=\"#TooltipNumbers\">0.5</c> sek. po użyciu ataku podstawowego zadają obrażenia zwiększone o <c val=\"#TooltipNumbers\">30%</c>.",
+      "name": "Uwaga, bomby!",
+      "shortText": "Zwiększa zasięg i obrażenia ataków podstawowych"
+    },
+    "JunkratConcussionMineRipperAir|JunkratRipperAirConcussionMineTalent|W|Level13": {
+      "fullText": "Mina Ogłuszająca odrzuca Złomiarza o <c val=\"#TooltipNumbers\">50%</c> dalej, a jej czas odnowienia zostaje skrócony o <c val=\"#TooltipNumbers\">12</c> sek. jeśli tylko on zostanie trafiony.",
+      "name": "Wybuchowy Odrzut",
+      "shortText": "Mina Ogłuszająca odrzuca Złomiarza na większą odległość"
+    },
+    "JunkratSteelTrapGottaTrapEmAll|JunkratGottaTrapEmAllSteelTrapTalent|E|Level13": {
+      "fullText": "Czas odnowienia Potrzasku spada o <c val=\"#TooltipNumbers\">5</c> sek., a maksymalna liczba aktywnych Potrzasków wzrasta do <c val=\"#TooltipNumbers\">2</c>.",
+      "name": "Złap Ich Wszystkich!",
+      "shortText": "Zwiększa liczbę Potrzasków"
+    },
+    "JunkratSteelTrapBigAs|JunkratBigAsSteelTrapTalent|E|Level13": {
+      "fullText": "Potrzask działa teraz wyłącznie na bohaterów. Pancerz trafionych bohaterów zostaje zmniejszony o <c val=\"#TooltipNumbers\">15</c> pkt. na <c val=\"#TooltipNumbers\">3</c> sek. Pole rażenia i obrażenia od Potrzasku wzrastają o <c val=\"#TooltipNumbers\">50%</c>.",
+      "name": "Wielgachny Potrzask",
+      "shortText": "Potrzaski obierają za cele bohaterów"
+    },
+    "JunkratFragLauncherBurstFire|JunkratBurstFireFragLauncherTalent|Q|Level16": {
+      "fullText": "Granatnik wystrzeliwuje wszystkie ładunki w postaci pojedynczej, ciągłej salwy, a jego czas odnowienia zostaje skrócony o <c val=\"#TooltipNumbers\">6</c> sek. Maksymalna liczba ładunków Granatnika zostaje zmniejszona o <c val=\"#TooltipNumbers\">1</c>.",
+      "name": "Ogień Seryjny",
+      "shortText": "Wystrzeliwuje serię pocisków z Granatnika"
+    },
+    "JunkratFragLauncherEndlessNades|JunkratEndlessNadesFragLauncherTalent|Q|Level16": {
+      "fullText": "Trafienie wrogiego bohatera Granatnikiem skraca jego czas odnowienia o <c val=\"#TooltipNumbers\">1.5</c> sek.",
+      "name": "Wszędzie Granaty!",
+      "shortText": "Trafianie bohaterów skraca czas odnowienia Granatnika"
+    },
+    "JunkratFragLauncherSpreadVolley|JunkratSpreadVolleyFragLauncherTalent|Active|Level16": {
+      "cooldownText": "Czas odnowienia: 30 sek.",
+      "fullText": "Aktywuj, aby Złomiarz wystrzelił z Granatnika <c val=\"#TooltipNumbers\">2</c> dodatkowe granaty na obszar w kształcie wachlarza. Efekt trwa przez <c val=\"#TooltipNumbers\">4</c> ładunki lub do wyczerpania ładunków Granatnika.",
+      "name": "Rozproszona Salwa",
+      "shortText": "Aktywuj, aby Granatnik wystrzeliwał wachlarz pocisków"
+    },
+    "JunkratRIPTireExtraOomph|JunkratExtraOomphRIPTireTalent|Heroic|Level20": {
+      "fullText": "Zwiększa odległość odrzucenia od Mord-Opony o <c val=\"#TooltipNumbers\">80%</c> i skraca jej czas odnowienia o <c val=\"#TooltipNumbers\">25</c> sek. za każdego trafionego wrogiego bohatera.",
+      "name": "Rozpierducha Musi Być",
+      "shortText": "Zwiększa odrzucenie Mord-Opony i skraca czas odnowienia"
+    },
+    "JunkratRocketRidePuckishScamp|JunkratPuckishScampRocketRideTalent|Heroic|Level20": {
+      "fullText": "Złomiarz zyskuje również zdolność Mord-Opona. Za każdym razem, gdy użyje swojej zdolności bohaterskiej, zamienia się ona ze zdolnością alternatywną.<n/><n/><c val=\"#AbilityPassive\">Działanie pasywne:</c> Skraca czasy odnowienia obu zdolności bohaterskich o <c val=\"#TooltipNumbers\">20</c> sek.",
+      "name": "Uroczy Hultaj",
+      "shortText": "Zyskujesz dodatkowo Mord-Oponę"
+    },
+    "JunkratFragLauncherCannonball|JunkratCannonballFragLauncherTalent|Q|Level20": {
+      "fullText": "Powiększa pole rażenia granatów wystrzelonych za pomocą ataków podstawowych oraz Granatnika o <c val=\"#TooltipNumbers\">50%</c>.",
+      "name": "Na Bombę!",
+      "shortText": "Zwiększa pole rażenia ataków podstawowych i Granatnika"
+    },
+    "JunkratIHateWaitingTalent|JunkratIHateWaiting|Z|Level20": {
+      "fullText": "Złomiarz stale przemieszcza się Rakietowcem. Szybkość ruchu bohatera jest zwiększona o  <c val=\"#TooltipNumbers\">150%</c>, ale czas odnowienia wierzchowca wzrasta do <c val=\"#TooltipNumbers\">8</c> sek.",
+      "name": "Nie Znoszę Czekania!",
+      "shortText": "Wskakuj na Rakietowca!"
+    }
+  },
+  "units": {
+    "JunkratConcussionMine": {
+      "description": "Złomiarz umieszcza na ziemi minę. Może aktywować swoją cechę, aby zdetonować minę i zadać pobliskim przeciwnikom <c val=\"#TooltipNumbers\">180</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń oraz odrzucić ich. Złomiarz również może zostać odrzucony przy pomocy Miny Ogłuszającej, ale nie odnosi wówczas obrażeń.<n/><n/>Maksymalna liczba aktywnych min: <c val=\"#TooltipNumbers\">1</c>.",
+      "name": "Mina Ogłuszająca"
+    },
+    "JunkratRIPTire": {
+      "description": "Tworzy mobilną bombę-oponę, która posiada <c val=\"#TooltipNumbers\">530</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. zdrowia i utrzymuje się przez <c val=\"#TooltipNumbers\">15</c> sek. W czasie działania zdolności Złomiarz musi pozostawać w bezruchu, ale przejmuje kontrolę nad przemieszczającą się Mord-Oponą.<n/><n/>Można aktywować ponownie Mord-Oponę, aby ją natychmiast zdetonować i odrzucić pobliskich przeciwników oraz zadać <c val=\"#TooltipNumbers\">720</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń wrogom znajdującym się w pobliżu centrum wybuchu. Obrażenia stopniowo maleją wraz z odległością, a ich wartość na granicy pola rażenia wynosi <c val=\"#TooltipNumbers\">445</c><c val=\"#ColorGray\">~~0.04~~</c> pkt.",
+      "name": "Mord-Opona"
+    },
+    "JunkratRocketRideTrackerUnit": {
+      "name": "Rakietowiec (Jednostka śledząca)"
+    },
+    "JunkratSteelTrap": {
+      "description": "Złomiarz umieszcza na ziemi pułapkę, która uzbraja się po upływie <c val=\"#TooltipNumbers\">2</c> sek. Zadaje pierwszemu przeciwnikowi, który po niej przejdzie, <c val=\"#TooltipNumbers\">130</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń i unieruchamia go na <c val=\"#TooltipNumbers\">2</c> sek.<n/><n/>Maksymalna liczba aktywnych pułapek: <c val=\"#TooltipNumbers\">1</c>.",
+      "name": "Potrzask"
+    }
+  }
+}

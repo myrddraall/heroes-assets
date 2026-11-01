@@ -1,0 +1,645 @@
+{
+  "id": "Kaelthas",
+  "unitId": "HeroKaelthas",
+  "hyperlinkId": "Kaelthas",
+  "attributeId": "Kael",
+  "franchise": "Warcraft",
+  "rarity": "Epic",
+  "releaseDate": "2015-05-12",
+  "isMelee": false,
+  "gender": "Male",
+  "radius": 0.8125,
+  "innerRadius": 0.8125,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 7,
+    "damage": 9,
+    "survivability": 3,
+    "utility": 5
+  },
+  "life": {
+    "amount": 1595,
+    "scale": 0.04,
+    "regenRate": 3.3164,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "EnergyImportant",
+    "Ganker",
+    "RoleCaster",
+    "TowerPusher",
+    "WaveClearer"
+  ],
+  "summonedUnitIds": [
+    "KaelthasPhoenix"
+  ],
+  "weapons": [
+    {
+      "nameId": "KaelthasHeroWeapon",
+      "isDisabled": false,
+      "range": 5.5,
+      "minimumRange": 0,
+      "period": 0.9,
+      "damage": 65,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "KaelthasLunar",
+    "KaelthasRobot",
+    "KaelthasSuper",
+    "KaelthasUltimate",
+    "StormPunkKaelthas"
+  ],
+  "variationSkinIds": [
+    "KaelthasSilver",
+    "KaelthasVar3",
+    "KaelthasWhite"
+  ],
+  "voiceLineIds": [
+    "KaelthasBase_VoiceLine01",
+    "KaelthasBase_VoiceLine02",
+    "KaelthasBase_VoiceLine03",
+    "KaelthasBase_VoiceLine04",
+    "KaelthasBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "KaelthasFlamestrike|KaelthasFlamestrike|Q",
+        "abilityId": "KaelthasFlamestrike",
+        "buttonId": "KaelthasFlamestrike",
+        "icon": "storm_ui_icon_kaelthas_flamestrike.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "KaelthasLivingBomb|KaelthasLivingBomb|W",
+        "abilityId": "KaelthasLivingBomb",
+        "buttonId": "KaelthasLivingBomb",
+        "icon": "storm_ui_icon_kaelthas_livingbomb.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "KaelthasGravityLapse|KaelthasGravityLapse|E",
+        "abilityId": "KaelthasGravityLapse",
+        "buttonId": "KaelthasGravityLapse",
+        "icon": "storm_ui_icon_kaelthas_gravitylapse.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "KaelthasPyroblast|KaelthasPyroblast|Heroic",
+        "abilityId": "KaelthasPyroblast",
+        "buttonId": "KaelthasPyroblast",
+        "icon": "storm_ui_icon_kaelthas_pyroblast.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "KaelthasPhoenix|KaelthasPhoenix|Heroic",
+        "abilityId": "KaelthasPhoenix",
+        "buttonId": "KaelthasPhoenix",
+        "icon": "storm_ui_icon_kaelthas_phoenix.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": "KaelthasVerdantSpheres|KaelthasVerdantSpheres|Trait",
+        "abilityId": "KaelthasVerdantSpheres",
+        "buttonId": "KaelthasVerdantSpheres",
+        "icon": "storm_ui_icon_kaelthas_verdantspheres.png",
+        "charges": {
+          "countMax": 1,
+          "countStart": 1,
+          "isCountHidden": true
+        },
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "KaelthasPhoenix|KaelthasPhoenix|Heroic": {
+      "Heroic": [
+        {
+          "linkId": "KaelthasPhoenixRetargetPhoenixAbility|KaelthasPhoenixRetarget|Heroic",
+          "abilityId": "KaelthasPhoenixRetargetPhoenixAbility",
+          "buttonId": "KaelthasPhoenixRetarget",
+          "icon": "storm_ui_icon_kaelthas_phoenix_retarget.png",
+          "charges": {
+            "countMax": 3,
+            "countStart": 3,
+            "countUse": 1,
+            "recastCooldown": 1,
+            "isCountHidden": false
+          },
+          "abilityType": "Heroic"
+        }
+      ]
+    },
+    "KaelthasVerdantSpheres|KaelthasVerdantSpheres|Trait": {
+      "Trait": [
+        {
+          "linkId": ":PASSIVE:|KaelthasVerdantSpheresActive|Trait",
+          "abilityId": ":PASSIVE:",
+          "buttonId": "KaelthasVerdantSpheresActive",
+          "icon": "storm_ui_icon_kaelthas_verdantspheres_2.png",
+          "abilityType": "Trait"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "KaelthasManaAddict|KaelthasManaAddictTalent|Passive|Level1": {
+      "Activable": [
+        {
+          "linkId": "KaelthasArcaneBarrier|KaelthasArcaneBarrier|Passive",
+          "abilityId": "KaelthasArcaneBarrier",
+          "buttonId": "KaelthasArcaneBarrier",
+          "icon": "storm_ui_icon_kaelthas_arcanebarrier.png",
+          "abilityType": "Passive"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "KaelthasFlamestrikeConvection|KaelthasFlamestrikeConvectionTalent|Q|Level1",
+        "talentId": "KaelthasFlamestrikeConvection",
+        "buttonId": "KaelthasFlamestrikeConvectionTalent",
+        "abilityId": "KaelthasFlamestrike",
+        "icon": "storm_ui_icon_kaelthas_flamestrike.png",
+        "abilityType": "Q",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "KaelthasFlamestrike|KaelthasFlamestrike|Q"
+        ]
+      },
+      {
+        "linkId": "KaelthasVerdantSpheresFelInfusion|KaelthasVerdantSpheresFelInfusionTalent|Trait|Level1",
+        "talentId": "KaelthasVerdantSpheresFelInfusion",
+        "buttonId": "KaelthasVerdantSpheresFelInfusionTalent",
+        "abilityId": "KaelthasVerdantSpheres",
+        "icon": "storm_ui_icon_kaelthas_verdantspheres.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|KaelthasVerdantSpheresActive|Trait",
+          "KaelthasVerdantSpheres|KaelthasVerdantSpheres|Trait"
+        ]
+      },
+      {
+        "linkId": "KaelthasManaAddict|KaelthasManaAddictTalent|Passive|Level1",
+        "talentId": "KaelthasManaAddict",
+        "buttonId": "KaelthasManaAddictTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_kaelthas_manaaddict.png",
+        "abilityType": "Passive",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "KaelthasGravityLapseNetherWind|KaelthasGravityLapseNetherWindTalent|E|Level4",
+        "talentId": "KaelthasGravityLapseNetherWind",
+        "buttonId": "KaelthasGravityLapseNetherWindTalent",
+        "abilityId": "KaelthasGravityLapse",
+        "icon": "storm_ui_icon_kaelthas_gravitylapse.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "KaelthasGravityLapse|KaelthasGravityLapse|E"
+        ]
+      },
+      {
+        "linkId": "KaelthasGravityLapseEnergyRoil|KaelthasGravityLapseEnergyRoilTalent|E|Level4",
+        "talentId": "KaelthasGravityLapseEnergyRoil",
+        "buttonId": "KaelthasGravityLapseEnergyRoilTalent",
+        "abilityId": "KaelthasGravityLapse",
+        "icon": "storm_ui_icon_kaelthas_gravitylapse_a.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "KaelthasGravityLapse|KaelthasGravityLapse|E"
+        ]
+      },
+      {
+        "linkId": "KaelthasFlamestrikeManaTap|KaelthasManaTapTalent|Trait|Level4",
+        "talentId": "KaelthasFlamestrikeManaTap",
+        "buttonId": "KaelthasManaTapTalent",
+        "abilityId": "KaelthasVerdantSpheres",
+        "icon": "storm_ui_icon_kaelthas_verdantspheres.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|KaelthasVerdantSpheresActive|Trait",
+          "KaelthasVerdantSpheres|KaelthasVerdantSpheres|Trait"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "KaelthasFlamestrikeBurnedFlesh|KaelthasBurnedFleshTalent|Q|Level7",
+        "talentId": "KaelthasFlamestrikeBurnedFlesh",
+        "buttonId": "KaelthasBurnedFleshTalent",
+        "abilityId": "KaelthasFlamestrike",
+        "icon": "storm_ui_icon_kaelthas_flamestrike.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "KaelthasFlamestrike|KaelthasFlamestrike|Q"
+        ]
+      },
+      {
+        "linkId": "KaelthasLivingBombSunKingsFury|KaelthasLivingBombSunKingsFury|W|Level7",
+        "talentId": "KaelthasLivingBombSunKingsFury",
+        "buttonId": "KaelthasLivingBombSunKingsFury",
+        "abilityId": "KaelthasLivingBomb",
+        "icon": "storm_ui_icon_kaelthas_livingbomb.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "KaelthasLivingBomb|KaelthasLivingBomb|W"
+        ]
+      },
+      {
+        "linkId": "KaelthasMasterySunfireEnchantment|KaelthasSunfireEnchantmentTalent|Trait|Level7",
+        "talentId": "KaelthasMasterySunfireEnchantment",
+        "buttonId": "KaelthasSunfireEnchantmentTalent",
+        "abilityId": "KaelthasVerdantSpheres",
+        "icon": "storm_ui_icon_kaelthas_verdantspheres.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|KaelthasVerdantSpheresActive|Trait",
+          "KaelthasVerdantSpheres|KaelthasVerdantSpheres|Trait"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "KaelthasHeroicAbilityPhoenix|KaelthasPhoenix|Heroic|Level10",
+        "talentId": "KaelthasHeroicAbilityPhoenix",
+        "buttonId": "KaelthasPhoenix",
+        "abilityId": "KaelthasPhoenix",
+        "icon": "storm_ui_icon_kaelthas_phoenix.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "KaelthasHeroicAbilityPyroblast|KaelthasPyroblast|Heroic|Level10",
+        "talentId": "KaelthasHeroicAbilityPyroblast",
+        "buttonId": "KaelthasPyroblast",
+        "abilityId": "KaelthasPyroblast",
+        "icon": "storm_ui_icon_kaelthas_pyroblast.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "KaelthasLivingBombPyromaniac|KaelthasLivingBombPyromaniacTalent|W|Level13",
+        "talentId": "KaelthasLivingBombPyromaniac",
+        "buttonId": "KaelthasLivingBombPyromaniacTalent",
+        "abilityId": "KaelthasLivingBomb",
+        "icon": "storm_ui_icon_kaelthas_livingbomb.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "KaelthasLivingBomb|KaelthasLivingBomb|W"
+        ]
+      },
+      {
+        "linkId": "KaelthasLivingBombBackdraft|KaelthasLivingBombBackdraftTalent|W|Level13",
+        "talentId": "KaelthasLivingBombBackdraft",
+        "buttonId": "KaelthasLivingBombBackdraftTalent",
+        "abilityId": "KaelthasLivingBomb",
+        "icon": "storm_ui_icon_kaelthas_livingbomb_var1.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "KaelthasLivingBomb|KaelthasLivingBomb|W"
+        ]
+      },
+      {
+        "linkId": "KaelthasLivingBombFissionBomb|KaelthasLivingBombFissionBombTalent|W|Level13",
+        "talentId": "KaelthasLivingBombFissionBomb",
+        "buttonId": "KaelthasLivingBombFissionBombTalent",
+        "abilityId": "KaelthasLivingBomb",
+        "icon": "storm_ui_icon_kaelthas_livingbomb_b.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "KaelthasLivingBomb|KaelthasLivingBomb|W"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "KaelthasFlamestrikeFuryOfTheSunwell|KaelthasFlamestrikeFuryOfTheSunwellTalent|Q|Level16",
+        "talentId": "KaelthasFlamestrikeFuryOfTheSunwell",
+        "buttonId": "KaelthasFlamestrikeFuryOfTheSunwellTalent",
+        "abilityId": "KaelthasFlamestrike",
+        "icon": "storm_ui_icon_kaelthas_flamestrike.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "KaelthasFlamestrike|KaelthasFlamestrike|Q"
+        ]
+      },
+      {
+        "linkId": "KaelthasLivingBombIgnite|KaelthasLivingBombIgnite|W|Level16",
+        "talentId": "KaelthasLivingBombIgnite",
+        "buttonId": "KaelthasLivingBombIgnite",
+        "abilityId": "KaelthasLivingBomb",
+        "icon": "storm_ui_icon_kaelthas_livingbomb.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "KaelthasLivingBomb|KaelthasLivingBomb|W"
+        ]
+      },
+      {
+        "linkId": "KaelthasTwinSpheres|KaelthasVerdantSpheresTwinSpheresTalent|Trait|Level16",
+        "talentId": "KaelthasTwinSpheres",
+        "buttonId": "KaelthasVerdantSpheresTwinSpheresTalent",
+        "abilityId": "KaelthasVerdantSpheres",
+        "icon": "storm_ui_icon_kaelthas_verdantspheres.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "KaelthasFlamestrike|KaelthasFlamestrike|Q",
+          "KaelthasLivingBomb|KaelthasLivingBomb|W",
+          ":PASSIVE:|KaelthasVerdantSpheresActive|Trait",
+          "KaelthasVerdantSpheres|KaelthasVerdantSpheres|Trait"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "KaelthasPhoenixRebirth|KaelthasPhoenixRebirthTalent|Heroic|Level20",
+        "talentId": "KaelthasPhoenixRebirth",
+        "buttonId": "KaelthasPhoenixRebirthTalent",
+        "abilityId": "KaelthasPhoenix",
+        "icon": "storm_ui_icon_kaelthas_phoenix.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "KaelthasPhoenix|KaelthasPhoenix|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "KaelthasHeroicAbilityPhoenix"
+        ]
+      },
+      {
+        "linkId": "KaelthasPyroblastPresenceOfMind|KaelthasPyroblastPresenceOfMindTalent|Heroic|Level20",
+        "talentId": "KaelthasPyroblastPresenceOfMind",
+        "buttonId": "KaelthasPyroblastPresenceOfMindTalent",
+        "abilityId": "KaelthasPyroblast",
+        "icon": "storm_ui_icon_kaelthas_pyroblast.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "KaelthasPyroblast|KaelthasPyroblast|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "KaelthasHeroicAbilityPyroblast"
+        ]
+      },
+      {
+        "linkId": "KaelthasMasterOfFlames|KaelthasMasterOfFlamesLivingBomb|W|Level20",
+        "talentId": "KaelthasMasterOfFlames",
+        "buttonId": "KaelthasMasterOfFlamesLivingBomb",
+        "abilityId": "KaelthasLivingBomb",
+        "icon": "storm_ui_icon_kaelthas_livingbomb.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "KaelthasLivingBomb|KaelthasLivingBomb|W"
+        ]
+      },
+      {
+        "linkId": "KaelthasMasteryFlamethrower|KaelthasFlamethrowerTalent|Q|Level20",
+        "talentId": "KaelthasMasteryFlamethrower",
+        "buttonId": "KaelthasFlamethrowerTalent",
+        "abilityId": "KaelthasFlamestrike",
+        "icon": "storm_ui_icon_kaelthas_flamestrike.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          "KaelthasFlamestrike|KaelthasFlamestrike|Q"
+        ]
+      }
+    ]
+  },
+  "sheet": "sheets/Kaelthas.png",
+  "icons": {
+    "storm_ui_icon_kaelthas_flamestrike.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_kaelthas_livingbomb.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_kaelthas_gravitylapse.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_kaelthas_pyroblast.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_kaelthas_phoenix.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_kaelthas_verdantspheres.png": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_mount.png": [
+      256,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      384,
+      128,
+      111,
+      71
+    ],
+    "storm_ui_icon_kaelthas_phoenix_retarget.png": [
+      0,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_kaelthas_verdantspheres_2.png": [
+      128,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_cancel_mount.png": [
+      256,
+      256,
+      76,
+      48
+    ],
+    "storm_ui_icon_kaelthas_arcanebarrier.png": [
+      384,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_kaelthas_manaaddict.png": [
+      0,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_kaelthas_gravitylapse_a.png": [
+      128,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_kaelthas_livingbomb_var1.png": [
+      256,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_kaelthas_livingbomb_b.png": [
+      384,
+      384,
+      128,
+      128
+    ]
+  }
+}

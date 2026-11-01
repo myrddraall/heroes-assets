@@ -1,0 +1,673 @@
+{
+  "id": "Whitemane",
+  "unitId": "HeroWhitemane",
+  "hyperlinkId": "Whitemane",
+  "attributeId": "WHIT",
+  "franchise": "Warcraft",
+  "rarity": "Legendary",
+  "releaseDate": "2018-08-07",
+  "isMelee": false,
+  "gender": "Female",
+  "radius": 0.625,
+  "innerRadius": 0.625,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 8,
+    "damage": 5,
+    "survivability": 5,
+    "utility": 7
+  },
+  "life": {
+    "amount": 1400,
+    "scale": 0.04,
+    "regenRate": 2.9218,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "AllyHealer",
+    "EnergyImportant",
+    "RoleSupport",
+    "SelfHealer"
+  ],
+  "weapons": [
+    {
+      "nameId": "WhitemaneHeroWeapon",
+      "isDisabled": false,
+      "range": 5.5,
+      "minimumRange": 0,
+      "period": 1,
+      "damage": 62,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "WhitemaneCelestial",
+    "WhitemaneMobster19",
+    "WhitemaneSpooky18"
+  ],
+  "variationSkinIds": [
+    "WhitemaneBaseVar1",
+    "WhitemaneBaseVar2",
+    "WhitemaneBaseVar3",
+    "WhitemaneBaseVar4"
+  ],
+  "voiceLineIds": [
+    "WhitemaneBase_VoiceLine01",
+    "WhitemaneBase_VoiceLine02",
+    "WhitemaneBase_VoiceLine03",
+    "WhitemaneBase_VoiceLine04",
+    "WhitemaneBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "WhitemaneDesperatePlea|WhitemaneDesperatePlea|Q",
+        "abilityId": "WhitemaneDesperatePlea",
+        "buttonId": "WhitemaneDesperatePlea",
+        "icon": "storm_ui_icon_whitemane_desperation.png",
+        "toggleCooldown": 0.5,
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "WhitemaneInquisition|WhitemaneInquisition|W",
+        "abilityId": "WhitemaneInquisition",
+        "buttonId": "WhitemaneInquisition",
+        "icon": "storm_ui_icon_whitemane_inquisition.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "WhitemaneSearingLash|WhitemaneSearingLash|E",
+        "abilityId": "WhitemaneSearingLash",
+        "buttonId": "WhitemaneSearingLash",
+        "icon": "storm_ui_icon_whitemane_lash.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "WhitemaneScarletAegis|WhitemaneScarletAegis|Heroic",
+        "abilityId": "WhitemaneScarletAegis",
+        "buttonId": "WhitemaneScarletAegis",
+        "icon": "storm_ui_icon_whitemane_aegis.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "WhitemaneDivineReckoning|WhitemaneDivineReckoning|Heroic",
+        "abilityId": "WhitemaneDivineReckoning",
+        "buttonId": "WhitemaneDivineReckoning",
+        "icon": "storm_ui_icon_whitemane_reckoning.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": "WhitemaneFanaticalPower|WhitemaneTraitZeal|Trait",
+        "abilityId": "WhitemaneFanaticalPower",
+        "buttonId": "WhitemaneTraitZeal",
+        "icon": "storm_ui_icon_whitemane_zeal.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Activable": [
+      {
+        "linkId": "WhitemaneInquisitionClemency|WhitemaneInquisitionClemency|Active",
+        "abilityId": "WhitemaneInquisitionClemency",
+        "buttonId": "WhitemaneInquisitionClemency",
+        "icon": "storm_ui_icon_whitemane_clemency.png",
+        "abilityType": "Active"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "WhitemaneInquisition|WhitemaneInquisition|W": {
+      "Basic": [
+        {
+          "linkId": "WhitemaneInquisitionCancel|WhitemaneInquisitionCancel|W",
+          "abilityId": "WhitemaneInquisitionCancel",
+          "buttonId": "WhitemaneInquisitionCancel",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "W"
+        }
+      ],
+      "Activable": [
+        {
+          "linkId": "WhitemaneInquisitionCancel|WhitemaneInquisitionCancel|Active",
+          "abilityId": "WhitemaneInquisitionCancel",
+          "buttonId": "WhitemaneInquisitionCancel",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "WhitemaneInquisitionClemency|WhitemaneInquisitionClemency|Active": {
+      "Basic": [
+        {
+          "linkId": "WhitemaneInquisitionCancel|WhitemaneInquisitionCancel|W",
+          "abilityId": "WhitemaneInquisitionCancel",
+          "buttonId": "WhitemaneInquisitionCancel",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "W"
+        }
+      ],
+      "Activable": [
+        {
+          "linkId": "WhitemaneInquisitionCancel|WhitemaneInquisitionCancel|Active",
+          "abilityId": "WhitemaneInquisitionCancel",
+          "buttonId": "WhitemaneInquisitionCancel",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "WhitemaneIntercession|WhitemaneIntercession|Active|Level7": {
+      "Activable": [
+        {
+          "linkId": "WhitemaneIntercession|WhitemaneIntercession|Active",
+          "abilityId": "WhitemaneIntercession",
+          "buttonId": "WhitemaneIntercession",
+          "icon": "storm_ui_icon_whitemane_intercession.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "WhitemaneGuidingLight|WhitemaneGuidingLight|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "WhitemaneGuidingLight|WhitemaneGuidingLight|Active",
+          "abilityId": "WhitemaneGuidingLight",
+          "buttonId": "WhitemaneGuidingLight",
+          "icon": "storm_ui_icon_whitemane_zeal.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "WhitemanePurgeTheWicked|WhitemanePurgeTheWicked|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "WhitemanePurgeTheWicked|WhitemanePurgeTheWicked|Active",
+          "abilityId": "WhitemanePurgeTheWicked",
+          "buttonId": "WhitemanePurgeTheWicked",
+          "icon": "storm_ui_icon_whitemane_purge.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "WhitemaneZealPityTheFrail|WhitemaneZealPityTheFrail|W|Level1",
+        "talentId": "WhitemaneZealPityTheFrail",
+        "buttonId": "WhitemaneZealPityTheFrail",
+        "abilityId": "WhitemaneInquisition",
+        "icon": "storm_ui_icon_whitemane_inquisition_lash.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "WhitemaneInquisition|WhitemaneInquisition|W"
+        ]
+      },
+      {
+        "linkId": "WhitemaneSearingLashRighteousFlame|WhitemaneSearingLashRighteousFlame|E|Level1",
+        "talentId": "WhitemaneSearingLashRighteousFlame",
+        "buttonId": "WhitemaneSearingLashRighteousFlame",
+        "abilityId": "WhitemaneSearingLash",
+        "icon": "storm_ui_icon_whitemane_lash.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "WhitemaneSearingLash|WhitemaneSearingLash|E"
+        ]
+      },
+      {
+        "linkId": "WhitemaneInquisitorsPrayer|WhitemaneInquisitor'sPrayer|E|Level1",
+        "talentId": "WhitemaneInquisitorsPrayer",
+        "buttonId": "WhitemaneInquisitor'sPrayer",
+        "abilityId": "WhitemaneSearingLash",
+        "icon": "storm_ui_icon_whitemane_lash_alt_1.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "WhitemaneSearingLash|WhitemaneSearingLash|E"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "WhitemaneDesperatePleaUnwaveringFaith|WhitemaneDesperatePleaUnwaveringFaith|Q|Level4",
+        "talentId": "WhitemaneDesperatePleaUnwaveringFaith",
+        "buttonId": "WhitemaneDesperatePleaUnwaveringFaith",
+        "abilityId": "WhitemaneDesperatePlea",
+        "icon": "storm_ui_icon_whitemane_desperation.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "WhitemaneDesperatePlea|WhitemaneDesperatePlea|Q"
+        ]
+      },
+      {
+        "linkId": "WhitemaneDesperatePleaMartyrdom|WhitemaneDesperatePleaMartyrdom|Q|Level4",
+        "talentId": "WhitemaneDesperatePleaMartyrdom",
+        "buttonId": "WhitemaneDesperatePleaMartyrdom",
+        "abilityId": "WhitemaneDesperatePlea",
+        "icon": "storm_ui_icon_whitemane_desperation_alt_1.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "WhitemaneDesperatePlea|WhitemaneDesperatePlea|Q"
+        ]
+      },
+      {
+        "linkId": "WhitemaneZealIndulgence|WhitemaneZealIndulgence|Trait|Level4",
+        "talentId": "WhitemaneZealIndulgence",
+        "buttonId": "WhitemaneZealIndulgence",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_whitemane_zeal.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "WhitemaneFanaticalPower|WhitemaneTraitZeal|Trait"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "WhitemaneDesperatePleaZealousSpirit|WhitemaneDesperatePleaZealousSpirit|Q|Level7",
+        "talentId": "WhitemaneDesperatePleaZealousSpirit",
+        "buttonId": "WhitemaneDesperatePleaZealousSpirit",
+        "abilityId": "WhitemaneDesperatePlea",
+        "icon": "storm_ui_icon_whitemane_desperation.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "WhitemaneDesperatePlea|WhitemaneDesperatePlea|Q"
+        ]
+      },
+      {
+        "linkId": "WhitemaneSaintlyGreatstaff|WhitemaneSaintlyGreatstaff|E|Level7",
+        "talentId": "WhitemaneSaintlyGreatstaff",
+        "buttonId": "WhitemaneSaintlyGreatstaff",
+        "abilityId": "WhitemaneSearingLash",
+        "icon": "storm_ui_icon_whitemane_lash.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "WhitemaneSearingLash|WhitemaneSearingLash|E"
+        ]
+      },
+      {
+        "linkId": "WhitemaneIntercession|WhitemaneIntercession|Active|Level7",
+        "talentId": "WhitemaneIntercession",
+        "buttonId": "WhitemaneIntercession",
+        "abilityId": "WhitemaneIntercession",
+        "icon": "storm_ui_icon_whitemane_intercession.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "WhitemaneScarletAegis|WhitemaneScarletAegis|Heroic|Level10",
+        "talentId": "WhitemaneScarletAegis",
+        "buttonId": "WhitemaneScarletAegis",
+        "abilityId": "WhitemaneScarletAegis",
+        "icon": "storm_ui_icon_whitemane_aegis.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "WhitemaneDivineReckoning|WhitemaneDivineReckoning|Heroic|Level10",
+        "talentId": "WhitemaneDivineReckoning",
+        "buttonId": "WhitemaneDivineReckoning",
+        "abilityId": "WhitemaneDivineReckoning",
+        "icon": "storm_ui_icon_whitemane_reckoning.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "WhitemaneInquisitionSubjugation|WhitemaneInquisitionSubjugation|W|Level13",
+        "talentId": "WhitemaneInquisitionSubjugation",
+        "buttonId": "WhitemaneInquisitionSubjugation",
+        "abilityId": "WhitemaneInquisition",
+        "icon": "storm_ui_icon_whitemane_inquisition.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "WhitemaneInquisition|WhitemaneInquisition|W"
+        ]
+      },
+      {
+        "linkId": "WhitemaneSearingLashLashingOut|WhitemaneSearingLashLashingOut|E|Level13",
+        "talentId": "WhitemaneSearingLashLashingOut",
+        "buttonId": "WhitemaneSearingLashLashingOut",
+        "abilityId": "WhitemaneSearingLash",
+        "icon": "storm_ui_icon_whitemane_lash.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "WhitemaneSearingLash|WhitemaneSearingLash|E"
+        ]
+      },
+      {
+        "linkId": "WhitemaneZealScarletWrath|WhitemaneZealScarletWrath|Trait|Level13",
+        "talentId": "WhitemaneZealScarletWrath",
+        "buttonId": "WhitemaneZealScarletWrath",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_whitemane_zeal.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "WhitemaneFanaticalPower|WhitemaneTraitZeal|Trait"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "WhitemaneDesperatePleaRadiance|WhitemaneDesperatePleaRadiance|Q|Level16",
+        "talentId": "WhitemaneDesperatePleaRadiance",
+        "buttonId": "WhitemaneDesperatePleaRadiance",
+        "abilityId": "WhitemaneDesperatePlea",
+        "icon": "storm_ui_icon_whitemane_desperation.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "WhitemaneDesperatePlea|WhitemaneDesperatePlea|Q"
+        ]
+      },
+      {
+        "linkId": "WhitemaneInquisitionSharedPunishment|WhitemaneInquisitionSharedPunishment|W|Level16",
+        "talentId": "WhitemaneInquisitionSharedPunishment",
+        "buttonId": "WhitemaneInquisitionSharedPunishment",
+        "abilityId": "WhitemaneInquisition",
+        "icon": "storm_ui_icon_whitemane_inquisition.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "WhitemaneInquisition|WhitemaneInquisition|W"
+        ]
+      },
+      {
+        "linkId": "WhitemaneSearingLashHarshDiscipline|WhitemaneSearingLashHarshDiscipline|E|Level16",
+        "talentId": "WhitemaneSearingLashHarshDiscipline",
+        "buttonId": "WhitemaneSearingLashHarshDiscipline",
+        "abilityId": "WhitemaneSearingLash",
+        "icon": "storm_ui_icon_whitemane_lash.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "WhitemaneSearingLash|WhitemaneSearingLash|E"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "WhitemaneScarletAegisScarletCrusade|WhitemaneScarletAegisScarletCrusade|Heroic|Level20",
+        "talentId": "WhitemaneScarletAegisScarletCrusade",
+        "buttonId": "WhitemaneScarletAegisScarletCrusade",
+        "abilityId": "WhitemaneScarletAegis",
+        "icon": "storm_ui_icon_whitemane_aegis.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "WhitemaneScarletAegis|WhitemaneScarletAegis|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "WhitemaneScarletAegis"
+        ]
+      },
+      {
+        "linkId": "WhitemaneDivineReckoningJudgmentDay|WhitemaneDivineReckoningJudgmentDay|Heroic|Level20",
+        "talentId": "WhitemaneDivineReckoningJudgmentDay",
+        "buttonId": "WhitemaneDivineReckoningJudgmentDay",
+        "abilityId": "WhitemaneDivineReckoning",
+        "icon": "storm_ui_icon_whitemane_reckoning.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "WhitemaneDivineReckoning|WhitemaneDivineReckoning|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "WhitemaneDivineReckoning"
+        ]
+      },
+      {
+        "linkId": "WhitemaneGuidingLight|WhitemaneGuidingLight|Active|Level20",
+        "talentId": "WhitemaneGuidingLight",
+        "buttonId": "WhitemaneGuidingLight",
+        "abilityId": "WhitemaneGuidingLight",
+        "icon": "storm_ui_icon_whitemane_zeal.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "WhitemaneDesperatePlea|WhitemaneDesperatePlea|Q"
+        ]
+      },
+      {
+        "linkId": "WhitemanePurgeTheWicked|WhitemanePurgeTheWicked|Active|Level20",
+        "talentId": "WhitemanePurgeTheWicked",
+        "buttonId": "WhitemanePurgeTheWicked",
+        "abilityId": "WhitemanePurgeTheWicked",
+        "icon": "storm_ui_icon_whitemane_purge.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      }
+    ]
+  },
+  "sheet": "sheets/Whitemane.png",
+  "icons": {
+    "storm_ui_icon_whitemane_desperation.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_whitemane_inquisition.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_whitemane_lash.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_whitemane_aegis.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_whitemane_reckoning.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_whitemane_zeal.png": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_mount.png": [
+      256,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_whitemane_clemency.png": [
+      384,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      0,
+      256,
+      111,
+      71
+    ],
+    "hud_btn_bg_ability_cancel.png": [
+      128,
+      256,
+      97,
+      111
+    ],
+    "storm_ui_icon_generic_cancel_mount.png": [
+      256,
+      256,
+      76,
+      48
+    ],
+    "storm_ui_icon_whitemane_intercession.png": [
+      384,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_whitemane_purge.png": [
+      0,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_whitemane_inquisition_lash.png": [
+      128,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_whitemane_lash_alt_1.png": [
+      256,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_whitemane_desperation_alt_1.png": [
+      384,
+      384,
+      128,
+      128
+    ]
+  }
+}

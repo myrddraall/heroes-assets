@@ -1,0 +1,229 @@
+{
+  "abilities": {
+    "AlarakDiscordStrike|AlarakDiscordStrike|Q": {
+      "cooldownText": "재사용 대기시간: 8초",
+      "energyText": "<s val=\"StandardTooltipDetails\">마나: 55</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">0.5</c>초 후, 전방의 적들에게 <c val=\"#TooltipNumbers\">165</c><c val=\"#ColorGray\">~~0.04~~</c>의 피해를 주고 <c val=\"#TooltipNumbers\">1.5</c>초 동안 침묵시킵니다.",
+      "name": "불화의 일격",
+      "shortText": "일정 지역 안의 적들에게 피해를 주고 침묵시킴"
+    },
+    "AlarakTelekinesis|AlarakTelekinesis|W": {
+      "cooldownText": "재사용 대기시간: 12초",
+      "energyText": "<s val=\"StandardTooltipDetails\">마나: 30</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">끌어서 사용</c><n/>염동력으로 힘을 구체화시켜, 적중 시 자신과 적들을 대상 지점에서 원하는 방향으로 밀쳐냅니다. 적에게는 <c val=\"#TooltipNumbers\">48</c><c val=\"#ColorGray\">~~0.04~~</c>의 피해를 줍니다.",
+      "name": "염동력",
+      "shortText": "적들을 원하는 방향으로 밀침"
+    },
+    "AlarakLightningSurge|AlarakLightningSurge|E": {
+      "cooldownText": "재사용 대기시간: 6초",
+      "energyText": "<s val=\"StandardTooltipDetails\">마나: 25</s>",
+      "fullText": "대상 적에게 <c val=\"#TooltipNumbers\">62</c><c val=\"#ColorGray\">~~0.04~~</c>의 피해를 주고 대상과 자신 사이의 적들에게 <c val=\"#TooltipNumbers\">100%</c>의 피해를 추가로 줍니다. 적중한 적 영웅 하나당 <c val=\"#TooltipNumbers\">75</c><c val=\"#ColorGray\">~~0.04~~</c>의 생명력을 회복합니다.",
+      "name": "번개 쇄도",
+      "shortText": "일직선상의 적들에게 피해"
+    },
+    "AlarakDeadlyChargeActivate|AlarakDeadlyCharge|Heroic": {
+      "cooldownText": "재사용 대기시간: 45초",
+      "energyText": "<s val=\"StandardTooltipDetails\">마나: 60</s>",
+      "fullText": "정신을 집중한 후, 전방으로 돌진하며 경로 상의 적들에게 <c val=\"#TooltipNumbers\">200</c><c val=\"#ColorGray\">~~0.04~~</c>의 피해를 줍니다. 돌진 거리는 정신을 집중한 시간에 비례하며, 최대 <c val=\"#TooltipNumbers\">1.5</c>초까지 정신을 집중하여 증가시킬 수 있습니다.<n/><n/>정신을 집중하는 동안 이동하면 비용이 소모되지 않은 채로 정신 집중이 취소됩니다. 피해를 받으면 정신 집중이 취소됩니다.",
+      "name": "치명적인 돌진",
+      "shortText": "정신을 집중하여 먼 거리 돌진"
+    },
+    "AlarakCounterStrikeTargeted|AlarakCounterStrikeTargeted|Heroic": {
+      "cooldownText": "재사용 대기시간: 30초",
+      "energyText": "<s val=\"StandardTooltipDetails\">마나: 50</s>",
+      "fullText": "대상 지역을 선택해서 <c val=\"#TooltipNumbers\">1</c>초 동안 정신을 집중하며 보호 및 저지 불가 상태가 됩니다. 이후 적 영웅으로부터 피해를 받으면 <c val=\"#TooltipNumbers\">275</c><c val=\"#ColorGray\">~~0.04~~</c>의 피해를 주는 충격파를 발산합니다.",
+      "name": "반격",
+      "shortText": "모든 피해로부터 보호되고 넓은 지역 안의 적들에게 피해"
+    },
+    ":PASSIVE:|AlarakSadism|Trait": {
+      "fullText": "기술 공격과 자가 치유량이 적 영웅을 상대로 <c val=\"#TooltipNumbers\">100%</c> 증가합니다.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">반복 퀘스트:</c> 적 영웅을 처치하면 가학성이 <c val=\"#TooltipNumbers\">3%</c> 증가하여 최대 <c val=\"#TooltipNumbers\">30%</c> 증가합니다. 적 영웅을 처치하여 증가한 가학성은 죽으면 사라집니다.",
+      "name": "가학성",
+      "shortText": "적 영웅을 상대로 기술 공격 및 자가 치유량 증가"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "재사용 대기시간: 4초",
+      "fullText": "<c val=\"#TooltipNumbers\">1</c>초 동안 정신을 집중한 후, 이동 속도가 <s val=\"StandardTooltipDetails\">30%</s> 증가합니다.",
+      "name": "탈것 소환"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "<c val=\"#TooltipNumbers\">6</c>초 동안 정신을 집중한 후, 폭풍의 전당으로 귀환하여 즉시 <c val=\"#TooltipNumbers\">1125</c>의 생명력과 <c val=\"#TooltipNumbers\">150</c>의 마나를 회복합니다.",
+      "name": "귀환석"
+    },
+    "AlarakCounterStrikeTargeted2ndHeroic|AlarakCounterStrike2ndHeroicSadism|Trait": {
+      "cooldownText": "재사용 대기시간: 30초",
+      "energyText": "<s val=\"StandardTooltipDetails\">마나: 50</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">1</c>초 동안 보호 및 저지 불가 상태가 되고 대상 지역을 향해 정신을 집중합니다. 이후 적 영웅에게 피해를 받으면 <c val=\"#TooltipNumbers\">275</c><c val=\"#ColorGray\">~~0.04~~</c>의 피해를 주는 충격파를 발산합니다.<n/><n/><s val=\"StandardTooltipHeader\">가학성</s><n/><n/>기술 공격과 자가 치유량이 적 영웅을 상대로 <c val=\"#TooltipNumbers\">100%</c> 증가합니다.<n/><n/>적 영웅을 처치하면 가학성이 <c val=\"#TooltipNumbers\">3%</c> 증가하여 최대 <c val=\"#TooltipNumbers\">30%</c> 증가합니다. 적 영웅을 처치하여 증가한 가학성은 죽으면 사라집니다.",
+      "name": "반격",
+      "shortText": "기술 공격이 영웅에게 추가 피해"
+    },
+    "AlarakDeadlyChargeExecute|AlarakUnleashDeadlyCharge|Heroic": {
+      "fullText": "치명적인 돌진을 사용합니다.<n/><n/>정신을 집중하는 동안 이동하면 비용이 소모되지 않은 채로 정신 집중이 취소됩니다. 피해를 받으면 정신 집중이 취소됩니다.",
+      "name": "치명적인 돌진 사용",
+      "shortText": "무자비하게 돌진"
+    },
+    "AlarakDeadlyChargeActivate2ndHeroic|AlarakDeadlyCharge2ndHeroicSadism|Trait": {
+      "cooldownText": "재사용 대기시간: 45초",
+      "energyText": "<s val=\"StandardTooltipDetails\">마나: 60</s>",
+      "fullText": "정신을 집중한 후, 전방으로 돌진하며 경로 상의 적들에게 <c val=\"#TooltipNumbers\">200</c><c val=\"#ColorGray\">~~0.04~~</c>의 피해를 줍니다. 돌진 거리는 정신을 집중한 시간에 비례하며, 최대 <c val=\"#TooltipNumbers\">1.5</c>초까지 정신을 집중하여 증가시킬 수 있습니다.<n/><n/>정신을 집중하는 동안 이동하면 비용이 소모되지 않은 채로 정신 집중이 취소됩니다. 피해를 받으면 정신 집중이 취소됩니다.<n/><n/><s val=\"StandardTooltipHeader\">가학성</s><n/><n/>기술 공격과 자가 치유량이 적 영웅을 상대로 <c val=\"#TooltipNumbers\">100%</c> 증가합니다.<n/><n/>적 영웅을 처치하면 가학성이 <c val=\"#TooltipNumbers\">3%</c> 증가하여 최대 <c val=\"#TooltipNumbers\">30%</c> 증가합니다. 적 영웅을 처치하여 증가한 가학성은 죽으면 사라집니다.",
+      "name": "치명적인 돌진",
+      "shortText": "기술 공격이 영웅에게 추가 피해"
+    },
+    "AlarakDeadlyChargeExecute2ndHeroic|AlarakUnleashDeadlyCharge|Trait": {
+      "fullText": "치명적인 돌진을 사용합니다.<n/><n/>정신을 집중하는 동안 이동하면 비용이 소모되지 않은 채로 정신 집중이 취소됩니다. 피해를 받으면 정신 집중이 취소됩니다.",
+      "name": "치명적인 돌진 사용",
+      "shortText": "무자비하게 돌진"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "탈것에서 내립니다.",
+      "name": "탈것 소환 해제"
+    },
+    "AlarakRiteofRakShir|AlarakRiteofRakShir|Trait": {
+      "cooldownText": "재사용 대기시간: 300초",
+      "fullText": "사용하면 적 영웅에게 <c val=\"#TooltipNumbers\">300</c>초 동안 표식을 남깁니다.<n/><n/>표식이 남겨진 영웅에게 불화의 일격이 적중하면 가학성이 <c val=\"#TooltipNumbers\">3%</c> 증가합니다. 표식이 남겨진 영웅을 처치하면 가학성이 <c val=\"#TooltipNumbers\">5%</c> 증가하고 라크쉬르 의식의 재사용 대기시간이 <c val=\"#TooltipNumbers\">10</c>초로 감소합니다.<n/><n/>이 증가량은 죽으면 사라집니다.",
+      "name": "라크쉬르 의식",
+      "shortText": "적 영웅 지목 후 공격 시 가학성 증가"
+    },
+    "AlarakLightningSurgeLightningBarrage|AlarakLightningSurgeLightningBarrage|E": {
+      "fullText": "대상 적에게 <c val=\"#TooltipNumbers\">62</c><c val=\"#ColorGray\">~~0.04~~</c>의 피해를 주고 대상과 자신 사이의 적들에게 <c val=\"#TooltipNumbers\">100%</c>의 피해를 추가로 줍니다. 적중한 적 영웅 하나당 <c val=\"#TooltipNumbers\">75</c><c val=\"#ColorGray\">~~0.04~~</c>의 생명력을 회복합니다.",
+      "name": "번개 쇄도",
+      "shortText": "일직선상의 적들에게 피해"
+    },
+    "AlarakHastyBargain|AlarakHastyBargain|Active": {
+      "cooldownText": "재사용 대기시간: 20초",
+      "fullText": "사용하면 가학성이 영구히 <c val=\"#TooltipNumbers\">4%</c> 감소하지만 일반 기술의 재사용 대기시간이 초기화됩니다.",
+      "name": "과감한 결단",
+      "shortText": "사용 시 가학성이 감소하는 대신 일반 기술 재사용 대기시간 초기화"
+    },
+    "AlarakLastLaugh|AlarakLastLaugh|Active": {
+      "cooldownText": "재사용 대기시간: 30초",
+      "fullText": "사용하면 모든 이동 불가, 감속, 지속 피해 효과를 제거하고 대상 위치로 순간이동합니다. 순간이동 후 <c val=\"#TooltipNumbers\">4</c>초 내에 적 영웅들에게 일반 기술이 총 <c val=\"#TooltipNumbers\">3</c>회 이상 적중하지 않으면 생명력이 <c val=\"#TooltipNumbers\">1</c>로 감소합니다. ",
+      "name": "최후의 웃음",
+      "shortText": "자신을 정화하고 순간이동하지만 생명력 감소"
+    },
+    "AlarakMightOfTheHighlordSetDeadlyChargeAsHeroic|AlarakMightOfTheHighlord|Active": {
+      "fullText": "두 궁극기를 모두 사용할 수 있게 됩니다. 사용 시 궁극기 칸과 고유 능력 칸에 배치될 궁극기를 전환할 수 있습니다.",
+      "name": "군주의 힘",
+      "shortText": "두 궁극기 모두 획득"
+    },
+    "AlarakMightOfTheHighlordSetCounterStrikeAsHeroic|AlarakMightOfTheHighlord|Active": {
+      "fullText": "두 궁극기를 모두 사용할 수 있게 됩니다. 사용 시 궁극기 칸과 고유 능력 칸에 배치될 궁극기를 전환할 수 있습니다.",
+      "name": "군주의 힘",
+      "shortText": "두 궁극기 모두 획득"
+    }
+  },
+  "talents": {
+    "AlarakOverwhelmingPowerDiscordStrike|AlarakOverwhelmingPower|Q|Level1": {
+      "fullText": "불화의 일격이 적 영웅에게 적중하면 공격 속도가 <c val=\"#TooltipNumbers\">40%</c> 증가하고, <c val=\"#TooltipNumbers\">4</c>초 동안 일반 공격으로 준 피해의 <c val=\"#TooltipNumbers\">15%</c> 만큼 생명력을 회복합니다. 적 영웅을 공격할 경우에는 회복량이 가학성 추가 피해의 <c val=\"#TooltipNumbers\">50%</c> 만큼 증가합니다.",
+      "name": "압도적인 힘",
+      "shortText": "불화의 일격으로 공격 속도 증가 및 생명력 회복"
+    },
+    "AlarakRuthlessMomentum|AlarakRuthlessMomentum|W|Level1": {
+      "fullText": "염동력의 마나 소모량이 <c val=\"#TooltipNumbers\">30</c>에서 <c val=\"#TooltipNumbers\">20</c><lang rule=\"jongsung\">으로,로</lang> 감소합니다. 생명력이 <c val=\"#TooltipNumbers\">80%</c> 이상이면 염동력의 재사용 대기시간이 <c val=\"#TooltipNumbers\">100%</c> 더 빨리 감소합니다.",
+      "name": "잔혹한 여세",
+      "shortText": "생명력이 높으면 재사용 대기시간 감소"
+    },
+    "AlarakExtendedLightning|AlarakExtendedLightning|E|Level1": {
+      "fullText": "가학성이 <c val=\"#TooltipNumbers\">10%</c> 감소합니다.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">퀘스트:</c> 번개 쇄도가 대상과 자신 사이의 적 영웅에게 적중해야 합니다.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">보상:</c> 번개 쇄도가 대상과 자신 사이의 적 영웅에게 <c val=\"#TooltipNumbers\">5</c>회 적중하면 번개 쇄도의 사거리가 <c val=\"#TooltipNumbers\">20%</c> 증가합니다.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">보상:</c> 번개 쇄도가 대상과 자신 사이의 적 영웅에게 <c val=\"#TooltipNumbers\">15</c>회 적중하면 번개 쇄도가 대상과 자신 사이의 적을 <c val=\"#TooltipNumbers\">2</c>초 동안 <c val=\"#TooltipNumbers\">40%</c> 느려지게 합니다.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">보상:</c> 번개 쇄도가 대상과 자신 사이에 있는 적 영웅 <c val=\"#TooltipNumbers\">3</c>명에게 동시에 적중하면 가학성이 <c val=\"#TooltipNumbers\">10%</c> 증가하고 다른 모든 보상을 획득합니다.",
+      "name": "연장된 번개",
+      "shortText": "<c val=\"#TooltipQuest\">퀘스트:</c> 가학성이 감소하지만 번개 쇄도 강화"
+    },
+    "AlarakChaosReigns|AlarakChaosReigns|Q|Level4": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">퀘스트:</c> 불화의 일격이 적 영웅에게 적중해야 합니다.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">보상:</c> 불화의 일격이 적 영웅에게 <c val=\"#TooltipNumbers\">15</c>회 적중하면 불화의 일격의 공격력이 <c val=\"#TooltipNumbers\">60</c> 증가합니다.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">보상:</c> 불화의 일격이 적 영웅 <c val=\"#TooltipNumbers\">2</c>명에게 동시에 적중하면 불화의 일격의 공격력이 추가로 <c val=\"#TooltipNumbers\">60</c> 증가합니다.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">보상:</c> 불화의 일격이 적 영웅 <c val=\"#TooltipNumbers\">3</c>명에게 동시에 적중하면 불화의 일격의 공격력이 추가로 <c val=\"#TooltipNumbers\">100</c> 증가하고 다른 모든 보상을 획득합니다.",
+      "name": "혼돈의 통치",
+      "shortText": "<c val=\"#TooltipQuest\">퀘스트:</c> 영웅 적중 시 불화의 일격 공격력 증가"
+    },
+    "AlarakNegativelyCharged|AlarakNegativelyCharged|E|Level4": {
+      "fullText": "대상과 자신 사이의 적에게 주는 피해가 <c val=\"#TooltipNumbers\">175%</c>로 증가합니다.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">반복 퀘스트:</c> 번개 쇄도가 대상과 자신 사이의 적 영웅에게 적중할 때마다 추가 피해량이 <c val=\"#TooltipNumbers\">5%</c> 증가합니다. ",
+      "name": "음전하",
+      "shortText": "<c val=\"#TooltipQuest\">퀘스트:</c> 번개 쇄도 중앙 피해 증가"
+    },
+    "AlarakShowofForce|AlarakShowofForce|Trait|Level4": {
+      "fullText": "<c val=\"#TooltipNumbers\">2</c>초 안에 적 영웅에게 기술 공격이 <c val=\"#TooltipNumbers\">3</c>회 적중하면 <c val=\"#TooltipNumbers\">61</c><c val=\"#ColorGray\">~~0.04~~</c>의 추가 피해를 주고 가학성이 <c val=\"#TooltipNumbers\">2%</c> 증가하여 최대 <c val=\"#TooltipNumbers\">20%</c> 증가합니다.<n/><n/>수준 차이로 증가한 가학성은 죽으면 사라집니다.",
+      "name": "수준 차이",
+      "shortText": "기술 연계 시 추가 피해 및 가학성 증가"
+    },
+    "AlarakDissonance|AlarakDissonance|Q|Level7": {
+      "fullText": "불화의 일격의 침묵 지속 시간이 <c val=\"#TooltipNumbers\">0.75</c>초 증가합니다.",
+      "name": "불협화음",
+      "shortText": "불화의 일격 침묵 지속 시간 증가"
+    },
+    "AlarakHinderedMotion|AlarakHinderedMotion|W|Level7": {
+      "fullText": "염동력이 적을 <c val=\"#TooltipNumbers\">3</c>초 동안 <c val=\"#TooltipNumbers\">30%</c> 느려지게 합니다.",
+      "name": "이동 저해",
+      "shortText": "염동력이 적을 느려지게 함"
+    },
+    "AlarakAppliedForce|AlarakAppliedForce|W|Level7": {
+      "fullText": "가학성이 <c val=\"#TooltipNumbers\">10%</c> 감소하지만 염동력으로 밀쳐내는 거리가 <c val=\"#TooltipNumbers\">15%</c> 증가하고 사거리가 <c val=\"#TooltipNumbers\">15%</c> 증가합니다.",
+      "name": "강제 이동",
+      "shortText": "가학성이 감소하지만 염동력으로 밀쳐내는 거리 및 사거리 증가"
+    },
+    "AlarakDeadlyChargeFirstHeroic|AlarakDeadlyCharge|Heroic|Level10": {
+      "cooldownText": "재사용 대기시간: 45초",
+      "energyText": "<s val=\"StandardTooltipDetails\">마나: 60</s>",
+      "fullText": "정신을 집중한 후, 전방으로 돌진하며 경로 상의 적들에게 <c val=\"#TooltipNumbers\">200</c><c val=\"#ColorGray\">~~0.04~~</c>의 피해를 줍니다. 돌진 거리는 정신을 집중한 시간에 비례하며, 최대 <c val=\"#TooltipNumbers\">1.5</c>초까지 정신을 집중하여 증가시킬 수 있습니다.<n/><n/>정신을 집중하는 동안 이동하면 비용이 소모되지 않은 채로 정신 집중이 취소됩니다. 피해를 받으면 정신 집중이 취소됩니다.",
+      "name": "치명적인 돌진",
+      "shortText": "정신을 집중하여 먼 거리 돌진"
+    },
+    "AlarakHeroicAbilityCounterStrike|AlarakCounterStrikeTargeted|Heroic|Level10": {
+      "cooldownText": "재사용 대기시간: 30초",
+      "energyText": "<s val=\"StandardTooltipDetails\">마나: 50</s>",
+      "fullText": "대상 지역을 선택해서 <c val=\"#TooltipNumbers\">1</c>초 동안 정신을 집중하며 보호 및 저지 불가 상태가 됩니다. 이후 적 영웅으로부터 피해를 받으면 <c val=\"#TooltipNumbers\">275</c><c val=\"#ColorGray\">~~0.04~~</c>의 피해를 주는 충격파를 발산합니다.",
+      "name": "반격",
+      "shortText": "모든 피해로부터 보호되고 넓은 지역 안의 적들에게 피해"
+    },
+    "AlarakBladeoftheHighlord|AlarakBladeoftheHighlord|Trait|Level13": {
+      "fullText": "영웅에게 일반 공격을 하면 가학성이 <c val=\"#TooltipNumbers\">2%</c> 증가하여 최대 <c val=\"#TooltipNumbers\">40%</c> 증가합니다.<n/><n/>이 증가량은 죽으면 사라집니다.",
+      "name": "군주의 칼날",
+      "shortText": "일반 공격 시 가학성 증가"
+    },
+    "AlarakPureMalice|AlarakPureMalice|Trait|Level13": {
+      "fullText": "아군 영웅이 죽으면 가학성이 <c val=\"#TooltipNumbers\">10%</c> 증가하여 최대 <c val=\"#TooltipNumbers\">40%</c> 증가합니다.<n/><n/>이 증가량은 죽으면 사라집니다.",
+      "name": "순수한 악의",
+      "shortText": "아군이 죽을 때마다 가학성 증가"
+    },
+    "AlarakRiteofRakShir|AlarakRiteofRakShir|Trait|Level13": {
+      "cooldownText": "재사용 대기시간: 300초",
+      "fullText": "사용하면 적 영웅에게 <c val=\"#TooltipNumbers\">300</c>초 동안 표식을 남깁니다.<n/><n/>표식이 남겨진 영웅에게 불화의 일격이 적중하면 가학성이 <c val=\"#TooltipNumbers\">3%</c> 증가합니다. 표식이 남겨진 영웅을 처치하면 가학성이 <c val=\"#TooltipNumbers\">5%</c> 증가하고 라크쉬르 의식의 재사용 대기시간이 <c val=\"#TooltipNumbers\">10</c>초로 감소합니다.<n/><n/>이 증가량은 죽으면 사라집니다.",
+      "name": "라크쉬르 의식",
+      "shortText": "적 영웅 지목 후 공격 시 가학성 증가"
+    },
+    "AlarakLethalOnslaughtDiscordStrike|AlarakLethalOnslaught|Q|Level16": {
+      "fullText": "불화의 일격이 적 영웅에게 적중하면 일반 공격에 가학성이 <c val=\"#TooltipNumbers\">4</c>초 동안 <c val=\"#TooltipNumbers\">50%</c> 적용됩니다. 적 영웅에게 일반 공격을 하면 지속 시간이 갱신됩니다.",
+      "name": "멸절",
+      "shortText": "불화의 일격이 일반 공격에 가학성 적용"
+    },
+    "AlarakLightningBarrage|AlarakLightningBarrage|E|Level16": {
+      "fullText": "번개 쇄도가 대상과 자신 사이의 적 영웅에게 적중하면 <c val=\"#TooltipNumbers\">3</c>초 안에 다른 대상에게 비용 없이 사용할 수 있습니다. 비용 없이 사용한 번개 쇄도는 번개 포화 특성이 적용되지 않습니다.",
+      "name": "번개 포화",
+      "shortText": "사이에 적 영웅 적중 시 다음 번개 쇄도 비용 없이 사용 가능"
+    },
+    "AlarakMockingStrikes|AlarakMockingStrikes|Passive|Level16": {
+      "fullText": "적 영웅에게 일반 공격을 할 때마다 일반 기술의 재사용 대기시간이 <c val=\"#TooltipNumbers\">1.5</c>초 감소합니다. 기절, 침묵, 감속, 이동 불가 상태인 적 영웅을 상대로는 감소량이 두 배가 됩니다.",
+      "name": "우월한 일격",
+      "shortText": "무력화된 영웅 일반 공격 시 재사용 대기시간 감소"
+    },
+    "AlarakWrathOfTheHighlord|AlarakWrathOfTheHighlord|Heroic|Level20": {
+      "fullText": "치명적인 돌진을 궁극기로 선택했을 경우, 치명적인 돌진이 적중한 적 영웅을 대상으로 <c val=\"#TooltipNumbers\">4</c>초 동안 자신의 기술이 가학성 추가 피해의 <c val=\"#TooltipNumbers\">75%</c> 만큼 추가 피해를 입힙니다.<n/><n/>반격을 궁극기로 선택했을 경우, 일반 기술이 적 영웅에게 적중했을 때 마다 반격의 재사용 대기 시간이 <c val=\"#TooltipNumbers\">2.5</c>초 감소합니다.",
+      "name": "군주의 분노",
+      "shortText": "치명적인 돌진이 가학성의 피해를 강화<n/>일반 기술이 반격의 재사용 대기시간을 감소"
+    },
+    "AlarakMightOfTheHighlord|AlarakMightOfTheHighlord|Active|Level20": {
+      "fullText": "두 궁극기를 모두 사용할 수 있게 됩니다. 사용 시 궁극기 칸과 고유 능력 칸에 배치될 궁극기를 전환할 수 있습니다.",
+      "name": "군주의 힘",
+      "shortText": "두 궁극기 모두 획득"
+    },
+    "AlarakLastLaugh|AlarakLastLaugh|Active|Level20": {
+      "cooldownText": "재사용 대기시간: 30초",
+      "fullText": "사용하면 모든 이동 불가, 감속, 지속 피해 효과를 제거하고 대상 위치로 순간이동합니다. 순간이동 후 <c val=\"#TooltipNumbers\">4</c>초 내에 적 영웅들에게 일반 기술이 총 <c val=\"#TooltipNumbers\">3</c>회 이상 적중하지 않으면 생명력이 <c val=\"#TooltipNumbers\">1</c>로 감소합니다. ",
+      "name": "최후의 웃음",
+      "shortText": "자신을 정화하고 순간이동하지만 생명력 감소"
+    },
+    "AlarakHastyBargain|AlarakHastyBargain|Active|Level20": {
+      "cooldownText": "재사용 대기시간: 20초",
+      "fullText": "사용하면 가학성이 영구히 <c val=\"#TooltipNumbers\">4%</c> 감소하지만 일반 기술의 재사용 대기시간이 초기화됩니다.",
+      "name": "과감한 결단",
+      "shortText": "사용 시 가학성이 감소하는 대신 일반 기술 재사용 대기시간 초기화"
+    }
+  },
+  "units": {}
+}

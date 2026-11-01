@@ -1,0 +1,171 @@
+{
+  "abilities": {
+    "TracerBlink|TracerBlink|Q": {
+      "cooldownText": "充能时间：9秒",
+      "fullText": "冲向目标位置。<n/><n/>最多储存<c val=\"#TooltipNumbers\">3</c>次使用次数。",
+      "name": "闪现",
+      "shortText": "冲向目标位置"
+    },
+    "TracerMelee|TracerMelee|W": {
+      "cooldownText": "冷却时间：8秒",
+      "fullText": "对一名附近的敌人造成<c val=\"#TooltipNumbers\">220</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害，优先选择英雄。近战造成伤害时获得<c val=\"#TooltipNumbers\">5%</c>的脉冲炸弹充能，对英雄造成伤害则获得<c val=\"#TooltipNumbers\">10%</c>的充能。",
+      "name": "近战",
+      "shortText": "攻击附近的一个敌人"
+    },
+    "TracerRecall|TracerRecall|E": {
+      "cooldownText": "冷却时间：20秒",
+      "fullText": "在<c val=\"#TooltipNumbers\">1.25</c>秒后，使“猎空”回到开始施法<c val=\"#TooltipNumbers\">2</c>秒之前的位置，为其装填弹药并移除所有负面状态效果。",
+      "name": "闪回",
+      "shortText": "回到几秒前的位置并移除负面效果"
+    },
+    "TracerPulseBomb|TracerPulseBomb|Heroic": {
+      "fullText": "扔出一枚短距离炸弹，如果击中敌人则会附着在其身上。炸弹在<c val=\"#TooltipNumbers\">2</c>秒后爆炸，对其造成<c val=\"#TooltipNumbers\">298</c><c val=\"#ColorGray\">~~0.06~~</c>点伤害，并对附近其他敌人造成<c val=\"#TooltipNumbers\">149</c><c val=\"#ColorGray\">~~0.06~~</c>点伤害。<n/><n/>该技能通过用普通攻击和近战对敌人造成伤害来缓慢充能。",
+      "name": "脉冲炸弹",
+      "shortText": "将炸弹附着在敌人身上并造成大量伤害"
+    },
+    "TracerReload|TracerReload|Trait": {
+      "cooldownText": "冷却时间：1秒",
+      "fullText": "“猎空”可以在移动时进行普通攻击，在攻击<c val=\"#TooltipNumbers\">10</c>次后需要在<c val=\"#TooltipNumbers\">0.75</c>秒内进行装填。“猎空”也可以手动提前装填。<n/><n/>普通攻击会为猎空恢复相当于伤害量<c val=\"#TooltipNumbers\">10%</c>的生命值。",
+      "name": "装填",
+      "shortText": "“猎空”可以在移动时使用普通攻击，普通攻击会消耗弹药"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "冷却时间：4秒",
+      "fullText": "引导<c val=\"#TooltipNumbers\">1</c>秒后，获得<s val=\"StandardTooltipDetails\">30%</s>移动速度。",
+      "name": "召唤坐骑"
+    },
+    "Hearthstone|HearthstoneNoMana|B": {
+      "fullText": "引导<c val=\"#TooltipNumbers\">6</c>秒后，传送回风暴大厅，立即恢复<c val=\"#TooltipNumbers\">1125</c>的生命值。",
+      "name": "炉石"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "解除坐骑。",
+      "name": "解除坐骑"
+    },
+    "TracerLockedandLoadedFailReload|TracerLockedandLoadedAbility|Trait": {
+      "cooldownText": "冷却时间：1秒",
+      "fullText": "在装填时间的最后<c val=\"#TooltipNumbers\">50%</c>时间以内再次装填使“猎空”在该弹夹内的子弹的普通攻击伤害提高<c val=\"#TooltipNumbers\">40%</c>。",
+      "name": "荷枪实弹",
+      "shortText": "掐准重新装填时机可以获得额外普通攻击伤害"
+    },
+    "TracerLockedandLoaded|TracerLockedandLoadedAbility|Trait": {
+      "cooldownText": "冷却时间：1秒",
+      "fullText": "在装填时间的最后<c val=\"#TooltipNumbers\">50%</c>时间以内再次装填使“猎空”在该弹夹内的子弹的普通攻击伤害提高<c val=\"#TooltipNumbers\">40%</c>。",
+      "name": "荷枪实弹",
+      "shortText": "掐准重新装填时机可以获得额外普通攻击伤害"
+    }
+  },
+  "talents": {
+    "TracerOneTwoPunch|TracerOneTwoPunch|W|Level1": {
+      "fullText": "使近战的冷却时间缩短<c val=\"#TooltipNumbers\">1</c>秒，并且获得一次额外使用次数。",
+      "name": "左右开攻",
+      "shortText": "近战获得额外使用次数、冷却时间缩短"
+    },
+    "TracerPartingGift|TracerPartingGift|E|Level1": {
+      "fullText": "闪回可以在身后留下<c val=\"#TooltipNumbers\">6</c>枚炸弹，每一枚炸弹可以对不同目标造成<c val=\"#TooltipNumbers\">240</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害。被炸弹命中的英雄会被减速<c val=\"#TooltipNumbers\">50%</c>，持续<c val=\"#TooltipNumbers\">0.75</c>秒并为脉冲炸弹提供<c val=\"#TooltipNumbers\">7%</c>充能。",
+      "name": "临别赠礼",
+      "shortText": "使用闪回会扔下炸弹"
+    },
+    "TracerTracerRounds|TracerTracerRounds|Trait|Level1": {
+      "fullText": "使普通攻击射程提高<c val=\"#TooltipNumbers\">10%</c>。对英雄发动的普通攻击会暴露其周围的一小块区域，持续<c val=\"#TooltipNumbers\">3</c>秒。",
+      "name": "曳光弹",
+      "shortText": "普通攻击可以暴露目标、提高射程"
+    },
+    "TracerLeechingRounds|TracerLeechingRounds|Trait|Level4": {
+      "fullText": "根据猎空损失的生命值，普通攻击获得的治疗最多提高至<c val=\"#TooltipNumbers\">200%</c>。",
+      "name": "吸血弹",
+      "shortText": "提高普通攻击的治疗效果"
+    },
+    "TracerPulseGenerator|TracerPulseGenerator|Heroic|Level4": {
+      "fullText": "成功将一枚脉冲炸弹粘到敌方英雄身上，会在<c val=\"#TooltipNumbers\">1.5</c>秒内为猎空恢复她最大生命值的<c val=\"#TooltipNumbers\">12%</c>，并返还一次闪现使用次数。",
+      "name": "脉冲发生器",
+      "shortText": "脉冲炸弹为猎空提供治疗、刷新闪现使用次数"
+    },
+    "TracerIsThataHealthPack|TracerIsthataHealthPack|Passive|Level4": {
+      "fullText": "收集一枚恢复之球将立即为猎空恢复其最大生命值的<c val=\"#TooltipNumbers\">15%</c>并使治疗之泉的冷却时间缩短<c val=\"#TooltipNumbers\">15</c>秒。<n/><n/>喝下治疗之泉将立即为猎空恢复其最大生命值的<c val=\"#TooltipNumbers\">20%</c>。",
+      "name": "那是急救包吗？",
+      "shortText": "强化治疗之泉与恢复之球"
+    },
+    "TracerSleightofHand|TracerSleightofHand|Trait|Level7": {
+      "fullText": "装填时间缩短<c val=\"#TooltipNumbers\">50%</c>，相当于每秒伤害提高了<c val=\"#TooltipNumbers\">20%</c>。",
+      "name": "手法娴熟",
+      "shortText": "装填速度加倍"
+    },
+    "TracerFocusFire|TracerFocusFire|Trait|Level7": {
+      "fullText": "如果整个弹夹中的所有子弹在<c val=\"#TooltipNumbers\">2</c>秒内都倾泻在同一个敌人身上，那么最后一枚子弹将造成<c val=\"#TooltipNumbers\">80</c><c val=\"#ColorGray\">~~0.04~~</c>点额外伤害。相当于弹夹总伤害的<c val=\"#TooltipNumbers\">35%</c>。",
+      "name": "集中火力",
+      "shortText": "如果弹夹内所有子弹都击中同一个敌人则造成额外伤害"
+    },
+    "TracerLockedandLoaded|TracerLockedandLoaded|Trait|Level7": {
+      "fullText": "在装填时间的最后<c val=\"#TooltipNumbers\">50%</c>时间以内再次装填使“猎空”在该弹夹内的子弹的普通攻击伤害提高<c val=\"#TooltipNumbers\">40%</c>。",
+      "name": "荷枪实弹",
+      "shortText": "掐准重新装填时机可以获得额外普通攻击伤害"
+    },
+    "TracerStickyBomb|TracerStickyBomb|Heroic|Level10": {
+      "fullText": "脉冲炸弹的爆炸范围扩大<c val=\"#TooltipNumbers\">50%</c>，并使被击中的敌人减速<c val=\"#TooltipNumbers\">70%</c>，持续<c val=\"#TooltipNumbers\">3</c>秒。",
+      "name": "黏性炸弹",
+      "shortText": "扩大脉冲炸弹范围并使敌人减速"
+    },
+    "TracerQuantumSpike|TracerQuantumSpike|Heroic|Level10": {
+      "fullText": "脉冲炸弹对英雄造成相当于最大生命值<c val=\"#TooltipNumbers\">6%</c>的额外伤害。",
+      "name": "量子巅峰",
+      "shortText": "脉冲炸弹造成百分比伤害"
+    },
+    "TracerPulseRounds|TracerPulseRounds|Heroic|Level10": {
+      "fullText": "脉冲炸弹的射程和对英雄的普通攻击的充能速度提高<c val=\"#TooltipNumbers\">100%</c>。",
+      "name": "脉冲弹",
+      "shortText": "扩大脉冲炸弹范围和充能速度"
+    },
+    "TracerUntouchable|TracerUntouchable|Q|Level13": {
+      "fullText": "<c val=\"#AbilityPassive\">被动：</c>使用闪现之后，移动速度提高<c val=\"#TooltipNumbers\">20%</c>，持续<c val=\"#TooltipNumbers\">1.25</c>秒。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任务：</c>击杀英雄使猎空的普通攻击伤害提高<c val=\"#TooltipNumbers\">5%</c>，最多提高<c val=\"#TooltipNumbers\">25%</c>。这些加成在死亡时失去。",
+      "name": "触不可及",
+      "shortText": "<c val=\"#TooltipQuest\">任务：</c>击杀英雄提高攻击伤害"
+    },
+    "TracerJumper|TracerJumper|Q|Level13": {
+      "fullText": "<c val=\"#AbilityPassive\">被动：</c>当闪现没有剩余使用次数时，冷却速度加快<c val=\"#TooltipNumbers\">100%</c>。<n/><n/>施放闪现可以使猎空获得一个相当于她最大生命值<c val=\"#TooltipNumbers\">6%</c>的护盾，持续<c val=\"#TooltipNumbers\">3</c>秒。此护盾最多可叠加<c val=\"#TooltipNumbers\">3</c>次。",
+      "name": "跳跃器",
+      "shortText": "闪现获得护盾、冷却时间缩短"
+    },
+    "TracerTelefrag|TracerTelefrag|E|Level13": {
+      "fullText": "<c val=\"#AbilityPassive\">被动：</c>对敌方英雄进行普通攻击可以使闪回的冷却时间缩短<c val=\"#TooltipNumbers\">0.1875</c>秒。<n/><n/>当猎空抵达闪回的位置时，她在<c val=\"#TooltipNumbers\">1</c>秒内变得无法击杀，同时附近的敌人将被击退并承受<c val=\"#TooltipNumbers\">175</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害。 ",
+      "name": "爆破传送",
+      "shortText": "闪回到达时造成伤害并击退"
+    },
+    "TracerBulletSprayMelee|TracerBulletSprayMelee|W|Level16": {
+      "fullText": "近战的攻击范围扩大<c val=\"#TooltipNumbers\">30%</c>，并对范围内所有敌人造成伤害。",
+      "name": "散射",
+      "shortText": "近战会攻击范围内的所有敌人"
+    },
+    "TracerHeavyHanded|TracerHeavyHanded|W|Level16": {
+      "fullText": "近战命中英雄时可以使其护甲降低<c val=\"#TooltipNumbers\">15</c>点，持续<c val=\"#TooltipNumbers\">4</c>秒。",
+      "name": "势大力沉",
+      "shortText": "近战降低护甲"
+    },
+    "TracerRicochetHeroWeapon|TracerRicochetHeroWeapon|Trait|Level16": {
+      "fullText": "“猎空”的普通攻击有<c val=\"#TooltipNumbers\">60</c>几率击中附近的另一个敌人，优先锁定英雄。",
+      "name": "弹跳弹",
+      "shortText": "普通攻击可以弹跳至附近的一个敌人"
+    },
+    "TracerChronoTriggers|TracerChronoTriggers|Q|Level20": {
+      "fullText": "施放闪现可以使普通攻击不消耗弹药，持续<c val=\"#TooltipNumbers\">1</c>秒。",
+      "name": "时空扳机",
+      "shortText": "闪现强化弹药"
+    },
+    "TracerGetStuffedMelee|TracerGetStuffedMelee|W|Level20": {
+      "fullText": "使用近战攻击英雄时，脉冲炸弹的充能效果从<c val=\"#TooltipNumbers\">10%</c>提高至<c val=\"#TooltipNumbers\">20%</c>。用近战攻击被脉冲炸弹命中的敌人会立即引爆炸弹，并击退目标。",
+      "name": "吃我一拳！",
+      "shortText": "强化近战"
+    },
+    "TracerTotalRecallRecall|TracerTotalRecallRecall|E|Level20": {
+      "fullText": "闪回会为“猎空”恢复在时间段内失去的生命值。",
+      "name": "全面闪回",
+      "shortText": "闪回可以恢复生命值"
+    },
+    "TracerCompositionBPulseBomb|TracerCompositionBPulseBomb|Heroic|Level20": {
+      "fullText": "脉冲炸弹成功粘住敌方英雄还会在他们脚下扔出另一枚炸弹，造成<c val=\"#TooltipNumbers\">50%</c>的伤害并提前引爆。",
+      "name": "复合炸药",
+      "shortText": "脉冲炸弹击中英雄后留下第二枚脉冲炸弹"
+    }
+  },
+  "units": {}
+}

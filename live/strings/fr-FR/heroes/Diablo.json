@@ -1,0 +1,194 @@
+{
+  "abilities": {
+    "DiabloShadowCharge|DiabloShadowCharge|Q": {
+      "cooldownText": "Temps de recharge : 12 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 65</s>",
+      "fullText": "Charge sur un ennemi, le repousse, lui inflige <c val=\"#TooltipNumbers\">45</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts et augmente la vitesse de déplacement de <c val=\"#TooltipNumbers\">15%</c> pendant <c val=\"#TooltipNumbers\">2</c> secondes. Si l’ennemi chargé percute un obstacle, il est étourdi pendant <c val=\"#TooltipNumbers\">1</c> seconde et subit <c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts supplémentaires.",
+      "name": "Charge d’ombre",
+      "shortText": "Charge sur une cible et la repousse."
+    },
+    "DiabloFireStomp|DiabloFireStomp|W": {
+      "cooldownText": "Temps de recharge :<sp/>8 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 35</s>",
+      "fullText": "Lance vers l’emplacement ciblé des vagues de feu qui infligent <c val=\"#TooltipNumbers\">11</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts chacune. Une fois à distance maximale, elles reviennent à Diablo et infligent <c val=\"#TooltipNumbers\">34</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts supplémentaires. Elles rendent à Diablo un montant de points de vie équivalent à <c val=\"#TooltipNumbers\">130%</c> des dégâts infligés aux héros.",
+      "name": "Choc infernal",
+      "shortText": "Lance des vagues de feu dans un arc de cercle."
+    },
+    "DiabloOverpower|DiabloOverpower|E": {
+      "cooldownText": "Temps de recharge :<sp/>12 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 35</s>",
+      "fullText": "Saisit la cible et l’écrase derrière Diablo, lui inflige <c val=\"#TooltipNumbers\">80</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts et l’étourdit pendant <c val=\"#TooltipNumbers\">0.25</c> seconde.",
+      "name": "Correction",
+      "shortText": "Saisit un ennemi et le jette au sol derrière soi pour l’étourdir et lui infliger des dégâts."
+    },
+    "DiabloApocalypse|DiabloApocalypse|Heroic": {
+      "cooldownText": "Temps de recharge : 90 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 50</s>",
+      "fullText": "Crée une rune démoniaque sous chaque héros adverse sur le champ de bataille. Après <c val=\"#TooltipNumbers\">1.75</c> seconde, les runes explosent en infligeant <c val=\"#TooltipNumbers\">137</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts et étourdissent pendant <c val=\"#TooltipNumbers\">1.75</c> seconde.",
+      "name": "Apocalypse",
+      "shortText": "Étourdit tous les héros adverses."
+    },
+    "DiabloLightningBreath|DiabloLightningBreath|Heroic": {
+      "cooldownText": "Temps de recharge : 90 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 80</s>",
+      "fullText": "Après <c val=\"#TooltipNumbers\">0,5</c> seconde, rend insensible aux effets de contrôle et permet de canaliser pendant un maximum de <c val=\"#TooltipNumbers\">4</c> secondes un cône de foudre qui inflige <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts toutes les <c val=\"#TooltipNumbers\">0,25</c> seconde aux ennemis en face de Diablo. Ralentit les ennemis affectés de <c val=\"#TooltipNumbers\">4%</c> pendant <c val=\"#TooltipNumbers\">2</c> secondes, jusqu’à un maximum de <c val=\"#TooltipNumbers\">40%</c>. <n/><n/>La zone ciblée suit le pointeur de la souris.",
+      "name": "Souffle de foudre",
+      "shortText": "Inflige des dégâts aux ennemis et les ralentit."
+    },
+    ":PASSIVE:|DiabloBlackSoulstone|Trait": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quête répétable :</c> Diablo capture <c val=\"#TooltipNumbers\">10</c> âmes par héros tué et <c val=\"#TooltipNumbers\">1</c> par serviteur, jusqu’à un maximum de <c val=\"#TooltipNumbers\">100</c> âmes. Pour chaque âme, augmente le maximum de vie de <c val=\"#TooltipNumbers\">0.3 %</c>. Si Diablo a <c val=\"#TooltipNumbers\">100</c> âmes quand il meurt, son temps de résurrection est réduit à <c val=\"#TooltipNumbers\">5</c> secondes et les <c val=\"#TooltipNumbers\">100</c> âmes sont relâchées.<n/><n/>Une fois le niveau <c val=\"#TooltipNumbers\">10</c> atteint, Diablo ne consomme plus que <c val=\"#TooltipNumbers\">75</c> âmes lors de sa résurrection.",
+      "name": "Pierre d’âme noire",
+      "shortText": "Récupère les âmes ennemies pour augmenter son maximum de vie et ressusciter plus vite."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Temps de recharge : 4 secondes",
+      "fullText": "Après <c val=\"#TooltipNumbers\">1</c> seconde de canalisation, augmente la vitesse de déplacement de <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Appeler une monture"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Après <c val=\"#TooltipNumbers\">6</c> secondes de canalisation, téléporte au hall des Tempêtes et rend instantanément <c val=\"#TooltipNumbers\">1125</c> points de vie et <c val=\"#TooltipNumbers\">150</c> points de mana.",
+      "name": "Pierre de foyer"
+    },
+    "LightningBreathCancel|DiabloLightningBreathCancel|Heroic": {
+      "fullText": "Annule la capacité Souffle de foudre.",
+      "name": "Annuler Souffle de foudre"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Permet de descendre de la monture.",
+      "name": "Renvoyer la monture"
+    },
+    "DiabloBlackSoulstoneSoulShield|DiabloSoulShield|Active": {
+      "cooldownText": "Temps de recharge : 45 secondes",
+      "fullText": "À l’activation, confère <c val=\"#TooltipNumbers\">25</c> points d’armure anti-sort plus un montant équivalent à <c val=\"#TooltipNumbers\">50%</c> du nombre d’âmes actuel de Diablo pendant <c val=\"#TooltipNumbers\">4</c> secondes. Chaque fois que Diablo inflige des dégâts à un héros adverse, le temps de recharge diminue de <c val=\"#TooltipNumbers\">1</c> seconde.",
+      "name": "Bouclier d’âme",
+      "shortText": "Confère de l’armure anti-sort par âme à l’activation."
+    },
+    "DiabloHellgate|DiabloHellgateTalent|Active": {
+      "cooldownText": "Temps de recharge : 100 secondes",
+      "fullText": "Téléporte et place une rune démoniaque à l’emplacement ciblé. Après <c val=\"#TooltipNumbers\">1.75</c> seconde, elle explose, inflige <c val=\"#TooltipNumbers\">137</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts aux ennemis, et les étourdit pendant <c val=\"#TooltipNumbers\">1.75</c> seconde.",
+      "name": "Porte de l’enfer",
+      "shortText": "Téléporte et crée une apocalypse."
+    },
+    "DiabloTalentLordOfTerror|DiabloLordOfTerror|Active": {
+      "cooldownText": "Temps de recharge : 60 secondes",
+      "fullText": "Vole aux héros adverses proches <c val=\"#TooltipNumbers\">12%</c> de leur maximum de points de vie et confère <c val=\"#TooltipNumbers\">5</c> âmes par héros affecté.",
+      "name": "Seigneur de la Terreur",
+      "shortText": "Vole des points de vie aux héros adverses proches et confère des âmes."
+    }
+  },
+  "talents": {
+    "DiabloMasteryFeastOnFearBlackSoulstone|DiabloBlackSoulstoneFeastOnFearTalent|Passive|Level1": {
+      "fullText": "Étourdir un héros adverse avec Charge d’ombre ou Correction rend à Diablo <c val=\"#TooltipNumbers\">10%</c> de son maximum de points de vie en <c val=\"#TooltipNumbers\">3</c> secondes.",
+      "name": "Salaire de la peur",
+      "shortText": "Étourdir avec Charge d’ombre ou Correction rend des points de vie."
+    },
+    "DiabloMasteryDevilsDueBlackSoulstone|DiabloBlackSoulstoneDevilsDueTalent|Trait|Level1": {
+      "fullText": "Pierre d’âme noire augmente les effets des globes de régénération et des fontaines de soins de <c val=\"#TooltipNumbers\">2,25%</c> par âme.",
+      "name": "La part du diable",
+      "shortText": "Les âmes renforcent les globes de régénération et les fontaines de soins."
+    },
+    "DiabloSoulShield|DiabloSoulShield|Active|Level1": {
+      "cooldownText": "Temps de recharge : 45 secondes",
+      "fullText": "À l’activation, confère <c val=\"#TooltipNumbers\">25</c> points d’armure anti-sort plus un montant équivalent à <c val=\"#TooltipNumbers\">50%</c> du nombre d’âmes actuel de Diablo pendant <c val=\"#TooltipNumbers\">4</c> secondes. Chaque fois que Diablo inflige des dégâts à un héros adverse, le temps de recharge diminue de <c val=\"#TooltipNumbers\">1</c> seconde.",
+      "name": "Bouclier d’âme",
+      "shortText": "Confère de l’armure anti-sort par âme à l’activation."
+    },
+    "DiabloShadowChargeSacrificialSoul|DiabloShadowChargeSacrificialSoul|Q|Level4": {
+      "fullText": "Étourdir un héros avec Charge d’ombre confère <c val=\"#TooltipNumbers\">10</c> âmes et <c val=\"#TooltipNumbers\">20</c> points d’armure pendant <c val=\"#TooltipNumbers\">3</c> secondes. Une fois <c val=\"#TooltipNumbers\">100</c> âmes obtenues, le gain d’armure est porté à <c val=\"#TooltipNumbers\">40</c> points.",
+      "name": "Âme sacrificielle",
+      "shortText": "Charge d’ombre confère des âmes et de l’armure."
+    },
+    "DiabloFireStompSoulsToTheFlame|DiabloFireStompSoulsToTheFlame|W|Level4": {
+      "fullText": "Confère <c val=\"#TooltipNumbers\">1</c> âme toutes les <c val=\"#TooltipNumbers\">3</c> fois où Choc infernal inflige des dégâts à un héros adverse. Augmente aussi les points de vie rendus par Choc infernal d’un montant équivalent à <c val=\"#TooltipNumbers\">1.3%</c> des dégâts qu’il inflige par âme.",
+      "name": "Âmes en flammes",
+      "shortText": "Choc infernal confère des âmes et rend davantage de points de vie."
+    },
+    "DiabloLifeLeech|DiabloLifeLeechTalent|Passive|Level4": {
+      "fullText": "Diablo obtient <c val=\"#TooltipNumbers\">1</c> âme et récupère <c val=\"#TooltipNumbers\">1.75%</c> de son maximum de points de vie pour chaque attaque de base portée à un héros adverse. Une fois <c val=\"#TooltipNumbers\">100</c> âmes collectées, ce montant est porté à <c val=\"#TooltipNumbers\">3.5%</c> du maximum de points de vie de Diablo.",
+      "name": "Siphon de vie",
+      "shortText": "Les attaques de base confèrent des âmes et rendent des points de vie."
+    },
+    "DiabloShadowChargeOverpowerEternalFlames|DiabloShadowChargeOverpowerEternalFlames|W|Level7": {
+      "fullText": "Réduit le temps de recharge de Choc infernal de <c val=\"#TooltipNumbers\">1</c> secondes. Quand Diablo étourdit un héros adverse avec Charge d’ombre ou Correction, le temps de recharge de Choc infernal prend fin et Diablo récupère <c val=\"#TooltipNumbers\">45</c> points de mana.",
+      "name": "Flammes éternelles",
+      "shortText": "Charge d’ombre et Correction réinitialisent Choc infernal."
+    },
+    "DiabloMalevolence|DiabloMalevolence|Passive|Level7": {
+      "fullText": "Quand Diablo utilise une capacité de base, sa prochaine attaque de base portée dans les <c val=\"#TooltipNumbers\">6</c> secondes inflige <c val=\"#TooltipNumbers\">100</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts de sort supplémentaires. Cumulable jusqu’à <c val=\"#TooltipNumbers\">2</c> charges.",
+      "name": "Malveillance",
+      "shortText": "Les capacités augmentent les dégâts des attaques de base."
+    },
+    "DiabloDiabolicalMomentum|DiabloDiabolicalMomentum|Passive|Level7": {
+      "fullText": "Quand les attaques de base de Diablo infligent des dégâts aux ennemis, les temps de recharge de Charge d’ombre et Correction sont réduits de <c val=\"#TooltipNumbers\">2</c> secondes.",
+      "name": "Élan diabolique",
+      "shortText": "Les attaques de base réduisent les temps de recharge des capacités."
+    },
+    "DiabloHeroicAbilityApocalypse|DiabloApocalypse|Heroic|Level10": {
+      "cooldownText": "Temps de recharge : 90 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 50</s>",
+      "fullText": "Crée une rune démoniaque sous chaque héros adverse sur le champ de bataille. Après <c val=\"#TooltipNumbers\">1.75</c> seconde, les runes explosent en infligeant <c val=\"#TooltipNumbers\">137</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts et étourdissent pendant <c val=\"#TooltipNumbers\">1.75</c> seconde.",
+      "name": "Apocalypse",
+      "shortText": "Étourdit tous les héros adverses."
+    },
+    "DiabloHeroicAbilityLightningBreath|DiabloLightningBreath|Heroic|Level10": {
+      "cooldownText": "Temps de recharge : 90 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 80</s>",
+      "fullText": "Après <c val=\"#TooltipNumbers\">0,5</c> seconde, rend insensible aux effets de contrôle et permet de canaliser pendant un maximum de <c val=\"#TooltipNumbers\">4</c> secondes un cône de foudre qui inflige <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts toutes les <c val=\"#TooltipNumbers\">0,25</c> seconde aux ennemis en face de Diablo. Ralentit les ennemis affectés de <c val=\"#TooltipNumbers\">4%</c> pendant <c val=\"#TooltipNumbers\">2</c> secondes, jusqu’à un maximum de <c val=\"#TooltipNumbers\">40%</c>. <n/><n/>La zone ciblée suit le pointeur de la souris.",
+      "name": "Souffle de foudre",
+      "shortText": "Inflige des dégâts aux ennemis et les ralentit."
+    },
+    "DiabloDevastatingCharge|DiabloDevastatingCharge|Q|Level13": {
+      "fullText": "Augmente les dégâts subis par un héros quand Charge d’ombre le repousse contre un obstacle de <c val=\"#TooltipNumbers\">50%</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quête :</c> repousser un héros contre un obstacle <c val=\"#TooltipNumbers\">5</c> fois.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Récompense :</c> repousser des héros adverses contre un obstacle réduit leur armure de <c val=\"#TooltipNumbers\">20</c> points pendant <c val=\"#TooltipNumbers\">4</c> secondes.",
+      "name": "Charge dévastatrice",
+      "shortText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quête :</c> Charge d’ombre réduit l’armure."
+    },
+    "DiabloHellfire|DiabloHellfire|W|Level13": {
+      "fullText": "Chaque fois que Diablo touche un héros adverse avec Choc infernal, sa puissance de capacité augmente de <c val=\"#TooltipNumbers\">3%</c>, jusqu’à un maximum de <c val=\"#TooltipNumbers\">30%</c>, pendant <c val=\"#TooltipNumbers\">10</c> secondes. Une fois ce maximum atteint, Diablo inflige <c val=\"#TooltipNumbers\">33</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts par seconde aux adversaires proches.",
+      "name": "Feu de l’enfer",
+      "shortText": "Choc infernal confère de la puissance de capacité."
+    },
+    "DiabloShadowChargeOverpowerCruelty|DiabloShadowChargeOverpowerCruelty|Passive|Level13": {
+      "fullText": "Étourdir un héros adverse avec Charge d’ombre ou Correction augmente la vitesse d’attaque de Diablo de <c val=\"#TooltipNumbers\">50%</c> pendant <c val=\"#TooltipNumbers\">7</c> secondes jusqu’à un maximum de <c val=\"#TooltipNumbers\">100%</c>.",
+      "name": "Opportunisme",
+      "shortText": "Étourdir avec Charge d’ombre ou Correction augmente la vitesse d’attaque."
+    },
+    "DiabloTalentDominationOverpower|DiabloOverpowerDominationTalent|Q|Level16": {
+      "fullText": "Correction annule le temps de recharge de Charge d’ombre.",
+      "name": "Domination",
+      "shortText": "Correction annule le temps de recharge de Charge d’ombre."
+    },
+    "DiabloDebilitatingFlames|DiabloDebilitatingFlames|W|Level16": {
+      "fullText": "Choc infernal ralentit les héros adverses de <c val=\"#TooltipNumbers\">6%</c> pendant <c val=\"#TooltipNumbers\">4</c> secondes, jusqu’à un maximum de <c val=\"#TooltipNumbers\">60%</c>. Les héros ralentis d’au moins <c val=\"#TooltipNumbers\">24%</c> par Flammes incapacitantes infligent <c val=\"#TooltipNumbers\">50%</c> de dégâts en moins.",
+      "name": "Flammes incapacitantes",
+      "shortText": "Choc infernal ralentit les héros adverses."
+    },
+    "DiabloOverpowerOverpoweringNightmare|DiabloOverpowerOverpoweringNightmareTalent|E|Level16": {
+      "fullText": "Confère <c val=\"#TooltipNumbers\">2</c> charges de Correction supplémentaires, avec un temps de recharge de <c val=\"#TooltipNumbers\">2</c> secondes entre chaque utilisation.",
+      "name": "Cauchemar accablant",
+      "shortText": "Confère des charges de Correction."
+    },
+    "DiabloMasteryDyingBreathApocalypse|DiabloApocalypseDyingBreathTalent|Heroic|Level20": {
+      "fullText": "Réduit le temps de recharge d’Apocalypse de <c val=\"#TooltipNumbers\">30</c> secondes pour chaque héros adverse touché, jusqu’à un minimum de <c val=\"#TooltipNumbers\">5</c> secondes. De plus, Apocalypse se déclenche automatiquement quand Diablo meurt.",
+      "name": "Dernier souffle",
+      "shortText": "Déclenche Apocalypse à la mort de Diablo."
+    },
+    "DiabloMasteryHellstormLightningBreath|DiabloLightningBreathHellstormTalent|Heroic|Level20": {
+      "fullText": "Souffle de foudre dure <c val=\"#TooltipNumbers\">200%</c> plus longtemps.",
+      "name": "Tempête infernale",
+      "shortText": "La durée de Souffle de foudre est augmentée."
+    },
+    "DiabloTalentLordOfTerror|DiabloLordOfTerror|Active|Level20": {
+      "cooldownText": "Temps de recharge : 60 secondes",
+      "fullText": "Vole aux héros adverses proches <c val=\"#TooltipNumbers\">12%</c> de leur maximum de points de vie et confère <c val=\"#TooltipNumbers\">5</c> âmes par héros affecté.",
+      "name": "Seigneur de la Terreur",
+      "shortText": "Vole des points de vie aux héros adverses proches et confère des âmes."
+    },
+    "DiabloHellgate|DiabloHellgateTalent|Active|Level20": {
+      "cooldownText": "Temps de recharge : 100 secondes",
+      "fullText": "Téléporte et place une rune démoniaque à l’emplacement ciblé. Après <c val=\"#TooltipNumbers\">1.75</c> seconde, elle explose, inflige <c val=\"#TooltipNumbers\">137</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts aux ennemis, et les étourdit pendant <c val=\"#TooltipNumbers\">1.75</c> seconde.",
+      "name": "Porte de l’enfer",
+      "shortText": "Téléporte et crée une apocalypse."
+    }
+  },
+  "units": {}
+}

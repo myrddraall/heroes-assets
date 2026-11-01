@@ -1,0 +1,209 @@
+{
+  "abilities": {
+    "ArthasDeathCoil|ArthasDeathCoil|Q": {
+      "cooldownText": "Cooldown: 9 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 40</s>",
+      "fullText": "Deals <c val=\"#TooltipNumbers\">164</c><c val=\"#ColorGray\">~~0.04~~</c> damage to target enemy.<n/><n/>Can be self-cast to heal for <c val=\"#TooltipNumbers\">275</c><c val=\"#ColorGray\">~~0.04~~</c> Health.",
+      "name": "Death Coil",
+      "shortText": "Deals damage to a target or heal Arthas"
+    },
+    "ArthasHowlingBlast|ArthasHowlingBlast|W": {
+      "cooldownText": "Cooldown: 10 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Root enemies within the target area for <c val=\"#TooltipNumbers\">1.25</c> seconds and deals <c val=\"#TooltipNumbers\">68</c><c val=\"#ColorGray\">~~0.04~~</c> damage.",
+      "name": "Howling Blast",
+      "shortText": "Root and damage enemies in an area"
+    },
+    "ArthasFrozenTempest|ArthasFrozenTempest|E": {
+      "cooldownText": "Cooldown: 1 second",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 13 per second</s>",
+      "fullText": "Deal <c val=\"#TooltipNumbers\">36</c><c val=\"#ColorGray\">~~0.04~~</c> damage per second to nearby enemies and Slow them by <c val=\"#TooltipNumbers\">10%</c> per second, stacking up to <c val=\"#TooltipNumbers\">40%</c>. Heroes hit also have their Attack Speed reduced by <c val=\"#TooltipNumbers\">10%</c> per second, stacking up to <c val=\"#TooltipNumbers\">40%</c>. Frozen Tempest's effects last for <c val=\"#TooltipNumbers\">1.5</c> seconds.",
+      "name": "Frozen Tempest",
+      "shortText": "Damage and slow nearby enemies. Drains Mana while active"
+    },
+    "ArthasArmyOfTheDead|ArthasArmyOfTheDead|Heroic": {
+      "cooldownText": "Cooldown: 18 seconds",
+      "fullText": "Consume all charges to summon an equal number of Ghouls that lose Health over <c val=\"#TooltipNumbers\">20</c> seconds and attack for <c val=\"#TooltipNumbers\">20</c><c val=\"#ColorGray\">~~0.04~~</c> damage. Reactivate to sacrifice a ghoul, healing Arthas for <c val=\"#TooltipNumbers\">240</c><c val=\"#ColorGray\">~~0.04~~</c> Health. Stores up to <c val=\"#TooltipNumbers\">6</c> charges.<n/><n/>Whenever a nearby enemy Minion dies, reduce the charge cooldown of this Ability by <c val=\"#TooltipNumbers\">1</c> second. Takedowns reduce the charge cooldown of this Ability by <c val=\"#TooltipNumbers\">6</c> seconds.",
+      "name": "Army of the Dead",
+      "shortText": "Raise ghouls that fight enemies, heal Arthas"
+    },
+    "ArthasSummonSindragosa|ArthasSummonSindragosa|Heroic": {
+      "cooldownText": "Cooldown: 100 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 100</s>",
+      "fullText": "Deals <c val=\"#TooltipNumbers\">230</c><c val=\"#ColorGray\">~~0.04~~</c> damage and Slows enemies by <c val=\"#TooltipNumbers\">60%</c> for <c val=\"#TooltipNumbers\">4</c> seconds. Also disables Minions, Mercenaries, Monsters and Structures for <c val=\"#TooltipNumbers\">20</c> seconds.",
+      "name": "Summon Sindragosa",
+      "shortText": "Disables enemies and Structures"
+    },
+    "ArthasFrostmourneHungers|ArthasFrostmourneHungers|Trait": {
+      "cooldownText": "Cooldown: 12 seconds",
+      "fullText": "Activate to make Arthas's next Basic Attack strike immediately and deal <c val=\"#TooltipNumbers\">71</c><c val=\"#ColorGray\">~~0.04~~</c> bonus damage. Dealing damage restores <c val=\"#TooltipNumbers\">40</c> Mana.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Killing a Minion or hitting a Hero with Frostmourne Hungers permanently increases its bonus damage by <c val=\"#TooltipNumbers\">3</c> and Arthas's Basic Attack damage by <c val=\"#TooltipNumbers\">0.75</c>.",
+      "name": "Frostmourne Hungers",
+      "shortText": "Activate to empower the next attack and restore Mana on hit"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Cooldown: 4 seconds",
+      "fullText": "After Channeling for <c val=\"#TooltipNumbers\">1</c> second, gain <s val=\"StandardTooltipDetails\">30%</s> Movement Speed.",
+      "name": "Summon Mount"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "After Channeling for <c val=\"#TooltipNumbers\">6</c> seconds, teleport back to the Hall of Storms, instantly restoring <c val=\"#TooltipNumbers\">1125</c> Health and <c val=\"#TooltipNumbers\">150</c> Mana.",
+      "name": "Hearthstone"
+    },
+    "ArthasFrozenTempestCancel|ArthasFrozenTempestDeactive|E": {
+      "cooldownText": "Cooldown: 1 second",
+      "fullText": "Cancels the Frozen Tempest ability.",
+      "name": "Cancel Frozen Tempest"
+    },
+    "ArthasArmyOfTheDeadSacrifice|ArthasArmyOfTheDeadSacrifice|Heroic": {
+      "cooldownText": "Cooldown: 2 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 15</s>",
+      "fullText": "Sacrifice a Ghoul to restore <c val=\"#TooltipNumbers\">240</c><c val=\"#ColorGray\">~~0.04~~</c> Health.",
+      "name": "Sacrifice",
+      "shortText": "Sacrifice a Ghoul to heal"
+    },
+    ":PASSIVE:|ArthasFrostmourneHungersPrimed|Trait": {
+      "fullText": "The next Basic Attack deals <c val=\"#TooltipNumbers\">71</c><c val=\"#ColorGray\">~~0.04~~</c> bonus damage. Dealing damage restores <c val=\"#TooltipNumbers\">40</c> Mana.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Killing a Minion or hitting a Hero with Frostmourne Hungers permanently increases its bonus damage and Arthas' Basic Attack damage by <c val=\"#TooltipNumbers\">3</c>.",
+      "name": "Frostmourne Hungers Primed"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Dismounts you.",
+      "name": "Unsummon Mount"
+    },
+    "ArthasIceboundFortitude|ArthasIceboundFortitudeTalent|Active": {
+      "cooldownText": "Cooldown: 35 seconds",
+      "fullText": "Activate to instantly remove all Roots and Slows. Gain <c val=\"#TooltipNumbers\">25</c> Armor and reduce the duration of Stuns, Slows, and Roots against Arthas by <c val=\"#TooltipNumbers\">75%</c> for <c val=\"#TooltipNumbers\">3</c> seconds.<n/><n/>Each Hero Rooted by Howling Blast reduces the cooldown of this ability by <c val=\"#TooltipNumbers\">2</c> seconds.",
+      "name": "Icebound Fortitude",
+      "shortText": "Activate to gain Armor, reduce disabling effects"
+    },
+    "ArthasAntiMagicShell|ArthasAntiMagicShellTalent|Active": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "fullText": "Activate to make Arthas immune to Spell Damage for <c val=\"#TooltipNumbers\">4</c> seconds and heal Arthas for <c val=\"#TooltipNumbers\">25%</c> of the damage prevented.",
+      "name": "Anti-Magic Shell",
+      "shortText": "Activate to become immune to Spell Damage"
+    },
+    "ArthasPathofFrost|ArthasPathofFrost|Active": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "fullText": "Activate to instantly mount with <c val=\"#TooltipNumbers\">140%</c> minimum Movement Speed. Taking damage does not dismount Arthas from this Mount. Lasts up to <c val=\"#TooltipNumbers\">5</c> seconds.<n/><n/>When Arthas dismounts, Slow all nearby enemies by <c val=\"#TooltipNumbers\">30%</c> for <c val=\"#TooltipNumbers\">2</c> seconds and deal <c val=\"#TooltipNumbers\">66</c><c val=\"#ColorGray\">~~0.04~~</c> damage.",
+      "name": "Path of Frost",
+      "shortText": "Gain empowered Mount, Slow nearby enemies"
+    }
+  },
+  "talents": {
+    "ArthasMasteryFrostPresenceHowlingBlast|ArthasFrostPresenceHowlingBlastTalent|W|Level1": {
+      "fullText": "Increase the area of Howling Blast by <c val=\"#TooltipNumbers\">20%</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Hit enemy Heroes with Howling Blast.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Reward:</c> After Hitting <c val=\"#TooltipNumbers\">15</c> Heroes, Howling Blast's range is increased by <c val=\"#TooltipNumbers\">20%</c> and it hits enemies in its path.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Reward:</c> After Hitting <c val=\"#TooltipNumbers\">30</c> Heroes, Death Coil Slows Heroes hit by <c val=\"#TooltipNumbers\">50%</c> for <c val=\"#TooltipNumbers\">1.25</c> seconds.",
+      "name": "Frost Presence",
+      "shortText": "<c val=\"#TooltipQuest\">Quest:</c> Root Heroes to empower Howling Blast, Death Coil"
+    },
+    "ArthasBoreanWinds|ArthasBoreanWinds|E|Level1": {
+      "fullText": "After Frozen Tempest has been active for <c val=\"#TooltipNumbers\">2</c> seconds, Arthas gains <c val=\"#TooltipNumbers\">10%</c> Movement Speed.<n/><n/><c val=\"#AbilityPassive\">Passive: </c>Frozen Tempest's Slowing effects last an additional <c val=\"#TooltipNumbers\">0.5</c> seconds and its Mana cost is reduced by <c val=\"#TooltipNumbers\">4</c> per second.",
+      "name": "Borean Winds",
+      "shortText": "Frozen Tempest increases Movement Speed"
+    },
+    "ArthasRime|ArthasRime|Passive|Level1": {
+      "fullText": "Every <c val=\"#TooltipNumbers\">5</c> seconds, gain <c val=\"#TooltipNumbers\">75</c> Physical Armor against the next enemy Hero Basic Attack, reducing the damage taken by <c val=\"#TooltipNumbers\">75%</c>. Stores up to <c val=\"#TooltipNumbers\">3</c> charges.<n/><n/><c val=\"#AbilityPassive\">Passive: </c>Arthas heals for <c val=\"#TooltipNumbers\">24</c><c val=\"#ColorGray\">~~0.04~~</c> Health per second while Slowed, Rooted, or Stunned.",
+      "name": "Rime",
+      "shortText": "Periodically gain Physical Armor, Health"
+    },
+    "ArthasShatteredArmor|ArthasShatteredArmor|W|Level4": {
+      "fullText": "Enemy Heroes hit by Howling Blast have their Armor reduced by <c val=\"#TooltipNumbers\">15</c> for <c val=\"#TooltipNumbers\">4</c> seconds.",
+      "name": "Shattered Armor",
+      "shortText": "Howling Blast reduces Armor"
+    },
+    "ArthasIcyTalons|ArthasIcyTalons|E|Level4": {
+      "fullText": "Gain <c val=\"#TooltipNumbers\">3%</c> Attack Speed for <c val=\"#TooltipNumbers\">2</c> seconds every time a Hero is damaged by Frozen Tempest, up to a maximum of <c val=\"#TooltipNumbers\">60%</c>. ",
+      "name": "Icy Talons",
+      "shortText": "Frozen Tempest increases Attack Speed"
+    },
+    "ArthasMasteryFrostStrikeFrostmourneHungers|ArthasFrostStrikeFrostmourneHungersTalent|Trait|Level4": {
+      "fullText": "Frostmourne Hungers deals an additional <c val=\"#TooltipNumbers\">115</c><c val=\"#ColorGray\">~~0.04~~</c> Spell Damage in an area and Slows enemy Heroes hit by <c val=\"#TooltipNumbers\">20%</c> for <c val=\"#TooltipNumbers\">2</c> seconds.",
+      "name": "Frost Strike",
+      "shortText": "Frostmourne Hungers damages area, Slows"
+    },
+    "ArthasMasteryImmortalCoilDeathCoil|ArthasImmortalCoilDeathCoilTalent|Q|Level7": {
+      "fullText": "Gain the healing effect of Death Coil even when used on enemies. If Death Coil is used on Arthas, it heals for an additional <c val=\"#TooltipNumbers\">75%</c> bonus healing and its cooldown is reduced by <c val=\"#TooltipNumbers\">3</c> seconds.",
+      "name": "Immortal Coil",
+      "shortText": "Death Coil always heals"
+    },
+    "ArthasRuneTap|ArthasRuneTapTalent|Passive|Level7": {
+      "fullText": "Every <c val=\"#TooltipNumbers\">3rd</c> Basic Attack heals Arthas for <c val=\"#TooltipNumbers\">5%</c> of his max Health.<n/><n/><c val=\"#AbilityPassive\">Passive: </c>Each stack of Frostmourne Hungers increases Arthas's maximum Health by <c val=\"#TooltipNumbers\">10</c>.",
+      "name": "Rune Tap",
+      "shortText": "Consecutive Basic Attacks heal, increased Health"
+    },
+    "ArthasIceboundFortitude|ArthasIceboundFortitudeTalent|Active|Level7": {
+      "cooldownText": "Cooldown: 35 seconds",
+      "fullText": "Activate to instantly remove all Roots and Slows. Gain <c val=\"#TooltipNumbers\">25</c> Armor and reduce the duration of Stuns, Slows, and Roots against Arthas by <c val=\"#TooltipNumbers\">75%</c> for <c val=\"#TooltipNumbers\">3</c> seconds.<n/><n/>Each Hero Rooted by Howling Blast reduces the cooldown of this ability by <c val=\"#TooltipNumbers\">2</c> seconds.",
+      "name": "Icebound Fortitude",
+      "shortText": "Activate to gain Armor, reduce disabling effects"
+    },
+    "ArthasHeroicAbilityArmyoftheDead|ArthasArmyOfTheDead|Heroic|Level10": {
+      "cooldownText": "Cooldown: 18 seconds",
+      "fullText": "Consume all charges to summon an equal number of Ghouls that lose Health over <c val=\"#TooltipNumbers\">20</c> seconds and attack for <c val=\"#TooltipNumbers\">20</c><c val=\"#ColorGray\">~~0.04~~</c> damage. Reactivate to sacrifice a ghoul, healing Arthas for <c val=\"#TooltipNumbers\">240</c><c val=\"#ColorGray\">~~0.04~~</c> Health. Stores up to <c val=\"#TooltipNumbers\">6</c> charges.<n/><n/>Whenever a nearby enemy Minion dies, reduce the charge cooldown of this Ability by <c val=\"#TooltipNumbers\">1</c> second. Takedowns reduce the charge cooldown of this Ability by <c val=\"#TooltipNumbers\">6</c> seconds.",
+      "name": "Army of the Dead",
+      "shortText": "Raise ghouls that fight enemies, heal Arthas"
+    },
+    "ArthasHeroicAbilitySummonSindragosa|ArthasSummonSindragosa|Heroic|Level10": {
+      "cooldownText": "Cooldown: 100 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 100</s>",
+      "fullText": "Deals <c val=\"#TooltipNumbers\">230</c><c val=\"#ColorGray\">~~0.04~~</c> damage and Slows enemies by <c val=\"#TooltipNumbers\">60%</c> for <c val=\"#TooltipNumbers\">4</c> seconds. Also disables Minions, Mercenaries, Monsters and Structures for <c val=\"#TooltipNumbers\">20</c> seconds.",
+      "name": "Summon Sindragosa",
+      "shortText": "Disables enemies and Structures"
+    },
+    "ArthasDeathlord|ArthasDeathlord|Q|Level13": {
+      "fullText": "If Death Coil is used on an enemy Hero, launch an additional Death Coil at a nearby enemy Hero.<n/><n/><c val=\"#AbilityPassive\">Passive:</c> Death Coil deals more damage the lower Arthas's current Health is, up to a maximum of <c val=\"#TooltipNumbers\">50%</c> bonus damage.",
+      "name": "Deathlord",
+      "shortText": "Death Coil hits an additional Hero, increased damage"
+    },
+    "ArthasDeathchill|ArthasDeathchill|W|Level13": {
+      "fullText": "Howling Blast's damage is increased by <c val=\"#TooltipNumbers\">2</c> for each stack of Frostmourne Hungers. <n/><n/>Howling Blast deals <c val=\"#TooltipNumbers\">100%</c> additional damage and Roots for an additional <c val=\"#TooltipNumbers\">0.25</c> seconds against Heroes under <c val=\"#TooltipNumbers\">50%</c> Health.",
+      "name": "Deathchill",
+      "shortText": "Increase Howling Blast damage, more against low health Heroes"
+    },
+    "ArthasMasteryBitingColdFrozenTempest|ArthasBitingColdFrozenTempestTalent|E|Level13": {
+      "fullText": "Each second an enemy is damaged by Frozen Tempest, it deals <c val=\"#TooltipNumbers\">15%</c> bonus damage, up to a <c val=\"#TooltipNumbers\">75%</c> bonus.",
+      "name": "Biting Cold",
+      "shortText": "Frozen Tempest damage increased"
+    },
+    "ArthasMasteryRemorselessWinterFrozenTempest|ArthasRemorselessWinterFrozenTempestTalent|E|Level16": {
+      "fullText": "Enemy Heroes that remain within Frozen Tempest for <c val=\"#TooltipNumbers\">2.5</c> seconds are Rooted for <c val=\"#TooltipNumbers\">1.25</c> seconds and heal Arthas for <c val=\"#TooltipNumbers\">3%</c> of his maximum Health. This effect has an <c val=\"#TooltipNumbers\">8</c> second cooldown per target.",
+      "name": "Remorseless Winter",
+      "shortText": "Frozen Tempest can Root enemy Heroes, heal Arthas"
+    },
+    "ArthasMasteryFrostmourneFeedsFrostmourneHungers|ArthasFrostmourneFeedsFrostmourneHungersTalents|Trait|Level16": {
+      "fullText": "Reduce the cooldown of Frostmourne Hungers by <c val=\"#TooltipNumbers\">6</c> seconds. Arthas heals for <c val=\"#TooltipNumbers\">75%</c> of the Basic Attack damage dealt by Frostmourne Hungers.",
+      "name": "Frostmourne Feeds",
+      "shortText": "Reduce Frostmourne Hungers cooldown, heals Arthas"
+    },
+    "ArthasAntiMagicShell|ArthasAntiMagicShellTalent|Active|Level16": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "fullText": "Activate to make Arthas immune to Spell Damage for <c val=\"#TooltipNumbers\">4</c> seconds and heal Arthas for <c val=\"#TooltipNumbers\">25%</c> of the damage prevented.",
+      "name": "Anti-Magic Shell",
+      "shortText": "Activate to become immune to Spell Damage"
+    },
+    "ArthasMasteryLegionOfNorthrendArmyoftheDead|ArthasLegionOfNorthrendArmyOfTheDeadTalent|Heroic|Level20": {
+      "fullText": "Reduce Army of the Dead's charge cooldown by <c val=\"#TooltipNumbers\">5</c> seconds.<n/><n/>Each charge consumed spawns an additional Ghoul to attack nearby enemies. These Ghouls cannot be sacrificed.",
+      "name": "Legion of Northrend",
+      "shortText": "Reduce Army of the Dead charge cooldown, spawn more Ghouls"
+    },
+    "ArthasMasteryAbsoluteZeroSummonSindragosa|ArthasAbsoluteZeroSummonSindragosaTalent|Heroic|Level20": {
+      "fullText": "Sindragosa flies twice as far. Enemy Heroes are Rooted for <c val=\"#TooltipNumbers\">2.5</c> seconds, and then Slowed by <c val=\"#TooltipNumbers\">60%</c> for <c val=\"#TooltipNumbers\">4</c> seconds.",
+      "name": "Absolute Zero",
+      "shortText": "Increases Sindragosa range and disable duration"
+    },
+    "ArthasDeathPact|ArthasDeathPact|Trait|Level20": {
+      "fullText": "Instantly double your stacks of Frostmourne Hungers, but it no longer gains stacks from hitting Heroes or killing Minions.<n/><n/><c val=\"#AbilityPassive\">Passive: </c>Takedowns grant <c val=\"#TooltipNumbers\">2</c> stacks of Frostmourne Hungers.",
+      "name": "Death Pact",
+      "shortText": "Double stacks of Frostmourne Hungers "
+    },
+    "ArthasPathofFrost|ArthasPathofFrost|Active|Level20": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "fullText": "Activate to instantly mount with <c val=\"#TooltipNumbers\">140%</c> minimum Movement Speed. Taking damage does not dismount Arthas from this Mount. Lasts up to <c val=\"#TooltipNumbers\">5</c> seconds.<n/><n/>When Arthas dismounts, Slow all nearby enemies by <c val=\"#TooltipNumbers\">30%</c> for <c val=\"#TooltipNumbers\">2</c> seconds and deal <c val=\"#TooltipNumbers\">66</c><c val=\"#ColorGray\">~~0.04~~</c> damage.",
+      "name": "Path of Frost",
+      "shortText": "Gain empowered Mount, Slow nearby enemies"
+    }
+  },
+  "units": {
+    "ArthasArmyOfTheDeadGhoul": {
+      "name": "Ghoul"
+    }
+  }
+}

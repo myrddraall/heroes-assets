@@ -1,0 +1,201 @@
+{
+  "abilities": {
+    "AmazonLightningFury|AmazonLightningFury|Q": {
+      "cooldownText": "Cooldown: <c val=\"#TooltipNumbers\">5 seconds</c>",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 20</s>",
+      "fullText": "Hurl a lightning javelin that deals <c val=\"#TooltipNumbers\">158</c><c val=\"#ColorGray\">~~0.04~~</c> damage to the first enemy hit and splits into two lightning bolts that deal <c val=\"#TooltipNumbers\">158</c><c val=\"#ColorGray\">~~0.04~~</c> damage to enemies in their path.",
+      "name": "Lightning Fury",
+      "shortText": "Hurl a lightning javelin that splits upon impact"
+    },
+    "AmazonBlindingLight|AmazonBlindingLight|W": {
+      "cooldownText": "Cooldown: 15 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "After <c val=\"#TooltipNumbers\">0.5</c> seconds, deal <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> damage and Blind enemies in the target area for <c val=\"#TooltipNumbers\">2</c> seconds.<n/><n/><c val=\"#AbilityPassive\">Passive:</c> Cassia deals <c val=\"#TooltipNumbers\">15%</c> increased damage to Blinded targets.",
+      "name": "Blinding Light",
+      "shortText": "Blind enemies in an area"
+    },
+    "AmazonFend|AmazonFend|E": {
+      "cooldownText": "Cooldown: 10 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Charge at an enemy, and upon arriving Channel for up to <c val=\"#TooltipNumbers\">1.5</c> seconds, dealing <c val=\"#TooltipNumbers\">64</c><c val=\"#ColorGray\">~~0.04~~</c> damage to enemies in front of Cassia every <c val=\"#TooltipNumbers\">0.25</c> seconds. Deals <c val=\"#TooltipNumbers\">50%</c> reduced damage to non-Heroes. Avoidance remains charged while Channeling.",
+      "name": "Fend",
+      "shortText": "Charge at a target and rapidly attack nearby enemies"
+    },
+    "AmazonBallLightning|AmazonBallLightning|Heroic": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Throw a ball of lightning at an enemy Hero that bounces up to <c val=\"#TooltipNumbers\">6</c> times between nearby enemy Heroes and Cassia, dealing <c val=\"#TooltipNumbers\">180</c><c val=\"#ColorGray\">~~0.04~~</c> damage to enemies hit.",
+      "name": "Ball Lightning",
+      "shortText": "Throw a bouncing lightning ball"
+    },
+    "AmazonValkyrie|AmazonValkyrie|Heroic": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Summon a Valkyrie that rushes to Cassia after <c val=\"#TooltipNumbers\">0.75</c> seconds, pulling the first enemy Hero hit, dealing <c val=\"#TooltipNumbers\">225</c><c val=\"#ColorGray\">~~0.04~~</c> damage and Stunning them for <c val=\"#TooltipNumbers\">0.5</c> seconds at the end of her path. The Valkyrie knocks back all other enemy Heroes in her way.",
+      "name": "Valkyrie",
+      "shortText": "Summon a Valkyrie to impale enemies"
+    },
+    ":PASSIVE:|AmazonAvoidance|Trait": {
+      "fullText": "While moving, Cassia gradually gains up to <c val=\"#TooltipNumbers\">30</c> Armor over <c val=\"#TooltipNumbers\">3</c> seconds. After being stationary for <c val=\"#TooltipNumbers\">0.75</c> seconds, the Armor is rapidly lost over <c val=\"#TooltipNumbers\">.5</c> seconds. <n/><n/>Avoidance remains charged while Fending.",
+      "name": "Avoidance",
+      "shortText": "Gain Armor while moving"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Cooldown: 4 seconds",
+      "fullText": "After Channeling for <c val=\"#TooltipNumbers\">1</c> second, gain <s val=\"StandardTooltipDetails\">30%</s> Movement Speed.",
+      "name": "Summon Mount"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "After Channeling for <c val=\"#TooltipNumbers\">6</c> seconds, teleport back to the Hall of Storms, instantly restoring <c val=\"#TooltipNumbers\">1125</c> Health and <c val=\"#TooltipNumbers\">150</c> Mana.",
+      "name": "Hearthstone"
+    },
+    "AmazonFendCancelChannel|AmazonCancelFend|E": {
+      "fullText": "End Fend early.",
+      "name": "Cancel Fend"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Dismounts you.",
+      "name": "Unsummon Mount"
+    },
+    "AmazonInnerLight|AmazonLightningFuryInnerLight|Active": {
+      "cooldownText": "Cooldown: 70 seconds",
+      "fullText": "Activate to heal for <c val=\"#TooltipNumbers\">25%</c> of your maximum Health over <c val=\"#TooltipNumbers\">5</c> seconds. Enemy Heroes hit with Lightning Fury lower the cooldown of this ability by <c val=\"#TooltipNumbers\">10</c> seconds.",
+      "name": "Inner Light",
+      "shortText": "Activate to heal"
+    },
+    "AmazonSurgeOfLight|AmazonAvoidance|Trait": {
+      "fullText": "While moving, Cassia gradually gains up to <c val=\"#TooltipNumbers\">30</c> Armor over <c val=\"#TooltipNumbers\">3</c> seconds. After being stationary for <c val=\"#TooltipNumbers\">0.75</c> seconds, the Armor is rapidly lost over <c val=\"#TooltipNumbers\">.5</c> seconds. <n/><n/>Avoidance remains charged while Fending.",
+      "name": "Avoidance",
+      "shortText": "Gain Armor while moving"
+    },
+    "AmazonWarTravelerSummonMount|AmazonWarTravelerSummonMount|Z": {
+      "cooldownText": "Cooldown: 4 seconds",
+      "fullText": "After Channeling for <c val=\"#TooltipNumbers\">1</c> second, gain <s val=\"StandardTooltipDetails\">30%</s> Movement Speed.",
+      "name": "Summon Mount"
+    },
+    "AmazonAvoidanceRockstopper|AmazonAvoidanceRockstopper|Active": {
+      "cooldownText": "Cooldown: 30 seconds",
+      "fullText": "Activate to fully charge Avoidance and increase its Armor value to <c val=\"#TooltipNumbers\">60</c> for <c val=\"#TooltipNumbers\">4</c> seconds.  <n/><n/>Losing Avoidance removes this bonus.",
+      "name": "Rockstopper",
+      "shortText": "Instantly charge and empower Avoidance"
+    }
+  },
+  "talents": {
+    "AmazonThunderstroke|AmazonLightningFuryThunderstroke|Q|Level1": {
+      "fullText": "Increase the damage of Lightning Fury by <c val=\"#TooltipNumbers\">20</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Lightning Fury's damage is increased by <c val=\"#TooltipNumbers\">1.5</c> every time it hits a Hero.",
+      "name": "Thunderstroke",
+      "shortText": "<c val=\"#TooltipQuest\">Quest:</c> Increase Lightning Fury damage"
+    },
+    "AmazonImpale|AmazonFendImpale|E|Level1": {
+      "fullText": "Increase Fend's cast range and radius by <c val=\"#TooltipNumbers\">25%</c>. It deals an additional <c val=\"#TooltipNumbers\">70%</c> damage to enemies below <c val=\"#TooltipNumbers\">50%</c> Health.",
+      "name": "Impale",
+      "shortText": "Increase Fend range and damage"
+    },
+    "AmazonChargedStrikes|AmazonAvoidanceChargedStrikes|Passive|Level1": {
+      "fullText": "Gain <c val=\"#TooltipNumbers\">15%</c> Attack Speed. Every <c val=\"#TooltipNumbers\">3rd</c> Basic Attack deals <c val=\"#TooltipNumbers\">20%</c> bonus damage and bounces to nearby enemy Heroes.",
+      "name": "Charged Strikes",
+      "shortText": "Gain Attack Speed, bounce damage"
+    },
+    "AmazonPlateoftheWhale|AmazonAvoidancePlateoftheWhale|Trait|Level4": {
+      "fullText": "Regenerate <c val=\"#TooltipNumbers\">6</c><c val=\"#ColorGray\">~~0.04~~</c> Health per second while Avoidance is active. If fully charged, gain an additional <c val=\"#TooltipNumbers\">12</c><c val=\"#ColorGray\">~~0.04~~</c> Health per second.",
+      "name": "Plate of the Whale",
+      "shortText": "Avoidance regenerates Health"
+    },
+    "AmazonRingoftheLeech|AmazonRingoftheLeech|Passive|Level4": {
+      "fullText": "Basic Attacks against your primary target heal for <c val=\"#TooltipNumbers\">20%</c> of their damage. If an enemy is Blinded, this also affects Lightning Fury and Fend.",
+      "name": "Ring of the Leech",
+      "shortText": "Basic Attacks heal"
+    },
+    "AmazonInnerLight|AmazonLightningFuryInnerLight|Active|Level4": {
+      "cooldownText": "Cooldown: 70 seconds",
+      "fullText": "Activate to heal for <c val=\"#TooltipNumbers\">25%</c> of your maximum Health over <c val=\"#TooltipNumbers\">5</c> seconds. Enemy Heroes hit with Lightning Fury lower the cooldown of this ability by <c val=\"#TooltipNumbers\">10</c> seconds.",
+      "name": "Inner Light",
+      "shortText": "Activate to heal"
+    },
+    "AmazonFendGroundingRod|AmazonFendGroundingRod|Q|Level7": {
+      "fullText": "Enemies hit by Lightning Fury or Fend are Slowed by <c val=\"#TooltipNumbers\">20%</c> for <c val=\"#TooltipNumbers\">2</c> seconds.",
+      "name": "Grounding Rod",
+      "shortText": "Lightning Fury and Fend Slow enemies"
+    },
+    "AmazonSeraphsHymn|AmazonBlindingLightSeraphsHymn|W|Level7": {
+      "fullText": "Basic Attacks against your primary enemy Hero grant <c val=\"#TooltipNumbers\">10</c> Mana and reduce the cooldown of Blinding Light by <c val=\"#TooltipNumbers\">2</c> seconds.<n/><n/><c val=\"#AbilityPassive\">Passive:</c> Increase the passive damage bonus of Blinding Light from <c val=\"#TooltipNumbers\">15%</c> to <c val=\"#TooltipNumbers\">30%</c>.",
+      "name": "Seraph's Hymn",
+      "shortText": "Empower Basic Attacks, Blinding Light"
+    },
+    "AmazonSurgeOfLight|AmazonAvoidanceSurgeOfLight|Trait|Level7": {
+      "fullText": "After taking <c val=\"#TooltipNumbers\">650</c><c val=\"#ColorGray\">~~0.04~~</c> damage with Avoidance active, Cassia can activate Avoidance to deal <c val=\"#TooltipNumbers\">220</c><c val=\"#ColorGray\">~~0.04~~</c> damage to enemies around her.",
+      "name": "Surge of Light",
+      "shortText": "Activate Avoidance to deal damage"
+    },
+    "AmazonBallLightning|AmazonBallLightning|Heroic|Level10": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Throw a ball of lightning at an enemy Hero that bounces up to <c val=\"#TooltipNumbers\">6</c> times between nearby enemy Heroes and Cassia, dealing <c val=\"#TooltipNumbers\">180</c><c val=\"#ColorGray\">~~0.04~~</c> damage to enemies hit.",
+      "name": "Ball Lightning",
+      "shortText": "Throw a bouncing lightning ball"
+    },
+    "AmazonValkyrie|AmazonValkyrie|Heroic|Level10": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Summon a Valkyrie that rushes to Cassia after <c val=\"#TooltipNumbers\">0.75</c> seconds, pulling the first enemy Hero hit, dealing <c val=\"#TooltipNumbers\">225</c><c val=\"#ColorGray\">~~0.04~~</c> damage and Stunning them for <c val=\"#TooltipNumbers\">0.5</c> seconds at the end of her path. The Valkyrie knocks back all other enemy Heroes in her way.",
+      "name": "Valkyrie",
+      "shortText": "Summon a Valkyrie to impale enemies"
+    },
+    "AmazonFendWarMatron|Amazon-FendWarMatron|E|Level13": {
+      "fullText": "Cassia becomes Protected while Channeling Fend and for an additional <c val=\"#TooltipNumbers\">1</c> second if the Channel is completed.",
+      "name": "War Matron",
+      "shortText": "Fend grants Protected"
+    },
+    "AmazonWarTraveler|AmazonAvoidanceWarTraveler|Trait|Level13": {
+      "fullText": "Gain <c val=\"#TooltipNumbers\">5%</c> Movement Speed. While Avoidance is fully charged, gain an additional <c val=\"#TooltipNumbers\">10%</c> Movement Speed and Mounting is instant.",
+      "name": "War Traveler",
+      "shortText": "Increase Movement Speed, instant Mount"
+    },
+    "AmazonFendGlovesOfAlacrity|AmazonFendGlovesOfAlacrity|Trait|Level13": {
+      "fullText": "Gain <c val=\"#TooltipNumbers\">1</c> Basic Attack range. While Avoidance is fully charged, gain an additional <c val=\"#TooltipNumbers\">1</c> Basic Attack range.",
+      "name": "Gloves Of Alacrity",
+      "shortText": "Increase Attack Range"
+    },
+    "AmazonPowerStrike|AmazonPowerStrike|Q|Level16": {
+      "fullText": "Lightning Fury pierces but only splits on Heroes. Enemy Heroes hit reduce its cooldown by <c val=\"#TooltipNumbers\">1</c> second and become marked for <c val=\"#TooltipNumbers\">15</c> seconds. Upon reaching <c val=\"#TooltipNumbers\">3</c> marks, remove them and cast a Blinding Light at their feet.",
+      "name": "Power Strike",
+      "shortText": "Lightning Fury pierces and casts Blinding Light"
+    },
+    "AmazonStaticElectricity|AmazonFendStaticElectricity|Q|Level16": {
+      "fullText": "Gain <c val=\"#TooltipNumbers\">2</c> additional charges of Lightning Fury. Fend's impact launches a lightning bolt towards each nearby enemy Hero.",
+      "name": "Static Electricity",
+      "shortText": "Fend releases Lightning Fury bolts"
+    },
+    "AmazonMartialLaw|AmazonMartialLaw|Passive|Level16": {
+      "fullText": "Basic Attacks against enemy Heroes deal bonus damage equal to <c val=\"#TooltipNumbers\">1%</c> of their maximum Health. Increase this to <c val=\"#TooltipNumbers\">3%</c> if they are Stunned, Rooted, Slowed, or Blinded.",
+      "name": "Martial Law",
+      "shortText": "Disabled Heroes take additional damage"
+    },
+    "AmazonInfiniteLightning|AmazonBallLightningInfiniteLightning|Heroic|Level20": {
+      "fullText": "Ball Lightning can now bounce indefinitely. Every bounce reduces its cooldown by <c val=\"#TooltipNumbers\">4</c> seconds.",
+      "name": "Infinite Lightning",
+      "shortText": "Ball Lightning bounces indefinitely"
+    },
+    "AmazonImprisoningLight|AmazonValkyrieImprisoningLight|Heroic|Level20": {
+      "fullText": "Upon impaling an enemy Hero, they are Blinded for <c val=\"#TooltipNumbers\">5</c> seconds and Cassia's Valkyrie creates a wave of light that deals <c val=\"#TooltipNumbers\">200</c><c val=\"#ColorGray\">~~0.04~~</c> damage to nearby enemies. This wave Silences and Roots them for <c val=\"#TooltipNumbers\">3</c> seconds.",
+      "name": "Imprisoning Light",
+      "shortText": "Valkyrie Roots and Silences enemies"
+    },
+    "AmazonTitansRevenge|AmazonTitansRevenge|Trait|Level20": {
+      "fullText": "Cassia's Basic Attacks now ignore Armor and while Avoidance is fully charged, they deal an additional <c val=\"#TooltipNumbers\">20%</c> bonus damage.",
+      "name": "Titan's Revenge",
+      "shortText": "Basic Attacks ignore Armor"
+    },
+    "Amazon-AvoidanceRockstopper|AmazonAvoidanceRockstopper|Active|Level20": {
+      "cooldownText": "Cooldown: 30 seconds",
+      "fullText": "Activate to fully charge Avoidance and increase its Armor value to <c val=\"#TooltipNumbers\">60</c> for <c val=\"#TooltipNumbers\">4</c> seconds.  <n/><n/>Losing Avoidance removes this bonus.",
+      "name": "Rockstopper",
+      "shortText": "Instantly charge and empower Avoidance"
+    }
+  },
+  "units": {
+    "AmazonBallLightningController": {
+      "name": "Ball Lightning - Controller"
+    }
+  }
+}

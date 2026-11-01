@@ -1,0 +1,705 @@
+{
+  "id": "Sylvanas",
+  "unitId": "HeroSylvanas",
+  "hyperlinkId": "Sylvanas",
+  "attributeId": "Sylv",
+  "franchise": "Warcraft",
+  "rarity": "Epic",
+  "releaseDate": "2015-03-24",
+  "isMelee": false,
+  "gender": "Female",
+  "radius": 0.625,
+  "innerRadius": 0.625,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 6,
+    "damage": 9,
+    "survivability": 3,
+    "utility": 7
+  },
+  "life": {
+    "amount": 1650,
+    "scale": 0.04,
+    "regenRate": 3.4414,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "EnergyImportant",
+    "Escaper",
+    "MercKiller",
+    "RoleSpecialist",
+    "TowerDisabler",
+    "TowerPusher",
+    "WaveClearer"
+  ],
+  "weapons": [
+    {
+      "nameId": "SylvanasHeroWeapon",
+      "isDisabled": false,
+      "range": 5.5,
+      "minimumRange": 0,
+      "period": 0.6,
+      "damage": 81,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "SylvanasBloodRaven",
+    "SylvanasFairy",
+    "SylvanasLegion",
+    "SylvanasLunar",
+    "SylvanasRangerGeneral",
+    "SylvanasUltimate"
+  ],
+  "variationSkinIds": [
+    "SylvanasBlue",
+    "SylvanasRed"
+  ],
+  "voiceLineIds": [
+    "SylvanasBase_VoiceLine01",
+    "SylvanasBase_VoiceLine02",
+    "SylvanasBase_VoiceLine03",
+    "SylvanasBase_VoiceLine04",
+    "SylvanasBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "SylvanasWitheringFire|SylvanasWitheringFire|Q",
+        "abilityId": "SylvanasWitheringFire",
+        "buttonId": "SylvanasWitheringFire",
+        "icon": "storm_ui_icon_sylvanas_witheringfire.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "SylvanasShadowDagger|SylvanasShadowDagger|W",
+        "abilityId": "SylvanasShadowDagger",
+        "buttonId": "SylvanasShadowDagger",
+        "icon": "storm_ui_icon_sylvanas_shadowdagger.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "SylvanasHauntingWave|SylvanasHauntingWave|E",
+        "abilityId": "SylvanasHauntingWave",
+        "buttonId": "SylvanasHauntingWave",
+        "icon": "storm_ui_icon_sylvanas_hauntingwave.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "SylvanasWailingArrow|SylvanasWailingArrow|Heroic",
+        "abilityId": "SylvanasWailingArrow",
+        "buttonId": "SylvanasWailingArrow",
+        "icon": "storm_ui_icon_sylvanas_wailingarrow.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "SylvanasMindControlMissile|SylvanasMindControlMissile|Heroic",
+        "abilityId": "SylvanasMindControlMissile",
+        "buttonId": "SylvanasMindControlMissile",
+        "icon": "storm_ui_icon_sylvanas_mindcontrol.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": ":PASSIVE:|SylvanasBlackArrowsPassive|Trait",
+        "abilityId": ":PASSIVE:",
+        "buttonId": "SylvanasBlackArrowsPassive",
+        "icon": "storm_ui_icon_sylvanas_blackarrows.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Activable": [
+      {
+        "linkId": "SylvanasPossession|SylvanasPossession|Active",
+        "abilityId": "SylvanasPossession",
+        "buttonId": "SylvanasPossession",
+        "icon": "storm_ui_icon_sylvanas_possession.png",
+        "charges": {
+          "countMax": 4,
+          "countStart": 4,
+          "countUse": 1,
+          "recastCooldown": 1,
+          "isCountHidden": false
+        },
+        "abilityType": "Active"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "SylvanasHauntingWave|SylvanasHauntingWave|E": {
+      "Basic": [
+        {
+          "linkId": "SylvanasHauntingWaveActivate|SylvanasHauntingWaveActivate|E",
+          "abilityId": "SylvanasHauntingWaveActivate",
+          "buttonId": "SylvanasHauntingWaveActivate",
+          "icon": "storm_ui_icon_sylvanas_hauntingwave_2.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "E"
+        }
+      ]
+    },
+    "SylvanasHauntingWaveWindrunnerTalent|SylvanasHauntingWaveFree|E": {
+      "Basic": [
+        {
+          "linkId": "SylvanasHauntingWaveActivateWindrunnerTalent|SylvanasHauntingWaveActivateFree|E",
+          "abilityId": "SylvanasHauntingWaveActivateWindrunnerTalent",
+          "buttonId": "SylvanasHauntingWaveActivateFree",
+          "icon": "storm_ui_icon_sylvanas_hauntingwave_2.png",
+          "toggleCooldown": 0.0625,
+          "abilityType": "E"
+        }
+      ]
+    },
+    "SylvanasMindControlMissile|SylvanasMindControlMissile|Heroic": {
+      "Heroic": [
+        {
+          "linkId": "SylvanasMindControlCancel|SylvanasMindControlCancel|Heroic",
+          "abilityId": "SylvanasMindControlCancel",
+          "buttonId": "SylvanasMindControlCancel",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Heroic"
+        }
+      ]
+    },
+    "SylvanasWailingArrow|SylvanasWailingArrow|Heroic": {
+      "Heroic": [
+        {
+          "linkId": "SylvanasWailingArrowActivate|SylvanasWailingArrowActivate|Heroic",
+          "abilityId": "SylvanasWailingArrowActivate",
+          "buttonId": "SylvanasWailingArrowActivate",
+          "icon": "storm_ui_icon_sylvanas_wailingarrow_2.png",
+          "toggleCooldown": 0.25,
+          "abilityType": "Heroic"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "SylvanasHauntingArrows|SylvanasBlackArrowsHauntingArrowsTalent|Trait|Level4": {
+      "Trait": [
+        {
+          "linkId": "SylvanasBlackArrowsActive|SylvanasBlackArrows|Trait",
+          "abilityId": "SylvanasBlackArrowsActive",
+          "buttonId": "SylvanasBlackArrows",
+          "icon": "storm_ui_icon_sylvanas_blackarrows.png",
+          "abilityType": "Trait"
+        }
+      ]
+    },
+    "SylvanasTalentWindrunnerHauntingWave|SylvanasHauntingWaveWindrunnerTalent|E|Level13": {
+      "Basic": [
+        {
+          "linkId": "SylvanasHauntingWaveWindrunnerTalent|SylvanasHauntingWaveFree|E",
+          "abilityId": "SylvanasHauntingWaveWindrunnerTalent",
+          "buttonId": "SylvanasHauntingWaveFree",
+          "icon": "storm_ui_icon_sylvanas_hauntingwave.png",
+          "toggleCooldown": 0.0625,
+          "abilityType": "E"
+        }
+      ]
+    },
+    "SylvanasTalentWillOfTheForsaken|SylvanasWillOfTheForsaken|Active|Level16": {
+      "Activable": [
+        {
+          "linkId": "SylvanasWillOfTheForsaken|SylvanasWillOfTheForsaken|Active",
+          "abilityId": "SylvanasWillOfTheForsaken",
+          "buttonId": "SylvanasWillOfTheForsaken",
+          "icon": "storm_ui_icon_sylvanas_willoftheforsaken.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "GenericTalentFlashoftheStorms|GenericBoltoftheStormTalent|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "FlashoftheStorms|GenericBoltoftheStormTalent|Active",
+          "abilityId": "FlashoftheStorms",
+          "buttonId": "GenericBoltoftheStormTalent",
+          "icon": "storm_ui_icon_talent_boltofthestorm.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "SylvanasTalentMightOfTheBansheeQueen|SylvanasMightOfTheBansheeQueenWitheringFireTalent|Q|Level1",
+        "talentId": "SylvanasTalentMightOfTheBansheeQueen",
+        "buttonId": "SylvanasMightOfTheBansheeQueenWitheringFireTalent",
+        "abilityId": "SylvanasWitheringFire",
+        "icon": "storm_ui_icon_sylvanas_witheringfire.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "SylvanasWitheringFire|SylvanasWitheringFire|Q"
+        ]
+      },
+      {
+        "linkId": "SylvanasUnrelentingTorment|SylvanasUnrelentingTorment|W|Level1",
+        "talentId": "SylvanasUnrelentingTorment",
+        "buttonId": "SylvanasUnrelentingTorment",
+        "abilityId": "SylvanasShadowDagger",
+        "icon": "storm_ui_icon_sylvanas_shadowdagger.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "SylvanasShadowDagger|SylvanasShadowDagger|W"
+        ]
+      },
+      {
+        "linkId": "SylvanasTalentOverwhelmingAffliction|SylvanasBlackArrowsOverwhelmingAfflictionTalent|Trait|Level1",
+        "talentId": "SylvanasTalentOverwhelmingAffliction",
+        "buttonId": "SylvanasBlackArrowsOverwhelmingAfflictionTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_sylvanas_blackarrows.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|SylvanasBlackArrowsPassive|Trait",
+          "SylvanasBlackArrowsActive|SylvanasBlackArrows|Trait"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "SylvanasTalentUnstablePoison|SylvanasBlackArrowsUnstablePoisonTalent|W|Level4",
+        "talentId": "SylvanasTalentUnstablePoison",
+        "buttonId": "SylvanasBlackArrowsUnstablePoisonTalent",
+        "abilityId": "SylvanasShadowDagger",
+        "icon": "storm_ui_icon_sylvanas_shadowdagger.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "SylvanasShadowDagger|SylvanasShadowDagger|W"
+        ]
+      },
+      {
+        "linkId": "SylvanasTalentMercenaryQueen|SylvanasMercenaryQueenTalent|Trait|Level4",
+        "talentId": "SylvanasTalentMercenaryQueen",
+        "buttonId": "SylvanasMercenaryQueenTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_sylvanas_blackarrows.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|SylvanasBlackArrowsPassive|Trait",
+          "SylvanasBlackArrowsActive|SylvanasBlackArrows|Trait"
+        ]
+      },
+      {
+        "linkId": "SylvanasHauntingArrows|SylvanasBlackArrowsHauntingArrowsTalent|Trait|Level4",
+        "talentId": "SylvanasHauntingArrows",
+        "buttonId": "SylvanasBlackArrowsHauntingArrowsTalent",
+        "abilityId": "SylvanasBlackArrowsActive",
+        "icon": "storm_ui_icon_sylvanas_blackarrows_b.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|SylvanasBlackArrowsPassive|Trait",
+          "SylvanasBlackArrowsActive|SylvanasBlackArrows|Trait"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "SylvanasTalentWitheringFireBarbedShot|SylvanasWitheringFireBarbedShotTalent|Q|Level7",
+        "talentId": "SylvanasTalentWitheringFireBarbedShot",
+        "buttonId": "SylvanasWitheringFireBarbedShotTalent",
+        "abilityId": "SylvanasWitheringFire",
+        "icon": "storm_ui_icon_sylvanas_witheringfire.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "SylvanasWitheringFire|SylvanasWitheringFire|Q"
+        ]
+      },
+      {
+        "linkId": "SylvanasTalentLostSoul|SylvanasShadowDaggerLostSoulTalent|W|Level7",
+        "talentId": "SylvanasTalentLostSoul",
+        "buttonId": "SylvanasShadowDaggerLostSoulTalent",
+        "abilityId": "SylvanasShadowDagger",
+        "icon": "storm_ui_icon_sylvanas_shadowdagger.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "SylvanasShadowDagger|SylvanasShadowDagger|W"
+        ]
+      },
+      {
+        "linkId": "SylvanasTalentFesteringWounds|SylvanasBlackArrowsFesteringWounds|E|Level7",
+        "talentId": "SylvanasTalentFesteringWounds",
+        "buttonId": "SylvanasBlackArrowsFesteringWounds",
+        "abilityId": "SylvanasHauntingWave",
+        "icon": "storm_ui_icon_sylvanas_hauntingwave.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "SylvanasHauntingWave|SylvanasHauntingWave|E"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "SylvanasHeroicAbilityWailingArrow|SylvanasWailingArrow|Heroic|Level10",
+        "talentId": "SylvanasHeroicAbilityWailingArrow",
+        "buttonId": "SylvanasWailingArrow",
+        "abilityId": "SylvanasWailingArrow",
+        "icon": "storm_ui_icon_sylvanas_wailingarrow.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "SylvanasMindControl|SylvanasMindControlMissile|Heroic|Level10",
+        "talentId": "SylvanasMindControl",
+        "buttonId": "SylvanasMindControlMissile",
+        "abilityId": "SylvanasMindControlMissile",
+        "icon": "storm_ui_icon_sylvanas_mindcontrol.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "SylvanasTalentColdEmbrace|SylvanasShadowDaggerColdEmbraceTalent|W|Level13",
+        "talentId": "SylvanasTalentColdEmbrace",
+        "buttonId": "SylvanasShadowDaggerColdEmbraceTalent",
+        "abilityId": "SylvanasShadowDagger",
+        "icon": "storm_ui_icon_sylvanas_shadowdagger.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "SylvanasShadowDagger|SylvanasShadowDagger|W"
+        ]
+      },
+      {
+        "linkId": "SylvanasTalentWindrunnerHauntingWave|SylvanasHauntingWaveWindrunnerTalent|E|Level13",
+        "talentId": "SylvanasTalentWindrunnerHauntingWave",
+        "buttonId": "SylvanasHauntingWaveWindrunnerTalent",
+        "abilityId": "SylvanasHauntingWave",
+        "icon": "storm_ui_icon_sylvanas_hauntingwave.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "SylvanasHauntingWave|SylvanasHauntingWave|E",
+          "SylvanasHauntingWaveWindrunnerTalent|SylvanasHauntingWaveFree|E"
+        ]
+      },
+      {
+        "linkId": "SylvanasTalentRemorseless|SylvanasRemorselessTalent|Trait|Level13",
+        "talentId": "SylvanasTalentRemorseless",
+        "buttonId": "SylvanasRemorselessTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_sylvanas_blackarrows.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|SylvanasBlackArrowsPassive|Trait",
+          "SylvanasBlackArrowsActive|SylvanasBlackArrows|Trait"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "SylvanasTalentWitheringFireEvasiveFire|SylvanasWitheringFireEvasiveFireTalent|Q|Level16",
+        "talentId": "SylvanasTalentWitheringFireEvasiveFire",
+        "buttonId": "SylvanasWitheringFireEvasiveFireTalent",
+        "abilityId": "SylvanasWitheringFire",
+        "icon": "storm_ui_icon_sylvanas_witheringfire.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "SylvanasWitheringFire|SylvanasWitheringFire|Q"
+        ]
+      },
+      {
+        "linkId": "SylvanasTalentLifeDrain|SylvanasBlackArrowsLifeDrainTalent|Trait|Level16",
+        "talentId": "SylvanasTalentLifeDrain",
+        "buttonId": "SylvanasBlackArrowsLifeDrainTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_sylvanas_blackarrows.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|SylvanasBlackArrowsPassive|Trait",
+          "SylvanasBlackArrowsActive|SylvanasBlackArrows|Trait"
+        ]
+      },
+      {
+        "linkId": "SylvanasTalentWillOfTheForsaken|SylvanasWillOfTheForsaken|Active|Level16",
+        "talentId": "SylvanasTalentWillOfTheForsaken",
+        "buttonId": "SylvanasWillOfTheForsaken",
+        "abilityId": "SylvanasWillOfTheForsaken",
+        "icon": "storm_ui_icon_sylvanas_willoftheforsaken.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "SylvanasWailingArrowDeafeningBlast|SylvanasWailingArrowDeafeningBlastTalent|Heroic|Level20",
+        "talentId": "SylvanasWailingArrowDeafeningBlast",
+        "buttonId": "SylvanasWailingArrowDeafeningBlastTalent",
+        "abilityId": "SylvanasWailingArrow",
+        "icon": "storm_ui_icon_sylvanas_wailingarrow.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "SylvanasWailingArrow|SylvanasWailingArrow|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "SylvanasHeroicAbilityWailingArrow"
+        ]
+      },
+      {
+        "linkId": "SylvanasDarkLadysCall|SylvanasDarkLadysCallMindControlTalent|Heroic|Level20",
+        "talentId": "SylvanasDarkLadysCall",
+        "buttonId": "SylvanasDarkLadysCallMindControlTalent",
+        "abilityId": "SylvanasMindControlMissile",
+        "icon": "storm_ui_icon_sylvanas_mindcontrol.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "SylvanasMindControlMissile|SylvanasMindControlMissile|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "SylvanasMindControl"
+        ]
+      },
+      {
+        "linkId": "SylvanasTalentWitheringBarrage|SylvanasWitheringFireWitheringBarrage|Q|Level20",
+        "talentId": "SylvanasTalentWitheringBarrage",
+        "buttonId": "SylvanasWitheringFireWitheringBarrage",
+        "abilityId": "SylvanasWitheringFire",
+        "icon": "storm_ui_icon_sylvanas_witheringfire.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "SylvanasWitheringFire|SylvanasWitheringFire|Q"
+        ]
+      },
+      {
+        "linkId": "GenericTalentFlashoftheStorms|GenericBoltoftheStormTalent|Active|Level20",
+        "talentId": "GenericTalentFlashoftheStorms",
+        "buttonId": "GenericBoltoftheStormTalent",
+        "abilityId": "FlashoftheStorms",
+        "icon": "storm_ui_icon_talent_boltofthestorm.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      }
+    ]
+  },
+  "sheet": "sheets/Sylvanas.png",
+  "icons": {
+    "storm_ui_icon_sylvanas_witheringfire.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_sylvanas_shadowdagger.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_sylvanas_hauntingwave.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_sylvanas_wailingarrow.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_sylvanas_mindcontrol.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_sylvanas_blackarrows.png": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_mount.png": [
+      256,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_sylvanas_possession.png": [
+      384,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      0,
+      256,
+      111,
+      71
+    ],
+    "storm_ui_icon_sylvanas_hauntingwave_2.png": [
+      128,
+      256,
+      128,
+      128
+    ],
+    "hud_btn_bg_ability_cancel.png": [
+      256,
+      256,
+      97,
+      111
+    ],
+    "storm_ui_icon_sylvanas_wailingarrow_2.png": [
+      384,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_cancel_mount.png": [
+      0,
+      384,
+      76,
+      48
+    ],
+    "storm_ui_icon_sylvanas_willoftheforsaken.png": [
+      128,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_boltofthestorm.png": [
+      256,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_sylvanas_blackarrows_b.png": [
+      384,
+      384,
+      128,
+      128
+    ]
+  }
+}

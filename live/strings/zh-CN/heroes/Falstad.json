@@ -1,0 +1,179 @@
+{
+  "abilities": {
+    "FalstadHammerang|FalstadHammerang|Q": {
+      "cooldownText": "冷却时间：10秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：60</s>",
+      "fullText": "投掷一把会返回弗斯塔德手中的飞锤，造成<c val=\"#TooltipNumbers\">80</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害并使被命中的敌人减速<c val=\"#TooltipNumbers\">25%</c>，持续<c val=\"#TooltipNumbers\">2</c>秒。再次激活可以引爆飞锤，对附近敌人造成<c val=\"#TooltipNumbers\">95</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害。",
+      "name": "回旋锤",
+      "shortText": "扔出一柄可以返回并爆炸的锤子"
+    },
+    "FalstadLightningRod|FalstadLightningRod|W": {
+      "cooldownText": "冷却时间：12秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：60</s>",
+      "fullText": "对一名敌人造成<c val=\"#TooltipNumbers\">107</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害，在目标附近时，每<c val=\"#TooltipNumbers\">0.9</c>秒额外造成<c val=\"#TooltipNumbers\">75</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害，持续<c val=\"#TooltipNumbers\">4</c>秒。对小兵和雇佣兵造成的伤害提高<c val=\"#TooltipNumbers\">100%</c>。",
+      "name": "引雷针",
+      "shortText": "在敌人附近时对他们造成伤害"
+    },
+    "FalstadBarrelRoll|FalstadBarrelRoll|E": {
+      "cooldownText": "冷却时间：13秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：70</s>",
+      "fullText": "向目标区域冲刺，获得<c val=\"#TooltipNumbers\">171</c><c val=\"#ColorGray\">~~0.04~~</c>点护盾，持续<c val=\"#TooltipNumbers\">3</c>秒。",
+      "name": "侧滚翻",
+      "shortText": "快速前往目标区域，获得一层临时护盾"
+    },
+    "FalstadMightyGust|FalstadMightyGust|Heroic": {
+      "cooldownText": "冷却时间：60秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：70</s>",
+      "fullText": "将敌人推开并使其减速<c val=\"#TooltipNumbers\">40%</c>，减速效果在<c val=\"#TooltipNumbers\">4</c>秒内递减。",
+      "name": "狂风来袭",
+      "shortText": "将敌人推开并使其减速"
+    },
+    "FalstadHinterlandBlast|FalstadHinterlandBlast|Heroic": {
+      "cooldownText": "冷却时间：120秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：80</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">1</c>秒后，对一长段直线上的敌人造成<c val=\"#TooltipNumbers\">475</c><c val=\"#ColorGray\">~~0.0475~~</c>点伤害。每击中一名敌方英雄，冷却时间就会缩短<c val=\"#TooltipNumbers\">30</c>秒。",
+      "name": "辛特兰雷击",
+      "shortText": "超远距离的伤害光束"
+    },
+    "FalstadTailwindCooldownDisplay|FalstadTailwind|Trait": {
+      "cooldownText": "冷却时间：5秒",
+      "fullText": "如果<c val=\"#TooltipNumbers\">5</c>秒内没有受到任何伤害，移动速度提高<c val=\"#TooltipNumbers\">15%</c>。",
+      "name": "顺风之力",
+      "shortText": "在短时间内没有受到任何伤害后，提高移动速度"
+    },
+    "FalstadFlight|FalstadFlight|Z": {
+      "cooldownText": "冷却时间：75秒",
+      "fullText": "弗斯塔德骑乘飞行坐骑，可以远距离飞越地形。",
+      "name": "飞行",
+      "shortText": "弗斯塔德骑乘飞行坐骑，可以远距离飞越地形"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "引导<c val=\"#TooltipNumbers\">6</c>秒后，传送回风暴大厅，立即恢复<c val=\"#TooltipNumbers\">1125</c>的生命值和<c val=\"#TooltipNumbers\">150</c>法力值。",
+      "name": "炉石"
+    },
+    "FalstadBOOMerang|FalstadHammerangBOOMerangActive|Q": {
+      "cooldownText": "冷却时间：1秒",
+      "fullText": "在飞锤周围的小范围区域内造成<c val=\"#TooltipNumbers\">95</c><c val=\"#ColorGray\">~~0.04~~</c>点额外伤害。",
+      "name": "爆炸",
+      "shortText": "在飞锤附近造成小范围伤害"
+    },
+    "FalstadFrequentFlyerActive|FalstadTailwindFrequentFlyerActive|Active": {
+      "cooldownText": "冷却时间：60秒",
+      "fullText": "激活后将获得<c val=\"#TooltipNumbers\">25%</c>攻击速度加成和顺风之力，持续<c val=\"#TooltipNumbers\">4</c>秒。",
+      "name": "飞行老手"
+    }
+  },
+  "talents": {
+    "FalstadHammerangGatheringStorm|FalstadGatheringStormTalent|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任务：</c>使用回旋锤击中敌方英雄。每击中一名英雄恢复<c val=\"#TooltipNumbers\">6</c>点法力值。死亡时，失去<c val=\"#TooltipNumbers\">8</c>层加成。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">奖励：</c>击中<c val=\"#TooltipNumbers\">30</c>名英雄之后，回旋锤永久造成<c val=\"#TooltipNumbers\">30%</c>额外伤害。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">奖励：</c>击中<c val=\"#TooltipNumbers\">80</c>名英雄后，回旋锤永久额外造成<c val=\"#TooltipNumbers\">50%</c>伤害。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">神话奖励：</c>击中<c val=\"#TooltipNumbers\">150</c>名英雄后，回旋锤永久额外造成<c val=\"#TooltipNumbers\">70%</c>伤害。",
+      "name": "风暴聚集",
+      "shortText": "<c val=\"#TooltipQuest\">任务：</c>提高回旋锤伤害"
+    },
+    "FalstadLightningRodDishonorableDischarge|FalstadLightningRodDishonorableDischarge|W|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任务：</c>对英雄造成的引雷针打击在<c val=\"#TooltipNumbers\">第3次</c>之后每次产生<c val=\"#TooltipNumbers\">1</c>层加成。如果一名英雄在此效果下死亡，则产生<c val=\"#TooltipNumbers\">2</c>层加成。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">奖励：</c>在<c val=\"#TooltipNumbers\">20</c>层加成之后，其伤害提升<c val=\"#TooltipNumbers\">30%</c>。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">奖励：</c>在<c val=\"#TooltipNumbers\">45</c>层加成之后，其冷却时间缩短<c val=\"#TooltipNumbers\">2</c>秒，伤害额外提升<c val=\"#TooltipNumbers\">75%</c>。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">神话奖励：</c>在<c val=\"#TooltipNumbers\">75</c>层加成之后，其打击次数提升<c val=\"#TooltipNumbers\">2</c>次，且最后一次打击将会造成<c val=\"#TooltipNumbers\">1.25</c>秒昏迷效果。",
+      "name": "开除军籍",
+      "shortText": "<c val=\"#TooltipQuest\">任务：</c>提高引雷针的伤害和打击次数"
+    },
+    "FalstadTailwindFrequentFlyer|FalstadTailwindFrequentFlyer|Active|Level1": {
+      "cooldownText": "冷却时间：60秒",
+      "fullText": "激活飞行老手将获得<c val=\"#TooltipNumbers\">25%</c>攻击速度加成和顺风之力，持续<c val=\"#TooltipNumbers\">4</c>秒。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任务：</c>消灭小兵将获得<c val=\"#TooltipNumbers\">1</c>层加成。击杀英雄将获得<c val=\"#TooltipNumbers\">5</c>层加成。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">奖励：</c>在<c val=\"#TooltipNumbers\">60</c>层加成后，提升<c val=\"#TooltipNumbers\">20</c>点攻击伤害。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">奖励：</c>在<c val=\"#TooltipNumbers\">150</c>层加成后，额外提升<c val=\"#TooltipNumbers\">50</c>点攻击伤害。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">神话奖励：</c>在<c val=\"#TooltipNumbers\">300</c>层加成后，额外提升<c val=\"#TooltipNumbers\">125</c>点攻击伤害。",
+      "name": "飞行老手",
+      "shortText": "激活时获得攻击速度加成和顺风之力<n/><c val=\"#TooltipQuest\">任务：</c>击杀敌人提高普通攻击伤害"
+    },
+    "FalstadMasteryLightningRodStaticShield|FalstadStaticShieldTalent|W|Level4": {
+      "fullText": "引雷针的攻击能使弗斯塔德获得相当于他最大生命值<c val=\"#TooltipNumbers\">4%</c>的护盾值，最多可叠加至<c val=\"#TooltipNumbers\">28%</c>，持续<c val=\"#TooltipNumbers\">4</c>秒。",
+      "name": "静电护盾",
+      "shortText": "引雷针攻击获得护盾"
+    },
+    "FalstadMasteryUpdraftBarrelRoll|FalstadBarrelRollUpdraftTalent|E|Level4": {
+      "fullText": "侧滚翻的距离提高<c val=\"#TooltipNumbers\">40%</c> ，护盾值提高<c val=\"#TooltipNumbers\">70%</c>，并且该护盾的持续时间不限。",
+      "name": "上升气流",
+      "shortText": "增加侧滚翻的距离和护盾值"
+    },
+    "FalstadTalentHammerGains|FalstadHammerGainsTalent|Passive|Level4": {
+      "fullText": "普通攻击对主要目标造成伤害的<c val=\"#TooltipNumbers\">20%</c>转化为你的生命值。",
+      "name": "强化蛮锤",
+      "shortText": "普通攻击恢复生命值"
+    },
+    "FalstadMasteryHammerangSecretWeapon|FalstadSecretWeaponTalent|Q|Level7": {
+      "fullText": "回旋锤的射程提高<c val=\"#TooltipNumbers\">30%</c>，并且回旋锤飞行的过程中，普通攻击伤害提高<c val=\"#TooltipNumbers\">75%</c>。",
+      "name": "秘密武器",
+      "shortText": "提高回旋锤的射程和普通攻击伤害"
+    },
+    "FalstadHammerangBOOMerang|FalstadHammerangBOOMerangTalent|Q|Level7": {
+      "fullText": "回旋锤在爆炸时造成<c val=\"#TooltipNumbers\">100</c>%额外伤害，在命中敌方英雄时会使其法术护甲降低<c val=\"#TooltipNumbers\">15</c>点，持续<c val=\"#TooltipNumbers\">3</c>秒。",
+      "name": "爆炸回旋锤",
+      "shortText": "提高回旋锤的爆炸伤害"
+    },
+    "FalstadMasteryLightningRodThunderstrikes|FalstadThunderstrikesTalent|W|Level7": {
+      "fullText": "引雷针每次后续攻击造成<c val=\"#TooltipNumbers\">25%</c>的额外伤害。",
+      "name": "雷霆打击",
+      "shortText": "引雷针造成越来越高的伤害"
+    },
+    "FalstadHeroicAbilityHinterlandBlast|FalstadHinterlandBlast|Heroic|Level10": {
+      "cooldownText": "冷却时间：120秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：80</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">1</c>秒后，对一长段直线上的敌人造成<c val=\"#TooltipNumbers\">475</c><c val=\"#ColorGray\">~~0.0475~~</c>点伤害。每击中一名敌方英雄，冷却时间就会缩短<c val=\"#TooltipNumbers\">30</c>秒。",
+      "name": "辛特兰雷击",
+      "shortText": "超远距离的伤害光束"
+    },
+    "FalstadHeroicAbilityMightyGust|FalstadMightyGust|Heroic|Level10": {
+      "cooldownText": "冷却时间：60秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：70</s>",
+      "fullText": "将敌人推开并使其减速<c val=\"#TooltipNumbers\">40%</c>，减速效果在<c val=\"#TooltipNumbers\">4</c>秒内递减。",
+      "name": "狂风来袭",
+      "shortText": "将敌人推开并使其减速"
+    },
+    "FalstadMasteryLightningRodChargedUp|FalstadChargedUpTalent|W|Level13": {
+      "fullText": "引雷针的施法距离提高<c val=\"#TooltipNumbers\">25%</c>。击杀英雄将重置引雷针的冷却时间。",
+      "name": "灌魔雷电",
+      "shortText": "提高引雷针的施法距离，击杀后重置"
+    },
+    "FalstadMasteryBarrelRollFlowRider|FalstadFlowRiderTalent|Trait|Level13": {
+      "fullText": "顺风之力激活时，弗斯塔德基本技能的冷却速度加快<c val=\"#TooltipNumbers\">100%</c>。",
+      "name": "气流骑士",
+      "shortText": "顺风之力期间基本技能冷却速度加快"
+    },
+    "FalstadTailwindSustainedWinds|FalstadTailwindSustainedWinds|Trait|Level13": {
+      "fullText": "普通攻击对敌方英雄造成相当于其最大生命值<c val=\"#TooltipNumbers\">1.5%</c>的额外伤害，当顺风之力激活时，该伤害加成提高至<c val=\"#TooltipNumbers\">2%</c>。",
+      "name": "持续强风",
+      "shortText": "提高对英雄的普通攻击伤害"
+    },
+    "FalstadMasteryCripplingHammerHammerang|FalstadHammerangCripplingHammerTalent|Q|Level16": {
+      "fullText": "回旋锤的减速效果从<c val=\"#TooltipNumbers\">25%</c>提高至<c val=\"#TooltipNumbers\">50%</c>，同时回旋锤的爆炸也会产生减速效果。",
+      "name": "致残回旋锤",
+      "shortText": "强化回旋锤的减速效果和爆炸减速效果"
+    },
+    "FalstadMasteryAerieGustsTailwind|FalstadTailwindAerieGustsTalent|Trait|Level16": {
+      "fullText": "顺风之力所需激活时间从<c val=\"#TooltipNumbers\">5</c>秒缩短至<c val=\"#TooltipNumbers\">3</c>秒，并且移动速度加成从<c val=\"#TooltipNumbers\">15%</c>提高至<c val=\"#TooltipNumbers\">25%</c>。",
+      "name": "鹰巢狂风",
+      "shortText": "缩短顺风之力的延迟时间，提高移动速度"
+    },
+    "FalstadMasteryAfterburner|FalstadBarrelRollAfterburnerTalent|E|Level16": {
+      "fullText": "侧滚翻使移动速度提高<c val=\"#TooltipNumbers\">60%</c>，该效果在<c val=\"#TooltipNumbers\">3</c>秒内递减。",
+      "name": "后燃充能",
+      "shortText": "侧滚翻提高移动速度"
+    },
+    "FalstadMasteryCalloftheWildhammerHinterlandBlast|FalstadHinterlandBlastCalloftheWildhammerTalent|Heroic|Level20": {
+      "fullText": "辛特兰雷击的射程提高一倍，并且伤害提高<c val=\"#TooltipNumbers\">25%</c>。",
+      "name": "蛮锤召唤",
+      "shortText": "提高辛特兰雷击的射程和伤害"
+    },
+    "FalstadMasteryMightyGustWindTunnel|FalstadWindTunnelTalent|Heroic|Level20": {
+      "fullText": "狂风来袭创造一个持续<c val=\"#TooltipNumbers\">4</c>秒的风之隧道。踏入隧道的敌人会不断被推开。",
+      "name": "风之隧道",
+      "shortText": "狂风来袭持续击退敌人"
+    },
+    "GenericTalentNexusFrenzy|NexusFrenzyTalent|Passive|Level20": {
+      "fullText": "攻击速度提高<c val=\"#TooltipNumbers\">20%</c>，攻击范围提高<c val=\"#TooltipNumbers\">1.1</c>。",
+      "name": "时空狂暴",
+      "shortText": "提高攻击速度和范围"
+    },
+    "FalstadMasteryFlightEpicMount|FalstadEpicMountTalent|Z|Level20": {
+      "fullText": "飞行的冷却时间缩短<c val=\"#TooltipNumbers\">50</c>秒，飞行前的施法时间缩短至<c val=\"#TooltipNumbers\">0.5</c>秒，并且速度提高<c val=\"#TooltipNumbers\">50%</c>。",
+      "name": "史诗坐骑",
+      "shortText": "降低飞行的冷却时间和施法时间"
+    }
+  },
+  "units": {}
+}

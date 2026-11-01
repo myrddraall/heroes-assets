@@ -1,0 +1,695 @@
+{
+  "id": "Valeera",
+  "unitId": "HeroValeera",
+  "hyperlinkId": "Valeera",
+  "attributeId": "VALE",
+  "franchise": "Warcraft",
+  "rarity": "Legendary",
+  "releaseDate": "2017-01-24",
+  "isMelee": true,
+  "gender": "Female",
+  "radius": 0.625,
+  "innerRadius": 0.625,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 8,
+    "damage": 5,
+    "survivability": 6,
+    "utility": 8
+  },
+  "life": {
+    "amount": 2047,
+    "scale": 0.04,
+    "regenRate": 4.2656,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 100,
+    "regenRate": 10
+  },
+  "playstyles": [
+    "Ganker",
+    "Helper",
+    "Overconfident",
+    "RoleAutoAttacker",
+    "RoleCaster"
+  ],
+  "weapons": [
+    {
+      "nameId": "HeroValeera",
+      "isDisabled": false,
+      "range": 1.25,
+      "minimumRange": 0,
+      "period": 0.5,
+      "damage": 79,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "ValeeraHunter",
+    "ValeeraToys18",
+    "ValeeraUltimate",
+    "ValeeraVampire",
+    "ValeeraWCAV"
+  ],
+  "variationSkinIds": [
+    "ValeeraBaseVar1",
+    "ValeeraBaseVar2",
+    "ValeeraBaseVar3",
+    "ValeeraBaseVar4"
+  ],
+  "voiceLineIds": [
+    "ValeeraBase_VoiceLine01",
+    "ValeeraBase_VoiceLine02",
+    "ValeeraBase_VoiceLine03",
+    "ValeeraBase_VoiceLine04",
+    "ValeeraBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "ValeeraSinisterStrike|ValeeraSinisterStrike|Q",
+        "abilityId": "ValeeraSinisterStrike",
+        "buttonId": "ValeeraSinisterStrike",
+        "icon": "storm_ui_icon_valeera_sinisterstrike.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "ValeeraBladeFlurry|ValeeraBladeFlurry|W",
+        "abilityId": "ValeeraBladeFlurry",
+        "buttonId": "ValeeraBladeFlurry",
+        "icon": "storm_ui_icon_valeera_bladeflurry.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "ValeeraEviscerate|ValeeraEviscerate|E",
+        "abilityId": "ValeeraEviscerate",
+        "buttonId": "ValeeraEviscerate",
+        "icon": "storm_ui_icon_valeera_eviscerate.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "ValeeraCloakOfShadows|ValeeraCloakOfShadows|Heroic",
+        "abilityId": "ValeeraCloakOfShadows",
+        "buttonId": "ValeeraCloakOfShadows",
+        "icon": "storm_ui_icon_valeera_cloakofshadows.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "ValeeraSmokeBomb|ValeeraSmokeBomb|Heroic",
+        "abilityId": "ValeeraSmokeBomb",
+        "buttonId": "ValeeraSmokeBomb",
+        "icon": "storm_ui_icon_valeera_smokebomb.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": "ValeeraStealth|ValeeraStealth|Trait",
+        "abilityId": "ValeeraStealth",
+        "buttonId": "ValeeraStealth",
+        "icon": "storm_ui_icon_valeera_vanish.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|HearthstoneNoMana|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "HearthstoneNoMana",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "ValeeraStealth|ValeeraStealth|Trait": {
+      "Basic": [
+        {
+          "linkId": "ValeeraAmbush|ValeeraAmbush|Q",
+          "abilityId": "ValeeraAmbush",
+          "buttonId": "ValeeraAmbush",
+          "icon": "storm_ui_icon_valeera_ambush.png",
+          "abilityType": "Q"
+        },
+        {
+          "linkId": "ValeeraCheapShot|ValeeraCheapShot|W",
+          "abilityId": "ValeeraCheapShot",
+          "buttonId": "ValeeraCheapShot",
+          "icon": "storm_ui_icon_valeera_cheapshot.png",
+          "abilityType": "W"
+        },
+        {
+          "linkId": "ValeeraGarrote|ValeeraGarrote|E",
+          "abilityId": "ValeeraGarrote",
+          "buttonId": "ValeeraGarrote",
+          "icon": "storm_ui_icon_valeera_garrote.png",
+          "abilityType": "E"
+        }
+      ],
+      "Trait": [
+        {
+          "linkId": "ValeeraCancelStealth|ValeeraCancelStealth|Trait",
+          "abilityId": "ValeeraCancelStealth",
+          "buttonId": "ValeeraCancelStealth",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "abilityType": "Trait"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "ValeeraCripplingPoison|ValeeraCripplingPoison|Active|Level1": {
+      "Activable": [
+        {
+          "linkId": "ValeeraCripplingPoison|ValeeraCripplingPoison|Active",
+          "abilityId": "ValeeraCripplingPoison",
+          "buttonId": "ValeeraCripplingPoison",
+          "icon": "storm_ui_icon_valeera_cripplingpoison.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "ValeeraWoundPoison|ValeeraWoundPoison|Active|Level4": {
+      "Activable": [
+        {
+          "linkId": "ValeeraWoundPoison|ValeeraWoundPoison|Active",
+          "abilityId": "ValeeraWoundPoison",
+          "buttonId": "ValeeraWoundPoison",
+          "icon": "storm_ui_icon_valeera_woundpoison.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "ValeeraThistleTea|ValeeraThistleTea|Active|Level16": {
+      "Activable": [
+        {
+          "linkId": "ValeeraThistleTea|ValeeraThistleTea|Active",
+          "abilityId": "ValeeraThistleTea",
+          "buttonId": "ValeeraThistleTea",
+          "icon": "storm_ui_icon_valeera_thistletea.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "ValeeraVigor|ValeeraVigor|Passive|Level1",
+        "talentId": "ValeeraVigor",
+        "buttonId": "ValeeraVigor",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_conjurerspursuit.png",
+        "abilityType": "Passive",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 1
+      },
+      {
+        "linkId": "ValeeraVanishSubtlety|ValeeraSubtlety|Trait|Level1",
+        "talentId": "ValeeraVanishSubtlety",
+        "buttonId": "ValeeraSubtlety",
+        "abilityId": "ValeeraStealth",
+        "icon": "storm_ui_icon_valeera_vanish.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ValeeraCancelStealth|ValeeraCancelStealth|Trait",
+          "ValeeraStealth|ValeeraStealth|Trait"
+        ]
+      },
+      {
+        "linkId": "ValeeraCombatReadiness|ValeeraCombatReadiness|Passive|Level1",
+        "talentId": "ValeeraCombatReadiness",
+        "buttonId": "ValeeraCombatReadiness",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_block.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      },
+      {
+        "linkId": "ValeeraCripplingPoison|ValeeraCripplingPoison|Active|Level1",
+        "talentId": "ValeeraCripplingPoison",
+        "buttonId": "ValeeraCripplingPoison",
+        "abilityId": "ValeeraCripplingPoison",
+        "icon": "storm_ui_icon_valeera_cripplingpoison.png",
+        "toggleCooldown": 0.5,
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "ValeeraSinisterStrikeRelentlessStrikes|ValeeraRelentlessStrikes|Q|Level4",
+        "talentId": "ValeeraSinisterStrikeRelentlessStrikes",
+        "buttonId": "ValeeraRelentlessStrikes",
+        "abilityId": "ValeeraSinisterStrike",
+        "icon": "storm_ui_icon_valeera_sinisterstrike.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ValeeraSinisterStrike|ValeeraSinisterStrike|Q"
+        ]
+      },
+      {
+        "linkId": "ValeeraGarroteHemorrhage|ValeeraHemorrhage|E|Level4",
+        "talentId": "ValeeraGarroteHemorrhage",
+        "buttonId": "ValeeraHemorrhage",
+        "abilityId": "ValeeraGarrote",
+        "icon": "storm_ui_icon_valeera_garrote.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ValeeraGarrote|ValeeraGarrote|E"
+        ]
+      },
+      {
+        "linkId": "ValeeraVanishInitiative|ValeeraInitiative|Trait|Level4",
+        "talentId": "ValeeraVanishInitiative",
+        "buttonId": "ValeeraInitiative",
+        "abilityId": "ValeeraStealth",
+        "icon": "storm_ui_icon_valeera_vanish.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "ValeeraCancelStealth|ValeeraCancelStealth|Trait",
+          "ValeeraStealth|ValeeraStealth|Trait"
+        ]
+      },
+      {
+        "linkId": "ValeeraWoundPoison|ValeeraWoundPoison|Active|Level4",
+        "talentId": "ValeeraWoundPoison",
+        "buttonId": "ValeeraWoundPoison",
+        "abilityId": "ValeeraWoundPoison",
+        "icon": "storm_ui_icon_valeera_woundpoison.png",
+        "toggleCooldown": 0.5,
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "ValeeraSinisterStrikeMutilate|ValeeraMutilate|Q|Level7",
+        "talentId": "ValeeraSinisterStrikeMutilate",
+        "buttonId": "ValeeraMutilate",
+        "abilityId": "ValeeraSinisterStrike",
+        "icon": "storm_ui_icon_valeera_sinisterstrike.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ValeeraSinisterStrike|ValeeraSinisterStrike|Q"
+        ]
+      },
+      {
+        "linkId": "ValeeraBladeFlurryFatalFinesse|ValeeraFatalFinesse|W|Level7",
+        "talentId": "ValeeraBladeFlurryFatalFinesse",
+        "buttonId": "ValeeraFatalFinesse",
+        "abilityId": "ValeeraBladeFlurry",
+        "icon": "storm_ui_icon_valeera_bladeflurry.png",
+        "abilityType": "W",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ValeeraBladeFlurry|ValeeraBladeFlurry|W"
+        ]
+      },
+      {
+        "linkId": "ValeeraEviscerateSliceAndDice|ValeeraSliceAndDice|E|Level7",
+        "talentId": "ValeeraEviscerateSliceAndDice",
+        "buttonId": "ValeeraSliceAndDice",
+        "abilityId": "ValeeraEviscerate",
+        "icon": "storm_ui_icon_valeera_eviscerate.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "ValeeraEviscerate|ValeeraEviscerate|E"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "ValeeraSmokeBomb|ValeeraSmokeBomb|Heroic|Level10",
+        "talentId": "ValeeraSmokeBomb",
+        "buttonId": "ValeeraSmokeBomb",
+        "abilityId": "ValeeraSmokeBomb",
+        "icon": "storm_ui_icon_valeera_smokebomb.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "ValeeraCloakOfShadows|ValeeraCloakOfShadows|Heroic|Level10",
+        "talentId": "ValeeraCloakOfShadows",
+        "buttonId": "ValeeraCloakOfShadows",
+        "abilityId": "ValeeraCloakOfShadows",
+        "icon": "storm_ui_icon_valeera_cloakofshadows.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "ValeeraAmbushDeathFromAbove|ValeeraDeathFromAbove|Q|Level13",
+        "talentId": "ValeeraAmbushDeathFromAbove",
+        "buttonId": "ValeeraDeathFromAbove",
+        "abilityId": "ValeeraAmbush",
+        "icon": "storm_ui_icon_valeera_ambush.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ValeeraAmbush|ValeeraAmbush|Q"
+        ]
+      },
+      {
+        "linkId": "ValeeraCheapShotBlind|ValeeraBlind|W|Level13",
+        "talentId": "ValeeraCheapShotBlind",
+        "buttonId": "ValeeraBlind",
+        "abilityId": "ValeeraCheapShot",
+        "icon": "storm_ui_icon_valeera_cheapshot.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ValeeraCheapShot|ValeeraCheapShot|W"
+        ]
+      },
+      {
+        "linkId": "ValeeraGarroteStrangle|ValeeraStrangle|E|Level13",
+        "talentId": "ValeeraGarroteStrangle",
+        "buttonId": "ValeeraStrangle",
+        "abilityId": "ValeeraGarrote",
+        "icon": "storm_ui_icon_valeera_garrote.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "ValeeraGarrote|ValeeraGarrote|E"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "ValeeraSinisterStrikeSealFate|ValeeraSealFate|Q|Level16",
+        "talentId": "ValeeraSinisterStrikeSealFate",
+        "buttonId": "ValeeraSealFate",
+        "abilityId": "ValeeraSinisterStrike",
+        "icon": "storm_ui_icon_valeera_sinisterstrike.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ValeeraSinisterStrike|ValeeraSinisterStrike|Q"
+        ]
+      },
+      {
+        "linkId": "ValeeraAmbushAssassinate|ValeeraAssassinate|Q|Level16",
+        "talentId": "ValeeraAmbushAssassinate",
+        "buttonId": "ValeeraAssassinate",
+        "abilityId": "ValeeraAmbush",
+        "icon": "storm_ui_icon_valeera_ambush.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ValeeraAmbush|ValeeraAmbush|Q"
+        ]
+      },
+      {
+        "linkId": "ValeeraThistleTea|ValeeraThistleTea|Active|Level16",
+        "talentId": "ValeeraThistleTea",
+        "buttonId": "ValeeraThistleTea",
+        "abilityId": "ValeeraThistleTea",
+        "icon": "storm_ui_icon_valeera_thistletea.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "ValeeraSmokeBombAdrenalineRush|ValeeraAdrenalineRush|Heroic|Level20",
+        "talentId": "ValeeraSmokeBombAdrenalineRush",
+        "buttonId": "ValeeraAdrenalineRush",
+        "abilityId": "ValeeraSmokeBomb",
+        "icon": "storm_ui_icon_valeera_smokebomb.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ValeeraSmokeBomb|ValeeraSmokeBomb|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "ValeeraSmokeBomb"
+        ]
+      },
+      {
+        "linkId": "ValeeraCloakOfShadowsEnvelopingShadows|ValeeraEnvelopingShadows|Heroic|Level20",
+        "talentId": "ValeeraCloakOfShadowsEnvelopingShadows",
+        "buttonId": "ValeeraEnvelopingShadows",
+        "abilityId": "ValeeraCloakOfShadows",
+        "icon": "storm_ui_icon_valeera_cloakofshadows.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ValeeraCloakOfShadows|ValeeraCloakOfShadows|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "ValeeraCloakOfShadows"
+        ]
+      },
+      {
+        "linkId": "ValeeraGarroteRupture|ValeeraRupture|E|Level20",
+        "talentId": "ValeeraGarroteRupture",
+        "buttonId": "ValeeraRupture",
+        "abilityId": "ValeeraGarrote",
+        "icon": "storm_ui_icon_valeera_garrote.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "ValeeraGarrote|ValeeraGarrote|E"
+        ]
+      },
+      {
+        "linkId": "ValeeraVanishElusiveness|ValeeraElusiveness|Trait|Level20",
+        "talentId": "ValeeraVanishElusiveness",
+        "buttonId": "ValeeraElusiveness",
+        "abilityId": "ValeeraStealth",
+        "icon": "storm_ui_icon_valeera_vanish.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          "ValeeraCancelStealth|ValeeraCancelStealth|Trait",
+          "ValeeraStealth|ValeeraStealth|Trait"
+        ]
+      }
+    ]
+  },
+  "sheet": "sheets/Valeera.png",
+  "icons": {
+    "storm_ui_icon_valeera_sinisterstrike.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_valeera_bladeflurry.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_valeera_eviscerate.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_valeera_cloakofshadows.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_valeera_smokebomb.png": [
+      512,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_valeera_vanish.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_mount.png": [
+      128,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      256,
+      128,
+      111,
+      71
+    ],
+    "storm_ui_icon_valeera_ambush.png": [
+      384,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_valeera_cheapshot.png": [
+      512,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_valeera_garrote.png": [
+      0,
+      256,
+      128,
+      128
+    ],
+    "hud_btn_bg_ability_cancel.png": [
+      128,
+      256,
+      97,
+      111
+    ],
+    "storm_ui_icon_generic_cancel_mount.png": [
+      256,
+      256,
+      76,
+      48
+    ],
+    "storm_ui_icon_valeera_cripplingpoison.png": [
+      384,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_valeera_woundpoison.png": [
+      512,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_valeera_thistletea.png": [
+      0,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_conjurerspursuit.png": [
+      128,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_block.png": [
+      256,
+      384,
+      128,
+      128
+    ]
+  }
+}

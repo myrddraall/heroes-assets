@@ -1,0 +1,181 @@
+{
+  "abilities": {
+    "HanzoStormBowFireTargetPoint|HanzoStormBow|Q": {
+      "cooldownText": "Tiempo de reutilización: 4 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 20</s>",
+      "fullText": "Actívala para cargar una flecha que inflige <c val=\"#TooltipNumbers\">291</c><c val=\"#ColorGray\">~~0.04~~</c> de daño al primer enemigo golpeado. El alcance de Arco de tormenta aumenta cuanto más tiempo se canaliza la habilidad.",
+      "name": "Arco de tormenta",
+      "shortText": "Cargas una flecha para aumentar su daño."
+    },
+    "HanzoScatterArrow|HanzoScatterArrow|W": {
+      "cooldownText": "Tiempo de reutilización: 8 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 50</s>",
+      "fullText": "Disparas una flecha que inflige <c val=\"#TooltipNumbers\">88</c><c val=\"#ColorGray\">~~0.04~~</c> de daño al primer héroe enemigo golpeado. Si Flecha de dispersión golpea algún elemento del terreno o alguna estructura, se divide en <c val=\"#TooltipNumbers\">5</c> flechas que recorren una distancia adicional, rebotan hasta un máximo de <c val=\"#TooltipNumbers\">4</c> veces más e infligen <c val=\"#TooltipNumbers\">88</c><c val=\"#ColorGray\">~~0.04~~</c> de daño cada una al primer enemigo golpeado.",
+      "name": "Flecha de dispersión",
+      "shortText": "Disparas una flecha que se divide y rebota."
+    },
+    "HanzoSonicArrow|HanzoSonicArrow|E": {
+      "cooldownText": "Tiempo de reutilización: 20 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 50</s>",
+      "fullText": "Disparas una flecha que otorga visión en un área amplia durante <c val=\"#TooltipNumbers\">5</c> s. Los enemigos en su interior quedan revelados durante <c val=\"#TooltipNumbers\">1</c> s. Si Flecha sónica impacta en un enemigo, le inflige <c val=\"#TooltipNumbers\">165</c><c val=\"#ColorGray\">~~0.04~~</c> de daño y lo sigue adondequiera que vaya.",
+      "name": "Flecha sónica",
+      "shortText": "Revelas un área amplia."
+    },
+    "HanzoDragonstrike|HanzoDragonstrike|Heroic": {
+      "cooldownText": "Tiempo de reutilización: 60 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 60</s>",
+      "fullText": "Tras <c val=\"#TooltipNumbers\">1.5</c> s, invocas un par de espíritus dragón que se desplazan hacia delante e infligen <c val=\"#TooltipNumbers\">84</c><c val=\"#ColorGray\">~~0.04~~</c> de daño cada <c val=\"#TooltipNumbers\">0,25</c> s a los héroes enemigos en su área. Los enemigos en el centro reciben un <c val=\"#TooltipNumbers\">75%</c> más de daño.",
+      "name": "Ataque del dragón",
+      "shortText": "Invocas un par de espíritus dragón que infligen daño a los enemigos."
+    },
+    "HanzoDragonsArrow|HanzoDragonsArrow|Heroic": {
+      "cooldownText": "Tiempo de reutilización: 70 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 90</s>",
+      "fullText": "Disparas una poderosa flecha que cruza el campo de batalla. Explota al golpear a un héroe enemigo, lo que inflige <c val=\"#TooltipNumbers\">130</c><c val=\"#ColorGray\">~~0.04~~</c> de daño a todos los enemigos cercanos y los aturde durante <c val=\"#TooltipNumbers\">0.5</c> s.<n/><n/>Tras desplazarse una distancia media, el daño aumenta a <c val=\"#TooltipNumbers\">260</c><c val=\"#ColorGray\">~~0.04~~</c> y la duración del aturdimiento, a <c val=\"#TooltipNumbers\">1.25</c> s.<n/><n/>Tras recorrer una gran distancia, el daño aumenta a <c val=\"#TooltipNumbers\">390</c><c val=\"#ColorGray\">~~0.04~~</c> y la duración del aturdimiento, a <c val=\"#TooltipNumbers\">2</c> s.",
+      "name": "Flecha del dragón",
+      "shortText": "Disparas una flecha de alcance global que aturde e inflige daño."
+    },
+    "HanzoNaturalAgilityButton|HanzoNaturalAgility|Trait": {
+      "cooldownText": "Tiempo de reutilización: 25 s",
+      "fullText": "Saltas elementos del terreno intransitables o estructuras hasta un alcance máximo.",
+      "name": "Agilidad innata",
+      "shortText": "Saltas elementos del terreno."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Tiempo de reutilización: 4 s",
+      "fullText": "Tras canalizar durante <c val=\"#TooltipNumbers\">1</c> s, obtienes un <s val=\"StandardTooltipDetails\">30%</s> de velocidad de movimiento.",
+      "name": "Invocar montura"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Tras canalizar durante <c val=\"#TooltipNumbers\">6</c> s, te teletransportas de vuelta a la Cámara de las Tormentas, lo que restaura al instante <c val=\"#TooltipNumbers\">1125</c> de salud y <c val=\"#TooltipNumbers\">150</c> de maná.",
+      "name": "Piedra de hogar"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Desmontas.",
+      "name": "Desmontar"
+    },
+    "HanzoPOTG|HanzoPOTGActivate|Heroic": {
+      "fullText": "Actívala para teletransportarte a la flecha del dragón.",
+      "name": "Jugada destacada"
+    }
+  },
+  "talents": {
+    "HanzoTargetPractice|HanzoTargetPractice|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Misión:</c> Golpea a cada héroe enemigo con Arco de tormenta.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa:</c> Tras golpear una vez a cada héroe enemigo con Arco de tormenta, su alcance aumenta un <c val=\"#TooltipNumbers\">30%</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa:</c> Tras golpear <c val=\"#TooltipNumbers\">3</c> veces a cada héroe enemigo con Arco de tormenta, su daño aumenta en <c val=\"#TooltipNumbers\">100</c>.",
+      "name": "Tiro al blanco",
+      "shortText": "<c val=\"#TooltipQuest\">Misión:</c> Golpea a todos los héroes enemigos para potenciar Arco de tormenta."
+    },
+    "HanzoSimpleGeometry|HanzoSimpleGeometry|W|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Misión:</c> Golpea <c val=\"#TooltipNumbers\">20</c> veces a un héroe con múltiples flechas del mismo lanzamiento de Flecha de dispersión. Cada flecha que golpee al héroe tras el segundo impacto otorgará acumulaciones adicionales.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa:</c> La primera vez que choca contra algún elemento del terreno, Flecha de dispersión crea <c val=\"#TooltipNumbers\">2</c> flechas más.",
+      "name": "Simple geometría",
+      "shortText": "<c val=\"#TooltipQuest\">Misión:</c> Golpea a un héroe con múltiples flechas para obtener más flechas de dispersión."
+    },
+    "HanzoRedemption|HanzoRedemption|Passive|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Misión:</c> Cada <c val=\"#TooltipNumbers\">2</c> ataques básicos contra un mismo héroe en menos de <c val=\"#TooltipNumbers\">10</c> s, obtienes <c val=\"#TooltipNumbers\">1</c> de Redención, que se acumula hasta un máximo de <c val=\"#TooltipNumbers\">12</c>. Morir reduce Redención en <c val=\"#TooltipNumbers\">3</c>, incluso cuando ya se ha alcanzado el máximo número de acumulaciones.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa:</c> Con <c val=\"#TooltipNumbers\">12</c> de Redención, obtienes un <c val=\"#TooltipNumbers\">50%</c> de velocidad de ataque.",
+      "name": "Redención",
+      "shortText": "<c val=\"#TooltipQuest\">Misión:</c> Golpea a héroes para obtener velocidad de ataque."
+    },
+    "HanzoExplosiveArrows|HanzoExplosiveArrows|Q|Level4": {
+      "fullText": "Al golpear a un esbirro o a un monstruo, Arco de tormenta inflige un <c val=\"#TooltipNumbers\">60%</c> de su daño a los enemigos alrededor del objetivo.",
+      "name": "Flechas explosivas",
+      "shortText": "Las flechas de Arco de tormenta explotan al golpear a esbirros y monstruos."
+    },
+    "HanzoSerratedArrows|HanzoSerratedArrows|W|Level4": {
+      "fullText": "Flecha de dispersión inflige un <c val=\"#TooltipNumbers\">100%</c> más de daño a esbirros, mercenarios y monstruos.",
+      "name": "Flechas dentadas",
+      "shortText": "Flecha de dispersión inflige más daño a enemigos que no son héroes."
+    },
+    "HanzoIgnoreAllDistractions|HanzoIgnoreAllDistractions|Passive|Level4": {
+      "fullText": "Los ataques básicos matan a los esbirros al instante y aumentan el alcance de tus ataques básicos en <c val=\"#TooltipNumbers\">2</c> durante <c val=\"#TooltipNumbers\">3</c> s.",
+      "name": "Ignora toda distracción",
+      "shortText": "Los ataques básicos matan esbirros al instante y aumentan el alcance."
+    },
+    "HanzoTheDragonHungers|HanzoTheDragonHungers|Q|Level7": {
+      "fullText": "Golpear a un héroe con Arco de tormenta otorga un <c val=\"#TooltipNumbers\">5%</c> de poder de habilidad durante <c val=\"#TooltipNumbers\">12</c> s, hasta un máximo de un <c val=\"#TooltipNumbers\">20%</c>.",
+      "name": "El dragón tiene hambre",
+      "shortText": "Arco de tormenta otorga poder de habilidad."
+    },
+    "HanzoNeverOutmatched|HanzoNeverOutmatched|W|Level7": {
+      "fullText": "Reduce el coste de maná de Flecha de dispersión de <c val=\"#TooltipNumbers\">50</c> a <c val=\"#TooltipNumbers\">30</c>. Los ataques básicos contra héroes reducen <c val=\"#TooltipNumbers\">3</c> s el tiempo de reutilización de Flecha de dispersión.",
+      "name": "Sin rival",
+      "shortText": "Los ataques básicos reducen el tiempo de reutilización de Flecha de dispersión."
+    },
+    "HanzoSharpenedArrowheads|HanzoSharpenedArrowheads|Passive|Level7": {
+      "fullText": "Golpear a un héroe con Arco de tormenta o ataques básicos reduce su armadura <c val=\"#TooltipNumbers\">3</c> durante <c val=\"#TooltipNumbers\">3</c> s, hasta un máximo de <c val=\"#TooltipNumbers\">20</c> menos de armadura.",
+      "name": "Flechas afiladas",
+      "shortText": "Los ataques básicos y Arco de tormenta reducen la armadura."
+    },
+    "HanzoDragonstrike|HanzoDragonstrike|Heroic|Level10": {
+      "cooldownText": "Tiempo de reutilización: 60 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 60</s>",
+      "fullText": "Tras <c val=\"#TooltipNumbers\">1.5</c> s, invocas un par de espíritus dragón que se desplazan hacia delante e infligen <c val=\"#TooltipNumbers\">84</c><c val=\"#ColorGray\">~~0.04~~</c> de daño cada <c val=\"#TooltipNumbers\">0,25</c> s a los héroes enemigos en su área. Los enemigos en el centro reciben un <c val=\"#TooltipNumbers\">75%</c> más de daño.",
+      "name": "Ataque del dragón",
+      "shortText": "Invocas un par de espíritus dragón que infligen daño a los enemigos."
+    },
+    "HanzoDragonsArrow|HanzoDragonsArrow|Heroic|Level10": {
+      "cooldownText": "Tiempo de reutilización: 70 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 90</s>",
+      "fullText": "Disparas una poderosa flecha que cruza el campo de batalla. Explota al golpear a un héroe enemigo, lo que inflige <c val=\"#TooltipNumbers\">130</c><c val=\"#ColorGray\">~~0.04~~</c> de daño a todos los enemigos cercanos y los aturde durante <c val=\"#TooltipNumbers\">0.5</c> s.<n/><n/>Tras desplazarse una distancia media, el daño aumenta a <c val=\"#TooltipNumbers\">260</c><c val=\"#ColorGray\">~~0.04~~</c> y la duración del aturdimiento, a <c val=\"#TooltipNumbers\">1.25</c> s.<n/><n/>Tras recorrer una gran distancia, el daño aumenta a <c val=\"#TooltipNumbers\">390</c><c val=\"#ColorGray\">~~0.04~~</c> y la duración del aturdimiento, a <c val=\"#TooltipNumbers\">2</c> s.",
+      "name": "Flecha del dragón",
+      "shortText": "Disparas una flecha de alcance global que aturde e inflige daño."
+    },
+    "HanzoFleetofFoot|HanzoFleetofFoot|Q|Level13": {
+      "fullText": "Golpear a un héroe con Arco de tormenta te otorga un <c val=\"#TooltipNumbers\">10%</c> de velocidad de movimiento durante <c val=\"#TooltipNumbers\">6</c> s, hasta un máximo de un <c val=\"#TooltipNumbers\">30%</c>.",
+      "name": "A paso presto",
+      "shortText": "Arco de tormenta otorga velocidad de movimiento."
+    },
+    "HanzoNinjaAssassin|HanzoNinjaAssassin|Trait|Level13": {
+      "fullText": "Golpear a héroes con Arco de tormenta reduce <c val=\"#TooltipNumbers\">10</c> s el tiempo de reutilización de Agilidad innata. Además, las bajas de héroes en las que participas reinician el tiempo de reutilización de Agilidad innata.",
+      "name": "Ninja asesino",
+      "shortText": "Arco de tormenta reduce el tiempo de reutilización de Agilidad innata."
+    },
+    "HanzoMountedArchery|HanzoMountedArchery|Passive|Level13": {
+      "fullText": "Reduce el tiempo de reutilización de Invocar montura en <c val=\"#TooltipNumbers\">2</c> s. Al montar, obtienes un <c val=\"#TooltipNumbers\">25%</c> más de velocidad de movimiento durante <c val=\"#TooltipNumbers\">5</c> s. Usar Agilidad innata hace que montes de forma instantánea.",
+      "name": "Arquero montado",
+      "shortText": "Aumenta la velocidad sobre montura y Agilidad innata te hace montar al instante."
+    },
+    "HanzoFlawlessTechnique|HanzoFlawlessTechnique|Passive|Level16": {
+      "fullText": "Golpear a héroes con Arco de tormenta aumenta un <c val=\"#TooltipNumbers\">40%</c> el daño del siguiente ataque básico que lances en los próximos <c val=\"#TooltipNumbers\">5</c> s. Los ataques básicos contra héroes aumentan un <c val=\"#TooltipNumbers\">40%</c> el daño del siguiente Arco de tormenta que lances en los próximos <c val=\"#TooltipNumbers\">5</c> s.",
+      "name": "Técnica impecable",
+      "shortText": "Arco de tormenta potencia los ataques básicos y viceversa."
+    },
+    "HanzoPiercingArrows|HanzoPiercingArrows|Passive|Level16": {
+      "fullText": "Arco de tormenta y Flecha de dispersión perforan al objetivo y golpean a un enemigo más. Además, Flecha de dispersión puede perforar a <c val=\"#TooltipNumbers\">1</c> enemigo cada vez que rebota.",
+      "name": "Flechas perforadoras",
+      "shortText": "Arco de tormenta y Flecha de dispersión perforan."
+    },
+    "HanzoGiantSlayer|HanzoGiantSlayer|Passive|Level16": {
+      "fullText": "Los héroes enemigos golpeados por Flecha de dispersión y por tus ataques básicos reciben un <c val=\"#TooltipNumbers\">1.6%</c> de su salud máxima como daño adicional.",
+      "name": "Asesino de colosos",
+      "shortText": "Los ataques básicos y Flecha de dispersión infligen daño adicional."
+    },
+    "HanzoTheDragonAwakens|HanzoTheDragonAwakens|Heroic|Level20": {
+      "fullText": "Golpear a un héroe con Arco de tormenta, con Flecha de dispersión o con los ataques básicos reduce <c val=\"#TooltipNumbers\">4</c> s el tiempo de reutilización de Ataque del dragón.",
+      "name": "El dragón despierta",
+      "shortText": "Las habilidades y los ataques reducen el tiempo de reutilización de Ataque del dragón."
+    },
+    "HanzoPOTG|HanzoPOTG|Heroic|Level20": {
+      "fullText": "Si reactivas Flecha del dragón mientras la flecha está en el aire o hasta <c val=\"#TooltipNumbers\">2</c> s después de que impacte contra un objetivo, te teletransportarás a la ubicación de la flecha y saltarás hacia atrás. Si reactivas Flecha del dragón después de que la flecha haya impactado contra un objetivo, dispararás flechas que infligirán <c val=\"#TooltipNumbers\">132</c><c val=\"#ColorGray\">~~0.04~~</c> de daño a cada objetivo golpeado.<n/><n/>Eres imparable durante Jugada destacada.",
+      "name": "Jugada destacada",
+      "shortText": "Actívala para teletransportarte a la flecha del dragón."
+    },
+    "HanzoBullseye|HanzoBullseye|E|Level20": {
+      "fullText": "Aumenta un <c val=\"#TooltipNumbers\">100%</c> la velocidad de Flecha sónica y el radio de su centro. Además, los héroes golpeados por el centro de Flecha sónica quedan aturdidos durante <c val=\"#TooltipNumbers\">1</c> s.",
+      "name": "¡Diana!",
+      "shortText": "Flecha sónica se desplaza más rápido y aturde."
+    },
+    "HanzoPerfectAgility|HanzoPerfectAgility|Trait|Level20": {
+      "fullText": "Agilidad innata obtiene una <c val=\"#TooltipNumbers\">segunda</c> carga y su tiempo de reutilización se reduce <c val=\"#TooltipNumbers\">10</c> s.",
+      "name": "Agilidad perfecta",
+      "shortText": "Obtienes una carga de Agilidad innata y se reduce el tiempo de reutilización."
+    }
+  },
+  "units": {
+    "HanzoDragonstrikeController": {
+      "name": "Controlador de Ataque del dragón"
+    },
+    "HanzoDragonstrikeSoundUnit": {
+      "name": "Unidad de sonido de Ataque del dragón"
+    }
+  }
+}

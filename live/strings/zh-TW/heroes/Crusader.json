@@ -1,0 +1,203 @@
+{
+  "abilities": {
+    "CrusaderPunish|CrusaderPunish|Q": {
+      "cooldownText": "冷卻時間：8秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：40點</s>",
+      "fullText": "向前揮擊，造成<c val=\"#TooltipNumbers\">113</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害並且使敵人緩速<c val=\"#TooltipNumbers\">50%</c>，緩速效果會在<c val=\"#TooltipNumbers\">2</c>秒內逐漸消退。",
+      "name": "制裁",
+      "shortText": "造成傷害並使敵人緩速"
+    },
+    "CrusaderCondemn|CrusaderCondemn|W": {
+      "cooldownText": "冷卻時間：10秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：50點</s>",
+      "fullText": "延遲<c val=\"#TooltipNumbers\">1</c>秒後，喬安娜把附近敵人拉向自己，使他們昏迷<c val=\"#TooltipNumbers\">0.25</c>秒，並且造成<c val=\"#TooltipNumbers\">55</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。對小兵和傭兵造成的傷害提高<c val=\"#TooltipNumbers\">200%</c>。",
+      "name": "天譴",
+      "shortText": "將附近的敵人拉向自己，並對其造成傷害"
+    },
+    "CrusaderShieldGlare|CrusaderShieldGlare|E": {
+      "cooldownText": "冷卻時間：13秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：55點</s>",
+      "fullText": "對敵人造成<c val=\"#TooltipNumbers\">59</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，並且使他們目盲，持續<c val=\"#TooltipNumbers\">1.5</c>秒。",
+      "name": "聖盾炫光",
+      "shortText": "對扇形範圍內的敵人造成傷害，並且使其目盲"
+    },
+    "CrusaderFallingSword|CrusaderFallingSword|Heroic": {
+      "cooldownText": "冷卻時間：50秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：60點</s>",
+      "fullText": "喬安娜飛身縱躍，持續<c val=\"#TooltipNumbers\">2</c>秒，此時喬安娜可移動，以決定落地的位置。喬安娜在空中時，底下的盟友獲得控場免疫。落地時，被擊中的敵人會受到<c val=\"#TooltipNumbers\">225</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，並且昏迷<c val=\"#TooltipNumbers\">0.25</c>秒。",
+      "name": "天罰之劍",
+      "shortText": "飛躍至目標區域守護盟友，並且使敵人昏迷"
+    },
+    "CrusaderBlessedShield|CrusaderBlessedShield|Heroic": {
+      "cooldownText": "冷卻時間：65秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：90點</s>",
+      "fullText": "擲出盾牌，對第一個擊中的敵人造成<c val=\"#TooltipNumbers\">114</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，並且使其昏迷<c val=\"#TooltipNumbers\">1.5</c>秒。盾牌接著會彈跳至附近<c val=\"#TooltipNumbers\">2</c>名敵方目標，造成<c val=\"#TooltipNumbers\">57</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，並且使他們昏迷<c val=\"#TooltipNumbers\">0.75</c>秒。",
+      "name": "祝福之盾",
+      "shortText": "擲出可彈跳的盾牌擊昏敵人"
+    },
+    "CrusaderIronSkin|CrusaderIronSkin|Trait": {
+      "cooldownText": "冷卻時間：22秒",
+      "fullText": "啟動後，喬安娜獲得可吸收<c val=\"#TooltipNumbers\">810</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害值的護盾，持續<c val=\"#TooltipNumbers\">4</c>秒。護盾作用期間為控場免疫。",
+      "name": "鋼鐵之甲",
+      "shortText": "控場免疫，並且獲得護盾"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "冷卻時間：4秒",
+      "fullText": "引導<c val=\"#TooltipNumbers\">1</c>秒後，提高<s val=\"StandardTooltipDetails\">30%</s>移動速度。",
+      "name": "召喚坐騎"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "引導<c val=\"#TooltipNumbers\">6</c>秒後傳送回風暴祭壇，立即恢復<c val=\"#TooltipNumbers\">1125</c>點生命值和<c val=\"#TooltipNumbers\">150</c>點法力值。",
+      "name": "爐石"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "離開坐騎。",
+      "name": "離開坐騎"
+    },
+    "CrusaderLawsOfHope|CrusaderLawsOfHope|Active": {
+      "cooldownText": "冷卻時間：40秒",
+      "fullText": "啟動後可在<c val=\"#TooltipNumbers\">5</c>秒內恢復喬安娜最大生命值的<c val=\"#TooltipNumbers\">20%</c>。 <n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任務：</c>每收集<c val=\"#TooltipNumbers\">10</c>顆恢復之球，此治療量提高相當於喬安娜最大生命值的<c val=\"#TooltipNumbers\">5%</c>。",
+      "name": "希望律令",
+      "shortText": "啟動後可持續恢復生命值<n/><c val=\"#TooltipQuest\">任務：</c>提高治療量"
+    },
+    "CrusaderSteedCharge|CrusaderIronSkinSteedCharge|Active": {
+      "cooldownText": "冷卻時間：20秒",
+      "fullText": "啟動可立即騎乘坐騎，持續<c val=\"#TooltipNumbers\">4</c>秒，不受傷害的阻礙。<n/><n/><c val=\"#AbilityPassive\">被動：</c>鋼鐵之甲的持續時間提高<c val=\"#TooltipNumbers\">2</c>秒。",
+      "name": "戰馬奔騰",
+      "shortText": "啟動可強化騎乘能力"
+    },
+    "CrusaderBlessedHammer|CrusaderCondemnBlessedHammerTalent|Active": {
+      "cooldownText": "冷卻時間：30秒",
+      "fullText": "啟動後，產生<c val=\"#TooltipNumbers\">2</c>把從喬安娜身上盤旋而出的飛鎚，對擊中的敵人造成<c val=\"#TooltipNumbers\">65</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。以基本技能對敵人造成傷害會使此技能的冷卻時間降低<c val=\"#TooltipNumbers\">2.5</c>秒。<n/><n/><c val=\"#AbilityPassive\">被動：</c>對敵方英雄每進行<c val=\"#TooltipNumbers\">3</c>次基本攻擊會釋放一把飛鎚。",
+      "name": "祝福之鎚",
+      "shortText": "啟動後產生盤旋的飛鎚"
+    },
+    "CrusaderBlindedByTheLight|CrusaderBlindedByTheLight|Active": {
+      "cooldownText": "冷卻時間：60秒",
+      "fullText": "啟動後，使附近的友方英雄獲得相當於其最大生命值<c val=\"#TooltipNumbers\">25%</c>的護盾，持續<c val=\"#TooltipNumbers\">3</c>秒。<n/><n/>以聖盾炫光命中英雄，可使此技能的冷卻時間降低<c val=\"#TooltipNumbers\">8</c>秒。",
+      "name": "炫光之盾",
+      "shortText": "啟動後，使附近盟友獲得護盾"
+    },
+    "CrusaderIndestructible|CrusaderIndestructibleHotbar|Passive": {
+      "cooldownText": "冷卻時間：120秒",
+      "fullText": "受到致命傷害時，喬安娜獲得相當於最大生命值的護盾，持續<c val=\"#TooltipNumbers\">4</c>秒。",
+      "name": "越挫越勇"
+    }
+  },
+  "talents": {
+    "CrusaderZealousGlare|CrusaderZealousGlare|E|Level1": {
+      "fullText": "聖盾炫光額外獲得<c val=\"#TooltipNumbers\">1</c>次使用次數，傷害提高<c val=\"#TooltipNumbers\">70%</c>。",
+      "name": "狂熱炫光",
+      "shortText": "提高聖盾炫光的使用次數和傷害"
+    },
+    "CrusaderPassiveDivineFortress|CrusaderPassiveDivineFortress|Passive|Level1": {
+      "fullText": "基本攻擊會使物理護甲提高<c val=\"#TooltipNumbers\">10</c>點，持續<c val=\"#TooltipNumbers\">4</c>秒，最多可堆疊<c val=\"#TooltipNumbers\">40</c>點。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">險著：</c>最大生命值提高<c val=\"#TooltipNumbers\">25%</c>。每次死亡時，此加成會降低<c val=\"#TooltipNumbers\">5%</c>。",
+      "name": "神聖壁壘",
+      "shortText": "<c val=\"#TooltipQuest\">險著：</c>提高最大生命值<n/>基本攻擊會賦予物理護甲"
+    },
+    "CrusaderMasteryLawsOfHope|CrusaderLawsOfHope|Active|Level1": {
+      "cooldownText": "冷卻時間：40秒",
+      "fullText": "啟動後可在<c val=\"#TooltipNumbers\">5</c>秒內恢復喬安娜最大生命值的<c val=\"#TooltipNumbers\">20%</c>。 <n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任務：</c>每收集<c val=\"#TooltipNumbers\">10</c>顆恢復之球，此治療量提高相當於喬安娜最大生命值的<c val=\"#TooltipNumbers\">5%</c>。",
+      "name": "希望律令",
+      "shortText": "啟動後可持續恢復生命值<n/><c val=\"#TooltipQuest\">任務：</c>提高治療量"
+    },
+    "CrusaderMasteryPunishSubdue|CrusaderSubdueTalent|Q|Level4": {
+      "fullText": "以制裁一次命中至少<c val=\"#TooltipNumbers\">2</c>名敵方英雄時，制裁的緩速效果提高至<c val=\"#TooltipNumbers\">70%</c>，並且緩速效果不會於持續時間內逐漸消退。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任務：</c>以制裁一次命中至少<c val=\"#TooltipNumbers\">4</c>名英雄。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">獎勵：</c>制裁的緩速效果維持在<c val=\"#TooltipNumbers\">70%</c>。",
+      "name": "制敵炫光",
+      "shortText": "<c val=\"#TooltipQuest\">任務：</c>提高制裁的緩速效果"
+    },
+    "CrusaderMasteryCondemnEternalRetaliation|CrusaderEternalRetaliationTalent|W|Level4": {
+      "fullText": "天譴擊中敵人時會使其標記<c val=\"#TooltipNumbers\">10</c>秒。喬安娜下一個對該敵人的基本攻擊會移除標記，使天譴的冷卻時間降低<c val=\"#TooltipNumbers\">1</c>秒、恢復<c val=\"#TooltipNumbers\">10</c>點法力值，並且殺死小兵。",
+      "name": "無盡報復",
+      "shortText": "天譴會標記敵人，並且殺死小兵"
+    },
+    "CrusaderMasteryIronSkinHoldYourGround|CrusaderIronSkinHoldYourGroundTalent|Trait|Level4": {
+      "fullText": "鋼鐵之甲的護盾值提高<c val=\"#TooltipNumbers\">40%</c>，冷卻時間降低<c val=\"#TooltipNumbers\">2</c>秒。",
+      "name": "堅守陣地",
+      "shortText": "提高鋼鐵之甲的護盾值，降低冷卻時間"
+    },
+    "CrusaderMasteryShieldGlareSinsExposed|CrusaderPunishSinsExposedTalent|Q|Level7": {
+      "fullText": "制裁會使受到的治療效果降低<c val=\"#TooltipNumbers\">35%</c>，持續<c val=\"#TooltipNumbers\">3</c>秒。對該敵人進行基本攻擊會重置此效果的持續時間。",
+      "name": "罪行揭露",
+      "shortText": "制裁會降低敵人受到的治療效果"
+    },
+    "CrusaderMasteryCondemnConviction|CrusaderCondemnConvictionTalent|W|Level7": {
+      "fullText": "獲得<c val=\"#TooltipNumbers\">10%</c>移動速度。在天譴的充能期間，此加成提高至<c val=\"#TooltipNumbers\">20%</c>。",
+      "name": "虔信",
+      "shortText": "天譴可提高移動速度"
+    },
+    "CrusaderIronSkinSteedCharge|CrusaderIronSkinSteedCharge|Active|Level7": {
+      "cooldownText": "冷卻時間：20秒",
+      "fullText": "啟動可立即騎乘坐騎，持續<c val=\"#TooltipNumbers\">4</c>秒，不受傷害的阻礙。<n/><n/><c val=\"#AbilityPassive\">被動：</c>鋼鐵之甲的持續時間提高<c val=\"#TooltipNumbers\">2</c>秒。",
+      "name": "戰馬奔騰",
+      "shortText": "啟動可強化騎乘能力"
+    },
+    "CrusaderHeroicAbilityFallingSword|CrusaderFallingSword|Heroic|Level10": {
+      "cooldownText": "冷卻時間：50秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：60點</s>",
+      "fullText": "喬安娜飛身縱躍，持續<c val=\"#TooltipNumbers\">2</c>秒，此時喬安娜可移動，以決定落地的位置。喬安娜在空中時，底下的盟友獲得控場免疫。落地時，被擊中的敵人會受到<c val=\"#TooltipNumbers\">225</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，並且昏迷<c val=\"#TooltipNumbers\">0.25</c>秒。",
+      "name": "天罰之劍",
+      "shortText": "飛躍至目標區域守護盟友，並且使敵人昏迷"
+    },
+    "CrusaderHeroicAbilityBlessedShield|CrusaderBlessedShield|Heroic|Level10": {
+      "cooldownText": "冷卻時間：65秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：90點</s>",
+      "fullText": "擲出盾牌，對第一個擊中的敵人造成<c val=\"#TooltipNumbers\">114</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，並且使其昏迷<c val=\"#TooltipNumbers\">1.5</c>秒。盾牌接著會彈跳至附近<c val=\"#TooltipNumbers\">2</c>名敵方目標，造成<c val=\"#TooltipNumbers\">57</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，並且使他們昏迷<c val=\"#TooltipNumbers\">0.75</c>秒。",
+      "name": "祝福之盾",
+      "shortText": "擲出可彈跳的盾牌擊昏敵人"
+    },
+    "CrusaderMasteryPunishRoar|CrusaderRoarTalent|Q|Level13": {
+      "fullText": "制裁的傷害提高<c val=\"#TooltipNumbers\">50%</c>。若制裁命中至少<c val=\"#TooltipNumbers\">2</c>名敵人，此傷害加成提高至<c val=\"#TooltipNumbers\">150%</c>。",
+      "name": "怒吼",
+      "shortText": "提高制裁的傷害"
+    },
+    "CrusaderHolyFury|CrusaderHolyFury|W|Level13": {
+      "fullText": "每秒對周圍敵人造成<c val=\"#TooltipNumbers\">15</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。天譴每擊中一名英雄，可使此傷害提高<c val=\"#TooltipNumbers\">40%</c>，持續<c val=\"#TooltipNumbers\">5</c>秒。",
+      "name": "神聖烈怒",
+      "shortText": "對附近的敵人造成傷害"
+    },
+    "CrusaderBlessedHammer|CrusaderCondemnBlessedHammerTalent|Active|Level13": {
+      "cooldownText": "冷卻時間：30秒",
+      "fullText": "啟動後，產生<c val=\"#TooltipNumbers\">2</c>把從喬安娜身上盤旋而出的飛鎚，對擊中的敵人造成<c val=\"#TooltipNumbers\">65</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。以基本技能對敵人造成傷害會使此技能的冷卻時間降低<c val=\"#TooltipNumbers\">2.5</c>秒。<n/><n/><c val=\"#AbilityPassive\">被動：</c>對敵方英雄每進行<c val=\"#TooltipNumbers\">3</c>次基本攻擊會釋放一把飛鎚。",
+      "name": "祝福之鎚",
+      "shortText": "啟動後產生盤旋的飛鎚"
+    },
+    "CrusaderCondemnShrinkingVacuum|CrusaderCondemnShrinkingVacuumTalent|W|Level16": {
+      "fullText": "天譴會使敵方英雄造成的傷害降低<c val=\"#TooltipNumbers\">30%</c>，並且使其緩速<c val=\"#TooltipNumbers\">30%</c>，持續<c val=\"#TooltipNumbers\">3</c>秒。",
+      "name": "戰慄引敵",
+      "shortText": "天譴會降低造成的傷害和緩速"
+    },
+    "CrusaderMasteryShieldGlareHolyRenewal|CrusaderShieldGlareHolyRenewalTalent|E|Level16": {
+      "fullText": "聖盾炫光擊中敵方英雄可使其冷卻時間降低<c val=\"#TooltipNumbers\">1</c>秒，並且使喬安娜恢復最大生命值的<c val=\"#TooltipNumbers\">5%</c>。",
+      "name": "神聖恢復",
+      "shortText": "聖盾炫光會恢復生命值"
+    },
+    "CrusaderBlessedMomentum|JohannaBlessedMomentum|Passive|Level16": {
+      "fullText": "喬安娜的基本攻擊會提高<c val=\"#TooltipNumbers\">10%</c>攻擊速度，持續<c val=\"#TooltipNumbers\">4</c>秒，最多可堆疊<c val=\"#TooltipNumbers\">40%</c>。喬安娜的基本攻擊同時會使基本技能冷卻時間降低<c val=\"#TooltipNumbers\">0.5</c>秒。",
+      "name": "祝福律動",
+      "shortText": "基本攻擊會降低基本技能冷卻時間"
+    },
+    "CrusaderMasteryFallingSwordHeavensFury|CrusaderFallingSwordHeavensFuryTalent|Heroic|Level20": {
+      "fullText": "天罰之劍會降下神聖電光，對敵人造成<c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害、治療友方英雄<c val=\"#TooltipNumbers\">68</c><c val=\"#ColorGray\">~~0.04~~</c>點生命值，並且每擊中一名英雄，會使其冷卻時間降低<c val=\"#TooltipNumbers\">1</c>秒。",
+      "name": "天堂之怒",
+      "shortText": "天罰之劍會降下神聖電光"
+    },
+    "CrusaderMasteryBlessedShieldRadiatingFaith|CrusaderBlessedShieldRadiatingFaithTalent|Heroic|Level20": {
+      "fullText": "祝福之盾可擊中的敵人數量提高<c val=\"#TooltipNumbers\">2</c>名，造成昏迷的持續時間提高至<c val=\"#TooltipNumbers\">1.75</c>秒，並且擊中的所有目標都會陷入最大持續時間的昏迷。",
+      "name": "信念遠揚",
+      "shortText": "提高祝福之盾的昏迷時間和可擊中的目標上限"
+    },
+    "CrusaderHeroicMasteryIndestructable|CrusaderIndestructableTalent|Passive|Level20": {
+      "fullText": "受到致命傷害時，喬安娜獲得相當於最大生命值的護盾，持續<c val=\"#TooltipNumbers\">4</c>秒。此效果的冷卻時間為<c val=\"#TooltipNumbers\">120</c>秒。",
+      "name": "越挫越勇",
+      "shortText": "瀕死時獲得護盾"
+    },
+    "CrusaderBlindedByTheLight|CrusaderBlindedByTheLight|Active|Level20": {
+      "cooldownText": "冷卻時間：60秒",
+      "fullText": "啟動後，使附近的友方英雄獲得相當於其最大生命值<c val=\"#TooltipNumbers\">25%</c>的護盾，持續<c val=\"#TooltipNumbers\">3</c>秒。<n/><n/>以聖盾炫光命中英雄，可使此技能的冷卻時間降低<c val=\"#TooltipNumbers\">8</c>秒。",
+      "name": "炫光之盾",
+      "shortText": "啟動後，使附近盟友獲得護盾"
+    }
+  },
+  "units": {}
+}

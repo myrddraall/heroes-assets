@@ -1,0 +1,191 @@
+{
+  "abilities": {
+    "ZaryaParticleGrenade|ZaryaParticleGrenade|Q": {
+      "cooldownText": "充能时间：8秒",
+      "fullText": "射出一枚粒子榴弹，对范围内的敌人造成<c val=\"#TooltipNumbers\">80</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害。对建筑造成<c val=\"#TooltipNumbers\">50%</c>的伤害。<n/><n/>最多储存<c val=\"#TooltipNumbers\">4</c>次使用次数。",
+      "name": "粒子榴弹",
+      "shortText": "对小范围内的敌人造成伤害"
+    },
+    "ZaryaPersonalBarrier|ZaryaPersonalBarrier|W": {
+      "cooldownText": "冷却时间：10秒",
+      "fullText": "获得一个护盾，吸收<c val=\"#TooltipNumbers\">560</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害，持续<c val=\"#TooltipNumbers\">3</c>秒。",
+      "name": "个人屏障",
+      "shortText": "获得一个吸收伤害的护盾"
+    },
+    "ZaryaShieldAlly|ZaryaShieldAlly|E": {
+      "cooldownText": "冷却时间：12秒",
+      "fullText": "使一个友方英雄获得护盾，吸收<c val=\"#TooltipNumbers\">420</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害，持续<c val=\"#TooltipNumbers\">3</c>秒。",
+      "name": "投射屏障",
+      "shortText": "为盟友套上护盾来吸收伤害"
+    },
+    "ZaryaGravitonSurge|ZaryaGravitonSurge|Heroic": {
+      "cooldownText": "冷却时间：60秒",
+      "fullText": "射出一枚重力炸弹，在<c val=\"#TooltipNumbers\">1</c>秒后爆炸并将敌方英雄拉向中心，持续<c val=\"#TooltipNumbers\">2.5</c>秒。受影响的敌人每秒受到<c val=\"#TooltipNumbers\">30</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害。",
+      "name": "重力喷涌",
+      "shortText": "射出一枚重力炸弹，吸引敌人"
+    },
+    "ZaryaExpulsionZone|ZaryaExpulsionZone|Heroic": {
+      "cooldownText": "冷却时间：45秒",
+      "fullText": "射出一枚重力炸弹，造成<c val=\"#TooltipNumbers\">124</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害，并制造一片喷涌区域，持续<c val=\"#TooltipNumbers\">3.5</c>秒。进入该区域的敌人将被击退，并且移动速度降低<c val=\"#TooltipNumbers\">50%</c>，持续<c val=\"#TooltipNumbers\">1</c>秒。",
+      "name": "喷涌区域",
+      "shortText": "射出一枚炸弹，持续击退敌人"
+    },
+    ":PASSIVE:|ZaryaEnergy|Trait": {
+      "fullText": "个人屏障和投射屏障每吸收<c val=\"#TooltipNumbers\">9</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害就会使查莉娅的能量提高<c val=\"#TooltipNumbers\">1</c>点。每点能量使查莉娅的伤害提高<c val=\"#TooltipNumbers\">2%</c>。<c val=\"#TooltipNumbers\">0.5</c>秒后，能量会每秒降低<c val=\"#TooltipNumbers\">3</c>点。",
+      "name": "能量",
+      "shortText": "查莉娅的屏障所吸收的伤害可以提高她的伤害"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "冷却时间：4秒",
+      "fullText": "引导<c val=\"#TooltipNumbers\">1</c>秒后，获得<s val=\"StandardTooltipDetails\">30%</s>移动速度。",
+      "name": "召唤坐骑"
+    },
+    "Hearthstone|HearthstoneNoMana|B": {
+      "fullText": "引导<c val=\"#TooltipNumbers\">6</c>秒后，传送回风暴大厅，立即恢复<c val=\"#TooltipNumbers\">1125</c>的生命值。",
+      "name": "炉石"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "解除坐骑。",
+      "name": "解除坐骑"
+    },
+    "ZaryaPainIsTemporary|ZaryaPainIsTemporaryTalent|Active": {
+      "cooldownText": "冷却时间：30秒",
+      "fullText": "激活后消耗所有能量并获得一个护盾，每消耗一点能量就能吸收相当于查莉娅最大生命值<c val=\"#TooltipNumbers\">0.8%</c>的伤害，持续<c val=\"#TooltipNumbers\">3</c>秒。同一时间内查莉娅只能在自己身上激活一个个人护盾。",
+      "name": "短暂痛苦",
+      "shortText": "消耗能量来获得护盾"
+    },
+    "ZaryaUnyieldingDefender|ZaryaUnyieldingDefenderTalent|Active": {
+      "cooldownText": "冷却时间：60秒",
+      "fullText": "激活后重置个人屏障和投射屏障的冷却时间。",
+      "name": "不屈卫士",
+      "shortText": "激活后重置屏障的冷却时间"
+    }
+  },
+  "talents": {
+    "ZaryaParticleGrenadeDemolitionsExpertQuest|ZaryaParticleGrenadeDemolitionsExpertTalent|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任务：</c>粒子榴弹每击中<c val=\"#TooltipNumbers\">5</c>个敌方英雄使充能时间缩短<c val=\"#TooltipNumbers\">0.4375</c>秒，最多缩短<c val=\"#TooltipNumbers\">3.5</c>秒。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">奖励：</c>粒子榴弹击中<c val=\"#TooltipNumbers\">40</c>个敌方英雄后，范围扩大<c val=\"#TooltipNumbers\">15%</c>。",
+      "name": "爆破专家",
+      "shortText": "<c val=\"#TooltipQuest\">任务</c>：扩大粒子榴弹的范围，并缩短冷却时间"
+    },
+    "ZaryaShieldAllyTogetherWeAreStrong|ZaryaShieldAllyTogetherWeAreStrongTalent|E|Level1": {
+      "fullText": "盟友在获得投射屏障后的<c val=\"#TooltipNumbers\">3</c>秒内，每造成<c val=\"#TooltipNumbers\">5.35</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害，就会使查莉娅获得<c val=\"#TooltipNumbers\">1</c>点能量，每个护盾最多可以获得<c val=\"#TooltipNumbers\">40</c>点能量。",
+      "name": "众志成城",
+      "shortText": "受到投射屏障影响的盟友造成伤害会提供能量"
+    },
+    "ZaryaWeaponFeelTheHeat|ZaryaWeaponFeelTheHeatTalent|Trait|Level1": {
+      "fullText": "查莉娅的普通攻击对近战范围内的敌人造成<c val=\"#TooltipNumbers\">50%</c>的额外伤害。当能量超过<c val=\"#TooltipNumbers\">40</c>点时，查莉娅的普通攻击大小增加<c val=\"#TooltipNumbers\">35%</c>。",
+      "name": "感受热量",
+      "shortText": "普通攻击对近距离敌人造成更高伤害，大小增加"
+    },
+    "ZaryaEnergyMaximumChargeQuest|ZaryaEnergyMaximumChargeTalent|Trait|Level1": {
+      "fullText": "恢复之球立即提供<c val=\"#TooltipNumbers\">20</c>点能量。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任务：</c>能量达到或高于<c val=\"#TooltipNumbers\">50</c>点时，保持<c val=\"#TooltipNumbers\">150</c>秒。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">奖励：</c>最大能量值提高<c val=\"#TooltipNumbers\">20</c>点。",
+      "name": "能量全满",
+      "shortText": "恢复之球可以提供能量<n/><c val=\"#TooltipQuest\">任务</c>：提高能量上限"
+    },
+    "ZaryaPersonalBarrierIAmTheStrongest|ZaryaPersonalBarrierIAmTheStrongestTalent|W|Level4": {
+      "fullText": "个人屏障可以吸收额外<c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害。<n/><n/><c val=\"#AbilityPassive\">被动：</c>查莉娅的护盾吸收的伤害可以额外提供<c val=\"#TooltipNumbers\">20%</c>的能量。",
+      "name": "我最强壮",
+      "shortText": "提高个人屏障的护盾值，获得能量"
+    },
+    "ZaryaShieldAllyGiveMeTwentyQuest|ZaryaShieldAllyGiveMeTwentyTalent|E|Level4": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任务：</c>恢复之球使投射屏障的吸收量永久提高<c val=\"#TooltipNumbers\">15</c>点，最多提高<c val=\"#TooltipNumbers\">300</c>点。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">奖励：</c>收集<c val=\"#TooltipNumbers\">20</c>个恢复之球后，投射屏障的冷却时间永久缩短<c val=\"#TooltipNumbers\">2</c>秒。",
+      "name": "二十个俯卧撑",
+      "shortText": "<c val=\"#TooltipQuest\">任务</c>：提高投射屏障的吸收量，并缩短冷却时间"
+    },
+    "ZaryaShieldAllySpeedBarrier|ZaryaShieldAllySpeedBarrierTalent|E|Level4": {
+      "fullText": "投射屏障使友方英雄的移动速度在持续时间内提高<c val=\"#TooltipNumbers\">50%</c>。",
+      "name": "加速屏障",
+      "shortText": "投射屏障获得移动速度加成"
+    },
+    "ZaryaDefensiveShielding|ZaryaDefensiveShieldingTalent|Passive|Level4": {
+      "fullText": "效果消失或被打破后，个人屏障和投射屏障提供<c val=\"#TooltipNumbers\">75</c>点物理护甲，抵御下<c val=\"#TooltipNumbers\">2</c>次敌方英雄的普通攻击，使受到的伤害降低<c val=\"#TooltipNumbers\">75%</c>，持续<c val=\"#TooltipNumbers\">6</c>秒。",
+      "name": "防御屏障",
+      "shortText": "个人屏障和投射屏障提供物理护甲"
+    },
+    "ZaryaParticleGrenadePinpointAccuracy|ZaryaParticleGrenadePinpointAccuracyTalent|Q|Level7": {
+      "fullText": "粒子榴弹对被轰击点中心附近的敌人造成<c val=\"#TooltipNumbers\">25</c><c val=\"#ColorGray\">~~0.04~~</c>点额外伤害，并且使其移动速度降低<c val=\"#TooltipNumbers\">25%</c>，持续<c val=\"#TooltipNumbers\">2</c>秒。",
+      "name": "弹无虚发",
+      "shortText": "粒子榴弹在中心区域造成更高伤害并减速"
+    },
+    "ZaryaDeepBurn|ZaryaDeepBurn|Q|Level7": {
+      "fullText": "使用粒子榴弹命中敌方英雄后，对其发动普通攻击可以生成<c val=\"#TooltipNumbers\">2</c>点能量。该效果持续<c val=\"#TooltipNumbers\">4</c>秒。",
+      "name": "深度烧伤",
+      "shortText": "粒子榴弹可以生成能量"
+    },
+    "ZaryaPersonalBarrierExplosiveBarrier|ZaryaPersonalBarrierExplosiveBarrierTalent|W|Level7": {
+      "fullText": "效果消失或被打破后，个人屏障会爆炸，对附近敌人造成<c val=\"#TooltipNumbers\">110</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害。",
+      "name": "爆炸屏障",
+      "shortText": "个人屏障造成范围伤害"
+    },
+    "ZaryaHeroicAbilityGravitonSurge|ZaryaGravitonSurge|Heroic|Level10": {
+      "cooldownText": "冷却时间：60秒",
+      "fullText": "射出一枚重力炸弹，在<c val=\"#TooltipNumbers\">1</c>秒后爆炸并将敌方英雄拉向中心，持续<c val=\"#TooltipNumbers\">2.5</c>秒。受影响的敌人每秒受到<c val=\"#TooltipNumbers\">30</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害。",
+      "name": "重力喷涌",
+      "shortText": "射出一枚重力炸弹，吸引敌人"
+    },
+    "ZaryaHeroicAbilityExpulsionZone|ZaryaExpulsionZone|Heroic|Level10": {
+      "cooldownText": "冷却时间：45秒",
+      "fullText": "射出一枚重力炸弹，造成<c val=\"#TooltipNumbers\">124</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害，并制造一片喷涌区域，持续<c val=\"#TooltipNumbers\">3.5</c>秒。进入该区域的敌人将被击退，并且移动速度降低<c val=\"#TooltipNumbers\">50%</c>，持续<c val=\"#TooltipNumbers\">1</c>秒。",
+      "name": "喷涌区域",
+      "shortText": "射出一枚炸弹，持续击退敌人"
+    },
+    "ZaryaPersonalBarrierUnstoppableCompetitor|ZaryaPersonalBarrierUnstoppableCompetitorTalent|W|Level13": {
+      "fullText": "个人屏障使查莉娅不可阻挡，最多持续<c val=\"#TooltipNumbers\">2</c>秒。",
+      "name": "不可阻挡的对手",
+      "shortText": "个人屏障使你不可阻挡"
+    },
+    "ZaryaPersonalBarrierSpellBarrier|ZaryaPersonalBarrierSpellBarrierTalent|W|Level13": {
+      "fullText": "效果消失或被打破后，个人屏障为查莉娅提供<c val=\"#TooltipNumbers\">75</c>点法术护甲，使受到的技能伤害降低<c val=\"#TooltipNumbers\">75%</c>，持续<c val=\"#TooltipNumbers\">3</c>秒。",
+      "name": "法术屏障",
+      "shortText": "个人屏障提供法术护甲"
+    },
+    "ZaryaEnergyEnduranceTraining|ZaryaEnergyEnduranceTrainingTalent|Trait|Level13": {
+      "fullText": "能量达到或高于<c val=\"#TooltipNumbers\">75</c>点时，查莉娅获得<c val=\"#TooltipNumbers\">20</c>点护甲，使受到的所有伤害降低<c val=\"#TooltipNumbers\">20%</c>。",
+      "name": "耐力训练",
+      "shortText": "高能量时获得护甲"
+    },
+    "ZaryaPainIsTemporary|ZaryaPainIsTemporaryTalent|Active|Level13": {
+      "cooldownText": "冷却时间：30秒",
+      "fullText": "激活后消耗所有能量并获得一个护盾，每消耗一点能量就能吸收相当于查莉娅最大生命值<c val=\"#TooltipNumbers\">0.8%</c>的伤害，持续<c val=\"#TooltipNumbers\">3</c>秒。同一时间内查莉娅只能在自己身上激活一个个人护盾。",
+      "name": "短暂痛苦",
+      "shortText": "消耗能量来获得护盾"
+    },
+    "ZaryaShieldAllyCleansingShield|ZaryaShieldAllyCleansingShieldTalent|E|Level16": {
+      "fullText": "投射屏障移除所有限制效果，并且冷却时间缩短<c val=\"#TooltipNumbers\">3</c>秒。",
+      "name": "净化屏障",
+      "shortText": "投射屏障移除所有限制效果"
+    },
+    "ZaryaShieldAllyGainTrain|ZaryaShieldAllyGainTrainTalent|E|Level16": {
+      "fullText": "投射屏障还会使目标附近的一个盟友获得一个未经过天赋加强的护盾。",
+      "name": "获得训练",
+      "shortText": "投射屏障现在会影响第二名盟友"
+    },
+    "ZaryaEnergyBornInBattle|ZaryaEnergyBornInBattleTalent|Trait|Level16": {
+      "fullText": "能量达到或高于<c val=\"#TooltipNumbers\">75</c>点时，查莉娅的冷却速度加快<c val=\"#TooltipNumbers\">25%</c>。",
+      "name": "生于战斗",
+      "shortText": "高能量时缩短冷却时间"
+    },
+    "ZaryaGravitonSurgeGravityKills|ZaryaGravitonSurgeGravityKillsTalent|Heroic|Level20": {
+      "fullText": "重力喷涌的持续时间延长<c val=\"#TooltipNumbers\">1</c>秒，并使被困住的英雄沉默。",
+      "name": "致命重力",
+      "shortText": "延长重力喷涌的持续时间，并造成沉默"
+    },
+    "ZaryaExpulsionZoneClearOut|ZaryaExpulsionZoneClearOutTalent|Heroic|Level20": {
+      "fullText": "喷涌区域的冷却时间缩短<c val=\"#TooltipNumbers\">25</c>秒，持续时间增加<c val=\"#TooltipNumbers\">1.5</c>秒。",
+      "name": "驱逐出境",
+      "shortText": "缩短喷涌区域的冷却时间，增加持续时间"
+    },
+    "ZaryaParticleGrenadeGrenadier|ZaryaParticleGrenadeGrenadierTalent|Q|Level20": {
+      "fullText": "一次恢复所有粒子榴弹的使用次数。",
+      "name": "掷弹兵",
+      "shortText": "一次恢复所有粒子榴弹的使用次数"
+    },
+    "ZaryaUnyieldingDefender|ZaryaUnyieldingDefenderTalent|Active|Level20": {
+      "cooldownText": "冷却时间：60秒",
+      "fullText": "激活后重置个人屏障和投射屏障的冷却时间。",
+      "name": "不屈卫士",
+      "shortText": "激活后重置屏障的冷却时间"
+    }
+  },
+  "units": {}
+}

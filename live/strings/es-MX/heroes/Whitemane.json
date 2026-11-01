@@ -1,0 +1,200 @@
+{
+  "abilities": {
+    "WhitemaneDesperatePlea|WhitemaneDesperatePlea|Q": {
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 45</s>",
+      "fullText": "Le restituye a un héroe aliado <c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c> de salud y obtiene <c val=\"#WhitemaneDesperation\">Desesperación</c> durante <c val=\"#TooltipNumbers\">4</c> segundos.<n/><n/><c val=\"#WhitemaneDesperation\">Desesperación</c> aumenta el costo de maná de Súplica desesperada en <c val=\"#TooltipNumbers\">40</c> y se acumula hasta <c val=\"#TooltipNumbers\">3</c> veces.<n/><n/><c val=\"ffff8a\">Costo de maná actual:</c> <c val=\"#TooltipNumbers\">45</c>",
+      "name": "Súplica desesperada",
+      "shortText": "Sana a un héroe aliado"
+    },
+    "WhitemaneInquisition|WhitemaneInquisition|W": {
+      "cooldownText": "Tiempo de reutilización: 12 segundos",
+      "fullText": "Canaliza la habilidad sobre un héroe enemigo durante <c val=\"#TooltipNumbers\">3</c> segundos para infligir <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> de daño cada <c val=\"#TooltipNumbers\">0.5</c> segundos y ralentizarlo un <c val=\"#TooltipNumbers\">30%</c>. Elimina una acumulación de <c val=\"#WhitemaneDesperation\">Desesperación</c>.<n/><n/>Comparte un tiempo de reutilización con Clemencia.",
+      "name": "Inquisición",
+      "shortText": "Inflige daño o sana a los héroes"
+    },
+    "WhitemaneSearingLash|WhitemaneSearingLash|E": {
+      "cooldownText": "Tiempo de reutilización: 6 segundos",
+      "fullText": "Después de <c val=\"#TooltipNumbers\">0.5</c> segundos, azota a los enemigos en una línea recta para infligir <c val=\"#TooltipNumbers\">82</c><c val=\"#ColorGray\">~~0.04~~</c> de daño.<n/><n/>Si el primer ataque golpea a un héroe enemigo, el segundo ataque se producirá luego de un lapso breve.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Misión repetible:</c> Golpea héroes con Azote abrasador.<n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Misión repetible:</c> Golpea a <c val=\"#TooltipNumbers\">3</c> héroes con ataques básicos.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa:</c> Aumenta de forma permanente la salud de Melenablanca en <c val=\"#TooltipNumbers\">3</c> y su maná en <c val=\"#TooltipNumbers\">2</c>. Los héroes golpeados con el segundo ataque de Azote abrasador cuentan como <c val=\"#TooltipNumbers\">2</c> golpes.",
+      "name": "Azote abrasador",
+      "shortText": "Inflige daño a enemigos en una línea"
+    },
+    "WhitemaneScarletAegis|WhitemaneScarletAegis|Heroic": {
+      "cooldownText": "Tiempo de reutilización: 60 segundos",
+      "fullText": "Levanta los espíritus de los héroes aliados cercanos proporcionándoles <c val=\"#TooltipNumbers\">300</c><c val=\"#ColorGray\">~~0.04~~</c> de salud y <c val=\"#TooltipNumbers\">40</c> de Armadura durante <c val=\"#TooltipNumbers\">4</c> segundos.",
+      "name": "Égida Escarlata",
+      "shortText": "Sana y otorga Armadura a los aliados cercanos"
+    },
+    "WhitemaneDivineReckoning|WhitemaneDivineReckoning|Heroic": {
+      "cooldownText": "Tiempo de reutilización: 75 segundos",
+      "fullText": "Después de <c val=\"#TooltipNumbers\">1</c> segundo, consagra un área durante <c val=\"#TooltipNumbers\">4</c> segundos e inflige <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> de daño cada <c val=\"#TooltipNumbers\">0.5</c> segundos a los enemigos dentro del área. <c val=\"#TooltipNumbers\">25%</c> del daño infligido a héroes se devuelve como maná.",
+      "name": "Expiación divina",
+      "shortText": "Consagra un área"
+    },
+    "WhitemaneFanaticalPower|WhitemaneTraitZeal|Trait": {
+      "cooldownText": "Tiempo de reutilización: 40 segundos",
+      "fullText": "Las habilidades de sanación de Melenablanca aplican <c val=\"#WhitemaneZeal\">Fervor</c> durante <c val=\"#TooltipNumbers\">8</c> segundos. Los aliados con <c val=\"#WhitemaneZeal\">Fervor</c> son sanados por un <c val=\"#TooltipNumbers\">100%</c> del daño que Melenablanca inflige a héroes.<n/><n/>Activar para obtener un <c val=\"#TooltipNumbers\">25%</c> de poder de habilidad especial y perder <c val=\"#TooltipNumbers\">15</c> de Armadura durante <c val=\"#TooltipNumbers\">5</c> segundos. Puede lanzarse durante la canalización de habilidades.",
+      "name": "Fervor",
+      "shortText": "Sana a los aliados marcados por daño infligido"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Tiempo de reutilización: 4 segundos",
+      "fullText": "Tras una canalización de <c val=\"#TooltipNumbers\">1</c> segundo, obtienes un <s val=\"StandardTooltipDetails\">30%</s> de velocidad de movimiento.",
+      "name": "Invocar montura"
+    },
+    "WhitemaneInquisitionClemency|WhitemaneInquisitionClemency|Active": {
+      "cooldownText": "Tiempo de reutilización: 12 segundos",
+      "fullText": "Activar para lanzar Inquisición sobre un héroe aliado, lo que le restituye hasta un máximo de <c val=\"#TooltipNumbers\">329</c><c val=\"#ColorGray\">~~0.04~~</c> de salud durante <c val=\"#TooltipNumbers\">3</c> segundos durante la canalización. Elimina una acumulación de <c val=\"#WhitemaneDesperation\">Desesperación</c>.<n/><n/>Comparte un tiempo de reutilización con Inquisición.",
+      "name": "Clemencia",
+      "shortText": "Sana a aliados con Inquisición"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Tras una canalización de <c val=\"#TooltipNumbers\">6</c> segundos, te teletransportas de regreso a la Sala de las tormentas para recuperar <c val=\"#TooltipNumbers\">1125</c> de salud y <c val=\"#TooltipNumbers\">150</c> de maná de inmediato.",
+      "name": "Piedra de hogar"
+    },
+    "WhitemaneInquisitionCancel|WhitemaneInquisitionCancel|W": {
+      "fullText": "Deja de canalizar Inquisición.",
+      "name": "Inquisición (Cancelar)",
+      "shortText": "Cancelar Inquisición"
+    },
+    "WhitemaneInquisitionCancel|WhitemaneInquisitionCancel|Active": {
+      "fullText": "Deja de canalizar Inquisición.",
+      "name": "Inquisición (Cancelar)",
+      "shortText": "Cancelar Inquisición"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Te desmontas.",
+      "name": "Desinvocar montura"
+    },
+    "WhitemaneIntercession|WhitemaneIntercession|Active": {
+      "cooldownText": "Tiempo de reutilización: 75 segundos",
+      "fullText": "Activar para volver imparable a un aliado durante <c val=\"#TooltipNumbers\">1</c> segundos.",
+      "name": "Intercesión",
+      "shortText": "Vuelve imparable a un aliado"
+    },
+    "WhitemaneGuidingLight|WhitemaneGuidingLight|Active": {
+      "cooldownText": "Tiempo de reutilización: 30 segundos",
+      "fullText": "Actívalo para lanzar <c val=\"#WhitemaneZeal\">Fervor</c> de forma permanente sobre un héroe aliado sin costo de maná que no otorga <c val=\"#WhitemaneDesperation\">Desesperación</c>. Solo puede haber un Fervor de este tipo activo a la vez, el cual tiene alcance de lanzamiento global.<n/><n/>Aumenta un 15% la bonificación de poder con hechizos que otorgan los atributos de Melenablanca.",
+      "name": "Luz guía",
+      "shortText": "Activar para lanzar <c val=\"#WhitemaneZeal\">Fervor</c> sin costo."
+    },
+    "WhitemanePurgeTheWicked|WhitemanePurgeTheWicked|Active": {
+      "cooldownText": "Tiempo de reutilización: 40 segundos",
+      "fullText": "Activar para golpear a un héroe enemigo con fuego sagrado, reducir su Armadura en <c val=\"#TooltipNumbers\">25</c> e infligir <c val=\"#TooltipNumbers\">300</c><c val=\"#ColorGray\">~~0.04~~</c> de daño durante <c val=\"#TooltipNumbers\">4</c> segundos.",
+      "name": "Purgar a los malvados",
+      "shortText": "Activar para infligir daño y reducir la Armadura"
+    }
+  },
+  "talents": {
+    "WhitemaneZealPityTheFrail|WhitemaneZealPityTheFrail|W|Level1": {
+      "fullText": "Cada héroe golpeado con Azote abrasador reduce el tiempo de reutilización de Inquisición <c val=\"#TooltipNumbers\">1</c> segundos. Los aliados con menos de un <c val=\"#TooltipNumbers\">30%</c> de salud reciben un <c val=\"#TooltipNumbers\">25%</c> más de sanación de Melenablanca.",
+      "name": "Compasión por los débiles",
+      "shortText": "Azote abrasador reduce el tiempo de reutilización de Inquisición"
+    },
+    "WhitemaneSearingLashRighteousFlame|WhitemaneSearingLashRighteousFlame|E|Level1": {
+      "fullText": "Azote abrasador inflige un <c val=\"#TooltipNumbers\">25%</c> más de daño a los enemigos. Si el segundo ataque golpea a un héroe enemigo, este recibe <c val=\"#TooltipNumbers\">25%</c> más de daño y Melenablanca obtiene un <c val=\"#TooltipNumbers\">40%</c> de velocidad de ataque durante <c val=\"#TooltipNumbers\">3</c> segundos.",
+      "name": "Llama de la justicia",
+      "shortText": "Aumenta el daño de Azote abrasador"
+    },
+    "WhitemaneInquisitorsPrayer|WhitemaneInquisitor'sPrayer|E|Level1": {
+      "fullText": "Azote abrasador restaura <c val=\"#TooltipNumbers\">25</c> de maná por cada héroe que golpea, y <c val=\"#WhitemaneZeal\">Fervor</c> dura <c val=\"#TooltipNumbers\">2</c> segundos adicionales.",
+      "name": "Plegaria de la Inquisidora",
+      "shortText": "Azote abrasador restaura maná y aplica una bonificación a la duración de <c val=\"#WhitemaneZeal\">Fervor</c>"
+    },
+    "WhitemaneDesperatePleaUnwaveringFaith|WhitemaneDesperatePleaUnwaveringFaith|Q|Level4": {
+      "fullText": "Aumenta el alcance del ataque básico de Melenablanca en <c val=\"#TooltipNumbers\">1.1</c>. Melenablanca obtiene un <c val=\"#TooltipNumbers\">20%</c> más de daño de ataque básico por cada potenciación de <c val=\"#WhitemaneZeal\">Fervor</c> activa.",
+      "name": "Fe inquebrantable",
+      "shortText": "Aumenta el alcance y el daño de los ataques básicos"
+    },
+    "WhitemaneDesperatePleaMartyrdom|WhitemaneDesperatePleaMartyrdom|Q|Level4": {
+      "fullText": "La sanación de Súplica desesperada se incrementa un <c val=\"#TooltipNumbers\">30%</c>. Esto se incrementa un <c val=\"#TooltipNumbers\">10%</c> más por cada <c val=\"#WhitemaneZeal\">Fervor</c> activo.",
+      "name": "Martirio",
+      "shortText": "<c val=\"#WhitemaneZeal\">Fervor</c> incrementa la sanación de Súplica desesperada"
+    },
+    "WhitemaneZealIndulgence|WhitemaneZealIndulgence|Trait|Level4": {
+      "fullText": "Obtienes un <c val=\"#TooltipNumbers\">5%</c> de velocidad de movimiento. Esto se incrementa un <c val=\"#TooltipNumbers\">5%</c> más por cada <c val=\"#WhitemaneZeal\">Fervor</c> activo.",
+      "name": "Indulgencia",
+      "shortText": "<c val=\"#WhitemaneZeal\">Fervor</c> otorga velocidad de movimiento"
+    },
+    "WhitemaneDesperatePleaZealousSpirit|WhitemaneDesperatePleaZealousSpirit|Q|Level7": {
+      "fullText": "Tras alcanzar <c val=\"#TooltipNumbers\">2</c> acumulaciones de <c val=\"#WhitemaneDesperation\">Desesperación</c>, Melenablanca obtiene <c val=\"#WhitemaneZeal\">Fervor</c>.",
+      "name": "Espíritu ferviente",
+      "shortText": "<c val=\"#WhitemaneDesperation\">Desesperación</c> le otorga <c val=\"#WhitemaneZeal\">Fervor</c> a Melenablanca"
+    },
+    "WhitemaneSaintlyGreatstaff|WhitemaneSaintlyGreatstaff|E|Level7": {
+      "fullText": "Los héroes enemigos golpeados por Azote abrasador son marcados durante <c val=\"#TooltipNumbers\">3</c> segundos. Los ataques básicos contra ellos infligen <c val=\"#TooltipNumbers\">55</c><c val=\"#ColorGray\">~~0.04~~</c> más de daño de habilidad especial y eliminan la marca.",
+      "name": "Gran bastón sagrado",
+      "shortText": "Azote abrasador potencia los ataques básicos"
+    },
+    "WhitemaneIntercession|WhitemaneIntercession|Active|Level7": {
+      "cooldownText": "Tiempo de reutilización: 75 segundos",
+      "fullText": "Activar para volver imparable a un aliado durante <c val=\"#TooltipNumbers\">1</c> segundos.",
+      "name": "Intercesión",
+      "shortText": "Vuelve imparable a un aliado"
+    },
+    "WhitemaneScarletAegis|WhitemaneScarletAegis|Heroic|Level10": {
+      "cooldownText": "Tiempo de reutilización: 60 segundos",
+      "fullText": "Levanta los espíritus de los héroes aliados cercanos proporcionándoles <c val=\"#TooltipNumbers\">300</c><c val=\"#ColorGray\">~~0.04~~</c> de salud y <c val=\"#TooltipNumbers\">40</c> de Armadura durante <c val=\"#TooltipNumbers\">4</c> segundos.",
+      "name": "Égida Escarlata",
+      "shortText": "Sana y otorga Armadura a los aliados cercanos"
+    },
+    "WhitemaneDivineReckoning|WhitemaneDivineReckoning|Heroic|Level10": {
+      "cooldownText": "Tiempo de reutilización: 75 segundos",
+      "fullText": "Después de <c val=\"#TooltipNumbers\">1</c> segundo, consagra un área durante <c val=\"#TooltipNumbers\">4</c> segundos e inflige <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> de daño cada <c val=\"#TooltipNumbers\">0.5</c> segundos a los enemigos dentro del área. <c val=\"#TooltipNumbers\">25%</c> del daño infligido a héroes se devuelve como maná.",
+      "name": "Expiación divina",
+      "shortText": "Consagra un área"
+    },
+    "WhitemaneInquisitionSubjugation|WhitemaneInquisitionSubjugation|W|Level13": {
+      "fullText": "Inquisición reduce todo el daño que el objetivo inflige un <c val=\"#TooltipNumbers\">50%</c>.",
+      "name": "Subyugación",
+      "shortText": "Inquisición reduce el daño del enemigo"
+    },
+    "WhitemaneSearingLashLashingOut|WhitemaneSearingLashLashingOut|E|Level13": {
+      "fullText": "Si el segundo ataque de Azote abrasador golpea a un héroe enemigo, reduce el tiempo de reutilización <c val=\"#TooltipNumbers\">1</c> segundo.",
+      "name": "Arrebato",
+      "shortText": "Reduce el tiempo de reutilización de Azote abrasador"
+    },
+    "WhitemaneZealScarletWrath|WhitemaneZealScarletWrath|Trait|Level13": {
+      "fullText": "Los ataques básicos contra héroes aumentan la duración de todos los <c val=\"#WhitemaneZeal\">Fervores</c> activos <c val=\"#TooltipNumbers\">0.75</c> segundos, restauran un <c val=\"#TooltipNumbers\">1</c><c val=\"#TooltipNumbers\">%</c> de maná a todos los objetivos de <c val=\"#WhitemaneZeal\">Fervor</c> y reducen el tiempo de reutilización de la activación de <c val=\"#WhitemaneZeal\">Fervores</c> <c val=\"#TooltipNumbers\">4</c> segundos.",
+      "name": "Ira escarlata",
+      "shortText": "Los ataques básicos incrementan la duración de <c val=\"#WhitemaneZeal\">Fervor</c>"
+    },
+    "WhitemaneDesperatePleaRadiance|WhitemaneDesperatePleaRadiance|Q|Level16": {
+      "fullText": "Alcanzar <c val=\"#TooltipNumbers\">3</c> acumulaciones de <c val=\"#WhitemaneDesperation\">Desesperación</c> sana por <c val=\"#TooltipNumbers\">190</c><c val=\"#ColorGray\">~~0.04~~</c> y vuelve a aplicar <c val=\"#WhitemaneZeal\">Fervor</c> a los aliados con <c val=\"#WhitemaneZeal\">Fervor</c>.",
+      "name": "Resplandor",
+      "shortText": "<c val=\"#WhitemaneDesperation\">Desesperación</c> sana a los aliados con <c val=\"#WhitemaneZeal\">Fervor</c>"
+    },
+    "WhitemaneInquisitionSharedPunishment|WhitemaneInquisitionSharedPunishment|W|Level16": {
+      "fullText": "Al lanzarla, Inquisición puede enlazar a un héroe enemigo adicional cerca de su objetivo, lo que inflige <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> de daño cada <c val=\"#TooltipNumbers\">0.5</c> segundos. Los enemigos afectados pierden <c val=\"#TooltipNumbers\">10</c> de Armadura.",
+      "name": "Castigo compartido",
+      "shortText": "Inquisición enlaza a un enemigo cercano y reduce la Armadura"
+    },
+    "WhitemaneSearingLashHarshDiscipline|WhitemaneSearingLashHarshDiscipline|E|Level16": {
+      "fullText": "Golpear a un héroe con Azote abrasador mientras está bajo los efectos de Inquisición, lo arraiga durante <c val=\"#TooltipNumbers\">1.5</c> segundos.<n/><n/><c val=\"#AbilityPassive\">Pasivo:</c> Reduce el tiempo de reutilización de Inquisición <c val=\"#TooltipNumbers\">2</c> segundos.",
+      "name": "Disciplina estricta",
+      "shortText": "Azote abrasador arraiga al objetivo de Inquisición"
+    },
+    "WhitemaneScarletAegisScarletCrusade|WhitemaneScarletAegisScarletCrusade|Heroic|Level20": {
+      "fullText": "Égida Escarlata sana un <c val=\"#TooltipNumbers\">50%</c> más y hace que los aliados afectados se vuelvan imparables durante <c val=\"#TooltipNumbers\">2</c> segundos.",
+      "name": "Cruzada Escarlata",
+      "shortText": "Égida Escarlata vuelve a los aliados imparables"
+    },
+    "WhitemaneDivineReckoningJudgmentDay|WhitemaneDivineReckoningJudgmentDay|Heroic|Level20": {
+      "fullText": "Expiación divina inflige un <c val=\"#TooltipNumbers\">50%</c> más de daño y atrae a los enemigos a su centro la primera vez que los golpea.",
+      "name": "Día del juicio",
+      "shortText": "Expiación divina atrae a los enemigos"
+    },
+    "WhitemaneGuidingLight|WhitemaneGuidingLight|Active|Level20": {
+      "cooldownText": "Tiempo de reutilización: 30 segundos",
+      "fullText": "Actívalo para lanzar <c val=\"#WhitemaneZeal\">Fervor</c> de forma permanente sobre un héroe aliado sin costo de maná que no otorga <c val=\"#WhitemaneDesperation\">Desesperación</c>. Solo puede haber un Fervor de este tipo activo a la vez, el cual tiene alcance de lanzamiento global.<n/><n/>Aumenta un 15% la bonificación de poder con hechizos que otorgan los atributos de Melenablanca.",
+      "name": "Luz guía",
+      "shortText": "Activar para lanzar <c val=\"#WhitemaneZeal\">Fervor</c> sin costo."
+    },
+    "WhitemanePurgeTheWicked|WhitemanePurgeTheWicked|Active|Level20": {
+      "cooldownText": "Tiempo de reutilización: 40 segundos",
+      "fullText": "Activar para golpear a un héroe enemigo con fuego sagrado, reducir su Armadura en <c val=\"#TooltipNumbers\">25</c> e infligir <c val=\"#TooltipNumbers\">300</c><c val=\"#ColorGray\">~~0.04~~</c> de daño durante <c val=\"#TooltipNumbers\">4</c> segundos.",
+      "name": "Purgar a los malvados",
+      "shortText": "Activar para infligir daño y reducir la Armadura"
+    }
+  },
+  "units": {}
+}

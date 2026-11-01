@@ -1,0 +1,187 @@
+{
+  "abilities": {
+    "NovaSnipeStorm|NovaSnipe|Q": {
+      "cooldownText": "Abklingzeit: 6 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Fügt dem ersten getroffenen Gegner <c val=\"#TooltipNumbers\">230</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zu.<n/><n/><c val=\"#AbilityPassive\">Passiv:</c> Jeder mit Scharfschütze getroffene gegnerische Held erhöht den Schaden der Fähigkeit dauerhaft um <c val=\"#TooltipNumbers\">6%</c>, bis maximal <c val=\"#TooltipNumbers\">30%</c>. Wenn der Maximalwert erreicht wurde, wird der Schaden zusätzlich um <c val=\"#TooltipNumbers\">25%</c> erhöht. Alle Stapel gehen verloren, wenn Scharfschütze keinen Gegner trifft.",
+      "name": "Scharfschütze",
+      "shortText": "Feuert einen Schuss ab, der einem Gegner massiven Schaden zufügt."
+    },
+    "NovaPinningShot|NovaPinningShot|W": {
+      "cooldownText": "Abklingzeit: 12 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 65</s>",
+      "fullText": "Fügt einem Gegner <c val=\"#TooltipNumbers\">100</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zu und verlangsamt ihn <c val=\"#TooltipNumbers\">2.25</c> Sek. lang um <c val=\"#TooltipNumbers\">40%</c>.",
+      "name": "Beeinträchtigender Schuss",
+      "shortText": "Verlangsamt einen Gegner und fügt ihm Schaden zu."
+    },
+    "NovaHoloDecoy|NovaHoloDecoy|E": {
+      "cooldownText": "Abklingzeit: 15 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Erschafft eine Attrappe, die <c val=\"#TooltipNumbers\">5</c> Sek. lang bestehen bleibt, <c val=\"#TooltipNumbers\">100%</c> von Novas aktuellen Lebenspunkten hat und <c val=\"#TooltipNumbers\">10%</c> ihres normalen Schadens verursacht. Wenn eine Attrappe Schaden erleidet, fügt sie sich selbst ebenfalls dieselbe Menge Schaden zu, wodurch sie also effektiv den doppelten Schaden erleidet.<n/><n/>Der Einsatz dieser Fähigkeit hebt die Tarnung nicht auf.",
+      "name": "Holoattrappe",
+      "shortText": "Erschafft eine Holoattrappe von Nova."
+    },
+    "NovaTripleTap|NovaTripleTap|Heroic": {
+      "cooldownText": "Abklingzeit: 100 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 100</s>",
+      "fullText": "Nimmt einen Helden ins Visier und feuert dann <c val=\"#TooltipNumbers\">3</c> Schüsse ab. Die Schüsse treffen den ersten Helden oder das erste Gebäude, mit dem sie in Kontakt kommen, und verursachen jeweils <c val=\"#TooltipNumbers\">372</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden.",
+      "name": "Dreierpack",
+      "shortText": "Feuert 3-mal auf ein Ziel."
+    },
+    "NovaPrecisionStrike|NovaPrecisionStrike|Heroic": {
+      "cooldownText": "Abklingzeit: 50 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 100</s>",
+      "fullText": "Fügt Gegnern im Wirkungsbereich nach <c val=\"#TooltipNumbers\">1.5</c> Sek. <c val=\"#TooltipNumbers\">435</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zu. Unbegrenzte Reichweite.",
+      "name": "Präzisionsschlag",
+      "shortText": "Flächenangriff mit unbegrenzter Reichweite."
+    },
+    ":PASSIVE:|NovaPermanentCloak|Trait": {
+      "fullText": "Tarnt Nova nach <c val=\"#TooltipNumbers\">3</c> Sek. außerhalb des Kampfes. Wenn sie Schaden erleidet, angreift, Fähigkeiten einsetzt oder kanalisiert, wird sie enttarnt. Nova wird unsichtbar, wenn sie sich getarnt mindestens <c val=\"#TooltipNumbers\">1.5</c> Sek. lang nicht bewegt.<n/><n/><c val=\"#AbilityPassive\">Passiv:</c> Erhöht Novas Bewegungsgeschwindigkeit im getarnten Zustand um <c val=\"#TooltipNumbers\">15%</c>.",
+      "name": "Getarnte Attentäterin",
+      "shortText": "Tarnt und erhöht die Geschwindigkeit, wenn Nova nicht angreift oder Schaden erleidet."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Abklingzeit: 4 Sek.",
+      "fullText": "Erhöht die Bewegungsgeschwindigkeit nach <c val=\"#TooltipNumbers\">1</c> Sek. Kanalisierung um <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Aufsitzen"
+    },
+    "NovaGhostProtocol|NovaGhostProtocol|Active": {
+      "cooldownText": "Abklingzeit: 60 Sek.",
+      "fullText": "Aktivieren, um Nova sofort zu tarnen und an ihrem Standort eine Holoattrappe zu erschaffen. Während der ersten <c val=\"#TooltipNumbers\">0.5</c> Sek. dieses Effekts ist Nova unaufdeckbar.",
+      "name": "Ghost-Protokoll",
+      "shortText": "Tarnt Nova sofort und erzeugt eine Holoattrappe an ihrem Standort."
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Kanalisiert <c val=\"#TooltipNumbers\">6</c> Sek. lang und teleportiert sich dann zurück zum Altar der Stürme. Dabei werden sofort <c val=\"#TooltipNumbers\">1125</c> Lebenspunkte und <c val=\"#TooltipNumbers\">150</c> Mana wiederhergestellt.",
+      "name": "Ruhestein"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Sitzt ab.",
+      "name": "Absitzen"
+    },
+    "NovaCovertMission|NovaCovertMission|Active": {
+      "fullText": "Gewährt Bestechungsstapel für gegnerische Diener, die in der Nähe von Nova getötet werden. Getötete Helden gewähren <c val=\"#TooltipNumbers\">10</c> Bestechungsstapel. Mit <c val=\"#TooltipNumbers\">25</c> Stapeln kann ein Söldner bestochen und sofort bezwungen werden. Hat keine Auswirkung auf Elitesöldner. Maximal <c val=\"#TooltipNumbers\">100</c> Stapel. Wenn ein Lager nur durch Bestechung eingenommen wird, erscheint es <c val=\"#TooltipNumbers\">50 %</c> schneller wieder.<n/><n/><c val=\"ffff8a\">Aktuelle Stapel: </c><c val=\"#TooltipNumbers\">0</c>",
+      "name": "Geheimmission",
+      "shortText": "Getötete Diener und Helden gewähren Stapel, mit denen Söldner bestochen werden können."
+    },
+    "TalentRewind|GenericRewindHotbar|Active": {
+      "cooldownText": "Abklingzeit: 60 Sek.",
+      "fullText": "Aktivieren, um die Abklingzeiten der Grundfähigkeiten sofort abzuschließen.",
+      "name": "Vorspulen",
+      "shortText": "Aktivieren, um Abklingzeiten sofort abzuschließen."
+    }
+  },
+  "talents": {
+    "NovaMasteryLongshot|NovaPinningShotLongshotTalent|W|Level1": {
+      "fullText": "Erhöht die Einsatzreichweite des Beeinträchtigenden Schusses um <c val=\"#TooltipNumbers\">30 %</c>. Der Beeinträchtigende Schuss erhöht auch die Reichweite des nächsten automatischen Angriffs von Nova um <c val=\"#TooltipNumbers\">2.3</c>.",
+      "name": "Kunstschuss",
+      "shortText": "Erhöht die Reichweite des Beeinträchtigenden Schusses."
+    },
+    "NovaCovertOps|NovaCovertOpsTalent|W|Level1": {
+      "fullText": "Nach <c val=\"#TooltipNumbers\">2</c> Sek. im getarnten Zustand wird die Verlangsamung des Beeinträchtigenden Schusses auf <c val=\"#TooltipNumbers\">60%</c> erhöht und er kostet kein Mana mehr. <c val=\"#TooltipNumbers\">1</c> Sek., nachdem Nova enttarnt wurde, geht dieser Bonus verloren.",
+      "name": "Verdeckter Angriff",
+      "shortText": "Der Beeinträchtigende Schuss verlangsamt im getarnten Zustand stärker und kostet weniger."
+    },
+    "NovaAdvancedCloaking|NovaPermanentCloakSniperAdvancedCloakingTalent|Trait|Level1": {
+      "fullText": "Nach <c val=\"#TooltipNumbers\">1</c> Sek. im getarnten Zustand wird Novas Bewegungsgeschwindigkeit um <c val=\"#TooltipNumbers\">10%</c> erhöht. Regeneriert im getarnten Zustand pro Sekunde <c val=\"#TooltipNumbers\">6</c> Mana.",
+      "name": "Verbesserte Tarnung",
+      "shortText": "Tarnung erhöht die Bewegungsgeschwindigkeit und Manaregeneration."
+    },
+    "NovaRapidProjection|NovaHoloDecoyRapidProjectionTalent|E|Level4": {
+      "fullText": "Verringert die Abklingzeit und die Manakosten der Holoattrappe um <c val=\"#TooltipNumbers\">60%</c>.",
+      "name": "Schnelle Projektion",
+      "shortText": "Verringert die Abklingzeit und die Manakosten der Holoattrappe."
+    },
+    "NovaHoloStability|NovaHoloDecoyHoloStabilityTalent|E|Level4": {
+      "fullText": "Erhöht die Einsatzreichweite der Holoattrappe um <c val=\"#TooltipNumbers\">100 %</c> und die Dauer um <c val=\"#TooltipNumbers\">120 %</c>.<n/><n/><c val=\"#AbilityPassive\">Passiv:</c> Verringert die Abklingzeit von Ghost-Protokoll um <c val=\"#TooltipNumbers\">15</c> Sek.",
+      "name": "Holostabilität",
+      "shortText": "Erhöht die Reichweite und die Dauer der Holoattrappe."
+    },
+    "NovaCovertMission|NovaCovertMissionTalent|Active|Level4": {
+      "fullText": "Gewährt Bestechungsstapel für gegnerische Diener, die in der Nähe von Nova getötet werden. Getötete Helden gewähren <c val=\"#TooltipNumbers\">10</c> Bestechungsstapel. Mit <c val=\"#TooltipNumbers\">25</c> Stapeln kann ein Söldner bestochen und sofort bezwungen werden. Hat keine Auswirkung auf Elitesöldner. Maximal <c val=\"#TooltipNumbers\">100</c> Stapel. Wenn ein Lager nur durch Bestechung eingenommen wird, erscheint es <c val=\"#TooltipNumbers\">50%</c> schneller wieder.",
+      "name": "Geheimmission",
+      "shortText": "Getötete Diener und Helden gewähren Stapel, mit denen Söldner bestochen werden können."
+    },
+    "NovaMasteryPerfectShotSnipe|NovaPerfectShotTalent|Q|Level7": {
+      "fullText": "Wenn Scharfschütze einen Gegner trifft, wird die Abklingzeit um <c val=\"#TooltipNumbers\">2</c> Sek. verringert und die Manakosten werden zur Hälfte erstattet. Dieser Wert wird bei Heldentreffern verdoppelt.",
+      "name": "Abschussprämie",
+      "shortText": "Treffer verringern die Abklingzeit und erstatten Mana."
+    },
+    "NovaCombatStyleOneintheChamber|NovaOneintheChamberTalent|Passive|Level7": {
+      "fullText": "Der nächste automatische Angriff innerhalb von <c val=\"#TooltipNumbers\">3</c> Sek. nach dem Einsatz einer Fähigkeit verursacht <c val=\"#TooltipNumbers\">65%</c> mehr Schaden.",
+      "name": "Durchgeladen und entsichert",
+      "shortText": "Der Einsatz einer Fähigkeit verstärkt den nächsten automatischen Angriff."
+    },
+    "NovaCombatStyleAntiArmorShells|NovaAntiArmorShellsTalent|Passive|Level7": {
+      "fullText": "Novas automatische Angriffe verursachen <c val=\"#TooltipNumbers\">250%</c> Schaden und verringern die physische Panzerung gegnerischer Helden <c val=\"#TooltipNumbers\">4</c> Sek. lang um <c val=\"#TooltipNumbers\">15</c>. Ihre Angriffsgeschwindigkeit ist aber entsprechend langsamer.",
+      "name": "Panzerbrechende Kugeln",
+      "shortText": "Automatische Angriffe verursachen mehr Schaden und verringern die Panzerung."
+    },
+    "NovaHeroicAbilityTripleTap|NovaTripleTap|Heroic|Level10": {
+      "cooldownText": "Abklingzeit: 100 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 100</s>",
+      "fullText": "Nimmt einen Helden ins Visier und feuert dann <c val=\"#TooltipNumbers\">3</c> Schüsse ab. Die Schüsse treffen den ersten Helden oder das erste Gebäude, mit dem sie in Kontakt kommen, und verursachen jeweils <c val=\"#TooltipNumbers\">372</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden.",
+      "name": "Dreierpack",
+      "shortText": "Feuert 3-mal auf ein Ziel."
+    },
+    "NovaHeroicAbilityPrecisionStrike|NovaPrecisionStrike|Heroic|Level10": {
+      "cooldownText": "Abklingzeit: 50 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 100</s>",
+      "fullText": "Fügt Gegnern im Wirkungsbereich nach <c val=\"#TooltipNumbers\">1.5</c> Sek. <c val=\"#TooltipNumbers\">435</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zu. Unbegrenzte Reichweite.",
+      "name": "Präzisionsschlag",
+      "shortText": "Flächenangriff mit unbegrenzter Reichweite."
+    },
+    "NovaMasteryPsionicEfficiency|NovaSnipePsionicEfficiencyTalent|Q|Level13": {
+      "fullText": "Erhöht die Reichweite von Scharfschütze um <c val=\"#TooltipNumbers\">15%</c> und Heldentreffer gewähren einen zusätzlichen Stapel.",
+      "name": "Psionische Effizienz",
+      "shortText": "Erhöht die Reichweite von Scharfschütze und gewährt mehr Stapel."
+    },
+    "NovaMasteryDoubleTap|NovaPinningShotDoubleTapTalent|W|Level13": {
+      "fullText": "Der Beeinträchtigende Schuss hat <c val=\"#TooltipNumbers\">2</c> Aufladungen. Dafür ist die Abklingzeit um <c val=\"#TooltipNumbers\">2</c> Sek erhöht.",
+      "name": "Zweierpack",
+      "shortText": "Der Beeinträchtigende Schuss hat 2 Aufladungen, aber klingt langsamer ab."
+    },
+    "NovaIonicForceField|NovaIonicForceFieldTalent|Trait|Level13": {
+      "fullText": "Gewährt nach dem Enttarnen <c val=\"#TooltipNumbers\">3</c> Sek. lang <c val=\"#TooltipNumbers\">25</c> Panzerung.",
+      "name": "Ionisches Kraftfeld",
+      "shortText": "Gewährt nach der Tarnung Panzerung."
+    },
+    "NovaMasteryExplosiveShot|NovaSnipeExplosiveRoundTalent|Q|Level16": {
+      "fullText": "Scharfschütze fügt Gegnern in der Nähe des Einschlagorts zusätzlich <c val=\"#TooltipNumbers\">0%</c> des Schadens zu.",
+      "name": "Explosivgeschoss",
+      "shortText": "Scharfschütze verursacht Flächenschaden."
+    },
+    "NovaMasteryCripplingShot|NovaPinningShotCripplingShotTalent|W|Level16": {
+      "fullText": "Beeinträchtigender Schuss verringert die Panzerung getroffener Helden für die Dauer der Verlangsamung um <c val=\"#TooltipNumbers\">20</c>, sodass sie <c val=\"#TooltipNumbers\">20%</c> mehr Schaden erleiden.",
+      "name": "Verkrüppelnder Schuss",
+      "shortText": "Der Beeinträchtigende Schuss verringert die Panzerung des Ziels."
+    },
+    "NovaMasteryLethalDecoy|NovaHoloDecoyLethalDecoyTalent|E|Level16": {
+      "fullText": "Erhöht den Schaden der Holoattrappe auf <c val=\"#TooltipNumbers\">30%</c> von Novas Schaden.",
+      "name": "Tödliche Attrappe",
+      "shortText": "Erhöht den Schaden der Holoattrappe."
+    },
+    "NovaMasteryFastReload|NovaTripleTapFastReloadTalent|Heroic|Level20": {
+      "fullText": "Schließt die Abklingzeit des Dreierpacks ab, wenn ein Held davon getötet wird.",
+      "name": "Schneller nachladen",
+      "shortText": "Schließt die Abklingzeit des Dreierpacks durch Töten eines Helden ab."
+    },
+    "NovaMasteryPrecisionBarrage|NovaPrecisionStrikePrecisionBarrageTalent|Heroic|Level20": {
+      "fullText": "Fügt Präzisionsschlag eine <c val=\"#TooltipNumbers\">2.</c> Aufladung hinzu und verringert die Abklingzeit um <c val=\"#TooltipNumbers\">25</c> Sek.",
+      "name": "Präzisionsfeuer",
+      "shortText": "Verringert die Abklingzeit von Präzisionsschlag und fügt eine Aufladung hinzu."
+    },
+    "NovaApolloSuit|NovaGhostProtocolApolloSuitTalent|Trait|Level20": {
+      "fullText": "Verringert die Abklingzeit von Getarnte Attentäterin um <c val=\"#TooltipNumbers\">2</c> Sek.",
+      "name": "Apolloanzug",
+      "shortText": "Verringert die Abklingzeit von Getarnte Attentäterin."
+    },
+    "GenericTalentRewind|GenericRewindHotbar|Active|Level20": {
+      "cooldownText": "Abklingzeit: 60 Sek.",
+      "fullText": "Aktivieren, um die Abklingzeiten der Grundfähigkeiten sofort abzuschließen.",
+      "name": "Vorspulen",
+      "shortText": "Aktivieren, um Abklingzeiten sofort abzuschließen."
+    }
+  },
+  "units": {}
+}

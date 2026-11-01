@@ -1,0 +1,229 @@
+{
+  "abilities": {
+    "LostVikingsLongboatRaidNewer|LostVikingsLongboatRaid|Heroic": {
+      "cooldownText": "冷卻時間：90秒",
+      "fullText": "跳上一艘維京長船朝附近的敵人開火，每秒造成 <c val=\"#TooltipNumbers\">128</c><c val=\"#ColorGray\">~~0.04~~</c> 點傷害，同時發射迫擊砲，對一塊區域造成 <c val=\"#TooltipNumbers\">228</c><c val=\"#ColorGray\">~~0.04~~</c> 點傷害。維京長船不受控場效果影響，生命值會隨著搭乘的維京人數量而提高。敵人摧毀長船後，所有維京人會昏迷 <c val=\"#TooltipNumbers\">1</c> 秒。維京長船的持續時間為 <c val=\"#TooltipNumbers\">15</c> 秒。<n/><n/><c val=\"ffff8a\">所有活著的維京人都必須在附近。</c>",
+      "name": "海盜船出動",
+      "shortText": "搭乘維京長船攻擊敵人"
+    },
+    "LostVikingsPlayAgain|LostVikingsPlayAgain|Heroic": {
+      "cooldownText": "冷卻時間：100秒",
+      "fullText": "一名維京人引導此技能<c val=\"#TooltipNumbers\">2</c>秒後，可以復活並完全恢復所有維京人的生命值，然後將他們召喚至指定地點。<n/><n/><c val=\"ffff8a\">同一時間只能有一名維京人進行召喚。</c>",
+      "name": "接關復活",
+      "shortText": "復活維京人然後召喚他們"
+    },
+    ":PASSIVE:|LostVikingsVikingHoardTalent|Trait": {
+      "fullText": "維京人每拾取一顆恢復之球，全體維京人的每秒生命恢復率永久提高<c val=\"#TooltipNumbers\">0.5</c>點。<n/><n/>目前加成：每秒<c val=\"#TooltipNumbers\">0</c>點",
+      "name": "屯寶維京人",
+      "shortText": "拾取恢復之球可提高生命恢復率"
+    },
+    "LostVikingsGoGoGo|LostVikingsGoGoGo|Z": {
+      "cooldownText": "冷卻時間：30秒",
+      "fullText": "維京人的移動速度提高<c val=\"#TooltipNumbers\">30%</c>，持續<c val=\"#TooltipNumbers\">4</c>秒。",
+      "name": "衝衝衝！",
+      "shortText": "移動速度提高<c val=\"#TooltipNumbers\">30%</c>"
+    },
+    ":PASSIVE:|LostVikingSelectOlaf|Active": {
+      "fullText": "奧拉夫能夠朝滑鼠右鍵點擊的敵人衝鋒，使對方緩速<c val=\"#TooltipNumbers\">30%</c>，持續<c val=\"#TooltipNumbers\">3</c>秒。冷卻時間為<c val=\"#TooltipNumbers\">8</c>秒。<n/><n/>奧拉夫脫離戰鬥<c val=\"#TooltipNumbers\">4</c>秒後，可提高生命恢復率。",
+      "name": "選擇奧拉夫",
+      "shortText": "<c val=\"#TooltipNumbers\">奧拉夫</c>的生命值很高，並且可快速恢復傷勢。他的衝鋒可以使敵人緩速"
+    },
+    ":PASSIVE:|LostVikingSelectBaleog|Active": {
+      "fullText": "貝洛格的基本攻擊可對攻擊目標後方的敵人造成<c val=\"#TooltipNumbers\">50%</c>傷害。",
+      "name": "選擇貝洛格",
+      "shortText": "<c val=\"#TooltipNumbers\">貝洛格</c>可對攻擊目標後方的敵人造成擴散傷害"
+    },
+    ":PASSIVE:|LostVikingSelectErik|Active": {
+      "fullText": "艾瑞克的移動速度比其他維京人快，基本攻擊的距離也較遠。",
+      "name": "選擇艾瑞克",
+      "shortText": "<c val=\"#TooltipNumbers\">艾瑞克</c>的移動速度比其他維京人快，攻擊距離也較遠"
+    },
+    ":PASSIVE:|LostVikingSelectAll|Active": {
+      "fullText": "失落的維京人可以集體行動，也能分別操控。每個維京人都有自己的特長。",
+      "name": "選擇所有維京人"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "引導<c val=\"#TooltipNumbers\">6</c>秒後傳送回風暴祭壇，立即恢復<c val=\"#TooltipNumbers\">1125</c>點生命值和<c val=\"#TooltipNumbers\">150</c>點法力值。",
+      "name": "爐石"
+    },
+    "LostVikingsSpinToWin|LostVikingsSpinToWin|Q": {
+      "cooldownText": "冷卻時間：10秒",
+      "fullText": "啟動後，每名維京人會對附近敵人造成 <c val=\"#TooltipNumbers\">85</c><c val=\"#ColorGray\">~~0.04~~</c> 點傷害。對敵方英雄額外造成 <c val=\"#TooltipNumbers\">100%</c> 傷害。",
+      "name": "必勝轉轉樂",
+      "shortText": "所有維京人都對周圍的敵人造成傷害"
+    },
+    "LostVikingsNorseForce|LostVikingsNorseForce|Q": {
+      "cooldownText": "冷卻時間：15秒",
+      "fullText": "依照現存的維京人人數，使所有維京人獲得<c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c>至<c val=\"#TooltipNumbers\">308</c><c val=\"#ColorGray\">~~0.04~~</c>點護盾，人數越多則護盾值越高，持續<c val=\"#TooltipNumbers\">4</c>秒。",
+      "name": "北海大英雄",
+      "shortText": "所有維京人獲得護盾"
+    },
+    "LostVikingsPressA|LostVikingsJump|W": {
+      "cooldownText": "冷卻時間：30秒",
+      "fullText": "所有維京人無敵，而且可以躍過敵人，持續<c val=\"#TooltipNumbers\">1.5</c>秒。",
+      "name": "維京跳躍",
+      "shortText": "暫時無敵"
+    },
+    "LostVikingsNordicAttackSquad|LostVikingsNordicAttackSquad|W": {
+      "cooldownText": "冷卻時間：20秒",
+      "fullText": "當奧拉夫、貝洛格或艾瑞克待在另外兩名維京人附近時，其基本攻擊會對敵方英雄額外造成相當於最大生命值<c val=\"#TooltipNumbers\">1.25%</c>的傷害。",
+      "name": "北歐特戰隊",
+      "shortText": "維京人一起行動時會造成額外傷害"
+    },
+    "LostVikingsVikingBribery|LostVikingsVikingBribery|E": {
+      "fullText": "附近有敵方小兵或敵方傭兵陣亡時，失落的維京人可獲得收買點數。消耗<c val=\"#TooltipNumbers\">40</c>點收買點數可買通傭兵，使他們立即投誠我方。無法用於精英傭兵。點數上限為<c val=\"#TooltipNumbers\">200</c>點。",
+      "name": "維京收買",
+      "shortText": "殺死小兵以買通傭兵"
+    },
+    "Hearthstone|HearthstoneNoMana|B": {
+      "fullText": "引導<c val=\"#TooltipNumbers\">6</c>秒後會傳送回風暴祭壇，立刻恢復<c val=\"#TooltipNumbers\">1125</c>點生命值。",
+      "name": "爐石"
+    },
+    "LostVikingsLongboatRaidMortar|LostVikingsMortar|Q": {
+      "cooldownText": "冷卻時間：3秒",
+      "fullText": "朝指定地點發射迫擊砲，對大塊區域造成<c val=\"#TooltipNumbers\">228</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。",
+      "name": "迫擊砲"
+    }
+  },
+  "talents": {
+    "LostVikingsMasteryOlafTheStout|LostVikingsOlafTheStoutTalent|Passive|Level1": {
+      "fullText": "<c val=\"#AbilityPassive\">被動：</c>奧拉夫的最大生命值提高<c val=\"#TooltipNumbers\">20%</c>。<n/><n/>每<c val=\"#TooltipNumbers\">5</c>秒會獲得<c val=\"#TooltipNumbers\">75</c>點物理護甲，使下一次受到的敵方英雄基本攻擊傷害降低<c val=\"#TooltipNumbers\">75%</c>。<n/><n/>觸發次數可累積至<c val=\"#TooltipNumbers\">2</c>次。 ",
+      "name": "強壯的奧拉夫",
+      "shortText": "奧拉夫獲得生命值和物理護甲"
+    },
+    "LostVikingsMasterySpyGames|LostVikingsSpyGamesTalent|Passive|Level1": {
+      "fullText": "艾瑞克靜止不動<c val=\"#TooltipNumbers\">3</c>秒後會進入匿蹤狀態，同時視野範圍提高<c val=\"#TooltipNumbers\">75%</c>。移動後，匿蹤效果仍可持續<c val=\"#TooltipNumbers\">3</c>秒，效果消失後，艾瑞克造成的基本傷害額外提高<c val=\"#TooltipNumbers\">75%</c>，持續<c val=\"#TooltipNumbers\">6</c>秒。",
+      "name": "躲貓貓盯哨",
+      "shortText": "艾瑞克靜止時可進入匿蹤狀態，並且提高視野範圍"
+    },
+    "LostVikingsMasteryExplosiveAttacks|LostVikingsExplosiveAttacksTalent|Passive|Level1": {
+      "fullText": "貝洛格對非英雄單位造成的基本攻擊擴散傷害不再降低<c val=\"#TooltipNumbers\">50%</c>。",
+      "name": "炸裂攻擊",
+      "shortText": "提高貝洛格對敵方非英雄單位造成的擴散傷害"
+    },
+    "LostVikingsMasteryVikingBribery|LostVikingsVikingBribery|E|Level1": {
+      "fullText": "附近有敵方小兵或敵方傭兵陣亡時，失落的維京人可獲得收買點數。消耗<c val=\"#TooltipNumbers\">40</c>點收買點數可買通傭兵，使他們立即投誠我方。無法用於精英傭兵。點數上限為<c val=\"#TooltipNumbers\">200</c>點。",
+      "name": "維京收買",
+      "shortText": "殺死小兵以買通傭兵"
+    },
+    "LostVikingsMasteryPainDontHurt|LostVikingsPainDontHurtTalent|Passive|Level4": {
+      "fullText": "貝洛格的基本攻擊和擴散傷害，可恢復相當於傷害值<c val=\"#TooltipNumbers\">20%</c>的生命值。攻擊英雄時，生命值恢復量加倍。",
+      "name": "你痛我不痛",
+      "shortText": "貝洛格的基本攻擊可為自己恢復生命值"
+    },
+    "LostVikingsMasteryErikTheSwift|LostVikingsErikTheSwiftTalent|Passive|Level4": {
+      "fullText": "艾瑞克的基本移動速度永久提高<c val=\"#TooltipNumbers\">10%</c>。而且只要艾瑞克在移動，他就能每秒恢復<c val=\"#TooltipNumbers\">34</c><c val=\"#ColorGray\">~~0.04~~</c>點生命值。",
+      "name": "迅捷的艾瑞克",
+      "shortText": "提高艾瑞克的移動速度，並且在移動時可恢復生命值"
+    },
+    "LostVikingsMasteryItsASabotage|LostVikingsItsASabotageTalent|Passive|Level4": {
+      "fullText": "艾瑞克對敵方建築的基本攻擊會使其燃燒<c val=\"#TooltipNumbers\">3</c>秒，造成<c val=\"#TooltipNumbers\">225</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。",
+      "name": "大搞破壞",
+      "shortText": "艾瑞克的攻擊可對建築造成額外傷害"
+    },
+    "GenericTalentMercenaryLord|GenericMercenaryLordTalent|Passive|Level4": {
+      "fullText": "在你附近的友方傭兵（頭目除外）會額外造成<c val=\"#TooltipNumbers\">50%</c>傷害，並且獲得<c val=\"#TooltipNumbers\">50</c>點護甲，使受到的小兵和傭兵傷害降低<c val=\"#TooltipNumbers\">50%</c>。",
+      "name": "傭兵王",
+      "shortText": "強化你附近的傭兵"
+    },
+    "LostVikingsMasteryBaleogTheFierce|LostVikingsBaleogTheFierceTalent|Passive|Level7": {
+      "fullText": "貝洛格的攻擊距離提高<c val=\"#TooltipNumbers\">2.5</c>格。當貝洛格靠近奧拉夫和艾瑞克時會受到團隊精神激勵，使其攻擊速度提高<c val=\"#TooltipNumbers\">50%</c>。",
+      "name": "火爆的貝洛格",
+      "shortText": "貝洛格的攻擊速度和距離提高"
+    },
+    "LostVikingsMasterySpinToWin|LostVikingsSpinToWin|Q|Level7": {
+      "cooldownText": "冷卻時間：10秒",
+      "fullText": "啟動後，每名維京人會對附近敵人造成 <c val=\"#TooltipNumbers\">85</c><c val=\"#ColorGray\">~~0.04~~</c> 點傷害。對敵方英雄額外造成 <c val=\"#TooltipNumbers\">100%</c> 傷害。",
+      "name": "必勝轉轉樂",
+      "shortText": "所有維京人都對周圍的敵人造成傷害"
+    },
+    "LostVikingsMasteryNorseForce|LostVikingsNorseForce|Q|Level7": {
+      "cooldownText": "冷卻時間：15秒",
+      "fullText": "依照現存的維京人人數，使所有維京人獲得<c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c>至<c val=\"#TooltipNumbers\">308</c><c val=\"#ColorGray\">~~0.04~~</c>點護盾，人數越多則護盾值越高，持續<c val=\"#TooltipNumbers\">4</c>秒。",
+      "name": "北海大英雄",
+      "shortText": "所有維京人獲得護盾"
+    },
+    "LostVikingsHeroicAbilityLongboatRaid|LostVikingsLongboatRaid|Heroic|Level10": {
+      "cooldownText": "冷卻時間：90秒",
+      "fullText": "跳上一艘維京長船朝附近的敵人開火，每秒造成 <c val=\"#TooltipNumbers\">128</c><c val=\"#ColorGray\">~~0.04~~</c> 點傷害，同時發射迫擊砲，對一塊區域造成 <c val=\"#TooltipNumbers\">228</c><c val=\"#ColorGray\">~~0.04~~</c> 點傷害。維京長船不受控場效果影響，生命值會隨著搭乘的維京人數量而提高。敵人摧毀長船後，所有維京人會昏迷 <c val=\"#TooltipNumbers\">1</c> 秒。維京長船的持續時間為 <c val=\"#TooltipNumbers\">15</c> 秒。<n/><n/><c val=\"ffff8a\">所有活著的維京人都必須在附近。</c>",
+      "name": "海盜船出動",
+      "shortText": "搭乘維京長船攻擊敵人"
+    },
+    "LostVikingsHeroicAbilityPlayAgain|LostVikingsPlayAgain|Heroic|Level10": {
+      "cooldownText": "冷卻時間：100秒",
+      "fullText": "一名維京人引導此技能<c val=\"#TooltipNumbers\">2</c>秒後，可以復活並完全恢復所有維京人的生命值，然後將他們召喚至指定地點。<n/><n/><c val=\"ffff8a\">同一時間只能有一名維京人進行召喚。</c>",
+      "name": "接關復活",
+      "shortText": "復活維京人然後召喚他們"
+    },
+    "LostVikingsMasteryHunkaBurningOlaf|LostVikingsHunkaBurningOlafTalent|Passive|Level13": {
+      "fullText": "奧拉夫每秒對附近敵人造成<c val=\"#TooltipNumbers\">34</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。",
+      "name": "烈焰猛男奧拉夫",
+      "shortText": "奧拉夫會對附近敵人造成傷害"
+    },
+    "LostVikingsMasteryJump|LostVikingsJump|W|Level13": {
+      "cooldownText": "冷卻時間：30秒",
+      "fullText": "所有維京人無敵，而且可以躍過敵人，持續<c val=\"#TooltipNumbers\">1.5</c>秒。",
+      "name": "維京跳躍",
+      "shortText": "暫時無敵"
+    },
+    "LostVikingsMasteryNordicAttackSquad|LostVikingsNordicAttackSquad|Passive|Level13": {
+      "fullText": "當奧拉夫、貝洛格或艾瑞克待在另外兩名維京人附近時，其基本攻擊會對敵方英雄額外造成相當於最大生命值<c val=\"#TooltipNumbers\">1.25%</c>的傷害。",
+      "name": "北歐特戰隊",
+      "shortText": "維京人一起行動時會造成額外傷害"
+    },
+    "LostVikingsMasteryLargeAndInCharge|LostVikingsLargeAndInChargeTalent|Passive|Level16": {
+      "fullText": "奧拉夫朝敵人衝鋒時，會使敵人昏迷<c val=\"#TooltipNumbers\">1</c>秒。",
+      "name": "大塊頭衝鋒",
+      "shortText": "衝鋒會使敵人昏迷"
+    },
+    "LostVikingsMasteryImpatienceIsAVirtue|LostVikingsImpatienceIsAVirtueTalent|Passive|Level16": {
+      "fullText": "維京人以基本攻擊對敵人造成傷害時，會使所有維京人技能的冷卻時間降低<c val=\"#TooltipNumbers\">0.3125</c>秒。",
+      "name": "迫不及待",
+      "shortText": "基本攻擊會降低所有維京人的冷卻時間"
+    },
+    "LostVikingsGoGoGo64KBMarathon|LostVikingsGoGoGo64KBMarathonTalent|Z|Level16": {
+      "fullText": "啟動衝衝衝之後，移動速度額外提高<c val=\"#TooltipNumbers\">40%</c>，並解除維京人所受的定身與緩速效果。",
+      "name": "跑跑維京人",
+      "shortText": "提高移動速度，解除緩速和定身效果"
+    },
+    "HeroGenericExecutionerPassive|GenericExecutionerTalent|Passive|Level16": {
+      "fullText": "攻擊受到緩速、定身或昏迷效果影響的英雄，可使你的基本攻擊傷害提高<c val=\"#TooltipNumbers\">30%</c>，持續<c val=\"#TooltipNumbers\">3</c>秒。",
+      "name": "處決者",
+      "shortText": "攻擊被控場的英雄可提高傷害"
+    },
+    "LostVikingsMasteryWereOnABoat|LostVikingsWereOnABoatTalent|Heroic|Level20": {
+      "fullText": "海盜船可以一次攻擊兩個目標，迫擊砲的射程提高<c val=\"#TooltipNumbers\">100%</c>。海盜船出動的冷卻時間降低<c val=\"#TooltipNumbers\">30</c>秒。",
+      "name": "熱血海盜船",
+      "shortText": "提高維京長船的火力"
+    },
+    "LostVikingsMasteryCheckpointReached|LostVikingsCheckpointReachedTalent|Heroic|Level20": {
+      "fullText": "啟動接關復活<c val=\"#TooltipNumbers\">10</c>秒後，陣亡的維京人會再度復活並受到召喚，而且所有維京人的生命值恢復至全滿。",
+      "name": "存檔記錄",
+      "shortText": "額外復活一次並恢復生命值"
+    },
+    "LostVikingsMasteryTheSequel|LostVikingsTheSequelTalent|Trait|Level20": {
+      "fullText": "維京人的復活時間降低<c val=\"#TooltipNumbers\">50%</c>。",
+      "name": "重出江湖",
+      "shortText": "降低所有維京人的復活時間"
+    },
+    "LostVikingsTalentFuryoftheStorm|LostVikingsFuryoftheStormTalent|Passive|Level20": {
+      "fullText": "每隔<c val=\"#TooltipNumbers\">5</c>秒，維京人的下一次基本攻擊對目標造成的傷害提高<c val=\"#TooltipNumbers\">41</c><c val=\"#ColorGray\">~~0.04~~</c>點，並且對目標附近所有小兵、傭兵與中立怪造成<c val=\"#TooltipNumbers\">105</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。每名維京人的冷卻時間分開計算。",
+      "name": "風暴烈怒",
+      "shortText": "基本攻擊會在非英雄單位之間彈跳"
+    }
+  },
+  "units": {
+    "HeroBaleog": {
+      "lifeType": "生命值",
+      "name": "貝洛格"
+    },
+    "HeroErik": {
+      "lifeType": "生命值",
+      "name": "艾瑞克"
+    },
+    "HeroOlaf": {
+      "lifeType": "生命值",
+      "name": "奧拉夫"
+    }
+  }
+}

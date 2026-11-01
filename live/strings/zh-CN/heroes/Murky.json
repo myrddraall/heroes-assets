@@ -1,0 +1,177 @@
+{
+  "abilities": {
+    "MurkySlime|MurkySlime|Q": {
+      "cooldownText": "冷却时间：4秒",
+      "fullText": "造成<c val=\"#TooltipNumbers\">86</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害，并使附近的敌人沾上粘液，持续<c val=\"#TooltipNumbers\">6</c>秒，使其减速<c val=\"#TooltipNumbers\">20%</c>。<n/><n/>对已经沾上粘液的敌人造成<c val=\"#TooltipNumbers\">210</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害。建筑只会受到<c val=\"#TooltipNumbers\">50%</c>伤害。",
+      "name": "粘液喷射",
+      "shortText": "施放粘液对敌人造成伤害并使其减速"
+    },
+    "MurkyPufferfish|MurkyPufferfish|W": {
+      "cooldownText": "冷却时间：15秒",
+      "fullText": "在目标位置吐出一条拥有<c val=\"#TooltipNumbers\">225</c><c val=\"#ColorGray\">~~0.055~~</c>点生命值的气泡鱼。<c val=\"#TooltipNumbers\">2.75</c>秒后气泡鱼爆炸，造成<c val=\"#TooltipNumbers\">330</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害。对建筑的伤害降低<c val=\"#TooltipNumbers\">50%</c>。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任务：</c>击杀受粘液喷射影响的敌人或用气泡鱼击中他们。英雄与建筑额外奖励4层。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">奖励：</c>获得<c val=\"#TooltipNumbers\">200</c>层后，奔波尔霸的基本技能不再对建筑造成更少伤害。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">神话奖励：</c>获得<c val=\"#TooltipNumbers\">400</c>层后，奔波尔霸的生命值提高<c val=\"#TooltipNumbers\">50%</c>。",
+      "name": "气泡鱼",
+      "shortText": "吐出一条鱼，小段时间后爆炸"
+    },
+    "MurkySafetyBubble|MurkySafetyBubble|E": {
+      "cooldownText": "冷却时间：14秒",
+      "fullText": "变为无敌，持续<c val=\"#TooltipNumbers\">2</c>秒。在此期间，奔波尔霸无法攻击或使用技能。",
+      "name": "安全泡泡",
+      "shortText": "无敌但无法攻击或使用技能"
+    },
+    "MurkyMarchoftheMurlocs|MurkyMarchOfTheMurlocs|Heroic": {
+      "cooldownText": "冷却时间：90秒",
+      "fullText": "<c val=\"#TooltipNumbers\">0.75</c>秒后，奔波尔霸指挥鱼人军团向目标方向冲锋。每个鱼人都会跃向他们找到的第一个敌方英雄或建筑，造成<c val=\"#TooltipNumbers\">130</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害，并使目标减速<c val=\"#TooltipNumbers\">15%</c>，持续<c val=\"#TooltipNumbers\">5</c>秒。鱼人对建筑造成<c val=\"#TooltipNumbers\">50%</c>的伤害。",
+      "name": "鱼人冲锋",
+      "shortText": "让敌人感受被一群鱼人追着打的感觉"
+    },
+    "MurkyOctoGrab|MurkyOctoGrab|Heroic": {
+      "cooldownText": "冷却时间：50秒",
+      "fullText": "奔波尔霸变得不可阻挡，使目标敌方英雄昏迷，持续<c val=\"#TooltipNumbers\">3</c>秒，并每秒对其造成<c val=\"#TooltipNumbers\">1</c>点伤害。",
+      "name": "章鱼缠绕",
+      "shortText": "击晕敌方英雄并对其猛戳"
+    },
+    "MurkyRespawnEgg|MurkySpawnEgg|Trait": {
+      "cooldownText": "冷却时间：15秒",
+      "fullText": "在目标位置放一颗蛋并暴露周围的区域。死亡后，奔波尔霸会在<c val=\"#TooltipNumbers\">8</c>秒后从蛋中重新孵化。奔波尔霸的死亡只提供正常英雄<c val=\"#TooltipNumbers\">25%</c>的经验值。<n/><n/>如果奔波尔霸的蛋被摧毁，他将在<c val=\"#TooltipNumbers\">15</c>秒内暴露在敌人视野内，并且放置鱼人蛋将会进入冷却。",
+      "name": "放置鱼人蛋",
+      "shortText": "放置一颗蛋，奔波尔霸可以从蛋中复活"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "冷却时间：4秒",
+      "fullText": "引导<c val=\"#TooltipNumbers\">1</c>秒后，获得<s val=\"StandardTooltipDetails\">30%</s>移动速度。",
+      "name": "召唤坐骑"
+    },
+    "Hearthstone|HearthstoneNoMana|B": {
+      "fullText": "引导<c val=\"#TooltipNumbers\">6</c>秒后，传送回风暴大厅，立即恢复<c val=\"#TooltipNumbers\">1125</c>的生命值。",
+      "name": "炉石"
+    },
+    "MurkyCancelMarchoftheMurlocs|MurkyCancelMarchoftheMurlocs|Heroic": {
+      "fullText": "停止引导鱼人冲锋。",
+      "name": "取消鱼人冲锋"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "解除坐骑。",
+      "name": "解除坐骑"
+    },
+    "MurkyAFishyDeal|MurkyAFishyDeal|Active": {
+      "fullText": "用气泡鱼杀死小兵提供一层贿赂。使用<c val=\"#TooltipNumbers\">8</c>层可以贿赂一名雇佣兵，立即将其击败。对精英雇佣兵无效。<n/><n/>最多<c val=\"#TooltipNumbers\">32</c>层。",
+      "name": "鱼奸鱼猾",
+      "shortText": "用气泡鱼击杀小兵来贿赂雇佣兵"
+    }
+  },
+  "talents": {
+    "MurkyFishEye|MurkyFishEye|Trait|Level1": {
+      "fullText": "从蛋中复活后，奔波尔霸的坐骑速度提高至<c val=\"#TooltipNumbers\">45%</c>，持续<c val=\"#TooltipNumbers\">5</c>秒。<n/><n/><c val=\"#AbilityPassive\">被动：</c>鱼人蛋的生命值提高<c val=\"#TooltipNumbers\">100%</c>，视野范围扩大<c val=\"#TooltipNumbers\">300%</c>，并暴露视野范围内的所有敌人。",
+      "name": "鱼眼",
+      "shortText": "鱼人蛋会提供移动速度，并获得更高生命值，视野更广。"
+    },
+    "MurkyShellGame|MurkyEggHuntTalent|Trait|Level1": {
+      "fullText": "奔波尔霸现在可以放置<c val=\"#TooltipNumbers\">2</c>枚鱼人蛋，且阵亡后会从其中随机一枚复活，但放置鱼人蛋的冷却时间延长<c val=\"#TooltipNumbers\">15</c>秒。",
+      "name": "蛋壳游戏",
+      "shortText": "放置两个鱼人蛋"
+    },
+    "MurkyAFishyDeal|MurkyAFishyDeal|Active|Level1": {
+      "fullText": "用气泡鱼杀死小兵提供一层贿赂。使用<c val=\"#TooltipNumbers\">8</c>层可以贿赂一名雇佣兵，立即将其击败。对精英雇佣兵无效。<n/><n/>最多<c val=\"#TooltipNumbers\">32</c>层。",
+      "name": "鱼奸鱼猾",
+      "shortText": "用气泡鱼击杀小兵来贿赂雇佣兵"
+    },
+    "MurkySlimeTime|MurkySlimeTime|Q|Level4": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任务：</c>对受到粘液喷射影响的敌人使用粘液喷射。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">奖励：</c>对<c val=\"#TooltipNumbers\">10</c>个英雄使用粘液喷射后，粘液喷射的加成伤害提高<c val=\"#TooltipNumbers\">125</c>点。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">奖励：</c>对<c val=\"#TooltipNumbers\">20</c>个英雄使用粘液喷射后，粘液喷射的减速效果提高至<c val=\"#TooltipNumbers\">30%</c>。",
+      "name": "粘液表演",
+      "shortText": "<c val=\"#TooltipQuest\">任务：</c>对英雄使用粘液喷射获得强化"
+    },
+    "MurkyMasteryTufferfish|MurkyPufferfishTufferfishTalent|W|Level4": {
+      "fullText": "气泡鱼获得<c val=\"#TooltipNumbers\">50</c>点法术护甲，并对受到粘液喷射影响的目标造成<c val=\"#TooltipNumbers\">50%</c>的额外伤害。",
+      "name": "铁甲鱼",
+      "shortText": "气泡鱼获得法术护甲和伤害"
+    },
+    "MurkyLivingtheDream|MurkyLivingTheDreamTalent|Passive|Level4": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任务：</c>奔波尔霸每存活<c val=\"#TooltipNumbers\">15</c>秒，法术强度就会提高<c val=\"#TooltipNumbers\">5%</c>，最多提高<c val=\"#TooltipNumbers\">25%</c>。该加成在死亡时重置。",
+      "name": "美梦成真",
+      "shortText": "<c val=\"#TooltipQuest\">任务：</c>存活提高法术强度"
+    },
+    "MurkyBlackLagoon|MurkySlimeBlackLagoonTalent|Q|Level7": {
+      "fullText": "粘液喷射的范围扩大<c val=\"#TooltipNumbers\">30%</c>。",
+      "name": "黑湖粘液",
+      "shortText": "扩大粘液喷射的范围"
+    },
+    "MurkySlipperyWhenWet|MurkySafetyBubbleSlipperyWhenWetTalent|E|Level7": {
+      "fullText": "安全泡泡期间的移动速度提高<c val=\"#TooltipNumbers\">50%</c>，并且可以穿过单位。此外，安全泡泡的冷却时间缩短<c val=\"#TooltipNumbers\">2</c>秒。",
+      "name": "湿湿滑滑",
+      "shortText": "安全泡泡期间提高移动速度，降低冷却时间"
+    },
+    "MurkyTimetoKrill|MurkyTimetoKrill|Passive|Level7": {
+      "fullText": "对英雄的普通攻击每秒造成<c val=\"#TooltipNumbers\">7</c><c val=\"#ColorGray\">~~0.04~~</c>点额外伤害，并使目标的移动速度降低<c val=\"#TooltipNumbers\">7%</c>，持续<c val=\"#TooltipNumbers\">4</c>秒。该效果最多叠加<c val=\"#TooltipNumbers\">5</c>次。",
+      "name": "虾戮时间",
+      "shortText": "普通攻击使敌人减速"
+    },
+    "MurkyHeroicAbilityMarchoftheMurlocs|MurkyMarchOfTheMurlocs|Heroic|Level10": {
+      "cooldownText": "冷却时间：90秒",
+      "fullText": "<c val=\"#TooltipNumbers\">0.75</c>秒后，奔波尔霸指挥鱼人军团向目标方向冲锋。每个鱼人都会跃向他们找到的第一个敌方英雄或建筑，造成<c val=\"#TooltipNumbers\">130</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害，并使目标减速<c val=\"#TooltipNumbers\">15%</c>，持续<c val=\"#TooltipNumbers\">5</c>秒。鱼人对建筑造成<c val=\"#TooltipNumbers\">50%</c>的伤害。",
+      "name": "鱼人冲锋",
+      "shortText": "让敌人感受被一群鱼人追着打的感觉"
+    },
+    "MurkyHeroicAbilityOctoGrab|MurkyOctoGrab|Heroic|Level10": {
+      "cooldownText": "冷却时间：50秒",
+      "fullText": "奔波尔霸变得不可阻挡，使目标敌方英雄昏迷，持续<c val=\"#TooltipNumbers\">3</c>秒，并每秒对其造成<c val=\"#TooltipNumbers\">1</c>点伤害。",
+      "name": "章鱼缠绕",
+      "shortText": "击晕敌方英雄并对其猛戳"
+    },
+    "MurkyMasteryRejuvenatingBubble|MurkyRejuvenatingBubbleTalent|E|Level13": {
+      "fullText": "安全泡泡为奔波尔霸恢复<c val=\"#TooltipNumbers\">40%</c>的最大生命值。",
+      "name": "恢复泡泡",
+      "shortText": "安全泡泡恢复生命值"
+    },
+    "MurkyEggShell|MurkyEggShell|Trait|Level13": {
+      "fullText": "放置鱼人蛋或任一鱼人蛋被摧毁时，奔波尔霸获得一个相当于其当前生命值<c val=\"#TooltipNumbers\">50%</c>的护盾。",
+      "name": "蛋壳",
+      "shortText": "放置鱼人蛋或鱼人蛋被摧毁时提供护盾。"
+    },
+    "MurkyFishTank|MurkyFishTank|Passive|Level13": {
+      "fullText": "奔波尔霸可以从普通攻击和基本技能中恢复生命值，相当于其造成伤害的<c val=\"#TooltipNumbers\">20%</c>。",
+      "name": "鱼缸",
+      "shortText": "造成伤害同时获得治疗"
+    },
+    "MurkyToxicBuildup|MurkyToxicBuildup|Q|Level16": {
+      "fullText": "对敌方英雄的每第<c val=\"#TooltipNumbers\">3</c>次普通攻击免费对其施放一次粘液喷射。",
+      "name": "毒性物质",
+      "shortText": "连续的普通攻击施放粘液喷射"
+    },
+    "MurkyFishOil|MurkyFishOil|W|Level16": {
+      "fullText": "气泡鱼在其着陆位置施放粘液喷射。",
+      "name": "鱼油",
+      "shortText": "在气泡鱼的位置施放粘液喷射"
+    },
+    "MurkyMasteryWrathOfCod|MurkyPufferfishWrathOfCodTalent|W|Level16": {
+      "fullText": "被气泡鱼击中的英雄在<c val=\"#TooltipNumbers\">4</c>秒内受到相当于其最大生命值<c val=\"#TooltipNumbers\">16%</c>的额外伤害。",
+      "name": "鳕鱼之怒",
+      "shortText": "提高气泡鱼对英雄的伤害"
+    },
+    "MurkyMasteryNeverEndingMurlocs|MurkyMarchOfTheMurlocsNeverEndingMurlocsTalent|Heroic|Level20": {
+      "fullText": "鱼人冲锋可以无限持续引导，并且即使提前取消，也会始终持续其基础持续时间。<n/><n/>此外，该技能攻击建筑时不再有伤害减免。",
+      "name": "汹涌鱼潮",
+      "shortText": "鱼人冲锋可以永久引导"
+    },
+    "MurkyMasteryAndASharkToo|MurkyOctoGrabAndASharkTooTalent|Heroic|Level20": {
+      "fullText": "章鱼缠绕的伤害提高<c val=\"#TooltipNumbers\">13700%</c><c val=\"#ColorGray\">~~0.04~~</c>。",
+      "name": "…还有鲨鱼！",
+      "shortText": "提高章鱼缠绕的伤害"
+    },
+    "MurkyMakingInky|MurkyMakingInky|Q|Level20": {
+      "fullText": "粘液喷射的冷却时间缩短<c val=\"#TooltipNumbers\">1.5</c>秒。",
+      "name": "脏兮兮粘乎乎",
+      "shortText": "缩短粘液喷射的冷却时间"
+    },
+    "MurkyFasterFish|MurkyBigTunaKahuna|W|Level20": {
+      "fullText": "气泡鱼的爆炸延迟缩短<c val=\"#TooltipNumbers\">1.5</c>秒。",
+      "name": "速爆气泡鱼",
+      "shortText": "气泡鱼爆炸延迟缩短"
+    }
+  },
+  "units": {
+    "MurkyPufferfish": {
+      "description": "在目标位置吐出一条拥有<c val=\"#TooltipNumbers\">225</c><c val=\"#ColorGray\">~~0.055~~</c>点生命值的气泡鱼。<c val=\"#TooltipNumbers\">2.75</c>秒后气泡鱼爆炸，造成<c val=\"#TooltipNumbers\">330</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害。对建筑的伤害降低<c val=\"#TooltipNumbers\">50%</c>。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任务：</c>击杀受粘液喷射影响的敌人或用气泡鱼击中他们。英雄与建筑额外奖励4层。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">奖励：</c>获得<c val=\"#TooltipNumbers\">200</c>层后，奔波尔霸的基本技能不再对建筑造成更少伤害。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">神话奖励：</c>获得<c val=\"#TooltipNumbers\">400</c>层后，奔波尔霸的生命值提高<c val=\"#TooltipNumbers\">50%</c>。",
+      "name": "气泡鱼"
+    }
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "abilities": {
+    "KerriganRavage|KerriganRavage|Q": {
+      "cooldownText": "Время восстановления заряда: 8 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 20</s>",
+      "fullText": "Совершает прыжок к цели, нанося ей <c val=\"#TooltipNumbers\">115</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона. Если цель умирает в течение <c val=\"#TooltipNumbers\">0.75</c> сек. после этого, <c val=\"#TooltipNumbers\">1</c> <lang rule=\"plural\" val=\"\">заряд,заряда,зарядов</lang> восстанавливается, а Керриган восполняет <c val=\"#TooltipNumbers\">20</c> ед. маны.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Задача:</c> убивайте врагов рядом с Керриган. Убийства воинов дают <c val=\"#TooltipNumbers\">1</c> <lang rule=\"plural\" val=\"\">эффект,эффекта,эффектов</lang>, а убийства героев — <c val=\"#TooltipNumbers\">7</c> <lang rule=\"plural\" val=\"\">эффект,эффекта,эффектов</lang>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Награда:</c> при накоплении <c val=\"#TooltipNumbers\">100</c> эффектов «Сокрушение» будет дополнительно наносить <c val=\"#TooltipNumbers\">125</c> ед. урона и давать <c val=\"#TooltipNumbers\">14</c> эффектов.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Эпохальная награда:</c> при накоплении <c val=\"#TooltipNumbers\">250</c> эффектов «Сокрушение» будет дополнительно наносить еще <c val=\"#TooltipNumbers\">200</c> ед. урона.",
+      "name": "Сокрушение",
+      "shortText": "Совершает прыжок к противнику и наносит ему урон."
+    },
+    "KerriganImpalingBlades|KerriganImpalingBlades|W": {
+      "cooldownText": "Время восстановления: 9 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 80</s>",
+      "fullText": "После паузы в <c val=\"#TooltipNumbers\">1,25</c> сек. наносит <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона противникам в указанной области, оглушая их на <c val=\"#TooltipNumbers\">0.75</c> сек.",
+      "name": "Пронзающие клинки",
+      "shortText": "Оглушает противников в указанной области и наносит им урон."
+    },
+    "KerriganPrimalGrasp|KerriganPrimalGrasp|E": {
+      "cooldownText": "Время восстановления: 8 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 65</s>",
+      "fullText": "Притягивает противников в указанной области к Керриган, нанося им <c val=\"#TooltipNumbers\">40</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона. Спустя <c val=\"#TooltipNumbers\">2.5</c> сек. вокруг Керриган происходит взрыв, наносящий <c val=\"#TooltipNumbers\">160</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона.",
+      "name": "Изначальная хватка",
+      "shortText": "Притягивает врагов в указанной области и наносит им урон."
+    },
+    "KerriganSummonUltralisk|KerriganSummonUltralisk|Heroic": {
+      "cooldownText": "Время восстановления: 80 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 75</s>",
+      "fullText": "После паузы в <c val=\"#TooltipNumbers\">0.5</c> сек. призывает ультралиска, который устремляется вперед и наносит первому герою на своем пути <c val=\"#TooltipNumbers\">225</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона, оглушая его на <c val=\"#TooltipNumbers\">0.5</c> сек.<n/><n/>Автоатаки ультралиска наносят противникам рядом с целью <c val=\"#TooltipNumbers\">50%</c> базового урона. При повторном использовании приказывает ультралиску сменить цель.",
+      "name": "Призыв ультралиска",
+      "shortText": "Призывает управляемого ультралиска."
+    },
+    "KerriganMaelstrom|KerriganMaelstrom|Heroic": {
+      "cooldownText": "Время восстановления: 90 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 80</s>",
+      "fullText": "Наносит находящимся рядом противникам <c val=\"#TooltipNumbers\">74</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона в секунду. Время действия – <c val=\"#TooltipNumbers\">7</c> сек.",
+      "name": "Шторм",
+      "shortText": "Непрерывно наносит урон противникам поблизости."
+    },
+    ":PASSIVE:|KerriganAssimilation|Trait": {
+      "fullText": "Керриган окружает щит прочностью <c val=\"#TooltipNumbers\">10%</c> от урона способностями и <c val=\"#TooltipNumbers\">20%</c> от урона автоатаками на <c val=\"#TooltipNumbers\">6</c> сек. Нанося урон героям, Керриган получает щит вдвое большей прочности.<n/><n/><c val=\"ffff8a\">Текущая максимальная прочность — </c><c val=\"#TooltipNumbers\">1004</c><c val=\"#ColorGray\">~~0.04~~</c><c val=\"ffff8a\"> ед.</c>",
+      "name": "Поглощение",
+      "shortText": "Дает временные щиты при атаке противников."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Время восстановления: 4 сек.",
+      "fullText": "После подготовки длительностью <c val=\"#TooltipNumbers\">1</c> сек. повышает скорость передвижения на <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Вызов транспорта"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "После поддержания в течение <c val=\"#TooltipNumbers\">6</c> сек. телепортирует героя в Зал Штормов, моментально восполняя <c val=\"#TooltipNumbers\">1125</c> ед. здоровья и <c val=\"#TooltipNumbers\">150</c> ед. маны.",
+      "name": "Возвращение"
+    },
+    "KerriganSummonUltraliskIssueOrder|KerriganUltraliskIssueAttackOrder|Heroic": {
+      "fullText": "Приказывает ультралиску атаковать цель или переместиться в указанное место.",
+      "name": "Приказ ультралиску"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Покинуть транспорт.",
+      "name": "Отмена транспорта"
+    },
+    "KerriganChrysalisCancel|KerriganCancelChrysalis|Active": {
+      "cooldownText": "Время восстановления: 90 сек.",
+      "fullText": "<s val=\"StandardTooltip\">Отмена действия «Хризалиды» снимает стазис.</s>",
+      "name": "Отмена «Хризалиды»"
+    },
+    "KerriganChrysalis|KerriganChrysalis|Active": {
+      "cooldownText": "Время восстановления: 90 сек.",
+      "fullText": "При использовании помещает Керриган в хризалиду прочностью <c val=\"#TooltipNumbers\">650</c><c val=\"#ColorGray\">~~0.04~~</c> ед. на <c val=\"#TooltipNumbers\">5</c> сек. Находясь внутри, Керриган восполняет <c val=\"#TooltipNumbers\">4%</c> максимального запаса здоровья в секунду.<n/><n/>Противники могут уничтожить хризалиду, чтобы прервать ее действие.",
+      "name": "Хризалида",
+      "shortText": "Вводит в стазис и восполняет здоровье."
+    },
+    "KerriganPsionicShift|KerriganPsionicShift|Active": {
+      "cooldownText": "Время восстановления: 70 сек.",
+      "fullText": "При использовании Керриган телепортируется на небольшое расстояние и наносит находящимся рядом противникам <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона. Нанесенный таким образом урон дает на <c val=\"#TooltipNumbers\">300%</c> больше щитов от «Поглощения».",
+      "name": "Псионный сдвиг",
+      "shortText": "Телепортирует на небольшое расстояние и наносит урон."
+    }
+  },
+  "talents": {
+    "KerriganRavageSiphoningImpact|KerriganRavageSiphoningImpact|Q|Level1": {
+      "fullText": "При попадании по герою «Сокрушение» дает <c val=\"#TooltipNumbers\">100</c><c val=\"#ColorGray\">~~0.04~~</c> ед. щитов «Поглощения».",
+      "name": "Вытягивающий удар",
+      "shortText": "«Сокрушение» дает щиты от «Поглощения»."
+    },
+    "KerriganAssimilationMastery|KerriganAssimilationMasteryTalent|Trait|Level1": {
+      "fullText": "Сферы регенерации во время своего действия дают <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> ед. щитов «Поглощения» в секунду. Пока действует «Поглощение», скорость восстановления здоровья и маны Керриган повышается на <c val=\"#TooltipNumbers\">150%</c>.",
+      "name": "Искусное поглощение",
+      "shortText": "Сферы дают щиты. «Поглощение» усиливает восстановление."
+    },
+    "KerriganFuryOfTheSwarm|KerriganAssimilationFuryOfTheSwarmTalent|Passive|Level1": {
+      "fullText": "В течение <c val=\"#TooltipNumbers\">3</c> сек. после использования «Сокрушения» следующая автоатака Керриган дополнительно наносит <c val=\"#TooltipNumbers\">100%</c> урона по области рядом с целью.",
+      "name": "Ярость Роя",
+      "shortText": "Автоатаки после использования «Сокрушения» наносят урон по области."
+    },
+    "KerriganRavageRavagingFerocity|KerriganRavageRavagingFerocity|Q|Level4": {
+      "fullText": "При использовании «Сокрушения» скорость атаки Керриган увеличивается на <c val=\"#TooltipNumbers\">25%</c> на <c val=\"#TooltipNumbers\">3</c> сек.",
+      "name": "Сокрушающая свирепость",
+      "shortText": "«Сокрушение» повышает скорость атаки."
+    },
+    "KerriganImpalingBladesKineticFulmination|KerriganImpalingBladesKineticFulmination|W|Level4": {
+      "fullText": "Когда Керриган наносит урон противнику, урон от следующих «Пронзающих клинков», примененных в течение <c val=\"#TooltipNumbers\">10</c> сек., увеличивается на <c val=\"#TooltipNumbers\">10%</c>, вплоть до <c val=\"#TooltipNumbers\">100%</c>.",
+      "name": "Кинетическая детонация",
+      "shortText": "Наносимый урон увеличивает урон от «Пронзающих клинков»."
+    },
+    "KerriganPrimalGraspPsionicPulse|KerriganPrimalGraspPsionicPulse|E|Level4": {
+      "fullText": "«Изначальная хватка» вызывает второй взрыв спустя <c val=\"#TooltipNumbers\">2</c> сек. после первого.",
+      "name": "Псионный импульс",
+      "shortText": "«Изначальная хватка» вызывает два взрыва."
+    },
+    "KerriganRavageQueenOfBlades|KerriganRavageQueenOfBlades|Q|Level7": {
+      "fullText": "Уменьшает время восстановления «Сокрушения» на <c val=\"#TooltipNumbers\">4</c> сек. и увеличивает урон, наносимый им воинам и наемникам, на <c val=\"#TooltipNumbers\">100%</c>.",
+      "name": "Королева Клинков",
+      "shortText": "«Сокрушение» наносит больше урона воинам и наемникам."
+    },
+    "KerriganRavageBoundlessFury|KerriganRavageBoundlessFury|Q|Level7": {
+      "fullText": "Когда «Сокрушение» поражает героя, Керриган получает заряд «Сокрушения». Срабатывает не чаще, чем раз в <c val=\"#TooltipNumbers\">12</c> сек. для каждого героя.",
+      "name": "Безграничная ярость",
+      "shortText": "«Сокрушение» может дать заряд «Сокрушения»."
+    },
+    "KerriganBladedMomentum|KerriganBladedMomentum|Passive|Level7": {
+      "fullText": "Каждая автоатака по герою сокращает время восстановления базовых способностей на <c val=\"#TooltipNumbers\">0.75</c> сек.",
+      "name": "Острый азарт",
+      "shortText": "Автоатаки по героям ускоряют восстановление способностей."
+    },
+    "KerriganHeroicAbilityMaelstrom|KerriganMaelstrom|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 90 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 80</s>",
+      "fullText": "Наносит находящимся рядом противникам <c val=\"#TooltipNumbers\">74</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона в секунду. Время действия – <c val=\"#TooltipNumbers\">7</c> сек.",
+      "name": "Шторм",
+      "shortText": "Непрерывно наносит урон противникам поблизости."
+    },
+    "KerriganHeroicAbilitySummonUltralisk|KerriganSummonUltralisk|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 80 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 75</s>",
+      "fullText": "После паузы в <c val=\"#TooltipNumbers\">0.5</c> сек. призывает ультралиска, который устремляется вперед и наносит первому герою на своем пути <c val=\"#TooltipNumbers\">225</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона, оглушая его на <c val=\"#TooltipNumbers\">0.5</c> сек.<n/><n/>Автоатаки ультралиска наносят противникам рядом с целью <c val=\"#TooltipNumbers\">50%</c> базового урона. При повторном использовании приказывает ультралиску сменить цель.",
+      "name": "Призыв ультралиска",
+      "shortText": "Призывает управляемого ультралиска."
+    },
+    "KerriganPrimalGraspPsionicBarrier|KerriganPrimalGraspPsionicBarrier|E|Level13": {
+      "fullText": "За каждого героя, пораженного «Изначальной хваткой», Керриган получает <c val=\"#TooltipNumbers\">20</c> ед. энергетической брони, а ее скорость передвижения повышается на <c val=\"#TooltipNumbers\">4%</c> на <c val=\"#TooltipNumbers\">4</c> сек., вплоть до <c val=\"#TooltipNumbers\">20%</c>.",
+      "name": "Псионный барьер",
+      "shortText": "«Изначальная хватка» дает энергетическую броню и ускоряет передвижение."
+    },
+    "KerriganAssimilationVolatilePower|KerriganAssimilationVolatilePower|Trait|Level13": {
+      "fullText": "Увеличивает прочность щитов от «Поглощения» на <c val=\"#TooltipNumbers\">10%</c>, но уменьшает время их действия на <c val=\"#TooltipNumbers\">3</c> сек.",
+      "name": "Неустойчивая сила",
+      "shortText": "Укрепляет щиты от «Поглощения», но уменьшает время их действия."
+    },
+    "KerriganChrysalis|KerriganChrysalis|Active|Level13": {
+      "cooldownText": "Время восстановления: 90 сек.",
+      "fullText": "При использовании помещает Керриган в хризалиду прочностью <c val=\"#TooltipNumbers\">650</c><c val=\"#ColorGray\">~~0.04~~</c> ед. на <c val=\"#TooltipNumbers\">5</c> сек. Находясь внутри, Керриган восполняет <c val=\"#TooltipNumbers\">4%</c> максимального запаса здоровья в секунду.<n/><n/>Противники могут уничтожить хризалиду, чтобы прервать ее действие.",
+      "name": "Хризалида",
+      "shortText": "Вводит в стазис и восполняет здоровье."
+    },
+    "KerriganRavageMountingPotency|KerriganRavageMountingPotency|Q|Level16": {
+      "fullText": "«Сокрушение» увеличивает силу способностей на <c val=\"#TooltipNumbers\">5%</c> на <c val=\"#TooltipNumbers\">5</c> сек., вплоть до <c val=\"#TooltipNumbers\">40%</c>.",
+      "name": "Нарастающая мощь",
+      "shortText": "«Сокрушение» усиливает способности."
+    },
+    "KerriganImpalingBladesPainfulSpikes|KerriganImpalingBladesPainfulSpikes|W|Level16": {
+      "fullText": "Противники, пораженные «Пронзающими клинками», в течение <c val=\"#TooltipNumbers\">5</c> сек. получают от <c val=\"#TooltipNumbers\">6</c> следующих атак Керриган на <c val=\"#TooltipNumbers\">60</c><c val=\"#ColorGray\">~~0.04~~</c> ед. больше урона.",
+      "name": "Болезненные уколы",
+      "shortText": "«Пронзающие клинки» увеличивают урон."
+    },
+    "KerriganUnbridledEnergy|KerriganUnbridledEnergy|Heroic|Level16": {
+      "fullText": "Когда героическая способность наносит урон герою, сила способностей Керриган увеличивается на <c val=\"#TooltipNumbers\">35%</c> на <c val=\"#TooltipNumbers\">4</c> сек.",
+      "name": "Неукротимая энергия",
+      "shortText": "Героическая способность усиливает способности."
+    },
+    "KerriganOmegastormMaelstrom|KerriganMaelstromOmegastormTalent|Heroic|Level20": {
+      "fullText": "Продлевает время действия «Шторма» на <c val=\"#TooltipNumbers\">0.4</c> сек. каждый раз, когда он наносит урон герою.",
+      "name": "Мощный шторм",
+      "shortText": "Продлевает действие «Шторма» при нанесении урона противникам."
+    },
+    "KerriganTorrasqueSummonUltralisk|KerriganSummonUltraliskTorrasqueTalent|Heroic|Level20": {
+      "fullText": "Увеличивает запас здоровья и урон от автоатак ультралиска на <c val=\"#TooltipNumbers\">20%</c>. После смерти ультралиск превращается в яйцо. Если оно уцелеет в течение <c val=\"#TooltipNumbers\">4</c> сек., из него вылупится новый ультралиск.",
+      "name": "Торраск",
+      "shortText": "Ультралиск возрождается после смерти."
+    },
+    "KerriganAssimilationAssimilationBlades|KerriganAssimilationBlades|Passive|Level20": {
+      "fullText": "При нанесении урона противнику увеличивает урон от автоатак на <c val=\"#TooltipNumbers\">2%</c> на <c val=\"#TooltipNumbers\">5</c> сек., вплоть до <c val=\"#TooltipNumbers\">40%</c>.",
+      "name": "Клинки поглощения",
+      "shortText": "Увеличивает урон от автоатак при нанесении урона противникам."
+    },
+    "KerriganPsionicShift|KerriganPsionicShift|Active|Level20": {
+      "cooldownText": "Время восстановления: 70 сек.",
+      "fullText": "При использовании Керриган телепортируется на небольшое расстояние и наносит находящимся рядом противникам <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона. Нанесенный таким образом урон дает на <c val=\"#TooltipNumbers\">300%</c> больше щитов от «Поглощения».",
+      "name": "Псионный сдвиг",
+      "shortText": "Телепортирует на небольшое расстояние и наносит урон."
+    }
+  },
+  "units": {
+    "KerriganChrysalis": {
+      "description": "При использовании помещает Керриган в хризалиду прочностью <c val=\"#TooltipNumbers\">650</c><c val=\"#ColorGray\">~~0.04~~</c> ед. на <c val=\"#TooltipNumbers\">5</c> сек. Находясь внутри, Керриган восполняет <c val=\"#TooltipNumbers\">4%</c> максимального запаса здоровья в секунду.<n/><n/>Противники могут уничтожить хризалиду, чтобы прервать ее действие.",
+      "name": "Хризалида"
+    },
+    "KerriganUltralisk": {
+      "name": "Ультралиск"
+    }
+  }
+}

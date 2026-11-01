@@ -1,0 +1,207 @@
+{
+  "abilities": {
+    "AnaHealingDart|AnaHealingDart|Q": {
+      "cooldownText": "Abklingzeit: 2 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 10</s>",
+      "fullText": "Feuert einen Heilpfeil ab, der den ersten getroffenen verbündeten Helden um <c val=\"#TooltipNumbers\">195</c><c val=\"#ColorGray\">~~0.04~~</c> Lebenspunkte heilt. Ignoriert Helden bei voller Gesundheit.",
+      "name": "Heilpfeil",
+      "shortText": "Feuert einen Pfeil ab, der einen Verbündeten heilt."
+    },
+    "AnaBioticGrenade|AnaBioticGrenade|W": {
+      "cooldownText": "Abklingzeit: 16 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Wirft eine Biotische Granate ins Zielgebiet, die Verbündete um <c val=\"#TooltipNumbers\">152</c><c val=\"#ColorGray\">~~0.04~~</c> Lebenspunkte heilt und <c val=\"#TooltipNumbers\">4</c> Sek. lang ihre durch Ana erhaltene Heilung um <c val=\"#TooltipNumbers\">25%</c> erhöht. Fügt getroffenen Gegnern <c val=\"#TooltipNumbers\">60</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zu und verringert <c val=\"#TooltipNumbers\">1.75</c> Sek. lang ihre erhaltene Heilung um <c val=\"#TooltipNumbers\">100%</c>.<n/><n/>Wenn Biotische Granate keine Gegner trifft, verringert sich die Abklingzeit um <c val=\"#TooltipNumbers\">3</c> Sek. Wird nur Ana getroffen, verringert sich die Abklingzeit um weitere <c val=\"#TooltipNumbers\">2</c> Sek.",
+      "name": "Biotische Granate",
+      "shortText": "Wirft eine Granate, die Verbündete heilt und gegnerische Heilung verhindert."
+    },
+    "AnaSleepDart|AnaSleepDart|E": {
+      "cooldownText": "Abklingzeit: 14 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Feuert einen Betäubungspfeil ab, der den ersten getroffenen gegnerischen Helden einschläfert und ihn so <c val=\"#TooltipNumbers\">3</c> Sek. lang handlungsunfähig macht. Nach den ersten <c val=\"#TooltipNumbers\">0.5</c> Sek. weckt erlittener Schaden schlafende Ziele auf.<n/><n/><c val=\"ffff8a\">Von Helden gesteuerte Karteneinheiten sind dagegen immun.</c>",
+      "name": "Betäubungspfeil",
+      "shortText": "Feuert einen Pfeil ab, der Gegner einschläfert."
+    },
+    "AnaNanoBoost|AnaNanoBoost|Heroic": {
+      "cooldownText": "Abklingzeit: 70 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Verstärkt die Kampfleistung eines verbündeten Helden. Stellt sofort <c val=\"#TooltipNumbers\">200</c> Mana wieder her, erhöht <c val=\"#TooltipNumbers\">8</c> Sek. lang die Fähigkeitsstärke um <c val=\"#TooltipNumbers\">30%</c> und beschleunigt die Abklingzeiten der Grundfähigkeiten um <c val=\"#TooltipNumbers\">150%</c>.<n/><n/><c val=\"ffff8a\">Kann nicht auf Ana selbst angewandt werden.</c>",
+      "name": "Nanoboost",
+      "shortText": "Gewährt Verbündeten Fähigkeitsstärke und verringert Abklingzeiten."
+    },
+    "AnaEyeOfHorusActivate|AnaEyeOfHorusActivate|Heroic": {
+      "cooldownText": "Abklingzeit: 60 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 45</s>",
+      "fullText": "Geht in Scharfschützenposition. Kann bis zu <c val=\"#TooltipNumbers\">6</c> Spezialgeschosse mit unbegrenzter Reichweite abfeuern. Jedes Geschoss durchschlägt verbündete und gegnerische Helden, kollidiert aber mit gegnerischen Gebäuden auf seinem Weg. Heilt Verbündete um <c val=\"#TooltipNumbers\">225</c><c val=\"#ColorGray\">~~0.04~~</c> Lebenspunkte und fügt Gegnern <c val=\"#TooltipNumbers\">135</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zu. Gegen Gebäude wird der Schaden um <c val=\"#TooltipNumbers\">50%</c> verringert.<n/><n/>Kann sich nicht bewegen, solange die Fähigkeit aktiv ist.",
+      "name": "Auge des Horus",
+      "shortText": "Feuert Schüsse mit unbegrenzter Reichweite, die heilen oder Schaden verursachen."
+    },
+    "AnaAimDownSightsActivate|AnaAimDownSightsActivate|Trait": {
+      "cooldownText": "Abklingzeit: 4 Sek.",
+      "fullText": "Automatische Angriffe injizieren Gegnern eine Dosis Gift und verursachen im Verlauf von <c val=\"#TooltipNumbers\">5</c> Sek. <c val=\"#TooltipNumbers\">40</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden sowie zusätzlichen Schaden in Höhe der aktuell auf dem Ziel aktiven Stapel. Bis zu <c val=\"#TooltipNumbers\">5</c>-mal stapelbar. Ana heilt sich alle <c val=\"#TooltipNumbers\">0.5</c> Sek. um <c val=\"#TooltipNumbers\">60%</c> des Schadens der Vergifteten Kugeln.<n/><n/><s val=\"StandardTooltipHeader\">Hocke</s><n/><n/>Eigenschaft aktivieren, um die Reichweite des Heilpfeils und des Betäubungspfeils um <c val=\"#TooltipNumbers\">25%</c> zu erhöhen und mit ihnen einen Helden zu durchschlagen. Verringert jedoch die Bewegungsgeschwindigkeit um <c val=\"#TooltipNumbers\">25%</c>. Hält bis Abbruch an.",
+      "name": "Vergiftete Kugeln / Hocke",
+      "shortText": "Automatische Angriffe verursachen Schaden über Zeit."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Abklingzeit: 4 Sek.",
+      "fullText": "Erhöht die Bewegungsgeschwindigkeit nach <c val=\"#TooltipNumbers\">1</c> Sek. Kanalisierung um <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Aufsitzen"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Kanalisiert <c val=\"#TooltipNumbers\">6</c> Sek. lang und teleportiert sich dann zurück zum Altar der Stürme. Dabei werden sofort <c val=\"#TooltipNumbers\">1125</c> Lebenspunkte und <c val=\"#TooltipNumbers\">150</c> Mana wiederhergestellt.",
+      "name": "Ruhestein"
+    },
+    "AnaEyeOfHorusAttackDummy|AnaEyeOfHorusHighPoweredRound|Q": {
+      "cooldownText": "Abklingzeit: 1 Sek.",
+      "fullText": "Feuert ein Spezialgeschoss mit unbegrenzter Reichweite ab. Durchschlägt alle verbündeten und gegnerischen Helden auf seinem Weg. Heilt Verbündete um <c val=\"#TooltipNumbers\">225</c><c val=\"#ColorGray\">~~0.04~~</c> Lebenspunkte und fügt Gegnern <c val=\"#TooltipNumbers\">135</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zu. Gegen Gebäude wird der Schaden um <c val=\"#TooltipNumbers\">50%</c> verringert.",
+      "name": "Hochleistungsgeschoss"
+    },
+    "AnaEyeOfHorusCancel|AnaEyeOfHorusCancel|W": {
+      "fullText": "Bricht Auge des Horus ab.",
+      "name": "Auge des Horus abbrechen"
+    },
+    "AnaEyeOfHorusCancel|AnaEyeOfHorusCancel|E": {
+      "fullText": "Bricht Auge des Horus ab.",
+      "name": "Auge des Horus abbrechen"
+    },
+    "AnaEyeOfHorusAttackDummy|AnaEyeOfHorusHighPoweredRound|Heroic": {
+      "cooldownText": "Abklingzeit: 1 Sek.",
+      "fullText": "Feuert ein Spezialgeschoss mit unbegrenzter Reichweite ab. Durchschlägt alle verbündeten und gegnerischen Helden auf seinem Weg. Heilt Verbündete um <c val=\"#TooltipNumbers\">225</c><c val=\"#ColorGray\">~~0.04~~</c> Lebenspunkte und fügt Gegnern <c val=\"#TooltipNumbers\">135</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zu. Gegen Gebäude wird der Schaden um <c val=\"#TooltipNumbers\">50%</c> verringert.",
+      "name": "Hochleistungsgeschoss"
+    },
+    "AnaAimDownSightsDeactivate|AnaAimDownSightsDeactivate|Trait": {
+      "cooldownText": "Abklingzeit: 4 Sek.",
+      "fullText": "Automatische Angriffe injizieren Gegnern eine Dosis Gift und verursachen im Verlauf von <c val=\"#TooltipNumbers\">5</c> Sek. <c val=\"#TooltipNumbers\">40</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden sowie zusätzlichen Schaden in Höhe der aktuell auf dem Ziel aktiven Stapel. Bis zu <c val=\"#TooltipNumbers\">5</c>-mal stapelbar. Ana heilt sich alle <c val=\"#TooltipNumbers\">0.5</c> Sek. um <c val=\"#TooltipNumbers\">60%</c> des Schadens der Vergifteten Kugeln.<n/><n/><s val=\"StandardTooltipHeader\">Hocke</s><n/><n/>Eigenschaft aktivieren, um die Reichweite des Heilpfeils und des Betäubungspfeils um <c val=\"#TooltipNumbers\">25%</c> zu erhöhen und mit ihnen einen Helden zu durchschlagen. Verringert jedoch die Bewegungsgeschwindigkeit um <c val=\"#TooltipNumbers\">25%</c>. Hält bis Abbruch an.",
+      "name": "Vergiftete Kugeln / Hocke abbrechen"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Sitzt ab.",
+      "name": "Absitzen"
+    },
+    "AnaDebilitatingDart|AnaDebilitatingDart|Active": {
+      "cooldownText": "Abklingzeit: 20 Sek.",
+      "fullText": "Feuert einen Pfeil ab, der den ersten getroffenen gegnerischen Helden verlangsamt und seinen verursachten Schaden <c val=\"#TooltipNumbers\">4</c> Sek. lang um <c val=\"#TooltipNumbers\">50%</c> verringert. Verringert die Abklingzeit um <c val=\"#TooltipNumbers\">8</c> Sek., wenn kein Held getroffen wird.",
+      "name": "Entkräftender Pfeil",
+      "shortText": "Feuert einen Pfeil ab, der den Schaden von Gegnern verringert und sie verlangsamt."
+    },
+    "AnaDetachableBoxMagazine|AnaDetachableBoxMagazineActive|Active": {
+      "cooldownText": "Abklingzeit: 60 Sek.",
+      "fullText": "Aktivieren, um sofort <c val=\"#TooltipNumbers\">3</c> Heilpfeile zu erzeugen.",
+      "name": "Heilmagazin",
+      "shortText": "Gewährt zusätzliche Aufladungen des Heilpfeils."
+    }
+  },
+  "talents": {
+    "AnaBioticGrenadeContactHealing|AnaBioticGrenadeContactHealing|W|Level1": {
+      "fullText": "Erhöht den Schaden und die Heilung pro getroffenem gegnerischen Helden um <c val=\"#TooltipNumbers\">30%</c>.",
+      "name": "Kontaktheilung",
+      "shortText": "Erhöht Schaden und Heilung der Biotischen Granate bei mehreren getroffenen Helden."
+    },
+    "AnaSleepingDartSlumberShells|AnaSleepingDartSlumberShells|E|Level1": {
+      "fullText": "Verringert die Abklingzeit des Betäubungspfeils um <c val=\"#TooltipNumbers\">2</c> Sek. Verlangsamt gegnerische Helden nach dem Aufwachen <c val=\"#TooltipNumbers\">3</c> Sek. lang um <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Nebenwirkungen",
+      "shortText": "Betäubungspfeile klingen schneller ab und verlangsamen Helden."
+    },
+    "AnaShrikeVampiricRounds|AnaShrikeVampiricRounds|Trait|Level1": {
+      "fullText": "Erhöht die Heilung von Vergiftete Kugeln um <c val=\"#TooltipNumbers\">15%</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Wiederholbare Quest:</c> Staple <c val=\"#TooltipNumbers\">5</c> Dosen, um die Heilung von Vergiftete Kugeln um <c val=\"#TooltipNumbers\">1%</c> zu erhöhen.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Wiederholbare Quest:</c> Greife einen Helden mit <c val=\"#TooltipNumbers\">5</c> Dosen automatisch an, um die Heilung von Vergiftete Kugeln um <c val=\"#TooltipNumbers\">0.25%</c> zu erhöhen.",
+      "name": "Vampirkugeln",
+      "shortText": "<c val=\"#TooltipQuest\">Quest:</c> Erhöht die Heilung der Vergifteten Kugeln."
+    },
+    "AnaBioticGrenadeBioticEnhancements|AnaBioticGrenadeBioticEnhancements|W|Level4": {
+      "fullText": "Erhöht die Dauer der Bonusheilung der Biotischen Granate um <c val=\"#TooltipNumbers\">50%</c> und verringert die Abklingzeit um <c val=\"#TooltipNumbers\">3</c> Sek.",
+      "name": "Biotische Verstärker",
+      "shortText": "Verstärkt die Biotische Granate."
+    },
+    "AnaOverdose|AnaOverdose|E|Level4": {
+      "fullText": "Betäubungspfeile injizieren <c val=\"#TooltipNumbers\">4</c> Giftdosen. In der Hocke durchschlagen Betäubungspfeile gegnerische Helden.",
+      "name": "Zusatzdosis",
+      "shortText": "Betäubungspfeile injizieren Giftdosen und durchschlagen Ziele."
+    },
+    "AnaDebilitatingDart|AnaDebilitatingDart|Active|Level4": {
+      "cooldownText": "Abklingzeit: 20 Sek.",
+      "fullText": "Feuert einen Pfeil ab, der den ersten getroffenen gegnerischen Helden verlangsamt und seinen verursachten Schaden <c val=\"#TooltipNumbers\">4</c> Sek. lang um <c val=\"#TooltipNumbers\">50%</c> verringert. Verringert die Abklingzeit um <c val=\"#TooltipNumbers\">8</c> Sek., wenn kein Held getroffen wird.",
+      "name": "Entkräftender Pfeil",
+      "shortText": "Feuert einen Pfeil ab, der den Schaden von Gegnern verringert und sie verlangsamt."
+    },
+    "AnaBioticGrenadeAntiHealer|AnaBioticGrenadeAntiHealer|W|Level7": {
+      "fullText": "Vergrößert den Wirkungsbereich der Biotischen Granate um <c val=\"#TooltipNumbers\">25%</c> und erhöht die Dauer der Heilungsverringerung um <c val=\"#TooltipNumbers\">0.75</c> Sek.",
+      "name": "Heilsabotage",
+      "shortText": "Verstärkt die Biotische Granate."
+    },
+    "AnaSleepDartNightTerrors|AnaSleepDartNightTerrors|E|Level7": {
+      "fullText": "Erhöht die Bewegungsgeschwindigkeit <c val=\"#TooltipNumbers\">2</c> Sek. lang um <c val=\"#TooltipNumbers\">25%</c> pro Held, der von einem Betäubungspfeil getroffen wurde. Wenn getroffene Helden aufwachen, erleiden sie Schaden in Höhe von <c val=\"#TooltipNumbers\">8%</c> ihrer maximalen Lebenspunkte.",
+      "name": "Albträume",
+      "shortText": "Verstärkt den Betäubungspfeil."
+    },
+    "AnaMindNumbingAgent|AnaMindNumbingAgent|Trait|Level7": {
+      "fullText": "Verringert die Fähigkeitsstärke gegnerischer Helden pro Giftdosis um <c val=\"#TooltipNumbers\">10%</c>.",
+      "name": "Nervengift",
+      "shortText": "Giftdosen verringern die Fähigkeitsstärke."
+    },
+    "AnaHeroicAbilityNanaBoost|AnaNanoBoost|Heroic|Level10": {
+      "cooldownText": "Abklingzeit: 70 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Verstärkt die Kampfleistung eines verbündeten Helden. Stellt sofort <c val=\"#TooltipNumbers\">200</c> Mana wieder her, erhöht <c val=\"#TooltipNumbers\">8</c> Sek. lang die Fähigkeitsstärke um <c val=\"#TooltipNumbers\">30%</c> und beschleunigt die Abklingzeiten der Grundfähigkeiten um <c val=\"#TooltipNumbers\">150%</c>.<n/><n/><c val=\"ffff8a\">Kann nicht auf Ana selbst angewandt werden.</c>",
+      "name": "Nanoboost",
+      "shortText": "Gewährt Verbündeten Fähigkeitsstärke und verringert Abklingzeiten."
+    },
+    "AnaHeroicAbilityEyeOfHorus|AnaEyeOfHorusActivate|Heroic|Level10": {
+      "cooldownText": "Abklingzeit: 60 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 45</s>",
+      "fullText": "Geht in Scharfschützenposition. Kann bis zu <c val=\"#TooltipNumbers\">6</c> Spezialgeschosse mit unbegrenzter Reichweite abfeuern. Jedes Geschoss durchschlägt verbündete und gegnerische Helden, kollidiert aber mit gegnerischen Gebäuden auf seinem Weg. Heilt Verbündete um <c val=\"#TooltipNumbers\">225</c><c val=\"#ColorGray\">~~0.04~~</c> Lebenspunkte und fügt Gegnern <c val=\"#TooltipNumbers\">135</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zu. Gegen Gebäude wird der Schaden um <c val=\"#TooltipNumbers\">50%</c> verringert.<n/><n/>Kann sich nicht bewegen, solange die Fähigkeit aktiv ist.",
+      "name": "Auge des Horus",
+      "shortText": "Feuert Schüsse mit unbegrenzter Reichweite, die heilen oder Schaden verursachen."
+    },
+    "AnaHealingDartSpeedSerum|AnaHealingDartSpeedSerum|Q|Level13": {
+      "fullText": "Heilpfeile erhöhen die Bewegungsgeschwindigkeit betroffener Helden <c val=\"#TooltipNumbers\">2</c> Sek. lang um <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Temposerum",
+      "shortText": "Heilpfeile erhöhen die Bewegungsgeschwindigkeit."
+    },
+    "AnaHealingDartPurifyingDarts|AnaHealingDartPurifyingDarts|Q|Level13": {
+      "fullText": "Heilpfeile entfernen Bewegungsunfähigkeit und Verlangsamungen. Dabei wird die Heilung um <c val=\"#TooltipNumbers\">20%</c> erhöht.",
+      "name": "Desinfektionspfeile",
+      "shortText": "Heilpfeile entfernen Bewegungsunfähigkeit und Verlangsamungen."
+    },
+    "AnaHealingDartSmellingSalts|AnaHealingDartSmellingSalts|Q|Level13": {
+      "fullText": "Heilpfeile entfernen Betäubungen. Dabei werden <c val=\"#TooltipNumbers\">2</c> Sek. lang <c val=\"#TooltipNumbers\">50</c> Panzerung gewährt.",
+      "name": "Riechsalz",
+      "shortText": "Heilpfeile entfernen Betäubungen."
+    },
+    "AnaHealingDartSharpshooter|AnaHealingDartSharpshooter|Q|Level16": {
+      "fullText": "Erhöht die Heilung der Heilpfeile um <c val=\"#TooltipNumbers\">5%</c>, wenn ein verbündeter Held geheilt wird, bis maximal <c val=\"#TooltipNumbers\">50%</c>. Erhöht die Heilung bei maximalem Bonus zusätzlich um <c val=\"#TooltipNumbers\">35%</c>. Alle Stapel gehen verloren, wenn ein Heilpfeil keinen Helden trifft.",
+      "name": "Präzisionsschütze",
+      "shortText": "Verstärkt aufeinanderfolgende Heilpfeile."
+    },
+    "AnaHealingDartConcentratedDoses|AnaHealingDartConcentratedDoses|Q|Level16": {
+      "fullText": "Erhöht die Heilung der Heilpfeile um <c val=\"#TooltipNumbers\">12%</c> pro aktiver Giftdosis bei gegnerischen Helden.",
+      "name": "Konzentrierte Dosis",
+      "shortText": "Aktive Giftdosen verstärken Heilpfeile."
+    },
+    "AnaDetachableBoxMagazine|AnaDetachableBoxMagazineActive|Active|Level16": {
+      "cooldownText": "Abklingzeit: 60 Sek.",
+      "fullText": "Aktivieren, um sofort <c val=\"#TooltipNumbers\">3</c> Heilpfeile zu erzeugen.",
+      "name": "Heilmagazin",
+      "shortText": "Gewährt zusätzliche Aufladungen des Heilpfeils."
+    },
+    "AnaNanoInfusion|AnaNanoInfusion|Heroic|Level20": {
+      "fullText": "Heilt Verbündete unter dem Effekt von Nanoboost um <c val=\"#TooltipNumbers\">50%</c> ihres verursachten Fähigkeitsschadens.",
+      "name": "Nanoinfusion",
+      "shortText": "Nanoboost gewährt Lebensentzug für Fähigkeitsschaden."
+    },
+    "AnaEyeOfHorusDeadeye|AnaEyeOfHorusDeadeye|Heroic|Level20": {
+      "fullText": "Die Abklingzeit von Auge des Horus ist auf <c val=\"#TooltipNumbers\">6</c> Sek. verringert, aber die Fähigkeit erhält nur alle <c val=\"#TooltipNumbers\">10</c> Sek. neue Geschosse. Die verbleibende Abklingzeit wird in Geschosse umgewandelt.<n/><n/>Für jeden von Auge des Horus getroffenen Gegner erhöhen sich Schaden und Heilung der Fähigkeit um <c val=\"#TooltipNumbers\">5%</c>. Dieser Bonus wird beim Verlassen von Auge des Horus oder nach <c val=\"#TooltipNumbers\">4</c> Sek. zurückgesetzt.",
+      "name": "Treffsicher",
+      "shortText": "Mit Auge des Horus abgefeuerte Geschosse laden sich mit der Zeit wieder auf"
+    },
+    "AnaShrikeArmoredStance|AnaShrikeArmoredStance|Trait|Level20": {
+      "fullText": "Erhöht den Schaden der Vergifteten Kugeln um <c val=\"#TooltipNumbers\">50%</c>. Gewährt in der Hocke <c val=\"#TooltipNumbers\">25</c> Panzerung.",
+      "name": "Gepanzerte Haltung",
+      "shortText": "Verstärkt die Vergifteten Kugeln."
+    },
+    "AnaDynamicOptics|AnaDynamicOptics|Trait|Level20": {
+      "fullText": "Automatische Angriffe erhöhen die Angriffsgeschwindigkeit <c val=\"#TooltipNumbers\">3</c> Sek. lang um <c val=\"#TooltipNumbers\">10%</c>, bis maximal <c val=\"#TooltipNumbers\">100%</c>. Erhöht die Reichweite automatischer Angriffe in der Hocke um <c val=\"#TooltipNumbers\">4</c>.",
+      "name": "Dynamische Linse",
+      "shortText": "Verstärkt automatische Angriffe."
+    }
+  },
+  "units": {}
+}

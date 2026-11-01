@@ -1,0 +1,700 @@
+{
+  "id": "Deckard",
+  "unitId": "HeroDeckard",
+  "hyperlinkId": "Deckard",
+  "attributeId": "DECK",
+  "franchise": "Diablo",
+  "rarity": "Legendary",
+  "releaseDate": "2018-04-24",
+  "isMelee": true,
+  "gender": "Male",
+  "radius": 0.625,
+  "innerRadius": 0.625,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 5,
+    "damage": 3,
+    "survivability": 7,
+    "utility": 8
+  },
+  "life": {
+    "amount": 1780,
+    "scale": 0.04,
+    "regenRate": 3.707,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "AllyHealer",
+    "EnergyImportant",
+    "Helper",
+    "RoleSupport",
+    "SelfHealer"
+  ],
+  "summonedUnitIds": [
+    "DeckardLorenado"
+  ],
+  "weapons": [
+    {
+      "nameId": "DeckardHeroWeapon",
+      "isDisabled": false,
+      "range": 1.5,
+      "minimumRange": 0,
+      "period": 1.1,
+      "damage": 63,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "DeckardArmy19",
+    "DeckardRoad",
+    "DeckardToys19"
+  ],
+  "variationSkinIds": [
+    "DeckardBaseVar1",
+    "DeckardBaseVar2",
+    "DeckardBaseVar3",
+    "DeckardBaseVar4"
+  ],
+  "voiceLineIds": [
+    "DeckardBase_VoiceLine01",
+    "DeckardBase_VoiceLine02",
+    "DeckardBase_VoiceLine03",
+    "DeckardBase_VoiceLine04",
+    "DeckardBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "DeckardHealingPotion|DeckardHealingPotion|Q",
+        "abilityId": "DeckardHealingPotion",
+        "buttonId": "DeckardHealingPotion",
+        "icon": "storm_ui_icon_deckard_healing_potion.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "DeckardHoradricCube|DeckardHoradricCubeCharging|W",
+        "abilityId": "DeckardHoradricCube",
+        "buttonId": "DeckardHoradricCubeCharging",
+        "icon": "storm_ui_icon_deckard_horadric_cube.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "DeckardScrollOfSealing|DeckardScrollOfSealing|E",
+        "abilityId": "DeckardScrollOfSealing",
+        "buttonId": "DeckardScrollOfSealing",
+        "icon": "storm_ui_icon_deckard_scroll_of_sealing.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "DeckardStayAWhileAndListen|DeckardStayAWhileAndListen|Heroic",
+        "abilityId": "DeckardStayAWhileAndListen",
+        "buttonId": "DeckardStayAWhileAndListen",
+        "icon": "storm_ui_icon_deckard_stay_awhile_and_listen.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "DeckardLorenado|DeckardLorenado|Heroic",
+        "abilityId": "DeckardLorenado",
+        "buttonId": "DeckardLorenado",
+        "icon": "storm_ui_icon_deckard_lorenado.png",
+        "charges": {
+          "countMax": 1,
+          "countStart": 1,
+          "countUse": 1,
+          "recastCooldown": 1,
+          "isCountHidden": true
+        },
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": ":PASSIVE:|DeckardFortitudeOfTheFaithful|Trait",
+        "abilityId": ":PASSIVE:",
+        "buttonId": "DeckardFortitudeOfTheFaithful",
+        "icon": "storm_ui_icon_deckard_protectors_of_cain.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "DeckardStayAWhileAndListen|DeckardStayAWhileAndListen|Heroic": {
+      "Heroic": [
+        {
+          "linkId": "DeckardStayAWhileAndListenCancel|DeckardStayAWhileAndListenCancel|Heroic",
+          "abilityId": "DeckardStayAWhileAndListenCancel",
+          "buttonId": "DeckardStayAWhileAndListenCancel",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "toggleCooldown": 0.75,
+          "abilityType": "Heroic"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "DeckardGemSapphire|DeckardGemSapphire|Active|Level1": {
+      "Activable": [
+        {
+          "linkId": "DeckardGemSapphire|DeckardGemSapphire|Active",
+          "abilityId": "DeckardGemSapphire",
+          "buttonId": "DeckardGemSapphire",
+          "icon": "storm_ui_icon_deckard_sapphire.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "DeckardGemRuby|DeckardGemRuby|Active|Level4": {
+      "Activable": [
+        {
+          "linkId": "DeckardGemRuby|DeckardGemRuby|Active",
+          "abilityId": "DeckardGemRuby",
+          "buttonId": "DeckardGemRuby",
+          "icon": "storm_ui_icon_deckard_ruby.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "DeckardGemEmerald|DeckardGemEmerald|Active|Level7": {
+      "Activable": [
+        {
+          "linkId": "DeckardGemEmerald|DeckardGemEmerald|Active",
+          "abilityId": "DeckardGemEmerald",
+          "buttonId": "DeckardGemEmerald",
+          "icon": "storm_ui_icon_deckard_emerald.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "DeckardAncientBlessings|DeckardAncientBlessings|Trait|Level13": {
+      "Trait": [
+        {
+          "linkId": "DeckardAncientBlessings|DeckardFortitudeOfTheFaithfulAncientBlessings|Trait",
+          "abilityId": "DeckardAncientBlessings",
+          "buttonId": "DeckardFortitudeOfTheFaithfulAncientBlessings",
+          "icon": "storm_ui_icon_deckard_angelic_conduit.png",
+          "abilityType": "Trait"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "DeckardScrollOfIdentify|DeckardScrollOfIdentify|E|Level1",
+        "talentId": "DeckardScrollOfIdentify",
+        "buttonId": "DeckardScrollOfIdentify",
+        "abilityId": "DeckardScrollOfSealing",
+        "icon": "storm_ui_icon_deckard_scroll_of_sealing.png",
+        "abilityType": "E",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "DeckardScrollOfSealing|DeckardScrollOfSealing|E"
+        ]
+      },
+      {
+        "linkId": "DeckardFieldStudy|DeckardFieldStudy|E|Level1",
+        "talentId": "DeckardFieldStudy",
+        "buttonId": "DeckardFieldStudy",
+        "abilityId": "DeckardScrollOfSealing",
+        "icon": "storm_ui_icon_deckard_scroll_of_sealing_a.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "DeckardScrollOfSealing|DeckardScrollOfSealing|E"
+        ]
+      },
+      {
+        "linkId": "DeckardGemSapphire|DeckardGemSapphire|Active|Level1",
+        "talentId": "DeckardGemSapphire",
+        "buttonId": "DeckardGemSapphire",
+        "abilityId": "DeckardGemSapphire",
+        "icon": "storm_ui_icon_deckard_sapphire.png",
+        "toggleCooldown": 0.5,
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "DeckardHoradricCube|DeckardHoradricCubeCharging|W"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "DeckardPotionOfShielding|DeckardPotionOfShielding|Q|Level4",
+        "talentId": "DeckardPotionOfShielding",
+        "buttonId": "DeckardPotionOfShielding",
+        "abilityId": "DeckardHealingPotion",
+        "icon": "storm_ui_icon_deckard_healing_potion.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "DeckardHealingPotion|DeckardHealingPotion|Q"
+        ]
+      },
+      {
+        "linkId": "DeckardRejuvenationPotion|DeckardRejuvenationPotion|Q|Level4",
+        "talentId": "DeckardRejuvenationPotion",
+        "buttonId": "DeckardRejuvenationPotion",
+        "abilityId": "DeckardHealingPotion",
+        "icon": "storm_ui_icon_deckard_rejuvination_potion.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "DeckardHealingPotion|DeckardHealingPotion|Q"
+        ]
+      },
+      {
+        "linkId": "DeckardGemRuby|DeckardGemRuby|Active|Level4",
+        "talentId": "DeckardGemRuby",
+        "buttonId": "DeckardGemRuby",
+        "abilityId": "DeckardGemRuby",
+        "icon": "storm_ui_icon_deckard_ruby.png",
+        "toggleCooldown": 0.5,
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "DeckardHoradricCube|DeckardHoradricCubeCharging|W"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "DeckardCubeMastery|DeckardCubeMastery|W|Level7",
+        "talentId": "DeckardCubeMastery",
+        "buttonId": "DeckardCubeMastery",
+        "abilityId": "DeckardHoradricCube",
+        "icon": "storm_ui_icon_deckard_horadric_cube.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "DeckardHoradricCube|DeckardHoradricCubeCharging|W"
+        ]
+      },
+      {
+        "linkId": "DeckardKanaisCube|DeckardKanaisCube|W|Level7",
+        "talentId": "DeckardKanaisCube",
+        "buttonId": "DeckardKanaisCube",
+        "abilityId": "DeckardHoradricCube",
+        "icon": "storm_ui_icon_deckard_kanais_cube.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "DeckardHoradricCube|DeckardHoradricCubeCharging|W"
+        ]
+      },
+      {
+        "linkId": "DeckardGemEmerald|DeckardGemEmerald|Active|Level7",
+        "talentId": "DeckardGemEmerald",
+        "buttonId": "DeckardGemEmerald",
+        "abilityId": "DeckardGemEmerald",
+        "icon": "storm_ui_icon_deckard_emerald.png",
+        "toggleCooldown": 0.5,
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "DeckardHoradricCube|DeckardHoradricCubeCharging|W"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "DeckardStayAWhileAndListen|DeckardStayAWhileAndListen|Heroic|Level10",
+        "talentId": "DeckardStayAWhileAndListen",
+        "buttonId": "DeckardStayAWhileAndListen",
+        "abilityId": "DeckardStayAWhileAndListen",
+        "icon": "storm_ui_icon_deckard_stay_awhile_and_listen.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "DeckardLorenado|DeckardLorenado|Heroic|Level10",
+        "talentId": "DeckardLorenado",
+        "buttonId": "DeckardLorenado",
+        "abilityId": "DeckardLorenado",
+        "icon": "storm_ui_icon_deckard_lorenado.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "DeckardSuperHealingPotion|DeckardSuperHealingPotion|Q|Level13",
+        "talentId": "DeckardSuperHealingPotion",
+        "buttonId": "DeckardSuperHealingPotion",
+        "abilityId": "DeckardHealingPotion",
+        "icon": "storm_ui_icon_deckard_super_healing_potion.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "DeckardHealingPotion|DeckardHealingPotion|Q"
+        ]
+      },
+      {
+        "linkId": "DeckardPotionOfRevival|DeckardPotionOfRevival|Q|Level13",
+        "talentId": "DeckardPotionOfRevival",
+        "buttonId": "DeckardPotionOfRevival",
+        "abilityId": "DeckardHealingPotion",
+        "icon": "storm_ui_icon_deckard_unstable_healing_potion.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "DeckardHealingPotion|DeckardHealingPotion|Q"
+        ]
+      },
+      {
+        "linkId": "DeckardAncientBlessings|DeckardAncientBlessings|Trait|Level13",
+        "talentId": "DeckardAncientBlessings",
+        "buttonId": "DeckardAncientBlessings",
+        "abilityId": "DeckardAncientBlessings",
+        "icon": "storm_ui_icon_deckard_angelic_conduit.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|DeckardFortitudeOfTheFaithful|Trait",
+          "DeckardAncientBlessings|DeckardFortitudeOfTheFaithfulAncientBlessings|Trait"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "DeckardScrollOfStoneCurse|DeckardScrollOfStoneCurse|E|Level16",
+        "talentId": "DeckardScrollOfStoneCurse",
+        "buttonId": "DeckardScrollOfStoneCurse",
+        "abilityId": "DeckardScrollOfSealing",
+        "icon": "storm_ui_icon_deckard_scroll_of_sealing.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "DeckardScrollOfSealing|DeckardScrollOfSealing|E"
+        ]
+      },
+      {
+        "linkId": "DeckardSafetyInNumbers|DeckardSafetyInNumbers|Trait|Level16",
+        "talentId": "DeckardSafetyInNumbers",
+        "buttonId": "DeckardSafetyInNumbers",
+        "abilityId": "DeckardFortitudeOfTheFaithful",
+        "icon": "storm_ui_icon_deckard_study_time.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|DeckardFortitudeOfTheFaithful|Trait",
+          "DeckardAncientBlessings|DeckardFortitudeOfTheFaithfulAncientBlessings|Trait"
+        ]
+      },
+      {
+        "linkId": "DeckardHoradricStaff|DeckardHoradricStaff|Passive|Level16",
+        "talentId": "DeckardHoradricStaff",
+        "buttonId": "DeckardHoradricStaff",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_deckard_horadric_staff.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "DeckardRespectTheElderly|DeckardRespectTheElderly|Heroic|Level20",
+        "talentId": "DeckardRespectTheElderly",
+        "buttonId": "DeckardRespectTheElderly",
+        "abilityId": "DeckardStayAWhileAndListen",
+        "icon": "storm_ui_icon_deckard_stay_awhile_and_listen.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "DeckardStayAWhileAndListen|DeckardStayAWhileAndListen|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "DeckardStayAWhileAndListen"
+        ]
+      },
+      {
+        "linkId": "DeckardMorenados|DeckardMorenados|Heroic|Level20",
+        "talentId": "DeckardMorenados",
+        "buttonId": "DeckardMorenados",
+        "abilityId": "DeckardLorenado",
+        "icon": "storm_ui_icon_deckard_lorenado.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "DeckardLorenado|DeckardLorenado|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "DeckardLorenado"
+        ]
+      },
+      {
+        "linkId": "DeckardBottomlessFlask|DeckardBottomlessFlask|Q|Level20",
+        "talentId": "DeckardBottomlessFlask",
+        "buttonId": "DeckardBottomlessFlask",
+        "abilityId": "DeckardHealingPotion",
+        "icon": "storm_ui_icon_deckard_healing_potion.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "DeckardHealingPotion|DeckardHealingPotion|Q"
+        ]
+      },
+      {
+        "linkId": "DeckardPerfectGems|DeckardPerfectGems|W|Level20",
+        "talentId": "DeckardPerfectGems",
+        "buttonId": "DeckardPerfectGems",
+        "abilityId": "DeckardHoradricCube",
+        "icon": "storm_ui_icon_deckard_perfect_gems.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          "DeckardHoradricCube|DeckardHoradricCubeCharging|W"
+        ]
+      }
+    ]
+  },
+  "sheet": "sheets/Deckard.png",
+  "icons": {
+    "storm_ui_icon_deckard_healing_potion.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_deckard_horadric_cube.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_deckard_scroll_of_sealing.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_deckard_stay_awhile_and_listen.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_deckard_lorenado.png": [
+      512,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_deckard_protectors_of_cain.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_mount.png": [
+      128,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      256,
+      128,
+      111,
+      71
+    ],
+    "hud_btn_bg_ability_cancel.png": [
+      384,
+      128,
+      97,
+      111
+    ],
+    "storm_ui_icon_generic_cancel_mount.png": [
+      512,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_deckard_sapphire.png": [
+      0,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_deckard_ruby.png": [
+      128,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_deckard_emerald.png": [
+      256,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_deckard_angelic_conduit.png": [
+      384,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_deckard_scroll_of_sealing_a.png": [
+      512,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_deckard_rejuvination_potion.png": [
+      0,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_deckard_kanais_cube.png": [
+      128,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_deckard_super_healing_potion.png": [
+      256,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_deckard_unstable_healing_potion.png": [
+      384,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_deckard_study_time.png": [
+      512,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_deckard_horadric_staff.png": [
+      0,
+      512,
+      128,
+      128
+    ],
+    "storm_ui_icon_deckard_perfect_gems.png": [
+      128,
+      512,
+      128,
+      128
+    ]
+  }
+}

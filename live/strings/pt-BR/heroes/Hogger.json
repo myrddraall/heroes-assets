@@ -1,0 +1,196 @@
+{
+  "abilities": {
+    "HoggerStaggeringBlow|HoggerStaggeringBlow|Q": {
+      "cooldownText": "Recarga: 12 segundos",
+      "fullText": "Desfere um golpe amplo com o mangual, repelindo e causando <c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c> de dano aos inimigos atingidos. Se um inimigo colidir com o terreno, ele receberá mais <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c> de dano, ficará atordoado por <c val=\"#TooltipNumbers\">0.75</c> s e concederá <c val=\"#TooltipNumbers\">15</c> de Raiva.",
+      "name": "Golpe Atordoante",
+      "shortText": "Repele inimigos em uma área cônica"
+    },
+    "HoggerEzThroDynamite|HoggerEzThroDynamite|W": {
+      "cooldownText": "Recarga: 8 segundos",
+      "fullText": "Arremessa uma bota cheia de dinamite que explode após <c val=\"#TooltipNumbers\">1.5</c> s, causando <c val=\"#TooltipNumbers\">180</c><c val=\"#ColorGray\">~~0.04~~</c> de dano e desacelerando as vítimas em <c val=\"#TooltipNumbers\">30%</c> por <c val=\"#TooltipNumbers\">2</c> s. <n/><n/>A dinamite explode instantaneamente se atingir um Herói inimigo, concedendo <c val=\"#TooltipNumbers\">10</c> de Raiva.",
+      "name": "Dinamite Taca-fácil",
+      "shortText": "Arremessa uma bota de dinamite"
+    },
+    "HoggerHoggWild|HoggerHoggWild|E": {
+      "cooldownText": "Recarga: 14 segundos",
+      "fullText": "Após <c val=\"#TooltipNumbers\">0.25</c> s, fica Irrefreável e começa a girar de forma descontrolada na direção selecionada, ricocheteando no terreno. Ricochetear no terreno renova a duração.<n/><n/>A cada <c val=\"#TooltipNumbers\">0.125</c> s, causa <c val=\"#TooltipNumbers\">44</c><c val=\"#ColorGray\">~~0.04~~</c> de dano aos inimigos próximos que não sejam Estruturas. O dano contra Heróis aumenta em <c val=\"#TooltipNumbers\">0,5%</c> para cada ponto de Raiva. ",
+      "name": "Selvageria Animal",
+      "shortText": "Gira rapidamente, causando dano"
+    },
+    "HoggerHoardapult|HoggerHoardapult|Heroic": {
+      "cooldownText": "Recarga: 60 segundos",
+      "fullText": "Hogger se arremessa junto com uma Pilha de Saque potencializada, causando <c val=\"#TooltipNumbers\">100</c><c val=\"#ColorGray\">~~0.04~~</c> de dano e desacelerando em <c val=\"#TooltipNumbers\">50%</c> os inimigos por <c val=\"#TooltipNumbers\">2</c> s.<n/><n/>Essa Pilha de Saque dura até <c val=\"#TooltipNumbers\">20</c> s, mas decai rapidamente se Hogger não ficar perto dela. A cada <c val=\"#TooltipNumbers\">10</c> s, Hogger pode coletar um naco de Carne que cai da Pilha de Saque.",
+      "name": "Saque Viagem",
+      "shortText": "Arremessa Hogger com a Pilha de Saque"
+    },
+    "HoggerShockwave|HoggerShockwave|Heroic": {
+      "cooldownText": "Recarga: 70 segundos",
+      "fullText": "Golpeia o chão após <c val=\"#TooltipNumbers\">0.5</c> s, emitindo uma onda de choque que avança em linha reta. Os inimigos atingidos pelo impacto inicial recebem <c val=\"#TooltipNumbers\">335</c><c val=\"#ColorGray\">~~0.04~~</c> de dano e ficam atordoados por <c val=\"#TooltipNumbers\">1.5</c> s. Os inimigos atingidos pela onda de choque recebem <c val=\"#TooltipNumbers\">230</c><c val=\"#ColorGray\">~~0.04~~</c> de dano e ficam atordoados por <c val=\"#TooltipNumbers\">0.75</c> s.",
+      "name": "Onda de Choque",
+      "shortText": "Causa dano e atordoa em linha reta"
+    },
+    "HoggerLootHoard|HoggerLootHoard|Trait": {
+      "cooldownText": "Recarga: 20 segundos",
+      "fullText": "Arremessa uma pilha de lixo no campo de batalha, causando <c val=\"#TooltipNumbers\">102</c><c val=\"#ColorGray\">~~0.04~~</c> de dano em área, repelindo inimigos e obstruindo a passagem por até <c val=\"#TooltipNumbers\">5</c> s.<n/><n/>Quando a Pilha de Saque expira ou é destruída, um naco de Carne cai no chão, que pode ser coletado para restaurar <c val=\"#TooltipNumbers\">3%</c> do máximo de Vida a cada segundo por <c val=\"#TooltipNumbers\">4</c> s.<n/><n/>Reative para destruir a Pilha de Saque.",
+      "name": "Pilha de Saque",
+      "shortText": "Cria obstáculo e restaura Vida"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Recarga: 4 segundos",
+      "fullText": "Depois de canalizar por <c val=\"#TooltipNumbers\">1</c> s, ganha <s val=\"StandardTooltipDetails\">30%</s> de Velocidade de Movimento.",
+      "name": "Evocar Montaria"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Depois de canalizar por <c val=\"#TooltipNumbers\">6</c> s, teleporta você de volta para o Salão das Tempestades, restaurando instantaneamente <c val=\"#TooltipNumbers\">1125</c> de Vida e <c val=\"#TooltipNumbers\">150</c> de Mana.",
+      "name": "Pedra de Regresso"
+    },
+    "HoggerCancelHoggWild|HoggerCancelHoggWild|E": {
+      "fullText": "Para de rodopiar.",
+      "name": "Cancelar Selvageria Animal "
+    },
+    "HoggerCancelHoardapult|HoggerDestroyHoardapult|Heroic": {
+      "fullText": "Destrói a Pilha do Saque Viagem.",
+      "name": "Destruir Saque Viagem",
+      "shortText": "Destrói a Pilha do Saque Viagem"
+    },
+    "HoggerCancelLootHoard|HoggerDestroyLootHoard|Trait": {
+      "fullText": "Destrói a Pilha de Saque.",
+      "name": "Destruir Pilha de Saque",
+      "shortText": "Destruir Pilha de Saque"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Desmonta você.",
+      "name": "Dispensar Montaria"
+    },
+    "HoggerOnTheProwl|HoggerOnTheProwl|Active": {
+      "cooldownText": "Recarga: 45 segundos",
+      "fullText": "Ative para ganhar <c val=\"#TooltipNumbers\">25</c> de Raiva ao longo de <c val=\"#TooltipNumbers\">8</c> s.<n/><n/><c val=\"#AbilityPassive\">Passivo:</c> Recupera <c val=\"#TooltipNumbers\">7</c><c val=\"#ColorGray\">~~0.04~~</c> de Vida a cada segundo, aumentado em <c val=\"#TooltipNumbers\">2%</c> para cada ponto de Raiva. ",
+      "name": "À Espreita",
+      "shortText": "Cura periódica; ative para ganhar Raiva"
+    },
+    "HoggerNoControl|HoggerNoControl|Active": {
+      "cooldownText": "Recarga: 60 segundos",
+      "fullText": "Ative para usar uma Selvageria Animal sem talento e perseguir um Herói inimigo. Ao alcançar o alvo, ricocheteia na direção de um Herói inimigo próximo aleatório. Dura até <c val=\"#TooltipNumbers\">5</c> s, mas decai rapidamente se não houver outros Heróis inimigos por perto.<n/><n/>Não pode ser cancelada.",
+      "name": "Descontrole",
+      "shortText": "Persegue inimigos com Selvageria Animal"
+    }
+  },
+  "talents": {
+    "HoggerJourneymanCooking|HoggerJourneymanCooking|W|Level1": {
+      "fullText": "Cada Herói atingido pela Dinamite Taca-fácil restaura <c val=\"#TooltipNumbers\">8%</c> do máximo de Vida.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Missão:</c> Acertar Heróis com a Dinamite Taca-fácil aumenta permanentemente o máximo de Vida em <c val=\"#TooltipNumbers\">10</c>, até um máximo de <c val=\"#TooltipNumbers\">750</c>.",
+      "name": "Cozinheiro Profissional",
+      "shortText": "<c val=\"#TooltipQuest\">Missão:</c> Dinamite Taca-fácil cura; aumenta Vida"
+    },
+    "HoggerBonestoGnaw|HoggerBonestoGnaw|Trait|Level1": {
+      "fullText": "Pilha de Saque cria um naco de Carne com o impacto. Enquanto estiver sob efeito da Carne, ganha <c val=\"#TooltipNumbers\">10</c> de Armadura.",
+      "name": "Ossos pra Roer",
+      "shortText": "Pilha de Saque cria mais Carne; ganha Armadura"
+    },
+    "HoggerOnTheProwl|HoggerOnTheProwl|Active|Level1": {
+      "cooldownText": "Recarga: 45 segundos",
+      "fullText": "Ative para ganhar <c val=\"#TooltipNumbers\">25</c> de Raiva ao longo de <c val=\"#TooltipNumbers\">8</c> s.<n/><n/><c val=\"#AbilityPassive\">Passivo:</c> Recupera <c val=\"#TooltipNumbers\">7</c><c val=\"#ColorGray\">~~0.04~~</c> de Vida a cada segundo, aumentado em <c val=\"#TooltipNumbers\">2%</c> para cada ponto de Raiva. ",
+      "name": "À Espreita",
+      "shortText": "Cura periódica; ative para ganhar Raiva"
+    },
+    "HoggerBruteForce|HoggerBruteForce|Q|Level4": {
+      "fullText": "Aumenta o alcance da Pilha de Saque em <c val=\"#TooltipNumbers\">25%</c> e o dano dela em <c val=\"#TooltipNumbers\">50%</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Missão:</c> Acertar Heróis com Golpe Atordoante aumenta permanentemente o dano de Ataque Básico em <c val=\"#TooltipNumbers\">2</c>, até um máximo de <c val=\"#TooltipNumbers\">150</c> de dano extra. Heróis inimigos que colidirem com obstáculos recebem mais <c val=\"#TooltipNumbers\">6</c> de dano.",
+      "name": "Força Bruta",
+      "shortText": "Aumenta o dano e o alcance de Pilha de Saque.<n/><c val=\"#TooltipQuest\">Missão:</c> Atingir Heróis com Golpe Atordoante."
+    },
+    "HoggerAggroRange|HoggerAggroRange|E|Level4": {
+      "fullText": "Aumenta o raio da Selvageria Animal em <c val=\"#TooltipNumbers\">20%</c>. Cada inimigo atingido gera <c val=\"#TooltipNumbers\">0.5</c> de Raiva, ou <c val=\"#TooltipNumbers\">2</c> contra Heróis.",
+      "name": "Raio de Agressão",
+      "shortText": "Aumenta o raio da Selvageria Animal; gera Raiva"
+    },
+    "HoggerHoggersJoggers|HoggerHoggersJoggers|Passive|Level4": {
+      "fullText": "Enquanto tiver <c val=\"#TooltipNumbers\">35</c> ou mais de Raiva, aumenta em <c val=\"#TooltipNumbers\">10%</c> a Velocidade de Movimento e a cura recebida. <n/><n/>Com <c val=\"#TooltipNumbers\">50</c> ou mais de Raiva, o bônus aumenta para <c val=\"#TooltipNumbers\">15%</c>.",
+      "name": "Velocista Selvagem",
+      "shortText": "Raiva aumenta a Velocidade de Movimento e a cura recebida"
+    },
+    "HoggerDenseBlastingPowder|HoggerDenseBlastingPowder|W|Level7": {
+      "fullText": "Explosões instantâneas da Dinamite Taca-fácil lançam outra dinamite atrás do Herói atingido.<n/><n/>Acertar a bota de Dinamite Taca-fácil com o Golpe Atordoante faz com que ela se divida em três bananas de dinamite, que são jogadas à frente em arco.",
+      "name": "Pó Explosivo Denso",
+      "shortText": "Cria mais Dinamites Taca-fácil"
+    },
+    "HoggerGarbageFire|HoggerGarbageFire|Trait|Level7": {
+      "fullText": "Reduz a recarga da Pilha de Saque em <c val=\"#TooltipNumbers\">2</c> s. A cada <c val=\"#TooltipNumbers\">0.5</c> s, os inimigos em uma grande área ao redor da Pilha de Saque recebem <c val=\"#TooltipNumbers\">23</c><c val=\"#ColorGray\">~~0.04~~</c> de dano e ficam desacelerados em <c val=\"#TooltipNumbers\">20%</c>.",
+      "name": "Fogo no Lixo",
+      "shortText": "Pilha de Saque causa dano em área; desacelera"
+    },
+    "HoggerSeeingRed|HoggerSeeingRed|Passive|Level7": {
+      "fullText": "Enquanto tiver mais que <c val=\"#TooltipNumbers\">50</c> de Raiva, aumenta em <c val=\"#TooltipNumbers\">35%</c> a Velocidade de Ataque e em <c val=\"#TooltipNumbers\">30%</c> a velocidade de recarga do Golpe Atordoante e da Selvageria Animal.",
+      "name": "Sangue No'zoi",
+      "shortText": "Raiva potencializa Habilidades Básicas e Ataques Básicos"
+    },
+    "HoggerHoardapult|HoggerHoardapult|Heroic|Level10": {
+      "cooldownText": "Recarga: 60 segundos",
+      "fullText": "Hogger se arremessa junto com uma Pilha de Saque potencializada, causando <c val=\"#TooltipNumbers\">100</c><c val=\"#ColorGray\">~~0.04~~</c> de dano e desacelerando em <c val=\"#TooltipNumbers\">50%</c> os inimigos por <c val=\"#TooltipNumbers\">2</c> s.<n/><n/>Essa Pilha de Saque dura até <c val=\"#TooltipNumbers\">20</c> s, mas decai rapidamente se Hogger não ficar perto dela. A cada <c val=\"#TooltipNumbers\">10</c> s, Hogger pode coletar um naco de Carne que cai da Pilha de Saque.",
+      "name": "Saque Viagem",
+      "shortText": "Arremessa Hogger com a Pilha de Saque"
+    },
+    "HoggerShockwave|HoggerShockwave|Heroic|Level10": {
+      "cooldownText": "Recarga: 70 segundos",
+      "fullText": "Golpeia o chão após <c val=\"#TooltipNumbers\">0.5</c> s, emitindo uma onda de choque que avança em linha reta. Os inimigos atingidos pelo impacto inicial recebem <c val=\"#TooltipNumbers\">335</c><c val=\"#ColorGray\">~~0.04~~</c> de dano e ficam atordoados por <c val=\"#TooltipNumbers\">1.5</c> s. Os inimigos atingidos pela onda de choque recebem <c val=\"#TooltipNumbers\">230</c><c val=\"#ColorGray\">~~0.04~~</c> de dano e ficam atordoados por <c val=\"#TooltipNumbers\">0.75</c> s.",
+      "name": "Onda de Choque",
+      "shortText": "Causa dano e atordoa em linha reta"
+    },
+    "HoggerDustDevil|HoggerDustDevil|E|Level13": {
+      "fullText": "Recebe <c val=\"#TooltipNumbers\">25</c> de Armadura enquanto Selvageria Animal estiver ativa e por <c val=\"#TooltipNumbers\">4</c> s depois que acabar. Com <c val=\"#TooltipNumbers\">50</c> ou mais de Raiva, o bônus sobe para <c val=\"#TooltipNumbers\">40</c> de Armadura.",
+      "name": "Redemoinho de Poeira",
+      "shortText": "Selvageria Animal concede Armadura"
+    },
+    "HoggerPummel|HoggerPummel|E|Level13": {
+      "fullText": "Inimigos atingidos pela Selvageria Animal ficam desacelerados em <c val=\"#TooltipNumbers\">10%</c> por <c val=\"#TooltipNumbers\">2</c> s, acumulando até <c val=\"#TooltipNumbers\">5</c> vezes. <n/><n/>Heróis atingidos também perdem <c val=\"#TooltipNumbers\">30%</c> de Poder Mágico por <c val=\"#TooltipNumbers\">2</c> s.",
+      "name": "Murro",
+      "shortText": "Selvageria Animal desacelera; reduz Poder Mágico"
+    },
+    "HoggerBloodthirst|HoggerBloodthirst|Passive|Level13": {
+      "fullText": "Causar dano a Heróis inimigos com Ataques Básicos, Golpe Atordoante ou Selvageria Animal concede cura equivalente a <c val=\"#TooltipNumbers\">33%</c> do dano causado.",
+      "name": "Sede de Sangue",
+      "shortText": "Ataques Básicos e certas habilidades curam"
+    },
+    "HoggerHeadbanger|HoggerHeadbanger|Q|Level16": {
+      "fullText": "Heróis inimigos atordoados pelo Golpe Atordoante recebem dano equivalente a <c val=\"#TooltipNumbers\">8%</c> do máximo de Vida e ficam atordoados por mais <c val=\"#TooltipNumbers\">0.5</c> s.",
+      "name": "Bate-cabeça",
+      "shortText": "Aumenta dano do Golpe Atordoante; atordoa"
+    },
+    "HoggerKablooie|HoggerKablooie|W|Level16": {
+      "fullText": "Explosões instantâneas da Dinamite Taca-fácil causam <c val=\"#TooltipNumbers\">50%</c> a mais de dano, reduzem a recarga em <c val=\"#TooltipNumbers\">1.5</c> s e aumentam a desaceleração para <c val=\"#TooltipNumbers\">50%</c>. <n/><n/><c val=\"#AbilityPassive\">Passivo:</c> Aumenta o alcance da Dinamite Taca-fácil em <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Kablooie!",
+      "shortText": "Potencializa explosão instantânea da Dinamite Taca-fácil"
+    },
+    "HoggerFurzerker|HoggerFurzerker|Passive|Level16": {
+      "fullText": "Acertar Heróis com Golpe Atordoante ou Dinamite Taca-fácil aumenta o dano do próximo Ataque Básico dentro de <c val=\"#TooltipNumbers\">8</c> s em <c val=\"#TooltipNumbers\">50%</c>. Acumula até <c val=\"#TooltipNumbers\">2</c> vezes.<n/><n/>Quando Selvageria Animal acaba, Hogger ganha <c val=\"#TooltipNumbers\">30%</c> de Velocidade de Movimento por <c val=\"#TooltipNumbers\">2</c> s.",
+      "name": "Peludo e Furioso",
+      "shortText": "Potencializa Ataques Básicos; aumenta Velocidade de Movimento"
+    },
+    "HoggerSecretStash|HoggerSecretStash|Heroic|Level20": {
+      "fullText": "A cada <c val=\"#TooltipNumbers\">2</c> s, a Pilha do Saque Viagem lança aleatoriamente Dinamite Taca-fácil, priorizando Heróis inimigos próximos.<n/><n/>A cada <c val=\"#TooltipNumbers\">5</c> s, ela também lança um naco de Carne na direção de Hogger.",
+      "name": "Tesouro Escondido",
+      "shortText": "Pilha de Saque lança Dinamite e Carne"
+    },
+    "HoggerPowerSpike|HoggerPowerSpike|Heroic|Level20": {
+      "fullText": "Acertar Heróis com Onda de Choque reduz em <c val=\"#TooltipNumbers\">15</c> a Armadura deles por <c val=\"#TooltipNumbers\">4</c> s e concede <c val=\"#TooltipNumbers\">20</c> de Raiva.<n/><n/><c val=\"#AbilityPassive\">Passivo:</c> A redução de recarga da Raiva afeta a Onda de Choque.",
+      "name": "Pico de Poder",
+      "shortText": "Onda de Choque reduz Armadura; recarga reduzida"
+    },
+    "HoggerNoControl|HoggerNoControl|Active|Level20": {
+      "cooldownText": "Recarga: 60 segundos",
+      "fullText": "Ative para usar uma Selvageria Animal sem talento e perseguir um Herói inimigo. Ao alcançar o alvo, ricocheteia na direção de um Herói inimigo próximo aleatório. Dura até <c val=\"#TooltipNumbers\">5</c> s, mas decai rapidamente se não houver outros Heróis inimigos por perto.<n/><n/>Não pode ser cancelada.",
+      "name": "Descontrole",
+      "shortText": "Persegue inimigos com Selvageria Animal"
+    },
+    "HoggerAngerManagement|HoggerAngerManagement|Passive|Level20": {
+      "fullText": "Aumenta em <c val=\"#TooltipNumbers\">50</c> o máximo de Raiva, elevando a taxa máxima de recarga para <c val=\"#TooltipNumbers\">75%</c> e o dano da Selvageria Animal a Heróis para <c val=\"#TooltipNumbers\">75%</c>.<n/><n/><c val=\"#AbilityPassive\">Passivo:</c> Ataques Básicos concedem mais <c val=\"#TooltipNumbers\">5</c> de Raiva.",
+      "name": "Controle de Raiva",
+      "shortText": "Aumenta o alcance máximo e a geração de Raiva"
+    }
+  },
+  "units": {
+    "HoggerEzThroDynamite": {
+      "description": "Arremessa uma bota cheia de dinamite que explode após <c val=\"#TooltipNumbers\">1.5</c> s, causando <c val=\"#TooltipNumbers\">180</c><c val=\"#ColorGray\">~~0.04~~</c> de dano e desacelerando as vítimas em <c val=\"#TooltipNumbers\">30%</c> por <c val=\"#TooltipNumbers\">2</c> s. <n/><n/>A dinamite explode instantaneamente se atingir um Herói inimigo, concedendo <c val=\"#TooltipNumbers\">10</c> de Raiva.",
+      "name": "Dinamite Taca-fácil"
+    }
+  }
+}

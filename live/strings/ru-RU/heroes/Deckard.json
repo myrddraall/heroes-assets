@@ -1,0 +1,205 @@
+{
+  "abilities": {
+    "DeckardHealingPotion|DeckardHealingPotion|Q": {
+      "cooldownText": "Время восстановления: 4 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 25</s>",
+      "fullText": "Бросает на поле боя зелье, при подборе которого союзный герой восполняет <c val=\"#TooltipNumbers\">285</c><c val=\"#ColorGray\">~~0.04~~</c> ед. здоровья. <n/><n/>Одновременно на поле боя может быть не более <c val=\"#TooltipNumbers\">5</c> зелий.",
+      "name": "Зелье здоровья",
+      "shortText": "Бросает зелья, исцеляющие союзников."
+    },
+    "DeckardHoradricCube|DeckardHoradricCubeCharging|W": {
+      "cooldownText": "Время восстановления: 12 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 35</s>",
+      "fullText": "Бросает куб, который после паузы в <c val=\"#TooltipNumbers\">0.5</c> сек. взрывается и наносит противникам в области поражения <c val=\"#TooltipNumbers\">80</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона, а также замедляет их на <c val=\"#TooltipNumbers\">35%</c> на <c val=\"#TooltipNumbers\">2</c> сек.",
+      "name": "Хорадримский куб",
+      "shortText": "Замедляет противников в области поражения и наносит им урон."
+    },
+    "DeckardScrollOfSealing|DeckardScrollOfSealing|E": {
+      "cooldownText": "Время восстановления: 16 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 40</s>",
+      "fullText": "В течение <c val=\"#TooltipNumbers\">2.25</c> сек. чертит на поверхности поля боя треугольник. Наносит противникам в очерченной области <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона и обездвиживает их на <c val=\"#TooltipNumbers\">1.5</c> сек.",
+      "name": "Свиток запечатывания",
+      "shortText": "Наносит урон противникам в указанной области и обездвиживает их."
+    },
+    "DeckardStayAWhileAndListen|DeckardStayAWhileAndListen|Heroic": {
+      "cooldownText": "Время восстановления: 70 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 60</s>",
+      "fullText": "После паузы в <c val=\"#TooltipNumbers\">1</c> сек. Декард начинает рассказывать увлекательную историю в течение <c val=\"#TooltipNumbers\">3</c> сек. Во время поддержания этой способности и в течение <c val=\"#TooltipNumbers\">2</c> сек. после этого противники перед Декардом погружаются в сон.<n/><n/>Противники погружаются в сон только один раз за время действия этой способности и мгновенно выходят из него при получении урона.",
+      "name": "Постойте и послушайте",
+      "shortText": "Рассказывает увлекательные истории, погружая противников в сон."
+    },
+    "DeckardLorenado|DeckardLorenado|Heroic": {
+      "cooldownText": "Время восстановления: <c val=\"#TooltipNumbers\">30 сек.</c>",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 35</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">Векторное действие</c><n/>После паузы в <c val=\"#TooltipNumbers\">1</c> сек. создает вихрь из книг, который движется в указанном направлении, отбрасывая противников. Вихрь наносит <c val=\"#TooltipNumbers\">20</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона пораженным героям.",
+      "name": "Книжный вихрь",
+      "shortText": "Создает вихрь из книг, отбрасывающий противников."
+    },
+    ":PASSIVE:|DeckardFortitudeOfTheFaithful|Trait": {
+      "fullText": "Пока рядом находится хотя бы <c val=\"#TooltipNumbers\">1</c> союзный герой, Декард получает <c val=\"#TooltipNumbers\">10</c> ед. брони, а его базовые способности восстанавливаются на <c val=\"#TooltipNumbers\">50%</c> быстрее.",
+      "name": "Стойкость духа",
+      "shortText": "Рядом с союзниками Декард получает броню и быстрее восстанавливает способности."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Время восстановления: 4 сек.",
+      "fullText": "После подготовки длительностью <c val=\"#TooltipNumbers\">1</c> сек. повышает скорость передвижения на <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Вызов транспорта"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "После поддержания в течение <c val=\"#TooltipNumbers\">6</c> сек. телепортирует героя в Зал Штормов, моментально восполняя <c val=\"#TooltipNumbers\">1125</c> ед. здоровья и <c val=\"#TooltipNumbers\">150</c> ед. маны.",
+      "name": "Возвращение"
+    },
+    "DeckardStayAWhileAndListenCancel|DeckardStayAWhileAndListenCancel|Heroic": {
+      "fullText": "Прерывает поддержание «Постойте и послушайте».",
+      "name": "Отменить «Постойте и послушайте»"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Покинуть транспорт.",
+      "name": "Отмена транспорта"
+    },
+    "DeckardGemSapphire|DeckardGemSapphire|Active": {
+      "cooldownText": "Время восстановления: 30 сек.",
+      "fullText": "При использовании увеличивает урон от следующего «Хорадримского куба» на <c val=\"#TooltipNumbers\">100%</c> и усиливает замедление от него на <c val=\"#TooltipNumbers\">30%</c>.<n/><n/>Одновременно можно использовать только <c val=\"#TooltipNumbers\">1</c> самоцвет.",
+      "name": "Сапфир",
+      "shortText": "Усиливает эффект замедления от следующего «Хорадримского куба»."
+    },
+    "DeckardGemRuby|DeckardGemRuby|Active": {
+      "cooldownText": "Время восстановления: 20 сек.",
+      "fullText": "При использовании увеличивает урон от следующего «Хорадримского куба» на <c val=\"#TooltipNumbers\">100%</c> и позволяет ему создать <c val=\"#TooltipNumbers\">3</c> малых зелья здоровья за каждого пораженного героя. Зелья существуют в течение <c val=\"#TooltipNumbers\">10</c> сек. и при подборе восполняют союзным героям <c val=\"#TooltipNumbers\">250</c><c val=\"#ColorGray\">~~0.04~~</c> ед. здоровья.<n/><n/>Одновременно можно использовать только <c val=\"#TooltipNumbers\">1</c> самоцвет.",
+      "name": "Рубин",
+      "shortText": "Следующий «Хорадримский куб» создает малые зелья здоровья."
+    },
+    "DeckardGemEmerald|DeckardGemEmerald|Active": {
+      "cooldownText": "Время восстановления: 30 сек.",
+      "fullText": "При использовании увеличивает урон от следующего «Хорадримского куба» на <c val=\"#TooltipNumbers\">100%</c> и ослабляет исцеление, получаемое пораженными им героями, на <c val=\"#TooltipNumbers\">75%</c> на <c val=\"#TooltipNumbers\">4</c> сек.<n/><n/>Одновременно можно использовать только <c val=\"#TooltipNumbers\">1</c> самоцвет.",
+      "name": "Изумруд",
+      "shortText": "Следующий «Хорадримский куб» ослабляет получаемое противниками исцеление."
+    },
+    "DeckardAncientBlessings|DeckardFortitudeOfTheFaithfulAncientBlessings|Trait": {
+      "cooldownText": "Время восстановления: 45 сек.",
+      "fullText": "Пока рядом находится хотя бы <c val=\"#TooltipNumbers\">1</c> союзный герой, Декард получает <c val=\"#TooltipNumbers\">10</c> ед. брони, а его базовые способности восстанавливаются на <c val=\"#TooltipNumbers\">50%</c> быстрее.",
+      "name": "Стойкость духа",
+      "shortText": "Рядом с союзниками Декард получает броню и быстрее восстанавливает способности."
+    }
+  },
+  "talents": {
+    "DeckardScrollOfIdentify|DeckardScrollOfIdentify|E|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Задача:</c> поражайте героев «Свитком запечатывания», чтобы увеличить его урон до конца матча на <c val=\"#TooltipNumbers\">2</c> ед.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Награда:</c> после того, как «Свиток запечатывания» поразит героев <c val=\"#TooltipNumbers\">15</c> <lang rule=\"plural\" val=\"\">раз,раза,раз</lang>, он также начнет обнаруживать героев и ослаблять их броню на <c val=\"#TooltipNumbers\">10</c> ед. на <c val=\"#TooltipNumbers\">4</c> сек.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Награда:</c> после того, как героев удастся поразить <c val=\"#TooltipNumbers\">30</c> <lang rule=\"plural\" val=\"\">раз,раза,раз</lang>, талант начнет уменьшаить показатель брони на <c val=\"#TooltipNumbers\">15</c> ед., а эффект обнаружения будет действовать <c val=\"#TooltipNumbers\">6</c> сек.",
+      "name": "Свиток распознавания",
+      "shortText": "<c val=\"#TooltipQuest\">Задача:</c> увеличьте урон от «Свитка запечатывания». «Свиток запечатывания» ослабляет броню."
+    },
+    "DeckardFieldStudy|DeckardFieldStudy|E|Level1": {
+      "fullText": "Увеличивает силу способностей на <c val=\"#TooltipNumbers\">20%</c> на <c val=\"#TooltipNumbers\">16</c> сек. (вплоть до <c val=\"#TooltipNumbers\">40%</c>) за каждого пораженного «Свитком запечатывания» героя.",
+      "name": "Полевые исследования",
+      "shortText": "«Свиток запечатывания» может увеличить силу способностей."
+    },
+    "DeckardGemSapphire|DeckardGemSapphire|Active|Level1": {
+      "cooldownText": "Время восстановления: 30 сек.",
+      "fullText": "При использовании увеличивает урон от следующего «Хорадримского куба» на <c val=\"#TooltipNumbers\">100%</c> и усиливает замедление от него на <c val=\"#TooltipNumbers\">30%</c>.<n/><n/>Одновременно можно использовать только <c val=\"#TooltipNumbers\">1</c> самоцвет.",
+      "name": "Сапфир",
+      "shortText": "Усиливает эффект замедления от следующего «Хорадримского куба»."
+    },
+    "DeckardPotionOfShielding|DeckardPotionOfShielding|Q|Level4": {
+      "fullText": "Когда «Зелье здоровья» исцеляет союзника, он получает щит прочностью <c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c> ед. на <c val=\"#TooltipNumbers\">6</c> сек.",
+      "name": "Зелье защиты",
+      "shortText": "«Зелье здоровья» дает щит."
+    },
+    "DeckardRejuvenationPotion|DeckardRejuvenationPotion|Q|Level4": {
+      "fullText": "«Зелье здоровья» восстанавливает <c val=\"#TooltipNumbers\">15</c> ед. маны и дополнительно восполняет <c val=\"#TooltipNumbers\">114</c><c val=\"#ColorGray\">~~0.04~~</c> ед. здоровья в течение <c val=\"#TooltipNumbers\">3</c> сек.",
+      "name": "Зелье восстановления",
+      "shortText": "«Зелья здоровья» восстанавливают ману и восполняют больше здоровья."
+    },
+    "DeckardGemRuby|DeckardGemRuby|Active|Level4": {
+      "cooldownText": "Время восстановления: 20 сек.",
+      "fullText": "При использовании увеличивает урон от следующего «Хорадримского куба» на <c val=\"#TooltipNumbers\">100%</c> и позволяет ему создать <c val=\"#TooltipNumbers\">3</c> малых зелья здоровья за каждого пораженного героя. Зелья существуют в течение <c val=\"#TooltipNumbers\">10</c> сек. и при подборе восполняют союзным героям <c val=\"#TooltipNumbers\">250</c><c val=\"#ColorGray\">~~0.04~~</c> ед. здоровья.<n/><n/>Одновременно можно использовать только <c val=\"#TooltipNumbers\">1</c> самоцвет.",
+      "name": "Рубин",
+      "shortText": "Следующий «Хорадримский куб» создает малые зелья здоровья."
+    },
+    "DeckardCubeMastery|DeckardCubeMastery|W|Level7": {
+      "fullText": "Снижает стоимость «Свитка запечатывания» с <c val=\"#TooltipNumbers\">40</c> до <c val=\"#TooltipNumbers\">25</c> ед. маны. Сокращает время восстановления «Свитка запечатывания» на <c val=\"#TooltipNumbers\">4</c> сек. за каждого пораженного «Хорадримским кубом» героя.",
+      "name": "Хорадримское мастерство",
+      "shortText": "Попадания «Хорадримским кубом» ускоряют восстановление «Свитка запечатывания»."
+    },
+    "DeckardKanaisCube|DeckardKanaisCube|W|Level7": {
+      "fullText": "«Хорадримский куб» уменьшает наносимый пораженными героями урон на <c val=\"#TooltipNumbers\">30%</c> на <c val=\"#TooltipNumbers\">4</c> сек.",
+      "name": "Куб Канаи",
+      "shortText": "«Хорадримский куб» уменьшает наносимый героями урон."
+    },
+    "DeckardGemEmerald|DeckardGemEmerald|Active|Level7": {
+      "cooldownText": "Время восстановления: 30 сек.",
+      "fullText": "При использовании увеличивает урон от следующего «Хорадримского куба» на <c val=\"#TooltipNumbers\">100%</c> и ослабляет исцеление, получаемое пораженными им героями, на <c val=\"#TooltipNumbers\">75%</c> на <c val=\"#TooltipNumbers\">4</c> сек.<n/><n/>Одновременно можно использовать только <c val=\"#TooltipNumbers\">1</c> самоцвет.",
+      "name": "Изумруд",
+      "shortText": "Следующий «Хорадримский куб» ослабляет получаемое противниками исцеление."
+    },
+    "DeckardStayAWhileAndListen|DeckardStayAWhileAndListen|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 70 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 60</s>",
+      "fullText": "После паузы в <c val=\"#TooltipNumbers\">1</c> сек. Декард начинает рассказывать увлекательную историю в течение <c val=\"#TooltipNumbers\">3</c> сек. Во время поддержания этой способности и в течение <c val=\"#TooltipNumbers\">2</c> сек. после этого противники перед Декардом погружаются в сон.<n/><n/>Противники погружаются в сон только один раз за время действия этой способности и мгновенно выходят из него при получении урона.",
+      "name": "Постойте и послушайте",
+      "shortText": "Рассказывает увлекательные истории, погружая противников в сон."
+    },
+    "DeckardLorenado|DeckardLorenado|Heroic|Level10": {
+      "cooldownText": "Время восстановления: <c val=\"#TooltipNumbers\">30 сек.</c>",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 35</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">Векторное действие</c><n/>После паузы в <c val=\"#TooltipNumbers\">1</c> сек. создает вихрь из книг, который движется в указанном направлении, отбрасывая противников. Вихрь наносит <c val=\"#TooltipNumbers\">20</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона пораженным героям.",
+      "name": "Книжный вихрь",
+      "shortText": "Создает вихрь из книг, отбрасывающий противников."
+    },
+    "DeckardSuperHealingPotion|DeckardSuperHealingPotion|Q|Level13": {
+      "fullText": "Если «Зелье здоровья» просуществовало не менее <c val=\"#TooltipNumbers\">2</c> сек., оно восполняет на <c val=\"#TooltipNumbers\">100%</c> больше здоровья.<n/><n/><c val=\"#AbilityPassive\">Пассивный эффект: </c>«Зелье здоровья» исцеляет на <c val=\"#TooltipNumbers\">25%</c> эффективнее, если у цели менее <c val=\"#TooltipNumbers\">50%</c> здоровья.",
+      "name": "Большое зелье здоровья",
+      "shortText": "«Зелье здоровья» спустя некоторое время восполняет больше здоровья."
+    },
+    "DeckardPotionOfRevival|DeckardPotionOfRevival|Q|Level13": {
+      "fullText": "При подборе «Зелье здоровья» также исцеляет других находящихся рядом союзных героев, восполняя им здоровье в размере <c val=\"#TooltipNumbers\">75%</c> базового объема исцеления.",
+      "name": "Зелье возрождения",
+      "shortText": "«Зелье здоровья» действует по области."
+    },
+    "DeckardAncientBlessings|DeckardAncientBlessings|Trait|Level13": {
+      "cooldownText": "Время восстановления: 45 сек.",
+      "fullText": "При использовании «Стойкости духа» Декард усиливает находящихся рядом союзных героев. Их автоатаки начинают дополнительно наносить <c val=\"#TooltipNumbers\">62</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона по области и восполняют <c val=\"#TooltipNumbers\">90</c><c val=\"#ColorGray\">~~0.04~~</c> ед. здоровья за каждого пораженного героя. Время действия – <c val=\"#TooltipNumbers\">8</c> сек. Этот эффект срабатывает не чаще раза в секунду.",
+      "name": "Древнее благословение",
+      "shortText": "«Стойкость духа» можно использовать, чтобы усилить автоатаки союзников."
+    },
+    "DeckardScrollOfStoneCurse|DeckardScrollOfStoneCurse|E|Level16": {
+      "fullText": "«Свиток запечатывания» наносит на <c val=\"#TooltipNumbers\">200%</c> больше урона, если поражает не менее <c val=\"#TooltipNumbers\">2</c> героев.",
+      "name": "Свиток окаменения",
+      "shortText": "«Свиток запечатывания» может нанести дополнительный урон."
+    },
+    "DeckardSafetyInNumbers|DeckardSafetyInNumbers|Trait|Level16": {
+      "fullText": "Когда рядом с Декардом находится <c val=\"#TooltipNumbers\">2</c> союзных героя или более, «Стойкость духа» дает еще <c val=\"#TooltipNumbers\">10</c> ед. брони, повышает скорость восполнения маны еще на <c val=\"#TooltipNumbers\">50%</c> и ускоряет восстановление базовых способностей Декарда еще на <c val=\"#TooltipNumbers\">50%</c>.",
+      "name": "Спасение в единстве",
+      "shortText": "Союзники усиливают «Стойкость духа»."
+    },
+    "DeckardHoradricStaff|DeckardHoradricStaff|Passive|Level16": {
+      "fullText": "Раз в <c val=\"#TooltipNumbers\">5</c> сек. автоатака Декарда оглушает героя на <c val=\"#TooltipNumbers\">0.75</c> сек.",
+      "name": "Хорадримский посох",
+      "shortText": "Автоатаки периодически оглушают героев."
+    },
+    "DeckardRespectTheElderly|DeckardRespectTheElderly|Heroic|Level20": {
+      "fullText": "«Постойте и послушайте» на <c val=\"#TooltipNumbers\">3</c> сек. ослепляет и поражает эффектом немоты проснувшихся противников.",
+      "name": "Уважение к старшим",
+      "shortText": "«Постойте и послушайте» ослепляет противников и поражает их эффектом немоты."
+    },
+    "DeckardMorenados|DeckardMorenados|Heroic|Level20": {
+      "fullText": "Когда «Книжный вихрь» отбрасывает героя, он получает еще один заряд, а время восстановления сокращается на <c val=\"#TooltipNumbers\">10</c> сек. Срабатывает не чаще раза в <c val=\"#TooltipNumbers\">0.5</c> сек.",
+      "name": "Книжный ураган",
+      "shortText": "Дает еще один заряд «Книжного вихря» и ускоряет его восстановление."
+    },
+    "DeckardBottomlessFlask|DeckardBottomlessFlask|Q|Level20": {
+      "fullText": "«Зелье здоровья» появляется в том же месте спустя <c val=\"#TooltipNumbers\">8</c> сек. после подбора.",
+      "name": "Бездонная фляжка",
+      "shortText": "После подбора «Зелье здоровья» появляется в том же месте."
+    },
+    "DeckardPerfectGems|DeckardPerfectGems|W|Level20": {
+      "fullText": "Уменьшает время восстановления самоцветов до <c val=\"#TooltipNumbers\">5</c> сек., а «Хорадримского куба» – на <c val=\"#TooltipNumbers\">6</c> сек.",
+      "name": "Идеальные самоцветы",
+      "shortText": "Ускоряет восстановление самоцветов и «Хорадримского куба»."
+    }
+  },
+  "units": {
+    "DeckardLorenado": {
+      "description": "<c val=\"#TooltipNumbers\">Векторное действие</c><n/>После паузы в <c val=\"#TooltipNumbers\">1</c> сек. создает вихрь из книг, который движется в указанном направлении, отбрасывая противников. Вихрь наносит <c val=\"#TooltipNumbers\">20</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона пораженным героям."
+    }
+  }
+}

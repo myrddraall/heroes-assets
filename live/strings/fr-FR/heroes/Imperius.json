@@ -1,0 +1,195 @@
+{
+  "abilities": {
+    "ImperiusCelestialCharge|ImperiusCelestialCharge|Q": {
+      "cooldownText": "Temps de recharge : 10 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 40</s>",
+      "fullText": "Fonce dans la direction ciblée et porte un coup de lance qui inflige <c val=\"#TooltipNumbers\">35</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts. Si un héros adverse est touché, canalise pour l’étourdir pendant <c val=\"#TooltipNumbers\">1</c> seconde et lui infliger <c val=\"#TooltipNumbers\">80</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts supplémentaires au terme de la canalisation.",
+      "name": "Charge céleste",
+      "shortText": "Charge vers l’avant et étourdit les ennemis."
+    },
+    "ImperiusSolarionsFire|ImperiusSolarionsFire|W": {
+      "cooldownText": "Temps de recharge : 8 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 50</s>",
+      "fullText": "Déchaîne une vague de flammes qui inflige <c val=\"#TooltipNumbers\">110</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts. Les ennemis touchés par la zone centrale subissent <c val=\"#TooltipNumbers\">50%</c> de dégâts supplémentaires et sont ralentis de <c val=\"#TooltipNumbers\">40%</c> pendant <c val=\"#TooltipNumbers\">3</c> secondes.",
+      "name": "Flamme de Solarion",
+      "shortText": "Inflige des dégâts et ralentit les ennemis sur une ligne."
+    },
+    "ImperiusMoltenArmor|ImperiusMoltenArmor|E": {
+      "cooldownText": "Temps de recharge : 12 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 75</s>",
+      "fullText": "Enveloppe Impérius de flammes pendant <c val=\"#TooltipNumbers\">3</c> secondes. Les flammes infligent <c val=\"#TooltipNumbers\">19</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts toutes les <c val=\"#TooltipNumbers\">0.25</c> secondes à un ennemi proche. Impérius récupère un montant de points de vie équivalent à <c val=\"#TooltipNumbers\">50 %</c> des dégâts infligés, ce montant étant porté à <c val=\"#TooltipNumbers\">100 %</c> contre les héros. Touche <c val=\"#TooltipNumbers\">2</c> cibles supplémentaires si aucun héros n’est à portée et rend <c val=\"#TooltipNumbers\">1</c> points de mana pour chaque frappe à l’expiration.",
+      "name": "Radiance",
+      "shortText": "Brûles les ennemis proches."
+    },
+    "ImperiusAngelicArmaments|ImperiusAngelicArmaments|Heroic": {
+      "cooldownText": "Temps de recharge : 70 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 70</s>",
+      "fullText": "Invoque un cercle d’épées de feu qui confère <c val=\"#TooltipNumbers\">850</c><c val=\"#ColorGray\">~~0.04~~</c> points de bouclier pendant <c val=\"#TooltipNumbers\">3</c> secondes.<n/><n/>Si le bouclier résiste jusqu’à son expiration, la capacité peut être réactivée dans les <c val=\"#TooltipNumbers\">5</c> secondes pour lancer <c val=\"#TooltipNumbers\">6</c> épées dans une zone, chacune infligeant <c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts au premier ennemi qu’elle rencontre.",
+      "name": "Arsenal angélique",
+      "shortText": "Confère un bouclier de grande capacité. Réactiver inflige des dégâts."
+    },
+    "ImperiusWrathOfTheAngiris|ImperiusWrathOfTheAngiris|Heroic": {
+      "cooldownText": "Temps de recharge : 80 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 80</s>",
+      "fullText": "Après <c val=\"#TooltipNumbers\">0.75</c> secondes, charge dans la direction ciblée et emporte le premier héros adverse touché dans les Cieux. Impérius peut choisir l’endroit où il retombe en déplaçant la souris.<n/><n/>Après <c val=\"#TooltipNumbers\">2</c> secondes, il s’abat sur le sol en fracassant sa cible, ce qui lui inflige <c val=\"#TooltipNumbers\">250</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts, augmentés de <c val=\"#TooltipNumbers\">20 %</c> par Fer de vaillance présent sur la cible à l’impact, et l’étourdit pendant <c val=\"#TooltipNumbers\">1</c> seconde.",
+      "name": "Fureur des Angiris",
+      "shortText": "Emporte un ennemi dans les Cieux."
+    },
+    ":PASSIVE:|ImperiusValorousBrand|Trait": {
+      "fullText": "Chaque capacité de base marque le héros adverse touché pour <c val=\"#TooltipNumbers\">10</c> secondes. Les attaques de base consomment les marques présentes sur la cible, permettant de lui infliger <c val=\"#TooltipNumbers\">20%</c> de dégâts supplémentaires par marque consommée en plus de rendre <c val=\"#TooltipNumbers\">75</c><c val=\"#ColorGray\">~~0.04~~</c> points de vie à Impérius par marque consommée.",
+      "name": "Fer de vaillance",
+      "shortText": "Les capacités de base marquent les héros adverses, ce qui augmente les dégâts que leur infligent les attaques de base ainsi que les points de vie qu’elles rendent à Impérius."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Temps de recharge : 4 secondes",
+      "fullText": "Après <c val=\"#TooltipNumbers\">1</c> seconde de canalisation, augmente la vitesse de déplacement de <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Appeler une monture"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Après <c val=\"#TooltipNumbers\">6</c> secondes de canalisation, téléporte au hall des Tempêtes et rend instantanément <c val=\"#TooltipNumbers\">1125</c> points de vie et <c val=\"#TooltipNumbers\">150</c> points de mana.",
+      "name": "Pierre de foyer"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Permet de descendre de la monture.",
+      "name": "Renvoyer la monture"
+    },
+    "ImperiusHolyFervor|ImperiusHolyFervor|Active": {
+      "cooldownText": "Temps de recharge : 25 secondes",
+      "fullText": "À l’activation, met fin au temps de recharge des attaques de base d’Impérius et remplace les <c val=\"#TooltipNumbers\">4</c> prochaines attaques de base portées dans les <c val=\"#TooltipNumbers\">10</c> secondes par des attaques en arc de cercle qui infligent <c val=\"#TooltipNumbers\">30 %</c> de dégâts supplémentaires.",
+      "name": "Sainte ferveur",
+      "shortText": "Activer permet aux attaques de base de toucher plusieurs cibles."
+    },
+    "ImperiusValorousPursuit|ImperiusValorousPursuit|Active": {
+      "cooldownText": "Temps de recharge : 20 secondes",
+      "fullText": "Activer permet de téléporter Impérius auprès d’un ennemi marqué par Fer de vaillance et confère <c val=\"#TooltipNumbers\">25</c> points d’armure pendant <c val=\"#TooltipNumbers\">3</c> secondes.",
+      "name": "Traque des impies",
+      "shortText": "Téléporte Impérius auprès des ennemis marqués par Fer de vaillance."
+    },
+    "ImperiusImpervious|ImperiusImpervious|Active": {
+      "cooldownText": "Temps de recharge : 75 secondes",
+      "fullText": "Activer rend insensible aux effets de contrôle et confère <c val=\"#TooltipNumbers\">75</c> points d’armure anti-sort pendant <c val=\"#TooltipNumbers\">3</c> secondes. Toucher des héros avec la zone centrale de Flamme de Solarion réduit ce temps de recharge de <c val=\"#TooltipNumbers\">5</c> secondes.",
+      "name": "Inexorable",
+      "shortText": "Rend Insensible et confère de l’armure anti-sort à l’activation."
+    }
+  },
+  "talents": {
+    "ImperiusCelestialChargeImpalingLight|ImperiusCelestialChargeImpalingLight|Q|Level1": {
+      "fullText": "Charge céleste inflige <c val=\"#TooltipNumbers\">150 %</c> de dégâts supplémentaires aux héros, réduits de <c val=\"#TooltipNumbers\">25 %</c> pour chaque héros supplémentaire touché. Pour chaque Fer de vaillance sur la cible à la fin de l’étourdissement de Charge céleste, son temps de recharge est réduit de <c val=\"#TooltipNumbers\">1</c> seconde.<n/><n/><c val=\"#AbilityPassive\">Effet passif :</c> réduit le temps de recharge de Charge céleste de <c val=\"#TooltipNumbers\">1.5</c> secondes et réduit son coût en mana de <c val=\"#TooltipNumbers\">40</c> à <c val=\"#TooltipNumbers\">30</c>.",
+      "name": "Illumination",
+      "shortText": "Fer de vaillance renforce Charge céleste."
+    },
+    "ImperiusSolarionsFireConsumingFlame|ImperiusSolarionsFireConsumingFlame|W|Level1": {
+      "fullText": "Augmente les dégâts de la zone centrale de Flamme de Solarion de <c val=\"#TooltipNumbers\">125%</c> supplémentaires et son effet de ralentissement de <c val=\"#TooltipNumbers\">15%</c>. Le premier héros adverse touché par Flamme de Solarion rend <c val=\"#TooltipNumbers\">30</c> points de mana.",
+      "name": "Ardeur",
+      "shortText": "Augmente le ralentissement de Flamme de Solarion et les dégâts infligés par sa zone centrale."
+    },
+    "ImperiusValorousBrandBurnTheImpure|ImperiusValorousBrandBurnTheImpure|Trait|Level1": {
+      "fullText": "Consommer une marque de Fer de vaillance inflige un supplément de dégâts égal à <c val=\"#TooltipNumbers\">2.5%</c> du maximum de points de vie du héros.",
+      "name": "Au bûcher !",
+      "shortText": "Les marques de Fer de vaillance infligent des dégâts supplémentaires."
+    },
+    "ImperiusMoltenArmorSovereignArmor|ImperiusMoltenArmorSovereignArmor|E|Level4": {
+      "fullText": "Radiance confère <c val=\"#TooltipNumbers\">20</c> points d’armure pendant <c val=\"#TooltipNumbers\">1.5</c> secondes. Toucher un héros adverse avec Radiance prolonge la durée de cette armure de <c val=\"#TooltipNumbers\">0.5</c> secondes.",
+      "name": "Armure souveraine",
+      "shortText": "Radiance confère de l’armure."
+    },
+    "ImperiusValorousBrandBattleHunger|ImperiusValorousBrandBattleHunger|Trait|Level4": {
+      "fullText": "Augmente les points de vie rendus par Fer de vaillance de <c val=\"#TooltipNumbers\">80%</c>.",
+      "name": "Conflit salvateur",
+      "shortText": "Augmente les points de vie rendus par Fer de vaillance."
+    },
+    "ImperiusPressForward|ImperiusPressForward|Passive|Level4": {
+      "fullText": "Confère <c val=\"#TooltipNumbers\">10</c> points d’armure en étant soigné par un globe de régénération. Infliger des dégâts à un héros adverse fixe la durée d’un globe de régénération actif sur Impérius à <c val=\"#TooltipNumbers\">8</c> secondes (sauf si cette durée est déjà supérieure).",
+      "name": "Percée",
+      "shortText": "Infliger des dégâts aux héros réinitialise les globes de régénération."
+    },
+    "ImperiusCelestialChargeFlashOfAnger|ImperiusCelestialChargeFlashOfAnger|Q|Level7": {
+      "fullText": "Consommer une marque de Charge céleste inflige <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts à la cible et aux ennemis proches, et confère un bouclier de <c val=\"#TooltipNumbers\">250</c><c val=\"#ColorGray\">~~0.04~~</c> points pendant <c val=\"#TooltipNumbers\">4</c> secondes.",
+      "name": "Pointe de colère",
+      "shortText": "Les marques de Charge céleste infligent des dégâts de zone."
+    },
+    "ImperiusSolarionsFireBlazeOfGlory|ImperiusSolarionsFireBlazeOfGlory|W|Level7": {
+      "fullText": "Flamme de Solarion laisse une traînée incandescente en son centre, qui explose après <c val=\"#TooltipNumbers\">1.75</c> secondes et inflige <c val=\"#TooltipNumbers\">212</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts. Les marques de Fer de vaillance permettent d’infliger des dégâts supplémentaires.",
+      "name": "Rayon de gloire",
+      "shortText": "Flamme de Solarion crée une explosion à retardement."
+    },
+    "ImperiusHolyFervor|ImperiusHolyFervor|Active|Level7": {
+      "cooldownText": "Temps de recharge : 25 secondes",
+      "fullText": "À l’activation, met fin au temps de recharge des attaques de base d’Impérius et remplace les <c val=\"#TooltipNumbers\">4</c> prochaines attaques de base portées dans les <c val=\"#TooltipNumbers\">10</c> secondes par des attaques en arc de cercle qui infligent <c val=\"#TooltipNumbers\">30 %</c> de dégâts supplémentaires.",
+      "name": "Sainte ferveur",
+      "shortText": "Activer permet aux attaques de base de toucher plusieurs cibles."
+    },
+    "ImperiusAngelicArmaments|ImperiusAngelicArmaments|Heroic|Level10": {
+      "cooldownText": "Temps de recharge : 70 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 70</s>",
+      "fullText": "Invoque un cercle d’épées de feu qui confère <c val=\"#TooltipNumbers\">850</c><c val=\"#ColorGray\">~~0.04~~</c> points de bouclier pendant <c val=\"#TooltipNumbers\">3</c> secondes.<n/><n/>Si le bouclier résiste jusqu’à son expiration, la capacité peut être réactivée dans les <c val=\"#TooltipNumbers\">5</c> secondes pour lancer <c val=\"#TooltipNumbers\">6</c> épées dans une zone, chacune infligeant <c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts au premier ennemi qu’elle rencontre.",
+      "name": "Arsenal angélique",
+      "shortText": "Confère un bouclier de grande capacité. Réactiver inflige des dégâts."
+    },
+    "ImperiusWrathOfTheAngiris|ImperiusWrathOfTheAngiris|Heroic|Level10": {
+      "cooldownText": "Temps de recharge : 80 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 80</s>",
+      "fullText": "Après <c val=\"#TooltipNumbers\">0.75</c> secondes, charge dans la direction ciblée et emporte le premier héros adverse touché dans les Cieux. Impérius peut choisir l’endroit où il retombe en déplaçant la souris.<n/><n/>Après <c val=\"#TooltipNumbers\">2</c> secondes, il s’abat sur le sol en fracassant sa cible, ce qui lui inflige <c val=\"#TooltipNumbers\">250</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts, augmentés de <c val=\"#TooltipNumbers\">20 %</c> par Fer de vaillance présent sur la cible à l’impact, et l’étourdit pendant <c val=\"#TooltipNumbers\">1</c> seconde.",
+      "name": "Fureur des Angiris",
+      "shortText": "Emporte un ennemi dans les Cieux."
+    },
+    "ImperiusCelestialChargePatheticMortals|ImperiusCelestialChargePatheticMortals|Q|Level13": {
+      "fullText": "Étourdir des héros adverses avec Charge céleste réduit leur vitesse de déplacement de <c val=\"#TooltipNumbers\">25%</c> et les dégâts qu’ils infligent de <c val=\"#TooltipNumbers\">50%</c> pendant <c val=\"#TooltipNumbers\">4</c> secondes.",
+      "name": "Pitoyables mortels",
+      "shortText": "Charge céleste réduit la vitesse de déplacement des héros touchés et les dégâts qu’ils infligent."
+    },
+    "ImperiusMoltenArmorDivineRage|ImperiusMoltenArmorDivineRage|E|Level13": {
+      "fullText": "Consommer une marque de Fer de vaillance réduit le temps de recharge de Radiance de <c val=\"#TooltipNumbers\">1</c> seconde.",
+      "name": "Rage divine",
+      "shortText": "Fer de vaillance réduit le temps de recharge de Radiance."
+    },
+    "ImperiusMoltenArmorHeatOfBattle|ImperiusMoltenArmorHeatOfBattle|E|Level13": {
+      "fullText": "Augmente les points de vie rendus par Radiance en attaquant des héros adverses de <c val=\"#TooltipNumbers\">2%</c> par tranche de <c val=\"#TooltipNumbers\">1%</c> de points de vie manquant à Impérius.",
+      "name": "Adversité",
+      "shortText": "Radiance rend davantage de points de vie quand elle frappe les héros adverses."
+    },
+    "ImperiusCelestialChargeCelestialSwiftness|ImperiusCelestialSwiftness|Q|Level16": {
+      "fullText": "Augmente la vitesse de déplacement de <c val=\"#TooltipNumbers\">20 %</c> pendant <c val=\"#TooltipNumbers\">5</c> secondes après avoir lancé Charge céleste. Augmente la vitesse d’attaque de <c val=\"#TooltipNumbers\">40 %</c> pendant <c val=\"#TooltipNumbers\">5</c> secondes pour chaque héros étourdi par Charge céleste.",
+      "name": "Élan céleste",
+      "shortText": "Charge céleste augmente les vitesses d’attaque et de déplacement."
+    },
+    "ImperiusMoltenArmorMeltingTouch|ImperiusMoltenArmorMeltingTouch|E|Level16": {
+      "fullText": "Consommer une marque de Radiance réduit l’armure de la cible de <c val=\"#TooltipNumbers\">25</c> points pendant <c val=\"#TooltipNumbers\">4</c> secondes.",
+      "name": "Toucher fusionnel",
+      "shortText": "Les marques de Radiance réduisent l’armure de l’ennemi."
+    },
+    "ImperiusValorousPursuit|ImperiusValorousPursuit|Active|Level16": {
+      "cooldownText": "Temps de recharge : 20 secondes",
+      "fullText": "Activer permet de téléporter Impérius auprès d’un ennemi marqué par Fer de vaillance et confère <c val=\"#TooltipNumbers\">25</c> points d’armure pendant <c val=\"#TooltipNumbers\">3</c> secondes.",
+      "name": "Traque des impies",
+      "shortText": "Téléporte Impérius auprès des ennemis marqués par Fer de vaillance."
+    },
+    "ImperiusAngelicArmamentsHeavenlyHost|ImperiusAngelicArmamentsHeavenlyHost|Heroic|Level20": {
+      "fullText": "Les boucliers conférés par Arsenal angélique n’expirent plus et, lors de leur activation initiale, les héros alliés proches reçoivent un bouclier qui absorbe <c val=\"#TooltipNumbers\">600</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts.<n/><n/>Si un bouclier conféré à un héros allié persiste pendant <c val=\"#TooltipNumbers\">3</c> secondes, il projette <c val=\"#TooltipNumbers\">1</c> épées vers une cible ennemie proche, en ciblant en priorité les héros les plus proches, et inflige <c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c> dégâts.",
+      "name": "Armée des Cieux",
+      "shortText": "Les héros alliés obtiennent un bouclier offensif."
+    },
+    "ImperiusWrathOfTheAngirisUnrelentingDescent|ImperiusWrathOfTheAngirisUnrelentingDescent|Heroic|Level20": {
+      "fullText": "Descendre des Cieux rend à Impérius <c val=\"#TooltipNumbers\">30%</c> de son maximum de points de vie et de mana. Consommer une marque de Fer de vaillance réduit le temps de recharge de Fureur des Angiris de <c val=\"#TooltipNumbers\">10</c> secondes.",
+      "name": "Déchéance",
+      "shortText": "Fureur des Angiris rend des points de vie et son temps de recharge est réduit."
+    },
+    "ImperiusMoltenWrath|ImperiusMoltenWrath|E|Level20": {
+      "fullText": "Le rayon de Radiance augmente de <c val=\"#TooltipNumbers\">25 %</c>. Il frappe toujours <c val=\"#TooltipNumbers\">2</c> cibles supplémentaires, même si des héros se trouvent à portée.",
+      "name": "Courroux ardent",
+      "shortText": "Radiance touche toujours les cibles supplémentaires"
+    },
+    "ImperiusValorousBrandBrandOfSolarion|ImperiusValorousBrandBrandOfSolarion|Trait|Level20": {
+      "fullText": "Réduit la durée de Fer de vaillance à <c val=\"#TooltipNumbers\">5</c> secondes, mais les marques ne sont plus consommées quand la capacité est déclenchée.",
+      "name": "Brûlure de Solarion",
+      "shortText": "Fer de vailance n’est plus consommé."
+    },
+    "ImperiusImpervious|ImperiusImpervious|Active|Level20": {
+      "cooldownText": "Temps de recharge : 75 secondes",
+      "fullText": "Activer rend insensible aux effets de contrôle et confère <c val=\"#TooltipNumbers\">75</c> points d’armure anti-sort pendant <c val=\"#TooltipNumbers\">3</c> secondes. Toucher des héros avec la zone centrale de Flamme de Solarion réduit ce temps de recharge de <c val=\"#TooltipNumbers\">5</c> secondes.",
+      "name": "Inexorable",
+      "shortText": "Rend Insensible et confère de l’armure anti-sort à l’activation."
+    }
+  },
+  "units": {}
+}

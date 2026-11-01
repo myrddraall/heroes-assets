@@ -1,0 +1,227 @@
+{
+  "abilities": {
+    "VarianLionsFang|VarianLionsFang|Q": {
+      "cooldownText": "Cooldown: 8 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Create a shockwave that travels in a straight line, dealing <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c> damage and Slowing enemies by <c val=\"#TooltipNumbers\">35%</c> for <c val=\"#TooltipNumbers\">1.5</c> seconds. Each enemy hit heals Varian for <c val=\"#TooltipNumbers\">35</c><c val=\"#ColorGray\">~~0.04~~</c>, increased to <c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c> against Heroes.",
+      "name": "Lion's Fang",
+      "shortText": "Damage and Slow enemies in a line and heal Varian"
+    },
+    "VarianParry|VarianParry|W": {
+      "cooldownText": "Charge Cooldown: 10 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 30</s>",
+      "fullText": "Parry all incoming Basic Attacks for <c val=\"#TooltipNumbers\">1.25</c> seconds, reducing their damage by <c val=\"#TooltipNumbers\">100%</c>.<n/><n/>Stores up to <c val=\"#TooltipNumbers\">2</c> charges.",
+      "name": "Parry",
+      "shortText": "Block incoming Basic Attacks for a short duration"
+    },
+    "VarianCharge|VarianCharge|E": {
+      "cooldownText": "Cooldown: 12 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 45</s>",
+      "fullText": "Charge to the target enemy, dealing <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> damage and Slowing them by <c val=\"#TooltipNumbers\">75%</c> for <c val=\"#TooltipNumbers\">1</c> second.",
+      "name": "Charge",
+      "shortText": "Charge to an enemy and damage them"
+    },
+    "VarianTaunt|VarianTaunt|Heroic": {
+      "cooldownText": "Cooldown: 16 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 20</s>",
+      "fullText": "Silence a target Hero and force them to attack Varian for <c val=\"#TooltipNumbers\">1.25</c> seconds.<n/><n/><c val=\"#AbilityPassive\">Passive:</c> Maximum Health and Health Regeneration increased by <c val=\"#TooltipNumbers\">40%</c>.",
+      "name": "Taunt",
+      "shortText": "Gain Health<n/>Force a Hero to attack Varian"
+    },
+    "VarianColossusSmash|VarianColossusSmash|Heroic": {
+      "cooldownText": "Cooldown: 20 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 40</s>",
+      "fullText": "Smash a target enemy, dealing <c val=\"#TooltipNumbers\">185</c><c val=\"#ColorGray\">~~0.04~~</c> damage and lowering their Armor by <c val=\"#TooltipNumbers\">25</c> for <c val=\"#TooltipNumbers\">3</c> seconds, causing them to take <c val=\"#TooltipNumbers\">25%</c> increased damage.<n/><n/><c val=\"#AbilityPassive\">Passive:</c> Base Attack Damage increased by <c val=\"#TooltipNumbers\">100%</c>.<n/><c val=\"#AbilityPassive\">Passive: </c>Maximum Health and Health Regeneration reduced by <c val=\"#TooltipNumbers\">10%</c>.",
+      "name": "Colossus Smash",
+      "shortText": "Gain Damage, Lose Health<n/>Smash enemies and lower their Armor"
+    },
+    ":PASSIVE:|VarianTwinBladesOfFury|Heroic": {
+      "fullText": "Basic Attacks reduce Heroic Strike's cooldown by an additional <c val=\"#TooltipNumbers\">7</c> seconds, and increase Varian's Movement Speed by <c val=\"#TooltipNumbers\">30%</c> for <c val=\"#TooltipNumbers\">2</c> seconds.<n/><n/><c val=\"#AbilityPassive\">Passive:</c> Attack Speed increased by <c val=\"#TooltipNumbers\">100%</c>.<n/><c val=\"#AbilityPassive\">Passive:</c> Base Attack Damage reduced by <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Twin Blades of Fury",
+      "shortText": "Gain Attack Speed, Lose Damage<n/>Basic Attacks reduce Heroic Strike cooldown"
+    },
+    "VarianHeroicStrike|VarianHeroicStrike|Trait": {
+      "cooldownText": "Cooldown: 18 seconds",
+      "fullText": "Every <c val=\"#TooltipNumbers\">18</c> seconds, Varian's next Basic Attack deals <c val=\"#TooltipNumbers\">125</c><c val=\"#ColorGray\">~~0.04~~</c> bonus Spell Damage. Basic Attacks reduce this cooldown by <c val=\"#TooltipNumbers\">3</c> seconds.",
+      "name": "Heroic Strike",
+      "shortText": "Deal bonus damage on next Basic Attack"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Cooldown: 4 seconds",
+      "fullText": "After Channeling for <c val=\"#TooltipNumbers\">1</c> second, gain <s val=\"StandardTooltipDetails\">30%</s> Movement Speed.",
+      "name": "Summon Mount"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "After Channeling for <c val=\"#TooltipNumbers\">6</c> seconds, teleport back to the Hall of Storms, instantly restoring <c val=\"#TooltipNumbers\">1125</c> Health and <c val=\"#TooltipNumbers\">150</c> Mana.",
+      "name": "Hearthstone"
+    },
+    ":PASSIVE:|VarianHeroicStrikeActive|Trait": {
+      "cooldownText": "Cooldown: 18 seconds",
+      "fullText": "Every <c val=\"#TooltipNumbers\">18</c> seconds, Varian's next Basic Attack deals <c val=\"#TooltipNumbers\">125</c><c val=\"#ColorGray\">~~0.04~~</c> bonus Spell Damage. Basic Attacks reduce this cooldown by <c val=\"#TooltipNumbers\">3</c> seconds.",
+      "name": "Heroic Strike",
+      "shortText": "Bonus Basic Attack damage"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Dismounts you.",
+      "name": "Unsummon Mount"
+    },
+    "VarianVictoryRush|VarianVictoryRush|Passive": {
+      "cooldownText": "Cooldown: 30 seconds",
+      "fullText": "Every <c val=\"#TooltipNumbers\">30</c> seconds, Varian's next Basic Attack will heal him for <c val=\"#TooltipNumbers\">350</c><c val=\"#ColorGray\">~~0.04~~</c> Health. When a nearby enemy Minion or Monster dies, the cooldown is reduced by <c val=\"#TooltipNumbers\">10</c> seconds.",
+      "name": "Victory Rush",
+      "shortText": "Basic Attacks periodically grant a large heal"
+    },
+    "VarianShatteringThrow|VarianShatteringThrow|Active": {
+      "cooldownText": "Cooldown: 30 seconds",
+      "fullText": "Activate to throw a sword at a target Hero that deals <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> damage, and up to <c val=\"#TooltipNumbers\">1400</c><c val=\"#ColorGray\">~~0.04~~</c> bonus damage to their Shields.<n/><n/><c val=\"#AbilityPassive\">Passive:</c> Basic Attacks against Heroes deal up to <c val=\"#TooltipNumbers\">200%</c> bonus Physical Damage to Shields.",
+      "name": "Shattering Throw",
+      "shortText": "Deal massive damage to enemy Shields"
+    },
+    "VarianBannerOfDalaran|VarianBannerOfDalaran|Active": {
+      "cooldownText": "Cooldown: 25 seconds",
+      "fullText": "Activate to place a Banner that grants <c val=\"#TooltipNumbers\">20%</c> increased Spell Power to nearby allied Heroes. Lasts <c val=\"#TooltipNumbers\">12</c> seconds.",
+      "name": "Banner of Dalaran",
+      "shortText": "Banner that grants Spell Power"
+    },
+    "VarianBannerOfIronforge|VarianBannerOfIronforge|Active": {
+      "cooldownText": "Cooldown: 45 seconds",
+      "fullText": "Activate to place a Banner that grants <c val=\"#TooltipNumbers\">20</c> Armor to nearby allied Heroes, reducing damage taken by <c val=\"#TooltipNumbers\">20%</c>. Lasts <c val=\"#TooltipNumbers\">12</c> seconds.",
+      "name": "Banner of Ironforge",
+      "shortText": "Banner that grants Armor"
+    },
+    "VarianBannerOfStormwind|VarianBannerOfStormwind|Active": {
+      "cooldownText": "Cooldown: 25 seconds",
+      "fullText": "Activate to place a Banner that grants <c val=\"#TooltipNumbers\">25%</c> increased Movement Speed to nearby allied Heroes. Lasts <c val=\"#TooltipNumbers\">12</c> seconds.",
+      "name": "Banner of Stormwind",
+      "shortText": "Banner that grants Movement Speed"
+    },
+    "VarianDemoralizingShout|VarianDemoralizingShout|Active": {
+      "cooldownText": "Cooldown: 20 seconds",
+      "fullText": "Activate to demoralize nearby enemy Heroes, reducing damage they deal by <c val=\"#TooltipNumbers\">40%</c> for <c val=\"#TooltipNumbers\">5</c> seconds.<n/><n/>Each time an enemy Hero affected by Demoralizing Shout deals damage to a Hero, reduce its cooldown and Parry's cooldown by <c val=\"#TooltipNumbers\">5%</c>.",
+      "name": "Demoralizing Shout",
+      "shortText": "Reduce damage of nearby Heroes"
+    }
+  },
+  "talents": {
+    "VarianLionsFangLionsMawQuest|VarianLionsFangLionsMawQuest|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Every time Lion's Fang hits a Hero, increase its damage by <c val=\"#TooltipNumbers\">7</c>, up to <c val=\"#TooltipNumbers\">175</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Reward:</c> After hitting <c val=\"#TooltipNumbers\">25</c> Heroes, the Slow is increased to <c val=\"#TooltipNumbers\">50%</c> and its duration is increased to <c val=\"#TooltipNumbers\">2</c> seconds.",
+      "name": "Lion's Maw",
+      "shortText": "<c val=\"#TooltipQuest\">Quest:</c> Hit Heroes to empower Lion's Fang"
+    },
+    "VarianParryOverpower|VarianParryOverpower|W|Level1": {
+      "fullText": "When Parry blocks a Hero's Basic Attack, Heroic Strike's cooldown is refreshed and the next one does <c val=\"#TooltipNumbers\">40%</c> more damage.",
+      "name": "Overpower",
+      "shortText": "Parrying a Hero's attack will refresh Heroic Strike"
+    },
+    "VarianHighKingsQuestQuest|VarianHighKingsQuestQuest|Passive|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest: </c>Hit <c val=\"#TooltipNumbers\">50</c> Heroes with Basic Attacks.<n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest: </c>Participate in <c val=\"#TooltipNumbers\">5</c> Hero Takedowns.<n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest: </c>Gather <c val=\"#TooltipNumbers\">15</c> Regeneration Globes.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Reward:</c> Completing a Quest grants <c val=\"#TooltipNumbers\">10</c> Base Attack Damage. Completing all <c val=\"#TooltipNumbers\">3</c> Quests grants an additional <c val=\"#TooltipNumbers\">30</c> Base Attack Damage.",
+      "name": "High King's Quest",
+      "shortText": "<c val=\"#TooltipQuest\">Quest:</c> Complete Quests to gain Attack Damage"
+    },
+    "VarianTaunt|VarianTaunt|Heroic|Level4": {
+      "cooldownText": "Cooldown: 16 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 20</s>",
+      "fullText": "Silence a target Hero and force them to attack Varian for <c val=\"#TooltipNumbers\">1.25</c> seconds.<n/><n/><c val=\"#AbilityPassive\">Passive:</c> Maximum Health and Health Regeneration increased by <c val=\"#TooltipNumbers\">40%</c>.",
+      "name": "Taunt",
+      "shortText": "Gain Health<n/>Force a Hero to attack Varian"
+    },
+    "VarianColossusSmash|VarianColossusSmash|Heroic|Level4": {
+      "cooldownText": "Cooldown: 20 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 40</s>",
+      "fullText": "Smash a target enemy, dealing <c val=\"#TooltipNumbers\">185</c><c val=\"#ColorGray\">~~0.04~~</c> damage and lowering their Armor by <c val=\"#TooltipNumbers\">25</c> for <c val=\"#TooltipNumbers\">3</c> seconds, causing them to take <c val=\"#TooltipNumbers\">25%</c> increased damage.<n/><n/><c val=\"#AbilityPassive\">Passive:</c> Base Attack Damage increased by <c val=\"#TooltipNumbers\">100%</c>.<n/><c val=\"#AbilityPassive\">Passive: </c>Maximum Health and Health Regeneration reduced by <c val=\"#TooltipNumbers\">10%</c>.",
+      "name": "Colossus Smash",
+      "shortText": "Gain Damage, Lose Health<n/>Smash enemies and lower their Armor"
+    },
+    "VarianTwinBladesOfFury|VarianTwinBladesOfFury|Heroic|Level4": {
+      "fullText": "Basic Attacks reduce Heroic Strike's cooldown by an additional <c val=\"#TooltipNumbers\">7</c> seconds, and increase Varian's Movement Speed by <c val=\"#TooltipNumbers\">30%</c> for <c val=\"#TooltipNumbers\">2</c> seconds.<n/><n/><c val=\"#AbilityPassive\">Passive:</c> Attack Speed increased by <c val=\"#TooltipNumbers\">100%</c>.<n/><c val=\"#AbilityPassive\">Passive:</c> Base Attack Damage reduced by <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Twin Blades of Fury",
+      "shortText": "Gain Attack Speed, Lose Damage<n/>Basic Attacks reduce Heroic Strike cooldown"
+    },
+    "VarianLionsFangLionheart|VarianLionsFangLionheart|Q|Level7": {
+      "fullText": "Increase Lion's Fang's healing from Heroes by <c val=\"#TooltipNumbers\">75%</c>.",
+      "name": "Lionheart",
+      "shortText": "Increase Lion's Fang healing"
+    },
+    "VarianSecondWind|VarianSecondWind|Passive|Level7": {
+      "fullText": "Basic Attacks heal Varian for <c val=\"#TooltipNumbers\">1%</c> of his maximum Health. While below <c val=\"#TooltipNumbers\">50%</c> Health, they also heal him for <c val=\"#TooltipNumbers\">50%</c> of the damage dealt.",
+      "name": "Second Wind",
+      "shortText": "Basic Attacks heal, more when low Health"
+    },
+    "VarianVictoryRush|VarianVictoryRush|Passive|Level7": {
+      "fullText": "Every <c val=\"#TooltipNumbers\">30</c> seconds, Varian's next Basic Attack will heal him for <c val=\"#TooltipNumbers\">350</c><c val=\"#ColorGray\">~~0.04~~</c> Health. When a nearby enemy Minion or Monster dies, the cooldown is reduced by <c val=\"#TooltipNumbers\">10</c> seconds.",
+      "name": "Victory Rush",
+      "shortText": "Basic Attacks periodically grant a large heal"
+    },
+    "VarianParryShieldWall|VarianParryShieldWall|W|Level10": {
+      "fullText": "Parry grants Protected, preventing all incoming damage while active. Additionally, Parry's cooldown is reduced by <c val=\"#TooltipNumbers\">5</c> seconds, but it loses <c val=\"#TooltipNumbers\">1</c> charge.",
+      "name": "Shield Wall",
+      "shortText": "Parry grants Protected"
+    },
+    "VarianChargeWarbringer|VarianChargeWarbringer|E|Level10": {
+      "fullText": "Reduce Charge's cooldown by <c val=\"#TooltipNumbers\">8</c> seconds and Mana cost from <c val=\"#TooltipNumbers\">45</c> to <c val=\"#TooltipNumbers\">25</c>. Additionally, Charge can be cast on allied Heroes.",
+      "name": "Warbringer",
+      "shortText": "Reduce Charge cooldown, can be used on allies"
+    },
+    "VarianChargeJuggernaut|VarianChargeJuggernaut|E|Level13": {
+      "fullText": "Charge deals bonus damage to Heroes equal to <c val=\"#TooltipNumbers\">4%</c> of their maximum Health.",
+      "name": "Juggernaut",
+      "shortText": "Increase Charge damage"
+    },
+    "VarianMortalStrike|VarianMortalStrike|Trait|Level13": {
+      "fullText": "Heroes hit by Heroic Strike receive <c val=\"#TooltipNumbers\">40%</c> reduced healing for <c val=\"#TooltipNumbers\">4</c> seconds.",
+      "name": "Mortal Strike",
+      "shortText": "Heroic Strike reduces enemy healing"
+    },
+    "VarianShatteringThrow|VarianShatteringThrow|Active|Level13": {
+      "cooldownText": "Cooldown: 30 seconds",
+      "fullText": "Activate to throw a sword at a target Hero that deals <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> damage, and up to <c val=\"#TooltipNumbers\">1400</c><c val=\"#ColorGray\">~~0.04~~</c> bonus damage to their Shields.<n/><n/><c val=\"#AbilityPassive\">Passive:</c> Basic Attacks against Heroes deal up to <c val=\"#TooltipNumbers\">200%</c> bonus Physical Damage to Shields.",
+      "name": "Shattering Throw",
+      "shortText": "Deal massive damage to enemy Shields"
+    },
+    "VarianBannerOfStormwind|VarianBannerOfStormwind|Active|Level16": {
+      "cooldownText": "Cooldown: 25 seconds",
+      "fullText": "Activate to place a Banner that grants <c val=\"#TooltipNumbers\">25%</c> increased Movement Speed to nearby allied Heroes. Lasts <c val=\"#TooltipNumbers\">12</c> seconds.",
+      "name": "Banner of Stormwind",
+      "shortText": "Banner that grants Movement Speed"
+    },
+    "VarianBannerOfIronforge|VarianBannerOfIronforge|Active|Level16": {
+      "cooldownText": "Cooldown: 45 seconds",
+      "fullText": "Activate to place a Banner that grants <c val=\"#TooltipNumbers\">20</c> Armor to nearby allied Heroes, reducing damage taken by <c val=\"#TooltipNumbers\">20%</c>. Lasts <c val=\"#TooltipNumbers\">12</c> seconds.",
+      "name": "Banner of Ironforge",
+      "shortText": "Banner that grants Armor"
+    },
+    "VarianBannerOfDalaran|VarianBannerOfDalaran|Active|Level16": {
+      "cooldownText": "Cooldown: 25 seconds",
+      "fullText": "Activate to place a Banner that grants <c val=\"#TooltipNumbers\">20%</c> increased Spell Power to nearby allied Heroes. Lasts <c val=\"#TooltipNumbers\">12</c> seconds.",
+      "name": "Banner of Dalaran",
+      "shortText": "Banner that grants Spell Power"
+    },
+    "VarianTauntVigilance|VarianTauntVigilance|Heroic|Level20": {
+      "fullText": "Being hit by a Hero Basic Attack reduces the cooldown of Taunt by <c val=\"#TooltipNumbers\">1</c> second.",
+      "name": "Vigilance",
+      "shortText": "Incoming attacks reduce Taunt cooldown"
+    },
+    "VarianColossusSmashMasterAtArms|VarianColossusSmashMasterAtArms|Heroic|Level20": {
+      "fullText": "Colossus Smash affects all enemies near the target, and its cooldown is reduced by <c val=\"#TooltipNumbers\">10</c> seconds.",
+      "name": "Master at Arms",
+      "shortText": "Colossus Smash hits enemies near the target"
+    },
+    "VarianTwinBladesOfFuryFrenzy|VarianTwinBladesOfFuryFrenzy|Passive|Level20": {
+      "fullText": "Twin Blades of Fury increases Heroic Strike damage by an additional <c val=\"#TooltipNumbers\">25%</c>, and Basic Attacks increase his Movement Speed by an additional <c val=\"#TooltipNumbers\">10%</c>.",
+      "name": "Frenzy",
+      "shortText": "Increase Twin Blades of Fury bonuses"
+    },
+    "VarianBannersGloryToTheAlliance|VarianBannersGloryToTheAlliance|Passive|Level20": {
+      "fullText": "Banner now also increases health regeneration and all healing received for nearby allied Heroes by <c val=\"#TooltipNumbers\">50%</c>, and the cooldown is reduced by <c val=\"#TooltipNumbers\">50%</c>.",
+      "name": "Glory to the Alliance",
+      "shortText": "Banner also increases healing effects"
+    },
+    "VarianDemoralizingShout|VarianDemoralizingShout|Active|Level20": {
+      "cooldownText": "Cooldown: 20 seconds",
+      "fullText": "Activate to demoralize nearby enemy Heroes, reducing damage they deal by <c val=\"#TooltipNumbers\">40%</c> for <c val=\"#TooltipNumbers\">5</c> seconds.<n/><n/>Each time an enemy Hero affected by Demoralizing Shout deals damage to a Hero, reduce its cooldown and Parry's cooldown by <c val=\"#TooltipNumbers\">5%</c>.",
+      "name": "Demoralizing Shout",
+      "shortText": "Reduce damage of nearby Heroes"
+    }
+  },
+  "units": {}
+}

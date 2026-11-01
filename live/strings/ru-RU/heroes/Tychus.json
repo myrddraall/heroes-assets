@@ -1,0 +1,219 @@
+{
+  "abilities": {
+    "TychusOverkillTargeted|TychusOverkill|Q": {
+      "cooldownText": "Время восстановления: 12 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 60</s>",
+      "fullText": "Наносит <c val=\"#TooltipNumbers\">552</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона цели и <c val=\"#TooltipNumbers\">276</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона находящимся рядом противникам в течение <c val=\"#TooltipNumbers\">4</c> сек. При повторном использовании выбирает новую цель или направление. При поддержании можно передвигаться и использовать другие способности.",
+      "name": "Сверхурон",
+      "shortText": "Наносит урон цели и противникам поблизости, в том числе на ходу."
+    },
+    "TychusGrenade|TychusFragGrenade|W": {
+      "cooldownText": "Время восстановления: 10 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 50</s>",
+      "fullText": "Бросает гранату, которая при взрыве наносит <c val=\"#TooltipNumbers\">256</c><c val=\"#ColorGray\">~~0.04~~</c><c val=\"#TooltipNumbers\"> </c>ед. урона и отбрасывает противников от центра взрыва.",
+      "name": "Осколочная граната",
+      "shortText": "Бросает гранату, которая наносит противникам урон и отбрасывает их."
+    },
+    "TychusRunAndGun|TychusRunandGun|E": {
+      "cooldownText": "Время восстановления: 10 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 50</s>",
+      "fullText": "Совершает короткий рывок.",
+      "name": "Стрельба на бегу",
+      "shortText": "Совершает короткий рывок."
+    },
+    "TychusDrakkenLaserDrill|TychusDrakkenLaserDrill|Heroic": {
+      "cooldownText": "Время восстановления: 100 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 100</s>",
+      "fullText": "Вызывает лазерную установку, атакующую находящихся рядом противников и наносящую <c val=\"#TooltipNumbers\">142</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона в секунду. При повторном использовании позволяет выбрать новую цель. Установка постепенно теряет здоровье в течение <c val=\"#TooltipNumbers\">25</c> сек.",
+      "name": "Драккенский лазерный бур",
+      "shortText": "Вызывает лазер, атакующий находящихся поблизости противников."
+    },
+    "TychusOdinNoHealth|TychusCommandeerOdin|Heroic": {
+      "cooldownText": "Время восстановления: 100 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 100</s>",
+      "fullText": "Вызывает пилотируемый «Один», наносящий дополнительный урон и использующий другие способности. Дальность автоатак «Одина» увеличена на <c val=\"#TooltipNumbers\">100%</c>. «Один» имеет <c val=\"#TooltipNumbers\">25%</c> ед. брони и существует <c val=\"#TooltipNumbers\">23</c> сек.",
+      "name": "Управление «Одином»",
+      "shortText": "Вызывает пилотируемый «Один», которым Тайкус может управлять."
+    },
+    ":PASSIVE:|TychusMinigun|Trait": {
+      "cooldownText": "Время восстановления: 12 сек.",
+      "fullText": "При использовании автоатаки по героям начинают наносить дополнительный урон в объеме <c val=\"#TooltipNumbers\">2.5%</c> максимального запаса здоровья цели. Время действия – <c val=\"#TooltipNumbers\">3</c> сек.",
+      "name": "Пулемет",
+      "shortText": "Увеличивает урон от автоатак по героям."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Время восстановления: 4 сек.",
+      "fullText": "После подготовки длительностью <c val=\"#TooltipNumbers\">1</c> сек. повышает скорость передвижения на <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Вызов транспорта"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "После поддержания в течение <c val=\"#TooltipNumbers\">6</c> сек. телепортирует героя в Зал Штормов, моментально восполняя <c val=\"#TooltipNumbers\">1125</c> ед. здоровья и <c val=\"#TooltipNumbers\">150</c> ед. маны.",
+      "name": "Возвращение"
+    },
+    "OverkillTargetedRetarget|TychusOverkillRetarget|Q": {
+      "fullText": "Изменяет цель или направление способности «Сверхурон».",
+      "name": "Смена цели «Сверхурона»"
+    },
+    "TychusRunAndGunOverkill|TychusRunandGun|E": {
+      "cooldownText": "Время восстановления: 10 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 50</s>",
+      "fullText": "Совершает короткий рывок.",
+      "name": "Стрельба на бегу",
+      "shortText": "Совершает короткий рывок."
+    },
+    "TychusDrakkenLaserDrillIssueOrder|TychusDrakkenLaserDrillIssueOrder|Heroic": {
+      "fullText": "Приказывает лазерному буру атаковать новую цель.",
+      "name": "Смена цели"
+    },
+    "TychusOdinAnnihilate|TychusCommandeerOdinAnnihilate|Q": {
+      "cooldownText": "Время восстановления: 7 сек.",
+      "fullText": "Выстреливает из пушек «Одина» по прямой, нанося <c val=\"#TooltipNumbers\">196</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона всему, что находится на линии огня.",
+      "name": "Аннигиляция",
+      "shortText": "Наносит урон по прямой линии."
+    },
+    "TychusOdinRagnarokMissilesTargeted|TychusCommandeerOdinRagnarokMissilesTargeted|W": {
+      "cooldownText": "Время восстановления: 7 сек.",
+      "fullText": "Делает ракетный залп по указанной области. Ракеты наносят <c val=\"#TooltipNumbers\">132</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона и снижают скорость передвижения противника на <c val=\"#TooltipNumbers\">30%</c> на <c val=\"#TooltipNumbers\">2</c> сек.",
+      "name": "Ракеты «Рагнарок»",
+      "shortText": "Осуществляет ракетный залп."
+    },
+    "TychusOdinThrusters|TychusOdinThrusters|E": {
+      "cooldownText": "Время восстановления: 8 сек.",
+      "fullText": "Быстро перемещается в указанном направлении.",
+      "name": "Ускорители"
+    },
+    "TychusMinigunActive|TychusMinigunActive|Trait": {
+      "cooldownText": "Время восстановления: 12 сек.",
+      "fullText": "При использовании автоатаки по героям начинают наносить дополнительный урон в объеме <c val=\"#TooltipNumbers\">2.5%</c> максимального запаса здоровья цели. Время действия – <c val=\"#TooltipNumbers\">3</c> сек.",
+      "name": "Пулемет",
+      "shortText": "Увеличивает урон от автоатак по героям."
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Покинуть транспорт.",
+      "name": "Отмена транспорта"
+    },
+    "TychusNeosteelCoating|TychusNeosteelCoatingTalent|Active": {
+      "cooldownText": "Время восстановления: 30 сек.",
+      "fullText": "При использовании дает <c val=\"#TooltipNumbers\">75</c> ед. энергетической брони. Эта броня уменьшает получаемый от способностей урон на <c val=\"#TooltipNumbers\">75%</c> в течение <c val=\"#TooltipNumbers\">4</c> сек.",
+      "name": "Покрытие из неостали",
+      "shortText": "Дает энергетическую броню."
+    }
+  },
+  "talents": {
+    "TychusMasteryQuarterback|TychusFragGrenadeQuarterbackTalent|W|Level1": {
+      "fullText": "Увеличивает урон от «Осколочной гранаты» на <c val=\"#TooltipNumbers\">10%</c>, а дальность действия — на <c val=\"#TooltipNumbers\">45%</c>.",
+      "name": "Отличник НВП",
+      "shortText": "Увеличивает урон и дальность действия «Осколочной гранаты»."
+    },
+    "TychusMasteryRunandGunDash|TychusRunandGunDashTalent|E|Level1": {
+      "fullText": "Увеличивает дальность действия «Стрельбы на бегу» на <c val=\"#TooltipNumbers\">50%</c>. При использовании повышает скорость передвижения Тайкуса на <c val=\"#TooltipNumbers\">20%</c> на <c val=\"#TooltipNumbers\">2.5</c> сек.",
+      "name": "Рывок",
+      "shortText": "Увеличивает дальность действия «Стрельбы на бегу» и ускоряет передвижение."
+    },
+    "TychusPressTheAdvantage|TychusPressTheAdvantage|Passive|Level1": {
+      "fullText": "Увеличивает дальность автоатак на <c val=\"#TooltipNumbers\">1</c> м.",
+      "name": "Поднажали!",
+      "shortText": "Увеличивает дальность автоатак."
+    },
+    "TychusInTheRhythm|TychusIntheRhythmTalent|Trait|Level4": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Задача:</c> пока действует «Пулемет», каждая направленная против героя автоатака увеличивает время действия следующих применений умения на <c val=\"#TooltipNumbers\">0.03</c> сек. до конца матча.",
+      "name": "Почувствуй ритм",
+      "shortText": "<c val=\"#TooltipQuest\">Задача:</c> автоатаки увеличивают время действия «Пулемета»."
+    },
+    "TychusTheBiggerTheyAre|TychusTheBiggerTheyAre|Trait|Level4": {
+      "fullText": "Увеличивает бонус к урону до <c val=\"#TooltipNumbers\">4%</c>, пока уровень здоровья героя-цели превышает <c val=\"#TooltipNumbers\">30%</c>. «Пулемет» не увеличивает урон по целям с уровнем здоровья ниже <c val=\"#TooltipNumbers\">30%</c>.",
+      "name": "Чем они больше...",
+      "shortText": "Увеличивает урон от «Пулемета»."
+    },
+    "TychusMasterAssassin|TychusMasterAssassinTalent|Passive|Level4": {
+      "fullText": "<c val=\"#AbilityPassive\">Пассивный эффект:</c> повышает скорость атаки на <c val=\"#TooltipNumbers\">10%</c>. <n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Награда:</c> убив <c val=\"#TooltipNumbers\">15</c> <lang rule=\"plural\" val=\"\">героя,героев,героев</lang>, Тайкус получает дополнительный бонус к скорости атаки в <c val=\"#TooltipNumbers\">15%</c>.",
+      "name": "Умелый убийца",
+      "shortText": "<c val=\"#TooltipQuest\">Задача:</c> убивайте героев, чтобы повысить скорость атаки."
+    },
+    "TychusMeltingPoint|TychusMeltingPoint|W|Level7": {
+      "fullText": "Противники, пораженные «Осколочной гранатой», получают еще <c val=\"#TooltipNumbers\">75</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона за <c val=\"#TooltipNumbers\">3</c> сек. Этот дополнительный урон увеличивается на <c val=\"#TooltipNumbers\">100%</c>, если цель – воин, наемник или монстр.",
+      "name": "Точка плавления",
+      "shortText": "«Осколочная граната» наносит дополнительный периодический урон."
+    },
+    "TychusCombatTactician|TychusCombatTactician|Trait|Level7": {
+      "fullText": "Уменьшает время восстановления «Пулемета» на <c val=\"#TooltipNumbers\">4</c> сек. После использования «Стрельбы на бегу» сокращает время восстановления «Пулемета» еще на <c val=\"#TooltipNumbers\">4</c> сек.",
+      "name": "Тактическая подготовка",
+      "shortText": "«Стрельба на бегу» ускоряет восстановление «Пулемета»."
+    },
+    "TychusRelentlessSoldier|TychusRelentlessSoldierTalent|Passive|Level7": {
+      "fullText": "При обездвиживании или оглушении Тайкус получает <c val=\"#TooltipNumbers\">30</c> ед. брони на <c val=\"#TooltipNumbers\">3</c> сек. Эта броня уменьшает получаемый им урон на <c val=\"#TooltipNumbers\">30%</c>.",
+      "name": "Стойкий солдат",
+      "shortText": "Дает броню при оглушении или обездвиживании."
+    },
+    "TychusHeroicAbilityCommandeerOdin|TychusCommandeerOdin|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 100 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 100</s>",
+      "fullText": "Вызывает пилотируемый «Один», наносящий дополнительный урон и использующий другие способности. Дальность автоатак «Одина» увеличена на <c val=\"#TooltipNumbers\">100%</c>. «Один» имеет <c val=\"#TooltipNumbers\">25%</c> ед. брони и существует <c val=\"#TooltipNumbers\">23</c> сек.",
+      "name": "Управление «Одином»",
+      "shortText": "Вызывает пилотируемый «Один», которым Тайкус может управлять."
+    },
+    "TychusHeroicAbilityDrakkenLaserDrill|TychusDrakkenLaserDrill|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 100 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 100</s>",
+      "fullText": "Вызывает лазерную установку, атакующую находящихся рядом противников и наносящую <c val=\"#TooltipNumbers\">142</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона в секунду. При повторном использовании позволяет выбрать новую цель. Установка постепенно теряет здоровье в течение <c val=\"#TooltipNumbers\">25</c> сек.",
+      "name": "Драккенский лазерный бур",
+      "shortText": "Вызывает лазер, атакующий находящихся поблизости противников."
+    },
+    "TychusMasterySprayNPray|TychusOverkillSprayNPrayTalent|Q|Level13": {
+      "fullText": "«Сверхурон» снижает скорость передвижения противников на <c val=\"#TooltipNumbers\">25%</c>. Дальность его действия увеличивается на <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Неприцельный огонь",
+      "shortText": "Увеличивает дальность действия «Сверхурона», замедляет противников."
+    },
+    "TychusThatsTheStuff|TychusThatsTheStuff|Trait|Level13": {
+      "fullText": "По истечении времени действия «Пулемет» восполняет Тайкусу здоровье в объеме <c val=\"#TooltipNumbers\">100%</c> дополнительного урона, нанесенного героям.",
+      "name": "Вот это по-нашему!",
+      "shortText": "«Пулемет» исцеляет Тайкуса."
+    },
+    "TychusNeosteelCoating|TychusNeosteelCoatingTalent|Active|Level13": {
+      "cooldownText": "Время восстановления: 30 сек.",
+      "fullText": "При использовании дает <c val=\"#TooltipNumbers\">75</c> ед. энергетической брони. Эта броня уменьшает получаемый от способностей урон на <c val=\"#TooltipNumbers\">75%</c> в течение <c val=\"#TooltipNumbers\">4</c> сек.",
+      "name": "Покрытие из неостали",
+      "shortText": "Дает энергетическую броню."
+    },
+    "TychusMasteryOverkillArmorPiercingRounds|TychusOverkillArmorPiercingRoundsTalent|Q|Level16": {
+      "fullText": "За каждое попадание «Сверхурон» получает бонус к урону по пораженной цели в <c val=\"#TooltipNumbers\">15%</c>, вплоть до <c val=\"#TooltipNumbers\">60%</c>.",
+      "name": "Бронебойные патроны",
+      "shortText": "«Сверхурон» наносит больше урона с каждым попаданием."
+    },
+    "TychusMasteryFragGrenadeTitanGrenade|TychusFragGrenadeTitanGrenadeTalent|W|Level16": {
+      "fullText": "«Осколочная граната» наносит героям дополнительный урон в объеме <c val=\"#TooltipNumbers\">5%</c> их максимального запаса здоровья. За каждого героя, пораженного «Осколочной гранатой», ее время восстановления сокращается на <c val=\"#TooltipNumbers\">1</c> сек.",
+      "name": "Гранаты «Титан»",
+      "shortText": "«Осколочная граната» наносит больше урона героям."
+    },
+    "TychusSizzlinAttacks|TychusSizzlinAttacks|Trait|Level16": {
+      "fullText": "Автоатаки наносят дополнительный урон героям в объеме <c val=\"#TooltipNumbers\">1%</c> их максимального запаса здоровья. Суммируется с эффектом «Пулемета».",
+      "name": "Патроны «Огонек»",
+      "shortText": "Автоатаки наносят больше урона героям."
+    },
+    "TychusMasteryOdinBigRedButton|TychusCommandeerOdinBigRedButtonTalent|Heroic|Level20": {
+      "fullText": "Увеличивает время существования «Одина» на <c val=\"#TooltipNumbers\">50%</c>. При использовании ракет «Рагнарок» спустя <c val=\"#TooltipNumbers\">2.5</c> сек. также осуществляется детонация ядерной ракеты, которая наносит <c val=\"#TooltipNumbers\">319</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона.",
+      "name": "Большая красная кнопка",
+      "shortText": "«Один» существует дольше и запускает ядерные ракеты."
+    },
+    "TychusMasteryDrakkenLaserFocusingDiodes|TychusDrakkenLaserFocusingDiodesTalent|Heroic|Level20": {
+      "fullText": "Увеличивает дальность действия «Драккенского лазерного бура» на <c val=\"#TooltipNumbers\">50%</c>. Увеличивает наносимый цели урон в зависимости от того, как долго бур фокусируется на ней. Максимальная прибавка к урону – <c val=\"#TooltipNumbers\">100%</c>.",
+      "name": "Фокусировочная линза",
+      "shortText": "Увеличивает дальность действия и урон лазерного бура."
+    },
+    "TychusCanDoThisAllDayOverkillTalent|TychusOverkillCanDoThisAllDayTalent|Q|Level20": {
+      "fullText": "Уменьшает время восстановления «Сверхурона» на <c val=\"#TooltipNumbers\">5</c> сек. На время поддержания «Сверхурона» Тайкус получает <c val=\"#TooltipNumbers\">40</c> ед. брони.",
+      "name": "Да хоть весь день",
+      "shortText": "Ускоряет восстановление «Сверхурона» и дает броню."
+    },
+    "TychusRunAndGunBobAndWeave|TychusRunAndGunBobAndWeaveTalent|E|Level20": {
+      "fullText": "«Стрельба на бегу» и «Ускорители» «Одина» получают еще <c val=\"#TooltipNumbers\">2</c> заряда. Снижает стоимость «Стрельбы на бегу» с <c val=\"#TooltipNumbers\">50</c> до <c val=\"#TooltipNumbers\">25</c> ед. маны. После применения «Стрельбы на бегу» дальность автоатак увеличивается на <c val=\"#TooltipNumbers\">1.5</c> на <c val=\"#TooltipNumbers\">4</c> сек.",
+      "name": "Корпусом работай!",
+      "shortText": "Добавляет заряды «Стрельбы на бегу» и уменьшает затраты маны."
+    }
+  },
+  "units": {
+    "TychusLaserDrill": {
+      "name": "Драккенский лазерный бур"
+    }
+  }
+}

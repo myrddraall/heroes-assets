@@ -1,0 +1,200 @@
+{
+  "abilities": {
+    "WhitemaneDesperatePlea|WhitemaneDesperatePlea|Q": {
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 45</s>",
+      "fullText": "Cura <c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c> de Vida de um Herói aliado e ganha <c val=\"#WhitemaneDesperation\">Desespero</c> por <c val=\"#TooltipNumbers\">4</c> s.<n/><n/><c val=\"#WhitemaneDesperation\">Desespero</c> aumenta o custo de Mana da Súplica Desesperada em <c val=\"#TooltipNumbers\">40</c>, acumulando até <c val=\"#TooltipNumbers\">3</c> vezes.<n/><n/><c val=\"ffff8a\">Custo de Mana atual:</c> <c val=\"#TooltipNumbers\">45</c>",
+      "name": "Súplica Desesperada",
+      "shortText": "Cura um Herói aliado"
+    },
+    "WhitemaneInquisition|WhitemaneInquisition|W": {
+      "cooldownText": "Recarga: 12 segundos",
+      "fullText": "Canaliza em um Herói inimigo por até <c val=\"#TooltipNumbers\">3</c> s, causando <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> de dano a cada <c val=\"#TooltipNumbers\">0.5</c> s e desacelerando a vítima em <c val=\"#TooltipNumbers\">30%</c>. Remove uma aplicação de <c val=\"#WhitemaneDesperation\">Desespero</c>.<n/><n/>Compartilha recarga com Clemência.",
+      "name": "Inquisição",
+      "shortText": "Causa dano ou cura Heróis"
+    },
+    "WhitemaneSearingLash|WhitemaneSearingLash|E": {
+      "cooldownText": "Recarga: 6 segundos",
+      "fullText": "Após <c val=\"#TooltipNumbers\">0.5</c> s, pune os inimigos em uma linha reta, causando <c val=\"#TooltipNumbers\">82</c><c val=\"#ColorGray\">~~0.04~~</c> de dano.<n/><n/>Se um Herói inimigo for atingido, outro ataque será lançado logo em seguida.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Missão Repetível:</c> Atingir Heróis com Açoite Calcinante.<n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Missão Repetível:</c> Atingir <c val=\"#TooltipNumbers\">3</c> Heróis com Ataques Básicos.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa:</c> Aumente permanentemente a Vida máxima de Cristalba em <c val=\"#TooltipNumbers\">3</c> e o Mana em <c val=\"#TooltipNumbers\">2</c>. Heróis atingidos pelo segundo golpe de Açoite Calcinante contam como <c val=\"#TooltipNumbers\">2</c> acertos.",
+      "name": "Açoite Calcinante",
+      "shortText": "Causa dano a inimigos em uma linha reta"
+    },
+    "WhitemaneScarletAegis|WhitemaneScarletAegis|Heroic": {
+      "cooldownText": "Recarga: 60 segundos",
+      "fullText": "Fortalece o espírito dos Heróis aliados próximos, curando <c val=\"#TooltipNumbers\">300</c><c val=\"#ColorGray\">~~0.04~~</c> de Vida deles e concedendo <c val=\"#TooltipNumbers\">40</c> de Armadura por <c val=\"#TooltipNumbers\">4</c> s.",
+      "name": "Égide Escarlate",
+      "shortText": "Cura e concede Armadura aos aliados próximos"
+    },
+    "WhitemaneDivineReckoning|WhitemaneDivineReckoning|Heroic": {
+      "cooldownText": "Recarga: 75 segundos",
+      "fullText": "Após <c val=\"#TooltipNumbers\">1</c> s, consagra uma área por <c val=\"#TooltipNumbers\">4</c> s, causando <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> de dano a cada <c val=\"#TooltipNumbers\">0.5</c> s aos inimigos dentro dela. <c val=\"#TooltipNumbers\">25%</c> do dano causado a Heróis é convertido em Mana.",
+      "name": "Ajuste de Contas Divino",
+      "shortText": "Consagra uma área"
+    },
+    "WhitemaneFanaticalPower|WhitemaneTraitZeal|Trait": {
+      "cooldownText": "Recarga: 40 segundos",
+      "fullText": "As habilidades de cura de Cristalba aplicam <c val=\"#WhitemaneZeal\">Zelo</c> por <c val=\"#TooltipNumbers\">8</c> s. Aliados com <c val=\"#WhitemaneZeal\">Zelo</c> recebem uma cura de <c val=\"#TooltipNumbers\">100%</c> do dano que Cristalba causa a Heróis.<n/><n/>Ative para ganhar <c val=\"#TooltipNumbers\">25%</c> de Poder Mágico e perder <c val=\"#TooltipNumbers\">15</c> de Armadura por <c val=\"#TooltipNumbers\">5</c> s. Pode ser usado enquanto canaliza habilidades.",
+      "name": "Zelo",
+      "shortText": "Causar dano cura os aliados marcados"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Recarga: 4 segundos",
+      "fullText": "Depois de canalizar por <c val=\"#TooltipNumbers\">1</c> s, ganha <s val=\"StandardTooltipDetails\">30%</s> de Velocidade de Movimento.",
+      "name": "Evocar Montaria"
+    },
+    "WhitemaneInquisitionClemency|WhitemaneInquisitionClemency|Active": {
+      "cooldownText": "Recarga: 12 segundos",
+      "fullText": "Ative para lançar Inquisição em um Herói aliado, curando até <c val=\"#TooltipNumbers\">329</c><c val=\"#ColorGray\">~~0.04~~</c> de Vida ao longo de <c val=\"#TooltipNumbers\">3</c> s enquanto canaliza. Remove uma aplicação de <c val=\"#WhitemaneDesperation\">Desespero</c>.<n/><n/>Compartilha recarga com Inquisição.",
+      "name": "Clemência",
+      "shortText": "Inquisição pode curar aliados"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Depois de canalizar por <c val=\"#TooltipNumbers\">6</c> s, teleporta você de volta para o Salão das Tempestades, restaurando instantaneamente <c val=\"#TooltipNumbers\">1125</c> de Vida e <c val=\"#TooltipNumbers\">150</c> de Mana.",
+      "name": "Pedra de Regresso"
+    },
+    "WhitemaneInquisitionCancel|WhitemaneInquisitionCancel|W": {
+      "fullText": "Interrompe a canalização da Inquisição.",
+      "name": "Inquisição (Cancelar)",
+      "shortText": "Cancela Inquisição"
+    },
+    "WhitemaneInquisitionCancel|WhitemaneInquisitionCancel|Active": {
+      "fullText": "Interrompe a canalização da Inquisição.",
+      "name": "Inquisição (Cancelar)",
+      "shortText": "Cancela Inquisição"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Desmonta você.",
+      "name": "Dispensar Montaria"
+    },
+    "WhitemaneIntercession|WhitemaneIntercession|Active": {
+      "cooldownText": "Recarga: 75 segundos",
+      "fullText": "Ative para deixar um aliado Irrefreável por <c val=\"#TooltipNumbers\">1</c> s.",
+      "name": "Mediação",
+      "shortText": "Torna um aliado Irrefreável"
+    },
+    "WhitemaneGuidingLight|WhitemaneGuidingLight|Active": {
+      "cooldownText": "Recarga: 30 segundos",
+      "fullText": "Ative para lançar em um Herói aliado um <c val=\"#WhitemaneZeal\">Zelo</c> permanente sem consumo de Mana que não concede <c val=\"#WhitemaneDesperation\">Desespero</c>. Só pode haver um ativo por vez e ele possui alcance de lançamento global.<n/><n/>Aumenta o bônus de Poder Mágico concedido pela especialização de Cristalba em 15%.",
+      "name": "Luz Guia",
+      "shortText": "Ative para lançar <c val=\"#WhitemaneZeal\">Zelo</c>"
+    },
+    "WhitemanePurgeTheWicked|WhitemanePurgeTheWicked|Active": {
+      "cooldownText": "Recarga: 40 segundos",
+      "fullText": "Ative para rechaçar um Herói inimigo com fogo sagrado, reduzindo em <c val=\"#TooltipNumbers\">25</c> a Armadura e causando <c val=\"#TooltipNumbers\">300</c><c val=\"#ColorGray\">~~0.04~~</c> de dano ao longo de <c val=\"#TooltipNumbers\">4</c> s.",
+      "name": "Expurgar o Mal",
+      "shortText": "Ative para causar dano e reduzir a Armadura"
+    }
+  },
+  "talents": {
+    "WhitemaneZealPityTheFrail|WhitemaneZealPityTheFrail|W|Level1": {
+      "fullText": "Para cada Herói atingido pelo Açoite Calcinante, a recarga da Inquisição é reduzida em <c val=\"#TooltipNumbers\">1</c> s. Aliados com menos de <c val=\"#TooltipNumbers\">30%</c> de Vida recebem mais <c val=\"#TooltipNumbers\">25%</c> de cura de Cristalba.",
+      "name": "Pena dos Fracos",
+      "shortText": "Açoite Calcinante reduz a recarga da Inquisição"
+    },
+    "WhitemaneSearingLashRighteousFlame|WhitemaneSearingLashRighteousFlame|E|Level1": {
+      "fullText": "Açoite Calcinante causa <c val=\"#TooltipNumbers\">25%</c> a mais de dano aos inimigos. Se o segundo golpe atingir um Herói inimigo, ele recebe dano extra equivalente a <c val=\"#TooltipNumbers\">25%</c> e Cristalba ganha <c val=\"#TooltipNumbers\">40%</c> de Velocidade de Ataque por <c val=\"#TooltipNumbers\">3</c> s.",
+      "name": "Chama Íntegra",
+      "shortText": "Aumenta o dano do Açoite Calcinante"
+    },
+    "WhitemaneInquisitorsPrayer|WhitemaneInquisitor'sPrayer|E|Level1": {
+      "fullText": "Açoite Calcinante recupera <c val=\"#TooltipNumbers\">25</c> de Mana para cada Herói atingido e <c val=\"#WhitemaneZeal\">Zelo</c> dura <c val=\"#TooltipNumbers\">2</c> segundos adicionais.",
+      "name": "Prece da Inquisidora",
+      "shortText": "Açoite Calcinante restaura Mana, duração extra de <c val=\"#WhitemaneZeal\">Zelo</c>."
+    },
+    "WhitemaneDesperatePleaUnwaveringFaith|WhitemaneDesperatePleaUnwaveringFaith|Q|Level4": {
+      "fullText": "Aumenta em <c val=\"#TooltipNumbers\">1.1</c> o alcance de Ataque Básico de Cristalba. Também aumenta em <c val=\"#TooltipNumbers\">20%</c> o dano de Ataque Básico para cada <c val=\"#WhitemaneZeal\">Zelo</c> ativo.",
+      "name": "Fé Inabalável",
+      "shortText": "Aumenta o alcance e o dano de Ataque Básico"
+    },
+    "WhitemaneDesperatePleaMartyrdom|WhitemaneDesperatePleaMartyrdom|Q|Level4": {
+      "fullText": "Aumenta em <c val=\"#TooltipNumbers\">30%</c> a cura da Súplica Desesperada. Esse bônus aumenta em mais <c val=\"#TooltipNumbers\">10%</c> para cada <c val=\"#WhitemaneZeal\">Zelo</c> ativo.",
+      "name": "Martírio",
+      "shortText": "<c val=\"#WhitemaneZeal\">Zelo</c> aumenta a cura da Súplica Desesperada"
+    },
+    "WhitemaneZealIndulgence|WhitemaneZealIndulgence|Trait|Level4": {
+      "fullText": "Ganha <c val=\"#TooltipNumbers\">5%</c> de Velocidade de Movimento. Esse bônus aumenta em mais <c val=\"#TooltipNumbers\">5%</c> para cada <c val=\"#WhitemaneZeal\">Zelo</c> ativo.",
+      "name": "Indulgência",
+      "shortText": "<c val=\"#WhitemaneZeal\">Zelo</c> aumenta a Velocidade de Movimento"
+    },
+    "WhitemaneDesperatePleaZealousSpirit|WhitemaneDesperatePleaZealousSpirit|Q|Level7": {
+      "fullText": "Ao chegar a <c val=\"#TooltipNumbers\">2</c> aplicações de <c val=\"#WhitemaneDesperation\">Desespero</c>, Cristalba ganha <c val=\"#WhitemaneZeal\">Zelo</c>.",
+      "name": "Espírito Zeloso",
+      "shortText": "<c val=\"#WhitemaneDesperation\">Desespero</c> concede <c val=\"#WhitemaneZeal\">Zelo</c> a Cristalba"
+    },
+    "WhitemaneSaintlyGreatstaff|WhitemaneSaintlyGreatstaff|E|Level7": {
+      "fullText": "Heróis inimigos atingidos por Açoite Calcinante são marcados por <c val=\"#TooltipNumbers\">3</c> s. Ataques Básicos contra eles causam um adicional de <c val=\"#TooltipNumbers\">55</c><c val=\"#ColorGray\">~~0.04~~</c> de Dano Mágico e removem a marca.",
+      "name": "Santíssimo Cajado",
+      "shortText": "Açoite Calcinante fortalece os Ataques Básicos"
+    },
+    "WhitemaneIntercession|WhitemaneIntercession|Active|Level7": {
+      "cooldownText": "Recarga: 75 segundos",
+      "fullText": "Ative para deixar um aliado Irrefreável por <c val=\"#TooltipNumbers\">1</c> s.",
+      "name": "Mediação",
+      "shortText": "Torna um aliado Irrefreável"
+    },
+    "WhitemaneScarletAegis|WhitemaneScarletAegis|Heroic|Level10": {
+      "cooldownText": "Recarga: 60 segundos",
+      "fullText": "Fortalece o espírito dos Heróis aliados próximos, curando <c val=\"#TooltipNumbers\">300</c><c val=\"#ColorGray\">~~0.04~~</c> de Vida deles e concedendo <c val=\"#TooltipNumbers\">40</c> de Armadura por <c val=\"#TooltipNumbers\">4</c> s.",
+      "name": "Égide Escarlate",
+      "shortText": "Cura e concede Armadura aos aliados próximos"
+    },
+    "WhitemaneDivineReckoning|WhitemaneDivineReckoning|Heroic|Level10": {
+      "cooldownText": "Recarga: 75 segundos",
+      "fullText": "Após <c val=\"#TooltipNumbers\">1</c> s, consagra uma área por <c val=\"#TooltipNumbers\">4</c> s, causando <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> de dano a cada <c val=\"#TooltipNumbers\">0.5</c> s aos inimigos dentro dela. <c val=\"#TooltipNumbers\">25%</c> do dano causado a Heróis é convertido em Mana.",
+      "name": "Ajuste de Contas Divino",
+      "shortText": "Consagra uma área"
+    },
+    "WhitemaneInquisitionSubjugation|WhitemaneInquisitionSubjugation|W|Level13": {
+      "fullText": "Inquisição reduz todo o dano que o alvo causa em <c val=\"#TooltipNumbers\">50%</c>.",
+      "name": "Subjugar",
+      "shortText": "Inquisição reduz o dano do inimigo"
+    },
+    "WhitemaneSearingLashLashingOut|WhitemaneSearingLashLashingOut|E|Level13": {
+      "fullText": "Se o segundo golpe do Açoite Calcinante atingir um Herói inimigo, a recarga será reduzida para <c val=\"#TooltipNumbers\">1</c> s.",
+      "name": "Açoitando",
+      "shortText": "Reduz a recarga do Açoite Calcinante"
+    },
+    "WhitemaneZealScarletWrath|WhitemaneZealScarletWrath|Trait|Level13": {
+      "fullText": "Ataques Básicos contra Heróis aumentam a duração de todos os <c val=\"#WhitemaneZeal\">Zelos</c> ativos em <c val=\"#TooltipNumbers\">0.75</c> s, restauram <c val=\"#TooltipNumbers\">1</c><c val=\"#TooltipNumbers\">%</c> de Mana de todos os alvos com <c val=\"#WhitemaneZeal\">Zelo</c> e reduzem a recarga de ativação dos <c val=\"#WhitemaneZeal\">Zelos</c> em <c val=\"#TooltipNumbers\">4</c> s.",
+      "name": "Ira Escarlate",
+      "shortText": "Ataques Básicos aumentam a duração do <c val=\"#WhitemaneZeal\">Zelo</c>"
+    },
+    "WhitemaneDesperatePleaRadiance|WhitemaneDesperatePleaRadiance|Q|Level16": {
+      "fullText": "Chegar a <c val=\"#TooltipNumbers\">3</c> aplicações de <c val=\"#WhitemaneDesperation\">Desespero</c> concede <c val=\"#TooltipNumbers\">190</c><c val=\"#ColorGray\">~~0.04~~</c> de cura e reaplica <c val=\"#WhitemaneZeal\">Zelo</c> aos aliados com <c val=\"#WhitemaneZeal\">Zelo</c>.",
+      "name": "Resplendor",
+      "shortText": "<c val=\"#WhitemaneDesperation\">Desespero</c> cura aliados com <c val=\"#WhitemaneZeal\">Zelo</c>"
+    },
+    "WhitemaneInquisitionSharedPunishment|WhitemaneInquisitionSharedPunishment|W|Level16": {
+      "fullText": "Ao ser lançada, Inquisição pode se propagar para outro Herói inimigo perto do alvo, causando <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> de dano a cada <c val=\"#TooltipNumbers\">0.5</c> s. Inimigos afetados perdem <c val=\"#TooltipNumbers\">10</c> de Armadura.",
+      "name": "Punição Compartilhada",
+      "shortText": "Inquisição se propaga para um inimigo próximo; reduz Armadura"
+    },
+    "WhitemaneSearingLashHarshDiscipline|WhitemaneSearingLashHarshDiscipline|E|Level16": {
+      "fullText": "Se o Herói que estiver sendo alvo da Inquisição for atingido pelo Açoite Calcinante, ele ficará enraizado por <c val=\"#TooltipNumbers\">1.5</c> s.<n/><n/><c val=\"#AbilityPassive\">Passivo:</c> Reduz a recarga de Inquisição em <c val=\"#TooltipNumbers\">2</c> s.",
+      "name": "Disciplina Rigorosa",
+      "shortText": "Açoite Calcinante enraíza o alvo da Inquisição"
+    },
+    "WhitemaneScarletAegisScarletCrusade|WhitemaneScarletAegisScarletCrusade|Heroic|Level20": {
+      "fullText": "Égide Escarlate cura <c val=\"#TooltipNumbers\">50%</c> a mais e deixa os aliados afetados Irrefreáveis por <c val=\"#TooltipNumbers\">2</c> s.",
+      "name": "Cruzada Escarlate",
+      "shortText": "Égide Escarlate deixa os aliados Irrefreáveis"
+    },
+    "WhitemaneDivineReckoningJudgmentDay|WhitemaneDivineReckoningJudgmentDay|Heroic|Level20": {
+      "fullText": "Ajuste de Contas Divino causa mais <c val=\"#TooltipNumbers\">50%</c> de dano e puxa os inimigos para o centro ao atingi-los pela primeira vez.",
+      "name": "Dia do Julgamento",
+      "shortText": "Ajuste de Contas Divino puxa os inimigos"
+    },
+    "WhitemaneGuidingLight|WhitemaneGuidingLight|Active|Level20": {
+      "cooldownText": "Recarga: 30 segundos",
+      "fullText": "Ative para lançar em um Herói aliado um <c val=\"#WhitemaneZeal\">Zelo</c> permanente sem consumo de Mana que não concede <c val=\"#WhitemaneDesperation\">Desespero</c>. Só pode haver um ativo por vez e ele possui alcance de lançamento global.<n/><n/>Aumenta o bônus de Poder Mágico concedido pela especialização de Cristalba em 15%.",
+      "name": "Luz Guia",
+      "shortText": "Ative para lançar <c val=\"#WhitemaneZeal\">Zelo</c>"
+    },
+    "WhitemanePurgeTheWicked|WhitemanePurgeTheWicked|Active|Level20": {
+      "cooldownText": "Recarga: 40 segundos",
+      "fullText": "Ative para rechaçar um Herói inimigo com fogo sagrado, reduzindo em <c val=\"#TooltipNumbers\">25</c> a Armadura e causando <c val=\"#TooltipNumbers\">300</c><c val=\"#ColorGray\">~~0.04~~</c> de dano ao longo de <c val=\"#TooltipNumbers\">4</c> s.",
+      "name": "Expurgar o Mal",
+      "shortText": "Ative para causar dano e reduzir a Armadura"
+    }
+  },
+  "units": {}
+}

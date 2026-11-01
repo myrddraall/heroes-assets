@@ -1,0 +1,248 @@
+{
+  "abilities": {
+    "MonkRadiantDash|MonkRadiantDash|Q": {
+      "cooldownText": "Temps de recharge : 12 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 25</s>",
+      "fullText": "Bondit vers une unité alliée ou ennemie. Les ennemis subissent aussitôt une attaque de base.<n/><n/>Cumule jusqu’à <c val=\"#TooltipNumbers\">2</c> charges.",
+      "name": "Frappe éclair",
+      "shortText": "Bondit vers un allié ou un ennemi."
+    },
+    "MonkBreathOfHeaven|MonkBreathOfHeaven|W": {
+      "cooldownText": "Temps de recharge : 10 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 65</s>",
+      "fullText": "Rend <c val=\"#TooltipNumbers\">295</c><c val=\"#ColorGray\">~~0.04~~</c> points de vie aux héros alliés proches et augmente leur vitesse de déplacement de <c val=\"#TooltipNumbers\">15%</c> pendant <c val=\"#TooltipNumbers\">3</c> secondes.",
+      "name": "Souffle divin",
+      "shortText": "Rend des points de vie aux héros alliés proches et augmente la vitesse de déplacement."
+    },
+    "MonkDeadlyReach|MonkDeadlyReach|E": {
+      "cooldownText": "Temps de recharge : 10 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 45</s>",
+      "fullText": "La prochaine attaque de base augmente la vitesse et la portée d’attaque de <c val=\"#TooltipNumbers\">100%</c> pendant <c val=\"#TooltipNumbers\">2</c> secondes.",
+      "name": "Frappe mortelle",
+      "shortText": "Augmente la vitesse et la portée d’attaque."
+    },
+    "MonkSevenSidedStrike|MonkSevenSidedStrike|Heroic": {
+      "cooldownText": "Temps de recharge : 50 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 77</s>",
+      "fullText": "Rend invulnérable et frappe <c val=\"#TooltipNumbers\">7</c> fois en <c val=\"#TooltipNumbers\">2</c> secondes. Chaque frappe atteint le héros proche dont la vie est la plus élevée et lui inflige un montant de dégâts équivalent à <c val=\"#TooltipNumbers\">7%</c> de son maximum de points de vie.",
+      "name": "Les Sept frappes",
+      "shortText": "Rend invulnérable et frappe les héros proches."
+    },
+    "MonkDivinePalm|MonkDivinePalm|Heroic": {
+      "cooldownText": "Temps de recharge : 50 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 50</s>",
+      "fullText": "Empêche un héros allié de mourir et lui rend <c val=\"#TooltipNumbers\">1200</c><c val=\"#ColorGray\">~~0.04~~</c> points de vie en cas de dégâts létaux subis dans un délai de <c val=\"#TooltipNumbers\">4</c> secondes.",
+      "name": "Paume divine",
+      "shortText": "Empêche la mort d’un allié."
+    },
+    ":PASSIVE:|MonkBlankTrait|Trait": {
+      "fullText": "<c val=\"#TooltipNumbers\">Choisissez entre Transcendance, Poings d’acier et Spiritualité dans le panneau des talents.</c>",
+      "name": "Choisissez un trait",
+      "shortText": "Trait à choisir parmi 3 possibles."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Temps de recharge : 4 secondes",
+      "fullText": "Après <c val=\"#TooltipNumbers\">1</c> seconde de canalisation, augmente la vitesse de déplacement de <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Appeler une monture"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Après <c val=\"#TooltipNumbers\">6</c> secondes de canalisation, téléporte au hall des Tempêtes et rend instantanément <c val=\"#TooltipNumbers\">1125</c> points de vie et <c val=\"#TooltipNumbers\">150</c> points de mana.",
+      "name": "Pierre de foyer"
+    },
+    ":PASSIVE:|MonkDeadlyReachActive|E": {
+      "fullText": "La prochaine attaque de base augmente la vitesse et la portée d’attaque de <c val=\"#TooltipNumbers\">100%</c> pendant <c val=\"#TooltipNumbers\">2</c> secondes.",
+      "name": "Frappe mortelle activée"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Permet de descendre de la monture.",
+      "name": "Renvoyer la monture"
+    },
+    "HeroGenericSpellShield|GenericSpellShieldItemDisabled|Active": {
+      "fullText": "Bouclier anti-sort est désactivé et ne se déclenchera pas.<n/><n/>Cliquez sur ce bouton pour l’activer.",
+      "name": "Bouclier anti-sort - Désactivé",
+      "shortText": "Réduit les dégâts de capacité subis."
+    },
+    ":PASSIVE:|MonkInsight|Trait": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\"height=\"22\" /><c val=\"#TooltipQuest\">Quête :</c> chaque <c val=\"#TooltipNumbers\">3e</c> attaque de base rend <c val=\"#TooltipNumbers\">14</c><c val=\"#ColorGray\">~~0.04~~</c> points de mana, confère un cumul de spiritualité et augmente la vitesse de déplacement de <c val=\"#TooltipNumbers\">25%</c> pendant <c val=\"#TooltipNumbers\">2.5</c> secondes.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\"height=\"22\" /><c val=\"#TooltipQuest\">Récompense :</c> une fois <c val=\"#TooltipNumbers\">100</c> cumuls atteints, chaque <c val=\"#TooltipNumbers\">3e</c> attaque de base réduit aussi le temps de recharge des capacités de base de <c val=\"#TooltipNumbers\">1.75</c> seconde.",
+      "name": "Spiritualité"
+    },
+    ":PASSIVE:|MonkIronFists|Trait": {
+      "fullText": "Chaque <c val=\"#TooltipNumbers\">3e</c> attaque de base inflige <c val=\"#TooltipNumbers\">110%</c> de dégâts supplémentaires et augmente la vitesse de déplacement de <c val=\"#TooltipNumbers\">25%</c> pendant <c val=\"#TooltipNumbers\">2.5</c> secondes.",
+      "name": "Poings d’acier"
+    },
+    ":PASSIVE:|MonkTranscendence|Trait": {
+      "fullText": "Chaque <c val=\"#TooltipNumbers\">3e</c> attaque de base rend <c val=\"#TooltipNumbers\">104</c><c val=\"#ColorGray\">~~0.04~~</c> points de vie au héros proche dont la vie est la plus basse et augmente la vitesse de déplacement de <c val=\"#TooltipNumbers\">25%</c> pendant <c val=\"#TooltipNumbers\">2.5</c> secondes.",
+      "name": "Transcendance"
+    },
+    "MonkAirAlly|MonkAirAlly|Active": {
+      "cooldownText": "Temps de recharge : 30 secondes",
+      "fullText": "Place un allié d’air qui donne aux héros alliés <c val=\"#TooltipNumbers\">20%</c> à la puissance de capacité et dévoile une large zone autour de lui. Il dispose de <c val=\"#TooltipNumbers\">300</c><c val=\"#ColorGray\">~~0.04~~</c> points de vie, dure <c val=\"#TooltipNumbers\">10</c> secondes, et peut également servir de cible pour Frappe éclair.",
+      "name": "Allié d’air",
+      "shortText": "Place un allié d’air qui donne de la puissance de capacité et révèle une zone."
+    },
+    "MonkEarthAlly|MonkEarthAlly|Active": {
+      "cooldownText": "Temps de recharge : 45 secondes",
+      "fullText": "Place un allié de terre qui confère aux héros alliés proches <c val=\"#TooltipNumbers\">50</c> points d’armure physique contre les attaques de base de héros, ce qui réduit les dégâts qu’elles leur infligent de <c val=\"#TooltipNumbers\">50 %</c>. L’allié dispose de <c val=\"#TooltipNumbers\">400</c><c val=\"#ColorGray\">~~0.04~~</c> points de vie et dure <c val=\"#TooltipNumbers\">10</c> secondes. Peut également servir de cible pour Frappe éclair.",
+      "name": "Allié de terre",
+      "shortText": "Place un allié de terre qui confère de l’armure physique."
+    },
+    "MonkSpiritAlly|MonkSpiritAlly|Active": {
+      "cooldownText": "Temps de recharge : 45 secondes",
+      "fullText": "Place un allié d’esprit qui rend aux héros alliés présents dans une large zone autour de lui <c val=\"#TooltipNumbers\">2%</c> de leur maximum de points de vie toutes les secondes. L’allié dispose de <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c> points de vie et dure <c val=\"#TooltipNumbers\">10</c> secondes. Il peut également servir de cible pour Frappe éclair.",
+      "name": "Allié d’esprit",
+      "shortText": "Place un allié d’esprit qui prodigue des soins de zone."
+    },
+    "HeroGenericSpellShield|GenericSpellShieldItemEnabled|Active": {
+      "fullText": "Toutes les <c val=\"#TooltipNumbers\">30</c> secondes, confère <c val=\"#TooltipNumbers\">50</c> points d’armure anti-sort contre la prochaine capacité adverse, ainsi que contre celles qui lui succèdent dans un délai de <c val=\"#TooltipNumbers\">3</c> seconde, ce qui réduit les dégâts qu’elles infligent de <c val=\"#TooltipNumbers\">50%</c>.<n/><n/>Cliquer sur le bouton pour désactiver le déclenchement automatique de Bouclier anti-sort.",
+      "name": "Bouclier anti-sort - Activé",
+      "shortText": "Réduit les dégâts de capacité subis."
+    },
+    "TalentBucketStormShield|GenericStormShield|Active": {
+      "cooldownText": "Temps de recharge : 45 secondes",
+      "fullText": "Confère à tous les héros alliés proches un bouclier égal à <c val=\"#TooltipNumbers\">20%</c> du maximum de leurs points de vie pendant <c val=\"#TooltipNumbers\">3</c> secondes.",
+      "name": "Bouclier du Nexus",
+      "shortText": "Confère un bouclier à tous les alliés proches."
+    },
+    "MonkEpiphany|MonkEpiphany|Active": {
+      "cooldownText": "Temps de recharge : 70 secondes",
+      "fullText": "Rend <c val=\"#TooltipNumbers\">70%</c> du maximum de mana ainsi que <c val=\"#TooltipNumbers\">2</c> charges de Frappe éclair.",
+      "name": "Épiphanie",
+      "shortText": "Restaure du mana et des charges de Frappe éclair à l’activation."
+    }
+  },
+  "talents": {
+    "MonkTranscendence|MonkTranscendenceTalent|Trait|Level1": {
+      "fullText": "Chaque <c val=\"#TooltipNumbers\">3e</c> attaque de base rend <c val=\"#TooltipNumbers\">104</c><c val=\"#ColorGray\">~~0.04~~</c> points de vie au héros proche dont la vie est la plus basse et augmente la vitesse de déplacement de <c val=\"#TooltipNumbers\">25%</c> pendant <c val=\"#TooltipNumbers\">2.5</c> secondes.",
+      "name": "Transcendance",
+      "shortText": "Les attaques de base rendent des points de vie."
+    },
+    "MonkIronFists|MonkIronFistsTalent|Trait|Level1": {
+      "fullText": "Chaque <c val=\"#TooltipNumbers\">3e</c> attaque de base inflige <c val=\"#TooltipNumbers\">110%</c> de dégâts supplémentaires et augmente la vitesse de déplacement de <c val=\"#TooltipNumbers\">25%</c> pendant <c val=\"#TooltipNumbers\">2.5</c> secondes.",
+      "name": "Poings d’acier",
+      "shortText": "Les attaques de base infligent des dégâts supplémentaires."
+    },
+    "MonkInsight|MonkInsightTalent|Trait|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\"height=\"22\" /><c val=\"#TooltipQuest\">Quête :</c> chaque <c val=\"#TooltipNumbers\">3e</c> attaque de base rend <c val=\"#TooltipNumbers\">14</c><c val=\"#ColorGray\">~~0.04~~</c> points de mana, confère un cumul de spiritualité et augmente la vitesse de déplacement de <c val=\"#TooltipNumbers\">25%</c> pendant <c val=\"#TooltipNumbers\">2.5</c> secondes.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\"height=\"22\" /><c val=\"#TooltipQuest\">Récompense :</c> une fois <c val=\"#TooltipNumbers\">100</c> cumuls atteints, chaque <c val=\"#TooltipNumbers\">3e</c> attaque de base réduit aussi le temps de recharge des capacités de base de <c val=\"#TooltipNumbers\">1.75</c> seconde.",
+      "name": "Spiritualité",
+      "shortText": "<c val=\"#TooltipQuest\">Quête :</c> les attaques de base rendent du mana et réduisent les temps de recharge."
+    },
+    "MonkSpiritAlly|MonkSpiritAlly|Active|Level4": {
+      "cooldownText": "Temps de recharge : 45 secondes",
+      "fullText": "Place un allié d’esprit qui rend aux héros alliés présents dans une large zone autour de lui <c val=\"#TooltipNumbers\">2%</c> de leur maximum de points de vie toutes les secondes. L’allié dispose de <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c> points de vie et dure <c val=\"#TooltipNumbers\">10</c> secondes. Il peut également servir de cible pour Frappe éclair.",
+      "name": "Allié d’esprit",
+      "shortText": "Place un allié d’esprit qui prodigue des soins de zone."
+    },
+    "MonkEarthAlly|MonkEarthAlly|Active|Level4": {
+      "cooldownText": "Temps de recharge : 45 secondes",
+      "fullText": "Place un allié de terre qui confère aux héros alliés proches <c val=\"#TooltipNumbers\">50</c> points d’armure physique contre les attaques de base de héros, ce qui réduit les dégâts qu’elles leur infligent de <c val=\"#TooltipNumbers\">50 %</c>. L’allié dispose de <c val=\"#TooltipNumbers\">400</c><c val=\"#ColorGray\">~~0.04~~</c> points de vie et dure <c val=\"#TooltipNumbers\">10</c> secondes. Peut également servir de cible pour Frappe éclair.",
+      "name": "Allié de terre",
+      "shortText": "Place un allié de terre qui confère de l’armure physique."
+    },
+    "MonkAirAlly|MonkAirAlly|Active|Level4": {
+      "cooldownText": "Temps de recharge : 30 secondes",
+      "fullText": "Place un allié d’air qui donne aux héros alliés <c val=\"#TooltipNumbers\">20%</c> à la puissance de capacité et dévoile une large zone autour de lui. Il dispose de <c val=\"#TooltipNumbers\">300</c><c val=\"#ColorGray\">~~0.04~~</c> points de vie, dure <c val=\"#TooltipNumbers\">10</c> secondes, et peut également servir de cible pour Frappe éclair.",
+      "name": "Allié d’air",
+      "shortText": "Place un allié d’air qui donne de la puissance de capacité et révèle une zone."
+    },
+    "MonkBlindingSpeedRadiantDash|MonkBlindingSpeedTalent|Q|Level7": {
+      "fullText": "Réduit le temps de recharge de Frappe éclair de <c val=\"#TooltipNumbers\">2</c> secondes et augmente son nombre maximal de charges de <c val=\"#TooltipNumbers\">1</c>.",
+      "name": "Vitesse fulgurante",
+      "shortText": "Permet de lancer Frappe éclair plus fréquemment."
+    },
+    "MonkHeavenlyZealBreathofHeaven|MonkHeavenlyZealBreathofHeaven|W|Level7": {
+      "fullText": "Porte le bonus à la vitesse de déplacement conféré par Souffle divin à <c val=\"#TooltipNumbers\">30 %</c>. Effectuer une Frappe éclair vers un allié augmente les soins qu’il reçoit de Souffle divin de <c val=\"#TooltipNumbers\">50 %</c> pendant <c val=\"#TooltipNumbers\">3.5</c> secondes.",
+      "name": "Zèle divin",
+      "shortText": "Souffle divin augmente la vitesse de déplacement des alliés."
+    },
+    "MonkBlazingFistsDeadlyReach|MonkBlazingFistsTalent|E|Level7": {
+      "fullText": "Augmente la durée de Frappe mortelle de <c val=\"#TooltipNumbers\">100 %</c>. Chaque <c val=\"#TooltipNumbers\">3e</c> attaque de base réduit son temps de recharge de <c val=\"#TooltipNumbers\">0.75</c> secondes.",
+      "name": "Poings ardents",
+      "shortText": "Les attaques de base réduisent le temps de recharge de Frappe mortelle."
+    },
+    "MonkHeroicAbilityDivinePalm|MonkDivinePalm|Heroic|Level10": {
+      "cooldownText": "Temps de recharge : 50 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 50</s>",
+      "fullText": "Empêche un héros allié de mourir et lui rend <c val=\"#TooltipNumbers\">1200</c><c val=\"#ColorGray\">~~0.04~~</c> points de vie en cas de dégâts létaux subis dans un délai de <c val=\"#TooltipNumbers\">4</c> secondes.",
+      "name": "Paume divine",
+      "shortText": "Empêche la mort d’un allié."
+    },
+    "MonkHeroicAbilitySevenSidedStrike|MonkSevenSidedStrike|Heroic|Level10": {
+      "cooldownText": "Temps de recharge : 50 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 77</s>",
+      "fullText": "Rend invulnérable et frappe <c val=\"#TooltipNumbers\">7</c> fois en <c val=\"#TooltipNumbers\">2</c> secondes. Chaque frappe atteint le héros proche dont la vie est la plus élevée et lui inflige un montant de dégâts équivalent à <c val=\"#TooltipNumbers\">7%</c> de son maximum de points de vie.",
+      "name": "Les Sept frappes",
+      "shortText": "Rend invulnérable et frappe les héros proches."
+    },
+    "MonkQuicksilverRadiantDash|MonkQuicksilverTalent|Q|Level13": {
+      "fullText": "L’utilisation de Frappe éclair vers un allié confère aux deux héros une augmentation de leur vitesse de déplacement de <c val=\"#TooltipNumbers\">30%</c> pendant <c val=\"#TooltipNumbers\">3</c> secondes.",
+      "name": "Vif-argent",
+      "shortText": "Frappe éclair augmente la vitesse de déplacement."
+    },
+    "GenericTalentSpellShield|GenericSpellShieldTalent|Active|Level13": {
+      "fullText": "Toutes les <c val=\"#TooltipNumbers\">30</c> secondes, confère <c val=\"#TooltipNumbers\">50</c> points d’armure anti-sort contre la prochaine capacité adverse, ainsi que contre celles qui lui succèdent dans un délai de <c val=\"#TooltipNumbers\">3</c> seconde, ce qui réduit les dégâts qu’elles infligent de <c val=\"#TooltipNumbers\">50%</c>.<n/><n/>Le déclenchement automatique de ce talent peut être désactivé.",
+      "name": "Bouclier anti-sort",
+      "shortText": "Confère régulièrement, mais pour une courte durée, de l’armure anti-sort."
+    },
+    "MonkSixthSense|MonkSixthSense|Passive|Level13": {
+      "fullText": "En cas d’étourdissement ou d’immobilisation, confère <c val=\"#TooltipNumbers\">75</c> points d’armure physique contre les attaques de base de héros pendant <c val=\"#TooltipNumbers\">4</c> secondes, ce qui réduit les dégâts qu’elles infligent de <c val=\"#TooltipNumbers\">75%</c>. ",
+      "name": "Sixième sens",
+      "shortText": "Confère de l’armure physique en cas d’étourdissement ou d’immobilisation."
+    },
+    "MonkCleansingTouchRadiantDash|MonkCleansingTouch|Q|Level16": {
+      "fullText": "Effectuer une frappe éclair vers un allié le rend insensible aux effets de contrôle pendant <c val=\"#TooltipNumbers\">1</c> seconde.",
+      "name": "Toucher purificateur",
+      "shortText": "Frappe éclair rend l’allié insensible aux effets de contrôle."
+    },
+    "MonkWayoftheHundredFistsRadiantDash|MonkWayoftheHundredFistsTalent|Q|Level16": {
+      "fullText": "Lancer Frappe éclair sur un ennemi déclenche <c val=\"#TooltipNumbers\">6</c> attaques de base qui infligent <c val=\"#TooltipNumbers\">45%</c> de dégâts chacune.",
+      "name": "La Voie des mille poings",
+      "shortText": "Frappe éclair déclenche une volée de coups."
+    },
+    "MonkEchoofHeavenBreathofHeaven|MonkEchoofHeavenTalent|W|Level16": {
+      "fullText": "Souffle divin ne rend plus que <c val=\"#TooltipNumbers\">75%</c> du montant normal, mais se déclenche une seconde fois après <c val=\"#TooltipNumbers\">3</c> secondes.",
+      "name": "Écho divin",
+      "shortText": "Souffle divin rend des points de vie une seconde fois."
+    },
+    "MonkPeacefulReposeDivinePalm|MonkPeacefulReposeTalent|Heroic|Level20": {
+      "fullText": "Le montant de soins de Paume divine est augmenté de <c val=\"#TooltipNumbers\">75%</c> et son temps de recharge passe à <c val=\"#TooltipNumbers\">5</c> secondes si le héros ne meurt pas.",
+      "name": "Sommeil paisible",
+      "shortText": "Réduit le temps de recharge de Paume divine si la cible ne meurt pas."
+    },
+    "MonkElevenSidedStrikeSevenSidedStrike|MonkElevenSidedStrikeTalent|Heroic|Level20": {
+      "fullText": "Les Sept frappes touche jusqu’à <c val=\"#TooltipNumbers\">4</c> cibles supplémentaires.",
+      "name": "Transgression",
+      "shortText": "Les Sept frappes touchent davantage de cibles."
+    },
+    "MonkFistsofLegendTrait|MonkFistsofLegend|Trait|Level20": {
+      "fullText": "Confère <c val=\"#TooltipNumbers\">50 %</c> des bénéfices des deux talents de niveau <c val=\"#TooltipNumbers\">1</c> qui n’ont pas été choisis.",
+      "name": "Poings légendaires",
+      "shortText": "Obtient une partie des effets des talents du niveau 1."
+    },
+    "GenericTalentStormShield|GenericStormShield|Active|Level20": {
+      "cooldownText": "Temps de recharge : 45 secondes",
+      "fullText": "Confère à tous les héros alliés proches un bouclier égal à <c val=\"#TooltipNumbers\">20%</c> du maximum de leurs points de vie pendant <c val=\"#TooltipNumbers\">3</c> secondes.",
+      "name": "Bouclier du Nexus",
+      "shortText": "Confère un bouclier à tous les alliés proches."
+    },
+    "MonkEpiphany|MonkEpiphany|Active|Level20": {
+      "cooldownText": "Temps de recharge : 70 secondes",
+      "fullText": "Rend <c val=\"#TooltipNumbers\">70%</c> du maximum de mana ainsi que <c val=\"#TooltipNumbers\">2</c> charges de Frappe éclair.",
+      "name": "Épiphanie",
+      "shortText": "Restaure du mana et des charges de Frappe éclair à l’activation."
+    }
+  },
+  "units": {
+    "MonkAirAlly": {
+      "description": "Place un allié d’air qui donne aux héros alliés <c val=\"#TooltipNumbers\">20%</c> à la puissance de capacité et dévoile une large zone autour de lui. Il dispose de <c val=\"#TooltipNumbers\">300</c><c val=\"#ColorGray\">~~0.04~~</c> points de vie, dure <c val=\"#TooltipNumbers\">10</c> secondes, et peut également servir de cible pour Frappe éclair.",
+      "name": "Allié d’air"
+    },
+    "MonkEarthAlly": {
+      "description": "Place un allié de terre qui confère aux héros alliés proches <c val=\"#TooltipNumbers\">50</c> points d’armure physique contre les attaques de base de héros, ce qui réduit les dégâts qu’elles leur infligent de <c val=\"#TooltipNumbers\">50 %</c>. L’allié dispose de <c val=\"#TooltipNumbers\">400</c><c val=\"#ColorGray\">~~0.04~~</c> points de vie et dure <c val=\"#TooltipNumbers\">10</c> secondes. Peut également servir de cible pour Frappe éclair.",
+      "name": "Allié de terre"
+    },
+    "MonkSpiritAlly": {
+      "description": "Place un allié d’esprit qui rend aux héros alliés présents dans une large zone autour de lui <c val=\"#TooltipNumbers\">2%</c> de leur maximum de points de vie toutes les secondes. L’allié dispose de <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c> points de vie et dure <c val=\"#TooltipNumbers\">10</c> secondes. Il peut également servir de cible pour Frappe éclair.",
+      "name": "Allié d’esprit"
+    }
+  }
+}

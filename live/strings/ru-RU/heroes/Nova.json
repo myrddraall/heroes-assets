@@ -1,0 +1,187 @@
+{
+  "abilities": {
+    "NovaSnipeStorm|NovaSnipe|Q": {
+      "cooldownText": "Время восстановления: 6 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 50</s>",
+      "fullText": "Наносит первому пораженному противнику <c val=\"#TooltipNumbers\">230</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона.<n/><n/><c val=\"#AbilityPassive\">Пассивный эффект:</c> каждый раз, когда Нова попадает по герою «Снайперским выстрелом», урон от него увеличивается на <c val=\"#TooltipNumbers\">6%</c>, вплоть до <c val=\"#TooltipNumbers\">30%</c>, до конца матча. По достижении максимального бонуса урон дополнительно увеличивается на <c val=\"#TooltipNumbers\">25%</c>. Если «Снайперский выстрел» не попадает в цель, все бонусы теряются.",
+      "name": "Снайперский выстрел",
+      "shortText": "Наносит большой урон первому пораженному противнику."
+    },
+    "NovaPinningShot|NovaPinningShot|W": {
+      "cooldownText": "Время восстановления: 12 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 65</s>",
+      "fullText": "Наносит противнику <c val=\"#TooltipNumbers\">100</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона и замедляет его на <c val=\"#TooltipNumbers\">40%</c> на <c val=\"#TooltipNumbers\">2.25</c> сек.",
+      "name": "Калечащий выстрел",
+      "shortText": "Замедляет противника и наносит ему урон."
+    },
+    "NovaHoloDecoy|NovaHoloDecoy|E": {
+      "cooldownText": "Время восстановления: 15 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 50</s>",
+      "fullText": "На <c val=\"#TooltipNumbers\">5</c> сек. создает двойника, который атакует противников, нанося<c val=\"#TooltipNumbers\">10%</c> базового урона Новы. Двойники обладают запасом здоровья, равным <c val=\"#TooltipNumbers\">100%</c> запаса здоровья Новы, но получаемый ими урон удваивается.<n/><n/>Не нарушает маскировку.",
+      "name": "Голографический двойник",
+      "shortText": "Создает отвлекающую голограмму Новы."
+    },
+    "NovaTripleTap|NovaTripleTap|Heroic": {
+      "cooldownText": "Время восстановления: 100 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 100</s>",
+      "fullText": "Берет указанного героя на мушку и производит <c val=\"#TooltipNumbers\">3</c> <lang rule=\"plural\" val=\"\">выстрел,выстрела,выстрелов</lang> в его направлении. Выстрелы поражают первого героя или строение на своем пути. Каждый выстрел наносит <c val=\"#TooltipNumbers\">372</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона.",
+      "name": "Тройной выстрел",
+      "shortText": "Производит 3 выстрела по цели."
+    },
+    "NovaPrecisionStrike|NovaPrecisionStrike|Heroic": {
+      "cooldownText": "Время восстановления: 50 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 100</s>",
+      "fullText": "После паузы в <c val=\"#TooltipNumbers\">1.5</c> сек. наносит <c val=\"#TooltipNumbers\">435</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона противникам в области поражения. Дальность действия не ограничена.",
+      "name": "Точечный удар",
+      "shortText": "Наносит урон по области с любого расстояния."
+    },
+    ":PASSIVE:|NovaPermanentCloak|Trait": {
+      "fullText": "Нова получает маскировку после <c val=\"#TooltipNumbers\">3</c> сек. вне боя. Она теряет маскировку, когда получает урон, атакует, использует или поддерживает способности. Если Нова остается неподвижной в состоянии маскировки в течение <c val=\"#TooltipNumbers\">1.5</c> сек., она становится невидимой.<n/><n/><c val=\"#AbilityPassive\">Пассивный эффект:</c> находясь под маскировкой, Нова передвигается на <c val=\"#TooltipNumbers\">15%</c> быстрее.",
+      "name": "Постоянная маскировка",
+      "shortText": "Нова маскируется и передвигается быстрее, если не атакует и не получает урон."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Время восстановления: 4 сек.",
+      "fullText": "После подготовки длительностью <c val=\"#TooltipNumbers\">1</c> сек. повышает скорость передвижения на <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Вызов транспорта"
+    },
+    "NovaGhostProtocol|NovaGhostProtocol|Active": {
+      "cooldownText": "Время восстановления: 60 сек.",
+      "fullText": "При использовании Нова мгновенно получает маскировку и оставляет после себя голографического двойника. Нову нельзя обнаружить в течение первых <c val=\"#TooltipNumbers\">0.5</c> сек. после использования «Протокола \"Призрак\"».",
+      "name": "Протокол «Призрак»",
+      "shortText": "Мгновенно дает маскировку и создает голографического двойника."
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "После поддержания в течение <c val=\"#TooltipNumbers\">6</c> сек. телепортирует героя в Зал Штормов, моментально восполняя <c val=\"#TooltipNumbers\">1125</c> ед. здоровья и <c val=\"#TooltipNumbers\">150</c> ед. маны.",
+      "name": "Возвращение"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Покинуть транспорт.",
+      "name": "Отмена транспорта"
+    },
+    "NovaCovertMission|NovaCovertMission|Active": {
+      "fullText": "При каждой гибели воина противника рядом с Новой она получает эффект «Подкупа». При убийстве героя Нова получает <c val=\"#TooltipNumbers\">10</c> эффектов. Потратив <c val=\"#TooltipNumbers\">25</c> эффектов, Нова может подкупить выбранного наемника, мгновенно одержав над ним победу. Не действует на элитных наемников. Максимум эффектов — <c val=\"#TooltipNumbers\">100</c>. Если подкупить всех наемников в лагере, он восстанавливается на <c val=\"#TooltipNumbers\">50%</c> быстрее.<n/><n/><c val=\"ffff8a\">Количество эффектов «Подкупа»: </c><c val=\"#TooltipNumbers\">0</c>",
+      "name": "Секретное задание",
+      "shortText": "Убивайте воинов или героев, чтобы подкупать наемников."
+    },
+    "TalentRewind|GenericRewindHotbar|Active": {
+      "cooldownText": "Время восстановления: 60 сек.",
+      "fullText": "При использовании мгновенно обнуляет время восстановления базовых способностей вашего героя.",
+      "name": "Перемотка",
+      "shortText": "Обнуляет время восстановления способностей."
+    }
+  },
+  "talents": {
+    "NovaMasteryLongshot|NovaPinningShotLongshotTalent|W|Level1": {
+      "fullText": "Увеличивает дальность применения «Калечащего выстрела» на <c val=\"#TooltipNumbers\">30%</c>. «Калечащий выстрел» также увеличивает дальность следующей автоатаки Новы на <c val=\"#TooltipNumbers\">2.3</c> м.",
+      "name": "Дальнострел",
+      "shortText": "Увеличивает дальность применения «Калечащего выстрела»."
+    },
+    "NovaCovertOps|NovaCovertOpsTalent|W|Level1": {
+      "fullText": "Проведя под маскировкой <c val=\"#TooltipNumbers\">2</c> сек., Нова может использовать «Калечащий выстрел» без затрат маны. При этом эффективность замедления повышается до <c val=\"#TooltipNumbers\">60%</c>. Бонус пропадает, если Нова остается видимой в течение <c val=\"#TooltipNumbers\">1</c> сек.",
+      "name": "Секретная операция",
+      "shortText": "Маскировка усиливает замедление и снижает стоимость «Калечащего выстрела»."
+    },
+    "NovaAdvancedCloaking|NovaPermanentCloakSniperAdvancedCloakingTalent|Trait|Level1": {
+      "fullText": "Проведя под маскировкой <c val=\"#TooltipNumbers\">1</c> сек., Нова получает дополнительный бонус к скорости передвижения в <c val=\"#TooltipNumbers\">10%</c>. Под маскировкой скорость восстановления маны повышается на <c val=\"#TooltipNumbers\">6</c> ед. в секунду.",
+      "name": "Улучшенная маскировка",
+      "shortText": "Маскировка восполняет ману и ускоряет передвижение."
+    },
+    "NovaRapidProjection|NovaHoloDecoyRapidProjectionTalent|E|Level4": {
+      "fullText": "Уменьшает время восстановления и стоимость «Голографического двойника» на <c val=\"#TooltipNumbers\">60%</c>.",
+      "name": "Быстрое проецирование",
+      "shortText": "Ускоряет восстановление и снижает стоимость «Голографического двойника»."
+    },
+    "NovaHoloStability|NovaHoloDecoyHoloStabilityTalent|E|Level4": {
+      "fullText": "Увеличивает дальность применения «Голографического двойника» на <c val=\"#TooltipNumbers\">100%</c>, а время существования — на <c val=\"#TooltipNumbers\">120%</c>.<n/><n/><c val=\"#AbilityPassive\">Пассивный эффект:</c> время восстановления «Протокола \"Призрак\"» сокращается на <c val=\"#TooltipNumbers\">15</c> сек.",
+      "name": "Стабильные голограммы",
+      "shortText": "Увеличивает дальность и время действия голографических двойников."
+    },
+    "NovaCovertMission|NovaCovertMissionTalent|Active|Level4": {
+      "fullText": "При каждой гибели воина противника рядом с Новой она получает эффект «Подкуп». При убийстве героя Нова получает <c val=\"#TooltipNumbers\">10</c> эффектов. Потратив <c val=\"#TooltipNumbers\">25</c> эффектов, Нова может подкупить выбранного наемника, таким образом мгновенно одержав над ним победу. Не действует на элитных наемников. Максимум эффектов – <c val=\"#TooltipNumbers\">100</c>. Если подкупить всех наемников в лагере, он восстанавливается на <c val=\"#TooltipNumbers\">50%</c> быстрее.",
+      "name": "Секретное задание",
+      "shortText": "Убивайте воинов или героев, чтобы подкупать наемников."
+    },
+    "NovaMasteryPerfectShotSnipe|NovaPerfectShotTalent|Q|Level7": {
+      "fullText": "При попадании по цели «Снайперским выстрелом» сокращает время его восстановления на <c val=\"#TooltipNumbers\">2</c> сек. и восполняет половину затраченной маны. Эффект удваивается, если целью являются герои.",
+      "name": "Идеальный выстрел",
+      "shortText": "При попадании «Снайперский выстрел» восстанавливается быстрее и восполняет ману."
+    },
+    "NovaCombatStyleOneintheChamber|NovaOneintheChamberTalent|Passive|Level7": {
+      "fullText": "Первая совершенная в течение <c val=\"#TooltipNumbers\">3</c> сек. после использования способности автоатака Новы наносит <c val=\"#TooltipNumbers\">65%</c> дополнительного урона.",
+      "name": "Усиленный патрон",
+      "shortText": "Усиливает следующую автоатаку при использовании способностей."
+    },
+    "NovaCombatStyleAntiArmorShells|NovaAntiArmorShellsTalent|Passive|Level7": {
+      "fullText": "Автоатаки наносят <c val=\"#TooltipNumbers\">250%</c> урона и ослабляют кинетическую броню героев на <c val=\"#TooltipNumbers\">15</c> ед. на <c val=\"#TooltipNumbers\">4</c> сек., но скорость атаки Новы уменьшается пропорционально.",
+      "name": "Бронебойные пули",
+      "shortText": "Автоатаки наносят больше урона и ослабляют кинетическую броню."
+    },
+    "NovaHeroicAbilityTripleTap|NovaTripleTap|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 100 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 100</s>",
+      "fullText": "Берет указанного героя на мушку и производит <c val=\"#TooltipNumbers\">3</c> <lang rule=\"plural\" val=\"\">выстрел,выстрела,выстрелов</lang> в его направлении. Выстрелы поражают первого героя или строение на своем пути. Каждый выстрел наносит <c val=\"#TooltipNumbers\">372</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона.",
+      "name": "Тройной выстрел",
+      "shortText": "Производит 3 выстрела по цели."
+    },
+    "NovaHeroicAbilityPrecisionStrike|NovaPrecisionStrike|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 50 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 100</s>",
+      "fullText": "После паузы в <c val=\"#TooltipNumbers\">1.5</c> сек. наносит <c val=\"#TooltipNumbers\">435</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона противникам в области поражения. Дальность действия не ограничена.",
+      "name": "Точечный удар",
+      "shortText": "Наносит урон по области с любого расстояния."
+    },
+    "NovaMasteryPsionicEfficiency|NovaSnipePsionicEfficiencyTalent|Q|Level13": {
+      "fullText": "Увеличивает дальность действия «Снайперского выстрела» на <c val=\"#TooltipNumbers\">15%</c>. Дает дополнительный эффект «Искусного снайпера», если «Снайперский выстрел» поражает героя.",
+      "name": "Пси-эффективность",
+      "shortText": "«Снайперский выстрел» бьет дальше; дает больше эффектов «Искусного снайпера»."
+    },
+    "NovaMasteryDoubleTap|NovaPinningShotDoubleTapTalent|W|Level13": {
+      "fullText": "«Калечащий выстрел» имеет <c val=\"#TooltipNumbers\">2</c> заряда, но время его восстановления увеличивается на <c val=\"#TooltipNumbers\">2</c> сек.",
+      "name": "Двойной выстрел",
+      "shortText": "«Калечащий выстрел» получает второй заряд, но восстанавливается дольше."
+    },
+    "NovaIonicForceField|NovaIonicForceFieldTalent|Trait|Level13": {
+      "fullText": "После выхода из маскировки Нова получает <c val=\"#TooltipNumbers\">25</c> ед. брони на <c val=\"#TooltipNumbers\">3</c> сек.",
+      "name": "Ионное поле",
+      "shortText": "Дает броню после выхода из маскировки."
+    },
+    "NovaMasteryExplosiveShot|NovaSnipeExplosiveRoundTalent|Q|Level16": {
+      "fullText": "«Снайперский выстрел» также наносит <c val=\"#TooltipNumbers\">90%</c> урона противникам рядом с пораженной целью.",
+      "name": "Разрывные пули",
+      "shortText": "«Снайперский выстрел» наносит урон по области."
+    },
+    "NovaMasteryCripplingShot|NovaPinningShotCripplingShotTalent|W|Level16": {
+      "fullText": "Герои, пораженные «Калечащим выстрелом», теряют <c val=\"#TooltipNumbers\">20</c> ед. брони и получают на <c val=\"#TooltipNumbers\">20%</c> больше урона, пока на них действует эффект замедления.",
+      "name": "Увечащий выстрел",
+      "shortText": "«Калечащий выстрел» ослабляет броню цели."
+    },
+    "NovaMasteryLethalDecoy|NovaHoloDecoyLethalDecoyTalent|E|Level16": {
+      "fullText": "Увеличивает урон голографического двойника до <c val=\"#TooltipNumbers\">30%</c> урона Новы.",
+      "name": "Смертельная приманка",
+      "shortText": "«Голографический двойник» наносит больше урона."
+    },
+    "NovaMasteryFastReload|NovaTripleTapFastReloadTalent|Heroic|Level20": {
+      "fullText": "Мгновенно восстанавливает «Тройной выстрел», если он убивает героя.",
+      "name": "Скоростная перезарядка",
+      "shortText": "Восстанавливает «Тройной выстрел», если он убивает героя."
+    },
+    "NovaMasteryPrecisionBarrage|NovaPrecisionStrikePrecisionBarrageTalent|Heroic|Level20": {
+      "fullText": "«Точечный удар» получает <c val=\"#TooltipNumbers\">дополнительный</c> заряд, а время его восстановления уменьшается на <c val=\"#TooltipNumbers\">25</c> сек.",
+      "name": "Точечный залп",
+      "shortText": "«Точечный удар» восстанавливается быстрее и получает дополнительный заряд."
+    },
+    "NovaApolloSuit|NovaGhostProtocolApolloSuitTalent|Trait|Level20": {
+      "fullText": "Уменьшает время восстановления «Постоянной маскировки» на <c val=\"#TooltipNumbers\">2</c> сек.",
+      "name": "Скафандр «Аполлон»",
+      "shortText": "Ускоряет восстановление «Постоянной маскировки»."
+    },
+    "GenericTalentRewind|GenericRewindHotbar|Active|Level20": {
+      "cooldownText": "Время восстановления: 60 сек.",
+      "fullText": "При использовании мгновенно обнуляет время восстановления базовых способностей вашего героя.",
+      "name": "Перемотка",
+      "shortText": "Обнуляет время восстановления способностей."
+    }
+  },
+  "units": {}
+}

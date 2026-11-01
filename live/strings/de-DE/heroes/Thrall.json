@@ -1,0 +1,208 @@
+{
+  "abilities": {
+    "ThrallChainLightning|ThrallChainLightning|Q": {
+      "cooldownText": "Abklingzeit: 7 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 40</s>",
+      "fullText": "Schleudert einen Blitz auf einen Gegner und fügt ihm <c val=\"#TooltipNumbers\">170</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zu. Danach springt der Blitz <c val=\"#TooltipNumbers\">3</c>-mal auf Gegner in der Nähe über und fügt jedem von ihnen <c val=\"#TooltipNumbers\">85</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zu.",
+      "name": "Kettenblitz",
+      "shortText": "Trifft Gegner mit einem überspringenden Blitz."
+    },
+    "ThrallFeralSpirit|ThrallFeralSpirit|W": {
+      "cooldownText": "Abklingzeit: 10 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 40</s>",
+      "fullText": "Entfesselt einen Wolfsgeist, der Gegnern auf seinem Weg <c val=\"#TooltipNumbers\">153</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zufügt und Helden <c val=\"#TooltipNumbers\">1</c> Sek. lang bewegungsunfähig macht. Jeder getroffene Held erhöht die zurückgelegte Entfernung um <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Wildgeist",
+      "shortText": "Ein Wolfsgeist verbrennt Gegner und macht Helden bewegungsunfähig."
+    },
+    "ThrallWindfury|Windfury|E": {
+      "cooldownText": "Abklingzeit: 12 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Erhöht die Bewegungsgeschwindigkeit <c val=\"#TooltipNumbers\">4</c> Sek. lang um <c val=\"#TooltipNumbers\">30%</c>. Die nächsten <c val=\"#TooltipNumbers\">3</c> automatischen Angriffe sind <c val=\"#TooltipNumbers\">100%</c> schneller und gewähren Stapel von Ausdauer der Frostwölfe.",
+      "name": "Windzorn",
+      "shortText": "Erhöht die Angriffs- und Bewegungsgeschwindigkeit."
+    },
+    "ThrallSundering|Sundering|Heroic": {
+      "cooldownText": "Abklingzeit: 70 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 75</s>",
+      "fullText": "Reißt die Erde nach <c val=\"#TooltipNumbers\">0.5</c> Sek. in einer geraden Linie auf. Fügt Gegnern <c val=\"#TooltipNumbers\">290</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zu, stößt sie weg und betäubt sie <c val=\"#TooltipNumbers\">1</c> Sek. lang.",
+      "name": "Zerschlagung",
+      "shortText": "Fügt Gegnern in einer geraden Linie Schaden zu, stößt sie weg und betäubt sie."
+    },
+    "ThrallEarthquake|ThrallEarthquake|Heroic": {
+      "cooldownText": "Abklingzeit: 100 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 90</s>",
+      "fullText": "Erzeugt nach <c val=\"#TooltipNumbers\">0.5</c> Sek. ein starkes Erdbeben, das die Erde alle <c val=\"#TooltipNumbers\">4</c> Sek. erschüttert. Jede Erschütterung dauert <c val=\"#TooltipNumbers\">2</c> Sek. lang an, verlangsamt alle Gegner im Wirkungsbereich um <c val=\"#TooltipNumbers\">50%</c> und fügt gegnerischen Helden <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zu. Löst <c val=\"#TooltipNumbers\">3</c> Erschütterungen aus.",
+      "name": "Erdbeben",
+      "shortText": "Verlangsamt Gegner in einem großen Wirkungsbereich."
+    },
+    ":PASSIVE:|ThrallFrostwolfResilience|Trait": {
+      "fullText": "Wenn Thrall durch Fähigkeiten Schaden verursacht, erhält er <c val=\"#TooltipNumbers\">1</c> Stapel von Ausdauer der Frostwölfe. Sobald Thrall über <c val=\"#TooltipNumbers\">5</c> Stapel verfügt, wird er sofort um <c val=\"#TooltipNumbers\">240</c><c val=\"#ColorGray\">~~0.04~~</c> Lebenspunkte geheilt.",
+      "name": "Ausdauer der Frostwölfe",
+      "shortText": "Wenn Thrall Fähigkeiten einsetzt, erhält er Stapel, die ihn heilen."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Abklingzeit: 4 Sek.",
+      "fullText": "Erhöht die Bewegungsgeschwindigkeit nach <c val=\"#TooltipNumbers\">1</c> Sek. Kanalisierung um <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Aufsitzen"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Kanalisiert <c val=\"#TooltipNumbers\">6</c> Sek. lang und teleportiert sich dann zurück zum Altar der Stürme. Dabei werden sofort <c val=\"#TooltipNumbers\">1125</c> Lebenspunkte und <c val=\"#TooltipNumbers\">150</c> Mana wiederhergestellt.",
+      "name": "Ruhestein"
+    },
+    "ThrallCancelSundering|ThrallSunderingCancel|Heroic": {
+      "fullText": "Bricht die Zerschlagung ab.",
+      "name": "Zerschlagung"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Sitzt ab.",
+      "name": "Absitzen"
+    },
+    "ThrallSpiritShield|ThrallSpiritShieldDisabled|Active": {
+      "fullText": "Der Geisterschild ist deaktiviert und wird nicht mehr ausgelöst.<n/><n/>Ein Klick auf diese Schaltfläche aktiviert den Geisterschild wieder.",
+      "name": "Geisterschild",
+      "shortText": "Aktivieren, um den erlittenen Fähigkeitsschaden zu verringern."
+    },
+    "ThrallAncestralWrath|ThrallAncestralWrath|Active": {
+      "fullText": "Aktivieren, um im Austausch für <c val=\"#TooltipNumbers\">8</c> Stapel Zorn der Ahnen dem anvisierten gegnerischen Helden im Verlauf von <c val=\"#TooltipNumbers\">3</c> Sek. Schaden in Höhe von <c val=\"#TooltipNumbers\">15%</c> seiner maximalen Lebenspunkte zuzufügen. Dabei wird Thrall um <c val=\"#TooltipNumbers\">150%</c> des verursachten Schadens geheilt.<n/><n/>Erzeugt jedes Mal <c val=\"#TooltipNumbers\">1</c> Stapel Zorn der Ahnen, wenn Ausdauer der Frostwölfe aktiviert wird.",
+      "name": "Zorn der Ahnen",
+      "shortText": "Aktivieren, um einem Helden Schaden zuzufügen und ihm Lebenspunkte zu stehlen."
+    },
+    "ThrallFrostwolfsGrace|ThrallFrostwolfResilience|Trait": {
+      "cooldownText": "Abklingzeit: 15 Sek.",
+      "fullText": "Wenn Thrall durch Fähigkeiten Schaden verursacht, erhält er <c val=\"#TooltipNumbers\">1</c> Stapel von Ausdauer der Frostwölfe. Sobald Thrall über <c val=\"#TooltipNumbers\">5</c> Stapel verfügt, wird er sofort um <c val=\"#TooltipNumbers\">240</c><c val=\"#ColorGray\">~~0.04~~</c> Lebenspunkte geheilt.",
+      "name": "Ausdauer der Frostwölfe",
+      "shortText": "Wenn Thrall Fähigkeiten einsetzt, erhält er Stapel, die ihn heilen."
+    },
+    "ThrallSpiritShield|ThrallSpiritShieldEnabled|Active": {
+      "cooldownText": "Abklingzeit: 45 Sek.",
+      "fullText": "Gewährt alle <c val=\"#TooltipNumbers\">45</c> Sek. <c val=\"#TooltipNumbers\">70</c> Zauberpanzerung gegen die nächste gegnerische Fähigkeit sowie weitere Fähigkeiten innerhalb von <c val=\"#TooltipNumbers\">4</c> Sek. Ausdauer der Frostwölfe verringert die Abklingzeit um <c val=\"#TooltipNumbers\">10</c> Sek.<n/><n/>Der automatische Einsatz dieser Fähigkeit kann deaktiviert werden.",
+      "name": "Geisterschild"
+    },
+    "ThrallWindRush|ThrallWindRush|Active": {
+      "cooldownText": "Abklingzeit: 90 Sek.",
+      "fullText": "Aktivieren, um sofort an den Zielort zu teleportieren und Windzorn zu erhalten.",
+      "name": "Windsturm",
+      "shortText": "Aktivieren, um zu teleportieren und Windzorn zu erhalten."
+    }
+  },
+  "talents": {
+    "ThrallEchooftheElements|ThrallEchooftheElements|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Töte Diener oder Helden innerhalb von <c val=\"#TooltipNumbers\">2</c> Sek., nachdem sie vom Kettenblitz getroffen wurden.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Belohnung:</c> Sobald <c val=\"#TooltipNumbers\">20</c> Gegner getötet wurden, verringern sich die Manakosten des Kettenblitzes von <c val=\"#TooltipNumbers\">40</c> auf <c val=\"#TooltipNumbers\">20</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Belohnung:</c> Nachdem <c val=\"#TooltipNumbers\">50</c> Gegner getötet wurden, gewährt der Kettenblitz eine weitere Aufladung.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Mythische Belohnung:</c> Nachdem <c val=\"#TooltipNumbers\">125</c> Gegner getötet wurden, kann Kettenblitz dasselbe Ziel mehrmals treffen und trifft pro Übersprung <c val=\"#TooltipNumbers\">1</c> zusätzliches Ziel.",
+      "name": "Echo der Elemente",
+      "shortText": "<c val=\"#TooltipQuest\">Quest:</c> Das Töten von Gegnern gewährt Aufladungen und Überspringen von Kettenblitzen."
+    },
+    "ThrallCrashLightning|ThrallCrashLightning|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Triff mindestens <c val=\"#TooltipNumbers\">2</c> Helden mit einem einzigen Kettenblitz. Wenn du stirbst, verlierst du <c val=\"#TooltipNumbers\">4</c> Stapel. Erhaltene Belohnungen gehen nicht verloren.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Belohnung:</c> Nachdem du <c val=\"#TooltipNumbers\">15</c>-mal mehrere Helden getroffen hast, verursacht der Kettenblitz <c val=\"#TooltipNumbers\">270</c> beim Überspringen nach dem ersten Treffer zusätzlichen Schaden.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Mythische Belohnung:</c> Nachdem du <c val=\"#TooltipNumbers\">30</c>-mal mehrere Helden getroffen hast, verursacht Kettenblitz <c val=\"#TooltipNumbers\">325</c> beim Überspringen zusätzlichen Schaden und springt vorzugsweise auf gegnerische Helden über.",
+      "name": "Tobende Blitze",
+      "shortText": "<c val=\"#TooltipQuest\">Quest:</c> Mehrere Heldentreffer verstärken den Kettenblitz."
+    },
+    "ThrallMaelstromWeapon|ThrallMaelstromWeapon|E|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Greife Helden mit automatischen Angriffen an, während Windzorns Bewegungsgeschwindigkeitsbonus aktiv ist.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Belohnung:</c> Sobald <c val=\"#TooltipNumbers\">25</c> Helden getroffen wurden, erhöht sich der Bewegungsgeschwindigkeitsbonus von Windzorn auf <c val=\"#TooltipNumbers\">40%</c> und Thralls automatische Angriffe verursachen <c val=\"#TooltipNumbers\">40</c> zusätzlichen Schaden.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Belohnung:</c> Sobald <c val=\"#TooltipNumbers\">55</c> Helden getroffen wurden, erhält Thrall dauerhaft<c val=\"#TooltipNumbers\">15%</c> erhöhte Bewegungsgeschwindigkeit und seine automatischen Angriffe verursachen <c val=\"#TooltipNumbers\">75</c> zusätzlichen Schaden.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Mythische Belohnung:</c> Sobald <c val=\"#TooltipNumbers\">100</c> Helden getroffen wurden, gibt dir die Heilung mit Ausdauer der Frostwölfe <c val=\"#TooltipNumbers\">200%</c> mehr Lebenspunkte zurück.",
+      "name": "Waffe des Mahlstroms",
+      "shortText": "<c val=\"#TooltipQuest\">Quest: </c>Angriffe mit Windzorn erhöhen die Bewegungsgeschwindigkeit."
+    },
+    "ThrallFeralResilience|ThrallFeralResilience|W|Level4": {
+      "fullText": "Mit Wildgeist getroffene Helden gewähren <c val=\"#TooltipNumbers\">4</c> Stapel Ausdauer der Frostwölfe und <c val=\"#TooltipNumbers\">2</c> Stapel Wilde Entschlossenheit, die <c val=\"#TooltipNumbers\">75</c> physische Panzerung gegen den nächsten automatischen Angriff eines Helden bieten.<n/><n/>Beim nächsten Einsatz von Wildgeist werden alle Stapel verbraucht.",
+      "name": "Wilde Entschlossenheit",
+      "shortText": "Wildgeist gewährt physische Panzerung und Ausdauer der Frostwölfe."
+    },
+    "ThrallFrostwolfPack|ThrallFrostwolfPack|W|Level4": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Triff <c val=\"#TooltipNumbers\">6</c> Helden mit Wildgeist. Der Fortschritt geht beim Tod verloren oder wenn kein Held getroffen wird.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Belohnung:</c> Verringert die Abklingzeit und die Manakosten von Wildgeist um <c val=\"#TooltipNumbers\">50%</c>.",
+      "name": "Frostwolfrudel",
+      "shortText": "<c val=\"#TooltipQuest\">Quest:</c> Verringert die Abklingzeit und die Kosten von Wildgeist."
+    },
+    "ThrallMasteryManaTide|ThrallManaTideTalent|Trait|Level4": {
+      "fullText": "Ausdauer der Frostwölfe stellt <c val=\"#TooltipNumbers\">15</c> Mana wieder her und verringert die Abklingzeiten der Grundfähigkeiten um <c val=\"#TooltipNumbers\">0.5</c> Sek.",
+      "name": "Manaflut",
+      "shortText": "Ausdauer der Frostwölfe stellt Mana wieder her und verringert Abklingzeiten."
+    },
+    "ThrallMasteryRollingThunder|ThrallRollingThunderTalent|Q|Level7": {
+      "fullText": "<c val=\"#AbilityPassive\">Passiv</c>: Kettenblitz springt einmal mehr über.<n/><n/>Thralls nächster automatischer Angriff auf Gegner, die bis zu <c val=\"#TooltipNumbers\">8</c> Sek. vorher von Kettenblitz getroffen wurden, gewährt einen Stapel von Ausdauer der Frostwölfe. Wenn das Ziel ein gegnerischer Held ist, fügt er ihm zusätzlich Schaden in Höhe von <c val=\"#TooltipNumbers\">3 %</c> der maximalen Lebenspunkte des Ziels zu und heilt sich um dieselbe Menge.<n/>",
+      "name": "Donnergrollen",
+      "shortText": "Kettenblitz verstärkt automatische Angriffe und springt einmal mehr über."
+    },
+    "ThrallAncestralWrath|ThrallAncestralWrath|Active|Level7": {
+      "fullText": "Aktivieren, um im Austausch für <c val=\"#TooltipNumbers\">8</c> Stapel Zorn der Ahnen dem anvisierten gegnerischen Helden im Verlauf von <c val=\"#TooltipNumbers\">3</c> Sek. Schaden in Höhe von <c val=\"#TooltipNumbers\">15%</c> seiner maximalen Lebenspunkte zuzufügen. Dabei wird Thrall um <c val=\"#TooltipNumbers\">150%</c> des verursachten Schadens geheilt.<n/><n/>Erzeugt jedes Mal <c val=\"#TooltipNumbers\">1</c> Stapel Zorn der Ahnen, wenn Ausdauer der Frostwölfe aktiviert wird.",
+      "name": "Zorn der Ahnen",
+      "shortText": "Aktivieren, um einem Helden Schaden zuzufügen und ihm Lebenspunkte zu stehlen."
+    },
+    "ThrallElementalAssault|ThrallElementalAssault|Passive|Level7": {
+      "fullText": "Thralls nächster automatischer Angriff innerhalb von <c val=\"#TooltipNumbers\">4</c> Sek. nach dem Einsatz einer Fähigkeit verursacht <c val=\"#TooltipNumbers\">45%</c> mehr Schaden.",
+      "name": "Elementarattacke",
+      "shortText": "Fähigkeiten erhöhen den Schaden automatischer Angriffe."
+    },
+    "ThrallHeroicAbilitySundering|Sundering|Heroic|Level10": {
+      "cooldownText": "Abklingzeit: 70 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 75</s>",
+      "fullText": "Reißt die Erde nach <c val=\"#TooltipNumbers\">0.5</c> Sek. in einer geraden Linie auf. Fügt Gegnern <c val=\"#TooltipNumbers\">290</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zu, stößt sie weg und betäubt sie <c val=\"#TooltipNumbers\">1</c> Sek. lang.",
+      "name": "Zerschlagung",
+      "shortText": "Fügt Gegnern in einer geraden Linie Schaden zu, stößt sie weg und betäubt sie."
+    },
+    "ThrallHeroicAbilityEarthquake|ThrallEarthquake|Heroic|Level10": {
+      "cooldownText": "Abklingzeit: 100 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 90</s>",
+      "fullText": "Erzeugt nach <c val=\"#TooltipNumbers\">0.5</c> Sek. ein starkes Erdbeben, das die Erde alle <c val=\"#TooltipNumbers\">4</c> Sek. erschüttert. Jede Erschütterung dauert <c val=\"#TooltipNumbers\">2</c> Sek. lang an, verlangsamt alle Gegner im Wirkungsbereich um <c val=\"#TooltipNumbers\">50%</c> und fügt gegnerischen Helden <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zu. Löst <c val=\"#TooltipNumbers\">3</c> Erschütterungen aus.",
+      "name": "Erdbeben",
+      "shortText": "Verlangsamt Gegner in einem großen Wirkungsbereich."
+    },
+    "ThrallMasteryGraceOfAir|ThrallGraceOfAirTalent|E|Level13": {
+      "fullText": "Angriffe mit Windzorn gewähren doppelt so viele Stapel von Ausdauer der Frostwölfe.",
+      "name": "Luftgleiche Anmut",
+      "shortText": "Windzorn gewährt doppelt so viele Stapel von Ausdauer der Frostwölfe."
+    },
+    "ThrallMasteryFrostwolfsGrace|ThrallFrostwolfResilienceSurgeOfHealing|Trait|Level13": {
+      "cooldownText": "Abklingzeit: 15 Sek.",
+      "fullText": "Ausdauer der Frostwölfe kann aktiviert werden, um sofort zu heilen. Erhöht die Heilung basierend auf den fehlenden Lebenspunkten um bis zu <c val=\"#TooltipNumbers\">100%</c>.",
+      "name": "Anmut der Frostwölfe",
+      "shortText": "Ausdauer der Frostwölfe aktivieren, um sofort zu heilen."
+    },
+    "ThrallSpiritShield|ThrallSpiritShield|Active|Level13": {
+      "cooldownText": "Abklingzeit: 45 Sek.",
+      "fullText": "Gewährt alle <c val=\"#TooltipNumbers\">45</c> Sek. <c val=\"#TooltipNumbers\">70</c> Zauberpanzerung gegen die nächste gegnerische Fähigkeit sowie weitere Fähigkeiten innerhalb von <c val=\"#TooltipNumbers\">4</c> Sek. Ausdauer der Frostwölfe verringert die Abklingzeit um <c val=\"#TooltipNumbers\">10</c> Sek.<n/><n/>Der automatische Einsatz dieser Fähigkeit kann deaktiviert werden.",
+      "name": "Geisterschild",
+      "shortText": "Gewährt regelmäßig kurzzeitige Zauberpanzerung."
+    },
+    "ThrallMasteryTempestFury|ThrallTempestFuryTalent|E|Level16": {
+      "fullText": "Der letzte automatische Angriff, der von Windzorn profitiert, wird <c val=\"#TooltipNumbers\">3</c>-mal ausgeführt und verursacht jeweils <c val=\"#TooltipNumbers\">75 % </c>des normalen Schadens. Diese Treffer bringen dir keinen Questfortschritt.",
+      "name": "Sturmzorn",
+      "shortText": "Der letzte automatische Angriff, der von Windzorn profitiert, wird dreimal ausgeführt."
+    },
+    "ThrallThunderstorm|ThrallThunderstorm|Q|Level16": {
+      "fullText": "Verlangsamt das Hauptziel <c val=\"#TooltipNumbers\">2</c> Sek. lang um <c val=\"#TooltipNumbers\">8%</c>, wenn Kettenblitz gegen Helden eingesetzt wird.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Der direkte Einsatz von Kettenblitz gegen einen Helden erhöht diese Verlangsamung um <c val=\"#TooltipNumbers\">8%</c>, bis maximal <c val=\"#TooltipNumbers\">40%</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Belohnung:</c> Wenn der Bonus <c val=\"#TooltipNumbers\">40%</c> beträgt, wird der Schaden von Kettenblitz um <c val=\"#TooltipNumbers\">30%</c> erhöht.<n/><n/>Boni gehen beim Tod von Thrall verloren oder wenn der Kettenblitz aufeinanderfolgend gegen denselben Helden eingesetzt wird.",
+      "name": "Gewitter",
+      "shortText": "<c val=\"#TooltipQuest\">Quest:</c> Triff Helden, damit der Kettenblitz verlangsamt."
+    },
+    "ThrallAlphaWolf|ThrallAlphaWolf|W|Level16": {
+      "fullText": "Nachdem ein Held mit Wildgeist getroffen wurde, wird der Schaden von Thralls automatischen Angriffen gegen dieses Ziel <c val=\"#TooltipNumbers\">3</c> Sek. lang um <c val=\"#TooltipNumbers\">3%</c> der maximalen Lebenspunkte des Ziels erhöht.<n/><n/><c val=\"#AbilityPassive\">Passiv:</c> Erhöht die Dauer der Bewegungsunfähigkeit auf <c val=\"#TooltipNumbers\">1.5</c> Sek.",
+      "name": "Alphawolf",
+      "shortText": "Macht länger bewegungsunfähig. Verstärkt Angriffe."
+    },
+    "ThrallMasteryWorldbreaker|ThrallWorldbreakerTalent|Heroic|Level20": {
+      "fullText": "Verringert die Abklingzeit der Zerschlagung um <c val=\"#TooltipNumbers\">40</c> Sek. Außerdem lässt die Zerschlagung einen unpassierbaren Erdspalt zurück, der <c val=\"#TooltipNumbers\">3</c> Sek. lang Bewegungen in diesem Gebiet einschränkt.",
+      "name": "Weltenbrecher",
+      "shortText": "Die Zerschlagung macht das Terrain unpassierbar."
+    },
+    "ThrallMasteryEarthenShields|ThrallEarthenShieldsTalent|Heroic|Level20": {
+      "fullText": "Gewährt Verbündeten im Wirkungsbereich des Erdbebens Schilde in Höhe von <c val=\"#TooltipNumbers\">15%</c> ihrer maximalen Lebenspunkte. Die Schilde werden mit jedem Beben neu erzeugt und bleiben jeweils <c val=\"#TooltipNumbers\">4</c> Sek. lang bestehen.",
+      "name": "Irdener Schild",
+      "shortText": "Gewährt Verbündeten im Wirkungsbereich Schilde."
+    },
+    "ThrallElementalMomentum|ThrallElementalMomentum|Passive|Level20": {
+      "fullText": "Automatische Angriffe verringern die Abklingzeiten der Grundfähigkeiten und heroischen Fähigkeiten um <c val=\"#TooltipNumbers\">0.25</c> Sek. Dieser Wert wird bei Angriffen auf Helden verdreifacht.",
+      "name": "Elementarschwung",
+      "shortText": "Automatische Angriffe verringern die Abklingzeiten von Fähigkeiten."
+    },
+    "GenericTalentNexusBlades|NexusBladesTalent|Passive|Level20": {
+      "fullText": "Automatische Angriffe verursachen <c val=\"#TooltipNumbers\">20%</c> mehr Schaden und verringern die Bewegungsgeschwindigkeit von Gegnern <c val=\"#TooltipNumbers\">1</c> Sek. lang um <c val=\"#TooltipNumbers\">20%</c>.",
+      "name": "Nexusklingen",
+      "shortText": "Automatische Angriffe verursachen mehr Schaden und verlangsamen."
+    },
+    "ThrallWindRush|ThrallWindRush|Active|Level20": {
+      "cooldownText": "Abklingzeit: 90 Sek.",
+      "fullText": "Aktivieren, um sofort an den Zielort zu teleportieren und Windzorn zu erhalten.",
+      "name": "Windsturm",
+      "shortText": "Aktivieren, um zu teleportieren und Windzorn zu erhalten."
+    }
+  },
+  "units": {}
+}

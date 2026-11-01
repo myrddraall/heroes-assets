@@ -1,0 +1,207 @@
+{
+  "abilities": {
+    "AnaHealingDart|AnaHealingDart|Q": {
+      "cooldownText": "冷卻時間：2秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：10點</s>",
+      "fullText": "發射治療鏢，為第一位擊中的友方英雄恢復<c val=\"#TooltipNumbers\">195</c><c val=\"#ColorGray\">~~0.04~~</c>點生命值。生命值全滿的英雄不受影響。",
+      "name": "治療鏢",
+      "shortText": "發射治療鏢，治療盟友"
+    },
+    "AnaBioticGrenade|AnaBioticGrenade|W": {
+      "cooldownText": "冷卻時間：16秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：50點</s>",
+      "fullText": "朝目標區域投擲生化手榴彈，為範圍內的友方英雄治療<c val=\"#TooltipNumbers\">152</c><c val=\"#ColorGray\">~~0.04~~</c>點生命值，並且使其從安娜獲得的治療效果提高<c val=\"#TooltipNumbers\">25%</c>，持續<c val=\"#TooltipNumbers\">4</c>秒。此外，生化手榴彈會對範圍內的敵人造成<c val=\"#TooltipNumbers\">60</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，並且使其獲得的治療效果降低<c val=\"#TooltipNumbers\">100%</c>，持續<c val=\"#TooltipNumbers\">1.75</c>秒。<n/><n/>若生化手榴彈沒有擊中敵人，冷卻時間便縮短<c val=\"#TooltipNumbers\">3</c>秒，且若只有擊中安娜，冷卻時間再額外縮短<c val=\"#TooltipNumbers\">2</c>秒。",
+      "name": "生化手榴彈",
+      "shortText": "投擲手榴彈治療盟友，並且防止敵人獲得治療"
+    },
+    "AnaSleepDart|AnaSleepDart|E": {
+      "cooldownText": "冷卻時間：14秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：50點</s>",
+      "fullText": "發射睡眠鏢，使第一個擊中的敵方英雄沉睡並且昏迷<c val=\"#TooltipNumbers\">3</c>秒。沉睡的目標如果在<c val=\"#TooltipNumbers\">0.5</c>秒後受到傷害會立即醒來。<n/><n/><c val=\"ffff8a\">睡眠鏢對載具無效。</c>",
+      "name": "睡眠鏢",
+      "shortText": "發射睡眠鏢使目標沉睡"
+    },
+    "AnaNanoBoost|AnaNanoBoost|Heroic": {
+      "cooldownText": "冷卻時間：70秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：60點</s>",
+      "fullText": "立即強化一位友方英雄，為其恢復<c val=\"#TooltipNumbers\">200</c>點法力。在接下來的<c val=\"#TooltipNumbers\">8</c>秒內，目標提高<c val=\"#TooltipNumbers\">30%</c>法術強度，並且基本技能冷卻恢復速度提高<c val=\"#TooltipNumbers\">150%</c>。<n/><n/><c val=\"ffff8a\">無法對安娜使用。</c>",
+      "name": "奈米強化",
+      "shortText": "賦予盟友法術強度，降低冷卻時間"
+    },
+    "AnaEyeOfHorusActivate|AnaEyeOfHorusActivate|Heroic": {
+      "cooldownText": "冷卻時間：60秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：45點</s>",
+      "fullText": "進入狙擊狀態，在這個狀態下可以發射<c val=\"#TooltipNumbers\">6</c>發沒有距離限制的特製狙擊子彈。子彈會穿透路徑上的友方和敵方英雄，但是無法穿透敵方建築。命中盟友會為其恢復<c val=\"#TooltipNumbers\">225</c><c val=\"#ColorGray\">~~0.04~~</c>點生命值，命中敵人會造成<c val=\"#TooltipNumbers\">135</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。對建築造成的傷害降低<c val=\"#TooltipNumbers\">50%</c>。<n/><n/>安娜在荷魯斯之眼啟動期間無法移動。",
+      "name": "荷魯斯之眼",
+      "shortText": "發射沒有距離限制、可造成傷害或治療的子彈"
+    },
+    "AnaAimDownSightsActivate|AnaAimDownSightsActivate|Trait": {
+      "cooldownText": "冷卻時間：4秒",
+      "fullText": "基本攻擊會對敵人附加一層藥劑效果，在<c val=\"#TooltipNumbers\">5</c>秒內造成<c val=\"#TooltipNumbers\">40</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，再加上等同於目標當前堆疊層數的額外傷害，最多可堆疊<c val=\"#TooltipNumbers\">5</c>層。安娜每<c val=\"#TooltipNumbers\">0.5</c>秒會恢復相當於「代號：伯勞」造成傷害值<c val=\"#TooltipNumbers\">60%</c>的治療量。<n/><n/><s val=\"StandardTooltipHeader\">狙擊鏡</s><n/><n/>啟動「代號：伯勞」會使你的移動速度降低<c val=\"#TooltipNumbers\">25%</c>，但可使治療鏢和睡眠鏢的距離提高<c val=\"#TooltipNumbers\">25%</c>，並且貫穿一名英雄。",
+      "name": "代號：伯勞",
+      "shortText": "基本攻擊會造成持續傷害"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "冷卻時間：4秒",
+      "fullText": "引導<c val=\"#TooltipNumbers\">1</c>秒後，提高<s val=\"StandardTooltipDetails\">30%</s>移動速度。",
+      "name": "召喚坐騎"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "引導<c val=\"#TooltipNumbers\">6</c>秒後傳送回風暴祭壇，立即恢復<c val=\"#TooltipNumbers\">1125</c>點生命值和<c val=\"#TooltipNumbers\">150</c>點法力值。",
+      "name": "爐石"
+    },
+    "AnaEyeOfHorusAttackDummy|AnaEyeOfHorusHighPoweredRound|Q": {
+      "cooldownText": "冷卻時間：1秒",
+      "fullText": "發射一發沒有距離限制的特製狙擊子彈，子彈會穿透路徑上所有友方和敵方英雄。命中盟友會為其恢復<c val=\"#TooltipNumbers\">225</c><c val=\"#ColorGray\">~~0.04~~</c>點生命值，命中敵人會造成<c val=\"#TooltipNumbers\">135</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。對建築造成的傷害降低<c val=\"#TooltipNumbers\">50%</c>。",
+      "name": "高爆子彈"
+    },
+    "AnaEyeOfHorusCancel|AnaEyeOfHorusCancel|W": {
+      "fullText": "取消荷魯斯之眼",
+      "name": "取消荷魯斯之眼"
+    },
+    "AnaEyeOfHorusCancel|AnaEyeOfHorusCancel|E": {
+      "fullText": "取消荷魯斯之眼",
+      "name": "取消荷魯斯之眼"
+    },
+    "AnaEyeOfHorusAttackDummy|AnaEyeOfHorusHighPoweredRound|Heroic": {
+      "cooldownText": "冷卻時間：1秒",
+      "fullText": "發射一發沒有距離限制的特製狙擊子彈，子彈會穿透路徑上所有友方和敵方英雄。命中盟友會為其恢復<c val=\"#TooltipNumbers\">225</c><c val=\"#ColorGray\">~~0.04~~</c>點生命值，命中敵人會造成<c val=\"#TooltipNumbers\">135</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。對建築造成的傷害降低<c val=\"#TooltipNumbers\">50%</c>。",
+      "name": "高爆子彈"
+    },
+    "AnaAimDownSightsDeactivate|AnaAimDownSightsDeactivate|Trait": {
+      "cooldownText": "冷卻時間：4秒",
+      "fullText": "基本攻擊會對敵人附加一層藥劑效果，在<c val=\"#TooltipNumbers\">5</c>秒內造成<c val=\"#TooltipNumbers\">40</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，再加上等同於目標當前堆疊層數的額外傷害，最多可堆疊<c val=\"#TooltipNumbers\">5</c>層。安娜每<c val=\"#TooltipNumbers\">0.5</c>秒會恢復相當於「代號：伯勞」造成傷害值<c val=\"#TooltipNumbers\">60%</c>的治療量。<n/><n/><s val=\"StandardTooltipHeader\">狙擊鏡</s><n/><n/>啟動「代號：伯勞」會使你的移動速度降低<c val=\"#TooltipNumbers\">25%</c>，但可使治療鏢和睡眠鏢的距離提高<c val=\"#TooltipNumbers\">25%</c>，並且貫穿一名英雄。",
+      "name": "取消「代號：伯勞」"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "離開坐騎。",
+      "name": "離開坐騎"
+    },
+    "AnaDebilitatingDart|AnaDebilitatingDart|Active": {
+      "cooldownText": "冷卻時間：20秒",
+      "fullText": "發射衰竭鏢，使第一個擊中的敵方英雄移動速度和造成的傷害降低<c val=\"#TooltipNumbers\">50%</c>，持續<c val=\"#TooltipNumbers\">4</c>秒。如果沒有命中英雄，使此效果的冷卻時間降低<c val=\"#TooltipNumbers\">8</c>秒。",
+      "name": "衰竭鏢",
+      "shortText": "發射降低傷害並且造成緩速的飛鏢"
+    },
+    "AnaDetachableBoxMagazine|AnaDetachableBoxMagazineActive|Active": {
+      "cooldownText": "冷卻時間：60秒",
+      "fullText": "啟動後，可立即獲得<c val=\"#TooltipNumbers\">3</c>發治療鏢的使用次數。",
+      "name": "主動裝填",
+      "shortText": "獲得額外的治療鏢使用次數"
+    }
+  },
+  "talents": {
+    "AnaBioticGrenadeContactHealing|AnaBioticGrenadeContactHealing|W|Level1": {
+      "fullText": "生化手榴彈每擊中一位英雄會使其傷害和治療量提高<c val=\"#TooltipNumbers\">30%</c>。",
+      "name": "震爆治療",
+      "shortText": "生化手榴彈擊中多位英雄可提高傷害和治療量"
+    },
+    "AnaSleepingDartSlumberShells|AnaSleepingDartSlumberShells|E|Level1": {
+      "fullText": "睡眠鏢的冷卻時間降低<c val=\"#TooltipNumbers\">2</c>秒。敵方英雄醒來後，會緩速<c val=\"#TooltipNumbers\">25%</c>，持續<c val=\"#TooltipNumbers\">3</c>秒。",
+      "name": "沉睡鏢",
+      "shortText": "降低睡眠鏢的冷卻時間，並且會造成緩速"
+    },
+    "AnaShrikeVampiricRounds|AnaShrikeVampiricRounds|Trait|Level1": {
+      "fullText": "「代號：伯勞」的治療量提高<c val=\"#TooltipNumbers\">15%</c>。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">重複性任務：</c>堆疊<c val=\"#TooltipNumbers\">5</c>層藥劑效果可使「代號：伯勞」的治療量提高<c val=\"#TooltipNumbers\">1%</c>。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">重複性任務：</c>對身上有<c val=\"#TooltipNumbers\">5</c>層藥劑效果的英雄施展基本攻擊可使「代號：伯勞」的治療量提高<c val=\"#TooltipNumbers\">0.25%</c>。",
+      "name": "吸血鏢",
+      "shortText": "<c val=\"#TooltipQuest\">任務：</c>提高「代號：伯勞」治療量"
+    },
+    "AnaBioticGrenadeBioticEnhancements|AnaBioticGrenadeBioticEnhancements|W|Level4": {
+      "fullText": "生化手榴彈的治療加成持續時間提高<c val=\"#TooltipNumbers\">50%</c>，冷卻時間降低<c val=\"#TooltipNumbers\">3</c>秒。",
+      "name": "生化增強",
+      "shortText": "強化生化手榴彈"
+    },
+    "AnaOverdose|AnaOverdose|E|Level4": {
+      "fullText": "睡眠鏢會附加<c val=\"#TooltipNumbers\">4</c>層藥劑效果。在狙擊鏡啟動期間，睡眠鏢會穿透所有敵方英雄。",
+      "name": "加重劑量",
+      "shortText": "睡眠鏢會附加藥劑效果，並且可穿透敵方英雄"
+    },
+    "AnaDebilitatingDart|AnaDebilitatingDart|Active|Level4": {
+      "cooldownText": "冷卻時間：20秒",
+      "fullText": "發射衰竭鏢，使第一個擊中的敵方英雄移動速度和造成的傷害降低<c val=\"#TooltipNumbers\">50%</c>，持續<c val=\"#TooltipNumbers\">4</c>秒。如果沒有命中英雄，使此效果的冷卻時間降低<c val=\"#TooltipNumbers\">8</c>秒。",
+      "name": "衰竭鏢",
+      "shortText": "發射降低傷害並且造成緩速的飛鏢"
+    },
+    "AnaBioticGrenadeAntiHealer|AnaBioticGrenadeAntiHealer|W|Level7": {
+      "fullText": "生化手榴彈的範圍提高<c val=\"#TooltipNumbers\">25%</c>，降低治療量的效果持續時間提高<c val=\"#TooltipNumbers\">0.75</c>秒。",
+      "name": "治療剋星",
+      "shortText": "強化生化手榴彈"
+    },
+    "AnaSleepDartNightTerrors|AnaSleepDartNightTerrors|E|Level7": {
+      "fullText": "睡眠鏢每命中一名英雄，可獲得<c val=\"#TooltipNumbers\">25%</c>的移動速度，持續<c val=\"#TooltipNumbers\">2</c>秒。當陷入沉睡的敵方英雄甦醒時，會受到自身最大生命值<c val=\"#TooltipNumbers\">8%</c>的傷害。",
+      "name": "厄夜之懼",
+      "shortText": "強化睡眠鏢"
+    },
+    "AnaMindNumbingAgent|AnaMindNumbingAgent|Trait|Level7": {
+      "fullText": "每一層藥劑效果會使敵方英雄的法術強度降低<c val=\"#TooltipNumbers\">10%</c>。",
+      "name": "麻痺藥劑",
+      "shortText": "藥劑效果會降低法術強度"
+    },
+    "AnaHeroicAbilityNanaBoost|AnaNanoBoost|Heroic|Level10": {
+      "cooldownText": "冷卻時間：70秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：60點</s>",
+      "fullText": "立即強化一位友方英雄，為其恢復<c val=\"#TooltipNumbers\">200</c>點法力。在接下來的<c val=\"#TooltipNumbers\">8</c>秒內，目標提高<c val=\"#TooltipNumbers\">30%</c>法術強度，並且基本技能冷卻恢復速度提高<c val=\"#TooltipNumbers\">150%</c>。<n/><n/><c val=\"ffff8a\">無法對安娜使用。</c>",
+      "name": "奈米強化",
+      "shortText": "賦予盟友法術強度，降低冷卻時間"
+    },
+    "AnaHeroicAbilityEyeOfHorus|AnaEyeOfHorusActivate|Heroic|Level10": {
+      "cooldownText": "冷卻時間：60秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：45點</s>",
+      "fullText": "進入狙擊狀態，在這個狀態下可以發射<c val=\"#TooltipNumbers\">6</c>發沒有距離限制的特製狙擊子彈。子彈會穿透路徑上的友方和敵方英雄，但是無法穿透敵方建築。命中盟友會為其恢復<c val=\"#TooltipNumbers\">225</c><c val=\"#ColorGray\">~~0.04~~</c>點生命值，命中敵人會造成<c val=\"#TooltipNumbers\">135</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。對建築造成的傷害降低<c val=\"#TooltipNumbers\">50%</c>。<n/><n/>安娜在荷魯斯之眼啟動期間無法移動。",
+      "name": "荷魯斯之眼",
+      "shortText": "發射沒有距離限制、可造成傷害或治療的子彈"
+    },
+    "AnaHealingDartSpeedSerum|AnaHealingDartSpeedSerum|Q|Level13": {
+      "fullText": "治療鏢會使英雄的移動速度提高<c val=\"#TooltipNumbers\">25%</c>，持續<c val=\"#TooltipNumbers\">2</c>秒。",
+      "name": "加速血清",
+      "shortText": "治療鏢會提高移動速度"
+    },
+    "AnaHealingDartPurifyingDarts|AnaHealingDartPurifyingDarts|Q|Level13": {
+      "fullText": "治療鏢會移除目標的緩速和定身效果，若移除效果，治療量額外提高<c val=\"#TooltipNumbers\">20%</c>。",
+      "name": "紓解鏢",
+      "shortText": "治療鏢會移除緩速和定身"
+    },
+    "AnaHealingDartSmellingSalts|AnaHealingDartSmellingSalts|Q|Level13": {
+      "fullText": "治療鏢會移除目標身上的昏迷效果，移除效果時會賦予目標<c val=\"#TooltipNumbers\">50</c>點護甲，持續<c val=\"#TooltipNumbers\">2</c>秒。",
+      "name": "特製嗅鹽",
+      "shortText": "治療鏢會移除昏迷效果"
+    },
+    "AnaHealingDartSharpshooter|AnaHealingDartSharpshooter|Q|Level16": {
+      "fullText": "治療鏢擊中英雄可使其治療量提高<c val=\"#TooltipNumbers\">5%</c>，最多可提高<c val=\"#TooltipNumbers\">50%</c>。達到加成上限後，治療量會額外提高<c val=\"#TooltipNumbers\">35%</c>。若治療鏢未擊中英雄，會重置此加成效果。",
+      "name": "狙擊高手",
+      "shortText": "治療鏢連續命中可強化效果"
+    },
+    "AnaHealingDartConcentratedDoses|AnaHealingDartConcentratedDoses|Q|Level16": {
+      "fullText": "敵方英雄身上每一層藥劑效果，可使治療鏢的治療量提高<c val=\"#TooltipNumbers\">12%</c>。",
+      "name": "濃縮藥劑",
+      "shortText": "藥劑效果會強化治療鏢"
+    },
+    "AnaDetachableBoxMagazine|AnaDetachableBoxMagazineActive|Active|Level16": {
+      "cooldownText": "冷卻時間：60秒",
+      "fullText": "啟動後，可立即獲得<c val=\"#TooltipNumbers\">3</c>發治療鏢的使用次數。",
+      "name": "主動裝填",
+      "shortText": "獲得額外的治療鏢使用次數"
+    },
+    "AnaNanoInfusion|AnaNanoInfusion|Heroic|Level20": {
+      "fullText": "獲得奈米強化的盟友會恢復相當於<c val=\"#TooltipNumbers\">50%</c>法術傷害的生命值。",
+      "name": "奈米注射",
+      "shortText": "奈米強化會讓目標造成傷害時獲得治療"
+    },
+    "AnaEyeOfHorusDeadeye|AnaEyeOfHorusDeadeye|Heroic|Level20": {
+      "fullText": "荷魯斯之眼的冷卻時間縮短至<c val=\"#TooltipNumbers\">6</c>秒，但每隔<c val=\"#TooltipNumbers\">10</c>秒才會獲得子彈。剩餘的冷卻時間會轉化成子彈。<n/><n/>荷魯斯之眼每擊中一名英雄，便使傷害和治療量提高<c val=\"#TooltipNumbers\">5%</c>。這個加成在退出荷魯斯之眼或隔<c val=\"#TooltipNumbers\">4</c>秒後便會重置。",
+      "name": "神槍手",
+      "shortText": "荷魯斯之眼的子彈冷卻持續時間"
+    },
+    "AnaShrikeArmoredStance|AnaShrikeArmoredStance|Trait|Level20": {
+      "fullText": "「代號：伯勞」的傷害提高<c val=\"#TooltipNumbers\">50%</c>。在狙擊鏡啟動期間可獲得<c val=\"#TooltipNumbers\">25</c>點護甲。",
+      "name": "護甲姿態",
+      "shortText": "強化「代號：伯勞」"
+    },
+    "AnaDynamicOptics|AnaDynamicOptics|Trait|Level20": {
+      "fullText": "基本攻擊可使攻擊速度提高<c val=\"#TooltipNumbers\">10%</c>，持續<c val=\"#TooltipNumbers\">3</c>秒，最多可提高<c val=\"#TooltipNumbers\">100%</c>。在狙擊鏡作用期間，你的基本攻擊距離可提高<c val=\"#TooltipNumbers\">4</c>格。",
+      "name": "動態狙擊鏡",
+      "shortText": "強化基本攻擊"
+    }
+  },
+  "units": {}
+}

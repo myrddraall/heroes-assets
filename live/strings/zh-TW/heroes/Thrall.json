@@ -1,0 +1,208 @@
+{
+  "abilities": {
+    "ThrallChainLightning|ThrallChainLightning|Q": {
+      "cooldownText": "冷卻時間：7秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：40點</s>",
+      "fullText": "以閃電轟擊一名敵人，造成<c val=\"#TooltipNumbers\">170</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。這道閃電接著會彈跳至附近敵人<c val=\"#TooltipNumbers\">3</c>次，擊中時造成<c val=\"#TooltipNumbers\">85</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。",
+      "name": "閃電鏈",
+      "shortText": "以會彈跳的閃電轟擊敵人"
+    },
+    "ThrallFeralSpirit|ThrallFeralSpirit|W": {
+      "cooldownText": "冷卻時間：10秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：40點</s>",
+      "fullText": "放出野性之魂，對路徑上的敵人造成<c val=\"#TooltipNumbers\">153</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，並且對命中的英雄造成定身效果，持續<c val=\"#TooltipNumbers\">1</c>秒。每擊中一名英雄，可使野性之魂的行進距離提高<c val=\"#TooltipNumbers\">25%</c>。",
+      "name": "野性之魂",
+      "shortText": "放出狼魂，灼燒敵人並且使英雄定身"
+    },
+    "ThrallWindfury|Windfury|E": {
+      "cooldownText": "冷卻時間：12秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：60點</s>",
+      "fullText": "索爾的移動速度提高<c val=\"#TooltipNumbers\">30%</c>，持續<c val=\"#TooltipNumbers\">4</c>秒，下<c val=\"#TooltipNumbers\">3</c>次基本攻擊速度會提高<c val=\"#TooltipNumbers\">100%</c>，並且堆疊霜狼韌性效果。",
+      "name": "風怒",
+      "shortText": "提高攻擊速度和移動速度"
+    },
+    "ThrallSundering|Sundering|Heroic": {
+      "cooldownText": "冷卻時間：70秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：75點</s>",
+      "fullText": "延遲<c val=\"#TooltipNumbers\">0.5</c>秒後，以直線路徑劈裂地面，造成<c val=\"#TooltipNumbers\">290</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害並將敵人推至兩旁，使其昏迷<c val=\"#TooltipNumbers\">1</c>秒。",
+      "name": "裂地浩劫",
+      "shortText": "推開直線路徑上的敵人，造成傷害的同時使他們昏迷"
+    },
+    "ThrallEarthquake|ThrallEarthquake|Heroic": {
+      "cooldownText": "冷卻時間：100秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：90點</s>",
+      "fullText": "延遲<c val=\"#TooltipNumbers\">0.5</c>秒後，引發大地震，每<c val=\"#TooltipNumbers\">4</c>秒震盪一次。每次震盪會持續<c val=\"#TooltipNumbers\">2</c>秒，使範圍內所有敵人緩速<c val=\"#TooltipNumbers\">50%</c>，並對敵方英雄造成<c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。共震盪<c val=\"#TooltipNumbers\">3</c>次。",
+      "name": "地震術",
+      "shortText": "使大範圍內的敵人緩速"
+    },
+    ":PASSIVE:|ThrallFrostwolfResilience|Trait": {
+      "fullText": "使用技能造成傷害時，可以獲得<c val=\"#TooltipNumbers\">1</c>層霜狼韌性。堆疊至<c val=\"#TooltipNumbers\">5</c>層時，索爾可以立即恢復<c val=\"#TooltipNumbers\">240</c><c val=\"#ColorGray\">~~0.04~~</c>點生命值。",
+      "name": "霜狼韌性",
+      "shortText": "對敵人施放技能時，可以累積加成以恢復生命值"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "冷卻時間：4秒",
+      "fullText": "引導<c val=\"#TooltipNumbers\">1</c>秒後，提高<s val=\"StandardTooltipDetails\">30%</s>移動速度。",
+      "name": "召喚坐騎"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "引導<c val=\"#TooltipNumbers\">6</c>秒後傳送回風暴祭壇，立即恢復<c val=\"#TooltipNumbers\">1125</c>點生命值和<c val=\"#TooltipNumbers\">150</c>點法力值。",
+      "name": "爐石"
+    },
+    "ThrallCancelSundering|ThrallSunderingCancel|Heroic": {
+      "fullText": "取消裂地浩劫",
+      "name": "裂地浩劫"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "離開坐騎。",
+      "name": "離開坐騎"
+    },
+    "ThrallSpiritShield|ThrallSpiritShieldDisabled|Active": {
+      "fullText": "靈魂護盾已停用，不會觸發。<n/><n/>按此按鈕可啟用靈魂護盾。",
+      "name": "靈魂護盾",
+      "shortText": "啟動後降低受到的技能傷害"
+    },
+    "ThrallAncestralWrath|ThrallAncestralWrath|Active": {
+      "fullText": "啟動後，消耗<c val=\"#TooltipNumbers\">8</c>層先祖之怒，在<c val=\"#TooltipNumbers\">3</c>秒內對目標敵方英雄造成相當於其最大生命值<c val=\"#TooltipNumbers\">15%</c>的傷害，同時使索爾恢復相當於傷害值<c val=\"#TooltipNumbers\">150%</c>的生命值。<n/><n/>每次啟動霜狼韌性，可獲得<c val=\"#TooltipNumbers\">1</c>層先祖之怒。",
+      "name": "先祖之怒",
+      "shortText": "啟動後，攻擊敵方英雄並且吸取對方的生命值"
+    },
+    "ThrallFrostwolfsGrace|ThrallFrostwolfResilience|Trait": {
+      "cooldownText": "冷卻時間：15秒",
+      "fullText": "使用技能造成傷害時，可以獲得<c val=\"#TooltipNumbers\">1</c>層霜狼韌性。堆疊至<c val=\"#TooltipNumbers\">5</c>層時，索爾可以立即恢復<c val=\"#TooltipNumbers\">240</c><c val=\"#ColorGray\">~~0.04~~</c>點生命值。",
+      "name": "霜狼韌性",
+      "shortText": "對敵人施放技能時，可以累積加成以恢復生命值"
+    },
+    "ThrallSpiritShield|ThrallSpiritShieldEnabled|Active": {
+      "cooldownText": "冷卻時間：45秒",
+      "fullText": "每<c val=\"#TooltipNumbers\">45</c>秒會獲得<c val=\"#TooltipNumbers\">70</c>點法術護甲，使下次和後續<c val=\"#TooltipNumbers\">4</c>秒內受到的敵方技能傷害降低。霜狼韌性可使此效果的冷卻時間降低<c val=\"#TooltipNumbers\">10</c>秒。<n/><n/>可以開啟或關閉自動觸發此技能。",
+      "name": "靈魂護盾"
+    },
+    "ThrallWindRush|ThrallWindRush|Active": {
+      "cooldownText": "冷卻時間：90秒",
+      "fullText": "啟動後立刻傳送至目標地點，並且獲得風怒。",
+      "name": "疾風突進",
+      "shortText": "啟動後可傳送並且獲得風怒"
+    }
+  },
+  "talents": {
+    "ThrallEchooftheElements|ThrallEchooftheElements|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任務：</c>以閃電鏈擊中小兵或英雄後，於 <c val=\"#TooltipNumbers\">2</c> 秒內擊殺他們。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">獎勵：</c>擊殺 <c val=\"#TooltipNumbers\">20</c> 名敵人後，閃電鏈的法力消耗從 <c val=\"#TooltipNumbers\">40</c> 點降低至 <c val=\"#TooltipNumbers\">20</c> 點。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">獎勵：</c>擊殺 <c val=\"#TooltipNumbers\">50</c> 名敵人後，閃電鏈額外獲得一次使用次數。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">傳奇獎勵：</c>擊殺 <c val=\"#TooltipNumbers\">125</c> 名敵人後，閃電鏈多次攻擊同一個目標，且每次彈跳額外攻擊 <c val=\"#TooltipNumbers\">1</c> 名目標。",
+      "name": "元素迴響",
+      "shortText": "<c val=\"#TooltipQuest\">任務：</c>擊殺敵人可賦予閃電鏈額外的使用和分裂次數"
+    },
+    "ThrallCrashLightning|ThrallCrashLightning|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任務：</c>以閃電鏈一次命中至少 <c val=\"#TooltipNumbers\">2</c> 名英雄。死亡時失去 <c val=\"#TooltipNumbers\">4</c> 層。不會失去已獲得的獎勵。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">獎勵：</c>命中多名英雄 <c val=\"#TooltipNumbers\">15</c> 次後，閃電鏈在首次命中後的彈跳會額外造成 <c val=\"#TooltipNumbers\">270</c> 點傷害。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">傳奇獎勵：</c>命中多名英雄 <c val=\"#TooltipNumbers\">30</c> 次後，閃電鏈的彈跳會額外造成 <c val=\"#TooltipNumbers\">325</c> 點傷害，並優先彈跳至敵方英雄身上。",
+      "name": "閃電轟擊",
+      "shortText": "<c val=\"#TooltipQuest\">任務：</c>一次擊中多名英雄可強化閃電鏈"
+    },
+    "ThrallMaelstromWeapon|ThrallMaelstromWeapon|E|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任務：</c>在風怒提高移動速度期間對英雄進行基本攻擊。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">獎勵：</c>命中<c val=\"#TooltipNumbers\">25</c>名英雄後，風怒的移動速度加成提高至<c val=\"#TooltipNumbers\">40%</c>，且索爾的基本攻擊傷害提高<c val=\"#TooltipNumbers\">40</c>點。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">獎勵：</c>命中<c val=\"#TooltipNumbers\">55</c>名英雄後，索爾的移動速度永久提高<c val=\"#TooltipNumbers\">15%</c>，其基本攻擊傷害提高<c val=\"#TooltipNumbers\">75</c>點。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">神話獎勵：</c>命中<c val=\"#TooltipNumbers\">100</c>名英雄後，霜狼韌性治療額外恢復<c val=\"#TooltipNumbers\">200%</c>生命值。",
+      "name": "氣漩武器",
+      "shortText": "<c val=\"#TooltipQuest\">任務：</c>風怒的攻擊可提高移動速度"
+    },
+    "ThrallFeralResilience|ThrallFeralResilience|W|Level4": {
+      "fullText": "以野性之魂對英雄造成傷害時，可堆疊<c val=\"#TooltipNumbers\">4</c>層霜狼韌性與<c val=\"#TooltipNumbers\">2</c>層狼魂韌性，藉此獲得<c val=\"#TooltipNumbers\">75</c>點物理護甲，來降低下一次敵方英雄的基本攻擊傷害。<n/><n/>再次施放野性之魂，會消耗所有霜狼韌性與狼魂韌性的層數。",
+      "name": "狼魂韌性",
+      "shortText": "野性之魂可賦予物理護甲與霜狼韌性"
+    },
+    "ThrallFrostwolfPack|ThrallFrostwolfPack|W|Level4": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任務：</c>以野性之魂命中<c val=\"#TooltipNumbers\">6</c>名英雄。若索爾死亡或是未命中英雄，則進度會重置。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">獎勵：</c>野性之魂的冷卻時間和法力消耗降低<c val=\"#TooltipNumbers\">50%</c>。",
+      "name": "霜狼狼群",
+      "shortText": "<c val=\"#TooltipQuest\">任務：</c>降低野性之魂的冷卻時間和法力消耗"
+    },
+    "ThrallMasteryManaTide|ThrallManaTideTalent|Trait|Level4": {
+      "fullText": "霜狼韌性可恢復<c val=\"#TooltipNumbers\">15</c>點法力值，並且使基本技能的冷卻時間降低<c val=\"#TooltipNumbers\">0.5</c>秒。",
+      "name": "法力之潮",
+      "shortText": "霜狼韌性可恢復法力值並降低冷卻時間"
+    },
+    "ThrallMasteryRollingThunder|ThrallRollingThunderTalent|Q|Level7": {
+      "fullText": "<c val=\"#AbilityPassive\">被動</c>：閃電鏈額外彈跳一次。<n/><n/>在閃電鏈擊中敵人的 <c val=\"#TooltipNumbers\">8</c> 秒內，索爾對該目標的下一次基本攻擊可賦予一層霜狼韌性。如果目標是敵方英雄，索爾也會對目標造成相當於其最大生命值 <c val=\"#TooltipNumbers\">3%</c> 的傷害，並且恢復等量的生命值。<n/>",
+      "name": "雷霆萬鈞",
+      "shortText": "閃電鏈可強化基本攻擊，並額外彈跳一次"
+    },
+    "ThrallAncestralWrath|ThrallAncestralWrath|Active|Level7": {
+      "fullText": "啟動後，消耗<c val=\"#TooltipNumbers\">8</c>層先祖之怒，在<c val=\"#TooltipNumbers\">3</c>秒內對目標敵方英雄造成相當於其最大生命值<c val=\"#TooltipNumbers\">15%</c>的傷害，同時使索爾恢復相當於傷害值<c val=\"#TooltipNumbers\">150%</c>的生命值。<n/><n/>每次啟動霜狼韌性，可獲得<c val=\"#TooltipNumbers\">1</c>層先祖之怒。",
+      "name": "先祖之怒",
+      "shortText": "啟動後，攻擊敵方英雄並且吸取對方的生命值"
+    },
+    "ThrallElementalAssault|ThrallElementalAssault|Passive|Level7": {
+      "fullText": "使用技能後，索爾在<c val=\"#TooltipNumbers\">4</c>秒內的下一次基本攻擊額外造成<c val=\"#TooltipNumbers\">45%</c>傷害。",
+      "name": "元素之擊",
+      "shortText": "使用技能可提高基本攻擊傷害"
+    },
+    "ThrallHeroicAbilitySundering|Sundering|Heroic|Level10": {
+      "cooldownText": "冷卻時間：70秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：75點</s>",
+      "fullText": "延遲<c val=\"#TooltipNumbers\">0.5</c>秒後，以直線路徑劈裂地面，造成<c val=\"#TooltipNumbers\">290</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害並將敵人推至兩旁，使其昏迷<c val=\"#TooltipNumbers\">1</c>秒。",
+      "name": "裂地浩劫",
+      "shortText": "推開直線路徑上的敵人，造成傷害的同時使他們昏迷"
+    },
+    "ThrallHeroicAbilityEarthquake|ThrallEarthquake|Heroic|Level10": {
+      "cooldownText": "冷卻時間：100秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：90點</s>",
+      "fullText": "延遲<c val=\"#TooltipNumbers\">0.5</c>秒後，引發大地震，每<c val=\"#TooltipNumbers\">4</c>秒震盪一次。每次震盪會持續<c val=\"#TooltipNumbers\">2</c>秒，使範圍內所有敵人緩速<c val=\"#TooltipNumbers\">50%</c>，並對敵方英雄造成<c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。共震盪<c val=\"#TooltipNumbers\">3</c>次。",
+      "name": "地震術",
+      "shortText": "使大範圍內的敵人緩速"
+    },
+    "ThrallMasteryGraceOfAir|ThrallGraceOfAirTalent|E|Level13": {
+      "fullText": "風怒中發動的攻擊，可獲得雙倍的霜狼韌性。",
+      "name": "風之恩典",
+      "shortText": "風怒可獲得雙倍的霜狼韌性"
+    },
+    "ThrallMasteryFrostwolfsGrace|ThrallFrostwolfResilienceSurgeOfHealing|Trait|Level13": {
+      "cooldownText": "冷卻時間：15秒",
+      "fullText": "可以啟動霜狼韌性以立刻恢復生命值。根據索爾失去的生命值，使治療量最多提高<c val=\"#TooltipNumbers\">100%</c>。",
+      "name": "霜狼之賜",
+      "shortText": "可以啟動霜狼韌性並立刻治療"
+    },
+    "ThrallSpiritShield|ThrallSpiritShield|Active|Level13": {
+      "cooldownText": "冷卻時間：45秒",
+      "fullText": "每<c val=\"#TooltipNumbers\">45</c>秒會獲得<c val=\"#TooltipNumbers\">70</c>點法術護甲，使下次和後續<c val=\"#TooltipNumbers\">4</c>秒內受到的敵方技能傷害降低。霜狼韌性可使此效果的冷卻時間降低<c val=\"#TooltipNumbers\">10</c>秒。<n/><n/>可以開啟或關閉自動觸發此技能。",
+      "name": "靈魂護盾",
+      "shortText": "定期獲得暫時的法術護甲"
+    },
+    "ThrallMasteryTempestFury|ThrallTempestFuryTalent|E|Level16": {
+      "fullText": "風怒的最後一次攻擊會連打<c val=\"#TooltipNumbers\">3</c>次，每次造成正常傷害的<c val=\"#TooltipNumbers\">75%</c>傷害。這些命中次數不列入任務進度。",
+      "name": "暴風之怒",
+      "shortText": "風怒的最後一次攻擊會連打3次"
+    },
+    "ThrallThunderstorm|ThrallThunderstorm|Q|Level16": {
+      "fullText": "朝英雄施放閃電鏈時，可使主要目標緩速<c val=\"#TooltipNumbers\">8%</c>，持續<c val=\"#TooltipNumbers\">2</c>秒。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任務：</c>直接對英雄施放閃電鏈可使緩速加成提高<c val=\"#TooltipNumbers\">8%</c>，最多可提高<c val=\"#TooltipNumbers\">40%</c>。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">獎勵：</c>加成效果提高至<c val=\"#TooltipNumbers\">40%</c>時，閃電鏈的傷害提高<c val=\"#TooltipNumbers\">30%</c>。<n/><n/>若索爾死亡，或是對上一名相同的英雄重複施放閃電鏈，會重置此加成。",
+      "name": "雷霆風暴",
+      "shortText": "<c val=\"#TooltipQuest\">任務：</c>命中不同英雄以賦予閃電鏈緩速效果"
+    },
+    "ThrallAlphaWolf|ThrallAlphaWolf|W|Level16": {
+      "fullText": "野性之魂擊中英雄後的<c val=\"#TooltipNumbers\">3</c>秒內，索爾的基本攻擊可對該英雄額外造成其最大生命值<c val=\"#TooltipNumbers\">3%</c>的傷害。<n/><n/><c val=\"#AbilityPassive\">被動：</c>野性之魂的定身時間提高<c val=\"#TooltipNumbers\">1.5</c>秒。",
+      "name": "狼群首領",
+      "shortText": "野性之魂的定身時間提高，並且可強化基本攻擊"
+    },
+    "ThrallMasteryWorldbreaker|ThrallWorldbreakerTalent|Heroic|Level20": {
+      "fullText": "裂地浩劫的冷卻時間降低<c val=\"#TooltipNumbers\">40</c>秒。裂地浩劫擊中時會造成阻礙通行的裂隙，持續<c val=\"#TooltipNumbers\">3</c>秒。",
+      "name": "碎界浩劫",
+      "shortText": "裂地浩劫會產生阻礙通行的地形障礙"
+    },
+    "ThrallMasteryEarthenShields|ThrallEarthenShieldsTalent|Heroic|Level20": {
+      "fullText": "盟友位於地震術的範圍內時，每波地震可獲得相當於其最大生命值<c val=\"#TooltipNumbers\">15%</c>的護盾。此護盾可持續<c val=\"#TooltipNumbers\">4</c>秒。",
+      "name": "大地護盾",
+      "shortText": "為範圍內的盟友提供護盾"
+    },
+    "ThrallElementalMomentum|ThrallElementalMomentum|Passive|Level20": {
+      "fullText": "基本攻擊可使索爾的基本技能和英雄絕技的冷卻時間降低<c val=\"#TooltipNumbers\">0.25</c>秒，攻擊英雄時效果為三倍。",
+      "name": "元素律動",
+      "shortText": "基本攻擊會降低技能冷卻時間"
+    },
+    "GenericTalentNexusBlades|NexusBladesTalent|Passive|Level20": {
+      "fullText": "基本攻擊的傷害提高<c val=\"#TooltipNumbers\">20%</c>，並且使目標緩速<c val=\"#TooltipNumbers\">20%</c>，持續<c val=\"#TooltipNumbers\">1</c>秒。",
+      "name": "萬象之刃",
+      "shortText": "提高基本攻擊傷害，並且附加緩速效果"
+    },
+    "ThrallWindRush|ThrallWindRush|Active|Level20": {
+      "cooldownText": "冷卻時間：90秒",
+      "fullText": "啟動後立刻傳送至目標地點，並且獲得風怒。",
+      "name": "疾風突進",
+      "shortText": "啟動後可傳送並且獲得風怒"
+    }
+  },
+  "units": {}
+}

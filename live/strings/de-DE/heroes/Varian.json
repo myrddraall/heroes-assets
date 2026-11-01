@@ -1,0 +1,227 @@
+{
+  "abilities": {
+    "VarianLionsFang|VarianLionsFang|Q": {
+      "cooldownText": "Abklingzeit: 8 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Erzeugt eine Schockwelle in einer geraden Linie. Alle getroffenen Gegner erleiden <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden und werden <c val=\"#TooltipNumbers\">1.5</c> Sek. lang um <c val=\"#TooltipNumbers\">35%</c> verlangsamt. Heilt Varian für jeden getroffenen Gegner um <c val=\"#TooltipNumbers\">35</c><c val=\"#ColorGray\">~~0.04~~</c> und für jeden getroffenen gegnerischen Helden um <c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c>.",
+      "name": "Löwenklaue",
+      "shortText": "Fügt Gegnern in einer geraden Linie Schaden zu, verlangsamt sie und heilt Varian."
+    },
+    "VarianParry|VarianParry|W": {
+      "cooldownText": "Ladungsabklingzeit: 10 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 30</s>",
+      "fullText": "Pariert <c val=\"#TooltipNumbers\">1.25</c> Sek. lang alle automatischen Angriffe, wodurch deren Schaden um <c val=\"#TooltipNumbers\">100%</c> verringert wird.<n/><n/>Maximal <c val=\"#TooltipNumbers\">2</c> Aufladungen.",
+      "name": "Parieren",
+      "shortText": "Blockt für kurze Zeit alle automatischen Angriffe."
+    },
+    "VarianCharge|VarianCharge|E": {
+      "cooldownText": "Abklingzeit: 12 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 45</s>",
+      "fullText": "Stürmt einen anvisierten Gegner an, fügt ihm <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zu und verlangsamt ihn <c val=\"#TooltipNumbers\">1</c> Sek. lang um <c val=\"#TooltipNumbers\">75%</c>.",
+      "name": "Sturmangriff",
+      "shortText": "Stürmt einen Gegner an und fügt ihm Schaden zu."
+    },
+    "VarianTaunt|VarianTaunt|Heroic": {
+      "cooldownText": "Abklingzeit: 16 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 20</s>",
+      "fullText": "Bringt den anvisierten Helden zum Schweigen und zwingt ihn, <c val=\"#TooltipNumbers\">1.25</c> Sek. lang Varian anzugreifen.<n/><n/><c val=\"#AbilityPassive\">Passiv:</c> Erhöht die maximalen Lebenspunkte und die Lebensregeneration um <c val=\"#TooltipNumbers\">40%</c>.",
+      "name": "Spott",
+      "shortText": "Erhöht Lebenspunkte.<n/>Zwingt einen Helden, Varian anzugreifen."
+    },
+    "VarianColossusSmash|VarianColossusSmash|Heroic": {
+      "cooldownText": "Abklingzeit: 20 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 40</s>",
+      "fullText": "Zerschmettert den anvisierten Gegner, fügt ihm <c val=\"#TooltipNumbers\">185</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zu und verringert <c val=\"#TooltipNumbers\">3</c> Sek. lang seine Panzerung um <c val=\"#TooltipNumbers\">25</c>, sodass er <c val=\"#TooltipNumbers\">25%</c> mehr Schaden erleidet.<n/><n/><c val=\"#AbilityPassive\">Passiv:</c> Erhöht den Basisschaden automatischer Angriffe um <c val=\"#TooltipNumbers\">100%</c>.<n/><c val=\"#AbilityPassive\">Passiv:</c> Verringert die maximalen Lebenspunkte und die Lebensregeneration um <c val=\"#TooltipNumbers\">10%</c>.",
+      "name": "Kolossales Schmettern",
+      "shortText": "Erhöht Schaden und verringert Lebenspunkte.<n/>Verringert die Panzerung von Gegnern."
+    },
+    ":PASSIVE:|VarianTwinBladesOfFury|Heroic": {
+      "fullText": "Automatische Angriffe verringern die Abklingzeit von Heldenhafter Stoß um zusätzlich <c val=\"#TooltipNumbers\">7</c> Sek. und erhöhen die Bewegungsgeschwindigkeit <c val=\"#TooltipNumbers\">2</c> Sek. lang um <c val=\"#TooltipNumbers\">30%</c>.<n/><n/><c val=\"#AbilityPassive\">Passiv:</c> Erhöht die Angriffsgeschwindigkeit um <c val=\"#TooltipNumbers\">100%</c>.<n/><c val=\"#AbilityPassive\">Passiv:</c> Verringert den Basisschaden automatischer Angriffe um <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Zwillingsklingen der Wut",
+      "shortText": "Schnelle, aber schwächere Angriffe, die die Abklingzeit von Heldenhafter Stoß verringern."
+    },
+    "VarianHeroicStrike|VarianHeroicStrike|Trait": {
+      "cooldownText": "Abklingzeit: 18 Sek.",
+      "fullText": "Alle <c val=\"#TooltipNumbers\">18</c> Sek. verursacht der nächste automatische Angriff zusätzlich <c val=\"#TooltipNumbers\">125</c><c val=\"#ColorGray\">~~0.04~~</c> Fähigkeitsschaden. Automatische Angriffe verringern die Abklingzeit um <c val=\"#TooltipNumbers\">3</c> Sek.",
+      "name": "Heldenhafter Stoß",
+      "shortText": "Erhöht den Schaden des nächsten automatischen Angriffs."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Abklingzeit: 4 Sek.",
+      "fullText": "Erhöht die Bewegungsgeschwindigkeit nach <c val=\"#TooltipNumbers\">1</c> Sek. Kanalisierung um <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Aufsitzen"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Kanalisiert <c val=\"#TooltipNumbers\">6</c> Sek. lang und teleportiert sich dann zurück zum Altar der Stürme. Dabei werden sofort <c val=\"#TooltipNumbers\">1125</c> Lebenspunkte und <c val=\"#TooltipNumbers\">150</c> Mana wiederhergestellt.",
+      "name": "Ruhestein"
+    },
+    ":PASSIVE:|VarianHeroicStrikeActive|Trait": {
+      "cooldownText": "Abklingzeit: 18 Sek.",
+      "fullText": "Alle <c val=\"#TooltipNumbers\">18</c> Sek. verursacht der nächste automatische Angriff zusätzlich <c val=\"#TooltipNumbers\">125</c><c val=\"#ColorGray\">~~0.04~~</c> Fähigkeitsschaden. Automatische Angriffe verringern die Abklingzeit um <c val=\"#TooltipNumbers\">3</c> Sek.",
+      "name": "Heldenhafter Stoß",
+      "shortText": "Bonus auf Schaden automatischer Angriffe"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Sitzt ab.",
+      "name": "Absitzen"
+    },
+    "VarianVictoryRush|VarianVictoryRush|Passive": {
+      "cooldownText": "Abklingzeit: 30 Sek.",
+      "fullText": "Alle <c val=\"#TooltipNumbers\">30</c> Sek. heilt der nächste automatische Angriff Varian um <c val=\"#TooltipNumbers\">350</c><c val=\"#ColorGray\">~~0.04~~</c> Lebenspunkte. Wenn ein gegnerischer Diener oder ein Monster in der Nähe stirbt, wird die Abklingzeit um <c val=\"#TooltipNumbers\">10</c> Sek. verringert.",
+      "name": "Siegesrausch",
+      "shortText": "Automatische Angriffe stellen regelmäßig eine große Menge Lebenspunkte wieder her."
+    },
+    "VarianShatteringThrow|VarianShatteringThrow|Active": {
+      "cooldownText": "Abklingzeit: 30 Sek.",
+      "fullText": "Aktivieren, um ein Schwert auf den anvisierten Helden zu werfen. Das Schwert fügt dem Ziel <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zu und Schilden, die es schützen, bis zu <c val=\"#TooltipNumbers\">1400</c><c val=\"#ColorGray\">~~0.04~~</c> Bonusschaden.<n/><n/><c val=\"#AbilityPassive\">Passiv:</c> Automatische Angriffe gegen Helden fügen ihren Schilden bis zu <c val=\"#TooltipNumbers\">200%</c> physischen Bonusschaden zu.",
+      "name": "Zerschmetternder Wurf",
+      "shortText": "Fügt gegnerischen Schilden schweren Schaden zu."
+    },
+    "VarianBannerOfDalaran|VarianBannerOfDalaran|Active": {
+      "cooldownText": "Abklingzeit: 25 Sek.",
+      "fullText": "Aktivieren, um ein Banner zu platzieren, das die Fähigkeitsstärke von allen verbündeten Helden in der Nähe um <c val=\"#TooltipNumbers\">20%</c> erhöht. Das Banner bleibt <c val=\"#TooltipNumbers\">12</c> Sek. lang bestehen.",
+      "name": "Banner von Dalaran",
+      "shortText": "Ein Banner, das die Fähigkeitsstärke erhöht."
+    },
+    "VarianBannerOfIronforge|VarianBannerOfIronforge|Active": {
+      "cooldownText": "Abklingzeit: 45 Sek.",
+      "fullText": "Aktivieren, um ein Banner zu platzieren, das allen verbündeten Helden in der Nähe <c val=\"#TooltipNumbers\">20</c> Panzerung gewährt, die den erlittenen Schaden um <c val=\"#TooltipNumbers\">20%</c> verringert. Das Banner bleibt <c val=\"#TooltipNumbers\">12</c> Sek. lang bestehen.",
+      "name": "Banner von Eisenschmiede",
+      "shortText": "Ein Banner, das Panzerung gewährt."
+    },
+    "VarianBannerOfStormwind|VarianBannerOfStormwind|Active": {
+      "cooldownText": "Abklingzeit: 25 Sek.",
+      "fullText": "Aktivieren, um ein Banner zu platzieren, das die Bewegungsgeschwindigkeit aller verbündeten Helden in der Nähe um <c val=\"#TooltipNumbers\">25%</c> erhöht. Das Banner bleibt <c val=\"#TooltipNumbers\">12</c> Sek. lang bestehen.",
+      "name": "Banner von Sturmwind",
+      "shortText": "Ein Banner, das die Bewegungsgeschwindigkeit erhöht."
+    },
+    "VarianDemoralizingShout|VarianDemoralizingShout|Active": {
+      "cooldownText": "Abklingzeit: 20 Sek.",
+      "fullText": "Aktivieren, um gegnerische Helden in der Nähe zu demoralisieren und ihren verursachten Schaden <c val=\"#TooltipNumbers\">40</c> Sek. lang um <c val=\"#TooltipNumbers\">5</c> % zu erhöhen.<n/><n/>Jedes Mal, wenn ein gegnerischer Held, der von Demoralisierender Ruf betroffen ist, einem Helden Schaden zufügt, verringert sich die Abklingzeit sowie die Abklingzeit von Parieren um <c val=\"#TooltipNumbers\">5 %</c>.",
+      "name": "Demoralisierender Ruf",
+      "shortText": "Verringert den Schaden von gegnerischen Helden in der Nähe."
+    }
+  },
+  "talents": {
+    "VarianLionsFangLionsMawQuest|VarianLionsFangLionsMawQuest|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Triff gegnerische Helden mit Löwenklaue, um den Schaden der Fähigkeit jeweils um <c val=\"#TooltipNumbers\">7</c> zu erhöhen, bis maximal <c val=\"#TooltipNumbers\">175</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Belohnung:</c> Sobald <c val=\"#TooltipNumbers\">25</c> Helden getroffen wurden, wird die Verlangsamung auf <c val=\"#TooltipNumbers\">50%</c> und ihre Dauer auf <c val=\"#TooltipNumbers\">2</c> Sek. erhöht.",
+      "name": "Löwenmaul",
+      "shortText": "<c val=\"#TooltipQuest\">Quest:</c> Triff Helden, um Löwenklaue zu verstärken."
+    },
+    "VarianParryOverpower|VarianParryOverpower|W|Level1": {
+      "fullText": "Wenn Varian mit Parieren einen automatischen Angriff eines Helden blockt, wird die Abklingzeit von Heldenhafter Stoß abgeschlossen und der nächste Heldenhafte Stoß verursacht <c val=\"#TooltipNumbers\">40%</c> mehr Schaden.",
+      "name": "Überwältigen",
+      "shortText": "Parierte Angriffe gegnerischer Helden schließen die Abklingzeit von Heldenhafter Stoß ab."
+    },
+    "VarianHighKingsQuestQuest|VarianHighKingsQuestQuest|Passive|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest: </c>Triff <c val=\"#TooltipNumbers\">50</c> Helden mit automatischen Angriffen.<n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest: </c>Beteilige dich an <c val=\"#TooltipNumbers\">5</c> Heldenkills.<n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest: </c>Sammle <c val=\"#TooltipNumbers\">15</c> Regenerationskugeln.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Belohnung:</c> Das Abschließen einer Quest erhöht den Basisschaden automatischer Angriffe um <c val=\"#TooltipNumbers\">10</c>. Das Abschließen aller <c val=\"#TooltipNumbers\">3</c> Quests erhöht den Basisschaden um weitere <c val=\"#TooltipNumbers\">30</c>.",
+      "name": "Quest des Hochkönigs",
+      "shortText": "<c val=\"#TooltipQuest\">Quest:</c> Abgeschlossene Quests erhöhen den Schaden automatischer Angriffe."
+    },
+    "VarianTaunt|VarianTaunt|Heroic|Level4": {
+      "cooldownText": "Abklingzeit: 16 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 20</s>",
+      "fullText": "Bringt den anvisierten Helden zum Schweigen und zwingt ihn, <c val=\"#TooltipNumbers\">1.25</c> Sek. lang Varian anzugreifen.<n/><n/><c val=\"#AbilityPassive\">Passiv:</c> Erhöht die maximalen Lebenspunkte und die Lebensregeneration um <c val=\"#TooltipNumbers\">40%</c>.",
+      "name": "Spott",
+      "shortText": "Erhöht Lebenspunkte.<n/>Zwingt einen Helden, Varian anzugreifen."
+    },
+    "VarianColossusSmash|VarianColossusSmash|Heroic|Level4": {
+      "cooldownText": "Abklingzeit: 20 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 40</s>",
+      "fullText": "Zerschmettert den anvisierten Gegner, fügt ihm <c val=\"#TooltipNumbers\">185</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zu und verringert <c val=\"#TooltipNumbers\">3</c> Sek. lang seine Panzerung um <c val=\"#TooltipNumbers\">25</c>, sodass er <c val=\"#TooltipNumbers\">25%</c> mehr Schaden erleidet.<n/><n/><c val=\"#AbilityPassive\">Passiv:</c> Erhöht den Basisschaden automatischer Angriffe um <c val=\"#TooltipNumbers\">100%</c>.<n/><c val=\"#AbilityPassive\">Passiv:</c> Verringert die maximalen Lebenspunkte und die Lebensregeneration um <c val=\"#TooltipNumbers\">10%</c>.",
+      "name": "Kolossales Schmettern",
+      "shortText": "Erhöht Schaden und verringert Lebenspunkte.<n/>Verringert die Panzerung von Gegnern."
+    },
+    "VarianTwinBladesOfFury|VarianTwinBladesOfFury|Heroic|Level4": {
+      "fullText": "Automatische Angriffe verringern die Abklingzeit von Heldenhafter Stoß um zusätzlich <c val=\"#TooltipNumbers\">7</c> Sek. und erhöhen die Bewegungsgeschwindigkeit <c val=\"#TooltipNumbers\">2</c> Sek. lang um <c val=\"#TooltipNumbers\">30%</c>.<n/><n/><c val=\"#AbilityPassive\">Passiv:</c> Erhöht die Angriffsgeschwindigkeit um <c val=\"#TooltipNumbers\">100%</c>.<n/><c val=\"#AbilityPassive\">Passiv:</c> Verringert den Basisschaden automatischer Angriffe um <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Zwillingsklingen der Wut",
+      "shortText": "Schnelle, aber schwächere Angriffe, die die Abklingzeit von Heldenhafter Stoß verringern."
+    },
+    "VarianLionsFangLionheart|VarianLionsFangLionheart|Q|Level7": {
+      "fullText": "Erhöht die Heilung von Löwenklaue für getroffene Helden um <c val=\"#TooltipNumbers\">75%</c>. ",
+      "name": "Löwenherz",
+      "shortText": "Erhöht die Heilung von Löwenklaue."
+    },
+    "VarianSecondWind|VarianSecondWind|Passive|Level7": {
+      "fullText": "Automatische Angriffe heilen Varian um <c val=\"#TooltipNumbers\">1%</c> seiner maximalen Lebenspunkte. Wenn er weniger als <c val=\"#TooltipNumbers\">50%</c> Lebenspunkte hat, heilen automatische Angriffe zusätzlich um <c val=\"#TooltipNumbers\">50%</c> des verursachten Schadens.",
+      "name": "Kräfte sammeln",
+      "shortText": "Automatische Angriffe heilen. Bei niedrigen Lebenspunkten wird die Heilung verstärkt."
+    },
+    "VarianVictoryRush|VarianVictoryRush|Passive|Level7": {
+      "fullText": "Alle <c val=\"#TooltipNumbers\">30</c> Sek. heilt der nächste automatische Angriff Varian um <c val=\"#TooltipNumbers\">350</c><c val=\"#ColorGray\">~~0.04~~</c> Lebenspunkte. Wenn ein gegnerischer Diener oder ein Monster in der Nähe stirbt, wird die Abklingzeit um <c val=\"#TooltipNumbers\">10</c> Sek. verringert.",
+      "name": "Siegesrausch",
+      "shortText": "Automatische Angriffe stellen regelmäßig eine große Menge Lebenspunkte wieder her."
+    },
+    "VarianParryShieldWall|VarianParryShieldWall|W|Level10": {
+      "fullText": "Parieren schützt Varian während der Effektdauer und verhindert jeglichen Schaden. Verringert außerdem die Abklingzeit um <c val=\"#TooltipNumbers\">5</c> Sek., verringert jedoch auch die Anzahl der Aufladungen um <c val=\"#TooltipNumbers\">1</c>.",
+      "name": "Schildwall",
+      "shortText": "Parieren schützt und verhindert jeglichen Schaden."
+    },
+    "VarianChargeWarbringer|VarianChargeWarbringer|E|Level10": {
+      "fullText": "Verringert die Abklingzeit des Sturmangriffs um <c val=\"#TooltipNumbers\">8</c> Sek. und die Manakosten von <c val=\"#TooltipNumbers\">45</c> auf <c val=\"#TooltipNumbers\">25</c>. Ermöglicht den Einsatz auf verbündete Helden.",
+      "name": "Kriegstreiber",
+      "shortText": "Verringert die Abklingzeit. Sturmangriff kann auf Verbündete angewandt werden."
+    },
+    "VarianChargeJuggernaut|VarianChargeJuggernaut|E|Level13": {
+      "fullText": "Der Sturmangriff fügt Helden zusätzlichen Schaden zu, der <c val=\"#TooltipNumbers\">4%</c> ihrer maximalen Lebenspunkte entspricht.",
+      "name": "Dampfwalze",
+      "shortText": "Erhöht den Schaden des Sturmangriffs."
+    },
+    "VarianMortalStrike|VarianMortalStrike|Trait|Level13": {
+      "fullText": "Heldenhafter Stoß verringert die erhaltene Heilung getroffener Helden <c val=\"#TooltipNumbers\">4</c> Sek. lang um <c val=\"#TooltipNumbers\">40%</c>.",
+      "name": "Tödlicher Stoß",
+      "shortText": "Heldenhafter Stoß verringert die erhaltene Heilung getroffener Gegner."
+    },
+    "VarianShatteringThrow|VarianShatteringThrow|Active|Level13": {
+      "cooldownText": "Abklingzeit: 30 Sek.",
+      "fullText": "Aktivieren, um ein Schwert auf den anvisierten Helden zu werfen. Das Schwert fügt dem Ziel <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zu und Schilden, die es schützen, bis zu <c val=\"#TooltipNumbers\">1400</c><c val=\"#ColorGray\">~~0.04~~</c> Bonusschaden.<n/><n/><c val=\"#AbilityPassive\">Passiv:</c> Automatische Angriffe gegen Helden fügen ihren Schilden bis zu <c val=\"#TooltipNumbers\">200%</c> physischen Bonusschaden zu.",
+      "name": "Zerschmetternder Wurf",
+      "shortText": "Fügt gegnerischen Schilden schweren Schaden zu."
+    },
+    "VarianBannerOfStormwind|VarianBannerOfStormwind|Active|Level16": {
+      "cooldownText": "Abklingzeit: 25 Sek.",
+      "fullText": "Aktivieren, um ein Banner zu platzieren, das die Bewegungsgeschwindigkeit aller verbündeten Helden in der Nähe um <c val=\"#TooltipNumbers\">25%</c> erhöht. Das Banner bleibt <c val=\"#TooltipNumbers\">12</c> Sek. lang bestehen.",
+      "name": "Banner von Sturmwind",
+      "shortText": "Ein Banner, das die Bewegungsgeschwindigkeit erhöht."
+    },
+    "VarianBannerOfIronforge|VarianBannerOfIronforge|Active|Level16": {
+      "cooldownText": "Abklingzeit: 45 Sek.",
+      "fullText": "Aktivieren, um ein Banner zu platzieren, das allen verbündeten Helden in der Nähe <c val=\"#TooltipNumbers\">20</c> Panzerung gewährt, die den erlittenen Schaden um <c val=\"#TooltipNumbers\">20%</c> verringert. Das Banner bleibt <c val=\"#TooltipNumbers\">12</c> Sek. lang bestehen.",
+      "name": "Banner von Eisenschmiede",
+      "shortText": "Ein Banner, das Panzerung gewährt."
+    },
+    "VarianBannerOfDalaran|VarianBannerOfDalaran|Active|Level16": {
+      "cooldownText": "Abklingzeit: 25 Sek.",
+      "fullText": "Aktivieren, um ein Banner zu platzieren, das die Fähigkeitsstärke von allen verbündeten Helden in der Nähe um <c val=\"#TooltipNumbers\">20%</c> erhöht. Das Banner bleibt <c val=\"#TooltipNumbers\">12</c> Sek. lang bestehen.",
+      "name": "Banner von Dalaran",
+      "shortText": "Ein Banner, das die Fähigkeitsstärke erhöht."
+    },
+    "VarianTauntVigilance|VarianTauntVigilance|Heroic|Level20": {
+      "fullText": "Wenn Varian von einem automatischen Angriff eines Helden getroffen wird, wird die Abklingzeit von Spott um <c val=\"#TooltipNumbers\">1</c> Sek. verringert.",
+      "name": "Wachsamkeit",
+      "shortText": "Gegnerische Angriffe verringern die Abklingzeit von Spott."
+    },
+    "VarianColossusSmashMasterAtArms|VarianColossusSmashMasterAtArms|Heroic|Level20": {
+      "fullText": "Kolossales Schmettern fügt zusätzlich allen Gegnern in der Nähe des Ziels Schaden zu. Verringert die Abklingzeit um <c val=\"#TooltipNumbers\">10</c> Sek.",
+      "name": "Waffenmeister",
+      "shortText": "Kolossales Schmettern trifft Gegner in der Nähe des Ziels."
+    },
+    "VarianTwinBladesOfFuryFrenzy|VarianTwinBladesOfFuryFrenzy|Passive|Level20": {
+      "fullText": "Die Zwillingsklingen der Wut erhöhen den Schaden von Heldenhafter Stoß zusätzlich um <c val=\"#TooltipNumbers\">25%</c>. Automatische Angriffe erhöhen die Bewegungsgeschwindigkeit zusätzlich um <c val=\"#TooltipNumbers\">10%</c>.",
+      "name": "Raserei",
+      "shortText": "Erhöht die durch Zwillingsklingen der Wut gewährten Boni."
+    },
+    "VarianBannersGloryToTheAlliance|VarianBannersGloryToTheAlliance|Passive|Level20": {
+      "fullText": "Das Banner erhöht zusätzlich die Lebensregeneration und erhaltene Heilung aller verbündeten Helden in der Nähe um <c val=\"#TooltipNumbers\">50%</c>. Verringert außerdem die Abklingzeit um <c val=\"#TooltipNumbers\">50%</c>.",
+      "name": "Ruhm der Allianz",
+      "shortText": "Banner verstärkt zusätzlich Heileffekte."
+    },
+    "VarianDemoralizingShout|VarianDemoralizingShout|Active|Level20": {
+      "cooldownText": "Abklingzeit: 20 Sek.",
+      "fullText": "Aktivieren, um gegnerische Helden in der Nähe zu demoralisieren und ihren verursachten Schaden <c val=\"#TooltipNumbers\">40</c> Sek. lang um <c val=\"#TooltipNumbers\">5</c> % zu erhöhen.<n/><n/>Jedes Mal, wenn ein gegnerischer Held, der von Demoralisierender Ruf betroffen ist, einem Helden Schaden zufügt, verringert sich die Abklingzeit sowie die Abklingzeit von Parieren um <c val=\"#TooltipNumbers\">5 %</c>.",
+      "name": "Demoralisierender Ruf",
+      "shortText": "Verringert den Schaden von gegnerischen Helden in der Nähe."
+    }
+  },
+  "units": {}
+}

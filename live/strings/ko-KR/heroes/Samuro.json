@@ -1,0 +1,190 @@
+{
+  "abilities": {
+    "SamuroMirrorImageTargeted|SamuroMirrorImage|Q": {
+      "cooldownText": "재사용 대기시간: 14초",
+      "fullText": "마우스 커서 방향으로 짧은 거리를 순간이동한 후 반대 방향에 사무로와 같은 생명력을 지니고 일반 공격력이 <c val=\"#TooltipNumbers\">11</c><c val=\"#ColorGray\">~~0.04~~</c>인 환영 <c val=\"#TooltipNumbers\">2</c>개를 만듭니다. 환영은 모든 피해를 두 배로 받습니다.<n/><n/>환영은 <c val=\"#TooltipNumbers\">8</c>초 동안 지속되고 한 번에 최대 <c val=\"#TooltipNumbers\">2</c>개의 환영을 부릴 수 있습니다. 환영 혹은 사무로 자신이 적 영웅에게 일반 공격을 할 때마다 환영의 지속 시간이 <c val=\"#TooltipNumbers\">1</c>초 증가합니다. 환영 복제를 사용하면 자신에게 걸린 대부분의 약화 효과를 제거합니다.",
+      "name": "환영 복제",
+      "shortText": "환영을 만들어 적을 혼란에 빠뜨리고 공격"
+    },
+    "SamuroCriticalStrike|SamuroCriticalStrike|W": {
+      "cooldownText": "재사용 대기시간: <c val=\"#TooltipNumbers\">10초</c>",
+      "fullText": "사용하면 자신과 환영이 <c val=\"#TooltipNumbers\">8</c>초 내로 사용하는 다음 일반 공격이 치명타로 적중해 <c val=\"#TooltipNumbers\">50%</c>의 추가 피해를 줍니다. 사용 시 은신이 해제되지 않습니다.<n/><n/><c val=\"#AbilityPassive\">지속 효과:</c> 사무로와 환영의 <c val=\"#TooltipNumbers\">4</c>번째 일반 공격이 치명타로 적중합니다.",
+      "name": "치명타",
+      "shortText": "치명타를 가해 추가 피해를 줌"
+    },
+    "SamuroWindwalk|SamuroWindwalk|E": {
+      "cooldownText": "재사용 대기시간: 15초",
+      "fullText": "최대 <c val=\"#TooltipNumbers\">10</c>초 동안, 혹은 공격하거나 기술을 사용하거나 피해를 받을 때까지 은신 상태가 됩니다.<n/><n/>은신한 동안 매초 최대 생명력의 <c val=\"#TooltipNumbers\">2%</c>를 회복하고 이동 속도가 <c val=\"#TooltipNumbers\">20%</c> 증가하며 유닛을 통과할 수 있습니다. 은신 중에 <c val=\"#TooltipNumbers\">1.5</c>초 이상 움직이지 않으면 투명 상태가 됩니다.<n/><n/>사용 후 <c val=\"#TooltipNumbers\">1</c>초 동안 은신 유지 상태가 됩니다.",
+      "name": "바람 걸음",
+      "shortText": "은신 상태가 되고 이동 속도 증가"
+    },
+    "SamuroBladeStormDummy|SamuroBladestorm|Heroic": {
+      "cooldownText": "재사용 대기시간: 30초",
+      "fullText": "폭풍이 휘몰아치듯 적을 난도질하여 <c val=\"#TooltipNumbers\">3</c>초 동안 방어력이 <c val=\"#TooltipNumbers\">25</c> 증가하고 주위 적들에게 초당 <c val=\"#TooltipNumbers\">180</c><c val=\"#ColorGray\">~~0.04~~</c>의 피해를 줍니다.",
+      "name": "칼날폭풍",
+      "shortText": "폭풍이 휘몰아치듯 적을 난도질함"
+    },
+    "SamuroIllusionMaster|SamuroIllusionMaster|Heroic": {
+      "cooldownText": "재사용 대기시간: 8초",
+      "fullText": "환영을 개별적으로, 또는 한꺼번에 조종할 수 있고 환영의 공격력이 <c val=\"#TooltipNumbers\">100%</c> 증가합니다.<n/><n/><c val=\"#AbilityPassive\">지속 효과:</c> 환영 이동술의 재사용 대기시간이 <c val=\"#TooltipNumbers\">8</c>초로 감소합니다.",
+      "name": "환영의 대가",
+      "shortText": "환영 조종 가능"
+    },
+    "SamuroIllusionMaster|SamuroAdvancingStrikes|Trait": {
+      "cooldownText": "재사용 대기시간: 14초",
+      "fullText": "사용하면 대상 환영과 위치를 바꿉니다. 위치를 바꾸면서 자신과 모든 환영에게 걸린 대부분의 약화 효과를 제거합니다.<n/><n/><s val=\"StandardTooltipHeader\">파죽지세</s><n/><n/>일반 공격으로 적 영웅을 공격하면 이동 속도가 <c val=\"#TooltipNumbers\">2</c>초 동안 <c val=\"#TooltipNumbers\">25%</c> 증가합니다.",
+      "name": "환영 이동술",
+      "shortText": "적 영웅 공격 시 이동 속도 증가"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "재사용 대기시간: 4초",
+      "fullText": "<c val=\"#TooltipNumbers\">1</c>초 동안 정신을 집중한 후, 이동 속도가 <s val=\"StandardTooltipDetails\">30%</s> 증가합니다.",
+      "name": "탈것 소환"
+    },
+    "Hearthstone|HearthstoneNoMana|B": {
+      "fullText": "<c val=\"#TooltipNumbers\">6</c>초 동안 정신을 집중한 후, 폭풍의 전당으로 귀환하여 즉시 <c val=\"#TooltipNumbers\">1125</c>의 생명력을 회복합니다.",
+      "name": "귀환석"
+    },
+    "SamuroBladestormCancel|SamuroCancelBladestorm|Heroic": {
+      "fullText": "<s val=\"StandardTooltip\">칼날폭풍을 취소합니다.</s>",
+      "name": "칼날폭풍 취소"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "탈것에서 내립니다.",
+      "name": "탈것 소환 해제"
+    },
+    "SamuroIllusionMasterToggleAI|SamuroIllusionMasterToggleAIOn|Active": {
+      "fullText": "인공지능이 비활성화된 상태에서 환영은 명령을 내리기 전까지 움직이거나 다른 행동을 하지 않습니다.<n/><n/>클릭하면 인공지능을 활성화합니다.",
+      "name": "인공지능 비활성화됨"
+    },
+    "SamuroIllusionMasterToggleAI|SamuroIllusionMasterToggleAIOff|Active": {
+      "fullText": "인공지능이 활성화된 상태에서 환영은 주어진 명령을 수행하고 난 후 자동으로 적을 찾아서 공격합니다.<n/><n/>클릭하면 인공지능을 비활성화합니다.",
+      "name": "인공지능 활성화됨"
+    },
+    ":PASSIVE:|SamuroSelectMirrorImages|Active": {
+      "fullText": "<s val=\"StandardTooltipHeader\">환영 선택</s><n/><n/>환영 하나에게 명령을 내립니다.",
+      "name": "환영 선택",
+      "shortText": "환영 선택"
+    },
+    ":PASSIVE:|SamuroSelectSamuroPrime|Active": {
+      "fullText": "<s val=\"StandardTooltipHeader\">사무로 선택</s><n/><n/>사무로에게 명령을 내립니다.",
+      "name": "사무로 선택",
+      "shortText": "사무로 선택"
+    },
+    ":PASSIVE:|SamuroSelectAll|Active": {
+      "fullText": "<s val=\"StandardTooltipHeader\">모두 선택</s><n/><n/>사무로와 모든 환영에게 명령을 내립니다.",
+      "name": "모두 선택",
+      "shortText": "모두 선택"
+    }
+  },
+  "talents": {
+    "SamuroWayOfIllusion|SamuroWayOfIllusion|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">퀘스트:</c> 환영이 적 영웅에게 치명타를 적중시킬 때마다 일반 공격력이 <c val=\"#TooltipNumbers\">0.25</c> 증가하여 최대 <c val=\"#TooltipNumbers\">10</c> 증가합니다.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">보상:</c> 환영이 적 영웅에게 치명타를 <c val=\"#TooltipNumbers\">40</c>회 이상 적중시키면, 공격력이 추가로 <c val=\"#TooltipNumbers\">30</c> 증가합니다.",
+      "name": "환영의 길",
+      "shortText": "<c val=\"#TooltipQuest\">퀘스트:</c> 환영의 치명타가 일반 공격 강화"
+    },
+    "SamuroMirrorImageWayOfTheBlade|SamuroWayoftheBlade|W|Level1": {
+      "fullText": "치명타가 사무로 자신과 환영의 <c val=\"#TooltipNumbers\">3</c>번째 일반 공격마다 발동합니다.<n/><n/>사무로 자신과 환영의 치명타가 적 영웅의 물리 방어력을 <c val=\"#TooltipNumbers\">2.25</c>초 동안 <c val=\"#TooltipNumbers\">5</c> 감소시킵니다. 이 효과는 물리 방어력을 최대 <c val=\"#TooltipNumbers\">15</c> 감소시킵니다.",
+      "name": "칼날의 길",
+      "shortText": "치명타가 더 자주 발동"
+    },
+    "SamuroWayOfTheWind|SamuroWayOfTheWind|E|Level1": {
+      "fullText": "바람 걸음을 사용하거나 종료하면 <c val=\"#TooltipNumbers\">3</c>초 동안 이동 속도가 <c val=\"#TooltipNumbers\">40%</c> 증가합니다.<n/><n/>바람 걸음을 사용하면 최대 생명력의 <c val=\"#TooltipNumbers\">3%</c>를 즉시 회복합니다.",
+      "name": "바람의 길",
+      "shortText": "바람 걸음 동안 이동 속도 증가 및 생명력 회복"
+    },
+    "SamuroMirage|SamuroMirage|Q|Level4": {
+      "fullText": "환영 복제를 사용하면 자신과 환영의 기술 방어력이 <c val=\"#TooltipNumbers\">40</c> 증가하여 다음 <c val=\"#TooltipNumbers\">2</c>회의 기술 공격으로 받는 피해가 <c val=\"#TooltipNumbers\">40%</c> 감소합니다.",
+      "name": "신기루",
+      "shortText": "환영 복제가 기술 방어력을 증가시킴"
+    },
+    "SamuroWindwalkOneWithTheWind|SamuroOneWithTheWindTalent|E|Level4": {
+      "fullText": "자신과 환영의 방어력이 은신 중에, 그리고 은신이 풀린 후 <c val=\"#TooltipNumbers\">3</c>초 동안 <c val=\"#TooltipNumbers\">25</c> 증가하여 받는 피해가 <c val=\"#TooltipNumbers\">25%</c> 감소합니다.",
+      "name": "바람과 하나되어",
+      "shortText": "바람 걸음 중 방어력 증가"
+    },
+    "SamuroAdvancingStrikesDeflection|SamuroDeflectionTalent|Passive|Level4": {
+      "fullText": "파죽지세가 활성화된 동안 자신과 환영의 물리 방어력이 <c val=\"#TooltipNumbers\">35</c> 증가합니다.",
+      "name": "비껴내기",
+      "shortText": "파죽지세가 물리 방어력을 증가시킴"
+    },
+    "SamuroBurningBlade|SamuroBurningBlade|W|Level7": {
+      "fullText": "치명타가 적중하면 대상과 대상 주위의 다른 적에게 일반 공격력의 <c val=\"#TooltipNumbers\">50%</c>만큼 추가 기술 피해를 줍니다.",
+      "name": "불타는 칼날",
+      "shortText": "치명타가 광역 피해"
+    },
+    "SamuroPhantomPain|SamuroPhantomsStrikeTalent|W|Level7": {
+      "fullText": "적 영웅에게 치명타가 적중하면 환영 이동술의 재사용 대기시간이 <c val=\"#TooltipNumbers\">1</c>초 감소하고 활성화된 환영 하나당 <c val=\"#TooltipNumbers\">35%</c>의 추가 피해를 줍니다.",
+      "name": "환영의 상처",
+      "shortText": "치명타로 환영 이동술 재사용 대기시간 감소"
+    },
+    "SamuroCrushingBlow|SamuroOverpoweringBlow|W|Level7": {
+      "fullText": "적 영웅에게 일반 공격을 할 때마다 치명타의 재사용 대기시간이 <c val=\"#TooltipNumbers\">2</c>초 감소합니다.<n/><n/>적 영웅에게 치명타가 적중하면 일반 공격력이 <c val=\"#TooltipNumbers\">4</c>초 동안 <c val=\"#TooltipNumbers\">10%</c> 증가합니다. 이 효과는 최대 <c val=\"#TooltipNumbers\">30%</c>까지 증가합니다.",
+      "name": "분쇄의 칼날",
+      "shortText": "치명타로 일반 공격력 증가"
+    },
+    "SamuroHeroicAbilityBladestorm|SamuroBladestorm|Heroic|Level10": {
+      "cooldownText": "재사용 대기시간: 30초",
+      "fullText": "폭풍이 휘몰아치듯 적을 난도질하여 <c val=\"#TooltipNumbers\">3</c>초 동안 방어력이 <c val=\"#TooltipNumbers\">25</c> 증가하고 주위 적들에게 초당 <c val=\"#TooltipNumbers\">180</c><c val=\"#ColorGray\">~~0.04~~</c>의 피해를 줍니다.",
+      "name": "칼날폭풍",
+      "shortText": "폭풍이 휘몰아치듯 적을 난도질함"
+    },
+    "SamuroHeroicAbilityIllusionMaster|SamuroIllusionMasterTalent|Heroic|Level10": {
+      "cooldownText": "재사용 대기시간: 8초",
+      "fullText": "환영을 개별적으로, 또는 한꺼번에 조종할 수 있고 환영의 공격력이 <c val=\"#TooltipNumbers\">100%</c> 증가합니다.<n/><n/><c val=\"#AbilityPassive\">지속 효과:</c> 환영 이동술의 재사용 대기시간이 <c val=\"#TooltipNumbers\">8</c>초로 감소합니다.",
+      "name": "환영의 대가",
+      "shortText": "환영 조종 가능"
+    },
+    "SamuroMirroredSteel|SamuroMirroredSteelTalent|Q|Level13": {
+      "fullText": "사무로 자신이 적 영웅에게 일반 공격을 하면 환영 복제의 재사용 대기시간이 <c val=\"#TooltipNumbers\">0.75</c>초 감소합니다.",
+      "name": "환영 강철",
+      "shortText": "일반 공격 시 환영 복제 재사용 대기시간 감소"
+    },
+    "SamuroWindwalkKawarimi|WindwalkKawarimiTalent|E|Level13": {
+      "fullText": "바람 걸음을 사용하면 자신의 위치에 환영을 생성합니다. 환영은 사무로가 바람 걸음 전에 하고 있던 행동을 이어서 수행합니다.",
+      "name": "분신술",
+      "shortText": "바람 걸음 사용 시 환영 생성"
+    },
+    "SamuroShukuchi|SamuroShukuchiTalent|E|Level13": {
+      "fullText": "바람 걸음을 사용하면 바라보고 있는 방향으로 짧은 거리를 순간이동합니다.",
+      "name": "축지법",
+      "shortText": "바람 걸음 사용 시 짧은 거리 순간이동"
+    },
+    "SamuroMercilessStrikes|SamuroMercilessStrikes|W|Level16": {
+      "fullText": "감속, 이동 불가, 기절 상태인 대상에게 일반 공격 시 항상 치명타가 발동합니다.",
+      "name": "무자비한 공격",
+      "shortText": "무력화된 영웅에게 항상 치명타 발동"
+    },
+    "SamuroHarshWinds|SamuroHarshWinds|E|Level16": {
+      "fullText": "적 영웅을 공격하여 바람 걸음이 해제되면 해당 대상에게 <c val=\"#TooltipNumbers\">3</c>초 동안 주는 피해가 <c val=\"#TooltipNumbers\">30%</c> 증가합니다.",
+      "name": "모진 바람",
+      "shortText": "바람 걸음 중 공격 시 공격력 증가"
+    },
+    "SamuroPressTheAttack|SamuroPressTheAttack|Passive|Level16": {
+      "fullText": "환영 혹은 사무로 자신이 적 영웅에게 일반 공격을 하거나 파죽지세가 활성화된 동안에는 공격 속도가 <c val=\"#TooltipNumbers\">10%</c>만큼, 최대 <c val=\"#TooltipNumbers\">40%</c>까지 증가합니다.<n/><n/>파죽지세를 잃으면 추가 효과를 잃습니다.",
+      "name": "쾌도난마",
+      "shortText": "파죽지세 중 공격 속도 증가"
+    },
+    "SamuroDanceOfDeath|SamuroDanceOfDeathTalent|Heroic|Level20": {
+      "fullText": "칼날폭풍을 사용하면 환영도 칼날폭풍을 사용하여 <c val=\"#TooltipNumbers\">45%</c>의 피해를 줍니다. 칼날폭풍이 적 영웅에게 <c val=\"#TooltipNumbers\">20</c>회 이상 적중하면 칼날폭풍의 재사용 대기시간이 초기화됩니다.",
+      "name": "죽음의 춤",
+      "shortText": "환영이 칼날폭풍 사용, 재사용 대기시간 초기화 가능"
+    },
+    "SamuroThreeBladeStyle|SamuroThreeBladeStyleTalent|Heroic|Level20": {
+      "fullText": "환영이 받는 피해가 2배가 아닌 1.5배로 감소하여 실질적으로 생명력이 <c val=\"#TooltipNumbers\">25%</c>만큼 증가하고, 지속 시간이 <c val=\"#TooltipNumbers\">16</c>초로 증가합니다.",
+      "name": "삼도류",
+      "shortText": "환영 생명력 및 지속 시간 증가"
+    },
+    "SamuroWindStrider|SamuroWindStrider|E|Level20": {
+      "fullText": "바람 걸음의 재사용 대기시간이 <c val=\"#TooltipNumbers\">6</c>초 감소합니다.",
+      "name": "바람의 검객",
+      "shortText": "바람 걸음 재사용 대기시간 크게 감소"
+    },
+    "SamuroBlademastersPursuit|SamuroBlademastersPursuitTalent|Passive|Level20": {
+      "fullText": "파죽지세의 이동 속도 증가량이 <c val=\"#TooltipNumbers\">15%</c> 증가하고, 지속 시간이 <c val=\"#TooltipNumbers\">2</c>초 증가합니다.",
+      "name": "검귀의 집념",
+      "shortText": "파죽지세 이동 속도 및 지속 시간 증가"
+    }
+  },
+  "units": {}
+}

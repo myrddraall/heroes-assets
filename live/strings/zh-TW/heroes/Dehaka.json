@@ -1,0 +1,172 @@
+{
+  "abilities": {
+    "DehakaDrag|DehakaDrag|Q": {
+      "cooldownText": "冷卻時間：15秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：75點</s>",
+      "fullText": "德哈卡伸出舌頭，對擊中的第一個敵人造成<c val=\"#TooltipNumbers\">160</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，擊暈並且拖引他們和他一起移動，持續<c val=\"#TooltipNumbers\">1.75</c>秒。<n/><n/>若德哈卡在拖引作用期間內受到昏迷或沉默影響，會中斷此技能效果。",
+      "name": "拖引",
+      "shortText": "對一名敵人造成少量傷害，並且拖引他"
+    },
+    "DehakaDarkSwarm|DehakaDarkSwarm|W": {
+      "cooldownText": "冷卻時間：10秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：50點</s>",
+      "fullText": "每<c val=\"#TooltipNumbers\">0.5</c>秒對附近敵人造成<c val=\"#TooltipNumbers\">48</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，持續<c val=\"#TooltipNumbers\">3.5</c> 秒。在效果期間內，你可穿越所有單位。可在拖引或遁地時施放。",
+      "name": "黑霧蟲群",
+      "shortText": "對附近的敵人造成傷害"
+    },
+    "DehakaBurrow|DehakaBurrow|E": {
+      "cooldownText": "冷卻時間：20秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：65點</s>",
+      "fullText": "遁入地底，進入靜滯狀態並免疫傷害，持續<c val=\"#TooltipNumbers\">2</c>秒。遁地時，德哈卡能以<c val=\"#TooltipNumbers\">50%</c>的速度移動。",
+      "name": "遁地",
+      "shortText": "遁入地底，進入靜滯狀態"
+    },
+    "DehakaIsolation|DehakaIsolation|Heroic": {
+      "cooldownText": "冷卻時間：60秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：70點</s>",
+      "fullText": "發射生物質，對擊中的第一個敵方英雄造成<c val=\"#TooltipNumbers\">200</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，使其現形、沉默，並且緩速<c val=\"#TooltipNumbers\">30%</c>，持續<c val=\"#TooltipNumbers\">3</c>秒。同時大幅降低其視野範圍，持續<c val=\"#TooltipNumbers\">6</c>秒。",
+      "name": "孤立",
+      "shortText": "使敵人沉默、緩速，並且降低其視野"
+    },
+    "DehakaAdaptation|DehakaAdaptation|Heroic": {
+      "cooldownText": "冷卻時間：60秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：70點</s>",
+      "fullText": "延遲<c val=\"#TooltipNumbers\">4</c>秒後，為德哈卡恢復相當於這段期間內所受的傷害總量<c val=\"#TooltipNumbers\">100%</c>的生命值。",
+      "name": "順應",
+      "shortText": "恢復短時間內受到的傷害"
+    },
+    "DehakaEssenceCollection|DehakaEssenceCollection|Trait": {
+      "cooldownText": "冷卻時間：5秒",
+      "fullText": "在<c val=\"#TooltipNumbers\">5</c>秒內，每個累積的原質可為德哈卡恢復<c val=\"#TooltipNumbers\">29</c><c val=\"#ColorGray\">~~0.04~~</c>點生命值。可在拖引或遁地時施放。<n/><n/><c val=\"#AbilityPassive\">被動：</c>參與擊殺敵方英雄可獲得<c val=\"#TooltipNumbers\">10</c>個原質，附近的小兵死亡時可獲得<c val=\"#TooltipNumbers\">2</c>個原質。最多可累積<c val=\"#TooltipNumbers\">50</c>個原質。",
+      "name": "原質收集",
+      "shortText": "收集並吞噬敵方的原質可恢復生命值"
+    },
+    "DehakaBrushstalker|DehakaBrushstalker|Z": {
+      "cooldownText": "冷卻時間：240秒",
+      "fullText": "啟動後可遁地前往地圖上任何一個草叢。<n/><n/><c val=\"#AbilityPassive\">被動：</c>位在草叢時，以及離開草叢後的<c val=\"#TooltipNumbers\">2</c>秒內，移動速度提高<c val=\"#TooltipNumbers\">20%</c>。<n/><n/><c val=\"#AbilityPassive\">被動：</c>收集恢復之球會使埋伏潛獵的冷卻時間降低<c val=\"#TooltipNumbers\">40</c>秒。",
+      "name": "埋伏潛獵",
+      "shortText": "遁地前往地圖上任何一個草叢"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "引導<c val=\"#TooltipNumbers\">6</c>秒後傳送回風暴祭壇，立即恢復<c val=\"#TooltipNumbers\">1125</c>點生命值和<c val=\"#TooltipNumbers\">150</c>點法力值。",
+      "name": "爐石"
+    },
+    "DehakaCancelBurrow|DehakaCancelBurrow|E": {
+      "fullText": "取消遁地",
+      "name": "取消遁地",
+      "shortText": "鑽出"
+    }
+  },
+  "talents": {
+    "DehakaDarkSwarmTalentEnduringSwarm|DehakaDarkSwarmTalentEnduringSwarm|W|Level1": {
+      "fullText": "黑霧蟲群的持續時間提高<c val=\"#TooltipNumbers\">0.5</c>秒，並且在效果期間內賦予<c val=\"#TooltipNumbers\">50</c>點法術護甲。",
+      "name": "堅韌蟲群",
+      "shortText": "提高黑霧蟲群的持續時間，並且可賦予法術護甲"
+    },
+    "DehakaEssenceCollectionTalentTissueRegeneration|DehakaEssenceCollectionTalentTissueRegeneration|Trait|Level1": {
+      "fullText": "拾取恢復之球可獲得<c val=\"#TooltipNumbers\">10</c>個原質。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">重複性任務：</c>德哈卡每收集<c val=\"#TooltipNumbers\">50</c>個原質，生命恢復率永久提高<c val=\"#TooltipNumbers\">4</c>點，最多可提高<c val=\"#TooltipNumbers\">40</c>點，並且原質上限永久提高<c val=\"#TooltipNumbers\">1</c>點，最多可提高<c val=\"#TooltipNumbers\">10</c>點。",
+      "name": "組織再生",
+      "shortText": "<c val=\"#TooltipQuest\">任務：</c>收集原質可提高生命恢復率和原質上限"
+    },
+    "DehakaEssenceCollectionTalentEnhancedAgility|DehakaEssenceCollectionTalentEnhancedAgility|Z|Level1": {
+      "fullText": "在離開草叢後，埋伏潛獵的移動速度加成可持續<c val=\"#TooltipNumbers\">4</c>秒。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">重複性任務：</c>德哈卡每收集<c val=\"#TooltipNumbers\">50</c>個原質，他的埋伏潛獵移動速度加成永久提高<c val=\"#TooltipNumbers\">2%</c>，最多可提高<c val=\"#TooltipNumbers\">20%</c>。",
+      "name": "迅捷強化",
+      "shortText": "<c val=\"#TooltipQuest\">任務：</c>原質可提高埋伏潛獵的移動速度加成"
+    },
+    "DehakaBurrowTalentLurkerStrain|DehakaBurrowTalentLurkerStrain|E|Level4": {
+      "fullText": "結束遁地時德哈卡會進入匿蹤狀態，持續<c val=\"#TooltipNumbers\">3</c>秒，同時可擊退附近的敵人，造成<c val=\"#TooltipNumbers\">125</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，並且使其緩速<c val=\"#TooltipNumbers\">30%</c>，持續<c val=\"#TooltipNumbers\">3</c>秒。<n/><n/><c val=\"#AbilityPassive\">被動：</c>遁地的冷卻時間降低<c val=\"#TooltipNumbers\">2</c>秒。",
+      "name": "遁地獸品系",
+      "shortText": "遁地可匿蹤並且擊退敵人"
+    },
+    "DehakaEssenceCollectionOneWhoCollectsTalent|DehakaEssenceCollectionOneWhoCollectsTalent|Trait|Level4": {
+      "fullText": "從小兵身上獲得的原質提高<c val=\"#TooltipNumbers\">50%</c>。黑霧蟲群對傭兵造成的傷害提高<c val=\"#TooltipNumbers\">40%</c>。",
+      "name": "原質掠奪者",
+      "shortText": "提高從小兵身上獲得的原質和黑霧蟲群對傭兵造成的傷害"
+    },
+    "DehakaEssenceCollectionTalentHeroStalker|DehakaEssenceCollectionTalentHeroStalker|Trait|Level4": {
+      "fullText": "參與擊殺英雄時獲得的原質提高<c val=\"#TooltipNumbers\">100%</c>。黑霧蟲群每命中一個敵方英雄可獲得<c val=\"#TooltipNumbers\">1</c>個原質，同時最多可獲得<c val=\"#TooltipNumbers\">3</c>個。",
+      "name": "擊殺潛獵",
+      "shortText": "參與擊殺英雄可獲得更多原質"
+    },
+    "DehakaDragTalentFeedingFrenzy|DehakaDragTalentFeedingFrenzy|Q|Level7": {
+      "fullText": "使拖引的持續時間提高<c val=\"#TooltipNumbers\">0.5</c>秒。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">險著：</c>基本攻擊可使拖引的冷卻時間降低<c val=\"#TooltipNumbers\">1.5</c>秒。每次死亡後，該冷卻時間降低效果會降低<c val=\"#TooltipNumbers\">0.25</c>秒，最多降低<c val=\"#TooltipNumbers\">3</c>次。",
+      "name": "獵食狂怒",
+      "shortText": "<c val=\"#TooltipQuest\">險著：</c>基本攻擊可降低拖引的冷卻時間"
+    },
+    "DehakaDragTalentParalyzingEnzymes|DehakaDragTalentParalyzingEnzymes|Q|Level7": {
+      "fullText": "拖引會在作用期間和結束後的<c val=\"#TooltipNumbers\">2</c>秒內，使目標緩速<c val=\"#TooltipNumbers\">40%</c>，並使其獲得的治療量降低<c val=\"#TooltipNumbers\">50%</c>。德哈卡基本的攻擊會使治療量減少的效果持續時間提高<c val=\"#TooltipNumbers\">2</c>秒。",
+      "name": "癱瘓酵素",
+      "shortText": "拖引會造成緩速和降低治療量"
+    },
+    "DehakaDarkSwarmTalentSymbiosis|DehakaDarkSwarmTalentSymbiosis|W|Level7": {
+      "fullText": "黑霧蟲群每擊中一名敵方英雄，冷卻時間降低<c val=\"#TooltipNumbers\">0.4</c>秒。",
+      "name": "共生蟲群",
+      "shortText": "命中敵方英雄可降低黑霧蟲群的冷卻時間"
+    },
+    "DehakaHeroicAbilityIsolation|DehakaIsolation|Heroic|Level10": {
+      "cooldownText": "冷卻時間：60秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：70點</s>",
+      "fullText": "發射生物質，對擊中的第一個敵方英雄造成<c val=\"#TooltipNumbers\">200</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，使其現形、沉默，並且緩速<c val=\"#TooltipNumbers\">30%</c>，持續<c val=\"#TooltipNumbers\">3</c>秒。同時大幅降低其視野範圍，持續<c val=\"#TooltipNumbers\">6</c>秒。",
+      "name": "孤立",
+      "shortText": "使敵人沉默、緩速，並且降低其視野"
+    },
+    "DehakaHeroicAbilityAdaptation|DehakaAdaptation|Heroic|Level10": {
+      "cooldownText": "冷卻時間：60秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：70點</s>",
+      "fullText": "延遲<c val=\"#TooltipNumbers\">4</c>秒後，為德哈卡恢復相當於這段期間內所受的傷害總量<c val=\"#TooltipNumbers\">100%</c>的生命值。",
+      "name": "順應",
+      "shortText": "恢復短時間內受到的傷害"
+    },
+    "DehakaBrushstalkerFerociousStalker|DehakaBrushstalkerFerociousStalkerTalent|W|Level13": {
+      "fullText": "在獲得埋伏潛獵的移動速度加成期間內，黑霧蟲群會使敵方英雄緩速<c val=\"#TooltipNumbers\">15%</c>，持續<c val=\"#TooltipNumbers\">0.75</c>秒，並且造成的傷害提高<c val=\"#TooltipNumbers\">50%</c>。",
+      "name": "迅猛潛獵",
+      "shortText": "埋伏潛獵可使黑霧蟲群緩速和提高傷害"
+    },
+    "DehakaPrimalSwarm|DehakaPrimalSwarm|W|Level13": {
+      "fullText": "黑霧蟲群可使命中的敵人降低<c val=\"#TooltipNumbers\">10</c>點護甲，持續<c val=\"#TooltipNumbers\">0.75</c>秒，使他們受到的傷害提高<c val=\"#TooltipNumbers\">10%</c>。",
+      "name": "原生蟲群",
+      "shortText": "黑霧蟲群可降低敵人的護甲"
+    },
+    "DehakaPrimalRage|DehakaPrimalRage|Trait|Level13": {
+      "fullText": "每擁有一個原質可提高<c val=\"#TooltipNumbers\">1.25%</c>攻擊傷害。",
+      "name": "原生蟲族之怒",
+      "shortText": "原質可提高攻擊傷害"
+    },
+    "DehakaDragTalentElongatedTongue|DehakaDragTalentElongatedTongue|Q|Level16": {
+      "fullText": "拖引的攻擊距離提高<c val=\"#TooltipNumbers\">20%</c>。",
+      "name": "長舌拖引",
+      "shortText": "提高拖引的距離"
+    },
+    "DehakaTunnelingClaws|DehakaTunnelingClaws|E|Level16": {
+      "fullText": "遁地時，移動速度提高至<c val=\"#TooltipNumbers\">120%</c>。",
+      "name": "掘地爪",
+      "shortText": "提高遁地的移動速度"
+    },
+    "DehakaPackLeaderBrushstalkerTalent|DehakaPackLeaderBrushstalker|Z|Level16": {
+      "fullText": "德哈卡在草叢裡和離開草叢後的<c val=\"#TooltipNumbers\">4</c>秒內，可獲得<c val=\"#TooltipNumbers\">40</c>點護甲，並且使攻擊速度提高<c val=\"#TooltipNumbers\">15%</c>。",
+      "name": "族群領袖",
+      "shortText": "在草叢附近可獲得護甲，提高攻擊速度"
+    },
+    "DehakaIsolationTalentContagion|DehakaIsolationTalentContagion|Heroic|Level20": {
+      "fullText": "孤立會擊中第一個目標附近的所有英雄，但對所有目標造成的傷害降低<c val=\"#TooltipNumbers\">60%</c>。",
+      "name": "蔓延",
+      "shortText": "孤立的效果會擴散至附近的英雄"
+    },
+    "DehakaAdaptationChangeIsSurvivalTalent|DehakaAdaptationChangeIsSurvivalTalent|Heroic|Level20": {
+      "fullText": "順應的治療量提高至所受傷害總量的<c val=\"#TooltipNumbers\">200%</c>，並且冷卻時間降低<c val=\"#TooltipNumbers\">40</c>秒。",
+      "name": "轉變即生存",
+      "shortText": "提高順應的治療量並且降低冷卻時間"
+    },
+    "DehakaEssenceClaws|DehakaEssenceClaws|Trait|Level20": {
+      "fullText": "德哈卡的基本攻擊可使目標緩速<c val=\"#TooltipNumbers\">20%</c>，持續<c val=\"#TooltipNumbers\">1</c>秒。如果目標是英雄，德哈卡可獲得<c val=\"#TooltipNumbers\">5</c>個原質。",
+      "name": "原質利爪",
+      "shortText": "基本攻擊可使敵人緩速，並且提供原質"
+    },
+    "DehakaBrushstalkerApexPredator|DehakaBrushstalkerApexPredatorTalent|Z|Level20": {
+      "fullText": "埋伏潛獵的冷卻時間降低<c val=\"#TooltipNumbers\">120</c>秒，並且施放時間降低<c val=\"#TooltipNumbers\">0.5</c>秒。",
+      "name": "至尊掠食者",
+      "shortText": "降低埋伏潛獵的冷卻時間與施放時間"
+    }
+  },
+  "units": {}
+}

@@ -1,0 +1,183 @@
+{
+  "abilities": {
+    "IllidanDive|IllidanDive|Q": {
+      "cooldownText": "Время восстановления: 6 сек.",
+      "fullText": "Иллидан совершает прыжок к цели, нанося <c val=\"#TooltipNumbers\">66</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона, и оказывается с противоположной стороны от цели.",
+      "name": "Кувырок",
+      "shortText": "Совершает прыжок через противника."
+    },
+    "IllidanSweepingStrike|IllidanSweepingStrike|W": {
+      "cooldownText": "Время восстановления: 8 сек.",
+      "fullText": "Иллидан устремляется к указанной точке, нанося <c val=\"#TooltipNumbers\">119</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона противникам на своем пути. Если он поражает противника, его автоатаки в течение <c val=\"#TooltipNumbers\">3</c> сек. наносят на <c val=\"#TooltipNumbers\">35%</c> больше урона.",
+      "name": "Размашистый удар",
+      "shortText": "Совершает рывок, наносит урон и усиливает свои автоатаки."
+    },
+    "IllidanEvasion|IllidanEvasion|E": {
+      "cooldownText": "Время восстановления: 15 сек.",
+      "fullText": "Иллидан в течение <c val=\"#TooltipNumbers\">2.5</c> сек. уклоняется от автоатак.",
+      "name": "Уклонение",
+      "shortText": "Избегает автоатак противника."
+    },
+    "IllidanTheHunt|IllidanTheHunt|Heroic": {
+      "cooldownText": "Время восстановления: 100 сек.",
+      "fullText": "Иллидан устремляется к указанной цели, нанося ей <c val=\"#TooltipNumbers\">251</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона при взаимодействии и оглушая на <c val=\"#TooltipNumbers\">1</c> сек.",
+      "name": "Охота",
+      "shortText": "Устремляется к цели с очень большого расстояния."
+    },
+    "IllidanMetamorphosisTargeted|IllidanMetamorphosis|Heroic": {
+      "cooldownText": "Время восстановления: 120 сек.",
+      "fullText": "В указанном месте Иллидан превращается в демона, нанося <c val=\"#TooltipNumbers\">46</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона находящимся там противникам. За каждого пораженного при трансформации героя максимальный запас здоровья временно увеличивается на <c val=\"#TooltipNumbers\">220</c><c val=\"#ColorGray\">~~0.04~~</c> ед. Время действия – <c val=\"#TooltipNumbers\">18</c> сек.",
+      "name": "Метаморфоза",
+      "shortText": "Увеличивает запас здоровья и наносит урон по области."
+    },
+    ":PASSIVE:|IllidanBetrayersThirst|Trait": {
+      "fullText": "Каждая автоатака восполняет Иллидану здоровье в объеме <c val=\"#TooltipNumbers\">30%</c> нанесенного урона и сокращает время восстановления способностей на <c val=\"#TooltipNumbers\">1</c> сек.",
+      "name": "Жажда Предателя",
+      "shortText": "Автоатаки восполняют здоровье и ускоряют восстановление способностей."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Время восстановления: 4 сек.",
+      "fullText": "После подготовки длительностью <c val=\"#TooltipNumbers\">1</c> сек. повышает скорость передвижения на <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Вызов транспорта"
+    },
+    "Hearthstone|HearthstoneNoMana|B": {
+      "fullText": "После поддержания в течение <c val=\"#TooltipNumbers\">6</c> сек. телепортирует героя в Зал Штормов, моментально восполняя <c val=\"#TooltipNumbers\">1125</c> ед. здоровья.",
+      "name": "Возвращение"
+    },
+    "IllidanMetamorphosisDismountCustom|UnsummonMountCustom|Z": {
+      "fullText": "Покинуть транспорт.",
+      "name": "Отмена транспорта"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Покинуть транспорт.",
+      "name": "Отмена транспорта"
+    },
+    "IllidanBladesOfAzzinoth|IllidanBladesOfAzzinoth|Active": {
+      "fullText": "Поразив героев «Размашистым ударом» <c val=\"#TooltipNumbers\">5</c> раз, Иллидан может использовать талант «Клинки Аззинота», чтобы увеличить урон от автоатак на <c val=\"#TooltipNumbers\">75%</c> на <c val=\"#TooltipNumbers\">8</c> сек.",
+      "name": "Клинки Аззинота",
+      "shortText": "Увеличивает урон от автоатак."
+    },
+    "IllidanMetamorphosisMountCustom|SummonMountCustom|Z": {
+      "cooldownText": "Время восстановления: 1 сек.",
+      "fullText": "После подготовки длительностью <c val=\"#TooltipNumbers\">1</c> сек. повышает скорость передвижения на <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Вызов транспорта"
+    },
+    "FlashoftheStorms|GenericBoltoftheStormTalent|Active": {
+      "cooldownText": "Время восстановления: 70 сек.",
+      "fullText": "При использовании телепортирует вашего героя на небольшое расстояние.",
+      "name": "Штормовой заряд",
+      "shortText": "Телепортирует на небольшое расстояние."
+    }
+  },
+  "talents": {
+    "IllidanMasteryImmolationSweepingStrike|IllidanSweepingStrikeImmolationTalent|W|Level1": {
+      "fullText": "Выполняя «Размашистый удар», Иллидан окружает себя пламенем, наносящим находящимся рядом противникам <c val=\"#TooltipNumbers\">22</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона в секунду в течение <c val=\"#TooltipNumbers\">4</c> сек.",
+      "name": "Сжигание",
+      "shortText": "«Размашистый удар» наносит урон по области."
+    },
+    "IllidanMasteryBatteredAssaultSweepingStrike|IllidanSweepingStrikeBatteredAssaultTalent|W|Level1": {
+      "fullText": "Увеличивает время действия бонуса к урону автоатак от «Размашистого удара» с <c val=\"#TooltipNumbers\">3</c> до <c val=\"#TooltipNumbers\">5</c> сек. Если «Размашистый удар» поражает <c val=\"#TooltipNumbers\">2</c> или более героев, бонус к урону увеличивается с <c val=\"#TooltipNumbers\">35%</c> до <c val=\"#TooltipNumbers\">125%</c>.",
+      "name": "Коварная атака",
+      "shortText": "«Размашистый удар» дополнительно усиливает автоатаки."
+    },
+    "IllidanUnendingHatredPassive|IllidanUnendingHatredTalent|Passive|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Задача:</c> каждое убийство воина увеличивает урон от автоатак на <c val=\"#TooltipNumbers\">0.2</c> ед., а убийство героя – на <c val=\"#TooltipNumbers\">1</c> ед.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Награда:</c> когда бонус достигнет <c val=\"#TooltipNumbers\">20</c> ед., урон от автоатак дополнительно увеличится на <c val=\"#TooltipNumbers\">20</c> ед.",
+      "name": "Вечная ненависть",
+      "shortText": "<c val=\"#TooltipQuest\">Задача:</c> убивайте противников, чтобы увеличить урон от автоатак."
+    },
+    "IllidanReflexiveBlock|IllidanEvasionReflexiveBlockTalent|Q|Level4": {
+      "fullText": "Используя «Кувырок», Иллидан получает <c val=\"#TooltipNumbers\">75</c> ед. кинетической брони. Эта броня уменьшает на <c val=\"#TooltipNumbers\">75%</c> урон от <c val=\"#TooltipNumbers\">3</c> следующих автоатак вражеских героев. Время действия – <c val=\"#TooltipNumbers\">4</c> сек.",
+      "name": "Длительный блок",
+      "shortText": "«Кувырок» дает кинетическую броню."
+    },
+    "IllidanSweepingStrikesThirstingBlade|IllidanBetrayersThirstThirstingBladeTalent|Trait|Level4": {
+      "fullText": "Увеличивает объем восполняемого «Жаждой Предателя» здоровья с <c val=\"#TooltipNumbers\">30%</c> до <c val=\"#TooltipNumbers\">50%</c> нанесенного урона, пока действует эффект «Размашистого удара».",
+      "name": "Алчный клинок",
+      "shortText": "«Размашистые удары» усиливают исцеление от «Жажды Предателя»."
+    },
+    "IllidanCombatStyleHuntersOnslaught|IllidanBetrayersThirstHuntersOnslaughtTalent|Trait|Level4": {
+      "fullText": "Базовые способности восполняют здоровье в объеме <c val=\"#TooltipNumbers\">35%</c> нанесенного урона. Объем исцеления удваивается при попаданиях по героям.",
+      "name": "Охотничий натиск",
+      "shortText": "Лечит Иллидана при нанесении урона базовыми способностями."
+    },
+    "IllidanMasteryRapidChaseDive|IllidanDiveRapidChaseTalent|Q|Level7": {
+      "fullText": "«Кувырок» повышает скорость передвижения на <c val=\"#TooltipNumbers\">20%</c> на <c val=\"#TooltipNumbers\">3</c> сек. Если цель «Кувырка» – герой противника, его время восстановления сокращается на <c val=\"#TooltipNumbers\">1</c> сек.",
+      "name": "Быстрая погоня",
+      "shortText": "«Кувырок» ускоряет передвижение и восстанавливается быстрее."
+    },
+    "IllidanMasteryFriendOrFoeDive|IllidanDiveFriendOrFoeTalent|Q|Level7": {
+      "fullText": "«Кувырок» можно применять к союзным героям, а дальность его применения увеличивается на <c val=\"#TooltipNumbers\">20%</c>.",
+      "name": "Друг или враг",
+      "shortText": "«Кувырок» действует дальше и применяется к союзникам."
+    },
+    "IllidanMasteryUnboundSweepingStrike|IllidanSweepingStrikeUnboundTalent|W|Level7": {
+      "fullText": "При использовании «Размашистого удара» Иллидан может преодолевать препятствия и стены.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Награда:</c> после того, как «Размашистый удар» поразит героев <c val=\"#TooltipNumbers\">15</c> <lang rule=\"plural\">раз,раза,раз</lang>, он получит второй заряд.",
+      "name": "Всепроникающий взмах",
+      "shortText": "<c val=\"#TooltipQuest\">Задача:</c> «Размашистый удар» игнорирует препятствия."
+    },
+    "IllidanHeroicAbilityMetamorphosis|IllidanMetamorphosis|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 120 сек.",
+      "fullText": "В указанном месте Иллидан превращается в демона, нанося <c val=\"#TooltipNumbers\">46</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона находящимся там противникам. За каждого пораженного при трансформации героя максимальный запас здоровья временно увеличивается на <c val=\"#TooltipNumbers\">220</c><c val=\"#ColorGray\">~~0.04~~</c> ед. Время действия – <c val=\"#TooltipNumbers\">18</c> сек.",
+      "name": "Метаморфоза",
+      "shortText": "Увеличивает запас здоровья и наносит урон по области."
+    },
+    "IllidanHeroicAbilityTheHunt|IllidanTheHunt|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 100 сек.",
+      "fullText": "Иллидан устремляется к указанной цели, нанося ей <c val=\"#TooltipNumbers\">251</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона при взаимодействии и оглушая на <c val=\"#TooltipNumbers\">1</c> сек.",
+      "name": "Охота",
+      "shortText": "Устремляется к цели с очень большого расстояния."
+    },
+    "IllidanNimbleDefender|IllidanNimbleDefender|W|Level13": {
+      "fullText": "Если «Размашистый удар» поражает героя, Иллидан получает <c val=\"#TooltipNumbers\">25</c> ед. брони на <c val=\"#TooltipNumbers\">2</c> сек. Эта броня уменьшает получаемый урон на <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Проворный защитник",
+      "shortText": "«Размашистый удар» дает броню."
+    },
+    "IllidanElusiveStrike|IllidanElusiveStrike|E|Level13": {
+      "fullText": "«Размашистый удар» сокращает время восстановления «Уклонения» на <c val=\"#TooltipNumbers\">3</c> сек. каждый раз, когда поражает героя.",
+      "name": "Отвлекающий удар",
+      "shortText": "«Размашистый удар» ускоряет восстановление «Уклонения»."
+    },
+    "IllidanMasterySixthSenseEvasion|IllidanEvasionSixthSenseTalent|E|Level13": {
+      "fullText": "«Уклонение» дает Иллидану <c val=\"#TooltipNumbers\">75</c> ед. энергетической брони на время своего действия. Эта броня защищает от <c val=\"#TooltipNumbers\">2</c> <lang rule=\"plural\" val=\"\">следующего источника,следующих источников,следующих источников</lang> урона от способностей, уменьшая получаемый от них урон на <c val=\"#TooltipNumbers\">75%</c>.",
+      "name": "Шестое чувство",
+      "shortText": "«Уклонение» дает энергетическую броню."
+    },
+    "IllidanMasteryMarkedforDeathDive|IllidanDiveMarkedForDeathTalent|Q|Level16": {
+      "fullText": "После того как Иллидан поражает цель «Кувырком», повторное применение этой способности к той же цели в течение <c val=\"#TooltipNumbers\">10</c> сек. дополнительно наносит <c val=\"#TooltipNumbers\">180</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона.",
+      "name": "Метка смерти",
+      "shortText": "При повторном применении «Кувырок» наносит больше урона."
+    },
+    "IllidanFieryBrand|IllidanFieryBrand|Passive|Level16": {
+      "fullText": "Каждая <c val=\"#TooltipNumbers\">3-я</c> атака по одному и тому же герою наносит дополнительный урон в объеме <c val=\"#TooltipNumbers\">7%</c> максимального запаса здоровья цели.",
+      "name": "Огненное клеймо",
+      "shortText": "Последовательные автоатаки по одному и тому же герою наносят больше урона."
+    },
+    "IllidanBladesOfAzzinoth|IllidanBladesOfAzzinoth|Active|Level16": {
+      "fullText": "Поразив героев «Размашистым ударом» <c val=\"#TooltipNumbers\">5</c> раз, Иллидан может использовать талант «Клинки Аззинота», чтобы увеличить урон от автоатак на <c val=\"#TooltipNumbers\">75%</c> на <c val=\"#TooltipNumbers\">8</c> сек.",
+      "name": "Клинки Аззинота",
+      "shortText": "Увеличивает урон от автоатак."
+    },
+    "IllidanMasteryDemonicFormMetamorphosis|IllidanMetamorphosisDemonicFormTalent|Heroic|Level20": {
+      "fullText": "Иллидан пребывает в облике демона постоянно. При этом скорость его атаки увеличивается на <c val=\"#TooltipNumbers\">20%</c>, а время действия примененных к нему эффектов замедления, обездвиживания и оглушения уменьшается на <c val=\"#TooltipNumbers\">50%</c>. Иллидан получает возможность перемещаться со скоростью транспорта в облике демона.",
+      "name": "Облик демона",
+      "shortText": "Облик демона длится бесконечно и повышает скорость атаки."
+    },
+    "IllidanMasteryNowhereToHideTheHunt|IllidanTheHuntNowhereToHideTalent|Heroic|Level20": {
+      "fullText": "«Охота» действует с любого расстояния. Кроме того, Иллидан видит местоположение вражеских героев, у которых осталось менее <c val=\"#TooltipNumbers\">25%</c> здоровья.",
+      "name": "Негде спрятаться",
+      "shortText": "«Охота» действует с любого расстояния и показывает раненых героев."
+    },
+    "GenericTalentNexusBlades|NexusBladesTalent|Passive|Level20": {
+      "fullText": "Автоатаки наносят на <c val=\"#TooltipNumbers\">20%</c> больше урона и снижают скорость передвижения цели на <c val=\"#TooltipNumbers\">20%</c> на <c val=\"#TooltipNumbers\">1</c> сек.",
+      "name": "Клинки Нексуса",
+      "shortText": "Автоатаки наносят больше урона и замедляют цель."
+    },
+    "GenericTalentFlashoftheStorms|GenericBoltoftheStormTalent|Active|Level20": {
+      "cooldownText": "Время восстановления: 70 сек.",
+      "fullText": "При использовании телепортирует вашего героя на небольшое расстояние.",
+      "name": "Штормовой заряд",
+      "shortText": "Телепортирует на небольшое расстояние."
+    }
+  },
+  "units": {}
+}

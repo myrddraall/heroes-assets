@@ -1,0 +1,224 @@
+{
+  "abilities": {
+    "FirebatFlameStream|FirebatFlameStream|Q": {
+      "cooldownText": "冷却时间：4秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：30</s>",
+      "fullText": "射出两股火焰喷流，对击中的敌人造成<c val=\"#TooltipNumbers\">76</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害，且被两股火焰喷流命中的非建筑敌人受到<c val=\"#TooltipNumbers\">120</c><c val=\"#ColorGray\">~~0.04~~</c>点额外伤害。火焰喷流接触到浮油时会将其点燃。",
+      "name": "火焰喷流",
+      "shortText": "射出两股火焰喷流"
+    },
+    "FirebatOilSpill|FirebatOilSpill|W": {
+      "cooldownText": "充能时间：12秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：50</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">选择方向</c><n/>喷洒一层燃油，持续存在<c val=\"#TooltipNumbers\">5</c>秒，其所接触到的敌人被减速<c val=\"#TooltipNumbers\">50%</c>。<n/><n/>火焰喷流击中敌人时，将点燃浮油，持续<c val=\"#TooltipNumbers\">2.5</c>秒。被点燃的浮油不再减速敌人，而是每<c val=\"#TooltipNumbers\">0.3</c>秒对其造成<c val=\"#TooltipNumbers\">16</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害。另外，布雷泽站在燃烧的浮油当中时，每<c val=\"#TooltipNumbers\">0.3</c>秒受到<c val=\"#TooltipNumbers\">49</c><c val=\"#ColorGray\">~~0.04~~</c>点生命值的治疗。<n/><n/>最多储存<c val=\"#TooltipNumbers\">2</c>层充能。",
+      "name": "浮油",
+      "shortText": "制造一滩可减速的燃油，可以点燃对敌人造成伤害并治疗布雷泽"
+    },
+    "FirebatJetPropulsion|FirebatJetPropulsion|E": {
+      "cooldownText": "冷却时间：10秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：45</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">0.375</c>秒后向前发起冲锋。撞击一名敌方英雄，可对目标以及附近的敌方英雄造成<c val=\"#TooltipNumbers\">52</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害，并将其撞晕<c val=\"#TooltipNumbers\">1.25</c>秒。",
+      "name": "喷射推进",
+      "shortText": "向前冲锋，撞晕并伤害敌方英雄"
+    },
+    "FirebatBunkerDrop|FirebatBunkerDrop|Heroic": {
+      "cooldownText": "冷却时间：85秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：80</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">0.5</c>秒延迟后，空投一座拥有<c val=\"#TooltipNumbers\">1435</c><c val=\"#ColorGray\">~~0.04~~</c>点生命值的地堡。布雷泽和他的盟友可以自由出入地堡。地堡中的所有人可以使用火焰喷射技能，对直线上的敌人造成<c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害。<n/><n/>离开地堡时获得<c val=\"#TooltipNumbers\">25</c>点护甲，持续<c val=\"#TooltipNumbers\">2</c>秒。地堡持续存在<c val=\"#TooltipNumbers\">10</c>秒或直到被摧毁为止。",
+      "name": "空投地堡",
+      "shortText": "空投一座地堡"
+    },
+    "FirebatCombustion|FirebatCombustion|Heroic": {
+      "cooldownText": "冷却时间：80秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：70</s>",
+      "fullText": "可引导最多<c val=\"#TooltipNumbers\">2.6</c>秒。引导结束时，使附近敌人减速<c val=\"#TooltipNumbers\">60%</c>，并且每<c val=\"#TooltipNumbers\">0.5</c>秒对他们造成<c val=\"#TooltipNumbers\">55</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害。增压爆燃的减速和持续性伤害效果所存在的时间取决于技能引导时间，从<c val=\"#TooltipNumbers\">1</c>秒开始最高可达到<c val=\"#TooltipNumbers\">5</c>秒。<n/><n/>引导技能时，布雷泽的移动速度降低<c val=\"#TooltipNumbers\">40%</c>。",
+      "name": "增压爆燃",
+      "shortText": "引导一场爆炸，对敌人造成伤害并减速"
+    },
+    "FirebatIgnite|FirebatIgnite|Trait": {
+      "cooldownText": "冷却时间：90秒",
+      "fullText": "激活后获得<c val=\"#TooltipNumbers\">40</c>点护甲，并且每<c val=\"#TooltipNumbers\">0.5</c>秒对周围的敌人造成<c val=\"#TooltipNumbers\">40</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害，持续<c val=\"#TooltipNumbers\">4</c>秒。<n/><n/>火焰喷流每击中一名英雄，纵火狂的冷却时间缩短<c val=\"#TooltipNumbers\">4</c>秒。",
+      "name": "纵火狂",
+      "shortText": "获得护甲并伤害附近的敌人"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "冷却时间：4秒",
+      "fullText": "引导<c val=\"#TooltipNumbers\">1</c>秒后，获得<s val=\"StandardTooltipDetails\">30%</s>移动速度。",
+      "name": "召唤坐骑"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "引导<c val=\"#TooltipNumbers\">6</c>秒后，传送回风暴大厅，立即恢复<c val=\"#TooltipNumbers\">1125</c>的生命值和<c val=\"#TooltipNumbers\">150</c>法力值。",
+      "name": "炉石"
+    },
+    "FirebatCombustionCancel|FirebatCombustionCancel|Heroic": {
+      "fullText": "取消增压爆燃。",
+      "name": "取消增压爆燃",
+      "shortText": ""
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "解除坐骑。",
+      "name": "解除坐骑"
+    },
+    "FirebatAdrenalineStimpack|FirebatAdrenalineStimpack|Active": {
+      "cooldownText": "冷却时间：30秒",
+      "fullText": "<c val=\"#AbilityPassive\">被动：</c>当生命值高于<c val=\"#TooltipNumbers\">80%</c>时，获得<c val=\"#TooltipNumbers\">20%</c>的攻击速度加成和<c val=\"#TooltipNumbers\">10%</c>的移动速度加成。<n/><n/>激活后攻击速度提高<c val=\"#TooltipNumbers\">85%</c>，移动速度提高<c val=\"#TooltipNumbers\">25%</c>，持续<c val=\"#TooltipNumbers\">5</c>秒。",
+      "name": "肾上腺素强化剂",
+      "shortText": "激活后获得攻击与移动速度加成"
+    },
+    "FirebatEnduranceStimpack|FirebatEnduranceStimpack|Active": {
+      "cooldownText": "冷却时间：30秒",
+      "fullText": "激活后获得一个吸收<c val=\"#TooltipNumbers\">590</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害的护盾，持续<c val=\"#TooltipNumbers\">5</c>秒。<n/><n/>如果在生命值低于<c val=\"#TooltipNumbers\">30%</c>的时候受到伤害，耐力强化剂会在准备就绪的情况下自动施放。",
+      "name": "耐力强化剂",
+      "shortText": "激活后获得护盾"
+    },
+    "FirebatNeuralStimpack|FirebatNeuralStimpack|Active": {
+      "cooldownText": "冷却时间：30秒",
+      "fullText": "激活后获得<c val=\"#TooltipNumbers\">40</c>点法力值，并使基本技能的冷却速度加快<c val=\"#TooltipNumbers\">100%</c>，持续<c val=\"#TooltipNumbers\">5</c>秒。",
+      "name": "神经强化剂",
+      "shortText": "激活后提高技能冷却回复率"
+    },
+    "FirebatJuggernautPlating|FirebatActiveJuggernautPlating|Active": {
+      "cooldownText": "冷却时间：30秒",
+      "fullText": "激活后获得<c val=\"#TooltipNumbers\">50</c>点法术护甲，持续<c val=\"#TooltipNumbers\">3</c>秒。结束时，布雷泽获得一个相当于铁人装甲激活时所吸收法术伤害量<c val=\"#TooltipNumbers\">125%</c>的护盾。",
+      "name": "铁人装甲",
+      "shortText": "获得法术护甲，随后获得一个受吸收法术伤害量影响的护盾"
+    },
+    "FirebatBunkerDropFlamethrower|FirebatBunkerDropFlamethrower|Q": {
+      "cooldownText": "冷却时间：1秒",
+      "fullText": "对一条直线上的敌人造成<c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害。",
+      "name": "火焰喷射",
+      "shortText": "对直线上的敌人造成伤害。"
+    },
+    "FirebatBunkerDropFortifiedBunkerOilSpill|FirebatBunkerDropFortifiedBunkerOilSpill|W": {
+      "cooldownText": "冷却时间：6秒",
+      "fullText": "<c val=\"#TooltipNumbers\">选择方向</c><n/>喷洒一团浮油来减速敌人，可以被布雷泽点燃。",
+      "name": "浮油",
+      "shortText": ""
+    },
+    "FirebatBunkerDropExitBunker|FirebatBunkerDropExitBunker|Trait": {
+      "fullText": "离开地堡。",
+      "name": "离开地堡",
+      "shortText": ""
+    }
+  },
+  "talents": {
+    "FirebatAdrenalineStimpack|FirebatAdrenalineStimpack|Active|Level1": {
+      "cooldownText": "冷却时间：30秒",
+      "fullText": "<c val=\"#AbilityPassive\">被动：</c>当生命值高于<c val=\"#TooltipNumbers\">80%</c>时，获得<c val=\"#TooltipNumbers\">20%</c>的攻击速度加成和<c val=\"#TooltipNumbers\">10%</c>的移动速度加成。<n/><n/>激活后攻击速度提高<c val=\"#TooltipNumbers\">85%</c>，移动速度提高<c val=\"#TooltipNumbers\">25%</c>，持续<c val=\"#TooltipNumbers\">5</c>秒。",
+      "name": "肾上腺素强化剂",
+      "shortText": "激活后获得攻击与移动速度加成"
+    },
+    "FirebatEnduranceStimpack|FirebatEnduranceStimpack|Active|Level1": {
+      "cooldownText": "冷却时间：30秒",
+      "fullText": "激活后获得一个吸收<c val=\"#TooltipNumbers\">590</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害的护盾，持续<c val=\"#TooltipNumbers\">5</c>秒。<n/><n/>如果在生命值低于<c val=\"#TooltipNumbers\">30%</c>的时候受到伤害，耐力强化剂会在准备就绪的情况下自动施放。",
+      "name": "耐力强化剂",
+      "shortText": "激活后获得护盾"
+    },
+    "FirebatNeuralStimpack|FirebatNeuralStimpack|Active|Level1": {
+      "cooldownText": "冷却时间：30秒",
+      "fullText": "激活后获得<c val=\"#TooltipNumbers\">40</c>点法力值，并使基本技能的冷却速度加快<c val=\"#TooltipNumbers\">100%</c>，持续<c val=\"#TooltipNumbers\">5</c>秒。",
+      "name": "神经强化剂",
+      "shortText": "激活后提高技能冷却回复率"
+    },
+    "FirebatNewHabits|FirebatNewHabits|Trait|Level1": {
+      "fullText": "恢复之球使纵火狂的冷却时间降低<c val=\"#TooltipNumbers\">6</c>秒。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任务：</c>收集<c val=\"#TooltipNumbers\">15</c>个恢复之球。 <n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">奖励：</c>纵火狂给予不可阻挡效果，持续<c val=\"#TooltipNumbers\">2</c>秒。",
+      "name": "新嗜好",
+      "shortText": "<c val=\"#TooltipQuest\">任务</c>：纵火狂给予不可阻挡效果"
+    },
+    "FirebatOilSpillOilDispersal|FirebatOilSpillOilDispersal|W|Level4": {
+      "fullText": "使浮油的区域扩大<c val=\"#TooltipNumbers\">20%</c>。火焰喷流每击中一个英雄，浮油的冷却时间就减少<c val=\"#TooltipNumbers\">0.75</c>秒，并返还<c val=\"#TooltipNumbers\">5</c>点法力值。",
+      "name": "播洒燃油",
+      "shortText": "扩大浮油范围"
+    },
+    "FirebatIgniteMeltdown|FirebatIgniteMeltdown|Trait|Level4": {
+      "fullText": "使用纵火狂击中敌方英雄会使他们的伤害降低<c val=\"#TooltipNumbers\">8%</c>，持续<c val=\"#TooltipNumbers\">2.5</c>秒，最高可降低<c val=\"#TooltipNumbers\">40%</c>。",
+      "name": "熔解",
+      "shortText": "纵火狂减少敌人造成的伤害"
+    },
+    "FirebatWeaponIncineratorGauntlets|FirebatWeaponIncineratorGauntlets|Passive|Level4": {
+      "fullText": "普通攻击范围提高<c val=\"#TooltipNumbers\">15%</c>，普通攻击对小兵、雇佣兵和怪物的伤害提高<c val=\"#TooltipNumbers\">40%</c>。",
+      "name": "焚烧臂铠",
+      "shortText": "普通攻击对非英雄单位造成额外伤害"
+    },
+    "FirebatFlameStreamSuppressiveFire|FirebatFlameStreamSuppressiveFire|Q|Level7": {
+      "fullText": "火焰喷流的每一股都会使被击中的敌方英雄的法术强度降低<c val=\"#TooltipNumbers\">20%</c>，持续<c val=\"#TooltipNumbers\">4</c>秒，最多可降低<c val=\"#TooltipNumbers\">40%</c>。",
+      "name": "火焰压制",
+      "shortText": "火焰喷流可降低敌人法术强度"
+    },
+    "FirebatOilSpillNanomachineCoating|FirebatOilSpillNanomachineCoating|W|Level7": {
+      "fullText": "站在浮油和被点燃的浮油当中的敌人，其攻击速度降低<c val=\"#TooltipNumbers\">35%</c>，持续<c val=\"#TooltipNumbers\">4</c>秒。",
+      "name": "纳米机器人涂层",
+      "shortText": "浮油可降低攻击速度"
+    },
+    "FirebatJetPropulsionFuelLeak|FirebatJetPropulsionFuelLeak|E|Level7": {
+      "fullText": "喷射推进在布雷泽沿途生成浮油。如果喷射推进撞击到敌方英雄，则在他们脚下产生额外的浮油。",
+      "name": "燃油泄漏",
+      "shortText": "喷射推进会留下一道浮油轨迹"
+    },
+    "FirebatHeroicAbilityBunkerDrop|FirebatBunkerDrop|Heroic|Level10": {
+      "cooldownText": "冷却时间：85秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：80</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">0.5</c>秒延迟后，空投一座拥有<c val=\"#TooltipNumbers\">1435</c><c val=\"#ColorGray\">~~0.04~~</c>点生命值的地堡。布雷泽和他的盟友可以自由出入地堡。地堡中的所有人可以使用火焰喷射技能，对直线上的敌人造成<c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害。<n/><n/>离开地堡时获得<c val=\"#TooltipNumbers\">25</c>点护甲，持续<c val=\"#TooltipNumbers\">2</c>秒。地堡持续存在<c val=\"#TooltipNumbers\">10</c>秒或直到被摧毁为止。",
+      "name": "空投地堡",
+      "shortText": "空投一座地堡"
+    },
+    "FirebatHeroicAbilityCombustion|FirebatCombustion|Heroic|Level10": {
+      "cooldownText": "冷却时间：80秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：70</s>",
+      "fullText": "可引导最多<c val=\"#TooltipNumbers\">2.6</c>秒。引导结束时，使附近敌人减速<c val=\"#TooltipNumbers\">60%</c>，并且每<c val=\"#TooltipNumbers\">0.5</c>秒对他们造成<c val=\"#TooltipNumbers\">55</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害。增压爆燃的减速和持续性伤害效果所存在的时间取决于技能引导时间，从<c val=\"#TooltipNumbers\">1</c>秒开始最高可达到<c val=\"#TooltipNumbers\">5</c>秒。<n/><n/>引导技能时，布雷泽的移动速度降低<c val=\"#TooltipNumbers\">40%</c>。",
+      "name": "增压爆燃",
+      "shortText": "引导一场爆炸，对敌人造成伤害并减速"
+    },
+    "FirebatOilSpillGrillandKill|FirebatOilSpillGrillandKill|W|Level13": {
+      "fullText": "点燃的浮油伤害提高<c val=\"#TooltipNumbers\">45%</c>。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任务：</c>用点燃的浮油对敌方英雄造成<c val=\"#TooltipNumbers\">30</c>次伤害。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">奖励：</c>浮油燃烧的持续时间延长<c val=\"#TooltipNumbers\">2.5</c>秒。",
+      "name": "现杀现烤",
+      "shortText": "<c val=\"#TooltipQuest\">任务</c>：提高被点燃浮油的伤害，延长持续时间"
+    },
+    "FirebatOilSpillAdhesivePetroleum|FirebatOilSpillAdhesivePetroleum|W|Level13": {
+      "fullText": "当浮油被点燃时，站在浮油里的敌人被减速<c val=\"#TooltipNumbers\">40%</c>，并且布雷泽的普通攻击对其造成<c val=\"#TooltipNumbers\">35%</c>的额外伤害，持续<c val=\"#TooltipNumbers\">3</c>秒。另外，普通攻击会点燃浮油。",
+      "name": "黏性燃油",
+      "shortText": "浮油点燃后可减速"
+    },
+    "FirebatJetPropulsionCollisionCourse|FirebatJetPropulsionCollisionCourse|E|Level13": {
+      "fullText": "喷射推进对第一个撞到的敌方英雄造成<c val=\"#TooltipNumbers\">260</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害。",
+      "name": "碰撞航行",
+      "shortText": "喷射推进碰撞时造成伤害"
+    },
+    "FirebatJetPropulsionThermalProtection|FirebatJetPropulsionThermalProtection|E|Level16": {
+      "fullText": "喷射推进每击中一名敌人提供<c val=\"#TooltipNumbers\">10</c>点护甲，持续<c val=\"#TooltipNumbers\">3</c>秒，并使该技能的冷却时间减少<c val=\"#TooltipNumbers\">1.25</c>秒。",
+      "name": "隔热防护",
+      "shortText": "喷射推进击中敌人可给予护甲，减少冷却时间"
+    },
+    "FirebatIgniteHeatTreatment|FirebatIgniteHeatTreatment|Trait|Level16": {
+      "fullText": "纵火狂造成伤害的<c val=\"#TooltipNumbers\">75%</c>转化为治疗。",
+      "name": "高温疗法",
+      "shortText": "纵火狂造成的伤害转化为治疗"
+    },
+    "FirebatActiveJuggernautPlating|FirebatActiveJuggernautPlating|Active|Level16": {
+      "cooldownText": "冷却时间：30秒",
+      "fullText": "激活后获得<c val=\"#TooltipNumbers\">50</c>点法术护甲，持续<c val=\"#TooltipNumbers\">3</c>秒。结束时，布雷泽获得一个相当于铁人装甲激活时所吸收法术伤害量<c val=\"#TooltipNumbers\">125%</c>的护盾。",
+      "name": "铁人装甲",
+      "shortText": "获得法术护甲，随后获得一个受吸收法术伤害量影响的护盾"
+    },
+    "FirebatBunkerDropFortifiedBunker|FirebatBunkerDropFortifiedBunker|Heroic|Level20": {
+      "fullText": "进入地堡的盟友每<c val=\"#TooltipNumbers\">6</c>秒可以从空投地堡中喷洒浮油。另外，离开空投地堡时的护甲加成提高<c val=\"#TooltipNumbers\">25</c>点，护甲加成的持续时间延长<c val=\"#TooltipNumbers\">1</c>秒。",
+      "name": "加固地堡",
+      "shortText": "盟友可从地堡内喷洒浮油"
+    },
+    "FirebatCombustionFlashFire|FirebatCombustionFlashFire|Heroic|Level20": {
+      "fullText": "布雷泽可以在引导增压爆燃时全速移动，并使周围敌人的移动速度降低<c val=\"#TooltipNumbers\">60%</c>。",
+      "name": "急速燃烧",
+      "shortText": "增压爆燃减速敌人，解除移动速度惩罚效果"
+    },
+    "FirebatWeaponBurnNotice|FirebatWeaponBurnNotice|Passive|Level20": {
+      "fullText": "普通攻击使敌人移动速度降低<c val=\"#TooltipNumbers\">5%</c>并在<c val=\"#TooltipNumbers\">2.5</c>秒内造成<c val=\"#TooltipNumbers\">18</c><c val=\"#ColorGray\">~~0.04~~</c>点额外伤害，最多叠加<c val=\"#TooltipNumbers\">5</c>次。",
+      "name": "烧伤警告",
+      "shortText": "普通攻击减速并造成持续伤害"
+    }
+  },
+  "units": {
+    "FirebatBunkerDropBunkerUnit": {
+      "name": "地堡"
+    }
+  }
+}

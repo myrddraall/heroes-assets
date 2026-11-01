@@ -1,0 +1,692 @@
+{
+  "id": "Thrall",
+  "unitId": "HeroThrall",
+  "hyperlinkId": "Thrall",
+  "attributeId": "Thra",
+  "franchise": "Warcraft",
+  "rarity": "Epic",
+  "releaseDate": "2015-01-13",
+  "isMelee": true,
+  "gender": "Male",
+  "radius": 0.75,
+  "innerRadius": 0.75,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "BattleBeast",
+  "ratings": {
+    "complexity": 6,
+    "damage": 8,
+    "survivability": 7,
+    "utility": 5
+  },
+  "life": {
+    "amount": 1946,
+    "scale": 0.04,
+    "regenRate": 4.0546,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "EnergyImportant",
+    "Escaper",
+    "Ganker",
+    "Overconfident",
+    "RoleAutoAttacker"
+  ],
+  "weapons": [
+    {
+      "nameId": "ThrallHeroWeapon",
+      "isDisabled": false,
+      "range": 1.5,
+      "minimumRange": 0,
+      "period": 1.1,
+      "damage": 167,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "ThrallEarthbreaker",
+    "ThrallHellhammer",
+    "ThrallToon20",
+    "ThrallUltimate"
+  ],
+  "variationSkinIds": [
+    "ThrallRed",
+    "ThrallSilver"
+  ],
+  "voiceLineIds": [
+    "ThrallBase_VoiceLine01",
+    "ThrallBase_VoiceLine02",
+    "ThrallBase_VoiceLine03",
+    "ThrallBase_VoiceLine04",
+    "ThrallBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "ThrallChainLightning|ThrallChainLightning|Q",
+        "abilityId": "ThrallChainLightning",
+        "buttonId": "ThrallChainLightning",
+        "icon": "storm_ui_icon_thrall_chainlightning.png",
+        "charges": {
+          "countMax": 1,
+          "countStart": 1,
+          "countUse": 1,
+          "recastCooldown": 0.5,
+          "isCountHidden": true
+        },
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "ThrallFeralSpirit|ThrallFeralSpirit|W",
+        "abilityId": "ThrallFeralSpirit",
+        "buttonId": "ThrallFeralSpirit",
+        "icon": "storm_ui_icon_thrall_feralspirit.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "ThrallWindfury|Windfury|E",
+        "abilityId": "ThrallWindfury",
+        "buttonId": "Windfury",
+        "icon": "storm_ui_icon_thrall_windfury.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "ThrallSundering|Sundering|Heroic",
+        "abilityId": "ThrallSundering",
+        "buttonId": "Sundering",
+        "icon": "storm_ui_icon_thrall_sundering.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "ThrallEarthquake|ThrallEarthquake|Heroic",
+        "abilityId": "ThrallEarthquake",
+        "buttonId": "ThrallEarthquake",
+        "icon": "storm_ui_icon_thrall_earthquake.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": ":PASSIVE:|ThrallFrostwolfResilience|Trait",
+        "abilityId": ":PASSIVE:",
+        "buttonId": "ThrallFrostwolfResilience",
+        "icon": "storm_ui_icon_thrall_frostwolfresilience.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "ThrallSundering|Sundering|Heroic": {
+      "Heroic": [
+        {
+          "linkId": "ThrallCancelSundering|ThrallSunderingCancel|Heroic",
+          "abilityId": "ThrallCancelSundering",
+          "buttonId": "ThrallSunderingCancel",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "toggleCooldown": 0.75,
+          "abilityType": "Heroic"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "ThrallSpiritShield|ThrallSpiritShieldEnabled|Active": {
+      "Activable": [
+        {
+          "linkId": "ThrallSpiritShield|ThrallSpiritShieldDisabled|Active",
+          "abilityId": "ThrallSpiritShield",
+          "buttonId": "ThrallSpiritShieldDisabled",
+          "icon": "storm_ui_icon_talent_spellshield.png",
+          "toggleCooldown": 0.75,
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "ThrallAncestralWrath|ThrallAncestralWrath|Active|Level7": {
+      "Activable": [
+        {
+          "linkId": "ThrallAncestralWrath|ThrallAncestralWrath|Active",
+          "abilityId": "ThrallAncestralWrath",
+          "buttonId": "ThrallAncestralWrath",
+          "icon": "storm_ui_icon_talent_bloodforblood.png",
+          "charges": {
+            "countMax": 8,
+            "countUse": 8,
+            "recastCooldown": 1,
+            "isCountHidden": false
+          },
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "ThrallMasteryFrostwolfsGrace|ThrallFrostwolfResilienceSurgeOfHealing|Trait|Level13": {
+      "Trait": [
+        {
+          "linkId": "ThrallFrostwolfsGrace|ThrallFrostwolfResilience|Trait",
+          "abilityId": "ThrallFrostwolfsGrace",
+          "buttonId": "ThrallFrostwolfResilience",
+          "icon": "storm_ui_icon_thrall_frostwolfresilience.png",
+          "abilityType": "Trait"
+        }
+      ]
+    },
+    "ThrallSpiritShield|ThrallSpiritShield|Active|Level13": {
+      "Activable": [
+        {
+          "linkId": "ThrallSpiritShield|ThrallSpiritShieldEnabled|Active",
+          "abilityId": "ThrallSpiritShield",
+          "buttonId": "ThrallSpiritShieldEnabled",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "toggleCooldown": 0.75,
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "ThrallWindRush|ThrallWindRush|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "ThrallWindRush|ThrallWindRush|Active",
+          "abilityId": "ThrallWindRush",
+          "buttonId": "ThrallWindRush",
+          "icon": "storm_ui_icon_talent_boltofthestorm.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "ThrallEchooftheElements|ThrallEchooftheElements|Q|Level1",
+        "talentId": "ThrallEchooftheElements",
+        "buttonId": "ThrallEchooftheElements",
+        "abilityId": "ThrallChainLightning",
+        "icon": "storm_ui_icon_thrall_chainlightning.png",
+        "abilityType": "Q",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ThrallChainLightning|ThrallChainLightning|Q"
+        ]
+      },
+      {
+        "linkId": "ThrallCrashLightning|ThrallCrashLightning|Q|Level1",
+        "talentId": "ThrallCrashLightning",
+        "buttonId": "ThrallCrashLightning",
+        "abilityId": "ThrallChainLightning",
+        "icon": "storm_ui_icon_thrall_chainlightning_var1.png",
+        "abilityType": "Q",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ThrallChainLightning|ThrallChainLightning|Q"
+        ]
+      },
+      {
+        "linkId": "ThrallMaelstromWeapon|ThrallMaelstromWeapon|E|Level1",
+        "talentId": "ThrallMaelstromWeapon",
+        "buttonId": "ThrallMaelstromWeapon",
+        "abilityId": "ThrallWindfury",
+        "icon": "storm_ui_icon_thrall_windfury.png",
+        "abilityType": "E",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "ThrallWindfury|Windfury|E"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "ThrallFeralResilience|ThrallFeralResilience|W|Level4",
+        "talentId": "ThrallFeralResilience",
+        "buttonId": "ThrallFeralResilience",
+        "abilityId": "ThrallFeralSpirit",
+        "icon": "storm_ui_icon_thrall_feralspirit.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ThrallFeralSpirit|ThrallFeralSpirit|W"
+        ]
+      },
+      {
+        "linkId": "ThrallFrostwolfPack|ThrallFrostwolfPack|W|Level4",
+        "talentId": "ThrallFrostwolfPack",
+        "buttonId": "ThrallFrostwolfPack",
+        "abilityId": "ThrallFeralSpirit",
+        "icon": "storm_ui_icon_thrall_feralspirit_var1.png",
+        "abilityType": "W",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ThrallFeralSpirit|ThrallFeralSpirit|W"
+        ]
+      },
+      {
+        "linkId": "ThrallMasteryManaTide|ThrallManaTideTalent|Trait|Level4",
+        "talentId": "ThrallMasteryManaTide",
+        "buttonId": "ThrallManaTideTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_thrall_frostwolfresilience.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|ThrallFrostwolfResilience|Trait",
+          "ThrallFrostwolfsGrace|ThrallFrostwolfResilience|Trait"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "ThrallMasteryRollingThunder|ThrallRollingThunderTalent|Q|Level7",
+        "talentId": "ThrallMasteryRollingThunder",
+        "buttonId": "ThrallRollingThunderTalent",
+        "abilityId": "ThrallChainLightning",
+        "icon": "storm_ui_icon_thrall_chainlightning_var2.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ThrallChainLightning|ThrallChainLightning|Q"
+        ]
+      },
+      {
+        "linkId": "ThrallAncestralWrath|ThrallAncestralWrath|Active|Level7",
+        "talentId": "ThrallAncestralWrath",
+        "buttonId": "ThrallAncestralWrath",
+        "abilityId": "ThrallAncestralWrath",
+        "icon": "storm_ui_icon_talent_bloodforblood.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2
+      },
+      {
+        "linkId": "ThrallElementalAssault|ThrallElementalAssault|Passive|Level7",
+        "talentId": "ThrallElementalAssault",
+        "buttonId": "ThrallElementalAssault",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_damage.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "ThrallHeroicAbilitySundering|Sundering|Heroic|Level10",
+        "talentId": "ThrallHeroicAbilitySundering",
+        "buttonId": "Sundering",
+        "abilityId": "ThrallSundering",
+        "icon": "storm_ui_icon_thrall_sundering.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "ThrallHeroicAbilityEarthquake|ThrallEarthquake|Heroic|Level10",
+        "talentId": "ThrallHeroicAbilityEarthquake",
+        "buttonId": "ThrallEarthquake",
+        "abilityId": "ThrallEarthquake",
+        "icon": "storm_ui_icon_thrall_earthquake.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "ThrallMasteryGraceOfAir|ThrallGraceOfAirTalent|E|Level13",
+        "talentId": "ThrallMasteryGraceOfAir",
+        "buttonId": "ThrallGraceOfAirTalent",
+        "abilityId": "ThrallWindfury",
+        "icon": "storm_ui_icon_thrall_windfury.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ThrallWindfury|Windfury|E"
+        ]
+      },
+      {
+        "linkId": "ThrallMasteryFrostwolfsGrace|ThrallFrostwolfResilienceSurgeOfHealing|Trait|Level13",
+        "talentId": "ThrallMasteryFrostwolfsGrace",
+        "buttonId": "ThrallFrostwolfResilienceSurgeOfHealing",
+        "abilityId": "ThrallFrostwolfsGrace",
+        "icon": "storm_ui_icon_thrall_frostwolfresilience.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|ThrallFrostwolfResilience|Trait",
+          "ThrallFrostwolfsGrace|ThrallFrostwolfResilience|Trait"
+        ]
+      },
+      {
+        "linkId": "ThrallSpiritShield|ThrallSpiritShield|Active|Level13",
+        "talentId": "ThrallSpiritShield",
+        "buttonId": "ThrallSpiritShield",
+        "abilityId": "ThrallSpiritShield",
+        "icon": "storm_ui_icon_talent_spellshield.png",
+        "toggleCooldown": 0.75,
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "ThrallMasteryTempestFury|ThrallTempestFuryTalent|E|Level16",
+        "talentId": "ThrallMasteryTempestFury",
+        "buttonId": "ThrallTempestFuryTalent",
+        "abilityId": "ThrallWindfury",
+        "icon": "storm_ui_icon_thrall_windfury.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ThrallWindfury|Windfury|E"
+        ]
+      },
+      {
+        "linkId": "ThrallThunderstorm|ThrallThunderstorm|Q|Level16",
+        "talentId": "ThrallThunderstorm",
+        "buttonId": "ThrallThunderstorm",
+        "abilityId": "ThrallChainLightning",
+        "icon": "storm_ui_icon_thrall_chainlightning.png",
+        "abilityType": "Q",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ThrallChainLightning|ThrallChainLightning|Q"
+        ]
+      },
+      {
+        "linkId": "ThrallAlphaWolf|ThrallAlphaWolf|W|Level16",
+        "talentId": "ThrallAlphaWolf",
+        "buttonId": "ThrallAlphaWolf",
+        "abilityId": "ThrallFeralSpirit",
+        "icon": "storm_ui_icon_thrall_feralspirit.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "ThrallFeralSpirit|ThrallFeralSpirit|W"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "ThrallMasteryWorldbreaker|ThrallWorldbreakerTalent|Heroic|Level20",
+        "talentId": "ThrallMasteryWorldbreaker",
+        "buttonId": "ThrallWorldbreakerTalent",
+        "abilityId": "ThrallSundering",
+        "icon": "storm_ui_icon_thrall_sundering.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ThrallSundering|Sundering|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "ThrallHeroicAbilitySundering"
+        ]
+      },
+      {
+        "linkId": "ThrallMasteryEarthenShields|ThrallEarthenShieldsTalent|Heroic|Level20",
+        "talentId": "ThrallMasteryEarthenShields",
+        "buttonId": "ThrallEarthenShieldsTalent",
+        "abilityId": "ThrallEarthquake",
+        "icon": "storm_ui_icon_thrall_earthquake.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ThrallEarthquake|ThrallEarthquake|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "ThrallHeroicAbilityEarthquake"
+        ]
+      },
+      {
+        "linkId": "ThrallElementalMomentum|ThrallElementalMomentum|Passive|Level20",
+        "talentId": "ThrallElementalMomentum",
+        "buttonId": "ThrallElementalMomentum",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_cooldown.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      },
+      {
+        "linkId": "GenericTalentNexusBlades|NexusBladesTalent|Passive|Level20",
+        "talentId": "GenericTalentNexusBlades",
+        "buttonId": "NexusBladesTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_slow.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      },
+      {
+        "linkId": "ThrallWindRush|ThrallWindRush|Active|Level20",
+        "talentId": "ThrallWindRush",
+        "buttonId": "ThrallWindRush",
+        "abilityId": "ThrallWindRush",
+        "icon": "storm_ui_icon_talent_boltofthestorm.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 5
+      }
+    ]
+  },
+  "sheet": "sheets/Thrall.png",
+  "icons": {
+    "storm_ui_icon_thrall_chainlightning.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_thrall_feralspirit.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_thrall_windfury.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_thrall_sundering.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_thrall_earthquake.png": [
+      512,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_thrall_frostwolfresilience.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_mount.png": [
+      128,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      256,
+      128,
+      111,
+      71
+    ],
+    "hud_btn_bg_ability_cancel.png": [
+      384,
+      128,
+      97,
+      111
+    ],
+    "storm_ui_icon_generic_cancel_mount.png": [
+      512,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_talent_spellshield.png": [
+      0,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_bloodforblood.png": [
+      128,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_boltofthestorm.png": [
+      256,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_thrall_chainlightning_var1.png": [
+      384,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_thrall_feralspirit_var1.png": [
+      512,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_thrall_chainlightning_var2.png": [
+      0,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_autoattack_damage.png": [
+      128,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_autoattack_cooldown.png": [
+      256,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_autoattack_slow.png": [
+      384,
+      384,
+      128,
+      128
+    ]
+  }
+}

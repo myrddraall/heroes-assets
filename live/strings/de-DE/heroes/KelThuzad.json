@@ -1,0 +1,206 @@
+{
+  "abilities": {
+    "KelThuzadDeathAndDecay|KelThuzadDeathAndDecay|Q": {
+      "cooldownText": "Abklingzeit: 5 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 20</s>",
+      "fullText": "Wirft nach <c val=\"#TooltipNumbers\">0.5</c> Sek. eine Kugel, die explodiert, wenn sie einen Gegner trifft. Dabei fügt sie Gegnern im Explosionsbereich <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.025~~</c> Schaden zu und hinterlässt eine Lache des Verfalls. Die Lache bleibt <c val=\"#TooltipNumbers\">2</c> Sek. lang bestehen und fügt Gegnern alle <c val=\"#TooltipNumbers\">0.5</c> Sek. <c val=\"#TooltipNumbers\">82</c><c val=\"#ColorGray\">~~0.025~~</c> Schaden zu.",
+      "name": "Tod und Verfall",
+      "shortText": "Fügt Gegnern Schaden zu und erzeugt eine schädliche Lache."
+    },
+    "KelThuzadFrostNova|KelThuzadFrostNova|W": {
+      "cooldownText": "Abklingzeit: 8 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Erzeugt eine Nova, die nach <c val=\"#TooltipNumbers\">1</c> Sek. explodiert. Die Explosion fügt erfassten Gegnern <c val=\"#TooltipNumbers\">180</c><c val=\"#ColorGray\">~~0.025~~</c> Schaden zu und verlangsamt sie <c val=\"#TooltipNumbers\">2.5</c> Sek. lang um <c val=\"#TooltipNumbers\">35%</c>. Gegner im Zentrum werden <c val=\"#TooltipNumbers\">1</c> Sek. lang bewegungsunfähig gemacht.",
+      "name": "Frostnova",
+      "shortText": "Fügt Gegnern Schaden zu und beeinträchtigt sie."
+    },
+    "KelThuzadChains|KelThuzadChains|E": {
+      "cooldownText": "Abklingzeit: 10 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Wirft eine Kette, die dem ersten getroffenen gegnerischen Helden <c val=\"#TooltipNumbers\">97</c><c val=\"#ColorGray\">~~0.025~~</c> Schaden zufügt. Danach kann die Fähigkeit innerhalb von <c val=\"#TooltipNumbers\">3</c> Sek. erneut aktiviert werden, um die Kette auf einen weiteren Gegner zu werfen. Dadurch werden beide Gegner zueinander gezogen und <c val=\"#TooltipNumbers\">0.5</c> Sek. lang betäubt.",
+      "name": "Ketten von Kel'Thuzad",
+      "shortText": "Zieht gegnerische Helden zueinander."
+    },
+    "KelThuzadFrozenTomb|KelThuzadFrozenTomb|Heroic": {
+      "cooldownText": "Abklingzeit: 50 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 45</s>",
+      "fullText": "Schleudert einen Eismeteor auf einen gegnerischen Helden. Beim Auftreffen fügt der Meteor seinem Ziel <c val=\"#TooltipNumbers\">115</c><c val=\"#ColorGray\">~~0.025~~</c> und Gegnern im Wirkungsbereich <c val=\"#TooltipNumbers\">275</c><c val=\"#ColorGray\">~~0.025~~</c> Schaden zu. Macht alle von Frostschlag getroffenen Gegner <c val=\"#TooltipNumbers\">2</c> Sek. lang bewegungsunfähig.",
+      "name": "Frostschlag",
+      "shortText": "Fügt Gegnern in der Nähe eines Ziels Schaden zu und macht sie bewegungsunfähig."
+    },
+    "KelThuzadShadowFissure|KelThuzadShadowFissure|Heroic": {
+      "cooldownText": "Abklingzeit: 16 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 40</s>",
+      "fullText": "Öffnet an einem beliebigen Ort auf dem Schlachtfeld einen Riss, der nach <c val=\"#TooltipNumbers\">1.5</c> Sek. explodiert und gegnerischen Helden im Wirkungsbereich <c val=\"#TooltipNumbers\">320</c><c val=\"#ColorGray\">~~0.025~~</c> Schaden zufügt. Setzt die Abklingzeit auf <c val=\"#TooltipNumbers\">1.5</c> Sek., wenn ein gegnerischer Held getroffen wird.",
+      "name": "Schattenriss",
+      "shortText": "Verursacht im Wirkungsbereich hohen Schaden."
+    },
+    ":PASSIVE:|KelThuzadMasterOfTheColdDark|Trait": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Mach Helden mit der Frostnova bewegungsunfähig oder triff sie mit den Ketten von Kel'Thuzad, um jeweils <c val=\"#TooltipNumbers\">1</c> Stapel Pestilenz zu erhalten.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Belohnung:</c> Ab <c val=\"#TooltipNumbers\">15</c> Stapeln Pestilenz wird die Fähigkeit Gletscherstachel verfügbar.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Belohnung:</c> Ab <c val=\"#TooltipNumbers\">30</c> Stapeln Pestilenz wird die Fähigkeitsstärke um <c val=\"#TooltipNumbers\">75%</c> erhöht.<n/><n/><c val=\"#TooltipQuest\">Pestilenz:</c> <c val=\"#TooltipNumbers\" validator=\"True\">0/30</c>",
+      "name": "Meister der eisigen Finsternis",
+      "shortText": "Kel'Thuzad wird zunehmend stärker, wenn er Gegner beeinträchtigt."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Abklingzeit: 4 Sek.",
+      "fullText": "Erhöht die Bewegungsgeschwindigkeit nach <c val=\"#TooltipNumbers\">1</c> Sek. Kanalisierung um <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Aufsitzen"
+    },
+    "KelThuzadGlacialSpike|KelThuzadGlacialSpike|Active": {
+      "cooldownText": "Abklingzeit: 30 Sek.",
+      "fullText": "Aktivieren, um einen Gletscherstachel zu erzeugen, der nach <c val=\"#TooltipNumbers\">4</c> Sek. explodiert und dabei Gegnern in der Nähe <c val=\"#TooltipNumbers\">70</c><c val=\"#ColorGray\">~~0.025~~</c> Schaden zufügt. Gegner können mit den Ketten von Kel'Thuzad zum Stachel gezogen werden.",
+      "name": "Gletscherstachel",
+      "shortText": "Erzeugt einen Stachel, der explodiert und Schaden verursacht."
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Kanalisiert <c val=\"#TooltipNumbers\">6</c> Sek. lang und teleportiert sich dann zurück zum Altar der Stürme. Dabei werden sofort <c val=\"#TooltipNumbers\">1125</c> Lebenspunkte und <c val=\"#TooltipNumbers\">150</c> Mana wiederhergestellt.",
+      "name": "Ruhestein"
+    },
+    "KelThuzadChainsLink|KelThuzadChainsLink|E": {
+      "fullText": "Schleudert eine weitere Kette ausgehend vom aktuell angeketteten Gegner. Verursacht <c val=\"#TooltipNumbers\">97</c><c val=\"#ColorGray\">~~0.025~~</c> Schaden, wenn dabei ein Held getroffen wird, und zieht beide Gegner zueinander.",
+      "name": "Ketten von Kel'Thuzad",
+      "shortText": ""
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Sitzt ab.",
+      "name": "Absitzen"
+    },
+    "KelThuzadArchlichArmor|KelThuzadArchlichArmor|Active": {
+      "cooldownText": "Abklingzeit: 25 Sek.",
+      "fullText": "Aktivieren, um <c val=\"#TooltipNumbers\">4</c> Sek. lang <c val=\"#TooltipNumbers\">50</c> physische Panzerung zu erhalten. Nach der Aktivierung erleiden Gegner in der Nähe <c val=\"#TooltipNumbers\">45</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden und bewegen sich <c val=\"#TooltipNumbers\">4</c> Sek. lang <c val=\"#TooltipNumbers\">35%</c> langsamer.",
+      "name": "Rüstung des Erzlichs",
+      "shortText": "Aktivieren, um physische Panzerung zu erhalten und Gegner zu verlangsamen."
+    },
+    "KelThuzadPhylacteryItem|KelThuzadPhylacteryItem|Passive": {
+      "fullText": "Kann nach dem Tod aktiviert werden, um sofort am Altar der Stürme wiederbelebt zu werden. Muss nach Einsatz wieder aufgeladen werden.<n/><n/><c val=\"#AbilityPassive\">Passiv:</c> Kel'Thuzad wird um <c val=\"#TooltipNumbers\">10%</c> seines verursachten Fähigkeitsschadens geheilt, solange das Phylakterium aufgeladen ist.",
+      "name": "Kel'Thuzads Phylakterium",
+      "shortText": ""
+    },
+    "KelThuzadShiftingMalice|KelThuzadShiftingMalice|Active": {
+      "cooldownText": "Abklingzeit: 240 Sek.",
+      "fullText": "Stürmt vorwärts und fügt allen Gegnern auf dem Weg <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.025~~</c> Schaden zu. Getötete Helden schließen die Abklingzeit ab.",
+      "name": "Frosteinbruch",
+      "shortText": "Aktivieren, um vorwärts zu stürmen und Schaden zu verursachen."
+    },
+    "KelThuzadSpawnShade|KelThuzadTheDamnedReturn|Active": {
+      "cooldownText": "Abklingzeit: 15 Sek.",
+      "fullText": "Aktivieren, um einen Schemen von Naxxramas zu erschaffen. Der Schemen bleibt <c val=\"#TooltipNumbers\">15</c> Sek. lang bestehen und imitiert Kel'Thuzads Einsätze von Tod und Verfall.",
+      "name": "Rückkehr der Verdammten",
+      "shortText": "Erzeugt Schemen, die Tod und Verfall imitieren."
+    }
+  },
+  "talents": {
+    "KelThuzadThePlaguelands|KelThuzadThePlaguelands|Q|Level1": {
+      "fullText": "Erhöht die Dauer von Tod und Verfall um <c val=\"#TooltipNumbers\">1</c> Sek. Ab <c val=\"#TooltipNumbers\">30</c> Stapeln Pestilenz wird der Radius der Lache von Tod und Verfall um <c val=\"#TooltipNumbers\">30%</c> vergrößert.",
+      "name": "Die Pestländer",
+      "shortText": "Erhöht die Dauer und den Radius von Tod und Verfall."
+    },
+    "KelThuzadBlightedFrost|KelThuzadBlightedFrost|W|Level1": {
+      "fullText": "Die Frostnova fügt Gegnern im Zentrum <c val=\"#TooltipNumbers\">75%</c> mehr Schaden zu. Ab <c val=\"#TooltipNumbers\">30</c> Stapeln Pestilenz hält die Bewegungsunfähigkeit durch die Frostnova <c val=\"#TooltipNumbers\">0.5</c> Sek. länger an.",
+      "name": "Frostseuche",
+      "shortText": "Die Frostnova verursacht im Zentrum mehr Schaden und macht länger bewegungsunfähig."
+    },
+    "KelThuzadBarbedChains|KelThuzadBarbedChains|E|Level1": {
+      "fullText": "Erhöht den Schaden der Ketten von Kel'Thuzad um <c val=\"#TooltipNumbers\">125%</c>. Ab <c val=\"#TooltipNumbers\">30</c> Stapeln Pestilenz verringern Ketten die Panzerung von herangezogenen Helden <c val=\"#TooltipNumbers\">4</c> Sek. lang um <c val=\"#TooltipNumbers\">10</c>.",
+      "name": "Stachelketten",
+      "shortText": "Ketten verursachen mehr Schaden und verringern Panzerung."
+    },
+    "KelThuzadStripShields|KelThuzadStripShields|E|Level4": {
+      "fullText": "Kel'Thuzad erhält einen dauerhaften Schild mit <c val=\"#TooltipNumbers\">128</c><c val=\"#ColorGray\">~~0.04~~</c> Punkten, wenn ein Held durch die Ketten von Kel'Thuzad herangezogen wird. Dieser Effekt ist bis zu <c val=\"#TooltipNumbers\">2</c>-mal stapelbar.<n/><n/>Die Ketten von Kel'Thuzad verursachen bei Helden außerdem bis zu <c val=\"#TooltipNumbers\">270</c><c val=\"#ColorGray\">~~0.025~~</c> Bonusschaden gegen Schilde.",
+      "name": "Böses im Schilde",
+      "shortText": "Ketten gewähren einen Schild und verursachen mehr Schaden gegen Schilde."
+    },
+    "KelThuzadPhylactery|KelThuzadPhylactery|Passive|Level4": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Sammle <c val=\"#TooltipNumbers\">12</c> Regenerationskugeln, um Kel'Thuzads Phylakterium aufzuladen.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Belohnung:</c> Kann nach dem Tod aktiviert werden, um sofort am Altar der Stürme wiederbelebt zu werden. Muss nach Einsatz wieder aufgeladen werden.<n/><n/><c val=\"#AbilityPassive\">Passiv:</c> Kel'Thuzad wird um <c val=\"#TooltipNumbers\">10%</c> seines verursachten Fähigkeitsschadens geheilt, solange das Phylakterium aufgeladen ist.",
+      "name": "Kel'Thuzads Phylakterium",
+      "shortText": "<c val=\"#TooltipQuest\">Quest:</c> Regenerationskugeln ermöglichen sofortige Wiederbelebung."
+    },
+    "KelThuzadArchlichArmor|KelThuzadArchlichArmor|Active|Level4": {
+      "cooldownText": "Abklingzeit: 25 Sek.",
+      "fullText": "Aktivieren, um <c val=\"#TooltipNumbers\">4</c> Sek. lang <c val=\"#TooltipNumbers\">50</c> physische Panzerung zu erhalten. Nach der Aktivierung erleiden Gegner in der Nähe <c val=\"#TooltipNumbers\">45</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden und bewegen sich <c val=\"#TooltipNumbers\">4</c> Sek. lang <c val=\"#TooltipNumbers\">35%</c> langsamer.",
+      "name": "Rüstung des Erzlichs",
+      "shortText": "Aktivieren, um physische Panzerung zu erhalten und Gegner zu verlangsamen."
+    },
+    "KelThuzadAcceleratedDecay|KelThuzadAcceleratedDecay|Q|Level7": {
+      "fullText": "Jedes Mal, wenn ein gegnerischer Held in die Lache von Tod und Verfall tritt, erleidet er <c val=\"#TooltipNumbers\">4</c> Sek. lang <c val=\"#TooltipNumbers\">25%</c> mehr regelmäßigen Schaden durch Tod und Verfall. Dieser Effekt ist bis zu <c val=\"#TooltipNumbers\">4</c>-mal stapelbar.",
+      "name": "Beschleunigter Verfall",
+      "shortText": "Tod und Verfall fügt Helden mehr Schaden zu."
+    },
+    "KelThuzadChillingTouch|KelThuzadChillingTouch|Passive|Level7": {
+      "fullText": "Alle <c val=\"#TooltipNumbers\">8</c> Sek. verursacht Kel'Thuzads nächster automatischer Angriff Fähigkeitsschaden, trifft alle Gegner im Bereich, fügt ihnen <c val=\"#TooltipNumbers\">80%</c> mehr Schaden zu und verringert ihre Bewegungsgeschwindigkeit <c val=\"#TooltipNumbers\">2</c> Sek. lang um <c val=\"#TooltipNumbers\">30%</c>.",
+      "name": "Eiskalte Berührung",
+      "shortText": "Automatische Angriffe verursachen regelmäßig Fähigkeitsschaden in einem Bereich."
+    },
+    "KelThuzadIceCold|KelThuzadIceCold|Passive|Level7": {
+      "fullText": "Verringert die Abklingzeit des Gletscherstachels um <c val=\"#TooltipNumbers\">10</c> Sek. und erhöht seinen Schaden um <c val=\"#TooltipNumbers\">400%</c>. ",
+      "name": "Gletscherkälte",
+      "shortText": "Verringert die Abklingzeit des Gletscherstachels."
+    },
+    "KelThuzadFrozenTomb|KelThuzadFrozenTomb|Heroic|Level10": {
+      "cooldownText": "Abklingzeit: 50 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 45</s>",
+      "fullText": "Schleudert einen Eismeteor auf einen gegnerischen Helden. Beim Auftreffen fügt der Meteor seinem Ziel <c val=\"#TooltipNumbers\">115</c><c val=\"#ColorGray\">~~0.025~~</c> und Gegnern im Wirkungsbereich <c val=\"#TooltipNumbers\">275</c><c val=\"#ColorGray\">~~0.025~~</c> Schaden zu. Macht alle von Frostschlag getroffenen Gegner <c val=\"#TooltipNumbers\">2</c> Sek. lang bewegungsunfähig.",
+      "name": "Frostschlag",
+      "shortText": "Fügt Gegnern in der Nähe eines Ziels Schaden zu und macht sie bewegungsunfähig."
+    },
+    "KelThuzadShadowFissure|KelThuzadShadowFissure|Heroic|Level10": {
+      "cooldownText": "Abklingzeit: 16 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 40</s>",
+      "fullText": "Öffnet an einem beliebigen Ort auf dem Schlachtfeld einen Riss, der nach <c val=\"#TooltipNumbers\">1.5</c> Sek. explodiert und gegnerischen Helden im Wirkungsbereich <c val=\"#TooltipNumbers\">320</c><c val=\"#ColorGray\">~~0.025~~</c> Schaden zufügt. Setzt die Abklingzeit auf <c val=\"#TooltipNumbers\">1.5</c> Sek., wenn ein gegnerischer Held getroffen wird.",
+      "name": "Schattenriss",
+      "shortText": "Verursacht im Wirkungsbereich hohen Schaden."
+    },
+    "KelThuzadIcyGrasp|KelThuzadIcyGrasp|W|Level13": {
+      "fullText": "Erhöht die Verlangsamung durch die Frostnova um <c val=\"#TooltipNumbers\">20%</c>. Verringert die Abklingzeit jedes Mal um <c val=\"#TooltipNumbers\">0.75</c> Sek., wenn Kel'Thuzad einem Gegner Schaden zufügt, der von der Frostnova verlangsamt ist.",
+      "name": "Eisiger Griff",
+      "shortText": "Verstärkt die Verlangsamung der Frostnova und verringert die Abklingzeit."
+    },
+    "KelThuzadChainsOfIce|KelThuzadChainsOfIce|E|Level13": {
+      "fullText": "Nachdem die Betäubung durch die Ketten von Kel'Thuzad abläuft, bewegt sich der Gegner <c val=\"#TooltipNumbers\">1</c> Sek. lang <c val=\"#TooltipNumbers\">60%</c> langsamer.",
+      "name": "Eisketten",
+      "shortText": "Ketten verlangsamen nach dem Heranziehen."
+    },
+    "KelThuzadChainLink|KelThuzadChainLink|E|Level13": {
+      "fullText": "Verringert die Abklingzeit der Ketten von Kel'Thuzad um <c val=\"#TooltipNumbers\">5</c> Sek., wenn sie einen Helden heranziehen, und erstattet die Manakosten.",
+      "name": "Kettenreaktion",
+      "shortText": "Verringert die Abklingzeit, wenn Helden herangezogen werden."
+    },
+    "KelThuzadArcaneEchoes|KelThuzadArcaneEchoes|Q|Level16": {
+      "fullText": "Wenn Kel'Thuzad mit der Explosion von Tod und Verfall einen gegnerischen Helden trifft, wird die Abklingzeit um <c val=\"#TooltipNumbers\">1.5</c> Sek. verringert.",
+      "name": "Arkanes Echo",
+      "shortText": "Verringert die Abklingzeit von Tod und Verfall."
+    },
+    "KelThuzadHungeringCold|KelThuzadHungeringCold|Passive|Level16": {
+      "fullText": "Bewegungsunfähige Gegner erleiden jedes Mal zusätzlich <c val=\"#TooltipNumbers\">55</c><c val=\"#ColorGray\">~~0.025~~</c> Schaden, wenn Kel'Thuzad ihnen Schaden zufügt.",
+      "name": "Zehrende Kälte",
+      "shortText": "Fügt bewegungsunfähigen Gegnern Bonusschaden zu."
+    },
+    "KelThuzadPowerOfIcecrown|KelThuzadPowerOfIcecrown|Passive|Level16": {
+      "fullText": "Wenn Kel'Thuzad einen Helden betäubt, verlangsamt oder bewegungsunfähig macht, wird seine Fähigkeitsstärke <c val=\"#TooltipNumbers\">10</c> Sek. lang um <c val=\"#TooltipNumbers\">6%</c> erhöht. Bis zu <c val=\"#TooltipNumbers\">5</c>-mal stapelbar.",
+      "name": "Macht von Eiskrone",
+      "shortText": "Beeinträchtigte Gegner erhöhen die Fähigkeitsstärke."
+    },
+    "KelThuzadDeathchill|KelThuzadDeathchill|Heroic|Level20": {
+      "fullText": "Nach Ablauf der Bewegungsunfähigkeit durch Frostschlag werden Gegner <c val=\"#TooltipNumbers\">3</c> Sek. lang um <c val=\"#TooltipNumbers\">40%</c> verlangsamt. Wenn Helden sterben, während sie von Frostschlag betroffen sind, wird sofort eine weitere Explosion ausgelöst.",
+      "name": "Todeskälte",
+      "shortText": "Frostschlag verlangsamt und Kills lösen eine zweite Explosion aus."
+    },
+    "KelThuzadMightOfTheScourge|KelThuzadMightOfTheScourge|Heroic|Level20": {
+      "fullText": "Wenn ein Held vom Schattenriss getroffen wird, wird <c val=\"#TooltipNumbers\">1</c> Sek. später ein zweiter unter dem getroffenen Helden ausgelöst. Diese zweite Auslösung kann sich nicht wieder duplizieren.",
+      "name": "Macht der Geißel",
+      "shortText": "Löst Schattenriss nach Heldentreffern erneut aus."
+    },
+    "KelThuzadShiftingMalice|KelThuzadShiftingMalice|Active|Level20": {
+      "cooldownText": "Abklingzeit: 240 Sek.",
+      "fullText": "Stürmt vorwärts und fügt allen Gegnern auf dem Weg <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.025~~</c> Schaden zu. Getötete Helden schließen die Abklingzeit ab.",
+      "name": "Frosteinbruch",
+      "shortText": "Aktivieren, um vorwärts zu stürmen und Schaden zu verursachen."
+    },
+    "KelThuzadTheDamnedReturn|KelThuzadTheDamnedReturn|Active|Level20": {
+      "cooldownText": "Abklingzeit: 15 Sek.",
+      "fullText": "Aktivieren, um einen Schemen von Naxxramas zu erschaffen. Der Schemen bleibt <c val=\"#TooltipNumbers\">15</c> Sek. lang bestehen und imitiert Kel'Thuzads Einsätze von Tod und Verfall.",
+      "name": "Rückkehr der Verdammten",
+      "shortText": "Erzeugt Schemen, die Tod und Verfall imitieren."
+    }
+  },
+  "units": {}
+}

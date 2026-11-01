@@ -1,0 +1,205 @@
+{
+  "abilities": {
+    "DeckardHealingPotion|DeckardHealingPotion|Q": {
+      "cooldownText": "Abklingzeit: 4 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 25</s>",
+      "fullText": "Wirft einen Heiltrank auf den Boden. Der Trank heilt den ersten verbündeten Helden, der ihn berührt, um <c val=\"#TooltipNumbers\">285</c><c val=\"#ColorGray\">~~0.04~~</c> Lebenspunkte.<n/><n/>Maximal <c val=\"#TooltipNumbers\">5</c> Tränke gleichzeitig.",
+      "name": "Heiltrank",
+      "shortText": "Wirft Tränke, die Verbündete heilen."
+    },
+    "DeckardHoradricCube|DeckardHoradricCubeCharging|W": {
+      "cooldownText": "Abklingzeit: 12 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 35</s>",
+      "fullText": "Wirft den Horadrischen Würfel, der nach <c val=\"#TooltipNumbers\">0.5</c> Sek. explodiert, allen Gegnern im Wirkungsbereich <c val=\"#TooltipNumbers\">80</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zufügt und sie <c val=\"#TooltipNumbers\">2</c> Sek. lang um <c val=\"#TooltipNumbers\">35%</c> verlangsamt.",
+      "name": "Horadrischer Würfel",
+      "shortText": "Verlangsamt Gegner im Wirkungsbereich und fügt ihnen Schaden zu."
+    },
+    "DeckardScrollOfSealing|DeckardScrollOfSealing|E": {
+      "cooldownText": "Abklingzeit: 16 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 40</s>",
+      "fullText": "Liest <c val=\"#TooltipNumbers\">2.25</c> Sek. lang aus einer verzauberten Schriftrolle vor, um Gegnern in einem dreieckigen Gebiet <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zuzufügen und sie <c val=\"#TooltipNumbers\">1.5</c> Sek. lang bewegungsunfähig zu machen.",
+      "name": "Schriftrolle der Versiegelung",
+      "shortText": "Fügt Gegnern im Wirkungsbereich Schaden zu und macht sie bewegungsunfähig."
+    },
+    "DeckardStayAWhileAndListen|DeckardStayAWhileAndListen|Heroic": {
+      "cooldownText": "Abklingzeit: 70 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Kanalisiert nach <c val=\"#TooltipNumbers\">1</c> Sek. <c val=\"#TooltipNumbers\">3</c> Sek. lang und schläfert gegnerische Helden im Gebiet vor Deckard ein. Nach dem Kanalisieren schlafen sie <c val=\"#TooltipNumbers\">2</c> Sek. lang weiter.<n/><n/>Gegner können mit jedem Einsatz nur einmal eingeschläfert werden und erlittener Schaden weckt sie auf.",
+      "name": "Bleibt ein Weilchen ...",
+      "shortText": "Schläfert Gegner mit einer fesselnden Geschichte ein."
+    },
+    "DeckardLorenado|DeckardLorenado|Heroic": {
+      "cooldownText": "Abklingzeit: <c val=\"#TooltipNumbers\">30 Sek.</c>",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 35</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">Vektorpositionierung</c><n/>Erschafft nach <c val=\"#TooltipNumbers\">1</c> Sek. einen wirbelnden Büchersturm, der sich in die Zielrichtung bewegt und getroffene Gegner kontinuierlich zurückstößt. Fügt getroffenen Helden <c val=\"#TooltipNumbers\">20</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zu.",
+      "name": "Vom Wissen verweht",
+      "shortText": "Erschafft einen Büchersturm, der Gegner zurückstößt."
+    },
+    ":PASSIVE:|DeckardFortitudeOfTheFaithful|Trait": {
+      "fullText": "Wenn mindestens <c val=\"#TooltipNumbers\">1</c> verbündeter Held in der Nähe ist, erhält Deckard <c val=\"#TooltipNumbers\">10</c> Panzerung und seine Grundfähigkeiten klingen <c val=\"#TooltipNumbers\">50%</c> schneller ab.",
+      "name": "Willensstärke der Gläubigen",
+      "shortText": "Verbündete in der Nähe gewähren Panzerung und verringern die Abklingzeiten."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Abklingzeit: 4 Sek.",
+      "fullText": "Erhöht die Bewegungsgeschwindigkeit nach <c val=\"#TooltipNumbers\">1</c> Sek. Kanalisierung um <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Aufsitzen"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Kanalisiert <c val=\"#TooltipNumbers\">6</c> Sek. lang und teleportiert sich dann zurück zum Altar der Stürme. Dabei werden sofort <c val=\"#TooltipNumbers\">1125</c> Lebenspunkte und <c val=\"#TooltipNumbers\">150</c> Mana wiederhergestellt.",
+      "name": "Ruhestein"
+    },
+    "DeckardStayAWhileAndListenCancel|DeckardStayAWhileAndListenCancel|Heroic": {
+      "fullText": "Bricht das Kanalisieren ab.",
+      "name": "Bleibt ein Weilchen abbrechen"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Sitzt ab.",
+      "name": "Absitzen"
+    },
+    "DeckardGemSapphire|DeckardGemSapphire|Active": {
+      "cooldownText": "Abklingzeit: 30 Sek.",
+      "fullText": "Aktivieren, um den Schaden des nächsten Horadrischen Würfels um <c val=\"#TooltipNumbers\">100%</c> und die Verlangsamung um <c val=\"#TooltipNumbers\">30%</c> zu erhöhen.<n/><n/>Es kann immer nur <c val=\"#TooltipNumbers\">1</c> Edelstein gleichzeitig aktiv sein.",
+      "name": "Saphir",
+      "shortText": "Der nächste Horadrische Würfel verlangsamt stärker."
+    },
+    "DeckardGemRuby|DeckardGemRuby|Active": {
+      "cooldownText": "Abklingzeit: 20 Sek.",
+      "fullText": "Aktivieren, damit der nächste Horadrische Würfel <c val=\"#TooltipNumbers\">100%</c> mehr Schaden verursacht und bei jedem getroffenen gegnerischen Helden <c val=\"#TooltipNumbers\">3</c> schwache Heiltränke erzeugt. Die Tränke heilen verbündete Helden beim Aufheben jeweils um <c val=\"#TooltipNumbers\">250</c><c val=\"#ColorGray\">~~0.04~~</c> Lebenspunkte und bleiben <c val=\"#TooltipNumbers\">10</c> Sek. lang bestehen.<n/><n/>Es kann immer nur <c val=\"#TooltipNumbers\">1</c> Edelstein gleichzeitig aktiv sein.",
+      "name": "Rubin",
+      "shortText": "Der nächste Horadrische Würfel erzeugt schwache Heiltränke."
+    },
+    "DeckardGemEmerald|DeckardGemEmerald|Active": {
+      "cooldownText": "Abklingzeit: 30 Sek.",
+      "fullText": "Aktivieren, damit der nächste Horadrische Würfel <c val=\"#TooltipNumbers\">100%</c> mehr Schaden verursacht und die erhaltene Heilung gegnerischer Helden <c val=\"#TooltipNumbers\">4</c> Sek. lang um <c val=\"#TooltipNumbers\">75%</c> verringert.<n/><n/>Es kann immer nur <c val=\"#TooltipNumbers\">1</c> Edelstein gleichzeitig aktiv sein.",
+      "name": "Smaragd",
+      "shortText": "Der nächste Horadrische Würfel verringert die erhaltene Heilung von Gegnern."
+    },
+    "DeckardAncientBlessings|DeckardFortitudeOfTheFaithfulAncientBlessings|Trait": {
+      "cooldownText": "Abklingzeit: 45 Sek.",
+      "fullText": "Wenn mindestens <c val=\"#TooltipNumbers\">1</c> verbündeter Held in der Nähe ist, erhält Deckard <c val=\"#TooltipNumbers\">10</c> Panzerung und seine Grundfähigkeiten klingen <c val=\"#TooltipNumbers\">50%</c> schneller ab.",
+      "name": "Willensstärke der Gläubigen",
+      "shortText": "Verbündete in der Nähe gewähren Panzerung und verringern die Abklingzeiten."
+    }
+  },
+  "talents": {
+    "DeckardScrollOfIdentify|DeckardScrollOfIdentify|E|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Triff gegnerische Helden mit der Schriftrolle der Versiegelung, um ihren Schaden dauerhaft um <c val=\"#TooltipNumbers\">2</c> zu erhöhen.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Belohnung:</c> Sobald <c val=\"#TooltipNumbers\">15</c> Helden getroffen wurden, verringert die Schriftrolle der Versiegelung außerdem die Panzerung getroffener Helden <c val=\"#TooltipNumbers\">4</c> Sek. lang um <c val=\"#TooltipNumbers\">10</c> und deckt sie auf.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Belohnung:</c> Sobald <c val=\"#TooltipNumbers\">30</c> Helden getroffen wurden, werden die Rüstungsverringerung dieses Talents auf <c val=\"#TooltipNumbers\">15</c> und ihre Dauer auf <c val=\"#TooltipNumbers\">6</c> Sek. erhöht.",
+      "name": "Schriftrolle der Identifikation",
+      "shortText": "<c val=\"#TooltipQuest\">Quest:</c> Erhöht den Schaden der Schriftrolle der Versiegelung und sie verringert Panzerung."
+    },
+    "DeckardFieldStudy|DeckardFieldStudy|E|Level1": {
+      "fullText": "Jeder gegnerische Held, der von der Schriftrolle der Versiegelung getroffen wird, erhöht Deckards Fähigkeitsstärke <c val=\"#TooltipNumbers\">16</c> Sek. lang um <c val=\"#TooltipNumbers\">20%</c>, bis maximal <c val=\"#TooltipNumbers\">40%</c>.",
+      "name": "Feldforschung",
+      "shortText": "Die Schriftrolle der Versiegelung kann die Fähigkeitsstärke erhöhen."
+    },
+    "DeckardGemSapphire|DeckardGemSapphire|Active|Level1": {
+      "cooldownText": "Abklingzeit: 30 Sek.",
+      "fullText": "Aktivieren, um den Schaden des nächsten Horadrischen Würfels um <c val=\"#TooltipNumbers\">100%</c> und die Verlangsamung um <c val=\"#TooltipNumbers\">30%</c> zu erhöhen.<n/><n/>Es kann immer nur <c val=\"#TooltipNumbers\">1</c> Edelstein gleichzeitig aktiv sein.",
+      "name": "Saphir",
+      "shortText": "Der nächste Horadrische Würfel verlangsamt stärker."
+    },
+    "DeckardPotionOfShielding|DeckardPotionOfShielding|Q|Level4": {
+      "fullText": "Jeder Verbündete, der von einem Heiltrank geheilt wird, erhält einen Schild mit <c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c> Punkten, der <c val=\"#TooltipNumbers\">6</c> Sek. lang anhält.",
+      "name": "Trank des Schutzes",
+      "shortText": "Heiltränke gewähren einen Schild."
+    },
+    "DeckardRejuvenationPotion|DeckardRejuvenationPotion|Q|Level4": {
+      "fullText": "Heiltränke stellen <c val=\"#TooltipNumbers\">15</c> Mana wieder her und regenerieren zusätzlich im Verlauf von <c val=\"#TooltipNumbers\">3</c> Sek. <c val=\"#TooltipNumbers\">114</c><c val=\"#ColorGray\">~~0.04~~</c> Lebenspunkte.",
+      "name": "Trank der Verjüngung",
+      "shortText": "Heiltränke stellen Mana wieder her und heilen stärker."
+    },
+    "DeckardGemRuby|DeckardGemRuby|Active|Level4": {
+      "cooldownText": "Abklingzeit: 20 Sek.",
+      "fullText": "Aktivieren, damit der nächste Horadrische Würfel <c val=\"#TooltipNumbers\">100%</c> mehr Schaden verursacht und bei jedem getroffenen gegnerischen Helden <c val=\"#TooltipNumbers\">3</c> schwache Heiltränke erzeugt. Die Tränke heilen verbündete Helden beim Aufheben jeweils um <c val=\"#TooltipNumbers\">250</c><c val=\"#ColorGray\">~~0.04~~</c> Lebenspunkte und bleiben <c val=\"#TooltipNumbers\">10</c> Sek. lang bestehen.<n/><n/>Es kann immer nur <c val=\"#TooltipNumbers\">1</c> Edelstein gleichzeitig aktiv sein.",
+      "name": "Rubin",
+      "shortText": "Der nächste Horadrische Würfel erzeugt schwache Heiltränke."
+    },
+    "DeckardCubeMastery|DeckardCubeMastery|W|Level7": {
+      "fullText": "Verringert die Manakosten der Schriftrolle der Versiegelung von <c val=\"#TooltipNumbers\">40</c> auf <c val=\"#TooltipNumbers\">25</c>. Jeder gegnerische Held, der vom Horadrischen Würfel getroffen wird, verringert die Abklingzeit der Schriftrolle der Versiegelung um <c val=\"#TooltipNumbers\">4</c> Sek.",
+      "name": "Meister des Würfels",
+      "shortText": "Der Horadrische Würfel verringert die Abklingzeit der Schriftrolle der Versiegelung."
+    },
+    "DeckardKanaisCube|DeckardKanaisCube|W|Level7": {
+      "fullText": "Der Horadrische Würfel verringert den verursachten Schaden von Helden <c val=\"#TooltipNumbers\">4</c> Sek. lang um <c val=\"#TooltipNumbers\">30%</c>.",
+      "name": "Kanais Würfel",
+      "shortText": "Der Horadrische Würfel verringert den verursachten Schaden von Helden."
+    },
+    "DeckardGemEmerald|DeckardGemEmerald|Active|Level7": {
+      "cooldownText": "Abklingzeit: 30 Sek.",
+      "fullText": "Aktivieren, damit der nächste Horadrische Würfel <c val=\"#TooltipNumbers\">100%</c> mehr Schaden verursacht und die erhaltene Heilung gegnerischer Helden <c val=\"#TooltipNumbers\">4</c> Sek. lang um <c val=\"#TooltipNumbers\">75%</c> verringert.<n/><n/>Es kann immer nur <c val=\"#TooltipNumbers\">1</c> Edelstein gleichzeitig aktiv sein.",
+      "name": "Smaragd",
+      "shortText": "Der nächste Horadrische Würfel verringert die erhaltene Heilung von Gegnern."
+    },
+    "DeckardStayAWhileAndListen|DeckardStayAWhileAndListen|Heroic|Level10": {
+      "cooldownText": "Abklingzeit: 70 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Kanalisiert nach <c val=\"#TooltipNumbers\">1</c> Sek. <c val=\"#TooltipNumbers\">3</c> Sek. lang und schläfert gegnerische Helden im Gebiet vor Deckard ein. Nach dem Kanalisieren schlafen sie <c val=\"#TooltipNumbers\">2</c> Sek. lang weiter.<n/><n/>Gegner können mit jedem Einsatz nur einmal eingeschläfert werden und erlittener Schaden weckt sie auf.",
+      "name": "Bleibt ein Weilchen ...",
+      "shortText": "Schläfert Gegner mit einer fesselnden Geschichte ein."
+    },
+    "DeckardLorenado|DeckardLorenado|Heroic|Level10": {
+      "cooldownText": "Abklingzeit: <c val=\"#TooltipNumbers\">30 Sek.</c>",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 35</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">Vektorpositionierung</c><n/>Erschafft nach <c val=\"#TooltipNumbers\">1</c> Sek. einen wirbelnden Büchersturm, der sich in die Zielrichtung bewegt und getroffene Gegner kontinuierlich zurückstößt. Fügt getroffenen Helden <c val=\"#TooltipNumbers\">20</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zu.",
+      "name": "Vom Wissen verweht",
+      "shortText": "Erschafft einen Büchersturm, der Gegner zurückstößt."
+    },
+    "DeckardSuperHealingPotion|DeckardSuperHealingPotion|Q|Level13": {
+      "fullText": "Wenn ein Heiltrank mindestens <c val=\"#TooltipNumbers\">2</c> Sek. lang liegen bleibt, wird seine Heilung um <c val=\"#TooltipNumbers\">100%</c> erhöht.<n/><n/><c val=\"#AbilityPassive\">Passiv:</c> Erhöht die Heilung des Heiltranks um <c val=\"#TooltipNumbers\">25%</c>, wenn das Ziel weniger als <c val=\"#TooltipNumbers\">50%</c> Lebenspunkte hat.",
+      "name": "Erstklassiger Heiltrank",
+      "shortText": "Heiltränke heilen nach einer Weile stärker."
+    },
+    "DeckardPotionOfRevival|DeckardPotionOfRevival|Q|Level13": {
+      "fullText": "Aufgehobene Heiltränke heilen zusätzlich alle verbündeten Helden in der Nähe um <c val=\"#TooltipNumbers\">75%</c> der ursprünglichen Heilung.",
+      "name": "Trank der Genesung",
+      "shortText": "Heiltränke heilen auch nahe Verbündete."
+    },
+    "DeckardAncientBlessings|DeckardAncientBlessings|Trait|Level13": {
+      "cooldownText": "Abklingzeit: 45 Sek.",
+      "fullText": "Willensstärke der Gläubigen aktivieren, um automatische Angriffe von verbündeten Helden in der Nähe <c val=\"#TooltipNumbers\">8</c> Sek. lang zu verstärken. Verstärkte automatische Angriffe verursachen zusätzlich <c val=\"#TooltipNumbers\">62</c><c val=\"#ColorGray\">~~0.04~~</c> Flächenschaden und heilen für jeden getroffenen Helden um <c val=\"#TooltipNumbers\">90</c><c val=\"#ColorGray\">~~0.04~~</c> Lebenspunkte. Dieser Effekt kann nur einmal pro Sekunde ausgelöst werden.",
+      "name": "Uralter Segen",
+      "shortText": "Willensstärke der Gläubigen aktivieren, um Angriffe von Verbündeten zu verstärken."
+    },
+    "DeckardScrollOfStoneCurse|DeckardScrollOfStoneCurse|E|Level16": {
+      "fullText": "Die Schriftrolle der Versiegelung verursacht <c val=\"#TooltipNumbers\">200%</c> mehr Schaden, wenn mindestens <c val=\"#TooltipNumbers\">2</c> Helden getroffen werden.",
+      "name": "Schriftrolle des Steinfluchs",
+      "shortText": "Die Schriftrolle der Versiegelung kann mehr Schaden verursachen."
+    },
+    "DeckardSafetyInNumbers|DeckardSafetyInNumbers|Trait|Level16": {
+      "fullText": "Wenn mindestens <c val=\"#TooltipNumbers\">2</c> verbündete Helden in der Nähe sind, gewährt Willensstärke der Gläubigen Deckard <c val=\"#TooltipNumbers\">10</c> zusätzliche Panzerung, <c val=\"#TooltipNumbers\">50%</c> zusätzliche Manaregeneration und seine Grundfähigkeiten klingen zusätzlich <c val=\"#TooltipNumbers\">50%</c> schneller ab.",
+      "name": "Leibwache",
+      "shortText": "Weitere Verbündete in der Nähe verstärken Willensstärke der Gläubigen."
+    },
+    "DeckardHoradricStaff|DeckardHoradricStaff|Passive|Level16": {
+      "fullText": "Alle <c val=\"#TooltipNumbers\">5</c> Sek. betäubt Deckards nächster automatischer Angriff Helden <c val=\"#TooltipNumbers\">0.75</c> Sek. lang.",
+      "name": "Horadrim-Stab",
+      "shortText": "Automatische Angriffe betäuben Helden regelmäßig."
+    },
+    "DeckardRespectTheElderly|DeckardRespectTheElderly|Heroic|Level20": {
+      "fullText": "Wenn Gegner nach Bleibt ein Weilchen aufwachen, werden sie <c val=\"#TooltipNumbers\">3</c> Sek. lang geblendet und zum Schweigen gebracht.",
+      "name": "Respekt vor dem Alter",
+      "shortText": "Bleibt ein Weilchen blendet Gegner und bringt sie zum Schweigen."
+    },
+    "DeckardMorenados|DeckardMorenados|Heroic|Level20": {
+      "fullText": "Verleiht Vom Wissen verweht eine zusätzliche Aufladung und verringert die Abklingzeit jedes Mal um <c val=\"#TooltipNumbers\">10</c> Sek., wenn die Fähigkeit einen gegnerischen Helden zurückstößt. Dieser Effekt hat eine Abklingzeit von <c val=\"#TooltipNumbers\">0.5</c> Sek.",
+      "name": "Sturm und Drang",
+      "shortText": "Verleiht Vom Wissen verweht eine Aufladung, verringert die Abklingzeit."
+    },
+    "DeckardBottomlessFlask|DeckardBottomlessFlask|Q|Level20": {
+      "fullText": "Verwendete Heiltränke füllen sich nach <c val=\"#TooltipNumbers\">8</c> Sek. wieder auf.",
+      "name": "Unerschöpfliche Flasche",
+      "shortText": "Verwendete Heiltränke füllen sich wieder auf."
+    },
+    "DeckardPerfectGems|DeckardPerfectGems|W|Level20": {
+      "fullText": "Verringert die Abklingzeit aller Edelsteine auf <c val=\"#TooltipNumbers\">5</c> Sek. und die Abklingzeit des Horadrischen Würfels um <c val=\"#TooltipNumbers\">6</c> Sek.",
+      "name": "Perfekte Edelsteine",
+      "shortText": "Verringert die Abklingzeit der Edelsteine und des Horadrischen Würfels."
+    }
+  },
+  "units": {
+    "DeckardLorenado": {
+      "description": "<c val=\"#TooltipNumbers\">Vektorpositionierung</c><n/>Erschafft nach <c val=\"#TooltipNumbers\">1</c> Sek. einen wirbelnden Büchersturm, der sich in die Zielrichtung bewegt und getroffene Gegner kontinuierlich zurückstößt. Fügt getroffenen Helden <c val=\"#TooltipNumbers\">20</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zu."
+    }
+  }
+}

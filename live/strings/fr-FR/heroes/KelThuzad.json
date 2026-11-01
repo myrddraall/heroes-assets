@@ -1,0 +1,206 @@
+{
+  "abilities": {
+    "KelThuzadDeathAndDecay|KelThuzadDeathAndDecay|Q": {
+      "cooldownText": "Temps de recharge : 5 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 20</s>",
+      "fullText": "Après <c val=\"#TooltipNumbers\">0.5</c> seconde, lance un orbe qui explose au premier ennemi touché et inflige <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.025~~</c> points de dégâts dans la zone. L’impact crée une nappe de décomposition qui inflige aux ennemis <c val=\"#TooltipNumbers\">82</c><c val=\"#ColorGray\">~~0.025~~</c> points de dégâts toutes les <c val=\"#TooltipNumbers\">0.5</c> secondes pendant <c val=\"#TooltipNumbers\">2</c> secondes.",
+      "name": "Mort et décomposition",
+      "shortText": "Inflige des dégâts et crée une nappe de dégâts."
+    },
+    "KelThuzadFrostNova|KelThuzadFrostNova|W": {
+      "cooldownText": "Temps de recharge : 8 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 50</s>",
+      "fullText": "Crée une nova qui explose après <c val=\"#TooltipNumbers\">1</c> seconde, inflige <c val=\"#TooltipNumbers\">180</c><c val=\"#ColorGray\">~~0.025~~</c> points de dégâts aux ennemis dans la zone et réduit leur vitesse de déplacement de <c val=\"#TooltipNumbers\">35%</c> pendant <c val=\"#TooltipNumbers\">2.5</c> secondes. Les ennemis au centre de la nova sont immobilisés pendant <c val=\"#TooltipNumbers\">1</c> seconde.",
+      "name": "Nova de givre",
+      "shortText": "Inflige des dégâts aux ennemis et les neutralise."
+    },
+    "KelThuzadChains|KelThuzadChains|E": {
+      "cooldownText": "Temps de recharge : 10 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 50</s>",
+      "fullText": "Lance une chaîne qui inflige <c val=\"#TooltipNumbers\">97</c><c val=\"#ColorGray\">~~0.025~~</c> points de dégâts au premier héros adverse touché. Pendant <c val=\"#TooltipNumbers\">3</c> secondes après l’impact, la chaîne peut être relancée sur un autre ennemi, ce qui rapproche les deux cibles et les étourdit pendant <c val=\"#TooltipNumbers\">0.5</c> seconde.",
+      "name": "Chaînes de Kel’Thuzad",
+      "shortText": "Rapproche les héros adverses."
+    },
+    "KelThuzadFrozenTomb|KelThuzadFrozenTomb|Heroic": {
+      "cooldownText": "Temps de recharge : 50 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 45</s>",
+      "fullText": "Projette un météore de glace sur un héros adverse. À l’impact, inflige <c val=\"#TooltipNumbers\">115</c><c val=\"#ColorGray\">~~0.025~~</c> points de dégâts à sa cible et <c val=\"#TooltipNumbers\">275</c><c val=\"#ColorGray\">~~0.025~~</c> points de dégâts aux ennemis dans la zone. Tous les ennemis touchés par Explosion de givre sont immobilisés pendant <c val=\"#TooltipNumbers\">2</c> seconde.",
+      "name": "Explosion de givre",
+      "shortText": "Immobilise les ennemis autour de la cible et leur inflige des dégâts."
+    },
+    "KelThuzadShadowFissure|KelThuzadShadowFissure|Heroic": {
+      "cooldownText": "Temps de recharge :<sp/>16 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 40</s>",
+      "fullText": "Crée une fissure n’importe où sur le champ de bataille qui explose après <c val=\"#TooltipNumbers\">1.5</c> seconde et inflige <c val=\"#TooltipNumbers\">320</c><c val=\"#ColorGray\">~~0.025~~</c> points de dégâts aux héros adverses qui se trouvent dans la zone. Si un héros est touché, fait passer le temps de recharge de Fissure d’ombre à <c val=\"#TooltipNumbers\">1.5</c> seconde.",
+      "name": "Fissure d’ombre",
+      "shortText": "Inflige de lourds dégâts dans une zone."
+    },
+    ":PASSIVE:|KelThuzadMasterOfTheColdDark|Trait": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quête :</c> confère <c val=\"#TooltipNumbers\">1</c> unité de chancre chaque fois qu’un héros adverse est immobilisé par Nova de givre ou touché par Chaînes de Kel’Thuzad.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Récompense : </c> une fois <c val=\"#TooltipNumbers\">15</c> unités de chancre obtenues, confère la capacité Pointe glaciaire.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Récompense : </c> une fois <c val=\"#TooltipNumbers\">30</c> unités de chancre obtenues, confère <c val=\"#TooltipNumbers\">75%</c> de puissance de capacité supplémentaires.<n/><n/><c val=\"#TooltipQuest\">Unités de chancre :</c> <c val=\"#TooltipNumbers\" validator=\"True\">0/30</c>",
+      "name": "Maître des ténèbres glaciales",
+      "shortText": "Kel’Thuzad gagne en puissance à mesure qu’il affecte le déplacement des héros adverses."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Temps de recharge : 4 secondes",
+      "fullText": "Après <c val=\"#TooltipNumbers\">1</c> seconde de canalisation, augmente la vitesse de déplacement de <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Appeler une monture"
+    },
+    "KelThuzadGlacialSpike|KelThuzadGlacialSpike|Active": {
+      "cooldownText": "Temps de recharge :<sp/>30 secondes",
+      "fullText": "Crée une pointe qui explose après <c val=\"#TooltipNumbers\">4</c> secondes et inflige <c val=\"#TooltipNumbers\">70</c><c val=\"#ColorGray\">~~0.025~~</c> points de dégâts aux ennemis proches. La pointe peut servir de cible à Chaînes de Kel’Thuzad.",
+      "name": "Pointe glaciaire",
+      "shortText": "Crée une pointe qui explose et inflige des dégâts."
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Après <c val=\"#TooltipNumbers\">6</c> secondes de canalisation, téléporte au hall des Tempêtes et rend instantanément <c val=\"#TooltipNumbers\">1125</c> points de vie et <c val=\"#TooltipNumbers\">150</c> points de mana.",
+      "name": "Pierre de foyer"
+    },
+    "KelThuzadChainsLink|KelThuzadChainsLink|E": {
+      "fullText": "Projette une seconde chaîne depuis l’ennemi déjà enchaîné. Inflige <c val=\"#TooltipNumbers\">97</c><c val=\"#ColorGray\">~~0.025~~</c> points de dégâts à l’impact avec le héros adverse et rapproche les deux ennemis.",
+      "name": "Chaînes de Kel’Thuzad",
+      "shortText": ""
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Permet de descendre de la monture.",
+      "name": "Renvoyer la monture"
+    },
+    "KelThuzadArchlichArmor|KelThuzadArchlichArmor|Active": {
+      "cooldownText": "Temps de recharge : 25 secondes",
+      "fullText": "Confère à Kel’Thuzad <c val=\"#TooltipNumbers\">50</c> points d’armure physique pendant <c val=\"#TooltipNumbers\">4</c> secondes. À l’activation, inflige <c val=\"#TooltipNumbers\">45</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts aux ennemis proches et réduit leur vitesse de déplacement de <c val=\"#TooltipNumbers\">35%</c> pendant <c val=\"#TooltipNumbers\">4</c> secondes.",
+      "name": "Armure de l’archiliche",
+      "shortText": "Confère de l’armure physique et ralentit les ennemis."
+    },
+    "KelThuzadPhylacteryItem|KelThuzadPhylacteryItem|Passive": {
+      "fullText": "Activer en étant mort ressuscite instantanément au hall des Tempêtes, mais le phylactère doit ensuite être rechargé.<n/><n/><c val=\"#AbilityPassive\">Effet passif :</c> Kel’Thuzad récupère un montant de points de vie équivalent à <c val=\"#TooltipNumbers\">10%</c> de tous les dégâts de capacité qu’il inflige tant que le phylactère est chargé.",
+      "name": "Phylactère",
+      "shortText": ""
+    },
+    "KelThuzadShiftingMalice|KelThuzadShiftingMalice|Active": {
+      "cooldownText": "Temps de recharge : 240 secondes",
+      "fullText": "Projette vers l’avant puis inflige <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.025~~</c> points de dégâts aux ennemis sur la trajectoire. Faire des victimes annule le temps de recharge de Projection des damnés.",
+      "name": "Projection des damnés",
+      "shortText": "Projette vers l’avant et inflige des dégâts."
+    },
+    "KelThuzadSpawnShade|KelThuzadTheDamnedReturn|Active": {
+      "cooldownText": "Temps de recharge : 15 secondes",
+      "fullText": "Crée une ombre de Naxxramas qui dure <c val=\"#TooltipNumbers\">15</c> secondes et reproduit Mort et décomposition chaque fois que Kel’Thuzad l’utilise.",
+      "name": "Ombre de Naxxramas",
+      "shortText": "Crée une ombre qui reproduit Mort et décomposition."
+    }
+  },
+  "talents": {
+    "KelThuzadThePlaguelands|KelThuzadThePlaguelands|Q|Level1": {
+      "fullText": "Augmente la durée de Mort et décomposition de <c val=\"#TooltipNumbers\">1</c> seconde. Une fois <c val=\"#TooltipNumbers\">30</c> unités de chancre obtenues, augmente le rayon de la nappe de Mort et décomposition de <c val=\"#TooltipNumbers\">30%</c>.",
+      "name": "Maleterres",
+      "shortText": "Augmente la durée et le rayon de Mort et décomposition."
+    },
+    "KelThuzadBlightedFrost|KelThuzadBlightedFrost|W|Level1": {
+      "fullText": "Nova de givre inflige <c val=\"#TooltipNumbers\">75%</c> de dégâts supplémentaires aux ennemis au centre de la zone d’effet. Une fois <c val=\"#TooltipNumbers\">30</c> unités de chancre obtenues, la durée d’immobilisation de Nova de givre augmente de <c val=\"#TooltipNumbers\">0.5</c> seconde.",
+      "name": "Chancregivre",
+      "shortText": "Augmente les dégâts dans la zone centrale et la durée de Nova de givre."
+    },
+    "KelThuzadBarbedChains|KelThuzadBarbedChains|E|Level1": {
+      "fullText": "Les chaînes infligent <c val=\"#TooltipNumbers\">125%</c> de dégâts supplémentaires. Une fois <c val=\"#TooltipNumbers\">30</c> unités de chancre obtenues, les héros adverses attirés par les chaînes voient leur armure réduite de <c val=\"#TooltipNumbers\">10</c> points pendant <c val=\"#TooltipNumbers\">4</c> secondes.",
+      "name": "Chaînes barbelées",
+      "shortText": "Les chaînes infligent plus de dégâts et réduisent l’armure."
+    },
+    "KelThuzadStripShields|KelThuzadStripShields|E|Level4": {
+      "fullText": "Attirer un héros avec les chaînes confère de façon permanente <c val=\"#TooltipNumbers\">128</c><c val=\"#ColorGray\">~~0.04~~</c> points de bouclier à Kel’Thuzad. Ce montant peut se cumuler jusqu’à <c val=\"#TooltipNumbers\">2</c> fois.<n/><n/>En outre, Chaînes de Kel’Thuzad inflige jusqu’à <c val=\"#TooltipNumbers\">270</c><c val=\"#ColorGray\">~~0.025~~</c> points de dégâts supplémentaires aux boucliers.",
+      "name": "Boucle liée",
+      "shortText": "Les chaînes confèrent un bouclier et infligent des dégâts aux boucliers."
+    },
+    "KelThuzadPhylactery|KelThuzadPhylactery|Passive|Level4": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quête :</c> collecter <c val=\"#TooltipNumbers\">12</c> globes de régénération pour charger le phylactère de Kel’Thuzad.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Récompense :</c> le phylactère peut être activé en étant mort pour ressusciter instantanément au hall des Tempêtes, mais il doit ensuite être rechargé.<n/><n/><c val=\"#AbilityPassive\">Effet passif :</c> Kel’Thuzad récupère un montant de points de vie équivalent à <c val=\"#TooltipNumbers\">10%</c> de tous les dégâts de capacité qu’il inflige tant que le phylactère est chargé.",
+      "name": "Phylactère",
+      "shortText": "<c val=\"#TooltipQuest\">Quête :</c> collecter des globes de régénération permet de ressusciter instantanément."
+    },
+    "KelThuzadArchlichArmor|KelThuzadArchlichArmor|Active|Level4": {
+      "cooldownText": "Temps de recharge : 25 secondes",
+      "fullText": "Confère à Kel’Thuzad <c val=\"#TooltipNumbers\">50</c> points d’armure physique pendant <c val=\"#TooltipNumbers\">4</c> secondes. À l’activation, inflige <c val=\"#TooltipNumbers\">45</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts aux ennemis proches et réduit leur vitesse de déplacement de <c val=\"#TooltipNumbers\">35%</c> pendant <c val=\"#TooltipNumbers\">4</c> secondes.",
+      "name": "Armure de l’archiliche",
+      "shortText": "Confère de l’armure physique et ralentit les ennemis."
+    },
+    "KelThuzadAcceleratedDecay|KelThuzadAcceleratedDecay|Q|Level7": {
+      "fullText": "Chaque fois qu’un héros est touché par la nappe de Mort et décomposition, il subit <c val=\"#TooltipNumbers\">25%</c> de dégâts périodiques supplémentaires pendant les <c val=\"#TooltipNumbers\">4</c> prochaines secondes. Cet effet peut se cumuler jusqu’à <c val=\"#TooltipNumbers\">4</c> fois.",
+      "name": "Décomposition accélérée",
+      "shortText": "Les dégâts de Mort et décomposition augmentent."
+    },
+    "KelThuzadChillingTouch|KelThuzadChillingTouch|Passive|Level7": {
+      "fullText": "Toutes les <c val=\"#TooltipNumbers\">8</c> secondes, la prochaine attaque de base de Kel’Thuzad frappe tous les ennemis dans la zone et leur inflige <c val=\"#TooltipNumbers\">80%</c> de dégâts supplémentaires en plus de les ralentir de <c val=\"#TooltipNumbers\">30%</c> pendant <c val=\"#TooltipNumbers\">2</c> secondes. L’attaque de Toucher glacial inflige des dégâts de capacité au lieu de dégâts physiques.",
+      "name": "Toucher glacial",
+      "shortText": "Les attaques peuvent infliger des dégâts de capacité en zone."
+    },
+    "KelThuzadIceCold|KelThuzadIceCold|Passive|Level7": {
+      "fullText": "Réduit le temps de recharge de Pointe glaciaire de <c val=\"#TooltipNumbers\">10</c> secondes et augmente ses dégâts de <c val=\"#TooltipNumbers\">400%</c>.",
+      "name": "Glaciation",
+      "shortText": "Réduit le temps de recharge de Pointe glaciaire."
+    },
+    "KelThuzadFrozenTomb|KelThuzadFrozenTomb|Heroic|Level10": {
+      "cooldownText": "Temps de recharge : 50 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 45</s>",
+      "fullText": "Projette un météore de glace sur un héros adverse. À l’impact, inflige <c val=\"#TooltipNumbers\">115</c><c val=\"#ColorGray\">~~0.025~~</c> points de dégâts à sa cible et <c val=\"#TooltipNumbers\">275</c><c val=\"#ColorGray\">~~0.025~~</c> points de dégâts aux ennemis dans la zone. Tous les ennemis touchés par Explosion de givre sont immobilisés pendant <c val=\"#TooltipNumbers\">2</c> seconde.",
+      "name": "Explosion de givre",
+      "shortText": "Immobilise les ennemis autour de la cible et leur inflige des dégâts."
+    },
+    "KelThuzadShadowFissure|KelThuzadShadowFissure|Heroic|Level10": {
+      "cooldownText": "Temps de recharge :<sp/>16 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 40</s>",
+      "fullText": "Crée une fissure n’importe où sur le champ de bataille qui explose après <c val=\"#TooltipNumbers\">1.5</c> seconde et inflige <c val=\"#TooltipNumbers\">320</c><c val=\"#ColorGray\">~~0.025~~</c> points de dégâts aux héros adverses qui se trouvent dans la zone. Si un héros est touché, fait passer le temps de recharge de Fissure d’ombre à <c val=\"#TooltipNumbers\">1.5</c> seconde.",
+      "name": "Fissure d’ombre",
+      "shortText": "Inflige de lourds dégâts dans une zone."
+    },
+    "KelThuzadIcyGrasp|KelThuzadIcyGrasp|W|Level13": {
+      "fullText": "Augmente l’intensité du ralentissement infligé par Nova de givre de <c val=\"#TooltipNumbers\">20%</c>. Chaque fois que Kel’Thuzad inflige des dégâts à un ennemi ainsi ralenti, le temps de recharge de Nova de givre est réduit de <c val=\"#TooltipNumbers\">0.75</c> seconde.",
+      "name": "Étreinte de glace",
+      "shortText": "Augmente l’intensité du ralentissement de Nova de givre et réduit son temps de recharge."
+    },
+    "KelThuzadChainsOfIce|KelThuzadChainsOfIce|E|Level13": {
+      "fullText": "Quand l’étourdissement infligé par les chaînes expire, la vitesse de déplacement des ennemis affectés est réduite de <c val=\"#TooltipNumbers\">60%</c> pendant <c val=\"#TooltipNumbers\">1</c> seconde.",
+      "name": "Chaînes de glace",
+      "shortText": "Les chaînes ralentissent leur cible."
+    },
+    "KelThuzadChainLink|KelThuzadChainLink|E|Level13": {
+      "fullText": "Attirer un héros avec Chaînes de Kel’Thuzad réduit son temps de recharge de <c val=\"#TooltipNumbers\">5</c> secondes et restitue son coût en mana.",
+      "name": "Maillons faibles",
+      "shortText": "Rapprocher des héros réduit le temps de recharge des chaînes."
+    },
+    "KelThuzadArcaneEchoes|KelThuzadArcaneEchoes|Q|Level16": {
+      "fullText": "Chaque fois que l’explosion de Mort et décomposition touche un héros adverse, son temps de recharge est réduit de <c val=\"#TooltipNumbers\">1.5</c> seconde.",
+      "name": "Échos arcaniques",
+      "shortText": "Réduit le temps de recharge de Mort et décomposition."
+    },
+    "KelThuzadHungeringCold|KelThuzadHungeringCold|Passive|Level16": {
+      "fullText": "Les ennemis immobilisés subissent <c val=\"#TooltipNumbers\">55</c><c val=\"#ColorGray\">~~0.025~~</c> points de dégâts supplémentaires de la part de Kel’Thuzad chaque fois qu’il les touche.",
+      "name": "Morsure du givre",
+      "shortText": "Inflige des dégâts supplémentaires aux ennemis immobilisés."
+    },
+    "KelThuzadPowerOfIcecrown|KelThuzadPowerOfIcecrown|Passive|Level16": {
+      "fullText": "Ralentir, immobiliser ou étourdir un héros adverse confère <c val=\"#TooltipNumbers\">6%</c> de puissance de capacité supplémentaires pendant <c val=\"#TooltipNumbers\">10</c> secondes. Cumulable jusqu’à <c val=\"#TooltipNumbers\">5</c> fois.",
+      "name": "Puissance de la Couronne de glace",
+      "shortText": "Neutraliser des ennemis confère de la puissance de capacité."
+    },
+    "KelThuzadDeathchill|KelThuzadDeathchill|Heroic|Level20": {
+      "fullText": "À l’expiration d’Explosion de givre, les ennemis sont ralentis de <c val=\"#TooltipNumbers\">40%</c> pendant <c val=\"#TooltipNumbers\">3</c> secondes. Les héros qui meurent en étant sous l’effet d’Explosion de givre déclenchent une autre explosion.",
+      "name": "Froid de la mort",
+      "shortText": "Ralentit. Tuer des ennemis déclenche des explosions supplémentaires."
+    },
+    "KelThuzadMightOfTheScourge|KelThuzadMightOfTheScourge|Heroic|Level20": {
+      "fullText": "Si un héros est touché avec Fissure d’ombre, une deuxième est lancée sous ce dernier <c val=\"#TooltipNumbers\">1</c> seconde plus tard. Cette seconde incantation ne se duplique pas.",
+      "name": "Pouvoir du Fléau",
+      "shortText": "Toucher des héros relance Fissure d’ombre."
+    },
+    "KelThuzadShiftingMalice|KelThuzadShiftingMalice|Active|Level20": {
+      "cooldownText": "Temps de recharge : 240 secondes",
+      "fullText": "Projette vers l’avant puis inflige <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.025~~</c> points de dégâts aux ennemis sur la trajectoire. Faire des victimes annule le temps de recharge de Projection des damnés.",
+      "name": "Projection des damnés",
+      "shortText": "Projette vers l’avant et inflige des dégâts."
+    },
+    "KelThuzadTheDamnedReturn|KelThuzadTheDamnedReturn|Active|Level20": {
+      "cooldownText": "Temps de recharge : 15 secondes",
+      "fullText": "Crée une ombre de Naxxramas qui dure <c val=\"#TooltipNumbers\">15</c> secondes et reproduit Mort et décomposition chaque fois que Kel’Thuzad l’utilise.",
+      "name": "Ombre de Naxxramas",
+      "shortText": "Crée une ombre qui reproduit Mort et décomposition."
+    }
+  },
+  "units": {}
+}

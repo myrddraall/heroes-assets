@@ -1,0 +1,176 @@
+{
+  "abilities": {
+    "MephistoSkullMissile|MephistoSkullMissile|Q": {
+      "cooldownText": "冷卻時間：8秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：20點</s>",
+      "fullText": "召喚一個骷髏，在<c val=\"#TooltipNumbers\">0.625</c>秒後骷髏會朝目標方向前進，對擊中的敵人造成<c val=\"#TooltipNumbers\">127</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，並且使擊中的英雄緩速<c val=\"#TooltipNumbers\">25%</c>，持續<c val=\"#TooltipNumbers\">2</c>秒。",
+      "name": "骷髏魔彈",
+      "shortText": "在短暫延遲後，對直線路徑上的敵人造成傷害"
+    },
+    "MephistoLightningNova|MephistoLightningNova|W": {
+      "cooldownText": "冷卻時間：14秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：50點</s>",
+      "fullText": "墨菲斯托周圍出現一圈閃電，持續<c val=\"#TooltipNumbers\">2.5</c>秒。接觸閃電圈的敵人每<c val=\"#TooltipNumbers\">0.25</c>秒受到<c val=\"#TooltipNumbers\">43</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。<n/><n/>閃電新星每次擊中英雄時，可使該輪閃電新星造成的傷害提高<c val=\"#TooltipNumbers\">3%</c>，最多可提高<c val=\"#TooltipNumbers\">30%</c>。",
+      "name": "閃電新星",
+      "shortText": "對附近敵人造成逐漸提高的傷害"
+    },
+    "MephistoShadeOfMephisto|MephistoShadeOfMephisto|E": {
+      "cooldownText": "冷卻時間：18秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：35點</s>",
+      "fullText": "傳送至目的地，對附近的敵人造成<c val=\"#TooltipNumbers\">78</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，並且在原本位置留下一個魔影。<n/><n/><c val=\"#TooltipNumbers\">2.5</c>秒後，墨菲斯托會傳送回魔影的位置。",
+      "name": "墨菲斯托魔影",
+      "shortText": "傳送至目的地，一小段時間後再返回原本位置"
+    },
+    "MephistoConsumeSouls|MephistoConsumeSouls|Heroic": {
+      "cooldownText": "冷卻時間：120秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：80點</s>",
+      "fullText": "引導<c val=\"#TooltipNumbers\">2.5</c>秒，使所有敵方英雄現形。引導完成後，所有敵方英雄受到<c val=\"#TooltipNumbers\">357</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，並且緩速<c val=\"#TooltipNumbers\">25%</c>，持續<c val=\"#TooltipNumbers\">2.5</c>秒。",
+      "name": "眾魂吞噬",
+      "shortText": "對所有敵方英雄造成傷害，並且使其緩速"
+    },
+    "MephistoDuranceOfHate|MephistoDuranceOfHate|Heroic": {
+      "cooldownText": "冷卻時間：50秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：50點</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">1</c>秒後釋放一波邪靈，使第一個被擊中的敵方英雄定身<c val=\"#TooltipNumbers\">2.5</c>秒，同時使其在定身期間內受到<c val=\"#TooltipNumbers\">250</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。<n/><n/>憎恨禁錮效果會從第一個被擊中的目標向外擴散至附近敵方英雄，使受到影響的英雄定身，並且受到傷害。",
+      "name": "憎恨禁錮",
+      "shortText": "釋放邪靈，定身效果可擴散至附近敵方英雄"
+    },
+    ":PASSIVE:|MephistoLordOfHatred|Trait": {
+      "fullText": "以基本技能擊中英雄可降低墨菲斯托基本技能的冷卻時間。<n/><n/>骷髏魔彈和墨菲斯托魔影每擊中一名英雄，冷卻時間降低<c val=\"#TooltipNumbers\">1.5</c>秒。閃電新星每擊中一名英雄，冷卻時間降低<c val=\"#TooltipNumbers\">0.3</c>秒。",
+      "name": "憎恨之王",
+      "shortText": "基本技能擊中英雄可降低墨菲斯托的技能冷卻時間"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "冷卻時間：4秒",
+      "fullText": "引導<c val=\"#TooltipNumbers\">1</c>秒後，提高<s val=\"StandardTooltipDetails\">30%</s>移動速度。",
+      "name": "召喚坐騎"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "引導<c val=\"#TooltipNumbers\">6</c>秒後傳送回風暴祭壇，立即恢復<c val=\"#TooltipNumbers\">1125</c>點生命值和<c val=\"#TooltipNumbers\">150</c>點法力值。",
+      "name": "爐石"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "離開坐騎。",
+      "name": "離開坐騎"
+    },
+    "MephistoShadeOfMephistoShadeLord|MephistoShadeOfMephistoShadeLord|Active": {
+      "cooldownText": "冷卻時間：20秒",
+      "fullText": "啟動後可和魔影互換位置，並且重置墨菲斯托魔影的持續時間。<n/><n/><c val=\"#AbilityPassive\">被動：</c>魔影可獲得墨菲斯托等級<c val=\"#TooltipNumbers\">7</c>所有天賦效果。",
+      "name": "魔影主宰",
+      "shortText": "啟動後可和魔影互換位置"
+    }
+  },
+  "talents": {
+    "MephistoSkullMissileUnyieldingPower|MephistoSkullMissileUnyieldingPower|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任務：</c>以骷髏魔彈擊中英雄。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">獎勵：</c>擊中<c val=\"#TooltipNumbers\">20</c>名英雄後，骷髏魔彈的傷害提高<c val=\"#TooltipNumbers\">100</c>點。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">獎勵：</c>擊中<c val=\"#TooltipNumbers\">40</c>名英雄後，骷髏魔彈額外獲得一次使用次數。",
+      "name": "狂妄之力",
+      "shortText": "<c val=\"#TooltipQuest\">任務：</c>強化骷髏魔彈"
+    },
+    "MephistoLightningNovaFuriousSpark|MephistoLightningNovaFuriousSpark|W|Level1": {
+      "fullText": "閃電新星每擊中同一個目標<c val=\"#TooltipNumbers\">3次</c>可額外造成<c val=\"#TooltipNumbers\">65</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，並且為墨菲斯托恢復<c val=\"#TooltipNumbers\">2</c>點法力。",
+      "name": "忿怒電光",
+      "shortText": "閃電新星可額外造成傷害"
+    },
+    "MephistoShadeOfMephistoMaliciousIntent|MephistoShadeOfMephistoMaliciousIntent|E|Level1": {
+      "fullText": "墨菲斯托魔影會在作用期間和結束後的<c val=\"#TooltipNumbers\">2.5</c>秒內賦予<c val=\"#TooltipNumbers\">25%</c>法術強度。<n/><n/>如果在墨菲斯托魔影作用期間內，墨菲斯托以基本技能擊中敵方英雄<c val=\"#TooltipNumbers\">18</c>次以上，法術強度加成的持續時間延長至墨菲斯托魔影結束後的<c val=\"#TooltipNumbers\">10</c>秒。",
+      "name": "邪惡意圖",
+      "shortText": "墨菲斯托魔影可賦予法術強度"
+    },
+    "MephistoSkullMissileHatefulMending|MephistoSkullMissileHatefulMending|Q|Level4": {
+      "fullText": "骷髏魔彈對英雄造成傷害時獲得<c val=\"#TooltipNumbers\">10</c>點法力值，對英雄造成的<c val=\"#TooltipNumbers\">70%</c>傷害值會治療墨菲斯托。",
+      "name": "憎恨治癒",
+      "shortText": "骷髏魔彈會恢復生命值"
+    },
+    "MephistoLightningNovaStaticBarrier|MephistoLightningNovaStaticBarrier|W|Level4": {
+      "fullText": "閃電新星對英雄造成的<c val=\"#TooltipNumbers\">40%</c>傷害值，在效果持續時間結束後會轉化成護盾保護墨菲斯托。持續<c val=\"#TooltipNumbers\">5</c>秒。",
+      "name": "靜電屏障",
+      "shortText": "閃電新星可賦予護盾"
+    },
+    "MephistoSpite|MephistoSpite|Passive|Level4": {
+      "fullText": "恢復之球的治療持續時間提高<c val=\"#TooltipNumbers\">100%</c>。恢復之球每次治療可啟動憎恨之王，使基本技能的冷卻時間降低<c val=\"#TooltipNumbers\">1</c>秒。",
+      "name": "怨恨",
+      "shortText": "恢復之球可啟動憎恨之王"
+    },
+    "MephistoShadeOfMephistoGhastlyArmor|MephistoShadeOfMephistoGhastlyArmor|E|Level7": {
+      "fullText": "墨菲斯托魔影在作用期間和結束後<c val=\"#TooltipNumbers\">2.5</c>秒內賦予<c val=\"#TooltipNumbers\">25</c>點護甲。",
+      "name": "魔魂護甲",
+      "shortText": "墨菲斯托魔影可賦予護甲"
+    },
+    "MephistoShadeOfMephistoFrostStorm|MephistoShadeOfMephistoFrostStorm|E|Level7": {
+      "fullText": "在墨菲斯托魔影作用期間內，以閃電新星擊中敵人可使其緩速<c val=\"#TooltipNumbers\">15%</c>，持續<c val=\"#TooltipNumbers\">1</c>秒，並且使骷髏魔彈的緩速效果提高至<c val=\"#TooltipNumbers\">50%</c>。",
+      "name": "冰霜風暴",
+      "shortText": "墨菲斯托魔影可賦予閃電新星緩速效果"
+    },
+    "MephistoShadeOfMephistoTrickery|MephistoShadeOfMephistoTrickery|E|Level7": {
+      "fullText": "墨菲斯托魔影會在作用期間和結束後的<c val=\"#TooltipNumbers\">2.5</c>秒內賦予<c val=\"#TooltipNumbers\">20%</c>移動速度。<n/><n/>如果在墨菲斯托魔影作用期間內，墨菲斯托以基本技能擊中敵方英雄<c val=\"#TooltipNumbers\">18</c>次以上，會重置墨菲斯托魔影的冷卻時間。",
+      "name": "狡詐",
+      "shortText": "墨菲斯托魔影可賦予移動速度"
+    },
+    "MephistoConsumeSouls|MephistoConsumeSouls|Heroic|Level10": {
+      "cooldownText": "冷卻時間：120秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：80點</s>",
+      "fullText": "引導<c val=\"#TooltipNumbers\">2.5</c>秒，使所有敵方英雄現形。引導完成後，所有敵方英雄受到<c val=\"#TooltipNumbers\">357</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，並且緩速<c val=\"#TooltipNumbers\">25%</c>，持續<c val=\"#TooltipNumbers\">2.5</c>秒。",
+      "name": "眾魂吞噬",
+      "shortText": "對所有敵方英雄造成傷害，並且使其緩速"
+    },
+    "MephistoDuranceOfHate|MephistoDuranceOfHate|Heroic|Level10": {
+      "cooldownText": "冷卻時間：50秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：50點</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">1</c>秒後釋放一波邪靈，使第一個被擊中的敵方英雄定身<c val=\"#TooltipNumbers\">2.5</c>秒，同時使其在定身期間內受到<c val=\"#TooltipNumbers\">250</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。<n/><n/>憎恨禁錮效果會從第一個被擊中的目標向外擴散至附近敵方英雄，使受到影響的英雄定身，並且受到傷害。",
+      "name": "憎恨禁錮",
+      "shortText": "釋放邪靈，定身效果可擴散至附近敵方英雄"
+    },
+    "MephistoSkullMissileAbhorredSkull|MephistoSkullMissileAbhorredSkull|Q|Level13": {
+      "fullText": "骷髏魔彈擊中英雄可賦予<c val=\"#TooltipNumbers\">25%</c>法術強度，持續<c val=\"#TooltipNumbers\">6</c>秒。骷髏魔彈對生命值低於<c val=\"#TooltipNumbers\">50%</c>的英雄造成<c val=\"#TooltipNumbers\">40%</c>額外傷害。",
+      "name": "憎惡骷髏",
+      "shortText": "提高骷髏魔彈的傷害，賦予法術強度"
+    },
+    "MephistoLordOfHatredHysteria|MephistoLordofHatredHysteria|Trait|Level13": {
+      "fullText": "憎恨之王也會降低墨菲斯托英雄絕技的冷卻時間。墨菲斯托施放英雄絕技時，可恢復最大生命值與法力值的<c val=\"#TooltipNumbers\">15%</c>。",
+      "name": "偏執恨意",
+      "shortText": "憎恨之王會降低英雄絕技的冷卻時間"
+    },
+    "MephistoShardOfHate|MephistoShardOfHate|Passive|Level13": {
+      "fullText": "基本攻擊會擊中主要目標附近的敵人，擊中敵方英雄時會觸發憎恨之王，每擊中一名英雄會使基本技能冷卻時間降低<c val=\"#TooltipNumbers\">1</c>秒。",
+      "name": "憎恨裂片",
+      "shortText": "基本攻擊會造成擴散傷害並且觸發憎恨之王"
+    },
+    "MephistoSkullMissileLightningReaction|MephistoSkullMissileLightningReaction|Q|Level16": {
+      "fullText": "骷髏魔彈接觸到閃電新星會爆炸，對附近敵人造成<c val=\"#TooltipNumbers\">120</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。",
+      "name": "閃電效應",
+      "shortText": "骷髏魔彈接觸到閃電新星會爆炸"
+    },
+    "MephistoLightningNovaStaticField|MephistoLightningNovaStaticField|W|Level16": {
+      "fullText": "當閃電新星的傷害加成達到<c val=\"#TooltipNumbers\">30%</c>時，效果範圍內的敵方英雄會受到相當於其最大生命值<c val=\"#TooltipNumbers\">10%</c>的傷害。",
+      "name": "靜電力場",
+      "shortText": "閃電新星會造成敵方英雄生命值百分比的傷害"
+    },
+    "MephistoAnimosity|MephistoAnimosity|W|Level16": {
+      "fullText": "閃電新星的持續時間提高<c val=\"#TooltipNumbers\">1</c>秒，並且最大額外傷害加成從<c val=\"#TooltipNumbers\">30%</c>提高至<c val=\"#TooltipNumbers\">42%</c>。",
+      "name": "仇恨",
+      "shortText": "提高閃電新星的持續時間和傷害"
+    },
+    "MephistoConsumeSoulsConsumedByHatred|MephistoConsumeSoulsConsumedByHatred|Heroic|Level20": {
+      "fullText": "眾魂吞噬會額外造成傷害，相當於目標失去生命值的<c val=\"#TooltipNumbers\">10%</c>。如果初次施放眾魂吞噬成功擊殺英雄，將會自動施放<c val=\"#TooltipNumbers\">1</c>次。",
+      "name": "憎恨之噬",
+      "shortText": "擊殺英雄可再次施放眾魂吞噬"
+    },
+    "MephistoDuranceOfHateUnspeakableHorror|MephistoDuranceOfHateUnspeakableHorror|Heroic|Level20": {
+      "fullText": "憎恨禁錮會在敵方英雄定身時，以及定身效果結束後<c val=\"#TooltipNumbers\">3</c>秒內，使其沉默。",
+      "name": "沉寂恐懼",
+      "shortText": "憎恨禁錮可使敵方英雄沉默"
+    },
+    "MephistoLightningNovaMimic|MephistoLightningNovaShadeOfMephistoMimic|W|Level20": {
+      "fullText": "當墨菲斯托魔影和閃電新星都被啟用時，魔影也會在所在位置施放閃電新星。",
+      "name": "魔擬",
+      "shortText": "墨菲斯托魔影可施放閃電新星"
+    },
+    "MephistoShadeOfMephistoShadeLord|MephistoShadeOfMephistoShadeLord|Active|Level20": {
+      "cooldownText": "冷卻時間：20秒",
+      "fullText": "啟動後可和魔影互換位置，並且重置墨菲斯托魔影的持續時間。<n/><n/><c val=\"#AbilityPassive\">被動：</c>魔影可獲得墨菲斯托等級<c val=\"#TooltipNumbers\">7</c>所有天賦效果。",
+      "name": "魔影主宰",
+      "shortText": "啟動後可和魔影互換位置"
+    }
+  },
+  "units": {}
+}

@@ -1,0 +1,191 @@
+{
+  "abilities": {
+    "ZaryaParticleGrenade|ZaryaParticleGrenade|Q": {
+      "cooldownText": "Tiempo de reutilización de carga: 8 segundos",
+      "fullText": "Lanza una Granada de partículas que inflige <c val=\"#TooltipNumbers\">80</c><c val=\"#ColorGray\">~~0.04~~</c> de daño a los enemigos que están dentro del área objetivo. Inflige un <c val=\"#TooltipNumbers\">50%</c> de daño a las estructuras.<n/><n/>Acumula hasta <c val=\"#TooltipNumbers\">4</c> cargas.",
+      "name": "Granada de partículas",
+      "shortText": "Inflige daño a los enemigos en un área pequeña"
+    },
+    "ZaryaPersonalBarrier|ZaryaPersonalBarrier|W": {
+      "cooldownText": "Tiempo de reutilización: 10 segundos",
+      "fullText": "Otorga un escudo que absorbe <c val=\"#TooltipNumbers\">560</c><c val=\"#ColorGray\">~~0.04~~</c> de daño durante <c val=\"#TooltipNumbers\">3</c> segundos.",
+      "name": "Barrera personal",
+      "shortText": "Otorga un escudo que absorbe daño"
+    },
+    "ZaryaShieldAlly|ZaryaShieldAlly|E": {
+      "cooldownText": "Tiempo de reutilización: 12 segundos",
+      "fullText": "Otorga a un héroe aliado un escudo que absorbe <c val=\"#TooltipNumbers\">420</c><c val=\"#ColorGray\">~~0.04~~</c> de daño durante <c val=\"#TooltipNumbers\">3</c> segundos.",
+      "name": "Proteger aliado",
+      "shortText": "Le otorga a un aliado un escudo que absorbe daño"
+    },
+    "ZaryaGravitonSurge|ZaryaGravitonSurge|Heroic": {
+      "cooldownText": "Tiempo de reutilización: 60 segundos",
+      "fullText": "Lanza una bomba de gravedad que detona después de <c val=\"#TooltipNumbers\">1</c> segundo y atrae a los héroes enemigos hacia el centro durante <c val=\"#TooltipNumbers\">2.5</c> segundos. Los héroes afectados reciben <c val=\"#TooltipNumbers\">30</c><c val=\"#ColorGray\">~~0.04~~</c> de daño por segundo.",
+      "name": "Oleada de gravitones",
+      "shortText": "Lanza una bomba de gravedad que atrae a los enemigos"
+    },
+    "ZaryaExpulsionZone|ZaryaExpulsionZone|Heroic": {
+      "cooldownText": "Tiempo de reutilización: 45 segundos",
+      "fullText": "Lanza una bomba de gravedad que inflige <c val=\"#TooltipNumbers\">124</c><c val=\"#ColorGray\">~~0.04~~</c> de daño y crea una zona de expulsión que dura <c val=\"#TooltipNumbers\">3.5</c> segundos. La zona expulsa a los enemigos que intentan ingresar en ella, y su velocidad de movimiento se reduce un <c val=\"#TooltipNumbers\">50%</c> durante <c val=\"#TooltipNumbers\">1</c> segundo.",
+      "name": "Zona de expulsión",
+      "shortText": "Lanza una bomba que repele a los enemigos de manera constante"
+    },
+    ":PASSIVE:|ZaryaEnergy|Trait": {
+      "fullText": "Cada vez que Barrera personal o Proteger aliado de Zarya absorben <c val=\"#TooltipNumbers\">9</c><c val=\"#ColorGray\">~~0.04~~</c> de daño, su Energía aumenta en <c val=\"#TooltipNumbers\">1</c>. Cada punto de Energía aumenta el daño de Zarya un <c val=\"#TooltipNumbers\">2%</c>. Después de <c val=\"#TooltipNumbers\">0.5</c> segundos, la Energía disminuye <c val=\"#TooltipNumbers\">3</c> por segundo.",
+      "name": "Energía",
+      "shortText": "El daño que absorben los escudos de Zarya aumenta su daño."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Tiempo de reutilización: 4 segundos",
+      "fullText": "Tras una canalización de <c val=\"#TooltipNumbers\">1</c> segundo, obtienes un <s val=\"StandardTooltipDetails\">30%</s> de velocidad de movimiento.",
+      "name": "Invocar montura"
+    },
+    "Hearthstone|HearthstoneNoMana|B": {
+      "fullText": "Tras una canalización de <c val=\"#TooltipNumbers\">6</c> segundos, te teletransportas de regreso a la Sala de las tormentas para recuperar <c val=\"#TooltipNumbers\">1125</c> de salud de inmediato.",
+      "name": "Piedra de hogar"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Te desmontas.",
+      "name": "Desinvocar montura"
+    },
+    "ZaryaPainIsTemporary|ZaryaPainIsTemporaryTalent|Active": {
+      "cooldownText": "Tiempo de reutilización: 30 segundos",
+      "fullText": "Actívalo para consumir toda la Energía y obtener un escudo que absorbe el <c val=\"#TooltipNumbers\">0.8%</c> de la salud máxima de Zarya por Energía consumida y dura <c val=\"#TooltipNumbers\">3</c> segundos. Zarya no puede tener más de un escudo personal activo.",
+      "name": "Dolor pasajero",
+      "shortText": "Consume Energía para obtener un escudo"
+    },
+    "ZaryaUnyieldingDefender|ZaryaUnyieldingDefenderTalent|Active": {
+      "cooldownText": "Tiempo de reutilización: 60 segundos",
+      "fullText": "Actívala para restablecer el tiempo de reutilización de Barrera personal y Proteger aliado.",
+      "name": "Defensora implacable",
+      "shortText": "Actívalo para restablecer la reutilización de los escudos"
+    }
+  },
+  "talents": {
+    "ZaryaParticleGrenadeDemolitionsExpertQuest|ZaryaParticleGrenadeDemolitionsExpertTalent|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Misión:</c> Por cada <c val=\"#TooltipNumbers\">5</c> héroes enemigos golpeados, la velocidad de recarga de Granada de partículas se reduce <c val=\"#TooltipNumbers\">0.4375</c> segundos, hasta un máximo de <c val=\"#TooltipNumbers\">3.5</c> segundos.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa:</c> Después de golpear a <c val=\"#TooltipNumbers\">40</c> héroes enemigos, el radio de Granada de partículas aumenta un <c val=\"#TooltipNumbers\">15%</c>.",
+      "name": "Experta en demolición",
+      "shortText": "<c val=\"#TooltipQuest\">Misión</c>: Aumenta el radio de Granada de partículas y reduce el tiempo de reutilización"
+    },
+    "ZaryaShieldAllyTogetherWeAreStrong|ZaryaShieldAllyTogetherWeAreStrongTalent|E|Level1": {
+      "fullText": "Durante <c val=\"#TooltipNumbers\">3</c> segundos tras recibir Proteger aliado, cada <c val=\"#TooltipNumbers\">5.35</c><c val=\"#ColorGray\">~~0.04~~</c> de daño infligido al portador contribuye a <c val=\"#TooltipNumbers\">1</c> de Energía para Zarya, hasta un máximo de <c val=\"#TooltipNumbers\">40</c> de Energía por escudo.",
+      "name": "Juntos somos fuertes",
+      "shortText": "El daño que infligen los aliados con Proteger aliado aporta Energía"
+    },
+    "ZaryaWeaponFeelTheHeat|ZaryaWeaponFeelTheHeatTalent|Trait|Level1": {
+      "fullText": "Los ataques básicos de Zarya infligen un <c val=\"#TooltipNumbers\">50%</c> de daño adicional a los enemigos que están en rango de melé. Mientras tenga más de <c val=\"#TooltipNumbers\">40</c> de Energía, el tamaño del ataque básico de Zarya aumenta un <c val=\"#TooltipNumbers\">35%</c>.",
+      "name": "Cara a cara",
+      "shortText": "Los ataques básicos infligen más daño a los enemigos cercanos y tienen un mayor tamaño"
+    },
+    "ZaryaEnergyMaximumChargeQuest|ZaryaEnergyMaximumChargeTalent|Trait|Level1": {
+      "fullText": "Las esferas de regeneración ahora otorgan <c val=\"#TooltipNumbers\">20</c> de Energía.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Misión:</c> Pasa <c val=\"#TooltipNumbers\">150</c> segundos con <c val=\"#TooltipNumbers\">50</c> o más de Energía.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa:</c> Obtienes <c val=\"#TooltipNumbers\">20</c> más de Energía máxima.",
+      "name": "Carga máxima",
+      "shortText": "Las esferas de regeneración otorgan Energía<n/><c val=\"#TooltipQuest\">Misión</c>: Aumenta la Energía máxima"
+    },
+    "ZaryaPersonalBarrierIAmTheStrongest|ZaryaPersonalBarrierIAmTheStrongestTalent|W|Level4": {
+      "fullText": "Barrera personal absorbe <c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c> más de daño. <n/><n/><c val=\"#AbilityPassive\">Pasivo: </c>El daño que absorben los escudos de Zarya aporta un <c val=\"#TooltipNumbers\">20%</c> más de Energía.",
+      "name": "Yo soy la más fuerte",
+      "shortText": "Aumenta la cantidad de escudos de Barrera personal y recibes Energía"
+    },
+    "ZaryaShieldAllyGiveMeTwentyQuest|ZaryaShieldAllyGiveMeTwentyTalent|E|Level4": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Misión:</c> Las esferas de regeneración aumentan el monto de absorción de Proteger aliado en <c val=\"#TooltipNumbers\">15</c>, hasta un máximo de <c val=\"#TooltipNumbers\">300</c> de forma permanente. <n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa:</c> Si recolectas <c val=\"#TooltipNumbers\">20</c> esferas de regeneración, se reduce permanentemente el tiempo de reutilización de Proteger aliado <c val=\"#TooltipNumbers\">2</c> segundos.",
+      "name": "Dame veinte",
+      "shortText": "<c val=\"#TooltipQuest\">Misión</c>: Aumenta la capacidad de absorción de Proteger aliado y reduce la reutilización"
+    },
+    "ZaryaShieldAllySpeedBarrier|ZaryaShieldAllySpeedBarrierTalent|E|Level4": {
+      "fullText": "Proteger aliado aumenta la velocidad de movimiento del héroe aliado un <c val=\"#TooltipNumbers\">50%</c> durante el transcurso de la habilidad.",
+      "name": "Barrera veloz",
+      "shortText": "Proteger aliado otorga velocidad de movimiento"
+    },
+    "ZaryaDefensiveShielding|ZaryaDefensiveShieldingTalent|Passive|Level4": {
+      "fullText": "Cuando Barrera personal y Proteger aliado se agotan o se destruyen, otorgan <c val=\"#TooltipNumbers\">75</c> de Armadura física contra los siguientes <c val=\"#TooltipNumbers\">2</c> ataques básicos de héroe durante <c val=\"#TooltipNumbers\">6</c> segundos, lo que reduce el daño recibido un <c val=\"#TooltipNumbers\">75%</c>.",
+      "name": "Protección defensiva",
+      "shortText": "Barrera personal y Proteger aliado otorgan Armadura física"
+    },
+    "ZaryaParticleGrenadePinpointAccuracy|ZaryaParticleGrenadePinpointAccuracyTalent|Q|Level7": {
+      "fullText": "Granada de partículas inflige <c val=\"#TooltipNumbers\">25</c><c val=\"#ColorGray\">~~0.04~~</c> más de daño y ralentiza la velocidad de movimiento un <c val=\"#TooltipNumbers\">25%</c> durante <c val=\"#TooltipNumbers\">2</c> segundos a los enemigos golpeados por el centro de la explosión.",
+      "name": "Precisión impecable",
+      "shortText": "El área central de Granada de partículas inflige más daño y ralentiza"
+    },
+    "ZaryaDeepBurn|ZaryaDeepBurn|Q|Level7": {
+      "fullText": "Golpear a un héroe con Granada de partículas hace que los ataques básicos contra ese héroe generen <c val=\"#TooltipNumbers\">2</c> de Energía. Dura <c val=\"#TooltipNumbers\">4</c> segundos.",
+      "name": "Quemadura profunda",
+      "shortText": "Granada de partículas puede generar Energía"
+    },
+    "ZaryaPersonalBarrierExplosiveBarrier|ZaryaPersonalBarrierExplosiveBarrierTalent|W|Level7": {
+      "fullText": "Cuando Barrera personal se agota o se destruye, explota e inflige <c val=\"#TooltipNumbers\">110</c><c val=\"#ColorGray\">~~0.04~~</c> de daño a los enemigos cercanos.",
+      "name": "Barrera explosiva",
+      "shortText": "Barrera personal inflige daño de área"
+    },
+    "ZaryaHeroicAbilityGravitonSurge|ZaryaGravitonSurge|Heroic|Level10": {
+      "cooldownText": "Tiempo de reutilización: 60 segundos",
+      "fullText": "Lanza una bomba de gravedad que detona después de <c val=\"#TooltipNumbers\">1</c> segundo y atrae a los héroes enemigos hacia el centro durante <c val=\"#TooltipNumbers\">2.5</c> segundos. Los héroes afectados reciben <c val=\"#TooltipNumbers\">30</c><c val=\"#ColorGray\">~~0.04~~</c> de daño por segundo.",
+      "name": "Oleada de gravitones",
+      "shortText": "Lanza una bomba de gravedad que atrae a los enemigos"
+    },
+    "ZaryaHeroicAbilityExpulsionZone|ZaryaExpulsionZone|Heroic|Level10": {
+      "cooldownText": "Tiempo de reutilización: 45 segundos",
+      "fullText": "Lanza una bomba de gravedad que inflige <c val=\"#TooltipNumbers\">124</c><c val=\"#ColorGray\">~~0.04~~</c> de daño y crea una zona de expulsión que dura <c val=\"#TooltipNumbers\">3.5</c> segundos. La zona expulsa a los enemigos que intentan ingresar en ella, y su velocidad de movimiento se reduce un <c val=\"#TooltipNumbers\">50%</c> durante <c val=\"#TooltipNumbers\">1</c> segundo.",
+      "name": "Zona de expulsión",
+      "shortText": "Lanza una bomba que repele a los enemigos de manera constante"
+    },
+    "ZaryaPersonalBarrierUnstoppableCompetitor|ZaryaPersonalBarrierUnstoppableCompetitorTalent|W|Level13": {
+      "fullText": "Barrera personal vuelve Imparable a Zarya durante un máximo de <c val=\"#TooltipNumbers\">2</c> segundos.",
+      "name": "Competidora imparable",
+      "shortText": "Barrera personal vuelve imparable a Zarya"
+    },
+    "ZaryaPersonalBarrierSpellBarrier|ZaryaPersonalBarrierSpellBarrierTalent|W|Level13": {
+      "fullText": "Cuando Barrera personal se agota o se destruye, Zarya obtiene <c val=\"#TooltipNumbers\">75</c> de Armadura especial durante <c val=\"#TooltipNumbers\">3</c> segundos, lo que reduce el daño de habilidad recibido un <c val=\"#TooltipNumbers\">75%</c>.",
+      "name": "Barrera especial",
+      "shortText": "Barrera personal otorga Armadura especial"
+    },
+    "ZaryaEnergyEnduranceTraining|ZaryaEnergyEnduranceTrainingTalent|Trait|Level13": {
+      "fullText": "Cuando tiene <c val=\"#TooltipNumbers\">75</c> o más de Energía, Zarya obtiene <c val=\"#TooltipNumbers\">20</c> de Armadura, lo que reduce todo el daño recibido un <c val=\"#TooltipNumbers\">20%</c>.",
+      "name": "Entrenamiento de resistencia",
+      "shortText": "Obtienes Armadura con Energía elevada"
+    },
+    "ZaryaPainIsTemporary|ZaryaPainIsTemporaryTalent|Active|Level13": {
+      "cooldownText": "Tiempo de reutilización: 30 segundos",
+      "fullText": "Actívalo para consumir toda la Energía y obtener un escudo que absorbe el <c val=\"#TooltipNumbers\">0.8%</c> de la salud máxima de Zarya por Energía consumida y dura <c val=\"#TooltipNumbers\">3</c> segundos. Zarya no puede tener más de un escudo personal activo.",
+      "name": "Dolor pasajero",
+      "shortText": "Consume Energía para obtener un escudo"
+    },
+    "ZaryaShieldAllyCleansingShield|ZaryaShieldAllyCleansingShieldTalent|E|Level16": {
+      "fullText": "Provoca que Proteger aliado quite todos los efectos de neutralización y reduce <c val=\"#TooltipNumbers\">3</c> segundos su tiempo de reutilización.",
+      "name": "Escudo purificador",
+      "shortText": "Proteger aliado quita todos los efectos de neutralización"
+    },
+    "ZaryaShieldAllyGainTrain|ZaryaShieldAllyGainTrainTalent|E|Level16": {
+      "fullText": "Ahora Proteger aliado también le otorga un escudo básico a un aliado cercano al objetivo cuando impacta.",
+      "name": "Uuuuna más",
+      "shortText": "Proteger aliado ahora afecta a un segundo aliado"
+    },
+    "ZaryaEnergyBornInBattle|ZaryaEnergyBornInBattleTalent|Trait|Level16": {
+      "fullText": "Si tienes <c val=\"#TooltipNumbers\">75</c> o más de Energía, los tiempos de reutilización de Zarya se regeneran <c val=\"#TooltipNumbers\">25%</c> más rápido.",
+      "name": "Nacida en el campo de batalla",
+      "shortText": "Reduce tiempos de reutilización con Energía elevada"
+    },
+    "ZaryaGravitonSurgeGravityKills|ZaryaGravitonSurgeGravityKillsTalent|Heroic|Level20": {
+      "fullText": "Aumenta la duración de Oleada de gravitones <c val=\"#TooltipNumbers\">1</c> segundo y silencia a los héroes atrapados en el área.",
+      "name": "La gravedad mata",
+      "shortText": "Oleada de gravitones dura más y silencia"
+    },
+    "ZaryaExpulsionZoneClearOut|ZaryaExpulsionZoneClearOutTalent|Heroic|Level20": {
+      "fullText": "Reduce el tiempo de reutilización de Zona de expulsión <c val=\"#TooltipNumbers\">25</c> segundos y aumenta la duración <c val=\"#TooltipNumbers\">1.5</c> segundos.",
+      "name": "¡Despejen!",
+      "shortText": "Reduce el tiempo de reutilización de Zona de expulsión, aumenta su duración"
+    },
+    "ZaryaParticleGrenadeGrenadier|ZaryaParticleGrenadeGrenadierTalent|Q|Level20": {
+      "fullText": "Todas las cargas de Granada de partículas se recuperan al mismo tiempo.",
+      "name": "Granadera",
+      "shortText": "Las cargas de Granada de partículas se recuperan de inmediato"
+    },
+    "ZaryaUnyieldingDefender|ZaryaUnyieldingDefenderTalent|Active|Level20": {
+      "cooldownText": "Tiempo de reutilización: 60 segundos",
+      "fullText": "Actívala para restablecer el tiempo de reutilización de Barrera personal y Proteger aliado.",
+      "name": "Defensora implacable",
+      "shortText": "Actívalo para restablecer la reutilización de los escudos"
+    }
+  },
+  "units": {}
+}

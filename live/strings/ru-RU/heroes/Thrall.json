@@ -1,0 +1,208 @@
+{
+  "abilities": {
+    "ThrallChainLightning|ThrallChainLightning|Q": {
+      "cooldownText": "Время восстановления: 7 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 40</s>",
+      "fullText": "Поражает цель молнией и наносит ей <c val=\"#TooltipNumbers\">170</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона. Молния <c val=\"#TooltipNumbers\">3</c> раза рикошетит в находящихся поблизости противников и наносит им по <c val=\"#TooltipNumbers\">85</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона.",
+      "name": "Цепная молния",
+      "shortText": "Поражает противников рикошетящей молнией."
+    },
+    "ThrallFeralSpirit|ThrallFeralSpirit|W": {
+      "cooldownText": "Время восстановления: 10 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 40</s>",
+      "fullText": "Выпускает дух дикого зверя, наносящий <c val=\"#TooltipNumbers\">153</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона противникам на своем пути и обездвиживающий героев на <c val=\"#TooltipNumbers\">1</c> сек. Каждое попадание по герою увеличивает расстояние, которое преодолевает дух, на <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Дух дикого зверя",
+      "shortText": "Призывает дух волка, который обжигает врагов и обездвиживает героев."
+    },
+    "ThrallWindfury|Windfury|E": {
+      "cooldownText": "Время восстановления: 12 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 60</s>",
+      "fullText": "Повышает скорость передвижения на <c val=\"#TooltipNumbers\">30%</c> на <c val=\"#TooltipNumbers\">4</c> сек. При этом <c val=\"#TooltipNumbers\">3 </c>следующие автоатаки совершаются на <c val=\"#TooltipNumbers\">100%</c> быстрее и создают заряды «Стойкости северного волка».",
+      "name": "Неистовство ветра",
+      "shortText": "Повышает скорость атаки и передвижения."
+    },
+    "ThrallSundering|Sundering|Heroic": {
+      "cooldownText": "Время восстановления: 70 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 75</s>",
+      "fullText": "После паузы в <c val=\"#TooltipNumbers\">0.5</c> сек. раскалывает земную твердь по прямой, нанося <c val=\"#TooltipNumbers\">290</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона, раскидывая противников и оглушая их на <c val=\"#TooltipNumbers\">1</c> сек.",
+      "name": "Раскол",
+      "shortText": "Наносит урон, раскидывает и оглушает противников на одной прямой."
+    },
+    "ThrallEarthquake|ThrallEarthquake|Heroic": {
+      "cooldownText": "Время восстановления: 100 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 90</s>",
+      "fullText": "После паузы в <c val=\"#TooltipNumbers\">0.5</c> сек. создает очаг землетрясения, излучающий сейсмические волны раз в <c val=\"#TooltipNumbers\">4</c> сек. Каждая волна действует <c val=\"#TooltipNumbers\">2</c> сек., замедляет противников в области действия на <c val=\"#TooltipNumbers\">50%</c> и наносит <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона героям. Всего генерируется <c val=\"#TooltipNumbers\">3 </c>волны.",
+      "name": "Землетрясение",
+      "shortText": "Замедляет противников в большой области."
+    },
+    ":PASSIVE:|ThrallFrostwolfResilience|Trait": {
+      "fullText": "Нанося урон способностями, Тралл получает <c val=\"#TooltipNumbers\">1</c> эффект «Стойкости северного волка». Когда эффект суммируется <c val=\"#TooltipNumbers\">5</c> <lang rule=\"plural\" val=\"\">раз,раза,раз</lang>, Тралл моментально восполняет <c val=\"#TooltipNumbers\">240</c><c val=\"#ColorGray\">~~0.04~~</c> ед. здоровья.",
+      "name": "Стойкость северного волка",
+      "shortText": "Применение способностей к противникам дает исцеляющие эффекты."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Время восстановления: 4 сек.",
+      "fullText": "После подготовки длительностью <c val=\"#TooltipNumbers\">1</c> сек. повышает скорость передвижения на <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Вызов транспорта"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "После поддержания в течение <c val=\"#TooltipNumbers\">6</c> сек. телепортирует героя в Зал Штормов, моментально восполняя <c val=\"#TooltipNumbers\">1125</c> ед. здоровья и <c val=\"#TooltipNumbers\">150</c> ед. маны.",
+      "name": "Возвращение"
+    },
+    "ThrallCancelSundering|ThrallSunderingCancel|Heroic": {
+      "fullText": "Прерывает действие «Раскола».",
+      "name": "Раскол"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Покинуть транспорт.",
+      "name": "Отмена транспорта"
+    },
+    "ThrallSpiritShield|ThrallSpiritShieldDisabled|Active": {
+      "fullText": "«Духовный щит» отключен и не будет срабатывать.<n/><n/>Щелкните по этой кнопке, чтобы активировать его.",
+      "name": "Духовный щит",
+      "shortText": "Уменьшает урон, получаемый от способностей."
+    },
+    "ThrallAncestralWrath|ThrallAncestralWrath|Active": {
+      "fullText": "При использовании поглощает <c val=\"#TooltipNumbers\">8</c> <lang rule=\"plural\" val=\"\">эффект,эффекта,эффектов</lang> «Ярости предков» и в течение <c val=\"#TooltipNumbers\">3</c> сек. наносит указанному герою урон в объеме <c val=\"#TooltipNumbers\">15%</c> его максимального запаса здоровья и восполняет Траллу здоровье в объеме <c val=\"#TooltipNumbers\">150%</c> нанесенного урона.<n/><n/>Тралл получает <c val=\"#TooltipNumbers\">1</c> заряд «Ярости предков» при каждом срабатывании «Стойкости северного волка».",
+      "name": "Ярость предков",
+      "shortText": "Наносит урон герою и похищает его здоровье."
+    },
+    "ThrallFrostwolfsGrace|ThrallFrostwolfResilience|Trait": {
+      "cooldownText": "Время восстановления: 15 сек.",
+      "fullText": "Нанося урон способностями, Тралл получает <c val=\"#TooltipNumbers\">1</c> эффект «Стойкости северного волка». Когда эффект суммируется <c val=\"#TooltipNumbers\">5</c> <lang rule=\"plural\" val=\"\">раз,раза,раз</lang>, Тралл моментально восполняет <c val=\"#TooltipNumbers\">240</c><c val=\"#ColorGray\">~~0.04~~</c> ед. здоровья.",
+      "name": "Стойкость северного волка",
+      "shortText": "Применение способностей к противникам дает исцеляющие эффекты."
+    },
+    "ThrallSpiritShield|ThrallSpiritShieldEnabled|Active": {
+      "cooldownText": "Время восстановления: 45 сек.",
+      "fullText": "Раз в <c val=\"#TooltipNumbers\">45</c> сек. Тралл получает <c val=\"#TooltipNumbers\">70</c> ед. энергетической брони. Эта броня защищает его от следующей способности противника, а также от последующих способностей, использованных против него в течение <c val=\"#TooltipNumbers\">4</c> сек. «Стойкость северного волка» сокращает время восстановления на <c val=\"#TooltipNumbers\">10</c> сек.<n/><n/>Вы можете включить или отключить автоматическое срабатывание этого таланта.",
+      "name": "Духовный щит"
+    },
+    "ThrallWindRush|ThrallWindRush|Active": {
+      "cooldownText": "Время восстановления: 90 сек.",
+      "fullText": "При использовании Тралл мгновенно телепортируется в указанную точку и применяет «Неистовство ветра».",
+      "name": "Ветряной порыв",
+      "shortText": "Тралл телепортируется и применяет «Неистовство ветра»."
+    }
+  },
+  "talents": {
+    "ThrallEchooftheElements|ThrallEchooftheElements|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Задача:</c> убивайте воинов или героев в течение <c val=\"#TooltipNumbers\">2</c> сек. после того, как поразите их «Цепной молнией».<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Награда:</c> после убийства <c val=\"#TooltipNumbers\">20</c> противников стоимость «Цепной молнии» снизится с <c val=\"#TooltipNumbers\">40</c> до <c val=\"#TooltipNumbers\">20</c> ед. маны.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Награда:</c> после убийства <c val=\"#TooltipNumbers\">50</c> противников «Цепная молния» получит еще один заряд.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Эпохальная награда:</c> после убийства <c val=\"#TooltipNumbers\">125</c> противников «Цепная молния» сможет поражать одну и ту же цель несколько раз. Она также будет поражать <c val=\"#TooltipNumbers\">1</c> дополнительную цель при каждом отскакивании.",
+      "name": "Эхо стихий",
+      "shortText": "<c val=\"#TooltipQuest\">Задача:</c> после убийства врагов «Цепная молния» получает больше зарядов и раздваивается."
+    },
+    "ThrallCrashLightning|ThrallCrashLightning|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Задача:</c> поразите одной «Цепной молнией» хотя бы <c val=\"#TooltipNumbers\">2</c> героев. При смерти теряется <c val=\"#TooltipNumbers\">4</c> <lang rule=\"plural\" val=\"\">эффект,эффекта,эффектов</lang>. Уже полученные награды не теряются.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Награда:</c> после <c val=\"#TooltipNumbers\">15</c> попаданий по нескольким героям «Цепная молния» будет дополнительно наносить <c val=\"#TooltipNumbers\">270</c> ед. урона при отскоке после первого попадания.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Эпохальная награда:</c> после <c val=\"#TooltipNumbers\">30</c> попаданий по нескольким героям «Цепная молния» будет дополнительно наносить <c val=\"#TooltipNumbers\">325</c> ед. урона при отскоке и начнет в первую очередь поражать героев.",
+      "name": "Сокрушающая молния",
+      "shortText": "<c val=\"#TooltipQuest\">Задача:</c> поражайте «Цепной молнией» по несколько героев, чтобы усилить ее."
+    },
+    "ThrallMaelstromWeapon|ThrallMaelstromWeapon|E|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Задача:</c> совершайте автоатаки по героям во время действия бонуса к скорости передвижения от «Неистовства ветра».<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Награда:</c> после поражения автоатаками <c val=\"#TooltipNumbers\">25</c> героев бонус к скорости передвижения будет увеличен на <c val=\"#TooltipNumbers\">40%</c>, а урон от автоатак Тралла — на <c val=\"#TooltipNumbers\">40</c> ед.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Награда:</c> после поражения автоатаками <c val=\"#TooltipNumbers\">55</c> героев скорость передвижения Тралла до конца матча будет увеличена на <c val=\"#TooltipNumbers\">15%</c>, а урон от автоатак — на <c val=\"#TooltipNumbers\">75</c> ед.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Эпохальная награда:</c> после поражения автоатаками <c val=\"#TooltipNumbers\">100</c> героев исцеление от «Стойкости северного волка» будет увеличено на <c val=\"#TooltipNumbers\">200%</c>.",
+      "name": "Оружие Водоворота",
+      "shortText": "<c val=\"#TooltipQuest\">Задача: </c> атаки с «Неистовством ветра» ускоряют передвижение."
+    },
+    "ThrallFeralResilience|ThrallFeralResilience|W|Level4": {
+      "fullText": "Поражая героев «Духом дикого зверя», Тралл получает <c val=\"#TooltipNumbers\">4</c> <lang rule=\"plural\" val=\"\">эффект,эффекта,эффектов</lang> «Стойкости северного волка», а также <c val=\"#TooltipNumbers\">2</c> <lang rule=\"plural\" val=\"\">эффект,эффекта,эффектов</lang> «Звериной стойкости», дающих <c val=\"#TooltipNumbers\">75</c> ед. кинетической брони. Эта броня уменьшает урон от следующей автоатаки героя противника.<n/><n/>Использование «Духа дикого зверя» поглощает накопленные эффекты.",
+      "name": "Звериная стойкость",
+      "shortText": "«Дух дикого зверя» дает кинетическую броню и больше эффектов «Стойкости северного волка»."
+    },
+    "ThrallFrostwolfPack|ThrallFrostwolfPack|W|Level4": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Задача:</c> поразите героев «Духом дикого зверя» <c val=\"#TooltipNumbers\">6</c> раз. Счетчик сбрасывается, если Тралл погибает или не попадает по герою.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Награда:</c> стоимость и время восстановления «Духа дикого зверя» снизятся на <c val=\"#TooltipNumbers\">50%</c>.",
+      "name": "Волчья стая",
+      "shortText": "<c val=\"#TooltipQuest\">Задача:</c> ускорьте восстановление и снизьте стоимость «Духа дикого зверя»."
+    },
+    "ThrallMasteryManaTide|ThrallManaTideTalent|Trait|Level4": {
+      "fullText": "«Стойкость северного волка» также восполняет <c val=\"#TooltipNumbers\">15</c> ед. маны и сокращает время восстановления базовых способностей на <c val=\"#TooltipNumbers\">0.5</c> сек.",
+      "name": "Прилив маны",
+      "shortText": "«Стойкость северного волка» восполняет ману и ускоряет восстановление способностей."
+    },
+    "ThrallMasteryRollingThunder|ThrallRollingThunderTalent|Q|Level7": {
+      "fullText": "<c val=\"#AbilityPassive\">Пассивный эффект:</c> «Цепная молния» отскакивает на еще одну цель.<n/><n/>В течение <c val=\"#TooltipNumbers\">8</c> сек. после поражения противника «Цепной молнией» следующая автоатака Тралла по этому противнику дает эффект «Стойкости северного волка». Если цель — герой, Тралл наносит ему урон в объеме <c val=\"#TooltipNumbers\">3%</c> его максимального запаса здоровья и восполняет себе столько же здоровья.<n/>",
+      "name": "Раскаты грома",
+      "shortText": "«Цепная молния» усиливает автоатаки и получает дополнительный отскок."
+    },
+    "ThrallAncestralWrath|ThrallAncestralWrath|Active|Level7": {
+      "fullText": "При использовании поглощает <c val=\"#TooltipNumbers\">8</c> <lang rule=\"plural\" val=\"\">эффект,эффекта,эффектов</lang> «Ярости предков» и в течение <c val=\"#TooltipNumbers\">3</c> сек. наносит указанному герою урон в объеме <c val=\"#TooltipNumbers\">15%</c> его максимального запаса здоровья и восполняет Траллу здоровье в объеме <c val=\"#TooltipNumbers\">150%</c> нанесенного урона.<n/><n/>Тралл получает <c val=\"#TooltipNumbers\">1</c> заряд «Ярости предков» при каждом срабатывании «Стойкости северного волка».",
+      "name": "Ярость предков",
+      "shortText": "Наносит урон герою и похищает его здоровье."
+    },
+    "ThrallElementalAssault|ThrallElementalAssault|Passive|Level7": {
+      "fullText": "После использования способности следующая автоатака Тралла, проведенная в течение <c val=\"#TooltipNumbers\">4</c> сек., нанесет на <c val=\"#TooltipNumbers\">45%</c> больше урона.",
+      "name": "Атака стихий",
+      "shortText": "Применение способностей усиливает автоатаки."
+    },
+    "ThrallHeroicAbilitySundering|Sundering|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 70 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 75</s>",
+      "fullText": "После паузы в <c val=\"#TooltipNumbers\">0.5</c> сек. раскалывает земную твердь по прямой, нанося <c val=\"#TooltipNumbers\">290</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона, раскидывая противников и оглушая их на <c val=\"#TooltipNumbers\">1</c> сек.",
+      "name": "Раскол",
+      "shortText": "Наносит урон, раскидывает и оглушает противников на одной прямой."
+    },
+    "ThrallHeroicAbilityEarthquake|ThrallEarthquake|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 100 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 90</s>",
+      "fullText": "После паузы в <c val=\"#TooltipNumbers\">0.5</c> сек. создает очаг землетрясения, излучающий сейсмические волны раз в <c val=\"#TooltipNumbers\">4</c> сек. Каждая волна действует <c val=\"#TooltipNumbers\">2</c> сек., замедляет противников в области действия на <c val=\"#TooltipNumbers\">50%</c> и наносит <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона героям. Всего генерируется <c val=\"#TooltipNumbers\">3 </c>волны.",
+      "name": "Землетрясение",
+      "shortText": "Замедляет противников в большой области."
+    },
+    "ThrallMasteryGraceOfAir|ThrallGraceOfAirTalent|E|Level13": {
+      "fullText": "Атаки «Неистовства ветра» дают вдвое больше эффектов «Стойкости северного волка».",
+      "name": "Легкость воздуха",
+      "shortText": "Удваивает количество получаемых эффектов «Стойкости северного волка»."
+    },
+    "ThrallMasteryFrostwolfsGrace|ThrallFrostwolfResilienceSurgeOfHealing|Trait|Level13": {
+      "cooldownText": "Время восстановления: 15 сек.",
+      "fullText": "«Стойкость северного волка» можно активировать, чтобы мгновенно восполнить здоровье. Это исцеление усиливается максимум на <c val=\"#TooltipNumbers\">100%</c> в зависимости от объема недостающего здоровья Тралла.",
+      "name": "Дар северного волка",
+      "shortText": "«Стойкость северного волка» можно использовать для мгновенного исцеления."
+    },
+    "ThrallSpiritShield|ThrallSpiritShield|Active|Level13": {
+      "cooldownText": "Время восстановления: 45 сек.",
+      "fullText": "Раз в <c val=\"#TooltipNumbers\">45</c> сек. Тралл получает <c val=\"#TooltipNumbers\">70</c> ед. энергетической брони. Эта броня защищает его от следующей способности противника, а также от последующих способностей, использованных против него в течение <c val=\"#TooltipNumbers\">4</c> сек. «Стойкость северного волка» сокращает время восстановления на <c val=\"#TooltipNumbers\">10</c> сек.<n/><n/>Вы можете включить или отключить автоматическое срабатывание этого таланта.",
+      "name": "Духовный щит",
+      "shortText": "Периодически дает временную энергетическую броню."
+    },
+    "ThrallMasteryTempestFury|ThrallTempestFuryTalent|E|Level16": {
+      "fullText": "Завершающая атака «Неистовства ветра» состоит из <c val=\"#TooltipNumbers\">3</c> ударов, наносящих по <c val=\"#TooltipNumbers\">75%</c> от обычного урона. Эти удары не влияют на выполнение задания.",
+      "name": "Неистовство бури",
+      "shortText": "Завершающая атака «Неистовства ветра» состоит из 3 ударов."
+    },
+    "ThrallThunderstorm|ThrallThunderstorm|Q|Level16": {
+      "fullText": "Если «Цепная молния» используется против героев, она замедляет основную цель на <c val=\"#TooltipNumbers\">8%</c> на <c val=\"#TooltipNumbers\">2</c> сек.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Задача:</c> когда Тралл применяет «Цепную молнию» к герою напрямую, эффект замедления усиливается на <c val=\"#TooltipNumbers\">8%</c>, вплоть до <c val=\"#TooltipNumbers\">40%</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Награда:</c> пока эффективность составляет <c val=\"#TooltipNumbers\">40%</c>, урон от «Цепной молнии» увеличивается на <c val=\"#TooltipNumbers\">30%</c>.<n/><n/>Этот бонус сбрасывается, когда Тралл умирает или использует «Цепную молнию» против одного и того же героя два раза подряд.",
+      "name": "Гром и молния",
+      "shortText": "<c val=\"#TooltipQuest\">Задача:</c> поражайте героев «Цепной молнией», чтобы замедлить их."
+    },
+    "ThrallAlphaWolf|ThrallAlphaWolf|W|Level16": {
+      "fullText": "В течение <c val=\"#TooltipNumbers\">3</c> сек. после поражения героя «Духом дикого зверя» автоатаки Тралла наносят ему дополнительный урон в объеме <c val=\"#TooltipNumbers\">3%</c> максимального запаса здоровья цели.<n/><n/><c val=\"#AbilityPassive\">Пассивный эффект:</c> увеличивает время действия эффекта обездвиживания от «Духа дикого зверя» до <c val=\"#TooltipNumbers\">1.5</c> сек.",
+      "name": "Альфа-волк",
+      "shortText": "Усиливает автоатаки и продлевает обездвиживание от «Духа дикого зверя»."
+    },
+    "ThrallMasteryWorldbreaker|ThrallWorldbreakerTalent|Heroic|Level20": {
+      "fullText": "Сокращает время восстановления «Раскола» на <c val=\"#TooltipNumbers\">40</c> сек. После его применения на земле остается непроходимый разлом, блокирующий передвижение на <c val=\"#TooltipNumbers\">3</c> сек.",
+      "name": "Разрушитель миров",
+      "shortText": "«Раскол» создает непреодолимое препятствие."
+    },
+    "ThrallMasteryEarthenShields|ThrallEarthenShieldsTalent|Heroic|Level20": {
+      "fullText": "Союзники в области действия «Землетрясения» получают щит прочностью <c val=\"#TooltipNumbers\">15%</c> максимального запаса здоровья при каждом толчке. Время действия щита – <c val=\"#TooltipNumbers\">4</c> сек.",
+      "name": "Земной щит",
+      "shortText": "Союзники в области действия получают щит."
+    },
+    "ThrallElementalMomentum|ThrallElementalMomentum|Passive|Level20": {
+      "fullText": "Автоатаки сокращают время восстановления базовых и героических способностей Тралла на <c val=\"#TooltipNumbers\">0.25</c> сек. Эффект утраивается, если цель – герой.",
+      "name": "Стихийный азарт",
+      "shortText": "Автоатаки ускоряют восстановление способностей."
+    },
+    "GenericTalentNexusBlades|NexusBladesTalent|Passive|Level20": {
+      "fullText": "Автоатаки наносят на <c val=\"#TooltipNumbers\">20%</c> больше урона и снижают скорость передвижения цели на <c val=\"#TooltipNumbers\">20%</c> на <c val=\"#TooltipNumbers\">1</c> сек.",
+      "name": "Клинки Нексуса",
+      "shortText": "Автоатаки наносят больше урона и замедляют цель."
+    },
+    "ThrallWindRush|ThrallWindRush|Active|Level20": {
+      "cooldownText": "Время восстановления: 90 сек.",
+      "fullText": "При использовании Тралл мгновенно телепортируется в указанную точку и применяет «Неистовство ветра».",
+      "name": "Ветряной порыв",
+      "shortText": "Тралл телепортируется и применяет «Неистовство ветра»."
+    }
+  },
+  "units": {}
+}

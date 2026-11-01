@@ -1,0 +1,686 @@
+{
+  "id": "Amazon",
+  "unitId": "HeroAmazon",
+  "hyperlinkId": "Cassia",
+  "attributeId": "Amaz",
+  "franchise": "Diablo",
+  "rarity": "Legendary",
+  "releaseDate": "2017-04-04",
+  "isMelee": false,
+  "gender": "Female",
+  "radius": 0.6875,
+  "innerRadius": 0.6875,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 4,
+    "damage": 7,
+    "survivability": 6,
+    "utility": 5
+  },
+  "life": {
+    "amount": 1660,
+    "scale": 0.04,
+    "regenRate": 3.457,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "EnergyImportant",
+    "Ganker",
+    "RoleAutoAttacker",
+    "RoleCaster"
+  ],
+  "summonedUnitIds": [
+    "AmazonBallLightningController"
+  ],
+  "weapons": [
+    {
+      "nameId": "AmazonHeroWeaponMelee",
+      "isDisabled": false,
+      "range": 2,
+      "minimumRange": 0,
+      "period": 0.9,
+      "damage": 125,
+      "damageScale": 0.04
+    },
+    {
+      "nameId": "AmazonHeroWeaponRanged",
+      "isDisabled": false,
+      "range": 4.5,
+      "minimumRange": 0,
+      "period": 0.9,
+      "damage": 125,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "AmazonLunar",
+    "AmazonMyth20",
+    "AmazonPirate",
+    "AmazonUltimate"
+  ],
+  "variationSkinIds": [
+    "AmazonBaseVar1",
+    "AmazonBaseVar2",
+    "AmazonBaseVar3"
+  ],
+  "voiceLineIds": [
+    "AmazonBase_VoiceLine01",
+    "AmazonBase_VoiceLine02",
+    "AmazonBase_VoiceLine03",
+    "AmazonBase_VoiceLine04",
+    "AmazonBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "AmazonLightningFury|AmazonLightningFury|Q",
+        "abilityId": "AmazonLightningFury",
+        "buttonId": "AmazonLightningFury",
+        "icon": "storm_ui_icon_cassia_lightningfury.png",
+        "charges": {
+          "countMax": 2,
+          "countStart": 2,
+          "countUse": 1,
+          "recastCooldown": 1,
+          "isCountHidden": false
+        },
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "AmazonBlindingLight|AmazonBlindingLight|W",
+        "abilityId": "AmazonBlindingLight",
+        "buttonId": "AmazonBlindingLight",
+        "icon": "storm_ui_icon_cassia_blindinglight.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "AmazonFend|AmazonFend|E",
+        "abilityId": "AmazonFend",
+        "buttonId": "AmazonFend",
+        "icon": "storm_ui_icon_cassia_fend.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "AmazonBallLightning|AmazonBallLightning|Heroic",
+        "abilityId": "AmazonBallLightning",
+        "buttonId": "AmazonBallLightning",
+        "icon": "storm_ui_icon_cassia_balllightning.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "AmazonValkyrie|AmazonValkyrie|Heroic",
+        "abilityId": "AmazonValkyrie",
+        "buttonId": "AmazonValkyrie",
+        "icon": "storm_ui_icon_cassia_valkrie.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": ":PASSIVE:|AmazonAvoidance|Trait",
+        "abilityId": ":PASSIVE:",
+        "buttonId": "AmazonAvoidance",
+        "icon": "storm_ui_icon_cassia_avoidance_b.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "AmazonFend|AmazonFend|E": {
+      "Basic": [
+        {
+          "linkId": "AmazonFendCancelChannel|AmazonCancelFend|E",
+          "abilityId": "AmazonFendCancelChannel",
+          "buttonId": "AmazonCancelFend",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "toggleCooldown": 0.0625,
+          "abilityType": "E"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "AmazonInnerLight|AmazonLightningFuryInnerLight|Active|Level4": {
+      "Activable": [
+        {
+          "linkId": "AmazonInnerLight|AmazonLightningFuryInnerLight|Active",
+          "abilityId": "AmazonInnerLight",
+          "buttonId": "AmazonLightningFuryInnerLight",
+          "icon": "storm_ui_icon_cassia_innerlight.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "AmazonSurgeOfLight|AmazonAvoidanceSurgeOfLight|Trait|Level7": {
+      "Trait": [
+        {
+          "linkId": "AmazonSurgeOfLight|AmazonAvoidance|Trait",
+          "abilityId": "AmazonSurgeOfLight",
+          "buttonId": "AmazonAvoidance",
+          "icon": "storm_ui_icon_cassia_avoidance_b.png",
+          "charges": {
+            "countMax": 100,
+            "countUse": 100,
+            "recastCooldown": 0.25,
+            "isCountHidden": true
+          },
+          "abilityType": "Trait"
+        }
+      ]
+    },
+    "AmazonWarTraveler|AmazonAvoidanceWarTraveler|Trait|Level13": {
+      "Mount": [
+        {
+          "linkId": "AmazonWarTravelerSummonMount|AmazonWarTravelerSummonMount|Z",
+          "abilityId": "AmazonWarTravelerSummonMount",
+          "buttonId": "AmazonWarTravelerSummonMount",
+          "icon": "storm_ui_icon_generic_mount.png",
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "Amazon-AvoidanceRockstopper|AmazonAvoidanceRockstopper|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "AmazonAvoidanceRockstopper|AmazonAvoidanceRockstopper|Active",
+          "abilityId": "AmazonAvoidanceRockstopper",
+          "buttonId": "AmazonAvoidanceRockstopper",
+          "icon": "storm_ui_icon_cassia_avoidance.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "AmazonThunderstroke|AmazonLightningFuryThunderstroke|Q|Level1",
+        "talentId": "AmazonThunderstroke",
+        "buttonId": "AmazonLightningFuryThunderstroke",
+        "abilityId": "AmazonLightningFury",
+        "icon": "storm_ui_icon_cassia_lightningfury.png",
+        "abilityType": "Q",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AmazonLightningFury|AmazonLightningFury|Q"
+        ]
+      },
+      {
+        "linkId": "AmazonImpale|AmazonFendImpale|E|Level1",
+        "talentId": "AmazonImpale",
+        "buttonId": "AmazonFendImpale",
+        "abilityId": "AmazonFend",
+        "icon": "storm_ui_icon_cassia_fend.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "AmazonFend|AmazonFend|E"
+        ]
+      },
+      {
+        "linkId": "AmazonChargedStrikes|AmazonAvoidanceChargedStrikes|Passive|Level1",
+        "talentId": "AmazonChargedStrikes",
+        "buttonId": "AmazonAvoidanceChargedStrikes",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_cassia_new_chargedstrikes.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "AmazonPlateoftheWhale|AmazonAvoidancePlateoftheWhale|Trait|Level4",
+        "talentId": "AmazonPlateoftheWhale",
+        "buttonId": "AmazonAvoidancePlateoftheWhale",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_cassia_avoidance_b.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|AmazonAvoidance|Trait",
+          "AmazonSurgeOfLight|AmazonAvoidance|Trait"
+        ]
+      },
+      {
+        "linkId": "AmazonRingoftheLeech|AmazonRingoftheLeech|Passive|Level4",
+        "talentId": "AmazonRingoftheLeech",
+        "buttonId": "AmazonRingoftheLeech",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_cassia_ringoftheleech.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2
+      },
+      {
+        "linkId": "AmazonInnerLight|AmazonLightningFuryInnerLight|Active|Level4",
+        "talentId": "AmazonInnerLight",
+        "buttonId": "AmazonLightningFuryInnerLight",
+        "abilityId": "AmazonInnerLight",
+        "icon": "storm_ui_icon_cassia_innerlight.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "AmazonLightningFury|AmazonLightningFury|Q"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "AmazonFendGroundingRod|AmazonFendGroundingRod|Q|Level7",
+        "talentId": "AmazonFendGroundingRod",
+        "buttonId": "AmazonFendGroundingRod",
+        "abilityId": "AmazonLightningFury",
+        "icon": "storm_ui_icon_cassia_combo_q_e.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AmazonLightningFury|AmazonLightningFury|Q",
+          "AmazonFend|AmazonFend|E"
+        ]
+      },
+      {
+        "linkId": "AmazonSeraphsHymn|AmazonBlindingLightSeraphsHymn|W|Level7",
+        "talentId": "AmazonSeraphsHymn",
+        "buttonId": "AmazonBlindingLightSeraphsHymn",
+        "abilityId": "AmazonBlindingLight",
+        "icon": "storm_ui_icon_cassia_blindinglight.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "AmazonBlindingLight|AmazonBlindingLight|W"
+        ]
+      },
+      {
+        "linkId": "AmazonSurgeOfLight|AmazonAvoidanceSurgeOfLight|Trait|Level7",
+        "talentId": "AmazonSurgeOfLight",
+        "buttonId": "AmazonAvoidanceSurgeOfLight",
+        "abilityId": "AmazonSurgeOfLight",
+        "icon": "storm_ui_icon_cassia_avoidance_b.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|AmazonAvoidance|Trait",
+          "AmazonSurgeOfLight|AmazonAvoidance|Trait"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "AmazonBallLightning|AmazonBallLightning|Heroic|Level10",
+        "talentId": "AmazonBallLightning",
+        "buttonId": "AmazonBallLightning",
+        "abilityId": "AmazonBallLightning",
+        "icon": "storm_ui_icon_cassia_balllightning.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "AmazonValkyrie|AmazonValkyrie|Heroic|Level10",
+        "talentId": "AmazonValkyrie",
+        "buttonId": "AmazonValkyrie",
+        "abilityId": "AmazonValkyrie",
+        "icon": "storm_ui_icon_cassia_valkrie.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "AmazonFendWarMatron|Amazon-FendWarMatron|E|Level13",
+        "talentId": "AmazonFendWarMatron",
+        "buttonId": "Amazon-FendWarMatron",
+        "abilityId": "AmazonFend",
+        "icon": "storm_ui_icon_cassia_fend.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AmazonFend|AmazonFend|E"
+        ]
+      },
+      {
+        "linkId": "AmazonWarTraveler|AmazonAvoidanceWarTraveler|Trait|Level13",
+        "talentId": "AmazonWarTraveler",
+        "buttonId": "AmazonAvoidanceWarTraveler",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_cassia_avoidance_b.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|AmazonAvoidance|Trait",
+          "AmazonSurgeOfLight|AmazonAvoidance|Trait",
+          "AmazonWarTravelerSummonMount|AmazonWarTravelerSummonMount|Z"
+        ]
+      },
+      {
+        "linkId": "AmazonFendGlovesOfAlacrity|AmazonFendGlovesOfAlacrity|Trait|Level13",
+        "talentId": "AmazonFendGlovesOfAlacrity",
+        "buttonId": "AmazonFendGlovesOfAlacrity",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_cassia_new_gloves.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|AmazonAvoidance|Trait",
+          "AmazonSurgeOfLight|AmazonAvoidance|Trait"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "AmazonPowerStrike|AmazonPowerStrike|Q|Level16",
+        "talentId": "AmazonPowerStrike",
+        "buttonId": "AmazonPowerStrike",
+        "abilityId": "AmazonLightningFury",
+        "icon": "storm_ui_icon_cassia_combo_q_w.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AmazonLightningFury|AmazonLightningFury|Q",
+          "AmazonBlindingLight|AmazonBlindingLight|W"
+        ]
+      },
+      {
+        "linkId": "AmazonStaticElectricity|AmazonFendStaticElectricity|Q|Level16",
+        "talentId": "AmazonStaticElectricity",
+        "buttonId": "AmazonFendStaticElectricity",
+        "abilityId": "AmazonLightningFury",
+        "icon": "storm_ui_icon_cassia_combo_q_e.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "AmazonLightningFury|AmazonLightningFury|Q",
+          "AmazonFend|AmazonFend|E"
+        ]
+      },
+      {
+        "linkId": "AmazonMartialLaw|AmazonMartialLaw|Passive|Level16",
+        "talentId": "AmazonMartialLaw",
+        "buttonId": "AmazonMartialLaw",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_searing.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "AmazonInfiniteLightning|AmazonBallLightningInfiniteLightning|Heroic|Level20",
+        "talentId": "AmazonInfiniteLightning",
+        "buttonId": "AmazonBallLightningInfiniteLightning",
+        "abilityId": "AmazonBallLightning",
+        "icon": "storm_ui_icon_cassia_balllightning.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AmazonBallLightning|AmazonBallLightning|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "AmazonBallLightning"
+        ]
+      },
+      {
+        "linkId": "AmazonImprisoningLight|AmazonValkyrieImprisoningLight|Heroic|Level20",
+        "talentId": "AmazonImprisoningLight",
+        "buttonId": "AmazonValkyrieImprisoningLight",
+        "abilityId": "AmazonValkyrie",
+        "icon": "storm_ui_icon_cassia_valkrie.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "AmazonValkyrie|AmazonValkyrie|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "AmazonValkyrie"
+        ]
+      },
+      {
+        "linkId": "AmazonTitansRevenge|AmazonTitansRevenge|Trait|Level20",
+        "talentId": "AmazonTitansRevenge",
+        "buttonId": "AmazonTitansRevenge",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_cassia_avoidance_b.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|AmazonAvoidance|Trait",
+          "AmazonSurgeOfLight|AmazonAvoidance|Trait"
+        ]
+      },
+      {
+        "linkId": "Amazon-AvoidanceRockstopper|AmazonAvoidanceRockstopper|Active|Level20",
+        "talentId": "Amazon-AvoidanceRockstopper",
+        "buttonId": "AmazonAvoidanceRockstopper",
+        "abilityId": "AmazonAvoidanceRockstopper",
+        "icon": "storm_ui_icon_cassia_avoidance.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|AmazonAvoidance|Trait",
+          "AmazonSurgeOfLight|AmazonAvoidance|Trait"
+        ]
+      }
+    ]
+  },
+  "sheet": "sheets/Amazon.png",
+  "icons": {
+    "storm_ui_icon_cassia_lightningfury.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_cassia_blindinglight.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_cassia_fend.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_cassia_balllightning.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_cassia_valkrie.png": [
+      512,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_cassia_avoidance_b.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_mount.png": [
+      128,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      256,
+      128,
+      111,
+      71
+    ],
+    "hud_btn_bg_ability_cancel.png": [
+      384,
+      128,
+      97,
+      111
+    ],
+    "storm_ui_icon_generic_cancel_mount.png": [
+      512,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_cassia_innerlight.png": [
+      0,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_cassia_avoidance.png": [
+      128,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_cassia_new_chargedstrikes.png": [
+      256,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_cassia_ringoftheleech.png": [
+      384,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_cassia_combo_q_e.png": [
+      512,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_cassia_new_gloves.png": [
+      0,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_cassia_combo_q_w.png": [
+      128,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_autoattack_searing.png": [
+      256,
+      384,
+      128,
+      128
+    ]
+  }
+}

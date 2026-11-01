@@ -1,0 +1,229 @@
+{
+  "abilities": {
+    "AlarakDiscordStrike|AlarakDiscordStrike|Q": {
+      "cooldownText": "Время восстановления: 8 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 55</s>",
+      "fullText": "После паузы в <c val=\"#TooltipNumbers\">0.5</c> сек. наносит противникам, находящимся перед Алараком, <c val=\"#TooltipNumbers\">165</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона и поражает их эффектом немоты на <c val=\"#TooltipNumbers\">1.5</c> сек.",
+      "name": "Раздор",
+      "shortText": "Наносит урон в области и применяет эффект немоты."
+    },
+    "AlarakTelekinesis|AlarakTelekinesis|W": {
+      "cooldownText": "Время восстановления: 12 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 30</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">Векторное действие</c><n/>Создает силовую волну, отталкивающую противников и самого Аларака от выбранной точки в выбранном направлении. Наносит пораженным противникам <c val=\"#TooltipNumbers\">48</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона.",
+      "name": "Телекинез",
+      "shortText": "Отталкивает противников в выбранном направлении."
+    },
+    "AlarakLightningSurge|AlarakLightningSurge|E": {
+      "cooldownText": "Время восстановления: 6 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 25</s>",
+      "fullText": "Наносит <c val=\"#TooltipNumbers\">62</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона цели и увеличенный на <c val=\"#TooltipNumbers\">100%</c> урон противникам между ней и Алараком. Восполняет <c val=\"#TooltipNumbers\">75</c><c val=\"#ColorGray\">~~0.04~~</c> ед. здоровья за каждого пораженного героя.",
+      "name": "Разряд молнии",
+      "shortText": "Наносит урон противникам на прямой линии."
+    },
+    "AlarakDeadlyChargeActivate|AlarakDeadlyCharge|Heroic": {
+      "cooldownText": "Время восстановления: 45 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 60</s>",
+      "fullText": "После подготовки Аларак совершает рывок, нанося <c val=\"#TooltipNumbers\">200</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона всем противникам на своем пути. Дальность рывка пропорциональна длительности подготовки. Максимальное время подготовки – <c val=\"#TooltipNumbers\">1.5</c> сек.<n/><n/>Если Аларак двигается во время подготовки, действие способности прерывается без затрат маны. Получение урона прерывает подготовку.",
+      "name": "Смертельный рывок",
+      "shortText": "После поддержания совершает длинный рывок."
+    },
+    "AlarakCounterStrikeTargeted|AlarakCounterStrikeTargeted|Heroic": {
+      "cooldownText": "Время восстановления: 30 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 50</s>",
+      "fullText": "Аларак выбирает направление и в течение <c val=\"#TooltipNumbers\">1</c> сек. готовится к удару, получая при этом защиту от урона и становясь неудержимым. Если в течение этого времени его атакует вражеский герой, Аларак посылает в этом направлении ударную волну, наносящую <c val=\"#TooltipNumbers\">275</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона.",
+      "name": "Контрудар",
+      "shortText": "Предотвращает урон и наносит урон противникам в большой области."
+    },
+    ":PASSIVE:|AlarakSadism|Trait": {
+      "fullText": "Увеличивает урон от способностей и эффективность восстановления здоровья Аларака в бою с героями на <c val=\"#TooltipNumbers\">100%</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Постоянная задача:</c> каждое убийство героя повышает уровень «Садизма» на <c val=\"#TooltipNumbers\">3%</c>, вплоть до <c val=\"#TooltipNumbers\">30%</c>. После гибели Аларак теряет весь полученный таким образом бонус к уровню «Садизма».",
+      "name": "Садизм",
+      "shortText": "Каждое очко «Садизма» увеличивает урон от способностей и эффективность восстановления здоровья Аларака в бою с героями на <c val=\"#TooltipNumbers\">1%</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Постоянная задача:</c> каждое убийство героя повышает уровень «Садизма» на <c val=\"#TooltipNumbers\">3%</c>, вплоть до <c val=\"#TooltipNumbers\">30%</c>. После гибели Аларак теряет весь полученный таким образом бонус к уровню «Садизма»."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Время восстановления: 4 сек.",
+      "fullText": "После подготовки длительностью <c val=\"#TooltipNumbers\">1</c> сек. повышает скорость передвижения на <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Вызов транспорта"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "После поддержания в течение <c val=\"#TooltipNumbers\">6</c> сек. телепортирует героя в Зал Штормов, моментально восполняя <c val=\"#TooltipNumbers\">1125</c> ед. здоровья и <c val=\"#TooltipNumbers\">150</c> ед. маны.",
+      "name": "Возвращение"
+    },
+    "AlarakCounterStrikeTargeted2ndHeroic|AlarakCounterStrike2ndHeroicSadism|Trait": {
+      "cooldownText": "Время восстановления: 30 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 50</s>",
+      "fullText": "Выбирает направление и в течение <c val=\"#TooltipNumbers\">1</c> сек. готовится к удару, получая при этом защиту от урона и становясь неудержимым. Если в течение этого времени его атакует герой, Аларак посылает в выбранном направлении ударную волну, наносящую <c val=\"#TooltipNumbers\">275</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона.<n/><n/><s val=\"StandardTooltipHeader\">Садизм</s><n/><n/>Увеличивает урон от способностей и эффективность восстановления здоровья в бою с героями на <c val=\"#TooltipNumbers\">100%</c>.<n/><n/>Каждое убийство героя повышает уровень «Садизма» на <c val=\"#TooltipNumbers\">3%</c>, вплоть до <c val=\"#TooltipNumbers\">30%</c>. После гибели Аларак теряет полученный за убийства бонус к уровню «Садизма».",
+      "name": "Контрудар",
+      "shortText": "Способности Аларака наносят больше урона героям."
+    },
+    "AlarakDeadlyChargeExecute|AlarakUnleashDeadlyCharge|Heroic": {
+      "fullText": "Аларак использует «Смертельный рывок».<n/><n/>Если Аларак сдвинется с места во время подготовки, действие способности прервется без затрат маны. Получение урона прерывает подготовку.",
+      "name": "Совершить «Смертельный рывок»",
+      "shortText": "Совершает смертоносный рывок."
+    },
+    "AlarakDeadlyChargeActivate2ndHeroic|AlarakDeadlyCharge2ndHeroicSadism|Trait": {
+      "cooldownText": "Время восстановления: 45 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 60</s>",
+      "fullText": "После подготовки совершает рывок, нанося <c val=\"#TooltipNumbers\">200</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона противникам на своем пути. Дальность рывка пропорциональна длительности подготовки. Максимальное время подготовки – <c val=\"#TooltipNumbers\">1.5</c> сек.<n/><n/>Если Аларак двигается во время подготовки, действие способности прерывается без затрат маны. Получение урона прерывает подготовку.<n/><n/><s val=\"StandardTooltipHeader\">Садизм</s><n/><n/>Увеличивает урон от способностей и эффективность восстановления здоровья в бою с героями на <c val=\"#TooltipNumbers\">100%</c>.<n/><n/>Каждое убийство героя повышает уровень «Садизма» на <c val=\"#TooltipNumbers\">3%</c>, вплоть до <c val=\"#TooltipNumbers\">30%</c>. После гибели Аларак теряет полученный за убийства бонус к уровню «Садизма».",
+      "name": "Смертельный рывок",
+      "shortText": "Способности Аларака наносят больше урона героям."
+    },
+    "AlarakDeadlyChargeExecute2ndHeroic|AlarakUnleashDeadlyCharge|Trait": {
+      "fullText": "Аларак использует «Смертельный рывок».<n/><n/>Если Аларак сдвинется с места во время подготовки, действие способности прервется без затрат маны. Получение урона прерывает подготовку.",
+      "name": "Совершить «Смертельный рывок»",
+      "shortText": "Совершает смертоносный рывок."
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Покинуть транспорт.",
+      "name": "Отмена транспорта"
+    },
+    "AlarakRiteofRakShir|AlarakRiteofRakShir|Trait": {
+      "cooldownText": "Время восстановления: 300 сек.",
+      "fullText": "При использовании на <c val=\"#TooltipNumbers\">300</c> сек. ставит метку на героя противника.<n/><n/>Поражение отмеченного героя «Раздором» повышает уровень «Садизма» на <c val=\"#TooltipNumbers\">3%</c>. Убийство отмеченного героя повышает уровень «Садизма» на <c val=\"#TooltipNumbers\">5%</c> и сокращает время восстановления «Рак-шира» до <c val=\"#TooltipNumbers\">10</c> сек.<n/><n/>Бонус к уровню «Садизма», полученный от «Рак-шира», теряется после гибели.",
+      "name": "Рак-шир",
+      "shortText": "Отмечает героя и повышает уровень «Садизма» при нанесении ему урона."
+    },
+    "AlarakLightningSurgeLightningBarrage|AlarakLightningSurgeLightningBarrage|E": {
+      "fullText": "Наносит <c val=\"#TooltipNumbers\">62</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона цели и увеличенный на <c val=\"#TooltipNumbers\">100%</c> урон противникам между ней и Алараком. Восполняет <c val=\"#TooltipNumbers\">75</c><c val=\"#ColorGray\">~~0.04~~</c> ед. здоровья за каждого пораженного героя.",
+      "name": "Разряд молнии",
+      "shortText": "Наносит урон противникам на прямой линии."
+    },
+    "AlarakHastyBargain|AlarakHastyBargain|Active": {
+      "cooldownText": "Время восстановления: 20 сек.",
+      "fullText": "При использовании снижает уровень «Садизма» на <c val=\"#TooltipNumbers\">4%</c> до конца матча и восстанавливает базовые способности.",
+      "name": "Опрометчивая сделка",
+      "shortText": "Снижает уровень «Садизма» и восстанавливает базовые способности."
+    },
+    "AlarakLastLaugh|AlarakLastLaugh|Active": {
+      "cooldownText": "Время восстановления: 30 сек.",
+      "fullText": "При использовании Аларак снимает с себя все эффекты обездвиживания, замедления и периодического урона, а также телепортируется в указанную точку. Если Алараку не удается поразить героев базовыми способностями <c val=\"#TooltipNumbers\">3</c> <lang rule=\"plural\" val=\"\">раз,раза,раз</lang> в течение <c val=\"#TooltipNumbers\">4</c> сек. после «Последней насмешки», запас его здоровья уменьшается до <c val=\"#TooltipNumbers\">1</c> ед.",
+      "name": "Последняя насмешка",
+      "shortText": "Снимает отрицательные эффекты и телепортирует, но отнимает здоровье."
+    },
+    "AlarakMightOfTheHighlordSetDeadlyChargeAsHeroic|AlarakMightOfTheHighlord|Active": {
+      "fullText": "Аларак получает доступ к обеим героическим способностям. Можно активировать, чтобы заменить способность в героической ячейке. Вторую способность можно разместить в ячейке умения.",
+      "name": "Мощь Владыки",
+      "shortText": "Получить обе героические способности"
+    },
+    "AlarakMightOfTheHighlordSetCounterStrikeAsHeroic|AlarakMightOfTheHighlord|Active": {
+      "fullText": "Аларак получает доступ к обеим героическим способностям. Можно активировать, чтобы заменить способность в героической ячейке. Вторую способность можно разместить в ячейке умения.",
+      "name": "Мощь Владыки",
+      "shortText": "Получить обе героические способности"
+    }
+  },
+  "talents": {
+    "AlarakOverwhelmingPowerDiscordStrike|AlarakOverwhelmingPower|Q|Level1": {
+      "fullText": "Поражая героя противника, «Раздор» повышает скорость атаки на <c val=\"#TooltipNumbers\">40%</c>. При этом автоатаки восполняют здоровье в объеме <c val=\"#TooltipNumbers\">15%</c> от нанесенного урона и еще на <c val=\"#TooltipNumbers\">50%</c> от бонуса «Садизма» при попадании по героям. Эффекты длятся в течение <c val=\"#TooltipNumbers\">4</c> сек.",
+      "name": "Переполняющая мощь",
+      "shortText": "«Раздор» повышает скорость атаки и похищает здоровье цели."
+    },
+    "AlarakRuthlessMomentum|AlarakRuthlessMomentum|W|Level1": {
+      "fullText": "Снижает стоимость «Телекинеза» с <c val=\"#TooltipNumbers\">30</c> до <c val=\"#TooltipNumbers\">20</c> ед. маны. «Телекинез» восстанавливается на <c val=\"#TooltipNumbers\">100%</c> быстрее, если уровень здоровья превышает <c val=\"#TooltipNumbers\">80%</c>.",
+      "name": "Миг жестокости",
+      "shortText": "Ускоряет восстановление способностей при высоком уровне здоровья."
+    },
+    "AlarakExtendedLightning|AlarakExtendedLightning|E|Level1": {
+      "fullText": "Снижает уровень «Садизма» на <c val=\"#TooltipNumbers\">10%</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Задача:</c> поражайте «Разрядом молнии» героев, находящихся между Алараком и его целью.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Награда:</c> после <c val=\"#TooltipNumbers\">5</c> попаданий по героям дальность действия «Разряда молнии» увеличится на <c val=\"#TooltipNumbers\">20%</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Награда:</c> после <c val=\"#TooltipNumbers\">15</c> попаданий по героям «Разряд молнии» также будет замедлять противников, находящихся между Алараком и его целью, на <c val=\"#TooltipNumbers\">40%</c> на <c val=\"#TooltipNumbers\">2</c> сек.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Награда:</c> если один «Разряд молнии» поразит <c val=\"#TooltipNumbers\">3</c> героев, находящихся между Алараком и его целью, уровень «Садизма» повысится на <c val=\"#TooltipNumbers\">10%</c>, и Аларак получит все награды за выполнение этой задачи.",
+      "name": "Усиленный разряд",
+      "shortText": "<c val=\"#TooltipQuest\">Задача:</c> уменьшите уровень «Садизма» и усильте «Разряд молнии»."
+    },
+    "AlarakChaosReigns|AlarakChaosReigns|Q|Level4": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Задача:</c> поражайте героев «Раздором».<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Награда:</c> после <c val=\"#TooltipNumbers\">15</c> попаданий по героям урон от «Раздора» увеличится на <c val=\"#TooltipNumbers\">60</c> ед.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Награда:</c> после поражения <c val=\"#TooltipNumbers\">2</c> героев одним «Раздором» урон от него увеличится на <c val=\"#TooltipNumbers\">60</c> ед.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Награда:</c> после поражения <c val=\"#TooltipNumbers\">3</c> героев одним «Раздором» урон от него увеличится на <c val=\"#TooltipNumbers\">100</c> ед., и Аларак получит все награды за выполнение этой задачи.",
+      "name": "Сила хаоса",
+      "shortText": "<c val=\"#TooltipQuest\">Задача:</c> поражайте героев, чтобы увеличить урон от «Раздора»."
+    },
+    "AlarakNegativelyCharged|AlarakNegativelyCharged|E|Level4": {
+      "fullText": "Противники, находящиеся между Алараком и целью «Разряда молнии», получают <c val=\"#TooltipNumbers\">175%</c> базового урона.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Поcтоянная задача:</c> каждое попадание «Разрядом молнии» по героям, находящимся между Алараком и его целью, увеличивает бонус к урону на <c val=\"#TooltipNumbers\">5%</c>.",
+      "name": "Отрицательный заряд",
+      "shortText": "<c val=\"#TooltipQuest\">Задача:</c> увеличьте урон по противникам на пути «Разряда молнии»."
+    },
+    "AlarakShowofForce|AlarakShowofForce|Trait|Level4": {
+      "fullText": "Герои, пораженные <c val=\"#TooltipNumbers\">3</c> способностями Аларака в течение <c val=\"#TooltipNumbers\">2</c> сек., получают <c val=\"#TooltipNumbers\">61</c><c val=\"#ColorGray\">~~0.04~~</c> ед. дополнительного урона и повышают уровень «Садизма» Аларака на <c val=\"#TooltipNumbers\">2%</c>, вплоть до <c val=\"#TooltipNumbers\">20%</c>. <n/><n/>«Садизм», накопленный от «Демонстрации силы», теряется после смерти.",
+      "name": "Демонстрация силы",
+      "shortText": "Комбинации способностей наносят дополнительный урон и повышают «Садизм»."
+    },
+    "AlarakDissonance|AlarakDissonance|Q|Level7": {
+      "fullText": "Увеличивает время действия эффекта немоты от «Раздора» на <c val=\"#TooltipNumbers\">0,75</c> сек.",
+      "name": "Диссонанс",
+      "shortText": "Продлевает действие эффекта немоты от «Раздора»."
+    },
+    "AlarakHinderedMotion|AlarakHinderedMotion|W|Level7": {
+      "fullText": "«Телекинез» замедляет пораженных противников на <c val=\"#TooltipNumbers\">30%</c> на <c val=\"#TooltipNumbers\">3</c> сек.",
+      "name": "Невидимые путы",
+      "shortText": "«Телекинез» замедляет противников."
+    },
+    "AlarakAppliedForce|AlarakAppliedForce|W|Level7": {
+      "fullText": "Снижает уровень «Садизма» на <c val=\"#TooltipNumbers\">10%</c>. Увеличивает дальность действия «Телекинеза» на <c val=\"#TooltipNumbers\">15%</c>, а дальность отталкивания — на <c val=\"#TooltipNumbers\">15%</c>.",
+      "name": "Грубая сила",
+      "shortText": "Снижает уровень «Садизма» и усиливает «Телекинез»."
+    },
+    "AlarakDeadlyChargeFirstHeroic|AlarakDeadlyCharge|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 45 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 60</s>",
+      "fullText": "После подготовки Аларак совершает рывок, нанося <c val=\"#TooltipNumbers\">200</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона всем противникам на своем пути. Дальность рывка пропорциональна длительности подготовки. Максимальное время подготовки – <c val=\"#TooltipNumbers\">1.5</c> сек.<n/><n/>Если Аларак двигается во время подготовки, действие способности прерывается без затрат маны. Получение урона прерывает подготовку.",
+      "name": "Смертельный рывок",
+      "shortText": "После поддержания совершает длинный рывок."
+    },
+    "AlarakHeroicAbilityCounterStrike|AlarakCounterStrikeTargeted|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 30 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 50</s>",
+      "fullText": "Аларак выбирает направление и в течение <c val=\"#TooltipNumbers\">1</c> сек. готовится к удару, получая при этом защиту от урона и становясь неудержимым. Если в течение этого времени его атакует вражеский герой, Аларак посылает в этом направлении ударную волну, наносящую <c val=\"#TooltipNumbers\">275</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона.",
+      "name": "Контрудар",
+      "shortText": "Предотвращает урон и наносит урон противникам в большой области."
+    },
+    "AlarakBladeoftheHighlord|AlarakBladeoftheHighlord|Trait|Level13": {
+      "fullText": "Каждая автоатака по герою повышает уровень «Садизма» на <c val=\"#TooltipNumbers\">2%</c>, вплоть до <c val=\"#TooltipNumbers\">40%</c>.<n/><n/>«Садизм», полученный от «Клинка Владыки», теряется в случае смерти.",
+      "name": "Клинок Владыки",
+      "shortText": "Автоатаки повышают уровень «Садизма»."
+    },
+    "AlarakPureMalice|AlarakPureMalice|Trait|Level13": {
+      "fullText": "Повышает уровень «Садизма» на <c val=\"#TooltipNumbers\">10%</c> каждый раз, когда умирает союзный герой, вплоть до <c val=\"#TooltipNumbers\">40%</c>. <n/><n/>Бонус теряется после гибели.",
+      "name": "Чистая злоба",
+      "shortText": "Повышает уровень «Садизма» при гибели союзника."
+    },
+    "AlarakRiteofRakShir|AlarakRiteofRakShir|Trait|Level13": {
+      "cooldownText": "Время восстановления: 300 сек.",
+      "fullText": "При использовании на <c val=\"#TooltipNumbers\">300</c> сек. ставит метку на героя противника.<n/><n/>Поражение отмеченного героя «Раздором» повышает уровень «Садизма» на <c val=\"#TooltipNumbers\">3%</c>. Убийство отмеченного героя повышает уровень «Садизма» на <c val=\"#TooltipNumbers\">5%</c> и сокращает время восстановления «Рак-шира» до <c val=\"#TooltipNumbers\">10</c> сек.<n/><n/>Бонус к уровню «Садизма», полученный от «Рак-шира», теряется после гибели.",
+      "name": "Рак-шир",
+      "shortText": "Отмечает героя и повышает уровень «Садизма» при нанесении ему урона."
+    },
+    "AlarakLethalOnslaughtDiscordStrike|AlarakLethalOnslaught|Q|Level16": {
+      "fullText": "Когда «Раздор» поражает вражеского героя, автоатаки Аларака получают <c val=\"#TooltipNumbers\">50%</c> бонуса к урону от «Садизма» на <c val=\"#TooltipNumbers\">4</c> сек. Автоатаки против героев обновляют время действия эффекта.",
+      "name": "Смертоносный натиск",
+      "shortText": "«Раздор» применяет бонус от уровня «Садизма» к автоатакам."
+    },
+    "AlarakLightningBarrage|AlarakLightningBarrage|E|Level16": {
+      "fullText": "Если «Разряд молнии» поражает героя, находящегося между Алараком и его целью, эту способность можно применить к другой основной цели без затрат маны в течение <c val=\"#TooltipNumbers\">3</c> сек. Такое применение не может вызвать эффект «Залпа молний».",
+      "name": "Залп молний",
+      "shortText": "Попадания по героям между Алараком и целью дают бесплатный «Разряд молнии»."
+    },
+    "AlarakMockingStrikes|AlarakMockingStrikes|Passive|Level16": {
+      "fullText": "Каждая автоатака по герою сокращает время восстановления базовых способностей на <c val=\"#TooltipNumbers\">1.5</c> сек. Бонус удваивается, если герои обездвижены, оглушены, поражены немотой или замедлены.",
+      "name": "Издевательские удары",
+      "shortText": "Автоатаки по обезвреженным героям ускоряют восстановление базовых способностей."
+    },
+    "AlarakWrathOfTheHighlord|AlarakWrathOfTheHighlord|Heroic|Level20": {
+      "fullText": "Если «Смертельный рывок» размещен в героической ячейке, пораженные им герои получают дополнительный урон от способностей Аларака в объеме <c val=\"#TooltipNumbers\">75%</c> от бонусного урона «Садизма» в течение <c val=\"#TooltipNumbers\">4</c> сек.<n/><n/>Если в героической ячейке размещен «Контрудар», время его восстановления сокращается на <c val=\"#TooltipNumbers\">2.5</c> сек. за каждого героя противника, пораженного базовыми способностями Аларака.",
+      "name": "Гнев Владыки",
+      "shortText": "«Смертельный рывок» усиливает урон от «Садизма».<n/>Базовые способности сокращают время восстановления «Контрудара»."
+    },
+    "AlarakMightOfTheHighlord|AlarakMightOfTheHighlord|Active|Level20": {
+      "fullText": "Аларак получает доступ к обеим героическим способностям. Можно активировать, чтобы заменить способность в героической ячейке. Вторую способность можно разместить в ячейке умения.",
+      "name": "Мощь Владыки",
+      "shortText": "Получить обе героические способности"
+    },
+    "AlarakLastLaugh|AlarakLastLaugh|Active|Level20": {
+      "cooldownText": "Время восстановления: 30 сек.",
+      "fullText": "При использовании Аларак снимает с себя все эффекты обездвиживания, замедления и периодического урона, а также телепортируется в указанную точку. Если Алараку не удается поразить героев базовыми способностями <c val=\"#TooltipNumbers\">3</c> <lang rule=\"plural\" val=\"\">раз,раза,раз</lang> в течение <c val=\"#TooltipNumbers\">4</c> сек. после «Последней насмешки», запас его здоровья уменьшается до <c val=\"#TooltipNumbers\">1</c> ед.",
+      "name": "Последняя насмешка",
+      "shortText": "Снимает отрицательные эффекты и телепортирует, но отнимает здоровье."
+    },
+    "AlarakHastyBargain|AlarakHastyBargain|Active|Level20": {
+      "cooldownText": "Время восстановления: 20 сек.",
+      "fullText": "При использовании снижает уровень «Садизма» на <c val=\"#TooltipNumbers\">4%</c> до конца матча и восстанавливает базовые способности.",
+      "name": "Опрометчивая сделка",
+      "shortText": "Снижает уровень «Садизма» и восстанавливает базовые способности."
+    }
+  },
+  "units": {}
+}

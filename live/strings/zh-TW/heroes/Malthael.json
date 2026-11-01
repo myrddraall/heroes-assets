@@ -1,0 +1,209 @@
+{
+  "abilities": {
+    "MalthaelSoulRip|MalthaelSoulRip|Q": {
+      "cooldownText": "冷卻時間：2秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：25點</s>",
+      "fullText": "吞噬附近帶有<c val=\"#MalthaelTrait\">奪魂印記</c>敵人的靈魂，對其造成<c val=\"#TooltipNumbers\">100</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。每擊中一個目標，可使瑪瑟爾恢復<c val=\"#TooltipNumbers\">25</c><c val=\"#ColorGray\">~~0.04~~</c>點生命值。擊中英雄時，可使瑪瑟爾額外恢復該英雄最大生命值的<c val=\"#TooltipNumbers\">4%</c>。",
+      "name": "噬魂",
+      "shortText": "對被標記的敵人造成傷害，並且恢復生命值"
+    },
+    "MalthaelWraithStrike|MalthaelWraithStrike|W": {
+      "cooldownText": "冷卻時間：5秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：30點</s>",
+      "fullText": "立刻傳送至身上有<c val=\"#MalthaelTrait\">奪魂印記</c>的敵人，造成<c val=\"#TooltipNumbers\">59</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害並重置<c val=\"#MalthaelTrait\">奪魂印記</c>的冷卻時間。",
+      "name": "鬼魅追擊",
+      "shortText": "傳送至有奪魂印記的目標"
+    },
+    "MalthaelDeathShroud|MalthaelDeathShroud|E": {
+      "cooldownText": "冷卻時間：8秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：50點</s>",
+      "fullText": "延遲<c val=\"#TooltipNumbers\">0.25</c>秒後，放出一波黑暗之霧，對命中的敵人施加<c val=\"#MalthaelTrait\">奪魂印記</c>。",
+      "name": "死亡之霧",
+      "shortText": "放出會施加奪魂印記的雲霧"
+    },
+    "MalthaelTormentedSouls|MalthaelTormentedSouls|Heroic": {
+      "cooldownText": "冷卻時間：60秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：20點</s>",
+      "fullText": "釋放一波靈魂，持續對附近敵人施加<c val=\"#MalthaelTrait\">奪魂印記</c>，持續<c val=\"#TooltipNumbers\">4</c>秒。<n/><n/>苦痛亡魂啟用時會重置鬼魅追擊的冷卻時間，生效期間，鬼魅追擊不會消耗法力，且冷卻時間縮短至<c val=\"#TooltipNumbers\">2</c>秒。",
+      "name": "苦痛亡魂",
+      "shortText": "對周圍所有敵人施加奪魂印記"
+    },
+    "MalthaelLastRites|MalthaelLastRites|Heroic": {
+      "cooldownText": "冷卻時間：70秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：100點</s>",
+      "fullText": "對一名敵方英雄施展死亡審判，在<c val=\"#TooltipNumbers\">2</c>秒後造成等同其失去生命值<c val=\"#TooltipNumbers\">50%</c>的傷害。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任務：</c>在施加催魂儀式以及催魂儀式造成傷害後<c val=\"#TooltipNumbers\">1.5</c>秒內死亡的敵人，可使催魂儀式的冷卻時間永久降低<c val=\"#TooltipNumbers\">5</c>秒，最多可降低至<c val=\"#TooltipNumbers\">20</c>秒。",
+      "name": "催魂儀式",
+      "shortText": "<c val=\"#TooltipQuest\">任務：</c>根據敵方英雄失去的生命值造成傷害"
+    },
+    ":PASSIVE:|MalthaelReapersMark|Trait": {
+      "fullText": "瑪瑟爾的基本攻擊會對前方範圍造成擴散傷害，對非建築目標施加<c val=\"#MalthaelTrait\">奪魂印記</c>，持續<c val=\"#TooltipNumbers\">4</c>秒。被標記的敵人會現形，並且每<c val=\"#TooltipNumbers\">1</c>秒受到相當於其最大生命值<c val=\"#TooltipNumbers\">2%</c>的傷害。",
+      "name": "奪魂印記",
+      "shortText": "基本攻擊會造成擴散傷害，並且施加奪魂印記"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "冷卻時間：4秒",
+      "fullText": "引導<c val=\"#TooltipNumbers\">1</c>秒後，提高<s val=\"StandardTooltipDetails\">30%</s>移動速度。",
+      "name": "召喚坐騎"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "引導<c val=\"#TooltipNumbers\">6</c>秒後傳送回風暴祭壇，立即恢復<c val=\"#TooltipNumbers\">1125</c>點生命值和<c val=\"#TooltipNumbers\">150</c>點法力值。",
+      "name": "爐石"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "離開坐騎。",
+      "name": "離開坐騎"
+    },
+    "MalthaelFearTheReaper|MalthaelFearTheReaper|Active": {
+      "cooldownText": "冷卻時間：25秒",
+      "fullText": "啟動後，移動速度提高<c val=\"#TooltipNumbers\">25%</c>，並且可穿越其他單位，持續<c val=\"#TooltipNumbers\">4</c>秒。",
+      "name": "死神逼近",
+      "shortText": "啟動後，提高移動速度"
+    },
+    "MalthaelTouchOfDeath|MalthaelTouchOfDeath|Active": {
+      "cooldownText": "冷卻時間：20秒",
+      "fullText": "啟動後，使帶有<c val=\"#MalthaelTrait\">奪魂印記</c>的英雄受到的治療效果降低<c val=\"#TooltipNumbers\">50%</c>，持續<c val=\"#TooltipNumbers\">4</c>秒。",
+      "name": "亡歿之觸",
+      "shortText": "啟動後，降低敵人的治療效果"
+    },
+    "MalthaelInevitableEnd|MalthaelInevitableEnd|Active": {
+      "cooldownText": "冷卻時間：20秒",
+      "fullText": "啟動後獲得控場免疫效果，持續<c val=\"#TooltipNumbers\">2</c>秒，但是移除所有<c val=\"#MalthaelTrait\">奪魂印記</c>。",
+      "name": "末日降臨",
+      "shortText": "啟動後對控場免疫，但消除所有奪魂印記"
+    },
+    "MalthaelShroudOfWisdom|MalthaelShroudOfWisdom|Active": {
+      "cooldownText": "冷卻時間：20秒",
+      "fullText": "<c val=\"#TooltipNumbers\">2</c>秒後，獲得<c val=\"#TooltipNumbers\">50</c>點法術護甲，持續<c val=\"#TooltipNumbers\">4</c>秒。",
+      "name": "智慧魂甲",
+      "shortText": "啟動後獲得法術護甲"
+    },
+    "MalthaelNoOneCanStopDeath|MalthaelNoOneCanStopDeath|Active": {
+      "cooldownText": "冷卻時間：180秒",
+      "fullText": "於死亡時啟動，會立刻在風暴祭壇復活，但瑪瑟爾的下次復活時間會提高<c val=\"#TooltipNumbers\">25%</c>。",
+      "name": "沒有人能阻止死亡",
+      "shortText": "啟動後可復活"
+    }
+  },
+  "talents": {
+    "MalthaelDeathsReach|MalthaelDeathsReach|W|Level1": {
+      "fullText": "鬼魅追擊的距離提高<c val=\"#TooltipNumbers\">35%</c>。",
+      "name": "如影隨形",
+      "shortText": "提高鬼魅追擊的距離"
+    },
+    "MalthaelOnAPaleHorse|MalthaelOnAPaleHorse|Passive|Level1": {
+      "fullText": "騎乘坐騎時的移動速度提高<c val=\"#TooltipNumbers\">20%</c>。",
+      "name": "死亡戰馬",
+      "shortText": "提高騎乘坐騎時的移動速度"
+    },
+    "MalthaelFearTheReaper|MalthaelFearTheReaper|Active|Level1": {
+      "cooldownText": "冷卻時間：25秒",
+      "fullText": "啟動後，移動速度提高<c val=\"#TooltipNumbers\">25%</c>，並且可穿越其他單位，持續<c val=\"#TooltipNumbers\">4</c>秒。",
+      "name": "死神逼近",
+      "shortText": "啟動後，提高移動速度"
+    },
+    "MalthaelDieAlone|MalthaelDieAlone|Q|Level4": {
+      "fullText": "噬魂只擊中一名英雄時，對該英雄額外造成<c val=\"#TooltipNumbers\">50%</c>傷害。",
+      "name": "凋零",
+      "shortText": "提高噬魂只擊中一個英雄的傷害"
+    },
+    "MalthaelThrowingShade|MalthaelThrowingShade|E|Level4": {
+      "fullText": "死亡之霧的距離提高<c val=\"#TooltipNumbers\">33%</c>，冷卻時間降低<c val=\"#TooltipNumbers\">3</c>秒，法力消耗從<c val=\"#TooltipNumbers\">50</c>點降低至<c val=\"#TooltipNumbers\">30</c>點。<n/><n/>死亡之霧的起始攻擊，會對敵方非建築單位造成相當於其最大生命值<c val=\"#TooltipNumbers\">2%</c>的傷害。",
+      "name": "幽影瀰漫",
+      "shortText": "提高死亡之霧的距離並降低冷卻時間"
+    },
+    "MalthaelBlackHarvest|MalthaelBlackHarvest|Trait|Level4": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任務：</c>對英雄施加<c val=\"#MalthaelTrait\">奪魂印記</c>總計達<c val=\"#TooltipNumbers\">150</c>秒。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">獎勵：</c><c val=\"#MalthaelTrait\">奪魂印記</c>的持續時間永久提高<c val=\"#TooltipNumbers\">2</c>秒。",
+      "name": "亡魂收割",
+      "shortText": "<c val=\"#TooltipQuest\">任務：</c>提高奪魂印記的持續時間"
+    },
+    "MalthaelColdHand|MalthaelColdHand|Q|Level7": {
+      "fullText": "噬魂可使敵人緩速<c val=\"#TooltipNumbers\">20%</c>，持續<c val=\"#TooltipNumbers\">2.5</c>秒。",
+      "name": "冰冷之爪",
+      "shortText": "噬魂可使敵人緩速"
+    },
+    "MalthaelMassacre|MalthaelMassacre|W|Level7": {
+      "fullText": "鬼魅追擊現在會對目標附近的所有敵人造成傷害並施加<c val=\"#MalthaelTrait\">奪魂印記</c>。",
+      "name": "屠魂",
+      "shortText": "鬼魅追擊會造成範圍傷害"
+    },
+    "MalthaelTouchOfDeath|MalthaelTouchOfDeath|Active|Level7": {
+      "cooldownText": "冷卻時間：20秒",
+      "fullText": "啟動後，使帶有<c val=\"#MalthaelTrait\">奪魂印記</c>的英雄受到的治療效果降低<c val=\"#TooltipNumbers\">50%</c>，持續<c val=\"#TooltipNumbers\">4</c>秒。",
+      "name": "亡歿之觸",
+      "shortText": "啟動後，降低敵人的治療效果"
+    },
+    "MalthaelTormentedSouls|MalthaelTormentedSouls|Heroic|Level10": {
+      "cooldownText": "冷卻時間：60秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：20點</s>",
+      "fullText": "釋放一波靈魂，持續對附近敵人施加<c val=\"#MalthaelTrait\">奪魂印記</c>，持續<c val=\"#TooltipNumbers\">4</c>秒。<n/><n/>苦痛亡魂啟用時會重置鬼魅追擊的冷卻時間，生效期間，鬼魅追擊不會消耗法力，且冷卻時間縮短至<c val=\"#TooltipNumbers\">2</c>秒。",
+      "name": "苦痛亡魂",
+      "shortText": "對周圍所有敵人施加奪魂印記"
+    },
+    "MalthaelLastRites|MalthaelLastRites|Heroic|Level10": {
+      "cooldownText": "冷卻時間：70秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：100點</s>",
+      "fullText": "對一名敵方英雄施展死亡審判，在<c val=\"#TooltipNumbers\">2</c>秒後造成等同其失去生命值<c val=\"#TooltipNumbers\">50%</c>的傷害。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任務：</c>在施加催魂儀式以及催魂儀式造成傷害後<c val=\"#TooltipNumbers\">1.5</c>秒內死亡的敵人，可使催魂儀式的冷卻時間永久降低<c val=\"#TooltipNumbers\">5</c>秒，最多可降低至<c val=\"#TooltipNumbers\">20</c>秒。",
+      "name": "催魂儀式",
+      "shortText": "<c val=\"#TooltipQuest\">任務：</c>根據敵方英雄失去的生命值造成傷害"
+    },
+    "MalthaelSoulSiphon|MalthaelSoulSiphon|Q|Level13": {
+      "fullText": "噬魂擊中英雄時的額外治療量，提高為該英雄最大生命值的<c val=\"#TooltipNumbers\">4.75%</c>。",
+      "name": "吸取靈魂",
+      "shortText": "提高噬魂的治療量"
+    },
+    "MalthaelEtherealExistence|MalthaelEtherealExistence|Trait|Level13": {
+      "fullText": "<c val=\"#MalthaelTrait\">奪魂印記</c>每影響一名敵方英雄可獲得<c val=\"#TooltipNumbers\">10</c>點物理護甲，最多可獲得<c val=\"#TooltipNumbers\">30</c>點。",
+      "name": "虛無幻象",
+      "shortText": "標記目標時，可獲得物理護甲"
+    },
+    "MalthaelInevitableEnd|MalthaelInevitableEnd|Active|Level13": {
+      "cooldownText": "冷卻時間：20秒",
+      "fullText": "啟動後獲得控場免疫效果，持續<c val=\"#TooltipNumbers\">2</c>秒，但是移除所有<c val=\"#MalthaelTrait\">奪魂印記</c>。",
+      "name": "末日降臨",
+      "shortText": "啟動後對控場免疫，但消除所有奪魂印記"
+    },
+    "MalthaelShroudOfWisdom|MalthaelShroudOfWisdom|Active|Level13": {
+      "cooldownText": "冷卻時間：20秒",
+      "fullText": "<c val=\"#TooltipNumbers\">2</c>秒後，獲得<c val=\"#TooltipNumbers\">50</c>點法術護甲，持續<c val=\"#TooltipNumbers\">4</c>秒。",
+      "name": "智慧魂甲",
+      "shortText": "啟動後獲得法術護甲"
+    },
+    "MalthaelSoulCollector|MalthaelSoulCollector|Q|Level16": {
+      "fullText": "噬魂的冷卻時間降低<c val=\"#TooltipNumbers\">0.5</c>秒，距離提高<c val=\"#TooltipNumbers\">25%</c>。",
+      "name": "攝魂者",
+      "shortText": "提高噬魂的距離並降低冷卻時間"
+    },
+    "MalthaelMortality|MalthaelMortality|W|Level16": {
+      "fullText": "鬼魅追擊命中英雄時，會對該英雄額外造成其最大生命值<c val=\"#TooltipNumbers\">8%</c>的傷害。",
+      "name": "索命",
+      "shortText": "鬼魅追擊會對英雄造成額外傷害"
+    },
+    "MalthaelMementoMori|MalthaelMementoMori|Trait|Level16": {
+      "fullText": "<c val=\"#MalthaelTrait\">奪魂印記</c>影響一名敵人超過<c val=\"#TooltipNumbers\">4</c>秒後，造成的傷害提高<c val=\"#TooltipNumbers\">60%</c>。",
+      "name": "死亡預兆",
+      "shortText": "奪魂印記的傷害會隨時間逐漸提高"
+    },
+    "MalthaelReaperOfSouls|MalthaelReaperOfSouls|Heroic|Level20": {
+      "fullText": "使苦痛亡魂的持續時間延長至<c val=\"#TooltipNumbers\">6</c>秒，苦痛亡魂生效時，擊殺英雄會重置其持續時間。<n/><n/>若超過<c val=\"#TooltipNumbers\">2</c>名敵方英雄在苦痛亡魂的範圍內，持續時間就不會減少。",
+      "name": "奪魂之鐮",
+      "shortText": "延長苦痛亡魂的持續時間"
+    },
+    "MalthaelAngelOfDeath|MalthaelAngelOfDeath|Heroic|Level20": {
+      "fullText": "催魂儀式造成的<c val=\"#TooltipNumbers\">100%</c>傷害會為瑪瑟爾恢復等量的生命值，並且使催魂儀式目前及後續的冷卻時間降低幅度加倍。",
+      "name": "歿天使",
+      "shortText": "催魂儀式可恢復生命值"
+    },
+    "MalthaelFinalCurtain|MalthaelFinalCurtain|E|Level20": {
+      "fullText": "死亡之霧會在行經路徑留下印痕，持續<c val=\"#TooltipNumbers\">4</c>秒，對範圍內的敵人施加<c val=\"#MalthaelTrait\">奪魂印記</c>。",
+      "name": "死霧蔓延",
+      "shortText": "死亡之霧會在行經路徑留下印痕"
+    },
+    "MalthaelNoOneCanStopDeath|MalthaelNoOneCanStopDeath|Active|Level20": {
+      "cooldownText": "冷卻時間：180秒",
+      "fullText": "於死亡時啟動，會立刻在風暴祭壇復活，但瑪瑟爾的下次復活時間會提高<c val=\"#TooltipNumbers\">25%</c>。",
+      "name": "沒有人能阻止死亡",
+      "shortText": "啟動後可復活"
+    }
+  },
+  "units": {}
+}

@@ -1,0 +1,661 @@
+{
+  "id": "Zuljin",
+  "unitId": "HeroZuljin",
+  "hyperlinkId": "Zuljin",
+  "attributeId": "ZULJ",
+  "franchise": "Warcraft",
+  "rarity": "Legendary",
+  "releaseDate": "2017-01-04",
+  "isMelee": false,
+  "gender": "Male",
+  "radius": 0.75,
+  "innerRadius": 0.75,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 4,
+    "damage": 8,
+    "survivability": 6,
+    "utility": 4
+  },
+  "life": {
+    "amount": 1875,
+    "scale": 0.04,
+    "regenRate": 3.9023,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "EnergyImportant",
+    "Ganker",
+    "RoleAutoAttacker",
+    "RoleCaster"
+  ],
+  "weapons": [
+    {
+      "nameId": "ZuljinHeroWeapon",
+      "isDisabled": false,
+      "range": 5.5,
+      "minimumRange": 0,
+      "period": 0.8,
+      "damage": 94,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "ZuljinFire",
+    "ZuljinLunar",
+    "ZuljinUltimate"
+  ],
+  "variationSkinIds": [
+    "ZuljinBaseVar1",
+    "ZuljinBaseVar2",
+    "ZuljinBaseVar3",
+    "ZuljinBaseVar4"
+  ],
+  "voiceLineIds": [
+    "ZuljinBase_VoiceLine01",
+    "ZuljinBase_VoiceLine02",
+    "ZuljinBase_VoiceLine03",
+    "ZuljinBase_VoiceLine04",
+    "ZuljinBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "ZuljinGrievousThrow|ZuljinGrievousThrow|Q",
+        "abilityId": "ZuljinGrievousThrow",
+        "buttonId": "ZuljinGrievousThrow",
+        "icon": "storm_ui_icon_zuljin_grievousthrow.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "ZuljinTwinCleave|ZuljinTwinCleave|W",
+        "abilityId": "ZuljinTwinCleave",
+        "buttonId": "ZuljinTwinCleave",
+        "icon": "storm_ui_icon_zuljin_twincleave.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "ZuljinRegeneration|ZuljinRegeneration|E",
+        "abilityId": "ZuljinRegeneration",
+        "buttonId": "ZuljinRegeneration",
+        "icon": "storm_ui_icon_zuljin_regeneration.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "ZuljinTazdingo|ZuljinTazdingo|Heroic",
+        "abilityId": "ZuljinTazdingo",
+        "buttonId": "ZuljinTazdingo",
+        "icon": "storm_ui_icon_zuljin_tazdingo.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "ZuljinGuillotine|ZuljinGuillotine|Heroic",
+        "abilityId": "ZuljinGuillotine",
+        "buttonId": "ZuljinGuillotine",
+        "icon": "storm_ui_icon_zuljin_guillotine.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": "ZuljinBerserker|ZuljinBerserker|Trait",
+        "abilityId": "ZuljinBerserker",
+        "buttonId": "ZuljinBerserker",
+        "icon": "storm_ui_icon_zuljin_berzerker.png",
+        "toggleCooldown": 0.5,
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Activable": [
+      {
+        "linkId": "ZuljinAmaniRage|ZuljinAmaniRageTalent|Active",
+        "abilityId": "ZuljinAmaniRage",
+        "buttonId": "ZuljinAmaniRageTalent",
+        "icon": "storm_ui_icon_zuljin_davoodooshuffle.png",
+        "abilityType": "Active"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "ZuljinRegeneration|ZuljinRegeneration|E": {
+      "Basic": [
+        {
+          "linkId": "ZuljinCancelRegeneration|ZuljinCancelRegeneration|E",
+          "abilityId": "ZuljinCancelRegeneration",
+          "buttonId": "ZuljinCancelRegeneration",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "E"
+        }
+      ]
+    },
+    "ZuljinBerserker|ZuljinBerserker|Trait": {
+      "Trait": [
+        {
+          "linkId": "ZuljinCancelBerserker|ZuljinCancelBerserker|Trait",
+          "abilityId": "ZuljinCancelBerserker",
+          "buttonId": "ZuljinCancelBerserker",
+          "icon": "storm_ui_icon_zuljin_berzerker_off.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Trait"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "ZuljinVoodooShuffle|ZuljinVoodooShuffle|Active|Level4": {
+      "Activable": [
+        {
+          "linkId": "ZuljinVoodooShuffle|ZuljinVoodooShuffle|Active",
+          "abilityId": "ZuljinVoodooShuffle",
+          "buttonId": "ZuljinVoodooShuffle",
+          "icon": "storm_ui_icon_zuljin_regeneration_a.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "ZuljinEnsnare|ZuljinEnsnare|Active|Level13": {
+      "Activable": [
+        {
+          "linkId": "ZuljinEnsnare|ZuljinEnsnare|Active",
+          "abilityId": "ZuljinEnsnare",
+          "buttonId": "ZuljinEnsnare",
+          "icon": "storm_ui_icon_zuljin_trollnet.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "ZuljinForestMedicine|ZuljinForestMedicine|E|Level20": {
+      "Basic": [
+        {
+          "linkId": "ZuljinRegenerationForestMedicine|ZuljinRegeneration|E",
+          "abilityId": "ZuljinRegenerationForestMedicine",
+          "buttonId": "ZuljinRegeneration",
+          "icon": "storm_ui_icon_zuljin_regeneration.png",
+          "abilityType": "E"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "ZuljinBoneslicer|ZuljinBoneslicer|Q|Level1",
+        "talentId": "ZuljinBoneslicer",
+        "buttonId": "ZuljinBoneslicer",
+        "abilityId": "ZuljinGrievousThrow",
+        "icon": "storm_ui_icon_zuljin_grievousthrow.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ZuljinGrievousThrow|ZuljinGrievousThrow|Q"
+        ]
+      },
+      {
+        "linkId": "ZuljinRecklessness|ZuljinRecklessness|Trait|Level1",
+        "talentId": "ZuljinRecklessness",
+        "buttonId": "ZuljinRecklessness",
+        "abilityId": "ZuljinBerserker",
+        "icon": "storm_ui_icon_zuljin_berzerker.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ZuljinBerserker|ZuljinBerserker|Trait",
+          "ZuljinCancelBerserker|ZuljinCancelBerserker|Trait"
+        ]
+      },
+      {
+        "linkId": "ZuljinHeadhunter|ZuljinHeadhunter|Passive|Level1",
+        "talentId": "ZuljinHeadhunter",
+        "buttonId": "ZuljinHeadhunter",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_zuljin_headhunter.png",
+        "abilityType": "Passive",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "ZuljinTrollsBlood|ZuljinTrollsBlood|E|Level4",
+        "talentId": "ZuljinTrollsBlood",
+        "buttonId": "ZuljinTrollsBlood",
+        "abilityId": "ZuljinRegeneration",
+        "icon": "storm_ui_icon_zuljin_regeneration.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ZuljinRegeneration|ZuljinRegeneration|E",
+          "ZuljinRegenerationForestMedicine|ZuljinRegeneration|E"
+        ]
+      },
+      {
+        "linkId": "ZuljinVoodooShuffle|ZuljinVoodooShuffle|Active|Level4",
+        "talentId": "ZuljinVoodooShuffle",
+        "buttonId": "ZuljinVoodooShuffle",
+        "abilityId": "ZuljinVoodooShuffle",
+        "icon": "storm_ui_icon_zuljin_regeneration_a.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ZuljinRegeneration|ZuljinRegeneration|E",
+          "ZuljinRegenerationForestMedicine|ZuljinRegeneration|E"
+        ]
+      },
+      {
+        "linkId": "Zul'jinAmaniRageAmaniHide|Zul'jinAmaniRageAmaniHide|Active|Level4",
+        "talentId": "Zul'jinAmaniRageAmaniHide",
+        "buttonId": "Zul'jinAmaniRageAmaniHide",
+        "abilityId": "ZuljinAmaniRage",
+        "icon": "storm_ui_icon_zuljin_davoodooshuffle.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "ZuljinAmaniRage|ZuljinAmaniRageTalent|Active"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "ZuljinViciousAssault|ZuljinViciousAssault|Q|Level7",
+        "talentId": "ZuljinViciousAssault",
+        "buttonId": "ZuljinViciousAssault",
+        "abilityId": "ZuljinGrievousThrow",
+        "icon": "storm_ui_icon_zuljin_grievousthrow.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ZuljinGrievousThrow|ZuljinGrievousThrow|Q"
+        ]
+      },
+      {
+        "linkId": "ZuljinArcaniteAxes|ZuljinArcaniteAxes|W|Level7",
+        "talentId": "ZuljinArcaniteAxes",
+        "buttonId": "ZuljinArcaniteAxes",
+        "abilityId": "ZuljinTwinCleave",
+        "icon": "storm_ui_icon_zuljin_twincleave.png",
+        "abilityType": "W",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ZuljinTwinCleave|ZuljinTwinCleave|W"
+        ]
+      },
+      {
+        "linkId": "ZuljinFerocity|ZuljinFerocity|Trait|Level7",
+        "talentId": "ZuljinFerocity",
+        "buttonId": "ZuljinFerocity",
+        "abilityId": "ZuljinBerserker",
+        "icon": "storm_ui_icon_zuljin_berzerker.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "ZuljinBerserker|ZuljinBerserker|Trait",
+          "ZuljinCancelBerserker|ZuljinCancelBerserker|Trait"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "ZuljinTazdingo|ZuljinTazdingo|Heroic|Level10",
+        "talentId": "ZuljinTazdingo",
+        "buttonId": "ZuljinTazdingo",
+        "abilityId": "ZuljinTazdingo",
+        "icon": "storm_ui_icon_zuljin_tazdingo.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "ZuljinGuillotine|ZuljinGuillotine|Heroic|Level10",
+        "talentId": "ZuljinGuillotine",
+        "buttonId": "ZuljinGuillotine",
+        "abilityId": "ZuljinGuillotine",
+        "icon": "storm_ui_icon_zuljin_guillotine.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "ZuljinLacerate|ZuljinLacerate|W|Level13",
+        "talentId": "ZuljinLacerate",
+        "buttonId": "ZuljinLacerate",
+        "abilityId": "ZuljinTwinCleave",
+        "icon": "storm_ui_icon_zuljin_twincleave.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ZuljinTwinCleave|ZuljinTwinCleave|W"
+        ]
+      },
+      {
+        "linkId": "ZuljinEyeOfZuljin|ZuljinEyeOfZuljin|Passive|Level13",
+        "talentId": "ZuljinEyeOfZuljin",
+        "buttonId": "ZuljinEyeOfZuljin",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_base.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2
+      },
+      {
+        "linkId": "ZuljinEnsnare|ZuljinEnsnare|Active|Level13",
+        "talentId": "ZuljinEnsnare",
+        "buttonId": "ZuljinEnsnare",
+        "abilityId": "ZuljinEnsnare",
+        "icon": "storm_ui_icon_zuljin_trollnet.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "ZuljinNoMercyTalent|ZuljinNoMercyTalent|Q|Level16",
+        "talentId": "ZuljinNoMercyTalent",
+        "buttonId": "ZuljinNoMercyTalent",
+        "abilityId": "ZuljinGrievousThrow",
+        "icon": "storm_ui_icon_zuljin_grievousthrow.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ZuljinGrievousThrow|ZuljinGrievousThrow|Q"
+        ]
+      },
+      {
+        "linkId": "ZuljinWrongPlaceWrongTime|ZuljinWrongPlaceWrongTime|W|Level16",
+        "talentId": "ZuljinWrongPlaceWrongTime",
+        "buttonId": "ZuljinWrongPlaceWrongTime",
+        "abilityId": "ZuljinTwinCleave",
+        "icon": "storm_ui_icon_zuljin_twincleave.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ZuljinTwinCleave|ZuljinTwinCleave|W"
+        ]
+      },
+      {
+        "linkId": "ZuljinLetTheKillingBegin|ZuljinLetTheKillingBegin|Passive|Level16",
+        "talentId": "ZuljinLetTheKillingBegin",
+        "buttonId": "ZuljinLetTheKillingBegin",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_speed.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "ZuljinAmaniResilience|ZuljinAmaniResilience|Heroic|Level20",
+        "talentId": "ZuljinAmaniResilience",
+        "buttonId": "ZuljinAmaniResilience",
+        "abilityId": "ZuljinTazdingo",
+        "icon": "storm_ui_icon_zuljin_tazdingo.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ZuljinTazdingo|ZuljinTazdingo|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "ZuljinTazdingo"
+        ]
+      },
+      {
+        "linkId": "ZuljinBuzzsaw|ZuljinBuzzsaw|Heroic|Level20",
+        "talentId": "ZuljinBuzzsaw",
+        "buttonId": "ZuljinBuzzsaw",
+        "abilityId": "ZuljinGuillotine",
+        "icon": "storm_ui_icon_zuljin_guillotine.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ZuljinGuillotine|ZuljinGuillotine|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "ZuljinGuillotine"
+        ]
+      },
+      {
+        "linkId": "ZuljinForestMedicine|ZuljinForestMedicine|E|Level20",
+        "talentId": "ZuljinForestMedicine",
+        "buttonId": "ZuljinForestMedicine",
+        "abilityId": "ZuljinRegeneration",
+        "icon": "storm_ui_icon_zuljin_regeneration.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "ZuljinRegeneration|ZuljinRegeneration|E",
+          "ZuljinRegenerationForestMedicine|ZuljinRegeneration|E"
+        ]
+      },
+      {
+        "linkId": "ZuljinPassiveASurpriseForYa|Zul'jinPassiveASurpriseForYa|Passive|Level20",
+        "talentId": "ZuljinPassiveASurpriseForYa",
+        "buttonId": "Zul'jinPassiveASurpriseForYa",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_aoe.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      }
+    ]
+  },
+  "sheet": "sheets/Zuljin.png",
+  "icons": {
+    "storm_ui_icon_zuljin_grievousthrow.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_zuljin_twincleave.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_zuljin_regeneration.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_zuljin_tazdingo.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_zuljin_guillotine.png": [
+      512,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_zuljin_berzerker.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_mount.png": [
+      128,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_zuljin_davoodooshuffle.png": [
+      256,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      384,
+      128,
+      111,
+      71
+    ],
+    "hud_btn_bg_ability_cancel.png": [
+      512,
+      128,
+      97,
+      111
+    ],
+    "storm_ui_icon_zuljin_berzerker_off.png": [
+      0,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_cancel_mount.png": [
+      128,
+      256,
+      76,
+      48
+    ],
+    "storm_ui_icon_zuljin_regeneration_a.png": [
+      256,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_zuljin_trollnet.png": [
+      384,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_zuljin_headhunter.png": [
+      512,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_autoattack_base.png": [
+      0,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_autoattack_speed.png": [
+      128,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_autoattack_aoe.png": [
+      256,
+      384,
+      128,
+      128
+    ]
+  }
+}

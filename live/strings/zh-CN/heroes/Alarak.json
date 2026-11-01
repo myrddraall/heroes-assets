@@ -1,0 +1,229 @@
+{
+  "abilities": {
+    "AlarakDiscordStrike|AlarakDiscordStrike|Q": {
+      "cooldownText": "冷却时间：8秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：55</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">0.5</c>秒后，阿拉纳克前方的敌人将受到<c val=\"#TooltipNumbers\">165</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害并被沉默<c val=\"#TooltipNumbers\">1.5</c>秒。",
+      "name": "混乱打击",
+      "shortText": "对范围内的敌人造成伤害，并使其沉默"
+    },
+    "AlarakTelekinesis|AlarakTelekinesis|W": {
+      "cooldownText": "冷却时间：12秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：30</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">选择方向</c><n/>制造一股力量，将阿拉纳克和所有被击中的敌人从目标点击退至目标方向。对敌人造成<c val=\"#TooltipNumbers\">48</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害。",
+      "name": "心灵传动",
+      "shortText": "将敌人推向目标位置"
+    },
+    "AlarakLightningSurge|AlarakLightningSurge|E": {
+      "cooldownText": "冷却时间：6秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：25</s>",
+      "fullText": "对一名敌人造成<c val=\"#TooltipNumbers\">62</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害，对在目标和阿拉纳克之间的所有敌人额外造成<c val=\"#TooltipNumbers\">100%</c>的伤害。每击中一名英雄恢复<c val=\"#TooltipNumbers\">75</c><c val=\"#ColorGray\">~~0.04~~</c>点生命值。",
+      "name": "闪电奔涌",
+      "shortText": "对一条直线上的敌人造成伤害"
+    },
+    "AlarakDeadlyChargeActivate|AlarakDeadlyCharge|Heroic": {
+      "cooldownText": "冷却时间：45秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：60</s>",
+      "fullText": "引导后，阿拉纳克向前冲锋，对沿途所有敌人造成<c val=\"#TooltipNumbers\">200</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害。冲锋距离取决于引导时间，最多<c val=\"#TooltipNumbers\">1.5</c>秒。<n/><n/>引导时下达移动命令可以不消耗法力值取消施法。受到伤害会打断引导。",
+      "name": "致命冲锋",
+      "shortText": "引导后冲锋一大段距离"
+    },
+    "AlarakCounterStrikeTargeted|AlarakCounterStrikeTargeted|Heroic": {
+      "cooldownText": "冷却时间：30秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：50</s>",
+      "fullText": "阿拉纳克瞄准一个区域并引导<c val=\"#TooltipNumbers\">1</c>秒，同时进入保护状态并变为不可阻挡。如果此时他受到敌方英雄的伤害，他将释放出一股冲击波，造成<c val=\"#TooltipNumbers\">275</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害。",
+      "name": "反击",
+      "shortText": "阻挡伤害并对大范围内的敌人造成伤害"
+    },
+    ":PASSIVE:|AlarakSadism|Trait": {
+      "fullText": "阿拉纳克对敌方英雄的技能伤害和自我治疗效果提高<c val=\"#TooltipNumbers\">100%</c>。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">可重复任务：</c>击杀英雄可以使你的施虐加成效果提高<c val=\"#TooltipNumbers\">3%</c>，最多可提高至<c val=\"#TooltipNumbers\">30%</c>。通过击杀英雄获得的施虐加成效果会在死亡后消失。",
+      "name": "施虐",
+      "shortText": "每一点施虐可以使阿拉纳克对敌方英雄造成的技能伤害和从敌方英雄身上获得的自我治疗量提高<c val=\"#TooltipNumbers\">1%</c><n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">可重复任务：</c>击杀英雄可以使你的施虐加成效果提高<c val=\"#TooltipNumbers\">3%</c>，最多可提高至<c val=\"#TooltipNumbers\">30%</c>。通过击杀英雄获得的施虐加成效果会在死亡后消失。"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "冷却时间：4秒",
+      "fullText": "引导<c val=\"#TooltipNumbers\">1</c>秒后，获得<s val=\"StandardTooltipDetails\">30%</s>移动速度。",
+      "name": "召唤坐骑"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "引导<c val=\"#TooltipNumbers\">6</c>秒后，传送回风暴大厅，立即恢复<c val=\"#TooltipNumbers\">1125</c>的生命值和<c val=\"#TooltipNumbers\">150</c>法力值。",
+      "name": "炉石"
+    },
+    "AlarakCounterStrikeTargeted2ndHeroic|AlarakCounterStrike2ndHeroicSadism|Trait": {
+      "cooldownText": "冷却时间：30秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：50</s>",
+      "fullText": "阿拉纳克瞄准一个区域并引导<c val=\"#TooltipNumbers\">1</c>秒，同时进入保护状态并变为不可阻挡。如果此时他受到敌方英雄的伤害，他将释放出一股冲击波，造成<c val=\"#TooltipNumbers\">275</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害。<n/><n/><s val=\"StandardTooltipHeader\">施虐</s><n/><n/>阿拉纳克对敌方英雄的技能伤害和自我治疗效果提高<c val=\"#TooltipNumbers\">100%</c>。<n/><n/>击杀英雄可以使你的施虐加成效果提高<c val=\"#TooltipNumbers\">3%</c>，最多可提高至<c val=\"#TooltipNumbers\">30%</c>。通过击杀英雄获得的施虐加成效果会在死亡后消失。",
+      "name": "反击",
+      "shortText": "对英雄造成额外技能伤害"
+    },
+    "AlarakDeadlyChargeExecute|AlarakUnleashDeadlyCharge|Heroic": {
+      "fullText": "施放致命冲锋。<n/><n/>引导时下达移动命令可以不消耗法力值取消施法。受到伤害会打断引导。",
+      "name": "施放致命冲锋",
+      "shortText": "鲁莽地冲锋"
+    },
+    "AlarakDeadlyChargeActivate2ndHeroic|AlarakDeadlyCharge2ndHeroicSadism|Trait": {
+      "cooldownText": "冷却时间：45秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：60</s>",
+      "fullText": "引导后，阿拉纳克向前冲锋，对沿途所有敌人造成<c val=\"#TooltipNumbers\">200</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害。冲锋距离取决于引导时间，最多<c val=\"#TooltipNumbers\">1.5</c>秒。<n/><n/>引导时下达移动命令可以不消耗法力值取消施法。受到伤害会打断引导。<n/><n/><s val=\"StandardTooltipHeader\">施虐</s><n/><n/>阿拉纳克对敌方英雄的技能伤害和自我治疗效果提高<c val=\"#TooltipNumbers\">100%</c>。<n/><n/>击杀英雄可以使你的施虐加成效果提高<c val=\"#TooltipNumbers\">3%</c>，最多可提高至<c val=\"#TooltipNumbers\">30%</c>。通过击杀英雄获得的施虐加成效果会在死亡后消失。",
+      "name": "致命冲锋",
+      "shortText": "对英雄造成额外技能伤害"
+    },
+    "AlarakDeadlyChargeExecute2ndHeroic|AlarakUnleashDeadlyCharge|Trait": {
+      "fullText": "施放致命冲锋。<n/><n/>引导时下达移动命令可以不消耗法力值取消施法。受到伤害会打断引导。",
+      "name": "施放致命冲锋",
+      "shortText": "鲁莽地冲锋"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "解除坐骑。",
+      "name": "解除坐骑"
+    },
+    "AlarakRiteofRakShir|AlarakRiteofRakShir|Trait": {
+      "cooldownText": "冷却时间：300秒",
+      "fullText": "激活后标记一名敌方英雄<c val=\"#TooltipNumbers\">300</c>秒。<n/><n/>使用混乱打击攻击被标记英雄可以使你的施虐加成效果提高<c val=\"#TooltipNumbers\">3%</c>。击杀被标记英雄使你的施虐加成提高<c val=\"#TooltipNumbers\">5%</c>，并使拉克希尔仪式的冷却时间减少至<c val=\"#TooltipNumbers\">10</c>秒。<n/><n/>通过拉克希尔仪式获得的所有施虐加成效果都会在死亡后消失。",
+      "name": "拉克希尔仪式",
+      "shortText": "标记并伤害英雄以提高施虐加成"
+    },
+    "AlarakLightningSurgeLightningBarrage|AlarakLightningSurgeLightningBarrage|E": {
+      "fullText": "对一名敌人造成<c val=\"#TooltipNumbers\">62</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害，对在目标和阿拉纳克之间的所有敌人额外造成<c val=\"#TooltipNumbers\">100%</c>的伤害。每击中一名英雄恢复<c val=\"#TooltipNumbers\">75</c><c val=\"#ColorGray\">~~0.04~~</c>点生命值。",
+      "name": "闪电奔涌",
+      "shortText": "对一条直线上的敌人造成伤害"
+    },
+    "AlarakHastyBargain|AlarakHastyBargain|Active": {
+      "cooldownText": "冷却时间：20秒",
+      "fullText": "激活后使阿拉纳克的施虐效果永久降低<c val=\"#TooltipNumbers\">4%</c>，并重置阿拉纳克基本技能的冷却时间。",
+      "name": "迅捷契约",
+      "shortText": "激活后降低施虐的加成并重置基本技能的冷却时间"
+    },
+    "AlarakLastLaugh|AlarakLastLaugh|Active": {
+      "cooldownText": "冷却时间：30秒",
+      "fullText": "激活后传送到指定位置，并解除所有定身、减速和持续性伤害效果。如果阿拉纳克使用笑到最后在<c val=\"#TooltipNumbers\">4</c>秒内未能用基本技能击中敌方英雄<c val=\"#TooltipNumbers\">3</c>次，他的生命值将减少至<c val=\"#TooltipNumbers\">1</c>点。",
+      "name": "笑到最后",
+      "shortText": "净化并传送，但会降低生命值"
+    },
+    "AlarakMightOfTheHighlordSetDeadlyChargeAsHeroic|AlarakMightOfTheHighlord|Active": {
+      "fullText": "阿拉纳克可获得两个终极技能。激活后可更换占据终极技能栏位的技能，而另一个技能会使用特质栏位。",
+      "name": "高阶领主之力",
+      "shortText": "获得两个终极技能"
+    },
+    "AlarakMightOfTheHighlordSetCounterStrikeAsHeroic|AlarakMightOfTheHighlord|Active": {
+      "fullText": "阿拉纳克可获得两个终极技能。激活后可更换占据终极技能栏位的技能，而另一个技能会使用特质栏位。",
+      "name": "高阶领主之力",
+      "shortText": "获得两个终极技能"
+    }
+  },
+  "talents": {
+    "AlarakOverwhelmingPowerDiscordStrike|AlarakOverwhelmingPower|Q|Level1": {
+      "fullText": "使用混乱打击命中一名敌方英雄可使你的攻击速度提高<c val=\"#TooltipNumbers\">40%</c>，并且普通攻击可为你恢复相当于伤害量<c val=\"#TooltipNumbers\">15%</c>的生命值，命中英雄时，会额外恢复相当于<c val=\"#TooltipNumbers\">50%</c>施虐加成的生命值。这些效果持续<c val=\"#TooltipNumbers\">4</c>秒。",
+      "name": "绝对力量",
+      "shortText": "混乱打击获得攻击速度与生命窃取加成"
+    },
+    "AlarakRuthlessMomentum|AlarakRuthlessMomentum|W|Level1": {
+      "fullText": "心灵传动的法力消耗从<c val=\"#TooltipNumbers\">30</c>点降低至<c val=\"#TooltipNumbers\">20点。</c>当生命值高于<c val=\"#TooltipNumbers\">80%</c>时，心灵传动的冷却速度加快<c val=\"#TooltipNumbers\">100%</c>。",
+      "name": "锐气逼人",
+      "shortText": "高生命值时减少冷却时间"
+    },
+    "AlarakExtendedLightning|AlarakExtendedLightning|E|Level1": {
+      "fullText": "施虐减少<c val=\"#TooltipNumbers\">10%</c>。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任务：</c>使用闪电奔涌的中段击中英雄。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">奖励：</c>击中<c val=\"#TooltipNumbers\">5</c>名英雄后，闪电奔涌的射程增加<c val=\"#TooltipNumbers\">20%</c>。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">奖励：</c>击中<c val=\"#TooltipNumbers\">15</c>名英雄后，闪电奔涌的中段还会减速敌人<c val=\"#TooltipNumbers\">40%</c>，持续<c val=\"#TooltipNumbers\">2</c>秒。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">奖励：</c>单次施法使用中段击中<c val=\"#TooltipNumbers\">3</c>名英雄后，施虐提高<c val=\"#TooltipNumbers\">10%</c>，并且立即获得所有其它任务奖励。",
+      "name": "延展闪电",
+      "shortText": "<c val=\"#TooltipQuest\">任务：</c>降低施虐加成，强化闪电奔涌"
+    },
+    "AlarakChaosReigns|AlarakChaosReigns|Q|Level4": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任务：</c>使用混乱打击命中英雄。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">奖励：</c>击中<c val=\"#TooltipNumbers\">15</c>个英雄后，混乱打击的伤害提高<c val=\"#TooltipNumbers\">60</c>点。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">奖励：</c>单次混乱打击命中<c val=\"#TooltipNumbers\">2</c>名英雄，可使其伤害提高<c val=\"#TooltipNumbers\">60</c>点。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">奖励：</c>单次混乱打击命中<c val=\"#TooltipNumbers\">3</c>名英雄，可使其伤害提高<c val=\"#TooltipNumbers\">100</c>点，并立即获得其它所有奖励效果。",
+      "name": "混乱统治",
+      "shortText": "<c val=\"#TooltipQuest\">任务：</c>击中英雄可提高混乱打击的伤害"
+    },
+    "AlarakNegativelyCharged|AlarakNegativelyCharged|E|Level4": {
+      "fullText": "使闪电奔涌对阿拉纳克和目标之间的敌人造成的伤害提高至<c val=\"#TooltipNumbers\">175%</c>。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">可重复任务：</c>每用闪电奔涌的中段击中一名英雄，该技能的伤害加成永久提高<c val=\"#TooltipNumbers\">5%</c>。",
+      "name": "负电荷",
+      "shortText": "<c val=\"#TooltipQuest\">任务：</c>提高闪电奔涌的中段伤害"
+    },
+    "AlarakShowofForce|AlarakShowofForce|Trait|Level4": {
+      "fullText": "英雄若在<c val=\"#TooltipNumbers\">2</c>秒内被阿拉纳克的技能击中<c val=\"#TooltipNumbers\">3</c>次，则会承受额外<c val=\"#TooltipNumbers\">61</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害，并使施虐提高<c val=\"#TooltipNumbers\">2%</c>，最多可叠加至<c val=\"#TooltipNumbers\">20%</c>。<n/><n/>从力量的展示中获得的施虐加成效果会在死亡后消失。",
+      "name": "力量的展示",
+      "shortText": "技能连招造成额外伤害，并给予施虐加成"
+    },
+    "AlarakDissonance|AlarakDissonance|Q|Level7": {
+      "fullText": "混乱打击的沉默时间延长<c val=\"#TooltipNumbers\">0.75</c>秒。",
+      "name": "不谐",
+      "shortText": "延长混乱打击的沉默时间"
+    },
+    "AlarakHinderedMotion|AlarakHinderedMotion|W|Level7": {
+      "fullText": "心灵传动使敌人的移动速度降低<c val=\"#TooltipNumbers\">30%</c>，持续<c val=\"#TooltipNumbers\">3</c>秒。",
+      "name": "妨害移动",
+      "shortText": "心灵传动可减速"
+    },
+    "AlarakAppliedForce|AlarakAppliedForce|W|Level7": {
+      "fullText": "施虐降低<c val=\"#TooltipNumbers\">10%</c>，但心灵传动的推动距离提高<c val=\"#TooltipNumbers\">15%</c>，使用范围提高<c val=\"#TooltipNumbers\">15%</c>。",
+      "name": "强施之力",
+      "shortText": "降低施虐的加成，提高心灵传动击退的距离和范围"
+    },
+    "AlarakDeadlyChargeFirstHeroic|AlarakDeadlyCharge|Heroic|Level10": {
+      "cooldownText": "冷却时间：45秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：60</s>",
+      "fullText": "引导后，阿拉纳克向前冲锋，对沿途所有敌人造成<c val=\"#TooltipNumbers\">200</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害。冲锋距离取决于引导时间，最多<c val=\"#TooltipNumbers\">1.5</c>秒。<n/><n/>引导时下达移动命令可以不消耗法力值取消施法。受到伤害会打断引导。",
+      "name": "致命冲锋",
+      "shortText": "引导后冲锋一大段距离"
+    },
+    "AlarakHeroicAbilityCounterStrike|AlarakCounterStrikeTargeted|Heroic|Level10": {
+      "cooldownText": "冷却时间：30秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：50</s>",
+      "fullText": "阿拉纳克瞄准一个区域并引导<c val=\"#TooltipNumbers\">1</c>秒，同时进入保护状态并变为不可阻挡。如果此时他受到敌方英雄的伤害，他将释放出一股冲击波，造成<c val=\"#TooltipNumbers\">275</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害。",
+      "name": "反击",
+      "shortText": "阻挡伤害并对大范围内的敌人造成伤害"
+    },
+    "AlarakBladeoftheHighlord|AlarakBladeoftheHighlord|Trait|Level13": {
+      "fullText": "对英雄的普通攻击使施虐提高<c val=\"#TooltipNumbers\">2%</c>，最多可叠加至<c val=\"#TooltipNumbers\">40%</c>。<n/><n/>死亡时会失去高阶领主之刃的所有施虐加成。",
+      "name": "高阶领主之刃",
+      "shortText": "普通攻击提高施虐加成"
+    },
+    "AlarakPureMalice|AlarakPureMalice|Trait|Level13": {
+      "fullText": "友方英雄阵亡时，施虐加成提高<c val=\"#TooltipNumbers\">10%</c>，最多提高至<c val=\"#TooltipNumbers\">40%</c>。<n/><n/>通过绝对仇恨获得的施虐加成会在死亡后消失。",
+      "name": "绝对仇恨",
+      "shortText": "盟友死亡提高施虐加成"
+    },
+    "AlarakRiteofRakShir|AlarakRiteofRakShir|Trait|Level13": {
+      "cooldownText": "冷却时间：300秒",
+      "fullText": "激活后标记一名敌方英雄<c val=\"#TooltipNumbers\">300</c>秒。<n/><n/>使用混乱打击攻击被标记英雄可以使你的施虐加成效果提高<c val=\"#TooltipNumbers\">3%</c>。击杀被标记英雄使你的施虐加成提高<c val=\"#TooltipNumbers\">5%</c>，并使拉克希尔仪式的冷却时间减少至<c val=\"#TooltipNumbers\">10</c>秒。<n/><n/>通过拉克希尔仪式获得的所有施虐加成效果都会在死亡后消失。",
+      "name": "拉克希尔仪式",
+      "shortText": "标记并伤害英雄以提高施虐加成"
+    },
+    "AlarakLethalOnslaughtDiscordStrike|AlarakLethalOnslaught|Q|Level16": {
+      "fullText": "使用混乱打击命中一名敌方英雄，可以使阿拉纳克的普通攻击获得<c val=\"#TooltipNumbers\">50%</c>的施虐伤害加成效果，持续<c val=\"#TooltipNumbers\">4</c>秒。对英雄的普通攻击刷新该效果的持续时间。",
+      "name": "夺命强攻",
+      "shortText": "混乱打击对普通攻击赋予施虐加成"
+    },
+    "AlarakLightningBarrage|AlarakLightningBarrage|E|Level16": {
+      "fullText": "使用闪电奔涌的中段击中一名敌方英雄后，在接下来的<c val=\"#TooltipNumbers\">3</c>秒内还可以免费对另一个不同的主要目标再次施放。 该次免费施法无法从闪电乱流中获益。",
+      "name": "闪电乱流",
+      "shortText": "中段击中敌人可免费施放一次闪电奔涌"
+    },
+    "AlarakMockingStrikes|AlarakMockingStrikes|Passive|Level16": {
+      "fullText": "对敌方英雄进行普通攻击，可以使阿拉纳克基本技能的冷却时间缩短<c val=\"#TooltipNumbers\">1.5</c>秒。当敌方英雄处于昏迷、沉默、减速或定身效果时，该加成翻倍。",
+      "name": "嘲讽打击",
+      "shortText": "攻击被控制的英雄减少冷却时间"
+    },
+    "AlarakWrathOfTheHighlord|AlarakWrathOfTheHighlord|Heroic|Level20": {
+      "fullText": "如果致命冲锋被选定为终极技能，则阿拉纳克的技能会对被致命冲锋击中的英雄造成相当于<c val=\"#TooltipNumbers\">75%</c>施虐加成伤害的额外伤害，持续<c val=\"#TooltipNumbers\">4</c>秒。<n/><n/>如果反击被选定为终极技能，则阿拉纳克的基本技能每击中一名敌方英雄就使其冷却时间缩短<c val=\"#TooltipNumbers\">2.5</c>秒。",
+      "name": "高阶领主之怒",
+      "shortText": "致命冲锋可强化施虐伤害<n/>基本技能可缩短反击的冷却时间"
+    },
+    "AlarakMightOfTheHighlord|AlarakMightOfTheHighlord|Active|Level20": {
+      "fullText": "阿拉纳克可获得两个终极技能。激活后可更换占据终极技能栏位的技能，而另一个技能会使用特质栏位。",
+      "name": "高阶领主之力",
+      "shortText": "获得两个终极技能"
+    },
+    "AlarakLastLaugh|AlarakLastLaugh|Active|Level20": {
+      "cooldownText": "冷却时间：30秒",
+      "fullText": "激活后传送到指定位置，并解除所有定身、减速和持续性伤害效果。如果阿拉纳克使用笑到最后在<c val=\"#TooltipNumbers\">4</c>秒内未能用基本技能击中敌方英雄<c val=\"#TooltipNumbers\">3</c>次，他的生命值将减少至<c val=\"#TooltipNumbers\">1</c>点。",
+      "name": "笑到最后",
+      "shortText": "净化并传送，但会降低生命值"
+    },
+    "AlarakHastyBargain|AlarakHastyBargain|Active|Level20": {
+      "cooldownText": "冷却时间：20秒",
+      "fullText": "激活后使阿拉纳克的施虐效果永久降低<c val=\"#TooltipNumbers\">4%</c>，并重置阿拉纳克基本技能的冷却时间。",
+      "name": "迅捷契约",
+      "shortText": "激活后降低施虐的加成并重置基本技能的冷却时间"
+    }
+  },
+  "units": {}
+}

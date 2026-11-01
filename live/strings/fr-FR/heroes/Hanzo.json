@@ -1,0 +1,181 @@
+{
+  "abilities": {
+    "HanzoStormBowFireTargetPoint|HanzoStormBow|Q": {
+      "cooldownText": "Temps de recharge : 4 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 20</s>",
+      "fullText": "Charge une flèche qui inflige <c val=\"#TooltipNumbers\">291</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts au premier ennemi qu’elle touche. La portée d’Arc tempête augmente avec son temps de canalisation.",
+      "name": "Arc tempête",
+      "shortText": "Charge puis décoche une flèche dévastatrice."
+    },
+    "HanzoScatterArrow|HanzoScatterArrow|W": {
+      "cooldownText": "Temps de recharge : 8 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 50</s>",
+      "fullText": "Décoche une flèche qui inflige <c val=\"#TooltipNumbers\">88</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts au premier héros adverse touché. Quand la flèche frappe un obstacle ou un bâtiment, elle se scinde en <c val=\"#TooltipNumbers\">5</c> flèches qui continuent leur course, rebondissent jusqu’à <c val=\"#TooltipNumbers\">4</c> fois et infligent <c val=\"#TooltipNumbers\">88</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts chacune au premier ennemi qu’elles touchent.",
+      "name": "Mille-flèches",
+      "shortText": "Décoche une flèche qui rebondit et se fragmente."
+    },
+    "HanzoSonicArrow|HanzoSonicArrow|E": {
+      "cooldownText": "Temps de recharge : 20 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 50</s>",
+      "fullText": "Décoche une flèche qui dévoile une large zone pendant <c val=\"#TooltipNumbers\">5</c> secondes. Les ennemis qui s’y trouvent sont révélés pendant <c val=\"#TooltipNumbers\">1</c> seconde. Si Flèche sonique atterrit directement sur un ennemi, elle lui inflige <c val=\"#TooltipNumbers\">165</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts et le suit dans ses déplacements.",
+      "name": "Flèche sonique",
+      "shortText": "Dévoile une large zone."
+    },
+    "HanzoDragonstrike|HanzoDragonstrike|Heroic": {
+      "cooldownText": "Temps de recharge : 60 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 60</s>",
+      "fullText": "Après <c val=\"#TooltipNumbers\">1.5</c> secondes, invoque deux esprits dragons qui avancent en ligne droite et infligent <c val=\"#TooltipNumbers\">84</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts toutes les <c val=\"#TooltipNumbers\">0,25</c> secondes aux héros adverses dans la zone. Les ennemis au centre de la trajectoire des dragons subissent <c val=\"#TooltipNumbers\">75 %</c> de dégâts supplémentaires.",
+      "name": "Frappe du dragon",
+      "shortText": "Invoque deux esprits dragons qui infligent des dégâts."
+    },
+    "HanzoDragonsArrow|HanzoDragonsArrow|Heroic": {
+      "cooldownText": "Temps de recharge : 70 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 90</s>",
+      "fullText": "Décoche une flèche qui survole le champ de bataille. Elle explose à l’impact avec un héros adverse et inflige <c val=\"#TooltipNumbers\">130</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts à tous les ennemis proches en plus de les étourdir pendant <c val=\"#TooltipNumbers\">0.5</c> seconde.<n/><n/>Après avoir franchi une distance moyenne, les dégâts sont portés à <c val=\"#TooltipNumbers\">260</c><c val=\"#ColorGray\">~~0.04~~</c> points et la durée d’étourdissement à <c val=\"#TooltipNumbers\">1.25</c> seconde.<n/><n/>Après avoir franchi une longue distance, ils sont respectivement portés à <c val=\"#TooltipNumbers\">390</c><c val=\"#ColorGray\">~~0.04~~</c> points et à <c val=\"#TooltipNumbers\">2</c> secondes.",
+      "name": "Flèche du dragon",
+      "shortText": "Décoche une flèche à portée illimitée qui inflige des dégâts et étourdit."
+    },
+    "HanzoNaturalAgilityButton|HanzoNaturalAgility|Trait": {
+      "cooldownText": "Temps de recharge :<sp/>25 secondes.",
+      "fullText": "Saute par-dessus un obstacle ou un bâtiment, jusqu’à une portée maximale.",
+      "name": "Agilité naturelle",
+      "shortText": "Permet de franchir les obstacles."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Temps de recharge : 4 secondes",
+      "fullText": "Après <c val=\"#TooltipNumbers\">1</c> seconde de canalisation, augmente la vitesse de déplacement de <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Appeler une monture"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Après <c val=\"#TooltipNumbers\">6</c> secondes de canalisation, téléporte au hall des Tempêtes et rend instantanément <c val=\"#TooltipNumbers\">1125</c> points de vie et <c val=\"#TooltipNumbers\">150</c> points de mana.",
+      "name": "Pierre de foyer"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Permet de descendre de la monture.",
+      "name": "Renvoyer la monture"
+    },
+    "HanzoPOTG|HanzoPOTGActivate|Heroic": {
+      "fullText": "Téléporte Hanzo à l’emplacement de sa flèche du dragon.",
+      "name": "Action de la partie"
+    }
+  },
+  "talents": {
+    "HanzoTargetPractice|HanzoTargetPractice|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quête :</c> toucher tous les héros adverses avec Arc tempête.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Récompense :</c> une fois chacun des héros adverses touchés par Arc tempête, sa portée est augmentée de <c val=\"#TooltipNumbers\">30%</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Récompense :</c> une fois chacun des héros adverses touchés <c val=\"#TooltipNumbers\">3</c> fois par Arc tempête, ses dégâts sont augmentés de <c val=\"#TooltipNumbers\">100</c> points.",
+      "name": "Cibles mouvantes",
+      "shortText": "<c val=\"#TooltipQuest\">Quête :</c> toucher tous les héros adverses renforce Arc tempête."
+    },
+    "HanzoSimpleGeometry|HanzoSimpleGeometry|W|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quête :</c> toucher un héros avec plusieurs projectiles de la même utilisation de Mille-flèches à <c val=\"#TooltipNumbers\">20</c> reprises. Tous les impacts qui suivent le second sont également pris en compte.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Récompense :</c> la première fois qu’elle touche un obstacle, Mille-flèches produit <c val=\"#TooltipNumbers\">2</c> flèches supplémentaires.",
+      "name": "Angle d’attaque",
+      "shortText": "<c val=\"#TooltipQuest\">Quête :</c> Mille-flèches crée davantage de projectiles."
+    },
+    "HanzoRedemption|HanzoRedemption|Passive|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quête :</c> toutes les <c val=\"#TooltipNumbers\">2</c> attaques de base portées à un même héros en l’espace de <c val=\"#TooltipNumbers\">10</c> secondes, Hanzo obtient <c val=\"#TooltipNumbers\">1</c> point d’Honneur, cumulable jusqu’à <c val=\"#TooltipNumbers\">12</c> points. Mourir fait perdre à Hanzo <c val=\"#TooltipNumbers\">3</c> points d’Honneur.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Récompense :</c> tant que Hanzo dispose de <c val=\"#TooltipNumbers\">12</c> points d’Honneur, sa vitesse d’attaque augmente de <c val=\"#TooltipNumbers\">50%</c>.",
+      "name": "Honneur",
+      "shortText": "<c val=\"#TooltipQuest\">Quête :</c> toucher des héros augmente la vitesse d’attaque."
+    },
+    "HanzoExplosiveArrows|HanzoExplosiveArrows|Q|Level4": {
+      "fullText": "À l’impact avec un serviteur ou un monstre, Arc tempête inflige <c val=\"#TooltipNumbers\">60%</c> de ses dégâts aux ennemis proches de la cible.",
+      "name": "Flèches explosives",
+      "shortText": "Les flèches d’Arc tempête explosent à l’impact avec les serviteurs et les monstres."
+    },
+    "HanzoSerratedArrows|HanzoSerratedArrows|W|Level4": {
+      "fullText": "Mille-flèches inflige <c val=\"#TooltipNumbers\">100%</c> de dégâts supplémentaires aux serviteurs, mercenaires et monstres.",
+      "name": "Pointes barbelées",
+      "shortText": "Mille-flèches inflige plus de dégâts aux cibles non héroïques."
+    },
+    "HanzoIgnoreAllDistractions|HanzoIgnoreAllDistractions|Passive|Level4": {
+      "fullText": "Les attaques de base tuent instantanément les serviteurs et leur portée est alors augmentée de <c val=\"#TooltipNumbers\">2</c> mètres pendant <c val=\"#TooltipNumbers\">3</c> secondes.",
+      "name": "Droit au but",
+      "shortText": "Augmente la portée des attaques de base et leur permet de tuer instantanément les serviteurs."
+    },
+    "HanzoTheDragonHungers|HanzoTheDragonHungers|Q|Level7": {
+      "fullText": "Toucher un héros avec Arc tempête confère <c val=\"#TooltipNumbers\">5%</c> de puissance de capacité pendant <c val=\"#TooltipNumbers\">12</c> secondes, jusqu’à un maximum de <c val=\"#TooltipNumbers\">20%</c>.",
+      "name": "Dragon affamé",
+      "shortText": "Arc tempête augmente la puissance de capacité."
+    },
+    "HanzoNeverOutmatched|HanzoNeverOutmatched|W|Level7": {
+      "fullText": "Réduit le coût en mana de Mille-flèches de <c val=\"#TooltipNumbers\">50</c> à <c val=\"#TooltipNumbers\">30</c> points. Les attaques de base portées à des héros réduisent le temps de recharge de Mille-flèches de <c val=\"#TooltipNumbers\">3</c> secondes.",
+      "name": "Dix mille flèches",
+      "shortText": "Les attaques de base réduisent le temps de recharge de Mille-flèches."
+    },
+    "HanzoSharpenedArrowheads|HanzoSharpenedArrowheads|Passive|Level7": {
+      "fullText": "Toucher un héros avec des attaques de base ou avec Arc tempête réduit son armure de <c val=\"#TooltipNumbers\">3</c> points pendant <c val=\"#TooltipNumbers\">3</c> secondes, jusqu’à une réduction maximale de <c val=\"#TooltipNumbers\">20</c> points.",
+      "name": "Défaut de la cuirasse",
+      "shortText": "Les attaques de base et Arc tempête réduisent l’armure."
+    },
+    "HanzoDragonstrike|HanzoDragonstrike|Heroic|Level10": {
+      "cooldownText": "Temps de recharge : 60 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 60</s>",
+      "fullText": "Après <c val=\"#TooltipNumbers\">1.5</c> secondes, invoque deux esprits dragons qui avancent en ligne droite et infligent <c val=\"#TooltipNumbers\">84</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts toutes les <c val=\"#TooltipNumbers\">0,25</c> secondes aux héros adverses dans la zone. Les ennemis au centre de la trajectoire des dragons subissent <c val=\"#TooltipNumbers\">75 %</c> de dégâts supplémentaires.",
+      "name": "Frappe du dragon",
+      "shortText": "Invoque deux esprits dragons qui infligent des dégâts."
+    },
+    "HanzoDragonsArrow|HanzoDragonsArrow|Heroic|Level10": {
+      "cooldownText": "Temps de recharge : 70 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 90</s>",
+      "fullText": "Décoche une flèche qui survole le champ de bataille. Elle explose à l’impact avec un héros adverse et inflige <c val=\"#TooltipNumbers\">130</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts à tous les ennemis proches en plus de les étourdir pendant <c val=\"#TooltipNumbers\">0.5</c> seconde.<n/><n/>Après avoir franchi une distance moyenne, les dégâts sont portés à <c val=\"#TooltipNumbers\">260</c><c val=\"#ColorGray\">~~0.04~~</c> points et la durée d’étourdissement à <c val=\"#TooltipNumbers\">1.25</c> seconde.<n/><n/>Après avoir franchi une longue distance, ils sont respectivement portés à <c val=\"#TooltipNumbers\">390</c><c val=\"#ColorGray\">~~0.04~~</c> points et à <c val=\"#TooltipNumbers\">2</c> secondes.",
+      "name": "Flèche du dragon",
+      "shortText": "Décoche une flèche à portée illimitée qui inflige des dégâts et étourdit."
+    },
+    "HanzoFleetofFoot|HanzoFleetofFoot|Q|Level13": {
+      "fullText": "Toucher un héros avec Arc tempête augmente la vitesse de déplacement de <c val=\"#TooltipNumbers\">10%</c> pendant <c val=\"#TooltipNumbers\">6</c> secondes, jusqu’à un maximum de <c val=\"#TooltipNumbers\">30%</c>.",
+      "name": "Pied sûr",
+      "shortText": "Arc tempête augmente la vitesse de déplacement."
+    },
+    "HanzoNinjaAssassin|HanzoNinjaAssassin|Trait|Level13": {
+      "fullText": "Toucher des héros avec Arc tempête réduit le temps de recharge d’Agilité naturelle de <c val=\"#TooltipNumbers\">10</c> secondes ; les tuer annule le temps de recharge.",
+      "name": "Assassin ninja",
+      "shortText": "Arc tempête réduit le temps de recharge d’Agilité naturelle."
+    },
+    "HanzoMountedArchery|HanzoMountedArchery|Passive|Level13": {
+      "fullText": "Réduit le temps de recharge d’invocation d’une monture de <c val=\"#TooltipNumbers\">2</c> secondes. Hanzo bénéficie d’un bonus de <c val=\"#TooltipNumbers\">25 %</c> à l’augmentation de sa vitesse de déplacement pendant les <c val=\"#TooltipNumbers\">5</c> secondes qui suivent l’invocation d’une monture. Utiliser Agilité naturelle invoque instantanément la monture.",
+      "name": "Voltigeur",
+      "shortText": "Augmente la vitesse de la monture et Agilité naturelle invoque instantanément la monture."
+    },
+    "HanzoFlawlessTechnique|HanzoFlawlessTechnique|Passive|Level16": {
+      "fullText": "Toucher des héros avec Arc tempête augmente les dégâts de la prochaine attaque de base de Hanzo dans les <c val=\"#TooltipNumbers\">5</c> secondes de <c val=\"#TooltipNumbers\">40%</c>. Les attaques de base portées à des héros augmentent les dégâts du prochain Arc tempête dans les <c val=\"#TooltipNumbers\">5</c> secondes de <c val=\"#TooltipNumbers\">40%</c>.",
+      "name": "Le vent se lève",
+      "shortText": "Arc tempête et les attaques de base se renforcent mutuellement."
+    },
+    "HanzoPiercingArrows|HanzoPiercingArrows|Passive|Level16": {
+      "fullText": "Les projectiles d’Arc tempête et de Mille-flèches transpercent leur cible pour toucher un ennemi supplémentaire. De plus, les projectiles de Mille-flèches peuvent transpercer <c val=\"#TooltipNumbers\">1</c> nouvel ennemi chaque fois qu’il rebondissent.",
+      "name": "Flèches acérées",
+      "shortText": "Les projectiles d’Arc tempête et de Mille-flèches transpercent leur cible."
+    },
+    "HanzoGiantSlayer|HanzoGiantSlayer|Passive|Level16": {
+      "fullText": "Les héros adverses touchés par Mille-flèches et par les attaques de base subissent un montant de dégâts supplémentaire équivalent à <c val=\"#TooltipNumbers\">1.6%</c> de leur maximum de points de vie.",
+      "name": "Tueur de géants",
+      "shortText": "Les attaques de base et Mille-flèches infligent des dégâts supplémentaires."
+    },
+    "HanzoTheDragonAwakens|HanzoTheDragonAwakens|Heroic|Level20": {
+      "fullText": "Toucher un héros avec Arc tempête, Mille-flèches ou une attaque de base réduit le temps de recharge de Frappe du dragon de <c val=\"#TooltipNumbers\">4</c> secondes.",
+      "name": "L’éveil du dragon",
+      "shortText": "Les capacités et les attaques de base réduisent le temps de recharge de Frappe du dragon."
+    },
+    "HanzoPOTG|HanzoPOTG|Heroic|Level20": {
+      "fullText": "Quand elle est en vol et jusqu’à <c val=\"#TooltipNumbers\">2</c> secondes après avoir frappé une cible, Flèche du dragon peut être réactivée pour téléporter Hanzo à sa destination, où il effectue un bond de recul. Si la flèche est réactivée après impact, Hanzo décoche des flèches qui infligent <c val=\"#TooltipNumbers\">132</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts à chacune des cibles touchées par l’impact de Flèche du dragon.<n/><n/>Hanzo est insensible aux effets de contrôle pendant Action de la partie.",
+      "name": "Action de la partie",
+      "shortText": "Téléporte au point d’impact de Flèche du dragon."
+    },
+    "HanzoBullseye|HanzoBullseye|E|Level20": {
+      "fullText": "Augmente la vitesse et la zone d’impact centrale de Flèche sonique de <c val=\"#TooltipNumbers\">100%</c>. Les héros présents dans la zone centrale de Flèche sonique sont étourdis pendant <c val=\"#TooltipNumbers\">1</c> seconde.",
+      "name": "Exposition",
+      "shortText": "Flèche sonique se déplace plus vite et étourdit."
+    },
+    "HanzoPerfectAgility|HanzoPerfectAgility|Trait|Level20": {
+      "fullText": "Agilité naturelle obtient une <c val=\"#TooltipNumbers\">2e</c> charge et son temps de recharge est réduit de <c val=\"#TooltipNumbers\">10</c> secondes.",
+      "name": "Agilité surnaturelle",
+      "shortText": "Confère une charge d’Agilité naturelle et réduit le temps de recharge."
+    }
+  },
+  "units": {
+    "HanzoDragonstrikeController": {
+      "name": "Frappe du dragon (contrôleur)"
+    },
+    "HanzoDragonstrikeSoundUnit": {
+      "name": "Frappe du dragon (unité sonore)"
+    }
+  }
+}

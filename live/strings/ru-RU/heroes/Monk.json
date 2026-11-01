@@ -1,0 +1,248 @@
+{
+  "abilities": {
+    "MonkRadiantDash|MonkRadiantDash|Q": {
+      "cooldownText": "Время восстановления заряда: 12 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 25</s>",
+      "fullText": "Устремляется к выбранному противнику или союзнику. Если цель враждебна, поражает ее автоатакой.<n/><n/>Максимум зарядов – <c val=\"#TooltipNumbers\">2</c>.",
+      "name": "Сияющий порыв",
+      "shortText": "Совершает прыжок к союзнику или противнику."
+    },
+    "MonkBreathOfHeaven|MonkBreathOfHeaven|W": {
+      "cooldownText": "Время восстановления: 10 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 65</s>",
+      "fullText": "Восполняет находящимся поблизости героям <c val=\"#TooltipNumbers\">295</c><c val=\"#ColorGray\">~~0.04~~</c> ед. здоровья и повышает скорость их передвижения на <c val=\"#TooltipNumbers\">15%</c> на <c val=\"#TooltipNumbers\">3</c> сек.",
+      "name": "Дыхание небес",
+      "shortText": "Исцеляет союзных героев и увеличивает их скорость передвижения."
+    },
+    "MonkDeadlyReach|MonkDeadlyReach|E": {
+      "cooldownText": "Время восстановления: 10 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 45</s>",
+      "fullText": "Следующая автоатака Каразима увеличит скорость и дальность его атаки на <c val=\"#TooltipNumbers\">100%</c> на <c val=\"#TooltipNumbers\">2</c> сек.",
+      "name": "Касание смерти",
+      "shortText": "Повышает скорость и дальность атаки."
+    },
+    "MonkSevenSidedStrike|MonkSevenSidedStrike|Heroic": {
+      "cooldownText": "Время восстановления: 50 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 77</s>",
+      "fullText": "Каразим становится неуязвимым и наносит <c val=\"#TooltipNumbers\">7</c> ударов в течение <c val=\"#TooltipNumbers\">2</c> сек. Каждый удар поражает героя с наибольшим запасом здоровья в области действия, нанося урон в объеме <c val=\"#TooltipNumbers\">7%</c> максимального запаса здоровья цели.",
+      "name": "Семь сторон света",
+      "shortText": "Становится неуязвимым и атакует находящихся поблизости героев."
+    },
+    "MonkDivinePalm|MonkDivinePalm|Heroic": {
+      "cooldownText": "Время восстановления: 50 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 50</s>",
+      "fullText": "Защищает выбранного союзного героя, восполняя ему <c val=\"#TooltipNumbers\">1200</c><c val=\"#ColorGray\">~~0.04~~</c> ед. здоровья, если тот получает смертельный урон в течение <c val=\"#TooltipNumbers\">4</c> сек. после применения способности.",
+      "name": "Божественная длань",
+      "shortText": "Защищает союзника от смерти."
+    },
+    ":PASSIVE:|MonkBlankTrait|Trait": {
+      "fullText": "<c val=\"#TooltipNumbers\">Выберите «Перерождение», «Железные кулаки» или «Взгляд за грань» в панели талантов.</c>",
+      "name": "Выберите умение",
+      "shortText": "Выберите одно из доступных умений."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Время восстановления: 4 сек.",
+      "fullText": "После подготовки длительностью <c val=\"#TooltipNumbers\">1</c> сек. повышает скорость передвижения на <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Вызов транспорта"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "После поддержания в течение <c val=\"#TooltipNumbers\">6</c> сек. телепортирует героя в Зал Штормов, моментально восполняя <c val=\"#TooltipNumbers\">1125</c> ед. здоровья и <c val=\"#TooltipNumbers\">150</c> ед. маны.",
+      "name": "Возвращение"
+    },
+    ":PASSIVE:|MonkDeadlyReachActive|E": {
+      "fullText": "Следующая автоатака Каразима увеличит скорость и дальность его атаки на <c val=\"#TooltipNumbers\">100%</c> на <c val=\"#TooltipNumbers\">2</c> сек.",
+      "name": "«Касание смерти» активно"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Покинуть транспорт.",
+      "name": "Отмена транспорта"
+    },
+    "HeroGenericSpellShield|GenericSpellShieldItemDisabled|Active": {
+      "fullText": "«Энергетический щит» отключен и не будет срабатывать.<n/><n/>Щелкните по этой кнопке, чтобы включить его.",
+      "name": "«Энергетический щит» отключен",
+      "shortText": "Уменьшает урон, получаемый от способностей."
+    },
+    ":PASSIVE:|MonkInsight|Trait": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\"height=\"22\" /><c val=\"#TooltipQuest\">Задача:</c> каждая <c val=\"#TooltipNumbers\">3-я</c> автоатака восполняет <c val=\"#TooltipNumbers\">14</c><c val=\"#ColorGray\">~~0.04~~</c> ед. маны, дает эффект «Взгляд за грань» и повышает скорость передвижения на <c val=\"#TooltipNumbers\">25%</c> на <c val=\"#TooltipNumbers\">2.5</c> сек.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\"height=\"22\" /><c val=\"#TooltipQuest\">Награда:</c> после накопления <c val=\"#TooltipNumbers\">100</c> эффектов «Взгляд за грань» каждая <c val=\"#TooltipNumbers\">3-я</c> автотака будет сокращать время восстановления базовых способностей на <c val=\"#TooltipNumbers\">1.75</c> сек.",
+      "name": "Взгляд за грань"
+    },
+    ":PASSIVE:|MonkIronFists|Trait": {
+      "fullText": "Каждая <c val=\"#TooltipNumbers\">3-я</c> автоатака дополнительно наносит <c val=\"#TooltipNumbers\">110%</c> урона и повышает скорость передвижения на <c val=\"#TooltipNumbers\">25%</c> на <c val=\"#TooltipNumbers\">2.5</c> сек.",
+      "name": "Железные кулаки"
+    },
+    ":PASSIVE:|MonkTranscendence|Trait": {
+      "fullText": "Каждая <c val=\"#TooltipNumbers\">3-я</c> автоатака восполняет <c val=\"#TooltipNumbers\">104</c><c val=\"#ColorGray\">~~0.04~~</c> ед. здоровья находящемуся рядом союзному герою с наименьшим запасом здоровья и повышает его скорость передвижения на <c val=\"#TooltipNumbers\">25%</c> на <c val=\"#TooltipNumbers\">2.5</c> сек.",
+      "name": "Перерождение"
+    },
+    "MonkAirAlly|MonkAirAlly|Active": {
+      "cooldownText": "Время восстановления: 30 сек.",
+      "fullText": "Призывает воздушного союзника, который увеличивает силу способностей союзных героев на <c val=\"#TooltipNumbers\">20%</c> и открывает обзор в обширной области вокруг себя. Запас здоровья союзника составляет <c val=\"#TooltipNumbers\">300</c><c val=\"#ColorGray\">~~0.04~~</c> ед., а время существования – <c val=\"#TooltipNumbers\">10</c> сек. К воздушным союзникам можно перенестись с помощью «Сияющего порыва».",
+      "name": "Воздушный союзник",
+      "shortText": "Призывает воздушного союзника, который открывает обзор и усиливает способности."
+    },
+    "MonkEarthAlly|MonkEarthAlly|Active": {
+      "cooldownText": "Время восстановления: 45 сек.",
+      "fullText": "Призывает земляного союзника, который дает находящимся поблизости дружественным героям <c val=\"#TooltipNumbers\">50</c> ед. кинетической брони. Эта броня уменьшает урон, получаемый от автоатак вражеских героев, на <c val=\"#TooltipNumbers\">50%</c>. Запас здоровья союзника составляет <c val=\"#TooltipNumbers\">400</c><c val=\"#ColorGray\">~~0.04~~</c> ед. Время существования – <c val=\"#TooltipNumbers\">10</c> сек. К земляным союзникам можно перенестись с помощью «Сияющего порыва».",
+      "name": "Земляной союзник",
+      "shortText": "Призывает земляного союзника, дающего кинетическую броню."
+    },
+    "MonkSpiritAlly|MonkSpiritAlly|Active": {
+      "cooldownText": "Время восстановления: 45 сек.",
+      "fullText": "Призывает призрачного союзника, который восполняет союзным героям в обширной области вокруг себя <c val=\"#TooltipNumbers\">2%</c> их максимального запаса здоровья раз в секунду в течение <c val=\"#TooltipNumbers\">10</c> сек. Запас здоровья союзника составляет <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c> ед. К призрачным союзникам можно перенестись с помощью «Сияющего порыва».",
+      "name": "Призрачный союзник",
+      "shortText": "Призывает призрачного союзника, лечащего цели в области вокруг себя."
+    },
+    "HeroGenericSpellShield|GenericSpellShieldItemEnabled|Active": {
+      "fullText": "Раз в <c val=\"#TooltipNumbers\">30</c> сек. ваш герой получает <c val=\"#TooltipNumbers\">50</c> ед. энергетической брони. Эта броня защищает его от следующей способности противника, а также от последующих способностей, использованных против него в течение <c val=\"#TooltipNumbers\">3</c> секунд, уменьшая получаемый от них урон на <c val=\"#TooltipNumbers\">50%</c>.<n/><n/>Щелкните по этой кнопке, чтобы отключить автоматическое срабатывание «Энергетического щита».",
+      "name": "«Энергетический щит» включен",
+      "shortText": "Уменьшает урон, получаемый от способностей."
+    },
+    "TalentBucketStormShield|GenericStormShield|Active": {
+      "cooldownText": "Время восстановления: 45 сек.",
+      "fullText": "При использовании дает находящимся рядом союзным героям щит прочностью <c val=\"#TooltipNumbers\">20%</c> их максимального запаса здоровья. Время действия – <c val=\"#TooltipNumbers\">3</c> сек.",
+      "name": "Щит бури",
+      "shortText": "Защищает дружественных героев щитом."
+    },
+    "MonkEpiphany|MonkEpiphany|Active": {
+      "cooldownText": "Время восстановления: 70 сек.",
+      "fullText": "При использовании восполняет <c val=\"#TooltipNumbers\">70%</c> максимального запаса маны и дает <c val=\"#TooltipNumbers\">2</c> заряда «Сияющего порыва».",
+      "name": "Прозрение",
+      "shortText": "Восполняет ману и дает заряды «Сияющего порыва»."
+    }
+  },
+  "talents": {
+    "MonkTranscendence|MonkTranscendenceTalent|Trait|Level1": {
+      "fullText": "Каждая <c val=\"#TooltipNumbers\">3-я</c> автоатака восполняет <c val=\"#TooltipNumbers\">104</c><c val=\"#ColorGray\">~~0.04~~</c> ед. здоровья находящемуся поблизости союзному герою с наименьшим запасом здоровья и повышает скорость его передвижения на <c val=\"#TooltipNumbers\">25%</c> на <c val=\"#TooltipNumbers\">2.5</c> сек.",
+      "name": "Перерождение",
+      "shortText": "Автоатаки восполняют здоровье."
+    },
+    "MonkIronFists|MonkIronFistsTalent|Trait|Level1": {
+      "fullText": "Каждая <c val=\"#TooltipNumbers\">3-я</c> автоатака дополнительно наносит <c val=\"#TooltipNumbers\">110%</c> урона и повышает скорость передвижения на <c val=\"#TooltipNumbers\">25%</c> на <c val=\"#TooltipNumbers\">2.5</c> сек.",
+      "name": "Железные кулаки",
+      "shortText": "Автоатаки наносят больше урона."
+    },
+    "MonkInsight|MonkInsightTalent|Trait|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\"height=\"22\" /><c val=\"#TooltipQuest\">Задача:</c> каждая <c val=\"#TooltipNumbers\">3-я</c> автоатака восполняет <c val=\"#TooltipNumbers\">14</c><c val=\"#ColorGray\">~~0.04~~</c> ед. маны, дает эффект «Взгляд за грань» и повышает скорость передвижения на <c val=\"#TooltipNumbers\">25%</c> на <c val=\"#TooltipNumbers\">2.5</c> сек.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\"height=\"22\" /><c val=\"#TooltipQuest\">Награда:</c> после накопления <c val=\"#TooltipNumbers\">100</c> эффектов «Взгляд за грань» каждая <c val=\"#TooltipNumbers\">3-я</c> автотака будет сокращать время восстановления базовых способностей на <c val=\"#TooltipNumbers\">1.75</c> сек.",
+      "name": "Взгляд за грань",
+      "shortText": "<c val=\"#TooltipQuest\">Задача:</c> автоатаки дают ману и ускоряют восстановление способностей."
+    },
+    "MonkSpiritAlly|MonkSpiritAlly|Active|Level4": {
+      "cooldownText": "Время восстановления: 45 сек.",
+      "fullText": "Призывает призрачного союзника, который восполняет союзным героям в обширной области вокруг себя <c val=\"#TooltipNumbers\">2%</c> их максимального запаса здоровья раз в секунду в течение <c val=\"#TooltipNumbers\">10</c> сек. Запас здоровья союзника составляет <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c> ед. К призрачным союзникам можно перенестись с помощью «Сияющего порыва».",
+      "name": "Призрачный союзник",
+      "shortText": "Призывает призрачного союзника, лечащего цели в области вокруг себя."
+    },
+    "MonkEarthAlly|MonkEarthAlly|Active|Level4": {
+      "cooldownText": "Время восстановления: 45 сек.",
+      "fullText": "Призывает земляного союзника, который дает находящимся поблизости дружественным героям <c val=\"#TooltipNumbers\">50</c> ед. кинетической брони. Эта броня уменьшает урон, получаемый от автоатак вражеских героев, на <c val=\"#TooltipNumbers\">50%</c>. Запас здоровья союзника составляет <c val=\"#TooltipNumbers\">400</c><c val=\"#ColorGray\">~~0.04~~</c> ед. Время существования – <c val=\"#TooltipNumbers\">10</c> сек. К земляным союзникам можно перенестись с помощью «Сияющего порыва».",
+      "name": "Земляной союзник",
+      "shortText": "Призывает земляного союзника, дающего кинетическую броню."
+    },
+    "MonkAirAlly|MonkAirAlly|Active|Level4": {
+      "cooldownText": "Время восстановления: 30 сек.",
+      "fullText": "Призывает воздушного союзника, который увеличивает силу способностей союзных героев на <c val=\"#TooltipNumbers\">20%</c> и открывает обзор в обширной области вокруг себя. Запас здоровья союзника составляет <c val=\"#TooltipNumbers\">300</c><c val=\"#ColorGray\">~~0.04~~</c> ед., а время существования – <c val=\"#TooltipNumbers\">10</c> сек. К воздушным союзникам можно перенестись с помощью «Сияющего порыва».",
+      "name": "Воздушный союзник",
+      "shortText": "Призывает воздушного союзника, который открывает обзор и усиливает способности."
+    },
+    "MonkBlindingSpeedRadiantDash|MonkBlindingSpeedTalent|Q|Level7": {
+      "fullText": "Уменьшает время восстановления «Сияющего порыва» на <c val=\"#TooltipNumbers\">2</c> сек. и увеличивает максимальное число его зарядов на <c val=\"#TooltipNumbers\">1</c>.",
+      "name": "Быстрее ветра",
+      "shortText": "«Сияющий порыв» можно применять чаще."
+    },
+    "MonkHeavenlyZealBreathofHeaven|MonkHeavenlyZealBreathofHeaven|W|Level7": {
+      "fullText": "Увеличивает бонус к скорости передвижения от «Дыхания небес» до <c val=\"#TooltipNumbers\">30%</c>. После применения «Сияющего порыва» к союзнику «Дыхание небес» восстанавливает ему на <c val=\"#TooltipNumbers\">50%</c> больше здоровья в течение <c val=\"#TooltipNumbers\">3.5</c> сек.",
+      "name": "Божественное рвение",
+      "shortText": "«Дыхание небес» ускоряет передвижение союзников."
+    },
+    "MonkBlazingFistsDeadlyReach|MonkBlazingFistsTalent|E|Level7": {
+      "fullText": "Увеличивает время действия «Касания смерти» на <c val=\"#TooltipNumbers\">100%</c>. Каждая <c val=\"#TooltipNumbers\">3-я</c> автоатака сокращает время восстановления «Касания смерти» на <c val=\"#TooltipNumbers\">0.75</c> сек.",
+      "name": "Пылающие кулаки",
+      "shortText": "Автоатаки ускоряют восстановление «Касания смерти»."
+    },
+    "MonkHeroicAbilityDivinePalm|MonkDivinePalm|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 50 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 50</s>",
+      "fullText": "Защищает выбранного союзного героя, восполняя ему <c val=\"#TooltipNumbers\">1200</c><c val=\"#ColorGray\">~~0.04~~</c> ед. здоровья, если тот получает смертельный урон в течение <c val=\"#TooltipNumbers\">4</c> сек. после применения способности.",
+      "name": "Божественная длань",
+      "shortText": "Защищает союзника от смерти."
+    },
+    "MonkHeroicAbilitySevenSidedStrike|MonkSevenSidedStrike|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 50 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 77</s>",
+      "fullText": "Каразим становится неуязвимым и наносит <c val=\"#TooltipNumbers\">7</c> ударов в течение <c val=\"#TooltipNumbers\">2</c> сек. Каждый удар поражает героя с наибольшим запасом здоровья в области действия, нанося урон в объеме <c val=\"#TooltipNumbers\">7%</c> максимального запаса здоровья цели.",
+      "name": "Семь сторон света",
+      "shortText": "Становится неуязвимым и атакует находящихся поблизости героев."
+    },
+    "MonkQuicksilverRadiantDash|MonkQuicksilverTalent|Q|Level13": {
+      "fullText": "При использовании «Сияющего порыва» на союзнике повышает скорость передвижения цели и Каразима на <c val=\"#TooltipNumbers\">30%</c> на <c val=\"#TooltipNumbers\">3</c> сек.",
+      "name": "Молниеносность",
+      "shortText": "«Сияющий порыв» ускоряет передвижение."
+    },
+    "GenericTalentSpellShield|GenericSpellShieldTalent|Active|Level13": {
+      "fullText": "Раз в <c val=\"#TooltipNumbers\">30</c> сек. ваш герой получает <c val=\"#TooltipNumbers\">50</c> ед. энергетической брони. Эта броня защищает его от следующей способности противника, а также от последующих способностей, использованных против него в течение <c val=\"#TooltipNumbers\">3</c> секунд, уменьшая получаемый от них урон на <c val=\"#TooltipNumbers\">50%</c>.<n/><n/>Вы можете включить или отключить автоматическое срабатывание этого таланта.",
+      "name": "Энергетический щит",
+      "shortText": "Периодически дает временную энергетическую броню."
+    },
+    "MonkSixthSense|MonkSixthSense|Passive|Level13": {
+      "fullText": "При оглушении или обездвиживании Каразим получает <c val=\"#TooltipNumbers\">75</c> ед. кинетической брони. Эта броня уменьшает урон от автоатак вражеских героев на <c val=\"#TooltipNumbers\">4%</c> в течение <c val=\"#TooltipNumbers\">75</c> сек. ",
+      "name": "Шестое чувство",
+      "shortText": "При оглушении и обездвиживании Каразим получает кинетическую броню."
+    },
+    "MonkCleansingTouchRadiantDash|MonkCleansingTouch|Q|Level16": {
+      "fullText": "При использовании «Сияющего порыва» на союзнике тот становится неудержимым на <c val=\"#TooltipNumbers\">1</c> сек.",
+      "name": "Очищающее прикосновение",
+      "shortText": "«Сияющий порыв» делает союзника неудержимым."
+    },
+    "MonkWayoftheHundredFistsRadiantDash|MonkWayoftheHundredFistsTalent|Q|Level16": {
+      "fullText": "«Сияющий порыв», примененный к противнику, обрушивает на него быструю серию из <c val=\"#TooltipNumbers\">6</c> автоатак, каждая из которых наносит <c val=\"#TooltipNumbers\">45%</c> базового урона.",
+      "name": "Путь Сотни Кулаков",
+      "shortText": "«Сияющий порыв» обрушивает шквал ударов."
+    },
+    "MonkEchoofHeavenBreathofHeaven|MonkEchoofHeavenTalent|W|Level16": {
+      "fullText": "Уменьшает объем здоровья, восполняемого «Дыханием небес», до <c val=\"#TooltipNumbers\">75%</c> базового, но при этом оно исцеляет еще раз спустя <c val=\"#TooltipNumbers\">3</c> сек. после применения.",
+      "name": "Небесное эхо",
+      "shortText": "«Дыхание небес» исцеляет повторно."
+    },
+    "MonkPeacefulReposeDivinePalm|MonkPeacefulReposeTalent|Heroic|Level20": {
+      "fullText": "Увеличивает объем исцеления от «Божественной длани» на <c val=\"#TooltipNumbers\">75%</c> и сокращает ее время восстановления до <c val=\"#TooltipNumbers\">5</c> сек., если ее цель не погибает.",
+      "name": "Мирный отдых",
+      "shortText": "«Божественная длань» восстанавливается быстрее, если цель выживает."
+    },
+    "MonkElevenSidedStrikeSevenSidedStrike|MonkElevenSidedStrikeTalent|Heroic|Level20": {
+      "fullText": "Под действием «Семи сторон света» Каразим наносит <c val=\"#TooltipNumbers\">4</c> дополнительных удара.",
+      "name": "Неповиновение",
+      "shortText": "Дополнительные удары под действием «Семи сторон света»."
+    },
+    "MonkFistsofLegendTrait|MonkFistsofLegend|Trait|Level20": {
+      "fullText": "Вы получаете оставшиеся таланты <c val=\"#TooltipNumbers\">1-го</c> уровня с <c val=\"#TooltipNumbers\">50%</c> эффективностью.",
+      "name": "Легендарные кулаки",
+      "shortText": "Частично дает бонусы талантов 1-го уровня."
+    },
+    "GenericTalentStormShield|GenericStormShield|Active|Level20": {
+      "cooldownText": "Время восстановления: 45 сек.",
+      "fullText": "При использовании дает находящимся рядом союзным героям щит прочностью <c val=\"#TooltipNumbers\">20%</c> их максимального запаса здоровья. Время действия – <c val=\"#TooltipNumbers\">3</c> сек.",
+      "name": "Щит бури",
+      "shortText": "Защищает дружественных героев щитом."
+    },
+    "MonkEpiphany|MonkEpiphany|Active|Level20": {
+      "cooldownText": "Время восстановления: 70 сек.",
+      "fullText": "При использовании восполняет <c val=\"#TooltipNumbers\">70%</c> максимального запаса маны и дает <c val=\"#TooltipNumbers\">2</c> заряда «Сияющего порыва».",
+      "name": "Прозрение",
+      "shortText": "Восполняет ману и дает заряды «Сияющего порыва»."
+    }
+  },
+  "units": {
+    "MonkAirAlly": {
+      "description": "Призывает воздушного союзника, который увеличивает силу способностей союзных героев на <c val=\"#TooltipNumbers\">20%</c> и открывает обзор в обширной области вокруг себя. Запас здоровья союзника составляет <c val=\"#TooltipNumbers\">300</c><c val=\"#ColorGray\">~~0.04~~</c> ед., а время существования – <c val=\"#TooltipNumbers\">10</c> сек. К воздушным союзникам можно перенестись с помощью «Сияющего порыва».",
+      "name": "Воздушный союзник"
+    },
+    "MonkEarthAlly": {
+      "description": "Призывает земляного союзника, который дает находящимся поблизости дружественным героям <c val=\"#TooltipNumbers\">50</c> ед. кинетической брони. Эта броня уменьшает урон, получаемый от автоатак вражеских героев, на <c val=\"#TooltipNumbers\">50%</c>. Запас здоровья союзника составляет <c val=\"#TooltipNumbers\">400</c><c val=\"#ColorGray\">~~0.04~~</c> ед. Время существования – <c val=\"#TooltipNumbers\">10</c> сек. К земляным союзникам можно перенестись с помощью «Сияющего порыва».",
+      "name": "Земляной союзник"
+    },
+    "MonkSpiritAlly": {
+      "description": "Призывает призрачного союзника, который восполняет союзным героям в обширной области вокруг себя <c val=\"#TooltipNumbers\">2%</c> их максимального запаса здоровья раз в секунду в течение <c val=\"#TooltipNumbers\">10</c> сек. Запас здоровья союзника составляет <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c> ед. К призрачным союзникам можно перенестись с помощью «Сияющего порыва».",
+      "name": "Дух-союзник"
+    }
+  }
+}

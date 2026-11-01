@@ -1,0 +1,200 @@
+{
+  "abilities": {
+    "KerriganRavage|KerriganRavage|Q": {
+      "cooldownText": "補充時間：8秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：20點</s>",
+      "fullText": "躍擊一個目標，造成 <c val=\"#TooltipNumbers\">115</c><c val=\"#ColorGray\">~~0.04~~</c> 點傷害。如果該目標在 <c val=\"#TooltipNumbers\">0.75</c> 秒內死亡，可恢復 <c val=\"#TooltipNumbers\">1</c> 次使用次數和 <c val=\"#TooltipNumbers\">20</c> 點法力值。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任務：</c>消滅凱莉根身旁的敵人。擊殺小兵可獲得 <c val=\"#TooltipNumbers\">1</c> 層，擊殺英雄可獲得 <c val=\"#TooltipNumbers\">7</c> 層。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">獎勵：</c>累積達 <c val=\"#TooltipNumbers\">100</c> 層後，嗜血凌虐額外造成 <c val=\"#TooltipNumbers\">125</c> 點傷害，且擊殺英雄將獲得 <c val=\"#TooltipNumbers\">14</c> 層。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">傳奇獎勵：</c>累積達 <c val=\"#TooltipNumbers\">250</c> 層後，嗜血凌虐額外造成 <c val=\"#TooltipNumbers\">200</c> 點傷害。",
+      "name": "嗜血凌虐",
+      "shortText": "躍向敵人並造成傷害"
+    },
+    "KerriganImpalingBlades|KerriganImpalingBlades|W": {
+      "cooldownText": "冷卻時間：9秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：80點</s>",
+      "fullText": "延遲<c val=\"#TooltipNumbers\">1.25</c>秒後，對目標範圍內的敵人造成<c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，並且使敵人昏迷<c val=\"#TooltipNumbers\">0.75</c>秒。",
+      "name": "貫刺爪刃",
+      "shortText": "對區域內的敵人造成傷害，並使其昏迷"
+    },
+    "KerriganPrimalGrasp|KerriganPrimalGrasp|E": {
+      "cooldownText": "冷卻時間：8秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：65點</s>",
+      "fullText": "把目標區域的敵人拉向凱莉根，造成<c val=\"#TooltipNumbers\">40</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。在<c val=\"#TooltipNumbers\">2.5</c>秒後，凱莉根周圍會產生爆炸，對附近敵人造成<c val=\"#TooltipNumbers\">160</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。",
+      "name": "原生爪攫",
+      "shortText": "將區域內的敵人拉向自己，並且造成傷害"
+    },
+    "KerriganSummonUltralisk|KerriganSummonUltralisk|Heroic": {
+      "cooldownText": "冷卻時間：80秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：75點</s>",
+      "fullText": "在<c val=\"#TooltipNumbers\">0.5</c>秒後，召喚一隻雷獸向前突進，對第一個擊中的敵方英雄造成<c val=\"#TooltipNumbers\">225</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，並且使其昏迷<c val=\"#TooltipNumbers\">0.5</c>秒。<n/><n/>雷獸的基本攻擊會對目標周圍造成<c val=\"#TooltipNumbers\">50%</c>的傷害。再次使用這個技能可重新指定雷獸的攻擊目標或移動地點。",
+      "name": "召喚雷獸",
+      "shortText": "召喚一隻可操控的雷獸"
+    },
+    "KerriganMaelstrom|KerriganMaelstrom|Heroic": {
+      "cooldownText": "冷卻時間：90秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：80點</s>",
+      "fullText": "每秒對附近敵人造成<c val=\"#TooltipNumbers\">74</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，持續<c val=\"#TooltipNumbers\">7</c>秒。",
+      "name": "混沌風暴",
+      "shortText": "不斷對附近敵人造成傷害"
+    },
+    ":PASSIVE:|KerriganAssimilation|Trait": {
+      "fullText": "技能造成之傷害值的<c val=\"#TooltipNumbers\">10%</c>以及基本攻擊造成之傷害值的<c val=\"#TooltipNumbers\">20%</c>會轉換成護盾值，持續<c val=\"#TooltipNumbers\">6</c>秒。對英雄造成的傷害可獲得兩倍的護盾值。<n/><n/><c val=\"ffff8a\">目前最大值：</c><c val=\"#TooltipNumbers\">1004</c><c val=\"#ColorGray\">~~0.04~~</c>",
+      "name": "同化效應",
+      "shortText": "攻擊敵人獲得護盾，護盾在一段時間後會消失"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "冷卻時間：4秒",
+      "fullText": "引導<c val=\"#TooltipNumbers\">1</c>秒後，提高<s val=\"StandardTooltipDetails\">30%</s>移動速度。",
+      "name": "召喚坐騎"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "引導<c val=\"#TooltipNumbers\">6</c>秒後傳送回風暴祭壇，立即恢復<c val=\"#TooltipNumbers\">1125</c>點生命值和<c val=\"#TooltipNumbers\">150</c>點法力值。",
+      "name": "爐石"
+    },
+    "KerriganSummonUltraliskIssueOrder|KerriganUltraliskIssueAttackOrder|Heroic": {
+      "fullText": "命令雷獸攻擊一名敵人或移動至指定區域。",
+      "name": "命令雷獸"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "離開坐騎。",
+      "name": "離開坐騎"
+    },
+    "KerriganChrysalisCancel|KerriganCancelChrysalis|Active": {
+      "cooldownText": "冷卻時間：90秒",
+      "fullText": "<s val=\"StandardTooltip\">取消蟲蛹，移除靜滯。</s>",
+      "name": "取消蟲蛹"
+    },
+    "KerriganChrysalis|KerriganChrysalis|Active": {
+      "cooldownText": "冷卻時間：90秒",
+      "fullText": "啟動後，凱莉根進入生命值<c val=\"#TooltipNumbers\">650</c><c val=\"#ColorGray\">~~0.04~~</c>點的蟲蛹，持續<c val=\"#TooltipNumbers\">5</c>秒。凱莉根在蟲蛹內每秒會恢復最大生命值的<c val=\"#TooltipNumbers\">4%</c>。<n/><n/>敵人可摧毀蟲蛹，提早中斷其效果。",
+      "name": "蟲蛹",
+      "shortText": "啟動後，進入靜滯狀態並且恢復生命值"
+    },
+    "KerriganPsionicShift|KerriganPsionicShift|Active": {
+      "cooldownText": "冷卻時間：70秒",
+      "fullText": "啟動後傳送至附近地點，對附近敵人造成<c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，此傷害所產生的同化護盾提高<c val=\"#TooltipNumbers\">300%</c>。",
+      "name": "幽能穿梭",
+      "shortText": "啟動後會短距離傳送，並且造成傷害"
+    }
+  },
+  "talents": {
+    "KerriganRavageSiphoningImpact|KerriganRavageSiphoningImpact|Q|Level1": {
+      "fullText": "嗜血凌虐擊中敵方英雄可賦予<c val=\"#TooltipNumbers\">100</c><c val=\"#ColorGray\">~~0.04~~</c>點同化護盾。",
+      "name": "噬血衝擊",
+      "shortText": "嗜血凌虐可額外賦予同化護盾"
+    },
+    "KerriganAssimilationMastery|KerriganAssimilationMasteryTalent|Trait|Level1": {
+      "fullText": "在恢復之球的治療期間內，每秒可賦予<c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c>點同化護盾。在同化效應作用期間內，凱莉根的生命恢復率和法力恢復率提高<c val=\"#TooltipNumbers\">150%</c>。",
+      "name": "同化專精",
+      "shortText": "恢復之球會賦予護盾，同化效應會提高恢復率"
+    },
+    "KerriganFuryOfTheSwarm|KerriganAssimilationFuryOfTheSwarmTalent|Passive|Level1": {
+      "fullText": "施放嗜血凌虐後，凱莉根在接下來<c val=\"#TooltipNumbers\">3</c>秒內的基本攻擊可對目標周圍造成<c val=\"#TooltipNumbers\">100%</c>擴散傷害。",
+      "name": "蟲群之怒",
+      "shortText": "嗜血凌虐使基本攻擊造成擴散傷害"
+    },
+    "KerriganRavageRavagingFerocity|KerriganRavageRavagingFerocity|Q|Level4": {
+      "fullText": "嗜血凌虐會使凱莉根的攻擊速度提高<c val=\"#TooltipNumbers\">25%</c>，持續<c val=\"#TooltipNumbers\">3</c>秒。",
+      "name": "嗜血兇暴",
+      "shortText": "嗜血凌虐會賦予攻擊速度"
+    },
+    "KerriganImpalingBladesKineticFulmination|KerriganImpalingBladesKineticFulmination|W|Level4": {
+      "fullText": "對敵人造成傷害後，會使凱莉根在<c val=\"#TooltipNumbers\">10</c>秒內的下一次貫刺爪刃造成的傷害提高<c val=\"#TooltipNumbers\">10%</c>，最多可提高<c val=\"#TooltipNumbers\">100%</c>。",
+      "name": "蓄力猛刺",
+      "shortText": "造成傷害可提高貫刺爪刃的傷害"
+    },
+    "KerriganPrimalGraspPsionicPulse|KerriganPrimalGraspPsionicPulse|E|Level4": {
+      "fullText": "原生爪攫首次爆炸的<c val=\"#TooltipNumbers\">2</c>秒後會再次爆炸。",
+      "name": "幽能脈衝",
+      "shortText": "原生爪攫會爆炸兩次"
+    },
+    "KerriganRavageQueenOfBlades|KerriganRavageQueenOfBlades|Q|Level7": {
+      "fullText": "嗜血凌虐的冷卻時間降低<c val=\"#TooltipNumbers\">4</c>秒，且其對小兵和傭兵的傷害提高<c val=\"#TooltipNumbers\">100%</c>。",
+      "name": "刀鋒女皇",
+      "shortText": "嗜血凌虐對小兵和傭兵造成額外傷害"
+    },
+    "KerriganRavageBoundlessFury|KerriganRavageBoundlessFury|Q|Level7": {
+      "fullText": "嗜血凌虐擊中敵方英雄可獲得一次使用次數。對同一名英雄每<c val=\"#TooltipNumbers\">12</c>秒只能觸發一次。",
+      "name": "無盡之怒",
+      "shortText": "嗜血凌虐擊中英雄可獲得使用次數"
+    },
+    "KerriganBladedMomentum|KerriganBladedMomentum|Passive|Level7": {
+      "fullText": "對敵方英雄施展基本攻擊，可使凱莉根的基本技能冷卻時間降低<c val=\"#TooltipNumbers\">0.75</c>秒。",
+      "name": "刀鋒律動",
+      "shortText": "攻擊英雄可降低技能冷卻時間"
+    },
+    "KerriganHeroicAbilityMaelstrom|KerriganMaelstrom|Heroic|Level10": {
+      "cooldownText": "冷卻時間：90秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：80點</s>",
+      "fullText": "每秒對附近敵人造成<c val=\"#TooltipNumbers\">74</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，持續<c val=\"#TooltipNumbers\">7</c>秒。",
+      "name": "混沌風暴",
+      "shortText": "不斷對附近敵人造成傷害"
+    },
+    "KerriganHeroicAbilitySummonUltralisk|KerriganSummonUltralisk|Heroic|Level10": {
+      "cooldownText": "冷卻時間：80秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力：75點</s>",
+      "fullText": "在<c val=\"#TooltipNumbers\">0.5</c>秒後，召喚一隻雷獸向前突進，對第一個擊中的敵方英雄造成<c val=\"#TooltipNumbers\">225</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，並且使其昏迷<c val=\"#TooltipNumbers\">0.5</c>秒。<n/><n/>雷獸的基本攻擊會對目標周圍造成<c val=\"#TooltipNumbers\">50%</c>的傷害。再次使用這個技能可重新指定雷獸的攻擊目標或移動地點。",
+      "name": "召喚雷獸",
+      "shortText": "召喚一隻可操控的雷獸"
+    },
+    "KerriganPrimalGraspPsionicBarrier|KerriganPrimalGraspPsionicBarrier|E|Level13": {
+      "fullText": "原生爪攫每擊中一名敵方英雄可賦予<c val=\"#TooltipNumbers\">20</c>點法術護甲，和<c val=\"#TooltipNumbers\">4%</c>移動速度，持續<c val=\"#TooltipNumbers\">4</c>秒，最多可堆疊至<c val=\"#TooltipNumbers\">20%</c>移動速度。",
+      "name": "幽能屏障",
+      "shortText": "原生爪攫可賦予法術護甲和移動速度"
+    },
+    "KerriganAssimilationVolatilePower|KerriganAssimilationVolatilePower|Trait|Level13": {
+      "fullText": "造成傷害所賦予的同化護盾提高<c val=\"#TooltipNumbers\">10%</c>，但是同化效應的持續時間降低<c val=\"#TooltipNumbers\">3</c>秒。",
+      "name": "異變能量",
+      "shortText": "提高同化護盾效果，但降低持續時間"
+    },
+    "KerriganChrysalis|KerriganChrysalis|Active|Level13": {
+      "cooldownText": "冷卻時間：90秒",
+      "fullText": "啟動後，凱莉根進入生命值<c val=\"#TooltipNumbers\">650</c><c val=\"#ColorGray\">~~0.04~~</c>點的蟲蛹，持續<c val=\"#TooltipNumbers\">5</c>秒。凱莉根在蟲蛹內每秒會恢復最大生命值的<c val=\"#TooltipNumbers\">4%</c>。<n/><n/>敵人可摧毀蟲蛹，提早中斷其效果。",
+      "name": "蟲蛹",
+      "shortText": "啟動後，進入靜滯狀態並且恢復生命值"
+    },
+    "KerriganRavageMountingPotency|KerriganRavageMountingPotency|Q|Level16": {
+      "fullText": "嗜血凌虐可賦予<c val=\"#TooltipNumbers\">5%</c>法術強度，持續<c val=\"#TooltipNumbers\">5</c>秒，最多可賦予<c val=\"#TooltipNumbers\">40%</c>。",
+      "name": "暴虐之力",
+      "shortText": "嗜血凌虐可賦予法術強度"
+    },
+    "KerriganImpalingBladesPainfulSpikes|KerriganImpalingBladesPainfulSpikes|W|Level16": {
+      "fullText": "貫刺爪刃擊中敵人後，可使凱莉根在接下來<c val=\"#TooltipNumbers\">5</c>秒內對這些敵人的<c val=\"#TooltipNumbers\">6</c>次攻擊額外造成<c val=\"#TooltipNumbers\">60</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。",
+      "name": "苦痛尖刺",
+      "shortText": "貫刺爪刃可賦予傷害加成"
+    },
+    "KerriganUnbridledEnergy|KerriganUnbridledEnergy|Heroic|Level16": {
+      "fullText": "以英雄絕技對英雄造成傷害可獲得<c val=\"#TooltipNumbers\">35%</c>法術強度，持續<c val=\"#TooltipNumbers\">4</c>秒。",
+      "name": "能量奔流",
+      "shortText": "英雄絕技傷害可賦予法術強度"
+    },
+    "KerriganOmegastormMaelstrom|KerriganMaelstromOmegastormTalent|Heroic|Level20": {
+      "fullText": "混沌風暴每次對英雄造成傷害時，可使其持續時間提高<c val=\"#TooltipNumbers\">0.4</c>秒。",
+      "name": "滅絕風暴",
+      "shortText": "對英雄造成傷害可提高混沌風暴的持續時間"
+    },
+    "KerriganTorrasqueSummonUltralisk|KerriganSummonUltraliskTorrasqueTalent|Heroic|Level20": {
+      "fullText": "雷獸的生命值和基本攻擊傷害提高<c val=\"#TooltipNumbers\">20%</c>。雷獸死亡時會變形成蟲卵。如果沒有在<c val=\"#TooltipNumbers\">4</c>秒內破壞蟲卵，就會孵化出一隻新的雷獸。",
+      "name": "轟雷獸",
+      "shortText": "雷獸死亡時會孵化出新的雷獸"
+    },
+    "KerriganAssimilationAssimilationBlades|KerriganAssimilationBlades|Passive|Level20": {
+      "fullText": "對敵人造成傷害可使基本攻擊傷害提高<c val=\"#TooltipNumbers\">2%</c>，持續<c val=\"#TooltipNumbers\">5</c>秒，最多可提高<c val=\"#TooltipNumbers\">40%</c>。",
+      "name": "同化之刃",
+      "shortText": "對敵人造成傷害可提高攻擊傷害"
+    },
+    "KerriganPsionicShift|KerriganPsionicShift|Active|Level20": {
+      "cooldownText": "冷卻時間：70秒",
+      "fullText": "啟動後傳送至附近地點，對附近敵人造成<c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，此傷害所產生的同化護盾提高<c val=\"#TooltipNumbers\">300%</c>。",
+      "name": "幽能穿梭",
+      "shortText": "啟動後會短距離傳送，並且造成傷害"
+    }
+  },
+  "units": {
+    "KerriganChrysalis": {
+      "description": "啟動後，凱莉根進入生命值<c val=\"#TooltipNumbers\">650</c><c val=\"#ColorGray\">~~0.04~~</c>點的蟲蛹，持續<c val=\"#TooltipNumbers\">5</c>秒。凱莉根在蟲蛹內每秒會恢復最大生命值的<c val=\"#TooltipNumbers\">4%</c>。<n/><n/>敵人可摧毀蟲蛹，提早中斷其效果。",
+      "name": "蟲蛹"
+    },
+    "KerriganUltralisk": {
+      "name": "雷獸"
+    }
+  }
+}

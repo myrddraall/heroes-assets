@@ -1,0 +1,197 @@
+{
+  "abilities": {
+    "AzmodanGlobeOfAnnihilation|AzmodanGlobeOfAnnihilation|Q": {
+      "cooldownText": "Время восстановления: 10 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 70</s>",
+      "fullText": "Выпускает сферу, наносящую при взрыве <c val=\"#TooltipNumbers\">176</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона. Наносит <c val=\"#TooltipNumbers\">50%</c> урона всем, кроме героев.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Задача:</c> поражайте героев и убивайте воинов в течение <c val=\"#TooltipNumbers\">3</c> сек. после получения ими урона от «Сферы разрушения», чтобы накопить <c val=\"#TooltipNumbers\">2</c> <lang rule=\"plural\" val=\"\">эффект,эффекта,эффектов</lang> «Разрушения». За каждый эффект «Разрушения» урон от «Сферы разрушения» увеличится на <c val=\"#TooltipNumbers\">1</c> ед. <n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Эпохальная награда:</c> когда Азмодан накапливает <c val=\"#TooltipNumbers\">450</c> эффектов «Разрушения», область поражения «Сферы разрушения» увеличивается на <c val=\"#TooltipNumbers\">15%</c>, а урон — на <c val=\"#TooltipNumbers\">150</c> ед.",
+      "name": "Сфера разрушения",
+      "shortText": "Наносит урон по области на значительном расстоянии."
+    },
+    "AzmodanSummonDemonWarrior|AzmodanSummonDemonWarrior|W": {
+      "cooldownText": "Время восстановления заряда: 10 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 25</s>",
+      "fullText": "Призывает демона-воина, который идет вперед и наносит <c val=\"#TooltipNumbers\">53</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона при атаке. Демон постепенно теряет здоровье в течение <c val=\"#TooltipNumbers\">17</c> сек. Наносит <c val=\"#TooltipNumbers\">100%</c> дополнительного урона воинам и наемникам.<n/><n/>Можно использовать во время поддержания «Всепоглощающего пламени».",
+      "name": "Призыв демона-воина",
+      "shortText": "Призывает демона-воина."
+    },
+    "AzmodanAllShallBurn|AzmodanAllShallBurn|E": {
+      "cooldownText": "Время восстановления: 6 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 25</s>",
+      "fullText": "Направляет в противника луч, наносящий <c val=\"#TooltipNumbers\">128</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона в секунду в течение <c val=\"#TooltipNumbers\">2.5</c> сек. При максимальном времени поддержания дополнительно наносит цели <c val=\"#TooltipNumbers\">340</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона.<n/><n/>Во время поддержания скорость передвижения Азмодана снижается на <c val=\"#TooltipNumbers\">30%</c>.",
+      "name": "Всепоглощающее пламя",
+      "shortText": "Направляет в противника поддерживаемый луч смерти."
+    },
+    "AzmodanDemonicInvasion|AzmodanDemonicInvasion|Heroic": {
+      "cooldownText": "Время восстановления: 100 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 60</s>",
+      "fullText": "Обрушивает на противников небольшую армию демонических рубак, каждый из которых наносит при падении <c val=\"#TooltipNumbers\">85</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона. Демоны-рубаки наносят <c val=\"#TooltipNumbers\">30</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона, имеют <c val=\"#TooltipNumbers\">750</c><c val=\"#ColorGray\">~~0.04~~</c> ед. здоровья и существуют в течение <c val=\"#TooltipNumbers\">20</c> сек. Когда рубаки погибают, они взрываются, нанося находящимся рядом противникам <c val=\"#TooltipNumbers\">40</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона (герои получают вдвое больше урона).<n/><n/>Можно использовать во время поддержания «Всепоглощающего пламени».",
+      "name": "Вторжение демонов",
+      "shortText": "Наносит урон по области и создает армию рубак."
+    },
+    "AzmodanTideOfSin|AzmodanTideOfSin|Heroic": {
+      "cooldownText": "Время восстановления: 20 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 100</s>",
+      "fullText": "При использовании следующая «Сфера разрушения» не требует затрат маны и наносит на <c val=\"#TooltipNumbers\">50%</c> больше урона.<n/><n/>Можно использовать во время поддержания «Всепоглощающего пламени».",
+      "name": "Пучина греха",
+      "shortText": "Усиливает «Сферу разрушения»."
+    },
+    "AzmodanDemonLieutenant|AzmodanDemonLieutenant|Trait": {
+      "cooldownText": "Время восстановления: 60 сек.",
+      "fullText": "Призывает демона-прислужника рядом с союзным наемником, воином или демоном Азмодана. Раз в <c val=\"#TooltipNumbers\">7</c> сек. демон-прислужник использует «Демоническую кару», мгновенно убивающую вражеского воина. Демон теряет здоровье в течение <c val=\"#TooltipNumbers\">21</c> сек.<n/><n/>Можно использовать во время поддержания «Всепоглощающего пламени».",
+      "name": "Демон-прислужник",
+      "shortText": "Призывает демона на помощь воинам, наемникам и призванным существам."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Время восстановления: 4 сек.",
+      "fullText": "После подготовки длительностью <c val=\"#TooltipNumbers\">1</c> сек. повышает скорость передвижения на <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Вызов транспорта"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "После поддержания в течение <c val=\"#TooltipNumbers\">6</c> сек. телепортирует героя в Зал Штормов, моментально восполняя <c val=\"#TooltipNumbers\">1125</c> ед. здоровья и <c val=\"#TooltipNumbers\">150</c> ед. маны.",
+      "name": "Возвращение"
+    },
+    "AzmodanAllShallBurnCancel|AzmodanAllShallBurnCancel|E": {
+      "fullText": "Прекращает поддержание «Всепоглощающего пламени».",
+      "name": "Всепоглощающее пламя"
+    },
+    ":PASSIVE:|AzmodanTideOfSinPassive|Heroic": {
+      "fullText": "Следующую «Сферу разрушения» можно использовать без затрат маны. Она наносит на <c val=\"#TooltipNumbers\">50%</c> больше урона.",
+      "name": "Пучина греха",
+      "shortText": "Усиливает «Сферу разрушения»."
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Покинуть транспорт.",
+      "name": "Отмена транспорта"
+    },
+    "AzmodanTrample|AzmodanTrample|Active": {
+      "cooldownText": "Время восстановления: 20 сек.",
+      "fullText": "При использовании совершает короткий рывок, нанося <c val=\"#TooltipNumbers\">275</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона и замедляя противников на своем пути на <c val=\"#TooltipNumbers\">60%</c> на <c val=\"#TooltipNumbers\">1.25</c> сек.<n/><n/>После того как «Топот» поражает вражеского героя, время восстановления героической способности Азмодана сокращается на <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Топот",
+      "shortText": "Совершает короткий рывок."
+    }
+  },
+  "talents": {
+    "AzmodanGreed|AzmodanGreed|Q|Level1": {
+      "fullText": "«Сфера разрушения» наносит на <c val=\"#TooltipNumbers\">15%</c> больше урона всем, кроме героев.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Задача:</c> после накопления <c val=\"#TooltipNumbers\">225</c> эффектов «Разрушения» дальность действия «Всепоглощающего пламени» увеличится на <c val=\"#TooltipNumbers\">25%</c>, а демоны-воины получат бонус к скорости атаки и передвижения в <c val=\"#TooltipNumbers\">20%</c>. Штраф к урону против воинов и наемников снимается.",
+      "name": "Алчность",
+      "shortText": "Увеличивает урон сферы по всем, кроме героев.<n/><c val=\"#TooltipQuest\">Задача:</c> усильте «Всепоглощающее пламя»."
+    },
+    "AzmodanGluttony|AzmodanGluttony|Q|Level1": {
+      "fullText": "Увеличивает количество эффектов «Разрушения», получаемых при поражении героев «Сферой разрушения», c <c val=\"#TooltipNumbers\">2</c> до <c val=\"#TooltipNumbers\">4</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Задача:</c> после накопления <c val=\"#TooltipNumbers\">225</c> эффектов «Разрушения» время восстановления «Сферы разрушения» будет сокращаться на <c val=\"#TooltipNumbers\">0.25</c> сек. за каждого пораженного противника и вдвое больше за каждого пораженного героя. Штраф к урону против воинов и наемников снимается.",
+      "name": "Чревоугодие",
+      "shortText": "<c val=\"#TooltipQuest\">Задача:</c> увеличьте количество эффектов «Разрушения» при попадании по героям."
+    },
+    "AzmodanWrath|AzmodanWrath|Q|Level1": {
+      "fullText": "Каждая вторая автоатака по герою или строению дает эффект «Разрушения». <n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Задача:</c> если Азмодан поразит героя «Сферой разрушения», имея <c val=\"#TooltipNumbers\">225</c> <lang rule=\"plural\" val=\"\">эффекта,эффектов,эффектов</lang> «Разрушения», его следующая автоатака по этому герою, совершенная в течение <c val=\"#TooltipNumbers\">3</c> сек., нанесет дополнительный урон, равный <c val=\"#TooltipNumbers\">85%</c> от количества накопленных эффектов. Штраф к урону против воинов и наемников снимается.",
+      "name": "Гнев",
+      "shortText": "<c val=\"#TooltipQuest\">Задача:</c> накапливайте эффекты «Разрушения» при автоатаке."
+    },
+    "AzmodanArmyOfHell|AzmodanArmyOfHell|W|Level4": {
+      "fullText": "«Призыв демона-воина» порождает дополнительного демона, но время его восстановления увеличивается на <c val=\"#TooltipNumbers\">10</c> сек.",
+      "name": "Армия Преисподней",
+      "shortText": "Призывает дополнительного демона-воина."
+    },
+    "AzmodanHellforgedArmor|AzmodanSummonDemonWarriorHellforgedArmorTalent|W|Level4": {
+      "fullText": "Демоны-воины и демоны-прислужники получают <c val=\"#TooltipNumbers\">20</c> ед. брони и теряют на <c val=\"#TooltipNumbers\">25%</c> меньше здоровья в секунду.",
+      "name": "Броня Преисподней",
+      "shortText": "Демоны существуют дольше и получают броню."
+    },
+    "AzmodanBattleborn|AzmodanGlobOfAnnihilationBattlebornTalent|Passive|Level4": {
+      "fullText": "Снижает стоимость «Призыва демона-воина» с <c val=\"#TooltipNumbers\">25</c> до <c val=\"#TooltipNumbers\">20</c> ед. маны. Каждая автоатака сокращает время восстановления «Призыва демона-воина» на <c val=\"#TooltipNumbers\">0.75</c> сек., а «Демона-прислужника» — на <c val=\"#TooltipNumbers\">1.5</c> сек.",
+      "name": "Свирепый боец",
+      "shortText": "Автоатаки ускоряют восстановление призыва демонов."
+    },
+    "AzmodanArtOfChaos|AzmodanArtOfChaos|Q|Level7": {
+      "fullText": "Когда «Сфера разрушения» поражает <c val=\"#TooltipNumbers\">2</c> или более героев, Азмодан восполняет <c val=\"#TooltipNumbers\">40</c> ед. маны и накапливает еще <c val=\"#TooltipNumbers\">2</c> <lang rule=\"plural\" val=\"\">эффект,эффекта,эффектов</lang> «Разрушения».",
+      "name": "Искусство хаоса",
+      "shortText": "Позволяет накапливать дополнительные эффекты «Разрушения»."
+    },
+    "AzmodanBombardment|AzmodanBombardment|Q|Level7": {
+      "fullText": "После использования «Сферы разрушения» увеличивает дальность автоатак на <c val=\"#TooltipNumbers\">1.5</c> м и позволяет им поражать <c val=\"#TooltipNumbers\">3</c> дополнительные цели. Время действия – <c val=\"#TooltipNumbers\">3</c> сек. Каждое попадание по герою усиленной «Бомбардировкой» автоатакой дает <c val=\"#TooltipNumbers\">1</c> <lang rule=\"plural\" val=\"\">эффект,эффекта,эффектов</lang> «Разрушения».",
+      "name": "Бомбардировка",
+      "shortText": "«Сфера разрушения» усиливает автоатаки."
+    },
+    "AzmodanMasterofDestruction|AzmodanAllShallBurnMasterOfDestructionTalent|E|Level7": {
+      "fullText": "Дополнительный урон, наносимый «Всепоглощающим пламенем» при максимальном времени поддержания или убийстве цели, наносится всем противникам в области рядом с целью и дает <c val=\"#TooltipNumbers\">1</c> <lang rule=\"plural\" val=\"\">эффект,эффекта,эффектов</lang> «Разрушения» за каждого пораженного героя.",
+      "name": "Мастер разрушения",
+      "shortText": "«Всепоглощающее пламя» наносит дополнительный урон по области."
+    },
+    "AzmodanHeroicAbilityDemonicInvasion|AzmodanDemonicInvasion|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 100 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 60</s>",
+      "fullText": "Обрушивает на противников небольшую армию демонических рубак, каждый из которых наносит при падении <c val=\"#TooltipNumbers\">85</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона. Демоны-рубаки наносят <c val=\"#TooltipNumbers\">30</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона, имеют <c val=\"#TooltipNumbers\">750</c><c val=\"#ColorGray\">~~0.04~~</c> ед. здоровья и существуют в течение <c val=\"#TooltipNumbers\">20</c> сек. Когда рубаки погибают, они взрываются, нанося находящимся рядом противникам <c val=\"#TooltipNumbers\">40</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона (герои получают вдвое больше урона).<n/><n/>Можно использовать во время поддержания «Всепоглощающего пламени».",
+      "name": "Вторжение демонов",
+      "shortText": "Наносит урон по области и создает армию рубак."
+    },
+    "AzmodanTideOfSin|AzmodanTideOfSin|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 20 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 100</s>",
+      "fullText": "При использовании следующая «Сфера разрушения» не требует затрат маны и наносит на <c val=\"#TooltipNumbers\">50%</c> больше урона.<n/><n/>Можно использовать во время поддержания «Всепоглощающего пламени».",
+      "name": "Пучина греха",
+      "shortText": "Усиливает «Сферу разрушения»."
+    },
+    "AzmodanBrutishVanguard|AzmodanBrutishVanguard|W|Level13": {
+      "fullText": "Увеличивает запас здоровья демонов-воинов и демонов-прислужников на <c val=\"#TooltipNumbers\">25%</c>. Демоны-воины также замедляют атакованные цели на <c val=\"#TooltipNumbers\">30%</c>.",
+      "name": "Жестокий натиск",
+      "shortText": "Увеличивает запас здоровья демонов. Демоны-воины замедляют врагов."
+    },
+    "AzmodanCydaeasKiss|AzmodanCydaeasKiss|E|Level13": {
+      "fullText": "Уменьшает время поддержания «Всепоглощающего пламени» на <c val=\"#TooltipNumbers\">0.5</c> сек. При убийстве цели или максимальном времени поддержания на герое восполняет <c val=\"#TooltipNumbers\">8%</c> максимального запаса здоровья.",
+      "name": "Поцелуй Цидеи",
+      "shortText": "Уменьшает время поддержания. Бонусный урон исцеляет."
+    },
+    "AzmodanChainOfCommand|AzmodanChainOfCommand|Trait|Level13": {
+      "fullText": "Уменьшает время восстановления «Демонической кары» демонов-прислужников на <c val=\"#TooltipNumbers\">2</c> сек. Демоны-прислужники также увеличивают урон находящихся рядом союзных воинов, наемников и демонов Азмодана на <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Иерархия Преисподней",
+      "shortText": "Демоны-прислужники усиливают союзников рядом с собой."
+    },
+    "AzmodanTotalAnnihilation|AzmodanTotalAnnihilation|Q|Level16": {
+      "fullText": "«Сфера разрушения» наносит героям дополнительный урон в объеме <c val=\"#TooltipNumbers\">4%</c> их максимального запаса здоровья.",
+      "name": "Тотальное разрушение",
+      "shortText": "«Сфера разрушения» наносит больше урона героям."
+    },
+    "AzmodanHellRift|AzmodanHellRift|E|Level16": {
+      "fullText": "При максимальном времени поддержания «Всепоглощающего пламени» или убийстве цели с его помощью призывает демона-воина в точке, где находится цель, а все демоны-воины наносят на <c val=\"#TooltipNumbers\">35%</c> больше урона в течение <c val=\"#TooltipNumbers\">5</c> сек.",
+      "name": "Демонический разлом",
+      "shortText": "«Всепоглощающее пламя» призывает и усиливает демонов-воинов."
+    },
+    "AzmodanTrample|AzmodanTrample|Active|Level16": {
+      "cooldownText": "Время восстановления: 20 сек.",
+      "fullText": "При использовании совершает короткий рывок, нанося <c val=\"#TooltipNumbers\">275</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона и замедляя противников на своем пути на <c val=\"#TooltipNumbers\">60%</c> на <c val=\"#TooltipNumbers\">1.25</c> сек.<n/><n/>После того как «Топот» поражает вражеского героя, время восстановления героической способности Азмодана сокращается на <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Топот",
+      "shortText": "Совершает короткий рывок."
+    },
+    "AzmodanSiegebreaker|AzmodanSiegebreaker|Heroic|Level20": {
+      "fullText": "Демоны Азмодана наносят строениям на <c val=\"#TooltipNumbers\">40%</c> больше урона.",
+      "name": "Штурмовые демоны",
+      "shortText": "Демоны наносят больше урона строениям."
+    },
+    "AzmodanBlackPool|AzmodanTideOfSinBlackPoolTalent|Heroic|Level20": {
+      "fullText": "«Сферы разрушения», усиленные «Пучиной греха», оставляют после себя на <c val=\"#TooltipNumbers\">5</c> сек. омут, который ослабляет броню попавших в него противников на <c val=\"#TooltipNumbers\">8</c> ед. в секунду, вплоть до <c val=\"#TooltipNumbers\">15</c> ед., а также наносит им <c val=\"#TooltipNumbers\">56</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона в секунду.",
+      "name": "Темный омут",
+      "shortText": "«Пучина греха» периодически наносит урон противникам и ослабляет их броню."
+    },
+    "InescapableAnnihilation|InescapableAnnihilation|Q|Level20": {
+      "fullText": "Теперь у «Сферы разрушения» нет ограничения по дальности действия.",
+      "name": "Неизбежное разрушение",
+      "shortText": "У «Сферы разрушения» неограниченная дальность действия."
+    },
+    "AzmodanSinsGrasp|AzmodanSinsGraspHotbar|E|Level20": {
+      "fullText": "Всепоглощающее пламя замедляет вражеских героев. Скорость передвижения цели снижается на <c val=\"#TooltipNumbers\">15%</c> во время действия способности, а после максимального времени поддержания скорость передвижения цели снижается на <c val=\"#TooltipNumbers\">50%</c> на <c val=\"#TooltipNumbers\">2.5</c> сек.<n/><n/>Если \"Всепоглощающее пламя\" убивает цель или достигает максимального времени поддержания против героя, время восстановления \"Всепоглощающего пламени\" сокращается на <c val=\"#TooltipNumbers\">50%</c>.",
+      "name": "Порочная хватка",
+      "shortText": "«Всепоглощающее пламя» замедляет цели и восстанавливается быстрее."
+    }
+  },
+  "units": {
+    "AzmodanDemonLieutenant": {
+      "description": "Призывает демона-прислужника рядом с союзным наемником, воином или демоном Азмодана. Раз в <c val=\"#TooltipNumbers\">7</c> сек. демон-прислужник использует «Демоническую кару», мгновенно убивающую вражеского воина. Демон теряет здоровье в течение <c val=\"#TooltipNumbers\">21</c> сек.<n/><n/>Можно использовать во время поддержания «Всепоглощающего пламени».",
+      "name": "Демон-прислужник"
+    },
+    "AzmodanDemonWarrior": {
+      "name": "Демон-воин"
+    },
+    "AzmodanDemonicInvasionDemonGrunt": {
+      "name": "Демонический рубака"
+    }
+  }
+}

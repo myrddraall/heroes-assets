@@ -1,0 +1,655 @@
+{
+  "id": "KelThuzad",
+  "unitId": "HeroKelThuzad",
+  "hyperlinkId": "KelThuzad",
+  "attributeId": "KelT",
+  "franchise": "Warcraft",
+  "rarity": "Legendary",
+  "releaseDate": "2017-09-05",
+  "isMelee": false,
+  "gender": "Male",
+  "radius": 0.875,
+  "innerRadius": 0.875,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "MountKelThuzadWake",
+  "ratings": {
+    "complexity": 7,
+    "damage": 8,
+    "survivability": 4,
+    "utility": 7
+  },
+  "life": {
+    "amount": 1490,
+    "scale": 0.04,
+    "regenRate": 3.0976,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "DeadUpdater",
+    "EnergyImportant",
+    "Ganker",
+    "RoleCaster"
+  ],
+  "weapons": [
+    {
+      "nameId": "HeroKelThuzad",
+      "isDisabled": false,
+      "range": 5.5,
+      "minimumRange": 0,
+      "period": 1,
+      "damage": 72,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "KelThuzadStarLich"
+  ],
+  "variationSkinIds": [
+    "KelThuzadBaseVar1",
+    "KelThuzadBaseVar2",
+    "KelThuzadBaseVar3",
+    "KelThuzadBaseVar4"
+  ],
+  "voiceLineIds": [
+    "KelthuzadBase_VoiceLine01",
+    "KelthuzadBase_VoiceLine02",
+    "KelthuzadBase_VoiceLine03",
+    "KelthuzadBase_VoiceLine04",
+    "KelthuzadBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "MountKelThuzadWake"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "KelThuzadDeathAndDecay|KelThuzadDeathAndDecay|Q",
+        "abilityId": "KelThuzadDeathAndDecay",
+        "buttonId": "KelThuzadDeathAndDecay",
+        "icon": "storm_ui_icon_kel'thuzad_deathanddecay.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "KelThuzadFrostNova|KelThuzadFrostNova|W",
+        "abilityId": "KelThuzadFrostNova",
+        "buttonId": "KelThuzadFrostNova",
+        "icon": "storm_ui_icon_kel'thuzad_frostnova.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "KelThuzadChains|KelThuzadChains|E",
+        "abilityId": "KelThuzadChains",
+        "buttonId": "KelThuzadChains",
+        "icon": "storm_ui_icon_kel'thuzad_chains.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "KelThuzadFrozenTomb|KelThuzadFrozenTomb|Heroic",
+        "abilityId": "KelThuzadFrozenTomb",
+        "buttonId": "KelThuzadFrozenTomb",
+        "icon": "storm_ui_icon_kel'thuzad_frozentomb.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "KelThuzadShadowFissure|KelThuzadShadowFissure|Heroic",
+        "abilityId": "KelThuzadShadowFissure",
+        "buttonId": "KelThuzadShadowFissure",
+        "icon": "storm_ui_icon_kel'thuzad_shadowfissure.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": ":PASSIVE:|KelThuzadMasterOfTheColdDark|Trait",
+        "abilityId": ":PASSIVE:",
+        "buttonId": "KelThuzadMasterOfTheColdDark",
+        "icon": "storm_ui_icon_kel'thuzad_powerofthecolddark.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Activable": [
+      {
+        "linkId": "KelThuzadGlacialSpike|KelThuzadGlacialSpike|Active",
+        "abilityId": "KelThuzadGlacialSpike",
+        "buttonId": "KelThuzadGlacialSpike",
+        "icon": "storm_ui_icon_kel'thuzad_glacialspike.png",
+        "abilityType": "Active"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "KelThuzadChains|KelThuzadChains|E": {
+      "Basic": [
+        {
+          "linkId": "KelThuzadChainsLink|KelThuzadChainsLink|E",
+          "abilityId": "KelThuzadChainsLink",
+          "buttonId": "KelThuzadChainsLink",
+          "icon": "storm_ui_icon_kel'thuzad_chains.png",
+          "abilityType": "E"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "KelThuzadArchlichArmor|KelThuzadArchlichArmor|Active|Level4": {
+      "Activable": [
+        {
+          "linkId": "KelThuzadArchlichArmor|KelThuzadArchlichArmor|Active",
+          "abilityId": "KelThuzadArchlichArmor",
+          "buttonId": "KelThuzadArchlichArmor",
+          "icon": "storm_ui_icon_kel'thuzad_armorofthearchlich.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "KelThuzadPhylactery|KelThuzadPhylactery|Passive|Level4": {
+      "Activable": [
+        {
+          "linkId": "KelThuzadPhylacteryItem|KelThuzadPhylacteryItem|Passive",
+          "abilityId": "KelThuzadPhylacteryItem",
+          "buttonId": "KelThuzadPhylacteryItem",
+          "icon": "storm_ui_icon_kel'thuzad_phylactery.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Passive"
+        }
+      ]
+    },
+    "KelThuzadShiftingMalice|KelThuzadShiftingMalice|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "KelThuzadShiftingMalice|KelThuzadShiftingMalice|Active",
+          "abilityId": "KelThuzadShiftingMalice",
+          "buttonId": "KelThuzadShiftingMalice",
+          "icon": "storm_ui_icon_kel'thuzad_shiftingmalice.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "KelThuzadTheDamnedReturn|KelThuzadTheDamnedReturn|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "KelThuzadSpawnShade|KelThuzadTheDamnedReturn|Active",
+          "abilityId": "KelThuzadSpawnShade",
+          "buttonId": "KelThuzadTheDamnedReturn",
+          "icon": "storm_ui_icon_kel'thuzad_cultofthedamned.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "KelThuzadThePlaguelands|KelThuzadThePlaguelands|Q|Level1",
+        "talentId": "KelThuzadThePlaguelands",
+        "buttonId": "KelThuzadThePlaguelands",
+        "abilityId": "KelThuzadDeathAndDecay",
+        "icon": "storm_ui_icon_kel'thuzad_deathanddecay.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "KelThuzadDeathAndDecay|KelThuzadDeathAndDecay|Q"
+        ]
+      },
+      {
+        "linkId": "KelThuzadBlightedFrost|KelThuzadBlightedFrost|W|Level1",
+        "talentId": "KelThuzadBlightedFrost",
+        "buttonId": "KelThuzadBlightedFrost",
+        "abilityId": "KelThuzadFrostNova",
+        "icon": "storm_ui_icon_kel'thuzad_frostnova.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "KelThuzadFrostNova|KelThuzadFrostNova|W"
+        ]
+      },
+      {
+        "linkId": "KelThuzadBarbedChains|KelThuzadBarbedChains|E|Level1",
+        "talentId": "KelThuzadBarbedChains",
+        "buttonId": "KelThuzadBarbedChains",
+        "abilityId": "KelThuzadChains",
+        "icon": "storm_ui_icon_kel'thuzad_chains.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "KelThuzadChains|KelThuzadChains|E"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "KelThuzadStripShields|KelThuzadStripShields|E|Level4",
+        "talentId": "KelThuzadStripShields",
+        "buttonId": "KelThuzadStripShields",
+        "abilityId": "KelThuzadChains",
+        "icon": "storm_ui_icon_kel'thuzad_chains.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "KelThuzadChains|KelThuzadChains|E"
+        ]
+      },
+      {
+        "linkId": "KelThuzadPhylactery|KelThuzadPhylactery|Passive|Level4",
+        "talentId": "KelThuzadPhylactery",
+        "buttonId": "KelThuzadPhylactery",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_kel'thuzad_phylactery.png",
+        "abilityType": "Passive",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|KelThuzadMasterOfTheColdDark|Trait"
+        ]
+      },
+      {
+        "linkId": "KelThuzadArchlichArmor|KelThuzadArchlichArmor|Active|Level4",
+        "talentId": "KelThuzadArchlichArmor",
+        "buttonId": "KelThuzadArchlichArmor",
+        "abilityId": "KelThuzadArchlichArmor",
+        "icon": "storm_ui_icon_kel'thuzad_armorofthearchlich.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "KelThuzadAcceleratedDecay|KelThuzadAcceleratedDecay|Q|Level7",
+        "talentId": "KelThuzadAcceleratedDecay",
+        "buttonId": "KelThuzadAcceleratedDecay",
+        "abilityId": "KelThuzadDeathAndDecay",
+        "icon": "storm_ui_icon_kel'thuzad_deathanddecay.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "KelThuzadDeathAndDecay|KelThuzadDeathAndDecay|Q"
+        ]
+      },
+      {
+        "linkId": "KelThuzadChillingTouch|KelThuzadChillingTouch|Passive|Level7",
+        "talentId": "KelThuzadChillingTouch",
+        "buttonId": "KelThuzadChillingTouch",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_kel'thuzad_chillingtouch.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|KelThuzadMasterOfTheColdDark|Trait"
+        ]
+      },
+      {
+        "linkId": "KelThuzadIceCold|KelThuzadIceCold|Passive|Level7",
+        "talentId": "KelThuzadIceCold",
+        "buttonId": "KelThuzadIceCold",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_kel'thuzad_glacialspike.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "KelThuzadGlacialSpike|KelThuzadGlacialSpike|Active"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "KelThuzadFrozenTomb|KelThuzadFrozenTomb|Heroic|Level10",
+        "talentId": "KelThuzadFrozenTomb",
+        "buttonId": "KelThuzadFrozenTomb",
+        "abilityId": "KelThuzadFrozenTomb",
+        "icon": "storm_ui_icon_kel'thuzad_frozentomb.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "KelThuzadShadowFissure|KelThuzadShadowFissure|Heroic|Level10",
+        "talentId": "KelThuzadShadowFissure",
+        "buttonId": "KelThuzadShadowFissure",
+        "abilityId": "KelThuzadShadowFissure",
+        "icon": "storm_ui_icon_kel'thuzad_shadowfissure.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "KelThuzadIcyGrasp|KelThuzadIcyGrasp|W|Level13",
+        "talentId": "KelThuzadIcyGrasp",
+        "buttonId": "KelThuzadIcyGrasp",
+        "abilityId": "KelThuzadFrostNova",
+        "icon": "storm_ui_icon_kel'thuzad_frostnova.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "KelThuzadFrostNova|KelThuzadFrostNova|W"
+        ]
+      },
+      {
+        "linkId": "KelThuzadChainsOfIce|KelThuzadChainsOfIce|E|Level13",
+        "talentId": "KelThuzadChainsOfIce",
+        "buttonId": "KelThuzadChainsOfIce",
+        "abilityId": "KelThuzadChains",
+        "icon": "storm_ui_icon_kel'thuzad_chains.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "KelThuzadChains|KelThuzadChains|E"
+        ]
+      },
+      {
+        "linkId": "KelThuzadChainLink|KelThuzadChainLink|E|Level13",
+        "talentId": "KelThuzadChainLink",
+        "buttonId": "KelThuzadChainLink",
+        "abilityId": "KelThuzadChains",
+        "icon": "storm_ui_icon_kel'thuzad_chains_a.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "KelThuzadChains|KelThuzadChains|E"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "KelThuzadArcaneEchoes|KelThuzadArcaneEchoes|Q|Level16",
+        "talentId": "KelThuzadArcaneEchoes",
+        "buttonId": "KelThuzadArcaneEchoes",
+        "abilityId": "KelThuzadDeathAndDecay",
+        "icon": "storm_ui_icon_kel'thuzad_deathanddecay.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "KelThuzadDeathAndDecay|KelThuzadDeathAndDecay|Q"
+        ]
+      },
+      {
+        "linkId": "KelThuzadHungeringCold|KelThuzadHungeringCold|Passive|Level16",
+        "talentId": "KelThuzadHungeringCold",
+        "buttonId": "KelThuzadHungeringCold",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_abilitytalent_damage.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|KelThuzadMasterOfTheColdDark|Trait"
+        ]
+      },
+      {
+        "linkId": "KelThuzadPowerOfIcecrown|KelThuzadPowerOfIcecrown|Passive|Level16",
+        "talentId": "KelThuzadPowerOfIcecrown",
+        "buttonId": "KelThuzadPowerOfIcecrown",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_kel'thuzad_poweroficecrown.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|KelThuzadMasterOfTheColdDark|Trait"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "KelThuzadDeathchill|KelThuzadDeathchill|Heroic|Level20",
+        "talentId": "KelThuzadDeathchill",
+        "buttonId": "KelThuzadDeathchill",
+        "abilityId": "KelThuzadFrozenTomb",
+        "icon": "storm_ui_icon_kel'thuzad_frozentomb.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "KelThuzadFrozenTomb|KelThuzadFrozenTomb|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "KelThuzadFrozenTomb"
+        ]
+      },
+      {
+        "linkId": "KelThuzadMightOfTheScourge|KelThuzadMightOfTheScourge|Heroic|Level20",
+        "talentId": "KelThuzadMightOfTheScourge",
+        "buttonId": "KelThuzadMightOfTheScourge",
+        "abilityId": "KelThuzadShadowFissure",
+        "icon": "storm_ui_icon_kel'thuzad_shadowfissure.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "KelThuzadShadowFissure|KelThuzadShadowFissure|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "KelThuzadShadowFissure"
+        ]
+      },
+      {
+        "linkId": "KelThuzadShiftingMalice|KelThuzadShiftingMalice|Active|Level20",
+        "talentId": "KelThuzadShiftingMalice",
+        "buttonId": "KelThuzadShiftingMalice",
+        "abilityId": "KelThuzadShiftingMalice",
+        "icon": "storm_ui_icon_kel'thuzad_shiftingmalice.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      },
+      {
+        "linkId": "KelThuzadTheDamnedReturn|KelThuzadTheDamnedReturn|Active|Level20",
+        "talentId": "KelThuzadTheDamnedReturn",
+        "buttonId": "KelThuzadTheDamnedReturn",
+        "abilityId": "KelThuzadSpawnShade",
+        "icon": "storm_ui_icon_kel'thuzad_cultofthedamned.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      }
+    ]
+  },
+  "sheet": "sheets/KelThuzad.png",
+  "icons": {
+    "storm_ui_icon_kel'thuzad_deathanddecay.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_kel'thuzad_frostnova.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_kel'thuzad_chains.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_kel'thuzad_frozentomb.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_kel'thuzad_shadowfissure.png": [
+      512,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_kel'thuzad_powerofthecolddark.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_mount.png": [
+      128,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_kel'thuzad_glacialspike.png": [
+      256,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      384,
+      128,
+      111,
+      71
+    ],
+    "storm_ui_icon_generic_cancel_mount.png": [
+      512,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_kel'thuzad_armorofthearchlich.png": [
+      0,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_kel'thuzad_phylactery.png": [
+      128,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_kel'thuzad_shiftingmalice.png": [
+      256,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_kel'thuzad_cultofthedamned.png": [
+      384,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_kel'thuzad_chillingtouch.png": [
+      512,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_kel'thuzad_chains_a.png": [
+      0,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_abilitytalent_damage.png": [
+      128,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_kel'thuzad_poweroficecrown.png": [
+      256,
+      384,
+      128,
+      128
+    ]
+  }
+}

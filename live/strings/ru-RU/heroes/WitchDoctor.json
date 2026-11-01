@@ -1,0 +1,224 @@
+{
+  "abilities": {
+    "WitchDoctorCorpseSpiders|WitchDoctorCorpseSpiders|Q": {
+      "cooldownText": "Время восстановления: 8 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 40</s>",
+      "fullText": "Бросает банку с пауками, которая наносит <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона и при попадании хотя бы по одному противнику призывает <c val=\"#TooltipNumbers\">3 </c><lang rule=\"plural\" val=\"\">трупного паука|c| наносящего,трупных пауков|c| наносящих,трупных пауков|c| наносящих</lang> <c val=\"#TooltipNumbers\">38</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона. Время жизни пауков составляет <c val=\"#TooltipNumbers\">4</c> сек.",
+      "name": "Трупные пауки",
+      "shortText": "Бросает урну, из которой выбираются агрессивные пауки."
+    },
+    "WitchDoctorZombieWall|WitchDoctorZombieWall|W": {
+      "cooldownText": "Время восстановления: 14 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 70</s>",
+      "fullText": "После паузы в <c val=\"#TooltipNumbers\">1</c> сек. образует вокруг указанной области кольцо зомби, наносящих <c val=\"#TooltipNumbers\">28</c><c val=\"#ColorGray\">~~0.04~~</c><c val=\"#TooltipNumbers\"> </c>ед. урона и атакующих в течение <c val=\"#TooltipNumbers\">3</c> сек.",
+      "name": "Стена зомби",
+      "shortText": "Призывает кольцо зомби, которые удерживают и атакуют противников."
+    },
+    "WitchDoctorPlagueofToads|WitchDoctorPlagueOfToads|E": {
+      "cooldownText": "Время восстановления заряда: 8 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 30</s>",
+      "fullText": "Призывает <c val=\"#TooltipNumbers\">3</c> жаб, которые взрываются при контакте с целью, нанося ей <c val=\"#TooltipNumbers\">126</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона в течение <c val=\"#TooltipNumbers\">6</c> сек. Эффект суммируется.<n/><n/>Максимум зарядов – <c val=\"#TooltipNumbers\">2</c>.",
+      "name": "Нашествие жаб",
+      "shortText": "Призывает волну взрывающихся жаб."
+    },
+    "WitchDoctorGargantuan|WitchDoctorGargantuan|Heroic": {
+      "cooldownText": "Время восстановления: 70 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 90</s>",
+      "fullText": "Призывает громадня, который охраняет указанную область и постепенно теряет здоровье в течение <c val=\"#TooltipNumbers\">29</c> сек. В момент призыва громадень наносит <c val=\"#TooltipNumbers\">100</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона. Автоатаки громадня наносят <c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона. Кроме того, ему можно приказать ударить по земле и поразить противников поблизости. Удар по земле наносит <c val=\"#TooltipNumbers\">240</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона и замедляет цели на <c val=\"#TooltipNumbers\">30%</c> на <c val=\"#TooltipNumbers\">2</c> сек.",
+      "name": "Громадень",
+      "shortText": "Призывает громадня, который охраняет указанную область."
+    },
+    "WitchDoctorRavenousSpirit|WitchDoctorRavenousSpirit|Heroic": {
+      "cooldownText": "Время восстановления: 90 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 100</s>",
+      "fullText": "Призывает голодного духа, наносящего <c val=\"#TooltipNumbers\">230</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона в секунду. Во время поддержания способности Назибо не может передвигаться. Время действия – <c val=\"#TooltipNumbers\">8</c> сек.",
+      "name": "Голодный дух",
+      "shortText": "Создает способного перемещаться духа, который наносит урон."
+    },
+    ":PASSIVE:|WitchDoctorVoodooRitualTrait|Trait": {
+      "fullText": "Автоатаки и способности Назибо отравляют всех противников, кроме героев, и дополнительно наносят им <c val=\"#TooltipNumbers\">66</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона в течение <c val=\"#TooltipNumbers\">6</c> сек.<n/><n/><c val=\"#TooltipQuest\">Задача:</c> если отравленный «Ритуалом вуду» воин умирает, максимальный запас здоровья Назибо до конца матча увеличивается на <c val=\"#TooltipNumbers\">6</c> ед., а максимальный запас маны – на <c val=\"#TooltipNumbers\">1</c> ед.",
+      "name": "Ритуал вуду",
+      "shortText": "Атаки наносят периодический урон. Убийства воинов дают здоровье и ману."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Время восстановления: 4 сек.",
+      "fullText": "После подготовки длительностью <c val=\"#TooltipNumbers\">1</c> сек. повышает скорость передвижения на <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Вызов транспорта"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "После поддержания в течение <c val=\"#TooltipNumbers\">6</c> сек. телепортирует героя в Зал Штормов, моментально восполняя <c val=\"#TooltipNumbers\">1125</c> ед. здоровья и <c val=\"#TooltipNumbers\">150</c> ед. маны.",
+      "name": "Возвращение"
+    },
+    "WitchDoctorZombieWallCancel|WitchDoctorZombieWallCancel|W": {
+      "fullText": "Уничтожает существующую стену зомби.",
+      "name": "Стена зомби"
+    },
+    "WitchDoctorGargantuanStompCommand|WitchDoctorGargantuanStomp|Heroic": {
+      "cooldownText": "Время восстановления: 5 сек.",
+      "fullText": "Приказывает громадню ударить по земле, нанося противникам поблизости <c val=\"#TooltipNumbers\">240</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона и замедляя их на <c val=\"#TooltipNumbers\">30%</c> на <c val=\"#TooltipNumbers\">2</c> сек.",
+      "name": "Удар по земле"
+    },
+    ":PASSIVE:|WitchDoctorGargantuanStomp|Heroic": {
+      "fullText": "Приказывает громадню ударить по земле, нанося противникам поблизости <c val=\"#TooltipNumbers\">240</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона и замедляя их на <c val=\"#TooltipNumbers\">30%</c> на <c val=\"#TooltipNumbers\">2</c> сек.",
+      "name": "Удар по земле"
+    },
+    "WitchDoctorRavenousSpiritCancel|WitchDoctorRavenousSpiritCancel|Heroic": {
+      "fullText": "Прекращает действие «Голодного духа» и возвращает контроль над Назибо.",
+      "name": "Голодный дух"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Покинуть транспорт.",
+      "name": "Отмена транспорта"
+    },
+    "TalentBucketIceBlock|GenericIceBlockCancel|Active": {
+      "cooldownText": "Время восстановления: 60 сек.",
+      "fullText": "<n/><s val=\"StandardTooltip\">Досрочно отменяет действие «Ледяной глыбы», снимая эффекты стазиса и неуязвимости.</s>",
+      "name": "Отмена «Ледяной глыбы»"
+    },
+    "TalentBucketIceBlock|GenericIceBlockTalent|Active": {
+      "cooldownText": "Время восстановления: 60 сек.",
+      "fullText": "При использовании ваш герой входит в стазис и становится неуязвимым на <c val=\"#TooltipNumbers\">3</c> сек.",
+      "name": "Ледяная глыба",
+      "shortText": "Дает временную неуязвимость."
+    },
+    "WitchDoctorSoulHarvest|WitchDoctorSoulHarvest|Active": {
+      "cooldownText": "Время восстановления: 15 сек.",
+      "fullText": "При использовании увеличивает запас здоровья и силу способностей Назибо на <c val=\"#TooltipNumbers\">7%</c> за каждого противника рядом с ним, вплоть до <c val=\"#TooltipNumbers\">35%</c>. Время действия – <c val=\"#TooltipNumbers\">15</c> сек.",
+      "name": "Жатва душ",
+      "shortText": "Увеличивает запас здоровья и силу способностей."
+    },
+    "WitchDoctorBadMedicine|WitchDoctorBadMedicine|Active": {
+      "cooldownText": "Время восстановления: 30 сек.",
+      "fullText": "При поглощении <c val=\"#TooltipNumbers\">5</c> эффектов «Ритуала вуду» Назибо становится неудержимым, его скорость передвижения повышается на <c val=\"#TooltipNumbers\">20%</c>, а показатель брони увеличивается на <c val=\"#TooltipNumbers\">50</c> ед. на <c val=\"#TooltipNumbers\">2</c> сек.",
+      "name": "Вредное лекарство",
+      "shortText": "При поглощении «Ритуал вуду» дает неудержимость."
+    }
+  },
+  "talents": {
+    "WitchDoctorWidowmakers|WitchDoctorWidowmakers|Q|Level1": {
+      "fullText": "Пораженные банкой с пауками противники замедляются на <c val=\"#TooltipNumbers\">25%</c> на <c val=\"#TooltipNumbers\">1</c> сек.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Награда:</c> после того как «Трупные пауки» поразят героев <c val=\"#TooltipNumbers\">100</c> <lang rule=\"plural\">раз,раза,раз</lang>, урон от их атак увеличится на <c val=\"#TooltipNumbers\">25%</c>, а время жизни увеличится на <c val=\"#TooltipNumbers\">1</c> сек.",
+      "name": "Губительные пауки",
+      "shortText": "<c val=\"#TooltipQuest\">Задача:</c> усильте «Трупных пауков»."
+    },
+    "WitchDoctorPandemic|WitchDoctorPandemic|E|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Задача:</c> поражайте героев «Нашествием жаб».<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Награда:</c> после <c val=\"#TooltipNumbers\">35</c> <lang rule=\"plural\">попадания,попаданий,попаданий</lang> по героям при применении «Нашествия жаб» число жаб увеличивается на <c val=\"#TooltipNumbers\">2</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Награда:</c> после <c val=\"#TooltipNumbers\">70</c> <lang rule=\"plural\">попадания,попаданий,попаданий</lang> по героям наносимый ими урон уменьшится на <c val=\"#TooltipNumbers\">5%</c>, вплоть до <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Пандемия",
+      "shortText": "<c val=\"#TooltipQuest\">Задача:</c> наносите урон при помощи жаб, чтобы усилить «Нашествие жаб»."
+    },
+    "WitchDoctorThingOfTheDeep|WitchDoctorThingOfTheDeepTalent|Passive|Level1": {
+      "fullText": "Увеличивает дальность действия базовых способностей на <c val=\"#TooltipNumbers\">20%</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Награда:</c> накопив <c val=\"#TooltipNumbers\">50</c> эффектов «Ритуала вуду», Назибо получит +<c val=\"#TooltipNumbers\">5%</c> к силе способностей.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Награда:</c> накопив <c val=\"#TooltipNumbers\">100</c> эффектов «Ритуала вуду», Назибо получит еще +<c val=\"#TooltipNumbers\">5%</c> к силе способностей.",
+      "name": "Нечто из глубин",
+      "shortText": "Увеличивает дальность действия способностей. <c val=\"#TooltipQuest\">Задача:</c> усильте способности."
+    },
+    "WitchDoctorHexedCrawlers|WitchDoctorHexedCrawlers|Q|Level4": {
+      "fullText": "Когда трупные пауки атакуют героя, Назибо восполняет <c val=\"#TooltipNumbers\">1%</c> максимального запаса здоровья и маны.",
+      "name": "Проклятые ползуны",
+      "shortText": "«Трупные пауки» восполняют здоровье и ману."
+    },
+    "WitchDoctorBigVoodoo|WitchDoctorBigVoodoo|Trait|Level4": {
+      "fullText": "Увеличивает бонусы к здоровью и мане от «Ритуала вуду» на <c val=\"#TooltipNumbers\">100%</c>.",
+      "name": "Большое вуду",
+      "shortText": "Увеличивает бонусы от «Ритуала вуду»."
+    },
+    "WitchDoctorBloodRitual|WitchDoctorVoodooRitualBloodRitualTalent|Trait|Level4": {
+      "fullText": "Когда погибает противник, находившийся под действием «Ритуала вуду», Назибо восполняет <c val=\"#TooltipNumbers\">2%</c> максимального запаса здоровья и маны.<n/><n/><c val=\"#AbilityPassive\">Пассивный эффект:</c> при убийстве героя Назибо получает <c val=\"#TooltipNumbers\">3</c> <lang rule=\"plural\">эффект,эффекта,эффектов</lang> «Ритуала вуду».",
+      "name": "Кровавый ритуал",
+      "shortText": "«Ритуал вуду» восполняет здоровье и ману."
+    },
+    "WitchDoctorSpiritofArachyr|WitchDoctorSpiritofArachyr|Q|Level7": {
+      "fullText": "Число появляющихся пауков увеличено с <c val=\"#TooltipNumbers\">3</c> до <c val=\"#TooltipNumbers\">4</c>. Если банка с пауками наносит урон только одному противнику, то дополнительно появляется еще один паук.",
+      "name": "Дух Арахира",
+      "shortText": "Порождает больше пауков."
+    },
+    "WitchDoctorDeadRush|WitchDoctorZombieWallDeadRushTalent|W|Level7": {
+      "fullText": "«Стена зомби» наносит на <c val=\"#TooltipNumbers\">100%</c> больше урона. По окончании времени ее действия до <c val=\"#TooltipNumbers\">5</c> оставшихся зомби выкапываются и атакуют противников поблизости, теряя здоровье в течение <c val=\"#TooltipNumbers\">3</c> сек.",
+      "name": "Атака мертвых",
+      "shortText": "Зомби наносят больше урона и выкапываются."
+    },
+    "WitchDoctorToadsofHugeness|WitchDoctorPlagueOfToadsToadsOfHugenessTalent|E|Level7": {
+      "fullText": "Увеличивает наносимый жабами урон и радиус области поражения при их взрыве на <c val=\"#TooltipNumbers\">25%</c> с каждым их прыжком, вплоть до <c val=\"#TooltipNumbers\">100%</c>.",
+      "name": "Гигантские жабы",
+      "shortText": "Жабы становятся сильнее с каждым прыжком."
+    },
+    "WitchDoctorHeroicAbilityGargantuan|WitchDoctorGargantuan|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 70 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 90</s>",
+      "fullText": "Призывает громадня, который охраняет указанную область и постепенно теряет здоровье в течение <c val=\"#TooltipNumbers\">29</c> сек. В момент призыва громадень наносит <c val=\"#TooltipNumbers\">100</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона. Автоатаки громадня наносят <c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона. Кроме того, ему можно приказать ударить по земле и поразить противников поблизости. Удар по земле наносит <c val=\"#TooltipNumbers\">240</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона и замедляет цели на <c val=\"#TooltipNumbers\">30%</c> на <c val=\"#TooltipNumbers\">2</c> сек.",
+      "name": "Громадень",
+      "shortText": "Призывает громадня, который охраняет указанную область."
+    },
+    "WitchDoctorHeroicAbilityRavenousSpirits|WitchDoctorRavenousSpirit|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 90 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 100</s>",
+      "fullText": "Призывает голодного духа, наносящего <c val=\"#TooltipNumbers\">230</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона в секунду. Во время поддержания способности Назибо не может передвигаться. Время действия – <c val=\"#TooltipNumbers\">8</c> сек.",
+      "name": "Голодный дух",
+      "shortText": "Создает способного перемещаться духа, который наносит урон."
+    },
+    "WitchDoctorGuardianToads|WitchDoctorGuardianToads|E|Level13": {
+      "fullText": "Когда «Нашествие жаб» поражает героя, Назибо получает <c val=\"#TooltipNumbers\">30</c> ед. брони на <c val=\"#TooltipNumbers\">3</c> сек. Максимум – <c val=\"#TooltipNumbers\">6</c> сек.",
+      "name": "Жабы-стражи",
+      "shortText": "«Нашествие жаб» дает броню."
+    },
+    "WitchDoctorSuperstition|WitchDoctorSuperstition|Passive|Level13": {
+      "fullText": "Дает <c val=\"#TooltipNumbers\">40</c> ед. энергетической брони. Автоатаки героев снимают эту броню на <c val=\"#TooltipNumbers\">3</c> сек. и призывают трупного паука, который атакует нападающего.",
+      "name": "Суеверие",
+      "shortText": "Дает энергетическую броню, действующую до первой вражеской автоатаки."
+    },
+    "GenericTalentIceBlock|GenericIceBlockTalent|Active|Level13": {
+      "cooldownText": "Время восстановления: 60 сек.",
+      "fullText": "При использовании ваш герой входит в стазис и становится неуязвимым на <c val=\"#TooltipNumbers\">3</c> сек.",
+      "name": "Ледяная глыба",
+      "shortText": "Дает временную неуязвимость."
+    },
+    "WitchDoctorSpiderColony|WitchDoctorSpiderColony|Q|Level16": {
+      "fullText": "Каждая атака пауков по героям сокращает время восстановления базовых способностей Назибо на <c val=\"#TooltipNumbers\">0.125</c> сек.",
+      "name": "Колония пауков",
+      "shortText": "«Трупные пауки» ускоряют восстановление базовых способностей."
+    },
+    "WitchDoctorRingOfPoison|WitchDoctorRingOfPoison|W|Level16": {
+      "fullText": "Увеличивает время действия «Стены зомби» на <c val=\"#TooltipNumbers\">1</c> сек. и наполняет центр ее области ядом, наносящим <c val=\"#TooltipNumbers\">319</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона в течение <c val=\"#TooltipNumbers\">4</c> сек. Этот урон поначалу незначителен, но постепенно увеличивается.",
+      "name": "Кольцо яда",
+      "shortText": "Наносит урон в центральной области."
+    },
+    "WitchDoctorSoulHarvest|WitchDoctorSoulHarvest|Active|Level16": {
+      "cooldownText": "Время восстановления: 15 сек.",
+      "fullText": "При использовании увеличивает запас здоровья и силу способностей Назибо на <c val=\"#TooltipNumbers\">7%</c> за каждого противника рядом с ним, вплоть до <c val=\"#TooltipNumbers\">35%</c>. Время действия – <c val=\"#TooltipNumbers\">15</c> сек.",
+      "name": "Жатва душ",
+      "shortText": "Увеличивает запас здоровья и силу способностей."
+    },
+    "WitchDoctorHumongoid|WitchDoctorGargantuanHumongoidTalent|Heroic|Level20": {
+      "fullText": "Увеличивает область действия «Удара по земле» громадня на <c val=\"#TooltipNumbers\">25%</c> и усиливает замедление до <c val=\"#TooltipNumbers\">50%</c>.<n/><n/><c val=\"#AbilityPassive\">Пассивный эффект: </c>сокращает время восстановления «Громадня» на <c val=\"#TooltipNumbers\">40 </c>сек. и снижает его стоимость на <c val=\"#TooltipNumbers\">50%</c>.",
+      "name": "Здоровяк",
+      "shortText": "Усиливает удар по земле «Громадня»."
+    },
+    "WitchDoctorAnnihilatingSpirits|WitchDoctorRavenousSpiritAnnihilatingSpiritTalent|Heroic|Level20": {
+      "fullText": "Когда «Голодный дух» наносит урон герою, он ослабляет получаемое целью исцеление на <c val=\"#TooltipNumbers\">50%</c> на <c val=\"#TooltipNumbers\">1</c> сек., при этом наносимый им урон увеличивается на <c val=\"#TooltipNumbers\">5%</c> до завершения времени действия.<n/><n/><c val=\"#AbilityPassive\">Пассивный эффект:</c> увеличивает дальность действия «Голодного духа» на <c val=\"#TooltipNumbers\">50%</c>.",
+      "name": "Разрушительный дух",
+      "shortText": "Увеличивает дальность действия и урон голодного духа, а также уменьшает эффективность исцеления."
+    },
+    "WitchDoctorVileInfection|WitchDoctorVileInfection|Trait|Level20": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Задача:</c> накопите <c val=\"#TooltipNumbers\">175</c> эффектов «Ритуала вуду».<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Награда:</c> после накопления <c val=\"#TooltipNumbers\">175</c> эффектов «Ритуал вуду» начнет действовать и на героев, а урон от него увеличится с <c val=\"#TooltipNumbers\">66</c><c val=\"#ColorGray\">~~0.04~~</c> до <c val=\"#TooltipNumbers\">165</c><c val=\"#ColorGray\">~~0.04~~</c> ед. в течение <c val=\"#TooltipNumbers\">6</c> сек.",
+      "name": "Жуткая инфекция",
+      "shortText": "<c val=\"#TooltipQuest\">Задача:</c> усильте «Ритуал вуду»."
+    },
+    "WitchDoctorBadMedicine|WitchDoctorBadMedicine|Active|Level20": {
+      "cooldownText": "Время восстановления: 30 сек.",
+      "fullText": "При поглощении <c val=\"#TooltipNumbers\">5</c> эффектов «Ритуала вуду» Назибо становится неудержимым, его скорость передвижения повышается на <c val=\"#TooltipNumbers\">20%</c>, а показатель брони увеличивается на <c val=\"#TooltipNumbers\">50</c> ед. на <c val=\"#TooltipNumbers\">2</c> сек.",
+      "name": "Вредное лекарство",
+      "shortText": "При поглощении «Ритуал вуду» дает неудержимость."
+    }
+  },
+  "units": {
+    "WitchDoctorGargantuan": {
+      "description": "Призывает громадня, который охраняет указанную область и постепенно теряет здоровье в течение <c val=\"#TooltipNumbers\">29</c> сек. В момент призыва громадень наносит <c val=\"#TooltipNumbers\">100</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона. Автоатаки громадня наносят <c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона. Кроме того, ему можно приказать ударить по земле и поразить противников поблизости. Удар по земле наносит <c val=\"#TooltipNumbers\">240</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона и замедляет цели на <c val=\"#TooltipNumbers\">30%</c> на <c val=\"#TooltipNumbers\">2</c> сек.",
+      "name": "Громадень"
+    },
+    "WitchDoctorZombieWallDeadRushTalentUnit": {
+      "description": "БЕЗДУМНОЕ ЗОМБИ-БРЕВНО ИЗ АДА",
+      "name": "Стена зомби"
+    },
+    "WitchDoctorZombieWallUnit": {
+      "name": "Стена зомби"
+    }
+  }
+}

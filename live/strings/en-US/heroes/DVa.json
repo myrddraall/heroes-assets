@@ -1,0 +1,232 @@
+{
+  "abilities": {
+    "DVaBoostersOn|DVaMechBoosters|Q": {
+      "cooldownText": "Cooldown: 10 seconds",
+      "fullText": "Increase D.Va's Movement Speed by <c val=\"#TooltipNumbers\">115%</c> for <c val=\"#TooltipNumbers\">1.75</c> seconds. Enemies that are hit take <c val=\"#TooltipNumbers\">135</c><c val=\"#ColorGray\">~~0.04~~</c> damage and are knocked away. <n/><n/>D.Va cannot be Slowed while Boosters are active, and each enemy can only be hit once per use.",
+      "name": "Boosters",
+      "shortText": "Move fast and knockback enemies"
+    },
+    "DVaMechDefenseMatrixOn|DVaMechDefenseMatrix|W": {
+      "cooldownText": "Cooldown: 12 seconds",
+      "fullText": "Project a defensive field in the target direction for <c val=\"#TooltipNumbers\">3</c> seconds, reducing the damage dealt by enemy Heroes inside it by <c val=\"#TooltipNumbers\">60%</c>.<n/><n/>Activate again to change the angle of projection.<n/><n/>Damage dealt to the Mech from enemies within Defense Matrix still grants the same amount of Self-Destruct Charge.",
+      "name": "Defense Matrix",
+      "shortText": "Reduce damage of enemy Heroes in an area"
+    },
+    "DVaMechSelfDestruct|DVaMechSelfDestruct|E": {
+      "fullText": "Eject from the Mech, setting it to self-destruct after <c val=\"#TooltipNumbers\">4</c> seconds. Deals <c val=\"#TooltipNumbers\">400</c><c val=\"#ColorGray\">~~0.04~~</c> to <c val=\"#TooltipNumbers\">1100</c><c val=\"#ColorGray\">~~0.04~~</c> damage in a large area, depending on distance from center. Deals <c val=\"#TooltipNumbers\">50%</c> damage against Structures.<n/><n/><c val=\"FF8000\">Gain </c><c val=\"#TooltipNumbers\">1%</c><c val=\"FF8000\"> Charge for every </c><c val=\"#TooltipNumbers\">2</c><c val=\"FF8000\"> seconds spent Basic Attacking, and </c><c val=\"#TooltipNumbers\">25%</c><c val=\"FF8000\"> Charge per </c><c val=\"#TooltipNumbers\">100%</c><c val=\"FF8000\"> of Mech Health lost.</c>",
+      "name": "Self-Destruct",
+      "shortText": "Eject from the Mech, setting it to self-destruct for massive damage"
+    },
+    "DVaMechBunnyHopHeroic|DVaBunnyHopOn|Heroic": {
+      "cooldownText": "Cooldown: 70 seconds",
+      "fullText": "D.Va's Mech becomes Unstoppable and stomps every <c val=\"#TooltipNumbers\">0.5</c> seconds, dealing <c val=\"#TooltipNumbers\">78</c><c val=\"#ColorGray\">~~0.04~~</c> damage in a large area. Every <c val=\"#TooltipNumbers\">4th</c> consecutive hit on a Hero deals <c val=\"#TooltipNumbers\">80%</c> more damage and Stuns them for <c val=\"#TooltipNumbers\">0.5</c> seconds.<n/><n/>Lasts for <c val=\"#TooltipNumbers\">4</c> seconds.<n/><n/>Requires Mech Mode.",
+      "name": "Bunny Hop",
+      "shortText": "Become Unstoppable and Stun nearby Heroes"
+    },
+    "DVaMicroMissiles|DVaMicroMissiles|Heroic": {
+      "cooldownText": "Charge Cooldown: 19 seconds",
+      "fullText": "After <c val=\"#TooltipNumbers\">.375</c> seconds, Channel to launch a volley of <c val=\"#TooltipNumbers\">12 </c>missiles in a target direction. Each missile impacts the first enemy in its path, dealing <c val=\"#TooltipNumbers\">40</c><c val=\"#ColorGray\">~~0.04~~</c> damage in a small area and Slowing by <c val=\"#TooltipNumbers\">30%</c> for <c val=\"#TooltipNumbers\">2</c> seconds.<n/><n/>Stores <c val=\"#TooltipNumbers\">2</c> charges with a <c val=\"#TooltipNumbers\">3</c> second cooldown between each use.<n/><n/>Requires Mech Mode.",
+      "name": "Micro Missiles",
+      "shortText": "Fire a stream of missiles that damage and Slow "
+    },
+    ":PASSIVE:|DVaMechMechMode|Trait": {
+      "fullText": "When D.Va's Mech dies, she is ejected out after <c val=\"#TooltipNumbers\">0.75</c> seconds and can continue to fight. D.Va's Mech only awards <c val=\"#TooltipNumbers\">50%</c> of a normal Hero's experience upon dying.<n/><n/><s val=\"StandardTooltipHeader\">Fusion Cannons</s><n/><n/>D.Va's Mech Basic Attacks deal <c val=\"#TooltipNumbers\">22</c><c val=\"#ColorGray\">~~0.04~~</c> damage in a large area every <c val=\"#TooltipNumbers\">0.25</c> seconds. Deals <c val=\"#TooltipNumbers\">40%</c> bonus damage against enemies very close to the Mech.",
+      "name": "Mech Mode",
+      "shortText": "D.Va can eject from her Mech and continue to fight"
+    },
+    ":PASSIVE:|DVaMechanizedWalker|Z": {
+      "fullText": "D.Va's Mech can shoot while moving. While shooting or channeling an ability, the Mech's Movement Speed is quickly reduced by <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Mechanized Walker",
+      "shortText": "While in her Mech, D.Va can shoot while moving, but her Movement Speed is reduced."
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "After Channeling for <c val=\"#TooltipNumbers\">6</c> seconds, teleport back to the Hall of Storms, instantly restoring <c val=\"#TooltipNumbers\">1125</c> Health and <c val=\"#TooltipNumbers\">150</c> Mana.",
+      "name": "Hearthstone"
+    },
+    "DVaBoostersOff|DVaMechCancelBoosters|Q": {
+      "fullText": "Cancel Boosters",
+      "name": "Cancel Boosters",
+      "shortText": "Cancel Boosters"
+    },
+    "DVaMechDefenseMatrixRetarget|DVaRetargetDefenseMatrix|W": {
+      "fullText": "Retarget Defense Matrix",
+      "name": "Retarget Defense Matrix",
+      "shortText": "Retarget Defense Matrix"
+    },
+    "DvaCancelDefenseMatrix|DvaCancelDefenseMatrix|Trait": {
+      "fullText": "Stop channeling Defense Matrix",
+      "name": "Cancel Defense Matrix",
+      "shortText": "Stop channeling Defense Matrix"
+    },
+    "DVaMechBunnyHopHeroic|DVaBunnyHopOff|Heroic": {
+      "cooldownText": "Cooldown: 70 seconds",
+      "fullText": "Cancel Bunny Hop",
+      "name": "Bunny Hop",
+      "shortText": "Cancel Bunny Hop"
+    },
+    "DVaLiquidCoolingAbility|DVaLiquidCooling|Active": {
+      "cooldownText": "Cooldown: 50 seconds",
+      "fullText": "Activate to gain the effects of Healing Fountain. Requires Mech Mode.<n/><n/><c val=\"#AbilityPassive\">Passive:</c> While in Mech Mode, Healing Fountain's cooldown is reduced to <c val=\"#TooltipNumbers\">50</c> seconds and its effects last <c val=\"#TooltipNumbers\">50%</c> longer.",
+      "name": "Liquid Cooling",
+      "shortText": "Empower Healing Fountain in Mech Mode"
+    },
+    "DVaPilotTorpedoDash|DVaPilotTorpedoDashAbility|Q": {
+      "cooldownText": "Cooldown: 10 seconds",
+      "fullText": "Dash towards the target location, passing through enemies along the way.",
+      "name": "Torpedo Dash",
+      "shortText": "Dash towards target location"
+    },
+    "DVaPilotConcussivePulse|DVaPilotConcussivePulseAbility|W": {
+      "cooldownText": "Cooldown: 10 seconds",
+      "fullText": "Deal <c val=\"#TooltipNumbers\">120</c><c val=\"#ColorGray\">~~0.04~~</c> damage to enemies in a cone and knock them back.",
+      "name": "Concussive Pulse",
+      "shortText": "Damage and knockback nearby enemies"
+    },
+    "DVaPilotCallMech|DVaPilotCallMech|E": {
+      "cooldownText": "Cooldown: 45 seconds",
+      "fullText": "Call a new Mech and enter Mech Mode.<n/><n/>Basic Attacks lower this cooldown by <c val=\"#TooltipNumbers\">0.5</c> seconds each.",
+      "name": "Call Mech"
+    },
+    "DVaPilotBigShot|DVaPilotBigShot|Heroic": {
+      "cooldownText": "Cooldown: 6 seconds",
+      "fullText": "Deal <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c> damage to all enemies in a line. Heroes hit have their Movement Speed Slowed by <c val=\"#TooltipNumbers\">25%</c> for <c val=\"#TooltipNumbers\">1.5</c> seconds. The cooldown of Call Mech is reduced by <c val=\"#TooltipNumbers\">5</c> seconds for each enemy Hero hit.<n/><n/>Requires Pilot Mode.",
+      "name": "Big Shot",
+      "shortText": "Damage and Slow enemies in a line as a Pilot"
+    },
+    ":PASSIVE:|DVaPilotPilotMode|Trait": {
+      "fullText": "Basic Attacks reduce the cooldown of Call Mech by <c val=\"#TooltipNumbers\">0.5</c> seconds. As a Pilot, D.Va only awards <c val=\"#TooltipNumbers\">50%</c> of a normal Hero's experience upon dying.",
+      "name": "Pilot Mode"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Cooldown: 4 seconds",
+      "fullText": "After Channeling for <c val=\"#TooltipNumbers\">1</c> second, gain <s val=\"StandardTooltipDetails\">30%</s> Movement Speed.",
+      "name": "Summon Mount"
+    },
+    "DVaMechPilotSelfDestruct|DVaMechSelfDestruct|Active": {
+      "fullText": "Eject from the Mech, setting it to self-destruct after <c val=\"#TooltipNumbers\">4</c> seconds. Deals <c val=\"#TooltipNumbers\">400</c><c val=\"#ColorGray\">~~0.04~~</c> to <c val=\"#TooltipNumbers\">1100</c><c val=\"#ColorGray\">~~0.04~~</c> damage in a large area, depending on distance from center. Deals <c val=\"#TooltipNumbers\">50%</c> damage against Structures.<n/><n/><c val=\"FF8000\">Gain </c><c val=\"#TooltipNumbers\">1%</c><c val=\"FF8000\"> Charge for every </c><c val=\"#TooltipNumbers\">2</c><c val=\"FF8000\"> seconds spent Basic Attacking, and </c><c val=\"#TooltipNumbers\">25%</c><c val=\"FF8000\"> Charge per </c><c val=\"#TooltipNumbers\">100%</c><c val=\"FF8000\"> of Mech Health lost.</c>",
+      "name": "Self-Destruct",
+      "shortText": "Eject from the Mech, setting it to self-destruct for massive damage"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Dismounts you.",
+      "name": "Unsummon Mount"
+    }
+  },
+  "talents": {
+    "DVaFullMetal|DVaFullMetal|Trait|Level1": {
+      "fullText": "D.Va's Mech gains <c val=\"#TooltipNumbers\">10%</c> increased Health and its Fusion Cannons heal for <c val=\"#TooltipNumbers\">16%</c> of the damage dealt to enemies in its bonus area.",
+      "name": "Full Metal",
+      "shortText": "Increase Mech Health, Fusion Cannons heal"
+    },
+    "DVaMechProMoves|DVaMechProMoves|Trait|Level1": {
+      "fullText": "D.Va's Mech gains <c val=\"#TooltipNumbers\">2%</c> Movement Speed and <c val=\"#TooltipNumbers\">2</c> Armor every time it takes damage, stacking up to <c val=\"#TooltipNumbers\">15</c> times. Stacks of this effect decay every <c val=\"#TooltipNumbers\">0.5</c> seconds.<n/><n/>Basic Attacks against enemy Heroes in Pilot Mode reduce the cooldown of Call Mech by <c val=\"#TooltipNumbers\">1</c> additional second.",
+      "name": "Pro Moves",
+      "shortText": "Taking damage increases Move Speed, Armor"
+    },
+    "DVaLiquidCooling|DVaLiquidCooling|Active|Level1": {
+      "cooldownText": "Cooldown: 50 seconds",
+      "fullText": "Activate to gain the effects of Healing Fountain. Requires Mech Mode.<n/><n/><c val=\"#AbilityPassive\">Passive:</c> While in Mech Mode, Healing Fountain's cooldown is reduced to <c val=\"#TooltipNumbers\">50</c> seconds and its effects last <c val=\"#TooltipNumbers\">50%</c> longer.",
+      "name": "Liquid Cooling",
+      "shortText": "Empower Healing Fountain in Mech Mode"
+    },
+    "DVaBoostersRushdown|DVaBoostersRushdown|Q|Level4": {
+      "fullText": "Boosters deals an additional <c val=\"#TooltipNumbers\">2% </c>of maximum Health as damage to Heroes and heals D.Va's Mech for the damage dealt. Boosters deals <c val=\"#TooltipNumbers\">50%</c> increased damage to non-Heroic enemies.",
+      "name": "Rush-down",
+      "shortText": "Boosters steals Health, increase non-hero damage"
+    },
+    "DVaDefenseMatrixAggressionMatrix|DVaDefenseMatrixAggressionMatrix|W|Level4": {
+      "fullText": "Enemy Heroes within your Defense Matrix receive <c val=\"#TooltipNumbers\">35%</c> less healing.<n/><n/><c val=\"#AbilityPassive\">Passive:</c> Basic Attacks against Heroes lower the cooldown of Defense Matrix by <c val=\"#TooltipNumbers\">0.1875</c> seconds.",
+      "name": "Aggression Matrix",
+      "shortText": "Defense Matrix reduces healing, lower cooldown"
+    },
+    "DVaSelfDestructNuclearOption|DVaSelfDestructNuclearOption|E|Level4": {
+      "fullText": "Hitting your self-destructing Mech with Big Shot causes it to self-destruct <c val=\"#TooltipNumbers\">40%</c> faster.<n/><n/><c val=\"#AbilityPassive\">Passive:</c> When Fusion Cannons deal bonus damage to an enemy Hero, gain <c val=\"#TooltipNumbers\">0.25</c> Self-Destruct Charge.",
+      "name": "Nuclear Option",
+      "shortText": "Empower Fusion Cannons and Self-Destruct"
+    },
+    "DvaGetOnThePoint|DvaGetOnThePoint|Q|Level7": {
+      "fullText": "Casting Boosters grants nearby allies <c val=\"#TooltipNumbers\">20%</c> Movement Speed for <c val=\"#TooltipNumbers\">3</c> seconds. <n/><n/><c val=\"#AbilityPassive\">Passive: </c>If D.Va has not taken damage in the last <c val=\"#TooltipNumbers\">2</c> seconds, Boosters' cooldown refreshes <c val=\"#TooltipNumbers\">100%</c> faster.",
+      "name": "Get On The Point!",
+      "shortText": "Reduce Boosters cooldown, grants allies move speed"
+    },
+    "DVaBoostersHitTheNitrous|DVaBoostersHitTheNitrous|Q|Level7": {
+      "fullText": "The initial speed bonus of Boosters is increased to <c val=\"#TooltipNumbers\">300%</c>, then decays to normal boost speed over <c val=\"#TooltipNumbers\">0.5</c> seconds. During this time, Boosters Stuns for <c val=\"#TooltipNumbers\">0.5</c> seconds.",
+      "name": "Hit the Nitrous",
+      "shortText": "Boosters give extra immediate speed, stuns"
+    },
+    "DVaDefenseMatrixFusionGenerator|DVaDefenseMatrixFusionGenerator|W|Level7": {
+      "fullText": "Every time an enemy Hero deals damage while inside Defense Matrix, D.Va's Self-Destruct Charge increases by <c val=\"#TooltipNumbers\">1%</c>. Max of <c val=\"#TooltipNumbers\">20%</c> Charge gained per use. <n/><n/><c val=\"#AbilityPassive\">Passive: </c>While at full Self-Destruct charge, Fusion Cannons' bonus damage is increased to <c val=\"#TooltipNumbers\">100%</c>.",
+      "name": "Fusion Generator",
+      "shortText": "Defense Matrix adds Self-Destruct Charge"
+    },
+    "DVaBunnyHop|DVaBunnyHopOn|Heroic|Level10": {
+      "cooldownText": "Cooldown: 70 seconds",
+      "fullText": "D.Va's Mech becomes Unstoppable and stomps every <c val=\"#TooltipNumbers\">0.5</c> seconds, dealing <c val=\"#TooltipNumbers\">78</c><c val=\"#ColorGray\">~~0.04~~</c> damage in a large area. Every <c val=\"#TooltipNumbers\">4th</c> consecutive hit on a Hero deals <c val=\"#TooltipNumbers\">80%</c> more damage and Stuns them for <c val=\"#TooltipNumbers\">0.5</c> seconds.<n/><n/>Lasts for <c val=\"#TooltipNumbers\">4</c> seconds.<n/><n/>Requires Mech Mode.",
+      "name": "Bunny Hop",
+      "shortText": "Become Unstoppable and Stun nearby Heroes"
+    },
+    "DVaMicroMissiles|DVaMicroMissiles|Heroic|Level10": {
+      "cooldownText": "Charge Cooldown: 19 seconds",
+      "fullText": "After <c val=\"#TooltipNumbers\">.375</c> seconds, Channel to launch a volley of <c val=\"#TooltipNumbers\">12 </c>missiles in a target direction. Each missile impacts the first enemy in its path, dealing <c val=\"#TooltipNumbers\">40</c><c val=\"#ColorGray\">~~0.04~~</c> damage in a small area and Slowing by <c val=\"#TooltipNumbers\">30%</c> for <c val=\"#TooltipNumbers\">2</c> seconds.<n/><n/>Stores <c val=\"#TooltipNumbers\">2</c> charges with a <c val=\"#TooltipNumbers\">3</c> second cooldown between each use.<n/><n/>Requires Mech Mode.",
+      "name": "Micro Missiles",
+      "shortText": "Fire a stream of missiles that damage and Slow "
+    },
+    "DVaTargetLocked|DVaTargetLocked|W|Level13": {
+      "fullText": "Enemy Heroes that remain in your Defense Matrix for <c val=\"#TooltipNumbers\">0.75</c> seconds have their Armor reduced by <c val=\"#TooltipNumbers\">15</c> and their Movement Speed reduced by <c val=\"#TooltipNumbers\">25%</c> for <c val=\"#TooltipNumbers\">3</c> seconds.",
+      "name": "Target Locked",
+      "shortText": "Defense Matrix lowers Armor, Slows"
+    },
+    "DVaGoodToGo|DVaGoodToGo|Trait|Level13": {
+      "fullText": "<c val=\"#AbilityPassive\">Pilot Mode:</c> Unlocks the Torpedo Dash and Concussive Pulse abilities.<n/><n/><c val=\"#TooltipNumbers\">Torpedo Dash:</c> Dash a short distance. <c val=\"#TooltipNumbers\">10</c> second cooldown.<n/><n/><c val=\"#TooltipNumbers\">Concussive Pulse:</c> Deal <c val=\"#TooltipNumbers\">120</c><c val=\"#ColorGray\">~~0.04~~</c> damage to enemies in a cone and knock them back. <c val=\"#TooltipNumbers\">10</c> second cooldown.",
+      "name": "Good To Go",
+      "shortText": "Unlock extra Pilot Mode abilities"
+    },
+    "DVaBigShotPewPewPew|DVaBigShotPewPewPew|Trait|Level13": {
+      "fullText": "<c val=\"#AbilityPassive\">Pilot Mode: </c>Instead of a single shot, Big Shot fires <c val=\"#TooltipNumbers\">3</c> shots over <c val=\"#TooltipNumbers\">0.5</c> seconds. Each shot deals <c val=\"#TooltipNumbers\">75%</c> damage.",
+      "name": "Pew! Pew! Pew!",
+      "shortText": "Big Shot fires multiple pulses"
+    },
+    "DVaInForTheKill|DVaInForTheKill|Q|Level16": {
+      "fullText": "Casting Boosters grants a Shield equal to <c val=\"#TooltipNumbers\">10%</c> of maximum life for <c val=\"#TooltipNumbers\">2.5</c> seconds. Each Enemy Hero hit by Boosters increases D.Va's Mech's Basic Attack damage by <c val=\"#TooltipNumbers\">10%</c> for <c val=\"#TooltipNumbers\">5</c> seconds, stacking up to <c val=\"#TooltipNumbers\">5</c> times.",
+      "name": "In For The Kill",
+      "shortText": "Boosters grants a Shield, increases attack damage"
+    },
+    "DVaDefenseMatrixDivertingPower|DVaDefenseMatrixDivertingPower|W|Level16": {
+      "fullText": "Defense Matrix's area grows drastically in size and each time it reduces damage dealt to Heroes D.Va's Mech is healed for <c val=\"#TooltipNumbers\">31</c><c val=\"#ColorGray\">~~0.04~~</c> Health.",
+      "name": "Diverting Power",
+      "shortText": "Increase Defense Matrix area, adds healing"
+    },
+    "DVaMechEmergencyShielding|DVaMechEmergencyShielding|Trait|Level16": {
+      "fullText": "When D.Va's Mech would be destroyed, it instead gains a Shield that absorbs <c val=\"#TooltipNumbers\">290</c><c val=\"#ColorGray\">~~0.04~~</c> damage over <c val=\"#TooltipNumbers\">8</c> seconds.<n/><n/>This effect has a <c val=\"#TooltipNumbers\">30</c> second cooldown.",
+      "name": "Emergency Shielding",
+      "shortText": "Mech gains a Shield instead of dying"
+    },
+    "DVaBunnyHopStopAndPop|DVaBunnyHopStopAndPop|Heroic|Level20": {
+      "fullText": "Increase Bunny Hop's duration by <c val=\"#TooltipNumbers\">4</c> seconds, and it does not decay while D.Va's Mech is stationary.",
+      "name": "Stop and Pop",
+      "shortText": "Bunny Hop lasts longer, paused if stationary"
+    },
+    "DVaTimingAttack|DVaTimingAttack|Heroic|Level20": {
+      "fullText": "Micro Missiles gains an additional charge. Each time Micro Missiles hits an enemy Hero, reduce its cooldown by <c val=\"#TooltipNumbers\">0.5</c> seconds and charge cooldown by <c val=\"#TooltipNumbers\">0.25</c> seconds.",
+      "name": "Timing Attack",
+      "shortText": "Gain a charge, Hero hits reduce cooldown"
+    },
+    "DVaHeadshot|DVaHeadshot|Trait|Level20": {
+      "fullText": "<c val=\"#AbilityPassive\">Pilot Mode:</c> Increase Big Shot's damage by <c val=\"#TooltipNumbers\">75%</c> and reduce its cooldown by <c val=\"#TooltipNumbers\">2</c> seconds.",
+      "name": "Headshot!",
+      "shortText": "Increase Big Shot damage, reduce cooldown"
+    },
+    "DVaMechAblativeArmor|DVaMechAblativeArmor|Trait|Level20": {
+      "fullText": "<c val=\"#TooltipNumbers\">45%</c> of Spell damage dealt to D.Va's Mech is returned as healing over <c val=\"#TooltipNumbers\">4 </c>seconds.",
+      "name": "Ablative Armor",
+      "shortText": "Heal for portion of Spell damage taken"
+    }
+  },
+  "units": {
+    "HeroDVaPilot": {
+      "energyType": "Charge",
+      "lifeType": "Health",
+      "name": "D.Va"
+    }
+  }
+}

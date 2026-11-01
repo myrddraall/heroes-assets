@@ -1,0 +1,683 @@
+{
+  "id": "Wizard",
+  "unitId": "HeroWizard",
+  "hyperlinkId": "LiMing",
+  "attributeId": "Wiza",
+  "franchise": "Diablo",
+  "rarity": "Epic",
+  "releaseDate": "2016-02-02",
+  "isMelee": false,
+  "gender": "Female",
+  "radius": 0.625,
+  "innerRadius": 0.625,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 7,
+    "damage": 10,
+    "survivability": 3,
+    "utility": 1
+  },
+  "life": {
+    "amount": 1270,
+    "scale": 0.04,
+    "regenRate": 2.6484,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "EnergyImportant",
+    "Ganker",
+    "RoleCaster",
+    "TowerPusher"
+  ],
+  "weapons": [
+    {
+      "nameId": "HeroWizardWeapon",
+      "isDisabled": false,
+      "range": 5.5,
+      "minimumRange": 0,
+      "period": 1,
+      "damage": 63,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "WizardClassic21",
+    "WizardSkinLunar",
+    "WizardSkinMask",
+    "WizardSkinStarPrincess",
+    "WizardSkinStarQueen",
+    "WizardSkinTemplar",
+    "WizardSkinUltimate",
+    "WizardSkinVolley"
+  ],
+  "variationSkinIds": [
+    "WizardVar1",
+    "WizardVar2",
+    "WizardVar3"
+  ],
+  "voiceLineIds": [
+    "WizardBase_VoiceLine01",
+    "WizardBase_VoiceLine02",
+    "WizardBase_VoiceLine03",
+    "WizardBase_VoiceLine04",
+    "WizardBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "WizardMagicMissiles|WizardMagicMissiles|Q",
+        "abilityId": "WizardMagicMissiles",
+        "buttonId": "WizardMagicMissiles",
+        "icon": "storm_ui_icon_wizard_magicmissiles.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "WizardArcaneOrb|WizardArcaneOrb|W",
+        "abilityId": "WizardArcaneOrb",
+        "buttonId": "WizardArcaneOrb",
+        "icon": "storm_ui_icon_wizard_arcaneorb.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "WizardTeleport|WizardTeleport|E",
+        "abilityId": "WizardTeleport",
+        "buttonId": "WizardTeleport",
+        "icon": "storm_ui_icon_wizard_teleport.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "WizardDisintegrate|WizardDisintegrate|Heroic",
+        "abilityId": "WizardDisintegrate",
+        "buttonId": "WizardDisintegrate",
+        "icon": "storm_ui_icon_wizard_disintegrate.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "WizardWaveOfForce|WizardWaveOfForce|Heroic",
+        "abilityId": "WizardWaveOfForce",
+        "buttonId": "WizardWaveOfForce",
+        "icon": "storm_ui_icon_wizard_waveofforce.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": ":PASSIVE:|WizardTraitCriticalMass|Trait",
+        "abilityId": ":PASSIVE:",
+        "buttonId": "WizardTraitCriticalMass",
+        "icon": "storm_ui_icon_wizard_criticalmass.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "WizardArchonPurePowerDisintegrate|WizardArchonPurePowerDisintegrate|Heroic": {
+      "Heroic": [
+        {
+          "linkId": "WizardArchonPurePowerDisintegrateCancel|WizardArchonPurePowerDisintegrateCancel|Heroic",
+          "abilityId": "WizardArchonPurePowerDisintegrateCancel",
+          "buttonId": "WizardArchonPurePowerDisintegrateCancel",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Heroic"
+        }
+      ]
+    },
+    "WizardDisintegrate|WizardDisintegrate|Heroic": {
+      "Heroic": [
+        {
+          "linkId": "WizardDisintegrateCancel|WizardDisintegrateCancel|Heroic",
+          "abilityId": "WizardDisintegrateCancel",
+          "buttonId": "WizardDisintegrateCancel",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Heroic"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "WizardArchonPurePower|WizardArchonPurePowerHotbar|Active": {
+      "Heroic": [
+        {
+          "linkId": "WizardArchonPurePowerDisintegrate|WizardArchonPurePowerDisintegrate|Heroic",
+          "abilityId": "WizardArchonPurePowerDisintegrate",
+          "buttonId": "WizardArchonPurePowerDisintegrate",
+          "icon": "storm_ui_icon_wizard_disintegrate_b.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Heroic"
+        }
+      ],
+      "Activable": [
+        {
+          "linkId": "WizardArchonPurePower|WizardArchonPurePowerHotbarCancel|Active",
+          "abilityId": "WizardArchonPurePower",
+          "buttonId": "WizardArchonPurePowerHotbarCancel",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "WizardTeleportIllusionist|WizardTeleportIllusionistTalent|E|Level13": {
+      "Activable": [
+        {
+          "linkId": "WizardTeleportIllusionist|WizardTeleportIllusionistHotbar|E",
+          "abilityId": "WizardTeleportIllusionist",
+          "buttonId": "WizardTeleportIllusionistHotbar",
+          "icon": "storm_ui_icon_wizard_teleport.png",
+          "abilityType": "E"
+        }
+      ]
+    },
+    "WizardArchonPurePower|WizardArchonPurePowerHotbar|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "WizardArchonPurePower|WizardArchonPurePowerHotbar|Active",
+          "abilityId": "WizardArchonPurePower",
+          "buttonId": "WizardArchonPurePowerHotbar",
+          "icon": "storm_ui_icon_wizard_archon.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "WizardForceArmor|WizardForceArmorTalent|Q|Level1",
+        "talentId": "WizardForceArmor",
+        "buttonId": "WizardForceArmorTalent",
+        "abilityId": "WizardMagicMissiles",
+        "icon": "storm_ui_icon_wizard_magicmissiles.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "WizardMagicMissiles|WizardMagicMissiles|Q"
+        ]
+      },
+      {
+        "linkId": "WizardAetherWalker|WizardAetherWalkerTalent|E|Level1",
+        "talentId": "WizardAetherWalker",
+        "buttonId": "WizardAetherWalkerTalent",
+        "abilityId": "WizardTeleport",
+        "icon": "storm_ui_icon_wizard_teleport.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "WizardTeleport|WizardTeleport|E"
+        ]
+      },
+      {
+        "linkId": "WizardPowerHungry|WizardPowerHungryTalent|Passive|Level1",
+        "talentId": "WizardPowerHungry",
+        "buttonId": "WizardPowerHungryTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_powerhungry.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|WizardTraitCriticalMass|Trait"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "WizardMagicMissilesChargedBlast|WizardMagicMissilesChargedBlastTalent|Q|Level4",
+        "talentId": "WizardMagicMissilesChargedBlast",
+        "buttonId": "WizardMagicMissilesChargedBlastTalent",
+        "abilityId": "WizardMagicMissiles",
+        "icon": "storm_ui_icon_wizard_magicmissiles.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "WizardMagicMissiles|WizardMagicMissiles|Q"
+        ]
+      },
+      {
+        "linkId": "WizardArcaneOrbTriumvirate|WizardArcaneOrbTriumvirateTalent|W|Level4",
+        "talentId": "WizardArcaneOrbTriumvirate",
+        "buttonId": "WizardArcaneOrbTriumvirateTalent",
+        "abilityId": "WizardArcaneOrb",
+        "icon": "storm_ui_icon_wizard_arcaneorb.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "WizardArcaneOrb|WizardArcaneOrb|W"
+        ]
+      },
+      {
+        "linkId": "WizardDominance|WizardDominanceTalent|Trait|Level4",
+        "talentId": "WizardDominance",
+        "buttonId": "WizardDominanceTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_wizard_criticalmass.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|WizardTraitCriticalMass|Trait"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "WizardMagicMissilesSeeker|WizardMagicMissilesSeekerTalent|Q|Level7",
+        "talentId": "WizardMagicMissilesSeeker",
+        "buttonId": "WizardMagicMissilesSeekerTalent",
+        "abilityId": "WizardMagicMissiles",
+        "icon": "storm_ui_icon_wizard_magicmissiles.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "WizardMagicMissiles|WizardMagicMissiles|Q"
+        ]
+      },
+      {
+        "linkId": "WizardArcaneOrbZeisVengeance|WizardArcaneOrbZeisVengeanceTalent|W|Level7",
+        "talentId": "WizardArcaneOrbZeisVengeance",
+        "buttonId": "WizardArcaneOrbZeisVengeanceTalent",
+        "abilityId": "WizardArcaneOrb",
+        "icon": "storm_ui_icon_wizard_arcaneorb.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "WizardArcaneOrb|WizardArcaneOrb|W"
+        ]
+      },
+      {
+        "linkId": "WizardTeleportCalamity|WizardTeleportCalamityTalent|E|Level7",
+        "talentId": "WizardTeleportCalamity",
+        "buttonId": "WizardTeleportCalamityTalent",
+        "abilityId": "WizardTeleport",
+        "icon": "storm_ui_icon_wizard_teleport.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "WizardTeleport|WizardTeleport|E"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "WizardHeroicAbilityDisintegrate|WizardDisintegrate|Heroic|Level10",
+        "talentId": "WizardHeroicAbilityDisintegrate",
+        "buttonId": "WizardDisintegrate",
+        "abilityId": "WizardDisintegrate",
+        "icon": "storm_ui_icon_wizard_disintegrate.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "WizardHeroicAbilityWaveOfForce|WizardWaveOfForce|Heroic|Level10",
+        "talentId": "WizardHeroicAbilityWaveOfForce",
+        "buttonId": "WizardWaveOfForce",
+        "abilityId": "WizardWaveOfForce",
+        "icon": "storm_ui_icon_wizard_waveofforce.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "WizardTeleportIllusionist|WizardTeleportIllusionistTalent|E|Level13",
+        "talentId": "WizardTeleportIllusionist",
+        "buttonId": "WizardTeleportIllusionistTalent",
+        "abilityId": "WizardTeleport",
+        "icon": "storm_ui_icon_wizard_teleport.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "WizardTeleport|WizardTeleport|E"
+        ]
+      },
+      {
+        "linkId": "WizardCannoneer|WizardCannoneerTalent|Passive|Level13",
+        "talentId": "WizardCannoneer",
+        "buttonId": "WizardCannoneerTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_damage.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|WizardTraitCriticalMass|Trait"
+        ]
+      },
+      {
+        "linkId": "WizardGlassCannon|WizardGlassCannonTalent|Passive|Level13",
+        "talentId": "WizardGlassCannon",
+        "buttonId": "WizardGlassCannonTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_btn_d3_traits_wizard_glasscannon.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|WizardTraitCriticalMass|Trait"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "WizardFireflies|WizardFireflies|Q|Level16",
+        "talentId": "WizardFireflies",
+        "buttonId": "WizardFireflies",
+        "abilityId": "WizardMagicMissiles",
+        "icon": "storm_ui_icon_wizard_magicmissiles.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "WizardMagicMissiles|WizardMagicMissiles|Q"
+        ]
+      },
+      {
+        "linkId": "WizardMagicMissilesMirrorball|WizardMagicMissilesMirrorballTalent|Q|Level16",
+        "talentId": "WizardMagicMissilesMirrorball",
+        "buttonId": "WizardMagicMissilesMirrorballTalent",
+        "abilityId": "WizardMagicMissiles",
+        "icon": "storm_ui_icon_wizard_magicmissiles_b.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "WizardMagicMissiles|WizardMagicMissiles|Q"
+        ]
+      },
+      {
+        "linkId": "WizardArcaneOrbArcaneOrbit|WizardArcaneOrbArcaneOrbitTalent|W|Level16",
+        "talentId": "WizardArcaneOrbArcaneOrbit",
+        "buttonId": "WizardArcaneOrbArcaneOrbitTalent",
+        "abilityId": "WizardArcaneOrb",
+        "icon": "storm_ui_icon_wizard_arcaneorb.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "WizardArcaneOrb|WizardArcaneOrb|W"
+        ]
+      },
+      {
+        "linkId": "WizardTeleportDiamondSkin|WizardTeleportDiamondSkinTalent|E|Level16",
+        "talentId": "WizardTeleportDiamondSkin",
+        "buttonId": "WizardTeleportDiamondSkinTalent",
+        "abilityId": "WizardTeleport",
+        "icon": "storm_ui_icon_wizard_teleport.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          "WizardTeleport|WizardTeleport|E"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "WizardDisintegrateTemporalFlux|WizardDisintegrateTemporalFluxTalent|Heroic|Level20",
+        "talentId": "WizardDisintegrateTemporalFlux",
+        "buttonId": "WizardDisintegrateTemporalFluxTalent",
+        "abilityId": "WizardDisintegrate",
+        "icon": "storm_ui_icon_wizard_disintegrate.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "WizardDisintegrate|WizardDisintegrate|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "WizardHeroicAbilityDisintegrate"
+        ]
+      },
+      {
+        "linkId": "WizardWaveOfForceRepulsion|WizardWaveOfForceRepulsionTalent|Heroic|Level20",
+        "talentId": "WizardWaveOfForceRepulsion",
+        "buttonId": "WizardWaveOfForceRepulsionTalent",
+        "abilityId": "WizardWaveOfForce",
+        "icon": "storm_ui_icon_wizard_waveofforce.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "WizardWaveOfForce|WizardWaveOfForce|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "WizardHeroicAbilityWaveOfForce"
+        ]
+      },
+      {
+        "linkId": "WizardTalRashasElements|WizardTalRashasElementsTalent|Passive|Level20",
+        "talentId": "WizardTalRashasElements",
+        "buttonId": "WizardTalRashasElementsTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_btn_d3_traits_wizard_elementalexposure.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|WizardTraitCriticalMass|Trait"
+        ]
+      },
+      {
+        "linkId": "WizardArchonPurePower|WizardArchonPurePowerHotbar|Active|Level20",
+        "talentId": "WizardArchonPurePower",
+        "buttonId": "WizardArchonPurePowerHotbar",
+        "abilityId": "WizardArchonPurePower",
+        "icon": "storm_ui_icon_wizard_archon.png",
+        "toggleCooldown": 0.5,
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      }
+    ]
+  },
+  "sheet": "sheets/Wizard.png",
+  "icons": {
+    "storm_ui_icon_wizard_magicmissiles.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_wizard_arcaneorb.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_wizard_teleport.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_wizard_disintegrate.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_wizard_waveofforce.png": [
+      512,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_wizard_criticalmass.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_mount.png": [
+      128,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      256,
+      128,
+      111,
+      71
+    ],
+    "hud_btn_bg_ability_cancel.png": [
+      384,
+      128,
+      97,
+      111
+    ],
+    "storm_ui_icon_generic_cancel_mount.png": [
+      512,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_wizard_disintegrate_b.png": [
+      0,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_wizard_archon.png": [
+      128,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_powerhungry.png": [
+      256,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_autoattack_damage.png": [
+      384,
+      256,
+      128,
+      128
+    ],
+    "storm_btn_d3_traits_wizard_glasscannon.png": [
+      512,
+      256,
+      64,
+      64
+    ],
+    "storm_ui_icon_wizard_magicmissiles_b.png": [
+      0,
+      384,
+      128,
+      128
+    ],
+    "storm_btn_d3_traits_wizard_elementalexposure.png": [
+      128,
+      384,
+      64,
+      64
+    ]
+  }
+}

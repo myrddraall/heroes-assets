@@ -1,0 +1,227 @@
+{
+  "abilities": {
+    "VarianLionsFang|VarianLionsFang|Q": {
+      "cooldownText": "Recarga: 8 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Cria uma onda de choque que se desloca em linha reta, causando <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c> de dano e desacelerando os inimigos em <c val=\"#TooltipNumbers\">35%</c> por <c val=\"#TooltipNumbers\">1.5</c> s. Varian recupera <c val=\"#TooltipNumbers\">35</c><c val=\"#ColorGray\">~~0.04~~</c> de Vida para cada inimigo atingido, ou <c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c> de Vida no caso de Heróis.",
+      "name": "Presa do Leão",
+      "shortText": "Causa dano e desacelera inimigos em linha reta; cura Varian"
+    },
+    "VarianParry|VarianParry|W": {
+      "cooldownText": "Recarga da carga: 10 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 30</s>",
+      "fullText": "Apara todos os Ataques Básicos recebidos por <c val=\"#TooltipNumbers\">1.25</c> s, reduzindo o dano causado por eles em <c val=\"#TooltipNumbers\">100%</c>.<n/><n/>Acumula até <c val=\"#TooltipNumbers\">2</c> cargas.",
+      "name": "Aparar",
+      "shortText": "Bloqueia Ataques Básicos recebidos durante um breve intervalo"
+    },
+    "VarianCharge|VarianCharge|E": {
+      "cooldownText": "Recarga: 12 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 45</s>",
+      "fullText": "Investe contra o inimigo selecionado, causando <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> de dano e desacelerando-o em <c val=\"#TooltipNumbers\">75%</c> por <c val=\"#TooltipNumbers\">1</c> s.",
+      "name": "Investida",
+      "shortText": "Investe contra um inimigo e causa dano"
+    },
+    "VarianTaunt|VarianTaunt|Heroic": {
+      "cooldownText": "Recarga: 16 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 20</s>",
+      "fullText": "Silencia um Herói inimigo, obrigando-o a atacar Varian por <c val=\"#TooltipNumbers\">1.25</c> s.<n/><n/><c val=\"#AbilityPassive\">Passivo:</c> Máximo de Vida e Regeneração de Vida aumentados em <c val=\"#TooltipNumbers\">40%</c>.",
+      "name": "Provocar",
+      "shortText": "Ganha Vida<n/>Força um Herói a atacar Varian"
+    },
+    "VarianColossusSmash|VarianColossusSmash|Heroic": {
+      "cooldownText": "Recarga: 20 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 40</s>",
+      "fullText": "Arrebenta o inimigo selecionado, causando <c val=\"#TooltipNumbers\">185</c><c val=\"#ColorGray\">~~0.04~~</c> de dano e reduzindo a Armadura dele em <c val=\"#TooltipNumbers\">25</c> por <c val=\"#TooltipNumbers\">3</c> s, fazendo-o receber <c val=\"#TooltipNumbers\">25%</c> a mais de dano.<n/><n/><c val=\"#AbilityPassive\">Passivo:</c> Dano de Ataque Básico aumentado em <c val=\"#TooltipNumbers\">100%</c>.<n/><c val=\"#AbilityPassive\">Passivo: </c>Máximo de Vida e Regeneração de Vida reduzidos em <c val=\"#TooltipNumbers\">10%</c>.",
+      "name": "Pancada Colossal",
+      "shortText": "Ganha dano, perde Vida<n/>Arrebenta inimigos e reduz a Armadura deles"
+    },
+    ":PASSIVE:|VarianTwinBladesOfFury|Heroic": {
+      "fullText": "Ataques Básicos reduzem a recarga de Golpe Heroico em <c val=\"#TooltipNumbers\">7</c> s e aumentam a Velocidade de Movimento de Varian em <c val=\"#TooltipNumbers\">30%</c> por <c val=\"#TooltipNumbers\">2</c> s.<n/><n/><c val=\"#AbilityPassive\">Passiva:</c> Velocidade de Ataque aumentada em <c val=\"#TooltipNumbers\">100%</c>.<n/><c val=\"#AbilityPassive\">Passiva:</c> Dano de Ataque Básico reduzido em <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Lâminas Duplas da Fúria",
+      "shortText": "Ganha Velocidade de Ataque, perde Dano<n/>Ataques Básicos reduzem a recarga de Golpe Heroico"
+    },
+    "VarianHeroicStrike|VarianHeroicStrike|Trait": {
+      "cooldownText": "Recarga: 18 segundos",
+      "fullText": "A cada <c val=\"#TooltipNumbers\">18</c> s, o Ataque Básico de Varian causa mais <c val=\"#TooltipNumbers\">125</c><c val=\"#ColorGray\">~~0.04~~</c> de Dano Mágico. Ataques Básicos reduzem a recarga dessa habilidade em <c val=\"#TooltipNumbers\">3</c> s.",
+      "name": "Golpe Heroico",
+      "shortText": "O próximo Ataque Básico causa dano extra"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Recarga: 4 segundos",
+      "fullText": "Depois de canalizar por <c val=\"#TooltipNumbers\">1</c> s, ganha <s val=\"StandardTooltipDetails\">30%</s> de Velocidade de Movimento.",
+      "name": "Evocar Montaria"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Depois de canalizar por <c val=\"#TooltipNumbers\">6</c> s, teleporta você de volta para o Salão das Tempestades, restaurando instantaneamente <c val=\"#TooltipNumbers\">1125</c> de Vida e <c val=\"#TooltipNumbers\">150</c> de Mana.",
+      "name": "Pedra de Regresso"
+    },
+    ":PASSIVE:|VarianHeroicStrikeActive|Trait": {
+      "cooldownText": "Recarga: 18 s",
+      "fullText": "A cada <c val=\"#TooltipNumbers\">18</c> s, o Ataque Básico de Varian causa mais <c val=\"#TooltipNumbers\">125</c><c val=\"#ColorGray\">~~0.04~~</c> de Dano Mágico. Ataques Básicos reduzem a recarga dessa habilidade em <c val=\"#TooltipNumbers\">3</c> s.",
+      "name": "Golpe Heroico",
+      "shortText": "Dano extra de Ataque Básico"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Desmonta você.",
+      "name": "Dispensar Montaria"
+    },
+    "VarianVictoryRush|VarianVictoryRush|Passive": {
+      "cooldownText": "Recarga: 30 segundos",
+      "fullText": "A cada <c val=\"#TooltipNumbers\">30</c> segundos, o Ataque Básico do Varian o cura em <c val=\"#TooltipNumbers\">350</c><c val=\"#ColorGray\">~~0.04~~</c> de Vida. Quando uma tropa ou monstro inimigo próximo morre, a recarga é reduzida em <c val=\"#TooltipNumbers\">10</c> segundos.",
+      "name": "Ímpeto da Vitória",
+      "shortText": "Ataques Básicos concedem uma cura volumosa periodicamente"
+    },
+    "VarianShatteringThrow|VarianShatteringThrow|Active": {
+      "cooldownText": "Recarga: 30 segundos",
+      "fullText": "Ative para arremessar uma espada e causar <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> de dano ao Herói inimigo e até <c val=\"#TooltipNumbers\">1400</c><c val=\"#ColorGray\">~~0.04~~</c> de dano extra ao Escudo dele.<n/><n/><c val=\"#AbilityPassive\">Passivo:</c> Ataques Básicos contra Heróis causam até <c val=\"#TooltipNumbers\">200%</c> de Dano Físico extra ao Escudo.",
+      "name": "Arremesso Devastador",
+      "shortText": "Causa muito dano a Escudos inimigos"
+    },
+    "VarianBannerOfDalaran|VarianBannerOfDalaran|Active": {
+      "cooldownText": "Recarga: 25 s",
+      "fullText": "Ative para posicionar um Estandarte que concede <c val=\"#TooltipNumbers\">20%</c> de Poder Mágico aos Heróis aliados próximos. Dura <c val=\"#TooltipNumbers\">12</c> segundos.",
+      "name": "Estandarte de Dalaran",
+      "shortText": "Estandarte que concede Poder Mágico"
+    },
+    "VarianBannerOfIronforge|VarianBannerOfIronforge|Active": {
+      "cooldownText": "Recarga: 45 s",
+      "fullText": "Ative para posicionar um Estandarte que concede <c val=\"#TooltipNumbers\">20</c> de Armadura aos Heróis aliados próximos, reduzindo o dano recebido em <c val=\"#TooltipNumbers\">20%</c>. Dura <c val=\"#TooltipNumbers\">12</c> segundos.",
+      "name": "Estandarte de Altaforja",
+      "shortText": "Estandarte que concede Armadura"
+    },
+    "VarianBannerOfStormwind|VarianBannerOfStormwind|Active": {
+      "cooldownText": "Recarga: 25 s",
+      "fullText": "Ative para posicionar um Estandarte que concede <c val=\"#TooltipNumbers\">25%</c> de Velocidade de Movimento aos Heróis aliados próximos. Dura <c val=\"#TooltipNumbers\">12</c> segundos.",
+      "name": "Estandarte de Ventobravo",
+      "shortText": "Estandarte que concede Velocidade de Movimento"
+    },
+    "VarianDemoralizingShout|VarianDemoralizingShout|Active": {
+      "cooldownText": "Recarga: 20 segundos",
+      "fullText": "Ative para desmoralizar Heróis inimigos próximos, reduzindo o dano causado por eles em <c val=\"#TooltipNumbers\">40%</c> por <c val=\"#TooltipNumbers\">5</c> s.<n/><n/>Cada vez que um Herói inimigo afetado por Urro Desmoralizante causar dano a um Herói, reduza a recarga dele e a recarga de Aparar em <c val=\"#TooltipNumbers\">5%</c>.",
+      "name": "Urro Desmoralizante",
+      "shortText": "Reduz o dano de Heróis próximos"
+    }
+  },
+  "talents": {
+    "VarianLionsFangLionsMawQuest|VarianLionsFangLionsMawQuest|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Missão:</c> Toda vez que Presa do Leão atinge um Herói, o dano da habilidade aumenta em <c val=\"#TooltipNumbers\">7</c>, até um máximo de <c val=\"#TooltipNumbers\">175</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa:</c> Ao atingir <c val=\"#TooltipNumbers\">25</c> Heróis, a desaceleração aumenta para <c val=\"#TooltipNumbers\">50%</c>, e a duração, para <c val=\"#TooltipNumbers\">2</c> s.",
+      "name": "Bocarra do Leão",
+      "shortText": "<c val=\"#TooltipQuest\">Missão:</c> Atingir Heróis para potencializar Presa do Leão"
+    },
+    "VarianParryOverpower|VarianParryOverpower|W|Level1": {
+      "fullText": "Ao Aparar o Ataque Básico de um Herói, a recarga do Golpe Heroico é concluída e o próximo Golpe Heroico causa <c val=\"#TooltipNumbers\">40%</c> a mais de dano.",
+      "name": "Subjugar",
+      "shortText": "Aparar o ataque de um Herói renova Golpe Heroico"
+    },
+    "VarianHighKingsQuestQuest|VarianHighKingsQuestQuest|Passive|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Missão: </c>Atingir <c val=\"#TooltipNumbers\">50</c> Heróis com Ataques Básicos.<n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Missão: </c>Participar de <c val=\"#TooltipNumbers\">5</c> Abates de Heróis.<n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Missão: </c>Coletar <c val=\"#TooltipNumbers\">15</c> Globos de Regeneração.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa:</c> Cumprir uma Missão concede <c val=\"#TooltipNumbers\">10</c> de Dano de Ataque Básico. Cumprir as <c val=\"#TooltipNumbers\">3</c> Missões concede um adicional de <c val=\"#TooltipNumbers\">30</c> de Dano de Ataque Básico.",
+      "name": "Jornada do Alto-rei",
+      "shortText": "<c val=\"#TooltipQuest\">Missão:</c> Cumpra missões para ganhar Dano de Ataque"
+    },
+    "VarianTaunt|VarianTaunt|Heroic|Level4": {
+      "cooldownText": "Recarga: 16 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 20</s>",
+      "fullText": "Silencia um Herói inimigo, obrigando-o a atacar Varian por <c val=\"#TooltipNumbers\">1.25</c> s.<n/><n/><c val=\"#AbilityPassive\">Passivo:</c> Máximo de Vida e Regeneração de Vida aumentados em <c val=\"#TooltipNumbers\">40%</c>.",
+      "name": "Provocar",
+      "shortText": "Ganha Vida<n/>Força um Herói a atacar Varian"
+    },
+    "VarianColossusSmash|VarianColossusSmash|Heroic|Level4": {
+      "cooldownText": "Recarga: 20 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 40</s>",
+      "fullText": "Arrebenta o inimigo selecionado, causando <c val=\"#TooltipNumbers\">185</c><c val=\"#ColorGray\">~~0.04~~</c> de dano e reduzindo a Armadura dele em <c val=\"#TooltipNumbers\">25</c> por <c val=\"#TooltipNumbers\">3</c> s, fazendo-o receber <c val=\"#TooltipNumbers\">25%</c> a mais de dano.<n/><n/><c val=\"#AbilityPassive\">Passivo:</c> Dano de Ataque Básico aumentado em <c val=\"#TooltipNumbers\">100%</c>.<n/><c val=\"#AbilityPassive\">Passivo: </c>Máximo de Vida e Regeneração de Vida reduzidos em <c val=\"#TooltipNumbers\">10%</c>.",
+      "name": "Pancada Colossal",
+      "shortText": "Ganha dano, perde Vida<n/>Arrebenta inimigos e reduz a Armadura deles"
+    },
+    "VarianTwinBladesOfFury|VarianTwinBladesOfFury|Heroic|Level4": {
+      "fullText": "Ataques Básicos reduzem a recarga de Golpe Heroico em <c val=\"#TooltipNumbers\">7</c> s e aumentam a Velocidade de Movimento de Varian em <c val=\"#TooltipNumbers\">30%</c> por <c val=\"#TooltipNumbers\">2</c> s.<n/><n/><c val=\"#AbilityPassive\">Passiva:</c> Velocidade de Ataque aumentada em <c val=\"#TooltipNumbers\">100%</c>.<n/><c val=\"#AbilityPassive\">Passiva:</c> Dano de Ataque Básico reduzido em <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Lâminas Duplas da Fúria",
+      "shortText": "Ganha Velocidade de Ataque, perde Dano<n/>Ataques Básicos reduzem a recarga de Golpe Heroico"
+    },
+    "VarianLionsFangLionheart|VarianLionsFangLionheart|Q|Level7": {
+      "fullText": "Aumenta em <c val=\"#TooltipNumbers\">75%</c> a cura da Presa do Leão ao atingir Heróis.",
+      "name": "Coração de Leão",
+      "shortText": "Aumenta a cura da Presa do Leão"
+    },
+    "VarianSecondWind|VarianSecondWind|Passive|Level7": {
+      "fullText": "Ataques Básicos curam Varian em <c val=\"#TooltipNumbers\">1%</c> da Vida máxima dele. Quando estiver abaixo de <c val=\"#TooltipNumbers\">50%</c> de Vida, esses ataques também curam um adicional de <c val=\"#TooltipNumbers\">50%</c> do dano causado.",
+      "name": "Fôlego Renovado",
+      "shortText": "Ataques Básicos curam; a cura aumenta com Vida baixa"
+    },
+    "VarianVictoryRush|VarianVictoryRush|Passive|Level7": {
+      "fullText": "A cada <c val=\"#TooltipNumbers\">30</c> segundos, o Ataque Básico do Varian o cura em <c val=\"#TooltipNumbers\">350</c><c val=\"#ColorGray\">~~0.04~~</c> de Vida. Quando uma tropa ou monstro inimigo próximo morre, a recarga é reduzida em <c val=\"#TooltipNumbers\">10</c> segundos.",
+      "name": "Ímpeto da Vitória",
+      "shortText": "Ataques Básicos concedem uma cura volumosa periodicamente"
+    },
+    "VarianParryShieldWall|VarianParryShieldWall|W|Level10": {
+      "fullText": "Fica Protegido ao Aparar, anulando todo o dano recebido enquanto durar o efeito. Além disso, reduz em <c val=\"#TooltipNumbers\">5</c> s a recarga de Aparar, mas a habilidade também perde <c val=\"#TooltipNumbers\">1</c> carga.",
+      "name": "Barricada",
+      "shortText": "Fica Protegido ao Aparar"
+    },
+    "VarianChargeWarbringer|VarianChargeWarbringer|E|Level10": {
+      "fullText": "Reduz a recarga da Investida em <c val=\"#TooltipNumbers\">8</c> s e o custo de Mana de <c val=\"#TooltipNumbers\">45</c> para <c val=\"#TooltipNumbers\">25</c>. Além disso, Investida pode ser usada em Heróis aliados.",
+      "name": "Armipotente",
+      "shortText": "Reduz a recarga da Investida; pode ser usada em aliados"
+    },
+    "VarianChargeJuggernaut|VarianChargeJuggernaut|E|Level13": {
+      "fullText": "Investida causa dano extra equivalente a <c val=\"#TooltipNumbers\">4%</c> da Vida máxima do Herói alvejado.",
+      "name": "Desenfreado",
+      "shortText": "Aumenta o dano da Investida"
+    },
+    "VarianMortalStrike|VarianMortalStrike|Trait|Level13": {
+      "fullText": "Heróis atingidos por Golpe Heroico recebem <c val=\"#TooltipNumbers\">40%</c> menos cura por <c val=\"#TooltipNumbers\">4</c> segundos.",
+      "name": "Golpe Mortal",
+      "shortText": "Golpe Heroico reduz a cura dos inimigos"
+    },
+    "VarianShatteringThrow|VarianShatteringThrow|Active|Level13": {
+      "cooldownText": "Recarga: 30 segundos",
+      "fullText": "Ative para arremessar uma espada e causar <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> de dano ao Herói inimigo e até <c val=\"#TooltipNumbers\">1400</c><c val=\"#ColorGray\">~~0.04~~</c> de dano extra ao Escudo dele.<n/><n/><c val=\"#AbilityPassive\">Passivo:</c> Ataques Básicos contra Heróis causam até <c val=\"#TooltipNumbers\">200%</c> de Dano Físico extra ao Escudo.",
+      "name": "Arremesso Devastador",
+      "shortText": "Causa muito dano a Escudos inimigos"
+    },
+    "VarianBannerOfStormwind|VarianBannerOfStormwind|Active|Level16": {
+      "cooldownText": "Recarga: 25 s",
+      "fullText": "Ative para posicionar um Estandarte que concede <c val=\"#TooltipNumbers\">25%</c> de Velocidade de Movimento aos Heróis aliados próximos. Dura <c val=\"#TooltipNumbers\">12</c> segundos.",
+      "name": "Estandarte de Ventobravo",
+      "shortText": "Estandarte que concede Velocidade de Movimento"
+    },
+    "VarianBannerOfIronforge|VarianBannerOfIronforge|Active|Level16": {
+      "cooldownText": "Recarga: 45 s",
+      "fullText": "Ative para posicionar um Estandarte que concede <c val=\"#TooltipNumbers\">20</c> de Armadura aos Heróis aliados próximos, reduzindo o dano recebido em <c val=\"#TooltipNumbers\">20%</c>. Dura <c val=\"#TooltipNumbers\">12</c> segundos.",
+      "name": "Estandarte de Altaforja",
+      "shortText": "Estandarte que concede Armadura"
+    },
+    "VarianBannerOfDalaran|VarianBannerOfDalaran|Active|Level16": {
+      "cooldownText": "Recarga: 25 s",
+      "fullText": "Ative para posicionar um Estandarte que concede <c val=\"#TooltipNumbers\">20%</c> de Poder Mágico aos Heróis aliados próximos. Dura <c val=\"#TooltipNumbers\">12</c> segundos.",
+      "name": "Estandarte de Dalaran",
+      "shortText": "Estandarte que concede Poder Mágico"
+    },
+    "VarianTauntVigilance|VarianTauntVigilance|Heroic|Level20": {
+      "fullText": "Ser atingido pelo Ataque Básico de um Herói reduz a recarga de Provocar em <c val=\"#TooltipNumbers\">1</c> s.",
+      "name": "Vigilância",
+      "shortText": "Ataques contra você reduzem a recarga de Provocar"
+    },
+    "VarianColossusSmashMasterAtArms|VarianColossusSmashMasterAtArms|Heroic|Level20": {
+      "fullText": "Pancada Colossal afeta todos os inimigos perto do alvo e tem a recarga reduzida em <c val=\"#TooltipNumbers\">10</c> segundos.",
+      "name": "Mestre de Armas",
+      "shortText": "Pancada Colossal atinge inimigos perto do alvo"
+    },
+    "VarianTwinBladesOfFuryFrenzy|VarianTwinBladesOfFuryFrenzy|Passive|Level20": {
+      "fullText": "Lâminas Duplas da Fúria aumentam o dano do Golpe Heroico em mais <c val=\"#TooltipNumbers\">25%</c>, e os Ataques Básicos aumentam a Velocidade de Movimento em mais <c val=\"#TooltipNumbers\">10%</c>.",
+      "name": "Frenesi",
+      "shortText": "Aumenta os bônus de Lâminas Duplas da Fúria"
+    },
+    "VarianBannersGloryToTheAlliance|VarianBannersGloryToTheAlliance|Passive|Level20": {
+      "fullText": "Estandarte também aumenta a regeneração de Vida e toda a cura recebida por Heróis aliados próximos em <c val=\"#TooltipNumbers\">50%</c>, e a recarga é reduzida em <c val=\"#TooltipNumbers\">50%</c>.",
+      "name": "Glória à Aliança",
+      "shortText": "Estandarte também aumenta efeitos de cura"
+    },
+    "VarianDemoralizingShout|VarianDemoralizingShout|Active|Level20": {
+      "cooldownText": "Recarga: 20 segundos",
+      "fullText": "Ative para desmoralizar Heróis inimigos próximos, reduzindo o dano causado por eles em <c val=\"#TooltipNumbers\">40%</c> por <c val=\"#TooltipNumbers\">5</c> s.<n/><n/>Cada vez que um Herói inimigo afetado por Urro Desmoralizante causar dano a um Herói, reduza a recarga dele e a recarga de Aparar em <c val=\"#TooltipNumbers\">5%</c>.",
+      "name": "Urro Desmoralizante",
+      "shortText": "Reduz o dano de Heróis próximos"
+    }
+  },
+  "units": {}
+}

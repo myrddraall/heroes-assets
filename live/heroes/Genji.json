@@ -1,0 +1,632 @@
+{
+  "id": "Genji",
+  "unitId": "HeroGenji",
+  "hyperlinkId": "Genji",
+  "attributeId": "Genj",
+  "franchise": "Overwatch",
+  "rarity": "Legendary",
+  "releaseDate": "2017-04-25",
+  "isMelee": false,
+  "gender": "Male",
+  "radius": 0.6875,
+  "innerRadius": 0.6875,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 6,
+    "damage": 8,
+    "survivability": 4,
+    "utility": 4
+  },
+  "life": {
+    "amount": 1675,
+    "scale": 0.04,
+    "regenRate": 3.4882,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "EnergyImportant",
+    "Escaper",
+    "Ganker",
+    "Overconfident",
+    "RoleCaster"
+  ],
+  "summonedUnitIds": [
+    "GenjiSwiftStrikeFinalCutShadow"
+  ],
+  "weapons": [
+    {
+      "nameId": "GenjiHeroWeapon",
+      "isDisabled": false,
+      "range": 4.5,
+      "minimumRange": 0,
+      "period": 1,
+      "damage": 44,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "GenjiArmy18",
+    "GenjiOni",
+    "GenjiUltimate"
+  ],
+  "variationSkinIds": [
+    "GenjiBaseVar1",
+    "GenjiBaseVar2",
+    "GenjiBaseVar3",
+    "GenjiBaseVar4",
+    "GenjiBaseVar5",
+    "GenjiBaseVar6"
+  ],
+  "voiceLineIds": [
+    "GenjiBase_VoiceLine01",
+    "GenjiBase_VoiceLine02",
+    "GenjiBase_VoiceLine03",
+    "GenjiBase_VoiceLine04",
+    "GenjiBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "GenjiShuriken|GenjiShuriken|Q",
+        "abilityId": "GenjiShuriken",
+        "buttonId": "GenjiShuriken",
+        "icon": "storm_ui_icon_genji_shurikens.png",
+        "charges": {
+          "countMax": 3,
+          "countStart": 3,
+          "countUse": 1,
+          "recastCooldown": 0.5,
+          "isCountHidden": false
+        },
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "GenjiDeflectInstant|GenjiDeflect|W",
+        "abilityId": "GenjiDeflectInstant",
+        "buttonId": "GenjiDeflect",
+        "icon": "storm_ui_icon_genji_deflect.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "GenjiSwiftStrike|GenjiSwiftStrike|E",
+        "abilityId": "GenjiSwiftStrike",
+        "buttonId": "GenjiSwiftStrike",
+        "icon": "storm_ui_icon_genji_swiftstrike.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "GenjiDragonblade|GenjiDragonblade|Heroic",
+        "abilityId": "GenjiDragonblade",
+        "buttonId": "GenjiDragonblade",
+        "icon": "storm_ui_icon_genji_dragonblade.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "GenjiXStrike|GenjiXStrike|Heroic",
+        "abilityId": "GenjiXStrike",
+        "buttonId": "GenjiXStrike",
+        "icon": "storm_ui_icon_genji_shurikens_xblade.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": "GenjiCyberAgility|GenjiCyberAgility|Trait",
+        "abilityId": "GenjiCyberAgility",
+        "buttonId": "GenjiCyberAgility",
+        "icon": "storm_ui_icon_genji_cyberagility.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "GenjiDragonblade|GenjiDragonblade|Heroic": {
+      "Basic": [
+        {
+          "linkId": "GenjiDragonbladeAttack|GenjiDragonbladeAttack|Q",
+          "abilityId": "GenjiDragonbladeAttack",
+          "buttonId": "GenjiDragonbladeAttack",
+          "icon": "storm_ui_icon_genji_dragonblade_sword.png",
+          "abilityType": "Q"
+        }
+      ],
+      "Heroic": [
+        {
+          "linkId": "GenjiDragonbladeAttack|GenjiDragonbladeAttack|Heroic",
+          "abilityId": "GenjiDragonbladeAttack",
+          "buttonId": "GenjiDragonbladeAttack",
+          "icon": "storm_ui_icon_genji_dragonblade_sword.png",
+          "abilityType": "Heroic"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "GenjiDeflectDragonClaw|GenjiDeflectDragonClawTalent|Active|Level4": {
+      "Activable": [
+        {
+          "linkId": "GenjiDeflectDragonClaw|GenjiDeflectDragonClawAbility|Active",
+          "abilityId": "GenjiDeflectDragonClaw",
+          "buttonId": "GenjiDeflectDragonClawAbility",
+          "icon": "storm_ui_icon_genji_shurikens_dragonsoul.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "GenjiSwiftStrikeSwiftAsTheWind|GenjiSwiftStrikeSwiftAsTheWind|E|Level1",
+        "talentId": "GenjiSwiftStrikeSwiftAsTheWind",
+        "buttonId": "GenjiSwiftStrikeSwiftAsTheWind",
+        "abilityId": "GenjiSwiftStrike",
+        "icon": "storm_ui_icon_genji_swiftstrike.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "GenjiSwiftStrike|GenjiSwiftStrike|E"
+        ]
+      },
+      {
+        "linkId": "GenjiCyberAgilityAgileDismount|GenjiCyberAgilityAgileDismount|Trait|Level1",
+        "talentId": "GenjiCyberAgilityAgileDismount",
+        "buttonId": "GenjiCyberAgilityAgileDismount",
+        "abilityId": "GenjiCyberAgility",
+        "icon": "storm_ui_icon_genji_cyberagility.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "GenjiCyberAgility|GenjiCyberAgility|Trait"
+        ]
+      },
+      {
+        "linkId": "GenjiCyberAgilityPathfinder|GenjiCyberAgilityPathfinder|Trait|Level1",
+        "talentId": "GenjiCyberAgilityPathfinder",
+        "buttonId": "GenjiCyberAgilityPathfinder",
+        "abilityId": "GenjiCyberAgility",
+        "icon": "storm_ui_icon_genji_cyberagility_a.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "GenjiCyberAgility|GenjiCyberAgility|Trait"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "GenjiShurikenShurikenMastery|GenjiShurikenShurikenMastery|Q|Level4",
+        "talentId": "GenjiShurikenShurikenMastery",
+        "buttonId": "GenjiShurikenShurikenMastery",
+        "abilityId": "GenjiShuriken",
+        "icon": "storm_ui_icon_genji_shurikens.png",
+        "abilityType": "Q",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "GenjiShuriken|GenjiShuriken|Q"
+        ]
+      },
+      {
+        "linkId": "GenjiSwiftStrikeStrikeAtTheHeart|GenjiSwiftStrikeStrikeAtTheHeart|E|Level4",
+        "talentId": "GenjiSwiftStrikeStrikeAtTheHeart",
+        "buttonId": "GenjiSwiftStrikeStrikeAtTheHeart",
+        "abilityId": "GenjiSwiftStrike",
+        "icon": "storm_ui_icon_genji_swiftstrike.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "GenjiSwiftStrike|GenjiSwiftStrike|E"
+        ]
+      },
+      {
+        "linkId": "GenjiDeflectDragonClaw|GenjiDeflectDragonClawTalent|Active|Level4",
+        "talentId": "GenjiDeflectDragonClaw",
+        "buttonId": "GenjiDeflectDragonClawTalent",
+        "abilityId": "GenjiDeflectDragonClaw",
+        "icon": "storm_ui_icon_genji_shurikens_dragonsoul.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "GenjiDeflectInstant|GenjiDeflect|W"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "GenjiDeflectAugmentedGuard|GenjiDeflectAugmentedGuard|W|Level7",
+        "talentId": "GenjiDeflectAugmentedGuard",
+        "buttonId": "GenjiDeflectAugmentedGuard",
+        "abilityId": "GenjiDeflectInstant",
+        "icon": "storm_ui_icon_genji_deflect.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "GenjiDeflectInstant|GenjiDeflect|W"
+        ]
+      },
+      {
+        "linkId": "GenjiDeflectPerfectDefense|GenjiDeflectPerfectDefense|W|Level7",
+        "talentId": "GenjiDeflectPerfectDefense",
+        "buttonId": "GenjiDeflectPerfectDefense",
+        "abilityId": "GenjiDeflectInstant",
+        "icon": "storm_ui_icon_genji_deflect_a.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "GenjiDeflectInstant|GenjiDeflect|W"
+        ]
+      },
+      {
+        "linkId": "GenjiCyberAgilityCyberShield|GenjiCyberAgilityCyberShield|Trait|Level7",
+        "talentId": "GenjiCyberAgilityCyberShield",
+        "buttonId": "GenjiCyberAgilityCyberShield",
+        "abilityId": "GenjiCyberAgility",
+        "icon": "storm_ui_icon_genji_cyberagility.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "GenjiCyberAgility|GenjiCyberAgility|Trait"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "GenjiHeroicDragonblade|GenjiDragonblade|Heroic|Level10",
+        "talentId": "GenjiHeroicDragonblade",
+        "buttonId": "GenjiDragonblade",
+        "abilityId": "GenjiDragonblade",
+        "icon": "storm_ui_icon_genji_dragonblade.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "GenjiHeroicXStrike|GenjiXStrike|Heroic|Level10",
+        "talentId": "GenjiHeroicXStrike",
+        "buttonId": "GenjiXStrike",
+        "abilityId": "GenjiXStrike",
+        "icon": "storm_ui_icon_genji_shurikens_xblade.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "GenjiShurikenShingan|GenjiShurikenShingan|Q|Level13",
+        "talentId": "GenjiShurikenShingan",
+        "buttonId": "GenjiShurikenShingan",
+        "abilityId": "GenjiShuriken",
+        "icon": "storm_ui_icon_genji_shurikens.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "GenjiShuriken|GenjiShuriken|Q"
+        ]
+      },
+      {
+        "linkId": "GenjiSwiftStrikeFlowLikeWater|GenjiSwiftStrikeFlowLikeWater|E|Level13",
+        "talentId": "GenjiSwiftStrikeFlowLikeWater",
+        "buttonId": "GenjiSwiftStrikeFlowLikeWater",
+        "abilityId": "GenjiSwiftStrike",
+        "icon": "storm_ui_icon_genji_swiftstrike.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "GenjiSwiftStrike|GenjiSwiftStrike|E"
+        ]
+      },
+      {
+        "linkId": "GenjiWayOfTheShimadaTalent|GenjiWayOfTheShimada|Passive|Level13",
+        "talentId": "GenjiWayOfTheShimadaTalent",
+        "buttonId": "GenjiWayOfTheShimada",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_damage.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "GenjiCyberAgility|GenjiCyberAgility|Trait"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "GenjiDeflectReflect|GenjiDeflectReflect|W|Level16",
+        "talentId": "GenjiDeflectReflect",
+        "buttonId": "GenjiDeflectReflect",
+        "abilityId": "GenjiDeflectInstant",
+        "icon": "storm_ui_icon_genji_deflect.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "GenjiDeflectInstant|GenjiDeflect|W"
+        ]
+      },
+      {
+        "linkId": "GenjiSwiftStrikeFinalCut|GenjiSwiftStrikeFinalCut|E|Level16",
+        "talentId": "GenjiSwiftStrikeFinalCut",
+        "buttonId": "GenjiSwiftStrikeFinalCut",
+        "abilityId": "GenjiSwiftStrike",
+        "icon": "storm_ui_icon_genji_swiftstrike.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "GenjiSwiftStrike|GenjiSwiftStrike|E"
+        ]
+      },
+      {
+        "linkId": "GenjiSwiftStrikeSteadyBlade|GenjiSwiftStrikeSteadyBlade|E|Level16",
+        "talentId": "GenjiSwiftStrikeSteadyBlade",
+        "buttonId": "GenjiSwiftStrikeSteadyBlade",
+        "abilityId": "GenjiSwiftStrike",
+        "icon": "storm_ui_icon_genji_swiftstrike_a.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "GenjiSwiftStrike|GenjiSwiftStrike|E"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "GenjiDragonbladeTheDragonBecomesMe|GenjiDragonbladeTheDragonBecomesMe|Heroic|Level20",
+        "talentId": "GenjiDragonbladeTheDragonBecomesMe",
+        "buttonId": "GenjiDragonbladeTheDragonBecomesMe",
+        "abilityId": "GenjiDragonblade",
+        "icon": "storm_ui_icon_genji_dragonblade.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "GenjiDragonbladeAttack|GenjiDragonbladeAttack|Q",
+          "GenjiDragonblade|GenjiDragonblade|Heroic",
+          "GenjiDragonbladeAttack|GenjiDragonbladeAttack|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "GenjiHeroicDragonblade"
+        ]
+      },
+      {
+        "linkId": "GenjiXStrikeLivingWeapon|GenjiXStrikeLivingWeapon|Heroic|Level20",
+        "talentId": "GenjiXStrikeLivingWeapon",
+        "buttonId": "GenjiXStrikeLivingWeapon",
+        "abilityId": "GenjiXStrike",
+        "icon": "storm_ui_icon_genji_shurikens_xblade.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "GenjiXStrike|GenjiXStrike|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "GenjiHeroicXStrike"
+        ]
+      },
+      {
+        "linkId": "GenjiShurikenSharpenedStars|GenjiShurikenSharpenedStars|Q|Level20",
+        "talentId": "GenjiShurikenSharpenedStars",
+        "buttonId": "GenjiShurikenSharpenedStars",
+        "abilityId": "GenjiShuriken",
+        "icon": "storm_ui_icon_genji_shurikens.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "GenjiShuriken|GenjiShuriken|Q"
+        ]
+      },
+      {
+        "linkId": "GenjiDeflectZanshin|GenjiDeflectZanshin|W|Level20",
+        "talentId": "GenjiDeflectZanshin",
+        "buttonId": "GenjiDeflectZanshin",
+        "abilityId": "GenjiDeflectInstant",
+        "icon": "storm_ui_icon_genji_deflect.png",
+        "abilityType": "W",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          "GenjiDeflectInstant|GenjiDeflect|W"
+        ]
+      }
+    ]
+  },
+  "sheet": "sheets/Genji.png",
+  "icons": {
+    "storm_ui_icon_genji_shurikens.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_genji_deflect.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_genji_swiftstrike.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_genji_dragonblade.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_genji_shurikens_xblade.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_genji_cyberagility.png": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_mount.png": [
+      256,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      384,
+      128,
+      111,
+      71
+    ],
+    "storm_ui_icon_genji_dragonblade_sword.png": [
+      0,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_cancel_mount.png": [
+      128,
+      256,
+      76,
+      48
+    ],
+    "storm_ui_icon_genji_shurikens_dragonsoul.png": [
+      256,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_genji_cyberagility_a.png": [
+      384,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_genji_deflect_a.png": [
+      0,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_autoattack_damage.png": [
+      128,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_genji_swiftstrike_a.png": [
+      256,
+      384,
+      128,
+      128
+    ]
+  }
+}

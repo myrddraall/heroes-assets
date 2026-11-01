@@ -1,0 +1,205 @@
+{
+  "abilities": {
+    "LeoricSkeletalSwingTargetedReady|LeoricSkeletalSwing|Q": {
+      "cooldownText": "Temps de recharge : 12 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 70</s>",
+      "fullText": "Léoric donne un coup de masse qui inflige <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts aux ennemis et les ralentit de <c val=\"#TooltipNumbers\">40%</c> pendant <c val=\"#TooltipNumbers\">2.5</c> secondes. Si un héros adverse est touché, annule <c val=\"#TooltipNumbers\">50%</c> du temps de recharge et du coût en mana. Inflige <c val=\"#TooltipNumbers\">75%</c> de dégâts supplémentaires aux serviteurs. Manants !",
+      "name": "Frappe du squelette",
+      "shortText": "Inflige des dégâts aux ennemis et les ralentit."
+    },
+    "LeoricDrainHope|LeoricDrainHope|W": {
+      "cooldownText": "Temps de recharge : 10 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 60</s>",
+      "fullText": "S’empare de l’âme d’un ennemi et ponctionne jusqu’à <c val=\"#TooltipNumbers\">20%</c> de son maximum de points de vie pour rendre à Léoric jusqu’à <c val=\"#TooltipNumbers\">20%</c> de sa vie maximale tant qu’il se trouve à proximité, dans les <c val=\"#TooltipNumbers\">4</c> secondes. Tant qu’il est actif, diminue également la vitesse de déplacement de Léoric de <c val=\"#TooltipNumbers\">20%</c>.",
+      "name": "Drain d’espoir",
+      "shortText": "Ponctionne les points de vie d’un héros adverse proche."
+    },
+    "LeoricWraithWalk|LeoricWraithWalk|E": {
+      "cooldownText": "Temps de recharge : 14 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 50</s>",
+      "fullText": "Séparé de son corps, Léoric devient insensible aux effets de contrôle et gagne en vitesse de déplacement jusqu’à <c val=\"#TooltipNumbers\">50%</c> en <c val=\"#TooltipNumbers\">2.5</c> secondes. Lorsque Marche spectrale s’achève, téléporte le corps à l’emplacement du spectre.",
+      "name": "Marche spectrale",
+      "shortText": "Forme spectrale capable de se déplacer librement."
+    },
+    "LeoricEntomb|LeoricEntomb|Heroic": {
+      "cooldownText": "Temps de recharge : 50 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 90</s>",
+      "fullText": "Crée une tombe infranchissable qui dure <c val=\"#TooltipNumbers\">4</c> secondes.",
+      "name": "Tombeau",
+      "shortText": "Emmure une zone."
+    },
+    "LeoricMarchoftheBlackKing|LeoricMarchoftheBlackKing|Heroic": {
+      "cooldownText": "Temps de recharge : 50 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 75</s>",
+      "fullText": "Léoric devient insensible aux effets de contrôle et avance droit devant lui en assénant <c val=\"#TooltipNumbers\">3</c> violents coups de masse. Les ennemis touchés subissent <c val=\"#TooltipNumbers\">250</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts et les héros touchés lui rendent <c val=\"#TooltipNumbers\">12%</c> de son maximum de points de vie.",
+      "name": "Marche du roi noir",
+      "shortText": "Léoric progresse droit devant lui, inflige des dégâts aux ennemis et récupère des points de vie."
+    },
+    ":PASSIVE:|LeoricUndyingTrait|Trait": {
+      "fullText": "À sa mort, Léoric se transforme en spectre et revient à la vie lorsque ses points de vie atteignent leur maximum. Sous forme de spectre, les capacités et talents n’infligent aucun dégât.<n/><n/><s val=\"StandardTooltipHeader\">Courroux du roi d’os</s><n/><n/>Les deux premières attaques de base de Léoric infligent <c val=\"#TooltipNumbers\">100%</c> de dégâts dans une zone et sa troisième attaque inflige <c val=\"#TooltipNumbers\">225%</c> de dégâts à une seule cible.",
+      "name": "Trompe-la-mort",
+      "shortText": "Après la mort, hante les ennemis sous forme de spectre."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Temps de recharge : 4 secondes",
+      "fullText": "Après <c val=\"#TooltipNumbers\">1</c> seconde de canalisation, augmente la vitesse de déplacement de <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Appeler une monture"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Après <c val=\"#TooltipNumbers\">6</c> secondes de canalisation, téléporte au hall des Tempêtes et rend instantanément <c val=\"#TooltipNumbers\">1125</c> points de vie et <c val=\"#TooltipNumbers\">150</c> points de mana.",
+      "name": "Pierre de foyer"
+    },
+    "LeoricCancelWraithWalk|LeoricCancelWraithWalk|E": {
+      "fullText": "Interrompt Marche spectrale avant son terme.",
+      "name": "Annuler Marche spectrale"
+    },
+    "LeoricEntombCancel|LeoricEntombCancel|Heroic": {
+      "fullText": "Appuyer pour interrompre Tombeau avant son terme.",
+      "name": "Annuler Tombeau"
+    },
+    "LeoricGhastlySwing|LeoricGhastlySwing|Q": {
+      "cooldownText": "Temps de recharge : 8 secondes",
+      "fullText": "Ralentit les ennemis de <c val=\"#TooltipNumbers\">40%</c> pendant <c val=\"#TooltipNumbers\">2.5</c> secondes.",
+      "name": "Frappe spectrale"
+    },
+    "LeoricDrainEssence|LeoricDrainEssence|W": {
+      "cooldownText": "Temps de recharge : 9 secondes",
+      "fullText": "Projette une chaîne qui se fixe au premier héros adverse qu’elle touche et rend à Léoric jusqu’à <c val=\"#TooltipNumbers\">10%</c> de son maximum de points de vie en <c val=\"#TooltipNumbers\">4</c> secondes tant que la cible reste à proximité.",
+      "name": "Drain d'essence"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Permet de descendre de la monture.",
+      "name": "Renvoyer la monture"
+    },
+    "LeoricOsseinRenewal|LeoricOsseinRenewalHotbar|Active": {
+      "cooldownText": "Temps de recharge : 120 secondes",
+      "fullText": "Rend à Léoric <c val=\"#TooltipNumbers\">30%</c> de son maximum de points de vie en <c val=\"#TooltipNumbers\">5</c> secondes. Les globes de régénération réduisent le temps de recharge de cette capacité de <c val=\"#TooltipNumbers\">20</c> secondes.",
+      "name": "Régénération osseuse",
+      "shortText": "Rend des points de vie à l’activation."
+    },
+    "LeoricShroudOfTheDeadKing|LeoricShroudoftheDeadKingTalent|Active": {
+      "cooldownText": "Temps de recharge : 25 secondes",
+      "fullText": "Immunise contre les dégâts pendant <c val=\"#TooltipNumbers\">3</c> secondes.",
+      "name": "Linceul du roi défunt",
+      "shortText": "Immunise contre tous les dégâts à l’activation."
+    }
+  },
+  "talents": {
+    "LeoricMasteryConsumeVitalitySkeletalSwing|LeoricConsumeVitalityTalent|Q|Level1": {
+      "fullText": "Frappe du squelette rend à Léoric l’équivalent de <c val=\"#TooltipNumbers\">4%</c> de son maximum de points de vie par héros adverse touché, et son temps de recharge est réduit de <c val=\"#TooltipNumbers\">2</c> secondes.",
+      "name": "Drain de vitalité",
+      "shortText": "Frappe du squelette rend des points de vie."
+    },
+    "LeoricMasteryFealtyUntoDeathUndying|LeoricFealtyUntoDeathTalent|Trait|Level1": {
+      "fullText": "Chaque serviteur adverse ou allié qui meurt à proximité rend à Léoric <c val=\"#TooltipNumbers\">32</c><c val=\"#ColorGray\">~~0.04~~</c> % de son maximum de points de vie et <c val=\"#TooltipNumbers\">6</c> points de mana.",
+      "name": "Allégeance macabre",
+      "shortText": "À leur mort, les serviteurs octroient des points de vie et de mana."
+    },
+    "LeoricMasteryOsseinRenewal|LeoricOsseinRenewal|Active|Level1": {
+      "cooldownText": "Temps de recharge : 120 secondes",
+      "fullText": "Rend à Léoric <c val=\"#TooltipNumbers\">30%</c> de son maximum de points de vie en <c val=\"#TooltipNumbers\">5</c> secondes. Les globes de régénération réduisent le temps de recharge de cette capacité de <c val=\"#TooltipNumbers\">20</c> secondes.",
+      "name": "Régénération osseuse",
+      "shortText": "Rend des points de vie à l’activation."
+    },
+    "LeoricMasteryGhastlyReachSkeletalSwing|LeoricGhastlyReachTalent|Q|Level4": {
+      "fullText": "Augmente la portée de Frappe du squelette de <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Allonge funèbre",
+      "shortText": "Augmente la portée de Frappe du squelette."
+    },
+    "LeoricMasteryParalyzingRageSkeletalSwing|LeoricParalyzingRageTalent|Q|Level4": {
+      "fullText": "Augmente le ralentissement de Frappe du squelette de <c val=\"#TooltipNumbers\">20%</c>.",
+      "name": "Rage paralysante",
+      "shortText": "Augmente le ralentissement de Frappe du squelette."
+    },
+    "LeoricSkeletalSwingKneelPeasantsTalent|LeoricKneelPeasantsTalent|Q|Level4": {
+      "fullText": "Frappe du squelette inflige <c val=\"#TooltipNumbers\">75%</c> de dégâts supplémentaires aux mercenaires et aux monstres, et les toucher active l’annulation du coût et du temps de recharge de Frappe du squelette.",
+      "name": "À genoux, pécores !",
+      "shortText": "Renforce Frappe du squelette contre les cibles non héroïques"
+    },
+    "LeoricMasteryWillingVesselDrainHope|LeoricWillingVesselTalent|W|Level7": {
+      "fullText": "Porte les soins de Drain d’espoir à <c val=\"#TooltipNumbers\">25%</c> du maximum de points de vie de Léoric. Si Drain d’espoir atteint son terme, il rend instantanément un montant supplémentaire équivalent à <c val=\"#TooltipNumbers\">5%</c> du maximum de points de vie.",
+      "name": "Victime consentante",
+      "shortText": "Augmente les soins de Drain d’espoir."
+    },
+    "LeoricMasteryDrainMomentumDrainHope|LeoricDrainMomentumTalent|W|Level7": {
+      "fullText": "Drain d’espoir ne diminue plus la vitesse de déplacement de Léoric. Au contraire, si Drain d’espoir atteint son terme, celle-ci augmente de <c val=\"#TooltipNumbers\">30%</c> pendant <c val=\"#TooltipNumbers\">4</c> secondes.",
+      "name": "Drain dynamique",
+      "shortText": "Drain d’espoir augmente la vitesse de déplacement."
+    },
+    "LeoricMasteryHopelessnessDrainHope|LeoricHopelessnessTalent|W|Level7": {
+      "fullText": "Augmente la portée de Drain d’espoir de <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Désespoir",
+      "shortText": "Augmente la portée de Drain d’espoir."
+    },
+    "LeoricHeroicAbilityEntomb|LeoricEntomb|Heroic|Level10": {
+      "cooldownText": "Temps de recharge : 50 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 90</s>",
+      "fullText": "Crée une tombe infranchissable qui dure <c val=\"#TooltipNumbers\">4</c> secondes.",
+      "name": "Tombeau",
+      "shortText": "Emmure une zone."
+    },
+    "LeoricHeroicAbilityMarchoftheBlackKing|LeoricMarchoftheBlackKing|Heroic|Level10": {
+      "cooldownText": "Temps de recharge : 50 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 75</s>",
+      "fullText": "Léoric devient insensible aux effets de contrôle et avance droit devant lui en assénant <c val=\"#TooltipNumbers\">3</c> violents coups de masse. Les ennemis touchés subissent <c val=\"#TooltipNumbers\">250</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts et les héros touchés lui rendent <c val=\"#TooltipNumbers\">12%</c> de son maximum de points de vie.",
+      "name": "Marche du roi noir",
+      "shortText": "Léoric progresse droit devant lui, inflige des dégâts aux ennemis et récupère des points de vie."
+    },
+    "LeoricMasteryUnyieldingDespairDrainHope|LeoricUnyieldingDespairTalent|W|Level13": {
+      "fullText": "Réduit le temps de recharge de Drain d’espoir de <c val=\"#TooltipNumbers\">0,75</c> seconde pour chaque seconde où il est actif. Si Drain d’espoir atteint son terme, réduit son temps de recharge de <c val=\"#TooltipNumbers\">2</c> secondes supplémentaires.",
+      "name": "Désespérance",
+      "shortText": "Réduit le temps de recharge de Drain d’espoir."
+    },
+    "LeoricWraithWalkOminousWraithTalent|LeoricOminousWraithTalent|E|Level13": {
+      "fullText": "Augmente la durée de Marche spectrale de <c val=\"#TooltipNumbers\">100%</c>. Les héros adverses qui entrent en contact avec le spectre infligent <c val=\"#TooltipNumbers\">50%</c>  de dégâts en moins pendant <c val=\"#TooltipNumbers\">4</c> secondes.",
+      "name": "Spectre implacable",
+      "shortText": "Renforce Marche spectrale."
+    },
+    "LeoricMasterySpectralLeech|LeoricSpectralLeechTalent|Passive|Level13": {
+      "fullText": "Les attaques de base portées aux héros adverses infligent à la cible principale des dégâts augmentés à hauteur de <c val=\"#TooltipNumbers\">2.5 %</c> de leur maximum de points de vie et rendent à Léoric <c val=\"#TooltipNumbers\">200 %</c> des dégâts infligés.",
+      "name": "Drain spectral",
+      "shortText": "Les attaques de base infligent plus de dégâts et rendent des points de vie."
+    },
+    "LeoricDrainHopeCrushingHopeTalent|LeoricCrushingHopeTalent|W|Level16": {
+      "fullText": "Si Drain d’espoir atteint son terme, il inflige instantanément un montant de dégâts supplémentaires équivalent à <c val=\"#TooltipNumbers\">15%</c> du maximum de points de vie de la victime. Ces dégâts ne rendent pas de points de vie à Léoric.",
+      "name": "Espoir insoutenable",
+      "shortText": "Mener Drain d’espoir à son terme inflige des dégâts supplémentaires."
+    },
+    "LeoricMasteryRoyalFocusWraithWalk|LeoricRoyalFocusTalent|E|Level16": {
+      "fullText": "Marche spectrale augmente les dégâts de la prochaine Frappe du squelette utilisée dans les <c val=\"#TooltipNumbers\">5</c> secondes de <c val=\"#TooltipNumbers\">50 %</c>. Chaque héros adverse touché par Frappe du squelette réduit le temps de recharge de Marche spectrale de <c val=\"#TooltipNumbers\">7</c> secondes.",
+      "name": "Roi de l’esquive",
+      "shortText": "Renforce Frappe du squelette et Marche spectrale."
+    },
+    "LeoricMithrilMaceTalent|LeoricMithrilMaceTalent|Passive|Level16": {
+      "fullText": "Augmente la vitesse d’attaque de <c val=\"#TooltipNumbers\">20%</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quête répétable :</c> les serviteurs ennemis tués à proximité augmentent de manière permanente la vitesse d’attaque de <c val=\"#TooltipNumbers\">0,3%</c> et les héros tués l’augmentent de <c val=\"#TooltipNumbers\">3%</c>, jusqu’à un maximum de <c val=\"#TooltipNumbers\">30%</c>.",
+      "name": "Masse de mithril",
+      "shortText": "<c val=\"#TooltipQuest\">Quête :</c> renforce Courroux du roi d’os."
+    },
+    "LeoricMasteryBuriedAliveEntomb|LeoricBuriedAliveTalent|Heroic|Level20": {
+      "fullText": "La durée de Tombeau est diminuée de <c val=\"#TooltipNumbers\">1</c> seconde, mais les ennemis qu’il piège sont réduits au silence et subissent <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts par seconde.",
+      "name": "Emmuré vivant",
+      "shortText": "Tombeau inflige des dégâts aux ennemis et les réduit au silence."
+    },
+    "LeoricMasteryDeathMarchMarchoftheBlackKing|LeoricDeathMarchTalent|Heroic|Level20": {
+      "fullText": "Le dernier coup de masse de Marche du roi noir applique également Drain d’espoir aux héros adverses à proximité.",
+      "name": "Marche de la mort",
+      "shortText": "Marche du roi noir applique Drain d’espoir."
+    },
+    "LeoricBurningDespairTalent|LeoricBurningDespair|W|Level20": {
+      "fullText": "Inflige <c val=\"#TooltipNumbers\">40</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts par seconde aux ennemis proches.<n/><n/>Tant que Drain d’espoir est actif, confère <c val=\"#TooltipNumbers\">40</c> points d’armure et augmente de <c val=\"#TooltipNumbers\">100%</c> les dégâts et la zone d’effet.",
+      "name": "Désespoir contagieux",
+      "shortText": "Inflige des dégâts aux ennemis proches et confère de l’armure."
+    },
+    "LeoricShroudoftheDeadKingTalent|LeoricShroudoftheDeadKingTalent|Active|Level20": {
+      "cooldownText": "Temps de recharge : 25 secondes",
+      "fullText": "Immunise contre les dégâts pendant <c val=\"#TooltipNumbers\">3</c> secondes.",
+      "name": "Linceul du roi défunt",
+      "shortText": "Immunise contre tous les dégâts à l’activation."
+    }
+  },
+  "units": {
+    "LeoricWraithWalkUnit": {
+      "name": "Léoric"
+    }
+  }
+}

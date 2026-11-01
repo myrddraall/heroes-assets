@@ -1,0 +1,232 @@
+{
+  "abilities": {
+    "DVaBoostersOn|DVaMechBoosters|Q": {
+      "cooldownText": "Abklingzeit: 10 Sek.",
+      "fullText": "Erhöht die Bewegungsgeschwindigkeit <c val=\"#TooltipNumbers\">1.75</c> Sek. lang um <c val=\"#TooltipNumbers\">115%</c>. Fügt getroffenen Gegnern <c val=\"#TooltipNumbers\">135</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zu und stößt sie weg.<n/><n/>D.Va kann bei aktiven Boostern nicht verlangsamt werden. Gegner können pro Einsatz nur einmal getroffen werden.",
+      "name": "Booster",
+      "shortText": "Bewegt sich schnell und stößt Gegner weg."
+    },
+    "DVaMechDefenseMatrixOn|DVaMechDefenseMatrix|W": {
+      "cooldownText": "Abklingzeit: 12 Sek.",
+      "fullText": "Projiziert <c val=\"#TooltipNumbers\">3</c> Sek. lang ein Abwehrfeld in Zielrichtung, das den verursachten Schaden davon erfasster gegnerischer Helden um <c val=\"#TooltipNumbers\">60%</c> verringert.<n/><n/>Erneut aktivieren, um den Projektionswinkel zu verändern.<n/><n/>Der Schaden, den Gegner innerhalb der Defensivmatrix verursachen, gewährt noch immer dieselbe Aufladung der Selbstzerstörung.",
+      "name": "Defensivmatrix",
+      "shortText": "Verringert den Schaden gegnerischer Helden in einem Bereich."
+    },
+    "DVaMechSelfDestruct|DVaMechSelfDestruct|E": {
+      "fullText": "Katapultiert D.Va aus dem Mech und lässt ihn nach <c val=\"#TooltipNumbers\">4</c> Sek. detonieren. Verursacht <c val=\"#TooltipNumbers\">400</c><c val=\"#ColorGray\">~~0.04~~</c> bis <c val=\"#TooltipNumbers\">1100</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden in einem großen Bereich, abhängig von der Entfernung zum Mittelpunkt. Fügt Gebäuden <c val=\"#TooltipNumbers\">50%</c> Schaden zu.<n/><n/><c val=\"FF8000\">Lädt sich pro </c><c val=\"#TooltipNumbers\">2</c><c val=\"FF8000\"> Sek., in denen D.Va automatische Angriffe ausführt, um </c><c val=\"#TooltipNumbers\">1%</c><c val=\"FF8000\"> auf. Lädt sich pro </c><c val=\"#TooltipNumbers\">100%</c><c val=\"FF8000\"> verlorener Lebenspunkte des Mechs um </c><c val=\"#TooltipNumbers\">25%</c><c val=\"FF8000\"> auf.</c>",
+      "name": "Selbstzerstörung",
+      "shortText": "Katapultiert D.Va aus dem Mech und lässt ihn explodieren."
+    },
+    "DVaMechBunnyHopHeroic|DVaBunnyHopOn|Heroic": {
+      "cooldownText": "Abklingzeit: 70 Sek.",
+      "fullText": "Der Mech wird unaufhaltbar und trampelt alle <c val=\"#TooltipNumbers\">0.5</c> Sek., wobei er in einem großen Bereich <c val=\"#TooltipNumbers\">78</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden verursacht. Jeder <c val=\"#TooltipNumbers\">4.</c> Heldentreffer in Folge verursacht <c val=\"#TooltipNumbers\">80%</c> mehr Schaden und betäubt den Helden <c val=\"#TooltipNumbers\">0.5</c> Sek. lang.<n/><n/>Hält <c val=\"#TooltipNumbers\">4</c> Sek. lang an.<n/><n/>Benötigt Mechmodus.",
+      "name": "Bunny Hop",
+      "shortText": "Macht unaufhaltbar und betäubt Helden in der Nähe."
+    },
+    "DVaMicroMissiles|DVaMicroMissiles|Heroic": {
+      "cooldownText": "Ladungsabklingzeit: 19 Sek.",
+      "fullText": "Kanalisiert nach <c val=\"#TooltipNumbers\">0,375</c> Sek., um eine Salve von <c val=\"#TooltipNumbers\">12</c> Raketen in Zielrichtung abzufeuern. Jede Rakete trifft den ersten Gegner auf ihrem Weg, verursacht <c val=\"#TooltipNumbers\">40</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden in einem kleinen Bereich und verlangsamt <c val=\"#TooltipNumbers\">2</c> Sek. lang um <c val=\"#TooltipNumbers\">30%</c>.<n/><n/>Maximal <c val=\"#TooltipNumbers\">2</c> Aufladungen. Der Einsatz hat eine Abklingzeit von <c val=\"#TooltipNumbers\">3</c> Sek.<n/><n/>Benötigt Mechmodus.",
+      "name": "Mikroraketen",
+      "shortText": "Feuert eine Raketensalve ab, die Schaden verursacht und verlangsamt. "
+    },
+    ":PASSIVE:|DVaMechMechMode|Trait": {
+      "fullText": "Katapultiert D.Va nach <c val=\"#TooltipNumbers\">0.75</c> Sek. aus dem Mech heraus, wenn dieser zerstört wird, sodass sie weiterkämpfen kann. D.Vas Mech gewährt bei Zerstörung nur <c val=\"#TooltipNumbers\">50%</c> der Erfahrungspunkte eines normalen Helden.<n/><n/><s val=\"StandardTooltipHeader\">Fusionskanonen</s><n/><n/>Die automatischen Angriffe des Mechs verursachen alle <c val=\"#TooltipNumbers\">0.25</c> Sek. in einem großen Bereich <c val=\"#TooltipNumbers\">22</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden. Fügt sehr nahen Gegnern <c val=\"#TooltipNumbers\">40%</c> Bonusschaden zu.",
+      "name": "Mechmodus",
+      "shortText": "D.Va kann sich aus dem Mech katapultieren und weiterkämpfen."
+    },
+    ":PASSIVE:|DVaMechanizedWalker|Z": {
+      "fullText": "Der Mech kann während der Bewegung feuern. Automatische Angriffe oder das Kanalisieren von Fähigkeiten verringern die Bewegungsgeschwindigkeit schnell um <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Mechanischer Läufer",
+      "shortText": "Im Mech kann D.Va während der Bewegung feuern, ihre Bewegungsgeschwindigkeit ist aber verringert."
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Kanalisiert <c val=\"#TooltipNumbers\">6</c> Sek. lang und teleportiert sich dann zurück zum Altar der Stürme. Dabei werden sofort <c val=\"#TooltipNumbers\">1125</c> Lebenspunkte und <c val=\"#TooltipNumbers\">150</c> Mana wiederhergestellt.",
+      "name": "Ruhestein"
+    },
+    "DVaBoostersOff|DVaMechCancelBoosters|Q": {
+      "fullText": "Bricht die Booster ab.",
+      "name": "Booster abbrechen",
+      "shortText": "Bricht die Booster ab."
+    },
+    "DVaMechDefenseMatrixRetarget|DVaRetargetDefenseMatrix|W": {
+      "fullText": "Defensivmatrix neu ausrichten",
+      "name": "Defensivmatrix neu ausrichten",
+      "shortText": "Defensivmatrix neu ausrichten"
+    },
+    "DvaCancelDefenseMatrix|DvaCancelDefenseMatrix|Trait": {
+      "fullText": "Bricht das Kanalisieren der Defensivmatrix ab.",
+      "name": "Defensivmatrix abbrechen",
+      "shortText": "Bricht das Kanalisieren der Defensivmatrix ab."
+    },
+    "DVaMechBunnyHopHeroic|DVaBunnyHopOff|Heroic": {
+      "cooldownText": "Abklingzeit: 70 Sek.",
+      "fullText": "Bricht Bunny Hop ab.",
+      "name": "Bunny Hop",
+      "shortText": "Bricht Bunny Hop ab."
+    },
+    "DVaLiquidCoolingAbility|DVaLiquidCooling|Active": {
+      "cooldownText": "Abklingzeit: 50 Sek.",
+      "fullText": "Aktivieren, um den Effekt eines Heilbrunnens zu erhalten. Benötigt Mechmodus.<n/><n/><c val=\"#AbilityPassive\">Passiv:</c> Verringert die Abklingzeit von Heilbrunnen im Mechmodus auf <c val=\"#TooltipNumbers\">50</c> Sek. und der Effekt hält <c val=\"#TooltipNumbers\">50%</c> länger an.",
+      "name": "Flüssigkeitskühlung",
+      "shortText": "Verstärkt Heilbrunnen im Mechmodus."
+    },
+    "DVaPilotTorpedoDash|DVaPilotTorpedoDashAbility|Q": {
+      "cooldownText": "Abklingzeit: 10 Sek.",
+      "fullText": "Sprintet zum Zielort. Kann Gegner auf dem Weg durchschreiten.",
+      "name": "Torpedosprint",
+      "shortText": "Sprintet in Richtung Zielort."
+    },
+    "DVaPilotConcussivePulse|DVaPilotConcussivePulseAbility|W": {
+      "cooldownText": "Abklingzeit: 10 Sek.",
+      "fullText": "Fügt Gegnern in einem kegelförmigen Bereich <c val=\"#TooltipNumbers\">120</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zu und stößt sie zurück.",
+      "name": "Schockimpuls",
+      "shortText": "Fügt Gegnern Schaden zu und stößt sie zurück."
+    },
+    "DVaPilotCallMech|DVaPilotCallMech|E": {
+      "cooldownText": "Abklingzeit: 45 Sek.",
+      "fullText": "Fordert einen neuen Mech an und geht in den Mechmodus über.<n/><n/>Automatische Angriffe verringern diese Abklingzeit jeweils um <c val=\"#TooltipNumbers\">0.5</c> Sek.",
+      "name": "Mech anfordern"
+    },
+    "DVaPilotBigShot|DVaPilotBigShot|Heroic": {
+      "cooldownText": "Abklingzeit: 6 Sek.",
+      "fullText": "Fügt allen Gegnern in einer geraden Linie <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zu. Verlangsamt getroffene Helden <c val=\"#TooltipNumbers\">1.5</c> Sek. lang um <c val=\"#TooltipNumbers\">25%</c>. Verringert die Abklingzeit von Mech anfordern für jeden getroffenen Helden um <c val=\"#TooltipNumbers\">5</c> Sek.<n/><n/>Benötigt Pilotenmodus.",
+      "name": "Skillshot",
+      "shortText": "Fügt im Pilotenmodus Gegnern in einer geraden Linie Schaden zu und verlangsamt sie."
+    },
+    ":PASSIVE:|DVaPilotPilotMode|Trait": {
+      "fullText": "Automatische Angriffe verringern die Abklingzeit von Mech anfordern um <c val=\"#TooltipNumbers\">0.5</c> Sek. Im Pilotenmodus gewährt D.Vas Tod nur <c val=\"#TooltipNumbers\">50%</c> der Erfahrungspunkte eines normalen Helden.",
+      "name": "Pilotenmodus"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Abklingzeit: 4 Sek.",
+      "fullText": "Erhöht die Bewegungsgeschwindigkeit nach <c val=\"#TooltipNumbers\">1</c> Sek. Kanalisierung um <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Aufsitzen"
+    },
+    "DVaMechPilotSelfDestruct|DVaMechSelfDestruct|Active": {
+      "fullText": "Katapultiert D.Va aus dem Mech und lässt ihn nach <c val=\"#TooltipNumbers\">4</c> Sek. detonieren. Verursacht <c val=\"#TooltipNumbers\">400</c><c val=\"#ColorGray\">~~0.04~~</c> bis <c val=\"#TooltipNumbers\">1100</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden in einem großen Bereich, abhängig von der Entfernung zum Mittelpunkt. Fügt Gebäuden <c val=\"#TooltipNumbers\">50%</c> Schaden zu.<n/><n/><c val=\"FF8000\">Lädt sich pro </c><c val=\"#TooltipNumbers\">2</c><c val=\"FF8000\"> Sek., in denen D.Va automatische Angriffe ausführt, um </c><c val=\"#TooltipNumbers\">1%</c><c val=\"FF8000\"> auf. Lädt sich pro </c><c val=\"#TooltipNumbers\">100%</c><c val=\"FF8000\"> verlorener Lebenspunkte des Mechs um </c><c val=\"#TooltipNumbers\">25%</c><c val=\"FF8000\"> auf.</c>",
+      "name": "Selbstzerstörung",
+      "shortText": "Katapultiert D.Va aus dem Mech und lässt ihn explodieren."
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Sitzt ab.",
+      "name": "Absitzen"
+    }
+  },
+  "talents": {
+    "DVaFullMetal|DVaFullMetal|Trait|Level1": {
+      "fullText": "Erhöht die Lebenspunkte des Mechs um <c val=\"#TooltipNumbers\">10%</c> und die Fusionskanonen heilen ihn um <c val=\"#TooltipNumbers\">16%</c> des im Bonusbereich verursachten Schadens.",
+      "name": "Vollmetallpanzerung",
+      "shortText": "Erhöht die Lebenspunkte des Mechs und die Fusionskanonen heilen."
+    },
+    "DVaMechProMoves|DVaMechProMoves|Trait|Level1": {
+      "fullText": "Erhöht die Bewegungsgeschwindigkeit des Mechs jedes Mal, wenn er Schaden erleidet, um <c val=\"#TooltipNumbers\">2%</c> und die Panzerung um <c val=\"#TooltipNumbers\">2</c>. Dieser Effekt ist bis zu <c val=\"#TooltipNumbers\">15</c>-mal stapelbar. Alle <c val=\"#TooltipNumbers\">0.5</c> Sek. verfällt ein Stapel.<n/><n/>Automatische Angriffe gegen Helden im Pilotenmodus verringern die Abklingzeit von Mech anfordern zusätzlich um <c val=\"#TooltipNumbers\">1</c> Sek.",
+      "name": "Skillz",
+      "shortText": "Erlittener Schaden erhöht Bewegungsgeschwindigkeit und Panzerung."
+    },
+    "DVaLiquidCooling|DVaLiquidCooling|Active|Level1": {
+      "cooldownText": "Abklingzeit: 50 Sek.",
+      "fullText": "Aktivieren, um den Effekt eines Heilbrunnens zu erhalten. Benötigt Mechmodus.<n/><n/><c val=\"#AbilityPassive\">Passiv:</c> Verringert die Abklingzeit von Heilbrunnen im Mechmodus auf <c val=\"#TooltipNumbers\">50</c> Sek. und der Effekt hält <c val=\"#TooltipNumbers\">50%</c> länger an.",
+      "name": "Flüssigkeitskühlung",
+      "shortText": "Verstärkt Heilbrunnen im Mechmodus."
+    },
+    "DVaBoostersRushdown|DVaBoostersRushdown|Q|Level4": {
+      "fullText": "Die Booster fügen Helden Bonusschaden in Höhe von <c val=\"#TooltipNumbers\">2%</c> ihrer maximalen Lebenspunkte zu und heilen D.Vas Mech um den verursachten Schaden. Die Booster fügen nicht heroischen Gegnern <c val=\"#TooltipNumbers\">50%</c> mehr Schaden zu.",
+      "name": "Ladeluftkühler",
+      "shortText": "Booster stehlen Lebenspunkte und fügen nicht heroischen Zielen mehr Schaden zu."
+    },
+    "DVaDefenseMatrixAggressionMatrix|DVaDefenseMatrixAggressionMatrix|W|Level4": {
+      "fullText": "Gegnerische Helden innerhalb der Defensivmatrix erhalten <c val=\"#TooltipNumbers\">35%</c> weniger Heilung.<n/><n/><c val=\"#AbilityPassive\">Passiv:</c> Automatische Angriffe gegen Helden verringern die Abklingzeit der Defensivmatrix um <c val=\"#TooltipNumbers\">0.1875</c> Sek.",
+      "name": "Aggressivmatrix",
+      "shortText": "Die Defensivmatrix verringert Heilung und klingt schneller ab."
+    },
+    "DVaSelfDestructNuclearOption|DVaSelfDestructNuclearOption|E|Level4": {
+      "fullText": "Löst die Detonation <c val=\"#TooltipNumbers\">40%</c> schneller aus, wenn der Mech nach Einleiten der Selbstzerstörung von Skillshot getroffen wird.<n/><n/><c val=\"#AbilityPassive\">Passiv:</c> Erhöht die Aufladung der Selbstzerstörung jedes Mal um <c val=\"#TooltipNumbers\">0.25</c>, wenn die Fusionskanonen einem gegnerischen Helden Bonusschaden zufügen.",
+      "name": "Nuklearer Ernstfall",
+      "shortText": "Verstärkt die Fusionskanonen und die Selbstzerstörung."
+    },
+    "DvaGetOnThePoint|DvaGetOnThePoint|Q|Level7": {
+      "fullText": "Der Einsatz der Booster erhöht die Bewegungsgeschwindigkeit naher Verbündeter <c val=\"#TooltipNumbers\">3</c> Sek. lang um <c val=\"#TooltipNumbers\">20%</c>.<n/><n/><c val=\"#AbilityPassive\">Passiv:</c> Wenn D.Va <c val=\"#TooltipNumbers\">2</c> Sek. lang keinen Schaden erleidet, klingen die Booster <c val=\"#TooltipNumbers\">100%</c> schneller ab.",
+      "name": "Schnappt euch das Ziel!",
+      "shortText": "Verringert die Abklingzeit der Booster und erhöht die Bewegungsgeschwindigkeit von Verbündeten."
+    },
+    "DVaBoostersHitTheNitrous|DVaBoostersHitTheNitrous|Q|Level7": {
+      "fullText": "Erhöht den anfänglichen Geschwindigkeitsbonus der Booster auf <c val=\"#TooltipNumbers\">300%</c>. Dieser Effekt lässt im Verlauf von <c val=\"#TooltipNumbers\">0.5</c> Sek. nach, bis er die normale Boostergeschwindigkeit erreicht. Während dieser Zeit betäuben die Booster getroffene Gegner <c val=\"#TooltipNumbers\">0.5</c> Sek. lang.",
+      "name": "Nitro",
+      "shortText": "Booster gewähren anfangs einen größeren Geschwindigkeitsschub und betäuben Ziele."
+    },
+    "DVaDefenseMatrixFusionGenerator|DVaDefenseMatrixFusionGenerator|W|Level7": {
+      "fullText": "Erhöht die Aufladung der Selbstzerstörung um <c val=\"#TooltipNumbers\">1%</c>, wenn ein gegnerischer Held innerhalb der Defensivmatrix Schaden verursacht. Maximal <c val=\"#TooltipNumbers\">20%</c> Aufladung pro Einsatz.<n/><n/><c val=\"#AbilityPassive\">Passiv:</c> Erhöht den Schadensbonus der Fusionskanonen bei voller Aufladung der Selbstzerstörung auf <c val=\"#TooltipNumbers\">100%</c>.",
+      "name": "Fusionsgenerator",
+      "shortText": "Die Defensivmatrix lädt die Selbstzerstörung auf."
+    },
+    "DVaBunnyHop|DVaBunnyHopOn|Heroic|Level10": {
+      "cooldownText": "Abklingzeit: 70 Sek.",
+      "fullText": "Der Mech wird unaufhaltbar und trampelt alle <c val=\"#TooltipNumbers\">0.5</c> Sek., wobei er in einem großen Bereich <c val=\"#TooltipNumbers\">78</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden verursacht. Jeder <c val=\"#TooltipNumbers\">4.</c> Heldentreffer in Folge verursacht <c val=\"#TooltipNumbers\">80%</c> mehr Schaden und betäubt den Helden <c val=\"#TooltipNumbers\">0.5</c> Sek. lang.<n/><n/>Hält <c val=\"#TooltipNumbers\">4</c> Sek. lang an.<n/><n/>Benötigt Mechmodus.",
+      "name": "Bunny Hop",
+      "shortText": "Macht unaufhaltbar und betäubt Helden in der Nähe."
+    },
+    "DVaMicroMissiles|DVaMicroMissiles|Heroic|Level10": {
+      "cooldownText": "Ladungsabklingzeit: 19 Sek.",
+      "fullText": "Kanalisiert nach <c val=\"#TooltipNumbers\">0,375</c> Sek., um eine Salve von <c val=\"#TooltipNumbers\">12</c> Raketen in Zielrichtung abzufeuern. Jede Rakete trifft den ersten Gegner auf ihrem Weg, verursacht <c val=\"#TooltipNumbers\">40</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden in einem kleinen Bereich und verlangsamt <c val=\"#TooltipNumbers\">2</c> Sek. lang um <c val=\"#TooltipNumbers\">30%</c>.<n/><n/>Maximal <c val=\"#TooltipNumbers\">2</c> Aufladungen. Der Einsatz hat eine Abklingzeit von <c val=\"#TooltipNumbers\">3</c> Sek.<n/><n/>Benötigt Mechmodus.",
+      "name": "Mikroraketen",
+      "shortText": "Feuert eine Raketensalve ab, die Schaden verursacht und verlangsamt. "
+    },
+    "DVaTargetLocked|DVaTargetLocked|W|Level13": {
+      "fullText": "Verringert die Panzerung gegnerischer Helden, die sich <c val=\"#TooltipNumbers\">0.75</c> Sek. lang innerhalb der Defensivmatrix aufhalten, um <c val=\"#TooltipNumbers\">15</c> und verlangsamt sie <c val=\"#TooltipNumbers\">3</c> Sek. lang um <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Ziel erfasst",
+      "shortText": "Defensivmatrix verringert Panzerung und verlangsamt."
+    },
+    "DVaGoodToGo|DVaGoodToGo|Trait|Level13": {
+      "fullText": "<c val=\"#AbilityPassive\">Pilotenmodus:</c> Gewährt die Fähigkeiten Torpedosprint und Schockimpuls.<n/><n/><c val=\"#TooltipNumbers\">Torpedosprint:</c> Sprintet eine kurze Strecke. <c val=\"#TooltipNumbers\">10</c> Sek. Abklingzeit.<n/><n/><c val=\"#TooltipNumbers\">Schockimpuls:</c> Fügt Gegnern in einem kegelförmigen Bereich <c val=\"#TooltipNumbers\">120</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zu und stößt sie zurück. <c val=\"#TooltipNumbers\">10</c> Sek. Abklingzeit.",
+      "name": "Startklar",
+      "shortText": "Gewährt zusätzliche Fähigkeiten im Pilotenmodus."
+    },
+    "DVaBigShotPewPewPew|DVaBigShotPewPewPew|Trait|Level13": {
+      "fullText": "<c val=\"#AbilityPassive\">Pilotenmodus:</c> Anstatt eines einzelnen Schusses feuert Skillshot <c val=\"#TooltipNumbers\">3</c> Schüsse im Verlauf von <c val=\"#TooltipNumbers\">0.5</c> Sek. ab. Jeder Schuss verursacht <c val=\"#TooltipNumbers\">75%</c> Schaden.",
+      "name": "Pew! Pew! Pew!",
+      "shortText": "Skillshot feuert mehrere Schüsse ab."
+    },
+    "DVaInForTheKill|DVaInForTheKill|Q|Level16": {
+      "fullText": "Die Booster gewähren dem Mech <c val=\"#TooltipNumbers\">2.5</c> Sek. lang einen Schild in Höhe von <c val=\"#TooltipNumbers\">10%</c> seiner maximalen Lebenspunkte. Erhöht den Schaden automatischer Angriffe des Mechs für jeden mit den Boostern getroffenen gegnerischen Helden <c val=\"#TooltipNumbers\">5</c> Sek. lang um <c val=\"#TooltipNumbers\">10%</c>. Dieser Effekt ist bis zu <c val=\"#TooltipNumbers\">5</c>-mal stapelbar.",
+      "name": "Alles oder nichts",
+      "shortText": "Die Booster gewähren einen Schild und erhöhen den Angriffsschaden."
+    },
+    "DVaDefenseMatrixDivertingPower|DVaDefenseMatrixDivertingPower|W|Level16": {
+      "fullText": "Vergrößert den Bereich der Defensivmatrix drastisch. Heilt den Mech jedes Mal um <c val=\"#TooltipNumbers\">31</c><c val=\"#ColorGray\">~~0.04~~</c> Lebenspunkte, wenn die Defensivmatrix Schaden gegen Helden verringert.",
+      "name": "Energieumleitung",
+      "shortText": "Vergrößert die Defensivmatrix und heilt D.Va."
+    },
+    "DVaMechEmergencyShielding|DVaMechEmergencyShielding|Trait|Level16": {
+      "fullText": "Wenn der Mech zerstört werden würde, erhält er stattdessen einen Schild, der im Verlauf von <c val=\"#TooltipNumbers\">8</c> Sek. <c val=\"#TooltipNumbers\">290</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden absorbiert. <n/><n/>Dieser Effekt hat eine Abklingzeit von <c val=\"#TooltipNumbers\">30</c> Sek.",
+      "name": "Notfallschild",
+      "shortText": "Gewährt dem Mech, wenn er zerstört würde, stattdessen einen Schild."
+    },
+    "DVaBunnyHopStopAndPop|DVaBunnyHopStopAndPop|Heroic|Level20": {
+      "fullText": "Erhöht die Dauer von Bunny Hop um <c val=\"#TooltipNumbers\">4</c> Sek. und sie verringert sich nicht, solange sich D.Va nicht bewegt.",
+      "name": "Auf der Stelle",
+      "shortText": "Bunny Hop hält länger an und pausiert ohne Bewegung."
+    },
+    "DVaTimingAttack|DVaTimingAttack|Heroic|Level20": {
+      "fullText": "Die Mikroraketen erhalten eine zusätzliche Aufladung. Jeder Heldentreffer mit den Mikroraketen verringert die Abklingzeit um <c val=\"#TooltipNumbers\">0.5</c> Sek. und die Ladungsabklingzeit um <c val=\"#TooltipNumbers\">0.25</c> Sek.",
+      "name": "Gekonntes Timing",
+      "shortText": "Gewährt eine Aufladung. Heldentreffer verringern die Abklingzeit."
+    },
+    "DVaHeadshot|DVaHeadshot|Trait|Level20": {
+      "fullText": "<c val=\"#AbilityPassive\">Pilotenmodus:</c> Erhöht den Schaden von Skillshot um <c val=\"#TooltipNumbers\">75%</c> und verringert die Abklingzeit um <c val=\"#TooltipNumbers\">2</c> Sek.",
+      "name": "Kopfschuss!",
+      "shortText": "Erhöht den Schaden von Skillshot und verringert die Abklingzeit."
+    },
+    "DVaMechAblativeArmor|DVaMechAblativeArmor|Trait|Level20": {
+      "fullText": "Heilt den Mech im Verlauf von <c val=\"#TooltipNumbers\">4</c> Sek. um <c val=\"#TooltipNumbers\">45%</c> des Fähigkeitsschadens, den er erleidet.",
+      "name": "Polyamidpanzerung",
+      "shortText": "Heilt um einen Teil des erlittenen Fähigkeitsschadens."
+    }
+  },
+  "units": {
+    "HeroDVaPilot": {
+      "energyType": "Aufladung",
+      "lifeType": "Lebenspunkte",
+      "name": "D.Va"
+    }
+  }
+}

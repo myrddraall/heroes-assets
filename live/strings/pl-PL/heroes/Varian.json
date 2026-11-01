@@ -1,0 +1,227 @@
+{
+  "abilities": {
+    "VarianLionsFang|VarianLionsFang|Q": {
+      "cooldownText": "Czas odnowienia: 8 sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Tworzy falę uderzeniową, która podąża w linii prostej, zadaje <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń i spowalnia przeciwników o <c val=\"#TooltipNumbers\">35%</c> na <c val=\"#TooltipNumbers\">1.5</c> sek. Varian odzyskuje <c val=\"#TooltipNumbers\">35</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. zdrowia za każdego trafionego przeciwnika, a wartość ta wzrasta do <c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. w przypadku wrogich bohaterów.",
+      "name": "Lwi Kieł",
+      "shortText": "Zadaje obrażenia w linii prostej i spowalnia wrogów oraz leczy Variana"
+    },
+    "VarianParry|VarianParry|W": {
+      "cooldownText": "Czas odnowienia ładunku: 10 sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 30</s>",
+      "fullText": "Varian paruje wymierzone w niego ataki podstawowe przez <c val=\"#TooltipNumbers\">1.25</c> sek., zmniejszając zadawane przez nie obrażenia o <c val=\"#TooltipNumbers\">100%</c>.<n/><n/>Maksymalna liczba ładunków: <c val=\"#TooltipNumbers\">2</c>.",
+      "name": "Parada",
+      "shortText": "Przez krótki czas blokuje wrogie ataki podstawowe"
+    },
+    "VarianCharge|VarianCharge|E": {
+      "cooldownText": "Czas odnowienia: 12 sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 45</s>",
+      "fullText": "Varian szarżuje na wskazanego przeciwnika, zadaje mu <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń i spowalnia go o <c val=\"#TooltipNumbers\">75%</c> na <c val=\"#TooltipNumbers\">1</c> sek.",
+      "name": "Szarża",
+      "shortText": "Szarżuje na wroga i zadaje mu obrażenia"
+    },
+    "VarianTaunt|VarianTaunt|Heroic": {
+      "cooldownText": "Czas odnowienia: 16 sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 20</s>",
+      "fullText": "Wycisza wskazanego bohatera i zmusza go, by atakował Variana przez <c val=\"#TooltipNumbers\">1.25</c> sek.<n/><n/><c val=\"#AbilityPassive\">Działanie pasywne:</c> Maksymalne zdrowie oraz regeneracja zdrowia wzrastają o <c val=\"#TooltipNumbers\">40%</c>.",
+      "name": "Prowokacja",
+      "shortText": "Zapewnia zdrowie.<n/>Zmusza bohatera, by atakował Variana"
+    },
+    "VarianColossusSmash|VarianColossusSmash|Heroic": {
+      "cooldownText": "Czas odnowienia: 20 sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 40</s>",
+      "fullText": "Varian miażdży wskazanego przeciwnika i zadaje mu <c val=\"#TooltipNumbers\">185</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń, a także zmniejsza jego pancerz o <c val=\"#TooltipNumbers\">25</c> na <c val=\"#TooltipNumbers\">3</c> sek., co sprawia, że przeciwnik otrzymuje obrażenia zwiększone o <c val=\"#TooltipNumbers\">25%</c>.<n/><n/><c val=\"#AbilityPassive\">Działanie pasywne:</c> Obrażenia od ataku podstawowego wzrastają o <c val=\"#TooltipNumbers\">100%</c>.<n/><c val=\"#AbilityPassive\">Działanie pasywne: </c>Maksymalne zdrowie i regeneracja zdrowia maleją o <c val=\"#TooltipNumbers\">10%</c>.",
+      "name": "Kolosalne Zmiażdżenie",
+      "shortText": "Zwiększa obrażenia kosztem zdrowia<n/>Miażdży wrogów, zmniejszając ich pancerz"
+    },
+    ":PASSIVE:|VarianTwinBladesOfFury|Heroic": {
+      "fullText": "Ataki podstawowe skracają teraz czas odnowienia Heroicznego Ciosu o <c val=\"#TooltipNumbers\">7</c> sek. i zwiększają szybkość ruchu Variana o <c val=\"#TooltipNumbers\">30%</c> na <c val=\"#TooltipNumbers\">2</c> sek.<n/><n/><c val=\"#AbilityPassive\">Działanie pasywne:</c> Szybkość ataku wzrasta o <c val=\"#TooltipNumbers\">100%</c>.<n/><c val=\"#AbilityPassive\">Działanie pasywne:</c> Obrażenia od ataku podstawowego maleją o <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Bliźniacze Ostrza Furii",
+      "shortText": "Zwiększa szybkość ataku i premię do Heroicznego Ciosu, ale zmniejsza obrażenia"
+    },
+    "VarianHeroicStrike|VarianHeroicStrike|Trait": {
+      "cooldownText": "Czas odnowienia: 18 sek.",
+      "fullText": "Co <c val=\"#TooltipNumbers\">18</c> sek. zadaje kolejnym atakiem podstawowym dodatkowo <c val=\"#TooltipNumbers\">125</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń od zaklęć. Ataki podstawowe skracają czas odnowienia tego efektu o <c val=\"#TooltipNumbers\">3</c> sek.",
+      "name": "Heroiczny Cios",
+      "shortText": "Wzmacnia obrażenia następnego ataku podstawowego"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Czas odnowienia: 4 sek.",
+      "fullText": "Po podtrzymywaniu przez <c val=\"#TooltipNumbers\">1</c> sek. zyskujesz premię <s val=\"StandardTooltipDetails\">30%</s> do szybkości ruchu.",
+      "name": "Przyzwanie Wierzchowca"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Po podtrzymywaniu przez <c val=\"#TooltipNumbers\">6</c> sek. teleportuje bohatera z powrotem do Dworu Burz i przywraca mu natychmiast <c val=\"#TooltipNumbers\">1125</c> pkt. zdrowia oraz <c val=\"#TooltipNumbers\">150</c> pkt. many.",
+      "name": "Kamień Powrotu"
+    },
+    ":PASSIVE:|VarianHeroicStrikeActive|Trait": {
+      "cooldownText": "Czas odnowienia: 18 sek.",
+      "fullText": "Co <c val=\"#TooltipNumbers\">18</c> sek. zadaje kolejnym atakiem podstawowym dodatkowo <c val=\"#TooltipNumbers\">125</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń od zaklęć. Ataki podstawowe skracają czas odnowienia tego efektu o <c val=\"#TooltipNumbers\">3</c> sek.",
+      "name": "Heroiczny Cios",
+      "shortText": "Dodatkowe obrażenia od ataku podstawowego"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Opuszczasz wierzchowca.",
+      "name": "Odesłanie Wierzchowca"
+    },
+    "VarianVictoryRush|VarianVictoryRush|Passive": {
+      "cooldownText": "Czas odnowienia: 30 sek.",
+      "fullText": "Co <c val=\"#TooltipNumbers\">30</c> sek. kolejny atak podstawowy Variana uleczy <c val=\"#TooltipNumbers\">350</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. jego zdrowia. Kiedy w pobliżu ginie wrogi stronnik lub potwór, czas odnowienia zostaje skrócony o <c val=\"#TooltipNumbers\">10</c> sek.",
+      "name": "Pęd Ku Zwycięstwu",
+      "shortText": "Ataki podstawowe okresowo leczą dużą liczbę punktów zdrowia"
+    },
+    "VarianShatteringThrow|VarianShatteringThrow|Active": {
+      "cooldownText": "Czas odnowienia: 30 sek.",
+      "fullText": "Aktywuj, aby Varian rzucił mieczem w wybranego bohatera i zadał mu <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń oraz maksymalnie <c val=\"#TooltipNumbers\">1400</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. dodatkowych obrażeń jego osłonom.<n/><n/><c val=\"#AbilityPassive\">Działanie pasywne:</c> Ataki podstawowe wymierzone w bohaterów zadają maksymalnie do <c val=\"#TooltipNumbers\">200%</c> dodatkowych obrażeń fizycznych osłonom.",
+      "name": "Przebijający Rzut",
+      "shortText": "Zadaje potężne obrażenia osłonom przeciwników"
+    },
+    "VarianBannerOfDalaran|VarianBannerOfDalaran|Active": {
+      "cooldownText": "Czas odnowienia: 25 sek.",
+      "fullText": "Aktywuj, by Varian umieścił sztandar zapewniający pobliskim bohaterom sojuszniczym premię <c val=\"#TooltipNumbers\">20%</c> do mocy zaklęć. Czas działania: <c val=\"#TooltipNumbers\">12</c> sek.",
+      "name": "Sztandar Dalaranu",
+      "shortText": "Sztandar zapewniający moc zaklęć"
+    },
+    "VarianBannerOfIronforge|VarianBannerOfIronforge|Active": {
+      "cooldownText": "Czas odnowienia: 45 sek.",
+      "fullText": "Aktywuj, by Varian umieścił sztandar zapewniający pobliskim bohaterom sojuszniczym premię <c val=\"#TooltipNumbers\">20</c> pkt. pancerza, który redukuje otrzymywane obrażenia o <c val=\"#TooltipNumbers\">20%</c>. Czas działania: <c val=\"#TooltipNumbers\">12</c> sek.",
+      "name": "Sztandar Żelaznej Kuźni",
+      "shortText": "Sztandar zapewniający pancerz"
+    },
+    "VarianBannerOfStormwind|VarianBannerOfStormwind|Active": {
+      "cooldownText": "Czas odnowienia: 25 sek.",
+      "fullText": "Aktywuj, by Varian umieścił sztandar zapewniający pobliskim bohaterom sojuszniczym premię <c val=\"#TooltipNumbers\">25%</c> do szybkości ruchu. Czas działania: <c val=\"#TooltipNumbers\">12</c> sek.",
+      "name": "Sztandar Wichrogrodu",
+      "shortText": "Sztandar zwiększający szybkość ruchu"
+    },
+    "VarianDemoralizingShout|VarianDemoralizingShout|Active": {
+      "cooldownText": "Czas odnowienia: 20 sek.",
+      "fullText": "Aktywuj, aby obniżyć morale pobliskich wrogich bohaterów i zmniejszyć zadawane przez nich obrażenia o <c val=\"#TooltipNumbers\">40%</c> na <c val=\"#TooltipNumbers\">5</c> sek.<n/><n/>Za każdym razem, gdy wrogi bohater dotknięty Zastraszającym Okrzykiem zada obrażenia bohaterowi, czas odnowienia tej umiejętności i Paradowania zostaje skrócony o <c val=\"#TooltipNumbers\">5%</c>.",
+      "name": "Zastraszający Okrzyk",
+      "shortText": "Pobliscy bohaterowie zadają mniejsze obrażenia"
+    }
+  },
+  "talents": {
+    "VarianLionsFangLionsMawQuest|VarianLionsFangLionsMawQuest|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Zadanie:</c> Za każdym razem, gdy Lwi Kieł trafi bohatera, obrażenia tej zdolności zwiększają się o <c val=\"#TooltipNumbers\">7</c> pkt., aż do maksymalnej wartości <c val=\"#TooltipNumbers\">175</c> pkt.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Nagroda:</c> Po trafieniu <c val=\"#TooltipNumbers\">25</c> bohaterów efekt spowolnienia wzrośnie do <c val=\"#TooltipNumbers\">50%</c>, a jego czas działania wydłuży się do <c val=\"#TooltipNumbers\">2</c> sek.",
+      "name": "Paszcza Lwa",
+      "shortText": "<c val=\"#TooltipQuest\">Zadanie:</c> Trafianie bohaterów wzmacnia Lwi Kieł"
+    },
+    "VarianParryOverpower|VarianParryOverpower|W|Level1": {
+      "fullText": "Jeśli Parada zablokuje atak podstawowy bohatera, czas odnowienia Heroicznego Ciosu zostanie zresetowany, a przy kolejnym użyciu zada on obrażenia zwiększone o <c val=\"#TooltipNumbers\">40%</c>.",
+      "name": "Przełamanie",
+      "shortText": "Sparowanie ataku bohatera odnowi Heroiczny Cios"
+    },
+    "VarianHighKingsQuestQuest|VarianHighKingsQuestQuest|Passive|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Zadanie: </c>Traf <c val=\"#TooltipNumbers\">50</c> bohaterów atakami podstawowymi.<n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Zadanie: </c>Weź udział w zabiciu <c val=\"#TooltipNumbers\">5</c> wrogich bohaterów.<n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Zadanie: </c>Zbierz <c val=\"#TooltipNumbers\">15</c> Kul Regeneracji.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Nagroda:</c> Wykonanie jednego zadania zapewnia dodatkowo <c val=\"#TooltipNumbers\">10</c> pkt. obrażeń od ataku podstawowego. Wykonanie wszystkich <c val=\"#TooltipNumbers\">3</c> zadań zapewnia dodatkowo <c val=\"#TooltipNumbers\">30</c> pkt. obrażeń od tego ataku.",
+      "name": "Misja Najwyższego Króla",
+      "shortText": "<c val=\"#TooltipQuest\">Zadanie:</c> Wykonuj zadania, by zwiększyć obrażenia od ataku"
+    },
+    "VarianTaunt|VarianTaunt|Heroic|Level4": {
+      "cooldownText": "Czas odnowienia: 16 sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 20</s>",
+      "fullText": "Wycisza wskazanego bohatera i zmusza go, by atakował Variana przez <c val=\"#TooltipNumbers\">1.25</c> sek.<n/><n/><c val=\"#AbilityPassive\">Działanie pasywne:</c> Maksymalne zdrowie oraz regeneracja zdrowia wzrastają o <c val=\"#TooltipNumbers\">40%</c>.",
+      "name": "Prowokacja",
+      "shortText": "Zapewnia zdrowie.<n/>Zmusza bohatera, by atakował Variana"
+    },
+    "VarianColossusSmash|VarianColossusSmash|Heroic|Level4": {
+      "cooldownText": "Czas odnowienia: 20 sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 40</s>",
+      "fullText": "Varian miażdży wskazanego przeciwnika i zadaje mu <c val=\"#TooltipNumbers\">185</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń, a także zmniejsza jego pancerz o <c val=\"#TooltipNumbers\">25</c> na <c val=\"#TooltipNumbers\">3</c> sek., co sprawia, że przeciwnik otrzymuje obrażenia zwiększone o <c val=\"#TooltipNumbers\">25%</c>.<n/><n/><c val=\"#AbilityPassive\">Działanie pasywne:</c> Obrażenia od ataku podstawowego wzrastają o <c val=\"#TooltipNumbers\">100%</c>.<n/><c val=\"#AbilityPassive\">Działanie pasywne: </c>Maksymalne zdrowie i regeneracja zdrowia maleją o <c val=\"#TooltipNumbers\">10%</c>.",
+      "name": "Kolosalne Zmiażdżenie",
+      "shortText": "Zwiększa obrażenia kosztem zdrowia<n/>Miażdży wrogów, zmniejszając ich pancerz"
+    },
+    "VarianTwinBladesOfFury|VarianTwinBladesOfFury|Heroic|Level4": {
+      "fullText": "Ataki podstawowe skracają teraz czas odnowienia Heroicznego Ciosu o <c val=\"#TooltipNumbers\">7</c> sek. i zwiększają szybkość ruchu Variana o <c val=\"#TooltipNumbers\">30%</c> na <c val=\"#TooltipNumbers\">2</c> sek.<n/><n/><c val=\"#AbilityPassive\">Działanie pasywne:</c> Szybkość ataku wzrasta o <c val=\"#TooltipNumbers\">100%</c>.<n/><c val=\"#AbilityPassive\">Działanie pasywne:</c> Obrażenia od ataku podstawowego maleją o <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Bliźniacze Ostrza Furii",
+      "shortText": "Zwiększa szybkość ataku i premię do Heroicznego Ciosu, ale zmniejsza obrażenia"
+    },
+    "VarianLionsFangLionheart|VarianLionsFangLionheart|Q|Level7": {
+      "fullText": "Skuteczność leczenia ze Lwi Kieł wzrasta o <c val=\"#TooltipNumbers\">75%</c> w przypadku użycia zdolności na wrogich bohaterach.",
+      "name": "Lwie Serce",
+      "shortText": "Zwiększa skuteczność leczenia za Lwi Kieł"
+    },
+    "VarianSecondWind|VarianSecondWind|Passive|Level7": {
+      "fullText": "Ataki podstawowe leczą Variana, przywracając mu <c val=\"#TooltipNumbers\">1%</c> maksymalnego zdrowia. Gdy jego zdrowie spadnie poniżej <c val=\"#TooltipNumbers\">50%</c>, ataki te będą przywracać dodatkowo zdrowie o wartości <c val=\"#TooltipNumbers\">50%</c> zadanych obrażeń.",
+      "name": "Drugi Oddech",
+      "shortText": "Ataki podstawowe leczą, efekt jest silniejszy przy niskim poziomie zdrowia"
+    },
+    "VarianVictoryRush|VarianVictoryRush|Passive|Level7": {
+      "fullText": "Co <c val=\"#TooltipNumbers\">30</c> sek. kolejny atak podstawowy Variana uleczy <c val=\"#TooltipNumbers\">350</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. jego zdrowia. Kiedy w pobliżu ginie wrogi stronnik lub potwór, czas odnowienia zostaje skrócony o <c val=\"#TooltipNumbers\">10</c> sek.",
+      "name": "Pęd Ku Zwycięstwu",
+      "shortText": "Ataki podstawowe okresowo leczą dużą liczbę punktów zdrowia"
+    },
+    "VarianParryShieldWall|VarianParryShieldWall|W|Level10": {
+      "fullText": "Parada zapewnia ochronę i przez cały czas działania chroni przed wszystkimi źródłami obrażeń. Czas odnowienia Parady zostaje skrócony o <c val=\"#TooltipNumbers\">5</c> sek., ale liczba ładunków spada o <c val=\"#TooltipNumbers\">1</c>.",
+      "name": "Mistrzowska Parada",
+      "shortText": "Parada zapewnia ochronę"
+    },
+    "VarianChargeWarbringer|VarianChargeWarbringer|E|Level10": {
+      "fullText": "Skraca czas odnowienia Szarży o <c val=\"#TooltipNumbers\">8</c> sek. i redukuje jej koszt many z <c val=\"#TooltipNumbers\">45</c> do <c val=\"#TooltipNumbers\">25</c> pkt., a także umożliwia jej użycie na bohaterach sojuszniczych.",
+      "name": "Łamignat",
+      "shortText": "Szarża ma skrócony czas odnowienia i może zostać użyta na sojusznikach"
+    },
+    "VarianChargeJuggernaut|VarianChargeJuggernaut|E|Level13": {
+      "fullText": "Szarża zadaje wrogim bohaterom dodatkowe obrażenia równe <c val=\"#TooltipNumbers\">4%</c> maksymalnej wartości ich zdrowia.",
+      "name": "Taran",
+      "shortText": "Zwiększa obrażenia od Szarży"
+    },
+    "VarianMortalStrike|VarianMortalStrike|Trait|Level13": {
+      "fullText": "Efekty leczące użyte na wrogich bohaterach trafionych przez Heroiczny Cios będą osłabione o <c val=\"#TooltipNumbers\">40%</c> przez <c val=\"#TooltipNumbers\">4</c> sek.",
+      "name": "Zabójczy Cios",
+      "shortText": "Heroiczny Cios osłabia efekty leczące wrogów"
+    },
+    "VarianShatteringThrow|VarianShatteringThrow|Active|Level13": {
+      "cooldownText": "Czas odnowienia: 30 sek.",
+      "fullText": "Aktywuj, aby Varian rzucił mieczem w wybranego bohatera i zadał mu <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń oraz maksymalnie <c val=\"#TooltipNumbers\">1400</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. dodatkowych obrażeń jego osłonom.<n/><n/><c val=\"#AbilityPassive\">Działanie pasywne:</c> Ataki podstawowe wymierzone w bohaterów zadają maksymalnie do <c val=\"#TooltipNumbers\">200%</c> dodatkowych obrażeń fizycznych osłonom.",
+      "name": "Przebijający Rzut",
+      "shortText": "Zadaje potężne obrażenia osłonom przeciwników"
+    },
+    "VarianBannerOfStormwind|VarianBannerOfStormwind|Active|Level16": {
+      "cooldownText": "Czas odnowienia: 25 sek.",
+      "fullText": "Aktywuj, by Varian umieścił sztandar zapewniający pobliskim bohaterom sojuszniczym premię <c val=\"#TooltipNumbers\">25%</c> do szybkości ruchu. Czas działania: <c val=\"#TooltipNumbers\">12</c> sek.",
+      "name": "Sztandar Wichrogrodu",
+      "shortText": "Sztandar zwiększający szybkość ruchu"
+    },
+    "VarianBannerOfIronforge|VarianBannerOfIronforge|Active|Level16": {
+      "cooldownText": "Czas odnowienia: 45 sek.",
+      "fullText": "Aktywuj, by Varian umieścił sztandar zapewniający pobliskim bohaterom sojuszniczym premię <c val=\"#TooltipNumbers\">20</c> pkt. pancerza, który redukuje otrzymywane obrażenia o <c val=\"#TooltipNumbers\">20%</c>. Czas działania: <c val=\"#TooltipNumbers\">12</c> sek.",
+      "name": "Sztandar Żelaznej Kuźni",
+      "shortText": "Sztandar zapewniający pancerz"
+    },
+    "VarianBannerOfDalaran|VarianBannerOfDalaran|Active|Level16": {
+      "cooldownText": "Czas odnowienia: 25 sek.",
+      "fullText": "Aktywuj, by Varian umieścił sztandar zapewniający pobliskim bohaterom sojuszniczym premię <c val=\"#TooltipNumbers\">20%</c> do mocy zaklęć. Czas działania: <c val=\"#TooltipNumbers\">12</c> sek.",
+      "name": "Sztandar Dalaranu",
+      "shortText": "Sztandar zapewniający moc zaklęć"
+    },
+    "VarianTauntVigilance|VarianTauntVigilance|Heroic|Level20": {
+      "fullText": "Gdy wrogi bohater trafi Variana atakiem podstawowym, czas odnowienia Prowokacji zostaje skrócony o <c val=\"#TooltipNumbers\">1</c> sek.",
+      "name": "Czujność",
+      "shortText": "Otrzymywanie ataków skraca czas odnowienia Prowokacji"
+    },
+    "VarianColossusSmashMasterAtArms|VarianColossusSmashMasterAtArms|Heroic|Level20": {
+      "fullText": "Kolosalne Zmiażdżenie dodatkowo działa na wszystkich przeciwników wokół twojego celu. Czas odnowienia zdolności zostaje skrócony o <c val=\"#TooltipNumbers\">10</c> sek.",
+      "name": "Fechtmistrz",
+      "shortText": "Kolosalne Zmiażdżenie trafia dodatkowo wrogów blisko celu"
+    },
+    "VarianTwinBladesOfFuryFrenzy|VarianTwinBladesOfFuryFrenzy|Passive|Level20": {
+      "fullText": "Bliźniacze Ostrza Furii dodatkowo zwiększają obrażenia zadawane przez Heroiczny Cios o <c val=\"#TooltipNumbers\">25%</c>, a ataki podstawowe dodatkowo zwiększają szybkość ruchu Variana o <c val=\"#TooltipNumbers\">10%</c>.",
+      "name": "Szał",
+      "shortText": "Zwiększa premie Bliźniaczych Ostrzy Furii"
+    },
+    "VarianBannersGloryToTheAlliance|VarianBannersGloryToTheAlliance|Passive|Level20": {
+      "fullText": "Bohaterowie sojuszniczy znajdujący się w pobliżu sztandaru Variana otrzymują o <c val=\"#TooltipNumbers\">50%</c> skuteczniejsze leczenie, a czas odnowienia zdolności sztandaru zostaje skrócony o <c val=\"#TooltipNumbers\">50%</c>.",
+      "name": "Chwała Przymierzu",
+      "shortText": "Sztandar wzmacnia również efekty leczące"
+    },
+    "VarianDemoralizingShout|VarianDemoralizingShout|Active|Level20": {
+      "cooldownText": "Czas odnowienia: 20 sek.",
+      "fullText": "Aktywuj, aby obniżyć morale pobliskich wrogich bohaterów i zmniejszyć zadawane przez nich obrażenia o <c val=\"#TooltipNumbers\">40%</c> na <c val=\"#TooltipNumbers\">5</c> sek.<n/><n/>Za każdym razem, gdy wrogi bohater dotknięty Zastraszającym Okrzykiem zada obrażenia bohaterowi, czas odnowienia tej umiejętności i Paradowania zostaje skrócony o <c val=\"#TooltipNumbers\">5%</c>.",
+      "name": "Zastraszający Okrzyk",
+      "shortText": "Pobliscy bohaterowie zadają mniejsze obrażenia"
+    }
+  },
+  "units": {}
+}

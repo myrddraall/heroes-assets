@@ -1,0 +1,191 @@
+{
+  "abilities": {
+    "ZaryaParticleGrenade|ZaryaParticleGrenade|Q": {
+      "cooldownText": "Temps de recharge : 8 secondes",
+      "fullText": "Projette une grenade à particules qui inflige <c val=\"#TooltipNumbers\">80</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts aux ennemis. Inflige <c val=\"#TooltipNumbers\">50%</c> de dégâts contre les bâtiments.<n/><n/>Cumule jusqu’à <c val=\"#TooltipNumbers\">4</c> charges.",
+      "name": "Grenade à particules",
+      "shortText": "Inflige des dégâts aux ennemis dans une zone restreinte."
+    },
+    "ZaryaPersonalBarrier|ZaryaPersonalBarrier|W": {
+      "cooldownText": "Temps de recharge : 10 secondes",
+      "fullText": "Confère un bouclier capable d’absorber <c val=\"#TooltipNumbers\">560</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts et qui dure <c val=\"#TooltipNumbers\">3</c> secondes.",
+      "name": "Écran personnel",
+      "shortText": "Confère un bouclier qui absorbe les dégâts."
+    },
+    "ZaryaShieldAlly|ZaryaShieldAlly|E": {
+      "cooldownText": "Temps de recharge : 12 secondes",
+      "fullText": "Confère au héros allié ciblé un bouclier capable d’absorber <c val=\"#TooltipNumbers\">420</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts et qui dure <c val=\"#TooltipNumbers\">3</c> secondes.",
+      "name": "Écran généré",
+      "shortText": "Confère un bouclier à un allié."
+    },
+    "ZaryaGravitonSurge|ZaryaGravitonSurge|Heroic": {
+      "cooldownText": "Temps de recharge : 60 secondes",
+      "fullText": "Lance une bombe gravitationnelle qui explose après <c val=\"#TooltipNumbers\">1</c> seconde, puis attire les héros adverses vers le centre de la zone pendant <c val=\"#TooltipNumbers\">2,5</c> secondes. Les héros affectés subissent <c val=\"#TooltipNumbers\">30</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts par seconde.",
+      "name": "Orbe à gravitons",
+      "shortText": "Lance une bombe gravitationnelle qui attire les ennemis."
+    },
+    "ZaryaExpulsionZone|ZaryaExpulsionZone|Heroic": {
+      "cooldownText": "Temps de recharge : 45 secondes",
+      "fullText": "Lance une bombe gravitationnelle qui inflige <c val=\"#TooltipNumbers\">124</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts et crée une zone d’exclusion pendant <c val=\"#TooltipNumbers\">3.5</c> secondes. Les ennemis qui pénètrent dans la zone affectée sont repoussés et leur vitesse de déplacement est réduite de <c val=\"#TooltipNumbers\">50%</c> pendant <c val=\"#TooltipNumbers\">1</c> seconde.",
+      "name": "Zone d’exclusion",
+      "shortText": "Lance une bombe qui repousse les ennemis continuellement."
+    },
+    ":PASSIVE:|ZaryaEnergy|Trait": {
+      "fullText": "Chaque fois qu’Écran personnel et Écran généré absorbent <c val=\"#TooltipNumbers\">9</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts, l’énergie de Zarya augmente de <c val=\"#TooltipNumbers\">1</c> unité. Chaque unité d’énergie augmente les dégâts de Zarya de <c val=\"#TooltipNumbers\">2%</c>. Après <c val=\"#TooltipNumbers\">0.5</c> seconde, l’énergie s’épuise de <c val=\"#TooltipNumbers\">3</c> unités par seconde.",
+      "name": "Énergie",
+      "shortText": "Les dégâts absorbés par les écrans de Zarya augmentent ceux qu’elle inflige."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Temps de recharge : 4 secondes",
+      "fullText": "Après <c val=\"#TooltipNumbers\">1</c> seconde de canalisation, augmente la vitesse de déplacement de <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Appeler une monture"
+    },
+    "Hearthstone|HearthstoneNoMana|B": {
+      "fullText": "Après <c val=\"#TooltipNumbers\">6</c> secondes de canalisation, téléporte au hall des Tempêtes et rend instantanément <c val=\"#TooltipNumbers\">1125</c> points de vie.",
+      "name": "Pierre de foyer"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Permet de descendre de la monture.",
+      "name": "Renvoyer la monture"
+    },
+    "ZaryaPainIsTemporary|ZaryaPainIsTemporaryTalent|Active": {
+      "cooldownText": "Temps de recharge : 30 secondes",
+      "fullText": "S’active pour consommer toute l’Énergie et gagner un bouclier qui absorbe <c val=\"#TooltipNumbers\">0,8 %</c> du maximum de points de vie de Zarya par point d’Énergie consommé, et dure <c val=\"#TooltipNumbers\">3</c> secondes. Zarya ne peut avoir qu’un seul bouclier personnel actif sur elle-même à la fois.",
+      "name": "Douleur éphémère",
+      "shortText": "Consomme l’énergie pour obtenir un bouclier."
+    },
+    "ZaryaUnyieldingDefender|ZaryaUnyieldingDefenderTalent|Active": {
+      "cooldownText": "Temps de recharge : 60 secondes",
+      "fullText": "À l’activation, réinitialise le temps de recharge d’Écran personnel et d’Écran généré.",
+      "name": "Défense inflexible",
+      "shortText": "Réinitialise le temps de recharge des écrans."
+    }
+  },
+  "talents": {
+    "ZaryaParticleGrenadeDemolitionsExpertQuest|ZaryaParticleGrenadeDemolitionsExpertTalent|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quête :</c> tous les <c val=\"#TooltipNumbers\">5</c> héros adverses touchés par Grenade à particules, son temps de recharge diminue de <c val=\"#TooltipNumbers\">0.4375</c> seconde, jusqu’à un maximum de <c val=\"#TooltipNumbers\">3.5</c> secondes.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Récompense :</c> une fois <c val=\"#TooltipNumbers\">40</c> héros adverses touchés par Grenade à particules, augmente son rayon d’effet de <c val=\"#TooltipNumbers\">15%</c>.",
+      "name": "Experte en démolition",
+      "shortText": "<c val=\"#TooltipQuest\">Quête :</c> augmente le rayon et diminue le temps de recharge de Grenade à particules."
+    },
+    "ZaryaShieldAllyTogetherWeAreStrong|ZaryaShieldAllyTogetherWeAreStrongTalent|E|Level1": {
+      "fullText": "Durant <c val=\"#TooltipNumbers\">3</c> secondes après l’obtention d’Écran généré, chaque tranche de <c val=\"#TooltipNumbers\">5.35</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts infligés par le porteur de l’écran confère à Zarya <c val=\"#TooltipNumbers\">1</c> unité d’énergie, jusqu’à un maximum de <c val=\"#TooltipNumbers\">40</c> unités par écran.",
+      "name": "L’union fait la force",
+      "shortText": "Les dégâts infligés par les alliés protégés par Écran généré alimentent la réserve d’énergie."
+    },
+    "ZaryaWeaponFeelTheHeat|ZaryaWeaponFeelTheHeatTalent|Trait|Level1": {
+      "fullText": "Les attaques de base infligent <c val=\"#TooltipNumbers\">50%</c> de dégâts supplémentaires aux ennemis à portée de mêlée. Tant que Zarya dispose de plus de <c val=\"#TooltipNumbers\">40</c> unités d’énergie, l’amplitude de ses attaques de base est augmentée de <c val=\"#TooltipNumbers\">35%</c>.",
+      "name": "À bout portant",
+      "shortText": "Les attaques de base infligent davantage de dégâts à proximité, amplitude augmentée."
+    },
+    "ZaryaEnergyMaximumChargeQuest|ZaryaEnergyMaximumChargeTalent|Trait|Level1": {
+      "fullText": "Les globes de régénération confèrent instantanément <c val=\"#TooltipNumbers\">20</c> unités d’énergie.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quête :</c> passer <c val=\"#TooltipNumbers\">150</c> secondes à <c val=\"#TooltipNumbers\">50</c> unités d’énergie ou plus.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Récompense :</c> le maximum d’énergie est augmenté de <c val=\"#TooltipNumbers\">20</c> unités.",
+      "name": "Charge maximale",
+      "shortText": "Les globes de régénération donnent de l’énergie<n/><c val=\"#TooltipQuest\">Quête :</c> augmente l’énergie maximale."
+    },
+    "ZaryaPersonalBarrierIAmTheStrongest|ZaryaPersonalBarrierIAmTheStrongestTalent|W|Level4": {
+      "fullText": "Écran personnel absorbe <c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts supplémentaires. <n/><n/><c val=\"#AbilityPassive\">Effet passif : </c>les dégâts absorbés par les écrans de Zarya génèrent <c val=\"#TooltipNumbers\">20%</c> d’énergie supplémentaire.",
+      "name": "Baraquée et féminine",
+      "shortText": "Renforce le bouclier d’Écran personnel et augmente l’énergie reçue."
+    },
+    "ZaryaShieldAllyGiveMeTwentyQuest|ZaryaShieldAllyGiveMeTwentyTalent|E|Level4": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quête :</c> les globes de régénération augmentent l’absorption de dégâts d’Écran généré de <c val=\"#TooltipNumbers\">15</c>, jusqu’à un maximum de <c val=\"#TooltipNumbers\">300</c> points de façon permanente. <n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Récompense :</c> après avoir récupéré <c val=\"#TooltipNumbers\">20</c> globes de régénération, réduit de façon permanente le temps de recharge d’Écran généré de <c val=\"#TooltipNumbers\">2</c> secondes.",
+      "name": "Fais-moi vingt pompes !",
+      "shortText": "<c val=\"#TooltipQuest\">Quête :</c> augmente les dégâts que peut absorber Écran généré et réduit son temps de recharge."
+    },
+    "ZaryaShieldAllySpeedBarrier|ZaryaShieldAllySpeedBarrierTalent|E|Level4": {
+      "fullText": "Écran généré augmente la vitesse de déplacement du héros allié de <c val=\"#TooltipNumbers\">50%</c> pendant toute sa durée.",
+      "name": "Écran accélérateur",
+      "shortText": "Écran généré augmente la vitesse de déplacement."
+    },
+    "ZaryaDefensiveShielding|ZaryaDefensiveShieldingTalent|Passive|Level4": {
+      "fullText": "À l’expiration ou une fois la quantité maximale de dégâts absorbée, Écran personnel et Écran généré confèrent <c val=\"#TooltipNumbers\">75</c> points d’armure physique contre les <c val=\"#TooltipNumbers\">2</c> prochaines attaques de base de héros portées dans les <c val=\"#TooltipNumbers\">6</c> secondes, ce qui réduit les dégâts qu’elles infligent de <c val=\"#TooltipNumbers\">75</c>%.",
+      "name": "Bouclier défensif",
+      "shortText": "Écran personnel et Écran généré confèrent de l’armure physique."
+    },
+    "ZaryaParticleGrenadePinpointAccuracy|ZaryaParticleGrenadePinpointAccuracyTalent|Q|Level7": {
+      "fullText": "Grenade à particules inflige <c val=\"#TooltipNumbers\">25</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts supplémentaires aux adversaires situés au centre de l’explosion et réduit la vitesse de déplacement des adversaires touchés dans la zone centrale de <c val=\"#TooltipNumbers\">25%</c> pendant <c val=\"#TooltipNumbers\">2</c> secondes.",
+      "name": "Précision du geste",
+      "shortText": "Grenade à particules inflige davantage de dégâts dans la zone centrale et ralentit."
+    },
+    "ZaryaDeepBurn|ZaryaDeepBurn|Q|Level7": {
+      "fullText": "Toucher un héros avec Grenade à particules permet aux attaques de base de générer <c val=\"#TooltipNumbers\">2</c> unités d’énergie. Dure <c val=\"#TooltipNumbers\">4</c> secondes.",
+      "name": "Brûlure sévère",
+      "shortText": "Grenade à particules peut générer de l’énergie."
+    },
+    "ZaryaPersonalBarrierExplosiveBarrier|ZaryaPersonalBarrierExplosiveBarrierTalent|W|Level7": {
+      "fullText": "À l’expiration ou une fois la quantité maximale de dégâts absorbée, Écran personnel explose et inflige <c val=\"#TooltipNumbers\">110</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts aux ennemis proches.",
+      "name": "Écran explosif",
+      "shortText": "Écran personnel inflige des dégâts de zone."
+    },
+    "ZaryaHeroicAbilityGravitonSurge|ZaryaGravitonSurge|Heroic|Level10": {
+      "cooldownText": "Temps de recharge : 60 secondes",
+      "fullText": "Lance une bombe gravitationnelle qui explose après <c val=\"#TooltipNumbers\">1</c> seconde, puis attire les héros adverses vers le centre de la zone pendant <c val=\"#TooltipNumbers\">2,5</c> secondes. Les héros affectés subissent <c val=\"#TooltipNumbers\">30</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts par seconde.",
+      "name": "Orbe à gravitons",
+      "shortText": "Lance une bombe gravitationnelle qui attire les ennemis."
+    },
+    "ZaryaHeroicAbilityExpulsionZone|ZaryaExpulsionZone|Heroic|Level10": {
+      "cooldownText": "Temps de recharge : 45 secondes",
+      "fullText": "Lance une bombe gravitationnelle qui inflige <c val=\"#TooltipNumbers\">124</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts et crée une zone d’exclusion pendant <c val=\"#TooltipNumbers\">3.5</c> secondes. Les ennemis qui pénètrent dans la zone affectée sont repoussés et leur vitesse de déplacement est réduite de <c val=\"#TooltipNumbers\">50%</c> pendant <c val=\"#TooltipNumbers\">1</c> seconde.",
+      "name": "Zone d’exclusion",
+      "shortText": "Lance une bombe qui repousse les ennemis continuellement."
+    },
+    "ZaryaPersonalBarrierUnstoppableCompetitor|ZaryaPersonalBarrierUnstoppableCompetitorTalent|W|Level13": {
+      "fullText": "Écran personnel rend insensible aux effets de contrôle pendant <c val=\"#TooltipNumbers\">2</c> seconde au maximum.",
+      "name": "Athlète insensible",
+      "shortText": "Écran personnel rend insensible aux effets de contrôle."
+    },
+    "ZaryaPersonalBarrierSpellBarrier|ZaryaPersonalBarrierSpellBarrierTalent|W|Level13": {
+      "fullText": "À l’expiration ou une fois la quantité maximale de dégâts absorbée, Écran personnel confère à Zarya <c val=\"#TooltipNumbers\">75</c> points d’armure anti-sort pendant <c val=\"#TooltipNumbers\">3</c> secondes, ce qui réduit les dégâts de capacité qu’elle subit de <c val=\"#TooltipNumbers\">75 %</c>.",
+      "name": "Écran anti-sort",
+      "shortText": "Écran personnel confère de l’armure anti-sort."
+    },
+    "ZaryaEnergyEnduranceTraining|ZaryaEnergyEnduranceTrainingTalent|Trait|Level13": {
+      "fullText": "Tant que l’énergie dépasse <c val=\"#TooltipNumbers\">75</c> unités, confère <c val=\"#TooltipNumbers\">20</c> points d’armure, réduisant de <c val=\"#TooltipNumbers\">20%</c> tous les dégâts subis.",
+      "name": "Travail d’endurance",
+      "shortText": "À niveau d’énergie élevé, confère de l’armure."
+    },
+    "ZaryaPainIsTemporary|ZaryaPainIsTemporaryTalent|Active|Level13": {
+      "cooldownText": "Temps de recharge : 30 secondes",
+      "fullText": "S’active pour consommer toute l’Énergie et gagner un bouclier qui absorbe <c val=\"#TooltipNumbers\">0,8 %</c> du maximum de points de vie de Zarya par point d’Énergie consommé, et dure <c val=\"#TooltipNumbers\">3</c> secondes. Zarya ne peut avoir qu’un seul bouclier personnel actif sur elle-même à la fois.",
+      "name": "Douleur éphémère",
+      "shortText": "Consomme l’énergie pour obtenir un bouclier."
+    },
+    "ZaryaShieldAllyCleansingShield|ZaryaShieldAllyCleansingShieldTalent|E|Level16": {
+      "fullText": "Écran généré supprime tous les effets incapacitants et son temps de recharge est réduit de <c val=\"#TooltipNumbers\">3</c> secondes.",
+      "name": "Écran purificateur",
+      "shortText": "Écran généré supprime tous les effets incapacitants."
+    },
+    "ZaryaShieldAllyGainTrain|ZaryaShieldAllyGainTrainTalent|E|Level16": {
+      "fullText": "À l’impact, Écran généré applique aussi une version de base de la capacité à un second allié proche.",
+      "name": "Émulation",
+      "shortText": "Écran généré se propage à un second allié."
+    },
+    "ZaryaEnergyBornInBattle|ZaryaEnergyBornInBattleTalent|Trait|Level16": {
+      "fullText": "Quand l’énergie dépasse <c val=\"#TooltipNumbers\">75</c> unités, accélère de <c val=\"#TooltipNumbers\">25%</c> l’écoulement des temps de recharge.",
+      "name": "Fleur de combat",
+      "shortText": "À niveau d’énergie élevé, réduit les temps de recharge."
+    },
+    "ZaryaGravitonSurgeGravityKills|ZaryaGravitonSurgeGravityKillsTalent|Heroic|Level20": {
+      "fullText": "Augmente la durée d’Orbe à gravitons de <c val=\"#TooltipNumbers\">1</c> seconde et réduit au silence les héros pris dans sa zone d’effet.",
+      "name": "Gravité fatale",
+      "shortText": "Augmente la durée d’Orbe à gravitons et lui permet de réduire l’ennemi au silence. "
+    },
+    "ZaryaExpulsionZoneClearOut|ZaryaExpulsionZoneClearOutTalent|Heroic|Level20": {
+      "fullText": "Réduit le temps de recharge de la Zone d’exclusion de <c val=\"#TooltipNumbers\">25</c> secondes et augmente sa durée de <c val=\"#TooltipNumbers\">1.5</c> seconde.",
+      "name": "Périmètre évacué",
+      "shortText": "Réduit le temps de recharge de la Zone d’exclusion et augmente sa durée."
+    },
+    "ZaryaParticleGrenadeGrenadier|ZaryaParticleGrenadeGrenadierTalent|Q|Level20": {
+      "fullText": "Restaure instantanément toutes les charges de Grenade à particules.",
+      "name": "Grenadière",
+      "shortText": "Restaure instantanément toutes les charges de Grenade à particules."
+    },
+    "ZaryaUnyieldingDefender|ZaryaUnyieldingDefenderTalent|Active|Level20": {
+      "cooldownText": "Temps de recharge : 60 secondes",
+      "fullText": "À l’activation, réinitialise le temps de recharge d’Écran personnel et d’Écran généré.",
+      "name": "Défense inflexible",
+      "shortText": "Réinitialise le temps de recharge des écrans."
+    }
+  },
+  "units": {}
+}

@@ -1,0 +1,254 @@
+{
+  "abilities": {
+    "AbathurSymbiote|AbathurSymbiote|Q": {
+      "cooldownText": "Abklingzeit: 4 Sek.",
+      "fullText": "Erzeugt einen Symbionten, der sich mit einem anvisierten Verbündeten oder Gebäude verbindet. Abathur kontrolliert den Symbionten und kann so neue Symbiontenfähigkeiten einsetzen. Der Symbiont erhält EP, wenn Gegner in seiner Nähe sterben.",
+      "name": "Symbiont",
+      "shortText": "Unterstützt einen Verbündeten und erhält selbst neue Fähigkeiten."
+    },
+    "AbathurToxicNest|AbathurToxicNest|W": {
+      "cooldownText": "Ladungsabklingzeit: 10 Sek.",
+      "fullText": "Erschafft eine Mine, die nach kurzer Zeit scharf wird. Verursacht <c val=\"#TooltipNumbers\">153</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden und deckt getroffene Gegner <c val=\"#TooltipNumbers\">4</c> Sek. lang auf. Bleibt <c val=\"#TooltipNumbers\">90</c> Sek. lang bestehen.<n/><n/>Maximal <c val=\"#TooltipNumbers\">3</c> Aufladungen.",
+      "name": "Giftnest",
+      "shortText": "Erschafft eine Mine."
+    },
+    "AbathurEvolveMonstrosity|AbathurEvolveMonstrosityHotbar|Heroic": {
+      "cooldownText": "Abklingzeit: 90 Sek.",
+      "fullText": "Verwandelt einen verbündeten Diener oder eine verbündete Schrecke in einen Mutanten. Jeder gegnerische Diener, der in der Nähe des Mutanten stirbt, erhöht seine Lebenspunkte um <c val=\"#TooltipNumbers\">2 %</c> und den Schaden seiner automatischen Angriffe um <c val=\"#TooltipNumbers\">2 %</c>. Dieser Effekt ist bis zu <c val=\"#TooltipNumbers\">40</c>-mal stapelbar. Der Mutant wird durch den Panzer geheilt und kann sich alle <c val=\"#TooltipNumbers\">80</c> Sek. zu einem sichtbaren Ort auf dem Schlachtfeld durchgraben.<n/><n/>Wenn der Mutant einen Symbionten erhält, verfügt er über alle gewöhnlichen Symbiontenfähigkeiten und kann zusätzlich kontrolliert werden. Diese Fähigkeit kann erneut aktiviert werden, um Symbiont automatisch auf den Mutanten anzuwenden.",
+      "name": "Mutanten entwickeln",
+      "shortText": "Entwickelt einen Diener oder eine Schrecke zu einem mächtigen Mutanten weiter."
+    },
+    "AbathurUltimateEvolution|AbathurUltimateEvolution|Heroic": {
+      "cooldownText": "Abklingzeit: 70 Sek.",
+      "fullText": "Erschafft einen Klon des anvisierten verbündeten Helden und kontrolliert diesen <c val=\"#TooltipNumbers\">20</c> Sek. lang. Abathur perfektioniert den Klon und erhöht dadurch seine Fähigkeitsstärke um <c val=\"#TooltipNumbers\">20%</c>, den Angriffsschaden um <c val=\"#TooltipNumbers\">20%</c> und die Bewegungsgeschwindigkeit um <c val=\"#TooltipNumbers\">10%</c>. Die heroische Fähigkeit des Klons kann nicht eingesetzt werden.",
+      "name": "Ultimative Evolution",
+      "shortText": "Klont einen verbündeten Helden und kontrolliert diesen."
+    },
+    "AbathurSpawnLocusts|AbathurLocustStrain|Trait": {
+      "cooldownText": "Abklingzeit: 15 Sek.",
+      "fullText": "Erschafft alle <c val=\"#TooltipNumbers\">15</c> Sek. eine Schrecke, die auf dem nächsten Weg angreift. Schrecken heilen sich um <c val=\"#TooltipNumbers\">20 %</c> des Schadens, den sie verursachen, und gewinnen <c val=\"#TooltipNumbers\">20 %</c> ihrer max. Lebenspunkte zurück, wenn ein Diener in der Nähe stirbt.<n/><n/>Schrecken verlieren im Verlauf von <c val=\"#TooltipNumbers\">17</c> Sek. Lebenspunkte, verfügen über <c val=\"#TooltipNumbers\">225</c><c val=\"#ColorGray\">~~0.04~~</c> Lebenspunkte und verursachen mit jedem automatischen Angriff <c val=\"#TooltipNumbers\">36</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden, wobei sie <c val=\"#TooltipNumbers\">100 %</c> Bonusschaden gegen Feinde verursachen, die keine Helden sind.",
+      "name": "Schreckengattung",
+      "shortText": "Erschafft Schrecken, die entlang des nächstgelegenen Weges angreifen."
+    },
+    "AbathurDeepTunnel|AbathurDeepTunnel|Z": {
+      "cooldownText": "Abklingzeit: 30 Sek.",
+      "fullText": "Gräbt sich schnell zu einem sichtbaren Ort durch.",
+      "name": "Tiefentunnel",
+      "shortText": "Gräbt sich zum Zielort."
+    },
+    "Hearthstone|HearthstoneNoMana|B": {
+      "fullText": "Kanalisiert <c val=\"#TooltipNumbers\">6</c> Sek. lang und teleportiert sich dann zurück zum Altar der Stürme. Dabei werden sofort <c val=\"#TooltipNumbers\">1125</c> Lebenspunkte wiederhergestellt.",
+      "name": "Ruhestein"
+    },
+    "AbathurEvolveMonstrosityActiveSymbiote|EvolveMonstrosityActiveHotbar|Heroic": {
+      "cooldownText": "Abklingzeit: 4 Sek.",
+      "fullText": "Aktivieren, um Symbiont auf den Mutanten anzuwenden.",
+      "name": "Mutanten entwickeln"
+    },
+    "AbathurLocustSwarm|AbathurLocustSwarm|Active": {
+      "cooldownText": "Abklingzeit: 75 Sek.",
+      "fullText": "Aktivieren, um in der Nähe <c val=\"#TooltipNumbers\">3</c> Schrecken zu erschaffen.",
+      "name": "Schreckenbrut",
+      "shortText": "Erschafft eine Gruppe Schrecken."
+    },
+    "TalentBucketCalldownMule|GenericCalldownMule|Active": {
+      "cooldownText": "Abklingzeit: 60 Sek.",
+      "fullText": "Aktivieren, um eine M.U.L.E. anzufordern, die im Zielbereich <c val=\"#TooltipNumbers\">40</c> Sek. lang ein Gebäude nach dem anderen repariert. Stellt alle <c val=\"#TooltipNumbers\">1</c> Sek. <c val=\"#TooltipNumbers\">90</c> Lebenspunkte wieder her.",
+      "name": "M.U.L.E. anfordern",
+      "shortText": "Aktivieren, um Gebäude zu reparieren."
+    },
+    "AbathurLocustNest|AbathurLocustMasterHotbar|Active": {
+      "cooldownText": "Abklingzeit: 45 Sek.",
+      "fullText": "Aktivieren, um ein Nest zu erschaffen, das in regelmäßigen Abständen Schrecken erzeugt. Es kann immer nur ein Schreckennest gleichzeitig aktiv sein.",
+      "name": "Schreckennest",
+      "shortText": "Erschafft Schreckennester."
+    },
+    "AbathurSymbioteStab|AbathurSymbioteStab|Q": {
+      "cooldownText": "Ladungsabklingzeit: 3 Sek.",
+      "fullText": "Feuert einen Stachel auf einen Zielbereich, der dem ersten getroffenen Gegner <c val=\"#TooltipNumbers\">119</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zufügt.",
+      "name": "Stachelschuss",
+      "shortText": "Verschießt einen Stachel, der dem ersten getroffenen Gegner Schaden zufügt."
+    },
+    "AbathurSymbioteSpikeBurst|AbathurSymbioteSpikeBurst|W": {
+      "cooldownText": "Abklingzeit: 6 Sek.",
+      "fullText": "Fügt Gegnern in der Nähe <c val=\"#TooltipNumbers\">120</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zu.",
+      "name": "Stachelexplosion",
+      "shortText": "Fügt Gegnern in der Nähe Schaden zu."
+    },
+    "AbathurSymbioteCarapace|AbathurSymbioteCarapace|E": {
+      "cooldownText": "Abklingzeit: 6 Sek.",
+      "fullText": "Schützt den unterstützten Verbündeten mit einem Schild vor <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden. Der Schild heilt verbündete Helden um <c val=\"#TooltipNumbers\">22</c><c val=\"#ColorGray\">~~0.04~~</c> Lebenspunkte pro Sekunde, solange er aktiv ist. Hält <c val=\"#TooltipNumbers\">6</c> Sek. lang an.",
+      "name": "Panzer",
+      "shortText": "Gewährt einen Schild."
+    },
+    "AbathurAssumingDirectControlCancel|AbathurSymbioteCancel|Heroic": {
+      "cooldownText": "Abklingzeit: 1.5 Sek.",
+      "fullText": "Bricht Symbiont ab.",
+      "name": "Symbiont abbrechen"
+    },
+    "AbathurMonstrosityDeepTunnel|AbathurMonstrosityDeepTunnel|Z": {
+      "cooldownText": "Abklingzeit: 80 Sek.",
+      "fullText": "Befiehlt dem entwickelten Mutanten, sich schnell zu einem sichtbaren Ort auf der Karte durchzugraben.",
+      "name": "Tiefentunnel",
+      "shortText": "Gräbt sich zum Zielort."
+    }
+  },
+  "talents": {
+    "AbathurMasteryPressurizedGlands|AbathurSymbiotePressurizedGlandsTalent|W|Level1": {
+      "fullText": "Erhöht die Reichweite der Stachelexplosion des Symbionten um <c val=\"#TooltipNumbers\">25%</c>. Verringert die Abklingzeit um <c val=\"#TooltipNumbers\">1</c> Sek.",
+      "name": "Überdruckdrüsen",
+      "shortText": "Erhöht die Reichweite der Stachelexplosion und verringert ihre Abklingzeit."
+    },
+    "AbathurMasteryEnvenomedNestsToxicNest|AbathurToxicNestEnvenomedNestTalent|W|Level1": {
+      "fullText": "Giftnester verursachen im Verlauf von <c val=\"#TooltipNumbers\">3</c> Sek. <c val=\"#TooltipNumbers\">75%</c> mehr Schaden und verringern <c val=\"#TooltipNumbers\">4</c> Sek. lang die Panzerung getroffener Helden um <c val=\"#TooltipNumbers\">15</c>.",
+      "name": "Toxinnest",
+      "shortText": "Giftnester verursachen mehr Schaden und verringern Panzerung."
+    },
+    "AbathurReinforcedCarapace|AbathurReinforcedCarapaceTalent|E|Level1": {
+      "fullText": "Erhöht die Schildmenge des Panzers um <c val=\"#TooltipNumbers\">40%</c>.",
+      "name": "Verstärkter Panzer",
+      "shortText": "Erhöht die Schildmenge des Panzers."
+    },
+    "AbathurCombatStyleLocustBrood|AbathurLocustSwarm|Active|Level1": {
+      "cooldownText": "Abklingzeit: 75 Sek.",
+      "fullText": "Aktivieren, um in der Nähe <c val=\"#TooltipNumbers\">3</c> Schrecken zu erschaffen.",
+      "name": "Schreckenbrut",
+      "shortText": "Erschafft eine Gruppe Schrecken."
+    },
+    "AbathurSymbioteAdrenalOverload|AbathurSymbioteAdrenalOverloadTalent|Q|Level4": {
+      "fullText": "Erhöht die Angriffsgeschwindigkeit von heroischen Symbiontenwirten um <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Adrenalinsättigung",
+      "shortText": "Erhöht die Angriffsgeschwindigkeit des Symbiontenwirts."
+    },
+    "AbathurMasteryNeedlespine|AbathurSymbioteNeedlespineTalent|Q|Level4": {
+      "fullText": "Erhöht den Schaden und die Reichweite von Stachelschüssen des Symbionten um <c val=\"#TooltipNumbers\">20%</c>.",
+      "name": "Nadelstacheln",
+      "shortText": "Erhöht den Schaden und die Reichweite von Stachelschüssen."
+    },
+    "AbathurMasteryProlificDispersal|AbathurToxicNestProlificDispersalTalent|W|Level4": {
+      "fullText": "Erhöht die Dauer von Giftnestern um <c val=\"#TooltipNumbers\">45%</c>, verringert die Abklingzeit um <c val=\"#TooltipNumbers\">2</c> Sek. und verleiht der Fähigkeit <c val=\"#TooltipNumbers\">2</c> zusätzliche Aufladungen.",
+      "name": "Fruchtbarkeit",
+      "shortText": "Verleiht dem Giftnest zusätzliche Aufladungen und erhöht die Dauer."
+    },
+    "AbathurSlapathur|AbathurSlapathur|E|Level4": {
+      "fullText": "Abathurs automatische Angriffe verursachen <c val=\"#TooltipNumbers\">350 %</c> zusätzlichen Schaden und betäuben Gegner, die keine Elitegegner sind, und deaktivieren Gebäude <c val=\"#TooltipNumbers\">1.5</c> Sek. lang.<n/><n/>Derselbe Held oder dasselbe Gebäude können jeweils nur einmal alle <c val=\"#TooltipNumbers\">6</c> Sek. betäubt oder deaktiviert werden.",
+      "name": "Schlagathur",
+      "shortText": "Automatische Angriffe betäuben und verursachen Bonusschaden."
+    },
+    "AbathurMasteryVileNestsToxicNest|AbathurToxicNestVileNestTalent|W|Level7": {
+      "fullText": "Giftnester verringern die Bewegungsgeschwindigkeit von Gegnern <c val=\"#TooltipNumbers\">2.5</c> Sek. lang um <c val=\"#TooltipNumbers\">40%</c>.",
+      "name": "Gallnest",
+      "shortText": "Giftnester verlangsamen Gegner."
+    },
+    "AbathurSymbioteCarapaceNetworkedCarapace|AbathurSymbioteCarapaceNetworkedCarapaceTalent|E|Level7": {
+      "fullText": "Wenn der Symbiont Panzer einsetzt, erhalten alle verbündeten Helden, Diener und Söldner in der Nähe ebenfalls eine Grundversion des Panzers.",
+      "name": "Kollektivpanzer",
+      "shortText": "Der Panzer schützt alle Verbündeten in der Nähe."
+    },
+    "GenericTalentCalldownMULE|GenericCalldownMule|Active|Level7": {
+      "cooldownText": "Abklingzeit: 60 Sek.",
+      "fullText": "Aktivieren, um eine M.U.L.E. anzufordern, die im Zielbereich <c val=\"#TooltipNumbers\">40</c> Sek. lang ein Gebäude nach dem anderen repariert. Stellt alle <c val=\"#TooltipNumbers\">1</c> Sek. <c val=\"#TooltipNumbers\">90</c> Lebenspunkte wieder her.",
+      "name": "M.U.L.E. anfordern",
+      "shortText": "Aktivieren, um Gebäude zu reparieren."
+    },
+    "AbathurHeroicAbilityUltimateEvolution|AbathurUltimateEvolution|Heroic|Level10": {
+      "cooldownText": "Abklingzeit: 70 Sek.",
+      "fullText": "Erschafft einen Klon des anvisierten verbündeten Helden und kontrolliert diesen <c val=\"#TooltipNumbers\">20</c> Sek. lang. Abathur perfektioniert den Klon und erhöht dadurch seine Fähigkeitsstärke um <c val=\"#TooltipNumbers\">20%</c>, den Angriffsschaden um <c val=\"#TooltipNumbers\">20%</c> und die Bewegungsgeschwindigkeit um <c val=\"#TooltipNumbers\">10%</c>. Die heroische Fähigkeit des Klons kann nicht eingesetzt werden.",
+      "name": "Ultimative Evolution",
+      "shortText": "Klont einen verbündeten Helden und kontrolliert diesen."
+    },
+    "AbathurHeroicAbilityEvolveMonstrosity|AbathurEvolveMonstrosityHotbar|Heroic|Level10": {
+      "cooldownText": "Abklingzeit: 90 Sek.",
+      "fullText": "Verwandelt einen verbündeten Diener oder eine verbündete Schrecke in einen Mutanten. Jeder gegnerische Diener, der in der Nähe des Mutanten stirbt, erhöht seine Lebenspunkte um <c val=\"#TooltipNumbers\">2 %</c> und den Schaden seiner automatischen Angriffe um <c val=\"#TooltipNumbers\">2 %</c>. Dieser Effekt ist bis zu <c val=\"#TooltipNumbers\">40</c>-mal stapelbar. Der Mutant wird durch den Panzer geheilt und kann sich alle <c val=\"#TooltipNumbers\">80</c> Sek. zu einem sichtbaren Ort auf dem Schlachtfeld durchgraben.<n/><n/>Wenn der Mutant einen Symbionten erhält, verfügt er über alle gewöhnlichen Symbiontenfähigkeiten und kann zusätzlich kontrolliert werden. Diese Fähigkeit kann erneut aktiviert werden, um Symbiont automatisch auf den Mutanten anzuwenden.",
+      "name": "Mutanten entwickeln",
+      "shortText": "Entwickelt einen Diener oder eine Schrecke zu einem mächtigen Mutanten weiter."
+    },
+    "AbathurMasterySpatialEfficiency|AbathurSymbioteSpatialEfficiencyTalent|Q|Level13": {
+      "fullText": "Verleiht den Stachelschüssen des Symbionten <c val=\"#TooltipNumbers\">1</c> zusätzliche Aufladung und verringert die Abklingzeit um <c val=\"#TooltipNumbers\">0,5</c> Sek.",
+      "name": "Stacheleffizienz",
+      "shortText": "Verleiht Stachelschüssen eine zusätzliche Aufladung."
+    },
+    "AbathurSymbioteSpikeBurstSomaTransference|AbathurSymbioteSpikeBurstSomaTransferenceTalent|W|Level13": {
+      "fullText": "Die Stachelexplosion heilt den Wirt des Symbionten um <c val=\"#TooltipNumbers\">64</c><c val=\"#ColorGray\">~~0.04~~</c> Lebenspunkte pro getroffenem gegnerischem Helden.",
+      "name": "Zytosoma-Übertragung",
+      "shortText": "Stachelexplosion heilt für jeden getroffenen Helden."
+    },
+    "AbathurCombatStyleBombardStrain|AbathurLocustStrainBombardStrainTalent|Trait|Level13": {
+      "fullText": "Automatische Angriffe von Schrecken werden zu Belagerungsangriffen mit großer Reichweite. Sie verlieren nun <c val=\"#TooltipNumbers\">40 %</c> langsamer Lebenspunkte.",
+      "name": "Bombardierschrecke",
+      "shortText": "Schrecken bleiben länger bestehen und erhalten einen Angriff mit großer Reichweite."
+    },
+    "AbathurMasteryEnvenomedSpikes|AbathurSymbioteEnvenomedSpikesTalent|W|Level16": {
+      "fullText": "Die Stachelexplosion des Symbionten verringert die Bewegungsgeschwindigkeit von Gegnern außerdem <c val=\"#TooltipNumbers\">2</c> Sek. lang um <c val=\"#TooltipNumbers\">40%</c>.",
+      "name": "Giftstachel",
+      "shortText": "Die Stachelexplosion verringert die Bewegungsgeschwindigkeit von Gegnern."
+    },
+    "AbathurMasteryAdrenalineBoost|AbathurSymbioteAdrenalineBoostTalent|E|Level16": {
+      "fullText": "Der Panzer des Symbionten erhöht die Bewegungsgeschwindigkeit des Ziels <c val=\"#TooltipNumbers\">3.5</c> Sek. lang um <c val=\"#TooltipNumbers\">40%</c>.",
+      "name": "Adrenalinschub",
+      "shortText": "Der Panzer erhöht die Bewegungsgeschwindigkeit."
+    },
+    "AbathurVolatileMutation|AbathurVolatileMutationTalent|Heroic|Level16": {
+      "fullText": "Mutanten und durch Ultimative Evolution entstandene Klone fügen Gegnern in ihrer Nähe alle <c val=\"#TooltipNumbers\">3</c> Sek. <c val=\"#TooltipNumbers\">137</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zu. Außerdem verursachen sie Schaden, wenn sie sterben. Heldentreffer heilen den Klon oder Mutanten um <c val=\"#TooltipNumbers\">100%</c> des verursachten Schadens.",
+      "name": "Unberechenbare Mutation",
+      "shortText": "Mutanten und Klone verursachen regelmäßig Schaden."
+    },
+    "AbathurCombatStyleSurvivalInstincts|AbathurLocustStrainSurvivalInstinctsTalent|Trait|Level16": {
+      "fullText": "Der durch Schrecken von Gegnern, die keine Helden sind, erlittene Schaden wird um <c val=\"#TooltipNumbers\">50 %</c> verringert und sie selbst erleiden um <c val=\"#TooltipNumbers\">60 %</c> erhöhten Schaden.",
+      "name": "Überlebensinstinkte",
+      "shortText": "Erhöht die Lebenspunkte und den Schaden von Schrecken."
+    },
+    "AbathurUltimateEvolutionEvolutionaryLink|AbathurUltimateEvolutionEvolutionaryLinkTalent|Heroic|Level20": {
+      "fullText": "Erhöht die Dauer der Ultimativen Evolution um <c val=\"#TooltipNumbers\">50%</c>. Verleiht dem Ziel der Ultimativen Evolution einen Schild in Höhe von <c val=\"#TooltipNumbers\">35%</c> seiner maximalen Lebenspunkte, solange der Klon am Leben ist. Der Schild wird alle <c val=\"#TooltipNumbers\">5</c> Sek. erneuert.",
+      "name": "Evolutionsbrücke",
+      "shortText": "Verleiht dem Ziel der Ultimativen Evolution einen Schild, solange der Klon am Leben ist."
+    },
+    "AbathurMasteryEvolutionComplete|AbathurMonstrosityEvolutionCompleteTalent|Heroic|Level20": {
+      "fullText": "Erhöht den Schaden automatischer Angriffe des Mutanten um <c val=\"#TooltipNumbers\">100%</c>.",
+      "name": "Evolution abgeschlossen",
+      "shortText": "Erhöht den Schaden des Mutanten."
+    },
+    "AbathurSymbioteHivemind|AbathurSymbioteHivemindTalent|Q|Level20": {
+      "fullText": "Symbiont erschafft bei einem verbündeten Helden in der Nähe einen zweiten Symbionten. Dieser imitiert die Handlungen des ersten, doch sein verursachter Schaden und seine erzeugten Schilde sind halbiert.",
+      "name": "Schwarmgedanken",
+      "shortText": "Erschafft zwei Symbionten."
+    },
+    "AbathurMasteryLocustMaster|AbathurLocustMasterHotbar|Active|Level20": {
+      "cooldownText": "Abklingzeit: 45 Sek.",
+      "fullText": "Aktivieren, um ein Nest zu erschaffen, das in regelmäßigen Abständen Schrecken erzeugt. Es kann immer nur ein Schreckennest gleichzeitig aktiv sein.",
+      "name": "Schreckennest",
+      "shortText": "Erschafft Schreckennester."
+    }
+  },
+  "units": {
+    "AbathurSymbiote": {
+      "description": "Erzeugt einen Symbionten, der sich mit einem anvisierten Verbündeten oder Gebäude verbindet. Abathur kontrolliert den Symbionten und kann so neue Symbiontenfähigkeiten einsetzen. Der Symbiont erhält EP, wenn Gegner in seiner Nähe sterben.",
+      "name": "Symbiont"
+    },
+    "AbathurEvolvedMonstrosity": {
+      "description": "<s val=\"StandardTooltipDetails\">Heroische Fähigkeit</s><n/><s val=\"StandardTooltipDetails\">Abklingzeit: 70 Sek.</s><n/><n/><s val=\"StandardTooltip\">Ruft einen Koloss herbei, der bei seiner Erschaffung </s><s val=\"StandardTooltipDetails\">100</s><c val=\"#ColorGray\">~~0.04~~</c><s val=\"StandardTooltip\"> Schaden verursacht. Der Koloss kann gegnerische Diener ergreifen und schlägt heftig auf den Boden, wodurch er Gegnern im Wirkungsbereich Schaden zufügt und ihre Bewegungsgeschwindigkeit um </s><s val=\"StandardTooltipDetails\">-0%</s><s val=\"StandardTooltip\"> verringert. Bleibt </s><s val=\"StandardTooltipDetails\">20</s><s val=\"StandardTooltip\"> Sek. lang bestehen.</s>",
+      "lifeType": "Lebenspunkte",
+      "name": "Mutant"
+    },
+    "AbathurLocustAssaultStrain": {
+      "name": "Schrecke"
+    },
+    "AbathurLocustBombardStrain": {
+      "name": "Schrecke"
+    },
+    "AbathurLocustNest": {
+      "description": "<s val=\"StandardTooltipDetails\">Ladungsabklingzeit: 10 Sek.</s><n/><n/><s val=\"StandardTooltip\">Erschafft eine Mine, die nach kurzer Zeit scharf wird. Verursacht </s><s val=\"StandardTooltipDetails\">153</s><c val=\"#ColorGray\">~~0.04~~</c><s val=\"StandardTooltip\"> Schaden und deckt getroffene Gegner </s><s val=\"StandardTooltipDetails\">4</s><s val=\"StandardTooltip\"> Sek. lang auf. Bleibt </s><s val=\"StandardTooltipDetails\">90</s><s val=\"StandardTooltip\"> Sek. lang bestehen.</s>",
+      "name": "Schreckennest"
+    },
+    "AbathurLocustNormal": {
+      "name": "Schrecke"
+    },
+    "AbathurToxicNest": {
+      "description": "Erschafft eine Mine, die nach kurzer Zeit scharf wird. Verursacht <c val=\"#TooltipNumbers\">153</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden und deckt getroffene Gegner <c val=\"#TooltipNumbers\">4</c> Sek. lang auf. Bleibt <c val=\"#TooltipNumbers\">90</c> Sek. lang bestehen.<n/><n/>Maximal <c val=\"#TooltipNumbers\">3</c> Aufladungen.",
+      "name": "Giftnest"
+    },
+    "ItemMULE": {
+      "name": "M.U.L.E."
+    }
+  }
+}

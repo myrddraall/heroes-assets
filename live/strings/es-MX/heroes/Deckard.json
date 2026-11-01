@@ -1,0 +1,205 @@
+{
+  "abilities": {
+    "DeckardHealingPotion|DeckardHealingPotion|Q": {
+      "cooldownText": "Tiempo de reutilización: 4 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 25</s>",
+      "fullText": "Lanza una Poción de vida al suelo que restituye <c val=\"#TooltipNumbers\">285</c><c val=\"#ColorGray\">~~0.04~~</c> de salud al primer héroe aliado que entra en contacto con ella.<n/><n/>Máximo de <c val=\"#TooltipNumbers\">5</c> pociones activas a la vez.",
+      "name": "Poción de vida",
+      "shortText": "Lanza pociones que sanan a los aliados"
+    },
+    "DeckardHoradricCube|DeckardHoradricCubeCharging|W": {
+      "cooldownText": "Tiempo de reutilización: 12 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 35</s>",
+      "fullText": "Lanza el Cubo horádrico, después de <c val=\"#TooltipNumbers\">0.5</c> segundos explota e inflige <c val=\"#TooltipNumbers\">80</c><c val=\"#ColorGray\">~~0.04~~</c> daño a todos los enemigos en el área y los ralentiza un <c val=\"#TooltipNumbers\">35%</c> durante <c val=\"#TooltipNumbers\">2</c> segundos.",
+      "name": "Cubo horádrico",
+      "shortText": "Daña y ralentiza a los enemigos en un área"
+    },
+    "DeckardScrollOfSealing|DeckardScrollOfSealing|E": {
+      "cooldownText": "Tiempo de reutilización: 16 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 40</s>",
+      "fullText": "Despliega un pergamino encantado durante <c val=\"#TooltipNumbers\">2.25</c> segundos, lo que forma un triángulo que inflige <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c> de daño a los enemigos que están dentro y los arraiga durante <c val=\"#TooltipNumbers\">1.5</c> segundos.",
+      "name": "Pergamino de sello",
+      "shortText": "Daña y arraiga a los enemigos en un área"
+    },
+    "DeckardStayAWhileAndListen|DeckardStayAWhileAndListen|Heroic": {
+      "cooldownText": "Tiempo de reutilización: 70 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 60</s>",
+      "fullText": "Después de <c val=\"#TooltipNumbers\">1</c> segundo, canaliza la habilidad durante <c val=\"#TooltipNumbers\">3</c> segundos, lo que adormece a los enemigos frente a Deckard durante la canalización y los <c val=\"#TooltipNumbers\">2</c> segundos posteriores.<n/><n/>Los enemigos solo se duermen una vez por lanzamiento y los efectos tranquilizantes finalizan instantáneamente si reciben daño.",
+      "name": "Quédate aquí y escucha",
+      "shortText": "Adormece a los enemigos con una historia fascinante"
+    },
+    "DeckardLorenado|DeckardLorenado|Heroic": {
+      "cooldownText": "Tiempo de reutilización: <c val=\"#TooltipNumbers\">30 segundos</c>",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 35</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">Selección de objetivos con vector</c><n/>Después de <c val=\"#TooltipNumbers\">1</c> segundo, crea un Torbelibro que viaja hacia la dirección objetivo y repele constantemente a los enemigos que se cruzan en su camino. Inflige <c val=\"#TooltipNumbers\">20</c><c val=\"#ColorGray\">~~0.04~~</c> de daño a los héroes golpeados.",
+      "name": "Torbelibro",
+      "shortText": "Conjura un Torbelibro que repele a los enemigos"
+    },
+    ":PASSIVE:|DeckardFortitudeOfTheFaithful|Trait": {
+      "fullText": "Cuando hay al menos <c val=\"#TooltipNumbers\">1</c> héroe aliado cerca, Deckard obtiene <c val=\"#TooltipNumbers\">10</c> de Armadura y sus habilidades básicas se recargan un <c val=\"#TooltipNumbers\">50%</c> más rápido.",
+      "name": "Entereza de los fieles",
+      "shortText": "Los aliados cercanos otorgan Armadura y reducción del tiempo de reutilización"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Tiempo de reutilización: 4 segundos",
+      "fullText": "Tras una canalización de <c val=\"#TooltipNumbers\">1</c> segundo, obtienes un <s val=\"StandardTooltipDetails\">30%</s> de velocidad de movimiento.",
+      "name": "Invocar montura"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Tras una canalización de <c val=\"#TooltipNumbers\">6</c> segundos, te teletransportas de regreso a la Sala de las tormentas para recuperar <c val=\"#TooltipNumbers\">1125</c> de salud y <c val=\"#TooltipNumbers\">150</c> de maná de inmediato.",
+      "name": "Piedra de hogar"
+    },
+    "DeckardStayAWhileAndListenCancel|DeckardStayAWhileAndListenCancel|Heroic": {
+      "fullText": "Dejar de canalizar.",
+      "name": "Cancelar Quédate aquí y escucha"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Te desmontas.",
+      "name": "Desinvocar montura"
+    },
+    "DeckardGemSapphire|DeckardGemSapphire|Active": {
+      "cooldownText": "Tiempo de reutilización: 30 segundos",
+      "fullText": "Activar para aumentar el daño del siguiente Cubo horádrico un <c val=\"#TooltipNumbers\">100%</c> y su ralentización un <c val=\"#TooltipNumbers\">30%</c>.<n/><n/>Solo puede haber <c val=\"#TooltipNumbers\">1</c> gema activa a la vez.",
+      "name": "Zafiro",
+      "shortText": "Aumenta la ralentización del siguiente Cubo horádrico"
+    },
+    "DeckardGemRuby|DeckardGemRuby|Active": {
+      "cooldownText": "Tiempo de reutilización: 20 segundos",
+      "fullText": "Activar para aumentar el daño del siguiente Cubo horádrico un <c val=\"#TooltipNumbers\">100%</c> y que este engendre <c val=\"#TooltipNumbers\">3</c> Pociones de vida inferiores por cada héroe enemigo golpeado, lo que restituye <c val=\"#TooltipNumbers\">250</c><c val=\"#ColorGray\">~~0.04~~</c> de salud a los héroes aliados que las recogen. Las Pociones de vida inferiores duran <c val=\"#TooltipNumbers\">10</c> segundos.<n/><n/>Solo puede haber <c val=\"#TooltipNumbers\">1</c> gema activa a la vez.",
+      "name": "Rubí",
+      "shortText": "El siguiente Cubo horádrico crea Pociones de vida inferiores"
+    },
+    "DeckardGemEmerald|DeckardGemEmerald|Active": {
+      "cooldownText": "Tiempo de reutilización: 30 segundos",
+      "fullText": "Activar para aumentar el daño del siguiente Cubo horádrico un <c val=\"#TooltipNumbers\">100%</c> y que este reduzca un <c val=\"#TooltipNumbers\">75%</c> la sanación que reciben los héroes enemigos durante <c val=\"#TooltipNumbers\">4</c> segundos.<n/><n/>Solo puede haber <c val=\"#TooltipNumbers\">1</c> gema activa a la vez.",
+      "name": "Esmeralda",
+      "shortText": "El siguiente Cubo horádrico reduce la sanación que reciben los enemigos"
+    },
+    "DeckardAncientBlessings|DeckardFortitudeOfTheFaithfulAncientBlessings|Trait": {
+      "cooldownText": "Tiempo de reutilización: 45 segundos",
+      "fullText": "Cuando hay al menos <c val=\"#TooltipNumbers\">1</c> héroe aliado cerca, Deckard obtiene <c val=\"#TooltipNumbers\">10</c> de Armadura y sus habilidades básicas se recargan un <c val=\"#TooltipNumbers\">50%</c> más rápido.",
+      "name": "Entereza de los fieles",
+      "shortText": "Los aliados cercanos otorgan Armadura y reducción del tiempo de reutilización"
+    }
+  },
+  "talents": {
+    "DeckardScrollOfIdentify|DeckardScrollOfIdentify|E|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Misión:</c> Golpear a un héroe enemigo con Pergamino de sello aumenta su daño permanentemente en <c val=\"#TooltipNumbers\">2</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa:</c> Después de golpear a <c val=\"#TooltipNumbers\">15</c> héroes, Pergamino de sello revela a los héroes golpeados y les reduce su Armadura en <c val=\"#TooltipNumbers\">10</c> durante <c val=\"#TooltipNumbers\">4</c> segundos.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa:</c> Después de golpear a <c val=\"#TooltipNumbers\">30</c> héroes, el efecto de reducción de Armadura de este talento se incrementa a <c val=\"#TooltipNumbers\">15</c> y su duración a <c val=\"#TooltipNumbers\">6</c> segundos.",
+      "name": "Pergamino de identidad",
+      "shortText": "<c val=\"#TooltipQuest\">Misión:</c> Aumenta el daño de Pergamino de sello y reduce la Armadura"
+    },
+    "DeckardFieldStudy|DeckardFieldStudy|E|Level1": {
+      "fullText": "Cada héroe enemigo golpeado por Pergamino de sello otorga un <c val=\"#TooltipNumbers\">20%</c> de poder de habilidad especial durante <c val=\"#TooltipNumbers\">16</c> segundos, hasta un máximo del <c val=\"#TooltipNumbers\">40%</c>.",
+      "name": "Estudio de campo",
+      "shortText": "Pergamino de sello otorga poder de habilidad especial"
+    },
+    "DeckardGemSapphire|DeckardGemSapphire|Active|Level1": {
+      "cooldownText": "Tiempo de reutilización: 30 segundos",
+      "fullText": "Activar para aumentar el daño del siguiente Cubo horádrico un <c val=\"#TooltipNumbers\">100%</c> y su ralentización un <c val=\"#TooltipNumbers\">30%</c>.<n/><n/>Solo puede haber <c val=\"#TooltipNumbers\">1</c> gema activa a la vez.",
+      "name": "Zafiro",
+      "shortText": "Aumenta la ralentización del siguiente Cubo horádrico"
+    },
+    "DeckardPotionOfShielding|DeckardPotionOfShielding|Q|Level4": {
+      "fullText": "Cuando un aliado recupera salud a través de una Poción de vida, también obtiene un escudo de <c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c> durante <c val=\"#TooltipNumbers\">6</c> segundos.",
+      "name": "Poción de escudo",
+      "shortText": "Las Pociones de vida otorgan un escudo"
+    },
+    "DeckardRejuvenationPotion|DeckardRejuvenationPotion|Q|Level4": {
+      "fullText": "Las Pociones de vida restituyen <c val=\"#TooltipNumbers\">15</c> de maná y <c val=\"#TooltipNumbers\">114</c><c val=\"#ColorGray\">~~0.04~~</c> de salud adicional durante <c val=\"#TooltipNumbers\">3</c> segundos.",
+      "name": "Poción rejuvenecedora",
+      "shortText": "Las Pociones de vida restituyen maná y sanan más"
+    },
+    "DeckardGemRuby|DeckardGemRuby|Active|Level4": {
+      "cooldownText": "Tiempo de reutilización: 20 segundos",
+      "fullText": "Activar para aumentar el daño del siguiente Cubo horádrico un <c val=\"#TooltipNumbers\">100%</c> y que este engendre <c val=\"#TooltipNumbers\">3</c> Pociones de vida inferiores por cada héroe enemigo golpeado, lo que restituye <c val=\"#TooltipNumbers\">250</c><c val=\"#ColorGray\">~~0.04~~</c> de salud a los héroes aliados que las recogen. Las Pociones de vida inferiores duran <c val=\"#TooltipNumbers\">10</c> segundos.<n/><n/>Solo puede haber <c val=\"#TooltipNumbers\">1</c> gema activa a la vez.",
+      "name": "Rubí",
+      "shortText": "El siguiente Cubo horádrico crea Pociones de vida inferiores"
+    },
+    "DeckardCubeMastery|DeckardCubeMastery|W|Level7": {
+      "fullText": "Reduce el costo de maná de Pergamino de sello de <c val=\"#TooltipNumbers\">40</c> a <c val=\"#TooltipNumbers\">25</c>. Cada héroe enemigo golpeado por Cubo horádrico reduce el tiempo de reutilización de Pergamino de sello <c val=\"#TooltipNumbers\">4</c> segundos.",
+      "name": "Dominio del cubo",
+      "shortText": "El Cubo horádrico reduce el tiempo de reutilización de Pergamino de sello"
+    },
+    "DeckardKanaisCube|DeckardKanaisCube|W|Level7": {
+      "fullText": "El Cubo horádrico reduce un <c val=\"#TooltipNumbers\">30%</c> el daño infligido por héroes durante <c val=\"#TooltipNumbers\">4</c> segundos.",
+      "name": "Cubo de Kanai",
+      "shortText": "El Cubo horádrico reduce el daño infligido por héroes"
+    },
+    "DeckardGemEmerald|DeckardGemEmerald|Active|Level7": {
+      "cooldownText": "Tiempo de reutilización: 30 segundos",
+      "fullText": "Activar para aumentar el daño del siguiente Cubo horádrico un <c val=\"#TooltipNumbers\">100%</c> y que este reduzca un <c val=\"#TooltipNumbers\">75%</c> la sanación que reciben los héroes enemigos durante <c val=\"#TooltipNumbers\">4</c> segundos.<n/><n/>Solo puede haber <c val=\"#TooltipNumbers\">1</c> gema activa a la vez.",
+      "name": "Esmeralda",
+      "shortText": "El siguiente Cubo horádrico reduce la sanación que reciben los enemigos"
+    },
+    "DeckardStayAWhileAndListen|DeckardStayAWhileAndListen|Heroic|Level10": {
+      "cooldownText": "Tiempo de reutilización: 70 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 60</s>",
+      "fullText": "Después de <c val=\"#TooltipNumbers\">1</c> segundo, canaliza la habilidad durante <c val=\"#TooltipNumbers\">3</c> segundos, lo que adormece a los enemigos frente a Deckard durante la canalización y los <c val=\"#TooltipNumbers\">2</c> segundos posteriores.<n/><n/>Los enemigos solo se duermen una vez por lanzamiento y los efectos tranquilizantes finalizan instantáneamente si reciben daño.",
+      "name": "Quédate aquí y escucha",
+      "shortText": "Adormece a los enemigos con una historia fascinante"
+    },
+    "DeckardLorenado|DeckardLorenado|Heroic|Level10": {
+      "cooldownText": "Tiempo de reutilización: <c val=\"#TooltipNumbers\">30 segundos</c>",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 35</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">Selección de objetivos con vector</c><n/>Después de <c val=\"#TooltipNumbers\">1</c> segundo, crea un Torbelibro que viaja hacia la dirección objetivo y repele constantemente a los enemigos que se cruzan en su camino. Inflige <c val=\"#TooltipNumbers\">20</c><c val=\"#ColorGray\">~~0.04~~</c> de daño a los héroes golpeados.",
+      "name": "Torbelibro",
+      "shortText": "Conjura un Torbelibro que repele a los enemigos"
+    },
+    "DeckardSuperHealingPotion|DeckardSuperHealingPotion|Q|Level13": {
+      "fullText": "Si ningún aliado recoge una Poción de vida durante al menos <c val=\"#TooltipNumbers\">2</c> segundos, la poción sanará un <c val=\"#TooltipNumbers\">100%</c> más.<n/><n/><c val=\"#AbilityPassive\">Pasivo: </c>Poción de vida sana un <c val=\"#TooltipNumbers\">25%</c> más cuando el objetivo tiene menos del <c val=\"#TooltipNumbers\">50%</c> de salud.",
+      "name": "Súper poción de vida",
+      "shortText": "Después de un breve lapso, las Pociones de vida sanan más"
+    },
+    "DeckardPotionOfRevival|DeckardPotionOfRevival|Q|Level13": {
+      "fullText": "Al recoger una Poción de vida, los héroes aliados cercanos también reciben un <c val=\"#TooltipNumbers\">75%</c> de la sanación.",
+      "name": "Poción de reanimación",
+      "shortText": "Las Pociones de vida sanan en un área"
+    },
+    "DeckardAncientBlessings|DeckardAncientBlessings|Trait|Level13": {
+      "cooldownText": "Tiempo de reutilización: 45 segundos",
+      "fullText": "Activar Entereza de los fieles potencia los ataques básicos de los héroes aliados cercanos durante <c val=\"#TooltipNumbers\">8</c> segundos, lo que les permite infligir <c val=\"#TooltipNumbers\">62</c><c val=\"#ColorGray\">~~0.04~~</c> más de daño en un área y recuperar <c val=\"#TooltipNumbers\">90</c><c val=\"#ColorGray\">~~0.04~~</c> de salud por cada héroe golpeado. Este efecto solo se puede producir una vez por segundo.",
+      "name": "Bendiciones ancestrales",
+      "shortText": "Activar Entereza de los fieles para potenciar los ataques de los aliados"
+    },
+    "DeckardScrollOfStoneCurse|DeckardScrollOfStoneCurse|E|Level16": {
+      "fullText": "Pergamino de sello inflige un <c val=\"#TooltipNumbers\">200%</c> más de daño tras golpear al menos <c val=\"#TooltipNumbers\">2</c> héroes.",
+      "name": "Pergamino de maldición pétrea",
+      "shortText": "Pergamino de sello inflige más daño"
+    },
+    "DeckardSafetyInNumbers|DeckardSafetyInNumbers|Trait|Level16": {
+      "fullText": "Si al menos <c val=\"#TooltipNumbers\">2</c> héroes aliados están cerca, Entereza de los fieles otorga <c val=\"#TooltipNumbers\">10</c> más de Armadura, un <c val=\"#TooltipNumbers\">50%</c> de regeneración de maná por segundo y hace que las habilidades de Deckard se recargan un <c val=\"#TooltipNumbers\">50%</c> más rápido.",
+      "name": "Cuantos más, mejor",
+      "shortText": "Los aliados adicionales potencian Entereza de los fieles"
+    },
+    "DeckardHoradricStaff|DeckardHoradricStaff|Passive|Level16": {
+      "fullText": "Cada <c val=\"#TooltipNumbers\">5</c> segundos, el siguiente ataque básico de Deckard aturde a los héroes durante <c val=\"#TooltipNumbers\">0.75</c> segundos.",
+      "name": "Bastón horádrico",
+      "shortText": "Los ataques básicos aturden periódicamente a los héroes"
+    },
+    "DeckardRespectTheElderly|DeckardRespectTheElderly|Heroic|Level20": {
+      "fullText": "Quédate aquí y escucha silencia y ciega a los enemigos durante <c val=\"#TooltipNumbers\">3</c> segundos tras despertar del sueño.",
+      "name": "Respeto por los mayores",
+      "shortText": "Quédate aquí y escucha silencia y ciega"
+    },
+    "DeckardMorenados|DeckardMorenados|Heroic|Level20": {
+      "fullText": "Torbelibro obtiene una carga adicional y su tiempo de reutilización se reduce <c val=\"#TooltipNumbers\">10</c> segundos por cada héroe enemigo que repele. Este efecto solo se puede producir una vez cada <c val=\"#TooltipNumbers\">0.5</c> segundos.",
+      "name": "¡Más Torbelibros!",
+      "shortText": "Otorga una carga de Torbelibro; reduce la reutilización"
+    },
+    "DeckardBottomlessFlask|DeckardBottomlessFlask|Q|Level20": {
+      "fullText": "Tras ser utilizadas, las Pociones de vida se recargan después de <c val=\"#TooltipNumbers\">8</c> segundos.",
+      "name": "Poción sin fondo",
+      "shortText": "Las Pociones de vida se recargan tras haber sido usadas"
+    },
+    "DeckardPerfectGems|DeckardPerfectGems|W|Level20": {
+      "fullText": "Reduce el tiempo de reutilización de todas las gemas a <c val=\"#TooltipNumbers\">5</c> segundos y el de Cubo horádrico <c val=\"#TooltipNumbers\">6</c> segundos.",
+      "name": "Gemas perfectas",
+      "shortText": "Reduce el tiempo de reutilización de las gemas y el Cubo horádrico"
+    }
+  },
+  "units": {
+    "DeckardLorenado": {
+      "description": "<c val=\"#TooltipNumbers\">Selección de objetivos con vector</c><n/>Después de <c val=\"#TooltipNumbers\">1</c> segundo, crea un Torbelibro que viaja hacia la dirección objetivo y repele constantemente a los enemigos que se cruzan en su camino. Inflige <c val=\"#TooltipNumbers\">20</c><c val=\"#ColorGray\">~~0.04~~</c> de daño a los héroes golpeados."
+    }
+  }
+}

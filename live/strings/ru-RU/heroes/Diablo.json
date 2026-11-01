@@ -1,0 +1,194 @@
+{
+  "abilities": {
+    "DiabloShadowCharge|DiabloShadowCharge|Q": {
+      "cooldownText": "Время восстановления: 12 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 65</s>",
+      "fullText": "Диабло совершает рывок к противнику, отбрасывает его и наносит <c val=\"#TooltipNumbers\">45</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона, при этом получая бонус к скорости передвижения в <c val=\"#TooltipNumbers\">15%</c> на <c val=\"#TooltipNumbers\">2</c> сек. Если при отбрасывании противник ударяется о препятствие, «Натиск тени» оглушает его на <c val=\"#TooltipNumbers\">1</c> сек. и дополнительно наносит <c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона.",
+      "name": "Натиск Тени",
+      "shortText": "Устремляется к указанному противнику и отбрасывает его назад."
+    },
+    "DiabloFireStomp|DiabloFireStomp|W": {
+      "cooldownText": "Время восстановления: 8 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 35</s>",
+      "fullText": "Выпускает в указанном направлении огненные волны. Каждая волна наносит <c val=\"#TooltipNumbers\">11</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона. Пройдя максимальное расстояние, волны возвращаются к Диабло, нанося <c val=\"#TooltipNumbers\">34</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона. При этом Диабло восполняет здоровье в объеме <c val=\"#TooltipNumbers\">130%</c> нанесенного героям урона.",
+      "name": "Огненный топот",
+      "shortText": "Выпускает огненные волны в указанном направлении."
+    },
+    "DiabloOverpower|DiabloOverpower|E": {
+      "cooldownText": "Время восстановления: 12 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 35</s>",
+      "fullText": "Диабло хватает цель и швыряет ее оземь позади себя, нанося ей <c val=\"#TooltipNumbers\">80</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона и оглушая на <c val=\"#TooltipNumbers\">0.25</c> сек.",
+      "name": "Сверхсила",
+      "shortText": "Хватает цель и швыряет ее оземь позади себя, оглушая ее и нанося урон."
+    },
+    "DiabloApocalypse|DiabloApocalypse|Heroic": {
+      "cooldownText": "Время восстановления: 90 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 50</s>",
+      "fullText": "Создает демоническую руну под каждым героем противника. После паузы в <c val=\"#TooltipNumbers\">1.75</c> сек. руны взрываются, нанося <c val=\"#TooltipNumbers\">137</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона и оглушая цели на <c val=\"#TooltipNumbers\">1.75</c> сек.",
+      "name": "Апокалипсис",
+      "shortText": "Оглушает всех героев противника."
+    },
+    "DiabloLightningBreath|DiabloLightningBreath|Heroic": {
+      "cooldownText": "Время восстановления: 90 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 80</s>",
+      "fullText": "После паузы в <c val=\"#TooltipNumbers\">0,5</c> сек. Диабло становится неудержимым и начинает поддерживать способность в течение не более <c val=\"#TooltipNumbers\">4</c> сек., нанося противникам перед собой <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона раз в <c val=\"#TooltipNumbers\">0,25</c> сек. При каждом попадании скорость передвижения пораженных противников снижается на <c val=\"#TooltipNumbers\">4%</c> на <c val=\"#TooltipNumbers\">2</c> сек., вплоть до <c val=\"#TooltipNumbers\">40%</c>. <n/><n/>Направление меняется в зависимости от положения указателя мыши.",
+      "name": "Электрическое дыхание",
+      "shortText": "Замедляет противников перед Диабло и наносит им урон."
+    },
+    ":PASSIVE:|DiabloBlackSoulstone|Trait": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Постоянная задача:</c> накапливает <c val=\"#TooltipNumbers\">10</c> душ за каждого убитого героя и <c val=\"#TooltipNumbers\">1</c> – за каждого убитого воина, вплоть до <c val=\"#TooltipNumbers\">100</c>. Увеличивает максимальный запас здоровья Диабло на <c val=\"#TooltipNumbers\">0.3%</c> за каждую душу. Если Диабло погибает, накопив <c val=\"#TooltipNumbers\">100</c> душ, через <c val=\"#TooltipNumbers\">5</c> сек. он воскреснет, потеряв при этом <c val=\"#TooltipNumbers\">100</c> душ.<n/><n/>Когда Диабло достигает <c val=\"#TooltipNumbers\">10-го</c> уровня, при воскрешении он начинает терять только <c val=\"#TooltipNumbers\">75</c> душ.",
+      "name": "Черный камень души",
+      "shortText": "Собранные души погибших врагов дают здоровье и ускоряют возрождение."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Время восстановления: 4 сек.",
+      "fullText": "После подготовки длительностью <c val=\"#TooltipNumbers\">1</c> сек. повышает скорость передвижения на <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Вызов транспорта"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "После поддержания в течение <c val=\"#TooltipNumbers\">6</c> сек. телепортирует героя в Зал Штормов, моментально восполняя <c val=\"#TooltipNumbers\">1125</c> ед. здоровья и <c val=\"#TooltipNumbers\">150</c> ед. маны.",
+      "name": "Возвращение"
+    },
+    "LightningBreathCancel|DiabloLightningBreathCancel|Heroic": {
+      "fullText": "Прекращает действие «Электрического дыхания».",
+      "name": "Отмена «Электрического дыхания»"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Покинуть транспорт.",
+      "name": "Отмена транспорта"
+    },
+    "DiabloBlackSoulstoneSoulShield|DiabloSoulShield|Active": {
+      "cooldownText": "Время восстановления: 45 сек.",
+      "fullText": "При использовании дает <c val=\"#TooltipNumbers\">25</c> (+<c val=\"#TooltipNumbers\">50%</c> числа собранных душ) ед. энергетической брони на <c val=\"#TooltipNumbers\">4</c> сек. Каждый раз, когда Диабло наносит урон герою, время восстановления этой способности сокращается на <c val=\"#TooltipNumbers\">1</c> сек.",
+      "name": "Щит душ",
+      "shortText": "Дает энергетическую броню за каждую собранную душу."
+    },
+    "DiabloHellgate|DiabloHellgateTalent|Active": {
+      "cooldownText": "Время восстановления: 100 сек.",
+      "fullText": "Диабло телепортируется в указанную точку и создает в ней демоническую руну. Спустя <c val=\"#TooltipNumbers\">1.75</c> сек. руна взрывается, нанося <c val=\"#TooltipNumbers\">137</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона и оглушая противников на <c val=\"#TooltipNumbers\">1.75</c> сек.",
+      "name": "Врата Преисподней",
+      "shortText": "Диабло телепортируется и активирует «Апокалипсис»."
+    },
+    "DiabloTalentLordOfTerror|DiabloLordOfTerror|Active": {
+      "cooldownText": "Время восстановления: 60 сек.",
+      "fullText": "При использовании похищает <c val=\"#TooltipNumbers\">12%</c> максимального запаса здоровья находящихся рядом вражеских героев и дает Диабло <c val=\"#TooltipNumbers\">5</c> <lang rule=\"plural\" val=\"\">душу,души,душ</lang> за каждого пораженного героя.",
+      "name": "Владыка Ужаса",
+      "shortText": "Похищает здоровье и души у находящихся рядом вражеских героев."
+    }
+  },
+  "talents": {
+    "DiabloMasteryFeastOnFearBlackSoulstone|DiabloBlackSoulstoneFeastOnFearTalent|Passive|Level1": {
+      "fullText": "Когда Диабло оглушает героя «Натиском Тени» или «Сверхсилой», он восполняет <c val=\"#TooltipNumbers\">10%</c> максимального запаса здоровья за <c val=\"#TooltipNumbers\">3</c> сек.",
+      "name": "Пожирание страха",
+      "shortText": "«Натиск Тени» и «Сверхсила» восполняют здоровье."
+    },
+    "DiabloMasteryDevilsDueBlackSoulstone|DiabloBlackSoulstoneDevilsDueTalent|Trait|Level1": {
+      "fullText": "«Черный камень души» повышает эффективность сфер регенерации и исцеляющих фонтанов на <c val=\"#TooltipNumbers\">2,25%</c> за каждую собранную душу.",
+      "name": "Дань дьяволу",
+      "shortText": "Души повышают эффективность сфер регенерации и исцеляющих фонтанов."
+    },
+    "DiabloSoulShield|DiabloSoulShield|Active|Level1": {
+      "cooldownText": "Время восстановления: 45 сек.",
+      "fullText": "При использовании дает <c val=\"#TooltipNumbers\">25</c> (+<c val=\"#TooltipNumbers\">50%</c> числа собранных душ) ед. энергетической брони на <c val=\"#TooltipNumbers\">4</c> сек. Каждый раз, когда Диабло наносит урон герою, время восстановления этой способности сокращается на <c val=\"#TooltipNumbers\">1</c> сек.",
+      "name": "Щит душ",
+      "shortText": "Дает энергетическую броню за каждую собранную душу."
+    },
+    "DiabloShadowChargeSacrificialSoul|DiabloShadowChargeSacrificialSoul|Q|Level4": {
+      "fullText": "Когда «Натиск Тени» оглушает героя, Диабло получает <c val=\"#TooltipNumbers\">10</c> душ, а также <c val=\"#TooltipNumbers\">20</c> ед. брони на <c val=\"#TooltipNumbers\">3</c> сек. Когда Диабло накапливает <c val=\"#TooltipNumbers\">100</c> душ, бонус к броне увеличивается до <c val=\"#TooltipNumbers\">40</c> ед.",
+      "name": "Жертвенная душа",
+      "shortText": "«Натиск Тени» дает души и броню."
+    },
+    "DiabloFireStompSoulsToTheFlame|DiabloFireStompSoulsToTheFlame|W|Level4": {
+      "fullText": "Дает <c val=\"#TooltipNumbers\">1</c> душу за <c val=\"#TooltipNumbers\">3</c> <lang rule=\"plural\" val=\"\">попадание,попадания,попаданий</lang> «Огненным топотом» по героям. Усиливает исцеление от «Огненного топота» на <c val=\"#TooltipNumbers\">1.3%</c> нанесенного урона за каждую накопленную душу.",
+      "name": "Горящие души",
+      "shortText": "«Огненный топот» дает души и восполняет больше здоровья."
+    },
+    "DiabloLifeLeech|DiabloLifeLeechTalent|Passive|Level4": {
+      "fullText": "Каждая автоатака по герою дает <c val=\"#TooltipNumbers\">1</c> душу и восполняет <c val=\"#TooltipNumbers\">1.75%</c> максимального запаса здоровья. Когда Диабло накапливает <c val=\"#TooltipNumbers\">100</c> душ, объем исцеления увеличивается до <c val=\"#TooltipNumbers\">3.5%</c> максимального запаса здоровья.",
+      "name": "Вытягивание жизни",
+      "shortText": "Автоатаки дают души и восполняют здоровье."
+    },
+    "DiabloShadowChargeOverpowerEternalFlames|DiabloShadowChargeOverpowerEternalFlames|W|Level7": {
+      "fullText": "Уменьшает время восстановления «Огненного топота» на <c val=\"#TooltipNumbers\">1</c> сек. Когда Диабло оглушает героя «Натиском Тени» или «Сверхсилой», «Огненный топот» мгновенно восстанавливается, а Диабло восполняет <c val=\"#TooltipNumbers\">45</c> ед. маны.",
+      "name": "Вечное пламя",
+      "shortText": "«Натиск Тени» и «Сверхсила» восстанавливают «Огненный топот»."
+    },
+    "DiabloMalevolence|DiabloMalevolence|Passive|Level7": {
+      "fullText": "Когда Диабло использует базовую способность, его следующая автоатака в течение <c val=\"#TooltipNumbers\">6</c> сек. дополнительно наносит <c val=\"#TooltipNumbers\">100</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона от способностей. Максимум зарядов – <c val=\"#TooltipNumbers\">2</c>.",
+      "name": "Зловредность",
+      "shortText": "Способности увеличивают урон от автоатак."
+    },
+    "DiabloDiabolicalMomentum|DiabloDiabolicalMomentum|Passive|Level7": {
+      "fullText": "Каждый раз, когда автоатаки Диабло наносят урон, время восстановления «Натиска Тени» и «Сверхсилы» сокращается на <c val=\"#TooltipNumbers\">2</c> сек.",
+      "name": "Дьявольский азарт",
+      "shortText": "Автоатаки ускоряют восстановление способностей."
+    },
+    "DiabloHeroicAbilityApocalypse|DiabloApocalypse|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 90 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 50</s>",
+      "fullText": "Создает демоническую руну под каждым героем противника. После паузы в <c val=\"#TooltipNumbers\">1.75</c> сек. руны взрываются, нанося <c val=\"#TooltipNumbers\">137</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона и оглушая цели на <c val=\"#TooltipNumbers\">1.75</c> сек.",
+      "name": "Апокалипсис",
+      "shortText": "Оглушает всех героев противника."
+    },
+    "DiabloHeroicAbilityLightningBreath|DiabloLightningBreath|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 90 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 80</s>",
+      "fullText": "После паузы в <c val=\"#TooltipNumbers\">0,5</c> сек. Диабло становится неудержимым и начинает поддерживать способность в течение не более <c val=\"#TooltipNumbers\">4</c> сек., нанося противникам перед собой <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона раз в <c val=\"#TooltipNumbers\">0,25</c> сек. При каждом попадании скорость передвижения пораженных противников снижается на <c val=\"#TooltipNumbers\">4%</c> на <c val=\"#TooltipNumbers\">2</c> сек., вплоть до <c val=\"#TooltipNumbers\">40%</c>. <n/><n/>Направление меняется в зависимости от положения указателя мыши.",
+      "name": "Электрическое дыхание",
+      "shortText": "Замедляет противников перед Диабло и наносит им урон."
+    },
+    "DiabloDevastatingCharge|DiabloDevastatingCharge|Q|Level13": {
+      "fullText": "При столкновении с препятствием пораженные «Натиском Тени» цели получают на <c val=\"#TooltipNumbers\">50%</c> больше урона.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Задача:</c> столкните героев с препятствием <c val=\"#TooltipNumbers\">5</c> раз.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Награда:</c> столкновение с препятствием будет ослаблять броню героев на <c val=\"#TooltipNumbers\">20</c> ед. на <c val=\"#TooltipNumbers\">4</c> сек.",
+      "name": "Ужасающий натиск",
+      "shortText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Задача:</c> усильте «Натиск Тени», чтобы он ослаблял броню."
+    },
+    "DiabloHellfire|DiabloHellfire|W|Level13": {
+      "fullText": "За каждого героя, пораженного «Огненным топотом», сила способностей увеличивается на <c val=\"#TooltipNumbers\">3%</c> на <c val=\"#TooltipNumbers\">10</c> сек., вплоть до <c val=\"#TooltipNumbers\">30%</c>. При максимальном количестве эффектов Диабло наносит находящимся рядом противникам <c val=\"#TooltipNumbers\">33</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона в секунду.",
+      "name": "Адское пламя",
+      "shortText": "«Огненный топот» усиливает способности."
+    },
+    "DiabloShadowChargeOverpowerCruelty|DiabloShadowChargeOverpowerCruelty|Passive|Level13": {
+      "fullText": "Когда Диабло оглушает героя с помощью «Натиска Тени» или «Сверхсилы», его скорость атаки повышается на <c val=\"#TooltipNumbers\">50%</c> на <c val=\"#TooltipNumbers\">7</c> сек., вплоть до <c val=\"#TooltipNumbers\">100%</c>.",
+      "name": "Жестокость",
+      "shortText": "«Натиск Тени» и «Сверхсила» повышают скорость атаки."
+    },
+    "DiabloTalentDominationOverpower|DiabloOverpowerDominationTalent|Q|Level16": {
+      "fullText": "Использование «Сверхсилы» обнуляет время восстановления «Натиска Тени».",
+      "name": "Доминирование",
+      "shortText": "«Сверхсила» завершает время восстановления «Натиска Тени»."
+    },
+    "DiabloDebilitatingFlames|DiabloDebilitatingFlames|W|Level16": {
+      "fullText": "Замедляет пораженных «Огненным топотом» героев на <c val=\"#TooltipNumbers\">6%</c> на <c val=\"#TooltipNumbers\">4</c> сек. Суммируется до <c val=\"#TooltipNumbers\">60%</c>. Герои, замедленные «Подавляющим пламенем» на <c val=\"#TooltipNumbers\">24%</c> или более, наносят на <c val=\"#TooltipNumbers\">50%</c> меньше урона.",
+      "name": "Подавляющее пламя",
+      "shortText": "«Огненный топот» ослабляет героев."
+    },
+    "DiabloOverpowerOverpoweringNightmare|DiabloOverpowerOverpoweringNightmareTalent|E|Level16": {
+      "fullText": "«Сверхсила» получает еще <c val=\"#TooltipNumbers\">2</c> <lang rule=\"plural\">заряд,заряда,зарядов</lang>. Интервал между их применением – <c val=\"#TooltipNumbers\">2</c> сек.",
+      "name": "Сверхсильный кошмар",
+      "shortText": "«Сверхсила» получает дополнительные заряды."
+    },
+    "DiabloMasteryDyingBreathApocalypse|DiabloApocalypseDyingBreathTalent|Heroic|Level20": {
+      "fullText": "Сокращает время восстановления «Апокалипсиса» на <c val=\"#TooltipNumbers\">30</c> сек. за каждого пораженного героя, вплоть до минимума в <c val=\"#TooltipNumbers\">5</c> сек. Гибель Диабло приводит к срабатыванию «Апокалипсиса» без затрат маны.",
+      "name": "Последний вздох",
+      "shortText": "«Апокалипсис» срабатывает в случае смерти."
+    },
+    "DiabloMasteryHellstormLightningBreath|DiabloLightningBreathHellstormTalent|Heroic|Level20": {
+      "fullText": "Продлевает время действия «Электрического дыхания» на <c val=\"#TooltipNumbers\">200%</c>.",
+      "name": "Дыхание Преисподней",
+      "shortText": "Продлевает действие «Электрического дыхания»."
+    },
+    "DiabloTalentLordOfTerror|DiabloLordOfTerror|Active|Level20": {
+      "cooldownText": "Время восстановления: 60 сек.",
+      "fullText": "При использовании похищает <c val=\"#TooltipNumbers\">12%</c> максимального запаса здоровья находящихся рядом вражеских героев и дает Диабло <c val=\"#TooltipNumbers\">5</c> <lang rule=\"plural\" val=\"\">душу,души,душ</lang> за каждого пораженного героя.",
+      "name": "Владыка Ужаса",
+      "shortText": "Похищает здоровье и души у находящихся рядом вражеских героев."
+    },
+    "DiabloHellgate|DiabloHellgateTalent|Active|Level20": {
+      "cooldownText": "Время восстановления: 100 сек.",
+      "fullText": "Диабло телепортируется в указанную точку и создает в ней демоническую руну. Спустя <c val=\"#TooltipNumbers\">1.75</c> сек. руна взрывается, нанося <c val=\"#TooltipNumbers\">137</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона и оглушая противников на <c val=\"#TooltipNumbers\">1.75</c> сек.",
+      "name": "Врата Преисподней",
+      "shortText": "Диабло телепортируется и активирует «Апокалипсис»."
+    }
+  },
+  "units": {}
+}

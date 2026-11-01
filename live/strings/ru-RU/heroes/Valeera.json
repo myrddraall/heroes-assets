@@ -1,0 +1,224 @@
+{
+  "abilities": {
+    "ValeeraSinisterStrike|ValeeraSinisterStrike|Q": {
+      "cooldownText": "Время восстановления: 5 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Энергия: 25</s>",
+      "fullText": "Совершает рывок, нанося всем противникам на прямой линии <c val=\"#TooltipNumbers\">110</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона. Если «Коварный удар» поражает героя, Валира останавливается, а время восстановления способности сокращается до <c val=\"#TooltipNumbers\">1</c> сек.<n/><n/><c val=\"#GlowColorRed\">Длина серии приемов увеличивается на 1.</c><n/><n/><c val=\"#ColorViolet\">Маскировка: «Внезапный удар»</c><n/>Наносит противнику значительный урон и ослабляет броню.",
+      "name": "Коварный удар",
+      "shortText": "Устремляется вперед, нанося урон по прямой линии."
+    },
+    "ValeeraBladeFlurry|ValeeraBladeFlurry|W": {
+      "cooldownText": "Время восстановления: 4 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Энергия: 40</s>",
+      "fullText": "Наносит <c val=\"#TooltipNumbers\">130</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона в области вокруг Валиры. <n/><n/><c val=\"#GlowColorRed\">Длина серии приемов увеличивается на 1</c> за каждого пораженного героя.<n/><n/><c val=\"#ColorViolet\">Маскировка: «Подлый трюк»</c><n/>Оглушает и ослепляет противника, нанося ему урон.",
+      "name": "Шквал клинков",
+      "shortText": "Наносит урон противникам поблизости."
+    },
+    "ValeeraEviscerate|ValeeraEviscerate|E": {
+      "cooldownText": "Время восстановления: 1 сек.<n/>Расходует все приемы серии.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Энергия: 25</s>",
+      "fullText": "Потрошит противника, нанося урон за каждый <c val=\"#GlowColorRed\">прием серии</c>.<n/><n/><c val=\"#GlowColorRed\">1 прием:</c> <c val=\"#TooltipNumbers\">85</c><c val=\"#ColorGray\">~~0.04~~</c><c val=\"#TooltipNumbers\"> ед.</c><n/><c val=\"#GlowColorRed\">2 приема:</c> <c val=\"#TooltipNumbers\">170</c><c val=\"#ColorGray\">~~0.04~~</c><c val=\"#TooltipNumbers\"> ед.</c><n/><c val=\"#GlowColorRed\">3 приема:</c> <c val=\"#TooltipNumbers\">255</c><c val=\"#ColorGray\">~~0.04~~</c><c val=\"#TooltipNumbers\"> ед.</c><n/><n/><c val=\"#ColorViolet\">Маскировка: «Гаррота»</c><n/>Наносит периодический урон и применяет эффект немоты.",
+      "name": "Потрошение",
+      "shortText": "Завершающий прием, наносящий большой урон."
+    },
+    "ValeeraCloakOfShadows|ValeeraCloakOfShadows|Heroic": {
+      "cooldownText": "Время восстановления: 15 сек.",
+      "fullText": "Валиру окутывают тени, мгновенно снимающие эффекты периодического урона. Кроме того, она становится неудержимой и получает <c val=\"#TooltipNumbers\">75</c> ед. энергетической брони на <c val=\"#TooltipNumbers\">1.5</c> сек. Эта броня уменьшает получаемый урон от способностей на <c val=\"#TooltipNumbers\">75%</c>.<n/><n/>Использование этой способности не выводит из маскировки.",
+      "name": "Плащ Теней",
+      "shortText": "Дает неудержимость и энергетическую броню."
+    },
+    "ValeeraSmokeBomb|ValeeraSmokeBomb|Heroic": {
+      "cooldownText": "Время восстановления: 60 сек.",
+      "fullText": "Валира создает облако дыма. Находясь в нем, она не может быть обнаружена, проходит сквозь других персонажей и получает <c val=\"#TooltipNumbers\">60</c> ед. брони, которая уменьшает получаемый урон на <c val=\"#TooltipNumbers\">60%</c>. При этом Валира может атаковать и использовать способности, не обнаруживая себя. Время действия – <c val=\"#TooltipNumbers\">5</c> сек.<n/><n/>Использование этой способности не выводит из маскировки.",
+      "name": "Дымовая шашка",
+      "shortText": "Создает облако дыма, затрудняющее обзор."
+    },
+    "ValeeraStealth|ValeeraStealth|Trait": {
+      "cooldownText": "Время восстановления: 8 сек.",
+      "fullText": "Валира получает маскировку. При этом ее скорость передвижения повышается на <c val=\"#TooltipNumbers\">20%</c>, а сама она получает новые способности. В течение первой секунды ее невозможно обнаружить и она может проходить сквозь других персонажей. Если Валира остается неподвижной под маскировкой в течение <c val=\"#TooltipNumbers\">1.5</c> сек., она становится невидимой.<n/><n/>Когда Валира проводит под маскировкой <c val=\"#TooltipNumbers\">3</c> сек., дальность действия «Внезапного удара», «Подлого трюка» и «Гарроты» увеличивается c <c val=\"#TooltipNumbers\">2.5</c> до <c val=\"#TooltipNumbers\">5</c> м., а при их использовании Валира переносится к цели.",
+      "name": "Исчезновение",
+      "shortText": "Получает маскировку и новые способности."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Время восстановления: 4 сек.",
+      "fullText": "После подготовки длительностью <c val=\"#TooltipNumbers\">1</c> сек. повышает скорость передвижения на <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Вызов транспорта"
+    },
+    "Hearthstone|HearthstoneNoMana|B": {
+      "fullText": "После поддержания в течение <c val=\"#TooltipNumbers\">6</c> сек. телепортирует героя в Зал Штормов, моментально восполняя <c val=\"#TooltipNumbers\">1125</c> ед. здоровья.",
+      "name": "Возвращение"
+    },
+    "ValeeraAmbush|ValeeraAmbush|Q": {
+      "cooldownText": "Время восстановления: 1 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Энергия: 10</s>",
+      "fullText": "Внезапно атакует цель, нанося ей <c val=\"#TooltipNumbers\">130</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона и снижая показатель ее брони на <c val=\"#TooltipNumbers\">10</c> ед. на <c val=\"#TooltipNumbers\">5</c> сек.<n/><n/><c val=\"#GlowColorRed\">Длина серии приемов увеличивается на 1.</c><n/><n/><c val=\"#ColorViolet\">Без маскировки: «Коварный удар»</c><n/>Совершает рывок, нанося урон противникам.",
+      "name": "Внезапный удар",
+      "shortText": "Наносит цели урон и ослабляет ее броню."
+    },
+    "ValeeraCheapShot|ValeeraCheapShot|W": {
+      "cooldownText": "Время восстановления: 1 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Энергия: 30</s>",
+      "fullText": "Наносит противнику <c val=\"#TooltipNumbers\">30</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона и оглушает его на <c val=\"#TooltipNumbers\">0.75</c> сек., а по окончании оглушения ослепляет цель на <c val=\"#TooltipNumbers\">2</c> сек.<n/><n/><c val=\"#GlowColorRed\">Длина серии приемов увеличивается на 1.</c><n/><n/><c val=\"#ColorViolet\">Без маскировки: «Шквал клинков»</c><n/>Наносит урон в области вокруг Валиры.",
+      "name": "Подлый трюк",
+      "shortText": "Оглушает цель, ослепляет ее и наносит урон."
+    },
+    "ValeeraGarrote|ValeeraGarrote|E": {
+      "cooldownText": "Время восстановления: 1 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Энергия: 30</s>",
+      "fullText": "Душит противника, мгновенно нанося ему <c val=\"#TooltipNumbers\">20</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона и дополнительно <c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона в течение <c val=\"#TooltipNumbers\">7</c> сек. Также применяет к противнику эффект немоты на <c val=\"#TooltipNumbers\">2.5</c> сек.<n/><n/><c val=\"#GlowColorRed\">Длина серии приемов увеличивается на 1</c>.<n/><n/><c val=\"#ColorViolet\">Без маскировки: «Потрошение»</c><n/>Завершающий прием, наносящий большой урон.",
+      "name": "Гаррота",
+      "shortText": "Наносит цели значительный периодический урон."
+    },
+    "ValeeraCancelStealth|ValeeraCancelStealth|Trait": {
+      "cooldownText": "Время восстановления: 1 сек.",
+      "fullText": "Прерывает действие маскировки.",
+      "name": "Отмена маскировки",
+      "shortText": "Прерывает действие маскировки."
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Покинуть транспорт.",
+      "name": "Отмена транспорта"
+    },
+    "ValeeraCripplingPoison|ValeeraCripplingPoison|Active": {
+      "cooldownText": "Время восстановления: 15 сек.",
+      "fullText": "Следующая наносящая урон способность Валиры и все последующие способности в течение <c val=\"#TooltipNumbers\">4</c> сек. замедляют цели на <c val=\"#TooltipNumbers\">20%</c> на <c val=\"#TooltipNumbers\">4</c> сек.<n/><n/>Активация «Калечащего яда» не нарушает маскировку.",
+      "name": "Калечащий яд",
+      "shortText": "Способности замедляют противников."
+    },
+    "ValeeraWoundPoison|ValeeraWoundPoison|Active": {
+      "cooldownText": "Время восстановления: 15 сек.",
+      "fullText": "Следующая наносящая урон способность Валиры и все последующие способности в течение <c val=\"#TooltipNumbers\">4</c> сек. снижают эффективность исцеления, получаемого целями, на <c val=\"#TooltipNumbers\">50%</c> на <c val=\"#TooltipNumbers\">4</c> сек.<n/><n/>Активация «Нейтрализующего яда» не нарушает маскировку.",
+      "name": "Нейтрализующий яд",
+      "shortText": "Способности снижают эффективность исцеления врагов."
+    },
+    "ValeeraThistleTea|ValeeraThistleTea|Active": {
+      "cooldownText": "Время восстановления: 20 сек.",
+      "fullText": "При использовании мгновенно восстанавливает <c val=\"#TooltipNumbers\">100</c> ед. энергии.<n/><n/>Активация «Скорополохового чая» не выводит из маскировки.",
+      "name": "Скорополоховый чай",
+      "shortText": "Мгновенно восстанавливает энергию."
+    }
+  },
+  "talents": {
+    "ValeeraVigor|ValeeraVigor|Passive|Level1": {
+      "fullText": "Валира дополнительно восстанавливает <c val=\"#TooltipNumbers\">3</c> ед. энергии в секунду.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Награда:</c> после подбора <c val=\"#TooltipNumbers\">20</c> сфер регенерации максимальный запас энергии увеличится до <c val=\"#TooltipNumbers\">120</c> ед.",
+      "name": "Неутомимость",
+      "shortText": "<c val=\"#TooltipQuest\">Задача:</c> сферы регенерации увеличивают максимальный запас энергии."
+    },
+    "ValeeraVanishSubtlety|ValeeraSubtlety|Trait|Level1": {
+      "fullText": "Когда Валира переносится к цели с помощью «Внезапного удара», «Подлого трюка» или «Гарроты», она дополнительно восстанавливает <c val=\"#TooltipNumbers\">10</c> ед. энергии в секунду в течение <c val=\"#TooltipNumbers\">5</c> сек.",
+      "name": "Скрытность",
+      "shortText": "Способности, применяемые в состоянии маскировки, ускоряют восстановление энергии."
+    },
+    "ValeeraCombatReadiness|ValeeraCombatReadiness|Passive|Level1": {
+      "fullText": "За каждый израсходованный прием серии Валира получает <c val=\"#TooltipNumbers\">75</c> ед. кинетической брони. Эта броня уменьшает урон от следующей автоатаки вражеского героя на <c val=\"#TooltipNumbers\">75%</c>. Максимум зарядов – <c val=\"#TooltipNumbers\">3</c>.",
+      "name": "Боевая готовность",
+      "shortText": "Расходуя приемы серии, Валира получает эффект «Блок»."
+    },
+    "ValeeraCripplingPoison|ValeeraCripplingPoison|Active|Level1": {
+      "cooldownText": "Время восстановления: 15 сек.",
+      "fullText": "Следующая наносящая урон способность Валиры и все последующие способности в течение <c val=\"#TooltipNumbers\">4</c> сек. замедляют цели на <c val=\"#TooltipNumbers\">20%</c> на <c val=\"#TooltipNumbers\">4</c> сек.<n/><n/>Активация «Калечащего яда» не нарушает маскировку.",
+      "name": "Калечащий яд",
+      "shortText": "Способности замедляют противников."
+    },
+    "ValeeraSinisterStrikeRelentlessStrikes|ValeeraRelentlessStrikes|Q|Level4": {
+      "fullText": "Снижает стоимость «Коварного удара» на <c val=\"#TooltipNumbers\">10</c> ед. энергии.",
+      "name": "Неослабевающие удары",
+      "shortText": "Снижает стоимость «Коварного удара»."
+    },
+    "ValeeraGarroteHemorrhage|ValeeraHemorrhage|E|Level4": {
+      "fullText": "Автоатаки Валиры наносят на <c val=\"#TooltipNumbers\">40%</c> больше урона противникам, находящимся под воздействием «Гарроты».",
+      "name": "Кровоизлияние",
+      "shortText": "«Гаррота» увеличивает урон от автоатак."
+    },
+    "ValeeraVanishInitiative|ValeeraInitiative|Trait|Level4": {
+      "fullText": "«Внезапный удар», «Подлый трюк» и «Гаррота» повышают скорость передвижения на <c val=\"#TooltipNumbers\">15%</c> на <c val=\"#TooltipNumbers\">3</c> сек. и увеличивают длину серии приемов на <c val=\"#TooltipNumbers\">2</c>.",
+      "name": "Инициатива",
+      "shortText": "Под маскировкой способности ускоряют передвижение и дают больше приемов."
+    },
+    "ValeeraWoundPoison|ValeeraWoundPoison|Active|Level4": {
+      "cooldownText": "Время восстановления: 15 сек.",
+      "fullText": "Следующая наносящая урон способность Валиры и все последующие способности в течение <c val=\"#TooltipNumbers\">4</c> сек. снижают эффективность исцеления, получаемого целями, на <c val=\"#TooltipNumbers\">50%</c> на <c val=\"#TooltipNumbers\">4</c> сек.<n/><n/>Активация «Нейтрализующего яда» не нарушает маскировку.",
+      "name": "Нейтрализующий яд",
+      "shortText": "Способности снижают эффективность исцеления врагов."
+    },
+    "ValeeraSinisterStrikeMutilate|ValeeraMutilate|Q|Level7": {
+      "fullText": "«Коварный удар» наносит на <c val=\"#TooltipNumbers\">125%</c> больше урона, но дальность его действия уменьшается на <c val=\"#TooltipNumbers\">1</c> м.",
+      "name": "Расправа",
+      "shortText": "Увеличивает урон от «Коварного удара», но уменьшает дальность его действия."
+    },
+    "ValeeraBladeFlurryFatalFinesse|ValeeraFatalFinesse|W|Level7": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Задача:</c> поражайте вражеских героев «Шквалом клинков», чтобы увеличить наносимый им урон на <c val=\"#TooltipNumbers\">6</c> ед., вплоть до <c val=\"#TooltipNumbers\">90</c> ед.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Награда:</c> после <c val=\"#TooltipNumbers\">15</c> попаданий по героям затраты энергии на применение «Шквала клинков» уменьшатся на <c val=\"#TooltipNumbers\">20</c> ед. до конца матча.",
+      "name": "Смертоносная искусность",
+      "shortText": "<c val=\"#TooltipQuest\">Задача:</c> поражайте героев «Шквалом клинков»."
+    },
+    "ValeeraEviscerateSliceAndDice|ValeeraSliceAndDice|E|Level7": {
+      "fullText": "Использование «Потрошения» с серией из <c val=\"#TooltipNumbers\">трех</c> приемов повышает скорость атаки на <c val=\"#TooltipNumbers\">400%</c>. Время действия — <c val=\"#TooltipNumbers\">3</c> сек. или <c val=\"#TooltipNumbers\">3</c> автоатаки.<n/><n/><c val=\"#AbilityPassive\">Пассивный эффект:</c> каждая автоатака восстанавливает <c val=\"#TooltipNumbers\">2</c> ед. энергии.",
+      "name": "Мясорубка",
+      "shortText": "«Потрошение» повышает скорость атаки."
+    },
+    "ValeeraSmokeBomb|ValeeraSmokeBomb|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 60 сек.",
+      "fullText": "Валира создает облако дыма. Находясь в нем, она не может быть обнаружена, проходит сквозь других персонажей и получает <c val=\"#TooltipNumbers\">60</c> ед. брони, которая уменьшает получаемый урон на <c val=\"#TooltipNumbers\">60%</c>. При этом Валира может атаковать и использовать способности, не обнаруживая себя. Время действия – <c val=\"#TooltipNumbers\">5</c> сек.<n/><n/>Использование этой способности не выводит из маскировки.",
+      "name": "Дымовая шашка",
+      "shortText": "Создает облако дыма, затрудняющее обзор."
+    },
+    "ValeeraCloakOfShadows|ValeeraCloakOfShadows|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 15 сек.",
+      "fullText": "Валиру окутывают тени, мгновенно снимающие эффекты периодического урона. Кроме того, она становится неудержимой и получает <c val=\"#TooltipNumbers\">75</c> ед. энергетической брони на <c val=\"#TooltipNumbers\">1.5</c> сек. Эта броня уменьшает получаемый урон от способностей на <c val=\"#TooltipNumbers\">75%</c>.<n/><n/>Использование этой способности не выводит из маскировки.",
+      "name": "Плащ Теней",
+      "shortText": "Дает неудержимость и энергетическую броню."
+    },
+    "ValeeraAmbushDeathFromAbove|ValeeraDeathFromAbove|Q|Level13": {
+      "fullText": "Перемещение к цели с помощью «Внезапного удара» сокращает время восстановления «Исчезновения» на <c val=\"#TooltipNumbers\">4</c> сек.",
+      "name": "Смерть с небес",
+      "shortText": "«Внезапный удар» может ускорить восстановление «Исчезновения»."
+    },
+    "ValeeraCheapShotBlind|ValeeraBlind|W|Level13": {
+      "fullText": "Увеличивает время действия ослепления от «Подлого трюка» на <c val=\"#TooltipNumbers\">2.5</c> сек.",
+      "name": "Ослепление",
+      "shortText": "Слепота от «Подлого трюка» длится дольше."
+    },
+    "ValeeraGarroteStrangle|ValeeraStrangle|E|Level13": {
+      "fullText": "«Гаррота» уменьшает силу способностей пораженных героев на <c val=\"#TooltipNumbers\">40%</c> на <c val=\"#TooltipNumbers\">6</c> сек.",
+      "name": "Удушение",
+      "shortText": "«Гаррота» ослабляет способности жертвы."
+    },
+    "ValeeraSinisterStrikeSealFate|ValeeraSealFate|Q|Level16": {
+      "fullText": "Когда «Коварный удар» поражает оглушенного, обездвиженного или пораженного эффектом немоты героя, он наносит на <c val=\"#TooltipNumbers\">50%</c> больше урона, а длина серии приемов дополнительно увеличивается на 1.",
+      "name": "Предрешенность",
+      "shortText": "Увеличивает урон и количество приемов серии от «Коварного удара»."
+    },
+    "ValeeraAmbushAssassinate|ValeeraAssassinate|Q|Level16": {
+      "fullText": "«Внезапный удар» наносит на <c val=\"#TooltipNumbers\">50%</c> больше урона и дополнительно снижает показатель брони цели на <c val=\"#TooltipNumbers\">10</c> ед., если в радиусе <c val=\"#TooltipNumbers\">4</c> м от нее нет других вражеских героев.",
+      "name": "Ликвидация",
+      "shortText": "«Внезапный удар» наносит больше урона находящимся отдельно героям."
+    },
+    "ValeeraThistleTea|ValeeraThistleTea|Active|Level16": {
+      "cooldownText": "Время восстановления: 20 сек.",
+      "fullText": "При использовании мгновенно восстанавливает <c val=\"#TooltipNumbers\">100</c> ед. энергии.<n/><n/>Активация «Скорополохового чая» не выводит из маскировки.",
+      "name": "Скорополоховый чай",
+      "shortText": "Мгновенно восстанавливает энергию."
+    },
+    "ValeeraSmokeBombAdrenalineRush|ValeeraAdrenalineRush|Heroic|Level20": {
+      "fullText": "Находясь в области действия «Дымовой шашки», Валира дополнительно восстанавливает <c val=\"#TooltipNumbers\">40</c> ед. энергии в секунду.",
+      "name": "Выброс адреналина",
+      "shortText": "«Дымовая шашка» ускоряет восстановление энергии."
+    },
+    "ValeeraCloakOfShadowsEnvelopingShadows|ValeeraEnvelopingShadows|Heroic|Level20": {
+      "fullText": "Используя «Исчезновение», Валира также получает эффект «Плаща Теней».",
+      "name": "Окутывающая тень",
+      "shortText": "«Исчезновение» дает эффект «Плаща Теней»."
+    },
+    "ValeeraGarroteRupture|ValeeraRupture|E|Level20": {
+      "fullText": "Увеличивает периодический урон от «Гарроты» на <c val=\"#TooltipNumbers\">100%</c>. Автоатаки Валиры обновляют время действия «Гарроты».",
+      "name": "Рваная рана",
+      "shortText": "Увеличивает периодический урон от «Гарроты»."
+    },
+    "ValeeraVanishElusiveness|ValeeraElusiveness|Trait|Level20": {
+      "fullText": "Дополнительно повышает скорость передвижения под действием «Исчезновения» на <c val=\"#TooltipNumbers\">20%</c>.",
+      "name": "Неуловимость",
+      "shortText": "Увеличивает бонус к скорости передвижения от «Исчезновения»."
+    }
+  },
+  "units": {}
+}

@@ -1,0 +1,172 @@
+{
+  "abilities": {
+    "DehakaDrag|DehakaDrag|Q": {
+      "cooldownText": "冷却时间：15秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：75</s>",
+      "fullText": "德哈卡甩出舌头，对第一个击中的敌人造成<c val=\"#TooltipNumbers\">160</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害，使其昏迷并拖拽，持续<c val=\"#TooltipNumbers\">1.75</c>秒。<n/><n/>如果德哈卡在使用拖拽时被击晕或沉默，效果就会结束。",
+      "name": "拖拽",
+      "shortText": "造成少量伤害并拖拽敌人"
+    },
+    "DehakaDarkSwarm|DehakaDarkSwarm|W": {
+      "cooldownText": "冷却时间：10秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：50</s>",
+      "fullText": "每<c val=\"#TooltipNumbers\">0.5</c>秒对附近的敌人造成<c val=\"#TooltipNumbers\">48</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害，持续<c val=\"#TooltipNumbers\">3.5</c>秒。激活时，你可以穿越单位。可以在拖拽和潜地时施放。",
+      "name": "黑暗虫群",
+      "shortText": "对附近敌人造成伤害"
+    },
+    "DehakaBurrow|DehakaBurrow|E": {
+      "cooldownText": "冷却时间：20秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：65</s>",
+      "fullText": "潜入地下，变为静止且获得无敌，持续<c val=\"#TooltipNumbers\">2</c>秒。潜地时，德哈卡能够以<c val=\"#TooltipNumbers\">50%</c>的移动速度移动。",
+      "name": "潜地",
+      "shortText": "潜入地下获得静止状态"
+    },
+    "DehakaIsolation|DehakaIsolation|Heroic": {
+      "cooldownText": "冷却时间：60秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：70</s>",
+      "fullText": "发射生物质对击中的第一个英雄造成<c val=\"#TooltipNumbers\">200</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害，并使其暴露、沉默和减速<c val=\"#TooltipNumbers\">30%</c>，持续<c val=\"#TooltipNumbers\">3</c>秒。目标的视野范围缩小，持续<c val=\"#TooltipNumbers\">6</c>秒。",
+      "name": "隔离",
+      "shortText": "沉默，减速并缩小一名敌人的视野"
+    },
+    "DehakaAdaptation|DehakaAdaptation|Heroic": {
+      "cooldownText": "冷却时间：60秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：70</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">4</c>秒后，这段时间受到伤害的<c val=\"#TooltipNumbers\">100%</c>转化为生命值。",
+      "name": "适者生存",
+      "shortText": "将受到的伤害转化为生命值"
+    },
+    "DehakaEssenceCollection|DehakaEssenceCollection|Trait": {
+      "cooldownText": "冷却时间：5秒",
+      "fullText": "储存的每个精华可以在<c val=\"#TooltipNumbers\">5</c>秒内为德哈卡恢复<c val=\"#TooltipNumbers\">29</c><c val=\"#ColorGray\">~~0.04~~</c>点生命值。可以在拖拽和潜地时使用。<n/><n/><c val=\"#AbilityPassive\">被动：</c>击杀英雄获得<c val=\"#TooltipNumbers\">10</c>个精华，附近有敌方小兵被消灭时获得<c val=\"#TooltipNumbers\">2</c>个精华。最多储存<c val=\"#TooltipNumbers\">50</c>个精华。",
+      "name": "采集精华",
+      "shortText": "收集并消耗敌人的精华用来治疗自己"
+    },
+    "DehakaBrushstalker|DehakaBrushstalker|Z": {
+      "cooldownText": "冷却时间：240秒",
+      "fullText": "激活后潜地前往战场上的一处草丛。<n/><n/><c val=\"#AbilityPassive\">被动：</c>在草丛内的移动速度提高<c val=\"#TooltipNumbers\">20%</c>，并且在离开草丛后保持<c val=\"#TooltipNumbers\">2</c>秒。<n/><n/><c val=\"#AbilityPassive\">被动：</c>收集恢复之球使隐蔽猎手的冷却时间缩短<c val=\"#TooltipNumbers\">40</c>秒。",
+      "name": "隐蔽猎手",
+      "shortText": "钻地前往战场上的一处草丛。"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "引导<c val=\"#TooltipNumbers\">6</c>秒后，传送回风暴大厅，立即恢复<c val=\"#TooltipNumbers\">1125</c>的生命值和<c val=\"#TooltipNumbers\">150</c>法力值。",
+      "name": "炉石"
+    },
+    "DehakaCancelBurrow|DehakaCancelBurrow|E": {
+      "fullText": "取消潜地",
+      "name": "取消潜地",
+      "shortText": "出地"
+    }
+  },
+  "talents": {
+    "DehakaDarkSwarmTalentEnduringSwarm|DehakaDarkSwarmTalentEnduringSwarm|W|Level1": {
+      "fullText": "激活时，黑暗虫群的持续时间延长<c val=\"#TooltipNumbers\">0.5</c>秒，并提供<c val=\"#TooltipNumbers\">50</c>点法术护甲。",
+      "name": "坚韧虫群",
+      "shortText": "提高黑暗虫群的持续时间，并提供法术护甲"
+    },
+    "DehakaEssenceCollectionTalentTissueRegeneration|DehakaEssenceCollectionTalentTissueRegeneration|Trait|Level1": {
+      "fullText": "恢复之球给予<c val=\"#TooltipNumbers\">10</c>点精华。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">可重复任务：</c>每收集<c val=\"#TooltipNumbers\">50</c>点精华，生命恢复速度永久提高<c val=\"#TooltipNumbers\">4</c>点，最高可达<c val=\"#TooltipNumbers\">40</c>点，最大精华值增加<c val=\"#TooltipNumbers\">1</c>点，最多可达<c val=\"#TooltipNumbers\">10</c>点。",
+      "name": "组织再生",
+      "shortText": "<c val=\"#TooltipQuest\">任务：</c>精华提高生命回复值和最大精华值"
+    },
+    "DehakaEssenceCollectionTalentEnhancedAgility|DehakaEssenceCollectionTalentEnhancedAgility|Z|Level1": {
+      "fullText": "离开草丛后，隐蔽猎手的移动速度加成现在持续<c val=\"#TooltipNumbers\">4</c>秒。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">可重复任务：</c>每收集<c val=\"#TooltipNumbers\">50</c>点精华，隐蔽猎手的移动速度加成永久提高<c val=\"#TooltipNumbers\">2%</c>，最高可达<c val=\"#TooltipNumbers\">20%</c>。",
+      "name": "增强敏捷",
+      "shortText": "<c val=\"#TooltipQuest\">任务：</c>精华提高隐蔽猎手移动速度"
+    },
+    "DehakaBurrowTalentLurkerStrain|DehakaBurrowTalentLurkerStrain|E|Level4": {
+      "fullText": "钻出地面后德哈卡获得潜行，持续<c val=\"#TooltipNumbers\">3</c>秒，击退附近敌人，造成<c val=\"#TooltipNumbers\">125</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害并使其减速<c val=\"#TooltipNumbers\">30%</c>，持续<c val=\"#TooltipNumbers\">3</c>秒。<n/><n/><c val=\"#AbilityPassive\">被动：</c>潜地的冷却时间缩短<c val=\"#TooltipNumbers\">2</c>秒。",
+      "name": "潜伏者变种",
+      "shortText": "潜地会潜行，并击退敌人"
+    },
+    "DehakaEssenceCollectionOneWhoCollectsTalent|DehakaEssenceCollectionOneWhoCollectsTalent|Trait|Level4": {
+      "fullText": "消灭小兵获得的精华提高<c val=\"#TooltipNumbers\">50%</c>。黑暗虫群对雇佣兵额外造成<c val=\"#TooltipNumbers\">40%</c>的伤害。",
+      "name": "我为精华而生",
+      "shortText": "提高消灭小兵获得的精华，提高黑暗虫群对雇佣兵造成的伤害"
+    },
+    "DehakaEssenceCollectionTalentHeroStalker|DehakaEssenceCollectionTalentHeroStalker|Trait|Level4": {
+      "fullText": "击杀英雄获得的精华提高<c val=\"#TooltipNumbers\">100%</c>，黑暗虫群每击中一个敌方英雄给予<c val=\"#TooltipNumbers\">1</c>点精华，每次最多<c val=\"#TooltipNumbers\">3</c>点。",
+      "name": "英雄猎手",
+      "shortText": "击杀英雄给予更多精华"
+    },
+    "DehakaDragTalentFeedingFrenzy|DehakaDragTalentFeedingFrenzy|Q|Level7": {
+      "fullText": "拖拽的持续时间延长<c val=\"#TooltipNumbers\">0.5</c>秒。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">孤注一掷：</c>普通攻击使拖拽的冷却时间缩短<c val=\"#TooltipNumbers\">1.5</c>秒。每次死亡使该冷却时间缩短效果降低<c val=\"#TooltipNumbers\">0.25</c>秒，最多<c val=\"#TooltipNumbers\">3</c>次。",
+      "name": "吞食狂热",
+      "shortText": "<c val=\"#TooltipQuest\">孤注一掷：</c>普通攻击缩短拖拽冷却时间"
+    },
+    "DehakaDragTalentParalyzingEnzymes|DehakaDragTalentParalyzingEnzymes|Q|Level7": {
+      "fullText": "拖拽激活时和结束后的<c val=\"#TooltipNumbers\">2</c>秒内，使目标减速<c val=\"#TooltipNumbers\">40%</c>，使其受到的治疗降低<c val=\"#TooltipNumbers\">50%</c>。德哈卡的普通攻击使减疗效果的持续时间延长至<c val=\"#TooltipNumbers\">2</c>秒。",
+      "name": "麻痹酵素",
+      "shortText": "拖拽减速，降低治疗"
+    },
+    "DehakaDarkSwarmTalentSymbiosis|DehakaDarkSwarmTalentSymbiosis|W|Level7": {
+      "fullText": "每当黑暗虫群击中敌方英雄时，冷却时间缩短<c val=\"#TooltipNumbers\">0.4</c>秒。",
+      "name": "共生虫群",
+      "shortText": "击中英雄缩短黑暗虫群的冷却时间"
+    },
+    "DehakaHeroicAbilityIsolation|DehakaIsolation|Heroic|Level10": {
+      "cooldownText": "冷却时间：60秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：70</s>",
+      "fullText": "发射生物质对击中的第一个英雄造成<c val=\"#TooltipNumbers\">200</c><c val=\"#ColorGray\">~~0.04~~</c>点伤害，并使其暴露、沉默和减速<c val=\"#TooltipNumbers\">30%</c>，持续<c val=\"#TooltipNumbers\">3</c>秒。目标的视野范围缩小，持续<c val=\"#TooltipNumbers\">6</c>秒。",
+      "name": "隔离",
+      "shortText": "沉默，减速并缩小一名敌人的视野"
+    },
+    "DehakaHeroicAbilityAdaptation|DehakaAdaptation|Heroic|Level10": {
+      "cooldownText": "冷却时间：60秒",
+      "energyText": "<s val=\"StandardTooltipDetails\">法力值：70</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">4</c>秒后，这段时间受到伤害的<c val=\"#TooltipNumbers\">100%</c>转化为生命值。",
+      "name": "适者生存",
+      "shortText": "将受到的伤害转化为生命值"
+    },
+    "DehakaBrushstalkerFerociousStalker|DehakaBrushstalkerFerociousStalkerTalent|W|Level13": {
+      "fullText": "在有隐蔽猎手移动速度加成时，黑暗虫群可以额外造成<c val=\"#TooltipNumbers\">50%</c>的伤害，并使敌方英雄减速<c val=\"#TooltipNumbers\">15%</c>，持续<c val=\"#TooltipNumbers\">0.75</c>秒。",
+      "name": "凶狠猎手",
+      "shortText": "隐蔽猎手可减速，并提高黑暗虫群的伤害"
+    },
+    "DehakaPrimalSwarm|DehakaPrimalSwarm|W|Level13": {
+      "fullText": "黑暗虫群使被击中的敌人的护甲降低<c val=\"#TooltipNumbers\">10</c>点，使其受到的伤害提高<c val=\"#TooltipNumbers\">10%</c>，持续<c val=\"#TooltipNumbers\">0.75</c>秒。",
+      "name": "原始虫群",
+      "shortText": "黑暗虫群降低敌人的护甲"
+    },
+    "DehakaPrimalRage|DehakaPrimalRage|Trait|Level13": {
+      "fullText": "每储存一点精华，攻击伤害额外提高<c val=\"#TooltipNumbers\">1.25%</c>。",
+      "name": "原始暴怒",
+      "shortText": "精华提高攻击伤害"
+    },
+    "DehakaDragTalentElongatedTongue|DehakaDragTalentElongatedTongue|Q|Level16": {
+      "fullText": "拖拽的射程提高<c val=\"#TooltipNumbers\">20%</c>。",
+      "name": "长舌",
+      "shortText": "提高拖拽射程"
+    },
+    "DehakaTunnelingClaws|DehakaTunnelingClaws|E|Level16": {
+      "fullText": "潜地时的移动速度提高至<c val=\"#TooltipNumbers\">120%</c>。",
+      "name": "掘地之爪",
+      "shortText": "提高潜地的移动速度"
+    },
+    "DehakaPackLeaderBrushstalkerTalent|DehakaPackLeaderBrushstalker|Z|Level16": {
+      "fullText": "德哈卡在草丛中时获得<c val=\"#TooltipNumbers\">40</c>点护甲和<c val=\"#TooltipNumbers\">15%</c>攻击速度加成，该效果在离开草丛后持续<c val=\"#TooltipNumbers\">4</c>秒。",
+      "name": "族群领袖",
+      "shortText": "在草丛附近时获得护甲与攻击速度加成"
+    },
+    "DehakaIsolationTalentContagion|DehakaIsolationTalentContagion|Heroic|Level20": {
+      "fullText": "隔离会使第一个目标附近的所有英雄受到影响，但对所有目标造成的伤害降低<c val=\"#TooltipNumbers\">60%</c>。",
+      "name": "传染",
+      "shortText": "隔离会传染到附近的英雄身上"
+    },
+    "DehakaAdaptationChangeIsSurvivalTalent|DehakaAdaptationChangeIsSurvivalTalent|Heroic|Level20": {
+      "fullText": "适者生存的治疗量提高至所受伤害的<c val=\"#TooltipNumbers\">200%</c>，并且冷却时间缩短<c val=\"#TooltipNumbers\">40</c>秒。",
+      "name": "改变才能生存",
+      "shortText": "提高适者生存的治疗量，并缩短冷却时间"
+    },
+    "DehakaEssenceClaws|DehakaEssenceClaws|Trait|Level20": {
+      "fullText": "德哈卡的普通攻击使目标减速<c val=\"#TooltipNumbers\">20%</c>，持续<c val=\"#TooltipNumbers\">1</c>秒。如果目标是英雄，德哈卡获得<c val=\"#TooltipNumbers\">5</c>个精华。",
+      "name": "精华之爪",
+      "shortText": "普通攻击造成减速，并提供精华"
+    },
+    "DehakaBrushstalkerApexPredator|DehakaBrushstalkerApexPredatorTalent|Z|Level20": {
+      "fullText": "隐蔽猎手的冷却时间缩短<c val=\"#TooltipNumbers\">120</c>秒，施法时间缩短<c val=\"#TooltipNumbers\">0.5</c>秒。",
+      "name": "顶级捕食者",
+      "shortText": "缩短隐蔽猎手的冷却时间和施法时间"
+    }
+  },
+  "units": {}
+}

@@ -1,0 +1,190 @@
+{
+  "abilities": {
+    "SamuroMirrorImageTargeted|SamuroMirrorImage|Q": {
+      "cooldownText": "冷卻時間：14秒",
+      "fullText": "朝滑鼠方向傳送一小段距離，並且在反方向產生<c val=\"#TooltipNumbers\">2</c>個生命值與薩姆羅相同的鏡像，每個鏡像會以基本攻擊造成<c val=\"#TooltipNumbers\">11</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害。鏡像受到傷害時，會對自己造成等量的傷害，所以實際上會受到雙倍傷害。<n/><n/>鏡像會持續存在<c val=\"#TooltipNumbers\">8</c>秒，且同時間最多只能存在<c val=\"#TooltipNumbers\">2</c>個鏡像。每當鏡像或薩姆羅以基本攻擊擊中敵方英雄時，其持續時間就會延長<c val=\"#TooltipNumbers\">1</c>秒。使用鏡像可移除薩姆羅身上大多數的負面效果。",
+      "name": "鏡像",
+      "shortText": "產生鏡像以混淆並且攻擊敵人"
+    },
+    "SamuroCriticalStrike|SamuroCriticalStrike|W": {
+      "cooldownText": "冷卻時間：<c val=\"#TooltipNumbers\">10秒</c>",
+      "fullText": "啟動後，使薩姆羅與其鏡像在<c val=\"#TooltipNumbers\">8</c>秒內的下一次基本攻擊觸發致命一擊，造成<c val=\"#TooltipNumbers\">50%</c>額外傷害。啟動時不會解除匿蹤。<n/><n/><c val=\"#AbilityPassive\">被動：</c>薩姆羅與其鏡像每<c val=\"#TooltipNumbers\">4次</c>基本攻擊也會造成一次致命一擊。",
+      "name": "致命一擊",
+      "shortText": "發動致命一擊造成額外傷害"
+    },
+    "SamuroWindwalk|SamuroWindwalk|E": {
+      "cooldownText": "冷卻時間：15秒",
+      "fullText": "薩姆羅進入匿蹤狀態，最多可持續<c val=\"#TooltipNumbers\">10</c>秒，若攻擊、使用技能或受到傷害則會提前解除狀態。<n/><n/>處於匿蹤狀態時，薩姆羅每秒恢復最大生命值的<c val=\"#TooltipNumbers\">2%</c>，移動速度提高<c val=\"#TooltipNumbers\">20%</c>，並且能穿越其他單位。在匿蹤狀態下靜止不動<c val=\"#TooltipNumbers\">1.5</c>秒後會進入隱形狀態。<n/><n/>風之步啟動後的<c val=\"#TooltipNumbers\">1</c>秒內，薩姆羅會獲得強制匿蹤。",
+      "name": "風之步",
+      "shortText": "匿蹤，並且提高移動速度"
+    },
+    "SamuroBladeStormDummy|SamuroBladestorm|Heroic": {
+      "cooldownText": "冷卻時間：30秒",
+      "fullText": "薩姆羅施展威力強大的劍刃風暴，使其獲得<c val=\"#TooltipNumbers\">25</c>點護甲，並且每秒對附近敵人造成<c val=\"#TooltipNumbers\">180</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，持續<c val=\"#TooltipNumbers\">3</c>秒。",
+      "name": "劍刃風暴",
+      "shortText": "施展威力強大的劍刃風暴"
+    },
+    "SamuroIllusionMaster|SamuroIllusionMaster|Heroic": {
+      "cooldownText": "冷卻時間：8秒",
+      "fullText": "鏡像可以集體行動，也能分別操控，並且傷害提高<c val=\"#TooltipNumbers\">100%</c>。<n/><n/><c val=\"#AbilityPassive\">被動：</c>鏡像傳送的冷卻時間降低至<c val=\"#TooltipNumbers\">8</c>秒。",
+      "name": "幻術宗師",
+      "shortText": "可操控鏡像"
+    },
+    "SamuroIllusionMaster|SamuroAdvancingStrikes|Trait": {
+      "cooldownText": "冷卻時間：14秒",
+      "fullText": "啟動後可與目標鏡像調換位置，並且移除薩姆羅與所有鏡像身上大部分的負面效果。<n/><n/><s val=\"StandardTooltipHeader\">步步進逼</s><n/><n/>對敵方英雄發動基本攻擊可使薩姆羅的移動速度提高<c val=\"#TooltipNumbers\">25%</c>，持續<c val=\"#TooltipNumbers\">2</c>秒。",
+      "name": "鏡像傳送",
+      "shortText": "攻擊英雄可提高移動速度"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "冷卻時間：4秒",
+      "fullText": "引導<c val=\"#TooltipNumbers\">1</c>秒後，提高<s val=\"StandardTooltipDetails\">30%</s>移動速度。",
+      "name": "召喚坐騎"
+    },
+    "Hearthstone|HearthstoneNoMana|B": {
+      "fullText": "引導<c val=\"#TooltipNumbers\">6</c>秒後會傳送回風暴祭壇，立刻恢復<c val=\"#TooltipNumbers\">1125</c>點生命值。",
+      "name": "爐石"
+    },
+    "SamuroBladestormCancel|SamuroCancelBladestorm|Heroic": {
+      "fullText": "<s val=\"StandardTooltip\">取消劍刃風暴。</s>",
+      "name": "取消劍刃風暴"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "離開坐騎。",
+      "name": "離開坐騎"
+    },
+    "SamuroIllusionMasterToggleAI|SamuroIllusionMasterToggleAIOn|Active": {
+      "fullText": "停用A.I.時，鏡像只會在你下達命令時才會移動或採取其他行動。<n/><n/>點擊此按鈕以啟用A.I.。",
+      "name": "A.I.已停用"
+    },
+    "SamuroIllusionMasterToggleAI|SamuroIllusionMasterToggleAIOff|Active": {
+      "fullText": "啟用A.I.時，鏡像會優先執行你下達的命令，然後才會自動尋找敵人進行攻擊。<n/><n/>點擊此按鈕以停用A.I.。",
+      "name": "A.I.已啟用"
+    },
+    ":PASSIVE:|SamuroSelectMirrorImages|Active": {
+      "fullText": "<s val=\"StandardTooltipHeader\">選取鏡像</s><n/><n/>操控一個鏡像。",
+      "name": "選取鏡像",
+      "shortText": "選取鏡像"
+    },
+    ":PASSIVE:|SamuroSelectSamuroPrime|Active": {
+      "fullText": "<s val=\"StandardTooltipHeader\">選取薩姆羅</s><n/><n/>操控薩姆羅。",
+      "name": "選取薩姆羅",
+      "shortText": "選取薩姆羅"
+    },
+    ":PASSIVE:|SamuroSelectAll|Active": {
+      "fullText": "<s val=\"StandardTooltipHeader\">選取全體</s><n/><n/>操控薩姆羅和所有鏡像。",
+      "name": "選取所有",
+      "shortText": "選取全體"
+    }
+  },
+  "talents": {
+    "SamuroWayOfIllusion|SamuroWayOfIllusion|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">任務：</c>每當薩姆羅的鏡像對敵方英雄造成致命一擊，可使薩姆羅的攻擊傷害提高<c val=\"#TooltipNumbers\">0.25</c>點，最多可提高<c val=\"#TooltipNumbers\">10</c>點。<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">獎勵：</c>命中<c val=\"#TooltipNumbers\">40</c>次英雄後，薩姆羅額外提高<c val=\"#TooltipNumbers\">30</c>點攻擊傷害。",
+      "name": "幻象之道",
+      "shortText": "<c val=\"#TooltipQuest\">任務：</c>鏡像的致命一擊可強化基本攻擊傷害"
+    },
+    "SamuroMirrorImageWayOfTheBlade|SamuroWayoftheBlade|W|Level1": {
+      "fullText": "現在薩姆羅與其鏡像每<c val=\"#TooltipNumbers\">3次</c>基本攻擊就會觸發致命一擊。<n/><n/>薩姆羅與其鏡像的致命一擊會使敵方英雄的物理護甲降低<c val=\"#TooltipNumbers\">5</c>點，持續<c val=\"#TooltipNumbers\">2.25</c>秒，最多可降低<c val=\"#TooltipNumbers\">15</c>點物理護甲。",
+      "name": "劍術之道",
+      "shortText": "提高致命一擊的觸發頻率"
+    },
+    "SamuroWayOfTheWind|SamuroWayOfTheWind|E|Level1": {
+      "fullText": "在啟動或解除風之步後，薩姆羅獲得<c val=\"#TooltipNumbers\">40%</c>移動速度，持續<c val=\"#TooltipNumbers\">3</c>秒。<n/><n/>啟動風之步時，會立即為薩姆羅恢復最大生命值的<c val=\"#TooltipNumbers\">3%</c>。",
+      "name": "風之道",
+      "shortText": "風之步可賦予移動速度，並且恢復生命值"
+    },
+    "SamuroMirage|SamuroMirage|Q|Level4": {
+      "fullText": "啟動鏡像會賦予薩姆羅與其鏡像<c val=\"#TooltipNumbers\">40</c>點法術護甲，使下<c val=\"#TooltipNumbers\">2</c>次受到的法術傷害降低<c val=\"#TooltipNumbers\">40%</c>。",
+      "name": "幻影殘像",
+      "shortText": "鏡像可賦予法術護甲"
+    },
+    "SamuroWindwalkOneWithTheWind|SamuroOneWithTheWindTalent|E|Level4": {
+      "fullText": "當薩姆羅處於風之步效果期間，以及脫離風之步效果後的<c val=\"#TooltipNumbers\">3</c>秒內，薩姆羅和鏡像可獲得<c val=\"#TooltipNumbers\">25</c>點護甲，使受到的所有傷害降低<c val=\"#TooltipNumbers\">25%</c>。",
+      "name": "御風神行",
+      "shortText": "風之步效果期間獲得護甲"
+    },
+    "SamuroAdvancingStrikesDeflection|SamuroDeflectionTalent|Passive|Level4": {
+      "fullText": "步步進逼可賦予薩姆羅與其鏡像<c val=\"#TooltipNumbers\">35</c>點物理護甲。",
+      "name": "卸劍式",
+      "shortText": "步步進逼可賦予物理護甲"
+    },
+    "SamuroBurningBlade|SamuroBurningBlade|W|Level7": {
+      "fullText": "薩姆羅或其鏡像的致命一擊會對目標及附近其他敵人造成相當於其基本攻擊傷害<c val=\"#TooltipNumbers\">50%</c>%的額外法術傷害。",
+      "name": "燃刃",
+      "shortText": "致命一擊會造成範圍傷害"
+    },
+    "SamuroPhantomPain|SamuroPhantomsStrikeTalent|W|Level7": {
+      "fullText": "薩姆羅對敵方英雄施展致命一擊可使鏡像傳送的冷卻時間降低<c val=\"#TooltipNumbers\">1</c>秒，且每個作用中的鏡像可使造成的傷害提高<c val=\"#TooltipNumbers\">35%</c>。",
+      "name": "苦痛幻象",
+      "shortText": "致命一擊可降低鏡像傳送的冷卻時間"
+    },
+    "SamuroCrushingBlow|SamuroOverpoweringBlow|W|Level7": {
+      "fullText": "薩姆羅對敵方英雄進行基本攻擊可使致命一擊的冷卻時間降低<c val=\"#TooltipNumbers\">2</c>秒。<n/><n/>對敵方英雄施展致命一擊可使薩姆羅的基本攻擊傷害提高<c val=\"#TooltipNumbers\">10%</c>，持續<c val=\"#TooltipNumbers\">4</c>秒，最多可提高<c val=\"#TooltipNumbers\">30%</c>。",
+      "name": "粉碎猛擊",
+      "shortText": "致命一擊可提高基本攻擊傷害"
+    },
+    "SamuroHeroicAbilityBladestorm|SamuroBladestorm|Heroic|Level10": {
+      "cooldownText": "冷卻時間：30秒",
+      "fullText": "薩姆羅施展威力強大的劍刃風暴，使其獲得<c val=\"#TooltipNumbers\">25</c>點護甲，並且每秒對附近敵人造成<c val=\"#TooltipNumbers\">180</c><c val=\"#ColorGray\">~~0.04~~</c>點傷害，持續<c val=\"#TooltipNumbers\">3</c>秒。",
+      "name": "劍刃風暴",
+      "shortText": "施展威力強大的劍刃風暴"
+    },
+    "SamuroHeroicAbilityIllusionMaster|SamuroIllusionMasterTalent|Heroic|Level10": {
+      "cooldownText": "冷卻時間：8秒",
+      "fullText": "鏡像可以集體行動，也能分別操控，並且傷害提高<c val=\"#TooltipNumbers\">100%</c>。<n/><n/><c val=\"#AbilityPassive\">被動：</c>鏡像傳送的冷卻時間降低至<c val=\"#TooltipNumbers\">8</c>秒。",
+      "name": "幻術宗師",
+      "shortText": "可操控鏡像"
+    },
+    "SamuroMirroredSteel|SamuroMirroredSteelTalent|Q|Level13": {
+      "fullText": "薩姆羅對敵方英雄的基本攻擊可使鏡像的冷卻時間縮短<c val=\"#TooltipNumbers\">0.75</c>秒。",
+      "name": "鋼鐵幻象",
+      "shortText": "基本攻擊可降低鏡像的冷卻時間"
+    },
+    "SamuroWindwalkKawarimi|WindwalkKawarimiTalent|E|Level13": {
+      "fullText": "風之步會在原地產生一個鏡像，延續薩姆羅原先的行動。",
+      "name": "替身",
+      "shortText": "風之步可產生鏡像"
+    },
+    "SamuroShukuchi|SamuroShukuchiTalent|E|Level13": {
+      "fullText": "啟動風之步可使薩姆羅朝前方傳送一小段距離。",
+      "name": "縮地術",
+      "shortText": "風之步可傳送一小段距離"
+    },
+    "SamuroMercilessStrikes|SamuroMercilessStrikes|W|Level16": {
+      "fullText": "薩姆羅對昏迷、定身或緩速的目標發動基本攻擊時，必定是致命一擊。",
+      "name": "無情斬擊",
+      "shortText": "對受到控場效果的目標必定造成致命一擊"
+    },
+    "SamuroHarshWinds|SamuroHarshWinds|E|Level16": {
+      "fullText": "若風之步因薩姆羅攻擊敵方英雄而解除，他會對該目標造成<c val=\"#TooltipNumbers\">30%</c>額外傷害，持續<c val=\"#TooltipNumbers\">3</c>秒。",
+      "name": "暴烈狂風",
+      "shortText": "提高風之步期間內的攻擊傷害"
+    },
+    "SamuroPressTheAttack|SamuroPressTheAttack|Passive|Level16": {
+      "fullText": "薩姆羅或其鏡像對敵方英雄施展基本攻擊時，或步步進逼持續時間內，攻擊速度提高<c val=\"#TooltipNumbers\">10%</c>，最多可提高<c val=\"#TooltipNumbers\">40%</c>。<n/><n/>這些加成效果會在失去步步進逼時消失。",
+      "name": "狂追猛打",
+      "shortText": "步步進逼可提高攻擊速度"
+    },
+    "SamuroDanceOfDeath|SamuroDanceOfDeathTalent|Heroic|Level20": {
+      "fullText": "薩姆羅的鏡像也能同步使用劍刃風暴，但是只會造成<c val=\"#TooltipNumbers\">45%</c>的傷害。若薩姆羅以劍刃風暴至少擊中<c val=\"#TooltipNumbers\">20</c>次敵方英雄可重置其冷卻時間。",
+      "name": "死亡劍舞",
+      "shortText": "鏡像也能使用劍刃風暴，並且可重置冷卻時間"
+    },
+    "SamuroThreeBladeStyle|SamuroThreeBladeStyleTalent|Heroic|Level20": {
+      "fullText": "薩姆羅的鏡像只會對自身造成一半的額外傷害，使其有效生命值提高<c val=\"#TooltipNumbers\">25%</c>，並且存在時間提高為<c val=\"#TooltipNumbers\">16</c>秒。",
+      "name": "三劍式",
+      "shortText": "提高鏡像的生命值與存在時間"
+    },
+    "SamuroWindStrider|SamuroWindStrider|E|Level20": {
+      "fullText": "風之步的冷卻時間降低<c val=\"#TooltipNumbers\">6</c>秒。",
+      "name": "逐風疾步",
+      "shortText": "大幅降低風之步的冷卻時間"
+    },
+    "SamuroBlademastersPursuit|SamuroBlademastersPursuitTalent|Passive|Level20": {
+      "fullText": "步步進逼可使薩姆羅與其鏡像的移動速度額外提高<c val=\"#TooltipNumbers\">15%</c>，並且持續時間提高<c val=\"#TooltipNumbers\">2</c>秒。",
+      "name": "大劍師追擊",
+      "shortText": "提高步步進逼的移動速度加成和持續時間"
+    }
+  },
+  "units": {}
+}

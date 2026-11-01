@@ -1,0 +1,208 @@
+{
+  "abilities": {
+    "ThrallChainLightning|ThrallChainLightning|Q": {
+      "cooldownText": "Tiempo de reutilización: 7 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 40</s>",
+      "fullText": "Electrocuta a un enemigo con relámpagos e inflige <c val=\"#TooltipNumbers\">170</c><c val=\"#ColorGray\">~~0.04~~</c> de daño. Los rayos luego rebotan <c val=\"#TooltipNumbers\">3</c> veces hacia los enemigos cercanos e infligen <c val=\"#TooltipNumbers\">85</c><c val=\"#ColorGray\">~~0.04~~</c> de daño a cada enemigo golpeado.",
+      "name": "Cadena de relámpagos",
+      "shortText": "Electrocuta a enemigos con relámpagos que rebotan"
+    },
+    "ThrallFeralSpirit|ThrallFeralSpirit|W": {
+      "cooldownText": "Tiempo de reutilización: 10 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 40</s>",
+      "fullText": "Lanza un Espíritu feral que inflige <c val=\"#TooltipNumbers\">153</c><c val=\"#ColorGray\">~~0.04~~</c> de daño a los enemigos que encuentra a su paso y arraiga a los héroes golpeados durante <c val=\"#TooltipNumbers\">1</c> segundo. Cada héroe golpeado aumenta la distancia recorrida un <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Espíritu feral",
+      "shortText": "Libera a un espíritu de lobo que hace arder a los enemigos y arraiga a los héroes"
+    },
+    "ThrallWindfury|Windfury|E": {
+      "cooldownText": "Tiempo de reutilización: 12 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 60</s>",
+      "fullText": "Aumenta la velocidad de movimiento de Thrall un <c val=\"#TooltipNumbers\">30%</c> durante <c val=\"#TooltipNumbers\">4</c> segundos. Sus siguientes <c val=\"#TooltipNumbers\">3 </c>ataques básicos son un <c val=\"#TooltipNumbers\">100%</c> más rápidos y generan acumulaciones de Resiliencia de Lobo gélido.",
+      "name": "Viento furioso",
+      "shortText": "Aumenta la velocidad de ataque y de movimiento"
+    },
+    "ThrallSundering|Sundering|Heroic": {
+      "cooldownText": "Tiempo de reutilización: 70 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 75</s>",
+      "fullText": "Después de <c val=\"#TooltipNumbers\">0.5</c> segundos, desgarra la tierra en línea recta. Esto inflige <c val=\"#TooltipNumbers\">290</c><c val=\"#ColorGray\">~~0.04~~</c> de daño y lanza a los enemigos a un costado, lo que los aturde durante <c val=\"#TooltipNumbers\">1</c> segundo.",
+      "name": "Hendidura",
+      "shortText": "Daña, expulsa y aturde a los enemigos que están en una línea"
+    },
+    "ThrallEarthquake|ThrallEarthquake|Heroic": {
+      "cooldownText": "Tiempo de reutilización: 100 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 90</s>",
+      "fullText": "Después de <c val=\"#TooltipNumbers\">0.5</c> segundos, desata un Terremoto gigante que hace temblar la tierra cada <c val=\"#TooltipNumbers\">4</c> segundos. Cada temblor dura <c val=\"#TooltipNumbers\">2</c> segundos, ralentiza a todos los enemigos en el área un <c val=\"#TooltipNumbers\">50%</c> e inflige <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> de daño a los héroes enemigos. Crea <c val=\"#TooltipNumbers\">3 </c>temblores.",
+      "name": "Terremoto",
+      "shortText": "Ralentiza a los enemigos de una gran área"
+    },
+    ":PASSIVE:|ThrallFrostwolfResilience|Trait": {
+      "fullText": "Cuando inflige daño con habilidades, obtiene <c val=\"#TooltipNumbers\">1</c> acumulación de Resiliencia de Lobo gélido. Cuando alcanza <c val=\"#TooltipNumbers\">5</c> acumulaciones, Thrall recupera instantáneamente <c val=\"#TooltipNumbers\">240</c><c val=\"#ColorGray\">~~0.04~~</c> de salud.",
+      "name": "Resiliencia de Lobo gélido",
+      "shortText": "Lanzar habilidades contra enemigos otorga cargas que sanan"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Tiempo de reutilización: 4 segundos",
+      "fullText": "Tras una canalización de <c val=\"#TooltipNumbers\">1</c> segundo, obtienes un <s val=\"StandardTooltipDetails\">30%</s> de velocidad de movimiento.",
+      "name": "Invocar montura"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Tras una canalización de <c val=\"#TooltipNumbers\">6</c> segundos, te teletransportas de regreso a la Sala de las tormentas para recuperar <c val=\"#TooltipNumbers\">1125</c> de salud y <c val=\"#TooltipNumbers\">150</c> de maná de inmediato.",
+      "name": "Piedra de hogar"
+    },
+    "ThrallCancelSundering|ThrallSunderingCancel|Heroic": {
+      "fullText": "Cancelar Hendidura",
+      "name": "Hendidura"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Te desmontas.",
+      "name": "Desinvocar montura"
+    },
+    "ThrallSpiritShield|ThrallSpiritShieldDisabled|Active": {
+      "fullText": "Escudo de espíritu está deshabilitado y no se activará.<n/><n/>Haz clic en este botón para habilitar Escudo de espíritu.",
+      "name": "Escudo de espíritu",
+      "shortText": "Actívalo para reducir el daño de habilidad recibido"
+    },
+    "ThrallAncestralWrath|ThrallAncestralWrath|Active": {
+      "fullText": "Actívalo para consumir <c val=\"#TooltipNumbers\">8</c> acumulaciones de Ira ancestral e infligirle a un héroe enemigo objetivo un <c val=\"#TooltipNumbers\">15%</c> de su salud máxima como daño durante <c val=\"#TooltipNumbers\">3</c> segundos y sanar a Thrall por un <c val=\"#TooltipNumbers\">150%</c> del daño infligido.<n/><n/>Obtienes <c val=\"#TooltipNumbers\">1</c> acumulación de Ira ancestral cada vez que Resiliencia de Lobo gélido se activa.",
+      "name": "Ira ancestral",
+      "shortText": "Actívalo para dañar a un héroe y robarle salud"
+    },
+    "ThrallFrostwolfsGrace|ThrallFrostwolfResilience|Trait": {
+      "cooldownText": "Tiempo de reutilización: 15 segundos",
+      "fullText": "Cuando inflige daño con habilidades, obtiene <c val=\"#TooltipNumbers\">1</c> acumulación de Resiliencia de Lobo gélido. Cuando alcanza <c val=\"#TooltipNumbers\">5</c> acumulaciones, Thrall recupera instantáneamente <c val=\"#TooltipNumbers\">240</c><c val=\"#ColorGray\">~~0.04~~</c> de salud.",
+      "name": "Resiliencia de Lobo gélido",
+      "shortText": "Lanzar habilidades contra enemigos otorga cargas que sanan"
+    },
+    "ThrallSpiritShield|ThrallSpiritShieldEnabled|Active": {
+      "cooldownText": "Tiempo de reutilización: 45 s",
+      "fullText": "Cada <c val=\"#TooltipNumbers\">45</c> segundos, obtienes <c val=\"#TooltipNumbers\">70</c> de Armadura especial para la próxima habilidad enemiga y las habilidades siguientes durante <c val=\"#TooltipNumbers\">4</c> segundos. Resiliencia de Lobo gélido reduce este tiempo de reutilización <c val=\"#TooltipNumbers\">10</c> segundos.<n/><n/>Puede seleccionarse para permitir o impedir que este talento se active automáticamente.",
+      "name": "Escudo de espíritu"
+    },
+    "ThrallWindRush|ThrallWindRush|Active": {
+      "cooldownText": "Tiempo de reutilización: 90 segundos",
+      "fullText": "Actívalo para teletransportarte inmediatamente a una ubicación objetivo y obtener Viento furioso.",
+      "name": "Ráfaga de viento",
+      "shortText": "Actívalo para teletransportarte y obtener Viento furioso"
+    }
+  },
+  "talents": {
+    "ThrallEchooftheElements|ThrallEchooftheElements|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Misión:</c> Mata esbirros o héroes dentro de los <c val=\"#TooltipNumbers\">2</c> segundos de haberlos golpeado con Cadena de relámpagos.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa:</c> Después de matar a <c val=\"#TooltipNumbers\">20</c> enemigos, el costo de maná de Cadena de relámpagos se reduce de <c val=\"#TooltipNumbers\">40</c> a <c val=\"#TooltipNumbers\">20</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa:</c> Después de matar a <c val=\"#TooltipNumbers\">50</c> enemigos, Cadena de relámpagos obtiene otra carga.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa mítica:</c> Después de matar a <c val=\"#TooltipNumbers\">125</c> enemigos, Cadena de relámpagos puede golpear al mismo objetivo varias veces y golpea a <c val=\"#TooltipNumbers\">1</c> objetivo adicional por rebote.",
+      "name": "Eco de los elementos",
+      "shortText": "<c val=\"#TooltipQuest\">Misión:</c> Matar enemigos otorga cargas y rebotes de Cadena de relámpagos"
+    },
+    "ThrallCrashLightning|ThrallCrashLightning|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Misión:</c> Golpea a al menos <c val=\"#TooltipNumbers\">2</c> héroes con un solo uso de Cadena de relámpagos. Al morir, pierdes <c val=\"#TooltipNumbers\">4</c> acumulaciones. Las recompensas obtenidas no se pierden.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa:</c> Después de golpear a varios héroes <c val=\"#TooltipNumbers\">15</c> veces, Cadena de relámpagos inflige <c val=\"#TooltipNumbers\">270</c> más de daño en sus rebotes luego del golpe inicial.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa mítica:</c> Después de golpear a varios héroes <c val=\"#TooltipNumbers\">30</c> veces, Cadena de relámpagos inflige <c val=\"#TooltipNumbers\">325</c> más de daño en sus rebotes y prioriza los rebotes hacia héroes enemigos.",
+      "name": "Relámpago estruendoso",
+      "shortText": "<c val=\"#TooltipQuest\">Misión:</c> Golpear a varios héroes potencia Cadena de relámpagos"
+    },
+    "ThrallMaelstromWeapon|ThrallMaelstromWeapon|E|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Misión:</c> Golpea a héroes con ataques básicos mientras la bonificación de velocidad de movimiento de Viento furioso está activa.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa:</c> Después de golpear a <c val=\"#TooltipNumbers\">25</c> héroes, la bonificación de velocidad de movimiento de Viento furioso aumenta al <c val=\"#TooltipNumbers\">40%</c> y los ataques básicos de Thrall infligen <c val=\"#TooltipNumbers\">40</c> más de daño.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa:</c> Después de golpear a <c val=\"#TooltipNumbers\">55</c> héroes, Thrall obtiene de forma permanente un <c val=\"#TooltipNumbers\">15%</c> más de velocidad de movimiento y sus ataques básicos obtienen un <c val=\"#TooltipNumbers\">75</c> más de daño.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa mítica:</c> Después de golpear a <c val=\"#TooltipNumbers\">100</c> héroes, la sanación de Resiliencia de Lobo gélido restaura un <c val=\"#TooltipNumbers\">200%</c> más de salud.",
+      "name": "Arma vorágine",
+      "shortText": "<c val=\"#TooltipQuest\">Misión: </c> Los ataques de Viento furioso aumentan la velocidad de movimiento"
+    },
+    "ThrallFeralResilience|ThrallFeralResilience|W|Level4": {
+      "fullText": "Los héroes dañados por Espíritu feral te otorgan <c val=\"#TooltipNumbers\">4</c> acumulaciones de Resiliencia de Lobo gélido y <c val=\"#TooltipNumbers\">2</c> acumulaciones de Resiliencia feral, lo que otorga <c val=\"#TooltipNumbers\">75</c> de Armadura física contra el próximo ataque básico de héroe.<n/><n/>Las acumulaciones se consumen en el siguiente lanzamiento de Espíritu feral.",
+      "name": "Resiliencia feral",
+      "shortText": "Espíritu feral otorga Armadura física y Resiliencia de Lobo gélido"
+    },
+    "ThrallFrostwolfPack|ThrallFrostwolfPack|W|Level4": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Misión:</c> Golpea a <c val=\"#TooltipNumbers\">6</c> héroes con Espíritu feral. Se pierde el progreso al morir o cuando Espíritu feral no logra golpear a un héroe.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa:</c> Se reduce el tiempo de reutilización y el costo de maná de Espíritu feral un <c val=\"#TooltipNumbers\">50%</c>.",
+      "name": "Manada de Lobo gélido",
+      "shortText": "<c val=\"#TooltipQuest\">Misión:</c> Reduce el costo y el tiempo de reutilización de Espíritu feral"
+    },
+    "ThrallMasteryManaTide|ThrallManaTideTalent|Trait|Level4": {
+      "fullText": "Resiliencia de Lobo gélido restituye <c val=\"#TooltipNumbers\">15</c> de maná y reduce los tiempos de reutilización de las habilidades básicas  <c val=\"#TooltipNumbers\">0.5</c> segundos.",
+      "name": "Marea de maná",
+      "shortText": "Resiliencia de Lobo gélido restituye maná y disminuye los tiempos de reutilización"
+    },
+    "ThrallMasteryRollingThunder|ThrallRollingThunderTalent|Q|Level7": {
+      "fullText": "<c val=\"#AbilityPassive\">Pasiva</c>: Cadena de relámpagos rebota una vez más.<n/><n/>Durante <c val=\"#TooltipNumbers\">8</c> segundos después de golpear a un enemigo con Cadena de relámpagos, tu próximo ataque básico contra él otorga una acumulación de Resiliencia de Lobo gélido. Si el objetivo es un héroe enemigo, también le infliges una cantidad de daño equivalente al <c val=\"#TooltipNumbers\">3%</c> de su salud máxima y te curas la misma cantidad.<n/>",
+      "name": "Trueno ensordecedor",
+      "shortText": "Cadena de relámpagos potencia los ataques básicos y rebota una vez más"
+    },
+    "ThrallAncestralWrath|ThrallAncestralWrath|Active|Level7": {
+      "fullText": "Actívalo para consumir <c val=\"#TooltipNumbers\">8</c> acumulaciones de Ira ancestral e infligirle a un héroe enemigo objetivo un <c val=\"#TooltipNumbers\">15%</c> de su salud máxima como daño durante <c val=\"#TooltipNumbers\">3</c> segundos y sanar a Thrall por un <c val=\"#TooltipNumbers\">150%</c> del daño infligido.<n/><n/>Obtienes <c val=\"#TooltipNumbers\">1</c> acumulación de Ira ancestral cada vez que Resiliencia de Lobo gélido se activa.",
+      "name": "Ira ancestral",
+      "shortText": "Actívalo para dañar a un héroe y robarle salud"
+    },
+    "ThrallElementalAssault|ThrallElementalAssault|Passive|Level7": {
+      "fullText": "Después de usar una habilidad, el próximo ataque básico de Thrall dentro de los siguientes <c val=\"#TooltipNumbers\">4</c> segundos inflige un <c val=\"#TooltipNumbers\">45%</c> más de daño.",
+      "name": "Asalto elemental",
+      "shortText": "Las habilidades aumentan el daño del ataque básico"
+    },
+    "ThrallHeroicAbilitySundering|Sundering|Heroic|Level10": {
+      "cooldownText": "Tiempo de reutilización: 70 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 75</s>",
+      "fullText": "Después de <c val=\"#TooltipNumbers\">0.5</c> segundos, desgarra la tierra en línea recta. Esto inflige <c val=\"#TooltipNumbers\">290</c><c val=\"#ColorGray\">~~0.04~~</c> de daño y lanza a los enemigos a un costado, lo que los aturde durante <c val=\"#TooltipNumbers\">1</c> segundo.",
+      "name": "Hendidura",
+      "shortText": "Daña, expulsa y aturde a los enemigos que están en una línea"
+    },
+    "ThrallHeroicAbilityEarthquake|ThrallEarthquake|Heroic|Level10": {
+      "cooldownText": "Tiempo de reutilización: 100 segundos",
+      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 90</s>",
+      "fullText": "Después de <c val=\"#TooltipNumbers\">0.5</c> segundos, desata un Terremoto gigante que hace temblar la tierra cada <c val=\"#TooltipNumbers\">4</c> segundos. Cada temblor dura <c val=\"#TooltipNumbers\">2</c> segundos, ralentiza a todos los enemigos en el área un <c val=\"#TooltipNumbers\">50%</c> e inflige <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> de daño a los héroes enemigos. Crea <c val=\"#TooltipNumbers\">3 </c>temblores.",
+      "name": "Terremoto",
+      "shortText": "Ralentiza a los enemigos de una gran área"
+    },
+    "ThrallMasteryGraceOfAir|ThrallGraceOfAirTalent|E|Level13": {
+      "fullText": "Los ataques de Viento furioso otorgan el doble de acumulaciones de Resiliencia de Lobo gélido.",
+      "name": "Gracia del aire",
+      "shortText": "Viento furioso otorga el doble de Resiliencia de Lobo gélido"
+    },
+    "ThrallMasteryFrostwolfsGrace|ThrallFrostwolfResilienceSurgeOfHealing|Trait|Level13": {
+      "cooldownText": "Tiempo de reutilización: 15 segundos",
+      "fullText": "Resiliencia de Lobo gélido puede activarse para sanar instantáneamente. Esta sanación se incrementa hasta un <c val=\"#TooltipNumbers\">100%</c> según la salud faltante de Thrall.",
+      "name": "Gracia de Lobo gélido",
+      "shortText": "Puede activarse Resiliencia de Lobo gélido para sanar instantáneamente"
+    },
+    "ThrallSpiritShield|ThrallSpiritShield|Active|Level13": {
+      "cooldownText": "Tiempo de reutilización: 45 s",
+      "fullText": "Cada <c val=\"#TooltipNumbers\">45</c> segundos, obtienes <c val=\"#TooltipNumbers\">70</c> de Armadura especial para la próxima habilidad enemiga y las habilidades siguientes durante <c val=\"#TooltipNumbers\">4</c> segundos. Resiliencia de Lobo gélido reduce este tiempo de reutilización <c val=\"#TooltipNumbers\">10</c> segundos.<n/><n/>Puede seleccionarse para permitir o impedir que este talento se active automáticamente.",
+      "name": "Escudo de espíritu",
+      "shortText": "Otorga Armadura especial temporal periódicamente"
+    },
+    "ThrallMasteryTempestFury|ThrallTempestFuryTalent|E|Level16": {
+      "fullText": "El último golpe de Viento furioso impacta <c val=\"#TooltipNumbers\">3</c> veces por el <c val=\"#TooltipNumbers\">75%</c> del daño normal. Estos golpes no otorgan progreso de misión.",
+      "name": "Furia tempestuosa",
+      "shortText": "El golpe final de Viento furioso impacta 3 veces"
+    },
+    "ThrallThunderstorm|ThrallThunderstorm|Q|Level16": {
+      "fullText": "Cadena de relámpagos ralentiza al objetivo principal un <c val=\"#TooltipNumbers\">8%</c> durante <c val=\"#TooltipNumbers\">2</c> segundos cuando se usa contra héroes.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Misión:</c> Lanzar Cadena de relámpagos directamente sobre un héroe aumenta el efecto de ralentización un <c val=\"#TooltipNumbers\">8%</c>, hasta un máximo de un <c val=\"#TooltipNumbers\">40%</c> adicional.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa:</c> Durante una bonificación del <c val=\"#TooltipNumbers\">40%</c>, el daño de Cadena de relámpagos aumenta un <c val=\"#TooltipNumbers\">30%</c>.<n/><n/>La bonificación se restablece si Thrall muere o si lanza Cadena de relámpagos dos veces sobre el mismo héroe.",
+      "name": "Tormenta de truenos",
+      "shortText": "<c val=\"#TooltipQuest\">Misión:</c> Golpea a héroes para hacer que Cadena de relámpagos ralentice a los enemigos"
+    },
+    "ThrallAlphaWolf|ThrallAlphaWolf|W|Level16": {
+      "fullText": "Tras golpear a un héroe con Espíritu feral, los ataques básicos de Thrall infligen un <c val=\"#TooltipNumbers\">3%</c> más de la salud máxima del objetivo como daño durante <c val=\"#TooltipNumbers\">3</c> segundos.<n/><n/><c val=\"#AbilityPassive\">Pasivo:</c> Aumenta la duración del efecto de arraigo de Espíritu feral a <c val=\"#TooltipNumbers\">1.5</c> segundos.",
+      "name": "Lobo alfa",
+      "shortText": "Espíritu feral tiene un efecto de arraigo más prolongado y potencia los ataques"
+    },
+    "ThrallMasteryWorldbreaker|ThrallWorldbreakerTalent|Heroic|Level20": {
+      "fullText": "Se reduce el tiempo de reutilización de Hendidura <c val=\"#TooltipNumbers\">40</c> segundos. Después de que Hendidura impacta, deja una grieta intransitable que bloquea el movimiento de las unidades durante <c val=\"#TooltipNumbers\">3</c> segundos.",
+      "name": "Rompemundos",
+      "shortText": "Hendidura crea un terreno intransitable"
+    },
+    "ThrallMasteryEarthenShields|ThrallEarthenShieldsTalent|Heroic|Level20": {
+      "fullText": "Los aliados que están dentro del área de Terremoto obtienen un escudo equivalente al <c val=\"#TooltipNumbers\">15%</c> de su salud máxima con cada pulso. Este escudo dura <c val=\"#TooltipNumbers\">4</c> segundos.",
+      "name": "Geoescudos",
+      "shortText": "Los aliados que están en el área obtienen un escudo"
+    },
+    "ThrallElementalMomentum|ThrallElementalMomentum|Passive|Level20": {
+      "fullText": "Los ataques básicos reducen los tiempos de reutilización de las habilidades básicas y heroicas de Thrall <c val=\"#TooltipNumbers\">0.25</c> segundos, lo que se triplica contra héroes.",
+      "name": "Ímpetu elemental",
+      "shortText": "Los ataques básicos reducen la reutilización de las habilidades"
+    },
+    "GenericTalentNexusBlades|NexusBladesTalent|Passive|Level20": {
+      "fullText": "Los ataques básicos infligen un <c val=\"#TooltipNumbers\">20%</c> más de daño y reducen la velocidad de movimiento del enemigo un <c val=\"#TooltipNumbers\">20%</c> durante <c val=\"#TooltipNumbers\">1</c> segundo.",
+      "name": "Cuchillas del Nexo",
+      "shortText": "Los ataques básicos infligen más daño y ralentizan al objetivo"
+    },
+    "ThrallWindRush|ThrallWindRush|Active|Level20": {
+      "cooldownText": "Tiempo de reutilización: 90 segundos",
+      "fullText": "Actívalo para teletransportarte inmediatamente a una ubicación objetivo y obtener Viento furioso.",
+      "name": "Ráfaga de viento",
+      "shortText": "Actívalo para teletransportarte y obtener Viento furioso"
+    }
+  },
+  "units": {}
+}

@@ -1,0 +1,209 @@
+{
+  "abilities": {
+    "MalthaelSoulRip|MalthaelSoulRip|Q": {
+      "cooldownText": "재사용 대기시간: 2초",
+      "energyText": "<s val=\"StandardTooltipDetails\">마나: 25</s>",
+      "fullText": "<c val=\"#MalthaelTrait\">사신의 징표</c>가 남겨진 주위 적들의 영혼을 도려내 <c val=\"#TooltipNumbers\">100</c><c val=\"#ColorGray\">~~0.04~~</c>의 피해를 주고 적중한 대상 하나당 <c val=\"#TooltipNumbers\">25</c><c val=\"#ColorGray\">~~0.04~~</c>의 생명력을 회복합니다. 적 영웅에게 적중하면 대상 영웅의 최대 생명력의 <c val=\"#TooltipNumbers\">4%</c>만큼의 생명력을 추가로 회복합니다.",
+      "name": "영혼 도려내기",
+      "shortText": "사신의 징표가 남겨진 적에게 피해를 주고 생명력 회복"
+    },
+    "MalthaelWraithStrike|MalthaelWraithStrike|W": {
+      "cooldownText": "재사용 대기시간: 5초",
+      "energyText": "<s val=\"StandardTooltipDetails\">마나: 30</s>",
+      "fullText": "<c val=\"#MalthaelTrait\">사신의 징표</c>가 남겨진 대상에게 즉시 순간이동하여 <c val=\"#TooltipNumbers\">59</c><c val=\"#ColorGray\">~~0.04~~</c>의 피해를 주고 <c val=\"#MalthaelTrait\">사신의 징표</c>를 갱신합니다.",
+      "name": "망령의 일격",
+      "shortText": "사신의 징표가 남겨진 대상에게 순간이동"
+    },
+    "MalthaelDeathShroud|MalthaelDeathShroud|E": {
+      "cooldownText": "재사용 대기시간: 8초",
+      "energyText": "<s val=\"StandardTooltipDetails\">마나: 50</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">0.25</c>초 후, 어둠의 안개를 내보내 적중한 모든 적에게 <c val=\"#MalthaelTrait\">사신의 징표</c>를 남깁니다.",
+      "name": "죽음의 안개",
+      "shortText": "사신의 징표를 남기는 안개를 내보냄"
+    },
+    "MalthaelTormentedSouls|MalthaelTormentedSouls|Heroic": {
+      "cooldownText": "재사용 대기시간: 60초",
+      "energyText": "<s val=\"StandardTooltipDetails\">마나: 20</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">4</c>초 동안 영혼의 격류를 내보내 주위 적들에게 지속적으로 <c val=\"#MalthaelTrait\">사신의 징표</c>를 남깁니다.<n/><n/>영혼 회오리 활성화 시 망령의 일격의 재사용 대기시간이 초기화되며, 영혼 회오리가 활성화된 동안 망령의 일격이 마나를 소모하지 않고 재사용 대기시간이 <c val=\"#TooltipNumbers\">2</c>초로 감소합니다.",
+      "name": "영혼 회오리",
+      "shortText": "주위 적들에게 사신의 징표를 남김"
+    },
+    "MalthaelLastRites|MalthaelLastRites|Heroic": {
+      "cooldownText": "재사용 대기시간: 70초",
+      "energyText": "<s val=\"StandardTooltipDetails\">마나: 100</s>",
+      "fullText": "적 영웅에게 사형을 선고하여 <c val=\"#TooltipNumbers\">2</c>초 후에 대상이 잃은 생명력의 <c val=\"#TooltipNumbers\">50%</c>에 해당하는 피해를 줍니다.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">퀘스트:</c> 최후의 의식 중에, 또는 의식이 끝난 후 <c val=\"#TooltipNumbers\">1.5</c>초 내에 대상 영웅이 죽을 때마다 최후의 의식의 재사용 대기시간이 <c val=\"#TooltipNumbers\">5</c>초 감소하여 최소 <c val=\"#TooltipNumbers\">20</c>초까지 감소합니다.",
+      "name": "최후의 의식",
+      "shortText": "<c val=\"#TooltipQuest\">퀘스트:</c> 적 영웅이 잃은 생명력에 비례하여 피해를 줌"
+    },
+    ":PASSIVE:|MalthaelReapersMark|Trait": {
+      "fullText": "일반 공격이 전방의 모든 적을 휩쓸어 공격하고 구조물이 아닌 적들에게 <c val=\"#TooltipNumbers\">4</c>초 동안 <c val=\"#MalthaelTrait\">사신의 징표</c>를 남깁니다. 징표가 남겨진 적들은 모습이 드러나고 <c val=\"#TooltipNumbers\">1</c>초마다 최대 생명력의 <c val=\"#TooltipNumbers\">2%</c>에 해당하는 피해를 받습니다.",
+      "name": "사신의 징표",
+      "shortText": "일반 공격 시 광역 피해 및 사신의 징표를 남김"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "재사용 대기시간: 4초",
+      "fullText": "<c val=\"#TooltipNumbers\">1</c>초 동안 정신을 집중한 후, 이동 속도가 <s val=\"StandardTooltipDetails\">30%</s> 증가합니다.",
+      "name": "탈것 소환"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "<c val=\"#TooltipNumbers\">6</c>초 동안 정신을 집중한 후, 폭풍의 전당으로 귀환하여 즉시 <c val=\"#TooltipNumbers\">1125</c>의 생명력과 <c val=\"#TooltipNumbers\">150</c>의 마나를 회복합니다.",
+      "name": "귀환석"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "탈것에서 내립니다.",
+      "name": "탈것 소환 해제"
+    },
+    "MalthaelFearTheReaper|MalthaelFearTheReaper|Active": {
+      "cooldownText": "재사용 대기시간: 25초",
+      "fullText": "사용하면 <c val=\"#TooltipNumbers\">4</c>초 동안 이동 속도가 <c val=\"#TooltipNumbers\">25%</c> 증가하고 유닛을 통과할 수 있습니다.",
+      "name": "사신을 두려워하라",
+      "shortText": "사용 시 이동 속도 증가"
+    },
+    "MalthaelTouchOfDeath|MalthaelTouchOfDeath|Active": {
+      "cooldownText": "재사용 대기시간: 20초",
+      "fullText": "사용하면 <c val=\"#MalthaelTrait\">사신의 징표</c>가 남겨진 영웅들이 받는 치유량이 <c val=\"#TooltipNumbers\">4</c>초 동안 <c val=\"#TooltipNumbers\">50%</c> 감소합니다.",
+      "name": "죽음의 손길",
+      "shortText": "사용 시 적이 받는 치유량 감소"
+    },
+    "MalthaelInevitableEnd|MalthaelInevitableEnd|Active": {
+      "cooldownText": "재사용 대기시간: 20초",
+      "fullText": "사용하면 <c val=\"#TooltipNumbers\">2</c>초 동안 저지 불가 상태가 되지만 남겨진 <c val=\"#MalthaelTrait\">사신의 징표</c>가 모두 제거됩니다.",
+      "name": "저지할 수 없는 죽음",
+      "shortText": "사용 시 저지 불가 및 사신의 징표 제거"
+    },
+    "MalthaelShroudOfWisdom|MalthaelShroudOfWisdom|Active": {
+      "cooldownText": "재사용 대기시간: 20초",
+      "fullText": "사용하면 <c val=\"#TooltipNumbers\">2</c>초 후 기술 방어력이 <c val=\"#TooltipNumbers\">4</c>초 동안 <c val=\"#TooltipNumbers\">50</c> 증가합니다.",
+      "name": "지혜의 장막",
+      "shortText": "사용 시 기술 방어력 증가"
+    },
+    "MalthaelNoOneCanStopDeath|MalthaelNoOneCanStopDeath|Active": {
+      "cooldownText": "재사용 대기시간: 180초",
+      "fullText": "죽었을 때 사용하면 폭풍의 전당에서 즉시 부활하지만 다음 부활 대기시간이 <c val=\"#TooltipNumbers\">25%</c> 증가합니다.",
+      "name": "누구도 죽음을 막을 순 없다",
+      "shortText": "사용 시 부활"
+    }
+  },
+  "talents": {
+    "MalthaelDeathsReach|MalthaelDeathsReach|W|Level1": {
+      "fullText": "망령의 일격의 사거리가 <c val=\"#TooltipNumbers\">35%</c> 증가합니다.",
+      "name": "섬뜩한 죽음",
+      "shortText": "망령의 일격 사거리 증가"
+    },
+    "MalthaelOnAPaleHorse|MalthaelOnAPaleHorse|Passive|Level1": {
+      "fullText": "탈것의 이동 속도가 <c val=\"#TooltipNumbers\">20%</c> 증가합니다.",
+      "name": "창백한 말",
+      "shortText": "탈것 이동 속도 증가"
+    },
+    "MalthaelFearTheReaper|MalthaelFearTheReaper|Active|Level1": {
+      "cooldownText": "재사용 대기시간: 25초",
+      "fullText": "사용하면 <c val=\"#TooltipNumbers\">4</c>초 동안 이동 속도가 <c val=\"#TooltipNumbers\">25%</c> 증가하고 유닛을 통과할 수 있습니다.",
+      "name": "사신을 두려워하라",
+      "shortText": "사용 시 이동 속도 증가"
+    },
+    "MalthaelDieAlone|MalthaelDieAlone|Q|Level4": {
+      "fullText": "영혼 도려내기가 한 영웅에게만 적중하면 <c val=\"#TooltipNumbers\">50%</c>의 추가 피해를 줍니다.",
+      "name": "고독한 죽음",
+      "shortText": "단일 영웅 적중 시 추가 피해"
+    },
+    "MalthaelThrowingShade|MalthaelThrowingShade|E|Level4": {
+      "fullText": "죽음의 안개의 사거리가 <c val=\"#TooltipNumbers\">33%</c> 증가하고 재사용 대기시간이 <c val=\"#TooltipNumbers\">3</c>초 감소하며 마나 소모량이 <c val=\"#TooltipNumbers\">50</c>에서 <c val=\"#TooltipNumbers\">30</c><lang rule=\"jongsung\">으로,로</lang> 감소합니다.<n/><n/>죽음의 안개의 첫 공격이 구조물이 아닌 적에게 적중하면 최대 생명력의 <c val=\"#TooltipNumbers\">2%</c>에 해당하는 피해를 줍니다.",
+      "name": "자욱한 안개",
+      "shortText": "죽음의 안개 사거리 증가 및 재사용 대기시간 감소"
+    },
+    "MalthaelBlackHarvest|MalthaelBlackHarvest|Trait|Level4": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">퀘스트:</c> 적 영웅에게 <c val=\"#MalthaelTrait\">사신의 징표</c>를 총 <c val=\"#TooltipNumbers\">150</c>초 동안 남겨야 합니다.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">보상:</c> <c val=\"#MalthaelTrait\">사신의 징표</c>의 지속 시간이 영구히 <c val=\"#TooltipNumbers\">2</c>초 증가합니다.",
+      "name": "암흑의 수확",
+      "shortText": "<c val=\"#TooltipQuest\">퀘스트:</c> 사신의 징표 지속 시간 증가"
+    },
+    "MalthaelColdHand|MalthaelColdHand|Q|Level7": {
+      "fullText": "영혼 도려내기가 적들을 <c val=\"#TooltipNumbers\">2.5</c>초 동안 <c val=\"#TooltipNumbers\">20%</c> 느려지게 합니다.",
+      "name": "얼음장",
+      "shortText": "영혼 도려내기가 적을 느려지게 함"
+    },
+    "MalthaelMassacre|MalthaelMassacre|W|Level7": {
+      "fullText": "망령의 일격이 대상 주위의 적들에게도 피해를 주고 <c val=\"#MalthaelTrait\">사신의 징표</c>를 남깁니다.",
+      "name": "대학살",
+      "shortText": "망령의 일격이 여러 대상에게 적중"
+    },
+    "MalthaelTouchOfDeath|MalthaelTouchOfDeath|Active|Level7": {
+      "cooldownText": "재사용 대기시간: 20초",
+      "fullText": "사용하면 <c val=\"#MalthaelTrait\">사신의 징표</c>가 남겨진 영웅들이 받는 치유량이 <c val=\"#TooltipNumbers\">4</c>초 동안 <c val=\"#TooltipNumbers\">50%</c> 감소합니다.",
+      "name": "죽음의 손길",
+      "shortText": "사용 시 적이 받는 치유량 감소"
+    },
+    "MalthaelTormentedSouls|MalthaelTormentedSouls|Heroic|Level10": {
+      "cooldownText": "재사용 대기시간: 60초",
+      "energyText": "<s val=\"StandardTooltipDetails\">마나: 20</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">4</c>초 동안 영혼의 격류를 내보내 주위 적들에게 지속적으로 <c val=\"#MalthaelTrait\">사신의 징표</c>를 남깁니다.<n/><n/>영혼 회오리 활성화 시 망령의 일격의 재사용 대기시간이 초기화되며, 영혼 회오리가 활성화된 동안 망령의 일격이 마나를 소모하지 않고 재사용 대기시간이 <c val=\"#TooltipNumbers\">2</c>초로 감소합니다.",
+      "name": "영혼 회오리",
+      "shortText": "주위 적들에게 사신의 징표를 남김"
+    },
+    "MalthaelLastRites|MalthaelLastRites|Heroic|Level10": {
+      "cooldownText": "재사용 대기시간: 70초",
+      "energyText": "<s val=\"StandardTooltipDetails\">마나: 100</s>",
+      "fullText": "적 영웅에게 사형을 선고하여 <c val=\"#TooltipNumbers\">2</c>초 후에 대상이 잃은 생명력의 <c val=\"#TooltipNumbers\">50%</c>에 해당하는 피해를 줍니다.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">퀘스트:</c> 최후의 의식 중에, 또는 의식이 끝난 후 <c val=\"#TooltipNumbers\">1.5</c>초 내에 대상 영웅이 죽을 때마다 최후의 의식의 재사용 대기시간이 <c val=\"#TooltipNumbers\">5</c>초 감소하여 최소 <c val=\"#TooltipNumbers\">20</c>초까지 감소합니다.",
+      "name": "최후의 의식",
+      "shortText": "<c val=\"#TooltipQuest\">퀘스트:</c> 적 영웅이 잃은 생명력에 비례하여 피해를 줌"
+    },
+    "MalthaelSoulSiphon|MalthaelSoulSiphon|Q|Level13": {
+      "fullText": "영혼 도려내기가 적 영웅에게 적중할 때 회복하는 치유량이 대상의 최대 생명력의 <c val=\"#TooltipNumbers\">4.75%</c>로 증가합니다.",
+      "name": "영혼 착취",
+      "shortText": "영혼 도려내기 치유량 증가"
+    },
+    "MalthaelEtherealExistence|MalthaelEtherealExistence|Trait|Level13": {
+      "fullText": "<c val=\"#MalthaelTrait\">사신의 징표</c>가 남겨진 적 영웅 하나당 물리 방어력이 <c val=\"#TooltipNumbers\">10</c> 증가하여 최대 <c val=\"#TooltipNumbers\">30</c> 증가합니다.",
+      "name": "무형의 존재",
+      "shortText": "징표가 남겨진 적 영웅 하나당 물리 방어력 증가"
+    },
+    "MalthaelInevitableEnd|MalthaelInevitableEnd|Active|Level13": {
+      "cooldownText": "재사용 대기시간: 20초",
+      "fullText": "사용하면 <c val=\"#TooltipNumbers\">2</c>초 동안 저지 불가 상태가 되지만 남겨진 <c val=\"#MalthaelTrait\">사신의 징표</c>가 모두 제거됩니다.",
+      "name": "저지할 수 없는 죽음",
+      "shortText": "사용 시 저지 불가 및 사신의 징표 제거"
+    },
+    "MalthaelShroudOfWisdom|MalthaelShroudOfWisdom|Active|Level13": {
+      "cooldownText": "재사용 대기시간: 20초",
+      "fullText": "사용하면 <c val=\"#TooltipNumbers\">2</c>초 후 기술 방어력이 <c val=\"#TooltipNumbers\">4</c>초 동안 <c val=\"#TooltipNumbers\">50</c> 증가합니다.",
+      "name": "지혜의 장막",
+      "shortText": "사용 시 기술 방어력 증가"
+    },
+    "MalthaelSoulCollector|MalthaelSoulCollector|Q|Level16": {
+      "fullText": "영혼 도려내기의 재사용 대기시간이 <c val=\"#TooltipNumbers\">0.5</c>초 감소하고 범위가 <c val=\"#TooltipNumbers\">25%</c> 증가합니다.",
+      "name": "영혼 수집가",
+      "shortText": "영혼 도려내기 범위 증가 및 재사용 대기시간 감소"
+    },
+    "MalthaelMortality|MalthaelMortality|W|Level16": {
+      "fullText": "망령의 일격이 적 영웅에게 적중하면 대상의 최대 생명력의 <c val=\"#TooltipNumbers\">8%</c>만큼 추가 피해를 줍니다.",
+      "name": "필멸",
+      "shortText": "망령의 일격이 영웅에게 주는 피해 증가"
+    },
+    "MalthaelMementoMori|MalthaelMementoMori|Trait|Level16": {
+      "fullText": "<c val=\"#MalthaelTrait\">사신의 징표</c>가 <c val=\"#TooltipNumbers\">4</c>초 이상 지속된 대상에게는 피해량이 <c val=\"#TooltipNumbers\">60%</c> 증가합니다.",
+      "name": "죽음을 기억하라",
+      "shortText": "사신의 징표가 지속 시 공격력 증가"
+    },
+    "MalthaelReaperOfSouls|MalthaelReaperOfSouls|Heroic|Level20": {
+      "fullText": "영혼 회오리의 지속 시간이 <c val=\"#TooltipNumbers\">6</c>초로 증가하며, 영혼 회오리가 활성화된 동안 영웅을 처치하면 지속 시간이 갱신됩니다.<n/><n/>영혼 회오리의 반경에 적 영웅이 <c val=\"#TooltipNumbers\">2</c>명 이상 있으면 효과가 감소하지 않습니다.",
+      "name": "영혼을 거두는 자",
+      "shortText": "영혼 회오리 지속 시간 증가"
+    },
+    "MalthaelAngelOfDeath|MalthaelAngelOfDeath|Heroic|Level20": {
+      "fullText": "최후의 의식으로 준 피해의 <c val=\"#TooltipNumbers\">100%</c>만큼 생명력을 회복하고 퀘스트로 감소하는 재사용 대기시간 감소량이 두 배가 됩니다.",
+      "name": "죽음의 천사",
+      "shortText": "최후의 의식으로 생명력 회복"
+    },
+    "MalthaelFinalCurtain|MalthaelFinalCurtain|E|Level20": {
+      "fullText": "죽음의 안개가 <c val=\"#TooltipNumbers\">4</c>초 동안 지속되어 대상 지역의 적들에게 <c val=\"#MalthaelTrait\">사신의 징표</c>를 남깁니다.",
+      "name": "최종막",
+      "shortText": "죽음의 안개가 지속됨"
+    },
+    "MalthaelNoOneCanStopDeath|MalthaelNoOneCanStopDeath|Active|Level20": {
+      "cooldownText": "재사용 대기시간: 180초",
+      "fullText": "죽었을 때 사용하면 폭풍의 전당에서 즉시 부활하지만 다음 부활 대기시간이 <c val=\"#TooltipNumbers\">25%</c> 증가합니다.",
+      "name": "누구도 죽음을 막을 순 없다",
+      "shortText": "사용 시 부활"
+    }
+  },
+  "units": {}
+}

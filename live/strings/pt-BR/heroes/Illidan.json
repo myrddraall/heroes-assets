@@ -1,0 +1,183 @@
+{
+  "abilities": {
+    "IllidanDive|IllidanDive|Q": {
+      "cooldownText": "Recarga: 6 segundos",
+      "fullText": "Mergulha na direção do alvo, causando <c val=\"#TooltipNumbers\">66</c><c val=\"#ColorGray\">~~0.04~~</c> de dano e saltando para o outro lado.",
+      "name": "Mergulho",
+      "shortText": "Mergulha e salta para o outro lado do inimigo"
+    },
+    "IllidanSweepingStrike|IllidanSweepingStrike|W": {
+      "cooldownText": "Recarga: 8 segundos",
+      "fullText": "Dispara em direção a um ponto, causando <c val=\"#TooltipNumbers\">119</c><c val=\"#ColorGray\">~~0.04~~</c> de dano aos inimigos no caminho. Atingir um inimigo aumenta em <c val=\"#TooltipNumbers\">35%</c> o dano dos Ataques Básicos de Illidan por <c val=\"#TooltipNumbers\">3</c> s.",
+      "name": "Golpe Amplo",
+      "shortText": "Investe e causa dano aos inimigos, e ganha dano de Ataque Básico"
+    },
+    "IllidanEvasion|IllidanEvasion|E": {
+      "cooldownText": "Recarga: 15 segundos",
+      "fullText": "Durante <c val=\"#TooltipNumbers\">2.5</c> segundos, Ataques Básicos de inimigos são evadidos.",
+      "name": "Evasão",
+      "shortText": "Você se esquiva dos Ataque Básicos dos inimigos"
+    },
+    "IllidanTheHunt|IllidanTheHunt|Heroic": {
+      "cooldownText": "Recarga: 100 segundos",
+      "fullText": "Investe contra a unidade alvejada, causando <c val=\"#TooltipNumbers\">251</c><c val=\"#ColorGray\">~~0.04~~</c> de dano com o impacto e atordoando durante <c val=\"#TooltipNumbers\">1</c> segundo.",
+      "name": "A Caçada",
+      "shortText": "Investe contra o alvo de uma distância muito grande"
+    },
+    "IllidanMetamorphosisTargeted|IllidanMetamorphosis|Heroic": {
+      "cooldownText": "Recarga: 120 segundos",
+      "fullText": "Assume a Forma de Demônio no local selecionado, causando <c val=\"#TooltipNumbers\">46</c><c val=\"#ColorGray\">~~0.04~~</c> de dano na área. Aumenta temporariamente sua Vida máxima em <c val=\"#TooltipNumbers\">220</c><c val=\"#ColorGray\">~~0.04~~</c> para cada Herói atingido pelo impacto inicial. Dura <c val=\"#TooltipNumbers\">18</c> segundos.",
+      "name": "Metamorfose",
+      "shortText": "Dano de área e aumenta a Vida máxima"
+    },
+    ":PASSIVE:|IllidanBetrayersThirst|Trait": {
+      "fullText": "Ataques Básicos curam em <c val=\"#TooltipNumbers\">30%</c> do dano causado e reduzem a recarga das Habilidades em <c val=\"#TooltipNumbers\">1</c> segundo.",
+      "name": "Sede do Traidor",
+      "shortText": "Os Ataques Básicos curam parte do dano causado e reduzem as recargas das Habilidades"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Recarga: 4 segundos",
+      "fullText": "Depois de canalizar por <c val=\"#TooltipNumbers\">1</c> s, ganha <s val=\"StandardTooltipDetails\">30%</s> de Velocidade de Movimento.",
+      "name": "Evocar Montaria"
+    },
+    "Hearthstone|HearthstoneNoMana|B": {
+      "fullText": "Depois de canalizar por <c val=\"#TooltipNumbers\">6</c> s, teleporta você de volta para o Salão das Tempestades, restaurando instantaneamente <c val=\"#TooltipNumbers\">1125</c> de Vida.",
+      "name": "Pedra de Regresso"
+    },
+    "IllidanMetamorphosisDismountCustom|UnsummonMountCustom|Z": {
+      "fullText": "Desmonta você.",
+      "name": "Dispensar Montaria"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Desmonta você.",
+      "name": "Dispensar Montaria"
+    },
+    "IllidanBladesOfAzzinoth|IllidanBladesOfAzzinoth|Active": {
+      "fullText": "Atingir <c val=\"#TooltipNumbers\">5</c> Heróis com Golpe Amplo permite ativar as Lâminas de Azzinoth, que aumentam em <c val=\"#TooltipNumbers\">75%</c> o dano de Ataque Básico por <c val=\"#TooltipNumbers\">8</c> s.",
+      "name": "Lâminas de Azzinoth",
+      "shortText": "Ative para aumentar o dano de ataque básico"
+    },
+    "IllidanMetamorphosisMountCustom|SummonMountCustom|Z": {
+      "cooldownText": "Recarga: 1 segundo",
+      "fullText": "Depois de canalizar por <c val=\"#TooltipNumbers\">1</c> s, ganha <s val=\"StandardTooltipDetails\">30%</s> de Velocidade de Movimento.",
+      "name": "Evocar Montaria"
+    },
+    "FlashoftheStorms|GenericBoltoftheStormTalent|Active": {
+      "cooldownText": "Recarga: 70 segundos",
+      "fullText": "Ative para teleportar para uma área próxima.",
+      "name": "Raio das Tempestades",
+      "shortText": "Ative para se teleportar para uma área próxima"
+    }
+  },
+  "talents": {
+    "IllidanMasteryImmolationSweepingStrike|IllidanSweepingStrikeImmolationTalent|W|Level1": {
+      "fullText": "Após usar Golpe Amplo, os inimigos queimam, recebendo <c val=\"#TooltipNumbers\">22</c><c val=\"#ColorGray\">~~0.04~~</c> de dano por segundo durante <c val=\"#TooltipNumbers\">4</c> segundos.",
+      "name": "Imolação",
+      "shortText": "Golpe Amplo causa dano de área"
+    },
+    "IllidanMasteryBatteredAssaultSweepingStrike|IllidanSweepingStrikeBatteredAssaultTalent|W|Level1": {
+      "fullText": "Aumenta a duração do bônus de dano de Ataque Básico de Golpe Amplo de <c val=\"#TooltipNumbers\">3</c> para <c val=\"#TooltipNumbers\">5</c> segundos. Se Golpe Amplo atingir pelo menos <c val=\"#TooltipNumbers\">2</c> Heróis, o bônus de dano aumenta de <c val=\"#TooltipNumbers\">35%</c> para <c val=\"#TooltipNumbers\">125%</c>.",
+      "name": "Ataque Devastador",
+      "shortText": "Aumenta o bônus de dano de Golpe Amplo"
+    },
+    "IllidanUnendingHatredPassive|IllidanUnendingHatredTalent|Passive|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Missão:</c> Abates de Tropas concedem <c val=\"#TooltipNumbers\">0.2</c> de dano de Ataque Básico. Abates de Heróis concedem <c val=\"#TooltipNumbers\">1</c> de dano de Ataque Básico.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa:</c> Depois de obter <c val=\"#TooltipNumbers\">20</c> de dano de Ataque Básico extra, Illidan recebe mais <c val=\"#TooltipNumbers\">20</c> de dano de Ataque Básico.",
+      "name": "Ódio sem Fim",
+      "shortText": "<c val=\"#TooltipQuest\">Missão:</c> Matar inimigos aumenta o dano do Ataque Básico"
+    },
+    "IllidanReflexiveBlock|IllidanEvasionReflexiveBlockTalent|Q|Level4": {
+      "fullText": "Usar Mergulho concede <c val=\"#TooltipNumbers\">75</c> de Armadura Física contra os próximos <c val=\"#TooltipNumbers\">3</c> Ataques Básicos de Heróis por <c val=\"#TooltipNumbers\">4</c> segundos, reduzindo o dano recebido em <c val=\"#TooltipNumbers\">75%</c>.",
+      "name": "Bloqueio Reflexivo",
+      "shortText": "Mergulho concede Armadura Física"
+    },
+    "IllidanSweepingStrikesThirstingBlade|IllidanBetrayersThirstThirstingBladeTalent|Trait|Level4": {
+      "fullText": "A cura dos Ataques Básicos de Sede do Traidor aumenta de <c val=\"#TooltipNumbers\">30%</c> para <c val=\"#TooltipNumbers\">50%</c> quando o bônus de dano de Golpe Amplo estiver ativo.",
+      "name": "Lâmina Sanguissedenta",
+      "shortText": "Golpe Amplo concede mais Roubo de Vida"
+    },
+    "IllidanCombatStyleHuntersOnslaught|IllidanBetrayersThirstHuntersOnslaughtTalent|Trait|Level4": {
+      "fullText": "Habilidades Básicas curam em <c val=\"#TooltipNumbers\">35%</c> do dano que causam. O bônus dobra contra Heróis.",
+      "name": "Massacre do Caçador",
+      "shortText": "O dano causado por Habilidades Básicas cura"
+    },
+    "IllidanMasteryRapidChaseDive|IllidanDiveRapidChaseTalent|Q|Level7": {
+      "fullText": "Mergulho concede <c val=\"#TooltipNumbers\">20%</c> de Velocidade de Movimento por <c val=\"#TooltipNumbers\">3</c> s. Caso o alvo atingido seja um Herói inimigo, a recarga é reduzida em <c val=\"#TooltipNumbers\">1</c> s.",
+      "name": "Perseguição Rápida",
+      "shortText": "Mergulho aumenta a Velocidade de Movimento e tem a recarga reduzida"
+    },
+    "IllidanMasteryFriendOrFoeDive|IllidanDiveFriendOrFoeTalent|Q|Level7": {
+      "fullText": "Aumenta em <c val=\"#TooltipNumbers\">20%</c> o alcance de Mergulho e permite que ele seja usado para mergulhar até Heróis aliados.",
+      "name": "Com Amigos como Esse",
+      "shortText": "Aumenta o alcance de Mergulho e permite seu uso em aliados"
+    },
+    "IllidanMasteryUnboundSweepingStrike|IllidanSweepingStrikeUnboundTalent|W|Level7": {
+      "fullText": "Permite que Golpe Amplo atravesse paredes e terreno.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa:</c> Ao atingir <c val=\"#TooltipNumbers\">15</c> Heróis com Golpe Amplo, você ganha uma segunda aplicação.",
+      "name": "Liberto",
+      "shortText": "<c val=\"#TooltipQuest\">Missão:</c> Golpe Amplo atravessa terreno"
+    },
+    "IllidanHeroicAbilityMetamorphosis|IllidanMetamorphosis|Heroic|Level10": {
+      "cooldownText": "Recarga: 120 segundos",
+      "fullText": "Assume a Forma de Demônio no local selecionado, causando <c val=\"#TooltipNumbers\">46</c><c val=\"#ColorGray\">~~0.04~~</c> de dano na área. Aumenta temporariamente sua Vida máxima em <c val=\"#TooltipNumbers\">220</c><c val=\"#ColorGray\">~~0.04~~</c> para cada Herói atingido pelo impacto inicial. Dura <c val=\"#TooltipNumbers\">18</c> segundos.",
+      "name": "Metamorfose",
+      "shortText": "Dano de área e aumenta a Vida máxima"
+    },
+    "IllidanHeroicAbilityTheHunt|IllidanTheHunt|Heroic|Level10": {
+      "cooldownText": "Recarga: 100 segundos",
+      "fullText": "Investe contra a unidade alvejada, causando <c val=\"#TooltipNumbers\">251</c><c val=\"#ColorGray\">~~0.04~~</c> de dano com o impacto e atordoando durante <c val=\"#TooltipNumbers\">1</c> segundo.",
+      "name": "A Caçada",
+      "shortText": "Investe contra o alvo de uma distância muito grande"
+    },
+    "IllidanNimbleDefender|IllidanNimbleDefender|W|Level13": {
+      "fullText": "Se o Golpe Amplo atingir um Herói inimigo, ganha <c val=\"#TooltipNumbers\">25</c> de Armadura por <c val=\"#TooltipNumbers\">2</c> s, reduzindo o dano recebido em <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Defensor Ágil",
+      "shortText": "Golpe Amplo concede Armadura"
+    },
+    "IllidanElusiveStrike|IllidanElusiveStrike|E|Level13": {
+      "fullText": "Golpe Amplo reduz a recarga de Evasão por <c val=\"#TooltipNumbers\">3</c> segundos sempre que atinge um Herói inimigo.",
+      "name": "Ataque Ligeiro",
+      "shortText": "Golpe Amplo reduz recarga da Evasão"
+    },
+    "IllidanMasterySixthSenseEvasion|IllidanEvasionSixthSenseTalent|E|Level13": {
+      "fullText": "Enquanto durar, Evasão concede a Illidan <c val=\"#TooltipNumbers\">75</c> de Armadura Mágica contra as próximas <c val=\"#TooltipNumbers\">2</c> fontes de Dano Mágico, reduzindo o dano recebido em <c val=\"#TooltipNumbers\">75%</c>.",
+      "name": "Sexto Sentido",
+      "shortText": "Evasão concede Armadura Mágica"
+    },
+    "IllidanMasteryMarkedforDeathDive|IllidanDiveMarkedForDeathTalent|Q|Level16": {
+      "fullText": "Mergulho causará <c val=\"#TooltipNumbers\">180</c><c val=\"#ColorGray\">~~0.04~~</c> a mais de dano se for usado no mesmo alvo em até <c val=\"#TooltipNumbers\">10</c> s.",
+      "name": "Marcado para Morrer",
+      "shortText": "Repetidos Mergulhos causam dano extra"
+    },
+    "IllidanFieryBrand|IllidanFieryBrand|Passive|Level16": {
+      "fullText": "A cada <c val=\"#TooltipNumbers\">3º</c> ataque contra o mesmo Herói, causa dano adicional equivalente a <c val=\"#TooltipNumbers\">7%</c> do máximo de Vida do alvo.",
+      "name": "Marca Ardente",
+      "shortText": "Ataques Básicos consecutivos a Heróis são potencializados"
+    },
+    "IllidanBladesOfAzzinoth|IllidanBladesOfAzzinoth|Active|Level16": {
+      "fullText": "Atingir <c val=\"#TooltipNumbers\">5</c> Heróis com Golpe Amplo permite ativar as Lâminas de Azzinoth, que aumentam em <c val=\"#TooltipNumbers\">75%</c> o dano de Ataque Básico por <c val=\"#TooltipNumbers\">8</c> s.",
+      "name": "Lâminas de Azzinoth",
+      "shortText": "Ative para aumentar o dano de ataque básico"
+    },
+    "IllidanMasteryDemonicFormMetamorphosis|IllidanMetamorphosisDemonicFormTalent|Heroic|Level20": {
+      "fullText": "Assume permanentemente a Forma Demoníaca. Metamorfose também aumenta em <c val=\"#TooltipNumbers\">20%</c> a Velocidade de Ataque e reduz em <c val=\"#TooltipNumbers\">50%</c> a duração de efeitos de atordoamento, enraizamento e silêncio. Illidan pode montar enquanto estiver na Forma Demoníaca.",
+      "name": "Forma Demoníaca",
+      "shortText": "A Forma Demoníaca dura indefinidamente e concede Velocidade de Ataque"
+    },
+    "IllidanMasteryNowhereToHideTheHunt|IllidanTheHuntNowhereToHideTalent|Heroic|Level20": {
+      "fullText": "A Caçada ganha alcance ilimitado. Illidan revela passivamente os Heróis inimigos com menos de <c val=\"#TooltipNumbers\">25%</c> de Vida em qualquer ponto do campo de batalha.",
+      "name": "Não Há Onde se Esconder",
+      "shortText": "Aumenta o alcance de A Caçada e revela Heróis com a Vida baixa"
+    },
+    "GenericTalentNexusBlades|NexusBladesTalent|Passive|Level20": {
+      "fullText": "Ataques Básicos causam <c val=\"#TooltipNumbers\">20%</c> mais dano e reduzem em <c val=\"#TooltipNumbers\">20%</c> a Velocidade de Movimento dos inimigos por <c val=\"#TooltipNumbers\">1</c> s.",
+      "name": "Lâminas do Nexus",
+      "shortText": "Ataques Básicos causam mais dano e desaceleram"
+    },
+    "GenericTalentFlashoftheStorms|GenericBoltoftheStormTalent|Active|Level20": {
+      "cooldownText": "Recarga: 70 segundos",
+      "fullText": "Ative para teleportar para uma área próxima.",
+      "name": "Raio das Tempestades",
+      "shortText": "Ative para se teleportar para uma área próxima"
+    }
+  },
+  "units": {}
+}

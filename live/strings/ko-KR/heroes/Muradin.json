@@ -1,0 +1,190 @@
+{
+  "abilities": {
+    "MuradinStormBolt|MuradinStormbolt|Q": {
+      "cooldownText": "재사용 대기시간: 10초",
+      "energyText": "<s val=\"StandardTooltipDetails\">마나: 45</s>",
+      "fullText": "망치를 던져 처음 적중한 적에게 <c val=\"#TooltipNumbers\">110</c><c val=\"#ColorGray\">~~0.04~~</c>의 피해를 주고 <c val=\"#TooltipNumbers\">1.25</c>초 동안 기절시킵니다.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">퀘스트:</c> 기절, 감속, 이동 불가의 영향을 받는 영웅들에게 일반 공격을 해야 합니다. 감속, 이동 불가 상태인 적은 중첩을 <c val=\"#TooltipNumbers\">1</c>회 제공합니다. 기절한 적은 중첩을 <c val=\"#TooltipNumbers\">2</c>회 제공합니다. 영웅이 <c val=\"#TooltipNumbers\">3</c>초 안에 죽으면 중첩이 <c val=\"#TooltipNumbers\">5</c>회 증가합니다.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">보상:</c> 대상을 <c val=\"#TooltipNumbers\">45</c>회 적중하면, 폭풍강타가 처음 적중한 대상을 관통합니다. 일반 공격을 할 때마다 폭풍강타의 재사용 대기시간이 <c val=\"#TooltipNumbers\">0.5</c>초 감소하고 마나를 <c val=\"#TooltipNumbers\">3</c> 회복합니다.<n/><n/><<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">신화 보상:</c> 대상을 <c val=\"#TooltipNumbers\">160</c>회 적중하면 폭풍강타의 사거리가 <c val=\"#TooltipNumbers\">50%</c> 증가하고, 너비가 <c val=\"#TooltipNumbers\">100%</c> 증가하며 모든 대상을 관통합니다.",
+      "name": "폭풍강타",
+      "shortText": "망치를 던져 처음 적중한 적을 기절시키고 피해를 줌"
+    },
+    "MuradinThunderclap|MuradinThunderclap|W": {
+      "cooldownText": "재사용 대기시간: 8초",
+      "energyText": "<s val=\"StandardTooltipDetails\">마나: 50</s>",
+      "fullText": "주위 적들에게 <c val=\"#TooltipNumbers\">96</c><c val=\"#ColorGray\">~~0.04~~</c>의 피해를 주고 <c val=\"#TooltipNumbers\">2.5</c>초 동안 <c val=\"#TooltipNumbers\">30%</c> 느려지게 합니다. 적 영웅에게 적중하면 지속 시간 동안 공격 속도 또한 <c val=\"#TooltipNumbers\">30%</c> 감소시킵니다.",
+      "name": "천둥벼락",
+      "shortText": "주위 적들에게 피해를 주고 느려지게 함"
+    },
+    "MuradinDwarfToss|MuradinDwarfToss|E": {
+      "cooldownText": "재사용 대기시간: 10초",
+      "energyText": "<s val=\"StandardTooltipDetails\">마나: 55</s>",
+      "fullText": "대상 위치로 도약하여 착지 시 적들에게 <c val=\"#TooltipNumbers\">59</c><c val=\"#ColorGray\">~~0.04~~</c>의 피해를 줍니다. 도약 시 방어력이 <c val=\"#TooltipNumbers\">2</c>초 동안 <c val=\"#TooltipNumbers\">30</c> 증가하여 받는 피해가 <c val=\"#TooltipNumbers\">30%</c> 감소합니다.",
+      "name": "드워프 도약",
+      "shortText": "대상 위치로 도약하여 주위 적들에게 피해를 줌"
+    },
+    "MuradinAvatar|MuradinAvatar|Heroic": {
+      "cooldownText": "재사용 대기시간: 90초",
+      "energyText": "<s val=\"StandardTooltipDetails\">마나: 80</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">20</c>초 동안 변신하여, <c val=\"#TooltipNumbers\">1000</c><c val=\"#ColorGray\">~~0.04~~</c>의 생명력을 얻습니다.",
+      "name": "투신",
+      "shortText": "일시적인 생명력 증가"
+    },
+    "MuradinHaymaker|MuradinHaymaker|Heroic": {
+      "cooldownText": "재사용 대기시간: 40초",
+      "energyText": "<s val=\"StandardTooltipDetails\">마나: 60</s>",
+      "fullText": "대상 적 영웅을 기절시키고, 주먹에 힘을 모아 <c val=\"#TooltipNumbers\">319</c><c val=\"#ColorGray\">~~0.04~~</c>의 피해를 주며 밀쳐냅니다. 경로 상의 적들은 <c val=\"#TooltipNumbers\">319</c><c val=\"#ColorGray\">~~0.04~~</c>의 피해를 받으며 옆으로 밀쳐집니다.",
+      "name": "초강타",
+      "shortText": "적을 기절시키고 밀쳐냄"
+    },
+    ":PASSIVE:|MuradinSecondWind|Trait": {
+      "fullText": "<c val=\"#TooltipNumbers\">4</c>초 동안 피해를 받지 않으면 초당 <c val=\"#TooltipNumbers\">55</c><c val=\"#ColorGray\">~~0.04~~</c>의 생명력을 회복합니다. 생명력이 <c val=\"#TooltipNumbers\">40%</c> 미만이면 회복하는 생명력이 초당 <c val=\"#TooltipNumbers\">111</c><c val=\"#ColorGray\">~~0.04~~</c><lang rule=\"jongsung\">으로,로</lang> 증가합니다.",
+      "name": "재기의 바람",
+      "shortText": "피해를 받지 않는 동안 생명력 추가 회복"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "재사용 대기시간: 4초",
+      "fullText": "<c val=\"#TooltipNumbers\">1</c>초 동안 정신을 집중한 후, 이동 속도가 <s val=\"StandardTooltipDetails\">30%</s> 증가합니다.",
+      "name": "탈것 소환"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "<c val=\"#TooltipNumbers\">6</c>초 동안 정신을 집중한 후, 폭풍의 전당으로 귀환하여 즉시 <c val=\"#TooltipNumbers\">1125</c>의 생명력과 <c val=\"#TooltipNumbers\">150</c>의 마나를 회복합니다.",
+      "name": "귀환석"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "탈것에서 내립니다.",
+      "name": "탈것 소환 해제"
+    },
+    "Stoneform|MuradinSecondWindActivateable|Trait": {
+      "cooldownText": "재사용 대기시간: 60초",
+      "fullText": "<c val=\"#TooltipNumbers\">4</c>초 동안 피해를 받지 않으면 초당 <c val=\"#TooltipNumbers\">55</c><c val=\"#ColorGray\">~~0.04~~</c>의 생명력을 회복합니다. 생명력이 <c val=\"#TooltipNumbers\">40%</c> 미만이면 회복하는 생명력이 초당 <c val=\"#TooltipNumbers\">111</c><c val=\"#ColorGray\">~~0.04~~</c><lang rule=\"jongsung\">으로,로</lang> 증가합니다.",
+      "name": "재기의 바람",
+      "shortText": "피해를 받지 않는 동안 생명력 추가 회복"
+    },
+    "TalentImposingPresence|GenericImposingPresenceTalent|Active": {
+      "cooldownText": "재사용 대기시간: 20초",
+      "fullText": "사용하면 주위 적 영웅과 소환수가 <c val=\"#TooltipNumbers\">2.5</c>초 동안 공격 속도가 <c val=\"#TooltipNumbers\">50%</c>, 이동 속도가 <c val=\"#TooltipNumbers\">20%</c> 감소합니다.<n/><n/><c val=\"#AbilityPassive\">지속 효과:</c> 자신을 공격하는 적 영웅과 소환수의 공격 속도가 <c val=\"#TooltipNumbers\">2.5</c>초 동안 <c val=\"#TooltipNumbers\">20%</c> 감소합니다.",
+      "name": "압도적 존재감",
+      "shortText": "사용 시 적 공격 및 이동 속도 감소"
+    },
+    "TalentHardenedShield|HardenedShieldTalent|Active": {
+      "cooldownText": "재사용 대기시간: 60초",
+      "fullText": "사용하면 방어력이 <c val=\"#TooltipNumbers\">4</c>초 동안 <c val=\"#TooltipNumbers\">75</c> 증가하여 받는 피해가 <c val=\"#TooltipNumbers\">75%</c> 감소합니다.",
+      "name": "강화 보호막",
+      "shortText": "사용 시 방어력 대폭 증가"
+    }
+  },
+  "talents": {
+    "MuradinDwarfBlock|MuradinDwarfBlock|E|Level1": {
+      "fullText": "드워프 도약을 사용하면 막기가 <c val=\"#TooltipNumbers\">3</c>회 충전됩니다. 각 막기는 적 영웅 한 명의 다음 일반 공격에 대한 물리 방어력을 <c val=\"#TooltipNumbers\">75</c> 증가시켜 받는 피해를 <c val=\"#TooltipNumbers\">75%</c> 감소시킵니다.",
+      "name": "드워프 막기",
+      "shortText": "드워프 도약이 물리 방어력을 증가시킴"
+    },
+    "MuradinCombatStyleThirdWind|MuradinSecondWindThirdWindTalent|Trait|Level1": {
+      "fullText": "생명력 재생률이 초당 <c val=\"#TooltipNumbers\">90</c><c val=\"#ColorGray\">~~0.04~~</c><lang rule=\"jongsung\">으로,로</lang> 증가하고, 이제 생명력이 <c val=\"#TooltipNumbers\">60%</c> 이하로 내려가면 재생률이 초당 <c val=\"#TooltipNumbers\">180</c><c val=\"#ColorGray\">~~0.04~~</c><lang rule=\"jongsung\">으로,로</lang> 증가합니다.",
+      "name": "극기의 바람",
+      "shortText": "재기의 바람 치유 효과 증가"
+    },
+    "MuradinGiveEmTheAxeExecutioner60DamageBonus|MuradinGiveEmTheAxeTalent|Passive|Level1": {
+      "fullText": "감속, 기절, 이동 불가 상태인 적 영웅에게 일반 공격을 하면 일반 공격력이 <c val=\"#TooltipNumbers\">3</c>초 동안 <c val=\"#TooltipNumbers\">40%</c> 증가합니다.",
+      "name": "도끼 집행자",
+      "shortText": "무력화된 영웅 공격 시 일반 공격력 증가"
+    },
+    "MuradinMasteryStormhammerSledgehammer|MuradinStormboltSledgehammerTalent|Q|Level4": {
+      "fullText": "폭풍강타가 영웅이 아닌 적에게 <c val=\"#TooltipNumbers\">500%</c>의 피해를 줍니다.  폭풍강타의 재사용 대기시간이 <c val=\"#TooltipNumbers\">1.5</c>초 감소합니다.",
+      "name": "거대 망치",
+      "shortText": "폭풍강타가 영웅이 아닌 대상에게 주는 피해 증가 및 재사용 대기시간 감소"
+    },
+    "MuradinMasteryThunderclapReverberation|MuradinThunderclapReverberationTalent|W|Level4": {
+      "fullText": "천둥벼락의 공격 속도 감소량이 <c val=\"#TooltipNumbers\">30%</c>에서 <c val=\"#TooltipNumbers\">50%</c>로 증가하고 지속 시간이 <c val=\"#TooltipNumbers\">2.5</c>초에서 <c val=\"#TooltipNumbers\">3.5</c>초로 증가합니다. 천둥벼락이 적중한 적 영웅 하나당 궁극기의 재사용 대기시간이 <c val=\"#TooltipNumbers\">5%</c> 감소합니다.",
+      "name": "반향",
+      "shortText": "천둥벼락 및 궁극기 강화"
+    },
+    "MuradinMasteryThunderburn|MuradinThunderclapThunderburnTalent|W|Level4": {
+      "fullText": "천둥벼락이 적 영웅에게 적중하면 두 번째 천둥벼락이 발동해 충격 지역이 <c val=\"#TooltipNumbers\">2</c>초 후에 폭발하여 <c val=\"#TooltipNumbers\">72</c><c val=\"#ColorGray\">~~0.04~~</c>의 피해를 줍니다.",
+      "name": "천둥연소",
+      "shortText": "천둥벼락이 일정 시간 후 두 번째 피해"
+    },
+    "MuradinStormboltPerfectStorm|MuradinStormboltPerfectStormTalent|Q|Level7": {
+      "fullText": "적이 폭풍강타에 적중당한 후 <c val=\"#TooltipNumbers\">3</c>초 안에 죽으면 폭풍강타의 재사용 대기시간이 초기화되고 <c val=\"#TooltipNumbers\">25</c>의 마나를 돌려받습니다. 이 효과는 <c val=\"#TooltipNumbers\">8.5</c>초의 재사용 대기시간을 가집니다.",
+      "name": "완벽한 폭풍",
+      "shortText": "폭풍강타로 적 처치 시 재사용 대기시간 초기화"
+    },
+    "MuradinMasteryDwarfTossHeavyImpact|MuradinDwarfTossHeavyImpactTalent|E|Level7": {
+      "fullText": "드워프 도약이 적을 <c val=\"#TooltipNumbers\">1.5</c>초 동안 <c val=\"#TooltipNumbers\">80%</c> 느려지게 합니다.",
+      "name": "육중한 충격",
+      "shortText": "드워프 도약이 적을 느려지게 함"
+    },
+    "MuradinCombatStyleSkullcracker|MuradinSecondWindSkullcrackerTalent|Passive|Level7": {
+      "fullText": "같은 적에게 일반 공격이 연속으로 <c val=\"#TooltipNumbers\">3</c>회 적중할 때마다 대상에게 <c val=\"#TooltipNumbers\">90%</c>의 추가 피해를 주고 <c val=\"#TooltipNumbers\">0.25</c>초 동안 기절시킵니다.",
+      "name": "해골파쇄",
+      "shortText": "연속 일반 공격 시 추가 피해 및 대상 기절"
+    },
+    "MuradinHeroicAbilityAvatar|MuradinAvatar|Heroic|Level10": {
+      "cooldownText": "재사용 대기시간: 90초",
+      "energyText": "<s val=\"StandardTooltipDetails\">마나: 80</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">20</c>초 동안 변신하여, <c val=\"#TooltipNumbers\">1000</c><c val=\"#ColorGray\">~~0.04~~</c>의 생명력을 얻습니다.",
+      "name": "투신",
+      "shortText": "일시적인 생명력 증가"
+    },
+    "MuradinHeroicAbilityHaymaker|MuradinHaymaker|Heroic|Level10": {
+      "cooldownText": "재사용 대기시간: 40초",
+      "energyText": "<s val=\"StandardTooltipDetails\">마나: 60</s>",
+      "fullText": "대상 적 영웅을 기절시키고, 주먹에 힘을 모아 <c val=\"#TooltipNumbers\">319</c><c val=\"#ColorGray\">~~0.04~~</c>의 피해를 주며 밀쳐냅니다. 경로 상의 적들은 <c val=\"#TooltipNumbers\">319</c><c val=\"#ColorGray\">~~0.04~~</c>의 피해를 받으며 옆으로 밀쳐집니다.",
+      "name": "초강타",
+      "shortText": "적을 기절시키고 밀쳐냄"
+    },
+    "MuradinBronzebeardRage|MuradinBronzebeardRage|Q|Level13": {
+      "fullText": "주위 적들에게 초당 <c val=\"#TooltipNumbers\">15</c><c val=\"#ColorGray\">~~0.04~~</c>의 피해를 주고 이 공격으로 준 피해의 <c val=\"#TooltipNumbers\">75%</c>만큼 생명력을 회복합니다. 폭풍강타가 적 영웅에게 적중하면 이 효과의 공격력이 <c val=\"#TooltipNumbers\">3</c>초 동안 <c val=\"#TooltipNumbers\">200%</c> 증가합니다.",
+      "name": "브론즈비어드의 분노",
+      "shortText": "주위 적들에게 피해"
+    },
+    "MuradinMasteryThunderclapHealingStatic|MuradinThunderclapHealingStaticTalent|W|Level13": {
+      "fullText": "천둥벼락이 적중한 적 영웅 하나당 최대 생명력의 <c val=\"#TooltipNumbers\">6%</c>를 회복합니다.",
+      "name": "치유의 벼락",
+      "shortText": "천둥벼락이 생명력 회복"
+    },
+    "MuradinMasteryThunderclapThunderstrike|MuradinThunderclapThunderstrikeTalent|W|Level13": {
+      "fullText": "천둥벼락이 한 대상에게만 적중하면 <c val=\"#TooltipNumbers\">200%</c>의 추가 피해를 줍니다.<n/><n/><c val=\"#AbilityPassive\">지속 효과:</c> 드워프 도약의 방어력 지속 시간이 <c val=\"#TooltipNumbers\">2</c>초 증가합니다.",
+      "name": "날벼락",
+      "shortText": "천둥벼락이 단일 대상에게 주는 피해 증가"
+    },
+    "MuradinMasteryDwarfTossDwarfLaunch|MuradinDwarfTossDwarfLaunchTalent|E|Level16": {
+      "fullText": "드워프 도약의 사거리가 <c val=\"#TooltipNumbers\">30%</c> 증가합니다. 드워프 도약이 적 영웅에게 적중하면 재사용 대기시간이 <c val=\"#TooltipNumbers\">1</c>초 감소합니다.",
+      "name": "드워프 추진",
+      "shortText": "드워프 도약 사거리 증가"
+    },
+    "MuradinMasteryPassiveStoneform|MuradinSecondWindStoneformTalent|Trait|Level16": {
+      "cooldownText": "재사용 대기시간: 60초",
+      "fullText": "사용하면 <c val=\"#TooltipNumbers\">10</c>초에 걸쳐 최대 생명력의 <c val=\"#TooltipNumbers\">30%</c>를 회복합니다. 생명력을 회복하는 동안 재기의 바람은 비활성화됩니다.",
+      "name": "석화",
+      "shortText": "사용 시 지속 치유"
+    },
+    "GenericTalentImposingPresence|GenericImposingPresenceTalent|Active|Level16": {
+      "cooldownText": "재사용 대기시간: 20초",
+      "fullText": "사용하면 주위 적 영웅과 소환수가 <c val=\"#TooltipNumbers\">2.5</c>초 동안 공격 속도가 <c val=\"#TooltipNumbers\">50%</c>, 이동 속도가 <c val=\"#TooltipNumbers\">20%</c> 감소합니다.<n/><n/><c val=\"#AbilityPassive\">지속 효과:</c> 자신을 공격하는 적 영웅과 소환수의 공격 속도가 <c val=\"#TooltipNumbers\">2.5</c>초 동안 <c val=\"#TooltipNumbers\">20%</c> 감소합니다.",
+      "name": "압도적 존재감",
+      "shortText": "사용 시 적 공격 및 이동 속도 감소"
+    },
+    "MuradinMasteryAvatarUnstoppableForce|MuradinAvatarUnstoppableForceTalent|Heroic|Level20": {
+      "fullText": "투신이 활성화된 동안 방어력이 <c val=\"#TooltipNumbers\">20</c> 증가하고 일반 공격을 할 때마다 천둥벼락과 드워프 도약의 재사용 대기시간이 <c val=\"#TooltipNumbers\">0.75</c>초 감소합니다.",
+      "name": "막을 수 없는 힘",
+      "shortText": "투신 강화"
+    },
+    "MuradinMasteryHaymakerGrandSlam|MuradinHaymakerGrandSlamTalent|Heroic|Level20": {
+      "fullText": "초강타가 <c val=\"#TooltipNumbers\">2</c>회 충전되고 공격력이 <c val=\"#TooltipNumbers\">25%</c> 증가합니다. 적 영웅이 초강타에 적중당한 후 <c val=\"#TooltipNumbers\">3</c>초 안에 죽으면 초강타가 즉시 <c val=\"#TooltipNumbers\">1</c>회 충전됩니다.",
+      "name": "그랜드 슬램",
+      "shortText": "초강타 공격력 증가 및 충전 횟수 추가"
+    },
+    "MuradinExtraCharges|MuradinExtraCharges|Passive|Level20": {
+      "fullText": "천둥벼락과 드워프 도약을 각각 <c val=\"#TooltipNumbers\">2회</c> 충전할 수 있습니다.",
+      "name": "산왕",
+      "shortText": "천둥벼락과 드워프 도약 충전 횟수가 증가합니다."
+    },
+    "GenericTalentHardenedShield|HardenedShieldTalent|Active|Level20": {
+      "cooldownText": "재사용 대기시간: 60초",
+      "fullText": "사용하면 방어력이 <c val=\"#TooltipNumbers\">4</c>초 동안 <c val=\"#TooltipNumbers\">75</c> 증가하여 받는 피해가 <c val=\"#TooltipNumbers\">75%</c> 감소합니다.",
+      "name": "강화 보호막",
+      "shortText": "사용 시 방어력 대폭 증가"
+    }
+  },
+  "units": {}
+}

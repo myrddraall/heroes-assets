@@ -1,0 +1,936 @@
+{
+  "id": "Chen",
+  "unitId": "HeroChen",
+  "hyperlinkId": "Chen",
+  "attributeId": "Chen",
+  "franchise": "Warcraft",
+  "rarity": "Epic",
+  "releaseDate": "2014-09-09",
+  "isMelee": true,
+  "gender": "Male",
+  "radius": 0.9375,
+  "innerRadius": 0.9375,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "BattleBeast",
+  "ratings": {
+    "complexity": 8,
+    "damage": 5,
+    "survivability": 8,
+    "utility": 5
+  },
+  "life": {
+    "amount": 2473,
+    "scale": 0.04,
+    "regenRate": 5.1523,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 100,
+    "regenRate": 0
+  },
+  "playstyles": [
+    "BodyBlocker",
+    "Escaper",
+    "Ganker",
+    "Overconfident",
+    "RoleTank",
+    "SoloLaner"
+  ],
+  "weapons": [
+    {
+      "nameId": "ChenHeroWeaponComboStrikes",
+      "isDisabled": false,
+      "range": 2,
+      "minimumRange": 0,
+      "period": 0.9,
+      "damage": 90,
+      "damageScale": 0.04
+    },
+    {
+      "nameId": "ChenHeroWeapon",
+      "isDisabled": false,
+      "range": 2,
+      "minimumRange": 0,
+      "period": 0.9,
+      "damage": 90,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "ChenHat",
+    "ChenLunar",
+    "ChenUltimate",
+    "ChenWarmaster"
+  ],
+  "variationSkinIds": [
+    "ChenGreen",
+    "ChenRed",
+    "ChenVar3"
+  ],
+  "voiceLineIds": [
+    "ChenBase_VoiceLine01",
+    "ChenBase_VoiceLine02",
+    "ChenBase_VoiceLine03",
+    "ChenBase_VoiceLine04",
+    "ChenBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "ChenFlyingKick|ChenFlyingKick|Q",
+        "abilityId": "ChenFlyingKick",
+        "buttonId": "ChenFlyingKick",
+        "icon": "storm_ui_icon_chen_flyingkick.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "ChenKegSmash|ChenKegSmash|W",
+        "abilityId": "ChenKegSmash",
+        "buttonId": "ChenKegSmash",
+        "icon": "storm_ui_icon_chen_kegsmash.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "ChenStagger|ChenStagger|E",
+        "abilityId": "ChenStagger",
+        "buttonId": "ChenStagger",
+        "icon": "storm_ui_icon_chen_stagger.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "ChenStormEarthFire|ChenStormEarthFire|Heroic",
+        "abilityId": "ChenStormEarthFire",
+        "buttonId": "ChenStormEarthFire",
+        "icon": "storm_ui_icon_chen_stormearthfire.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "ChenWanderingKeg|ChenWanderingKeg|Heroic",
+        "abilityId": "ChenWanderingKeg",
+        "buttonId": "ChenWanderingKeg",
+        "icon": "storm_ui_icon_chen_wanderingkeg.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": "ChenFortifyingBrew|ChenFortifyingBrew|Trait",
+        "abilityId": "ChenFortifyingBrew",
+        "buttonId": "ChenFortifyingBrew",
+        "icon": "storm_ui_icon_chen_fortifyingbrew.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|HearthstoneBrew|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "HearthstoneBrew",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "ChenKegSmash|ChenKegSmash|W": {
+      "Basic": [
+        {
+          "linkId": "ChenBreathOfFire|ChenBreathOfFire|W",
+          "abilityId": "ChenBreathOfFire",
+          "buttonId": "ChenBreathOfFire",
+          "icon": "storm_ui_icon_chen_breathoffire.png",
+          "toggleCooldown": 0.25,
+          "abilityType": "W"
+        }
+      ]
+    },
+    "ChenStormEarthFire|ChenStormEarthFire|Heroic": {
+      "Basic": [
+        {
+          "linkId": "ChenStorm|ChenStorm|Q",
+          "abilityId": "ChenStorm",
+          "buttonId": "ChenStorm",
+          "icon": "storm_temp_war3_btntornado.png",
+          "charges": {
+            "countMax": 1,
+            "countStart": 1,
+            "countUse": 1,
+            "isCountHidden": true
+          },
+          "abilityType": "Q"
+        },
+        {
+          "linkId": "ChenEarth|ChenEarth|W",
+          "abilityId": "ChenEarth",
+          "buttonId": "ChenEarth",
+          "icon": "storm_temp_war3_btnearthquake.png",
+          "charges": {
+            "countMax": 1,
+            "countStart": 1,
+            "countUse": 1,
+            "isCountHidden": true
+          },
+          "abilityType": "W"
+        },
+        {
+          "linkId": "ChenFire|ChenFire|E",
+          "abilityId": "ChenFire",
+          "buttonId": "ChenFire",
+          "icon": "storm_temp_war3_btnmarkoffire.png",
+          "charges": {
+            "countMax": 1,
+            "countStart": 1,
+            "countUse": 1,
+            "isCountHidden": true
+          },
+          "abilityType": "E"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "ChenElusiveBrawler|ChenElusiveBrawler|Active|Level7": {
+      "Activable": [
+        {
+          "linkId": "ChenElusiveBrawler|ChenElusiveBrawlerHotbar|Active",
+          "abilityId": "ChenElusiveBrawler",
+          "buttonId": "ChenElusiveBrawlerHotbar",
+          "icon": "storm_ui_icon_chen_elusivebrew.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "ChenAccumulatingFlame|ChenAccumulatingFlame|W|Level1",
+        "talentId": "ChenAccumulatingFlame",
+        "buttonId": "ChenAccumulatingFlame",
+        "abilityId": "ChenBreathOfFire",
+        "icon": "storm_ui_icon_chen_breathoffire.png",
+        "abilityType": "W",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ChenBreathOfFire|ChenBreathOfFire|W",
+          "ChenKegSmash|ChenKegSmash|W"
+        ]
+      },
+      {
+        "linkId": "ChenFreshestIngredients|ChenFreshestIngredients|Trait|Level1",
+        "talentId": "ChenFreshestIngredients",
+        "buttonId": "ChenFreshestIngredients",
+        "abilityId": "ChenFortifyingBrew",
+        "icon": "storm_ui_icon_chen_fortifyingbrew.png",
+        "abilityType": "Trait",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ChenFortifyingBrew|ChenFortifyingBrew|Trait"
+        ]
+      },
+      {
+        "linkId": "ChenStormstoutSecretRecipe|ChenStormstoutSecretRecipe|Passive|Level1",
+        "talentId": "ChenStormstoutSecretRecipe",
+        "buttonId": "ChenStormstoutSecretRecipe",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_chen_stormstoutsecretrecipe.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "ChenFortifyingBrew|ChenFortifyingBrew|Trait"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "ChenDeadlyStrike|ChenFlyingKickDeadlyStrikeTalent|Q|Level4",
+        "talentId": "ChenDeadlyStrike",
+        "buttonId": "ChenFlyingKickDeadlyStrikeTalent",
+        "abilityId": "ChenFlyingKick",
+        "icon": "storm_ui_icon_chen_flyingkick.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ChenFlyingKick|ChenFlyingKick|Q"
+        ]
+      },
+      {
+        "linkId": "ChenEyeOfTheTiger|ChenEyeOfTheTiger|W|Level4",
+        "talentId": "ChenEyeOfTheTiger",
+        "buttonId": "ChenEyeOfTheTiger",
+        "abilityId": "ChenKegSmash",
+        "icon": "storm_ui_icon_chen_kegsmash.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ChenBreathOfFire|ChenBreathOfFire|W",
+          "ChenKegSmash|ChenKegSmash|W"
+        ]
+      },
+      {
+        "linkId": "ChenWitheringFlames|ChenWitheringFlames|W|Level4",
+        "talentId": "ChenWitheringFlames",
+        "buttonId": "ChenWitheringFlames",
+        "abilityId": "ChenBreathOfFire",
+        "icon": "storm_ui_icon_chen_breathoffire_a.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "ChenBreathOfFire|ChenBreathOfFire|W",
+          "ChenKegSmash|ChenKegSmash|W"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "ChenGiftOfTheOxStagger|ChenGiftOfTheOxStagger|E|Level7",
+        "talentId": "ChenGiftOfTheOxStagger",
+        "buttonId": "ChenGiftOfTheOxStagger",
+        "abilityId": "ChenStagger",
+        "icon": "storm_ui_icon_chen_stagger.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ChenStagger|ChenStagger|E"
+        ]
+      },
+      {
+        "linkId": "ChenBrewmastersBalance|ChenFortifyingBrewBrewmastersBalanceTalent|Trait|Level7",
+        "talentId": "ChenBrewmastersBalance",
+        "buttonId": "ChenFortifyingBrewBrewmastersBalanceTalent",
+        "abilityId": "ChenFortifyingBrew",
+        "icon": "storm_ui_icon_chen_fortifyingbrew.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ChenFortifyingBrew|ChenFortifyingBrew|Trait"
+        ]
+      },
+      {
+        "linkId": "ChenElusiveBrawler|ChenElusiveBrawler|Active|Level7",
+        "talentId": "ChenElusiveBrawler",
+        "buttonId": "ChenElusiveBrawler",
+        "abilityId": "ChenElusiveBrawler",
+        "icon": "storm_ui_icon_chen_elusivebrew.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "ChenHeroicAbilityWanderingKeg|ChenWanderingKeg|Heroic|Level10",
+        "talentId": "ChenHeroicAbilityWanderingKeg",
+        "buttonId": "ChenWanderingKeg",
+        "abilityId": "ChenWanderingKeg",
+        "icon": "storm_ui_icon_chen_wanderingkeg.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "ChenHeroicAbilityStormEarthFire|ChenStormEarthFire|Heroic|Level10",
+        "talentId": "ChenHeroicAbilityStormEarthFire",
+        "buttonId": "ChenStormEarthFire",
+        "abilityId": "ChenStormEarthFire",
+        "icon": "storm_ui_icon_chen_stormearthfire.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "ChenPressurePoint|ChenFlyingKickPressurePointTalent|Q|Level13",
+        "talentId": "ChenPressurePoint",
+        "buttonId": "ChenFlyingKickPressurePointTalent",
+        "abilityId": "ChenFlyingKick",
+        "icon": "storm_ui_icon_chen_flyingkick.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ChenFlyingKick|ChenFlyingKick|Q"
+        ]
+      },
+      {
+        "linkId": "ChenMasteryKegSmashATouchOfHoney|ChenKegSmashATouchOfHoneyTalent|W|Level13",
+        "talentId": "ChenMasteryKegSmashATouchOfHoney",
+        "buttonId": "ChenKegSmashATouchOfHoneyTalent",
+        "abilityId": "ChenKegSmash",
+        "icon": "storm_ui_icon_chen_kegsmash.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ChenBreathOfFire|ChenBreathOfFire|W",
+          "ChenKegSmash|ChenKegSmash|W"
+        ]
+      },
+      {
+        "linkId": "ChenRingofFire|ChenBreathOfFireRingOfFireTalent|W|Level13",
+        "talentId": "ChenRingofFire",
+        "buttonId": "ChenBreathOfFireRingOfFireTalent",
+        "abilityId": "ChenBreathOfFire",
+        "icon": "storm_ui_icon_chen_breathoffire.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "ChenBreathOfFire|ChenBreathOfFire|W",
+          "ChenKegSmash|ChenKegSmash|W"
+        ]
+      },
+      {
+        "linkId": "ChenMasteryFortifyingBrewEnoughToShare|ChenFortifyingBrewEnoughToShareTalent|Trait|Level13",
+        "talentId": "ChenMasteryFortifyingBrewEnoughToShare",
+        "buttonId": "ChenFortifyingBrewEnoughToShareTalent",
+        "abilityId": "ChenFortifyingBrew",
+        "icon": "storm_ui_icon_chen_fortifyingbrew.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          "ChenFortifyingBrew|ChenFortifyingBrew|Trait"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "ChenFlyingLeap|ChenFlyingLeap|Q|Level16",
+        "talentId": "ChenFlyingLeap",
+        "buttonId": "ChenFlyingLeap",
+        "abilityId": "ChenFlyingKick",
+        "icon": "storm_ui_icon_chen_flyingkick.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ChenFlyingKick|ChenFlyingKick|Q"
+        ]
+      },
+      {
+        "linkId": "ChenCelerity|ChenCelerityStagger|E|Level16",
+        "talentId": "ChenCelerity",
+        "buttonId": "ChenCelerityStagger",
+        "abilityId": "ChenStagger",
+        "icon": "storm_ui_icon_chen_stagger.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ChenStagger|ChenStagger|E"
+        ]
+      },
+      {
+        "linkId": "ChenComboStrikes|ChenFortifyingBrewComboStrikesTalent|Trait|Level16",
+        "talentId": "ChenComboStrikes",
+        "buttonId": "ChenFortifyingBrewComboStrikesTalent",
+        "abilityId": "ChenFortifyingBrew",
+        "icon": "storm_ui_icon_chen_fortifyingbrew.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "ChenFortifyingBrew|ChenFortifyingBrew|Trait"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "ChenMasteryWanderingKegUntappedPotential|ChenWanderingKegUntappedPotentialTalent|Heroic|Level20",
+        "talentId": "ChenMasteryWanderingKegUntappedPotential",
+        "buttonId": "ChenWanderingKegUntappedPotentialTalent",
+        "abilityId": "ChenWanderingKeg",
+        "icon": "storm_ui_icon_chen_wanderingkeg.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ChenWanderingKeg|ChenWanderingKeg|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "ChenHeroicAbilityWanderingKeg"
+        ]
+      },
+      {
+        "linkId": "ChenElementalConduit|ChenStormEarthFireElementalConduitTalent|Heroic|Level20",
+        "talentId": "ChenElementalConduit",
+        "buttonId": "ChenStormEarthFireElementalConduitTalent",
+        "abilityId": "ChenStormEarthFire",
+        "icon": "storm_ui_icon_chen_stormearthfire.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ChenStorm|ChenStorm|Q",
+          "ChenEarth|ChenEarth|W",
+          "ChenFire|ChenFire|E",
+          "ChenStormEarthFire|ChenStormEarthFire|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "ChenHeroicAbilityStormEarthFire"
+        ]
+      },
+      {
+        "linkId": "ChenPurifyingBrew|ChenPurifyingBrew|Trait|Level20",
+        "talentId": "ChenPurifyingBrew",
+        "buttonId": "ChenPurifyingBrew",
+        "abilityId": "ChenFortifyingBrew",
+        "icon": "storm_ui_icon_chen_fortifyingbrew.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "ChenFortifyingBrew|ChenFortifyingBrew|Trait"
+        ]
+      },
+      {
+        "linkId": "ChenEnergizingBrew|ChenFortifyingBrewEnergizingBrewTalent|Trait|Level20",
+        "talentId": "ChenEnergizingBrew",
+        "buttonId": "ChenFortifyingBrewEnergizingBrewTalent",
+        "abilityId": "ChenFortifyingBrew",
+        "icon": "storm_ui_icon_chen_fortifyingbrew_b.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          "ChenFortifyingBrew|ChenFortifyingBrew|Trait"
+        ]
+      }
+    ]
+  },
+  "heroUnits": {
+    "HeroChenEarth": {
+      "radius": 0.8125,
+      "innerRadius": 0.8125,
+      "sight": 12,
+      "speed": 4.8398,
+      "attributes": [
+        "Heroic"
+      ],
+      "scalingLinkIds": [
+        "HeroDummyVeterancy"
+      ],
+      "life": {
+        "amount": 1731,
+        "scale": 0.04,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "energy": {
+        "amount": 500,
+        "regenRate": 3
+      },
+      "portraits": {
+        "minimap": "storm_ui_minimapicon_heros_chen.png",
+        "targetInfo": "storm_ui_ingame_targetinfopanel_unit_chen_earth.png"
+      },
+      "weapons": [
+        {
+          "nameId": "ChenEarthHeroWeapon",
+          "isDisabled": false,
+          "range": 1,
+          "minimumRange": 0,
+          "period": 1.5,
+          "damage": 37,
+          "damageScale": 0.04
+        },
+        {
+          "nameId": "ChenEarthHeroWeaponAggro",
+          "isDisabled": true,
+          "range": 1,
+          "minimumRange": 0,
+          "period": 1.5,
+          "damage": 37,
+          "damageScale": 0.04
+        }
+      ],
+      "abilities": {
+        "Mount": [
+          {
+            "linkId": "Mount|SummonMount|Z",
+            "abilityId": "Mount",
+            "buttonId": "SummonMount",
+            "icon": "storm_ui_icon_generic_mount.png",
+            "abilityType": "Z"
+          }
+        ],
+        "Hearth": [
+          {
+            "linkId": "Hearthstone|HearthstoneNoMana|B",
+            "abilityId": "Hearthstone",
+            "buttonId": "HearthstoneNoMana",
+            "icon": "storm_ui_icon_miscrune_1.png",
+            "abilityType": "B"
+          }
+        ]
+      },
+      "subAbilities": {
+        "Mount|SummonMount|Z": {
+          "Mount": [
+            {
+              "linkId": "Dismount|UnsummonMount|Z",
+              "abilityId": "Dismount",
+              "buttonId": "UnsummonMount",
+              "icon": "storm_ui_icon_generic_cancel_mount.png",
+              "toggleCooldown": 0.1,
+              "abilityType": "Z"
+            }
+          ]
+        }
+      }
+    },
+    "HeroChenFire": {
+      "radius": 0.625,
+      "innerRadius": 0.625,
+      "sight": 12,
+      "speed": 4.8398,
+      "attributes": [
+        "Heroic"
+      ],
+      "scalingLinkIds": [
+        "HeroDummyVeterancy"
+      ],
+      "life": {
+        "amount": 1731,
+        "scale": 0.04,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "energy": {
+        "amount": 500,
+        "regenRate": 3
+      },
+      "portraits": {
+        "minimap": "storm_ui_minimapicon_heros_chen.png",
+        "targetInfo": "storm_ui_ingame_targetinfopanel_unit_chen_fire.png"
+      },
+      "weapons": [
+        {
+          "nameId": "ChenFireHeroWeapon",
+          "isDisabled": false,
+          "range": 1,
+          "minimumRange": 0,
+          "period": 0.6,
+          "damage": 17,
+          "damageScale": 0.04
+        },
+        {
+          "nameId": "ChenFireHeroWeaponAggro",
+          "isDisabled": true,
+          "range": 1,
+          "minimumRange": 0,
+          "period": 0.6,
+          "damage": 17,
+          "damageScale": 0.04
+        }
+      ],
+      "abilities": {
+        "Mount": [
+          {
+            "linkId": "Mount|SummonMount|Z",
+            "abilityId": "Mount",
+            "buttonId": "SummonMount",
+            "icon": "storm_ui_icon_generic_mount.png",
+            "abilityType": "Z"
+          }
+        ],
+        "Hearth": [
+          {
+            "linkId": "Hearthstone|HearthstoneNoMana|B",
+            "abilityId": "Hearthstone",
+            "buttonId": "HearthstoneNoMana",
+            "icon": "storm_ui_icon_miscrune_1.png",
+            "abilityType": "B"
+          }
+        ]
+      },
+      "subAbilities": {
+        "Mount|SummonMount|Z": {
+          "Mount": [
+            {
+              "linkId": "Dismount|UnsummonMount|Z",
+              "abilityId": "Dismount",
+              "buttonId": "UnsummonMount",
+              "icon": "storm_ui_icon_generic_cancel_mount.png",
+              "toggleCooldown": 0.1,
+              "abilityType": "Z"
+            }
+          ]
+        }
+      }
+    },
+    "HeroChenStorm": {
+      "radius": 0.625,
+      "innerRadius": 0.625,
+      "sight": 12,
+      "speed": 4.8398,
+      "attributes": [
+        "Heroic"
+      ],
+      "scalingLinkIds": [
+        "HeroDummyVeterancy"
+      ],
+      "life": {
+        "amount": 1731,
+        "scale": 0.04,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "energy": {
+        "amount": 500,
+        "regenRate": 3
+      },
+      "portraits": {
+        "minimap": "storm_ui_minimapicon_heros_chen.png",
+        "targetInfo": "storm_ui_ingame_targetinfopanel_unit_chen_storm.png"
+      },
+      "weapons": [
+        {
+          "nameId": "ChenStormHeroWeapon",
+          "isDisabled": false,
+          "range": 9.75,
+          "minimumRange": 0,
+          "period": 0.8,
+          "damage": 59,
+          "damageScale": 0.04
+        },
+        {
+          "nameId": "ChenStormHeroWeaponAggro",
+          "isDisabled": true,
+          "range": 6.5,
+          "minimumRange": 0,
+          "period": 0.8,
+          "damage": 59,
+          "damageScale": 0.04
+        }
+      ],
+      "abilities": {
+        "Mount": [
+          {
+            "linkId": "Mount|SummonMount|Z",
+            "abilityId": "Mount",
+            "buttonId": "SummonMount",
+            "icon": "storm_ui_icon_generic_mount.png",
+            "abilityType": "Z"
+          }
+        ],
+        "Hearth": [
+          {
+            "linkId": "Hearthstone|HearthstoneNoMana|B",
+            "abilityId": "Hearthstone",
+            "buttonId": "HearthstoneNoMana",
+            "icon": "storm_ui_icon_miscrune_1.png",
+            "abilityType": "B"
+          }
+        ]
+      },
+      "subAbilities": {
+        "Mount|SummonMount|Z": {
+          "Mount": [
+            {
+              "linkId": "Dismount|UnsummonMount|Z",
+              "abilityId": "Dismount",
+              "buttonId": "UnsummonMount",
+              "icon": "storm_ui_icon_generic_cancel_mount.png",
+              "toggleCooldown": 0.1,
+              "abilityType": "Z"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "sheet": "sheets/Chen.png",
+  "icons": {
+    "storm_ui_icon_chen_flyingkick.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_chen_kegsmash.png": [
+      300,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_chen_stagger.png": [
+      600,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_chen_stormearthfire.png": [
+      900,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_chen_wanderingkeg.png": [
+      1200,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_chen_fortifyingbrew.png": [
+      0,
+      300,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_mount.png": [
+      300,
+      300,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      600,
+      300,
+      111,
+      71
+    ],
+    "storm_ui_icon_chen_breathoffire.png": [
+      900,
+      300,
+      128,
+      128
+    ],
+    "storm_temp_war3_btntornado.png": [
+      1200,
+      300,
+      64,
+      64
+    ],
+    "storm_temp_war3_btnearthquake.png": [
+      0,
+      600,
+      64,
+      64
+    ],
+    "storm_temp_war3_btnmarkoffire.png": [
+      300,
+      600,
+      64,
+      64
+    ],
+    "storm_ui_icon_generic_cancel_mount.png": [
+      600,
+      600,
+      76,
+      48
+    ],
+    "storm_ui_icon_chen_elusivebrew.png": [
+      900,
+      600,
+      300,
+      300
+    ],
+    "storm_ui_icon_chen_stormstoutsecretrecipe.png": [
+      1200,
+      600,
+      300,
+      300
+    ],
+    "storm_ui_icon_chen_breathoffire_a.png": [
+      0,
+      900,
+      128,
+      128
+    ],
+    "storm_ui_icon_chen_fortifyingbrew_b.png": [
+      300,
+      900,
+      128,
+      128
+    ]
+  }
+}

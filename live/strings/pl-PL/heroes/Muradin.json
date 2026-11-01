@@ -1,0 +1,190 @@
+{
+  "abilities": {
+    "MuradinStormBolt|MuradinStormbolt|Q": {
+      "cooldownText": "Czas odnowienia: 10 sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 45</s>",
+      "fullText": "Ciskasz młotem, który zadaje pierwszemu trafionemu wrogowi <c val=\"#TooltipNumbers\">110</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń i ogłusza go na <c val=\"#TooltipNumbers\">1.25</c> sek.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Zadanie:</c> Trafiaj atakami podstawowymi wrogów pod wpływem ogłuszenia, spowolnienia lub unieruchomienia. Spowolnieni lub unieruchomieni bohaterowie zapewniają <c val=\"#TooltipNumbers\">1</c> kumulację. Ogłuszeni wrogowie zapewniają więcej kumulacji (<c val=\"#TooltipNumbers\">2</c>). Jeśli bohater umrze w ciągu <c val=\"#TooltipNumbers\">3</c> sek., zyskujesz więcej kumulacji (<c val=\"#TooltipNumbers\">5</c>).<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Nagroda:</c> Po trafieniu <c val=\"#TooltipNumbers\">45</c> celów Pocisk Burzy przebija wrogów i trafia dodatkowy cel, a ataki podstawowe Muradina skracają czas odnowienia Pocisku Burzy o <c val=\"#TooltipNumbers\">0.5</c> sek. i przywracają <c val=\"#TooltipNumbers\">3</c> pkt. many.<n/><n/><<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Nagroda mityczna:</c> Po trafieniu <c val=\"#TooltipNumbers\">160</c> celów zasięg Pocisku Burzy wzrasta o <c val=\"#TooltipNumbers\">50%</c>, szerokość o <c val=\"#TooltipNumbers\">100%</c>, a pocisk przebija wszystkie cele.",
+      "name": "Pocisk Burzy",
+      "shortText": "Ciska młotem, ogłuszając pierwszego trafionego przeciwnika i zadając mu obrażenia"
+    },
+    "MuradinThunderclap|MuradinThunderclap|W": {
+      "cooldownText": "Czas odnowienia: 8 sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Muradin uderza w pobliskich przeciwników, zadając <c val=\"#TooltipNumbers\">96</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń i spowalniając ich o <c val=\"#TooltipNumbers\">30%</c> na <c val=\"#TooltipNumbers\">2.5</c> sek. Dodatkowo zmniejsza szybkość ataku trafionych wrogów o <c val=\"#TooltipNumbers\">30%</c> na czas trwania efektu.",
+      "name": "Waligrom",
+      "shortText": "Spowalnia pobliskich wrogów <w>i zadaje im obrażenia"
+    },
+    "MuradinDwarfToss|MuradinDwarfToss|E": {
+      "cooldownText": "Czas odnowienia: 10 sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 55</s>",
+      "fullText": "Muradin doskakuje do wybranego obszaru i zadaje podczas lądowania <c val=\"#TooltipNumbers\">59</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń wrogom. <w>W chwili skoku zyskuje również na </w><c val=\"#TooltipNumbers\">2</c><w> sek. </w><c val=\"#TooltipNumbers\">30</c><w> pkt. pancerza, który zmniejsza otrzymywane przez niego obrażenia o </w><c val=\"#TooltipNumbers\">30%</c><w>.</w>",
+      "name": "Krasnomiot",
+      "shortText": "Doskakuje do wybranego obszaru i zadaje obrażenia pobliskim wrogom"
+    },
+    "MuradinAvatar|MuradinAvatar|Heroic": {
+      "cooldownText": "Czas odnowienia: 90 sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 80</s>",
+      "fullText": "Muradin przemienia się na <c val=\"#TooltipNumbers\">20</c> sek. i zyskuje <c val=\"#TooltipNumbers\">1000</c><c val=\"#ColorGray\">~~0.04~~</c><w> pkt. zdrowia.",
+      "name": "Awatar",
+      "shortText": "Tymczasowo zwiększa poziom zdrowia"
+    },
+    "MuradinHaymaker|MuradinHaymaker|Heroic": {
+      "cooldownText": "Czas odnowienia: 40 sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Muradin ogłusza wybranego wrogiego bohatera <w>i wyprowadza cios, który zadaje mu </w><c val=\"#TooltipNumbers\">319</c><c val=\"#ColorGray\">~~0.04~~</c><w> pkt. obrażeń. Wróg zostaje odrzucony do tyłu </w><w>i zadaje przeciwnikom po drodze </w><c val=\"#TooltipNumbers\">319</c><c val=\"#ColorGray\">~~0.04~~</c><w> pkt. obrażeń oraz odrzuca ich na boki.</w>",
+      "name": "Sierpowy",
+      "shortText": "Ogłusza i odrzuca wroga"
+    },
+    ":PASSIVE:|MuradinSecondWind|Trait": {
+      "fullText": "Muradin odzyskuje <c val=\"#TooltipNumbers\">55</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. zdrowia na sekundę, jeśli nie odniósł żadnych obrażeń przez co najmniej <c val=\"#TooltipNumbers\">4</c> sek. Kiedy Muradin ma mniej niż <c val=\"#TooltipNumbers\">40%</c> zdrowia, odzyskuje <c val=\"#TooltipNumbers\">111</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. zdrowia na sekundę.",
+      "name": "Drugi Oddech",
+      "shortText": "Odzyskuje zdrowie, gdy nie odnosi obrażeń"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Czas odnowienia: 4 sek.",
+      "fullText": "Po podtrzymywaniu przez <c val=\"#TooltipNumbers\">1</c> sek. zyskujesz premię <s val=\"StandardTooltipDetails\">30%</s> do szybkości ruchu.",
+      "name": "Przyzwanie Wierzchowca"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Po podtrzymywaniu przez <c val=\"#TooltipNumbers\">6</c> sek. teleportuje bohatera z powrotem do Dworu Burz i przywraca mu natychmiast <c val=\"#TooltipNumbers\">1125</c> pkt. zdrowia oraz <c val=\"#TooltipNumbers\">150</c> pkt. many.",
+      "name": "Kamień Powrotu"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Opuszczasz wierzchowca.",
+      "name": "Odesłanie Wierzchowca"
+    },
+    "Stoneform|MuradinSecondWindActivateable|Trait": {
+      "cooldownText": "Czas odnowienia: 60 sek.",
+      "fullText": "Muradin odzyskuje <c val=\"#TooltipNumbers\">55</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. zdrowia na sekundę, jeśli nie odniósł żadnych obrażeń przez co najmniej <c val=\"#TooltipNumbers\">4</c> sek. Kiedy Muradin ma mniej niż <c val=\"#TooltipNumbers\">40%</c> zdrowia, odzyskuje <c val=\"#TooltipNumbers\">111</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. zdrowia na sekundę.",
+      "name": "Drugi Oddech",
+      "shortText": "Odzyskuje zdrowie, gdy nie odnosi obrażeń"
+    },
+    "TalentImposingPresence|GenericImposingPresenceTalent|Active": {
+      "cooldownText": "Czas odnowienia: 20 sek.",
+      "fullText": "Aktywuj, aby zmniejszyć o <c val=\"#TooltipNumbers\">50%</c> szybkość ataku oraz o <c val=\"#TooltipNumbers\">20%</c> szybkość ruchu pobliskich bohaterów i przywołańców na <c val=\"#TooltipNumbers\">2.5</c> sek.<n/><n/><c val=\"#AbilityPassive\">Działanie pasywne:</c> Szybkość ataku bohaterów i przywołańców, którzy atakują twojego bohatera, spada o <c val=\"#TooltipNumbers\">20%</c> na <c val=\"#TooltipNumbers\">2.5 </c>sek.",
+      "name": "Imponująca Obecność",
+      "shortText": "Aktywuj, aby zmniejszyć szybkość ataków podstawowych oraz ruchu wroga"
+    },
+    "TalentHardenedShield|HardenedShieldTalent|Active": {
+      "cooldownText": "Czas odnowienia: 60 sek.",
+      "fullText": "Aktywuj, aby zyskać <c val=\"#TooltipNumbers\">75</c> pkt. pancerza, który zmniejsza otrzymywane obrażenia o <c val=\"#TooltipNumbers\">75%</c> na <c val=\"#TooltipNumbers\">4</c> sek.",
+      "name": "Wzmocniona Osłona",
+      "shortText": "Aktywuj, aby zyskać potężny pancerz"
+    }
+  },
+  "talents": {
+    "MuradinDwarfBlock|MuradinDwarfBlock|E|Level1": {
+      "fullText": "Użycie Krasnomiotu zapewnia ładunki Bloku (<c val=\"#TooltipNumbers\">3</c>). Każdy z ładunków zapewnia <c val=\"#TooltipNumbers\">75</c> pkt. pancerza fizycznego przeciwko pojedynczemu atakowi podstawowemu wymierzonemu przez wrogiego bohatera i zmniejsza otrzymywane wówczas obrażenia o <c val=\"#TooltipNumbers\">75%</c>.",
+      "name": "Krasnoludzki Blok",
+      "shortText": "Krasnomiot zapewnia pancerz fizyczny"
+    },
+    "MuradinCombatStyleThirdWind|MuradinSecondWindThirdWindTalent|Trait|Level1": {
+      "fullText": "Tempo odzyskiwania zdrowia wzrasta do <c val=\"#TooltipNumbers\">90</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. na sekundę. Wartość graniczna, do której działa zwiększone tempo odzyskiwania <c val=\"#TooltipNumbers\">180</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. zdrowia na sekundę, zostaje zwiększona do <c val=\"#TooltipNumbers\">60%</c> twojego maksymalnego zdrowia.",
+      "name": "Trzeci Oddech",
+      "shortText": "Zwiększa skuteczność leczenia Drugiego Oddechu"
+    },
+    "MuradinGiveEmTheAxeExecutioner60DamageBonus|MuradinGiveEmTheAxeTalent|Passive|Level1": {
+      "fullText": "Zaatakowanie bohatera spowolnionego, unieruchomionego lub ogłuszonego zwiększa obrażenia od ataku podstawowego Muradina <w>o </w><c val=\"#TooltipNumbers\">40%</c><w> na </w><c val=\"#TooltipNumbers\">3</c><w> sek.",
+      "name": "Na Szafot!",
+      "shortText": "Atakowanie obezwładnionych bohaterów zwiększa obrażenia"
+    },
+    "MuradinMasteryStormhammerSledgehammer|MuradinStormboltSledgehammerTalent|Q|Level4": {
+      "fullText": "Pocisk Burzy zadaje <c val=\"#TooltipNumbers\">500%</c> obrażeń celom niebędącym bohaterami. Czas odnowienia Pocisku Burzy jest skrócony o <c val=\"#TooltipNumbers\">1,5</c> sek.",
+      "name": "Kafar",
+      "shortText": "Zwiększa obrażenia zadawane przez Pocisk Burzy celom niebędącym bohaterami, skraca czas odnowienia"
+    },
+    "MuradinMasteryThunderclapReverberation|MuradinThunderclapReverberationTalent|W|Level4": {
+      "fullText": "Zwiększa skuteczność efektu redukcji szybkości ataku zapewnianego przez Waligrom z <c val=\"#TooltipNumbers\">30%</c> do <c val=\"#TooltipNumbers\">50%</c> oraz wydłuża czas działania <w>z </w><c val=\"#TooltipNumbers\">2.5</c><w> sek. do </w><c val=\"#TooltipNumbers\">3.5</c><w> sek. Czas odnowienia zdolności bohaterskiej zostaje skrócony o </w><c val=\"#TooltipNumbers\">5%</c><w> za każdego trafionego wrogiego bohatera.</w>",
+      "name": "Pomruk Burzy",
+      "shortText": "Wzmacnia Waligrom i zdolność bohaterską"
+    },
+    "MuradinMasteryThunderburn|MuradinThunderclapThunderburnTalent|W|Level4": {
+      "fullText": "Trafienie wrogiego bohatera Waligromem wyzwala w tym samym miejscu kolejny Waligrom po upływie <c val=\"#TooltipNumbers\">2</c> sek., który zadaje <c val=\"#TooltipNumbers\">72</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń.",
+      "name": "Paligrom",
+      "shortText": "Waligrom może uderzyć po raz drugi"
+    },
+    "MuradinStormboltPerfectStorm|MuradinStormboltPerfectStormTalent|Q|Level7": {
+      "fullText": "Jeśli wróg zostanie trafiony Pociskiem Burzy w ciągu <c val=\"#TooltipNumbers\">3</c> sek. przed śmiercią, czas odnowienia Pocisku Burzy zostaje zresetowany, a postać odzyska <c val=\"#TooltipNumbers\">25</c> pkt. many. Czas odnowienia dla tego efektu wynosi <c val=\"#TooltipNumbers\">8.5</c> sek.",
+      "name": "Gwałtowna Burza",
+      "shortText": "Zabijaj wrogów Pociskiem Burzy, aby resetować czas odnowienia."
+    },
+    "MuradinMasteryDwarfTossHeavyImpact|MuradinDwarfTossHeavyImpactTalent|E|Level7": {
+      "fullText": "Wrogowie trafieni Krasnomiotem zostają spowolnieni o <c val=\"#TooltipNumbers\">80%</c> na <c val=\"#TooltipNumbers\">1.5</c><w> sek.",
+      "name": "Wielki Impet",
+      "shortText": "Krasnomiot tymczasowo spowalnia trafionych wrogów"
+    },
+    "MuradinCombatStyleSkullcracker|MuradinSecondWindSkullcrackerTalent|Passive|Level7": {
+      "fullText": "Co <c val=\"#TooltipNumbers\">3</c> atak podstawowy wymierzony w tego samego przeciwnika zadaje dodatkowo <c val=\"#TooltipNumbers\">90%</c> obrażeń i ogłusza go na <c val=\"#TooltipNumbers\">0.25</c> sek.",
+      "name": "Miażdżyczerep",
+      "shortText": "Kolejne ataki podstawowe ogłuszają i zadają więcej obrażeń"
+    },
+    "MuradinHeroicAbilityAvatar|MuradinAvatar|Heroic|Level10": {
+      "cooldownText": "Czas odnowienia: 90 sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 80</s>",
+      "fullText": "Muradin przemienia się na <c val=\"#TooltipNumbers\">20</c> sek. i zyskuje <c val=\"#TooltipNumbers\">1000</c><c val=\"#ColorGray\">~~0.04~~</c><w> pkt. zdrowia.",
+      "name": "Awatar",
+      "shortText": "Tymczasowo zwiększa poziom zdrowia"
+    },
+    "MuradinHeroicAbilityHaymaker|MuradinHaymaker|Heroic|Level10": {
+      "cooldownText": "Czas odnowienia: 40 sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Muradin ogłusza wybranego wrogiego bohatera <w>i wyprowadza cios, który zadaje mu </w><c val=\"#TooltipNumbers\">319</c><c val=\"#ColorGray\">~~0.04~~</c><w> pkt. obrażeń. Wróg zostaje odrzucony do tyłu </w><w>i zadaje przeciwnikom po drodze </w><c val=\"#TooltipNumbers\">319</c><c val=\"#ColorGray\">~~0.04~~</c><w> pkt. obrażeń oraz odrzuca ich na boki.</w>",
+      "name": "Sierpowy",
+      "shortText": "Ogłusza i odrzuca wroga"
+    },
+    "MuradinBronzebeardRage|MuradinBronzebeardRage|Q|Level13": {
+      "fullText": "Zadaje pobliskim przeciwnikom <c val=\"#TooltipNumbers\">15</c><c val=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń na sekundę i przywraca Muradinowi w postaci zdrowia równowartość <c val=\"#TooltipNumbers\">75%</c> zadanych obrażeń. Trafienie wrogiego bohatera Pociskiem Burzy zwiększa te obrażenia o <c val=\"#TooltipNumbers\">200%</c> na <c val=\"#TooltipNumbers\">3</c> sek.",
+      "name": "Szał Miedziobrodych",
+      "shortText": "Zadaje obrażenia pobliskim wrogom"
+    },
+    "MuradinMasteryThunderclapHealingStatic|MuradinThunderclapHealingStaticTalent|W|Level13": {
+      "fullText": "Muradin odzyskuje <c val=\"#TooltipNumbers\">6%</c> maksymalnego zdrowia za każdego bohatera trafionego Waligromem.",
+      "name": "Uzdrawiający Prąd",
+      "shortText": "Waligrom przywraca zdrowie Muradinowi"
+    },
+    "MuradinMasteryThunderclapThunderstrike|MuradinThunderclapThunderstrikeTalent|W|Level13": {
+      "fullText": "Waligrom zadaje <c val=\"#TooltipNumbers\">200%</c> więcej obrażeń, jeśli trafi tylko jeden cel.<n/><n/><c val=\"#AbilityPassive\">Działanie pasywne:</c> Czas działania pancerza zapewnianego przez Krasnomiot zostaje wydłużony o <c val=\"#TooltipNumbers\">2</c> sek.",
+      "name": "Młot Błyskawic",
+      "shortText": "Zwiększa obrażenia zadawane pojedynczemu przeciwnikowi przez Waligrom"
+    },
+    "MuradinMasteryDwarfTossDwarfLaunch|MuradinDwarfTossDwarfLaunchTalent|E|Level16": {
+      "fullText": "Zwiększa zasięg Krasnomiotu o <c val=\"#TooltipNumbers\">30%</c>. Trafienie wrogiego bohatera Krasnomiotem skraca jego czas odnowienia o <c val=\"#TooltipNumbers\">1</c> sek.",
+      "name": "Krasnolot",
+      "shortText": "Zwiększa zasięg Krasnomiotu"
+    },
+    "MuradinMasteryPassiveStoneform|MuradinSecondWindStoneformTalent|Trait|Level16": {
+      "cooldownText": "Czas odnowienia: 60 sek.",
+      "fullText": "Aktywuj, aby Muradin odzyskał <c val=\"#TooltipNumbers\">30%</c> maksymalnego zdrowia w ciągu <c val=\"#TooltipNumbers\">10</c> sek. W tym czasie Drugi Oddech jest nieaktywny.",
+      "name": "Kamienna Postać",
+      "shortText": "Aktywuj, aby przywrócić sobie zdrowie z upływem czasu"
+    },
+    "GenericTalentImposingPresence|GenericImposingPresenceTalent|Active|Level16": {
+      "cooldownText": "Czas odnowienia: 20 sek.",
+      "fullText": "Aktywuj, aby zmniejszyć o <c val=\"#TooltipNumbers\">50%</c> szybkość ataku oraz o <c val=\"#TooltipNumbers\">20%</c> szybkość ruchu pobliskich bohaterów i przywołańców na <c val=\"#TooltipNumbers\">2.5</c> sek.<n/><n/><c val=\"#AbilityPassive\">Działanie pasywne:</c> Szybkość ataku bohaterów i przywołańców, którzy atakują twojego bohatera, spada o <c val=\"#TooltipNumbers\">20%</c> na <c val=\"#TooltipNumbers\">2.5 </c>sek.",
+      "name": "Imponująca Obecność",
+      "shortText": "Aktywuj, aby zmniejszyć szybkość ataków podstawowych oraz ruchu wroga"
+    },
+    "MuradinMasteryAvatarUnstoppableForce|MuradinAvatarUnstoppableForceTalent|Heroic|Level20": {
+      "fullText": "Kiedy Awatar jest aktywny, zapewnia Muradinowi <c val=\"#TooltipNumbers\">20</c> pkt. pancerza, a także sprawia, że ataki podstawowe skracają czas odnowienia Waligromu oraz Krasnomiotu o <c val=\"#TooltipNumbers\">0.75</c> sek.",
+      "name": "Niepowstrzymana Siła",
+      "shortText": "Awatar zapewnia dodatkowe premie"
+    },
+    "MuradinMasteryHaymakerGrandSlam|MuradinHaymakerGrandSlamTalent|Heroic|Level20": {
+      "fullText": "Sierpowy zyskuje drugi ładunek, a zadawane przez niego obrażenia wzrastają o <c val=\"#TooltipNumbers\">25%</c>. Jeśli bohater zginie w ciągu <c val=\"#TooltipNumbers\">3</c> sek. po trafieniu Sierpowym, zdolność natychmiast zyskuje <c val=\"#TooltipNumbers\">1</c> ładunek.",
+      "name": "Mordobicie",
+      "shortText": "Zwiększa obrażenia Sierpowego oraz dodaje ładunek"
+    },
+    "MuradinExtraCharges|MuradinExtraCharges|Passive|Level20": {
+      "fullText": "Waligrom i Krasnomiot mają <c val=\"#TooltipNumbers\">2.</c> ładunek.",
+      "name": "Król Gór",
+      "shortText": "Waligrom i Krasnomiot mają dodatkowy ładunek."
+    },
+    "GenericTalentHardenedShield|HardenedShieldTalent|Active|Level20": {
+      "cooldownText": "Czas odnowienia: 60 sek.",
+      "fullText": "Aktywuj, aby zyskać <c val=\"#TooltipNumbers\">75</c> pkt. pancerza, który zmniejsza otrzymywane obrażenia o <c val=\"#TooltipNumbers\">75%</c> na <c val=\"#TooltipNumbers\">4</c> sek.",
+      "name": "Wzmocniona Osłona",
+      "shortText": "Aktywuj, aby zyskać potężny pancerz"
+    }
+  },
+  "units": {}
+}

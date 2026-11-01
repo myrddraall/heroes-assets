@@ -1,0 +1,213 @@
+{
+  "abilities": {
+    "TassadarShockRay|TassadarShockRay|Q": {
+      "cooldownText": "Abklingzeit: 7 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 55</s>",
+      "fullText": "Kanalisiert einen Strahl psionischer Energie, der Gegnern in einer geraden Linie <c val=\"#TooltipNumbers\">280</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zufügt und sie <c val=\"#TooltipNumbers\">2</c> Sek. lang um <c val=\"#TooltipNumbers\">30%</c> verlangsamt.",
+      "name": "Schockstrahl",
+      "shortText": "Verursacht Schaden und verlangsamt Gegner in einer geraden Linie."
+    },
+    "TassadarPsionicStorm|TassadarPsionicStorm|W": {
+      "cooldownText": "Abklingzeit: 8 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Erzeugt am Zielort einen Psi-Sturm, der Gegnern <c val=\"#TooltipNumbers\">3</c> Sek. lang alle <c val=\"#TooltipNumbers\">0.5</c> Sek. <c val=\"#TooltipNumbers\">38</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zufügt. Mit jedem Schadensimpuls wird der Schaden um <c val=\"#TooltipNumbers\">20%</c> erhöht, bis maximal <c val=\"#TooltipNumbers\">100%</c>.",
+      "name": "Psi-Sturm",
+      "shortText": "Fügt Gegnern im Wirkungsbereich Schaden zu."
+    },
+    "TassadarForceWall|TassadarForceWall|E": {
+      "cooldownText": "Abklingzeit: 18 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 65</s>",
+      "fullText": "Erzeugt nach <c val=\"#TooltipNumbers\">0.5</c> Sek. eine unpassierbare Kraftfeldwand, die <c val=\"#TooltipNumbers\">2</c> Sek. lang bestehen bleibt.",
+      "name": "Kraftfeldwand",
+      "shortText": "Erzeugt eine unpassierbare Wand."
+    },
+    "TassadarArchon|TassadarArchon|Heroic": {
+      "cooldownText": "Abklingzeit: 90 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 100</s>",
+      "fullText": "Verwandelt Tassadar in einen Archon, verleiht ihm einen Plasmaschild in Höhe von <c val=\"#TooltipNumbers\">25%</c> seiner maximalen Lebenspunkte und verstärkt den Resonanzstrahl. Hält <c val=\"#TooltipNumbers\">12</c> Sek. lang an.<n/><n/><c val=\"#AbilityPassive\">Resonanzstrahl:</c> Fügt dem Ziel <c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zu und verursacht <c val=\"#TooltipNumbers\">70</c><c val=\"#ColorGray\">~~0.04~~</c> Flächenschaden. Verringert die Zauberpanzerung getroffener Helden <c val=\"#TooltipNumbers\">2</c> Sek. lang um <c val=\"#TooltipNumbers\">20</c>. Solange der Archon aktiv ist, ist der Resonanzstrahl voll aufgeladen.",
+      "name": "Archon",
+      "shortText": "Verwandelt Tassadar in einen Archon."
+    },
+    "TassadarBlackHole|TassadarBlackHole|Heroic": {
+      "cooldownText": "Abklingzeit: 60 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Erschafft nach <c val=\"#TooltipNumbers\">0.5</c> Sek. ein schwarzes Loch, das sich in einer geraden Line bewegt. Gegnerische Helden im Wirkungsbereich werden schnell zum Zentrum des Lochs gezogen. Das Zentrum verursacht <c val=\"#TooltipNumbers\">310</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden und betäubt Ziele <c val=\"#TooltipNumbers\">1.25</c> Sek. lang.",
+      "name": "Schwarzes Loch",
+      "shortText": "Fügt Helden in einer geraden Linie Schaden zu und betäubt sie."
+    },
+    ":PASSIVE:|TassadarResonanceBeam|Trait": {
+      "fullText": "Tassadars automatischer Angriff ist ein kanalisierter Strahl, der Gegner um <c val=\"#TooltipNumbers\">15%</c> verlangsamt. Erhöht während des Kanalisierens den Schaden automatischer Angriffe und die Manaregeneration pro Sekunde um <c val=\"#TooltipNumbers\">25%</c>, bis maximal <c val=\"#TooltipNumbers\">100%</c>. Bei voller Aufladung wird die Manaregeneration zusätzlich um <c val=\"#TooltipNumbers\">3</c> Mana pro Sekunde erhöht.<n/><n/>Dieser Bonus geht verloren, wenn der Resonanzstrahl <c val=\"#TooltipNumbers\">6</c> Sek. lang inaktiv war.",
+      "name": "Resonanzstrahl",
+      "shortText": "Automatische Angriffe werden kanalisiert und erhöhen die Manaregeneration."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Abklingzeit: 4 Sek.",
+      "fullText": "Erhöht die Bewegungsgeschwindigkeit nach <c val=\"#TooltipNumbers\">1</c> Sek. Kanalisierung um <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Aufsitzen"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Kanalisiert <c val=\"#TooltipNumbers\">6</c> Sek. lang und teleportiert sich dann zurück zum Altar der Stürme. Dabei werden sofort <c val=\"#TooltipNumbers\">1125</c> Lebenspunkte und <c val=\"#TooltipNumbers\">150</c> Mana wiederhergestellt.",
+      "name": "Ruhestein"
+    },
+    "TassadarForceWallCancel|TassadarForceWallCancel|E": {
+      "cooldownText": "Abklingzeit: 1 Sek.",
+      "fullText": "Zerstört die aktive Kraftfeldwand.",
+      "name": "Kraftfeldwand abbrechen"
+    },
+    ":PASSIVE:|TassadarArchon|Heroic": {
+      "fullText": "Verwandelt Tassadar in einen Archon, verleiht ihm einen Plasmaschild in Höhe von <c val=\"#TooltipNumbers\">25%</c> seiner maximalen Lebenspunkte und verstärkt den Resonanzstrahl. Hält <c val=\"#TooltipNumbers\">12</c> Sek. lang an.<n/><n/><c val=\"#AbilityPassive\">Resonanzstrahl:</c> Fügt dem Ziel <c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zu und verursacht <c val=\"#TooltipNumbers\">70</c><c val=\"#ColorGray\">~~0.04~~</c> Flächenschaden. Verringert die Zauberpanzerung getroffener Helden <c val=\"#TooltipNumbers\">2</c> Sek. lang um <c val=\"#TooltipNumbers\">20</c>. Solange der Archon aktiv ist, ist der Resonanzstrahl voll aufgeladen.",
+      "name": "Archon",
+      "shortText": "Verwandelt Tassadar in einen Archon."
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Sitzt ab.",
+      "name": "Absitzen"
+    },
+    "TassadarCancelOracle|TassadarCancelOracle|Active": {
+      "fullText": "Orakel abbrechen",
+      "name": "Orakel abbrechen"
+    },
+    "TassadarCancelShadowWalk|TassadarCancelShadowWalk|Active": {
+      "fullText": "Schattenwandeln abbrechen",
+      "name": "Schattenwandeln abbrechen"
+    },
+    "TassadarResonanceBeamArcDischargeDummy|TassadarResonanceBeam|Trait": {
+      "fullText": "Tassadars automatischer Angriff ist ein kanalisierter Strahl, der Gegner um <c val=\"#TooltipNumbers\">15%</c> verlangsamt. Erhöht während des Kanalisierens den Schaden automatischer Angriffe und die Manaregeneration pro Sekunde um <c val=\"#TooltipNumbers\">25%</c>, bis maximal <c val=\"#TooltipNumbers\">100%</c>. Bei voller Aufladung wird die Manaregeneration zusätzlich um <c val=\"#TooltipNumbers\">3</c> Mana pro Sekunde erhöht.<n/><n/>Dieser Bonus geht verloren, wenn der Resonanzstrahl <c val=\"#TooltipNumbers\">6</c> Sek. lang inaktiv war.",
+      "name": "Resonanzstrahl",
+      "shortText": "Automatische Angriffe werden kanalisiert und erhöhen die Manaregeneration."
+    },
+    "TassadarOracleTargeted|TassadarOracleTargeted|Active": {
+      "cooldownText": "Abklingzeit: 45 Sek.",
+      "fullText": "<c val=\"#AbilityPassive\">Passiv:</c> Gewährt <c val=\"#TooltipNumbers\">0.75</c> Sek. lang <c val=\"#TooltipNumbers\">30</c> Zauberpanzerung und stellt pro Sekunde <c val=\"#TooltipNumbers\">12</c><c val=\"#ColorGray\">~~0.04~~</c> Lebenspunkte wieder her, wenn Tassadar stillsteht.<n/><n/>Aktivieren, um bis zu <c val=\"#TooltipNumbers\">4</c> Sek. lang zu kanalisieren und an einem beliebigen Ort des Schlachtfelds einen immer größer werdenden Bereich aufzudecken.",
+      "name": "Orakel",
+      "shortText": "Gewährt Zauberpanzerung. Kanalisieren, um einen Bereich aufzudecken."
+    },
+    "TassadarShadowWalk|TassadarShadowWalk|Active": {
+      "cooldownText": "Abklingzeit: 60 Sek.",
+      "fullText": "Tarnt Tassadar <c val=\"#TooltipNumbers\">1.5</c> Sek. lang. Er ist unaufdeckbar, kann aber nicht angreifen oder Fähigkeiten einsetzen. Erhöht außerdem die Bewegungsgeschwindigkeit um <c val=\"#TooltipNumbers\">40%</c> und gewährt <c val=\"#TooltipNumbers\">35</c> Panzerung.<n/><n/>Kann beim Kanalisieren des Schockstrahls eingesetzt werden.",
+      "name": "Schattenwandeln",
+      "shortText": "Tarnt kurzzeitig und gewährt Panzerung."
+    },
+    "TassadarExecutorsWill|TassadarExecutorsWill|Active": {
+      "cooldownText": "Abklingzeit: 40 Sek.",
+      "fullText": "Aktivieren, um den Resonanzstrahl voll aufzuladen, <c val=\"#TooltipNumbers\">20%</c> Fähigkeitsstärke zu erhalten und die Abklingzeiten aller Grundfähigkeiten und heroischen Fähigkeiten <c val=\"#TooltipNumbers\">25%</c> schneller abzuschließen. Dieser Effekt hält an, solange der Resonanzstrahl voll aufgeladen ist.",
+      "name": "Wille des Exekutors",
+      "shortText": "Aktivieren, um den Resonanzstrahl zu verstärken."
+    }
+  },
+  "talents": {
+    "TassadarStaticCharge|TassadarStaticCharge|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Heldentreffer mit dem Schockstrahl erhöhen den Schaden dauerhaft um <c val=\"#TooltipNumbers\">5</c> und gewähren <c val=\"#TooltipNumbers\">33%</c> Aufladung für den Resonanzstrahl.<n/><n/>Maximal <c val=\"#TooltipNumbers\">200</c> Bonusschaden.",
+      "name": "Statische Aufladung",
+      "shortText": "<c val=\"#TooltipQuest\">Quest:</c> Heldentreffer erhöhen den Schaden."
+    },
+    "TassadarPsionicStormPsiInfusion|TassadarPsionicStormPsiInfusionTalent|W|Level1": {
+      "fullText": "Jeder Gegner (außer Gebäude), den Psi-Sturm trifft, stellt <c val=\"#TooltipNumbers\">0.5</c> Mana wieder her. Dieser Wert erhöht sich sogar auf <c val=\"#TooltipNumbers\">5</c> bei Helden.<n/><n/><c val=\"#AbilityPassive\">Passiv:</c> Erhöht die Reichweite von Psi-Sturm um <c val=\"#TooltipNumbers\">33 %</c>.",
+      "name": "Psi-Infusion",
+      "shortText": "Erhöht die Reichweite. Treffer stellen Mana wieder her."
+    },
+    "TassadarKhaydarinAmulet|TassadarKhaydarinAmulet|Trait|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Der Resonanzstrahl lädt <c val=\"#TooltipNumbers\">50%</c> schneller auf.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Belohnung:</c> Nach <c val=\"#TooltipNumbers\">80</c> Sek. bei voller Aufladung springt der Resonanzstrahl auf <c val=\"#TooltipNumbers\">1</c> weiteres Ziel über und fügt ihm <c val=\"#TooltipNumbers\">75%</c> des Schadens zu, wobei Helden bevorzugt werden.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Belohnung:</c> Nach <c val=\"#TooltipNumbers\">160</c> Sek. bei voller Aufladung springt der Resonanzstrahl auf <c val=\"#TooltipNumbers\">2</c> weitere Ziele über und fügt ihnen <c val=\"#TooltipNumbers\">75%</c> des Schadens zu, wobei Helden bevorzugt werden.",
+      "name": "Khaydarin-Amulett",
+      "shortText": "<c val=\"#TooltipQuest\">Quest:</c> Verstärkt den Resonanzstrahl."
+    },
+    "TassadarInduction|TassadarInduction|Q|Level4": {
+      "fullText": "Erhöht die Bewegungsgeschwindigkeit um <c val=\"#TooltipNumbers\">10%</c>. Der Einsatz des Schockstrahls erhöht diesen Bonus <c val=\"#TooltipNumbers\">3</c> Sek. lang auf <c val=\"#TooltipNumbers\">30%</c>.",
+      "name": "Induktion",
+      "shortText": "Der Schockstrahl erhöht die Bewegungsgeschwindigkeit."
+    },
+    "TassadarElectricFence|TassadarElectricFence|E|Level4": {
+      "fullText": "Die Kraftfeldwand fügt nahen Gegnern pro Sekunde <c val=\"#TooltipNumbers\">92</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zu und verlangsamt sie um <c val=\"#TooltipNumbers\">35%</c>.",
+      "name": "Elektrozaun",
+      "shortText": "Die Kraftfeldwand verursacht Schaden und verlangsamt."
+    },
+    "TassadarPlasmaShield|TassadarPlasmaShieldTalent|Trait|Level4": {
+      "fullText": "Gewährt bei voller Aufladung des Resonanzstrahls pro Sekunde einen Schild in Höhe von <c val=\"#TooltipNumbers\">3%</c> der maximalen Lebenspunkte, bis maximal <c val=\"#TooltipNumbers\">12%</c>.",
+      "name": "Plasmaschild",
+      "shortText": "Die Aufladung des Resonanzstrahls gewährt Schilde."
+    },
+    "TassadarBeamAlignment|TassadarBeamAlignment|Q|Level7": {
+      "fullText": "Bei voller Aufladung des Resonanzstrahls klingt der Schockstrahl <c val=\"#TooltipNumbers\">100%</c> schneller ab und die Dauer der Verlangsamung wird auf <c val=\"#TooltipNumbers\">4</c> Sek. erhöht.<n/><n/><c val=\"#AbilityPassive\">Passiv:</c> Verringert die Manakosten des Schockstrahls von <c val=\"#TooltipNumbers\">55</c> auf <c val=\"#TooltipNumbers\">40</c>. ",
+      "name": "Strahlausrichtung",
+      "shortText": "Der Resonanzstrahl verringert die Abklingzeit des Schockstrahls."
+    },
+    "TassadarPsionicEcho|TassadarPsionicEcho|W|Level7": {
+      "fullText": "Verringert die Manakosten eures nächsten Schockstrahls innerhalb von <c val=\"#TooltipNumbers\">3</c> Sek. nach dem Einsatz von Psi-Sturm um <c val=\"#TooltipNumbers\">30</c> Mana und erzeugt einen Psi-Sturm an der Position des ersten getroffenen gegnerischen Helden.",
+      "name": "Psionisches Echo",
+      "shortText": "Erzeugt einen Psi-Sturm an der Position getroffener Helden."
+    },
+    "TassadarArcDischarge|TassadarArcDischarge|Trait|Level7": {
+      "fullText": "Bei voller Aufladung des Resonanzstrahls wird die Reichweite automatischer Angriffe um <c val=\"#TooltipNumbers\">1</c> erhöht und der nächste Schadensimpuls erzeugt an der Position des Ziels einen Psi-Sturm.<n/><n/>Dieser Effekt hat eine Abklingzeit von <c val=\"#TooltipNumbers\">20</c> Sek. Klingt doppelt so schnell ab, während der Resonanzstrahl voll aufgeladen ist.",
+      "name": "Lichtbogen",
+      "shortText": "Der Resonanzstrahl erzeugt Psi-Stürme."
+    },
+    "TassadarHeroicAbilityArchon|TassadarArchon|Heroic|Level10": {
+      "cooldownText": "Abklingzeit: 90 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 100</s>",
+      "fullText": "Verwandelt Tassadar in einen Archon, verleiht ihm einen Plasmaschild in Höhe von <c val=\"#TooltipNumbers\">25%</c> seiner maximalen Lebenspunkte und verstärkt den Resonanzstrahl. Hält <c val=\"#TooltipNumbers\">12</c> Sek. lang an.<n/><n/><c val=\"#AbilityPassive\">Resonanzstrahl:</c> Fügt dem Ziel <c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden zu und verursacht <c val=\"#TooltipNumbers\">70</c><c val=\"#ColorGray\">~~0.04~~</c> Flächenschaden. Verringert die Zauberpanzerung getroffener Helden <c val=\"#TooltipNumbers\">2</c> Sek. lang um <c val=\"#TooltipNumbers\">20</c>. Solange der Archon aktiv ist, ist der Resonanzstrahl voll aufgeladen.",
+      "name": "Archon",
+      "shortText": "Verwandelt Tassadar in einen Archon."
+    },
+    "TassadarHeroicAbilityBlackHole|TassadarBlackHole|Heroic|Level10": {
+      "cooldownText": "Abklingzeit: 60 Sek.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Erschafft nach <c val=\"#TooltipNumbers\">0.5</c> Sek. ein schwarzes Loch, das sich in einer geraden Line bewegt. Gegnerische Helden im Wirkungsbereich werden schnell zum Zentrum des Lochs gezogen. Das Zentrum verursacht <c val=\"#TooltipNumbers\">310</c><c val=\"#ColorGray\">~~0.04~~</c> Schaden und betäubt Ziele <c val=\"#TooltipNumbers\">1.25</c> Sek. lang.",
+      "name": "Schwarzes Loch",
+      "shortText": "Fügt Helden in einer geraden Linie Schaden zu und betäubt sie."
+    },
+    "TassadarFeedback|TassadarFeedback|W|Level13": {
+      "fullText": "Wenn gegnerische Helden vom Psi-Sturm betroffen sind, wird die Verlangsamung des Resonanzstrahls auf <c val=\"#TooltipNumbers\">50%</c> erhöht und er verringert die physische Panzerung um <c val=\"#TooltipNumbers\">25</c>.",
+      "name": "Rückkopplung",
+      "shortText": "Psi-Sturm verstärkt den Resonanzstrahl."
+    },
+    "TassadarShadowWalk|TassadarShadowWalk|Active|Level13": {
+      "cooldownText": "Abklingzeit: 60 Sek.",
+      "fullText": "Tarnt Tassadar <c val=\"#TooltipNumbers\">1.5</c> Sek. lang. Er ist unaufdeckbar, kann aber nicht angreifen oder Fähigkeiten einsetzen. Erhöht außerdem die Bewegungsgeschwindigkeit um <c val=\"#TooltipNumbers\">40%</c> und gewährt <c val=\"#TooltipNumbers\">35</c> Panzerung.<n/><n/>Kann beim Kanalisieren des Schockstrahls eingesetzt werden.",
+      "name": "Schattenwandeln",
+      "shortText": "Tarnt kurzzeitig und gewährt Panzerung."
+    },
+    "TassadarOracle|TassadarOracleTargeted|Active|Level13": {
+      "cooldownText": "Abklingzeit: 45 Sek.",
+      "fullText": "<c val=\"#AbilityPassive\">Passiv:</c> Gewährt <c val=\"#TooltipNumbers\">0.75</c> Sek. lang <c val=\"#TooltipNumbers\">30</c> Zauberpanzerung und stellt pro Sekunde <c val=\"#TooltipNumbers\">12</c><c val=\"#ColorGray\">~~0.04~~</c> Lebenspunkte wieder her, wenn Tassadar stillsteht.<n/><n/>Aktivieren, um bis zu <c val=\"#TooltipNumbers\">4</c> Sek. lang zu kanalisieren und an einem beliebigen Ort des Schlachtfelds einen immer größer werdenden Bereich aufzudecken.",
+      "name": "Orakel",
+      "shortText": "Gewährt Zauberpanzerung. Kanalisieren, um einen Bereich aufzudecken."
+    },
+    "TassadarThermalLance|TassadarThermalLance|Q|Level16": {
+      "fullText": "Fügt dem ersten getroffenen Helden zusätzlich Schaden in Höhe von <c val=\"#TooltipNumbers\">8%</c> seiner maximalen Lebenspunkte zu.",
+      "name": "Thermolanze",
+      "shortText": "Fügt dem ersten getroffenen Helden prozentualen Schaden zu."
+    },
+    "TassadarPsychicShock|TassadarPsychicShock|W|Level16": {
+      "fullText": "Psi-Sturm verursacht <c val=\"#TooltipNumbers\">25%</c> schneller Schaden.",
+      "name": "Mentale Erschütterung",
+      "shortText": "Psi-Sturm verursacht schneller Schaden."
+    },
+    "TassadarExecutorsWill|TassadarExecutorsWill|Active|Level16": {
+      "cooldownText": "Abklingzeit: 40 Sek.",
+      "fullText": "Aktivieren, um den Resonanzstrahl voll aufzuladen, <c val=\"#TooltipNumbers\">20%</c> Fähigkeitsstärke zu erhalten und die Abklingzeiten aller Grundfähigkeiten und heroischen Fähigkeiten <c val=\"#TooltipNumbers\">25%</c> schneller abzuschließen. Dieser Effekt hält an, solange der Resonanzstrahl voll aufgeladen ist.",
+      "name": "Wille des Exekutors",
+      "shortText": "Aktivieren, um den Resonanzstrahl zu verstärken."
+    },
+    "TassadarMasteryTwilightArchon|TassadarArchonTwilightArchonTalent|Heroic|Level20": {
+      "fullText": "Automatische Angriffe in Archonform erhöhen die Dauer des Effekts um <c val=\"#TooltipNumbers\">2</c> Sek.",
+      "name": "Zwielichtarchon",
+      "shortText": "Automatische Angriffe verlängern die Dauer von Archon."
+    },
+    "TassadarKugelblitz|TassadarKugelblitz|Heroic|Level20": {
+      "fullText": "Das Zentrum des Schwarzen Lochs verringert die Panzerung getroffener gegnerischer Helden <c val=\"#TooltipNumbers\">3</c> Sek. lang um <c val=\"#TooltipNumbers\">20</c> und erzeugt einen Psi-Sturm an ihrer Position.",
+      "name": "Kugelblitz",
+      "shortText": "Das Schwarze Loch verringert die Panzerung und erzeugt Psi-Stürme."
+    },
+    "TassadarMasteryForceBarrier|TassadarForceBarrier|E|Level20": {
+      "fullText": "Erhöht die Dauer der Kraftfeldwand um <c val=\"#TooltipNumbers\">0.5</c> Sek., ihre Einsatzreichweite um <c val=\"#TooltipNumbers\">50 %</c> und verringert die Abklingzeit um <c val=\"#TooltipNumbers\">10</c> Sek.",
+      "name": "Kraftbarriere",
+      "shortText": "Erhöht die Reichweite und verringert die Abklingzeit."
+    },
+    "TassadarKhalasGift|TassadarKhalasGift|Passive|Level20": {
+      "fullText": "Gewährt <c val=\"#TooltipNumbers\">4%</c> Fähigkeitsstärke für jeden verbündeten Helden in der Nähe, einschließlich Tassadar, bis maximal <c val=\"#TooltipNumbers\">20%</c> Fähigkeitsstärke. Alle Helden, die zu diesem Bonus beitragen, profitieren ebenfalls davon.",
+      "name": "Gabe der Khala",
+      "shortText": "Nahe Verbündete gewähren und erhalten Fähigkeitsstärke."
+    }
+  },
+  "units": {}
+}

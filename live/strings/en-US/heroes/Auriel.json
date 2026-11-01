@@ -1,0 +1,183 @@
+{
+  "abilities": {
+    "AurielSacredSweep|AurielSacredSweep|Q": {
+      "cooldownText": "Cooldown: 8 seconds",
+      "fullText": "Sweep the area with sacred power, dealing <c val=\"#TooltipNumbers\">40</c><c val=\"#ColorGray\">~~0.04~~</c> damage to enemies and an additional <c val=\"#TooltipNumbers\">160</c><c val=\"#ColorGray\">~~0.04~~</c> damage to enemies caught in the center.",
+      "name": "Sacred Sweep",
+      "shortText": "Damages enemies in an a wide arc, bonus damage to enemies in the center"
+    },
+    "AurielRayOfHeaven|AurielRayOfHeaven|W": {
+      "cooldownText": "Cooldown: 4 seconds",
+      "fullText": "Consume Auriel's stored energy and heal allied Heroes in the area for the amount of energy consumed.",
+      "name": "Ray of Heaven",
+      "shortText": "Spend all energy to heal allied Heroes in an area"
+    },
+    "AurielDetainmentStrike|AurielDetainmentStrike|E": {
+      "cooldownText": "Cooldown: 12 seconds",
+      "fullText": "Deal <c val=\"#TooltipNumbers\">55</c><c val=\"#ColorGray\">~~0.04~~</c> damage to the first enemy Hero hit and knock them back. If they collide with terrain, they are also stunned for <c val=\"#TooltipNumbers\">1.25</c> seconds and take an additional <c val=\"#TooltipNumbers\">165</c><c val=\"#ColorGray\">~~0.04~~</c> damage.",
+      "name": "Detainment Strike",
+      "shortText": "Knock an enemy Hero back, stunning them if they collide with terrain"
+    },
+    "AurielResurrect|AurielResurrect|Heroic": {
+      "cooldownText": "Cooldown: 100 seconds",
+      "fullText": "Channel on the spirit of a dead ally for <c val=\"#TooltipNumbers\">1</c> second. After a <c val=\"#TooltipNumbers\">3</c> second delay, they are brought back to life with <c val=\"#TooltipNumbers\">100%</c> of their maximum Health at the location where they died.<n/><n/>Auriel can use this ability while dead to resurrect herself.",
+      "name": "Resurrect",
+      "shortText": "Bring an allied Hero back to life"
+    },
+    "AurielCrystalAegis|AurielCrystalAegis|Heroic": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "fullText": "Place an allied Hero into Stasis for <c val=\"#TooltipNumbers\">2</c> seconds. Upon expiration, Crystal Aegis deals <c val=\"#TooltipNumbers\">255</c><c val=\"#ColorGray\">~~0.04~~</c> damage to all nearby enemies.",
+      "name": "Crystal Aegis",
+      "shortText": "Put an allied Hero into a Stasis crystal that explodes"
+    },
+    "AurielBestowHope|AurielBestowHope|Trait": {
+      "cooldownText": "Cooldown: 1.5 seconds",
+      "fullText": "<c val=\"#AbilityPassive\">Passive:</c> <c val=\"#TooltipNumbers\">70%</c> of the damage Auriel deals to Heroes and <c val=\"#TooltipNumbers\">35%</c> dealt to non-Heroes is stored as energy.<n/><n/>Bestow an allied Hero with Hope. While they remain near Auriel, <c val=\"#TooltipNumbers\">30%</c> of their damage to Heroes and <c val=\"#TooltipNumbers\">10%</c> of their damage to non-Heroes is converted to energy. Auriel can only have Bestow Hope on <c val=\"#TooltipNumbers\">1</c> ally at a time.<n/><n/>Auriel can store up to <c val=\"#TooltipNumbers\">475</c><c val=\"#ColorGray\">~~0.04~~</c> energy.",
+      "name": "Bestow Hope",
+      "shortText": "Bestowed ally's damage grants energy"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Cooldown: 4 seconds",
+      "fullText": "After Channeling for <c val=\"#TooltipNumbers\">1</c> second, gain <s val=\"StandardTooltipDetails\">30%</s> Movement Speed.",
+      "name": "Summon Mount"
+    },
+    "Hearthstone|HearthstoneNoMana|B": {
+      "fullText": "After Channeling for <c val=\"#TooltipNumbers\">6</c> seconds, teleport back to the Hall of Storms, instantly restoring <c val=\"#TooltipNumbers\">1125</c> Health.",
+      "name": "Hearthstone"
+    },
+    "AurielResurrectSelf|AurielResurrectSelf|Heroic": {
+      "cooldownText": "Cooldown: 100 seconds",
+      "fullText": "After a <c val=\"#TooltipNumbers\">3</c> second delay, you are brought back to life with <c val=\"#TooltipNumbers\">100%</c> of maximum Health at the location where you died.",
+      "name": "Resurrect",
+      "shortText": "Bring an allied Hero back to life"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Dismounts you.",
+      "name": "Unsummon Mount"
+    },
+    "AurielAngelicFlight|AurielAngelicFlightTalent|Active": {
+      "cooldownText": "Cooldown: 30 seconds",
+      "fullText": "After <c val=\"#TooltipNumbers\">2</c> seconds, fly to a target location.",
+      "name": "Angelic Flight",
+      "shortText": "Activate to fly to a location"
+    },
+    "AurielShieldOfHope|AurielShieldOfHopeTalent|Active": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "fullText": "Activate to grant all nearby allied Heroes a shield for <c val=\"#TooltipNumbers\">3</c> seconds equal to <c val=\"#TooltipNumbers\">50%</c> of the amount of Health they are missing.",
+      "name": "Shield of Hope",
+      "shortText": "Shield nearby allies based on their missing Health"
+    }
+  },
+  "talents": {
+    "AurielIncreasingClaritySacredSweepTalent|AurielIncreasingClaritySacredSweepTalent|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Every time Sacred Sweep hits a Hero in the center, increase the center damage by <c val=\"#TooltipNumbers\">2</c>, up to <c val=\"#TooltipNumbers\">50</c>. <n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Reward:</c> After hitting <c val=\"#TooltipNumbers\">25</c> Heroes, this center damage bonus is increased to <c val=\"#TooltipNumbers\">180</c>.",
+      "name": "Increasing Clarity",
+      "shortText": "<c val=\"#TooltipQuest\">Quest:</c> Increases center damage by hitting Heroes"
+    },
+    "AurielRighteousAssaultSacredSweepTalent|AurielRighteousAssaultSacredSweepTalent|Q|Level1": {
+      "fullText": "Reduces the cooldown of Sacred Sweep by <c val=\"#TooltipNumbers\">3</c> seconds for each enemy Hero hit by its center.",
+      "name": "Righteous Assault",
+      "shortText": "Reduce Sacred Sweep cooldown by hitting Heroes"
+    },
+    "AurielSearingLightRayOfHeavenTalent|AurielSearingLightRayOfHeavenTalent|W|Level1": {
+      "fullText": "Ray of Heaven also deals damage to enemy Heroes in the area equal to <c val=\"#TooltipNumbers\">30%</c> of the energy consumed.",
+      "name": "Searing Light",
+      "shortText": "Ray of Heaven also damages Heroes in the area"
+    },
+    "AurielMajesticSpanSacredSweepTalent|AurielMajesticSpanSacredSweepTalent|Q|Level4": {
+      "fullText": "Increases the radius of Sacred Sweep by <c val=\"#TooltipNumbers\">15%</c>.",
+      "name": "Majestic Span",
+      "shortText": "Increases Sacred Sweep radius"
+    },
+    "AurielHeavyBurdenDetainmentStrikeTalent|AurielHeavyBurdenDetainmentStrikeTalent|E|Level4": {
+      "fullText": "Detainment Strike Slows enemy Heroes by <c val=\"#TooltipNumbers\">20%</c> for <c val=\"#TooltipNumbers\">2.5</c> seconds. Slow amount and duration doubled on enemies it Stuns.<n/><n/><c val=\"#AbilityPassive\">Passive: </c>Increase Detainment Strikes' Stun duration by <c val=\"#TooltipNumbers\">0.25</c> seconds.",
+      "name": "Heavy Burden",
+      "shortText": "Detainment Strike Slows"
+    },
+    "AurielRepeatedOffenseDetainmentStrikeTalent|AurielRepeatedOffenseDetainmentStrikeTalent|E|Level4": {
+      "fullText": "Enemies hit by Detainment Strike are knocked back <c val=\"#TooltipNumbers\">30%</c> farther.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Every time Detainment Strike stuns a Hero, increase the stun damage by <c val=\"#TooltipNumbers\">10</c>, up to <c val=\"#TooltipNumbers\">60</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Reward:</c> After stunning <c val=\"#TooltipNumbers\">6</c> Heroes, increase this damage bonus to <c val=\"#TooltipNumbers\">250</c>.",
+      "name": "Repeated Offense",
+      "shortText": "Increases Detainment Strike range<n/><c val=\"#TooltipQuest\">Quest:</c> Increases damage when Heroes are stunned"
+    },
+    "AurielGlimmerofHopeRayOfHeavenTalent|AurielGlimmerofHopeRayOfHeavenTalent|W|Level7": {
+      "fullText": "Collecting a Regeneration Globe reduces the cost of Auriel's next Ray of Heaven by <c val=\"#TooltipNumbers\">75%</c>.",
+      "name": "Glimmer of Hope",
+      "shortText": "Regen Globes reduce Ray of Heaven energy cost"
+    },
+    "AurielEmpathicLinkBestowHopeTalent|AurielEmpathicLinkBestowHopeTalent|Trait|Level7": {
+      "fullText": "Auriel stores <c val=\"#TooltipNumbers\">25%</c> of damage taken by allies with Bestow Hope.",
+      "name": "Empathic Link",
+      "shortText": "Allied damage taken grants energy"
+    },
+    "AurielEnergizedCordRayOfHeavenTalent|AurielEnergizedCordRayOfHeavenTalent|Trait|Level7": {
+      "fullText": "Increases the energy stored from Auriel's Basic Attacks to <c val=\"#TooltipNumbers\">130%</c> of the damage against Heroes and <c val=\"#TooltipNumbers\">70%</c> of the damage against non-Heroes.<n/><n/><c val=\"ffff8a\">Does not affect Auriel's Bestow Hope ally.</c><n/><n/><c val=\"#AbilityPassive\">Passive:</c> Increase Basic Attack Range by <c val=\"#TooltipNumbers\">1.1</c>.",
+      "name": "Energized Cord",
+      "shortText": "Increases energy from Auriel Basic Attacks"
+    },
+    "AurielHeroicResurrect|AurielResurrect|Heroic|Level10": {
+      "cooldownText": "Cooldown: 100 seconds",
+      "fullText": "Channel on the spirit of a dead ally for <c val=\"#TooltipNumbers\">1</c> second. After a <c val=\"#TooltipNumbers\">3</c> second delay, they are brought back to life with <c val=\"#TooltipNumbers\">100%</c> of their maximum Health at the location where they died.<n/><n/>Auriel can use this ability while dead to resurrect herself.",
+      "name": "Resurrect",
+      "shortText": "Bring an allied Hero back to life"
+    },
+    "AurielHeroicCrystalAegis|AurielCrystalAegis|Heroic|Level10": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "fullText": "Place an allied Hero into Stasis for <c val=\"#TooltipNumbers\">2</c> seconds. Upon expiration, Crystal Aegis deals <c val=\"#TooltipNumbers\">255</c><c val=\"#ColorGray\">~~0.04~~</c> damage to all nearby enemies.",
+      "name": "Crystal Aegis",
+      "shortText": "Put an allied Hero into a Stasis crystal that explodes"
+    },
+    "AurielBlindingFlashSacredSweepTalent|AurielBlindingFlashSacredSweepTalent|Q|Level13": {
+      "fullText": "Enemies hit by the center area of Sacred Sweep are blinded for <c val=\"#TooltipNumbers\">2</c> seconds.",
+      "name": "Blinding Flash",
+      "shortText": "Sacred Sweep blinds enemies in the center"
+    },
+    "AurielConvergingForceSacredSweepTalent|AurielConvergingForceSacredSweepTalent|Q|Level13": {
+      "fullText": "Enemies hit by the outer area are pushed slightly toward the center.",
+      "name": "Converging Force",
+      "shortText": "Sacred Sweep pushes enemies towards the center"
+    },
+    "AurielPiercingLashDetainmentStrikeTalent|AurielPiercingLashDetainmentStrikeTalent|E|Level13": {
+      "fullText": "Detainment Strike now pierces and hits all enemy Heroes in a line, reducing the cooldown by <c val=\"#TooltipNumbers\">2</c> seconds for each Hero hit.",
+      "name": "Piercing Lash",
+      "shortText": "Detainment Strike hits all enemy Heroes in a line"
+    },
+    "AurielReservoirofHopeRayOfHeavenTalent|AurielReservoirofHopeRayOfHeavenTalent|W|Level16": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Each maximum energy Ray of Heaven Auriel casts increases the maximum amount of energy that can be stored by <c val=\"#TooltipNumbers\">55</c>.",
+      "name": "Reservoir of Hope",
+      "shortText": "<c val=\"#TooltipQuest\">Quest:</c> Increases maximum Ray of Heaven energy"
+    },
+    "AurielWillofHeavenBestowHopeTalent|AurielWillofHeavenBestowHopeTalent|Trait|Level16": {
+      "fullText": "Allies with Bestow Hope gain <c val=\"#TooltipNumbers\">20%</c> Attack Speed.<n/><n/><c val=\"#AbilityPassive\">Passive:</c> Auriel gains <c val=\"#TooltipNumbers\">10%</c> increased Basic Attack Damage.",
+      "name": "Will of Heaven",
+      "shortText": "Bestow Hope ally gains Attack Speed"
+    },
+    "AurielWrathofHeavenBestowHopeTalent|AurielWrathofHeavenBestowHopeTalent|Trait|Level16": {
+      "fullText": "Allies with Bestow Hope gain <c val=\"#TooltipNumbers\">15%</c> Spell Power.<n/><n/>Enemy Heroes hit by the center area of Sacred Sweep or the terrain collision of Detainment Strike have their Spell Armor reduced by <c val=\"#TooltipNumbers\">20</c> for <c val=\"#TooltipNumbers\">3</c> seconds.",
+      "name": "Wrath of Heaven",
+      "shortText": "Bestow Hope ally gains Spell Power"
+    },
+    "AurielLightSpeedResurrectTalent|AurielLightSpeedResurrectTalent|Heroic|Level20": {
+      "fullText": "Resurrected allies gain <c val=\"#TooltipNumbers\">200%</c> increased Movement Speed, decaying over <c val=\"#TooltipNumbers\">4</c> seconds. While a resurrected ally remains alive, Resurrect's next cooldown recharges <c val=\"#TooltipNumbers\">100%</c> faster.",
+      "name": "Light Speed",
+      "shortText": "Resurrected allies gain Move Speed, reduce cooldown"
+    },
+    "AurielDiamondResolveCrystalAegisTalent|AurielDiamondResolveCrystalAegisTalent|Heroic|Level20": {
+      "fullText": "When Crystal Aegis expires, it grants the target <c val=\"#TooltipNumbers\">75</c> Armor for <c val=\"#TooltipNumbers\">5</c> seconds, reducing damage taken by <c val=\"#TooltipNumbers\">75%</c>.",
+      "name": "Diamond Resolve",
+      "shortText": "Crystal Aegis grants Armor"
+    },
+    "AurielAngelicFlightTalent|AurielAngelicFlightTalent|Active|Level20": {
+      "cooldownText": "Cooldown: 30 seconds",
+      "fullText": "After <c val=\"#TooltipNumbers\">2</c> seconds, fly to a target location.",
+      "name": "Angelic Flight",
+      "shortText": "Activate to fly to a location"
+    },
+    "AurielShieldOfHopeTalent|AurielShieldOfHopeTalent|Active|Level20": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "fullText": "Activate to grant all nearby allied Heroes a shield for <c val=\"#TooltipNumbers\">3</c> seconds equal to <c val=\"#TooltipNumbers\">50%</c> of the amount of Health they are missing.",
+      "name": "Shield of Hope",
+      "shortText": "Shield nearby allies based on their missing Health"
+    }
+  },
+  "units": {}
+}

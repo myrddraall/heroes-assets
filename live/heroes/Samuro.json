@@ -1,0 +1,661 @@
+{
+  "id": "Samuro",
+  "unitId": "HeroSamuro",
+  "hyperlinkId": "Samuro",
+  "attributeId": "Samu",
+  "franchise": "Warcraft",
+  "rarity": "Legendary",
+  "releaseDate": "2016-10-18",
+  "isMelee": true,
+  "gender": "Male",
+  "radius": 0.6875,
+  "innerRadius": 0.6875,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 7,
+    "damage": 6,
+    "survivability": 7,
+    "utility": 3
+  },
+  "life": {
+    "amount": 1725,
+    "scale": 0.04,
+    "regenRate": 3.5898,
+    "regenScale": 0.04
+  },
+  "playstyles": [
+    "Ganker",
+    "MercKiller",
+    "Overconfident",
+    "RoleAutoAttacker",
+    "WaveClearer"
+  ],
+  "weapons": [
+    {
+      "nameId": "SamuroWeapon",
+      "isDisabled": false,
+      "range": 2,
+      "minimumRange": 0,
+      "period": 0.6,
+      "damage": 102,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "SamuroFel",
+    "SamuroMonkey",
+    "SamuroUltimate"
+  ],
+  "variationSkinIds": [
+    "SamuroBaseVar1",
+    "SamuroBaseVar2",
+    "SamuroBaseVar3"
+  ],
+  "voiceLineIds": [
+    "SamuroBase_VoiceLine01",
+    "SamuroBase_VoiceLine02",
+    "SamuroBase_VoiceLine03",
+    "SamuroBase_VoiceLine04",
+    "SamuroBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "SamuroMirrorImageTargeted|SamuroMirrorImage|Q",
+        "abilityId": "SamuroMirrorImageTargeted",
+        "buttonId": "SamuroMirrorImage",
+        "icon": "storm_ui_icon_samuro_mirrorimage.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "SamuroCriticalStrike|SamuroCriticalStrike|W",
+        "abilityId": "SamuroCriticalStrike",
+        "buttonId": "SamuroCriticalStrike",
+        "icon": "storm_ui_icon_samuro_criticalstrike.png",
+        "charges": {
+          "countMax": 1,
+          "countStart": 1,
+          "countUse": 1,
+          "recastCooldown": 0.5,
+          "isCountHidden": true
+        },
+        "abilityType": "W"
+      },
+      {
+        "linkId": "SamuroWindwalk|SamuroWindwalk|E",
+        "abilityId": "SamuroWindwalk",
+        "buttonId": "SamuroWindwalk",
+        "icon": "storm_ui_icon_samuro_windwalk.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "SamuroBladeStormDummy|SamuroBladestorm|Heroic",
+        "abilityId": "SamuroBladeStormDummy",
+        "buttonId": "SamuroBladestorm",
+        "icon": "storm_ui_icon_samuro_bladestorm.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "SamuroIllusionMaster|SamuroIllusionMaster|Heroic",
+        "abilityId": "SamuroIllusionMaster",
+        "buttonId": "SamuroIllusionMaster",
+        "icon": "storm_ui_icon_samuro_illusiondancer.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": "SamuroIllusionMaster|SamuroAdvancingStrikes|Trait",
+        "abilityId": "SamuroIllusionMaster",
+        "buttonId": "SamuroAdvancingStrikes",
+        "icon": "storm_ui_icon_samuro_flowingstrikes.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|HearthstoneNoMana|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "HearthstoneNoMana",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "SamuroBladeStormDummy|SamuroBladestorm|Heroic": {
+      "Heroic": [
+        {
+          "linkId": "SamuroBladestormCancel|SamuroCancelBladestorm|Heroic",
+          "abilityId": "SamuroBladestormCancel",
+          "buttonId": "SamuroCancelBladestorm",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "abilityType": "Heroic"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "SamuroIllusionMasterToggleAI|SamuroIllusionMasterToggleAIOff|Active": {
+      "Activable": [
+        {
+          "linkId": "SamuroIllusionMasterToggleAI|SamuroIllusionMasterToggleAIOn|Active",
+          "abilityId": "SamuroIllusionMasterToggleAI",
+          "buttonId": "SamuroIllusionMasterToggleAIOn",
+          "icon": "storm_ui_icon_samuro_mirrorai_on.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "SamuroHeroicAbilityIllusionMaster|SamuroIllusionMasterTalent|Heroic|Level10": {
+      "Activable": [
+        {
+          "linkId": "SamuroIllusionMasterToggleAI|SamuroIllusionMasterToggleAIOff|Active",
+          "abilityId": "SamuroIllusionMasterToggleAI",
+          "buttonId": "SamuroIllusionMasterToggleAIOff",
+          "icon": "storm_ui_icon_samuro_mirrorai_off.png",
+          "abilityType": "Active"
+        },
+        {
+          "linkId": ":PASSIVE:|SamuroSelectMirrorImages|Active",
+          "abilityId": ":PASSIVE:",
+          "buttonId": "SamuroSelectMirrorImages",
+          "icon": "storm_ui_icon_samuro_selectmirror1.png",
+          "abilityType": "Active"
+        },
+        {
+          "linkId": ":PASSIVE:|SamuroSelectSamuroPrime|Active",
+          "abilityId": ":PASSIVE:",
+          "buttonId": "SamuroSelectSamuroPrime",
+          "icon": "storm_ui_icon_samuro_selectprime.png",
+          "abilityType": "Active"
+        },
+        {
+          "linkId": ":PASSIVE:|SamuroSelectAll|Active",
+          "abilityId": ":PASSIVE:",
+          "buttonId": "SamuroSelectAll",
+          "icon": "storm_ui_icon_samuro_selectall.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "SamuroWayOfIllusion|SamuroWayOfIllusion|Q|Level1",
+        "talentId": "SamuroWayOfIllusion",
+        "buttonId": "SamuroWayOfIllusion",
+        "abilityId": "SamuroMirrorImageTargeted",
+        "icon": "storm_ui_icon_samuro_mirrorimage.png",
+        "abilityType": "Q",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "SamuroMirrorImageTargeted|SamuroMirrorImage|Q"
+        ]
+      },
+      {
+        "linkId": "SamuroMirrorImageWayOfTheBlade|SamuroWayoftheBlade|W|Level1",
+        "talentId": "SamuroMirrorImageWayOfTheBlade",
+        "buttonId": "SamuroWayoftheBlade",
+        "abilityId": "SamuroCriticalStrike",
+        "icon": "storm_ui_icon_samuro_criticalstrike.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "SamuroCriticalStrike|SamuroCriticalStrike|W"
+        ]
+      },
+      {
+        "linkId": "SamuroWayOfTheWind|SamuroWayOfTheWind|E|Level1",
+        "talentId": "SamuroWayOfTheWind",
+        "buttonId": "SamuroWayOfTheWind",
+        "abilityId": "SamuroWindwalk",
+        "icon": "storm_ui_icon_samuro_windwalk.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "SamuroWindwalk|SamuroWindwalk|E"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "SamuroMirage|SamuroMirage|Q|Level4",
+        "talentId": "SamuroMirage",
+        "buttonId": "SamuroMirage",
+        "abilityId": "SamuroMirrorImageTargeted",
+        "icon": "storm_ui_icon_samuro_mirrorimage.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "SamuroMirrorImageTargeted|SamuroMirrorImage|Q"
+        ]
+      },
+      {
+        "linkId": "SamuroWindwalkOneWithTheWind|SamuroOneWithTheWindTalent|E|Level4",
+        "talentId": "SamuroWindwalkOneWithTheWind",
+        "buttonId": "SamuroOneWithTheWindTalent",
+        "abilityId": "SamuroWindwalk",
+        "icon": "storm_ui_icon_samuro_windwalk.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "SamuroWindwalk|SamuroWindwalk|E"
+        ]
+      },
+      {
+        "linkId": "SamuroAdvancingStrikesDeflection|SamuroDeflectionTalent|Passive|Level4",
+        "talentId": "SamuroAdvancingStrikesDeflection",
+        "buttonId": "SamuroDeflectionTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_samuro_flowingstrikes.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "SamuroIllusionMaster|SamuroAdvancingStrikes|Trait"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "SamuroBurningBlade|SamuroBurningBlade|W|Level7",
+        "talentId": "SamuroBurningBlade",
+        "buttonId": "SamuroBurningBlade",
+        "abilityId": "SamuroCriticalStrike",
+        "icon": "storm_ui_icon_samuro_criticalstrike.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "SamuroCriticalStrike|SamuroCriticalStrike|W"
+        ]
+      },
+      {
+        "linkId": "SamuroPhantomPain|SamuroPhantomsStrikeTalent|W|Level7",
+        "talentId": "SamuroPhantomPain",
+        "buttonId": "SamuroPhantomsStrikeTalent",
+        "abilityId": "SamuroCriticalStrike",
+        "icon": "storm_ui_icon_samuro_criticalstrike_a.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "SamuroCriticalStrike|SamuroCriticalStrike|W"
+        ]
+      },
+      {
+        "linkId": "SamuroCrushingBlow|SamuroOverpoweringBlow|W|Level7",
+        "talentId": "SamuroCrushingBlow",
+        "buttonId": "SamuroOverpoweringBlow",
+        "abilityId": "SamuroCriticalStrike",
+        "icon": "storm_ui_icon_samuro_criticalstrike_b.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "SamuroCriticalStrike|SamuroCriticalStrike|W"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "SamuroHeroicAbilityBladestorm|SamuroBladestorm|Heroic|Level10",
+        "talentId": "SamuroHeroicAbilityBladestorm",
+        "buttonId": "SamuroBladestorm",
+        "abilityId": "SamuroBladeStormDummy",
+        "icon": "storm_ui_icon_samuro_bladestorm.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "SamuroHeroicAbilityIllusionMaster|SamuroIllusionMasterTalent|Heroic|Level10",
+        "talentId": "SamuroHeroicAbilityIllusionMaster",
+        "buttonId": "SamuroIllusionMasterTalent",
+        "abilityId": "SamuroIllusionMaster",
+        "icon": "storm_ui_icon_samuro_illusiondancer.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "SamuroMirroredSteel|SamuroMirroredSteelTalent|Q|Level13",
+        "talentId": "SamuroMirroredSteel",
+        "buttonId": "SamuroMirroredSteelTalent",
+        "abilityId": "SamuroMirrorImageTargeted",
+        "icon": "storm_ui_icon_samuro_mirrorimage.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "SamuroMirrorImageTargeted|SamuroMirrorImage|Q"
+        ]
+      },
+      {
+        "linkId": "SamuroWindwalkKawarimi|WindwalkKawarimiTalent|E|Level13",
+        "talentId": "SamuroWindwalkKawarimi",
+        "buttonId": "WindwalkKawarimiTalent",
+        "abilityId": "SamuroWindwalk",
+        "icon": "storm_ui_icon_samuro_windwalk.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "SamuroWindwalk|SamuroWindwalk|E"
+        ]
+      },
+      {
+        "linkId": "SamuroShukuchi|SamuroShukuchiTalent|E|Level13",
+        "talentId": "SamuroShukuchi",
+        "buttonId": "SamuroShukuchiTalent",
+        "abilityId": "SamuroWindwalk",
+        "icon": "storm_ui_icon_samuro_windwalk_a.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "SamuroWindwalk|SamuroWindwalk|E"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "SamuroMercilessStrikes|SamuroMercilessStrikes|W|Level16",
+        "talentId": "SamuroMercilessStrikes",
+        "buttonId": "SamuroMercilessStrikes",
+        "abilityId": "SamuroCriticalStrike",
+        "icon": "storm_ui_icon_samuro_criticalstrike.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "SamuroCriticalStrike|SamuroCriticalStrike|W"
+        ]
+      },
+      {
+        "linkId": "SamuroHarshWinds|SamuroHarshWinds|E|Level16",
+        "talentId": "SamuroHarshWinds",
+        "buttonId": "SamuroHarshWinds",
+        "abilityId": "SamuroWindwalk",
+        "icon": "storm_ui_icon_samuro_windwalk.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "SamuroWindwalk|SamuroWindwalk|E"
+        ]
+      },
+      {
+        "linkId": "SamuroPressTheAttack|SamuroPressTheAttack|Passive|Level16",
+        "talentId": "SamuroPressTheAttack",
+        "buttonId": "SamuroPressTheAttack",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_samuro_flowingstrikes.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "SamuroIllusionMaster|SamuroAdvancingStrikes|Trait"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "SamuroDanceOfDeath|SamuroDanceOfDeathTalent|Heroic|Level20",
+        "talentId": "SamuroDanceOfDeath",
+        "buttonId": "SamuroDanceOfDeathTalent",
+        "abilityId": "SamuroBladeStormDummy",
+        "icon": "storm_ui_icon_samuro_bladestorm.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "SamuroBladeStormDummy|SamuroBladestorm|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "SamuroHeroicAbilityBladestorm"
+        ]
+      },
+      {
+        "linkId": "SamuroThreeBladeStyle|SamuroThreeBladeStyleTalent|Heroic|Level20",
+        "talentId": "SamuroThreeBladeStyle",
+        "buttonId": "SamuroThreeBladeStyleTalent",
+        "abilityId": "SamuroIllusionMaster",
+        "icon": "storm_ui_icon_samuro_illusiondancer.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "SamuroIllusionMaster|SamuroIllusionMaster|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "SamuroHeroicAbilityIllusionMaster"
+        ]
+      },
+      {
+        "linkId": "SamuroWindStrider|SamuroWindStrider|E|Level20",
+        "talentId": "SamuroWindStrider",
+        "buttonId": "SamuroWindStrider",
+        "abilityId": "SamuroWindwalk",
+        "icon": "storm_ui_icon_samuro_windwalk.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "SamuroWindwalk|SamuroWindwalk|E"
+        ]
+      },
+      {
+        "linkId": "SamuroBlademastersPursuit|SamuroBlademastersPursuitTalent|Passive|Level20",
+        "talentId": "SamuroBlademastersPursuit",
+        "buttonId": "SamuroBlademastersPursuitTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_samuro_flowingstrikes.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          "SamuroIllusionMaster|SamuroAdvancingStrikes|Trait"
+        ]
+      }
+    ]
+  },
+  "sheet": "sheets/Samuro.png",
+  "icons": {
+    "storm_ui_icon_samuro_mirrorimage.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_samuro_criticalstrike.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_samuro_windwalk.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_samuro_bladestorm.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_samuro_illusiondancer.png": [
+      512,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_samuro_flowingstrikes.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_mount.png": [
+      128,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      256,
+      128,
+      111,
+      71
+    ],
+    "hud_btn_bg_ability_cancel.png": [
+      384,
+      128,
+      97,
+      111
+    ],
+    "storm_ui_icon_generic_cancel_mount.png": [
+      512,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_samuro_mirrorai_on.png": [
+      0,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_samuro_mirrorai_off.png": [
+      128,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_samuro_selectmirror1.png": [
+      256,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_samuro_selectprime.png": [
+      384,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_samuro_selectall.png": [
+      512,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_samuro_criticalstrike_a.png": [
+      0,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_samuro_criticalstrike_b.png": [
+      128,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_samuro_windwalk_a.png": [
+      256,
+      384,
+      128,
+      128
+    ]
+  }
+}

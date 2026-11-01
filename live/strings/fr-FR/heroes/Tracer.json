@@ -1,0 +1,171 @@
+{
+  "abilities": {
+    "TracerBlink|TracerBlink|Q": {
+      "cooldownText": "Temps de recharge : 9 secondes",
+      "fullText": "Fonce vers l’emplacement ciblé.<n/><n/>Cumule jusqu’à <c val=\"#TooltipNumbers\">3</c> charges.",
+      "name": "Transfert",
+      "shortText": "Fonce vers l’emplacement ciblé."
+    },
+    "TracerMelee|TracerMelee|W": {
+      "cooldownText": "Temps de recharge :<sp/>8 secondes",
+      "fullText": "Inflige <c val=\"#TooltipNumbers\">220</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts à un ennemi à proximité, en visant en priorité les héros. Frapper un ennemi avec Mêlée confère <c val=\"#TooltipNumbers\">5%</c> de charge de Bombe à impulsion, et <c val=\"#TooltipNumbers\">10%</c> s’il s’agit d’un héros.",
+      "name": "Mêlée",
+      "shortText": "Attaque un ennemi proche."
+    },
+    "TracerRecall|TracerRecall|E": {
+      "cooldownText": "Temps de recharge : 20 secondes",
+      "fullText": "Après <c val=\"#TooltipNumbers\">1.25</c> secondes, ramène Tracer à la position à laquelle elle se trouvait <c val=\"#TooltipNumbers\">2</c> secondes avant l’utilisation de la capacité. Recharge également les munitions et annule les effets négatifs.",
+      "name": "Rappel",
+      "shortText": "Ramène à une position antérieure et dissipe les effets négatifs."
+    },
+    "TracerPulseBomb|TracerPulseBomb|Heroic": {
+      "fullText": "Projette une bombe à courte portée qui se fixe sur un ennemi touché. Elle explose au bout de <c val=\"#TooltipNumbers\">2</c> secondes, lui infligeant <c val=\"#TooltipNumbers\">298</c><c val=\"#ColorGray\">~~0.06~~</c> points de dégâts, ainsi que <c val=\"#TooltipNumbers\">149</c><c val=\"#ColorGray\">~~0.06~~</c> points de dégâts aux ennemis proches.<n/><n/>Cette capacité se charge à mesure que Tracer inflige des dégâts aux ennemis avec ses attaques de base et de mêlée.",
+      "name": "Bombe à impulsion",
+      "shortText": "Colle une bombe qui inflige de lourds dégâts aux ennemis."
+    },
+    "TracerReload|TracerReload|Trait": {
+      "cooldownText": "Temps de recharge : 1 seconde",
+      "fullText": "Tracer peut attaquer tout en se déplaçant. Toutes les <c val=\"#TooltipNumbers\">10</c> attaques de base, elle doit recharger ses pulseurs en <c val=\"#TooltipNumbers\">0.75</c> seconde. Recharge peut être activée manuellement avant que les chargeurs soient vides.<n/><n/>Les attaques de base rendent un montant de points de vie équivalent à <c val=\"#TooltipNumbers\">10%</c> des dégâts infligés.",
+      "name": "Recharge",
+      "shortText": "Tracer peut se déplacer en attaquant et ses attaques de base utilisent des munitions."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Temps de recharge : 4 secondes",
+      "fullText": "Après <c val=\"#TooltipNumbers\">1</c> seconde de canalisation, augmente la vitesse de déplacement de <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Appeler une monture"
+    },
+    "Hearthstone|HearthstoneNoMana|B": {
+      "fullText": "Après <c val=\"#TooltipNumbers\">6</c> secondes de canalisation, téléporte au hall des Tempêtes et rend instantanément <c val=\"#TooltipNumbers\">1125</c> points de vie.",
+      "name": "Pierre de foyer"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Permet de descendre de la monture.",
+      "name": "Renvoyer la monture"
+    },
+    "TracerLockedandLoadedFailReload|TracerLockedandLoadedAbility|Trait": {
+      "cooldownText": "Temps de recharge : 1 seconde",
+      "fullText": "Réactiver Recharge dans les derniers <c val=\"#TooltipNumbers\">50%</c> de sa durée augmente les dégâts des attaques de base de <c val=\"#TooltipNumbers\">40%</c> pour ce chargeur.",
+      "name": "Parée à tirer",
+      "shortText": "Utiliser Recharge au bon moment augmente les dégâts des attaques de base."
+    },
+    "TracerLockedandLoaded|TracerLockedandLoadedAbility|Trait": {
+      "cooldownText": "Temps de recharge : 1 seconde",
+      "fullText": "Réactiver Recharge dans les derniers <c val=\"#TooltipNumbers\">50%</c> de sa durée augmente les dégâts des attaques de base de <c val=\"#TooltipNumbers\">40%</c> pour ce chargeur.",
+      "name": "Parée à tirer",
+      "shortText": "Utiliser Recharge au bon moment augmente les dégâts des attaques de base."
+    }
+  },
+  "talents": {
+    "TracerOneTwoPunch|TracerOneTwoPunch|W|Level1": {
+      "fullText": "Réduit le temps de recharge de Mêlée de <c val=\"#TooltipNumbers\">1</c> seconde et lui octroie une charge supplémentaire.",
+      "name": "Droite-gauche",
+      "shortText": "Mêlée gagne une charge et bénéficie d’un temps de recharge réduit."
+    },
+    "TracerPartingGift|TracerPartingGift|E|Level1": {
+      "fullText": "Rappel dépose <c val=\"#TooltipNumbers\">6</c> bombes qui infligent <c val=\"#TooltipNumbers\">240</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts chacune à des cibles différentes. Les héros touchés par ces bombes sont ralentis de <c val=\"#TooltipNumbers\">50 %</c> pendant <c val=\"#TooltipNumbers\">0.75</c> secondes et confèrent <c val=\"#TooltipNumbers\">7 %</c> de charge de Bombe à impulsion.",
+      "name": "Cadeau d’adieu",
+      "shortText": "Rappel largue des bombes."
+    },
+    "TracerTracerRounds|TracerTracerRounds|Trait|Level1": {
+      "fullText": "Augmente la portée des attaques de base de <c val=\"#TooltipNumbers\">10%</c>. Les attaques de base contre les héros révèlent une petite zone autour d’eux pendant <c val=\"#TooltipNumbers\">3</c> secondes.",
+      "name": "Balles traçantes",
+      "shortText": "Les attaques de base révèlent les ennemis et la portée est augmentée."
+    },
+    "TracerLeechingRounds|TracerLeechingRounds|Trait|Level4": {
+      "fullText": "Augmente les points de vie rendus par les attaques de base jusqu’à un maximum de <c val=\"#TooltipNumbers\">200%</c>, en fonction du montant de points de vie qu’il manque à Tracer.",
+      "name": "Tir vampirique",
+      "shortText": "Augmente les points de vie rendus par les attaques de base."
+    },
+    "TracerPulseGenerator|TracerPulseGenerator|Heroic|Level4": {
+      "fullText": "Réussir à coller une Bombe à impulsion sur un héros adverse rend à Tracer <c val=\"#TooltipNumbers\">12%</c> de son maximum de points de vie en <c val=\"#TooltipNumbers\">1.5</c> seconde et rend une charge de Transfert.",
+      "name": "Générateur d’impulsion",
+      "shortText": "Bombe à impulsion rend des points de vie et réinitialise une charge de Transfert."
+    },
+    "TracerIsThataHealthPack|TracerIsthataHealthPack|Passive|Level4": {
+      "fullText": "Collecter un globe de régénération rend instantanément à Tracer un montant de points de vie équivalent à <c val=\"#TooltipNumbers\">15%</c> de son maximum de points de vie et réduit le temps de recharge des fontaines de soins de <c val=\"#TooltipNumbers\">15</c> secondes.<n/><n/>Boire à une fontaine de soins rend instantanément à Tracer un montant de points de vie équivalent à <c val=\"#TooltipNumbers\">20%</c> de son maximum de points de vie.",
+      "name": "Oh, un kit de soins !",
+      "shortText": "Renforce les fontaines de soins et les globes de régénération."
+    },
+    "TracerSleightofHand|TracerSleightofHand|Trait|Level7": {
+      "fullText": "Diminue de <c val=\"#TooltipNumbers\">50%</c> la durée de Recharge, ce qui revient à une augmentation des dégâts par seconde de <c val=\"#TooltipNumbers\">20%</c>.",
+      "name": "Maîtrise du geste",
+      "shortText": "Recharge deux fois plus rapidement."
+    },
+    "TracerFocusFire|TracerFocusFire|Trait|Level7": {
+      "fullText": "Si un chargeur entier est vidé sur un même ennemi dans les <c val=\"#TooltipNumbers\">2</c> secondes suivantes, la dernière balle inflige <c val=\"#TooltipNumbers\">80</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts supplémentaires. Ce qui équivaut à <c val=\"#TooltipNumbers\">35 %</c> des dégâts du chargeur total.",
+      "name": "Tir soutenu",
+      "shortText": "Vider un chargeur sur un ennemi inflige des dégâts supplémentaires."
+    },
+    "TracerLockedandLoaded|TracerLockedandLoaded|Trait|Level7": {
+      "fullText": "Réactiver Recharge dans les derniers <c val=\"#TooltipNumbers\">50%</c> de sa durée augmente les dégâts des attaques de base de <c val=\"#TooltipNumbers\">40%</c> pour ce chargeur.",
+      "name": "Parée à tirer",
+      "shortText": "Utiliser Recharge au bon moment augmente les dégâts des attaques de base."
+    },
+    "TracerStickyBomb|TracerStickyBomb|Heroic|Level10": {
+      "fullText": "Augmente le rayon de Bombe à impulsion de <c val=\"#TooltipNumbers\">50%</c> et ralentit les ennemis touchés de <c val=\"#TooltipNumbers\">70%</c> pendant <c val=\"#TooltipNumbers\">3</c> secondes.",
+      "name": "Bombe collante",
+      "shortText": "Augmente le rayon de Bombe à impulsion et lui confère ralentissement."
+    },
+    "TracerQuantumSpike|TracerQuantumSpike|Heroic|Level10": {
+      "fullText": "Bombe à impulsion inflige aux héros un montant de dégâts supplémentaires équivalent à <c val=\"#TooltipNumbers\">6%</c> de leur maximum de points de vie.",
+      "name": "Pointe quantique",
+      "shortText": "Bombe à impulsion bénéficie d’un bonus aux dégâts."
+    },
+    "TracerPulseRounds|TracerPulseRounds|Heroic|Level10": {
+      "fullText": "Augmente la portée de Bombe à impulsion et son taux de charge via les attaques de base contre les héros de <c val=\"#TooltipNumbers\">100%</c>.",
+      "name": "Balles à impulsion",
+      "shortText": "Augmente la portée et le taux de charge de Bombe à impulsion."
+    },
+    "TracerUntouchable|TracerUntouchable|Q|Level13": {
+      "fullText": "<c val=\"#AbilityPassive\">Effet passif : </c>après l’utilisation de Transfert, la vitesse de déplacement est augmentée de <c val=\"#TooltipNumbers\">20%</c> pendant <c val=\"#TooltipNumbers\">1.25</c> seconde.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quête :</c> faire des victimes augmente les dégâts des attaques de base de Tracer de <c val=\"#TooltipNumbers\">5%</c>, jusqu’à un maximum de <c val=\"#TooltipNumbers\">25%</c>. Ce bonus est perdu en cas de mort.",
+      "name": "Intouchable",
+      "shortText": "<c val=\"#TooltipQuest\">Quête :</c> faire des victimes augmente les dégâts des attaques."
+    },
+    "TracerJumper|TracerJumper|Q|Level13": {
+      "fullText": "<c val=\"#AbilityPassive\">Effet passif :</c> quand Transfert ne dispose plus de charge restante, son temps de recharge se réinitialise <c val=\"#TooltipNumbers\">100%</c> plus vite.<n/><n/>Utiliser Transfert confère à Tracer un bouclier équivalent à <c val=\"#TooltipNumbers\">6%</c> de son maximum de points de vie pendant <c val=\"#TooltipNumbers\">3</c> secondes. Ce bouclier se cumule jusqu’à <c val=\"#TooltipNumbers\">3</c> fois.",
+      "name": "Saut temporel",
+      "shortText": "Transfert confère un bouclier et bénéficie d’un temps de recharge réduit."
+    },
+    "TracerTelefrag|TracerTelefrag|E|Level13": {
+      "fullText": "<c val=\"#AbilityPassive\">Effet passif :</c> les attaques de base portées à des héros adverses réduisent le temps de recharge de Rappel de <c val=\"#TooltipNumbers\">0.1875</c> secondes.<n/><n/>Quand Tracer revient à l’endroit de son Rappel, elle est impossible à tuer pendant <c val=\"#TooltipNumbers\">1</c> seconde, et elle inflige également <c val=\"#TooltipNumbers\">175</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts aux ennemis proches et les repousse. ",
+      "name": "Téléfragmentation",
+      "shortText": "Inflige des dégâts et repousse les ennemis à l’issue du Rappel."
+    },
+    "TracerBulletSprayMelee|TracerBulletSprayMelee|W|Level16": {
+      "fullText": "Augmente de <c val=\"#TooltipNumbers\">30%</c> le rayon de Mêlée, qui touche tous les ennemis à portée.",
+      "name": "Pluie de balles",
+      "shortText": "Mêlée touche tous les ennemis à portée."
+    },
+    "TracerHeavyHanded|TracerHeavyHanded|W|Level16": {
+      "fullText": "L’armure des héros touchés par Mêlée est réduite de <c val=\"#TooltipNumbers\">15</c> points pendant <c val=\"#TooltipNumbers\">4</c> secondes.",
+      "name": "Main lourde",
+      "shortText": "Mêlée réduit l’armure."
+    },
+    "TracerRicochetHeroWeapon|TracerRicochetHeroWeapon|Trait|Level16": {
+      "fullText": "Les attaques de base ont <c val=\"#TooltipNumbers\">60%</c> de chance de toucher un autre ennemi proche, en ciblant les héros en priorité.",
+      "name": "Ricochet",
+      "shortText": "Les attaques de base peuvent ricocher sur un ennemi proche."
+    },
+    "TracerChronoTriggers|TracerChronoTriggers|Q|Level20": {
+      "fullText": "Utiliser Transfert permet aux attaques de base de ne pas consommer de munitions pendant <c val=\"#TooltipNumbers\">1</c> seconde.",
+      "name": "Chrono-gâchettes",
+      "shortText": "Transfert renforce les munitions."
+    },
+    "TracerGetStuffedMelee|TracerGetStuffedMelee|W|Level20": {
+      "fullText": "Porte le taux de charge de Bombe à impulsion via l’utilisation de Mêlée sur les héros de <c val=\"#TooltipNumbers\">10%</c> à <c val=\"#TooltipNumbers\">20%</c>. Toucher avec Mêlée un ennemi qui porte une bombe à impulsion déclenche instantanément celle-ci et repousse la cible.",
+      "name": "Tu m’attraperas jamais !",
+      "shortText": "Renforce Mêlée."
+    },
+    "TracerTotalRecallRecall|TracerTotalRecallRecall|E|Level20": {
+      "fullText": "Rappel rend à Tracer un montant de points de vie équivalent à celui qu’elle a perdu pendant cette durée.",
+      "name": "Rappel d’urgence",
+      "shortText": "Rappel peut rendre des points de vie."
+    },
+    "TracerCompositionBPulseBomb|TracerCompositionBPulseBomb|Heroic|Level20": {
+      "fullText": "Si la bombe à impulsion est collée sur un héros adverse, en largue une seconde à ses pieds, qui inflige <c val=\"#TooltipNumbers\">50%</c> de dégâts et explose légèrement plus tôt.",
+      "name": "Composition B",
+      "shortText": "Coller une bombe à impulsion sur un héros en largue une deuxième."
+    }
+  },
+  "units": {}
+}

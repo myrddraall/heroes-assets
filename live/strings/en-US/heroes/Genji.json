@@ -1,0 +1,191 @@
+{
+  "abilities": {
+    "GenjiShuriken|GenjiShuriken|Q": {
+      "cooldownText": "Charge Cooldown: 12 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 20</s>",
+      "fullText": "Throw <c val=\"#TooltipNumbers\">3</c> Shuriken in a spread pattern, each dealing <c val=\"#TooltipNumbers\">65</c><c val=\"#ColorGray\">~~0.04~~</c> damage to the first enemy hit.<n/><n/>Stores up to <c val=\"#TooltipNumbers\">3</c> charges. Shuriken's cooldown replenishes all charges at the same time.",
+      "name": "Shuriken",
+      "shortText": "Throw Shuriken in a spread pattern"
+    },
+    "GenjiDeflectInstant|GenjiDeflect|W": {
+      "cooldownText": "Cooldown: 16 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 70</s>",
+      "fullText": "Channel for <c val=\"#TooltipNumbers\">1.25</c> seconds, becoming Protected and blocking damage. Any damage blocked while channeling causes Genji to throw a Kunai toward the nearest enemy, prioritizing Heroes and dealing <c val=\"#TooltipNumbers\">55</c><c val=\"#ColorGray\">~~0.04~~</c> damage.<n/><n/>Total Damage Deflected: <c val=\"#TooltipNumbers\">0</c>",
+      "name": "Deflect",
+      "shortText": "Become Protected and return fire from attacks"
+    },
+    "GenjiSwiftStrike|GenjiSwiftStrike|E": {
+      "cooldownText": "Cooldown: 12 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 75</s>",
+      "fullText": "Dash forward, dealing <c val=\"#TooltipNumbers\">190</c><c val=\"#ColorGray\">~~0.04~~</c> damage to all enemies in a line. Enemy Heroes that die within <c val=\"#TooltipNumbers\">1.5</c> seconds of being hit with Swift Strike cause the cooldown and mana cost to be refunded.",
+      "name": "Swift Strike",
+      "shortText": "Dash forward damaging enemies passed through"
+    },
+    "GenjiDragonblade|GenjiDragonblade|Heroic": {
+      "cooldownText": "Cooldown: 100 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 75</s>",
+      "fullText": "Unleash the Dragonblade for <c val=\"#TooltipNumbers\">8</c> seconds. While active, Dragonblade can be reactivated to lunge forward and slash in a huge arc, dealing <c val=\"#TooltipNumbers\">240</c><c val=\"#ColorGray\">~~0.04~~</c> damage.",
+      "name": "Dragonblade",
+      "shortText": "Unleash the Dragonblade"
+    },
+    "GenjiXStrike|GenjiXStrike|Heroic": {
+      "cooldownText": "Cooldown: 75 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 70</s>",
+      "fullText": "Perform two slashes dealing <c val=\"#TooltipNumbers\">145</c><c val=\"#ColorGray\">~~0.04~~</c> damage. The slashes detonate after <c val=\"#TooltipNumbers\">1.25</c> seconds causing an additional <c val=\"#TooltipNumbers\">290</c><c val=\"#ColorGray\">~~0.04~~</c> damage to enemies in their area.",
+      "name": "X-Strike",
+      "shortText": "Deal heavy damage in a cross shape"
+    },
+    "GenjiCyberAgility|GenjiCyberAgility|Trait": {
+      "cooldownText": "Cooldown: 20 seconds",
+      "fullText": "Activate to jump to the target area.",
+      "name": "Cyber Agility",
+      "shortText": "Jump over terrain"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Cooldown: 4 seconds",
+      "fullText": "After Channeling for <c val=\"#TooltipNumbers\">1</c> second, gain <s val=\"StandardTooltipDetails\">30%</s> Movement Speed.",
+      "name": "Summon Mount"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "After Channeling for <c val=\"#TooltipNumbers\">6</c> seconds, teleport back to the Hall of Storms, instantly restoring <c val=\"#TooltipNumbers\">1125</c> Health and <c val=\"#TooltipNumbers\">150</c> Mana.",
+      "name": "Hearthstone"
+    },
+    "GenjiDragonbladeAttack|GenjiDragonbladeAttack|Q": {
+      "cooldownText": "Cooldown: 1 second",
+      "fullText": "Lunge forward and slash in a huge arc, dealing <c val=\"#TooltipNumbers\">240</c><c val=\"#ColorGray\">~~0.04~~</c> damage.",
+      "name": "Dragonblade",
+      "shortText": "Lunge forward and slash in a huge arc"
+    },
+    "GenjiDragonbladeAttack|GenjiDragonbladeAttack|Heroic": {
+      "cooldownText": "Cooldown: 1 second",
+      "fullText": "Lunge forward and slash in a huge arc, dealing <c val=\"#TooltipNumbers\">240</c><c val=\"#ColorGray\">~~0.04~~</c> damage.",
+      "name": "Dragonblade",
+      "shortText": "Lunge forward and slash in a huge arc"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Dismounts you.",
+      "name": "Unsummon Mount"
+    },
+    "GenjiDeflectDragonClaw|GenjiDeflectDragonClawAbility|Active": {
+      "fullText": "Deal <c val=\"#TooltipNumbers\">190</c><c val=\"#ColorGray\">~~0.04~~</c> damage to all nearby enemies.",
+      "name": "Dragon Claw",
+      "shortText": "Activate to damage nearby enemies"
+    }
+  },
+  "talents": {
+    "GenjiSwiftStrikeSwiftAsTheWind|GenjiSwiftStrikeSwiftAsTheWind|E|Level1": {
+      "fullText": "Hitting an enemy Hero with Swift Strike increases Genji's Movement Speed by <c val=\"#TooltipNumbers\">40%</c> for <c val=\"#TooltipNumbers\">3</c> seconds.",
+      "name": "Swift as the Wind",
+      "shortText": "Swift Strike grants Move Speed"
+    },
+    "GenjiCyberAgilityAgileDismount|GenjiCyberAgilityAgileDismount|Trait|Level1": {
+      "fullText": "While mounted the range of Cyber Agility is increased by <c val=\"#TooltipNumbers\">70%</c>, its cooldown is reduced by <c val=\"#TooltipNumbers\">14</c> seconds, and it Slows enemy Heroes in its landing area by <c val=\"#TooltipNumbers\">25%</c> for <c val=\"#TooltipNumbers\">2</c> seconds.",
+      "name": "Agile Dismount",
+      "shortText": "Increase Cyber Agility range while Mounted"
+    },
+    "GenjiCyberAgilityPathfinder|GenjiCyberAgilityPathfinder|Trait|Level1": {
+      "fullText": "Jumping over terrain with Cyber Agility increases Movement Speed by <c val=\"#TooltipNumbers\">30%</c>, and grants Stealth, for <c val=\"#TooltipNumbers\">6</c> seconds.<n/><n/><c val=\"#AbilityPassive\">Passive:</c> Genji's Heroic Ability heals him for <c val=\"#TooltipNumbers\">10%</c> of the damage dealt to enemy Heroes, increasing up to <c val=\"#TooltipNumbers\">30%</c> the lower Genji's Health is.",
+      "name": "Pathfinder",
+      "shortText": "Jumping over terrain gives Move Speed, Stealth"
+    },
+    "GenjiShurikenShurikenMastery|GenjiShurikenShurikenMastery|Q|Level4": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Hit enemy Heroes with Shuriken.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Reward:</c> After hitting <c val=\"#TooltipNumbers\">30</c> Heroes, Shuriken damage is increased by <c val=\"#TooltipNumbers\">25</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Reward:</c> After hitting <c val=\"#TooltipNumbers\">60</c> Heroes, Cyber Agility now refunds <c val=\"#TooltipNumbers\">3</c> charges of Shuriken.",
+      "name": "Shuriken Mastery",
+      "shortText": "<c val=\"#TooltipQuest\">Quest:</c> Increase Shuriken damage and restore charges"
+    },
+    "GenjiSwiftStrikeStrikeAtTheHeart|GenjiSwiftStrikeStrikeAtTheHeart|E|Level4": {
+      "fullText": "Enemies hit by the end of Swift Strike take an additional <c val=\"#TooltipNumbers\">142</c><c val=\"#ColorGray\">~~0.04~~</c> damage after <c val=\"#TooltipNumbers\">1</c> second.",
+      "name": "Strike At The Heart",
+      "shortText": "Extra Swift Strike damage at its end"
+    },
+    "GenjiDeflectDragonClaw|GenjiDeflectDragonClawTalent|Active|Level4": {
+      "fullText": "After Genji blocks <c val=\"#TooltipNumbers\">330</c><c val=\"#ColorGray\">~~0.04~~</c> damage with Deflect, activate to release a Dragon Claw, dealing <c val=\"#TooltipNumbers\">190</c><c val=\"#ColorGray\">~~0.04~~</c> damage to all nearby enemies.",
+      "name": "Dragon Claw",
+      "shortText": "Activate to damage nearby enemies"
+    },
+    "GenjiDeflectAugmentedGuard|GenjiDeflectAugmentedGuard|W|Level7": {
+      "fullText": "When Deflect ends, Genji gains a Shield equal to <c val=\"#TooltipNumbers\">100%</c> of the damage blocked for <c val=\"#TooltipNumbers\">4</c> seconds.",
+      "name": "Augmented Guard",
+      "shortText": "Gain a Shield after Deflect ends"
+    },
+    "GenjiDeflectPerfectDefense|GenjiDeflectPerfectDefense|W|Level7": {
+      "fullText": "Deflected damage reduces the cooldown of Deflect by <c val=\"#TooltipNumbers\">2.5</c> seconds, up to a maximum of <c val=\"#TooltipNumbers\">12.5</c> seconds.",
+      "name": "Perfect Defense",
+      "shortText": "Reduce Deflect cooldown"
+    },
+    "GenjiCyberAgilityCyberShield|GenjiCyberAgilityCyberShield|Trait|Level7": {
+      "fullText": "Using Cyber Agility grants <c val=\"#TooltipNumbers\">40</c> Spell Armor for <c val=\"#TooltipNumbers\">4</c> seconds.<n/><n/><c val=\"#AbilityPassive\">Passive:</c> Genji dodges <c val=\"#TooltipNumbers\">1</c> Heroic Basic Attack every <c val=\"#TooltipNumbers\">5</c> seconds.",
+      "name": "Cyber Shield",
+      "shortText": "Genji Dodges, Cyber Agility grants Spell Armor"
+    },
+    "GenjiHeroicDragonblade|GenjiDragonblade|Heroic|Level10": {
+      "cooldownText": "Cooldown: 100 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 75</s>",
+      "fullText": "Unleash the Dragonblade for <c val=\"#TooltipNumbers\">8</c> seconds. While active, Dragonblade can be reactivated to lunge forward and slash in a huge arc, dealing <c val=\"#TooltipNumbers\">240</c><c val=\"#ColorGray\">~~0.04~~</c> damage.",
+      "name": "Dragonblade",
+      "shortText": "Unleash the Dragonblade"
+    },
+    "GenjiHeroicXStrike|GenjiXStrike|Heroic|Level10": {
+      "cooldownText": "Cooldown: 75 seconds",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 70</s>",
+      "fullText": "Perform two slashes dealing <c val=\"#TooltipNumbers\">145</c><c val=\"#ColorGray\">~~0.04~~</c> damage. The slashes detonate after <c val=\"#TooltipNumbers\">1.25</c> seconds causing an additional <c val=\"#TooltipNumbers\">290</c><c val=\"#ColorGray\">~~0.04~~</c> damage to enemies in their area.",
+      "name": "X-Strike",
+      "shortText": "Deal heavy damage in a cross shape"
+    },
+    "GenjiShurikenShingan|GenjiShurikenShingan|Q|Level13": {
+      "fullText": "Hitting an enemy with all <c val=\"#TooltipNumbers\">3</c> Shuriken deals <c val=\"#TooltipNumbers\">100</c><c val=\"#ColorGray\">~~0.04~~</c> bonus damage. Deals <c val=\"#TooltipNumbers\">40%</c> less damage to Structures.",
+      "name": "Shingan",
+      "shortText": "Increase Shuriken single-target damage"
+    },
+    "GenjiSwiftStrikeFlowLikeWater|GenjiSwiftStrikeFlowLikeWater|E|Level13": {
+      "fullText": "Each enemy Hero hit with Swift Strike reduces its cooldown by <c val=\"#TooltipNumbers\">4</c> seconds.",
+      "name": "Flow Like Water",
+      "shortText": "Hitting Heroes reduces Swift Strike cooldown"
+    },
+    "GenjiWayOfTheShimadaTalent|GenjiWayOfTheShimada|Passive|Level13": {
+      "fullText": "Increase Genji's Basic Attack range by <c val=\"#TooltipNumbers\">1</c>. Each time Genji hits an enemy Hero with a Basic Attack, increase his Basic Attack damage by <c val=\"#TooltipNumbers\">1%</c> for <c val=\"#TooltipNumbers\">3</c> seconds, stacking up to <c val=\"#TooltipNumbers\">15%</c>.",
+      "name": "Way Of The Shimada",
+      "shortText": "Increase Basic Attack range, damage"
+    },
+    "GenjiDeflectReflect|GenjiDeflectReflect|W|Level16": {
+      "fullText": "Deflect also deals an additional <c val=\"#TooltipNumbers\">33%</c> of the damage blocked.",
+      "name": "Reflect",
+      "shortText": "Increase Deflect damage"
+    },
+    "GenjiSwiftStrikeFinalCut|GenjiSwiftStrikeFinalCut|E|Level16": {
+      "fullText": "After <c val=\"#TooltipNumbers\">1</c> second, Swift Strike deals an additional <c val=\"#TooltipNumbers\">115</c><c val=\"#ColorGray\">~~0.04~~</c> damage to all enemies in the area.",
+      "name": "Final Cut",
+      "shortText": "Swift Strike deals extra damage after a delay"
+    },
+    "GenjiSwiftStrikeSteadyBlade|GenjiSwiftStrikeSteadyBlade|E|Level16": {
+      "fullText": "Each enemy Hero hit by Swift Strike increases the damage of the next Swift Strike by <c val=\"#TooltipNumbers\">30%</c>. This bonus stacks up to <c val=\"#TooltipNumbers\">3</c> times.",
+      "name": "Steady Blade",
+      "shortText": "Swift Strike deals increased damage for each Hero hit"
+    },
+    "GenjiDragonbladeTheDragonBecomesMe|GenjiDragonbladeTheDragonBecomesMe|Heroic|Level20": {
+      "fullText": "Each time Dragonblade hits an enemy Hero, the duration of Dragonblade is increased by <c val=\"#TooltipNumbers\">0.5</c> seconds. If a Hero is killed within <c val=\"#TooltipNumbers\">1.5</c> seconds of being hit by Dragonblade, Swift Strike's cooldown is reset.",
+      "name": "The Dragon Becomes Me",
+      "shortText": "Hitting Heroes increases Dragonblade duration"
+    },
+    "GenjiXStrikeLivingWeapon|GenjiXStrikeLivingWeapon|Heroic|Level20": {
+      "fullText": "Each enemy Hero hit by X-Strike reduces its cooldown by <c val=\"#TooltipNumbers\">12.5</c> seconds.",
+      "name": "Living Weapon",
+      "shortText": "Hero hits reduce X-Strike's cooldown"
+    },
+    "GenjiShurikenSharpenedStars|GenjiShurikenSharpenedStars|Q|Level20": {
+      "fullText": "Shuriken now pierce all enemies hit. Swift Strike's refund grants <c val=\"#TooltipNumbers\">1</c> charge of Shuriken.",
+      "name": "Sharpened Stars",
+      "shortText": "Shuriken pierce, gain charge from Swift Strike"
+    },
+    "GenjiDeflectZanshin|GenjiDeflectZanshin|W|Level20": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Block <c val=\"#TooltipNumbers\">6500</c> damage with Deflect, including damage blocked so far.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Reward:</c> Deflect hits all nearby enemy Heroes.",
+      "name": "Zanshin",
+      "shortText": "<c val=\"#TooltipQuest\">Quest:</c> Deflect hits all nearby Heroes"
+    }
+  },
+  "units": {
+    "GenjiSwiftStrikeFinalCutShadow": {
+      "name": "Genji"
+    }
+  }
+}

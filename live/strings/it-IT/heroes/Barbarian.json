@@ -1,0 +1,205 @@
+{
+  "abilities": {
+    "BarbarianAncientSpear|BarbarianAncientSpear|Q": {
+      "cooldownText": "Recupero: 13 s",
+      "fullText": "Scaglia una lancia che trascina Sonya verso il primo nemico colpito, infliggendo <c val=\"#TooltipNumbers\">173</c><c val=\"#ColorGray\">~~0.04~~</c> danni e stordendolo brevemente. Se il colpo va a segno, genera <c val=\"#TooltipNumbers\">40</c> Furia.",
+      "name": "Lancia Ancestrale",
+      "shortText": "Scaglia una lancia che trascina Sonya verso il primo bersaglio colpito, infliggendo danni e stordendolo."
+    },
+    "BarbarianSeismicSlam|BarbarianSeismicSlam|W": {
+      "cooldownText": "Recupero: 1 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Furia: 25</s>",
+      "fullText": "Infligge <c val=\"#TooltipNumbers\">176</c><c val=\"#ColorGray\">~~0.04~~</c> danni al bersaglio, e <c val=\"#TooltipNumbers\">44</c><c val=\"#ColorGray\">~~0.04~~</c> ai nemici alle sue spalle.",
+      "name": "Scossa Sismica",
+      "shortText": "Danneggia un nemico e infligge danni radiali alle sue spalle."
+    },
+    "BarbarianWhirlwind|BarbarianWhirlwind|E": {
+      "cooldownText": "Recupero: 5 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Furia: 40</s>",
+      "fullText": "Infligge <c val=\"#TooltipNumbers\">138</c><c val=\"#ColorGray\">~~0.04~~</c> danni al secondo ai nemici vicini per <c val=\"#TooltipNumbers\">3</c> s, rigenerando Salute pari al <c val=\"#TooltipNumbers\">25%</c> dei danni inflitti. L'effetto curativo è triplicato quando si colpiscono eroi nemici.",
+      "name": "Turbine",
+      "shortText": "Infligge danni ai nemici vicini e rigenera Salute pari a parte dei danni inflitti."
+    },
+    "BarbarianLeap|BarbarianLeap|Heroic": {
+      "cooldownText": "Recupero: 60 s",
+      "fullText": "Spicca un salto, infliggendo <c val=\"#TooltipNumbers\">135</c><c val=\"#ColorGray\">~~0.04~~</c> danni ai nemici vicini e stordendoli per <c val=\"#TooltipNumbers\">1.25</c> s.",
+      "name": "Balzo",
+      "shortText": "Spicca un salto, infligge danni e stordisce i nemici."
+    },
+    "BarbarianWrathoftheBerserker|BarbarianWrathoftheBerserker|Heroic": {
+      "cooldownText": "Recupero: 60 s",
+      "fullText": "Aumenta del <c val=\"#TooltipNumbers\">40%</c> i danni inflitti. Riduce del <c val=\"#TooltipNumbers\">50%</c> la durata degli effetti di stordimento, rallentamento e immobilizzazione subiti da Sonya. Dura <c val=\"#TooltipNumbers\">15</c> s, e si protrae di <c val=\"#TooltipNumbers\">1</c> s ogni <c val=\"#TooltipNumbers\">10</c> Furia ottenuta.",
+      "name": "Collera del Berserker",
+      "shortText": "Aumenta i danni inflitti e riduce la durata degli effetti debilitanti."
+    },
+    ":PASSIVE:|BarbarianFury|Trait": {
+      "fullText": "Usa la Furia, generata subendo danni o infliggendone con attacchi base, invece del Mana. Usare abilità base o eroiche aumenta la velocità di movimento del <c val=\"#TooltipNumbers\">10%</c> per <c val=\"#TooltipNumbers\">4</c> s.",
+      "name": "Furia",
+      "shortText": "Genera Furia durante il combattimento. L'uso di abilità aumenta la velocità di movimento."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Recupero: 4 s",
+      "fullText": "Dopo un incanalamento di <c val=\"#TooltipNumbers\">1</c> s, aumenta del <s val=\"StandardTooltipDetails\">30%</s> la velocità di movimento.",
+      "name": "Cavalcatura"
+    },
+    "Hearthstone|HearthstoneNoMana|B": {
+      "fullText": "Dopo un incanalamento di <c val=\"#TooltipNumbers\">6</c> s, teletrasporta l'eroe nella Sala delle Tempeste, rigenerando all'istante <c val=\"#TooltipNumbers\">1125</c> Salute.",
+      "name": "Pietra del Ritorno"
+    },
+    "BarbarianWhirlwindCancel|BarbarianWhirlwindCancel|E": {
+      "fullText": "Annulla Turbine",
+      "name": "Annulla Turbine"
+    },
+    "BarbarianCancelLeapArreatCrater|BarbarianLeapArreatCraterCancel|Heroic": {
+      "cooldownText": "Recupero: 1.5 s",
+      "fullText": "Annulla Cratere dell'Arreat",
+      "name": "Annulla Balzo"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Congeda la cavalcatura.",
+      "name": "Congeda cavalcatura"
+    },
+    "BarbarianShotofFury|BarbarianFuryShotOfFury|Trait": {
+      "cooldownText": "Recupero: 40 s",
+      "fullText": "Usa la Furia, generata subendo danni o infliggendone con attacchi base, invece del Mana. Usare abilità base o eroiche aumenta la velocità di movimento del <c val=\"#TooltipNumbers\">10%</c> per <c val=\"#TooltipNumbers\">4</c> s.",
+      "name": "Furia"
+    },
+    "BarbarianBattleRage|BarbarianBattleRage|Active": {
+      "cooldownText": "Recupero carica: 30 s",
+      "fullText": "All'attivazione rigenera il <c val=\"#TooltipNumbers\">10%</c> della Salute massima di Sonya. Accumula fino a <c val=\"#TooltipNumbers\">2</c> cariche. Utilizzabile durante Turbine.<n/><n/><c val=\"#AbilityPassive\">Passiva: </c>Sonya infligge il <c val=\"#TooltipNumbers\">25%</c> di danni aggiuntivi ai mercenari.",
+      "name": "Furia Battagliera",
+      "shortText": "Infligge danni aggiuntivi ai Mercenari e rigenera Salute all'attivazione."
+    },
+    "BarbarianNervesOfSteel|BarbarianNervesOfSteel|Active": {
+      "cooldownText": "Recupero: 60 s",
+      "fullText": "Fornisce uno Scudo pari al <c val=\"#TooltipNumbers\">25%</c> della Salute massima per <c val=\"#TooltipNumbers\">3</c> s. Utilizzabile durante Turbine.",
+      "name": "Nervi d'Acciaio",
+      "shortText": "Fornisce uno scudo all'attivazione."
+    },
+    "BarbarianStridingGiant|BarbarianStridingGiantActive|Heroic": {
+      "cooldownText": "Recupero: 30 s",
+      "fullText": "All'attivazione rende inarrestabili per <c val=\"#TooltipNumbers\">2</c> s. Utilizzabile solo mentre Collera del Berserker è attiva.",
+      "name": "Passo dei Giganti"
+    },
+    "BarbarianIgnorePain|BarbarianIgnorePain|Active": {
+      "cooldownText": "Recupero: 60 s",
+      "fullText": "All'attivazione fornisce <c val=\"#TooltipNumbers\">60</c> Resistenza per <c val=\"#TooltipNumbers\">4</c> s, riducendo del <c val=\"#TooltipNumbers\">60%</c> i danni subiti. Utilizzabile durante Turbine.",
+      "name": "Insensibilità",
+      "shortText": "All'attivazione fornisce Resistenza."
+    }
+  },
+  "talents": {
+    "BarbarianFuriousBlow|BarbarianSeismicSlamFuriousBlowTalent|W|Level1": {
+      "fullText": "Ogni <c val=\"#TooltipNumbers\">4°</c> utilizzo di Scossa Sismica infligge il <c val=\"#TooltipNumbers\">40%</c> di danni aggiuntivi al bersaglio principale e non ha costo in Furia.",
+      "name": "Colpo Furente",
+      "shortText": "Potenzia Scossa Sismica."
+    },
+    "BarbarianWarPaint|BarbarianFuryWarPaintTalent|Passive|Level1": {
+      "fullText": "Gli attacchi base di Sonya la curano del <c val=\"#TooltipNumbers\">30%</c> dei danni inflitti.",
+      "name": "Colori di Guerra",
+      "shortText": "Gli attacchi base rigenerano Salute."
+    },
+    "BarbarianToughAsNails|BarbarianToughAsNails|Passive|Level1": {
+      "fullText": "Ogni <c val=\"#TooltipNumbers\">16</c> s, fornisce <c val=\"#TooltipNumbers\">60</c> Resistenza fisica contro il successivo attacco base di un eroe, riducendo del <c val=\"#TooltipNumbers\">60%</c> i danni subiti.<n/><n/>Accumula fino a <c val=\"#TooltipNumbers\">3</c> cariche. Aumenta del <c val=\"#TooltipNumbers\">200%</c> la velocità di rigenerazione delle cariche finché il bonus alla velocità di movimento di Furia è attivo.",
+      "name": "Osso Duro",
+      "shortText": "Fornisce periodicamente Resistenza fisica."
+    },
+    "BarbarianShatteredGround|BarbarianSeismicSlamShatteredGroundTalent|W|Level4": {
+      "fullText": "Aumenta i danni radiali di Scossa Sismica del <c val=\"#TooltipNumbers\">250%</c>. Prendere di mira un eroe con Scossa Sismica aumenta ulteriormente i danni radiali del <c val=\"#TooltipNumbers\">250%</c>, mentre prendere di mira altri nemici aumenta la portata dei danni radiali del <c val=\"#TooltipNumbers\">66%</c>.",
+      "name": "Sconvolgimento",
+      "shortText": "Aumenta i danni radiali di Scossa Sismica."
+    },
+    "BarbarianHurricane|BarbarianHurricaneWhirlwindTalent|E|Level4": {
+      "fullText": "Riduce di <c val=\"#TooltipNumbers\">2</c> s il tempo di recupero di Turbine. Attivare Turbine rimuove tutti gli effetti di rallentamento e immobilizzazione da Sonya.",
+      "name": "Uragano",
+      "shortText": "Turbine rimuove gli effetti di rallentamento e immobilizzazione."
+    },
+    "BarbarianShotOfFury|BarbarianFuryShotOfFuryTalent|Trait|Level4": {
+      "cooldownText": "Recupero: 40 s",
+      "fullText": "All'attivazione fornisce <c val=\"#TooltipNumbers\">50</c> Furia. Utilizzabile durante Turbine.<n/><n/><c val=\"#AbilityPassive\">Passiva:</c> Il primo attacco base successivo all'utilizzo di Scossa Sismica infligge il <c val=\"#TooltipNumbers\">40%</c> di danni aggiuntivi.",
+      "name": "Scarica di Furia",
+      "shortText": "Fornisce Furia all'attivazione."
+    },
+    "BarbarianPoisonedSpear|BarbarianAncientSpearPoisonedSpearTalent|Q|Level7": {
+      "fullText": "Lancia Ancestrale infligge il <c val=\"#TooltipNumbers\">100%</c> di danni aggiuntivi in <c val=\"#TooltipNumbers\">6</c> s.",
+      "name": "Lancia Avvelenata",
+      "shortText": "Lancia Ancestrale infligge danni prolungati."
+    },
+    "BarbarianLifeFunnel|BarbarianWhirlwindLifeFunnelTalent|E|Level7": {
+      "fullText": "Aumenta le cure di Turbine al <c val=\"#TooltipNumbers\">35%</c> dei danni inflitti.",
+      "name": "Trasfusione Vitale",
+      "shortText": "Aumenta le cure di Turbine."
+    },
+    "BarbarianBattleRage|BarbarianBattleRage|Active|Level7": {
+      "cooldownText": "Recupero carica: 30 s",
+      "fullText": "All'attivazione rigenera il <c val=\"#TooltipNumbers\">10%</c> della Salute massima di Sonya. Accumula fino a <c val=\"#TooltipNumbers\">2</c> cariche. Utilizzabile durante Turbine.<n/><n/><c val=\"#AbilityPassive\">Passiva: </c>Sonya infligge il <c val=\"#TooltipNumbers\">25%</c> di danni aggiuntivi ai mercenari.",
+      "name": "Furia Battagliera",
+      "shortText": "Infligge danni aggiuntivi ai Mercenari e rigenera Salute all'attivazione."
+    },
+    "BarbarianHeroicAbilityLeap|BarbarianLeap|Heroic|Level10": {
+      "cooldownText": "Recupero: 60 s",
+      "fullText": "Spicca un salto, infliggendo <c val=\"#TooltipNumbers\">135</c><c val=\"#ColorGray\">~~0.04~~</c> danni ai nemici vicini e stordendoli per <c val=\"#TooltipNumbers\">1.25</c> s.",
+      "name": "Balzo",
+      "shortText": "Spicca un salto, infligge danni e stordisce i nemici."
+    },
+    "BarbarianHeroicAbilityWrathoftheBerserker|BarbarianWrathoftheBerserker|Heroic|Level10": {
+      "cooldownText": "Recupero: 60 s",
+      "fullText": "Aumenta del <c val=\"#TooltipNumbers\">40%</c> i danni inflitti. Riduce del <c val=\"#TooltipNumbers\">50%</c> la durata degli effetti di stordimento, rallentamento e immobilizzazione subiti da Sonya. Dura <c val=\"#TooltipNumbers\">15</c> s, e si protrae di <c val=\"#TooltipNumbers\">1</c> s ogni <c val=\"#TooltipNumbers\">10</c> Furia ottenuta.",
+      "name": "Collera del Berserker",
+      "shortText": "Aumenta i danni inflitti e riduce la durata degli effetti debilitanti."
+    },
+    "BarbarianMysticalSpear|BarbarianAncientSpearMysticalSpearTalent|Q|Level13": {
+      "fullText": "Lancia Ancestrale trascina Sonya nella posizione del bersaglio anche se non colpisce nessun nemico. In questo modo, riduce il tempo di recupero di Lancia Ancestrale di <c val=\"#TooltipNumbers\">5</c> s.",
+      "name": "Lancia Mistica",
+      "shortText": "Lancia Ancestrale trascina sempre Sonya e ha tempo di recupero ridotto."
+    },
+    "BarbarianRuthless|BarbarianRuthless|E|Level13": {
+      "fullText": "Turbine infligge <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> danni aggiuntivi al secondo agli eroi con meno del <c val=\"#TooltipNumbers\">50%</c> di Salute. Non fornisce cure aggiuntive.",
+      "name": "Inesorabilità",
+      "shortText": "Turbine infligge danni aggiuntivi ai bersagli con poca Salute."
+    },
+    "BarbarianNoEscape|BarbarianFuryNoEscapeTalent|Trait|Level13": {
+      "fullText": "Aumenta il bonus alla velocità di movimento fornito dall'uso di abilità base ed eroiche al <c val=\"#TooltipNumbers\">20%</c>.",
+      "name": "Senza Scampo",
+      "shortText": "Aumenta il bonus alla velocità di movimento fornito dall'uso di abilità."
+    },
+    "BarbarianGiantSlammer|BarbarianGiantSlammer|W|Level16": {
+      "fullText": "Scossa Sismica e gli attacchi base infliggono danni aggiuntivi agli eroi pari al <c val=\"#TooltipNumbers\">1.5%</c> della loro Salute massima e curano Sonya del <c val=\"#TooltipNumbers\">60%</c> dei danni inflitti.",
+      "name": "Tormento dei Giganti",
+      "shortText": "Scossa Sismica e gli attacchi base infliggono danni aggiuntivi."
+    },
+    "BarbarianRampage|BarbarianRampage|Passive|Level16": {
+      "fullText": "Aumenta del <c val=\"#TooltipNumbers\">25%</c> i danni degli attacchi base. Gli attacchi base riducono il tempo di recupero di Lancia Ancestrale di <c val=\"#TooltipNumbers\">1.5</c> s.",
+      "name": "Scatto d'Ira",
+      "shortText": "Gli attacchi base riducono il tempo di recupero di Lancia Ancestrale."
+    },
+    "BarbarianNervesOfSteel|BarbarianNervesOfSteel|Active|Level16": {
+      "cooldownText": "Recupero: 60 s",
+      "fullText": "Fornisce uno Scudo pari al <c val=\"#TooltipNumbers\">25%</c> della Salute massima per <c val=\"#TooltipNumbers\">3</c> s. Utilizzabile durante Turbine.",
+      "name": "Nervi d'Acciaio",
+      "shortText": "Fornisce uno scudo all'attivazione."
+    },
+    "BarbarianArreatCrater|BarbarianLeapArreatCraterTalent|Heroic|Level20": {
+      "fullText": "Balzo crea un cratere invalicabile per <c val=\"#TooltipNumbers\">5</c> s, e il suo tempo di recupero si riduce di <c val=\"#TooltipNumbers\">20</c> s.",
+      "name": "Cratere dell'Arreat",
+      "shortText": "Balzo crea un cratere e ha tempo di recupero ridotto."
+    },
+    "BarbarianStridingGiant|BarbarianStridingGiant|Heroic|Level20": {
+      "fullText": "Collera del Berserker aumenta la Salute massima del <c val=\"#TooltipNumbers\">10%</c> e fornisce Passo dei Giganti, che può essere attivata per diventare inarrestabili per <c val=\"#TooltipNumbers\">2</c> s. Tempo di recupero di <c val=\"#TooltipNumbers\">30</c> s.",
+      "name": "Passo dei Giganti",
+      "shortText": "Collera del Berserker può rendere inarrestabili."
+    },
+    "BarbarianCompositeSpear|BarbarianAncientSpearCompositeSpearTalent|Q|Level20": {
+      "fullText": "Estende la portata di Lancia Ancestrale del <c val=\"#TooltipNumbers\">50%</c>. Colpire un eroe nemico con Lancia Ancestrale fornisce <c val=\"#TooltipNumbers\">25</c> Resistenza per <c val=\"#TooltipNumbers\">4</c> s.",
+      "name": "Lancia Composita",
+      "shortText": "Estende la portata di Lancia Ancestrale e fornisce Resistenza."
+    },
+    "BarbarianIgnorePain|BarbarianIgnorePain|Active|Level20": {
+      "cooldownText": "Recupero: 60 s",
+      "fullText": "All'attivazione fornisce <c val=\"#TooltipNumbers\">60</c> Resistenza per <c val=\"#TooltipNumbers\">4</c> s, riducendo del <c val=\"#TooltipNumbers\">60%</c> i danni subiti. Utilizzabile durante Turbine.",
+      "name": "Insensibilità",
+      "shortText": "All'attivazione fornisce Resistenza."
+    }
+  },
+  "units": {}
+}

@@ -1,0 +1,208 @@
+{
+  "abilities": {
+    "AnduinFlashHeal|AnduinFlashHeal|Q": {
+      "cooldownText": "Recupero: 5 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 20</s>",
+      "fullText": "Incanala l'abilità per <c val=\"#TooltipNumbers\">0.75</c> s e cura un eroe alleato di <c val=\"#TooltipNumbers\">280</c><c val=\"#ColorGray\">~~0.04~~</c> Salute.",
+      "name": "Cura Rapida",
+      "shortText": "Cura un alleato."
+    },
+    "AnduinDivineStar|AnduinDivineStar|W": {
+      "cooldownText": "Recupero: 10 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Genera luce che infligge <c val=\"#TooltipNumbers\">140</c><c val=\"#ColorGray\">~~0.04~~</c> danni ai nemici e torna verso Anduin, curando gli eroi alleati di <c val=\"#TooltipNumbers\">130</c><c val=\"#ColorGray\">~~0.04~~</c> Salute in una traiettoria più ampia. Le cure aumentano del <c val=\"#TooltipNumbers\">25%</c> per ogni eroe nemico colpito.",
+      "name": "Stella Divina",
+      "shortText": "Scaglia un fulmine divino che infligge danni e rigenera Salute."
+    },
+    "AnduinChastise|AnduinChastise|E": {
+      "cooldownText": "Recupero: 9 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 40</s>",
+      "fullText": "Genera un'onda di luce che avanza, infliggendo <c val=\"#TooltipNumbers\">175</c><c val=\"#ColorGray\">~~0.04~~</c> danni al primo eroe nemico colpito e immobilizzandolo per <c val=\"#TooltipNumbers\">1.25</c> s.",
+      "name": "Castigo",
+      "shortText": "Genera luce immobilizzante."
+    },
+    "AnduinHolyWordSalvation|AnduinHolyWordSalvation|Heroic": {
+      "cooldownText": "Recupero: 80 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 70</s>",
+      "fullText": "Dopo <c val=\"#TooltipNumbers\">0.5</c> s, incanala l'abilità e invoca la Luce per <c val=\"#TooltipNumbers\">3</c> s. Gli eroi alleati nelle vicinanze rigenerano fino al <c val=\"#TooltipNumbers\">30%</c> della loro Salute massima e sono protetti.",
+      "name": "Parola Sacra: Salvezza",
+      "shortText": "Protegge e cura gli alleati vicini ad Anduin."
+    },
+    "AnduinLightBomb|AnduinLightBomb|Heroic": {
+      "cooldownText": "Recupero: 60 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 70</s>",
+      "fullText": "Infonde la Luce in un eroe alleato. Dopo <c val=\"#TooltipNumbers\">1.5</c> s, provoca un'esplosione che infligge <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c> danni ai nemici e li stordisce per <c val=\"#TooltipNumbers\">1.25</c> s.<n/><n/>Il bersaglio ottiene uno Scudo che assorbe <c val=\"#TooltipNumbers\">165</c><c val=\"#ColorGray\">~~0.04~~</c> danni per ogni eroe nemico colpito. Dura <c val=\"#TooltipNumbers\">5</c> s.",
+      "name": "Bomba di Luce",
+      "shortText": "Stordisce i nemici intorno a un alleato."
+    },
+    "AnduinLeapOfFaithInstant|AnduinLeapOfFaithInstant|Trait": {
+      "cooldownText": "Recupero: 70 s",
+      "fullText": "La fede trascina istantaneamente un eroe alleato nella posizione di Anduin, rendendolo inarrestabile durante il percorso.<n/><n/><s val=\"StandardTooltipHeader\">Grazia Tenace</s><n/><n/>Gli attacchi base contro gli eroi nemici curano l'eroe alleato vicino ad Anduin con meno Salute di <c val=\"#TooltipNumbers\">32</c><c val=\"#ColorGray\">~~0.04~~</c>.",
+      "name": "Balzo della Fede",
+      "shortText": "Trascina un eroe alleato nella posizione di Anduin."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Recupero: 4 s",
+      "fullText": "Dopo un incanalamento di <c val=\"#TooltipNumbers\">1</c> s, aumenta del <s val=\"StandardTooltipDetails\">30%</s> la velocità di movimento.",
+      "name": "Cavalcatura"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Dopo un incanalamento di <c val=\"#TooltipNumbers\">6</c> s, teletrasporta l'eroe nella Sala delle Tempeste, rigenerando all'istante <c val=\"#TooltipNumbers\">1125</c> Salute e <c val=\"#TooltipNumbers\">150</c> Mana.",
+      "name": "Pietra del Ritorno"
+    },
+    "AnduinHolyWordSalvationCancel|AnduinHolyWordSalvationCancel|Heroic": {
+      "cooldownText": "Recupero: 1 s",
+      "fullText": "Annulla Parola Sacra: Salvezza.",
+      "name": "Annulla Parola Sacra: Salvezza",
+      "shortText": "Annulla Parola Sacra: Salvezza"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Congeda la cavalcatura.",
+      "name": "Congeda cavalcatura"
+    },
+    "AnduinLightwell|AnduinLightwell|Active": {
+      "cooldownText": "Recupero: 75 s",
+      "fullText": "Evoca un Pozzo di Luce che cura periodicamente un eroe alleato vicino di <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> Salute. Il pozzo scompare dopo aver curato <c val=\"#TooltipNumbers\">15</c> volte o se l'abilità viene riattivata.<n/><n/>Il tempo di recupero è ridotto di <c val=\"#TooltipNumbers\">1</c> s ogni volta che Anduin cura un eroe alleato.",
+      "name": "Pozzo di Luce",
+      "shortText": "All'attivazione evoca un Pozzo di Luce curativo."
+    },
+    "AnduinFlashHealDesperatePrayer|AnduinFlashHealDesperatePrayer|Active": {
+      "cooldownText": "Recupero: 35 s",
+      "fullText": "All'attivazione Anduin cura istantaneamente un eroe alleato in difficoltà di <c val=\"#TooltipNumbers\">375</c><c val=\"#ColorGray\">~~0.04~~</c> Salute, ma si inginocchia per <c val=\"#TooltipNumbers\">2</c> s senza poter agire.",
+      "name": "Preghiera Disperata",
+      "shortText": "All'attivazione cura un eroe alleato in difficoltà."
+    },
+    "AnduinBlessedRecovery|AnduinBlessedRecovery|Passive": {
+      "cooldownText": "Recupero: 10 s",
+      "fullText": "Se Anduin perde più del <c val=\"#TooltipNumbers\">8%</c> della Salute massima in una volta, rigenera il <c val=\"#TooltipNumbers\">15%</c> di Salute in <c val=\"#TooltipNumbers\">3</c> s. <n/><n/>L'effetto ha un tempo di recupero di <c val=\"#TooltipNumbers\">10</c> s.<n/><n/>Salute richiesta: <c val=\"#TooltipNumbers\">133</c><c val=\"#ColorGray\">~~0.04~~</c>",
+      "name": "Recupero Benedetto",
+      "shortText": "Rigenera Salute dopo aver subito gravi danni."
+    },
+    "AnduinFlashHealInnerFocus|AnduinFlashHealInnerFocus|Active": {
+      "cooldownText": "Recupero: 20 s",
+      "fullText": "All'attivazione azzera il tempo di recupero di Cura Rapida, e aumenta del <c val=\"#TooltipNumbers\">25%</c> l'effetto dell'attivazione successiva.<n/><n/>Danneggiare gli eroi nemici riduce il tempo di recupero di <c val=\"#TooltipNumbers\">1</c> s.",
+      "name": "Concentrazione Interiore",
+      "shortText": "All'attivazione azzera il tempo di recupero di Cura Rapida."
+    }
+  },
+  "talents": {
+    "AnduinFlashHealEvenhandedBlessings|AnduinFlashHealEvenhandedBlessings|Q|Level1": {
+      "fullText": "Se Cura Rapida è attivata su un bersaglio diverso dall'ultimo, aumenta l'effetto di cura del <c val=\"#TooltipNumbers\">15%</c> e rimborsa il <c val=\"#TooltipNumbers\">40%</c> del suo tempo di recupero.",
+      "name": "Benedizioni Armoniose",
+      "shortText": "Azzera il tempo di recupero di Cura Rapida su nuovi bersagli."
+    },
+    "AnduinDivineStarPowerWordShield|AnduinDivineStarPowerWordShield|W|Level1": {
+      "fullText": "Durante il tragitto di Stella Divina, gli alleati lungo la sua traiettoria ottengono uno Scudo che assorbe <c val=\"#TooltipNumbers\">128</c><c val=\"#ColorGray\">~~0.04~~</c> danni per <c val=\"#TooltipNumbers\">4</c> s.<n/><n/>Se Stella Divina colpisce un eroe nemico, Anduin ottiene uno Scudo che assorbe <c val=\"#TooltipNumbers\">185</c><c val=\"#ColorGray\">~~0.04~~</c> danni per <c val=\"#TooltipNumbers\">4</c> s.",
+      "name": "Parola del Potere: Scudo",
+      "shortText": "Stella Divina fornisce Scudi."
+    },
+    "AnduinLightwell|AnduinLightwell|Active|Level1": {
+      "cooldownText": "Recupero: 75 s",
+      "fullText": "Evoca un Pozzo di Luce che cura periodicamente un eroe alleato vicino di <c val=\"#TooltipNumbers\">50</c><c val=\"#ColorGray\">~~0.04~~</c> Salute. Il pozzo scompare dopo aver curato <c val=\"#TooltipNumbers\">15</c> volte o se l'abilità viene riattivata.<n/><n/>Il tempo di recupero è ridotto di <c val=\"#TooltipNumbers\">1</c> s ogni volta che Anduin cura un eroe alleato.",
+      "name": "Pozzo di Luce",
+      "shortText": "All'attivazione evoca un Pozzo di Luce curativo."
+    },
+    "AnduinDivineStarMoralCompass|AnduinDivineStarMoralCompass|W|Level4": {
+      "fullText": "Stella Divina lancia attacchi base contro eroi vicini alla sua estremità.<n/><n/><c val=\"#AbilityPassive\">Passiva:</c> Aumenta la portata d'attacco di <c val=\"#TooltipNumbers\">1.1</c>.",
+      "name": "Bussola Morale",
+      "shortText": "Stella Divina lancia attacchi base quando raggiunge l'estremità."
+    },
+    "AnduinSurgeofLight|AnduinSurgeofLight|E|Level4": {
+      "fullText": "Gli attacchi base riducono il tempo di recupero di Castigo di <c val=\"#TooltipNumbers\">0.75</c> s. Gli attacchi base contro gli eroi immobilizzati da Castigo attivano un secondo attacco base e rigenerano <c val=\"#TooltipNumbers\">25</c> Mana.",
+      "name": "Eruzione di Luce",
+      "shortText": "Castigo potenzia gli attacchi base."
+    },
+    "AnduinPiercingLight|AnduinPiercingLight|E|Level4": {
+      "fullText": "Castigo colpisce un bersaglio aggiuntivo.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Missione:</c> Colpire due eroi con un singolo Castigo aumenta permanentemente la Potenza magica di <c val=\"#TooltipNumbers\">1</c>, fino a un massimo di <c val=\"#TooltipNumbers\">10</c>.",
+      "name": "Luce Penetrante",
+      "shortText": "Castigo trapassa i nemici.<n/><c val=\"#TooltipQuest\">Missione:</c> Colpire due eroi aumenta la Potenza magica."
+    },
+    "AnduinFlashHealBindingHeal|AnduinFlashHealBindingHeal|Q|Level7": {
+      "fullText": "Attivare Cura Rapida su un alleato cura Anduin di <c val=\"#TooltipNumbers\">135</c><c val=\"#ColorGray\">~~0.04~~</c> Salute.",
+      "name": "Cura Combinata",
+      "shortText": "Cura Rapida ha effetto anche su Anduin."
+    },
+    "AnduinBlessedRecovery|AnduinBlessedRecovery|Passive|Level7": {
+      "fullText": "Se Anduin perde più del <c val=\"#TooltipNumbers\">8%</c> della Salute massima in una volta, rigenera il <c val=\"#TooltipNumbers\">15%</c> di Salute in <c val=\"#TooltipNumbers\">3</c> s. <n/><n/>L'effetto ha un tempo di recupero di <c val=\"#TooltipNumbers\">10</c> s.<n/><n/>Salute richiesta: <c val=\"#TooltipNumbers\">133</c><c val=\"#ColorGray\">~~0.04~~</c>",
+      "name": "Recupero Benedetto",
+      "shortText": "Rigenera Salute dopo aver subito gravi danni."
+    },
+    "AnduinFlashHealDesperatePrayer|AnduinFlashHealDesperatePrayer|Active|Level7": {
+      "cooldownText": "Recupero: 35 s",
+      "fullText": "All'attivazione Anduin cura istantaneamente un eroe alleato in difficoltà di <c val=\"#TooltipNumbers\">375</c><c val=\"#ColorGray\">~~0.04~~</c> Salute, ma si inginocchia per <c val=\"#TooltipNumbers\">2</c> s senza poter agire.",
+      "name": "Preghiera Disperata",
+      "shortText": "All'attivazione cura un eroe alleato in difficoltà."
+    },
+    "AnduinHolyWordSalvation|AnduinHolyWordSalvation|Heroic|Level10": {
+      "cooldownText": "Recupero: 80 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 70</s>",
+      "fullText": "Dopo <c val=\"#TooltipNumbers\">0.5</c> s, incanala l'abilità e invoca la Luce per <c val=\"#TooltipNumbers\">3</c> s. Gli eroi alleati nelle vicinanze rigenerano fino al <c val=\"#TooltipNumbers\">30%</c> della loro Salute massima e sono protetti.",
+      "name": "Parola Sacra: Salvezza",
+      "shortText": "Protegge e cura gli alleati vicini ad Anduin."
+    },
+    "AnduinLightBomb|AnduinLightBomb|Heroic|Level10": {
+      "cooldownText": "Recupero: 60 s",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana: 70</s>",
+      "fullText": "Infonde la Luce in un eroe alleato. Dopo <c val=\"#TooltipNumbers\">1.5</c> s, provoca un'esplosione che infligge <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c> danni ai nemici e li stordisce per <c val=\"#TooltipNumbers\">1.25</c> s.<n/><n/>Il bersaglio ottiene uno Scudo che assorbe <c val=\"#TooltipNumbers\">165</c><c val=\"#ColorGray\">~~0.04~~</c> danni per ogni eroe nemico colpito. Dura <c val=\"#TooltipNumbers\">5</c> s.",
+      "name": "Bomba di Luce",
+      "shortText": "Stordisce i nemici intorno a un alleato."
+    },
+    "AnduinDivineStarSpeedOfThePious|AnduinDivineStarSpeedOfThePious|W|Level13": {
+      "fullText": "Mentre Stella Divina è in movimento, aumenta del <c val=\"#TooltipNumbers\">30%</c> la velocità di movimento. Ogni eroe alleato curato da Stella Divina durante il suo ritorno verso Anduin riduce il tempo di recupero dell'abilità di <c val=\"#TooltipNumbers\">1</c> s.",
+      "name": "Rapidità Pia",
+      "shortText": "Stella Divina aumenta la velocità di movimento e diminuisce il suo tempo di recupero."
+    },
+    "AnduinPushForward|AnduinPushForward|Trait|Level13": {
+      "fullText": "Danneggiare un eroe nemico aumenta la velocità di movimento del <c val=\"#TooltipNumbers\">2.5%</c> e l'ammontare delle cure di Grazia Tenace del <c val=\"#TooltipNumbers\">5%</c> per <c val=\"#TooltipNumbers\">6</c> s. Questi effetti si accumulano fino a <c val=\"#TooltipNumbers\">8</c> volte.",
+      "name": "Avanti Tutta!",
+      "shortText": "Danneggiare gli eroi aumenta la velocità di movimento e la rigenerazione di Salute."
+    },
+    "AnduinLeapOfFaithEnchantBootsLionsSpeed|AnduinLeapOfFaithEnchantBootsLionsSpeed|Trait|Level13": {
+      "fullText": "Aumenta del <c val=\"#TooltipNumbers\">5%</c> la velocità di movimento. Il bonus è quadruplicato quando il tempo di recupero di Balzo della Fede è disponibile. Gli alleati trascinati da Balzo della Fede rigenerano <c val=\"#TooltipNumbers\">280</c><c val=\"#ColorGray\">~~0.04~~</c> Salute in <c val=\"#TooltipNumbers\">4</c> s.",
+      "name": "Incantamento Stivali - Velocità del Leone",
+      "shortText": "Balzo della Fede aumenta la velocità di movimento e cura."
+    },
+    "AnduinFlashHealRenew|AnduinFlashHealRenew|Q|Level16": {
+      "fullText": "Cura Rapida rigenera <c val=\"#TooltipNumbers\">180</c><c val=\"#ColorGray\">~~0.04~~</c> Salute aggiuntiva in <c val=\"#TooltipNumbers\">6</c> s. La durata di questa cura viene rinnovata ogni volta che Anduin colpisce un eroe nemico con un attacco base.",
+      "name": "Rinnovamento",
+      "shortText": "Cura Rapida rigenera Salute nel tempo."
+    },
+    "AnduinDivineStarHolyNova|AnduinDivineStarHolyNova|W|Level16": {
+      "fullText": "Stella Divina esplode quando torna da Anduin, curando gli eroi alleati vicini di <c val=\"#TooltipNumbers\">105</c><c val=\"#ColorGray\">~~0.04~~</c> Salute e infliggendo <c val=\"#TooltipNumbers\">150</c><c val=\"#ColorGray\">~~0.04~~</c> danni ai nemici.",
+      "name": "Esplosione Sacra",
+      "shortText": "Stella Divina esplode dopo il ritorno."
+    },
+    "AnduinLeapOfFaithGlyphOfFaith|AnduinLeapOfFaithGlyphOfFaith|Trait|Level16": {
+      "fullText": "Balzo della Fede ottiene una <c val=\"#TooltipNumbers\">seconda</c> carica.",
+      "name": "Glifo della Fede",
+      "shortText": "Balzo della Fede ottiene una carica."
+    },
+    "AnduinFlashHealInnerFocus|AnduinFlashHealInnerFocus|Active|Level16": {
+      "cooldownText": "Recupero: 20 s",
+      "fullText": "All'attivazione azzera il tempo di recupero di Cura Rapida, e aumenta del <c val=\"#TooltipNumbers\">25%</c> l'effetto dell'attivazione successiva.<n/><n/>Danneggiare gli eroi nemici riduce il tempo di recupero di <c val=\"#TooltipNumbers\">1</c> s.",
+      "name": "Concentrazione Interiore",
+      "shortText": "All'attivazione azzera il tempo di recupero di Cura Rapida."
+    },
+    "AnduinHolyWordSalvationLightOfStormwind|AnduinHolyWordSalvationLightOfStormwind|Heroic|Level20": {
+      "fullText": "Parola Sacra: Salvezza rende invulnerabili gli eroi alleati invece di fornire loro protezione. Non ha effetto su Anduin. <n/><n/>Se l'incanalamento di Parola Sacra: Salvezza dura fino al termine, ne riduce il tempo di recupero di <c val=\"#TooltipNumbers\">60</c> s.",
+      "name": "Luce di Roccavento",
+      "shortText": "Parola Sacra: Salvezza rende invulnerabili gli alleati."
+    },
+    "AnduinInnerFire|AnduinInnerFire|Heroic|Level20": {
+      "fullText": "Il bersaglio di Bomba di Luce ottiene un aumento del <c val=\"#TooltipNumbers\">40%</c> alla velocità di movimento e <c val=\"#TooltipNumbers\">50</c> Resistenza per <c val=\"#TooltipNumbers\">3</c> s.",
+      "name": "Fuoco Interiore",
+      "shortText": "Bomba di Luce aumenta la velocità di movimento e fornisce Resistenza."
+    },
+    "AnduinCensure|AnduinCensure|E|Level20": {
+      "fullText": "Castigo stordisce per <c val=\"#TooltipNumbers\">0.75</c> s e l'effetto d'immobilizzazione è aumentato di <c val=\"#TooltipNumbers\">0.5</c> s.",
+      "name": "Riprensione",
+      "shortText": "Castigo stordisce e aumenta la durata delle immobilizzazioni."
+    },
+    "AnduinVariansLegacy|AnduinVariansLegacy|Passive|Level20": {
+      "fullText": "Gli attacchi base bruciano i nemici, infliggendo <c val=\"#TooltipNumbers\">87</c><c val=\"#ColorGray\">~~0.04~~</c> danni in <c val=\"#TooltipNumbers\">3</c> s. Anduin rigenera Salute pari al <c val=\"#TooltipNumbers\">50%</c> dei danni inflitti.",
+      "name": "Lascito di Varian",
+      "shortText": "Gli attacchi base bruciano i nemici."
+    }
+  },
+  "units": {}
+}

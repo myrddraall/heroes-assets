@@ -1,0 +1,180 @@
+{
+  "abilities": {
+    "ArtanisBladeDash|ArtanisBladeDash|Q": {
+      "cooldownText": "Temps de recharge : 10 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 50</s>",
+      "fullText": "Fonce en avant et inflige <c val=\"#TooltipNumbers\">63</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts aux ennemis, puis fait demi-tour et inflige <c val=\"#TooltipNumbers\">171</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts. Chaque ennemi touché réduit le temps de recharge de Surcharge de bouclier de <c val=\"#TooltipNumbers\">1</c> seconde, et de <c val=\"#TooltipNumbers\">2</c> secondes si c'est un héros.",
+      "name": "Célérité tranchante",
+      "shortText": "Fonce vers l'avant puis vers l'arrière, infligeant des dégâts aux ennemis sur sa trajectoire."
+    },
+    "ArtanisTwinBlades|ArtanisTwinBlades|W": {
+      "cooldownText": "Temps de recharge :<sp/>4 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 20</s>",
+      "fullText": "La prochaine attaque de base d’Artanis le propulse immédiatement sur une courte distance et frappe l’ennemi <c val=\"#TooltipNumbers\">2</c> fois.",
+      "name": "Lames jumelles",
+      "shortText": "Artanis charge et porte deux attaques de base."
+    },
+    "ArtanisPhasePrism|ArtanisPhasePrism|E": {
+      "cooldownText": "Temps de recharge :<sp/>12 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 50</s>",
+      "fullText": "Projette un Prisme de phase qui inflige <c val=\"#TooltipNumbers\">66</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts au premier héros qu’il touche et échange la position d’Artanis avec la sienne. Toucher un héros rend aussi Artanis insensible aux effets de contrôle pendant <c val=\"#TooltipNumbers\">1.5</c> secondes. Peut être utilisé en même temps que Célérité tranchante.",
+      "name": "Prisme de phase",
+      "shortText": "Change de place avec un héros adverse."
+    },
+    "ArtanisSpearofAdunPurifierBeam|ArtanisSpearofAdunPurifierBeam|Heroic": {
+      "cooldownText": "Temps de recharge : 70 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 65</s>",
+      "fullText": "Cible un héros adverse avec un rayon orbital depuis la Lance d’Adun, infligeant <c val=\"#TooltipNumbers\">184</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts par seconde pendant <c val=\"#TooltipNumbers\">8</c> secondes. Le rayon suit la cible quand elle se déplace. Portée illimitée.",
+      "name": "Rayon purificateur",
+      "shortText": "Pourchasse un ennemi avec un rayon orbital."
+    },
+    "ArtanisSpearofAdunSuppressionPulse|ArtanisSpearofAdunSuppressionPulse|Heroic": {
+      "cooldownText": "Temps de recharge :<sp/>50 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 40</s>",
+      "fullText": "Émet une impulsion sur une large zone depuis la Lance d’Adun, infligeant <c val=\"#TooltipNumbers\">114</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts et aveuglant les ennemis pendant <c val=\"#TooltipNumbers\">4</c> secondes. Portée illimitée.",
+      "name": "Impulsion de suppression",
+      "shortText": "Frappe et aveugle les ennemis dans une large zone."
+    },
+    "ArtanisShieldOverloadDummy|ArtanisShieldOverloadTrait|Trait": {
+      "cooldownText": "Temps de recharge : 24 secondes",
+      "fullText": "Après avoir subi des dégâts avec moins de <c val=\"#TooltipNumbers\">75%</c> de sa vie, Artanis obtient <c val=\"#TooltipNumbers\">365</c><c val=\"#ColorGray\">~~0.04~~</c> points de bouclier pendant <c val=\"#TooltipNumbers\">5</c> secondes. Le temps de recharge de Surcharge de bouclier diminue de <c val=\"#TooltipNumbers\">4</c> secondes pour chaque attaque de base portée.",
+      "name": "Surcharge de bouclier",
+      "shortText": "Confère un bouclier en cas d'attaque subie avec un faible nombre de points de vie."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Temps de recharge : 4 secondes",
+      "fullText": "Après <c val=\"#TooltipNumbers\">1</c> seconde de canalisation, augmente la vitesse de déplacement de <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Appeler une monture"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Après <c val=\"#TooltipNumbers\">6</c> secondes de canalisation, téléporte au hall des Tempêtes et rend instantanément <c val=\"#TooltipNumbers\">1125</c> points de vie et <c val=\"#TooltipNumbers\">150</c> points de mana.",
+      "name": "Pierre de foyer"
+    },
+    ":PASSIVE:|ArtanisTwinBladesPrimed|W": {
+      "cooldownText": "Temps de recharge :<sp/>4 secondes",
+      "fullText": "La prochaine attaque de base d’Artanis le propulse immédiatement sur une courte distance et frappe l’ennemi <c val=\"#TooltipNumbers\">2</c> fois.",
+      "name": "Lames jumelles (Opérationnel)"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Permet de descendre de la monture.",
+      "name": "Renvoyer la monture"
+    }
+  },
+  "talents": {
+    "ArtanisTwinBladesReactiveParry|ArtanisTwinBladesReactiveParryTalent|W|Level1": {
+      "fullText": "Infliger des dégâts aux héros adverses avec Lames jumelles ou Célérité tranchante confère à Artanis <c val=\"#TooltipNumbers\">50</c> points d’armure physique contre la prochaine attaque de base d’un héros adverse, ce qui réduit les dégâts qu’elle inflige de <c val=\"#TooltipNumbers\">50%</c>.<n/><n/>Cumule jusqu’à <c val=\"#TooltipNumbers\">2</c> charges.",
+      "name": "Parade réactive",
+      "shortText": "Lames jumelles et Célérité tranchante confèrent de l’armure physique."
+    },
+    "ArtanisTwinBladesAmateurOpponent|ArtanisTwinBladesAmateurOpponentTalent|W|Level1": {
+      "fullText": "Les attaques de Lames jumelles infligent <c val=\"#TooltipNumbers\">150%</c> de dégâts bonus aux cibles non héroïques.",
+      "name": "Adversaire amateur",
+      "shortText": "Augmente les dégâts de Lames jumelles infligés aux cibles non héroïques."
+    },
+    "ArtanisProtectorOfAiur|ArtanisProtectorOfAiurTalent|Passive|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quête :</c> les attaques de base portées à des héros adverses augmentent les dégâts des attaques d’Artanis de <c val=\"#TooltipNumbers\">0.1 %</c>. Faire des victimes augmente les dégâts de <c val=\"#TooltipNumbers\">1 %</c>.",
+      "name": "Protecteur d’Aïur",
+      "shortText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quête :</c> les attaques portées aux héros augmentent les dégâts."
+    },
+    "ArtanisPhasePrismPsionicSynergy|ArtanisPhasePrismPsionicSynergyTalent|E|Level4": {
+      "fullText": "Toucher un héros adverse avec Prisme de phase confère <c val=\"#TooltipNumbers\">30</c> points d’armure pendant <c val=\"#TooltipNumbers\">5</c> secondes.",
+      "name": "Synergie psionique",
+      "shortText": "Prisme de phase confère de l’armure."
+    },
+    "ArtanisShieldOverloadShieldBattery|ArtanisShieldOverloadShieldBatteryTalent|Trait|Level4": {
+      "fullText": "Surcharge de bouclier se recharge <c val=\"#TooltipNumbers\">125%</c> plus vite quand son bouclier est activé. <n/><n/><c val=\"#AbilityPassive\">Effet passif :</c> réduit le temps de recharge de Surcharge de bouclier de <c val=\"#TooltipNumbers\">4</c> secondes.",
+      "name": "Batterie de boucliers",
+      "shortText": "Surcharge de bouclier se recharge plus vite quand elle est active."
+    },
+    "ArtanisShieldOverloadShieldSurge|ArtanisShieldOverloadShieldSurgeTalentNew|Trait|Level4": {
+      "fullText": "Augmente les boucliers conférés par Surcharge de bouclier de <c val=\"#TooltipNumbers\">80 %</c> quand les points de vie sont inférieurs à <c val=\"#TooltipNumbers\"> 25%</c>.",
+      "name": "Levée de bouclier",
+      "shortText": "Augmente le bouclier de Surcharge de bouclier quand les points de vie sont bas."
+    },
+    "ArtanisBladeDashSolariteReaper|ArtanisBladeDashSolariteReaperTalent|Q|Level7": {
+      "fullText": "Augmente les dégâts de la première accélération de Célérité tranchante de <c val=\"#TooltipNumbers\">175%</c>.",
+      "name": "Faucheur en solarite",
+      "shortText": "Augmente les dégâts de Célérité tranchante."
+    },
+    "ArtanisPhasePrismChronoSurge|ArtanisPhasePrismChronoSurgeTalent|E|Level7": {
+      "fullText": "Toucher un héros adverse avec Prisme de phase augmente la vitesse d’attaque de <c val=\"#TooltipNumbers\">40%</c> pendant <c val=\"#TooltipNumbers\">5</c> secondes et diminue la vitesse de déplacement de l’ennemi de <c val=\"#TooltipNumbers\">30%</c> pendant <c val=\"#TooltipNumbers\">4</c> secondes.",
+      "name": "Impulsion temporelle",
+      "shortText": "Prisme de phase augmente la vitesse d’attaque et ralentit les ennemis"
+    },
+    "ArtanisFinalCut|ArtanisFinalCut|Passive|Level7": {
+      "fullText": "Après l’utilisation d’une capacité, la prochaine attaque de base portée dans les <c val=\"#TooltipNumbers\">6</c> secondes suivantes inflige <c val=\"#TooltipNumbers\">40%</c> de dégâts supplémentaires. Quand les points de vie sont inférieurs à <c val=\"#TooltipNumbers\">25%</c> du maximum, ce bonus aux dégâts est porté à <c val=\"#TooltipNumbers\">60%</c>.",
+      "name": "Contrecoup",
+      "shortText": "Les capacités augmentent les dégâts des attaques de base."
+    },
+    "ArtanisHeroicAbilitySpearofAdunSuppressionPulse|ArtanisSpearofAdunSuppressionPulse|Heroic|Level10": {
+      "cooldownText": "Temps de recharge :<sp/>50 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 40</s>",
+      "fullText": "Émet une impulsion sur une large zone depuis la Lance d’Adun, infligeant <c val=\"#TooltipNumbers\">114</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts et aveuglant les ennemis pendant <c val=\"#TooltipNumbers\">4</c> secondes. Portée illimitée.",
+      "name": "Impulsion de suppression",
+      "shortText": "Frappe et aveugle les ennemis dans une large zone."
+    },
+    "ArtanisHeroicAbilitySpearofAdunPurifierBeam|ArtanisSpearofAdunPurifierBeam|Heroic|Level10": {
+      "cooldownText": "Temps de recharge : 70 secondes",
+      "energyText": "<s val=\"StandardTooltipDetails\">Mana : 65</s>",
+      "fullText": "Cible un héros adverse avec un rayon orbital depuis la Lance d’Adun, infligeant <c val=\"#TooltipNumbers\">184</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts par seconde pendant <c val=\"#TooltipNumbers\">8</c> secondes. Le rayon suit la cible quand elle se déplace. Portée illimitée.",
+      "name": "Rayon purificateur",
+      "shortText": "Pourchasse un ennemi avec un rayon orbital."
+    },
+    "ArtanisBladeDashTemplarsZeal|ArtanisBladeDashTemplarsZealTalent|Q|Level13": {
+      "fullText": "Réduit le coût en mana de Célérité tranchante de <c val=\"#TooltipNumbers\">50</c> à <c val=\"#TooltipNumbers\">25</c> points. Chaque fois que Surcharge de bouclier s’active, réduit le temps de recharge de Célérité tranchante de <c val=\"#TooltipNumbers\">6</c> secondes.",
+      "name": "Zèle de templier",
+      "shortText": "Réduit le temps de recharge de Célérité tranchante."
+    },
+    "ArtanisTwinBladesTripleStrike|ArtanisTwinBladesTripleStrikeTalent|W|Level13": {
+      "fullText": "Porte le nombre d’attaques de base de Lames jumelles à <c val=\"#TooltipNumbers\">3</c> mais augmente son temps de recharge de <c val=\"#TooltipNumbers\">1</c> seconde.",
+      "name": "Frappe triple",
+      "shortText": "Lames jumelles frappe 3 fois."
+    },
+    "ArtanisPhasePrismGravitonVortex|ArtanisPhasePrismGravitonVortexTalent|E|Level13": {
+      "fullText": "Réduit le coût en mana de Prisme de phase de <c val=\"#TooltipNumbers\">50</c> à <c val=\"#TooltipNumbers\">25</c> points. Toucher des héros adverses avec Célérité tranchante ou leur porter des attaques de base réduit le temps de recharge de Prisme de phase de <c val=\"#TooltipNumbers\">2</c> seconde.",
+      "name": "Vortex à gravitons",
+      "shortText": "Les attaques réduisent le temps de recharge de Prisme de phase."
+    },
+    "ArtanisShieldOverloadPhaseBulwark|ArtanisShieldOverloadPhaseBulwarkTalent|Trait|Level13": {
+      "fullText": "Surcharge de bouclier confère <c val=\"#TooltipNumbers\">50</c> points d’armure anti-sort tant qu’il est actif et pendant <c val=\"#TooltipNumbers\">2</c> secondes à l’expiration.",
+      "name": "Rempart de phase",
+      "shortText": "Surcharge de bouclier confère de l’armure anti-sort."
+    },
+    "ArtanisTwinBladesTitanKiller|ArtanisTwinBladesTitanKillerTalent|W|Level16": {
+      "fullText": "Les attaques de base portées aux héros infligent un montant de dégâts supplémentaire équivalent à <c val=\"#TooltipNumbers\"> 0.5%</c> du maximum de points de vie de la cible. Activer Lames jumelles porte ce montant à <c val=\"#TooltipNumbers\">1.5%</c>.",
+      "name": "Tueur de titans",
+      "shortText": "Les attaques de base bénéficient d’un bonus aux dégâts."
+    },
+    "ArtanisShieldOverloadForceofWill|ArtanisShieldOverloadForceofWillTalent|Trait|Level16": {
+      "fullText": "Les capacités de base réduisent le temps de recharge de Surcharge de bouclier de <c val=\"#TooltipNumbers\">5</c> secondes.",
+      "name": "Force de volonté",
+      "shortText": "Les capacités réduisent le temps de recharge de Surcharge de bouclier."
+    },
+    "ArtanisTwinBladesBladesofaTemplar|ArtanisTwinBladesBladesofaTemplar|Passive|Level16": {
+      "fullText": "Augmente la vitesse d’attaque de <c val=\"#TooltipNumbers\">20%</c>. Les attaques de base réduisent la vitesse de déplacement des ennemis de <c val=\"#TooltipNumbers\">20%</c> pendant <c val=\"#TooltipNumbers\">1.25</c> seconde.",
+      "name": "Lames de Templier",
+      "shortText": "Augmente la vitesse d’attaque et ralentit les ennemis."
+    },
+    "ArtanisSpearofAdunSuppressionPulseOrbitalBombardment|ArtanisSpearofAdunSuppressionPulseOrbitalBombardmentTalent|Heroic|Level20": {
+      "fullText": "Impulsion de suppression gagne une charge supplémentaire. Temps de recharge de <c val=\"#TooltipNumbers\">10</c> secondes entre chaque utilisation.",
+      "name": "Bombardement orbital",
+      "shortText": "Impulsion de suppression gagne une charge supplémentaire."
+    },
+    "ArtanisSpearofAdunPurifierBeamTargetPurified|ArtanisSpearofAdunPurifierBeamTargetPurifiedTalent|Heroic|Level20": {
+      "fullText": "Augmente la vitesse de Rayon purificateur de <c val=\"#TooltipNumbers\">15%</c>. Si la cible du rayon purificateur meurt, celui-ci est automatiquement relancé sur le héros adverse visible le plus proche.",
+      "name": "Cible purifiée",
+      "shortText": "Augmente la vitesse de Rayon purificateur. Le relance si la cible meurt."
+    },
+    "ArtanisTwinBladesZealotCharge|ArtanisTwinBladesZealotChargeTalent|W|Level20": {
+      "fullText": "Augmente la portée de charge de Lames jumelles de <c val=\"#TooltipNumbers\">75%</c>.",
+      "name": "Charge de zélote",
+      "shortText": "Augmente la portée de charge de Lames jumelles."
+    },
+    "ArtanisPlasmaBurn|ArtanisPlasmaBurn|Trait|Level20": {
+      "fullText": "Inflige <c val=\"#TooltipNumbers\">70</c><c val=\"#ColorGray\">~~0.04~~</c> points de dégâts par seconde aux ennemis proches tant que Surcharge de bouclier est active.",
+      "name": "Brûlure plasmique",
+      "shortText": "Surcharge de bouclier brûle les ennemis proches."
+    }
+  },
+  "units": {}
+}

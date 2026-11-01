@@ -1,0 +1,812 @@
+{
+  "id": "DVa",
+  "unitId": "HeroDVaMech",
+  "hyperlinkId": "DVa",
+  "attributeId": "DVA0",
+  "franchise": "Overwatch",
+  "rarity": "Epic",
+  "releaseDate": "2017-05-16",
+  "isMelee": false,
+  "gender": "Female",
+  "radius": 1.1875,
+  "innerRadius": 0.9375,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 6,
+    "damage": 4,
+    "survivability": 8,
+    "utility": 8
+  },
+  "life": {
+    "amount": 2150,
+    "scale": 0.04,
+    "regenRate": 4.4804,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 100,
+    "regenRate": 0
+  },
+  "playstyles": [
+    "BodyBlocker",
+    "Escaper",
+    "Overconfident",
+    "RoleTank"
+  ],
+  "weapons": [
+    {
+      "nameId": "DVaMechWeapon",
+      "isDisabled": false,
+      "range": 3.75,
+      "minimumRange": 0,
+      "period": 0.25,
+      "damage": 22,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "DVaDeathwing",
+    "DVaTerran",
+    "DVaUltimate"
+  ],
+  "variationSkinIds": [
+    "DVaBaseVar1",
+    "DVaBaseVar2",
+    "DVaBaseVar3",
+    "DVaBaseVar4",
+    "DVaBaseVar5"
+  ],
+  "voiceLineIds": [
+    "DVaBase_VoiceLine01",
+    "DVaBase_VoiceLine02",
+    "DVaBase_VoiceLine03",
+    "DVaBase_VoiceLine04",
+    "DVaBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "DVaBoostersOn|DVaMechBoosters|Q",
+        "abilityId": "DVaBoostersOn",
+        "buttonId": "DVaMechBoosters",
+        "icon": "storm_ui_icon_dva_boosters.png",
+        "toggleCooldown": 0.0625,
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "DVaMechDefenseMatrixOn|DVaMechDefenseMatrix|W",
+        "abilityId": "DVaMechDefenseMatrixOn",
+        "buttonId": "DVaMechDefenseMatrix",
+        "icon": "storm_ui_icon_dva_defensematrix.png",
+        "toggleCooldown": 0.0625,
+        "abilityType": "W"
+      },
+      {
+        "linkId": "DVaMechSelfDestruct|DVaMechSelfDestruct|E",
+        "abilityId": "DVaMechSelfDestruct",
+        "buttonId": "DVaMechSelfDestruct",
+        "icon": "storm_ui_icon_dva_selfdestruct.png",
+        "charges": {
+          "countMax": 100,
+          "countUse": 100,
+          "isCountHidden": true
+        },
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "DVaMechBunnyHopHeroic|DVaBunnyHopOn|Heroic",
+        "abilityId": "DVaMechBunnyHopHeroic",
+        "buttonId": "DVaBunnyHopOn",
+        "icon": "storm_ui_icon_dva_bunnyhop.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "DVaMicroMissiles|DVaMicroMissiles|Heroic",
+        "abilityId": "DVaMicroMissiles",
+        "buttonId": "DVaMicroMissiles",
+        "icon": "storm_ui_icon_dva_micromissiles.png",
+        "charges": {
+          "countMax": 2,
+          "countStart": 2,
+          "countUse": 1,
+          "recastCooldown": 3,
+          "isCountHidden": false
+        },
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": ":PASSIVE:|DVaMechMechMode|Trait",
+        "abilityId": ":PASSIVE:",
+        "buttonId": "DVaMechMechMode",
+        "icon": "storm_ui_icon_dva_mechmode.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": ":PASSIVE:|DVaMechanizedWalker|Z",
+        "abilityId": ":PASSIVE:",
+        "buttonId": "DVaMechanizedWalker",
+        "icon": "storm_ui_icon_dva_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "DVaBoostersOn|DVaMechBoosters|Q": {
+      "Basic": [
+        {
+          "linkId": "DVaBoostersOff|DVaMechCancelBoosters|Q",
+          "abilityId": "DVaBoostersOff",
+          "buttonId": "DVaMechCancelBoosters",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "toggleCooldown": 0.0625,
+          "abilityType": "Q"
+        }
+      ]
+    },
+    "DVaMechDefenseMatrixOn|DVaMechDefenseMatrix|W": {
+      "Basic": [
+        {
+          "linkId": "DVaMechDefenseMatrixRetarget|DVaRetargetDefenseMatrix|W",
+          "abilityId": "DVaMechDefenseMatrixRetarget",
+          "buttonId": "DVaRetargetDefenseMatrix",
+          "icon": "storm_ui_icon_dva_defensematrix_a.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "W"
+        }
+      ],
+      "Trait": [
+        {
+          "linkId": "DvaCancelDefenseMatrix|DvaCancelDefenseMatrix|Trait",
+          "abilityId": "DvaCancelDefenseMatrix",
+          "buttonId": "DvaCancelDefenseMatrix",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "abilityType": "Trait"
+        }
+      ]
+    },
+    "DVaMechBunnyHopHeroic|DVaBunnyHopOn|Heroic": {
+      "Heroic": [
+        {
+          "linkId": "DVaMechBunnyHopHeroic|DVaBunnyHopOff|Heroic",
+          "abilityId": "DVaMechBunnyHopHeroic",
+          "buttonId": "DVaBunnyHopOff",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "abilityType": "Heroic"
+        }
+      ]
+    },
+    "DVaLiquidCooling|DVaLiquidCooling|Active|Level1": {
+      "Activable": [
+        {
+          "linkId": "DVaLiquidCoolingAbility|DVaLiquidCooling|Active",
+          "abilityId": "DVaLiquidCoolingAbility",
+          "buttonId": "DVaLiquidCooling",
+          "icon": "storm_ui_icon_dva_mechmode_b.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "DVaFullMetal|DVaFullMetal|Trait|Level1",
+        "talentId": "DVaFullMetal",
+        "buttonId": "DVaFullMetal",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_dva_mechmode.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|DVaMechMechMode|Trait"
+        ]
+      },
+      {
+        "linkId": "DVaMechProMoves|DVaMechProMoves|Trait|Level1",
+        "talentId": "DVaMechProMoves",
+        "buttonId": "DVaMechProMoves",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_dva_mechmode_a.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "DVaPilotCallMech|DVaPilotCallMech|E",
+          ":PASSIVE:|DVaMechMechMode|Trait"
+        ]
+      },
+      {
+        "linkId": "DVaLiquidCooling|DVaLiquidCooling|Active|Level1",
+        "talentId": "DVaLiquidCooling",
+        "buttonId": "DVaLiquidCooling",
+        "abilityId": "DVaLiquidCoolingAbility",
+        "icon": "storm_ui_icon_dva_mechmode_b.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|DVaMechMechMode|Trait"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "DVaBoostersRushdown|DVaBoostersRushdown|Q|Level4",
+        "talentId": "DVaBoostersRushdown",
+        "buttonId": "DVaBoostersRushdown",
+        "abilityId": "DVaBoostersOn",
+        "icon": "storm_ui_icon_dva_boosters.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "DVaBoostersOn|DVaMechBoosters|Q"
+        ]
+      },
+      {
+        "linkId": "DVaDefenseMatrixAggressionMatrix|DVaDefenseMatrixAggressionMatrix|W|Level4",
+        "talentId": "DVaDefenseMatrixAggressionMatrix",
+        "buttonId": "DVaDefenseMatrixAggressionMatrix",
+        "abilityId": "DVaMechDefenseMatrixOn",
+        "icon": "storm_ui_icon_dva_defensematrix.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "DVaMechDefenseMatrixOn|DVaMechDefenseMatrix|W",
+          "DVaMechDefenseMatrixRetarget|DVaRetargetDefenseMatrix|W"
+        ]
+      },
+      {
+        "linkId": "DVaSelfDestructNuclearOption|DVaSelfDestructNuclearOption|E|Level4",
+        "talentId": "DVaSelfDestructNuclearOption",
+        "buttonId": "DVaSelfDestructNuclearOption",
+        "abilityId": "DVaMechSelfDestruct",
+        "icon": "storm_ui_icon_dva_selfdestruct.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "DVaMechSelfDestruct|DVaMechSelfDestruct|E",
+          "DVaPilotBigShot|DVaPilotBigShot|Heroic",
+          "DVaMechPilotSelfDestruct|DVaMechSelfDestruct|Active"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "DvaGetOnThePoint|DvaGetOnThePoint|Q|Level7",
+        "talentId": "DvaGetOnThePoint",
+        "buttonId": "DvaGetOnThePoint",
+        "abilityId": "DVaBoostersOn",
+        "icon": "storm_ui_icon_dva_boosters.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "DVaBoostersOn|DVaMechBoosters|Q"
+        ]
+      },
+      {
+        "linkId": "DVaBoostersHitTheNitrous|DVaBoostersHitTheNitrous|Q|Level7",
+        "talentId": "DVaBoostersHitTheNitrous",
+        "buttonId": "DVaBoostersHitTheNitrous",
+        "abilityId": "DVaBoostersOn",
+        "icon": "storm_ui_icon_dva_boosters_a.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "DVaBoostersOn|DVaMechBoosters|Q"
+        ]
+      },
+      {
+        "linkId": "DVaDefenseMatrixFusionGenerator|DVaDefenseMatrixFusionGenerator|W|Level7",
+        "talentId": "DVaDefenseMatrixFusionGenerator",
+        "buttonId": "DVaDefenseMatrixFusionGenerator",
+        "abilityId": "DVaMechDefenseMatrixOn",
+        "icon": "storm_ui_icon_dva_defensematrix.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "DVaMechDefenseMatrixOn|DVaMechDefenseMatrix|W",
+          "DVaMechDefenseMatrixRetarget|DVaRetargetDefenseMatrix|W"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "DVaBunnyHop|DVaBunnyHopOn|Heroic|Level10",
+        "talentId": "DVaBunnyHop",
+        "buttonId": "DVaBunnyHopOn",
+        "abilityId": "DVaMechBunnyHopHeroic",
+        "icon": "storm_ui_icon_dva_bunnyhop.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "DVaMicroMissiles|DVaMicroMissiles|Heroic|Level10",
+        "talentId": "DVaMicroMissiles",
+        "buttonId": "DVaMicroMissiles",
+        "abilityId": "DVaMicroMissiles",
+        "icon": "storm_ui_icon_dva_micromissiles.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "DVaTargetLocked|DVaTargetLocked|W|Level13",
+        "talentId": "DVaTargetLocked",
+        "buttonId": "DVaTargetLocked",
+        "abilityId": "DVaMechDefenseMatrixOn",
+        "icon": "storm_ui_icon_dva_defensematrix.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "DVaMechDefenseMatrixOn|DVaMechDefenseMatrix|W",
+          "DVaMechDefenseMatrixRetarget|DVaRetargetDefenseMatrix|W"
+        ]
+      },
+      {
+        "linkId": "DVaGoodToGo|DVaGoodToGo|Trait|Level13",
+        "talentId": "DVaGoodToGo",
+        "buttonId": "DVaGoodToGo",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_dva_pilotmode.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "DVaPilotTorpedoDash|DVaPilotTorpedoDashAbility|Q",
+          "DVaPilotConcussivePulse|DVaPilotConcussivePulseAbility|W"
+        ]
+      },
+      {
+        "linkId": "DVaBigShotPewPewPew|DVaBigShotPewPewPew|Trait|Level13",
+        "talentId": "DVaBigShotPewPewPew",
+        "buttonId": "DVaBigShotPewPewPew",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_dva_bigshot.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "DVaPilotBigShot|DVaPilotBigShot|Heroic"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "DVaInForTheKill|DVaInForTheKill|Q|Level16",
+        "talentId": "DVaInForTheKill",
+        "buttonId": "DVaInForTheKill",
+        "abilityId": "DVaBoostersOn",
+        "icon": "storm_ui_icon_dva_boosters.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "DVaBoostersOn|DVaMechBoosters|Q"
+        ]
+      },
+      {
+        "linkId": "DVaDefenseMatrixDivertingPower|DVaDefenseMatrixDivertingPower|W|Level16",
+        "talentId": "DVaDefenseMatrixDivertingPower",
+        "buttonId": "DVaDefenseMatrixDivertingPower",
+        "abilityId": "DVaMechDefenseMatrixOn",
+        "icon": "storm_ui_icon_dva_defensematrix.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "DVaMechDefenseMatrixOn|DVaMechDefenseMatrix|W",
+          "DVaMechDefenseMatrixRetarget|DVaRetargetDefenseMatrix|W"
+        ]
+      },
+      {
+        "linkId": "DVaMechEmergencyShielding|DVaMechEmergencyShielding|Trait|Level16",
+        "talentId": "DVaMechEmergencyShielding",
+        "buttonId": "DVaMechEmergencyShielding",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_dva_mechmode.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|DVaMechMechMode|Trait"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "DVaBunnyHopStopAndPop|DVaBunnyHopStopAndPop|Heroic|Level20",
+        "talentId": "DVaBunnyHopStopAndPop",
+        "buttonId": "DVaBunnyHopStopAndPop",
+        "abilityId": "DVaMechBunnyHopHeroic",
+        "icon": "storm_ui_icon_dva_bunnyhop.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "DVaMechBunnyHopHeroic|DVaBunnyHopOn|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "DVaBunnyHop"
+        ]
+      },
+      {
+        "linkId": "DVaTimingAttack|DVaTimingAttack|Heroic|Level20",
+        "talentId": "DVaTimingAttack",
+        "buttonId": "DVaTimingAttack",
+        "abilityId": "DVaMicroMissiles",
+        "icon": "storm_ui_icon_dva_micromissiles.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "DVaMicroMissiles|DVaMicroMissiles|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "DVaMicroMissiles"
+        ]
+      },
+      {
+        "linkId": "DVaHeadshot|DVaHeadshot|Trait|Level20",
+        "talentId": "DVaHeadshot",
+        "buttonId": "DVaHeadshot",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_dva_bigshot.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "DVaPilotBigShot|DVaPilotBigShot|Heroic"
+        ]
+      },
+      {
+        "linkId": "DVaMechAblativeArmor|DVaMechAblativeArmor|Trait|Level20",
+        "talentId": "DVaMechAblativeArmor",
+        "buttonId": "DVaMechAblativeArmor",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_dva_mechmode.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|DVaMechMechMode|Trait"
+        ]
+      }
+    ]
+  },
+  "heroUnits": {
+    "HeroDVaPilot": {
+      "radius": 0.625,
+      "innerRadius": 0.625,
+      "sight": 12,
+      "speed": 4.8398,
+      "attributes": [
+        "Heroic"
+      ],
+      "scalingLinkIds": [
+        "HeroDummyVeterancy"
+      ],
+      "life": {
+        "amount": 1109,
+        "scale": 0.04,
+        "regenRate": 2.5664,
+        "regenScale": 0.04
+      },
+      "energy": {
+        "amount": 100,
+        "regenRate": 2.1992
+      },
+      "playstyles": [
+        "RoleAutoAttacker"
+      ],
+      "portraits": {
+        "minimap": "storm_ui_minimapicon_dva.png",
+        "targetInfo": "storm_ui_ingame_partyframe_dva.png"
+      },
+      "weapons": [
+        {
+          "nameId": "DVaPilotWeapon",
+          "isDisabled": false,
+          "range": 5.5,
+          "minimumRange": 0,
+          "period": 0.25,
+          "damage": 55,
+          "damageScale": 0.04
+        }
+      ],
+      "abilities": {
+        "Basic": [
+          {
+            "linkId": "DVaPilotTorpedoDash|DVaPilotTorpedoDashAbility|Q",
+            "abilityId": "DVaPilotTorpedoDash",
+            "buttonId": "DVaPilotTorpedoDashAbility",
+            "icon": "storm_ui_icon_dva_jetpackattack.png",
+            "abilityType": "Q"
+          },
+          {
+            "linkId": "DVaPilotConcussivePulse|DVaPilotConcussivePulseAbility|W",
+            "abilityId": "DVaPilotConcussivePulse",
+            "buttonId": "DVaPilotConcussivePulseAbility",
+            "icon": "storm_ui_icon_dva_concussivecharge.png",
+            "abilityType": "W"
+          },
+          {
+            "linkId": "DVaPilotCallMech|DVaPilotCallMech|E",
+            "abilityId": "DVaPilotCallMech",
+            "buttonId": "DVaPilotCallMech",
+            "icon": "storm_ui_icon_dva_callmech.png",
+            "abilityType": "E"
+          }
+        ],
+        "Heroic": [
+          {
+            "linkId": "DVaPilotBigShot|DVaPilotBigShot|Heroic",
+            "abilityId": "DVaPilotBigShot",
+            "buttonId": "DVaPilotBigShot",
+            "icon": "storm_ui_icon_dva_bigshot.png",
+            "abilityType": "Heroic"
+          }
+        ],
+        "Trait": [
+          {
+            "linkId": ":PASSIVE:|DVaPilotPilotMode|Trait",
+            "abilityId": ":PASSIVE:",
+            "buttonId": "DVaPilotPilotMode",
+            "icon": "storm_ui_icon_dva_pilotmode.png",
+            "abilityType": "Trait"
+          }
+        ],
+        "Mount": [
+          {
+            "linkId": "Mount|SummonMount|Z",
+            "abilityId": "Mount",
+            "buttonId": "SummonMount",
+            "icon": "storm_ui_icon_generic_mount.png",
+            "abilityType": "Z"
+          }
+        ],
+        "Activable": [
+          {
+            "linkId": "DVaMechPilotSelfDestruct|DVaMechSelfDestruct|Active",
+            "abilityId": "DVaMechPilotSelfDestruct",
+            "buttonId": "DVaMechSelfDestruct",
+            "icon": "storm_ui_icon_dva_selfdestruct.png",
+            "charges": {
+              "countMax": 100,
+              "countUse": 100,
+              "isCountHidden": true
+            },
+            "abilityType": "Active"
+          }
+        ],
+        "Hearth": [
+          {
+            "linkId": "Hearthstone|Hearthstone|B",
+            "abilityId": "Hearthstone",
+            "buttonId": "Hearthstone",
+            "icon": "storm_ui_icon_miscrune_1.png",
+            "abilityType": "B"
+          }
+        ]
+      },
+      "subAbilities": {
+        "Mount|SummonMount|Z": {
+          "Mount": [
+            {
+              "linkId": "Dismount|UnsummonMount|Z",
+              "abilityId": "Dismount",
+              "buttonId": "UnsummonMount",
+              "icon": "storm_ui_icon_generic_cancel_mount.png",
+              "toggleCooldown": 0.1,
+              "abilityType": "Z"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "sheet": "sheets/DVa.png",
+  "icons": {
+    "storm_ui_icon_dva_boosters.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_dva_defensematrix.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_dva_selfdestruct.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_dva_bunnyhop.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_dva_micromissiles.png": [
+      512,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_dva_mechmode.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_dva_mount.png": [
+      128,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      256,
+      128,
+      111,
+      71
+    ],
+    "hud_btn_bg_ability_cancel.png": [
+      384,
+      128,
+      97,
+      111
+    ],
+    "storm_ui_icon_dva_defensematrix_a.png": [
+      512,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_dva_mechmode_b.png": [
+      0,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_dva_mechmode_a.png": [
+      128,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_dva_boosters_a.png": [
+      256,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_dva_pilotmode.png": [
+      384,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_dva_bigshot.png": [
+      512,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_dva_jetpackattack.png": [
+      0,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_dva_concussivecharge.png": [
+      128,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_dva_callmech.png": [
+      256,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_mount.png": [
+      384,
+      384,
+      76,
+      48
+    ],
+    "storm_ui_icon_generic_cancel_mount.png": [
+      512,
+      384,
+      76,
+      48
+    ]
+  }
+}

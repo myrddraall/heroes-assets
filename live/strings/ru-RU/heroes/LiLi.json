@@ -1,0 +1,198 @@
+{
+  "abilities": {
+    "LiLiHealingBrew|LiLiHealingBrew|Q": {
+      "cooldownText": "Время восстановления: 4 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 25</s>",
+      "fullText": "Восполняет союзнику с самым низким уровнем здоровья в радиусе <c val=\"#TooltipNumbers\">6</c> м <c val=\"#TooltipNumbers\">210</c><c val=\"#ColorGray\">~~0.04~~</c> ед. здоровья. В первую очередь действует на героев.",
+      "name": "Целительный отвар",
+      "shortText": "Лечит находящегося рядом союзника."
+    },
+    "LiLiCloudSerpent|LiLiCloudSerpent|W": {
+      "cooldownText": "Время восстановления: 11 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 35</s>",
+      "fullText": "Призывает облачного змея на помощь союзному герою. Змей раз в секунду атакует противников поблизости, нанося <c val=\"#TooltipNumbers\">26</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона и восполняя союзнику <c val=\"#TooltipNumbers\">20</c><c val=\"#ColorGray\">~~0.04~~</c> ед. здоровья. Время существования змея – <c val=\"#TooltipNumbers\">8</c> сек.",
+      "name": "Облачный змей",
+      "shortText": "Призывает змея, который помогает союзнику."
+    },
+    "LiLiBlindingWind|LiLiBlindingWind|E": {
+      "cooldownText": "Время восстановления: 12 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 30</s>",
+      "fullText": "Насылает на <c val=\"#TooltipNumbers\">2</c> ближайших противников облако, наносящее <c val=\"#TooltipNumbers\">133</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона. В первую очередь поражает героев. Пораженные герои слепнут и замедляются на <c val=\"#TooltipNumbers\">15%</c> на <c val=\"#TooltipNumbers\">1.5</c> сек.",
+      "name": "Слепящий ветер",
+      "shortText": "Ослепляет находящихся рядом противников, замедляет их и наносит им урон."
+    },
+    "LiLiJugof1000Cups|LiLiJugof1000Cups|Heroic": {
+      "cooldownText": "Время восстановления: 20 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 80</s>",
+      "fullText": "При поддержании раз в <c val=\"#TooltipNumbers\">0.25</c> сек. восполняет находящемуся рядом союзному герою с наименьшим уровнем здоровья <c val=\"#TooltipNumbers\">75</c><c val=\"#ColorGray\">~~0.04~~</c> ед. здоровья, увеличивая при этом время восстановления «Кувшина тысячи кружек» на <c val=\"#TooltipNumbers\">2</c> сек., вплоть до <c val=\"#TooltipNumbers\">50</c> сек. дополнительного времени. Максимальное время поддержания – <c val=\"#TooltipNumbers\">6</c> сек.",
+      "name": "Кувшин тысячи кружек",
+      "shortText": "Быстро лечит находящихся рядом союзников."
+    },
+    "LiLiWaterDragon|LiLiWaterDragon|Heroic": {
+      "cooldownText": "Время восстановления: 50 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 60</s>",
+      "fullText": "После поддержания в течение <c val=\"#TooltipNumbers\">2</c> сек. Ли Ли призывает водяного дракона, который поражает ближайшего вражеского героя в радиусе <c val=\"#TooltipNumbers\">12</c> м, нанося ему и находящимся рядом с ним противникам <c val=\"#TooltipNumbers\">300</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона. Скорость передвижения пораженных целей снижается на <c val=\"#TooltipNumbers\">70%</c> на <c val=\"#TooltipNumbers\">4</c> сек.",
+      "name": "Водяной дракон",
+      "shortText": "Наносит ближайшему вражескому герою урон и значительно замедляет его."
+    },
+    ":PASSIVE:|LiLiFastFeet|Trait": {
+      "fullText": "При получении урона дает бонус к скорости передвижения в <c val=\"#TooltipNumbers\">50%</c> на <c val=\"#TooltipNumbers\">1</c> сек. и ускоряет восстановление базовых способностей на <c val=\"#TooltipNumbers\">10%</c>.",
+      "name": "Проворные ноги",
+      "shortText": "Ускоряет передвижение при получении урона."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Время восстановления: 4 сек.",
+      "fullText": "После подготовки длительностью <c val=\"#TooltipNumbers\">1</c> сек. повышает скорость передвижения на <s val=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Вызов транспорта"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "После поддержания в течение <c val=\"#TooltipNumbers\">6</c> сек. телепортирует героя в Зал Штормов, моментально восполняя <c val=\"#TooltipNumbers\">1125</c> ед. здоровья и <c val=\"#TooltipNumbers\">150</c> ед. маны.",
+      "name": "Возвращение"
+    },
+    "LiLiCancelJugof1000Cups|LiLiCancelJugof1000Cups|Heroic": {
+      "fullText": "Прерывает действие «Кувшина тысячи кружек».",
+      "name": "Отмена «Кувшина тысячи кружек»"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Покинуть транспорт.",
+      "name": "Отмена транспорта"
+    },
+    "LiLiSafetySprint|LiLiFastFeet|Trait": {
+      "cooldownText": "Время восстановления: 30 сек.",
+      "fullText": "При получении урона дает бонус к скорости передвижения в <c val=\"#TooltipNumbers\">50%</c> на <c val=\"#TooltipNumbers\">1</c> сек. и ускоряет восстановление базовых способностей на <c val=\"#TooltipNumbers\">10%</c>.",
+      "name": "Проворные ноги",
+      "shortText": "Ускоряет передвижение при получении урона."
+    },
+    "LiLiLetsGo|LiLiLetsGo|Active": {
+      "cooldownText": "Время восстановления: 40 сек.",
+      "fullText": "При использовании восполняет союзному герою <c val=\"#TooltipNumbers\">160</c><c val=\"#ColorGray\">~~0.04~~</c> ед. здоровья и делает его неудержимым на <c val=\"#TooltipNumbers\">1</c> сек. «Проворные ноги» влияют на время восстановления этого эффекта.<n/><n/><c val=\"ffff8a\">Не действует на Ли Ли.</c>",
+      "name": "Пора в путь!",
+      "shortText": "Исцеляет союзника и делает его неудержимым."
+    },
+    "LiLiMistweaver|LiLiMistweaver|Active": {
+      "cooldownText": "Время восстановления: 30 сек.",
+      "fullText": "При использовании восполняет находящимся рядом союзным героям <c val=\"#TooltipNumbers\">149</c><c val=\"#ColorGray\">~~0.04~~</c> ед. здоровья. Каждая автоатака Ткача туманов или атака «Облачного змея» сокращает время восстановления этой способности на <c val=\"#TooltipNumbers\">1</c> сек.",
+      "name": "Ткач туманов",
+      "shortText": "Исцеляет находящихся рядом героев."
+    }
+  },
+  "talents": {
+    "LiLiFreeDrinks|LiLiFreeDrinks|Q|Level1": {
+      "fullText": "Сокращает время восстановления «Целительного отвара» на <c val=\"#TooltipNumbers\">1</c> сек. и возмещает затраты маны, если его цель — герой, у которого осталось менее <c val=\"#TooltipNumbers\">50%</c> запаса здоровья.",
+      "name": "Бесплатные напитки",
+      "shortText": "Ускоряет восстановление «Целительного отвара», если у цели мало здоровья."
+    },
+    "LiLiMasteryCloudSerpentSerpentSidekick|LiLiSerpentSidekickTalent|W|Level1": {
+      "fullText": "«Облачный змей» не требует маны и, пока действуют «Проворные ноги», восстанавливается на <c val=\"#TooltipNumbers\">75%</c> быстрее.",
+      "name": "Друзья навек",
+      "shortText": "Снижает стоимость и ускоряет восстановление «Облачного змея»."
+    },
+    "LiLiEagerAdventurer|LiLiEagerAdventurer|Trait|Level1": {
+      "fullText": "Увеличивает время действия «Проворных ног» на <c val=\"#TooltipNumbers\">150%</c> и ускоряет восстановление маны на <c val=\"#TooltipNumbers\">150%</c> во время действия «Проворных ног».",
+      "name": "Путешественница",
+      "shortText": "Продлевает действие «Проворных ног»."
+    },
+    "LiLiWindSerpent|LiLiWindSerpent|W|Level4": {
+      "fullText": "Облачный змей повышает скорость передвижения своего героя на <c val=\"#TooltipNumbers\">10%</c>. При использовании «Слепящего ветра» этот бонус увеличивается до <c val=\"#TooltipNumbers\">20%</c> на <c val=\"#TooltipNumbers\">3</c> сек. <n/><n/><c val=\"#AbilityPassive\">Пассивный эффект:</c> повышает скорость атаки облачного змея на <c val=\"#TooltipNumbers\">25%</c>.",
+      "name": "Крылатый змей",
+      "shortText": "Облачный змей атакует быстрее и ускоряет передвижение."
+    },
+    "LiLiMasteryBlindingWindSurgingWinds|LiLiSurgingWindsTalent|E|Level4": {
+      "fullText": "Если «Слепящий ветер» нацелен на <c val=\"#TooltipNumbers\">2</c> или более героев, время его восстановления мгновенно сокращается на <c val=\"#TooltipNumbers\">2</c> сек., а сила способностей Ли Ли увеличивается на <c val=\"#TooltipNumbers\">10%</c> на <c val=\"#TooltipNumbers\">10</c> сек.",
+      "name": "Бушующий ветер",
+      "shortText": "«Слепящий ветер» усиливает способности."
+    },
+    "LiLiMasteryFastFeetSafetySprint|LiLiSafetySprintTalent|Trait|Level4": {
+      "cooldownText": "Время восстановления: 30 сек.",
+      "fullText": "При использовании активирует «Проворные ноги», дает <c val=\"#TooltipNumbers\">30</c> ед. брони и повышает скорость передвижения на <c val=\"#TooltipNumbers\">30%</c> на <c val=\"#TooltipNumbers\">3</c> сек.<n/><n/><c val=\"#AbilityPassive\">Пассивный эффект:</c> во время действия «Проворных ног» Ли Ли получает <c val=\"#TooltipNumbers\">10</c> ед. брони.",
+      "name": "В укрытие!",
+      "shortText": "«Проворные ноги» можно активировать, чтобы ускорить передвижение."
+    },
+    "LiLiMasteryHealingBrewTheGoodStuff|LiLiHealingBrewTheGoodStuffTalent|Q|Level7": {
+      "fullText": "«Целительный отвар» дополнительно восстанавливает <c val=\"#TooltipNumbers\">42</c><c val=\"#ColorGray\">~~0.04~~</c> ед. здоровья в течение <c val=\"#TooltipNumbers\">3</c> сек. Во время действия «Проворных ног» эффективность исцеления повышается на <c val=\"#TooltipNumbers\">100%</c>.",
+      "name": "Дивный отвар",
+      "shortText": "«Целительный отвар» также периодически восполняет здоровье."
+    },
+    "LiLiMasteryBlindingWindMassVortex|LiLiBlindingWindMassVortexTalent|E|Level7": {
+      "fullText": "Увеличивает количество целей, поражаемых «Слепящим ветром», с <c val=\"#TooltipNumbers\">2</c> до <c val=\"#TooltipNumbers\">3</c>. «Слепящий ветер» наносит на <c val=\"#TooltipNumbers\">75%</c> больше урона, если целью выбрано не менее <c val=\"#TooltipNumbers\">3</c> героев.",
+      "name": "Чудовищный вихрь",
+      "shortText": "«Слепящий ветер» поражает больше целей."
+    },
+    "LiLiLetsGo|LiLiLetsGo|Active|Level7": {
+      "cooldownText": "Время восстановления: 40 сек.",
+      "fullText": "При использовании восполняет союзному герою <c val=\"#TooltipNumbers\">160</c><c val=\"#ColorGray\">~~0.04~~</c> ед. здоровья и делает его неудержимым на <c val=\"#TooltipNumbers\">1</c> сек. «Проворные ноги» влияют на время восстановления этого эффекта.<n/><n/><c val=\"ffff8a\">Не действует на Ли Ли.</c>",
+      "name": "Пора в путь!",
+      "shortText": "Исцеляет союзника и делает его неудержимым."
+    },
+    "LiLiHeroicAbilityJugof1000Cups|LiLiJugof1000Cups|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 20 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 80</s>",
+      "fullText": "При поддержании раз в <c val=\"#TooltipNumbers\">0.25</c> сек. восполняет находящемуся рядом союзному герою с наименьшим уровнем здоровья <c val=\"#TooltipNumbers\">75</c><c val=\"#ColorGray\">~~0.04~~</c> ед. здоровья, увеличивая при этом время восстановления «Кувшина тысячи кружек» на <c val=\"#TooltipNumbers\">2</c> сек., вплоть до <c val=\"#TooltipNumbers\">50</c> сек. дополнительного времени. Максимальное время поддержания – <c val=\"#TooltipNumbers\">6</c> сек.",
+      "name": "Кувшин тысячи кружек",
+      "shortText": "Быстро лечит находящихся рядом союзников."
+    },
+    "LiLiHeroicAbilityWaterDragon|LiLiWaterDragon|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 50 сек.",
+      "energyText": "<s val=\"StandardTooltipDetails\">Мана: 60</s>",
+      "fullText": "После поддержания в течение <c val=\"#TooltipNumbers\">2</c> сек. Ли Ли призывает водяного дракона, который поражает ближайшего вражеского героя в радиусе <c val=\"#TooltipNumbers\">12</c> м, нанося ему и находящимся рядом с ним противникам <c val=\"#TooltipNumbers\">300</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона. Скорость передвижения пораженных целей снижается на <c val=\"#TooltipNumbers\">70%</c> на <c val=\"#TooltipNumbers\">4</c> сек.",
+      "name": "Водяной дракон",
+      "shortText": "Наносит ближайшему вражескому герою урон и значительно замедляет его."
+    },
+    "LiLiMasteryCloudSerpentLightningSerpent|LiLiCloudSerpentLightningSerpentTalent|W|Level13": {
+      "fullText": "Атаки облачного змея рикошетят в <c val=\"#TooltipNumbers\">2</c> другие цели, нанося <c val=\"#TooltipNumbers\">13</c><c val=\"#ColorGray\">~~0.04~~</c> ед. урона и восполняя хозяину змея <c val=\"#TooltipNumbers\">10</c><c val=\"#ColorGray\">~~0.04~~</c> ед. здоровья.",
+      "name": "Электрический змей",
+      "shortText": "Атаки облачного змея рикошетят в другие цели."
+    },
+    "LiLiMasteryBlindingWindGaleForce|LiLiBlindingWindGaleForceTalent|E|Level13": {
+      "fullText": "Продлевает время действия эффекта ослепления от «Слепящего ветра» на <c val=\"#TooltipNumbers\">0.75</c> сек. Автоатаки Ли Ли по ослепленным героям наносят на <c val=\"#TooltipNumbers\">100%</c> больше урона.",
+      "name": "Штормовой ветер",
+      "shortText": "Слепота от «Слепящего ветра» длится дольше."
+    },
+    "LiLiHinderingWinds|LiLiHinderingWinds|E|Level13": {
+      "fullText": "Усиливает эффект замедления от «Слепящего ветра» до <c val=\"#TooltipNumbers\">30%</c> и продлевает время его действия до <c val=\"#TooltipNumbers\">2</c> сек.",
+      "name": "Воздушные оковы",
+      "shortText": "Усиливает замедление от «Слепящего ветра»."
+    },
+    "LiLiMasteryHealingBrewTwoForOne|LiLiHealingBrewTwoForOneTalent|Q|Level16": {
+      "fullText": "Увеличивает количество союзников, исцеляемых «Целительным отваром», до <c val=\"#TooltipNumbers\">2</c>, но также увеличивает время его восстановления на <c val=\"#TooltipNumbers\">1</c> сек.",
+      "name": "Два по цене одного",
+      "shortText": "«Целительный отвар» исцеляет два раза, но восстанавливается дольше."
+    },
+    "LiLiPickMeUp|LiLiPickMeUp|Q|Level16": {
+      "fullText": "«Целительный отвар» восполняет здоровье на <c val=\"#TooltipNumbers\">33%</c> эффективнее, если у цели менее <c val=\"#TooltipNumbers\">50%</c> здоровья.",
+      "name": "Подмога",
+      "shortText": "Усиливает «Целительный отвар», если у цели мало здоровья."
+    },
+    "LiLiBlessingsOfYulon|LiLiBlessingsOfYulon|W|Level16": {
+      "fullText": "С каждой атакой облачный змей повышает эффективность получаемого своим героем исцеления на <c val=\"#TooltipNumbers\">10%</c> и восполняет ему еще <c val=\"#TooltipNumbers\">0.5%</c> его максимального запаса здоровья.",
+      "name": "Благословение Юй-лун",
+      "shortText": "Усиливает исцеление от «Облачного змея»."
+    },
+    "LiLiMasteryJugof1000CupsJugof1000000Cups|LiLiJugof1000CupsJugof1000000CupsTalent|Heroic|Level20": {
+      "fullText": "«Кувшин тысячи кружек» исцеляет двух союзников одновременно.",
+      "name": "Кувшин миллиона кружек",
+      "shortText": "«Кувшин тысячи кружек» одновременно исцеляет по две цели."
+    },
+    "LiLiMasteryWaterDragonDoubleDragon|LiLiWaterDragonDoubleDragonTalent|Heroic|Level20": {
+      "fullText": "Когда водяной дракон поражает цель, в место атаки призывается еще один дракон.",
+      "name": "Двойной дракон",
+      "shortText": "Призывает двух драконов."
+    },
+    "LiLiMistweaver|LiLiMistweaver|Active|Level20": {
+      "cooldownText": "Время восстановления: 30 сек.",
+      "fullText": "При использовании восполняет находящимся рядом союзным героям <c val=\"#TooltipNumbers\">149</c><c val=\"#ColorGray\">~~0.04~~</c> ед. здоровья. Каждая автоатака Ткача туманов или атака «Облачного змея» сокращает время восстановления этой способности на <c val=\"#TooltipNumbers\">1</c> сек.",
+      "name": "Ткач туманов",
+      "shortText": "Исцеляет находящихся рядом героев."
+    },
+    "LiLiShakeItOff|LiLiShakeItOffTalent|Trait|Level20": {
+      "fullText": "Дает <c val=\"#TooltipNumbers\">35</c> ед. брони, пока Ли Ли находится под действием оглушения, немоты или обездвиживания, а также в течение <c val=\"#TooltipNumbers\">2</c> сек. после того, как действие этих эффектов закончится.<n/><n/><c val=\"#AbilityPassive\">Пассивный эффект:</c> повышает скорость восстановления «Проворных ног» до <c val=\"#TooltipNumbers\">75%</c>.",
+      "name": "Уход от опасности",
+      "shortText": "Дает броню под действием эффектов контроля и усиливает «Проворные ноги»."
+    }
+  },
+  "units": {
+    "CloudSerpent": {
+      "name": "Облачный змей"
+    }
+  }
+}

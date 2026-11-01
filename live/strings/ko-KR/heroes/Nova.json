@@ -1,0 +1,187 @@
+{
+  "abilities": {
+    "NovaSnipeStorm|NovaSnipe|Q": {
+      "cooldownText": "재사용 대기시간: 6초",
+      "energyText": "<s val=\"StandardTooltipDetails\">마나: 50</s>",
+      "fullText": "처음 적중하는 적에게 <c val=\"#TooltipNumbers\">230</c><c val=\"#ColorGray\">~~0.04~~</c>의 피해를 줍니다.<n/><n/><c val=\"#AbilityPassive\">지속 효과:</c> 저격이 적 영웅에게 적중하면 저격의 공격력이 <c val=\"#TooltipNumbers\">6%</c> 증가하여 최대 <c val=\"#TooltipNumbers\">30%</c> 증가합니다. 최대 중첩일 때에는 추가로 <c val=\"#TooltipNumbers\">25%</c> 증가합니다. 저격으로 적을 맞히지 못하면 중첩을 모두 잃습니다.",
+      "name": "저격",
+      "shortText": "고성능 탄환을 발사하여 처음 적중한 적에게 큰 피해를 줌"
+    },
+    "NovaPinningShot|NovaPinningShot|W": {
+      "cooldownText": "재사용 대기시간: 12초",
+      "energyText": "<s val=\"StandardTooltipDetails\">마나: 65</s>",
+      "fullText": "적에게 <c val=\"#TooltipNumbers\">100</c><c val=\"#ColorGray\">~~0.04~~</c>의 피해를 주고 <c val=\"#TooltipNumbers\">2.25</c>초 동안 <c val=\"#TooltipNumbers\">40%</c> 느려지게 합니다.",
+      "name": "마비 사격",
+      "shortText": "적을 느려지게 하고 피해를 줌"
+    },
+    "NovaHoloDecoy|NovaHoloDecoy|E": {
+      "cooldownText": "재사용 대기시간: 15초",
+      "energyText": "<s val=\"StandardTooltipDetails\">마나: 50</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">5</c>초 동안 현재 생명력의 <c val=\"#TooltipNumbers\">100%</c>에 해당하는 생명력을 가진 분신을 생성합니다. 분신은 기본 공격력의 <c val=\"#TooltipNumbers\">10%</c>만큼 피해를 줍니다. 분신은 피해를 받을 때마다 두 배의 피해를 받습니다.<n/><n/>이 기술은 사용해도 은신이 풀리지 않습니다.",
+      "name": "홀로그램 분신",
+      "shortText": "홀로그램 분신 생성"
+    },
+    "NovaTripleTap|NovaTripleTap|Heroic": {
+      "cooldownText": "재사용 대기시간: 100초",
+      "energyText": "<s val=\"StandardTooltipDetails\">마나: 100</s>",
+      "fullText": "대상 영웅을 조준한 후, <c val=\"#TooltipNumbers\">3</c>발의 탄환을 발사하여 처음 적중하는 영웅이나 구조물에 각각 <c val=\"#TooltipNumbers\">372</c><c val=\"#ColorGray\">~~0.04~~</c>의 피해를 줍니다.",
+      "name": "삼연발 사격",
+      "shortText": "대상을 향해 세 번 연속 사격"
+    },
+    "NovaPrecisionStrike|NovaPrecisionStrike|Heroic": {
+      "cooldownText": "재사용 대기시간: 50초",
+      "energyText": "<s val=\"StandardTooltipDetails\">마나: 100</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">1.5</c>초 후, 일정 지역 안의 모든 적에게 <c val=\"#TooltipNumbers\">435</c><c val=\"#ColorGray\">~~0.04~~</c>의 피해를 줍니다. 사거리 제한이 없습니다.",
+      "name": "정밀 타격",
+      "shortText": "무제한 사거리 광역 공격"
+    },
+    ":PASSIVE:|NovaPermanentCloak|Trait": {
+      "fullText": "<c val=\"#TooltipNumbers\">3</c>초 동안 전투에서 벗어나 있으면 은신 상태가 됩니다. 피해를 받거나, 공격하거나, 기술을 사용하거나, 정신을 집중하면 은신이 풀립니다. 은신 중에 <c val=\"#TooltipNumbers\">1.5</c>초 이상 움직이지 않으면 투명 상태가 됩니다.<n/><n/><c val=\"#AbilityPassive\">지속 효과:</c> 은신한 동안 이동 속도가 <c val=\"#TooltipNumbers\">15%</c> 증가합니다.",
+      "name": "영구 은신",
+      "shortText": "공격하거나 피해를 받지 않는 동안 은신 및 이동 속도 증가"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "재사용 대기시간: 4초",
+      "fullText": "<c val=\"#TooltipNumbers\">1</c>초 동안 정신을 집중한 후, 이동 속도가 <s val=\"StandardTooltipDetails\">30%</s> 증가합니다.",
+      "name": "탈것 소환"
+    },
+    "NovaGhostProtocol|NovaGhostProtocol|Active": {
+      "cooldownText": "재사용 대기시간: 60초",
+      "fullText": "사용하면 즉시 은신 상태가 되고 자신의 위치에 홀로그램 분신을 생성합니다. 사용 후 <c val=\"#TooltipNumbers\">0.5</c>초 동안은 은신 유지 상태가 됩니다.",
+      "name": "유령 프로토콜",
+      "shortText": "즉시 은신 및 자신의 위치에 홀로그램 분신 생성"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "<c val=\"#TooltipNumbers\">6</c>초 동안 정신을 집중한 후, 폭풍의 전당으로 귀환하여 즉시 <c val=\"#TooltipNumbers\">1125</c>의 생명력과 <c val=\"#TooltipNumbers\">150</c>의 마나를 회복합니다.",
+      "name": "귀환석"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "탈것에서 내립니다.",
+      "name": "탈것 소환 해제"
+    },
+    "NovaCovertMission|NovaCovertMission|Active": {
+      "fullText": "주위에서 적 돌격병이 죽으면 매수 중첩이 쌓입니다. 영웅을 처치할 때마다 매수 <c val=\"#TooltipNumbers\">10</c>중첩이 쌓입니다. <c val=\"#TooltipNumbers\">25</c>중첩을 대상 용병에게 사용하면, 용병이 즉시 매수됩니다. 정예 용병에게는 적용되지 않습니다. 최대 <c val=\"#TooltipNumbers\">100</c>회 중첩됩니다. 매수만으로 용병 캠프를 점령하면 그 캠프의 재생성 대기시간이 <c val=\"#TooltipNumbers\">50%</c> 감소합니다.<n/><n/><c val=\"ffff8a\">현재 매수 중첩: </c><c val=\"#TooltipNumbers\">0</c>",
+      "name": "비밀 임무",
+      "shortText": "돌격병 및 영웅을 처치해서 용병 매수"
+    },
+    "TalentRewind|GenericRewindHotbar|Active": {
+      "cooldownText": "재사용 대기시간: 60초",
+      "fullText": "사용하면 모든 일반 기술의 재사용 대기시간이 초기화됩니다.",
+      "name": "되돌리기",
+      "shortText": "사용 시 재사용 대기시간 초기화"
+    }
+  },
+  "talents": {
+    "NovaMasteryLongshot|NovaPinningShotLongshotTalent|W|Level1": {
+      "fullText": "마비 사격의 시전 사거리가 <c val=\"#TooltipNumbers\">30%</c> 증가하고, 마비 사격을 사용하면 다음 일반 공격의 사거리가 <c val=\"#TooltipNumbers\">2.3</c> 증가합니다.",
+      "name": "장거리 사격",
+      "shortText": "마비 사격 사거리 증가"
+    },
+    "NovaCovertOps|NovaCovertOpsTalent|W|Level1": {
+      "fullText": "은신 상태를 <c val=\"#TooltipNumbers\">2</c>초 이상 유지하면 마비 사격이 마나를 소모하지 않고 감속 효과가 <c val=\"#TooltipNumbers\">60%</c>로 증가합니다. 이 효과는 은신이 풀린 후 <c val=\"#TooltipNumbers\">1</c>초 후에 사라집니다.",
+      "name": "비밀 작전",
+      "shortText": "은신 중 마비 사격 감속 효과 증가 및 마나 소모량 감소"
+    },
+    "NovaAdvancedCloaking|NovaPermanentCloakSniperAdvancedCloakingTalent|Trait|Level1": {
+      "fullText": "은신 상태를 <c val=\"#TooltipNumbers\">1</c>초 이상 유지하면 이동 속도가 추가로 <c val=\"#TooltipNumbers\">10%</c> 증가합니다. 은신한 동안 초당 마나 재생량이 <c val=\"#TooltipNumbers\">6</c> 증가합니다.",
+      "name": "향상된 은신",
+      "shortText": "은신 중 이동 속도 및 마나 재생량 증가"
+    },
+    "NovaRapidProjection|NovaHoloDecoyRapidProjectionTalent|E|Level4": {
+      "fullText": "홀로그램 분신의 재사용 대기시간과 마나 소모량이 <c val=\"#TooltipNumbers\">60%</c> 감소합니다.",
+      "name": "급속 투영",
+      "shortText": "홀로그램 분신 재사용 대기시간 및 마나 소모량 감소"
+    },
+    "NovaHoloStability|NovaHoloDecoyHoloStabilityTalent|E|Level4": {
+      "fullText": "홀로그램 분신의 시전 사거리가 <c val=\"#TooltipNumbers\">100%</c> 증가하고 지속 시간이 <c val=\"#TooltipNumbers\">120%</c> 증가합니다.<n/><n/><c val=\"#AbilityPassive\">지속 효과:</c> 유령 프로토콜의 재사용 대기시간이 <c val=\"#TooltipNumbers\">15</c>초 감소합니다.",
+      "name": "안정적인 홀로그램",
+      "shortText": "홀로그램 분신 사거리 및 지속 시간 증가"
+    },
+    "NovaCovertMission|NovaCovertMissionTalent|Active|Level4": {
+      "fullText": "주위에서 적 돌격병이 죽으면 매수 중첩이 쌓입니다. 영웅을 처치할 때마다 매수 <c val=\"#TooltipNumbers\">10</c>중첩이 쌓입니다. <c val=\"#TooltipNumbers\">25</c>중첩을 대상 용병에게 사용하면, 용병이 즉시 매수됩니다. 정예 용병에게는 적용되지 않습니다. 최대 <c val=\"#TooltipNumbers\">100</c>회 중첩됩니다. 매수만으로 용병 캠프를 점령하면 그 캠프의 재생성 대기시간이 <c val=\"#TooltipNumbers\">50%</c> 감소합니다.",
+      "name": "비밀 임무",
+      "shortText": "돌격병 및 영웅을 처치해서 용병 매수"
+    },
+    "NovaMasteryPerfectShotSnipe|NovaPerfectShotTalent|Q|Level7": {
+      "fullText": "저격이 적에게 적중하면 재사용 대기시간이 <c val=\"#TooltipNumbers\">2</c>초 감소하고 소모한 마나의 절반을 돌려받습니다. 적 영웅에게 적중하면 이 효과가 두 배가 됩니다.",
+      "name": "완벽한 한 발",
+      "shortText": "저격 적중 시 재사용 대기시간 감소 및 마나 반환"
+    },
+    "NovaCombatStyleOneintheChamber|NovaOneintheChamberTalent|Passive|Level7": {
+      "fullText": "기술을 사용한 후 <c val=\"#TooltipNumbers\">3</c>초 이내의 다음 일반 공격이 <c val=\"#TooltipNumbers\">65%</c>의 추가 피해를 줍니다.",
+      "name": "일발 장전",
+      "shortText": "기술 사용 시 다음 일반 공격 강화"
+    },
+    "NovaCombatStyleAntiArmorShells|NovaAntiArmorShellsTalent|Passive|Level7": {
+      "fullText": "일반 공격이 <c val=\"#TooltipNumbers\">250%</c>의 피해를 주고 적 영웅의 물리 방어력을 <c val=\"#TooltipNumbers\">4</c>초 동안 <c val=\"#TooltipNumbers\">15</c> 감소시키지만 공격 속도가 감소합니다.",
+      "name": "대장갑 탄환",
+      "shortText": "일반 공격력 증가 및 일반 공격이 물리 방어력을 감소 시킴"
+    },
+    "NovaHeroicAbilityTripleTap|NovaTripleTap|Heroic|Level10": {
+      "cooldownText": "재사용 대기시간: 100초",
+      "energyText": "<s val=\"StandardTooltipDetails\">마나: 100</s>",
+      "fullText": "대상 영웅을 조준한 후, <c val=\"#TooltipNumbers\">3</c>발의 탄환을 발사하여 처음 적중하는 영웅이나 구조물에 각각 <c val=\"#TooltipNumbers\">372</c><c val=\"#ColorGray\">~~0.04~~</c>의 피해를 줍니다.",
+      "name": "삼연발 사격",
+      "shortText": "대상을 향해 세 번 연속 사격"
+    },
+    "NovaHeroicAbilityPrecisionStrike|NovaPrecisionStrike|Heroic|Level10": {
+      "cooldownText": "재사용 대기시간: 50초",
+      "energyText": "<s val=\"StandardTooltipDetails\">마나: 100</s>",
+      "fullText": "<c val=\"#TooltipNumbers\">1.5</c>초 후, 일정 지역 안의 모든 적에게 <c val=\"#TooltipNumbers\">435</c><c val=\"#ColorGray\">~~0.04~~</c>의 피해를 줍니다. 사거리 제한이 없습니다.",
+      "name": "정밀 타격",
+      "shortText": "무제한 사거리 광역 공격"
+    },
+    "NovaMasteryPsionicEfficiency|NovaSnipePsionicEfficiencyTalent|Q|Level13": {
+      "fullText": "저격의 사거리가 <c val=\"#TooltipNumbers\">15%</c> 증가하고 적 영웅에게 적중하면 정확한 조준 중첩이 <c val=\"#TooltipNumbers\">1</c>회 추가로 증가합니다.",
+      "name": "사이오닉 효율",
+      "shortText": "저격 사거리 및 중첩 추가 증가"
+    },
+    "NovaMasteryDoubleTap|NovaPinningShotDoubleTapTalent|W|Level13": {
+      "fullText": "마비 사격을 최대 <c val=\"#TooltipNumbers\">2</c>회 충전해서 사용할 수 있지만 재사용 대기시간이 <c val=\"#TooltipNumbers\">2</c>초 증가합니다.",
+      "name": "이연발 사격",
+      "shortText": "마비 사격 <c val=\"#TooltipNumbers\">2</c>회 충전 가능하지만 재사용 대기시간 증가"
+    },
+    "NovaIonicForceField|NovaIonicForceFieldTalent|Trait|Level13": {
+      "fullText": "은신이 풀리면 방어력이 <c val=\"#TooltipNumbers\">3</c>초 동안 <c val=\"#TooltipNumbers\">25</c> 증가합니다.",
+      "name": "이온 역장",
+      "shortText": "은신 해제 시 방어력 증가"
+    },
+    "NovaMasteryExplosiveShot|NovaSnipeExplosiveRoundTalent|Q|Level16": {
+      "fullText": "저격이 대상 주위 적들에게 <c val=\"#TooltipNumbers\">90%</c>의 피해를 줍니다.",
+      "name": "폭발 탄환",
+      "shortText": "저격이 대상 주위 적들에게도 피해"
+    },
+    "NovaMasteryCripplingShot|NovaPinningShotCripplingShotTalent|W|Level16": {
+      "fullText": "마비 사격에 적중당한 적은 방어력이 <c val=\"#TooltipNumbers\">20</c> 감소하여 감속 효과가 지속되는 동안 받는 피해가 <c val=\"#TooltipNumbers\">20%</c> 증가합니다.",
+      "name": "부상 유발",
+      "shortText": "마비 사격이 방어력을 감소시킴"
+    },
+    "NovaMasteryLethalDecoy|NovaHoloDecoyLethalDecoyTalent|E|Level16": {
+      "fullText": "홀로그램 분신의 공격력이 <c val=\"#TooltipNumbers\">30%</c>로 증가합니다.",
+      "name": "살상용 분신",
+      "shortText": "홀로그램 분신 공격력 증가"
+    },
+    "NovaMasteryFastReload|NovaTripleTapFastReloadTalent|Heroic|Level20": {
+      "fullText": "삼연발 사격으로 적 영웅을 처치하면 재사용 대기시간이 초기화됩니다.",
+      "name": "빠른 재장전",
+      "shortText": "삼연발 사격으로 영웅 처치 시 재사용 대기시간 초기화"
+    },
+    "NovaMasteryPrecisionBarrage|NovaPrecisionStrikePrecisionBarrageTalent|Heroic|Level20": {
+      "fullText": "정밀 타격을 <c val=\"#TooltipNumbers\">2</c>회 충전할 수 있고 재사용 대기시간이 <c val=\"#TooltipNumbers\">25</c>초 감소합니다.",
+      "name": "정밀 폭격",
+      "shortText": "정밀 타격 2회 충전 가능 및 재사용 대기시간 감소"
+    },
+    "NovaApolloSuit|NovaGhostProtocolApolloSuitTalent|Trait|Level20": {
+      "fullText": "영구 은신의 재사용 대기시간이 <c val=\"#TooltipNumbers\">2</c>초 감소합니다.",
+      "name": "아폴로 전투복",
+      "shortText": "영구 은신 재사용 대기시간 감소"
+    },
+    "GenericTalentRewind|GenericRewindHotbar|Active|Level20": {
+      "cooldownText": "재사용 대기시간: 60초",
+      "fullText": "사용하면 모든 일반 기술의 재사용 대기시간이 초기화됩니다.",
+      "name": "되돌리기",
+      "shortText": "사용 시 재사용 대기시간 초기화"
+    }
+  },
+  "units": {}
+}

@@ -1,0 +1,588 @@
+{
+  "id": "Mephisto",
+  "unitId": "HeroMephisto",
+  "hyperlinkId": "Mephisto",
+  "attributeId": "MEPH",
+  "franchise": "Diablo",
+  "rarity": "Legendary",
+  "releaseDate": "2018-09-04",
+  "isMelee": false,
+  "gender": "Male",
+  "radius": 0.75,
+  "innerRadius": 0.75,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "MountMephistoBase",
+  "ratings": {
+    "complexity": 7,
+    "damage": 8,
+    "survivability": 6,
+    "utility": 4
+  },
+  "life": {
+    "amount": 1968,
+    "scale": 0.04,
+    "regenRate": 4.1015,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "EnergyImportant",
+    "Overconfident",
+    "Roamer",
+    "RoleCaster"
+  ],
+  "summonedUnitIds": [
+    "MephistoShadeOfMephistoUnit"
+  ],
+  "weapons": [
+    {
+      "nameId": "MephistoHeroWeapon",
+      "isDisabled": false,
+      "range": 4.5,
+      "minimumRange": 0,
+      "period": 1,
+      "damage": 66,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "MephistoStarWraith",
+    "MephistoToys19"
+  ],
+  "variationSkinIds": [
+    "MephistoVar1",
+    "MephistoVar2",
+    "MephistoVar3",
+    "MephistoVar4"
+  ],
+  "voiceLineIds": [
+    "MephistoBase_VoiceLine01",
+    "MephistoBase_VoiceLine02",
+    "MephistoBase_VoiceLine03",
+    "MephistoBase_VoiceLine04",
+    "MephistoBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "MountMephistoBase"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "MephistoSkullMissile|MephistoSkullMissile|Q",
+        "abilityId": "MephistoSkullMissile",
+        "buttonId": "MephistoSkullMissile",
+        "icon": "storm_ui_icon_mephisto_skull.png",
+        "charges": {
+          "countMax": 1,
+          "countStart": 1,
+          "countUse": 1,
+          "recastCooldown": 1,
+          "isCountHidden": true
+        },
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "MephistoLightningNova|MephistoLightningNova|W",
+        "abilityId": "MephistoLightningNova",
+        "buttonId": "MephistoLightningNova",
+        "icon": "storm_ui_icon_mephisto_lightning.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "MephistoShadeOfMephisto|MephistoShadeOfMephisto|E",
+        "abilityId": "MephistoShadeOfMephisto",
+        "buttonId": "MephistoShadeOfMephisto",
+        "icon": "storm_ui_icon_mephisto_shade.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "MephistoConsumeSouls|MephistoConsumeSouls|Heroic",
+        "abilityId": "MephistoConsumeSouls",
+        "buttonId": "MephistoConsumeSouls",
+        "icon": "storm_ui_icon_mephisto_souls.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "MephistoDuranceOfHate|MephistoDuranceOfHate|Heroic",
+        "abilityId": "MephistoDuranceOfHate",
+        "buttonId": "MephistoDuranceOfHate",
+        "icon": "storm_ui_icon_mephisto_durance.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": ":PASSIVE:|MephistoLordOfHatred|Trait",
+        "abilityId": ":PASSIVE:",
+        "buttonId": "MephistoLordOfHatred",
+        "icon": "storm_ui_icon_mephisto_hatred.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "MephistoShadeOfMephistoShadeLord|MephistoShadeOfMephistoShadeLord|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "MephistoShadeOfMephistoShadeLord|MephistoShadeOfMephistoShadeLord|Active",
+          "abilityId": "MephistoShadeOfMephistoShadeLord",
+          "buttonId": "MephistoShadeOfMephistoShadeLord",
+          "icon": "storm_ui_icon_mephisto_shade.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "MephistoSkullMissileUnyieldingPower|MephistoSkullMissileUnyieldingPower|Q|Level1",
+        "talentId": "MephistoSkullMissileUnyieldingPower",
+        "buttonId": "MephistoSkullMissileUnyieldingPower",
+        "abilityId": "MephistoSkullMissile",
+        "icon": "storm_ui_icon_mephisto_skull.png",
+        "abilityType": "Q",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MephistoSkullMissile|MephistoSkullMissile|Q"
+        ]
+      },
+      {
+        "linkId": "MephistoLightningNovaFuriousSpark|MephistoLightningNovaFuriousSpark|W|Level1",
+        "talentId": "MephistoLightningNovaFuriousSpark",
+        "buttonId": "MephistoLightningNovaFuriousSpark",
+        "abilityId": "MephistoLightningNova",
+        "icon": "storm_ui_icon_mephisto_lightning.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "MephistoLightningNova|MephistoLightningNova|W"
+        ]
+      },
+      {
+        "linkId": "MephistoShadeOfMephistoMaliciousIntent|MephistoShadeOfMephistoMaliciousIntent|E|Level1",
+        "talentId": "MephistoShadeOfMephistoMaliciousIntent",
+        "buttonId": "MephistoShadeOfMephistoMaliciousIntent",
+        "abilityId": "MephistoShadeOfMephisto",
+        "icon": "storm_ui_icon_mephisto_shade.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "MephistoShadeOfMephisto|MephistoShadeOfMephisto|E"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "MephistoSkullMissileHatefulMending|MephistoSkullMissileHatefulMending|Q|Level4",
+        "talentId": "MephistoSkullMissileHatefulMending",
+        "buttonId": "MephistoSkullMissileHatefulMending",
+        "abilityId": "MephistoSkullMissile",
+        "icon": "storm_ui_icon_mephisto_skull.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MephistoSkullMissile|MephistoSkullMissile|Q"
+        ]
+      },
+      {
+        "linkId": "MephistoLightningNovaStaticBarrier|MephistoLightningNovaStaticBarrier|W|Level4",
+        "talentId": "MephistoLightningNovaStaticBarrier",
+        "buttonId": "MephistoLightningNovaStaticBarrier",
+        "abilityId": "MephistoLightningNova",
+        "icon": "storm_ui_icon_mephisto_lightning.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "MephistoLightningNova|MephistoLightningNova|W"
+        ]
+      },
+      {
+        "linkId": "MephistoSpite|MephistoSpite|Passive|Level4",
+        "talentId": "MephistoSpite",
+        "buttonId": "MephistoSpite",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_mephisto_hatred.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|MephistoLordOfHatred|Trait"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "MephistoShadeOfMephistoGhastlyArmor|MephistoShadeOfMephistoGhastlyArmor|E|Level7",
+        "talentId": "MephistoShadeOfMephistoGhastlyArmor",
+        "buttonId": "MephistoShadeOfMephistoGhastlyArmor",
+        "abilityId": "MephistoShadeOfMephisto",
+        "icon": "storm_ui_icon_mephisto_shade.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MephistoShadeOfMephisto|MephistoShadeOfMephisto|E"
+        ]
+      },
+      {
+        "linkId": "MephistoShadeOfMephistoFrostStorm|MephistoShadeOfMephistoFrostStorm|E|Level7",
+        "talentId": "MephistoShadeOfMephistoFrostStorm",
+        "buttonId": "MephistoShadeOfMephistoFrostStorm",
+        "abilityId": "MephistoShadeOfMephisto",
+        "icon": "storm_ui_icon_mephisto_shade_b.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "MephistoShadeOfMephisto|MephistoShadeOfMephisto|E"
+        ]
+      },
+      {
+        "linkId": "MephistoShadeOfMephistoTrickery|MephistoShadeOfMephistoTrickery|E|Level7",
+        "talentId": "MephistoShadeOfMephistoTrickery",
+        "buttonId": "MephistoShadeOfMephistoTrickery",
+        "abilityId": "MephistoShadeOfMephisto",
+        "icon": "storm_ui_icon_mephisto_shade_c.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "MephistoShadeOfMephisto|MephistoShadeOfMephisto|E"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "MephistoConsumeSouls|MephistoConsumeSouls|Heroic|Level10",
+        "talentId": "MephistoConsumeSouls",
+        "buttonId": "MephistoConsumeSouls",
+        "abilityId": "MephistoConsumeSouls",
+        "icon": "storm_ui_icon_mephisto_souls.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "MephistoDuranceOfHate|MephistoDuranceOfHate|Heroic|Level10",
+        "talentId": "MephistoDuranceOfHate",
+        "buttonId": "MephistoDuranceOfHate",
+        "abilityId": "MephistoDuranceOfHate",
+        "icon": "storm_ui_icon_mephisto_durance.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "MephistoSkullMissileAbhorredSkull|MephistoSkullMissileAbhorredSkull|Q|Level13",
+        "talentId": "MephistoSkullMissileAbhorredSkull",
+        "buttonId": "MephistoSkullMissileAbhorredSkull",
+        "abilityId": "MephistoSkullMissile",
+        "icon": "storm_ui_icon_mephisto_skull.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MephistoSkullMissile|MephistoSkullMissile|Q"
+        ]
+      },
+      {
+        "linkId": "MephistoLordOfHatredHysteria|MephistoLordofHatredHysteria|Trait|Level13",
+        "talentId": "MephistoLordOfHatredHysteria",
+        "buttonId": "MephistoLordofHatredHysteria",
+        "abilityId": "MephistoLordofHatred",
+        "icon": "storm_ui_icon_mephisto_hatred.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|MephistoLordOfHatred|Trait"
+        ]
+      },
+      {
+        "linkId": "MephistoShardOfHate|MephistoShardOfHate|Passive|Level13",
+        "talentId": "MephistoShardOfHate",
+        "buttonId": "MephistoShardOfHate",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_mephisto_splash.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "MephistoSkullMissileLightningReaction|MephistoSkullMissileLightningReaction|Q|Level16",
+        "talentId": "MephistoSkullMissileLightningReaction",
+        "buttonId": "MephistoSkullMissileLightningReaction",
+        "abilityId": "MephistoSkullMissile",
+        "icon": "storm_ui_icon_mephisto_skull.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MephistoSkullMissile|MephistoSkullMissile|Q"
+        ]
+      },
+      {
+        "linkId": "MephistoLightningNovaStaticField|MephistoLightningNovaStaticField|W|Level16",
+        "talentId": "MephistoLightningNovaStaticField",
+        "buttonId": "MephistoLightningNovaStaticField",
+        "abilityId": "MephistoLightningNova",
+        "icon": "storm_ui_icon_mephisto_lightning.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "MephistoLightningNova|MephistoLightningNova|W"
+        ]
+      },
+      {
+        "linkId": "MephistoAnimosity|MephistoAnimosity|W|Level16",
+        "talentId": "MephistoAnimosity",
+        "buttonId": "MephistoAnimosity",
+        "abilityId": "MephistoLightningNova",
+        "icon": "storm_ui_icon_mephisto_lightning_b.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "MephistoLightningNova|MephistoLightningNova|W"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "MephistoConsumeSoulsConsumedByHatred|MephistoConsumeSoulsConsumedByHatred|Heroic|Level20",
+        "talentId": "MephistoConsumeSoulsConsumedByHatred",
+        "buttonId": "MephistoConsumeSoulsConsumedByHatred",
+        "abilityId": "MephistoConsumeSouls",
+        "icon": "storm_ui_icon_mephisto_souls.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MephistoConsumeSouls|MephistoConsumeSouls|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "MephistoConsumeSouls"
+        ]
+      },
+      {
+        "linkId": "MephistoDuranceOfHateUnspeakableHorror|MephistoDuranceOfHateUnspeakableHorror|Heroic|Level20",
+        "talentId": "MephistoDuranceOfHateUnspeakableHorror",
+        "buttonId": "MephistoDuranceOfHateUnspeakableHorror",
+        "abilityId": "MephistoDuranceOfHate",
+        "icon": "storm_ui_icon_mephisto_durance.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "MephistoDuranceOfHate|MephistoDuranceOfHate|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "MephistoDuranceOfHate"
+        ]
+      },
+      {
+        "linkId": "MephistoLightningNovaMimic|MephistoLightningNovaShadeOfMephistoMimic|W|Level20",
+        "talentId": "MephistoLightningNovaMimic",
+        "buttonId": "MephistoLightningNovaShadeOfMephistoMimic",
+        "abilityId": "MephistoLightningNova",
+        "icon": "storm_ui_icon_mephisto_lightning.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "MephistoLightningNova|MephistoLightningNova|W"
+        ]
+      },
+      {
+        "linkId": "MephistoShadeOfMephistoShadeLord|MephistoShadeOfMephistoShadeLord|Active|Level20",
+        "talentId": "MephistoShadeOfMephistoShadeLord",
+        "buttonId": "MephistoShadeOfMephistoShadeLord",
+        "abilityId": "MephistoShadeOfMephistoShadeLord",
+        "icon": "storm_ui_icon_mephisto_shade.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          "MephistoShadeOfMephisto|MephistoShadeOfMephisto|E"
+        ]
+      }
+    ]
+  },
+  "sheet": "sheets/Mephisto.png",
+  "icons": {
+    "storm_ui_icon_mephisto_skull.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_mephisto_lightning.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_mephisto_shade.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_mephisto_souls.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_mephisto_durance.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_mephisto_hatred.png": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_mount.png": [
+      256,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      384,
+      128,
+      111,
+      71
+    ],
+    "storm_ui_icon_generic_cancel_mount.png": [
+      0,
+      256,
+      76,
+      48
+    ],
+    "storm_ui_icon_mephisto_shade_b.png": [
+      128,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_mephisto_shade_c.png": [
+      256,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_mephisto_splash.png": [
+      384,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_mephisto_lightning_b.png": [
+      0,
+      384,
+      128,
+      128
+    ]
+  }
+}
