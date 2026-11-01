@@ -2,6 +2,7 @@ import { mkdir, readFile } from 'node:fs/promises';
 import { dirname } from 'node:path';
 import sharp from 'sharp';
 import UPNG from 'upng-js';
+import { encoding, WEBP_EFFORT } from './encode.ts';
 
 /**
  * Re-encodes an animated PNG (the game's animated emotes, as HDP writes them) as a lossless
@@ -18,9 +19,11 @@ export async function writeAnimatedWebp(apng: string, out: string): Promise<void
     : [100];
 
   await mkdir(dirname(out), { recursive: true });
-  await sharp(Buffer.concat(frames), {
-    raw: { width, height: height * frames.length, channels: 4, pageHeight: height },
-  })
-    .webp({ lossless: true, effort: 6, loop: 0, delay })
-    .toFile(out);
+  await encoding(() =>
+    sharp(Buffer.concat(frames), {
+      raw: { width, height: height * frames.length, channels: 4, pageHeight: height },
+    })
+      .webp({ lossless: true, effort: WEBP_EFFORT, loop: 0, delay })
+      .toFile(out),
+  );
 }

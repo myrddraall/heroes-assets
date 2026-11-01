@@ -148,21 +148,27 @@ const heroes = (await dataFile<Hero>('herodata')).items;
 const heroIndex: Json[] = [];
 const heroLinks = new Map<string, { links: Set<string>; units: Set<string> }>();
 
+// the sheets encode in parallel (lib/encode.ts); everything listing them keeps the data's order
+await Promise.all(
+  Object.entries(heroes).map(async ([id, hero]) => {
+    const { portraits: _, ...data } = hero;
+    const icons = collect(data, ['icon']);
+    const rects = await sheet(
+      [...icons].map((icon) => [icon, icon]),
+      pictures,
+      join(out, 'heroes', 'sheets', `${id}.webp`),
+      id,
+    );
+    await writeJson(join(out, 'heroes', `${id}.json`), {
+      id,
+      ...data,
+      sheet: `sheets/${id}.webp`,
+      icons: rects,
+    });
+  }),
+);
 for (const [id, hero] of Object.entries(heroes)) {
   const { portraits: _, ...data } = hero;
-  const icons = collect(data, ['icon']);
-  const rects = await sheet(
-    [...icons].map((icon) => [icon, icon]),
-    pictures,
-    join(out, 'heroes', 'sheets', `${id}.webp`),
-    id,
-  );
-  await writeJson(join(out, 'heroes', `${id}.json`), {
-    id,
-    ...data,
-    sheet: `sheets/${id}.webp`,
-    icons: rects,
-  });
   heroLinks.set(id, {
     links: collect(data, ['linkId']),
     units: new Set([...Object.keys(hero.heroUnits ?? {}), ...(hero.summonedUnitIds ?? [])]),
@@ -181,11 +187,14 @@ for (const [id, hero] of Object.entries(heroes)) {
     portraitKinds.get(kind)!.set(id, file);
   }
 }
-const portraitIndex: Record<string, Json> = {};
-for (const [kind, files] of portraitKinds) {
-  const rects = await sheet(files, pictures, join(out, 'portraits', `${kind}.webp`), kind);
-  portraitIndex[kind] = { sheet: `${kind}.webp`, heroes: rects };
-}
+const portraitIndex: Record<string, Json> = Object.fromEntries(
+  await Promise.all(
+    [...portraitKinds].map(async ([kind, files]) => {
+      const rects = await sheet(files, pictures, join(out, 'portraits', `${kind}.webp`), kind);
+      return [kind, { sheet: `${kind}.webp`, heroes: rects }] as const;
+    }),
+  ),
+);
 await writeJson(join(out, 'portraits', 'index.json'), portraitIndex);
 
 // ── Emoticons: still ones as a sheet per hero (or "universal"), animated ones as animated WebPs
@@ -207,32 +216,33 @@ for (const [id, emoticon] of Object.entries(emoticons)) {
   emoticonGroups.get(group)!.push([id, emoticon.image]);
 }
 const emoticonRects = new Map<string, { sheet: string; rect: Rect }>();
-for (const [group, images] of emoticonGroups) {
-  const rects = await sheet(
-    images,
-    pictures,
-    join(out, 'emoticons', 'sheets', `${group}.webp`),
-    group,
-  );
+const groupRects = await Promise.all(
+  [...emoticonGroups].map(async ([group, images]) => {
+    const path = join(out, 'emoticons', 'sheets', `${group}.webp`);
+    return [group, await sheet(images, pictures, path, group)] as const;
+  }),
+);
+for (const [group, rects] of groupRects) {
   for (const [id, rect] of Object.entries(rects)) {
     emoticonRects.set(id, { sheet: `sheets/${group}.webp`, rect });
   }
 }
+const animatedFiles = new Map<string, string>();
+await Promise.all(
+  Object.entries(emoticons).map(async ([id, { image, animation }]) => {
+    if (!animation || !image) return;
+    const picture = pictures.get(image.toLowerCase());
+    if (!picture) return warn(`${id}: no picture ${image}`);
+    await writeAnimatedWebp(picture, join(out, 'emoticons', 'animated', webpName(image)));
+    animatedFiles.set(id, `animated/${webpName(image)}`);
+  }),
+);
 const emoticonIndex: Record<string, Json> = {};
 for (const [id, emoticon] of Object.entries(emoticons)) {
   const { image, animation, ...data } = emoticon;
-  let animated: Json | undefined;
-  if (animation && image) {
-    const picture = pictures.get(image.toLowerCase());
-    if (picture) {
-      await writeAnimatedWebp(picture, join(out, 'emoticons', 'animated', webpName(image)));
-      animated = {
-        file: `animated/${webpName(image)}`,
-        frames: animation.frames,
-        duration: animation.duration,
-      };
-    } else warn(`${id}: no picture ${image}`);
-  }
+  const file = animatedFiles.get(id);
+  const animated = file &&
+    animation && { file, frames: animation.frames, duration: animation.duration };
   emoticonIndex[id] = { id, ...data, ...emoticonRects.get(id), ...(animated && { animated }) };
 }
 await writeJson(join(out, 'emoticons', 'index.json'), { emoticons: emoticonIndex, packs });
@@ -259,15 +269,16 @@ function withWebpNames(value: unknown): unknown {
 
 const maps = (await dataFile<MapData>('mapdata')).items;
 const mapIndex: Record<string, Json> = {};
+await Promise.all(
+  Object.entries(maps).flatMap(([key, map]) =>
+    [...collect(map, MAP_PICTURES)].map(async (file) => {
+      const picture = pictures.get(file.toLowerCase());
+      if (!picture) return warn(`${key}: no picture ${file}`);
+      await writeWebp(picture, join(out, 'maps', 'images', webpName(file)));
+    }),
+  ),
+);
 for (const [key, map] of Object.entries(maps)) {
-  for (const file of collect(map, MAP_PICTURES)) {
-    const picture = pictures.get(file.toLowerCase());
-    if (!picture) {
-      warn(`${key}: no picture ${file}`);
-      continue;
-    }
-    await writeWebp(picture, join(out, 'maps', 'images', webpName(file)));
-  }
   mapIndex[map.normalizedId] = { id: map.normalizedId, key, ...(withWebpNames(map) as Json) };
 }
 await writeJson(join(out, 'maps', 'index.json'), mapIndex);
