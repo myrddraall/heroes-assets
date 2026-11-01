@@ -2,51 +2,51 @@
   "abilities": {
     "MalthaelSoulRip|MalthaelSoulRip|Q": {
       "cooldownText": "Tiempo de reutilización: 2 s",
-      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 25</s>",
-      "fullText": "Extraes las almas de los enemigos cercanos afectados por <c val=\"#MalthaelTrait\">Marca del segador</c>, lo que inflige <c val=\"#TooltipNumbers\">100</c><c val=\"#ColorGray\">~~0.04~~</c> de daño y te cura <c val=\"#TooltipNumbers\">25</c><c val=\"#ColorGray\">~~0.04~~</c> por cada objetivo alcanzado. Las almas de los héroes te curan también un <c val=\"#TooltipNumbers\">4%</c> de su salud máxima.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Maná: 25</s>",
+      "fullText": "Extraes las almas de los enemigos cercanos afectados por <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Marca del segador</c>, lo que inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> de daño y te cura <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> por cada objetivo alcanzado. Las almas de los héroes te curan también un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4%</c> de su salud máxima.",
       "name": "Siega de almas",
       "shortText": "Infliges daño a los enemigos marcados y te curas."
     },
     "MalthaelWraithStrike|MalthaelWraithStrike|W": {
       "cooldownText": "Tiempo de reutilización: 5 s",
-      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 30</s>",
-      "fullText": "Te teletransportas al instante a través de un enemigo afectado por <c val=\"#MalthaelTrait\">Marca del segador</c>, lo que le inflige <c val=\"#TooltipNumbers\">59</c><c val=\"#ColorGray\">~~0.04~~</c> de daño y reinicia <c val=\"#MalthaelTrait\">Marca del segador</c>.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Maná: 30</s>",
+      "fullText": "Te teletransportas al instante a través de un enemigo afectado por <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Marca del segador</c>, lo que le inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">59</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> de daño y reinicia <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Marca del segador</c>.",
       "name": "Golpe de ánima",
       "shortText": "Te teletransportas a un objetivo marcado."
     },
     "MalthaelDeathShroud|MalthaelDeathShroud|E": {
       "cooldownText": "Tiempo de reutilización: 8 s",
-      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 50</s>",
-      "fullText": "Tras <c val=\"#TooltipNumbers\">0.25</c> s, desatas una oleada de niebla oscura que aplica <c val=\"#MalthaelTrait\">Marca del segador</c> a los enemigos a los que golpea.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Maná: 50</s>",
+      "fullText": "Tras <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.25</c> s, desatas una oleada de niebla oscura que aplica <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Marca del segador</c> a los enemigos a los que golpea.",
       "name": "Embozo de la muerte",
       "shortText": "Desatas una oleada que aplica Marca del segador."
     },
     "MalthaelTormentedSouls|MalthaelTormentedSouls|Heroic": {
       "cooldownText": "Tiempo de reutilización: 60 s",
-      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 20</s>",
-      "fullText": "Desatas un torrente de almas, lo que aplica de forma continua <c val=\"#MalthaelTrait\">Marca del segador</c> a los enemigos cercanos durante <c val=\"#TooltipNumbers\">4</c> s.<n/><n/>Almas atormentadas reinicia el tiempo de reutilización de Golpe de ánima al activarse y, mientras está activa, Golpe de ánima no cuesta maná y su tiempo de reutilización se reduce a <c val=\"#TooltipNumbers\">2</c> s.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Maná: 20</s>",
+      "fullText": "Desatas un torrente de almas, lo que aplica de forma continua <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Marca del segador</c> a los enemigos cercanos durante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> s.<n/><n/>Almas atormentadas reinicia el tiempo de reutilización de Golpe de ánima al activarse y, mientras está activa, Golpe de ánima no cuesta maná y su tiempo de reutilización se reduce a <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> s.",
       "name": "Almas atormentadas",
       "shortText": "Aplicas Marca del segador a los enemigos cercanos."
     },
     "MalthaelLastRites|MalthaelLastRites|Heroic": {
       "cooldownText": "Tiempo de reutilización: 70 s",
-      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 100</s>",
-      "fullText": "Sentencias a muerte a un héroe enemigo, lo que, tras <c val=\"#TooltipNumbers\">2</c> s, le inflige un daño equivalente al <c val=\"#TooltipNumbers\">50%</c> de la salud que le falte.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Misión:</c> Los enemigos asesinados entre la aplicación de Ritual de muerte y <c val=\"#TooltipNumbers\">1.5</c> s después de que la habilidad inflija daño reducen de forma permanente su tiempo de reutilización <c val=\"#TooltipNumbers\">5</c> s, hasta un mínimo de <c val=\"#TooltipNumbers\">20</c> s.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Maná: 100</s>",
+      "fullText": "Sentencias a muerte a un héroe enemigo, lo que, tras <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> s, le inflige un daño equivalente al <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> de la salud que le falte.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Misión:</c> Los enemigos asesinados entre la aplicación de Ritual de muerte y <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> s después de que la habilidad inflija daño reducen de forma permanente su tiempo de reutilización <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> s, hasta un mínimo de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c> s.",
       "name": "Ritual de muerte",
-      "shortText": "<c val=\"#TooltipQuest\">Misión:</c> Inflige daño a un héroe en función de la salud que le falte."
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Misión:</c> Inflige daño a un héroe en función de la salud que le falte."
     },
     ":PASSIVE:|MalthaelReapersMark|Trait": {
-      "fullText": "Los ataques básicos se esparcen en un área frente a ti y aplican <c val=\"#MalthaelTrait\">Marca del segador</c> durante <c val=\"#TooltipNumbers\">4</c> s a los objetivos que no sean estructuras. Los enemigos con marca quedan revelados y sufren un daño equivalente al <c val=\"#TooltipNumbers\">2%</c> de su salud máxima cada <c val=\"#TooltipNumbers\">1</c> s.",
+      "fullText": "Los ataques básicos se esparcen en un área frente a ti y aplican <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Marca del segador</c> durante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> s a los objetivos que no sean estructuras. Los enemigos con marca quedan revelados y sufren un daño equivalente al <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2%</c> de su salud máxima cada <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> s.",
       "name": "Marca del segador",
       "shortText": "Los ataques básicos se esparcen y aplican Marca del segador."
     },
     "Mount|SummonMount|Z": {
       "cooldownText": "Tiempo de reutilización: 4 s",
-      "fullText": "Tras canalizar durante <c val=\"#TooltipNumbers\">1</c> s, obtienes un <s val=\"StandardTooltipDetails\">30%</s> de velocidad de movimiento.",
+      "fullText": "Tras canalizar durante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> s, obtienes un <s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s> de velocidad de movimiento.",
       "name": "Invocar montura"
     },
     "Hearthstone|Hearthstone|B": {
-      "fullText": "Tras canalizar durante <c val=\"#TooltipNumbers\">6</c> s, te teletransportas de vuelta a la Cámara de las Tormentas, lo que restaura al instante <c val=\"#TooltipNumbers\">1125</c> de salud y <c val=\"#TooltipNumbers\">150</c> de maná.",
+      "fullText": "Tras canalizar durante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> s, te teletransportas de vuelta a la Cámara de las Tormentas, lo que restaura al instante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c> de salud y <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c> de maná.",
       "name": "Piedra de hogar"
     },
     "Dismount|UnsummonMount|Z": {
@@ -55,152 +55,152 @@
     },
     "MalthaelFearTheReaper|MalthaelFearTheReaper|Active": {
       "cooldownText": "Tiempo de reutilización: 25 s",
-      "fullText": "Actívalo para aumentar la velocidad de movimiento un <c val=\"#TooltipNumbers\">25%</c> y atravesar unidades durante <c val=\"#TooltipNumbers\">4</c> s.",
+      "fullText": "Actívalo para aumentar la velocidad de movimiento un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> y atravesar unidades durante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> s.",
       "name": "Teme al segador",
       "shortText": "Actívalo para aumentar la velocidad de movimiento."
     },
     "MalthaelTouchOfDeath|MalthaelTouchOfDeath|Active": {
       "cooldownText": "Tiempo de reutilización: 20 s",
-      "fullText": "Actívalo para reducir la curación que reciben los héroes afectados por <c val=\"#MalthaelTrait\">Marca del segador</c> un <c val=\"#TooltipNumbers\">50%</c> durante <c val=\"#TooltipNumbers\">4</c> s.",
+      "fullText": "Actívalo para reducir la curación que reciben los héroes afectados por <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Marca del segador</c> un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> durante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> s.",
       "name": "Toque de la muerte",
       "shortText": "Actívalo para reducir la curación enemiga."
     },
     "MalthaelInevitableEnd|MalthaelInevitableEnd|Active": {
       "cooldownText": "Tiempo de reutilización: 20 s",
-      "fullText": "Actívalo para volverte imparable durante <c val=\"#TooltipNumbers\">2</c> s, pero se eliminan todas las <c val=\"#MalthaelTrait\">Marcas del segador</c> activas.",
+      "fullText": "Actívalo para volverte imparable durante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> s, pero se eliminan todas las <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Marcas del segador</c> activas.",
       "name": "Final inevitable",
       "shortText": "Actívalo para volverte imparable. Elimina las marcas."
     },
     "MalthaelShroudOfWisdom|MalthaelShroudOfWisdom|Active": {
       "cooldownText": "Tiempo de reutilización: 20 s",
-      "fullText": "Tras <c val=\"#TooltipNumbers\">2</c> s, obtienes <c val=\"#TooltipNumbers\">50</c> de armadura antihabilidades durante <c val=\"#TooltipNumbers\">4</c> s.",
+      "fullText": "Tras <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> s, obtienes <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50</c> de armadura antihabilidades durante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> s.",
       "name": "Sudario de la Sabiduría",
       "shortText": "Actívalo para obtener armadura antihabilidades."
     },
     "MalthaelNoOneCanStopDeath|MalthaelNoOneCanStopDeath|Active": {
       "cooldownText": "Tiempo de reutilización: 180 s",
-      "fullText": "Actívalo mientras estás muerto para reaparecer de inmediato en la Cámara de las Tormentas, aunque aumentará tu siguiente tiempo de reaparición un <c val=\"#TooltipNumbers\">25%</c>.",
+      "fullText": "Actívalo mientras estás muerto para reaparecer de inmediato en la Cámara de las Tormentas, aunque aumentará tu siguiente tiempo de reaparición un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>.",
       "name": "Nada detiene a la Muerte",
       "shortText": "Actívalo para reaparecer."
     }
   },
   "talents": {
     "MalthaelDeathsReach|MalthaelDeathsReach|W|Level1": {
-      "fullText": "Aumenta el alcance de Golpe de ánima un <c val=\"#TooltipNumbers\">35%</c>.",
+      "fullText": "Aumenta el alcance de Golpe de ánima un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35%</c>.",
       "name": "Alcance mortífero",
       "shortText": "Aumenta el alcance de Golpe de ánima."
     },
     "MalthaelOnAPaleHorse|MalthaelOnAPaleHorse|Passive|Level1": {
-      "fullText": "Obtienes un <c val=\"#TooltipNumbers\">20%</c> más de velocidad de movimiento sobre montura.",
+      "fullText": "Obtienes un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> más de velocidad de movimiento sobre montura.",
       "name": "Sobre caballo bayo",
       "shortText": "Aumenta la velocidad de movimiento sobre montura."
     },
     "MalthaelFearTheReaper|MalthaelFearTheReaper|Active|Level1": {
       "cooldownText": "Tiempo de reutilización: 25 s",
-      "fullText": "Actívalo para aumentar la velocidad de movimiento un <c val=\"#TooltipNumbers\">25%</c> y atravesar unidades durante <c val=\"#TooltipNumbers\">4</c> s.",
+      "fullText": "Actívalo para aumentar la velocidad de movimiento un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> y atravesar unidades durante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> s.",
       "name": "Teme al segador",
       "shortText": "Actívalo para aumentar la velocidad de movimiento."
     },
     "MalthaelDieAlone|MalthaelDieAlone|Q|Level4": {
-      "fullText": "Siega de almas inflige un <c val=\"#TooltipNumbers\">50%</c> más de daño a los héroes si solo golpea a uno.",
+      "fullText": "Siega de almas inflige un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> más de daño a los héroes si solo golpea a uno.",
       "name": "Muerte solitaria",
       "shortText": "Aumenta el daño contra objetivos únicos de Siega de almas."
     },
     "MalthaelThrowingShade|MalthaelThrowingShade|E|Level4": {
-      "fullText": "Aumenta un <c val=\"#TooltipNumbers\">33%</c> el alcance de Embozo de la muerte, reduce su tiempo de reutilización <c val=\"#TooltipNumbers\">3</c> s y reduce su coste de maná de <c val=\"#TooltipNumbers\">50</c> a <c val=\"#TooltipNumbers\">30</c>.<n/><n/>El impacto inicial de Embozo de la muerte inflige un <c val=\"#TooltipNumbers\">2%</c> de la salud máxima como daño a los enemigos que no sean estructuras.",
+      "fullText": "Aumenta un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">33%</c> el alcance de Embozo de la muerte, reduce su tiempo de reutilización <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> s y reduce su coste de maná de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50</c> a <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30</c>.<n/><n/>El impacto inicial de Embozo de la muerte inflige un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2%</c> de la salud máxima como daño a los enemigos que no sean estructuras.",
       "name": "Sombra alargada",
       "shortText": "Aumenta el alcance de Embozo de la muerte y reduce su tiempo de reutilización."
     },
     "MalthaelBlackHarvest|MalthaelBlackHarvest|Trait|Level4": {
-      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Misión:</c> Aplica <c val=\"#MalthaelTrait\">Marca del segador</c> a héroes durante un total de <c val=\"#TooltipNumbers\">150</c> s.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Recompensa:</c> Aumenta de forma permanente la duración de <c val=\"#MalthaelTrait\">Marca del segador</c> <c val=\"#TooltipNumbers\">2</c> s.",
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Misión:</c> Aplica <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Marca del segador</c> a héroes durante un total de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c> s.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Recompensa:</c> Aumenta de forma permanente la duración de <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Marca del segador</c> <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> s.",
       "name": "Cosecha oscura",
-      "shortText": "<c val=\"#TooltipQuest\">Misión:</c> Aumenta la duración de Marca del segador."
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Misión:</c> Aumenta la duración de Marca del segador."
     },
     "MalthaelColdHand|MalthaelColdHand|Q|Level7": {
-      "fullText": "Siega de almas ralentiza a los enemigos un <c val=\"#TooltipNumbers\">20%</c> durante <c val=\"#TooltipNumbers\">2.5</c> s.",
+      "fullText": "Siega de almas ralentiza a los enemigos un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> durante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c> s.",
       "name": "Mano helada",
       "shortText": "Siega de almas ralentiza."
     },
     "MalthaelMassacre|MalthaelMassacre|W|Level7": {
-      "fullText": "Ahora Golpe de ánima inflige daño y aplica <c val=\"#MalthaelTrait\">Marca del segador</c> a los enemigos alrededor de su objetivo.",
+      "fullText": "Ahora Golpe de ánima inflige daño y aplica <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Marca del segador</c> a los enemigos alrededor de su objetivo.",
       "name": "Masacre",
       "shortText": "Golpe de ánima golpea en un área."
     },
     "MalthaelTouchOfDeath|MalthaelTouchOfDeath|Active|Level7": {
       "cooldownText": "Tiempo de reutilización: 20 s",
-      "fullText": "Actívalo para reducir la curación que reciben los héroes afectados por <c val=\"#MalthaelTrait\">Marca del segador</c> un <c val=\"#TooltipNumbers\">50%</c> durante <c val=\"#TooltipNumbers\">4</c> s.",
+      "fullText": "Actívalo para reducir la curación que reciben los héroes afectados por <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Marca del segador</c> un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> durante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> s.",
       "name": "Toque de la muerte",
       "shortText": "Actívalo para reducir la curación enemiga."
     },
     "MalthaelTormentedSouls|MalthaelTormentedSouls|Heroic|Level10": {
       "cooldownText": "Tiempo de reutilización: 60 s",
-      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 20</s>",
-      "fullText": "Desatas un torrente de almas, lo que aplica de forma continua <c val=\"#MalthaelTrait\">Marca del segador</c> a los enemigos cercanos durante <c val=\"#TooltipNumbers\">4</c> s.<n/><n/>Almas atormentadas reinicia el tiempo de reutilización de Golpe de ánima al activarse y, mientras está activa, Golpe de ánima no cuesta maná y su tiempo de reutilización se reduce a <c val=\"#TooltipNumbers\">2</c> s.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Maná: 20</s>",
+      "fullText": "Desatas un torrente de almas, lo que aplica de forma continua <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Marca del segador</c> a los enemigos cercanos durante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> s.<n/><n/>Almas atormentadas reinicia el tiempo de reutilización de Golpe de ánima al activarse y, mientras está activa, Golpe de ánima no cuesta maná y su tiempo de reutilización se reduce a <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> s.",
       "name": "Almas atormentadas",
       "shortText": "Aplicas Marca del segador a los enemigos cercanos."
     },
     "MalthaelLastRites|MalthaelLastRites|Heroic|Level10": {
       "cooldownText": "Tiempo de reutilización: 70 s",
-      "energyText": "<s val=\"StandardTooltipDetails\">Maná: 100</s>",
-      "fullText": "Sentencias a muerte a un héroe enemigo, lo que, tras <c val=\"#TooltipNumbers\">2</c> s, le inflige un daño equivalente al <c val=\"#TooltipNumbers\">50%</c> de la salud que le falte.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Misión:</c> Los enemigos asesinados entre la aplicación de Ritual de muerte y <c val=\"#TooltipNumbers\">1.5</c> s después de que la habilidad inflija daño reducen de forma permanente su tiempo de reutilización <c val=\"#TooltipNumbers\">5</c> s, hasta un mínimo de <c val=\"#TooltipNumbers\">20</c> s.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Maná: 100</s>",
+      "fullText": "Sentencias a muerte a un héroe enemigo, lo que, tras <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> s, le inflige un daño equivalente al <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> de la salud que le falte.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Misión:</c> Los enemigos asesinados entre la aplicación de Ritual de muerte y <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> s después de que la habilidad inflija daño reducen de forma permanente su tiempo de reutilización <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> s, hasta un mínimo de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c> s.",
       "name": "Ritual de muerte",
-      "shortText": "<c val=\"#TooltipQuest\">Misión:</c> Inflige daño a un héroe en función de la salud que le falte."
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Misión:</c> Inflige daño a un héroe en función de la salud que le falte."
     },
     "MalthaelSoulSiphon|MalthaelSoulSiphon|Q|Level13": {
-      "fullText": "Aumenta la curación adicional de Siega de almas a un <c val=\"#TooltipNumbers\">4.75%</c> de la salud máxima del héroe golpeado.",
+      "fullText": "Aumenta la curación adicional de Siega de almas a un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4.75%</c> de la salud máxima del héroe golpeado.",
       "name": "Succión de almas",
       "shortText": "Aumenta la curación de Siega de almas."
     },
     "MalthaelEtherealExistence|MalthaelEtherealExistence|Trait|Level13": {
-      "fullText": "Obtienes <c val=\"#TooltipNumbers\">10</c> de armadura antiataques por cada héroe enemigo afectado por <c val=\"#MalthaelTrait\">Marca del segador</c>, hasta un máximo de <c val=\"#TooltipNumbers\">30</c>.",
+      "fullText": "Obtienes <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> de armadura antiataques por cada héroe enemigo afectado por <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Marca del segador</c>, hasta un máximo de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30</c>.",
       "name": "Existencia etérea",
       "shortText": "Los objetivos marcados otorgan armadura antiataques."
     },
     "MalthaelInevitableEnd|MalthaelInevitableEnd|Active|Level13": {
       "cooldownText": "Tiempo de reutilización: 20 s",
-      "fullText": "Actívalo para volverte imparable durante <c val=\"#TooltipNumbers\">2</c> s, pero se eliminan todas las <c val=\"#MalthaelTrait\">Marcas del segador</c> activas.",
+      "fullText": "Actívalo para volverte imparable durante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> s, pero se eliminan todas las <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Marcas del segador</c> activas.",
       "name": "Final inevitable",
       "shortText": "Actívalo para volverte imparable. Elimina las marcas."
     },
     "MalthaelShroudOfWisdom|MalthaelShroudOfWisdom|Active|Level13": {
       "cooldownText": "Tiempo de reutilización: 20 s",
-      "fullText": "Tras <c val=\"#TooltipNumbers\">2</c> s, obtienes <c val=\"#TooltipNumbers\">50</c> de armadura antihabilidades durante <c val=\"#TooltipNumbers\">4</c> s.",
+      "fullText": "Tras <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> s, obtienes <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50</c> de armadura antihabilidades durante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> s.",
       "name": "Sudario de la Sabiduría",
       "shortText": "Actívalo para obtener armadura antihabilidades."
     },
     "MalthaelSoulCollector|MalthaelSoulCollector|Q|Level16": {
-      "fullText": "Reduce el tiempo de reutilización de Siega de almas <c val=\"#TooltipNumbers\">0.5</c> s y aumenta su alcance un <c val=\"#TooltipNumbers\">25%</c>.",
+      "fullText": "Reduce el tiempo de reutilización de Siega de almas <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c> s y aumenta su alcance un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>.",
       "name": "Coleccionista de almas",
       "shortText": "Aumenta el radio y reduce el tiempo de reutilización de Siega de almas."
     },
     "MalthaelMortality|MalthaelMortality|W|Level16": {
-      "fullText": "Al infligir daño a un héroe, Golpe de ánima inflige un daño adicional equivalente al <c val=\"#TooltipNumbers\">8%</c> de su salud máxima.",
+      "fullText": "Al infligir daño a un héroe, Golpe de ánima inflige un daño adicional equivalente al <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8%</c> de su salud máxima.",
       "name": "Mortalidad",
       "shortText": "Golpe de ánima inflige daño adicional a héroes."
     },
     "MalthaelMementoMori|MalthaelMementoMori|Trait|Level16": {
-      "fullText": "<c val=\"#MalthaelTrait\">Marca del segador</c> inflige un <c val=\"#TooltipNumbers\">60%</c> más de daño tras afectar a un enemigo durante más de <c val=\"#TooltipNumbers\">4</c> s.",
+      "fullText": "<c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Marca del segador</c> inflige un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60%</c> más de daño tras afectar a un enemigo durante más de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> s.",
       "name": "Memento mori",
       "shortText": "Marca del segador inflige daño aumentado en el tiempo."
     },
     "MalthaelReaperOfSouls|MalthaelReaperOfSouls|Heroic|Level20": {
-      "fullText": "Aumenta la duración de Almas atormentadas a <c val=\"#TooltipNumbers\">6</c> s y, mientras Almas atormentadas está activa, las bajas de héroes en las que participas reinician su duración.<n/><n/>Si <c val=\"#TooltipNumbers\">2</c> o más héroes enemigos se encuentran en el radio de Almas atormentadas, no se va reduciendo.",
+      "fullText": "Aumenta la duración de Almas atormentadas a <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> s y, mientras Almas atormentadas está activa, las bajas de héroes en las que participas reinician su duración.<n/><n/>Si <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> o más héroes enemigos se encuentran en el radio de Almas atormentadas, no se va reduciendo.",
       "name": "Segador de almas",
       "shortText": "Prolonga la duración de Almas atormentadas."
     },
     "MalthaelAngelOfDeath|MalthaelAngelOfDeath|Heroic|Level20": {
-      "fullText": "Ritual de muerte cura un <c val=\"#TooltipNumbers\">100%</c> del daño infligido y duplica la bonificación a la reducción del tiempo de reutilización actual y futura.",
+      "fullText": "Ritual de muerte cura un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> del daño infligido y duplica la bonificación a la reducción del tiempo de reutilización actual y futura.",
       "name": "Ángel de la Muerte",
       "shortText": "Ritual de muerte cura."
     },
     "MalthaelFinalCurtain|MalthaelFinalCurtain|E|Level20": {
-      "fullText": "Embozo de la muerte deja un rastro a su paso durante <c val=\"#TooltipNumbers\">4</c> s, que aplica <c val=\"#MalthaelTrait\">Marca del segador</c> a los enemigos en su área.",
+      "fullText": "Embozo de la muerte deja un rastro a su paso durante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> s, que aplica <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Marca del segador</c> a los enemigos en su área.",
       "name": "Telón final",
       "shortText": "Embozo de la muerte deja un rastro."
     },
     "MalthaelNoOneCanStopDeath|MalthaelNoOneCanStopDeath|Active|Level20": {
       "cooldownText": "Tiempo de reutilización: 180 s",
-      "fullText": "Actívalo mientras estás muerto para reaparecer de inmediato en la Cámara de las Tormentas, aunque aumentará tu siguiente tiempo de reaparición un <c val=\"#TooltipNumbers\">25%</c>.",
+      "fullText": "Actívalo mientras estás muerto para reaparecer de inmediato en la Cámara de las Tormentas, aunque aumentará tu siguiente tiempo de reaparición un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>.",
       "name": "Nada detiene a la Muerte",
       "shortText": "Actívalo para reaparecer."
     }
