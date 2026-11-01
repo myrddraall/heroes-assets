@@ -1,0 +1,254 @@
+{
+  "abilities": {
+    "AbathurSymbiote|AbathurSymbiote|Q": {
+      "cooldownText": "Cooldown: 4 seconds",
+      "fullText": "Spawn and attach a Symbiote to a target ally or Structure. While active, Abathur controls the Symbiote, gaining access to new Abilities. The Symbiote is able to gain XP from nearby enemy deaths.",
+      "name": "Symbiote",
+      "shortText": "Assist an ally and gain new abilities"
+    },
+    "AbathurToxicNest|AbathurToxicNest|W": {
+      "cooldownText": "Charge Cooldown: 10 seconds",
+      "fullText": "Spawn a mine that becomes active after a short time. Deals <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">153</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage and reveals the enemy for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> seconds. Lasts <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">90</c> seconds.<n/><n/>Stores up to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> charges.",
+      "name": "Toxic Nest",
+      "shortText": "Spawn a mine"
+    },
+    "AbathurEvolveMonstrosity|AbathurEvolveMonstrosityHotbar|Heroic": {
+      "cooldownText": "Cooldown: 90 seconds",
+      "fullText": "Turn an allied Minion or Locust into a Monstrosity. When enemy Minions near the Monstrosity die, it gains <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2%</c> Health and <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2%</c> Basic Attack damage, stacking up to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40</c> times. The Monstrosity can be healed by Carapace and has the ability to Burrow to a visible location every <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">80</c> seconds.<n/><n/>Using Symbiote on the Monstrosity allows Abathur to control it, in addition to Symbiote's normal benefits. This Ability can be reactivated to automatically cast Symbiote on his Monstrosity.",
+      "name": "Evolve Monstrosity",
+      "shortText": "Minion or Locust becomes a powerful Monstrosity"
+    },
+    "AbathurUltimateEvolution|AbathurUltimateEvolution|Heroic": {
+      "cooldownText": "Cooldown: 70 seconds",
+      "fullText": "Clone target allied Hero and control it for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c> seconds. Abathur has perfected the clone, granting it <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> Spell Power, <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> bonus Attack Damage, and <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c> bonus Movement Speed. Cannot use their Heroic Ability.",
+      "name": "Ultimate Evolution",
+      "shortText": "Clone target allied Hero and control it"
+    },
+    "AbathurSpawnLocusts|AbathurLocustStrain|Trait": {
+      "cooldownText": "Cooldown: 15 seconds",
+      "fullText": "Spawns a Locust to attack down the nearest lane every <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> seconds.  Locusts heal for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> of the damage they deal, and regain <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> of their Maximum health when a nearby minion dies.<n/><n/>Locusts lose health over <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">17</c> seconds, have <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">225</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> health and deal <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">36</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage with each Basic Attack, dealing <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> bonus damage to enemy non-Heroes.",
+      "name": "Locust Strain",
+      "shortText": "Spawn locusts that attack down the nearest lane"
+    },
+    "AbathurDeepTunnel|AbathurDeepTunnel|Z": {
+      "cooldownText": "Cooldown: 30 seconds",
+      "fullText": "Quickly tunnel to a visible location.",
+      "name": "Deep Tunnel",
+      "shortText": "Tunnel to a location."
+    },
+    "Hearthstone|HearthstoneNoMana|B": {
+      "fullText": "After Channeling for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> seconds, teleport back to the Hall of Storms, instantly restoring <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c> Health.",
+      "name": "Hearthstone"
+    },
+    "AbathurEvolveMonstrosityActiveSymbiote|EvolveMonstrosityActiveHotbar|Heroic": {
+      "cooldownText": "Cooldown: 4 seconds",
+      "fullText": "Activate to cast Symbiote on Abathur's Monstrosity.",
+      "name": "Evolve Monstrosity Active"
+    },
+    "AbathurLocustSwarm|AbathurLocustSwarm|Active": {
+      "cooldownText": "Cooldown: 75 seconds",
+      "fullText": "Activate to spawn <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> Locusts at a nearby location.",
+      "name": "Locust Brood",
+      "shortText": "Spawn a group of Locusts"
+    },
+    "TalentBucketCalldownMule|GenericCalldownMule|Active": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "fullText": "Activate to calldown a Mule that repairs Structures, one at a time, near target point for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40</c> seconds, healing for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">90</c> Health every <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> second. ",
+      "name": "Calldown: MULE",
+      "shortText": "Activate to heal Structures"
+    },
+    "AbathurLocustNest|AbathurLocustMasterHotbar|Active": {
+      "cooldownText": "Cooldown: 45 seconds",
+      "fullText": "Activate to create a nest that periodically spawns Locusts. Only one Locust Nest can be active at a time.",
+      "name": "Locust Nest",
+      "shortText": "Create Locust Nests"
+    },
+    "AbathurSymbioteStab|AbathurSymbioteStab|Q": {
+      "cooldownText": "Charge Cooldown: 3 seconds",
+      "fullText": "Shoots a spike towards target area that deals <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">119</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage to the first enemy it contacts.",
+      "name": "Stab",
+      "shortText": "Shoots a spike that deals damage to the first enemy it contacts."
+    },
+    "AbathurSymbioteSpikeBurst|AbathurSymbioteSpikeBurst|W": {
+      "cooldownText": "Cooldown: 6 seconds",
+      "fullText": "Deals <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">120</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage to nearby enemies.",
+      "name": "Spike Burst",
+      "shortText": "Damage nearby enemies"
+    },
+    "AbathurSymbioteCarapace|AbathurSymbioteCarapace|E": {
+      "cooldownText": "Cooldown: 6 seconds",
+      "fullText": "Shields the assisted ally for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>. Allied Heroes are healed for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">22</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Health per second while the Shield is active. Lasts for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> seconds.",
+      "name": "Carapace",
+      "shortText": "Gain a Shield"
+    },
+    "AbathurAssumingDirectControlCancel|AbathurSymbioteCancel|Heroic": {
+      "cooldownText": "Cooldown: 1.5 seconds",
+      "fullText": "Cancels the Symbiote ability.",
+      "name": "Cancel Symbiote"
+    },
+    "AbathurMonstrosityDeepTunnel|AbathurMonstrosityDeepTunnel|Z": {
+      "cooldownText": "Cooldown: 80 seconds",
+      "fullText": "Order your Evolved Monstrosity to quickly tunnel to a visible location",
+      "name": "Deep Tunnel",
+      "shortText": "Tunnel to a location."
+    }
+  },
+  "talents": {
+    "AbathurMasteryPressurizedGlands|AbathurSymbiotePressurizedGlandsTalent|W|Level1": {
+      "fullText": "Increases the range of Symbiote's Spike Burst by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> and decreases the cooldown by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> second.",
+      "name": "Pressurized Glands",
+      "shortText": "Increases Spike Burst range and decreases cooldown"
+    },
+    "AbathurMasteryEnvenomedNestsToxicNest|AbathurToxicNestEnvenomedNestTalent|W|Level1": {
+      "fullText": "Toxic Nests deal <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75%</c> more damage over <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> seconds and reduce the Armor of enemy Heroes hit by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> seconds.",
+      "name": "Envenomed Nest",
+      "shortText": "Toxic Nests deal more damage, reduce Armor"
+    },
+    "AbathurReinforcedCarapace|AbathurReinforcedCarapaceTalent|E|Level1": {
+      "fullText": "Increase the Shield amount of Carapace by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c>.",
+      "name": "Reinforced Carapace",
+      "shortText": "Increase Carapace Shield"
+    },
+    "AbathurCombatStyleLocustBrood|AbathurLocustSwarm|Active|Level1": {
+      "cooldownText": "Cooldown: 75 seconds",
+      "fullText": "Activate to spawn <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> Locusts at a nearby location.",
+      "name": "Locust Brood",
+      "shortText": "Spawn a group of Locusts"
+    },
+    "AbathurSymbioteAdrenalOverload|AbathurSymbioteAdrenalOverloadTalent|Q|Level4": {
+      "fullText": "Heroic Symbiote hosts gain <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> increased Attack Speed.",
+      "name": "Adrenal Overload",
+      "shortText": "Symbiote host gains Attack Speed"
+    },
+    "AbathurMasteryNeedlespine|AbathurSymbioteNeedlespineTalent|Q|Level4": {
+      "fullText": "Increases the damage and range of Symbiote's Stab by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c>.",
+      "name": "Needlespine",
+      "shortText": "Increases Stab damage and range"
+    },
+    "AbathurMasteryProlificDispersal|AbathurToxicNestProlificDispersalTalent|W|Level4": {
+      "fullText": "Increase the duration of Toxic Nests by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">45</c> seconds, reduce its cooldown by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> seconds, and add <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> additional charges.",
+      "name": "Prolific Dispersal",
+      "shortText": "Increases Toxic Nest charges, duration"
+    },
+    "AbathurSlapathur|AbathurSlapathur|E|Level4": {
+      "fullText": "Abathur’s Basic Attacks deal <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">350%</c> additional damage and Stun non-Elite enemies and disable Structures for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> seconds.<n/><n/>The same Hero or Structure can only be Stunned or disabled once every <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> seconds.",
+      "name": "Slapathur",
+      "shortText": "Basic attacks Stun, deal bonus damage"
+    },
+    "AbathurMasteryVileNestsToxicNest|AbathurToxicNestVileNestTalent|W|Level7": {
+      "fullText": "Toxic Nests Slow enemy Movement Speed by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c> seconds.",
+      "name": "Vile Nest",
+      "shortText": "Toxic Nests slow Move Speed"
+    },
+    "AbathurSymbioteCarapaceNetworkedCarapace|AbathurSymbioteCarapaceNetworkedCarapaceTalent|E|Level7": {
+      "fullText": "Using Symbiote's Carapace also applies an untalented Carapace Shield to all nearby allied Heroes, Minions, and Mercenaries.",
+      "name": "Networked Carapace",
+      "shortText": "Carapace Shields all nearby allies"
+    },
+    "GenericTalentCalldownMULE|GenericCalldownMule|Active|Level7": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "fullText": "Activate to calldown a Mule that repairs Structures, one at a time, near target point for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40</c> seconds, healing for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">90</c> Health every <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> second. ",
+      "name": "Calldown: MULE",
+      "shortText": "Activate to heal Structures"
+    },
+    "AbathurHeroicAbilityUltimateEvolution|AbathurUltimateEvolution|Heroic|Level10": {
+      "cooldownText": "Cooldown: 70 seconds",
+      "fullText": "Clone target allied Hero and control it for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c> seconds. Abathur has perfected the clone, granting it <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> Spell Power, <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> bonus Attack Damage, and <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c> bonus Movement Speed. Cannot use their Heroic Ability.",
+      "name": "Ultimate Evolution",
+      "shortText": "Clone target allied Hero and control it"
+    },
+    "AbathurHeroicAbilityEvolveMonstrosity|AbathurEvolveMonstrosityHotbar|Heroic|Level10": {
+      "cooldownText": "Cooldown: 90 seconds",
+      "fullText": "Turn an allied Minion or Locust into a Monstrosity. When enemy Minions near the Monstrosity die, it gains <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2%</c> Health and <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2%</c> Basic Attack damage, stacking up to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40</c> times. The Monstrosity can be healed by Carapace and has the ability to Burrow to a visible location every <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">80</c> seconds.<n/><n/>Using Symbiote on the Monstrosity allows Abathur to control it, in addition to Symbiote's normal benefits. This Ability can be reactivated to automatically cast Symbiote on his Monstrosity.",
+      "name": "Evolve Monstrosity",
+      "shortText": "Minion or Locust becomes a powerful Monstrosity"
+    },
+    "AbathurMasterySpatialEfficiency|AbathurSymbioteSpatialEfficiencyTalent|Q|Level13": {
+      "fullText": "Symbiote's Stab gains <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> additional charge and its cooldown is reduced by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">.5</c> seconds.",
+      "name": "Spatial Efficiency",
+      "shortText": "Stab gains an additional charge"
+    },
+    "AbathurSymbioteSpikeBurstSomaTransference|AbathurSymbioteSpikeBurstSomaTransferenceTalent|W|Level13": {
+      "fullText": "Symbiote's Spike Burst heals the host for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">64</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Health per enemy Hero hit.",
+      "name": "Soma Transference",
+      "shortText": "Spike Burst heals for each Hero hit"
+    },
+    "AbathurCombatStyleBombardStrain|AbathurLocustStrainBombardStrainTalent|Trait|Level13": {
+      "fullText": "Locust's Basic Attacks become a long-range siege attack and they now lose health <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> more slowly.",
+      "name": "Bombard Strain",
+      "shortText": "Locusts gain a ranged attack, increased duration"
+    },
+    "AbathurMasteryEnvenomedSpikes|AbathurSymbioteEnvenomedSpikesTalent|W|Level16": {
+      "fullText": "Abathur's Symbiote's Spike Burst also Slows enemy Movement Speed by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> seconds.",
+      "name": "Envenomed Spikes",
+      "shortText": "Spike Burst Slows Move Speed"
+    },
+    "AbathurMasteryAdrenalineBoost|AbathurSymbioteAdrenalineBoostTalent|E|Level16": {
+      "fullText": "Symbiote's Carapace increases the Movement Speed of the target by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3.5</c> seconds.",
+      "name": "Adrenaline Boost",
+      "shortText": "Carapace increases Move Speed"
+    },
+    "AbathurVolatileMutation|AbathurVolatileMutationTalent|Heroic|Level16": {
+      "fullText": "Ultimate Evolution clones and Monstrosities deal <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">137</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage to nearby enemies every <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> seconds and when they die. Enemy Heroes hit heal the clone or Monstrosity for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> of the damage dealt.",
+      "name": "Volatile Mutation",
+      "shortText": "Heroic summons radiate damage"
+    },
+    "AbathurCombatStyleSurvivalInstincts|AbathurLocustStrainSurvivalInstinctsTalent|Trait|Level16": {
+      "fullText": "Reduce damage taken by Locusts from non-Heroes by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> and increase their damage by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60%</c>.",
+      "name": "Survival Instincts",
+      "shortText": "Increases Locust Health and damage"
+    },
+    "AbathurUltimateEvolutionEvolutionaryLink|AbathurUltimateEvolutionEvolutionaryLinkTalent|Heroic|Level20": {
+      "fullText": "Increase the duration of Ultimate Evolution by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>. As long as the Ultimate Evolution is alive, the original target of the clone gains a Shield equal to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35%</c> of their maximum Health. Refreshes every <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> seconds.",
+      "name": "Evolutionary Link",
+      "shortText": "Ultimate Evolution target gets a Shield"
+    },
+    "AbathurMasteryEvolutionComplete|AbathurMonstrosityEvolutionCompleteTalent|Heroic|Level20": {
+      "fullText": "Increase Monstrosity's Basic Attack damage by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c>.",
+      "name": "Evolution Complete",
+      "shortText": "Monstrosity gains Attack Damage"
+    },
+    "AbathurSymbioteHivemind|AbathurSymbioteHivemindTalent|Q|Level20": {
+      "fullText": "Symbiote creates an additional Symbiote on a nearby allied Hero.  This Symbiote mimics the commands of the first, but does half damage and Shielding.",
+      "name": "Hivemind",
+      "shortText": "Symbiote two targets"
+    },
+    "AbathurMasteryLocustMaster|AbathurLocustMasterHotbar|Active|Level20": {
+      "cooldownText": "Cooldown: 45 seconds",
+      "fullText": "Activate to create a nest that periodically spawns Locusts. Only one Locust Nest can be active at a time.",
+      "name": "Locust Nest",
+      "shortText": "Create Locust Nests"
+    }
+  },
+  "units": {
+    "AbathurSymbiote": {
+      "description": "Spawn and attach a Symbiote to a target ally or Structure. While active, Abathur controls the Symbiote, gaining access to new Abilities. The Symbiote is able to gain XP from nearby enemy deaths.",
+      "name": "Symbiote"
+    },
+    "AbathurEvolvedMonstrosity": {
+      "description": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Heroic Ability</s><n/><s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Cooldown: 70 seconds</s><n/><n/><s val=\"8783e6\" hlt-name=\"StandardTooltip\">Summon a Gargantuan that deals </s><s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">100</s><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c><s val=\"8783e6\" hlt-name=\"StandardTooltip\"> damage when created. The Gargantuan can grab enemy minions, and will stomp nearby enemies, slowing their Movement Speed by </s><s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">-0%</s><s val=\"8783e6\" hlt-name=\"StandardTooltip\">. Lasts for </s><s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">20</s><s val=\"8783e6\" hlt-name=\"StandardTooltip\"> seconds.</s>",
+      "lifeType": "Health",
+      "name": "Evolved Monstrosity"
+    },
+    "AbathurLocustAssaultStrain": {
+      "name": "Locust"
+    },
+    "AbathurLocustBombardStrain": {
+      "name": "Locust"
+    },
+    "AbathurLocustNest": {
+      "description": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Charge Cooldown: 10 seconds</s><n/><n/><s val=\"8783e6\" hlt-name=\"StandardTooltip\">Spawn a mine that becomes active after a short time. Deals </s><s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">153</s><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c><s val=\"8783e6\" hlt-name=\"StandardTooltip\"> damage and reveals the enemy for </s><s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">4</s><s val=\"8783e6\" hlt-name=\"StandardTooltip\"> seconds. Lasts </s><s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">90</s><s val=\"8783e6\" hlt-name=\"StandardTooltip\"> seconds.</s>",
+      "name": "Locust Nest"
+    },
+    "AbathurLocustNormal": {
+      "name": "Locust"
+    },
+    "AbathurToxicNest": {
+      "description": "Spawn a mine that becomes active after a short time. Deals <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">153</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage and reveals the enemy for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> seconds. Lasts <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">90</c> seconds.<n/><n/>Stores up to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> charges.",
+      "name": "Toxic Nest"
+    },
+    "ItemMULE": {
+      "name": "MULE"
+    }
+  }
+}

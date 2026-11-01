@@ -1,0 +1,232 @@
+{
+  "abilities": {
+    "DVaBoostersOn|DVaMechBoosters|Q": {
+      "cooldownText": "Время восстановления: 10 сек.",
+      "fullText": "Повышает скорость передвижения на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">115%</c> на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.75</c> сек. При этом меха отбрасывает противников на своем пути, нанося им <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">135</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона.<n/><n/>Во время действия ускорителей D.Va нельзя замедлить. Каждого противника можно поразить только один раз.",
+      "name": "Ускорители",
+      "shortText": "Меха совершает рывок и отбрасывает врагов."
+    },
+    "DVaMechDefenseMatrixOn|DVaMechDefenseMatrix|W": {
+      "cooldownText": "Время восстановления: 12 сек.",
+      "fullText": "Создает в указанном направлении защитное поле, которое уменьшает урон, наносимый находящимися в области действия героями противника, на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60%</c>. Время действия – <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> сек.<n/><n/>При повторном использовании меняет угол развертывания поля.<n/><n/>Урон, получаемый мехой от противников в области действия «Защитной матрицы», все равно заряжает «Самоуничтожение».",
+      "name": "Защитная матрица",
+      "shortText": "Снижает урон вражеских героев в области действия."
+    },
+    "DVaMechSelfDestruct|DVaMechSelfDestruct|E": {
+      "fullText": "D.Va покидает меху. После паузы в <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> сек. меха взрывается, нанося от <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">400</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> до <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1100</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона в большой области. Урон зависит от близости противника к центру взрыва. Строения получают <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> урона.<n/><n/><c val=\"FF8000\">«Самоуничтожение» заряжается на </c><c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1%</c><c val=\"FF8000\"> за каждые </c><c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c><c val=\"FF8000\"> сек. автоатаки и на </c><c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c><c val=\"FF8000\">, когда меха получает суммарный урон в объеме </c><c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c><c val=\"FF8000\"> запаса прочности.</c>",
+      "name": "Самоуничтожение",
+      "shortText": "D.Va покидает меху, которая взрывается и наносит огромный урон по области."
+    },
+    "DVaMechBunnyHopHeroic|DVaBunnyHopOn|Heroic": {
+      "cooldownText": "Время восстановления: 70 сек.",
+      "fullText": "Меха становится неудержимой и раз в <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c> сек. совершает прыжок, нанося <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">78</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона в большой области. Каждое <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4-е</c> последовательное попадание по герою наносит на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">80%</c> больше урона и оглушает цель на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c> сек.<n/><n/>Время действия – <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> сек.<n/><n/>Требуется режим мехи.",
+      "name": "Попрыгушки",
+      "shortText": "Меха становится неудержимой и оглушает находящихся рядом героев."
+    },
+    "DVaMicroMissiles|DVaMicroMissiles|Heroic": {
+      "cooldownText": "Время восстановления заряда: 19 сек.",
+      "fullText": "После паузы в <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0,375</c> сек. D.Va начинает поддерживать способность и выпускает залп из <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">12</c> ракет в указанном направлении. Каждая ракета поражает первого противника на своем пути, нанося <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона в небольшой области и замедляя пораженные цели на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c> на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> сек.<n/><n/>Максимум зарядов – <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>. Интервал между применением – <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> сек.<n/><n/>Требуется режим мехи.",
+      "name": "Микроракеты",
+      "shortText": "Выпускает залп ракет, наносящих урон и замедляющих цели."
+    },
+    ":PASSIVE:|DVaMechMechMode|Trait": {
+      "fullText": "D.Va покидает меху через <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.75</c> сек. после ее уничтожения и может продолжать бой. При уничтожении мехи противники получают <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> базового опыта, получаемого за убийство героя.<n/><n/><s val=\"cbe8ff-ffffff\" hlt-name=\"StandardTooltipHeader\">Атомные пушки</s><n/><n/>Автоатаки мехи наносят <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">22</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона в большой области раз в <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.25</c> сек. Автоатаки по героям, находящимся очень близко к мехе, наносят на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> больше урона.",
+      "name": "Режим мехи",
+      "shortText": "D.Va может покинуть меху и продолжить сражаться."
+    },
+    ":PASSIVE:|DVaMechanizedWalker|Z": {
+      "fullText": "Находясь в мехе, D.Va может двигаться и стрелять одновременно. При стрельбе или поддержании способностей ее скорость передвижения быстро снижается на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>.",
+      "name": "Механизированный транспорт",
+      "shortText": "Находясь в мехе, D.Va может двигаться и стрелять одновременно. При этом скорость ее передвижения снижается."
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "После поддержания в течение <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> сек. телепортирует героя в Зал Штормов, моментально восполняя <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c> ед. здоровья и <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c> ед. маны.",
+      "name": "Возвращение"
+    },
+    "DVaBoostersOff|DVaMechCancelBoosters|Q": {
+      "fullText": "Прерывает действие ускорителей.",
+      "name": "Отключение ускорителей",
+      "shortText": "Прерывает действие ускорителей."
+    },
+    "DVaMechDefenseMatrixRetarget|DVaRetargetDefenseMatrix|W": {
+      "fullText": "Меняет угол развертывания «Защитной матрицы».",
+      "name": "Смена направления защитной матрицы",
+      "shortText": "Меняет угол развертывания «Защитной матрицы»."
+    },
+    "DvaCancelDefenseMatrix|DvaCancelDefenseMatrix|Trait": {
+      "fullText": "Прерывает поддержание «Защитной матрицы».",
+      "name": "Отключение защитной матрицы",
+      "shortText": "Прерывает поддержание «Защитной матрицы»."
+    },
+    "DVaMechBunnyHopHeroic|DVaBunnyHopOff|Heroic": {
+      "cooldownText": "Время восстановления: 70 сек.",
+      "fullText": "Прерывает действие «Попрыгушек».",
+      "name": "Попрыгушки",
+      "shortText": "Прерывает действие «Попрыгушек»."
+    },
+    "DVaLiquidCoolingAbility|DVaLiquidCooling|Active": {
+      "cooldownText": "Время восстановления: 50 сек.",
+      "fullText": "При использовании дает эффект исцеляющего фонтана. Требуется режим мехи.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Пассивный эффект:</c> пока D.Va находится в мехе, сокращает время восстановления исцеляющего фонтана до <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50</c> сек. и продлевает время действия его эффектов на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>.",
+      "name": "Жидкий хладагент",
+      "shortText": "Повышает эффективность исцеляющих фонтанов в режиме мехи."
+    },
+    "DVaPilotTorpedoDash|DVaPilotTorpedoDashAbility|Q": {
+      "cooldownText": "Время восстановления: 10 сек.",
+      "fullText": "Совершает рывок в указанную точку, минуя противников.",
+      "name": "Скоростной рывок",
+      "shortText": "Совершает рывок в указанную точку."
+    },
+    "DVaPilotConcussivePulse|DVaPilotConcussivePulseAbility|W": {
+      "cooldownText": "Время восстановления: 10 сек.",
+      "fullText": "Наносит противникам в секторе <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">120</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона и отбрасывает их.",
+      "name": "Ударный импульс",
+      "shortText": "Наносит урон противникам поблизости и отбрасывает их."
+    },
+    "DVaPilotCallMech|DVaPilotCallMech|E": {
+      "cooldownText": "Время восстановления: 45 сек.",
+      "fullText": "D.Va вызывает новую меху и переходит в режим мехи.<n/><n/>Автоатаки сокращают время восстановления этой способности на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c> сек.",
+      "name": "Вызов мехи"
+    },
+    "DVaPilotBigShot|DVaPilotBigShot|Heroic": {
+      "cooldownText": "Время восстановления: 6 сек.",
+      "fullText": "Наносит <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона противникам на прямой линии и снижает скорость передвижения пораженных героев на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> сек. Время восстановления «Вызова мехи» сокращается на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> сек. за каждого пораженного героя.<n/><n/>Требуется режим пилота.",
+      "name": "Мегазалп",
+      "shortText": "Наносит урон противникам на прямой линии и замедляет их в режиме пилота."
+    },
+    ":PASSIVE:|DVaPilotPilotMode|Trait": {
+      "fullText": "Автоатаки сокращают время восстановления «Вызова мехи» на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c> сек. Если D.Va погибает в режиме пилота, противники получают <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> базового опыта, получаемого за убийство героя.",
+      "name": "Режим пилота"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Время восстановления: 4 сек.",
+      "fullText": "После подготовки длительностью <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> сек. повышает скорость передвижения на <s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Вызов транспорта"
+    },
+    "DVaMechPilotSelfDestruct|DVaMechSelfDestruct|Active": {
+      "fullText": "D.Va покидает меху. После паузы в <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> сек. меха взрывается, нанося от <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">400</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> до <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1100</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона в большой области. Урон зависит от близости противника к центру взрыва. Строения получают <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> урона.<n/><n/><c val=\"FF8000\">«Самоуничтожение» заряжается на </c><c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1%</c><c val=\"FF8000\"> за каждые </c><c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c><c val=\"FF8000\"> сек. автоатаки и на </c><c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c><c val=\"FF8000\">, когда меха получает суммарный урон в объеме </c><c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c><c val=\"FF8000\"> запаса прочности.</c>",
+      "name": "Самоуничтожение",
+      "shortText": "D.Va покидает меху, которая взрывается и наносит огромный урон по области."
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Покинуть транспорт.",
+      "name": "Отмена транспорта"
+    }
+  },
+  "talents": {
+    "DVaFullMetal|DVaFullMetal|Trait|Level1": {
+      "fullText": "Увеличивает запас прочности мехи на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c>. Атаки атомными пушками восстанавливают прочность в объеме <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">16%</c> урона, нанесенного в дополнительной области.",
+      "name": "Цельнометаллическая оболочка",
+      "shortText": "Увеличивает запас прочности мехи. Атомные пушки восстанавливают прочность мехи."
+    },
+    "DVaMechProMoves|DVaMechProMoves|Trait|Level1": {
+      "fullText": "Повышает скорость передвижения мехи на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2%</c> и дает ей <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> ед. брони каждый раз, когда она получает урон. Суммируется до <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> раз. Раз в <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c> сек. один из накопленных эффектов рассеивается.<n/><n/>Автоатаки по героям в режиме пилота сокращают время восстановления «Вызова мехи» еще на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> сек.",
+      "name": "Как профи",
+      "shortText": "Ускоряет передвижение и дает броню при получении урона."
+    },
+    "DVaLiquidCooling|DVaLiquidCooling|Active|Level1": {
+      "cooldownText": "Время восстановления: 50 сек.",
+      "fullText": "При использовании дает эффект исцеляющего фонтана. Требуется режим мехи.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Пассивный эффект:</c> пока D.Va находится в мехе, сокращает время восстановления исцеляющего фонтана до <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50</c> сек. и продлевает время действия его эффектов на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>.",
+      "name": "Жидкий хладагент",
+      "shortText": "Повышает эффективность исцеляющих фонтанов в режиме мехи."
+    },
+    "DVaBoostersRushdown|DVaBoostersRushdown|Q|Level4": {
+      "fullText": "«Ускорители» наносят героям дополнительный урон в объеме <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2%</c> их максимального запаса здоровья и восполняют прочность мехи в объеме, равном нанесенному урону. «Ускорители» наносят на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> больше урона всем, кроме героев.",
+      "name": "Понеслась!",
+      "shortText": "«Ускорители» похищают здоровье и наносят больше урона всем, кроме героев."
+    },
+    "DVaDefenseMatrixAggressionMatrix|DVaDefenseMatrixAggressionMatrix|W|Level4": {
+      "fullText": "Снижает эффективность исцеления героев в области действия «Защитной матрицы» на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35%</c>.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Пассивный эффект:</c> каждая автоатака по героям сокращает время восстановления «Защитной матрицы» на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.1875</c> сек.",
+      "name": "Агро-матрица",
+      "shortText": "«Защитная матрица» ослабляет исцеление противников и восстанавливается быстрее."
+    },
+    "DVaSelfDestructNuclearOption|DVaSelfDestructNuclearOption|E|Level4": {
+      "fullText": "Попадание по готовой взорваться мехе «Мегазалпом» ускоряет ее самоуничтожение на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c>.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Пассивный эффект:</c> «Самоуничтожение» получает <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.25</c> заряда, когда атомные пушки наносят дополнительный урон герою.",
+      "name": "Крайнее средство",
+      "shortText": "Усиливает атомные пушки и «Самоуничтожение»."
+    },
+    "DvaGetOnThePoint|DvaGetOnThePoint|Q|Level7": {
+      "fullText": "При использовании «Ускорителей» находящиеся рядом союзники получают бонус к скорости передвижения в <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> сек. <n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Пассивный эффект: </c>если D.Va не получает урон в течение <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> сек., «Ускорители» восстанавливаются на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> быстрее.",
+      "name": "Все на объект!",
+      "shortText": "Ускоряет восстановление «Ускорителей». Ускоряет передвижение союзников."
+    },
+    "DVaBoostersHitTheNitrous|DVaBoostersHitTheNitrous|Q|Level7": {
+      "fullText": "Увеличивает начальный бонус к скорости передвижения от «Ускорителей» до <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">300%</c>. В течение <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c> сек. бонус возвращается к базовому значению. Пока действует этот эффект, «Ускорители» оглушают противников на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c> сек.",
+      "name": "Нитроускорители",
+      "shortText": "Усиливает «Ускорители» на старте. «Ускорители» оглушают противников."
+    },
+    "DVaDefenseMatrixFusionGenerator|DVaDefenseMatrixFusionGenerator|W|Level7": {
+      "fullText": "Каждый раз, когда вражеский герой наносит урон, находясь в области действия «Защитной матрицы», «Самоуничтожение» заряжается на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1%</c>. Максимум – <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> за одно использование «Защитной матрицы». <n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Пассивный эффект: </c>когда «Самоуничтожение» заряжено полностью, объем дополнительного урона от атомных пушек увеличивается до <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c>.",
+      "name": "Атомный генератор",
+      "shortText": "«Защитная матрица» заряжает «Самоуничтожение»."
+    },
+    "DVaBunnyHop|DVaBunnyHopOn|Heroic|Level10": {
+      "cooldownText": "Время восстановления: 70 сек.",
+      "fullText": "Меха становится неудержимой и раз в <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c> сек. совершает прыжок, нанося <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">78</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона в большой области. Каждое <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4-е</c> последовательное попадание по герою наносит на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">80%</c> больше урона и оглушает цель на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c> сек.<n/><n/>Время действия – <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> сек.<n/><n/>Требуется режим мехи.",
+      "name": "Попрыгушки",
+      "shortText": "Меха становится неудержимой и оглушает находящихся рядом героев."
+    },
+    "DVaMicroMissiles|DVaMicroMissiles|Heroic|Level10": {
+      "cooldownText": "Время восстановления заряда: 19 сек.",
+      "fullText": "После паузы в <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0,375</c> сек. D.Va начинает поддерживать способность и выпускает залп из <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">12</c> ракет в указанном направлении. Каждая ракета поражает первого противника на своем пути, нанося <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона в небольшой области и замедляя пораженные цели на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c> на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> сек.<n/><n/>Максимум зарядов – <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>. Интервал между применением – <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> сек.<n/><n/>Требуется режим мехи.",
+      "name": "Микроракеты",
+      "shortText": "Выпускает залп ракет, наносящих урон и замедляющих цели."
+    },
+    "DVaTargetLocked|DVaTargetLocked|W|Level13": {
+      "fullText": "Если вражеский герой находится в области действия «Защитной матрицы» в течение <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.75</c> сек., его броня ослабляется на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> ед., а скорость передвижения снижается на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> сек.",
+      "name": "Захват цели",
+      "shortText": "«Защитная матрица» ослабляет броню и замедляет."
+    },
+    "DVaGoodToGo|DVaGoodToGo|Trait|Level13": {
+      "fullText": "<c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Режим пилота:</c> открывает способности «Ударный импульс» и «Скоростной рывок».<n/><n/><c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">Скоростной рывок:</c> D.Va совершает короткий рывок. Время восстановления – <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> сек.<n/><n/><c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">Ударный импульс:</c> наносит противникам в секторе <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">120</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона и отбрасывает их. Время восстановления – <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> сек.",
+      "name": "К бою готова",
+      "shortText": "Открывает дополнительные способности в режиме пилота."
+    },
+    "DVaBigShotPewPewPew|DVaBigShotPewPewPew|Trait|Level13": {
+      "fullText": "<c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Режим пилота: </c>используя «Мегазалп», D.Va выпускает <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> <lang rule=\"plural\">заряда,заряда,зарядов</lang> за <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c> сек. вместо одного. Каждый заряд наносит <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75%</c> базового урона.",
+      "name": "Пиу! Пиу! Пиу!",
+      "shortText": "«Мегазалп» выпускает несколько зарядов."
+    },
+    "DVaInForTheKill|DVaInForTheKill|Q|Level16": {
+      "fullText": "При использовании «Ускорителей» дает щит прочностью <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c> максимального запаса прочности мехи на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c> сек. За каждого пораженного «Ускорителями» героя увеличивает урон от автоатак мехи на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c> на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> сек. Суммируется до <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> раз.",
+      "name": "Добивание",
+      "shortText": "Увеличивает урон от атак. «Ускорители» дают щит."
+    },
+    "DVaDefenseMatrixDivertingPower|DVaDefenseMatrixDivertingPower|W|Level16": {
+      "fullText": "Значительно увеличивает область действия «Защитной матрицы». Восполняет <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">31</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. прочности мехи каждый раз, когда «Защитная матрица» уменьшает урон, наносимый героям.",
+      "name": "Питание на щиты!",
+      "shortText": "Увеличивает область действия «Защитной матрицы», восполняет прочность мехи."
+    },
+    "DVaMechEmergencyShielding|DVaMechEmergencyShielding|Trait|Level16": {
+      "fullText": "Получая фатальный урон, меха не уничтожается, а активирует щит, который поглощает <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">290</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> ед. урона в течение <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c> сек.<n/><n/>Время восстановления – <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30</c> сек.",
+      "name": "Экстренный щит",
+      "shortText": "Дает мехе щит при получении фатального урона."
+    },
+    "DVaBunnyHopStopAndPop|DVaBunnyHopStopAndPop|Heroic|Level20": {
+      "fullText": "Увеличивает время действия «Попрыгушек» на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> сек. Кроме того, время действия не убывает, если меха прыгает на месте.",
+      "name": "Попрыгушки на месте",
+      "shortText": "Время действия «Попрыгушек» увеличивается, а также не убывает, если D.Va прыгает на месте."
+    },
+    "DVaTimingAttack|DVaTimingAttack|Heroic|Level20": {
+      "fullText": "«Микроракеты» получают дополнительный заряд. Каждый раз, когда «Микроракеты» поражают героя, их время восстановления сокращается на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c> сек., а время восстановления заряда – на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.25</c> сек.",
+      "name": "Синхронная атака",
+      "shortText": "«Микроракеты» получают еще один заряд и восстанавливаются быстрее, поражая героев."
+    },
+    "DVaHeadshot|DVaHeadshot|Trait|Level20": {
+      "fullText": "<c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Режим пилота:</c> увеличивает урон от «Мегазалпа» на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75%</c> и уменьшает его время восстановления на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> сек.",
+      "name": "В яблочко!",
+      "shortText": "Увеличивает урон и ускоряет восстановление «Мегазалпа»."
+    },
+    "DVaMechAblativeArmor|DVaMechAblativeArmor|Trait|Level20": {
+      "fullText": "Меха восполняет прочность в объеме <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">45%</c> полученного урона от способностей за <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4 </c>сек.",
+      "name": "Абляционное покрытие",
+      "shortText": "Меха восполняет часть получаемого урона от способностей."
+    }
+  },
+  "units": {
+    "HeroDVaPilot": {
+      "energyType": "Заряд",
+      "lifeType": "Здоровье",
+      "name": "D.Va"
+    }
+  }
+}

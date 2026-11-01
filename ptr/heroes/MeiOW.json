@@ -1,0 +1,816 @@
+{
+  "id": "MeiOW",
+  "unitId": "HeroMeiOW",
+  "hyperlinkId": "Mei",
+  "attributeId": "HMEI",
+  "franchise": "Overwatch",
+  "rarity": "Legendary",
+  "releaseDate": "2020-06-23",
+  "isMelee": false,
+  "gender": "Female",
+  "radius": 0.875,
+  "innerRadius": 0.875,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 4,
+    "damage": 3,
+    "survivability": 8,
+    "utility": 7
+  },
+  "life": {
+    "amount": 2625,
+    "scale": 0.04,
+    "regenRate": 5.5703,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "BodyBlocker",
+    "EnergyImportant",
+    "Ganker",
+    "Overconfident",
+    "RoleTank"
+  ],
+  "weapons": [
+    {
+      "nameId": "MeiOWHeroWeapon",
+      "isDisabled": false,
+      "range": 4.5,
+      "minimumRange": 0,
+      "period": 1,
+      "damage": 75,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "MeiOWDeathKnight19",
+    "MeiOWPajama"
+  ],
+  "variationSkinIds": [
+    "MeiOWVar1",
+    "MeiOWVar2",
+    "MeiOWVar3",
+    "MeiOWVar4"
+  ],
+  "voiceLineIds": [
+    "MeiOWBase_VoiceLine01",
+    "MeiOWBase_VoiceLine02",
+    "MeiOWBase_VoiceLine03",
+    "MeiOWBase_VoiceLine04",
+    "MeiOWBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "MeiOWSnowBlind|MeiOWSnowBlind|Q",
+        "abilityId": "MeiOWSnowBlind",
+        "buttonId": "MeiOWSnowBlind",
+        "icon": "storm_ui_icon_mei_q_snowblind.png",
+        "charges": {
+          "countMax": 1,
+          "countStart": 1,
+          "countUse": 1,
+          "recastCooldown": 2,
+          "isCountHidden": true
+        },
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "MeiOWBlizzard|MeiOWBlizzard|W",
+        "abilityId": "MeiOWBlizzard",
+        "buttonId": "MeiOWBlizzard",
+        "icon": "storm_ui_icon_mei_w_blizzard.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "MeiOWIcing|MeiOWIcing|E",
+        "abilityId": "MeiOWIcing",
+        "buttonId": "MeiOWIcing",
+        "icon": "storm_ui_icon_mei_e1_slide.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "MeiOWAvalanche|MeiOWAvalanche|Heroic",
+        "abilityId": "MeiOWAvalanche",
+        "buttonId": "MeiOWAvalanche",
+        "icon": "storm_ui_icon_mei_r1_avalanche.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "MeiOWIceWall|MeiOWIceWall|Heroic",
+        "abilityId": "MeiOWIceWall",
+        "buttonId": "MeiOWIceWall",
+        "icon": "storm_ui_icon_mei_r2_icewall.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": "MeiOWCryoFreeze|MeiOWCryoFreeze|Trait",
+        "abilityId": "MeiOWCryoFreeze",
+        "buttonId": "MeiOWCryoFreeze",
+        "icon": "storm_ui_icon_mei_trait.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "MeiOWIcing|MeiOWIcing|E": {
+      "Basic": [
+        {
+          "linkId": "MeiOWIcingCancel|MeiOWIcingCancel|E",
+          "abilityId": "MeiOWIcingCancel",
+          "buttonId": "MeiOWIcingCancel",
+          "icon": "storm_ui_icon_mei_e2_slide.png",
+          "toggleCooldown": 0.25,
+          "abilityType": "E"
+        }
+      ]
+    },
+    "MeiOWCryoFreeze|MeiOWCryoFreeze|Trait": {
+      "Trait": [
+        {
+          "linkId": "MeiOWCryoFreezeCancel|MeiOWCryoFreezeCancel|Trait",
+          "abilityId": "MeiOWCryoFreezeCancel",
+          "buttonId": "MeiOWCryoFreezeCancel",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Trait"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "MeiOWBackupBattery|MeiOWBackupBattery|Active|Level7": {
+      "Activable": [
+        {
+          "linkId": "MeiOWBackupBattery|MeiOWBackupBattery|Active",
+          "abilityId": "MeiOWBackupBattery",
+          "buttonId": "MeiOWBackupBattery",
+          "icon": "storm_ui_icon_mei_battery.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "MeiOWTheBigOne|MeiOWTheBigOne|Q|Level20": {
+      "Activable": [
+        {
+          "linkId": "MeiOWSnowBlindTheBigOneDummyAbility|MeiOWTheBigOneHotbar|Q",
+          "abilityId": "MeiOWSnowBlindTheBigOneDummyAbility",
+          "buttonId": "MeiOWTheBigOneHotbar",
+          "icon": "storm_ui_icon_mei_q_snowblind.png",
+          "abilityType": "Q"
+        }
+      ]
+    },
+    "MeiOWFlashFreeze|MeiOWFlashFreeze|Trait|Level20": {
+      "Activable": [
+        {
+          "linkId": "MeiOWCryoFreezeFlashFreezeTalentHotbar|MeiOWFlashFreezeHotbar|Trait",
+          "abilityId": "MeiOWCryoFreezeFlashFreezeTalentHotbar",
+          "buttonId": "MeiOWFlashFreezeHotbar",
+          "icon": "storm_ui_icon_mei_trait.png",
+          "abilityType": "Trait"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "MeiOWHeavyPack|MeiOWHeavyPack|Q|Level1",
+        "talentId": "MeiOWHeavyPack",
+        "buttonId": "MeiOWHeavyPack",
+        "abilityId": "MeiOWSnowBlind",
+        "icon": "storm_ui_icon_mei_q_snowblind.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MeiOWSnowBlind|MeiOWSnowBlind|Q"
+        ]
+      },
+      {
+        "linkId": "MeiOWIceStorm|MeiOWBlizzardIceStorm|W|Level1",
+        "talentId": "MeiOWIceStorm",
+        "buttonId": "MeiOWBlizzardIceStorm",
+        "abilityId": "MeiOWBlizzard",
+        "icon": "storm_ui_icon_mei_w_blizzard.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "MeiOWBlizzard|MeiOWBlizzard|W"
+        ]
+      },
+      {
+        "linkId": "MeiOWHeatTransfer|MeiOWHeatTransfer|Passive|Level1",
+        "talentId": "MeiOWHeatTransfer",
+        "buttonId": "MeiOWHeatTransfer",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_damage.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "MeiOWSlushball|MeiOWSlushball|Q|Level4",
+        "talentId": "MeiOWSlushball",
+        "buttonId": "MeiOWSlushball",
+        "abilityId": "MeiOWSnowBlind",
+        "icon": "storm_ui_icon_mei_q_snowblind.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MeiOWSnowBlind|MeiOWSnowBlind|Q"
+        ]
+      },
+      {
+        "linkId": "MeiOWColdFront|MeiOWColdFront|E|Level4",
+        "talentId": "MeiOWColdFront",
+        "buttonId": "MeiOWColdFront",
+        "abilityId": "MeiOWIcing",
+        "icon": "storm_ui_icon_mei_e1_slide.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "MeiOWIcing|MeiOWIcing|E"
+        ]
+      },
+      {
+        "linkId": "MeiOWCrystallize|MeiOWCrystallize|Trait|Level4",
+        "talentId": "MeiOWCrystallize",
+        "buttonId": "MeiOWCrystallize",
+        "abilityId": "MeiOWCryoFreeze",
+        "icon": "storm_ui_icon_mei_trait.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "MeiOWCryoFreeze|MeiOWCryoFreeze|Trait"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "MeiOWInduceHibernation|MeiOWInduceHibernation|W|Level7",
+        "talentId": "MeiOWInduceHibernation",
+        "buttonId": "MeiOWInduceHibernation",
+        "abilityId": "MeiOWBlizzard",
+        "icon": "storm_ui_icon_mei_w_blizzard.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MeiOWBlizzard|MeiOWBlizzard|W"
+        ]
+      },
+      {
+        "linkId": "MeiOWSkatingAway|MeiOWSkatingAway|E|Level7",
+        "talentId": "MeiOWSkatingAway",
+        "buttonId": "MeiOWSkatingAway",
+        "abilityId": "MeiOWIcing",
+        "icon": "storm_ui_icon_mei_e1_slide.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "MeiOWIcing|MeiOWIcing|E"
+        ]
+      },
+      {
+        "linkId": "MeiOWBackupBattery|MeiOWBackupBattery|Active|Level7",
+        "talentId": "MeiOWBackupBattery",
+        "buttonId": "MeiOWBackupBattery",
+        "abilityId": "MeiOWBackupBattery",
+        "icon": "storm_ui_icon_mei_battery.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "MeiOWAvalanche|MeiOWAvalanche|Heroic|Level10",
+        "talentId": "MeiOWAvalanche",
+        "buttonId": "MeiOWAvalanche",
+        "abilityId": "MeiOWAvalanche",
+        "icon": "storm_ui_icon_mei_r1_avalanche.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "MeiOWIceWall|MeiOWIceWall|Heroic|Level10",
+        "talentId": "MeiOWIceWall",
+        "buttonId": "MeiOWIceWall",
+        "abilityId": "MeiOWIceWall",
+        "icon": "storm_ui_icon_mei_r2_icewall.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "MeiOWFlurry|MeiOWFlurry|W|Level13",
+        "talentId": "MeiOWFlurry",
+        "buttonId": "MeiOWFlurry",
+        "abilityId": "MeiOWBlizzard",
+        "icon": "storm_ui_icon_mei_w_blizzard.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MeiOWBlizzard|MeiOWBlizzard|W"
+        ]
+      },
+      {
+        "linkId": "MeiOWCryoFreezeCoolingServos|MeiOWCryoFreezeCoolingServos|Trait|Level13",
+        "talentId": "MeiOWCryoFreezeCoolingServos",
+        "buttonId": "MeiOWCryoFreezeCoolingServos",
+        "abilityId": "MeiOWCryoFreeze",
+        "icon": "storm_ui_icon_mei_trait.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "MeiOWCryoFreeze|MeiOWCryoFreeze|Trait"
+        ]
+      },
+      {
+        "linkId": "MeiOWPolarVortex|MeiOWPolarVortex|Passive|Level13",
+        "talentId": "MeiOWPolarVortex",
+        "buttonId": "MeiOWPolarVortex",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_arthas_frosentempest.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "MeiOWFreshPowder|MeiOWFreshPowder|Q|Level16",
+        "talentId": "MeiOWFreshPowder",
+        "buttonId": "MeiOWFreshPowder",
+        "abilityId": "MeiOWSnowBlind",
+        "icon": "storm_ui_icon_mei_q_snowblind.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MeiOWSnowBlind|MeiOWSnowBlind|Q"
+        ]
+      },
+      {
+        "linkId": "MeiOWBlackIce|MeiOWBlackIce|E|Level16",
+        "talentId": "MeiOWBlackIce",
+        "buttonId": "MeiOWBlackIce",
+        "abilityId": "MeiOWIcing",
+        "icon": "storm_ui_icon_mei_e1_slide.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "MeiOWIcing|MeiOWIcing|E"
+        ]
+      },
+      {
+        "linkId": "MeiOWAcclimation|MeiOWAcclimation|Passive|Level16",
+        "talentId": "MeiOWAcclimation",
+        "buttonId": "MeiOWAcclimation",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_jaina_frostarmor.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "MeiOWCascade|MeiOWCascade|Heroic|Level20",
+        "talentId": "MeiOWCascade",
+        "buttonId": "MeiOWCascade",
+        "abilityId": "MeiOWAvalanche",
+        "icon": "storm_ui_icon_mei_r1_avalanche.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MeiOWAvalanche|MeiOWAvalanche|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "MeiOWAvalanche"
+        ]
+      },
+      {
+        "linkId": "MeiOWShatter|MeiOWShatter|Heroic|Level20",
+        "talentId": "MeiOWShatter",
+        "buttonId": "MeiOWShatter",
+        "abilityId": "MeiOWIceWall",
+        "icon": "storm_ui_icon_mei_r2_icewall.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "MeiOWIceWall|MeiOWIceWall|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "MeiOWIceWall"
+        ]
+      },
+      {
+        "linkId": "MeiOWTheBigOne|MeiOWTheBigOne|Q|Level20",
+        "talentId": "MeiOWTheBigOne",
+        "buttonId": "MeiOWTheBigOne",
+        "abilityId": "MeiOWSnowBlind",
+        "icon": "storm_ui_icon_mei_q_snowblind.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "MeiOWSnowBlind|MeiOWSnowBlind|Q"
+        ]
+      },
+      {
+        "linkId": "MeiOWFlashFreeze|MeiOWFlashFreeze|Trait|Level20",
+        "talentId": "MeiOWFlashFreeze",
+        "buttonId": "MeiOWFlashFreeze",
+        "abilityId": "MeiOWCryoFreeze",
+        "icon": "storm_ui_icon_mei_trait.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          "MeiOWCryoFreeze|MeiOWCryoFreeze|Trait"
+        ]
+      }
+    ]
+  },
+  "sheets": {
+    "abilities": {
+      "sheet": "sheets/MeiOW/abilities.webp",
+      "icons": {
+        "storm_ui_icon_mei_q_snowblind.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_mei_w_blizzard.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_mei_e1_slide.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_mei_r1_avalanche.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_mei_r2_icewall.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_mei_trait.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          191,
+          390,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          0,
+          390,
+          111,
+          71
+        ],
+        "storm_ui_icon_mei_e2_slide.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "hud_btn_bg_ability_cancel.png": [
+          260,
+          260,
+          97,
+          111
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          113,
+          390,
+          76,
+          48
+        ],
+        "storm_ui_icon_mei_battery.png": [
+          0,
+          0,
+          128,
+          128
+        ]
+      }
+    },
+    "talents": {
+      "sheet": "sheets/MeiOW/talents.webp",
+      "icons": {
+        "storm_ui_icon_mei_q_snowblind.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_mei_w_blizzard.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_damage.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_mei_e1_slide.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_mei_trait.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_mei_battery.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_mei_r1_avalanche.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_mei_r2_icewall.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_arthas_frosentempest.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_jaina_frostarmor.png": [
+          130,
+          0,
+          128,
+          128
+        ]
+      }
+    },
+    "hero": {
+      "sheet": "sheets/MeiOW/hero.webp",
+      "icons": {
+        "storm_ui_icon_mei_q_snowblind.png": [
+          390,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_mei_w_blizzard.png": [
+          390,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_mei_e1_slide.png": [
+          130,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_mei_r1_avalanche.png": [
+          0,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_mei_r2_icewall.png": [
+          130,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_mei_trait.png": [
+          260,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          388,
+          604,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          323,
+          474,
+          111,
+          71
+        ],
+        "storm_ui_icon_mei_e2_slide.png": [
+          260,
+          214,
+          128,
+          128
+        ],
+        "hud_btn_bg_ability_cancel.png": [
+          130,
+          474,
+          97,
+          111
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          310,
+          604,
+          76,
+          48
+        ],
+        "storm_ui_icon_mei_battery.png": [
+          0,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_damage.png": [
+          0,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_arthas_frosentempest.png": [
+          182,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_jaina_frostarmor.png": [
+          312,
+          0,
+          128,
+          128
+        ]
+      },
+      "portraits": {
+        "draftScreen": [
+          0,
+          0,
+          180,
+          212
+        ],
+        "minimap": [
+          466,
+          604,
+          32,
+          32
+        ],
+        "partyPanel": [
+          130,
+          604,
+          178,
+          56
+        ],
+        "target": [
+          229,
+          474,
+          92,
+          93
+        ],
+        "targetInfo": [
+          0,
+          604,
+          128,
+          56
+        ]
+      }
+    }
+  }
+}

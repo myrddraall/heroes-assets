@@ -1,0 +1,187 @@
+{
+  "abilities": {
+    "NovaSnipeStorm|NovaSnipe|Q": {
+      "cooldownText": "Czas odnowienia: 6 sek.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Zadaje pierwszemu trafionemu przeciwnikowi <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">230</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Działanie pasywne:</c> Każde trafienie wrogiego bohatera Strzałem Snajperskim na stałe zwiększa obrażenia Strzału Snajperskiego o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6%</c>, maksymalnie do <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c>. Kiedy Nova osiągnie maksymalny poziom kumulacji, obrażenia te wzrastają dodatkowo o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>. Jeśli Strzał Snajperski <w>nie trafi wroga, Nova straci wszystkie poziomy kumulacji.",
+      "name": "Strzał Snajperski",
+      "shortText": "Wystrzeliwuje pocisk, który zadaje dotkliwe obrażenia pierwszemu trafionemu przeciwnikowi"
+    },
+    "NovaPinningShot|NovaPinningShot|W": {
+      "cooldownText": "Czas odnowienia: 12 sek.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 65</s>",
+      "fullText": "Zadaje <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń przeciwnikowi i spowalnia go o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> na <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.25</c> sek.",
+      "name": "Przyszpilający Strzał",
+      "shortText": "Spowalnia przeciwnika i zadaje mu obrażenia"
+    },
+    "NovaHoloDecoy|NovaHoloDecoy|E": {
+      "cooldownText": "Czas odnowienia: 15 sek.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Nova tworzy na <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> sek. Holowabik, który dysponuje <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> jej obecnego zdrowia. Holowabik atakuje przeciwników i zadaje <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c> podstawowych obrażeń zadawanych przez Novę. Kiedy Holowabik otrzymuje obrażenia, zadaje sobie taką samą ich wartość, co sprawia, że otrzymuje podwójne obrażenia.<n/><n/>Użycie tej zdolności nie przerywa działania ukrycia.",
+      "name": "Holowabik",
+      "shortText": "Nova tworzy holograficzny wabik"
+    },
+    "NovaTripleTap|NovaTripleTap|Heroic": {
+      "cooldownText": "Czas odnowienia: 100 sek.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 100</s>",
+      "fullText": "Wycelowuje w wybranego bohatera, a następnie wystrzeliwuje pociski (<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>), które trafiają pierwszego bohatera lub budowlę na swojej drodze, a każdy z nich zadaje <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">372</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń.",
+      "name": "Potrójna Dawka",
+      "shortText": "Trzykrotnie oddaje strzał w cel"
+    },
+    "NovaPrecisionStrike|NovaPrecisionStrike|Heroic": {
+      "cooldownText": "Czas odnowienia: 50 sek.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 100</s>",
+      "fullText": "Po upływie <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> sek. zadaje <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">435</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń wrogom znajdującym się na danym obszarze. Nieograniczony zasięg.",
+      "name": "Precyzyjna Salwa",
+      "shortText": "Atak obszarowy o nieograniczonym zasięgu"
+    },
+    ":PASSIVE:|NovaPermanentCloak|Trait": {
+      "fullText": "Gdy Nova nie uczestniczy w walce przez <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> sek., zyskuje ukrycie. Otrzymanie obrażeń, wykonanie ataku, użycie zdolności lub rozpoczęcie jej przygotowywania kończy działanie ukrycia. Pozostawanie w bezruchu w czasie działania ukrycia przez co najmniej <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> sek. zapewnia niewidzialność.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Działanie pasywne:</c> W czasie działania ukrycia Nova zyskuje premię <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c> do szybkości ruchu.",
+      "name": "Stałe Maskowanie",
+      "shortText": "Nova zyskuje ukrycie oraz premię do szybkości ruchu, kiedy nie atakuje ani nie otrzymuje obrażeń"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Czas odnowienia: 4 sek.",
+      "fullText": "Po podtrzymywaniu przez <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> sek. zyskujesz premię <s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s> do szybkości ruchu.",
+      "name": "Przyzwanie Wierzchowca"
+    },
+    "NovaGhostProtocol|NovaGhostProtocol|Active": {
+      "cooldownText": "Czas odnowienia: 60 sek.",
+      "fullText": "Aktywuj, aby natychmiast zapewnić Novie ukrycie i utworzyć Holowabik w miejscu jej przebywania. Kiedy Nova zyskuje ukrycie po użyciu zdolności Kryptonim: Duch, staje się nieujawnialna na pierwsze <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c> sek. jej działania.",
+      "name": "Kryptonim: Duch",
+      "shortText": "Natychmiast aktywuje ukrycie i tworzy Holowabik na pozycji Novy"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Po podtrzymywaniu przez <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> sek. teleportuje bohatera z powrotem do Dworu Burz i przywraca mu natychmiast <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c> pkt. zdrowia oraz <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c> pkt. many.",
+      "name": "Kamień Powrotu"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Opuszczasz wierzchowca.",
+      "name": "Odesłanie Wierzchowca"
+    },
+    "NovaCovertMission|NovaCovertMission|Active": {
+      "fullText": "Wrodzy stronnicy zabici w pobliżu Novy zapewniają poziomy kumulacji Łapówki. Udział w zabiciu wrogiego bohatera zapewnia <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> poziomów kumulacji Łapówki. Możesz wykorzystać <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c> z nich, aby przekupić najemnika i natychmiast go pokonać. Nie działa na najemników elitarnych. Maksymalna liczba poziomów kumulacji: <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100</c>. Jeśli obóz najemników zostanie przejęty wyłącznie z użyciem Łapówki, pojawi się ponownie o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> szybciej.<n/><n/><c val=\"ffff8a\">Aktualna liczba poziomów kumulacji Łapówki: </c><c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0</c>",
+      "name": "Ściśle Tajne",
+      "shortText": "Zabijaj stronników lub bohaterów, aby przekupić najemników"
+    },
+    "TalentRewind|GenericRewindHotbar|Active": {
+      "cooldownText": "Czas odnowienia: 60 sek.",
+      "fullText": "Aktywuj, aby zresetować czasy odnowienia swoich zdolności podstawowych.",
+      "name": "Redukcja",
+      "shortText": "Aktywuj, aby zresetować czasy odnowienia"
+    }
+  },
+  "talents": {
+    "NovaMasteryLongshot|NovaPinningShotLongshotTalent|W|Level1": {
+      "fullText": "Zwiększa zasięg użycia Przyszpilającego Strzału o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c>. Przyszpilający Strzał zwiększa również zasięg kolejnego ataku podstawowego o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.3</c>.",
+      "name": "Dalekostrzał",
+      "shortText": "Zwiększa zasięg Przyszpilającego Strzału"
+    },
+    "NovaCovertOps|NovaCovertOpsTalent|W|Level1": {
+      "fullText": "Po spędzeniu przez Novę w Ukryciu <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> sek. skuteczność spowolnienia Przyszpilającym Strzałem wzrasta do <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60%</c>, a zdolność nie zużywa many. Nova traci premię po spędzeniu <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> sek. poza ukryciem.",
+      "name": "Tajna Operacja",
+      "shortText": "Ukrycie zmniejsza koszt Przyszpilającego Strzału i zwiększa skuteczność spowolnienia"
+    },
+    "NovaAdvancedCloaking|NovaPermanentCloakSniperAdvancedCloakingTalent|Trait|Level1": {
+      "fullText": "Po tym, jak Nova spędzi w ukryciu <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> sek., zyskuje dodatkowo premię <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c> do szybkości ruchu. Podczas trwania ukrycia Nova odzyskuje <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> pkt. many na sekundę.",
+      "name": "Udoskonalone Maskowanie",
+      "shortText": "Ukrycie zwiększa szybkość ruchu i regenerację many"
+    },
+    "NovaRapidProjection|NovaHoloDecoyRapidProjectionTalent|E|Level4": {
+      "fullText": "Skraca czas odnowienia Holowabika i redukuje jego koszt many o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60%</c>.",
+      "name": "Błyskawiczna Projekcja",
+      "shortText": "Skraca czas odnowienia Holowabika i redukuje jego koszt many"
+    },
+    "NovaHoloStability|NovaHoloDecoyHoloStabilityTalent|E|Level4": {
+      "fullText": "Wydłuża czas działania Holowabika o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> i zwiększa jego zasięg użycia o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">120%</c>.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Działanie pasywne:</c> Skraca czas odnowienia Kryptonimu: Duch o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> sek.",
+      "name": "Holostabilność",
+      "shortText": "Zwiększa zasięg Holowabika i jego czas działania"
+    },
+    "NovaCovertMission|NovaCovertMissionTalent|Active|Level4": {
+      "fullText": "Wrodzy stronnicy zabici w pobliżu Novy zapewniają poziomy kumulacji Łapówki. Udział w zabiciu wrogiego bohatera zapewnia <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> poziomów kumulacji Łapówki. Możesz wykorzystać <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c> z nich, aby przekupić najemnika i natychmiast go pokonać. Nie działa na najemników elitarnych. Maksymalna liczba poziomów kumulacji: <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100</c>. Jeśli obóz najemników zostanie przejęty wyłącznie z użyciem Łapówki, pojawi się ponownie o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> szybciej.",
+      "name": "Ściśle Tajne",
+      "shortText": "Zabijaj stronników lub bohaterów, aby przekupić najemników"
+    },
+    "NovaMasteryPerfectShotSnipe|NovaPerfectShotTalent|Q|Level7": {
+      "fullText": "Trafienie przeciwnika Strzałem Snajperskim skraca czas odnowienia tej zdolności o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c><w> sek. i zwraca połowę poniesionego kosztu many (podwójna skuteczność w przypadku wrogich bohaterów).",
+      "name": "Idealny Strzał",
+      "shortText": "Skraca czas odnowienia Strzału Snajperskiego. Trafianie regeneruje manę"
+    },
+    "NovaCombatStyleOneintheChamber|NovaOneintheChamberTalent|Passive|Level7": {
+      "fullText": "Po użyciu dowolnej zdolności kolejny atak podstawowy wykonany przez Novę w ciągu <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> sek. zadaje <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">65%</c> dodatkowych obrażeń.",
+      "name": "Pocisk z Dedykacją",
+      "shortText": "Wykorzystanie dowolnej zdolności wzmacnia kolejny atak podstawowy"
+    },
+    "NovaCombatStyleAntiArmorShells|NovaAntiArmorShellsTalent|Passive|Level7": {
+      "fullText": "Ataki podstawowe Novy zadają <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">250%</c> obrażeń i zmniejszają pancerz fizyczny wrogich bohaterów o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> pkt. na <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> sek., ale szybkość ataku spada proporcjonalnie.",
+      "name": "Pociski Przeciwpancerne",
+      "shortText": "Ataki podstawowe zadają więcej obrażeń i zmniejszają pancerz fizyczny"
+    },
+    "NovaHeroicAbilityTripleTap|NovaTripleTap|Heroic|Level10": {
+      "cooldownText": "Czas odnowienia: 100 sek.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 100</s>",
+      "fullText": "Wycelowuje w wybranego bohatera, a następnie wystrzeliwuje pociski (<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>), które trafiają pierwszego bohatera lub budowlę na swojej drodze, a każdy z nich zadaje <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">372</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń.",
+      "name": "Potrójna Dawka",
+      "shortText": "Trzykrotnie oddaje strzał w cel"
+    },
+    "NovaHeroicAbilityPrecisionStrike|NovaPrecisionStrike|Heroic|Level10": {
+      "cooldownText": "Czas odnowienia: 50 sek.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 100</s>",
+      "fullText": "Po upływie <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> sek. zadaje <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">435</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń wrogom znajdującym się na danym obszarze. Nieograniczony zasięg.",
+      "name": "Precyzyjna Salwa",
+      "shortText": "Atak obszarowy o nieograniczonym zasięgu"
+    },
+    "NovaMasteryPsionicEfficiency|NovaSnipePsionicEfficiencyTalent|Q|Level13": {
+      "fullText": "Zasięg Strzału Snajperskiego wzrasta o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c>. Trafienie bohatera Strzałem Snajperskim zapewnia dodatkowy poziom kumulacji Precyzyjnego Strzału.",
+      "name": "Psioniczna Skuteczność",
+      "shortText": "Zwiększa zasięg i poziomy kumulacji Strzału Snajperskiego"
+    },
+    "NovaMasteryDoubleTap|NovaPinningShotDoubleTapTalent|W|Level13": {
+      "fullText": "Przyszpilający Strzał posiada obecnie <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> ładunki, ale jego czas odnowienia wzrasta o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> sek.",
+      "name": "Podwójna Dawka",
+      "shortText": "Przyszpilający Strzał zyskuje kolejny ładunek, a jego czas odnowienia zostaje wydłużony"
+    },
+    "NovaIonicForceField|NovaIonicForceFieldTalent|Trait|Level13": {
+      "fullText": "Nova zyskuje <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c> pkt. pancerza na <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> sek. po utracie ukrycia.",
+      "name": "Jonowe Pole Siłowe",
+      "shortText": "Zapewnia pancerz po opuszczeniu ukrycia"
+    },
+    "NovaMasteryExplosiveShot|NovaSnipeExplosiveRoundTalent|Q|Level16": {
+      "fullText": "Strzał Snajperski zadaje dodatkowo <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">90%</c> obrażeń wrogom znajdującym się w pobliżu miejsca trafienia.",
+      "name": "Wybuchający Pocisk",
+      "shortText": "Strzał Snajperski zadaje obrażenia obszarowe"
+    },
+    "NovaMasteryCripplingShot|NovaPinningShotCripplingShotTalent|W|Level16": {
+      "fullText": "Przyszpilający Strzał zmniejsza pancerz trafionego bohatera o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c> pkt. na czas trwania efektu spowolnienia, co zwiększa obrażenia otrzymywane przez przeciwnika o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c>.",
+      "name": "Okaleczający Strzał",
+      "shortText": "Przyszpilający Strzał zmniejsza pancerz"
+    },
+    "NovaMasteryLethalDecoy|NovaHoloDecoyLethalDecoyTalent|E|Level16": {
+      "fullText": "Zwiększa obrażenia zadawane przez Holowabik do równowartości <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c> obrażeń Novy.",
+      "name": "Zabójczy Wabik",
+      "shortText": "Holowabik zadaje zwiększone obrażenia"
+    },
+    "NovaMasteryFastReload|NovaTripleTapFastReloadTalent|Heroic|Level20": {
+      "fullText": "Zabicie wrogiego bohatera za pomocą Potrójnej Dawki powoduje wyzerowanie czasu odnowienia tej zdolności.",
+      "name": "Szybkie Przeładowanie",
+      "shortText": "Zabicia bohaterów zerują czas odnowienia Potrójnej Dawki"
+    },
+    "NovaMasteryPrecisionBarrage|NovaPrecisionStrikePrecisionBarrageTalent|Heroic|Level20": {
+      "fullText": "Precyzyjna Salwa zyskuje <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> ładunek, a jej czas odnowienia zostaje skrócony o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c> sek.",
+      "name": "Precyzyjna Kanonada",
+      "shortText": "Skraca czas odnowienia oraz zapewnia dodatkowy ładunek Precyzyjnej Salwy"
+    },
+    "NovaApolloSuit|NovaGhostProtocolApolloSuitTalent|Trait|Level20": {
+      "fullText": "Skraca czas odnowienia Stałego Maskowania o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> sek.",
+      "name": "Kombinezon Apollo",
+      "shortText": "Skraca czas odnowienia Stałego Maskowania"
+    },
+    "GenericTalentRewind|GenericRewindHotbar|Active|Level20": {
+      "cooldownText": "Czas odnowienia: 60 sek.",
+      "fullText": "Aktywuj, aby zresetować czasy odnowienia swoich zdolności podstawowych.",
+      "name": "Redukcja",
+      "shortText": "Aktywuj, aby zresetować czasy odnowienia"
+    }
+  },
+  "units": {}
+}

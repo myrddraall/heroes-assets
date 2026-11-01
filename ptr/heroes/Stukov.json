@@ -1,0 +1,800 @@
+{
+  "id": "Stukov",
+  "unitId": "HeroStukov",
+  "hyperlinkId": "Stukov",
+  "attributeId": "STUK",
+  "franchise": "Starcraft",
+  "rarity": "Legendary",
+  "releaseDate": "2017-07-11",
+  "isMelee": true,
+  "gender": "Male",
+  "radius": 0.6875,
+  "innerRadius": 0.6875,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 7,
+    "damage": 3,
+    "survivability": 5,
+    "utility": 8
+  },
+  "life": {
+    "amount": 1835,
+    "scale": 0.04,
+    "regenRate": 3.8242,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "AllyHealer",
+    "EnergyImportant",
+    "Helper",
+    "RoleSupport",
+    "SelfHealer"
+  ],
+  "summonedUnitIds": [
+    "StukovLurkingArmDummyUnit"
+  ],
+  "weapons": [
+    {
+      "nameId": "StukovSpineLauncherAttackWeapon",
+      "isDisabled": true,
+      "range": 5.5,
+      "minimumRange": 0,
+      "period": 1.5,
+      "damage": 261,
+      "damageScale": 0.04
+    },
+    {
+      "nameId": "StukovHeroWeapon",
+      "isDisabled": false,
+      "range": 1.5,
+      "minimumRange": 0,
+      "period": 1.5,
+      "damage": 261,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "StukovArmy18",
+    "StukovPirate"
+  ],
+  "variationSkinIds": [
+    "StukovBaseVar1",
+    "StukovBaseVar2",
+    "StukovBaseVar3",
+    "StukovBaseVar4"
+  ],
+  "voiceLineIds": [
+    "StukovBase_VoiceLine01",
+    "StukovBase_VoiceLine02",
+    "StukovBase_VoiceLine03",
+    "StukovBase_VoiceLine04",
+    "StukovBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "StukovHealingPathogen|StukovHealingPathogen|Q",
+        "abilityId": "StukovHealingPathogen",
+        "buttonId": "StukovHealingPathogen",
+        "icon": "storm_ui_icon_stukov_healingpathogen.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "StukovWeightedPustule|StukovWeightedPustule|W",
+        "abilityId": "StukovWeightedPustule",
+        "buttonId": "StukovWeightedPustule",
+        "icon": "storm_ui_icon_stukov_weightedpustule.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "StukovLurkingArm|StukovLurkingArm|E",
+        "abilityId": "StukovLurkingArm",
+        "buttonId": "StukovLurkingArm",
+        "icon": "storm_ui_icon_stukov_lurkingarm.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "StukovMassiveShove|StukovMassiveShove|Heroic",
+        "abilityId": "StukovMassiveShove",
+        "buttonId": "StukovMassiveShove",
+        "icon": "storm_ui_icon_stukov_massiveshove.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "StukovFlailingSwipe|StukovFlailingSwipe|Heroic",
+        "abilityId": "StukovFlailingSwipe",
+        "buttonId": "StukovFlailingSwipe",
+        "icon": "storm_ui_icon_stukov_flailingswipe.png",
+        "charges": {
+          "countMax": 1,
+          "countStart": 1,
+          "countUse": 1,
+          "recastCooldown": 0.0625,
+          "isCountHidden": true
+        },
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": "StukovBioKillSwitch|StukovBioKillSwitch|Trait",
+        "abilityId": "StukovBioKillSwitch",
+        "buttonId": "StukovBioKillSwitch",
+        "icon": "storm_ui_icon_stukov_bio-killswitch.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "StukovSpineLauncher|StukovSpineLauncherTalentEnabled|W": {
+      "Activable": [
+        {
+          "linkId": "StukovSpineLauncher|StukovSpineLauncherTalentDisabled|W",
+          "abilityId": "StukovSpineLauncher",
+          "buttonId": "StukovSpineLauncherTalentDisabled",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "W"
+        }
+      ]
+    },
+    "StukovLurkingArm|StukovLurkingArm|E": {
+      "Basic": [
+        {
+          "linkId": "StukovLurkingArmCancel|StukovLurkingArmCancel|E",
+          "abilityId": "StukovLurkingArmCancel",
+          "buttonId": "StukovLurkingArmCancel",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "toggleCooldown": 0.75,
+          "abilityType": "E"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "StukovFetidTouch|StukovFetidTouchTalent|W|Level1": {
+      "Activable": [
+        {
+          "linkId": "StukovSpineLauncher|StukovSpineLauncherTalentEnabled|W",
+          "abilityId": "StukovSpineLauncher",
+          "buttonId": "StukovSpineLauncherTalentEnabled",
+          "icon": "storm_ui_icon_stukov_spinelauncher.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "W"
+        }
+      ]
+    },
+    "StukovWeightedPustuleReactiveBallistospores|StukovReactiveBallistosporesTalent|Active|Level1": {
+      "Activable": [
+        {
+          "linkId": "StukovWeightedPustuleReactiveBallistospores|StukovReactiveBallistosporesTalent|Active",
+          "abilityId": "StukovWeightedPustuleReactiveBallistospores",
+          "buttonId": "StukovReactiveBallistosporesTalent",
+          "icon": "storm_ui_icon_stukov_bio-killswitch.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "StukovFetidTouch|StukovFetidTouchTalent|W|Level1",
+        "talentId": "StukovFetidTouch",
+        "buttonId": "StukovFetidTouchTalent",
+        "abilityId": "StukovWeightedPustule",
+        "icon": "storm_ui_icon_stukov_weightedpustule.png",
+        "abilityType": "W",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "StukovWeightedPustule|StukovWeightedPustule|W"
+        ]
+      },
+      {
+        "linkId": "StukovLowBlow|StukovLowBlowTalent|E|Level1",
+        "talentId": "StukovLowBlow",
+        "buttonId": "StukovLowBlowTalent",
+        "abilityId": "StukovLurkingArm",
+        "icon": "storm_ui_icon_stukov_lurkingarm.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "StukovLurkingArm|StukovLurkingArm|E"
+        ]
+      },
+      {
+        "linkId": "StukovWeightedPustuleReactiveBallistospores|StukovReactiveBallistosporesTalent|Active|Level1",
+        "talentId": "StukovWeightedPustuleReactiveBallistospores",
+        "buttonId": "StukovReactiveBallistosporesTalent",
+        "abilityId": "StukovWeightedPustuleReactiveBallistospores",
+        "icon": "storm_ui_icon_stukov_bio-killswitch.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "StukovWeightedPustule|StukovWeightedPustule|W"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "StukovOneGoodSpread|StukovOneGoodSpreadTalent|Q|Level4",
+        "talentId": "StukovOneGoodSpread",
+        "buttonId": "StukovOneGoodSpreadTalent",
+        "abilityId": "StukovHealingPathogen",
+        "icon": "storm_ui_icon_stukov_healingpathogen.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "StukovHealingPathogen|StukovHealingPathogen|Q"
+        ]
+      },
+      {
+        "linkId": "StukovBioticArmor|StukovBioticArmorTalent|Q|Level4",
+        "talentId": "StukovBioticArmor",
+        "buttonId": "StukovBioticArmorTalent",
+        "abilityId": "StukovHealingPathogen",
+        "icon": "storm_ui_icon_stukov_healingpathogen_a.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "StukovHealingPathogen|StukovHealingPathogen|Q"
+        ]
+      },
+      {
+        "linkId": "StukovVigorousReuptake|StukovVigorousReuptakeTalent|Trait|Level4",
+        "talentId": "StukovVigorousReuptake",
+        "buttonId": "StukovVigorousReuptakeTalent",
+        "abilityId": "StukovBioKillSwitch",
+        "icon": "storm_ui_icon_stukov_bio-killswitch.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "StukovBioKillSwitch|StukovBioKillSwitch|Trait"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "StukovLongPitch|StukovLongPitchTalent|W|Level7",
+        "talentId": "StukovLongPitch",
+        "buttonId": "StukovLongPitchTalent",
+        "abilityId": "StukovWeightedPustule",
+        "icon": "storm_ui_icon_stukov_weightedpustule.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "StukovWeightedPustule|StukovWeightedPustule|W"
+        ]
+      },
+      {
+        "linkId": "StukovGrowingInfestation|StukovGrowingInfestationTalent|E|Level7",
+        "talentId": "StukovGrowingInfestation",
+        "buttonId": "StukovGrowingInfestationTalent",
+        "abilityId": "StukovLurkingArm",
+        "icon": "storm_ui_icon_stukov_lurkingarm.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "StukovLurkingArm|StukovLurkingArm|E"
+        ]
+      },
+      {
+        "linkId": "StukovTargetedExcision|StukovTargetedExcisionTalent|Trait|Level7",
+        "talentId": "StukovTargetedExcision",
+        "buttonId": "StukovTargetedExcisionTalent",
+        "abilityId": "StukovBioKillSwitch",
+        "icon": "storm_ui_icon_stukov_bio-killswitch.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "StukovBioKillSwitch|StukovBioKillSwitch|Trait"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "StukovHeroicAbilityFlailingSwipe|StukovFlailingSwipe|Heroic|Level10",
+        "talentId": "StukovHeroicAbilityFlailingSwipe",
+        "buttonId": "StukovFlailingSwipe",
+        "abilityId": "StukovFlailingSwipe",
+        "icon": "storm_ui_icon_stukov_flailingswipe.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "StukovHeroicAbilityMassiveShove|StukovMassiveShove|Heroic|Level10",
+        "talentId": "StukovHeroicAbilityMassiveShove",
+        "buttonId": "StukovMassiveShove",
+        "abilityId": "StukovMassiveShove",
+        "icon": "storm_ui_icon_stukov_massiveshove.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "StukovItHungers|StukovLurkingArmItHungersTalent|E|Level13",
+        "talentId": "StukovItHungers",
+        "buttonId": "StukovLurkingArmItHungersTalent",
+        "abilityId": "StukovLurkingArm",
+        "icon": "storm_ui_icon_stukov_lurkingarm.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "StukovLurkingArm|StukovLurkingArm|E"
+        ]
+      },
+      {
+        "linkId": "StukovVirulentReaction|StukovVirulentReactionTalent|E|Level13",
+        "talentId": "StukovVirulentReaction",
+        "buttonId": "StukovVirulentReactionTalent",
+        "abilityId": "StukovLurkingArm",
+        "icon": "storm_ui_icon_stukov_lurkingarm_a.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "StukovLurkingArm|StukovLurkingArm|E"
+        ]
+      },
+      {
+        "linkId": "StukovPoppinPustules|StukovPoppinPustulesTalent|Trait|Level13",
+        "talentId": "StukovPoppinPustules",
+        "buttonId": "StukovPoppinPustulesTalent",
+        "abilityId": "StukovBioKillSwitch",
+        "icon": "storm_ui_icon_stukov_bio-killswitch.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "StukovBioKillSwitch|StukovBioKillSwitch|Trait"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "StukovSuperstrain|StukovSuperstrainTalent|Q|Level16",
+        "talentId": "StukovSuperstrain",
+        "buttonId": "StukovSuperstrainTalent",
+        "abilityId": "StukovHealingPathogen",
+        "icon": "storm_ui_icon_stukov_healingpathogen.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "StukovHealingPathogen|StukovHealingPathogen|Q"
+        ]
+      },
+      {
+        "linkId": "StukovUniversalCarrier|StukovUniversalCarrierTalent|Q|Level16",
+        "talentId": "StukovUniversalCarrier",
+        "buttonId": "StukovUniversalCarrierTalent",
+        "abilityId": "StukovHealingPathogen",
+        "icon": "storm_ui_icon_stukov_healingpathogen_a.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "StukovHealingPathogen|StukovHealingPathogen|Q"
+        ]
+      },
+      {
+        "linkId": "StukovPoxPopuli|StukovPoxPopuliTalent|Trait|Level16",
+        "talentId": "StukovPoxPopuli",
+        "buttonId": "StukovPoxPopuliTalent",
+        "abilityId": "StukovBioKillSwitch",
+        "icon": "storm_ui_icon_stukov_bio-killswitch.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "StukovBioKillSwitch|StukovBioKillSwitch|Trait"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "StukovControlledChaos|StukovControlledChaosTalent|Heroic|Level20",
+        "talentId": "StukovControlledChaos",
+        "buttonId": "StukovControlledChaosTalent",
+        "abilityId": "StukovFlailingSwipe",
+        "icon": "storm_ui_icon_stukov_flailingswipe.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "StukovFlailingSwipe|StukovFlailingSwipe|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "StukovHeroicAbilityFlailingSwipe"
+        ]
+      },
+      {
+        "linkId": "StukovPushComesToShove|StukovPushComesToShoveTalent|Heroic|Level20",
+        "talentId": "StukovPushComesToShove",
+        "buttonId": "StukovPushComesToShoveTalent",
+        "abilityId": "StukovMassiveShove",
+        "icon": "storm_ui_icon_stukov_massiveshove.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "StukovMassiveShove|StukovMassiveShove|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "StukovHeroicAbilityMassiveShove"
+        ]
+      },
+      {
+        "linkId": "StukovTopOff|StukovTopOffTalent|Q|Level20",
+        "talentId": "StukovTopOff",
+        "buttonId": "StukovTopOffTalent",
+        "abilityId": "StukovHealingPathogen",
+        "icon": "storm_ui_icon_stukov_healingpathogen.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "StukovHealingPathogen|StukovHealingPathogen|Q"
+        ]
+      },
+      {
+        "linkId": "StukovBioExplosionSwitch|StukovBioExplosionSwitchTalent|Trait|Level20",
+        "talentId": "StukovBioExplosionSwitch",
+        "buttonId": "StukovBioExplosionSwitchTalent",
+        "abilityId": "StukovBioKillSwitch",
+        "icon": "storm_ui_icon_stukov_bio-killswitch.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          "StukovBioKillSwitch|StukovBioKillSwitch|Trait"
+        ]
+      }
+    ]
+  },
+  "sheets": {
+    "abilities": {
+      "sheet": "sheets/Stukov/abilities.webp",
+      "icons": {
+        "storm_ui_icon_stukov_healingpathogen.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_stukov_weightedpustule.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_stukov_lurkingarm.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_stukov_massiveshove.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_stukov_flailingswipe.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_stukov_bio-killswitch.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          78,
+          520,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          229,
+          390,
+          111,
+          71
+        ],
+        "hud_btn_bg_ability_cancel.png": [
+          130,
+          390,
+          97,
+          111
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          0,
+          520,
+          76,
+          48
+        ],
+        "storm_ui_icon_stukov_spinelauncher.png": [
+          130,
+          260,
+          128,
+          128
+        ]
+      }
+    },
+    "talents": {
+      "sheet": "sheets/Stukov/talents.webp",
+      "icons": {
+        "storm_ui_icon_stukov_weightedpustule.png": [
+          130,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_stukov_lurkingarm.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_stukov_bio-killswitch.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_stukov_healingpathogen.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_stukov_healingpathogen_a.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_stukov_flailingswipe.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_stukov_massiveshove.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_stukov_lurkingarm_a.png": [
+          0,
+          260,
+          128,
+          128
+        ]
+      }
+    },
+    "hero": {
+      "sheet": "sheets/Stukov/hero.webp",
+      "icons": {
+        "storm_ui_icon_stukov_healingpathogen.png": [
+          130,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_stukov_weightedpustule.png": [
+          0,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_stukov_lurkingarm.png": [
+          0,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_stukov_massiveshove.png": [
+          130,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_stukov_flailingswipe.png": [
+          312,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_stukov_bio-killswitch.png": [
+          182,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          388,
+          604,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          323,
+          474,
+          111,
+          71
+        ],
+        "hud_btn_bg_ability_cancel.png": [
+          130,
+          474,
+          97,
+          111
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          310,
+          604,
+          76,
+          48
+        ],
+        "storm_ui_icon_stukov_spinelauncher.png": [
+          260,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_stukov_healingpathogen_a.png": [
+          0,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_stukov_lurkingarm_a.png": [
+          260,
+          214,
+          128,
+          128
+        ]
+      },
+      "portraits": {
+        "draftScreen": [
+          0,
+          0,
+          180,
+          212
+        ],
+        "minimap": [
+          0,
+          662,
+          32,
+          32
+        ],
+        "partyPanel": [
+          130,
+          604,
+          178,
+          56
+        ],
+        "target": [
+          229,
+          474,
+          92,
+          93
+        ],
+        "targetInfo": [
+          0,
+          604,
+          128,
+          56
+        ]
+      }
+    }
+  }
+}

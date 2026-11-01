@@ -1,0 +1,930 @@
+{
+  "id": "Tychus",
+  "unitId": "HeroTychus",
+  "hyperlinkId": "Tychus",
+  "attributeId": "Tych",
+  "franchise": "Starcraft",
+  "rarity": "Epic",
+  "releaseDate": "2014-03-18",
+  "isMelee": false,
+  "gender": "Male",
+  "radius": 0.8125,
+  "innerRadius": 0.8125,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "BattleBeast",
+  "ratings": {
+    "complexity": 6,
+    "damage": 8,
+    "survivability": 5,
+    "utility": 1
+  },
+  "life": {
+    "amount": 1925,
+    "scale": 0.04,
+    "regenRate": 4.0117,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "EnergyImportant",
+    "Ganker",
+    "RoleAutoAttacker",
+    "WaveClearer"
+  ],
+  "summonedUnitIds": [
+    "TychusLaserDrill",
+    "TychusOverkillTargetDummy"
+  ],
+  "weapons": [
+    {
+      "nameId": "TychusMiniGunRampingSpeedWeapon",
+      "isDisabled": false,
+      "range": 4.5,
+      "minimumRange": 0,
+      "period": 0.25,
+      "damage": 50,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "TychusInfestedBase",
+    "TychusPrisonerBase",
+    "TychusUltimateBase",
+    "TychusWatergunBase"
+  ],
+  "variationSkinIds": [
+    "TychusBronze",
+    "TychusSilver"
+  ],
+  "voiceLineIds": [
+    "TychusBase_VoiceLine01",
+    "TychusBase_VoiceLine02",
+    "TychusBase_VoiceLine03",
+    "TychusBase_VoiceLine04",
+    "TychusBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "TychusOverkillTargeted|TychusOverkill|Q",
+        "abilityId": "TychusOverkillTargeted",
+        "buttonId": "TychusOverkill",
+        "icon": "storm_ui_icon_tychus_overkill.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "TychusGrenade|TychusFragGrenade|W",
+        "abilityId": "TychusGrenade",
+        "buttonId": "TychusFragGrenade",
+        "icon": "storm_ui_icon_tychus_fraggrenade.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "TychusRunAndGun|TychusRunandGun|E",
+        "abilityId": "TychusRunAndGun",
+        "buttonId": "TychusRunandGun",
+        "icon": "storm_ui_icon_tychus_runandgun.png",
+        "charges": {
+          "countMax": 1,
+          "countStart": 1,
+          "countUse": 1,
+          "recastCooldown": 0.5,
+          "isCountHidden": true
+        },
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "TychusDrakkenLaserDrill|TychusDrakkenLaserDrill|Heroic",
+        "abilityId": "TychusDrakkenLaserDrill",
+        "buttonId": "TychusDrakkenLaserDrill",
+        "icon": "storm_ui_icon_tychus_drakkinlaserdrill.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "TychusOdinNoHealth|TychusCommandeerOdin|Heroic",
+        "abilityId": "TychusOdinNoHealth",
+        "buttonId": "TychusCommandeerOdin",
+        "icon": "storm_ui_icon_tychus_commandeerodin.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": ":PASSIVE:|TychusMinigun|Trait",
+        "abilityId": ":PASSIVE:",
+        "buttonId": "TychusMinigun",
+        "icon": "storm_ui_icon_tychus_minigun.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "TychusOverkillTargeted|TychusOverkill|Q": {
+      "Basic": [
+        {
+          "linkId": "OverkillTargetedRetarget|TychusOverkillRetarget|Q",
+          "abilityId": "OverkillTargetedRetarget",
+          "buttonId": "TychusOverkillRetarget",
+          "icon": "storm_ui_icon_tychus_overkill_target.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Q"
+        },
+        {
+          "linkId": "TychusRunAndGunOverkill|TychusRunandGun|E",
+          "abilityId": "TychusRunAndGunOverkill",
+          "buttonId": "TychusRunandGun",
+          "icon": "storm_ui_icon_tychus_runandgun.png",
+          "charges": {
+            "countMax": 1,
+            "countStart": 1,
+            "countUse": 1,
+            "recastCooldown": 0.5,
+            "isCountHidden": true
+          },
+          "abilityType": "E"
+        }
+      ]
+    },
+    "TychusDrakkenLaserDrill|TychusDrakkenLaserDrill|Heroic": {
+      "Heroic": [
+        {
+          "linkId": "TychusDrakkenLaserDrillIssueOrder|TychusDrakkenLaserDrillIssueOrder|Heroic",
+          "abilityId": "TychusDrakkenLaserDrillIssueOrder",
+          "buttonId": "TychusDrakkenLaserDrillIssueOrder",
+          "icon": "storm_ui_icon_tychus_laserdrillissueorder.png",
+          "abilityType": "Heroic"
+        }
+      ]
+    },
+    "TychusOdinNoHealth|TychusCommandeerOdin|Heroic": {
+      "Basic": [
+        {
+          "linkId": "TychusOdinAnnihilate|TychusCommandeerOdinAnnihilate|Q",
+          "abilityId": "TychusOdinAnnihilate",
+          "buttonId": "TychusCommandeerOdinAnnihilate",
+          "icon": "storm_ui_icon_tychus_annihilate.png",
+          "abilityType": "Q"
+        },
+        {
+          "linkId": "TychusOdinRagnarokMissilesTargeted|TychusCommandeerOdinRagnarokMissilesTargeted|W",
+          "abilityId": "TychusOdinRagnarokMissilesTargeted",
+          "buttonId": "TychusCommandeerOdinRagnarokMissilesTargeted",
+          "icon": "storm_ui_icon_tychus_ragnarokmissiles.png",
+          "abilityType": "W"
+        },
+        {
+          "linkId": "TychusOdinThrusters|TychusOdinThrusters|E",
+          "abilityId": "TychusOdinThrusters",
+          "buttonId": "TychusOdinThrusters",
+          "icon": "storm_ui_icon_tychus_thrusters.png",
+          "charges": {
+            "countMax": 1,
+            "countStart": 1,
+            "countUse": 1,
+            "recastCooldown": 0.5,
+            "isCountHidden": true
+          },
+          "abilityType": "E"
+        }
+      ]
+    },
+    ":PASSIVE:|TychusMinigun|Trait": {
+      "Trait": [
+        {
+          "linkId": "TychusMinigunActive|TychusMinigunActive|Trait",
+          "abilityId": "TychusMinigunActive",
+          "buttonId": "TychusMinigunActive",
+          "icon": "storm_ui_icon_tychus_minigun.png",
+          "abilityType": "Trait"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "TychusNeosteelCoating|TychusNeosteelCoatingTalent|Active|Level13": {
+      "Activable": [
+        {
+          "linkId": "TychusNeosteelCoating|TychusNeosteelCoatingTalent|Active",
+          "abilityId": "TychusNeosteelCoating",
+          "buttonId": "TychusNeosteelCoatingTalent",
+          "icon": "storm_temp_btn-upgrade-terran-neosteelframe.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "TychusMasteryQuarterback|TychusFragGrenadeQuarterbackTalent|W|Level1",
+        "talentId": "TychusMasteryQuarterback",
+        "buttonId": "TychusFragGrenadeQuarterbackTalent",
+        "abilityId": "TychusGrenade",
+        "icon": "storm_ui_icon_tychus_fraggrenade.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "TychusGrenade|TychusFragGrenade|W"
+        ]
+      },
+      {
+        "linkId": "TychusMasteryRunandGunDash|TychusRunandGunDashTalent|E|Level1",
+        "talentId": "TychusMasteryRunandGunDash",
+        "buttonId": "TychusRunandGunDashTalent",
+        "abilityId": "TychusRunAndGun",
+        "icon": "storm_ui_icon_tychus_runandgun.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "TychusRunAndGun|TychusRunandGun|E",
+          "TychusRunAndGunOverkill|TychusRunandGun|E"
+        ]
+      },
+      {
+        "linkId": "TychusPressTheAdvantage|TychusPressTheAdvantage|Passive|Level1",
+        "talentId": "TychusPressTheAdvantage",
+        "buttonId": "TychusPressTheAdvantage",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_range.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|TychusMinigun|Trait",
+          "TychusMinigunActive|TychusMinigunActive|Trait"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "TychusInTheRhythm|TychusIntheRhythmTalent|Trait|Level4",
+        "talentId": "TychusInTheRhythm",
+        "buttonId": "TychusIntheRhythmTalent",
+        "abilityId": "TychusMinigunActive",
+        "icon": "storm_ui_icon_tychus_minigun.png",
+        "abilityType": "Trait",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|TychusMinigun|Trait",
+          "TychusMinigunActive|TychusMinigunActive|Trait"
+        ]
+      },
+      {
+        "linkId": "TychusTheBiggerTheyAre|TychusTheBiggerTheyAre|Trait|Level4",
+        "talentId": "TychusTheBiggerTheyAre",
+        "buttonId": "TychusTheBiggerTheyAre",
+        "abilityId": "TychusMinigunActive",
+        "icon": "storm_ui_icon_tychus_minigun_a.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|TychusMinigun|Trait",
+          "TychusMinigunActive|TychusMinigunActive|Trait"
+        ]
+      },
+      {
+        "linkId": "TychusMasterAssassin|TychusMasterAssassinTalent|Passive|Level4",
+        "talentId": "TychusMasterAssassin",
+        "buttonId": "TychusMasterAssassinTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_speed.png",
+        "abilityType": "Passive",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|TychusMinigun|Trait",
+          "TychusMinigunActive|TychusMinigunActive|Trait"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "TychusMeltingPoint|TychusMeltingPoint|W|Level7",
+        "talentId": "TychusMeltingPoint",
+        "buttonId": "TychusMeltingPoint",
+        "abilityId": "TychusGrenade",
+        "icon": "storm_ui_icon_tychus_fraggrenade.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "TychusGrenade|TychusFragGrenade|W"
+        ]
+      },
+      {
+        "linkId": "TychusCombatTactician|TychusCombatTactician|Trait|Level7",
+        "talentId": "TychusCombatTactician",
+        "buttonId": "TychusCombatTactician",
+        "abilityId": "TychusMinigunActive",
+        "icon": "storm_ui_icon_tychus_minigun.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|TychusMinigun|Trait",
+          "TychusMinigunActive|TychusMinigunActive|Trait"
+        ]
+      },
+      {
+        "linkId": "TychusRelentlessSoldier|TychusRelentlessSoldierTalent|Passive|Level7",
+        "talentId": "TychusRelentlessSoldier",
+        "buttonId": "TychusRelentlessSoldierTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_relentless.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "TychusHeroicAbilityCommandeerOdin|TychusCommandeerOdin|Heroic|Level10",
+        "talentId": "TychusHeroicAbilityCommandeerOdin",
+        "buttonId": "TychusCommandeerOdin",
+        "abilityId": "TychusOdinNoHealth",
+        "icon": "storm_ui_icon_tychus_commandeerodin.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "TychusHeroicAbilityDrakkenLaserDrill|TychusDrakkenLaserDrill|Heroic|Level10",
+        "talentId": "TychusHeroicAbilityDrakkenLaserDrill",
+        "buttonId": "TychusDrakkenLaserDrill",
+        "abilityId": "TychusDrakkenLaserDrill",
+        "icon": "storm_ui_icon_tychus_drakkinlaserdrill.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "TychusMasterySprayNPray|TychusOverkillSprayNPrayTalent|Q|Level13",
+        "talentId": "TychusMasterySprayNPray",
+        "buttonId": "TychusOverkillSprayNPrayTalent",
+        "abilityId": "TychusOverkillTargeted",
+        "icon": "storm_ui_icon_tychus_overkill.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "TychusOverkillTargeted|TychusOverkill|Q"
+        ]
+      },
+      {
+        "linkId": "TychusThatsTheStuff|TychusThatsTheStuff|Trait|Level13",
+        "talentId": "TychusThatsTheStuff",
+        "buttonId": "TychusThatsTheStuff",
+        "abilityId": "TychusMinigunActive",
+        "icon": "storm_ui_icon_tychus_minigun.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|TychusMinigun|Trait",
+          "TychusMinigunActive|TychusMinigunActive|Trait"
+        ]
+      },
+      {
+        "linkId": "TychusNeosteelCoating|TychusNeosteelCoatingTalent|Active|Level13",
+        "talentId": "TychusNeosteelCoating",
+        "buttonId": "TychusNeosteelCoatingTalent",
+        "abilityId": "TychusNeosteelCoating",
+        "icon": "storm_temp_btn-upgrade-terran-neosteelframe.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "TychusMasteryOverkillArmorPiercingRounds|TychusOverkillArmorPiercingRoundsTalent|Q|Level16",
+        "talentId": "TychusMasteryOverkillArmorPiercingRounds",
+        "buttonId": "TychusOverkillArmorPiercingRoundsTalent",
+        "abilityId": "TychusOverkillTargeted",
+        "icon": "storm_ui_icon_tychus_overkill.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "TychusOverkillTargeted|TychusOverkill|Q"
+        ]
+      },
+      {
+        "linkId": "TychusMasteryFragGrenadeTitanGrenade|TychusFragGrenadeTitanGrenadeTalent|W|Level16",
+        "talentId": "TychusMasteryFragGrenadeTitanGrenade",
+        "buttonId": "TychusFragGrenadeTitanGrenadeTalent",
+        "abilityId": "TychusGrenade",
+        "icon": "storm_ui_icon_tychus_fraggrenade.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "TychusGrenade|TychusFragGrenade|W"
+        ]
+      },
+      {
+        "linkId": "TychusSizzlinAttacks|TychusSizzlinAttacks|Trait|Level16",
+        "talentId": "TychusSizzlinAttacks",
+        "buttonId": "TychusSizzlinAttacks",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_searing.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|TychusMinigun|Trait",
+          "TychusMinigunActive|TychusMinigunActive|Trait"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "TychusMasteryOdinBigRedButton|TychusCommandeerOdinBigRedButtonTalent|Heroic|Level20",
+        "talentId": "TychusMasteryOdinBigRedButton",
+        "buttonId": "TychusCommandeerOdinBigRedButtonTalent",
+        "abilityId": "TychusOdinNoHealth",
+        "icon": "storm_ui_icon_tychus_commandeerodin.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "TychusOdinRagnarokMissilesTargeted|TychusCommandeerOdinRagnarokMissilesTargeted|W",
+          "TychusOdinNoHealth|TychusCommandeerOdin|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "TychusHeroicAbilityCommandeerOdin"
+        ]
+      },
+      {
+        "linkId": "TychusMasteryDrakkenLaserFocusingDiodes|TychusDrakkenLaserFocusingDiodesTalent|Heroic|Level20",
+        "talentId": "TychusMasteryDrakkenLaserFocusingDiodes",
+        "buttonId": "TychusDrakkenLaserFocusingDiodesTalent",
+        "abilityId": "TychusDrakkenLaserDrill",
+        "icon": "storm_ui_icon_tychus_drakkinlaserdrill.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "TychusDrakkenLaserDrill|TychusDrakkenLaserDrill|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "TychusHeroicAbilityDrakkenLaserDrill"
+        ]
+      },
+      {
+        "linkId": "TychusCanDoThisAllDayOverkillTalent|TychusOverkillCanDoThisAllDayTalent|Q|Level20",
+        "talentId": "TychusCanDoThisAllDayOverkillTalent",
+        "buttonId": "TychusOverkillCanDoThisAllDayTalent",
+        "abilityId": "TychusOverkillTargeted",
+        "icon": "storm_ui_icon_tychus_overkill.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "TychusOverkillTargeted|TychusOverkill|Q"
+        ]
+      },
+      {
+        "linkId": "TychusRunAndGunBobAndWeave|TychusRunAndGunBobAndWeaveTalent|E|Level20",
+        "talentId": "TychusRunAndGunBobAndWeave",
+        "buttonId": "TychusRunAndGunBobAndWeaveTalent",
+        "abilityId": "TychusRunAndGun",
+        "icon": "storm_ui_icon_tychus_runandgun.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          "TychusOdinThrusters|TychusOdinThrusters|E",
+          "TychusRunAndGun|TychusRunandGun|E",
+          "TychusRunAndGunOverkill|TychusRunandGun|E"
+        ]
+      }
+    ]
+  },
+  "sheets": {
+    "abilities": {
+      "sheet": "sheets/Tychus/abilities.webp",
+      "icons": {
+        "storm_ui_icon_tychus_overkill.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_tychus_fraggrenade.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_tychus_runandgun.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_tychus_drakkinlaserdrill.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_tychus_commandeerodin.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_tychus_minigun.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          78,
+          520,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          338,
+          390,
+          111,
+          71
+        ],
+        "storm_ui_icon_tychus_overkill_target.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_tychus_laserdrillissueorder.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_tychus_annihilate.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_tychus_ragnarokmissiles.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_tychus_thrusters.png": [
+          130,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          0,
+          520,
+          76,
+          48
+        ],
+        "storm_temp_btn-upgrade-terran-neosteelframe.png": [
+          260,
+          390,
+          76,
+          76
+        ]
+      }
+    },
+    "talents": {
+      "sheet": "sheets/Tychus/talents.webp",
+      "icons": {
+        "storm_ui_icon_tychus_fraggrenade.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_tychus_runandgun.png": [
+          130,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_range.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_tychus_minigun.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_tychus_minigun_a.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_speed.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_relentless.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_tychus_commandeerodin.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_tychus_drakkinlaserdrill.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_tychus_overkill.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_temp_btn-upgrade-terran-neosteelframe.png": [
+          260,
+          390,
+          76,
+          76
+        ],
+        "storm_ui_icon_talent_autoattack_searing.png": [
+          130,
+          0,
+          128,
+          128
+        ]
+      }
+    },
+    "hero": {
+      "sheet": "sheets/Tychus/hero.webp",
+      "icons": {
+        "storm_ui_icon_tychus_overkill.png": [
+          130,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_tychus_fraggrenade.png": [
+          0,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_tychus_runandgun.png": [
+          390,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_tychus_drakkinlaserdrill.png": [
+          390,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_tychus_commandeerodin.png": [
+          260,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_tychus_minigun.png": [
+          390,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          258,
+          734,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          302,
+          604,
+          111,
+          71
+        ],
+        "storm_ui_icon_tychus_overkill_target.png": [
+          0,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_tychus_laserdrillissueorder.png": [
+          130,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_tychus_annihilate.png": [
+          130,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_tychus_ragnarokmissiles.png": [
+          260,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_tychus_thrusters.png": [
+          0,
+          604,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          180,
+          734,
+          76,
+          48
+        ],
+        "storm_temp_btn-upgrade-terran-neosteelframe.png": [
+          224,
+          604,
+          76,
+          76
+        ],
+        "storm_ui_icon_talent_autoattack_range.png": [
+          182,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_tychus_minigun_a.png": [
+          260,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_speed.png": [
+          442,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_relentless.png": [
+          0,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_searing.png": [
+          312,
+          0,
+          128,
+          128
+        ]
+      },
+      "portraits": {
+        "draftScreen": [
+          0,
+          0,
+          180,
+          212
+        ],
+        "minimap": [
+          336,
+          734,
+          32,
+          32
+        ],
+        "partyPanel": [
+          0,
+          734,
+          178,
+          56
+        ],
+        "target": [
+          130,
+          604,
+          92,
+          93
+        ],
+        "targetInfo": [
+          415,
+          604,
+          128,
+          56
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,749 @@
+{
+  "id": "Falstad",
+  "unitId": "HeroFalstad",
+  "hyperlinkId": "Falstad",
+  "attributeId": "Fals",
+  "franchise": "Warcraft",
+  "rarity": "Epic",
+  "releaseDate": "2014-03-13",
+  "isMelee": false,
+  "gender": "Male",
+  "radius": 0.8125,
+  "innerRadius": 0.8125,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "ratings": {
+    "complexity": 5,
+    "damage": 8,
+    "survivability": 4,
+    "utility": 4
+  },
+  "life": {
+    "amount": 1365,
+    "scale": 0.04,
+    "regenRate": 2.8437,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "EnergyImportant",
+    "Escaper",
+    "Ganker",
+    "RoleAutoAttacker",
+    "RoleCaster"
+  ],
+  "weapons": [
+    {
+      "nameId": "HeroFalstad",
+      "isDisabled": false,
+      "range": 5.5,
+      "minimumRange": 0,
+      "period": 0.7,
+      "damage": 104,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "FalstadPirate",
+    "FalstadStormLord",
+    "FalstadUltimate"
+  ],
+  "variationSkinIds": [
+    "FalstadBaseVar3",
+    "FalstadDarkIron",
+    "FalstadNordic"
+  ],
+  "voiceLineIds": [
+    "FalstadBase_VoiceLine01",
+    "FalstadBase_VoiceLine02",
+    "FalstadBase_VoiceLine03",
+    "FalstadBase_VoiceLine04",
+    "FalstadBase_VoiceLine05"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "FalstadHammerang|FalstadHammerang|Q",
+        "abilityId": "FalstadHammerang",
+        "buttonId": "FalstadHammerang",
+        "icon": "storm_ui_icon_falstad_hammerang.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "FalstadLightningRod|FalstadLightningRod|W",
+        "abilityId": "FalstadLightningRod",
+        "buttonId": "FalstadLightningRod",
+        "icon": "storm_ui_icon_falstad_lightningrod.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "FalstadBarrelRoll|FalstadBarrelRoll|E",
+        "abilityId": "FalstadBarrelRoll",
+        "buttonId": "FalstadBarrelRoll",
+        "icon": "storm_ui_icon_falstad_barrelroll.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "FalstadMightyGust|FalstadMightyGust|Heroic",
+        "abilityId": "FalstadMightyGust",
+        "buttonId": "FalstadMightyGust",
+        "icon": "storm_ui_icon_falstad_mightygust.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "FalstadHinterlandBlast|FalstadHinterlandBlast|Heroic",
+        "abilityId": "FalstadHinterlandBlast",
+        "buttonId": "FalstadHinterlandBlast",
+        "icon": "storm_ui_icon_falstad_hinterlandblast.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": "FalstadTailwindCooldownDisplay|FalstadTailwind|Trait",
+        "abilityId": "FalstadTailwindCooldownDisplay",
+        "buttonId": "FalstadTailwind",
+        "icon": "storm_ui_icon_falstad_tailwind.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "FalstadFlight|FalstadFlight|Z",
+        "abilityId": "FalstadFlight",
+        "buttonId": "FalstadFlight",
+        "icon": "storm_ui_icon_falstad_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "FalstadHammerang|FalstadHammerang|Q": {
+      "Basic": [
+        {
+          "linkId": "FalstadBOOMerang|FalstadHammerangBOOMerangActive|Q",
+          "abilityId": "FalstadBOOMerang",
+          "buttonId": "FalstadHammerangBOOMerangActive",
+          "icon": "storm_ui_icon_falstad_boomerang.png",
+          "abilityType": "Q"
+        }
+      ]
+    },
+    "FalstadTailwindFrequentFlyer|FalstadTailwindFrequentFlyer|Active|Level1": {
+      "Activable": [
+        {
+          "linkId": "FalstadFrequentFlyerActive|FalstadTailwindFrequentFlyerActive|Active",
+          "abilityId": "FalstadFrequentFlyerActive",
+          "buttonId": "FalstadTailwindFrequentFlyerActive",
+          "icon": "storm_ui_icon_falstad_tailwind_a.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "FalstadHammerangGatheringStorm|FalstadGatheringStormTalent|Q|Level1",
+        "talentId": "FalstadHammerangGatheringStorm",
+        "buttonId": "FalstadGatheringStormTalent",
+        "abilityId": "FalstadHammerang",
+        "icon": "storm_ui_icon_falstad_hammerang.png",
+        "abilityType": "Q",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "FalstadHammerang|FalstadHammerang|Q"
+        ]
+      },
+      {
+        "linkId": "FalstadLightningRodDishonorableDischarge|FalstadLightningRodDishonorableDischarge|W|Level1",
+        "talentId": "FalstadLightningRodDishonorableDischarge",
+        "buttonId": "FalstadLightningRodDishonorableDischarge",
+        "abilityId": "FalstadLightningRod",
+        "icon": "storm_ui_icon_falstad_lightningrod.png",
+        "abilityType": "W",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "FalstadLightningRod|FalstadLightningRod|W"
+        ]
+      },
+      {
+        "linkId": "FalstadTailwindFrequentFlyer|FalstadTailwindFrequentFlyer|Active|Level1",
+        "talentId": "FalstadTailwindFrequentFlyer",
+        "buttonId": "FalstadTailwindFrequentFlyer",
+        "abilityId": "FalstadFrequentFlyerActive",
+        "icon": "storm_ui_icon_falstad_tailwind_a.png",
+        "abilityType": "Active",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "FalstadMasteryLightningRodStaticShield|FalstadStaticShieldTalent|W|Level4",
+        "talentId": "FalstadMasteryLightningRodStaticShield",
+        "buttonId": "FalstadStaticShieldTalent",
+        "abilityId": "FalstadLightningRod",
+        "icon": "storm_ui_icon_falstad_lightningrod.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "FalstadLightningRod|FalstadLightningRod|W"
+        ]
+      },
+      {
+        "linkId": "FalstadMasteryUpdraftBarrelRoll|FalstadBarrelRollUpdraftTalent|E|Level4",
+        "talentId": "FalstadMasteryUpdraftBarrelRoll",
+        "buttonId": "FalstadBarrelRollUpdraftTalent",
+        "abilityId": "FalstadBarrelRoll",
+        "icon": "storm_ui_icon_falstad_barrelroll.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "FalstadBarrelRoll|FalstadBarrelRoll|E"
+        ]
+      },
+      {
+        "linkId": "FalstadTalentHammerGains|FalstadHammerGainsTalent|Passive|Level4",
+        "talentId": "FalstadTalentHammerGains",
+        "buttonId": "FalstadHammerGainsTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_heal.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "FalstadTailwindCooldownDisplay|FalstadTailwind|Trait"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "FalstadMasteryHammerangSecretWeapon|FalstadSecretWeaponTalent|Q|Level7",
+        "talentId": "FalstadMasteryHammerangSecretWeapon",
+        "buttonId": "FalstadSecretWeaponTalent",
+        "abilityId": "FalstadHammerang",
+        "icon": "storm_ui_icon_falstad_hammerang.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "FalstadHammerang|FalstadHammerang|Q"
+        ]
+      },
+      {
+        "linkId": "FalstadHammerangBOOMerang|FalstadHammerangBOOMerangTalent|Q|Level7",
+        "talentId": "FalstadHammerangBOOMerang",
+        "buttonId": "FalstadHammerangBOOMerangTalent",
+        "abilityId": "FalstadHammerang",
+        "icon": "storm_ui_icon_falstad_hammerang_a.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "FalstadHammerang|FalstadHammerang|Q"
+        ]
+      },
+      {
+        "linkId": "FalstadMasteryLightningRodThunderstrikes|FalstadThunderstrikesTalent|W|Level7",
+        "talentId": "FalstadMasteryLightningRodThunderstrikes",
+        "buttonId": "FalstadThunderstrikesTalent",
+        "abilityId": "FalstadLightningRod",
+        "icon": "storm_ui_icon_falstad_lightningrod.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "FalstadLightningRod|FalstadLightningRod|W"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "FalstadHeroicAbilityHinterlandBlast|FalstadHinterlandBlast|Heroic|Level10",
+        "talentId": "FalstadHeroicAbilityHinterlandBlast",
+        "buttonId": "FalstadHinterlandBlast",
+        "abilityId": "FalstadHinterlandBlast",
+        "icon": "storm_ui_icon_falstad_hinterlandblast.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "FalstadHeroicAbilityMightyGust|FalstadMightyGust|Heroic|Level10",
+        "talentId": "FalstadHeroicAbilityMightyGust",
+        "buttonId": "FalstadMightyGust",
+        "abilityId": "FalstadMightyGust",
+        "icon": "storm_ui_icon_falstad_mightygust.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "FalstadMasteryLightningRodChargedUp|FalstadChargedUpTalent|W|Level13",
+        "talentId": "FalstadMasteryLightningRodChargedUp",
+        "buttonId": "FalstadChargedUpTalent",
+        "abilityId": "FalstadLightningRod",
+        "icon": "storm_ui_icon_falstad_lightningrod.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "FalstadLightningRod|FalstadLightningRod|W"
+        ]
+      },
+      {
+        "linkId": "FalstadMasteryBarrelRollFlowRider|FalstadFlowRiderTalent|Trait|Level13",
+        "talentId": "FalstadMasteryBarrelRollFlowRider",
+        "buttonId": "FalstadFlowRiderTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_falstad_tailwind.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "FalstadTailwindCooldownDisplay|FalstadTailwind|Trait"
+        ]
+      },
+      {
+        "linkId": "FalstadTailwindSustainedWinds|FalstadTailwindSustainedWinds|Trait|Level13",
+        "talentId": "FalstadTailwindSustainedWinds",
+        "buttonId": "FalstadTailwindSustainedWinds",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_falstad_tailwind_a.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "FalstadTailwindCooldownDisplay|FalstadTailwind|Trait"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "FalstadMasteryCripplingHammerHammerang|FalstadHammerangCripplingHammerTalent|Q|Level16",
+        "talentId": "FalstadMasteryCripplingHammerHammerang",
+        "buttonId": "FalstadHammerangCripplingHammerTalent",
+        "abilityId": "FalstadHammerang",
+        "icon": "storm_ui_icon_falstad_hammerang.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "FalstadHammerang|FalstadHammerang|Q"
+        ]
+      },
+      {
+        "linkId": "FalstadMasteryAerieGustsTailwind|FalstadTailwindAerieGustsTalent|Trait|Level16",
+        "talentId": "FalstadMasteryAerieGustsTailwind",
+        "buttonId": "FalstadTailwindAerieGustsTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_falstad_tailwind.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "FalstadTailwindCooldownDisplay|FalstadTailwind|Trait"
+        ]
+      },
+      {
+        "linkId": "FalstadMasteryAfterburner|FalstadBarrelRollAfterburnerTalent|E|Level16",
+        "talentId": "FalstadMasteryAfterburner",
+        "buttonId": "FalstadBarrelRollAfterburnerTalent",
+        "abilityId": "FalstadBarrelRoll",
+        "icon": "storm_ui_icon_falstad_barrelroll.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "FalstadBarrelRoll|FalstadBarrelRoll|E"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "FalstadMasteryCalloftheWildhammerHinterlandBlast|FalstadHinterlandBlastCalloftheWildhammerTalent|Heroic|Level20",
+        "talentId": "FalstadMasteryCalloftheWildhammerHinterlandBlast",
+        "buttonId": "FalstadHinterlandBlastCalloftheWildhammerTalent",
+        "abilityId": "FalstadHinterlandBlast",
+        "icon": "storm_ui_icon_falstad_hinterlandblast.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "FalstadHinterlandBlast|FalstadHinterlandBlast|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "FalstadHeroicAbilityHinterlandBlast"
+        ]
+      },
+      {
+        "linkId": "FalstadMasteryMightyGustWindTunnel|FalstadWindTunnelTalent|Heroic|Level20",
+        "talentId": "FalstadMasteryMightyGustWindTunnel",
+        "buttonId": "FalstadWindTunnelTalent",
+        "abilityId": "FalstadMightyGust",
+        "icon": "storm_ui_icon_falstad_mightygust.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "FalstadMightyGust|FalstadMightyGust|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "FalstadHeroicAbilityMightyGust"
+        ]
+      },
+      {
+        "linkId": "GenericTalentNexusFrenzy|NexusFrenzyTalent|Passive|Level20",
+        "talentId": "GenericTalentNexusFrenzy",
+        "buttonId": "NexusFrenzyTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_range.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      },
+      {
+        "linkId": "FalstadMasteryFlightEpicMount|FalstadEpicMountTalent|Z|Level20",
+        "talentId": "FalstadMasteryFlightEpicMount",
+        "buttonId": "FalstadEpicMountTalent",
+        "abilityId": "FalstadFlight",
+        "icon": "storm_ui_icon_falstad_epicmount.png",
+        "abilityType": "Z",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          "FalstadFlight|FalstadFlight|Z"
+        ]
+      }
+    ]
+  },
+  "sheets": {
+    "abilities": {
+      "sheet": "sheets/Falstad/abilities.webp",
+      "icons": {
+        "storm_ui_icon_falstad_hammerang.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_falstad_lightningrod.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_falstad_barrelroll.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_falstad_mightygust.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_falstad_hinterlandblast.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_falstad_tailwind.png": [
+          130,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_falstad_mount.png": [
+          0,
+          520,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          260,
+          390,
+          111,
+          71
+        ],
+        "storm_ui_icon_falstad_boomerang.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_falstad_tailwind_a.png": [
+          0,
+          390,
+          128,
+          128
+        ]
+      }
+    },
+    "talents": {
+      "sheet": "sheets/Falstad/talents.webp",
+      "icons": {
+        "storm_ui_icon_falstad_hammerang.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_falstad_lightningrod.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_falstad_tailwind_a.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_falstad_barrelroll.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_heal.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_falstad_hammerang_a.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_falstad_hinterlandblast.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_falstad_mightygust.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_falstad_tailwind.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_range.png": [
+          130,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_falstad_epicmount.png": [
+          130,
+          0,
+          128,
+          128
+        ]
+      }
+    },
+    "hero": {
+      "sheet": "sheets/Falstad/hero.webp",
+      "icons": {
+        "storm_ui_icon_falstad_hammerang.png": [
+          260,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_falstad_lightningrod.png": [
+          0,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_falstad_barrelroll.png": [
+          182,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_falstad_mightygust.png": [
+          130,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_falstad_hinterlandblast.png": [
+          390,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_falstad_tailwind.png": [
+          390,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_falstad_mount.png": [
+          310,
+          604,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          354,
+          474,
+          111,
+          71
+        ],
+        "storm_ui_icon_falstad_boomerang.png": [
+          312,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_falstad_tailwind_a.png": [
+          260,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_heal.png": [
+          0,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_falstad_hammerang_a.png": [
+          130,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_range.png": [
+          130,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_falstad_epicmount.png": [
+          0,
+          214,
+          128,
+          128
+        ]
+      },
+      "portraits": {
+        "draftScreen": [
+          0,
+          0,
+          180,
+          212
+        ],
+        "minimap": [
+          388,
+          604,
+          32,
+          32
+        ],
+        "partyPanel": [
+          130,
+          604,
+          178,
+          56
+        ],
+        "target": [
+          260,
+          474,
+          92,
+          93
+        ],
+        "targetInfo": [
+          0,
+          604,
+          128,
+          56
+        ]
+      }
+    }
+  }
+}

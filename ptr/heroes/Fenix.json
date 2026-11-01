@@ -1,0 +1,841 @@
+{
+  "id": "Fenix",
+  "unitId": "HeroFenix",
+  "hyperlinkId": "Fenix",
+  "attributeId": "FENX",
+  "franchise": "Starcraft",
+  "rarity": "Legendary",
+  "releaseDate": "2018-03-27",
+  "isMelee": false,
+  "gender": "Male",
+  "radius": 1.0625,
+  "innerRadius": 0.9375,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "MountFenixBase",
+  "ratings": {
+    "complexity": 5,
+    "damage": 9,
+    "survivability": 5,
+    "utility": 4
+  },
+  "life": {
+    "amount": 1140,
+    "scale": 0.04,
+    "regenRate": 2.379,
+    "regenScale": 0.04
+  },
+  "shield": {
+    "amount": 760,
+    "scale": 0.04,
+    "regenRate": 76,
+    "regenScale": 0.04,
+    "regenDelay": 5
+  },
+  "playstyles": [
+    "Escaper",
+    "Ganker",
+    "RoleAutoAttacker",
+    "WaveClearer"
+  ],
+  "weapons": [
+    {
+      "nameId": "FenixHeroWeapon",
+      "isDisabled": false,
+      "range": 5,
+      "minimumRange": 0,
+      "period": 1.35,
+      "damage": 83,
+      "damageScale": 0.04
+    },
+    {
+      "nameId": "FenixPhaseBombWeapon",
+      "isDisabled": true,
+      "range": 5,
+      "minimumRange": 0,
+      "period": 1.35,
+      "damage": 103.75,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "FenixDark20",
+    "FenixGuardian"
+  ],
+  "variationSkinIds": [
+    "FenixBaseVar1",
+    "FenixBaseVar2",
+    "FenixBaseVar3",
+    "FenixBaseVar4",
+    "FenixBaseVar5"
+  ],
+  "voiceLineIds": [
+    "FenixBase_VoiceLine01",
+    "FenixBase_VoiceLine02",
+    "FenixBase_VoiceLine03",
+    "FenixBase_VoiceLine04",
+    "FenixBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "MountFenixBase",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "FenixPlasmaCutter|FenixPlasmaCutter|Q",
+        "abilityId": "FenixPlasmaCutter",
+        "buttonId": "FenixPlasmaCutter",
+        "icon": "storm_ui_icon_fenix_q.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "FenixPhaseBomb|FenixPhaseBomb|W",
+        "abilityId": "FenixPhaseBomb",
+        "buttonId": "FenixPhaseBomb",
+        "icon": "storm_ui_icon_fenix_w_2.png",
+        "toggleCooldown": 0.5,
+        "abilityType": "W"
+      },
+      {
+        "linkId": "FenixWarp|FenixWarp|E",
+        "abilityId": "FenixWarp",
+        "buttonId": "FenixWarp",
+        "icon": "storm_ui_icon_fenix_teleport.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "FenixPlanetCracker|FenixPlanetCracker|Heroic",
+        "abilityId": "FenixPlanetCracker",
+        "buttonId": "FenixPlanetCracker",
+        "icon": "storm_ui_icon_fenix_r_planet_cracker.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "FenixPurificationSalvo|FenixPurificationSalvo|Heroic",
+        "abilityId": "FenixPurificationSalvo",
+        "buttonId": "FenixPurificationSalvo",
+        "icon": "storm_ui_icon_fenix_r_scan.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": ":PASSIVE:|FenixShieldCapacitor|Trait",
+        "abilityId": ":PASSIVE:",
+        "buttonId": "FenixShieldCapacitor",
+        "icon": "storm_ui_icon_fenix_shield_1.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "FenixPhaseBomb|FenixPhaseBomb|W": {
+      "Basic": [
+        {
+          "linkId": "FenixRepeaterCannon|FenixRepeaterCannon|W",
+          "abilityId": "FenixRepeaterCannon",
+          "buttonId": "FenixRepeaterCannon",
+          "icon": "storm_ui_icon_fenix_w_1.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "W"
+        }
+      ]
+    },
+    "FenixPlanetCracker|FenixPlanetCracker|Heroic": {
+      "Heroic": [
+        {
+          "linkId": "FenixPlanetCrackerCancel|FenixPlanetCrackerCancel|Heroic",
+          "abilityId": "FenixPlanetCrackerCancel",
+          "buttonId": "FenixPlanetCrackerCancel",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "abilityType": "Heroic"
+        }
+      ]
+    },
+    ":PASSIVE:|FenixShieldCapacitor|Trait": {
+      "Trait": [
+        {
+          "linkId": "FenixShieldCapacitorVisual|FenixShieldCapacitor|Trait",
+          "abilityId": "FenixShieldCapacitorVisual",
+          "buttonId": "FenixShieldCapacitor",
+          "icon": "storm_ui_icon_fenix_shield_1.png",
+          "abilityType": "Trait"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "FenixDivertPowerWeaponsTalent|FenixDivertPowerWeapons|Active|Level7": {
+      "Activable": [
+        {
+          "linkId": "FenixDivertPowerWeapons|FenixDivertPowerWeapons|Active",
+          "abilityId": "FenixDivertPowerWeapons",
+          "buttonId": "FenixDivertPowerWeapons",
+          "icon": "storm_ui_icon_fenix_w_2.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "FenixUnconqueredSpirit|FenixUnconqueredSpirit|Passive|Level20": {
+      "Activable": [
+        {
+          "linkId": "FenixUnconqueredSpirit|FenixUnconqueredSpirit|Passive",
+          "abilityId": "FenixUnconqueredSpirit",
+          "buttonId": "FenixUnconqueredSpirit",
+          "icon": "storm_ui_icon_fenix_shield_1.png",
+          "abilityType": "Passive"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "FenixAdvancedTargeting|FenixAdvancedTargeting|Q|Level1",
+        "talentId": "FenixAdvancedTargeting",
+        "buttonId": "FenixAdvancedTargeting",
+        "abilityId": "FenixPlasmaCutter",
+        "icon": "storm_ui_icon_fenix_q.png",
+        "abilityType": "Q",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "FenixPlasmaCutter|FenixPlasmaCutter|Q"
+        ]
+      },
+      {
+        "linkId": "FenixArsenalSynergy|FenixArsenalSynergy|W|Level1",
+        "talentId": "FenixArsenalSynergy",
+        "buttonId": "FenixArsenalSynergy",
+        "abilityId": "FenixPhaseBomb",
+        "icon": "storm_ui_icon_fenix_w_1.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "FenixPhaseBomb|FenixPhaseBomb|W",
+          "FenixRepeaterCannon|FenixRepeaterCannon|W"
+        ]
+      },
+      {
+        "linkId": "FenixMobileOffense|FenixMobileOffense|W|Level1",
+        "talentId": "FenixMobileOffense",
+        "buttonId": "FenixMobileOffense",
+        "abilityId": "FenixRepeaterCannon",
+        "icon": "storm_ui_icon_fenix_w_2.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "FenixPhaseBomb|FenixPhaseBomb|W",
+          "FenixRepeaterCannon|FenixRepeaterCannon|W"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "FenixTargetAcquired|FenixTargetAcquired|W|Level4",
+        "talentId": "FenixTargetAcquired",
+        "buttonId": "FenixTargetAcquired",
+        "abilityId": "FenixRepeaterCannon",
+        "icon": "storm_ui_icon_fenix_w_2.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "FenixPhaseBomb|FenixPhaseBomb|W"
+        ]
+      },
+      {
+        "linkId": "FenixInhibitingEnergy|FenixInhibitingEnergy|W|Level4",
+        "talentId": "FenixInhibitingEnergy",
+        "buttonId": "FenixInhibitingEnergy",
+        "abilityId": "FenixPhaseBomb",
+        "icon": "storm_ui_icon_fenix_w_1.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "FenixRepeaterCannon|FenixRepeaterCannon|W"
+        ]
+      },
+      {
+        "linkId": "FenixEmergencyProtocol|FenixEmergencyProtocol|Trait|Level4",
+        "talentId": "FenixEmergencyProtocol",
+        "buttonId": "FenixEmergencyProtocol",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_fenix_shield_1.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|FenixShieldCapacitor|Trait",
+          "FenixShieldCapacitorVisual|FenixShieldCapacitor|Trait"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "FenixCombatAdvantage|FenixCombatAdvantage|Q|Level7",
+        "talentId": "FenixCombatAdvantage",
+        "buttonId": "FenixCombatAdvantage",
+        "abilityId": "FenixPlasmaCutter",
+        "icon": "storm_ui_icon_fenix_q.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "FenixPlasmaCutter|FenixPlasmaCutter|Q"
+        ]
+      },
+      {
+        "linkId": "FenixWarpWarfare|FenixWarpWarfare|E|Level7",
+        "talentId": "FenixWarpWarfare",
+        "buttonId": "FenixWarpWarfare",
+        "abilityId": "FenixWarp",
+        "icon": "storm_ui_icon_fenix_teleport.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "FenixWarp|FenixWarp|E"
+        ]
+      },
+      {
+        "linkId": "FenixDivertPowerWeaponsTalent|FenixDivertPowerWeapons|Active|Level7",
+        "talentId": "FenixDivertPowerWeaponsTalent",
+        "buttonId": "FenixDivertPowerWeapons",
+        "abilityId": "FenixDivertPowerWeapons",
+        "icon": "storm_ui_icon_fenix_w_2.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|FenixShieldCapacitor|Trait",
+          "FenixShieldCapacitorVisual|FenixShieldCapacitor|Trait"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "FenixHeroicAbilityPurificationSalvo|FenixPurificationSalvo|Heroic|Level10",
+        "talentId": "FenixHeroicAbilityPurificationSalvo",
+        "buttonId": "FenixPurificationSalvo",
+        "abilityId": "FenixPurificationSalvo",
+        "icon": "storm_ui_icon_fenix_r_scan.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "FenixHeroicAbilityPlanetCracker|FenixPlanetCracker|Heroic|Level10",
+        "talentId": "FenixHeroicAbilityPlanetCracker",
+        "buttonId": "FenixPlanetCracker",
+        "abilityId": "FenixPlanetCracker",
+        "icon": "storm_ui_icon_fenix_r_planet_cracker.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "FenixAdaniumShell|FenixAdaniumShell|E|Level13",
+        "talentId": "FenixAdaniumShell",
+        "buttonId": "FenixAdaniumShell",
+        "abilityId": "FenixWarp",
+        "icon": "storm_ui_icon_fenix_teleport.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "FenixWarp|FenixWarp|E"
+        ]
+      },
+      {
+        "linkId": "FenixDampeningField|FenixDampeningField|Trait|Level13",
+        "talentId": "FenixDampeningField",
+        "buttonId": "FenixDampeningField",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_fenix_shield_1.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|FenixShieldCapacitor|Trait",
+          "FenixShieldCapacitorVisual|FenixShieldCapacitor|Trait"
+        ]
+      },
+      {
+        "linkId": "FenixRapidRecharge|FenixRapidRecharge|Trait|Level13",
+        "talentId": "FenixRapidRecharge",
+        "buttonId": "FenixRapidRecharge",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_fenix_shield_3.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|FenixShieldCapacitor|Trait",
+          "FenixShieldCapacitorVisual|FenixShieldCapacitor|Trait"
+        ]
+      },
+      {
+        "linkId": "FenixAuxiliaryShields|FenixAuxiliaryShields|Trait|Level13",
+        "talentId": "FenixAuxiliaryShields",
+        "buttonId": "FenixAuxiliaryShields",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_fenix_shield_2.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|FenixShieldCapacitor|Trait",
+          "FenixShieldCapacitorVisual|FenixShieldCapacitor|Trait"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "FenixOffensiveCadence|FenixOffensiveCadence|W|Level16",
+        "talentId": "FenixOffensiveCadence",
+        "buttonId": "FenixOffensiveCadence",
+        "abilityId": "FenixRepeaterCannon",
+        "icon": "storm_ui_icon_fenix_w_2.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "FenixPhaseBomb|FenixPhaseBomb|W"
+        ]
+      },
+      {
+        "linkId": "FenixPhotonicWeaponry|FenixPhotonicWeaponry|Trait|Level16",
+        "talentId": "FenixPhotonicWeaponry",
+        "buttonId": "FenixPhotonicWeaponry",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_fenix_shield_1.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|FenixShieldCapacitor|Trait",
+          "FenixShieldCapacitorVisual|FenixShieldCapacitor|Trait"
+        ]
+      },
+      {
+        "linkId": "FenixArsenalOvercharge|FenixArsenalOvercharge|Passive|Level16",
+        "talentId": "FenixArsenalOvercharge",
+        "buttonId": "FenixArsenalOvercharge",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_cooldown.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "FenixPhaseBomb|FenixPhaseBomb|W",
+          "FenixRepeaterCannon|FenixRepeaterCannon|W"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "FenixArmageddonBeam|FenixArmageddonBeam|Heroic|Level20",
+        "talentId": "FenixArmageddonBeam",
+        "buttonId": "FenixArmageddonBeam",
+        "abilityId": "FenixPlanetCracker",
+        "icon": "storm_ui_icon_fenix_r_planet_cracker.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "FenixPlanetCracker|FenixPlanetCracker|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "FenixHeroicAbilityPlanetCracker"
+        ]
+      },
+      {
+        "linkId": "FenixSecondaryFire|FenixSecondaryFire|Q|Level20",
+        "talentId": "FenixSecondaryFire",
+        "buttonId": "FenixSecondaryFire",
+        "abilityId": "FenixPlasmaCutter",
+        "icon": "storm_ui_icon_fenix_q.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "FenixPlasmaCutter|FenixPlasmaCutter|Q"
+        ]
+      },
+      {
+        "linkId": "FenixSingularityCharge|FenixSingularityCharge|W|Level20",
+        "talentId": "FenixSingularityCharge",
+        "buttonId": "FenixSingularityCharge",
+        "abilityId": "FenixRepeaterCannon",
+        "icon": "storm_ui_icon_fenix_w_2.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "FenixPhaseBomb|FenixPhaseBomb|W",
+          "FenixRepeaterCannon|FenixRepeaterCannon|W"
+        ]
+      },
+      {
+        "linkId": "FenixUnconqueredSpirit|FenixUnconqueredSpirit|Passive|Level20",
+        "talentId": "FenixUnconqueredSpirit",
+        "buttonId": "FenixUnconqueredSpirit",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_fenix_shield_1.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|FenixShieldCapacitor|Trait",
+          "FenixShieldCapacitorVisual|FenixShieldCapacitor|Trait"
+        ]
+      }
+    ]
+  },
+  "sheets": {
+    "abilities": {
+      "sheet": "sheets/Fenix/abilities.webp",
+      "icons": {
+        "storm_ui_icon_fenix_q.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_fenix_w_2.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_fenix_teleport.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_fenix_r_planet_cracker.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_fenix_r_scan.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_fenix_shield_1.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          78,
+          520,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          229,
+          390,
+          111,
+          71
+        ],
+        "storm_ui_icon_fenix_w_1.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "hud_btn_bg_ability_cancel.png": [
+          130,
+          390,
+          97,
+          111
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          0,
+          520,
+          76,
+          48
+        ]
+      }
+    },
+    "talents": {
+      "sheet": "sheets/Fenix/talents.webp",
+      "icons": {
+        "storm_ui_icon_fenix_q.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_fenix_w_1.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_fenix_w_2.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_fenix_shield_1.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_fenix_teleport.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_fenix_r_scan.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_fenix_r_planet_cracker.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_fenix_shield_3.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_fenix_shield_2.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_cooldown.png": [
+          0,
+          390,
+          128,
+          128
+        ]
+      }
+    },
+    "hero": {
+      "sheet": "sheets/Fenix/hero.webp",
+      "icons": {
+        "storm_ui_icon_fenix_q.png": [
+          182,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_fenix_w_2.png": [
+          0,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_fenix_teleport.png": [
+          130,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_fenix_r_planet_cracker.png": [
+          312,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_fenix_r_scan.png": [
+          0,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_fenix_shield_1.png": [
+          130,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          0,
+          677,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          0,
+          604,
+          111,
+          71
+        ],
+        "storm_ui_icon_fenix_w_1.png": [
+          260,
+          344,
+          128,
+          128
+        ],
+        "hud_btn_bg_ability_cancel.png": [
+          260,
+          474,
+          97,
+          111
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          423,
+          604,
+          76,
+          48
+        ],
+        "storm_ui_icon_fenix_shield_3.png": [
+          0,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_fenix_shield_2.png": [
+          260,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_cooldown.png": [
+          130,
+          474,
+          128,
+          128
+        ]
+      },
+      "portraits": {
+        "draftScreen": [
+          0,
+          0,
+          180,
+          212
+        ],
+        "minimap": [
+          78,
+          677,
+          32,
+          32
+        ],
+        "partyPanel": [
+          243,
+          604,
+          178,
+          56
+        ],
+        "target": [
+          359,
+          474,
+          92,
+          93
+        ],
+        "targetInfo": [
+          113,
+          604,
+          128,
+          56
+        ]
+      }
+    }
+  }
+}

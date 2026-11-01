@@ -1,0 +1,837 @@
+{
+  "id": "Diablo",
+  "unitId": "HeroDiablo",
+  "hyperlinkId": "Diablo",
+  "attributeId": "Diab",
+  "franchise": "Diablo",
+  "rarity": "Rare",
+  "releaseDate": "2014-03-13",
+  "isMelee": true,
+  "gender": "Male",
+  "radius": 1.1875,
+  "innerRadius": 0.9375,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "DiabloRun",
+  "ratings": {
+    "complexity": 5,
+    "damage": 5,
+    "survivability": 9,
+    "utility": 7
+  },
+  "life": {
+    "amount": 2825,
+    "scale": 0.04,
+    "regenRate": 5.8854,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "BodyBlocker",
+    "EnergyImportant",
+    "Ganker",
+    "Overconfident",
+    "RoleTank"
+  ],
+  "weapons": [
+    {
+      "nameId": "HeroDiablo",
+      "isDisabled": false,
+      "range": 1.25,
+      "minimumRange": 0,
+      "period": 1.05,
+      "damage": 105,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "DiabloAngelic",
+    "DiabloKaijoe",
+    "DiabloMurkablo",
+    "DiabloPrime",
+    "DiabloSummer18",
+    "DiabloUltimate"
+  ],
+  "variationSkinIds": [
+    "DiabloBlack",
+    "DiabloPink",
+    "DiabloVar3"
+  ],
+  "voiceLineIds": [
+    "DiabloBase_VoiceLine01",
+    "DiabloBase_VoiceLine02",
+    "DiabloBase_VoiceLine03",
+    "DiabloBase_VoiceLine04",
+    "DiabloBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridenone",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "DiabloShadowCharge|DiabloShadowCharge|Q",
+        "abilityId": "DiabloShadowCharge",
+        "buttonId": "DiabloShadowCharge",
+        "icon": "storm_ui_icon_diablo_shadowcharge_var1.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "DiabloFireStomp|DiabloFireStomp|W",
+        "abilityId": "DiabloFireStomp",
+        "buttonId": "DiabloFireStomp",
+        "icon": "storm_ui_icon_diablo_firestomp.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "DiabloOverpower|DiabloOverpower|E",
+        "abilityId": "DiabloOverpower",
+        "buttonId": "DiabloOverpower",
+        "icon": "storm_ui_icon_diablo_overpower_var1.png",
+        "charges": {
+          "countMax": 1,
+          "countStart": 1,
+          "countUse": 1,
+          "recastCooldown": 1.75,
+          "isCountHidden": true
+        },
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "DiabloApocalypse|DiabloApocalypse|Heroic",
+        "abilityId": "DiabloApocalypse",
+        "buttonId": "DiabloApocalypse",
+        "icon": "storm_ui_icon_diablo_apocalypse.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "DiabloLightningBreath|DiabloLightningBreath|Heroic",
+        "abilityId": "DiabloLightningBreath",
+        "buttonId": "DiabloLightningBreath",
+        "icon": "storm_ui_icon_diablo_lightningbreath.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": ":PASSIVE:|DiabloBlackSoulstone|Trait",
+        "abilityId": ":PASSIVE:",
+        "buttonId": "DiabloBlackSoulstone",
+        "icon": "storm_ui_icon_diablo_blacksoulstone_var1.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "DiabloLightningBreath|DiabloLightningBreath|Heroic": {
+      "Heroic": [
+        {
+          "linkId": "LightningBreathCancel|DiabloLightningBreathCancel|Heroic",
+          "abilityId": "LightningBreathCancel",
+          "buttonId": "DiabloLightningBreathCancel",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "abilityType": "Heroic"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "DiabloSoulShield|DiabloSoulShield|Active|Level1": {
+      "Activable": [
+        {
+          "linkId": "DiabloBlackSoulstoneSoulShield|DiabloSoulShield|Active",
+          "abilityId": "DiabloBlackSoulstoneSoulShield",
+          "buttonId": "DiabloSoulShield",
+          "icon": "storm_ui_icon_talent_hardenedshield.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "DiabloHellgate|DiabloHellgateTalent|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "DiabloHellgate|DiabloHellgateTalent|Active",
+          "abilityId": "DiabloHellgate",
+          "buttonId": "DiabloHellgateTalent",
+          "icon": "storm_ui_icon_talent_boltofthestorm.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "DiabloTalentLordOfTerror|DiabloLordOfTerror|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "DiabloTalentLordOfTerror|DiabloLordOfTerror|Active",
+          "abilityId": "DiabloTalentLordOfTerror",
+          "buttonId": "DiabloLordOfTerror",
+          "icon": "storm_ui_icon_diablo_lordofterror.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "DiabloMasteryFeastOnFearBlackSoulstone|DiabloBlackSoulstoneFeastOnFearTalent|Passive|Level1",
+        "talentId": "DiabloMasteryFeastOnFearBlackSoulstone",
+        "buttonId": "DiabloBlackSoulstoneFeastOnFearTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_diablo_combo_1.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "DiabloShadowCharge|DiabloShadowCharge|Q",
+          "DiabloOverpower|DiabloOverpower|E"
+        ]
+      },
+      {
+        "linkId": "DiabloMasteryDevilsDueBlackSoulstone|DiabloBlackSoulstoneDevilsDueTalent|Trait|Level1",
+        "talentId": "DiabloMasteryDevilsDueBlackSoulstone",
+        "buttonId": "DiabloBlackSoulstoneDevilsDueTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_diablo_blacksoulstone_var1.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|DiabloBlackSoulstone|Trait"
+        ]
+      },
+      {
+        "linkId": "DiabloSoulShield|DiabloSoulShield|Active|Level1",
+        "talentId": "DiabloSoulShield",
+        "buttonId": "DiabloSoulShield",
+        "abilityId": "DiabloBlackSoulstoneSoulShield",
+        "icon": "storm_ui_icon_talent_hardenedshield.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "DiabloShadowChargeSacrificialSoul|DiabloShadowChargeSacrificialSoul|Q|Level4",
+        "talentId": "DiabloShadowChargeSacrificialSoul",
+        "buttonId": "DiabloShadowChargeSacrificialSoul",
+        "abilityId": "DiabloShadowCharge",
+        "icon": "storm_ui_icon_diablo_shadowcharge_var1.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "DiabloShadowCharge|DiabloShadowCharge|Q"
+        ]
+      },
+      {
+        "linkId": "DiabloFireStompSoulsToTheFlame|DiabloFireStompSoulsToTheFlame|W|Level4",
+        "talentId": "DiabloFireStompSoulsToTheFlame",
+        "buttonId": "DiabloFireStompSoulsToTheFlame",
+        "abilityId": "DiabloFireStomp",
+        "icon": "storm_ui_icon_diablo_firestomp.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "DiabloFireStomp|DiabloFireStomp|W"
+        ]
+      },
+      {
+        "linkId": "DiabloLifeLeech|DiabloLifeLeechTalent|Passive|Level4",
+        "talentId": "DiabloLifeLeech",
+        "buttonId": "DiabloLifeLeechTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_heal.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|DiabloBlackSoulstone|Trait"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "DiabloShadowChargeOverpowerEternalFlames|DiabloShadowChargeOverpowerEternalFlames|W|Level7",
+        "talentId": "DiabloShadowChargeOverpowerEternalFlames",
+        "buttonId": "DiabloShadowChargeOverpowerEternalFlames",
+        "abilityId": "DiabloFireStomp",
+        "icon": "storm_ui_icon_diablo_firestomp.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "DiabloFireStomp|DiabloFireStomp|W"
+        ]
+      },
+      {
+        "linkId": "DiabloMalevolence|DiabloMalevolence|Passive|Level7",
+        "talentId": "DiabloMalevolence",
+        "buttonId": "DiabloMalevolence",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_damage.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|DiabloBlackSoulstone|Trait"
+        ]
+      },
+      {
+        "linkId": "DiabloDiabolicalMomentum|DiabloDiabolicalMomentum|Passive|Level7",
+        "talentId": "DiabloDiabolicalMomentum",
+        "buttonId": "DiabloDiabolicalMomentum",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_diablo_combo_1.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|DiabloBlackSoulstone|Trait"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "DiabloHeroicAbilityApocalypse|DiabloApocalypse|Heroic|Level10",
+        "talentId": "DiabloHeroicAbilityApocalypse",
+        "buttonId": "DiabloApocalypse",
+        "abilityId": "DiabloApocalypse",
+        "icon": "storm_ui_icon_diablo_apocalypse.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "DiabloHeroicAbilityLightningBreath|DiabloLightningBreath|Heroic|Level10",
+        "talentId": "DiabloHeroicAbilityLightningBreath",
+        "buttonId": "DiabloLightningBreath",
+        "abilityId": "DiabloLightningBreath",
+        "icon": "storm_ui_icon_diablo_lightningbreath.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "DiabloDevastatingCharge|DiabloDevastatingCharge|Q|Level13",
+        "talentId": "DiabloDevastatingCharge",
+        "buttonId": "DiabloDevastatingCharge",
+        "abilityId": "DiabloShadowCharge",
+        "icon": "storm_ui_icon_diablo_shadowcharge_var1.png",
+        "abilityType": "Q",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "DiabloShadowCharge|DiabloShadowCharge|Q"
+        ]
+      },
+      {
+        "linkId": "DiabloHellfire|DiabloHellfire|W|Level13",
+        "talentId": "DiabloHellfire",
+        "buttonId": "DiabloHellfire",
+        "abilityId": "DiabloFireStomp",
+        "icon": "storm_ui_icon_diablo_firestomp.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "DiabloFireStomp|DiabloFireStomp|W"
+        ]
+      },
+      {
+        "linkId": "DiabloShadowChargeOverpowerCruelty|DiabloShadowChargeOverpowerCruelty|Passive|Level13",
+        "talentId": "DiabloShadowChargeOverpowerCruelty",
+        "buttonId": "DiabloShadowChargeOverpowerCruelty",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_diablo_combo_1.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "DiabloShadowCharge|DiabloShadowCharge|Q",
+          "DiabloOverpower|DiabloOverpower|E"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "DiabloTalentDominationOverpower|DiabloOverpowerDominationTalent|Q|Level16",
+        "talentId": "DiabloTalentDominationOverpower",
+        "buttonId": "DiabloOverpowerDominationTalent",
+        "abilityId": "DiabloShadowCharge",
+        "icon": "storm_ui_icon_diablo_shadowcharge_var1.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "DiabloShadowCharge|DiabloShadowCharge|Q",
+          "DiabloOverpower|DiabloOverpower|E"
+        ]
+      },
+      {
+        "linkId": "DiabloDebilitatingFlames|DiabloDebilitatingFlames|W|Level16",
+        "talentId": "DiabloDebilitatingFlames",
+        "buttonId": "DiabloDebilitatingFlames",
+        "abilityId": "DiabloFireStomp",
+        "icon": "storm_ui_icon_diablo_firestomp.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "DiabloFireStomp|DiabloFireStomp|W"
+        ]
+      },
+      {
+        "linkId": "DiabloOverpowerOverpoweringNightmare|DiabloOverpowerOverpoweringNightmareTalent|E|Level16",
+        "talentId": "DiabloOverpowerOverpoweringNightmare",
+        "buttonId": "DiabloOverpowerOverpoweringNightmareTalent",
+        "abilityId": "DiabloOverpower",
+        "icon": "storm_ui_icon_diablo_overpower_var1.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "DiabloOverpower|DiabloOverpower|E"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "DiabloMasteryDyingBreathApocalypse|DiabloApocalypseDyingBreathTalent|Heroic|Level20",
+        "talentId": "DiabloMasteryDyingBreathApocalypse",
+        "buttonId": "DiabloApocalypseDyingBreathTalent",
+        "abilityId": "DiabloApocalypse",
+        "icon": "storm_ui_icon_diablo_apocalypse.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "DiabloApocalypse|DiabloApocalypse|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "DiabloHeroicAbilityApocalypse"
+        ]
+      },
+      {
+        "linkId": "DiabloMasteryHellstormLightningBreath|DiabloLightningBreathHellstormTalent|Heroic|Level20",
+        "talentId": "DiabloMasteryHellstormLightningBreath",
+        "buttonId": "DiabloLightningBreathHellstormTalent",
+        "abilityId": "DiabloLightningBreath",
+        "icon": "storm_ui_icon_diablo_lightningbreath.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "DiabloLightningBreath|DiabloLightningBreath|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "DiabloHeroicAbilityLightningBreath"
+        ]
+      },
+      {
+        "linkId": "DiabloTalentLordOfTerror|DiabloLordOfTerror|Active|Level20",
+        "talentId": "DiabloTalentLordOfTerror",
+        "buttonId": "DiabloLordOfTerror",
+        "abilityId": "DiabloTalentLordOfTerror",
+        "icon": "storm_ui_icon_diablo_lordofterror.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      },
+      {
+        "linkId": "DiabloHellgate|DiabloHellgateTalent|Active|Level20",
+        "talentId": "DiabloHellgate",
+        "buttonId": "DiabloHellgateTalent",
+        "abilityId": "DiabloHellgate",
+        "icon": "storm_ui_icon_talent_boltofthestorm.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      }
+    ]
+  },
+  "sheets": {
+    "abilities": {
+      "sheet": "sheets/Diablo/abilities.webp",
+      "icons": {
+        "storm_ui_icon_diablo_shadowcharge_var1.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_diablo_firestomp.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_diablo_overpower_var1.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_diablo_apocalypse.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_diablo_lightningbreath.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_diablo_blacksoulstone_var1.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          290,
+          390,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          99,
+          390,
+          111,
+          71
+        ],
+        "hud_btn_bg_ability_cancel.png": [
+          0,
+          390,
+          97,
+          111
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          212,
+          390,
+          76,
+          48
+        ],
+        "storm_ui_icon_talent_hardenedshield.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_boltofthestorm.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_diablo_lordofterror.png": [
+          130,
+          130,
+          128,
+          128
+        ]
+      }
+    },
+    "talents": {
+      "sheet": "sheets/Diablo/talents.webp",
+      "icons": {
+        "storm_ui_icon_diablo_combo_1.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_diablo_blacksoulstone_var1.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_hardenedshield.png": [
+          260,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_diablo_shadowcharge_var1.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_diablo_firestomp.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_heal.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_damage.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_diablo_apocalypse.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_diablo_lightningbreath.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_diablo_overpower_var1.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_diablo_lordofterror.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_boltofthestorm.png": [
+          130,
+          390,
+          128,
+          128
+        ]
+      }
+    },
+    "hero": {
+      "sheet": "sheets/Diablo/hero.webp",
+      "icons": {
+        "storm_ui_icon_diablo_shadowcharge_var1.png": [
+          130,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_diablo_firestomp.png": [
+          130,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_diablo_overpower_var1.png": [
+          0,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_diablo_apocalypse.png": [
+          182,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_diablo_lightningbreath.png": [
+          260,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_diablo_blacksoulstone_var1.png": [
+          312,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          0,
+          677,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          0,
+          604,
+          111,
+          71
+        ],
+        "hud_btn_bg_ability_cancel.png": [
+          260,
+          474,
+          97,
+          111
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          423,
+          604,
+          76,
+          48
+        ],
+        "storm_ui_icon_talent_hardenedshield.png": [
+          130,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_boltofthestorm.png": [
+          0,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_diablo_lordofterror.png": [
+          390,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_diablo_combo_1.png": [
+          0,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_heal.png": [
+          390,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_damage.png": [
+          260,
+          344,
+          128,
+          128
+        ]
+      },
+      "portraits": {
+        "draftScreen": [
+          0,
+          0,
+          180,
+          212
+        ],
+        "minimap": [
+          78,
+          677,
+          32,
+          32
+        ],
+        "partyPanel": [
+          243,
+          604,
+          178,
+          56
+        ],
+        "target": [
+          359,
+          474,
+          92,
+          93
+        ],
+        "targetInfo": [
+          113,
+          604,
+          128,
+          56
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "abilities": {
+    "WizardMagicMissiles|WizardMagicMissiles|Q": {
+      "cooldownText": "Temps de recharge : 3 secondes",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana : 20</s>",
+      "fullText": "Lance trois projectiles vers une zone, qui infligent chacun <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">147</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.035~~</c> points de dégâts au premier ennemi touché. Leurs dégâts aux bâtiments sont réduits de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>.",
+      "name": "Projectiles magiques",
+      "shortText": "Tire une volée de projectiles."
+    },
+    "WizardArcaneOrb|WizardArcaneOrb|W": {
+      "cooldownText": "Temps de recharge : 8 secondes",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana : 40</s>",
+      "fullText": "Projette un orbe qui gagne en puissance à mesure qu’il se déplace, et inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">135</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.03~~</c> points de dégâts au premier ennemi qu’il touche. La distance parcourue par l’orbe augmente ses dégâts, jusqu’à un maximum de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">270</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.03~~</c> points supplémentaires.",
+      "name": "Orbe arcanique",
+      "shortText": "Lance un orbe qui gagne en puissance à mesure qu’il s’éloigne."
+    },
+    "WizardTeleport|WizardTeleport|E": {
+      "cooldownText": "Temps de recharge : 5 secondes",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana : 30</s>",
+      "fullText": "Téléporte instantanément sur une courte distance.",
+      "name": "Téléportation",
+      "shortText": "Téléporte sur une courte distance."
+    },
+    "WizardDisintegrate|WizardDisintegrate|Heroic": {
+      "cooldownText": "Temps de recharge : 20 secondes",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana : 80</s>",
+      "fullText": "Canalise un puissant rayon pénétrant qui inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">480</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.05~~</c> points de dégâts en <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.6</c> secondes aux ennemis touchés. Le rayon suit le curseur de la souris.",
+      "name": "Désintégration",
+      "shortText": "Rayon canalisé à longue portée."
+    },
+    "WizardWaveOfForce|WizardWaveOfForce|Heroic": {
+      "cooldownText": "Temps de recharge : 30 secondes",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana : 80</s>",
+      "fullText": "Repousse tous les ennemis autour du point ciblé et leur inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">160</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.05~~</c> points de dégâts.",
+      "name": "Onde de choc",
+      "shortText": "Inflige des dégâts aux ennemis et les repousse."
+    },
+    ":PASSIVE:|WizardTraitCriticalMass|Trait": {
+      "fullText": "Faire une victime met fin au temps de recharge de toutes les capacités.",
+      "name": "Masse critique",
+      "shortText": "Faire des victimes réinitialise le temps de recharge des capacités."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Temps de recharge : 4 secondes",
+      "fullText": "Après <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> seconde de canalisation, augmente la vitesse de déplacement de <s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Appeler une monture"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Après <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> secondes de canalisation, téléporte au hall des Tempêtes et rend instantanément <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c> points de vie et <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c> points de mana.",
+      "name": "Pierre de foyer"
+    },
+    "WizardArchonPurePowerDisintegrateCancel|WizardArchonPurePowerDisintegrateCancel|Heroic": {
+      "fullText": "Annule Archonte : puissance pure - Désintégration.",
+      "name": "Annuler Désintégration"
+    },
+    "WizardDisintegrateCancel|WizardDisintegrateCancel|Heroic": {
+      "fullText": "Annule Désintégration.",
+      "name": "Désintégration (annuler)"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Permet de descendre de la monture.",
+      "name": "Renvoyer la monture"
+    },
+    "WizardArchonPurePowerDisintegrate|WizardArchonPurePowerDisintegrate|Heroic": {
+      "fullText": "Canalise un puissant rayon pénétrant qui inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">192</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.05~~</c> points de dégâts par seconde aux ennemis qu’il touche. Le rayon suit le curseur de la souris.",
+      "name": "Désintégration",
+      "shortText": "Rayon canalisé à longue portée."
+    },
+    "WizardArchonPurePower|WizardArchonPurePowerHotbarCancel|Active": {
+      "cooldownText": "Temps de recharge : 10 secondes",
+      "fullText": "Annule Archonte : puissance pure.",
+      "name": "Annuler Archonte : puissance pure",
+      "shortText": "Annule Archonte : puissance pure."
+    },
+    "WizardTeleportIllusionist|WizardTeleportIllusionistHotbar|E": {
+      "cooldownText": "Temps de recharge : 4 secondes",
+      "fullText": "Si Li-Ming perd plus de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20 %</c> de ses points de vie en une seule fois, annule le temps de recharge de Téléportation.<n/><n/>Cet effet a, lui, un temps de recharge de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> secondes.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Effet passif :</c> augmente la portée de Téléportation de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>.",
+      "name": "Illusionniste"
+    },
+    "WizardArchonPurePower|WizardArchonPurePowerHotbar|Active": {
+      "fullText": "Li-Ming se transforme en archonte, ce qui lui permet d’utiliser Désintégration de façon continue, mais aucune autre capacité.",
+      "name": "Archonte : puissance pure",
+      "shortText": "Désintégration peut être lancée indéfiniment, mais les autres capacités sont indisponibles."
+    }
+  },
+  "talents": {
+    "WizardForceArmor|WizardForceArmorTalent|Q|Level1": {
+      "fullText": "Quand un héros adverse est touché par Projectiles magiques, gagne <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50</c> points d’armure anti-sort, réduisant les dégâts qu’inflige la prochaine capacité adverse de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>. Gagne <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> charge par lancer.<n/><n/>Cumule jusqu’à <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> charges.<c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Effet passif :</c> la récupération des points de mana de Li-Ming est augmentée de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> tant que le mana est inférieur <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35%</c>.",
+      "name": "Armure de force",
+      "shortText": "Projectiles magiques confère de l’armure anti-sort."
+    },
+    "WizardAetherWalker|WizardAetherWalkerTalent|E|Level1": {
+      "fullText": "Téléportation ne coûte pas de mana. Si aucun dégât n’a été subi au cours des <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> dernières secondes, son temps de recharge est réduit de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> secondes. Utiliser Téléportation augmente les dégâts de la prochaine utilisation de Projectiles magiques de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10 %</c>. ",
+      "name": "Naviguéther",
+      "shortText": "Réduit le temps de recharge de Téléportation en dehors du combat."
+    },
+    "WizardPowerHungry|WizardPowerHungryTalent|Passive|Level1": {
+      "fullText": "Les globes de régénération rendent <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> de mana supplémentaire et augmentent la puissance de capacité de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c> pendant <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c> secondes.",
+      "name": "Avide de puissance",
+      "shortText": "Les globes de régénération rendent davantage de mana et augmentent la puissance de capacité."
+    },
+    "WizardMagicMissilesChargedBlast|WizardMagicMissilesChargedBlastTalent|Q|Level4": {
+      "fullText": "La prochaine attaque de base portée à une cible touchée récemment par un projectile lui inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">87</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> points de dégâts supplémentaires.",
+      "name": "Éclair chargé",
+      "shortText": "Projectiles magiques marque les ennemis pour des dégâts augmentés."
+    },
+    "WizardArcaneOrbTriumvirate|WizardArcaneOrbTriumvirateTalent|W|Level4": {
+      "fullText": "Si Orbe arcanique frappe un héros ennemi après avoir parcouru au moins <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> de sa distance de base, son temps de recharge est réduit de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> secondes et rend <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40</c> points de mana.",
+      "name": "Triumvirat",
+      "shortText": "Réduit le temps de recharge d’Orbe arcanique s’il touche un ennemi à portée maximum."
+    },
+    "WizardDominance|WizardDominanceTalent|Trait|Level4": {
+      "fullText": "Faire des victimes rend <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c> des points de vie manquants.",
+      "name": "Suprématie",
+      "shortText": "Faire des victimes rend de la vie."
+    },
+    "WizardMagicMissilesSeeker|WizardMagicMissilesSeekerTalent|Q|Level7": {
+      "fullText": "Si trois projectiles magiques touchent une même cible, le troisième inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">140</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> points de dégâts supplémentaires.",
+      "name": "Focalisation des Arcanes",
+      "shortText": "Augmente les dégâts de Projectiles magiques infligés à une cible unique."
+    },
+    "WizardArcaneOrbZeisVengeance|WizardArcaneOrbZeisVengeanceTalent|W|Level7": {
+      "fullText": "Augmente le bonus aux dégâts conféré selon la distance parcourue par Orbe arcanique de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c>. De plus, réduit son temps de recharge de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> seconde.",
+      "name": "Vengeance de Zei",
+      "shortText": "Orbe arcanique inflige plus de dégâts de loin."
+    },
+    "WizardTeleportCalamity|WizardTeleportCalamityTalent|E|Level7": {
+      "fullText": "Téléportation inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">300</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.03~~</c> points de dégâts aux héros adverses proches du point d’arrivée.",
+      "name": "Calamité",
+      "shortText": "Téléportation inflige des dégâts."
+    },
+    "WizardHeroicAbilityDisintegrate|WizardDisintegrate|Heroic|Level10": {
+      "cooldownText": "Temps de recharge : 20 secondes",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana : 80</s>",
+      "fullText": "Canalise un puissant rayon pénétrant qui inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">480</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.05~~</c> points de dégâts en <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.6</c> secondes aux ennemis touchés. Le rayon suit le curseur de la souris.",
+      "name": "Désintégration",
+      "shortText": "Rayon canalisé à longue portée."
+    },
+    "WizardHeroicAbilityWaveOfForce|WizardWaveOfForce|Heroic|Level10": {
+      "cooldownText": "Temps de recharge : 30 secondes",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana : 80</s>",
+      "fullText": "Repousse tous les ennemis autour du point ciblé et leur inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">160</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.05~~</c> points de dégâts.",
+      "name": "Onde de choc",
+      "shortText": "Inflige des dégâts aux ennemis et les repousse."
+    },
+    "WizardTeleportIllusionist|WizardTeleportIllusionistTalent|E|Level13": {
+      "fullText": "Si Li-Ming perd plus de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20 %</c> de ses points de vie en une seule fois, annule le temps de recharge de Téléportation.<n/><n/>Cet effet a, lui, un temps de recharge de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> secondes.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Effet passif :</c> augmente la portée de Téléportation de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>.",
+      "name": "Illusionniste",
+      "shortText": "Portée de Téléportation augmentée et les dégâts mettent fin au temps de recharge."
+    },
+    "WizardCannoneer|WizardCannoneerTalent|Passive|Level13": {
+      "fullText": "Utiliser une capacité augmente les dégâts de la prochaine attaque de base de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75 %</c>, et permet d’infliger des dégâts de capacité au lieu de dégâts physiques. Peut se cumuler jusqu’à <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> fois.",
+      "name": "Canonnier",
+      "shortText": "Les capacités renforcent les attaques de base."
+    },
+    "WizardGlassCannon|WizardGlassCannonTalent|Passive|Level13": {
+      "fullText": "Augmente la puissance de capacité de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c>, mais diminue le maximum de points de vie de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c>.",
+      "name": "Dragon de papier",
+      "shortText": "Augmente la puissance de capacité, diminue le maximum de points de vie."
+    },
+    "WizardFireflies|WizardFireflies|Q|Level16": {
+      "fullText": "Augmente considérablement la vitesse des projectiles magiques. Temps de recharge diminué de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> seconde et coût en mana est réduit de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>.",
+      "name": "Lucioles",
+      "shortText": "Les projectiles magiques se déplacent plus vite et le temps de recharge est diminué."
+    },
+    "WizardMagicMissilesMirrorball|WizardMagicMissilesMirrorballTalent|Q|Level16": {
+      "fullText": "Projectiles magiques lance <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> projectiles supplémentaires mais son coût en mana est augmenté de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>.",
+      "name": "Boule à facettes",
+      "shortText": "Lance 2 projectiles magiques de plus mais augmente le coût en mana."
+    },
+    "WizardArcaneOrbArcaneOrbit|WizardArcaneOrbArcaneOrbitTalent|W|Level16": {
+      "fullText": "La portée d’Orbe arcanique augmente de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> et son bonus de dégâts à distance maximale augmente de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">270</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.03~~</c> à <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">371</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.03~~</c> points.",
+      "name": "Orbite arcanique",
+      "shortText": "Portée d’Orbe arcanique augmentée."
+    },
+    "WizardTeleportDiamondSkin|WizardTeleportDiamondSkinTalent|E|Level16": {
+      "fullText": "Téléportation confère à Li-Ming un bouclier équivalent à <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> de son maximum de points de vie pendant <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> secondes.",
+      "name": "Peau de diamant",
+      "shortText": "Téléportation confère un bouclier."
+    },
+    "WizardDisintegrateTemporalFlux|WizardDisintegrateTemporalFluxTalent|Heroic|Level20": {
+      "fullText": "Ralentit progressivement les ennemis touchés par le rayon, jusqu’à un maximum de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60 %</c>.",
+      "name": "Fluctuation temporelle",
+      "shortText": "Désintégration ralentit les ennemis."
+    },
+    "WizardWaveOfForceRepulsion|WizardWaveOfForceRepulsionTalent|Heroic|Level20": {
+      "fullText": "Augmente la distance de recul des adversaires de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">175%</c> et augmente la portée de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">95%</c>.",
+      "name": "Répulsion",
+      "shortText": "Augmente la portée et la distance de recul."
+    },
+    "WizardTalRashasElements|WizardTalRashasElementsTalent|Passive|Level20": {
+      "fullText": "Utiliser des capacités augmente les dégâts de la prochaine capacité de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5 %</c>, jusqu’à un maximum de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20 %</c>. Ce bonus est réinitialisé quand une capacité est utilisée deux fois dans une même série.",
+      "name": "Les Éléments de Tal Rasha",
+      "shortText": "Alterner les capacités permet d’augmenter les dégâts qu’elles infligent."
+    },
+    "WizardArchonPurePower|WizardArchonPurePowerHotbar|Active|Level20": {
+      "fullText": "Li-Ming se transforme en archonte, ce qui lui permet d’utiliser Désintégration de façon continue, mais aucune autre capacité.",
+      "name": "Archonte : puissance pure",
+      "shortText": "Désintégration peut être lancée indéfiniment, mais les autres capacités sont indisponibles."
+    }
+  },
+  "units": {}
+}

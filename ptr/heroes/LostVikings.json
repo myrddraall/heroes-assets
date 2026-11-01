@@ -1,0 +1,1304 @@
+{
+  "id": "LostVikings",
+  "unitId": "HeroLostVikingsController",
+  "hyperlinkId": "LostVikings",
+  "attributeId": "Lost",
+  "franchise": "Classic",
+  "rarity": "Legendary",
+  "releaseDate": "2015-02-10",
+  "isMelee": true,
+  "gender": "Male",
+  "radius": 0,
+  "innerRadius": 0.75,
+  "sight": 0,
+  "speed": 20,
+  "attributes": [
+    "Heroic",
+    "ImmuneToAOE",
+    "ImmuneToFriendlyAbilities",
+    "ImmuneToSkillshots",
+    "NoMinionAggro"
+  ],
+  "scalingLinkIds": [
+    "HeroDummyVeterancy"
+  ],
+  "ratings": {
+    "complexity": 10,
+    "damage": 7,
+    "survivability": 6,
+    "utility": 5
+  },
+  "life": {
+    "amount": 1,
+    "scale": 0,
+    "regenRate": 0,
+    "regenScale": 0
+  },
+  "skinIds": [
+    "LostVikingsPajamaParty",
+    "LostVikingsUltimate"
+  ],
+  "variationSkinIds": [
+    "LostVikingsClassic",
+    "LostVikingsOrange"
+  ],
+  "voiceLineIds": [
+    "LostVikingsBase_VoiceLine01",
+    "LostVikingsBase_VoiceLine02",
+    "LostVikingsBase_VoiceLine03",
+    "LostVikingsBase_VoiceLine04",
+    "LostVikingsBase_VoiceLine05"
+  ],
+  "abilities": {
+    "Heroic": [
+      {
+        "linkId": "LostVikingsLongboatRaidNewer|LostVikingsLongboatRaid|Heroic",
+        "abilityId": "LostVikingsLongboatRaidNewer",
+        "buttonId": "LostVikingsLongboatRaid",
+        "icon": "storm_ui_icon_lostvikings_longboatraid.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "LostVikingsPlayAgain|LostVikingsPlayAgain|Heroic",
+        "abilityId": "LostVikingsPlayAgain",
+        "buttonId": "LostVikingsPlayAgain",
+        "icon": "storm_ui_icon_lostvikings_playagain.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": ":PASSIVE:|LostVikingsVikingHoardTalent|Trait",
+        "abilityId": ":PASSIVE:",
+        "buttonId": "LostVikingsVikingHoardTalent",
+        "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "LostVikingsGoGoGo|LostVikingsGoGoGo|Z",
+        "abilityId": "LostVikingsGoGoGo",
+        "buttonId": "LostVikingsGoGoGo",
+        "icon": "storm_ui_icon_lostvikings_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Activable": [
+      {
+        "linkId": ":PASSIVE:|LostVikingSelectOlaf|Active",
+        "abilityId": ":PASSIVE:",
+        "buttonId": "LostVikingSelectOlaf",
+        "icon": "storm_ui_icon_lostvikings_selectolaf.png",
+        "abilityType": "Active"
+      },
+      {
+        "linkId": ":PASSIVE:|LostVikingSelectBaleog|Active",
+        "abilityId": ":PASSIVE:",
+        "buttonId": "LostVikingSelectBaleog",
+        "icon": "storm_ui_icon_lostvikings_selectbaleog.png",
+        "abilityType": "Active"
+      },
+      {
+        "linkId": ":PASSIVE:|LostVikingSelectErik|Active",
+        "abilityId": ":PASSIVE:",
+        "buttonId": "LostVikingSelectErik",
+        "icon": "storm_ui_icon_lostvikings_selecterik.png",
+        "abilityType": "Active"
+      },
+      {
+        "linkId": ":PASSIVE:|LostVikingSelectAll|Active",
+        "abilityId": ":PASSIVE:",
+        "buttonId": "LostVikingSelectAll",
+        "icon": "storm_ui_ingame_heroselect_btn_lostvikings.png",
+        "abilityType": "Active"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "LostVikingsMasteryOlafTheStout|LostVikingsOlafTheStoutTalent|Passive|Level1",
+        "talentId": "LostVikingsMasteryOlafTheStout",
+        "buttonId": "LostVikingsOlafTheStoutTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_lostvikings_selectolaf.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|LostVikingSelectOlaf|Active"
+        ]
+      },
+      {
+        "linkId": "LostVikingsMasterySpyGames|LostVikingsSpyGamesTalent|Passive|Level1",
+        "talentId": "LostVikingsMasterySpyGames",
+        "buttonId": "LostVikingsSpyGamesTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_lostvikings_selecterik.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|LostVikingSelectErik|Active"
+        ]
+      },
+      {
+        "linkId": "LostVikingsMasteryExplosiveAttacks|LostVikingsExplosiveAttacksTalent|Passive|Level1",
+        "talentId": "LostVikingsMasteryExplosiveAttacks",
+        "buttonId": "LostVikingsExplosiveAttacksTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_lostvikings_selectbaleog.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|LostVikingSelectBaleog|Active"
+        ]
+      },
+      {
+        "linkId": "LostVikingsMasteryVikingBribery|LostVikingsVikingBribery|E|Level1",
+        "talentId": "LostVikingsMasteryVikingBribery",
+        "buttonId": "LostVikingsVikingBribery",
+        "abilityId": "LostVikingsVikingBribery",
+        "icon": "storm_ui_icon_talent_bribe.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 4
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "LostVikingsMasteryPainDontHurt|LostVikingsPainDontHurtTalent|Passive|Level4",
+        "talentId": "LostVikingsMasteryPainDontHurt",
+        "buttonId": "LostVikingsPainDontHurtTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_lostvikings_selectbaleog.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|LostVikingSelectBaleog|Active"
+        ]
+      },
+      {
+        "linkId": "LostVikingsMasteryErikTheSwift|LostVikingsErikTheSwiftTalent|Passive|Level4",
+        "talentId": "LostVikingsMasteryErikTheSwift",
+        "buttonId": "LostVikingsErikTheSwiftTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_lostvikings_selecterik.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|LostVikingSelectErik|Active"
+        ]
+      },
+      {
+        "linkId": "LostVikingsMasteryItsASabotage|LostVikingsItsASabotageTalent|Passive|Level4",
+        "talentId": "LostVikingsMasteryItsASabotage",
+        "buttonId": "LostVikingsItsASabotageTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_lostvikings_selecterik_var1.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|LostVikingSelectErik|Active"
+        ]
+      },
+      {
+        "linkId": "GenericTalentMercenaryLord|GenericMercenaryLordTalent|Passive|Level4",
+        "talentId": "GenericTalentMercenaryLord",
+        "buttonId": "GenericMercenaryLordTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_mercenarylord.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "LostVikingsMasteryBaleogTheFierce|LostVikingsBaleogTheFierceTalent|Passive|Level7",
+        "talentId": "LostVikingsMasteryBaleogTheFierce",
+        "buttonId": "LostVikingsBaleogTheFierceTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_lostvikings_selectbaleog.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|LostVikingSelectBaleog|Active"
+        ]
+      },
+      {
+        "linkId": "LostVikingsMasterySpinToWin|LostVikingsSpinToWin|Q|Level7",
+        "talentId": "LostVikingsMasterySpinToWin",
+        "buttonId": "LostVikingsSpinToWin",
+        "abilityId": "LostVikingsSpinToWin",
+        "icon": "storm_ui_icon_lostvikings_spintowin.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      },
+      {
+        "linkId": "LostVikingsMasteryNorseForce|LostVikingsNorseForce|Q|Level7",
+        "talentId": "LostVikingsMasteryNorseForce",
+        "buttonId": "LostVikingsNorseForce",
+        "abilityId": "LostVikingsNorseForce",
+        "icon": "storm_ui_icon_lostvikings_norseforce.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 3
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "LostVikingsHeroicAbilityLongboatRaid|LostVikingsLongboatRaid|Heroic|Level10",
+        "talentId": "LostVikingsHeroicAbilityLongboatRaid",
+        "buttonId": "LostVikingsLongboatRaid",
+        "abilityId": "LostVikingsLongboatRaidNewer",
+        "icon": "storm_ui_icon_lostvikings_longboatraid.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "LostVikingsHeroicAbilityPlayAgain|LostVikingsPlayAgain|Heroic|Level10",
+        "talentId": "LostVikingsHeroicAbilityPlayAgain",
+        "buttonId": "LostVikingsPlayAgain",
+        "abilityId": "LostVikingsPlayAgain",
+        "icon": "storm_ui_icon_lostvikings_playagain.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "LostVikingsMasteryHunkaBurningOlaf|LostVikingsHunkaBurningOlafTalent|Passive|Level13",
+        "talentId": "LostVikingsMasteryHunkaBurningOlaf",
+        "buttonId": "LostVikingsHunkaBurningOlafTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_lostvikings_selectolaf.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|LostVikingSelectOlaf|Active"
+        ]
+      },
+      {
+        "linkId": "LostVikingsMasteryJump|LostVikingsJump|W|Level13",
+        "talentId": "LostVikingsMasteryJump",
+        "buttonId": "LostVikingsJump",
+        "abilityId": "LostVikingsPressA",
+        "icon": "storm_ui_icon_lostvikings_jump.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      },
+      {
+        "linkId": "LostVikingsMasteryNordicAttackSquad|LostVikingsNordicAttackSquad|Passive|Level13",
+        "talentId": "LostVikingsMasteryNordicAttackSquad",
+        "buttonId": "LostVikingsNordicAttackSquad",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_searing.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "LostVikingsMasteryLargeAndInCharge|LostVikingsLargeAndInChargeTalent|Passive|Level16",
+        "talentId": "LostVikingsMasteryLargeAndInCharge",
+        "buttonId": "LostVikingsLargeAndInChargeTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_lostvikings_selectolaf.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|LostVikingSelectOlaf|Active"
+        ]
+      },
+      {
+        "linkId": "LostVikingsMasteryImpatienceIsAVirtue|LostVikingsImpatienceIsAVirtueTalent|Passive|Level16",
+        "talentId": "LostVikingsMasteryImpatienceIsAVirtue",
+        "buttonId": "LostVikingsImpatienceIsAVirtueTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_cooldown.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2
+      },
+      {
+        "linkId": "LostVikingsGoGoGo64KBMarathon|LostVikingsGoGoGo64KBMarathonTalent|Z|Level16",
+        "talentId": "LostVikingsGoGoGo64KBMarathon",
+        "buttonId": "LostVikingsGoGoGo64KBMarathonTalent",
+        "abilityId": "LostVikingsGoGoGo",
+        "icon": "storm_ui_icon_lostvikings_64kbmarathon.png",
+        "abilityType": "Z",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "LostVikingsGoGoGo|LostVikingsGoGoGo|Z"
+        ]
+      },
+      {
+        "linkId": "HeroGenericExecutionerPassive|GenericExecutionerTalent|Passive|Level16",
+        "talentId": "HeroGenericExecutionerPassive",
+        "buttonId": "GenericExecutionerTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_damage.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "LostVikingsMasteryWereOnABoat|LostVikingsWereOnABoatTalent|Heroic|Level20",
+        "talentId": "LostVikingsMasteryWereOnABoat",
+        "buttonId": "LostVikingsWereOnABoatTalent",
+        "abilityId": "LostVikingsLongboatRaidNewer",
+        "icon": "storm_ui_icon_lostvikings_longboatraid.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "LostVikingsLongboatRaidNewer|LostVikingsLongboatRaid|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "LostVikingsHeroicAbilityLongboatRaid"
+        ]
+      },
+      {
+        "linkId": "LostVikingsMasteryCheckpointReached|LostVikingsCheckpointReachedTalent|Heroic|Level20",
+        "talentId": "LostVikingsMasteryCheckpointReached",
+        "buttonId": "LostVikingsCheckpointReachedTalent",
+        "abilityId": "LostVikingsPlayAgain",
+        "icon": "storm_ui_icon_lostvikings_playagain.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "LostVikingsPlayAgain|LostVikingsPlayAgain|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "LostVikingsHeroicAbilityPlayAgain"
+        ]
+      },
+      {
+        "linkId": "LostVikingsMasteryTheSequel|LostVikingsTheSequelTalent|Trait|Level20",
+        "talentId": "LostVikingsMasteryTheSequel",
+        "buttonId": "LostVikingsTheSequelTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_lostvikings_fastrestart.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|LostVikingsVikingHoardTalent|Trait"
+        ]
+      },
+      {
+        "linkId": "LostVikingsTalentFuryoftheStorm|LostVikingsFuryoftheStormTalent|Passive|Level20",
+        "talentId": "LostVikingsTalentFuryoftheStorm",
+        "buttonId": "LostVikingsFuryoftheStormTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_damage.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      }
+    ]
+  },
+  "heroUnits": {
+    "HeroBaleog": {
+      "radius": 0.5625,
+      "innerRadius": 0.5625,
+      "sight": 12,
+      "speed": 4.8398,
+      "attributes": [
+        "Heroic"
+      ],
+      "scalingLinkIds": [
+        "HeroDummyVeterancy"
+      ],
+      "life": {
+        "amount": 1130,
+        "scale": 0.04,
+        "regenRate": 2.3554,
+        "regenScale": 0.04
+      },
+      "playstyles": [
+        "Helper",
+        "RoleAutoAttacker",
+        "WaveClearer"
+      ],
+      "portraits": {
+        "minimap": "storm_ui_minimapicon_baleog.png",
+        "targetInfo": "storm_ui_ingame_targetinfopanel_unit_hero_baleog.png"
+      },
+      "weapons": [
+        {
+          "nameId": "HeroBaleogSword",
+          "isDisabled": false,
+          "range": 1.25,
+          "minimumRange": 0,
+          "period": 0.9,
+          "damage": 75,
+          "damageScale": 0.04
+        },
+        {
+          "nameId": "HeroBaleogBow",
+          "isDisabled": false,
+          "range": 4,
+          "minimumRange": 0,
+          "period": 0.9,
+          "damage": 75,
+          "damageScale": 0.04
+        }
+      ],
+      "abilities": {
+        "Basic": [
+          {
+            "linkId": "LostVikingsSpinToWin|LostVikingsSpinToWin|Q",
+            "abilityId": "LostVikingsSpinToWin",
+            "buttonId": "LostVikingsSpinToWin",
+            "icon": "storm_ui_icon_lostvikings_spintowin.png",
+            "abilityType": "Q"
+          },
+          {
+            "linkId": "LostVikingsNorseForce|LostVikingsNorseForce|Q",
+            "abilityId": "LostVikingsNorseForce",
+            "buttonId": "LostVikingsNorseForce",
+            "icon": "storm_ui_icon_lostvikings_norseforce.png",
+            "abilityType": "Q"
+          },
+          {
+            "linkId": "LostVikingsPressA|LostVikingsJump|W",
+            "abilityId": "LostVikingsPressA",
+            "buttonId": "LostVikingsJump",
+            "icon": "storm_ui_icon_lostvikings_jump.png",
+            "abilityType": "W"
+          },
+          {
+            "linkId": "LostVikingsNordicAttackSquad|LostVikingsNordicAttackSquad|W",
+            "abilityId": "LostVikingsNordicAttackSquad",
+            "buttonId": "LostVikingsNordicAttackSquad",
+            "icon": "storm_ui_icon_talent_autoattack_searing.png",
+            "abilityType": "W"
+          },
+          {
+            "linkId": "LostVikingsVikingBribery|LostVikingsVikingBribery|E",
+            "abilityId": "LostVikingsVikingBribery",
+            "buttonId": "LostVikingsVikingBribery",
+            "icon": "storm_ui_icon_talent_bribe.png",
+            "charges": {
+              "countMax": 5,
+              "countUse": 1,
+              "isCountHidden": false
+            },
+            "abilityType": "E"
+          }
+        ],
+        "Heroic": [
+          {
+            "linkId": "LostVikingsPlayAgain|LostVikingsPlayAgain|Heroic",
+            "abilityId": "LostVikingsPlayAgain",
+            "buttonId": "LostVikingsPlayAgain",
+            "icon": "storm_ui_icon_lostvikings_playagain.png",
+            "abilityType": "Heroic"
+          },
+          {
+            "linkId": "LostVikingsLongboatRaidNewer|LostVikingsLongboatRaid|Heroic",
+            "abilityId": "LostVikingsLongboatRaidNewer",
+            "buttonId": "LostVikingsLongboatRaid",
+            "icon": "storm_ui_icon_lostvikings_longboatraid.png",
+            "abilityType": "Heroic"
+          }
+        ],
+        "Trait": [
+          {
+            "linkId": ":PASSIVE:|LostVikingsVikingHoardTalent|Trait",
+            "abilityId": ":PASSIVE:",
+            "buttonId": "LostVikingsVikingHoardTalent",
+            "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
+            "abilityType": "Trait"
+          }
+        ],
+        "Mount": [
+          {
+            "linkId": "LostVikingsGoGoGo|LostVikingsGoGoGo|Z",
+            "abilityId": "LostVikingsGoGoGo",
+            "buttonId": "LostVikingsGoGoGo",
+            "icon": "storm_ui_icon_lostvikings_mount.png",
+            "abilityType": "Z"
+          }
+        ],
+        "Activable": [
+          {
+            "linkId": ":PASSIVE:|LostVikingSelectBaleog|Active",
+            "abilityId": ":PASSIVE:",
+            "buttonId": "LostVikingSelectBaleog",
+            "icon": "storm_ui_icon_lostvikings_selectbaleog.png",
+            "abilityType": "Active"
+          },
+          {
+            "linkId": ":PASSIVE:|LostVikingSelectAll|Active",
+            "abilityId": ":PASSIVE:",
+            "buttonId": "LostVikingSelectAll",
+            "icon": "storm_ui_ingame_heroselect_btn_lostvikings.png",
+            "abilityType": "Active"
+          }
+        ],
+        "Hearth": [
+          {
+            "linkId": "Hearthstone|HearthstoneNoMana|B",
+            "abilityId": "Hearthstone",
+            "buttonId": "HearthstoneNoMana",
+            "icon": "storm_ui_icon_miscrune_1.png",
+            "abilityType": "B"
+          }
+        ]
+      },
+      "subAbilities": {
+        "LostVikingsLongboatRaidNewer|LostVikingsLongboatRaid|Heroic": {
+          "Basic": [
+            {
+              "linkId": "LostVikingsLongboatRaidMortar|LostVikingsMortar|Q",
+              "abilityId": "LostVikingsLongboatRaidMortar",
+              "buttonId": "LostVikingsMortar",
+              "icon": "storm_ui_icon_lostvikings_mortar.png",
+              "abilityType": "Q"
+            }
+          ]
+        }
+      }
+    },
+    "HeroErik": {
+      "radius": 0.5,
+      "innerRadius": 0.5,
+      "sight": 13,
+      "speed": 4.8398,
+      "attributes": [
+        "Heroic"
+      ],
+      "scalingLinkIds": [
+        "HeroDummyVeterancy"
+      ],
+      "life": {
+        "amount": 804,
+        "scale": 0.04,
+        "regenRate": 1.6757,
+        "regenScale": 0.04
+      },
+      "playstyles": [
+        "Escaper",
+        "Helper",
+        "RoleAutoAttacker"
+      ],
+      "portraits": {
+        "minimap": "storm_ui_minimapicon_erik.png",
+        "targetInfo": "storm_ui_ingame_targetinfopanel_unit_hero_eric.png"
+      },
+      "weapons": [
+        {
+          "nameId": "HeroErikSlingshot",
+          "isDisabled": false,
+          "range": 6.5,
+          "minimumRange": 0,
+          "period": 0.7,
+          "damage": 62,
+          "damageScale": 0.04
+        }
+      ],
+      "abilities": {
+        "Basic": [
+          {
+            "linkId": "LostVikingsSpinToWin|LostVikingsSpinToWin|Q",
+            "abilityId": "LostVikingsSpinToWin",
+            "buttonId": "LostVikingsSpinToWin",
+            "icon": "storm_ui_icon_lostvikings_spintowin.png",
+            "abilityType": "Q"
+          },
+          {
+            "linkId": "LostVikingsNorseForce|LostVikingsNorseForce|Q",
+            "abilityId": "LostVikingsNorseForce",
+            "buttonId": "LostVikingsNorseForce",
+            "icon": "storm_ui_icon_lostvikings_norseforce.png",
+            "abilityType": "Q"
+          },
+          {
+            "linkId": "LostVikingsPressA|LostVikingsJump|W",
+            "abilityId": "LostVikingsPressA",
+            "buttonId": "LostVikingsJump",
+            "icon": "storm_ui_icon_lostvikings_jump.png",
+            "abilityType": "W"
+          },
+          {
+            "linkId": "LostVikingsNordicAttackSquad|LostVikingsNordicAttackSquad|W",
+            "abilityId": "LostVikingsNordicAttackSquad",
+            "buttonId": "LostVikingsNordicAttackSquad",
+            "icon": "storm_ui_icon_talent_autoattack_searing.png",
+            "abilityType": "W"
+          },
+          {
+            "linkId": "LostVikingsVikingBribery|LostVikingsVikingBribery|E",
+            "abilityId": "LostVikingsVikingBribery",
+            "buttonId": "LostVikingsVikingBribery",
+            "icon": "storm_ui_icon_talent_bribe.png",
+            "charges": {
+              "countMax": 5,
+              "countUse": 1,
+              "isCountHidden": false
+            },
+            "abilityType": "E"
+          }
+        ],
+        "Heroic": [
+          {
+            "linkId": "LostVikingsPlayAgain|LostVikingsPlayAgain|Heroic",
+            "abilityId": "LostVikingsPlayAgain",
+            "buttonId": "LostVikingsPlayAgain",
+            "icon": "storm_ui_icon_lostvikings_playagain.png",
+            "abilityType": "Heroic"
+          },
+          {
+            "linkId": "LostVikingsLongboatRaidNewer|LostVikingsLongboatRaid|Heroic",
+            "abilityId": "LostVikingsLongboatRaidNewer",
+            "buttonId": "LostVikingsLongboatRaid",
+            "icon": "storm_ui_icon_lostvikings_longboatraid.png",
+            "abilityType": "Heroic"
+          }
+        ],
+        "Trait": [
+          {
+            "linkId": ":PASSIVE:|LostVikingsVikingHoardTalent|Trait",
+            "abilityId": ":PASSIVE:",
+            "buttonId": "LostVikingsVikingHoardTalent",
+            "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
+            "abilityType": "Trait"
+          }
+        ],
+        "Mount": [
+          {
+            "linkId": "LostVikingsGoGoGo|LostVikingsGoGoGo|Z",
+            "abilityId": "LostVikingsGoGoGo",
+            "buttonId": "LostVikingsGoGoGo",
+            "icon": "storm_ui_icon_lostvikings_mount.png",
+            "abilityType": "Z"
+          }
+        ],
+        "Activable": [
+          {
+            "linkId": ":PASSIVE:|LostVikingSelectErik|Active",
+            "abilityId": ":PASSIVE:",
+            "buttonId": "LostVikingSelectErik",
+            "icon": "storm_ui_icon_lostvikings_selecterik.png",
+            "abilityType": "Active"
+          },
+          {
+            "linkId": ":PASSIVE:|LostVikingSelectAll|Active",
+            "abilityId": ":PASSIVE:",
+            "buttonId": "LostVikingSelectAll",
+            "icon": "storm_ui_ingame_heroselect_btn_lostvikings.png",
+            "abilityType": "Active"
+          }
+        ],
+        "Hearth": [
+          {
+            "linkId": "Hearthstone|HearthstoneNoMana|B",
+            "abilityId": "Hearthstone",
+            "buttonId": "HearthstoneNoMana",
+            "icon": "storm_ui_icon_miscrune_1.png",
+            "abilityType": "B"
+          }
+        ]
+      },
+      "subAbilities": {
+        "LostVikingsLongboatRaidNewer|LostVikingsLongboatRaid|Heroic": {
+          "Basic": [
+            {
+              "linkId": "LostVikingsLongboatRaidMortar|LostVikingsMortar|Q",
+              "abilityId": "LostVikingsLongboatRaidMortar",
+              "buttonId": "LostVikingsMortar",
+              "icon": "storm_ui_icon_lostvikings_mortar.png",
+              "abilityType": "Q"
+            }
+          ]
+        }
+      }
+    },
+    "HeroOlaf": {
+      "radius": 0.875,
+      "innerRadius": 0.875,
+      "sight": 12,
+      "speed": 4.8398,
+      "attributes": [
+        "Heroic"
+      ],
+      "scalingLinkIds": [
+        "HeroDummyVeterancy"
+      ],
+      "life": {
+        "amount": 1482,
+        "scale": 0.04,
+        "regenRate": 3.086,
+        "regenScale": 0.04
+      },
+      "playstyles": [
+        "Helper",
+        "Overconfident",
+        "RoleTank"
+      ],
+      "portraits": {
+        "minimap": "storm_ui_minimapicon_olaf.png",
+        "targetInfo": "storm_ui_ingame_targetinfopanel_unit_hero_olaf.png"
+      },
+      "weapons": [
+        {
+          "nameId": "HeroOlaf",
+          "isDisabled": false,
+          "range": 1.25,
+          "minimumRange": 0,
+          "period": 1,
+          "damage": 54,
+          "damageScale": 0.04
+        }
+      ],
+      "abilities": {
+        "Basic": [
+          {
+            "linkId": "LostVikingsSpinToWin|LostVikingsSpinToWin|Q",
+            "abilityId": "LostVikingsSpinToWin",
+            "buttonId": "LostVikingsSpinToWin",
+            "icon": "storm_ui_icon_lostvikings_spintowin.png",
+            "abilityType": "Q"
+          },
+          {
+            "linkId": "LostVikingsNorseForce|LostVikingsNorseForce|Q",
+            "abilityId": "LostVikingsNorseForce",
+            "buttonId": "LostVikingsNorseForce",
+            "icon": "storm_ui_icon_lostvikings_norseforce.png",
+            "abilityType": "Q"
+          },
+          {
+            "linkId": "LostVikingsPressA|LostVikingsJump|W",
+            "abilityId": "LostVikingsPressA",
+            "buttonId": "LostVikingsJump",
+            "icon": "storm_ui_icon_lostvikings_jump.png",
+            "abilityType": "W"
+          },
+          {
+            "linkId": "LostVikingsNordicAttackSquad|LostVikingsNordicAttackSquad|W",
+            "abilityId": "LostVikingsNordicAttackSquad",
+            "buttonId": "LostVikingsNordicAttackSquad",
+            "icon": "storm_ui_icon_talent_autoattack_searing.png",
+            "abilityType": "W"
+          },
+          {
+            "linkId": "LostVikingsVikingBribery|LostVikingsVikingBribery|E",
+            "abilityId": "LostVikingsVikingBribery",
+            "buttonId": "LostVikingsVikingBribery",
+            "icon": "storm_ui_icon_talent_bribe.png",
+            "charges": {
+              "countMax": 5,
+              "countUse": 1,
+              "isCountHidden": false
+            },
+            "abilityType": "E"
+          }
+        ],
+        "Heroic": [
+          {
+            "linkId": "LostVikingsPlayAgain|LostVikingsPlayAgain|Heroic",
+            "abilityId": "LostVikingsPlayAgain",
+            "buttonId": "LostVikingsPlayAgain",
+            "icon": "storm_ui_icon_lostvikings_playagain.png",
+            "abilityType": "Heroic"
+          },
+          {
+            "linkId": "LostVikingsLongboatRaidNewer|LostVikingsLongboatRaid|Heroic",
+            "abilityId": "LostVikingsLongboatRaidNewer",
+            "buttonId": "LostVikingsLongboatRaid",
+            "icon": "storm_ui_icon_lostvikings_longboatraid.png",
+            "abilityType": "Heroic"
+          }
+        ],
+        "Trait": [
+          {
+            "linkId": ":PASSIVE:|LostVikingsVikingHoardTalent|Trait",
+            "abilityId": ":PASSIVE:",
+            "buttonId": "LostVikingsVikingHoardTalent",
+            "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
+            "abilityType": "Trait"
+          }
+        ],
+        "Mount": [
+          {
+            "linkId": "LostVikingsGoGoGo|LostVikingsGoGoGo|Z",
+            "abilityId": "LostVikingsGoGoGo",
+            "buttonId": "LostVikingsGoGoGo",
+            "icon": "storm_ui_icon_lostvikings_mount.png",
+            "abilityType": "Z"
+          }
+        ],
+        "Activable": [
+          {
+            "linkId": ":PASSIVE:|LostVikingSelectOlaf|Active",
+            "abilityId": ":PASSIVE:",
+            "buttonId": "LostVikingSelectOlaf",
+            "icon": "storm_ui_icon_lostvikings_selectolaf.png",
+            "abilityType": "Active"
+          },
+          {
+            "linkId": ":PASSIVE:|LostVikingSelectAll|Active",
+            "abilityId": ":PASSIVE:",
+            "buttonId": "LostVikingSelectAll",
+            "icon": "storm_ui_ingame_heroselect_btn_lostvikings.png",
+            "abilityType": "Active"
+          }
+        ],
+        "Hearth": [
+          {
+            "linkId": "Hearthstone|HearthstoneNoMana|B",
+            "abilityId": "Hearthstone",
+            "buttonId": "HearthstoneNoMana",
+            "icon": "storm_ui_icon_miscrune_1.png",
+            "abilityType": "B"
+          }
+        ]
+      },
+      "subAbilities": {
+        "LostVikingsLongboatRaidNewer|LostVikingsLongboatRaid|Heroic": {
+          "Basic": [
+            {
+              "linkId": "LostVikingsLongboatRaidMortar|LostVikingsMortar|Q",
+              "abilityId": "LostVikingsLongboatRaidMortar",
+              "buttonId": "LostVikingsMortar",
+              "icon": "storm_ui_icon_lostvikings_mortar.png",
+              "abilityType": "Q"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "sheets": {
+    "abilities": {
+      "sheet": "sheets/LostVikings/abilities.webp",
+      "icons": {
+        "storm_ui_icon_lostvikings_longboatraid.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_lostvikings_playagain.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_lostvikings_vikinghoard.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_lostvikings_mount.png": [
+          243,
+          520,
+          76,
+          48
+        ],
+        "storm_ui_icon_lostvikings_selectolaf.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_lostvikings_selectbaleog.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_lostvikings_selecterik.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_ingame_heroselect_btn_lostvikings.png": [
+          0,
+          520,
+          128,
+          128
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          130,
+          520,
+          111,
+          71
+        ],
+        "storm_ui_icon_lostvikings_spintowin.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_lostvikings_norseforce.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_lostvikings_jump.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_searing.png": [
+          130,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_bribe.png": [
+          260,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_lostvikings_mortar.png": [
+          260,
+          0,
+          128,
+          128
+        ]
+      }
+    },
+    "talents": {
+      "sheet": "sheets/LostVikings/talents.webp",
+      "icons": {
+        "storm_ui_icon_lostvikings_selectolaf.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_lostvikings_selecterik.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_lostvikings_selectbaleog.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_bribe.png": [
+          260,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_lostvikings_selecterik_var1.png": [
+          390,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_mercenarylord.png": [
+          390,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_lostvikings_spintowin.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_lostvikings_norseforce.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_lostvikings_longboatraid.png": [
+          390,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_lostvikings_playagain.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_lostvikings_jump.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_searing.png": [
+          130,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_cooldown.png": [
+          390,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_lostvikings_64kbmarathon.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_damage.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_lostvikings_fastrestart.png": [
+          130,
+          0,
+          128,
+          128
+        ]
+      }
+    },
+    "hero": {
+      "sheet": "sheets/LostVikings/hero.webp",
+      "icons": {
+        "storm_ui_icon_lostvikings_longboatraid.png": [
+          0,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_lostvikings_playagain.png": [
+          390,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_lostvikings_vikinghoard.png": [
+          130,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_lostvikings_mount.png": [
+          293,
+          734,
+          76,
+          48
+        ],
+        "storm_ui_icon_lostvikings_selectolaf.png": [
+          390,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_lostvikings_selectbaleog.png": [
+          0,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_lostvikings_selecterik.png": [
+          260,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_ingame_heroselect_btn_lostvikings.png": [
+          390,
+          604,
+          128,
+          128
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          0,
+          734,
+          111,
+          71
+        ],
+        "storm_ui_icon_lostvikings_spintowin.png": [
+          0,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_lostvikings_norseforce.png": [
+          260,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_lostvikings_jump.png": [
+          442,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_searing.png": [
+          0,
+          604,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_bribe.png": [
+          130,
+          604,
+          128,
+          128
+        ],
+        "storm_ui_icon_lostvikings_mortar.png": [
+          130,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_lostvikings_selecterik_var1.png": [
+          130,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_mercenarylord.png": [
+          260,
+          604,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_cooldown.png": [
+          260,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_lostvikings_64kbmarathon.png": [
+          182,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_damage.png": [
+          390,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_lostvikings_fastrestart.png": [
+          312,
+          0,
+          128,
+          128
+        ]
+      },
+      "portraits": {
+        "draftScreen": [
+          0,
+          0,
+          180,
+          212
+        ],
+        "minimap": [
+          371,
+          734,
+          32,
+          32
+        ],
+        "partyPanel": [
+          113,
+          734,
+          178,
+          56
+        ],
+        "target": [
+          520,
+          604,
+          92,
+          93
+        ]
+      }
+    }
+  }
+}

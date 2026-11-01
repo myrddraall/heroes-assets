@@ -1,0 +1,213 @@
+{
+  "abilities": {
+    "DryadNoxiousBlossom|DryadNoxiousBlossom|Q": {
+      "cooldownText": "Cooldown: 8 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "After <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c> seconds, cause an area to explode with pollen dealing <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">160</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage.",
+      "name": "Noxious Blossom",
+      "shortText": "Deals area damage"
+    },
+    "DryadCripplingSpores|DryadCripplingSpores|W": {
+      "cooldownText": "Cooldown: 10 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Enemies currently afflicted by Nature's Toxin have its duration increased by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3 </c>seconds and are Slowed by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c>, decaying over <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> seconds.",
+      "name": "Crippling Spores",
+      "shortText": "Slow enemies afflicted by Nature's Toxin and extend duration"
+    },
+    "DryadWisp|DryadWisp|E": {
+      "cooldownText": "Cooldown: 30 seconds",
+      "fullText": "Spawn a Wisp to scout an area. Can be redirected once active. When the Wisp is in a bush for more <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> seconds, its vision radius is increased by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75%</c>. Lasts <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">45</c> seconds.",
+      "name": "Wisp",
+      "shortText": "Spawns a Wisp to scout"
+    },
+    "DryadThornwoodVine|DryadThornwoodVine|Heroic": {
+      "cooldownText": "Charge Cooldown: 15 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 35</s>",
+      "fullText": "Send forth vines that deal <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">184</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage to all enemies in a line.<n/><n/>Stores up to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> charges.",
+      "name": "Thornwood Vine",
+      "shortText": "Damages in a line"
+    },
+    "DryadLeapingStrike|DryadLeapingStrike|Heroic": {
+      "cooldownText": "Cooldown: 20 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Leap over an enemy, Slowing them by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">80%</c> for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.35 </c>seconds and dealing <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">271</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage.<n/><n/>Stores up to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> charges.",
+      "name": "Leaping Strike",
+      "shortText": "Leap over enemies, damaging and Slowing"
+    },
+    ":PASSIVE:|DryadNaturesToxin|Trait": {
+      "fullText": "Lunara's Basic Attacks and damaging Abilities poison their target, dealing <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">33</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage a second for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> seconds. Every additional application increases the duration by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> seconds, up to a maximum of <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">9</c> seconds.",
+      "name": "Nature's Toxin",
+      "shortText": "Basic Attacks and damaging Abilities deal damage over time"
+    },
+    ":PASSIVE:|DryadDryadsSwiftness|Z": {
+      "fullText": "Lunara moves <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> faster by leaping short distances.",
+      "name": "Dryad's Swiftness",
+      "shortText": "Lunara moves about <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> faster by leaping short distances."
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "After Channeling for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> seconds, teleport back to the Hall of Storms, instantly restoring <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c> Health and <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c> Mana.",
+      "name": "Hearthstone"
+    },
+    "DryadWispRedirect|DryadWispRedirect|E": {
+      "cooldownText": "Cooldown: 1 second",
+      "fullText": "Moves the Wisp to a new location.",
+      "name": "Relocate Wisp",
+      "shortText": "Move the Wisp to a new location"
+    },
+    "DryadGreaterSpellShield|DryadGreaterSpellShieldItemDisabled|Passive": {
+      "fullText": "Greater Spell Shield is disabled and will not trigger.<n/><n/>Click this button to enable Greater Spell Shield.",
+      "name": "Greater Spell Shield - Disabled",
+      "shortText": "Greatly reduces incoming Ability Damage"
+    },
+    "DryadAbolishMagic|DryadAbolishMagicHotbar|Active": {
+      "cooldownText": "Cooldown: 20 seconds",
+      "fullText": "Target an ally to remove all damage over time and disabling effects from them and Lunara. For <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> seconds after, the duration of disabling effects is reduced by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>.",
+      "name": "Abolish Magic",
+      "shortText": "Remove crowd control from a target and Lunara"
+    },
+    "DryadGreaterSpellShield|DryadGreaterSpellShieldItemEnabled|Passive": {
+      "fullText": "Every <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30</c> seconds, gain <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75</c> Spell Armor against the next enemy Ability and subsequent Abilities for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> seconds, reducing the damage taken by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75%</c>.<n/><n/>Click this button to disable Greater Spell Shield from Triggering automatically.",
+      "name": "Greater Spell Shield - Enabled",
+      "shortText": "Greatly reduces incoming Ability Damage"
+    },
+    "DryadGallopingGait|DryadDryadsSwiftness|Z": {
+      "cooldownText": "Cooldown: 30 seconds",
+      "fullText": "Lunara moves <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> faster by leaping short distances.",
+      "name": "Dryad's Swiftness",
+      "shortText": "Lunara moves about <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> faster by leaping short distances."
+    }
+  },
+  "talents": {
+    "DryadSentinelWisp|DryadSentinelWispTalent|E|Level1": {
+      "fullText": "After remaining in a bush for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> seconds, Wisp's vision radius is increased by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">200%</c> and reveals the surrounding area.",
+      "name": "Sentinel Wisp",
+      "shortText": "Wisp's bonus vision radius is increased"
+    },
+    "DryadNaturalPerspective|DryadNaturalPerspectiveTalent|Trait|Level1": {
+      "fullText": "Nature's Toxin reveals enemies for its duration.",
+      "name": "Natural Perspective",
+      "shortText": "Nature's Toxin reveals enemies"
+    },
+    "DryadHippityHop|DryadHippityHop|Z|Level1": {
+      "fullText": "After not Basic Attacking or taking damage for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> seconds, increase the Move Speed bonus of Dryad's Swiftness by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c>. ",
+      "name": "Hippity Hop",
+      "shortText": "Increase Dryad's Swiftness bonus"
+    },
+    "DryadBlossomSwell|DryadBlossomSwellTalent|Q|Level4": {
+      "fullText": "Increases Noxious Blossom's cast range by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>. and its radius by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c>. Blossom Swell applies <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> additional stack of Nature's Toxin to enemies hit.",
+      "name": "Blossom Swell",
+      "shortText": "Increases Noxious Blossom range and radius"
+    },
+    "DryadNaturesCulling|DryadNaturesCullingTalent|Trait|Level4": {
+      "fullText": "Increases Nature's Toxin's damage by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">125%</c> to non-Heroes.",
+      "name": "Nature's Culling",
+      "shortText": "Increases Nature's Toxin damage to non-Heroes"
+    },
+    "DryadSiphoningToxin|DryadSiphoningToxinTalent|Trait|Level4": {
+      "fullText": "While at least one enemy is afflicted by Nature's Toxin, heal for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">9</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> per second. When an enemy Hero has <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> stacks of Nature's Toxin, increase this healing by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">19</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> per second.",
+      "name": "Siphoning Toxin",
+      "shortText": "Nature's Toxin heals Lunara"
+    },
+    "DryadSplinteredSpear|DryadSplinteredSpearTalent|Q|Level7": {
+      "fullText": "Casting Noxious Blossom grants Lunara <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> stacks of Splintered Spear. When Lunara uses her Basic Attack, it hits an additional enemy for each stack of Splintered Spear, consuming <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> stack for each target. Stores up to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> stacks.<n/><n/>Splintered Spear deals <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">90</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage, and applies Nature's Toxin.",
+      "name": "Splintered Spear",
+      "shortText": "Noxious Blossom makes Basic Attack spread"
+    },
+    "DryadChokingPollen|DryadChokingPollenTalent|Q|Level7": {
+      "fullText": "Noxious Blossom deals <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> more damage to enemies afflicted by Nature's Toxin, increased to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">175%</c> against enemies with <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> stacks.",
+      "name": "Choking Pollen",
+      "shortText": "Nature's Toxin increases Noxious Blossom damage"
+    },
+    "DryadWildVigor|DryadWildVigorTalent|W|Level7": {
+      "fullText": "Using Crippling Spores increases the damage of Lunara's next <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> Basic Attacks by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">70%</c>.",
+      "name": "Wild Vigor",
+      "shortText": "Crippling Spores increases Basic Attack damage"
+    },
+    "DryadHeroicAbilityThornwoodVine|DryadThornwoodVine|Heroic|Level10": {
+      "cooldownText": "Charge Cooldown: 15 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 35</s>",
+      "fullText": "Send forth vines that deal <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">184</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage to all enemies in a line.<n/><n/>Stores up to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> charges.",
+      "name": "Thornwood Vine",
+      "shortText": "Damages in a line"
+    },
+    "DryadHeroicAbilityLeapingStrike|DryadLeapingStrike|Heroic|Level10": {
+      "cooldownText": "Cooldown: 20 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Leap over an enemy, Slowing them by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">80%</c> for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.35 </c>seconds and dealing <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">271</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage.<n/><n/>Stores up to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> charges.",
+      "name": "Leaping Strike",
+      "shortText": "Leap over enemies, damaging and Slowing"
+    },
+    "DryadEndlessSpores|DryadEndlessSpores|W|Level13": {
+      "fullText": "Casting Crippling Spores while at least <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> Heroes are afflicted by Nature's Toxin reduces the cooldown by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> seconds and refunds <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50</c> Mana.",
+      "name": "Endless Spores",
+      "shortText": "Nature's Toxin can reduce Crippling Spores cooldown"
+    },
+    "DryadLetThemWither|DryadLetThemWitherTalent|W|Level13": {
+      "fullText": "Increases Crippling Spores' Slow duration by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> second and causes it to no longer decay.",
+      "name": "Let Them Wither",
+      "shortText": "Increase Crippling Spores Slow"
+    },
+    "DryadGreaterSpellShield|DryadGreaterSpellShieldTalent|Passive|Level13": {
+      "fullText": "Every <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30</c> seconds, gain <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75</c> Spell Armor against the next enemy Ability and subsequent Abilities for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> seconds, reducing the damage taken by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75%</c>.<n/><n/>Can be toggled to allow or prevent this talent from triggering automatically.",
+      "name": "Greater Spell Shield",
+      "shortText": "Periodically gain temporary Spell Armor"
+    },
+    "DryadAbolishMagic|DryadAbolishMagicHotbar|Active|Level13": {
+      "cooldownText": "Cooldown: 20 seconds",
+      "fullText": "Target an ally to remove all damage over time and disabling effects from them and Lunara. For <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> seconds after, the duration of disabling effects is reduced by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>.",
+      "name": "Abolish Magic",
+      "shortText": "Remove crowd control from a target and Lunara"
+    },
+    "DryadAcceleratedContamination|DryadAcceleratedContamination|Q|Level16": {
+      "fullText": "Reduce the Mana cost of Noxious Blossom from <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60</c> to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40</c>. While at least <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> enemy Hero is afflicted with Nature's Toxin, Noxious Blossom's cooldown recharges <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75%</c> faster.",
+      "name": "Accelerated Contamination",
+      "shortText": "Noxious Blossom recharges faster"
+    },
+    "DryadStarWoodSpear|DryadStarWoodSpearTalent|W|Level16": {
+      "fullText": "Increase Lunara's Basic Attack range by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c>. Using Crippling Spores increases Lunara's Basic Attack range by an additional <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.25</c> for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> seconds.",
+      "name": "Star Wood Spear",
+      "shortText": "Crippling Spores increases Basic Attack range"
+    },
+    "DryadInvigoratingSpores|DryadInvigoratingSporesTalent|W|Level16": {
+      "fullText": "Crippling Spores grants <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c> Attack Speed for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> seconds. Basic Attacks against enemy Heroes with <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> stacks of Nature's Toxin deal damage equal to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5%</c> of their maximum Health.",
+      "name": "Invigorating Spores",
+      "shortText": "Crippling Spores empowers Basic Attacks"
+    },
+    "DryadUnfairAdvantage|DryadUnfairAdvantageTalent|Trait|Level16": {
+      "fullText": "Nature's Toxin deals <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60%</c> more damage to Heroes that are Slowed, Rooted, or Stunned.",
+      "name": "Unfair Advantage",
+      "shortText": "Increases Nature's Toxin damage to disabled Heroes"
+    },
+    "DryadForTheWildlands|DryadForTheWildlandsTalent|Heroic|Level20": {
+      "fullText": "Thornwood Vine shoots <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> additional vines in an arc.",
+      "name": "For the Wildlands",
+      "shortText": "Thornwood Vine shoots in an arc"
+    },
+    "DryadBoundlessStrideTalent|DryadBoundlessStrideTalent|Heroic|Level20": {
+      "fullText": "All Leaping Strike charges are returned every <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> seconds. Leaping Strike can be used on allies.",
+      "name": "Boundless Stride",
+      "shortText": "Leaping Strike can target allies"
+    },
+    "DryadForestsWrath|DryadForestsWrathTalent|Heroic|Level20": {
+      "fullText": "Lunara's Heroic Ability applies <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> additional stack of Nature's Toxin to enemies, and its range is increased by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c>.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Passive:</c> Increase Lunara's vision radius by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35%</c>.",
+      "name": "Forest's Wrath",
+      "shortText": "Heroic applies more Nature's Toxin, range increased"
+    },
+    "DryadIntensifyingToxin|DryadIntensifyingToxin|Trait|Level20": {
+      "fullText": "At <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> stacks, Nature's Toxin deals <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> more damage.",
+      "name": "Intensifying Toxin",
+      "shortText": "Increase Nature's Toxin damage"
+    },
+    "DryadGallopingGait|DryadGallopingGaitTalent|Z|Level20": {
+      "cooldownText": "Cooldown: 30 seconds",
+      "fullText": "Activate to increase the Movement Speed bonus of Dryad's Swiftness to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">80%</c> for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> seconds.",
+      "name": "Galloping Gait",
+      "shortText": "Activate to increase Movement Speed"
+    }
+  },
+  "units": {
+    "DryadWispUnit": {
+      "name": "Wisp"
+    }
+  }
+}

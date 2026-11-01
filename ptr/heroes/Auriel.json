@@ -1,0 +1,786 @@
+{
+  "id": "Auriel",
+  "unitId": "HeroAuriel",
+  "hyperlinkId": "Auriel",
+  "attributeId": "Auri",
+  "franchise": "Diablo",
+  "rarity": "Legendary",
+  "releaseDate": "2016-08-09",
+  "isMelee": false,
+  "gender": "Female",
+  "radius": 0.625,
+  "innerRadius": 0.625,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 8,
+    "damage": 3,
+    "survivability": 4,
+    "utility": 8
+  },
+  "life": {
+    "amount": 1700,
+    "scale": 0.04,
+    "regenRate": 3.539,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 475,
+    "regenRate": 0
+  },
+  "playstyles": [
+    "AllyHealer",
+    "Helper",
+    "RoleSupport",
+    "SelfHealer"
+  ],
+  "weapons": [
+    {
+      "nameId": "AurielHeroWeapon",
+      "isDisabled": false,
+      "range": 5.5,
+      "minimumRange": 0,
+      "period": 0.8,
+      "damage": 64,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "AurielCharity20",
+    "AurielDemonic",
+    "AurielHanamura",
+    "AurielUltimate",
+    "AurielWCAV"
+  ],
+  "variationSkinIds": [
+    "AurielBaseVar1",
+    "AurielBaseVar2",
+    "AurielBaseVar3"
+  ],
+  "voiceLineIds": [
+    "AurielBase_VoiceLine01",
+    "AurielBase_VoiceLine02",
+    "AurielBase_VoiceLine03",
+    "AurielBase_VoiceLine04",
+    "AurielBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "AurielSacredSweep|AurielSacredSweep|Q",
+        "abilityId": "AurielSacredSweep",
+        "buttonId": "AurielSacredSweep",
+        "icon": "storm_ui_icon_auriel_angelicsweep.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "AurielRayOfHeaven|AurielRayOfHeaven|W",
+        "abilityId": "AurielRayOfHeaven",
+        "buttonId": "AurielRayOfHeaven",
+        "icon": "storm_ui_icon_auriel_rayofheaven.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "AurielDetainmentStrike|AurielDetainmentStrike|E",
+        "abilityId": "AurielDetainmentStrike",
+        "buttonId": "AurielDetainmentStrike",
+        "icon": "storm_ui_icon_auriel_restrainingblow.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "AurielResurrect|AurielResurrect|Heroic",
+        "abilityId": "AurielResurrect",
+        "buttonId": "AurielResurrect",
+        "icon": "storm_ui_icon_auriel_resurrect.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "AurielCrystalAegis|AurielCrystalAegis|Heroic",
+        "abilityId": "AurielCrystalAegis",
+        "buttonId": "AurielCrystalAegis",
+        "icon": "storm_ui_icon_auriel_ribboncocoon.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": "AurielBestowHope|AurielBestowHope|Trait",
+        "abilityId": "AurielBestowHope",
+        "buttonId": "AurielBestowHope",
+        "icon": "storm_ui_icon_auriel_bestowhope.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|HearthstoneNoMana|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "HearthstoneNoMana",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "AurielResurrect|AurielResurrect|Heroic": {
+      "Heroic": [
+        {
+          "linkId": "AurielResurrectSelf|AurielResurrectSelf|Heroic",
+          "abilityId": "AurielResurrectSelf",
+          "buttonId": "AurielResurrectSelf",
+          "icon": "storm_ui_icon_auriel_resurrect.png",
+          "abilityType": "Heroic"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "AurielAngelicFlightTalent|AurielAngelicFlightTalent|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "AurielAngelicFlight|AurielAngelicFlightTalent|Active",
+          "abilityId": "AurielAngelicFlight",
+          "buttonId": "AurielAngelicFlightTalent",
+          "icon": "storm_ui_icon_auriel_angelicflight.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "AurielShieldOfHopeTalent|AurielShieldOfHopeTalent|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "AurielShieldOfHope|AurielShieldOfHopeTalent|Active",
+          "abilityId": "AurielShieldOfHope",
+          "buttonId": "AurielShieldOfHopeTalent",
+          "icon": "storm_ui_icon_auriel_shieldofhope.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "AurielIncreasingClaritySacredSweepTalent|AurielIncreasingClaritySacredSweepTalent|Q|Level1",
+        "talentId": "AurielIncreasingClaritySacredSweepTalent",
+        "buttonId": "AurielIncreasingClaritySacredSweepTalent",
+        "abilityId": "AurielSacredSweep",
+        "icon": "storm_ui_icon_auriel_angelicsweep.png",
+        "abilityType": "Q",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AurielSacredSweep|AurielSacredSweep|Q"
+        ]
+      },
+      {
+        "linkId": "AurielRighteousAssaultSacredSweepTalent|AurielRighteousAssaultSacredSweepTalent|Q|Level1",
+        "talentId": "AurielRighteousAssaultSacredSweepTalent",
+        "buttonId": "AurielRighteousAssaultSacredSweepTalent",
+        "abilityId": "AurielSacredSweep",
+        "icon": "storm_ui_icon_auriel_angelicsweep_b.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "AurielSacredSweep|AurielSacredSweep|Q"
+        ]
+      },
+      {
+        "linkId": "AurielSearingLightRayOfHeavenTalent|AurielSearingLightRayOfHeavenTalent|W|Level1",
+        "talentId": "AurielSearingLightRayOfHeavenTalent",
+        "buttonId": "AurielSearingLightRayOfHeavenTalent",
+        "abilityId": "AurielRayOfHeaven",
+        "icon": "storm_ui_icon_auriel_rayofheaven.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "AurielRayOfHeaven|AurielRayOfHeaven|W"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "AurielMajesticSpanSacredSweepTalent|AurielMajesticSpanSacredSweepTalent|Q|Level4",
+        "talentId": "AurielMajesticSpanSacredSweepTalent",
+        "buttonId": "AurielMajesticSpanSacredSweepTalent",
+        "abilityId": "AurielSacredSweep",
+        "icon": "storm_ui_icon_auriel_angelicsweep.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AurielSacredSweep|AurielSacredSweep|Q"
+        ]
+      },
+      {
+        "linkId": "AurielHeavyBurdenDetainmentStrikeTalent|AurielHeavyBurdenDetainmentStrikeTalent|E|Level4",
+        "talentId": "AurielHeavyBurdenDetainmentStrikeTalent",
+        "buttonId": "AurielHeavyBurdenDetainmentStrikeTalent",
+        "abilityId": "AurielDetainmentStrike",
+        "icon": "storm_ui_icon_auriel_restrainingblow.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "AurielDetainmentStrike|AurielDetainmentStrike|E"
+        ]
+      },
+      {
+        "linkId": "AurielRepeatedOffenseDetainmentStrikeTalent|AurielRepeatedOffenseDetainmentStrikeTalent|E|Level4",
+        "talentId": "AurielRepeatedOffenseDetainmentStrikeTalent",
+        "buttonId": "AurielRepeatedOffenseDetainmentStrikeTalent",
+        "abilityId": "AurielDetainmentStrike",
+        "icon": "storm_ui_icon_auriel_restrainingblow_a.png",
+        "abilityType": "E",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "AurielDetainmentStrike|AurielDetainmentStrike|E"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "AurielGlimmerofHopeRayOfHeavenTalent|AurielGlimmerofHopeRayOfHeavenTalent|W|Level7",
+        "talentId": "AurielGlimmerofHopeRayOfHeavenTalent",
+        "buttonId": "AurielGlimmerofHopeRayOfHeavenTalent",
+        "abilityId": "AurielRayOfHeaven",
+        "icon": "storm_ui_icon_auriel_rayofheaven.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AurielRayOfHeaven|AurielRayOfHeaven|W"
+        ]
+      },
+      {
+        "linkId": "AurielEmpathicLinkBestowHopeTalent|AurielEmpathicLinkBestowHopeTalent|Trait|Level7",
+        "talentId": "AurielEmpathicLinkBestowHopeTalent",
+        "buttonId": "AurielEmpathicLinkBestowHopeTalent",
+        "abilityId": "AurielBestowHope",
+        "icon": "storm_ui_icon_auriel_bestowhope.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "AurielBestowHope|AurielBestowHope|Trait"
+        ]
+      },
+      {
+        "linkId": "AurielEnergizedCordRayOfHeavenTalent|AurielEnergizedCordRayOfHeavenTalent|Trait|Level7",
+        "talentId": "AurielEnergizedCordRayOfHeavenTalent",
+        "buttonId": "AurielEnergizedCordRayOfHeavenTalent",
+        "abilityId": "AurielBestowHope",
+        "icon": "storm_ui_icon_auriel_bestowhope_a.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "AurielBestowHope|AurielBestowHope|Trait"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "AurielHeroicResurrect|AurielResurrect|Heroic|Level10",
+        "talentId": "AurielHeroicResurrect",
+        "buttonId": "AurielResurrect",
+        "abilityId": "AurielResurrect",
+        "icon": "storm_ui_icon_auriel_resurrect.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "AurielHeroicCrystalAegis|AurielCrystalAegis|Heroic|Level10",
+        "talentId": "AurielHeroicCrystalAegis",
+        "buttonId": "AurielCrystalAegis",
+        "abilityId": "AurielCrystalAegis",
+        "icon": "storm_ui_icon_auriel_ribboncocoon.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "AurielBlindingFlashSacredSweepTalent|AurielBlindingFlashSacredSweepTalent|Q|Level13",
+        "talentId": "AurielBlindingFlashSacredSweepTalent",
+        "buttonId": "AurielBlindingFlashSacredSweepTalent",
+        "abilityId": "AurielSacredSweep",
+        "icon": "storm_ui_icon_auriel_angelicsweep.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AurielSacredSweep|AurielSacredSweep|Q"
+        ]
+      },
+      {
+        "linkId": "AurielConvergingForceSacredSweepTalent|AurielConvergingForceSacredSweepTalent|Q|Level13",
+        "talentId": "AurielConvergingForceSacredSweepTalent",
+        "buttonId": "AurielConvergingForceSacredSweepTalent",
+        "abilityId": "AurielSacredSweep",
+        "icon": "storm_ui_icon_auriel_angelicsweep_b.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "AurielSacredSweep|AurielSacredSweep|Q"
+        ]
+      },
+      {
+        "linkId": "AurielPiercingLashDetainmentStrikeTalent|AurielPiercingLashDetainmentStrikeTalent|E|Level13",
+        "talentId": "AurielPiercingLashDetainmentStrikeTalent",
+        "buttonId": "AurielPiercingLashDetainmentStrikeTalent",
+        "abilityId": "AurielDetainmentStrike",
+        "icon": "storm_ui_icon_auriel_restrainingblow.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "AurielDetainmentStrike|AurielDetainmentStrike|E"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "AurielReservoirofHopeRayOfHeavenTalent|AurielReservoirofHopeRayOfHeavenTalent|W|Level16",
+        "talentId": "AurielReservoirofHopeRayOfHeavenTalent",
+        "buttonId": "AurielReservoirofHopeRayOfHeavenTalent",
+        "abilityId": "AurielRayOfHeaven",
+        "icon": "storm_ui_icon_auriel_rayofheaven.png",
+        "abilityType": "W",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AurielRayOfHeaven|AurielRayOfHeaven|W"
+        ]
+      },
+      {
+        "linkId": "AurielWillofHeavenBestowHopeTalent|AurielWillofHeavenBestowHopeTalent|Trait|Level16",
+        "talentId": "AurielWillofHeavenBestowHopeTalent",
+        "buttonId": "AurielWillofHeavenBestowHopeTalent",
+        "abilityId": "AurielBestowHope",
+        "icon": "storm_ui_icon_auriel_bestowhope.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "AurielBestowHope|AurielBestowHope|Trait"
+        ]
+      },
+      {
+        "linkId": "AurielWrathofHeavenBestowHopeTalent|AurielWrathofHeavenBestowHopeTalent|Trait|Level16",
+        "talentId": "AurielWrathofHeavenBestowHopeTalent",
+        "buttonId": "AurielWrathofHeavenBestowHopeTalent",
+        "abilityId": "AurielBestowHope",
+        "icon": "storm_ui_icon_auriel_bestowhope_a.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "AurielBestowHope|AurielBestowHope|Trait"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "AurielLightSpeedResurrectTalent|AurielLightSpeedResurrectTalent|Heroic|Level20",
+        "talentId": "AurielLightSpeedResurrectTalent",
+        "buttonId": "AurielLightSpeedResurrectTalent",
+        "abilityId": "AurielResurrect",
+        "icon": "storm_ui_icon_auriel_resurrect.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AurielResurrect|AurielResurrect|Heroic",
+          "AurielResurrectSelf|AurielResurrectSelf|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "AurielHeroicResurrect"
+        ]
+      },
+      {
+        "linkId": "AurielDiamondResolveCrystalAegisTalent|AurielDiamondResolveCrystalAegisTalent|Heroic|Level20",
+        "talentId": "AurielDiamondResolveCrystalAegisTalent",
+        "buttonId": "AurielDiamondResolveCrystalAegisTalent",
+        "abilityId": "AurielCrystalAegis",
+        "icon": "storm_ui_icon_auriel_ribboncocoon.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "AurielCrystalAegis|AurielCrystalAegis|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "AurielHeroicCrystalAegis"
+        ]
+      },
+      {
+        "linkId": "AurielAngelicFlightTalent|AurielAngelicFlightTalent|Active|Level20",
+        "talentId": "AurielAngelicFlightTalent",
+        "buttonId": "AurielAngelicFlightTalent",
+        "abilityId": "AurielAngelicFlight",
+        "icon": "storm_ui_icon_auriel_angelicflight.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      },
+      {
+        "linkId": "AurielShieldOfHopeTalent|AurielShieldOfHopeTalent|Active|Level20",
+        "talentId": "AurielShieldOfHopeTalent",
+        "buttonId": "AurielShieldOfHopeTalent",
+        "abilityId": "AurielShieldOfHope",
+        "icon": "storm_ui_icon_auriel_shieldofhope.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      }
+    ]
+  },
+  "sheets": {
+    "abilities": {
+      "sheet": "sheets/Auriel/abilities.webp",
+      "icons": {
+        "storm_ui_icon_auriel_angelicsweep.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_auriel_rayofheaven.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_auriel_restrainingblow.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_auriel_resurrect.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_auriel_ribboncocoon.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_auriel_bestowhope.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          78,
+          390,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          260,
+          260,
+          111,
+          71
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          0,
+          390,
+          76,
+          48
+        ],
+        "storm_ui_icon_auriel_angelicflight.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_auriel_shieldofhope.png": [
+          130,
+          260,
+          128,
+          128
+        ]
+      }
+    },
+    "talents": {
+      "sheet": "sheets/Auriel/talents.webp",
+      "icons": {
+        "storm_ui_icon_auriel_angelicsweep.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_auriel_angelicsweep_b.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_auriel_rayofheaven.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_auriel_restrainingblow.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_auriel_restrainingblow_a.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_auriel_bestowhope.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_auriel_bestowhope_a.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_auriel_resurrect.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_auriel_ribboncocoon.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_auriel_angelicflight.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_auriel_shieldofhope.png": [
+          130,
+          390,
+          128,
+          128
+        ]
+      }
+    },
+    "hero": {
+      "sheet": "sheets/Auriel/hero.webp",
+      "icons": {
+        "storm_ui_icon_auriel_angelicsweep.png": [
+          0,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_auriel_rayofheaven.png": [
+          390,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_auriel_restrainingblow.png": [
+          130,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_auriel_resurrect.png": [
+          260,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_auriel_ribboncocoon.png": [
+          390,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_auriel_bestowhope.png": [
+          260,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          258,
+          604,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          224,
+          474,
+          111,
+          71
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          180,
+          604,
+          76,
+          48
+        ],
+        "storm_ui_icon_auriel_angelicflight.png": [
+          182,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_auriel_shieldofhope.png": [
+          0,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_auriel_angelicsweep_b.png": [
+          312,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_auriel_restrainingblow_a.png": [
+          0,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_auriel_bestowhope_a.png": [
+          130,
+          214,
+          128,
+          128
+        ]
+      },
+      "portraits": {
+        "draftScreen": [
+          0,
+          0,
+          180,
+          212
+        ],
+        "minimap": [
+          336,
+          604,
+          32,
+          32
+        ],
+        "partyPanel": [
+          0,
+          604,
+          178,
+          56
+        ],
+        "target": [
+          130,
+          474,
+          92,
+          93
+        ],
+        "targetInfo": [
+          337,
+          474,
+          128,
+          56
+        ]
+      }
+    }
+  }
+}

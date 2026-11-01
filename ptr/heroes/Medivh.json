@@ -1,0 +1,1059 @@
+{
+  "id": "Medivh",
+  "unitId": "HeroMedivh",
+  "hyperlinkId": "Medivh",
+  "attributeId": "Mdvh",
+  "franchise": "Warcraft",
+  "rarity": "Legendary",
+  "releaseDate": "2016-06-14",
+  "isMelee": false,
+  "gender": "Male",
+  "radius": 0.75,
+  "innerRadius": 0.75,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "ratings": {
+    "complexity": 8,
+    "damage": 2,
+    "survivability": 6,
+    "utility": 10
+  },
+  "life": {
+    "amount": 1470,
+    "scale": 0.045,
+    "regenRate": 3.0625,
+    "regenScale": 0.045
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "EnergyImportant",
+    "Escaper",
+    "Helper",
+    "RoleSpecialist",
+    "WaveClearer"
+  ],
+  "summonedUnitIds": [
+    "MedivhPortalCreation"
+  ],
+  "weapons": [
+    {
+      "nameId": "MedivhHeroWeapon",
+      "isDisabled": false,
+      "range": 5.5,
+      "minimumRange": 0,
+      "period": 0.9,
+      "damage": 80,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "MedivhKnightOwl",
+    "MedivhUltimate"
+  ],
+  "variationSkinIds": [
+    "MedivhBaseVar1",
+    "MedivhBaseVar2",
+    "MedivhBaseVar3",
+    "MedivhBaseVar4"
+  ],
+  "voiceLineIds": [
+    "MedivhBase_VoiceLine01",
+    "MedivhBase_VoiceLine02",
+    "MedivhBase_VoiceLine03",
+    "MedivhBase_VoiceLine04",
+    "MedivhBase_VoiceLine05"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "MedivhArcaneRift|MedivhArcaneRift|Q",
+        "abilityId": "MedivhArcaneRift",
+        "buttonId": "MedivhArcaneRift",
+        "icon": "storm_ui_icon_medivh_arcanemissile.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "MedivhForceOfWill|MedivhForceOfWill|W",
+        "abilityId": "MedivhForceOfWill",
+        "buttonId": "MedivhForceOfWill",
+        "icon": "storm_ui_icon_medivh_forceofwill.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "MedivhPortalInstant|MedivhPortal|E",
+        "abilityId": "MedivhPortalInstant",
+        "buttonId": "MedivhPortal",
+        "icon": "storm_ui_icon_medivh_portal.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "MedivhPolyBomb|MedivhPolyBomb|Heroic",
+        "abilityId": "MedivhPolyBomb",
+        "buttonId": "MedivhPolyBomb",
+        "icon": "storm_ui_icon_medivh_polybomb.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "MedivhLeyLineSeal|MedivhLeyLineSeal|Heroic",
+        "abilityId": "MedivhLeyLineSeal",
+        "buttonId": "MedivhLeyLineSeal",
+        "icon": "storm_ui_icon_medivh_leylineblast.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": ":PASSIVE:|MedivhRavenForm|Trait",
+        "abilityId": ":PASSIVE:",
+        "buttonId": "MedivhRavenForm",
+        "icon": "storm_ui_icon_medivh_ravenform.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "MedivhTransformRaven|MedivhTransformRaven|Z",
+        "abilityId": "MedivhTransformRaven",
+        "buttonId": "MedivhTransformRaven",
+        "icon": "storm_ui_icon_medivh_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "MedivhPolyBomb|MedivhPolyBomb|Heroic": {
+      "Heroic": [
+        {
+          "linkId": "MedivhPolyBombGlyphOfPolyBomb|MedivhPolyBomb|Heroic",
+          "abilityId": "MedivhPolyBombGlyphOfPolyBomb",
+          "buttonId": "MedivhPolyBomb",
+          "icon": "storm_ui_icon_medivh_polybomb.png",
+          "abilityType": "Heroic"
+        }
+      ]
+    },
+    "MedivhTransformRaven|MedivhTransformRaven|Z": {
+      "Mount": [
+        {
+          "linkId": "MedivhTransformRavenLand|MedivhTransformRavenLand|Z",
+          "abilityId": "MedivhTransformRavenLand",
+          "buttonId": "MedivhTransformRavenLand",
+          "icon": "storm_ui_icon_medivh_cancel_mount.png",
+          "toggleCooldown": 0.0625,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "MedivhPortalPortalMastery|MedivhPortalPortalMasteryTalent|Active|Level1": {
+      "Basic": [
+        {
+          "linkId": "MedivhPortal2|MedivhPortal|E",
+          "abilityId": "MedivhPortal2",
+          "buttonId": "MedivhPortal",
+          "icon": "storm_ui_icon_medivh_portal.png",
+          "abilityType": "E"
+        }
+      ],
+      "Trait": [
+        {
+          "linkId": "MedivhPortalCancel|MedivhPortalCancel|Trait",
+          "abilityId": "MedivhPortalCancel",
+          "buttonId": "MedivhPortalCancel",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "abilityType": "Trait"
+        }
+      ],
+      "Activable": [
+        {
+          "linkId": "MedivhPortalMastery|MedivhPortalPortalMastery|Active",
+          "abilityId": "MedivhPortalMastery",
+          "buttonId": "MedivhPortalPortalMastery",
+          "icon": "storm_ui_icon_medivh_portal.png",
+          "toggleCooldown": 0.125,
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "MedivhDustOfAppearance|MedivhDustOfAppearance|Active|Level4": {
+      "Activable": [
+        {
+          "linkId": "MedivhDustOfAppearance|MedivhDustOfAppearance|Active",
+          "abilityId": "MedivhDustOfAppearance",
+          "buttonId": "MedivhDustOfAppearance",
+          "icon": "storm_ui_icon_medivh_dustofappearance.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "MedivhLeyLineSealMedivhCheats|MedivhLeyLineSealMedivhCheats|Heroic|Level20": {
+      "Heroic": [
+        {
+          "linkId": "MedivhLeyLineSealMedivhCheats|MedivhLeyLineSealRedirect|Heroic",
+          "abilityId": "MedivhLeyLineSealMedivhCheats",
+          "buttonId": "MedivhLeyLineSealRedirect",
+          "icon": "storm_ui_icon_medivh_leylineblast_redirect.png",
+          "abilityType": "Heroic"
+        }
+      ]
+    },
+    "MedivhArcaneBrilliance|MedivhArcaneBrilliance|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "MedivhArcaneBrilliance|MedivhArcaneBrilliance|Active",
+          "abilityId": "MedivhArcaneBrilliance",
+          "buttonId": "MedivhArcaneBrilliance",
+          "icon": "storm_ui_icon_jaina_arcaneintellect.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "MedivhDustofDisappearance|MedivhDustofDisappearance|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "MedivhDustofDisappearance|MedivhDustofDisappearance|Active",
+          "abilityId": "MedivhDustofDisappearance",
+          "buttonId": "MedivhDustofDisappearance",
+          "icon": "storm_ui_icon_medivh_invisibility.png",
+          "charges": {
+            "countMax": 2,
+            "countStart": 2,
+            "countUse": 1,
+            "isCountHidden": false
+          },
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "MedivhTransformRavenWindsOfCelerity|MedivhTransformRavenWindsOfCelerity|Z|Level1",
+        "talentId": "MedivhTransformRavenWindsOfCelerity",
+        "buttonId": "MedivhTransformRavenWindsOfCelerity",
+        "abilityId": "MedivhTransformRaven",
+        "icon": "storm_ui_icon_medivh_ravenform.png",
+        "abilityType": "Z",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|MedivhRavenForm|Trait"
+        ]
+      },
+      {
+        "linkId": "MedivhTransformRavenRavensIntellect|MedivhTransformRavenRavensIntellect|Z|Level1",
+        "talentId": "MedivhTransformRavenRavensIntellect",
+        "buttonId": "MedivhTransformRavenRavensIntellect",
+        "abilityId": "MedivhTransformRaven",
+        "icon": "storm_ui_icon_medivh_ravenform_b.png",
+        "abilityType": "Z",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|MedivhRavenForm|Trait"
+        ]
+      },
+      {
+        "linkId": "MedivhPortalPortalMastery|MedivhPortalPortalMasteryTalent|Active|Level1",
+        "talentId": "MedivhPortalPortalMastery",
+        "buttonId": "MedivhPortalPortalMasteryTalent",
+        "abilityId": "MedivhPortalMastery",
+        "icon": "storm_ui_icon_medivh_portal.png",
+        "toggleCooldown": 0.125,
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "MedivhPortal2|MedivhPortal|E",
+          "MedivhPortalInstant|MedivhPortal|E"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "MedivhPortalMageArmor|MedivhPortalMageArmor|E|Level4",
+        "talentId": "MedivhPortalMageArmor",
+        "buttonId": "MedivhPortalMageArmor",
+        "abilityId": "MedivhPortalInstant",
+        "icon": "storm_ui_icon_medivh_portal.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MedivhPortal2|MedivhPortal|E",
+          "MedivhPortalInstant|MedivhPortal|E"
+        ]
+      },
+      {
+        "linkId": "MedivhPortalRavenFamiliar|MedivhPortalRavenFamiliar|E|Level4",
+        "talentId": "MedivhPortalRavenFamiliar",
+        "buttonId": "MedivhPortalRavenFamiliar",
+        "abilityId": "MedivhPortalInstant",
+        "icon": "storm_ui_icon_medivh_portal_a.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "MedivhPortal2|MedivhPortal|E",
+          "MedivhPortalInstant|MedivhPortal|E"
+        ]
+      },
+      {
+        "linkId": "MedivhDustOfAppearance|MedivhDustOfAppearance|Active|Level4",
+        "talentId": "MedivhDustOfAppearance",
+        "buttonId": "MedivhDustOfAppearance",
+        "abilityId": "MedivhDustOfAppearance",
+        "icon": "storm_ui_icon_medivh_dustofappearance.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "MedivhMysticAssault|MedivhMysticAssault|Q|Level7",
+        "talentId": "MedivhMysticAssault",
+        "buttonId": "MedivhMysticAssault",
+        "abilityId": "MedivhArcaneRift",
+        "icon": "storm_ui_icon_medivh_arcanemissile.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MedivhArcaneRift|MedivhArcaneRift|Q"
+        ]
+      },
+      {
+        "linkId": "MedivhForceOfWillArcaneExplosion|MedivhForceOfWillArcaneExplosion|W|Level7",
+        "talentId": "MedivhForceOfWillArcaneExplosion",
+        "buttonId": "MedivhForceOfWillArcaneExplosion",
+        "abilityId": "MedivhForceOfWill",
+        "icon": "storm_ui_icon_medivh_forceofwill.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "MedivhForceOfWill|MedivhForceOfWill|W"
+        ]
+      },
+      {
+        "linkId": "MedivhForceofMagic|MedivhForceofMagic|W|Level7",
+        "talentId": "MedivhForceofMagic",
+        "buttonId": "MedivhForceofMagic",
+        "abilityId": "MedivhForceOfWill",
+        "icon": "storm_ui_icon_medivh_forceofwill_a.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "MedivhForceOfWill|MedivhForceOfWill|W"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "MedivhPolyBomb|MedivhPolyBomb|Heroic|Level10",
+        "talentId": "MedivhPolyBomb",
+        "buttonId": "MedivhPolyBomb",
+        "abilityId": "MedivhPolyBomb",
+        "icon": "storm_ui_icon_medivh_polybomb.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "MedivhLeyLineSeal|MedivhLeyLineSeal|Heroic|Level10",
+        "talentId": "MedivhLeyLineSeal",
+        "buttonId": "MedivhLeyLineSeal",
+        "abilityId": "MedivhLeyLineSeal",
+        "icon": "storm_ui_icon_medivh_leylineblast.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "MedivhForceOfWillCircleOfProtection|MedivhForceOfWillCircleOfProtection|W|Level13",
+        "talentId": "MedivhForceOfWillCircleOfProtection",
+        "buttonId": "MedivhForceOfWillCircleOfProtection",
+        "abilityId": "MedivhForceOfWill",
+        "icon": "storm_ui_icon_medivh_forceofwill.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MedivhForceOfWill|MedivhForceOfWill|W"
+        ]
+      },
+      {
+        "linkId": "MedivhForceOfWillEnduringWill|MedivhForceOfWillEnduringWill|W|Level13",
+        "talentId": "MedivhForceOfWillEnduringWill",
+        "buttonId": "MedivhForceOfWillEnduringWill",
+        "abilityId": "MedivhForceOfWill",
+        "icon": "storm_ui_icon_medivh_forceofwill_a.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "MedivhForceOfWill|MedivhForceOfWill|W"
+        ]
+      },
+      {
+        "linkId": "MedivhForceOfWillReabsorption|MedivhForceOfWillReabsorption|W|Level13",
+        "talentId": "MedivhForceOfWillReabsorption",
+        "buttonId": "MedivhForceOfWillReabsorption",
+        "abilityId": "MedivhForceOfWill",
+        "icon": "storm_ui_icon_medivh_forceofwill_b.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "MedivhForceOfWill|MedivhForceOfWill|W"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "MedivhArcaneRiftArcaneCharge|MedivhArcaneRiftArcaneCharge|Q|Level16",
+        "talentId": "MedivhArcaneRiftArcaneCharge",
+        "buttonId": "MedivhArcaneRiftArcaneCharge",
+        "abilityId": "MedivhArcaneRift",
+        "icon": "storm_ui_icon_medivh_arcanemissile.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MedivhArcaneRift|MedivhArcaneRift|Q"
+        ]
+      },
+      {
+        "linkId": "MedivhTemporalFlux|MedivhTemporalFlux|Q|Level16",
+        "talentId": "MedivhTemporalFlux",
+        "buttonId": "MedivhTemporalFlux",
+        "abilityId": "MedivhArcaneRift",
+        "icon": "storm_ui_icon_medivh_arcanemissile_a.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "MedivhArcaneRift|MedivhArcaneRift|Q"
+        ]
+      },
+      {
+        "linkId": "MedivhPortalStablePortal|MedivhPortalStablePortal|E|Level16",
+        "talentId": "MedivhPortalStablePortal",
+        "buttonId": "MedivhPortalStablePortal",
+        "abilityId": "MedivhPortalInstant",
+        "icon": "storm_ui_icon_medivh_portal.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "MedivhPortal2|MedivhPortal|E",
+          "MedivhPortalInstant|MedivhPortal|E"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "MedivhPolyBombGlyphOfPolyBomb|MedivhPolyBombGlyphOfPolyBomb|Heroic|Level20",
+        "talentId": "MedivhPolyBombGlyphOfPolyBomb",
+        "buttonId": "MedivhPolyBombGlyphOfPolyBomb",
+        "abilityId": "MedivhPolyBomb",
+        "icon": "storm_ui_icon_medivh_polybomb.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MedivhPolyBomb|MedivhPolyBomb|Heroic",
+          "MedivhPolyBombGlyphOfPolyBomb|MedivhPolyBomb|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "MedivhPolyBomb"
+        ]
+      },
+      {
+        "linkId": "MedivhLeyLineSealMedivhCheats|MedivhLeyLineSealMedivhCheats|Heroic|Level20",
+        "talentId": "MedivhLeyLineSealMedivhCheats",
+        "buttonId": "MedivhLeyLineSealMedivhCheats",
+        "abilityId": "MedivhLeyLineSeal",
+        "icon": "storm_ui_icon_medivh_leylineblast.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "MedivhLeyLineSeal|MedivhLeyLineSeal|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "MedivhLeyLineSeal"
+        ]
+      },
+      {
+        "linkId": "MedivhArcaneRiftGuardianOfTirisfal|MedivhArcaneRiftGuardianOfTirisfal|Q|Level20",
+        "talentId": "MedivhArcaneRiftGuardianOfTirisfal",
+        "buttonId": "MedivhArcaneRiftGuardianOfTirisfal",
+        "abilityId": "MedivhArcaneRift",
+        "icon": "storm_ui_icon_medivh_arcanemissile.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "MedivhArcaneRift|MedivhArcaneRift|Q"
+        ]
+      },
+      {
+        "linkId": "MedivhArcaneBrilliance|MedivhArcaneBrilliance|Active|Level20",
+        "talentId": "MedivhArcaneBrilliance",
+        "buttonId": "MedivhArcaneBrilliance",
+        "abilityId": "MedivhArcaneBrilliance",
+        "icon": "storm_ui_icon_jaina_arcaneintellect.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      },
+      {
+        "linkId": "MedivhDustofDisappearance|MedivhDustofDisappearance|Active|Level20",
+        "talentId": "MedivhDustofDisappearance",
+        "buttonId": "MedivhDustofDisappearance",
+        "abilityId": "MedivhDustofDisappearance",
+        "icon": "storm_ui_icon_medivh_invisibility.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 5
+      }
+    ]
+  },
+  "heroUnits": {
+    "HeroMedivhRaven": {
+      "radius": 0.75,
+      "innerRadius": 0.75,
+      "sight": 7,
+      "speed": 4.8398,
+      "attributes": [
+        "Heroic",
+        "ImmuneToAOE",
+        "ImmuneToFriendlyAbilities",
+        "ImmuneToSkillshots",
+        "NoMinionAggro"
+      ],
+      "scalingLinkIds": [
+        "ExcellentMana",
+        "HeroDummyVeterancy"
+      ],
+      "life": {
+        "amount": 1470,
+        "scale": 0.045,
+        "regenRate": 3.0625,
+        "regenScale": 0.045
+      },
+      "energy": {
+        "amount": 500,
+        "regenRate": 3
+      },
+      "playstyles": [
+        "EnergyImportant",
+        "Escaper",
+        "Helper",
+        "RoleSpecialist",
+        "WaveClearer"
+      ],
+      "portraits": {
+        "minimap": "storm_ui_minimapicon_medivh_raven.png",
+        "targetInfo": "storm_ui_ingame_partyframe_medivh.png"
+      },
+      "summonedUnitIds": [
+        "MedivhPortalCreation"
+      ],
+      "abilities": {
+        "Basic": [
+          {
+            "linkId": "MedivhArcaneRift|MedivhArcaneRift|Q",
+            "abilityId": "MedivhArcaneRift",
+            "buttonId": "MedivhArcaneRift",
+            "icon": "storm_ui_icon_medivh_arcanemissile.png",
+            "abilityType": "Q"
+          },
+          {
+            "linkId": "MedivhForceOfWill|MedivhForceOfWill|W",
+            "abilityId": "MedivhForceOfWill",
+            "buttonId": "MedivhForceOfWill",
+            "icon": "storm_ui_icon_medivh_forceofwill.png",
+            "abilityType": "W"
+          },
+          {
+            "linkId": "MedivhPortalInstant|MedivhPortal|E",
+            "abilityId": "MedivhPortalInstant",
+            "buttonId": "MedivhPortal",
+            "icon": "storm_ui_icon_medivh_portal.png",
+            "abilityType": "E"
+          }
+        ],
+        "Heroic": [
+          {
+            "linkId": "MedivhPolyBomb|MedivhPolyBomb|Heroic",
+            "abilityId": "MedivhPolyBomb",
+            "buttonId": "MedivhPolyBomb",
+            "icon": "storm_ui_icon_medivh_polybomb.png",
+            "abilityType": "Heroic"
+          },
+          {
+            "linkId": "MedivhLeyLineSeal|MedivhLeyLineSeal|Heroic",
+            "abilityId": "MedivhLeyLineSeal",
+            "buttonId": "MedivhLeyLineSeal",
+            "icon": "storm_ui_icon_medivh_leylineblast.png",
+            "abilityType": "Heroic"
+          }
+        ],
+        "Trait": [
+          {
+            "linkId": ":PASSIVE:|MedivhRavenForm|Trait",
+            "abilityId": ":PASSIVE:",
+            "buttonId": "MedivhRavenForm",
+            "icon": "storm_ui_icon_medivh_ravenform.png",
+            "abilityType": "Trait"
+          }
+        ],
+        "Mount": [
+          {
+            "linkId": "MedivhTransformRaven|MedivhTransformRaven|Z",
+            "abilityId": "MedivhTransformRaven",
+            "buttonId": "MedivhTransformRaven",
+            "icon": "storm_ui_icon_medivh_mount.png",
+            "abilityType": "Z"
+          }
+        ],
+        "Hearth": [
+          {
+            "linkId": "Hearthstone|Hearthstone|B",
+            "abilityId": "Hearthstone",
+            "buttonId": "Hearthstone",
+            "icon": "storm_ui_icon_miscrune_1.png",
+            "abilityType": "B"
+          }
+        ]
+      },
+      "subAbilities": {
+        "MedivhPolyBomb|MedivhPolyBomb|Heroic": {
+          "Heroic": [
+            {
+              "linkId": "MedivhPolyBombGlyphOfPolyBomb|MedivhPolyBomb|Heroic",
+              "abilityId": "MedivhPolyBombGlyphOfPolyBomb",
+              "buttonId": "MedivhPolyBomb",
+              "icon": "storm_ui_icon_medivh_polybomb.png",
+              "abilityType": "Heroic"
+            }
+          ]
+        },
+        "MedivhTransformRaven|MedivhTransformRaven|Z": {
+          "Mount": [
+            {
+              "linkId": "MedivhTransformRavenLand|MedivhTransformRavenLand|Z",
+              "abilityId": "MedivhTransformRavenLand",
+              "buttonId": "MedivhTransformRavenLand",
+              "icon": "storm_ui_icon_medivh_cancel_mount.png",
+              "toggleCooldown": 0.0625,
+              "abilityType": "Z"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "sheets": {
+    "abilities": {
+      "sheet": "sheets/Medivh/abilities.webp",
+      "icons": {
+        "storm_ui_icon_medivh_arcanemissile.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_medivh_forceofwill.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_medivh_portal.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_medivh_polybomb.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_medivh_leylineblast.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_medivh_ravenform.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_medivh_mount.png": [
+          0,
+          520,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          229,
+          390,
+          111,
+          71
+        ],
+        "storm_ui_icon_medivh_cancel_mount.png": [
+          342,
+          390,
+          76,
+          48
+        ],
+        "hud_btn_bg_ability_cancel.png": [
+          130,
+          390,
+          97,
+          111
+        ],
+        "storm_ui_icon_medivh_dustofappearance.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_medivh_leylineblast_redirect.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_jaina_arcaneintellect.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_medivh_invisibility.png": [
+          130,
+          130,
+          128,
+          128
+        ]
+      }
+    },
+    "talents": {
+      "sheet": "sheets/Medivh/talents.webp",
+      "icons": {
+        "storm_ui_icon_medivh_ravenform.png": [
+          130,
+          520,
+          128,
+          128
+        ],
+        "storm_ui_icon_medivh_ravenform_b.png": [
+          0,
+          520,
+          128,
+          128
+        ],
+        "storm_ui_icon_medivh_portal.png": [
+          260,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_medivh_portal_a.png": [
+          130,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_medivh_dustofappearance.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_medivh_arcanemissile.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_medivh_forceofwill.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_medivh_forceofwill_a.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_medivh_polybomb.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_medivh_leylineblast.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_medivh_forceofwill_b.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_medivh_arcanemissile_a.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_jaina_arcaneintellect.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_medivh_invisibility.png": [
+          130,
+          260,
+          128,
+          128
+        ]
+      }
+    },
+    "hero": {
+      "sheet": "sheets/Medivh/hero.webp",
+      "icons": {
+        "storm_ui_icon_medivh_arcanemissile.png": [
+          442,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_medivh_forceofwill.png": [
+          390,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_medivh_portal.png": [
+          130,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_medivh_polybomb.png": [
+          390,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_medivh_leylineblast.png": [
+          260,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_medivh_ravenform.png": [
+          390,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_medivh_mount.png": [
+          258,
+          717,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          193,
+          604,
+          111,
+          71
+        ],
+        "storm_ui_icon_medivh_cancel_mount.png": [
+          180,
+          717,
+          76,
+          48
+        ],
+        "hud_btn_bg_ability_cancel.png": [
+          0,
+          604,
+          97,
+          111
+        ],
+        "storm_ui_icon_medivh_dustofappearance.png": [
+          0,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_medivh_leylineblast_redirect.png": [
+          130,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_jaina_arcaneintellect.png": [
+          182,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_medivh_invisibility.png": [
+          0,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_medivh_ravenform_b.png": [
+          260,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_medivh_portal_a.png": [
+          0,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_medivh_forceofwill_a.png": [
+          130,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_medivh_forceofwill_b.png": [
+          260,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_medivh_arcanemissile_a.png": [
+          312,
+          0,
+          128,
+          128
+        ]
+      },
+      "portraits": {
+        "draftScreen": [
+          0,
+          0,
+          180,
+          212
+        ],
+        "minimap": [
+          336,
+          717,
+          32,
+          32
+        ],
+        "partyPanel": [
+          0,
+          717,
+          178,
+          56
+        ],
+        "target": [
+          99,
+          604,
+          92,
+          93
+        ],
+        "targetInfo": [
+          306,
+          604,
+          128,
+          56
+        ]
+      }
+    }
+  }
+}

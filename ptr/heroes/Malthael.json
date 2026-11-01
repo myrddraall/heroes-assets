@@ -1,0 +1,847 @@
+{
+  "id": "Malthael",
+  "unitId": "HeroMalthael",
+  "hyperlinkId": "Malthael",
+  "attributeId": "MALT",
+  "franchise": "Diablo",
+  "rarity": "Legendary",
+  "releaseDate": "2017-06-13",
+  "isMelee": true,
+  "gender": "Male",
+  "radius": 0.6875,
+  "innerRadius": 0.6875,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 6,
+    "damage": 7,
+    "survivability": 6,
+    "utility": 4
+  },
+  "life": {
+    "amount": 1962,
+    "scale": 0.04,
+    "regenRate": 4.086,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "BodyBlocker",
+    "DeadUpdater",
+    "EnergyImportant",
+    "Ganker",
+    "RoleAutoAttacker",
+    "SoloLaner",
+    "WaveClearer"
+  ],
+  "weapons": [
+    {
+      "nameId": "MalthaelHeroWeapon",
+      "isDisabled": false,
+      "range": 1.5,
+      "minimumRange": 0,
+      "period": 1.1,
+      "damage": 82,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "MalthaelGrave",
+    "MalthaelMecha19",
+    "MalthaelWinter17"
+  ],
+  "variationSkinIds": [
+    "MalthaelBaseVar1",
+    "MalthaelBaseVar2",
+    "MalthaelBaseVar3",
+    "MalthaelBaseVar4"
+  ],
+  "voiceLineIds": [
+    "MalthaelBase_VoiceLine01",
+    "MalthaelBase_VoiceLine02",
+    "MalthaelBase_VoiceLine03",
+    "MalthaelBase_VoiceLine04",
+    "MalthaelBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "MalthaelSoulRip|MalthaelSoulRip|Q",
+        "abilityId": "MalthaelSoulRip",
+        "buttonId": "MalthaelSoulRip",
+        "icon": "storm_ui_icon_malthael_soulrip.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "MalthaelWraithStrike|MalthaelWraithStrike|W",
+        "abilityId": "MalthaelWraithStrike",
+        "buttonId": "MalthaelWraithStrike",
+        "icon": "storm_ui_icon_malthael_wraithstrike.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "MalthaelDeathShroud|MalthaelDeathShroud|E",
+        "abilityId": "MalthaelDeathShroud",
+        "buttonId": "MalthaelDeathShroud",
+        "icon": "storm_ui_icon_malthael_deathshroud.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "MalthaelTormentedSouls|MalthaelTormentedSouls|Heroic",
+        "abilityId": "MalthaelTormentedSouls",
+        "buttonId": "MalthaelTormentedSouls",
+        "icon": "storm_ui_icon_malthael_tormentedsoul.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "MalthaelLastRites|MalthaelLastRites|Heroic",
+        "abilityId": "MalthaelLastRites",
+        "buttonId": "MalthaelLastRites",
+        "icon": "storm_ui_icon_malthael_lastrites.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": ":PASSIVE:|MalthaelReapersMark|Trait",
+        "abilityId": ":PASSIVE:",
+        "buttonId": "MalthaelReapersMark",
+        "icon": "storm_ui_icon_malthael_reapersmark.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "MalthaelFearTheReaper|MalthaelFearTheReaper|Active|Level1": {
+      "Activable": [
+        {
+          "linkId": "MalthaelFearTheReaper|MalthaelFearTheReaper|Active",
+          "abilityId": "MalthaelFearTheReaper",
+          "buttonId": "MalthaelFearTheReaper",
+          "icon": "storm_ui_icon_malthael_fearthereaper.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "MalthaelTouchOfDeath|MalthaelTouchOfDeath|Active|Level7": {
+      "Activable": [
+        {
+          "linkId": "MalthaelTouchOfDeath|MalthaelTouchOfDeath|Active",
+          "abilityId": "MalthaelTouchOfDeath",
+          "buttonId": "MalthaelTouchOfDeath",
+          "icon": "storm_ui_icon_malthael_touchofdeath.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "MalthaelInevitableEnd|MalthaelInevitableEnd|Active|Level13": {
+      "Activable": [
+        {
+          "linkId": "MalthaelInevitableEnd|MalthaelInevitableEnd|Active",
+          "abilityId": "MalthaelInevitableEnd",
+          "buttonId": "MalthaelInevitableEnd",
+          "icon": "storm_ui_icon_malthael_inevitableend.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "MalthaelShroudOfWisdom|MalthaelShroudOfWisdom|Active|Level13": {
+      "Activable": [
+        {
+          "linkId": "MalthaelShroudOfWisdom|MalthaelShroudOfWisdom|Active",
+          "abilityId": "MalthaelShroudOfWisdom",
+          "buttonId": "MalthaelShroudOfWisdom",
+          "icon": "storm_ui_icon_malthael_shroudofwisdom.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "MalthaelNoOneCanStopDeath|MalthaelNoOneCanStopDeath|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "MalthaelNoOneCanStopDeath|MalthaelNoOneCanStopDeath|Active",
+          "abilityId": "MalthaelNoOneCanStopDeath",
+          "buttonId": "MalthaelNoOneCanStopDeath",
+          "icon": "storm_ui_icon_malthael_noonecanstopdeath.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "MalthaelDeathsReach|MalthaelDeathsReach|W|Level1",
+        "talentId": "MalthaelDeathsReach",
+        "buttonId": "MalthaelDeathsReach",
+        "abilityId": "MalthaelWraithStrike",
+        "icon": "storm_ui_icon_malthael_wraithstrike.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MalthaelWraithStrike|MalthaelWraithStrike|W"
+        ]
+      },
+      {
+        "linkId": "MalthaelOnAPaleHorse|MalthaelOnAPaleHorse|Passive|Level1",
+        "talentId": "MalthaelOnAPaleHorse",
+        "buttonId": "MalthaelOnAPaleHorse",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_malthael_onpalehorse.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "Dismount|UnsummonMount|Z",
+          "Mount|SummonMount|Z"
+        ]
+      },
+      {
+        "linkId": "MalthaelFearTheReaper|MalthaelFearTheReaper|Active|Level1",
+        "talentId": "MalthaelFearTheReaper",
+        "buttonId": "MalthaelFearTheReaper",
+        "abilityId": "MalthaelFearTheReaper",
+        "icon": "storm_ui_icon_malthael_fearthereaper.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "MalthaelDieAlone|MalthaelDieAlone|Q|Level4",
+        "talentId": "MalthaelDieAlone",
+        "buttonId": "MalthaelDieAlone",
+        "abilityId": "MalthaelSoulRip",
+        "icon": "storm_ui_icon_malthael_soulrip.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MalthaelSoulRip|MalthaelSoulRip|Q"
+        ]
+      },
+      {
+        "linkId": "MalthaelThrowingShade|MalthaelThrowingShade|E|Level4",
+        "talentId": "MalthaelThrowingShade",
+        "buttonId": "MalthaelThrowingShade",
+        "abilityId": "MalthaelDeathShroud",
+        "icon": "storm_ui_icon_malthael_deathshroud.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "MalthaelDeathShroud|MalthaelDeathShroud|E"
+        ]
+      },
+      {
+        "linkId": "MalthaelBlackHarvest|MalthaelBlackHarvest|Trait|Level4",
+        "talentId": "MalthaelBlackHarvest",
+        "buttonId": "MalthaelBlackHarvest",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_malthael_reapersmark.png",
+        "abilityType": "Trait",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|MalthaelReapersMark|Trait"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "MalthaelColdHand|MalthaelColdHand|Q|Level7",
+        "talentId": "MalthaelColdHand",
+        "buttonId": "MalthaelColdHand",
+        "abilityId": "MalthaelSoulRip",
+        "icon": "storm_ui_icon_malthael_soulrip.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MalthaelSoulRip|MalthaelSoulRip|Q"
+        ]
+      },
+      {
+        "linkId": "MalthaelMassacre|MalthaelMassacre|W|Level7",
+        "talentId": "MalthaelMassacre",
+        "buttonId": "MalthaelMassacre",
+        "abilityId": "MalthaelWraithStrike",
+        "icon": "storm_ui_icon_malthael_wraithstrike.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "MalthaelWraithStrike|MalthaelWraithStrike|W"
+        ]
+      },
+      {
+        "linkId": "MalthaelTouchOfDeath|MalthaelTouchOfDeath|Active|Level7",
+        "talentId": "MalthaelTouchOfDeath",
+        "buttonId": "MalthaelTouchOfDeath",
+        "abilityId": "MalthaelTouchOfDeath",
+        "icon": "storm_ui_icon_malthael_touchofdeath.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "MalthaelTormentedSouls|MalthaelTormentedSouls|Heroic|Level10",
+        "talentId": "MalthaelTormentedSouls",
+        "buttonId": "MalthaelTormentedSouls",
+        "abilityId": "MalthaelTormentedSouls",
+        "icon": "storm_ui_icon_malthael_tormentedsoul.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "MalthaelLastRites|MalthaelLastRites|Heroic|Level10",
+        "talentId": "MalthaelLastRites",
+        "buttonId": "MalthaelLastRites",
+        "abilityId": "MalthaelLastRites",
+        "icon": "storm_ui_icon_malthael_lastrites.png",
+        "abilityType": "Heroic",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "MalthaelSoulSiphon|MalthaelSoulSiphon|Q|Level13",
+        "talentId": "MalthaelSoulSiphon",
+        "buttonId": "MalthaelSoulSiphon",
+        "abilityId": "MalthaelSoulRip",
+        "icon": "storm_ui_icon_malthael_soulrip.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MalthaelSoulRip|MalthaelSoulRip|Q"
+        ]
+      },
+      {
+        "linkId": "MalthaelEtherealExistence|MalthaelEtherealExistence|Trait|Level13",
+        "talentId": "MalthaelEtherealExistence",
+        "buttonId": "MalthaelEtherealExistence",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_malthael_reapersmark.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|MalthaelReapersMark|Trait"
+        ]
+      },
+      {
+        "linkId": "MalthaelInevitableEnd|MalthaelInevitableEnd|Active|Level13",
+        "talentId": "MalthaelInevitableEnd",
+        "buttonId": "MalthaelInevitableEnd",
+        "abilityId": "MalthaelInevitableEnd",
+        "icon": "storm_ui_icon_malthael_inevitableend.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      },
+      {
+        "linkId": "MalthaelShroudOfWisdom|MalthaelShroudOfWisdom|Active|Level13",
+        "talentId": "MalthaelShroudOfWisdom",
+        "buttonId": "MalthaelShroudOfWisdom",
+        "abilityId": "MalthaelShroudOfWisdom",
+        "icon": "storm_ui_icon_malthael_shroudofwisdom.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "MalthaelSoulCollector|MalthaelSoulCollector|Q|Level16",
+        "talentId": "MalthaelSoulCollector",
+        "buttonId": "MalthaelSoulCollector",
+        "abilityId": "MalthaelSoulRip",
+        "icon": "storm_ui_icon_malthael_soulrip.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MalthaelSoulRip|MalthaelSoulRip|Q"
+        ]
+      },
+      {
+        "linkId": "MalthaelMortality|MalthaelMortality|W|Level16",
+        "talentId": "MalthaelMortality",
+        "buttonId": "MalthaelMortality",
+        "abilityId": "MalthaelWraithStrike",
+        "icon": "storm_ui_icon_malthael_wraithstrike.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "MalthaelWraithStrike|MalthaelWraithStrike|W"
+        ]
+      },
+      {
+        "linkId": "MalthaelMementoMori|MalthaelMementoMori|Trait|Level16",
+        "talentId": "MalthaelMementoMori",
+        "buttonId": "MalthaelMementoMori",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_malthael_reapersmark.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|MalthaelReapersMark|Trait"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "MalthaelReaperOfSouls|MalthaelReaperOfSouls|Heroic|Level20",
+        "talentId": "MalthaelReaperOfSouls",
+        "buttonId": "MalthaelReaperOfSouls",
+        "abilityId": "MalthaelTormentedSouls",
+        "icon": "storm_ui_icon_malthael_tormentedsoul.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MalthaelTormentedSouls|MalthaelTormentedSouls|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "MalthaelTormentedSouls"
+        ]
+      },
+      {
+        "linkId": "MalthaelAngelOfDeath|MalthaelAngelOfDeath|Heroic|Level20",
+        "talentId": "MalthaelAngelOfDeath",
+        "buttonId": "MalthaelAngelOfDeath",
+        "abilityId": "MalthaelLastRites",
+        "icon": "storm_ui_icon_malthael_lastrites.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "MalthaelLastRites|MalthaelLastRites|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "MalthaelLastRites"
+        ]
+      },
+      {
+        "linkId": "MalthaelFinalCurtain|MalthaelFinalCurtain|E|Level20",
+        "talentId": "MalthaelFinalCurtain",
+        "buttonId": "MalthaelFinalCurtain",
+        "abilityId": "MalthaelDeathShroud",
+        "icon": "storm_ui_icon_malthael_deathshroud.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "MalthaelDeathShroud|MalthaelDeathShroud|E"
+        ]
+      },
+      {
+        "linkId": "MalthaelNoOneCanStopDeath|MalthaelNoOneCanStopDeath|Active|Level20",
+        "talentId": "MalthaelNoOneCanStopDeath",
+        "buttonId": "MalthaelNoOneCanStopDeath",
+        "abilityId": "MalthaelNoOneCanStopDeath",
+        "icon": "storm_ui_icon_malthael_noonecanstopdeath.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      }
+    ]
+  },
+  "sheets": {
+    "abilities": {
+      "sheet": "sheets/Malthael/abilities.webp",
+      "icons": {
+        "storm_ui_icon_malthael_soulrip.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_malthael_wraithstrike.png": [
+          130,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_malthael_deathshroud.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_malthael_tormentedsoul.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_malthael_lastrites.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_malthael_reapersmark.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          0,
+          520,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          260,
+          390,
+          111,
+          71
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          373,
+          390,
+          76,
+          48
+        ],
+        "storm_ui_icon_malthael_fearthereaper.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_malthael_touchofdeath.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_malthael_inevitableend.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_malthael_shroudofwisdom.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_malthael_noonecanstopdeath.png": [
+          130,
+          130,
+          128,
+          128
+        ]
+      }
+    },
+    "talents": {
+      "sheet": "sheets/Malthael/talents.webp",
+      "icons": {
+        "storm_ui_icon_malthael_wraithstrike.png": [
+          260,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_malthael_onpalehorse.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_malthael_fearthereaper.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_malthael_soulrip.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_malthael_deathshroud.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_malthael_reapersmark.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_malthael_touchofdeath.png": [
+          130,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_malthael_tormentedsoul.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_malthael_lastrites.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_malthael_inevitableend.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_malthael_shroudofwisdom.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_malthael_noonecanstopdeath.png": [
+          130,
+          130,
+          128,
+          128
+        ]
+      }
+    },
+    "hero": {
+      "sheet": "sheets/Malthael/hero.webp",
+      "icons": {
+        "storm_ui_icon_malthael_soulrip.png": [
+          260,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_malthael_wraithstrike.png": [
+          130,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_malthael_deathshroud.png": [
+          182,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_malthael_tormentedsoul.png": [
+          390,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_malthael_lastrites.png": [
+          130,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_malthael_reapersmark.png": [
+          0,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          388,
+          604,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          354,
+          474,
+          111,
+          71
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          310,
+          604,
+          76,
+          48
+        ],
+        "storm_ui_icon_malthael_fearthereaper.png": [
+          312,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_malthael_touchofdeath.png": [
+          0,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_malthael_inevitableend.png": [
+          0,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_malthael_shroudofwisdom.png": [
+          130,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_malthael_noonecanstopdeath.png": [
+          260,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_malthael_onpalehorse.png": [
+          390,
+          214,
+          128,
+          128
+        ]
+      },
+      "portraits": {
+        "draftScreen": [
+          0,
+          0,
+          180,
+          212
+        ],
+        "minimap": [
+          466,
+          604,
+          32,
+          32
+        ],
+        "partyPanel": [
+          130,
+          604,
+          178,
+          56
+        ],
+        "target": [
+          260,
+          474,
+          92,
+          93
+        ],
+        "targetInfo": [
+          0,
+          604,
+          128,
+          56
+        ]
+      }
+    }
+  }
+}

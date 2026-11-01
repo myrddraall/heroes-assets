@@ -1,0 +1,200 @@
+{
+  "abilities": {
+    "DeathwingMoltenFlame|DeathwingMoltenFlame|Q": {
+      "cooldownText": "재사용 대기시간: 3초",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">기력: 10</s>",
+      "fullText": "<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c>초 후, 화염 줄기를 내뿜어 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.125</c>초마다 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 피해를 줍니다. 초당 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30</c>의 기력이 소모됩니다.",
+      "name": "이글거리는 화염",
+      "shortText": "이글거리는 화염 줄기로 적들을 녹임"
+    },
+    "DeathwingIncinerate|DeathwingIncinerate|W": {
+      "cooldownText": "재사용 대기시간: 7초",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">기력: 30</s>",
+      "fullText": "<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.75</c>초 후, 날개를 퍼덕여 주위 적들에게 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 피해를 줍니다.<n/><n/><c val=\"d8ab80-87564b\" hlt-name=\"#DeathwingWorldBreaker\">세계 파괴자: 용암 폭발</c><n/>피해를 주고 느려지게 하는 용암 웅덩이를 만듭니다.",
+      "name": "소각",
+      "shortText": "주위 적들에게 피해를 줌"
+    },
+    "DeathwingLavaBurst|DeathwingLavaBurst|W": {
+      "cooldownText": "재사용 대기시간: 9초",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">기력: 25</s>",
+      "fullText": "<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>초 후, 마그마를 폭발시켜 대상 지역의 모든 적에게 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 피해를 줍니다. 폭발한 마그마는 웅덩이를 남겨 범위 안의 적들에게 초당 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">28</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 피해를 주고 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">45%</c> 느려지게 합니다. <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c>초 동안 지속됩니다.<n/><n/><c val=\"ef6e28-ad231e\" hlt-name=\"#DeathwingDestroyer\">파괴자: 소각</c><n/>주위 적들에게 피해를 줍니다.",
+      "name": "용암 폭발",
+      "shortText": "피해를 주고 느려지게 하는 용암 웅덩이를 만듦"
+    },
+    "DeathwingCataclysm|DeathwingCataclysm|Heroic": {
+      "cooldownText": "재사용 대기시간: 90초",
+      "fullText": "<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>초 후, 대상 방향으로 날며 땅을 불태워 경로상의 적들에게 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">90</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 피해를 주고 초당 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">36</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 피해를 주는 흔적을 남깁니다. <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c>초 동안 지속됩니다.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">퀘스트:</c> 이글거리는 화염으로 적 영웅을 적중하면 중첩을 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> 획득합니다.<n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">퀘스트:</c> 적 영웅을 처치하면 중첩을 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50</c> 획득합니다.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">신화 보상:</c> <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2000</c>중첩에 도달하면 데스윙이 황혼의 시간을 불러옵니다. 대격변이 구조물에 가하는 지속 피해가 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2,500%</c> 증가합니다.",
+      "name": "대격변",
+      "shortText": "한 방향으로 비행하며 지나온 길을 황폐화시킴"
+    },
+    ":PASSIVE:|DeathwingAspectOfDeath|Trait": {
+      "fullText": "방어력을 각각 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> 증가시키는 갑옷을 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>개 장착하고 있습니다. 생명력을 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> 잃을 때마다 갑옷을 하나씩 잃습니다. 갑옷은 용의 비상으로만 복구할 수 있으며, 착지하는 순간의 생명력에 따라 복구됩니다.<n/><n/>또한, 강력한 용의 위상으로 영구적으로 저지 불가 상태이며 영웅에게 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c>의 추가 피해를 주지만, 아군을 경멸하여 그들의 모든 우호적 효과를 무시합니다.",
+      "name": "죽음의 위상",
+      "shortText": "위력이 특히 강하지만 우호적 효과를 무시"
+    },
+    "DeathwingDragonflight|DeathwingDragonflight|Z": {
+      "cooldownText": "재사용 대기시간: 20초",
+      "fullText": "<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>초 후, 하늘로 날아올라 모든 효과에 면역이 되고 초당 생명력의 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5%</c>를 회복합니다. 시전을 시작하면 피해를 받아도 중단되지 않습니다. 피해를 받거나 일반 공격 및 기술 공격을 하면 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c>초간 사용할 수 없습니다.",
+      "name": "용의 비상",
+      "shortText": "하늘로 날아오름"
+    },
+    "Hearthstone|DeathwingHearthstone|B": {
+      "fullText": "<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c>초 동안 정신을 집중한 후, 폭풍의 전당으로 귀환합니다.",
+      "name": "귀환석"
+    },
+    "DeathwingMoltenFlameCancel|DeathwingMoltenFlameCancel|Q": {
+      "fullText": "<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c>초 후, 화염 줄기를 내뿜어 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.125</c>초마다 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 피해를 줍니다. 초당 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30</c>의 기력이 소모됩니다.",
+      "name": "취소"
+    },
+    "DeathwingOnslaught|DeathwingOnslaught|E": {
+      "cooldownText": "재사용 대기시간: 6초",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">기력: 20</s>",
+      "fullText": "<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c>초 후, 한 방향으로 돌진하여 적들에게 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 피해를 주고 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>초 동안 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35%</c> 느려지게 합니다. 뛰어든 후에는 적들을 물어 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">120</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 추가 피해를 줍니다.<n/><n/><c val=\"d8ab80-87564b\" hlt-name=\"#DeathwingWorldBreaker\">세계 파괴자: 대지 분쇄</c><n/>두 줄로 적에게 피해를 주고 기절시킵니다.",
+      "name": "맹격",
+      "shortText": "한 방향으로 돌진"
+    },
+    "DeathwingEarthShatter|DeathwingEarthShatter|E": {
+      "cooldownText": "재사용 대기시간: 12초",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">기력: 25</s>",
+      "fullText": "대지에 균열을 만들어 적중한 적들에게 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">90</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 피해를 주고 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.75</c>초 동안 기절시킵니다.<n/><n/><c val=\"ef6e28-ad231e\" hlt-name=\"#DeathwingDestroyer\">파괴자: 맹격</c><n/>한 방향으로 돌진합니다.",
+      "name": "대지 분쇄",
+      "shortText": "두 줄로 적에게 피해를 주고 기절시킴"
+    },
+    "DeathwingDestroyerForm|DeathwingDestroyer|Q": {
+      "cooldownText": "재사용 대기시간: 8초",
+      "fullText": "<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.75</c>초 후, 지상을 강타해 대상 지역 안의 적들에게 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 피해를 주고 <c val=\"ef6e28-ad231e\" hlt-name=\"#DeathwingDestroyer\">파괴자</c> 형상으로 착지합니다. 착지하고 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>초 후부터 기술을 사용할 수 있습니다.",
+      "name": "파괴자",
+      "shortText": "파괴자 형상으로 지상에 착지"
+    },
+    "DeathwingWorldbreakerForm|DeathwingWorldbreaker|W": {
+      "cooldownText": "재사용 대기시간: 8초",
+      "fullText": "<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.75</c>초 후, 지상을 강타해 대상 지역 안의 적들에게 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 피해를 주고 <c val=\"d8ab80-87564b\" hlt-name=\"#DeathwingWorldBreaker\">세계 파괴자</c> 형상으로 착지합니다. 착지하고 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>초 후부터 기술을 사용할 수 있습니다.",
+      "name": "세계 파괴자",
+      "shortText": "세계 파괴자 형상으로 지상에 착지"
+    },
+    "DeathwingSkyfall|DeathwingSkyfallActive|E": {
+      "cooldownText": "충전 대기시간: 10초",
+      "fullText": "<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.8</c>초 후, 하늘에서 유성우가 내려 대상 지역 안의 적들에게 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">58</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 피해를 줍니다.<n/><n/>영웅에게 적중하면 최대 생명력의 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3%</c>를 회복합니다.",
+      "name": "하늘붕괴",
+      "shortText": "용의 비상 중 유성우를 떨어뜨림"
+    },
+    "DeathwingBellowingRoar|DeathwingBellowingRoar|Active": {
+      "cooldownText": "재사용 대기시간: 60초",
+      "fullText": "<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>초 후, 맹렬한 포효로 주위 영웅들에게 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 피해를 주고 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c>초 동안 공포에 질려 달아나게 합니다.",
+      "name": "우레의 포효",
+      "shortText": "포효로 주위 영웅들을 공포에 질리게 함"
+    },
+    "DeathwingElementiumPlating|DeathwingElementiumPlating|Active": {
+      "cooldownText": "재사용 대기시간: 60초",
+      "fullText": "사용하면 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c>초 동안 잃은 생명력의 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c>에 해당하는 보호막을 얻습니다. 보호막이 지속되는 동안 초당 최대 생명력의 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2%</c>를 회복합니다. <n/><n/>보호막이 만료되거나 파괴될 때 새로운 생명력에 맞는 갑옷을 다시 획득합니다.<n/><n/>용의 비상을 사용하면 보호막과 효과가 즉시 사라집니다.",
+      "name": "엘레멘티움 갑옷",
+      "shortText": "사용 시 보호막 획득 및 생명력 회복"
+    }
+  },
+  "talents": {
+    "DeathwingDragonSoul|DeathwingDragonSoul|W|Level1": {
+      "fullText": "<c val=\"ef6e28-ad231e\" hlt-name=\"#DeathwingDestroyer\">파괴자:</c> <c val=\"ef6e28-ad231e\" hlt-name=\"#DeathwingDestroyer\">소각</c>으로 적 영웅에게 준 피해의 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c>만큼 생명력을 회복합니다.<n/><n/><c val=\"d8ab80-87564b\" hlt-name=\"#DeathwingWorldBreaker\">세계 파괴자:</c> <c val=\"ef6e28-ad231e\" hlt-name=\"#DeathwingDestroyer\">용암 폭발</c>의 폭발로 적 영웅에게 준 피해의 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">200%</c>만큼 생명력을 회복합니다.",
+      "name": "용의 영혼",
+      "shortText": "<c val=\"ef6e28-ad231e\" hlt-name=\"#DeathwingDestroyer\">소각</c>과 <c val=\"d8ab80-87564b\" hlt-name=\"#DeathwingWorldBreaker\">용암 폭발</c>로 생명력 회복"
+    },
+    "DeathwingMoltenBlood|DeathwingMoltenBlood|Trait|Level1": {
+      "fullText": "갑옷이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>개 이상이면 초당 최대 생명력의 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.6%</c>를 회복합니다.",
+      "name": "용암의 피",
+      "shortText": "갑옷이 생명력을 더 빠르게 회복시킴"
+    },
+    "DeathwingDraconicMight|DeathwingDraconicMight|Trait|Level1": {
+      "fullText": "일반 공격으로 적 영웅에게 준 피해의 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>만큼 생명력을 회복합니다. 갑옷을 하나 잃으면 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.75</c>초 동안 보호 상태가 됩니다.",
+      "name": "용족의 권능",
+      "shortText": "갑옷을 잃으면 보호 상태가 됨, 일반 공격으로 생명력 회복"
+    },
+    "DeathwingInfernus|DeathwingInfernus|Q|Level4": {
+      "fullText": "이글거리는 화염이 적 영웅에게 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>의 추가 피해를 줍니다. 기력이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75</c> 이상일 때에는 추가 공격력이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75%</c>로 증가합니다.",
+      "name": "지옥불",
+      "shortText": "기력이 높을 때 이글거리는 화염의 공격력 증가"
+    },
+    "DeathwingHeatWave|DeathwingHeatWave|W|Level4": {
+      "fullText": "<c val=\"ef6e28-ad231e\" hlt-name=\"#DeathwingDestroyer\">파괴자:</c> <c val=\"ef6e28-ad231e\" hlt-name=\"#DeathwingDestroyer\">소각</c>이 적중한 적 영웅 하나당 다음 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">9</c>초 동안 주위 모든 적에게 초당 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">18</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 피해를 줍니다. 최대 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>회 중첩됩니다.<n/><n/><c val=\"d8ab80-87564b\" hlt-name=\"#DeathwingWorldBreaker\">세계 파괴자:</c> <c val=\"d8ab80-87564b\" hlt-name=\"#DeathwingWorldBreaker\">용암 폭발</c>의 폭발 공격력이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150%</c> 증가합니다.",
+      "name": "열기의 파도",
+      "shortText": "<c val=\"ef6e28-ad231e\" hlt-name=\"#DeathwingDestroyer\">소각</c> 및 <c val=\"d8ab80-87564b\" hlt-name=\"#DeathwingWorldBreaker\">용암 폭발</c> 공격력 증가"
+    },
+    "DeathwingDragonsIre|DeathwingDragonsIre|Trait|Level4": {
+      "fullText": "갑옷이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>개 이하면 공격력이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> 증가합니다.",
+      "name": "용의 분노",
+      "shortText": "갑옷을 잃으면 공격력 증가"
+    },
+    "DeathwingFirestorm|DeathwingFirestorm|Z|Level7": {
+      "fullText": "착지 대기시간이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>초 감소합니다. 착지할 때, 착지한 위치 주변에 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">7</c>개의 유성우를 내려 적중한 적들에게 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">77</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 피해를 줍니다. <n/><n/>유성우는 영웅을 우선시하지만, 대상 지역 안에 영웅이 없으면 무작위로 떨어집니다.",
+      "name": "화염폭풍",
+      "shortText": "착지 시 유성을 내리게 하고 착지 대기시간 감소"
+    },
+    "DeathwingDeathDrop|DeathwingDeathDrop|Z|Level7": {
+      "fullText": "<c val=\"ef6e28-ad231e\" hlt-name=\"#DeathwingDestroyer\">파괴자</c> 또는 <c val=\"d8ab80-87564b\" hlt-name=\"#DeathwingWorldBreaker\">세계 파괴자의</c> 착지가 적 영웅에게 적중하면 일반 기술의 재사용 대기시간이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>초 감소하고 대상의 기술 방어력을 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>초 동안 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> 감소시킵니다.",
+      "name": "죽음의 낙하",
+      "shortText": "적 영웅에게 착지하면 대상의 기술 방어력 감소"
+    },
+    "DeathwingSkyfall|DeathwingSkyfall|E|Level7": {
+      "cooldownText": "충전 대기시간: 10초",
+      "fullText": "용의 비상 사용 후, 시야가 확보된 곳 어디에든 유성우를 떨어뜨려 대상 지역 안의 적들에게 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">58</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 피해를 줍니다. 총 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>회 충전됩니다.<n/><n/>영웅에게 적중하면 최대 생명력의 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3%</c>를 회복합니다.",
+      "name": "하늘붕괴",
+      "shortText": "유성우를 떨어뜨려 생명력 회복"
+    },
+    "DeathwingBurnBeneathMyShadow|DeathwingBurnBeneathMyShadow|Heroic|Level10": {
+      "fullText": "적 요새 또는 성채가 파괴되면 대격변의 재사용 대기시간이 초기화됩니다. 대격변의 지속 피해량이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">80%</c> 증가합니다.",
+      "name": "내 그림자 아래 불타올라라",
+      "shortText": "요새나 성채를 파괴하면 대격변 즉시 재사용 가능"
+    },
+    "DeathwingBellowingRoar|DeathwingBellowingRoarTalent|Active|Level10": {
+      "cooldownText": "재사용 대기시간: 60초",
+      "fullText": "<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>초 후, 맹렬한 포효로 주위 영웅들에게 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 피해를 주고  <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c>초 동안 공포에 질려 달아나게 합니다.",
+      "name": "우레의 포효",
+      "shortText": "포효로 주위 영웅들을 공포에 질리게 함"
+    },
+    "DeathwingWickedInferno|DeathwingWickedInferno|Q|Level13": {
+      "fullText": "이글거리는 화염의 초당 기력 소모량이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> 감소합니다. 이글거리는 화염을 사용한 후, <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>초에 걸쳐 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c>의 기력을 회복합니다.",
+      "name": "부정한 지옥불",
+      "shortText": "이글거리는 화염의 기력 소모량 감소"
+    },
+    "DeathwingRuination|DeathwingRuination|E|Level13": {
+      "fullText": "<c val=\"ef6e28-ad231e\" hlt-name=\"#DeathwingDestroyer\">파괴자:</c> <c val=\"ef6e28-ad231e\" hlt-name=\"#DeathwingDestroyer\">맹격</c>의 물기가 대상을 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c>초 동안 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60%</c> 느려지게 합니다.<n/><n/><c val=\"d8ab80-87564b\" hlt-name=\"#DeathwingWorldBreaker\">세계 파괴자:</c> <c val=\"d8ab80-87564b\" hlt-name=\"#DeathwingWorldBreaker\">대지 분쇄</c>의 재사용 대기시간이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c>초 감소하고 기력 소모량이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> 감소합니다.",
+      "name": "초토화",
+      "shortText": "<c val=\"ef6e28-ad231e\" hlt-name=\"#DeathwingDestroyer\">맹격</c> 물기가 적을 느려지게 하고, <c val=\"d8ab80-87564b\" hlt-name=\"#DeathwingWorldBreaker\">대지 분쇄</c> 기력 소모량 감소"
+    },
+    "DeathwingFireAndFury|DeathwingFireAndFury|Passive|Level13": {
+      "fullText": "기절, 감속, 이동 불가 상태인 적 영웅에게 일반 공격을 하면 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c>의 추가 피해를 주고 일반 기술의 재사용 대기시간이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c>초 감소합니다.",
+      "name": "불과 격노",
+      "shortText": "일반 공격이 무력화된 적들에게 추가 피해"
+    },
+    "DeathwingConflagration|DeathwingConflagration|Q|Level16": {
+      "fullText": "이글거리는 화염으로 적 영웅에게 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>초 안에 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">320</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 피해를 주면 대상을 불타게 만들어 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>초에 걸쳐 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 피해를 줍니다. 불길은 타는 동안 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>초 마다 폭발해 주위 모든 적에게 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">80</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 피해를 줍니다.",
+      "name": "대화재",
+      "shortText": "이글거리는 화염이 영웅에게 폭발하는 불길을 붙임"
+    },
+    "DeathwingGazeOntoDestruction|DeathwingGazeOntoDestruction|Z|Level16": {
+      "fullText": "<c val=\"ef6e28-ad231e\" hlt-name=\"#DeathwingDestroyer\">파괴자</c> 또는 <c val=\"d8ab80-87564b\" hlt-name=\"#DeathwingWorldBreaker\">세계 파괴자의</c> 착지가 적 영웅에게 적중하면 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3.5</c>초 동안 대상의 공격력이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75%</c> 감소하고 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> 느려집니다.",
+      "name": "파괴를 목도하라",
+      "shortText": "영웅 위로 착지하면 대상이 느려지고 공격력 감소"
+    },
+    "DeathwingElementiumPlating|DeathwingElementiumPlatingTalent|Active|Level16": {
+      "cooldownText": "재사용 대기시간: 60초",
+      "fullText": "사용하면 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c>초 동안 잃은 생명력의 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c>에 해당하는 보호막을 얻습니다. 보호막이 지속되는 동안 초당 최대 생명력의 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2%</c>를 회복합니다. <n/><n/>보호막이 만료되거나 파괴될 때 새로운 생명력에 맞는 갑옷을 다시 획득합니다.<n/><n/>용의 비상을 사용하면 보호막과 효과가 즉시 사라집니다.",
+      "name": "엘레멘티움 갑옷",
+      "shortText": "사용 시 보호막 획득 및 생명력 회복"
+    },
+    "DeathwingStoodInTheFire|DeathwingStoodInTheFire|Heroic|Level20": {
+      "fullText": "불타는 땅 위에 있는 모든 적이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> 느려지며, 흔적의 지속 시간이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> 증가합니다.",
+      "name": "불길 속으로",
+      "shortText": "대격변이 적을 느려지게 함, 지속 시간 증가"
+    },
+    "DeathwingArrivalOfAGod|DeathwingArrivalOfAGod|Z|Level20": {
+      "fullText": "<c val=\"ef6e28-ad231e\" hlt-name=\"#DeathwingDestroyer\">파괴자</c> 또는 <c val=\"d8ab80-87564b\" hlt-name=\"#DeathwingWorldBreaker\">세계 파괴자의</c> 착지 공격력이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">400%</c> 증가합니다.<n/><n/>또한, 모든 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">7</c>레벨 특성을 습득합니다.",
+      "name": "신의 강림",
+      "shortText": "착지 공격력이 증가하고 모든 7레벨 특성 습득"
+    },
+    "DeathwingDestroyersRampage|DeathwingDestroyersRampage|Trait|Level20": {
+      "fullText": "<c val=\"ef6e28-ad231e\" hlt-name=\"#DeathwingDestroyer\">파괴자</c> 형태로 착지한 후 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>초 동안 공격력이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> 증가하고, 일반 기술의 재사용 대기시간이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> 더 빨리 감소합니다.<n/><n/>영웅에게 피해를 주면 이 효과의 지속 시간이 갱신됩니다.",
+      "name": "파괴자의 광란",
+      "shortText": "<c val=\"ef6e28-ad231e\" hlt-name=\"#DeathwingDestroyer\">파괴자</c> 형상으로 착지한 뒤 공격력 강화"
+    }
+  },
+  "units": {}
+}

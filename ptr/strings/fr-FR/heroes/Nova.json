@@ -1,0 +1,187 @@
+{
+  "abilities": {
+    "NovaSnipeStorm|NovaSnipe|Q": {
+      "cooldownText": "Temps de recharge : 6 secondes",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana : 50</s>",
+      "fullText": "Inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">230</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> points de dégâts au premier ennemi touché.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Effet passif :</c> toucher un héros adverse avec Tir de précision augmente les dégâts de cette capacité de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6%</c>, cumulables jusqu’à <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c>. Une fois ce maximum atteint, les dégâts augmentent encore de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>. Tous les cumuls sont perdus si Tir de précision ne touche aucun ennemi.",
+      "name": "Tir de précision",
+      "shortText": "Tire une balle qui inflige d’importants dégâts au premier ennemi touché."
+    },
+    "NovaPinningShot|NovaPinningShot|W": {
+      "cooldownText": "Temps de recharge :<sp/>12 secondes",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana : 65</s>",
+      "fullText": "Inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> points de dégâts à un ennemi et le ralentit de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> pendant <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.25</c> secondes.",
+      "name": "Tir anesthésiant",
+      "shortText": "Inflige des dégâts et ralentit un ennemi."
+    },
+    "NovaHoloDecoy|NovaHoloDecoy|E": {
+      "cooldownText": "Temps de recharge : 15 secondes",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana : 50</s>",
+      "fullText": "Génère pendant <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> secondes un hologramme qui dispose de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> des points de vie actuels de Nova et qui inflige aux adversaires <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c> des dégâts d’attaque de base de Nova. Tous les dégâts subis par l’hologramme sont doublés.<n/><n/>L’utilisation de cette capacité ne dissipe pas le camouflage.",
+      "name": "Hologramme",
+      "shortText": "Crée un leurre holographique de Nova."
+    },
+    "NovaTripleTap|NovaTripleTap|Heroic": {
+      "cooldownText": "Temps de recharge : 100 secondes",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana : 100</s>",
+      "fullText": "Verrouille le héros ciblé puis tire <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> coups qui frappent le premier héros ou bâtiment sur la trajectoire. Chaque tir inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">372</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> points de dégâts.",
+      "name": "Salve",
+      "shortText": "Tire 3 fois sur une cible."
+    },
+    "NovaPrecisionStrike|NovaPrecisionStrike|Heroic": {
+      "cooldownText": "Temps de recharge :<sp/>50 secondes",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana : 100</s>",
+      "fullText": "Après <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> seconde, inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">435</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> points de dégâts aux ennemis dans une zone. Portée illimitée.",
+      "name": "Frappe chirurgicale",
+      "shortText": "Attaque de zone à portée illimitée."
+    },
+    ":PASSIVE:|NovaPermanentCloak|Trait": {
+      "fullText": "Camoufle Nova après <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3 </c> secondes passées sans combattre. Subir des dégâts, attaquer, utiliser ou canaliser une capacité dissipe le camouflage. Si elle reste immobile un minimum de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> seconde en étant camouflée, Nova devient invisible.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Effet passif :</c> augmente la vitesse de déplacement de Nova de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c> tant qu’elle est camouflée.",
+      "name": "Camouflage permanent",
+      "shortText": "Camoufle et augmente la vitesse de déplacement tant qu’aucun point de dégâts n’est infligé ou subi."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Temps de recharge : 4 secondes",
+      "fullText": "Après <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> seconde de canalisation, augmente la vitesse de déplacement de <s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Appeler une monture"
+    },
+    "NovaGhostProtocol|NovaGhostProtocol|Active": {
+      "cooldownText": "Temps de recharge :<sp/>60 secondes",
+      "fullText": "Camoufle Nova instantanément et génère un hologramme à l’endroit d’activation. Nova est indécelable pendant les <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c> premières secondes de Protocole fantôme.",
+      "name": "Protocole fantôme",
+      "shortText": "Camoufle instantanément et génère un hologramme."
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Après <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> secondes de canalisation, téléporte au hall des Tempêtes et rend instantanément <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c> points de vie et <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c> points de mana.",
+      "name": "Pierre de foyer"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Permet de descendre de la monture.",
+      "name": "Renvoyer la monture"
+    },
+    "NovaCovertMission|NovaCovertMission|Active": {
+      "fullText": "Les serviteurs adverses tués à proximité confèrent une charge de Pot-de-vin. Les héros tués en confèrent <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c>. Utilisez <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c> charges pour acheter des mercenaires au lieu d’avoir à les vaincre. Ne fonctionne pas sur les mercenaires élite. Maximum de charges : <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100</c>. Si un camp est entièrement soumis par Pot-de-vin, son temps de réapparition est réduit de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>.<n/><n/><c val=\"ffff8a\">Nombre actuel de charges : </c><c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0</c>",
+      "name": "Mission secrète",
+      "shortText": "Tuer des serviteurs ou des héros permet de recruter des mercenaires."
+    },
+    "TalentRewind|GenericRewindHotbar|Active": {
+      "cooldownText": "Temps de recharge : 60 secondes",
+      "fullText": "À l’activation, annule le temps de recharge des capacités.",
+      "name": "Retour rapide",
+      "shortText": "Annule les temps de recharge."
+    }
+  },
+  "talents": {
+    "NovaMasteryLongshot|NovaPinningShotLongshotTalent|W|Level1": {
+      "fullText": "Augmente la portée de Tir anesthésiant de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c>. La portée de la prochaine attaque de base est également augmentée de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.3</c> mètre(s).",
+      "name": "Longue portée",
+      "shortText": "Augmente la portée de Tir anesthésiant."
+    },
+    "NovaCovertOps|NovaCovertOpsTalent|W|Level1": {
+      "fullText": "Après <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> secondes de camouflage, porte le ralentissement infligé par Tir anesthésiant à <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60%</c> et annule son coût en mana. Ces bonus sont perdus si le camouflage est rompu plus de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> seconde.",
+      "name": "Troupes d’infiltration",
+      "shortText": "Le camouflage améliore Tir anesthésiant et en diminue le coût."
+    },
+    "NovaAdvancedCloaking|NovaPermanentCloakSniperAdvancedCloakingTalent|Trait|Level1": {
+      "fullText": "Après être restée camouflée un minimum de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> seconde, Nova voit sa vitesse de déplacement augmenter de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c> supplémentaires. Tant qu’elle est camouflée, elle récupère <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> points de mana par seconde.",
+      "name": "Camouflage avancé",
+      "shortText": "Le camouflage augmente la vitesse de déplacement et rend du mana."
+    },
+    "NovaRapidProjection|NovaHoloDecoyRapidProjectionTalent|E|Level4": {
+      "fullText": "Réduit le temps de recharge et le coût en mana d’Hologramme de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60%</c>.",
+      "name": "Projection rapide",
+      "shortText": "Réduit le temps de recharge et le coût en mana d’Hologramme."
+    },
+    "NovaHoloStability|NovaHoloDecoyHoloStabilityTalent|E|Level4": {
+      "fullText": "Augmente la portée d’Hologramme de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> et sa durée de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">120%</c>.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Effet passif :</c> réduit le temps de recharge de Protocole fantôme de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> secondes.",
+      "name": "Stabilité holographique",
+      "shortText": "Augmente la portée d’Hologramme et l’espérance de vie des hologrammes."
+    },
+    "NovaCovertMission|NovaCovertMissionTalent|Active|Level4": {
+      "fullText": "Les serviteurs adverses tués à proximité confèrent une charge de Pot-de-vin. Les héros tués en confèrent <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c>. Utiliser <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c> charges permet d’acheter des mercenaires au lieu d’avoir à les vaincre. Ne fonctionne pas sur les mercenaires élite. Maximum de charges : <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100</c>. Si un camp est entièrement soumis par Pot-de-vin, son temps de réapparition est réduit de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50 %</c>.",
+      "name": "Mission secrète",
+      "shortText": "Tuer des serviteurs ou des héros permet de recruter des mercenaires."
+    },
+    "NovaMasteryPerfectShotSnipe|NovaPerfectShotTalent|Q|Level7": {
+      "fullText": "Réduit le temps de recharge de Tir de précision de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> secondes s’il touche un ennemi et restitue la moitié de son coût en mana. Cet effet est doublé contre les héros adverses.",
+      "name": "Tir parfait",
+      "shortText": "Toucher des ennemis avec Tir de précision réduit son temps de recharge et rend du mana."
+    },
+    "NovaCombatStyleOneintheChamber|NovaOneintheChamberTalent|Passive|Level7": {
+      "fullText": "Après avoir utilisé une capacité, et pendant <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> secondes, augmente de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">65%</c> les dégâts de la prochaine attaque de base.",
+      "name": "Une balle dans la chambre",
+      "shortText": "Renforce la prochaine attaque de base après l’utilisation d’une capacité."
+    },
+    "NovaCombatStyleAntiArmorShells|NovaAntiArmorShellsTalent|Passive|Level7": {
+      "fullText": "Les attaques de base de Nova infligent <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">250%</c> de dégâts et diminuent l’armure physique des cibles héroïques de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> pendant <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> secondes, mais elles sont proportionnellement plus lentes.",
+      "name": "Munitions anti-blindage",
+      "shortText": "Les attaques de base infligent plus de dégâts et réduisent l’armure physique."
+    },
+    "NovaHeroicAbilityTripleTap|NovaTripleTap|Heroic|Level10": {
+      "cooldownText": "Temps de recharge : 100 secondes",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana : 100</s>",
+      "fullText": "Verrouille le héros ciblé puis tire <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> coups qui frappent le premier héros ou bâtiment sur la trajectoire. Chaque tir inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">372</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> points de dégâts.",
+      "name": "Salve",
+      "shortText": "Tire 3 fois sur une cible."
+    },
+    "NovaHeroicAbilityPrecisionStrike|NovaPrecisionStrike|Heroic|Level10": {
+      "cooldownText": "Temps de recharge :<sp/>50 secondes",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana : 100</s>",
+      "fullText": "Après <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> seconde, inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">435</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> points de dégâts aux ennemis dans une zone. Portée illimitée.",
+      "name": "Frappe chirurgicale",
+      "shortText": "Attaque de zone à portée illimitée."
+    },
+    "NovaMasteryPsionicEfficiency|NovaSnipePsionicEfficiencyTalent|Q|Level13": {
+      "fullText": "Augmente la portée de Tir de précision de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c> et confère une charge de Sniper d’élite s’il touche un héros.",
+      "name": "Efficience psionique",
+      "shortText": "Augmente la portée de Tir de précision et lui permet de cumuler des charges."
+    },
+    "NovaMasteryDoubleTap|NovaPinningShotDoubleTapTalent|W|Level13": {
+      "fullText": "Tir anesthésiant dispose de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> charges, mais son temps de recharge augmente de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> secondes.",
+      "name": "Double dose",
+      "shortText": "Tir anesthésiant dispose de 2 charges, mais son temps de recharge est augmenté."
+    },
+    "NovaIonicForceField|NovaIonicForceFieldTalent|Trait|Level13": {
+      "fullText": "Confère <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c> points d’armure pendant les <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> secondes qui suivent la dissipation du camouflage.",
+      "name": "Champ de force ionique",
+      "shortText": "Confère de l’armure à la sortie du camouflage."
+    },
+    "NovaMasteryExplosiveShot|NovaSnipeExplosiveRoundTalent|Q|Level16": {
+      "fullText": "Tir de précision inflige également <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">90 %</c> de dégâts aux ennemis proches de l’impact.",
+      "name": "Balle explosive",
+      "shortText": "Tir de précision inflige des dégâts de zone."
+    },
+    "NovaMasteryCripplingShot|NovaPinningShotCripplingShotTalent|W|Level16": {
+      "fullText": "Tir anesthésiant réduit l’armure du héros touché de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c> points pour la durée du ralentissement, augmentant tous les dégâts qu’il subit de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c>.",
+      "name": "Tir affaiblissant",
+      "shortText": "Tir anesthésiant réduit l’armure."
+    },
+    "NovaMasteryLethalDecoy|NovaHoloDecoyLethalDecoyTalent|E|Level16": {
+      "fullText": "Porte les dégâts infligés par les hologrammes à <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c> de ceux de Nova.",
+      "name": "Mortel hologramme",
+      "shortText": "Les hologrammes infligent davantage de dégâts."
+    },
+    "NovaMasteryFastReload|NovaTripleTapFastReloadTalent|Heroic|Level20": {
+      "fullText": "Annule le temps de recharge si un héros adverse est tué.",
+      "name": "Rechargement rapide",
+      "shortText": "Le temps de recharge est annulé si un héros est tué."
+    },
+    "NovaMasteryPrecisionBarrage|NovaPrecisionStrikePrecisionBarrageTalent|Heroic|Level20": {
+      "fullText": "Frappe chirurgicale obtient une <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2e</c> charge et son temps de recharge est réduit de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c> secondes.",
+      "name": "Barrage de précision",
+      "shortText": "Diminue le temps de recharge de Frappe chirurgicale et lui ajoute une charge."
+    },
+    "NovaApolloSuit|NovaGhostProtocolApolloSuitTalent|Trait|Level20": {
+      "fullText": "Réduit le temps de recharge de Camouflage permanent de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> secondes.",
+      "name": "Combinaison Apollo",
+      "shortText": "Réduit le temps de recharge de Camouflage permanent."
+    },
+    "GenericTalentRewind|GenericRewindHotbar|Active|Level20": {
+      "cooldownText": "Temps de recharge : 60 secondes",
+      "fullText": "À l’activation, annule le temps de recharge des capacités.",
+      "name": "Retour rapide",
+      "shortText": "Annule les temps de recharge."
+    }
+  },
+  "units": {}
+}

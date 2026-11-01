@@ -1,0 +1,769 @@
+{
+  "id": "DemonHunter",
+  "unitId": "HeroDemonHunter",
+  "hyperlinkId": "Valla",
+  "attributeId": "Demo",
+  "franchise": "Diablo",
+  "rarity": "Rare",
+  "releaseDate": "2014-03-13",
+  "isMelee": false,
+  "gender": "Female",
+  "radius": 0.625,
+  "innerRadius": 0.625,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 3,
+    "damage": 9,
+    "survivability": 4,
+    "utility": 1
+  },
+  "life": {
+    "amount": 1340,
+    "scale": 0.04,
+    "regenRate": 2.793,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "EnergyImportant",
+    "Ganker",
+    "RoleAutoAttacker",
+    "RoleCaster",
+    "WaveClearer"
+  ],
+  "weapons": [
+    {
+      "nameId": "HeroDemonHunter",
+      "isDisabled": false,
+      "range": 5.5,
+      "minimumRange": 0,
+      "period": 0.6,
+      "damage": 70,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "DemonHunterAngel",
+    "DemonHunterCowgirl",
+    "DemonHunterHorns",
+    "DemonHunterMecha19",
+    "DemonHunterOWC20",
+    "DemonHunterVampireHunter",
+    "DemonHunterWinter",
+    "VallaUltimate"
+  ],
+  "variationSkinIds": [
+    "DemonHunterBaseVar3",
+    "DemonHunterGreen",
+    "DemonHunterPink"
+  ],
+  "voiceLineIds": [
+    "DemonHunterBase_VoiceLine01",
+    "DemonHunterBase_VoiceLine02",
+    "DemonHunterBase_VoiceLine03",
+    "DemonHunterBase_VoiceLine04",
+    "DemonHunterBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "DemonHunterHungeringArrow|DemonHunterHungeringArrow|Q",
+        "abilityId": "DemonHunterHungeringArrow",
+        "buttonId": "DemonHunterHungeringArrow",
+        "icon": "storm_ui_icon_valla_hungeringarrow.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "DemonHunterMultishot|DemonHunterMultishot|W",
+        "abilityId": "DemonHunterMultishot",
+        "buttonId": "DemonHunterMultishot",
+        "icon": "storm_ui_icon_valla_multishot.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "DemonHunterVault|DemonHunterVault|E",
+        "abilityId": "DemonHunterVault",
+        "buttonId": "DemonHunterVault",
+        "icon": "storm_ui_icon_valla_vault.png",
+        "charges": {
+          "countMax": 1,
+          "countStart": 1,
+          "countUse": 1,
+          "recastCooldown": 0.5,
+          "isCountHidden": true
+        },
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "DemonHunterStrafe|DemonHunterStrafe|Heroic",
+        "abilityId": "DemonHunterStrafe",
+        "buttonId": "DemonHunterStrafe",
+        "icon": "storm_ui_icon_valla_strafe.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "DemonHunterRainOfVengeance|DemonHunterRainOfVengeance|Heroic",
+        "abilityId": "DemonHunterRainOfVengeance",
+        "buttonId": "DemonHunterRainOfVengeance",
+        "icon": "storm_ui_icon_valla_rainofvengeance.png",
+        "charges": {
+          "countMax": 2,
+          "countStart": 1,
+          "countUse": 1,
+          "recastCooldown": 1,
+          "isCountHidden": false
+        },
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": ":PASSIVE:|DemonHunterHatred|Trait",
+        "abilityId": ":PASSIVE:",
+        "buttonId": "DemonHunterHatred",
+        "icon": "storm_ui_icon_valla_hatred.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "DemonHunterGloom|DemonHunterGloom|Active|Level13": {
+      "Activable": [
+        {
+          "linkId": "DemonHunterGloom|DemonHunterGloomItem|Active",
+          "abilityId": "DemonHunterGloom",
+          "buttonId": "DemonHunterGloomItem",
+          "icon": "storm_ui_icon_valla_hatred_var1.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "DemonHunterMasteryPuncturingArrow|DemonHunterHungeringArrowPuncturingArrowTalent|Q|Level1",
+        "talentId": "DemonHunterMasteryPuncturingArrow",
+        "buttonId": "DemonHunterHungeringArrowPuncturingArrowTalent",
+        "abilityId": "DemonHunterHungeringArrow",
+        "icon": "storm_ui_icon_valla_hungeringarrow.png",
+        "abilityType": "Q",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "DemonHunterHungeringArrow|DemonHunterHungeringArrow|Q"
+        ]
+      },
+      {
+        "linkId": "DemonHunterMultishotFireAtWill|DemonHunterMultishotFireAtWill|W|Level1",
+        "talentId": "DemonHunterMultishotFireAtWill",
+        "buttonId": "DemonHunterMultishotFireAtWill",
+        "abilityId": "DemonHunterMultishot",
+        "icon": "storm_ui_icon_valla_multishot.png",
+        "abilityType": "W",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "DemonHunterMultishot|DemonHunterMultishot|W"
+        ]
+      },
+      {
+        "linkId": "DemonHunterCreedoftheHunter|DemonHunterCreedoftheHunter|Trait|Level1",
+        "talentId": "DemonHunterCreedoftheHunter",
+        "buttonId": "DemonHunterCreedoftheHunter",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_valla_hatred.png",
+        "abilityType": "Trait",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|DemonHunterHatred|Trait"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "DemonHunterMasteryArsenal|DemonHunterMultishotArsenalTalent|W|Level4",
+        "talentId": "DemonHunterMasteryArsenal",
+        "buttonId": "DemonHunterMultishotArsenalTalent",
+        "abilityId": "DemonHunterMultishot",
+        "icon": "storm_ui_icon_valla_multishot.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "DemonHunterMultishot|DemonHunterMultishot|W"
+        ]
+      },
+      {
+        "linkId": "DemonHunterDeathDealer|DemonHunterDeathDealer|E|Level4",
+        "talentId": "DemonHunterDeathDealer",
+        "buttonId": "DemonHunterDeathDealer",
+        "abilityId": "DemonHunterVault",
+        "icon": "storm_ui_icon_valla_vault.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "DemonHunterVault|DemonHunterVault|E"
+        ]
+      },
+      {
+        "linkId": "DemonHunterMasteryRepeatingArrowVault|DemonHunterVaultRepeatingArrowTalent|E|Level4",
+        "talentId": "DemonHunterMasteryRepeatingArrowVault",
+        "buttonId": "DemonHunterVaultRepeatingArrowTalent",
+        "abilityId": "DemonHunterVault",
+        "icon": "storm_ui_icon_valla_repeatingarrow.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "DemonHunterVault|DemonHunterVault|E"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "DemonHunterMasteryMonsterHunterHungeringArrow|DemonHunterHungeringArrowMonsterHunterTalent|Q|Level7",
+        "talentId": "DemonHunterMasteryMonsterHunterHungeringArrow",
+        "buttonId": "DemonHunterHungeringArrowMonsterHunterTalent",
+        "abilityId": "DemonHunterHungeringArrow",
+        "icon": "storm_ui_icon_valla_hungeringarrow.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "DemonHunterHungeringArrow|DemonHunterHungeringArrow|Q"
+        ]
+      },
+      {
+        "linkId": "DemonHunterMasteryFrostShot|DemonHunterHungeringArrowFrostShotTalent|Q|Level7",
+        "talentId": "DemonHunterMasteryFrostShot",
+        "buttonId": "DemonHunterHungeringArrowFrostShotTalent",
+        "abilityId": "DemonHunterHungeringArrow",
+        "icon": "storm_ui_icon_valla_siphoningarrow.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "DemonHunterHungeringArrow|DemonHunterHungeringArrow|Q",
+          "DemonHunterMultishot|DemonHunterMultishot|W"
+        ]
+      },
+      {
+        "linkId": "DemonHunterCombatStyleHotPursuit|DemonHunterHatredHotPursuitTalent|Trait|Level7",
+        "talentId": "DemonHunterCombatStyleHotPursuit",
+        "buttonId": "DemonHunterHatredHotPursuitTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_valla_hatred.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|DemonHunterHatred|Trait"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "DemonHunterHeroicAbilityStrafe|DemonHunterStrafe|Heroic|Level10",
+        "talentId": "DemonHunterHeroicAbilityStrafe",
+        "buttonId": "DemonHunterStrafe",
+        "abilityId": "DemonHunterStrafe",
+        "icon": "storm_ui_icon_valla_strafe.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "DemonHunterHeroicAbilityRainofVengeance|DemonHunterRainOfVengeance|Heroic|Level10",
+        "talentId": "DemonHunterHeroicAbilityRainofVengeance",
+        "buttonId": "DemonHunterRainOfVengeance",
+        "abilityId": "DemonHunterRainOfVengeance",
+        "icon": "storm_ui_icon_valla_rainofvengeance.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "DemonHunterMasterySiphoningArrow|DemonHunterHungeringArrowSiphoningArrowTalent|Q|Level13",
+        "talentId": "DemonHunterMasterySiphoningArrow",
+        "buttonId": "DemonHunterHungeringArrowSiphoningArrowTalent",
+        "abilityId": "DemonHunterHungeringArrow",
+        "icon": "storm_ui_icon_valla_siphoningarrow.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "DemonHunterHungeringArrow|DemonHunterHungeringArrow|Q",
+          "DemonHunterMultishot|DemonHunterMultishot|W"
+        ]
+      },
+      {
+        "linkId": "DemonHunterCombatStyleTemperedByDiscipline|DemonHunterHatredTemperedByDisciplineTalent|Trait|Level13",
+        "talentId": "DemonHunterCombatStyleTemperedByDiscipline",
+        "buttonId": "DemonHunterHatredTemperedByDisciplineTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_valla_hatred.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|DemonHunterHatred|Trait"
+        ]
+      },
+      {
+        "linkId": "DemonHunterGloom|DemonHunterGloom|Active|Level13",
+        "talentId": "DemonHunterGloom",
+        "buttonId": "DemonHunterGloom",
+        "abilityId": "DemonHunterGloom",
+        "icon": "storm_ui_icon_valla_hatred_var1.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|DemonHunterHatred|Trait"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "DemonHunterPunishment|DemonHunterHatredPunishmentTalent|W|Level16",
+        "talentId": "DemonHunterPunishment",
+        "buttonId": "DemonHunterHatredPunishmentTalent",
+        "abilityId": "DemonHunterMultishot",
+        "icon": "storm_ui_icon_valla_multishot.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "DemonHunterMultishot|DemonHunterMultishot|W"
+        ]
+      },
+      {
+        "linkId": "DemonHunterSeethingHatred|DemonHunterSeethingHatred|Trait|Level16",
+        "talentId": "DemonHunterSeethingHatred",
+        "buttonId": "DemonHunterSeethingHatred",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_valla_hatred.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|DemonHunterHatred|Trait"
+        ]
+      },
+      {
+        "linkId": "DemonHunterManticore|DemonHunterManticore|Passive|Level16",
+        "talentId": "DemonHunterManticore",
+        "buttonId": "DemonHunterManticore",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_searing.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "DemonHunterMasteryDeathSiphon|DemonHunterStrafeDeathSiphonTalent|Heroic|Level20",
+        "talentId": "DemonHunterMasteryDeathSiphon",
+        "buttonId": "DemonHunterStrafeDeathSiphonTalent",
+        "abilityId": "DemonHunterStrafe",
+        "icon": "storm_ui_icon_valla_strafe.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "DemonHunterStrafe|DemonHunterStrafe|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "DemonHunterHeroicAbilityStrafe"
+        ]
+      },
+      {
+        "linkId": "DemonHunterMasteryStormofVengeance|DemonHunterRainOfVengeanceStormOfVengeanceTalent|Heroic|Level20",
+        "talentId": "DemonHunterMasteryStormofVengeance",
+        "buttonId": "DemonHunterRainOfVengeanceStormOfVengeanceTalent",
+        "abilityId": "DemonHunterRainOfVengeance",
+        "icon": "storm_ui_icon_valla_rainofvengeance.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "DemonHunterRainOfVengeance|DemonHunterRainOfVengeance|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "DemonHunterHeroicAbilityRainofVengeance"
+        ]
+      },
+      {
+        "linkId": "DemonHunterVaultAcrobat|DemonHunterVaultAcrobat|E|Level20",
+        "talentId": "DemonHunterVaultAcrobat",
+        "buttonId": "DemonHunterVaultAcrobat",
+        "abilityId": "DemonHunterVault",
+        "icon": "storm_ui_icon_valla_vault.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "DemonHunterVault|DemonHunterVault|E"
+        ]
+      },
+      {
+        "linkId": "DemonHunterFarflightQuiver|DemonHunterFarflightQuiver|Trait|Level20",
+        "talentId": "DemonHunterFarflightQuiver",
+        "buttonId": "DemonHunterFarflightQuiver",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_valla_hatred.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|DemonHunterHatred|Trait"
+        ]
+      }
+    ]
+  },
+  "sheets": {
+    "abilities": {
+      "sheet": "sheets/DemonHunter/abilities.webp",
+      "icons": {
+        "storm_ui_icon_valla_hungeringarrow.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_valla_multishot.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_valla_vault.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_valla_strafe.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_valla_rainofvengeance.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_valla_hatred.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          0,
+          520,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          130,
+          390,
+          111,
+          71
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          243,
+          390,
+          76,
+          48
+        ],
+        "storm_ui_icon_valla_hatred_var1.png": [
+          0,
+          0,
+          128,
+          128
+        ]
+      }
+    },
+    "talents": {
+      "sheet": "sheets/DemonHunter/talents.webp",
+      "icons": {
+        "storm_ui_icon_valla_hungeringarrow.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_valla_multishot.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_valla_hatred.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_valla_vault.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_valla_repeatingarrow.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_valla_siphoningarrow.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_valla_strafe.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_valla_rainofvengeance.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_valla_hatred_var1.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_searing.png": [
+          0,
+          0,
+          128,
+          128
+        ]
+      }
+    },
+    "hero": {
+      "sheet": "sheets/DemonHunter/hero.webp",
+      "icons": {
+        "storm_ui_icon_valla_hungeringarrow.png": [
+          130,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_valla_multishot.png": [
+          260,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_valla_vault.png": [
+          130,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_valla_strafe.png": [
+          0,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_valla_rainofvengeance.png": [
+          0,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_valla_hatred.png": [
+          0,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          388,
+          604,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          354,
+          474,
+          111,
+          71
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          310,
+          604,
+          76,
+          48
+        ],
+        "storm_ui_icon_valla_hatred_var1.png": [
+          312,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_valla_repeatingarrow.png": [
+          130,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_valla_siphoningarrow.png": [
+          260,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_searing.png": [
+          182,
+          0,
+          128,
+          128
+        ]
+      },
+      "portraits": {
+        "draftScreen": [
+          0,
+          0,
+          180,
+          212
+        ],
+        "minimap": [
+          466,
+          604,
+          32,
+          32
+        ],
+        "partyPanel": [
+          130,
+          604,
+          178,
+          56
+        ],
+        "target": [
+          260,
+          474,
+          92,
+          93
+        ],
+        "targetInfo": [
+          0,
+          604,
+          128,
+          56
+        ]
+      }
+    }
+  }
+}
