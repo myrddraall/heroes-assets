@@ -73,7 +73,3 @@ export function hdpArguments(ptr: boolean, locale: string, out: string): string[
 
 /** A release's git tag (git-flow's `{package}/v{version}`). */
 export const releaseTag = (version: string): string => `@myrddraall/heroes-assets/v${version}`;
-
-/** The file name a channel's extraction of a game build is stored under, on its release. */
-export const snapshotName = (channel: Channel, game: string): string =>
-  `hdp-${channel}-${game}-${EXTRACTION_KEY}.tar.gz`;

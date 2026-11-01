@@ -7,10 +7,10 @@ name: Update
 #   extract  Heroes Data Parser, one job per locale in parallel; HDP itself and its download cache
 #            of game files kept in the Actions cache
 #   publish  one update at a time, across both channels (they share versions.yml and the release
-#            PR): the folder built from the extraction (or from the one stored on the last release
-#            of the same game build, when a rebuild can reuse it) and committed to main; git-flow's
-#            release PR opened, merged and published, with the extraction stored on the release;
-#            the release deployed to Pages
+#            PR): a new extraction stored in sources/ (the build it replaces kept as a patch); the
+#            folder built from the stored extraction, and every past build into <channel>/history
+#            (tools/build-history.ts); committed to main; git-flow's release PR opened, merged and
+#            published; the release deployed to Pages
 #
 # Every stage is skipped when it's done already, so after a failure "Re-run failed jobs" (or a
 # new run) carries on where the last one stopped. Both channels plan and extract at the same time;
@@ -48,8 +48,6 @@ jobs:
       build: ${{ steps.plan.outputs.build }}
       release: ${{ steps.plan.outputs.release }}
       deploy: ${{ steps.plan.outputs.deploy }}
-      snapshot: ${{ steps.plan.outputs.snapshot }}
-      snapshot_name: ${{ steps.plan.outputs.snapshot_name }}
       locales: ${{ steps.plan.outputs.locales }}
       hdp: ${{ steps.plan.outputs.hdp }}
     steps:
@@ -63,6 +61,7 @@ jobs:
             /package.json
             /live/version.json
             /ptr/version.json
+            /sources/*/latest/meta.json
 
       - uses: actions/setup-node@v6
         with:
@@ -134,7 +133,7 @@ jobs:
       cancel-in-progress: false
     env:
       TAG: ${{ needs.plan.outputs.tag }}
-      SNAPSHOT_NAME: ${{ needs.plan.outputs.snapshot_name }}
+      GAME: ${{ needs.plan.outputs.game }}
     steps:
       # main's tip when the turn comes: the other channel may have published meanwhile
       - uses: actions/checkout@v7
@@ -164,30 +163,26 @@ jobs:
           path: hdp-out
           merge-multiple: true
 
-      - name: Take the stored extraction
-        if: needs.plan.outputs.build == 'true' && needs.plan.outputs.extract != 'true'
-        env:
-          SNAPSHOT: ${{ needs.plan.outputs.snapshot }}
-        run: |
-          gh release download "$SNAPSHOT" --pattern "$SNAPSHOT_NAME" --dir .
-          mkdir -p hdp-out && tar xzf "$SNAPSHOT_NAME" -C hdp-out
+      - name: Store the extraction
+        if: needs.plan.outputs.extract == 'true'
+        run: node tools/store-extraction.ts "$CHANNEL" "$GAME" hdp-out
 
-      - name: Build the folder
+      - name: Build the folder and its history
         if: needs.plan.outputs.build == 'true'
         run: |
-          node tools/build-channel.ts "$CHANNEL" hdp-out
-          node tools/set-version.ts "$CHANNEL" "${{ needs.plan.outputs.game }}" \
-            "${{ needs.plan.outputs.revision }}"
+          node tools/restore-extraction.ts "$CHANNEL" latest "$RUNNER_TEMP/latest"
+          node tools/build-channel.ts "$CHANNEL" "$RUNNER_TEMP/latest"
+          node tools/build-history.ts "$CHANNEL"
+          node tools/set-version.ts "$CHANNEL" "$GAME" "${{ needs.plan.outputs.revision }}"
 
       - name: Commit and push
         if: needs.plan.outputs.build == 'true'
         env:
-          GAME: ${{ needs.plan.outputs.game }}
           REVISION: ${{ needs.plan.outputs.revision }}
           VERSION: ${{ needs.plan.outputs.version }}
         run: |
           set -euo pipefail
-          git add "$CHANNEL" .publish/versions.yml
+          git add "$CHANNEL" sources files .publish/versions.yml
           if git diff --cached --quiet; then
             echo "main already holds this build"
             exit 0
@@ -222,28 +217,6 @@ jobs:
           echo "Publishing release PR #$pr"
           tools/await-run.sh build-pack-publish.yml release/main -f pr_number="$pr"
           gh release view "$TAG" --json tagName > /dev/null
-
-      # Kept only on the newest release of each channel, whether extracted now or taken from the
-      # last release: the next rebuild of that game build looks for it there
-      - name: Store the extraction on the release
-        if: needs.plan.outputs.build == 'true'
-        run: |
-          set -euo pipefail
-          if gh release view "$TAG" --json assets --jq '.assets[].name' | grep -qx "$SNAPSHOT_NAME"; then
-            echo "Stored already"
-          else
-            [ -f "$SNAPSHOT_NAME" ] || tar czf "$SNAPSHOT_NAME" -C hdp-out .
-            gh release upload "$TAG" "$SNAPSHOT_NAME"
-          fi
-          gh release list --limit 200 --json tagName --jq '.[].tagName' | while read -r tag; do
-            [ "$tag" = "$TAG" ] && continue
-            case "$tag" in
-              *-ptr) [ "$CHANNEL" = ptr ] || continue ;;
-              *) [ "$CHANNEL" = live ] || continue ;;
-            esac
-            gh release view "$tag" --json assets --jq '.assets[].name' | grep "^hdp-$CHANNEL-" |
-              while read -r old; do gh release delete-asset "$tag" "$old" --yes; done || true
-          done
 
       - name: Deploy
         if: needs.plan.outputs.deploy == 'true'
