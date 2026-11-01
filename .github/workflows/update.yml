@@ -77,7 +77,9 @@ jobs:
           ptr=$([ "$CHANNEL" = ptr ] && echo --download-ptr || true)
           "$exe" online $ptr \
             -e hero:i -e unit -e emoticon:i -e emoticonpack -e map:i \
-            -l all --localized-text Extract -o hdp-out
+            -l all --localized-text Extract -o hdp-out \
+            --gs-replace-constant-vars --gs-replace-style-vars \
+            --gs-preserve-constant-vars --gs-preserve-style-vars
           extracted=$(jq -r .meta.heroesVersion hdp-out/data/herodata_*.json)
           echo "Patch server: $GAME, extracted: $extracted"
           if [[ "$extracted" != "$GAME"* ]]; then
@@ -125,6 +127,8 @@ jobs:
           pr=$(gh pr list --base release/main --head main --state open \
             --json number --jq '.[0].number // empty')
           [ -n "$pr" ] || { echo "::error::No open release PR from main"; exit 1; }
+          # git-flow opens release PRs as drafts, for a person to review; here the update is the review
+          gh pr ready "$pr"
           gh pr merge "$pr" --merge
           merged=$(gh pr view "$pr" --json mergeCommit --jq .mergeCommit.oid)
           echo "Merged release PR #$pr as $merged"

@@ -4,8 +4,8 @@
 //   node tools/build-channel.ts <live|ptr> <hdp output folder>
 //
 // The HDP output folder is what `heroesdataparser online -e hero:i -e unit -e emoticon:i
-// -e emoticonpack -e map:i -l all --localized-text Extract -o <folder>` writes: data/,
-// gamestrings/ and images/.
+// -e emoticonpack -e map:i -l all --localized-text Extract --gs-… -o <folder>` writes: data/,
+// gamestrings/ and images/ (update.yml has the full command).
 import { copyFile, cp, mkdir, readdir, readFile, rm, writeFile } from 'node:fs/promises';
 import { basename, dirname, join } from 'node:path';
 import { asChannel, LOCALES, ROOT } from './lib/channels.ts';
@@ -174,7 +174,8 @@ await writeJson(join(out, 'heroes', 'index.json'), heroIndex);
 const portraitKinds = new Map<string, Map<string, string>>();
 for (const [id, hero] of Object.entries(heroes)) {
   for (const [kind, file] of Object.entries(hero.portraits ?? {})) {
-    if (typeof file !== 'string') continue; // partyFrames: a list, its first is targetInfo
+    // partyFrames is a list (its first is targetInfo); a hero without a portrait of a kind has ''
+    if (typeof file !== 'string' || !file) continue;
     if (!portraitKinds.has(kind)) portraitKinds.set(kind, new Map());
     portraitKinds.get(kind)!.set(id, file);
   }

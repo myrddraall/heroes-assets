@@ -82,7 +82,8 @@ HDP's command, as the update runs it:
 
 ```bash
 HeroesDataParser online [--download-ptr] -e hero:i -e unit -e emoticon:i -e emoticonpack -e map:i \
-  -l all --localized-text Extract -o hdp-out
+  -l all --localized-text Extract -o hdp-out \
+  --gs-replace-constant-vars --gs-replace-style-vars --gs-preserve-constant-vars --gs-preserve-style-vars
 ```
 
 ## Credits
