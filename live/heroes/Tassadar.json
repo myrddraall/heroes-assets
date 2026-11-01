@@ -1,0 +1,665 @@
+{
+  "id": "Tassadar",
+  "unitId": "HeroTassadar",
+  "hyperlinkId": "Tassadar",
+  "attributeId": "Tass",
+  "franchise": "Starcraft",
+  "rarity": "Epic",
+  "releaseDate": "2014-03-13",
+  "isMelee": false,
+  "gender": "Male",
+  "radius": 0.8125,
+  "innerRadius": 0.8125,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 4,
+    "damage": 6,
+    "survivability": 7,
+    "utility": 7
+  },
+  "life": {
+    "amount": 1650,
+    "scale": 0.04,
+    "regenRate": 3.4375,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "ChanneledAutoAttacker",
+    "EnergyImportant",
+    "Escaper",
+    "Helper",
+    "RoleCaster",
+    "WaveClearer"
+  ],
+  "weapons": [
+    {
+      "nameId": "TassadarResonanceBeam",
+      "isDisabled": false,
+      "range": 6.5,
+      "minimumRange": 0,
+      "period": 0.25,
+      "damage": 14,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "TassadarDark20",
+    "TassadarMecha",
+    "TassadarPharaoh",
+    "TassadarUltimate"
+  ],
+  "variationSkinIds": [
+    "TassadarArgent",
+    "TassadarBaseVar3",
+    "TassadarPurple"
+  ],
+  "voiceLineIds": [
+    "TassadarBase_VoiceLine01",
+    "TassadarBase_VoiceLine02",
+    "TassadarBase_VoiceLine03",
+    "TassadarBase_VoiceLine04",
+    "TassadarBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "TassadarShockRay|TassadarShockRay|Q",
+        "abilityId": "TassadarShockRay",
+        "buttonId": "TassadarShockRay",
+        "icon": "storm_ui_icon_tassadar_rework_q_ray.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "TassadarPsionicStorm|TassadarPsionicStorm|W",
+        "abilityId": "TassadarPsionicStorm",
+        "buttonId": "TassadarPsionicStorm",
+        "icon": "storm_ui_icon_tassadar_psionicstorm.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "TassadarForceWall|TassadarForceWall|E",
+        "abilityId": "TassadarForceWall",
+        "buttonId": "TassadarForceWall",
+        "icon": "storm_ui_icon_tassadar_forcewall.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "TassadarArchon|TassadarArchon|Heroic",
+        "abilityId": "TassadarArchon",
+        "buttonId": "TassadarArchon",
+        "icon": "storm_ui_icon_tassadar_archon.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "TassadarBlackHole|TassadarBlackHole|Heroic",
+        "abilityId": "TassadarBlackHole",
+        "buttonId": "TassadarBlackHole",
+        "icon": "storm_ui_icon_tassadar_rework_blackhole.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": ":PASSIVE:|TassadarResonanceBeam|Trait",
+        "abilityId": ":PASSIVE:",
+        "buttonId": "TassadarResonanceBeam",
+        "icon": "storm_ui_icon_tassadar_rework_trait.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "TassadarForceWall|TassadarForceWall|E": {
+      "Basic": [
+        {
+          "linkId": "TassadarForceWallCancel|TassadarForceWallCancel|E",
+          "abilityId": "TassadarForceWallCancel",
+          "buttonId": "TassadarForceWallCancel",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "abilityType": "E"
+        }
+      ]
+    },
+    "TassadarArchon|TassadarArchon|Heroic": {
+      "Heroic": [
+        {
+          "linkId": ":PASSIVE:|TassadarArchon|Heroic",
+          "abilityId": ":PASSIVE:",
+          "buttonId": "TassadarArchon",
+          "icon": "storm_ui_icon_tassadar_archon.png",
+          "abilityType": "Heroic"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "TassadarOracleTargeted|TassadarOracleTargeted|Active": {
+      "Activable": [
+        {
+          "linkId": "TassadarCancelOracle|TassadarCancelOracle|Active",
+          "abilityId": "TassadarCancelOracle",
+          "buttonId": "TassadarCancelOracle",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "TassadarShadowWalk|TassadarShadowWalk|Active": {
+      "Activable": [
+        {
+          "linkId": "TassadarCancelShadowWalk|TassadarCancelShadowWalk|Active",
+          "abilityId": "TassadarCancelShadowWalk",
+          "buttonId": "TassadarCancelShadowWalk",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "TassadarArcDischarge|TassadarArcDischarge|Trait|Level7": {
+      "Trait": [
+        {
+          "linkId": "TassadarResonanceBeamArcDischargeDummy|TassadarResonanceBeam|Trait",
+          "abilityId": "TassadarResonanceBeamArcDischargeDummy",
+          "buttonId": "TassadarResonanceBeam",
+          "icon": "storm_ui_icon_tassadar_rework_trait.png",
+          "abilityType": "Trait"
+        }
+      ]
+    },
+    "TassadarOracle|TassadarOracleTargeted|Active|Level13": {
+      "Activable": [
+        {
+          "linkId": "TassadarOracleTargeted|TassadarOracleTargeted|Active",
+          "abilityId": "TassadarOracleTargeted",
+          "buttonId": "TassadarOracleTargeted",
+          "icon": "storm_ui_icon_tassadar_oracle.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "TassadarShadowWalk|TassadarShadowWalk|Active|Level13": {
+      "Activable": [
+        {
+          "linkId": "TassadarShadowWalk|TassadarShadowWalk|Active",
+          "abilityId": "TassadarShadowWalk",
+          "buttonId": "TassadarShadowWalk",
+          "icon": "storm_ui_icon_tassadar_dimensionalshift.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "TassadarExecutorsWill|TassadarExecutorsWill|Active|Level16": {
+      "Activable": [
+        {
+          "linkId": "TassadarExecutorsWill|TassadarExecutorsWill|Active",
+          "abilityId": "TassadarExecutorsWill",
+          "buttonId": "TassadarExecutorsWill",
+          "icon": "storm_temp_btn-upgrade-protoss-khaydarinamulet.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "TassadarStaticCharge|TassadarStaticCharge|Q|Level1",
+        "talentId": "TassadarStaticCharge",
+        "buttonId": "TassadarStaticCharge",
+        "abilityId": "TassadarShockRay",
+        "icon": "storm_ui_icon_tassadar_rework_q_ray.png",
+        "abilityType": "Q",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "TassadarShockRay|TassadarShockRay|Q"
+        ]
+      },
+      {
+        "linkId": "TassadarPsionicStormPsiInfusion|TassadarPsionicStormPsiInfusionTalent|W|Level1",
+        "talentId": "TassadarPsionicStormPsiInfusion",
+        "buttonId": "TassadarPsionicStormPsiInfusionTalent",
+        "abilityId": "TassadarPsionicStorm",
+        "icon": "storm_ui_icon_tassadar_psionicstorm.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "TassadarPsionicStorm|TassadarPsionicStorm|W"
+        ]
+      },
+      {
+        "linkId": "TassadarKhaydarinAmulet|TassadarKhaydarinAmulet|Trait|Level1",
+        "talentId": "TassadarKhaydarinAmulet",
+        "buttonId": "TassadarKhaydarinAmulet",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_tassadar_rework_trait.png",
+        "abilityType": "Trait",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|TassadarResonanceBeam|Trait",
+          "TassadarResonanceBeamArcDischargeDummy|TassadarResonanceBeam|Trait"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "TassadarInduction|TassadarInduction|Q|Level4",
+        "talentId": "TassadarInduction",
+        "buttonId": "TassadarInduction",
+        "abilityId": "TassadarShockRay",
+        "icon": "storm_ui_icon_tassadar_rework_q_ray.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "TassadarShockRay|TassadarShockRay|Q"
+        ]
+      },
+      {
+        "linkId": "TassadarElectricFence|TassadarElectricFence|E|Level4",
+        "talentId": "TassadarElectricFence",
+        "buttonId": "TassadarElectricFence",
+        "abilityId": "TassadarForceWall",
+        "icon": "storm_ui_icon_tassadar_forcewall.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "TassadarForceWall|TassadarForceWall|E"
+        ]
+      },
+      {
+        "linkId": "TassadarPlasmaShield|TassadarPlasmaShieldTalent|Trait|Level4",
+        "talentId": "TassadarPlasmaShield",
+        "buttonId": "TassadarPlasmaShieldTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_tassadar_rework_trait.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|TassadarResonanceBeam|Trait",
+          "TassadarResonanceBeamArcDischargeDummy|TassadarResonanceBeam|Trait"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "TassadarBeamAlignment|TassadarBeamAlignment|Q|Level7",
+        "talentId": "TassadarBeamAlignment",
+        "buttonId": "TassadarBeamAlignment",
+        "abilityId": "TassadarShockRay",
+        "icon": "storm_ui_icon_tassadar_rework_q_ray.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "TassadarShockRay|TassadarShockRay|Q"
+        ]
+      },
+      {
+        "linkId": "TassadarPsionicEcho|TassadarPsionicEcho|W|Level7",
+        "talentId": "TassadarPsionicEcho",
+        "buttonId": "TassadarPsionicEcho",
+        "abilityId": "TassadarPsionicStorm",
+        "icon": "storm_ui_icon_tassadar_psionicstorm.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "TassadarShockRay|TassadarShockRay|Q",
+          "TassadarPsionicStorm|TassadarPsionicStorm|W"
+        ]
+      },
+      {
+        "linkId": "TassadarArcDischarge|TassadarArcDischarge|Trait|Level7",
+        "talentId": "TassadarArcDischarge",
+        "buttonId": "TassadarArcDischarge",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_tassadar_rework_trait.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|TassadarResonanceBeam|Trait",
+          "TassadarResonanceBeamArcDischargeDummy|TassadarResonanceBeam|Trait"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "TassadarHeroicAbilityArchon|TassadarArchon|Heroic|Level10",
+        "talentId": "TassadarHeroicAbilityArchon",
+        "buttonId": "TassadarArchon",
+        "abilityId": "TassadarArchon",
+        "icon": "storm_ui_icon_tassadar_archon.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "TassadarHeroicAbilityBlackHole|TassadarBlackHole|Heroic|Level10",
+        "talentId": "TassadarHeroicAbilityBlackHole",
+        "buttonId": "TassadarBlackHole",
+        "abilityId": "TassadarBlackHole",
+        "icon": "storm_ui_icon_tassadar_rework_blackhole.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "TassadarFeedback|TassadarFeedback|W|Level13",
+        "talentId": "TassadarFeedback",
+        "buttonId": "TassadarFeedback",
+        "abilityId": "TassadarPsionicStorm",
+        "icon": "storm_ui_icon_tassadar_psionicstorm.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "TassadarPsionicStorm|TassadarPsionicStorm|W"
+        ]
+      },
+      {
+        "linkId": "TassadarShadowWalk|TassadarShadowWalk|Active|Level13",
+        "talentId": "TassadarShadowWalk",
+        "buttonId": "TassadarShadowWalk",
+        "abilityId": "TassadarShadowWalk",
+        "icon": "storm_ui_icon_tassadar_dimensionalshift.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2
+      },
+      {
+        "linkId": "TassadarOracle|TassadarOracleTargeted|Active|Level13",
+        "talentId": "TassadarOracle",
+        "buttonId": "TassadarOracleTargeted",
+        "abilityId": "TassadarOracleTargeted",
+        "icon": "storm_ui_icon_tassadar_oracle.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "TassadarThermalLance|TassadarThermalLance|Q|Level16",
+        "talentId": "TassadarThermalLance",
+        "buttonId": "TassadarThermalLance",
+        "abilityId": "TassadarShockRay",
+        "icon": "storm_ui_icon_tassadar_rework_q_ray.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "TassadarShockRay|TassadarShockRay|Q"
+        ]
+      },
+      {
+        "linkId": "TassadarPsychicShock|TassadarPsychicShock|W|Level16",
+        "talentId": "TassadarPsychicShock",
+        "buttonId": "TassadarPsychicShock",
+        "abilityId": "TassadarPsionicStorm",
+        "icon": "storm_ui_icon_tassadar_psionicstorm.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "TassadarPsionicStorm|TassadarPsionicStorm|W"
+        ]
+      },
+      {
+        "linkId": "TassadarExecutorsWill|TassadarExecutorsWill|Active|Level16",
+        "talentId": "TassadarExecutorsWill",
+        "buttonId": "TassadarExecutorsWill",
+        "abilityId": "TassadarExecutorsWill",
+        "icon": "storm_temp_btn-upgrade-protoss-khaydarinamulet.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "TassadarMasteryTwilightArchon|TassadarArchonTwilightArchonTalent|Heroic|Level20",
+        "talentId": "TassadarMasteryTwilightArchon",
+        "buttonId": "TassadarArchonTwilightArchonTalent",
+        "abilityId": "TassadarArchon",
+        "icon": "storm_ui_icon_tassadar_archon.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|TassadarArchon|Heroic",
+          "TassadarArchon|TassadarArchon|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "TassadarHeroicAbilityArchon"
+        ]
+      },
+      {
+        "linkId": "TassadarKugelblitz|TassadarKugelblitz|Heroic|Level20",
+        "talentId": "TassadarKugelblitz",
+        "buttonId": "TassadarKugelblitz",
+        "abilityId": "TassadarBlackHole",
+        "icon": "storm_ui_icon_tassadar_rework_blackhole.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "TassadarBlackHole|TassadarBlackHole|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "TassadarHeroicAbilityBlackHole"
+        ]
+      },
+      {
+        "linkId": "TassadarMasteryForceBarrier|TassadarForceBarrier|E|Level20",
+        "talentId": "TassadarMasteryForceBarrier",
+        "buttonId": "TassadarForceBarrier",
+        "abilityId": "TassadarForceWall",
+        "icon": "storm_ui_icon_tassadar_forcewall.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "TassadarForceWall|TassadarForceWall|E"
+        ]
+      },
+      {
+        "linkId": "TassadarKhalasGift|TassadarKhalasGift|Passive|Level20",
+        "talentId": "TassadarKhalasGift",
+        "buttonId": "TassadarKhalasGift",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_tassadar_rework_active_khala.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      }
+    ]
+  },
+  "sheet": "sheets/Tassadar.webp",
+  "icons": {
+    "storm_ui_icon_tassadar_rework_q_ray.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_tassadar_psionicstorm.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_tassadar_forcewall.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_tassadar_archon.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_tassadar_rework_blackhole.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_tassadar_rework_trait.png": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_mount.png": [
+      256,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      384,
+      128,
+      111,
+      71
+    ],
+    "hud_btn_bg_ability_cancel.png": [
+      0,
+      256,
+      97,
+      111
+    ],
+    "storm_ui_icon_generic_cancel_mount.png": [
+      128,
+      256,
+      76,
+      48
+    ],
+    "storm_ui_icon_tassadar_oracle.png": [
+      256,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_tassadar_dimensionalshift.png": [
+      384,
+      256,
+      128,
+      128
+    ],
+    "storm_temp_btn-upgrade-protoss-khaydarinamulet.png": [
+      0,
+      384,
+      76,
+      76
+    ],
+    "storm_ui_icon_tassadar_rework_active_khala.png": [
+      128,
+      384,
+      128,
+      128
+    ]
+  }
+}

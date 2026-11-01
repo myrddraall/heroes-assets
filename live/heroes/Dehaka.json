@@ -1,0 +1,586 @@
+{
+  "id": "Dehaka",
+  "unitId": "HeroDehaka",
+  "hyperlinkId": "Dehaka",
+  "attributeId": "Deha",
+  "franchise": "Starcraft",
+  "rarity": "Legendary",
+  "releaseDate": "2016-03-29",
+  "isMelee": true,
+  "gender": "Male",
+  "radius": 1,
+  "innerRadius": 0.875,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "ratings": {
+    "complexity": 7,
+    "damage": 6,
+    "survivability": 9,
+    "utility": 8
+  },
+  "life": {
+    "amount": 2385,
+    "scale": 0.04,
+    "regenRate": 4.9687,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "BodyBlocker",
+    "EnergyImportant",
+    "Ganker",
+    "Overconfident",
+    "RoleTank",
+    "SoloLaner",
+    "WaveClearer"
+  ],
+  "weapons": [
+    {
+      "nameId": "HeroDehaka",
+      "isDisabled": false,
+      "range": 1,
+      "minimumRange": 0,
+      "period": 0.8,
+      "damage": 95,
+      "damageScale": 0.04
+    },
+    {
+      "nameId": "HeroDehakaDragWeapon",
+      "isDisabled": false,
+      "range": 1,
+      "minimumRange": 0,
+      "period": 0.8,
+      "damage": 95,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "DehakaMaster",
+    "DehakaMecha",
+    "DehakaToys18",
+    "DehakaVHaka"
+  ],
+  "variationSkinIds": [
+    "DehakaVar1",
+    "DehakaVar2",
+    "DehakaVar3"
+  ],
+  "voiceLineIds": [
+    "DehakaBase_VoiceLine01",
+    "DehakaBase_VoiceLine02",
+    "DehakaBase_VoiceLine03",
+    "DehakaBase_VoiceLine04",
+    "DehakaBase_VoiceLine05"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "DehakaDrag|DehakaDrag|Q",
+        "abilityId": "DehakaDrag",
+        "buttonId": "DehakaDrag",
+        "icon": "storm_ui_icon_dehaka_drag.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "DehakaDarkSwarm|DehakaDarkSwarm|W",
+        "abilityId": "DehakaDarkSwarm",
+        "buttonId": "DehakaDarkSwarm",
+        "icon": "storm_ui_icon_dehaka_trample.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "DehakaBurrow|DehakaBurrow|E",
+        "abilityId": "DehakaBurrow",
+        "buttonId": "DehakaBurrow",
+        "icon": "storm_ui_icon_dehaka_burrow.png",
+        "toggleCooldown": 0.5,
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "DehakaIsolation|DehakaIsolation|Heroic",
+        "abilityId": "DehakaIsolation",
+        "buttonId": "DehakaIsolation",
+        "icon": "storm_ui_icon_dehaka_isolation.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "DehakaAdaptation|DehakaAdaptation|Heroic",
+        "abilityId": "DehakaAdaptation",
+        "buttonId": "DehakaAdaptation",
+        "icon": "storm_ui_icon_dehaka_adaptation.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": "DehakaEssenceCollection|DehakaEssenceCollection|Trait",
+        "abilityId": "DehakaEssenceCollection",
+        "buttonId": "DehakaEssenceCollection",
+        "icon": "storm_ui_icon_dehaka_essencecollection.png",
+        "charges": {
+          "countMax": 50,
+          "isCountHidden": false
+        },
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "DehakaBrushstalker|DehakaBrushstalker|Z",
+        "abilityId": "DehakaBrushstalker",
+        "buttonId": "DehakaBrushstalker",
+        "icon": "storm_ui_icon_dehaka_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "DehakaBurrow|DehakaBurrow|E": {
+      "Basic": [
+        {
+          "linkId": "DehakaCancelBurrow|DehakaCancelBurrow|E",
+          "abilityId": "DehakaCancelBurrow",
+          "buttonId": "DehakaCancelBurrow",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "toggleCooldown": 0.125,
+          "abilityType": "E"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "DehakaDarkSwarmTalentEnduringSwarm|DehakaDarkSwarmTalentEnduringSwarm|W|Level1",
+        "talentId": "DehakaDarkSwarmTalentEnduringSwarm",
+        "buttonId": "DehakaDarkSwarmTalentEnduringSwarm",
+        "abilityId": "DehakaDarkSwarm",
+        "icon": "storm_ui_icon_dehaka_trample.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "DehakaDarkSwarm|DehakaDarkSwarm|W"
+        ]
+      },
+      {
+        "linkId": "DehakaEssenceCollectionTalentTissueRegeneration|DehakaEssenceCollectionTalentTissueRegeneration|Trait|Level1",
+        "talentId": "DehakaEssenceCollectionTalentTissueRegeneration",
+        "buttonId": "DehakaEssenceCollectionTalentTissueRegeneration",
+        "abilityId": "DehakaEssenceCollection",
+        "icon": "storm_ui_icon_dehaka_essencecollection.png",
+        "abilityType": "Trait",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "DehakaEssenceCollection|DehakaEssenceCollection|Trait"
+        ]
+      },
+      {
+        "linkId": "DehakaEssenceCollectionTalentEnhancedAgility|DehakaEssenceCollectionTalentEnhancedAgility|Z|Level1",
+        "talentId": "DehakaEssenceCollectionTalentEnhancedAgility",
+        "buttonId": "DehakaEssenceCollectionTalentEnhancedAgility",
+        "abilityId": "DehakaBrushstalker",
+        "icon": "storm_ui_icon_dehaka_brushstalker.png",
+        "abilityType": "Z",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "DehakaBrushstalker|DehakaBrushstalker|Z"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "DehakaBurrowTalentLurkerStrain|DehakaBurrowTalentLurkerStrain|E|Level4",
+        "talentId": "DehakaBurrowTalentLurkerStrain",
+        "buttonId": "DehakaBurrowTalentLurkerStrain",
+        "abilityId": "DehakaBurrow",
+        "icon": "storm_ui_icon_dehaka_burrow.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "DehakaBurrow|DehakaBurrow|E"
+        ]
+      },
+      {
+        "linkId": "DehakaEssenceCollectionOneWhoCollectsTalent|DehakaEssenceCollectionOneWhoCollectsTalent|Trait|Level4",
+        "talentId": "DehakaEssenceCollectionOneWhoCollectsTalent",
+        "buttonId": "DehakaEssenceCollectionOneWhoCollectsTalent",
+        "abilityId": "DehakaEssenceCollection",
+        "icon": "storm_ui_icon_dehaka_essencecollection.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "DehakaDarkSwarm|DehakaDarkSwarm|W",
+          "DehakaEssenceCollection|DehakaEssenceCollection|Trait"
+        ]
+      },
+      {
+        "linkId": "DehakaEssenceCollectionTalentHeroStalker|DehakaEssenceCollectionTalentHeroStalker|Trait|Level4",
+        "talentId": "DehakaEssenceCollectionTalentHeroStalker",
+        "buttonId": "DehakaEssenceCollectionTalentHeroStalker",
+        "abilityId": "DehakaEssenceCollection",
+        "icon": "storm_ui_icon_dehaka_essencecollection_var1.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "DehakaDarkSwarm|DehakaDarkSwarm|W",
+          "DehakaEssenceCollection|DehakaEssenceCollection|Trait"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "DehakaDragTalentFeedingFrenzy|DehakaDragTalentFeedingFrenzy|Q|Level7",
+        "talentId": "DehakaDragTalentFeedingFrenzy",
+        "buttonId": "DehakaDragTalentFeedingFrenzy",
+        "abilityId": "DehakaDrag",
+        "icon": "storm_ui_icon_dehaka_drag.png",
+        "abilityType": "Q",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "DehakaDrag|DehakaDrag|Q"
+        ]
+      },
+      {
+        "linkId": "DehakaDragTalentParalyzingEnzymes|DehakaDragTalentParalyzingEnzymes|Q|Level7",
+        "talentId": "DehakaDragTalentParalyzingEnzymes",
+        "buttonId": "DehakaDragTalentParalyzingEnzymes",
+        "abilityId": "DehakaDrag",
+        "icon": "storm_ui_icon_dehaka_drag_var1.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "DehakaDrag|DehakaDrag|Q"
+        ]
+      },
+      {
+        "linkId": "DehakaDarkSwarmTalentSymbiosis|DehakaDarkSwarmTalentSymbiosis|W|Level7",
+        "talentId": "DehakaDarkSwarmTalentSymbiosis",
+        "buttonId": "DehakaDarkSwarmTalentSymbiosis",
+        "abilityId": "DehakaDarkSwarm",
+        "icon": "storm_ui_icon_dehaka_trample.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "DehakaDarkSwarm|DehakaDarkSwarm|W"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "DehakaHeroicAbilityIsolation|DehakaIsolation|Heroic|Level10",
+        "talentId": "DehakaHeroicAbilityIsolation",
+        "buttonId": "DehakaIsolation",
+        "abilityId": "DehakaIsolation",
+        "icon": "storm_ui_icon_dehaka_isolation.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "DehakaHeroicAbilityAdaptation|DehakaAdaptation|Heroic|Level10",
+        "talentId": "DehakaHeroicAbilityAdaptation",
+        "buttonId": "DehakaAdaptation",
+        "abilityId": "DehakaAdaptation",
+        "icon": "storm_ui_icon_dehaka_adaptation.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "DehakaBrushstalkerFerociousStalker|DehakaBrushstalkerFerociousStalkerTalent|W|Level13",
+        "talentId": "DehakaBrushstalkerFerociousStalker",
+        "buttonId": "DehakaBrushstalkerFerociousStalkerTalent",
+        "abilityId": "DehakaDarkSwarm",
+        "icon": "storm_ui_icon_dehaka_trample.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "DehakaDarkSwarm|DehakaDarkSwarm|W"
+        ]
+      },
+      {
+        "linkId": "DehakaPrimalSwarm|DehakaPrimalSwarm|W|Level13",
+        "talentId": "DehakaPrimalSwarm",
+        "buttonId": "DehakaPrimalSwarm",
+        "abilityId": "DehakaDarkSwarm",
+        "icon": "storm_ui_icon_dehaka_trample_a.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "DehakaDarkSwarm|DehakaDarkSwarm|W"
+        ]
+      },
+      {
+        "linkId": "DehakaPrimalRage|DehakaPrimalRage|Trait|Level13",
+        "talentId": "DehakaPrimalRage",
+        "buttonId": "DehakaPrimalRage",
+        "abilityId": "DehakaEssenceCollection",
+        "icon": "storm_ui_icon_dehaka_essencecollection.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "DehakaEssenceCollection|DehakaEssenceCollection|Trait"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "DehakaDragTalentElongatedTongue|DehakaDragTalentElongatedTongue|Q|Level16",
+        "talentId": "DehakaDragTalentElongatedTongue",
+        "buttonId": "DehakaDragTalentElongatedTongue",
+        "abilityId": "DehakaDrag",
+        "icon": "storm_ui_icon_dehaka_drag.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "DehakaDrag|DehakaDrag|Q"
+        ]
+      },
+      {
+        "linkId": "DehakaTunnelingClaws|DehakaTunnelingClaws|E|Level16",
+        "talentId": "DehakaTunnelingClaws",
+        "buttonId": "DehakaTunnelingClaws",
+        "abilityId": "DehakaBurrow",
+        "icon": "storm_ui_icon_dehaka_burrow.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "DehakaBurrow|DehakaBurrow|E"
+        ]
+      },
+      {
+        "linkId": "DehakaPackLeaderBrushstalkerTalent|DehakaPackLeaderBrushstalker|Z|Level16",
+        "talentId": "DehakaPackLeaderBrushstalkerTalent",
+        "buttonId": "DehakaPackLeaderBrushstalker",
+        "abilityId": "DehakaBrushstalker",
+        "icon": "storm_ui_icon_dehaka_brushstalker.png",
+        "abilityType": "Z",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "DehakaBrushstalker|DehakaBrushstalker|Z"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "DehakaIsolationTalentContagion|DehakaIsolationTalentContagion|Heroic|Level20",
+        "talentId": "DehakaIsolationTalentContagion",
+        "buttonId": "DehakaIsolationTalentContagion",
+        "abilityId": "DehakaIsolation",
+        "icon": "storm_ui_icon_dehaka_isolation.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "DehakaIsolation|DehakaIsolation|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "DehakaHeroicAbilityIsolation"
+        ]
+      },
+      {
+        "linkId": "DehakaAdaptationChangeIsSurvivalTalent|DehakaAdaptationChangeIsSurvivalTalent|Heroic|Level20",
+        "talentId": "DehakaAdaptationChangeIsSurvivalTalent",
+        "buttonId": "DehakaAdaptationChangeIsSurvivalTalent",
+        "abilityId": "DehakaAdaptation",
+        "icon": "storm_ui_icon_dehaka_adaptation.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "DehakaAdaptation|DehakaAdaptation|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "DehakaHeroicAbilityAdaptation"
+        ]
+      },
+      {
+        "linkId": "DehakaEssenceClaws|DehakaEssenceClaws|Trait|Level20",
+        "talentId": "DehakaEssenceClaws",
+        "buttonId": "DehakaEssenceClaws",
+        "abilityId": "DehakaEssenceCollection",
+        "icon": "storm_ui_icon_dehaka_essencecollection.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "DehakaEssenceCollection|DehakaEssenceCollection|Trait"
+        ]
+      },
+      {
+        "linkId": "DehakaBrushstalkerApexPredator|DehakaBrushstalkerApexPredatorTalent|Z|Level20",
+        "talentId": "DehakaBrushstalkerApexPredator",
+        "buttonId": "DehakaBrushstalkerApexPredatorTalent",
+        "abilityId": "DehakaBrushstalker",
+        "icon": "storm_ui_icon_dehaka_brushstalker.png",
+        "abilityType": "Z",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          "DehakaBrushstalker|DehakaBrushstalker|Z"
+        ]
+      }
+    ]
+  },
+  "sheet": "sheets/Dehaka.webp",
+  "icons": {
+    "storm_ui_icon_dehaka_drag.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_dehaka_trample.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_dehaka_burrow.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_dehaka_isolation.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_dehaka_adaptation.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_dehaka_essencecollection.png": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_dehaka_mount.png": [
+      256,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      384,
+      128,
+      111,
+      71
+    ],
+    "hud_btn_bg_ability_cancel.png": [
+      0,
+      256,
+      97,
+      111
+    ],
+    "storm_ui_icon_dehaka_brushstalker.png": [
+      128,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_dehaka_essencecollection_var1.png": [
+      256,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_dehaka_drag_var1.png": [
+      384,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_dehaka_trample_a.png": [
+      0,
+      384,
+      128,
+      128
+    ]
+  }
+}

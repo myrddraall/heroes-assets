@@ -1,0 +1,190 @@
+{
+  "abilities": {
+    "SamuroMirrorImageTargeted|SamuroMirrorImage|Q": {
+      "cooldownText": "Recarga: 14 segundos",
+      "fullText": "Teleporta-se a uma curta distância na direção do cursor do mouse, criando <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> Imagens Espelhadas na direção contrária com a mesma Vida de Samuro, cada qual causando <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">11</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> de dano com seus Ataques Básicos. Sempre que uma Imagem recebe dano, ela causa a mesma quantidade a si mesma, ou seja, recebe o dobro de dano.<n/><n/>Imagens Espelhadas duram <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c> s, e é possível ter no máximo <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> Imagens Espelhadas ativas ao mesmo tempo. A cada vez que elas ou Samuro atingirem um inimigo com um Ataque Básico, a duração delas é estendida em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> s. Usar Imagem Espelhada remove a maioria das penalidades presentes em Samuro.",
+      "name": "Imagem Espelhada",
+      "shortText": "Cria Imagens Espelhadas para confundir e atacar inimigos"
+    },
+    "SamuroCriticalStrike|SamuroCriticalStrike|W": {
+      "cooldownText": "Recarga: <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10 segundos</c>",
+      "fullText": "Ative para fazer com que o próximo Ataque Básico de Samuro e das Imagens Espelhadas dele dentro de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c> s seja um Acerto Crítico, causando <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> a mais de dano. Furtividade não é interrompida quando ativado.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Passivo:</c> Samuro e as imagens dele também desferem um Acerto Crítico sempre no <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4º</c> Ataque Básico.",
+      "name": "Acerto Crítico",
+      "shortText": "Ataque Crítico que causa mais dano."
+    },
+    "SamuroWindwalk|SamuroWindwalk|E": {
+      "cooldownText": "Recarga: 15 segundos",
+      "fullText": "Concede Furtividade a Samuro por até <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> s ou até ele atacar, usar uma habilidade ou receber dano.<n/><n/>Quando Samuro está Furtivo, ele recupera <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2%</c> do máximo de Vida a cada segundo, sua Velocidade de Movimento aumenta em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> e ele pode atravessar outras unidades. Permanecer imóvel por pelo menos <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> s durante a Furtividade concede Invisibilidade.<n/><n/>Samuro fica Irrevelável durante o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1º</c> segundo de Andavento.",
+      "name": "Andavento",
+      "shortText": "Entra em modo furtivo e ganha velocidade de movimento"
+    },
+    "SamuroBladeStormDummy|SamuroBladestorm|Heroic": {
+      "cooldownText": "Recarga: 30 segundos",
+      "fullText": "Samuro provoca um Tornado de Aço destrutivo ao seu redor por <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> s, recebendo <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c> de Armadura e causando <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">180</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> de dano por segundo aos inimigos próximos.",
+      "name": "Tornado de Aço",
+      "shortText": "Causa um Tornado de Aço destrutivo"
+    },
+    "SamuroIllusionMaster|SamuroIllusionMaster|Heroic": {
+      "cooldownText": "Recarga: 8 s",
+      "fullText": "As Imagens Espelhadas podem ser controladas individualmente ou em grupo. Aumenta em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> o dano que elas causam. <n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Passivo:</c> A recarga de Transmissão Imagética é reduzida para <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c> s.",
+      "name": "Mestre da Ilusão",
+      "shortText": "Imagens Espelhadas podem ser controladas"
+    },
+    "SamuroIllusionMaster|SamuroAdvancingStrikes|Trait": {
+      "cooldownText": "Recarga: 14 s",
+      "fullText": "Ative para trocar de lugar com uma Imagem Espelhada, removendo a maioria dos efeitos negativos de Samuro e de todas as imagens.<n/><n/><s val=\"cbe8ff-ffffff\" hlt-name=\"StandardTooltipHeader\">Ataques Impetuosos</s><n/><n/>Ataques Básicos contra Heróis inimigos aumentam a Velocidade de Movimento de Samuro em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> por <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> s.",
+      "name": "Transmissão Imagética",
+      "shortText": "Aumenta a Velocidade de Movimento ao atacar Heróis"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Recarga: 4 segundos",
+      "fullText": "Depois de canalizar por <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> s, ganha <s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s> de Velocidade de Movimento.",
+      "name": "Evocar Montaria"
+    },
+    "Hearthstone|HearthstoneNoMana|B": {
+      "fullText": "Depois de canalizar por <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> s, teleporta você de volta para o Salão das Tempestades, restaurando instantaneamente <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c> de Vida.",
+      "name": "Pedra de Regresso"
+    },
+    "SamuroBladestormCancel|SamuroCancelBladestorm|Heroic": {
+      "fullText": "<s val=\"8783e6\" hlt-name=\"StandardTooltip\">Cancelar Tornado de Aço.</s>",
+      "name": "Cancelamento de Tornado de Aço"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Desmonta você.",
+      "name": "Dispensar Montaria"
+    },
+    "SamuroIllusionMasterToggleAI|SamuroIllusionMasterToggleAIOn|Active": {
+      "fullText": "Com a I.A. desativada, as Imagens só andam e realizam ações quando você dá uma ordem.<n/><n/>Clique neste botão para ativar a I.A.",
+      "name": "I.A. Desativada"
+    },
+    "SamuroIllusionMasterToggleAI|SamuroIllusionMasterToggleAIOff|Active": {
+      "fullText": "Com a I.A. ativada, as Imagens primeiro cumprem as ordens dadas por você. Em seguida, procuram automaticamente inimigos próximos para atacar.<n/><n/>Clique neste botão para desativar a I.A.",
+      "name": "I.A. Ativada"
+    },
+    ":PASSIVE:|SamuroSelectMirrorImages|Active": {
+      "fullText": "<s val=\"cbe8ff-ffffff\" hlt-name=\"StandardTooltipHeader\">Selecionar Imagem Espelhada</s><n/><n/>Dá ordens a uma Imagem Espelhada específica.",
+      "name": "Selecionar Imagem Espelhada",
+      "shortText": "Selecionar Imagem Espelhada"
+    },
+    ":PASSIVE:|SamuroSelectSamuroPrime|Active": {
+      "fullText": "<s val=\"cbe8ff-ffffff\" hlt-name=\"StandardTooltipHeader\">Selecionar Samuro</s><n/><n/>Dá ordens somente a Samuro.",
+      "name": "Selecionar Samuro",
+      "shortText": "Selecionar Samuro"
+    },
+    ":PASSIVE:|SamuroSelectAll|Active": {
+      "fullText": "<s val=\"cbe8ff-ffffff\" hlt-name=\"StandardTooltipHeader\">Selecionar Todos</s><n/><n/>Dá ordens a Samuro e a todas as Imagens Espelhadas.",
+      "name": "Selecionar todos",
+      "shortText": "Selecionar Todos"
+    }
+  },
+  "talents": {
+    "SamuroWayOfIllusion|SamuroWayOfIllusion|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\"> Missão:</c> Sempre que uma Imagem Espelhada obtiver um Acerto Crítico num Herói, Samuro ganhará <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.25</c> de Dano de Ataque, até um máximo de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Recompensa:</c> Ao acertar <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40</c> Heróis, Samuro ganha mais <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30</c> de Dano de Ataque.",
+      "name": "Caminho da Ilusão",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Missão:</c> Acertos Críticos das Imagens potencializam Ataques Básicos"
+    },
+    "SamuroMirrorImageWayOfTheBlade|SamuroWayoftheBlade|W|Level1": {
+      "fullText": "Samuro e as Imagens Espelhadas agora obtêm um Acerto Crítico a cada <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> Ataques Básicos. <n/><n/>Acertos Críticos de Samuro e das Imagens Espelhadas contra Heróis inimigos reduzem em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> a Armadura Física dos alvos por <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.25</c> s, até o máximo de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> de redução de Armadura Física.",
+      "name": "Caminho da Lâmina",
+      "shortText": "Acertos Críticos mais frequentes"
+    },
+    "SamuroWayOfTheWind|SamuroWayOfTheWind|E|Level1": {
+      "fullText": "Após ativar ou sair de Andavento, Samuro ganha <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> de Velocidade de Movimento por <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> s.<n/><n/>Ao ativar Andavento, Samuro recupera instantaneamente <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3%</c> do máximo de Vida.",
+      "name": "Caminho do Vento",
+      "shortText": "Andavento aumenta a Velocidade de Movimento; restaura Vida"
+    },
+    "SamuroMirage|SamuroMirage|Q|Level4": {
+      "fullText": "Imagem Espelhada concede a Samuro e às Imagens <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40</c> de Armadura Mágica contra as próximas <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> fontes de dano mágico, reduzindo o dano recebido em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c>.",
+      "name": "Miragem",
+      "shortText": "Imagem Espelhada concede Armadura Mágica"
+    },
+    "SamuroWindwalkOneWithTheWind|SamuroOneWithTheWindTalent|E|Level4": {
+      "fullText": "Enquanto tiver Andavento ativo e por <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> s após perder a habilidade, Samuro e suas Imagens Espelhadas ganham <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c> de Armadura, recebendo <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> a menos de dano de todas as fontes.",
+      "name": "Uno com o Vento",
+      "shortText": "Ganha Armadura durante Andavento"
+    },
+    "SamuroAdvancingStrikesDeflection|SamuroDeflectionTalent|Passive|Level4": {
+      "fullText": "Os Ataques Impetuosos concedem <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35</c> de Armadura Física a Samuro e às Imagens Espelhadas.",
+      "name": "Deflexão",
+      "shortText": "Ataques Impetuosos concedem Armadura Física"
+    },
+    "SamuroBurningBlade|SamuroBurningBlade|W|Level7": {
+      "fullText": "Acertos Críticos de Samuro ou das Imagens Espelhadas dele causam Dano Mágico bônus equivalente a <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> do dano de Ataque Básico ao alvo e a outros inimigos próximos.",
+      "name": "Lâmina Ardente",
+      "shortText": "Acerto Crítico causa dano de área"
+    },
+    "SamuroPhantomPain|SamuroPhantomsStrikeTalent|W|Level7": {
+      "fullText": "Acertos Críticos de Samuro contra Heróis inimigos reduzem a recarga de Transmissão Imagética em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> s e causam <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35%</c> mais dano para cada Imagem Espelhada ativa.",
+      "name": "Dor Fantasma",
+      "shortText": "Acertos Críticos reduzem a recarga da Transmissão Imagética"
+    },
+    "SamuroCrushingBlow|SamuroOverpoweringBlow|W|Level7": {
+      "fullText": "Os Ataques Básicos de Samuro contra Heróis inimigos reduzem a recarga de Acertos Críticos em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> s. <n/><n/>Usar Acertos Críticos contra Heróis inimigos aumenta o dano de Ataque Básico de Samuro em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c> por <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> s, até <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c>.",
+      "name": "Golpes Aniquiladores",
+      "shortText": "Acertos Críticos aumentam o dano de Ataque Básico"
+    },
+    "SamuroHeroicAbilityBladestorm|SamuroBladestorm|Heroic|Level10": {
+      "cooldownText": "Recarga: 30 segundos",
+      "fullText": "Samuro provoca um Tornado de Aço destrutivo ao seu redor por <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> s, recebendo <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c> de Armadura e causando <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">180</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> de dano por segundo aos inimigos próximos.",
+      "name": "Tornado de Aço",
+      "shortText": "Causa um Tornado de Aço destrutivo"
+    },
+    "SamuroHeroicAbilityIllusionMaster|SamuroIllusionMasterTalent|Heroic|Level10": {
+      "cooldownText": "Recarga: 8 s",
+      "fullText": "As Imagens Espelhadas podem ser controladas individualmente ou em grupo. Aumenta em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> o dano que elas causam. <n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Passivo:</c> A recarga de Transmissão Imagética é reduzida para <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c> s.",
+      "name": "Mestre da Ilusão",
+      "shortText": "Imagens Espelhadas podem ser controladas"
+    },
+    "SamuroMirroredSteel|SamuroMirroredSteelTalent|Q|Level13": {
+      "fullText": "Os Ataques Básicos de Samuro contra Heróis inimigos reduzem a recarga da Imagem Espelhada em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.75</c> s.",
+      "name": "Aço Espelhado",
+      "shortText": "Ataques Básicos reduzem a recarga de Imagem Espelhada"
+    },
+    "SamuroWindwalkKawarimi|WindwalkKawarimiTalent|E|Level13": {
+      "fullText": "Andavento cria uma Imagem onde Samuro estiver. Ela fará exatamente o que ele estava fazendo.",
+      "name": "Kawarimi",
+      "shortText": "Andavento cria uma Imagem"
+    },
+    "SamuroShukuchi|SamuroShukuchiTalent|E|Level13": {
+      "fullText": "Andavento teleporta Samuro para perto, na direção em que estiver olhando.",
+      "name": "Shukuchi",
+      "shortText": "O Andavento teleporta o Samuro a uma curta distância"
+    },
+    "SamuroMercilessStrikes|SamuroMercilessStrikes|W|Level16": {
+      "fullText": "Ataques Básicos de Samuro contra alvos atordoados, enraizados ou desacelerados são sempre Acertos Críticos.",
+      "name": "Ataques Impiedosos",
+      "shortText": "Acertos Críticos sempre ocorrem em alvos debilitados"
+    },
+    "SamuroHarshWinds|SamuroHarshWinds|E|Level16": {
+      "fullText": "Se Andavento for interrompido por um ataque de Samuro a um Herói inimigo, ele causa <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c> a mais de dano a esse alvo por <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> s.",
+      "name": "Ventos Inclementes",
+      "shortText": "Atacar durante Andavento aumenta o dano"
+    },
+    "SamuroPressTheAttack|SamuroPressTheAttack|Passive|Level16": {
+      "fullText": "Ataques Básicos de Samuro ou das Imagens Espelhadas dele contra Heróis inimigos ou enquanto Ataques Impetuosos estiver ativa aumentam a Velocidade de Ataque deles em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c>, até no máximo <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c>.<n/><n/>Esses bônus são perdidos ao perder Ataques Impetuosos.",
+      "name": "Forçar o Ataque",
+      "shortText": "Ataques Impetuosos aumenta a Velocidade de Ataque"
+    },
+    "SamuroDanceOfDeath|SamuroDanceOfDeathTalent|Heroic|Level20": {
+      "fullText": "As Imagens Espelhadas usam Tornado de Aço junto com Samuro, mas causam <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">45%</c> de dano. Se Samuro acertar heróis inimigos pelo menos <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c> vezes com Tornado de Aço, a recarga será concluída.",
+      "name": "Dança da Morte",
+      "shortText": "Imagens usam Tornado de Aço; podem concluir a recarga"
+    },
+    "SamuroThreeBladeStyle|SamuroThreeBladeStyleTalent|Heroic|Level20": {
+      "fullText": "As Imagens Espelhadas de Samuro só causam metade do dano que sofrem, aumentando a Vida efetiva delas em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> e a duração para <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">16</c> s.",
+      "name": "Estilo das Três Lâminas",
+      "shortText": "Mais vida e duração para as Imagens"
+    },
+    "SamuroWindStrider|SamuroWindStrider|E|Level20": {
+      "fullText": "Reduz em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> segundos a recarga de Andavento.",
+      "name": "Andarilho do Vento",
+      "shortText": "Reduz bastante a recarga de Andavento"
+    },
+    "SamuroBlademastersPursuit|SamuroBlademastersPursuitTalent|Passive|Level20": {
+      "fullText": "Os Ataques Impetuosos aumentam em mais <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c> a Velocidade de Movimento de Samuro e suas Imagens Espelhadas. A duração é prolongada em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> s.",
+      "name": "Propósito do Mestre de Espadas",
+      "shortText": "Aumenta a velocidade de movimento e a duração de Ataques Impetuosos"
+    }
+  },
+  "units": {}
+}

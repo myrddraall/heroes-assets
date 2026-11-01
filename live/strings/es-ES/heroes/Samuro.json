@@ -1,0 +1,190 @@
+{
+  "abilities": {
+    "SamuroMirrorImageTargeted|SamuroMirrorImage|Q": {
+      "cooldownText": "Tiempo de reutilización: 14 s",
+      "fullText": "Te teletransportas una corta distancia en la dirección del cursor y creas <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> reflejos en la dirección opuesta con tanta salud como tú. Cada uno inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">11</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> de daño con sus ataques básicos. Los reflejos sufren el doble de daño.<n/><n/>Los reflejos duran <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c> s y puedes tener un máximo de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> reflejos activos a la vez. La duración de los reflejos aumenta <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> s cada vez que tanto ellos como tú golpeáis a un enemigo con un ataque básico. Usar Reflejos elimina la mayoría de los efectos negativos.",
+      "name": "Reflejos",
+      "shortText": "Creas reflejos para confundir y atacar a los enemigos."
+    },
+    "SamuroCriticalStrike|SamuroCriticalStrike|W": {
+      "cooldownText": "Tiempo de reutilización: <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10 s</c>",
+      "fullText": "Actívalo para que tu siguiente ataque básico y el de tus reflejos en <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c> s aseste un golpe crítico e inflija un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> más de daño. El sigilo no se interrumpe cuando se activa.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Pasiva:</c> Tus reflejos y tú también asestáis un golpe crítico con el último de cada <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> ataques básicos.",
+      "name": "Golpe crítico",
+      "shortText": "Los golpes críticos infligen más daño."
+    },
+    "SamuroWindwalk|SamuroWindwalk|E": {
+      "cooldownText": "Tiempo de reutilización: 15 s",
+      "fullText": "Entras en sigilo durante un máximo de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> s o hasta que atacas, usas una habilidad o recibes daño.<n/><n/>Mientras estás en sigilo, te curas un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2%</c> de tu salud máxima por segundo, tu velocidad de movimiento aumenta un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> y puedes atravesar a otras unidades. Si permaneces inmóvil mientras estás en sigilo durante al menos <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> s, te vuelves invisible.<n/><n/>Durante el <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">primer</c> segundo de Andar del viento no se te puede revelar.",
+      "name": "Andar del viento",
+      "shortText": "Entras en sigilo y obtienes velocidad de movimiento."
+    },
+    "SamuroBladeStormDummy|SamuroBladestorm|Heroic": {
+      "cooldownText": "Tiempo de reutilización: 30 s",
+      "fullText": "Provocas un Torbellino de cuchillas con fuerza destructora a tu alrededor durante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> s que te otorga <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c> de armadura e inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">180</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> de daño por segundo a los enemigos cercanos.",
+      "name": "Torbellino de cuchillas",
+      "shortText": "Provocas un Torbellino de cuchillas con fuerza destructora."
+    },
+    "SamuroIllusionMaster|SamuroIllusionMaster|Heroic": {
+      "cooldownText": "Tiempo de reutilización: 8 s",
+      "fullText": "Los reflejos pueden controlarse individualmente o en grupo. Su daño aumenta un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c>. <n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Pasiva:</c> Se reduce el tiempo de reutilización de Transmisión de reflejo a <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c> s.",
+      "name": "Maestro de ilusiones",
+      "shortText": "Puedes controlar a los reflejos."
+    },
+    "SamuroIllusionMaster|SamuroAdvancingStrikes|Trait": {
+      "cooldownText": "Tiempo de reutilización: 14 s",
+      "fullText": "Actívalo para intercambiar tu posición con la del reflejo seleccionado, lo que elimina la mayor parte de los efectos negativos que os afectan a ti y a todos los reflejos.<n/><n/><s val=\"cbe8ff-ffffff\" hlt-name=\"StandardTooltipHeader\">Golpes de avance</s><n/><n/>Los ataques básicos contra héroes enemigos aumentan tu velocidad de movimiento un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> durante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> s.",
+      "name": "Transmisión de reflejo",
+      "shortText": "Tu velocidad de movimiento aumenta al atacar a héroes."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Tiempo de reutilización: 4 s",
+      "fullText": "Tras canalizar durante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> s, obtienes un <s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s> de velocidad de movimiento.",
+      "name": "Invocar montura"
+    },
+    "Hearthstone|HearthstoneNoMana|B": {
+      "fullText": "Tras canalizar durante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> s, te teletransportas de vuelta a la Cámara de las Tormentas, lo que restaura al instante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c> de salud.",
+      "name": "Piedra de hogar"
+    },
+    "SamuroBladestormCancel|SamuroCancelBladestorm|Heroic": {
+      "fullText": "<s val=\"8783e6\" hlt-name=\"StandardTooltip\">Cancelar Torbellino de cuchillas.</s>",
+      "name": "Cancelar Torbellino de cuchillas"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Desmontas.",
+      "name": "Desmontar"
+    },
+    "SamuroIllusionMasterToggleAI|SamuroIllusionMasterToggleAIOn|Active": {
+      "fullText": "Con la IA deshabilitada, los reflejos solo se moverán o realizarán otras acciones cuando se lo ordenes.<n/><n/>Haz clic en este botón para habilitar la IA.",
+      "name": "IA deshabilitada"
+    },
+    "SamuroIllusionMasterToggleAI|SamuroIllusionMasterToggleAIOff|Active": {
+      "fullText": "Con la IA habilitada, los reflejos completarán primero las órdenes que les des y luego buscarán automáticamente a enemigos a los que atacar.<n/><n/>Haz clic en este botón para deshabilitar la IA.",
+      "name": "IA habilitada"
+    },
+    ":PASSIVE:|SamuroSelectMirrorImages|Active": {
+      "fullText": "<s val=\"cbe8ff-ffffff\" hlt-name=\"StandardTooltipHeader\">Seleccionar un reflejo</s><n/><n/>Das órdenes a un solo reflejo.",
+      "name": "Seleccionar reflejo",
+      "shortText": "Seleccionas un reflejo."
+    },
+    ":PASSIVE:|SamuroSelectSamuroPrime|Active": {
+      "fullText": "<s val=\"cbe8ff-ffffff\" hlt-name=\"StandardTooltipHeader\">Seleccionar a Samuro</s><n/><n/>Solo das órdenes a Samuro.",
+      "name": "Seleccionar a Samuro",
+      "shortText": "Seleccionas a Samuro."
+    },
+    ":PASSIVE:|SamuroSelectAll|Active": {
+      "fullText": "<s val=\"cbe8ff-ffffff\" hlt-name=\"StandardTooltipHeader\">Seleccionar todos</s><n/><n/>Das órdenes a Samuro y a todos los reflejos.",
+      "name": "Seleccionar todos",
+      "shortText": "Seleccionar todos"
+    }
+  },
+  "talents": {
+    "SamuroWayOfIllusion|SamuroWayOfIllusion|Q|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Misión:</c> Cada vez que un reflejo inflige un golpe crítico a un héroe, obtienes <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.25</c> de daño de ataque, hasta un máximo de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Recompensa:</c> Tras golpear a <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40</c> héroes, obtienes <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30</c> de daño de ataque adicional.",
+      "name": "Senda de la ilusión",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Misión:</c> Los golpes críticos de los reflejos potencian los ataques básicos."
+    },
+    "SamuroMirrorImageWayOfTheBlade|SamuroWayoftheBlade|W|Level1": {
+      "fullText": "Ahora tus reflejos y tú asestáis un golpe crítico cada <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">tercer</c> ataque básico.<n/><n/>Tus golpes críticos y los de tus reflejos contra héroes enemigos reducen su armadura antiataques en <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> durante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.25</c> s, hasta una reducción máxima de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> de armadura antiataques.",
+      "name": "Senda del acero",
+      "shortText": "Golpe crítico ocurre más a menudo."
+    },
+    "SamuroWayOfTheWind|SamuroWayOfTheWind|E|Level1": {
+      "fullText": "Después del inicio o el fin de Andar del viento, obtienes un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> de velocidad de movimiento durante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> s.<n/><n/>Lanzar Andar del viento te cura al instante un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3%</c> de tu salud máxima.",
+      "name": "Senda del viento",
+      "shortText": "Andar del viento otorga velocidad de movimiento y restaura salud."
+    },
+    "SamuroMirage|SamuroMirage|Q|Level4": {
+      "fullText": "Reflejos os otorga a ti y a tus reflejos <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40</c> de armadura antihabilidades para protegeros de las <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> próximas fuentes de daño de habilidades, lo que reduce un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> el daño que os infligen.",
+      "name": "Espejismo",
+      "shortText": "Reflejos os otorga armadura antihabilidades a ti y a tus reflejos."
+    },
+    "SamuroWindwalkOneWithTheWind|SamuroOneWithTheWindTalent|E|Level4": {
+      "fullText": "Mientras usas Andar del viento y durante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> s tras su cancelación, tanto tú como tus reflejos obtenéis <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c> de armadura, lo que reduce un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> el daño que sufrís de todas las fuentes.",
+      "name": "Uno con el viento",
+      "shortText": "Obtienes armadura mientras usas Andar del viento."
+    },
+    "SamuroAdvancingStrikesDeflection|SamuroDeflectionTalent|Passive|Level4": {
+      "fullText": "Golpes de avance os otorga a ti y a tus reflejos <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35</c> de armadura antiataques.",
+      "name": "Desvío",
+      "shortText": "Golpes de avance otorga armadura antiataques."
+    },
+    "SamuroBurningBlade|SamuroBurningBlade|W|Level7": {
+      "fullText": "Tus golpes críticos o los de tus reflejos infligen un daño de habilidades adicional equivalente a un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> de tu daño de ataque básico al objetivo y a otros enemigos cercanos.",
+      "name": "Filo Ardiente",
+      "shortText": "Golpe crítico inflige daño de área."
+    },
+    "SamuroPhantomPain|SamuroPhantomsStrikeTalent|W|Level7": {
+      "fullText": "Tus golpes críticos contra héroes enemigos reducen <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> s el tiempo de reutilización de Transmisión de reflejo e infligen un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35%</c> más de daño por cada reflejo activo.",
+      "name": "Reflejos violentos",
+      "shortText": "Los golpes críticos reducen el tiempo de reutilización de Transmisión de reflejo."
+    },
+    "SamuroCrushingBlow|SamuroOverpoweringBlow|W|Level7": {
+      "fullText": "Tus ataques básicos contra héroes reducen el tiempo de reutilización de Golpe crítico <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> s.<n/><n/>Tus golpes críticos contra héroes enemigos aumentan el daño de tus ataques básicos un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c> durante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> s, hasta un máximo de un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c>.",
+      "name": "Golpes aplastantes",
+      "shortText": "Los golpes críticos aumentan el daño de los ataques básicos."
+    },
+    "SamuroHeroicAbilityBladestorm|SamuroBladestorm|Heroic|Level10": {
+      "cooldownText": "Tiempo de reutilización: 30 s",
+      "fullText": "Provocas un Torbellino de cuchillas con fuerza destructora a tu alrededor durante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> s que te otorga <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c> de armadura e inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">180</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> de daño por segundo a los enemigos cercanos.",
+      "name": "Torbellino de cuchillas",
+      "shortText": "Provocas un Torbellino de cuchillas con fuerza destructora."
+    },
+    "SamuroHeroicAbilityIllusionMaster|SamuroIllusionMasterTalent|Heroic|Level10": {
+      "cooldownText": "Tiempo de reutilización: 8 s",
+      "fullText": "Los reflejos pueden controlarse individualmente o en grupo. Su daño aumenta un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c>. <n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Pasiva:</c> Se reduce el tiempo de reutilización de Transmisión de reflejo a <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c> s.",
+      "name": "Maestro de ilusiones",
+      "shortText": "Puedes controlar a los reflejos."
+    },
+    "SamuroMirroredSteel|SamuroMirroredSteelTalent|Q|Level13": {
+      "fullText": "Tus ataques básicos contra héroes enemigos reducen <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.75</c> s el tiempo de reutilización de Reflejos.",
+      "name": "Acero reflectante",
+      "shortText": "Los ataques básicos reducen el tiempo de reutilización de Reflejos."
+    },
+    "SamuroWindwalkKawarimi|WindwalkKawarimiTalent|E|Level13": {
+      "fullText": "Andar del viento crea un reflejo en tu ubicación que seguirá haciendo lo que estuvieras haciendo tú.",
+      "name": "Kawarimi",
+      "shortText": "Andar del viento crea un reflejo."
+    },
+    "SamuroShukuchi|SamuroShukuchiTalent|E|Level13": {
+      "fullText": "Activar Andar del viento te teletransporta una corta distancia hacia donde estés mirando.",
+      "name": "Shukuchi",
+      "shortText": "Andar del viento te teletransporta una pequeña distancia."
+    },
+    "SamuroMercilessStrikes|SamuroMercilessStrikes|W|Level16": {
+      "fullText": "Tus ataques básicos contra enemigos aturdidos, inmovilizados o ralentizados siempre serán golpes críticos.",
+      "name": "Golpes despiadados",
+      "shortText": "Siempre asestas golpes críticos a objetivos incapacitados."
+    },
+    "SamuroHarshWinds|SamuroHarshWinds|E|Level16": {
+      "fullText": "Si interrumpes Andar del viento al atacar a un héroe enemigo, infliges un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c> más de daño a dicho objetivo durante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> s.",
+      "name": "Vientos violentos",
+      "shortText": "Atacar estando bajo los efectos de Andar del viento aumenta el daño."
+    },
+    "SamuroPressTheAttack|SamuroPressTheAttack|Passive|Level16": {
+      "fullText": "Tus ataques básicos o los de tus reflejos contra héroes enemigos o mientras Golpes de avance está activo aumentan un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c> la velocidad de ataque, hasta un máximo de un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c>.<n/><n/>Estas bonificaciones se pierden cuando Golpes de avance deja de estar activo.",
+      "name": "Ataque intenso",
+      "shortText": "Golpes de avance aumenta la velocidad de ataque."
+    },
+    "SamuroDanceOfDeath|SamuroDanceOfDeathTalent|Heroic|Level20": {
+      "fullText": "Tus reflejos usarán Torbellino de cuchillas cuando tú lo hagas, pero infligirán un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">45%</c> de su daño. Si golpeas al menos a <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c> héroes enemigos con Torbellino de cuchillas, se reinicia su tiempo de reutilización.",
+      "name": "Baile de la muerte",
+      "shortText": "Los reflejos usan Torbellino de cuchillas y se puede reiniciar su tiempo de reutilización."
+    },
+    "SamuroThreeBladeStyle|SamuroThreeBladeStyleTalent|Heroic|Level20": {
+      "fullText": "Tus reflejos solo se infligen la mitad del daño que reciben, por lo que pierden salud un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> más despacio, y su duración aumenta a <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">16</c> s.",
+      "name": "Triple acero",
+      "shortText": "Los reflejos tienen más salud y duran más."
+    },
+    "SamuroWindStrider|SamuroWindStrider|E|Level20": {
+      "fullText": "El tiempo de reutilización de Andar del viento se reduce <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> s.",
+      "name": "Viento veloz",
+      "shortText": "Reduce considerablemente el tiempo de reutilización de Andar del viento. "
+    },
+    "SamuroBlademastersPursuit|SamuroBlademastersPursuitTalent|Passive|Level20": {
+      "fullText": "Golpes de avance te otorga un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c> de velocidad de movimiento a ti y a tus reflejos, y su duración aumenta <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> s.",
+      "name": "Maestro de la persecución",
+      "shortText": "Aumenta la velocidad de movimiento y la duración de Golpes de avance."
+    }
+  },
+  "units": {}
+}

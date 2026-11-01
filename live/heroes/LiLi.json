@@ -1,0 +1,626 @@
+{
+  "id": "LiLi",
+  "unitId": "HeroLiLi",
+  "hyperlinkId": "LiLi",
+  "attributeId": "LiLi",
+  "franchise": "Warcraft",
+  "rarity": "Rare",
+  "releaseDate": "2014-04-15",
+  "isMelee": false,
+  "gender": "Female",
+  "radius": 0.625,
+  "innerRadius": 0.625,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 3,
+    "damage": 3,
+    "survivability": 8,
+    "utility": 8
+  },
+  "life": {
+    "amount": 1500,
+    "scale": 0.04,
+    "regenRate": 3.125,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "AllyHealer",
+    "EnergyImportant",
+    "Helper",
+    "RoleSupport",
+    "SelfHealer"
+  ],
+  "summonedUnitIds": [
+    "CloudSerpent"
+  ],
+  "weapons": [
+    {
+      "nameId": "HeroLiLi",
+      "isDisabled": false,
+      "range": 5.5,
+      "minimumRange": 0,
+      "period": 0.8,
+      "damage": 60,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "LiLiExplorer",
+    "LiLiLunarLiLi",
+    "LiLiShadowblade",
+    "LiLiShadowpaw",
+    "LiLiSummer20",
+    "LiLiUltimate"
+  ],
+  "variationSkinIds": [
+    "LiLiGreen",
+    "LiLiYellow"
+  ],
+  "voiceLineIds": [
+    "LiLiBase_VoiceLine01",
+    "LiLiBase_VoiceLine02",
+    "LiLiBase_VoiceLine03",
+    "LiLiBase_VoiceLine04",
+    "LiLiBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "LiLiHealingBrew|LiLiHealingBrew|Q",
+        "abilityId": "LiLiHealingBrew",
+        "buttonId": "LiLiHealingBrew",
+        "icon": "storm_ui_icon_lili_healingbrew.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "LiLiCloudSerpent|LiLiCloudSerpent|W",
+        "abilityId": "LiLiCloudSerpent",
+        "buttonId": "LiLiCloudSerpent",
+        "icon": "storm_ui_icon_lili_cloudserpent.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "LiLiBlindingWind|LiLiBlindingWind|E",
+        "abilityId": "LiLiBlindingWind",
+        "buttonId": "LiLiBlindingWind",
+        "icon": "storm_ui_icon_lili_blindingwind.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "LiLiJugof1000Cups|LiLiJugof1000Cups|Heroic",
+        "abilityId": "LiLiJugof1000Cups",
+        "buttonId": "LiLiJugof1000Cups",
+        "icon": "storm_ui_icon_lili_jugofathousandcups.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "LiLiWaterDragon|LiLiWaterDragon|Heroic",
+        "abilityId": "LiLiWaterDragon",
+        "buttonId": "LiLiWaterDragon",
+        "icon": "storm_ui_icon_lili_waterdragon.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": ":PASSIVE:|LiLiFastFeet|Trait",
+        "abilityId": ":PASSIVE:",
+        "buttonId": "LiLiFastFeet",
+        "icon": "storm_ui_icon_lili_fastfeet.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "LiLiJugof1000Cups|LiLiJugof1000Cups|Heroic": {
+      "Heroic": [
+        {
+          "linkId": "LiLiCancelJugof1000Cups|LiLiCancelJugof1000Cups|Heroic",
+          "abilityId": "LiLiCancelJugof1000Cups",
+          "buttonId": "LiLiCancelJugof1000Cups",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "abilityType": "Heroic"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "LiLiMasteryFastFeetSafetySprint|LiLiSafetySprintTalent|Trait|Level4": {
+      "Trait": [
+        {
+          "linkId": "LiLiSafetySprint|LiLiFastFeet|Trait",
+          "abilityId": "LiLiSafetySprint",
+          "buttonId": "LiLiFastFeet",
+          "icon": "storm_ui_icon_lili_fastfeet.png",
+          "abilityType": "Trait"
+        }
+      ]
+    },
+    "LiLiLetsGo|LiLiLetsGo|Active|Level7": {
+      "Activable": [
+        {
+          "linkId": "LiLiLetsGo|LiLiLetsGo|Active",
+          "abilityId": "LiLiLetsGo",
+          "buttonId": "LiLiLetsGo",
+          "icon": "storm_ui_icon_talent_cleanse.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "LiLiMistweaver|LiLiMistweaver|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "LiLiMistweaver|LiLiMistweaver|Active",
+          "abilityId": "LiLiMistweaver",
+          "buttonId": "LiLiMistweaver",
+          "icon": "storm_ui_icon_lili_mistweaver.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "LiLiFreeDrinks|LiLiFreeDrinks|Q|Level1",
+        "talentId": "LiLiFreeDrinks",
+        "buttonId": "LiLiFreeDrinks",
+        "abilityId": "LiLiHealingBrew",
+        "icon": "storm_ui_icon_lili_healingbrew.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "LiLiHealingBrew|LiLiHealingBrew|Q"
+        ]
+      },
+      {
+        "linkId": "LiLiMasteryCloudSerpentSerpentSidekick|LiLiSerpentSidekickTalent|W|Level1",
+        "talentId": "LiLiMasteryCloudSerpentSerpentSidekick",
+        "buttonId": "LiLiSerpentSidekickTalent",
+        "abilityId": "LiLiCloudSerpent",
+        "icon": "storm_ui_icon_lili_cloudserpent.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "LiLiCloudSerpent|LiLiCloudSerpent|W"
+        ]
+      },
+      {
+        "linkId": "LiLiEagerAdventurer|LiLiEagerAdventurer|Trait|Level1",
+        "talentId": "LiLiEagerAdventurer",
+        "buttonId": "LiLiEagerAdventurer",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_lili_fastfeet.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|LiLiFastFeet|Trait",
+          "LiLiSafetySprint|LiLiFastFeet|Trait"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "LiLiWindSerpent|LiLiWindSerpent|W|Level4",
+        "talentId": "LiLiWindSerpent",
+        "buttonId": "LiLiWindSerpent",
+        "abilityId": "LiLiCloudSerpent",
+        "icon": "storm_ui_icon_lili_cloudserpent.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "LiLiCloudSerpent|LiLiCloudSerpent|W"
+        ]
+      },
+      {
+        "linkId": "LiLiMasteryBlindingWindSurgingWinds|LiLiSurgingWindsTalent|E|Level4",
+        "talentId": "LiLiMasteryBlindingWindSurgingWinds",
+        "buttonId": "LiLiSurgingWindsTalent",
+        "abilityId": "LiLiBlindingWind",
+        "icon": "storm_ui_icon_lili_blindingwind.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "LiLiBlindingWind|LiLiBlindingWind|E"
+        ]
+      },
+      {
+        "linkId": "LiLiMasteryFastFeetSafetySprint|LiLiSafetySprintTalent|Trait|Level4",
+        "talentId": "LiLiMasteryFastFeetSafetySprint",
+        "buttonId": "LiLiSafetySprintTalent",
+        "abilityId": "LiLiSafetySprint",
+        "icon": "storm_ui_icon_lili_fastfeet.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|LiLiFastFeet|Trait",
+          "LiLiSafetySprint|LiLiFastFeet|Trait"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "LiLiMasteryHealingBrewTheGoodStuff|LiLiHealingBrewTheGoodStuffTalent|Q|Level7",
+        "talentId": "LiLiMasteryHealingBrewTheGoodStuff",
+        "buttonId": "LiLiHealingBrewTheGoodStuffTalent",
+        "abilityId": "LiLiHealingBrew",
+        "icon": "storm_ui_icon_lili_healingbrew.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "LiLiHealingBrew|LiLiHealingBrew|Q"
+        ]
+      },
+      {
+        "linkId": "LiLiMasteryBlindingWindMassVortex|LiLiBlindingWindMassVortexTalent|E|Level7",
+        "talentId": "LiLiMasteryBlindingWindMassVortex",
+        "buttonId": "LiLiBlindingWindMassVortexTalent",
+        "abilityId": "LiLiBlindingWind",
+        "icon": "storm_ui_icon_lili_blindingwind.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "LiLiBlindingWind|LiLiBlindingWind|E"
+        ]
+      },
+      {
+        "linkId": "LiLiLetsGo|LiLiLetsGo|Active|Level7",
+        "talentId": "LiLiLetsGo",
+        "buttonId": "LiLiLetsGo",
+        "abilityId": "LiLiLetsGo",
+        "icon": "storm_ui_icon_talent_cleanse.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "LiLiHeroicAbilityJugof1000Cups|LiLiJugof1000Cups|Heroic|Level10",
+        "talentId": "LiLiHeroicAbilityJugof1000Cups",
+        "buttonId": "LiLiJugof1000Cups",
+        "abilityId": "LiLiJugof1000Cups",
+        "icon": "storm_ui_icon_lili_jugofathousandcups.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "LiLiHeroicAbilityWaterDragon|LiLiWaterDragon|Heroic|Level10",
+        "talentId": "LiLiHeroicAbilityWaterDragon",
+        "buttonId": "LiLiWaterDragon",
+        "abilityId": "LiLiWaterDragon",
+        "icon": "storm_ui_icon_lili_waterdragon.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "LiLiMasteryCloudSerpentLightningSerpent|LiLiCloudSerpentLightningSerpentTalent|W|Level13",
+        "talentId": "LiLiMasteryCloudSerpentLightningSerpent",
+        "buttonId": "LiLiCloudSerpentLightningSerpentTalent",
+        "abilityId": "LiLiCloudSerpent",
+        "icon": "storm_ui_icon_lili_cloudserpent.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "LiLiCloudSerpent|LiLiCloudSerpent|W"
+        ]
+      },
+      {
+        "linkId": "LiLiMasteryBlindingWindGaleForce|LiLiBlindingWindGaleForceTalent|E|Level13",
+        "talentId": "LiLiMasteryBlindingWindGaleForce",
+        "buttonId": "LiLiBlindingWindGaleForceTalent",
+        "abilityId": "LiLiBlindingWind",
+        "icon": "storm_ui_icon_lili_blindingwind.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "LiLiBlindingWind|LiLiBlindingWind|E"
+        ]
+      },
+      {
+        "linkId": "LiLiHinderingWinds|LiLiHinderingWinds|E|Level13",
+        "talentId": "LiLiHinderingWinds",
+        "buttonId": "LiLiHinderingWinds",
+        "abilityId": "LiLiBlindingWind",
+        "icon": "storm_ui_icon_lili_blindingwind_a.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "LiLiBlindingWind|LiLiBlindingWind|E"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "LiLiMasteryHealingBrewTwoForOne|LiLiHealingBrewTwoForOneTalent|Q|Level16",
+        "talentId": "LiLiMasteryHealingBrewTwoForOne",
+        "buttonId": "LiLiHealingBrewTwoForOneTalent",
+        "abilityId": "LiLiHealingBrew",
+        "icon": "storm_ui_icon_lili_healingbrew.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "LiLiHealingBrew|LiLiHealingBrew|Q"
+        ]
+      },
+      {
+        "linkId": "LiLiPickMeUp|LiLiPickMeUp|Q|Level16",
+        "talentId": "LiLiPickMeUp",
+        "buttonId": "LiLiPickMeUp",
+        "abilityId": "LiLiHealingBrew",
+        "icon": "storm_ui_icon_lili_healingbrew_a.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "LiLiHealingBrew|LiLiHealingBrew|Q"
+        ]
+      },
+      {
+        "linkId": "LiLiBlessingsOfYulon|LiLiBlessingsOfYulon|W|Level16",
+        "talentId": "LiLiBlessingsOfYulon",
+        "buttonId": "LiLiBlessingsOfYulon",
+        "abilityId": "LiLiCloudSerpent",
+        "icon": "storm_ui_icon_lili_cloudserpent.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "LiLiCloudSerpent|LiLiCloudSerpent|W"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "LiLiMasteryJugof1000CupsJugof1000000Cups|LiLiJugof1000CupsJugof1000000CupsTalent|Heroic|Level20",
+        "talentId": "LiLiMasteryJugof1000CupsJugof1000000Cups",
+        "buttonId": "LiLiJugof1000CupsJugof1000000CupsTalent",
+        "abilityId": "LiLiJugof1000Cups",
+        "icon": "storm_ui_icon_lili_jugofathousandcups.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "LiLiJugof1000Cups|LiLiJugof1000Cups|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "LiLiHeroicAbilityJugof1000Cups"
+        ]
+      },
+      {
+        "linkId": "LiLiMasteryWaterDragonDoubleDragon|LiLiWaterDragonDoubleDragonTalent|Heroic|Level20",
+        "talentId": "LiLiMasteryWaterDragonDoubleDragon",
+        "buttonId": "LiLiWaterDragonDoubleDragonTalent",
+        "abilityId": "LiLiWaterDragon",
+        "icon": "storm_ui_icon_lili_waterdragon.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "LiLiWaterDragon|LiLiWaterDragon|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "LiLiHeroicAbilityWaterDragon"
+        ]
+      },
+      {
+        "linkId": "LiLiMistweaver|LiLiMistweaver|Active|Level20",
+        "talentId": "LiLiMistweaver",
+        "buttonId": "LiLiMistweaver",
+        "abilityId": "LiLiMistweaver",
+        "icon": "storm_ui_icon_lili_mistweaver.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      },
+      {
+        "linkId": "LiLiShakeItOff|LiLiShakeItOffTalent|Trait|Level20",
+        "talentId": "LiLiShakeItOff",
+        "buttonId": "LiLiShakeItOffTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_lili_fastfeet.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|LiLiFastFeet|Trait",
+          "LiLiSafetySprint|LiLiFastFeet|Trait"
+        ]
+      }
+    ]
+  },
+  "sheet": "sheets/LiLi.webp",
+  "icons": {
+    "storm_ui_icon_lili_healingbrew.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_lili_cloudserpent.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_lili_blindingwind.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_lili_jugofathousandcups.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_lili_waterdragon.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_lili_fastfeet.png": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_mount.png": [
+      256,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      384,
+      128,
+      111,
+      71
+    ],
+    "hud_btn_bg_ability_cancel.png": [
+      0,
+      256,
+      97,
+      111
+    ],
+    "storm_ui_icon_generic_cancel_mount.png": [
+      128,
+      256,
+      76,
+      48
+    ],
+    "storm_ui_icon_talent_cleanse.png": [
+      256,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_lili_mistweaver.png": [
+      384,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_lili_blindingwind_a.png": [
+      0,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_lili_healingbrew_a.png": [
+      128,
+      384,
+      128,
+      128
+    ]
+  }
+}

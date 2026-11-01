@@ -1,0 +1,212 @@
+{
+  "abilities": {
+    "JainaFrostbolt|JainaFrostbolt|Q": {
+      "cooldownText": "Cooldown: 4 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 30</s>",
+      "fullText": "Deal <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">184</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage and Chill the target.",
+      "name": "Frostbolt",
+      "shortText": "Shoot a bolt that deals damage and Chills the target"
+    },
+    "JainaBlizzard|JainaBlizzard|W": {
+      "cooldownText": "Cooldown: 15 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 90</s>",
+      "fullText": "Bombard an area with <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> waves of ice, dealing <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">142</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage each. Damaged enemies are Chilled.",
+      "name": "Blizzard",
+      "shortText": "Creates a storm of ice at target location, damaging and slowing enemies"
+    },
+    "JainaConeOfCold|JainaConeOfCold|E": {
+      "cooldownText": "Cooldown: 10 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 40</s>",
+      "fullText": "Deal <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">220</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage and Chill targets.",
+      "name": "Cone of Cold",
+      "shortText": "Deal damage in a cone and Chill targets"
+    },
+    "JainaSummonWaterElemental|JainaSummonWaterElemental|Heroic": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Summon a Water Elemental at target location. The Water Elemental's Basic Attacks deal <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">62</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage, splash for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> damage and Chill. The Ability can be reactivated to retarget the Water Elemental. Loses Health over <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">32</c> seconds. ",
+      "name": "Summon Water Elemental",
+      "shortText": "Summon a Water Elemental that Chills enemies"
+    },
+    "JainaRingOfFrost|JainaRingOfFrost|Heroic": {
+      "cooldownText": "Cooldown: 70 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 70</s>",
+      "fullText": "After a <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> second delay, create a Ring of Frost in an area that deals <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">310</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage and Roots enemies for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> seconds. The ring persists for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> seconds afterward, Chilling any enemies who touch it.",
+      "name": "Ring of Frost",
+      "shortText": "Create a ring that damages and Roots enemies "
+    },
+    ":PASSIVE:|JainaTraitFrostbite|Trait": {
+      "fullText": "Jaina's Abilities Chill targets, Slowing them by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> and amplifying damage taken from her Abilities by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>. Lasts <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> seconds.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Quest:</c> Deal Ability damage to Chilled Heroes.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Reward:</c> Upon dealing <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">12000</c> damage, unlock the Improved Ice Block Ability, allowing Jaina to become temporarily Invulnerable.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Mythic Reward:</c> Upon dealing <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30000</c> damage, Ice Block upgrades to Ice Cold, allowing Jaina to move and cast while active.",
+      "name": "Frostbite",
+      "shortText": "Jaina's Abilities Chill targets, slowing them and causing them to take more damage"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Cooldown: 4 seconds",
+      "fullText": "After Channeling for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> second, gain <s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s> Movement Speed.",
+      "name": "Summon Mount"
+    },
+    "JainaIceBlockActivate|JainaImprovedIceBlockHotbar|Active": {
+      "cooldownText": "Cooldown: 40 seconds",
+      "fullText": "Activate to place Jaina in Stasis and gain Invulnerability for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c> seconds. When this effect expires, nearby enemies are Chilled.",
+      "name": "Improved Ice Block",
+      "shortText": "Gain Invulnerability and Chill enemies"
+    },
+    "JainaIceBlockActivate|JainaIceColdHotbar|Active": {
+      "cooldownText": "Cooldown: 40 seconds",
+      "fullText": "Activate to grant Jaina Protected and Unstoppable for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c> seconds. When this effect expires, nearby enemies are Chilled.",
+      "name": "Ice Cold",
+      "shortText": "Gain Protected and Chill enemies"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "After Channeling for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> seconds, teleport back to the Hall of Storms, instantly restoring <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c> Health and <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c> Mana.",
+      "name": "Hearthstone"
+    },
+    "JainaCommandWaterElemental|JainaCommandWaterElemental|Heroic": {
+      "fullText": "Wills the Water Elemental to attack an enemy or move to an area.",
+      "name": "Command Water Elemental"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Dismounts you.",
+      "name": "Unsummon Mount"
+    },
+    "JainaIceBlockCancel|JainaIceColdCancel|Active": {
+      "fullText": "<n/><s val=\"8783e6\" hlt-name=\"StandardTooltip\">Cancel Improved Ice Cold, removing Protected and Chilling nearby enemies.</s>",
+      "name": "Cancel Ice Cold"
+    },
+    "JainaIceBlockCancel|JainaImprovedIceBlockCancel|Active": {
+      "fullText": "<n/><s val=\"8783e6\" hlt-name=\"StandardTooltip\">Cancel Improved Ice Block, removing the Stasis and Invulnerability and Chilling nearby enemies.</s>",
+      "name": "Cancel Improved Ice Block"
+    },
+    "IcyVeins|JainaIcyVeinsHotbar|Active": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "fullText": "Activate to make Jaina's Basic Abilities' cooldowns recharge <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">200%</c> faster and reduce their Mana cost by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> seconds.",
+      "name": "Icy Veins",
+      "shortText": "Reduce cooldowns and Mana costs"
+    },
+    "JainaFrigidTransmission|JainaFrigidTransmission|Active": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "fullText": "Activate to teleport a short distance and Chill all nearby enemies.",
+      "name": "Ice Blink",
+      "shortText": "Activate to teleport and Chill nearby enemies"
+    }
+  },
+  "talents": {
+    "JainaFrostboltWintersReach|JainaFrostboltWintersReachTalent|Q|Level1": {
+      "fullText": "Increase the range and travel speed of Frostbolt by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c>.",
+      "name": "Winter's Reach",
+      "shortText": "Increase Frostbolt range, travel speed"
+    },
+    "JainaFrostbiteLingeringChill|JainaFrostbiteLingeringChillTalent|Trait|Level1": {
+      "fullText": "Increase the duration of Chill from <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> seconds to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> seconds.",
+      "name": "Lingering Chill",
+      "shortText": "Increase Chill duration"
+    },
+    "JainaFingersOfFrost|JainaFingersOfFrost|Passive|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Quest:</c> Gather Regeneration Globes to increase Jaina's Mana regeneration by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.1</c> per second, up to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> per second. <n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Reward:</c> After gathering <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c> Globes, the damage bonus from Frostbite is increased by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c>.",
+      "name": "Fingers of Frost",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Quest:</c> Regen Globes increase Mana Regeneration"
+    },
+    "JainaFrostboltFrostShards|JainaFrostboltFrostShardsTalent|Q|Level4": {
+      "fullText": "Frostbolt will now pierce the first two targets.",
+      "name": "Frost Shards",
+      "shortText": "Frostbolt pierces first two targets"
+    },
+    "JainaFrostbiteArcaneIntellect|JainaFrostbiteArcaneIntellectTalent|Trait|Level4": {
+      "fullText": "Dealing damage to a Chilled target returns Mana to Jaina. Basic Attacks return <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> Mana and Abilities return <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c>.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Passive: </c>While above <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75%</c> Mana, Jaina gains <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c> Spell Power.",
+      "name": "Arcane Intellect",
+      "shortText": "Damage to Chilled targets returns Mana"
+    },
+    "JainaFrostbiteFrostArmor|JainaFrostbiteFrostArmorTalent|Passive|Level4": {
+      "fullText": "Enemies that attack Jaina are Chilled. Additionally, every <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> seconds, Jaina gains <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75</c> Physical Armor against the next enemy Hero Basic Attack, reducing the damage taken by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75%</c>.",
+      "name": "Frost Armor",
+      "shortText": "Chill attackers and gain Physical Armor"
+    },
+    "JainaFrostboltIceLance|JainaFrostboltIceLanceTalent|Q|Level7": {
+      "fullText": "Hitting a Chilled target with Frostbolt reduces its cooldown by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> seconds and restores <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> Mana.",
+      "name": "Ice Lance",
+      "shortText": "Reduce Frostbolt cooldown on Chilled targets"
+    },
+    "JainaConeOfColdIceFloes|JainaConeOfColdIceFloesTalent|E|Level7": {
+      "fullText": "Increase the width of Cone of Cold by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> and cause each Hero hit to reduce its cooldown by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> seconds, doubled against chilled Heroes, up to a maximum of <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c> seconds per use.",
+      "name": "Ice Floes",
+      "shortText": "Increase Cone of Cold area, reduce cooldown"
+    },
+    "JainaIcefuryWand|JainaIcefuryWand|Passive|Level7": {
+      "fullText": "Basic Attacks against Chilled enemies deal <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> more damage and lower the cooldown of Blizzard by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.25</c> seconds. Doubled against enemy Heroes.",
+      "name": "Icefury Wand",
+      "shortText": "Increase Basic Attack damage"
+    },
+    "JainaHeroicRingOfFrost|JainaRingOfFrost|Heroic|Level10": {
+      "cooldownText": "Cooldown: 70 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 70</s>",
+      "fullText": "After a <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> second delay, create a Ring of Frost in an area that deals <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">310</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage and Roots enemies for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> seconds. The ring persists for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> seconds afterward, Chilling any enemies who touch it.",
+      "name": "Ring of Frost",
+      "shortText": "Create a ring that damages and Roots enemies "
+    },
+    "JainaHeroicSummonWaterElemental|JainaSummonWaterElemental|Heroic|Level10": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Summon a Water Elemental at target location. The Water Elemental's Basic Attacks deal <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">62</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage, splash for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> damage and Chill. The Ability can be reactivated to retarget the Water Elemental. Loses Health over <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">32</c> seconds. ",
+      "name": "Summon Water Elemental",
+      "shortText": "Summon a Water Elemental that Chills enemies"
+    },
+    "JainaBlizzardStormFront|JainaBlizzardStormFrontTalent|W|Level13": {
+      "fullText": "Increase the cast range of Blizzard by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75%</c> and its radius by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c>.",
+      "name": "Storm Front",
+      "shortText": "Increase Blizzard cast range and radius"
+    },
+    "JainaFrostbiteIceBarrier|JainaFrostbiteIceBarrierTalent|Trait|Level13": {
+      "fullText": "Gain a Shield for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> of Ability damage dealt to Chilled targets. The shield lasts <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> seconds.",
+      "name": "Ice Barrier",
+      "shortText": "Damaging Chilled targets grants Shield"
+    },
+    "JainaIcyVeins|JainaIcyVeinsHotbar|Active|Level13": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "fullText": "Activate to make Jaina's Basic Abilities' cooldowns recharge <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">200%</c> faster and reduce their Mana cost by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> seconds.",
+      "name": "Icy Veins",
+      "shortText": "Reduce cooldowns and Mana costs"
+    },
+    "JainaBlizzardSnowstorm|JainaBlizzardSnowstormTalent|W|Level16": {
+      "fullText": "The damage of the second wave of Blizzard is increased by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>. The damage of the third wave is increased by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c>.",
+      "name": "Snowstorm",
+      "shortText": "Increase Blizzard damage"
+    },
+    "JainaConeOfColdNorthernExposure|JainaConeOfColdNorthernExposureTalent|E|Level16": {
+      "fullText": "Enemies damaged by Cone of Cold have their Armor lowered by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c> for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> seconds, increasing their damage taken by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>.",
+      "name": "Northern Exposure",
+      "shortText": "Cone of Cold lowers Armor"
+    },
+    "JainaConeOfColdNumbingBlast|JainaConeOfColdNumbingBlastTalent|E|Level16": {
+      "fullText": "Cone of Cold Roots Chilled targets for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.75</c> seconds.",
+      "name": "Numbing Blast",
+      "shortText": "Cone of Cold Roots Chilled targets"
+    },
+    "JainaRingOfFrostColdSnap|JainaRingOfFrostColdSnapTalent|Heroic|Level20": {
+      "fullText": "The center area of Ring of Frost deals <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">310</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage and Roots enemies after the outer ring expires. Each enemy Hero hit reduces its cooldown by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> seconds.",
+      "name": "Cold Snap",
+      "shortText": "Ring of Frost center deals damage, Roots"
+    },
+    "JainaSummonWaterElementalWintermute|JainaSummonWaterElementalWintermuteTalent|Heroic|Level20": {
+      "fullText": "Increases the cast range of Water Elemental by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c>, and the Water Elemental will now mimic Jaina's Basic Abilities for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> damage.",
+      "name": "Wintermute",
+      "shortText": "Increase cast range and mimics Basic Abilities"
+    },
+    "JainaFrigidTransmission|JainaFrigidTransmission|Active|Level20": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "fullText": "Activate to teleport a short distance and Chill all nearby enemies.",
+      "name": "Ice Blink",
+      "shortText": "Activate to teleport and Chill nearby enemies"
+    },
+    "JainaFrostbiteDeepChill|JainaFrostbiteDeepChillTalent|Trait|Level20": {
+      "fullText": "Frostbite's Chill can now stack a second time, slowing targets up to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c>.",
+      "name": "Deep Chill",
+      "shortText": "Chill Slow stacks"
+    }
+  },
+  "units": {
+    "JainaWaterElemental": {
+      "description": "Jaina's faithful watery companion",
+      "name": "Water Elemental"
+    }
+  }
+}

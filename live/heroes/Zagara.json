@@ -1,0 +1,674 @@
+{
+  "id": "Zagara",
+  "unitId": "HeroZagara",
+  "hyperlinkId": "Zagara",
+  "attributeId": "Zaga",
+  "franchise": "Starcraft",
+  "rarity": "Epic",
+  "releaseDate": "2014-06-25",
+  "isMelee": false,
+  "gender": "Female",
+  "radius": 1.125,
+  "innerRadius": 0.9375,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "ZagaraWings",
+  "ratings": {
+    "complexity": 6,
+    "damage": 6,
+    "survivability": 5,
+    "utility": 8
+  },
+  "life": {
+    "amount": 1550,
+    "scale": 0.04,
+    "regenRate": 3.2304,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "EnergyImportant",
+    "RoleSpecialist",
+    "SoloLaner",
+    "TowerPusher",
+    "WaveClearer"
+  ],
+  "summonedUnitIds": [
+    "ZagaraBaneling",
+    "ZagaraCreepTumor",
+    "ZagaraHydralisk",
+    "ZagaraMutalisk",
+    "ZagaraNydusWorm",
+    "ZagaraRoach"
+  ],
+  "weapons": [
+    {
+      "nameId": "HeroZagara",
+      "isDisabled": false,
+      "range": 6.6,
+      "minimumRange": 0,
+      "period": 0.8,
+      "damage": 83,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "ZagaraCryptQueen",
+    "ZagaraInsectoid",
+    "ZagaraLuxoriaQueen",
+    "ZagaraUltimate"
+  ],
+  "variationSkinIds": [
+    "ZagaraBaseVar3",
+    "ZagaraChar",
+    "ZagaraToxic"
+  ],
+  "voiceLineIds": [
+    "ZagaraBase_VoiceLine01",
+    "ZagaraBase_VoiceLine02",
+    "ZagaraBase_VoiceLine03",
+    "ZagaraBase_VoiceLine04",
+    "ZagaraBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ridesurf",
+    "ZagaraWings"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "ZagaraBanelingBarrage|ZagaraBanelingBarrage|Q",
+        "abilityId": "ZagaraBanelingBarrage",
+        "buttonId": "ZagaraBanelingBarrage",
+        "icon": "storm_ui_icon_zagara_banelingbarrage.png",
+        "charges": {
+          "countMax": 2,
+          "countStart": 2,
+          "countUse": 1,
+          "recastCooldown": 0.125,
+          "isCountHidden": false
+        },
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "ZagaraSummonHydralisk|ZagaraHunterKiller|W",
+        "abilityId": "ZagaraSummonHydralisk",
+        "buttonId": "ZagaraHunterKiller",
+        "icon": "storm_ui_icon_zagara_hunterkiller.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "ZagaraInfestedDrop|ZagaraInfestedDrop|E",
+        "abilityId": "ZagaraInfestedDrop",
+        "buttonId": "ZagaraInfestedDrop",
+        "icon": "storm_ui_icon_zagara_infesteddrop.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "ZagaraSummonNydusWorm|ZagaraNydusNetwork|Heroic",
+        "abilityId": "ZagaraSummonNydusWorm",
+        "buttonId": "ZagaraNydusNetwork",
+        "icon": "storm_ui_icon_zagara_nydusworm.png",
+        "charges": {
+          "countMax": 2,
+          "countStart": 2,
+          "countUse": 1,
+          "recastCooldown": 2,
+          "isCountHidden": false
+        },
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "ZagaraDevouringMaw|ZagaraDevouringMaw|Heroic",
+        "abilityId": "ZagaraDevouringMaw",
+        "buttonId": "ZagaraDevouringMaw",
+        "icon": "storm_ui_icon_zagara_devouringmaw.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": "ZagaraSummonCreepTumor|ZagaraCreepTumor|Trait",
+        "abilityId": "ZagaraSummonCreepTumor",
+        "buttonId": "ZagaraCreepTumor",
+        "icon": "storm_ui_icon_zagara_creep.png",
+        "charges": {
+          "countMax": 3,
+          "countStart": 1,
+          "countUse": 1,
+          "recastCooldown": 3,
+          "isCountHidden": false
+        },
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "HeroGenericSpellShield|GenericSpellShieldItemEnabled|Active": {
+      "Activable": [
+        {
+          "linkId": "HeroGenericSpellShield|GenericSpellShieldItemDisabled|Active",
+          "abilityId": "HeroGenericSpellShield",
+          "buttonId": "GenericSpellShieldItemDisabled",
+          "icon": "storm_ui_icon_talent_spellshield.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "ZagaraInfestToggle|ZagaraInfestItem|Active": {
+      "Activable": [
+        {
+          "linkId": "ZagaraInfestToggle|ZagaraInfestToggleOff|Active",
+          "abilityId": "ZagaraInfestToggle",
+          "buttonId": "ZagaraInfestToggleOff",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "ZagaraMasteryInfest|ZagaraInfest|Active|Level1": {
+      "Activable": [
+        {
+          "linkId": "ZagaraInfestToggle|ZagaraInfestItem|Active",
+          "abilityId": "ZagaraInfestToggle",
+          "buttonId": "ZagaraInfestItem",
+          "icon": "storm_ui_icon_zagara_infest.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "ZagaraMasteryEnvenomedSpines|ZagaraEnvenomedSpinesTalent|Active|Level4": {
+      "Activable": [
+        {
+          "linkId": "ZagaraEnvenomedSpines|ZagaraEnvenomedSpinesTalent|Active",
+          "abilityId": "ZagaraEnvenomedSpines",
+          "buttonId": "ZagaraEnvenomedSpinesTalent",
+          "icon": "storm_ui_icon_talent_autoattack_range.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "GenericTalentSpellShield|GenericSpellShieldTalent|Active|Level13": {
+      "Activable": [
+        {
+          "linkId": "HeroGenericSpellShield|GenericSpellShieldItemEnabled|Active",
+          "abilityId": "HeroGenericSpellShield",
+          "buttonId": "GenericSpellShieldItemEnabled",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "ZagaraMasteryVolatileAcid|ZagaraBanelingBarrageVolatileAcidTalent|Q|Level1",
+        "talentId": "ZagaraMasteryVolatileAcid",
+        "buttonId": "ZagaraBanelingBarrageVolatileAcidTalent",
+        "abilityId": "ZagaraBanelingBarrage",
+        "icon": "storm_ui_icon_zagara_banelingbarrage.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ZagaraBanelingBarrage|ZagaraBanelingBarrage|Q"
+        ]
+      },
+      {
+        "linkId": "ZagaraMasteryCorpseFeeders|ZagaraInfestedDropCorpseFeedersTalent|E|Level1",
+        "talentId": "ZagaraMasteryCorpseFeeders",
+        "buttonId": "ZagaraInfestedDropCorpseFeedersTalent",
+        "abilityId": "ZagaraInfestedDrop",
+        "icon": "storm_ui_icon_zagara_infesteddrop.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ZagaraInfestedDrop|ZagaraInfestedDrop|E"
+        ]
+      },
+      {
+        "linkId": "ZagaraMasteryInfest|ZagaraInfest|Active|Level1",
+        "talentId": "ZagaraMasteryInfest",
+        "buttonId": "ZagaraInfest",
+        "abilityId": "ZagaraInfestToggle",
+        "icon": "storm_ui_icon_zagara_infest.png",
+        "toggleCooldown": 0.5,
+        "abilityType": "Active",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "ZagaraMasteryEnvenomedSpines|ZagaraEnvenomedSpinesTalent|Active|Level4",
+        "talentId": "ZagaraMasteryEnvenomedSpines",
+        "buttonId": "ZagaraEnvenomedSpinesTalent",
+        "abilityId": "ZagaraEnvenomedSpines",
+        "icon": "storm_ui_icon_talent_autoattack_range.png",
+        "toggleCooldown": 0.5,
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 1
+      },
+      {
+        "linkId": "ZagaraCombatStyleMedusaBlades|ZagaraMedusaBladesTalent|Passive|Level4",
+        "talentId": "ZagaraCombatStyleMedusaBlades",
+        "buttonId": "ZagaraMedusaBladesTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_aoe.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2
+      },
+      {
+        "linkId": "ZagaraMasterySerratedSpines|ZagaraSerratedSpinesTalent|Passive|Level4",
+        "talentId": "ZagaraMasterySerratedSpines",
+        "buttonId": "ZagaraSerratedSpinesTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_damage.png",
+        "abilityType": "Passive",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "ZagaraMasteryBanelingMassacre|ZagaraBanelingBarrageBanelingMassacreTalent|Q|Level7",
+        "talentId": "ZagaraMasteryBanelingMassacre",
+        "buttonId": "ZagaraBanelingBarrageBanelingMassacreTalent",
+        "abilityId": "ZagaraBanelingBarrage",
+        "icon": "storm_ui_icon_zagara_banelingbarrage.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ZagaraBanelingBarrage|ZagaraBanelingBarrage|Q"
+        ]
+      },
+      {
+        "linkId": "ZagaraViscousAcid|ZagaraViscousAcid|Q|Level7",
+        "talentId": "ZagaraViscousAcid",
+        "buttonId": "ZagaraViscousAcid",
+        "abilityId": "ZagaraBanelingBarrage",
+        "icon": "storm_ui_icon_zagara_banelingbarrage_a.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ZagaraBanelingBarrage|ZagaraBanelingBarrage|Q"
+        ]
+      },
+      {
+        "linkId": "ZagaraMasteryBileDrop|ZagaraInfestedDropBileDropTalent|E|Level7",
+        "talentId": "ZagaraMasteryBileDrop",
+        "buttonId": "ZagaraInfestedDropBileDropTalent",
+        "abilityId": "ZagaraInfestedDrop",
+        "icon": "storm_ui_icon_zagara_infesteddrop.png",
+        "abilityType": "E",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "ZagaraInfestedDrop|ZagaraInfestedDrop|E"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "ZagaraHeroicAbilityDevouringMaw|ZagaraDevouringMaw|Heroic|Level10",
+        "talentId": "ZagaraHeroicAbilityDevouringMaw",
+        "buttonId": "ZagaraDevouringMaw",
+        "abilityId": "ZagaraDevouringMaw",
+        "icon": "storm_ui_icon_zagara_devouringmaw.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "ZagaraHeroicAbilityNydusAssault|ZagaraNydusNetwork|Heroic|Level10",
+        "talentId": "ZagaraHeroicAbilityNydusAssault",
+        "buttonId": "ZagaraNydusNetwork",
+        "abilityId": "ZagaraSummonNydusWorm",
+        "icon": "storm_ui_icon_zagara_nydusworm.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "ZagaraMasteryHydraliskTransfusion|ZagaraHydraliskTransfusionTalent|W|Level13",
+        "talentId": "ZagaraMasteryHydraliskTransfusion",
+        "buttonId": "ZagaraHydraliskTransfusionTalent",
+        "abilityId": "ZagaraSummonHydralisk",
+        "icon": "storm_ui_icon_zagara_hunterkiller.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ZagaraSummonHydralisk|ZagaraHunterKiller|W"
+        ]
+      },
+      {
+        "linkId": "ZagaraMasteryProtectiveCoating|ZagaraCreepTumorProtectiveCoating|Trait|Level13",
+        "talentId": "ZagaraMasteryProtectiveCoating",
+        "buttonId": "ZagaraCreepTumorProtectiveCoating",
+        "abilityId": "ZagaraSummonCreepTumor",
+        "icon": "storm_ui_icon_zagara_creep.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ZagaraSummonCreepTumor|ZagaraCreepTumor|Trait"
+        ]
+      },
+      {
+        "linkId": "GenericTalentSpellShield|GenericSpellShieldTalent|Active|Level13",
+        "talentId": "GenericTalentSpellShield",
+        "buttonId": "GenericSpellShieldTalent",
+        "abilityId": "HeroGenericSpellShield",
+        "icon": "storm_ui_icon_talent_spellshield.png",
+        "toggleCooldown": 0.5,
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "ZagaraMasteryCorrosiveSaliva|ZagaraCorrosiveSalivaHunterKillerTalent|W|Level16",
+        "talentId": "ZagaraMasteryCorrosiveSaliva",
+        "buttonId": "ZagaraCorrosiveSalivaHunterKillerTalent",
+        "abilityId": "ZagaraSummonHydralisk",
+        "icon": "storm_ui_icon_zagara_hunterkiller.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ZagaraSummonHydralisk|ZagaraHunterKiller|W"
+        ]
+      },
+      {
+        "linkId": "ZagaraMasteryMutalisk|ZagaraHunterKillerMutaliskTalent|W|Level16",
+        "talentId": "ZagaraMasteryMutalisk",
+        "buttonId": "ZagaraHunterKillerMutaliskTalent",
+        "abilityId": "ZagaraSummonHydralisk",
+        "icon": "storm_ui_icon_zagara_hunterkillermuta.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ZagaraSummonHydralisk|ZagaraHunterKiller|W"
+        ]
+      },
+      {
+        "linkId": "ZagaraJaggedBarbsTalent|ZagaraCreepTumorJaggedBarbs|Trait|Level16",
+        "talentId": "ZagaraJaggedBarbsTalent",
+        "buttonId": "ZagaraCreepTumorJaggedBarbs",
+        "abilityId": "ZagaraSummonCreepTumor",
+        "icon": "storm_ui_icon_zagara_creep.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "ZagaraSummonCreepTumor|ZagaraCreepTumor|Trait"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "ZagaraMasteryTyrantMaw|ZagaraDevouringMawTyrantMawTalent|Heroic|Level20",
+        "talentId": "ZagaraMasteryTyrantMaw",
+        "buttonId": "ZagaraDevouringMawTyrantMawTalent",
+        "abilityId": "ZagaraDevouringMaw",
+        "icon": "storm_ui_icon_zagara_devouringmaw.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ZagaraDevouringMaw|ZagaraDevouringMaw|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "ZagaraHeroicAbilityDevouringMaw"
+        ]
+      },
+      {
+        "linkId": "ZagaraMasteryEndlessCreep|ZagaraCreepTumorEndlessCreepTalent|Heroic|Level20",
+        "talentId": "ZagaraMasteryEndlessCreep",
+        "buttonId": "ZagaraCreepTumorEndlessCreepTalent",
+        "abilityId": "ZagaraSummonNydusWorm",
+        "icon": "storm_ui_icon_zagara_nydusworm.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ZagaraSummonNydusWorm|ZagaraNydusNetwork|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "ZagaraHeroicAbilityNydusAssault"
+        ]
+      },
+      {
+        "linkId": "ZagaraBroodmother|ZagaraBroodmother|Q|Level20",
+        "talentId": "ZagaraBroodmother",
+        "buttonId": "ZagaraBroodmother",
+        "abilityId": "ZagaraBanelingBarrage",
+        "icon": "storm_ui_icon_zagara_banelingbarrage.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "ZagaraBanelingBarrage|ZagaraBanelingBarrage|Q"
+        ]
+      },
+      {
+        "linkId": "ZagaraPackInstinct|ZagaraPackInstinct|W|Level20",
+        "talentId": "ZagaraPackInstinct",
+        "buttonId": "ZagaraPackInstinct",
+        "abilityId": "ZagaraSummonHydralisk",
+        "icon": "storm_ui_icon_zagara_hunterkiller.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          "ZagaraSummonHydralisk|ZagaraHunterKiller|W"
+        ]
+      }
+    ]
+  },
+  "sheet": "sheets/Zagara.webp",
+  "icons": {
+    "storm_ui_icon_zagara_banelingbarrage.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_zagara_hunterkiller.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_zagara_infesteddrop.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_zagara_nydusworm.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_zagara_devouringmaw.png": [
+      512,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_zagara_creep.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_mount.png": [
+      128,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      256,
+      128,
+      111,
+      71
+    ],
+    "storm_ui_icon_generic_cancel_mount.png": [
+      384,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_talent_spellshield.png": [
+      512,
+      128,
+      128,
+      128
+    ],
+    "hud_btn_bg_ability_cancel.png": [
+      0,
+      256,
+      97,
+      111
+    ],
+    "storm_ui_icon_zagara_infest.png": [
+      128,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_autoattack_range.png": [
+      256,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_autoattack_aoe.png": [
+      384,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_autoattack_damage.png": [
+      512,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_zagara_banelingbarrage_a.png": [
+      0,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_zagara_hunterkillermuta.png": [
+      128,
+      384,
+      128,
+      128
+    ]
+  }
+}

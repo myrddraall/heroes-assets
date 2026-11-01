@@ -1,0 +1,671 @@
+{
+  "id": "Tyrael",
+  "unitId": "HeroTyrael",
+  "hyperlinkId": "Tyrael",
+  "attributeId": "Tyrl",
+  "franchise": "Diablo",
+  "rarity": "Epic",
+  "releaseDate": "2014-03-13",
+  "isMelee": true,
+  "gender": "Male",
+  "radius": 0.75,
+  "innerRadius": 0.75,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 5,
+    "damage": 6,
+    "survivability": 8,
+    "utility": 6
+  },
+  "life": {
+    "amount": 2517,
+    "scale": 0.04,
+    "regenRate": 5.2438,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "BodyBlocker",
+    "EnergyImportant",
+    "Escaper",
+    "Ganker",
+    "Overconfident",
+    "RoleAutoAttacker",
+    "RoleTank"
+  ],
+  "weapons": [
+    {
+      "nameId": "TyraelHeroWeapon",
+      "isDisabled": false,
+      "range": 1.5,
+      "minimumRange": 0,
+      "period": 0.8,
+      "damage": 82,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "TyraelDemonic",
+    "TyraelMecha",
+    "TyraelSeraphim",
+    "TyraelUltimate"
+  ],
+  "variationSkinIds": [
+    "TyraelBlue",
+    "TyraelWhite"
+  ],
+  "voiceLineIds": [
+    "TyraelBase_VoiceLine01",
+    "TyraelBase_VoiceLine02",
+    "TyraelBase_VoiceLine03",
+    "TyraelBase_VoiceLine04",
+    "TyraelBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "TyraelElDruinsMight|TyraelElDruinsMight|Q",
+        "abilityId": "TyraelElDruinsMight",
+        "buttonId": "TyraelElDruinsMight",
+        "icon": "storm_ui_icon_tyrael_eldruinsmight_a.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "TyraelRighteousness|TyraelRighteousness|W",
+        "abilityId": "TyraelRighteousness",
+        "buttonId": "TyraelRighteousness",
+        "icon": "storm_ui_icon_tyrael_righteousness.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "TyraelSmite|TyraelSmite|E",
+        "abilityId": "TyraelSmite",
+        "buttonId": "TyraelSmite",
+        "icon": "storm_ui_icon_tyrael_smite.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "TyraelJudgement|TyraelJudgment|Heroic",
+        "abilityId": "TyraelJudgement",
+        "buttonId": "TyraelJudgment",
+        "icon": "storm_ui_icon_tyrael_judgement.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "TyraelSanctificationStationary|TyraelSanctificationStationary|Heroic",
+        "abilityId": "TyraelSanctificationStationary",
+        "buttonId": "TyraelSanctificationStationary",
+        "icon": "storm_ui_icon_tyrael_sanctification.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": "TyraelArchangelsWrathDummy|TyraelArchangelsWrath|Trait",
+        "abilityId": "TyraelArchangelsWrathDummy",
+        "buttonId": "TyraelArchangelsWrath",
+        "icon": "storm_ui_icon_tyrael_archangelswrath.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "TyraelElDruinsMight|TyraelElDruinsMight|Q": {
+      "Basic": [
+        {
+          "linkId": "ElDruinsMightEldruinsFlash|TyraelElDruinsMightEldruinsFlash|Q",
+          "abilityId": "ElDruinsMightEldruinsFlash",
+          "buttonId": "TyraelElDruinsMightEldruinsFlash",
+          "icon": "storm_ui_icon_tyrael_eldruinsmight_b.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Q"
+        }
+      ]
+    },
+    "TyraelSanctificationStationary|TyraelSanctificationStationary|Heroic": {
+      "Heroic": [
+        {
+          "linkId": "CancelSanctification|TyraelSanctificationCancelSanctification|Heroic",
+          "abilityId": "CancelSanctification",
+          "buttonId": "TyraelSanctificationCancelSanctification",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "abilityType": "Heroic"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "TyraelAspectofJustice|TyraelAspectofJusticeTalent|Trait|Level20": {
+      "Trait": [
+        {
+          "linkId": "TyraelAspectofJustice|TyraelArchangelsWrathActive|Trait",
+          "abilityId": "TyraelAspectofJustice",
+          "buttonId": "TyraelArchangelsWrathActive",
+          "icon": "storm_ui_icon_tyrael_archangelswrath.png",
+          "abilityType": "Trait"
+        }
+      ]
+    },
+    "TyraelDefenseOfTheAngels|TyraelDefenseOfTheAngels|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "TyraelDefenseOfTheAngels|TyraelDefenseOfTheAngels|Active",
+          "abilityId": "TyraelDefenseOfTheAngels",
+          "buttonId": "TyraelDefenseOfTheAngels",
+          "icon": "storm_ui_icon_talent_hardenedshield.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "TyraelSalvation|TyraelSalvation|W|Level1",
+        "talentId": "TyraelSalvation",
+        "buttonId": "TyraelSalvation",
+        "abilityId": "TyraelRighteousness",
+        "icon": "storm_ui_icon_tyrael_righteousness.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "TyraelRighteousness|TyraelRighteousness|W"
+        ]
+      },
+      {
+        "linkId": "TyraelJusticeForAll|TyraelJusticeForAll|W|Level1",
+        "talentId": "TyraelJusticeForAll",
+        "buttonId": "TyraelJusticeForAll",
+        "abilityId": "TyraelRighteousness",
+        "icon": "storm_ui_icon_tyrael_righteousness_var1.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "TyraelRighteousness|TyraelRighteousness|W"
+        ]
+      },
+      {
+        "linkId": "TyraelArdentRestoration|TyraelArdentRestoration|Passive|Level1",
+        "talentId": "TyraelArdentRestoration",
+        "buttonId": "TyraelArdentRestoration",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_regenerationmaster.png",
+        "abilityType": "Passive",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "TyraelStalwartAngel|TyraelStalwartAngel|Q|Level4",
+        "talentId": "TyraelStalwartAngel",
+        "buttonId": "TyraelStalwartAngel",
+        "abilityId": "TyraelElDruinsMight",
+        "icon": "storm_ui_icon_tyrael_eldruinsmight_a.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ElDruinsMightEldruinsFlash|TyraelElDruinsMightEldruinsFlash|Q",
+          "TyraelElDruinsMight|TyraelElDruinsMight|Q"
+        ]
+      },
+      {
+        "linkId": "TyraelMasteryRighteousnessReciprocate|TyraelRighteousnessReciprocateTalent|W|Level4",
+        "talentId": "TyraelMasteryRighteousnessReciprocate",
+        "buttonId": "TyraelRighteousnessReciprocateTalent",
+        "abilityId": "TyraelRighteousness",
+        "icon": "storm_ui_icon_tyrael_righteousness.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "TyraelRighteousness|TyraelRighteousness|W"
+        ]
+      },
+      {
+        "linkId": "TyraelDivineVigor|TyraelDivineVigor|E|Level4",
+        "talentId": "TyraelDivineVigor",
+        "buttonId": "TyraelDivineVigor",
+        "abilityId": "TyraelSmite",
+        "icon": "storm_ui_icon_tyrael_smite.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "TyraelSmite|TyraelSmite|E"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "TyraelBurningHalo|TyraelBurningHalo|Q|Level7",
+        "talentId": "TyraelBurningHalo",
+        "buttonId": "TyraelBurningHalo",
+        "abilityId": "TyraelElDruinsMight",
+        "icon": "storm_ui_icon_talent_burningrage.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ElDruinsMightEldruinsFlash|TyraelElDruinsMightEldruinsFlash|Q",
+          "TyraelElDruinsMight|TyraelElDruinsMight|Q"
+        ]
+      },
+      {
+        "linkId": "TyraelMasteryPurgeEvil|TyraelSmitePurgeEvilTalent|E|Level7",
+        "talentId": "TyraelMasteryPurgeEvil",
+        "buttonId": "TyraelSmitePurgeEvilTalent",
+        "abilityId": "TyraelSmite",
+        "icon": "storm_ui_icon_tyrael_smite.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "TyraelSmite|TyraelSmite|E"
+        ]
+      },
+      {
+        "linkId": "TyraelMasterySwiftRetribution|TyraelSmiteSwiftRetributionTalent|E|Level7",
+        "talentId": "TyraelMasterySwiftRetribution",
+        "buttonId": "TyraelSmiteSwiftRetributionTalent",
+        "abilityId": "TyraelSmite",
+        "icon": "storm_ui_icon_tyrael_smite_a.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "TyraelSmite|TyraelSmite|E"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "TyraelHeroicAbilityJudgement|TyraelJudgment|Heroic|Level10",
+        "talentId": "TyraelHeroicAbilityJudgement",
+        "buttonId": "TyraelJudgment",
+        "abilityId": "TyraelJudgement",
+        "icon": "storm_ui_icon_tyrael_judgement.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "TyraelHeroicAbilitySanctification|TyraelSanctificationStationary|Heroic|Level10",
+        "talentId": "TyraelHeroicAbilitySanctification",
+        "buttonId": "TyraelSanctificationStationary",
+        "abilityId": "TyraelSanctificationStationary",
+        "icon": "storm_ui_icon_tyrael_sanctification.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "TyraelMasteryElDruinsMightSwordOfJustice|TyraelElDruinsMightSwordOfJusticeTalent|Q|Level13",
+        "talentId": "TyraelMasteryElDruinsMightSwordOfJustice",
+        "buttonId": "TyraelElDruinsMightSwordOfJusticeTalent",
+        "abilityId": "TyraelElDruinsMight",
+        "icon": "storm_ui_icon_tyrael_eldruinsmight_a.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ElDruinsMightEldruinsFlash|TyraelElDruinsMightEldruinsFlash|Q",
+          "TyraelElDruinsMight|TyraelElDruinsMight|Q"
+        ]
+      },
+      {
+        "linkId": "TyraelMasteryHolyGround|TyraelElDruinsMightHolyGroundTalent|Q|Level13",
+        "talentId": "TyraelMasteryHolyGround",
+        "buttonId": "TyraelElDruinsMightHolyGroundTalent",
+        "abilityId": "TyraelElDruinsMight",
+        "icon": "storm_ui_icon_tyrael_eldruinsmight_b.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ElDruinsMightEldruinsFlash|TyraelElDruinsMightEldruinsFlash|Q",
+          "TyraelElDruinsMight|TyraelElDruinsMight|Q"
+        ]
+      },
+      {
+        "linkId": "TyraelMasteryLawAndOrder|TyraelRighteousnessLawAndOrderTalent|Passive|Level13",
+        "talentId": "TyraelMasteryLawAndOrder",
+        "buttonId": "TyraelRighteousnessLawAndOrderTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_tyrael_zealous_conviction.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "TyraelRighteousness|TyraelRighteousness|W",
+          "TyraelSmite|TyraelSmite|E"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "TyraelElDruinsMightBoundByLaw|TyraelElDruinsMightBoundByLawTalent|Q|Level16",
+        "talentId": "TyraelElDruinsMightBoundByLaw",
+        "buttonId": "TyraelElDruinsMightBoundByLawTalent",
+        "abilityId": "TyraelElDruinsMight",
+        "icon": "storm_ui_icon_tyrael_eldruinsmight_a.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ElDruinsMightEldruinsFlash|TyraelElDruinsMightEldruinsFlash|Q",
+          "TyraelElDruinsMight|TyraelElDruinsMight|Q"
+        ]
+      },
+      {
+        "linkId": "TyraelHoradricReforging|TyraelElDruinsMightHoradricReforgingTalent|Q|Level16",
+        "talentId": "TyraelHoradricReforging",
+        "buttonId": "TyraelElDruinsMightHoradricReforgingTalent",
+        "abilityId": "TyraelElDruinsMight",
+        "icon": "storm_ui_icon_talent_autoattack_cooldown.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ElDruinsMightEldruinsFlash|TyraelElDruinsMightEldruinsFlash|Q",
+          "TyraelElDruinsMight|TyraelElDruinsMight|Q"
+        ]
+      },
+      {
+        "linkId": "TyraelSmiteTheWicked|TyraelSmiteTheWicked|E|Level16",
+        "talentId": "TyraelSmiteTheWicked",
+        "buttonId": "TyraelSmiteTheWicked",
+        "abilityId": "TyraelSmite",
+        "icon": "storm_ui_icon_tyrael_smite.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "TyraelSmite|TyraelSmite|E"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "TyraelMasteryJudgmentAngelofJustice|TyraelJudgmentAngelOfJusticeTalent|Heroic|Level20",
+        "talentId": "TyraelMasteryJudgmentAngelofJustice",
+        "buttonId": "TyraelJudgmentAngelOfJusticeTalent",
+        "abilityId": "TyraelJudgement",
+        "icon": "storm_ui_icon_tyrael_judgement.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "TyraelJudgement|TyraelJudgment|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "TyraelHeroicAbilityJudgement"
+        ]
+      },
+      {
+        "linkId": "TyraelMasterySanctificationHolyArena|TyraelSanctificationHolyArenaTalent|Heroic|Level20",
+        "talentId": "TyraelMasterySanctificationHolyArena",
+        "buttonId": "TyraelSanctificationHolyArenaTalent",
+        "abilityId": "TyraelSanctificationStationary",
+        "icon": "storm_ui_icon_tyrael_sanctification.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "TyraelSanctificationStationary|TyraelSanctificationStationary|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "TyraelHeroicAbilitySanctification"
+        ]
+      },
+      {
+        "linkId": "TyraelSealOfElDruin|TyraelSealofElDruin|Passive|Level20",
+        "talentId": "TyraelSealOfElDruin",
+        "buttonId": "TyraelSealofElDruin",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_speed.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      },
+      {
+        "linkId": "TyraelDefenseOfTheAngels|TyraelDefenseOfTheAngels|Active|Level20",
+        "talentId": "TyraelDefenseOfTheAngels",
+        "buttonId": "TyraelDefenseOfTheAngels",
+        "abilityId": "TyraelDefenseOfTheAngels",
+        "icon": "storm_ui_icon_talent_hardenedshield.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      },
+      {
+        "linkId": "TyraelAspectofJustice|TyraelAspectofJusticeTalent|Trait|Level20",
+        "talentId": "TyraelAspectofJustice",
+        "buttonId": "TyraelAspectofJusticeTalent",
+        "abilityId": "TyraelAspectofJustice",
+        "icon": "storm_ui_icon_tyrael_archangelswrath.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 5,
+        "tooltipAbilityLinkIds": [
+          "TyraelArchangelsWrathDummy|TyraelArchangelsWrath|Trait",
+          "TyraelAspectofJustice|TyraelArchangelsWrathActive|Trait"
+        ]
+      }
+    ]
+  },
+  "sheet": "sheets/Tyrael.webp",
+  "icons": {
+    "storm_ui_icon_tyrael_eldruinsmight_a.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_tyrael_righteousness.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_tyrael_smite.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_tyrael_judgement.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_tyrael_sanctification.png": [
+      512,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_tyrael_archangelswrath.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_mount.png": [
+      128,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      256,
+      128,
+      111,
+      71
+    ],
+    "storm_ui_icon_tyrael_eldruinsmight_b.png": [
+      384,
+      128,
+      128,
+      128
+    ],
+    "hud_btn_bg_ability_cancel.png": [
+      512,
+      128,
+      97,
+      111
+    ],
+    "storm_ui_icon_generic_cancel_mount.png": [
+      0,
+      256,
+      76,
+      48
+    ],
+    "storm_ui_icon_talent_hardenedshield.png": [
+      128,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_tyrael_righteousness_var1.png": [
+      256,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_regenerationmaster.png": [
+      384,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_burningrage.png": [
+      512,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_tyrael_smite_a.png": [
+      0,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_tyrael_zealous_conviction.png": [
+      128,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_autoattack_cooldown.png": [
+      256,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_autoattack_speed.png": [
+      384,
+      384,
+      128,
+      128
+    ]
+  }
+}

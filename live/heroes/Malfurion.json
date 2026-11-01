@@ -1,0 +1,621 @@
+{
+  "id": "Malfurion",
+  "unitId": "HeroMalfurion",
+  "hyperlinkId": "Malfurion",
+  "attributeId": "Malf",
+  "franchise": "Warcraft",
+  "rarity": "Rare",
+  "releaseDate": "2014-03-13",
+  "isMelee": false,
+  "gender": "Male",
+  "radius": 0.75,
+  "innerRadius": 0.75,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 5,
+    "damage": 4,
+    "survivability": 5,
+    "utility": 7
+  },
+  "life": {
+    "amount": 1525,
+    "scale": 0.04,
+    "regenRate": 3.1796,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "AllyHealer",
+    "EnergyImportant",
+    "Helper",
+    "RoleSupport",
+    "SelfHealer"
+  ],
+  "summonedUnitIds": [
+    "MalfurionEntanglingRootsVengefulRootsTreant"
+  ],
+  "weapons": [
+    {
+      "nameId": "HeroMalfurion",
+      "isDisabled": false,
+      "range": 5.5,
+      "minimumRange": 0,
+      "period": 0.9,
+      "damage": 60,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "MalfurionBetrayer",
+    "MalfurionFlame",
+    "MalfurionStormrageRed",
+    "MalfurionUltimate",
+    "MalfurionWinter"
+  ],
+  "variationSkinIds": [
+    "MalfurionBasePurple",
+    "MalfurionBaseWhite"
+  ],
+  "voiceLineIds": [
+    "MalfurionBase_VoiceLine01",
+    "MalfurionBase_VoiceLine02",
+    "MalfurionBase_VoiceLine03",
+    "MalfurionBase_VoiceLine04",
+    "MalfurionBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "MalfurionRegrowth|MalfurionRegrowth|Q",
+        "abilityId": "MalfurionRegrowth",
+        "buttonId": "MalfurionRegrowth",
+        "icon": "storm_ui_icon_malfurion_regrowth.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "MalfurionMoonfire|MalfurionMoonfire|W",
+        "abilityId": "MalfurionMoonfire",
+        "buttonId": "MalfurionMoonfire",
+        "icon": "storm_ui_icon_malfurion_moonfire.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "MalfurionEntanglingRoots|MalfurionEntanglingRoots|E",
+        "abilityId": "MalfurionEntanglingRoots",
+        "buttonId": "MalfurionEntanglingRoots",
+        "icon": "storm_ui_icon_malfurion_entanglingroots.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "MalfurionTranquility|MalfurionTranquility|Heroic",
+        "abilityId": "MalfurionTranquility",
+        "buttonId": "MalfurionTranquility",
+        "icon": "storm_ui_icon_malfurion_tranquility.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "MalfurionTwilightDream|MalfurionTwilightDream|Heroic",
+        "abilityId": "MalfurionTwilightDream",
+        "buttonId": "MalfurionTwilightDream",
+        "icon": "storm_ui_icon_malfurion_twilightdream.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": "MalfurionInnervate|MalfurionInnervate|Trait",
+        "abilityId": "MalfurionInnervate",
+        "buttonId": "MalfurionInnervate",
+        "icon": "storm_ui_icon_malfurion_innerrvate.png",
+        "charges": {
+          "countMax": 1,
+          "countStart": 1,
+          "countUse": 1,
+          "recastCooldown": 1,
+          "isCountHidden": true
+        },
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "MalfurionMasteryTenaciousRootsEntanglingRoots|MalfurionEntanglingRootsTenaciousRootsTalent|E|Level7": {
+      "Activable": [
+        {
+          "linkId": "MalfurionEntanglingRootsTenaciousRoots|MalfurionEntanglingRootsTenaciousRootsHotbar|E",
+          "abilityId": "MalfurionEntanglingRootsTenaciousRoots",
+          "buttonId": "MalfurionEntanglingRootsTenaciousRootsHotbar",
+          "icon": "storm_ui_icon_malfurion_entanglingroots.png",
+          "abilityType": "E"
+        }
+      ]
+    },
+    "MalfurionNaturesCureRegrowth|MalfurionNaturesCure|Active|Level7": {
+      "Activable": [
+        {
+          "linkId": "MalfurionNaturesCure|MalfurionNaturesCure|Active",
+          "abilityId": "MalfurionNaturesCure",
+          "buttonId": "MalfurionNaturesCure",
+          "icon": "storm_ui_icon_malfurion_regrowth.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "MalfurionMasteryAstralCommunion|MalfurionTwilightDreamAstralCommunionTalent|Heroic|Level20": {
+      "Activable": [
+        {
+          "linkId": "MalfurionAstralCommunion|MalfurionTwilightDreamAstralCommunionTalent|Heroic",
+          "abilityId": "MalfurionAstralCommunion",
+          "buttonId": "MalfurionTwilightDreamAstralCommunionTalent",
+          "icon": "storm_ui_icon_malfurion_twilightdream.png",
+          "abilityType": "Heroic"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "MalfurionEntanglingRootsDeepRootsTalent|MalfurionEntanglingRootsDeepRootsTalent|E|Level1",
+        "talentId": "MalfurionEntanglingRootsDeepRootsTalent",
+        "buttonId": "MalfurionEntanglingRootsDeepRootsTalent",
+        "abilityId": "MalfurionEntanglingRoots",
+        "icon": "storm_ui_icon_malfurion_entanglingroots.png",
+        "abilityType": "E",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MalfurionEntanglingRoots|MalfurionEntanglingRoots|E"
+        ]
+      },
+      {
+        "linkId": "MalfurionMasteryVengefulRoots|MalfurionEntanglingRootsVengefulRootsTalent|E|Level1",
+        "talentId": "MalfurionMasteryVengefulRoots",
+        "buttonId": "MalfurionEntanglingRootsVengefulRootsTalent",
+        "abilityId": "MalfurionEntanglingRoots",
+        "icon": "storm_ui_icon_malfurion_entanglingroots_b.png",
+        "abilityType": "E",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "MalfurionEntanglingRoots|MalfurionEntanglingRoots|E"
+        ]
+      },
+      {
+        "linkId": "MalfurionEntanglingRootsEmeraldDreams|MalfurionEntanglingRootsEmeraldDreams|E|Level1",
+        "talentId": "MalfurionEntanglingRootsEmeraldDreams",
+        "buttonId": "MalfurionEntanglingRootsEmeraldDreams",
+        "abilityId": "MalfurionEntanglingRoots",
+        "icon": "storm_ui_icon_malfurion_entanglingroots_a.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "MalfurionEntanglingRoots|MalfurionEntanglingRoots|E"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "MalfurionRejuvenation|MalfurionRejuvenationTalent|Q|Level4",
+        "talentId": "MalfurionRejuvenation",
+        "buttonId": "MalfurionRejuvenationTalent",
+        "abilityId": "MalfurionRegrowth",
+        "icon": "storm_ui_icon_malfurion_regrowth.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MalfurionRegrowth|MalfurionRegrowth|Q"
+        ]
+      },
+      {
+        "linkId": "MalfurionCelestialAlignment|MalfurionMoonfireCelestialAlignmentTalent|W|Level4",
+        "talentId": "MalfurionCelestialAlignment",
+        "buttonId": "MalfurionMoonfireCelestialAlignmentTalent",
+        "abilityId": "MalfurionMoonfire",
+        "icon": "storm_ui_icon_malfurion_moonfire.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "MalfurionMoonfire|MalfurionMoonfire|W"
+        ]
+      },
+      {
+        "linkId": "MalfurionCombatStyleShandosClarity|MalfurionInnervateShandosClarityTalent|Trait|Level4",
+        "talentId": "MalfurionCombatStyleShandosClarity",
+        "buttonId": "MalfurionInnervateShandosClarityTalent",
+        "abilityId": "MalfurionInnervate",
+        "icon": "storm_ui_icon_malfurion_innerrvate.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "MalfurionInnervate|MalfurionInnervate|Trait"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "MalfurionWildGrowthTalent|MalfurionMoonfireWildGrowthTalent|Passive|Level7",
+        "talentId": "MalfurionWildGrowthTalent",
+        "buttonId": "MalfurionMoonfireWildGrowthTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_malfurion_wildgrowth.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MalfurionRegrowth|MalfurionRegrowth|Q",
+          "MalfurionMoonfire|MalfurionMoonfire|W"
+        ]
+      },
+      {
+        "linkId": "MalfurionMasteryTenaciousRootsEntanglingRoots|MalfurionEntanglingRootsTenaciousRootsTalent|E|Level7",
+        "talentId": "MalfurionMasteryTenaciousRootsEntanglingRoots",
+        "buttonId": "MalfurionEntanglingRootsTenaciousRootsTalent",
+        "abilityId": "MalfurionEntanglingRoots",
+        "icon": "storm_ui_icon_malfurion_entanglingroots.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "MalfurionEntanglingRoots|MalfurionEntanglingRoots|E"
+        ]
+      },
+      {
+        "linkId": "MalfurionNaturesCureRegrowth|MalfurionNaturesCure|Active|Level7",
+        "talentId": "MalfurionNaturesCureRegrowth",
+        "buttonId": "MalfurionNaturesCure",
+        "abilityId": "MalfurionNaturesCure",
+        "icon": "storm_ui_icon_malfurion_regrowth.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "MalfurionRegrowth|MalfurionRegrowth|Q"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "MalfurionHeroicAbilityTranquility|MalfurionTranquility|Heroic|Level10",
+        "talentId": "MalfurionHeroicAbilityTranquility",
+        "buttonId": "MalfurionTranquility",
+        "abilityId": "MalfurionTranquility",
+        "icon": "storm_ui_icon_malfurion_tranquility.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "MalfurionHeroicAbilityTwilightDream|MalfurionTwilightDream|Heroic|Level10",
+        "talentId": "MalfurionHeroicAbilityTwilightDream",
+        "buttonId": "MalfurionTwilightDream",
+        "abilityId": "MalfurionTwilightDream",
+        "icon": "storm_ui_icon_malfurion_twilightdream.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "MalfurionRegrowthNaturesSwiftness|MalfurionRegrowthNaturesSwiftnessTalent|Q|Level13",
+        "talentId": "MalfurionRegrowthNaturesSwiftness",
+        "buttonId": "MalfurionRegrowthNaturesSwiftnessTalent",
+        "abilityId": "MalfurionRegrowth",
+        "icon": "storm_ui_icon_malfurion_regrowth.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MalfurionRegrowth|MalfurionRegrowth|Q"
+        ]
+      },
+      {
+        "linkId": "MalfurionMasteryHinderingMoonfire|MalfurionMoonfireHinderingMoonfireTalent|W|Level13",
+        "talentId": "MalfurionMasteryHinderingMoonfire",
+        "buttonId": "MalfurionMoonfireHinderingMoonfireTalent",
+        "abilityId": "MalfurionMoonfire",
+        "icon": "storm_ui_icon_malfurion_moonfire.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "MalfurionMoonfire|MalfurionMoonfire|W"
+        ]
+      },
+      {
+        "linkId": "MalfurionRevitalizeInnervateTalent|MalfurionRevitalizeInnervateTalent|Trait|Level13",
+        "talentId": "MalfurionRevitalizeInnervateTalent",
+        "buttonId": "MalfurionRevitalizeInnervateTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_malfurion_innerrvate.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "MalfurionInnervate|MalfurionInnervate|Trait"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "MalfurionYserasGift|MalfurionYserasGift|Q|Level16",
+        "talentId": "MalfurionYserasGift",
+        "buttonId": "MalfurionYserasGift",
+        "abilityId": "MalfurionRegrowth",
+        "icon": "storm_ui_icon_malfurion_regrowth.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MalfurionRegrowth|MalfurionRegrowth|Q"
+        ]
+      },
+      {
+        "linkId": "MalfurionRegrowthNaturesBalance|MalfurionRegrowthNaturesBalanceTalent|Passive|Level16",
+        "talentId": "MalfurionRegrowthNaturesBalance",
+        "buttonId": "MalfurionRegrowthNaturesBalanceTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_malfurion_wildgrowth.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "MalfurionRegrowth|MalfurionRegrowth|Q",
+          "MalfurionMoonfire|MalfurionMoonfire|W"
+        ]
+      },
+      {
+        "linkId": "MalfurionMoonfireMoonlitHarmonyTalent|MalfurionMoonfireMoonlitHarmonyTalent|Passive|Level16",
+        "talentId": "MalfurionMoonfireMoonlitHarmonyTalent",
+        "buttonId": "MalfurionMoonfireMoonlitHarmonyTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_malfurion_wildgrowth_a.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "MalfurionRegrowth|MalfurionRegrowth|Q",
+          "MalfurionMoonfire|MalfurionMoonfire|W"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "MalfurionMasterySerenity|MalfurionTranquilitySerenityTalent|Heroic|Level20",
+        "talentId": "MalfurionMasterySerenity",
+        "buttonId": "MalfurionTranquilitySerenityTalent",
+        "abilityId": "MalfurionTranquility",
+        "icon": "storm_ui_icon_malfurion_tranquility.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MalfurionTranquility|MalfurionTranquility|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "MalfurionHeroicAbilityTranquility"
+        ]
+      },
+      {
+        "linkId": "MalfurionMasteryAstralCommunion|MalfurionTwilightDreamAstralCommunionTalent|Heroic|Level20",
+        "talentId": "MalfurionMasteryAstralCommunion",
+        "buttonId": "MalfurionTwilightDreamAstralCommunionTalent",
+        "abilityId": "MalfurionTwilightDream",
+        "icon": "storm_ui_icon_malfurion_twilightdream.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "MalfurionTwilightDream|MalfurionTwilightDream|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "MalfurionHeroicAbilityTwilightDream"
+        ]
+      },
+      {
+        "linkId": "MalfurionLifebloomRegrowth|MalfurionRegrowthMoonfireLifebloomTalent|Q|Level20",
+        "talentId": "MalfurionLifebloomRegrowth",
+        "buttonId": "MalfurionRegrowthMoonfireLifebloomTalent",
+        "abilityId": "MalfurionRegrowth",
+        "icon": "storm_ui_icon_malfurion_regrowth.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "MalfurionRegrowth|MalfurionRegrowth|Q"
+        ]
+      },
+      {
+        "linkId": "MalfurionMasteryLunarShower|MalfurionMoonfireLunarShowerTalent|W|Level20",
+        "talentId": "MalfurionMasteryLunarShower",
+        "buttonId": "MalfurionMoonfireLunarShowerTalent",
+        "abilityId": "MalfurionMoonfire",
+        "icon": "storm_ui_icon_malfurion_moonfire.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          "MalfurionMoonfire|MalfurionMoonfire|W"
+        ]
+      }
+    ]
+  },
+  "sheet": "sheets/Malfurion.webp",
+  "icons": {
+    "storm_ui_icon_malfurion_regrowth.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_malfurion_moonfire.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_malfurion_entanglingroots.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_malfurion_tranquility.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_malfurion_twilightdream.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_malfurion_innerrvate.png": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_mount.png": [
+      256,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      384,
+      128,
+      111,
+      71
+    ],
+    "storm_ui_icon_generic_cancel_mount.png": [
+      0,
+      256,
+      76,
+      48
+    ],
+    "storm_ui_icon_malfurion_entanglingroots_b.png": [
+      128,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_malfurion_entanglingroots_a.png": [
+      256,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_malfurion_wildgrowth.png": [
+      384,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_malfurion_wildgrowth_a.png": [
+      0,
+      384,
+      128,
+      128
+    ]
+  }
+}

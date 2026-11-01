@@ -1,0 +1,676 @@
+{
+  "id": "Uther",
+  "unitId": "HeroUther",
+  "hyperlinkId": "Uther",
+  "attributeId": "Uthe",
+  "franchise": "Warcraft",
+  "rarity": "Epic",
+  "releaseDate": "2014-03-13",
+  "isMelee": true,
+  "gender": "Male",
+  "radius": 0.75,
+  "innerRadius": 0.75,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 2,
+    "damage": 3,
+    "survivability": 7,
+    "utility": 9
+  },
+  "life": {
+    "amount": 1975,
+    "scale": 0.04,
+    "regenRate": 4.1146,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "AllyHealer",
+    "EnergyImportant",
+    "Helper",
+    "Overconfident",
+    "RoleSupport",
+    "SelfHealer"
+  ],
+  "weapons": [
+    {
+      "nameId": "HeroUther",
+      "isDisabled": false,
+      "range": 1,
+      "minimumRange": 0,
+      "period": 1,
+      "damage": 75,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "UtherJudgement",
+    "UtherLumberjack",
+    "UtherMedic",
+    "UtherSulfuron",
+    "UtherUltimate"
+  ],
+  "variationSkinIds": [
+    "UtherBlackHand",
+    "UtherSilverHand"
+  ],
+  "voiceLineIds": [
+    "UtherBase_VoiceLine01",
+    "UtherBase_VoiceLine02",
+    "UtherBase_VoiceLine03",
+    "UtherBase_VoiceLine04",
+    "UtherBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "UtherHolyLight|UtherHolyLight|Q",
+        "abilityId": "UtherHolyLight",
+        "buttonId": "UtherHolyLight",
+        "icon": "storm_ui_icon_uther_holylight.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "UtherHolyRadiance|UtherHolyRadiance|W",
+        "abilityId": "UtherHolyRadiance",
+        "buttonId": "UtherHolyRadiance",
+        "icon": "storm_ui_icon_uther_holyradiance.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "UtherHammerOfJustice|UtherHammerofJustice|E",
+        "abilityId": "UtherHammerOfJustice",
+        "buttonId": "UtherHammerofJustice",
+        "icon": "storm_ui_icon_uther_hammerofjustice.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "UtherDivineIntervention|UtherDivineShield|Heroic",
+        "abilityId": "UtherDivineIntervention",
+        "buttonId": "UtherDivineShield",
+        "icon": "storm_ui_icon_uther_divineshield.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "UtherDivineStorm|UtherDivineStorm|Heroic",
+        "abilityId": "UtherDivineStorm",
+        "buttonId": "UtherDivineStorm",
+        "icon": "storm_ui_icon_uther_divinestorm.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": ":PASSIVE:|UtherEternalDevotion|Trait",
+        "abilityId": ":PASSIVE:",
+        "buttonId": "UtherEternalDevotion",
+        "icon": "storm_ui_icon_uther_eternaldevotion.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    ":PASSIVE:|UtherEternalDevotion|Trait": {
+      "Basic": [
+        {
+          "linkId": "UtherFlashofLight|UtherFlashofLight|Q",
+          "abilityId": "UtherFlashofLight",
+          "buttonId": "UtherFlashofLight",
+          "icon": "storm_ui_icon_uther_flashoflight.png",
+          "abilityType": "Q"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "HeroGenericSpellShield|GenericSpellShieldItemEnabled|Active": {
+      "Activable": [
+        {
+          "linkId": "HeroGenericSpellShield|GenericSpellShieldItemDisabled|Active",
+          "abilityId": "HeroGenericSpellShield",
+          "buttonId": "GenericSpellShieldItemDisabled",
+          "icon": "storm_ui_icon_talent_spellshield.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "UtherMasteryHolyShock|UtherHolyLightHolyShockTalent|Active|Level4": {
+      "Activable": [
+        {
+          "linkId": "UtherHolyShock|UtherHolyShock|Active",
+          "abilityId": "UtherHolyShock",
+          "buttonId": "UtherHolyShock",
+          "icon": "storm_ui_icon_uther_holyshock.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "UtherEternalDevotionArmorOfFaith|UtherEternalDevotionArmorOfFaithTalent|Q|Level7": {
+      "Activable": [
+        {
+          "linkId": "UtherHolyLightArmorOfFaithCooldownDisplay|UtherEternalDevotionArmorOfFaithTalent|Q",
+          "abilityId": "UtherHolyLightArmorOfFaithCooldownDisplay",
+          "buttonId": "UtherEternalDevotionArmorOfFaithTalent",
+          "icon": "storm_ui_icon_uther_holylight.png",
+          "abilityType": "Q"
+        }
+      ]
+    },
+    "UtherHandOfProtection|UtherHandOfProtection|Active|Level7": {
+      "Activable": [
+        {
+          "linkId": "UtherHandOfProtection|UtherHandOfProtection|Active",
+          "abilityId": "UtherHandOfProtection",
+          "buttonId": "UtherHandOfProtection",
+          "icon": "storm_ui_icon_talent_cleanse.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "GenericTalentSpellShield|GenericSpellShieldTalent|Active|Level13": {
+      "Activable": [
+        {
+          "linkId": "HeroGenericSpellShield|GenericSpellShieldItemEnabled|Active",
+          "abilityId": "HeroGenericSpellShield",
+          "buttonId": "GenericSpellShieldItemEnabled",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "UtherMasteryBenediction|UtherBenedictionHotbar|Active|Level16": {
+      "Activable": [
+        {
+          "linkId": "UtherBenediction|UtherBenedictionHotbar|Active",
+          "abilityId": "UtherBenediction",
+          "buttonId": "UtherBenedictionHotbar",
+          "icon": "storm_ui_icon_uther_benediction.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "UtherHolyLightSilverTouch|UtherHolyLightSilverTouch|Q|Level1",
+        "talentId": "UtherHolyLightSilverTouch",
+        "buttonId": "UtherHolyLightSilverTouch",
+        "abilityId": "UtherHolyLight",
+        "icon": "storm_ui_icon_uther_holylight.png",
+        "abilityType": "Q",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "UtherHolyLight|UtherHolyLight|Q"
+        ]
+      },
+      {
+        "linkId": "UtherMasteryWaveofLightHolyRadiance|UtherHolyRadianceWaveofLightTalent|W|Level1",
+        "talentId": "UtherMasteryWaveofLightHolyRadiance",
+        "buttonId": "UtherHolyRadianceWaveofLightTalent",
+        "abilityId": "UtherHolyRadiance",
+        "icon": "storm_ui_icon_uther_holyradiance.png",
+        "abilityType": "W",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "UtherHolyRadiance|UtherHolyRadiance|W"
+        ]
+      },
+      {
+        "linkId": "UtherCombatStyleHammerOfTheLightbringer|UtherEternalDevotionHammerOfTheLightbringerTalent|E|Level1",
+        "talentId": "UtherCombatStyleHammerOfTheLightbringer",
+        "buttonId": "UtherEternalDevotionHammerOfTheLightbringerTalent",
+        "abilityId": "UtherHammerOfJustice",
+        "icon": "storm_ui_icon_talent_autoattack_mana.png",
+        "abilityType": "E",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "UtherHammerOfJustice|UtherHammerofJustice|E"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "UtherMasteryHolyShock|UtherHolyLightHolyShockTalent|Active|Level4",
+        "talentId": "UtherMasteryHolyShock",
+        "buttonId": "UtherHolyLightHolyShockTalent",
+        "abilityId": "UtherHolyShock",
+        "icon": "storm_ui_icon_uther_holyshock.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 1
+      },
+      {
+        "linkId": "UtherHammerOfJusticePursuitOfJustice|UtherHammerOfJusticePursuitOfJusticeTalent|E|Level4",
+        "talentId": "UtherHammerOfJusticePursuitOfJustice",
+        "buttonId": "UtherHammerOfJusticePursuitOfJusticeTalent",
+        "abilityId": "UtherHammerOfJustice",
+        "icon": "storm_ui_icon_uther_hammerofjustice.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "UtherHammerOfJustice|UtherHammerofJustice|E"
+        ]
+      },
+      {
+        "linkId": "UtherHolyFire|UtherHolyFireTalent|Passive|Level4",
+        "talentId": "UtherHolyFire",
+        "buttonId": "UtherHolyFireTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_uther_holyfire.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|UtherEternalDevotion|Trait"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "UtherEternalDevotionArmorOfFaith|UtherEternalDevotionArmorOfFaithTalent|Q|Level7",
+        "talentId": "UtherEternalDevotionArmorOfFaith",
+        "buttonId": "UtherEternalDevotionArmorOfFaithTalent",
+        "abilityId": "UtherHolyLight",
+        "icon": "storm_ui_icon_uther_holylight.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "UtherHolyLight|UtherHolyLight|Q"
+        ]
+      },
+      {
+        "linkId": "UtherEternalDevotionGuardianOfAncientKings|UtherEternalDevotionGuardianOfAncientKingsTalent|Trait|Level7",
+        "talentId": "UtherEternalDevotionGuardianOfAncientKings",
+        "buttonId": "UtherEternalDevotionGuardianOfAncientKingsTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_uther_eternaldevotion.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|UtherEternalDevotion|Trait"
+        ]
+      },
+      {
+        "linkId": "UtherHandOfProtection|UtherHandOfProtection|Active|Level7",
+        "talentId": "UtherHandOfProtection",
+        "buttonId": "UtherHandOfProtection",
+        "abilityId": "UtherHandOfProtection",
+        "icon": "storm_ui_icon_talent_cleanse.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "UtherHeroicAbilityDivineShield|UtherDivineShield|Heroic|Level10",
+        "talentId": "UtherHeroicAbilityDivineShield",
+        "buttonId": "UtherDivineShield",
+        "abilityId": "UtherDivineIntervention",
+        "icon": "storm_ui_icon_uther_divineshield.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "UtherHeroicAbilityDivineStorm|UtherDivineStorm|Heroic|Level10",
+        "talentId": "UtherHeroicAbilityDivineStorm",
+        "buttonId": "UtherDivineStorm",
+        "abilityId": "UtherDivineStorm",
+        "icon": "storm_ui_icon_uther_divinestorm.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "UtherMasteryBlessedChampion|UtherEternalDevotionBlessedChampionTalent|Q|Level13",
+        "talentId": "UtherMasteryBlessedChampion",
+        "buttonId": "UtherEternalDevotionBlessedChampionTalent",
+        "abilityId": "UtherHolyLight",
+        "icon": "storm_ui_icon_uther_holylight.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "UtherHolyLight|UtherHolyLight|Q"
+        ]
+      },
+      {
+        "linkId": "UtherHammerOfJusticeWellMet|UtherHammerOfJusticeWellMetTalent|E|Level13",
+        "talentId": "UtherHammerOfJusticeWellMet",
+        "buttonId": "UtherHammerOfJusticeWellMetTalent",
+        "abilityId": "UtherHammerOfJustice",
+        "icon": "storm_ui_icon_uther_hammerofjustice.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "UtherHammerOfJustice|UtherHammerofJustice|E"
+        ]
+      },
+      {
+        "linkId": "GenericTalentSpellShield|GenericSpellShieldTalent|Active|Level13",
+        "talentId": "GenericTalentSpellShield",
+        "buttonId": "GenericSpellShieldTalent",
+        "abilityId": "HeroGenericSpellShield",
+        "icon": "storm_ui_icon_talent_spellshield.png",
+        "toggleCooldown": 0.5,
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "UtherBeaconOfLight|UtherBeaconOfLight|Q|Level16",
+        "talentId": "UtherBeaconOfLight",
+        "buttonId": "UtherBeaconOfLight",
+        "abilityId": "UtherHolyLight",
+        "icon": "storm_ui_icon_uther_holylight.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "UtherHolyLight|UtherHolyLight|Q"
+        ]
+      },
+      {
+        "linkId": "UtherHolyRadianceTyrsDeliverance|UtherHolyRadianceTyrsDeliveranceTalent|W|Level16",
+        "talentId": "UtherHolyRadianceTyrsDeliverance",
+        "buttonId": "UtherHolyRadianceTyrsDeliveranceTalent",
+        "abilityId": "UtherHolyRadiance",
+        "icon": "storm_ui_icon_uther_holyradiance.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "UtherHolyRadiance|UtherHolyRadiance|W"
+        ]
+      },
+      {
+        "linkId": "UtherMasteryBenediction|UtherBenedictionHotbar|Active|Level16",
+        "talentId": "UtherMasteryBenediction",
+        "buttonId": "UtherBenedictionHotbar",
+        "abilityId": "UtherBenediction",
+        "icon": "storm_ui_icon_uther_benediction.png",
+        "toggleCooldown": 0.5,
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "UtherMasteryBulwarkOfLightDivineShield|UtherDivineShieldBulwarkOfLightTalent|Heroic|Level20",
+        "talentId": "UtherMasteryBulwarkOfLightDivineShield",
+        "buttonId": "UtherDivineShieldBulwarkOfLightTalent",
+        "abilityId": "UtherDivineIntervention",
+        "icon": "storm_ui_icon_uther_divineshield.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "UtherDivineIntervention|UtherDivineShield|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "UtherHeroicAbilityDivineShield"
+        ]
+      },
+      {
+        "linkId": "UtherMasteryDivineHurricaneDivineStorm|UtherDivineStormDivineHurricaneTalent|Heroic|Level20",
+        "talentId": "UtherMasteryDivineHurricaneDivineStorm",
+        "buttonId": "UtherDivineStormDivineHurricaneTalent",
+        "abilityId": "UtherDivineStorm",
+        "icon": "storm_ui_icon_uther_divinestorm.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "UtherDivineStorm|UtherDivineStorm|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "UtherHeroicAbilityDivineStorm"
+        ]
+      },
+      {
+        "linkId": "UtherMasteryRedemption|UtherRedemptionTalent|Trait|Level20",
+        "talentId": "UtherMasteryRedemption",
+        "buttonId": "UtherRedemptionTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_uther_eternaldevotion.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|UtherEternalDevotion|Trait"
+        ]
+      },
+      {
+        "linkId": "UtherEternalDevotionDivineProtection|UtherEternalDevotionDivineProtectionTalent|Trait|Level20",
+        "talentId": "UtherEternalDevotionDivineProtection",
+        "buttonId": "UtherEternalDevotionDivineProtectionTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_uther_eternaldevotion_a.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|UtherEternalDevotion|Trait"
+        ]
+      }
+    ]
+  },
+  "sheet": "sheets/Uther.webp",
+  "icons": {
+    "storm_ui_icon_uther_holylight.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_uther_holyradiance.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_uther_hammerofjustice.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_uther_divineshield.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_uther_divinestorm.png": [
+      512,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_uther_eternaldevotion.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_mount.png": [
+      128,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      256,
+      128,
+      111,
+      71
+    ],
+    "storm_ui_icon_uther_flashoflight.png": [
+      384,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_cancel_mount.png": [
+      512,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_talent_spellshield.png": [
+      0,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_uther_holyshock.png": [
+      128,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_cleanse.png": [
+      256,
+      256,
+      128,
+      128
+    ],
+    "hud_btn_bg_ability_cancel.png": [
+      384,
+      256,
+      97,
+      111
+    ],
+    "storm_ui_icon_uther_benediction.png": [
+      512,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_autoattack_mana.png": [
+      0,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_uther_holyfire.png": [
+      128,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_uther_eternaldevotion_a.png": [
+      256,
+      384,
+      128,
+      128
+    ]
+  }
+}

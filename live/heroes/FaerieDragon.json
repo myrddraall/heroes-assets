@@ -1,0 +1,617 @@
+{
+  "id": "FaerieDragon",
+  "unitId": "HeroFaerieDragon",
+  "hyperlinkId": "Brightwing",
+  "attributeId": "Faer",
+  "franchise": "Warcraft",
+  "rarity": "Epic",
+  "releaseDate": "2014-04-15",
+  "isMelee": false,
+  "gender": "Female",
+  "radius": 0.6875,
+  "innerRadius": 0.6875,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "ratings": {
+    "complexity": 7,
+    "damage": 4,
+    "survivability": 5,
+    "utility": 9
+  },
+  "life": {
+    "amount": 1425,
+    "scale": 0.04,
+    "regenRate": 2.9687,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "AllyHealer",
+    "EnergyImportant",
+    "Escaper",
+    "Helper",
+    "RoleSupport",
+    "SelfHealer",
+    "SoloLaner"
+  ],
+  "weapons": [
+    {
+      "nameId": "HeroFaerieDragon",
+      "isDisabled": false,
+      "range": 5.5,
+      "minimumRange": 0,
+      "period": 0.9,
+      "damage": 81,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "BrightwingBright19",
+    "BrightwingLuxMonkey",
+    "BrightwingMonarch",
+    "BrightwingUltimate",
+    "BrightwingWitchHat"
+  ],
+  "variationSkinIds": [
+    "BrightwingBaseVar3",
+    "BrightwingBlack",
+    "BrightwingRed"
+  ],
+  "voiceLineIds": [
+    "FaerieDragonBase_VoiceLine01",
+    "FaerieDragonBase_VoiceLine02",
+    "FaerieDragonBase_VoiceLine03",
+    "FaerieDragonBase_VoiceLine04",
+    "FaerieDragonBase_VoiceLine05"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "FaerieDragonArcaneFlare|BrightwingArcaneFlare|Q",
+        "abilityId": "FaerieDragonArcaneFlare",
+        "buttonId": "BrightwingArcaneFlare",
+        "icon": "storm_ui_icon_brightwing_arcaneflare.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "FaerieDragonPolymorph|BrightwingPolymorph|W",
+        "abilityId": "FaerieDragonPolymorph",
+        "buttonId": "BrightwingPolymorph",
+        "icon": "storm_ui_icon_brightwing_polymorph.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "FaerieDragonPixieDust|BrightwingPixieDust|E",
+        "abilityId": "FaerieDragonPixieDust",
+        "buttonId": "BrightwingPixieDust",
+        "icon": "storm_ui_icon_brightwing_pixiedust.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "FaerieDragonBlinkHealDash|BrightwingBlinkHealAllyDash|Heroic",
+        "abilityId": "FaerieDragonBlinkHealDash",
+        "buttonId": "BrightwingBlinkHealAllyDash",
+        "icon": "storm_ui_icon_brightwing_blinkheal.png",
+        "charges": {
+          "countMax": 2,
+          "countStart": 1,
+          "countUse": 1,
+          "recastCooldown": 2,
+          "isCountHidden": false
+        },
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "FaerieDragonEmeraldWind|BrightwingEmeraldWind|Heroic",
+        "abilityId": "FaerieDragonEmeraldWind",
+        "buttonId": "BrightwingEmeraldWind",
+        "icon": "storm_ui_icon_brightwing_emeraldwind.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": "BrightwingCalmingMist|BrightwingSoothingMistCalmingMist|Trait",
+        "abilityId": "BrightwingCalmingMist",
+        "buttonId": "BrightwingSoothingMistCalmingMist",
+        "icon": "storm_ui_icon_brightwing_soothingmist.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "BrightwingPhaseShift|BrightwingPhaseShift|Z",
+        "abilityId": "BrightwingPhaseShift",
+        "buttonId": "BrightwingPhaseShift",
+        "icon": "storm_ui_icon_brightwing_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "FaerieDragonBlinkHealDash|BrightwingBlinkHealAllyDash|Heroic": {
+      "Heroic": [
+        {
+          "linkId": "BrightwingBlinkHealDoubleWyrmholeDash|BrightwingDoubleWyrmhole|Heroic",
+          "abilityId": "BrightwingBlinkHealDoubleWyrmholeDash",
+          "buttonId": "BrightwingDoubleWyrmhole",
+          "icon": "storm_ui_icon_brightwing_blinkheal.png",
+          "toggleCooldown": 0.25,
+          "abilityType": "Heroic"
+        }
+      ]
+    },
+    "BrightwingPixieCharm|FaerieDragonPixieCharmTalent|Active|Level1": {
+      "Activable": [
+        {
+          "linkId": "FaerieDragonPixieCharm|FaerieDragonPixieCharm|Active",
+          "abilityId": "FaerieDragonPixieCharm",
+          "buttonId": "FaerieDragonPixieCharm",
+          "icon": "storm_ui_icon_talent_bribe.png",
+          "charges": {
+            "countMax": 4,
+            "countUse": 1,
+            "recastCooldown": 0.25,
+            "isCountHidden": false
+          },
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "BrightwingPhaseOut|BrightwingPhaseOut|Active|Level16": {
+      "Activable": [
+        {
+          "linkId": "BrightwingPhaseOut|BrightwingPhaseOut|Active",
+          "abilityId": "BrightwingPhaseOut",
+          "buttonId": "BrightwingPhaseOut",
+          "icon": "storm_ui_icon_brightwing_stasis.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "BrightwingFaerieProtector|BrightwingFaerieProtector|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "BrightwingFaerieProtector|BrightwingFaerieProtectorHotbar|Active",
+          "abilityId": "BrightwingFaerieProtector",
+          "buttonId": "BrightwingFaerieProtectorHotbar",
+          "icon": "storm_ui_icon_brightwing_pixiedust.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "BrightwingGreaterPolymorphPolymorph|BrightwingGreaterPolymorphTalent|W|Level1",
+        "talentId": "BrightwingGreaterPolymorphPolymorph",
+        "buttonId": "BrightwingGreaterPolymorphTalent",
+        "abilityId": "FaerieDragonPolymorph",
+        "icon": "storm_ui_icon_brightwing_polymorph.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "FaerieDragonPolymorph|BrightwingPolymorph|W"
+        ]
+      },
+      {
+        "linkId": "BrightwingPhaseShiftHyperShift|BrightwingPhaseShiftHyperShift|Z|Level1",
+        "talentId": "BrightwingPhaseShiftHyperShift",
+        "buttonId": "BrightwingPhaseShiftHyperShift",
+        "abilityId": "BrightwingPhaseShift",
+        "icon": "storm_ui_icon_brightwing_hypershift.png",
+        "abilityType": "Z",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "BrightwingPhaseShift|BrightwingPhaseShift|Z"
+        ]
+      },
+      {
+        "linkId": "BrightwingPixieCharm|FaerieDragonPixieCharmTalent|Active|Level1",
+        "talentId": "BrightwingPixieCharm",
+        "buttonId": "FaerieDragonPixieCharmTalent",
+        "abilityId": "FaerieDragonPixieCharm",
+        "icon": "storm_ui_icon_talent_bribe.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "BrightwingDreamShotArcaneFlare|BrightwingDreamShotTalent|Q|Level4",
+        "talentId": "BrightwingDreamShotArcaneFlare",
+        "buttonId": "BrightwingDreamShotTalent",
+        "abilityId": "FaerieDragonArcaneFlare",
+        "icon": "storm_ui_icon_brightwing_arcaneflare.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "FaerieDragonArcaneFlare|BrightwingArcaneFlare|Q"
+        ]
+      },
+      {
+        "linkId": "BrightwingUnstableAnomalyPolymorph|BrightwingUnstableAnomalyTalent|W|Level4",
+        "talentId": "BrightwingUnstableAnomalyPolymorph",
+        "buttonId": "BrightwingUnstableAnomalyTalent",
+        "abilityId": "FaerieDragonPolymorph",
+        "icon": "storm_ui_icon_brightwing_polymorph.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "FaerieDragonPolymorph|BrightwingPolymorph|W"
+        ]
+      },
+      {
+        "linkId": "BrightwingMagicSpit|BrightwingMagicSpit|Passive|Level4",
+        "talentId": "BrightwingMagicSpit",
+        "buttonId": "BrightwingMagicSpit",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_cooldown.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "BrightwingCalmingMist|BrightwingSoothingMistCalmingMist|Trait"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "BrightwingArcaneFlareStickyFlare|BrightwingArcaneFlareStickyFlareTalent|Q|Level7",
+        "talentId": "BrightwingArcaneFlareStickyFlare",
+        "buttonId": "BrightwingArcaneFlareStickyFlareTalent",
+        "abilityId": "FaerieDragonArcaneFlare",
+        "icon": "storm_ui_icon_brightwing_arcaneflare.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "FaerieDragonArcaneFlare|BrightwingArcaneFlare|Q"
+        ]
+      },
+      {
+        "linkId": "BrightwingPhaseShiftPeekaboo|BrightwingPhaseShiftPeekaboo|Z|Level7",
+        "talentId": "BrightwingPhaseShiftPeekaboo",
+        "buttonId": "BrightwingPhaseShiftPeekaboo",
+        "abilityId": "BrightwingPhaseShift",
+        "icon": "storm_ui_icon_brightwing_hypershift.png",
+        "abilityType": "Z",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "BrightwingPhaseShift|BrightwingPhaseShift|Z"
+        ]
+      },
+      {
+        "linkId": "BrightwingCriticalMistCalmingMist|BrightwingCalmingMistCriticalMist|Trait|Level7",
+        "talentId": "BrightwingCriticalMistCalmingMist",
+        "buttonId": "BrightwingCalmingMistCriticalMist",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_brightwing_soothingmist.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "BrightwingCalmingMist|BrightwingSoothingMistCalmingMist|Trait"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "FaerieDragonHeroicAbilityBlinkHeal|BrightwingBlinkHealAllyDash|Heroic|Level10",
+        "talentId": "FaerieDragonHeroicAbilityBlinkHeal",
+        "buttonId": "BrightwingBlinkHealAllyDash",
+        "abilityId": "FaerieDragonBlinkHealDash",
+        "icon": "storm_ui_icon_brightwing_blinkheal.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "FaerieDragonHeroicAbilityEmeraldWind|BrightwingEmeraldWind|Heroic|Level10",
+        "talentId": "FaerieDragonHeroicAbilityEmeraldWind",
+        "buttonId": "BrightwingEmeraldWind",
+        "abilityId": "FaerieDragonEmeraldWind",
+        "icon": "storm_ui_icon_brightwing_emeraldwind.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "BrightwingPixieBoostPixieDust|BrightwingPixieBoostTalent|E|Level13",
+        "talentId": "BrightwingPixieBoostPixieDust",
+        "buttonId": "BrightwingPixieBoostTalent",
+        "abilityId": "FaerieDragonPixieDust",
+        "icon": "storm_ui_icon_brightwing_pixiedust.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "FaerieDragonPixieDust|BrightwingPixieDust|E"
+        ]
+      },
+      {
+        "linkId": "BrightwingPixieDustSafetyDust|BrightwingPixieDustSafetyDust|E|Level13",
+        "talentId": "BrightwingPixieDustSafetyDust",
+        "buttonId": "BrightwingPixieDustSafetyDust",
+        "abilityId": "FaerieDragonPixieDust",
+        "icon": "storm_ui_icon_brightwing_pixiedust_a.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "FaerieDragonPixieDust|BrightwingPixieDust|E"
+        ]
+      },
+      {
+        "linkId": "BrightwingPixieDustPixiePower|BrightwingPixieDustPixiePower|E|Level13",
+        "talentId": "BrightwingPixieDustPixiePower",
+        "buttonId": "BrightwingPixieDustPixiePower",
+        "abilityId": "FaerieDragonPixieDust",
+        "icon": "storm_ui_icon_brightwing_pixiedust_b.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "FaerieDragonPixieDust|BrightwingPixieDust|E"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "BrightwingArcaneFlareHush!|BrightwingArcaneFlareHush!|Q|Level16",
+        "talentId": "BrightwingArcaneFlareHush!",
+        "buttonId": "BrightwingArcaneFlareHush!",
+        "abilityId": "FaerieDragonArcaneFlare",
+        "icon": "storm_ui_icon_brightwing_arcaneflare.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "FaerieDragonArcaneFlare|BrightwingArcaneFlare|Q"
+        ]
+      },
+      {
+        "linkId": "FaerieDragonMasteryCritterize|BrightwingPolymorphCritterizeTalent|W|Level16",
+        "talentId": "FaerieDragonMasteryCritterize",
+        "buttonId": "BrightwingPolymorphCritterizeTalent",
+        "abilityId": "FaerieDragonPolymorph",
+        "icon": "storm_ui_icon_brightwing_polymorph.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "FaerieDragonPolymorph|BrightwingPolymorph|W"
+        ]
+      },
+      {
+        "linkId": "BrightwingPhaseOut|BrightwingPhaseOut|Active|Level16",
+        "talentId": "BrightwingPhaseOut",
+        "buttonId": "BrightwingPhaseOut",
+        "abilityId": "BrightwingPhaseOut",
+        "icon": "storm_ui_icon_brightwing_stasis.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "BrightwingInvisibleFriends|BrightwingInvisibleFriends|Heroic|Level20",
+        "talentId": "BrightwingInvisibleFriends",
+        "buttonId": "BrightwingInvisibleFriends",
+        "abilityId": "FaerieDragonBlinkHealDash",
+        "icon": "storm_ui_icon_brightwing_blinkheal.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "FaerieDragonBlinkHealDash|BrightwingBlinkHealAllyDash|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "FaerieDragonHeroicAbilityBlinkHeal"
+        ]
+      },
+      {
+        "linkId": "BrightwingIntensiveWinds|BrightwingEmeraldWindIntensiveWinds|Heroic|Level20",
+        "talentId": "BrightwingIntensiveWinds",
+        "buttonId": "BrightwingEmeraldWindIntensiveWinds",
+        "abilityId": "FaerieDragonEmeraldWind",
+        "icon": "storm_ui_icon_brightwing_emeraldwind.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "FaerieDragonEmeraldWind|BrightwingEmeraldWind|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "FaerieDragonHeroicAbilityEmeraldWind"
+        ]
+      },
+      {
+        "linkId": "BrightwingSpeedyDragon|BrightwingSpeedyDragon|Z|Level20",
+        "talentId": "BrightwingSpeedyDragon",
+        "buttonId": "BrightwingSpeedyDragon",
+        "abilityId": "BrightwingPhaseShift",
+        "icon": "storm_ui_icon_brightwing_hypershift.png",
+        "abilityType": "Z",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "BrightwingPhaseShift|BrightwingPhaseShift|Z"
+        ]
+      },
+      {
+        "linkId": "BrightwingFaerieProtector|BrightwingFaerieProtector|Active|Level20",
+        "talentId": "BrightwingFaerieProtector",
+        "buttonId": "BrightwingFaerieProtector",
+        "abilityId": "BrightwingFaerieProtector",
+        "icon": "storm_ui_icon_brightwing_pixiedust.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          "FaerieDragonPixieDust|BrightwingPixieDust|E"
+        ]
+      }
+    ]
+  },
+  "sheet": "sheets/FaerieDragon.webp",
+  "icons": {
+    "storm_ui_icon_brightwing_arcaneflare.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_brightwing_polymorph.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_brightwing_pixiedust.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_brightwing_blinkheal.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_brightwing_emeraldwind.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_brightwing_soothingmist.png": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_brightwing_mount.png": [
+      256,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      384,
+      128,
+      111,
+      71
+    ],
+    "storm_ui_icon_talent_bribe.png": [
+      0,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_brightwing_stasis.png": [
+      128,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_brightwing_hypershift.png": [
+      256,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_autoattack_cooldown.png": [
+      384,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_brightwing_pixiedust_a.png": [
+      0,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_brightwing_pixiedust_b.png": [
+      128,
+      384,
+      128,
+      128
+    ]
+  }
+}

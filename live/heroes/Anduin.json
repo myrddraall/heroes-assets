@@ -1,0 +1,654 @@
+{
+  "id": "Anduin",
+  "unitId": "HeroAnduin",
+  "hyperlinkId": "Anduin",
+  "attributeId": "Andu",
+  "franchise": "Warcraft",
+  "rarity": "Legendary",
+  "releaseDate": "2019-04-30",
+  "isMelee": false,
+  "gender": "Male",
+  "radius": 0.625,
+  "innerRadius": 0.625,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 4,
+    "damage": 2,
+    "survivability": 4,
+    "utility": 7
+  },
+  "life": {
+    "amount": 1665,
+    "scale": 0.04,
+    "regenRate": 3.4687,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "AllyHealer",
+    "EnergyImportant",
+    "Helper",
+    "RoleSupport",
+    "SelfHealer"
+  ],
+  "weapons": [
+    {
+      "nameId": "AnduinHeroWeapon",
+      "isDisabled": false,
+      "range": 5.5,
+      "minimumRange": 0,
+      "period": 1,
+      "damage": 85,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "AnduinCraft20",
+    "AnduinSciFi19"
+  ],
+  "variationSkinIds": [
+    "AnduinBaseVar1",
+    "AnduinBaseVar2",
+    "AnduinBaseVar3",
+    "AnduinBaseVar4"
+  ],
+  "voiceLineIds": [
+    "AnduinBase_VoiceLine01",
+    "AnduinBase_VoiceLine02",
+    "AnduinBase_VoiceLine03",
+    "AnduinBase_VoiceLine04",
+    "AnduinBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "AnduinFlashHeal|AnduinFlashHeal|Q",
+        "abilityId": "AnduinFlashHeal",
+        "buttonId": "AnduinFlashHeal",
+        "icon": "storm_ui_icon_anduin_flash_heal.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "AnduinDivineStar|AnduinDivineStar|W",
+        "abilityId": "AnduinDivineStar",
+        "buttonId": "AnduinDivineStar",
+        "icon": "storm_ui_icon_anduin_divine_star.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "AnduinChastise|AnduinChastise|E",
+        "abilityId": "AnduinChastise",
+        "buttonId": "AnduinChastise",
+        "icon": "storm_ui_icon_anduin_chastise.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "AnduinHolyWordSalvation|AnduinHolyWordSalvation|Heroic",
+        "abilityId": "AnduinHolyWordSalvation",
+        "buttonId": "AnduinHolyWordSalvation",
+        "icon": "storm_ui_icon_anduin_holy_word_salvation.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "AnduinLightBomb|AnduinLightBomb|Heroic",
+        "abilityId": "AnduinLightBomb",
+        "buttonId": "AnduinLightBomb",
+        "icon": "storm_ui_icon_anduin_light_bomb.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": "AnduinLeapOfFaithInstant|AnduinLeapOfFaithInstant|Trait",
+        "abilityId": "AnduinLeapOfFaithInstant",
+        "buttonId": "AnduinLeapOfFaithInstant",
+        "icon": "storm_ui_icon_anduin_leap_of_faith.png",
+        "charges": {
+          "countMax": 1,
+          "countStart": 1,
+          "countUse": 1,
+          "recastCooldown": 0.5,
+          "isCountHidden": true
+        },
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "AnduinHolyWordSalvation|AnduinHolyWordSalvation|Heroic": {
+      "Heroic": [
+        {
+          "linkId": "AnduinHolyWordSalvationCancel|AnduinHolyWordSalvationCancel|Heroic",
+          "abilityId": "AnduinHolyWordSalvationCancel",
+          "buttonId": "AnduinHolyWordSalvationCancel",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "abilityType": "Heroic"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "AnduinLightwell|AnduinLightwell|Active|Level1": {
+      "Activable": [
+        {
+          "linkId": "AnduinLightwell|AnduinLightwell|Active",
+          "abilityId": "AnduinLightwell",
+          "buttonId": "AnduinLightwell",
+          "icon": "storm_ui_icon_anduin_lightwell.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "AnduinFlashHealDesperatePrayer|AnduinFlashHealDesperatePrayer|Active|Level7": {
+      "Activable": [
+        {
+          "linkId": "AnduinFlashHealDesperatePrayer|AnduinFlashHealDesperatePrayer|Active",
+          "abilityId": "AnduinFlashHealDesperatePrayer",
+          "buttonId": "AnduinFlashHealDesperatePrayer",
+          "icon": "storm_ui_icon_anduin_desperate_prayer.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "AnduinBlessedRecovery|AnduinBlessedRecovery|Passive|Level7": {
+      "Activable": [
+        {
+          "linkId": "AnduinBlessedRecovery|AnduinBlessedRecovery|Passive",
+          "abilityId": "AnduinBlessedRecovery",
+          "buttonId": "AnduinBlessedRecovery",
+          "icon": "storm_ui_icon_anduin_blessed_recovery.png",
+          "abilityType": "Passive"
+        }
+      ]
+    },
+    "AnduinFlashHealInnerFocus|AnduinFlashHealInnerFocus|Active|Level16": {
+      "Activable": [
+        {
+          "linkId": "AnduinFlashHealInnerFocus|AnduinFlashHealInnerFocus|Active",
+          "abilityId": "AnduinFlashHealInnerFocus",
+          "buttonId": "AnduinFlashHealInnerFocus",
+          "icon": "storm_ui_icon_anduin_inner_focus.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "AnduinFlashHealEvenhandedBlessings|AnduinFlashHealEvenhandedBlessings|Q|Level1",
+        "talentId": "AnduinFlashHealEvenhandedBlessings",
+        "buttonId": "AnduinFlashHealEvenhandedBlessings",
+        "abilityId": "AnduinFlashHeal",
+        "icon": "storm_ui_icon_anduin_flash_heal.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AnduinFlashHeal|AnduinFlashHeal|Q"
+        ]
+      },
+      {
+        "linkId": "AnduinDivineStarPowerWordShield|AnduinDivineStarPowerWordShield|W|Level1",
+        "talentId": "AnduinDivineStarPowerWordShield",
+        "buttonId": "AnduinDivineStarPowerWordShield",
+        "abilityId": "AnduinDivineStar",
+        "icon": "storm_ui_icon_anduin_divine_star.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "AnduinDivineStar|AnduinDivineStar|W"
+        ]
+      },
+      {
+        "linkId": "AnduinLightwell|AnduinLightwell|Active|Level1",
+        "talentId": "AnduinLightwell",
+        "buttonId": "AnduinLightwell",
+        "abilityId": "AnduinLightwell",
+        "icon": "storm_ui_icon_anduin_lightwell.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "AnduinDivineStarMoralCompass|AnduinDivineStarMoralCompass|W|Level4",
+        "talentId": "AnduinDivineStarMoralCompass",
+        "buttonId": "AnduinDivineStarMoralCompass",
+        "abilityId": "AnduinDivineStar",
+        "icon": "storm_ui_icon_anduin_divine_star.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AnduinDivineStar|AnduinDivineStar|W"
+        ]
+      },
+      {
+        "linkId": "AnduinSurgeofLight|AnduinSurgeofLight|E|Level4",
+        "talentId": "AnduinSurgeofLight",
+        "buttonId": "AnduinSurgeofLight",
+        "abilityId": "AnduinChastise",
+        "icon": "storm_ui_icon_anduin_chastise.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "AnduinChastise|AnduinChastise|E"
+        ]
+      },
+      {
+        "linkId": "AnduinPiercingLight|AnduinPiercingLight|E|Level4",
+        "talentId": "AnduinPiercingLight",
+        "buttonId": "AnduinPiercingLight",
+        "abilityId": "AnduinChastise",
+        "icon": "storm_ui_icon_anduin_chastise_a.png",
+        "abilityType": "E",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "AnduinChastise|AnduinChastise|E"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "AnduinFlashHealBindingHeal|AnduinFlashHealBindingHeal|Q|Level7",
+        "talentId": "AnduinFlashHealBindingHeal",
+        "buttonId": "AnduinFlashHealBindingHeal",
+        "abilityId": "AnduinFlashHeal",
+        "icon": "storm_ui_icon_anduin_flash_heal.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AnduinFlashHeal|AnduinFlashHeal|Q"
+        ]
+      },
+      {
+        "linkId": "AnduinBlessedRecovery|AnduinBlessedRecovery|Passive|Level7",
+        "talentId": "AnduinBlessedRecovery",
+        "buttonId": "AnduinBlessedRecovery",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_anduin_blessed_recovery.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2
+      },
+      {
+        "linkId": "AnduinFlashHealDesperatePrayer|AnduinFlashHealDesperatePrayer|Active|Level7",
+        "talentId": "AnduinFlashHealDesperatePrayer",
+        "buttonId": "AnduinFlashHealDesperatePrayer",
+        "abilityId": "AnduinFlashHealDesperatePrayer",
+        "icon": "storm_ui_icon_anduin_desperate_prayer.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "AnduinHolyWordSalvation|AnduinHolyWordSalvation|Heroic|Level10",
+        "talentId": "AnduinHolyWordSalvation",
+        "buttonId": "AnduinHolyWordSalvation",
+        "abilityId": "AnduinHolyWordSalvation",
+        "icon": "storm_ui_icon_anduin_holy_word_salvation.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "AnduinLightBomb|AnduinLightBomb|Heroic|Level10",
+        "talentId": "AnduinLightBomb",
+        "buttonId": "AnduinLightBomb",
+        "abilityId": "AnduinLightBomb",
+        "icon": "storm_ui_icon_anduin_light_bomb.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "AnduinDivineStarSpeedOfThePious|AnduinDivineStarSpeedOfThePious|W|Level13",
+        "talentId": "AnduinDivineStarSpeedOfThePious",
+        "buttonId": "AnduinDivineStarSpeedOfThePious",
+        "abilityId": "AnduinDivineStar",
+        "icon": "storm_ui_icon_anduin_divine_star.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AnduinDivineStar|AnduinDivineStar|W"
+        ]
+      },
+      {
+        "linkId": "AnduinPushForward|AnduinPushForward|Trait|Level13",
+        "talentId": "AnduinPushForward",
+        "buttonId": "AnduinPushForward",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_anduin_varians_legacy.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 2
+      },
+      {
+        "linkId": "AnduinLeapOfFaithEnchantBootsLionsSpeed|AnduinLeapOfFaithEnchantBootsLionsSpeed|Trait|Level13",
+        "talentId": "AnduinLeapOfFaithEnchantBootsLionsSpeed",
+        "buttonId": "AnduinLeapOfFaithEnchantBootsLionsSpeed",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_anduin_leap_of_faith.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "AnduinLeapOfFaithInstant|AnduinLeapOfFaithInstant|Trait"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "AnduinFlashHealRenew|AnduinFlashHealRenew|Q|Level16",
+        "talentId": "AnduinFlashHealRenew",
+        "buttonId": "AnduinFlashHealRenew",
+        "abilityId": "AnduinFlashHeal",
+        "icon": "storm_ui_icon_anduin_flash_heal.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AnduinFlashHeal|AnduinFlashHeal|Q"
+        ]
+      },
+      {
+        "linkId": "AnduinDivineStarHolyNova|AnduinDivineStarHolyNova|W|Level16",
+        "talentId": "AnduinDivineStarHolyNova",
+        "buttonId": "AnduinDivineStarHolyNova",
+        "abilityId": "AnduinDivineStar",
+        "icon": "storm_ui_icon_anduin_divine_star.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "AnduinDivineStar|AnduinDivineStar|W"
+        ]
+      },
+      {
+        "linkId": "AnduinLeapOfFaithGlyphOfFaith|AnduinLeapOfFaithGlyphOfFaith|Trait|Level16",
+        "talentId": "AnduinLeapOfFaithGlyphOfFaith",
+        "buttonId": "AnduinLeapOfFaithGlyphOfFaith",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_anduin_leap_of_faith.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "AnduinLeapOfFaithInstant|AnduinLeapOfFaithInstant|Trait"
+        ]
+      },
+      {
+        "linkId": "AnduinFlashHealInnerFocus|AnduinFlashHealInnerFocus|Active|Level16",
+        "talentId": "AnduinFlashHealInnerFocus",
+        "buttonId": "AnduinFlashHealInnerFocus",
+        "abilityId": "AnduinFlashHealInnerFocus",
+        "icon": "storm_ui_icon_anduin_inner_focus.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "AnduinHolyWordSalvationLightOfStormwind|AnduinHolyWordSalvationLightOfStormwind|Heroic|Level20",
+        "talentId": "AnduinHolyWordSalvationLightOfStormwind",
+        "buttonId": "AnduinHolyWordSalvationLightOfStormwind",
+        "abilityId": "AnduinHolyWordSalvation",
+        "icon": "storm_ui_icon_anduin_holy_word_salvation.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "AnduinHolyWordSalvation|AnduinHolyWordSalvation|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "AnduinHolyWordSalvation"
+        ]
+      },
+      {
+        "linkId": "AnduinInnerFire|AnduinInnerFire|Heroic|Level20",
+        "talentId": "AnduinInnerFire",
+        "buttonId": "AnduinInnerFire",
+        "abilityId": "AnduinLightBomb",
+        "icon": "storm_ui_icon_anduin_light_bomb.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "AnduinLightBomb|AnduinLightBomb|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "AnduinLightBomb"
+        ]
+      },
+      {
+        "linkId": "AnduinCensure|AnduinCensure|E|Level20",
+        "talentId": "AnduinCensure",
+        "buttonId": "AnduinCensure",
+        "abilityId": "AnduinChastise",
+        "icon": "storm_ui_icon_anduin_chastise.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "AnduinChastise|AnduinChastise|E"
+        ]
+      },
+      {
+        "linkId": "AnduinVariansLegacy|AnduinVariansLegacy|Passive|Level20",
+        "talentId": "AnduinVariansLegacy",
+        "buttonId": "AnduinVariansLegacy",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_anduin_varians_legacy.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          "AnduinLeapOfFaithInstant|AnduinLeapOfFaithInstant|Trait"
+        ]
+      }
+    ]
+  },
+  "sheet": "sheets/Anduin.webp",
+  "icons": {
+    "storm_ui_icon_anduin_flash_heal.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_anduin_divine_star.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_anduin_chastise.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_anduin_holy_word_salvation.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_anduin_light_bomb.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_anduin_leap_of_faith.png": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_mount.png": [
+      256,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      384,
+      128,
+      111,
+      71
+    ],
+    "hud_btn_bg_ability_cancel.png": [
+      0,
+      256,
+      97,
+      111
+    ],
+    "storm_ui_icon_generic_cancel_mount.png": [
+      128,
+      256,
+      76,
+      48
+    ],
+    "storm_ui_icon_anduin_lightwell.png": [
+      256,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_anduin_desperate_prayer.png": [
+      384,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_anduin_blessed_recovery.png": [
+      0,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_anduin_inner_focus.png": [
+      128,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_anduin_chastise_a.png": [
+      256,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_anduin_varians_legacy.png": [
+      384,
+      384,
+      128,
+      128
+    ]
+  }
+}

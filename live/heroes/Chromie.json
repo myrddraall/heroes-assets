@@ -1,0 +1,709 @@
+{
+  "id": "Chromie",
+  "unitId": "HeroChromie",
+  "hyperlinkId": "Chromie",
+  "attributeId": "Chro",
+  "franchise": "Warcraft",
+  "rarity": "Legendary",
+  "releaseDate": "2016-05-17",
+  "isMelee": false,
+  "gender": "Female",
+  "radius": 0.625,
+  "innerRadius": 0.625,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 5,
+    "damage": 9,
+    "survivability": 3,
+    "utility": 4
+  },
+  "life": {
+    "amount": 1390,
+    "scale": 0.04,
+    "regenRate": 2.8984,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "EnergyImportant",
+    "RoleCaster"
+  ],
+  "summonedUnitIds": [
+    "ChromieSandBlastPastAndFutureMeControllerUnit",
+    "ChromieTimeTrap"
+  ],
+  "weapons": [
+    {
+      "nameId": "ChromieHeroWeapon",
+      "isDisabled": false,
+      "range": 7,
+      "minimumRange": 0,
+      "period": 1,
+      "damage": 82,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "ChromieCuteSkull",
+    "ChromieFel",
+    "ChromieGenie",
+    "ChromieSpring19",
+    "ChromieUltimate"
+  ],
+  "variationSkinIds": [
+    "ChromieBaseVar1",
+    "ChromieBaseVar2",
+    "ChromieBaseVar3"
+  ],
+  "voiceLineIds": [
+    "ChromieBase_VoiceLine01",
+    "ChromieBase_VoiceLine02",
+    "ChromieBase_VoiceLine03",
+    "ChromieBase_VoiceLine04",
+    "ChromieBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "ChromieSandBlast|ChromieSandBlast|Q",
+        "abilityId": "ChromieSandBlast",
+        "buttonId": "ChromieSandBlast",
+        "icon": "storm_ui_icon_chromie_aethercannon.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "ChromieDragonsBreath|ChromieDragonsBreath|W",
+        "abilityId": "ChromieDragonsBreath",
+        "buttonId": "ChromieDragonsBreath",
+        "icon": "storm_ui_icon_chromie_sandstrike.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "ChromieTimeTrap|ChromieTimeTrap|E",
+        "abilityId": "ChromieTimeTrap",
+        "buttonId": "ChromieTimeTrap",
+        "icon": "storm_ui_icon_chromie_timetrap.png",
+        "charges": {
+          "countMax": 1,
+          "countStart": 1,
+          "countUse": 1,
+          "recastCooldown": 1,
+          "isCountHidden": true
+        },
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "ChromieTemporalLoop|ChromieTemporalLoop|Heroic",
+        "abilityId": "ChromieTemporalLoop",
+        "buttonId": "ChromieTemporalLoop",
+        "icon": "storm_ui_icon_chromie_looper.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "ChromieSlowingSands|ChromieSlowingSands|Heroic",
+        "abilityId": "ChromieSlowingSands",
+        "buttonId": "ChromieSlowingSands",
+        "icon": "storm_ui_icon_chromie_timewarp.png",
+        "toggleCooldown": 0.125,
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": ":PASSIVE:|ChromieTimewalkerTrait|Trait",
+        "abilityId": ":PASSIVE:",
+        "buttonId": "ChromieTimewalkerTrait",
+        "icon": "storm_ui_icon_chromie_timetraveler.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "ChromieTimeTrap|ChromieTimeTrap|E": {
+      "Trait": [
+        {
+          "linkId": "ChromieTimeTrapDetonate|ChromieDetonateTimeTrap|Trait",
+          "abilityId": "ChromieTimeTrapDetonate",
+          "buttonId": "ChromieDetonateTimeTrap",
+          "icon": "storm_ui_icon_chromie_detonate_timetrap.png",
+          "abilityType": "Trait"
+        }
+      ]
+    },
+    "ChromieSlowingSands|ChromieSlowingSands|Heroic": {
+      "Heroic": [
+        {
+          "linkId": "ChromieSlowingSandsCancel|ChromieSlowingSandsCancel|Heroic",
+          "abilityId": "ChromieSlowingSandsCancel",
+          "buttonId": "ChromieSlowingSandsCancel",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "abilityType": "Heroic"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "ChromieTimeOut|ChromieTimeOutHotbar|Active": {
+      "Activable": [
+        {
+          "linkId": "ChromieTimeOut|ChromieTimeOutCancel|Active",
+          "abilityId": "ChromieTimeOut",
+          "buttonId": "ChromieTimeOutCancel",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "ChromieTimewalkersPursuit|ChromieTimewalkersPursuit|Active|Level1": {
+      "Activable": [
+        {
+          "linkId": "ChromieTimewalkersPursuit|ChromieTimewalkersPursuitActive|Active",
+          "abilityId": "ChromieTimewalkersPursuit",
+          "buttonId": "ChromieTimewalkersPursuitActive",
+          "icon": "storm_ui_icon_talent_clairvoyance.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "ChromieHereAndThere|ChromieHereAndThere|Active|Level13": {
+      "Activable": [
+        {
+          "linkId": "ChromieHereAndThere|ChromieHereAndThere|Active",
+          "abilityId": "ChromieHereAndThere",
+          "buttonId": "ChromieHereAndThere",
+          "icon": "storm_ui_icon_chromie_herethere.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "ChromieTimeOut|ChromieTimeOutHotbar|Active|Level13": {
+      "Activable": [
+        {
+          "linkId": "ChromieTimeOut|ChromieTimeOutHotbar|Active",
+          "abilityId": "ChromieTimeOut",
+          "buttonId": "ChromieTimeOutHotbar",
+          "icon": "storm_ui_icon_chromie_timeblock.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "ChromieQuantumOverdrive|ChromieQuantumOverdrive|Active|Level16": {
+      "Activable": [
+        {
+          "linkId": "ChromieQuantumOverdrive|ChromieQuantumOverdrive|Active",
+          "abilityId": "ChromieQuantumOverdrive",
+          "buttonId": "ChromieQuantumOverdrive",
+          "icon": "storm_ui_icon_chromie_hyperdrivesreach.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "ChromieBlessingOfTheBronze|ChromieBlessingOfTheBronze|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "ChromieBlessingOfTheBronze|ChromieBlessingOfTheBronze|Active",
+          "abilityId": "ChromieBlessingOfTheBronze",
+          "buttonId": "ChromieBlessingOfTheBronze",
+          "icon": "storm_ui_icon_chromie_blessing_of_the_bronze.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "ChromieSandBlastOnceAgainTheFirstTime|ChromieSandBlastOnceAgaintheFirstTime|Q|Level1",
+        "talentId": "ChromieSandBlastOnceAgainTheFirstTime",
+        "buttonId": "ChromieSandBlastOnceAgaintheFirstTime",
+        "abilityId": "ChromieSandBlast",
+        "icon": "storm_ui_icon_chromie_aethercannon.png",
+        "abilityType": "Q",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ChromieSandBlast|ChromieSandBlast|Q"
+        ]
+      },
+      {
+        "linkId": "ChromieDragonsBreathDeepBreathing|ChromieDragonsBreathDeepBreathing|W|Level1",
+        "talentId": "ChromieDragonsBreathDeepBreathing",
+        "buttonId": "ChromieDragonsBreathDeepBreathing",
+        "abilityId": "ChromieDragonsBreath",
+        "icon": "storm_ui_icon_chromie_sandstrike.png",
+        "abilityType": "W",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ChromieDragonsBreath|ChromieDragonsBreath|W"
+        ]
+      },
+      {
+        "linkId": "ChromieTimewalkersPursuit|ChromieTimewalkersPursuit|Active|Level1",
+        "talentId": "ChromieTimewalkersPursuit",
+        "buttonId": "ChromieTimewalkersPursuit",
+        "abilityId": "ChromieTimewalkersPursuit",
+        "icon": "storm_ui_icon_talent_clairvoyance.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|ChromieTimewalkerTrait|Trait"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "ChromieTimeTrapChronicConditions|ChromieTimeTrapChronicConditions|E|Level4",
+        "talentId": "ChromieTimeTrapChronicConditions",
+        "buttonId": "ChromieTimeTrapChronicConditions",
+        "abilityId": "ChromieTimeTrap",
+        "icon": "storm_ui_icon_chromie_timetrap.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ChromieTimeTrap|ChromieTimeTrap|E",
+          "ChromieTimeTrapDetonate|ChromieDetonateTimeTrap|Trait"
+        ]
+      },
+      {
+        "linkId": "ChromieTimeTrapTimeTroubles|ChromieTimeTrapTimeTroubles|E|Level4",
+        "talentId": "ChromieTimeTrapTimeTroubles",
+        "buttonId": "ChromieTimeTrapTimeTroubles",
+        "abilityId": "ChromieTimeTrap",
+        "icon": "storm_ui_icon_chromie_timetrap_a.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ChromieTimeTrap|ChromieTimeTrap|E"
+        ]
+      },
+      {
+        "linkId": "ChromieTimeTrapAndorhalAnomaly|ChromieTimeTrapAndorhalAnomaly|E|Level4",
+        "talentId": "ChromieTimeTrapAndorhalAnomaly",
+        "buttonId": "ChromieTimeTrapAndorhalAnomaly",
+        "abilityId": "ChromieTimeTrap",
+        "icon": "storm_ui_icon_chromie_timetrap_b.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "ChromieTimeTrap|ChromieTimeTrap|E",
+          "ChromieTimeTrapDetonate|ChromieDetonateTimeTrap|Trait"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "ChromieSandBlastBronzeTalons|ChromieSandBlastBronzeTalons|Q|Level7",
+        "talentId": "ChromieSandBlastBronzeTalons",
+        "buttonId": "ChromieSandBlastBronzeTalons",
+        "abilityId": "ChromieSandBlast",
+        "icon": "storm_ui_icon_chromie_aethercannon.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ChromieSandBlast|ChromieSandBlast|Q"
+        ]
+      },
+      {
+        "linkId": "ChromieDragonsBreathMobiusLoop|ChromieDragonsBreathMobiusLoop|W|Level7",
+        "talentId": "ChromieDragonsBreathMobiusLoop",
+        "buttonId": "ChromieDragonsBreathMobiusLoop",
+        "abilityId": "ChromieDragonsBreath",
+        "icon": "storm_ui_icon_chromie_sandstrike.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ChromieDragonsBreath|ChromieDragonsBreath|W"
+        ]
+      },
+      {
+        "linkId": "ChromieAProperGreeting|ChromieAProperGreeting|Passive|Level7",
+        "talentId": "ChromieAProperGreeting",
+        "buttonId": "ChromieAProperGreeting",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_abilitytalent_damage.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|ChromieTimewalkerTrait|Trait"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "ChromieHeroicAbilitySlowingSands|ChromieSlowingSands|Heroic|Level10",
+        "talentId": "ChromieHeroicAbilitySlowingSands",
+        "buttonId": "ChromieSlowingSands",
+        "abilityId": "ChromieSlowingSands",
+        "icon": "storm_ui_icon_chromie_timewarp.png",
+        "toggleCooldown": 0.125,
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "ChromieHeroicAbilityTemporalLoop|ChromieTemporalLoop|Heroic|Level10",
+        "talentId": "ChromieHeroicAbilityTemporalLoop",
+        "buttonId": "ChromieTemporalLoop",
+        "abilityId": "ChromieTemporalLoop",
+        "icon": "storm_ui_icon_chromie_looper.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "ChromieSandBlastGnomeSpeedAhead|ChromieSandBlastGnomeSpeedAhead|Q|Level13",
+        "talentId": "ChromieSandBlastGnomeSpeedAhead",
+        "buttonId": "ChromieSandBlastGnomeSpeedAhead",
+        "abilityId": "ChromieSandBlast",
+        "icon": "storm_ui_icon_chromie_aethercannon.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ChromieSandBlast|ChromieSandBlast|Q"
+        ]
+      },
+      {
+        "linkId": "ChromieHereAndThere|ChromieHereAndThere|Active|Level13",
+        "talentId": "ChromieHereAndThere",
+        "buttonId": "ChromieHereAndThere",
+        "abilityId": "ChromieHereAndThere",
+        "icon": "storm_ui_icon_chromie_herethere.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2
+      },
+      {
+        "linkId": "ChromieTimeOut|ChromieTimeOutHotbar|Active|Level13",
+        "talentId": "ChromieTimeOut",
+        "buttonId": "ChromieTimeOutHotbar",
+        "abilityId": "ChromieTimeOut",
+        "icon": "storm_ui_icon_chromie_timeblock.png",
+        "toggleCooldown": 0.5,
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "ChromieSandBlastShiftingSands|ChromieSandBlastShiftingSands|Q|Level16",
+        "talentId": "ChromieSandBlastShiftingSands",
+        "buttonId": "ChromieSandBlastShiftingSands",
+        "abilityId": "ChromieSandBlast",
+        "icon": "storm_ui_icon_chromie_aethercannon.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ChromieSandBlast|ChromieSandBlast|Q"
+        ]
+      },
+      {
+        "linkId": "ChromieSandBlastFastForward|ChromieSandBlastFastForward|Q|Level16",
+        "talentId": "ChromieSandBlastFastForward",
+        "buttonId": "ChromieSandBlastFastForward",
+        "abilityId": "ChromieSandBlast",
+        "icon": "storm_ui_icon_chromie_aethercannon_a.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ChromieSandBlast|ChromieSandBlast|Q"
+        ]
+      },
+      {
+        "linkId": "ChromieQuantumOverdrive|ChromieQuantumOverdrive|Active|Level16",
+        "talentId": "ChromieQuantumOverdrive",
+        "buttonId": "ChromieQuantumOverdrive",
+        "abilityId": "ChromieQuantumOverdrive",
+        "icon": "storm_ui_icon_chromie_hyperdrivesreach.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "ChromieSlowingSandsUnravelling|ChromieSlowingSandsUnravelling|Heroic|Level20",
+        "talentId": "ChromieSlowingSandsUnravelling",
+        "buttonId": "ChromieSlowingSandsUnravelling",
+        "abilityId": "ChromieSlowingSands",
+        "icon": "storm_ui_icon_chromie_timewarp.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ChromieSlowingSands|ChromieSlowingSands|Heroic",
+          "ChromieSlowingSandsCancel|ChromieSlowingSandsCancel|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "ChromieHeroicAbilitySlowingSands"
+        ]
+      },
+      {
+        "linkId": "ChromieTemporalLoopStuckInALoop|ChromieTemporalLoopStuckInALoop|Heroic|Level20",
+        "talentId": "ChromieTemporalLoopStuckInALoop",
+        "buttonId": "ChromieTemporalLoopStuckInALoop",
+        "abilityId": "ChromieTemporalLoop",
+        "icon": "storm_ui_icon_chromie_looper.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ChromieTemporalLoop|ChromieTemporalLoop|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "ChromieHeroicAbilityTemporalLoop"
+        ]
+      },
+      {
+        "linkId": "ChromieSandBlastPiercingSands|ChromieSandBlastPiercingSands|Q|Level20",
+        "talentId": "ChromieSandBlastPiercingSands",
+        "buttonId": "ChromieSandBlastPiercingSands",
+        "abilityId": "ChromieSandBlast",
+        "icon": "storm_ui_icon_chromie_aethercannon.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "ChromieSandBlast|ChromieSandBlast|Q"
+        ]
+      },
+      {
+        "linkId": "ChromieBlessingOfTheBronze|ChromieBlessingOfTheBronze|Active|Level20",
+        "talentId": "ChromieBlessingOfTheBronze",
+        "buttonId": "ChromieBlessingOfTheBronze",
+        "abilityId": "ChromieBlessingOfTheBronze",
+        "icon": "storm_ui_icon_chromie_blessing_of_the_bronze.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      }
+    ]
+  },
+  "sheet": "sheets/Chromie.webp",
+  "icons": {
+    "storm_ui_icon_chromie_aethercannon.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_chromie_sandstrike.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_chromie_timetrap.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_chromie_looper.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_chromie_timewarp.png": [
+      512,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_chromie_timetraveler.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_mount.png": [
+      128,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      256,
+      128,
+      111,
+      71
+    ],
+    "storm_ui_icon_chromie_detonate_timetrap.png": [
+      384,
+      128,
+      128,
+      128
+    ],
+    "hud_btn_bg_ability_cancel.png": [
+      512,
+      128,
+      97,
+      111
+    ],
+    "storm_ui_icon_generic_cancel_mount.png": [
+      0,
+      256,
+      76,
+      48
+    ],
+    "storm_ui_icon_talent_clairvoyance.png": [
+      128,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_chromie_herethere.png": [
+      256,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_chromie_timeblock.png": [
+      384,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_chromie_hyperdrivesreach.png": [
+      512,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_chromie_blessing_of_the_bronze.png": [
+      0,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_chromie_timetrap_a.png": [
+      128,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_chromie_timetrap_b.png": [
+      256,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_abilitytalent_damage.png": [
+      384,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_chromie_aethercannon_a.png": [
+      512,
+      384,
+      128,
+      128
+    ]
+  }
+}

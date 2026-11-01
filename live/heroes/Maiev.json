@@ -1,0 +1,695 @@
+{
+  "id": "Maiev",
+  "unitId": "HeroMaiev",
+  "hyperlinkId": "Maiev",
+  "attributeId": "Maie",
+  "franchise": "Warcraft",
+  "rarity": "Legendary",
+  "releaseDate": "2018-02-06",
+  "isMelee": true,
+  "gender": "Female",
+  "radius": 0.75,
+  "innerRadius": 0,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 7,
+    "damage": 6,
+    "survivability": 7,
+    "utility": 5
+  },
+  "life": {
+    "amount": 2021,
+    "scale": 0.04,
+    "regenRate": 4.211,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "weapons": [
+    {
+      "nameId": "HeroMaievWeapon",
+      "isDisabled": false,
+      "range": 1.5,
+      "minimumRange": 0,
+      "period": 0.9,
+      "damage": 145,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "MaievAltered20",
+    "MaievHellWarden",
+    "MaievSpooky18"
+  ],
+  "variationSkinIds": [
+    "MaievBaseVar1",
+    "MaievBaseVar2",
+    "MaievBaseVar3",
+    "MaievBaseVar4"
+  ],
+  "voiceLineIds": [
+    "MaievBase_VoiceLine01",
+    "MaievBase_VoiceLine02",
+    "MaievBase_VoiceLine03",
+    "MaievBase_VoiceLine04",
+    "MaievBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "MaievFanOfKnives|MaievFanOfKnives|Q",
+        "abilityId": "MaievFanOfKnives",
+        "buttonId": "MaievFanOfKnives",
+        "icon": "storm_ui_icon_maiev_knives.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "MaievUmbralBind|MaievUmbralBind|W",
+        "abilityId": "MaievUmbralBind",
+        "buttonId": "MaievUmbralBind",
+        "icon": "storm_ui_icon_maiev_umbra_1.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "MaievSpiritOfVengeance|MaievSpiritOfVengeance|E",
+        "abilityId": "MaievSpiritOfVengeance",
+        "buttonId": "MaievSpiritOfVengeance",
+        "icon": "storm_ui_icon_maiev_rush_1.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "MaievContainmentDisc|MaievContainmentDisc|Heroic",
+        "abilityId": "MaievContainmentDisc",
+        "buttonId": "MaievContainmentDisc",
+        "icon": "storm_ui_icon_maiev_heroic_1_a.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "MaievWardensCage|MaievWardensCage|Heroic",
+        "abilityId": "MaievWardensCage",
+        "buttonId": "MaievWardensCage",
+        "icon": "storm_ui_icon_maiev_heroic_2.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": "MaievVaultOfTheWardens|MaievVaultOfTheWardens|Trait",
+        "abilityId": "MaievVaultOfTheWardens",
+        "buttonId": "MaievVaultOfTheWardens",
+        "icon": "storm_ui_icon_maiev_trait.png",
+        "charges": {
+          "countMax": 1,
+          "countStart": 1,
+          "countUse": 1,
+          "recastCooldown": 0.75,
+          "isCountHidden": true
+        },
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "MaievUmbralBind|MaievUmbralBind|W": {
+      "Basic": [
+        {
+          "linkId": ":PASSIVE:|MaievUmbralBindPrimed|W",
+          "abilityId": ":PASSIVE:",
+          "buttonId": "MaievUmbralBindPrimed",
+          "icon": "storm_ui_icon_maiev_umbra_2.png",
+          "abilityType": "W"
+        }
+      ]
+    },
+    "MaievSpiritOfVengeance|MaievSpiritOfVengeance|E": {
+      "Basic": [
+        {
+          "linkId": "MaievSpiritOfVengeanceBlink|MaievSpiritOfVengeanceBlink|E",
+          "abilityId": "MaievSpiritOfVengeanceBlink",
+          "buttonId": "MaievSpiritOfVengeanceBlink",
+          "icon": "storm_ui_icon_maiev_rush_2.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "E"
+        }
+      ]
+    },
+    "MaievContainmentDisc|MaievContainmentDisc|Heroic": {
+      "Heroic": [
+        {
+          "linkId": "MaievContainmentDiscContain|MaievContainmentDiscContain|Heroic",
+          "abilityId": "MaievContainmentDiscContain",
+          "buttonId": "MaievContainmentDiscContain",
+          "icon": "storm_ui_icon_maiev_heroic_1_b.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Heroic"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "MaievFanOfKnivesNaishasMemento|MaievFanOfKnivesNaishasMemento|Active|Level1": {
+      "Activable": [
+        {
+          "linkId": "MaievFanOfKnivesNaishasMemento|MaievFanOfKnivesNaishasMemento|Active",
+          "abilityId": "MaievFanOfKnivesNaishasMemento",
+          "buttonId": "MaievFanOfKnivesNaishasMemento",
+          "icon": "storm_ui_icon_maiev_memento.png",
+          "charges": {
+            "countMax": 1,
+            "countStart": 1,
+            "countUse": 1,
+            "isCountHidden": true
+          },
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "MaievShadowOrbHuntress|MaievShadowOrbHuntress|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "MaievShadowOrbHuntress|MaievShadowOrbHuntress|Active",
+          "abilityId": "MaievShadowOrbHuntress",
+          "buttonId": "MaievShadowOrbHuntress",
+          "icon": "storm_ui_icon_maiev_shadoworb_relentless.png",
+          "charges": {
+            "countMax": 10,
+            "countStart": 10,
+            "countUse": 10,
+            "isCountHidden": true
+          },
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "MaievShadowOrbShadowStrike|MaievShadowOrbShadowStrike|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "MaievShadowOrbShadowStrike|MaievShadowOrbShadowStrike|Active",
+          "abilityId": "MaievShadowOrbShadowStrike",
+          "buttonId": "MaievShadowOrbShadowStrike",
+          "icon": "storm_ui_icon_maiev_shadoworb_strike.png",
+          "charges": {
+            "countMax": 10,
+            "countStart": 10,
+            "countUse": 10,
+            "isCountHidden": true
+          },
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "MaievSpiritOfVengeanceShadowOrbVengeance|MaievSpiritOfVengeanceShadowOrbVengeance|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "MaievSpiritOfVengeanceShadowOrbVengeance|MaievSpiritOfVengeanceShadowOrbVengeance|Active",
+          "abilityId": "MaievSpiritOfVengeanceShadowOrbVengeance",
+          "buttonId": "MaievSpiritOfVengeanceShadowOrbVengeance",
+          "icon": "storm_ui_icon_maiev_shadoworb_vengeance.png",
+          "charges": {
+            "countMax": 5,
+            "countStart": 5,
+            "countUse": 5,
+            "isCountHidden": true
+          },
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "MaievUmbralBindBondsOfJustice|MaievUmbralBindBondsOfJustice|W|Level1",
+        "talentId": "MaievUmbralBindBondsOfJustice",
+        "buttonId": "MaievUmbralBindBondsOfJustice",
+        "abilityId": "MaievUmbralBind",
+        "icon": "storm_ui_icon_maiev_umbra_1.png",
+        "abilityType": "W",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|MaievUmbralBindPrimed|W",
+          "MaievUmbralBind|MaievUmbralBind|W"
+        ]
+      },
+      {
+        "linkId": "MaievUmbralBindPursuitOfVengeance|MaievUmbralBindPursuitOfVengeance|W|Level1",
+        "talentId": "MaievUmbralBindPursuitOfVengeance",
+        "buttonId": "MaievUmbralBindPursuitOfVengeance",
+        "abilityId": "MaievUmbralBind",
+        "icon": "storm_ui_icon_maiev_pursuit_vengeance.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|MaievUmbralBindPrimed|W",
+          "MaievUmbralBind|MaievUmbralBind|W"
+        ]
+      },
+      {
+        "linkId": "MaievFanOfKnivesNaishasMemento|MaievFanOfKnivesNaishasMemento|Active|Level1",
+        "talentId": "MaievFanOfKnivesNaishasMemento",
+        "buttonId": "MaievFanOfKnivesNaishasMemento",
+        "abilityId": "MaievFanOfKnivesNaishasMemento",
+        "icon": "storm_ui_icon_maiev_memento.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "MaievFanOfKnives|MaievFanOfKnives|Q"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "MaievFanOfKnivesPinDown|MaievFanOfKnivesPinDown|Q|Level4",
+        "talentId": "MaievFanOfKnivesPinDown",
+        "buttonId": "MaievFanOfKnivesPinDown",
+        "abilityId": "MaievFanOfKnives",
+        "icon": "storm_ui_icon_maiev_knives.png",
+        "abilityType": "Q",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MaievFanOfKnives|MaievFanOfKnives|Q"
+        ]
+      },
+      {
+        "linkId": "MaievFanOfKnivesBladeDance|MaievFanOfKnivesBladeDance|Q|Level4",
+        "talentId": "MaievFanOfKnivesBladeDance",
+        "buttonId": "MaievFanOfKnivesBladeDance",
+        "abilityId": "MaievFanOfKnives",
+        "icon": "storm_ui_icon_maiev_knives_2.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "MaievFanOfKnives|MaievFanOfKnives|Q"
+        ]
+      },
+      {
+        "linkId": "MaievSpiritOfVengeanceSuddenVengeance|MaievSpiritOfVengeanceSuddenVengeance|E|Level4",
+        "talentId": "MaievSpiritOfVengeanceSuddenVengeance",
+        "buttonId": "MaievSpiritOfVengeanceSuddenVengeance",
+        "abilityId": "MaievSpiritOfVengeance",
+        "icon": "storm_ui_icon_maiev_rush_2.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "MaievSpiritOfVengeance|MaievSpiritOfVengeance|E",
+          "MaievSpiritOfVengeanceBlink|MaievSpiritOfVengeanceBlink|E"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "MaievFanOfKnivesElunesWrath|MaievFanOfKnivesElunesWrath|Q|Level7",
+        "talentId": "MaievFanOfKnivesElunesWrath",
+        "buttonId": "MaievFanOfKnivesElunesWrath",
+        "abilityId": "MaievFanOfKnives",
+        "icon": "storm_ui_icon_maiev_knives.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MaievFanOfKnives|MaievFanOfKnives|Q"
+        ]
+      },
+      {
+        "linkId": "MaievUmbralBindBondsOfCorruption|MaievUmbralBindBondsOfCorruption|W|Level7",
+        "talentId": "MaievUmbralBindBondsOfCorruption",
+        "buttonId": "MaievUmbralBindBondsOfCorruption",
+        "abilityId": "MaievUmbralBind",
+        "icon": "storm_ui_icon_maiev_orb_corruption.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|MaievUmbralBindPrimed|W",
+          "MaievUmbralBind|MaievUmbralBind|W"
+        ]
+      },
+      {
+        "linkId": "MaievSpiritOfVengeanceRuthlessSpirit|MaievSpiritOfVengeanceRuthlessSpirit|E|Level7",
+        "talentId": "MaievSpiritOfVengeanceRuthlessSpirit",
+        "buttonId": "MaievSpiritOfVengeanceRuthlessSpirit",
+        "abilityId": "MaievSpiritOfVengeance",
+        "icon": "storm_ui_icon_maiev_rush_1.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "MaievSpiritOfVengeance|MaievSpiritOfVengeance|E",
+          "MaievSpiritOfVengeanceBlink|MaievSpiritOfVengeanceBlink|E"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "MaievContainmentDisc|MaievContainmentDisc|Heroic|Level10",
+        "talentId": "MaievContainmentDisc",
+        "buttonId": "MaievContainmentDisc",
+        "abilityId": "MaievContainmentDisc",
+        "icon": "storm_ui_icon_maiev_heroic_1_a.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "MaievWardensCage|MaievWardensCage|Heroic|Level10",
+        "talentId": "MaievWardensCage",
+        "buttonId": "MaievWardensCage",
+        "abilityId": "MaievWardensCage",
+        "icon": "storm_ui_icon_maiev_heroic_2.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "MaievFanOfKnivesBladedArmor|MaievFanOfKnivesBladedArmor|Q|Level13",
+        "talentId": "MaievFanOfKnivesBladedArmor",
+        "buttonId": "MaievFanOfKnivesBladedArmor",
+        "abilityId": "MaievFanOfKnives",
+        "icon": "storm_ui_icon_maiev_knives.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MaievFanOfKnives|MaievFanOfKnives|Q"
+        ]
+      },
+      {
+        "linkId": "MaievUmbralBindChainGang|MaievUmbralBindChainGang|W|Level13",
+        "talentId": "MaievUmbralBindChainGang",
+        "buttonId": "MaievUmbralBindChainGang",
+        "abilityId": "MaievUmbralBind",
+        "icon": "storm_ui_icon_maiev_umbra_1.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|MaievUmbralBindPrimed|W",
+          "MaievUmbralBind|MaievUmbralBind|W"
+        ]
+      },
+      {
+        "linkId": "MaievSpiritOfVengeanceShadowArmor|MaievSpiritOfVengeanceShadowArmor|E|Level13",
+        "talentId": "MaievSpiritOfVengeanceShadowArmor",
+        "buttonId": "MaievSpiritOfVengeanceShadowArmor",
+        "abilityId": "MaievSpiritOfVengeance",
+        "icon": "storm_ui_icon_maiev_rush_2.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "MaievSpiritOfVengeance|MaievSpiritOfVengeance|E",
+          "MaievSpiritOfVengeanceBlink|MaievSpiritOfVengeanceBlink|E"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "MaievSpiritOfVengeanceVengefulKnives|MaievSpiritOfVengeanceVengefulKnives|Q|Level16",
+        "talentId": "MaievSpiritOfVengeanceVengefulKnives",
+        "buttonId": "MaievSpiritOfVengeanceVengefulKnives",
+        "abilityId": "MaievFanOfKnives",
+        "icon": "storm_ui_icon_maiev_knives.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "MaievFanOfKnives|MaievFanOfKnives|Q"
+        ]
+      },
+      {
+        "linkId": "MaievUmbralBindCruelChain|MaievUmbralBindCruelChain|W|Level16",
+        "talentId": "MaievUmbralBindCruelChain",
+        "buttonId": "MaievUmbralBindCruelChain",
+        "abilityId": "MaievUmbralBind",
+        "icon": "storm_ui_icon_maiev_umbra_1.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|MaievUmbralBindPrimed|W",
+          "MaievUmbralBind|MaievUmbralBind|W"
+        ]
+      },
+      {
+        "linkId": "MaievArmoredAssault|MaievArmoredAssault|Passive|Level16",
+        "talentId": "MaievArmoredAssault",
+        "buttonId": "MaievArmoredAssault",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_maiev_heavy_strikes.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "MaievSpiritOfVengeanceShadowOrbVengeance|MaievSpiritOfVengeanceShadowOrbVengeance|Active|Level20",
+        "talentId": "MaievSpiritOfVengeanceShadowOrbVengeance",
+        "buttonId": "MaievSpiritOfVengeanceShadowOrbVengeance",
+        "abilityId": "MaievSpiritOfVengeanceShadowOrbVengeance",
+        "icon": "storm_ui_icon_maiev_shadoworb_vengeance.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 1
+      },
+      {
+        "linkId": "MaievShadowOrbHuntress|MaievShadowOrbHuntress|Active|Level20",
+        "talentId": "MaievShadowOrbHuntress",
+        "buttonId": "MaievShadowOrbHuntress",
+        "abilityId": "MaievShadowOrbHuntress",
+        "icon": "storm_ui_icon_maiev_shadoworb_relentless.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2
+      },
+      {
+        "linkId": "MaievShadowOrbShadowStrike|MaievShadowOrbShadowStrike|Active|Level20",
+        "talentId": "MaievShadowOrbShadowStrike",
+        "buttonId": "MaievShadowOrbShadowStrike",
+        "abilityId": "MaievShadowOrbShadowStrike",
+        "icon": "storm_ui_icon_maiev_shadoworb_strike.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ]
+  },
+  "sheet": "sheets/Maiev.webp",
+  "icons": {
+    "storm_ui_icon_maiev_knives.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_maiev_umbra_1.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_maiev_rush_1.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_maiev_heroic_1_a.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_maiev_heroic_2.png": [
+      512,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_maiev_trait.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_mount.png": [
+      128,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      256,
+      128,
+      111,
+      71
+    ],
+    "storm_ui_icon_maiev_umbra_2.png": [
+      384,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_maiev_rush_2.png": [
+      512,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_maiev_heroic_1_b.png": [
+      0,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_cancel_mount.png": [
+      128,
+      256,
+      76,
+      48
+    ],
+    "storm_ui_icon_maiev_memento.png": [
+      256,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_maiev_shadoworb_relentless.png": [
+      384,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_maiev_shadoworb_strike.png": [
+      512,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_maiev_shadoworb_vengeance.png": [
+      0,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_maiev_pursuit_vengeance.png": [
+      128,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_maiev_knives_2.png": [
+      256,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_maiev_orb_corruption.png": [
+      384,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_maiev_heavy_strikes.png": [
+      512,
+      384,
+      128,
+      128
+    ]
+  }
+}

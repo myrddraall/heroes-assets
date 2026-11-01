@@ -1,0 +1,594 @@
+{
+  "id": "NexusHunter",
+  "unitId": "HeroNexusHunter",
+  "hyperlinkId": "Qhira",
+  "attributeId": "NXHU",
+  "franchise": "Classic",
+  "rarity": "Legendary",
+  "releaseDate": "2019-08-06",
+  "isMelee": false,
+  "gender": "Female",
+  "radius": 0.625,
+  "innerRadius": 0.625,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 6,
+    "damage": 8,
+    "survivability": 7,
+    "utility": 6
+  },
+  "life": {
+    "amount": 2000,
+    "scale": 0.04,
+    "regenRate": 4.168,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "ChanneledAutoAttacker",
+    "Escaper",
+    "Ganker",
+    "Overconfident",
+    "Roamer",
+    "RoleAutoAttacker",
+    "SoloLaner"
+  ],
+  "weapons": [
+    {
+      "nameId": "NexusHunterHeroWeapon",
+      "isDisabled": false,
+      "range": 2.25,
+      "minimumRange": 0,
+      "period": 1,
+      "damage": 100,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "NexusHunterMadAxe19",
+    "NexusHunterToys19"
+  ],
+  "variationSkinIds": [
+    "NexusHunterVar1",
+    "NexusHunterVar2",
+    "NexusHunterVar3",
+    "NexusHunterVar4"
+  ],
+  "voiceLineIds": [
+    "NexusHunterBase_VoiceLineFive",
+    "NexusHunterBase_VoiceLineFour",
+    "NexusHunterBase_VoiceLineOne",
+    "NexusHunterBase_VoiceLineThree",
+    "NexusHunterBase_VoiceLineTwo"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "NexusHunterCarnage|NexusHunterCarnage|Q",
+        "abilityId": "NexusHunterCarnage",
+        "buttonId": "NexusHunterCarnage",
+        "icon": "storm_ui_icon_nexushunter_q.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "NexusHunterBloodRage|NexusHunterBloodRage|W",
+        "abilityId": "NexusHunterBloodRage",
+        "buttonId": "NexusHunterBloodRage",
+        "icon": "storm_ui_icon_nexushunter_w.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "NexusHunterRevolvingSweep|NexusHunterRevolvingSweep|E",
+        "abilityId": "NexusHunterRevolvingSweep",
+        "buttonId": "NexusHunterRevolvingSweep",
+        "icon": "storm_ui_icon_nexushunter_e.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "NexusHunterUnrelentingStrikes|NexusHunterUnrelentingStrikes|Heroic",
+        "abilityId": "NexusHunterUnrelentingStrikes",
+        "buttonId": "NexusHunterUnrelentingStrikes",
+        "icon": "storm_ui_icon_nexushunter_r1.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "NexusHunterFinalStrikeActivate|NexusHunterFinalStrike|Heroic",
+        "abilityId": "NexusHunterFinalStrikeActivate",
+        "buttonId": "NexusHunterFinalStrike",
+        "icon": "storm_ui_icon_nexushunter_r2.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": "NexusHunterGrapplingHook|NexusHunterGrapplingHook|Trait",
+        "abilityId": "NexusHunterGrapplingHook",
+        "buttonId": "NexusHunterGrapplingHook",
+        "icon": "storm_ui_icon_nexushunter_d.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "NexusHunterRevolvingSweep|NexusHunterRevolvingSweep|E": {
+      "Basic": [
+        {
+          "linkId": "NexusHunterRevolvingSweepSecondary|NexusHunterRevolvingSweepSecondary|E",
+          "abilityId": "NexusHunterRevolvingSweepSecondary",
+          "buttonId": "NexusHunterRevolvingSweepSecondary",
+          "icon": "storm_ui_icon_nexushunter_e.png",
+          "toggleCooldown": 0.25,
+          "abilityType": "E"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "NexusHunterCarnageMaximumEffort|NexusHunterCarnageMaximumEffort|Q|Level1",
+        "talentId": "NexusHunterCarnageMaximumEffort",
+        "buttonId": "NexusHunterCarnageMaximumEffort",
+        "abilityId": "NexusHunterCarnage",
+        "icon": "storm_ui_icon_nexushunter_q.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "NexusHunterCarnage|NexusHunterCarnage|Q"
+        ]
+      },
+      {
+        "linkId": "NexusHunterFatalWounds|NexusHunterFatalWounds|W|Level1",
+        "talentId": "NexusHunterFatalWounds",
+        "buttonId": "NexusHunterFatalWounds",
+        "abilityId": "NexusHunterBloodRage",
+        "icon": "storm_ui_icon_nexushunter_w.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "NexusHunterBloodRage|NexusHunterBloodRage|W"
+        ]
+      },
+      {
+        "linkId": "NexusHunterFinishingTouch|NexusHunterFinishingTouch|Passive|Level1",
+        "talentId": "NexusHunterFinishingTouch",
+        "buttonId": "NexusHunterFinishingTouch",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_nexushunter_passive.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "NexusHunterGrapplingHook|NexusHunterGrapplingHook|Trait"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "NexusHunterUpstage|NexusHunterUpstage|W|Level4",
+        "talentId": "NexusHunterUpstage",
+        "buttonId": "NexusHunterUpstage",
+        "abilityId": "NexusHunterBloodRage",
+        "icon": "storm_ui_icon_nexushunter_w.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "NexusHunterBloodRage|NexusHunterBloodRage|W"
+        ]
+      },
+      {
+        "linkId": "NexusHunterEnsnaringSwing|NexusHunterEnsnaringSwing|E|Level4",
+        "talentId": "NexusHunterEnsnaringSwing",
+        "buttonId": "NexusHunterEnsnaringSwing",
+        "abilityId": "NexusHunterRevolvingSweep",
+        "icon": "storm_ui_icon_nexushunter_e.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "NexusHunterRevolvingSweep|NexusHunterRevolvingSweep|E",
+          "NexusHunterRevolvingSweepSecondary|NexusHunterRevolvingSweepSecondary|E"
+        ]
+      },
+      {
+        "linkId": "NexusHunterBloodRageYourPainMyGain|NexusHunterBloodRageYourPainMyGain|Passive|Level4",
+        "talentId": "NexusHunterBloodRageYourPainMyGain",
+        "buttonId": "NexusHunterBloodRageYourPainMyGain",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_nexushunter_passive.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "NexusHunterGrapplingHook|NexusHunterGrapplingHook|Trait"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "NexusHunterTheThirst|NexusHunterTheThirst|Q|Level7",
+        "talentId": "NexusHunterTheThirst",
+        "buttonId": "NexusHunterTheThirst",
+        "abilityId": "NexusHunterCarnage",
+        "icon": "storm_ui_icon_nexushunter_q.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "NexusHunterCarnage|NexusHunterCarnage|Q"
+        ]
+      },
+      {
+        "linkId": "NexusHunterBloodRageHealmonger|NexusHunterBloodRageHealmonger|W|Level7",
+        "talentId": "NexusHunterBloodRageHealmonger",
+        "buttonId": "NexusHunterBloodRageHealmonger",
+        "abilityId": "NexusHunterBloodRage",
+        "icon": "storm_ui_icon_nexushunter_w.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "NexusHunterBloodRage|NexusHunterBloodRage|W"
+        ]
+      },
+      {
+        "linkId": "NexusHunterSiphoningLink|NexusHunterSiphoningLink|E|Level7",
+        "talentId": "NexusHunterSiphoningLink",
+        "buttonId": "NexusHunterSiphoningLink",
+        "abilityId": "NexusHunterRevolvingSweep",
+        "icon": "storm_ui_icon_nexushunter_e.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "NexusHunterRevolvingSweep|NexusHunterRevolvingSweep|E",
+          "NexusHunterRevolvingSweepSecondary|NexusHunterRevolvingSweepSecondary|E"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "NexusHunterUnrelentingStrikes|NexusHunterUnrelentingStrikes|Heroic|Level10",
+        "talentId": "NexusHunterUnrelentingStrikes",
+        "buttonId": "NexusHunterUnrelentingStrikes",
+        "abilityId": "NexusHunterUnrelentingStrikes",
+        "icon": "storm_ui_icon_nexushunter_r1.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "NexusHunterFinalStrike|NexusHunterFinalStrike|Heroic|Level10",
+        "talentId": "NexusHunterFinalStrike",
+        "buttonId": "NexusHunterFinalStrike",
+        "abilityId": "NexusHunterFinalStrikeActivate",
+        "icon": "storm_ui_icon_nexushunter_r2.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "NexusHunterChainsaw|NexusHunterChainsaw|Q|Level13",
+        "talentId": "NexusHunterChainsaw",
+        "buttonId": "NexusHunterChainsaw",
+        "abilityId": "NexusHunterCarnage",
+        "icon": "storm_ui_icon_nexushunter_q.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "NexusHunterCarnage|NexusHunterCarnage|Q"
+        ]
+      },
+      {
+        "linkId": "NexusHunterPulsingPain|NexusHunterPulsingPain|E|Level13",
+        "talentId": "NexusHunterPulsingPain",
+        "buttonId": "NexusHunterPulsingPain",
+        "abilityId": "NexusHunterRevolvingSweep",
+        "icon": "storm_ui_icon_nexushunter_e.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "NexusHunterRevolvingSweep|NexusHunterRevolvingSweep|E",
+          "NexusHunterRevolvingSweepSecondary|NexusHunterRevolvingSweepSecondary|E"
+        ]
+      },
+      {
+        "linkId": "NexusHunterTheHunted|NexusHunterTheHunted|Passive|Level13",
+        "talentId": "NexusHunterTheHunted",
+        "buttonId": "NexusHunterTheHunted",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_nexushunter_passive.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "NexusHunterGrapplingHook|NexusHunterGrapplingHook|Trait"
+        ]
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "NexusHunterRevolvingSweepBoomingKick|NexusHunterRevolvingSweepBoomingKick|E|Level16",
+        "talentId": "NexusHunterRevolvingSweepBoomingKick",
+        "buttonId": "NexusHunterRevolvingSweepBoomingKick",
+        "abilityId": "NexusHunterRevolvingSweep",
+        "icon": "storm_ui_icon_nexushunter_e.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "NexusHunterRevolvingSweep|NexusHunterRevolvingSweep|E",
+          "NexusHunterRevolvingSweepSecondary|NexusHunterRevolvingSweepSecondary|E"
+        ]
+      },
+      {
+        "linkId": "NexusHunterRevolvingSweepLingeringAilment|NexusHunterRevolvingSweepLingeringAilment|E|Level16",
+        "talentId": "NexusHunterRevolvingSweepLingeringAilment",
+        "buttonId": "NexusHunterRevolvingSweepLingeringAilment",
+        "abilityId": "NexusHunterRevolvingSweep",
+        "icon": "storm_ui_icon_nexushunter_e_alt_1.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "NexusHunterRevolvingSweep|NexusHunterRevolvingSweep|E",
+          "NexusHunterRevolvingSweepSecondary|NexusHunterRevolvingSweepSecondary|E"
+        ]
+      },
+      {
+        "linkId": "NexusHunterRevolvingSweepSwingLifeAway|NexusHunterRevolvingSweepSwingLifeAway|E|Level16",
+        "talentId": "NexusHunterRevolvingSweepSwingLifeAway",
+        "buttonId": "NexusHunterRevolvingSweepSwingLifeAway",
+        "abilityId": "NexusHunterRevolvingSweep",
+        "icon": "storm_ui_icon_nexushunter_e_alt_2.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "NexusHunterRevolvingSweep|NexusHunterRevolvingSweep|E",
+          "NexusHunterRevolvingSweepSecondary|NexusHunterRevolvingSweepSecondary|E"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "NexusHunterUnrelentingStrikesSilentKiller|NexusHunterUnrelentingStrikesSilentKiller|Heroic|Level20",
+        "talentId": "NexusHunterUnrelentingStrikesSilentKiller",
+        "buttonId": "NexusHunterUnrelentingStrikesSilentKiller",
+        "abilityId": "NexusHunterUnrelentingStrikes",
+        "icon": "storm_ui_icon_nexushunter_r1.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "NexusHunterUnrelentingStrikes|NexusHunterUnrelentingStrikes|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "NexusHunterUnrelentingStrikes"
+        ]
+      },
+      {
+        "linkId": "NexusHunterFinalStrikeUnleashedPotential|NexusHunterFinalStrikeUnleashedPotential|Heroic|Level20",
+        "talentId": "NexusHunterFinalStrikeUnleashedPotential",
+        "buttonId": "NexusHunterFinalStrikeUnleashedPotential",
+        "abilityId": "NexusHunterFinalStrikeActivate",
+        "icon": "storm_ui_icon_nexushunter_r2.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "NexusHunterFinalStrikeActivate|NexusHunterFinalStrike|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "NexusHunterFinalStrike"
+        ]
+      },
+      {
+        "linkId": "NexusHunterGrapplingHookUtilityBelt|NexusHunterGrapplingHookUtilityBelt|Trait|Level20",
+        "talentId": "NexusHunterGrapplingHookUtilityBelt",
+        "buttonId": "NexusHunterGrapplingHookUtilityBelt",
+        "abilityId": "NexusHunterGrapplingHook",
+        "icon": "storm_ui_icon_nexushunter_d.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "NexusHunterGrapplingHook|NexusHunterGrapplingHook|Trait"
+        ]
+      },
+      {
+        "linkId": "NexusHunterHuntersVengeanceNoSanctuary|NexusHunterHuntersVengeanceNoSanctuary|Passive|Level20",
+        "talentId": "NexusHunterHuntersVengeanceNoSanctuary",
+        "buttonId": "NexusHunterHuntersVengeanceNoSanctuary",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_nexushunter_passive_alt_1.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4,
+        "tooltipAbilityLinkIds": [
+          "NexusHunterGrapplingHook|NexusHunterGrapplingHook|Trait"
+        ]
+      }
+    ]
+  },
+  "sheet": "sheets/NexusHunter.webp",
+  "icons": {
+    "storm_ui_icon_nexushunter_q.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_nexushunter_w.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_nexushunter_e.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_nexushunter_r1.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_nexushunter_r2.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_nexushunter_d.png": [
+      128,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_mount.png": [
+      256,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      384,
+      128,
+      111,
+      71
+    ],
+    "storm_ui_icon_generic_cancel_mount.png": [
+      0,
+      256,
+      76,
+      48
+    ],
+    "storm_ui_icon_nexushunter_passive.png": [
+      128,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_nexushunter_e_alt_1.png": [
+      256,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_nexushunter_e_alt_2.png": [
+      384,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_nexushunter_passive_alt_1.png": [
+      0,
+      384,
+      128,
+      128
+    ]
+  }
+}

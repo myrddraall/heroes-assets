@@ -1,9 +1,13 @@
 name: Create Release PR
 
+# Runs on each push, or when update.yml dispatches it after its own push: pushes made with a
+# workflow's own token start no workflows, dispatches do.
+
 on:
   push:
     branches-ignore:
       - 'release/**'
+  workflow_dispatch:
 
 jobs:
   create-release-pr:

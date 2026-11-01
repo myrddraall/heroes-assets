@@ -1,0 +1,728 @@
+{
+  "id": "Zeratul",
+  "unitId": "HeroZeratul",
+  "hyperlinkId": "Zeratul",
+  "attributeId": "Zera",
+  "franchise": "Starcraft",
+  "rarity": "Legendary",
+  "releaseDate": "2014-03-13",
+  "isMelee": true,
+  "gender": "Male",
+  "radius": 0.75,
+  "innerRadius": 0.75,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 5,
+    "damage": 8,
+    "survivability": 6,
+    "utility": 6
+  },
+  "life": {
+    "amount": 1622,
+    "scale": 0.04,
+    "regenRate": 3.379,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "EnergyImportant",
+    "Escaper",
+    "Ganker",
+    "Helper",
+    "Overconfident",
+    "RoleAutoAttacker",
+    "RoleCaster"
+  ],
+  "summonedUnitIds": [
+    "ZeratulBlinkWormholeTalentUnit",
+    "ZeratulVoidPrisonDome",
+    "ZeratulVoidPrisonDomeProtectivePrison"
+  ],
+  "weapons": [
+    {
+      "nameId": "HeroZeratul",
+      "isDisabled": false,
+      "range": 1.5,
+      "minimumRange": 0,
+      "period": 0.9,
+      "damage": 126,
+      "damageScale": 0.04
+    },
+    {
+      "nameId": "HeroZeratulShadowAssault",
+      "isDisabled": false,
+      "range": 0.75,
+      "minimumRange": 0,
+      "period": 0.9,
+      "damage": 126,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "ZeratulGem",
+    "ZeratulHighTemplar",
+    "ZeratulMummy",
+    "ZeratulRonin",
+    "ZeratulUltimate",
+    "ZeratulZergHunter"
+  ],
+  "variationSkinIds": [
+    "ZeratulArgent",
+    "ZeratulGreen"
+  ],
+  "voiceLineIds": [
+    "ZeratulBase_VoiceLine01",
+    "ZeratulBase_VoiceLine02",
+    "ZeratulBase_VoiceLine03",
+    "ZeratulBase_VoiceLine04",
+    "ZeratulBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "ZeratulCleave|ZeratulCleave|Q",
+        "abilityId": "ZeratulCleave",
+        "buttonId": "ZeratulCleave",
+        "icon": "storm_ui_icon_zeratul_cleave.png",
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "ZeratulSingularitySpike|ZeratulSingularitySpike|W",
+        "abilityId": "ZeratulSingularitySpike",
+        "buttonId": "ZeratulSingularitySpike",
+        "icon": "storm_ui_icon_zeratul_singularityspike.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "ZeratulBlinkStorm|ZeratulBlink|E",
+        "abilityId": "ZeratulBlinkStorm",
+        "buttonId": "ZeratulBlink",
+        "icon": "storm_ui_icon_zeratul_blink.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "ZeratulMightOfTheNerazimDummy|ZeratulMightOfTheNerazimPassive|Heroic",
+        "abilityId": "ZeratulMightOfTheNerazimDummy",
+        "buttonId": "ZeratulMightOfTheNerazimPassive",
+        "icon": "storm_ui_icon_zeratul_mightofnerazim.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "ZeratulVoidPrison|ZeratulVoidPrison|Heroic",
+        "abilityId": "ZeratulVoidPrison",
+        "buttonId": "ZeratulVoidPrison",
+        "icon": "storm_ui_icon_zeratul_voidprison.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": ":PASSIVE:|ZeratulPermanentCloak|Trait",
+        "abilityId": ":PASSIVE:",
+        "buttonId": "ZeratulPermanentCloak",
+        "icon": "storm_ui_icon_zeratul_cloak.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Activable": [
+      {
+        "linkId": "VorpalBladeBlink|ZeratulVorpalBladeHotbar|Active",
+        "abilityId": "VorpalBladeBlink",
+        "buttonId": "ZeratulVorpalBladeHotbar",
+        "icon": "storm_ui_icon_zeratul_vorpalblade.png",
+        "charges": {
+          "countMax": 1,
+          "countStart": 1,
+          "countUse": 1,
+          "recastCooldown": 0.5,
+          "isCountHidden": true
+        },
+        "abilityType": "Active"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "ZeratulMightOfTheNerazimDummy|ZeratulMightOfTheNerazimPassive|Heroic": {
+      "Heroic": [
+        {
+          "linkId": "ZeratulCleaveMightOfTheNerazim|ZeratulCleaveMightoftheNerazim|Heroic",
+          "abilityId": "ZeratulCleaveMightOfTheNerazim",
+          "buttonId": "ZeratulCleaveMightoftheNerazim",
+          "icon": "storm_ui_icon_zeratul_cleave_nerazim.png",
+          "abilityType": "Heroic"
+        },
+        {
+          "linkId": "ZeratulSingularitySpikeMightOfTheNerazim|ZeratulSingularitySpikeMightoftheNerazim|Heroic",
+          "abilityId": "ZeratulSingularitySpikeMightOfTheNerazim",
+          "buttonId": "ZeratulSingularitySpikeMightoftheNerazim",
+          "icon": "storm_ui_icon_zeratul_singularityspike_nerazim.png",
+          "abilityType": "Heroic"
+        },
+        {
+          "linkId": "ZeratulBlinkMightOfTheNerazim|ZeratulBlinkMightoftheNerazim|Heroic",
+          "abilityId": "ZeratulBlinkMightOfTheNerazim",
+          "buttonId": "ZeratulBlinkMightoftheNerazim",
+          "icon": "storm_ui_icon_zeratul_blink_nerazim.png",
+          "abilityType": "Heroic"
+        }
+      ]
+    },
+    "ZeratulVoidPrison|ZeratulVoidPrison|Heroic": {
+      "Heroic": [
+        {
+          "linkId": "VoidPrisonCancel|ZeratulVoidPrisonCancel|Heroic",
+          "abilityId": "VoidPrisonCancel",
+          "buttonId": "ZeratulVoidPrisonCancel",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "abilityType": "Heroic"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "HeroGenericSpellShield|GenericSpellShieldItemEnabled|Active": {
+      "Activable": [
+        {
+          "linkId": "HeroGenericSpellShield|GenericSpellShieldItemDisabled|Active",
+          "abilityId": "HeroGenericSpellShield",
+          "buttonId": "GenericSpellShieldItemDisabled",
+          "icon": "storm_ui_icon_talent_spellshield.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "ZeratulDarknessDescends|ZeratulDarknessDescends|Active|Level4": {
+      "Activable": [
+        {
+          "linkId": "ZeratulDarknessDescendsActive|ZeratulDarknessDescends|Active",
+          "abilityId": "ZeratulDarknessDescendsActive",
+          "buttonId": "ZeratulDarknessDescends",
+          "icon": "storm_ui_icon_zeratul_shadowassault.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "ZeratulSeekerInTheDark|ZeratulSeekerInTheDark|W|Level7": {
+      "Basic": [
+        {
+          "linkId": "ZeratulSeekerInTheDark|ZeratulSeekerInTheDarkActivate|W",
+          "abilityId": "ZeratulSeekerInTheDark",
+          "buttonId": "ZeratulSeekerInTheDarkActivate",
+          "icon": "storm_ui_icon_zeratul_singularityspike.png",
+          "toggleCooldown": 0.125,
+          "abilityType": "W"
+        }
+      ]
+    },
+    "ZeratulWormhole|ZeratulWormholeTalent|E|Level7": {
+      "Basic": [
+        {
+          "linkId": "ZeratulWormhole|ZeratulWormhole|E",
+          "abilityId": "ZeratulWormhole",
+          "buttonId": "ZeratulWormhole",
+          "icon": "storm_ui_icon_zeratul_blink.png",
+          "toggleCooldown": 0.0625,
+          "abilityType": "E"
+        }
+      ]
+    },
+    "GenericTalentSpellShield|GenericSpellShieldTalent|Active|Level13": {
+      "Activable": [
+        {
+          "linkId": "HeroGenericSpellShield|GenericSpellShieldItemEnabled|Active",
+          "abilityId": "HeroGenericSpellShield",
+          "buttonId": "GenericSpellShieldItemEnabled",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "ZeratulMasteryGreaterCleaveCleave|ZeratulCleaveGreaterCleaveTalent|Q|Level1",
+        "talentId": "ZeratulMasteryGreaterCleaveCleave",
+        "buttonId": "ZeratulCleaveGreaterCleaveTalent",
+        "abilityId": "ZeratulCleave",
+        "icon": "storm_ui_icon_zeratul_cleave.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ZeratulCleave|ZeratulCleave|Q"
+        ]
+      },
+      {
+        "linkId": "ZeratulShadowHunter|ZeratulShadowHunter|E|Level1",
+        "talentId": "ZeratulShadowHunter",
+        "buttonId": "ZeratulShadowHunter",
+        "abilityId": "ZeratulBlinkStorm",
+        "icon": "storm_ui_icon_zeratul_blink.png",
+        "abilityType": "E",
+        "isQuest": true,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ZeratulBlinkStorm|ZeratulBlink|E"
+        ]
+      },
+      {
+        "linkId": "ZeratulMoveUnseen|ZeratulMoveUnseen|Trait|Level1",
+        "talentId": "ZeratulMoveUnseen",
+        "buttonId": "ZeratulMoveUnseen",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_zeratul_cloak.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|ZeratulPermanentCloak|Trait"
+        ]
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "ZeratulRendingCleave|ZeratulCleaveRendingCleaveTalent|Q|Level4",
+        "talentId": "ZeratulRendingCleave",
+        "buttonId": "ZeratulCleaveRendingCleaveTalent",
+        "abilityId": "ZeratulCleave",
+        "icon": "storm_ui_icon_zeratul_cleave.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ZeratulCleave|ZeratulCleave|Q"
+        ]
+      },
+      {
+        "linkId": "ZeratulPsionicStrength|ZeratulPsionicStrength|Passive|Level4",
+        "talentId": "ZeratulPsionicStrength",
+        "buttonId": "ZeratulPsionicStrength",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_abilitytalent_damage.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2
+      },
+      {
+        "linkId": "ZeratulDarknessDescends|ZeratulDarknessDescends|Active|Level4",
+        "talentId": "ZeratulDarknessDescends",
+        "buttonId": "ZeratulDarknessDescends",
+        "abilityId": "ZeratulDarknessDescendsActive",
+        "icon": "storm_ui_icon_zeratul_shadowassault.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "ZeratulWormhole|ZeratulWormholeTalent|E|Level7",
+        "talentId": "ZeratulWormhole",
+        "buttonId": "ZeratulWormholeTalent",
+        "abilityId": "ZeratulBlinkStorm",
+        "icon": "storm_ui_icon_zeratul_blink.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ZeratulBlinkStorm|ZeratulBlink|E"
+        ]
+      },
+      {
+        "linkId": "ZeratulSeekerInTheDark|ZeratulSeekerInTheDark|W|Level7",
+        "talentId": "ZeratulSeekerInTheDark",
+        "buttonId": "ZeratulSeekerInTheDark",
+        "abilityId": "ZeratulSingularitySpike",
+        "icon": "storm_ui_icon_zeratul_singularityspike.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ZeratulSingularitySpike|ZeratulSingularitySpike|W"
+        ]
+      },
+      {
+        "linkId": "ZeratulWarpSkirmisherTalent|ZeratulWarpSkirmisher|Passive|Level7",
+        "talentId": "ZeratulWarpSkirmisherTalent",
+        "buttonId": "ZeratulWarpSkirmisher",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_zeratul_vorpalblade.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "VorpalBladeBlink|ZeratulVorpalBladeHotbar|Active"
+        ]
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "ZeratulMightOfTheNerazim|ZeratulMightOfTheNerazimPassive|Heroic|Level10",
+        "talentId": "ZeratulMightOfTheNerazim",
+        "buttonId": "ZeratulMightOfTheNerazimPassive",
+        "abilityId": "ZeratulMightOfTheNerazimDummy",
+        "icon": "storm_ui_icon_zeratul_mightofnerazim.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "ZeratulHeroicAbilityVoidPrison|ZeratulVoidPrison|Heroic|Level10",
+        "talentId": "ZeratulHeroicAbilityVoidPrison",
+        "buttonId": "ZeratulVoidPrison",
+        "abilityId": "ZeratulVoidPrison",
+        "icon": "storm_ui_icon_zeratul_voidprison.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "ZeratulShroudofAdun|ZeratulShroudofAdun|Trait|Level13",
+        "talentId": "ZeratulShroudofAdun",
+        "buttonId": "ZeratulShroudofAdun",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_zeratul_cloak.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|ZeratulPermanentCloak|Trait"
+        ]
+      },
+      {
+        "linkId": "ZeratulMendingStrikes|ZeratulMendingStrikes|Passive|Level13",
+        "talentId": "ZeratulMendingStrikes",
+        "buttonId": "ZeratulMendingStrikes",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_heal.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 2
+      },
+      {
+        "linkId": "GenericTalentSpellShield|GenericSpellShieldTalent|Active|Level13",
+        "talentId": "GenericTalentSpellShield",
+        "buttonId": "GenericSpellShieldTalent",
+        "abilityId": "HeroGenericSpellShield",
+        "icon": "storm_ui_icon_talent_spellshield.png",
+        "toggleCooldown": 0.5,
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "ZeratulMasterWarpBlade|ZeratulMasterWarpBlade|Passive|Level16",
+        "talentId": "ZeratulMasterWarpBlade",
+        "buttonId": "ZeratulMasterWarpBlade",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_damage.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|ZeratulPermanentCloak|Trait"
+        ]
+      },
+      {
+        "linkId": "ZeratulVoidSlash|ZeratulVoidSlashTalent|Q|Level16",
+        "talentId": "ZeratulVoidSlash",
+        "buttonId": "ZeratulVoidSlashTalent",
+        "abilityId": "ZeratulCleave",
+        "icon": "storm_ui_icon_zeratul_cleave.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ZeratulCleave|ZeratulCleave|Q"
+        ]
+      },
+      {
+        "linkId": "ZeratulSentencedtoDeath|ZeratulSentencedtoDeath|W|Level16",
+        "talentId": "ZeratulSentencedtoDeath",
+        "buttonId": "ZeratulSentencedtoDeath",
+        "abilityId": "ZeratulSingularitySpike",
+        "icon": "storm_ui_icon_zeratul_singularityspike.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "ZeratulSingularitySpike|ZeratulSingularitySpike|W"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "ZeratulTwilightFalls|ZeratulTwilightFalls|Heroic|Level20",
+        "talentId": "ZeratulTwilightFalls",
+        "buttonId": "ZeratulTwilightFalls",
+        "abilityId": "ZeratulMightOfTheNerazimDummy",
+        "icon": "storm_ui_icon_zeratul_mightofnerazim.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "ZeratulMightOfTheNerazimDummy|ZeratulMightOfTheNerazimPassive|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "ZeratulMightOfTheNerazim"
+        ]
+      },
+      {
+        "linkId": "ZeratulUnwaveringPressure|ZeratulUnwaveringPressure|W|Level20",
+        "talentId": "ZeratulUnwaveringPressure",
+        "buttonId": "ZeratulUnwaveringPressure",
+        "abilityId": "ZeratulSingularitySpike",
+        "icon": "storm_ui_icon_zeratul_singularityspike.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "ZeratulSingularitySpike|ZeratulSingularitySpike|W"
+        ]
+      },
+      {
+        "linkId": "ZeratulShadowStrideTalent|ZeratulShadowStrideTalent|Passive|Level20",
+        "talentId": "ZeratulShadowStrideTalent",
+        "buttonId": "ZeratulShadowStrideTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_zeratul_vorpalblade.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "VorpalBladeBlink|ZeratulVorpalBladeHotbar|Active"
+        ]
+      },
+      {
+        "linkId": "ZeratulShadowMending|ZeratulShadowMending|Passive|Level20",
+        "talentId": "ZeratulShadowMending",
+        "buttonId": "ZeratulShadowMending",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_abilitytalent_heal.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      }
+    ]
+  },
+  "sheet": "sheets/Zeratul.webp",
+  "icons": {
+    "storm_ui_icon_zeratul_cleave.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_zeratul_singularityspike.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_zeratul_blink.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_zeratul_mightofnerazim.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_zeratul_voidprison.png": [
+      512,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_zeratul_cloak.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_mount.png": [
+      128,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_zeratul_vorpalblade.png": [
+      256,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      384,
+      128,
+      111,
+      71
+    ],
+    "storm_ui_icon_zeratul_cleave_nerazim.png": [
+      512,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_zeratul_singularityspike_nerazim.png": [
+      0,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_zeratul_blink_nerazim.png": [
+      128,
+      256,
+      128,
+      128
+    ],
+    "hud_btn_bg_ability_cancel.png": [
+      256,
+      256,
+      97,
+      111
+    ],
+    "storm_ui_icon_generic_cancel_mount.png": [
+      384,
+      256,
+      76,
+      48
+    ],
+    "storm_ui_icon_talent_spellshield.png": [
+      512,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_zeratul_shadowassault.png": [
+      0,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_abilitytalent_damage.png": [
+      128,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_autoattack_heal.png": [
+      256,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_autoattack_damage.png": [
+      384,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_abilitytalent_heal.png": [
+      512,
+      384,
+      128,
+      128
+    ]
+  }
+}

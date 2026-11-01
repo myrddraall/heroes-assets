@@ -1,0 +1,205 @@
+{
+  "abilities": {
+    "BarbarianAncientSpear|BarbarianAncientSpear|Q": {
+      "cooldownText": "冷却时间：13秒",
+      "fullText": "扔出一柄长矛，将桑娅拉向第一个被击中的敌人，造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">173</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点伤害，并使其短暂昏迷。如果上古之矛击中敌人，则产生<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40</c>点怒气。",
+      "name": "上古之矛",
+      "shortText": "投掷一柄长矛，将自身拉向第一个被长矛击中的敌人，使其昏迷并造成伤害"
+    },
+    "BarbarianSeismicSlam|BarbarianSeismicSlam|W": {
+      "cooldownText": "冷却时间：1秒",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">怒气值：25</s>",
+      "fullText": "对目标敌人造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">176</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点伤害，并对目标身后的敌人造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">44</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点伤害。",
+      "name": "裂地斩",
+      "shortText": "对一名敌人造成伤害并对其后方的敌人造成溅射伤害"
+    },
+    "BarbarianWhirlwind|BarbarianWhirlwind|E": {
+      "cooldownText": "冷却时间：5秒",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">怒气值：40</s>",
+      "fullText": "在<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>秒内对附近敌人造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">138</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点伤害，并将造成伤害的<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>转化为生命值。对英雄的效果为三倍。",
+      "name": "旋风斩",
+      "shortText": "对附近敌人造成伤害并按伤害百分比恢复一定量生命值"
+    },
+    "BarbarianLeap|BarbarianLeap|Heroic": {
+      "cooldownText": "冷却时间：60秒",
+      "fullText": "腾空跃起，对周围敌人造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">135</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点伤害，并使其昏迷<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.25</c>秒。",
+      "name": "腾空斩",
+      "shortText": "向目标地点跳跃，造成伤害并使敌人昏迷"
+    },
+    "BarbarianWrathoftheBerserker|BarbarianWrathoftheBerserker|Heroic": {
+      "cooldownText": "冷却时间：60秒",
+      "fullText": "造成的伤害提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c>。桑娅受到的昏迷、定身和减速效果的持续时间缩短<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c>秒，并且每获得<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c>点怒气使持续时间延长<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>秒。",
+      "name": "狂战之怒",
+      "shortText": "提高伤害并降低控制效果"
+    },
+    ":PASSIVE:|BarbarianFury|Trait": {
+      "fullText": "怒气取代法力，通过受到伤害或造成普通攻击伤害来获得。使用基本技能或终极技能使移动速度提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c>，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>秒。",
+      "name": "狂怒",
+      "shortText": "在战斗中产生怒气。所有技能提供移动速度"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "冷却时间：4秒",
+      "fullText": "引导<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>秒后，获得<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s>移动速度。",
+      "name": "召唤坐骑"
+    },
+    "Hearthstone|HearthstoneNoMana|B": {
+      "fullText": "引导<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c>秒后，传送回风暴大厅，立即恢复<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c>的生命值。",
+      "name": "炉石"
+    },
+    "BarbarianWhirlwindCancel|BarbarianWhirlwindCancel|E": {
+      "fullText": "取消旋风斩技能",
+      "name": "取消旋风斩"
+    },
+    "BarbarianCancelLeapArreatCrater|BarbarianLeapArreatCraterCancel|Heroic": {
+      "cooldownText": "冷却时间：1.5秒",
+      "fullText": "取消亚瑞特巨坑",
+      "name": "取消腾空斩"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "解除坐骑。",
+      "name": "解除坐骑"
+    },
+    "BarbarianShotofFury|BarbarianFuryShotOfFury|Trait": {
+      "cooldownText": "冷却时间：40秒",
+      "fullText": "怒气取代法力，通过受到伤害或造成普通攻击伤害来获得。使用基本技能或终极技能使移动速度提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c>，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>秒。",
+      "name": "狂怒"
+    },
+    "BarbarianBattleRage|BarbarianBattleRage|Active": {
+      "cooldownText": "充能时间：30秒",
+      "fullText": "激活后立即恢复桑娅<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c>最大生命值。储存最多<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>次使用次数。可以在旋风斩期间使用。<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">被动：</c>桑娅对雇佣兵造成的伤害提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>。",
+      "name": "战斗怒火",
+      "shortText": "提高对雇佣兵的伤害，激活后治疗"
+    },
+    "BarbarianNervesOfSteel|BarbarianNervesOfSteel|Active": {
+      "cooldownText": "冷却时间：60秒",
+      "fullText": "激活后获得一个相当于你最大生命值<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>的护盾，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>秒。可在旋风斩期间使用。",
+      "name": "钢铁神经",
+      "shortText": "激活后获得护盾"
+    },
+    "BarbarianStridingGiant|BarbarianStridingGiantActive|Heroic": {
+      "cooldownText": "冷却时间：30秒",
+      "fullText": "激活后变得不可阻挡，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>秒。只能在狂战之怒激活期间使用。",
+      "name": "天神步"
+    },
+    "BarbarianIgnorePain|BarbarianIgnorePain|Active": {
+      "cooldownText": "冷却时间：60秒",
+      "fullText": "激活后获得<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60</c>点护甲值，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>秒，受到的伤害降低<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60%</c>。可在旋风斩期间使用。",
+      "name": "无视苦痛",
+      "shortText": "激活后获得大量护甲"
+    }
+  },
+  "talents": {
+    "BarbarianFuriousBlow|BarbarianSeismicSlamFuriousBlowTalent|W|Level1": {
+      "fullText": "每第<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4次</c>施放裂地斩，对主要目标造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c>额外伤害，且不消耗怒气。",
+      "name": "狂暴打击",
+      "shortText": "强化裂地斩"
+    },
+    "BarbarianWarPaint|BarbarianFuryWarPaintTalent|Passive|Level1": {
+      "fullText": "普通攻击伤害的<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c>会为桑娅治疗。",
+      "name": "作战伪装",
+      "shortText": "普通攻击产生治疗"
+    },
+    "BarbarianToughAsNails|BarbarianToughAsNails|Passive|Level1": {
+      "fullText": "每<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">16</c>秒，获得<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60</c>点物理护甲，抵御下一次敌方英雄普通攻击，受到的伤害减少<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60%</c>。<n/><n/>最多储存<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>层充能。怒气的移动速度加成激活时，充能刷新速度加快<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">200%</c>。",
+      "name": "坚如钢钉",
+      "shortText": "周期性获得物理护甲"
+    },
+    "BarbarianShatteredGround|BarbarianSeismicSlamShatteredGroundTalent|W|Level4": {
+      "fullText": "裂地斩的溅射伤害提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">250%</c>。用裂地斩瞄准一名英雄额外使溅射伤害提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">250%</c>，瞄准其他敌人时使裂地斩的溅射长度增加<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">66%</c>。",
+      "name": "破碎大地",
+      "shortText": "提高裂地斩的溅射伤害"
+    },
+    "BarbarianHurricane|BarbarianHurricaneWhirlwindTalent|E|Level4": {
+      "fullText": "旋风斩的冷却时间缩短<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>秒，并且可以移除桑娅受到的所有减速和定身效果。",
+      "name": "飓风",
+      "shortText": "旋风斩可以移除减速和定身效果"
+    },
+    "BarbarianShotOfFury|BarbarianFuryShotOfFuryTalent|Trait|Level4": {
+      "cooldownText": "冷却时间：40秒",
+      "fullText": "激活后获得<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50</c>点怒气。可在旋风斩期间使用。<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">被动：</c>施放裂地斩之后，你的下一次普通攻击造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c>额外伤害。",
+      "name": "无名怒火",
+      "shortText": "激活后获得怒气"
+    },
+    "BarbarianPoisonedSpear|BarbarianAncientSpearPoisonedSpearTalent|Q|Level7": {
+      "fullText": "上古之矛在<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c>秒内造成额外<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c>的伤害。",
+      "name": "剧毒之矛",
+      "shortText": "上古之矛造成持续性伤害"
+    },
+    "BarbarianLifeFunnel|BarbarianWhirlwindLifeFunnelTalent|E|Level7": {
+      "fullText": "旋风斩的治疗量提高至其造成伤害的<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35%</c>。",
+      "name": "生命通道",
+      "shortText": "提高旋风斩的治疗效果"
+    },
+    "BarbarianBattleRage|BarbarianBattleRage|Active|Level7": {
+      "cooldownText": "充能时间：30秒",
+      "fullText": "激活后立即恢复桑娅<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c>最大生命值。储存最多<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>次使用次数。可以在旋风斩期间使用。<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">被动：</c>桑娅对雇佣兵造成的伤害提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>。",
+      "name": "战斗怒火",
+      "shortText": "提高对雇佣兵的伤害，激活后治疗"
+    },
+    "BarbarianHeroicAbilityLeap|BarbarianLeap|Heroic|Level10": {
+      "cooldownText": "冷却时间：60秒",
+      "fullText": "腾空跃起，对周围敌人造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">135</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点伤害，并使其昏迷<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.25</c>秒。",
+      "name": "腾空斩",
+      "shortText": "向目标地点跳跃，造成伤害并使敌人昏迷"
+    },
+    "BarbarianHeroicAbilityWrathoftheBerserker|BarbarianWrathoftheBerserker|Heroic|Level10": {
+      "cooldownText": "冷却时间：60秒",
+      "fullText": "造成的伤害提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c>。桑娅受到的昏迷、定身和减速效果的持续时间缩短<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c>秒，并且每获得<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c>点怒气使持续时间延长<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>秒。",
+      "name": "狂战之怒",
+      "shortText": "提高伤害并降低控制效果"
+    },
+    "BarbarianMysticalSpear|BarbarianAncientSpearMysticalSpearTalent|Q|Level13": {
+      "fullText": "上古之矛即使没有命中任何目标，依然能够将桑娅拉向目标地点。当这样使用时，上古之矛的冷却时间缩短<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>秒。",
+      "name": "神秘之矛",
+      "shortText": "上古之矛总能拉向目标地点，缩短冷却时间"
+    },
+    "BarbarianRuthless|BarbarianRuthless|E|Level13": {
+      "fullText": "旋风斩对生命值低于<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>的英雄每秒造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>点额外伤害。不产生额外治疗。",
+      "name": "残忍",
+      "shortText": "提高旋风斩对低生命值目标的伤害"
+    },
+    "BarbarianNoEscape|BarbarianFuryNoEscapeTalent|Trait|Level13": {
+      "fullText": "使用基本技能和终极技能后的移动速度加成提高至<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c>。",
+      "name": "无处可逃",
+      "shortText": "使用技能后移动速度加成进一步提高"
+    },
+    "BarbarianGiantSlammer|BarbarianGiantSlammer|W|Level16": {
+      "fullText": "普通攻击和裂地斩造成相当于英雄最大生命值<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5%</c>的额外伤害，并为桑娅恢复相当于造成伤害量<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60%</c>的生命值。",
+      "name": "巨人煞星",
+      "shortText": "普通攻击和裂地斩造成额外伤害"
+    },
+    "BarbarianRampage|BarbarianRampage|Passive|Level16": {
+      "fullText": "普通攻击的伤害提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>。普通攻击使上古之矛的冷却时间缩短<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c>秒。",
+      "name": "狂暴践踏",
+      "shortText": "普通攻击减少上古之矛的冷却时间"
+    },
+    "BarbarianNervesOfSteel|BarbarianNervesOfSteel|Active|Level16": {
+      "cooldownText": "冷却时间：60秒",
+      "fullText": "激活后获得一个相当于你最大生命值<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>的护盾，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>秒。可在旋风斩期间使用。",
+      "name": "钢铁神经",
+      "shortText": "激活后获得护盾"
+    },
+    "BarbarianArreatCrater|BarbarianLeapArreatCraterTalent|Heroic|Level20": {
+      "fullText": "腾空斩留下一个无法逾越的巨坑，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>秒。腾空斩的冷却时间缩短<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c>秒。",
+      "name": "亚瑞特巨坑",
+      "shortText": "腾空斩留下一个巨坑，并且冷却时间缩短"
+    },
+    "BarbarianStridingGiant|BarbarianStridingGiant|Heroic|Level20": {
+      "fullText": "狂战之怒使最大生命值提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c>并给予天神步，激活后获得不可阻挡效果，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>秒。<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30</c>秒冷却。",
+      "name": "天神步",
+      "shortText": "狂战之怒可以给予不可阻挡效果"
+    },
+    "BarbarianCompositeSpear|BarbarianAncientSpearCompositeSpearTalent|Q|Level20": {
+      "fullText": "上古之矛的施法距离提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>，使用上古之矛击中敌方英雄可获得<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c>点护甲，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>秒。",
+      "name": "复合之矛",
+      "shortText": "增加上古之矛的射程，给予护甲"
+    },
+    "BarbarianIgnorePain|BarbarianIgnorePain|Active|Level20": {
+      "cooldownText": "冷却时间：60秒",
+      "fullText": "激活后获得<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60</c>点护甲值，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>秒，受到的伤害降低<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60%</c>。可在旋风斩期间使用。",
+      "name": "无视苦痛",
+      "shortText": "激活后获得大量护甲"
+    }
+  },
+  "units": {}
+}

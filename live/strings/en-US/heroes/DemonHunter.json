@@ -1,0 +1,176 @@
+{
+  "abilities": {
+    "DemonHunterHungeringArrow|DemonHunterHungeringArrow|Q": {
+      "cooldownText": "Cooldown: 10 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Fire an arrow that deals <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">140</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage to the first target hit, then seeks up to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> additional enemies, prioritizing Heroes, dealing <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">80</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage. Can hit an enemy multiple times.",
+      "name": "Hungering Arrow",
+      "shortText": "Fire an arrow which seeks out and strikes multiple targets"
+    },
+    "DemonHunterMultishot|DemonHunterMultishot|W": {
+      "cooldownText": "Cooldown: 13 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 75</s>",
+      "fullText": "Deal <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">159</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage to enemies within the target area.",
+      "name": "Multishot",
+      "shortText": "Damage enemies in an area"
+    },
+    "DemonHunterVault|DemonHunterVault|E": {
+      "cooldownText": "Cooldown: 10 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Dash to the target area. Valla's next Basic Attack within <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> seconds deals <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6%</c> increased damage per stack of Hatred.",
+      "name": "Vault",
+      "shortText": "Dash to a location"
+    },
+    "DemonHunterStrafe|DemonHunterStrafe|Heroic": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Rapidly attack enemies within <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> range for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">70</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage per hit, prioritizing Heroes over Minions. Valla is able to move and use Vault while strafing. Lasts for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> seconds.",
+      "name": "Strafe",
+      "shortText": "Unleashes a flurry of arrows at enemies"
+    },
+    "DemonHunterRainOfVengeance|DemonHunterRainOfVengeance|Heroic": {
+      "cooldownText": "Charge Cooldown: 50 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Launch a wave of Shadow Beasts that deals <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">250</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage and Stuns enemies in the target area for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c> seconds.<n/><n/>Stores up to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> charges.",
+      "name": "Rain of Vengeance",
+      "shortText": "Area attack that Stuns enemies"
+    },
+    ":PASSIVE:|DemonHunterHatred|Trait": {
+      "fullText": "Basic Attacks grant a stack of Hatred, up to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c>. Each Hatred stack increases Basic Attack damage by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8%</c> and Movement Speed by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1%</c>. Lasts <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> seconds.",
+      "name": "Hatred",
+      "shortText": "Basic Attacks grant bonus Attack Damage and Move Speed temporarily"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Cooldown: 4 seconds",
+      "fullText": "After Channeling for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> second, gain <s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s> Movement Speed.",
+      "name": "Summon Mount"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "After Channeling for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> seconds, teleport back to the Hall of Storms, instantly restoring <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c> Health and <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c> Mana.",
+      "name": "Hearthstone"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Dismounts you.",
+      "name": "Unsummon Mount"
+    },
+    "DemonHunterGloom|DemonHunterGloomItem|Active": {
+      "cooldownText": "Cooldown: 5 seconds",
+      "fullText": "Activate to consume all Hatred, granting <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> Spell Armor per Hatred consumed for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> seconds.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Passive:</c> Gain <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> Spell Armor, and each stack of Hatred heals for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.2</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Health per second.",
+      "name": "Gloom",
+      "shortText": "Consume Hatred to gain Spell Armor"
+    }
+  },
+  "talents": {
+    "DemonHunterMasteryPuncturingArrow|DemonHunterHungeringArrowPuncturingArrowTalent|Q|Level1": {
+      "fullText": "Increase the number of Hungering Arrow bounces by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Quest:</c> Hitting an enemy Hero with the initial impact of Hungering Arrow refunds <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40</c> Mana and permanently increases the damage of its initial impact by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c>.",
+      "name": "Puncturing Arrow",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Quest:</c> Gain Hungering Arrow bounce, damage"
+    },
+    "DemonHunterMultishotFireAtWill|DemonHunterMultishotFireAtWill|W|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Quest:</c> Hitting a Hero with Multishot grants <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> Hatred and permanently increases its damage by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Reward:</c> After hitting <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c> Heroes with Multishot, increase its damage by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40</c>.",
+      "name": "Fire At Will",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Quest:</c> Gain Multishot damage, Hatred"
+    },
+    "DemonHunterCreedoftheHunter|DemonHunterCreedoftheHunter|Trait|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Quest:</c> Every <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50</c> Basic Attacks against Heroes increases Hatred's damage bonus per stack by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1%</c>, up to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6%</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Gambit:</c> Gain <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> bonus Attack Speed. Every death reduces this bonus by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5%</c>.",
+      "name": "Creed of the Hunter",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Gambit:</c> Gain Attack Speed<n/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Quest:</c> Increase Hatred Basic Attack bonus"
+    },
+    "DemonHunterMasteryArsenal|DemonHunterMultishotArsenalTalent|W|Level4": {
+      "fullText": "Increase the range of Multishot by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c>. Multishot also fires <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> grenades that deal <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage and refund <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c> Mana after hitting enemy Heroes.",
+      "name": "Arsenal",
+      "shortText": "Increase Multishot range, launch grenades"
+    },
+    "DemonHunterDeathDealer|DemonHunterDeathDealer|E|Level4": {
+      "fullText": "Increase Vaults Basic Attack damage bonus from <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6%</c> to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c> per stack of Hatred. If this attack kills its victim within <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> seconds, the Mana cost and cooldown of Vault are refunded.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Passive:</c> Reduce the cooldown of Vault by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> seconds.",
+      "name": "Death Dealer",
+      "shortText": "Increases Vault damage bonus, reduce cooldown"
+    },
+    "DemonHunterMasteryRepeatingArrowVault|DemonHunterVaultRepeatingArrowTalent|E|Level4": {
+      "fullText": "Vault no longer has a Mana cost. Casting Vault resets the cooldown of Hungering Arrow.",
+      "name": "Repeating Arrow",
+      "shortText": "Vault refreshes Hungering Arrow"
+    },
+    "DemonHunterMasteryMonsterHunterHungeringArrow|DemonHunterHungeringArrowMonsterHunterTalent|Q|Level7": {
+      "fullText": "Hungering Arrow deals <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150%</c> additional damage to Minions, Mercenaries, and Monsters.",
+      "name": "Monster Hunter",
+      "shortText": "Increase Hungering Arrow non-Hero damage"
+    },
+    "DemonHunterMasteryFrostShot|DemonHunterHungeringArrowFrostShotTalent|Q|Level7": {
+      "fullText": "Multishot Slows enemies by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c> seconds. Hungering Arrows deals <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> more damage to Slowed enemies.",
+      "name": "Frost Shot",
+      "shortText": "Gain Multishot Slow, Hungering Arrow damage"
+    },
+    "DemonHunterCombatStyleHotPursuit|DemonHunterHatredHotPursuitTalent|Trait|Level7": {
+      "fullText": "Increase the Movement Speed bonus of each stack of Hatred from <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1%</c> to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2%</c>.",
+      "name": "Hot Pursuit",
+      "shortText": "Increase Hatred Move Speed bonus"
+    },
+    "DemonHunterHeroicAbilityStrafe|DemonHunterStrafe|Heroic|Level10": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Rapidly attack enemies within <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> range for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">70</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage per hit, prioritizing Heroes over Minions. Valla is able to move and use Vault while strafing. Lasts for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> seconds.",
+      "name": "Strafe",
+      "shortText": "Unleashes a flurry of arrows at enemies"
+    },
+    "DemonHunterHeroicAbilityRainofVengeance|DemonHunterRainOfVengeance|Heroic|Level10": {
+      "cooldownText": "Charge Cooldown: 50 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Launch a wave of Shadow Beasts that deals <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">250</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage and Stuns enemies in the target area for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c> seconds.<n/><n/>Stores up to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> charges.",
+      "name": "Rain of Vengeance",
+      "shortText": "Area attack that Stuns enemies"
+    },
+    "DemonHunterMasterySiphoningArrow|DemonHunterHungeringArrowSiphoningArrowTalent|Q|Level13": {
+      "fullText": "Hitting a Hero with Hungering Arrow heals Valla for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4%</c> of her maximum Health, and Multishot heals for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2%</c>.",
+      "name": "Siphoning Arrows",
+      "shortText": "Hungering Arrow and Multishot heal"
+    },
+    "DemonHunterCombatStyleTemperedByDiscipline|DemonHunterHatredTemperedByDisciplineTalent|Trait|Level13": {
+      "fullText": "Basic Attacks heal for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c> of the damage dealt, increased by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2%</c> per Hatred stack.",
+      "name": "Tempered by Discipline",
+      "shortText": "Basic Attacks heal, increased by Hatred"
+    },
+    "DemonHunterGloom|DemonHunterGloom|Active|Level13": {
+      "cooldownText": "Cooldown: 5 seconds",
+      "fullText": "Activate to consume all Hatred, granting <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> Spell Armor per Hatred consumed for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> seconds.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Passive:</c> Gain <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> Spell Armor, and each stack of Hatred heals for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.2</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Health per second.",
+      "name": "Gloom",
+      "shortText": "Consume Hatred to gain Spell Armor"
+    },
+    "DemonHunterPunishment|DemonHunterHatredPunishmentTalent|W|Level16": {
+      "fullText": "While at max Hatred, Multishot's cooldown recharges <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> faster.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Passive:</c> Reduce Multishot's Mana cost from <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75</c> to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">55</c>.",
+      "name": "Punishment",
+      "shortText": "Reduce Multishot cooldown at max Hatred"
+    },
+    "DemonHunterSeethingHatred|DemonHunterSeethingHatred|Trait|Level16": {
+      "fullText": "While at max Hatred, increase all damage dealt by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c>.",
+      "name": "Seething Hatred",
+      "shortText": "Increase all damage at max Hatred"
+    },
+    "DemonHunterManticore|DemonHunterManticore|Passive|Level16": {
+      "fullText": "Every <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3rd</c> Basic Attack against the same Hero deals an additional <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4%</c> of their maximum Health as damage.",
+      "name": "Manticore",
+      "shortText": "Increase Basic Attacks against Heroes"
+    },
+    "DemonHunterMasteryDeathSiphon|DemonHunterStrafeDeathSiphonTalent|Heroic|Level20": {
+      "fullText": "Hitting an enemy Hero with Strafe increases its duration by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.125</c> seconds. Strafe also fires penetrating bolts in a line for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">34</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage every <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.25</c> seconds.",
+      "name": "Death Siphon",
+      "shortText": "Strafe lasts longer, fires penetrating bolts"
+    },
+    "DemonHunterMasteryStormofVengeance|DemonHunterRainOfVengeanceStormOfVengeanceTalent|Heroic|Level20": {
+      "fullText": "Basic Attacks against Heroes reduce the cooldown of Rain of Vengeance by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> seconds.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Passive:</c> Each stack of Hatred increases your Attack Speed by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2%</c>. While at max Hatred, gain an additional <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c> Attack Speed.",
+      "name": "Storm of Vengeance",
+      "shortText": "Reduce cooldown, gain Attack Speed"
+    },
+    "DemonHunterVaultAcrobat|DemonHunterVaultAcrobat|E|Level20": {
+      "fullText": "Gain <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> additional charges of Vault. Drop <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> Caltrops while Vaulting that deal <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage and Slow enemies by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> second.",
+      "name": "Acrobat",
+      "shortText": "Gain Vault charges, drop Caltrops"
+    },
+    "DemonHunterFarflightQuiver|DemonHunterFarflightQuiver|Trait|Level20": {
+      "fullText": "Gain <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> Basic Attack range. While at max Hatred, gain an additional <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c> Basic Attack range.",
+      "name": "Farflight Quiver",
+      "shortText": "Gain Basic Attack range, increased by Hatred"
+    }
+  },
+  "units": {}
+}

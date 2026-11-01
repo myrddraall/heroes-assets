@@ -1,0 +1,189 @@
+{
+  "abilities": {
+    "StukovHealingPathogen|StukovHealingPathogen|Q": {
+      "cooldownText": "Czas odnowienia: 10 sek.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 40</s>",
+      "fullText": "Infekuje bohatera sojuszniczego Leczącym Patogenem, który przywraca <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">222</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> pkt. zdrowia w ciągu <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4.5</c> sek. Leczące Patogeny mogą przenosić się na pobliskich bohaterów sojuszniczych co <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.75</c> sek.<n/><n/>Pojedynczy Leczący Patogen może się przenieść na każdego z bohaterów sojuszniczych tylko <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> raz.",
+      "name": "Leczący Patogen",
+      "shortText": "Infekuje sojuszników roznoszącym się wirusem leczącym"
+    },
+    "StukovWeightedPustule|StukovWeightedPustule|W": {
+      "cooldownText": "Czas odnowienia: 10 sek.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Miota ropniem, który trafia wszystkich wrogich bohaterów na swojej drodze i zadaje <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń oraz spowalnia ich o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5%</c> (wzrasta do <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> w ciągu <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> sek.). Kiedy czas działania Skażonego Ropnia się kończy lub jego działanie zostanie przerwane, zadaje on dodatkowe <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">88</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń.",
+      "name": "Skażony Ropień",
+      "shortText": "Zadaje obrażenia wrogom i infekuje ich wirusem spowalniającym"
+    },
+    "StukovLurkingArm|StukovLurkingArm|E": {
+      "cooldownText": "Czas odnowienia: 10 sek.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Stiukow podtrzymuje zdolność na wskazanym obszarze, na którym wycisza przeciwników niebędących budowlami i zadaje im <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">136</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń na sekundę. Zadaje o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> mniej obrażeń jednostkom niebohaterskim.<n/><n/>Zdolność nie zużywa many podczas podtrzymywania i działa do czasu, aż zostanie anulowana lub przerwana.",
+      "name": "Czyhająca Ręka",
+      "shortText": "Zadaje stałe obrażenia wrogom na danym obszarze i wycisza ich"
+    },
+    "StukovMassiveShove|StukovMassiveShove|Heroic": {
+      "cooldownText": "Czas odnowienia: 20 sek.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Rozciąga rękę Stiukowa. Jeśli trafi ona wrogiego bohatera, zostaje natychmiast popchnięty i zatrzyma się dopiero po zderzeniu z przeszkodą terenową. Wrogi bohater otrzyma wtedy <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">190</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń <w>i zostanie ogłuszony na </w><c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c><w> sek. Stiukow otrzymuje </w><c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50</c><w> pkt. pancerza, kiedy spycha wrogów.</w>",
+      "name": "Potężne Pchnięcie",
+      "shortText": "Popycha wroga aż ten zderzy się z przeszkodą terenową"
+    },
+    "StukovFlailingSwipe|StukovFlailingSwipe|Heroic": {
+      "cooldownText": "Czas odnowienia: 60 sek.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Wykonuje <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> zamaszyste uderzenia przed Stiukowem w ciągu <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.75</c> sek., zadaje <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">48</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń trafionym wrogom i odrzuca ich. Każde uderzenie ma większy rozmach od poprzedniego.",
+      "name": "Okrutna Chłosta",
+      "shortText": "Odrzuca wrogów znajdujących się przed Stiukowem"
+    },
+    "StukovBioKillSwitch|StukovBioKillSwitch|Trait": {
+      "cooldownText": "Czas odnowienia: 16 sek.",
+      "fullText": "Aktywuj, aby detonować wszystkie wirusy Stiukowa. Każdy Leczący Patogen przywraca celowi <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">435</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> pkt. zdrowia, a każdy Skażony Ropień zadaje <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń i spowalnia cel o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">70%</c> na <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> sek.<n/><n/>Zdolności można używać podczas podtrzymywania Czyhającej Ręki.",
+      "name": "Bio-wyłącznik",
+      "shortText": "Detonuje wirusy, aby zadziałały natychmiast"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Czas odnowienia: 4 sek.",
+      "fullText": "Po podtrzymywaniu przez <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> sek. zyskujesz premię <s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s> do szybkości ruchu.",
+      "name": "Przyzwanie Wierzchowca"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Po podtrzymywaniu przez <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> sek. teleportuje bohatera z powrotem do Dworu Burz i przywraca mu natychmiast <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c> pkt. zdrowia oraz <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c> pkt. many.",
+      "name": "Kamień Powrotu"
+    },
+    "StukovSpineLauncher|StukovSpineLauncherTalentDisabled|W": {
+      "fullText": "Ataki podstawowe są dystansowe i spowalniają wrogów o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> na <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> sek., ale obrażenia zostają zmniejszone o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35%</c>.<n/><n/>Przełącz, aby powrócić do ataków podstawowych w zwarciu.",
+      "name": "Miotacz Kolców"
+    },
+    "StukovLurkingArmCancel|StukovLurkingArmCancel|E": {
+      "fullText": "Anuluj Czyhającą Rękę.",
+      "name": "Anuluj Czyhającą Rękę"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Opuszczasz wierzchowca.",
+      "name": "Odesłanie Wierzchowca"
+    },
+    "StukovSpineLauncher|StukovSpineLauncherTalentEnabled|W": {
+      "fullText": "Ataki podstawowe są wykonywane w zwarciu.<n/><n/>Przełącz, aby Stiukow zaczął wykonywać ataki podstawowe z dystansu i spowalniał przy tym wrogów o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> na <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> sek., ale zadawał obrażenia zmniejszone o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35%</c>.",
+      "name": "Ataki w Zwarciu"
+    },
+    "StukovWeightedPustuleReactiveBallistospores|StukovReactiveBallistosporesTalent|Active": {
+      "cooldownText": "Czas odnowienia: 75 sek.",
+      "fullText": "Aktywuj, aby Stiukow natychmiast rozsiał Skażone Ropnie na pobliskich wrogich bohaterów i wyzerował czas odnowienia Bio-wyłącznika.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Działanie pasywne</c>: kiedy Stiukow ma mniej niż <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> zdrowia, czas odnowienia Bio-wyłącznika mija <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> szybciej.",
+      "name": "Reaktywne Zarodniki",
+      "shortText": "Promieniujący Skażony Ropień"
+    }
+  },
+  "talents": {
+    "StukovFetidTouch|StukovFetidTouchTalent|W|Level1": {
+      "fullText": "Ataki podstawowe są wykonywane na dystans i spowalniają przeciwników o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> na <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> sek., ale zadają obrażenia zmniejszone o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35%</c>. Efekt ten można włączać i wyłączać.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Zadanie:</c> Trafiaj bohaterów Skażonym Ropniem.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Nagroda:</c> Trafienie <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> bohaterów skraca czas odnowienia Skażonego Ropnia o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> sek. i usuwa jego koszt many.",
+      "name": "Dotyk Zgnilizny",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Zadanie:</c> Zmniejsz koszt i czas odnowienia Skażonego Ropnia"
+    },
+    "StukovLowBlow|StukovLowBlowTalent|E|Level1": {
+      "fullText": "Czyhająca Ręka zadaje wrogim bohaterom mającym mniej niż <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> zdrowia obrażenia zwiększone o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> i utrzymuje się przez <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c><w> sek. po anulowaniu jej użycia.",
+      "name": "Cios Poniżej Pasa",
+      "shortText": "Czyhająca Ręka zadaje więcej obrażeń rannym bohaterom"
+    },
+    "StukovWeightedPustuleReactiveBallistospores|StukovReactiveBallistosporesTalent|Active|Level1": {
+      "cooldownText": "Czas odnowienia: 75 sek.",
+      "fullText": "Aktywuj, aby Stiukow natychmiast rozsiał Skażone Ropnie na pobliskich wrogich bohaterów i wyzerował czas odnowienia Bio-wyłącznika.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Działanie pasywne</c>: kiedy Stiukow ma mniej niż <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> zdrowia, czas odnowienia Bio-wyłącznika mija <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> szybciej.",
+      "name": "Reaktywne Zarodniki",
+      "shortText": "Promieniujący Skażony Ropień"
+    },
+    "StukovOneGoodSpread|StukovOneGoodSpreadTalent|Q|Level4": {
+      "fullText": "Kiedy Leczący Patogen zainfekuje wiele celów (<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>), przywraca <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> pkt. many, a czas odnowienia zdolności zostaje skrócony o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> sek.",
+      "name": "Dobry Rozsiew",
+      "shortText": "Gdy Leczący Patogen się rozniesie, odnawia się szybciej"
+    },
+    "StukovBioticArmor|StukovBioticArmorTalent|Q|Level4": {
+      "fullText": "Leczący Patogen zapewnia <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> pkt. pancerza fizycznego wszystkim celom, na które działa. Zdetonowanie Bio-wyłącznika zwiększa tę premię do <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50</c> pkt. na <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c> sek.",
+      "name": "Pancerz Biotyczny",
+      "shortText": "Leczący Patogen zapewnia pancerz fizyczny"
+    },
+    "StukovVigorousReuptake|StukovVigorousReuptakeTalent|Trait|Level4": {
+      "fullText": "Bio-wyłącznik leczy o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c> skuteczniej przy detonacji co najmniej <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> Leczących Patogenów.",
+      "name": "Wychwyt Zwrotny",
+      "shortText": "Detonacja patogenów zwiększa leczenie Bio-wyłącznika"
+    },
+    "StukovLongPitch|StukovLongPitchTalent|W|Level7": {
+      "fullText": "Zasięg Skażonego Ropnia wzrasta o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>. Zdetonowanie co najmniej <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> Skażonych Ropni sprawia, że czas odnowienia Bio-wyłącznika oraz zdolności podstawowych Stiukowa upływa o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> szybciej przez <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> sek.",
+      "name": "Daleki Zasięg",
+      "shortText": "Zwiększa zasięg Skażonego Ropnia i skraca czasy odnowienia"
+    },
+    "StukovGrowingInfestation|StukovGrowingInfestationTalent|E|Level7": {
+      "fullText": "Obszar działania Czyhającej Ręki wzrasta o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> w ciągu <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2,5</c> sek., ale nie można jej podtrzymywać dłużej niż przez <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> sek.",
+      "name": "Rozwój Infekcji",
+      "shortText": "Czyhająca Ręka sięga dalej i ma określony czas działania"
+    },
+    "StukovTargetedExcision|StukovTargetedExcisionTalent|Trait|Level7": {
+      "fullText": "Detonacja dokładnie <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> Skażonego Ropnia (oraz dowolnej liczby Leczących Patogenów) za pomocą Bio-wyłącznika, skraca czas odnowienia Bio-wyłącznika do <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">7</c> sek., a pozostałych zdolności podstawowych o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> sek.",
+      "name": "Chirurgiczna Precyzja",
+      "shortText": "Detonacja jednego Skażonego Ropnia skraca czasy odnowienia"
+    },
+    "StukovHeroicAbilityFlailingSwipe|StukovFlailingSwipe|Heroic|Level10": {
+      "cooldownText": "Czas odnowienia: 60 sek.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Wykonuje <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> zamaszyste uderzenia przed Stiukowem w ciągu <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.75</c> sek., zadaje <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">48</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń trafionym wrogom i odrzuca ich. Każde uderzenie ma większy rozmach od poprzedniego.",
+      "name": "Okrutna Chłosta",
+      "shortText": "Odrzuca wrogów znajdujących się przed Stiukowem"
+    },
+    "StukovHeroicAbilityMassiveShove|StukovMassiveShove|Heroic|Level10": {
+      "cooldownText": "Czas odnowienia: 20 sek.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Rozciąga rękę Stiukowa. Jeśli trafi ona wrogiego bohatera, zostaje natychmiast popchnięty i zatrzyma się dopiero po zderzeniu z przeszkodą terenową. Wrogi bohater otrzyma wtedy <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">190</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń <w>i zostanie ogłuszony na </w><c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c><w> sek. Stiukow otrzymuje </w><c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50</c><w> pkt. pancerza, kiedy spycha wrogów.</w>",
+      "name": "Potężne Pchnięcie",
+      "shortText": "Popycha wroga aż ten zderzy się z przeszkodą terenową"
+    },
+    "StukovItHungers|StukovLurkingArmItHungersTalent|E|Level13": {
+      "fullText": "Zwiększa zasięg Czyhającej Ręki o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c>. Jeżeli Czyhająca Ręka zada obrażenia wrogim bohaterom <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c> razy, jej czas odnowienia zostanie wyzerowany, a koszt many zwrócony.",
+      "name": "Łaknienie",
+      "shortText": "Koszt Czyhającej Ręki może zostać zwrócony"
+    },
+    "StukovVirulentReaction|StukovVirulentReactionTalent|E|Level13": {
+      "fullText": "Detonacja Skażonego Ropnia na wrogu wewnątrz obszaru działania Czyhającej Ręki unieruchamia go na <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> sek.",
+      "name": "Reakcja Zapalna",
+      "shortText": "Detonacja ropnia na obszarze Czyhającej Ręki unieruchamia"
+    },
+    "StukovPoppinPustules|StukovPoppinPustulesTalent|Trait|Level13": {
+      "fullText": "Detonacja Skażonego Ropnia przy pomocy Bio-wyłącznika w ciągu <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> sek. od zakończenia jego czasu działania zwiększa obrażenia zadawane przez Skażony Ropień o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150%</c> i sprawia, że zadawane przy pomocy zdolności obrażenia oraz wywoływane przez nią spowolnienie stają się efektami obszarowymi. Trafieni wrodzy bohaterowie zostają objęci działaniem Skażonego Ropnia.",
+      "name": "Pękające Ropnie",
+      "shortText": "Skażony Ropień może zostać zdetonowany obszarowo"
+    },
+    "StukovSuperstrain|StukovSuperstrainTalent|Q|Level16": {
+      "fullText": "Jeśli sojusznik z Leczącym Patogenem zostanie ogłuszony lub unieruchomiony, natychmiast odzyskuje <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">300</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> pkt. zdrowia.",
+      "name": "Superszczep",
+      "shortText": "Leczący Patogen aktywuje się, kiedy cel jest ogłuszony lub unieruchomiony"
+    },
+    "StukovUniversalCarrier|StukovUniversalCarrierTalent|Q|Level16": {
+      "fullText": "Leczący Patogen może nieustannie roznosić się poprzez Stiukowa, ale jego skuteczność leczenia spada o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>.",
+      "name": "Uniwersalny Nosiciel",
+      "shortText": "Leczący Patogen może roznosić się bez ustanku"
+    },
+    "StukovPoxPopuli|StukovPoxPopuliTalent|Trait|Level16": {
+      "fullText": "Bio-wyłącznik nie usuwa już Leczącego Patogenu, a zamiast tego ustawia czas jego działania na <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> sek.",
+      "name": "Pokswirusy",
+      "shortText": "Bio-wyłącznik nie usuwa już Leczącego Patogenu"
+    },
+    "StukovControlledChaos|StukovControlledChaosTalent|Heroic|Level20": {
+      "fullText": "Okrutna Chłosta zyskuje <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> dodatkowe ładunki, ale każde jej użycie powoduje tylko <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> uderzenie na maksymalną odległość. Czas odnowienia zdolności zostaje skrócony do <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c> sek., a jej koszt zmniejszony z <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60</c> do <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c> pkt. many.",
+      "name": "Chaos Kontrolowany",
+      "shortText": "Okrutna Chłosta uderza tylko raz. Zyskuje kilka ładunków"
+    },
+    "StukovPushComesToShove|StukovPushComesToShoveTalent|Heroic|Level20": {
+      "fullText": "Potężne Pchnięcie spowalnia cel o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> na <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> sek. po zderzeniu z przeszkodą na mapie. Jeżeli zdolność spycha cel dłużej niż przez <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.25</c> sek., jej czas odnowienia zostaje skrócony o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> sek.",
+      "name": "Potężniejsze Pchnięcie",
+      "shortText": "Potężne Pchnięcie spowalnia i może skrócić czas odnowienia"
+    },
+    "StukovTopOff|StukovTopOffTalent|Q|Level20": {
+      "fullText": "Skuteczność leczenia z upływem czasu za Leczący Patogen jest większa o <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c>, kiedy cel zdolności ma więcej niż <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60%</c> zdrowia.",
+      "name": "Czapka z Głowy",
+      "shortText": "Leczący Patogen działa silniej na cele z dużą ilością zdrowia"
+    },
+    "StukovBioExplosionSwitch|StukovBioExplosionSwitchTalent|Trait|Level20": {
+      "fullText": "Bio-wyłącznik powoduje również detonację Czyhającej Ręki, zadanie <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">230</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> pkt. obrażeń, nałożenie Skażonego Ropnia na wrogich bohaterów wewnątrz obszaru działania ręki oraz wyciszenie ich na <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c> sek.",
+      "name": "Bio-eksplozja",
+      "shortText": "Bio-wyłącznik detonuje Czyhającą Rękę"
+    }
+  },
+  "units": {}
+}

@@ -1,0 +1,229 @@
+{
+  "abilities": {
+    "AlarakDiscordStrike|AlarakDiscordStrike|Q": {
+      "cooldownText": "Abklingzeit: 8 Sek.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 55</s>",
+      "fullText": "Nach einer Verzögerung von <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c> Sek. erleiden Gegner im Bereich vor Alarak <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">165</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Schaden und werden <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> Sek. lang zum Schweigen gebracht.",
+      "name": "Zwietrachtschlag",
+      "shortText": "Fügt Gegnern in einem Bereich Schaden zu und bringt sie zum Schweigen."
+    },
+    "AlarakTelekinesis|AlarakTelekinesis|W": {
+      "cooldownText": "Abklingzeit: 12 Sek.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 30</s>",
+      "fullText": "<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">Vektorpositionierung</c><n/>Erzeugt eine Kraftwelle, die Alarak und alle getroffenen Gegner vom Zielpunkt in die Zielrichtung schleudert. Getroffene Gegner erleiden <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">48</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Schaden.",
+      "name": "Telekinese",
+      "shortText": "Stößt Gegner in eine bestimmte Richtung."
+    },
+    "AlarakLightningSurge|AlarakLightningSurge|E": {
+      "cooldownText": "Abklingzeit: 6 Sek.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 25</s>",
+      "fullText": "Fügt einem Gegner <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">62</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Schaden und Gegnern zwischen Alarak und dem Hauptziel zusätzlich <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> des Schadens zu. Heilt Alarak für jeden getroffenen Helden um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Lebenspunkte.",
+      "name": "Energieblitz",
+      "shortText": "Fügt Gegnern in einer geraden Linie Schaden zu."
+    },
+    "AlarakDeadlyChargeActivate|AlarakDeadlyCharge|Heroic": {
+      "cooldownText": "Abklingzeit: 45 Sek.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Kanalisiert und stürmt dann vorwärts. Fügt dabei allen getroffenen Gegnern <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">200</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Schaden zu. Die Fähigkeit kann bis zu <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> Sek. lang kanalisiert werden, wobei sich mit der Kanalisierungsdauer die Reichweite erhöht.<n/><n/>Wenn während der Kanalisierung ein Bewegungsbefehl gegeben wird, bricht der Einsatz kostenlos ab. Erlittener Schaden unterbricht die Kanalisierung.",
+      "name": "Tödlicher Ansturm",
+      "shortText": "Kanalisieren, um über eine lange Entfernung auf Gegner zuzustürmen."
+    },
+    "AlarakCounterStrikeTargeted|AlarakCounterStrikeTargeted|Heroic": {
+      "cooldownText": "Abklingzeit: 30 Sek.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Visiert ein Gebiet an und kanalisiert <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> Sek. lang. Währenddessen ist Alarak unaufhaltbar und von einem Schutzschild umgeben. Danach sendet der Schild eine Schockwelle aus, die <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">275</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Schaden verursacht, wenn Alarak während des Effekts durch einen gegnerischen Helden Schaden erlitten hat.",
+      "name": "Gegenschlag",
+      "shortText": "Schützt Alarak und kann in einem großen Wirkungsbereich Schaden verursachen."
+    },
+    ":PASSIVE:|AlarakSadism|Trait": {
+      "fullText": "Alaraks Fähigkeitsschaden und Selbstheilung sind um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> erhöht, wenn er eine Fähigkeit gegen einen gegnerischen Helden einsetzt.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Wiederholbare Quest:</c> Töte Helden, um den Sadismus jeweils um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3%</c> zu erhöhen, bis maximal <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c>. Dieser zusätzliche Sadismus geht beim Tod verloren.",
+      "name": "Sadismus",
+      "shortText": "Jeder Punkt Sadismus erhöht Alaraks Fähigkeitsschaden und Selbstheilung um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1%</c>, wenn gegnerische Helden getroffen werden.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Wiederholbare Quest:</c> Töte Helden, um den Sadismus jeweils um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3%</c> zu erhöhen, bis maximal <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c>. Dieser zusätzliche Sadismus geht beim Tod verloren."
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Abklingzeit: 4 Sek.",
+      "fullText": "Erhöht die Bewegungsgeschwindigkeit nach <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> Sek. Kanalisierung um <s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s>.",
+      "name": "Aufsitzen"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "Kanalisiert <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> Sek. lang und teleportiert sich dann zurück zum Altar der Stürme. Dabei werden sofort <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c> Lebenspunkte und <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c> Mana wiederhergestellt.",
+      "name": "Ruhestein"
+    },
+    "AlarakCounterStrikeTargeted2ndHeroic|AlarakCounterStrike2ndHeroicSadism|Trait": {
+      "cooldownText": "Abklingzeit: 30 Sek.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Visiert ein Gebiet an und kanalisiert <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> Sek. lang. Währenddessen ist Alarak unaufhaltbar und von einem Schutzschild umgeben. Danach sendet der Schild eine Schockwelle aus, die <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">275</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Schaden verursacht, wenn Alarak während des Effekts durch einen gegnerischen Helden Schaden erlitten hat.<n/><n/><s val=\"cbe8ff-ffffff\" hlt-name=\"StandardTooltipHeader\">Sadismus</s><n/><n/>Alaraks Fähigkeitsschaden und Selbstheilung sind um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> erhöht, wenn er eine Fähigkeit gegen einen gegnerischen Helden einsetzt.<n/><n/>Jeder getötete Held erhöht den Sadismus um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3%</c>, bis maximal <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c>. Dieser zusätzliche Sadismus geht beim Tod verloren.",
+      "name": "Gegenschlag",
+      "shortText": "Fügt Helden erhöhten Fähigkeitsschaden zu."
+    },
+    "AlarakDeadlyChargeExecute|AlarakUnleashDeadlyCharge|Heroic": {
+      "fullText": "Entfesselt den Tödlichen Ansturm.<n/><n/>Wenn während der Kanalisierung ein Bewegungsbefehl gegeben wird, bricht der Einsatz kostenlos ab. Erlittener Schaden unterbricht die Kanalisierung.",
+      "name": "Tödlichen Ansturm entfesseln",
+      "shortText": "Stürmt rücksichtslos auf Gegner zu."
+    },
+    "AlarakDeadlyChargeActivate2ndHeroic|AlarakDeadlyCharge2ndHeroicSadism|Trait": {
+      "cooldownText": "Abklingzeit: 45 Sek.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Kanalisiert und stürmt dann vorwärts. Fügt dabei allen getroffenen Gegnern <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">200</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Schaden zu. Die Fähigkeit kann bis zu <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> Sek. lang kanalisiert werden, wobei sich mit der Kanalisierungsdauer die Reichweite erhöht.<n/><n/>Wenn während der Kanalisierung ein Bewegungsbefehl gegeben wird, bricht der Einsatz kostenlos ab. Erlittener Schaden unterbricht die Kanalisierung.<n/><n/><s val=\"cbe8ff-ffffff\" hlt-name=\"StandardTooltipHeader\">Sadismus</s><n/><n/>Alaraks Fähigkeitsschaden und Selbstheilung sind um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> erhöht, wenn er eine Fähigkeit gegen einen gegnerischen Helden einsetzt.<n/><n/>Jeder getötete Held erhöht den Sadismus um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3%</c>, bis maximal <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c>. Dieser zusätzliche Sadismus geht beim Tod verloren.",
+      "name": "Tödlicher Ansturm",
+      "shortText": "Fügt Helden erhöhten Fähigkeitsschaden zu."
+    },
+    "AlarakDeadlyChargeExecute2ndHeroic|AlarakUnleashDeadlyCharge|Trait": {
+      "fullText": "Entfesselt den Tödlichen Ansturm.<n/><n/>Wenn während der Kanalisierung ein Bewegungsbefehl gegeben wird, bricht der Einsatz kostenlos ab. Erlittener Schaden unterbricht die Kanalisierung.",
+      "name": "Tödlichen Ansturm entfesseln",
+      "shortText": "Stürmt rücksichtslos auf Gegner zu."
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Sitzt ab.",
+      "name": "Absitzen"
+    },
+    "AlarakRiteofRakShir|AlarakRiteofRakShir|Trait": {
+      "cooldownText": "Abklingzeit: 300 Sek.",
+      "fullText": "Aktivieren, um einen gegnerischen Helden <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">300</c> Sek. lang zu markieren.<n/><n/>Erhöht den Sadismus um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3%</c>, wenn der markierte Held vom Zwietrachtschlag getroffen wird. Erhöht den Sadismus um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5%</c> und verringert die Abklingzeit von Rak'Shir auf <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> Sek., wenn der markierte Held getötet wird.<n/><n/>Dieser zusätzliche Sadismus geht beim Tod verloren.",
+      "name": "Rak'Shir",
+      "shortText": "Markiert einen Helden und erhöht den Sadismus, wenn Alarak ihm Schaden zufügt."
+    },
+    "AlarakLightningSurgeLightningBarrage|AlarakLightningSurgeLightningBarrage|E": {
+      "fullText": "Fügt einem Gegner <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">62</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Schaden und Gegnern zwischen Alarak und dem Hauptziel zusätzlich <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> des Schadens zu. Heilt Alarak für jeden getroffenen Helden um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Lebenspunkte.",
+      "name": "Energieblitz",
+      "shortText": "Fügt Gegnern in einer geraden Linie Schaden zu."
+    },
+    "AlarakHastyBargain|AlarakHastyBargain|Active": {
+      "cooldownText": "Abklingzeit: 20 Sek.",
+      "fullText": "Aktivieren, um den Sadismus dauerhaft um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4%</c> zu verringern und die Abklingzeiten der Grundfähigkeiten abzuschließen.",
+      "name": "Zeitgewinn",
+      "shortText": "Aktivieren, um Sadismus zu verringern und die Abklingzeit der Grundfähigkeiten abzuschließen."
+    },
+    "AlarakLastLaugh|AlarakLastLaugh|Active": {
+      "cooldownText": "Abklingzeit: 30 Sek.",
+      "fullText": "Aktivieren, um Alarak zum Zielort zu teleportieren und alle Verlangsamungen, Bewegungsunfähigkeit und regelmäßigen Schadenseffekte zu entfernen. Alarak muss in den nachfolgenden <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> Sek. gegnerische Helden mindestens <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>-mal mit einer Grundfähigkeit treffen, sonst werden seine Lebenspunkte auf <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> verringert.",
+      "name": "Nicht totzukriegen",
+      "shortText": "Läutert Alarak und teleportiert ihn weg, verringert aber seine Lebenspunkte."
+    },
+    "AlarakMightOfTheHighlordSetDeadlyChargeAsHeroic|AlarakMightOfTheHighlord|Active": {
+      "fullText": "Alarak erhält Zugang zu seinen beiden heroischen Fähigkeiten. Er kann sie aktivieren, indem er jeweils mit einer von beiden den Platz der Heldenfähigkeit belegt, wobei die andere Fähigkeit den Eigenschaftsplatz belegt.",
+      "name": "Macht des Hochlords",
+      "shortText": "Gewährt beide heroische Fähigkeiten"
+    },
+    "AlarakMightOfTheHighlordSetCounterStrikeAsHeroic|AlarakMightOfTheHighlord|Active": {
+      "fullText": "Alarak erhält Zugang zu seinen beiden heroischen Fähigkeiten. Er kann sie aktivieren, indem er jeweils mit einer von beiden den Platz der Heldenfähigkeit belegt, wobei die andere Fähigkeit den Eigenschaftsplatz belegt.",
+      "name": "Macht des Hochlords",
+      "shortText": "Gewährt beide heroische Fähigkeiten"
+    }
+  },
+  "talents": {
+    "AlarakOverwhelmingPowerDiscordStrike|AlarakOverwhelmingPower|Q|Level1": {
+      "fullText": "Heldentreffer mit Zwietrachtschlag erhöhen die Angriffsgeschwindigkeit um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c>. Automatische Angriffe heilen während der Dauer um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c> des verursachten Schadens. Der Bonus von Sadismus gewährt bei Heldentreffern zusätzliche <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>. Diese Effekte halten <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> Sek. lang an.",
+      "name": "Überwältigende Macht",
+      "shortText": "Zwietrachtschlag gewährt Angriffsgeschwindigkeit und Lebensentzug."
+    },
+    "AlarakRuthlessMomentum|AlarakRuthlessMomentum|W|Level1": {
+      "fullText": "Verringert die Manakosten der Telekinese von <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30</c> auf <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c>. Beschleunigt die Abklingzeit um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c>, wenn Alarak mehr als <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">80%</c> seiner Lebenspunkte hat.",
+      "name": "Erbarmungsloser Eifer",
+      "shortText": "Verringert die Abklingzeit bei hohen Lebenspunkten."
+    },
+    "AlarakExtendedLightning|AlarakExtendedLightning|E|Level1": {
+      "fullText": "Verringert den Sadismus um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Quest:</c> Triff Helden mit der Strahlmitte des Energieblitzes.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Belohnung:</c> Sobald <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> Helden getroffen wurden, wird die Reichweite des Energieblitzes um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> erhöht.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Belohnung:</c> Sobald <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> Helden getroffen wurden, werden Gegner in der Strahlmitte des Energieblitzes außerdem <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> Sek. lang um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> verlangsamt.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Belohnung:</c> Sobald <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> Helden von der Strahlmitte eines einzelnen Energieblitzes getroffen wurden, wird der Sadismus um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c> erhöht und alle anderen Belohnungen werden sofort freigeschaltet.",
+      "name": "Geladener Blitz",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Quest:</c> Verringert den Sadismus und verstärkt den Energieblitz."
+    },
+    "AlarakChaosReigns|AlarakChaosReigns|Q|Level4": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Quest:</c> Triff Helden mit dem Zwietrachtschlag.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Belohnung:</c> Sobald <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c> Helden getroffen wurden, erhöht sich der Schaden des Zwietrachtschlags um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Belohnung:</c> Sobald <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> Helden von demselben Zwietrachtschlag getroffen wurden, erhöht sich der Schaden um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Belohnung:</c> Sobald <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> Helden von demselben Zwietrachtschlag getroffen wurden, erhöht sich der Schaden um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100</c> und alle anderen Belohnungen werden sofort freigeschaltet.",
+      "name": "Heilloses Chaos",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Quest:</c> Triff Helden, um den Schaden des Zwietrachtschlags zu erhöhen."
+    },
+    "AlarakNegativelyCharged|AlarakNegativelyCharged|E|Level4": {
+      "fullText": "Erhöht den Schadensbonus des Energieblitzes auf <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">175%</c> bei Gegnern, die zwischen Alarak und dem Hauptziel stehen.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Wiederholbare Quest:</c> Triff Helden mit der Strahlmitte des Energieblitzes, um den Schadensbonus jeweils dauerhaft um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5%</c> zu erhöhen.",
+      "name": "Negative Aufladung",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Quest:</c> Erhöht den Schaden in der Strahlmitte des Energieblitzes."
+    },
+    "AlarakShowofForce|AlarakShowofForce|Trait|Level4": {
+      "fullText": "Helden, die innerhalb von <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> Sek. von <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> von Alaraks Fähigkeiten getroffen werden, erleiden zusätzlich <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">61</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Schaden und erhöhen den Sadismus um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2%</c>, bis maximal <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c>.<n/><n/>Dieser zusätzliche Sadismus geht beim Tod verloren.",
+      "name": "Machtdemonstration",
+      "shortText": "Fähigkeitscombos verursachen Bonusschaden und gewähren Sadismus."
+    },
+    "AlarakDissonance|AlarakDissonance|Q|Level7": {
+      "fullText": "Erhöht die Dauer des Stilleeffekts des Zwietrachtschlags um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0,75</c> Sek.",
+      "name": "Zwist",
+      "shortText": "Erhöht die Dauer des Stilleeffekts des Zwietrachtschlags."
+    },
+    "AlarakHinderedMotion|AlarakHinderedMotion|W|Level7": {
+      "fullText": "Die Telekinese verlangsamt Gegner <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> Sek. lang um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c>.",
+      "name": "Schleudertrauma",
+      "shortText": "Die Telekinese verlangsamt Gegner."
+    },
+    "AlarakAppliedForce|AlarakAppliedForce|W|Level7": {
+      "fullText": "Verringert den Sadismus um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c>, aber dafür stößt die Telekinese Ziele <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c> weiter und hat eine um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c> erhöhte Reichweite.",
+      "name": "Geballte Wucht",
+      "shortText": "Verringert den Sadismus. Erhöht die Reichweite der Telekinese und stößt Gegner weiter weg."
+    },
+    "AlarakDeadlyChargeFirstHeroic|AlarakDeadlyCharge|Heroic|Level10": {
+      "cooldownText": "Abklingzeit: 45 Sek.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 60</s>",
+      "fullText": "Kanalisiert und stürmt dann vorwärts. Fügt dabei allen getroffenen Gegnern <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">200</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Schaden zu. Die Fähigkeit kann bis zu <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> Sek. lang kanalisiert werden, wobei sich mit der Kanalisierungsdauer die Reichweite erhöht.<n/><n/>Wenn während der Kanalisierung ein Bewegungsbefehl gegeben wird, bricht der Einsatz kostenlos ab. Erlittener Schaden unterbricht die Kanalisierung.",
+      "name": "Tödlicher Ansturm",
+      "shortText": "Kanalisieren, um über eine lange Entfernung auf Gegner zuzustürmen."
+    },
+    "AlarakHeroicAbilityCounterStrike|AlarakCounterStrikeTargeted|Heroic|Level10": {
+      "cooldownText": "Abklingzeit: 30 Sek.",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "Visiert ein Gebiet an und kanalisiert <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> Sek. lang. Währenddessen ist Alarak unaufhaltbar und von einem Schutzschild umgeben. Danach sendet der Schild eine Schockwelle aus, die <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">275</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> Schaden verursacht, wenn Alarak während des Effekts durch einen gegnerischen Helden Schaden erlitten hat.",
+      "name": "Gegenschlag",
+      "shortText": "Schützt Alarak und kann in einem großen Wirkungsbereich Schaden verursachen."
+    },
+    "AlarakBladeoftheHighlord|AlarakBladeoftheHighlord|Trait|Level13": {
+      "fullText": "Automatische Angriffe gegen Helden erhöhen den Sadismus um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2%</c>, bis maximal <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c>.<n/><n/>Dieser zusätzliche Sadismus geht beim Tod verloren.",
+      "name": "Klinge des Hochlords",
+      "shortText": "Automatische Angriffe erhöhen den Sadismus."
+    },
+    "AlarakPureMalice|AlarakPureMalice|Trait|Level13": {
+      "fullText": "Jeder verbündete Held, der stirbt, erhöht den Sadismus um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c>, bis maximal <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c>.<n/><n/>Dieser zusätzliche Sadismus geht beim Tod verloren.",
+      "name": "Pure Boshaftigkeit",
+      "shortText": "Erhöht den Sadismus, wenn Verbündete sterben."
+    },
+    "AlarakRiteofRakShir|AlarakRiteofRakShir|Trait|Level13": {
+      "cooldownText": "Abklingzeit: 300 Sek.",
+      "fullText": "Aktivieren, um einen gegnerischen Helden <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">300</c> Sek. lang zu markieren.<n/><n/>Erhöht den Sadismus um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3%</c>, wenn der markierte Held vom Zwietrachtschlag getroffen wird. Erhöht den Sadismus um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5%</c> und verringert die Abklingzeit von Rak'Shir auf <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> Sek., wenn der markierte Held getötet wird.<n/><n/>Dieser zusätzliche Sadismus geht beim Tod verloren.",
+      "name": "Rak'Shir",
+      "shortText": "Markiert einen Helden und erhöht den Sadismus, wenn Alarak ihm Schaden zufügt."
+    },
+    "AlarakLethalOnslaughtDiscordStrike|AlarakLethalOnslaught|Q|Level16": {
+      "fullText": "Wenn der Zwietrachtschlag einen gegnerischen Helden trifft, wird der Schaden von Alaraks automatischen Angriffen <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> Sek. lang um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> des Schadensbonus von Sadismus erhöht. Automatische Angriffe gegen Helden erneuern diesen Effekt.",
+      "name": "Tödliche Attacken",
+      "shortText": "Der Zwietrachtschlag gewährt automatischen Angriffen den Bonus von Sadismus."
+    },
+    "AlarakLightningBarrage|AlarakLightningBarrage|E|Level16": {
+      "fullText": "Wenn ein gegnerischer Held von der Strahlmitte des Energieblitzes getroffen wird, kann der Energieblitz in den nächsten <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> Sek. mit einem anderen Hauptziel kostenlos erneut eingesetzt werden. Dieser kostenlose Einsatz profitiert nicht von Blitzüberladung.",
+      "name": "Blitzüberladung",
+      "shortText": "Wenn ein Energieblitz zusätzliche Helden trifft, ist der nächste Einsatz kostenlos."
+    },
+    "AlarakMockingStrikes|AlarakMockingStrikes|Passive|Level16": {
+      "fullText": "Automatische Angriffe gegen Helden verringern die Abklingzeiten von Alaraks Grundfähigkeiten um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> Sek. Dieser Bonus wird gegen betäubte, verlangsamte, bewegungsunfähige oder zum Schweigen gebrachte Helden verdoppelt.",
+      "name": "Perfides Spiel",
+      "shortText": "Angriffe gegen beeinträchtigte Helden verringern die Abklingzeiten."
+    },
+    "AlarakWrathOfTheHighlord|AlarakWrathOfTheHighlord|Heroic|Level20": {
+      "fullText": "Ist Tödlicher Ansturm im Helden-Platz platziert, erhalten Helden, die mit Tödlicher Ansturm getroffen werden, <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> Sek. lang einen Bonusschaden von Alaraks Fähigkeiten in Höhe von <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75%</c> des Bonusschades von Sadismus.<n/><n/>Ist Gegenschlag im Helden-Platz platziert, ist die Abklingzeit pro gegnerischen Helden, der von Alaraks Grundfähigkeiten getroffen wurde, um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c> Sek. lang reduziert.",
+      "name": "Zorn des Hochlords",
+      "shortText": "Tödlicher Ansturm erhöht den Schaden von Sadismus.<n/>Grundfähigkeiten reduzieren die Abklingzeit von Gegenschlag."
+    },
+    "AlarakMightOfTheHighlord|AlarakMightOfTheHighlord|Active|Level20": {
+      "fullText": "Alarak erhält Zugang zu seinen beiden heroischen Fähigkeiten. Er kann sie aktivieren, indem er jeweils mit einer von beiden den Platz der Heldenfähigkeit belegt, wobei die andere Fähigkeit den Eigenschaftsplatz belegt.",
+      "name": "Macht des Hochlords",
+      "shortText": "Gewährt beide heroische Fähigkeiten"
+    },
+    "AlarakLastLaugh|AlarakLastLaugh|Active|Level20": {
+      "cooldownText": "Abklingzeit: 30 Sek.",
+      "fullText": "Aktivieren, um Alarak zum Zielort zu teleportieren und alle Verlangsamungen, Bewegungsunfähigkeit und regelmäßigen Schadenseffekte zu entfernen. Alarak muss in den nachfolgenden <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> Sek. gegnerische Helden mindestens <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>-mal mit einer Grundfähigkeit treffen, sonst werden seine Lebenspunkte auf <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> verringert.",
+      "name": "Nicht totzukriegen",
+      "shortText": "Läutert Alarak und teleportiert ihn weg, verringert aber seine Lebenspunkte."
+    },
+    "AlarakHastyBargain|AlarakHastyBargain|Active|Level20": {
+      "cooldownText": "Abklingzeit: 20 Sek.",
+      "fullText": "Aktivieren, um den Sadismus dauerhaft um <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4%</c> zu verringern und die Abklingzeiten der Grundfähigkeiten abzuschließen.",
+      "name": "Zeitgewinn",
+      "shortText": "Aktivieren, um Sadismus zu verringern und die Abklingzeit der Grundfähigkeiten abzuschließen."
+    }
+  },
+  "units": {}
+}

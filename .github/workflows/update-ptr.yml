@@ -13,15 +13,19 @@ on:
         type: boolean
         default: false
 
+# One update at a time, start to finish: both channels commit versions.yml and share the release PR
+concurrency:
+  group: heroes-assets-update
+  cancel-in-progress: false
+
 jobs:
   update:
     uses: ./.github/workflows/update.yml
     permissions:
-      contents: read
+      contents: write
+      pull-requests: write
       packages: read
       actions: write
     with:
       channel: ptr
       rebuild: ${{ inputs.rebuild == true }}
-    secrets:
-      RELEASE_TOKEN: ${{ secrets.RELEASE_TOKEN }}

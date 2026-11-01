@@ -1,12 +1,21 @@
 name: Update
 
 # Rebuilds one channel's folder when its game server has a new version (or when a rebuild is
-# asked for), then releases and deploys it without a person in the loop: commit to main, merge the
-# release PR git-flow opens, wait for Build, Pack & Publish, deploy that release to Pages.
+# asked for), then releases and deploys it without a person in the loop.
 #
-# Called by update-live.yml and update-ptr.yml. Pushing and merging use the RELEASE_TOKEN secret
-# (a fine-grained token: Contents and Pull requests, read and write): GITHUB_TOKEN's own pushes
-# and merges start no other workflows, so git-flow would never see them.
+#   plan     what's left to do, from where things stand (tools/plan.ts)
+#   extract  Heroes Data Parser, one job per locale in parallel; its download cache of game files
+#            kept in the Actions cache
+#   build    the folder from the extraction (or from the one stored on the last release of the
+#            same game build, when a rebuild can reuse it), committed to main
+#   release  git-flow's release PR opened, merged, published; the extraction stored on the release
+#   deploy   the release deployed to Pages
+#
+# Every stage is skipped when it's done already, so after a failure "Re-run failed jobs" (or a
+# new run) carries on where the last one stopped. A workflow's own pushes and merges start no
+# other workflows but its dispatches do, so the git-flow workflows are dispatched and waited for.
+#
+# Called by update-live.yml and update-ptr.yml.
 
 on:
   workflow_call:
@@ -20,31 +29,86 @@ on:
         required: false
         type: boolean
         default: false
-    secrets:
-      RELEASE_TOKEN:
-        required: true
 
 env:
-  HDP_VERSION: 5.1.0
   CHANNEL: ${{ inputs.channel }}
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
-  update:
+  plan:
     runs-on: ubuntu-latest
-    # One channel at a time, start to finish: both commit versions.yml and share the release PR.
-    concurrency:
-      group: heroes-assets-update
-      cancel-in-progress: false
-    permissions:
-      contents: read
-      packages: read
-      actions: write
+    outputs:
+      game: ${{ steps.plan.outputs.game }}
+      revision: ${{ steps.plan.outputs.revision }}
+      version: ${{ steps.plan.outputs.version }}
+      tag: ${{ steps.plan.outputs.tag }}
+      extract: ${{ steps.plan.outputs.extract }}
+      build: ${{ steps.plan.outputs.build }}
+      release: ${{ steps.plan.outputs.release }}
+      deploy: ${{ steps.plan.outputs.deploy }}
+      snapshot: ${{ steps.plan.outputs.snapshot }}
+      snapshot_name: ${{ steps.plan.outputs.snapshot_name }}
+      locales: ${{ steps.plan.outputs.locales }}
     steps:
-      # main's tip, not the commit that started the run: the other channel may have released since
       - uses: actions/checkout@v7
         with:
           ref: main
-          token: ${{ secrets.RELEASE_TOKEN }}
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+
+      - name: Plan
+        id: plan
+        run: node tools/plan.ts "$CHANNEL" ${{ inputs.rebuild && '--rebuild' || '' }}
+
+  extract:
+    needs: plan
+    if: needs.plan.outputs.extract == 'true'
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        locale: ${{ fromJSON(needs.plan.outputs.locales) }}
+    env:
+      HEROESDATAPARSER_DATA_DIR: ${{ github.workspace }}/hdp-data
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+
+      # Game files HDP downloaded: the main locale's run also reads the pictures, so it keeps its own
+      - uses: actions/cache@v4
+        with:
+          path: hdp-data/casclib-cache
+          key: casc-${{ inputs.channel }}-${{ needs.plan.outputs.game }}-${{ matrix.locale == 'enus' && 'main' || 'strings' }}
+          restore-keys: |
+            casc-${{ inputs.channel }}-${{ needs.plan.outputs.game }}-
+            casc-${{ inputs.channel }}-
+
+      - name: Extract
+        run: node tools/extract.ts "$CHANNEL" "${{ matrix.locale }}" "${{ needs.plan.outputs.game }}" hdp-out
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: hdp-${{ matrix.locale }}
+          path: hdp-out/
+          retention-days: 7
+
+  build:
+    needs: [plan, extract]
+    if: >-
+      always() && needs.plan.outputs.build == 'true' &&
+      (needs.extract.result == 'success' || needs.extract.result == 'skipped')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
 
       - uses: pnpm/action-setup@v6
 
@@ -54,109 +118,140 @@ jobs:
           cache: pnpm
 
       - name: Install
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          pnpm config set "//npm.pkg.github.com/:_authToken" "$GITHUB_TOKEN"
+          pnpm config set "//npm.pkg.github.com/:_authToken" "$GH_TOKEN"
           pnpm install --frozen-lockfile
 
-      - name: Check the game version
-        id: check
-        run: node tools/check-update.ts "$CHANNEL" ${{ inputs.rebuild && '--rebuild' || '' }}
+      - name: Gather the extraction
+        if: needs.plan.outputs.extract == 'true'
+        uses: actions/download-artifact@v4
+        with:
+          pattern: hdp-*
+          path: hdp-out
+          merge-multiple: true
 
-      - name: Extract with Heroes Data Parser
-        if: steps.check.outputs.changed == 'true'
+      - name: Take the stored extraction
+        if: needs.plan.outputs.extract != 'true'
         env:
-          GAME: ${{ steps.check.outputs.game }}
+          SNAPSHOT: ${{ needs.plan.outputs.snapshot }}
+          NAME: ${{ needs.plan.outputs.snapshot_name }}
         run: |
-          set -euo pipefail
-          curl -fsSL -o hdp.tar.gz \
-            "https://github.com/HeroesToolChest/HeroesDataParser/releases/download/v${HDP_VERSION}/HeroesDataParser.${HDP_VERSION}-scd-linux-x64.tar.gz"
-          mkdir -p hdp && tar xzf hdp.tar.gz -C hdp
-          exe=$(find hdp -type f -name HeroesDataParser | head -n1)
-          chmod +x "$exe"
-          ptr=$([ "$CHANNEL" = ptr ] && echo --download-ptr || true)
-          "$exe" online $ptr \
-            -e hero:i -e unit -e emoticon:i -e emoticonpack -e map:i \
-            -l all --localized-text Extract -o hdp-out
-          extracted=$(jq -r .meta.heroesVersion hdp-out/data/herodata_*.json)
-          echo "Patch server: $GAME, extracted: $extracted"
-          if [[ "$extracted" != "$GAME"* ]]; then
-            echo "::error::Heroes Data Parser extracted $extracted, the patch server says $GAME"
-            exit 1
-          fi
+          gh release download "$SNAPSHOT" --pattern "$NAME" --dir .
+          mkdir -p hdp-out && tar xzf "$NAME" -C hdp-out && rm "$NAME"
 
       - name: Build the folder
-        if: steps.check.outputs.changed == 'true'
         run: |
           node tools/build-channel.ts "$CHANNEL" hdp-out
-          node tools/set-version.ts "$CHANNEL" "${{ steps.check.outputs.game }}" \
-            "${{ steps.check.outputs.revision }}" "$HDP_VERSION"
+          node tools/set-version.ts "$CHANNEL" "${{ needs.plan.outputs.game }}" \
+            "${{ needs.plan.outputs.revision }}"
+
+      - name: Keep the extraction for the release
+        if: needs.plan.outputs.extract == 'true'
+        run: tar czf "${{ needs.plan.outputs.snapshot_name }}" -C hdp-out .
+
+      - if: needs.plan.outputs.extract == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: snapshot
+          path: ${{ needs.plan.outputs.snapshot_name }}
+          compression-level: 0
+          retention-days: 7
 
       - name: Commit and push
-        if: steps.check.outputs.changed == 'true'
-        id: commit
         env:
-          GAME: ${{ steps.check.outputs.game }}
-          REVISION: ${{ steps.check.outputs.revision }}
-          VERSION: ${{ steps.check.outputs.version }}
+          GAME: ${{ needs.plan.outputs.game }}
+          REVISION: ${{ needs.plan.outputs.revision }}
+          VERSION: ${{ needs.plan.outputs.version }}
         run: |
           set -euo pipefail
+          git add "$CHANNEL" .publish/versions.yml
+          if git diff --cached --quiet; then
+            echo "main already holds this build"
+            exit 0
+          fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add "$CHANNEL" .publish/versions.yml
           what=$([ "$REVISION" = 0 ] && echo "game $GAME" || echo "game $GAME, rebuild $REVISION")
           git commit -m "feat($CHANNEL): $what" -m "Release $VERSION."
           git push origin HEAD:main
-          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
-      - name: Merge the release PR
-        if: steps.check.outputs.changed == 'true'
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          MERGE_TOKEN: ${{ secrets.RELEASE_TOKEN }}
-          SHA: ${{ steps.commit.outputs.sha }}
+  release:
+    needs: [plan, build]
+    if: >-
+      always() && needs.plan.outputs.release == 'true' &&
+      (needs.build.result == 'success' || needs.build.result == 'skipped')
+    runs-on: ubuntu-latest
+    env:
+      TAG: ${{ needs.plan.outputs.tag }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+
+      - name: Publish
         run: |
           set -euo pipefail
-          run=''
-          for _ in $(seq 60); do
-            run=$(gh run list --workflow create-release-pr.yml --commit "$SHA" \
-              --json databaseId --jq '.[0].databaseId // empty')
-            [ -n "$run" ] && break
-            sleep 10
-          done
-          [ -n "$run" ] || { echo "::error::Create Release PR never started for $SHA"; exit 1; }
-          gh run watch "$run" --exit-status --interval 10 > /dev/null
-          pr=$(gh pr list --base release/main --head main --state open \
-            --json number --jq '.[0].number // empty')
-          [ -n "$pr" ] || { echo "::error::No open release PR from main"; exit 1; }
-          GH_TOKEN="$MERGE_TOKEN" gh pr merge "$pr" --merge
-          echo "Merged release PR #$pr"
-
-      - name: Wait for the release
-        if: steps.check.outputs.changed == 'true'
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SHA: ${{ steps.commit.outputs.sha }}
-        run: |
-          set -euo pipefail
-          run=''
-          for _ in $(seq 60); do
-            run=$(gh run list --workflow build-pack-publish.yml --event pull_request \
-              --json databaseId,headSha --jq "map(select(.headSha == \"$SHA\")) | .[0].databaseId // empty")
-            [ -n "$run" ] && break
-            sleep 10
-          done
-          [ -n "$run" ] || { echo "::error::Build, Pack & Publish never started for $SHA"; exit 1; }
-          gh run watch "$run" --exit-status --interval 15 > /dev/null
-
-      - name: Deploy it
-        if: steps.check.outputs.changed == 'true'
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TAG: '@myrddraall/heroes-assets/v${{ steps.check.outputs.version }}'
-        run: |
-          set -euo pipefail
+          if [ "$(gh release view "$TAG" --json isDraft --jq .isDraft 2>/dev/null)" = false ]; then
+            echo "$TAG is released already"
+            exit 0
+          fi
+          tip=$(git rev-parse HEAD)
+          # a release PR of main's tip merged by an earlier attempt, whose publish failed
+          pr=$(gh pr list --base release/main --head main --state merged --limit 10 \
+            --json number,headRefOid --jq "map(select(.headRefOid == \"$tip\")) | .[0].number // empty")
+          if [ -z "$pr" ]; then
+            tools/await-run.sh create-release-pr.yml main
+            pr=$(gh pr list --base release/main --head main --state open \
+              --json number --jq '.[0].number // empty')
+            [ -n "$pr" ] || { echo "::error::No open release PR from main"; exit 1; }
+            # git-flow opens release PRs as drafts, for a person to review; here the update is the review
+            if [ "$(gh pr view "$pr" --json isDraft --jq .isDraft)" = true ]; then gh pr ready "$pr"; fi
+            gh pr merge "$pr" --merge
+          fi
+          echo "Publishing release PR #$pr"
+          tools/await-run.sh build-pack-publish.yml release/main -f pr_number="$pr"
           gh release view "$TAG" --json tagName > /dev/null
-          gh workflow run deploy-production.yml --ref main -f release_id="$TAG"
-          echo "Deploying $TAG" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Fetch the extraction
+        id: snapshot
+        if: needs.plan.outputs.extract == 'true'
+        continue-on-error: true
+        uses: actions/download-artifact@v4
+        with:
+          name: snapshot
+
+      # Kept only on the newest release of each channel: a rebuild of that game build reuses it
+      - name: Store the extraction on the release
+        if: steps.snapshot.outcome == 'success'
+        env:
+          NAME: ${{ needs.plan.outputs.snapshot_name }}
+        run: |
+          set -euo pipefail
+          gh release upload "$TAG" "$NAME" --clobber
+          gh release list --limit 200 --json tagName --jq '.[].tagName' | while read -r tag; do
+            [ "$tag" = "$TAG" ] && continue
+            case "$tag" in
+              *-ptr) [ "$CHANNEL" = ptr ] || continue ;;
+              *) [ "$CHANNEL" = live ] || continue ;;
+            esac
+            gh release view "$tag" --json assets --jq '.assets[].name' | grep "^hdp-$CHANNEL-" |
+              while read -r old; do gh release delete-asset "$tag" "$old" --yes; done || true
+          done
+
+  deploy:
+    needs: [plan, release]
+    if: >-
+      always() && needs.plan.outputs.deploy == 'true' &&
+      (needs.release.result == 'success' || needs.release.result == 'skipped')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+
+      - name: Deploy
+        env:
+          TAG: ${{ needs.plan.outputs.tag }}
+        run: |
+          tools/await-run.sh deploy-production.yml main -f release_id="$TAG"
+          echo "Deployed $TAG" >> "$GITHUB_STEP_SUMMARY"

@@ -1,0 +1,651 @@
+{
+  "id": "Kerrigan",
+  "unitId": "HeroKerrigan",
+  "hyperlinkId": "Kerrigan",
+  "attributeId": "Kerr",
+  "franchise": "Starcraft",
+  "rarity": "Epic",
+  "releaseDate": "2014-03-13",
+  "isMelee": true,
+  "gender": "Female",
+  "radius": 0.6875,
+  "innerRadius": 0.6875,
+  "sight": 12,
+  "speed": 4.8398,
+  "attributes": [
+    "Heroic"
+  ],
+  "scalingLinkIds": [
+    "ExcellentMana",
+    "HeroDummyVeterancy"
+  ],
+  "defaultMountId": "HorseCommon",
+  "ratings": {
+    "complexity": 6,
+    "damage": 8,
+    "survivability": 6,
+    "utility": 4
+  },
+  "life": {
+    "amount": 1764,
+    "scale": 0.04,
+    "regenRate": 3.6757,
+    "regenScale": 0.04
+  },
+  "energy": {
+    "amount": 500,
+    "regenRate": 3
+  },
+  "playstyles": [
+    "EnergyImportant",
+    "Ganker",
+    "Overconfident",
+    "RoleCaster"
+  ],
+  "summonedUnitIds": [
+    "KerriganChrysalis",
+    "KerriganUltralisk"
+  ],
+  "weapons": [
+    {
+      "nameId": "HeroKerrigan",
+      "isDisabled": false,
+      "range": 2,
+      "minimumRange": 0,
+      "period": 0.8,
+      "damage": 115,
+      "damageScale": 0.04
+    }
+  ],
+  "skinIds": [
+    "KerriganCheer",
+    "KerriganClassic21",
+    "KerriganCountess",
+    "KerriganGhost",
+    "KerriganLegion",
+    "KerriganSuccubus",
+    "KerriganUltimate"
+  ],
+  "variationSkinIds": [
+    "KerriganBaseVar3",
+    "KerriganOrange",
+    "KerriganToxic"
+  ],
+  "voiceLineIds": [
+    "KerriganBase_VoiceLine01",
+    "KerriganBase_VoiceLine02",
+    "KerriganBase_VoiceLine03",
+    "KerriganBase_VoiceLine04",
+    "KerriganBase_VoiceLine05"
+  ],
+  "mountCategoryIds": [
+    "Ride",
+    "Ridebeast",
+    "Ridebike",
+    "Ridesurf"
+  ],
+  "abilities": {
+    "Basic": [
+      {
+        "linkId": "KerriganRavage|KerriganRavage|Q",
+        "abilityId": "KerriganRavage",
+        "buttonId": "KerriganRavage",
+        "icon": "storm_ui_icon_kerrigan_ravage.png",
+        "charges": {
+          "countMax": 2,
+          "countStart": 2,
+          "countUse": 1,
+          "recastCooldown": 0.25,
+          "isCountHidden": false
+        },
+        "abilityType": "Q"
+      },
+      {
+        "linkId": "KerriganImpalingBlades|KerriganImpalingBlades|W",
+        "abilityId": "KerriganImpalingBlades",
+        "buttonId": "KerriganImpalingBlades",
+        "icon": "storm_ui_icon_kerrigan_impalingblades.png",
+        "abilityType": "W"
+      },
+      {
+        "linkId": "KerriganPrimalGrasp|KerriganPrimalGrasp|E",
+        "abilityId": "KerriganPrimalGrasp",
+        "buttonId": "KerriganPrimalGrasp",
+        "icon": "storm_ui_icon_kerrigan_primalgrasp.png",
+        "abilityType": "E"
+      }
+    ],
+    "Heroic": [
+      {
+        "linkId": "KerriganSummonUltralisk|KerriganSummonUltralisk|Heroic",
+        "abilityId": "KerriganSummonUltralisk",
+        "buttonId": "KerriganSummonUltralisk",
+        "icon": "storm_ui_icon_kerrigan_ultralisk.png",
+        "abilityType": "Heroic"
+      },
+      {
+        "linkId": "KerriganMaelstrom|KerriganMaelstrom|Heroic",
+        "abilityId": "KerriganMaelstrom",
+        "buttonId": "KerriganMaelstrom",
+        "icon": "storm_ui_icon_kerrigan_maelstrom.png",
+        "abilityType": "Heroic"
+      }
+    ],
+    "Trait": [
+      {
+        "linkId": ":PASSIVE:|KerriganAssimilation|Trait",
+        "abilityId": ":PASSIVE:",
+        "buttonId": "KerriganAssimilation",
+        "icon": "storm_ui_icon_kerrigan_assimilation.png",
+        "abilityType": "Trait"
+      }
+    ],
+    "Mount": [
+      {
+        "linkId": "Mount|SummonMount|Z",
+        "abilityId": "Mount",
+        "buttonId": "SummonMount",
+        "icon": "storm_ui_icon_generic_mount.png",
+        "abilityType": "Z"
+      }
+    ],
+    "Hearth": [
+      {
+        "linkId": "Hearthstone|Hearthstone|B",
+        "abilityId": "Hearthstone",
+        "buttonId": "Hearthstone",
+        "icon": "storm_ui_icon_miscrune_1.png",
+        "abilityType": "B"
+      }
+    ]
+  },
+  "subAbilities": {
+    "KerriganSummonUltralisk|KerriganSummonUltralisk|Heroic": {
+      "Heroic": [
+        {
+          "linkId": "KerriganSummonUltraliskIssueOrder|KerriganUltraliskIssueAttackOrder|Heroic",
+          "abilityId": "KerriganSummonUltraliskIssueOrder",
+          "buttonId": "KerriganUltraliskIssueAttackOrder",
+          "icon": "storm_ui_icon_kerrigan_command_ultralisk.png",
+          "toggleCooldown": 0.0625,
+          "abilityType": "Heroic"
+        }
+      ]
+    },
+    "Mount|SummonMount|Z": {
+      "Mount": [
+        {
+          "linkId": "Dismount|UnsummonMount|Z",
+          "abilityId": "Dismount",
+          "buttonId": "UnsummonMount",
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "toggleCooldown": 0.1,
+          "abilityType": "Z"
+        }
+      ]
+    },
+    "KerriganChrysalis|KerriganChrysalis|Active": {
+      "Activable": [
+        {
+          "linkId": "KerriganChrysalisCancel|KerriganCancelChrysalis|Active",
+          "abilityId": "KerriganChrysalisCancel",
+          "buttonId": "KerriganCancelChrysalis",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "KerriganChrysalis|KerriganChrysalis|Active|Level13": {
+      "Activable": [
+        {
+          "linkId": "KerriganChrysalis|KerriganChrysalis|Active",
+          "abilityId": "KerriganChrysalis",
+          "buttonId": "KerriganChrysalis",
+          "icon": "storm_ui_icon_kerrigan_chrysalis.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "KerriganPsionicShift|KerriganPsionicShift|Active|Level20": {
+      "Activable": [
+        {
+          "linkId": "KerriganPsionicShift|KerriganPsionicShift|Active",
+          "abilityId": "KerriganPsionicShift",
+          "buttonId": "KerriganPsionicShift",
+          "icon": "storm_ui_icon_talent_boltofthestorm.png",
+          "abilityType": "Active"
+        }
+      ]
+    }
+  },
+  "talents": {
+    "Level1": [
+      {
+        "linkId": "KerriganRavageSiphoningImpact|KerriganRavageSiphoningImpact|Q|Level1",
+        "talentId": "KerriganRavageSiphoningImpact",
+        "buttonId": "KerriganRavageSiphoningImpact",
+        "abilityId": "KerriganRavage",
+        "icon": "storm_ui_icon_kerrigan_ravage.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "KerriganRavage|KerriganRavage|Q"
+        ]
+      },
+      {
+        "linkId": "KerriganAssimilationMastery|KerriganAssimilationMasteryTalent|Trait|Level1",
+        "talentId": "KerriganAssimilationMastery",
+        "buttonId": "KerriganAssimilationMasteryTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_kerrigan_assimilation.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|KerriganAssimilation|Trait"
+        ]
+      },
+      {
+        "linkId": "KerriganFuryOfTheSwarm|KerriganAssimilationFuryOfTheSwarmTalent|Passive|Level1",
+        "talentId": "KerriganFuryOfTheSwarm",
+        "buttonId": "KerriganAssimilationFuryOfTheSwarmTalent",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_aoe.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level4": [
+      {
+        "linkId": "KerriganRavageRavagingFerocity|KerriganRavageRavagingFerocity|Q|Level4",
+        "talentId": "KerriganRavageRavagingFerocity",
+        "buttonId": "KerriganRavageRavagingFerocity",
+        "abilityId": "KerriganRavage",
+        "icon": "storm_ui_icon_kerrigan_ravage.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "KerriganRavage|KerriganRavage|Q"
+        ]
+      },
+      {
+        "linkId": "KerriganImpalingBladesKineticFulmination|KerriganImpalingBladesKineticFulmination|W|Level4",
+        "talentId": "KerriganImpalingBladesKineticFulmination",
+        "buttonId": "KerriganImpalingBladesKineticFulmination",
+        "abilityId": "KerriganImpalingBlades",
+        "icon": "storm_ui_icon_kerrigan_impalingblades.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "KerriganImpalingBlades|KerriganImpalingBlades|W"
+        ]
+      },
+      {
+        "linkId": "KerriganPrimalGraspPsionicPulse|KerriganPrimalGraspPsionicPulse|E|Level4",
+        "talentId": "KerriganPrimalGraspPsionicPulse",
+        "buttonId": "KerriganPrimalGraspPsionicPulse",
+        "abilityId": "KerriganPrimalGrasp",
+        "icon": "storm_ui_icon_kerrigan_primalgrasp.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "KerriganPrimalGrasp|KerriganPrimalGrasp|E"
+        ]
+      }
+    ],
+    "Level7": [
+      {
+        "linkId": "KerriganRavageQueenOfBlades|KerriganRavageQueenOfBlades|Q|Level7",
+        "talentId": "KerriganRavageQueenOfBlades",
+        "buttonId": "KerriganRavageQueenOfBlades",
+        "abilityId": "KerriganRavage",
+        "icon": "storm_ui_icon_kerrigan_ravage.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "KerriganRavage|KerriganRavage|Q"
+        ]
+      },
+      {
+        "linkId": "KerriganRavageBoundlessFury|KerriganRavageBoundlessFury|Q|Level7",
+        "talentId": "KerriganRavageBoundlessFury",
+        "buttonId": "KerriganRavageBoundlessFury",
+        "abilityId": "KerriganRavage",
+        "icon": "storm_ui_icon_kerrigan_ravage_b.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "KerriganRavage|KerriganRavage|Q"
+        ]
+      },
+      {
+        "linkId": "KerriganBladedMomentum|KerriganBladedMomentum|Passive|Level7",
+        "talentId": "KerriganBladedMomentum",
+        "buttonId": "KerriganBladedMomentum",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_cooldown.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level10": [
+      {
+        "linkId": "KerriganHeroicAbilityMaelstrom|KerriganMaelstrom|Heroic|Level10",
+        "talentId": "KerriganHeroicAbilityMaelstrom",
+        "buttonId": "KerriganMaelstrom",
+        "abilityId": "KerriganMaelstrom",
+        "icon": "storm_ui_icon_kerrigan_maelstrom.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 1
+      },
+      {
+        "linkId": "KerriganHeroicAbilitySummonUltralisk|KerriganSummonUltralisk|Heroic|Level10",
+        "talentId": "KerriganHeroicAbilitySummonUltralisk",
+        "buttonId": "KerriganSummonUltralisk",
+        "abilityId": "KerriganSummonUltralisk",
+        "icon": "storm_ui_icon_kerrigan_ultralisk.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": true,
+        "sort": 2
+      }
+    ],
+    "Level13": [
+      {
+        "linkId": "KerriganPrimalGraspPsionicBarrier|KerriganPrimalGraspPsionicBarrier|E|Level13",
+        "talentId": "KerriganPrimalGraspPsionicBarrier",
+        "buttonId": "KerriganPrimalGraspPsionicBarrier",
+        "abilityId": "KerriganPrimalGrasp",
+        "icon": "storm_ui_icon_kerrigan_primalgrasp.png",
+        "abilityType": "E",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "KerriganPrimalGrasp|KerriganPrimalGrasp|E"
+        ]
+      },
+      {
+        "linkId": "KerriganAssimilationVolatilePower|KerriganAssimilationVolatilePower|Trait|Level13",
+        "talentId": "KerriganAssimilationVolatilePower",
+        "buttonId": "KerriganAssimilationVolatilePower",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_kerrigan_assimilation.png",
+        "abilityType": "Trait",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": false,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          ":PASSIVE:|KerriganAssimilation|Trait"
+        ]
+      },
+      {
+        "linkId": "KerriganChrysalis|KerriganChrysalis|Active|Level13",
+        "talentId": "KerriganChrysalis",
+        "buttonId": "KerriganChrysalis",
+        "abilityId": "KerriganChrysalis",
+        "icon": "storm_ui_icon_kerrigan_chrysalis.png",
+        "toggleCooldown": 0.5,
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      }
+    ],
+    "Level16": [
+      {
+        "linkId": "KerriganRavageMountingPotency|KerriganRavageMountingPotency|Q|Level16",
+        "talentId": "KerriganRavageMountingPotency",
+        "buttonId": "KerriganRavageMountingPotency",
+        "abilityId": "KerriganRavage",
+        "icon": "storm_ui_icon_kerrigan_ravage.png",
+        "abilityType": "Q",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "KerriganRavage|KerriganRavage|Q"
+        ]
+      },
+      {
+        "linkId": "KerriganImpalingBladesPainfulSpikes|KerriganImpalingBladesPainfulSpikes|W|Level16",
+        "talentId": "KerriganImpalingBladesPainfulSpikes",
+        "buttonId": "KerriganImpalingBladesPainfulSpikes",
+        "abilityId": "KerriganImpalingBlades",
+        "icon": "storm_ui_icon_kerrigan_impalingblades.png",
+        "abilityType": "W",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "KerriganImpalingBlades|KerriganImpalingBlades|W"
+        ]
+      },
+      {
+        "linkId": "KerriganUnbridledEnergy|KerriganUnbridledEnergy|Heroic|Level16",
+        "talentId": "KerriganUnbridledEnergy",
+        "buttonId": "KerriganUnbridledEnergy",
+        "abilityId": "KerriganMaelstrom",
+        "icon": "storm_ui_icon_talent_abilitytalent_damage.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 3,
+        "tooltipAbilityLinkIds": [
+          "KerriganMaelstrom|KerriganMaelstrom|Heroic",
+          "KerriganSummonUltralisk|KerriganSummonUltralisk|Heroic"
+        ]
+      }
+    ],
+    "Level20": [
+      {
+        "linkId": "KerriganOmegastormMaelstrom|KerriganMaelstromOmegastormTalent|Heroic|Level20",
+        "talentId": "KerriganOmegastormMaelstrom",
+        "buttonId": "KerriganMaelstromOmegastormTalent",
+        "abilityId": "KerriganMaelstrom",
+        "icon": "storm_ui_icon_kerrigan_maelstrom.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 1,
+        "tooltipAbilityLinkIds": [
+          "KerriganMaelstrom|KerriganMaelstrom|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "KerriganHeroicAbilityMaelstrom"
+        ]
+      },
+      {
+        "linkId": "KerriganTorrasqueSummonUltralisk|KerriganSummonUltraliskTorrasqueTalent|Heroic|Level20",
+        "talentId": "KerriganTorrasqueSummonUltralisk",
+        "buttonId": "KerriganSummonUltraliskTorrasqueTalent",
+        "abilityId": "KerriganSummonUltralisk",
+        "icon": "storm_ui_icon_kerrigan_ultralisk.png",
+        "abilityType": "Heroic",
+        "isQuest": false,
+        "upgradesAbilityType": true,
+        "hasHotkey": true,
+        "sort": 2,
+        "tooltipAbilityLinkIds": [
+          "KerriganSummonUltralisk|KerriganSummonUltralisk|Heroic"
+        ],
+        "prerequisiteTalentIds": [
+          "KerriganHeroicAbilitySummonUltralisk"
+        ]
+      },
+      {
+        "linkId": "KerriganAssimilationAssimilationBlades|KerriganAssimilationBlades|Passive|Level20",
+        "talentId": "KerriganAssimilationAssimilationBlades",
+        "buttonId": "KerriganAssimilationBlades",
+        "abilityId": ":PASSIVE:",
+        "icon": "storm_ui_icon_talent_autoattack_damage.png",
+        "abilityType": "Passive",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 3
+      },
+      {
+        "linkId": "KerriganPsionicShift|KerriganPsionicShift|Active|Level20",
+        "talentId": "KerriganPsionicShift",
+        "buttonId": "KerriganPsionicShift",
+        "abilityId": "KerriganPsionicShift",
+        "icon": "storm_ui_icon_talent_boltofthestorm.png",
+        "abilityType": "Active",
+        "isQuest": false,
+        "upgradesAbilityType": false,
+        "hasHotkey": false,
+        "sort": 4
+      }
+    ]
+  },
+  "sheet": "sheets/Kerrigan.webp",
+  "icons": {
+    "storm_ui_icon_kerrigan_ravage.png": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_kerrigan_impalingblades.png": [
+      128,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_kerrigan_primalgrasp.png": [
+      256,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_kerrigan_ultralisk.png": [
+      384,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_kerrigan_maelstrom.png": [
+      512,
+      0,
+      128,
+      128
+    ],
+    "storm_ui_icon_kerrigan_assimilation.png": [
+      0,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_mount.png": [
+      128,
+      128,
+      76,
+      48
+    ],
+    "storm_ui_icon_miscrune_1.png": [
+      256,
+      128,
+      111,
+      71
+    ],
+    "storm_ui_icon_kerrigan_command_ultralisk.png": [
+      384,
+      128,
+      128,
+      128
+    ],
+    "storm_ui_icon_generic_cancel_mount.png": [
+      512,
+      128,
+      76,
+      48
+    ],
+    "hud_btn_bg_ability_cancel.png": [
+      0,
+      256,
+      97,
+      111
+    ],
+    "storm_ui_icon_kerrigan_chrysalis.png": [
+      128,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_boltofthestorm.png": [
+      256,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_autoattack_aoe.png": [
+      384,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_kerrigan_ravage_b.png": [
+      512,
+      256,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_autoattack_cooldown.png": [
+      0,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_abilitytalent_damage.png": [
+      128,
+      384,
+      128,
+      128
+    ],
+    "storm_ui_icon_talent_autoattack_damage.png": [
+      256,
+      384,
+      128,
+      128
+    ]
+  }
+}

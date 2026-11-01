@@ -1,14 +1,23 @@
 name: Build, Pack & Publish
 
+# Runs when a release PR is merged, or when update.yml dispatches it on release/main with the
+# merged PR's number: merges made with a workflow's own token start no workflows, dispatches do.
+
 on:
   pull_request:
     types: [closed]
     branches:
       - 'release/**'
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: 'The merged release PR (run on its release branch)'
+        required: true
+        type: string
 
 jobs:
   build-pack:
-    if: github.event.pull_request.merged == true
+    if: github.event_name == 'workflow_dispatch' || github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -17,17 +26,17 @@ jobs:
     steps:
       - uses: actions/checkout@v7
         with:
-          ref: ${{ github.event.pull_request.merge_commit_sha }}
+          ref: ${{ github.event.pull_request.merge_commit_sha || github.sha }}
 
       - name: Build and Pack
         uses: cpdevtools/git-flow/actions/build-pack@main
         with:
-          pr-number: ${{ github.event.pull_request.number }}
+          pr-number: ${{ github.event.pull_request.number || inputs.pr_number }}
           token: ${{ secrets.GITHUB_TOKEN }}
 
   publish-release:
     needs: build-pack
-    if: github.event.pull_request.merged == true
+    if: github.event_name == 'workflow_dispatch' || github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -38,10 +47,10 @@ jobs:
     steps:
       - uses: actions/checkout@v7
         with:
-          ref: ${{ github.event.pull_request.merge_commit_sha }}
+          ref: ${{ github.event.pull_request.merge_commit_sha || github.sha }}
 
       - name: Publish Release
         uses: cpdevtools/git-flow/actions/publish-release@main
         with:
-          pr-number: ${{ github.event.pull_request.number }}
+          pr-number: ${{ github.event.pull_request.number || inputs.pr_number }}
           token: ${{ secrets.GITHUB_TOKEN }}

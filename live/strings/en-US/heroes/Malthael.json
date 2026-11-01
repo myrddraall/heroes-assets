@@ -1,0 +1,209 @@
+{
+  "abilities": {
+    "MalthaelSoulRip|MalthaelSoulRip|Q": {
+      "cooldownText": "Cooldown: 2 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 25</s>",
+      "fullText": "Extract the souls of nearby enemies afflicted by <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Reaper's Mark</c>, dealing <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage and healing Malthael for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> per target hit. Heroic targets heal Malthael for an additional <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4%</c> of the Hero's maximum Health.",
+      "name": "Soul Rip",
+      "shortText": "Damage Marked enemies and heal"
+    },
+    "MalthaelWraithStrike|MalthaelWraithStrike|W": {
+      "cooldownText": "Cooldown: 5 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 30</s>",
+      "fullText": "Instantly teleport through an enemy afflicted by <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Reaper's Mark</c>, dealing <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">59</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage and refreshing <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Reaper's Mark</c>.",
+      "name": "Wraith Strike",
+      "shortText": "Teleport to a Marked target"
+    },
+    "MalthaelDeathShroud|MalthaelDeathShroud|E": {
+      "cooldownText": "Cooldown: 8 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 50</s>",
+      "fullText": "After <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.25</c> seconds, unleash a wave of dark mist that applies <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Reaper's Mark</c> to enemies it hits.",
+      "name": "Death Shroud",
+      "shortText": "Unleash a wave that applies Reaper's Mark"
+    },
+    "MalthaelTormentedSouls|MalthaelTormentedSouls|Heroic": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 20</s>",
+      "fullText": "Unleash a torrent of souls, continually applying <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Reaper's Mark</c> to nearby enemies for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> seconds.<n/><n/>Tormented Souls resets the cooldown of Wraith Strike when activated, and while active, Wraith Strike costs no Mana its cooldown is reduced to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> seconds.",
+      "name": "Tormented Souls",
+      "shortText": "Apply Reaper's Mark to nearby enemies"
+    },
+    "MalthaelLastRites|MalthaelLastRites|Heroic": {
+      "cooldownText": "Cooldown: 70 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 100</s>",
+      "fullText": "Apply a death sentence to an enemy Hero that, after <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> seconds, deals damage equal to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> of their missing Health.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Quest:</c> Enemies killed between the application of Last Rites and within <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> seconds of it dealing damage permanently reduce its cooldown by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> seconds, to a minimum of <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c> seconds.",
+      "name": "Last Rites",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Quest:</c> Damage a Hero based on their missing Health"
+    },
+    ":PASSIVE:|MalthaelReapersMark|Trait": {
+      "fullText": "Basic Attacks cleave in an area in front of Malthael and afflict non-Structure targets with <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Reaper's Mark</c> for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> seconds. Marked enemies are revealed and take damage equal to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2%</c> of their maximum Health every <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> second.",
+      "name": "Reaper's Mark",
+      "shortText": "Basic Attacks cleave, apply Reaper's Mark"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "Cooldown: 4 seconds",
+      "fullText": "After Channeling for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> second, gain <s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s> Movement Speed.",
+      "name": "Summon Mount"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "After Channeling for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> seconds, teleport back to the Hall of Storms, instantly restoring <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c> Health and <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c> Mana.",
+      "name": "Hearthstone"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "Dismounts you.",
+      "name": "Unsummon Mount"
+    },
+    "MalthaelFearTheReaper|MalthaelFearTheReaper|Active": {
+      "cooldownText": "Cooldown: 25 seconds",
+      "fullText": "Activate to increase Movement Speed by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> and pass through other units for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> seconds.",
+      "name": "Fear the Reaper",
+      "shortText": "Activate to increase Movement Speed"
+    },
+    "MalthaelTouchOfDeath|MalthaelTouchOfDeath|Active": {
+      "cooldownText": "Cooldown: 20 seconds",
+      "fullText": "Activate to reduce healing received by Heroes afflicted by <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Reaper's Mark</c> by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> seconds.",
+      "name": "Touch of Death",
+      "shortText": "Activate to reduce enemy healing"
+    },
+    "MalthaelInevitableEnd|MalthaelInevitableEnd|Active": {
+      "cooldownText": "Cooldown: 20 seconds",
+      "fullText": "Activate to become Unstoppable for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> seconds, but remove all active <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Reaper's Marks</c>.",
+      "name": "Inevitable End",
+      "shortText": "Activate to become Unstoppable, remove Marks"
+    },
+    "MalthaelShroudOfWisdom|MalthaelShroudOfWisdom|Active": {
+      "cooldownText": "Cooldown: 20 seconds",
+      "fullText": "After <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> seconds, gain <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50</c> Spell Armor for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> seconds.",
+      "name": "Shroud of Wisdom",
+      "shortText": "Activate to gain Spell Armor"
+    },
+    "MalthaelNoOneCanStopDeath|MalthaelNoOneCanStopDeath|Active": {
+      "cooldownText": "Cooldown: 180 seconds",
+      "fullText": "Activate while dead to immediately respawn at the Hall of Storms but increase Malthael's next respawn time by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>.",
+      "name": "No One Can Stop Death",
+      "shortText": "Activate to respawn"
+    }
+  },
+  "talents": {
+    "MalthaelDeathsReach|MalthaelDeathsReach|W|Level1": {
+      "fullText": "Increase Wraith Strike's range by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35%</c>.",
+      "name": "Death's Reach",
+      "shortText": "Increase Wraith Strike range"
+    },
+    "MalthaelOnAPaleHorse|MalthaelOnAPaleHorse|Passive|Level1": {
+      "fullText": "Gain an additional <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> Movement Speed while mounted.",
+      "name": "On a Pale Horse",
+      "shortText": "Increase mounted Movement Speed"
+    },
+    "MalthaelFearTheReaper|MalthaelFearTheReaper|Active|Level1": {
+      "cooldownText": "Cooldown: 25 seconds",
+      "fullText": "Activate to increase Movement Speed by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> and pass through other units for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> seconds.",
+      "name": "Fear the Reaper",
+      "shortText": "Activate to increase Movement Speed"
+    },
+    "MalthaelDieAlone|MalthaelDieAlone|Q|Level4": {
+      "fullText": "Soul Rip deals <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> more damage to Heroes if it hits only one Hero.",
+      "name": "Die Alone",
+      "shortText": "Increase Soul Rip single-target damage"
+    },
+    "MalthaelThrowingShade|MalthaelThrowingShade|E|Level4": {
+      "fullText": "Increase Death Shroud's range by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">33%</c>, reduce its cooldown by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> seconds, and reduce its Mana cost from <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50</c> to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30</c>.<n/><n/>Death Shroud's initial impact deals <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2%</c> maximum Health as damage to non-Structure enemies.",
+      "name": "Throwing Shade",
+      "shortText": "Increase Death Shroud range, reduce cooldown"
+    },
+    "MalthaelBlackHarvest|MalthaelBlackHarvest|Trait|Level4": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Quest:</c> Apply <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Reaper's Mark</c> to Heroes for a total of <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c> seconds.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Reward:</c> Permanently increase <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Reaper's Mark's</c> duration by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> seconds.",
+      "name": "Black Harvest",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Quest:</c> Increase Reaper's Mark duration"
+    },
+    "MalthaelColdHand|MalthaelColdHand|Q|Level7": {
+      "fullText": "Soul Rip Slows enemies by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c> seconds.",
+      "name": "Cold Hand",
+      "shortText": "Soul Rip Slows"
+    },
+    "MalthaelMassacre|MalthaelMassacre|W|Level7": {
+      "fullText": "Wraith Strike now damages and applies <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Reaper's Mark</c> to enemies around its target.",
+      "name": "Massacre",
+      "shortText": "Wraith Strike hits an area"
+    },
+    "MalthaelTouchOfDeath|MalthaelTouchOfDeath|Active|Level7": {
+      "cooldownText": "Cooldown: 20 seconds",
+      "fullText": "Activate to reduce healing received by Heroes afflicted by <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Reaper's Mark</c> by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> seconds.",
+      "name": "Touch of Death",
+      "shortText": "Activate to reduce enemy healing"
+    },
+    "MalthaelTormentedSouls|MalthaelTormentedSouls|Heroic|Level10": {
+      "cooldownText": "Cooldown: 60 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 20</s>",
+      "fullText": "Unleash a torrent of souls, continually applying <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Reaper's Mark</c> to nearby enemies for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> seconds.<n/><n/>Tormented Souls resets the cooldown of Wraith Strike when activated, and while active, Wraith Strike costs no Mana its cooldown is reduced to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> seconds.",
+      "name": "Tormented Souls",
+      "shortText": "Apply Reaper's Mark to nearby enemies"
+    },
+    "MalthaelLastRites|MalthaelLastRites|Heroic|Level10": {
+      "cooldownText": "Cooldown: 70 seconds",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 100</s>",
+      "fullText": "Apply a death sentence to an enemy Hero that, after <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> seconds, deals damage equal to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> of their missing Health.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Quest:</c> Enemies killed between the application of Last Rites and within <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> seconds of it dealing damage permanently reduce its cooldown by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> seconds, to a minimum of <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c> seconds.",
+      "name": "Last Rites",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Quest:</c> Damage a Hero based on their missing Health"
+    },
+    "MalthaelSoulSiphon|MalthaelSoulSiphon|Q|Level13": {
+      "fullText": "Increase Soul Rip's bonus healing from Heroes to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4.75%</c> of the Hero's maximum Health.",
+      "name": "Soul Siphon",
+      "shortText": "Increase Soul Rip healing"
+    },
+    "MalthaelEtherealExistence|MalthaelEtherealExistence|Trait|Level13": {
+      "fullText": "Gain <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> Physical Armor per enemy Hero afflicted by <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Reaper's Mark</c>, up to a maximum of <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30</c>.",
+      "name": "Ethereal Existence",
+      "shortText": "Marked targets grant Physical Armor"
+    },
+    "MalthaelInevitableEnd|MalthaelInevitableEnd|Active|Level13": {
+      "cooldownText": "Cooldown: 20 seconds",
+      "fullText": "Activate to become Unstoppable for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> seconds, but remove all active <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Reaper's Marks</c>.",
+      "name": "Inevitable End",
+      "shortText": "Activate to become Unstoppable, remove Marks"
+    },
+    "MalthaelShroudOfWisdom|MalthaelShroudOfWisdom|Active|Level13": {
+      "cooldownText": "Cooldown: 20 seconds",
+      "fullText": "After <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> seconds, gain <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50</c> Spell Armor for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> seconds.",
+      "name": "Shroud of Wisdom",
+      "shortText": "Activate to gain Spell Armor"
+    },
+    "MalthaelSoulCollector|MalthaelSoulCollector|Q|Level16": {
+      "fullText": "Reduce Soul Rip's cooldown by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.5</c> seconds and increase its range by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>.",
+      "name": "Soul Collector",
+      "shortText": "Increase Soul Rip range, reduce cooldown"
+    },
+    "MalthaelMortality|MalthaelMortality|W|Level16": {
+      "fullText": "When damaging a Hero, Wraith Strike deals bonus damage equal to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8%</c> of the Hero's maximum Health.",
+      "name": "Mortality",
+      "shortText": "Wraith Strike deals bonus damage to Heroes"
+    },
+    "MalthaelMementoMori|MalthaelMementoMori|Trait|Level16": {
+      "fullText": "<c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Reaper's Mark</c> deals <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60%</c> increased damage after afflicting an enemy for more than <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> seconds.",
+      "name": "Memento Mori",
+      "shortText": "Reaper's Mark deals increased damage over time"
+    },
+    "MalthaelReaperOfSouls|MalthaelReaperOfSouls|Heroic|Level20": {
+      "fullText": "Increase the duration of Tormented Souls to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> seconds, and while Tormented Souls is active, Hero Takedowns refresh its duration.<n/><n/>If <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c> or more enemy Heroes are in Tormented Souls' radius, it does not decay.",
+      "name": "Reaper of Souls",
+      "shortText": "Extend Tormented Souls duration"
+    },
+    "MalthaelAngelOfDeath|MalthaelAngelOfDeath|Heroic|Level20": {
+      "fullText": "Last Rites heals for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> of the damage dealt, and its current and future cooldown reduction bonuses are doubled.",
+      "name": "Angel of Death",
+      "shortText": "Last Rites heals"
+    },
+    "MalthaelFinalCurtain|MalthaelFinalCurtain|E|Level20": {
+      "fullText": "Death Shroud leaves a trail in its wake for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c> seconds, applying <c val=\"00DFDF\" hlt-name=\"#MalthaelTrait\">Reaper's Mark</c> to enemies in its area.",
+      "name": "Final Curtain",
+      "shortText": "Death Shroud leaves a trail"
+    },
+    "MalthaelNoOneCanStopDeath|MalthaelNoOneCanStopDeath|Active|Level20": {
+      "cooldownText": "Cooldown: 180 seconds",
+      "fullText": "Activate while dead to immediately respawn at the Hall of Storms but increase Malthael's next respawn time by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>.",
+      "name": "No One Can Stop Death",
+      "shortText": "Activate to respawn"
+    }
+  },
+  "units": {}
+}

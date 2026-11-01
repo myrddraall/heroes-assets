@@ -1,0 +1,203 @@
+{
+  "abilities": {
+    "WizardMagicMissiles|WizardMagicMissiles|Q": {
+      "cooldownText": "재사용 대기시간: 3초",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">마나: 20</s>",
+      "fullText": "대상 위치를 향해 세 발의 마력탄을 발사합니다. 각 마력탄은 처음 적중한 적에게 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">147</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.035~~</c>의 피해를 줍니다. 구조물에는 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>의 피해를 줍니다.",
+      "name": "마력탄",
+      "shortText": "다수의 마력탄 발사"
+    },
+    "WizardArcaneOrb|WizardArcaneOrb|W": {
+      "cooldownText": "재사용 대기시간: 8초",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">마나: 40</s>",
+      "fullText": "날아가면서 점점 강해지는 보주를 발사하여 처음 적중한 적에게 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">135</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.03~~</c>의 피해를 줍니다. 보주가 날아간 거리에 따라 공격력이 증가하여 최대 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">270</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.03~~</c>의 추가 피해를 줍니다.",
+      "name": "비전 보주",
+      "shortText": "멀리 날아갈수록 공격력이 증가하는 보주 발사"
+    },
+    "WizardTeleport|WizardTeleport|E": {
+      "cooldownText": "재사용 대기시간: 5초",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">마나: 30</s>",
+      "fullText": "짧은 거리를 순간이동합니다.",
+      "name": "순간이동",
+      "shortText": "짧은 거리 순간이동"
+    },
+    "WizardDisintegrate|WizardDisintegrate|Heroic": {
+      "cooldownText": "재사용 대기시간: 20초",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">마나: 80</s>",
+      "fullText": "정신을 집중하며 강력한 광선을 발사해 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.6</c>초에 걸쳐 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">480</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.05~~</c>의 피해를 줍니다. 광선의 방향은 마우스 커서의 위치에 따라 바뀝니다.",
+      "name": "파열",
+      "shortText": "정신을 집중하여 긴 사거리를 지닌 광선 발사"
+    },
+    "WizardWaveOfForce|WizardWaveOfForce|Heroic": {
+      "cooldownText": "재사용 대기시간: 30초",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">마나: 80</s>",
+      "fullText": "대상 위치에 있는 적들을 밀쳐내고 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">160</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.05~~</c>의 피해를 줍니다.",
+      "name": "힘의 파동",
+      "shortText": "적에게 피해를 주고 밀쳐냄"
+    },
+    ":PASSIVE:|WizardTraitCriticalMass|Trait": {
+      "fullText": "영웅을 처치하면 모든 기술의 재사용 대기시간이 즉시 초기화됩니다.",
+      "name": "극대화 반응",
+      "shortText": "적 영웅 처치 시 모든 기술 즉시 재사용 가능"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "재사용 대기시간: 4초",
+      "fullText": "<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>초 동안 정신을 집중한 후, 이동 속도가 <s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s> 증가합니다.",
+      "name": "탈것 소환"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c>초 동안 정신을 집중한 후, 폭풍의 전당으로 귀환하여 즉시 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c>의 생명력과 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c>의 마나를 회복합니다.",
+      "name": "귀환석"
+    },
+    "WizardArchonPurePowerDisintegrateCancel|WizardArchonPurePowerDisintegrateCancel|Heroic": {
+      "fullText": "마인: 순수한 힘 파열을 취소합니다.",
+      "name": "파열 취소"
+    },
+    "WizardDisintegrateCancel|WizardDisintegrateCancel|Heroic": {
+      "fullText": "파열을 취소합니다.",
+      "name": "파열 (취소)"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "탈것에서 내립니다.",
+      "name": "탈것 소환 해제"
+    },
+    "WizardArchonPurePowerDisintegrate|WizardArchonPurePowerDisintegrate|Heroic": {
+      "fullText": "정신을 집중하여 강력한 광선을 발사해 초당 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">192</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.05~~</c>의 피해를 줍니다. 광선의 방향은 마우스 커서의 위치에 따라 바뀝니다.",
+      "name": "파열",
+      "shortText": "정신을 집중하여 긴 광선 발사"
+    },
+    "WizardArchonPurePower|WizardArchonPurePowerHotbarCancel|Active": {
+      "cooldownText": "재사용 대기시간: 10초",
+      "fullText": "마인: 순수한 힘을 취소합니다.",
+      "name": "마인: 순수한 힘 취소",
+      "shortText": "마인: 순수한 힘 취소"
+    },
+    "WizardTeleportIllusionist|WizardTeleportIllusionistHotbar|E": {
+      "cooldownText": "재사용 대기시간: 4초",
+      "fullText": "한 번에 최대 생명력의 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> 이상을 잃으면 순간이동의 재사용 대기시간이 즉시 초기화됩니다.<n/><n/><c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>초에 한 번씩만 발동합니다.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">지속 효과:</c> 순간이동의 사거리가 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> 증가합니다.",
+      "name": "환영술사"
+    },
+    "WizardArchonPurePower|WizardArchonPurePowerHotbar|Active": {
+      "fullText": "마인으로 변신하여 파열을 무제한으로 사용할 수 있지만, 이 동안 다른 기술을 사용할 수 없습니다.",
+      "name": "마인: 순수한 힘",
+      "shortText": "파열을 무제한으로 사용할 수 있지만 다른 기술 사용 불가"
+    }
+  },
+  "talents": {
+    "WizardForceArmor|WizardForceArmorTalent|Q|Level1": {
+      "fullText": "마력탄으로 적 영웅에게 피해를 주면 기술 방어력이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50</c> 증가하여 다음 기술 공격으로 받는 피해가 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> 감소합니다. 마력탄을 한 번 시전할 때마다 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>회 충전되어 최대 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>회 충전됩니다.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">지속 효과:</c> 마나가 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35%</c> 미만이면 마나 재생량이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> 증가합니다.",
+      "name": "힘의 갑옷",
+      "shortText": "마력탄이 기술 방어력을 증가시킴"
+    },
+    "WizardAetherWalker|WizardAetherWalkerTalent|E|Level1": {
+      "fullText": "순간이동이 마나를 소모하지 않습니다. <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>초 동안 피해를 받지 않으면 순간이동의 재사용 대기시간이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>초 감소합니다. 순간이동을 사용하면 다음 마력탄이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c>의 추가 피해를 줍니다. ",
+      "name": "구름밟이",
+      "shortText": "비전투 시 순간이동 재사용 대기시간 감소"
+    },
+    "WizardPowerHungry|WizardPowerHungryTalent|Passive|Level1": {
+      "fullText": "재생의 구슬로 회복하는 마나가 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> 증가하고, 구슬 획득 후 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c>초 동안 기술 위력이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10%</c> 증가합니다.",
+      "name": "비전력 갈구",
+      "shortText": "재생의 구슬 획득 시 기술 위력 증가 및 마나 추가 회복"
+    },
+    "WizardMagicMissilesChargedBlast|WizardMagicMissilesChargedBlastTalent|Q|Level4": {
+      "fullText": "최근 마력탄이 적중한 적에게 일반 공격 시 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">87</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 추가 피해를 줍니다.",
+      "name": "마력 작렬",
+      "shortText": "일반 공격이 마력탄 적중 대상에게 추가 피해"
+    },
+    "WizardArcaneOrbTriumvirate|WizardArcaneOrbTriumvirateTalent|W|Level4": {
+      "fullText": "비전 보주가 기본 사거리의 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> 이상을 이동한 후 적 영웅에게 적중하면 재사용 대기시간이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>초 감소하고 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40</c>의 마나를 돌려받습니다.",
+      "name": "삼중구",
+      "shortText": "최대 거리에서 폭발 시 재사용 대기시간 감소"
+    },
+    "WizardDominance|WizardDominanceTalent|Trait|Level4": {
+      "fullText": "영웅을 처치하면 잃은 생명력의 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c>를 회복합니다.",
+      "name": "우월",
+      "shortText": "적 영웅 처치 시 생명력 회복"
+    },
+    "WizardMagicMissilesSeeker|WizardMagicMissilesSeekerTalent|Q|Level7": {
+      "fullText": "세 발의 마력탄이 모두 한 대상에게 적중하면 그중 세 번째 마력탄은 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">140</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 추가 피해를 줍니다.",
+      "name": "집중탄",
+      "shortText": "단일 대상 적중 시 추가 피해"
+    },
+    "WizardArcaneOrbZeisVengeance|WizardArcaneOrbZeisVengeanceTalent|W|Level7": {
+      "fullText": "비전 보주가 이동 거리에 따라 공격력이 최대 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c> 증가합니다. 비전 보주의 재사용 대기시간이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>초 감소합니다.",
+      "name": "제이의 복수",
+      "shortText": "비전 보주가 멀리 있는 적에게 적중 시 추가 피해"
+    },
+    "WizardTeleportCalamity|WizardTeleportCalamityTalent|E|Level7": {
+      "fullText": "순간이동한 후 주위 적 영웅들에게 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">300</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.03~~</c>의 피해를 줍니다.",
+      "name": "재앙",
+      "shortText": "순간이동하면 피해를 줌"
+    },
+    "WizardHeroicAbilityDisintegrate|WizardDisintegrate|Heroic|Level10": {
+      "cooldownText": "재사용 대기시간: 20초",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">마나: 80</s>",
+      "fullText": "정신을 집중하며 강력한 광선을 발사해 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.6</c>초에 걸쳐 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">480</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.05~~</c>의 피해를 줍니다. 광선의 방향은 마우스 커서의 위치에 따라 바뀝니다.",
+      "name": "파열",
+      "shortText": "정신을 집중하여 긴 사거리를 지닌 광선 발사"
+    },
+    "WizardHeroicAbilityWaveOfForce|WizardWaveOfForce|Heroic|Level10": {
+      "cooldownText": "재사용 대기시간: 30초",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">마나: 80</s>",
+      "fullText": "대상 위치에 있는 적들을 밀쳐내고 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">160</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.05~~</c>의 피해를 줍니다.",
+      "name": "힘의 파동",
+      "shortText": "적에게 피해를 주고 밀쳐냄"
+    },
+    "WizardTeleportIllusionist|WizardTeleportIllusionistTalent|E|Level13": {
+      "fullText": "한 번에 최대 생명력의 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> 이상을 잃으면 순간이동의 재사용 대기시간이 즉시 초기화됩니다.<n/><n/><c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>초에 한 번씩만 발동합니다.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">지속 효과:</c> 순간이동의 사거리가 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> 증가합니다.",
+      "name": "환영술사",
+      "shortText": "순간이동 사거리 증가 및 피해를 받으면 재사용 대기시간 초기화"
+    },
+    "WizardCannoneer|WizardCannoneerTalent|Passive|Level13": {
+      "fullText": "기술을 사용하면 다음 일반 공격의 공격력이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75%</c> 증가하고 물리 피해가 아닌 기술 피해를 줍니다. 최대 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>회 중첩됩니다.",
+      "name": "포병",
+      "shortText": "기술을 사용하면 다음 일반 공격 강화"
+    },
+    "WizardGlassCannon|WizardGlassCannonTalent|Passive|Level13": {
+      "fullText": "기술 위력이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> 증가하지만, 최대 생명력이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c> 감소합니다.",
+      "name": "유리 대포",
+      "shortText": "기술 위력이 증가하지만 최대 생명력 감소"
+    },
+    "WizardFireflies|WizardFireflies|Q|Level16": {
+      "fullText": "마력탄의 속도가 급격히 증가하고 재사용 대기시간이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>초 감소하며 마나 소모량이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> 감소합니다.",
+      "name": "불꽃탄",
+      "shortText": "마력탄 속도 증가, 마나 소모량 및 재사용 대기시간 감소"
+    },
+    "WizardMagicMissilesMirrorball|WizardMagicMissilesMirrorballTalent|Q|Level16": {
+      "fullText": "<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>발의 마력탄을 추가로 발사하지만, 마나 소모량이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> 증가합니다.",
+      "name": "거울공",
+      "shortText": "발사하는 마력탄이 2발 증가하지만 마나 소모량 증가"
+    },
+    "WizardArcaneOrbArcaneOrbit|WizardArcaneOrbArcaneOrbitTalent|W|Level16": {
+      "fullText": "비전 보주의 사거리가 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> 증가하여 최대 피해가 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">270</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.03~~</c>에서 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">371</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.03~~</c><lang rule=\"jongsung\">으로,로</lang> 증가합니다.",
+      "name": "공전 보주",
+      "shortText": "비전 보주 사거리 증가"
+    },
+    "WizardTeleportDiamondSkin|WizardTeleportDiamondSkinTalent|E|Level16": {
+      "fullText": "순간이동을 사용하면 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>초 동안 최대 생명력의 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>에 해당하는 보호막을 얻습니다.",
+      "name": "다이아몬드 피부",
+      "shortText": "순간이동 사용 시 보호막 획득"
+    },
+    "WizardDisintegrateTemporalFlux|WizardDisintegrateTemporalFluxTalent|Heroic|Level20": {
+      "fullText": "파열에 영향을 받는 적들이 점점 느려져 최대 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60%</c>까지 느려집니다.",
+      "name": "시간 유동",
+      "shortText": "파열이 적을 느려지게 함"
+    },
+    "WizardWaveOfForceRepulsion|WizardWaveOfForceRepulsionTalent|Heroic|Level20": {
+      "fullText": "힘의 파동이 밀쳐내는 거리가 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">175%</c> 증가하고, 시전 사거리가 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">95%</c> 증가합니다.",
+      "name": "반발력",
+      "shortText": "사거리 및 밀쳐내는 거리 증가"
+    },
+    "WizardTalRashasElements|WizardTalRashasElementsTalent|Passive|Level20": {
+      "fullText": "서로 다른 기술을 사용할 때마다 다음 기술의 공격력이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5%</c> 증가하여 최대 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> 증가합니다. 기술을 모두 사용하기 전에 이미 사용한 기술을 사용하면 효과가 사라집니다.",
+      "name": "탈 라샤의 덕목",
+      "shortText": "기술 번갈아 사용 시 공격력 증가"
+    },
+    "WizardArchonPurePower|WizardArchonPurePowerHotbar|Active|Level20": {
+      "fullText": "마인으로 변신하여 파열을 무제한으로 사용할 수 있지만, 이 동안 다른 기술을 사용할 수 없습니다.",
+      "name": "마인: 순수한 힘",
+      "shortText": "파열을 무제한으로 사용할 수 있지만 다른 기술 사용 불가"
+    }
+  },
+  "units": {}
+}

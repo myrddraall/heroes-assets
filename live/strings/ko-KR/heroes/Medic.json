@@ -1,0 +1,213 @@
+{
+  "abilities": {
+    "MedicHealingBeam|MedicHealingBeam|Q": {
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">기력: 초당 6</s>",
+      "fullText": "대상 아군 영웅 또는 돌격병에게 치료 광선을 발사하여 가까이 머물러 있는 동안 초당 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">172</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 생명력을 회복시킵니다. 치료 광선을 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>초 동안 시전하지 않으면 초당 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c>의 기력을 회복합니다. <n/><n/>다시 사용하면 대상을 바꿀 수 있고, 자신에게 사용하면 정신 집중이 취소됩니다.",
+      "name": "치료 광선",
+      "shortText": "아군 지속 치유"
+    },
+    "MedicSafeguard|MedicSafeguard|W": {
+      "cooldownText": "재사용 대기시간: 11초",
+      "fullText": "대상 아군 영웅의 방어력을 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>초 동안 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35</c> 증가시킵니다.",
+      "name": "보호기",
+      "shortText": "대상의 방어력을 증가시킴"
+    },
+    "MedicDisplacementGrenade|MedicDisplacementGrenade|E": {
+      "cooldownText": "재사용 대기시간: 12초",
+      "fullText": "수동으로 폭발시킬 수 있는 수류탄을 발사하여 적들에게 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">208</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 피해를 주고 밀쳐냅니다.",
+      "name": "변위 수류탄",
+      "shortText": "적에게 피해를 주고 밀쳐냄"
+    },
+    "MedicStimDrone|MedicStimDrone|Heroic": {
+      "cooldownText": "재사용 대기시간: 70초",
+      "fullText": "대상 아군 영웅의 공격 속도를 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75%</c>, 이동 속도를 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> 증가시킵니다. <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c>초 동안 지속됩니다.",
+      "name": "전투 자극 비행체",
+      "shortText": "공격 및 이동 속도를 크게 증가시킴"
+    },
+    "MedicMedivacDropship|MedicMedivacDropship|Heroic": {
+      "cooldownText": "재사용 대기시간: 45초",
+      "fullText": "의료선으로 아군을 수송할 목표 지점을 선택합니다. 의료선은 최대 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c>초 후에 이륙하고, 아군들은 그 전에 의료선을 우클릭하여 탑승할 수 있습니다.",
+      "name": "의료선",
+      "shortText": "멀리 떨어진 장소로 아군 수송"
+    },
+    ":PASSIVE:|MedicCaduceusReactor|Trait": {
+      "fullText": "치료 광선을 시전하는 동안 매초 최대 생명력의 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2%</c>를 회복합니다.",
+      "name": "카두세우스 반응로",
+      "shortText": "치료 광선 시전 중 생명력 회복"
+    },
+    "Mount|SummonMount|Z": {
+      "cooldownText": "재사용 대기시간: 4초",
+      "fullText": "<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>초 동안 정신을 집중한 후, 이동 속도가 <s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s> 증가합니다.",
+      "name": "탈것 소환"
+    },
+    "Hearthstone|Hearthstone|B": {
+      "fullText": "<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c>초 동안 정신을 집중한 후, 폭풍의 전당으로 귀환하여 즉시 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c>의 생명력과 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c>의 마나를 회복합니다.",
+      "name": "귀환석"
+    },
+    "MedicRedirectHealingBeam|MedicRedirectHealingBeam|Q": {
+      "fullText": "치료 광선을 다른 영웅 또는 돌격병에게 사용합니다. 자신에게 사용하면 정신 집중이 취소됩니다.",
+      "name": "치료 광선 대상 변경",
+      "shortText": "아군 지속 치유"
+    },
+    "MedicCancelHealingBeam|MedicCancelHealingBeam|Trait": {
+      "fullText": "치료 광선의 정신 집중을 중단합니다.",
+      "name": "치료 광선 취소"
+    },
+    "MedicDetonateDisplacementGrenade|MedicDetonateDisplacementGrenade|E": {
+      "cooldownText": "재사용 대기시간: 12초",
+      "fullText": "변위 수류탄을 폭발시켜 주위 적들에게 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">208</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 피해를 주고 밀쳐냅니다.",
+      "name": "변위 수류탄 폭발",
+      "shortText": "적에게 피해를 주고 밀쳐냄"
+    },
+    "MedicReinforcements|MedicMedivacDropshipDepartReinforcementsTalent|Heroic": {
+      "cooldownText": "재사용 대기시간: 45초",
+      "fullText": "기술을 사용했던 위치로 지원 병력 의료선이 비행하도록 명령합니다.",
+      "name": "이륙"
+    },
+    "Dismount|UnsummonMount|Z": {
+      "fullText": "탈것에서 내립니다.",
+      "name": "탈것 소환 해제"
+    },
+    "MedicCellularReactor|MedicCellularReactorTalentAbilityFace|Active": {
+      "cooldownText": "재사용 대기시간: 20초",
+      "fullText": "기력을 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30</c> 소비하여 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>초에 걸쳐 최대 생명력의 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c>를 회복합니다. 이 동안 카두세우스 반응로가 비활성화됩니다.",
+      "name": "셀 방식 반응로",
+      "shortText": "기력을 소비하여 생명력 회복, 보호기로 기력 회복"
+    },
+    "MedicTraumaTriggerAbility|MedicTraumaTriggerItemButtonTalent|Passive": {
+      "cooldownText": "재사용 대기시간: 30초",
+      "fullText": "생명력이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> 미만인 상태에서 피해를 받으면 방어력이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>초 동안 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40</c> 증가합니다. 이 효과는 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30</c>초에 한 번씩만 발동합니다.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">지속 효과:</c> 카두세우스 반응로의 초당 치유량이 최대 생명력의 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2%</c>에서 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4%</c>로 증가합니다.",
+      "name": "트라우마 방지기",
+      "shortText": "생명력이 낮을 때 방어력 증가"
+    },
+    "MedicReinforcements|MedicReinforcements|Heroic": {
+      "cooldownText": "재사용 대기시간: 45초",
+      "fullText": "사용하면 아군 폭풍의 전당에 지원 병력 의료선을 호출합니다. 지원 병력 의료선은 최대 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c>초 후에 이륙하여 기술을 사용했던 위치로 비행해 탑승객을 내려줍니다. 의료선과 재사용 대기시간을 공유합니다.",
+      "name": "지원 병력",
+      "shortText": "의료선 폭풍의 전당에 호출 가능"
+    },
+    "MedicMedivacDropshipDepart|MedicMedivacDropshipDepart|E": {
+      "fullText": "즉시 이륙하여 대상 위치로 이동합니다.",
+      "name": "이륙"
+    }
+  },
+  "talents": {
+    "MedicCaduceusFeedback|MedicCaduceusFeedbackTalent|Passive|Level1": {
+      "fullText": "일반 공격 사거리가 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.1</c> 증가하고 적 영웅에게 일반 공격을 하면 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4</c>의 기력을 회복합니다.",
+      "name": "카두세우스 피드백",
+      "shortText": "일반 공격 시 기력 회복"
+    },
+    "MedicLifeSupport|MedicLifeSupport|Q|Level1": {
+      "fullText": "기력 회복을 시작하고 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>초 동안 치료 광선이 기력을 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> 추가로 회복시킵니다.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">지속 효과: </c>최대 기력이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> 증가합니다.",
+      "name": "생명 연장",
+      "shortText": "최대 기력 및 기력 회복량 증가"
+    },
+    "MedicClear|MedicClearTalent|E|Level1": {
+      "fullText": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">퀘스트:</c> 변위 수류탄이 적 영웅에게 적중할 때마다 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>의 기력을 회복합니다.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">보상:</c> 변위 수류탄이 적 영웅에게 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c>회 적중하면 변위 수류탄의 재사용 대기시간이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">12</c>초에서 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">9</c>초로 감소합니다.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">보상:</c> 변위 수류탄이 적 영웅에게 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30</c>회 적중하면 변위 수류탄의 폭발 범위가 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> 증가합니다.",
+      "name": "클리어!",
+      "shortText": "<c val=\"e4b800\" hlt-name=\"#TooltipQuest\">퀘스트:</c> 영웅 적중 시 변위 수류탄 강화"
+    },
+    "MedicCellularReactor|MedicCellularReactorTalent|Active|Level4": {
+      "cooldownText": "재사용 대기시간: 20초",
+      "fullText": "기력을 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30</c> 소비하여 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>초에 걸쳐 최대 생명력의 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c>를 회복합니다. 이 동안 카두세우스 반응로가 비활성화됩니다.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">지속 효과: </c>보호기로 피해를 감소시킬 때마다 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>의 기력을 회복하여 최대 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c>의 기력을 회복합니다. ",
+      "name": "셀 방식 반응로",
+      "shortText": "기력을 소비하여 생명력 회복, 보호기로 기력 회복"
+    },
+    "MedicTraumaTrigger|MedicTraumaTriggerTalent|Passive|Level4": {
+      "fullText": "생명력이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> 미만인 상태에서 피해를 받으면 방어력이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>초 동안 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40</c> 증가합니다. 이 효과는 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30</c>초에 한 번씩만 발동합니다.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">지속 효과:</c> 카두세우스 반응로의 초당 치유량이 최대 생명력의 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2%</c>에서 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">4%</c>로 증가합니다.",
+      "name": "트라우마 방지기",
+      "shortText": "생명력이 낮을 때 방어력 증가, 카두세우스 반응로 치유량 증가"
+    },
+    "MedicBlastShield|MedicBlastShield|E|Level4": {
+      "fullText": "변위 수류탄에 적중당해 밀쳐진 적 영웅이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>초 동안 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> 느려지며, 적중당한 적 영웅 하나당 자신의 최대 생명력의 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6%</c>에 해당하는 보호막을 얻습니다. 이 보호막은 최대 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>회 중첩됩니다.",
+      "name": "폭발 보호막",
+      "shortText": "변위 수류탄이 적을 느려지게 함, 보호막 부여"
+    },
+    "MedicPhysicalTherapy|MedicPhysicalTherapy|W|Level7": {
+      "fullText": "보호기가 대상의 감속 효과를 제거하고 보호기의 재사용 대기시간이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>초 감소합니다.",
+      "name": "물리 치료",
+      "shortText": "보호기가 감속 효과 제거"
+    },
+    "MedicVanadiumPlating|MedicVanadiumPlating|W|Level7": {
+      "fullText": "보호기의 대상이 기절, 이동 불가 상태인 동안 보호기가 증가시키는 방어력이 추가로 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20</c> 증가합니다.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">지속 효과:</c> 보호기의 지속 시간이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>초 증가합니다.",
+      "name": "바나듐 장갑",
+      "shortText": "보호기 대상이 기절 및 이동 불가 시 방어력 증가, 지속 시간 증가"
+    },
+    "MedicMediDrone|MedicMediDrone|W|Level7": {
+      "fullText": "아군에게 보호기를 사용하면, 치유 광선으로 다른 아군을 치유해도 치유한 양의 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75%</c>만큼 보호기의 대상이 생명력을 회복합니다.",
+      "name": "치유기",
+      "shortText": "치료 광선이 보호기 대상도 치유"
+    },
+    "MedicHeroicAbilityStimDrone|MedicStimDrone|Heroic|Level10": {
+      "cooldownText": "재사용 대기시간: 70초",
+      "fullText": "대상 아군 영웅의 공격 속도를 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75%</c>, 이동 속도를 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> 증가시킵니다. <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c>초 동안 지속됩니다.",
+      "name": "전투 자극 비행체",
+      "shortText": "공격 및 이동 속도를 크게 증가시킴"
+    },
+    "MedicHeroicAbilityMedivacDropship|MedicMedivacDropshipsTalentFace|Heroic|Level10": {
+      "cooldownText": "재사용 대기시간: 45초",
+      "fullText": "의료선과 지원 병력을 잠금 해제합니다. 이 기술들은 재사용 대기시간을 공유합니다.<n/><n/><s val=\"cbe8ff-ffffff\" hlt-name=\"StandardTooltipHeader\">의료선</s><n/>의료선으로 아군을 수송할 목표 지점을 선택합니다. 의료선은 최대 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c>초 후에 이륙하고, 아군들은 그 전에 의료선을 우클릭하여 탑승할 수 있습니다.<n/><n/><s val=\"cbe8ff-ffffff\" hlt-name=\"StandardTooltipHeader\">지원 병력</s><n/>아군 폭풍의 전당에 지원 병력 의료선을 호출합니다. 지원 병력 의료선은 최대 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c>초 후에 이륙하여 기술을 사용했던 위치로 비행해 탑승객을 내려줍니다.",
+      "name": "의료선",
+      "shortText": "의료선 수송 잠금 해제"
+    },
+    "MedicEMPGrenade|MedicEMPGrenadeTalent|E|Level13": {
+      "fullText": "변위 수류탄이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">96</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>초에 걸쳐 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>의 추가 피해를 줍니다. 적 영웅의 보호막에는 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">400</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c>의 추가 피해를 줍니다.",
+      "name": "EMP 수류탄",
+      "shortText": "변위 수류탄이 보호막에 추가 피해"
+    },
+    "MedicSystemShock|MedicSystemShockTalent|E|Level13": {
+      "fullText": "변위 수류탄이 적중한 적 영웅의 공격력이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>초 동안 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c> 감소합니다.",
+      "name": "신경계 충격",
+      "shortText": "변위 수류탄 적중 시 공격력을 감소시킴"
+    },
+    "MedicBedsideManner|MedicBedsideManner|E|Level13": {
+      "fullText": "일반 공격으로 적 영웅을 공격할 때마다 대상의 최대 생명력의 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1%</c>만큼 추가 피해를 줍니다. 변위 수류탄에 적중당한 영웅에게 다음 일반 공격의 피해량이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c>초 동안 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6%</c>로 증가합니다.",
+      "name": "환자를 대하는 태도",
+      "shortText": "변위 수류탄이 일반 공격 강화"
+    },
+    "MedicExtendedCare|MedicExtendedCare|Q|Level16": {
+      "fullText": "영웅에게 치료 광선을 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>초 이상 발사하면 치료 광선이 끝난 뒤 대상의 생명력을 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>초에 걸쳐 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">258</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> 회복시킵니다.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">지속 효과: </c>치료 광선의 사거리가 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c> 증가합니다.",
+      "name": "추가 처방",
+      "shortText": "치료 광선이 생명력 지속 치유, 사거리 증가"
+    },
+    "MedicFirstResponder|MedicFirstResponder|Q|Level16": {
+      "fullText": "기력이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60</c> 이상이면 치료 광선의 치유량이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> 증가하고, 자신과 치료 광선 대상의 이동 속도가 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15%</c> 증가합니다.",
+      "name": "긴급구조원",
+      "shortText": "기력이 높으면 치료 광선 치유량 증가"
+    },
+    "MedicShieldSequencer|MedicShieldSequencerTalent|W|Level16": {
+      "fullText": "보호기가 2회 충전되고 사거리가 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">60%</c> 증가합니다.",
+      "name": "연속 보호기",
+      "shortText": "보호기 2회 충전 가능 및 사거리 증가"
+    },
+    "MedicHyperactivity|MedicHyperactivity|Heroic|Level20": {
+      "fullText": "전투 자극 비행체의 재사용 대기시간이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">70</c>초에서 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">35</c>초로 감소하고 이동 속도 증가 효과가 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>에서 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>로 증가합니다.",
+      "name": "과다활동",
+      "shortText": "재사용 대기시간 감소 및 이동 속도 증가"
+    },
+    "MedicSafeZone|MedicSafeZoneTalent|Heroic|Level20": {
+      "fullText": "의료선에서 내린 아군들이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>초 동안 보호 상태가 됩니다.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">지속 효과: </c>의료선 호출 기술들의 재사용 대기시간이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">15</c>초 감소합니다.",
+      "name": "안전 지대",
+      "shortText": "의료선에서 내린 후 보호, 재사용 대기시간 감소"
+    },
+    "MedicHospiceCare|MedicHospiceCare|W|Level20": {
+      "fullText": "보호기가 대상을 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>초 동안 불사 상태로 만듭니다. 불사 효과가 끝날 때 대상의 생명력이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c> 미만이면 최대 생명력의 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8%</c>를 회복시킵니다.",
+      "name": "임종 간호",
+      "shortText": "보호기가 불사 상태 부여, 생명력 치유"
+    },
+    "MedicSecondOpinion|MedicSecondOpinion|E|Level20": {
+      "fullText": "변위 수류탄이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>명 이상의 적 영웅에게 적중하면 재사용 대기시간이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2</c>초로 감소합니다.",
+      "name": "재진료",
+      "shortText": "변위 수류탄 재사용 대기시간 감소"
+    }
+  },
+  "units": {
+    "MedicMedivacDropship": {
+      "description": "의료선으로 아군을 수송할 목표 지점을 선택합니다. 의료선은 최대 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c>초 후에 이륙하고, 아군들은 그 전에 의료선을 우클릭하여 탑승할 수 있습니다.",
+      "name": "의료선"
+    },
+    "MedicMedivacDropshipDropoffLocationUnit": {
+      "name": "의료선 수송 위치 유닛"
+    }
+  }
+}
