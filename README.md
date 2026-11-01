@@ -51,22 +51,23 @@ them can be deployed again.
 | `update-live.yml`        | Daily, or by hand                            | Checks the live server's version; rebuilds `live/` when it changed   |
 | `update-ptr.yml`         | Daily, or by hand                            | The same for the PTR and `ptr/`                                      |
 | `update.yml`             | Called by both                               | Extract, build, commit, merge the release PR, wait for it, deploy    |
-| `create-release-pr.yml`  | Each push to `main`                          | git-flow: opens or updates the release PR (`main` → `release/main`)  |
-| `build-pack-publish.yml` | The release PR merged                        | git-flow: builds the site, publishes the GitHub release with its zip |
+| `create-release-pr.yml`  | Each push to `main`, or the update           | git-flow: opens or updates the release PR (`main` → `release/main`)  |
+| `build-pack-publish.yml` | The release PR merged, or the update         | git-flow: builds the site, publishes the GitHub release with its zip |
 | `deploy-production.yml`  | After each update, `gitflow deploy`, by hand | Deploys one release's site to the `gh-pages` branch                  |
 
 Run an update by hand with **rebuild** ticked to rebuild the same game version after a tool fix.
-Nobody merges release PRs by hand: the update merges them.
+Nobody merges release PRs by hand: the update merges them. Pushes and merges made with a
+workflow's own token start no other workflows, so the update dispatches Create Release PR and
+Build, Pack & Publish itself and waits for each; no personal token is needed.
 
 **Rolling back:** deploy an older release. Run `pnpm gitflow deploy` and pick the version, or run
 **Deploy — Production** from the Actions tab with its tag (`@myrddraall/heroes-assets/v2.57.9834800`).
 
 ### Setup
 
-- The `RELEASE_TOKEN` secret: a fine-grained personal access token for this repository with
-  **Contents** and **Pull requests** read and write. Pushes and merges made with the workflow's
-  own token start no other workflows, so git-flow needs this one.
 - GitHub Pages serves the `gh-pages` branch.
+- Settings → Actions → General: workflows have read and write permissions and may create pull
+  requests (git-flow opens the release PRs).
 
 ## Tools
 

@@ -4,9 +4,9 @@ name: Update
 # asked for), then releases and deploys it without a person in the loop: commit to main, merge the
 # release PR git-flow opens, wait for Build, Pack & Publish, deploy that release to Pages.
 #
-# Called by update-live.yml and update-ptr.yml. Pushing and merging use the RELEASE_TOKEN secret
-# (a fine-grained token: Contents and Pull requests, read and write): GITHUB_TOKEN's own pushes
-# and merges start no other workflows, so git-flow would never see them.
+# Called by update-live.yml and update-ptr.yml. A workflow's own pushes and merges start no other
+# workflows, but its dispatches do: so this job dispatches each git-flow workflow its push and
+# merge would otherwise have started, and waits for it.
 
 on:
   workflow_call:
@@ -20,9 +20,6 @@ on:
         required: false
         type: boolean
         default: false
-    secrets:
-      RELEASE_TOKEN:
-        required: true
 
 env:
   HDP_VERSION: 5.1.0
@@ -36,15 +33,17 @@ jobs:
       group: heroes-assets-update
       cancel-in-progress: false
     permissions:
-      contents: read
+      contents: write
+      pull-requests: write
       packages: read
       actions: write
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       # main's tip, not the commit that started the run: the other channel may have released since
       - uses: actions/checkout@v7
         with:
           ref: main
-          token: ${{ secrets.RELEASE_TOKEN }}
 
       - uses: pnpm/action-setup@v6
 
@@ -110,50 +109,31 @@ jobs:
           git push origin HEAD:main
           echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
-      - name: Merge the release PR
+      - name: Open the release PR
         if: steps.check.outputs.changed == 'true'
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          MERGE_TOKEN: ${{ secrets.RELEASE_TOKEN }}
           SHA: ${{ steps.commit.outputs.sha }}
         run: |
           set -euo pipefail
-          run=''
-          for _ in $(seq 60); do
-            run=$(gh run list --workflow create-release-pr.yml --commit "$SHA" \
-              --json databaseId --jq '.[0].databaseId // empty')
-            [ -n "$run" ] && break
-            sleep 10
-          done
-          [ -n "$run" ] || { echo "::error::Create Release PR never started for $SHA"; exit 1; }
-          gh run watch "$run" --exit-status --interval 10 > /dev/null
+          gh workflow run create-release-pr.yml --ref main
+          tools/await-run.sh create-release-pr.yml main "$SHA"
+
+      - name: Merge it and publish
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          set -euo pipefail
           pr=$(gh pr list --base release/main --head main --state open \
             --json number --jq '.[0].number // empty')
           [ -n "$pr" ] || { echo "::error::No open release PR from main"; exit 1; }
-          GH_TOKEN="$MERGE_TOKEN" gh pr merge "$pr" --merge
-          echo "Merged release PR #$pr"
-
-      - name: Wait for the release
-        if: steps.check.outputs.changed == 'true'
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SHA: ${{ steps.commit.outputs.sha }}
-        run: |
-          set -euo pipefail
-          run=''
-          for _ in $(seq 60); do
-            run=$(gh run list --workflow build-pack-publish.yml --event pull_request \
-              --json databaseId,headSha --jq "map(select(.headSha == \"$SHA\")) | .[0].databaseId // empty")
-            [ -n "$run" ] && break
-            sleep 10
-          done
-          [ -n "$run" ] || { echo "::error::Build, Pack & Publish never started for $SHA"; exit 1; }
-          gh run watch "$run" --exit-status --interval 15 > /dev/null
+          gh pr merge "$pr" --merge
+          merged=$(gh pr view "$pr" --json mergeCommit --jq .mergeCommit.oid)
+          echo "Merged release PR #$pr as $merged"
+          gh workflow run build-pack-publish.yml --ref release/main -f pr_number="$pr"
+          tools/await-run.sh build-pack-publish.yml release/main "$merged"
 
       - name: Deploy it
         if: steps.check.outputs.changed == 'true'
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TAG: '@myrddraall/heroes-assets/v${{ steps.check.outputs.version }}'
         run: |
           set -euo pipefail
