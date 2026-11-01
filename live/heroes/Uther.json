@@ -562,115 +562,184 @@
       }
     ]
   },
-  "sheet": "sheets/Uther.webp",
-  "icons": {
-    "storm_ui_icon_uther_holylight.png": [
-      0,
-      0,
-      128,
-      128
-    ],
-    "storm_ui_icon_uther_holyradiance.png": [
-      128,
-      0,
-      128,
-      128
-    ],
-    "storm_ui_icon_uther_hammerofjustice.png": [
-      256,
-      0,
-      128,
-      128
-    ],
-    "storm_ui_icon_uther_divineshield.png": [
-      384,
-      0,
-      128,
-      128
-    ],
-    "storm_ui_icon_uther_divinestorm.png": [
-      512,
-      0,
-      128,
-      128
-    ],
-    "storm_ui_icon_uther_eternaldevotion.png": [
-      0,
-      128,
-      128,
-      128
-    ],
-    "storm_ui_icon_generic_mount.png": [
-      128,
-      128,
-      76,
-      48
-    ],
-    "storm_ui_icon_miscrune_1.png": [
-      256,
-      128,
-      111,
-      71
-    ],
-    "storm_ui_icon_uther_flashoflight.png": [
-      384,
-      128,
-      128,
-      128
-    ],
-    "storm_ui_icon_generic_cancel_mount.png": [
-      512,
-      128,
-      76,
-      48
-    ],
-    "storm_ui_icon_talent_spellshield.png": [
-      0,
-      256,
-      128,
-      128
-    ],
-    "storm_ui_icon_uther_holyshock.png": [
-      128,
-      256,
-      128,
-      128
-    ],
-    "storm_ui_icon_talent_cleanse.png": [
-      256,
-      256,
-      128,
-      128
-    ],
-    "hud_btn_bg_ability_cancel.png": [
-      384,
-      256,
-      97,
-      111
-    ],
-    "storm_ui_icon_uther_benediction.png": [
-      512,
-      256,
-      128,
-      128
-    ],
-    "storm_ui_icon_talent_autoattack_mana.png": [
-      0,
-      384,
-      128,
-      128
-    ],
-    "storm_ui_icon_uther_holyfire.png": [
-      128,
-      384,
-      128,
-      128
-    ],
-    "storm_ui_icon_uther_eternaldevotion_a.png": [
-      256,
-      384,
-      128,
-      128
-    ]
+  "sheets": {
+    "abilities": {
+      "sheet": "sheets/Uther/abilities.webp",
+      "icons": {
+        "storm_ui_icon_uther_holylight.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_uther_holyradiance.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_uther_hammerofjustice.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_uther_divineshield.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_uther_divinestorm.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_uther_eternaldevotion.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          191,
+          520,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          0,
+          520,
+          111,
+          71
+        ],
+        "storm_ui_icon_uther_flashoflight.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          113,
+          520,
+          76,
+          48
+        ],
+        "storm_ui_icon_talent_spellshield.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_uther_holyshock.png": [
+          130,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_cleanse.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "hud_btn_bg_ability_cancel.png": [
+          260,
+          390,
+          97,
+          111
+        ],
+        "storm_ui_icon_uther_benediction.png": [
+          260,
+          0,
+          128,
+          128
+        ]
+      }
+    },
+    "talents": {
+      "sheet": "sheets/Uther/talents.webp",
+      "icons": {
+        "storm_ui_icon_uther_holylight.png": [
+          130,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_uther_holyradiance.png": [
+          260,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_mana.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_uther_holyshock.png": [
+          0,
+          520,
+          128,
+          128
+        ],
+        "storm_ui_icon_uther_hammerofjustice.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_uther_holyfire.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_uther_eternaldevotion.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_cleanse.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_uther_divineshield.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_uther_divinestorm.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_spellshield.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_uther_benediction.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_uther_eternaldevotion_a.png": [
+          0,
+          260,
+          128,
+          128
+        ]
+      }
+    }
   }
 }

@@ -583,127 +583,196 @@
       }
     ]
   },
-  "sheet": "sheets/Chromie.webp",
-  "icons": {
-    "storm_ui_icon_chromie_aethercannon.png": [
-      0,
-      0,
-      128,
-      128
-    ],
-    "storm_ui_icon_chromie_sandstrike.png": [
-      128,
-      0,
-      128,
-      128
-    ],
-    "storm_ui_icon_chromie_timetrap.png": [
-      256,
-      0,
-      128,
-      128
-    ],
-    "storm_ui_icon_chromie_looper.png": [
-      384,
-      0,
-      128,
-      128
-    ],
-    "storm_ui_icon_chromie_timewarp.png": [
-      512,
-      0,
-      128,
-      128
-    ],
-    "storm_ui_icon_chromie_timetraveler.png": [
-      0,
-      128,
-      128,
-      128
-    ],
-    "storm_ui_icon_generic_mount.png": [
-      128,
-      128,
-      76,
-      48
-    ],
-    "storm_ui_icon_miscrune_1.png": [
-      256,
-      128,
-      111,
-      71
-    ],
-    "storm_ui_icon_chromie_detonate_timetrap.png": [
-      384,
-      128,
-      128,
-      128
-    ],
-    "hud_btn_bg_ability_cancel.png": [
-      512,
-      128,
-      97,
-      111
-    ],
-    "storm_ui_icon_generic_cancel_mount.png": [
-      0,
-      256,
-      76,
-      48
-    ],
-    "storm_ui_icon_talent_clairvoyance.png": [
-      128,
-      256,
-      128,
-      128
-    ],
-    "storm_ui_icon_chromie_herethere.png": [
-      256,
-      256,
-      128,
-      128
-    ],
-    "storm_ui_icon_chromie_timeblock.png": [
-      384,
-      256,
-      128,
-      128
-    ],
-    "storm_ui_icon_chromie_hyperdrivesreach.png": [
-      512,
-      256,
-      128,
-      128
-    ],
-    "storm_ui_icon_chromie_blessing_of_the_bronze.png": [
-      0,
-      384,
-      128,
-      128
-    ],
-    "storm_ui_icon_chromie_timetrap_a.png": [
-      128,
-      384,
-      128,
-      128
-    ],
-    "storm_ui_icon_chromie_timetrap_b.png": [
-      256,
-      384,
-      128,
-      128
-    ],
-    "storm_ui_icon_talent_abilitytalent_damage.png": [
-      384,
-      384,
-      128,
-      128
-    ],
-    "storm_ui_icon_chromie_aethercannon_a.png": [
-      512,
-      384,
-      128,
-      128
-    ]
+  "sheets": {
+    "abilities": {
+      "sheet": "sheets/Chromie/abilities.webp",
+      "icons": {
+        "storm_ui_icon_chromie_aethercannon.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_chromie_sandstrike.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_chromie_timetrap.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_chromie_looper.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_chromie_timewarp.png": [
+          130,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_chromie_timetraveler.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          290,
+          520,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          99,
+          520,
+          111,
+          71
+        ],
+        "storm_ui_icon_chromie_detonate_timetrap.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "hud_btn_bg_ability_cancel.png": [
+          0,
+          520,
+          97,
+          111
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          212,
+          520,
+          76,
+          48
+        ],
+        "storm_ui_icon_talent_clairvoyance.png": [
+          260,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_chromie_herethere.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_chromie_timeblock.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_chromie_hyperdrivesreach.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_chromie_blessing_of_the_bronze.png": [
+          130,
+          0,
+          128,
+          128
+        ]
+      }
+    },
+    "talents": {
+      "sheet": "sheets/Chromie/talents.webp",
+      "icons": {
+        "storm_ui_icon_chromie_aethercannon.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_chromie_sandstrike.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_clairvoyance.png": [
+          130,
+          520,
+          128,
+          128
+        ],
+        "storm_ui_icon_chromie_timetrap.png": [
+          130,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_chromie_timetrap_a.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_chromie_timetrap_b.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_abilitytalent_damage.png": [
+          0,
+          520,
+          128,
+          128
+        ],
+        "storm_ui_icon_chromie_timewarp.png": [
+          260,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_chromie_looper.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_chromie_herethere.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_chromie_timeblock.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_chromie_aethercannon_a.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_chromie_hyperdrivesreach.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_chromie_blessing_of_the_bronze.png": [
+          260,
+          0,
+          128,
+          128
+        ]
+      }
+    }
   }
 }

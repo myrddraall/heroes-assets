@@ -602,127 +602,190 @@
       }
     ]
   },
-  "sheet": "sheets/Zeratul.webp",
-  "icons": {
-    "storm_ui_icon_zeratul_cleave.png": [
-      0,
-      0,
-      128,
-      128
-    ],
-    "storm_ui_icon_zeratul_singularityspike.png": [
-      128,
-      0,
-      128,
-      128
-    ],
-    "storm_ui_icon_zeratul_blink.png": [
-      256,
-      0,
-      128,
-      128
-    ],
-    "storm_ui_icon_zeratul_mightofnerazim.png": [
-      384,
-      0,
-      128,
-      128
-    ],
-    "storm_ui_icon_zeratul_voidprison.png": [
-      512,
-      0,
-      128,
-      128
-    ],
-    "storm_ui_icon_zeratul_cloak.png": [
-      0,
-      128,
-      128,
-      128
-    ],
-    "storm_ui_icon_generic_mount.png": [
-      128,
-      128,
-      76,
-      48
-    ],
-    "storm_ui_icon_zeratul_vorpalblade.png": [
-      256,
-      128,
-      128,
-      128
-    ],
-    "storm_ui_icon_miscrune_1.png": [
-      384,
-      128,
-      111,
-      71
-    ],
-    "storm_ui_icon_zeratul_cleave_nerazim.png": [
-      512,
-      128,
-      128,
-      128
-    ],
-    "storm_ui_icon_zeratul_singularityspike_nerazim.png": [
-      0,
-      256,
-      128,
-      128
-    ],
-    "storm_ui_icon_zeratul_blink_nerazim.png": [
-      128,
-      256,
-      128,
-      128
-    ],
-    "hud_btn_bg_ability_cancel.png": [
-      256,
-      256,
-      97,
-      111
-    ],
-    "storm_ui_icon_generic_cancel_mount.png": [
-      384,
-      256,
-      76,
-      48
-    ],
-    "storm_ui_icon_talent_spellshield.png": [
-      512,
-      256,
-      128,
-      128
-    ],
-    "storm_ui_icon_zeratul_shadowassault.png": [
-      0,
-      384,
-      128,
-      128
-    ],
-    "storm_ui_icon_talent_abilitytalent_damage.png": [
-      128,
-      384,
-      128,
-      128
-    ],
-    "storm_ui_icon_talent_autoattack_heal.png": [
-      256,
-      384,
-      128,
-      128
-    ],
-    "storm_ui_icon_talent_autoattack_damage.png": [
-      384,
-      384,
-      128,
-      128
-    ],
-    "storm_ui_icon_talent_abilitytalent_heal.png": [
-      512,
-      384,
-      128,
-      128
-    ]
+  "sheets": {
+    "abilities": {
+      "sheet": "sheets/Zeratul/abilities.webp",
+      "icons": {
+        "storm_ui_icon_zeratul_cleave.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_zeratul_singularityspike.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_zeratul_blink.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_zeratul_mightofnerazim.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_zeratul_voidprison.png": [
+          130,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_zeratul_cloak.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          290,
+          520,
+          76,
+          48
+        ],
+        "storm_ui_icon_zeratul_vorpalblade.png": [
+          260,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          99,
+          520,
+          111,
+          71
+        ],
+        "storm_ui_icon_zeratul_cleave_nerazim.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_zeratul_singularityspike_nerazim.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_zeratul_blink_nerazim.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "hud_btn_bg_ability_cancel.png": [
+          0,
+          520,
+          97,
+          111
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          212,
+          520,
+          76,
+          48
+        ],
+        "storm_ui_icon_talent_spellshield.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_zeratul_shadowassault.png": [
+          130,
+          260,
+          128,
+          128
+        ]
+      }
+    },
+    "talents": {
+      "sheet": "sheets/Zeratul/talents.webp",
+      "icons": {
+        "storm_ui_icon_zeratul_cleave.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_zeratul_blink.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_zeratul_cloak.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_abilitytalent_damage.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_zeratul_shadowassault.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_zeratul_singularityspike.png": [
+          130,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_zeratul_vorpalblade.png": [
+          0,
+          520,
+          128,
+          128
+        ],
+        "storm_ui_icon_zeratul_mightofnerazim.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_zeratul_voidprison.png": [
+          260,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_heal.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_spellshield.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_damage.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_abilitytalent_heal.png": [
+          130,
+          0,
+          128,
+          128
+        ]
+      }
+    }
   }
 }

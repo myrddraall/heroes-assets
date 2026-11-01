@@ -614,133 +614,190 @@
       }
     }
   },
-  "sheet": "sheets/Medic.webp",
-  "icons": {
-    "storm_ui_icon_medic_healingbeam.png": [
-      0,
-      0,
-      128,
-      128
-    ],
-    "storm_ui_icon_medic_deployshield.png": [
-      128,
-      0,
-      128,
-      128
-    ],
-    "storm_ui_icon_medic_displacementgrenade.png": [
-      256,
-      0,
-      128,
-      128
-    ],
-    "storm_ui_icon_medic_stim.png": [
-      384,
-      0,
-      128,
-      128
-    ],
-    "storm_ui_icon_medic_medivacdropship.png": [
-      512,
-      0,
-      128,
-      128
-    ],
-    "storm_ui_icon_medic_caduceusreactor.png": [
-      0,
-      128,
-      128,
-      128
-    ],
-    "storm_ui_icon_generic_mount.png": [
-      128,
-      128,
-      76,
-      48
-    ],
-    "storm_ui_icon_miscrune_1.png": [
-      256,
-      128,
-      111,
-      71
-    ],
-    "storm_ui_icon_medic_healingbeam_target.png": [
-      384,
-      128,
-      128,
-      128
-    ],
-    "hud_btn_bg_ability_cancel.png": [
-      512,
-      128,
-      97,
-      111
-    ],
-    "storm_ui_icon_medic_displacementgrenade_b.png": [
-      0,
-      256,
-      128,
-      128
-    ],
-    "storm_ui_medic_departbutton.png": [
-      128,
-      256,
-      128,
-      128
-    ],
-    "storm_ui_icon_generic_cancel_mount.png": [
-      256,
-      256,
-      76,
-      48
-    ],
-    "storm_temp_btn-upgrade-terran-mobiusreactor.png": [
-      384,
-      256,
-      76,
-      76
-    ],
-    "storm_ui_icon_medic_advancedblock.png": [
-      512,
-      256,
-      128,
-      128
-    ],
-    "storm_ui_icon_medic_medivacdropship_b.png": [
-      0,
-      384,
-      128,
-      128
-    ],
-    "storm_ui_icon_talent_autoattack_mana.png": [
-      128,
-      384,
-      128,
-      128
-    ],
-    "storm_ui_icon_medic_deployshield_c.png": [
-      256,
-      384,
-      128,
-      128
-    ],
-    "storm_ui_icon_medic_deployshield_b.png": [
-      384,
-      384,
-      128,
-      128
-    ],
-    "storm_ui_icon_medic_displacementgrenade_c.png": [
-      512,
-      384,
-      128,
-      128
-    ],
-    "storm_ui_icon_medic_healingbeam_c.png": [
-      0,
-      512,
-      128,
-      128
-    ]
+  "sheets": {
+    "abilities": {
+      "sheet": "sheets/Medic/abilities.webp",
+      "icons": {
+        "storm_ui_icon_medic_healingbeam.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_medic_deployshield.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_medic_displacementgrenade.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_medic_stim.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_medic_medivacdropship.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_medic_caduceusreactor.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          191,
+          520,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          0,
+          520,
+          111,
+          71
+        ],
+        "storm_ui_icon_medic_healingbeam_target.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "hud_btn_bg_ability_cancel.png": [
+          260,
+          390,
+          97,
+          111
+        ],
+        "storm_ui_icon_medic_displacementgrenade_b.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_medic_departbutton.png": [
+          130,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          113,
+          520,
+          76,
+          48
+        ],
+        "storm_temp_btn-upgrade-terran-mobiusreactor.png": [
+          359,
+          390,
+          76,
+          76
+        ],
+        "storm_ui_icon_medic_advancedblock.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_medic_medivacdropship_b.png": [
+          130,
+          260,
+          128,
+          128
+        ]
+      }
+    },
+    "talents": {
+      "sheet": "sheets/Medic/talents.webp",
+      "icons": {
+        "storm_ui_icon_talent_autoattack_mana.png": [
+          260,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_medic_healingbeam.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_medic_displacementgrenade.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_temp_btn-upgrade-terran-mobiusreactor.png": [
+          0,
+          520,
+          76,
+          76
+        ],
+        "storm_ui_icon_medic_advancedblock.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_medic_deployshield.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_medic_deployshield_c.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_medic_deployshield_b.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_medic_stim.png": [
+          130,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_medic_medivacdropship.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_medic_displacementgrenade_b.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_medic_displacementgrenade_c.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_medic_healingbeam_c.png": [
+          130,
+          260,
+          128,
+          128
+        ]
+      }
+    }
   }
 }
