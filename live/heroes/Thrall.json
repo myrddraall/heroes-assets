@@ -572,121 +572,184 @@
       }
     ]
   },
-  "sheet": "sheets/Thrall.webp",
-  "icons": {
-    "storm_ui_icon_thrall_chainlightning.png": [
-      0,
-      0,
-      128,
-      128
-    ],
-    "storm_ui_icon_thrall_feralspirit.png": [
-      128,
-      0,
-      128,
-      128
-    ],
-    "storm_ui_icon_thrall_windfury.png": [
-      256,
-      0,
-      128,
-      128
-    ],
-    "storm_ui_icon_thrall_sundering.png": [
-      384,
-      0,
-      128,
-      128
-    ],
-    "storm_ui_icon_thrall_earthquake.png": [
-      512,
-      0,
-      128,
-      128
-    ],
-    "storm_ui_icon_thrall_frostwolfresilience.png": [
-      0,
-      128,
-      128,
-      128
-    ],
-    "storm_ui_icon_generic_mount.png": [
-      128,
-      128,
-      76,
-      48
-    ],
-    "storm_ui_icon_miscrune_1.png": [
-      256,
-      128,
-      111,
-      71
-    ],
-    "hud_btn_bg_ability_cancel.png": [
-      384,
-      128,
-      97,
-      111
-    ],
-    "storm_ui_icon_generic_cancel_mount.png": [
-      512,
-      128,
-      76,
-      48
-    ],
-    "storm_ui_icon_talent_spellshield.png": [
-      0,
-      256,
-      128,
-      128
-    ],
-    "storm_ui_icon_talent_bloodforblood.png": [
-      128,
-      256,
-      128,
-      128
-    ],
-    "storm_ui_icon_talent_boltofthestorm.png": [
-      256,
-      256,
-      128,
-      128
-    ],
-    "storm_ui_icon_thrall_chainlightning_var1.png": [
-      384,
-      256,
-      128,
-      128
-    ],
-    "storm_ui_icon_thrall_feralspirit_var1.png": [
-      512,
-      256,
-      128,
-      128
-    ],
-    "storm_ui_icon_thrall_chainlightning_var2.png": [
-      0,
-      384,
-      128,
-      128
-    ],
-    "storm_ui_icon_talent_autoattack_damage.png": [
-      128,
-      384,
-      128,
-      128
-    ],
-    "storm_ui_icon_talent_autoattack_cooldown.png": [
-      256,
-      384,
-      128,
-      128
-    ],
-    "storm_ui_icon_talent_autoattack_slow.png": [
-      384,
-      384,
-      128,
-      128
-    ]
+  "sheets": {
+    "abilities": {
+      "sheet": "sheets/Thrall/abilities.webp",
+      "icons": {
+        "storm_ui_icon_thrall_chainlightning.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_thrall_feralspirit.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_thrall_windfury.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_thrall_sundering.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_thrall_earthquake.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_thrall_frostwolfresilience.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          290,
+          390,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          99,
+          390,
+          111,
+          71
+        ],
+        "hud_btn_bg_ability_cancel.png": [
+          0,
+          390,
+          97,
+          111
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          212,
+          390,
+          76,
+          48
+        ],
+        "storm_ui_icon_talent_spellshield.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_bloodforblood.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_boltofthestorm.png": [
+          130,
+          0,
+          128,
+          128
+        ]
+      }
+    },
+    "talents": {
+      "sheet": "sheets/Thrall/talents.webp",
+      "icons": {
+        "storm_ui_icon_thrall_chainlightning.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_thrall_chainlightning_var1.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_thrall_windfury.png": [
+          260,
+          520,
+          128,
+          128
+        ],
+        "storm_ui_icon_thrall_feralspirit.png": [
+          260,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_thrall_feralspirit_var1.png": [
+          130,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_thrall_frostwolfresilience.png": [
+          0,
+          520,
+          128,
+          128
+        ],
+        "storm_ui_icon_thrall_chainlightning_var2.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_bloodforblood.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_damage.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_thrall_sundering.png": [
+          130,
+          520,
+          128,
+          128
+        ],
+        "storm_ui_icon_thrall_earthquake.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_spellshield.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_cooldown.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_autoattack_slow.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_talent_boltofthestorm.png": [
+          130,
+          130,
+          128,
+          128
+        ]
+      }
+    }
   }
 }

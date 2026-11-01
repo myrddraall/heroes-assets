@@ -686,127 +686,190 @@
       }
     }
   },
-  "sheet": "sheets/DVa.webp",
-  "icons": {
-    "storm_ui_icon_dva_boosters.png": [
-      0,
-      0,
-      128,
-      128
-    ],
-    "storm_ui_icon_dva_defensematrix.png": [
-      128,
-      0,
-      128,
-      128
-    ],
-    "storm_ui_icon_dva_selfdestruct.png": [
-      256,
-      0,
-      128,
-      128
-    ],
-    "storm_ui_icon_dva_bunnyhop.png": [
-      384,
-      0,
-      128,
-      128
-    ],
-    "storm_ui_icon_dva_micromissiles.png": [
-      512,
-      0,
-      128,
-      128
-    ],
-    "storm_ui_icon_dva_mechmode.png": [
-      0,
-      128,
-      128,
-      128
-    ],
-    "storm_ui_icon_dva_mount.png": [
-      128,
-      128,
-      76,
-      48
-    ],
-    "storm_ui_icon_miscrune_1.png": [
-      256,
-      128,
-      111,
-      71
-    ],
-    "hud_btn_bg_ability_cancel.png": [
-      384,
-      128,
-      97,
-      111
-    ],
-    "storm_ui_icon_dva_defensematrix_a.png": [
-      512,
-      128,
-      128,
-      128
-    ],
-    "storm_ui_icon_dva_mechmode_b.png": [
-      0,
-      256,
-      128,
-      128
-    ],
-    "storm_ui_icon_dva_mechmode_a.png": [
-      128,
-      256,
-      128,
-      128
-    ],
-    "storm_ui_icon_dva_boosters_a.png": [
-      256,
-      256,
-      128,
-      128
-    ],
-    "storm_ui_icon_dva_pilotmode.png": [
-      384,
-      256,
-      128,
-      128
-    ],
-    "storm_ui_icon_dva_bigshot.png": [
-      512,
-      256,
-      128,
-      128
-    ],
-    "storm_ui_icon_dva_jetpackattack.png": [
-      0,
-      384,
-      128,
-      128
-    ],
-    "storm_ui_icon_dva_concussivecharge.png": [
-      128,
-      384,
-      128,
-      128
-    ],
-    "storm_ui_icon_dva_callmech.png": [
-      256,
-      384,
-      128,
-      128
-    ],
-    "storm_ui_icon_generic_mount.png": [
-      384,
-      384,
-      76,
-      48
-    ],
-    "storm_ui_icon_generic_cancel_mount.png": [
-      512,
-      384,
-      76,
-      48
-    ]
+  "sheets": {
+    "abilities": {
+      "sheet": "sheets/DVa/abilities.webp",
+      "icons": {
+        "storm_ui_icon_dva_boosters.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_dva_defensematrix.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_dva_selfdestruct.png": [
+          0,
+          520,
+          128,
+          128
+        ],
+        "storm_ui_icon_dva_bunnyhop.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_dva_micromissiles.png": [
+          130,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_dva_mechmode.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_dva_mount.png": [
+          342,
+          520,
+          76,
+          48
+        ],
+        "storm_ui_icon_miscrune_1.png": [
+          229,
+          520,
+          111,
+          71
+        ],
+        "hud_btn_bg_ability_cancel.png": [
+          130,
+          520,
+          97,
+          111
+        ],
+        "storm_ui_icon_dva_defensematrix_a.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_dva_mechmode_b.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_dva_jetpackattack.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_dva_concussivecharge.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_dva_callmech.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_dva_bigshot.png": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_dva_pilotmode.png": [
+          260,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_generic_mount.png": [
+          0,
+          650,
+          76,
+          48
+        ],
+        "storm_ui_icon_generic_cancel_mount.png": [
+          420,
+          520,
+          76,
+          48
+        ]
+      }
+    },
+    "talents": {
+      "sheet": "sheets/DVa/talents.webp",
+      "icons": {
+        "storm_ui_icon_dva_mechmode.png": [
+          130,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_dva_mechmode_a.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_dva_mechmode_b.png": [
+          0,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_dva_boosters.png": [
+          260,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_dva_defensematrix.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_dva_selfdestruct.png": [
+          130,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_dva_boosters_a.png": [
+          130,
+          0,
+          128,
+          128
+        ],
+        "storm_ui_icon_dva_bunnyhop.png": [
+          0,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_dva_micromissiles.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_dva_pilotmode.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_dva_bigshot.png": [
+          0,
+          0,
+          128,
+          128
+        ]
+      }
+    }
   }
 }
