@@ -1,6 +1,7 @@
 import { mkdir } from 'node:fs/promises';
 import { dirname } from 'node:path';
 import sharp from 'sharp';
+import { encoding, WEBP_EFFORT } from './encode.ts';
 
 /** Where a picture sits in its sheet: `[x, y, width, height]` in pixels. */
 export type Rect = readonly [number, number, number, number];
@@ -34,17 +35,19 @@ export async function writeSheet(
   });
 
   await mkdir(dirname(out), { recursive: true });
-  await sharp({
-    create: {
-      width: columns * cellWidth,
-      height: rows * cellHeight,
-      channels: 4,
-      background: { r: 0, g: 0, b: 0, alpha: 0 },
-    },
-  })
-    .composite(layers)
-    .webp({ lossless: true, effort: 6 })
-    .toFile(out);
+  await encoding(() =>
+    sharp({
+      create: {
+        width: columns * cellWidth,
+        height: rows * cellHeight,
+        channels: 4,
+        background: { r: 0, g: 0, b: 0, alpha: 0 },
+      },
+    })
+      .composite(layers)
+      .webp({ lossless: true, effort: WEBP_EFFORT })
+      .toFile(out),
+  );
   return rects;
 }
 
@@ -54,5 +57,5 @@ export const webpName = (file: string): string => file.replace(/\.[^.]+$/, '.web
 /** Writes one picture as a lossless WebP (its first frame, if animated). */
 export async function writeWebp(path: string, out: string): Promise<void> {
   await mkdir(dirname(out), { recursive: true });
-  await sharp(path).webp({ lossless: true, effort: 6 }).toFile(out);
+  await encoding(() => sharp(path).webp({ lossless: true, effort: WEBP_EFFORT }).toFile(out));
 }

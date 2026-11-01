@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
     inputs:
       release_id:
-        description: 'GitHub Release ID (numeric) or tag (e.g. v0.2.0)'
+        description: 'GitHub Release ID (numeric) or tag (e.g. @myrddraall/heroes-assets/v2.57.9834800)'
         required: true
         type: string
       deploy_type:
@@ -38,6 +38,24 @@ jobs:
         with:
           version: 11
 
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+
+      # The deploy CLI takes the release's numeric id; a tag is looked up
+      - name: Find the release
+        id: release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RELEASE: ${{ inputs.release_id }}
+        run: |
+          if [[ "$RELEASE" =~ ^[0-9]+$ ]]; then
+            id=$RELEASE
+          else
+            id=$(gh release view "$RELEASE" -R "$GITHUB_REPOSITORY" --json databaseId --jq .databaseId)
+          fi
+          echo "id=$id" >> "$GITHUB_OUTPUT"
+
       - name: Deploy to GitHub Pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -52,4 +70,4 @@ jobs:
           pnpm config set "//npm.pkg.github.com/:_authToken" "$GITHUB_TOKEN"
           pnpm config set @cpdevtools:registry https://npm.pkg.github.com
           pnpm dlx @cpdevtools/git-flow-deploy-cli deploy "$GITHUB_REPOSITORY" \
-            "${{ inputs.release_id }}" --bundle "deploy-${DEPLOY_TYPE:-gh-pages}.zip"
+            "${{ steps.release.outputs.id }}" --bundle "deploy-${DEPLOY_TYPE:-gh-pages}.zip"

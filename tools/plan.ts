@@ -10,7 +10,7 @@
 // Prints, and writes to $GITHUB_OUTPUT in CI: game, revision, version, tag, and the stages to
 // run: extract, build, release, deploy (true/false); snapshot: the release tag to take the
 // extraction from instead of extracting ('' when extracting); snapshot_name: the file name the
-// extraction is stored under on the release; locales: the extraction's locales (JSON).
+// extraction is stored under on the release; locales: the extraction's locales (JSON); hdp: the HDP version it runs.
 import { execFileSync } from 'node:child_process';
 import { appendFile } from 'node:fs/promises';
 import {
@@ -20,7 +20,13 @@ import {
   releaseVersion,
   serverVersion,
 } from './lib/channels.ts';
-import { EXTRACTION_KEY, EXTRACTION_LOCALES, releaseTag, snapshotName } from './lib/extraction.ts';
+import {
+  EXTRACTION_KEY,
+  EXTRACTION_LOCALES,
+  HDP_VERSION,
+  releaseTag,
+  snapshotName,
+} from './lib/extraction.ts';
 
 const REPOSITORY = process.env['GITHUB_REPOSITORY'] ?? 'myrddraall/heroes-assets';
 
@@ -104,6 +110,7 @@ const outputs = {
   snapshot: plan.snapshot,
   snapshot_name: snapshotName(channel, game),
   locales: JSON.stringify(EXTRACTION_LOCALES),
+  hdp: HDP_VERSION,
 };
 const lines = Object.entries(outputs).map(([key, value]) => `${key}=${value}`);
 console.log(`${channel}: server ${game}, folder ${folder?.version ?? 'empty'}`);

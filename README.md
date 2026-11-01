@@ -50,23 +50,25 @@ them can be deployed again.
 | ------------------------ | -------------------------------------------- | -------------------------------------------------------------------- |
 | `update-live.yml`        | Daily, or by hand                            | Updates `live/` when the live server's version changed               |
 | `update-ptr.yml`         | Daily, or by hand                            | The same for the PTR and `ptr/`                                      |
-| `update.yml`             | Called by both, one update at a time         | Plan, extract, build, release, deploy (below)                        |
+| `update.yml`             | Called by both                               | Plan, extract, publish (below)                                       |
 | `create-release-pr.yml`  | Each push to `main`, or the update           | git-flow: opens or updates the release PR (`main` → `release/main`)  |
 | `build-pack-publish.yml` | The release PR merged, or the update         | git-flow: builds the site, publishes the GitHub release with its zip |
 | `deploy-production.yml`  | After each update, `gitflow deploy`, by hand | Deploys one release's site to the `gh-pages` branch                  |
 
-An update runs in five jobs, each skipped when its work is done already:
+An update runs in three jobs, each step skipped when its work is done already:
 
 1. **plan** (`tools/plan.ts`) works out what's left from where things stand: the patch server's
    game version, the version the folder holds, whether that's released, whether it's deployed.
 2. **extract** runs HDP once per locale, in parallel. The English run also writes the data files and
-   pictures; the others keep only their strings. HDP's download of game files is kept in the
-   Actions cache.
-3. **build** makes the folder from the extraction and commits it to `main`. A rebuild of a game
-   build whose extraction is stored on its release takes that one and doesn't extract at all.
-4. **release** opens git-flow's release PR, merges it, publishes the release and stores the
-   extraction on it (only the newest release of each channel keeps one).
-5. **deploy** deploys the release to Pages.
+   pictures; the others keep only their strings. HDP and its download of game files are kept in
+   the Actions cache.
+3. **publish** builds the folder from the extraction and commits it to `main` (a rebuild of a game
+   build whose extraction is stored on its release takes that one and doesn't extract at all),
+   opens git-flow's release PR, merges it, publishes the release, stores the extraction on it (only
+   the newest release of each channel keeps one) and deploys it to Pages.
+
+Live and PTR plan and extract at the same time; only publish runs one at a time, since both
+channels write `.publish/versions.yml` and share the release PR.
 
 **After a failure**, use **Re-run failed jobs**, or start a new update: either carries on where the
 last one stopped. Tick **rebuild** to rebuild the same game version after a tool fix: the next
