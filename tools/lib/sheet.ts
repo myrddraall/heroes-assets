@@ -78,6 +78,28 @@ export async function writeSheet(
   return Object.fromEntries([...pictures.keys()].map((name) => [name, rects[name]!]));
 }
 
+/** A picture's size, read from its file. */
+export async function pictureSize(path: string): Promise<{ width: number; height: number }> {
+  const { width, height } = await sharp(path).metadata();
+  return { width, height };
+}
+
+/** Writes a picture scaled to cover a size (cropped evenly if its shape differs) as a WebP. */
+export async function writeScaledWebp(
+  path: string,
+  out: string,
+  width: number,
+  height: number,
+): Promise<void> {
+  await mkdir(dirname(out), { recursive: true });
+  await encoding(() =>
+    sharp(path)
+      .resize(width, height, { fit: 'cover', kernel: 'lanczos3' })
+      .webp({ lossless: true, effort: WEBP_EFFORT })
+      .toFile(out),
+  );
+}
+
 /** A picture's file name as a WebP: `a.png` → `a.webp`. */
 export const webpName = (file: string): string => file.replace(/\.[^.]+$/, '.webp');
 

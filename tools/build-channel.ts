@@ -10,7 +10,15 @@ import { basename, dirname, join } from 'node:path';
 import { writeAnimatedWebp } from './lib/animated.ts';
 import { asChannel, LOCALES, ROOT } from './lib/channels.ts';
 import { decodeDds, type Decoded } from './lib/dds.ts';
-import { webpName, writeSheet, writeWebp, type Picture, type Rect } from './lib/sheet.ts';
+import {
+  pictureSize,
+  webpName,
+  writeScaledWebp,
+  writeSheet,
+  writeWebp,
+  type Picture,
+  type Rect,
+} from './lib/sheet.ts';
 
 type Json = Record<string, unknown>;
 /** HDP's gamestrings: category → field → id → text. */
@@ -364,6 +372,31 @@ await Promise.all(
     };
   }),
 );
+// A map without a replay preview (Deadman's Stand) gets its loading screen, scaled down to the
+// size most maps' previews are
+const previewSizes = new Map<string, number>();
+for (const map of Object.values(maps)) {
+  const file = typeof map['replayPreviewImage'] === 'string' ? map['replayPreviewImage'] : '';
+  const picture = pictures.get(file.toLowerCase());
+  if (!picture) continue;
+  const { width, height } = await pictureSize(picture);
+  previewSizes.set(`${width}x${height}`, (previewSizes.get(`${width}x${height}`) ?? 0) + 1);
+}
+const [previewSize] = [...previewSizes].sort((a, b) => b[1] - a[1])[0] ?? [];
+const [previewWidth, previewHeight] = (previewSize ?? '').split('x').map(Number);
+await Promise.all(
+  Object.entries(maps).map(async ([key, map]) => {
+    const preview = typeof map['replayPreviewImage'] === 'string' ? map['replayPreviewImage'] : '';
+    if (pictures.has(preview.toLowerCase())) return;
+    const loading = typeof map['loadingScreenImage'] === 'string' ? map['loadingScreenImage'] : '';
+    const picture = pictures.get(loading.toLowerCase());
+    if (!picture || !previewWidth || !previewHeight) return warn(`${key}: no preview`);
+    const file = `images/${map.normalizedId}-preview.webp`;
+    await writeScaledWebp(picture, join(out, 'maps', file), previewWidth, previewHeight);
+    mapIndex[map.normalizedId]!['replayPreviewImage'] = file;
+  }),
+);
+
 await writeJson(
   join(out, 'maps', 'index.json'),
   Object.fromEntries(Object.values(maps).map((m) => [m.normalizedId, mapIndex[m.normalizedId]])),
