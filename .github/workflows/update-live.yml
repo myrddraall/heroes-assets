@@ -1,0 +1,27 @@
+name: Update live
+
+# Daily: rebuilds live/ when the live game server has a new version, then releases and deploys it
+# (update.yml). Run it by hand to check now, or with "rebuild" after a tool fix.
+
+on:
+  schedule:
+    - cron: '17 6 * * *'
+  workflow_dispatch:
+    inputs:
+      rebuild:
+        description: 'Rebuild even if the game has not changed (a tool fix: the next revision)'
+        type: boolean
+        default: false
+
+jobs:
+  update:
+    uses: ./.github/workflows/update.yml
+    permissions:
+      contents: read
+      packages: read
+      actions: write
+    with:
+      channel: live
+      rebuild: ${{ inputs.rebuild == true }}
+    secrets:
+      RELEASE_TOKEN: ${{ secrets.RELEASE_TOKEN }}

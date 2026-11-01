@@ -1,0 +1,11 @@
+# Declares what this project publishes. Read by `gitflow pack`.
+# The site (dist/, built by github.actions.build: tools/build-site.ts) goes onto the release as a
+# zip, and its deploy bundle publishes it to the gh-pages branch at the Pages root. Releases deploy
+# themselves (deploy-after-release.yml); deploying an older release is the rollback: `gitflow
+# deploy`, or run deploy-production.yml with its tag.
+artifacts:
+  - type: static-site
+    name: heroes-assets
+    packDir: dist
+    pagesRoot: true
+    deploy: [gh-pages]

@@ -1,0 +1,11 @@
+{
+  "name": "@myrddraall/heroes-assets",
+  "version": "0.0.0-MAIN",
+  "private": true,
+  "description": "The live and PTR folders as the GitHub Pages site a release deploys",
+  "scripts": {
+    "build": "node ../tools/build-site.ts",
+    "github.actions.build": "node ../tools/build-site.ts",
+    "github.actions.pack": "gitflow pack"
+  }
+}

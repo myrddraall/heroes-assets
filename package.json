@@ -1,0 +1,134 @@
+{
+  "name": "@myrddraall/heroes-assets-workspace",
+  "version": "0.0.0-MAIN",
+  "private": true,
+  "type": "module",
+  "description": "heroes-assets: Heroes of the Storm game data and UI assets, live and PTR, rebuilt on each game update and served by GitHub Pages — workspace root",
+  "scripts": {
+    "build": "devutil run build",
+    "build.channel": "node tools/build-channel.ts",
+    "build.site": "node tools/build-site.ts",
+    "check": "wireit",
+    "check.update": "node tools/check-update.ts",
+    "clean": "wireit",
+    "fix": "wireit",
+    "format": "wireit",
+    "gitflow": "gitflow",
+    "lint": "devutil run lint",
+    "postinstall": "devutil dev-link auto",
+    "prepare": "husky || true",
+    "reset": "wireit",
+    "set.version": "node tools/set-version.ts",
+    "test": "devutil run test",
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "@cpdevtools/git-flow": "^1.2.2",
+    "@cpdevtools/git-flow-cli": "^1.2.2",
+    "@cpdevtools/ts-dev-utilities-cli": "^1.1.6",
+    "@types/node": "^20.17.11",
+    "@typescript-eslint/eslint-plugin": "^8.20.0",
+    "@typescript-eslint/parser": "^8.20.0",
+    "eslint": "^9.18.0",
+    "husky": "^9.1.7",
+    "prettier": "^3.4.2",
+    "sharp": "^0.34.5",
+    "syncpack": "^13.0.0",
+    "typescript": "^5.9.3",
+    "wireit": "^0.14.13"
+  },
+  "keywords": [
+    "heroes-of-the-storm",
+    "game-data",
+    "heroes-data-parser",
+    "github-pages"
+  ],
+  "author": "Myrddraall",
+  "license": "MIT",
+  "repository": "myrddraall/heroes-assets.git",
+  "engines": {
+    "node": ">=24"
+  },
+  "packageManager": "pnpm@11.7.0",
+  "wireit": {
+    "fix": {
+      "dependencies": [
+        "fix.syncpack",
+        "fix.git-remove-tags",
+        "format"
+      ]
+    },
+    "fix.deps": {
+      "command": "devutil dep-versions fix .publish/deps.yml"
+    },
+    "fix.git-remove-tags": {
+      "command": "git tag | xargs -r git tag -d"
+    },
+    "fix.syncpack": {
+      "command": "syncpack fix-mismatches",
+      "dependencies": [
+        "fix.deps"
+      ]
+    },
+    "format": {
+      "dependencies": [
+        "format.prettier",
+        "format.projects"
+      ]
+    },
+    "format.syncpack": {
+      "command": "syncpack format"
+    },
+    "format.prettier": {
+      "command": "prettier --write \"**/*.{ts,js,md,yml}\" \"*.json\" \"site/*.json\" --ignore-path .gitignore",
+      "dependencies": [
+        "format.syncpack"
+      ]
+    },
+    "format.projects": {
+      "command": "devutil run format"
+    },
+    "check": {
+      "dependencies": [
+        "check.deps",
+        "check.syncpack"
+      ]
+    },
+    "check.deps": {
+      "command": "devutil dep-versions check .publish/deps.yml"
+    },
+    "check.syncpack": {
+      "command": "syncpack list-mismatches"
+    },
+    "clean": {
+      "dependencies": [
+        "clean.install"
+      ]
+    },
+    "clean.git": {
+      "command": "git clean -dfX",
+      "cache": false
+    },
+    "clean.install": {
+      "command": "pnpm install",
+      "dependencies": [
+        "clean.git"
+      ],
+      "cache": false
+    },
+    "reset": {
+      "dependencies": [
+        "reset.git",
+        "pnpm.install"
+      ]
+    },
+    "reset.git": {
+      "command": "git reset --hard",
+      "cache": false
+    },
+    "pnpm.install": {
+      "command": "pnpm install",
+      "cache": false
+    }
+  }
+}
