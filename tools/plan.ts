@@ -21,7 +21,7 @@ import {
   serverVersion,
 } from './lib/channels.ts';
 import { EXTRACTION_KEY, EXTRACTION_LOCALES, HDP_VERSION, releaseTag } from './lib/extraction.ts';
-import { latestMeta } from './lib/sources.ts';
+import { latestMeta } from './lib/source-meta.ts';
 
 const REPOSITORY = process.env['GITHUB_REPOSITORY'] ?? 'myrddraall/heroes-assets';
 

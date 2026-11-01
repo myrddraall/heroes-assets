@@ -14,20 +14,14 @@ import { copyFile, mkdir, readdir, readFile, rm, writeFile } from 'node:fs/promi
 import { dirname, extname, join, relative } from 'node:path';
 import { ROOT, type Channel } from './channels.ts';
 import { apply, diff, type Documents, type DocumentsPatch } from './patches.ts';
+import type { SourceMeta } from './source-meta.ts';
+
+export { latestMeta, type SourceMeta } from './source-meta.ts';
 
 const SOURCES = join(ROOT, 'sources');
 const BLOBS = join(SOURCES, 'blobs');
 /** The document that names an extraction's files: path → blob. */
 const BLOB_LIST = 'blobs.json';
-
-/** What a stored extraction is. */
-export interface SourceMeta {
-  readonly game: string;
-  /** lib/extraction.ts EXTRACTION_KEY, for our own extractions. */
-  readonly extraction?: string;
-  /** Where it came from: our own HDP run, or HeroesToolChest's published data. */
-  readonly origin: 'hdp' | 'heroes-data2';
-}
 
 interface HistoryEntry extends SourceMeta {
   readonly patch: DocumentsPatch;
@@ -115,15 +109,6 @@ export async function readLatest(
     docs.set(relative(join(folder, 'docs'), path).split('\\').join('/'), await readJson(path));
   }
   return { meta, docs };
-}
-
-/** The meta of the newest stored build alone, without reading its documents. */
-export async function latestMeta(channel: Channel): Promise<SourceMeta | null> {
-  try {
-    return await readJson<SourceMeta>(join(latestFolder(channel), 'meta.json'));
-  } catch {
-    return null;
-  }
 }
 
 async function writeLatest(channel: Channel, meta: SourceMeta, docs: Documents): Promise<void> {
