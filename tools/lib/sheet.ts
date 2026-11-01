@@ -1,3 +1,4 @@
+import { createHash } from 'node:crypto';
 import { mkdir } from 'node:fs/promises';
 import { dirname } from 'node:path';
 import sharp from 'sharp';
@@ -13,33 +14,46 @@ export type Picture = string | Decoded;
 /** Space between pictures, so scaling one never samples its neighbour. */
 const GAP = 2;
 
-async function size(picture: Picture): Promise<{ width: number; height: number }> {
+/** A picture's RGBA pixels (a file's first frame). */
+async function rgba(picture: Picture): Promise<Decoded> {
   if (typeof picture !== 'string') return picture;
-  const { width, height } = await sharp(picture).metadata();
-  return { width, height };
+  const { data, info } = await sharp(picture)
+    .ensureAlpha()
+    .raw()
+    .toBuffer({ resolveWithObject: true });
+  return { width: info.width, height: info.height, pixels: data };
 }
 
-const input = (picture: Picture): sharp.OverlayOptions['input'] =>
-  typeof picture === 'string' ? picture : picture.pixels;
-
-const raw = (picture: Picture): sharp.OverlayOptions['raw'] =>
-  typeof picture === 'string'
-    ? undefined
-    : { width: picture.width, height: picture.height, channels: 4 };
+const contentKey = (image: Decoded): string =>
+  createHash('sha1').update(`${image.width}x${image.height}:`).update(image.pixels).digest('hex');
 
 /**
  * Packs pictures into one lossless WebP sheet, in rows: tallest first, each row filled left to
  * right up to a width that keeps the sheet roughly square. Same-size pictures (a hero's icons)
- * come out as a plain grid. An animated picture contributes its first frame.
+ * come out as a plain grid. An animated picture contributes its first frame. The same pixels are
+ * packed once, whether given under several names (units sharing a minimap icon) or as different
+ * files that hold the same picture (Leoric's _undead and _var1 icons); every name gets its place.
  * Returns each picture's place by the name it was given.
  */
 export async function writeSheet(
   pictures: ReadonlyMap<string, Picture>,
   out: string,
 ): Promise<Record<string, Rect>> {
-  const entries = await Promise.all(
-    [...pictures].map(async ([name, picture]) => ({ name, picture, ...(await size(picture)) })),
-  );
+  // one entry per distinct content, named by the first name it was given
+  const sources = [...new Set(pictures.values())];
+  const images = new Map(await Promise.all(sources.map(async (p) => [p, await rgba(p)] as const)));
+  const keyOf = new Map(sources.map((p) => [p, contentKey(images.get(p)!)] as const));
+  const byContent = new Map<string, { name: string; image: Decoded }>();
+  for (const [name, picture] of pictures) {
+    const key = keyOf.get(picture)!;
+    if (!byContent.has(key)) byContent.set(key, { name, image: images.get(picture)! });
+  }
+  const entries = [...byContent.values()].map(({ name, image }) => ({
+    name,
+    image,
+    width: image.width,
+    height: image.height,
+  }));
   // tallest first, then by name, so the same pictures always pack the same way
   entries.sort((a, b) => b.height - a.height || a.name.localeCompare(b.name));
   const area = entries.reduce((sum, e) => sum + (e.width + GAP) * (e.height + GAP), 0);
@@ -69,13 +83,19 @@ export async function writeSheet(
       .composite(
         entries.map((entry) => {
           const [left, top] = rects[entry.name]!;
-          return { input: input(entry.picture), raw: raw(entry.picture), left, top };
+          const { pixels, width: w, height: h } = entry.image;
+          return { input: pixels, raw: { width: w, height: h, channels: 4 as const }, left, top };
         }),
       )
       .webp({ lossless: true, effort: WEBP_EFFORT })
       .toFile(out),
   );
-  return Object.fromEntries([...pictures.keys()].map((name) => [name, rects[name]!]));
+  return Object.fromEntries(
+    [...pictures].map(([name, picture]) => [
+      name,
+      rects[byContent.get(keyOf.get(picture)!)!.name]!,
+    ]),
+  );
 }
 
 /** A picture's size, read from its file. */

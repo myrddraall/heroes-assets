@@ -50,7 +50,7 @@ async function channelSection(channel: Channel, version: ChannelVersion): Promis
   const heroes = (await files(`${channel}/heroes`)).filter((f) => f !== 'index.json');
   const heroRows = heroes.map((file) => {
     const id = file.replace(/\.json$/, '');
-    return `<tr><th scope="row">${escape(id)}</th><td>${link(`${channel}/heroes/${file}`, 'data')}</td><td>${link(`${channel}/heroes/sheets/${id}/abilities.webp`, 'abilities')}</td><td>${link(`${channel}/heroes/sheets/${id}/talents.webp`, 'talents')}</td><td>${link(`${channel}/strings/en-US/heroes/${file}`, 'en-US texts')}</td></tr>`;
+    return `<tr><th scope="row">${escape(id)}</th><td>${link(`${channel}/heroes/${file}`, 'data')}</td><td>${link(`${channel}/heroes/sheets/${id}/hero.webp`, 'hero sheet')}</td><td>${link(`${channel}/heroes/sheets/${id}/abilities.webp`, 'abilities')}</td><td>${link(`${channel}/heroes/sheets/${id}/talents.webp`, 'talents')}</td><td>${link(`${channel}/strings/en-US/heroes/${file}`, 'en-US texts')}</td></tr>`;
   });
   const portraits = (await files(`${channel}/portraits`)).filter((f) => f.endsWith('.webp'));
   const maps: Record<

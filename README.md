@@ -9,26 +9,27 @@ them to GitHub Pages: <https://myrddraall.github.io/heroes-assets/>.
 
 Each channel has its own folder, `live/` and `ptr/`, laid out the same way:
 
-| Path                                    | What                                                                                     |
-| --------------------------------------- | ---------------------------------------------------------------------------------------- |
-| `version.json`                          | The game version extracted, the tool revision, the release version and the HDP version   |
-| `raw/data/`, `raw/gamestrings/`         | HDP's output as it came (`--localized-text Extract`), with its map-specific patches      |
-| `heroes/index.json`                     | Every hero's summary: ids, franchise, rarity, ratings, release date…                     |
-| `heroes/<heroId>.json`                  | One hero's full data, plus `sheets.abilities` and `sheets.talents`: each sheet and icons |
-| `heroes/sheets/<heroId>/talents.webp`   | That hero's talent icons                                                                 |
-| `heroes/sheets/<heroId>/abilities.webp` | Its ability icons (with sub-abilities' and its hero units')                              |
-| `portraits/<kind>.webp`, `index.json`   | Every hero's portrait of one kind (`minimap`, `heroSelect`, `draftScreen`…) as one sheet |
-| `emoticons/index.json`                  | Every emote and emote pack; each emote's pack, sheet and place, and its animation        |
-| `emoticons/sheets/<packId>.webp`        | One emote pack's emotes (still; an animated one's first frame); `other.webp` for none    |
-| `emoticons/animated/*.webp`             | The animated emotes, as animated WebPs                                                   |
-| `maps/index.json`                       | Maps by normalized id (`cursed_hollow`): HDP's map data, the map's sheet and its icons   |
-| `maps/sheets/<mapId>.webp`              | The map's objective icons and the interface textures its mods name (below)               |
-| `maps/images/`                          | Replay previews (from the loading screen when a map has none), loading screens, big UI   |
-| `minimap/units.webp`, `index.json`      | Every unit's minimap icon (towers, camps, tributes, shrines, summons…), keyed by unit    |
-| `strings/<locale>/heroes.json`          | Heroes' names, titles, roles, descriptions                                               |
-| `strings/<locale>/heroes/<heroId>.json` | A hero's ability, talent and unit texts, by the `linkId`s in `heroes/<heroId>.json`      |
-| `strings/<locale>/emoticons.json`       | Emote descriptions and localized aliases, emote pack names                               |
-| `strings/<locale>/maps.json`            | Map names and objective texts                                                            |
+| Path                                    | What                                                                                                                               |
+| --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| `version.json`                          | The game version extracted, the tool revision, the release version and the HDP version                                             |
+| `raw/data/`, `raw/gamestrings/`         | HDP's output as it came (`--localized-text Extract`), with its map-specific patches                                                |
+| `heroes/index.json`                     | Every hero's summary: ids, franchise, rarity, ratings, release date…                                                               |
+| `heroes/<heroId>.json`                  | One hero's full data, plus `sheets.hero`, `sheets.abilities` and `sheets.talents`: each sheet and where its pictures sit           |
+| `heroes/sheets/<heroId>/hero.webp`      | All of the hero's pictures: ability and talent icons, and its draft screen, minimap, party panel, target and target info portraits |
+| `heroes/sheets/<heroId>/talents.webp`   | That hero's talent icons                                                                                                           |
+| `heroes/sheets/<heroId>/abilities.webp` | Its ability icons (with sub-abilities' and its hero units')                                                                        |
+| `portraits/<kind>.webp`, `index.json`   | Every hero's portrait of one kind (`minimap`, `heroSelect`, `draftScreen`…) as one sheet                                           |
+| `emoticons/index.json`                  | Every emote and emote pack; each emote's pack, sheet and place, and its animation                                                  |
+| `emoticons/sheets/<packId>.webp`        | One emote pack's emotes (still; an animated one's first frame); `other.webp` for none                                              |
+| `emoticons/animated/*.webp`             | The animated emotes, as animated WebPs                                                                                             |
+| `maps/index.json`                       | Maps by normalized id (`cursed_hollow`): HDP's map data, the map's sheet and its icons                                             |
+| `maps/sheets/<mapId>.webp`              | The map's objective icons and the interface textures its mods name (below)                                                         |
+| `maps/images/`                          | Replay previews (from the loading screen when a map has none), loading screens, big UI                                             |
+| `minimap/units.webp`, `index.json`      | Every unit's minimap icon (towers, camps, tributes, shrines, summons…), keyed by unit                                              |
+| `strings/<locale>/heroes.json`          | Heroes' names, titles, roles, descriptions                                                                                         |
+| `strings/<locale>/heroes/<heroId>.json` | A hero's ability, talent and unit texts, by the `linkId`s in `heroes/<heroId>.json`                                                |
+| `strings/<locale>/emoticons.json`       | Emote descriptions and localized aliases, emote pack names                                                                         |
+| `strings/<locale>/maps.json`            | Map names and objective texts                                                                                                      |
 
 **A map's interface textures** come from the game's own data (`tools/lib/map-ui.ts`): the map's
 `.s2mv` in the depot cache names the mods it's built on, each mod's `DocumentInfo` the mods it
@@ -36,8 +37,12 @@ depends on, and every texture those mods name in their catalogs, trigger scripts
 the map's (terrain, cliff and model textures aside). Units every map shares, such as towers,
 camps and the Cursed Hollow tribute, are in no map's mods; their icons are in `minimap/`.
 
+Every sheet holds each picture once: entries that use the same picture (units sharing a minimap
+icon, a talent whose icon is the hero's portrait, two files with the same pixels) point at the same
+place. A sheet's places are `[x, y, width, height]` in pixels.
+
 Locales are BCP 47 tags: `en-US`, `de-DE`, `es-ES`, `es-MX`, `fr-FR`, `it-IT`, `ko-KR`, `pl-PL`,
-`pt-BR`, `ru-RU`, `zh-CN`, `zh-TW`. A sheet's places are `[x, y, width, height]` in pixels.
+`pt-BR`, `ru-RU`, `zh-CN`, `zh-TW`.
 The site's `index.json` names the version each channel holds.
 
 ## Versions

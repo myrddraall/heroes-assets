@@ -154,7 +154,8 @@ await cp(join(hdp, 'gamestrings'), join(out, 'raw', 'gamestrings'), { recursive:
 const pictures = await pictureFiles();
 const strings = await gameStrings();
 
-// ── Heroes: one file, an ability sheet and a talent sheet each, portraits a sheet per kind ───
+// ── Heroes: one file, an ability sheet, a talent sheet and a hero sheet (both, with its
+//    portraits) each; portraits also a sheet per kind across heroes ──────────────────────────
 
 interface Hero extends Json {
   portraits?: Record<string, string | string[]>;
@@ -163,6 +164,9 @@ interface Hero extends Json {
 }
 
 const heroes = (await dataFile<Hero>('herodata')).items;
+
+/** The portraits a hero's own sheet holds besides its icons. */
+const HERO_SHEET_PORTRAITS = ['draftScreen', 'minimap', 'partyPanel', 'target', 'targetInfo'];
 const heroIndex: Json[] = [];
 const heroLinks = new Map<string, { links: Set<string>; units: Set<string> }>();
 
@@ -172,7 +176,7 @@ await Promise.all(
     const { portraits: _, ...data } = hero;
     const { talents, ...abilities } = data; // abilities, sub-abilities, hero units' abilities
     const kinds = { abilities: collect(abilities, ['icon']), talents: collect(talents, ['icon']) };
-    const sheets = Object.fromEntries(
+    const sheets: Record<string, Json> = Object.fromEntries(
       await Promise.all(
         Object.entries(kinds).map(async ([kind, icons]) => {
           const file = `${id}/${kind}.webp`;
@@ -187,6 +191,28 @@ await Promise.all(
         }),
       ),
     );
+    // the hero sheet: every icon by file name, the portraits by kind; a picture used for both
+    // (Anub'arak's The Traitor King is his draft portrait) is in it once
+    const portraits = HERO_SHEET_PORTRAITS.flatMap((kind) => {
+      const file = hero.portraits?.[kind];
+      return typeof file === 'string' && file ? [[kind, file] as const] : [];
+    });
+    const icons = [...new Set([...kinds.abilities, ...kinds.talents])];
+    const files = new Set([...icons, ...portraits.map(([, file]) => file)]);
+    const file = `${id}/hero.webp`;
+    const rects = await sheet(
+      [...files].map((f): [string, string] => [f, f]),
+      pictures,
+      join(out, 'heroes', 'sheets', file),
+      `${id} hero`,
+    );
+    const placed = <T extends string>(pairs: readonly (readonly [T, string])[]) =>
+      Object.fromEntries(pairs.flatMap(([key, f]) => (rects[f] ? [[key, rects[f]]] : [])));
+    sheets['hero'] = {
+      sheet: Object.keys(rects).length ? `sheets/${file}` : null,
+      icons: placed(icons.map((icon) => [icon, icon] as const)),
+      portraits: placed(portraits),
+    };
     await writeJson(join(out, 'heroes', `${id}.json`), { id, ...data, sheets });
   }),
 );
