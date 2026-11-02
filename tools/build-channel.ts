@@ -47,11 +47,16 @@ const GENERATED = [
   'pictures.json',
 ];
 
-const warnings: string[] = [];
-const warn = (message: string): void => {
-  warnings.push(message);
-  console.warn(`warning: ${message}`);
+/** What the build couldn't do, each said once, with the names it's about for the run's summary. */
+const warnings: { message: string; names: readonly string[] }[] = [];
+const warn = (message: string, names: readonly string[] = []): void => {
+  warnings.push({ message, names });
+  console.warn(`warning: ${label}: ${message}`);
 };
+
+/** A few names of a list, for a one-line message. */
+const some = (names: readonly string[]): string =>
+  names.slice(0, 3).join(', ') + (names.length > 3 ? `, and ${names.length - 3} more` : '');
 
 async function readJson<T>(path: string): Promise<T> {
   return JSON.parse(await readFile(path, 'utf8')) as T;
@@ -144,14 +149,24 @@ async function sheet(
   what: string,
 ): Promise<Record<string, Rect>> {
   const found = new Map<string, Picture>();
+  const missing: string[] = [];
+  let total = 0;
   for (const [name, file] of names) {
+    total++;
     if (typeof file !== 'string') {
       found.set(name, file);
       continue;
     }
     const picture = pictures.get(file.toLowerCase());
     if (picture) found.set(name, picture);
-    else warn(`${what}: no picture ${file}`);
+    else missing.push(file);
+  }
+  if (missing.length) {
+    const result = found.size ? 'left out of it' : 'so there is no sheet';
+    warn(
+      `${what}: ${missing.length} of the ${total} pictures the data names aren't in the extraction, ${result} (${some(missing)})`,
+      missing,
+    );
   }
   return found.size ? writeSheet(found, path) : {};
 }
@@ -162,6 +177,16 @@ const stem = (file: string): string => file.replace(/\.[^.]+$/, '');
 // ── Start clean (raw/ was HDP's output, now kept in sources/ and published by build-site) ────
 
 for (const folder of GENERATED) await rm(join(out, folder), { recursive: true, force: true });
+
+/** Which build this is, for messages: the channel, and the game version the data says. */
+const heroDataMeta = await readJson<{ meta: { heroesVersion: string } }>(
+  join(
+    hdp,
+    'data',
+    (await readdir(join(hdp, 'data'))).find((n) => /^herodata_\d+\.json$/.test(n))!,
+  ),
+);
+const label = `${channel} ${heroDataMeta.meta.heroesVersion.replace(/_ptr$/, '')}`;
 
 const pictures = await pictureFiles();
 const strings = await gameStrings();
@@ -196,7 +221,7 @@ await Promise.all(
             [...icons].map((icon) => [icon, icon]),
             pictures,
             join(out, 'heroes', 'sheets', file),
-            `${id} ${kind}`,
+            `${id}'s ${kind === 'abilities' ? 'ability' : 'talent'} sheet`,
           );
           const written = Object.keys(rects).length > 0;
           return [kind, { sheet: written ? `sheets/${file}` : null, icons: rects }] as const;
@@ -216,7 +241,7 @@ await Promise.all(
       [...files].map((f): [string, string] => [f, f]),
       pictures,
       join(out, 'heroes', 'sheets', file),
-      `${id} hero`,
+      `${id}'s hero sheet`,
     );
     const placed = <T extends string>(pairs: readonly (readonly [T, string])[]) =>
       Object.fromEntries(pairs.flatMap(([key, f]) => (rects[f] ? [[key, rects[f]]] : [])));
@@ -251,7 +276,8 @@ for (const [id, hero] of Object.entries(heroes)) {
 const portraitIndex: Record<string, Json> = Object.fromEntries(
   await Promise.all(
     [...portraitKinds].map(async ([kind, files]) => {
-      const rects = await sheet(files, pictures, join(out, 'portraits', `${kind}.webp`), kind);
+      const path = join(out, 'portraits', `${kind}.webp`);
+      const rects = await sheet(files, pictures, path, `the ${kind} portrait sheet`);
       return [kind, { sheet: `${kind}.webp`, heroes: rects }] as const;
     }),
   ),
@@ -285,7 +311,7 @@ const emoticonRects = new Map<string, { sheet: string; rect: Rect }>();
 const groupRects = await Promise.all(
   [...emoticonGroups].map(async ([group, images]) => {
     const path = join(out, 'emoticons', 'sheets', `${group}.webp`);
-    return [group, await sheet(images, pictures, path, group)] as const;
+    return [group, await sheet(images, pictures, path, `the ${group} emote sheet`)] as const;
   }),
 );
 for (const [group, rects] of groupRects) {
@@ -294,15 +320,22 @@ for (const [group, rects] of groupRects) {
   }
 }
 const animatedFiles = new Map<string, string>();
+const missingAnimations: string[] = [];
 await Promise.all(
   Object.entries(emoticons).map(async ([id, { image, animation }]) => {
     if (!animation || !image) return;
     const picture = pictures.get(image.toLowerCase());
-    if (!picture) return warn(`${id}: no picture ${image}`);
+    if (!picture) return void missingAnimations.push(image);
     await writeAnimatedWebp(picture, join(out, 'emoticons', 'animated', webpName(image)));
     animatedFiles.set(id, `animated/${webpName(image)}`);
   }),
 );
+if (missingAnimations.length) {
+  warn(
+    `${missingAnimations.length} animated emotes aren't in the extraction, so they show still (${some(missingAnimations.sort())})`,
+    missingAnimations,
+  );
+}
 const emoticonIndex: Record<string, Json> = {};
 for (const [id, emoticon] of Object.entries(emoticons)) {
   const { image, animation, ...data } = emoticon;
@@ -355,7 +388,9 @@ let mapUi: { maps: Record<string, string[]> } = { maps: {} };
 try {
   mapUi = await readJson(join(hdp, 'map-ui', 'maps.json'));
 } catch {
-  warn('no map interface textures in the extraction (map-ui/maps.json)');
+  warn(
+    'the extraction has no map interface textures (map-ui/maps.json), so map sheets hold only the objective icons',
+  );
 }
 const textures = new Map<string, Decoded | null>();
 async function texture(name: string): Promise<Decoded | null> {
@@ -364,7 +399,9 @@ async function texture(name: string): Promise<Decoded | null> {
       textures.set(name, decodeDds(await readFile(join(hdp, 'map-ui', 'textures', `${name}.dds`))));
     } catch (error) {
       // named by a mod but not in the game (gatherTextures listed it), or not decodable
-      if ((error as NodeJS.ErrnoException).code !== 'ENOENT') warn(`${name}: ${error}`);
+      if ((error as NodeJS.ErrnoException).code !== 'ENOENT') {
+        warn(`the map texture ${name}.dds couldn't be decoded, so it's left out (${error})`);
+      }
       textures.set(name, null);
     }
   }
@@ -376,7 +413,8 @@ await Promise.all(
   Object.entries(maps).map(async ([key, map]) => {
     for (const file of collect(map, MAP_FILES)) {
       const picture = pictures.get(file.toLowerCase());
-      if (!picture) warn(`${key}: no picture ${file}`);
+      if (!picture)
+        warn(`${key}'s ${file} isn't in the extraction, so the map has no such picture`);
       else await writeWebp(picture, join(out, 'maps', 'images', webpName(file)));
     }
     const entries: [string, string | Picture][] = [...collect(map, ['image'])].map((file) => [
@@ -398,7 +436,7 @@ await Promise.all(
       );
     }
     const file = `sheets/${map.normalizedId}.webp`;
-    const icons = await sheet(entries, pictures, join(out, 'maps', file), key);
+    const icons = await sheet(entries, pictures, join(out, 'maps', file), `${key}'s map sheet`);
     mapIndex[map.normalizedId] = {
       id: map.normalizedId,
       key,
@@ -428,7 +466,9 @@ await Promise.all(
     if (pictures.has(preview.toLowerCase())) return;
     const loading = typeof map['loadingScreenImage'] === 'string' ? map['loadingScreenImage'] : '';
     const picture = pictures.get(loading.toLowerCase());
-    if (!picture || !previewWidth || !previewHeight) return warn(`${key}: no preview`);
+    if (!picture || !previewWidth || !previewHeight) {
+      return warn(`${key} has no replay preview, nor a loading screen to make one from`);
+    }
     const file = `images/${map.normalizedId}-preview.webp`;
     await writeScaledWebp(picture, join(out, 'maps', file), previewWidth, previewHeight);
     mapIndex[map.normalizedId]!['replayPreviewImage'] = file;
@@ -451,7 +491,7 @@ const minimapRects = await sheet(
   minimapIcons,
   pictures,
   join(out, 'minimap', 'units.webp'),
-  'minimap',
+  'the minimap icon sheet',
 );
 await writeJson(join(out, 'minimap', 'index.json'), {
   sheet: Object.keys(minimapRects).length ? 'units.webp' : null,
@@ -476,7 +516,7 @@ const awardRects = await sheet(
   awardFiles.map((file): [string, string] => [file, file]),
   pictures,
   join(out, 'awards', 'awards.webp'),
-  'awards',
+  'the award sheet',
 );
 await writeJson(join(out, 'awards', 'index.json'), {
   sheet: Object.keys(awardRects).length ? 'awards.webp' : null,
@@ -599,9 +639,14 @@ console.log(
     `${strings.size} locales, ${warnings.length} warnings`,
 );
 if (process.env['GITHUB_STEP_SUMMARY'] && warnings.length) {
+  const lines = warnings.map(({ message, names }) =>
+    names.length > 3
+      ? `- ${message}\n  <details><summary>All ${names.length}</summary>\n\n  ${names.join(', ')}\n  </details>`
+      : `- ${message}`,
+  );
   await writeFile(
     process.env['GITHUB_STEP_SUMMARY'],
-    `### ${channel}: ${warnings.length} warnings\n\n${warnings.map((w) => `- ${w}`).join('\n')}\n`,
+    `### ${label}: ${warnings.length} warning${warnings.length === 1 ? '' : 's'}\n\n${lines.join('\n')}\n`,
     { flag: 'a' },
   );
 }
