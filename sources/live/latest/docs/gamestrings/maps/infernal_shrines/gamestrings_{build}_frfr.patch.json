@@ -66,6 +66,26 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostDamageToMinions",
+    "value": "~AwardValue~% des dégâts infligés aux gardiens des sanctuaires"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostDamageToMinions",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Tueur de gardiens,Tueuse de gardiens</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostDamageToMinions",
+    "value": "~TooltipAmount~ points de dégâts infligés aux gardiens des sanctuaires"
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostDamageToMinions",
+    "value": "Plus grande quantité de dégâts infligés aux serviteurs"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/ParalyzeStructure",
     "value": "Empêche le bâtiment ciblé de tirer, lui inflige 1% de son maximum de vie sous forme de dégâts et draine 1 points d’énergie par seconde pendant 10 secondes."
   },

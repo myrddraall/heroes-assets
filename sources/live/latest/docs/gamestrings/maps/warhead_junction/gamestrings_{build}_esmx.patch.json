@@ -111,6 +111,21 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostNukeDamageDone",
+    "value": "~AwardValue~% del daño del equipo infligido con ojivas nucleares"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostNukeDamageDone",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">La bomba,La bomba</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostNukeDamageDone",
+    "value": "~TooltipAmount~ de daño infligido con ojivas nucleares"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/MapMechanicNuke",
     "value": "Después de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> segundos, lanza una ojiva nuclear que inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1750</c> de daño (<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c> de su salud máxima a los héroes). Prende fuego las edificaciones, lo que inflige daño adicional durante 10 segundos. Este efecto se extiende al atacar las edificaciones en llamas."
   },

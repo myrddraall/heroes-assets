@@ -486,6 +486,41 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostDamageDoneToZerg",
+    "value": "~AwardValue~% do dano causado pela equipe aos Zergs"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostNukeDamageDone",
+    "value": "~AwardValue~% do dano causado pela equipe aos Zergs"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostDamageDoneToZerg",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Exterminador de Zergs,Exterminadora de Zergs</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostNukeDamageDone",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Exterminador de Zergs,Exterminadora de Zergs</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostDamageDoneToZerg",
+    "value": "~TooltipAmount~ de dano causado aos Zergs"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostNukeDamageDone",
+    "value": "~TooltipAmount~ de dano causado aos Zergs"
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostDamageDoneToZerg",
+    "value": "Maior quantidade de dano causado a Zergs"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/MapMechanicNuke",
     "value": "Após <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> s, lança uma ogiva que causa <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1750</c> de dano, que é dobrado contra Fortes, Bastiões e o Núcleo inimigo.<n/><n/>Estruturas também são incendiadas por <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> s, recebendo <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.2%</c> do máximo de Vida em dano a cada segundo. Ataques Básicos de Heróis aumentam a duração restante em <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0</c> s."
   },

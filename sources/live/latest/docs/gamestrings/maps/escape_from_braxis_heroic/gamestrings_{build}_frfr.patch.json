@@ -486,6 +486,41 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostDamageDoneToZerg",
+    "value": "~AwardValue~% de dégâts d’équipe infligés aux Zergs"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostNukeDamageDone",
+    "value": "~AwardValue~% de dégâts d’équipe infligés aux Zergs"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostDamageDoneToZerg",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Broyeur de Zergs,Broyeuse de Zergs</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostNukeDamageDone",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Broyeur de Zergs,Broyeuse de Zergs</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostDamageDoneToZerg",
+    "value": "~TooltipAmount~ points de dégâts infligés aux Zergs"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostNukeDamageDone",
+    "value": "~TooltipAmount~ points de dégâts infligés aux Zergs"
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostDamageDoneToZerg",
+    "value": "Plus grande quantité de dégâts infligés aux Zergs"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/MapMechanicNuke",
     "value": "Après <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> secondes, déclenche une frappe nucléaire qui inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1750</c> points de dégâts, doublés pour les forts, les bastions et l’idole adverse.<n/><n/>Les bâtiments prennent aussi feu pendant <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> secondes, perdant <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.2 %</c> de leur maximum de points de vie toutes les secondes. Les attaques de base héroïques augmentent la durée restante de l’incendie de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0</c> secondes."
   },

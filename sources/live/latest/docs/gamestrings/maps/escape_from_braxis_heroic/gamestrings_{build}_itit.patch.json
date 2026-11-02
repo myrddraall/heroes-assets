@@ -486,6 +486,41 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostDamageDoneToZerg",
+    "value": "~AwardValue~% dei danni della squadra inflitti agli zerg"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostNukeDamageDone",
+    "value": "~AwardValue~% dei danni della squadra inflitti agli zerg"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostDamageDoneToZerg",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Disinfestatore,Disinfestatrice</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostNukeDamageDone",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Disinfestatore,Disinfestatrice</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostDamageDoneToZerg",
+    "value": "~TooltipAmount~ danni inflitti agli zerg"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostNukeDamageDone",
+    "value": "~TooltipAmount~ danni inflitti agli zerg"
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostDamageDoneToZerg",
+    "value": "Più danni inflitti agli zerg"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/MapMechanicNuke",
     "value": "Dopo <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> s, lancia una Testata Nucleare che infligge <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1750</c> danni, raddoppiati contro Forti, Fortezze e il nucleo nemico.<n/><n/>Le strutture vengono inoltre incendiate per <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> s, subendo danni al secondo pari al <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.2%</c> della loro Salute massima. Gli attacchi base degli eroi aumentano la durata residua di questo effetto a <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0</c> s."
   },

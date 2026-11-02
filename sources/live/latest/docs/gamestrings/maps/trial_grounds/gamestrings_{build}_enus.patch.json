@@ -216,6 +216,21 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostTimeOnPoint",
+    "value": "~AwardValue~% of Team's Time on Point"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostTimeOnPoint",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Point Guard</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostTimeOnPoint",
+    "value": "~TooltipAmount~ Seconds on Point"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/Artifact",
     "value": "Heals for a large portion of health while greatly increasing your power and vulnerability."
   },

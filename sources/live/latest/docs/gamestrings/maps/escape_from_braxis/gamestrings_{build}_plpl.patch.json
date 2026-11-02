@@ -486,6 +486,41 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostDamageDoneToZerg",
+    "value": "~AwardValue~% obrażeń zadanych zergom przez drużynę"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostNukeDamageDone",
+    "value": "~AwardValue~% obrażeń zadanych zergom przez drużynę"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostDamageDoneToZerg",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Dezerger,Dezergerka</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostNukeDamageDone",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Dezerger,Dezergerka</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostDamageDoneToZerg",
+    "value": "Obrażenia zadane zergom: ~TooltipAmount~ pkt."
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostNukeDamageDone",
+    "value": "Obrażenia zadane zergom: ~TooltipAmount~ pkt."
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostDamageDoneToZerg",
+    "value": "Najwięcej obrażeń zadanych zergom"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/MapMechanicNuke",
     "value": "Po upływie <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> sek. wystrzeliwujesz pocisk nuklearny, który zadaje <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1750</c> pkt. obrażeń. Są one podwojone w przypadku fortów, twierdz i wrogiej bazy.<n/><n/>Podpala budowle na <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> sek., co sprawia, że co sekundę odnoszą one obrażenia o wartości <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.2%</c> ich maksymalnego zdrowia. Heroiczne ataki podstawowe wydłużają czas działania tego efektu do <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0</c> sek."
   },
