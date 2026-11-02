@@ -196,6 +196,21 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostTimeOnPoint",
+    "value": "팀 거점 점령 시간의 ~AwardValue~%"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostTimeOnPoint",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">거점 수호자</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostTimeOnPoint",
+    "value": "거점 점령 시간 ~TooltipAmount~초"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/BioticEmitter",
     "value": "생체 방출기를 생성하여 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c>초에 걸쳐 주위 아군 영웅들을 최대 생명력과 마나의 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c>만큼 치유합니다."
   },

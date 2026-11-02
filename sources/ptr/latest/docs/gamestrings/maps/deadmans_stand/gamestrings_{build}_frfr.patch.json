@@ -551,6 +551,41 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostDamageDoneToZerg",
+    "value": "~AwardValue~% des dégâts de l’équipe infligés avec des ogives"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostNukeDamageDone",
+    "value": "~AwardValue~% des dégâts de l’équipe infligés avec des ogives"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostDamageDoneToZerg",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">La bombe</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostNukeDamageDone",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">La bombe</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostDamageDoneToZerg",
+    "value": "~TooltipAmount~ points de dégâts infligés avec des ogives"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostNukeDamageDone",
+    "value": "~TooltipAmount~ points de dégâts infligés avec des ogives"
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostDamageDoneToZerg",
+    "value": "Plus grande quantité de dégâts infligés aux Zergs"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/ArchangelToxicSludgling",
     "value": "Crée un mur de boue toxique qui se répand dans une zone et inflige des dégâts aux ennemis."
   },

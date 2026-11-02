@@ -21,6 +21,26 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostDamageToPlants",
+    "value": "~AwardValue~% des Unkrautlerschadens"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostDamageToPlants",
+    "value": "Pflanzenschreck"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostDamageToPlants",
+    "value": "~TooltipAmount~ Schaden gegen Unkrautler"
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostDamageToPlants",
+    "value": "Höchster Unkrautlern zugefügter Schaden"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/ItemSeedPickup",
     "value": "Begib dich in die Nähe, um diesen Samen einzusammeln."
   },

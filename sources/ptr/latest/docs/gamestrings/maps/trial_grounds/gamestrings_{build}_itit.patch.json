@@ -216,6 +216,21 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostTimeOnPoint",
+    "value": "~AwardValue~% del tempo della squadra sul punto"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostTimeOnPoint",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Guardia</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostTimeOnPoint",
+    "value": "~TooltipAmount~ secondi sul punto"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/Artifact",
     "value": "Rigenera molta Salute, aumentando la potenza e la vulnerabilità."
   },

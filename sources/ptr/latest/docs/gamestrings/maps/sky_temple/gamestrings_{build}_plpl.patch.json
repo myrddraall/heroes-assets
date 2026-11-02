@@ -105,6 +105,26 @@
     "value": "Uderza bronią z wielką siłą, raniąc wszystkich pobliskich przeciwników oraz odrzucając ich w tył"
   },
   {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostTimeInTemple",
+    "value": "~AwardValue~% kontroli nad świątyniami"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostTimeInTemple",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Wielki Mistrz Świątyni,Wielka Mistrzyni Świątyni</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostTimeInTemple",
+    "value": "Czas zajmowania kapliczek: ~TooltipAmount~ sek."
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostTimeInTemple",
+    "value": "Najdłuższy czas spędzony na terenie świątyni"
+  },
+  {
     "op": "replace",
     "path": "/items/unit/name/JungleGraveGolemLaner",
     "value": "Piaskowy Golem"

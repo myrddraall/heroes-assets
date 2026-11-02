@@ -21,6 +21,26 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostDamageToPlants",
+    "value": "식물에게 준 피해의 ~AwardValue~%"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostDamageToPlants",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">정원의 공포</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostDamageToPlants",
+    "value": "식물에게 준 피해: ~TooltipAmount~"
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostDamageToPlants",
+    "value": "최고 식물 피해"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/ItemSeedPickup",
     "value": "근처로 이동해서 씨앗을 획득하십시오."
   },

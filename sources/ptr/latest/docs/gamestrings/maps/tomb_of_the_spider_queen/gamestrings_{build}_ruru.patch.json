@@ -65,6 +65,26 @@
     "value": "Наносит урон и замедляет героев в большой области."
   },
   {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostGemsTurnedIn",
+    "value": "~AwardValue~% сданных кристаллов"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostGemsTurnedIn",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Ювелир,Ювелир</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostGemsTurnedIn",
+    "value": "Сдано кристаллов: ~TooltipAmount~"
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostGemsTurnedIn",
+    "value": "Больше всего сданных кристаллов"
+  },
+  {
     "op": "replace",
     "path": "/items/unit/name/HeroChenEarth",
     "value": "HeroChenEarth"

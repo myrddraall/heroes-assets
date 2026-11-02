@@ -105,6 +105,26 @@
     "value": "Обрушивает страшный удар на находящихся рядом противников, нанося им урон и отбрасывая их."
   },
   {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostTimeInTemple",
+    "value": "~AwardValue~% времени владения храмами"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostTimeInTemple",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Владыка храма,Владычица храма</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostTimeInTemple",
+    "value": "Время владения храмами: ~TooltipAmount~ сек."
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostTimeInTemple",
+    "value": "Наибольшее время в храмах"
+  },
+  {
     "op": "replace",
     "path": "/items/unit/name/JungleGraveGolemLaner",
     "value": "Песчаный голем"

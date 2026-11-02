@@ -56,6 +56,41 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostDamageToPlants",
+    "value": "~AwardValue~ graines récoltées"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostSeedsCollected",
+    "value": "~AwardValue~ graines récoltées"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostDamageToPlants",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Moissonneur, Moissonneuse</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostSeedsCollected",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Moissonneur, Moissonneuse</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostDamageToPlants",
+    "value": "~TooltipAmount~ graines récoltées"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostSeedsCollected",
+    "value": "~TooltipAmount~ graines récoltées"
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostDamageToPlants",
+    "value": "Plus grande quantité de dégâts infligés aux plantes"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/Seed",
     "value": "Passez à proximité pour récolter cette graine."
   },

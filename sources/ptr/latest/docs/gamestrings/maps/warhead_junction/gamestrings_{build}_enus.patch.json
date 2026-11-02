@@ -111,6 +111,21 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostNukeDamageDone",
+    "value": "~AwardValue~% of Team Damage Done with Warheads"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostNukeDamageDone",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Da Bomb</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostNukeDamageDone",
+    "value": "~TooltipAmount~ Damage Done with Warheads"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/MapMechanicNuke",
     "value": "After <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> seconds, launch a Warhead dealing <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1750</c> damage (<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c> max Health to Heroes).  Sets buildings on fire, causing additional damage over 10 seconds.  This effect is extended by attacking burning buildings."
   },

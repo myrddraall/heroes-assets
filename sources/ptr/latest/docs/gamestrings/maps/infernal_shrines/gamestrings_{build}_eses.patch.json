@@ -66,6 +66,26 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostDamageToMinions",
+    "value": "~AwardValue~% del daño infligido a guardianes de santuario"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostDamageToMinions",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Mataguardianes</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostDamageToMinions",
+    "value": "~TooltipAmount~ de daño infligido a guardianes de santuario"
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostDamageToMinions",
+    "value": "Mayor daño infligido a esbirros"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/ParalyzeStructure",
     "value": "Deshabilita la estructura seleccionada, inflige un 1% de la salud máxima del objetivo como daño, y drena 1 de energía por segundo durante 10 s."
   },

@@ -166,6 +166,26 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostImmortalDamage",
+    "value": "對不朽戰士造成~AwardValue~%傷害"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostImmortalDamage",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">不朽戰士屠殺者</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostImmortalDamage",
+    "value": "對不朽戰士造成~TooltipAmount~點傷害"
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostImmortalDamage",
+    "value": "對不朽戰士造成最多傷害"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/name/BossDuelBossDummyHeavenWeaponMissile",
     "value": "頭目模型武器飛彈"
   },
