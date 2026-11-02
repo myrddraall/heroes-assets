@@ -25,6 +25,7 @@
     "set.version": "node tools/set-version.ts",
     "store.extraction": "node tools/store-extraction.ts",
     "test": "devutil run test",
+    "test.tools": "node --test \"tools/**/*.test.ts\"",
     "typecheck": "tsc -p tsconfig.json"
   },
   "devDependencies": {

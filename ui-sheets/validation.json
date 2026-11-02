@@ -1,0 +1,47 @@
+{
+  "frames": {
+    "small-panel": {
+      "type": "NineSlice",
+      "texture": "storm_ui_glues_standard_smallpanel_border"
+    },
+    "scorescreen-frame": {
+      "type": "NineSlice",
+      "texture": "storm_ui_scorescreen_frame"
+    },
+    "context-menu": {
+      "type": "NineSlice",
+      "texture": "storm_contextmenu_background",
+      "edges": "tile",
+      "centre": "tile"
+    },
+    "topnav-button": {
+      "type": "NineSlice",
+      "texture": {
+        "normal": "storm_ui_glues_button_topnav_normal",
+        "hover": "storm_ui_glues_button_topnav_hover",
+        "selected": "storm_ui_glues_button_topnav_highlight",
+        "disabled": "storm_ui_glues_button_topnav_disabled"
+      }
+    },
+    "terran-tech": {
+      "type": "Border",
+      "texture": "terran-border-tech",
+      "edges": "tile",
+      "scale": 0.5
+    }
+  },
+  "sets": {
+    "panel": {
+      "back": "small-panel",
+      "front": "scorescreen-frame"
+    },
+    "topnav-button": {
+      "back": "topnav-button"
+    }
+  },
+  "pictures": {
+    "settings": "storm_ui_glues_lobby_icon_settings",
+    "search": "storm_ui_icon_searchglass",
+    "close": "storm_standard_icon_close_normal"
+  }
+}
