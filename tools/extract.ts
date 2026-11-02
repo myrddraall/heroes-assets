@@ -10,7 +10,12 @@
 import { readdir, readFile, rm, writeFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { asChannel } from './lib/channels.ts';
-import { EXTRACTION_LOCALES, hdpArguments, MAIN_LOCALE } from './lib/extraction.ts';
+import {
+  dropAwardWorkaround,
+  EXTRACTION_LOCALES,
+  hdpArguments,
+  MAIN_LOCALE,
+} from './lib/extraction.ts';
 import { cascExtract, runHdp } from './lib/hdp.ts';
 import {
   gatherTextures,
@@ -47,6 +52,8 @@ if (!String(meta.heroesVersion).startsWith(game)) {
 }
 
 if (locale === MAIN_LOCALE) {
+  await dropAwardWorkaround(out);
+
   // each map's interface textures: its mods' text files first, then the textures they name
   const work = join(dirname(out), 'casc-work');
   await rm(work, { recursive: true, force: true });
