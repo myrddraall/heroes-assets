@@ -3,7 +3,8 @@
 //   <channel>/history/index.json         the past builds, newest first
 //   <channel>/history/<game>.json        the build's files as a patch of the build after it (the
 //                                        newest past build's, of the channel's own files)
-//   <channel>/history/tools.json         a hash of the tools that built them
+//   <channel>/history/tools.json         hashes of the tools that built them and of the stored
+//                                        past builds they were built from
 //   files/<hash>.webp                    a past build's pictures that differ from the build after
 //                                        it's, once each by content, shared by both channels
 //                                        (pictures no history names any more are removed)
@@ -15,7 +16,8 @@
 //
 //   node tools/build-history.ts <live|ptr> [the channel's folder before this update]
 //
-// When the tools are the ones that built the history in the folder given, only what the new
+// When the tools and the stored past builds are the ones that built the history in the folder
+// given (but for the build the update adds), only what the new
 // current build changes is redone: the build it replaces becomes a past build as it was built,
 // and the newest past build's pictures that were the replaced build's own files are named where
 // they are kept now. Older past builds don't change. Otherwise (other tools, or no folder given)
@@ -150,7 +152,18 @@ async function writeEntry(entry: IndexEntry, patch: DocumentsPatch): Promise<voi
  */
 const NOT_BUILT = ['history', 'version.json'];
 
+const stored = await readHistory(channel);
 const tools = await toolsHash();
+
+/** A hash of the stored past builds (sources/<channel>/history), the newest `skip` left out. */
+async function sourcesHash(skip: number): Promise<string> {
+  const hash = createHash('sha256');
+  for (const meta of stored.slice(skip)) {
+    const file = join(ROOT, 'sources', channel, 'history', `${meta.game}.json`);
+    hash.update(meta.game).update(await readFile(file));
+  }
+  return hash.digest('hex').slice(0, 20);
+}
 const current = await readBuilt(own, NOT_BUILT);
 const currentWhere = new Map([...current.files.keys()].map((path) => [path, path]));
 
@@ -164,15 +177,18 @@ async function previousHistory(): Promise<{
   const stamp = await readFile(join(previousFolder, 'history', 'tools.json'), 'utf8').catch(
     () => '',
   );
-  if (!stamp || JSON.parse(stamp).tools !== tools) return null;
+  if (!stamp) return null;
+  const { tools: builtWith, sources } = JSON.parse(stamp) as { tools: string; sources?: string };
   const index = JSON.parse(await readFile(join(previousFolder, 'history', 'index.json'), 'utf8'));
   const version = JSON.parse(
     await readFile(join(previousFolder, 'version.json'), 'utf8').catch(() => 'null'),
   );
+  // the update adds the replaced build as the newest stored past build; the rest must be as before
+  const added = stored[0]?.game === version?.game ? 1 : 0;
+  if (builtWith !== tools || sources !== (await sourcesHash(added))) return null;
   return { built: await readBuilt(previousFolder, NOT_BUILT), version, index };
 }
 
-const stored = await readHistory(channel);
 const previous = await previousHistory();
 const index: IndexEntry[] = [];
 
@@ -252,7 +268,10 @@ if (previous) {
 
 if (index.length) {
   await writeFile(join(history, 'index.json'), `${JSON.stringify(index, null, 2)}\n`);
-  await writeFile(join(history, 'tools.json'), `${JSON.stringify({ tools })}\n`);
+  await writeFile(
+    join(history, 'tools.json'),
+    `${JSON.stringify({ tools, sources: await sourcesHash(0) })}\n`,
+  );
 }
 // the shared store keeps only the pictures some channel's history still names
 const named = new Set<string>();

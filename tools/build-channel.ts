@@ -35,7 +35,17 @@ const hdp = hdpArg;
 const out = outArg ?? join(ROOT, channel);
 
 /** The folders this tool writes in a channel's folder; everything in them is rebuilt each time. */
-const GENERATED = ['raw', 'heroes', 'portraits', 'emoticons', 'maps', 'minimap', 'strings'];
+const GENERATED = [
+  'raw',
+  'heroes',
+  'portraits',
+  'emoticons',
+  'maps',
+  'minimap',
+  'awards',
+  'strings',
+  'pictures.json',
+];
 
 const warnings: string[] = [];
 const warn = (message: string): void => {
@@ -446,6 +456,115 @@ const minimapRects = await sheet(
 await writeJson(join(out, 'minimap', 'index.json'), {
   sheet: Object.keys(minimapRects).length ? 'units.webp' : null,
   units: minimapRects,
+});
+
+// ── Match awards: the MVP screen's icons (blue, red, gold) and the score screen's (blue, red) ─
+
+interface Award {
+  mvpScreenIcon?: string;
+  scoreScreenIcon?: string;
+}
+
+const awards = await dataFile<Award>('matchawarddata')
+  .then((file) => file.items)
+  .catch(() => ({}) as Record<string, Award>); // builds imported before awards were extracted
+const awardFiles = Object.values(awards).flatMap(({ mvpScreenIcon, scoreScreenIcon }) => [
+  ...(mvpScreenIcon ? ['blue', 'red', 'gold'].map((c) => mvpScreenIcon.replace('%color%', c)) : []),
+  ...(scoreScreenIcon ? ['blue', 'red'].map((c) => scoreScreenIcon.replace('%team%', c)) : []),
+]);
+const awardRects = await sheet(
+  awardFiles.map((file): [string, string] => [file, file]),
+  pictures,
+  join(out, 'awards', 'awards.webp'),
+  'awards',
+);
+await writeJson(join(out, 'awards', 'index.json'), {
+  sheet: Object.keys(awardRects).length ? 'awards.webp' : null,
+  icons: awardRects,
+});
+
+// ── pictures.json: every picture the game data names, by its file name there, and where it is:
+//    a sheet (with the place in it and the sheet's size) or a file of its own. Paths are from
+//    the channel's folder. A picture in several sheets is given once, in the first of: portrait
+//    sheets, hero sheets, the minimap sheet, the awards sheet, emote sheets, map sheets ────────
+
+type Place =
+  | { readonly sheet: string; readonly rect: Rect; readonly size: readonly [number, number] }
+  | { readonly file: string };
+const places = new Map<string, Place>();
+const sheetSizes = new Map<string, Promise<readonly [number, number]>>();
+const sizeOf = (sheet: string): Promise<readonly [number, number]> => {
+  if (!sheetSizes.has(sheet)) {
+    sheetSizes.set(
+      sheet,
+      pictureSize(join(out, sheet)).then(({ width, height }) => [width, height] as const),
+    );
+  }
+  return sheetSizes.get(sheet)!;
+};
+async function place(file: string | undefined, sheet: string | null, rect?: Rect): Promise<void> {
+  const name = file?.toLowerCase();
+  if (!name || places.has(name) || !sheet || !rect) return;
+  places.set(name, { sheet, rect, size: await sizeOf(sheet) });
+}
+
+for (const [kind, { sheet: file, heroes: rects }] of Object.entries(portraitIndex) as [
+  string,
+  { sheet: string; heroes: Record<string, Rect> },
+][]) {
+  for (const [id, rect] of Object.entries(rects)) {
+    await place(heroes[id]?.portraits?.[kind] as string | undefined, `portraits/${file}`, rect);
+  }
+}
+for (const id of Object.keys(heroes)) {
+  const { sheets } = await readJson<{
+    sheets: {
+      hero: { sheet: string | null; icons: Record<string, Rect>; portraits: Record<string, Rect> };
+    };
+  }>(join(out, 'heroes', `${id}.json`));
+  const sheet = sheets.hero.sheet && `heroes/${sheets.hero.sheet}`;
+  for (const [file, rect] of Object.entries(sheets.hero.icons)) await place(file, sheet, rect);
+  for (const [kind, rect] of Object.entries(sheets.hero.portraits)) {
+    await place(heroes[id]?.portraits?.[kind] as string | undefined, sheet, rect);
+  }
+}
+for (const [id, rect] of Object.entries(minimapRects)) {
+  await place(units[id]?.portraits?.minimap, 'minimap/units.webp', rect);
+}
+for (const [file, rect] of Object.entries(awardRects))
+  await place(file, 'awards/awards.webp', rect);
+for (const [id, emoticon] of Object.entries(emoticonIndex) as [string, Json][]) {
+  const image = emoticons[id]?.image?.toLowerCase();
+  const animated = emoticon['animated'] as { file: string } | undefined;
+  if (image && animated && !places.has(image)) {
+    places.set(image, { file: `emoticons/${animated.file}` });
+  } else if (typeof emoticon['sheet'] === 'string') {
+    await place(image, `emoticons/${emoticon['sheet']}`, emoticon['rect'] as Rect);
+  }
+}
+const mapPictures: Record<string, { replayPreview?: string; loadingScreen?: string }> = {};
+for (const map of Object.values(maps)) {
+  const entry = mapIndex[map.normalizedId]!;
+  const icons = entry['icons'] as Record<string, Rect>;
+  for (const file of collect(map, ['image'])) {
+    await place(file, entry['sheet'] ? `maps/${entry['sheet']}` : null, icons[stem(file)]);
+  }
+  for (const [field, kind] of [
+    ['replayPreviewImage', 'replayPreview'],
+    ['loadingScreenImage', 'loadingScreen'],
+  ] as const) {
+    const built = entry[field];
+    if (typeof built !== 'string') continue;
+    const original = map[field];
+    if (typeof original === 'string' && !places.has(original.toLowerCase())) {
+      places.set(original.toLowerCase(), { file: `maps/${built}` });
+    }
+    (mapPictures[map.normalizedId] ??= {})[kind] = `maps/${built}`;
+  }
+}
+await writeJson(join(out, 'pictures.json'), {
+  files: Object.fromEntries([...places].sort(([a], [b]) => a.localeCompare(b))),
+  maps: mapPictures,
 });
 
 // ── Strings, per locale ─────────────────────────────────────────────────────────────────────

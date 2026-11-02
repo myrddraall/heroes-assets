@@ -13,6 +13,9 @@ Each channel has its own folder, `live/` and `ptr/`, laid out the same way:
 | --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
 | `version.json`                          | The game version extracted, the tool revision, the release version and the HDP version                                             |
 | `raw/data/`, `raw/gamestrings/`         | HDP's output as it came (`--localized-text Extract`), with its map-specific patches (site only, from `sources/`)                   |
+| `raw/index.json`, `raw/history/`        | The newest build's HDP files (names with `{build}`), and past builds' as patches of them (site only)                               |
+| `pictures.json`                         | Every picture the game data names, by its file name there: its sheet, place and sheet size, or its own file                        |
+| `awards/awards.webp`, `index.json`      | Match award icons: the MVP screen's (blue, red, gold) and the score screen's (blue, red)                                           |
 | `history/index.json`                    | The channel's past builds, newest first (see [History](#history))                                                                  |
 | `history/<game>.json`                   | A past build's files as a patch of the build after it                                                                              |
 | `heroes/index.json`                     | Every hero's summary: ids, franchise, rarity, ratings, release date…                                                               |
@@ -149,7 +152,7 @@ HDP's command for the English run (the other locales leave out the `:i` picture 
 `tools/lib/extraction.ts` holds it:
 
 ```bash
-HeroesDataParser online [--download-ptr] -e hero:i -e unit -e emoticon:i -e emoticonpack -e map:i \
+HeroesDataParser online [--download-ptr] -e hero:i -e unit:i -e emoticon:i -e emoticonpack -e matchaward:i -e map:i \
   -l enus --localized-text Extract \
   --gs-replace-constant-vars --gs-replace-style-vars --gs-preserve-constant-vars --gs-preserve-style-vars \
   -o hdp-out

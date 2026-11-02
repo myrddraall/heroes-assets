@@ -4,23 +4,32 @@
 // output, byte for byte) by the names the data uses. heroes-data2 has no map mod data, so these
 // builds' map sheets hold only the objective icons. Both repositories are MIT licensed.
 //
-//   node tools/import-heroes-data2.ts <live|ptr>
+//   node tools/import-heroes-data2.ts <live|ptr> [--again]
 //
 // Run once per channel after its first own build is stored; builds already in the history are
-// left alone. Uses `gh` for heroes-images' file list.
+// left alone. --again imports them all again (after our extraction gains a kind, such as match
+// awards). Uses `gh` for heroes-images' file list.
 import { execFileSync } from 'node:child_process';
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { asChannel, ROOT } from './lib/channels.ts';
 import type { Documents } from './lib/patches.ts';
 import jsonPatch, { type Operation } from 'fast-json-patch';
-import { appendOlder, builds, readExtraction, readHistory, readLatest } from './lib/sources.ts';
+import {
+  appendOlder,
+  builds,
+  readExtraction,
+  readHistory,
+  readLatest,
+  truncateHistory,
+} from './lib/sources.ts';
 
 const DATA = 'https://raw.githubusercontent.com/HeroesToolChest/heroes-data2/main/heroesdata';
 const IMAGES = 'https://raw.githubusercontent.com/HeroesToolChest/heroes-images/main/heroesimages';
 const CACHE = join(ROOT, 'hdp', 'import-cache');
 
 const channel = asChannel(process.argv[2]);
+const again = process.argv.includes('--again');
 
 interface HdpMeta {
   json: 'full' | 'patch';
@@ -92,10 +101,19 @@ async function rebuild(dir: string, folder: string, keys: readonly string[]): Pr
   return doc;
 }
 
-/** Every string ending in a picture's extension, anywhere in a document. */
+/**
+ * Every string ending in a picture's extension, anywhere in a document. Award icons name their
+ * colour as %color% (MVP screen: blue, red, gold) or %team% (score screen: blue, red).
+ */
 function pictureNames(value: unknown, into = new Set<string>()): Set<string> {
   if (typeof value === 'string') {
-    if (/\.(png|apng)$/i.test(value)) into.add(value.toLowerCase());
+    if (!/\.(png|apng)$/i.test(value)) return into;
+    const name = value.toLowerCase();
+    if (name.includes('%color%'))
+      ['blue', 'red', 'gold'].forEach((c) => into.add(name.replace('%color%', c)));
+    else if (name.includes('%team%'))
+      ['blue', 'red'].forEach((c) => into.add(name.replace('%team%', c)));
+    else into.add(name);
   } else if (Array.isArray(value)) value.forEach((v) => pictureNames(v, into));
   else if (value && typeof value === 'object')
     Object.values(value).forEach((v) => pictureNames(v, into));
@@ -147,6 +165,11 @@ for (const { path, type } of tree.tree) {
 // ── The builds to import: this channel's, older than our own, not imported yet ───────────────
 
 const index = await json<{ versions: string[] }>('', '.version.json');
+if (again) {
+  const history = await readHistory(channel);
+  const first = history.findIndex((m) => m.origin === 'heroes-data2');
+  if (first >= 0) await truncateHistory(channel, first);
+}
 const done = new Set((await readHistory(channel)).map((m) => m.game));
 const wanted = index.versions
   .filter((v) => v.endsWith('_ptr') === (channel === 'ptr'))
