@@ -2,6 +2,7 @@ import { createHash } from 'node:crypto';
 import { readdir, readFile, rm, writeFile } from 'node:fs/promises';
 import { basename, join } from 'node:path';
 import { LOCALES, type Channel } from './channels.ts';
+import { HERO_UNITS_VERSION } from './hero-units.ts';
 import { MAP_TEXT_PATTERNS } from './map-ui.ts';
 
 /** The Heroes Data Parser release the update downloads and runs. */
@@ -56,6 +57,7 @@ export const EXTRACTION_KEY = createHash('sha256')
       EXTRACTION_LOCALES,
       MAP_TEXT_PATTERNS,
       MAP_UI_VERSION,
+      HERO_UNITS_VERSION,
       AWARD_PICTURES_WORKAROUND,
     }),
   )

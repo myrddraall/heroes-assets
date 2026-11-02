@@ -13,6 +13,7 @@ import { basename, dirname, join } from 'node:path';
 import { writeAnimatedWebp } from './lib/animated.ts';
 import { asChannel, LOCALES, ROOT } from './lib/channels.ts';
 import { decodeDds, type Decoded } from './lib/dds.ts';
+import { HERO_UNIT_TEXTURES } from './lib/hero-units.ts';
 import {
   pictureSize,
   webpName,
@@ -194,13 +195,39 @@ const strings = await gameStrings();
 // ── Heroes: one file, an ability sheet, a talent sheet and a hero sheet (both, with its
 //    portraits) each; portraits also a sheet per kind across heroes ──────────────────────────
 
+type Portraits = Record<string, string | string[]>;
+
 interface Hero extends Json {
-  portraits?: Record<string, string | string[]>;
-  heroUnits?: Record<string, unknown>;
+  portraits?: Portraits;
+  heroUnits?: Record<string, { portraits?: Portraits }>;
   summonedUnitIds?: string[];
 }
 
 const heroes = (await dataFile<Hero>('herodata')).items;
+
+/** A portrait's files of one kind: none (''), one, or a list (`partyFrames`). */
+const portraitFiles = (portraits: Portraits | undefined, kind: string): string[] =>
+  [portraits?.[kind] ?? []].flat().filter((file) => file);
+
+/** An extraction from before hero units' portraits were taken (a past build's) has none of them. */
+const hasHeroUnits = await readdir(join(hdp, HERO_UNIT_TEXTURES)).then(
+  () => true,
+  () => false,
+);
+
+/**
+ * A hero's picture for its sheet: the extraction's, else a hero unit's texture (HDP writes only
+ * the heroes' own portraits; lib/hero-units.ts), else the name (the sheet says it's missing).
+ */
+async function heroPicture(file: string): Promise<Picture> {
+  if (pictures.has(file.toLowerCase())) return file;
+  try {
+    const texture = `${stem(file).toLowerCase()}.dds`;
+    return decodeDds(await readFile(join(hdp, HERO_UNIT_TEXTURES, texture)));
+  } catch {
+    return file;
+  }
+}
 
 /** The portraits a hero's own sheet holds besides its icons. */
 const HERO_SHEET_PORTRAITS = ['draftScreen', 'minimap', 'partyPanel', 'target', 'targetInfo'];
@@ -228,17 +255,34 @@ await Promise.all(
         }),
       ),
     );
-    // the hero sheet: every icon by file name, the portraits by kind; a picture used for both
+    // the hero sheet: every icon by file name, the portraits by kind, the party frames (in
+    // order) and the hero units' portraits by unit and kind; a picture used more than once
     // (Anub'arak's The Traitor King is his draft portrait) is in it once
-    const portraits = HERO_SHEET_PORTRAITS.flatMap((kind) => {
-      const file = hero.portraits?.[kind];
-      return typeof file === 'string' && file ? [[kind, file] as const] : [];
-    });
+    const portraits = HERO_SHEET_PORTRAITS.flatMap((kind) =>
+      portraitFiles(hero.portraits, kind).map((file) => [kind, file] as const),
+    );
+    const partyFrames = portraitFiles(hero.portraits, 'partyFrames');
+    const units = Object.entries(hasHeroUnits ? (hero.heroUnits ?? {}) : {}).map(
+      ([unit, { portraits: own }]) =>
+        [
+          unit,
+          Object.keys(own ?? {}).flatMap((kind) =>
+            portraitFiles(own, kind).map((file) => [kind, file] as const),
+          ),
+        ] as const,
+    );
     const icons = [...new Set([...kinds.abilities, ...kinds.talents])];
-    const files = new Set([...icons, ...portraits.map(([, file]) => file)]);
+    const files = new Set([
+      ...icons,
+      ...portraits.map(([, file]) => file),
+      ...partyFrames,
+      ...units.flatMap(([, own]) => own.map(([, file]) => file)),
+    ]);
     const file = `${id}/hero.webp`;
     const rects = await sheet(
-      [...files].map((f): [string, string] => [f, f]),
+      await Promise.all(
+        [...files].map(async (f): Promise<[string, Picture]> => [f, await heroPicture(f)]),
+      ),
       pictures,
       join(out, 'heroes', 'sheets', file),
       `${id}'s hero sheet`,
@@ -249,6 +293,9 @@ await Promise.all(
       sheet: Object.keys(rects).length ? `sheets/${file}` : null,
       icons: placed(icons.map((icon) => [icon, icon] as const)),
       portraits: placed(portraits),
+      // null where the extraction lacks one
+      partyFrames: partyFrames.map((f) => rects[f] ?? null),
+      units: Object.fromEntries(units.map(([unit, own]) => [unit, placed(own)])),
     };
     await writeJson(join(out, 'heroes', `${id}.json`), { id, ...data, sheets });
   }),
@@ -408,14 +455,35 @@ async function texture(name: string): Promise<Decoded | null> {
   return textures.get(name)!;
 }
 
+// Most replay previews are one size (417×234): the few that aren't (Sandbox Cursed Hollow's
+// 574×348, Snow Brawl's 418×234, some builds' full-screen ones) are scaled to it, and a map
+// without one (Deadman's Stand) gets its loading screen scaled to it
+const previewSizes = new Map<string, number>();
+for (const map of Object.values(maps)) {
+  const file = typeof map['replayPreviewImage'] === 'string' ? map['replayPreviewImage'] : '';
+  const picture = pictures.get(file.toLowerCase());
+  if (!picture) continue;
+  const { width, height } = await pictureSize(picture);
+  previewSizes.set(`${width}x${height}`, (previewSizes.get(`${width}x${height}`) ?? 0) + 1);
+}
+const [previewSize] = [...previewSizes].sort((a, b) => b[1] - a[1])[0] ?? [];
+const [previewWidth, previewHeight] = (previewSize ?? '').split('x').map(Number);
+const isPreviewSize = async (picture: string): Promise<boolean> => {
+  const { width, height } = await pictureSize(picture);
+  return `${width}x${height}` === previewSize;
+};
+
 const mapIndex: Record<string, Json> = {};
 await Promise.all(
   Object.entries(maps).map(async ([key, map]) => {
     for (const file of collect(map, MAP_FILES)) {
       const picture = pictures.get(file.toLowerCase());
+      const target = join(out, 'maps', 'images', webpName(file));
       if (!picture)
         warn(`${key}'s ${file} isn't in the extraction, so the map has no such picture`);
-      else await writeWebp(picture, join(out, 'maps', 'images', webpName(file)));
+      else if (file === map['replayPreviewImage'] && previewSize && !(await isPreviewSize(picture)))
+        await writeScaledWebp(picture, target, previewWidth!, previewHeight!);
+      else await writeWebp(picture, target);
     }
     const entries: [string, string | Picture][] = [...collect(map, ['image'])].map((file) => [
       stem(file),
@@ -448,18 +516,6 @@ await Promise.all(
     };
   }),
 );
-// A map without a replay preview (Deadman's Stand) gets its loading screen, scaled down to the
-// size most maps' previews are
-const previewSizes = new Map<string, number>();
-for (const map of Object.values(maps)) {
-  const file = typeof map['replayPreviewImage'] === 'string' ? map['replayPreviewImage'] : '';
-  const picture = pictures.get(file.toLowerCase());
-  if (!picture) continue;
-  const { width, height } = await pictureSize(picture);
-  previewSizes.set(`${width}x${height}`, (previewSizes.get(`${width}x${height}`) ?? 0) + 1);
-}
-const [previewSize] = [...previewSizes].sort((a, b) => b[1] - a[1])[0] ?? [];
-const [previewWidth, previewHeight] = (previewSize ?? '').split('x').map(Number);
 await Promise.all(
   Object.entries(maps).map(async ([key, map]) => {
     const preview = typeof map['replayPreviewImage'] === 'string' ? map['replayPreviewImage'] : '';
@@ -559,13 +615,29 @@ for (const [kind, { sheet: file, heroes: rects }] of Object.entries(portraitInde
 for (const id of Object.keys(heroes)) {
   const { sheets } = await readJson<{
     sheets: {
-      hero: { sheet: string | null; icons: Record<string, Rect>; portraits: Record<string, Rect> };
+      hero: {
+        sheet: string | null;
+        icons: Record<string, Rect>;
+        portraits: Record<string, Rect>;
+        partyFrames: (Rect | null)[];
+        units: Record<string, Record<string, Rect>>;
+      };
     };
   }>(join(out, 'heroes', `${id}.json`));
+  const hero = heroes[id]!;
   const sheet = sheets.hero.sheet && `heroes/${sheets.hero.sheet}`;
   for (const [file, rect] of Object.entries(sheets.hero.icons)) await place(file, sheet, rect);
   for (const [kind, rect] of Object.entries(sheets.hero.portraits)) {
-    await place(heroes[id]?.portraits?.[kind] as string | undefined, sheet, rect);
+    await place(portraitFiles(hero.portraits, kind)[0], sheet, rect);
+  }
+  const partyFrames = portraitFiles(hero.portraits, 'partyFrames');
+  for (const [i, rect] of sheets.hero.partyFrames.entries()) {
+    await place(partyFrames[i], sheet, rect ?? undefined);
+  }
+  for (const [unit, own] of Object.entries(sheets.hero.units)) {
+    for (const [kind, rect] of Object.entries(own)) {
+      await place(portraitFiles(hero.heroUnits?.[unit]?.portraits, kind)[0], sheet, rect);
+    }
   }
 }
 for (const [id, rect] of Object.entries(minimapRects)) {
