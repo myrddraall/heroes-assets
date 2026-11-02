@@ -20,7 +20,7 @@ Each channel has its own folder, `live/` and `ptr/`, laid out the same way:
 | `history/<game>.json`                   | A past build's files as a patch of the build after it                                                                              |
 | `heroes/index.json`                     | Every hero's summary: ids, franchise, rarity, ratings, release date…                                                               |
 | `heroes/<heroId>.json`                  | One hero's full data, plus `sheets.hero`, `sheets.abilities` and `sheets.talents`: each sheet and where its pictures sit           |
-| `heroes/sheets/<heroId>/hero.webp`      | All of the hero's pictures: ability and talent icons, and its draft screen, minimap, party panel, target and target info portraits |
+| `heroes/sheets/<heroId>/hero.webp`      | All the hero's pictures: its icons; draft screen, minimap, party panel, target and target info portraits; party frames; its units' |
 | `heroes/sheets/<heroId>/talents.webp`   | That hero's talent icons                                                                                                           |
 | `heroes/sheets/<heroId>/abilities.webp` | Its ability icons (with sub-abilities' and its hero units')                                                                        |
 | `portraits/<kind>.webp`, `index.json`   | Every hero's portrait of one kind (`minimap`, `heroSelect`, `draftScreen`…) as one sheet                                           |
@@ -41,6 +41,11 @@ Each channel has its own folder, `live/` and `ptr/`, laid out the same way:
 depends on, and every texture those mods name in their catalogs, trigger scripts and layouts is
 the map's (terrain, cliff and model textures aside). Units every map shares, such as towers,
 camps and the Cursed Hollow tribute, are in no map's mods; their icons are in `minimap/`.
+
+**Hero units' portraits** (the Lost Vikings' minimap icons and target portraits, Misha's, Chen's
+spirits') are named in HDP's hero data but not written by it, so the extraction takes them out
+of the game as textures too (`tools/lib/hero-units.ts`). Past builds stored before that have
+none; for those, they're not in `pictures.json`.
 
 Every sheet holds each picture once: entries that use the same picture (units sharing a minimap
 icon, a talent whose icon is the hero's portrait, two files with the same pixels) point at the same

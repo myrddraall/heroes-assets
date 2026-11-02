@@ -1,7 +1,8 @@
 // Runs Heroes Data Parser for one locale of a channel, from Blizzard's servers, and checks it
 // extracted the game version expected. The main locale's run also writes the data files and
-// pictures, and each map's interface textures (lib/map-ui.ts) into map-ui/; the others keep only
-// their strings (see lib/extraction.ts).
+// pictures, each map's interface textures (lib/map-ui.ts) into map-ui/, and the hero units'
+// portraits HDP leaves out (lib/hero-units.ts) into hero-units/; the others keep only their
+// strings (see lib/extraction.ts).
 //
 //   node tools/extract.ts <live|ptr> <locale> <game version> <output folder>
 //
@@ -17,6 +18,7 @@ import {
   MAIN_LOCALE,
 } from './lib/extraction.ts';
 import { cascExtract, runHdp } from './lib/hdp.ts';
+import { HERO_UNIT_TEXTURES, missingHeroUnitPortraits } from './lib/hero-units.ts';
 import {
   gatherTextures,
   MAP_TEXT_PATTERNS,
@@ -36,7 +38,9 @@ if (!locale || !EXTRACTION_LOCALES.includes(locale) || !game || !outArg) {
 const out = join(process.cwd(), outArg);
 const ptr = channel === 'ptr';
 
-async function dataFile(kind: string): Promise<{ meta: { heroesVersion: string }; items: object }> {
+async function dataFile(
+  kind: string,
+): Promise<{ meta: { heroesVersion: string }; items: Record<string, object> }> {
   const names = await readdir(join(out, 'data'));
   const name = names.find((n) => new RegExp(`^${kind}_\\d+\\.json$`).test(n));
   if (!name) throw new Error(`No ${kind} in ${join(out, 'data')}`);
@@ -65,11 +69,21 @@ if (locale === MAIN_LOCALE) {
   if (!names.size) {
     throw new Error(`No map interface textures: ${mods.size} mods read from ${join(work, 'text')}`);
   }
-  await cascExtract(ptr, [...names].map(texturePattern), join(work, 'textures'));
+  // the hero units' portraits come out with them
+  const units = await missingHeroUnitPortraits(
+    (await dataFile('herodata')).items,
+    join(out, 'images', 'heroportraits'),
+  );
+  await cascExtract(ptr, [...names, ...units].map(texturePattern), join(work, 'textures'));
   const missing = await gatherTextures(
     join(work, 'textures'),
     names,
     join(out, 'map-ui', 'textures'),
+  );
+  const unitsMissing = await gatherTextures(
+    join(work, 'textures'),
+    units,
+    join(out, HERO_UNIT_TEXTURES),
   );
   await writeFile(
     join(out, 'map-ui', 'maps.json'),
@@ -81,6 +95,10 @@ if (locale === MAIN_LOCALE) {
     `${channel}: interface textures of ${Object.keys(maps).length} maps, ${names.size - missing.length} ` +
       `found, ${missing.length} named but not in the game` +
       (unmatched.length ? `; no mod for ${unmatched.join(', ')}` : ''),
+  );
+  console.log(
+    `${channel}: ${units.size - unitsMissing.length} hero unit portraits` +
+      (unitsMissing.length ? `, not in the game: ${unitsMissing.join(', ')}` : ''),
   );
 } else {
   await rm(join(out, 'data'), { recursive: true, force: true });
