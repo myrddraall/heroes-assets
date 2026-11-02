@@ -18,6 +18,21 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostSkullsCollected",
+    "value": "~AwardValue~% of Team's Skulls Collected"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostSkullsCollected",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Skull Collector</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostSkullsCollected",
+    "value": "~TooltipAmount~ Skulls Collected"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/name/BossHoleSharedVisionUnit",
     "value": "Boss Hole Shared Vision Unit"
   },

@@ -65,6 +65,26 @@
     "value": "对一个大范围内的英雄造成伤害并使其减速"
   },
   {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostGemsTurnedIn",
+    "value": "~AwardValue~%的宝石上交"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostGemsTurnedIn",
+    "value": "珠宝大师"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostGemsTurnedIn",
+    "value": "上交~TooltipAmount~个宝石"
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostGemsTurnedIn",
+    "value": "上交最多宝石"
+  },
+  {
     "op": "replace",
     "path": "/items/unit/name/HeroChenEarth",
     "value": "HeroChenEarth"

@@ -136,6 +136,26 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostDamageDoneToZerg",
+    "value": "~AwardValue~% dei danni della squadra inflitti agli zerg"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostDamageDoneToZerg",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Disinfestatore,Disinfestatrice</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostDamageDoneToZerg",
+    "value": "~TooltipAmount~ danni inflitti agli zerg"
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostDamageDoneToZerg",
+    "value": "Più danni inflitti agli zerg"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/TerranRavenSeekerMissile",
     "value": "Spara un lento missile verso un nemico. Il missile insegue il bersaglio per 7 s. Se giunge a meno di 3 portata, raggiunge la sua destinazione, infliggendo 0 danni al bersaglio e ai nemici vicini."
   },

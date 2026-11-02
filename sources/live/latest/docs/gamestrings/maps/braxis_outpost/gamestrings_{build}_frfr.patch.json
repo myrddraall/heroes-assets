@@ -136,6 +136,26 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostDamageDoneToZerg",
+    "value": "~AwardValue~% de dégâts d’équipe infligés aux Zergs"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostDamageDoneToZerg",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Broyeur de Zergs,Broyeuse de Zergs</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostDamageDoneToZerg",
+    "value": "~TooltipAmount~ points de dégâts infligés aux Zergs"
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostDamageDoneToZerg",
+    "value": "Plus grande quantité de dégâts infligés aux Zergs"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/TerranRavenSeekerMissile",
     "value": "Lance un missile qui progresse lentement vers l’unité ciblée. Le missile pourchasse la cible pendant 7 secondes. S’il approche à moins de 3 mètres de sa cible, il accélère et la percute, ce qui lui inflige, ainsi qu’aux ennemis proches de l’impact, 0 points de dégâts."
   },

@@ -81,6 +81,21 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostTimePushing",
+    "value": "~AwardValue~% czasu eskortowania ładunku"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostTimePushing",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Konwojent,Konwojentka</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostTimePushing",
+    "value": "~TooltipAmount~ sek. eskortowania ładunku"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/BioticEmitter",
     "value": "Tworzy Emiter Biotyczny, którzy przywraca wszystkim pobliskim bohaterom sojuszniczym <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> ich maksymalnego zdrowia i many w ciągu <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> sek."
   },

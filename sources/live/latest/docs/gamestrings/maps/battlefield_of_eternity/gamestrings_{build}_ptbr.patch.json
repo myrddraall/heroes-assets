@@ -166,6 +166,26 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostImmortalDamage",
+    "value": "~AwardValue~% do dano causado aos Imortais"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostImmortalDamage",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Matador de Imortais,Matadora de Imortais</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostImmortalDamage",
+    "value": "~TooltipAmount~ de dano causado aos Imortais"
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostImmortalDamage",
+    "value": "Maior quantidade de dano causado a Imortais"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/name/BossDuelBossDummyHeavenWeaponMissile",
     "value": "Chefe - Dummy - Arma - Projétil"
   },

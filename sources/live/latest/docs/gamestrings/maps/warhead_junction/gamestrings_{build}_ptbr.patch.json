@@ -111,6 +111,21 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostNukeDamageDone",
+    "value": "~AwardValue~% do dano da equipe causado com Ogivas"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostNukeDamageDone",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Bombardeador,Bombardeadora</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostNukeDamageDone",
+    "value": "~TooltipAmount~ de dano causado com Ogivas"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/MapMechanicNuke",
     "value": "Após <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> s, lança uma Ogiva que causa <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1750</c> de dano (<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c> do máximo de Vida a Heróis). Incendeia estruturas próximas, causando dano adicional por 10 s. Efeito aumentado ao atacar construções incendiadas."
   },

@@ -81,6 +81,21 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostTimePushing",
+    "value": "~AwardValue~% Time on Payload"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostTimePushing",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Pusher</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostTimePushing",
+    "value": "~TooltipAmount~ Seconds on the Payload"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/BioticEmitter",
     "value": "Create a Biotic Emitter that restores <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> of nearby allied heroes maximum Health and Mana over <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> seconds."
   },

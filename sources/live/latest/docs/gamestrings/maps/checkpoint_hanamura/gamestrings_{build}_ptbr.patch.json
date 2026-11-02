@@ -81,6 +81,21 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostTimePushing",
+    "value": "~AwardValue~% do tempo na Carga"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostTimePushing",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Empurrador,Empurradora</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostTimePushing",
+    "value": "~TooltipAmount~ s na Carga"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/BioticEmitter",
     "value": "Cria um Emissor Biótico que restaura <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> do máximo de Vida e Mana dos Heróis aliados próximos ao longo de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> s."
   },
