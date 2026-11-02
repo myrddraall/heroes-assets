@@ -166,6 +166,26 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostImmortalDamage",
+    "value": "~AwardValue~% de dégâts infligés aux Immortels"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostImmortalDamage",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Tueur d’immortels,Tueuse d’immortels</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostImmortalDamage",
+    "value": "~TooltipAmount~ points de dégâts infligés aux immortels"
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostImmortalDamage",
+    "value": "Plus grande quantité de dégâts infligés aux Immortels"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/name/BossDuelBossDummyHeavenWeaponMissile",
     "value": "Boss - Arme - Leurre - Trajectoire"
   },

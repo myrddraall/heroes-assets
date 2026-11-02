@@ -166,6 +166,26 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostImmortalDamage",
+    "value": "~AwardValue~% Damage to Immortals"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostImmortalDamage",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Immortal Slayer</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostImmortalDamage",
+    "value": "~TooltipAmount~ Damage Done to Immortals"
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostImmortalDamage",
+    "value": "Most Immortal Damage"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/name/BossDuelBossDummyHeavenWeaponMissile",
     "value": "Boss Dummy Weapon Missile"
   },

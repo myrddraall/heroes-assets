@@ -13,6 +13,9 @@ Each channel has its own folder, `live/` and `ptr/`, laid out the same way:
 | --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
 | `version.json`                          | The game version extracted, the tool revision, the release version and the HDP version                                             |
 | `raw/data/`, `raw/gamestrings/`         | HDP's output as it came (`--localized-text Extract`), with its map-specific patches (site only, from `sources/`)                   |
+| `raw/index.json`, `raw/history/`        | The newest build's HDP files (names with `{build}`), and past builds' as patches of them (site only)                               |
+| `pictures.json`                         | Every picture the game data names, by its file name there: its sheet, place and sheet size, or its own file                        |
+| `awards/awards.webp`, `index.json`      | Match award icons: the MVP screen's (blue, red, gold) and the score screen's (blue, red)                                           |
 | `history/index.json`                    | The channel's past builds, newest first (see [History](#history))                                                                  |
 | `history/<game>.json`                   | A past build's files as a patch of the build after it                                                                              |
 | `heroes/index.json`                     | Every hero's summary: ids, franchise, rarity, ratings, release date…                                                               |
@@ -63,8 +66,11 @@ Every build is kept, without storing what didn't change.
 - **In the repository,** `sources/` keeps what every build was made from: `sources/<channel>/latest/`
   the newest extraction (HDP's JSON, file names with `{build}` for the build), its older builds in
   `sources/<channel>/history/` as patches of the build after each, and every picture and texture
-  once, by content, in `sources/blobs/`. Each update rebuilds every past build from these with the
-  current tools (`tools/build-history.ts`), so a tool change reaches history too.
+  once, by content, in `sources/blobs/`. When the tools change, every past build is built again
+  from these (`tools/build-history.ts`, `history/tools.json` names the tools that built it), so a
+  tool change reaches history too. Otherwise an update only adds the build it replaces and
+  re-points the newest past build's pictures; older patches name only what differs from the build
+  after them, so they stay as they are.
 - **Builds before ours** (2.55.16.97039 to 2.57.0.98304 live, 2.55.17.97407 to 2.57.0.98182 PTR)
   are imported from HeroesToolChest's [heroes-data2](https://github.com/HeroesToolChest/heroes-data2)
   and [heroes-images](https://github.com/HeroesToolChest/heroes-images) (MIT) with
@@ -146,7 +152,7 @@ HDP's command for the English run (the other locales leave out the `:i` picture 
 `tools/lib/extraction.ts` holds it:
 
 ```bash
-HeroesDataParser online [--download-ptr] -e hero:i -e unit -e emoticon:i -e emoticonpack -e map:i \
+HeroesDataParser online [--download-ptr] -e hero:i -e unit:i -e emoticon:i -e emoticonpack -e matchaward:i -e map:i \
   -l enus --localized-text Extract \
   --gs-replace-constant-vars --gs-replace-style-vars --gs-preserve-constant-vars --gs-preserve-style-vars \
   -o hdp-out

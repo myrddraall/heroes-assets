@@ -11,6 +11,7 @@ const EXTRACTORS: readonly (readonly [name: string, images: boolean])[] = [
   ['unit', true],
   ['emoticon', true],
   ['emoticonpack', false],
+  ['matchaward', true],
   ['map', true],
 ];
 

@@ -111,6 +111,21 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostNukeDamageDone",
+    "value": "~AwardValue~% des dégâts de l’équipe infligés avec des ogives"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostNukeDamageDone",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">La bombe</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostNukeDamageDone",
+    "value": "~TooltipAmount~ points de dégâts infligés avec des ogives"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/MapMechanicNuke",
     "value": "Après <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> secondes, déclenche une frappe nucléaire qui inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1750</c> points de dégâts (<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30 %</c> de leur maximum de points de vie pour les héros). Enflamme les bâtiments et inflige des dégâts supplémentaires pendant 10 secondes. Cet effet peut être prolongé en attaquant les bâtiments en feu."
   },

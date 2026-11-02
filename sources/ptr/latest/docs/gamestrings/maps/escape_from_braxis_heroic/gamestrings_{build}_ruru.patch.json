@@ -486,6 +486,41 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostDamageDoneToZerg",
+    "value": "~AwardValue~% урона команды по зергам"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostNukeDamageDone",
+    "value": "~AwardValue~% урона команды по зергам"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostDamageDoneToZerg",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Гроза зергов,Гроза зергов</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostNukeDamageDone",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Гроза зергов,Гроза зергов</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostDamageDoneToZerg",
+    "value": "Урон по зергам: ~TooltipAmount~ ед."
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostNukeDamageDone",
+    "value": "Урон по зергам: ~TooltipAmount~ ед."
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostDamageDoneToZerg",
+    "value": "Наибольший объем урона по зергам"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/MapMechanicNuke",
     "value": "После паузы в <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> сек. запускает ядерную ракету, наносящую <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1750</c> ед. урона. Урон по вражеским фортам, крепостям и цитадели удваивается.<n/><n/>Поджигает строения на <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> сек., каждую секунду нанося урон в размере <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.2%</c> от их максимального здоровья. Автоатаки героев продлевают действие эффекта до <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0</c> сек."
   },

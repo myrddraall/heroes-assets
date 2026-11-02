@@ -486,6 +486,41 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostDamageDoneToZerg",
+    "value": "~AwardValue~% del daño del equipo contra los zerg"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostNukeDamageDone",
+    "value": "~AwardValue~% del daño del equipo contra los zerg"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostDamageDoneToZerg",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Aplastador de zerg,Aplastadora de zerg</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostNukeDamageDone",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Aplastador de zerg,Aplastadora de zerg</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostDamageDoneToZerg",
+    "value": "~TooltipAmount~ de daño contra los zerg"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostNukeDamageDone",
+    "value": "~TooltipAmount~ de daño contra los zerg"
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostDamageDoneToZerg",
+    "value": "Mayor daño contra los zerg"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/MapMechanicNuke",
     "value": "Después de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> segundos, lanza un misil nuclear que inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1750</c> de daño, que se duplica contra los fuertes, las fortalezas y el núcleo enemigo.<n/><n/>Las estructuras afectadas se incendian durante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> segundos y reciben <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.2%</c> de la salud máxima como daño por segundo. Los ataques básicos de héroes aumentan la duración de este efecto a <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0</c> segundos."
   },

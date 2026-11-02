@@ -216,6 +216,21 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostTimeOnPoint",
+    "value": "~AwardValue~% czasu drużyny na punkcie kontrolnym"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostTimeOnPoint",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Strażnik Punktu,Strażniczka Punktu</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostTimeOnPoint",
+    "value": "~TooltipAmount~ sek. na punkcie kontrolnym"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/Artifact",
     "value": "Leczy, przywracając duży odsetek zdrowia oraz znacznie zwiększa moc bohatera i jego podatność."
   },

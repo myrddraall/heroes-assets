@@ -27,14 +27,29 @@ for (const channel of CHANNELS) {
   if (!version) continue;
   index[channel] = version;
   await cp(join(ROOT, channel), join(dist, channel), { recursive: true });
-  // HDP's data and strings of the newest build, under their own names
+  // HDP's data and strings of the newest build, under their own names, and its past builds as
+  // the store keeps them (raw/history/<game>.json: patches of the build after each, by file name
+  // with {build} for the build); raw/index.json names the newest build's files that way
   const latest = await readLatest(channel);
   const build = latest?.meta.game.split('.').pop() ?? '';
+  const names: string[] = [];
   for (const [name, doc] of latest?.docs ?? []) {
     if (!/^(data|gamestrings)\//.test(name)) continue;
+    names.push(name);
     const target = join(dist, channel, 'raw', name.replaceAll('{build}', build));
     await mkdir(dirname(target), { recursive: true });
     await writeFile(target, `${JSON.stringify(doc, null, 2)}\n`);
+  }
+  if (latest) {
+    await writeFile(
+      join(dist, channel, 'raw', 'index.json'),
+      `${JSON.stringify({ game: latest.meta.game, files: names.sort() }, null, 2)}\n`,
+    );
+    await cp(join(ROOT, 'sources', channel, 'history'), join(dist, channel, 'raw', 'history'), {
+      recursive: true,
+    }).catch((error) => {
+      if (error.code !== 'ENOENT') throw error;
+    });
   }
 }
 await cp(join(ROOT, 'files'), join(dist, 'files'), { recursive: true }).catch((error) => {

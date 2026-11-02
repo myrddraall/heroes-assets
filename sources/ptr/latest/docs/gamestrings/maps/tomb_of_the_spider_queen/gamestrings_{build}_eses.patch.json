@@ -65,6 +65,26 @@
     "value": "Inflige daño y ralentiza a los enemigos en una zona amplia."
   },
   {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostGemsTurnedIn",
+    "value": "~AwardValue~% de las gemas entregadas"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostGemsTurnedIn",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Joyero,Joyera</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostGemsTurnedIn",
+    "value": "~TooltipAmount~ gemas entregadas"
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostGemsTurnedIn",
+    "value": "Mayor número de gemas entregadas"
+  },
+  {
     "op": "replace",
     "path": "/items/unit/name/HeroChenEarth",
     "value": "HéroeChenTierra"

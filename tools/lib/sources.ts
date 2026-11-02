@@ -183,6 +183,15 @@ export async function* builds(
   }
 }
 
+/** Drops the stored past builds from the `keep`-th on (to import them again). */
+export async function truncateHistory(channel: Channel, keep: number): Promise<void> {
+  const history = await readHistory(channel);
+  for (const meta of history.slice(keep)) {
+    await rm(join(historyFolder(channel), `${meta.game}.json`), { force: true });
+  }
+  await writeIndex(channel, history.slice(0, keep));
+}
+
 /** Adds an older build after the oldest stored one (for importing past builds, oldest last). */
 export async function appendOlder(
   channel: Channel,
