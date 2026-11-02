@@ -65,6 +65,26 @@
     "value": "Fügt Helden in einem großen Bereich Schaden zu und verlangsamt sie."
   },
   {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostGemsTurnedIn",
+    "value": "~AwardValue~% der Juwelen abgegeben"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostGemsTurnedIn",
+    "value": "Grabräuber"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostGemsTurnedIn",
+    "value": "~TooltipAmount~ Juwelen abgegeben"
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostGemsTurnedIn",
+    "value": "Meiste Juwelen abgegeben"
+  },
+  {
     "op": "replace",
     "path": "/items/unit/name/JungleGraveGolemLaner",
     "value": "Sandgolem"

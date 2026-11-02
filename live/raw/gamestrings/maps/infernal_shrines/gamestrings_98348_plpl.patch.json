@@ -66,6 +66,26 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostDamageToMinions",
+    "value": "~AwardValue~% obrażeń zadanych strażnikom kapliczek"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostDamageToMinions",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Zabójca Strażników,Zabójczyni Strażników</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostDamageToMinions",
+    "value": "Obrażenia zadane strażnikom kapliczek: ~TooltipAmount~ pkt."
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostDamageToMinions",
+    "value": "Najwięcej obrażeń zadanych stronnikom"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/ParalyzeStructure",
     "value": "Unieszkodliwiasz wybraną budowlę, zadając jej obrażenia równe 1% maksymalnej wytrzymałości oraz odbierasz jej 1 pkt. energii na sekundę przez 10 sek."
   },

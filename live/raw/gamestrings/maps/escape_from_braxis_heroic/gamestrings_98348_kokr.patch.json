@@ -486,6 +486,41 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostDamageDoneToZerg",
+    "value": "팀이 저그에게 준 피해의 ~AwardValue~%"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostNukeDamageDone",
+    "value": "팀이 저그에게 준 피해의 ~AwardValue~%"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostDamageDoneToZerg",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">저그 학살자</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostNukeDamageDone",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">저그 학살자</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostDamageDoneToZerg",
+    "value": "저그에게 준 피해: ~TooltipAmount~"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostNukeDamageDone",
+    "value": "저그에게 준 피해: ~TooltipAmount~"
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostDamageDoneToZerg",
+    "value": "최고 저그 피해"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/MapMechanicNuke",
     "value": "<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>초 후, <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1750</c>의 피해를 주는 핵을 발사합니다. 요새, 성채, 적의 핵에는 피해가 2배로 적용됩니다.<n/><n/>구조물은 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c>초 동안 점화되어 매초 최대 생명력의 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.2%</c>만큼 피해를 받습니다. 영웅이 일반 공격을 할 때마다 남은 지속 시간이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0</c>초로 증가합니다."
   },

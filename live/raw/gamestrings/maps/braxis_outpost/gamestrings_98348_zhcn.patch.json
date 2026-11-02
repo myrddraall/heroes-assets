@@ -136,6 +136,26 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostDamageDoneToZerg",
+    "value": "~AwardValue~%的团队异虫伤害"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostDamageDoneToZerg",
+    "value": "异虫克星"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostDamageDoneToZerg",
+    "value": "对异虫造成~TooltipAmount~点伤害"
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostDamageDoneToZerg",
+    "value": "对虫群造成最多伤害"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/TerranRavenSeekerMissile",
     "value": "向目标单位发射一枚缓慢飞行的导弹。弹道将追踪目标7秒。如果导弹进入目标3范围以内，那么导弹将迅速靠近目标，对目标和附近敌人造成0点伤害。"
   },

@@ -105,6 +105,26 @@
     "value": "用武器横扫，对附近敌人造成伤害并将其击退。"
   },
   {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostTimeInTemple",
+    "value": "~AwardValue~%的神殿占领"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostTimeInTemple",
+    "value": "神殿大师"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostTimeInTemple",
+    "value": "占领神殿~TooltipAmount~秒"
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostTimeInTemple",
+    "value": "在神殿内最长时间"
+  },
+  {
     "op": "replace",
     "path": "/items/unit/name/JungleGraveGolemLaner",
     "value": "沙尘魔像"

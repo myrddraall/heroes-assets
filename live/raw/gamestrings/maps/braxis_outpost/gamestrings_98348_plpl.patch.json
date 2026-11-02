@@ -136,6 +136,26 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostDamageDoneToZerg",
+    "value": "~AwardValue~% obrażeń zadanych zergom przez drużynę"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostDamageDoneToZerg",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Dezerger,Dezergerka</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostDamageDoneToZerg",
+    "value": "Obrażenia zadane zergom: ~TooltipAmount~ pkt."
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostDamageDoneToZerg",
+    "value": "Najwięcej obrażeń zadanych zergom"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/TerranRavenSeekerMissile",
     "value": "Wystrzeliwujesz w wybraną jednostkę wolno poruszający się pocisk. Pocisk będzie podążać za celem przez 7 sek. Jeśli pocisk znajdzie się w odległości 3 od celu, gwałtownie przyspieszy, by go trafić, i zada 0 pkt. obrażeń celowi oraz wszystkim pobliskim przeciwnikom."
   },

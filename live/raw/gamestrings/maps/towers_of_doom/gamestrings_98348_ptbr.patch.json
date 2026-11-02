@@ -26,6 +26,26 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostAltarDamage",
+    "value": "~AwardValue~% do dano causado ao Núcleo"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostAltarDamage",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Canhoneiro,Canhoneira</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostAltarDamage",
+    "value": "~TooltipAmount~ de dano causado ao Núcleo"
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostAltarDamage",
+    "value": "Maior quantidade de dano causado a Altares"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/name/BaseAvatarUnit",
     "value": "Base Avatar Unit"
   },

@@ -26,6 +26,26 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostAltarDamage",
+    "value": "~AwardValue~% урона по цитадели"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostAltarDamage",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Канонир,Канонир</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostAltarDamage",
+    "value": "Урон по цитадели: ~TooltipAmount~ ед."
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostAltarDamage",
+    "value": "Наибольший объем урона, нанесенного с помощью алтарей"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/name/BaseAvatarUnit",
     "value": "База - аватара"
   },

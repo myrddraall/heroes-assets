@@ -486,6 +486,41 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostDamageDoneToZerg",
+    "value": "~AwardValue~% Team Damage Done to Zerg"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostNukeDamageDone",
+    "value": "~AwardValue~% Team Damage Done to Zerg"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostDamageDoneToZerg",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Zerg Crusher</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostNukeDamageDone",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Zerg Crusher</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostDamageDoneToZerg",
+    "value": "~TooltipAmount~ Damage Done to Zerg"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostNukeDamageDone",
+    "value": "~TooltipAmount~ Damage Done to Zerg"
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostDamageDoneToZerg",
+    "value": "Most Damage Done To Zerg"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/MapMechanicNuke",
     "value": "After <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> seconds, launch a nuke dealing <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1750</c> damage, doubled against Forts, Keeps, and the enemy Core.<n/><n/>Structures are also ignited for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> seconds, taking <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.2%</c> of their maximum Health as damage every second. Heroic Basic Attacks increase the remaining duration of this to <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0</c> seconds."
   },

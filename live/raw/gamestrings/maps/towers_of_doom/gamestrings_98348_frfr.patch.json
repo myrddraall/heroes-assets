@@ -26,6 +26,26 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostAltarDamage",
+    "value": "~AwardValue~% des dégâts contre l’idole"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostAltarDamage",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Canonnier,Canonnière</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostAltarDamage",
+    "value": "~TooltipAmount~ salves tirées sur l’idole"
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostAltarDamage",
+    "value": "Plus grande quantité de dégâts infligés aux autels"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/name/BaseAvatarUnit",
     "value": "Base - Avatar - Unité"
   },

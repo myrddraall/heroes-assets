@@ -136,6 +136,26 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostDamageDoneToZerg",
+    "value": "팀이 저그에게 준 피해의 ~AwardValue~%"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostDamageDoneToZerg",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">저그 학살자</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostDamageDoneToZerg",
+    "value": "저그에게 준 피해: ~TooltipAmount~"
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostDamageDoneToZerg",
+    "value": "최고 저그 피해"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/TerranRavenSeekerMissile",
     "value": "대상 유닛에게 느리게 움직이는 미사일을 발사합니다. 미사일은 7초 동안 대상을 추적합니다. 미사일이 대상으로부터 사거리 3 내로 접근하면, 대상에게 빠르게 이동한 후 폭발하면서 대상과 주위 적들에게 0의 피해를 줍니다."
   },

@@ -111,6 +111,21 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostNukeDamageDone",
+    "value": "貢獻全隊~AwardValue~%核彈傷害量"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostNukeDamageDone",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">爆破大師</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostNukeDamageDone",
+    "value": "造成~TooltipAmount~點核彈傷害"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/MapMechanicNuke",
     "value": "引導 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> 秒後發射一枚核彈，造成 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1750</c> 點傷害（對英雄造成 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c> 最大生命值的傷害）。點燃建築物，在 10 秒內造成額外傷害。攻擊燃燒的建築物可延長此效果。"
   },

@@ -166,6 +166,26 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostImmortalDamage",
+    "value": "~AwardValue~% урона по Бессмертным"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostImmortalDamage",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Гроза Бессмертных,Гроза Бессмертных</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostImmortalDamage",
+    "value": "Урон по Бессмертным: ~TooltipAmount~ ед."
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostImmortalDamage",
+    "value": "Наибольший объем урона по Бессмертным"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/name/BossDuelBossDummyHeavenWeaponMissile",
     "value": "Boss Dummy Weapon Missile"
   },
