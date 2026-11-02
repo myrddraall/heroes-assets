@@ -26,6 +26,26 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostAltarDamage",
+    "value": "~AwardValue~% dei danni inflitti al nucleo"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostAltarDamage",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Cannoniere,Cannoniera</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostAltarDamage",
+    "value": "~TooltipAmount~ danni inflitti al nucleo."
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostAltarDamage",
+    "value": "Più danni inflitti agli altari"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/name/BaseAvatarUnit",
     "value": "Avatar unità base"
   },

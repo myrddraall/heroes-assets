@@ -486,6 +486,41 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostDamageDoneToZerg",
+    "value": "~AwardValue~%的团队异虫伤害"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostNukeDamageDone",
+    "value": "~AwardValue~%的团队异虫伤害"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostDamageDoneToZerg",
+    "value": "异虫克星"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostNukeDamageDone",
+    "value": "异虫克星"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostDamageDoneToZerg",
+    "value": "对异虫造成~TooltipAmount~点伤害"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostNukeDamageDone",
+    "value": "对异虫造成~TooltipAmount~点伤害"
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostDamageDoneToZerg",
+    "value": "对虫群造成最多伤害"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/MapMechanicNuke",
     "value": "<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c>秒后呼叫聚变打击，造成<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1750</c>点伤害，该伤害对堡垒、要塞以及敌方核心加倍。<n/><n/>建筑也会被点燃<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c>秒，每秒受到相当于<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.2%</c>最大生命值的伤害。英雄的普通攻击使该效果的剩余持续时间延长至<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0</c>秒。"
   },

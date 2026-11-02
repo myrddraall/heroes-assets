@@ -81,6 +81,21 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostTimePushing",
+    "value": "~AwardValue~% di tempo sul carico"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostTimePushing",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Scorta,Scorta</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostTimePushing",
+    "value": "~TooltipAmount~ secondi sul carico"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/BioticEmitter",
     "value": "Crea un Emettitore Biotico che rigenera il <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> di Salute e Mana massimi degli eroi alleati vicini in <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> s."
   },

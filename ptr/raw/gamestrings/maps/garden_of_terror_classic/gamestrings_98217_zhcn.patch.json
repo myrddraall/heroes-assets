@@ -21,6 +21,26 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostDamageToPlants",
+    "value": "~AwardValue~%的植物伤害"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostDamageToPlants",
+    "value": "花园恐魔"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostDamageToPlants",
+    "value": "对植物造成~TooltipAmount~点伤害"
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostDamageToPlants",
+    "value": "对植物造成最多伤害"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/ItemSeedPickup",
     "value": "移动到附近来采集这颗种子。"
   },

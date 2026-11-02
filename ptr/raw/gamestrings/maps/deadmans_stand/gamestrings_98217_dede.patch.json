@@ -551,6 +551,41 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostDamageDoneToZerg",
+    "value": "~AwardValue~% des teamweiten Sprengkopfschadens"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostNukeDamageDone",
+    "value": "~AwardValue~% des teamweiten Sprengkopfschadens"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostDamageDoneToZerg",
+    "value": "Sprengmeister"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostNukeDamageDone",
+    "value": "Sprengmeister"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostDamageDoneToZerg",
+    "value": "~TooltipAmount~ Schaden mit Sprengköpfen"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostNukeDamageDone",
+    "value": "~TooltipAmount~ Schaden mit Sprengköpfen"
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostDamageDoneToZerg",
+    "value": "Höchster Zerg zugefügter Schaden"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/ArchangelToxicSludgling",
     "value": "Erschafft eine Reihe von toxischen Schleimlingen, die sich durch das Gebiet bewegen und Gegnern Schaden zufügen."
   },

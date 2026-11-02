@@ -486,6 +486,41 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostDamageDoneToZerg",
+    "value": "~AwardValue~% del daño del equipo infligido a zerg"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostNukeDamageDone",
+    "value": "~AwardValue~% del daño del equipo infligido a zerg"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostDamageDoneToZerg",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Aplastazerg</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostNukeDamageDone",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Aplastazerg</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostDamageDoneToZerg",
+    "value": "~TooltipAmount~ de daño infligido a zerg"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostNukeDamageDone",
+    "value": "~TooltipAmount~ de daño infligido a zerg"
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostDamageDoneToZerg",
+    "value": "Mayor daño infligido a zerg"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/MapMechanicNuke",
     "value": "Tras <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> s, lanzas una bomba nuclear que inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1750</c> de daño. Este daño se duplica contra los fuertes, las fortalezas y el núcleo enemigo.<n/><n/>Las estructuras también se incendian durante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> s y reciben un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.2%</c> de su salud máxima como daño por segundo. Los ataques básicos de héroes aumentan la duración restante de esto a <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0</c> s."
   },

@@ -551,6 +551,41 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostDamageDoneToZerg",
+    "value": "~AwardValue~% obrażeń zadanych przez drużynę głowicami"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostNukeDamageDone",
+    "value": "~AwardValue~% obrażeń zadanych przez drużynę głowicami"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostDamageDoneToZerg",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Niszczyciel Światów,Niszczycielka Światów</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostNukeDamageDone",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Niszczyciel Światów,Niszczycielka Światów</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostDamageDoneToZerg",
+    "value": "Obrażenia zadane głowicami: ~TooltipAmount~ pkt."
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostNukeDamageDone",
+    "value": "Obrażenia zadane głowicami: ~TooltipAmount~ pkt."
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostDamageDoneToZerg",
+    "value": "Najwięcej obrażeń zadanych zergom"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/ArchangelToxicSludgling",
     "value": "Tworzy ścianę Toksycznych Szlamowców, która przemieszcza się na obszarze i zadaje wrogom obrażenia"
   },

@@ -196,6 +196,21 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostTimeOnPoint",
+    "value": "~AwardValue~%队伍占点时间"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostTimeOnPoint",
+    "value": "据点卫士"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostTimeOnPoint",
+    "value": "~TooltipAmount~秒占点时间"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/BioticEmitter",
     "value": "制造一个生物发射器，使附近的友方英雄在<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c>秒内恢复<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c>的最大生命值和法力值。"
   },

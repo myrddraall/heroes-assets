@@ -236,6 +236,21 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostTimeOnPoint",
+    "value": "~AwardValue~% do tempo da equipe no Ponto"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostTimeOnPoint",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Vigia do Ponto</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostTimeOnPoint",
+    "value": "~TooltipAmount~ s no Ponto"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/Artifact",
     "value": "Cura uma grande quantidade de Vida e aumenta bastante seu poder e vulnerabilidade."
   },

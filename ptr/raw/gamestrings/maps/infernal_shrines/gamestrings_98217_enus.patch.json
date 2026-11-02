@@ -66,6 +66,26 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostDamageToMinions",
+    "value": "~AwardValue~% Shrine Guardian Damage"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostDamageToMinions",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Guardian Slayer</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostDamageToMinions",
+    "value": "~TooltipAmount~ Damage Done to Shrine Guardians"
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostDamageToMinions",
+    "value": "Most Damage To Minions"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/ParalyzeStructure",
     "value": "Disables the targeted structure, deals 1% of the target's maximum health in damage, and drains 1 energy per second for 10 seconds."
   },

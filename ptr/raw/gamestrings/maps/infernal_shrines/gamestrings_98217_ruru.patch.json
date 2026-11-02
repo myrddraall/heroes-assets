@@ -66,6 +66,26 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostDamageToMinions",
+    "value": "~AwardValue~% урона по стражам святилищ"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostDamageToMinions",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Убийца стражей,Убийца стражей</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostDamageToMinions",
+    "value": "Урон по стражам святилищ: ~TooltipAmount~ ед."
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostDamageToMinions",
+    "value": "Наибольший объем урона по воинам"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/ParalyzeStructure",
     "value": "Обезвреживает выбранное строение, а также наносит ему урон в объеме 1% от его максимального запаса прочности и поглощает 1 ед. энергии в секунду. Время действия – 10 сек."
   },

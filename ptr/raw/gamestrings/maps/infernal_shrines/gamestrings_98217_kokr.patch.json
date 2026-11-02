@@ -66,6 +66,26 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostDamageToMinions",
+    "value": "신단 수호자에게 준 피해의 ~AwardValue~%"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostDamageToMinions",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">수호자 사냥꾼</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostDamageToMinions",
+    "value": "신단 수호자에게 준 피해: ~TooltipAmount~"
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostDamageToMinions",
+    "value": "최고 수호자 피해"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/ParalyzeStructure",
     "value": "대상 구조물을 무력화시킵니다. 대상 최대 생명력의 1%만큼 피해를 주고 10초 동안 초당 1의 에너지를 흡수합니다."
   },

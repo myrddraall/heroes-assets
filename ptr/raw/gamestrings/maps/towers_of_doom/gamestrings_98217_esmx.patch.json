@@ -26,6 +26,26 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostAltarDamage",
+    "value": "~AwardValue~% del daño infligido al núcleo"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostAltarDamage",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Bombardero,Bombardera</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostAltarDamage",
+    "value": "~TooltipAmount~ de daño infligido al Núcleo"
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostAltarDamage",
+    "value": "Mayor daño infligido con los altares"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/name/BaseAvatarUnit",
     "value": "Base - Avatar - Unidad"
   },

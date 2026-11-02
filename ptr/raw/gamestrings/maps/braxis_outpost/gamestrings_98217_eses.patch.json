@@ -136,6 +136,26 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostDamageDoneToZerg",
+    "value": "~AwardValue~% del daño del equipo infligido a zerg"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostDamageDoneToZerg",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Aplastazerg</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostDamageDoneToZerg",
+    "value": "~TooltipAmount~ de daño infligido a zerg"
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostDamageDoneToZerg",
+    "value": "Mayor daño infligido a zerg"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/TerranRavenSeekerMissile",
     "value": "Lanza un misil lento contra la unidad seleccionada. El misil persigue al objetivo durante 7 s. Si llega a 3 de alcance del objetivo, avanzará rápidamente e impactará, lo que infligirá 0 de daño al objetivo y a los enemigos cercanos."
   },

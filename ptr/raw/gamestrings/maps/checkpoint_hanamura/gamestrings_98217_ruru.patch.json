@@ -81,6 +81,21 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostTimePushing",
+    "value": "~AwardValue~% времени матча рядом с грузом"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostTimePushing",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Толкатель,Толкательница</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostTimePushing",
+    "value": "~TooltipAmount~ сек. рядом с грузом"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/BioticEmitter",
     "value": "Устанавливает биотический излучатель, восполняющий находящимся рядом союзным героям <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> их максимального запаса здоровья и маны в течение <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> сек."
   },

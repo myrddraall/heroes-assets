@@ -18,6 +18,21 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostSkullsCollected",
+    "value": "~AwardValue~% de las calaveras del equipo recogidas"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostSkullsCollected",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Recolector,Recolectora</lang> de calaveras"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostSkullsCollected",
+    "value": "~TooltipAmount~ calaveras recogidas"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/name/BossHoleSharedVisionUnit",
     "value": "Jefe: agujero: unidad de visibilidad compartida"
   },

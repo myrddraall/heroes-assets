@@ -105,6 +105,26 @@
     "value": "猛力揮下武器，造成傷害並擊退周圍所有的敵人。"
   },
   {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostTimeInTemple",
+    "value": "佔領神殿時間達~AwardValue~%"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostTimeInTemple",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">神殿大師</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostTimeInTemple",
+    "value": "神殿佔領時間達~TooltipAmount~秒"
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostTimeInTemple",
+    "value": "位於神殿時間最久"
+  },
+  {
     "op": "replace",
     "path": "/items/unit/name/JungleGraveGolemLaner",
     "value": "沙塵魔像"

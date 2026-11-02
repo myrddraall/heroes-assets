@@ -111,6 +111,21 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostNukeDamageDone",
+    "value": "~AwardValue~% del daño del equipo con cabezas nucleares"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostNukeDamageDone",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">La bomba</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostNukeDamageDone",
+    "value": "~TooltipAmount~ de daño infligido con cabezas nucleares"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/MapMechanicNuke",
     "value": "Tras <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">3</c> s, lanzas una cabeza nuclear que inflige <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1750</c> de daño (a los héroes les inflige un<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">30%</c> de su salud máxima como daño). Incendia los edificios e inflige daños adicionales durante 10 segundos. Este efecto se amplía al atacar edificios en llamas."
   },

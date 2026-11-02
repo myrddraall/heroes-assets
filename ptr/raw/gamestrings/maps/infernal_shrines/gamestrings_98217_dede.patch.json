@@ -66,6 +66,26 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostDamageToMinions",
+    "value": "~AwardValue~% des Schreinwächterschadens"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostDamageToMinions",
+    "value": "Entweiher"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostDamageToMinions",
+    "value": "~TooltipAmount~ Schaden gegen Schreinwächter"
+  },
+  {
+    "op": "replace",
+    "path": "/items/matchAward/scoreScreenName/MostDamageToMinions",
+    "value": "Höchster Dienern zugefügter Schaden"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/ParalyzeStructure",
     "value": "Setzt das anvisierte Gebäude außer Gefecht, fügt ihm Schaden in Höhe von 1% seiner maximalen Lebenspunkte zu und entzieht ihm 10 Sek. lang 1 Energie pro Sekunde."
   },

@@ -81,6 +81,21 @@
   },
   {
     "op": "add",
+    "path": "/items/matchAward/endOfMatchDescription/MostTimePushing",
+    "value": "~AwardValue~% du temps à portée du convoi"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchName/MostTimePushing",
+    "value": "<lang rule=\"gender\" word=\"~HeroName~\">Convoyeur,Convoyeuse</lang>"
+  },
+  {
+    "op": "add",
+    "path": "/items/matchAward/endOfMatchTooltipText/MostTimePushing",
+    "value": "~TooltipAmount~ secondes à portée du convoi"
+  },
+  {
+    "op": "add",
     "path": "/items/unit/description/BioticEmitter",
     "value": "Crée un émetteur biotique qui rend <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40%</c> de leurs maximums de points de vie et de mana aux héros alliés proches en <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">10</c> secondes."
   },
