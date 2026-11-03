@@ -90,7 +90,8 @@ const pictureKey = (name: string) => `picture:${name}`;
 /**
  * Packs a sheet's frames and pictures into `out` with its metadata inside. A frame missing a
  * texture, or whose states differ in size (they share one slicing), is left out, as is a picture
- * missing its texture; returns why, one by one.
+ * missing its texture; returns why, one by one. With nothing left to pack (an extraction from
+ * before the sheet existed), no file is written.
  */
 export async function writeUiSheet(
   source: SheetSource,
@@ -137,6 +138,11 @@ export async function writeUiSheet(
       return !lost.length;
     }),
   );
+  if (pictures.size === 0) {
+    // an extraction with none of its textures (a build from before the sheet existed): no sheet
+    problems.push('nothing to pack: none of its textures are in this extraction, so no sheet');
+    return problems;
+  }
   await writeSheet(pictures, out, (rects): SheetMeta => {
     const frames: Record<string, SheetFrame> = {};
     for (const [id, frame, states, image] of kept) {

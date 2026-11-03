@@ -132,3 +132,26 @@ test("the textures every sheet takes, once each and sorted, for the extraction's
     await rm(folder, { recursive: true, force: true });
   }
 });
+
+test('a sheet none of whose textures are in the extraction is not written', async () => {
+  const folder = await mkdtemp(join(tmpdir(), 'ui-sheet-'));
+  try {
+    const out = join(folder, 'empty.webp');
+    const problems = await writeUiSheet(
+      {
+        frames: { panel: { type: 'NineSlice', texture: 'tex_panel' } },
+        pictures: { close: 'tex_close' },
+      },
+      async () => null,
+      out,
+    );
+    assert.deepEqual(problems, [
+      'panel: not in the game: tex_panel',
+      'picture close: not in the game: tex_close',
+      'nothing to pack: none of its textures are in this extraction, so no sheet',
+    ]);
+    await assert.rejects(readFile(out), { code: 'ENOENT' });
+  } finally {
+    await rm(folder, { recursive: true, force: true });
+  }
+});
