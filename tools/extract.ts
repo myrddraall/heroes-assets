@@ -33,7 +33,7 @@ import {
   sheetTextures,
   UI_SHEET_SOURCES,
   UI_SHEET_TEXTURES,
-} from './lib/ui-sheets.ts';
+} from './lib/ui-sheet-sources.ts';
 
 const [, , channelArg, locale, game, outArg] = process.argv;
 const channel = asChannel(channelArg);

@@ -6,13 +6,8 @@ import { test } from 'node:test';
 import sharp from 'sharp';
 import type { Decoded } from './dds.ts';
 import { readSheetMeta } from './sheet-meta.ts';
-import {
-  gameFrameSlicing,
-  sheetTextures,
-  sheetTexturesTaken,
-  writeUiSheet,
-  type SheetMeta,
-} from './ui-sheets.ts';
+import { sheetTextures, sheetTexturesTaken } from './ui-sheet-sources.ts';
+import { gameFrameSlicing, writeUiSheet, type SheetMeta } from './ui-sheets.ts';
 
 const solid = (width: number, height: number): Decoded => ({
   width,

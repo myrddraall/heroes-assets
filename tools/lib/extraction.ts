@@ -4,7 +4,7 @@ import { basename, join } from 'node:path';
 import { LOCALES, type Channel } from './channels.ts';
 import { HERO_UNITS_VERSION } from './hero-units.ts';
 import { MAP_TEXT_PATTERNS } from './map-ui.ts';
-import { sheetTexturesTaken } from './ui-sheets.ts';
+import { sheetTexturesTaken } from './ui-sheet-sources.ts';
 
 /** The Heroes Data Parser release the update downloads and runs. */
 export const HDP_VERSION = '5.1.0';

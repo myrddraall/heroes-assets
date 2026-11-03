@@ -24,12 +24,8 @@ import {
   type Picture,
   type Rect,
 } from './lib/sheet.ts';
-import {
-  readSheetSources,
-  UI_SHEET_SOURCES,
-  UI_SHEET_TEXTURES,
-  writeUiSheet,
-} from './lib/ui-sheets.ts';
+import { readSheetSources, UI_SHEET_SOURCES, UI_SHEET_TEXTURES } from './lib/ui-sheet-sources.ts';
+import { writeUiSheet } from './lib/ui-sheets.ts';
 
 type Json = Record<string, unknown>;
 /** HDP's gamestrings: category → field → id → text. */
