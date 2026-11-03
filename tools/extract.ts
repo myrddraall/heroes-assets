@@ -1,8 +1,9 @@
 // Runs Heroes Data Parser for one locale of a channel, from Blizzard's servers, and checks it
 // extracted the game version expected. The main locale's run also writes the data files and
-// pictures, each map's interface textures (lib/map-ui.ts) into map-ui/, and the hero units'
-// portraits HDP leaves out (lib/hero-units.ts) into hero-units/; the others keep only their
-// strings (see lib/extraction.ts).
+// pictures, each map's interface textures (lib/map-ui.ts) into map-ui/, the hero units'
+// portraits HDP leaves out (lib/hero-units.ts) into hero-units/, and the textures the interface
+// sheets take (lib/ui-sheets.ts) into ui-sheets/; the others keep only their strings (see
+// lib/extraction.ts).
 //
 //   node tools/extract.ts <live|ptr> <locale> <game version> <output folder>
 //
@@ -27,6 +28,12 @@ import {
   readMods,
   texturePattern,
 } from './lib/map-ui.ts';
+import {
+  readSheetSources,
+  sheetTextures,
+  UI_SHEET_SOURCES,
+  UI_SHEET_TEXTURES,
+} from './lib/ui-sheet-sources.ts';
 
 const [, , channelArg, locale, game, outArg] = process.argv;
 const channel = asChannel(channelArg);
@@ -74,7 +81,20 @@ if (locale === MAIN_LOCALE) {
     (await dataFile('herodata')).items,
     join(out, 'images', 'heroportraits'),
   );
-  await cascExtract(ptr, [...names, ...units].map(texturePattern), join(work, 'textures'));
+  // the textures the interface sheets take (lib/ui-sheets.ts)
+  const sheetTextureNames = new Set(
+    [...(await readSheetSources(UI_SHEET_SOURCES)).values()].flatMap((s) => [...sheetTextures(s)]),
+  );
+  await cascExtract(
+    ptr,
+    [...names, ...units, ...sheetTextureNames].map(texturePattern),
+    join(work, 'textures'),
+  );
+  const sheetsMissing = await gatherTextures(
+    join(work, 'textures'),
+    sheetTextureNames,
+    join(out, UI_SHEET_TEXTURES),
+  );
   const missing = await gatherTextures(
     join(work, 'textures'),
     names,
@@ -99,6 +119,10 @@ if (locale === MAIN_LOCALE) {
   console.log(
     `${channel}: ${units.size - unitsMissing.length} hero unit portraits` +
       (unitsMissing.length ? `, not in the game: ${unitsMissing.join(', ')}` : ''),
+  );
+  console.log(
+    `${channel}: ${sheetTextureNames.size - sheetsMissing.length} interface sheet textures` +
+      (sheetsMissing.length ? `, not in the game: ${sheetsMissing.join(', ')}` : ''),
   );
 } else {
   await rm(join(out, 'data'), { recursive: true, force: true });

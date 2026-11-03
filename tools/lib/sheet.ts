@@ -1,9 +1,10 @@
 import { createHash } from 'node:crypto';
-import { mkdir } from 'node:fs/promises';
+import { mkdir, writeFile } from 'node:fs/promises';
 import { dirname } from 'node:path';
 import sharp from 'sharp';
 import type { Decoded } from './dds.ts';
 import { encoding, WEBP_EFFORT } from './encode.ts';
+import { withSheetMeta } from './sheet-meta.ts';
 
 /** Where a picture sits in its sheet: `[x, y, width, height]` in pixels. */
 export type Rect = readonly [number, number, number, number];
@@ -33,11 +34,13 @@ const contentKey = (image: Decoded): string =>
  * come out as a plain grid. An animated picture contributes its first frame. The same pixels are
  * packed once, whether given under several names (units sharing a minimap icon) or as different
  * files that hold the same picture (Leoric's _undead and _var1 icons); every name gets its place.
- * Returns each picture's place by the name it was given.
+ * Returns each picture's place by the name it was given. `meta`, when given, makes the sheet's
+ * metadata from those places and keeps it inside the file (lib/sheet-meta.ts).
  */
 export async function writeSheet(
   pictures: ReadonlyMap<string, Picture>,
   out: string,
+  meta?: (rects: Readonly<Record<string, Rect>>) => unknown,
 ): Promise<Record<string, Rect>> {
   // one entry per distinct content, named by the first name it was given
   const sources = [...new Set(pictures.values())];
@@ -76,26 +79,30 @@ export async function writeSheet(
     width = Math.max(width, x - GAP);
   }
   const height = y + rowHeight;
-
-  await mkdir(dirname(out), { recursive: true });
-  await encoding(() =>
-    sharp({ create: { width, height, channels: 4, background: { r: 0, g: 0, b: 0, alpha: 0 } } })
-      .composite(
-        entries.map((entry) => {
-          const [left, top] = rects[entry.name]!;
-          const { pixels, width: w, height: h } = entry.image;
-          return { input: pixels, raw: { width: w, height: h, channels: 4 as const }, left, top };
-        }),
-      )
-      .webp({ lossless: true, effort: WEBP_EFFORT })
-      .toFile(out),
-  );
-  return Object.fromEntries(
+  const places: Record<string, Rect> = Object.fromEntries(
     [...pictures].map(([name, picture]) => [
       name,
       rects[byContent.get(keyOf.get(picture)!)!.name]!,
     ]),
   );
+
+  await mkdir(dirname(out), { recursive: true });
+  const sheet = sharp({
+    create: { width, height, channels: 4, background: { r: 0, g: 0, b: 0, alpha: 0 } },
+  })
+    .composite(
+      entries.map((entry) => {
+        const [left, top] = rects[entry.name]!;
+        const { pixels, width: w, height: h } = entry.image;
+        return { input: pixels, raw: { width: w, height: h, channels: 4 as const }, left, top };
+      }),
+    )
+    .webp({ lossless: true, effort: WEBP_EFFORT });
+  await encoding(async () => {
+    if (!meta) return sheet.toFile(out);
+    return writeFile(out, withSheetMeta(await sheet.toBuffer(), meta(places)));
+  });
+  return places;
 }
 
 /** A picture's size, read from its file. */

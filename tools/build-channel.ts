@@ -7,7 +7,8 @@
 // past builds elsewhere.
 //
 // The extraction folder is what tools/extract.ts writes for every locale, merged: HDP's data/,
-// gamestrings/ and images/, and map-ui/ (each map's interface textures, lib/map-ui.ts).
+// gamestrings/ and images/, map-ui/ (each map's interface textures, lib/map-ui.ts), and
+// ui-sheets/ (the textures the interface sheets take, lib/ui-sheets.ts).
 import { mkdir, readdir, readFile, rm, writeFile } from 'node:fs/promises';
 import { basename, dirname, join } from 'node:path';
 import { writeAnimatedWebp } from './lib/animated.ts';
@@ -23,6 +24,8 @@ import {
   type Picture,
   type Rect,
 } from './lib/sheet.ts';
+import { readSheetSources, UI_SHEET_SOURCES, UI_SHEET_TEXTURES } from './lib/ui-sheet-sources.ts';
+import { writeUiSheet } from './lib/ui-sheets.ts';
 
 type Json = Record<string, unknown>;
 /** HDP's gamestrings: category → field → id → text. */
@@ -44,6 +47,7 @@ const GENERATED = [
   'maps',
   'minimap',
   'awards',
+  'ui',
   'strings',
   'pictures.json',
 ];
@@ -679,6 +683,28 @@ await writeJson(join(out, 'pictures.json'), {
   maps: mapPictures,
 });
 
+// ── Interface sheets: frames cut from the game's interface textures (lib/ui-sheets.ts) ─────
+
+const uiSheets = await readSheetSources(UI_SHEET_SOURCES);
+for (const [name, source] of uiSheets) {
+  const problems = await writeUiSheet(
+    source,
+    async (texture) => {
+      try {
+        return decodeDds(await readFile(join(hdp, UI_SHEET_TEXTURES, `${texture}.dds`)));
+      } catch (error) {
+        // not in the game (extract.ts said so), or not decodable
+        if ((error as NodeJS.ErrnoException).code !== 'ENOENT') {
+          warn(`the interface texture ${texture}.dds couldn't be decoded (${error})`);
+        }
+        return null;
+      }
+    },
+    join(out, 'ui', `${name}.webp`),
+  );
+  if (problems.length) warn(`the interface sheet ${name} left out what it couldn't make`, problems);
+}
+
 // ── Strings, per locale ─────────────────────────────────────────────────────────────────────
 
 for (const [locale, { main, maps: mapStrings }] of strings) {
@@ -708,6 +734,7 @@ console.log(
   `${channel}: ${heroIndex.length} heroes, ${portraitKinds.size} portrait sheets, ` +
     `${Object.keys(emoticonIndex).length} emoticons in ${emoticonGroups.size} sheets, ` +
     `${Object.keys(mapIndex).length} maps, ${Object.keys(minimapRects).length} minimap icons, ` +
+    `${uiSheets.size} interface sheets, ` +
     `${strings.size} locales, ${warnings.length} warnings`,
 );
 if (process.env['GITHUB_STEP_SUMMARY'] && warnings.length) {

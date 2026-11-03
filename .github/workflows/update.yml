@@ -59,6 +59,7 @@ jobs:
           sparse-checkout: |
             /tools/
             /package.json
+            /ui-sheets/
             /live/version.json
             /ptr/version.json
             /sources/*/latest/meta.json
@@ -89,6 +90,7 @@ jobs:
           sparse-checkout: |
             /tools/
             /package.json
+            /ui-sheets/
 
       - uses: actions/setup-node@v6
         with:
