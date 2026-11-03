@@ -6,6 +6,7 @@
 // from (one, or one per state) and how the game lays that texture out, and its sets, which pair a
 // frame behind a page's content with one in front of it, and its single pictures (icons) for
 // sprites. Only the textures a source lists are taken from the game.
+import { readdirSync, readFileSync } from 'node:fs';
 import { readdir, readFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { ROOT } from './channels.ts';
@@ -126,6 +127,19 @@ export function sheetTextures(source: SheetSource): Set<string> {
     ...Object.values(source.frames ?? {}).flatMap((f) => Object.values(frameTextures(f))),
     ...Object.values(source.pictures ?? {}),
   ]);
+}
+
+/**
+ * Every game texture the sheets' sources in a folder take, sorted: read as the tools load, for the
+ * extraction's key (lib/extraction.ts), so a sheet taking a new texture makes the next build
+ * extract again rather than reuse a stored extraction without it.
+ */
+export function sheetTexturesTaken(folder: string = UI_SHEET_SOURCES): string[] {
+  const names = readdirSync(folder).filter((n) => n.endsWith('.json'));
+  const sources = names.map(
+    (n) => JSON.parse(readFileSync(join(folder, n), 'utf8')) as SheetSource,
+  );
+  return [...new Set(sources.flatMap((s) => [...sheetTextures(s)]))].sort();
 }
 
 /** The key a single picture packs under, apart from the frames' `<frame>/<state>`. */

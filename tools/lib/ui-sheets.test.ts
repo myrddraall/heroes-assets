@@ -1,12 +1,18 @@
 import assert from 'node:assert/strict';
-import { mkdtemp, readFile, rm } from 'node:fs/promises';
+import { mkdtemp, readFile, rm, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { test } from 'node:test';
 import sharp from 'sharp';
 import type { Decoded } from './dds.ts';
 import { readSheetMeta } from './sheet-meta.ts';
-import { gameFrameSlicing, sheetTextures, writeUiSheet, type SheetMeta } from './ui-sheets.ts';
+import {
+  gameFrameSlicing,
+  sheetTextures,
+  sheetTexturesTaken,
+  writeUiSheet,
+  type SheetMeta,
+} from './ui-sheets.ts';
 
 const solid = (width: number, height: number): Decoded => ({
   width,
@@ -105,6 +111,28 @@ test('a sheet keeps its frames, states, options and sets inside the file', async
         assert.ok(x + w <= width! && y + h <= height!);
       }
     }
+  } finally {
+    await rm(folder, { recursive: true, force: true });
+  }
+});
+
+test("the textures every sheet takes, once each and sorted, for the extraction's key", async () => {
+  const folder = await mkdtemp(join(tmpdir(), 'ui-sheet-sources-'));
+  try {
+    await writeFile(
+      join(folder, 'b.json'),
+      JSON.stringify({ pictures: { close: 'tex_close', search: 'tex_search' } }),
+    );
+    await writeFile(
+      join(folder, 'a.json'),
+      JSON.stringify({
+        frames: {
+          panel: { type: 'NineSlice', texture: { normal: 'tex_panel', hover: 'tex_close' } },
+        },
+      }),
+    );
+    await writeFile(join(folder, 'notes.txt'), 'not a source');
+    assert.deepEqual(sheetTexturesTaken(folder), ['tex_close', 'tex_panel', 'tex_search']);
   } finally {
     await rm(folder, { recursive: true, force: true });
   }

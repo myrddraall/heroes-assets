@@ -4,6 +4,7 @@ import { basename, join } from 'node:path';
 import { LOCALES, type Channel } from './channels.ts';
 import { HERO_UNITS_VERSION } from './hero-units.ts';
 import { MAP_TEXT_PATTERNS } from './map-ui.ts';
+import { sheetTexturesTaken } from './ui-sheets.ts';
 
 /** The Heroes Data Parser release the update downloads and runs. */
 export const HDP_VERSION = '5.1.0';
@@ -45,8 +46,9 @@ export const MAIN_LOCALE = 'enus';
 export const EXTRACTION_LOCALES = Object.keys(LOCALES);
 
 /**
- * Identifies what an extraction holds, apart from the game build: the HDP version and every
- * option. A rebuild of the same game build can reuse a stored extraction with the same key.
+ * Identifies what an extraction holds, apart from the game build: the HDP version, every option,
+ * and the textures the interface sheets take (ui-sheets/). A rebuild of the same game build can
+ * reuse a stored extraction with the same key.
  */
 export const EXTRACTION_KEY = createHash('sha256')
   .update(
@@ -59,6 +61,7 @@ export const EXTRACTION_KEY = createHash('sha256')
       MAP_UI_VERSION,
       HERO_UNITS_VERSION,
       AWARD_PICTURES_WORKAROUND,
+      UI_SHEET_TEXTURES: sheetTexturesTaken(),
     }),
   )
   .digest('hex')
