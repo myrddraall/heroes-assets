@@ -31,6 +31,7 @@ Each channel has its own folder, `live/` and `ptr/`, laid out the same way:
 | `maps/sheets/<mapId>.webp`              | The map's objective icons and the interface textures its mods name (below)                                                         |
 | `maps/images/`                          | Replay previews (from the loading screen when a map has none), loading screens, big UI                                             |
 | `maps/previews.webp`                    | Every map's replay preview in one sheet, lossy (shown at its size, many at once); `pictures.json` names each one's place           |
+| `icons/<name>.webp`                     | Ability and talent icons the game still ships but its data no longer names, for past builds (below); `pictures.json` names each    |
 | `minimap/units.webp`, `index.json`      | Every unit's minimap icon (towers, camps, tributes, shrines, summons…), keyed by unit                                              |
 | `strings/<locale>/heroes.json`          | Heroes' names, titles, roles, descriptions                                                                                         |
 | `strings/<locale>/heroes/<heroId>.json` | A hero's ability, talent and unit texts, by the `linkId`s in `heroes/<heroId>.json`                                                |
@@ -47,6 +48,12 @@ camps and the Cursed Hollow tribute, are in no map's mods; their icons are in `m
 spirits') are named in HDP's hero data but not written by it, so the extraction takes them out
 of the game as textures too (`tools/lib/hero-units.ts`). Past builds stored before that have
 none; for those, they're not in `pictures.json`.
+
+**Retired icons** are ability and talent icons the game still ships that the current data no
+longer names: talents reworked away, abilities' old looks. Past builds' data names them, so the
+extraction takes every `storm_ui_icon_*` texture HDP didn't write (`tools/lib/retired-icons.ts`),
+and each gets a file of its own in `icons/`, listed in `pictures.json` by the name the data uses.
+An app showing an old match finds them with the newest build's pictures.
 
 Every sheet holds each picture once: entries that use the same picture (units sharing a minimap
 icon, a talent whose icon is the hero's portrait, two files with the same pixels) point at the same

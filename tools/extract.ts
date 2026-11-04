@@ -2,7 +2,8 @@
 // extracted the game version expected. The main locale's run also writes the data files and
 // pictures, each map's interface textures (lib/map-ui.ts) into map-ui/, the hero units'
 // portraits HDP leaves out (lib/hero-units.ts) into hero-units/, and the textures the interface
-// sheets take (lib/ui-sheets.ts) into ui-sheets/; the others keep only their strings (see
+// sheets take (lib/ui-sheets.ts) into ui-sheets/ and the icons the data no longer names
+// (lib/retired-icons.ts) into retired-icons/; the others keep only their strings (see
 // lib/extraction.ts).
 //
 //   node tools/extract.ts <live|ptr> <locale> <game version> <output folder>
@@ -20,6 +21,7 @@ import {
 } from './lib/extraction.ts';
 import { cascExtract, runHdp } from './lib/hdp.ts';
 import { HERO_UNIT_TEXTURES, missingHeroUnitPortraits } from './lib/hero-units.ts';
+import { gatherRetiredIcons, ICON_PATTERN, RETIRED_ICON_TEXTURES } from './lib/retired-icons.ts';
 import {
   gatherTextures,
   MAP_TEXT_PATTERNS,
@@ -90,6 +92,13 @@ if (locale === MAIN_LOCALE) {
     [...names, ...units, ...sheetTextureNames].map(texturePattern),
     join(work, 'textures'),
   );
+  // every ability and talent icon, for those the data no longer names (lib/retired-icons.ts)
+  await cascExtract(ptr, [ICON_PATTERN], join(work, 'icons'));
+  const retired = await gatherRetiredIcons(
+    join(work, 'icons'),
+    join(out, 'images'),
+    join(out, RETIRED_ICON_TEXTURES),
+  );
   const sheetsMissing = await gatherTextures(
     join(work, 'textures'),
     sheetTextureNames,
@@ -124,6 +133,7 @@ if (locale === MAIN_LOCALE) {
     `${channel}: ${sheetTextureNames.size - sheetsMissing.length} interface sheet textures` +
       (sheetsMissing.length ? `, not in the game: ${sheetsMissing.join(', ')}` : ''),
   );
+  console.log(`${channel}: ${retired.length} icons the data no longer names`);
 } else {
   await rm(join(out, 'data'), { recursive: true, force: true });
   await rm(join(out, 'images'), { recursive: true, force: true });
