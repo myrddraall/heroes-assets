@@ -164,9 +164,25 @@ HeroesDataParser online [--download-ptr] -e hero:i -e unit:i -e emoticon:i -e em
   -o hdp-out
 ```
 
+## Legal
+
+heroes-assets is a free, non-commercial fan project. It is not affiliated with, endorsed,
+sponsored or approved by Blizzard Entertainment.
+
+Heroes of the Storm is a trademark of Blizzard Entertainment, Inc., in the U.S. and/or other
+countries. Blizzard Entertainment is a trademark or registered trademark of Blizzard
+Entertainment, Inc., in the U.S. and/or other countries. All other trademarks are the property
+of their respective owners. Blizzard's own notices are on its
+[copyright notices page](https://www.blizzard.com/en-us/legal/9c9cb70b-d1ed-4e17-998a-16c6df46be7b/copyright-notices).
+
+The game data and pictures in `live/`, `ptr/` and `sources/` (and the releases and Pages site
+made from them) are extracted from Heroes of the Storm and belong to Blizzard Entertainment, Inc.
+The tools are MIT licensed: see [LICENSE](LICENSE). The licence covers this project's own code,
+not Blizzard's game content.
+
 ## Credits
 
-Game data and pictures © Blizzard Entertainment. Extracted with HeroesToolChest's
+Extracted with HeroesToolChest's
 [Heroes Data Parser](https://github.com/HeroesToolChest/HeroesDataParser). Builds before
 2.57.0.98348 come from HeroesToolChest's heroes-data2 and heroes-images, both MIT licensed: see
 [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
