@@ -8,13 +8,16 @@
 //
 // The extraction folder is what tools/extract.ts writes for every locale, merged: HDP's data/,
 // gamestrings/ and images/, map-ui/ (each map's interface textures, lib/map-ui.ts), and
-// ui-sheets/ (the textures the interface sheets take, lib/ui-sheets.ts).
+// ui-sheets/ (the textures the interface sheets take, lib/ui-sheets.ts) and retired-icons/ (the icons
+// the data no longer names, lib/retired-icons.ts).
+import { createHash } from 'node:crypto';
 import { mkdir, readdir, readFile, rm, writeFile } from 'node:fs/promises';
 import { basename, dirname, join } from 'node:path';
 import { writeAnimatedWebp } from './lib/animated.ts';
 import { asChannel, LOCALES, ROOT } from './lib/channels.ts';
 import { decodeDds, type Decoded } from './lib/dds.ts';
 import { HERO_UNIT_TEXTURES } from './lib/hero-units.ts';
+import { RETIRED_ICON_TEXTURES } from './lib/retired-icons.ts';
 import {
   pictureSize,
   webpName,
@@ -47,6 +50,7 @@ const GENERATED = [
   'maps',
   'minimap',
   'awards',
+  'icons',
   'ui',
   'strings',
   'pictures.json',
@@ -602,7 +606,8 @@ await writeJson(join(out, 'awards', 'index.json'), {
 // ── pictures.json: every picture the game data names, by its file name there, and where it is:
 //    a sheet (with the place in it and the sheet's size) or a file of its own. Paths are from
 //    the channel's folder. A picture in several sheets is given once, in the first of: portrait
-//    sheets, hero sheets, the minimap sheet, the awards sheet, emote sheets, map sheets ────────
+//    sheets, hero sheets, the minimap sheet, the awards sheet, emote sheets, map sheets; then the
+//    retired icons' own files ─────────────────────────────────────────────────────────────────
 
 type Place =
   | { readonly sheet: string; readonly rect: Rect; readonly size: readonly [number, number] }
@@ -709,6 +714,42 @@ for (const map of Object.values(maps)) {
     };
   }
 }
+// Retired icons: ability and talent icons the data no longer names, each a file of its own, once
+// by pixels (lib/retired-icons.ts). Past builds' extractions have none.
+const retiredFolder = join(hdp, RETIRED_ICON_TEXTURES);
+const retiredTextures = (await readdir(retiredFolder).catch(() => [] as string[]))
+  .filter((name) => name.endsWith('.dds'))
+  .sort();
+const retiredBuilt = new Map<string, string>();
+const retiredWrites: Promise<void>[] = [];
+const undecodable: string[] = [];
+for (const texture of retiredTextures) {
+  const file = `${stem(texture)}.png`; // as the data names pictures
+  if (places.has(file)) continue;
+  let decoded: Decoded;
+  try {
+    decoded = decodeDds(await readFile(join(retiredFolder, texture)));
+  } catch {
+    undecodable.push(texture);
+    continue;
+  }
+  const hash = createHash('sha256')
+    .update(`${decoded.width}x${decoded.height}`)
+    .update(decoded.pixels)
+    .digest('hex');
+  let built = retiredBuilt.get(hash);
+  if (!built) {
+    built = `icons/${webpName(file)}`;
+    retiredBuilt.set(hash, built);
+    const { width, height, pixels } = decoded;
+    retiredWrites.push(writeWebp({ raw: pixels, width, height }, join(out, built)));
+  }
+  places.set(file, { file: built });
+}
+await Promise.all(retiredWrites);
+if (undecodable.length)
+  warn(`${undecodable.length} retired icons couldn't be decoded`, undecodable);
+
 await writeJson(join(out, 'pictures.json'), {
   files: Object.fromEntries([...places].sort(([a], [b]) => a.localeCompare(b))),
   maps: mapPictures,
@@ -765,6 +806,7 @@ console.log(
   `${channel}: ${heroIndex.length} heroes, ${portraitKinds.size} portrait sheets, ` +
     `${Object.keys(emoticonIndex).length} emoticons in ${emoticonGroups.size} sheets, ` +
     `${Object.keys(mapIndex).length} maps, ${Object.keys(minimapRects).length} minimap icons, ` +
+    `${retiredBuilt.size} retired icons, ` +
     `${uiSheets.size} interface sheets, ` +
     `${strings.size} locales, ${warnings.length} warnings`,
 );
