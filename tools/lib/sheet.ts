@@ -35,12 +35,15 @@ const contentKey = (image: Decoded): string =>
  * packed once, whether given under several names (units sharing a minimap icon) or as different
  * files that hold the same picture (Leoric's _undead and _var1 icons); every name gets its place.
  * Returns each picture's place by the name it was given. `meta`, when given, makes the sheet's
- * metadata from those places and keeps it inside the file (lib/sheet-meta.ts).
+ * metadata from those places and keeps it inside the file (lib/sheet-meta.ts). `quality`, when
+ * given, writes it lossy at that quality instead (photographic pictures shown at their size: the
+ * maps' replay previews).
  */
 export async function writeSheet(
   pictures: ReadonlyMap<string, Picture>,
   out: string,
   meta?: (rects: Readonly<Record<string, Rect>>) => unknown,
+  quality?: number,
 ): Promise<Record<string, Rect>> {
   // one entry per distinct content, named by the first name it was given
   const sources = [...new Set(pictures.values())];
@@ -97,7 +100,11 @@ export async function writeSheet(
         return { input: pixels, raw: { width: w, height: h, channels: 4 as const }, left, top };
       }),
     )
-    .webp({ lossless: true, effort: WEBP_EFFORT });
+    .webp(
+      quality === undefined
+        ? { lossless: true, effort: WEBP_EFFORT }
+        : { quality, effort: WEBP_EFFORT, smartSubsample: true },
+    );
   await encoding(async () => {
     if (!meta) return sheet.toFile(out);
     return writeFile(out, withSheetMeta(await sheet.toBuffer(), meta(places)));

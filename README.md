@@ -30,6 +30,7 @@ Each channel has its own folder, `live/` and `ptr/`, laid out the same way:
 | `maps/index.json`                       | Maps by normalized id (`cursed_hollow`): HDP's map data, the map's sheet and its icons                                             |
 | `maps/sheets/<mapId>.webp`              | The map's objective icons and the interface textures its mods name (below)                                                         |
 | `maps/images/`                          | Replay previews (from the loading screen when a map has none), loading screens, big UI                                             |
+| `maps/previews.webp`                    | Every map's replay preview in one sheet, lossy (shown at its size, many at once); `pictures.json` names each one's place           |
 | `minimap/units.webp`, `index.json`      | Every unit's minimap icon (towers, camps, tributes, shrines, summons…), keyed by unit                                              |
 | `strings/<locale>/heroes.json`          | Heroes' names, titles, roles, descriptions                                                                                         |
 | `strings/<locale>/heroes/<heroId>.json` | A hero's ability, talent and unit texts, by the `linkId`s in `heroes/<heroId>.json`                                                |

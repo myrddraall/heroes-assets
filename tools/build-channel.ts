@@ -535,6 +535,22 @@ await Promise.all(
   }),
 );
 
+// Every map's replay preview in one sheet, lossy (photographic, shown at its size: a list of
+// matches shows many at once, one request instead of one each)
+const PREVIEWS_SHEET = 'previews.webp';
+const PREVIEW_QUALITY = 82;
+const previewFiles = new Map<string, string>();
+for (const map of Object.values(maps)) {
+  const built = mapIndex[map.normalizedId]?.['replayPreviewImage'];
+  if (typeof built === 'string') previewFiles.set(map.normalizedId, join(out, 'maps', built));
+}
+const previewRects = previewFiles.size
+  ? await writeSheet(previewFiles, join(out, 'maps', PREVIEWS_SHEET), undefined, PREVIEW_QUALITY)
+  : {};
+const previewSheetSize = previewFiles.size
+  ? await pictureSize(join(out, 'maps', PREVIEWS_SHEET))
+  : null;
+
 await writeJson(
   join(out, 'maps', 'index.json'),
   Object.fromEntries(Object.values(maps).map((m) => [m.normalizedId, mapIndex[m.normalizedId]])),
@@ -658,7 +674,14 @@ for (const [id, emoticon] of Object.entries(emoticonIndex) as [string, Json][]) 
     await place(image, `emoticons/${emoticon['sheet']}`, emoticon['rect'] as Rect);
   }
 }
-const mapPictures: Record<string, { replayPreview?: string; loadingScreen?: string }> = {};
+const mapPictures: Record<
+  string,
+  {
+    replayPreview?: string;
+    loadingScreen?: string;
+    replayPreviewSheet?: { sheet: string; rect: Rect; size: [number, number] };
+  }
+> = {};
 for (const map of Object.values(maps)) {
   const entry = mapIndex[map.normalizedId]!;
   const icons = entry['icons'] as Record<string, Rect>;
@@ -676,6 +699,14 @@ for (const map of Object.values(maps)) {
       places.set(original.toLowerCase(), { file: `maps/${built}` });
     }
     (mapPictures[map.normalizedId] ??= {})[kind] = `maps/${built}`;
+  }
+  const previewRect = previewRects[map.normalizedId];
+  if (previewRect && previewSheetSize) {
+    (mapPictures[map.normalizedId] ??= {}).replayPreviewSheet = {
+      sheet: `maps/${PREVIEWS_SHEET}`,
+      rect: previewRect,
+      size: [previewSheetSize.width, previewSheetSize.height],
+    };
   }
 }
 await writeJson(join(out, 'pictures.json'), {
