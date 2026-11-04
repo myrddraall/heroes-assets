@@ -195,7 +195,14 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           what=$([ "$REVISION" = 0 ] && echo "game $GAME" || echo "game $GAME, rebuild $REVISION")
           git commit -m "feat($CHANNEL): $what" -m "Release $VERSION."
-          git push origin HEAD:main
+          # main can move while the folder builds (someone's push): put this commit on its new tip.
+          # Other pushes don't touch what a build commits; the other channel's publish waits its turn
+          for attempt in 1 2 3; do
+            git push origin HEAD:main && exit 0
+            git pull --rebase origin main
+          done
+          echo "::error::main kept moving: could not push"
+          exit 1
 
       - name: Release
         if: needs.plan.outputs.release == 'true'
