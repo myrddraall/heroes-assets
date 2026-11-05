@@ -33,6 +33,7 @@ Each channel has its own folder, `live/` and `ptr/`, laid out the same way:
 | `maps/previews.webp`                    | Every map's replay preview in one sheet, lossy (shown at its size, many at once); `pictures.json` names each one's place           |
 | `icons/<name>.webp`                     | Ability and talent icons the game still ships but its data no longer names, for past builds (below); `pictures.json` names each    |
 | `minimap/units.webp`, `index.json`      | Every unit's minimap icon (towers, camps, tributes, shrines, summons…), keyed by unit                                              |
+| `ui/<sheet>.webp`                       | Interface sheets made from `ui-sheets/<sheet>.json` (game frames and icons, each named in the file); `score-screen`: silences      |
 | `strings/<locale>/heroes.json`          | Heroes' names, titles, roles, descriptions                                                                                         |
 | `strings/<locale>/heroes/<heroId>.json` | A hero's ability, talent and unit texts, by the `linkId`s in `heroes/<heroId>.json`                                                |
 | `strings/<locale>/emoticons.json`       | Emote descriptions and localized aliases, emote pack names                                                                         |
