@@ -20,6 +20,7 @@ import { HERO_UNIT_TEXTURES } from './lib/hero-units.ts';
 import { RETIRED_ICON_TEXTURES } from './lib/retired-icons.ts';
 import {
   pictureSize,
+  scaledPicture,
   webpName,
   writeScaledWebp,
   writeSheet,
@@ -337,6 +338,33 @@ const portraitIndex: Record<string, Json> = Object.fromEntries(
     }),
   ),
 );
+// The target portraits (each hero's square art, 92 × 93) at a small size too, every hero's in one
+// sheet: a portrait shown small loads that, not the full size's sheet (pictures.json lists the
+// small copy as the target portrait's variant).
+const SMALL_PORTRAIT = 64;
+const SMALL_PORTRAITS_SHEET = 'targetSmall.webp';
+/** Lossy, as the maps' previews: painted art at a small size, its lossless sheet 3.5 times the bytes. */
+const SMALL_PORTRAIT_QUALITY = 90;
+const smallPortraits = new Map<string, Picture>();
+await Promise.all(
+  [...(portraitKinds.get('target') ?? [])].map(async ([id, file]) => {
+    const picture = pictures.get(file.toLowerCase());
+    if (picture) {
+      smallPortraits.set(id, await scaledPicture(picture, SMALL_PORTRAIT, SMALL_PORTRAIT));
+    }
+  }),
+);
+const smallPortraitRects = smallPortraits.size
+  ? await writeSheet(
+      smallPortraits,
+      join(out, 'portraits', SMALL_PORTRAITS_SHEET),
+      undefined,
+      SMALL_PORTRAIT_QUALITY,
+    )
+  : {};
+if (smallPortraits.size) {
+  portraitIndex['targetSmall'] = { sheet: SMALL_PORTRAITS_SHEET, heroes: smallPortraitRects };
+}
 await writeJson(join(out, 'portraits', 'index.json'), portraitIndex);
 
 // ── Emoticons: still ones as a sheet per emote pack ("other" for those in none), animated ones
@@ -607,11 +635,16 @@ await writeJson(join(out, 'awards', 'index.json'), {
 //    a sheet (with the place in it and the sheet's size) or a file of its own. Paths are from
 //    the channel's folder. A picture in several sheets is given once, in the first of: portrait
 //    sheets, hero sheets, the minimap sheet, the awards sheet, emote sheets, map sheets; then the
-//    retired icons' own files ─────────────────────────────────────────────────────────────────
+//    retired icons' own files. A picture also kept smaller lists its smaller copies with it
+//    (`variants`, smallest first): a target portrait's in the small portraits' sheet ────────────
 
+interface SheetPlace {
+  readonly sheet: string;
+  readonly rect: Rect;
+  readonly size: readonly [number, number];
+}
 type Place =
-  | { readonly sheet: string; readonly rect: Rect; readonly size: readonly [number, number] }
-  | { readonly file: string };
+  (SheetPlace & { readonly variants?: readonly SheetPlace[] }) | { readonly file: string };
 const places = new Map<string, Place>();
 const sheetSizes = new Map<string, Promise<readonly [number, number]>>();
 const sizeOf = (sheet: string): Promise<readonly [number, number]> => {
@@ -636,6 +669,14 @@ for (const [kind, { sheet: file, heroes: rects }] of Object.entries(portraitInde
   for (const [id, rect] of Object.entries(rects)) {
     await place(heroes[id]?.portraits?.[kind] as string | undefined, `portraits/${file}`, rect);
   }
+}
+// a target portrait's small copy, with it
+for (const [id, rect] of Object.entries(smallPortraitRects)) {
+  const name = (heroes[id]?.portraits?.['target'] as string | undefined)?.toLowerCase();
+  const own = name ? places.get(name) : undefined;
+  if (!name || !own || !('sheet' in own)) continue;
+  const sheet = `portraits/${SMALL_PORTRAITS_SHEET}`;
+  places.set(name, { ...own, variants: [{ sheet, rect, size: await sizeOf(sheet) }] });
 }
 for (const id of Object.keys(heroes)) {
   const { sheets } = await readJson<{
