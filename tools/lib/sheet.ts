@@ -118,6 +118,24 @@ export async function pictureSize(path: string): Promise<{ width: number; height
   return { width, height };
 }
 
+/**
+ * A picture scaled to cover a size (cropped evenly if its shape differs), as pixels for a sheet:
+ * a smaller copy of a picture, for showing it small without its full size's download.
+ */
+export async function scaledPicture(
+  picture: Picture,
+  width: number,
+  height: number,
+): Promise<Decoded> {
+  const { pixels, width: w, height: h } = await rgba(picture);
+  const { data, info } = await sharp(pixels, { raw: { width: w, height: h, channels: 4 } })
+    .resize(width, height, { fit: 'cover', kernel: 'lanczos3' })
+    .ensureAlpha()
+    .raw()
+    .toBuffer({ resolveWithObject: true });
+  return { width: info.width, height: info.height, pixels: data };
+}
+
 /** Writes a picture scaled to cover a size (cropped evenly if its shape differs) as a WebP. */
 export async function writeScaledWebp(
   path: string,
