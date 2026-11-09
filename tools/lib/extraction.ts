@@ -4,6 +4,7 @@ import { basename, join } from 'node:path';
 import { LOCALES, type Channel } from './channels.ts';
 import { HERO_UNITS_VERSION } from './hero-units.ts';
 import { MAP_TEXT_PATTERNS } from './map-ui.ts';
+import { MAP_UNIT_PATTERNS, MAP_UNITS_VERSION } from './map-units.ts';
 import { RETIRED_ICONS_VERSION } from './retired-icons.ts';
 import { sheetTexturesTaken } from './ui-sheet-sources.ts';
 
@@ -48,9 +49,9 @@ export const EXTRACTION_LOCALES = Object.keys(LOCALES);
 
 /**
  * Identifies what an extraction holds, apart from the game build: the HDP version, every option,
- * the versions of the textures it takes (maps', hero units', retired icons') and the textures the
- * interface sheets take (ui-sheets/). A rebuild of the same game build can reuse a stored
- * extraction with the same key.
+ * the versions of the textures it takes (maps', hero units', retired icons'), of the map units it
+ * reads, and the textures the interface sheets take (ui-sheets/). A rebuild of the same game build
+ * can reuse a stored extraction with the same key.
  */
 export const EXTRACTION_KEY = createHash('sha256')
   .update(
@@ -61,6 +62,8 @@ export const EXTRACTION_KEY = createHash('sha256')
       EXTRACTION_LOCALES,
       MAP_TEXT_PATTERNS,
       MAP_UI_VERSION,
+      MAP_UNIT_PATTERNS,
+      MAP_UNITS_VERSION,
       HERO_UNITS_VERSION,
       RETIRED_ICONS_VERSION,
       AWARD_PICTURES_WORKAROUND,
