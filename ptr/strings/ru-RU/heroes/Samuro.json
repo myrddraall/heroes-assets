@@ -41,16 +41,6 @@
       "fullText": "После подготовки длительностью <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> сек. повышает скорость передвижения на <s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s>.",
       "name": "Вызов транспорта"
     },
-    ":PASSIVE:|SamuroSelectSamuroPrime|Active": {
-      "fullText": "<s val=\"cbe8ff-ffffff\" hlt-name=\"StandardTooltipHeader\">Выбрать Самуро</s><n/><n/>Отдавать приказы только Самуро.",
-      "name": "Выбрать Самуро",
-      "shortText": "Выбрать Самуро."
-    },
-    ":PASSIVE:|SamuroSelectAll|Active": {
-      "fullText": "<s val=\"cbe8ff-ffffff\" hlt-name=\"StandardTooltipHeader\">Выбрать всех</s><n/><n/>Отдавать приказы Самуро и всем его зеркальным копиям.",
-      "name": "Выбрать всех",
-      "shortText": "Выбрать всех"
-    },
     "Hearthstone|HearthstoneNoMana|B": {
       "fullText": "После поддержания в течение <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> сек. телепортирует героя в Зал Штормов, моментально восполняя <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c> ед. здоровья.",
       "name": "Возвращение"
@@ -62,6 +52,29 @@
     "Dismount|UnsummonMount|Z": {
       "fullText": "Покинуть транспорт.",
       "name": "Отмена транспорта"
+    },
+    "SamuroIllusionMasterToggleAI|SamuroIllusionMasterToggleAIOn|Active": {
+      "fullText": "Если ИИ отключен, копии будут перемещаться или осуществлять какие-либо действия только по вашей команде.<n/><n/>Щелкните по этой кнопке, чтобы включить ИИ.",
+      "name": "ИИ отключен"
+    },
+    "SamuroIllusionMasterToggleAI|SamuroIllusionMasterToggleAIOff|Active": {
+      "fullText": "Если ИИ включен, копии сначала выполнят отданные вами приказы, после чего автоматически начнут поиск ближайших противников для атаки.<n/><n/>Щелкните по этой кнопке, чтобы отключить ИИ.",
+      "name": "ИИ включен"
+    },
+    ":PASSIVE:|SamuroSelectMirrorImages|Active": {
+      "fullText": "<s val=\"cbe8ff-ffffff\" hlt-name=\"StandardTooltipHeader\">Выбрать копию</s><n/><n/>Отдавать приказы выбранной зеркальной копии.",
+      "name": "Выбрать копию",
+      "shortText": "Выбрать зеркальную копию."
+    },
+    ":PASSIVE:|SamuroSelectSamuroPrime|Active": {
+      "fullText": "<s val=\"cbe8ff-ffffff\" hlt-name=\"StandardTooltipHeader\">Выбрать Самуро</s><n/><n/>Отдавать приказы только Самуро.",
+      "name": "Выбрать Самуро",
+      "shortText": "Выбрать Самуро."
+    },
+    ":PASSIVE:|SamuroSelectAll|Active": {
+      "fullText": "<s val=\"cbe8ff-ffffff\" hlt-name=\"StandardTooltipHeader\">Выбрать всех</s><n/><n/>Отдавать приказы Самуро и всем его зеркальным копиям.",
+      "name": "Выбрать всех",
+      "shortText": "Выбрать всех"
     }
   },
   "talents": {

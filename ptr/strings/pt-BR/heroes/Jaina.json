@@ -45,10 +45,17 @@
       "fullText": "Depois de canalizar por <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> s, ganha <s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s> de Velocidade de Movimento.",
       "name": "Evocar Montaria"
     },
-    "ImprovedIceBlock|JainaImprovedIceBlockHotbar|Active": {
+    "JainaIceBlockActivate|JainaImprovedIceBlockHotbar|Active": {
+      "cooldownText": "Recarga: 40 segundos",
       "fullText": "Ative para colocar Jaina em Estase e fazê-la ganhar Invulnerabilidade por <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c> s. Quando o efeito expira, inimigos próximos são Gelados.",
       "name": "Bloco de Gelo Aprimorado",
       "shortText": "Ganha Invulnerabilidade e gela os inimigos"
+    },
+    "JainaIceBlockActivate|JainaIceColdHotbar|Active": {
+      "cooldownText": "Recarga: 40 segundos",
+      "fullText": "Ative para conceder Protegido a Jaina e Irrefreável por <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c> s. Quando o efeito expira, gela os inimigos próximos.",
+      "name": "Dando um Gelo",
+      "shortText": "Ganha Protegido e gela os inimigos"
     },
     "Hearthstone|Hearthstone|B": {
       "fullText": "Depois de canalizar por <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> s, teleporta você de volta para o Salão das Tempestades, restaurando instantaneamente <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c> de Vida e <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c> de Mana.",
@@ -62,7 +69,11 @@
       "fullText": "Desmonta você.",
       "name": "Dispensar Montaria"
     },
-    "ImprovedIceBlock|JainaImprovedIceBlockCancel|Active": {
+    "JainaIceBlockCancel|JainaIceColdCancel|Active": {
+      "fullText": "<n/><s val=\"8783e6\" hlt-name=\"StandardTooltip\">Cancela Dando um Gelo Aprimorado, removendo Protegido e gelando inimigos próximos.</s>",
+      "name": "Cancelar Dando um Gelo"
+    },
+    "JainaIceBlockCancel|JainaImprovedIceBlockCancel|Active": {
       "fullText": "<n/><s val=\"8783e6\" hlt-name=\"StandardTooltip\">Cancela o Bloco de Gelo Aprimorado, removendo a Estase e a Invulnerabilidade e Gelando os inimigos próximos.</s>",
       "name": "Cancelar Bloco de Gelo Aprimorado"
     },

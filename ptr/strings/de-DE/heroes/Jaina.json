@@ -45,10 +45,17 @@
       "fullText": "Erhöht die Bewegungsgeschwindigkeit nach <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> Sek. Kanalisierung um <s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s>.",
       "name": "Aufsitzen"
     },
-    "ImprovedIceBlock|JainaImprovedIceBlockHotbar|Active": {
+    "JainaIceBlockActivate|JainaImprovedIceBlockHotbar|Active": {
+      "cooldownText": "Abklingzeit: 40 Sek.",
       "fullText": "Aktivieren, um Jaina in einem Eisblock einzuschließen, der sie <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c> Sek. lang unverwundbar macht. Nach Ablauf werden alle Gegner in der Nähe unterkühlt.",
       "name": "Verbesserter Eisblock",
       "shortText": "Macht unverwundbar und unterkühlt Gegner."
+    },
+    "JainaIceBlockActivate|JainaIceColdHotbar|Active": {
+      "cooldownText": "Abklingzeit: 40 Sek.",
+      "fullText": "Aktivieren, um Jaina <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c> Sek. lang Schutz zu geben und sie unaufhaltbar zu machen. Sobald dieser Effekt endet, werden Gegner in der Nähe unterkühlt.",
+      "name": "Gletscherkälte",
+      "shortText": "Gewährt Geschützt und unterkühlt Gegner."
     },
     "Hearthstone|Hearthstone|B": {
       "fullText": "Kanalisiert <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> Sek. lang und teleportiert sich dann zurück zum Altar der Stürme. Dabei werden sofort <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c> Lebenspunkte und <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c> Mana wiederhergestellt.",
@@ -62,7 +69,11 @@
       "fullText": "Sitzt ab.",
       "name": "Absitzen"
     },
-    "ImprovedIceBlock|JainaImprovedIceBlockCancel|Active": {
+    "JainaIceBlockCancel|JainaIceColdCancel|Active": {
+      "fullText": "<n/><s val=\"8783e6\" hlt-name=\"StandardTooltip\">Bricht verbesserte Gletscherkälte ab und entfernt Schutz und Unterkühlung von Gegnern in der Nähe.</s>",
+      "name": "Gletscherkälte abbrechen"
+    },
+    "JainaIceBlockCancel|JainaImprovedIceBlockCancel|Active": {
       "fullText": "<n/><s val=\"8783e6\" hlt-name=\"StandardTooltip\">Bricht den Verbesserten Eisblock früher ab, wodurch Jaina Gegner in der Nähe unterkühlt, aber nicht mehr unverwundbar ist.</s>",
       "name": "Verbesserten Eisblock abbrechen"
     },

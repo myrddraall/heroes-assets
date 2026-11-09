@@ -3,12 +3,12 @@
     "MedivhArcaneRift|MedivhArcaneRift|Q": {
       "cooldownText": "Cooldown: 7 seconds",
       "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 50</s>",
-      "fullText": "Launch a rift that deals <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">170</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage to enemies in its path. If an enemy Hero is hit, reduce its cooldown by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> seconds and refund <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50</c> Mana.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Quest:</c> Hit <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40</c> enemy Heroes with Arcane Rift without dying.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Reward:</c> Permanently increase the damage dealt by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75</c> and cooldown reduction for hitting a Hero by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> second.",
+      "fullText": "Launch a rift that deals <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">185</c><c val=\"a7a7a7\" hlt-name=\"#ColorGray\">~~0.04~~</c> damage to enemies in its path. If an enemy Hero is hit, reduce its cooldown by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> seconds and refund <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50</c> Mana.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Quest:</c> Hit <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">40</c> enemy Heroes with Arcane Rift without dying.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\" hlt-name=\"#TooltipQuest\">Reward:</c> Permanently increase the damage dealt by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">75</c> and cooldown reduction for hitting a Hero by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> second.",
       "name": "Arcane Rift",
       "shortText": "Launch an arcane bolt that damages enemies in a line"
     },
     "MedivhForceOfWill|MedivhForceOfWill|W": {
-      "cooldownText": "Cooldown: 9 seconds",
+      "cooldownText": "Cooldown: 8 seconds",
       "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 60</s>",
       "fullText": "Protect an allied Hero from all damage for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1.5</c> seconds. Upon expiration, Force of Will heals the target for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> of the damage it absorbed.",
       "name": "Force of Will",
@@ -80,8 +80,8 @@
       "shortText": "Create a portal that allies can pass through"
     },
     "MedivhDustOfAppearance|MedivhDustOfAppearance|Active": {
-      "cooldownText": "Cooldown: 45 seconds",
-      "fullText": "Activate to greatly increase sight range for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> seconds and reveal enemy Heroes in the area for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c> seconds. Does not cancel Raven Form.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Passive:</c> Increase Medivh's sight range while in Raven Form by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>.",
+      "cooldownText": "Cooldown: 40 seconds",
+      "fullText": "Activate to greatly increase sight range for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> seconds and reveal enemy Heroes in the area for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c> seconds. Does not cancel Raven Form.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Passive:</c> Portal no longer forces Medivh to leave Raven form.",
       "name": "Dust of Appearance",
       "shortText": "Activate to reveal nearby Heroes"
     },
@@ -105,19 +105,19 @@
   },
   "talents": {
     "MedivhTransformRavenWindsOfCelerity|MedivhTransformRavenWindsOfCelerity|Z|Level1": {
-      "fullText": "Increases Raven Form's Movement Speed bonus by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c>.",
+      "fullText": "Increases Raven Form's Movement Speed bonus by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> and reduces the cast time by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.25</c> seconds.",
       "name": "Winds of Celerity",
-      "shortText": "Increases Raven Form Movement Speed"
+      "shortText": "Increases Raven Form Movement and Cast Speed"
     },
     "MedivhTransformRavenRavensIntellect|MedivhTransformRavenRavensIntellect|Z|Level1": {
-      "fullText": "Raven Form increases Medivh's Mana and Health Regeneration by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">200%</c>.",
+      "fullText": "Raven Form increases Medivh's Mana and Health Regeneration by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">400%</c>.",
       "name": "Raven’s Intellect",
       "shortText": "Raven Form increases Health and Mana Regen"
     },
     "MedivhPortalPortalMastery|MedivhPortalPortalMasteryTalent|Active|Level1": {
-      "cooldownText": "Cooldown: 16 seconds",
+      "cooldownText": "Cooldown: 20 seconds",
       "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 65</s>",
-      "fullText": "Medivh can manually place both Portal locations and it no longer breaks Raven Form. <n/><n/><c val=\"ffff80\" hlt-name=\"#ColorCreamYellow\">Activate Medivh's Trait to cancel an unlinked Portal</c>.",
+      "fullText": "Medivh can manually place both Portal locations. <n/><n/><c val=\"ffff80\" hlt-name=\"#ColorCreamYellow\">Activate Medivh's Trait to cancel an unlinked Portal</c>.",
       "name": "Portal Mastery",
       "shortText": "Place both Portal locations"
     },
@@ -132,8 +132,8 @@
       "shortText": "Using a Portal grants a Raven Familiar"
     },
     "MedivhDustOfAppearance|MedivhDustOfAppearance|Active|Level4": {
-      "cooldownText": "Cooldown: 45 seconds",
-      "fullText": "Activate to greatly increase sight range for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> seconds and reveal enemy Heroes in the area for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c> seconds. Does not cancel Raven Form.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Passive:</c> Increase Medivh's sight range while in Raven Form by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>.",
+      "cooldownText": "Cooldown: 40 seconds",
+      "fullText": "Activate to greatly increase sight range for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> seconds and reveal enemy Heroes in the area for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c> seconds. Does not cancel Raven Form.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Passive:</c> Portal no longer forces Medivh to leave Raven form.",
       "name": "Dust of Appearance",
       "shortText": "Activate to reveal nearby Heroes"
     },
@@ -192,7 +192,7 @@
       "shortText": "Arcane Rift reduces Heroic cooldown"
     },
     "MedivhPortalStablePortal|MedivhPortalStablePortal|E|Level16": {
-      "fullText": "Decrease Portal cooldown by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> and increase Portal duration by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>.",
+      "fullText": "Decrease Portal cooldown by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">20%</c> and increase Portal duration by <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">50%</c>.",
       "name": "Stable Portal",
       "shortText": "Increases Portal uptime"
     },

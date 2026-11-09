@@ -123,9 +123,9 @@
     ],
     "Trait": [
       {
-        "linkId": "SylvanasBlackArrowsActive|SylvanasBlackArrows|Trait",
-        "abilityId": "SylvanasBlackArrowsActive",
-        "buttonId": "SylvanasBlackArrows",
+        "linkId": ":PASSIVE:|SylvanasBlackArrowsPassive|Trait",
+        "abilityId": ":PASSIVE:",
+        "buttonId": "SylvanasBlackArrowsPassive",
         "icon": "storm_ui_icon_sylvanas_blackarrows.png",
         "abilityType": "Trait"
       }
@@ -214,17 +214,6 @@
         }
       ]
     },
-    "SylvanasBlackArrowsActive|SylvanasBlackArrows|Trait": {
-      "Trait": [
-        {
-          "linkId": ":PASSIVE:|SylvanasBlackArrowsPassive|Trait",
-          "abilityId": ":PASSIVE:",
-          "buttonId": "SylvanasBlackArrowsPassive",
-          "icon": "storm_ui_icon_sylvanas_blackarrows.png",
-          "abilityType": "Trait"
-        }
-      ]
-    },
     "Mount|SummonMount|Z": {
       "Mount": [
         {
@@ -234,6 +223,17 @@
           "icon": "storm_ui_icon_generic_cancel_mount.png",
           "toggleCooldown": 0.1,
           "abilityType": "Z"
+        }
+      ]
+    },
+    "SylvanasHauntingArrows|SylvanasBlackArrowsHauntingArrowsTalent|Trait|Level4": {
+      "Trait": [
+        {
+          "linkId": "SylvanasBlackArrowsActive|SylvanasBlackArrows|Trait",
+          "abilityId": "SylvanasBlackArrowsActive",
+          "buttonId": "SylvanasBlackArrows",
+          "icon": "storm_ui_icon_sylvanas_blackarrows.png",
+          "abilityType": "Trait"
         }
       ]
     },

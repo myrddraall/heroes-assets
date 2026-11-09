@@ -45,10 +45,17 @@
       "fullText": "<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>초 동안 정신을 집중한 후, 이동 속도가 <s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s> 증가합니다.",
       "name": "탈것 소환"
     },
-    "ImprovedIceBlock|JainaImprovedIceBlockHotbar|Active": {
+    "JainaIceBlockActivate|JainaImprovedIceBlockHotbar|Active": {
+      "cooldownText": "재사용 대기시간: 40초",
       "fullText": "사용하면 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c>초 동안 정지 및 무적 상태가 됩니다. 이 효과가 만료될 때 주위에 있는 적들은 한기를 느낍니다.",
       "name": "향상된 얼음 방패",
       "shortText": "무적 및 주위 적들이 한기를 느낌"
+    },
+    "JainaIceBlockActivate|JainaIceColdHotbar|Active": {
+      "cooldownText": "재사용 대기시간: 40초",
+      "fullText": "사용하면 제이나가 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c>초 동안 보호 및 저지 불가 상태가 됩니다. 이 효과가 만료될 때 주위에 있는 적들은 한기를 느낍니다.",
+      "name": "얼음처럼 차갑게",
+      "shortText": "보호 상태 획득 및 적들이 한기를 느낌"
     },
     "Hearthstone|Hearthstone|B": {
       "fullText": "<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c>초 동안 정신을 집중한 후, 폭풍의 전당으로 귀환하여 즉시 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c>의 생명력과 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c>의 마나를 회복합니다.",
@@ -62,7 +69,11 @@
       "fullText": "탈것에서 내립니다.",
       "name": "탈것 소환 해제"
     },
-    "ImprovedIceBlock|JainaImprovedIceBlockCancel|Active": {
+    "JainaIceBlockCancel|JainaIceColdCancel|Active": {
+      "fullText": "<n/><s val=\"8783e6\" hlt-name=\"StandardTooltip\">향상된 얼음처럼 차갑게를 취소해 보호 상태를 해제하고 주위의 적들이 한기를 느끼게 만듭니다.</s>",
+      "name": "얼음처럼 차갑게 취소"
+    },
+    "JainaIceBlockCancel|JainaImprovedIceBlockCancel|Active": {
       "fullText": "<n/><s val=\"8783e6\" hlt-name=\"StandardTooltip\">향상된 얼음 방패를 취소해 정지 및 무적 효과를 제거하고, 주위의 적들에 있는 적들이 한기를 느끼게 만듭니다.</s>",
       "name": "향상된 얼음 방패 취소"
     },

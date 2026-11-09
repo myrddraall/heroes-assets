@@ -45,10 +45,17 @@
       "fullText": "Tras una canalización de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> segundo, obtienes un <s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s> de velocidad de movimiento.",
       "name": "Invocar montura"
     },
-    "ImprovedIceBlock|JainaImprovedIceBlockHotbar|Active": {
+    "JainaIceBlockActivate|JainaImprovedIceBlockHotbar|Active": {
+      "cooldownText": "Tiempo de reutilización: 40 segundos",
       "fullText": "Actívalo para que Jaina entre en estasis y sea invulnerable durante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c> segundos. Cuando este efecto caduca, los enemigos cercanos quedan helados.",
       "name": "Bloque de hielo mejorado",
       "shortText": "Te vuelves invulnerable y hielas a los enemigos"
+    },
+    "JainaIceBlockActivate|JainaIceColdHotbar|Active": {
+      "cooldownText": "Tiempo de reutilización: 40 segundos",
+      "fullText": "Activar para otorgar protección y volver imparable a Jaina durante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c> segundos. Cuando este efecto caduca, los enemigos cercanos quedan congelados.",
+      "name": "Frío polar",
+      "shortText": "Obtienes Protección y congelas a los enemigos."
     },
     "Hearthstone|Hearthstone|B": {
       "fullText": "Tras una canalización de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> segundos, te teletransportas de regreso a la Sala de las tormentas para recuperar <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c> de salud y <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c> de maná de inmediato.",
@@ -62,7 +69,11 @@
       "fullText": "Te desmontas.",
       "name": "Desinvocar montura"
     },
-    "ImprovedIceBlock|JainaImprovedIceBlockCancel|Active": {
+    "JainaIceBlockCancel|JainaIceColdCancel|Active": {
+      "fullText": "<n/><s val=\"8783e6\" hlt-name=\"StandardTooltip\">Cancela Frío polar mejorado para eliminar tu protección y congelar a los enemigos cercanos.</s>",
+      "name": "Cancela Frío polar"
+    },
+    "JainaIceBlockCancel|JainaImprovedIceBlockCancel|Active": {
       "fullText": "<n/><s val=\"8783e6\" hlt-name=\"StandardTooltip\">Cancela Bloque de hielo mejorado para eliminar la estasis y la invulnerabilidad y helar a los enemigos cercanos.</s>",
       "name": "Cancelar Bloque de hielo mejorado"
     },
