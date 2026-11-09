@@ -571,14 +571,29 @@ const isPreviewSize = async (picture: string): Promise<boolean> => {
 const mapIndex: Record<string, Json> = {};
 await Promise.all(
   Object.entries(maps).map(async ([key, map]) => {
+    // a replay preview scaled to the previews' size, in a file of its own: the picture itself can
+    // be another's too, at its own size (Volskaya Foundry's preview is the home-screen background
+    // that is its loading screen and its Sandbox's)
+    let scaledPreview: string | null = null;
     for (const file of collect(map, MAP_FILES)) {
       const picture = pictures.get(file.toLowerCase());
       const target = join(out, 'maps', 'images', webpName(file));
-      if (!picture)
+      if (!picture) {
         warn(`${key}'s ${file} isn't in the extraction, so the map has no such picture`);
-      else if (file === map['replayPreviewImage'] && previewSize && !(await isPreviewSize(picture)))
-        await writeScaledWebp(picture, target, previewWidth!, previewHeight!);
-      else await writeWebp(picture, target);
+        continue;
+      }
+      const preview = file === map['replayPreviewImage'];
+      if (preview && previewSize && !(await isPreviewSize(picture))) {
+        scaledPreview = `images/${map.normalizedId}-preview.webp`;
+        await writeScaledWebp(
+          picture,
+          join(out, 'maps', scaledPreview),
+          previewWidth!,
+          previewHeight!,
+        );
+        if (file !== map['loadingScreenImage']) continue;
+      }
+      await writeWebp(picture, target);
     }
     const entries: [string, string | Picture][] = [...collect(map, ['image'])].map((file) => [
       stem(file),
@@ -616,6 +631,7 @@ await Promise.all(
       // its camps and unit cards; null when the extraction has none for it
       units: own ? await writeUnitCards(map.normalizedId, own, icons) : null,
     };
+    if (scaledPreview) mapIndex[map.normalizedId]!['replayPreviewImage'] = scaledPreview;
   }),
 );
 await Promise.all(
@@ -800,9 +816,11 @@ for (const map of Object.values(maps)) {
   for (const file of collect(map, ['image'])) {
     await place(file, entry['sheet'] ? `maps/${entry['sheet']}` : null, icons[stem(file)]);
   }
+  // the loading screen first: a file both name is the picture at its own size, not the preview
+  // scaled from it
   for (const [field, kind] of [
-    ['replayPreviewImage', 'replayPreview'],
     ['loadingScreenImage', 'loadingScreen'],
+    ['replayPreviewImage', 'replayPreview'],
   ] as const) {
     const built = entry[field];
     if (typeof built !== 'string') continue;
