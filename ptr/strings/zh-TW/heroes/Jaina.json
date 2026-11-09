@@ -45,10 +45,17 @@
       "fullText": "引導<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>秒後，提高<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s>移動速度。",
       "name": "召喚坐騎"
     },
-    "ImprovedIceBlock|JainaImprovedIceBlockHotbar|Active": {
+    "JainaIceBlockActivate|JainaImprovedIceBlockHotbar|Active": {
+      "cooldownText": "冷卻時間：40秒",
       "fullText": "啟動後，讓珍娜進入靜滯狀態並且免疫傷害，持續<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c>秒。當效果結束時，使附近的敵人受到冰冷效果影響。",
       "name": "強化寒冰屏障",
       "shortText": "免疫傷害，並且使敵人受到冰冷效果影響"
+    },
+    "JainaIceBlockActivate|JainaIceColdHotbar|Active": {
+      "cooldownText": "冷卻時間：40秒",
+      "fullText": "啟動可賦予珍娜<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c>秒的保護與所向披靡。當效果結束時，周圍敵人會受到冰冷狀態影響。",
+      "name": "寒冰",
+      "shortText": "賦予保護並且使敵人受到冰冷效果影響"
     },
     "Hearthstone|Hearthstone|B": {
       "fullText": "引導<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c>秒後傳送回風暴祭壇，立即恢復<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c>點生命值和<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c>點法力值。",
@@ -62,7 +69,11 @@
       "fullText": "離開坐騎。",
       "name": "離開坐騎"
     },
-    "ImprovedIceBlock|JainaImprovedIceBlockCancel|Active": {
+    "JainaIceBlockCancel|JainaIceColdCancel|Active": {
+      "fullText": "<n/><s val=\"8783e6\" hlt-name=\"StandardTooltip\">提前解除強化寒冰，移除保護與無敵效果，並且使附近的敵人受到冰冷效果的影響。</s>",
+      "name": "解除寒冰"
+    },
+    "JainaIceBlockCancel|JainaImprovedIceBlockCancel|Active": {
       "fullText": "<n/><s val=\"8783e6\" hlt-name=\"StandardTooltip\">提前解除強化寒冰屏障，移除靜滯與無敵效果，並且使附近的敵人受到冰冷效果的影響。</s>",
       "name": "解除強化寒冰屏障"
     },

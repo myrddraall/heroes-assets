@@ -45,10 +45,17 @@
       "fullText": "Dopo un incanalamento di <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> s, aumenta del <s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s> la velocità di movimento.",
       "name": "Cavalcatura"
     },
-    "ImprovedIceBlock|JainaImprovedIceBlockHotbar|Active": {
+    "JainaIceBlockActivate|JainaImprovedIceBlockHotbar|Active": {
+      "cooldownText": "Recupero: 40 s",
       "fullText": "Jaina entra in una stasi che la rende invulnerabile per <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c> s. Al termine dell'effetto, i nemici vicini sono raggelati.",
       "name": "Blocco di Ghiaccio Migliorato",
       "shortText": "Rende invulnerabili e raggela i nemici."
+    },
+    "JainaIceBlockActivate|JainaIceColdHotbar|Active": {
+      "cooldownText": "Recupero: 40 s",
+      "fullText": "All'attivazione Jaina è protetta e inarrestabile per <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c> s. Al termine dell'effetto, i nemici vicini sono raggelati.",
+      "name": "Freddo Glaciale",
+      "shortText": "Ottiene protezione e raggela i nemici"
     },
     "Hearthstone|Hearthstone|B": {
       "fullText": "Dopo un incanalamento di <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> s, teletrasporta l'eroe nella Sala delle Tempeste, rigenerando all'istante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c> Salute e <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c> Mana.",
@@ -62,7 +69,11 @@
       "fullText": "Congeda la cavalcatura.",
       "name": "Congeda cavalcatura"
     },
-    "ImprovedIceBlock|JainaImprovedIceBlockCancel|Active": {
+    "JainaIceBlockCancel|JainaIceColdCancel|Active": {
+      "fullText": "<n/><s val=\"8783e6\" hlt-name=\"StandardTooltip\">Annulla l'abilità Freddo Glaciale Migliorato, rimuovendo protezione e raggelando i nemici vicini.</s>",
+      "name": "Annulla Freddo Glaciale"
+    },
+    "JainaIceBlockCancel|JainaImprovedIceBlockCancel|Active": {
       "fullText": "<n/><s val=\"8783e6\" hlt-name=\"StandardTooltip\">Annulla l'abilità Blocco di Ghiaccio Migliorato, rimuovendo stasi e invulnerabilità e raggelando i nemici circostanti.</s>",
       "name": "Annulla Blocco di Ghiaccio Migliorato"
     },

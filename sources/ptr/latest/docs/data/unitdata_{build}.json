@@ -1,11 +1,11 @@
 {
   "meta": {
-    "heroesVersion": "2.57.0.98217_ptr",
+    "heroesVersion": "2.57.1.98644_ptr",
     "hdpVersion": "5.1.0",
     "itemsType": "Data",
     "dataType": "UnitData",
     "localizedText": "Extracted",
-    "totalItems": 943
+    "totalItems": 946
   },
   "items": {
     "AbathurEvolvedMonstrosity": {
@@ -2569,6 +2569,13 @@
             "buttonId": "DeathwingIncinerate",
             "icon": "storm_ui_icon_deathwing_incinerate.png",
             "abilityType": "W"
+          },
+          {
+            "linkId": "DeathwingOnslaught|DeathwingOnslaught|E",
+            "abilityId": "DeathwingOnslaught",
+            "buttonId": "DeathwingOnslaught",
+            "icon": "storm_ui_icon_deathwing_onslaught.png",
+            "abilityType": "E"
           }
         ],
         "Heroic": [
@@ -2718,13 +2725,6 @@
             "abilityType": "Hidden"
           },
           {
-            "linkId": "DeathwingLavaBurst|DeathwingLavaBurst|Hidden",
-            "abilityId": "DeathwingLavaBurst",
-            "buttonId": "DeathwingLavaBurst",
-            "icon": "storm_ui_icon_deathwing_lava_burst.png",
-            "abilityType": "Hidden"
-          },
-          {
             "linkId": "DeathwingBrimstoneCancel|DeathwingBrimstoneCancel|Hidden",
             "abilityId": "DeathwingBrimstoneCancel",
             "buttonId": "DeathwingBrimstoneCancel",
@@ -2762,20 +2762,6 @@
         "DeathwingWorldbreakerForm|DeathwingWorldbreaker|W": {
           "Basic": [
             {
-              "linkId": "DeathwingOnslaught|DeathwingOnslaught|E",
-              "abilityId": "DeathwingOnslaught",
-              "buttonId": "DeathwingOnslaught",
-              "icon": "storm_ui_icon_deathwing_onslaught.png",
-              "abilityType": "E"
-            },
-            {
-              "linkId": "DeathwingOnslaught|DeathwingOnslaught|E",
-              "abilityId": "DeathwingOnslaught",
-              "buttonId": "DeathwingOnslaught",
-              "icon": "storm_ui_icon_deathwing_onslaught.png",
-              "abilityType": "E"
-            },
-            {
               "linkId": "DeathwingEarthShatter|DeathwingEarthShatter|E",
               "abilityId": "DeathwingEarthShatter",
               "buttonId": "DeathwingEarthShatter",
@@ -2802,6 +2788,22 @@
               "buttonId": "DeathwingEarthShatter",
               "icon": "storm_ui_icon_deathwing_earth_shatter.png",
               "abilityType": "E"
+            }
+          ],
+          "Hidden": [
+            {
+              "linkId": "DeathwingLavaBurst|DeathwingLavaBurst|Hidden",
+              "abilityId": "DeathwingLavaBurst",
+              "buttonId": "DeathwingLavaBurst",
+              "icon": "storm_ui_icon_deathwing_lava_burst.png",
+              "abilityType": "Hidden"
+            },
+            {
+              "linkId": "DeathwingLavaBurst|DeathwingLavaBurst|Hidden",
+              "abilityId": "DeathwingLavaBurst",
+              "buttonId": "DeathwingLavaBurst",
+              "icon": "storm_ui_icon_deathwing_lava_burst.png",
+              "abilityType": "Hidden"
             }
           ]
         },
@@ -21150,6 +21152,9 @@
       "innerRadius": 0,
       "sight": 0,
       "speed": 0,
+      "attributes": [
+        "ImmuneToFriendlyAbilities"
+      ],
       "life": {
         "amount": 10,
         "scale": 0,
@@ -21163,6 +21168,9 @@
       "innerRadius": 0,
       "sight": 0,
       "speed": 0,
+      "attributes": [
+        "ImmuneToFriendlyAbilities"
+      ],
       "life": {
         "amount": 10,
         "scale": 0,
@@ -21176,6 +21184,9 @@
       "innerRadius": 0,
       "sight": 0,
       "speed": 0,
+      "attributes": [
+        "ImmuneToFriendlyAbilities"
+      ],
       "life": {
         "amount": 10,
         "scale": 0,
@@ -21189,6 +21200,9 @@
       "innerRadius": 0,
       "sight": 0,
       "speed": 0,
+      "attributes": [
+        "ImmuneToFriendlyAbilities"
+      ],
       "life": {
         "amount": 10,
         "scale": 0,
@@ -21202,6 +21216,9 @@
       "innerRadius": 0,
       "sight": 0,
       "speed": 0,
+      "attributes": [
+        "ImmuneToFriendlyAbilities"
+      ],
       "life": {
         "amount": 10,
         "scale": 0,
@@ -21215,6 +21232,9 @@
       "innerRadius": 0,
       "sight": 0,
       "speed": 0,
+      "attributes": [
+        "ImmuneToFriendlyAbilities"
+      ],
       "life": {
         "amount": 10,
         "scale": 0,
@@ -21257,9 +21277,153 @@
       },
       "portraits": {}
     },
-    "XalatathUnstableCoreFireUnit": {
+    "XalatathVoidConvergencePortalUnit": {
+      "damageType": "Summon",
       "radius": 1.5,
-      "innerRadius": 1.5,
+      "innerRadius": 1.25,
+      "sight": 5,
+      "speed": 3.25,
+      "attributes": [
+        "ImmuneToFriendlyAbilities",
+        "Structure",
+        "Summoned"
+      ],
+      "life": {
+        "amount": 1500,
+        "scale": 0.04,
+        "regenRate": -75,
+        "regenScale": 0.04
+      },
+      "portraits": {
+        "minimap": "storm_ui_minimapicon_teleporter.png"
+      },
+      "abilities": {
+        "Hidden": [
+          {
+            "linkId": "HeroGenericSummonedUnitSpecialCaseInteraction|SummonedUnitSpecialCaseInteraction|Hidden",
+            "abilityId": "HeroGenericSummonedUnitSpecialCaseInteraction",
+            "buttonId": "SummonedUnitSpecialCaseInteraction",
+            "icon": "storm_temp_btn-ability-protoss-prismaticbeam-color.png",
+            "abilityType": "Hidden"
+          }
+        ]
+      }
+    },
+    "XalatathVoidConvergenceRiftInvasionPortalUnit": {
+      "damageType": "Summon",
+      "radius": 1.5,
+      "innerRadius": 1.25,
+      "sight": 5,
+      "speed": 3.25,
+      "attributes": [
+        "ImmuneToFriendlyAbilities",
+        "Structure",
+        "Summoned"
+      ],
+      "life": {
+        "amount": 1500,
+        "scale": 0.04,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": {
+        "minimap": "storm_ui_minimapicon_teleporter.png"
+      },
+      "abilities": {
+        "Hidden": [
+          {
+            "linkId": "HeroGenericSummonedUnitSpecialCaseInteraction|SummonedUnitSpecialCaseInteraction|Hidden",
+            "abilityId": "HeroGenericSummonedUnitSpecialCaseInteraction",
+            "buttonId": "SummonedUnitSpecialCaseInteraction",
+            "icon": "storm_temp_btn-ability-protoss-prismaticbeam-color.png",
+            "abilityType": "Hidden"
+          }
+        ]
+      }
+    },
+    "XalatathVoidEruptionCarrierMissileTier1Unit": {
+      "radius": 0,
+      "innerRadius": 0,
+      "sight": 0,
+      "speed": 0,
+      "attributes": [
+        "ImmuneToFriendlyAbilities"
+      ],
+      "life": {
+        "amount": 10,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": {}
+    },
+    "XalatathVoidEruptionCarrierMissileTier2Unit": {
+      "radius": 0,
+      "innerRadius": 0,
+      "sight": 0,
+      "speed": 0,
+      "attributes": [
+        "ImmuneToFriendlyAbilities"
+      ],
+      "life": {
+        "amount": 10,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": {}
+    },
+    "XalatathVoidEruptionCarrierMissileTier3Unit": {
+      "radius": 0,
+      "innerRadius": 0,
+      "sight": 0,
+      "speed": 0,
+      "attributes": [
+        "ImmuneToFriendlyAbilities"
+      ],
+      "life": {
+        "amount": 10,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": {}
+    },
+    "XalatathVoidEruptionCarrierMissileTier4Unit": {
+      "radius": 0,
+      "innerRadius": 0,
+      "sight": 0,
+      "speed": 0,
+      "attributes": [
+        "ImmuneToFriendlyAbilities"
+      ],
+      "life": {
+        "amount": 10,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": {}
+    },
+    "XalatathVoidEruptionDummyMissileCenter": {
+      "radius": 0,
+      "innerRadius": 0,
+      "sight": 0,
+      "speed": 0,
+      "attributes": [
+        "ImmuneToFriendlyAbilities"
+      ],
+      "life": {
+        "amount": 10,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": {}
+    },
+    "XalatathVoidEruptionV2HarbingersConsumptionMissile": {
+      "radius": 0.5,
+      "innerRadius": 0,
       "sight": 0,
       "speed": 0,
       "attributes": [
@@ -21278,93 +21442,42 @@
       },
       "portraits": {}
     },
-    "XalatathVoidConvergencePortalUnit": {
-      "damageType": "Summon",
-      "radius": 0.75,
-      "innerRadius": 0.25,
-      "sight": 5,
-      "speed": 3.25,
+    "XalatathVoidEruptionV2HarbingersConsumptionOrbitMissile": {
+      "radius": 0.5,
+      "innerRadius": 0,
+      "sight": 0,
+      "speed": 0,
       "attributes": [
+        "IgnoredByTowerAI",
+        "ImmuneToAOE",
+        "ImmuneToFriendlyAbilities",
+        "ImmuneToSkillshots",
+        "NoMinionAggro",
         "Summoned"
       ],
       "life": {
-        "amount": 1200,
-        "scale": 0.04,
-        "regenRate": 0,
-        "regenScale": 0
-      },
-      "portraits": {},
-      "abilities": {
-        "Hidden": [
-          {
-            "linkId": "HeroGenericSummonedUnitSpecialCaseInteraction|SummonedUnitSpecialCaseInteraction|Hidden",
-            "abilityId": "HeroGenericSummonedUnitSpecialCaseInteraction",
-            "buttonId": "SummonedUnitSpecialCaseInteraction",
-            "icon": "storm_temp_btn-ability-protoss-prismaticbeam-color.png",
-            "abilityType": "Hidden"
-          }
-        ]
-      }
-    },
-    "XalatathVoidEruptionCarrierMissileTier1Unit": {
-      "radius": 0,
-      "innerRadius": 0,
-      "sight": 0,
-      "speed": 0,
-      "life": {
-        "amount": 10,
+        "amount": 1,
         "scale": 0,
         "regenRate": 0,
         "regenScale": 0
       },
       "portraits": {}
     },
-    "XalatathVoidEruptionCarrierMissileTier2Unit": {
-      "radius": 0,
+    "XalatathVoidEruptionV2Missile": {
+      "radius": 0.5,
       "innerRadius": 0,
       "sight": 0,
       "speed": 0,
+      "attributes": [
+        "IgnoredByTowerAI",
+        "ImmuneToAOE",
+        "ImmuneToFriendlyAbilities",
+        "ImmuneToSkillshots",
+        "NoMinionAggro",
+        "Summoned"
+      ],
       "life": {
-        "amount": 10,
-        "scale": 0,
-        "regenRate": 0,
-        "regenScale": 0
-      },
-      "portraits": {}
-    },
-    "XalatathVoidEruptionCarrierMissileTier3Unit": {
-      "radius": 0,
-      "innerRadius": 0,
-      "sight": 0,
-      "speed": 0,
-      "life": {
-        "amount": 10,
-        "scale": 0,
-        "regenRate": 0,
-        "regenScale": 0
-      },
-      "portraits": {}
-    },
-    "XalatathVoidEruptionCarrierMissileTier4Unit": {
-      "radius": 0,
-      "innerRadius": 0,
-      "sight": 0,
-      "speed": 0,
-      "life": {
-        "amount": 10,
-        "scale": 0,
-        "regenRate": 0,
-        "regenScale": 0
-      },
-      "portraits": {}
-    },
-    "XalatathVoidEruptionDummyMissileCenter": {
-      "radius": 0,
-      "innerRadius": 0,
-      "sight": 0,
-      "speed": 0,
-      "life": {
-        "amount": 10,
+        "amount": 1,
         "scale": 0,
         "regenRate": 0,
         "regenScale": 0
@@ -21381,14 +21494,12 @@
         "Summoned"
       ],
       "life": {
-        "amount": 300,
+        "amount": 400,
         "scale": 0.04,
-        "regenRate": -25,
+        "regenRate": -33.3333,
         "regenScale": 0.04
       },
-      "portraits": {
-        "minimap": "storm_ui_minimapicon_jaina_water_elemental.png"
-      },
+      "portraits": {},
       "weapons": [
         {
           "nameId": "XalatathVoidMinionWeapon",

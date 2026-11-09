@@ -45,10 +45,17 @@
       "fullText": "引导<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c>秒后，获得<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s>移动速度。",
       "name": "召唤坐骑"
     },
-    "ImprovedIceBlock|JainaImprovedIceBlockHotbar|Active": {
+    "JainaIceBlockActivate|JainaImprovedIceBlockHotbar|Active": {
+      "cooldownText": "冷却时间：40秒",
       "fullText": "激活后使吉安娜静止并变为无敌，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c>秒。该效果结束时，冰冻附近的敌人。",
       "name": "强化寒冰屏障",
       "shortText": "无敌并冰冻附近的敌人"
+    },
+    "JainaIceBlockActivate|JainaIceColdHotbar|Active": {
+      "cooldownText": "冷却时间：40秒",
+      "fullText": "激活后为吉安娜提供保护与不可阻挡效果，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c>秒。该效果结束时，冰冻附近的敌人。",
+      "name": "极冰之寒",
+      "shortText": "获得保护并冰冻敌人"
     },
     "Hearthstone|Hearthstone|B": {
       "fullText": "引导<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c>秒后，传送回风暴大厅，立即恢复<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c>的生命值和<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c>法力值。",
@@ -62,7 +69,11 @@
       "fullText": "解除坐骑。",
       "name": "解除坐骑"
     },
-    "ImprovedIceBlock|JainaImprovedIceBlockCancel|Active": {
+    "JainaIceBlockCancel|JainaIceColdCancel|Active": {
+      "fullText": "<n/><s val=\"8783e6\" hlt-name=\"StandardTooltip\">取消强化极冰之寒，移除保护效果并冰冻附近敌人。</s>",
+      "name": "取消极冰之寒"
+    },
+    "JainaIceBlockCancel|JainaImprovedIceBlockCancel|Active": {
       "fullText": "<n/><s val=\"8783e6\" hlt-name=\"StandardTooltip\">取消强化寒冰屏障，移除静止和无敌效果并冰冻附近敌人。</s>",
       "name": "取消强化寒冰屏障"
     },

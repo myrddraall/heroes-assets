@@ -45,10 +45,17 @@
       "fullText": "Après <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> seconde de canalisation, augmente la vitesse de déplacement de <s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s>.",
       "name": "Appeler une monture"
     },
-    "ImprovedIceBlock|JainaImprovedIceBlockHotbar|Active": {
+    "JainaIceBlockActivate|JainaImprovedIceBlockHotbar|Active": {
+      "cooldownText": "Temps de recharge : 40 secondes",
       "fullText": "S’active pour entrer en stase et devenir invulnérable pendant <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c> secondes. Lorsque l’effet prend fin, les ennemis proches sont glacés.",
       "name": "Bloc de glace amélioré",
       "shortText": "Rend invulnérable et glace les ennemis."
+    },
+    "JainaIceBlockActivate|JainaIceColdHotbar|Active": {
+      "cooldownText": "Temps de recharge : 40 secondes",
+      "fullText": "À l’activation, rend Jaina insensible aux effets de contrôle et lui octroie Protection pendant <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c> secondes. Lorsque l’effet prend fin, les adversaires proches sont glacés.",
+      "name": "Glaciation",
+      "shortText": "Obtient Protection et glace les ennemis."
     },
     "Hearthstone|Hearthstone|B": {
       "fullText": "Après <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> secondes de canalisation, téléporte au hall des Tempêtes et rend instantanément <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c> points de vie et <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c> points de mana.",
@@ -62,7 +69,11 @@
       "fullText": "Permet de descendre de la monture.",
       "name": "Renvoyer la monture"
     },
-    "ImprovedIceBlock|JainaImprovedIceBlockCancel|Active": {
+    "JainaIceBlockCancel|JainaIceColdCancel|Active": {
+      "fullText": "<n/><s val=\"8783e6\" hlt-name=\"StandardTooltip\">Annule Glaciation avant son terme, ce qui supprime Protection, mais glace les ennemis à proximité.</s>",
+      "name": "Annuler Glaciation"
+    },
+    "JainaIceBlockCancel|JainaImprovedIceBlockCancel|Active": {
       "fullText": "<n/><s val=\"8783e6\" hlt-name=\"StandardTooltip\">Annule Bloc de glace amélioré avant son terme, ce qui supprime l’état de stase et l’invulnérabilité, mais glace les ennemis proches.</s>",
       "name": "Annule Bloc de glace amélioré"
     },
