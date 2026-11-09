@@ -40,11 +40,10 @@ export const AWARD_PICTURES_WORKAROUND = 'voiceline';
 const MAP_UI_VERSION = 2;
 
 /**
- * The locale whose run also writes the data files and pictures. With `--localized-text Extract`
- * the data is the same in every locale's run, so the others only keep their strings.
+ * Every locale's strings come from the one run: with `--localized-text Extract` the data is the
+ * same in every locale, so HDP reads the game once and writes the data files, the pictures and
+ * each locale's strings.
  */
-export const MAIN_LOCALE = 'enus';
-
 export const EXTRACTION_LOCALES = Object.keys(LOCALES);
 
 /**
@@ -73,20 +72,15 @@ export const EXTRACTION_KEY = createHash('sha256')
   .digest('hex')
   .slice(0, 16);
 
-/** HDP's command line for one locale of a channel. */
-
-export function hdpArguments(ptr: boolean, locale: string, out: string): string[] {
-  const images = locale === MAIN_LOCALE;
+/** HDP's command line for a channel: the data files, the pictures and every locale's strings. */
+export function hdpArguments(ptr: boolean, out: string): string[] {
   return [
     'online',
     ...(ptr ? ['--download-ptr'] : []),
-    ...EXTRACTORS.flatMap(([name, withImages]) => [
-      '-e',
-      withImages && images ? `${name}:i` : name,
-    ]),
-    ...(images ? ['-e', `${AWARD_PICTURES_WORKAROUND}:i`] : []),
-    '-l',
-    locale,
+    ...EXTRACTORS.flatMap(([name, withImages]) => ['-e', withImages ? `${name}:i` : name]),
+    '-e',
+    `${AWARD_PICTURES_WORKAROUND}:i`,
+    ...EXTRACTION_LOCALES.flatMap((locale) => ['-l', locale]),
     '--localized-text',
     'Extract',
     ...STRING_OPTIONS,
