@@ -121,8 +121,9 @@ An update runs in three jobs, each step skipped when its work is done already:
 
 1. **plan** (`tools/plan.ts`) works out what's left from where things stand: the patch server's
    game version, the version the folder holds, whether that's released, whether it's deployed.
-2. **extract** runs HDP once: it reads the game once and writes the data files, the pictures and
-   every locale's strings. HDP and its download of game files are kept in the Actions cache.
+2. **extract** runs HDP once per locale, in parallel. The English run also writes the data files and
+   pictures; the others keep only their strings. HDP and its download of game files are kept in
+   the Actions cache.
 3. **publish** stores a new extraction in `sources/` (the build it replaces kept as a patch),
    builds the folder and every past build from `sources/` and commits them to `main` (a rebuild of
    a game build already stored with the current extraction settings doesn't extract at all), opens
@@ -153,7 +154,7 @@ needed.
 | Command                                                | What                                                  |
 | ------------------------------------------------------ | ----------------------------------------------------- |
 | `pnpm run plan <live\|ptr> [--rebuild]`                | What an update of a channel still has to do           |
-| `pnpm run extract <live\|ptr> <game> <out>`            | Runs HDP for a channel (`tools/lib/extraction.ts`)    |
+| `pnpm run extract <live\|ptr> <locale> <game> <out>`   | Runs HDP for one locale (`tools/lib/extraction.ts`)   |
 | `pnpm run build.channel <live\|ptr> <hdp out> [out]`   | Builds a channel's folder from HDP's output           |
 | `pnpm run store.extraction <live\|ptr> <game> <dir>`   | Stores an extraction as the channel's newest build    |
 | `pnpm run restore.extraction <live\|ptr> <game> <dir>` | Writes a stored build's extraction (`latest` or game) |
@@ -162,11 +163,12 @@ needed.
 | `pnpm run set.version <live\|ptr> <game> <revision>`   | Writes `version.json` and `.publish/versions.yml`     |
 | `pnpm run build.site`                                  | Builds the Pages site (`site/dist`) from both folders |
 
-HDP's command (a `-l` for each locale); `tools/lib/extraction.ts` holds it:
+HDP's command for the English run (the other locales leave out the `:i` picture options);
+`tools/lib/extraction.ts` holds it:
 
 ```bash
 HeroesDataParser online [--download-ptr] -e hero:i -e unit:i -e emoticon:i -e emoticonpack -e matchaward:i -e map:i \
-  -l enus -l dede -l eses … --localized-text Extract \
+  -l enus --localized-text Extract \
   --gs-replace-constant-vars --gs-replace-style-vars --gs-preserve-constant-vars --gs-preserve-style-vars \
   -o hdp-out
 ```
