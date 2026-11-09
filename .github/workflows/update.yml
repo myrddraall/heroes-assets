@@ -4,9 +4,8 @@ name: Update
 # asked for), then releases and deploys it without a person in the loop.
 #
 #   plan     what's left to do, from where things stand (tools/plan.ts)
-#   extract  Heroes Data Parser, once: the data files, the pictures and every locale's strings
-#            from one read of the game; HDP itself and its download cache of game files kept in the
-#            Actions cache
+#   extract  Heroes Data Parser, one job per locale in parallel; HDP itself and its download cache
+#            of game files kept in the Actions cache
 #   publish  one update at a time, across both channels (they share versions.yml and the release
 #            PR): a new extraction stored in sources/ (the build it replaces kept as a patch); the
 #            folder built from the stored extraction, and every past build into <channel>/history
@@ -49,6 +48,7 @@ jobs:
       build: ${{ steps.plan.outputs.build }}
       release: ${{ steps.plan.outputs.release }}
       deploy: ${{ steps.plan.outputs.deploy }}
+      locales: ${{ steps.plan.outputs.locales }}
       hdp: ${{ steps.plan.outputs.hdp }}
     steps:
       # the tools and the folders' versions only, not the folders
@@ -76,6 +76,10 @@ jobs:
     needs: plan
     if: needs.plan.outputs.extract == 'true'
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        locale: ${{ fromJSON(needs.plan.outputs.locales) }}
     env:
       HEROESDATAPARSER_DATA_DIR: ${{ github.workspace }}/hdp-data
     steps:
@@ -98,22 +102,23 @@ jobs:
           path: hdp
           key: hdp-${{ needs.plan.outputs.hdp }}
 
-      # Game files HDP downloaded
+      # Game files HDP downloaded: the main locale's run also reads the pictures, so it keeps its own
       - name: Game files
         uses: actions/cache@v4
         with:
           path: hdp-data/casclib-cache
-          key: casc-${{ inputs.channel }}-${{ needs.plan.outputs.game }}
+          key: casc-${{ inputs.channel }}-${{ needs.plan.outputs.game }}-${{ matrix.locale == 'enus' && 'main' || 'strings' }}
           restore-keys: |
+            casc-${{ inputs.channel }}-${{ needs.plan.outputs.game }}-
             casc-${{ inputs.channel }}-
 
       - name: Extract
-        run: node tools/extract.ts "$CHANNEL" "${{ needs.plan.outputs.game }}" hdp-out
+        run: node tools/extract.ts "$CHANNEL" "${{ matrix.locale }}" "${{ needs.plan.outputs.game }}" hdp-out
 
       # only until publish has it; the extraction is kept on the release
       - uses: actions/upload-artifact@v4
         with:
-          name: hdp
+          name: hdp-${{ matrix.locale }}
           path: hdp-out/
           retention-days: 1
 
@@ -156,8 +161,9 @@ jobs:
         if: needs.plan.outputs.extract == 'true'
         uses: actions/download-artifact@v4
         with:
-          name: hdp
+          pattern: hdp-*
           path: hdp-out
+          merge-multiple: true
 
       - name: Store the extraction
         if: needs.plan.outputs.extract == 'true'
