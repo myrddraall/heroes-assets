@@ -78,12 +78,17 @@ export async function readMaps(root: string): Promise<Map<string, string[]>> {
   return maps;
 }
 
-/** Every mod in an extraction of MAP_TEXT_PATTERNS, by folder name without `.stormmod`. */
+/**
+ * Every map and brawl mod in an extraction of MAP_TEXT_PATTERNS, by folder name without
+ * `.stormmod`. Other mods the folder holds (the base data's, for map units) are no map's own.
+ */
 export async function readMods(root: string): Promise<Map<string, Mod>> {
   const mods = new Map<string, Mod>();
   for await (const path of walk(root)) {
     if (path.toLowerCase().endsWith('.s2mv')) continue;
-    const match = /([^/]+)\.stormmod\//.exec(path.replace(/\\/g, '/').toLowerCase());
+    const normal = path.replace(/\\/g, '/').toLowerCase();
+    if (!MOD_ROOTS.some((r) => normal.includes(`/${r}/`))) continue;
+    const match = /([^/]+)\.stormmod\//.exec(normal);
     if (!match) continue;
     const name = match[1]!;
     if (!mods.has(name)) mods.set(name, { dependencies: [], textures: new Set() });

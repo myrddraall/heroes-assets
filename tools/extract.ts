@@ -14,7 +14,7 @@ import { mkdir, readdir, readFile, rm, writeFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { asChannel } from './lib/channels.ts';
 import { dropAwardWorkaround, EXTRACTION_LOCALES, hdpArguments } from './lib/extraction.ts';
-import { cascExtract, runHdp } from './lib/hdp.ts';
+import { cascExtract, cascExtractTextures, runHdp } from './lib/hdp.ts';
 import { HERO_UNIT_TEXTURES, missingHeroUnitPortraits } from './lib/hero-units.ts';
 import { gatherRetiredIcons, ICON_PATTERN, RETIRED_ICON_TEXTURES } from './lib/retired-icons.ts';
 import {
@@ -23,7 +23,6 @@ import {
   mapTextures,
   readMaps,
   readMods,
-  texturePattern,
 } from './lib/map-ui.ts';
 import { MAP_UNIT_PATTERNS, mapUnits, readModTexts } from './lib/map-units.ts';
 import {
@@ -89,11 +88,8 @@ const units = await missingHeroUnitPortraits(
 const sheetTextureNames = new Set(
   [...(await readSheetSources(UI_SHEET_SOURCES)).values()].flatMap((s) => [...sheetTextures(s)]),
 );
-await cascExtract(
-  ptr,
-  [...names, ...units, ...sheetTextureNames].map(texturePattern),
-  join(work, 'textures'),
-);
+// the textures they name, quickly (lib/hdp.ts)
+await cascExtractTextures(ptr, [...names, ...units, ...sheetTextureNames], join(work, 'textures'));
 // every ability and talent icon, for those the data no longer names (lib/retired-icons.ts)
 await cascExtract(ptr, [ICON_PATTERN], join(work, 'icons'));
 const retired = await gatherRetiredIcons(
