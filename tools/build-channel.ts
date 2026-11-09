@@ -607,6 +607,10 @@ await Promise.all(
       ...(renamed(map) as Json),
       // null when the map has no icons to show (no sheet written)
       sheet: Object.keys(icons).length ? file : null,
+      // the sheet's size, for showing a part of it scaled; null without one
+      sheetSize: Object.keys(icons).length
+        ? await pictureSize(join(out, 'maps', file)).then(({ width, height }) => [width, height])
+        : null,
       icons,
       images,
       // its camps and unit cards; null when the extraction has none for it

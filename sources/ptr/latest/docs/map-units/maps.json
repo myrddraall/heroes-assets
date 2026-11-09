@@ -83404,39 +83404,6 @@
           "levels": []
         },
         {
-          "id": "BruiserCamp3",
-          "category": "bruiser",
-          "label": "Param/Value/lib_MHmu_1A837C9C",
-          "defenders": [
-            {
-              "unit": "MercDefenderRangedMage",
-              "count": 1
-            },
-            {
-              "unit": "MercDefenderMeleeKnight",
-              "count": 3
-            }
-          ],
-          "mercs": [
-            {
-              "unit": "MercLanerRangedMage",
-              "count": 1
-            },
-            {
-              "unit": "MercLanerMeleeKnight",
-              "count": 3
-            }
-          ],
-          "respawnSeconds": 120,
-          "firstSpawnSeconds": 60,
-          "elite": true,
-          "soloable": false,
-          "captureXp": 0,
-          "defenderScaling": "KnightMageScaling2",
-          "mercScaling": "KnightMageScaling",
-          "levels": []
-        },
-        {
           "id": "SiegeCamp1",
           "category": "siege",
           "label": "Param/Value/lib_OVER_221294BA",
@@ -83484,6 +83451,87 @@
           "defenderScaling": null,
           "mercScaling": "MercenaryLanerSwordsmanScaling",
           "levels": []
+        },
+        {
+          "id": "IndividualMercCampBruiserCamp3",
+          "category": "bruiser",
+          "label": "Param/Value/lib_OVER_10917A4A",
+          "defenders": [
+            {
+              "unit": "MercDefenderMeleeIndividual",
+              "count": 1
+            }
+          ],
+          "mercs": [],
+          "respawnSeconds": 180,
+          "firstSpawnSeconds": 30,
+          "elite": true,
+          "soloable": false,
+          "captureXp": null,
+          "defenderScaling": "MercDefenderIndividualCampScaling",
+          "mercScaling": null,
+          "levels": []
+        },
+        {
+          "id": "VisionMercCampBruiserCamp3",
+          "category": "bruiser",
+          "label": "Param/Value/lib_MHmu_ADACEBB9",
+          "defenders": [
+            {
+              "unit": "MercDefenderHenchman1",
+              "count": 1
+            },
+            {
+              "unit": "MercDefenderHenchman2",
+              "count": 1
+            },
+            {
+              "unit": "MercDefenderHenchman3",
+              "count": 1
+            }
+          ],
+          "mercs": [],
+          "respawnSeconds": -1,
+          "firstSpawnSeconds": 30,
+          "elite": false,
+          "soloable": true,
+          "captureXp": 300,
+          "defenderScaling": "MercHenchmanDefender",
+          "mercScaling": "MercHenchmanLaner",
+          "levels": []
+        },
+        {
+          "id": "KnightsMercCampBruiserCamp3",
+          "category": "bruiser",
+          "label": "Param/Value/lib_MHmu_1A837C9C",
+          "defenders": [
+            {
+              "unit": "MercDefenderRangedMage",
+              "count": 1
+            },
+            {
+              "unit": "MercDefenderMeleeKnight",
+              "count": 3
+            }
+          ],
+          "mercs": [
+            {
+              "unit": "MercLanerRangedMage",
+              "count": 1
+            },
+            {
+              "unit": "MercLanerMeleeKnight",
+              "count": 3
+            }
+          ],
+          "respawnSeconds": 120,
+          "firstSpawnSeconds": 60,
+          "elite": false,
+          "soloable": false,
+          "captureXp": 0,
+          "defenderScaling": "KnightMageScaling2",
+          "mercScaling": "KnightMageScaling",
+          "levels": []
         }
       ],
       "units": {
@@ -83504,6 +83552,27 @@
           "name": "Unit/Name/KingsCore",
           "description": null
         },
+        "MercDefenderHenchman1": {
+          "portraits": [
+            "storm_ui_ingame_targetinfopanel_unit_hanamura_merc_yakuza"
+          ],
+          "name": "Unit/Name/MercDefenderHenchman1",
+          "description": null
+        },
+        "MercDefenderHenchman2": {
+          "portraits": [
+            "storm_ui_ingame_targetinfopanel_unit_hanamura_merc_yakuza"
+          ],
+          "name": "Unit/Name/MercDefenderHenchman2",
+          "description": null
+        },
+        "MercDefenderHenchman3": {
+          "portraits": [
+            "storm_ui_ingame_targetinfopanel_unit_hanamura_merc_yakuza"
+          ],
+          "name": "Unit/Name/MercDefenderHenchman3",
+          "description": null
+        },
         "MercDefenderMeleeBruiser": {
           "portraits": [],
           "name": "Unit/Name/MercDefenderMeleeBruiser",
@@ -83517,6 +83586,11 @@
         "MercDefenderMeleeBruiser3": {
           "portraits": [],
           "name": null,
+          "description": null
+        },
+        "MercDefenderMeleeIndividual": {
+          "portraits": [],
+          "name": "Unit/Name/MercDefenderMeleeIndividual",
           "description": null
         },
         "MercDefenderMeleeKnight": {
@@ -85770,6 +85844,764 @@
             "VitalMaxArray.Life": 150
           }
         ],
+        "MercDefenderIndividualCampScaling": [
+          {},
+          {
+            "DamageDealtScaled.Basic": 3,
+            "VitalMaxArray.Life": 135
+          },
+          {
+            "DamageDealtScaled.Basic": 3,
+            "VitalMaxArray.Life": 135
+          },
+          {
+            "DamageDealtScaled.Basic": 3,
+            "VitalMaxArray.Life": 135
+          },
+          {
+            "DamageDealtScaled.Basic": 3,
+            "VitalMaxArray.Life": 135
+          },
+          {
+            "DamageDealtScaled.Basic": 3,
+            "VitalMaxArray.Life": 135
+          },
+          {
+            "DamageDealtScaled.Basic": 4.5,
+            "VitalMaxArray.Life": 202.5
+          },
+          {
+            "DamageDealtScaled.Basic": 4.5,
+            "VitalMaxArray.Life": 202.5
+          },
+          {
+            "DamageDealtScaled.Basic": 4.5,
+            "VitalMaxArray.Life": 202.5
+          },
+          {
+            "DamageDealtScaled.Basic": 4.5,
+            "VitalMaxArray.Life": 202.5
+          },
+          {
+            "DamageDealtScaled.Basic": 4.5,
+            "VitalMaxArray.Life": 202.5
+          },
+          {
+            "DamageDealtScaled.Basic": 9,
+            "VitalMaxArray.Life": 270
+          },
+          {
+            "DamageDealtScaled.Basic": 9,
+            "VitalMaxArray.Life": 270
+          },
+          {
+            "DamageDealtScaled.Basic": 9,
+            "VitalMaxArray.Life": 270
+          },
+          {
+            "DamageDealtScaled.Basic": 9,
+            "VitalMaxArray.Life": 270
+          },
+          {
+            "DamageDealtScaled.Basic": 9,
+            "VitalMaxArray.Life": 270
+          },
+          {
+            "DamageDealtScaled.Basic": 7.5,
+            "VitalMaxArray.Life": 337.5
+          },
+          {
+            "DamageDealtScaled.Basic": 7.5,
+            "VitalMaxArray.Life": 337.5
+          },
+          {
+            "DamageDealtScaled.Basic": 7.5,
+            "VitalMaxArray.Life": 337.5
+          },
+          {
+            "DamageDealtScaled.Basic": 7.5,
+            "VitalMaxArray.Life": 337.5
+          },
+          {
+            "DamageDealtScaled.Basic": 7.5,
+            "VitalMaxArray.Life": 337.5
+          },
+          {
+            "DamageDealtScaled.Basic": 9,
+            "VitalMaxArray.Life": 405
+          },
+          {
+            "DamageDealtScaled.Basic": 9,
+            "VitalMaxArray.Life": 405
+          },
+          {
+            "DamageDealtScaled.Basic": 9,
+            "VitalMaxArray.Life": 405
+          },
+          {
+            "DamageDealtScaled.Basic": 9,
+            "VitalMaxArray.Life": 405
+          },
+          {
+            "DamageDealtScaled.Basic": 9,
+            "VitalMaxArray.Life": 405
+          },
+          {
+            "DamageDealtScaled.Basic": 9,
+            "VitalMaxArray.Life": 405
+          },
+          {
+            "DamageDealtScaled.Basic": 9,
+            "VitalMaxArray.Life": 405
+          },
+          {
+            "DamageDealtScaled.Basic": 9,
+            "VitalMaxArray.Life": 405
+          },
+          {
+            "DamageDealtScaled.Basic": 9,
+            "VitalMaxArray.Life": 405
+          },
+          {
+            "DamageDealtScaled.Basic": 9,
+            "VitalMaxArray.Life": 405
+          },
+          {
+            "DamageDealtScaled.Basic": 9,
+            "VitalMaxArray.Life": 405
+          },
+          {
+            "DamageDealtScaled.Basic": 9,
+            "VitalMaxArray.Life": 405
+          },
+          {
+            "DamageDealtScaled.Basic": 9,
+            "VitalMaxArray.Life": 405
+          },
+          {
+            "DamageDealtScaled.Basic": 9,
+            "VitalMaxArray.Life": 405
+          },
+          {
+            "DamageDealtScaled.Basic": 9,
+            "VitalMaxArray.Life": 405
+          },
+          {
+            "DamageDealtScaled.Basic": 9,
+            "VitalMaxArray.Life": 405
+          },
+          {
+            "DamageDealtScaled.Basic": 9,
+            "VitalMaxArray.Life": 405
+          },
+          {
+            "DamageDealtScaled.Basic": 9,
+            "VitalMaxArray.Life": 405
+          },
+          {
+            "DamageDealtScaled.Basic": 9,
+            "VitalMaxArray.Life": 405
+          },
+          {
+            "DamageDealtScaled.Basic": 9,
+            "VitalMaxArray.Life": 405
+          },
+          {
+            "DamageDealtScaled.Basic": 9,
+            "VitalMaxArray.Life": 405
+          },
+          {
+            "DamageDealtScaled.Basic": 9,
+            "VitalMaxArray.Life": 405
+          },
+          {
+            "DamageDealtScaled.Basic": 9,
+            "VitalMaxArray.Life": 405
+          },
+          {
+            "DamageDealtScaled.Basic": 9,
+            "VitalMaxArray.Life": 405
+          },
+          {
+            "DamageDealtScaled.Basic": 9,
+            "VitalMaxArray.Life": 405
+          },
+          {
+            "DamageDealtScaled.Basic": 9,
+            "VitalMaxArray.Life": 405
+          },
+          {
+            "DamageDealtScaled.Basic": 9,
+            "VitalMaxArray.Life": 405
+          },
+          {
+            "DamageDealtScaled.Basic": 9,
+            "VitalMaxArray.Life": 405
+          },
+          {
+            "DamageDealtScaled.Basic": 9,
+            "VitalMaxArray.Life": 405
+          },
+          {
+            "DamageDealtScaled.Basic": 9,
+            "VitalMaxArray.Life": 405
+          },
+          {
+            "DamageDealtScaled.Basic": 9,
+            "VitalMaxArray.Life": 405
+          },
+          {
+            "DamageDealtScaled.Basic": 9,
+            "VitalMaxArray.Life": 405
+          },
+          {
+            "DamageDealtScaled.Basic": 9,
+            "VitalMaxArray.Life": 405
+          },
+          {
+            "DamageDealtScaled.Basic": 9,
+            "VitalMaxArray.Life": 405
+          },
+          {
+            "DamageDealtScaled.Basic": 9,
+            "VitalMaxArray.Life": 405
+          },
+          {
+            "DamageDealtScaled.Basic": 9,
+            "VitalMaxArray.Life": 405
+          },
+          {
+            "DamageDealtScaled.Basic": 9,
+            "VitalMaxArray.Life": 405
+          },
+          {
+            "DamageDealtScaled.Basic": 9,
+            "VitalMaxArray.Life": 405
+          },
+          {
+            "DamageDealtScaled.Basic": 9,
+            "VitalMaxArray.Life": 405
+          },
+          {
+            "DamageDealtScaled.Basic": 9,
+            "VitalMaxArray.Life": 405
+          }
+        ],
+        "MercHenchmanDefender": [
+          {},
+          {
+            "DamageDealtScaled.Basic": 1,
+            "DamageDealtScaled.Ability": 1,
+            "VitalMaxArray.Life": 40
+          },
+          {
+            "KillXPBonus": 8,
+            "DamageDealtScaled.Basic": 1,
+            "DamageDealtScaled.Ability": 1,
+            "VitalMaxArray.Life": 40
+          },
+          {
+            "KillXPBonus": 8,
+            "DamageDealtScaled.Basic": 1,
+            "DamageDealtScaled.Ability": 1,
+            "VitalMaxArray.Life": 40
+          },
+          {
+            "KillXPBonus": 8,
+            "DamageDealtScaled.Basic": 1,
+            "DamageDealtScaled.Ability": 1,
+            "VitalMaxArray.Life": 40
+          },
+          {
+            "KillXPBonus": 8,
+            "DamageDealtScaled.Basic": 1,
+            "DamageDealtScaled.Ability": 1,
+            "VitalMaxArray.Life": 40
+          },
+          {
+            "KillXPBonus": 8,
+            "DamageDealtScaled.Basic": 1.5,
+            "DamageDealtScaled.Ability": 1.5,
+            "VitalMaxArray.Life": 60
+          },
+          {
+            "KillXPBonus": 8,
+            "DamageDealtScaled.Basic": 1.5,
+            "DamageDealtScaled.Ability": 1.5,
+            "VitalMaxArray.Life": 60
+          },
+          {
+            "KillXPBonus": 8,
+            "DamageDealtScaled.Basic": 1.5,
+            "DamageDealtScaled.Ability": 1.5,
+            "VitalMaxArray.Life": 60
+          },
+          {
+            "KillXPBonus": 8,
+            "DamageDealtScaled.Basic": 1.5,
+            "DamageDealtScaled.Ability": 1.5,
+            "VitalMaxArray.Life": 60
+          },
+          {
+            "KillXPBonus": 8,
+            "DamageDealtScaled.Basic": 1.5,
+            "DamageDealtScaled.Ability": 1.5,
+            "VitalMaxArray.Life": 60
+          },
+          {
+            "KillXPBonus": 8,
+            "DamageDealtScaled.Basic": 2,
+            "DamageDealtScaled.Ability": 2,
+            "VitalMaxArray.Life": 80
+          },
+          {
+            "KillXPBonus": 8,
+            "DamageDealtScaled.Basic": 2,
+            "DamageDealtScaled.Ability": 2,
+            "VitalMaxArray.Life": 80
+          },
+          {
+            "KillXPBonus": 8,
+            "DamageDealtScaled.Basic": 2,
+            "DamageDealtScaled.Ability": 2,
+            "VitalMaxArray.Life": 80
+          },
+          {
+            "KillXPBonus": 8,
+            "DamageDealtScaled.Basic": 2,
+            "DamageDealtScaled.Ability": 2,
+            "VitalMaxArray.Life": 80
+          },
+          {
+            "KillXPBonus": 8,
+            "DamageDealtScaled.Basic": 2,
+            "DamageDealtScaled.Ability": 2,
+            "VitalMaxArray.Life": 80
+          },
+          {
+            "KillXPBonus": 8,
+            "DamageDealtScaled.Basic": 2.5,
+            "DamageDealtScaled.Ability": 2.5,
+            "VitalMaxArray.Life": 100
+          },
+          {
+            "KillXPBonus": 8,
+            "DamageDealtScaled.Basic": 2.5,
+            "DamageDealtScaled.Ability": 2.5,
+            "VitalMaxArray.Life": 100
+          },
+          {
+            "KillXPBonus": 8,
+            "DamageDealtScaled.Basic": 2.5,
+            "DamageDealtScaled.Ability": 2.5,
+            "VitalMaxArray.Life": 100
+          },
+          {
+            "KillXPBonus": 8,
+            "DamageDealtScaled.Basic": 2.5,
+            "DamageDealtScaled.Ability": 2.5,
+            "VitalMaxArray.Life": 100
+          },
+          {
+            "KillXPBonus": 8,
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3,
+            "VitalMaxArray.Life": 100
+          },
+          {
+            "KillXPBonus": 8,
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3,
+            "VitalMaxArray.Life": 120
+          },
+          {
+            "KillXPBonus": 8,
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3,
+            "VitalMaxArray.Life": 120
+          },
+          {
+            "KillXPBonus": 8,
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3,
+            "VitalMaxArray.Life": 120
+          },
+          {
+            "KillXPBonus": 8,
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3,
+            "VitalMaxArray.Life": 120
+          },
+          {
+            "KillXPBonus": 8,
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3,
+            "VitalMaxArray.Life": 120
+          },
+          {
+            "KillXPBonus": 8,
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3,
+            "VitalMaxArray.Life": 120
+          },
+          {
+            "KillXPBonus": 8,
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3,
+            "VitalMaxArray.Life": 120
+          },
+          {
+            "KillXPBonus": 8,
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3,
+            "VitalMaxArray.Life": 120
+          },
+          {
+            "KillXPBonus": 8,
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3,
+            "VitalMaxArray.Life": 120
+          },
+          {
+            "KillXPBonus": 8,
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3,
+            "VitalMaxArray.Life": 120
+          },
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "MercHenchmanLaner": [
+          {},
+          {
+            "DamageDealtScaled.Basic": 1.1,
+            "DamageDealtScaled.Ability": 1.1,
+            "VitalMaxArray.Life": 38
+          },
+          {
+            "DamageDealtScaled.Basic": 1.1,
+            "DamageDealtScaled.Ability": 1.1,
+            "VitalMaxArray.Life": 38
+          },
+          {
+            "DamageDealtScaled.Basic": 1.1,
+            "DamageDealtScaled.Ability": 1.1,
+            "VitalMaxArray.Life": 38
+          },
+          {
+            "DamageDealtScaled.Basic": 1.1,
+            "DamageDealtScaled.Ability": 1.1,
+            "VitalMaxArray.Life": 38
+          },
+          {
+            "DamageDealtScaled.Basic": 1.1,
+            "DamageDealtScaled.Ability": 1.1,
+            "VitalMaxArray.Life": 38
+          },
+          {
+            "DamageDealtScaled.Basic": 1.65,
+            "DamageDealtScaled.Ability": 1.65,
+            "VitalMaxArray.Life": 57
+          },
+          {
+            "DamageDealtScaled.Basic": 1.65,
+            "DamageDealtScaled.Ability": 1.65,
+            "VitalMaxArray.Life": 57
+          },
+          {
+            "DamageDealtScaled.Basic": 1.65,
+            "DamageDealtScaled.Ability": 1.65,
+            "VitalMaxArray.Life": 57
+          },
+          {
+            "DamageDealtScaled.Basic": 1.65,
+            "DamageDealtScaled.Ability": 1.65,
+            "VitalMaxArray.Life": 57
+          },
+          {
+            "DamageDealtScaled.Basic": 1.65,
+            "DamageDealtScaled.Ability": 1.65,
+            "VitalMaxArray.Life": 57
+          },
+          {
+            "DamageDealtScaled.Basic": 2.2,
+            "DamageDealtScaled.Ability": 2.2,
+            "VitalMaxArray.Life": 76
+          },
+          {
+            "DamageDealtScaled.Basic": 2.2,
+            "DamageDealtScaled.Ability": 2.2,
+            "VitalMaxArray.Life": 76
+          },
+          {
+            "DamageDealtScaled.Basic": 2.2,
+            "DamageDealtScaled.Ability": 2.2,
+            "VitalMaxArray.Life": 76
+          },
+          {
+            "DamageDealtScaled.Basic": 2.2,
+            "DamageDealtScaled.Ability": 2.2,
+            "VitalMaxArray.Life": 76
+          },
+          {
+            "DamageDealtScaled.Basic": 2.2,
+            "DamageDealtScaled.Ability": 2.2,
+            "VitalMaxArray.Life": 76
+          },
+          {
+            "DamageDealtScaled.Basic": 2.75,
+            "DamageDealtScaled.Ability": 2.75,
+            "VitalMaxArray.Life": 95
+          },
+          {
+            "DamageDealtScaled.Basic": 2.75,
+            "DamageDealtScaled.Ability": 2.75,
+            "VitalMaxArray.Life": 95
+          },
+          {
+            "DamageDealtScaled.Basic": 2.75,
+            "DamageDealtScaled.Ability": 2.75,
+            "VitalMaxArray.Life": 95
+          },
+          {
+            "DamageDealtScaled.Basic": 2.75,
+            "DamageDealtScaled.Ability": 2.75,
+            "VitalMaxArray.Life": 95
+          },
+          {
+            "DamageDealtScaled.Basic": 2.75,
+            "DamageDealtScaled.Ability": 2.75,
+            "VitalMaxArray.Life": 95
+          },
+          {
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3.3,
+            "VitalMaxArray.Life": 114
+          },
+          {
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3.3,
+            "VitalMaxArray.Life": 114
+          },
+          {
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3.3,
+            "VitalMaxArray.Life": 114
+          },
+          {
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3.3,
+            "VitalMaxArray.Life": 114
+          },
+          {
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3.3,
+            "VitalMaxArray.Life": 114
+          },
+          {
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3.3,
+            "VitalMaxArray.Life": 114
+          },
+          {
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3.3,
+            "VitalMaxArray.Life": 114
+          },
+          {
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3.3,
+            "VitalMaxArray.Life": 114
+          },
+          {
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3.3,
+            "VitalMaxArray.Life": 114
+          },
+          {
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3.3,
+            "VitalMaxArray.Life": 114
+          },
+          {
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3.3,
+            "VitalMaxArray.Life": 114
+          },
+          {
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3.3,
+            "VitalMaxArray.Life": 114
+          },
+          {
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3.3,
+            "VitalMaxArray.Life": 114
+          },
+          {
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3.3,
+            "VitalMaxArray.Life": 114
+          },
+          {
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3.3,
+            "VitalMaxArray.Life": 114
+          },
+          {
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3.3,
+            "VitalMaxArray.Life": 114
+          },
+          {
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3.3,
+            "VitalMaxArray.Life": 114
+          },
+          {
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3.3,
+            "VitalMaxArray.Life": 114
+          },
+          {
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3.3,
+            "VitalMaxArray.Life": 114
+          },
+          {
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3.3,
+            "VitalMaxArray.Life": 114
+          },
+          {
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3.3,
+            "VitalMaxArray.Life": 114
+          },
+          {
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3.3,
+            "VitalMaxArray.Life": 114
+          },
+          {
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3.3,
+            "VitalMaxArray.Life": 114
+          },
+          {
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3.3,
+            "VitalMaxArray.Life": 114
+          },
+          {
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3.3,
+            "VitalMaxArray.Life": 114
+          },
+          {
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3.3,
+            "VitalMaxArray.Life": 114
+          },
+          {
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3.3,
+            "VitalMaxArray.Life": 114
+          },
+          {
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3.3,
+            "VitalMaxArray.Life": 114
+          },
+          {
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3.3,
+            "VitalMaxArray.Life": 114
+          },
+          {
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3.3,
+            "VitalMaxArray.Life": 114
+          },
+          {
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3.3,
+            "VitalMaxArray.Life": 114
+          },
+          {
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3.3,
+            "VitalMaxArray.Life": 114
+          },
+          {
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3.3,
+            "VitalMaxArray.Life": 114
+          },
+          {
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3.3,
+            "VitalMaxArray.Life": 114
+          },
+          {
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3.3,
+            "VitalMaxArray.Life": 114
+          },
+          {
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3.3,
+            "VitalMaxArray.Life": 114
+          },
+          {
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3.3,
+            "VitalMaxArray.Life": 114
+          },
+          {
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3.3,
+            "VitalMaxArray.Life": 114
+          },
+          {
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3.3,
+            "VitalMaxArray.Life": 114
+          },
+          {
+            "DamageDealtScaled.Basic": 3,
+            "DamageDealtScaled.Ability": 3.3,
+            "VitalMaxArray.Life": 114
+          }
+        ],
         "MercenaryLanerSwordsmanScaling": [
           {},
           {
@@ -87838,17 +88670,23 @@
           "Actor/InfoText/MercDefenderRangedMage": "Gewährt nahen Verbündeten Zauberpanzerung.",
           "Actor/InfoText/MercLanerRangedKnight": "Gewährt nahen Verbündeten Zauberpanzerung.",
           "Param/Value/lib_MHmu_1A837C9C": "Frontbrecher",
+          "Param/Value/lib_MHmu_ADACEBB9": "Schergen",
           "Param/Value/lib_MHmu_C76BE77C": "Wächter",
           "Param/Value/lib_MapM_CD592AD9": "Riesen",
           "Param/Value/lib_MapM_E13C6C4C": "Grabgolem",
           "Param/Value/lib_MapM_EC6BA293": "Ritter",
+          "Param/Value/lib_OVER_10917A4A": "Wächter",
           "Param/Value/lib_OVER_221294BA": "Ingenieur mit Geschütz",
           "Param/Value/lib_OVER_33B3B4E4": "Mega-Vollstrecker",
           "Param/Value/lib_OVER_87517146": "Schergen",
           "Unit/Name/JungleGraveGolemDefender": "Mega-Vollstrecker",
           "Unit/Name/JungleGraveGolemLaner": "Boss",
           "Unit/Name/KingsCore": "Zitadelle",
+          "Unit/Name/MercDefenderHenchman1": "Scherge",
+          "Unit/Name/MercDefenderHenchman2": "Scherge",
+          "Unit/Name/MercDefenderHenchman3": "Scherge",
           "Unit/Name/MercDefenderMeleeBruiser": "Schergen",
+          "Unit/Name/MercDefenderMeleeIndividual": "Wächter",
           "Unit/Name/MercDefenderMeleeKnight": "Ritter",
           "Unit/Name/MercDefenderRangedMage": "Zauberer",
           "Unit/Name/MercDefenderSentinel": "Wächter",
@@ -87986,17 +88824,23 @@
           "Actor/InfoText/MercDefenderRangedMage": "Grants Spell Armor to nearby allies.",
           "Actor/InfoText/MercLanerRangedKnight": "Grants Spell Armor to nearby allies.",
           "Param/Value/lib_MHmu_1A837C9C": "Bruisers",
+          "Param/Value/lib_MHmu_ADACEBB9": "Henchmen",
           "Param/Value/lib_MHmu_C76BE77C": "Sentinel",
           "Param/Value/lib_MapM_CD592AD9": "Siege Giants",
           "Param/Value/lib_MapM_E13C6C4C": "Grave Golem",
           "Param/Value/lib_MapM_EC6BA293": "Knights",
+          "Param/Value/lib_OVER_10917A4A": "Sentinel",
           "Param/Value/lib_OVER_221294BA": "Engineer and Turret",
           "Param/Value/lib_OVER_33B3B4E4": "Mega Enforcer",
           "Param/Value/lib_OVER_87517146": "Henchmen",
           "Unit/Name/JungleGraveGolemDefender": "Mega Enforcer",
           "Unit/Name/JungleGraveGolemLaner": "Boss",
           "Unit/Name/KingsCore": "Core",
+          "Unit/Name/MercDefenderHenchman1": "Henchman",
+          "Unit/Name/MercDefenderHenchman2": "Henchman",
+          "Unit/Name/MercDefenderHenchman3": "Henchman",
           "Unit/Name/MercDefenderMeleeBruiser": "Henchmen",
+          "Unit/Name/MercDefenderMeleeIndividual": "Sentinel",
           "Unit/Name/MercDefenderMeleeKnight": "Knight",
           "Unit/Name/MercDefenderRangedMage": "Mage",
           "Unit/Name/MercDefenderSentinel": "Sentinel",
@@ -88134,17 +88978,23 @@
           "Actor/InfoText/MercDefenderRangedMage": "Otorga armadura antihabilidades a los aliados cercanos.",
           "Actor/InfoText/MercLanerRangedKnight": "Otorga armadura antihabilidades a los aliados cercanos.",
           "Param/Value/lib_MHmu_1A837C9C": "Agresores",
+          "Param/Value/lib_MHmu_ADACEBB9": "Secuaz",
           "Param/Value/lib_MHmu_C76BE77C": "Centinela",
           "Param/Value/lib_MapM_CD592AD9": "Gigantes de asedio",
           "Param/Value/lib_MapM_E13C6C4C": "Gólem de ultratumba",
           "Param/Value/lib_MapM_EC6BA293": "Caballeros",
+          "Param/Value/lib_OVER_10917A4A": "Centinela",
           "Param/Value/lib_OVER_221294BA": "Ingeniero y torreta",
           "Param/Value/lib_OVER_33B3B4E4": "Sicario colosal",
           "Param/Value/lib_OVER_87517146": "Secuaces",
           "Unit/Name/JungleGraveGolemDefender": "Sicario colosal",
           "Unit/Name/JungleGraveGolemLaner": "Jefe",
           "Unit/Name/KingsCore": "Núcleo",
+          "Unit/Name/MercDefenderHenchman1": "Secuaz",
+          "Unit/Name/MercDefenderHenchman2": "Secuaz",
+          "Unit/Name/MercDefenderHenchman3": "Secuaz",
           "Unit/Name/MercDefenderMeleeBruiser": "Secuaz",
+          "Unit/Name/MercDefenderMeleeIndividual": "Centinela",
           "Unit/Name/MercDefenderMeleeKnight": "Caballero",
           "Unit/Name/MercDefenderRangedMage": "Mago",
           "Unit/Name/MercDefenderSentinel": "Centinela",
@@ -88282,17 +89132,23 @@
           "Actor/InfoText/MercDefenderRangedMage": "Otorga Armadura especial a los aliados cercanos.",
           "Actor/InfoText/MercLanerRangedKnight": "Otorga Armadura especial a los aliados cercanos.",
           "Param/Value/lib_MHmu_1A837C9C": "Truhanes",
+          "Param/Value/lib_MHmu_ADACEBB9": "Secuaces",
           "Param/Value/lib_MHmu_C76BE77C": "Centinela",
           "Param/Value/lib_MapM_CD592AD9": "Gigantes de asedio",
           "Param/Value/lib_MapM_E13C6C4C": "Gólem sepulcral",
           "Param/Value/lib_MapM_EC6BA293": "Caballeros",
+          "Param/Value/lib_OVER_10917A4A": "Centinela",
           "Param/Value/lib_OVER_221294BA": "Ingeniero y torreta",
           "Param/Value/lib_OVER_33B3B4E4": "Megarecluta",
           "Param/Value/lib_OVER_87517146": "Secuaces",
           "Unit/Name/JungleGraveGolemDefender": "Megarecluta",
           "Unit/Name/JungleGraveGolemLaner": "Jefe",
           "Unit/Name/KingsCore": "Núcleo",
+          "Unit/Name/MercDefenderHenchman1": "Secuaz",
+          "Unit/Name/MercDefenderHenchman2": "Secuaz",
+          "Unit/Name/MercDefenderHenchman3": "Secuaz",
           "Unit/Name/MercDefenderMeleeBruiser": "Secuaces",
+          "Unit/Name/MercDefenderMeleeIndividual": "Centinela",
           "Unit/Name/MercDefenderMeleeKnight": "Caballero",
           "Unit/Name/MercDefenderRangedMage": "Mago",
           "Unit/Name/MercDefenderSentinel": "Centinela",
@@ -88430,17 +89286,23 @@
           "Actor/InfoText/MercDefenderRangedMage": "Confère de l’armure anti-sort aux alliés proches.",
           "Actor/InfoText/MercLanerRangedKnight": "Confère de l’armure anti-sort aux alliés proches.",
           "Param/Value/lib_MHmu_1A837C9C": "Cogneurs",
+          "Param/Value/lib_MHmu_ADACEBB9": "Hommes de main",
           "Param/Value/lib_MHmu_C76BE77C": "Sentinelle",
           "Param/Value/lib_MapM_CD592AD9": "Géants de siège",
           "Param/Value/lib_MapM_E13C6C4C": "Golem sépulcral",
           "Param/Value/lib_MapM_EC6BA293": "Chevaliers",
+          "Param/Value/lib_OVER_10917A4A": "Sentinelle",
           "Param/Value/lib_OVER_221294BA": "Ingénieur et tourelle",
           "Param/Value/lib_OVER_33B3B4E4": "Méca-exécuteur",
           "Param/Value/lib_OVER_87517146": "Hommes de main",
           "Unit/Name/JungleGraveGolemDefender": "Méca-exécuteur",
           "Unit/Name/JungleGraveGolemLaner": "Boss",
           "Unit/Name/KingsCore": "Idole",
+          "Unit/Name/MercDefenderHenchman1": "Homme de main",
+          "Unit/Name/MercDefenderHenchman2": "Homme de main",
+          "Unit/Name/MercDefenderHenchman3": "Homme de main",
           "Unit/Name/MercDefenderMeleeBruiser": "Hommes de main",
+          "Unit/Name/MercDefenderMeleeIndividual": "Sentinelle",
           "Unit/Name/MercDefenderMeleeKnight": "Chevalier",
           "Unit/Name/MercDefenderRangedMage": "Mage",
           "Unit/Name/MercDefenderSentinel": "Sentinelle",
@@ -88578,17 +89440,23 @@
           "Actor/InfoText/MercDefenderRangedMage": "Fornisce Resistenza magica agli alleati vicini.",
           "Actor/InfoText/MercLanerRangedKnight": "Fornisce Resistenza magica agli alleati vicini.",
           "Param/Value/lib_MHmu_1A837C9C": "Combattenti",
+          "Param/Value/lib_MHmu_ADACEBB9": "Sgherri",
           "Param/Value/lib_MHmu_C76BE77C": "Sentinella",
           "Param/Value/lib_MapM_CD592AD9": "Giganti da Assedio",
           "Param/Value/lib_MapM_E13C6C4C": "Golem delle Fosse",
           "Param/Value/lib_MapM_EC6BA293": "Cavalieri",
+          "Param/Value/lib_OVER_10917A4A": "Sentinella",
           "Param/Value/lib_OVER_221294BA": "Ingegnere e Torretta",
           "Param/Value/lib_OVER_33B3B4E4": "Megacustode",
           "Param/Value/lib_OVER_87517146": "Sgherri",
           "Unit/Name/JungleGraveGolemDefender": "Megacustode",
           "Unit/Name/JungleGraveGolemLaner": "Boss",
           "Unit/Name/KingsCore": "Nucleo",
+          "Unit/Name/MercDefenderHenchman1": "Sgherro",
+          "Unit/Name/MercDefenderHenchman2": "Sgherro",
+          "Unit/Name/MercDefenderHenchman3": "Sgherro",
           "Unit/Name/MercDefenderMeleeBruiser": "Sgherri",
+          "Unit/Name/MercDefenderMeleeIndividual": "Sentinella",
           "Unit/Name/MercDefenderMeleeKnight": "Cavaliere",
           "Unit/Name/MercDefenderRangedMage": "Mago",
           "Unit/Name/MercDefenderSentinel": "Sentinella",
@@ -88726,17 +89594,23 @@
           "Actor/InfoText/MercDefenderRangedMage": "주위 아군의 기술 방어력을 증가시킴",
           "Actor/InfoText/MercLanerRangedKnight": "주위 아군의 기술 방어력을 증가시킴",
           "Param/Value/lib_MHmu_1A837C9C": "투사",
+          "Param/Value/lib_MHmu_ADACEBB9": "불량배",
           "Param/Value/lib_MHmu_C76BE77C": "파수꾼",
           "Param/Value/lib_MapM_CD592AD9": "공성 거인",
           "Param/Value/lib_MapM_E13C6C4C": "무덤 골렘",
           "Param/Value/lib_MapM_EC6BA293": "기사",
+          "Param/Value/lib_OVER_10917A4A": "파수꾼",
           "Param/Value/lib_OVER_221294BA": "기술자와 포탑",
           "Param/Value/lib_OVER_33B3B4E4": "거대 집행자",
           "Param/Value/lib_OVER_87517146": "불량배",
           "Unit/Name/JungleGraveGolemDefender": "거대 집행자",
           "Unit/Name/JungleGraveGolemLaner": "우두머리",
           "Unit/Name/KingsCore": "핵",
+          "Unit/Name/MercDefenderHenchman1": "불량배",
+          "Unit/Name/MercDefenderHenchman2": "불량배",
+          "Unit/Name/MercDefenderHenchman3": "불량배",
           "Unit/Name/MercDefenderMeleeBruiser": "불량배",
+          "Unit/Name/MercDefenderMeleeIndividual": "파수꾼",
           "Unit/Name/MercDefenderMeleeKnight": "기사",
           "Unit/Name/MercDefenderRangedMage": "마법사",
           "Unit/Name/MercDefenderSentinel": "파수꾼",
@@ -88874,17 +89748,23 @@
           "Actor/InfoText/MercDefenderRangedMage": "Zapewnia pancerz magiczny pobliskim sojusznikom.",
           "Actor/InfoText/MercLanerRangedKnight": "Zapewnia pancerz magiczny pobliskim sojusznikom.",
           "Param/Value/lib_MHmu_1A837C9C": "Mocarni najemnicy",
+          "Param/Value/lib_MHmu_ADACEBB9": "Zakapiory",
           "Param/Value/lib_MHmu_C76BE77C": "Wartownik",
           "Param/Value/lib_MapM_CD592AD9": "Giganty Oblężnicze",
           "Param/Value/lib_MapM_E13C6C4C": "Cmentarny Golem",
           "Param/Value/lib_MapM_EC6BA293": "Rycerze",
+          "Param/Value/lib_OVER_10917A4A": "Wartownik",
           "Param/Value/lib_OVER_221294BA": "Inżynier i wieżyczka",
           "Param/Value/lib_OVER_33B3B4E4": "Mega-egzekutor",
           "Param/Value/lib_OVER_87517146": "Zakapiory",
           "Unit/Name/JungleGraveGolemDefender": "Mega-egzekutor",
           "Unit/Name/JungleGraveGolemLaner": "Boss",
           "Unit/Name/KingsCore": "Baza",
+          "Unit/Name/MercDefenderHenchman1": "Zakapior",
+          "Unit/Name/MercDefenderHenchman2": "Zakapior",
+          "Unit/Name/MercDefenderHenchman3": "Zakapior",
           "Unit/Name/MercDefenderMeleeBruiser": "Zakapiory",
+          "Unit/Name/MercDefenderMeleeIndividual": "Wartownik",
           "Unit/Name/MercDefenderMeleeKnight": "Rycerz",
           "Unit/Name/MercDefenderRangedMage": "Mag",
           "Unit/Name/MercDefenderSentinel": "Wartownik",
@@ -89022,17 +89902,23 @@
           "Actor/InfoText/MercDefenderRangedMage": "Concede Armadura Mágica aos aliados próximos.",
           "Actor/InfoText/MercLanerRangedKnight": "Concede Armadura Mágica aos aliados próximos.",
           "Param/Value/lib_MHmu_1A837C9C": "Bordoeiros",
+          "Param/Value/lib_MHmu_ADACEBB9": "Capanga",
           "Param/Value/lib_MHmu_C76BE77C": "Sentinela",
           "Param/Value/lib_MapM_CD592AD9": "Gigantes de Cerco",
           "Param/Value/lib_MapM_E13C6C4C": "Golem do Túmulo",
           "Param/Value/lib_MapM_EC6BA293": "Cavaleiros",
+          "Param/Value/lib_OVER_10917A4A": "Sentinela",
           "Param/Value/lib_OVER_221294BA": "Engenheiro e Torreta",
           "Param/Value/lib_OVER_33B3B4E4": "Impositor",
           "Param/Value/lib_OVER_87517146": "Capanga",
           "Unit/Name/JungleGraveGolemDefender": "Impositor",
           "Unit/Name/JungleGraveGolemLaner": "Chefe",
           "Unit/Name/KingsCore": "Núcleo",
+          "Unit/Name/MercDefenderHenchman1": "Capanga",
+          "Unit/Name/MercDefenderHenchman2": "Capanga",
+          "Unit/Name/MercDefenderHenchman3": "Capanga",
           "Unit/Name/MercDefenderMeleeBruiser": "Capanga",
+          "Unit/Name/MercDefenderMeleeIndividual": "Sentinela",
           "Unit/Name/MercDefenderMeleeKnight": "Cavaleiro",
           "Unit/Name/MercDefenderRangedMage": "Mago",
           "Unit/Name/MercDefenderSentinel": "Sentinela",
@@ -89170,17 +90056,23 @@
           "Actor/InfoText/MercDefenderRangedMage": "Дает находящимся рядом союзникам энергетическую броню.",
           "Actor/InfoText/MercLanerRangedKnight": "Дает находящимся рядом союзникам энергетическую броню.",
           "Param/Value/lib_MHmu_1A837C9C": "Бойцы",
+          "Param/Value/lib_MHmu_ADACEBB9": "Бандиты",
           "Param/Value/lib_MHmu_C76BE77C": "Часовой",
           "Param/Value/lib_MapM_CD592AD9": "Осадные великаны",
           "Param/Value/lib_MapM_E13C6C4C": "Кладбищенский голем",
           "Param/Value/lib_MapM_EC6BA293": "Рыцари",
+          "Param/Value/lib_OVER_10917A4A": "Часовой",
           "Param/Value/lib_OVER_221294BA": "Инженер и турель",
           "Param/Value/lib_OVER_33B3B4E4": "«Мегаликвидатор»",
           "Param/Value/lib_OVER_87517146": "Бандиты",
           "Unit/Name/JungleGraveGolemDefender": "«Мегаликвидатор»",
           "Unit/Name/JungleGraveGolemLaner": "Босс",
           "Unit/Name/KingsCore": "Цитадель",
+          "Unit/Name/MercDefenderHenchman1": "Бандит",
+          "Unit/Name/MercDefenderHenchman2": "Бандит",
+          "Unit/Name/MercDefenderHenchman3": "Бандит",
           "Unit/Name/MercDefenderMeleeBruiser": "Бандиты",
+          "Unit/Name/MercDefenderMeleeIndividual": "Часовой",
           "Unit/Name/MercDefenderMeleeKnight": "Рыцарь",
           "Unit/Name/MercDefenderRangedMage": "Маг",
           "Unit/Name/MercDefenderSentinel": "Часовой",
@@ -89318,17 +90210,23 @@
           "Actor/InfoText/MercDefenderRangedMage": "给予附近的盟友法术护甲。",
           "Actor/InfoText/MercLanerRangedKnight": "给予附近的盟友法术护甲。",
           "Param/Value/lib_MHmu_1A837C9C": "斗士",
+          "Param/Value/lib_MHmu_ADACEBB9": "恶党",
           "Param/Value/lib_MHmu_C76BE77C": "哨兵",
           "Param/Value/lib_MapM_CD592AD9": "攻城巨人",
           "Param/Value/lib_MapM_E13C6C4C": "恶灵魔像",
           "Param/Value/lib_MapM_EC6BA293": "骑士",
+          "Param/Value/lib_OVER_10917A4A": "哨兵",
           "Param/Value/lib_OVER_221294BA": "工程师和炮台",
           "Param/Value/lib_OVER_33B3B4E4": "超级执行者",
           "Param/Value/lib_OVER_87517146": "恶党",
           "Unit/Name/JungleGraveGolemDefender": "超级执行者",
           "Unit/Name/JungleGraveGolemLaner": "首领",
           "Unit/Name/KingsCore": "核心",
+          "Unit/Name/MercDefenderHenchman1": "同党",
+          "Unit/Name/MercDefenderHenchman2": "同党",
+          "Unit/Name/MercDefenderHenchman3": "同党",
           "Unit/Name/MercDefenderMeleeBruiser": "恶党",
+          "Unit/Name/MercDefenderMeleeIndividual": "哨兵",
           "Unit/Name/MercDefenderMeleeKnight": "骑士",
           "Unit/Name/MercDefenderRangedMage": "法师",
           "Unit/Name/MercDefenderSentinel": "哨兵",
@@ -89466,17 +90364,23 @@
           "Actor/InfoText/MercDefenderRangedMage": "賦予附近盟友法術護甲。",
           "Actor/InfoText/MercLanerRangedKnight": "賦予附近盟友法術護甲。",
           "Param/Value/lib_MHmu_1A837C9C": "鬥士",
+          "Param/Value/lib_MHmu_ADACEBB9": "幫派嘍囉",
           "Param/Value/lib_MHmu_C76BE77C": "哨衛",
           "Param/Value/lib_MapM_CD592AD9": "攻城巨人",
           "Param/Value/lib_MapM_E13C6C4C": "屍塚魔像",
           "Param/Value/lib_MapM_EC6BA293": "騎士",
+          "Param/Value/lib_OVER_10917A4A": "哨衛",
           "Param/Value/lib_OVER_221294BA": "工程師和砲塔",
           "Param/Value/lib_OVER_33B3B4E4": "巨神機甲兵",
           "Param/Value/lib_OVER_87517146": "幫派嘍囉",
           "Unit/Name/JungleGraveGolemDefender": "巨神機甲兵",
           "Unit/Name/JungleGraveGolemLaner": "頭目",
           "Unit/Name/KingsCore": "核心",
+          "Unit/Name/MercDefenderHenchman1": "幫派嘍囉",
+          "Unit/Name/MercDefenderHenchman2": "幫派嘍囉",
+          "Unit/Name/MercDefenderHenchman3": "幫派嘍囉",
           "Unit/Name/MercDefenderMeleeBruiser": "幫派嘍囉",
+          "Unit/Name/MercDefenderMeleeIndividual": "哨衛",
           "Unit/Name/MercDefenderMeleeKnight": "騎士",
           "Unit/Name/MercDefenderRangedMage": "法師",
           "Unit/Name/MercDefenderSentinel": "哨衛",

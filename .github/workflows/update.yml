@@ -3,14 +3,19 @@ name: Update
 # Rebuilds one channel's folder when its game server has a new version (or when a rebuild is
 # asked for), then releases and deploys it without a person in the loop.
 #
-#   plan     what's left to do, from where things stand (tools/plan.ts)
-#   extract  Heroes Data Parser, one job per locale in parallel; HDP itself and its download cache
-#            of game files kept in the Actions cache
-#   publish  one update at a time, across both channels (they share versions.yml and the release
-#            PR): a new extraction stored in sources/ (the build it replaces kept as a patch); the
-#            folder built from the stored extraction, and every past build into <channel>/history
-#            (tools/build-history.ts); committed to main; git-flow's release PR opened, merged and
-#            published; the release deployed to Pages
+#   plan        what's left to do, from where things stand (tools/plan.ts)
+#   extract     Heroes Data Parser, one job per locale in parallel; HDP itself and its download
+#               cache of game files kept in the Actions cache
+#   game-files  alongside them, what the game holds beyond HDP's output and doesn't need it for
+#               (tools/extract-game-files.ts: the maps' interface textures and units, the
+#               interface sheets' textures)
+#   publish     one update at a time, across both channels (they share versions.yml and the
+#               release PR): the pictures HDP's data names but leaves out added to the extraction
+#               (tools/extract-pictures.ts: hero units' portraits, retired icons); a new extraction
+#               stored in sources/ (the build it replaces kept as a patch); the folder built from
+#               the stored extraction, and every past build into <channel>/history
+#               (tools/build-history.ts); committed to main; git-flow's release PR opened, merged
+#               and published; the release deployed to Pages
 #
 # Every stage is skipped when it's done already, so after a failure "Re-run failed jobs" (or a
 # new run) carries on where the last one stopped. Both channels plan and extract at the same time;
@@ -102,7 +107,7 @@ jobs:
           path: hdp
           key: hdp-${{ needs.plan.outputs.hdp }}
 
-      # Game files HDP downloaded: the main locale's run also reads the pictures, so it keeps its own
+      # Game files HDP downloaded: the main locale's run also writes the pictures, so it keeps its own
       - name: Game files
         uses: actions/cache@v4
         with:
@@ -122,11 +127,58 @@ jobs:
           path: hdp-out/
           retention-days: 1
 
+  game-files:
+    needs: plan
+    if: needs.plan.outputs.extract == 'true'
+    runs-on: ubuntu-latest
+    env:
+      HEROESDATAPARSER_DATA_DIR: ${{ github.workspace }}/hdp-data
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /tools/
+            /package.json
+            /ui-sheets/
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+
+      - name: Heroes Data Parser
+        uses: actions/cache@v4
+        with:
+          path: hdp
+          key: hdp-${{ needs.plan.outputs.hdp }}
+
+      # the game files it reads: the maps' and their mods' text; the textures go to caches of their
+      # own (lib/hdp.ts)
+      - name: Game files
+        uses: actions/cache@v4
+        with:
+          path: hdp-data/casclib-cache
+          key: casc-files-${{ inputs.channel }}-${{ needs.plan.outputs.game }}
+          restore-keys: |
+            casc-files-${{ inputs.channel }}-
+
+      - name: Extract
+        run: node tools/extract-game-files.ts "$CHANNEL" hdp-out
+
+      # only until publish has it; the extraction is kept on the release
+      - uses: actions/upload-artifact@v4
+        with:
+          name: hdp-game-files
+          path: hdp-out/
+          retention-days: 1
+
   publish:
-    needs: [plan, extract]
+    needs: [plan, extract, game-files]
     if: >-
       always() && needs.plan.result == 'success' &&
       (needs.extract.result == 'success' || needs.extract.result == 'skipped') &&
+      (needs.game-files.result == 'success' || needs.game-files.result == 'skipped') &&
       (needs.plan.outputs.build == 'true' || needs.plan.outputs.release == 'true' ||
        needs.plan.outputs.deploy == 'true')
     runs-on: ubuntu-latest
@@ -164,6 +216,26 @@ jobs:
           pattern: hdp-*
           path: hdp-out
           merge-multiple: true
+
+      - name: Heroes Data Parser
+        if: needs.plan.outputs.extract == 'true'
+        uses: actions/cache@v4
+        with:
+          path: hdp
+          key: hdp-${{ needs.plan.outputs.hdp }}
+
+      - if: needs.plan.outputs.extract == 'true' && needs.plan.outputs.build != 'true'
+        uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+
+      # what HDP's data names but leaves out (hero units' portraits, retired icons): from the
+      # gathered data, out of the game
+      - name: The pictures HDP leaves out
+        if: needs.plan.outputs.extract == 'true'
+        env:
+          HEROESDATAPARSER_DATA_DIR: ${{ runner.temp }}/hdp-data
+        run: node tools/extract-pictures.ts "$CHANNEL" hdp-out
 
       - name: Store the extraction
         if: needs.plan.outputs.extract == 'true'

@@ -1,4 +1,5 @@
-// The update workflow's plan and extract jobs run their tools without installing packages
+// The update workflow's plan, extract and game-files jobs run their tools without installing
+// packages, and so does its publish job's step for the pictures HDP leaves out
 // (.github/workflows/update.yml): everything those tools load must be Node built-ins or this
 // repository's own files.
 import assert from 'node:assert/strict';
@@ -27,7 +28,7 @@ async function packagesLoaded(entry: string): Promise<string[]> {
   return [...packages].sort();
 }
 
-for (const tool of ['plan.ts', 'extract.ts']) {
+for (const tool of ['plan.ts', 'extract.ts', 'extract-game-files.ts', 'extract-pictures.ts']) {
   test(`tools/${tool} loads no packages`, async () => {
     assert.deepEqual(await packagesLoaded(join(import.meta.dirname, tool)), []);
   });
