@@ -1,6 +1,6 @@
 {
   "meta": {
-    "heroesVersion": "2.57.0.98217_ptr",
+    "heroesVersion": "2.57.1.98644_ptr",
     "hdpVersion": "5.1.0",
     "itemsType": "Data",
     "dataType": "HeroData",
@@ -2733,20 +2733,6 @@
             {
               "linkId": "AnaEyeOfHorusAttackDummy|AnaEyeOfHorusHighPoweredRound|Heroic",
               "abilityId": "AnaEyeOfHorusAttackDummy",
-              "buttonId": "AnaEyeOfHorusHighPoweredRound",
-              "icon": "storm_ui_icon_ana_overwatch.png",
-              "charges": {
-                "countMax": 6,
-                "countStart": 6,
-                "countUse": 1,
-                "recastCooldown": 1,
-                "isCountHidden": false
-              },
-              "abilityType": "Heroic"
-            },
-            {
-              "linkId": "AnaEyeOfHorusAttack|AnaEyeOfHorusHighPoweredRound|Heroic",
-              "abilityId": "AnaEyeOfHorusAttack",
               "buttonId": "AnaEyeOfHorusHighPoweredRound",
               "icon": "storm_ui_icon_ana_overwatch.png",
               "charges": {
@@ -8651,6 +8637,17 @@
             }
           ]
         },
+        "ChoTalentMoltenBlock|ChoTalentMoltenBlock|Active": {
+          "Activable": [
+            {
+              "linkId": "ChoTalentMoltenBlock|ChoTalentMoltenBlockCancel|Active",
+              "abilityId": "ChoTalentMoltenBlock",
+              "buttonId": "ChoTalentMoltenBlockCancel",
+              "icon": "hud_btn_bg_ability_cancel.png",
+              "abilityType": "Active"
+            }
+          ]
+        },
         "ChoTalentMoltenBlock|ChoTalentMoltenBlock|Active|Level13": {
           "Activable": [
             {
@@ -8659,13 +8656,6 @@
               "buttonId": "ChoTalentMoltenBlock",
               "icon": "storm_ui_icon_cho_moltenblock.png",
               "toggleCooldown": 0.5,
-              "abilityType": "Active"
-            },
-            {
-              "linkId": "ChoTalentMoltenBlock|ChoTalentMoltenBlockCancel|Active",
-              "abilityId": "ChoTalentMoltenBlock",
-              "buttonId": "ChoTalentMoltenBlockCancel",
-              "icon": "hud_btn_bg_ability_cancel.png",
               "abilityType": "Active"
             }
           ]
@@ -10266,11 +10256,11 @@
             "abilityType": "W"
           },
           {
-            "linkId": "DeathwingLavaBurst|DeathwingLavaBurst|W",
-            "abilityId": "DeathwingLavaBurst",
-            "buttonId": "DeathwingLavaBurst",
-            "icon": "storm_ui_icon_deathwing_lava_burst.png",
-            "abilityType": "W"
+            "linkId": "DeathwingOnslaught|DeathwingOnslaught|E",
+            "abilityId": "DeathwingOnslaught",
+            "buttonId": "DeathwingOnslaught",
+            "icon": "storm_ui_icon_deathwing_onslaught.png",
+            "abilityType": "E"
           }
         ],
         "Heroic": [
@@ -10326,11 +10316,11 @@
         "DeathwingWorldbreakerForm|DeathwingWorldbreaker|W": {
           "Basic": [
             {
-              "linkId": "DeathwingOnslaught|DeathwingOnslaught|E",
-              "abilityId": "DeathwingOnslaught",
-              "buttonId": "DeathwingOnslaught",
-              "icon": "storm_ui_icon_deathwing_onslaught.png",
-              "abilityType": "E"
+              "linkId": "DeathwingLavaBurst|DeathwingLavaBurst|W",
+              "abilityId": "DeathwingLavaBurst",
+              "buttonId": "DeathwingLavaBurst",
+              "icon": "storm_ui_icon_deathwing_lava_burst.png",
+              "abilityType": "W"
             },
             {
               "linkId": "DeathwingEarthShatter|DeathwingEarthShatter|E",
@@ -21600,9 +21590,16 @@
         ],
         "Activable": [
           {
-            "linkId": "ImprovedIceBlock|JainaImprovedIceBlockHotbar|Active",
-            "abilityId": "ImprovedIceBlock",
+            "linkId": "JainaIceBlockActivate|JainaImprovedIceBlockHotbar|Active",
+            "abilityId": "JainaIceBlockActivate",
             "buttonId": "JainaImprovedIceBlockHotbar",
+            "icon": "storm_ui_icon_talent_iceblock.png",
+            "abilityType": "Active"
+          },
+          {
+            "linkId": "JainaIceBlockActivate|JainaIceColdHotbar|Active",
+            "abilityId": "JainaIceBlockActivate",
+            "buttonId": "JainaIceColdHotbar",
             "icon": "storm_ui_icon_talent_iceblock.png",
             "abilityType": "Active"
           }
@@ -21641,13 +21638,26 @@
             }
           ]
         },
-        "ImprovedIceBlock|JainaImprovedIceBlockHotbar|Active": {
+        "JainaIceBlockActivate|JainaIceColdHotbar|Active": {
           "Activable": [
             {
-              "linkId": "ImprovedIceBlock|JainaImprovedIceBlockCancel|Active",
-              "abilityId": "ImprovedIceBlock",
+              "linkId": "JainaIceBlockCancel|JainaIceColdCancel|Active",
+              "abilityId": "JainaIceBlockCancel",
+              "buttonId": "JainaIceColdCancel",
+              "icon": "hud_btn_bg_ability_cancel.png",
+              "toggleCooldown": 0.5,
+              "abilityType": "Active"
+            }
+          ]
+        },
+        "JainaIceBlockActivate|JainaImprovedIceBlockHotbar|Active": {
+          "Activable": [
+            {
+              "linkId": "JainaIceBlockCancel|JainaImprovedIceBlockCancel|Active",
+              "abilityId": "JainaIceBlockCancel",
               "buttonId": "JainaImprovedIceBlockCancel",
               "icon": "hud_btn_bg_ability_cancel.png",
+              "toggleCooldown": 0.5,
               "abilityType": "Active"
             }
           ]
@@ -39118,22 +39128,6 @@
             "abilityType": "Z"
           }
         ],
-        "Activable": [
-          {
-            "linkId": ":PASSIVE:|SamuroSelectSamuroPrime|Active",
-            "abilityId": ":PASSIVE:",
-            "buttonId": "SamuroSelectSamuroPrime",
-            "icon": "storm_temp_war3_btnheroblademaster.png",
-            "abilityType": "Active"
-          },
-          {
-            "linkId": ":PASSIVE:|SamuroSelectAll|Active",
-            "abilityId": ":PASSIVE:",
-            "buttonId": "SamuroSelectAll",
-            "icon": "storm_ui_ingame_heroselect_btn_lostvikings.png",
-            "abilityType": "Active"
-          }
-        ],
         "Hearth": [
           {
             "linkId": "Hearthstone|HearthstoneNoMana|B",
@@ -39165,6 +39159,50 @@
               "icon": "storm_ui_icon_generic_cancel_mount.png",
               "toggleCooldown": 0.1,
               "abilityType": "Z"
+            }
+          ]
+        },
+        "SamuroIllusionMasterToggleAI|SamuroIllusionMasterToggleAIOff|Active": {
+          "Activable": [
+            {
+              "linkId": "SamuroIllusionMasterToggleAI|SamuroIllusionMasterToggleAIOn|Active",
+              "abilityId": "SamuroIllusionMasterToggleAI",
+              "buttonId": "SamuroIllusionMasterToggleAIOn",
+              "icon": "storm_ui_icon_samuro_mirrorai_on.png",
+              "toggleCooldown": 0.5,
+              "abilityType": "Active"
+            }
+          ]
+        },
+        "SamuroHeroicAbilityIllusionMaster|SamuroIllusionMasterTalent|Heroic|Level10": {
+          "Activable": [
+            {
+              "linkId": "SamuroIllusionMasterToggleAI|SamuroIllusionMasterToggleAIOff|Active",
+              "abilityId": "SamuroIllusionMasterToggleAI",
+              "buttonId": "SamuroIllusionMasterToggleAIOff",
+              "icon": "storm_ui_icon_samuro_mirrorai_off.png",
+              "abilityType": "Active"
+            },
+            {
+              "linkId": ":PASSIVE:|SamuroSelectMirrorImages|Active",
+              "abilityId": ":PASSIVE:",
+              "buttonId": "SamuroSelectMirrorImages",
+              "icon": "storm_ui_icon_samuro_selectmirror1.png",
+              "abilityType": "Active"
+            },
+            {
+              "linkId": ":PASSIVE:|SamuroSelectSamuroPrime|Active",
+              "abilityId": ":PASSIVE:",
+              "buttonId": "SamuroSelectSamuroPrime",
+              "icon": "storm_ui_icon_samuro_selectprime.png",
+              "abilityType": "Active"
+            },
+            {
+              "linkId": ":PASSIVE:|SamuroSelectAll|Active",
+              "abilityId": ":PASSIVE:",
+              "buttonId": "SamuroSelectAll",
+              "icon": "storm_ui_icon_samuro_selectall.png",
+              "abilityType": "Active"
             }
           ]
         }
@@ -41276,9 +41314,9 @@
         ],
         "Trait": [
           {
-            "linkId": "SylvanasBlackArrowsActive|SylvanasBlackArrows|Trait",
-            "abilityId": "SylvanasBlackArrowsActive",
-            "buttonId": "SylvanasBlackArrows",
+            "linkId": ":PASSIVE:|SylvanasBlackArrowsPassive|Trait",
+            "abilityId": ":PASSIVE:",
+            "buttonId": "SylvanasBlackArrowsPassive",
             "icon": "storm_ui_icon_sylvanas_blackarrows.png",
             "abilityType": "Trait"
           }
@@ -41367,17 +41405,6 @@
             }
           ]
         },
-        "SylvanasBlackArrowsActive|SylvanasBlackArrows|Trait": {
-          "Trait": [
-            {
-              "linkId": ":PASSIVE:|SylvanasBlackArrowsPassive|Trait",
-              "abilityId": ":PASSIVE:",
-              "buttonId": "SylvanasBlackArrowsPassive",
-              "icon": "storm_ui_icon_sylvanas_blackarrows.png",
-              "abilityType": "Trait"
-            }
-          ]
-        },
         "Mount|SummonMount|Z": {
           "Mount": [
             {
@@ -41387,6 +41414,17 @@
               "icon": "storm_ui_icon_generic_cancel_mount.png",
               "toggleCooldown": 0.1,
               "abilityType": "Z"
+            }
+          ]
+        },
+        "SylvanasHauntingArrows|SylvanasBlackArrowsHauntingArrowsTalent|Trait|Level4": {
+          "Trait": [
+            {
+              "linkId": "SylvanasBlackArrowsActive|SylvanasBlackArrows|Trait",
+              "abilityId": "SylvanasBlackArrowsActive",
+              "buttonId": "SylvanasBlackArrows",
+              "icon": "storm_ui_icon_sylvanas_blackarrows.png",
+              "abilityType": "Trait"
             }
           ]
         },
@@ -42974,9 +43012,9 @@
         "targetInfo": "storm_ui_ingame_partyframe_tinker.png"
       },
       "life": {
-        "amount": 2275,
+        "amount": 2375,
         "scale": 0.04,
-        "regenRate": 4.74,
+        "regenRate": 4.94,
         "regenScale": 0.04
       },
       "energy": {
@@ -43001,7 +43039,7 @@
           "range": 1.25,
           "minimumRange": 0,
           "period": 0.8,
-          "damage": 100,
+          "damage": 105,
           "damageScale": 0.04
         }
       ],
@@ -49334,9 +49372,9 @@
         "targetInfo": "storm_ui_ingame_partyframe_xalatath.png"
       },
       "life": {
-        "amount": 1270,
+        "amount": 1330,
         "scale": 0.04,
-        "regenRate": 2.6484,
+        "regenRate": 2.7708,
         "regenScale": 0.04
       },
       "energy": {
@@ -49420,8 +49458,8 @@
         ],
         "Heroic": [
           {
-            "linkId": "XalatathVoidEruption|XalatathVoidEruption|Heroic",
-            "abilityId": "XalatathVoidEruption",
+            "linkId": "XalatathVoidEruptionV2|XalatathVoidEruption|Heroic",
+            "abilityId": "XalatathVoidEruptionV2",
             "buttonId": "XalatathVoidEruption",
             "icon": "storm_ui_icon_xalatath_r1_voideruption.png",
             "abilityType": "Heroic"
@@ -49470,7 +49508,20 @@
               "abilityId": "XalatathVoidStepCancel",
               "buttonId": "XalatathVoidStepCancel",
               "icon": "hud_btn_bg_ability_cancel.png",
+              "toggleCooldown": 0.25,
               "abilityType": "E"
+            }
+          ]
+        },
+        "XalatathVoidEruptionV2|XalatathVoidEruption|Heroic": {
+          "Heroic": [
+            {
+              "linkId": "XalatathVoidEruptionV2Cancel|XalatathVoidEruptionCancel|Heroic",
+              "abilityId": "XalatathVoidEruptionV2Cancel",
+              "buttonId": "XalatathVoidEruptionCancel",
+              "icon": "hud_btn_bg_ability_cancel.png",
+              "toggleCooldown": 0.5,
+              "abilityType": "Heroic"
             }
           ]
         },
@@ -49635,7 +49686,7 @@
             "linkId": "XalatathHeroicAbilityVoidEruption|XalatathVoidEruption|Heroic|Level10",
             "talentId": "XalatathHeroicAbilityVoidEruption",
             "buttonId": "XalatathVoidEruption",
-            "abilityId": "XalatathVoidEruption",
+            "abilityId": "XalatathVoidEruptionV2",
             "icon": "storm_ui_icon_xalatath_r1_voideruption.png",
             "abilityType": "Heroic",
             "isQuest": false,
@@ -49755,7 +49806,7 @@
             "linkId": "XalatathOrbitalEruption|XalatathOrbitalEruption|Heroic|Level20",
             "talentId": "XalatathOrbitalEruption",
             "buttonId": "XalatathOrbitalEruption",
-            "abilityId": "XalatathVoidEruption",
+            "abilityId": "XalatathVoidEruptionV2",
             "icon": "storm_ui_icon_xalatath_r1_voideruption_b.png",
             "abilityType": "Heroic",
             "isQuest": false,
@@ -49763,7 +49814,7 @@
             "hasHotkey": true,
             "sort": 1,
             "tooltipAbilityLinkIds": [
-              "XalatathVoidEruption|XalatathVoidEruption|Heroic"
+              "XalatathVoidEruptionV2|XalatathVoidEruption|Heroic"
             ],
             "prerequisiteTalentIds": [
               "XalatathHeroicAbilityVoidEruption"

@@ -45,10 +45,17 @@
       "fullText": "After Channeling for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> second, gain <s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s> Movement Speed.",
       "name": "Summon Mount"
     },
-    "ImprovedIceBlock|JainaImprovedIceBlockHotbar|Active": {
+    "JainaIceBlockActivate|JainaImprovedIceBlockHotbar|Active": {
+      "cooldownText": "Cooldown: 40 seconds",
       "fullText": "Activate to place Jaina in Stasis and gain Invulnerability for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c> seconds. When this effect expires, nearby enemies are Chilled.",
       "name": "Improved Ice Block",
       "shortText": "Gain Invulnerability and Chill enemies"
+    },
+    "JainaIceBlockActivate|JainaIceColdHotbar|Active": {
+      "cooldownText": "Cooldown: 40 seconds",
+      "fullText": "Activate to grant Jaina Protected and Unstoppable for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c> seconds. When this effect expires, nearby enemies are Chilled.",
+      "name": "Ice Cold",
+      "shortText": "Gain Protected and Chill enemies"
     },
     "Hearthstone|Hearthstone|B": {
       "fullText": "After Channeling for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> seconds, teleport back to the Hall of Storms, instantly restoring <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c> Health and <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c> Mana.",
@@ -62,7 +69,11 @@
       "fullText": "Dismounts you.",
       "name": "Unsummon Mount"
     },
-    "ImprovedIceBlock|JainaImprovedIceBlockCancel|Active": {
+    "JainaIceBlockCancel|JainaIceColdCancel|Active": {
+      "fullText": "<n/><s val=\"8783e6\" hlt-name=\"StandardTooltip\">Cancel Improved Ice Cold, removing Protected and Chilling nearby enemies.</s>",
+      "name": "Cancel Ice Cold"
+    },
+    "JainaIceBlockCancel|JainaImprovedIceBlockCancel|Active": {
       "fullText": "<n/><s val=\"8783e6\" hlt-name=\"StandardTooltip\">Cancel Improved Ice Block, removing the Stasis and Invulnerability and Chilling nearby enemies.</s>",
       "name": "Cancel Improved Ice Block"
     },

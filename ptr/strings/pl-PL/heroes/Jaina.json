@@ -45,10 +45,17 @@
       "fullText": "Po podtrzymywaniu przez <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> sek. zyskujesz premię <s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s> do szybkości ruchu.",
       "name": "Przyzwanie Wierzchowca"
     },
-    "ImprovedIceBlock|JainaImprovedIceBlockHotbar|Active": {
+    "JainaIceBlockActivate|JainaImprovedIceBlockHotbar|Active": {
+      "cooldownText": "Czas odnowienia: 40 sek.",
       "fullText": "Aktywuj, aby Jaina weszła w stan Stazy i zyskała Niewrażliwość na <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c> sek. Kiedy efekt ten przestaje działać, pobliscy wrogowie zostają wyziębieni.",
       "name": "Ulepszony Lodowy Blok",
       "shortText": "Zyskuje Niewrażliwość i wyziębia wrogów"
+    },
+    "JainaIceBlockActivate|JainaIceColdHotbar|Active": {
+      "cooldownText": "Czas odnowienia: 40 sek.",
+      "fullText": "Aktywuj, aby zapewnić Jainie Ochronę i Nieustępliwość na <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c> sek. Kiedy efekt ten przestaje działać, pobliscy wrogowie zostają wyziębieni.",
+      "name": "Przenikliwy Chłód",
+      "shortText": "Zyskuje ochronę i wyziębia wrogów"
     },
     "Hearthstone|Hearthstone|B": {
       "fullText": "Po podtrzymywaniu przez <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> sek. teleportuje bohatera z powrotem do Dworu Burz i przywraca mu natychmiast <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c> pkt. zdrowia oraz <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c> pkt. many.",
@@ -62,7 +69,11 @@
       "fullText": "Opuszczasz wierzchowca.",
       "name": "Odesłanie Wierzchowca"
     },
-    "ImprovedIceBlock|JainaImprovedIceBlockCancel|Active": {
+    "JainaIceBlockCancel|JainaIceColdCancel|Active": {
+      "fullText": "<n/><s val=\"8783e6\" hlt-name=\"StandardTooltip\">Anuluj Ulepszony Przenikliwy Chłód, usuwając efekt ochrony i wyziębienia z pobliskich wrogów.</s>",
+      "name": "Anuluj Przenikliwy Chłód"
+    },
+    "JainaIceBlockCancel|JainaImprovedIceBlockCancel|Active": {
       "fullText": "<n/><s val=\"8783e6\" hlt-name=\"StandardTooltip\">Anuluje Ulepszony Lodowy Blok, usuwając stan Stazy oraz Niewrażliwość, a także wyziębiając pobliskich przeciwników.</s>",
       "name": "Anuluj Ulepszony Lodowy Blok"
     },

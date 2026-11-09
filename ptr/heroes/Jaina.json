@@ -142,9 +142,16 @@
     ],
     "Activable": [
       {
-        "linkId": "ImprovedIceBlock|JainaImprovedIceBlockHotbar|Active",
-        "abilityId": "ImprovedIceBlock",
+        "linkId": "JainaIceBlockActivate|JainaImprovedIceBlockHotbar|Active",
+        "abilityId": "JainaIceBlockActivate",
         "buttonId": "JainaImprovedIceBlockHotbar",
+        "icon": "storm_ui_icon_talent_iceblock.png",
+        "abilityType": "Active"
+      },
+      {
+        "linkId": "JainaIceBlockActivate|JainaIceColdHotbar|Active",
+        "abilityId": "JainaIceBlockActivate",
+        "buttonId": "JainaIceColdHotbar",
         "icon": "storm_ui_icon_talent_iceblock.png",
         "abilityType": "Active"
       }
@@ -183,13 +190,26 @@
         }
       ]
     },
-    "ImprovedIceBlock|JainaImprovedIceBlockHotbar|Active": {
+    "JainaIceBlockActivate|JainaIceColdHotbar|Active": {
       "Activable": [
         {
-          "linkId": "ImprovedIceBlock|JainaImprovedIceBlockCancel|Active",
-          "abilityId": "ImprovedIceBlock",
+          "linkId": "JainaIceBlockCancel|JainaIceColdCancel|Active",
+          "abilityId": "JainaIceBlockCancel",
+          "buttonId": "JainaIceColdCancel",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "JainaIceBlockActivate|JainaImprovedIceBlockHotbar|Active": {
+      "Activable": [
+        {
+          "linkId": "JainaIceBlockCancel|JainaImprovedIceBlockCancel|Active",
+          "abilityId": "JainaIceBlockCancel",
           "buttonId": "JainaImprovedIceBlockCancel",
           "icon": "hud_btn_bg_ability_cancel.png",
+          "toggleCooldown": 0.5,
           "abilityType": "Active"
         }
       ]

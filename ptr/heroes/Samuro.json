@@ -137,22 +137,6 @@
         "abilityType": "Z"
       }
     ],
-    "Activable": [
-      {
-        "linkId": ":PASSIVE:|SamuroSelectSamuroPrime|Active",
-        "abilityId": ":PASSIVE:",
-        "buttonId": "SamuroSelectSamuroPrime",
-        "icon": "storm_temp_war3_btnheroblademaster.png",
-        "abilityType": "Active"
-      },
-      {
-        "linkId": ":PASSIVE:|SamuroSelectAll|Active",
-        "abilityId": ":PASSIVE:",
-        "buttonId": "SamuroSelectAll",
-        "icon": "storm_ui_ingame_heroselect_btn_lostvikings.png",
-        "abilityType": "Active"
-      }
-    ],
     "Hearth": [
       {
         "linkId": "Hearthstone|HearthstoneNoMana|B",
@@ -184,6 +168,50 @@
           "icon": "storm_ui_icon_generic_cancel_mount.png",
           "toggleCooldown": 0.1,
           "abilityType": "Z"
+        }
+      ]
+    },
+    "SamuroIllusionMasterToggleAI|SamuroIllusionMasterToggleAIOff|Active": {
+      "Activable": [
+        {
+          "linkId": "SamuroIllusionMasterToggleAI|SamuroIllusionMasterToggleAIOn|Active",
+          "abilityId": "SamuroIllusionMasterToggleAI",
+          "buttonId": "SamuroIllusionMasterToggleAIOn",
+          "icon": "storm_ui_icon_samuro_mirrorai_on.png",
+          "toggleCooldown": 0.5,
+          "abilityType": "Active"
+        }
+      ]
+    },
+    "SamuroHeroicAbilityIllusionMaster|SamuroIllusionMasterTalent|Heroic|Level10": {
+      "Activable": [
+        {
+          "linkId": "SamuroIllusionMasterToggleAI|SamuroIllusionMasterToggleAIOff|Active",
+          "abilityId": "SamuroIllusionMasterToggleAI",
+          "buttonId": "SamuroIllusionMasterToggleAIOff",
+          "icon": "storm_ui_icon_samuro_mirrorai_off.png",
+          "abilityType": "Active"
+        },
+        {
+          "linkId": ":PASSIVE:|SamuroSelectMirrorImages|Active",
+          "abilityId": ":PASSIVE:",
+          "buttonId": "SamuroSelectMirrorImages",
+          "icon": "storm_ui_icon_samuro_selectmirror1.png",
+          "abilityType": "Active"
+        },
+        {
+          "linkId": ":PASSIVE:|SamuroSelectSamuroPrime|Active",
+          "abilityId": ":PASSIVE:",
+          "buttonId": "SamuroSelectSamuroPrime",
+          "icon": "storm_ui_icon_samuro_selectprime.png",
+          "abilityType": "Active"
+        },
+        {
+          "linkId": ":PASSIVE:|SamuroSelectAll|Active",
+          "abilityId": ":PASSIVE:",
+          "buttonId": "SamuroSelectAll",
+          "icon": "storm_ui_icon_samuro_selectall.png",
+          "abilityType": "Active"
         }
       ]
     }
@@ -524,8 +552,8 @@
       "sheet": "sheets/Samuro/abilities.webp",
       "icons": {
         "storm_ui_icon_samuro_mirrorimage.png": [
-          130,
-          130,
+          0,
+          260,
           128,
           128
         ],
@@ -536,8 +564,8 @@
           128
         ],
         "storm_ui_icon_samuro_windwalk.png": [
-          260,
           130,
+          390,
           128,
           128
         ],
@@ -560,40 +588,58 @@
           128
         ],
         "storm_ui_icon_generic_mount.png": [
-          144,
-          390,
+          191,
+          520,
           76,
           48
         ],
-        "storm_temp_war3_btnheroblademaster.png": [
-          0,
-          390,
-          64,
-          64
-        ],
-        "storm_ui_ingame_heroselect_btn_lostvikings.png": [
-          0,
-          260,
-          128,
-          128
-        ],
         "storm_ui_icon_miscrune_1.png": [
-          229,
-          260,
+          0,
+          520,
           111,
           71
         ],
         "hud_btn_bg_ability_cancel.png": [
-          130,
           260,
+          390,
           97,
           111
         ],
         "storm_ui_icon_generic_cancel_mount.png": [
-          66,
-          390,
+          113,
+          520,
           76,
           48
+        ],
+        "storm_ui_icon_samuro_mirrorai_on.png": [
+          260,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_samuro_mirrorai_off.png": [
+          130,
+          130,
+          128,
+          128
+        ],
+        "storm_ui_icon_samuro_selectmirror1.png": [
+          260,
+          260,
+          128,
+          128
+        ],
+        "storm_ui_icon_samuro_selectprime.png": [
+          0,
+          390,
+          128,
+          128
+        ],
+        "storm_ui_icon_samuro_selectall.png": [
+          130,
+          260,
+          128,
+          128
         ]
       }
     },
@@ -660,20 +706,20 @@
       "sheet": "sheets/Samuro/hero.webp",
       "icons": {
         "storm_ui_icon_samuro_mirrorimage.png": [
-          0,
+          130,
           344,
           128,
           128
         ],
         "storm_ui_icon_samuro_criticalstrike.png": [
-          130,
+          0,
           214,
           128,
           128
         ],
         "storm_ui_icon_samuro_windwalk.png": [
           260,
-          344,
+          474,
           128,
           128
         ],
@@ -684,52 +730,70 @@
           128
         ],
         "storm_ui_icon_samuro_illusiondancer.png": [
-          390,
-          214,
-          128,
-          128
-        ],
-        "storm_ui_icon_samuro_flowingstrikes.png": [
           260,
           214,
           128,
           128
         ],
-        "storm_ui_icon_generic_mount.png": [
-          258,
-          587,
-          76,
-          48
-        ],
-        "storm_temp_war3_btnheroblademaster.png": [
-          306,
-          474,
-          64,
-          64
-        ],
-        "storm_ui_ingame_heroselect_btn_lostvikings.png": [
-          390,
-          344,
+        "storm_ui_icon_samuro_flowingstrikes.png": [
+          130,
+          214,
           128,
           128
         ],
+        "storm_ui_icon_generic_mount.png": [
+          78,
+          699,
+          76,
+          48
+        ],
         "storm_ui_icon_miscrune_1.png": [
-          193,
-          474,
+          94,
+          604,
           111,
           71
         ],
         "hud_btn_bg_ability_cancel.png": [
-          0,
+          390,
           474,
           97,
           111
         ],
         "storm_ui_icon_generic_cancel_mount.png": [
-          180,
-          587,
+          0,
+          699,
           76,
           48
+        ],
+        "storm_ui_icon_samuro_mirrorai_on.png": [
+          0,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_samuro_mirrorai_off.png": [
+          390,
+          214,
+          128,
+          128
+        ],
+        "storm_ui_icon_samuro_selectmirror1.png": [
+          390,
+          344,
+          128,
+          128
+        ],
+        "storm_ui_icon_samuro_selectprime.png": [
+          0,
+          474,
+          128,
+          128
+        ],
+        "storm_ui_icon_samuro_selectall.png": [
+          260,
+          344,
+          128,
+          128
         ],
         "storm_ui_icon_samuro_criticalstrike_a.png": [
           312,
@@ -738,14 +802,14 @@
           128
         ],
         "storm_ui_icon_samuro_criticalstrike_b.png": [
+          442,
           0,
-          214,
           128,
           128
         ],
         "storm_ui_icon_samuro_windwalk_a.png": [
           130,
-          344,
+          474,
           128,
           128
         ]
@@ -758,34 +822,34 @@
           212
         ],
         "minimap": [
-          336,
-          587,
+          156,
+          699,
           32,
           32
         ],
         "partyPanel": [
-          0,
-          587,
+          337,
+          604,
           178,
           56
         ],
         "target": [
-          99,
-          474,
+          0,
+          604,
           92,
           93
         ],
         "targetInfo": [
-          372,
-          474,
+          207,
+          604,
           128,
           56
         ]
       },
       "partyFrames": [
         [
-          372,
-          474,
+          207,
+          604,
           128,
           56
         ]
