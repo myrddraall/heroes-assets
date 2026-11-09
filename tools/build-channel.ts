@@ -10,6 +10,7 @@
 // gamestrings/ and images/, map-ui/ (each map's interface textures, lib/map-ui.ts), and
 // ui-sheets/ (the textures the interface sheets take, lib/ui-sheets.ts) and retired-icons/ (the icons
 // the data no longer names, lib/retired-icons.ts).
+import jsonPatch, { type Operation } from 'fast-json-patch';
 import { createHash } from 'node:crypto';
 import { mkdir, readdir, readFile, rm, writeFile } from 'node:fs/promises';
 import { basename, dirname, join } from 'node:path';
@@ -17,6 +18,7 @@ import { writeAnimatedWebp } from './lib/animated.ts';
 import { asChannel, LOCALES, ROOT } from './lib/channels.ts';
 import { decodeDds, type Decoded } from './lib/dds.ts';
 import { HERO_UNIT_TEXTURES } from './lib/hero-units.ts';
+import type { MapUnits, ScalingTicks } from './lib/map-units.ts';
 import { RETIRED_ICON_TEXTURES } from './lib/retired-icons.ts';
 import {
   pictureSize,
@@ -475,6 +477,63 @@ try {
     'the extraction has no map interface textures (map-ui/maps.json), so map sheets hold only the objective icons',
   );
 }
+// each map's camps and the units a unit card shows (lib/map-units.ts)
+let mapUnitData: { ticks: ScalingTicks; maps: Record<string, MapUnits> } | null = null;
+try {
+  mapUnitData = await readJson(join(hdp, 'map-units', 'maps.json'));
+} catch {
+  warn(
+    'the extraction has no map units (map-units/maps.json), so maps have no camps nor unit cards',
+  );
+}
+/** The base unit data (HDP's file, its meta and items), which each map's patch changes. */
+const baseUnitData = await dataFile<Json>('unitdata');
+
+/** HDP's unit data for a map: the base data with the map's patch (data/maps/<id>/unitdata_*). */
+async function unitsOfMap(mapId: string): Promise<Record<string, Json>> {
+  const folder = join(hdp, 'data', 'maps', mapId);
+  const names = await readdir(folder).catch(() => [] as string[]);
+  const name = names.find((n) => /^unitdata_\d+\.patch\.json$/.test(n));
+  if (!name) return baseUnitData.items;
+  const patch = await readJson<Operation[]>(join(folder, name));
+  const doc = jsonPatch.applyPatch(structuredClone(baseUnitData), patch, false, false)
+    .newDocument as { items: Record<string, Json> };
+  return doc.items;
+}
+
+/**
+ * A map's unit cards (maps/units/<id>.json): its camp types, each unit's stats (HDP's, the map's
+ * own where it changes them) with its portraits (one per team where there are two, icon keys of the
+ * map's sheet), each scaling behaviour's levels, and how the game counts scaling ticks.
+ */
+async function writeUnitCards(
+  mapId: string,
+  own: MapUnits,
+  icons: Record<string, unknown>,
+): Promise<string | null> {
+  const stats = await unitsOfMap(mapId);
+  const units: Record<string, Json> = {};
+  for (const [id, info] of Object.entries(own.units)) {
+    const data = stats[id];
+    // a unit the game has no data for, nor a name, is no card's
+    if (!data && !info.name) continue;
+    const { portraits: _hdpPortraits, ...rest } = (data ?? {}) as Record<string, unknown>;
+    units[id] = {
+      ...(rest as Json),
+      portraits: info.portraits.filter((p) => p in icons),
+    };
+  }
+  if (!Object.keys(units).length) return null;
+  const file = `units/${mapId}.json`;
+  await writeJson(join(out, 'maps', file), {
+    scalingTicks: mapUnitData!.ticks,
+    camps: own.camps.map(({ label: _label, ...camp }) => camp),
+    units,
+    scaling: own.scaling,
+  });
+  return file;
+}
+
 const textures = new Map<string, Decoded | null>();
 async function texture(name: string): Promise<Decoded | null> {
   if (!textures.has(name)) {
@@ -541,6 +600,7 @@ await Promise.all(
     }
     const file = `sheets/${map.normalizedId}.webp`;
     const icons = await sheet(entries, pictures, join(out, 'maps', file), `${key}'s map sheet`);
+    const own = mapUnitData?.maps[key];
     mapIndex[map.normalizedId] = {
       id: map.normalizedId,
       key,
@@ -549,6 +609,8 @@ await Promise.all(
       sheet: Object.keys(icons).length ? file : null,
       icons,
       images,
+      // its camps and unit cards; null when the extraction has none for it
+      units: own ? await writeUnitCards(map.normalizedId, own, icons) : null,
     };
   }),
 );
@@ -820,6 +882,27 @@ for (const [name, source] of uiSheets) {
 
 // ── Strings, per locale ─────────────────────────────────────────────────────────────────────
 
+/**
+ * A map's camp labels and unit names and descriptions in a locale (HDP's locale name, the game's
+ * folder's: `enus`), by camp type and unit; none when the extraction has no map units.
+ */
+function unitStrings(key: string, locale: string): Json {
+  const own = mapUnitData?.maps[key];
+  if (!own) return {};
+  const texts = own.strings[locale] ?? {};
+  const text = (id: string | null): string | null => (id ? (texts[id] ?? null) : null);
+  return {
+    camps: Object.fromEntries(
+      own.camps.flatMap((c) => (text(c.label) ? [[c.id, text(c.label)]] : [])),
+    ),
+    units: Object.fromEntries(
+      Object.entries(own.units).flatMap(([id, u]) =>
+        text(u.name) ? [[id, { name: text(u.name), description: text(u.description) }]] : [],
+      ),
+    ),
+  };
+}
+
 for (const [locale, { main, maps: mapStrings }] of strings) {
   const folder = join(out, 'strings', LOCALES[locale]!);
   await writeJson(join(folder, 'heroes.json'), stringsOf(main, 'hero', Object.keys(heroes)));
@@ -838,7 +921,10 @@ for (const [locale, { main, maps: mapStrings }] of strings) {
   await writeJson(
     join(folder, 'maps.json'),
     Object.fromEntries(
-      Object.entries(byKey).map(([key, texts]) => [maps[key]!.normalizedId, texts]),
+      Object.entries(byKey).map(([key, texts]) => [
+        maps[key]!.normalizedId,
+        { ...(texts as object), ...unitStrings(key, locale) },
+      ]),
     ),
   );
 }
