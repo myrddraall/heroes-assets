@@ -48,7 +48,7 @@ camps and the Cursed Hollow tribute, are in no map's mods; their icons are in `m
 
 **Hero units' portraits** (the Lost Vikings' minimap icons and target portraits, Misha's, Chen's
 spirits') are named in HDP's hero data but not written by it, so the extraction takes them out
-of the game as textures too (`tools/lib/hero-units.ts`). Past builds stored before that have
+of the game as textures too, once HDP's data is in (`tools/lib/hero-units.ts`). Past builds stored before that have
 none; for those, they're not in `pictures.json`.
 
 **Retired icons** are ability and talent icons the game still ships that the current data no
@@ -123,8 +123,10 @@ An update runs in three jobs, each step skipped when its work is done already:
    game version, the version the folder holds, whether that's released, whether it's deployed.
 2. **extract** runs HDP once per locale, in parallel. The English run also writes the data files and
    pictures; the others keep only their strings. HDP and its download of game files are kept in
-   the Actions cache.
-3. **publish** stores a new extraction in `sources/` (the build it replaces kept as a patch),
+   the Actions cache. Alongside them, **game-files** takes out of the game what needs nothing of
+   HDP's output: the maps' interface textures and units, the interface sheets' textures.
+3. **publish** adds the pictures HDP's data names but doesn't write (hero units' portraits,
+   retired icons), stores the new extraction in `sources/` (the build it replaces kept as a patch),
    builds the folder and every past build from `sources/` and commits them to `main` (a rebuild of
    a game build already stored with the current extraction settings doesn't extract at all), opens
    git-flow's release PR, merges it, publishes the release and deploys it to Pages.
@@ -155,6 +157,8 @@ needed.
 | ------------------------------------------------------ | ----------------------------------------------------- |
 | `pnpm run plan <live\|ptr> [--rebuild]`                | What an update of a channel still has to do           |
 | `pnpm run extract <live\|ptr> <locale> <game> <out>`   | Runs HDP for one locale (`tools/lib/extraction.ts`)   |
+| `pnpm run extract.game-files <live\|ptr> <out>`        | Maps' interface textures and units, sheet textures    |
+| `pnpm run extract.pictures <live\|ptr> <extraction>`   | Adds hero units' portraits and retired icons          |
 | `pnpm run build.channel <live\|ptr> <hdp out> [out]`   | Builds a channel's folder from HDP's output           |
 | `pnpm run store.extraction <live\|ptr> <game> <dir>`   | Stores an extraction as the channel's newest build    |
 | `pnpm run restore.extraction <live\|ptr> <game> <dir>` | Writes a stored build's extraction (`latest` or game) |

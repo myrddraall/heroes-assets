@@ -59,7 +59,10 @@ async function* walk(folder: string): AsyncGenerator<string> {
 const modName = (path: string): string | undefined =>
   /([^/\\:]+)\.stormmod$/i.exec(path.trim())?.[1]?.toLowerCase();
 
-/** Each map's own mods, by its English title, from the .s2mv files of an extraction. */
+/**
+ * Each map's own mods, by its English title, from the .s2mv files of an extraction: those with a
+ * MapInfo, the game's maps (the mods' own .s2mv have none); the maps HDP lists in its map data.
+ */
 export async function readMaps(root: string): Promise<Map<string, string[]>> {
   const maps = new Map<string, string[]>();
   for await (const path of walk(root)) {
@@ -69,7 +72,7 @@ export async function readMaps(root: string): Promise<Map<string, string[]>> {
     const info = JSON.parse(text);
     const title = info?.UsedStrings?.['DocInfo/Name']?.enUS;
     const dependencies = info?.DocInfo?.Dependencies;
-    if (typeof title !== 'string' || !Array.isArray(dependencies)) continue;
+    if (typeof title !== 'string' || !Array.isArray(dependencies) || !info.MapInfo) continue;
     const mods = dependencies
       .map((d: { LocalFile?: string }) => modName(d.LocalFile ?? ''))
       .filter((name: string | undefined): name is string => !!name);
