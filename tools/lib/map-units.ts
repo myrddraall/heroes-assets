@@ -31,7 +31,7 @@ export const MAP_UNIT_PATTERNS = [
 ];
 
 /** Bumped when what map units extracts changes. */
-export const MAP_UNITS_VERSION = 1;
+export const MAP_UNITS_VERSION = 2;
 
 /** The mod every map loads first. */
 const BASE_MOD = 'heroesdata';
@@ -528,8 +528,26 @@ export function readCampTypes(scripts: readonly string[], own = 0): CampType[] {
   // archive) still defines one of its camp types: run once under a number of its own, named for
   // the helper
   let unnamed = 1000;
+  /** A camp type's number's name, for its category, where its own name is a function's. */
+  const kinds = new Map<number, string>();
+  /** The camp types a function without parameters sets. */
+  const numbersSet = (fn: GalaxyFunction): number[] => {
+    const set = new Map<number, CampFields>();
+    runCampStatements(fn.body, new Map(), consts, set);
+    return [...set.keys()];
+  };
+  // the map's own functions without parameters that set the same camp type are alternatives its
+  // script (in its archive) picks between (Hanamura's Henchmen recon camp and its Knights, both
+  // BruiserCamp3): run after the rest, each a camp type of its own
+  const setters = new Map<number, string[]>();
   for (const [name, fn] of declared) {
-    if (!setsCamps(fn.body)) continue;
+    if (fn.params.length || fn.script < own || !setsCamps(fn.body)) continue;
+    for (const n of numbersSet(fn)) setters.set(n, [...(setters.get(n) ?? []), name]);
+  }
+  const shared = new Set([...setters].filter(([, names]) => names.length > 1).map(([n]) => n));
+  const alternatives = new Set([...shared].flatMap((n) => setters.get(n)!));
+  for (const [name, fn] of declared) {
+    if (!setsCamps(fn.body) || alternatives.has(name)) continue;
     // a helper taking the camp type: run for each call, with its arguments
     if (fn.params.length && /lp_campType|lp_defenderType|lp_mercType/.test(fn.params.join())) {
       const found = [...calls(scripts, name)];
@@ -545,6 +563,27 @@ export function readCampTypes(scripts: readonly string[], own = 0): CampType[] {
       }
     } else runCampStatements(fn.body, new Map(), consts, camps);
   }
+  // each alternative over what the rest set for its camp type, under a number of its own, named
+  // for its function (`VisionMercCampBruiserCamp3`)
+  for (const name of alternatives) {
+    const fn = declared.get(name)!;
+    const own = new Map<number, CampFields>();
+    for (const n of numbersSet(fn)) {
+      const before = camps.get(n);
+      if (before) own.set(n, structuredClone(before));
+    }
+    runCampStatements(fn.body, new Map(), consts, own);
+    for (const [n, fields] of own) {
+      if (!shared.has(n)) {
+        camps.set(n, fields);
+        continue;
+      }
+      const key = unnamed++;
+      names.set(key, name.replace(/^\w+?_gf_(Init(ialize)?)?/, ''));
+      kinds.set(key, names.get(n) ?? '');
+      camps.set(key, fields);
+    }
+  }
   const number = (v: GalaxyValue | undefined): number | null => (typeof v === 'number' ? v : null);
   return [...camps].flatMap(([key, c]): CampType[] => {
     const id = names.get(key);
@@ -554,7 +593,7 @@ export function readCampTypes(scripts: readonly string[], own = 0): CampType[] {
     return [
       {
         id,
-        category: category(id),
+        category: category(kinds.get(key) ?? id),
         label: label && typeof label === 'object' ? label.string : null,
         defenders: counted(c.defender, 'lv_creepUnitTypes'),
         mercs: counted(c.merc, 'lv_spawnedMinionUnitTypes'),

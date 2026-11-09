@@ -132,6 +132,41 @@ test("the map's own uncalled helper is a camp type of its own; the base data's i
   assert.ok(!ids.includes('HellbatMercType'));
 });
 
+test("the map's own setters of one camp type are alternatives, each a camp type of its own", () => {
+  const ENUM = `
+const int libMapM_ge_JungleCampDefenderTypes_BruiserCamp3 = 9;
+const int libMapM_ge_JungleCampMercTypes_BruiserCamp3 = 9;
+`;
+  const HANAMURA = `
+void libMHmu_gf_InitVisionMercCampBruiserCamp3 () {
+    int lv_campType;
+    lv_campType = (libMapM_ge_JungleCampMercTypes_BruiserCamp3);
+    libMapM_gv_dataJungleCampDefenderData[lv_campType].lv_creepUnitTypes[1] = "MercDefenderHenchman1";
+    libMapM_gv_dataJungleCampDefenderData[lv_campType].lv_creepUnitTypes[2] = "MercDefenderHenchman2";
+}
+
+void libMHmu_gf_InitKnightsMercCampBruiserCamp3 () {
+    int lv_campType;
+    lv_campType = (libMapM_ge_JungleCampMercTypes_BruiserCamp3);
+    libMapM_gv_dataJungleCampDefenderData[lv_campType].lv_creepUnitTypes[1] = "MercDefenderRangedMage";
+    libMapM_gv_dataJungleCampDefenderData[lv_campType].lv_creepUnitTypes[2] = "MercDefenderMeleeKnight";
+}
+`;
+  const camps = readCampTypes([ENUMS + ENUM, BASE, HANAMURA], 2);
+  const vision = camps.find((c) => c.id === 'VisionMercCampBruiserCamp3');
+  const knights = camps.find((c) => c.id === 'KnightsMercCampBruiserCamp3');
+  assert.equal(vision?.category, 'bruiser');
+  assert.deepEqual(
+    vision?.defenders.map((d) => d.unit),
+    ['MercDefenderHenchman1', 'MercDefenderHenchman2'],
+  );
+  assert.deepEqual(
+    knights?.defenders.map((d) => d.unit),
+    ['MercDefenderRangedMage', 'MercDefenderMeleeKnight'],
+  );
+  assert.ok(!camps.some((c) => c.id === 'BruiserCamp3'));
+});
+
 test("an actor's portraits are its GroupIcon's images, one per team, its parent's when it has none", () => {
   const actors = readActors([
     `<Catalog>
