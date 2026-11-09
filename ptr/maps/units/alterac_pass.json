@@ -1,0 +1,6338 @@
+{
+  "scalingTicks": {
+    "tickSeconds": 60,
+    "maxTicks": 60
+  },
+  "camps": [
+    {
+      "id": "Doubloons",
+      "category": "doubloons",
+      "defenders": [
+        {
+          "unit": "SkeletalPirate",
+          "count": 2
+        }
+      ],
+      "mercs": [],
+      "respawnSeconds": 150,
+      "firstSpawnSeconds": 30,
+      "elite": false,
+      "soloable": true,
+      "captureXp": null,
+      "defenderScaling": "DoubloonDefenderScaling",
+      "mercScaling": null,
+      "levels": [
+        5,
+        5,
+        6,
+        7,
+        7,
+        8,
+        8,
+        9,
+        9,
+        10,
+        10,
+        10,
+        11,
+        11,
+        11,
+        12,
+        12,
+        12,
+        13,
+        13,
+        13,
+        14,
+        14,
+        14,
+        15,
+        15,
+        15,
+        16,
+        16,
+        16,
+        17,
+        17
+      ]
+    },
+    {
+      "id": "SiegeGiants",
+      "category": "siege",
+      "defenders": [
+        {
+          "unit": "MercDefenderSiegeGiant",
+          "count": 2
+        }
+      ],
+      "mercs": [
+        {
+          "unit": "MercLanerSiegeGiant",
+          "count": 2
+        }
+      ],
+      "respawnSeconds": 180,
+      "firstSpawnSeconds": 30,
+      "elite": false,
+      "soloable": true,
+      "captureXp": 0,
+      "defenderScaling": "SiegeGiantDefenderScaling",
+      "mercScaling": "SiegeGiantMercScaling",
+      "levels": [
+        6,
+        6,
+        7,
+        8,
+        8,
+        9,
+        9,
+        10,
+        10,
+        11,
+        11,
+        11,
+        12,
+        12,
+        12,
+        13,
+        13,
+        13,
+        14,
+        14,
+        14,
+        15,
+        15,
+        15,
+        16,
+        16,
+        16,
+        17,
+        17,
+        17,
+        18
+      ]
+    },
+    {
+      "id": "Knights",
+      "category": "bruiser",
+      "defenders": [
+        {
+          "unit": "MercDefenderMeleeKnight",
+          "count": 3
+        },
+        {
+          "unit": "MercDefenderRangedMage",
+          "count": 1
+        }
+      ],
+      "mercs": [
+        {
+          "unit": "MercLanerMeleeKnight",
+          "count": 3
+        },
+        {
+          "unit": "MercLanerRangedMage",
+          "count": 1
+        }
+      ],
+      "respawnSeconds": 240,
+      "firstSpawnSeconds": 30,
+      "elite": false,
+      "soloable": true,
+      "captureXp": 0,
+      "defenderScaling": "OgreDefenderScaling",
+      "mercScaling": "OgreMercScaling",
+      "levels": [
+        11,
+        11,
+        12,
+        13,
+        13,
+        14,
+        14,
+        15,
+        15,
+        16,
+        16,
+        16,
+        17,
+        17,
+        17,
+        18,
+        18,
+        18,
+        19,
+        19,
+        19,
+        20,
+        20,
+        20,
+        21,
+        21,
+        21,
+        22,
+        22,
+        22,
+        23
+      ]
+    },
+    {
+      "id": "GraveGolem",
+      "category": "boss",
+      "defenders": [
+        {
+          "unit": "JungleGraveGolemDefender",
+          "count": 1
+        }
+      ],
+      "mercs": [
+        {
+          "unit": "JungleGraveGolemLaner",
+          "count": 1
+        }
+      ],
+      "respawnSeconds": 300,
+      "firstSpawnSeconds": 300,
+      "elite": true,
+      "soloable": true,
+      "captureXp": 0,
+      "defenderScaling": "GraveGolemDefenderScaling",
+      "mercScaling": "GraveGolemLanerScaling",
+      "levels": [
+        14,
+        14,
+        15,
+        16,
+        16,
+        17,
+        17,
+        18,
+        18,
+        19,
+        19,
+        19,
+        20,
+        20,
+        20,
+        21,
+        21,
+        21,
+        22,
+        22,
+        22,
+        23,
+        23,
+        23,
+        24,
+        24,
+        24,
+        25,
+        25,
+        25,
+        26
+      ]
+    },
+    {
+      "id": "HellbatMercType",
+      "category": "other",
+      "defenders": [
+        {
+          "unit": "TerranHellbatDefender",
+          "count": 3
+        }
+      ],
+      "mercs": [
+        {
+          "unit": "TerranHellbat",
+          "count": 3
+        }
+      ],
+      "respawnSeconds": null,
+      "firstSpawnSeconds": null,
+      "elite": false,
+      "soloable": true,
+      "captureXp": 0,
+      "defenderScaling": "TerranHellbatDefenderScaling",
+      "mercScaling": "TerranHellbatScaling",
+      "levels": []
+    }
+  ],
+  "units": {
+    "DrekThar": {
+      "damageType": "Structure",
+      "radius": 1.5,
+      "innerRadius": 0,
+      "sight": 11,
+      "speed": 4,
+      "attributes": [
+        "AITargetableStructure",
+        "Structure"
+      ],
+      "scalingLinkIds": [
+        "CoreScaling"
+      ],
+      "life": {
+        "amount": 20000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "weapons": [
+        {
+          "nameId": "AlteracBossWeaponParent",
+          "isDisabled": false,
+          "range": 2,
+          "minimumRange": 0,
+          "period": 1,
+          "damage": 330,
+          "damageScale": 0,
+          "damageFactors": {
+            "MapCreature": 1,
+            "Merc": 1,
+            "Minion": 1,
+            "Structure": 1,
+            "Summoned": 1
+          }
+        }
+      ],
+      "abilities": {
+        "Basic": [
+          {
+            "linkId": "AlteracBossWhirlwind|AlteracBossWhirlwind|Q",
+            "abilityId": "AlteracBossWhirlwind",
+            "buttonId": "AlteracBossWhirlwind",
+            "icon": "storm_ui_icon_sonya_whirlwind.png",
+            "abilityType": "Q"
+          },
+          {
+            "linkId": "AlteracBossCharge|AlteracBossCharge|W",
+            "abilityId": "AlteracBossCharge",
+            "buttonId": "AlteracBossCharge",
+            "icon": "storm_ui_icon_varian_charge.png",
+            "abilityType": "W"
+          },
+          {
+            "linkId": "TowerMarkAttackTarget|TowerMarkAttackTarget|E",
+            "abilityId": "TowerMarkAttackTarget",
+            "buttonId": "TowerMarkAttackTarget",
+            "icon": "storm_temp_war3_btnrallypoint.png",
+            "abilityType": "E"
+          }
+        ],
+        "Hearth": [
+          {
+            "linkId": "move|MovePatrol|B",
+            "abilityId": "move",
+            "buttonId": "MovePatrol",
+            "icon": "btn-command-patrol.png",
+            "abilityType": "B"
+          }
+        ],
+        "Hidden": [
+          {
+            "linkId": "stop|:NONE:|Hidden",
+            "abilityId": "stop",
+            "buttonId": ":NONE:",
+            "abilityType": "Hidden"
+          },
+          {
+            "linkId": "attack|Attack|Hidden",
+            "abilityId": "attack",
+            "buttonId": "Attack",
+            "icon": "storm_ui_icon_talent_autoattack_base.png",
+            "abilityType": "Hidden"
+          },
+          {
+            "linkId": "AlteracBossChargeApproach|AlteracBossCharge|Hidden",
+            "abilityId": "AlteracBossChargeApproach",
+            "buttonId": "AlteracBossCharge",
+            "icon": "storm_ui_icon_varian_charge.png",
+            "abilityType": "Hidden"
+          }
+        ]
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_boss_general_horde"
+      ]
+    },
+    "JungleGraveGolemDefender": {
+      "damageType": "Merc",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 3.75,
+      "killXP": 750,
+      "attributes": [
+        "Creep",
+        "MapBoss"
+      ],
+      "scalingLinkIds": [
+        "GraveGolemDefenderScaling"
+      ],
+      "life": {
+        "amount": 16000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "weapons": [
+        {
+          "nameId": "JungleOgreKingDefender",
+          "isDisabled": false,
+          "range": 2,
+          "minimumRange": 0,
+          "period": 1.3,
+          "damage": 312,
+          "damageScale": 0,
+          "damageFactors": {
+            "Summoned": 1
+          }
+        }
+      ],
+      "abilities": {
+        "Basic": [
+          {
+            "linkId": "UnderworldBossRoots|GraveGolemBindingRoots|Q",
+            "abilityId": "UnderworldBossRoots",
+            "buttonId": "GraveGolemBindingRoots",
+            "icon": "storm_ui_hud_snowbrawl_snowballa.png",
+            "abilityType": "Q"
+          },
+          {
+            "linkId": "UnderworldBossStun|GraveGolemMegaStun|W",
+            "abilityId": "UnderworldBossStun",
+            "buttonId": "GraveGolemMegaStun",
+            "icon": "storm_ui_icon_slam.png",
+            "abilityType": "W"
+          }
+        ],
+        "Mount": [
+          {
+            "linkId": "WallCrush|GraveGolemWallCrush|Z",
+            "abilityId": "WallCrush",
+            "buttonId": "GraveGolemWallCrush",
+            "icon": "storm_btn_d3_wizard_waveofforce.png",
+            "toggleCooldown": 0.5,
+            "abilityType": "Z"
+          }
+        ],
+        "Hearth": [
+          {
+            "linkId": "move|MovePatrol|B",
+            "abilityId": "move",
+            "buttonId": "MovePatrol",
+            "icon": "btn-command-patrol.png",
+            "abilityType": "B"
+          }
+        ],
+        "Hidden": [
+          {
+            "linkId": "stop|:NONE:|Hidden",
+            "abilityId": "stop",
+            "buttonId": ":NONE:",
+            "abilityType": "Hidden"
+          },
+          {
+            "linkId": "StormVehicleAttack|Attack|Hidden",
+            "abilityId": "StormVehicleAttack",
+            "buttonId": "Attack",
+            "icon": "storm_ui_icon_talent_autoattack_base.png",
+            "abilityType": "Hidden"
+          }
+        ]
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_boss_giant"
+      ]
+    },
+    "JungleGraveGolemLaner": {
+      "damageType": "Merc",
+      "radius": 1.25,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 3.75,
+      "attributes": [
+        "ImmuneToFriendlyAbilities",
+        "MapBoss",
+        "Merc"
+      ],
+      "scalingLinkIds": [
+        "GraveGolemLanerScaling"
+      ],
+      "life": {
+        "amount": 19000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "weapons": [
+        {
+          "nameId": "JungleOgreKingLaner",
+          "isDisabled": false,
+          "range": 2,
+          "minimumRange": 0,
+          "period": 1.3,
+          "damage": 520,
+          "damageScale": 0
+        }
+      ],
+      "abilities": {
+        "Basic": [
+          {
+            "linkId": "UnderworldBossRoots|GraveGolemBindingRoots|Q",
+            "abilityId": "UnderworldBossRoots",
+            "buttonId": "GraveGolemBindingRoots",
+            "icon": "storm_ui_hud_snowbrawl_snowballa.png",
+            "abilityType": "Q"
+          },
+          {
+            "linkId": "UnderworldBossStun|GraveGolemMegaStun|W",
+            "abilityId": "UnderworldBossStun",
+            "buttonId": "GraveGolemMegaStun",
+            "icon": "storm_ui_icon_slam.png",
+            "abilityType": "W"
+          }
+        ],
+        "Trait": [
+          {
+            "linkId": "GraveGolemMULEKill|GraveGolemMULEKill|Trait",
+            "abilityId": "GraveGolemMULEKill",
+            "buttonId": "GraveGolemMULEKill",
+            "icon": "storm_temp_btn-unit-terran-mule.png",
+            "abilityType": "Trait"
+          }
+        ],
+        "Mount": [
+          {
+            "linkId": "WallCrush|GraveGolemWallCrush|Z",
+            "abilityId": "WallCrush",
+            "buttonId": "GraveGolemWallCrush",
+            "icon": "storm_btn_d3_wizard_waveofforce.png",
+            "toggleCooldown": 0.5,
+            "abilityType": "Z"
+          }
+        ],
+        "Hearth": [
+          {
+            "linkId": "move|MovePatrol|B",
+            "abilityId": "move",
+            "buttonId": "MovePatrol",
+            "icon": "btn-command-patrol.png",
+            "abilityType": "B"
+          }
+        ],
+        "Hidden": [
+          {
+            "linkId": "stop|:NONE:|Hidden",
+            "abilityId": "stop",
+            "buttonId": ":NONE:",
+            "abilityType": "Hidden"
+          },
+          {
+            "linkId": "StormVehicleAttack|Attack|Hidden",
+            "abilityId": "StormVehicleAttack",
+            "buttonId": "Attack",
+            "icon": "storm_ui_icon_talent_autoattack_base.png",
+            "abilityType": "Hidden"
+          },
+          {
+            "linkId": "AbathurAssumingDirectControlCancel|AbathurSymbioteCancel|Hidden",
+            "abilityId": "AbathurAssumingDirectControlCancel",
+            "buttonId": "AbathurSymbioteCancel",
+            "icon": "hud_btn_bg_ability_cancel.png",
+            "abilityType": "Hidden"
+          }
+        ]
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_boss_giant"
+      ]
+    },
+    "KingsCore": {
+      "damageType": "Structure",
+      "radius": 4,
+      "innerRadius": 0,
+      "sight": 11,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "Structure"
+      ],
+      "scalingLinkIds": [
+        "CoreScaling"
+      ],
+      "life": {
+        "amount": 14000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "shield": {
+        "amount": 7000,
+        "scale": 0,
+        "regenRate": 100,
+        "regenScale": 0,
+        "regenDelay": 8
+      },
+      "weapons": [
+        {
+          "nameId": "KingsCore",
+          "isDisabled": false,
+          "range": 8,
+          "minimumRange": 0,
+          "period": 1,
+          "damage": 330,
+          "damageScale": 0,
+          "damageFactors": {
+            "MapCreature": 1,
+            "Merc": 1,
+            "Minion": 1,
+            "Structure": 1,
+            "Summoned": 1
+          }
+        }
+      ],
+      "abilities": {
+        "Basic": [
+          {
+            "linkId": "TowerMarkAttackTarget|TowerMarkAttackTarget|E",
+            "abilityId": "TowerMarkAttackTarget",
+            "buttonId": "TowerMarkAttackTarget",
+            "icon": "storm_temp_war3_btnrallypoint.png",
+            "abilityType": "E"
+          }
+        ],
+        "Hidden": [
+          {
+            "linkId": "stop|:NONE:|Hidden",
+            "abilityId": "stop",
+            "buttonId": ":NONE:",
+            "abilityType": "Hidden"
+          },
+          {
+            "linkId": "attack|Attack|Hidden",
+            "abilityId": "attack",
+            "buttonId": "Attack",
+            "icon": "storm_ui_icon_talent_autoattack_base.png",
+            "abilityType": "Hidden"
+          }
+        ]
+      },
+      "portraits": []
+    },
+    "MercDefenderMeleeKnight": {
+      "damageType": "Merc",
+      "radius": 1,
+      "innerRadius": 0.5,
+      "sight": 8,
+      "speed": 4,
+      "killXP": 100,
+      "attributes": [
+        "Creep"
+      ],
+      "scalingLinkIds": [
+        "OgreDefenderScaling"
+      ],
+      "life": {
+        "amount": 3000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "weapons": [
+        {
+          "nameId": "MercDefenderMeleeKnight",
+          "isDisabled": false,
+          "range": 1.25,
+          "minimumRange": 0,
+          "period": 1.25,
+          "damage": 45,
+          "damageScale": 0,
+          "damageFactors": {
+            "Summoned": 1
+          }
+        }
+      ],
+      "abilities": {
+        "Hearth": [
+          {
+            "linkId": "move|MovePatrol|B",
+            "abilityId": "move",
+            "buttonId": "MovePatrol",
+            "icon": "btn-command-patrol.png",
+            "abilityType": "B"
+          }
+        ],
+        "Hidden": [
+          {
+            "linkId": "stop|:NONE:|Hidden",
+            "abilityId": "stop",
+            "buttonId": ":NONE:",
+            "abilityType": "Hidden"
+          }
+        ]
+      },
+      "portraits": []
+    },
+    "MercDefenderRangedMage": {
+      "damageType": "Merc",
+      "radius": 0.5,
+      "innerRadius": 0.5,
+      "sight": 8,
+      "speed": 4,
+      "killXP": 150,
+      "attributes": [
+        "Creep"
+      ],
+      "scalingLinkIds": [
+        "KnightMageScaling2"
+      ],
+      "life": {
+        "amount": 1500,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "weapons": [
+        {
+          "nameId": "MercDefenderRangedMage",
+          "isDisabled": false,
+          "range": 5,
+          "minimumRange": 0,
+          "period": 1.25,
+          "damage": 50,
+          "damageScale": 0,
+          "damageFactors": {
+            "Summoned": 1
+          }
+        }
+      ],
+      "abilities": {
+        "Basic": [
+          {
+            "linkId": "KnightMagicVolley|KnightMagicVolley|W",
+            "abilityId": "KnightMagicVolley",
+            "buttonId": "KnightMagicVolley",
+            "icon": "storm_btn_d3_barbarian_frenzy.png",
+            "abilityType": "W"
+          }
+        ],
+        "Hearth": [
+          {
+            "linkId": "move|MovePatrol|B",
+            "abilityId": "move",
+            "buttonId": "MovePatrol",
+            "icon": "btn-command-patrol.png",
+            "abilityType": "B"
+          }
+        ],
+        "Hidden": [
+          {
+            "linkId": "stop|:NONE:|Hidden",
+            "abilityId": "stop",
+            "buttonId": ":NONE:",
+            "abilityType": "Hidden"
+          }
+        ]
+      },
+      "portraits": []
+    },
+    "MercDefenderSiegeGiant": {
+      "damageType": "Merc",
+      "radius": 1.25,
+      "innerRadius": 0.875,
+      "sight": 8,
+      "speed": 3.25,
+      "killXP": 140,
+      "attributes": [
+        "Creep"
+      ],
+      "scalingLinkIds": [
+        "SiegeGiantDefenderScaling"
+      ],
+      "life": {
+        "amount": 3000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "weapons": [
+        {
+          "nameId": "MercDefenderSiegeGiantWeaponMelee",
+          "isDisabled": false,
+          "range": 1,
+          "minimumRange": 0,
+          "period": 2,
+          "damage": 120,
+          "damageScale": 0
+        },
+        {
+          "nameId": "MercDefenderSiegeGiantWeapon",
+          "isDisabled": false,
+          "range": 7,
+          "minimumRange": 0,
+          "period": 2,
+          "damage": 120,
+          "damageScale": 0
+        }
+      ],
+      "abilities": {
+        "Hearth": [
+          {
+            "linkId": "move|MovePatrol|B",
+            "abilityId": "move",
+            "buttonId": "MovePatrol",
+            "icon": "btn-command-patrol.png",
+            "abilityType": "B"
+          }
+        ],
+        "Hidden": [
+          {
+            "linkId": "stop|:NONE:|Hidden",
+            "abilityId": "stop",
+            "buttonId": ":NONE:",
+            "abilityType": "Hidden"
+          }
+        ]
+      },
+      "portraits": []
+    },
+    "MercLanerMeleeKnight": {
+      "damageType": "Merc",
+      "radius": 1,
+      "innerRadius": 1,
+      "sight": 8,
+      "speed": 3.25,
+      "attributes": [
+        "Merc"
+      ],
+      "scalingLinkIds": [
+        "OgreMercScaling"
+      ],
+      "life": {
+        "amount": 3300,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "weapons": [
+        {
+          "nameId": "MercLanerMeleeKnight",
+          "isDisabled": false,
+          "range": 1.25,
+          "minimumRange": 0,
+          "period": 1.25,
+          "damage": 60,
+          "damageScale": 0
+        }
+      ],
+      "abilities": {
+        "Basic": [
+          {
+            "linkId": "MercLanerOgreBruiserTaunt|MercLanerOgreBruiserTaunt|Q",
+            "abilityId": "MercLanerOgreBruiserTaunt",
+            "buttonId": "MercLanerOgreBruiserTaunt",
+            "icon": "storm_temp_war3_btntaunt.png",
+            "abilityType": "Q"
+          }
+        ],
+        "Hearth": [
+          {
+            "linkId": "move|MovePatrol|B",
+            "abilityId": "move",
+            "buttonId": "MovePatrol",
+            "icon": "btn-command-patrol.png",
+            "abilityType": "B"
+          }
+        ],
+        "Hidden": [
+          {
+            "linkId": "stop|:NONE:|Hidden",
+            "abilityId": "stop",
+            "buttonId": ":NONE:",
+            "abilityType": "Hidden"
+          }
+        ]
+      },
+      "portraits": []
+    },
+    "MercLanerRangedMage": {
+      "damageType": "Merc",
+      "radius": 0.75,
+      "innerRadius": 0.75,
+      "sight": 8,
+      "speed": 3.25,
+      "attributes": [
+        "Merc"
+      ],
+      "scalingLinkIds": [
+        "KnightMageScaling"
+      ],
+      "life": {
+        "amount": 1500,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "weapons": [
+        {
+          "nameId": "MercLanerRangedMage",
+          "isDisabled": false,
+          "range": 5,
+          "minimumRange": 0,
+          "period": 1.25,
+          "damage": 60,
+          "damageScale": 0
+        }
+      ],
+      "abilities": {
+        "Basic": [
+          {
+            "linkId": "KnightMagicVolley|KnightMagicVolley|W",
+            "abilityId": "KnightMagicVolley",
+            "buttonId": "KnightMagicVolley",
+            "icon": "storm_btn_d3_barbarian_frenzy.png",
+            "abilityType": "W"
+          }
+        ],
+        "Hearth": [
+          {
+            "linkId": "move|MovePatrol|B",
+            "abilityId": "move",
+            "buttonId": "MovePatrol",
+            "icon": "btn-command-patrol.png",
+            "abilityType": "B"
+          }
+        ],
+        "Hidden": [
+          {
+            "linkId": "stop|:NONE:|Hidden",
+            "abilityId": "stop",
+            "buttonId": ":NONE:",
+            "abilityType": "Hidden"
+          }
+        ]
+      },
+      "portraits": []
+    },
+    "MercLanerSiegeGiant": {
+      "damageType": "Merc",
+      "radius": 1,
+      "innerRadius": 0.875,
+      "sight": 12,
+      "speed": 3.25,
+      "attributes": [
+        "Merc"
+      ],
+      "scalingLinkIds": [
+        "SiegeGiantMercScaling"
+      ],
+      "life": {
+        "amount": 1800,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "weapons": [
+        {
+          "nameId": "MercLanerSiegeGiantWeaponMelee",
+          "isDisabled": false,
+          "range": 1,
+          "minimumRange": 0,
+          "period": 2,
+          "damage": 175,
+          "damageScale": 0,
+          "damageFactors": {
+            "Structure": 1
+          }
+        },
+        {
+          "nameId": "MercLanerSiegeGiantWeapon",
+          "isDisabled": false,
+          "range": 10,
+          "minimumRange": 0,
+          "period": 2,
+          "damage": 175,
+          "damageScale": 0,
+          "damageFactors": {
+            "Structure": 1
+          }
+        }
+      ],
+      "abilities": {
+        "Hearth": [
+          {
+            "linkId": "move|MovePatrol|B",
+            "abilityId": "move",
+            "buttonId": "MovePatrol",
+            "icon": "btn-command-patrol.png",
+            "abilityType": "B"
+          }
+        ],
+        "Hidden": [
+          {
+            "linkId": "stop|:NONE:|Hidden",
+            "abilityId": "stop",
+            "buttonId": ":NONE:",
+            "abilityType": "Hidden"
+          }
+        ]
+      },
+      "portraits": []
+    },
+    "SkeletalPirate": {
+      "damageType": "Monster",
+      "radius": 0.6875,
+      "innerRadius": 0.5,
+      "sight": 8,
+      "speed": 3.5,
+      "killXP": 100,
+      "attributes": [
+        "Creep",
+        "Merc"
+      ],
+      "scalingLinkIds": [
+        "DoubloonDefenderScaling"
+      ],
+      "life": {
+        "amount": 600,
+        "scale": 0,
+        "regenRate": 10,
+        "regenScale": 0
+      },
+      "weapons": [
+        {
+          "nameId": "SkeletalPirate",
+          "isDisabled": false,
+          "range": 1,
+          "minimumRange": 0,
+          "period": 1,
+          "damage": 20,
+          "damageScale": 0
+        }
+      ],
+      "abilities": {
+        "Hearth": [
+          {
+            "linkId": "move|MovePatrol|B",
+            "abilityId": "move",
+            "buttonId": "MovePatrol",
+            "icon": "btn-command-patrol.png",
+            "abilityType": "B"
+          }
+        ],
+        "Hidden": [
+          {
+            "linkId": "stop|:NONE:|Hidden",
+            "abilityId": "stop",
+            "buttonId": ":NONE:",
+            "abilityType": "Hidden"
+          },
+          {
+            "linkId": "attack|Attack|Hidden",
+            "abilityId": "attack",
+            "buttonId": "Attack",
+            "icon": "storm_ui_icon_talent_autoattack_base.png",
+            "abilityType": "Hidden"
+          }
+        ]
+      },
+      "portraits": []
+    },
+    "TerranHellbat": {
+      "damageType": "Merc",
+      "radius": 0.75,
+      "innerRadius": 0.625,
+      "sight": 8,
+      "speed": 3.25,
+      "attributes": [
+        "Merc"
+      ],
+      "scalingLinkIds": [
+        "TerranHellbatScaling"
+      ],
+      "life": {
+        "amount": 3760,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "armor": {
+        "Structure": {
+          "basic": 50,
+          "ability": 0,
+          "splash": 0
+        }
+      },
+      "weapons": [
+        {
+          "nameId": "TerranHellbatWeapon",
+          "isDisabled": false,
+          "range": 1,
+          "minimumRange": 0,
+          "period": 1.9,
+          "damage": 75,
+          "damageScale": 0
+        }
+      ],
+      "abilities": {
+        "Hearth": [
+          {
+            "linkId": "move|MovePatrol|B",
+            "abilityId": "move",
+            "buttonId": "MovePatrol",
+            "icon": "btn-command-patrol.png",
+            "abilityType": "B"
+          }
+        ],
+        "Hidden": [
+          {
+            "linkId": "stop|:NONE:|Hidden",
+            "abilityId": "stop",
+            "buttonId": ":NONE:",
+            "abilityType": "Hidden"
+          }
+        ]
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_merc_gnoll"
+      ]
+    },
+    "TerranHellbatDefender": {
+      "damageType": "Merc",
+      "radius": 0.75,
+      "innerRadius": 0.625,
+      "sight": 8,
+      "speed": 3.25,
+      "killXP": 60,
+      "attributes": [
+        "Creep"
+      ],
+      "scalingLinkIds": [
+        "TerranHellbatDefenderScaling"
+      ],
+      "life": {
+        "amount": 3420,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "weapons": [
+        {
+          "nameId": "TerranHellbatDefenderWeapon",
+          "isDisabled": false,
+          "range": 1,
+          "minimumRange": 0,
+          "period": 1.9,
+          "damage": 55,
+          "damageScale": 0
+        }
+      ],
+      "abilities": {
+        "Hearth": [
+          {
+            "linkId": "move|MovePatrol|B",
+            "abilityId": "move",
+            "buttonId": "MovePatrol",
+            "icon": "btn-command-patrol.png",
+            "abilityType": "B"
+          }
+        ],
+        "Hidden": [
+          {
+            "linkId": "stop|:NONE:|Hidden",
+            "abilityId": "stop",
+            "buttonId": ":NONE:",
+            "abilityType": "Hidden"
+          }
+        ]
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_merc_gnoll"
+      ]
+    },
+    "TownCannonTowerDead": {
+      "damageType": "Structure",
+      "radius": 1,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "ImmuneToAOE",
+        "ImmuneToFriendlyAbilities",
+        "NoMinionAggro",
+        "Structure",
+        "Tower"
+      ],
+      "life": {
+        "amount": 4000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "abilities": {
+        "Hidden": [
+          {
+            "linkId": "attack|Attack|Hidden",
+            "abilityId": "attack",
+            "buttonId": "Attack",
+            "icon": "storm_ui_icon_talent_autoattack_base.png",
+            "abilityType": "Hidden"
+          },
+          {
+            "linkId": "Queue5Storm|:NONE:|Hidden",
+            "abilityId": "Queue5Storm",
+            "buttonId": ":NONE:",
+            "abilityType": "Hidden"
+          }
+        ]
+      },
+      "portraits": []
+    },
+    "TownCannonTowerL2": {
+      "damageType": "Structure",
+      "radius": 1,
+      "innerRadius": 0,
+      "sight": 10,
+      "speed": 0,
+      "killXP": 125,
+      "attributes": [
+        "AITargetableStructure",
+        "Structure",
+        "Tower"
+      ],
+      "life": {
+        "amount": 4850,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "weapons": [
+        {
+          "nameId": "GuardTowerL2Weapon",
+          "isDisabled": false,
+          "range": 7.75,
+          "minimumRange": 0,
+          "period": 1,
+          "damage": 250,
+          "damageScale": 0,
+          "damageFactors": {
+            "Structure": 1
+          }
+        }
+      ],
+      "abilities": {
+        "Basic": [
+          {
+            "linkId": "TowerMarkAttackTarget|TowerMarkAttackTarget|E",
+            "abilityId": "TowerMarkAttackTarget",
+            "buttonId": "TowerMarkAttackTarget",
+            "icon": "storm_temp_war3_btnrallypoint.png",
+            "abilityType": "E"
+          }
+        ],
+        "Heroic": [
+          {
+            "linkId": "AbathurAssumingDirectControlCancel|AbathurSymbioteCancel|Heroic",
+            "abilityId": "AbathurAssumingDirectControlCancel",
+            "buttonId": "AbathurSymbioteCancel",
+            "icon": "hud_btn_bg_ability_cancel.png",
+            "abilityType": "Heroic"
+          }
+        ],
+        "Hidden": [
+          {
+            "linkId": "stop|:NONE:|Hidden",
+            "abilityId": "stop",
+            "buttonId": ":NONE:",
+            "abilityType": "Hidden"
+          },
+          {
+            "linkId": "attack|Attack|Hidden",
+            "abilityId": "attack",
+            "buttonId": "Attack",
+            "icon": "storm_ui_icon_talent_autoattack_base.png",
+            "abilityType": "Hidden"
+          },
+          {
+            "linkId": "Queue5Storm|:NONE:|Hidden",
+            "abilityId": "Queue5Storm",
+            "buttonId": ":NONE:",
+            "abilityType": "Hidden"
+          },
+          {
+            "linkId": "TowerDeadMorph|TowerDeadMorph|Hidden",
+            "abilityId": "TowerDeadMorph",
+            "buttonId": "TowerDeadMorph",
+            "icon": "storm_temp_btn-ability-zerg-root.png",
+            "abilityType": "Hidden"
+          }
+        ]
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_tower_0_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_tower_0_horde"
+      ]
+    },
+    "TownCannonTowerL2Standalone": {
+      "damageType": "Structure",
+      "radius": 1,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 0,
+      "killXP": 125,
+      "attributes": [
+        "AITargetableStructure",
+        "Structure",
+        "Tower"
+      ],
+      "life": {
+        "amount": 4850,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "weapons": [
+        {
+          "nameId": "GuardTowerL2Weapon",
+          "isDisabled": false,
+          "range": 7.75,
+          "minimumRange": 0,
+          "period": 1,
+          "damage": 250,
+          "damageScale": 0,
+          "damageFactors": {
+            "Structure": 1
+          }
+        }
+      ],
+      "abilities": {
+        "Basic": [
+          {
+            "linkId": "TowerMarkAttackTarget|TowerMarkAttackTarget|E",
+            "abilityId": "TowerMarkAttackTarget",
+            "buttonId": "TowerMarkAttackTarget",
+            "icon": "storm_temp_war3_btnrallypoint.png",
+            "abilityType": "E"
+          }
+        ],
+        "Heroic": [
+          {
+            "linkId": "AbathurAssumingDirectControlCancel|AbathurSymbioteCancel|Heroic",
+            "abilityId": "AbathurAssumingDirectControlCancel",
+            "buttonId": "AbathurSymbioteCancel",
+            "icon": "hud_btn_bg_ability_cancel.png",
+            "abilityType": "Heroic"
+          }
+        ],
+        "Hidden": [
+          {
+            "linkId": "stop|:NONE:|Hidden",
+            "abilityId": "stop",
+            "buttonId": ":NONE:",
+            "abilityType": "Hidden"
+          },
+          {
+            "linkId": "attack|Attack|Hidden",
+            "abilityId": "attack",
+            "buttonId": "Attack",
+            "icon": "storm_ui_icon_talent_autoattack_base.png",
+            "abilityType": "Hidden"
+          },
+          {
+            "linkId": "Queue5Storm|:NONE:|Hidden",
+            "abilityId": "Queue5Storm",
+            "buttonId": ":NONE:",
+            "abilityType": "Hidden"
+          },
+          {
+            "linkId": "TowerDeadMorph|TowerDeadMorph|Hidden",
+            "abilityId": "TowerDeadMorph",
+            "buttonId": "TowerDeadMorph",
+            "icon": "storm_temp_btn-ability-zerg-root.png",
+            "abilityType": "Hidden"
+          }
+        ]
+      },
+      "portraits": [
+        "ui_targetportrait_buildings_ravenscourt_tower_normal_blue"
+      ]
+    },
+    "TownCannonTowerL3": {
+      "damageType": "Structure",
+      "radius": 1,
+      "innerRadius": 0,
+      "sight": 10,
+      "speed": 0,
+      "killXP": 400,
+      "attributes": [
+        "AITargetableStructure",
+        "Structure",
+        "Tower"
+      ],
+      "life": {
+        "amount": 6000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "weapons": [
+        {
+          "nameId": "GuardTowerL3Weapon",
+          "isDisabled": false,
+          "range": 7.75,
+          "minimumRange": 0,
+          "period": 1,
+          "damage": 330,
+          "damageScale": 0,
+          "damageFactors": {
+            "Structure": 1
+          }
+        }
+      ],
+      "abilities": {
+        "Basic": [
+          {
+            "linkId": "TowerMarkAttackTarget|TowerMarkAttackTarget|E",
+            "abilityId": "TowerMarkAttackTarget",
+            "buttonId": "TowerMarkAttackTarget",
+            "icon": "storm_temp_war3_btnrallypoint.png",
+            "abilityType": "E"
+          }
+        ],
+        "Heroic": [
+          {
+            "linkId": "AbathurAssumingDirectControlCancel|AbathurSymbioteCancel|Heroic",
+            "abilityId": "AbathurAssumingDirectControlCancel",
+            "buttonId": "AbathurSymbioteCancel",
+            "icon": "hud_btn_bg_ability_cancel.png",
+            "abilityType": "Heroic"
+          }
+        ],
+        "Hidden": [
+          {
+            "linkId": "stop|:NONE:|Hidden",
+            "abilityId": "stop",
+            "buttonId": ":NONE:",
+            "abilityType": "Hidden"
+          },
+          {
+            "linkId": "attack|Attack|Hidden",
+            "abilityId": "attack",
+            "buttonId": "Attack",
+            "icon": "storm_ui_icon_talent_autoattack_base.png",
+            "abilityType": "Hidden"
+          },
+          {
+            "linkId": "Queue5Storm|:NONE:|Hidden",
+            "abilityId": "Queue5Storm",
+            "buttonId": ":NONE:",
+            "abilityType": "Hidden"
+          },
+          {
+            "linkId": "TowerDeadMorph|TowerDeadMorph|Hidden",
+            "abilityId": "TowerDeadMorph",
+            "buttonId": "TowerDeadMorph",
+            "icon": "storm_temp_btn-ability-zerg-root.png",
+            "abilityType": "Hidden"
+          }
+        ]
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_tower_1_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_tower_1_horde"
+      ]
+    },
+    "TownCannonTowerL3Standalone": {
+      "damageType": "Structure",
+      "radius": 1,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure",
+        "Tower"
+      ],
+      "life": {
+        "amount": 6000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "weapons": [
+        {
+          "nameId": "GuardTowerL3Weapon",
+          "isDisabled": false,
+          "range": 7.75,
+          "minimumRange": 0,
+          "period": 1,
+          "damage": 330,
+          "damageScale": 0,
+          "damageFactors": {
+            "Structure": 1
+          }
+        }
+      ],
+      "abilities": {
+        "Basic": [
+          {
+            "linkId": "TowerMarkAttackTarget|TowerMarkAttackTarget|E",
+            "abilityId": "TowerMarkAttackTarget",
+            "buttonId": "TowerMarkAttackTarget",
+            "icon": "storm_temp_war3_btnrallypoint.png",
+            "abilityType": "E"
+          }
+        ],
+        "Heroic": [
+          {
+            "linkId": "AbathurAssumingDirectControlCancel|AbathurSymbioteCancel|Heroic",
+            "abilityId": "AbathurAssumingDirectControlCancel",
+            "buttonId": "AbathurSymbioteCancel",
+            "icon": "hud_btn_bg_ability_cancel.png",
+            "abilityType": "Heroic"
+          }
+        ],
+        "Hidden": [
+          {
+            "linkId": "stop|:NONE:|Hidden",
+            "abilityId": "stop",
+            "buttonId": ":NONE:",
+            "abilityType": "Hidden"
+          },
+          {
+            "linkId": "attack|Attack|Hidden",
+            "abilityId": "attack",
+            "buttonId": "Attack",
+            "icon": "storm_ui_icon_talent_autoattack_base.png",
+            "abilityType": "Hidden"
+          },
+          {
+            "linkId": "Queue5Storm|:NONE:|Hidden",
+            "abilityId": "Queue5Storm",
+            "buttonId": ":NONE:",
+            "abilityType": "Hidden"
+          },
+          {
+            "linkId": "TowerDeadMorph|TowerDeadMorph|Hidden",
+            "abilityId": "TowerDeadMorph",
+            "buttonId": "TowerDeadMorph",
+            "icon": "storm_temp_btn-ability-zerg-root.png",
+            "abilityType": "Hidden"
+          }
+        ]
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_tower_1_horde"
+      ]
+    },
+    "TownCircleWallDiagonalBig": {
+      "damageType": "Structure",
+      "radius": 3.5,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 500,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": []
+    },
+    "TownCircleWallDiagonalSmall": {
+      "damageType": "Structure",
+      "radius": 3.5,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 500,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": []
+    },
+    "TownCircleWallLine": {
+      "damageType": "Structure",
+      "radius": 3.5,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 500,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": []
+    },
+    "TownCircleWallLineOffset": {
+      "damageType": "Structure",
+      "radius": 3.5,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 500,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": []
+    },
+    "TownGateL215BLUR": {
+      "radius": 0.75,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "Structure"
+      ],
+      "life": {
+        "amount": 6000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_horde"
+      ]
+    },
+    "TownGateL215BLURBRVisionBlocked": {
+      "radius": 0.75,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "Structure"
+      ],
+      "life": {
+        "amount": 6000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_horde"
+      ]
+    },
+    "TownGateL215BLURTLVisionBlocked": {
+      "radius": 0.75,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "Structure"
+      ],
+      "life": {
+        "amount": 6000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_horde"
+      ]
+    },
+    "TownGateL215BRUL": {
+      "radius": 0.75,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "Structure"
+      ],
+      "life": {
+        "amount": 6000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_horde"
+      ]
+    },
+    "TownGateL215BRULBLVisionBlocked": {
+      "radius": 0.75,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "Structure"
+      ],
+      "life": {
+        "amount": 6000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_horde"
+      ]
+    },
+    "TownGateL215BRULTRVisionBlocked": {
+      "radius": 0.75,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "Structure"
+      ],
+      "life": {
+        "amount": 6000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_horde"
+      ]
+    },
+    "TownGateL2BLUR": {
+      "radius": 0.75,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "Structure"
+      ],
+      "life": {
+        "amount": 6000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_horde"
+      ]
+    },
+    "TownGateL2BLURBRVisionBlocked": {
+      "radius": 0.75,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "Structure"
+      ],
+      "life": {
+        "amount": 6000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_horde"
+      ]
+    },
+    "TownGateL2BLURTLVisionBlocked": {
+      "radius": 0.75,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "Structure"
+      ],
+      "life": {
+        "amount": 6000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_horde"
+      ]
+    },
+    "TownGateL2BRUL": {
+      "radius": 0.75,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "Structure"
+      ],
+      "life": {
+        "amount": 6000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_horde"
+      ]
+    },
+    "TownGateL2BRULBLVisionBlocked": {
+      "radius": 0.75,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "Structure"
+      ],
+      "life": {
+        "amount": 6000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_horde"
+      ]
+    },
+    "TownGateL2BRULTRVisionBlocked": {
+      "radius": 0.75,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "Structure"
+      ],
+      "life": {
+        "amount": 6000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_horde"
+      ]
+    },
+    "TownGateL2Horizontal": {
+      "radius": 0.75,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "Structure"
+      ],
+      "life": {
+        "amount": 6000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_horde"
+      ]
+    },
+    "TownGateL2HorizontalBotVisionBlocked": {
+      "radius": 0.75,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "Structure"
+      ],
+      "life": {
+        "amount": 6000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_horde"
+      ]
+    },
+    "TownGateL2HorizontalTopVisionBlocked": {
+      "radius": 0.75,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "Structure"
+      ],
+      "life": {
+        "amount": 6000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_horde"
+      ]
+    },
+    "TownGateL2Vertical": {
+      "radius": 0.75,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "Structure"
+      ],
+      "life": {
+        "amount": 6000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_horde"
+      ]
+    },
+    "TownGateL2VerticalLeftVisionBlocked": {
+      "radius": 0.75,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "Structure"
+      ],
+      "life": {
+        "amount": 6000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_horde"
+      ]
+    },
+    "TownGateL2VerticalRightVisionBlocked": {
+      "radius": 0.75,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "Structure"
+      ],
+      "life": {
+        "amount": 6000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_horde"
+      ]
+    },
+    "TownGateL315BLUR": {
+      "radius": 0.75,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "Structure"
+      ],
+      "life": {
+        "amount": 7000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_horde"
+      ]
+    },
+    "TownGateL315BLURBRVisionBlocked": {
+      "radius": 0.75,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "Structure"
+      ],
+      "life": {
+        "amount": 7000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_horde"
+      ]
+    },
+    "TownGateL315BLURTLVisionBlocked": {
+      "radius": 0.75,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "Structure"
+      ],
+      "life": {
+        "amount": 7000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_horde"
+      ]
+    },
+    "TownGateL315BRUL": {
+      "radius": 0.75,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "Structure"
+      ],
+      "life": {
+        "amount": 7000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_horde"
+      ]
+    },
+    "TownGateL315BRULBLVisionBlocked": {
+      "radius": 0.75,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "Structure"
+      ],
+      "life": {
+        "amount": 7000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_horde"
+      ]
+    },
+    "TownGateL315BRULTRVisionBlocked": {
+      "radius": 0.75,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "Structure"
+      ],
+      "life": {
+        "amount": 7000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_horde"
+      ]
+    },
+    "TownGateL3BLUR": {
+      "radius": 0.75,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "Structure"
+      ],
+      "life": {
+        "amount": 7000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_horde"
+      ]
+    },
+    "TownGateL3BLURBRVisionBlocked": {
+      "radius": 0.75,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "Structure"
+      ],
+      "life": {
+        "amount": 7000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_horde"
+      ]
+    },
+    "TownGateL3BLURTLVisionBlocked": {
+      "radius": 0.75,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "Structure"
+      ],
+      "life": {
+        "amount": 7000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_horde"
+      ]
+    },
+    "TownGateL3BRUL": {
+      "radius": 0.75,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "Structure"
+      ],
+      "life": {
+        "amount": 7000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_horde"
+      ]
+    },
+    "TownGateL3BRULBLVisionBlocked": {
+      "radius": 0.75,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "Structure"
+      ],
+      "life": {
+        "amount": 7000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_horde"
+      ]
+    },
+    "TownGateL3BRULTRVisionBlocked": {
+      "radius": 0.75,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "Structure"
+      ],
+      "life": {
+        "amount": 7000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_horde"
+      ]
+    },
+    "TownGateL3Horizontal": {
+      "radius": 0.75,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "Structure"
+      ],
+      "life": {
+        "amount": 7000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_horde"
+      ]
+    },
+    "TownGateL3HorizontalBotVisionBlocked": {
+      "radius": 0.75,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "Structure"
+      ],
+      "life": {
+        "amount": 7000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_horde"
+      ]
+    },
+    "TownGateL3HorizontalTopVisionBlocked": {
+      "radius": 0.75,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "Structure"
+      ],
+      "life": {
+        "amount": 7000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_horde"
+      ]
+    },
+    "TownGateL3Vertical": {
+      "radius": 0.75,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "Structure"
+      ],
+      "life": {
+        "amount": 7000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_horde"
+      ]
+    },
+    "TownGateL3VerticalLeftVisionBlocked": {
+      "radius": 0.75,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "Structure"
+      ],
+      "life": {
+        "amount": 7000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_horde"
+      ]
+    },
+    "TownGateL3VerticalRightVisionBlocked": {
+      "radius": 0.75,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "Structure"
+      ],
+      "life": {
+        "amount": 7000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_gate_horde"
+      ]
+    },
+    "TownHallDestroyed": {
+      "radius": 0.5,
+      "innerRadius": 0,
+      "sight": 0,
+      "speed": 0,
+      "attributes": [
+        "ImmuneToAOE",
+        "ImmuneToFriendlyAbilities",
+        "ImmuneToSkillshots",
+        "NoMinionAggro"
+      ],
+      "life": {
+        "amount": 1,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": []
+    },
+    "TownMercCampCaptureBeacon": {
+      "radius": 2.75,
+      "innerRadius": 0.125,
+      "sight": 0,
+      "speed": 0,
+      "attributes": [
+        "ImmuneToAOE",
+        "ImmuneToFriendlyAbilities",
+        "ImmuneToSkillshots",
+        "NoMinionAggro"
+      ],
+      "life": {
+        "amount": 1,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": []
+    },
+    "TownMoonwellL2": {
+      "damageType": "Structure",
+      "radius": 1.5,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "ImmuneToAOE",
+        "ImmuneToFriendlyAbilities",
+        "ImmuneToSkillshots",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 550,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_moonwell_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_moonwell_horde"
+      ]
+    },
+    "TownMoonwellL3": {
+      "damageType": "Structure",
+      "radius": 1.5,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "ImmuneToAOE",
+        "ImmuneToFriendlyAbilities",
+        "ImmuneToSkillshots",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 700,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_moonwell_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_moonwell_horde"
+      ]
+    },
+    "TownTownHallL2": {
+      "damageType": "Structure",
+      "radius": 2.5,
+      "innerRadius": 0,
+      "sight": 12,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "Structure",
+        "Tower"
+      ],
+      "life": {
+        "amount": 17380,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "weapons": [
+        {
+          "nameId": "TownHallL2Weapon",
+          "isDisabled": false,
+          "range": 8,
+          "minimumRange": 0,
+          "period": 1,
+          "damage": 375,
+          "damageScale": 0,
+          "damageFactors": {
+            "Structure": 1,
+            "Summoned": -0.5
+          }
+        }
+      ],
+      "abilities": {
+        "Basic": [
+          {
+            "linkId": "TowerMarkAttackTarget|TowerMarkAttackTarget|E",
+            "abilityId": "TowerMarkAttackTarget",
+            "buttonId": "TowerMarkAttackTarget",
+            "icon": "storm_temp_war3_btnrallypoint.png",
+            "abilityType": "E"
+          }
+        ],
+        "Hidden": [
+          {
+            "linkId": "stop|:NONE:|Hidden",
+            "abilityId": "stop",
+            "buttonId": ":NONE:",
+            "abilityType": "Hidden"
+          },
+          {
+            "linkId": "attack|Attack|Hidden",
+            "abilityId": "attack",
+            "buttonId": "Attack",
+            "icon": "storm_ui_icon_talent_autoattack_base.png",
+            "abilityType": "Hidden"
+          }
+        ]
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_fort_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_fort_horde"
+      ]
+    },
+    "TownTownHallL3": {
+      "damageType": "Structure",
+      "radius": 3,
+      "innerRadius": 0,
+      "sight": 12,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "Structure",
+        "Tower"
+      ],
+      "life": {
+        "amount": 22550,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "weapons": [
+        {
+          "nameId": "TownHallL3Weapon",
+          "isDisabled": false,
+          "range": 8,
+          "minimumRange": 0,
+          "period": 1,
+          "damage": 440,
+          "damageScale": 0,
+          "damageFactors": {
+            "Structure": 1,
+            "Summoned": -0.5
+          }
+        }
+      ],
+      "abilities": {
+        "Basic": [
+          {
+            "linkId": "TowerMarkAttackTarget|TowerMarkAttackTarget|E",
+            "abilityId": "TowerMarkAttackTarget",
+            "buttonId": "TowerMarkAttackTarget",
+            "icon": "storm_temp_war3_btnrallypoint.png",
+            "abilityType": "E"
+          }
+        ],
+        "Hidden": [
+          {
+            "linkId": "stop|:NONE:|Hidden",
+            "abilityId": "stop",
+            "buttonId": ":NONE:",
+            "abilityType": "Hidden"
+          },
+          {
+            "linkId": "attack|Attack|Hidden",
+            "abilityId": "attack",
+            "buttonId": "Attack",
+            "icon": "storm_ui_icon_talent_autoattack_base.png",
+            "abilityType": "Hidden"
+          }
+        ]
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_keep_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_keep_horde"
+      ]
+    },
+    "TownWallRadial0L2": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 1700,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial0L3": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 2100,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial10L1": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 1000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial10L2": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 1700,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial10L3": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 2100,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial11L1": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 1000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial11L2": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 1700,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial11L3": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 2100,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial12L1": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 1000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial12L2": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 1700,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial12L3": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 2100,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial13L1": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 1000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial13L2": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 1700,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial13L3": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 2100,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial14L1": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 1000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial14L2": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 1700,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial14L3": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 2100,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial15L1": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 1000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial15L2": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 1700,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial15L3": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 2100,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial16L1": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 1000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial16L2": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 1700,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial16L3": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 2100,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial17L1": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 1000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial17L2": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 1700,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial17L3": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 2100,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial18L1": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 1000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial18L2": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 1700,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial18L3": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 2100,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial19L1": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 1000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial19L2": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 1700,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial19L3": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 2100,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial1L1": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 1000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial1L2": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 1700,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial1L3": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 2100,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial20L1": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 1000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial20L2": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 1700,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial20L3": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 2100,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial21L1": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 1000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial21L2": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 1700,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial21L3": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 2100,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial22L1": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 1000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial22L2": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 1700,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial22L3": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 2100,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial23L1": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 1000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial23L2": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 1700,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial23L3": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 2100,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial2L1": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 1000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial2L2": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 1700,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial2L3": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 2100,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial3L1": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 1000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial3L2": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 1700,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial3L3": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 2100,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial4L1": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 1000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial4L2": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 1700,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial4L3": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 2100,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial5L1": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 1000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial5L2": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 1700,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial5L3": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 2100,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial6L1": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 1000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial6L2": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 1700,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial6L3": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 2100,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial7L1": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 1000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial7L2": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 1700,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial7L3": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 2100,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial8L1": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 1000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial8L2": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 1700,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial8L3": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 2100,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial9L1": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 1000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial9L2": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 1700,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "TownWallRadial9L3": {
+      "damageType": "Structure",
+      "radius": 2,
+      "innerRadius": 0,
+      "sight": 5,
+      "speed": 0,
+      "attributes": [
+        "AITargetableStructure",
+        "NoMinionAggro",
+        "Structure"
+      ],
+      "life": {
+        "amount": 2100,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_alliance",
+        "storm_ui_ingame_targetinfopanel_unit_wcav_building_wall_horde"
+      ]
+    },
+    "VanndarStormpike": {
+      "damageType": "Structure",
+      "radius": 1.5,
+      "innerRadius": 0,
+      "sight": 11,
+      "speed": 4,
+      "attributes": [
+        "AITargetableStructure",
+        "Structure"
+      ],
+      "scalingLinkIds": [
+        "CoreScaling"
+      ],
+      "life": {
+        "amount": 20000,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "weapons": [
+        {
+          "nameId": "AlteracBossWeaponParent",
+          "isDisabled": false,
+          "range": 2,
+          "minimumRange": 0,
+          "period": 1,
+          "damage": 330,
+          "damageScale": 0,
+          "damageFactors": {
+            "MapCreature": 1,
+            "Merc": 1,
+            "Minion": 1,
+            "Structure": 1,
+            "Summoned": 1
+          }
+        }
+      ],
+      "abilities": {
+        "Basic": [
+          {
+            "linkId": "AlteracBossWhirlwind|AlteracBossWhirlwind|Q",
+            "abilityId": "AlteracBossWhirlwind",
+            "buttonId": "AlteracBossWhirlwind",
+            "icon": "storm_ui_icon_sonya_whirlwind.png",
+            "abilityType": "Q"
+          },
+          {
+            "linkId": "AlteracBossCharge|AlteracBossCharge|W",
+            "abilityId": "AlteracBossCharge",
+            "buttonId": "AlteracBossCharge",
+            "icon": "storm_ui_icon_varian_charge.png",
+            "abilityType": "W"
+          },
+          {
+            "linkId": "TowerMarkAttackTarget|TowerMarkAttackTarget|E",
+            "abilityId": "TowerMarkAttackTarget",
+            "buttonId": "TowerMarkAttackTarget",
+            "icon": "storm_temp_war3_btnrallypoint.png",
+            "abilityType": "E"
+          }
+        ],
+        "Hearth": [
+          {
+            "linkId": "move|MovePatrol|B",
+            "abilityId": "move",
+            "buttonId": "MovePatrol",
+            "icon": "btn-command-patrol.png",
+            "abilityType": "B"
+          }
+        ],
+        "Hidden": [
+          {
+            "linkId": "stop|:NONE:|Hidden",
+            "abilityId": "stop",
+            "buttonId": ":NONE:",
+            "abilityType": "Hidden"
+          },
+          {
+            "linkId": "attack|Attack|Hidden",
+            "abilityId": "attack",
+            "buttonId": "Attack",
+            "icon": "storm_ui_icon_talent_autoattack_base.png",
+            "abilityType": "Hidden"
+          },
+          {
+            "linkId": "AlteracBossChargeApproach|AlteracBossCharge|Hidden",
+            "abilityId": "AlteracBossChargeApproach",
+            "buttonId": "AlteracBossCharge",
+            "icon": "storm_ui_icon_varian_charge.png",
+            "abilityType": "Hidden"
+          }
+        ]
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_wcav_boss_general_alliance"
+      ]
+    }
+  },
+  "scaling": {
+    "DoubloonDefenderScaling": [
+      {},
+      {},
+      {
+        "KillXPBonus": 1,
+        "DamageDealtFraction.Basic": 0.1,
+        "VitalMaxFractionArray.Life": 0.1
+      },
+      {
+        "KillXPBonus": 1,
+        "DamageDealtFraction.Basic": 0.1,
+        "VitalMaxFractionArray.Life": 0.1
+      },
+      {
+        "KillXPBonus": 1,
+        "DamageDealtFraction.Basic": 0.1,
+        "VitalMaxFractionArray.Life": 0.1
+      },
+      {
+        "KillXPBonus": 1,
+        "DamageDealtFraction.Basic": 0.1,
+        "VitalMaxFractionArray.Life": 0.1
+      },
+      {
+        "KillXPBonus": 1,
+        "DamageDealtFraction.Basic": 0.1,
+        "VitalMaxFractionArray.Life": 0.1
+      },
+      {
+        "KillXPBonus": 1,
+        "DamageDealtFraction.Basic": 0.1,
+        "VitalMaxFractionArray.Life": 0.1
+      },
+      {
+        "KillXPBonus": 1,
+        "DamageDealtFraction.Basic": 0.1,
+        "VitalMaxFractionArray.Life": 0.1
+      },
+      {
+        "KillXPBonus": 1,
+        "DamageDealtFraction.Basic": 0.1,
+        "VitalMaxFractionArray.Life": 0.1
+      },
+      {
+        "KillXPBonus": 1,
+        "DamageDealtFraction.Basic": 0.1,
+        "VitalMaxFractionArray.Life": 0.1
+      },
+      {
+        "KillXPBonus": 1,
+        "DamageDealtFraction.Basic": 0.1,
+        "VitalMaxFractionArray.Life": 0.1
+      },
+      {
+        "KillXPBonus": 1,
+        "DamageDealtFraction.Basic": 0.1,
+        "VitalMaxFractionArray.Life": 0.1
+      },
+      {
+        "KillXPBonus": 1,
+        "DamageDealtFraction.Basic": 0.1,
+        "VitalMaxFractionArray.Life": 0.1
+      },
+      {
+        "KillXPBonus": 1,
+        "DamageDealtFraction.Basic": 0.1,
+        "VitalMaxFractionArray.Life": 0.1
+      },
+      {
+        "KillXPBonus": 1,
+        "DamageDealtFraction.Basic": 0.1,
+        "VitalMaxFractionArray.Life": 0.1
+      },
+      {
+        "KillXPBonus": 1,
+        "DamageDealtFraction.Basic": 0.1,
+        "VitalMaxFractionArray.Life": 0.1
+      },
+      {
+        "KillXPBonus": 1,
+        "DamageDealtFraction.Basic": 0.1,
+        "VitalMaxFractionArray.Life": 0.1
+      },
+      {
+        "KillXPBonus": 1,
+        "DamageDealtFraction.Basic": 0.1,
+        "VitalMaxFractionArray.Life": 0.1
+      },
+      {
+        "KillXPBonus": 1,
+        "DamageDealtFraction.Basic": 0.1,
+        "VitalMaxFractionArray.Life": 0.1
+      },
+      {
+        "KillXPBonus": 1,
+        "DamageDealtFraction.Basic": 0.1,
+        "VitalMaxFractionArray.Life": 0.1
+      },
+      {
+        "KillXPBonus": 1,
+        "DamageDealtFraction.Basic": 0.1,
+        "VitalMaxFractionArray.Life": 0.1
+      },
+      {
+        "KillXPBonus": 1,
+        "DamageDealtFraction.Basic": 0.1,
+        "VitalMaxFractionArray.Life": 0.1
+      },
+      {
+        "KillXPBonus": 1,
+        "DamageDealtFraction.Basic": 0.1,
+        "VitalMaxFractionArray.Life": 0.1
+      },
+      {
+        "KillXPBonus": 1,
+        "DamageDealtFraction.Basic": 0.1,
+        "VitalMaxFractionArray.Life": 0.1
+      },
+      {
+        "KillXPBonus": 1,
+        "DamageDealtFraction.Basic": 0.1,
+        "VitalMaxFractionArray.Life": 0.1
+      },
+      {
+        "KillXPBonus": 1,
+        "DamageDealtFraction.Basic": 0.1,
+        "VitalMaxFractionArray.Life": 0.1
+      },
+      {
+        "KillXPBonus": 1,
+        "DamageDealtFraction.Basic": 0.1,
+        "VitalMaxFractionArray.Life": 0.1
+      },
+      {
+        "KillXPBonus": 1,
+        "DamageDealtFraction.Basic": 0.1,
+        "VitalMaxFractionArray.Life": 0.1
+      },
+      {
+        "KillXPBonus": 1,
+        "DamageDealtFraction.Basic": 0.1,
+        "VitalMaxFractionArray.Life": 0.1
+      },
+      {
+        "KillXPBonus": 1,
+        "DamageDealtFraction.Basic": 0.1,
+        "VitalMaxFractionArray.Life": 0.1
+      },
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {}
+    ],
+    "GraveGolemDefenderScaling": [
+      {},
+      {
+        "DamageDealtScaled.Basic": 4.5,
+        "DamageDealtFraction.Ability": 0.05,
+        "VitalMaxArray.Life": 300
+      },
+      {
+        "KillXPBonus": 10,
+        "DamageDealtScaled.Basic": 4.5,
+        "DamageDealtFraction.Ability": 0.05,
+        "VitalMaxArray.Life": 300
+      },
+      {
+        "KillXPBonus": 10,
+        "DamageDealtScaled.Basic": 4.5,
+        "DamageDealtFraction.Ability": 0.05,
+        "VitalMaxArray.Life": 300
+      },
+      {
+        "KillXPBonus": 10,
+        "DamageDealtScaled.Basic": 4.5,
+        "DamageDealtFraction.Ability": 0.05,
+        "VitalMaxArray.Life": 300
+      },
+      {
+        "KillXPBonus": 10,
+        "DamageDealtScaled.Basic": 4.5,
+        "DamageDealtFraction.Ability": 0.05,
+        "VitalMaxArray.Life": 300
+      },
+      {
+        "KillXPBonus": 10,
+        "DamageDealtScaled.Basic": 6.75,
+        "DamageDealtFraction.Ability": 0.06,
+        "VitalMaxArray.Life": 450
+      },
+      {
+        "KillXPBonus": 10,
+        "DamageDealtScaled.Basic": 6.75,
+        "DamageDealtFraction.Ability": 0.06,
+        "VitalMaxArray.Life": 450
+      },
+      {
+        "KillXPBonus": 10,
+        "DamageDealtScaled.Basic": 6.75,
+        "DamageDealtFraction.Ability": 0.06,
+        "VitalMaxArray.Life": 450
+      },
+      {
+        "KillXPBonus": 10,
+        "DamageDealtScaled.Basic": 6.75,
+        "DamageDealtFraction.Ability": 0.06,
+        "VitalMaxArray.Life": 450
+      },
+      {
+        "KillXPBonus": 10,
+        "DamageDealtScaled.Basic": 6.75,
+        "DamageDealtFraction.Ability": 0.06,
+        "VitalMaxArray.Life": 450
+      },
+      {
+        "KillXPBonus": 10,
+        "DamageDealtScaled.Basic": 9,
+        "DamageDealtFraction.Ability": 0.06,
+        "VitalMaxArray.Life": 600
+      },
+      {
+        "KillXPBonus": 10,
+        "DamageDealtScaled.Basic": 9,
+        "DamageDealtFraction.Ability": 0.06,
+        "VitalMaxArray.Life": 600
+      },
+      {
+        "KillXPBonus": 10,
+        "DamageDealtScaled.Basic": 9,
+        "DamageDealtFraction.Ability": 0.06,
+        "VitalMaxArray.Life": 600
+      },
+      {
+        "KillXPBonus": 10,
+        "DamageDealtScaled.Basic": 9,
+        "DamageDealtFraction.Ability": 0.06,
+        "VitalMaxArray.Life": 600
+      },
+      {
+        "KillXPBonus": 10,
+        "DamageDealtScaled.Basic": 9,
+        "DamageDealtFraction.Ability": 0.06,
+        "VitalMaxArray.Life": 600
+      },
+      {
+        "KillXPBonus": 10,
+        "DamageDealtScaled.Basic": 11.25,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 750
+      },
+      {
+        "KillXPBonus": 10,
+        "DamageDealtScaled.Basic": 11.25,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 750
+      },
+      {
+        "KillXPBonus": 10,
+        "DamageDealtScaled.Basic": 11.25,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 750
+      },
+      {
+        "KillXPBonus": 10,
+        "DamageDealtScaled.Basic": 11.25,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 750
+      },
+      {
+        "KillXPBonus": 10,
+        "DamageDealtScaled.Basic": 11.25,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 750
+      },
+      {
+        "KillXPBonus": 10,
+        "DamageDealtScaled.Basic": 13.5,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 900
+      },
+      {
+        "KillXPBonus": 10,
+        "DamageDealtScaled.Basic": 13.5,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 900
+      },
+      {
+        "KillXPBonus": 10,
+        "DamageDealtScaled.Basic": 13.5,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 900
+      },
+      {
+        "KillXPBonus": 10,
+        "DamageDealtScaled.Basic": 13.5,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 900
+      },
+      {
+        "KillXPBonus": 10,
+        "DamageDealtScaled.Basic": 13.5,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 900
+      },
+      {
+        "KillXPBonus": 10,
+        "DamageDealtScaled.Basic": 13.5,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 900
+      },
+      {
+        "KillXPBonus": 10,
+        "DamageDealtScaled.Basic": 13.5,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 900
+      },
+      {
+        "KillXPBonus": 10,
+        "DamageDealtScaled.Basic": 13.5,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 900
+      },
+      {
+        "KillXPBonus": 10,
+        "DamageDealtScaled.Basic": 13.5,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 900
+      },
+      {
+        "DamageDealtScaled.Basic": 13.5,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 900
+      },
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {}
+    ],
+    "GraveGolemLanerScaling": [
+      {},
+      {
+        "DamageDealtScaled.Basic": 10,
+        "DamageDealtFraction.Ability": 0.05
+      },
+      {
+        "DamageDealtScaled.Basic": 10,
+        "DamageDealtFraction.Ability": 0.05,
+        "VitalMaxArray.Life": 600
+      },
+      {
+        "DamageDealtScaled.Basic": 10,
+        "DamageDealtFraction.Ability": 0.05,
+        "VitalMaxArray.Life": 600
+      },
+      {
+        "DamageDealtScaled.Basic": 10,
+        "DamageDealtFraction.Ability": 0.05,
+        "VitalMaxArray.Life": 600
+      },
+      {
+        "DamageDealtScaled.Basic": 10,
+        "DamageDealtFraction.Ability": 0.05,
+        "VitalMaxArray.Life": 600
+      },
+      {
+        "DamageDealtScaled.Basic": 15,
+        "DamageDealtFraction.Ability": 0.06,
+        "VitalMaxArray.Life": 900
+      },
+      {
+        "DamageDealtScaled.Basic": 15,
+        "DamageDealtFraction.Ability": 0.06,
+        "VitalMaxArray.Life": 900
+      },
+      {
+        "DamageDealtScaled.Basic": 15,
+        "DamageDealtFraction.Ability": 0.06,
+        "VitalMaxArray.Life": 900
+      },
+      {
+        "DamageDealtScaled.Basic": 15,
+        "DamageDealtFraction.Ability": 0.06,
+        "VitalMaxArray.Life": 900
+      },
+      {
+        "DamageDealtScaled.Basic": 15,
+        "DamageDealtFraction.Ability": 0.06,
+        "VitalMaxArray.Life": 900
+      },
+      {
+        "DamageDealtScaled.Basic": 20,
+        "DamageDealtFraction.Ability": 0.06,
+        "VitalMaxArray.Life": 1200
+      },
+      {
+        "DamageDealtScaled.Basic": 20,
+        "DamageDealtFraction.Ability": 0.06,
+        "VitalMaxArray.Life": 1200
+      },
+      {
+        "DamageDealtScaled.Basic": 20,
+        "DamageDealtFraction.Ability": 0.06,
+        "VitalMaxArray.Life": 1200
+      },
+      {
+        "DamageDealtScaled.Basic": 20,
+        "DamageDealtFraction.Ability": 0.06,
+        "VitalMaxArray.Life": 1200
+      },
+      {
+        "DamageDealtScaled.Basic": 20,
+        "DamageDealtFraction.Ability": 0.06,
+        "VitalMaxArray.Life": 1200
+      },
+      {
+        "DamageDealtScaled.Basic": 25,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 1500
+      },
+      {
+        "DamageDealtScaled.Basic": 25,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 1500
+      },
+      {
+        "DamageDealtScaled.Basic": 25,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 1500
+      },
+      {
+        "DamageDealtScaled.Basic": 25,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 1500
+      },
+      {
+        "DamageDealtScaled.Basic": 25,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 1500
+      },
+      {
+        "DamageDealtScaled.Basic": 30,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 1800
+      },
+      {
+        "DamageDealtScaled.Basic": 30,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 1800
+      },
+      {
+        "DamageDealtScaled.Basic": 30,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 1800
+      },
+      {
+        "DamageDealtScaled.Basic": 30,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 1800
+      },
+      {
+        "DamageDealtScaled.Basic": 30,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 1800
+      },
+      {
+        "DamageDealtScaled.Basic": 30,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 1800
+      },
+      {
+        "DamageDealtScaled.Basic": 30,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 1800
+      },
+      {
+        "DamageDealtScaled.Basic": 30,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 1800
+      },
+      {
+        "DamageDealtScaled.Basic": 30,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 1800
+      },
+      {
+        "DamageDealtScaled.Basic": 30,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 1800
+      },
+      {
+        "DamageDealtScaled.Basic": 30,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 1800
+      },
+      {
+        "DamageDealtScaled.Basic": 30,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 1800
+      },
+      {
+        "DamageDealtScaled.Basic": 30,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 1800
+      },
+      {
+        "DamageDealtScaled.Basic": 30,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 1800
+      },
+      {
+        "DamageDealtScaled.Basic": 30,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 1800
+      },
+      {
+        "DamageDealtScaled.Basic": 30,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 1800
+      },
+      {
+        "DamageDealtScaled.Basic": 30,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 1800
+      },
+      {
+        "DamageDealtScaled.Basic": 30,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 1800
+      },
+      {
+        "DamageDealtScaled.Basic": 30,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 1800
+      },
+      {
+        "DamageDealtScaled.Basic": 30,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 1800
+      },
+      {
+        "DamageDealtScaled.Basic": 30,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 1800
+      },
+      {
+        "DamageDealtScaled.Basic": 30,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 1800
+      },
+      {
+        "DamageDealtScaled.Basic": 30,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 1800
+      },
+      {
+        "DamageDealtScaled.Basic": 30,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 1800
+      },
+      {
+        "DamageDealtScaled.Basic": 30,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 1800
+      },
+      {
+        "DamageDealtScaled.Basic": 30,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 1800
+      },
+      {
+        "DamageDealtScaled.Basic": 30,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 1800
+      },
+      {
+        "DamageDealtScaled.Basic": 30,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 1800
+      },
+      {
+        "DamageDealtScaled.Basic": 30,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 1800
+      },
+      {
+        "DamageDealtScaled.Basic": 30,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 1800
+      },
+      {
+        "DamageDealtScaled.Basic": 30,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 1800
+      },
+      {
+        "DamageDealtScaled.Basic": 30,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 1800
+      },
+      {
+        "DamageDealtScaled.Basic": 30,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 1800
+      },
+      {
+        "DamageDealtScaled.Basic": 30,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 1800
+      },
+      {
+        "DamageDealtScaled.Basic": 30,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 1800
+      },
+      {
+        "DamageDealtScaled.Basic": 30,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 1800
+      },
+      {
+        "DamageDealtScaled.Basic": 30,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 1800
+      },
+      {
+        "DamageDealtScaled.Basic": 30,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 1800
+      },
+      {
+        "DamageDealtScaled.Basic": 30,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 1800
+      },
+      {
+        "DamageDealtScaled.Basic": 30,
+        "DamageDealtFraction.Ability": 0.07,
+        "VitalMaxArray.Life": 1800
+      }
+    ],
+    "OgreDefenderScaling": [
+      {},
+      {
+        "DamageDealtScaled.Basic": 1,
+        "DamageDealtScaled.Ability": 1,
+        "VitalMaxArray.Life": 40
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 1,
+        "DamageDealtScaled.Ability": 1,
+        "VitalMaxArray.Life": 40
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 1,
+        "DamageDealtScaled.Ability": 1,
+        "VitalMaxArray.Life": 40
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 1,
+        "DamageDealtScaled.Ability": 1,
+        "VitalMaxArray.Life": 40
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 1,
+        "DamageDealtScaled.Ability": 1,
+        "VitalMaxArray.Life": 40
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 1.5,
+        "DamageDealtScaled.Ability": 1.5,
+        "VitalMaxArray.Life": 60
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 1.5,
+        "DamageDealtScaled.Ability": 1.5,
+        "VitalMaxArray.Life": 60
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 1.5,
+        "DamageDealtScaled.Ability": 1.5,
+        "VitalMaxArray.Life": 60
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 1.5,
+        "DamageDealtScaled.Ability": 1.5,
+        "VitalMaxArray.Life": 60
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 1.5,
+        "DamageDealtScaled.Ability": 1.5,
+        "VitalMaxArray.Life": 60
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 2,
+        "DamageDealtScaled.Ability": 2,
+        "VitalMaxArray.Life": 80
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 2,
+        "DamageDealtScaled.Ability": 2,
+        "VitalMaxArray.Life": 80
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 2,
+        "DamageDealtScaled.Ability": 2,
+        "VitalMaxArray.Life": 80
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 2,
+        "DamageDealtScaled.Ability": 2,
+        "VitalMaxArray.Life": 80
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 2,
+        "DamageDealtScaled.Ability": 2,
+        "VitalMaxArray.Life": 80
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 2.5,
+        "DamageDealtScaled.Ability": 2.5,
+        "VitalMaxArray.Life": 100
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 2.5,
+        "DamageDealtScaled.Ability": 2.5,
+        "VitalMaxArray.Life": 100
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 2.5,
+        "DamageDealtScaled.Ability": 2.5,
+        "VitalMaxArray.Life": 100
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 2.5,
+        "DamageDealtScaled.Ability": 2.5,
+        "VitalMaxArray.Life": 100
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3,
+        "VitalMaxArray.Life": 100
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3,
+        "VitalMaxArray.Life": 120
+      },
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {}
+    ],
+    "OgreMercScaling": [
+      {},
+      {
+        "DamageDealtScaled.Basic": 1.1,
+        "DamageDealtScaled.Ability": 1.1,
+        "VitalMaxArray.Life": 38
+      },
+      {
+        "DamageDealtScaled.Basic": 1.1,
+        "DamageDealtScaled.Ability": 1.1,
+        "VitalMaxArray.Life": 38
+      },
+      {
+        "DamageDealtScaled.Basic": 1.1,
+        "DamageDealtScaled.Ability": 1.1,
+        "VitalMaxArray.Life": 38
+      },
+      {
+        "DamageDealtScaled.Basic": 1.1,
+        "DamageDealtScaled.Ability": 1.1,
+        "VitalMaxArray.Life": 38
+      },
+      {
+        "DamageDealtScaled.Basic": 1.1,
+        "DamageDealtScaled.Ability": 1.1,
+        "VitalMaxArray.Life": 38
+      },
+      {
+        "DamageDealtScaled.Basic": 1.65,
+        "DamageDealtScaled.Ability": 1.65,
+        "VitalMaxArray.Life": 57
+      },
+      {
+        "DamageDealtScaled.Basic": 1.65,
+        "DamageDealtScaled.Ability": 1.65,
+        "VitalMaxArray.Life": 57
+      },
+      {
+        "DamageDealtScaled.Basic": 1.65,
+        "DamageDealtScaled.Ability": 1.65,
+        "VitalMaxArray.Life": 57
+      },
+      {
+        "DamageDealtScaled.Basic": 1.65,
+        "DamageDealtScaled.Ability": 1.65,
+        "VitalMaxArray.Life": 57
+      },
+      {
+        "DamageDealtScaled.Basic": 1.65,
+        "DamageDealtScaled.Ability": 1.65,
+        "VitalMaxArray.Life": 57
+      },
+      {
+        "DamageDealtScaled.Basic": 2.2,
+        "DamageDealtScaled.Ability": 2.2,
+        "VitalMaxArray.Life": 76
+      },
+      {
+        "DamageDealtScaled.Basic": 2.2,
+        "DamageDealtScaled.Ability": 2.2,
+        "VitalMaxArray.Life": 76
+      },
+      {
+        "DamageDealtScaled.Basic": 2.2,
+        "DamageDealtScaled.Ability": 2.2,
+        "VitalMaxArray.Life": 76
+      },
+      {
+        "DamageDealtScaled.Basic": 2.2,
+        "DamageDealtScaled.Ability": 2.2,
+        "VitalMaxArray.Life": 76
+      },
+      {
+        "DamageDealtScaled.Basic": 2.2,
+        "DamageDealtScaled.Ability": 2.2,
+        "VitalMaxArray.Life": 76
+      },
+      {
+        "DamageDealtScaled.Basic": 2.75,
+        "DamageDealtScaled.Ability": 2.75,
+        "VitalMaxArray.Life": 95
+      },
+      {
+        "DamageDealtScaled.Basic": 2.75,
+        "DamageDealtScaled.Ability": 2.75,
+        "VitalMaxArray.Life": 95
+      },
+      {
+        "DamageDealtScaled.Basic": 2.75,
+        "DamageDealtScaled.Ability": 2.75,
+        "VitalMaxArray.Life": 95
+      },
+      {
+        "DamageDealtScaled.Basic": 2.75,
+        "DamageDealtScaled.Ability": 2.75,
+        "VitalMaxArray.Life": 95
+      },
+      {
+        "DamageDealtScaled.Basic": 2.75,
+        "DamageDealtScaled.Ability": 2.75,
+        "VitalMaxArray.Life": 95
+      },
+      {
+        "DamageDealtScaled.Basic": 3.3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3.3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3.3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3.3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3.3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3.3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3.3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3.3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3.3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3.3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3.3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3.3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3.3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3.3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3.3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3.3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3.3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3.3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3.3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3.3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3.3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3.3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3.3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3.3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3.3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3.3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3.3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3.3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3.3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3.3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3.3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3.3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3.3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3.3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3.3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3.3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3.3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3.3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3.3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3.3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      }
+    ],
+    "SiegeGiantDefenderScaling": [
+      {},
+      {
+        "DamageDealtScaled.Basic": 1.25,
+        "VitalMaxArray.Life": 50
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 1.25,
+        "VitalMaxArray.Life": 50
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 1.25,
+        "VitalMaxArray.Life": 50
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 1.25,
+        "VitalMaxArray.Life": 50
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 1.25,
+        "VitalMaxArray.Life": 50
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 1.875,
+        "VitalMaxArray.Life": 75
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 1.875,
+        "VitalMaxArray.Life": 75
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 1.875,
+        "VitalMaxArray.Life": 75
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 1.875,
+        "VitalMaxArray.Life": 75
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 1.875,
+        "VitalMaxArray.Life": 75
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 2.5,
+        "VitalMaxArray.Life": 100
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 2.5,
+        "VitalMaxArray.Life": 100
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 2.5,
+        "VitalMaxArray.Life": 100
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 2.5,
+        "VitalMaxArray.Life": 100
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 2.5,
+        "VitalMaxArray.Life": 100
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 3.125,
+        "VitalMaxArray.Life": 125
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 3.125,
+        "VitalMaxArray.Life": 125
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 3.125,
+        "VitalMaxArray.Life": 125
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 3.125,
+        "VitalMaxArray.Life": 125
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 3.125,
+        "VitalMaxArray.Life": 125
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 3.75,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 3.75,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 3.75,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 3.75,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 3.75,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 3.75,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 3.75,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 3.75,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 3.75,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 3.75,
+        "VitalMaxArray.Life": 150
+      },
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {}
+    ],
+    "SiegeGiantMercScaling": [
+      {},
+      {
+        "DamageDealtScaled.Basic": 4,
+        "VitalMaxArray.Life": 40
+      },
+      {
+        "DamageDealtScaled.Basic": 4,
+        "VitalMaxArray.Life": 40
+      },
+      {
+        "DamageDealtScaled.Basic": 4,
+        "VitalMaxArray.Life": 40
+      },
+      {
+        "DamageDealtScaled.Basic": 4,
+        "VitalMaxArray.Life": 40
+      },
+      {
+        "DamageDealtScaled.Basic": 4,
+        "VitalMaxArray.Life": 40
+      },
+      {
+        "DamageDealtScaled.Basic": 6,
+        "VitalMaxArray.Life": 60
+      },
+      {
+        "DamageDealtScaled.Basic": 6,
+        "VitalMaxArray.Life": 60
+      },
+      {
+        "DamageDealtScaled.Basic": 6,
+        "VitalMaxArray.Life": 60
+      },
+      {
+        "DamageDealtScaled.Basic": 6,
+        "VitalMaxArray.Life": 60
+      },
+      {
+        "DamageDealtScaled.Basic": 6,
+        "VitalMaxArray.Life": 60
+      },
+      {
+        "DamageDealtScaled.Basic": 8,
+        "VitalMaxArray.Life": 80
+      },
+      {
+        "DamageDealtScaled.Basic": 8,
+        "VitalMaxArray.Life": 80
+      },
+      {
+        "DamageDealtScaled.Basic": 8,
+        "VitalMaxArray.Life": 80
+      },
+      {
+        "DamageDealtScaled.Basic": 8,
+        "VitalMaxArray.Life": 80
+      },
+      {
+        "DamageDealtScaled.Basic": 8,
+        "VitalMaxArray.Life": 80
+      },
+      {
+        "DamageDealtScaled.Basic": 10,
+        "VitalMaxArray.Life": 100
+      },
+      {
+        "DamageDealtScaled.Basic": 10,
+        "VitalMaxArray.Life": 100
+      },
+      {
+        "DamageDealtScaled.Basic": 10,
+        "VitalMaxArray.Life": 100
+      },
+      {
+        "DamageDealtScaled.Basic": 10,
+        "VitalMaxArray.Life": 100
+      },
+      {
+        "DamageDealtScaled.Basic": 10,
+        "VitalMaxArray.Life": 100
+      },
+      {
+        "DamageDealtScaled.Basic": 12,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "DamageDealtScaled.Basic": 12,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "DamageDealtScaled.Basic": 12,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "DamageDealtScaled.Basic": 12,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "DamageDealtScaled.Basic": 12,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "DamageDealtScaled.Basic": 12,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "DamageDealtScaled.Basic": 12,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "DamageDealtScaled.Basic": 12,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "DamageDealtScaled.Basic": 12,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "DamageDealtScaled.Basic": 12,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "DamageDealtScaled.Basic": 12,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "DamageDealtScaled.Basic": 12,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "DamageDealtScaled.Basic": 12,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "DamageDealtScaled.Basic": 12,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "DamageDealtScaled.Basic": 12,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "DamageDealtScaled.Basic": 12,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "DamageDealtScaled.Basic": 12,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "DamageDealtScaled.Basic": 12,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "DamageDealtScaled.Basic": 12,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "DamageDealtScaled.Basic": 12,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "DamageDealtScaled.Basic": 12,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "DamageDealtScaled.Basic": 12,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "DamageDealtScaled.Basic": 12,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "DamageDealtScaled.Basic": 12,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "DamageDealtScaled.Basic": 12,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "DamageDealtScaled.Basic": 12,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "DamageDealtScaled.Basic": 12,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "DamageDealtScaled.Basic": 12,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "DamageDealtScaled.Basic": 12,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "DamageDealtScaled.Basic": 12,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "DamageDealtScaled.Basic": 12,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "DamageDealtScaled.Basic": 12,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "DamageDealtScaled.Basic": 12,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "DamageDealtScaled.Basic": 12,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "DamageDealtScaled.Basic": 12,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "DamageDealtScaled.Basic": 12,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "DamageDealtScaled.Basic": 12,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "DamageDealtScaled.Basic": 12,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "DamageDealtScaled.Basic": 12,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "DamageDealtScaled.Basic": 12,
+        "VitalMaxArray.Life": 120
+      }
+    ],
+    "TerranHellbatDefenderScaling": [
+      {},
+      {
+        "DamageDealtScaled.Basic": 1,
+        "VitalMaxArray.Life": 52
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 1,
+        "VitalMaxArray.Life": 52
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 1,
+        "VitalMaxArray.Life": 52
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 1,
+        "VitalMaxArray.Life": 52
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 1,
+        "VitalMaxArray.Life": 52
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 1.5,
+        "VitalMaxArray.Life": 78
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 1.5,
+        "VitalMaxArray.Life": 78
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 1.5,
+        "VitalMaxArray.Life": 78
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 1.5,
+        "VitalMaxArray.Life": 78
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 1.5,
+        "VitalMaxArray.Life": 78
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 2,
+        "VitalMaxArray.Life": 104
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 2,
+        "VitalMaxArray.Life": 104
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 2,
+        "VitalMaxArray.Life": 104
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 2,
+        "VitalMaxArray.Life": 104
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 2,
+        "VitalMaxArray.Life": 104
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 2.5,
+        "VitalMaxArray.Life": 130
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 2.5,
+        "VitalMaxArray.Life": 130
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 2.5,
+        "VitalMaxArray.Life": 130
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 2.5,
+        "VitalMaxArray.Life": 130
+      },
+      {
+        "KillXPBonus": 2,
+        "DamageDealtScaled.Basic": 2.5,
+        "VitalMaxArray.Life": 130
+      },
+      {
+        "KillXPBonus": 2,
+        "VitalMaxArray.Life": 156
+      },
+      {
+        "KillXPBonus": 2,
+        "VitalMaxArray.Life": 156
+      },
+      {
+        "KillXPBonus": 2,
+        "VitalMaxArray.Life": 156
+      },
+      {
+        "KillXPBonus": 2,
+        "VitalMaxArray.Life": 156
+      },
+      {
+        "KillXPBonus": 2,
+        "VitalMaxArray.Life": 156
+      },
+      {
+        "KillXPBonus": 2,
+        "VitalMaxArray.Life": 156
+      },
+      {
+        "KillXPBonus": 2,
+        "VitalMaxArray.Life": 156
+      },
+      {
+        "KillXPBonus": 2,
+        "VitalMaxArray.Life": 156
+      },
+      {
+        "KillXPBonus": 2,
+        "VitalMaxArray.Life": 156
+      },
+      {
+        "KillXPBonus": 2,
+        "VitalMaxArray.Life": 156
+      },
+      {
+        "KillXPBonus": 2,
+        "VitalMaxArray.Life": 156
+      },
+      {
+        "KillXPBonus": 2,
+        "VitalMaxArray.Life": 156
+      },
+      {
+        "KillXPBonus": 2,
+        "VitalMaxArray.Life": 156
+      },
+      {
+        "KillXPBonus": 2,
+        "VitalMaxArray.Life": 156
+      },
+      {
+        "KillXPBonus": 2,
+        "VitalMaxArray.Life": 156
+      },
+      {
+        "KillXPBonus": 2,
+        "VitalMaxArray.Life": 156
+      },
+      {
+        "KillXPBonus": 2,
+        "VitalMaxArray.Life": 156
+      },
+      {
+        "KillXPBonus": 2,
+        "VitalMaxArray.Life": 156
+      },
+      {
+        "KillXPBonus": 2,
+        "VitalMaxArray.Life": 156
+      },
+      {
+        "KillXPBonus": 2,
+        "VitalMaxArray.Life": 156
+      },
+      {
+        "KillXPBonus": 2,
+        "VitalMaxArray.Life": 156
+      },
+      {
+        "KillXPBonus": 2,
+        "VitalMaxArray.Life": 156
+      },
+      {
+        "KillXPBonus": 2,
+        "VitalMaxArray.Life": 156
+      },
+      {
+        "KillXPBonus": 2,
+        "VitalMaxArray.Life": 156
+      },
+      {
+        "KillXPBonus": 2,
+        "VitalMaxArray.Life": 156
+      },
+      {
+        "KillXPBonus": 2,
+        "VitalMaxArray.Life": 156
+      },
+      {
+        "KillXPBonus": 2,
+        "VitalMaxArray.Life": 156
+      },
+      {
+        "KillXPBonus": 2,
+        "VitalMaxArray.Life": 156
+      },
+      {
+        "KillXPBonus": 2,
+        "VitalMaxArray.Life": 156
+      },
+      {
+        "KillXPBonus": 2,
+        "VitalMaxArray.Life": 156
+      },
+      {
+        "KillXPBonus": 2,
+        "VitalMaxArray.Life": 156
+      },
+      {
+        "KillXPBonus": 2,
+        "VitalMaxArray.Life": 156
+      },
+      {
+        "KillXPBonus": 2,
+        "VitalMaxArray.Life": 156
+      },
+      {
+        "KillXPBonus": 2,
+        "VitalMaxArray.Life": 156
+      },
+      {
+        "KillXPBonus": 2,
+        "VitalMaxArray.Life": 156
+      },
+      {
+        "KillXPBonus": 2,
+        "VitalMaxArray.Life": 156
+      },
+      {
+        "KillXPBonus": 2,
+        "VitalMaxArray.Life": 156
+      },
+      {
+        "KillXPBonus": 2,
+        "VitalMaxArray.Life": 156
+      },
+      {
+        "KillXPBonus": 2,
+        "VitalMaxArray.Life": 156
+      },
+      {
+        "KillXPBonus": 2,
+        "VitalMaxArray.Life": 156
+      }
+    ],
+    "TerranHellbatScaling": [
+      {},
+      {
+        "DamageDealtScaled.Basic": 1.5,
+        "VitalMaxArray.Life": 40
+      },
+      {
+        "DamageDealtScaled.Basic": 1.5,
+        "VitalMaxArray.Life": 40
+      },
+      {
+        "DamageDealtScaled.Basic": 1.5,
+        "VitalMaxArray.Life": 40
+      },
+      {
+        "DamageDealtScaled.Basic": 1.5,
+        "VitalMaxArray.Life": 40
+      },
+      {
+        "DamageDealtScaled.Basic": 1.5,
+        "VitalMaxArray.Life": 40
+      },
+      {
+        "DamageDealtScaled.Basic": 2.25,
+        "VitalMaxArray.Life": 110
+      },
+      {
+        "DamageDealtScaled.Basic": 2.25,
+        "VitalMaxArray.Life": 110
+      },
+      {
+        "DamageDealtScaled.Basic": 2.25,
+        "VitalMaxArray.Life": 110
+      },
+      {
+        "DamageDealtScaled.Basic": 2.25,
+        "VitalMaxArray.Life": 110
+      },
+      {
+        "DamageDealtScaled.Basic": 2.25,
+        "VitalMaxArray.Life": 110
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "DamageDealtScaled.Basic": 3.75,
+        "VitalMaxArray.Life": 235
+      },
+      {
+        "DamageDealtScaled.Basic": 3.75,
+        "VitalMaxArray.Life": 235
+      },
+      {
+        "DamageDealtScaled.Basic": 3.75,
+        "VitalMaxArray.Life": 235
+      },
+      {
+        "DamageDealtScaled.Basic": 3.75,
+        "VitalMaxArray.Life": 235
+      },
+      {
+        "DamageDealtScaled.Basic": 3.75,
+        "VitalMaxArray.Life": 235
+      },
+      {
+        "DamageDealtScaled.Basic": 4.5,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "DamageDealtScaled.Basic": 4.5,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "DamageDealtScaled.Basic": 4.5,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "DamageDealtScaled.Basic": 4.5,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "DamageDealtScaled.Basic": 4.5,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "DamageDealtScaled.Basic": 4.5,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "DamageDealtScaled.Basic": 4.5,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "DamageDealtScaled.Basic": 4.5,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "DamageDealtScaled.Basic": 4.5,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "DamageDealtScaled.Basic": 4.5,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "DamageDealtScaled.Basic": 4.5,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "DamageDealtScaled.Basic": 4.5,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "DamageDealtScaled.Basic": 4.5,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "DamageDealtScaled.Basic": 4.5,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "DamageDealtScaled.Basic": 4.5,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "DamageDealtScaled.Basic": 4.5,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "DamageDealtScaled.Basic": 4.5,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "DamageDealtScaled.Basic": 4.5,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "DamageDealtScaled.Basic": 4.5,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "DamageDealtScaled.Basic": 4.5,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "DamageDealtScaled.Basic": 4.5,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "DamageDealtScaled.Basic": 4.5,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "DamageDealtScaled.Basic": 4.5,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "DamageDealtScaled.Basic": 4.5,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "DamageDealtScaled.Basic": 4.5,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "DamageDealtScaled.Basic": 4.5,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "DamageDealtScaled.Basic": 4.5,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "DamageDealtScaled.Basic": 4.5,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "DamageDealtScaled.Basic": 4.5,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "DamageDealtScaled.Basic": 4.5,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "DamageDealtScaled.Basic": 4.5,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "DamageDealtScaled.Basic": 4.5,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "DamageDealtScaled.Basic": 4.5,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "DamageDealtScaled.Basic": 4.5,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "DamageDealtScaled.Basic": 4.5,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "DamageDealtScaled.Basic": 4.5,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "DamageDealtScaled.Basic": 4.5,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "DamageDealtScaled.Basic": 4.5,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "DamageDealtScaled.Basic": 4.5,
+        "VitalMaxArray.Life": 150
+      },
+      {
+        "DamageDealtScaled.Basic": 4.5,
+        "VitalMaxArray.Life": 150
+      }
+    ]
+  }
+}

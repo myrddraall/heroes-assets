@@ -45,10 +45,17 @@
       "fullText": "Tras canalizar durante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> s, obtienes un <s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s> de velocidad de movimiento.",
       "name": "Invocar montura"
     },
-    "ImprovedIceBlock|JainaImprovedIceBlockHotbar|Active": {
+    "JainaIceBlockActivate|JainaImprovedIceBlockHotbar|Active": {
+      "cooldownText": "Tiempo de reutilización: 40 s",
       "fullText": "Actívalo para entrar en estasis y volverte invulnerable durante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c> s. Al expirar el efecto, los enemigos cercanos quedan enfriados.",
       "name": "Bloque de hielo mejorado",
       "shortText": "Te vuelves invulnerable y dejas enfriados a los enemigos."
+    },
+    "JainaIceBlockActivate|JainaIceColdHotbar|Active": {
+      "cooldownText": "Tiempo de reutilización: 40 s",
+      "fullText": "Actívalo para protegerte y volverte imparable durante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">2.5</c> s. Al expirar el efecto, los enemigos cercanos quedan enfriados.",
+      "name": "Frío polar",
+      "shortText": "Obtienes protección y dejas enfriados a los enemigos."
     },
     "Hearthstone|Hearthstone|B": {
       "fullText": "Tras canalizar durante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> s, te teletransportas de vuelta a la Cámara de las Tormentas, lo que restaura al instante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c> de salud y <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">150</c> de maná.",
@@ -62,7 +69,11 @@
       "fullText": "Desmontas.",
       "name": "Desmontar"
     },
-    "ImprovedIceBlock|JainaImprovedIceBlockCancel|Active": {
+    "JainaIceBlockCancel|JainaIceColdCancel|Active": {
+      "fullText": "<n/><s val=\"8783e6\" hlt-name=\"StandardTooltip\">Cancela Frío polar mejorado, lo que elimina los efectos de protección y enfriamiento de los enemigos cercanos.</s>",
+      "name": "Cancelar Frío polar"
+    },
+    "JainaIceBlockCancel|JainaImprovedIceBlockCancel|Active": {
       "fullText": "<n/><s val=\"8783e6\" hlt-name=\"StandardTooltip\">Cancela Bloque de hielo mejorado, lo que elimina los efectos de estasis, invulnerabilidad y enfriamiento de los enemigos cercanos.</s>",
       "name": "Cancelar Bloque de hielo mejorado"
     },

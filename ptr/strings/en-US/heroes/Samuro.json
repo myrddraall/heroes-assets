@@ -41,16 +41,6 @@
       "fullText": "After Channeling for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> second, gain <s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s> Movement Speed.",
       "name": "Summon Mount"
     },
-    ":PASSIVE:|SamuroSelectSamuroPrime|Active": {
-      "fullText": "<s val=\"cbe8ff-ffffff\" hlt-name=\"StandardTooltipHeader\">Select Samuro</s><n/><n/>Issue orders to Samuro only.",
-      "name": "Select Samuro",
-      "shortText": "Select Samuro"
-    },
-    ":PASSIVE:|SamuroSelectAll|Active": {
-      "fullText": "<s val=\"cbe8ff-ffffff\" hlt-name=\"StandardTooltipHeader\">Select All</s><n/><n/>Issue orders to Samuro and all Mirror Images.",
-      "name": "Select All",
-      "shortText": "Select All"
-    },
     "Hearthstone|HearthstoneNoMana|B": {
       "fullText": "After Channeling for <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> seconds, teleport back to the Hall of Storms, instantly restoring <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c> Health.",
       "name": "Hearthstone"
@@ -62,6 +52,29 @@
     "Dismount|UnsummonMount|Z": {
       "fullText": "Dismounts you.",
       "name": "Unsummon Mount"
+    },
+    "SamuroIllusionMasterToggleAI|SamuroIllusionMasterToggleAIOn|Active": {
+      "fullText": "When AI is Disabled, Images will only move or take other actions when you order them to do so.<n/><n/>Click this button to Enable AI.",
+      "name": "AI Disabled"
+    },
+    "SamuroIllusionMasterToggleAI|SamuroIllusionMasterToggleAIOff|Active": {
+      "fullText": "When AI is Enabled, Images will first complete any orders you give them, and then automatically look for enemies to attack.<n/><n/>Click this button to Disable AI.",
+      "name": "AI Enabled"
+    },
+    ":PASSIVE:|SamuroSelectMirrorImages|Active": {
+      "fullText": "<s val=\"cbe8ff-ffffff\" hlt-name=\"StandardTooltipHeader\">Select Mirror Image</s><n/><n/>Issue orders to a single Mirror Image.",
+      "name": "Select Mirror Image",
+      "shortText": "Select Mirror Image"
+    },
+    ":PASSIVE:|SamuroSelectSamuroPrime|Active": {
+      "fullText": "<s val=\"cbe8ff-ffffff\" hlt-name=\"StandardTooltipHeader\">Select Samuro</s><n/><n/>Issue orders to Samuro only.",
+      "name": "Select Samuro",
+      "shortText": "Select Samuro"
+    },
+    ":PASSIVE:|SamuroSelectAll|Active": {
+      "fullText": "<s val=\"cbe8ff-ffffff\" hlt-name=\"StandardTooltipHeader\">Select All</s><n/><n/>Issue orders to Samuro and all Mirror Images.",
+      "name": "Select All",
+      "shortText": "Select All"
     }
   },
   "talents": {

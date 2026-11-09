@@ -41,16 +41,6 @@
       "fullText": "Erhöht die Bewegungsgeschwindigkeit nach <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1</c> Sek. Kanalisierung um <s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">30%</s>.",
       "name": "Aufsitzen"
     },
-    ":PASSIVE:|SamuroSelectSamuroPrime|Active": {
-      "fullText": "<s val=\"cbe8ff-ffffff\" hlt-name=\"StandardTooltipHeader\">Samuro auswählen</s><n/><n/>Erteilt nur Samuro Befehle.",
-      "name": "Samuro auswählen",
-      "shortText": "Wählt Samuro aus."
-    },
-    ":PASSIVE:|SamuroSelectAll|Active": {
-      "fullText": "<s val=\"cbe8ff-ffffff\" hlt-name=\"StandardTooltipHeader\">Alle auswählen</s><n/><n/>Erteilt Samuro und allen Spiegelbildern Befehle.",
-      "name": "Alle auswählen",
-      "shortText": "Alle auswählen"
-    },
     "Hearthstone|HearthstoneNoMana|B": {
       "fullText": "Kanalisiert <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> Sek. lang und teleportiert sich dann zurück zum Altar der Stürme. Dabei werden sofort <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">1125</c> Lebenspunkte wiederhergestellt.",
       "name": "Ruhestein"
@@ -62,6 +52,29 @@
     "Dismount|UnsummonMount|Z": {
       "fullText": "Sitzt ab.",
       "name": "Absitzen"
+    },
+    "SamuroIllusionMasterToggleAI|SamuroIllusionMasterToggleAIOn|Active": {
+      "fullText": "Wenn die K.I. deaktiviert ist, führen die Spiegelbilder nur Bewegungen oder andere Aktionen aus, wenn der Spieler ihnen entsprechende Befehle erteilt.<n/><n/>Ein Klick auf diese Schaltfläche aktiviert die K.I.",
+      "name": "K.I. deaktiviert"
+    },
+    "SamuroIllusionMasterToggleAI|SamuroIllusionMasterToggleAIOff|Active": {
+      "fullText": "Wenn die K.I. aktiviert ist, führen die Spiegelbilder erst alle erteilten Befehle aus und suchen sich dann automatisch Angriffsziele in der Nähe.<n/><n/>Ein Klick auf diese Schaltfläche deaktiviert die K.I.",
+      "name": "K.I. aktiviert"
+    },
+    ":PASSIVE:|SamuroSelectMirrorImages|Active": {
+      "fullText": "<s val=\"cbe8ff-ffffff\" hlt-name=\"StandardTooltipHeader\">Spiegelbild auswählen</s><n/><n/>Erteilt einem einzelnen Spiegelbild Befehle.",
+      "name": "Spiegelbild auswählen",
+      "shortText": "Wählt ein Spiegelbild aus."
+    },
+    ":PASSIVE:|SamuroSelectSamuroPrime|Active": {
+      "fullText": "<s val=\"cbe8ff-ffffff\" hlt-name=\"StandardTooltipHeader\">Samuro auswählen</s><n/><n/>Erteilt nur Samuro Befehle.",
+      "name": "Samuro auswählen",
+      "shortText": "Wählt Samuro aus."
+    },
+    ":PASSIVE:|SamuroSelectAll|Active": {
+      "fullText": "<s val=\"cbe8ff-ffffff\" hlt-name=\"StandardTooltipHeader\">Alle auswählen</s><n/><n/>Erteilt Samuro und allen Spiegelbildern Befehle.",
+      "name": "Alle auswählen",
+      "shortText": "Alle auswählen"
     }
   },
   "talents": {
