@@ -279,38 +279,6 @@
       "levels": []
     },
     {
-      "id": "BruiserCamp3",
-      "category": "bruiser",
-      "defenders": [
-        {
-          "unit": "MercDefenderRangedMage",
-          "count": 1
-        },
-        {
-          "unit": "MercDefenderMeleeKnight",
-          "count": 3
-        }
-      ],
-      "mercs": [
-        {
-          "unit": "MercLanerRangedMage",
-          "count": 1
-        },
-        {
-          "unit": "MercLanerMeleeKnight",
-          "count": 3
-        }
-      ],
-      "respawnSeconds": 120,
-      "firstSpawnSeconds": 60,
-      "elite": true,
-      "soloable": false,
-      "captureXp": 0,
-      "defenderScaling": "KnightMageScaling2",
-      "mercScaling": "KnightMageScaling",
-      "levels": []
-    },
-    {
       "id": "SiegeCamp1",
       "category": "siege",
       "defenders": [
@@ -355,6 +323,84 @@
       "captureXp": 0,
       "defenderScaling": null,
       "mercScaling": "MercenaryLanerSwordsmanScaling",
+      "levels": []
+    },
+    {
+      "id": "IndividualMercCampBruiserCamp3",
+      "category": "bruiser",
+      "defenders": [
+        {
+          "unit": "MercDefenderMeleeIndividual",
+          "count": 1
+        }
+      ],
+      "mercs": [],
+      "respawnSeconds": 180,
+      "firstSpawnSeconds": 30,
+      "elite": true,
+      "soloable": false,
+      "captureXp": null,
+      "defenderScaling": "MercDefenderIndividualCampScaling",
+      "mercScaling": null,
+      "levels": []
+    },
+    {
+      "id": "VisionMercCampBruiserCamp3",
+      "category": "bruiser",
+      "defenders": [
+        {
+          "unit": "MercDefenderHenchman1",
+          "count": 1
+        },
+        {
+          "unit": "MercDefenderHenchman2",
+          "count": 1
+        },
+        {
+          "unit": "MercDefenderHenchman3",
+          "count": 1
+        }
+      ],
+      "mercs": [],
+      "respawnSeconds": -1,
+      "firstSpawnSeconds": 30,
+      "elite": false,
+      "soloable": true,
+      "captureXp": 300,
+      "defenderScaling": "MercHenchmanDefender",
+      "mercScaling": "MercHenchmanLaner",
+      "levels": []
+    },
+    {
+      "id": "KnightsMercCampBruiserCamp3",
+      "category": "bruiser",
+      "defenders": [
+        {
+          "unit": "MercDefenderRangedMage",
+          "count": 1
+        },
+        {
+          "unit": "MercDefenderMeleeKnight",
+          "count": 3
+        }
+      ],
+      "mercs": [
+        {
+          "unit": "MercLanerRangedMage",
+          "count": 1
+        },
+        {
+          "unit": "MercLanerMeleeKnight",
+          "count": 3
+        }
+      ],
+      "respawnSeconds": 120,
+      "firstSpawnSeconds": 60,
+      "elite": false,
+      "soloable": false,
+      "captureXp": 0,
+      "defenderScaling": "KnightMageScaling2",
+      "mercScaling": "KnightMageScaling",
       "levels": []
     }
   ],
@@ -641,6 +687,168 @@
         "storm_ui_ingame_targetinfopanel_unit_hanamura_building_core"
       ]
     },
+    "MercDefenderHenchman1": {
+      "damageType": "Merc",
+      "radius": 0.625,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 3.25,
+      "killXP": 80,
+      "attributes": [
+        "Creep",
+        "Merc"
+      ],
+      "scalingLinkIds": [
+        "MercHenchmanDefender"
+      ],
+      "life": {
+        "amount": 1300,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "weapons": [
+        {
+          "nameId": "HenchmanDefender",
+          "isDisabled": false,
+          "range": 1,
+          "minimumRange": 0,
+          "period": 1.25,
+          "damage": 20,
+          "damageScale": 0
+        }
+      ],
+      "abilities": {
+        "Hearth": [
+          {
+            "linkId": "move|MovePatrol|B",
+            "abilityId": "move",
+            "buttonId": "MovePatrol",
+            "icon": "btn-command-patrol.png",
+            "abilityType": "B"
+          }
+        ],
+        "Hidden": [
+          {
+            "linkId": "stop|:NONE:|Hidden",
+            "abilityId": "stop",
+            "buttonId": ":NONE:",
+            "abilityType": "Hidden"
+          }
+        ]
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_hanamura_merc_yakuza"
+      ]
+    },
+    "MercDefenderHenchman2": {
+      "damageType": "Merc",
+      "radius": 0.625,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 3.25,
+      "killXP": 80,
+      "attributes": [
+        "Creep",
+        "Merc"
+      ],
+      "scalingLinkIds": [
+        "MercHenchmanDefender"
+      ],
+      "life": {
+        "amount": 1300,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "weapons": [
+        {
+          "nameId": "HenchmanDefender",
+          "isDisabled": false,
+          "range": 1,
+          "minimumRange": 0,
+          "period": 1.25,
+          "damage": 20,
+          "damageScale": 0
+        }
+      ],
+      "abilities": {
+        "Hearth": [
+          {
+            "linkId": "move|MovePatrol|B",
+            "abilityId": "move",
+            "buttonId": "MovePatrol",
+            "icon": "btn-command-patrol.png",
+            "abilityType": "B"
+          }
+        ],
+        "Hidden": [
+          {
+            "linkId": "stop|:NONE:|Hidden",
+            "abilityId": "stop",
+            "buttonId": ":NONE:",
+            "abilityType": "Hidden"
+          }
+        ]
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_hanamura_merc_yakuza"
+      ]
+    },
+    "MercDefenderHenchman3": {
+      "damageType": "Merc",
+      "radius": 0.625,
+      "innerRadius": 0,
+      "sight": 8,
+      "speed": 3.25,
+      "killXP": 80,
+      "attributes": [
+        "Creep",
+        "Merc"
+      ],
+      "scalingLinkIds": [
+        "MercHenchmanDefender"
+      ],
+      "life": {
+        "amount": 1300,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "weapons": [
+        {
+          "nameId": "HenchmanDefender",
+          "isDisabled": false,
+          "range": 1,
+          "minimumRange": 0,
+          "period": 1.25,
+          "damage": 20,
+          "damageScale": 0
+        }
+      ],
+      "abilities": {
+        "Hearth": [
+          {
+            "linkId": "move|MovePatrol|B",
+            "abilityId": "move",
+            "buttonId": "MovePatrol",
+            "icon": "btn-command-patrol.png",
+            "abilityType": "B"
+          }
+        ],
+        "Hidden": [
+          {
+            "linkId": "stop|:NONE:|Hidden",
+            "abilityId": "stop",
+            "buttonId": ":NONE:",
+            "abilityType": "Hidden"
+          }
+        ]
+      },
+      "portraits": [
+        "storm_ui_ingame_targetinfopanel_unit_hanamura_merc_yakuza"
+      ]
+    },
     "MercDefenderMeleeBruiser": {
       "damageType": "Minion",
       "radius": 0.625,
@@ -780,6 +988,65 @@
         }
       ],
       "abilities": {
+        "Hearth": [
+          {
+            "linkId": "move|MovePatrol|B",
+            "abilityId": "move",
+            "buttonId": "MovePatrol",
+            "icon": "btn-command-patrol.png",
+            "abilityType": "B"
+          }
+        ],
+        "Hidden": [
+          {
+            "linkId": "stop|:NONE:|Hidden",
+            "abilityId": "stop",
+            "buttonId": ":NONE:",
+            "abilityType": "Hidden"
+          }
+        ]
+      },
+      "portraits": []
+    },
+    "MercDefenderMeleeIndividual": {
+      "damageType": "Minion",
+      "radius": 1,
+      "innerRadius": 0.5,
+      "sight": 8,
+      "speed": 4,
+      "attributes": [
+        "Creep"
+      ],
+      "scalingLinkIds": [
+        "MercDefenderIndividualCampScaling"
+      ],
+      "life": {
+        "amount": 5250,
+        "scale": 0,
+        "regenRate": 0,
+        "regenScale": 0
+      },
+      "weapons": [
+        {
+          "nameId": "MercDefenderMeleeIndividual",
+          "isDisabled": false,
+          "range": 2.5,
+          "minimumRange": 0,
+          "period": 1.25,
+          "damage": 135,
+          "damageScale": 0
+        }
+      ],
+      "abilities": {
+        "Mount": [
+          {
+            "linkId": "MercDefenderHealingPulse|MercDefenderHealingPulse|Z",
+            "abilityId": "MercDefenderHealingPulse",
+            "buttonId": "MercDefenderHealingPulse",
+            "icon": "storm_ui_hud_minimap_hanamura_healing_skill_icon_color.png",
+            "abilityType": "Z"
+          }
+        ],
         "Hearth": [
           {
             "linkId": "move|MovePatrol|B",
@@ -5589,6 +5856,764 @@
       {
         "DamageDealtScaled.Basic": 3,
         "VitalMaxArray.Life": 150
+      }
+    ],
+    "MercDefenderIndividualCampScaling": [
+      {},
+      {
+        "DamageDealtScaled.Basic": 3,
+        "VitalMaxArray.Life": 135
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "VitalMaxArray.Life": 135
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "VitalMaxArray.Life": 135
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "VitalMaxArray.Life": 135
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "VitalMaxArray.Life": 135
+      },
+      {
+        "DamageDealtScaled.Basic": 4.5,
+        "VitalMaxArray.Life": 202.5
+      },
+      {
+        "DamageDealtScaled.Basic": 4.5,
+        "VitalMaxArray.Life": 202.5
+      },
+      {
+        "DamageDealtScaled.Basic": 4.5,
+        "VitalMaxArray.Life": 202.5
+      },
+      {
+        "DamageDealtScaled.Basic": 4.5,
+        "VitalMaxArray.Life": 202.5
+      },
+      {
+        "DamageDealtScaled.Basic": 4.5,
+        "VitalMaxArray.Life": 202.5
+      },
+      {
+        "DamageDealtScaled.Basic": 9,
+        "VitalMaxArray.Life": 270
+      },
+      {
+        "DamageDealtScaled.Basic": 9,
+        "VitalMaxArray.Life": 270
+      },
+      {
+        "DamageDealtScaled.Basic": 9,
+        "VitalMaxArray.Life": 270
+      },
+      {
+        "DamageDealtScaled.Basic": 9,
+        "VitalMaxArray.Life": 270
+      },
+      {
+        "DamageDealtScaled.Basic": 9,
+        "VitalMaxArray.Life": 270
+      },
+      {
+        "DamageDealtScaled.Basic": 7.5,
+        "VitalMaxArray.Life": 337.5
+      },
+      {
+        "DamageDealtScaled.Basic": 7.5,
+        "VitalMaxArray.Life": 337.5
+      },
+      {
+        "DamageDealtScaled.Basic": 7.5,
+        "VitalMaxArray.Life": 337.5
+      },
+      {
+        "DamageDealtScaled.Basic": 7.5,
+        "VitalMaxArray.Life": 337.5
+      },
+      {
+        "DamageDealtScaled.Basic": 7.5,
+        "VitalMaxArray.Life": 337.5
+      },
+      {
+        "DamageDealtScaled.Basic": 9,
+        "VitalMaxArray.Life": 405
+      },
+      {
+        "DamageDealtScaled.Basic": 9,
+        "VitalMaxArray.Life": 405
+      },
+      {
+        "DamageDealtScaled.Basic": 9,
+        "VitalMaxArray.Life": 405
+      },
+      {
+        "DamageDealtScaled.Basic": 9,
+        "VitalMaxArray.Life": 405
+      },
+      {
+        "DamageDealtScaled.Basic": 9,
+        "VitalMaxArray.Life": 405
+      },
+      {
+        "DamageDealtScaled.Basic": 9,
+        "VitalMaxArray.Life": 405
+      },
+      {
+        "DamageDealtScaled.Basic": 9,
+        "VitalMaxArray.Life": 405
+      },
+      {
+        "DamageDealtScaled.Basic": 9,
+        "VitalMaxArray.Life": 405
+      },
+      {
+        "DamageDealtScaled.Basic": 9,
+        "VitalMaxArray.Life": 405
+      },
+      {
+        "DamageDealtScaled.Basic": 9,
+        "VitalMaxArray.Life": 405
+      },
+      {
+        "DamageDealtScaled.Basic": 9,
+        "VitalMaxArray.Life": 405
+      },
+      {
+        "DamageDealtScaled.Basic": 9,
+        "VitalMaxArray.Life": 405
+      },
+      {
+        "DamageDealtScaled.Basic": 9,
+        "VitalMaxArray.Life": 405
+      },
+      {
+        "DamageDealtScaled.Basic": 9,
+        "VitalMaxArray.Life": 405
+      },
+      {
+        "DamageDealtScaled.Basic": 9,
+        "VitalMaxArray.Life": 405
+      },
+      {
+        "DamageDealtScaled.Basic": 9,
+        "VitalMaxArray.Life": 405
+      },
+      {
+        "DamageDealtScaled.Basic": 9,
+        "VitalMaxArray.Life": 405
+      },
+      {
+        "DamageDealtScaled.Basic": 9,
+        "VitalMaxArray.Life": 405
+      },
+      {
+        "DamageDealtScaled.Basic": 9,
+        "VitalMaxArray.Life": 405
+      },
+      {
+        "DamageDealtScaled.Basic": 9,
+        "VitalMaxArray.Life": 405
+      },
+      {
+        "DamageDealtScaled.Basic": 9,
+        "VitalMaxArray.Life": 405
+      },
+      {
+        "DamageDealtScaled.Basic": 9,
+        "VitalMaxArray.Life": 405
+      },
+      {
+        "DamageDealtScaled.Basic": 9,
+        "VitalMaxArray.Life": 405
+      },
+      {
+        "DamageDealtScaled.Basic": 9,
+        "VitalMaxArray.Life": 405
+      },
+      {
+        "DamageDealtScaled.Basic": 9,
+        "VitalMaxArray.Life": 405
+      },
+      {
+        "DamageDealtScaled.Basic": 9,
+        "VitalMaxArray.Life": 405
+      },
+      {
+        "DamageDealtScaled.Basic": 9,
+        "VitalMaxArray.Life": 405
+      },
+      {
+        "DamageDealtScaled.Basic": 9,
+        "VitalMaxArray.Life": 405
+      },
+      {
+        "DamageDealtScaled.Basic": 9,
+        "VitalMaxArray.Life": 405
+      },
+      {
+        "DamageDealtScaled.Basic": 9,
+        "VitalMaxArray.Life": 405
+      },
+      {
+        "DamageDealtScaled.Basic": 9,
+        "VitalMaxArray.Life": 405
+      },
+      {
+        "DamageDealtScaled.Basic": 9,
+        "VitalMaxArray.Life": 405
+      },
+      {
+        "DamageDealtScaled.Basic": 9,
+        "VitalMaxArray.Life": 405
+      },
+      {
+        "DamageDealtScaled.Basic": 9,
+        "VitalMaxArray.Life": 405
+      },
+      {
+        "DamageDealtScaled.Basic": 9,
+        "VitalMaxArray.Life": 405
+      },
+      {
+        "DamageDealtScaled.Basic": 9,
+        "VitalMaxArray.Life": 405
+      },
+      {
+        "DamageDealtScaled.Basic": 9,
+        "VitalMaxArray.Life": 405
+      },
+      {
+        "DamageDealtScaled.Basic": 9,
+        "VitalMaxArray.Life": 405
+      },
+      {
+        "DamageDealtScaled.Basic": 9,
+        "VitalMaxArray.Life": 405
+      },
+      {
+        "DamageDealtScaled.Basic": 9,
+        "VitalMaxArray.Life": 405
+      }
+    ],
+    "MercHenchmanDefender": [
+      {},
+      {
+        "DamageDealtScaled.Basic": 1,
+        "DamageDealtScaled.Ability": 1,
+        "VitalMaxArray.Life": 40
+      },
+      {
+        "KillXPBonus": 8,
+        "DamageDealtScaled.Basic": 1,
+        "DamageDealtScaled.Ability": 1,
+        "VitalMaxArray.Life": 40
+      },
+      {
+        "KillXPBonus": 8,
+        "DamageDealtScaled.Basic": 1,
+        "DamageDealtScaled.Ability": 1,
+        "VitalMaxArray.Life": 40
+      },
+      {
+        "KillXPBonus": 8,
+        "DamageDealtScaled.Basic": 1,
+        "DamageDealtScaled.Ability": 1,
+        "VitalMaxArray.Life": 40
+      },
+      {
+        "KillXPBonus": 8,
+        "DamageDealtScaled.Basic": 1,
+        "DamageDealtScaled.Ability": 1,
+        "VitalMaxArray.Life": 40
+      },
+      {
+        "KillXPBonus": 8,
+        "DamageDealtScaled.Basic": 1.5,
+        "DamageDealtScaled.Ability": 1.5,
+        "VitalMaxArray.Life": 60
+      },
+      {
+        "KillXPBonus": 8,
+        "DamageDealtScaled.Basic": 1.5,
+        "DamageDealtScaled.Ability": 1.5,
+        "VitalMaxArray.Life": 60
+      },
+      {
+        "KillXPBonus": 8,
+        "DamageDealtScaled.Basic": 1.5,
+        "DamageDealtScaled.Ability": 1.5,
+        "VitalMaxArray.Life": 60
+      },
+      {
+        "KillXPBonus": 8,
+        "DamageDealtScaled.Basic": 1.5,
+        "DamageDealtScaled.Ability": 1.5,
+        "VitalMaxArray.Life": 60
+      },
+      {
+        "KillXPBonus": 8,
+        "DamageDealtScaled.Basic": 1.5,
+        "DamageDealtScaled.Ability": 1.5,
+        "VitalMaxArray.Life": 60
+      },
+      {
+        "KillXPBonus": 8,
+        "DamageDealtScaled.Basic": 2,
+        "DamageDealtScaled.Ability": 2,
+        "VitalMaxArray.Life": 80
+      },
+      {
+        "KillXPBonus": 8,
+        "DamageDealtScaled.Basic": 2,
+        "DamageDealtScaled.Ability": 2,
+        "VitalMaxArray.Life": 80
+      },
+      {
+        "KillXPBonus": 8,
+        "DamageDealtScaled.Basic": 2,
+        "DamageDealtScaled.Ability": 2,
+        "VitalMaxArray.Life": 80
+      },
+      {
+        "KillXPBonus": 8,
+        "DamageDealtScaled.Basic": 2,
+        "DamageDealtScaled.Ability": 2,
+        "VitalMaxArray.Life": 80
+      },
+      {
+        "KillXPBonus": 8,
+        "DamageDealtScaled.Basic": 2,
+        "DamageDealtScaled.Ability": 2,
+        "VitalMaxArray.Life": 80
+      },
+      {
+        "KillXPBonus": 8,
+        "DamageDealtScaled.Basic": 2.5,
+        "DamageDealtScaled.Ability": 2.5,
+        "VitalMaxArray.Life": 100
+      },
+      {
+        "KillXPBonus": 8,
+        "DamageDealtScaled.Basic": 2.5,
+        "DamageDealtScaled.Ability": 2.5,
+        "VitalMaxArray.Life": 100
+      },
+      {
+        "KillXPBonus": 8,
+        "DamageDealtScaled.Basic": 2.5,
+        "DamageDealtScaled.Ability": 2.5,
+        "VitalMaxArray.Life": 100
+      },
+      {
+        "KillXPBonus": 8,
+        "DamageDealtScaled.Basic": 2.5,
+        "DamageDealtScaled.Ability": 2.5,
+        "VitalMaxArray.Life": 100
+      },
+      {
+        "KillXPBonus": 8,
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3,
+        "VitalMaxArray.Life": 100
+      },
+      {
+        "KillXPBonus": 8,
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "KillXPBonus": 8,
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "KillXPBonus": 8,
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "KillXPBonus": 8,
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "KillXPBonus": 8,
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "KillXPBonus": 8,
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "KillXPBonus": 8,
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "KillXPBonus": 8,
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "KillXPBonus": 8,
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3,
+        "VitalMaxArray.Life": 120
+      },
+      {
+        "KillXPBonus": 8,
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3,
+        "VitalMaxArray.Life": 120
+      },
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {}
+    ],
+    "MercHenchmanLaner": [
+      {},
+      {
+        "DamageDealtScaled.Basic": 1.1,
+        "DamageDealtScaled.Ability": 1.1,
+        "VitalMaxArray.Life": 38
+      },
+      {
+        "DamageDealtScaled.Basic": 1.1,
+        "DamageDealtScaled.Ability": 1.1,
+        "VitalMaxArray.Life": 38
+      },
+      {
+        "DamageDealtScaled.Basic": 1.1,
+        "DamageDealtScaled.Ability": 1.1,
+        "VitalMaxArray.Life": 38
+      },
+      {
+        "DamageDealtScaled.Basic": 1.1,
+        "DamageDealtScaled.Ability": 1.1,
+        "VitalMaxArray.Life": 38
+      },
+      {
+        "DamageDealtScaled.Basic": 1.1,
+        "DamageDealtScaled.Ability": 1.1,
+        "VitalMaxArray.Life": 38
+      },
+      {
+        "DamageDealtScaled.Basic": 1.65,
+        "DamageDealtScaled.Ability": 1.65,
+        "VitalMaxArray.Life": 57
+      },
+      {
+        "DamageDealtScaled.Basic": 1.65,
+        "DamageDealtScaled.Ability": 1.65,
+        "VitalMaxArray.Life": 57
+      },
+      {
+        "DamageDealtScaled.Basic": 1.65,
+        "DamageDealtScaled.Ability": 1.65,
+        "VitalMaxArray.Life": 57
+      },
+      {
+        "DamageDealtScaled.Basic": 1.65,
+        "DamageDealtScaled.Ability": 1.65,
+        "VitalMaxArray.Life": 57
+      },
+      {
+        "DamageDealtScaled.Basic": 1.65,
+        "DamageDealtScaled.Ability": 1.65,
+        "VitalMaxArray.Life": 57
+      },
+      {
+        "DamageDealtScaled.Basic": 2.2,
+        "DamageDealtScaled.Ability": 2.2,
+        "VitalMaxArray.Life": 76
+      },
+      {
+        "DamageDealtScaled.Basic": 2.2,
+        "DamageDealtScaled.Ability": 2.2,
+        "VitalMaxArray.Life": 76
+      },
+      {
+        "DamageDealtScaled.Basic": 2.2,
+        "DamageDealtScaled.Ability": 2.2,
+        "VitalMaxArray.Life": 76
+      },
+      {
+        "DamageDealtScaled.Basic": 2.2,
+        "DamageDealtScaled.Ability": 2.2,
+        "VitalMaxArray.Life": 76
+      },
+      {
+        "DamageDealtScaled.Basic": 2.2,
+        "DamageDealtScaled.Ability": 2.2,
+        "VitalMaxArray.Life": 76
+      },
+      {
+        "DamageDealtScaled.Basic": 2.75,
+        "DamageDealtScaled.Ability": 2.75,
+        "VitalMaxArray.Life": 95
+      },
+      {
+        "DamageDealtScaled.Basic": 2.75,
+        "DamageDealtScaled.Ability": 2.75,
+        "VitalMaxArray.Life": 95
+      },
+      {
+        "DamageDealtScaled.Basic": 2.75,
+        "DamageDealtScaled.Ability": 2.75,
+        "VitalMaxArray.Life": 95
+      },
+      {
+        "DamageDealtScaled.Basic": 2.75,
+        "DamageDealtScaled.Ability": 2.75,
+        "VitalMaxArray.Life": 95
+      },
+      {
+        "DamageDealtScaled.Basic": 2.75,
+        "DamageDealtScaled.Ability": 2.75,
+        "VitalMaxArray.Life": 95
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
+      },
+      {
+        "DamageDealtScaled.Basic": 3,
+        "DamageDealtScaled.Ability": 3.3,
+        "VitalMaxArray.Life": 114
       }
     ],
     "MercenaryLanerSwordsmanScaling": [
