@@ -1,6 +1,6 @@
 {
   "meta": {
-    "heroesVersion": "2.57.0.98348",
+    "heroesVersion": "2.57.1.98746",
     "hdpVersion": "5.1.0",
     "itemsType": "Data",
     "dataType": "HeroData",
@@ -31710,6 +31710,7 @@
         }
       ],
       "skinIds": [
+        "MephistoMoophisto",
         "MephistoStarWraith",
         "MephistoToys19"
       ],
@@ -43012,9 +43013,9 @@
         "targetInfo": "storm_ui_ingame_partyframe_tinker.png"
       },
       "life": {
-        "amount": 2275,
+        "amount": 2375,
         "scale": 0.04,
-        "regenRate": 4.74,
+        "regenRate": 4.94,
         "regenScale": 0.04
       },
       "energy": {
@@ -43039,7 +43040,7 @@
           "range": 1.25,
           "minimumRange": 0,
           "period": 0.8,
-          "damage": 100,
+          "damage": 105,
           "damageScale": 0.04
         }
       ],
@@ -49374,7 +49375,7 @@
       "life": {
         "amount": 1330,
         "scale": 0.04,
-        "regenRate": 2.6484,
+        "regenRate": 2.7708,
         "regenScale": 0.04
       },
       "energy": {
@@ -49458,8 +49459,8 @@
         ],
         "Heroic": [
           {
-            "linkId": "XalatathVoidEruption|XalatathVoidEruption|Heroic",
-            "abilityId": "XalatathVoidEruption",
+            "linkId": "XalatathVoidEruptionV2|XalatathVoidEruption|Heroic",
+            "abilityId": "XalatathVoidEruptionV2",
             "buttonId": "XalatathVoidEruption",
             "icon": "storm_ui_icon_xalatath_r1_voideruption.png",
             "abilityType": "Heroic"
@@ -49510,6 +49511,18 @@
               "icon": "hud_btn_bg_ability_cancel.png",
               "toggleCooldown": 0.25,
               "abilityType": "E"
+            }
+          ]
+        },
+        "XalatathVoidEruptionV2|XalatathVoidEruption|Heroic": {
+          "Heroic": [
+            {
+              "linkId": "XalatathVoidEruptionV2Cancel|XalatathVoidEruptionCancel|Heroic",
+              "abilityId": "XalatathVoidEruptionV2Cancel",
+              "buttonId": "XalatathVoidEruptionCancel",
+              "icon": "hud_btn_bg_ability_cancel.png",
+              "toggleCooldown": 0.5,
+              "abilityType": "Heroic"
             }
           ]
         },
@@ -49674,7 +49687,7 @@
             "linkId": "XalatathHeroicAbilityVoidEruption|XalatathVoidEruption|Heroic|Level10",
             "talentId": "XalatathHeroicAbilityVoidEruption",
             "buttonId": "XalatathVoidEruption",
-            "abilityId": "XalatathVoidEruption",
+            "abilityId": "XalatathVoidEruptionV2",
             "icon": "storm_ui_icon_xalatath_r1_voideruption.png",
             "abilityType": "Heroic",
             "isQuest": false,
@@ -49794,7 +49807,7 @@
             "linkId": "XalatathOrbitalEruption|XalatathOrbitalEruption|Heroic|Level20",
             "talentId": "XalatathOrbitalEruption",
             "buttonId": "XalatathOrbitalEruption",
-            "abilityId": "XalatathVoidEruption",
+            "abilityId": "XalatathVoidEruptionV2",
             "icon": "storm_ui_icon_xalatath_r1_voideruption_b.png",
             "abilityType": "Heroic",
             "isQuest": false,
@@ -49802,7 +49815,7 @@
             "hasHotkey": true,
             "sort": 1,
             "tooltipAbilityLinkIds": [
-              "XalatathVoidEruption|XalatathVoidEruption|Heroic"
+              "XalatathVoidEruptionV2|XalatathVoidEruption|Heroic"
             ],
             "prerequisiteTalentIds": [
               "XalatathHeroicAbilityVoidEruption"
