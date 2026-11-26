@@ -15,8 +15,8 @@
       "shortText": "Protège un héros allié contre les dégâts."
     },
     "MedivhPortalInstant|MedivhPortal|E": {
-      "cooldownText": "Temps de recharge :<sp/>\"0 s\"",
-      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana : \"0\"</s>",
+      "cooldownText": "Temps de recharge :<sp/>20 s",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana : 65</s>",
       "fullText": "Crée deux portails entre la position de Medivh et l’emplacement ciblé, permettant aux alliés de se téléporter de l’un à l’autre. Les portails durent <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> secondes.",
       "name": "Portail",
       "shortText": "Crée un portail que Medivh et ses alliés peuvent emprunter."
@@ -62,8 +62,8 @@
       "name": "Annuler Forme de corbeau"
     },
     "MedivhPortal2|MedivhPortal|E": {
-      "cooldownText": "Temps de recharge :<sp/>\"0 s\"",
-      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana : \"0\"</s>",
+      "cooldownText": "Temps de recharge :<sp/>20 s",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana : 65</s>",
       "fullText": "Crée deux portails entre la position de Medivh et l’emplacement ciblé, permettant aux alliés de se téléporter de l’un à l’autre. Les portails durent <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> secondes.",
       "name": "Portail",
       "shortText": "Crée un portail que Medivh et ses alliés peuvent emprunter."
@@ -73,15 +73,15 @@
       "name": "Annuler le portail"
     },
     "MedivhPortalMastery|MedivhPortalPortalMastery|Active": {
-      "cooldownText": "Temps de recharge :<sp/>\"0 s\"",
-      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana : \"0\"</s>",
+      "cooldownText": "Temps de recharge :<sp/>20 s",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana : 130</s>",
       "fullText": "Crée un portail d’entrée ou de sortie à l’endroit ciblé.<n/><n/><c val=\"ffff80\" hlt-name=\"#ColorCreamYellow\">Activer le trait de Medivh annule un portail non relié.</c>",
       "name": "Portail",
       "shortText": "Crée un portail que Medivh et ses alliés peuvent emprunter."
     },
     "MedivhDustOfAppearance|MedivhDustOfAppearance|Active": {
       "cooldownText": "Temps de recharge : 40 secondes",
-      "fullText": "\"Augmente fortement le champ de vision pendant <c val=\"\"#TooltipNumbers\"\">0</c> s et révèle les héros adverses dans la zone pendant <c val=\"\"#TooltipNumbers\"\">0</c> s. N’annule pas la forme de corbeau.<n/><n/><c val=\"\"#AbilityPassive\"\">Effet passif :</c> augmente le champ de vision de Medivh en forme de corbeau de <c val=\"\"#TooltipNumbers\"\">0 %</c>.\"",
+      "fullText": "Augmente fortement le champ de vision pendant <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> s et révèle les héros adverses dans la zone pendant <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c> s. N’annule pas la forme de corbeau.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Effet passif :</c> augmente le champ de vision de Medivh en forme de corbeau de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25 %</c>.",
       "name": "Poussière révélatrice",
       "shortText": "Révèle les héros proches."
     },
@@ -105,7 +105,7 @@
   },
   "talents": {
     "MedivhTransformRavenWindsOfCelerity|MedivhTransformRavenWindsOfCelerity|Z|Level1": {
-      "fullText": "\"Augmente le bonus à la vitesse de déplacement sous forme de corbeau de <c val=\"\"#TooltipNumbers\"\">0 %</c> et réduit la vitesse d’incantation de <c val=\"\"#TooltipNumbers\"\">0,25</c> s.\"",
+      "fullText": "Augmente le bonus à la vitesse de déplacement sous forme de corbeau de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100 %</c> et réduit la vitesse d’incantation de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0,25</c> s.",
       "name": "Vents de célérité",
       "shortText": "Augmente les vitesses de déplacement et d’incantation sous forme de corbeau."
     },
@@ -117,7 +117,7 @@
     "MedivhPortalPortalMastery|MedivhPortalPortalMasteryTalent|Active|Level1": {
       "cooldownText": "Temps de recharge :<sp/>20 secondes",
       "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana : 130</s>",
-      "fullText": "\"<c val=\"\"#TooltipRed\"\">+0 %</c> au coût en mana de création de portail.<n/>Medivh peut placer manuellement les deux portails.<n/><n/><c val=\"\"#ColorCreamYellow\"\">Activer le trait de Medivh annule un portail non relié</c>.\"",
+      "fullText": "<c val=\"ff1100\" hlt-name=\"#TooltipRed\">+100 %</c> au coût en mana de création de portail.<n/>Medivh peut placer manuellement les deux portails.<n/><n/><c val=\"ffff80\" hlt-name=\"#ColorCreamYellow\">Activer le trait de Medivh annule un portail non relié</c>.",
       "name": "Maîtrise du portail",
       "shortText": "Permet de placer les deux portails."
     },
@@ -133,7 +133,7 @@
     },
     "MedivhDustOfAppearance|MedivhDustOfAppearance|Active|Level4": {
       "cooldownText": "Temps de recharge : 40 secondes",
-      "fullText": "\"Augmente fortement le champ de vision pendant <c val=\"\"#TooltipNumbers\"\">0</c> s et révèle les héros adverses dans la zone pendant <c val=\"\"#TooltipNumbers\"\">0</c> s. N’annule pas la forme de corbeau.<n/><n/><c val=\"\"#AbilityPassive\"\">Effet passif :</c> augmente le champ de vision de Medivh en forme de corbeau de <c val=\"\"#TooltipNumbers\"\">0 %</c>.\"",
+      "fullText": "Augmente fortement le champ de vision pendant <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> s et révèle les héros adverses dans la zone pendant <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c> s. N’annule pas la forme de corbeau.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Effet passif :</c> augmente le champ de vision de Medivh en forme de corbeau de <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25 %</c>.",
       "name": "Poussière révélatrice",
       "shortText": "Révèle les héros proches."
     },

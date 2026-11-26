@@ -15,8 +15,8 @@
       "shortText": "Protege a un héroe aliado del daño"
     },
     "MedivhPortalInstant|MedivhPortal|E": {
-      "cooldownText": "Tiempo de reutilización: \"0 segundos\"",
-      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Maná: \"0\"</s>",
+      "cooldownText": "Tiempo de reutilización: 20 segundos",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Maná: 65</s>",
       "fullText": "Crea un conjunto de portales entre la posición de Medivh y la ubicación objetivo y permite que los aliados se teletransporten entre ellos. Los portales duran <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> segundos.",
       "name": "Portal",
       "shortText": "Crea un portal que los aliados pueden atravesar"
@@ -62,8 +62,8 @@
       "name": "Cancelar Forma de cuervo"
     },
     "MedivhPortal2|MedivhPortal|E": {
-      "cooldownText": "Tiempo de reutilización: \"0 segundos\"",
-      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Maná: \"0\"</s>",
+      "cooldownText": "Tiempo de reutilización: 20 segundos",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Maná: 65</s>",
       "fullText": "Crea un conjunto de portales entre la posición de Medivh y la ubicación objetivo y permite que los aliados se teletransporten entre ellos. Los portales duran <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> segundos.",
       "name": "Portal",
       "shortText": "Crea un portal que los aliados pueden atravesar"
@@ -73,15 +73,15 @@
       "name": "Cancelar Portal"
     },
     "MedivhPortalMastery|MedivhPortalPortalMastery|Active": {
-      "cooldownText": "Tiempo de reutilización: \"0 segundos\"",
-      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Maná: \"0\"</s>",
+      "cooldownText": "Tiempo de reutilización: 20 segundos",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Maná: 130</s>",
       "fullText": "Crea una entrada o salida de un Portal en la ubicación objetivo. <n/><n/><c val=\"ffff80\" hlt-name=\"#ColorCreamYellow\">Activa el atributo de Medivh para cancelar un portal aislado</c>.",
       "name": "Portal",
       "shortText": "Crea un portal que los aliados pueden atravesar"
     },
     "MedivhDustOfAppearance|MedivhDustOfAppearance|Active": {
       "cooldownText": "Tiempo de reutilización: 40 segundos",
-      "fullText": "\"Activar para aumentar notablemente el campo visual durante <c val=\"\"#TooltipNumbers\"\">0</c> segundos y revelar a los héroes enemigos en el área durante <c val=\"\"#TooltipNumbers\"\">0</c> segundos. No cancela la Forma de cuervo.<n/><n/><c val=\"\"#AbilityPassive\"\">Pasivo:</c> Aumenta un <c val=\"\"#TooltipNumbers\"\">0%</c> el campo visual de Medivh mientras está en Forma de cuervo.\"",
+      "fullText": "Activar para aumentar notablemente el campo visual durante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> segundos y revelar a los héroes enemigos en el área durante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c> segundos. No cancela la Forma de cuervo.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Pasivo:</c> Aumenta un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> el campo visual de Medivh mientras está en Forma de cuervo.",
       "name": "Polvo revelador",
       "shortText": "Activar para revelar a los héroes cercanos"
     },
@@ -105,7 +105,7 @@
   },
   "talents": {
     "MedivhTransformRavenWindsOfCelerity|MedivhTransformRavenWindsOfCelerity|Z|Level1": {
-      "fullText": "\"Aumenta un <c val=\"\"#TooltipNumbers\"\">0%</c> la bonificación de velocidad de movimiento de Forma de cuervo y reduce <c val=\"\"#TooltipNumbers\"\">0.25</c> segundos el tiempo de lanzamiento.\"",
+      "fullText": "Aumenta un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> la bonificación de velocidad de movimiento de Forma de cuervo y reduce <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.25</c> segundos el tiempo de lanzamiento.",
       "name": "Vientos céleres",
       "shortText": "Aumenta la velocidad de movimiento y lanzamiento en Forma de cuervo"
     },
@@ -117,7 +117,7 @@
     "MedivhPortalPortalMastery|MedivhPortalPortalMasteryTalent|Active|Level1": {
       "cooldownText": "Tiempo de reutilización: 20 segundos",
       "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Maná: 130</s>",
-      "fullText": "\"<c val=\"\"#TooltipRed\"\">+0%</c> de costo de maná de Portal<n/>Medivh puede colocar los dos portales manualmente. <n/><n/><c val=\"\"#ColorCreamYellow\"\">Activa el atributo de Medivh para cancelar un portal aislado</c>.\"",
+      "fullText": "<c val=\"ff1100\" hlt-name=\"#TooltipRed\">+100%</c> de costo de maná de Portal<n/>Medivh puede colocar los dos portales manualmente. <n/><n/><c val=\"ffff80\" hlt-name=\"#ColorCreamYellow\">Activa el atributo de Medivh para cancelar un portal aislado</c>.",
       "name": "Maestría en portales",
       "shortText": "Puedes elegir la ubicación de los dos portales"
     },
@@ -133,7 +133,7 @@
     },
     "MedivhDustOfAppearance|MedivhDustOfAppearance|Active|Level4": {
       "cooldownText": "Tiempo de reutilización: 40 segundos",
-      "fullText": "\"Activar para aumentar notablemente el campo visual durante <c val=\"\"#TooltipNumbers\"\">0</c> segundos y revelar a los héroes enemigos en el área durante <c val=\"\"#TooltipNumbers\"\">0</c> segundos. No cancela la Forma de cuervo.<n/><n/><c val=\"\"#AbilityPassive\"\">Pasivo:</c> Aumenta un <c val=\"\"#TooltipNumbers\"\">0%</c> el campo visual de Medivh mientras está en Forma de cuervo.\"",
+      "fullText": "Activar para aumentar notablemente el campo visual durante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> segundos y revelar a los héroes enemigos en el área durante <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c> segundos. No cancela la Forma de cuervo.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Pasivo:</c> Aumenta un <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> el campo visual de Medivh mientras está en Forma de cuervo.",
       "name": "Polvo revelador",
       "shortText": "Activar para revelar a los héroes cercanos"
     },
