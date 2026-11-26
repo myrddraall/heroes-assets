@@ -15,8 +15,8 @@
       "shortText": "아군 영웅을 모든 피해로부터 보호"
     },
     "MedivhPortalInstant|MedivhPortal|E": {
-      "cooldownText": "재사용 대기시간: \"0초\"",
-      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">마나: \"0\"</s>",
+      "cooldownText": "재사용 대기시간: 20초",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">마나: 65</s>",
       "fullText": "현재 위치와 대상 위치에 차원문을 소환합니다. 아군은 차원문을 이용하여 다른 쪽 차원문으로 순간이동할 수 있습니다. 차원문은 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c>초 동안 지속됩니다.",
       "name": "차원문",
       "shortText": "아군이 넘나들 수 있는 차원문 소환"
@@ -62,8 +62,8 @@
       "name": "까마귀 형상 취소"
     },
     "MedivhPortal2|MedivhPortal|E": {
-      "cooldownText": "재사용 대기시간: \"0초\"",
-      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">마나: \"0\"</s>",
+      "cooldownText": "재사용 대기시간: 20초",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">마나: 65</s>",
       "fullText": "현재 위치와 대상 위치에 차원문을 소환합니다. 아군은 차원문을 이용하여 다른 쪽 차원문으로 순간이동할 수 있습니다. 차원문은 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c>초 동안 지속됩니다.",
       "name": "차원문",
       "shortText": "아군이 넘나들 수 있는 차원문 소환"
@@ -73,15 +73,15 @@
       "name": "차원문 취소"
     },
     "MedivhPortalMastery|MedivhPortalPortalMastery|Active": {
-      "cooldownText": "재사용 대기시간: \"0초\"",
-      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">마나: \"0\"</s>",
+      "cooldownText": "재사용 대기시간: 20초",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">마나: 130</s>",
       "fullText": "대상 위치에 차원문의 입구 또는 출구를 지정할 수 있습니다.<n/><n/><c val=\"ffff80\" hlt-name=\"#ColorCreamYellow\">고유 능력을 사용하면 아직 연결되지 않은 차원문을 취소할 수 있습니다</c>",
       "name": "차원문",
       "shortText": "아군이 넘나들 수 있는 차원문 소환"
     },
     "MedivhDustOfAppearance|MedivhDustOfAppearance|Active": {
       "cooldownText": "재사용 대기시간: 40초",
-      "fullText": "\"사용하면 <c val=\"\"#TooltipNumbers\"\">0</c>초 동안 시야 반경이 크게 증가하고 주위 적 영웅들을 <c val=\"\"#TooltipNumbers\"\">0</c>초 동안 드러냅니다. 까마귀 형상 중에도 사용할 수 있습니다.<n/><n/><c val=\"\"#AbilityPassive\"\">지속 효과:</c> 까마귀 형상일 때 시야 반경이 <c val=\"\"#TooltipNumbers\"\">0%</c> 증가합니다.\"",
+      "fullText": "사용하면 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>초 동안 시야 반경이 크게 증가하고 주위 적 영웅들을 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c>초 동안 드러냅니다. 까마귀 형상 중에도 사용할 수 있습니다.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">지속 효과:</c> 까마귀 형상일 때 시야 반경이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> 증가합니다.",
       "name": "현시의 가루",
       "shortText": "사용 시 주위 적 영웅들을 드러냄"
     },
@@ -105,7 +105,7 @@
   },
   "talents": {
     "MedivhTransformRavenWindsOfCelerity|MedivhTransformRavenWindsOfCelerity|Z|Level1": {
-      "fullText": "\"까마귀 형상의 이동 속도 증가량이 <c val=\"\"#TooltipNumbers\"\">0%</c> 증가하고 시전 시간이 <c val=\"\"#TooltipNumbers\"\">0.25</c>초 감소합니다.\"",
+      "fullText": "까마귀 형상의 이동 속도 증가량이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> 증가하고 시전 시간이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.25</c>초 감소합니다.",
       "name": "기민함의 바람",
       "shortText": "까마귀 형상 이동 및 시전 속도 증가"
     },
@@ -117,7 +117,7 @@
     "MedivhPortalPortalMastery|MedivhPortalPortalMasteryTalent|Active|Level1": {
       "cooldownText": "재사용 대기시간: 20초",
       "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">마나: 130</s>",
-      "fullText": "\"차원문 마나 소모량 <c val=\"\"#TooltipRed\"\">+0%</c><n/>두 차원문의 위치를 모두 지정할 수 있습니다.<n/><n/><c val=\"\"#ColorCreamYellow\"\">고유 능력을 사용하면 아직 연결되지 않은 차원문을 취소할 수 있습니다.</c>\"",
+      "fullText": "차원문 마나 소모량 <c val=\"ff1100\" hlt-name=\"#TooltipRed\">+100%</c><n/>두 차원문의 위치를 모두 지정할 수 있습니다.<n/><n/><c val=\"ffff80\" hlt-name=\"#ColorCreamYellow\">고유 능력을 사용하면 아직 연결되지 않은 차원문을 취소할 수 있습니다.</c>",
       "name": "차원문 특화",
       "shortText": "두 차원문의 위치 모두 지정 가능"
     },
@@ -133,7 +133,7 @@
     },
     "MedivhDustOfAppearance|MedivhDustOfAppearance|Active|Level4": {
       "cooldownText": "재사용 대기시간: 40초",
-      "fullText": "\"사용하면 <c val=\"\"#TooltipNumbers\"\">0</c>초 동안 시야 반경이 크게 증가하고 주위 적 영웅들을 <c val=\"\"#TooltipNumbers\"\">0</c>초 동안 드러냅니다. 까마귀 형상 중에도 사용할 수 있습니다.<n/><n/><c val=\"\"#AbilityPassive\"\">지속 효과:</c> 까마귀 형상일 때 시야 반경이 <c val=\"\"#TooltipNumbers\"\">0%</c> 증가합니다.\"",
+      "fullText": "사용하면 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>초 동안 시야 반경이 크게 증가하고 주위 적 영웅들을 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c>초 동안 드러냅니다. 까마귀 형상 중에도 사용할 수 있습니다.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">지속 효과:</c> 까마귀 형상일 때 시야 반경이 <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> 증가합니다.",
       "name": "현시의 가루",
       "shortText": "사용 시 주위 적 영웅들을 드러냄"
     },

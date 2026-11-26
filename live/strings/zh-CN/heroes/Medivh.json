@@ -15,8 +15,8 @@
       "shortText": "保护一名友方英雄免受伤害"
     },
     "MedivhPortalInstant|MedivhPortal|E": {
-      "cooldownText": "冷却时间：\"0秒\"",
-      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">法力值：\"0\"</s>",
+      "cooldownText": "冷却时间：20秒",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">法力值：65</s>",
       "fullText": "在麦迪文和目标位置之间制造一组传送门，使盟友可以在两者之间传送。传送门持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c>秒。",
       "name": "传送门",
       "shortText": "召唤一个盟友可以穿越的传送门"
@@ -62,8 +62,8 @@
       "name": "取消乌鸦形态"
     },
     "MedivhPortal2|MedivhPortal|E": {
-      "cooldownText": "冷却时间：\"0秒\"",
-      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">法力值：\"0\"</s>",
+      "cooldownText": "冷却时间：20秒",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">法力值：65</s>",
       "fullText": "在麦迪文和目标位置之间制造一组传送门，使盟友可以在两者之间传送。传送门持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c>秒。",
       "name": "传送门",
       "shortText": "召唤一个盟友可以穿越的传送门"
@@ -73,15 +73,15 @@
       "name": "取消传送门"
     },
     "MedivhPortalMastery|MedivhPortalPortalMastery|Active": {
-      "cooldownText": "冷却时间：\"0秒\"",
-      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">法力值：\"0\"</s>",
+      "cooldownText": "冷却时间：20秒",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">法力值：130</s>",
       "fullText": "在目标位置制造一个传送门入口或出口。<n/><n/><c val=\"ffff80\" hlt-name=\"#ColorCreamYellow\">激活麦迪文的特质可以取消未连接的传送门</c>。",
       "name": "传送门",
       "shortText": "制造一个盟友可以通行的传送门"
     },
     "MedivhDustOfAppearance|MedivhDustOfAppearance|Active": {
       "cooldownText": "冷却时间：40秒",
-      "fullText": "\"激活后大幅扩大视野范围，持续<c val=\"\"#TooltipNumbers\"\">0</c>秒，并暴露范围内的敌方英雄，持续<c val=\"\"#TooltipNumbers\"\">0</c>秒。不会取消乌鸦形态。<n/><n/><c val=\"\"#AbilityPassive\"\">被动：</c>麦迪文在乌鸦形态下的视野范围扩大<c val=\"\"#TooltipNumbers\"\">0%</c>。\"",
+      "fullText": "激活后大幅扩大视野范围，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>秒，并暴露范围内的敌方英雄，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c>秒。不会取消乌鸦形态。<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">被动：</c>麦迪文在乌鸦形态下的视野范围扩大<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>。",
       "name": "显影之尘",
       "shortText": "激活后暴露附近的英雄"
     },
@@ -105,7 +105,7 @@
   },
   "talents": {
     "MedivhTransformRavenWindsOfCelerity|MedivhTransformRavenWindsOfCelerity|Z|Level1": {
-      "fullText": "\"乌鸦形态的移动速度加成提高<c val=\"\"#TooltipNumbers\"\">0%</c>，施法时间缩短<c val=\"\"#TooltipNumbers\"\">0.25</c>秒。\"",
+      "fullText": "乌鸦形态的移动速度加成提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c>，施法时间缩短<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.25</c>秒。",
       "name": "灵犀之风",
       "shortText": "提高乌鸦形态的移动速度与施法速度"
     },
@@ -117,7 +117,7 @@
     "MedivhPortalPortalMastery|MedivhPortalPortalMasteryTalent|Active|Level1": {
       "cooldownText": "冷却时间：20秒",
       "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">法力值：130</s>",
-      "fullText": "\"传送门的法力消耗<c val=\"\"#TooltipRed\"\">+0%</c>。<n/>麦迪文可以手动放置传送门两端的位置。<n/><n/><c val=\"\"#ColorCreamYellow\"\">激活麦迪文的特质可以取消未连接的传送门</c>。\"",
+      "fullText": "传送门的法力消耗<c val=\"ff1100\" hlt-name=\"#TooltipRed\">+100%</c>。<n/>麦迪文可以手动放置传送门两端的位置。<n/><n/><c val=\"ffff80\" hlt-name=\"#ColorCreamYellow\">激活麦迪文的特质可以取消未连接的传送门</c>。",
       "name": "传送门专精",
       "shortText": "控制两个传送门的位置"
     },
@@ -133,7 +133,7 @@
     },
     "MedivhDustOfAppearance|MedivhDustOfAppearance|Active|Level4": {
       "cooldownText": "冷却时间：40秒",
-      "fullText": "\"激活后大幅扩大视野范围，持续<c val=\"\"#TooltipNumbers\"\">0</c>秒，并暴露范围内的敌方英雄，持续<c val=\"\"#TooltipNumbers\"\">0</c>秒。不会取消乌鸦形态。<n/><n/><c val=\"\"#AbilityPassive\"\">被动：</c>麦迪文在乌鸦形态下的视野范围扩大<c val=\"\"#TooltipNumbers\"\">0%</c>。\"",
+      "fullText": "激活后大幅扩大视野范围，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>秒，并暴露范围内的敌方英雄，持续<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c>秒。不会取消乌鸦形态。<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">被动：</c>麦迪文在乌鸦形态下的视野范围扩大<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>。",
       "name": "显影之尘",
       "shortText": "激活后暴露附近的英雄"
     },
