@@ -15,8 +15,8 @@
       "shortText": "Protegge un eroe alleato da tutti i danni."
     },
     "MedivhPortalInstant|MedivhPortal|E": {
-      "cooldownText": "Recupero: \"0 s\"",
-      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: \"0\"</s>",
+      "cooldownText": "Recupero: 20 s",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 65</s>",
       "fullText": "Crea due portali tra Medivh e il punto selezionato, consentendo agli alleati di usarli per teletrasportarsi. I portali durano <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> s.",
       "name": "Portale",
       "shortText": "Crea un portale che può essere usato dagli alleati."
@@ -62,8 +62,8 @@
       "name": "Annulla Forma di Corvo"
     },
     "MedivhPortal2|MedivhPortal|E": {
-      "cooldownText": "Recupero: \"0 s\"",
-      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: \"0\"</s>",
+      "cooldownText": "Recupero: 20 s",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 65</s>",
       "fullText": "Crea due portali tra Medivh e il punto selezionato, consentendo agli alleati di usarli per teletrasportarsi. I portali durano <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c> s.",
       "name": "Portale",
       "shortText": "Crea un portale che può essere usato dagli alleati."
@@ -73,15 +73,15 @@
       "name": "Annulla Portale"
     },
     "MedivhPortalMastery|MedivhPortalPortalMastery|Active": {
-      "cooldownText": "Recupero: \"0 s\"",
-      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: \"0\"</s>",
+      "cooldownText": "Recupero: 20 s",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 130</s>",
       "fullText": "Medivh crea un portale nella posizione selezionata. <n/><n/><c val=\"ffff80\" hlt-name=\"#ColorCreamYellow\">Attivare il tratto annulla un portale non collegato</c>.",
       "name": "Portale",
       "shortText": "Crea un portale che può essere usato dagli alleati."
     },
     "MedivhDustOfAppearance|MedivhDustOfAppearance|Active": {
       "cooldownText": "Recupero: 40 s",
-      "fullText": "\"All'attivazione estende la visuale per <c val=\"\"#TooltipNumbers\"\">0</c> s e rivela gli eroi nemici nell'area per <c val=\"\"#TooltipNumbers\"\">0</c> s. Non interrompe Forma di Corvo.<n/><n/><c val=\"\"#AbilityPassive\"\">Passiva:</c> Estende del <c val=\"\"#TooltipNumbers\"\">0%</c> la visuale di Medivh in Forma di Corvo.\"",
+      "fullText": "All'attivazione estende la visuale per <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> s e rivela gli eroi nemici nell'area per <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c> s. Non interrompe Forma di Corvo.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Passiva:</c> Estende del <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> la visuale di Medivh in Forma di Corvo.",
       "name": "Polvere dell'Apparenza",
       "shortText": "All'attivazione rivela gli eroi nell'area circostante."
     },
@@ -105,7 +105,7 @@
   },
   "talents": {
     "MedivhTransformRavenWindsOfCelerity|MedivhTransformRavenWindsOfCelerity|Z|Level1": {
-      "fullText": "\"Aumenta il bonus alla velocità di movimento della Forma di Corvo del <c val=\"\"#TooltipNumbers\"\">0%</c> e riduce il tempo di lancio di <c val=\"\"#TooltipNumbers\"\">0,25</c> s.\"",
+      "fullText": "Aumenta il bonus alla velocità di movimento della Forma di Corvo del <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c> e riduce il tempo di lancio di <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0,25</c> s.",
       "name": "Venti della Fluidità",
       "shortText": "Aumenta la velocità di lancio e di movimento in Forma di Corvo"
     },
@@ -117,7 +117,7 @@
     "MedivhPortalPortalMastery|MedivhPortalPortalMasteryTalent|Active|Level1": {
       "cooldownText": "Recupero: 20 s",
       "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">Mana: 130</s>",
-      "fullText": "\"<c val=\"\"#TooltipRed\"\">+0%</c> al costo in Mana del portale.<n/>Medivh può posizionare manualmente entrambi i portali.<n/><n/><c val=\"\"#ColorCreamYellow\"\">Attivare il tratto annulla un portale non collegato.</c>\"",
+      "fullText": "<c val=\"ff1100\" hlt-name=\"#TooltipRed\">+100%</c> al costo in Mana del portale.<n/>Medivh può posizionare manualmente entrambi i portali.<n/><n/><c val=\"ffff80\" hlt-name=\"#ColorCreamYellow\">Attivare il tratto annulla un portale non collegato.</c>",
       "name": "Maestria del Portale",
       "shortText": "Consente di scegliere la posizione di entrambi i portali."
     },
@@ -133,7 +133,7 @@
     },
     "MedivhDustOfAppearance|MedivhDustOfAppearance|Active|Level4": {
       "cooldownText": "Recupero: 40 s",
-      "fullText": "\"All'attivazione estende la visuale per <c val=\"\"#TooltipNumbers\"\">0</c> s e rivela gli eroi nemici nell'area per <c val=\"\"#TooltipNumbers\"\">0</c> s. Non interrompe Forma di Corvo.<n/><n/><c val=\"\"#AbilityPassive\"\">Passiva:</c> Estende del <c val=\"\"#TooltipNumbers\"\">0%</c> la visuale di Medivh in Forma di Corvo.\"",
+      "fullText": "All'attivazione estende la visuale per <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c> s e rivela gli eroi nemici nell'area per <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c> s. Non interrompe Forma di Corvo.<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">Passiva:</c> Estende del <c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c> la visuale di Medivh in Forma di Corvo.",
       "name": "Polvere dell'Apparenza",
       "shortText": "All'attivazione rivela gli eroi nell'area circostante."
     },

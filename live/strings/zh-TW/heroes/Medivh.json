@@ -15,8 +15,8 @@
       "shortText": "使一名友方英雄免疫所有傷害"
     },
     "MedivhPortalInstant|MedivhPortal|E": {
-      "cooldownText": "冷卻時間：\"0秒\"",
-      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">法力：\"0\"點</s>",
+      "cooldownText": "冷卻時間：20秒",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">法力：65點</s>",
       "fullText": "在目標地點和麥迪文所在位置設置一組彼此連結的傳送門，讓盟友往返兩處。傳送門的存在時間為<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c>秒。",
       "name": "傳送門",
       "shortText": "建立一個可讓盟友進入的傳送門"
@@ -62,8 +62,8 @@
       "name": "取消烏鴉形態"
     },
     "MedivhPortal2|MedivhPortal|E": {
-      "cooldownText": "冷卻時間：\"0秒\"",
-      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">法力：\"0\"點</s>",
+      "cooldownText": "冷卻時間：20秒",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">法力：65點</s>",
       "fullText": "在目標地點和麥迪文所在位置設置一組彼此連結的傳送門，讓盟友往返兩處。傳送門的存在時間為<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">6</c>秒。",
       "name": "傳送門",
       "shortText": "建立一個可讓盟友進入的傳送門"
@@ -73,15 +73,15 @@
       "name": "取消傳送門"
     },
     "MedivhPortalMastery|MedivhPortalPortalMastery|Active": {
-      "cooldownText": "冷卻時間：\"0秒\"",
-      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">法力：\"0\"點</s>",
+      "cooldownText": "冷卻時間：20秒",
+      "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">法力：130點</s>",
       "fullText": "在目標位置創造傳送門入口或出口。<n/><n/><c val=\"ffff80\" hlt-name=\"#ColorCreamYellow\">使用麥迪文的特性可取消尚未連結的傳送門</c>。",
       "name": "傳送門",
       "shortText": "建立一個可讓盟友進入的傳送門"
     },
     "MedivhDustOfAppearance|MedivhDustOfAppearance|Active": {
       "cooldownText": "冷卻時間：40秒",
-      "fullText": "\"使用後大幅提高視野，持續<c val=\"\"#TooltipNumbers\"\">0</c>秒，並且使範圍內敵方英雄現形，持續<c val=\"\"#TooltipNumbers\"\">0</c>秒。使用時不會解除烏鴉形態。<n/><n/><c val=\"\"#AbilityPassive\"\">被動：</c>麥迪文在烏鴉形態的視野提高<c val=\"\"#TooltipNumbers\"\">0%</c>。\"",
+      "fullText": "使用後大幅提高視野，持續<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>秒，並且使範圍內敵方英雄現形，持續<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c>秒。使用時不會解除烏鴉形態。<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">被動：</c>麥迪文在烏鴉形態的視野提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>。",
       "name": "現影之塵",
       "shortText": "使用後讓周圍的英雄現形"
     },
@@ -105,7 +105,7 @@
   },
   "talents": {
     "MedivhTransformRavenWindsOfCelerity|MedivhTransformRavenWindsOfCelerity|Z|Level1": {
-      "fullText": "\"烏鴉形態下，移動速度加成提高<c val=\"\"#TooltipNumbers\"\">0%</c>，施法時間降低<c val=\"\"#TooltipNumbers\"\">0.25</c>秒。\"",
+      "fullText": "烏鴉形態下，移動速度加成提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">100%</c>，施法時間降低<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">0.25</c>秒。",
       "name": "迅捷之風",
       "shortText": "提高烏鴉形態的移動速度與施法速度"
     },
@@ -117,7 +117,7 @@
     "MedivhPortalPortalMastery|MedivhPortalPortalMasteryTalent|Active|Level1": {
       "cooldownText": "冷卻時間：20秒",
       "energyText": "<s val=\"bfd4fd\" hlt-name=\"StandardTooltipDetails\">法力：130點</s>",
-      "fullText": "\"<c val=\"\"#TooltipRed\"\">+0%</c>傳送門法力消耗<n/>麥迪文可以決定兩個傳送門的設置位置。<n/><n/><c val=\"\"#ColorCreamYellow\"\">使用麥迪文的特性可取消尚未連結的傳送門</c>。\"",
+      "fullText": "<c val=\"ff1100\" hlt-name=\"#TooltipRed\">+100%</c>傳送門法力消耗<n/>麥迪文可以決定兩個傳送門的設置位置。<n/><n/><c val=\"ffff80\" hlt-name=\"#ColorCreamYellow\">使用麥迪文的特性可取消尚未連結的傳送門</c>。",
       "name": "傳送門大師",
       "shortText": "可決定兩個傳送門的位置"
     },
@@ -133,7 +133,7 @@
     },
     "MedivhDustOfAppearance|MedivhDustOfAppearance|Active|Level4": {
       "cooldownText": "冷卻時間：40秒",
-      "fullText": "\"使用後大幅提高視野，持續<c val=\"\"#TooltipNumbers\"\">0</c>秒，並且使範圍內敵方英雄現形，持續<c val=\"\"#TooltipNumbers\"\">0</c>秒。使用時不會解除烏鴉形態。<n/><n/><c val=\"\"#AbilityPassive\"\">被動：</c>麥迪文在烏鴉形態的視野提高<c val=\"\"#TooltipNumbers\"\">0%</c>。\"",
+      "fullText": "使用後大幅提高視野，持續<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">5</c>秒，並且使範圍內敵方英雄現形，持續<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">8</c>秒。使用時不會解除烏鴉形態。<n/><n/><c val=\"00ff90\" hlt-name=\"#AbilityPassive\">被動：</c>麥迪文在烏鴉形態的視野提高<c val=\"bfd4fd\" hlt-name=\"#TooltipNumbers\">25%</c>。",
       "name": "現影之塵",
       "shortText": "使用後讓周圍的英雄現形"
     },
